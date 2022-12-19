@@ -1,0 +1,151 @@
+* Array
+    * Sum of Numbers
+        1. 两数之和/Two Sum, E
+        15. 三数之和/3Sum, M
+        16. 最接近的三数之和/3Sum Closest, M
+        259. 较小的三数之和/3Sum Smaller, M
+        18. 四数之和/4Sum, M
+        167. 两数之和 II - 输入有序数组/Two Sum II - Input Array Is Sorted, M
+        Amazon Interview question, Two Sum closest, https://www.guozet.me/leetcode/Leetcode-Interview-Amazon-OA2-2Sum-Closest.html
+
+
+    * Remove Element in Arrys
+        27. 移除元素/Remove Element, E
+        26. 删除有序数组中的重复项/Remove Duplicates from Sorted Array, E
+        283. 移动零/Move Zeroes, E
+        977. 有序数组的平方/Squares of a Sorted Array, E
+
+
+    * Merge
+        88. 合并两个有序数组/Merge Sorted Array, E
+
+
+
+
+* String
+    * Basic/KMP
+        28. 实现 strStr()/Implement strStr(), E
+        344. 反转字符串/Reverse String, E
+        459. 重复的子字符串/Repeated Substring Pattern, E
+
+
+    * Anagram
+        242. 有效的字母异位词/Valid Anagram, E
+
+
+    * Advanced
+        151. 颠倒字符串中的单词/Reverse Words in a String, M
+        541. 反转字符串 II/Reverse String II, M
+
+
+
+
+* Linked List
+    * Basic operations
+        2. 两数相加/Add Two Numbers, M
+        206. 反转链表/Reverse Linked List, E
+
+
+    * Two Pointers
+        141. 环形链表/Linked List Cycle, E
+
+
+
+
+* Stack
+    * Basic operations
+        20. 有效的括号/Valid Parentheses, E
+        150. 逆波兰表达式求值/Evaluate Reverse Polish Notation, M
+        232. 用栈实现队列/Implement Queue using Stacks, E
+
+
+    * Advanced
+        42. 接雨水/Trapping Rain Water, H
+
+
+
+
+Queue
+    * Basic operations
+        225. 用队列实现栈/Implement Stack using Queues, E
+
+
+    * Advanced
+        239. 滑动窗口最大值/Sliding Window Maximum, H
+        347. 前 K 个高频元素/Top K Frequent Elements, M
+
+
+
+
+Hash
+    * Basic
+        349. 两个数组的交集/Intersection of Two Arrays, E
+
+
+    * Advanced
+        454. 四数相加 II/4Sum II, M
+
+
+
+
+* Math
+    * Integers
+        7. 整数反转/Reverse Integer, M
+
+
+    * Fibornacci
+        70. 爬楼梯/Climbing Stairs, E
+
+
+
+
+* Binary Search
+    * Basic
+        704. 二分查找/Binary Search, E
+        278. 第一个错误的版本/First Bad Version, E
+        74. 搜索二维矩阵/Search a 2d Matrix, M
+        162. 寻找峰值/Find Peak Element, M
+
+
+    * Duplicated or find cloest/range operations
+        69. x的平方根/Sqrt(x), E
+        744. 寻找比目标字母大的最小字母/Find Smallest Letter Greater Than Target, E
+        367. 有效的完全平方数/Valid Perfect Square, E
+        35. 搜索插入位置/Search Insert Position, E
+        34. 在排序数组中查找元素的第一个和最后一个位置/Find First and Last Position of Element in Sorted Array, M
+        540. 有序数组中的单一元素/Single Element in a Sorted Array, M
+
+
+    * Implicitly Sorted Array
+        153. 寻找旋转排序数组中的最小值/Find Minimum in Rotated Sorted Array, M
+        33. 搜索旋转排序数组/Search in Rotated Sorted Array, M
+
+
+    * Advanced
+        4. 寻找两个正序数组的中位数/Median of Two Sorted Arrays, H
+        475. 供暖器/Heaters, M
+        611. 有效三角形的个数/Valid Triangle Number, M
+        981. 基于时间的键值存储/Time Based Key-Value Store, M
+        875. 爱吃香蕉的珂珂/Koko Eating Bananas, M
+        1060. 有序数组中的缺失元素/Missing Element In Sorted Array, M
+        1901. 寻找峰值 II/Find A Peak Element II, M
+
+
+
+
+* Slidding Windows
+    * Basic
+        643. 子数组最大平均数 I/Maximum Average Subarray I, E
+
+
+    * Advanced
+        644. 子数组最大平均数 II/Maximum Average Subarray II, H
+
+
+
+
+
+
+
+/************************************************************************************************************/
+/************************************************************************************************************/

@@ -1,0 +1,1 @@
+return string.Join(" ", s.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).Reverse());

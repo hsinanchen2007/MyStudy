@@ -1,0 +1,19 @@
+xu-lie-hua-er-cha-shu-lcof
+请实现两个函数，分别用来序列化和反序列化二叉树。
+
+<strong>示例:</strong>
+
+<pre>你可以将以下二叉树：
+
+    1
+   / \
+  2   3
+     / \
+    4   5
+
+序列化为 <code>&quot;[1,2,3,null,null,4,5]&quot;</code></pre>
+
+注意：本题与主站 297 题相同：<a href="https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/">https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/</a>
+
+序列化二叉树
+English description is not available for the problem. Please switch to Chinese.

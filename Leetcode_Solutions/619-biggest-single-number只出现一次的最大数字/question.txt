@@ -1,0 +1,61 @@
+biggest-single-number
+表<code>my_numbers</code>的 <strong>num</strong>字段包含很多数字，其中包括很多重复的数字。
+
+你能写一个 SQL 查询语句，找到只出现过一次的数字中，最大的一个数字吗？
+
+<pre>+---+
+|num|
++---+
+| 8 |
+| 8 |
+| 3 |
+| 3 |
+| 1 |
+| 4 |
+| 5 |
+| 6 | 
+</pre>
+
+对于上面给出的样例数据，你的查询语句应该返回如下结果：
+
+<pre>+---+
+|num|
++---+
+| 6 |
+</pre>
+
+<strong>注意：</strong>
+
+如果没有只出现一次的数字，输出<strong>null</strong>。
+
+
+
+只出现一次的最大数字
+Table <code>my_numbers</code> contains many numbers in column <b>num</b> including duplicated ones.<br />
+Can you write a SQL query to find the biggest number, which only appears once.
+
+<pre>
++---+
+|num|
++---+
+| 8 |
+| 8 |
+| 3 |
+| 3 |
+| 1 |
+| 4 |
+| 5 |
+| 6 | 
+</pre>
+For the sample data above, your query should return the following result:
+
+<pre>
++---+
+|num|
++---+
+| 6 |
+</pre>
+<b>Note:</b><br />
+If there is no such number, just output <b>null</b>.
+
+

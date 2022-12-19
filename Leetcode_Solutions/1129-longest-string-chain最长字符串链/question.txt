@@ -1,0 +1,61 @@
+longest-string-chain
+给出一个单词列表，其中每个单词都由小写英文字母组成。
+
+如果我们可以在<code>word1</code>的任何地方添加一个字母使其变成<code>word2</code>，那么我们认为<code>word1</code>是<code>word2</code>的前身。例如，<code>&quot;abc&quot;</code>是<code>&quot;abac&quot;</code>的前身。
+
+<strong>词链</strong>是单词<code>[word_1, word_2, ..., word_k]</code>组成的序列，<code>k &gt;= 1</code>，其中<code>word_1</code>是<code>word_2</code>的前身，<code>word_2</code>是<code>word_3</code>的前身，依此类推。
+
+从给定单词列表 <code>words</code> 中选择单词组成词链，返回词链的最长可能长度。<br>
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>[&quot;a&quot;,&quot;b&quot;,&quot;ba&quot;,&quot;bca&quot;,&quot;bda&quot;,&quot;bdca&quot;]
+<strong>输出：</strong>4
+<strong>解释：</strong>最长单词链之一为 &quot;a&quot;,&quot;ba&quot;,&quot;bda&quot;,&quot;bdca&quot;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= words.length &lt;= 1000</code>
+	<code>1 &lt;= words[i].length &lt;= 16</code>
+	<code>words[i]</code>仅由小写英文字母组成。
+</ol>
+
+
+
+最长字符串链
+Given a list of words, each word consists of English lowercase letters.
+
+Let&#39;s say <code>word1</code> is a predecessor of <code>word2</code>if and only if we can add exactly one letter anywhere in <code>word1</code> to make it equal to <code>word2</code>. For example,<code>&quot;abc&quot;</code>is a predecessor of <code>&quot;abac&quot;</code>.
+
+A <em>word chain</em>is a sequence of words <code>[word_1, word_2, ..., word_k]</code>with <code>k &gt;= 1</code>,where <code>word_1</code> is a predecessor of <code>word_2</code>, <code>word_2</code> is a predecessor of <code>word_3</code>, and so on.
+
+Return the longest possible length of a word chain with words chosen from the given list of <code>words</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[&quot;a&quot;,&quot;b&quot;,&quot;ba&quot;,&quot;bca&quot;,&quot;bda&quot;,&quot;bdca&quot;]</span>
+<strong>Output: </strong><span id="example-output-1">4
+<strong>Explanation</strong>: one of </span>the longest word chain is &quot;a&quot;,&quot;ba&quot;,&quot;bda&quot;,&quot;bdca&quot;.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= words.length &lt;= 1000</code>
+	<code>1 &lt;= words[i].length &lt;= 16</code>
+	<code>words[i]</code> only consists of English lowercase letters.
+</ol>
+
+<div>
+
+</div>

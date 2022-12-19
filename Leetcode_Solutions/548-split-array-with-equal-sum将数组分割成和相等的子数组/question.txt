@@ -1,0 +1,61 @@
+split-array-with-equal-sum
+给定一个有 n 个整数的数组，你需要找到满足以下条件的三元组 (i, j, k) ：
+
+<ol>
+	0 &lt; i, i + 1 &lt; j, j + 1 &lt; k &lt; n - 1
+	子数组 (0, i - 1)，(i + 1, j - 1)，(j + 1, k - 1)，(k + 1, n - 1) 的和应该相等。
+</ol>
+
+这里我们定义子数组 (L, R) 表示原数组从索引为L的元素开始至索引为R的元素。
+
+
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> [1,2,1,2,1,2,1]
+<strong>输出:</strong> True
+<strong>解释:</strong>
+i = 1, j = 3, k = 5. 
+sum(0, i - 1) = sum(0, 0) = 1
+sum(i + 1, j - 1) = sum(2, 2) = 1
+sum(j + 1, k - 1) = sum(4, 4) = 1
+sum(k + 1, n - 1) = sum(6, 6) = 1
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	1 &lt;= n &lt;= 2000。
+	给定数组中的元素会在 [-1,000,000, 1,000,000] 范围内。
+</ol>
+
+将数组分割成和相等的子数组
+
+Given an array with n integers, you need to find if there are triplets  (i, j, k) which satisfies following conditions:
+<ol>
+ 0 < i, i + 1 < j, j + 1 < k < n - 1 
+ Sum of subarrays (0, i - 1), (i + 1, j - 1), (j + 1, k - 1) and (k + 1, n - 1) should be equal. 
+</ol>
+where we define that subarray (L, R) represents a slice of the original array starting from the element indexed L to the element indexed R.
+
+
+<b>Example:</b><br />
+<pre>
+<b>Input:</b> [1,2,1,2,1,2,1]
+<b>Output:</b> True
+<b>Explanation:</b>
+i = 1, j = 3, k = 5. 
+sum(0, i - 1) = sum(0, 0) = 1
+sum(i + 1, j - 1) = sum(2, 2) = 1
+sum(j + 1, k - 1) = sum(4, 4) = 1
+sum(k + 1, n - 1) = sum(6, 6) = 1
+</pre>
+
+
+<b>Note:</b>
+<ol>
+ 1 <= n <= 2000. 
+ Elements in the given array will be in range [-1,000,000, 1,000,000]. 
+</ol>

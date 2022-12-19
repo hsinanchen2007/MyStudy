@@ -1,0 +1,35 @@
+k-th-smallest-in-lexicographical-order
+给定整数<code>n</code>和<code>k</code>，找到<code>1</code>到<code>n</code>中字典序第<code>k</code>小的数字。
+
+注意：1 &le; k &le; n &le; 10<sup>9</sup>。
+
+<strong>示例 :</strong>
+
+<pre>
+<strong>输入:</strong>
+n: 13   k: 2
+
+<strong>输出:</strong>
+10
+
+<strong>解释:</strong>
+字典序的排列是 [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9]，所以第二小的数字是 10。
+</pre>
+
+字典序的第K小数字
+Given integers <code>n</code> and <code>k</code>, find the lexicographically k-th smallest integer in the range from <code>1</code> to <code>n</code>.
+
+Note: 1 &le; k &le; n &le; 10<sup>9</sup>.
+
+<b>Example:</b>
+<pre>
+<b>Input:</b>
+n: 13   k: 2
+
+<b>Output:</b>
+10
+
+<b>Explanation:</b>
+The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the second smallest number is 10.
+</pre>
+

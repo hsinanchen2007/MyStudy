@@ -1,0 +1,89 @@
+reverse-substrings-between-each-pair-of-parentheses
+给出一个字符串<code>s</code>（仅含有小写英文字母和括号）。
+
+请你按照从括号内到外的顺序，逐层反转每对匹配括号中的字符串，并返回最终的结果。
+
+注意，您的结果中 <strong>不应</strong> 包含任何括号。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;(abcd)&quot;
+<strong>输出：</strong>&quot;dcba&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;(u(love)i)&quot;
+<strong>输出：</strong>&quot;iloveu&quot;
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;(ed(et(oc))el)&quot;
+<strong>输出：</strong>&quot;leetcode&quot;
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>s = &quot;a(bcdefghijkl(mno)p)q&quot;
+<strong>输出：</strong>&quot;apmnolkjihgfedcbq&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>0 &lt;= s.length &lt;= 2000</code>
+	<code>s</code> 中只有小写英文字母和括号
+	我们确保所有括号都是成对出现的
+</ul>
+
+反转每对括号间的子串
+You are given a string <code>s</code> that consists of lower case English letters and brackets.
+
+Reverse the stringsin eachpair of matching parentheses, startingfrom the innermost one.
+
+Your result should <strong>not</strong> contain any brackets.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;(abcd)&quot;
+<strong>Output:</strong> &quot;dcba&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;(u(love)i)&quot;
+<strong>Output:</strong> &quot;iloveu&quot;
+<strong>Explanation:</strong>The substring &quot;love&quot; is reversed first, then the whole string is reversed.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;(ed(et(oc))el)&quot;
+<strong>Output:</strong> &quot;leetcode&quot;
+<strong>Explanation:</strong>First, we reverse the substring &quot;oc&quot;, then &quot;etco&quot;, and finally, the whole string.
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;a(bcdefghijkl(mno)p)q&quot;
+<strong>Output:</strong> &quot;apmnolkjihgfedcbq&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>0 &lt;= s.length &lt;= 2000</code>
+	<code>s</code> only contains lower case English characters and parentheses.
+	It&#39;s guaranteed that all parentheses are balanced.
+</ul>

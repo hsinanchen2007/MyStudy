@@ -1,0 +1,57 @@
+range-addition
+假设你有一个长度为<em><strong>n</strong></em>的数组，初始情况下所有的数字均为<strong>0</strong>，你将会被给出<em><strong>k</strong></em>​​​​​​<em>​</em> 个更新的操作。
+
+其中，每个操作会被表示为一个三元组：<strong>[startIndex, endIndex, inc]</strong>，你需要将子数组<strong>A[startIndex ... endIndex]</strong>（包括 startIndex 和 endIndex）增加<strong>inc</strong>。
+
+请你返回<strong><em>k</em></strong>次操作后的数组。
+
+<strong>示例:</strong>
+
+<pre><strong>输入: </strong>length = 5, updates = [[1,3,2],[2,4,3],[0,2,-2]]
+<strong>输出: </strong>[-2,0,3,5,3]
+</pre>
+
+<strong>解释:</strong>
+
+<pre>初始状态:
+[0,0,0,0,0]
+
+进行了操作 [1,3,2] 后的状态:
+[0,2,2,2,0]
+
+进行了操作 [2,4,3] 后的状态:
+[0,2,5,5,3]
+
+进行了操作 [0,2,-2] 后的状态:
+[-2,0,3,5,3]
+</pre>
+
+区间加法
+Assume you have an array of length <b><i>n</i></b> initialized with all <b>0</b>&#39;s and are given <b><i>k</i></b> update operations.
+
+Each operation is represented as a triplet: <b>[startIndex, endIndex, inc]</b> which increments each element of subarray <b>A[startIndex ... endIndex]</b> (startIndex and endIndex inclusive) with <b>inc</b>.
+
+Return the modified array after all <b><i>k</i></b> operations were executed.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input: </strong>length = <span id="example-input-1-1">5</span>, updates = <span id="example-input-1-2">[[1,3,2],[2,4,3],[0,2,-2]]</span>
+<strong>Output: </strong><span id="example-output-1">[-2,0,3,5,3]</span>
+</pre>
+
+<b>Explanation:</b>
+
+<pre>
+Initial state:
+[0,0,0,0,0]
+
+After applying operation [1,3,2]:
+[0,2,2,2,0]
+
+After applying operation [2,4,3]:
+[0,2,5,5,3]
+
+After applying operation [0,2,-2]:
+[-2,0,3,5,3]
+</pre>

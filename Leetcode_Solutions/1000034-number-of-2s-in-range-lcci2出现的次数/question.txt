@@ -1,0 +1,30 @@
+number-of-2s-in-range-lcci
+编写一个方法，计算从 0 到 n (含 n) 中数字 2 出现的次数。
+
+<strong>示例:</strong>
+
+<pre><strong>输入: </strong>25
+<strong>输出: </strong>9
+<strong>解释: </strong>(2, 12, 20, 21, 22, 23, 24, 25)(注意 22 应该算作两次)</pre>
+
+提示：
+
+<ul>
+	<code>n &lt;= 10^9</code>
+</ul>
+
+2出现的次数
+Write a method to count the number of 2s that appear in all the numbers between 0and n (inclusive).
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input: </strong>25
+<strong>Output: </strong>9
+<strong>Explanation: </strong>(2, 12, 20, 21, 22, 23, 24, 25)(Note that 22 counts for two 2s.)</pre>
+
+Note:
+
+<ul>
+	<code>n &lt;= 10^9</code>
+</ul>

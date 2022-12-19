@@ -1,0 +1,107 @@
+basic-calculator-iv
+给定一个表达式<code>expression</code>如<code>expression = &quot;e + 8 - a + 5&quot;</code>和一个求值映射，如<code>{&quot;e&quot;: 1}</code>（给定的形式为<code>evalvars = [&quot;e&quot;]</code> 和<code>evalints = [1]</code>），返回表示简化表达式的标记列表，例如 <code>[&quot;-1*a&quot;,&quot;14&quot;]</code>
+
+<ul>
+	表达式交替使用块和符号，每个块和符号之间有一个空格。
+	块要么是括号中的表达式，要么是变量，要么是非负整数。
+	块是括号中的表达式，变量或非负整数。
+	变量是一个由小写字母组成的字符串（不包括数字）。请注意，变量可以是多个字母，并注意变量从不具有像<code>&quot;2x&quot;</code>或<code>&quot;-x&quot;</code>这样的前导系数或一元运算符。
+</ul>
+
+表达式按通常顺序进行求值：先是括号，然后求乘法，再计算加法和减法。例如，<code>expression = &quot;1 + 2 * 3&quot;</code>的答案是 <code>[&quot;7&quot;]</code>。
+
+输出格式如下：
+
+<ul>
+	对于系数非零的每个自变量项，我们按字典排序的顺序将自变量写在一个项中。例如，我们永远不会写像 <code>&ldquo;b*a*c&rdquo;</code> 这样的项，只写 <code>&ldquo;a*b*c&rdquo;</code>。
+	项的次数等于被乘的自变量的数目，并计算重复项。(例如，<code>&quot;a*a*b*c&quot;</code> 的次数为 4。)。我们先写出答案的最大次数项，用字典顺序打破关系，此时忽略词的前导系数。
+	项的前导系数直接放在左边，用星号将它与变量分隔开(如果存在的话)。前导系数 1 仍然要打印出来。
+	格式良好的一个示例答案是<code>[&quot;-2*a*a*a&quot;, &quot;3*a*a*b&quot;, &quot;3*b*b&quot;, &quot;4*a&quot;, &quot;5*c&quot;, &quot;-6&quot;]</code>。
+	系数为 0 的项（包括常数项）不包括在内。例如，&ldquo;0&rdquo; 的表达式输出为 []。
+</ul>
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>expression = &quot;e + 8 - a + 5&quot;, evalvars = [&quot;e&quot;], evalints = [1]
+<strong>输出：</strong>[&quot;-1*a&quot;,&quot;14&quot;]
+
+<strong>输入：</strong>expression = &quot;e - 8 + temperature - pressure&quot;,
+evalvars = [&quot;e&quot;, &quot;temperature&quot;], evalints = [1, 12]
+<strong>输出：</strong>[&quot;-1*pressure&quot;,&quot;5&quot;]
+
+<strong>输入：</strong>expression = &quot;(e + 8) * (e - 8)&quot;, evalvars = [], evalints = []
+<strong>输出：</strong>[&quot;1*e*e&quot;,&quot;-64&quot;]
+
+<strong>输入：</strong>expression = &quot;7 - 7&quot;, evalvars = [], evalints = []
+<strong>输出：</strong>[]
+
+<strong>输入：</strong>expression = &quot;a * b * c + b * a * c * 4&quot;, evalvars = [], evalints = []
+<strong>输出：</strong>[&quot;5*a*b*c&quot;]
+
+<strong>输入：</strong>expression = &quot;((a - b) * (b - c) + (c - a)) * ((a - b) + (b - c) * (c - a))&quot;,
+evalvars = [], evalints = []
+<strong>输出：</strong>[&quot;-1*a*a*b*b&quot;,&quot;2*a*a*b*c&quot;,&quot;-1*a*a*c*c&quot;,&quot;1*a*b*b*b&quot;,&quot;-1*a*b*b*c&quot;,&quot;-1*a*b*c*c&quot;,&quot;1*a*c*c*c&quot;,&quot;-1*b*b*b*c&quot;,&quot;2*b*b*c*c&quot;,&quot;-1*b*c*c*c&quot;,&quot;2*a*a*b&quot;,&quot;-2*a*a*c&quot;,&quot;-2*a*b*b&quot;,&quot;2*a*c*c&quot;,&quot;1*b*b*b&quot;,&quot;-1*b*b*c&quot;,&quot;1*b*c*c&quot;,&quot;-1*c*c*c&quot;,&quot;-1*a*a&quot;,&quot;1*a*b&quot;,&quot;1*a*c&quot;,&quot;-1*b*c&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>expression</code> 的长度在<code>[1, 250]</code>范围内。
+	<code>evalvars, evalints</code> 在范围<code>[0, 100]</code>内，且长度相同。
+</ol>
+
+基本计算器 IV
+Given an <code>expression</code>such as <code>expression = &quot;e + 8 - a + 5&quot;</code> and an evaluation map such as <code>{&quot;e&quot;: 1}</code> (given in terms of <code>evalvars = [&quot;e&quot;]</code> and <code>evalints = [1]</code>), return a list of tokens representing the simplified expression, such as <code>[&quot;-1*a&quot;,&quot;14&quot;]</code>
+
+<ul>
+	An expression alternates chunks and symbols, with a space separating each chunk and symbol.
+	A chunk is either an expression in parentheses, a variable, or a non-negative integer.
+	A variable is a string of lowercase letters (not including digits.) Note that variables can be multiple letters, and note that variables never have a leading coefficient or unary operator like <code>&quot;2x&quot;</code> or <code>&quot;-x&quot;</code>.
+</ul>
+
+Expressions are evaluated in the usual order: brackets first, then multiplication, then addition and subtraction. For example, <code>expression = &quot;1 + 2 * 3&quot;</code> has an answer of <code>[&quot;7&quot;]</code>.
+
+The format of the output is as follows:
+
+<ul>
+	For each term of free variables with non-zero coefficient, we write the free variables within a term in sorted order lexicographically. For example, we would never write a term like <code>&quot;b*a*c&quot;</code>, only <code>&quot;a*b*c&quot;</code>.
+	Terms have degree equal to the number of free variables being multiplied, counting multiplicity. (For example, <code>&quot;a*a*b*c&quot;</code> has degree 4.) We write the largest degree terms of our answer first, breaking ties by lexicographic order ignoring the leading coefficient of the term.
+	The leading coefficient of the term is placed directly to the left with an asterisk separating it from the variables (if they exist.) A leading coefficient of 1 is still printed.
+	An example of a well formatted answer is <code>[&quot;-2*a*a*a&quot;, &quot;3*a*a*b&quot;, &quot;3*b*b&quot;, &quot;4*a&quot;, &quot;5*c&quot;, &quot;-6&quot;]</code>
+	Terms (including constant terms) with coefficient 0 are not included. For example, an expression of &quot;0&quot; has an output of [].
+</ul>
+
+<strong>Examples:</strong>
+
+<pre>
+<strong>Input:</strong> expression = &quot;e + 8 - a + 5&quot;, evalvars = [&quot;e&quot;], evalints = [1]
+<strong>Output:</strong> [&quot;-1*a&quot;,&quot;14&quot;]
+
+<strong>Input:</strong> expression = &quot;e - 8 + temperature - pressure&quot;,
+evalvars = [&quot;e&quot;, &quot;temperature&quot;], evalints = [1, 12]
+<strong>Output:</strong> [&quot;-1*pressure&quot;,&quot;5&quot;]
+
+<strong>Input:</strong> expression = &quot;(e + 8) * (e - 8)&quot;, evalvars = [], evalints = []
+<strong>Output:</strong> [&quot;1*e*e&quot;,&quot;-64&quot;]
+
+<strong>Input:</strong> expression = &quot;7 - 7&quot;, evalvars = [], evalints = []
+<strong>Output:</strong> []
+
+<strong>Input:</strong> expression = &quot;a * b * c + b * a * c * 4&quot;, evalvars = [], evalints = []
+<strong>Output:</strong> [&quot;5*a*b*c&quot;]
+
+<strong>Input:</strong> expression = &quot;((a - b) * (b - c) + (c - a)) * ((a - b) + (b - c) * (c - a))&quot;,
+evalvars = [], evalints = []
+<strong>Output:</strong> [&quot;-1*a*a*b*b&quot;,&quot;2*a*a*b*c&quot;,&quot;-1*a*a*c*c&quot;,&quot;1*a*b*b*b&quot;,&quot;-1*a*b*b*c&quot;,&quot;-1*a*b*c*c&quot;,&quot;1*a*c*c*c&quot;,&quot;-1*b*b*b*c&quot;,&quot;2*b*b*c*c&quot;,&quot;-1*b*c*c*c&quot;,&quot;2*a*a*b&quot;,&quot;-2*a*a*c&quot;,&quot;-2*a*b*b&quot;,&quot;2*a*c*c&quot;,&quot;1*b*b*b&quot;,&quot;-1*b*b*c&quot;,&quot;1*b*c*c&quot;,&quot;-1*c*c*c&quot;,&quot;-1*a*a&quot;,&quot;1*a*b&quot;,&quot;1*a*c&quot;,&quot;-1*b*c&quot;]
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>expression</code> will have length in range <code>[1, 250]</code>.
+	<code>evalvars, evalints</code> will have equal lengths in range <code>[0, 100]</code>.
+</ol>

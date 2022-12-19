@@ -1,0 +1,77 @@
+cracking-the-safe
+有一个需要密码才能打开的保险箱。密码是<code>n</code> 位数, 密码的每一位是<code>k</code>位序列<code>0, 1, ..., k-1</code>中的一个 。
+
+你可以随意输入密码，保险箱会自动记住最后<code>n</code>位输入，如果匹配，则能够打开保险箱。
+
+举个例子，假设密码是<code>&quot;345&quot;</code>，你可以输入<code>&quot;012345&quot;</code>来打开它，只是你输入了 6个字符.
+
+请返回一个能打开保险箱的最短字符串。
+
+
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> n = 1, k = 2
+<strong>输出:</strong> &quot;01&quot;
+<strong>说明:</strong> &quot;10&quot;也可以打开保险箱。
+</pre>
+
+
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> n = 2, k = 2
+<strong>输出:</strong> &quot;00110&quot;
+<strong>说明: </strong>&quot;01100&quot;, &quot;10011&quot;, &quot;11001&quot; 也能打开保险箱。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>n</code> 的范围是<code>[1, 4]</code>。
+	<code>k</code> 的范围是<code>[1, 10]</code>。
+	<code>k^n</code> 最大可能为<code>4096</code>。
+</ol>
+
+
+
+破解保险箱
+There is a box protected by a password. The password is a sequence of<code>n</code> digitswhere each digit can be one of the first <code>k</code> digits <code>0, 1, ..., k-1</code>.
+
+While entering a password,the last <code>n</code> digits entered will automatically be matched against the correct password.
+
+For example, assuming the correct password is <code>&quot;345&quot;</code>,if you type <code>&quot;012345&quot;</code>, the box will open because the correct password matches the suffix of the entered password.
+
+Return any password of <strong>minimum length</strong> that is guaranteed to open the box at some point of entering it.
+
+
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> n = 1, k = 2
+<b>Output:</b> &quot;01&quot;
+<b>Note:</b> &quot;10&quot; will be accepted too.
+</pre>
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> n = 2, k = 2
+<b>Output:</b> &quot;00110&quot;
+<b>Note:</b> &quot;01100&quot;, &quot;10011&quot;, &quot;11001&quot; will be accepted too.
+</pre>
+
+
+
+<b>Note:</b>
+
+<ol>
+	<code>n</code> will be in the range <code>[1, 4]</code>.
+	<code>k</code> will be in the range <code>[1, 10]</code>.
+	<code>k^n</code> will be at most <code>4096</code>.
+</ol>
+
+

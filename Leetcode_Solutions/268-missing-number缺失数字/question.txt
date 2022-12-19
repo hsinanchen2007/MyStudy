@@ -1,0 +1,37 @@
+missing-number
+给定一个包含 <code>0, 1, 2, ..., n</code>中<em>n</em>个数的序列，找出 0 .. <em>n</em>中没有出现在序列中的那个数。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> [3,0,1]
+<strong>输出:</strong> 2
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> [9,6,4,2,3,5,7,0,1]
+<strong>输出:</strong> 8
+</pre>
+
+<strong>说明:</strong><br>
+你的算法应具有线性时间复杂度。你能否仅使用额外常数空间来实现?
+
+缺失数字
+Given an array containing <i>n</i> distinct numbers taken from <code>0, 1, 2, ..., n</code>, find the one that is missing from the array.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> [3,0,1]
+<b>Output:</b> 2
+</pre>
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> [9,6,4,2,3,5,7,0,1]
+<b>Output:</b> 8
+</pre>
+
+<b>Note</b>:<br />
+Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?

@@ -1,0 +1,105 @@
+longest-chunked-palindrome-decomposition
+段式回文 其实与 一般回文 类似，只不过是最小的单位是 一段字符而不是 单个字母。
+
+举个例子，对于一般回文 &quot;<code>abcba</code>&quot; 是回文，而 &quot;<code>volvo</code>&quot; 不是，但如果我们把&quot;<code>volvo</code>&quot; 分为 &quot;<code>vo</code>&quot;、&quot;<code>l</code>&quot;、&quot;<code>vo</code>&quot; 三段，则可以认为 &ldquo;<code>(vo)(l)(vo)</code>&rdquo; 是段式回文（分为 3 段）。
+
+
+
+给你一个字符串<code>text</code>，在确保它满足段式回文的前提下，请你返回 <strong>段</strong> 的<strong>最大数量</strong><code>k</code>。
+
+如果段的最大数量为<code>k</code>，那么存在满足以下条件的<code>a_1, a_2, ..., a_k</code>：
+
+<ul>
+	每个<code>a_i</code>都是一个非空字符串；
+	将这些字符串首位相连的结果<code>a_1 + a_2 + ... + a_k</code>和原始字符串<code>text</code>相同；
+	对于所有<code>1 &lt;= i &lt;= k</code>，都有<code>a_i = a_{k+1 - i}</code>。
+</ul>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>text = &quot;ghiabcdefhelloadamhelloabcdefghi&quot;
+<strong>输出：</strong>7
+<strong>解释：</strong>我们可以把字符串拆分成 &quot;(ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)&quot;。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>text = &quot;merchant&quot;
+<strong>输出：</strong>1
+<strong>解释：</strong>我们可以把字符串拆分成 &quot;(merchant)&quot;。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>text = &quot;antaprezatepzapreanta&quot;
+<strong>输出：</strong>11
+<strong>解释：</strong>我们可以把字符串拆分成 &quot;(a)(nt)(a)(pre)(za)(tpe)(za)(pre)(a)(nt)(a)&quot;。
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>text = &quot;aaa&quot;
+<strong>输出：</strong>3
+<strong>解释：</strong>我们可以把字符串拆分成 &quot;(a)(a)(a)&quot;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>text</code>仅由小写英文字符组成。
+	<code>1 &lt;= text.length &lt;= 1000</code>
+</ul>
+
+段式回文
+Return the largest possible <code>k</code>such that there exists<code>a_1, a_2, ..., a_k</code>such that:
+
+<ul>
+	Each <code>a_i</code> is a non-empty string;
+	Their concatenation <code>a_1 + a_2 + ... + a_k</code> is equal to <code>text</code>;
+	For all <code>1 &lt;= i &lt;= k</code>,<code>a_i = a_{k+1 - i}</code>.
+</ul>
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;ghiabcdefhelloadamhelloabcdefghi&quot;
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> We can split the string on &quot;(ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)&quot;.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;merchant&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> We can split the string on &quot;(merchant)&quot;.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;antaprezatepzapreanta&quot;
+<strong>Output:</strong> 11
+<strong>Explanation:</strong> We can split the string on &quot;(a)(nt)(a)(pre)(za)(tpe)(za)(pre)(a)(nt)(a)&quot;.
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;aaa&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> We can split the string on &quot;(a)(a)(a)&quot;.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>text</code> consists only of lowercase English characters.
+	<code>1 &lt;= text.length &lt;= 1000</code>
+</ul>

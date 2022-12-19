@@ -1,0 +1,74 @@
+single-row-keyboard
+我们定制了一款特殊的力扣键盘，所有的键都排列在一行上。
+
+我们可以按从左到右的顺序，用一个长度为 26 的字符串<code>keyboard</code>（索引从 0 开始，到 25 结束）来表示该键盘的键位布局。
+
+现在需要测试这个键盘是否能够有效工作，那么我们就需要个机械手来测试这个键盘。
+
+最初的时候，机械手位于左边起第一个键（也就是索引为 0 的键）的上方。当机械手移动到某一字符所在的键位时，就会在终端上输出该字符。
+
+机械手从索引<code>i</code>移动到索引<code>j</code>所需要的时间是<code>|i - j|</code>。
+
+当前测试需要你使用机械手输出指定的单词<code>word</code>，请你编写一个函数来计算机械手输出该单词所需的时间。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>keyboard = &quot;abcdefghijklmnopqrstuvwxyz&quot;, word = &quot;cba&quot;
+<strong>输出：</strong>4
+<strong>解释：
+</strong>机械手从 0 号键移动到 2 号键来输出 &#39;c&#39;，又移动到 1 号键来输出 &#39;b&#39;，接着移动到 0 号键来输出 &#39;a&#39;。
+总用时 = 2 + 1 + 1 = 4. 
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>keyboard = &quot;pqrstuvwxyzabcdefghijklmno&quot;, word = &quot;leetcode&quot;
+<strong>输出：</strong>73
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>keyboard.length == 26</code>
+	<code>keyboard</code>按某种特定顺序排列，并包含每个小写英文字母一次。
+	<code>1 &lt;= word.length &lt;= 10^4</code>
+	<code>word[i]</code>是一个小写英文字母
+</ul>
+
+单行键盘
+There is a special keyboard with <strong>all keys in a single row</strong>.
+
+Given a string <code>keyboard</code> of length 26 indicating the layout of the keyboard (indexed from 0 to25), initially your finger is at index 0. To type a character, you have to move your finger to the index of the desired character. The time taken to move your finger from index <code>i</code> to index <code>j</code> is <code>|i - j|</code>.
+
+You want to type a string <code>word</code>. Write a function to calculate how much time it takes to type it with one finger.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> keyboard = &quot;abcdefghijklmnopqrstuvwxyz&quot;, word = &quot;cba&quot;
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>The index moves from 0 to 2 to write &#39;c&#39; then to 1 to write &#39;b&#39; then to 0 again to write &#39;a&#39;.
+Total time = 2 + 1 + 1 = 4. 
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> keyboard = &quot;pqrstuvwxyzabcdefghijklmno&quot;, word = &quot;leetcode&quot;
+<strong>Output:</strong> 73
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>keyboard.length == 26</code>
+	<code><font face="monospace">keyboard</font></code> contains eachEnglish lowercase letterexactly once in some order.
+	<code>1 &lt;= word.length &lt;= 10^4</code>
+	<code>word[i]</code>is an English lowercase letter.
+</ul>

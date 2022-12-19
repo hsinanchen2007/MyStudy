@@ -1,0 +1,46 @@
+rank-from-stream-lcci
+假设你正在读取一串整数。每隔一段时间，你希望能找出数字 x 的秩(小于或等于 x 的值的个数)。请实现数据结构和算法来支持这些操作，也就是说：
+
+实现 <code>track(int x)</code>方法，每读入一个数字都会调用该方法；
+
+实现 <code>getRankOfNumber(int x)</code> 方法，返回小于或等于 x 的值的个数。
+
+<strong>注意：</strong>本题相对原题稍作改动
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong>
+[&quot;StreamRank&quot;, &quot;getRankOfNumber&quot;, &quot;track&quot;, &quot;getRankOfNumber&quot;]
+[[], [1], [0], [0]]
+<strong>输出:
+</strong>[null,0,null,1]
+</pre>
+
+<strong>提示：</strong>
+
+<ul>
+	<code>x &lt;= 50000</code>
+	<code>track</code>和<code>getRankOfNumber</code> 方法的调用次数均不超过 2000 次
+</ul>
+
+数字流的秩
+Imagine you are reading in a stream of integers. Periodically, you wish to be able to look up the rank of a number <code>x</code> (the number of values less than or equal to <code>x</code>). lmplement the data structures and algorithms to support these operations. That is, implement the method <code>track (int x)</code>, which is called when each number is generated, and the method <code>getRankOfNumber(int x)</code>, which returns the number of values less than or equal to <code>x</code>.
+
+<b>Note:</b>This problem is slightly different from the original one in the book.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong>
+[&quot;StreamRank&quot;, &quot;getRankOfNumber&quot;, &quot;track&quot;, &quot;getRankOfNumber&quot;]
+[[], [1], [0], [0]]
+<strong>Output:
+</strong>[null,0,null,1]
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>x &lt;= 50000</code>
+	The number of calls of both<code>track</code>and<code>getRankOfNumber</code>methods are less than or equal to 2000.
+</ul>

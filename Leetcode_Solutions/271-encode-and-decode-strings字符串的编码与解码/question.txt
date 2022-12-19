@@ -1,0 +1,84 @@
+encode-and-decode-strings
+请你设计一个算法，可以将一个<strong>字符串列表</strong>编码成为一个<strong>字符串</strong>。这个编码后的字符串是可以通过网络进行高效传送的，并且可以在接收端被解码回原来的字符串列表。
+
+1 号机（发送方）有如下函数：
+
+<pre>string encode(vector&lt;string&gt; strs) {
+  // ... your code
+  return encoded_string;
+}</pre>
+
+2 号机（接收方）有如下函数：
+
+<pre>vector&lt;string&gt; decode(string s) {
+  //... your code
+  return strs;
+}
+</pre>
+
+1 号机（发送方）执行：
+
+<pre>string encoded_string = encode(strs);
+</pre>
+
+2 号机（接收方）执行：
+
+<pre>vector&lt;string&gt; strs2 = decode(encoded_string);
+</pre>
+
+此时，2 号机（接收方）的 <code>strs2</code>需要和 1 号机（发送方）的 <code>strs</code> 相同。
+
+请你来实现这个<code>encode</code> 和<code>decode</code> 方法。
+
+<strong>注意：</strong>
+
+<ul>
+	因为字符串可能会包含 256 个合法ascii 字符中的任何字符，所以您的算法必须要能够处理任何可能会出现的字符。
+	请勿使用 &ldquo;类成员&rdquo;、&ldquo;全局变量&rdquo; 或 &ldquo;静态变量&rdquo; 来存储这些状态，您的编码和解码算法应该是非状态依赖的。
+	请不要依赖任何方法库，例如 <code>eval</code>又或者是<code>serialize</code>之类的方法。本题的宗旨是需要您自己实现 &ldquo;编码&rdquo; 和 &ldquo;解码&rdquo; 算法。
+</ul>
+
+字符串的编码与解码
+Design an algorithm to encode <b>a list of strings</b> to <b>a string</b>. The encoded string is then sent over the network and is decoded back to the original list of strings.
+
+Machine 1 (sender) has the function:
+
+<pre>
+string encode(vector&lt;string&gt; strs) {
+  // ... your code
+  return encoded_string;
+}</pre>
+Machine 2 (receiver) has the function:
+
+<pre>
+vector&lt;string&gt; decode(string s) {
+  //... your code
+  return strs;
+}
+</pre>
+
+So Machine 1 does:
+
+<pre>
+string encoded_string = encode(strs);
+</pre>
+
+and Machine 2 does:
+
+<pre>
+vector&lt;string&gt; strs2 = decode(encoded_string);
+</pre>
+
+<code>strs2</code> in Machine 2 should be the same as <code>strs</code> in Machine 1.
+
+Implement the <code>encode</code> and <code>decode</code> methods.
+
+
+
+<b>Note:</b>
+
+<ul>
+	The string may contain any possible characters out of 256 valid ascii characters. Your algorithm should be generalized enough to work on any possible characters.
+	Do not use class member/global/static variables to store states. Your encode and decode algorithms should be stateless.
+	Do not rely on any library method such as <code>eval</code> or serialize methods. You should implement your own encode/decode algorithm.
+</ul>

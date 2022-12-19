@@ -1,0 +1,88 @@
+tic-tac-toe-lcci
+设计一个算法，判断玩家是否赢了井字游戏。输入是一个 N x N 的数组棋盘，由字符&quot; &quot;，&quot;X&quot;和&quot;O&quot;组成，其中字符&quot; &quot;代表一个空位。
+
+以下是井字游戏的规则：
+
+<ul>
+	玩家轮流将字符放入空位（&quot; &quot;）中。
+	第一个玩家总是放字符&quot;O&quot;，且第二个玩家总是放字符&quot;X&quot;。
+	&quot;X&quot;和&quot;O&quot;只允许放置在空位中，不允许对已放有字符的位置进行填充。
+	当有N个相同（且非空）的字符填充任何行、列或对角线时，游戏结束，对应该字符的玩家获胜。
+	当所有位置非空时，也算为游戏结束。
+	如果游戏结束，玩家不允许再放置字符。
+</ul>
+
+如果游戏存在获胜者，就返回该游戏的获胜者使用的字符（&quot;X&quot;或&quot;O&quot;）；如果游戏以平局结束，则返回 &quot;Draw&quot;；如果仍会有行动（游戏未结束），则返回 &quot;Pending&quot;。
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong> board = [&quot;O X&quot;,&quot; XO&quot;,&quot;X O&quot;]
+<strong>输出：</strong> &quot;X&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong> board = [&quot;OOX&quot;,&quot;XXO&quot;,&quot;OXO&quot;]
+<strong>输出：</strong> &quot;Draw&quot;
+<strong>解释：</strong> 没有玩家获胜且不存在空位
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong> board = [&quot;OOX&quot;,&quot;XXO&quot;,&quot;OX &quot;]
+<strong>输出：</strong> &quot;Pending&quot;
+<strong>解释：</strong> 没有玩家获胜且仍存在空位
+</pre>
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= board.length == board[i].length &lt;= 100</code>
+	输入一定遵循井字棋规则
+</ul>
+
+井字游戏
+Design an algorithm to figure out if someone has won a game of tic-tac-toe.Input is a string arrayof size N x N, including characters &quot; &quot;, &quot;X&quot; and &quot;O&quot;, where &quot; &quot; represents a empty grid.
+
+The rules of tic-tac-toe are as follows:
+
+<ul>
+	Players place characters into an empty grid(&quot; &quot;) in turn.
+	The first player always place character &quot;O&quot;, and the second one place &quot;X&quot;.
+	Players are only allowed to place characters in empty grid. Replacing a character is not allowed.
+	If there is any row, column or diagonal filled with Nsame characters, the game ends. The player who place the last charater wins.
+	When there is no empty grid, the game ends.
+	If the game ends, players cannot place any character further.
+</ul>
+
+If there is any winner, return the character that the winner used. If there&#39;s a draw, return &quot;Draw&quot;. If the game doesn&#39;t end and there is no winner, return &quot;Pending&quot;.
+
+<strong>Example 1: </strong>
+
+<pre>
+<strong>Input: </strong> board = [&quot;O X&quot;,&quot; XO&quot;,&quot;X O&quot;]
+<strong>Output: </strong> &quot;X&quot;
+</pre>
+
+<strong>Example 2: </strong>
+
+<pre>
+<strong>Input: </strong> board = [&quot;OOX&quot;,&quot;XXO&quot;,&quot;OXO&quot;]
+<strong>Output: </strong> &quot;Draw&quot;
+<strong>Explanation: </strong> no player wins and no empty grid left
+</pre>
+
+<strong>Example 3: </strong>
+
+<pre>
+<strong>Input: </strong> board = [&quot;OOX&quot;,&quot;XXO&quot;,&quot;OX &quot;]
+<strong>Output: </strong> &quot;Pending&quot;
+<strong>Explanation: </strong> no player wins but there is still a empty grid
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>1 &lt;= board.length == board[i].length &lt;= 100</code>
+	Input follows the rules.
+</ul>

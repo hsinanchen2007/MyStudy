@@ -1,0 +1,119 @@
+minimum-distance-to-type-a-word-using-two-fingers
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/01/11/leetcode_keyboard.png" style="height: 250px; width: 417px;">
+
+二指输入法定制键盘在 XY 平面上的布局如上图所示，其中每个大写英文字母都位于某个坐标处，例如字母<strong>A</strong>位于坐标<strong>(0,0)</strong>，字母<strong>B</strong>位于坐标<strong>(0,1)</strong>，字母<strong>P</strong>位于坐标<strong>(2,3)</strong>且字母 <strong>Z</strong>位于坐标<strong>(4,1)</strong>。
+
+给你一个待输入字符串<code>word</code>，请你计算并返回在仅使用两根手指的情况下，键入该字符串需要的最小移动总距离。坐标<strong>(x<sub>1</sub>,y<sub>1</sub>)</strong> 和 <strong>(x<sub>2</sub>,y<sub>2</sub>)</strong> 之间的距离是<strong>|x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|</strong>。
+
+注意，两根手指的起始位置是零代价的，不计入移动总距离。你的两根手指的起始位置也不必从首字母或者前两个字母开始。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>word = &quot;CAKE&quot;
+<strong>输出：</strong>3
+<strong>解释： 
+</strong>使用两根手指输入 &quot;CAKE&quot; 的最佳方案之一是： 
+手指 1 在字母 &#39;C&#39; 上 -&gt; 移动距离 = 0 
+手指 1 在字母 &#39;A&#39; 上 -&gt; 移动距离 = 从字母 &#39;C&#39; 到字母 &#39;A&#39; 的距离 = 2 
+手指 2 在字母 &#39;K&#39; 上 -&gt; 移动距离 = 0 
+手指 2 在字母 &#39;E&#39; 上 -&gt; 移动距离 = 从字母 &#39;K&#39; 到字母 &#39;E&#39; 的距离  = 1 
+总距离 = 3
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>word = &quot;HAPPY&quot;
+<strong>输出：</strong>6
+<strong>解释： </strong>
+使用两根手指输入 &quot;HAPPY&quot; 的最佳方案之一是：
+手指 1 在字母 &#39;H&#39; 上 -&gt; 移动距离 = 0
+手指 1 在字母 &#39;A&#39; 上 -&gt; 移动距离 = 从字母 &#39;H&#39; 到字母 &#39;A&#39; 的距离 = 2
+手指 2 在字母 &#39;P&#39; 上 -&gt; 移动距离 = 0
+手指 2 在字母 &#39;P&#39; 上 -&gt; 移动距离 = 从字母 &#39;P&#39; 到字母 &#39;P&#39; 的距离 = 0
+手指 1 在字母 &#39;Y&#39; 上 -&gt; 移动距离 = 从字母 &#39;A&#39; 到字母 &#39;Y&#39; 的距离 = 4
+总距离 = 6
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>word = &quot;NEW&quot;
+<strong>输出：</strong>3
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>word = &quot;YEAR&quot;
+<strong>输出：</strong>7
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>2 &lt;= word.length &lt;= 300</code>
+	每个 <code>word[i]</code>都是一个大写英文字母。
+</ul>
+
+二指输入的的最小距离
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/02/leetcode_keyboard.png" style="width: 417px; height: 250px;" />
+
+You have a keyboard layout as shown above in the XY plane, where each English uppercase letter is located at some coordinate, for example, the letter <strong>A</strong> is located at coordinate <strong>(0,0)</strong>, the letter <strong>B</strong> is located at coordinate <strong>(0,1)</strong>, the letter <strong>P</strong> is located at coordinate <strong>(2,3)</strong> and the letter <strong>Z</strong> is located at coordinate <strong>(4,1)</strong>.
+
+Given the string <code>word</code>, return the minimum total distance to type such string using only twofingers. The distance between coordinates <strong>(x<sub>1</sub>,y<sub>1</sub>)</strong> and <strong>(x<sub>2</sub>,y<sub>2</sub>)</strong> is <strong>|x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|</strong>.
+
+Note that the initial positions of your twofingers are considered free so don&#39;t count towards your total distance, also your twofingers do not have to start at the first letter or the first twoletters.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> word = &quot;CAKE&quot;
+<strong>Output:</strong> 3
+<strong>Explanation: 
+</strong>Using two fingers, one optimal way to type &quot;CAKE&quot; is: 
+Finger 1 on letter &#39;C&#39; -&gt; cost = 0 
+Finger 1 on letter &#39;A&#39; -&gt; cost = Distance from letter &#39;C&#39; to letter &#39;A&#39; = 2 
+Finger 2 on letter &#39;K&#39; -&gt; cost = 0 
+Finger 2 on letter &#39;E&#39; -&gt; cost = Distance from letter &#39;K&#39; to letter &#39;E&#39; = 1 
+Total distance = 3
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> word = &quot;HAPPY&quot;
+<strong>Output:</strong> 6
+<strong>Explanation: </strong>
+Using two fingers, one optimal way to type &quot;HAPPY&quot; is:
+Finger 1 on letter &#39;H&#39; -&gt; cost = 0
+Finger 1 on letter &#39;A&#39; -&gt; cost = Distance from letter &#39;H&#39; to letter &#39;A&#39; = 2
+Finger 2 on letter &#39;P&#39; -&gt; cost = 0
+Finger 2 on letter &#39;P&#39; -&gt; cost = Distance from letter &#39;P&#39; to letter &#39;P&#39; = 0
+Finger 1 on letter &#39;Y&#39; -&gt; cost = Distance from letter &#39;A&#39; to letter &#39;Y&#39; = 4
+Total distance = 6
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> word = &quot;NEW&quot;
+<strong>Output:</strong> 3
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> word = &quot;YEAR&quot;
+<strong>Output:</strong> 7
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>2 &lt;= word.length &lt;= 300</code>
+	Each <code data-stringify-type="code">word[i]</code>is an English uppercase letter.
+</ul>

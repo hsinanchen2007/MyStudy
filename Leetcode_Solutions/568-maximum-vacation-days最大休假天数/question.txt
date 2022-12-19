@@ -1,0 +1,131 @@
+maximum-vacation-days
+力扣想让一个最优秀的员工在 <strong>N</strong> 个城市间旅行来收集算法问题。 但只工作不玩耍，聪明的孩子也会变傻，所以您可以在某些特定的城市和星期休假。您的工作就是安排旅行使得最大化你可以休假的天数，但是您需要遵守一些规则和限制。
+
+<strong>规则和限制：</strong>
+
+<ol>
+	您只能在 <strong>N</strong> 个城市之间旅行，用 0 到 N-1 的索引表示。一开始，您在索引为0的城市，并且那天是<strong>星期一</strong>。
+	这些城市通过航班相连。这些航班用 <strong>N*N</strong> 矩阵<strong> flights</strong>（不一定是对称的）表示，<strong>flights[i][j] </strong>代表城市i到城市j的航空状态。如果没有城市i到城市j的航班，<strong>flights[i][j] = 0</strong>；否则，<strong>flights[i][j] = 1</strong>。同时，对于所有的i，<strong>flights[i][i] = 0。</strong>
+	您总共有 <strong>K</strong> 周（<strong>每周7天</strong>）的时间旅行。您<strong>每天</strong>最多只能乘坐一次航班，并且只能在每周的<strong>星期一</strong>上午乘坐航班。由于飞行时间很短，我们不考虑飞行时间的影响。
+	对于每个城市，不同的星期您休假天数是不同的，给定一个 <strong>N*K</strong> 矩阵 <strong>days</strong> 代表这种限制，<strong>days[i][j] </strong>代表您在第j个星期在城市i能休假的最长天数。
+</ol>
+
+给定 <strong>flights</strong> 矩阵和 <strong>days</strong> 矩阵，您需要输出 <strong>K</strong> 周内可以休假的最长天数。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong>flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[1,3,1],[6,0,3],[3,3,3]]
+<strong>输出:</strong> 12
+<strong>解释:</strong> 
+Ans = 6 + 3 + 3 = 12. 
+
+最好的策略之一：
+第一个星期 : 星期一从城市0飞到城市1，玩6天，工作1天。 
+（虽然你是从城市0开始，但因为是星期一，我们也可以飞到其他城市。） 
+第二个星期 : 星期一从城市1飞到城市2，玩3天，工作4天。
+第三个星期 : 呆在城市2，玩3天，工作4天。
+</pre>
+
+
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong>flights = [[0,0,0],[0,0,0],[0,0,0]], days = [[1,1,1],[7,7,7],[7,7,7]]
+<strong>输出:</strong> 3
+<strong>解释:</strong> 
+Ans = 1 + 1 + 1 = 3. 
+
+由于没有航班可以让您飞到其他城市，你必须在城市0呆整整3个星期。 
+对于每一个星期，你只有一天时间玩，剩下六天都要工作。 
+所以最大休假天数为3.
+</pre>
+
+
+
+<strong>示例 3:</strong>
+
+<pre><strong>输入:</strong>flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[7,0,0],[0,7,0],[0,0,7]]
+<strong>输出:</strong> 21
+<strong>解释:</strong>
+Ans = 7 + 7 + 7 = 21
+
+最好的策略之一是：
+第一个星期 : 呆在城市0，玩7天。 
+第二个星期 : 星期一从城市0飞到城市1，玩7天。
+第三个星期 : 星期一从城市1飞到城市2，玩7天。
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	<strong>N 和 K</strong> 都是正整数，在 [1, 100] 范围内。
+	矩阵 <strong>flights</strong> 的所有值都是 [0, 1] 范围内的整数。
+	矩阵 <strong>days</strong> 的所有值都是 [0, 7] 范围内的整数。
+	超过休假天数您仍可以呆在那个城市，但是在额外的日子您需要<strong> 工作 </strong>，这些日子不会算做休假日。
+	如果您从城市A飞往城市B并在当天休假日，这个休假会被算作是城市B的休假日。
+	我们不考虑飞行时间对计算休假日的影响。
+</ol>
+
+
+
+最大休假天数
+
+LeetCode wants to give one of its best employees the option to travel among <b>N</b> cities to collect algorithm problems. But all work and no play makes Jack a dull boy, you could take vacations in some particular cities and weeks. Your job is to schedule the traveling to maximize the number of vacation days you could take, but there are certain rules and restrictions you need to follow.
+
+
+<b>Rules and restrictions:</b><br>
+<ol>
+You can only travel among <b>N</b> cities, represented by indexes from 0 to N-1. Initially, you are in the city indexed 0 on <b>Monday</b>.
+The cities are connected by flights. The flights are represented as a <b>N*N</b> matrix (not necessary symmetrical), called <b>flights</b> representing the airline status from the city i to the city j. If there is no flight from the city i to the city j, <b>flights[i][j] = 0</b>; Otherwise, <b>flights[i][j] = 1</b>. Also, <b>flights[i][i] = 0</b> for all i.
+You totally have <b>K</b> weeks (<b>each week has 7 days</b>) to travel. You can only take flights at most once <b>per day</b> and can only take flights on each week's <b>Monday</b> morning. Since flight time is so short, we don't consider the impact of flight time.
+For each city, you can only have restricted vacation days in different weeks, given an <b>N*K</b> matrix called <b>days</b> representing this relationship. For the value of <b>days[i][j]</b>, it represents the maximum days you could take vacation in the city <b>i</b> in the week <b>j</b>.
+</ol>
+
+
+You're given the <b>flights</b> matrix and <b>days</b> matrix, and you need to output the maximum vacation days you could take during <b>K</b> weeks.
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b>flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[1,3,1],[6,0,3],[3,3,3]]
+<b>Output:</b> 12
+<b>Explanation:</b> <br>Ans = 6 + 3 + 3 = 12. <br>
+One of the best strategies is:
+1st week : fly from city 0 to city 1 on Monday, and play 6 days and work 1 day. <br/>(Although you start at city 0, we could also fly to and start at other cities since it is Monday.) 
+2nd week : fly from city 1 to city 2 on Monday, and play 3 days and work 4 days.
+3rd week : stay at city 2, and play 3 days and work 4 days.
+</pre>
+
+
+<b>Example 2:</b><br />
+<pre>
+<b>Input:</b>flights = [[0,0,0],[0,0,0],[0,0,0]], days = [[1,1,1],[7,7,7],[7,7,7]]
+<b>Output:</b> 3
+<b>Explanation:</b> <br>Ans = 1 + 1 + 1 = 3. <br>
+Since there is no flights enable you to move to another city, you have to stay at city 0 for the whole 3 weeks. <br/>For each week, you only have one day to play and six days to work. <br/>So the maximum number of vacation days is 3.
+</pre>
+
+
+<b>Example 3:</b><br />
+<pre>
+<b>Input:</b>flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[7,0,0],[0,7,0],[0,0,7]]
+<b>Output:</b> 21
+<b>Explanation:</b><br>Ans = 7 + 7 + 7 = 21<br>
+One of the best strategies is:
+1st week : stay at city 0, and play 7 days. 
+2nd week : fly from city 0 to city 1 on Monday, and play 7 days.
+3rd week : fly from city 1 to city 2 on Monday, and play 7 days.
+</pre>
+
+
+
+<b>Note:</b><br>
+<ol>
+<b>N and K</b> are positive integers, which are in the range of [1, 100].
+In the matrix <b>flights</b>, all the values are integers in the range of [0, 1].
+In the matrix <b>days</b>, all the values are integers in the range [0, 7].
+You could stay at a city beyond the number of vacation days, but you should <b>work</b> on the extra days, which won't be counted as vacation days.
+If you fly from the city A to the city B and take the vacation on that day, the deduction towards vacation days will count towards the vacation days of city B in that week.
+We don't consider the impact of flight hours towards the calculation of vacation days.
+</ol>

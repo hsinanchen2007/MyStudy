@@ -1,0 +1,2 @@
+![QQ图片20190803220932.png](https://pic.leetcode-cn.com/479292f7a474fd2aa28304fca3d43d9b133c75f71421104654ade3d10e3de0e2-QQ%E5%9B%BE%E7%89%8720190803220932.png)
+遍历循环元音字母就行啦

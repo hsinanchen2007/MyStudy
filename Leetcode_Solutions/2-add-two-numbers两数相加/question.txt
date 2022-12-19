@@ -1,0 +1,26 @@
+add-two-numbers
+给出两个<strong>非空</strong> 的链表用来表示两个非负的整数。其中，它们各自的位数是按照<strong>逆序</strong>的方式存储的，并且它们的每个节点只能存储<strong>一位</strong>数字。
+
+如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
+
+您可以假设除了数字 0 之外，这两个数都不会以 0开头。
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>(2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4)
+<strong>输出：</strong>7 -&gt; 0 -&gt; 8
+<strong>原因：</strong>342 + 465 = 807
+</pre>
+
+两数相加
+You are given two <b>non-empty</b> linked lists representing two non-negative integers. The digits are stored in <b>reverse order</b> and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+<b>Example:</b>
+
+<pre>
+<b>Input:</b> (2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4)
+<b>Output:</b> 7 -&gt; 0 -&gt; 8
+<b>Explanation:</b> 342 + 465 = 807.
+</pre>

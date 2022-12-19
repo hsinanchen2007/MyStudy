@@ -1,0 +1,45 @@
+permutation-ii-lcci
+有重复字符串的排列组合。编写一种方法，计算某字符串的所有排列组合。
+
+<strong>示例1:</strong>
+
+<pre><strong> 输入</strong>：S = &quot;qqe&quot;
+<strong> 输出</strong>：[&quot;eqq&quot;,&quot;qeq&quot;,&quot;qqe&quot;]
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong> 输入</strong>：S = &quot;ab&quot;
+<strong> 输出</strong>：[&quot;ab&quot;, &quot;ba&quot;]
+</pre>
+
+<strong>提示:</strong>
+
+<ol>
+	字符都是英文字母。
+	字符串长度在[1, 9]之间。
+</ol>
+
+有重复字符串的排列组合
+Write a method to compute all permutations of a string whose charac&shy; ters are not necessarily unique. The list of permutations should not have duplicates.
+
+<strong>Example1:</strong>
+
+<pre>
+<strong> Input</strong>: S = &quot;qqe&quot;
+<strong> Output</strong>: [&quot;eqq&quot;,&quot;qeq&quot;,&quot;qqe&quot;]
+</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong> Input</strong>: S = &quot;ab&quot;
+<strong> Output</strong>: [&quot;ab&quot;, &quot;ba&quot;]
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	All characters are English letters.
+	<code>1 &lt;= S.length &lt;= 9</code>
+</ol>

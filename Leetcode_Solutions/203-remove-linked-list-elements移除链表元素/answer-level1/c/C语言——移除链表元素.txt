@@ -1,0 +1,12 @@
+思路：
+1、先建立两个指针prev、cur，将prev指向头结点前一个为NULL，将cur指向头结点head；
+![image.png](https://pic.leetcode-cn.com/ab83d782bf9f44cf7b2d7963bfefe3aa32292e77f101832758a0d44cfb7d3825-image.png)
+2、开始判断寻找要删除的数val，找到了进行删除，找不到把cur位置给prev、cur往后走。
+![image.png](https://pic.leetcode-cn.com/fe05728d2f3554c622f30aa5934300b24ec1701f89432d0d601c34169e80d052-image.png)
+3、如果找到了要删除的数val，有两种情况：1.要删除的val是头结点。2.要删除的val不是头结点。
+(1)要删除的val是头结点
+将头结点head往后移动一位，把原来的头结点删除。让后面数做头结点
+![image.png](https://pic.leetcode-cn.com/76b311f3b15bba3e6cc256681ab81482c728b6bfe9c3d9c91b2fbd641452de7a-image.png)
+(2)要删除的val不是头结点
+将要删除的节点val的前一个节点指向其后一个节点，将要删除的节点val取出释放
+![image.png](https://pic.leetcode-cn.com/d9b2aacfce970b76b87d66b96fe2db1b0f76112bf8d3c800f487f4cdc92fe4f7-image.png)

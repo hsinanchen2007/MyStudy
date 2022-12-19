@@ -1,0 +1,103 @@
+minimum-remove-to-make-valid-parentheses
+给你一个由 <code>&#39;(&#39;</code>、<code>&#39;)&#39;</code> 和小写字母组成的字符串 <code>s</code>。
+
+你需要从字符串中删除最少数目的 <code>&#39;(&#39;</code> 或者 <code>&#39;)&#39;</code>（可以删除任意位置的括号)，使得剩下的「括号字符串」有效。
+
+请返回任意一个合法字符串。
+
+有效「括号字符串」应当符合以下<strong>任意一条</strong>要求：
+
+<ul>
+	空字符串或只包含小写字母的字符串
+	可以被写作<code>AB</code>（<code>A</code>连接<code>B</code>）的字符串，其中<code>A</code>和<code>B</code>都是有效「括号字符串」
+	可以被写作<code>(A)</code>的字符串，其中<code>A</code>是一个有效的「括号字符串」
+</ul>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;lee(t(c)o)de)&quot;
+<strong>输出：</strong>&quot;lee(t(c)o)de&quot;
+<strong>解释：</strong>&quot;lee(t(co)de)&quot; , &quot;lee(t(c)ode)&quot; 也是一个可行答案。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;a)b(c)d&quot;
+<strong>输出：</strong>&quot;ab(c)d&quot;
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;))((&quot;
+<strong>输出：</strong>&quot;&quot;
+<strong>解释：</strong>空字符串也是有效的
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>s = &quot;(a(b(c)d)&quot;
+<strong>输出：</strong>&quot;a(b(c)d)&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>s[i]</code>可能是<code>&#39;(&#39;</code>、<code>&#39;)&#39;</code>或英文小写字母
+</ul>
+
+移除无效的括号
+Given a string <font face="monospace">s</font>of<code>&#39;(&#39;</code>,<code>&#39;)&#39;</code>and lowercase English characters.
+
+Your task is to remove the minimum number of parentheses (<code>&#39;(&#39;</code>or<code>&#39;)&#39;</code>,in any positions ) so that the resulting <em>parentheses string</em> is valid and return <strong>any</strong> valid string.
+
+Formally, a <em>parentheses string</em> is valid if and only if:
+
+<ul>
+	It is the empty string, contains only lowercase characters, or
+	It can be written as<code>AB</code>(<code>A</code>concatenated with<code>B</code>), where<code>A</code>and<code>B</code>are valid strings, or
+	It can be written as<code>(A)</code>, where<code>A</code>is a valid string.
+</ul>
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;lee(t(c)o)de)&quot;
+<strong>Output:</strong> &quot;lee(t(c)o)de&quot;
+<strong>Explanation:</strong> &quot;lee(t(co)de)&quot; , &quot;lee(t(c)ode)&quot; would also be accepted.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;a)b(c)d&quot;
+<strong>Output:</strong> &quot;ab(c)d&quot;
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;))((&quot;
+<strong>Output:</strong> &quot;&quot;
+<strong>Explanation:</strong> An empty string is also valid.
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;(a(b(c)d)&quot;
+<strong>Output:</strong> &quot;a(b(c)d)&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>s[i]</code>is oneof<code>&#39;(&#39;</code> , <code>&#39;)&#39;</code> andlowercase English letters<code>.</code>
+</ul>

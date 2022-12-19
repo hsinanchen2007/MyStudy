@@ -1,0 +1,59 @@
+n-ary-tree-level-order-traversal
+给定一个 N 叉树，返回其节点值的<em>层序遍历</em>。 (即从左到右，逐层遍历)。
+
+例如，给定一个<code>3叉树</code>:
+
+
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/narytreeexample.png" style="width: 100%; max-width: 300px;">
+
+
+
+返回其层序遍历:
+
+<pre>[
+     [1],
+     [3,2,4],
+     [5,6]
+]
+</pre>
+
+
+
+<strong>说明:</strong>
+
+<ol>
+	树的深度不会超过<code>1000</code>。
+	树的节点总数不会超过<code>5000</code>。
+</ol>
+N叉树的层序遍历
+Given an n-ary tree, return the <i>level order</i> traversal of its nodes&#39; values.
+
+<em>Nary-Tree input serializationis represented in their level order traversal, each group of children is separated by the null value (See examples).</em>
+
+
+<strong>Example 1:</strong>
+
+<img src="https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png" style="width: 100%; max-width: 300px;" />
+
+<pre>
+<strong>Input:</strong> root = [1,null,3,2,4,null,5,6]
+<strong>Output:</strong> [[1],[3,2,4],[5,6]]
+</pre>
+
+<strong>Example 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png" style="width: 296px; height: 241px;" />
+
+<pre>
+<strong>Input:</strong> root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
+<strong>Output:</strong> [[1],[2,3,4,5],[6,7,8,9,10],[11,12,13],[14]]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	The height of the n-ary tree is less than or equal to <code>1000</code>
+	The total number of nodes is between <code>[0,10^4]</code>
+</ul>

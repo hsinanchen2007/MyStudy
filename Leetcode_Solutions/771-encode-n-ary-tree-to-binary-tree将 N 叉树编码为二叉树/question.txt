@@ -1,0 +1,46 @@
+encode-n-ary-tree-to-binary-tree
+设计一个算法，可以将 N 叉树编码为二叉树，并能将该二叉树解码为原 N 叉树。一个 N 叉树是指每个节点都有不超过 N 个孩子节点的有根树。类似地，一个二叉树是指每个节点都有不超过 2 个孩子节点的有根树。你的编码 / 解码的算法的实现没有限制，你只需要保证一个 N 叉树可以编码为二叉树且该二叉树可以解码回原始 N 叉树即可。
+
+例如，你可以将下面的 <code>3-叉</code> 树以该种方式编码：
+
+
+
+<img src="https://assets.leetcode.com/uploads/2018/10/12/narytreebinarytreeexample.png" style="width: 500px;">
+
+
+
+注意，上面的方法仅仅是一个例子，可能可行也可能不可行。你没有必要遵循这种形式转化，你可以自己创造和实现不同的方法。
+
+<strong>注意：</strong>
+
+<ol>
+	<code>N</code>的范围在 <code>[1, 1000]</code>
+	不要使用类成员 / 全局变量 / 静态变量来存储状态。你的编码和解码算法应是无状态的。
+</ol>
+
+将 N 叉树编码为二叉树
+Design an algorithm to encode an N-ary tree into a binary tree and decode the binary tree to get the original N-ary tree. An N-ary tree is a rooted tree in which each node has no more than N children. Similarly, a binary tree is a rooted tree in which each node has no more than 2 children. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that an N-ary tree can be encoded to a binary tree and this binary tree can be decoded to the original N-nary tree structure.
+
+<em>Nary-Tree input serializationis represented in their level order traversal, each group of children is separated by the null value (See following example).</em>
+
+For example, you may encode the following<code>3-ary</code>tree to a binary tree in this way:
+
+<img src="https://assets.leetcode.com/uploads/2018/10/12/narytreebinarytreeexample.png" style="width: 100%; max-width: 640px" />
+
+<pre>
+<strong>Input:</strong> root = [1,null,3,2,4,null,5,6]
+</pre>
+
+Note that the above is just an example which<em>might or might not</em>work. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.
+
+<ol>
+</ol>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	The height of the n-ary tree is less than or equal to <code>1000</code>
+	The total number of nodes is between <code>[0,10^4]</code>
+	Do not use class member/global/static variables to store states. Your encode and decode algorithms should be stateless.
+</ul>

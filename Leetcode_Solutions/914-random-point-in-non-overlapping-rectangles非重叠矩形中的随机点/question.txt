@@ -1,0 +1,91 @@
+random-point-in-non-overlapping-rectangles
+给定一个非重叠轴对齐矩形的列表 <code>rects</code>，写一个函数 <code>pick</code> 随机均匀地选取矩形覆盖的空间中的整数点。
+
+提示：
+
+<ol>
+	<strong>整数点</strong>是具有整数坐标的点。
+	矩形周边上的点包含在矩形覆盖的空间中。
+	第 <code>i</code> 个矩形 <code>rects [i] = [x1，y1，x2，y2]</code>，其中<code>[x1，y1]</code> 是左下角的整数坐标，<code>[x2，y2]</code> 是右上角的整数坐标。
+	每个矩形的长度和宽度不超过 2000。
+	<code>1 &lt;= rects.length&lt;= 100</code>
+	<code>pick</code> 以整数坐标数组<code>[p_x, p_y]</code>的形式返回一个点。
+	<code>pick</code> 最多被调用10000次。
+</ol>
+
+
+
+<strong>示例 1：</strong>
+
+<pre>
+<strong>输入: 
+</strong>[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+[[[[1,1,5,5]]],[],[],[]]
+<strong>输出: 
+</strong>[null,[4,1],[4,1],[3,3]]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre>
+<strong>输入: 
+</strong>[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+[[[[-2,-2,-1,-1],[1,0,3,0]]],[],[],[],[],[]]
+<strong>输出: 
+</strong>[null,[-1,-2],[2,0],[-2,-1],[3,0],[-2,-2]]</pre>
+
+
+
+<strong>输入语法的说明：</strong>
+
+输入是两个列表：调用的子例程及其参数。<code>Solution</code> 的构造函数有一个参数，即矩形数组 <code>rects</code>。<code>pick</code> 没有参数。参数总是用列表包装的，即使没有也是如此。
+
+
+
+非重叠矩形中的随机点
+Given a list of <strong>non-overlapping</strong>axis-aligned rectangles <code>rects</code>, write a function <code>pick</code> which randomly and uniformily picks an <strong>integer point</strong> in the spacecovered by the rectangles.
+
+Note:
+
+<ol>
+	An <strong>integer point</strong>is a point that has integer coordinates.
+	A pointon the perimeterof a rectangle is<strong>included</strong> in the space covered by the rectangles.
+	<code>i</code>th rectangle = <code>rects[i]</code> =<code>[x1,y1,x2,y2]</code>, where <code>[x1, y1]</code>are the integer coordinates of the bottom-left corner, and <code>[x2, y2]</code>are the integer coordinates of the top-right corner.
+	length and width of each rectangle does not exceed <code>2000</code>.
+	<code>1 &lt;= rects.length&lt;= 100</code>
+	<code>pick</code> return a point as an array of integer coordinates<code>[p_x, p_y]</code>
+	<code>pick</code> is called at most <code>10000</code>times.
+</ol>
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: 
+</strong><span id="example-input-1-1">[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+</span><span id="example-input-1-2">[[[[1,1,5,5]]],[],[],[]]</span>
+<strong>Output: 
+</strong><span id="example-output-1">[null,[4,1],[4,1],[3,3]]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: 
+</strong><span id="example-input-2-1">[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+</span><span id="example-input-2-2">[[[[-2,-2,-1,-1],[1,0,3,0]]],[],[],[],[],[]]</span>
+<strong>Output: 
+</strong><span id="example-output-2">[null,[-1,-2],[2,0],[-2,-1],[3,0],[-2,-2]]</span></pre>
+</div>
+
+<div>
+<strong>Explanation of Input Syntax:</strong>
+
+The input is two lists:the subroutines calledand theirarguments.<code>Solution</code>&#39;sconstructor has one argument, the array of rectangles <code>rects</code>. <code>pick</code>has no arguments.Argumentsarealways wrapped with a list, even if there aren&#39;t any.
+</div>
+</div>
+
+<div>
+<div></div>
+</div>

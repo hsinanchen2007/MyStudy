@@ -1,0 +1,77 @@
+maximum-width-ramp
+给定一个整数数组<code>A</code>，<em>坡</em>是元组<code>(i, j)</code>，其中<code>i &lt; j</code>且<code>A[i] &lt;= A[j]</code>。这样的坡的宽度为<code>j - i</code>。
+
+找出<code>A</code>中的坡的最大宽度，如果不存在，返回 0 。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[6,0,8,2,1,5]
+<strong>输出：</strong>4
+<strong>解释：</strong>
+最大宽度的坡为 (i, j) = (1, 5): A[1] = 0 且 A[5] = 5.
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[9,8,1,0,1,9,4,0,4,1]
+<strong>输出：</strong>7
+<strong>解释：</strong>
+最大宽度的坡为 (i, j) = (2, 9): A[2] = 1 且 A[9] = 1.
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>2 &lt;= A.length &lt;= 50000</code>
+	<code>0 &lt;= A[i] &lt;= 50000</code>
+</ol>
+
+
+
+最大宽度坡
+Given an array <code>A</code> of integers, a <em>ramp</em>is a tuple <code>(i, j)</code> for which <code>i &lt; j</code>and<code>A[i] &lt;= A[j]</code>. The width of such aramp is <code>j - i</code>.
+
+Find the maximum width of a ramp in <code>A</code>. If one doesn&#39;t exist, return 0.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[6,0,8,2,1,5]</span>
+<strong>Output: </strong><span id="example-output-1">4</span>
+<strong>Explanation: </strong>
+The maximum width ramp is achieved at (i, j) = (1, 5): A[1] = 0 and A[5] = 5.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[9,8,1,0,1,9,4,0,4,1]</span>
+<strong>Output: </strong><span id="example-output-2">7</span>
+<strong>Explanation: </strong>
+The maximum width ramp is achieved at (i, j) = (2, 9): A[2] = 1 and A[9] = 1.
+</pre>
+</div>
+
+<div>
+<div>
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>2 &lt;= A.length &lt;= 50000</code>
+	<code>0 &lt;= A[i] &lt;= 50000</code>
+</ol>
+</div>
+</div>
+
+<div>
+<div></div>
+</div>

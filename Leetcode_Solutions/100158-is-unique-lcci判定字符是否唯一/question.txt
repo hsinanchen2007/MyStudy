@@ -1,0 +1,45 @@
+is-unique-lcci
+实现一个算法，确定一个字符串 <code>s</code> 的所有字符是否全都不同。
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入:</strong> <code>s</code> = &quot;leetcode&quot;
+<strong>输出:</strong> false 
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入:</strong> <code>s</code> = &quot;abc&quot;
+<strong>输出:</strong> true
+</pre>
+
+<strong>限制：</strong>
+<ul>
+	<code>0 <= len(s) <= 100 </code>
+	如果你不使用额外的数据结构，会很加分。
+</ul>
+    
+判定字符是否唯一
+Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><code>s</code> = &quot;leetcode&quot;
+<strong>Output: </strong>false
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><code>s</code> = &quot;abc&quot;
+<strong>Output: </strong>true
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ul>
+	<code>0 &lt;= len(s) &lt;= 100 </code>
+</ul>

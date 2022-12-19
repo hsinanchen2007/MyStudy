@@ -1,0 +1,60 @@
+longest-palindromic-subsequence
+给定一个字符串<code>s</code>，找到其中最长的回文子序列。可以假设<code>s</code>的最大长度为<code>1000</code>。
+
+<strong>示例 1:</strong><br />
+输入:
+
+<pre>
+&quot;bbbab&quot;
+</pre>
+
+输出:
+
+<pre>
+4
+</pre>
+
+一个可能的最长回文子序列为 &quot;bbbb&quot;。
+
+<strong>示例 2:</strong><br />
+输入:
+
+<pre>
+&quot;cbbd&quot;
+</pre>
+
+输出:
+
+<pre>
+2
+</pre>
+
+一个可能的最长回文子序列为 &quot;bb&quot;。
+
+最长回文子序列
+
+Given a string s, find the longest palindromic subsequence's length in s. You may assume that the maximum length of s is 1000.
+
+
+<b>Example 1:</b><br>
+Input: 
+<pre>
+"bbbab"
+</pre>
+Output: 
+<pre>
+4
+</pre>
+One possible longest palindromic subsequence is "bbbb".
+
+
+<b>Example 2:</b><br>
+Input:
+<pre>
+"cbbd"
+</pre>
+Output:
+<pre>
+2
+</pre>
+One possible longest palindromic subsequence is "bb".

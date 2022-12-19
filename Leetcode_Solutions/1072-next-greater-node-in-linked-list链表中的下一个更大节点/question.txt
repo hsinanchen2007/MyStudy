@@ -1,0 +1,84 @@
+next-greater-node-in-linked-list
+给出一个以头节点<code>head</code>作为第一个节点的链表。链表中的节点分别编号为：<code>node_1, node_2, node_3, ...</code> 。
+
+每个节点都可能有下一个更大值（<em>next larger</em> <strong>value</strong>）：对于<code>node_i</code>，如果其<code>next_larger(node_i)</code>是<code>node_j.val</code>，那么就有<code>j &gt; i</code>且<code>node_j.val &gt; node_i.val</code>，而<code>j</code>是可能的选项中最小的那个。如果不存在这样的<code>j</code>，那么下一个更大值为<code>0</code>。
+
+返回整数答案数组<code>answer</code>，其中<code>answer[i] = next_larger(node_{i+1})</code>。
+
+<strong><em>注意：</em></strong>在下面的示例中，诸如 <code>[2,1,5]</code> 这样的<strong>输入</strong>（不是输出）是链表的序列化表示，其头节点的值为2，第二个节点值为 1，第三个节点值为5 。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[2,1,5]
+<strong>输出：</strong>[5,5,0]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[2,7,4,3,5]
+<strong>输出：</strong>[7,0,5,5,0]
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>[1,7,5,1,9,2,5,1]
+<strong>输出：</strong>[7,9,9,9,0,5,0,0]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	对于链表中的每个节点，<code>1 &lt;= node.val&lt;= 10^9</code>
+	给定列表的长度在 <code>[0, 10000]</code>范围内
+</ol>
+
+链表中的下一个更大节点
+We are given a linked list with<code>head</code>as the first node. Let&#39;s number thenodes in the list: <code>node_1, node_2, node_3, ...</code> etc.
+
+Each node may have a <em>next larger</em> <strong>value</strong>: for <code>node_i</code>,<code>next_larger(node_i)</code>is the <code>node_j.val</code> such that <code>j &gt; i</code>, <code>node_j.val &gt; node_i.val</code>, and <code>j</code> is the smallest possible choice. If such a <code>j</code>does not exist, the next larger value is <code>0</code>.
+
+Return an array of integers<code>answer</code>, where <code>answer[i] = next_larger(node_{i+1})</code>.
+
+Note that in the example <strong>inputs</strong>(not outputs) below, arrays such as <code>[2,1,5]</code>represent the serialization of a linked list with a head node value of 2, second node value of 1, and third node value of 5.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[2,1,5]</span>
+<strong>Output: </strong><span id="example-output-1">[5,5,0]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[2,7,4,3,5]</span>
+<strong>Output: </strong><span id="example-output-2">[7,0,5,5,0]</span>
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">[1,7,5,1,9,2,5,1]</span>
+<strong>Output: </strong><span id="example-output-3">[7,9,9,9,0,5,0,0]</span>
+</pre>
+
+
+
+<strong><span>Note:</span></strong>
+
+<ol>
+	<code><span>1 &lt;= node.val&lt;= 10^9</span></code><span>for each node in the linked list.</span>
+	The given list has length in the range <code>[0, 10000]</code>.
+</ol>
+</div>
+</div>
+</div>

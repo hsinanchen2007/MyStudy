@@ -1,0 +1,52 @@
+shortest-common-supersequence
+给出两个字符串<code>str1</code> 和<code>str2</code>，返回同时以<code>str1</code>和<code>str2</code>作为子序列的最短字符串。如果答案不止一个，则可以返回满足条件的任意一个答案。
+
+（如果从字符串 T 中删除一些字符（也可能不删除，并且选出的这些字符可以位于 T 中的<strong>任意位置</strong>），可以得到字符串 S，那么S 就是T 的子序列）
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>str1 = &quot;abac&quot;, str2 = &quot;cab&quot;
+<strong>输出：</strong>&quot;cabac&quot;
+<strong>解释：</strong>
+str1 = &quot;abac&quot; 是 &quot;cabac&quot; 的一个子串，因为我们可以删去 &quot;cabac&quot; 的第一个 &quot;c&quot;得到 &quot;abac&quot;。 
+str2 = &quot;cab&quot; 是 &quot;cabac&quot; 的一个子串，因为我们可以删去 &quot;cabac&quot; 末尾的 &quot;ac&quot; 得到 &quot;cab&quot;。
+最终我们给出的答案是满足上述属性的最短字符串。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= str1.length, str2.length &lt;= 1000</code>
+	<code>str1</code> 和<code>str2</code>都由小写英文字母组成。
+</ol>
+
+最短公共超序列
+Given two strings <code>str1</code> and <code>str2</code>,return the shortest string that has both <code>str1</code>and <code>str2</code>as subsequences.If multiple answers exist, you may return any of them.
+
+<em>(A string S is a subsequence of string T if deleting some number of characters from T (possibly 0, and the characters are chosen <u>anywhere</u> from T) results in the string S.)</em>
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>str1 = <span id="example-input-1-1">&quot;abac&quot;</span>, str2 = <span id="example-input-1-2">&quot;cab&quot;</span>
+<strong>Output: </strong><span id="example-output-1">&quot;cabac&quot;</span>
+<strong>Explanation: </strong>
+str1 = &quot;abac&quot; is a subsequence of &quot;cabac&quot; because we can delete the first &quot;c&quot;.
+str2 = &quot;cab&quot; is a subsequence of &quot;cabac&quot; because we can delete the last &quot;ac&quot;.
+The answer provided is the shortest such string that satisfies these properties.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= str1.length, str2.length &lt;= 1000</code>
+	<code>str1</code> and <code>str2</code> consist of lowercase English letters.
+</ol>

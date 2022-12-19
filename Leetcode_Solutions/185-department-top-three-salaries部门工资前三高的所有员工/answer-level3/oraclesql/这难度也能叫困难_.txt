@@ -1,0 +1,14 @@
+### 解题思路
+    非常简单的分组排序就行了
+
+### 代码
+
+```oraclesql
+SELECT D.NAME DEPARTMENT, E.NAME EMPLOYEE, E.SALARY
+  FROM DEPARTMENT D,
+       (SELECT E.*,
+               DENSE_RANK() OVER(PARTITION BY E.DEPARTMENTID ORDER BY E.SALARY DESC) RK
+          FROM EMPLOYEE E) E
+ WHERE D.ID = E.DEPARTMENTID(+)
+   AND E.RK <= 3
+```

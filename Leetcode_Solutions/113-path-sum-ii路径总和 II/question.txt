@@ -1,0 +1,52 @@
+path-sum-ii
+给定一个二叉树和一个目标和，找到所有从根节点到叶子节点路径总和等于给定目标和的路径。
+
+<strong>说明:</strong>叶子节点是指没有子节点的节点。
+
+<strong>示例:</strong><br>
+给定如下二叉树，以及目标和<code>sum = 22</code>，
+
+<pre>              <strong>5</strong>
+             / \
+            <strong>4</strong>   <strong>8</strong>
+           /   / \
+          <strong>11</strong>  13  <strong>4</strong>
+         /  \    / \
+        7    <strong>2</strong>  <strong>5</strong>   1
+</pre>
+
+返回:
+
+<pre>[
+   [5,4,11,2],
+   [5,8,4,5]
+]
+</pre>
+
+路径总和 II
+Given a binary tree and a sum, find all root-to-leaf paths where each path&#39;s sum equals the given sum.
+
+<strong>Note:</strong>A leaf is a node with no children.
+
+<strong>Example:</strong>
+
+Given the below binary tree and <code>sum = 22</code>,
+
+<pre>
+      <strong>5</strong>
+     <strong>/ \</strong>
+    <strong>4   8</strong>
+   <strong>/</strong>   / <strong>\</strong>
+  <strong>11</strong>  13  <strong>4</strong>
+ /  <strong>\</strong>    <strong>/</strong> \
+7    <strong>2</strong>  <strong>5</strong>   1
+</pre>
+
+Return:
+
+<pre>
+[
+   [5,4,11,2],
+   [5,8,4,5]
+]
+</pre>

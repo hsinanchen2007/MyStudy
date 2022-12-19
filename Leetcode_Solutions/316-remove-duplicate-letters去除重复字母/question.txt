@@ -1,0 +1,38 @@
+remove-duplicate-letters
+给你一个仅包含小写字母的字符串，请你去除字符串中重复的字母，使得每个字母只出现一次。需保证返回结果的字典序最小（要求不能打乱其他字符的相对位置）。
+
+
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> <code>&quot;bcabc&quot;</code>
+<strong>输出:</strong> <code>&quot;abc&quot;</code>
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> <code>&quot;cbacdcbc&quot;</code>
+<strong>输出:</strong> <code>&quot;acdb&quot;</code></pre>
+
+
+
+<strong>注意：</strong>该题与 1081 <a href="https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters">https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters</a> 相同
+
+去除重复字母
+Given a string which contains only lowercase letters, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> <code>&quot;bcabc&quot;</code>
+<b>Output:</b> <code>&quot;abc&quot;</code>
+</pre>
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> <code>&quot;cbacdcbc&quot;</code>
+<b>Output:</b> <code>&quot;acdb&quot;</code>
+</pre>
+
+<strong>Note:</strong> This question is the same as 1081:<a href="https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/">https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/</a>

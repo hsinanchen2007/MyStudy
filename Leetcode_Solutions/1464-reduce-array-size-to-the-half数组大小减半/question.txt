@@ -1,0 +1,104 @@
+reduce-array-size-to-the-half
+给你一个整数数组<code>arr</code>。你可以从中选出一个整数集合，并删除这些整数在数组中的每次出现。
+
+返回<strong>至少</strong>能删除数组中的一半整数的整数集合的最小大小。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>arr = [3,3,3,3,5,5,5,2,2,7]
+<strong>输出：</strong>2
+<strong>解释：</strong>选择 {3,7} 使得结果数组为 [5,5,5,2,2]、长度为 5（原数组长度的一半）。
+大小为 2 的可行集合有 {3,5},{3,2},{5,2}。
+选择 {2,7} 是不可行的，它的结果数组为 [3,3,3,3,5,5,5]，新数组长度大于原数组的二分之一。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>arr = [7,7,7,7,7,7]
+<strong>输出：</strong>1
+<strong>解释：</strong>我们只能选择集合 {7}，结果数组为空。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>arr = [1,9]
+<strong>输出：</strong>1
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>arr = [1000,1000,3,7]
+<strong>输出：</strong>1
+</pre>
+
+<strong>示例 5：</strong>
+
+<pre><strong>输入：</strong>arr = [1,2,3,4,5,6,7,8,9,10]
+<strong>输出：</strong>5
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= arr.length &lt;= 10^5</code>
+	<code>arr.length</code>为偶数
+	<code>1 &lt;= arr[i] &lt;= 10^5</code>
+</ul>
+
+数组大小减半
+Given an array <code>arr</code>. You can choose a set of integers and remove all the occurrences of these integers in the array.
+
+Return <em>the minimum size of the set</em> so that <strong>at least</strong> half of the integers of the array are removed.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [3,3,3,3,5,5,5,2,2,7]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Choosing {3,7} will make the new array [5,5,5,2,2] which has size 5 (i.e equal to half of the size of the old array).
+Possible sets of size 2 are {3,5},{3,2},{5,2}.
+Choosing set {2,7} is not possible as it will make the new array [3,3,3,3,5,5,5] which has size greater than half of the size of the old array.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [7,7,7,7,7,7]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The only possible set you can choose is {7}. This will make the new array empty.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [1,9]
+<strong>Output:</strong> 1
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [1000,1000,3,7]
+<strong>Output:</strong> 1
+</pre>
+
+<strong>Example 5:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [1,2,3,4,5,6,7,8,9,10]
+<strong>Output:</strong> 5
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= arr.length &lt;= 10^5</code>
+	<code>arr.length</code> is even.
+	<code>1 &lt;= arr[i] &lt;= 10^5</code>
+</ul>

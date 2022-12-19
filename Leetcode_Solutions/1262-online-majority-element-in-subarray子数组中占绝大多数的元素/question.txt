@@ -1,0 +1,73 @@
+online-majority-element-in-subarray
+实现一个<code>MajorityChecker</code>的类，它应该具有下述几个 API：
+
+<ul>
+	<code>MajorityChecker(int[] arr)</code>会用给定的数组 <code>arr</code>来构造一个 <code>MajorityChecker</code> 的实例。
+	<code>int query(int left, int right, int threshold)</code>有这么几个参数：
+	<ul>
+		<code>0 &lt;= left&lt;= right&lt; arr.length</code> 表示数组<code>arr</code>的子数组的长度。
+		<code>2 * threshold &gt; right - left + 1</code>，也就是说阈值 <code>threshold</code>始终比子序列长度的一半还要大。
+	</ul>
+	
+</ul>
+
+每次查询<code>query(...)</code>会返回在<code>arr[left], arr[left+1], ..., arr[right]</code>中至少出现阈值次数<code>threshold</code>的元素，如果不存在这样的元素，就返回<code>-1</code>。
+
+
+
+<strong>示例：</strong>
+
+<pre>MajorityChecker majorityChecker = new MajorityChecker([1,1,2,2,1,1]);
+majorityChecker.query(0,5,4); // 返回 1
+majorityChecker.query(0,3,3); // 返回 -1
+majorityChecker.query(2,3,2); // 返回 2
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= arr.length &lt;=20000</code>
+	<code>1 &lt;= arr[i]&lt;=20000</code>
+	对于每次查询，<code>0 &lt;= left &lt;= right &lt; len(arr)</code>
+	对于每次查询，<code>2 * threshold &gt; right - left + 1</code>
+	查询次数最多为 <code>10000</code>
+</ul>
+
+子数组中占绝大多数的元素
+Implementing the class <code>MajorityChecker</code>, which has the following API:
+
+<ul>
+	<code>MajorityChecker(int[] arr)</code> constructs an instance of MajorityChecker with the given array <code>arr</code>;
+	<code>int query(int left, int right, int threshold)</code>has argumentssuch that:
+	<ul>
+		<code>0 &lt;= left&lt;= right&lt; arr.length</code> representing a subarray of <code>arr</code>;
+		<code>2 * threshold &gt; right - left + 1</code>, ie. the threshold is always a strict majority of the length ofthe subarray
+	</ul>
+	
+</ul>
+
+Each<code>query(...)</code> returns the element in <code>arr[left], arr[left+1], ..., arr[right]</code> that occurs at least <code>threshold</code> times, or <code>-1</code> if no such element exists.
+
+
+
+<strong>Example:</strong>
+
+<pre>
+MajorityChecker majorityChecker = new MajorityChecker([1,1,2,2,1,1]);
+majorityChecker.query(0,5,4); // returns 1
+majorityChecker.query(0,3,3); // returns -1
+majorityChecker.query(2,3,2); // returns 2
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= arr.length &lt;=20000</code>
+	<code>1 &lt;= arr[i]&lt;=20000</code>
+	For each query, <code>0 &lt;= left &lt;= right &lt; len(arr)</code>
+	For each query, <code>2 * threshold &gt; right - left + 1</code>
+	The number of queries is at most <code>10000</code>
+</ul>

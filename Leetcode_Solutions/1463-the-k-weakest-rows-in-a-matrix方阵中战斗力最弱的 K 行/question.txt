@@ -1,0 +1,117 @@
+the-k-weakest-rows-in-a-matrix
+给你一个大小为<code>m* n</code>的方阵<code>mat</code>，方阵由若干军人和平民组成，分别用 0 和 1 表示。
+
+请你返回方阵中战斗力最弱的<code>k</code>行的索引，按从最弱到最强排序。
+
+如果第<em><strong>i</strong></em>行的军人数量少于第<em><strong>j</strong></em>行，或者两行军人数量相同但<em><strong> i</strong></em> 小于 <em><strong>j</strong></em>，那么我们认为第<em><strong> i </strong></em>行的战斗力比第<em><strong> j </strong></em>行弱。
+
+军人 <strong>总是</strong> 排在一行中的靠前位置，也就是说 1 总是出现在 0 之前。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>mat = 
+[[1,1,0,0,0],
+ [1,1,1,1,0],
+ [1,0,0,0,0],
+ [1,1,0,0,0],
+ [1,1,1,1,1]], 
+k = 3
+<strong>输出：</strong>[2,0,3]
+<strong>解释：</strong>
+每行中的军人数目：
+行 0 -&gt; 2 
+行 1 -&gt; 4 
+行 2 -&gt; 1 
+行 3 -&gt; 2 
+行 4 -&gt; 5 
+从最弱到最强对这些行排序后得到 [2,0,3,1,4]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>mat = 
+[[1,0,0,0],
+[1,1,1,1],
+[1,0,0,0],
+[1,0,0,0]], 
+k = 2
+<strong>输出：</strong>[0,2]
+<strong>解释：</strong> 
+每行中的军人数目：
+行 0 -&gt; 1 
+行 1 -&gt; 4 
+行 2 -&gt; 1 
+行 3 -&gt; 1 
+从最弱到最强对这些行排序后得到 [0,2,3,1]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>m == mat.length</code>
+	<code>n == mat[i].length</code>
+	<code>2 &lt;= n, m &lt;= 100</code>
+	<code>1 &lt;= k &lt;= m</code>
+	<code>matrix[i][j]</code> 不是 0 就是 1
+</ul>
+
+方阵中战斗力最弱的 K 行
+Given a <code>m* n</code>matrix <code>mat</code> of <em>ones</em>(representing soldiers) and <em>zeros</em>(representing civilians), return the indexes of the <code>k</code> weakest rows in the matrix ordered from the weakest to the strongest.
+
+A row <em><strong>i</strong></em> is weaker than row <em><strong>j</strong></em>, if the number of soldiers in row <em><strong>i</strong></em> is less than the number of soldiers in row <em><strong>j</strong></em>, or they have the same number of soldiers but <em><strong>i</strong></em> is less than <em><strong>j</strong></em>. Soldiers are <strong>always</strong> stand in the frontier of a row, that is, always <em>ones</em>may appear first and then <em>zeros</em>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> mat = 
+[[1,1,0,0,0],
+ [1,1,1,1,0],
+ [1,0,0,0,0],
+ [1,1,0,0,0],
+ [1,1,1,1,1]], 
+k = 3
+<strong>Output:</strong> [2,0,3]
+<strong>Explanation:</strong> 
+The number of soldiers for each row is: 
+row 0 -&gt; 2 
+row 1 -&gt; 4 
+row 2 -&gt; 1 
+row 3 -&gt; 2 
+row 4 -&gt; 5 
+Rows ordered from the weakest to the strongest are [2,0,3,1,4]
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> mat = 
+[[1,0,0,0],
+[1,1,1,1],
+[1,0,0,0],
+[1,0,0,0]], 
+k = 2
+<strong>Output:</strong> [0,2]
+<strong>Explanation:</strong> 
+The number of soldiers for each row is: 
+row 0 -&gt; 1 
+row 1 -&gt; 4 
+row 2 -&gt; 1 
+row 3 -&gt; 1 
+Rows ordered from the weakest to the strongest are [0,2,3,1]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>m == mat.length</code>
+	<code>n == mat[i].length</code>
+	<code><font face="monospace">2 &lt;= n, m &lt;= 100</font></code>
+	<code>1 &lt;= k &lt;= m</code>
+	<code>matrix[i][j]</code> is either 0 <strong>or</strong> 1.
+</ul>

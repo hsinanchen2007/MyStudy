@@ -1,0 +1,107 @@
+remove-outermost-parentheses
+有效括号字符串为空<code>(&quot;&quot;)</code>、<code>&quot;(&quot; + A + &quot;)&quot;</code>或<code>A + B</code>，其中<code>A</code> 和<code>B</code>都是有效的括号字符串，<code>+</code>代表字符串的连接。例如，<code>&quot;&quot;</code>，<code>&quot;()&quot;</code>，<code>&quot;(())()&quot;</code>和<code>&quot;(()(()))&quot;</code>都是有效的括号字符串。
+
+如果有效字符串<code>S</code>非空，且不存在将其拆分为<code>S = A+B</code>的方法，我们称其为<strong>原语（primitive）</strong>，其中<code>A</code> 和<code>B</code>都是非空有效括号字符串。
+
+给出一个非空有效字符串<code>S</code>，考虑将其进行原语化分解，使得：<code>S = P_1 + P_2 + ... + P_k</code>，其中<code>P_i</code>是有效括号字符串原语。
+
+对<code>S</code>进行原语化分解，删除分解中每个原语字符串的最外层括号，返回 <code>S</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;(()())(())&quot;
+<strong>输出：</strong>&quot;()()()&quot;
+<strong>解释：
+</strong>输入字符串为 &quot;(()())(())&quot;，原语化分解得到 &quot;(()())&quot; + &quot;(())&quot;，
+删除每个部分中的最外层括号后得到 &quot;()()&quot; + &quot;()&quot; = &quot;()()()&quot;。</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;(()())(())(()(()))&quot;
+<strong>输出：</strong>&quot;()()()()(())&quot;
+<strong>解释：</strong>
+输入字符串为 &quot;(()())(())(()(()))&quot;，原语化分解得到 &quot;(()())&quot; + &quot;(())&quot; + &quot;(()(()))&quot;，
+删除每个部分中的最外层括号后得到 &quot;()()&quot; + &quot;()&quot; + &quot;()(())&quot; = &quot;()()()()(())&quot;。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>&quot;()()&quot;
+<strong>输出：</strong>&quot;&quot;
+<strong>解释：</strong>
+输入字符串为 &quot;()()&quot;，原语化分解得到 &quot;()&quot; + &quot;()&quot;，
+删除每个部分中的最外层括号后得到 &quot;&quot; + &quot;&quot; = &quot;&quot;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>S.length &lt;= 10000</code>
+	<code>S[i]</code> 为<code>&quot;(&quot;</code> 或<code>&quot;)&quot;</code>
+	<code>S</code> 是一个有效括号字符串
+</ol>
+
+删除最外层的括号
+A valid parentheses string is either empty <code>(&quot;&quot;)</code>, <code>&quot;(&quot; + A + &quot;)&quot;</code>, or <code>A + B</code>, where <code>A</code> and <code>B</code> are valid parentheses strings, and <code>+</code> represents string concatenation. For example, <code>&quot;&quot;</code>, <code>&quot;()&quot;</code>, <code>&quot;(())()&quot;</code>, and <code>&quot;(()(()))&quot;</code> are all valid parentheses strings.
+
+A valid parentheses string <code>S</code> is <strong>primitive</strong> if it is nonempty, and there does not exist a way to split it into <code>S = A+B</code>, with <code>A</code> and <code>B</code> nonempty valid parentheses strings.
+
+Given a valid parentheses string <code>S</code>, consider its primitive decomposition: <code>S = P_1 + P_2 + ... + P_k</code>, where <code>P_i</code> are primitive valid parentheses strings.
+
+Return <code>S</code> after removing the outermost parentheses of every primitive string in the primitive decomposition of <code>S</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;(()())(())&quot;</span>
+<strong>Output: </strong><span id="example-output-1">&quot;()()()&quot;</span>
+<strong>Explanation: </strong>
+The input string is &quot;(()())(())&quot;, with primitive decomposition &quot;(()())&quot; + &quot;(())&quot;.
+After removing outer parentheses of each part, this is &quot;()()&quot; + &quot;()&quot; = &quot;()()()&quot;.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;(()())(())(()(()))&quot;</span>
+<strong>Output: </strong><span id="example-output-2">&quot;()()()()(())&quot;</span>
+<strong>Explanation: </strong>
+The input string is &quot;(()())(())(()(()))&quot;, with primitive decomposition &quot;(()())&quot; + &quot;(())&quot; + &quot;(()(()))&quot;.
+After removing outer parentheses of each part, this is &quot;()()&quot; + &quot;()&quot; + &quot;()(())&quot; = &quot;()()()()(())&quot;.
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">&quot;()()&quot;</span>
+<strong>Output: </strong><span id="example-output-3">&quot;&quot;</span>
+<strong>Explanation: </strong>
+The input string is &quot;()()&quot;, with primitive decomposition &quot;()&quot; + &quot;()&quot;.
+After removing outer parentheses of each part, this is &quot;&quot; + &quot;&quot; = &quot;&quot;.
+</pre>
+
+
+</div>
+</div>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>S.length &lt;= 10000</code>
+	<code>S[i]</code> is <code>&quot;(&quot;</code> or <code>&quot;)&quot;</code>
+	<code>S</code> is a valid parentheses string
+</ol>
+
+<div>
+<div>
+<div></div>
+</div>
+</div>

@@ -1,0 +1,42 @@
+burst-balloons
+有 <code>n</code> 个气球，编号为<code>0</code> 到 <code>n-1</code>，每个气球上都标有一个数字，这些数字存在数组<code>nums</code>中。
+
+现在要求你戳破所有的气球。每当你戳破一个气球 <code>i</code> 时，你可以获得<code>nums[left] * nums[i] * nums[right]</code>个硬币。这里的<code>left</code>和<code>right</code>代表和<code>i</code>相邻的两个气球的序号。注意当你戳破了气球 <code>i</code> 后，气球<code>left</code>和气球<code>right</code>就变成了相邻的气球。
+
+求所能获得硬币的最大数量。
+
+<strong>说明:</strong>
+
+<ul>
+	你可以假设<code>nums[-1] = nums[n] = 1</code>，但注意它们不是真实存在的所以并不能被戳破。
+	0 &le; <code>n</code> &le; 500, 0 &le; <code>nums[i]</code> &le; 100
+</ul>
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> <code>[3,1,5,8]</code>
+<strong>输出:</strong> <code>167 
+<strong>解释: </strong></code>nums = [3,1,5,8] --&gt; [3,5,8] --&gt;   [3,8]   --&gt;  [8]  --&gt; []
+    coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
+</pre>
+
+戳气球
+Given <code>n</code> balloons, indexed from <code>0</code> to <code>n-1</code>. Each balloon is painted with a number on it represented by array <code>nums</code>. You are asked to burst all the balloons. If the you burst balloon <code>i</code> you will get <code>nums[left] * nums[i] * nums[right]</code> coins. Here <code>left</code> and <code>right</code> are adjacent indices of <code>i</code>. After the burst, the <code>left</code> and <code>right</code> then becomes adjacent.
+
+Find the maximum coins you can collect by bursting the balloons wisely.
+
+<b>Note:</b>
+
+<ul>
+	You may imagine <code>nums[-1] = nums[n] = 1</code>. They are not real therefore you can not burst them.
+	0 &le; <code>n</code> &le; 500, 0 &le; <code>nums[i]</code> &le; 100
+</ul>
+
+<b>Example:</b>
+
+<pre>
+<b>Input:</b> <code>[3,1,5,8]</code>
+<b>Output:</b> <code>167 
+<strong>Explanation: </strong></code>nums = [3,1,5,8] --&gt; [3,5,8] --&gt;   [3,8]   --&gt;  [8]  --&gt; []
+            coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
+</pre>

@@ -1,0 +1,94 @@
+find-leaves-of-binary-tree
+给你一棵二叉树，请按以下要求的顺序收集它的全部节点：
+
+<ol>
+	依次从左到右，每次收集并删除所有的叶子节点
+	重复如上过程直到整棵树为空
+</ol>
+
+
+
+<strong>示例:</strong>
+
+<pre><strong>输入: </strong>[1,2,3,4,5]
+ 
+         1
+         / \
+        2   3
+       / \     
+      4   5    
+
+<strong>输出: </strong>[[4,5,3],[2],[1]]
+</pre>
+
+
+
+<strong>解释:</strong>
+
+1. 删除叶子节点<code>[4,5,3]</code> ，得到如下树结构：
+
+<pre>          1
+         / 
+        2          
+</pre>
+
+
+
+2. 现在删去叶子节点<code>[2]</code>，得到如下树结构：
+
+<pre>          1          
+</pre>
+
+
+
+3. 现在删去叶子节点<code>[1]</code>，得到空树：
+
+<pre>          []         
+</pre>
+
+寻找二叉树的叶子节点
+Given a binary tree, collect a tree&#39;s nodes as if you were doing this: Collect and remove all leaves, repeat until the tree is empty.
+
+
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[1,2,3,4,5]
+ 
+         </span>1
+         / \
+        2   3
+       / \     
+      4   5    
+
+<strong>Output: </strong><span id="example-output-1">[[4,5,3],[2],[1]]</span>
+</pre>
+
+
+
+<strong>Explanation:</strong>
+
+1. Removing the leaves <code>[4,5,3]</code> would result in this tree:
+
+<pre>
+          1
+         / 
+        2          
+</pre>
+
+
+
+2. Now removing the leaf <code>[2]</code> would result in this tree:
+
+<pre>
+          1          
+</pre>
+
+
+
+3. Now removing the leaf <code>[1]</code> would result in the empty tree:
+
+<pre>
+          []         
+</pre>

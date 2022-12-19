@@ -1,0 +1,46 @@
+fraction-to-recurring-decimal
+给定两个整数，分别表示分数的分子numerator 和分母 denominator，以字符串形式返回小数。
+
+如果小数部分为循环小数，则将循环的部分括在括号内。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> numerator = 1, denominator = 2
+<strong>输出:</strong> &quot;0.5&quot;
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> numerator = 2, denominator = 1
+<strong>输出:</strong> &quot;2&quot;</pre>
+
+<strong>示例3:</strong>
+
+<pre><strong>输入:</strong> numerator = 2, denominator = 3
+<strong>输出: </strong>&quot;0.(6)&quot;
+</pre>
+
+分数到小数
+Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
+
+If the fractional part is repeating, enclose the repeating part in parentheses.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> numerator = 1, denominator = 2
+<strong>Output:</strong> &quot;0.5&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> numerator = 2, denominator = 1
+<strong>Output:</strong> &quot;2&quot;</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> numerator = 2, denominator = 3
+<strong>Output: </strong>&quot;0.(6)&quot;
+</pre>

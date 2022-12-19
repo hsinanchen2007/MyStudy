@@ -1,0 +1,50 @@
+compress-string-lcci
+字符串压缩。利用字符重复出现的次数，编写一种方法，实现基本的字符串压缩功能。比如，字符串<code>aabcccccaaa</code>会变为<code>a2b1c5a3</code>。若“压缩”后的字符串没有变短，则返回原先的字符串。你可以假设字符串中只包含大小写英文字母（a至z）。
+
+ <strong>示例1:</strong>
+
+<pre>
+<strong> 输入</strong>："aabcccccaaa"
+<strong> 输出</strong>："a2b1c5a3"
+</pre>
+
+ <strong>示例2:</strong>
+
+<pre>
+<strong> 输入</strong>："abbccd"
+<strong> 输出</strong>："abbccd"
+<strong> 解释</strong>："abbccd"压缩后为"a1b2c2d1"，比原字符串长度更长。
+</pre>
+
+<strong>提示：</strong>
+
+<ol>
+字符串长度在[0, 50000]范围内。
+</ol>
+
+字符串压缩
+Implement a method to perform basic string compression using the counts of repeated characters. For example, the string aabcccccaaa would become a2blc5a3. If the &quot;compressed&quot; string would not become smaller than the original string, your method should return the original string. You can assume the string has only uppercase and lowercase letters (a - z).
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>&quot;aabcccccaaa&quot;
+<strong>Output: </strong>&quot;a2b1c5a3&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>&quot;abbccd&quot;
+<strong>Output: </strong>&quot;abbccd&quot;
+<strong>Explanation: </strong>
+The compressed string is &quot;a1b2c2d1&quot;, which is longer than the original string.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= S.length &lt;= 50000</code>
+</ol>

@@ -1,0 +1,38 @@
+palindrome-pairs
+给定一组<strong>唯一</strong>的单词， 找出所有<strong><em>不同</em></strong>的索引对<code>(i, j)</code>，使得列表中的两个单词，<code>words[i] + words[j]</code>，可拼接成回文串。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>[&quot;abcd&quot;,&quot;dcba&quot;,&quot;lls&quot;,&quot;s&quot;,&quot;sssll&quot;]
+<strong>输出: </strong>[[0,1],[1,0],[3,2],[2,4]] 
+<strong>解释: </strong>可拼接成的回文串为 <code>[&quot;dcbaabcd&quot;,&quot;abcddcba&quot;,&quot;slls&quot;,&quot;llssssll&quot;]</code>
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>[&quot;bat&quot;,&quot;tab&quot;,&quot;cat&quot;]
+<strong>输出: </strong>[[0,1],[1,0]] 
+<strong>解释: </strong>可拼接成的回文串为 <code>[&quot;battab&quot;,&quot;tabbat&quot;]</code></pre>
+
+回文对
+Given a list of <b>unique</b> words, find all pairs of <b><i>distinct</i></b> indices <code>(i, j)</code> in the given list, so that the concatenation of the two words, i.e. <code>words[i] + words[j]</code> is a palindrome.
+
+<strong>Example 1:</strong>
+
+<div>
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[&quot;abcd&quot;,&quot;dcba&quot;,&quot;lls&quot;,&quot;s&quot;,&quot;sssll&quot;]</span>
+<strong>Output: </strong><span id="example-output-1">[[0,1],[1,0],[3,2],[2,4]] 
+<strong>E</strong></span><strong>xplanation<span>: </span></strong>The palindromes are <code>[&quot;dcbaabcd&quot;,&quot;abcddcba&quot;,&quot;slls&quot;,&quot;llssssll&quot;]</code>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[&quot;bat&quot;,&quot;tab&quot;,&quot;cat&quot;]</span>
+<strong>Output: </strong><span id="example-output-2">[[0,1],[1,0]] 
+</span><span id="example-output-1"><strong>E</strong></span><strong>xplanation<span>: </span></strong>The palindromes are <code>[&quot;battab&quot;,&quot;tabbat&quot;]</code>
+</pre>
+</div>
+</div>

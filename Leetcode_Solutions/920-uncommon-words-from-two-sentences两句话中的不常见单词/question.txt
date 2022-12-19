@@ -1,0 +1,77 @@
+uncommon-words-from-two-sentences
+给定两个句子<code>A</code>和<code>B</code>。（<em>句子</em>是一串由空格分隔的单词。每个<em>单词</em>仅由小写字母组成。）
+
+如果一个单词在其中一个句子中只出现一次，在另一个句子中却没有出现，那么这个单词就是<em>不常见的</em>。
+
+返回所有不常用单词的列表。
+
+您可以按任何顺序返回列表。
+
+
+
+<ol>
+</ol>
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>A = &quot;this apple is sweet&quot;, B = &quot;this apple is sour&quot;
+<strong>输出：</strong>[&quot;sweet&quot;,&quot;sour&quot;]
+</pre>
+
+<strong>示例2：</strong>
+
+<pre><strong>输入：</strong>A = &quot;apple apple&quot;, B = &quot;banana&quot;
+<strong>输出：</strong>[&quot;banana&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= A.length &lt;= 200</code>
+	<code>0 &lt;= B.length &lt;= 200</code>
+	<code>A</code> 和<code>B</code>都只包含空格和小写字母。
+</ol>
+
+两句话中的不常见单词
+We are given two sentences <code>A</code> and <code>B</code>. (A <em>sentence</em>is a string of space separated words. Each <em>word</em> consists only of lowercase letters.)
+
+A word is <em>uncommon</em>if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+
+Return a list of all uncommon words.
+
+You may return the list in any order.
+
+
+
+<ol>
+</ol>
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-1-1">&quot;this apple is sweet&quot;</span>, B = <span id="example-input-1-2">&quot;this apple is sour&quot;</span>
+<strong>Output: </strong><span id="example-output-1">[&quot;sweet&quot;,&quot;sour&quot;]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-2-1">&quot;apple apple&quot;</span>, B = <span id="example-input-2-2">&quot;banana&quot;</span>
+<strong>Output: </strong><span id="example-output-2">[&quot;banana&quot;]</span>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= A.length &lt;= 200</code>
+	<code>0 &lt;= B.length &lt;= 200</code>
+	<code>A</code> and <code>B</code> both contain only spaces and lowercase letters.
+</ol>
+</div>
+</div>

@@ -1,0 +1,1 @@
+没什么技术含量的凡人解决思路，只需要对人员薪酬表进行区域排名排序（dense_rank()over(partition by 部门 order by 薪酬 desc）然后关联表判断条件就可以基本解决问题了

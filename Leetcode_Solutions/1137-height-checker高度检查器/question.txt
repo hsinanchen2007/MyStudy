@@ -1,0 +1,83 @@
+height-checker
+学校在拍年度纪念照时，一般要求学生按照 <strong>非递减</strong> 的高度顺序排列。
+
+请你返回能让所有学生以 <strong>非递减</strong> 高度排列的最小必要移动人数。
+
+注意，当一组学生被选中时，他们之间可以以任何可能的方式重新排序，而未被选中的学生应该保持不动。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>heights =[1,1,4,2,1,3]
+<strong>输出：</strong>3 
+<strong>解释：</strong>
+当前数组：[1,1,4,2,1,3]
+目标数组：[1,1,1,2,3,4]
+在下标 2 处（从 0 开始计数）出现 4 vs 1 ，所以我们必须移动这名学生。
+在下标 4 处（从 0 开始计数）出现 1 vs 3 ，所以我们必须移动这名学生。
+在下标 5 处（从 0 开始计数）出现 3 vs 4 ，所以我们必须移动这名学生。</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>heights = [5,1,2,3,4]
+<strong>输出：</strong>5
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>heights = [1,2,3,4,5]
+<strong>输出：</strong>0
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= heights.length &lt;= 100</code>
+	<code>1 &lt;= heights[i] &lt;= 100</code>
+</ol>
+
+高度检查器
+Students are asked to stand in non-decreasing order of heights for an annual photo.
+
+Return the minimum number of students that must move in order for all students to be standing in non-decreasing order of height.
+
+Notice that when a group of students is selected they can reorder in any possible way between themselves and the non selected studentsremain on their seats.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> heights = [1,1,4,2,1,3]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> 
+Current array : [1,1,4,2,1,3]
+Target array  : [1,1,1,2,3,4]
+On index 2 (0-based) we have 4 vs 1 so we have to move this student.
+On index 4 (0-based) we have 1 vs 3 so we have to move this student.
+On index 5 (0-based) we have 3 vs 4 so we have to move this student.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> heights = [5,1,2,3,4]
+<strong>Output:</strong> 5
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> heights = [1,2,3,4,5]
+<strong>Output:</strong> 0
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= heights.length &lt;= 100</code>
+	<code>1 &lt;= heights[i] &lt;= 100</code>
+</ul>

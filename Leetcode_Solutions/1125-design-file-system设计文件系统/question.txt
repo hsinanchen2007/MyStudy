@@ -1,0 +1,115 @@
+design-file-system
+你需要设计一个能提供下面两个函数的文件系统：
+
+<ul>
+	<strong>create(path, value):</strong>创建一个新的路径，并尽可能将值 <code>value</code> 与路径 <code>path</code> 关联，然后返回<code>True</code>。如果路径已经存在或者路径的父路径不存在，则返回<code>False</code>。
+	<strong>get(path):</strong>返回与路径关联的值。如果路径不存在，则返回<code>-1</code>。
+</ul>
+
+&ldquo;路径&rdquo; 是由一个或多个符合下述格式的字符串连接起来形成的：在<code>/</code>后跟着一个或多个小写英文字母。
+
+例如<code>/leetcode</code>和<code>/leetcode/problems</code>都是有效的路径，但空字符串和<code>/</code>不是有效的路径。
+
+好了，接下来就请你来实现这两个函数吧！（请参考示例以获得更多信息）
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong> 
+[&quot;FileSystem&quot;,&quot;create&quot;,&quot;get&quot;]
+[[],[&quot;/a&quot;,1],[&quot;/a&quot;]]
+<strong>输出：</strong> 
+[null,true,1]
+<strong>解释：</strong> 
+FileSystem fileSystem = new FileSystem();
+
+fileSystem.create(&quot;/a&quot;, 1); // 返回 true
+fileSystem.get(&quot;/a&quot;); // 返回 1
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong> 
+[&quot;FileSystem&quot;,&quot;create&quot;,&quot;create&quot;,&quot;get&quot;,&quot;create&quot;,&quot;get&quot;]
+[[],[&quot;/leet&quot;,1],[&quot;/leet/code&quot;,2],[&quot;/leet/code&quot;],[&quot;/c/d&quot;,1],[&quot;/c&quot;]]
+<strong>输出：</strong> 
+[null,true,true,2,false,-1]
+<strong>解释：</strong>
+FileSystem fileSystem = new FileSystem();
+
+fileSystem.create(&quot;/leet&quot;, 1); // 返回 true
+fileSystem.create(&quot;/leet/code&quot;, 2); // 返回 true
+fileSystem.get(&quot;/leet/code&quot;); // 返回 2
+fileSystem.create(&quot;/c/d&quot;, 1); // 返回 false 因为父路径 &quot;/c&quot; 不存在。
+fileSystem.get(&quot;/c&quot;); // 返回 -1 因为该路径不存在。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	对两个函数的调用次数加起来小于等于<code>10^4</code>
+	<code>2 &lt;= path.length &lt;= 100</code>
+	<code>1 &lt;= value &lt;= 10^9</code>
+</ul>
+
+设计文件系统
+You are asked to design a file systemwhich provides two functions:
+
+<ul>
+	<strong>createPath(path, value):</strong>Creates a new path and associates a value to it if possible and returns <code>True</code>.Returns <code>False</code>if the path already exists or its parent path doesn&#39;t exist.
+	<strong>get(path):</strong>Returns the value associated with a path or returns<code>-1</code>if the path doesn&#39;t exist.
+</ul>
+
+The format of a path isone or more concatenated strings of the form:<code>/</code> followed by one or more lowercase English letters. For example, <code>/leetcode</code>and <code>/leetcode/problems</code>are valid paths while an empty string and <code>/</code>are not.
+
+Implement the two functions.
+
+Please refer to the examples for clarifications.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> 
+[&quot;FileSystem&quot;,&quot;createPath&quot;,&quot;get&quot;]
+[[],[&quot;/a&quot;,1],[&quot;/a&quot;]]
+<strong>Output:</strong> 
+[null,true,1]
+<strong>Explanation:</strong> 
+FileSystem fileSystem = new FileSystem();
+
+fileSystem.createPath(&quot;/a&quot;, 1); // return true
+fileSystem.get(&quot;/a&quot;); // return 1
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> 
+[&quot;FileSystem&quot;,&quot;createPath&quot;,&quot;createPath&quot;,&quot;get&quot;,&quot;createPath&quot;,&quot;get&quot;]
+[[],[&quot;/leet&quot;,1],[&quot;/leet/code&quot;,2],[&quot;/leet/code&quot;],[&quot;/c/d&quot;,1],[&quot;/c&quot;]]
+<strong>Output:</strong> 
+[null,true,true,2,false,-1]
+<strong>Explanation:</strong> 
+FileSystem fileSystem = new FileSystem();
+
+fileSystem.createPath(&quot;/leet&quot;, 1); // return true
+fileSystem.createPath(&quot;/leet/code&quot;, 2); // return true
+fileSystem.get(&quot;/leet/code&quot;); // return 2
+fileSystem.createPath(&quot;/c/d&quot;, 1); // return false because the parent path &quot;/c&quot; doesn&#39;t exist.
+fileSystem.get(&quot;/c&quot;); // return -1 because this path doesn&#39;t exist.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	The number ofcalls to the two functionsis less than or equal to <code>10^4</code> in total.
+	<code>2 &lt;= path.length &lt;= 100</code>
+	<code>1 &lt;= value &lt;= 10^9</code>
+</ul>
+
+<strong>NOTE:</strong>create method has been changed on August29, 2019 to createPath. Please reset to default code definition to get new method signature.

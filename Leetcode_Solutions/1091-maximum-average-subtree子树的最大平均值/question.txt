@@ -1,0 +1,62 @@
+maximum-average-subtree
+给你一棵二叉树的根节点<code>root</code>，找出这棵树的 <strong>每一棵</strong> 子树的 <strong>平均值</strong> 中的 <strong>最大</strong> 值。
+
+子树是树中的任意节点和它的所有后代构成的集合。
+
+树的平均值是树中节点值的总和除以节点数。
+
+
+
+<strong>示例：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/07/12/1308_example_1.png" style="height: 123px; width: 132px;">
+
+<pre><strong>输入：</strong>[5,6,1]
+<strong>输出：</strong>6.00000
+<strong>解释： </strong>
+以 value = 5 的节点作为子树的根节点，得到的平均值为 (5 + 6 + 1) / 3 = 4。
+以 value = 6 的节点作为子树的根节点，得到的平均值为 6 / 1 = 6。
+以 value = 1 的节点作为子树的根节点，得到的平均值为 1 / 1 = 1。
+所以答案取最大值 6。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	树中的节点数介于<code>1</code> 到<code>5000</code>之间。
+	每个节点的值介于<code>0</code> 到<code>100000</code>之间。
+	如果结果与标准答案的误差不超过<code>10^-5</code>，那么该结果将被视为正确答案。
+</ol>
+
+子树的最大平均值
+Given the <code>root</code> of a binary tree, find the maximum average value of any subtree of that tree.
+
+(A subtree of a tree is any node of that tree plus all its descendants. The average value of a tree is the sum of its values, divided by the number of nodes.)
+
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/04/09/1308_example_1.png" style="width: 132px; height: 123px;" />
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[5,6,1]</span>
+<strong>Output: </strong><span id="example-output-1">6.00000</span>
+<strong>Explanation: </strong>
+For the node with value = 5 we have an average of (5 + 6 + 1) / 3 = 4.
+For the node with value = 6 we have an average of 6 / 1 = 6.
+For the node with value = 1 we have an average of 1 / 1 = 1.
+So the answer is 6 which is the maximum.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	The number of nodes in the tree is between <code>1</code> and <code>5000</code>.
+	Each node will have a value between <code>0</code> and <code>100000</code>.
+	Answers will be accepted as correct if they are within <code>10^-5</code> of the correct answer.
+</ol>

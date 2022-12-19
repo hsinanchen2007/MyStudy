@@ -1,0 +1,86 @@
+longest-repeating-substring
+给定字符串<code>S</code>，找出最长重复子串的长度。如果不存在重复子串就返回 <code>0</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;abcd&quot;
+<strong>输出：</strong>0
+<strong>解释：</strong>没有重复子串。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;abbaba&quot;
+<strong>输出：</strong>2
+<strong>解释：</strong>最长的重复子串为 &quot;ab&quot; 和 &quot;ba&quot;，每个出现 2 次。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>&quot;aabcaabdaab&quot;
+<strong>输出：</strong>3
+<strong>解释：</strong>最长的重复子串为 &quot;aab&quot;，出现 3 次。
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>&quot;aaaaa&quot;
+<strong>输出：</strong>4
+<strong>解释：</strong>最长的重复子串为 &quot;aaaa&quot;，出现 2 次。</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	字符串<code>S</code>仅包含从<code>&#39;a&#39;</code> 到<code>&#39;z&#39;</code>的小写英文字母。
+	<code>1 &lt;= S.length &lt;= 1500</code>
+</ol>
+
+最长重复子串
+Given a string <code>S</code>, find out the length of the longest repeating substring(s). Return <code>0</code> if no repeating substring exists.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;abcd&quot;</span>
+<strong>Output: </strong><span id="example-output-1">0</span>
+<strong>Explanation: </strong>There is no repeating substring.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;abbaba&quot;</span>
+<strong>Output: </strong><span id="example-output-2">2</span>
+<strong>Explanation: </strong>The longest repeating substrings are &quot;ab&quot; and &quot;ba&quot;, each of which occurs twice.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">&quot;aabcaabdaab&quot;</span>
+<strong>Output: </strong><span id="example-output-3">3</span>
+<strong>Explanation: </strong>The longest repeating substring is &quot;aab&quot;, which occurs <code>3</code> times.
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-4-1">&quot;aaaaa&quot;</span>
+<strong>Output: </strong><span id="example-output-4">4</span>
+<strong>Explanation: </strong>The longest repeating substring is &quot;aaaa&quot;, which occurs twice.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	The string <code>S</code> consists of only lowercase English letters from <code>&#39;a&#39;</code> - <code>&#39;z&#39;</code>.
+	<code>1 &lt;= S.length &lt;= 1500</code>
+</ol>

@@ -1,0 +1,144 @@
+odd-even-jump
+给定一个整数数组 <code>A</code>，你可以从某一起始索引出发，跳跃一定次数。在你跳跃的过程中，第 1、3、5... 次跳跃称为奇数跳跃，而第 2、4、6... 次跳跃称为偶数跳跃。
+
+你可以按以下方式从索引 <code>i</code>向后跳转到索引 <code>j</code>（其中 <code>i &lt; j</code>）：
+
+<ul>
+	在进行奇数跳跃时（如，第1，3，5... 次跳跃），你将会跳到索引 <code>j</code>，使得 <code>A[i] &lt;=A[j]</code>，<code>A[j]</code> 是可能的最小值。如果存在多个这样的索引 <code>j</code>，你只能跳到满足要求的<strong>最小</strong>索引 <code>j</code> 上。
+	在进行偶数跳跃时（如，第2，4，6... 次跳跃），你将会跳到索引<code>j</code>，使得 <code>A[i] &gt;= A[j]</code>，<code>A[j]</code> 是可能的最大值。如果存在多个这样的索引 <code>j</code>，你只能跳到满足要求的<strong>最小</strong>索引 <code>j</code>上。
+	（对于某些索引 <code>i</code>，可能无法进行合乎要求的跳跃。）
+</ul>
+
+如果从某一索引开始跳跃一定次数（可能是 0 次或多次），就可以到达数组的末尾（索引 <code>A.length - 1</code>），那么该索引就会被认为是好的起始索引。
+
+返回好的起始索引的数量。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[10,13,12,14,15]
+<strong>输出：</strong>2
+<strong>解释： </strong>
+从起始索引 i = 0 出发，我们可以跳到 i = 2，（因为 A[2] 是 A[1]，A[2]，A[3]，A[4] 中大于或等于 A[0] 的最小值），然后我们就无法继续跳下去了。
+从起始索引 i = 1 和 i = 2 出发，我们可以跳到 i = 3，然后我们就无法继续跳下去了。
+从起始索引 i = 3 出发，我们可以跳到 i = 4，到达数组末尾。
+从起始索引 i = 4 出发，我们已经到达数组末尾。
+总之，我们可以从 2 个不同的起始索引（i = 3, i = 4）出发，通过一定数量的跳跃到达数组末尾。
+</pre>
+
+<strong>示例2：</strong>
+
+<pre><strong>输入：</strong>[2,3,1,1,4]
+<strong>输出：</strong>3
+<strong>解释：</strong>
+从起始索引 i=0 出发，我们依次可以跳到 i = 1，i = 2，i = 3：
+
+在我们的第一次跳跃（奇数）中，我们先跳到 i = 1，因为 A[1] 是（A[1]，A[2]，A[3]，A[4]）中大于或等于 A[0] 的最小值。
+
+在我们的第二次跳跃（偶数）中，我们从 i = 1 跳到 i = 2，因为 A[2] 是（A[2]，A[3]，A[4]）中小于或等于 A[1] 的最大值。A[3] 也是最大的值，但 2 是一个较小的索引，所以我们只能跳到 i = 2，而不能跳到 i = 3。
+
+在我们的第三次跳跃（奇数）中，我们从 i = 2 跳到 i = 3，因为 A[3] 是（A[3]，A[4]）中大于或等于 A[2] 的最小值。
+
+我们不能从 i = 3 跳到 i = 4，所以起始索引 i = 0 不是好的起始索引。
+
+类似地，我们可以推断：
+从起始索引 i = 1 出发， 我们跳到 i = 4，这样我们就到达数组末尾。
+从起始索引 i = 2 出发， 我们跳到 i = 3，然后我们就不能再跳了。
+从起始索引 i = 3 出发， 我们跳到 i = 4，这样我们就到达数组末尾。
+从起始索引 i = 4 出发，我们已经到达数组末尾。
+总之，我们可以从 3 个不同的起始索引（i = 1, i = 3, i = 4）出发，通过一定数量的跳跃到达数组末尾。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>[5,1,3,4,2]
+<strong>输出：</strong>3
+<strong>解释： </strong>
+我们可以从起始索引 1，2，4 出发到达数组末尾。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 20000</code>
+	<code>0 &lt;= A[i] &lt; 100000</code>
+</ol>
+
+奇偶跳
+You are given an integer array <code>A</code>. Fromsome starting index, you can make a series of jumps. The (1st, 3rd, 5th, ...)jumps in the series are called <em>odd numbered jumps</em>, and the (2nd, 4th, 6th, ...) jumps in the series are called <em>even numbered jumps</em>.
+
+You may from index <code>i</code>jump forward to index <code><font face="monospace">j</font></code>(with <code>i&lt; j</code>) in the following way:
+
+<ul>
+	During odd numbered jumps (ie. jumps 1, 3, 5, ...), you jump to the index <font face="monospace">j</font>such that <code>A[i] &lt;= A[j]</code> and <code>A[j]</code> is the smallest possible value. If there are multiple such indexes <code><font face="monospace">j</font></code>, you can only jump to the <strong>smallest</strong> such index <code><font face="monospace">j</font></code>.
+	During even numbered jumps (ie. jumps 2, 4, 6, ...), you jump to the index <font face="monospace">j</font>such that <code>A[i] &gt;= A[j]</code> and <code>A[j]</code> is the largestpossible value. If there are multiple such indexes <code><font face="monospace">j</font></code>, you can only jump to the <strong>smallest</strong> such index <code><font face="monospace">j</font></code>.
+	(It may be the case that for some index <code><font face="monospace">i</font>,</code> there are no legal jumps.)
+</ul>
+
+A starting index is <em>good</em> if, starting from that index, you can reach the end of the array (index <code>A.length - 1</code>) by jumping some number of times (possibly 0 or more than once.)
+
+Return the number of good starting indexes.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[10,13,12,14,15]</span>
+<strong>Output: </strong><span id="example-output-1">2</span>
+<strong>Explanation: </strong>
+From starting index i = 0, we can jump to i = 2 (since A[2] is the smallest among A[1], A[2], A[3], A[4] that is greater or equal to A[0]), then we can&#39;t jump any more.
+From starting index i = 1 and i = 2, we can jump to i = 3, then we can&#39;t jump any more.
+From starting index i = 3, we can jump to i = 4, so we&#39;ve reached the end.
+From starting index i = 4, we&#39;ve reached the end already.
+In total, there are 2 different starting indexes (i = 3, i = 4) where we can reach the end with some number of jumps.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[2,3,1,1,4]</span>
+<strong>Output: </strong><span id="example-output-2">3</span>
+<strong>Explanation: </strong>
+From starting index i = 0, we make jumps to i = 1, i = 2, i = 3:
+
+During our 1st jump (odd numbered), we first jump to i = 1 because A[1] is the smallest value in (A[1], A[2], A[3], A[4]) that is greater than or equal to A[0].
+
+During our 2nd jump (even numbered), we jump from i = 1 to i = 2 because A[2] is the largest value in (A[2], A[3], A[4]) that is less than or equal to A[1].  A[3] is also the largest value, but 2 is a smaller index, so we can only jump to i = 2 and not i = 3.
+
+During our 3rd jump (odd numbered), we jump from i = 2 to i = 3 because A[3] is the smallest value in (A[3], A[4]) that is greater than or equal to A[2].
+
+We can&#39;t jump from i = 3 to i = 4, so the starting index i = 0 is not good.
+
+In a similar manner, we can deduce that:
+From starting index i = 1, we jump to i = 4, so we reach the end.
+From starting index i = 2, we jump to i = 3, and then we can&#39;t jump anymore.
+From starting index i = 3, we jump to i = 4, so we reach the end.
+From starting index i = 4, we are already at the end.
+In total, there are 3 different starting indexes (i = 1, i = 3, i = 4) where we can reach the end with some number of jumps.
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">[5,1,3,4,2]</span>
+<strong>Output: </strong><span id="example-output-3">3</span>
+<strong>Explanation: </strong>
+We can reach the end from starting indexes 1, 2, and 4.
+</pre>
+</div>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 20000</code>
+	<code>0 &lt;= A[i] &lt; 100000</code>
+</ol>

@@ -1,0 +1,86 @@
+print-words-vertically
+给你一个字符串<code>s</code>。请你按照单词在 <code>s</code> 中的出现顺序将它们全部竖直返回。<br>
+单词应该以字符串列表的形式返回，必要时用空格补位，但输出尾部的空格需要删除（不允许尾随空格）。<br>
+每个单词只能放在一列上，每一列中也只能有一个单词。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;HOW ARE YOU&quot;
+<strong>输出：</strong>[&quot;HAY&quot;,&quot;ORO&quot;,&quot;WEU&quot;]
+<strong>解释：</strong>每个单词都应该竖直打印。 
+ &quot;HAY&quot;
+&quot;ORO&quot;
+&quot;WEU&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;TO BE OR NOT TO BE&quot;
+<strong>输出：</strong>[&quot;TBONTB&quot;,&quot;OEROOE&quot;,&quot;   T&quot;]
+<strong>解释：</strong>题目允许使用空格补位，但不允许输出末尾出现空格。
+&quot;TBONTB&quot;
+&quot;OEROOE&quot;
+&quot;   T&quot;
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;CONTEST IS COMING&quot;
+<strong>输出：</strong>[&quot;CIC&quot;,&quot;OSO&quot;,&quot;N M&quot;,&quot;T I&quot;,&quot;E N&quot;,&quot;S G&quot;,&quot;T&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 200</code>
+	<code>s</code>仅含大写英文字母。
+	题目数据保证两个单词之间只有一个空格。
+</ul>
+
+竖直打印单词
+Given a string <code>s</code>.Returnall the words vertically in the same order in which they appear in <code>s</code>.<br />
+Words are returned as a list of strings, complete withspaces when is necessary. (Trailing spaces are not allowed).<br />
+Each word would be put on only one column and that in one column there will be only one word.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;HOW ARE YOU&quot;
+<strong>Output:</strong> [&quot;HAY&quot;,&quot;ORO&quot;,&quot;WEU&quot;]
+<strong>Explanation: </strong>Each word is printed vertically. 
+ &quot;HAY&quot;
+&quot;ORO&quot;
+&quot;WEU&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;TO BE OR NOT TO BE&quot;
+<strong>Output:</strong> [&quot;TBONTB&quot;,&quot;OEROOE&quot;,&quot;   T&quot;]
+<strong>Explanation: </strong>Trailing spaces is not allowed. 
+&quot;TBONTB&quot;
+&quot;OEROOE&quot;
+&quot;   T&quot;
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;CONTEST IS COMING&quot;
+<strong>Output:</strong> [&quot;CIC&quot;,&quot;OSO&quot;,&quot;N M&quot;,&quot;T I&quot;,&quot;E N&quot;,&quot;S G&quot;,&quot;T&quot;]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 200</code>
+	<code>s</code>contains only upper case English letters.
+	It&#39;s guaranteed that there is only onespace between 2 words.
+</ul>

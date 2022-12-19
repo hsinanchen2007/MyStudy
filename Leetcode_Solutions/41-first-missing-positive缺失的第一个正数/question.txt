@@ -1,0 +1,56 @@
+first-missing-positive
+给你一个未排序的整数数组，请你找出其中没有出现的最小的正整数。
+
+
+
+<strong>示例1:</strong>
+
+<pre>输入: [1,2,0]
+输出: 3
+</pre>
+
+<strong>示例2:</strong>
+
+<pre>输入: [3,4,-1,1]
+输出: 2
+</pre>
+
+<strong>示例3:</strong>
+
+<pre>输入: [7,8,9,11,12]
+输出: 1
+</pre>
+
+
+
+<strong>提示：</strong>
+
+你的算法的时间复杂度应为O(<em>n</em>)，并且只能使用常数级别的额外空间。
+
+缺失的第一个正数
+Given an unsorted integer array, find the smallest missingpositive integer.
+
+<strong>Example 1:</strong>
+
+<pre>
+Input: [1,2,0]
+Output: 3
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+Input: [3,4,-1,1]
+Output: 2
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+Input: [7,8,9,11,12]
+Output: 1
+</pre>
+
+<strong>Note:</strong>
+
+Your algorithm should run in <em>O</em>(<em>n</em>) time and uses constant extra space.

@@ -1,0 +1,17 @@
+restore-ip-addresses
+给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> &quot;25525511135&quot;
+<strong>输出:</strong> <code>[&quot;255.255.11.135&quot;, &quot;255.255.111.35&quot;]</code></pre>
+
+复原IP地址
+Given a string containing only digits, restore it by returning all possible valid IP address combinations.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;25525511135&quot;
+<strong>Output:</strong> <code>[&quot;255.255.11.135&quot;, &quot;255.255.111.35&quot;]
+</code></pre>

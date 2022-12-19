@@ -1,0 +1,95 @@
+swap-for-longest-repeated-character-substring
+如果字符串中的所有字符都相同，那么这个字符串是单字符重复的字符串。
+
+给你一个字符串<code>text</code>，你只能交换其中两个字符一次或者什么都不做，然后得到一些单字符重复的子串。返回其中最长的子串的长度。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>text = &quot;ababa&quot;
+<strong>输出：</strong>3
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>text = &quot;aaabaaa&quot;
+<strong>输出：</strong>6
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>text = &quot;aaabbaaa&quot;
+<strong>输出：</strong>4
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>text = &quot;aaaaa&quot;
+<strong>输出：</strong>5
+</pre>
+
+<strong>示例 5：</strong>
+
+<pre><strong>输入：</strong>text = &quot;abcdef&quot;
+<strong>输出：</strong>1
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= text.length &lt;= 20000</code>
+	<code>text</code> 仅由小写英文字母组成。
+</ul>
+
+单字符重复子串的最大长度
+Given a string <code>text</code>, we are allowed to swap two of the characters in the string. Find the length of the longest substring with repeated characters.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;ababa&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> We can swap the first &#39;b&#39; with the last &#39;a&#39;, or the last &#39;b&#39; with the first &#39;a&#39;. Then, the longest repeated character substring is &quot;aaa&quot;, which its length is 3.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;aaabaaa&quot;
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> Swap &#39;b&#39; with the last &#39;a&#39; (or the first &#39;a&#39;), and we get longest repeated character substring &quot;aaaaaa&quot;, which its length is 6.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;aaabbaaa&quot;
+<strong>Output:</strong> 4
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;aaaaa&quot;
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> No need to swap, longest repeated character substring is &quot;aaaaa&quot;, length is 5.
+</pre>
+
+<strong>Example 5:</strong>
+
+<pre>
+<strong>Input:</strong> text = &quot;abcdef&quot;
+<strong>Output:</strong> 1
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= text.length &lt;= 20000</code>
+	<code>text</code> consist of lowercase English characters only.
+</ul>

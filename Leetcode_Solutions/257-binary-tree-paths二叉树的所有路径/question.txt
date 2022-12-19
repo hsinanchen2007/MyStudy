@@ -1,0 +1,39 @@
+binary-tree-paths
+给定一个二叉树，返回所有从根节点到叶子节点的路径。
+
+<strong>说明:</strong>叶子节点是指没有子节点的节点。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong>
+
+   1
+ /   \
+2     3
+ \
+  5
+
+<strong>输出:</strong> [&quot;1-&gt;2-&gt;5&quot;, &quot;1-&gt;3&quot;]
+
+<strong>解释:</strong> 所有根节点到叶子节点的路径为: 1-&gt;2-&gt;5, 1-&gt;3</pre>
+
+二叉树的所有路径
+Given a binary tree, return all root-to-leaf paths.
+
+<strong>Note:</strong>A leaf is a node with no children.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong>
+
+   1
+ /   \
+2     3
+ \
+  5
+
+<strong>Output:</strong> [&quot;1-&gt;2-&gt;5&quot;, &quot;1-&gt;3&quot;]
+
+<strong>Explanation:</strong> All root-to-leaf paths are: 1-&gt;2-&gt;5, 1-&gt;3
+</pre>

@@ -1,0 +1,96 @@
+## 分析
+用一个数组dp[i][j]表示word1的前i个字符转换为word2的前j个字符的距离。
+    则dp[i][j]为dp[i-1][j-1]（word1的第i个字符和word2的第j个字符一样）或者dp[i-1][j-1]+1（word1的第i个字符和word2的第j个字符不一样）
+    和dp[i-1][j]+1（表示删除word1的第i个字符）
+    和dp[i][j-1]+1（表示增加word2的第j个字符）
+    的较小值
+## 代码
+```java
+public int minDistance1(String word1, String word2) {
+        if (word1 == null && word2 == null) {
+            return 0;
+        }
+        if (word1 == null || word1.length() == 0) {
+            return word2.length();
+        }
+        if (word2 == null || word2.length() == 0) {
+            return word1.length();
+        }
+        int row = word1.length() + 1;
+        int col = word2.length() + 1;
+        //dp[i][j] word1的前i个字符变成word2的前j个字符的距离
+        int[][] dp = new int[row][col];
+        //空串的时候，   把字符全删了
+        for (int i = 0; i < row; i++) {
+            dp[i][0] = i;
+        }
+
+        //全加上
+        for (int i = 0; i < col; i++) {
+            dp[0][i] = i;
+        }
+        for (int i = 1; i < row; i++) {
+            for (int j = 1; j < col; j++) {
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    //替换
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                }
+                //删除
+                dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j]);
+                //增加
+                dp[i][j] = Math.min(dp[i][j - 1] + 1, dp[i][j]);
+
+            }
+
+        }
+
+        return dp[row - 1][col - 1];
+
+    }
+
+
+
+//空间压缩
+public int minDistance(String word1, String word2) {
+        if (word1 == null && word2 == null) {
+            return 0;
+        }
+        if (word1 == null || word1.length() == 0) {
+            return word2.length();
+        }
+        if (word2 == null || word2.length() == 0) {
+            return word1.length();
+        }
+        int row = word1.length() + 1;
+        int col = word2.length() + 1;
+        //dp[i][j] word1的前i个字符变成word2的前j个字符的距离
+        int[][] dp = new int[2][col];
+
+        //全加上
+        for (int i = 0; i < col; i++) {
+            dp[0][i] = i;
+        }
+        for (int i = 1; i < row; i++) {
+            dp[i % 2][0] = dp[(i - 1) % 2][0] + 1;
+            for (int j = 1; j < col; j++) {
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    dp[i % 2][j] = dp[(i - 1) % 2][j - 1];
+                } else {
+                    //替换
+                    dp[i % 2][j] = dp[(i - 1) % 2][j - 1] + 1;
+                }
+                //删除
+                dp[i % 2][j] = Math.min(dp[(i - 1) % 2][j] + 1, dp[i % 2][j]);
+                //增加
+                dp[i % 2][j] = Math.min(dp[i % 2][j - 1] + 1, dp[i % 2][j]);
+
+            }
+
+        }
+
+        return dp[(row-1) % 2][col - 1];
+
+    }
+```

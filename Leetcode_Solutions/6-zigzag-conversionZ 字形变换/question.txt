@@ -1,0 +1,67 @@
+zigzag-conversion
+将一个给定字符串根据给定的行数，以从上往下、从左到右进行Z 字形排列。
+
+比如输入字符串为 <code>&quot;LEETCODEISHIRING&quot;</code>行数为 3 时，排列如下：
+
+<pre>L   C   I   R
+E T O E S I I G
+E   D   H   N
+</pre>
+
+之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：<code>&quot;LCIRETOESIIGEDHN&quot;</code>。
+
+请你实现这个将字符串进行指定行数变换的函数：
+
+<pre>string convert(string s, int numRows);</pre>
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> s = &quot;LEETCODEISHIRING&quot;, numRows = 3
+<strong>输出:</strong> &quot;LCIRETOESIIGEDHN&quot;
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> s = &quot;LEETCODEISHIRING&quot;, numRows =4
+<strong>输出:</strong>&quot;LDREOEIIECIHNTSG&quot;
+<strong>解释:</strong>
+
+L     D     R
+E   O E   I I
+E C   I H   N
+T     S     G</pre>
+
+Z 字形变换
+The string <code>&quot;PAYPALISHIRING&quot;</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+<pre>
+P   A   H   N
+A P L S I I G
+Y   I   R
+</pre>
+
+And then read line by line: <code>&quot;PAHNAPLSIIGYIR&quot;</code>
+
+Write the code that will take a string and make this conversion given a number of rows:
+
+<pre>
+string convert(string s, int numRows);</pre>
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows = 3
+<strong>Output:</strong> &quot;PAHNAPLSIIGYIR&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows =4
+<strong>Output:</strong>&quot;PINALSIGYAHRPI&quot;
+<strong>Explanation:</strong>
+
+P     I    N
+A   L S  I G
+Y A   H R
+P     I</pre>

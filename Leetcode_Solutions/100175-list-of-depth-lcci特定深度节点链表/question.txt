@@ -1,0 +1,40 @@
+list-of-depth-lcci
+给定一棵二叉树，设计一个算法，创建含有某一深度上所有节点的链表（比如，若一棵树的深度为 <code>D</code>，则会创建出 <code>D</code> 个链表）。返回一个包含所有深度的链表的数组。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>[1,2,3,4,5,null,7,8]
+
+        1
+       /  \ 
+      2    3
+     / \    \ 
+    4   5    7
+   /
+  8
+
+<strong>输出：</strong>[[1],[2,3],[4,5,7],[8]]
+</pre>
+
+特定深度节点链表
+Given a binary tree, design an algorithm which creates a linked list of all the nodes at each depth (e.g., if you have a tree with depth D, you&#39;ll have D linked lists). Return a array containing all the linked lists.
+
+
+
+<strong>Example: </strong>
+
+<pre>
+<strong>Input: </strong>[1,2,3,4,5,null,7,8]
+
+        1
+       /  \ 
+      2    3
+     / \    \ 
+    4   5    7
+   /
+  8
+
+<strong>Output: </strong>[[1],[2,3],[4,5,7],[8]]
+</pre>

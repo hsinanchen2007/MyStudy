@@ -1,0 +1,45 @@
+top-k-frequent-elements
+给定一个非空的整数数组，返回其中出现频率前<strong><em>k</em></strong>高的元素。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>nums = [1,1,1,2,2,3], k = 2
+<strong>输出: </strong>[1,2]
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>nums = [1], k = 1
+<strong>输出: </strong>[1]</pre>
+
+<strong>说明：</strong>
+
+<ul>
+	你可以假设给定的<em>k</em>总是合理的，且 1 &le; k &le; 数组中不相同的元素的个数。
+	你的算法的时间复杂度<strong>必须</strong>优于 O(<em>n</em> log <em>n</em>) ,<em>n</em>是数组的大小。
+</ul>
+
+前 K 个高频元素
+Given a non-empty array of integers, return the <b><i>k</i></b> most frequent elements.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>nums = <span id="example-input-1-1">[1,1,1,2,2,3]</span>, k = <span id="example-input-1-2">2</span>
+<strong>Output: </strong><span id="example-output-1">[1,2]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>nums = <span id="example-input-2-1">[1]</span>, k = <span id="example-input-2-2">1</span>
+<strong>Output: </strong><span id="example-output-2">[1]</span></pre>
+</div>
+
+<b>Note: </b>
+
+<ul>
+	You may assume <i>k</i> is always valid, 1 &le; <i>k</i> &le; number of unique elements.
+	Your algorithm&#39;s time complexity <b>must be</b> better than O(<i>n</i> log <i>n</i>), where <i>n</i> is the array&#39;s size.
+</ul>

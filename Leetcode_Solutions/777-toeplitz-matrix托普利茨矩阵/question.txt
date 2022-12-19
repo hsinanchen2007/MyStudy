@@ -1,0 +1,98 @@
+toeplitz-matrix
+如果一个矩阵的每一方向由左上到右下的对角线上具有相同元素，那么这个矩阵是<em>托普利茨矩阵</em>。
+
+给定一个<code>M x N</code>的矩阵，当且仅当它是<em>托普利茨矩阵</em>时返回<code>True</code>。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> 
+matrix = [
+ [1,2,3,4],
+ [5,1,2,3],
+ [9,5,1,2]
+]
+<strong>输出:</strong> True
+<strong>解释:</strong>
+在上述矩阵中, 其对角线为:
+&quot;[9]&quot;, &quot;[5, 5]&quot;, &quot;[1, 1, 1]&quot;, &quot;[2, 2, 2]&quot;, &quot;[3, 3]&quot;, &quot;[4]&quot;。
+各条对角线上的所有元素均相同, 因此答案是True。
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong>
+matrix = [
+ [1,2],
+ [2,2]
+]
+<strong>输出:</strong> False
+<strong>解释: 
+</strong>对角线&quot;[1, 2]&quot;上的元素不同。
+</pre>
+
+<strong>说明:</strong>
+
+<ol>
+	<code>matrix</code>是一个包含整数的二维数组。
+	<code>matrix</code>的行数和列数均在<code>[1, 20]</code>范围内。
+	<code>matrix[i][j]</code>包含的整数在<code>[0, 99]</code>范围内。
+</ol>
+
+<strong>进阶:</strong>
+
+<ol>
+	如果矩阵存储在磁盘上，并且磁盘内存是有限的，因此一次最多只能将一行矩阵加载到内存中，该怎么办？
+	如果矩阵太大以至于只能一次将部分行加载到内存中，该怎么办？
+</ol>
+
+托普利茨矩阵
+A matrix is <em>Toeplitz</em> if every diagonal from top-left to bottom-right has the same element.
+
+Now given an <code>M x N</code> matrix, return<code>True</code>if and only if the matrix is <em>Toeplitz</em>.<br />
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:
+</strong>matrix = [
+ [1,2,3,4],
+ [5,1,2,3],
+ [9,5,1,2]
+]
+<strong>Output:</strong> True
+<strong>Explanation:</strong>
+In the above grid, thediagonals are:
+&quot;[9]&quot;, &quot;[5, 5]&quot;, &quot;[1, 1, 1]&quot;, &quot;[2, 2, 2]&quot;, &quot;[3, 3]&quot;, &quot;[4]&quot;.
+In each diagonal all elements are the same, so the answer is True.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:
+</strong>matrix = [
+ [1,2],
+ [2,2]
+]
+<strong>Output:</strong> False
+<strong>Explanation:</strong>
+The diagonal &quot;[1, 2]&quot; has different elements.
+</pre>
+
+<br />
+<strong>Note:</strong>
+
+<ol>
+	<code>matrix</code> will be a 2D array of integers.
+	<code>matrix</code> will have a number of rows and columns in range <code>[1, 20]</code>.
+	<code>matrix[i][j]</code> will be integers in range <code>[0, 99]</code>.
+</ol>
+
+<br />
+<strong>Follow up:</strong>
+
+<ol>
+	What if the matrix is stored on disk, and the memory is limited such that you can only load at most one row of the matrix into the memory at once?
+	What if the matrix is so large that you can only load up a partial row into the memory at once?
+</ol>

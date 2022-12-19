@@ -1,0 +1,58 @@
+maximum-of-absolute-value-expression
+给你两个长度相等的整数数组，返回下面表达式的最大值：
+
+<code>|arr1[i] - arr1[j]| + |arr2[i] - arr2[j]| + |i - j|</code>
+
+其中下标 <code>i</code>，<code>j</code> 满足<code>0 &lt;= i, j &lt; arr1.length</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>arr1 = [1,2,3,4], arr2 = [-1,4,5,6]
+<strong>输出：</strong>13
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>arr1 = [1,-2,-5,0,10], arr2 = [0,-2,-1,-7,-4]
+<strong>输出：</strong>20</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>2 &lt;= arr1.length == arr2.length &lt;= 40000</code>
+	<code>-10^6 &lt;= arr1[i], arr2[i] &lt;= 10^6</code>
+</ul>
+
+绝对值表达式的最大值
+Given two arrays of integers with equal lengths, return the maximum value of:
+
+<code>|arr1[i] - arr1[j]| + |arr2[i] - arr2[j]| + |i - j|</code>
+
+where the maximum is taken over all <code>0 &lt;= i, j &lt; arr1.length</code>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> arr1 = [1,2,3,4], arr2 = [-1,4,5,6]
+<strong>Output:</strong> 13
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> arr1 = [1,-2,-5,0,10], arr2 = [0,-2,-1,-7,-4]
+<strong>Output:</strong> 20
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>2 &lt;= arr1.length == arr2.length &lt;= 40000</code>
+	<code>-10^6 &lt;= arr1[i], arr2[i] &lt;= 10^6</code>
+</ul>

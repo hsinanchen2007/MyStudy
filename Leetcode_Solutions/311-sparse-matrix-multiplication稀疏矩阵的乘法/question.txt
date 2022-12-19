@@ -1,0 +1,56 @@
+sparse-matrix-multiplication
+给你两个<a href="https://baike.baidu.com/item/%E7%A8%80%E7%96%8F%E7%9F%A9%E9%98%B5" target="_blank">稀疏矩阵</a><strong>A</strong>和<strong>B</strong>，请你返回<strong>AB</strong> 的结果。你可以默认<strong>A</strong>的列数等于<strong>B</strong>的行数。
+
+请仔细阅读下面的示例。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：
+
+A</strong> = [
+  [ 1, 0, 0],
+  [-1, 0, 3]
+]
+
+<strong>B</strong> = [
+  [ 7, 0, 0 ],
+  [ 0, 0, 0 ],
+  [ 0, 0, 1 ]
+]
+
+<strong>输出：</strong>
+
+     |  1 0 0 |   | 7 0 0 |   |  7 0 0 |
+<strong>AB</strong> = | -1 0 3 | x | 0 0 0 | = | -7 0 3 |
+                  | 0 0 1 |
+</pre>
+
+稀疏矩阵的乘法
+Given two <a href="https://en.wikipedia.org/wiki/Sparse_matrix" target="_blank">sparse matrices</a> <b>A</b> and <b>B</b>, return the result of <b>AB</b>.
+
+You may assume that <b>A</b>&#39;s column number is equal to <b>B</b>&#39;s row number.
+
+<b>Example:</b>
+
+<pre>
+<b>Input:
+
+</b><strong>A</strong> = [
+  [ 1, 0, 0],
+  [-1, 0, 3]
+]
+
+<strong>B</strong> = [
+  [ 7, 0, 0 ],
+  [ 0, 0, 0 ],
+  [ 0, 0, 1 ]
+]
+
+<strong>Output:</strong>
+
+     |  1 0 0 |   | 7 0 0 |   |  7 0 0 |
+<b>AB</b> = | -1 0 3 | x | 0 0 0 | = | -7 0 3 |
+                  | 0 0 1 |
+</pre>

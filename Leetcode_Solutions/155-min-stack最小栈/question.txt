@@ -1,0 +1,48 @@
+min-stack
+设计一个支持 <code>push</code> ，<code>pop</code> ，<code>top</code> 操作，并能在常数时间内检索到最小元素的栈。
+
+<ul>
+	<code>push(x)</code> &mdash;&mdash; 将元素 x 推入栈中。
+	<code>pop()</code>&mdash;&mdash; 删除栈顶的元素。
+	<code>top()</code>&mdash;&mdash; 获取栈顶元素。
+	<code>getMin()</code> &mdash;&mdash; 检索栈中的最小元素。
+</ul>
+
+<strong>示例:</strong>
+
+<pre>MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin();   --&gt; 返回 -3.
+minStack.pop();
+minStack.top();      --&gt; 返回 0.
+minStack.getMin();   --&gt; 返回 -2.
+</pre>
+
+最小栈
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+<ul>
+	push(x) -- Push element x onto stack.
+	pop() -- Removes the element on top of the stack.
+	top() -- Get the top element.
+	getMin() -- Retrieve the minimum element in the stack.
+</ul>
+
+
+
+<b>Example:</b>
+
+<pre>
+MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin();   --&gt; Returns -3.
+minStack.pop();
+minStack.top();      --&gt; Returns 0.
+minStack.getMin();   --&gt; Returns -2.
+</pre>
+
+

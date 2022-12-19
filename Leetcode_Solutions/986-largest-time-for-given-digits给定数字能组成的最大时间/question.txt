@@ -1,0 +1,65 @@
+largest-time-for-given-digits
+给定一个由 4 位数字组成的数组，返回可以设置的符合 24 小时制的最大时间。
+
+最小的 24 小时制时间是00:00，而最大的是23:59。从 00:00 （午夜）开始算起，过得越久，时间越大。
+
+以长度为 5 的字符串返回答案。如果不能确定有效时间，则返回空字符串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[1,2,3,4]
+<strong>输出：</strong>&quot;23:41&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[5,5,5,5]
+<strong>输出：</strong>&quot;&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>A.length == 4</code>
+	<code>0 &lt;= A[i] &lt;= 9</code>
+</ol>
+
+给定数字能组成的最大时间
+Given an array of 4 digits, return the largest 24 hour time that can be made.
+
+The smallest 24 hour time is 00:00, and the largest is 23:59. Starting from 00:00, a time is larger if more time has elapsed since midnight.
+
+Return the answer as a string of length 5. If no valid time can be made, return an empty string.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[1,2,3,4]</span>
+<strong>Output: </strong><span id="example-output-1">&quot;23:41&quot;</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[5,5,5,5]</span>
+<strong>Output: </strong><span id="example-output-2">&quot;&quot;</span>
+</pre>
+
+
+
+<strong><span>Note:</span></strong>
+
+<ol>
+	<code>A.length == 4</code>
+	<code>0 &lt;= A[i] &lt;= 9</code>
+</ol>
+</div>
+</div>

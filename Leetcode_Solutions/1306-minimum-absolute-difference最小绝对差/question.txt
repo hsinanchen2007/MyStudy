@@ -1,0 +1,74 @@
+minimum-absolute-difference
+给你个整数数组<code>arr</code>，其中每个元素都 <strong>不相同</strong>。
+
+请你找到所有具有最小绝对差的元素对，并且按升序的顺序返回。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>arr = [4,2,1,3]
+<strong>输出：</strong>[[1,2],[2,3],[3,4]]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>arr = [1,3,6,10,15]
+<strong>输出：</strong>[[1,3]]
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>arr = [3,8,-10,23,19,-4,-14,27]
+<strong>输出：</strong>[[-14,-10],[19,23],[23,27]]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>2 &lt;= arr.length &lt;= 10^5</code>
+	<code>-10^6 &lt;= arr[i] &lt;= 10^6</code>
+</ul>
+
+最小绝对差
+Given anarrayof <strong>distinct</strong>integers <code>arr</code>, find all pairs of elements with the minimum absolute difference of any two elements.
+
+Return a list of pairs in ascending order(with respect to pairs), each pair <code>[a, b]</code> follows
+
+<ul>
+	<code>a, b</code> are from <code>arr</code>
+	<code>a &lt; b</code>
+	<code>b - a</code>equals to the minimum absolute difference of any two elements in <code>arr</code>
+</ul>
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [4,2,1,3]
+<strong>Output:</strong> [[1,2],[2,3],[3,4]]
+<strong>Explanation: </strong>The minimum absolute difference is 1. List all pairs with difference equal to 1 in ascending order.</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [1,3,6,10,15]
+<strong>Output:</strong> [[1,3]]
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [3,8,-10,23,19,-4,-14,27]
+<strong>Output:</strong> [[-14,-10],[19,23],[23,27]]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>2 &lt;= arr.length &lt;= 10^5</code>
+	<code>-10^6 &lt;= arr[i] &lt;= 10^6</code>
+</ul>

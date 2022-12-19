@@ -1,0 +1,59 @@
+how-many-apples-can-you-put-into-the-basket
+楼下水果店正在促销，你打算买些苹果，<code>arr[i]</code>表示第<code>i</code>个苹果的单位重量。
+
+你有一个购物袋，最多可以装<code>5000</code>单位重量的东西，算一算，最多可以往购物袋里装入多少苹果。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>arr = [100,200,150,1000]
+<strong>输出：</strong>4
+<strong>解释：</strong>所有 4 个苹果都可以装进去，因为它们的重量之和为 1450。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>arr = [900,950,800,1000,700,800]
+<strong>输出：</strong>5
+<strong>解释：</strong>6 个苹果的总重量超过了 5000，所以我们只能从中任选 5 个。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= arr.length &lt;= 10^3</code>
+	<code>1 &lt;= arr[i] &lt;= 10^3</code>
+</ul>
+
+最多可以买到的苹果数量
+You have some apples, where <code>arr[i]</code> is the weight of the <code>i</code>-th apple. You also have a basket that can carry up to <code>5000</code> units of weight.
+
+Return the maximum number of apples you can put in the basket.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [100,200,150,1000]
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>All 4 apples can be carried by the basket since their sum of weights is 1450.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [900,950,800,1000,700,800]
+<strong>Output:</strong> 5
+<strong>Explanation: </strong>The sum of weights of the 6 apples exceeds 5000 so we choose any 5 of them.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= arr.length &lt;= 10^3</code>
+	<code>1 &lt;= arr[i] &lt;= 10^3</code>
+</ul>

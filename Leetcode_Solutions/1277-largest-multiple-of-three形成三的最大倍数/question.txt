@@ -1,0 +1,87 @@
+largest-multiple-of-three
+给你一个整数数组<code>digits</code>，你可以通过按任意顺序连接其中某些数字来形成 <strong>3</strong> 的倍数，请你返回所能得到的最大的 3 的倍数。
+
+由于答案可能不在整数数据类型范围内，请以字符串形式返回答案。
+
+如果无法得到答案，请返回一个空字符串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>digits = [8,1,9]
+<strong>输出：</strong>&quot;981&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>digits = [8,6,7,1,0]
+<strong>输出：</strong>&quot;8760&quot;
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>digits = [1]
+<strong>输出：</strong>&quot;&quot;
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>digits = [0,0,0,0,0,0]
+<strong>输出：</strong>&quot;0&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= digits.length &lt;= 10^4</code>
+	<code>0 &lt;= digits[i] &lt;= 9</code>
+	返回的结果不应包含不必要的前导零。
+</ul>
+
+形成三的最大倍数
+Given an integer array of <code>digits</code>,return the largest multiple of <strong>three</strong> that can be formed by concatenating some of the given digits in any order.
+
+Since the answer may not fit in an integer data type, return the answer as a string.
+
+If there is no answer return an empty string.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> digits = [8,1,9]
+<strong>Output:</strong> &quot;981&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> digits = [8,6,7,1,0]
+<strong>Output:</strong> &quot;8760&quot;
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> digits = [1]
+<strong>Output:</strong> &quot;&quot;
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> digits = [0,0,0,0,0,0]
+<strong>Output:</strong> &quot;0&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= digits.length &lt;= 10^4</code>
+	<code>0 &lt;= digits[i] &lt;= 9</code>
+	The returning answer must not contain unnecessary leading zeros.
+</ul>

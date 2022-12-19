@@ -1,0 +1,43 @@
+sqrtx
+实现<code>int sqrt(int x)</code>函数。
+
+计算并返回<em>x</em>的平方根，其中<em>x </em>是非负整数。
+
+由于返回类型是整数，结果只保留整数的部分，小数部分将被舍去。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> 4
+<strong>输出:</strong> 2
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> 8
+<strong>输出:</strong> 2
+<strong>说明:</strong> 8 的平方根是 2.82842..., 
+    由于返回类型是整数，小数部分将被舍去。
+</pre>
+
+x 的平方根
+Implement <code>int sqrt(int x)</code>.
+
+Compute and return the square root of <em>x</em>, where<em>x</em>is guaranteed to be a non-negative integer.
+
+Since the return typeis an integer, the decimal digits are truncated and only the integer part of the resultis returned.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> 4
+<strong>Output:</strong> 2
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> 8
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The square root of 8 is 2.82842..., and since 
+            the decimal part is truncated, 2 is returned.
+</pre>

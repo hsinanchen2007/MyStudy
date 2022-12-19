@@ -1,0 +1,16 @@
+wiggle-sort
+给你一个无序的数组<code>nums</code>, 将该数字<strong>原地</strong>重排后使得<code>nums[0] &lt;= nums[1] &gt;= nums[2] &lt;= nums[3]...</code>。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> <code>nums = [3,5,2,1,6,4]</code>
+<strong>输出:</strong> 一个可能的解答是 [3,5,1,6,2,4]</pre>
+
+摆动排序
+Given an unsorted array <code>nums</code>, reorder it <b>in-place</b> such that <code>nums[0] &lt;= nums[1] &gt;= nums[2] &lt;= nums[3]...</code>.
+
+<b>Example:</b>
+
+<pre>
+<b>Input:</b> <code>nums = [3,5,2,1,6,4]</code>
+<b>Output:</b> One possible answer is [3,5,1,6,2,4]</pre>

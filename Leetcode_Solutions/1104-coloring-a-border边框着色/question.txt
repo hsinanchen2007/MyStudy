@@ -1,0 +1,90 @@
+coloring-a-border
+给出一个二维整数网格<code>grid</code>，网格中的每个值表示该位置处的网格块的颜色。
+
+只有当两个网格块的颜色相同，而且在四个方向中任意一个方向上相邻时，它们属于同一<strong>连通分量</strong>。
+
+连通分量的<strong>边界</strong>是指连通分量中的所有与不在分量中的正方形相邻（四个方向上）的所有正方形，或者在网格的边界上（第一行/列或最后一行/列）的所有正方形。
+
+给出位于<code>(r0, c0)</code>的网格块和颜色<code>color</code>，使用指定颜色<code>color</code>为所给网格块的连通分量的边界进行着色，并返回最终的网格<code>grid</code> 。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>grid = [[1,1],[1,2]], r0 = 0, c0 = 0, color = 3
+<strong>输出：</strong>[[3, 3], [3, 2]]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>grid = [[1,2,2],[2,3,2]], r0 = 0, c0 = 1, color = 3
+<strong>输出：</strong>[[1, 3, 3], [2, 3, 3]]
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>grid = [[1,1,1],[1,1,1],[1,1,1]], r0 = 1, c0 = 1, color = 2
+<strong>输出：</strong>[[2, 2, 2], [2, 1, 2], [2, 2, 2]]</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= grid.length &lt;= 50</code>
+	<code>1 &lt;= grid[0].length &lt;= 50</code>
+	<code>1 &lt;= grid[i][j] &lt;= 1000</code>
+	<code>0 &lt;= r0 &lt; grid.length</code>
+	<code>0 &lt;= c0 &lt; grid[0].length</code>
+	<code>1 &lt;= color &lt;= 1000</code>
+</ol>
+
+
+
+边框着色
+Given a 2-dimensional<code>grid</code> of integers, each value in the grid represents the color of the grid square at that location.
+
+Two squares belong to the same <em>connected component</em> if and only if they have the same color and are next to each other in any of the 4 directions.
+
+The<em>border</em> of a connected component isall the squares in the connected component that areeither 4-directionally adjacent toa square not in the component, or on the boundary of the grid (the first or last row or column).
+
+Given a square at location<code>(r0, c0)</code>in the grid and a <code>color</code>, color theborder of the connected component of that square with the given <code>color</code>, and return the final <code>grid</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>grid = <span id="example-input-1-1">[[1,1],[1,2]]</span>, r0 = <span id="example-input-1-2">0</span>, c0 = <span id="example-input-1-3">0</span>, color = <span id="example-input-1-4">3</span>
+<strong>Output: </strong><span id="example-output-1">[[3, 3], [3, 2]]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>grid = <span id="example-input-2-1">[[1,2,2],[2,3,2]]</span>, r0 = <span id="example-input-2-2">0</span>, c0 = <span id="example-input-2-3">1</span>, color = <span id="example-input-2-4">3</span>
+<strong>Output: </strong><span id="example-output-2">[[1, 3, 3], [2, 3, 3]]</span>
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong>grid = <span id="example-input-3-1">[[1,1,1],[1,1,1],[1,1,1]]</span>, r0 = <span id="example-input-3-2">1</span>, c0 = <span id="example-input-3-3">1</span>, color = <span id="example-input-3-4">2</span>
+<strong>Output: </strong><span id="example-output-3">[[2, 2, 2], [2, 1, 2], [2, 2, 2]]</span></pre>
+</div>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= grid.length &lt;= 50</code>
+	<code>1 &lt;= grid[0].length &lt;= 50</code>
+	<code>1 &lt;= grid[i][j] &lt;= 1000</code>
+	<code>0 &lt;= r0 &lt; grid.length</code>
+	<code>0 &lt;= c0 &lt; grid[0].length</code>
+	<code>1 &lt;= color &lt;= 1000</code>
+</ol>

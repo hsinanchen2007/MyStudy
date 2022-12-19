@@ -1,0 +1,71 @@
+smallest-common-region
+给你一些区域列表<code>regions</code> ，每个列表的第一个区域都包含这个列表内所有其他区域。
+
+很自然地，如果区域<code>X</code> 包含区域<code>Y</code> ，那么区域<code>X</code> 比区域<code>Y</code> 大。
+
+给定两个区域<code>region1</code>和<code>region2</code> ，找到同时包含这两个区域的<strong>最小</strong>区域。
+
+如果区域列表中<code>r1</code>包含<code>r2</code>和<code>r3</code> ，那么数据保证<code>r2</code> 不会包含<code>r3</code>。
+
+数据同样保证最小公共区域一定存在。
+
+
+
+<strong>示例 1：</strong>
+
+<pre>
+<strong>输入：
+</strong>regions = [[&quot;Earth&quot;,&quot;North America&quot;,&quot;South America&quot;],
+[&quot;North America&quot;,&quot;United States&quot;,&quot;Canada&quot;],
+[&quot;United States&quot;,&quot;New York&quot;,&quot;Boston&quot;],
+[&quot;Canada&quot;,&quot;Ontario&quot;,&quot;Quebec&quot;],
+[&quot;South America&quot;,&quot;Brazil&quot;]],
+region1 = &quot;Quebec&quot;,
+region2 = &quot;New York&quot;
+<strong>输出：</strong>&quot;North America&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>2 &lt;= regions.length &lt;= 10^4</code>
+	<code>region1 != region2</code>
+	所有字符串只包含英文字母和空格，且最多只有20 个字母。
+</ul>
+
+最小公共区域
+You are given some lists of <code>regions</code>where the first region of each list includes all other regions in that list.
+
+Naturally, if a region <code>X</code>contains another region <code>Y</code>then <code>X</code>is bigger than <code>Y</code>. Also by definition a region X contains itself.
+
+Given two regions <code>region1</code>, <code>region2</code>, find out the <strong>smallest</strong> region that contains both of them.
+
+If you are given regions <code>r1</code>, <code>r2</code> and <code>r3</code> such that <code>r1</code> includes <code>r3</code>, it is guaranteed there is no <code>r2</code> such that <code>r2</code> includes <code>r3</code>.<br />
+<br />
+It&#39;s guaranteed the smallest region exists.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:
+</strong>regions = [[&quot;Earth&quot;,&quot;North America&quot;,&quot;South America&quot;],
+[&quot;North America&quot;,&quot;United States&quot;,&quot;Canada&quot;],
+[&quot;United States&quot;,&quot;New York&quot;,&quot;Boston&quot;],
+[&quot;Canada&quot;,&quot;Ontario&quot;,&quot;Quebec&quot;],
+[&quot;South America&quot;,&quot;Brazil&quot;]],
+region1 = &quot;Quebec&quot;,
+region2 = &quot;New York&quot;
+<strong>Output:</strong> &quot;North America&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>2 &lt;= regions.length &lt;= 10^4</code>
+	<code>region1 != region2</code>
+	All strings consist of English letters and spaces with at most 20 letters.
+</ul>

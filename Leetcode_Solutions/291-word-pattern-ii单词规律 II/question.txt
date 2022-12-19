@@ -1,0 +1,49 @@
+word-pattern-ii
+给你一种规律<code>pattern</code>和一个字符串<code>str</code>，请你判断<code>str</code>是否遵循其相同的规律。
+
+这里我们指的是 <strong>完全遵循</strong>，例如 <code>pattern</code>里的每个字母和字符串<code>str</code><strong></strong>中每个 <strong>非空</strong> 单词之间，存在着双向连接的对应规律。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> pattern = <code>&quot;</code>abab<code>&quot;</code>, str = <code>&quot;</code>redblueredblue<code>&quot;</code>
+<strong>输出:</strong> true</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> pattern = <code>&quot;</code>aaaa<code>&quot;</code>, str = <code>&quot;</code>asdasdasdasd<code>&quot;</code>
+<strong>输出:</strong> true</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> pattern = <code>&quot;</code>aabb<code>&quot;</code>, str = <code>&quot;</code>xyzabcxzyabc<code>&quot;</code>
+<strong>输出:</strong> false</pre>
+
+<strong>说明:</strong><br>
+你可以默认<code>pattern</code>和 <code>str</code>都只会包含小写字母。
+
+单词规律 II
+Given a <code>pattern</code> and a string <code>str</code>, find if <code>str</code> follows the same pattern.
+
+Here <b>follow</b> means a full match, such that there is a bijection between a letter in <code>pattern</code> and a <b>non-empty</b> substring in <code>str</code>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>pattern = <code>&quot;abab&quot;</code>, str = <code>&quot;redblueredblue&quot;</code>
+<strong>Output:</strong> true</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>pattern = pattern = <code>&quot;aaaa&quot;</code>, str = <code>&quot;asdasdasdasd&quot;</code>
+<strong>Output:</strong> true</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> pattern = <code>&quot;aabb&quot;</code>, str = <code>&quot;xyzabcxzyabc&quot;</code>
+<strong>Output:</strong> false
+</pre>
+
+<b>Notes:</b><br />
+You may assume both <code>pattern</code> and <code>str</code> contains only lowercase letters.

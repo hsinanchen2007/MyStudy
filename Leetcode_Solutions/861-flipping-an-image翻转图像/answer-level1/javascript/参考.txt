@@ -1,0 +1,1 @@
+var flipAndInvertImage = A=> A.map(res =>res.reverse().map(r => 1 - r))

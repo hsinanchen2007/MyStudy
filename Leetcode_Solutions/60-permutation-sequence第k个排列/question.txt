@@ -1,0 +1,71 @@
+permutation-sequence
+给出集合<code>[1,2,3,&hellip;,<em>n</em>]</code>，其所有元素共有<em>n</em>! 种排列。
+
+按大小顺序列出所有排列情况，并一一标记，当<em>n </em>= 3 时, 所有排列如下：
+
+<ol>
+	<code>&quot;123&quot;</code>
+	<code>&quot;132&quot;</code>
+	<code>&quot;213&quot;</code>
+	<code>&quot;231&quot;</code>
+	<code>&quot;312&quot;</code>
+	<code>&quot;321&quot;</code>
+</ol>
+
+给定<em>n</em> 和<em>k</em>，返回第<em>k</em>个排列。
+
+<strong>说明：</strong>
+
+<ul>
+	给定<em> n</em>的范围是 [1, 9]。
+	给定 <em>k</em>的范围是[1, <em>n</em>!]。
+</ul>
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> n = 3, k = 3
+<strong>输出:</strong> &quot;213&quot;
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> n = 4, k = 9
+<strong>输出:</strong> &quot;2314&quot;
+</pre>
+
+第k个排列
+The set <code>[1,2,3,...,<em>n</em>]</code> contains a total of <em>n</em>! unique permutations.
+
+By listing and labeling all of the permutations in order, we get the following sequence for <em>n</em> = 3:
+
+<ol>
+	<code>&quot;123&quot;</code>
+	<code>&quot;132&quot;</code>
+	<code>&quot;213&quot;</code>
+	<code>&quot;231&quot;</code>
+	<code>&quot;312&quot;</code>
+	<code>&quot;321&quot;</code>
+</ol>
+
+Given <em>n</em> and <em>k</em>, return the <em>k</em><sup>th</sup> permutation sequence.
+
+<strong>Note:</strong>
+
+<ul>
+	Given <em>n</em> will be between 1 and 9 inclusive.
+	Given<em>k</em>will be between 1 and <em>n</em>! inclusive.
+</ul>
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> n = 3, k = 3
+<strong>Output:</strong> &quot;213&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 4, k = 9
+<strong>Output:</strong> &quot;2314&quot;
+</pre>

@@ -1,0 +1,57 @@
+super-palindromes
+如果一个正整数自身是回文数，而且它也是一个回文数的平方，那么我们称这个数为超级回文数。
+
+现在，给定两个正整数<code>L</code> 和<code>R</code> （以字符串形式表示），返回包含在范围 <code>[L, R]</code> 中的超级回文数的数目。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>L = &quot;4&quot;, R = &quot;1000&quot;
+<strong>输出：</strong>4
+<strong>解释：
+</strong>4，9，121，以及 484 是超级回文数。
+注意 676 不是一个超级回文数： 26 * 26 = 676，但是 26 不是回文数。</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= len(L) &lt;= 18</code>
+	<code>1 &lt;= len(R) &lt;= 18</code>
+	<code>L</code> 和<code>R</code>是表示<code>[1, 10^18)</code>范围的整数的字符串。
+	<code>int(L) &lt;= int(R)</code>
+</ol>
+
+
+
+超级回文数
+Let&#39;s say a positive integer is a<em>superpalindrome</em>if it is a palindrome, and it is also the square of a palindrome.
+
+Now, given two positiveintegers <code>L</code> and <code>R</code> (represented as strings), return the number of superpalindromes in the inclusive range <code>[L, R]</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>L = <span id="example-input-1-1">&quot;4&quot;</span>, R = <span id="example-input-1-2">&quot;1000&quot;</span>
+<strong>Output: </strong>4
+<span><strong>Explanation</strong>: </span>4, 9, 121, and 484 are superpalindromes.
+Note that 676 is not a superpalindrome: 26 * 26 = 676, but 26 is not a palindrome.</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= len(L) &lt;= 18</code>
+	<code>1 &lt;= len(R) &lt;= 18</code>
+	<code>L</code> and <code>R</code> are strings representing integers in the range <code>[1, 10^18)</code>.
+	<code>int(L) &lt;= int(R)</code>
+</ol>
+
+<div>
+
+</div>

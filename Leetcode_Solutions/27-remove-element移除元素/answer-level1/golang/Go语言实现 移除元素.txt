@@ -1,0 +1,2 @@
+![27移除元素.png](https://pic.leetcode-cn.com/8ffa3326056a5a86100ec1f4d68693055fcaf6b0c2638edd204b83c3eeb9ea4c-27%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.png)
+首先对原切片进行排序，然后拿到指定元素在排序后切片中的首位与末位，然后使用nums = append(nums[:start], nums[end+1:]...)即可，最后返回nums现在的长度len(nums)即可

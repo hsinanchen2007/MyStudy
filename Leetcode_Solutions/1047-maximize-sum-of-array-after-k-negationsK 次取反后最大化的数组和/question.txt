@@ -1,0 +1,82 @@
+maximize-sum-of-array-after-k-negations
+给定一个整数数组 A，我们<strong>只能</strong>用以下方法修改该数组：我们选择某个个索引 <code>i</code>并将 <code>A[i]</code> 替换为 <code>-A[i]</code>，然后总共重复这个过程 <code>K</code> 次。（我们可以多次选择同一个索引 <code>i</code>。）
+
+以这种方式修改数组后，返回数组可能的最大和。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>A = [4,2,3], K = 1
+<strong>输出：</strong>5
+<strong>解释：</strong>选择索引 (1,) ，然后 A 变为 [4,-2,3]。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>A = [3,-1,0,2], K = 3
+<strong>输出：</strong>6
+<strong>解释：</strong>选择索引 (1, 2, 2) ，然后 A 变为 [3,1,0,2]。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>A = [2,-3,-1,5,-4], K = 2
+<strong>输出：</strong>13
+<strong>解释：</strong>选择索引 (1, 4) ，然后 A 变为 [2,3,-1,5,4]。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 10000</code>
+	<code>1 &lt;= K &lt;= 10000</code>
+	<code>-100 &lt;= A[i] &lt;= 100</code>
+</ol>
+
+K 次取反后最大化的数组和
+Given an array <code>A</code> of integers, we <strong>must</strong>modify the array in the following way: we choose an <code>i</code>and replace<code>A[i]</code> with <code>-A[i]</code>, and we repeat this process <code>K</code> times in total. (We may choose the same index <code>i</code> multiple times.)
+
+Return the largest possible sum of the array after modifying it in this way.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-1-1">[4,2,3]</span>, K = <span id="example-input-1-2">1</span>
+<strong>Output: </strong><span id="example-output-1">5
+<strong>Explanation: </strong>Choose indices (1,) and A becomes [4,-2,3].</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-2-1">[3,-1,0,2]</span>, K = <span id="example-input-2-2">3</span>
+<strong>Output: </strong>6
+<span id="example-output-1"><strong>Explanation: </strong>Choose indices (1, 2, 2) and A becomes [3,1,0,2].</span>
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-3-1">[2,-3,-1,5,-4]</span>, K = <span id="example-input-3-2">2</span>
+<strong>Output: </strong><span id="example-output-3">13
+</span><span id="example-output-1"><strong>Explanation: </strong>Choose indices (1, 4) and A becomes [2,3,-1,5,4].</span>
+</pre>
+</div>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 10000</code>
+	<code>1 &lt;= K &lt;= 10000</code>
+	<code>-100 &lt;= A[i] &lt;= 100</code>
+</ol>

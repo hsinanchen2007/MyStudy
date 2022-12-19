@@ -1,0 +1,42 @@
+range-sum-query-mutable
+给定一个整数数组 <em>nums</em>，求出数组从索引<em>i</em>到<em>j</em>(<em>i</em>&le;<em>j</em>) 范围内元素的总和，包含<em>i, j</em>两点。
+
+<em>update(i, val)</em> 函数可以通过将下标为<em>i</em>的数值更新为<em>val</em>，从而对数列进行修改。
+
+<strong>示例:</strong>
+
+<pre>Given nums = [1, 3, 5]
+
+sumRange(0, 2) -&gt; 9
+update(1, 2)
+sumRange(0, 2) -&gt; 8
+</pre>
+
+<strong>说明:</strong>
+
+<ol>
+	数组仅可以在<em>update</em>函数下进行修改。
+	你可以假设 <em>update</em> 函数与 <em>sumRange</em> 函数的调用次数是均匀分布的。
+</ol>
+
+区域和检索 - 数组可修改
+Given an integer array <i>nums</i>, find the sum of the elements between indices <i>i</i> and <i>j</i> (<i>i</i> &le; <i>j</i>), inclusive.
+
+The <i>update(i, val)</i> function modifies <i>nums</i> by updating the element at index <i>i</i> to <i>val</i>.
+
+<b>Example:</b>
+
+<pre>
+Given nums = [1, 3, 5]
+
+sumRange(0, 2) -&gt; 9
+update(1, 2)
+sumRange(0, 2) -&gt; 8
+</pre>
+
+<b>Note:</b>
+
+<ol>
+	The array is only modifiable by the <i>update</i> function.
+	You may assume the number of calls to <i>update</i> and <i>sumRange</i> function is distributed evenly.
+</ol>

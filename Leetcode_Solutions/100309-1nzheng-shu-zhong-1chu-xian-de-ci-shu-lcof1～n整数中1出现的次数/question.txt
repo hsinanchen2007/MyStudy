@@ -1,0 +1,30 @@
+1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof
+输入一个整数 <code>n</code> ，求1～n这n个整数的十进制表示中1出现的次数。
+
+例如，输入12，1～12这些整数中包含1 的数字有1、10、11和12，1一共出现了5次。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>n = 12
+<strong>输出：</strong>5
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 13
+<strong>输出：</strong>6</pre>
+
+
+
+<strong>限制：</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;2^31</code>
+</ul>
+
+注意：本题与主站 233 题相同：<a href="https://leetcode-cn.com/problems/number-of-digit-one/">https://leetcode-cn.com/problems/number-of-digit-one/</a>
+
+1～n整数中1出现的次数
+English description is not available for the problem. Please switch to Chinese.

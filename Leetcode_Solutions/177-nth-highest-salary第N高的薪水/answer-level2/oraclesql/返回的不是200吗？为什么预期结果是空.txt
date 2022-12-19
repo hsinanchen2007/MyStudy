@@ -1,0 +1,1 @@
+CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS result NUMBER; BEGIN     /* Write your PL/SQL query statement below */     SELECT T.SALARY into result   FROM (         SELECT ROW_NUMBER() OVER(ORDER BY SALARY  DESC) AS RN,                 S.ID,                 S.SALARY           FROM EMPLOYEE S         ) T  WHERE T.RN = N;     RETURN result; END;

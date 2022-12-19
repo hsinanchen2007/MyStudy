@@ -1,0 +1,41 @@
+deepest-leaves-sum
+给你一棵二叉树，请你返回层数最深的叶子节点的和。
+
+
+
+<strong>示例：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/12/28/1483_ex1.png" style="height: 265px; width: 273px;"></strong>
+
+<pre><strong>输入：</strong>root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
+<strong>输出：</strong>15
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	树中节点数目在<code>1</code>到<code>10^4</code>之间。
+	每个节点的值在<code>1</code>到<code>100</code> 之间。
+</ul>
+
+层数最深叶子节点的和
+Given a binary tree, return the sum of values of its deepest leaves.
+
+<strong>Example 1:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/07/31/1483_ex1.png" style="width: 273px; height: 265px;" /></strong>
+
+<pre>
+<strong>Input:</strong> root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
+<strong>Output:</strong> 15
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	The number of nodes in the tree is between<code>1</code>and<code>10^4</code>.
+	The value of nodes is between<code>1</code>and<code>100</code>.
+</ul>

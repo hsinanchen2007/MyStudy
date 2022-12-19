@@ -1,0 +1,23 @@
+Python3解法思路： 362ms 17.2M
+**首先最大字串肯定是最大后缀字串**
+即如果我们当前得到了最大字符，index是它在字符串s中的下标，我们当前的答案就是 s [ index : ]
+设立左右两个指针，left记录当前遇见的最大字符，right负责往后遍历，寻找是否有更大的字符
+step负责的是：如果s[left] == s[right] 则继续比较 s [ left + i ]与 s [ right + i ] （i = 1,2,3,4,5......）的工作
+直到我们找到了其中一个**更大**的或者我们遇见了**边界 right+step == len(s)**, 否则step将一直增大
+一旦找到了一个更大的，我们就把step还原回0
+**如果我们的 s[ right + step ] 比较大: left = right, right = right + 1**
+**如果我们的 s[ left + step ] 比较大：right = right + step + 1** （这里不用right = right + 1的原因是 s[ right : right + step ] 所有的字母都比 s[ left] 小）
+
+```
+class Solution:
+    def lastSubstring(self, s: str) -> str:
+        s_len, left, right, step = len(s), 0, 1, 0
+        while(right + step < s_len):
+            if s[right + step] > s[left + step]:
+                left, right, step = right , right+1, 0
+            elif s[right + step] < s[left + step]:
+                right, step = right+step+1, 0
+            else:
+                step += 1
+        return s[left:]
+```

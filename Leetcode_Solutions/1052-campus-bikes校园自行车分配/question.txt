@@ -1,0 +1,83 @@
+campus-bikes
+在由 2D 网格表示的校园里有<code>n</code>位工人（<code>worker</code>）和 <code>m</code>辆自行车（<code>bike</code>），<code>n &lt;= m</code>。所有工人和自行车的位置都用网格上的 2D 坐标表示。
+
+我们需要为每位工人分配一辆自行车。在所有可用的自行车和工人中，我们选取彼此之间曼哈顿距离最短的工人自行车对 (worker, bike) ，并将其中的自行车分配給工人。如果有多个 (worker, bike) 对之间的曼哈顿距离相同，那么我们选择工人索引最小的那对。类似地，如果有多种不同的分配方法，则选择自行车索引最小的一对。不断重复这一过程，直到所有工人都分配到自行车为止。
+
+给定两点<code>p1</code>和<code>p2</code>之间的曼哈顿距离为<code>Manhattan(p1, p2) = |p1.x - p2.x| + |p1.y - p2.y|</code>。
+
+返回长度为 <code>n</code> 的向量 <code>ans</code>，其中 <code>a[i]</code>是第 <code>i</code>位工人分配到的自行车的索引（从 0 开始）。
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/03/16/1261_example_1_v2.png" style="height: 264px; width: 264px;">
+
+<pre><strong>输入：</strong>workers = [[0,0],[2,1]], bikes = [[1,2],[3,3]]
+<strong>输出：</strong>[1,0]
+<strong>解释：</strong>
+工人 1 分配到自行车 0，因为他们最接近且不存在冲突，工人 0 分配到自行车 1 。所以输出是 [1,0]。
+</pre>
+
+<strong>示例 2：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/03/16/1261_example_2_v2.png" style="height: 264px; width: 264px;">
+
+<pre><strong>输入：</strong>workers = [[0,0],[1,1],[2,0]], bikes = [[1,0],[2,2],[2,1]]
+<strong>输出：</strong>[0,2,1]
+<strong>解释：</strong>
+工人 0 首先分配到自行车 0 。工人 1 和工人 2 与自行车 2 距离相同，因此工人 1 分配到自行车 2，工人 2 将分配到自行车 1 。因此输出为 [0,2,1]。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= workers[i][j], bikes[i][j] &lt; 1000</code>
+	所有工人和自行车的位置都不相同。
+	<code>1 &lt;= workers.length &lt;= bikes.length &lt;= 1000</code>
+</ol>
+
+校园自行车分配
+On a campus represented as a 2D grid, there are <code>N</code> workers and <code>M</code> bikes, with <code>N &lt;= M</code>. Each worker and bike is a 2D coordinate on this grid.
+
+Our goal is to assign a bike to each worker. Among the available bikes and workers, we choose the (worker, bike) pair with the shortest Manhattan distance between each other, and assign the bike to that worker. (If there are multiple (worker, bike) pairs with the same shortest Manhattan distance, we choose the pair with the smallest worker index; if there are multiple ways to do that, we choose the pair with the smallest bike index). We repeat this process until there are no available workers.
+
+The Manhattan distance between two points <code>p1</code> and <code>p2</code> is <code>Manhattan(p1, p2) = |p1.x - p2.x| + |p1.y - p2.y|</code>.
+
+Return a vector <code>ans</code> of length <code>N</code>, where <code>ans[i]</code> is the index (0-indexed) of the bike that the <code>i</code>-th worker is assigned to.
+
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/03/06/1261_example_1_v2.png" style="width: 264px; height: 264px;" />
+
+<pre>
+<strong>Input: </strong>workers = <span id="example-input-1-1">[[0,0],[2,1]]</span>, bikes = <span id="example-input-1-2">[[1,2],[3,3]]</span>
+<strong>Output: </strong><span id="example-output-1">[1,0]</span>
+<strong>Explanation: </strong>
+Worker 1 grabs Bike 0 as they are closest (without ties), and Worker 0 is assigned Bike 1. So the output is [1, 0].
+</pre>
+
+<strong>Example 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/03/06/1261_example_2_v2.png" style="width: 264px; height: 264px;" />
+
+<pre>
+<strong>Input: </strong>workers = <span id="example-input-2-1">[[0,0],[1,1],[2,0]]</span>, bikes = <span id="example-input-2-2">[[1,0],[2,2],[2,1]]</span>
+<strong>Output: </strong><span id="example-output-2">[0,2,1]</span>
+<strong>Explanation: </strong>
+Worker 0 grabs Bike 0 at first. Worker 1 and Worker 2 share the same distance to Bike 2, thus Worker 1 is assigned to Bike 2, and Worker 2 will take Bike 1. So the output is [0,2,1].
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= workers[i][j], bikes[i][j] &lt; 1000</code>
+	All worker and bike locations are distinct.
+	<code>1 &lt;= workers.length &lt;= bikes.length &lt;= 1000</code>
+</ol>

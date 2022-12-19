@@ -1,0 +1,44 @@
+group-anagrams-lcci
+编写一种方法，对字符串数组进行排序，将所有变位词组合在一起。变位词是指字母相同，但排列不同的字符串。
+
+<strong>注意：</strong>本题相对原题稍作修改
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> <code>[&quot;eat&quot;, &quot;tea&quot;, &quot;tan&quot;, &quot;ate&quot;, &quot;nat&quot;, &quot;bat&quot;]</code>,
+<strong>输出:</strong>
+[
+  [&quot;ate&quot;,&quot;eat&quot;,&quot;tea&quot;],
+  [&quot;nat&quot;,&quot;tan&quot;],
+  [&quot;bat&quot;]
+]</pre>
+
+<strong>说明：</strong>
+
+<ul>
+	所有输入均为小写字母。
+	不考虑答案输出的顺序。
+</ul>
+
+变位词组
+Write a method to sort an array of strings so that all the anagrams are in the same group.
+
+<b>Note:</b>This problem is slightly different from the original one the book.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> <code>[&quot;eat&quot;, &quot;tea&quot;, &quot;tan&quot;, &quot;ate&quot;, &quot;nat&quot;, &quot;bat&quot;]</code>,
+<strong>Output:</strong>
+[
+  [&quot;ate&quot;,&quot;eat&quot;,&quot;tea&quot;],
+  [&quot;nat&quot;,&quot;tan&quot;],
+  [&quot;bat&quot;]
+]</pre>
+
+<strong>Notes: </strong>
+
+<ul>
+	All inputs will be in lowercase.
+	The order of your output does notmatter.
+</ul>

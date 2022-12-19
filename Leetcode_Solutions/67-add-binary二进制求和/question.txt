@@ -1,0 +1,52 @@
+add-binary
+给你两个二进制字符串，返回它们的和（用二进制表示）。
+
+输入为 <strong>非空 </strong>字符串且只包含数字<code>1</code>和<code>0</code>。
+
+
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> a = &quot;11&quot;, b = &quot;1&quot;
+<strong>输出:</strong> &quot;100&quot;</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> a = &quot;1010&quot;, b = &quot;1011&quot;
+<strong>输出:</strong> &quot;10101&quot;</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	每个字符串仅由字符 <code>&#39;0&#39;</code> 或 <code>&#39;1&#39;</code> 组成。
+	<code>1 &lt;= a.length, b.length &lt;= 10^4</code>
+	字符串如果不是 <code>&quot;0&quot;</code> ，就都不含前导零。
+</ul>
+
+二进制求和
+Given two binary strings, return their sum (also a binary string).
+
+The input strings are both <strong>non-empty</strong> and contains only characters <code>1</code> or<code>0</code>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> a = &quot;11&quot;, b = &quot;1&quot;
+<strong>Output:</strong> &quot;100&quot;</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> a = &quot;1010&quot;, b = &quot;1011&quot;
+<strong>Output:</strong> &quot;10101&quot;</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	Each string consists only of <code>&#39;0&#39;</code> or <code>&#39;1&#39;</code> characters.
+	<code>1 &lt;= a.length, b.length &lt;= 10^4</code>
+	Each string is either <code>&quot;0&quot;</code> or doesn&#39;t contain any leading zero.
+</ul>

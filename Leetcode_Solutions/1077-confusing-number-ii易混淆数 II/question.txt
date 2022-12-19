@@ -1,0 +1,83 @@
+confusing-number-ii
+本题我们会将数字旋转 180&deg; 来生成一个新的数字。
+
+比如 0、1、6、8、9 旋转 180&deg; 以后，我们得到的新数字分别为0、1、9、8、6。
+
+2、3、4、5、7 旋转 180&deg; 后，是 <strong>无法</strong> 得到任何数字的。
+
+易混淆数（Confusing Number）指的是一个数字在整体旋转 180&deg; 以后，能够得到一个和原来<strong>不同</strong>的数，且新数字的每一位都应该是有效的。（请注意，旋转后得到的新数字可能大于原数字）
+
+给出正整数<code>N</code>，请你返回 <code>1</code> 到 <code>N</code> 之间易混淆数字的数量。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>20
+<strong>输出：</strong>6
+<strong>解释：</strong>
+易混淆数为 [6,9,10,16,18,19]。
+6 转换为 9
+9 转换为 6
+10 转换为 01 也就是 1
+16 转换为 91
+18 转换为 81
+19 转换为 61
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>100
+<strong>输出：</strong>19
+<strong>解释：</strong>
+易混淆数为 [6,9,10,16,18,19,60,61,66,68,80,81,86,89,90,91,98,99,100]。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= N &lt;= 10^9</code>
+</ol>
+
+易混淆数 II
+We can rotate digits by 180 degrees to form new digits. When 0, 1, 6, 8, 9 are rotated 180 degrees, they become 0, 1, 9, 8, 6 respectively. When 2, 3, 4, 5 and 7 are rotated 180 degrees, they become invalid.
+
+A <em>confusing number</em> is a number that when rotated 180 degrees becomes a <strong>different</strong> number with each digit valid.(Note that the rotated number can be greater than the original number.)
+
+Given a positive integer <code>N</code>, return the number of confusing numbers between <code>1</code> and <code>N</code>inclusive.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">20</span>
+<strong>Output: </strong><span id="example-output-1">6</span>
+<strong>Explanation: </strong>
+The confusing numbers are [6,9,10,16,18,19].
+6 converts to 9.
+9 converts to 6.
+10 converts to 01 which is just 1.
+16 converts to 91.
+18 converts to 81.
+19 converts to 61.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">100</span>
+<strong>Output: </strong><span id="example-output-2">19</span>
+<strong>Explanation: </strong>
+The confusing numbers are [6,9,10,16,18,19,60,61,66,68,80,81,86,89,90,91,98,99,100].
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= N &lt;= 10^9</code>
+</ol>

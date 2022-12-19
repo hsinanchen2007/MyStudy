@@ -1,0 +1,68 @@
+design-hashmap
+不使用任何内建的哈希表库设计一个哈希映射
+
+具体地说，你的设计应该包含以下的功能
+
+<ul>
+	<code>put(key, value)</code>：向哈希映射中插入(键,值)的数值对。如果键对应的值已经存在，更新这个值。
+	<code>get(key)</code>：返回给定的键所对应的值，如果映射中不包含这个键，返回-1。
+	<code>remove(key)</code>：如果映射中存在这个键，删除这个数值对。
+</ul>
+
+<br>
+<strong>示例：</strong>
+
+<pre>MyHashMap hashMap = new MyHashMap();
+hashMap.put(1, 1);     
+hashMap.put(2, 2);     
+hashMap.get(1);      // 返回 1
+hashMap.get(3);      // 返回 -1 (未找到)
+hashMap.put(2, 1);     // 更新已有的值
+hashMap.get(2);      // 返回 1 
+hashMap.remove(2);     // 删除键为2的数据
+hashMap.get(2);      // 返回 -1 (未找到) 
+</pre>
+
+<br>
+<strong>注意：</strong>
+
+<ul>
+	所有的值都在<code>[0, 1000000]</code>的范围内。
+	操作的总数目在<code>[1, 10000]</code>范围内。
+	不要使用内建的哈希库。
+</ul>
+
+设计哈希映射
+Design a HashMapwithout using any built-in hash table libraries.
+
+To be specific, your design should include these functions:
+
+<ul>
+	<code>put(key, value)</code> :Insert a (key, value) pair into the HashMap. If the value already exists in the HashMap, update the value.
+	<code>get(key)</code>: Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key.
+	<code>remove(key)</code> :Remove the mapping for the value key if this map contains the mapping for the key.
+</ul>
+
+<br />
+<strong>Example:</strong>
+
+<pre>
+MyHashMap hashMap = new MyHashMap();
+hashMap.put(1, 1);     
+hashMap.put(2, 2);     
+hashMap.get(1);      // returns 1
+hashMap.get(3);      // returns -1 (not found)
+hashMap.put(2, 1);     // update the existing value
+hashMap.get(2);      // returns 1 
+hashMap.remove(2);     // remove the mapping for 2
+hashMap.get(2);      // returns -1 (not found) 
+</pre>
+
+<br />
+<strong>Note:</strong>
+
+<ul>
+	All keys and values will be in the range of <code>[0, 1000000]</code>.
+	The number of operations will be in the range of<code>[1, 10000]</code>.
+	Please do not use the built-in HashMap library.
+</ul>

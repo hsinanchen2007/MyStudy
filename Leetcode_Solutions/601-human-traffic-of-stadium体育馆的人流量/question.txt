@@ -1,0 +1,74 @@
+human-traffic-of-stadium
+X 市建了一个新的体育馆，每日人流量信息被记录在这三列信息中：<strong>序号</strong> (id)、<strong>日期</strong> (visit_date)、<strong>人流量</strong> (people)。
+
+请编写一个查询语句，找出人流量的高峰期。高峰期时，至少连续三行记录中的人流量不少于100。
+
+例如，表 <code>stadium</code>：
+
+<pre>+------+------------+-----------+
+| id   | visit_date | people    |
++------+------------+-----------+
+| 1    | 2017-01-01 | 10        |
+| 2    | 2017-01-02 | 109       |
+| 3    | 2017-01-03 | 150       |
+| 4    | 2017-01-04 | 99        |
+| 5    | 2017-01-05 | 145       |
+| 6    | 2017-01-06 | 1455      |
+| 7    | 2017-01-07 | 199       |
+| 8    | 2017-01-08 | 188       |
++------+------------+-----------+
+</pre>
+
+对于上面的示例数据，输出为：
+
+<pre>+------+------------+-----------+
+| id   | visit_date | people    |
++------+------------+-----------+
+| 5    | 2017-01-05 | 145       |
+| 6    | 2017-01-06 | 1455      |
+| 7    | 2017-01-07 | 199       |
+| 8    | 2017-01-08 | 188       |
++------+------------+-----------+
+</pre>
+
+
+
+<strong>提示：</strong><br>
+每天只有一行记录，日期随着 id 的增加而增加。
+
+体育馆的人流量
+X city built a new stadium, each day many people visit it and the stats are saved as these columns: <b>id</b>, <strong>visit_</strong><b>date</b>, <b>people</b>
+
+Please write a query to display the records which have 3 or more consecutive rows and the amount of people more than 100(inclusive).
+For example, the table <code>stadium</code>:
+
+<pre>
++------+------------+-----------+
+| id   | visit_date | people    |
++------+------------+-----------+
+| 1    | 2017-01-01 | 10        |
+| 2    | 2017-01-02 | 109       |
+| 3    | 2017-01-03 | 150       |
+| 4    | 2017-01-04 | 99        |
+| 5    | 2017-01-05 | 145       |
+| 6    | 2017-01-06 | 1455      |
+| 7    | 2017-01-07 | 199       |
+| 8    | 2017-01-08 | 188       |
++------+------------+-----------+
+</pre>
+
+For the sample data above, the output is:
+
+<pre>
++------+------------+-----------+
+| id   | visit_date | people    |
++------+------------+-----------+
+| 5    | 2017-01-05 | 145       |
+| 6    | 2017-01-06 | 1455      |
+| 7    | 2017-01-07 | 199       |
+| 8    | 2017-01-08 | 188       |
++------+------------+-----------+
+</pre>
+
+<b>Note:</b><br />
+Each day only have one row record, and the dates are increasing with id increasing.

@@ -1,0 +1,69 @@
+hand-of-straights
+爱丽丝有一手（<code>hand</code>）由整数数组给定的牌。
+
+现在她想把牌重新排列成组，使得每个组的大小都是 <code>W</code>，且由 <code>W</code> 张连续的牌组成。
+
+如果她可以完成分组就返回 <code>true</code>，否则返回 <code>false</code>。
+
+
+
+<ol>
+</ol>
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>hand = [1,2,3,6,2,3,4,7,8], W = 3
+<strong>输出：</strong>true
+<strong>解释：</strong>爱丽丝的手牌可以被重新排列为 <code>[1,2,3]，[2,3,4]，[6,7,8]</code>。</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>hand = [1,2,3,4,5], W = 4
+<strong>输出：</strong>false
+<strong>解释：</strong>爱丽丝的手牌无法被重新排列成几个大小为 4 的组。</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= hand.length &lt;= 10000</code>
+	<code>0 &lt;= hand[i]&lt;= 10^9</code>
+	<code>1 &lt;= W &lt;= hand.length</code>
+</ol>
+
+一手顺子
+Alice has a <code>hand</code> of cards, given as an array of integers.
+
+Now she wants to rearrange the cards into groups so that each group is size <code>W</code>, and consists of <code>W</code> consecutive cards.
+
+Return <code>true</code> if and only if she can.
+
+
+
+<ol>
+</ol>
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>hand = [1,2,3,6,2,3,4,7,8], W = 3
+<strong>Output: </strong>true
+<strong>Explanation:</strong> Alice&#39;s <code>hand</code> can be rearranged as <code>[1,2,3],[2,3,4],[6,7,8]</code>.</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>hand = [1,2,3,4,5], W = 4
+<strong>Output: </strong>false
+<strong>Explanation:</strong> Alice&#39;s <code>hand</code> can&#39;t be rearranged into groups of <code>4</code>.</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= hand.length &lt;= 10000</code>
+	<code>0 &lt;= hand[i]&lt;= 10^9</code>
+	<code>1 &lt;= W &lt;= hand.length</code>
+</ol>

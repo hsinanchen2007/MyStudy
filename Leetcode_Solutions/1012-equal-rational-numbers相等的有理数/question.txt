@@ -1,0 +1,111 @@
+equal-rational-numbers
+给定两个字符串 <code>S</code> 和 <code>T</code>，每个字符串代表一个非负有理数，只有当它们表示相同的数字时才返回 <strong>true</strong>；否则，返回 <strong>false</strong>。字符串中可以使用括号来表示有理数的重复部分。
+
+通常，有理数最多可以用三个部分来表示：<em>整数部分</em><code>&lt;IntegerPart&gt;</code>、<em>小数非重复部分</em><code>&lt;NonRepeatingPart&gt;</code>和<em>小数重复部分</em><code>&lt;(&gt;&lt;RepeatingPart&gt;&lt;)&gt;</code>。数字可以用以下三种方法之一来表示：
+
+<ul>
+	<code>&lt;IntegerPart&gt;</code>（例：0，12，123）
+	<code>&lt;IntegerPart&gt;&lt;.&gt;&lt;NonRepeatingPart&gt;</code> （例：0.5，2.12，2.0001）
+	<code>&lt;IntegerPart&gt;&lt;.&gt;&lt;NonRepeatingPart&gt;&lt;(&gt;&lt;RepeatingPart&gt;&lt;)&gt;</code>（例：0.1(6)，0.9(9)，0.00(1212)）
+</ul>
+
+十进制展开的重复部分通常在一对圆括号内表示。例如：
+
+1 / 6 = 0.16666666... = 0.1(6) = 0.1666(6) = 0.166(66)
+
+0.1(6) 或0.1666(6) 或0.166(66) 都是1 / 6 的正确表示形式。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>S = &quot;0.(52)&quot;, T = &quot;0.5(25)&quot;
+<strong>输出：</strong>true
+<strong>解释：</strong>因为 &quot;0.(52)&quot; 代表 0.52525252...，而 &quot;0.5(25)&quot; 代表 0.52525252525.....，则这两个字符串表示相同的数字。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>S = &quot;0.1666(6)&quot;, T = &quot;0.166(66)&quot;
+<strong>输出：</strong>true
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>S = &quot;0.9(9)&quot;, T = &quot;1.&quot;
+<strong>输出：</strong>true
+<strong>解释：
+</strong>&quot;0.9(9)&quot; 代表 0.999999999... 永远重复，等于 1 。[<a href="https://baike.baidu.com/item/0.999…/5615429?fr=aladdin" target="_blank">有关说明，请参阅此链接</a>]
+&quot;1.&quot; 表示数字 1，其格式正确：(IntegerPart) = &quot;1&quot; 且 (NonRepeatingPart) = &quot;&quot; 。</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	每个部分仅由数字组成。
+	整数部分<code>&lt;IntegerPart&gt;</code>不会以 2 个或更多的零开头。（对每个部分的数字没有其他限制）。
+	<code>1 &lt;= &lt;IntegerPart&gt;.length &lt;= 4 </code>
+	<code>0 &lt;= &lt;NonRepeatingPart&gt;.length &lt;= 4 </code>
+	<code>1 &lt;= &lt;RepeatingPart&gt;.length &lt;= 4 </code>
+</ol>
+
+相等的有理数
+Given two strings <code>S</code> and <code>T</code>, each of which represents a non-negative rational number, return <strong>True</strong> if and only if they represent the same number. The strings may use parentheses to denote the repeating part of the rational number.
+
+In general a rational number can be represented using up tothree parts: an<em>integer part</em>, a<em>non-repeating part,</em> and a<em>repeating part</em>. The number will be representedin one of the following three ways:
+
+<ul>
+	<code>&lt;IntegerPart&gt;</code> (e.g. 0, 12, 123)
+	<code>&lt;IntegerPart&gt;&lt;.&gt;&lt;NonRepeatingPart&gt;</code> (e.g. 0.5, 1., 2.12, 2.0001)
+	<code>&lt;IntegerPart&gt;&lt;.&gt;&lt;NonRepeatingPart&gt;&lt;(&gt;&lt;RepeatingPart&gt;&lt;)&gt;</code> (e.g. 0.1(6), 0.9(9), 0.00(1212))
+</ul>
+
+The repeating portion of a decimal expansion is conventionally denoted within a pair of round brackets. For example:
+
+1 / 6 = 0.16666666... = 0.1(6) = 0.1666(6) = 0.166(66)
+
+Both 0.1(6) or 0.1666(6) or 0.166(66) are correct representations of 1 / 6.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>S = <span id="example-input-1-1">&quot;0.(52)&quot;</span>, T = <span id="example-input-1-2">&quot;0.5(25)&quot;</span>
+<strong>Output: </strong><span id="example-output-1">true</span>
+<strong>Explanation:
+</strong>Because &quot;0.(52)&quot; represents 0.52525252..., and &quot;0.5(25)&quot; represents 0.52525252525..... , the strings represent the same number.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>S = <span id="example-input-2-1">&quot;0.1666(6)&quot;</span>, T = <span id="example-input-2-2">&quot;0.166(66)&quot;</span>
+<strong>Output: </strong><span id="example-output-2">true</span>
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong>S = <span id="example-input-3-1">&quot;0.9(9)&quot;</span>, T = <span id="example-input-3-2">&quot;1.&quot;</span>
+<strong>Output: </strong><span id="example-output-3">true</span>
+<strong>Explanation: </strong>
+&quot;0.9(9)&quot; represents 0.999999999... repeated forever, which equals 1.  [<a href="https://en.wikipedia.org/wiki/0.999..." target="_blank">See this link for an explanation.</a>]
+&quot;1.&quot; represents the number 1, which is formed correctly: (IntegerPart) = &quot;1&quot; and (NonRepeatingPart) = &quot;&quot;.</pre>
+
+
+</div>
+</div>
+
+<strong>Note:</strong>
+
+<ol>
+	Each part consists only of digits.
+	The <code>&lt;IntegerPart&gt;</code>willnot begin with 2 or more zeros. (There is no other restriction on the digits of each part.)
+	<code>1 &lt;= &lt;IntegerPart&gt;.length &lt;= 4 </code>
+	<code>0 &lt;= &lt;NonRepeatingPart&gt;.length &lt;= 4 </code>
+	<code>1 &lt;= &lt;RepeatingPart&gt;.length &lt;= 4</code>
+</ol>

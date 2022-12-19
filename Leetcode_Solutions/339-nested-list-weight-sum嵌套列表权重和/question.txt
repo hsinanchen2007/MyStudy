@@ -1,0 +1,39 @@
+nested-list-weight-sum
+给定一个嵌套的整数列表，请返回该列表按深度加权后所有整数的总和。
+
+每个元素要么是整数，要么是列表。同时，列表中元素同样也可以是整数或者是另一个列表。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>[[1,1],2,[1,1]]
+<strong>输出: </strong>10 
+<strong>解释: </strong>因为列表中有四个深度为 2 的 1 ，和一个深度为 1 的 2。</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>[1,[4,[6]]]
+<strong>输出: </strong>27 
+<strong>解释: </strong>一个深度为 1 的 1，一个深度为 2 的 4，一个深度为 3 的 6。所以，1 + 4*2 + 6*3 = 27。</pre>
+
+嵌套列表权重和
+Given a nested list of integers, return the sum of all integers in the list weighted by their depth.
+
+Each element is either an integer, or a list -- whose elements may also be integers or other lists.
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[1,1],2,[1,1]]</span>
+<strong>Output: </strong><span id="example-output-1">10 </span>
+<strong>Explanation: </strong>Four 1&#39;s at depth 2, one 2 at depth 1.</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[1,[4,[6]]]</span>
+<strong>Output: </strong><span id="example-output-2">27 </span>
+<strong>Explanation: </strong>One 1 at depth 1, one 4 at depth 2, and one 6 at depth 3; 1 + 4*2 + 6*3 = 27.</pre>
+</div>
+</div>

@@ -1,0 +1,79 @@
+number-of-valid-words-for-each-puzzle
+外国友人仿照中国字谜设计了一个英文版猜字谜小游戏，请你来猜猜看吧。
+
+字谜的迷面<code>puzzle</code> 按字符串形式给出，如果一个单词<code>word</code>符合下面两个条件，那么它就可以算作谜底：
+
+<ul>
+	单词<code>word</code>中包含谜面<code>puzzle</code>的第一个字母。
+	单词<code>word</code>中的每一个字母都可以在谜面<code>puzzle</code>中找到。<br>
+	例如，如果字谜的谜面是 &quot;abcdefg&quot;，那么可以作为谜底的单词有 &quot;faced&quot;, &quot;cabbage&quot;, 和 &quot;baggage&quot;；而 &quot;beefed&quot;（不含字母 &quot;a&quot;）以及&quot;based&quot;（其中的 &quot;s&quot; 没有出现在谜面中）。
+</ul>
+
+返回一个答案数组<code>answer</code>，数组中的每个元素<code>answer[i]</code>是在给出的单词列表 <code>words</code> 中可以作为字谜迷面<code>puzzles[i]</code>所对应的谜底的单词数目。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>
+words = [&quot;aaaa&quot;,&quot;asas&quot;,&quot;able&quot;,&quot;ability&quot;,&quot;actt&quot;,&quot;actor&quot;,&quot;access&quot;], 
+puzzles = [&quot;aboveyz&quot;,&quot;abrodyz&quot;,&quot;abslute&quot;,&quot;absoryz&quot;,&quot;actresz&quot;,&quot;gaswxyz&quot;]
+<strong>输出：</strong>[1,1,3,2,4,0]
+<strong>解释：</strong>
+1 个单词可以作为 &quot;aboveyz&quot; 的谜底 : &quot;aaaa&quot; 
+1 个单词可以作为 &quot;abrodyz&quot; 的谜底 : &quot;aaaa&quot;
+3 个单词可以作为 &quot;abslute&quot; 的谜底 : &quot;aaaa&quot;, &quot;asas&quot;, &quot;able&quot;
+2 个单词可以作为&quot;absoryz&quot; 的谜底 : &quot;aaaa&quot;, &quot;asas&quot;
+4 个单词可以作为&quot;actresz&quot; 的谜底 : &quot;aaaa&quot;, &quot;asas&quot;, &quot;actt&quot;, &quot;access&quot;
+没有单词可以作为&quot;gaswxyz&quot; 的谜底，因为列表中的单词都不含字母 &#39;g&#39;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= words.length &lt;= 10^5</code>
+	<code>4 &lt;= words[i].length &lt;= 50</code>
+	<code>1 &lt;= puzzles.length &lt;= 10^4</code>
+	<code>puzzles[i].length == 7</code>
+	<code>words[i][j]</code>, <code>puzzles[i][j]</code>都是小写英文字母。
+	每个<code>puzzles[i]</code>所包含的字符都不重复。
+</ul>
+
+猜字谜
+With respect to a given <code>puzzle</code> string, a <code>word</code> is <em>valid</em>if both the following conditions are satisfied:
+<ul>
+	<code>word</code> contains the first letter of <code>puzzle</code>.
+	For each letter in <code>word</code>, that letter is in <code>puzzle</code>.<br />
+	For example, if the puzzle is &quot;abcdefg&quot;, then valid words are &quot;faced&quot;, &quot;cabbage&quot;, and &quot;baggage&quot;; while invalid words are &quot;beefed&quot; (doesn&#39;t include &quot;a&quot;) and &quot;based&quot; (includes &quot;s&quot; which isn&#39;t in the puzzle).
+</ul>
+Return an array <code>answer</code>, where <code>answer[i]</code> is the number of words in the given word list<code>words</code> that are valid with respect to the puzzle <code>puzzles[i]</code>.
+
+<strong>Example :</strong>
+
+<pre>
+<strong>Input:</strong> 
+words = [&quot;aaaa&quot;,&quot;asas&quot;,&quot;able&quot;,&quot;ability&quot;,&quot;actt&quot;,&quot;actor&quot;,&quot;access&quot;], 
+puzzles = [&quot;aboveyz&quot;,&quot;abrodyz&quot;,&quot;abslute&quot;,&quot;absoryz&quot;,&quot;actresz&quot;,&quot;gaswxyz&quot;]
+<strong>Output:</strong> [1,1,3,2,4,0]
+<strong>Explanation:</strong>
+1 valid wordfor &quot;aboveyz&quot; : &quot;aaaa&quot; 
+1 valid wordfor &quot;abrodyz&quot; : &quot;aaaa&quot;
+3 valid words for &quot;abslute&quot; : &quot;aaaa&quot;, &quot;asas&quot;, &quot;able&quot;
+2 valid words for&quot;absoryz&quot; : &quot;aaaa&quot;, &quot;asas&quot;
+4 valid words for&quot;actresz&quot; : &quot;aaaa&quot;, &quot;asas&quot;, &quot;actt&quot;, &quot;access&quot;
+There&#39;reno valid words for&quot;gaswxyz&quot; cause none of the words in the list contains letter &#39;g&#39;.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= words.length &lt;= 10^5</code>
+	<code>4 &lt;= words[i].length &lt;= 50</code>
+	<code>1 &lt;= puzzles.length &lt;= 10^4</code>
+	<code>puzzles[i].length == 7</code>
+	<code>words[i][j]</code>, <code>puzzles[i][j]</code> are English lowercase letters.
+	Each <code>puzzles[i] </code>doesn&#39;t contain repeated characters.
+</ul>

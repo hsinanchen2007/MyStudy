@@ -1,0 +1,42 @@
+valid-anagram
+给定两个字符串 <em>s</em> 和 <em>t</em> ，编写一个函数来判断 <em>t</em> 是否是 <em>s</em> 的字母异位词。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> <em>s</em> = &quot;anagram&quot;, <em>t</em> = &quot;nagaram&quot;
+<strong>输出:</strong> true
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> <em>s</em> = &quot;rat&quot;, <em>t</em> = &quot;car&quot;
+<strong>输出: </strong>false</pre>
+
+<strong>说明:</strong><br>
+你可以假设字符串只包含小写字母。
+
+<strong>进阶:</strong><br>
+如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
+
+有效的字母异位词
+Given two strings <em>s</em> and <em>t</em>, write a function to determine if <em>t</em> is an anagram of <em>s</em>.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> <em>s</em> = &quot;anagram&quot;, <em>t</em> = &quot;nagaram&quot;
+<b>Output:</b> true
+</pre>
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> <em>s</em> = &quot;rat&quot;, <em>t</em> = &quot;car&quot;
+<b>Output: </b>false
+</pre>
+
+<strong>Note:</strong><br />
+You may assume the string contains only lowercase alphabets.
+
+<strong>Follow up:</strong><br />
+What if the inputs contain unicode characters? How would you adapt your solution to such case?

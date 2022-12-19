@@ -1,0 +1,92 @@
+complement-of-base-10-integer
+每个非负整数<code>N</code>都有其二进制表示。例如，<code>5</code>可以被表示为二进制<code>&quot;101&quot;</code>，<code>11</code> 可以用二进制<code>&quot;1011&quot;</code>表示，依此类推。注意，除<code>N = 0</code>外，任何二进制表示中都不含前导零。
+
+二进制的反码表示是将每个<code>1</code>改为<code>0</code>且每个<code>0</code>变为<code>1</code>。例如，二进制数<code>&quot;101&quot;</code>的二进制反码为<code>&quot;010&quot;</code>。
+
+给你一个十进制数<code>N</code>，请你返回其二进制表示的反码所对应的十进制整数。
+
+
+
+<ol>
+</ol>
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>5
+<strong>输出：</strong>2
+<strong>解释：</strong>5 的二进制表示为 &quot;101&quot;，其二进制反码为 &quot;010&quot;，也就是十进制中的 2 。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>7
+<strong>输出：</strong>0
+<strong>解释：</strong>7 的二进制表示为 &quot;111&quot;，其二进制反码为 &quot;000&quot;，也就是十进制中的 0 。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>10
+<strong>输出：</strong>5
+<strong>解释：</strong>10 的二进制表示为 &quot;1010&quot;，其二进制反码为 &quot;0101&quot;，也就是十进制中的 5 。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= N &lt; 10^9</code>
+	本题与 476：<a href="https://leetcode-cn.com/problems/number-complement/">https://leetcode-cn.com/problems/number-complement/</a> 相同
+</ol>
+
+十进制整数的反码
+Every non-negative integer <code>N</code>has a binary representation. For example,<code>5</code> can be represented as <code>&quot;101&quot;</code>in binary, <code>11</code> as <code>&quot;1011&quot;</code>in binary, and so on. Note that except for <code>N = 0</code>, there are no leading zeroes in anybinary representation.
+
+The <em>complement</em>of a binary representationis the number in binary you get when changing every <code>1</code> to a <code>0</code> and <code>0</code> to a <code>1</code>. For example, the complement of <code>&quot;101&quot;</code> in binary is <code>&quot;010&quot;</code> in binary.
+
+For a given number <code>N</code> in base-10, return the complement of it&#39;s binary representation as abase-10 integer.
+
+
+
+<ol>
+</ol>
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">5</span>
+<strong>Output: </strong><span id="example-output-1">2</span>
+<strong>Explanation: </strong>5 is &quot;101&quot; in binary, with complement &quot;010&quot; in binary, which is 2 in base-10.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">7</span>
+<strong>Output: </strong><span id="example-output-2">0</span>
+<span id="example-output-1"><strong>Explanation: </strong>7 is &quot;111&quot; in binary, with complement &quot;000&quot; in binary, which is 0 in base-10.
+</span></pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">10</span>
+<strong>Output: </strong><span id="example-output-3">5</span>
+<strong>Explanation: </strong>10 is &quot;1010&quot; in binary, with complement &quot;0101&quot; in binary, which is 5 in base-10.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= N &lt; 10^9</code>
+	This question is the same as 476:<a href="https://leetcode.com/problems/number-complement/">https://leetcode.com/problems/number-complement/</a>
+</ol>
+</div>
+</div>
+</div>

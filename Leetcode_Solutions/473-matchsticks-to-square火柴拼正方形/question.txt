@@ -1,0 +1,58 @@
+matchsticks-to-square
+还记得童话《卖火柴的小女孩》吗？现在，你知道小女孩有多少根火柴，请找出一种能使用所有火柴拼成一个正方形的方法。不能折断火柴，可以把火柴连接起来，并且每根火柴都要用到。
+
+输入为小女孩拥有火柴的数目，每根火柴用其长度表示。输出即为是否能用所有的火柴拼成正方形。
+
+<strong>示例1:</strong>
+
+<pre>
+<strong>输入:</strong> [1,1,2,2,2]
+<strong>输出:</strong> true
+
+<strong>解释:</strong> 能拼成一个边长为2的正方形，每边两根火柴。
+</pre>
+
+<strong>示例2:</strong>
+
+<pre>
+<strong>输入:</strong> [3,3,3,3,4]
+<strong>输出:</strong> false
+
+<strong>解释:</strong> 不能用所有火柴拼成一个正方形。
+</pre>
+
+<strong>注意:</strong>
+
+<ol>
+	给定的火柴长度和在<code>0</code>到<code>10^9</code>之间。
+	火柴数组的长度不超过15。
+</ol>
+
+火柴拼正方形
+Remember the story of Little Match Girl? By now, you know exactly what matchsticks the little match girl has, please find out a way you can make one square by using up all those matchsticks. You should not break any stick, but you can link them up, and each matchstick must be used <b>exactly</b> one time.</P>
+
+ Your input will be several matchsticks the girl has, represented with their stick length. Your output will either be true or false, to represent whether you could make one square using all the matchsticks the little match girl has.
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> [1,1,2,2,2]
+<b>Output:</b> true
+
+<b>Explanation:</b> You can form a square with length 2, one side of the square came two sticks with length 1.
+</pre>
+
+
+<b>Example 2:</b><br />
+<pre>
+<b>Input:</b> [3,3,3,3,4]
+<b>Output:</b> false
+
+<b>Explanation:</b> You cannot find a way to form a square with all the matchsticks.
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+The length sum of the given matchsticks is in the range of <code>0</code> to <code>10^9</code>.
+The length of the given matchstick array will not exceed <code>15</code>.
+</ol>

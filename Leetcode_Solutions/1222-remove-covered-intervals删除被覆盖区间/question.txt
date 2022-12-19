@@ -1,0 +1,49 @@
+remove-covered-intervals
+给你一个区间列表，请你删除列表中被其他区间所覆盖的区间。
+
+只有当<code>c &lt;= a</code>且<code>b &lt;= d</code>时，我们才认为区间<code>[a,b)</code> 被区间<code>[c,d)</code> 覆盖。
+
+在完成所有删除操作后，请你返回列表中剩余区间的数目。
+
+
+
+<strong>示例：</strong>
+
+<pre>
+<strong>输入：</strong>intervals = [[1,4],[3,6],[2,8]]
+<strong>输出：</strong>2
+<strong>解释：</strong>区间 [3,6] 被区间 [2,8] 覆盖，所以它被删除了。
+</pre>
+
+
+
+<strong>提示：</strong>​​​​​​
+
+<ul>
+	<code>1 &lt;= intervals.length &lt;= 1000</code>
+	<code>0 &lt;= intervals[i][0] &lt;intervals[i][1] &lt;= 10^5</code>
+	对于所有的<code>i != j</code>：<code>intervals[i] != intervals[j]</code>
+</ul>
+
+删除被覆盖区间
+Given a list of intervals, remove all intervals that are covered by another interval in the list.Interval <code>[a,b)</code> is covered byinterval <code>[c,d)</code> if and only if <code>c &lt;= a</code> and <code>b &lt;= d</code>.
+
+After doing so, return the number of remaining intervals.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> intervals = [[1,4],[3,6],[2,8]]
+<strong>Output:</strong> 2
+<b>Explanation: </b>Interval [3,6] is covered by [2,8], therefore it is removed.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= intervals.length &lt;= 1000</code>
+	<code>0 &lt;= intervals[i][0] &lt;intervals[i][1] &lt;= 10^5</code>
+	<code>intervals[i] != intervals[j]</code>for all<code>i != j</code>
+</ul>

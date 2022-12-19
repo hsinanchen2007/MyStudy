@@ -1,0 +1,75 @@
+magical-string
+神奇的字符串<strong>S</strong>只包含 &#39;1&#39; 和 &#39;2&#39;，并遵守以下规则：
+
+字符串 <strong>S</strong> 是神奇的，因为串联字符 &#39;1&#39; 和 &#39;2&#39; 的连续出现次数会生成字符串 <strong>S</strong> 本身。
+
+字符串<strong>S</strong>的前几个元素如下：<strong>S </strong>= &ldquo;1221121221221121122 ......&rdquo;
+
+如果我们将<strong>S</strong> 中连续的 1 和 2 进行分组，它将变成：
+
+1 22 11 2 1 22 1 22 11 2 11 22 ......
+
+并且每个组中 &#39;1&#39; 或 &#39;2&#39; 的出现次数分别是：
+
+1 2 2 1 1 2 1 2 2 1 2 2 ......
+
+你可以看到上面的出现次数就是 <strong>S</strong> 本身。
+
+给定一个整数 N 作为输入，返回神奇字符串 <strong>S</strong>中前 N 个数字中的 &#39;1&#39; 的数目。
+
+<strong>注意：</strong>N 不会超过 100,000。
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>6
+<strong>输出：</strong>3
+<strong>解释：</strong>神奇字符串 S 的前 6 个元素是 &ldquo;12211&rdquo;，它包含三个 1，因此返回 3。
+</pre>
+
+
+
+神奇字符串
+
+A magical string <b>S</b> consists of only '1' and '2' and obeys the following rules:
+
+
+The string <b>S</b> is magical because concatenating the number of contiguous occurrences of characters '1' and '2' generates the string <b>S</b> itself.
+
+
+
+The first few elements of string <b>S</b> is the following:
+<b>S</b> = "1221121221221121122……"
+
+
+
+If we group the consecutive '1's and '2's in <b>S</b>, it will be:
+
+
+1   22  11  2  1  22  1  22  11  2  11  22 ......
+
+
+and the occurrences of '1's or '2's in each group are:
+
+
+1   2	   2    1   1    2     1    2     2    1    2    2 ......
+
+
+
+You can see that the occurrence sequence above is the <b>S</b> itself. 
+
+
+
+Given an integer N as input, return the number of '1's in the first N number in the magical string <b>S</b>.
+
+
+<b>Note:</b>
+N will not exceed 100,000.
+
+
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> 6
+<b>Output:</b> 3
+<b>Explanation:</b> The first 6 elements of magical string S is "12211" and it contains three 1's, so return 3.
+</pre>

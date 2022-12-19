@@ -1,0 +1,39 @@
+1.查看customers表
+```
+SELECT
+	* 
+FROM
+	customers;
+```
+2.查看orders表	
+```	
+SELECT
+	* 
+FROM
+	orders;
+```	
+3.查看订单表中下单了的客户id--cunstomersid
+```	
+SELECT
+	CustomerId 
+FROM
+	orders;
+```	
+4.过滤出顾客表中的id不在订单表中的顾客信息
+```	
+SELECT
+	* 
+FROM
+	customers 
+WHERE
+	customers.id NOT IN ( SELECT CustomerId FROM orders );
+```	
+5.将过滤出的那些没有下过单的顾客选择出我们题目结果需要的列并改变列名
+```	
+SELECT
+	customers.`Name` AS Customers
+FROM
+	customers 
+WHERE
+	customers.id NOT IN ( SELECT CustomerId FROM orders );
+```

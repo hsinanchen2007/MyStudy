@@ -1,0 +1,47 @@
+string-to-url-lcci
+URL化。编写一种方法，将字符串中的空格全部替换为<code>%20</code>。假定该字符串尾部有足够的空间存放新增字符，并且知道字符串的&ldquo;真实&rdquo;长度。（注：用<code>Java</code>实现的话，请使用字符数组实现，以便直接在数组上操作。）
+
+<strong>示例1:</strong>
+
+<pre><strong> 输入</strong>：&quot;Mr John Smith    &quot;, 13
+<strong> 输出</strong>：&quot;Mr%20John%20Smith&quot;
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong> 输入</strong>：&quot;               &quot;, 5
+<strong> 输出</strong>：&quot;%20%20%20%20%20&quot;
+</pre>
+
+<strong>提示：</strong>
+
+<ol>
+	字符串长度在[0, 500000]范围内。
+</ol>
+
+URL化
+Write a method to replace all spaces in a string with &#39;%20&#39;. You may assume that the string has sufficient space at the end to hold the additional characters,and that you are given the &quot;true&quot; length of the string. (Note: If implementing in Java,please use a character array so that you can perform this operation in place.)
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>&quot;Mr John Smith &quot;, 13
+<strong>Output: </strong>&quot;Mr%20John%20Smith&quot;
+<strong>Explanation: </strong>
+The missing numbers are [5,6,8,...], hence the third missing number is 8.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>&quot;               &quot;, 5
+<strong>Output: </strong>&quot;%20%20%20%20%20&quot;
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= S.length &lt;= 500000</code>
+</ol>

@@ -1,0 +1,39 @@
+two-sum-iii-data-structure-design
+设计并实现一个TwoSum 的类，使该类需要支持 <code>add</code>和<code>find</code>的操作。
+
+<code>add</code>操作 - 对内部数据结构增加一个数。<br>
+<code>find</code> 操作 - 寻找内部数据结构中是否存在一对整数，使得两数之和与给定的数相等。
+
+<strong>示例1:</strong>
+
+<pre>add(1); add(3); add(5);
+find(4) -&gt; true
+find(7) -&gt; false
+</pre>
+
+<strong>示例2:</strong>
+
+<pre>add(3); add(1); add(2);
+find(3) -&gt; true
+find(6) -&gt; false</pre>
+
+两数之和 III - 数据结构设计
+Design and implement a TwoSum class. It should support the following operations: <code>add</code> and <code>find</code>.
+
+<code>add</code> - Add the number to an internal data structure.<br />
+<code>find</code> - Find if there exists any pair of numbers which sum is equal to the value.
+
+<strong>Example 1:</strong>
+
+<pre>
+add(1); add(3); add(5);
+find(4) -&gt; true
+find(7) -&gt; false
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+add(3); add(1); add(2);
+find(3) -&gt; true
+find(6) -&gt; false</pre>

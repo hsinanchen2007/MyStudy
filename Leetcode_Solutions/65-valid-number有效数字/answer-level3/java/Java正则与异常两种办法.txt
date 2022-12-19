@@ -1,0 +1,5 @@
+1.正则：
+    ![d6e302116b5b72e4a37ee818b05552c.png](https://pic.leetcode-cn.com/f2858264f2900be433869088552085ae089de56a09dc0b7ba929d80257d56ea3-d6e302116b5b72e4a37ee818b05552c.png)
+2.异常：
+![8edcd20097409d54e4a8b7ea3e4dbb4.png](https://pic.leetcode-cn.com/cdef36af34aad31e30246b3788179f9e791d377e7b5a807eec561cf8a22ba98f-8edcd20097409d54e4a8b7ea3e4dbb4.png)
+

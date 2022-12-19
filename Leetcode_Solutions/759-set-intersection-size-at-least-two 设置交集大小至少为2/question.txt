@@ -1,0 +1,66 @@
+set-intersection-size-at-least-two
+一个整数区间<code>[a, b]</code>(<code>a &lt; b</code>) 代表着从<code>a</code>到<code>b</code>的所有连续整数，包括<code>a</code>和<code>b</code>。
+
+给你一组整数区间<code>intervals</code>，请找到一个最小的集合 S，使得 S 里的元素与区间<code>intervals</code>中的每一个整数区间都至少有2个元素相交。
+
+输出这个最小集合S的大小。
+
+<strong>示例 1:</strong>
+
+<pre>
+<strong>输入:</strong> intervals = [[1, 3], [1, 4], [2, 5], [3, 5]]
+<strong>输出:</strong> 3
+<strong>解释:</strong>
+考虑集合 S = {2, 3, 4}. S与intervals中的四个区间都有至少2个相交的元素。
+且这是S最小的情况，故我们输出3。
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre>
+<strong>输入:</strong> intervals = [[1, 2], [2, 3], [2, 4], [4, 5]]
+<strong>输出:</strong> 5
+<strong>解释:</strong>
+最小的集合S = {1, 2, 3, 4, 5}.
+</pre>
+
+<strong>注意:</strong>
+
+<ol>
+	<code>intervals</code>的长度范围为<code>[1, 3000]</code>。
+	<code>intervals[i]</code>长度为<code>2</code>，分别代表左、右边界。
+	<code>intervals[i][j]</code> 的值是<code>[0, 10^8]</code>范围内的整数。
+</ol>
+
+ 设置交集大小至少为2
+
+An integer interval <code>[a, b]</code> (for integers <code>a < b</code>) is a set of all consecutive integers from <code>a</code> to <code>b</code>, including <code>a</code> and <code>b</code>.
+
+Find the minimum size of a set S such that for every integer interval A in <code>intervals</code>, the intersection of S with A has size at least 2.
+
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> intervals = [[1, 3], [1, 4], [2, 5], [3, 5]]
+<b>Output:</b> 3
+<b>Explanation:</b>
+Consider the set S = {2, 3, 4}.  For each interval, there are at least 2 elements from S in the interval.
+Also, there isn't a smaller size set that fulfills the above condition.
+Thus, we output the size of this set, which is 3.
+</pre>
+
+
+<b>Example 2:</b><br />
+<pre>
+<b>Input:</b> intervals = [[1, 2], [2, 3], [2, 4], [4, 5]]
+<b>Output:</b> 5
+<b>Explanation:</b>
+An example of a minimum sized set is {1, 2, 3, 4, 5}.
+</pre>
+
+
+<b>Note:</b><br><ol>
+<code>intervals</code> will have length in range <code>[1, 3000]</code>.
+<code>intervals[i]</code> will have length <code>2</code>, representing some integer interval.
+<code>intervals[i][j]</code> will be an integer in <code>[0, 10^8]</code>.
+</ol>

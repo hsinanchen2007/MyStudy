@@ -1,0 +1,55 @@
+### 解题思路
+js没有队列，所以用数组来实现，利用数组本身的属性push、pop等即可实现。主要的问题在于理解数组的末尾是栈顶。
+
+### 代码
+
+```javascript
+/**
+ * Initialize your data structure here.
+ */
+var MyStack = function() {
+    this.list = new Array();
+};
+
+/**
+ * Push element x onto stack. 
+ * @param {number} x
+ * @return {void}
+ */
+MyStack.prototype.push = function(x) {
+    this.list.push(x);
+};
+
+/**
+ * Removes the element on top of the stack and returns that element.
+ * @return {number}
+ */
+MyStack.prototype.pop = function() {
+    return this.list.pop();
+};
+
+/**
+ * Get the top element.
+ * @return {number}
+ */
+MyStack.prototype.top = function() {
+    return this.list[this.list.length - 1];
+};
+
+/**
+ * Returns whether the stack is empty.
+ * @return {boolean}
+ */
+MyStack.prototype.empty = function() {
+    return this.list.length == 0 ? true : false;
+};
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * var obj = new MyStack()
+ * obj.push(x)
+ * var param_2 = obj.pop()
+ * var param_3 = obj.top()
+ * var param_4 = obj.empty()
+ */
+```

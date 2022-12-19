@@ -1,0 +1,78 @@
+dice-roll-simulation
+有一个骰子模拟器会每次投掷的时候生成一个 1 到 6 的随机数。
+
+不过我们在使用它时有个约束，就是使得投掷骰子时，<strong>连续</strong> 掷出数字<code>i</code>的次数不能超过<code>rollMax[i]</code>（<code>i</code>从 1 开始编号）。
+
+现在，给你一个整数数组<code>rollMax</code>和一个整数<code>n</code>，请你来计算掷<code>n</code>次骰子可得到的不同点数序列的数量。
+
+假如两个序列中至少存在一个元素不同，就认为这两个序列是不同的。由于答案可能很大，所以请返回 <strong>模<code>10^9 + 7</code></strong>之后的结果。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>n = 2, rollMax = [1,1,2,2,2,3]
+<strong>输出：</strong>34
+<strong>解释：</strong>我们掷 2 次骰子，如果没有约束的话，共有 6 * 6 = 36 种可能的组合。但是根据 rollMax 数组，数字 1 和 2 最多连续出现一次，所以不会出现序列 (1,1) 和 (2,2)。因此，最终答案是 36-2 = 34。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 2, rollMax = [1,1,1,1,1,1]
+<strong>输出：</strong>30
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>n = 3, rollMax = [1,1,1,2,2,3]
+<strong>输出：</strong>181
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 5000</code>
+	<code>rollMax.length == 6</code>
+	<code>1 &lt;= rollMax[i] &lt;= 15</code>
+</ul>
+
+掷骰子模拟
+A die simulator generates a random number from 1 to 6 for each roll.You introduced a constraint to the generator such that it cannot roll the number <code>i</code> more than <code>rollMax[i]</code> (1-indexed) <strong>consecutive</strong> times.
+
+Given an array of integers<code>rollMax</code>and an integer<code>n</code>, return the number of distinct sequences that can be obtained with exact <code>n</code> rolls.
+
+Two sequences are considered different if at least one element differs from each other. Since the answermay be too large,return it modulo <code>10^9 + 7</code>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> n = 2, rollMax = [1,1,2,2,2,3]
+<strong>Output:</strong> 34
+<strong>Explanation:</strong> There will be 2 rolls of die, if there are no constraints on the die, there are 6 * 6 = 36 possible combinations. In this case, looking at rollMax array, the numbers 1 and 2 appear at most once consecutively, therefore sequences (1,1) and (2,2) cannot occur, so the final answer is 36-2 = 34.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 2, rollMax = [1,1,1,1,1,1]
+<strong>Output:</strong> 30
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> n = 3, rollMax = [1,1,1,2,2,3]
+<strong>Output:</strong> 181
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 5000</code>
+	<code>rollMax.length == 6</code>
+	<code>1 &lt;= rollMax[i] &lt;= 15</code>
+</ul>

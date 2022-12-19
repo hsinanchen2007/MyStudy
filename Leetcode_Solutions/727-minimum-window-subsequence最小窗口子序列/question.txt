@@ -1,0 +1,52 @@
+minimum-window-subsequence
+给定字符串 <code>S</code> and <code>T</code>，找出 <code>S</code> 中最短的（连续）<strong>子串</strong> <code>W</code> ，使得 <code>T</code> 是 <code>W</code> 的 <strong>子序列</strong> 。
+
+如果 <code>S</code> 中没有窗口可以包含 <code>T</code> 中的所有字符，返回空字符串 <code>&quot;&quot;</code>。如果有不止一个最短长度的窗口，返回开始位置最靠左的那个。
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>
+S = &quot;abcdebdde&quot;, T = &quot;bde&quot;
+<strong>输出：</strong>&quot;bcde&quot;
+<strong>解释：</strong>
+&quot;bcde&quot; 是答案，因为它在相同长度的字符串 &quot;bdde&quot; 出现之前。
+&quot;deb&quot; 不是一个更短的答案，因为在窗口中必须按顺序出现 T 中的元素。</pre>
+
+
+
+<strong>注：</strong>
+
+<ul>
+	所有输入的字符串都只包含小写字母。All the strings in the input will only contain lowercase letters.
+	<code>S</code>长度的范围为<code>[1, 20000]</code>。
+	<code>T</code>长度的范围为<code>[1, 100]</code>。
+</ul>
+
+
+
+最小窗口子序列
+Given strings <code>S</code> and <code>T</code>, find the minimum (contiguous) <b>substring</b> <code>W</code> of <code>S</code>, so that <code>T</code> is a <b>subsequence</b> of <code>W</code>.
+
+If there is no such window in <code>S</code> that covers all characters in <code>T</code>, return the empty string <code>&quot;&quot;</code>. If there are multiple such minimum-length windows, return the one with the left-most starting index.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> 
+S = &quot;abcdebdde&quot;, T = &quot;bde&quot;
+<b>Output:</b> &quot;bcde&quot;
+<b>Explanation:</b> 
+&quot;bcde&quot; is the answer because it occurs before &quot;bdde&quot; which has the same length.
+&quot;deb&quot; is not a smaller window because the elements of T in the window must occur in order.
+</pre>
+
+
+
+<b>Note:</b>
+
+<ul>
+	All the strings in the input will only contain lowercase letters.
+	The length of <code>S</code> will be in the range <code>[1, 20000]</code>.
+	The length of <code>T</code> will be in the range <code>[1, 100]</code>.
+</ul>
+

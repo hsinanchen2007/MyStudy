@@ -1,0 +1,83 @@
+stamping-the-sequence
+你想要用<strong>小写字母</strong>组成一个目标字符串<code>target</code>。
+
+开始的时候，序列由<code>target.length</code>个<code>&#39;?&#39;</code>记号组成。而你有一个小写字母印章<code>stamp</code>。
+
+在每个回合，你可以将印章放在序列上，并将序列中的每个字母替换为印章上的相应字母。你最多可以进行<code>10 * target.length</code> 个回合。
+
+举个例子，如果初始序列为 &quot;?????&quot;，而你的印章 <code>stamp</code>是<code>&quot;abc&quot;</code>，那么在第一回合，你可以得到&quot;abc??&quot;、&quot;?abc?&quot;、&quot;??abc&quot;。（请注意，印章必须完全包含在序列的边界内才能盖下去。）
+
+如果可以印出序列，那么返回一个数组，该数组由每个回合中被印下的最左边字母的索引组成。如果不能印出序列，就返回一个空数组。
+
+例如，如果序列是 &quot;ababc&quot;，印章是 <code>&quot;abc&quot;</code>，那么我们就可以返回与操作&quot;?????&quot; -&gt; &quot;abc??&quot; -&gt; &quot;ababc&quot; 相对应的答案 <code>[0, 2]</code>；
+
+另外，如果可以印出序列，那么需要保证可以在 <code>10 * target.length</code>个回合内完成。任何超过此数字的答案将不被接受。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>stamp = &quot;abc&quot;, target = &quot;ababc&quot;
+<strong>输出：</strong>[0,2]
+（[1,0,2] 以及其他一些可能的结果也将作为答案被接受）
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>stamp = &quot;abca&quot;, target = &quot;aabcaca&quot;
+<strong>输出：</strong>[3,0,1]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= stamp.length &lt;= target.length &lt;= 1000</code>
+	<code>stamp</code> 和<code>target</code>只包含小写字母。
+</ol>
+
+戳印序列
+You want to form a <code>target</code>string of <strong>lowercase letters</strong>.
+
+At the beginning, your sequence is <code>target.length</code><code>&#39;?&#39;</code> marks. You also have a <code>stamp</code>of lowercase letters.
+
+On each turn, you may place the stamp over the sequence, and replace every letter in the sequence with the corresponding letter from the stamp. You can make up to <code>10 * target.length</code> turns.
+
+For example, if the initial sequence is <font face="monospace">&quot;?????&quot;</font>, and your stamp is <code>&quot;abc&quot;</code>, then you may make <font face="monospace">&quot;abc??&quot;, &quot;?abc?&quot;, &quot;??abc&quot;</font>in the first turn. (Note that the stamp must be fully contained in the boundaries of the sequence in order to stamp.)
+
+If the sequence is possible to stamp, then return an array ofthe index of the left-most letter being stamped at each turn. If the sequence is not possible to stamp, return an empty array.
+
+For example, if the sequence is <font face="monospace">&quot;ababc&quot;</font>, and the stamp is <code>&quot;abc&quot;</code>, then we could return the answer <code>[0, 2]</code>, corresponding to the moves <font face="monospace">&quot;?????&quot; -&gt; &quot;abc??&quot; -&gt; &quot;ababc&quot;</font>.
+
+Also, if the sequence is possible to stamp, it is guaranteed it is possible to stamp within <code>10 * target.length</code>moves. Any answers specifying more than this number of moveswill not be accepted.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>stamp = <span id="example-input-1-1">&quot;abc&quot;</span>, target = <span id="example-input-1-2">&quot;ababc&quot;</span>
+<strong>Output: </strong><span id="example-output-1">[0,2]</span>
+([1,0,2] would also be accepted as an answer, as well as some other answers.)
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>stamp = <span id="example-input-2-1">&quot;</span><span id="example-input-2-2">abca</span><span>&quot;</span>, target = <span id="example-input-2-2">&quot;</span><span>aabcaca&quot;</span>
+<strong>Output: </strong><span id="example-output-2">[3,0,1]</span>
+</pre>
+
+<div>
+
+
+<strong>Note:</strong>
+</div>
+</div>
+
+<ol>
+	<code>1 &lt;= stamp.length &lt;= target.length &lt;= 1000</code>
+	<code>stamp</code> and <code>target</code> only contain lowercase letters.
+</ol>

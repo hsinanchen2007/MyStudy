@@ -1,0 +1,68 @@
+design-hashset
+不使用任何内建的哈希表库设计一个哈希集合
+
+具体地说，你的设计应该包含以下的功能
+
+<ul>
+	<code>add(value)</code>：向哈希集合中插入一个值。
+	<code>contains(value)</code> ：返回哈希集合中是否存在这个值。
+	<code>remove(value)</code>：将给定值从哈希集合中删除。如果哈希集合中没有这个值，什么也不做。
+</ul>
+
+<br>
+<strong>示例:</strong>
+
+<pre>MyHashSet hashSet = new MyHashSet();
+hashSet.add(1);     
+hashSet.add(2);     
+hashSet.contains(1); // 返回 true
+hashSet.contains(3); // 返回 false (未找到)
+hashSet.add(2);     
+hashSet.contains(2); // 返回 true
+hashSet.remove(2);     
+hashSet.contains(2); // 返回  false (已经被删除)
+</pre>
+
+<br>
+<strong>注意：</strong>
+
+<ul>
+	所有的值都在<code>[0, 1000000]</code>的范围内。
+	操作的总数目在<code>[1, 10000]</code>范围内。
+	不要使用内建的哈希集合库。
+</ul>
+
+设计哈希集合
+Design a HashSetwithout using any built-in hash table libraries.
+
+To be specific, your design should include these functions:
+
+<ul>
+	<code>add(value)</code>:Insert a value into the HashSet.
+	<code>contains(value)</code> : Return whether the value exists in the HashSet or not.
+	<code>remove(value)</code>: Remove a value inthe HashSet. If the value does not exist in the HashSet, do nothing.
+</ul>
+
+<br />
+<strong>Example:</strong>
+
+<pre>
+MyHashSet hashSet = new MyHashSet();
+hashSet.add(1);     
+hashSet.add(2);     
+hashSet.contains(1); // returns true
+hashSet.contains(3); // returns false (not found)
+hashSet.add(2);     
+hashSet.contains(2); // returns true
+hashSet.remove(2);     
+hashSet.contains(2); // returns false (already removed)
+</pre>
+
+<br />
+<strong>Note:</strong>
+
+<ul>
+	All values will be in the range of <code>[0, 1000000]</code>.
+	The number of operations will be in the range of<code>[1, 10000]</code>.
+	Please do not use the built-in HashSet library.
+</ul>

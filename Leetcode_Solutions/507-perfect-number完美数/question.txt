@@ -1,0 +1,36 @@
+perfect-number
+对于一个<strong>正整数</strong>，如果它和除了它自身以外的所有正因子之和相等，我们称它为&ldquo;完美数&rdquo;。
+
+给定一个<strong>整数</strong><code>n</code>，如果他是完美数，返回<code>True</code>，否则返回<code>False</code>
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入:</strong> 28
+<strong>输出:</strong> True
+<strong>解释:</strong> 28 = 1 + 2 + 4 + 7 + 14
+</pre>
+
+
+
+<strong>提示：</strong>
+
+输入的数字<strong><code>n</code></strong> 不会超过 100,000,000. (1e8)
+
+完美数
+We define the Perfect Number is a <b>positive</b> integer that is equal to the sum of all its <b>positive</b> divisors except itself. 
+
+Now, given an <b>integer</b> n, write a function that returns true when it is a perfect number and false when it is not.
+
+
+<b>Example:</b><br />
+<pre>
+<b>Input:</b> 28
+<b>Output:</b> True
+<b>Explanation:</b> 28 = 1 + 2 + 4 + 7 + 14
+</pre>
+
+
+<b>Note:</b>
+The input number <b>n</b> will not exceed 100,000,000. (1e8)

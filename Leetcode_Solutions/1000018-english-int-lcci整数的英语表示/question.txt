@@ -1,0 +1,51 @@
+english-int-lcci
+给定一个整数，打印该整数的英文描述。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> 123
+<strong>输出:</strong> &quot;One Hundred Twenty Three&quot;
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> 12345
+<strong>输出:</strong> &quot;Twelve Thousand Three Hundred Forty Five&quot;</pre>
+
+<strong>示例 3:</strong>
+
+<pre><strong>输入:</strong> 1234567
+<strong>输出:</strong> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;</pre>
+
+<strong>示例 4:</strong>
+
+<pre><strong>输入:</strong> 1234567891
+<strong>输出:</strong> &quot;One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One&quot;</pre>
+
+整数的英语表示
+Given any integer, print an English phrase that describes the integer (e.g., &quot;One Thousand Two Hundred Thirty Four&quot;).
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> 123
+<strong>Output:</strong> &quot;One Hundred Twenty Three&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> 12345
+<strong>Output:</strong> &quot;Twelve Thousand Three Hundred Forty Five&quot;</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> 1234567
+<strong>Output:</strong> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> 1234567891
+<strong>Output:</strong> &quot;One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One&quot;</pre>

@@ -1,0 +1,99 @@
+robot-bounded-in-circle
+在无限的平面上，机器人最初位于<code>(0, 0)</code>处，面朝北方。机器人可以接受下列三条指令之一：
+
+<ul>
+	<code>&quot;G&quot;</code>：直走 1 个单位
+	<code>&quot;L&quot;</code>：左转 90 度
+	<code>&quot;R&quot;</code>：右转 90 度
+</ul>
+
+机器人按顺序执行指令<code>instructions</code>，并一直重复它们。
+
+只有在平面中存在环使得机器人永远无法离开时，返回<code>true</code>。否则，返回 <code>false</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;GGLLGG&quot;
+<strong>输出：</strong>true
+<strong>解释：</strong>
+机器人从 (0,0) 移动到 (0,2)，转 180 度，然后回到 (0,0)。
+重复这些指令，机器人将保持在以原点为中心，2 为半径的环中进行移动。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;GG&quot;
+<strong>输出：</strong>false
+<strong>解释：</strong>
+机器人无限向北移动。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>&quot;GL&quot;
+<strong>输出：</strong>true
+<strong>解释：</strong>
+机器人按 (0, 0) -&gt; (0, 1) -&gt; (-1, 1) -&gt; (-1, 0) -&gt; (0, 0) -&gt; ... 进行移动。</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= instructions.length &lt;= 100</code>
+	<code>instructions[i]</code> 在<code>{&#39;G&#39;, &#39;L&#39;, &#39;R&#39;}</code>中
+</ol>
+
+困于环中的机器人
+On an infinite plane, arobot initially stands at <code>(0, 0)</code> and faces north.The robot can receive one of three instructions:
+
+<ul>
+	<code>&quot;G&quot;</code>: go straight 1 unit;
+	<code>&quot;L&quot;</code>: turn 90 degrees to the left;
+	<code>&quot;R&quot;</code>: turn 90 degress to the right.
+</ul>
+
+The robot performs the <code>instructions</code> given in order, and repeats them forever.
+
+Return <code>true</code> if and only if there exists a circle in the plane such that the robot never leaves the circle.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>&quot;GGLLGG&quot;
+<strong>Output: </strong>true
+<strong>Explanation: </strong>
+The robot moves from (0,0) to (0,2), turns 180 degrees, and then returns to (0,0).
+When repeating these instructions, the robot remains in the circle of radius 2 centered at the origin.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>&quot;GG&quot;
+<strong>Output: </strong>false
+<strong>Explanation: </strong>
+The robot moves north indefinitely.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong>&quot;GL&quot;
+<strong>Output: </strong>true
+<strong>Explanation: </strong>
+The robot moves from (0, 0) -&gt; (0, 1) -&gt; (-1, 1) -&gt; (-1, 0) -&gt; (0, 0) -&gt; ...
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= instructions.length &lt;= 100</code>
+	<code>instructions[i]</code> is in <code>{&#39;G&#39;, &#39;L&#39;, &#39;R&#39;}</code>
+</ol>

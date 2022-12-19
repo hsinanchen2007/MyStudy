@@ -1,0 +1,72 @@
+number-of-substrings-containing-all-three-characters
+给你一个字符串 <code>s</code>，它只包含三种字符 a, b 和 c 。
+
+请你返回 a，b 和 c 都<strong>至少</strong>出现过一次的子字符串数目。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;abcabc&quot;
+<strong>输出：</strong>10
+<strong>解释：</strong>包含 a，b 和 c 各至少一次的子字符串为<em> &quot;</em>abc<em>&quot;, &quot;</em>abca<em>&quot;, &quot;</em>abcab<em>&quot;, &quot;</em>abcabc<em>&quot;, &quot;</em>bca<em>&quot;, &quot;</em>bcab<em>&quot;, &quot;</em>bcabc<em>&quot;, &quot;</em>cab<em>&quot;, &quot;</em>cabc<em>&quot; </em>和<em> &quot;</em>abc<em>&quot; </em>(<strong>相同</strong><strong>字符串算多次</strong>)<em>。</em>
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;aaacb&quot;
+<strong>输出：</strong>3
+<strong>解释：</strong>包含 a，b 和 c 各至少一次的子字符串为<em> &quot;</em>aaacb<em>&quot;, &quot;</em>aacb<em>&quot; </em>和<em> &quot;</em>acb<em>&quot; 。</em>
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;abc&quot;
+<strong>输出：</strong>1
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>3 &lt;= s.length &lt;= 5 x 10^4</code>
+	<code>s</code>只包含字符 a，b 和 c 。
+</ul>
+
+包含所有三种字符的子字符串数目
+Given a string <code>s</code>consisting only of characters <em>a</em>, <em>b</em> and <em>c</em>.
+
+Return the number of substrings containing <b>at least</b>one occurrence of all these characters <em>a</em>, <em>b</em> and <em>c</em>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;abcabc&quot;
+<strong>Output:</strong> 10
+<strong>Explanation:</strong> The substrings containingat leastone occurrence of the characters<em>a</em>,<em>b</em>and<em>c are &quot;</em>abc<em>&quot;, &quot;</em>abca<em>&quot;, &quot;</em>abcab<em>&quot;, &quot;</em>abcabc<em>&quot;, &quot;</em>bca<em>&quot;, &quot;</em>bcab<em>&quot;, &quot;</em>bcabc<em>&quot;, &quot;</em>cab<em>&quot;, &quot;</em>cabc<em>&quot; </em>and<em> &quot;</em>abc<em>&quot; </em>(<strong>again</strong>)<em>. </em>
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;aaacb&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The substrings containingat leastone occurrence of the characters<em>a</em>,<em>b</em>and<em>c are &quot;</em>aaacb<em>&quot;, &quot;</em>aacb<em>&quot; </em>and<em> &quot;</em>acb<em>&quot;.</em><em> </em>
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;abc&quot;
+<strong>Output:</strong> 1
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>3 &lt;= s.length &lt;= 5 x 10^4</code>
+	<code>s</code>only consists of<em>a</em>, <em>b</em> or <em>c</em>characters.
+</ul>

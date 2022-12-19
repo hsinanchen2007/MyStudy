@@ -1,0 +1,82 @@
+longest-mountain-in-array
+我们把数组 A 中符合下列属性的任意连续子数组 B 称为 &ldquo;<em>山脉&rdquo;</em>：
+
+<ul>
+	<code>B.length &gt;= 3</code>
+	存在 <code>0 &lt; i&lt; B.length - 1</code> 使得 <code>B[0] &lt; B[1] &lt; ... B[i-1] &lt; B[i] &gt; B[i+1] &gt; ... &gt; B[B.length - 1]</code>
+</ul>
+
+（注意：B 可以是 A 的任意子数组，包括整个数组 A。）
+
+给出一个整数数组 <code>A</code>，返回最长 <em>&ldquo;山脉&rdquo;</em>的长度。
+
+如果不含有 &ldquo;<em>山脉&rdquo;</em>则返回 <code>0</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[2,1,4,7,3,2,5]
+<strong>输出：</strong>5
+<strong>解释：</strong>最长的 &ldquo;山脉&rdquo; 是 [1,4,7,3,2]，长度为 5。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[2,2,2]
+<strong>输出：</strong>0
+<strong>解释：</strong>不含 &ldquo;山脉&rdquo;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= A.length &lt;= 10000</code>
+	<code>0 &lt;= A[i] &lt;= 10000</code>
+</ol>
+
+数组中的最长山脉
+Let&#39;s call any (contiguous) subarray B (of A)a <em>mountain</em> if the following properties hold:
+
+<ul>
+	<code>B.length &gt;= 3</code>
+	There exists some <code>0 &lt; i&lt; B.length - 1</code> such that <code>B[0] &lt; B[1] &lt; ... B[i-1] &lt; B[i] &gt; B[i+1] &gt; ... &gt; B[B.length - 1]</code>
+</ul>
+
+(Note that B could be any subarray of A, including the entire array A.)
+
+Given an array <code>A</code>of integers,return the length of the longest<em>mountain</em>.
+
+Return <code>0</code> if there is no mountain.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>[2,1,4,7,3,2,5]
+<strong>Output: </strong>5
+<strong>Explanation: </strong>The largest mountain is [1,4,7,3,2] which has length 5.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>[2,2,2]
+<strong>Output: </strong>0
+<strong>Explanation: </strong>There is no mountain.
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= A.length &lt;= 10000</code>
+	<code>0 &lt;= A[i] &lt;= 10000</code>
+</ol>
+
+<strong>Follow up:</strong>
+
+<ul>
+	Can you solve it using only one pass?
+	Can you solve it in <code>O(1)</code> space?
+</ul>

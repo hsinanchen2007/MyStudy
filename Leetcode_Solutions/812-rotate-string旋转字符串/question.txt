@@ -1,0 +1,40 @@
+rotate-string
+给定两个字符串, <code>A</code>和<code>B</code>。
+
+<code>A</code>的旋转操作就是将<code>A</code> 最左边的字符移动到最右边。例如, 若<code>A = &#39;abcde&#39;</code>，在移动一次之后结果就是<code>&#39;bcdea&#39;</code>。如果在若干次旋转操作之后，<code>A</code>能变成<code>B</code>，那么返回<code>True</code>。
+
+<pre>
+<strong>示例 1:</strong>
+<strong>输入:</strong> A = &#39;abcde&#39;, B = &#39;cdeab&#39;
+<strong>输出:</strong> true
+
+<strong>示例 2:</strong>
+<strong>输入:</strong> A = &#39;abcde&#39;, B = &#39;abced&#39;
+<strong>输出:</strong> false</pre>
+
+<strong>注意：</strong>
+
+<ul>
+	<code>A</code> 和<code>B</code>长度不超过<code>100</code>。
+</ul>
+
+旋转字符串
+We are given two strings, <code>A</code> and <code>B</code>.
+
+A <em>shift on <code>A</code></em> consists of taking string <code>A</code> and moving the leftmost character to the rightmost position. For example, if <code>A = &#39;abcde&#39;</code>, then it will be <code>&#39;bcdea&#39;</code> after one shift on <code>A</code>. Return <code>True</code> if and only if <code>A</code> can become <code>B</code> after some number of shifts on <code>A</code>.
+
+<pre>
+<strong>Example 1:</strong>
+<strong>Input:</strong> A = &#39;abcde&#39;, B = &#39;cdeab&#39;
+<strong>Output:</strong> true
+
+<strong>Example 2:</strong>
+<strong>Input:</strong> A = &#39;abcde&#39;, B = &#39;abced&#39;
+<strong>Output:</strong> false
+</pre>
+
+<strong>Note:</strong>
+
+<ul>
+	<code>A</code> and <code>B</code> will have length at most <code>100</code>.
+</ul>

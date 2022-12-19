@@ -1,0 +1,42 @@
+master-mind-lcci
+珠玑妙算游戏（the game of master mind）的玩法如下。
+计算机有4个槽，每个槽放一个球，颜色可能是红色（R）、黄色（Y）、绿色（G）或蓝色（B）。例如，计算机可能有RGGB 4种（槽1为红色，槽2、3为绿色，槽4为蓝色）。作为用户，你试图猜出颜色组合。打个比方，你可能会猜YRGB。要是猜对某个槽的颜色，则算一次“猜中”；要是只猜对颜色但槽位猜错了，则算一次“伪猜中”。注意，“猜中”不能算入“伪猜中”。
+给定一种颜色组合<code>solution</code>和一个猜测<code>guess</code>，编写一个方法，返回猜中和伪猜中的次数<code>answer</code>，其中<code>answer[0]</code>为猜中的次数，<code>answer[1]</code>为伪猜中的次数。
+<strong>示例：</strong>
+<pre><strong>输入：</strong> solution="RGBY",guess="GGRR"
+<strong>输出：</strong> [1,1]
+<strong>解释：</strong> 猜中1次，伪猜中1次。
+</pre>
+<strong>提示：</strong>
+<ul>
+<code>len(solution) = len(guess) = 4</code>
+<code>solution</code>和<code>guess</code>仅包含<code>"R"</code>,<code>"G"</code>,<code>"B"</code>,<code>"Y"</code>这4种字符
+</ul>
+
+珠玑妙算
+The Game of Master Mind is played as follows:
+
+The computer has four slots, and each slot will contain a ball that is red (R). yellow (Y). green (G) or blue (B). For example, the computer might have RGGB (Slot #1 is red, Slots #2 and #3 are green, Slot #4 is blue).
+
+You, the user, are trying to guess the solution. You might, for example, guess YRGB.
+
+When you guess the correct color for the correct slot, you get a &quot;hit:&#39; If you guess a color that exists but is in the wrong slot, you get a &quot;pseudo-hit:&#39; Note that a slot that is a hit can never count as a pseudo-hit.
+
+For example, if the actual solution is RGBY and you guess GGRR, you have one hit and one pseudo-hit. Write a method that, given a guess and a solution, returns the number of hits and pseudo-hits.
+
+Given a sequence of colors <code>solution</code>, and a <code>guess</code>, write a method that return the number of hits and pseudo-hit <code>answer</code>, where <code>answer[0]</code> is the number of hits and <code>answer[1]</code> is the number of pseudo-hit.
+
+<strong>Example: </strong>
+
+<pre>
+<strong>Input: </strong> solution=&quot;RGBY&quot;,guess=&quot;GGRR&quot;
+<strong>Output: </strong> [1,1]
+<strong>Explanation: </strong> hit once, pseudo-hit once.
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>len(solution) = len(guess) = 4</code>
+	There are only <code>&quot;R&quot;</code>,<code>&quot;G&quot;</code>,<code>&quot;B&quot;</code>,<code>&quot;Y&quot;</code> in <code>solution</code>and<code>guess</code>.
+</ul>

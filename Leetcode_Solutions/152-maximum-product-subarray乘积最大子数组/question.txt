@@ -1,0 +1,35 @@
+maximum-product-subarray
+给你一个整数数组 <code>nums</code>，请你找出数组中乘积最大的连续子数组（该子数组中至少包含一个数字）。
+
+
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> [2,3,-2,4]
+<strong>输出:</strong> <code>6</code>
+<strong>解释:</strong>子数组 [2,3] 有最大乘积 6。
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> [-2,0,-1]
+<strong>输出:</strong> 0
+<strong>解释:</strong>结果不能为 2, 因为 [-2,-1] 不是子数组。</pre>
+
+乘积最大子数组
+Given an integer array<code>nums</code>, find the contiguous subarray within an array (containing at least one number) which has the largest product.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> [2,3,-2,4]
+<strong>Output:</strong> <code>6</code>
+<strong>Explanation:</strong>[2,3] has the largest product 6.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> [-2,0,-1]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong>The result cannot be 2, because [-2,-1] is not a subarray.</pre>

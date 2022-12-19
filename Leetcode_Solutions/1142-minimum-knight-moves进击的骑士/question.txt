@@ -1,0 +1,69 @@
+minimum-knight-moves
+一个坐标可以从 <code>-infinity</code>延伸到<code>+infinity</code>的 <strong>无限大的</strong>棋盘上，你的 <strong>骑士</strong>驻扎在坐标为<code>[0, 0]</code>的方格里。
+
+骑士的走法和中国象棋中的马相似，走 &ldquo;日&rdquo; 字：即先向左（或右）走 1 格，再向上（或下）走 2 格；或先向左（或右）走 2 格，再向上（或下）走 1 格。
+
+每次移动，他都可以按图示八个方向之一前进。
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/09/21/knight.png" style="height: 200px; width: 200px;">
+
+现在，骑士需要前去征服坐标为<code>[x, y]</code>的部落，请你为他规划路线。
+
+最后返回所需的最小移动次数即可。本题确保答案是一定存在的。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>x = 2, y = 1
+<strong>输出：</strong>1
+<strong>解释：</strong>[0, 0] &rarr; [2, 1]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>x = 5, y = 5
+<strong>输出：</strong>4
+<strong>解释：</strong>[0, 0] &rarr; [2, 1] &rarr; [4, 2] &rarr; [3, 4] &rarr; [5, 5]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>|x| + |y| &lt;= 300</code>
+</ul>
+
+进击的骑士
+In an <strong>infinite</strong> chess board with coordinates from <code>-infinity</code>to <code>+infinity</code>, you have a <strong>knight</strong> at square<code>[0, 0]</code>.
+
+Aknight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction, then one square in an orthogonal direction.
+
+<img src="https://assets.leetcode.com/uploads/2018/10/12/knight.png" style="height: 200px; width: 200px;" />
+
+Return theminimum number of steps needed to move the knight to the square <code>[x, y]</code>. It is guaranteed the answer exists.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> x = 2, y = 1
+<strong>Output:</strong> 1
+<strong>Explanation: </strong>[0, 0] &rarr; [2, 1]
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> x = 5, y = 5
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>[0, 0] &rarr; [2, 1] &rarr; [4, 2] &rarr; [3, 4] &rarr; [5, 5]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>|x| + |y| &lt;= 300</code>
+</ul>

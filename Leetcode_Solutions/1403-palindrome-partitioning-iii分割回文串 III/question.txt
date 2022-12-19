@@ -1,0 +1,82 @@
+palindrome-partitioning-iii
+给你一个由小写字母组成的字符串<code>s</code>，和一个整数<code>k</code>。
+
+请你按下面的要求分割字符串：
+
+<ul>
+	首先，你可以将<code>s</code>中的部分字符修改为其他的小写英文字母。
+	接着，你需要把<code>s</code>分割成<code>k</code>个非空且不相交的子串，并且每个子串都是回文串。
+</ul>
+
+请返回以这种方式分割字符串所需修改的最少字符数。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;abc&quot;, k = 2
+<strong>输出：</strong>1
+<strong>解释：</strong>你可以把字符串分割成 &quot;ab&quot; 和 &quot;c&quot;，并修改 &quot;ab&quot; 中的 1 个字符，将它变成回文串。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;aabbc&quot;, k = 3
+<strong>输出：</strong>0
+<strong>解释：</strong>你可以把字符串分割成 &quot;aa&quot;、&quot;bb&quot; 和 &quot;c&quot;，它们都是回文串。</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;leetcode&quot;, k = 8
+<strong>输出：</strong>0
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= k &lt;= s.length &lt;= 100</code>
+	<code>s</code>中只含有小写英文字母。
+</ul>
+
+分割回文串 III
+You are given a string<code>s</code> containing lowercase letters and an integer <code>k</code>. You need to :
+
+<ul>
+	First, change some characters of <code>s</code>to other lowercase English letters.
+	Then divide <code>s</code>into <code>k</code> non-empty disjoint substrings such that each substring is palindrome.
+</ul>
+
+Return the minimal number of characters that you need to changeto divide the string.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;abc&quot;, k = 2
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>You can split the string into &quot;ab&quot; and &quot;c&quot;, and change 1 character in &quot;ab&quot; to make it palindrome.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;aabbc&quot;, k = 3
+<strong>Output:</strong> 0
+<strong>Explanation:</strong>You can split the string into &quot;aa&quot;, &quot;bb&quot; and &quot;c&quot;, all of them are palindrome.</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;leetcode&quot;, k = 8
+<strong>Output:</strong> 0
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= k &lt;= s.length &lt;= 100</code>.
+	<code>s</code>only contains lowercase English letters.
+</ul>

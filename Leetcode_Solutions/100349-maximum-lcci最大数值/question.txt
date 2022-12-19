@@ -1,0 +1,16 @@
+maximum-lcci
+编写一个方法，找出两个数字<code>a</code>和<code>b</code>中最大的那一个。不得使用if-else或其他比较运算符。
+<strong>示例：</strong>
+<pre><strong>输入：</strong> a = 1, b = 2
+<strong>输出：</strong> 2
+</pre>
+
+最大数值
+Write a method that finds the maximum of two numbers. You should not use if-else or any other comparison operator.
+
+<strong>Example: </strong>
+
+<pre>
+<strong>Input: </strong> a = 1, b = 2
+<strong>Output: </strong> 2
+</pre>

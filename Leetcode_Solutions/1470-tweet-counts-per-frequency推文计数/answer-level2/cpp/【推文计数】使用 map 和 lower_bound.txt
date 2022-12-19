@@ -1,0 +1,53 @@
+#### 解题思路：
+
+1. 使用 `map<int, int>` 来保存某时间点的推文数量
+2.  `map` 保证在乱序插入元素时，容器内保存的元素有序排列
+3. 在查找数量时又可以使用 `lower_bound` 二分查找来迅速找到所求元素的区间
+
+
+```C++ []
+class TweetCounts {
+public:
+    TweetCounts() {}
+    
+    void recordTweet(string tweetName, int time) 
+    {
+        record[tweetName][time]++;
+    }
+    
+    vector<int> getTweetCountsPerFrequency(string freq, string tweetName, int startTime, int endTime)
+    {
+        int f = 1;
+        f *= (freq == "minute") ? 60 : 1;
+        f *= (freq == "hour") ? 60 * 60 : 1;
+        f *= (freq == "day") ? 60 * 60 * 24 : 1;
+
+        vector<int> ans;
+        int t = startTime;
+        while (t <= endTime)
+        {
+            auto bg = record[tweetName].lower_bound(t);
+            auto ed = record[tweetName].upper_bound(min(t + f - 1, endTime));
+            int cnt = 0;
+            for (auto it = bg; it != ed; it++)
+            {
+                cnt += it->second;
+            }
+            ans.push_back(cnt);
+            t += f;
+        }
+        return ans;
+    }
+
+private:
+    unordered_map<string, map<int, int>> record;
+};
+```
+
+
+#### 致谢
+
+感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+
+[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+

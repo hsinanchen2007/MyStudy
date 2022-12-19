@@ -1,0 +1,45 @@
+flatten-nested-list-iterator
+给你一个嵌套的整型列表。请你设计一个迭代器，使其能够遍历这个整型列表中的所有整数。
+
+列表中的每一项或者为一个整数，或者是另一个列表。其中列表的元素也可能是整数或是其他列表。
+
+
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>[[1,1],2,[1,1]]
+<strong>输出: </strong>[1,1,2,1,1]
+<strong>解释: </strong>通过重复调用<em>next </em>直到<em>hasNex</em>t 返回 false，<em>next</em>返回的元素的顺序应该是: <code>[1,1,2,1,1]</code>。</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>[1,[4,[6]]]
+<strong>输出: </strong>[1,4,6]
+<strong>解释: </strong>通过重复调用<em>next</em>直到<em>hasNex</em>t 返回 false，<em>next</em>返回的元素的顺序应该是: <code>[1,4,6]</code>。
+</pre>
+
+扁平化嵌套列表迭代器
+Given a nested list of integers, implement an iterator to flatten it.
+
+Each element is either an integer, or a list -- whose elements may also be integers or other lists.
+
+<strong>Example 1:</strong>
+
+<div>
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[1,1],2,[1,1]]</span>
+<strong>Output: </strong><span id="example-output-1">[1,1,2,1,1]
+</span><strong>Explanation: </strong>By calling <i>next</i> repeatedly until <i>hasNext</i> returns false, 
+            the order of elements returned by <i>next</i> should be: <code>[1,1,2,1,1]</code>.</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[1,[4,[6]]]</span>
+<strong>Output: </strong><span id="example-output-2">[1,4,6]
+</span><strong>Explanation: </strong>By calling <i>next</i> repeatedly until <i>hasNext</i> returns false, 
+            the order of elements returned by <i>next</i> should be: <code>[1,4,6]</code>.
+</pre>
+</div>
+</div>

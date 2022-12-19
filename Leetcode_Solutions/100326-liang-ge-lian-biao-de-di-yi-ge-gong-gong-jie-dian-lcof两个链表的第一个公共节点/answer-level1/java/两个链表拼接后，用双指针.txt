@@ -1,0 +1,3 @@
+看图解，很清楚。
+
+![QQ截图20200305002804.png](https://pic.leetcode-cn.com/30bf925a13a6de3864e29d57547d81bbc48b65b4f2e247eeb8262f8650478beb-QQ%E6%88%AA%E5%9B%BE20200305002804.png)

@@ -1,0 +1,23 @@
+delete-middle-node-lcci
+实现一种算法，删除单向链表中间的某个节点（除了第一个和最后一个节点，不一定是中间节点），假定你只能访问该节点。
+
+
+
+<strong>示例：</strong>
+
+<pre>
+<strong>输入：</strong>单向链表a->b->c->d->e->f中的节点c
+<strong>结果：</strong>不返回任何数据，但该链表变为a->b->d->e->f
+</pre>
+
+删除中间节点
+Implement an algorithm to delete a node in the middle (i.e., any node but the first and last node, not necessarily the exact middle) of a singly linked list, given only access to that node.
+
+
+
+<strong>Example: </strong>
+
+<pre>
+<strong>Input: </strong>the node c from the linked list a-&gt;b-&gt;c-&gt;d-&gt;e-&gt;f
+<strong>Output: </strong>nothing is returned, but the new linked list looks like a-&gt;b-&gt;d-&gt;e-&gt;f
+</pre>

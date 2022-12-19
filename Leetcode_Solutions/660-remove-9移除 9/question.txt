@@ -1,0 +1,35 @@
+remove-9
+从 1 开始，移除所有包含数字 9 的所有整数，例如 9，19，29，&hellip;&hellip;
+
+这样就获得了一个新的整数数列：1，2，3，4，5，6，7，8，10，11，&hellip;&hellip;
+
+给定正整数 <code>n</code>，请你返回新数列中第 <code>n</code> 个数字是多少。1 是新数列中的第一个数字。
+
+
+
+<strong>样例 1:</strong>
+
+<pre><strong>输入:</strong> 9
+<strong>输出:</strong> 10
+</pre>
+
+
+
+<strong>注释 ：</strong>n不会超过<code>9 x 10^8</code>。
+
+移除 9
+Start from integer 1, remove any integer that contains 9 such as 9, 19, 29... 
+
+So now, you will have a new integer sequence: 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, ...
+
+Given a positive integer <code>n</code>, you need to return the n-th integer after removing. Note that 1 will be the first integer.
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> 9
+<b>Output:</b> 10
+</pre>
+
+
+
+<b> Hint</b>: n will not exceed <code>9 x 10^8</code>.

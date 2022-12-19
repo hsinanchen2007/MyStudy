@@ -1,0 +1,86 @@
+count-vowels-permutation
+给你一个整数<code>n</code>，请你帮忙统计一下我们可以按下述规则形成多少个长度为<code>n</code>的字符串：
+
+<ul>
+	字符串中的每个字符都应当是小写元音字母（<code>&#39;a&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;i&#39;</code>, <code>&#39;o&#39;</code>, <code>&#39;u&#39;</code>）
+	每个元音<code>&#39;a&#39;</code>后面都只能跟着<code>&#39;e&#39;</code>
+	每个元音<code>&#39;e&#39;</code>后面只能跟着<code>&#39;a&#39;</code>或者是<code>&#39;i&#39;</code>
+	每个元音<code>&#39;i&#39;</code>后面<strong>不能</strong> 再跟着另一个<code>&#39;i&#39;</code>
+	每个元音<code>&#39;o&#39;</code>后面只能跟着<code>&#39;i&#39;</code>或者是<code>&#39;u&#39;</code>
+	每个元音<code>&#39;u&#39;</code>后面只能跟着<code>&#39;a&#39;</code>
+</ul>
+
+由于答案可能会很大，所以请你返回 模<code>10^9 + 7</code>之后的结果。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>n = 1
+<strong>输出：</strong>5
+<strong>解释：</strong>所有可能的字符串分别是：&quot;a&quot;, &quot;e&quot;, &quot;i&quot; , &quot;o&quot; 和 &quot;u&quot;。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 2
+<strong>输出：</strong>10
+<strong>解释：</strong>所有可能的字符串分别是：&quot;ae&quot;, &quot;ea&quot;, &quot;ei&quot;, &quot;ia&quot;, &quot;ie&quot;, &quot;io&quot;, &quot;iu&quot;, &quot;oi&quot;, &quot;ou&quot; 和 &quot;ua&quot;。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>n = 5
+<strong>输出：</strong>68</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 2 * 10^4</code>
+</ul>
+
+统计元音字母序列的数目
+Given an integer <code>n</code>, your task is to count how many strings of length <code>n</code> can be formed under the following rules:
+
+<ul>
+	Each character is a lower case vowel(<code>&#39;a&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;i&#39;</code>, <code>&#39;o&#39;</code>, <code>&#39;u&#39;</code>)
+	Each vowel<code>&#39;a&#39;</code> may only be followed by an <code>&#39;e&#39;</code>.
+	Each vowel<code>&#39;e&#39;</code> may only be followed by an <code>&#39;a&#39;</code>or an <code>&#39;i&#39;</code>.
+	Each vowel<code>&#39;i&#39;</code> <strong>may not</strong> be followed by another <code>&#39;i&#39;</code>.
+	Each vowel<code>&#39;o&#39;</code> may only be followed by an <code>&#39;i&#39;</code> or a<code>&#39;u&#39;</code>.
+	Each vowel<code>&#39;u&#39;</code> may only be followed by an <code>&#39;a&#39;.</code>
+</ul>
+
+Since the answermay be too large,return it modulo <code>10^9 + 7.</code>
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> n = 1
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> All possible strings are: &quot;a&quot;, &quot;e&quot;, &quot;i&quot; , &quot;o&quot; and &quot;u&quot;.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> 10
+<strong>Explanation:</strong> All possible strings are: &quot;ae&quot;, &quot;ea&quot;, &quot;ei&quot;, &quot;ia&quot;, &quot;ie&quot;, &quot;io&quot;, &quot;iu&quot;, &quot;oi&quot;, &quot;ou&quot; and &quot;ua&quot;.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> n = 5
+<strong>Output:</strong> 68</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 2 * 10^4</code>
+</ul>

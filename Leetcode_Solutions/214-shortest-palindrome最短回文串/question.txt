@@ -1,0 +1,29 @@
+shortest-palindrome
+给定一个字符串 <em><strong>s</strong></em>，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入: </strong><code>&quot;aacecaaa&quot;</code>
+<strong>输出:</strong> <code>&quot;aaacecaaa&quot;</code>
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong><code>&quot;abcd&quot;</code>
+<strong>输出:</strong> <code>&quot;dcbabcd&quot;</code></pre>
+
+最短回文串
+Given a string <em><b>s</b></em>, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><code>&quot;aacecaaa&quot;</code>
+<strong>Output:</strong> <code>&quot;aaacecaaa&quot;</code>
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><code>&quot;abcd&quot;</code>
+<strong>Output:</strong> <code>&quot;dcbabcd&quot;</code></pre>

@@ -1,0 +1,52 @@
+remove-all-adjacent-duplicates-in-string
+给出由小写字母组成的字符串<code>S</code>，<strong>重复项删除操作</strong>会选择两个相邻且相同的字母，并删除它们。
+
+在 S 上反复执行重复项删除操作，直到无法继续删除。
+
+在完成所有重复项删除操作后返回最终的字符串。答案保证唯一。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>&quot;abbaca&quot;
+<strong>输出：</strong>&quot;ca&quot;
+<strong>解释：</strong>
+例如，在 &quot;abbaca&quot; 中，我们可以删除 &quot;bb&quot; 由于两字母相邻且相同，这是此时唯一可以执行删除操作的重复项。之后我们得到字符串 &quot;aaca&quot;，其中又只有 &quot;aa&quot; 可以执行重复项删除操作，所以最后的字符串为 &quot;ca&quot;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= S.length &lt;= 20000</code>
+	<code>S</code> 仅由小写英文字母组成。
+</ol>
+
+删除字符串中的所有相邻重复项
+Given a string <code>S</code> of lowercase letters, a <em>duplicate removal</em> consists of choosing two adjacent and equal letters, and removingthem.
+
+We repeatedly make duplicate removals on S until we no longer can.
+
+Return the final string after all such duplicate removals have been made. It is guaranteed the answer is unique.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;abbaca&quot;</span>
+<strong>Output: </strong><span id="example-output-1">&quot;ca&quot;</span>
+<strong>Explanation: </strong>
+For example, in &quot;abbaca&quot; we could remove &quot;bb&quot; since the letters are adjacent and equal, and this is the only possible move. The result of this move is that the string is &quot;aaca&quot;, of which only &quot;aa&quot; is possible, so the final string is &quot;ca&quot;.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= S.length &lt;= 20000</code>
+	<code>S</code> consists only of English lowercase letters.
+</ol>

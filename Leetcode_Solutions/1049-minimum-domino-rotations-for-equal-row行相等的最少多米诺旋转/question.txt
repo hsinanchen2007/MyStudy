@@ -1,0 +1,79 @@
+minimum-domino-rotations-for-equal-row
+在一排多米诺骨牌中，<code>A[i]</code> 和 <code>B[i]</code>分别代表第 i 个多米诺骨牌的上半部分和下半部分。（一个多米诺是两个从 1 到 6 的数字同列平铺形成的&mdash;&mdash; 该平铺的每一半上都有一个数字。）
+
+我们可以旋转第<code>i</code>张多米诺，使得<code>A[i]</code> 和<code>B[i]</code>的值交换。
+
+返回能使 <code>A</code> 中所有值或者 <code>B</code> 中所有值都相同的最小旋转次数。
+
+如果无法做到，返回<code>-1</code>.
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/03/08/domino.png" style="height: 161px; width: 200px;">
+
+<pre><strong>输入：</strong>A = [2,1,2,4,2,2], B = [5,2,6,2,3,2]
+<strong>输出：</strong>2
+<strong>解释：</strong>
+图一表示：在我们旋转之前， A 和 B 给出的多米诺牌。
+如果我们旋转第二个和第四个多米诺骨牌，我们可以使上面一行中的每个值都等于 2，如图二所示。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>A = [3,5,1,2,3], B = [3,6,3,3,4]
+<strong>输出：</strong>-1
+<strong>解释：</strong>
+在这种情况下，不可能旋转多米诺牌使一行的值相等。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A[i], B[i] &lt;= 6</code>
+	<code>2 &lt;= A.length == B.length &lt;= 20000</code>
+</ol>
+
+行相等的最少多米诺旋转
+In a row of dominoes, <code>A[i]</code> and <code>B[i]</code> represent the top and bottom halves of the <code>i</code>-th domino. (A domino is a tile with two numbers from 1 to 6 - one on each half of the tile.)
+
+We may rotate the <code>i</code>-th domino, so that <code>A[i]</code> and <code>B[i]</code> swap values.
+
+Return the minimum number of rotations so that all the values in <code>A</code> are the same, or all the values in <code>B</code>are the same.
+
+If it cannot be done, return <code>-1</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/03/08/domino.png" style="height: 161px; width: 200px;" />
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-1-1">[2,1,2,4,2,2]</span>, B = <span id="example-input-1-2">[5,2,6,2,3,2]</span>
+<strong>Output: </strong><span id="example-output-1">2</span>
+<strong>Explanation: </strong>
+The first figure represents the dominoes as given by A and B: before we do any rotations.
+If we rotate the second and fourth dominoes, we can make every value in the top row equal to 2, as indicated by the second figure.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-2-1">[3,5,1,2,3]</span>, B = <span id="example-input-2-2">[3,6,3,3,4]</span>
+<strong>Output: </strong><span id="example-output-2">-1</span>
+<strong>Explanation: </strong>
+In this case, it is not possible to rotate the dominoes to make one row of values equal.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A[i], B[i] &lt;= 6</code>
+	<code>2 &lt;= A.length == B.length &lt;= 20000</code>
+</ol>

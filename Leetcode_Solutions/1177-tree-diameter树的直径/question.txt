@@ -1,0 +1,77 @@
+tree-diameter
+给你这棵「无向树」，请你测算并返回它的「直径」：这棵树上最长简单路径的 <strong>边数</strong>。
+
+我们用一个由所有「边」组成的数组 <code>edges</code>来表示一棵无向树，其中<code>edges[i] = [u, v]</code>表示节点<code>u</code> 和 <code>v</code>之间的双向边。
+
+树上的节点都已经用<code>{0, 1, ..., edges.length}</code>中的数做了标记，每个节点上的标记都是独一无二的。
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/10/31/1397_example_1.png" style="height: 233px; width: 226px;">
+
+<pre><strong>输入：</strong>edges = [[0,1],[0,2]]
+<strong>输出：</strong>2
+<strong>解释：</strong>
+这棵树上最长的路径是 1 - 0 - 2，边数为 2。
+</pre>
+
+<strong>示例 2：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/10/31/1397_example_2.png" style="height: 316px; width: 350px;">
+
+<pre><strong>输入：</strong>edges = [[0,1],[1,2],[2,3],[1,4],[4,5]]
+<strong>输出：</strong>4
+<strong>解释： </strong>
+这棵树上最长的路径是 3 - 2 - 1 - 4 - 5，边数为 4。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>0 &lt;= edges.length &lt;10^4</code>
+	<code>edges[i][0] != edges[i][1]</code>
+	<code>0 &lt;= edges[i][j] &lt;= edges.length</code>
+	<code>edges</code>会形成一棵无向树
+</ul>
+
+树的直径
+Given an undirected tree, returnits diameter: the number of <strong>edges</strong> in a longest path in that tree.
+
+The tree is given as an arrayof<code>edges</code>where <code>edges[i] = [u, v]</code> is a bidirectional edge between nodes<code>u</code> and <code>v</code>. Each node haslabels in the set <code>{0, 1, ..., edges.length}</code>.
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/06/14/1397_example_1.PNG" style="width: 226px; height: 233px;" />
+
+<pre>
+<strong>Input:</strong> edges = [[0,1],[0,2]]
+<strong>Output:</strong> 2
+<strong>Explanation: </strong>
+A longest path of the tree is the path 1 - 0 - 2.
+</pre>
+
+<strong>Example 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/06/14/1397_example_2.PNG" style="width: 350px; height: 316px;" />
+
+<pre>
+<strong>Input:</strong> edges = [[0,1],[1,2],[2,3],[1,4],[4,5]]
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>
+A longest path of the tree is the path 3 - 2 - 1 - 4 - 5.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>0 &lt;= edges.length &lt;10^4</code>
+	<code>edges[i][0] != edges[i][1]</code>
+	<code>0 &lt;= edges[i][j] &lt;= edges.length</code>
+	The given edges form an undirected tree.
+</ul>

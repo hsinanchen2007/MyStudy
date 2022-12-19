@@ -1,0 +1,45 @@
+valid-square
+给定二维空间中四点的坐标，返回四点是否可以构造一个正方形。
+
+一个点的坐标（x，y）由一个有两个整数的整数数组表示。
+
+<strong>示例:</strong>
+
+<pre>
+<strong>输入:</strong> p1 = [0,0], p2 = [1,1], p3 = [1,0], p4 = [0,1]
+<strong>输出:</strong> True
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	所有输入整数都在 [-10000，10000] 范围内。
+	一个有效的正方形有四个等长的正长和四个等角（90度角）。
+	输入点没有顺序。
+</ol>
+
+有效的正方形
+Given the coordinates of four points in 2D space, return whether the four points could construct a square.
+
+The coordinate (x,y) of a point is represented by an integer array with two integers.
+
+<b>Example:</b>
+
+<pre>
+<b>Input:</b> p1 = [0,0], p2 = [1,1], p3 = [1,0], p4 = [0,1]
+<b>Output:</b> True
+</pre>
+
+
+
+Note:
+
+<ol>
+	All the input integers are in the range [-10000, 10000].
+	A valid square has four equal sides with positive length and four equal angles (90-degree angles).
+	Input points have no order.
+</ol>
+
+

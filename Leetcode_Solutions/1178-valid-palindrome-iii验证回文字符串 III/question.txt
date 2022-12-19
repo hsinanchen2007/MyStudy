@@ -1,0 +1,46 @@
+valid-palindrome-iii
+给出一个字符串<code>s</code>和一个整数<code>k</code>，请你帮忙判断这个字符串是不是一个「K 回文」。
+
+所谓「K 回文」：如果可以通过从字符串中删去最多 <code>k</code> 个字符将其转换为回文，那么这个字符串就是一个「K 回文」。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>s = &quot;abcdeca&quot;, k = 2
+<strong>输</strong><strong>出：</strong>true
+<strong>解释：</strong>删除字符 &ldquo;b&rdquo; 和 &ldquo;e&rdquo;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 1000</code>
+	<code>s</code>中只含有小写英文字母
+	<code>1 &lt;= k&lt;= s.length</code>
+</ul>
+
+验证回文字符串 III
+Given a string <code>s</code>and an integer<code>k</code>, find out if the given string isa<em>K-Palindrome</em> or not.
+
+A string is K-Palindrome if it can betransformedinto a palindrome by removing at most <code>k</code> characters from it.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;abcdeca&quot;, k = 2
+<strong>Output:</strong> true
+<strong>Explanation: </strong>Remove &#39;b&#39; and &#39;e&#39; characters.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 1000</code>
+	<code>s</code>has only lowercase English letters.
+	<code>1 &lt;= k&lt;= s.length</code>
+</ul>

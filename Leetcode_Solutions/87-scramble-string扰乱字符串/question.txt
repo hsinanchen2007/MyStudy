@@ -1,0 +1,114 @@
+scramble-string
+给定一个字符串<em>s1</em>，我们可以把它递归地分割成两个非空子字符串，从而将其表示为二叉树。
+
+下图是字符串<em>s1</em>=<code>&quot;great&quot;</code>的一种可能的表示形式。
+
+<pre>    great
+   /    \
+  gr    eat
+ / \    /  \
+g   r  e   at
+           / \
+          a   t
+</pre>
+
+在扰乱这个字符串的过程中，我们可以挑选任何一个非叶节点，然后交换它的两个子节点。
+
+例如，如果我们挑选非叶节点<code>&quot;gr&quot;</code>，交换它的两个子节点，将会产生扰乱字符串<code>&quot;rgeat&quot;</code>。
+
+<pre>    rgeat
+   /    \
+  rg    eat
+ / \    /  \
+r   g  e   at
+           / \
+          a   t
+</pre>
+
+我们将<code>&quot;rgeat&rdquo;</code>称作<code>&quot;great&quot;</code>的一个扰乱字符串。
+
+同样地，如果我们继续交换节点<code>&quot;eat&quot;</code>和<code>&quot;at&quot;</code>的子节点，将会产生另一个新的扰乱字符串<code>&quot;rgtae&quot;</code>。
+
+<pre>    rgtae
+   /    \
+  rg    tae
+ / \    /  \
+r   g  ta  e
+       / \
+      t   a
+</pre>
+
+我们将<code>&quot;rgtae&rdquo;</code>称作<code>&quot;great&quot;</code>的一个扰乱字符串。
+
+给出两个长度相等的字符串 <em>s1 </em>和<em>s2</em>，判断<em>s2</em>是否是<em>s1</em>的扰乱字符串。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> s1 = &quot;great&quot;, s2 = &quot;rgeat&quot;
+<strong>输出:</strong> true
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> s1 = &quot;abcde&quot;, s2 = &quot;caebd&quot;
+<strong>输出:</strong> false</pre>
+
+扰乱字符串
+Given a string <em>s1</em>, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.
+
+Below is one possible representation of <em>s1</em> = <code>&quot;great&quot;</code>:
+
+<pre>
+    great
+   /    \
+  gr    eat
+ / \    /  \
+g   r  e   at
+           / \
+          a   t
+</pre>
+
+To scramble the string, we may choose any non-leaf node and swap its two children.
+
+For example, if we choose the node <code>&quot;gr&quot;</code> and swap its two children, it produces a scrambled string <code>&quot;rgeat&quot;</code>.
+
+<pre>
+    rgeat
+   /    \
+  rg    eat
+ / \    /  \
+r   g  e   at
+           / \
+          a   t
+</pre>
+
+We say that <code>&quot;rgeat&quot;</code> is a scrambled string of <code>&quot;great&quot;</code>.
+
+Similarly, if we continue to swap the children of nodes <code>&quot;eat&quot;</code> and <code>&quot;at&quot;</code>, it produces a scrambled string <code>&quot;rgtae&quot;</code>.
+
+<pre>
+    rgtae
+   /    \
+  rg    tae
+ / \    /  \
+r   g  ta  e
+       / \
+      t   a
+</pre>
+
+We say that <code>&quot;rgtae&quot;</code> is a scrambled string of <code>&quot;great&quot;</code>.
+
+Given two strings <em>s1</em> and <em>s2</em> of the same length, determine if <em>s2</em> is a scrambled string of <em>s1</em>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s1 = &quot;great&quot;, s2 = &quot;rgeat&quot;
+<strong>Output:</strong> true
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s1 = &quot;abcde&quot;, s2 = &quot;caebd&quot;
+<strong>Output:</strong> false</pre>

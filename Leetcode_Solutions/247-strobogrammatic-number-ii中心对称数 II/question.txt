@@ -1,0 +1,22 @@
+strobogrammatic-number-ii
+中心对称数是指一个数字在旋转了180 度之后看起来依旧相同的数字（或者上下颠倒地看）。
+
+找到所有长度为 n 的中心对称数。
+
+<strong>示例</strong> <strong>:</strong>
+
+<pre><strong>输入:</strong>  n = 2
+<strong>输出:</strong> <code>[&quot;11&quot;,&quot;69&quot;,&quot;88&quot;,&quot;96&quot;]</code>
+</pre>
+
+中心对称数 II
+A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
+
+Find all strobogrammatic numbers that are of length = n.
+
+<b>Example:</b>
+
+<pre>
+<b>Input:</b>  n = 2
+<b>Output:</b> <code>[&quot;11&quot;,&quot;69&quot;,&quot;88&quot;,&quot;96&quot;]</code>
+</pre>

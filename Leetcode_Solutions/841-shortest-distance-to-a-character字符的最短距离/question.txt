@@ -1,0 +1,37 @@
+shortest-distance-to-a-character
+给定一个字符串<code>S</code>和一个字符<code>C</code>。返回一个代表字符串<code>S</code>中每个字符到字符串<code>S</code>中的字符<code>C</code>的最短距离的数组。
+
+<strong>示例 1:</strong>
+
+<pre>
+<strong>输入:</strong> S = &quot;loveleetcode&quot;, C = &#39;e&#39;
+<strong>输出:</strong> [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
+</pre>
+
+<strong>说明:</strong>
+
+<ol>
+	字符串<code>S</code>的长度范围为<code>[1, 10000]</code>。
+	<code>C</code>是一个单字符，且保证是字符串<code>S</code>里的字符。
+	<code>S</code>和<code>C</code>中的所有字母均为小写字母。
+</ol>
+
+字符的最短距离
+Given a string <code>S</code>and a character <code>C</code>, return an array of integers representing the shortest distance from the character <code>C</code> in the string.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> S = &quot;loveleetcode&quot;, C = &#39;e&#39;
+<strong>Output:</strong> [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>S</code> string length isin<code>[1, 10000].</code>
+	<code>C</code>is a single character, and guaranteed to be in string <code>S</code>.
+	All letters in <code>S</code> and <code>C</code> are lowercase.
+</ol>

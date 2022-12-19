@@ -1,0 +1,98 @@
+longest-zigzag-path-in-a-binary-tree
+给你一棵以<code>root</code>为根的二叉树，二叉树中的交错路径定义如下：
+
+<ul>
+	选择二叉树中 <strong>任意</strong>节点和一个方向（左或者右）。
+	如果前进方向为右，那么移动到当前节点的的右子节点，否则移动到它的左子节点。
+	改变前进方向：左变右或者右变左。
+	重复第二步和第三步，直到你在树中无法继续移动。
+</ul>
+
+交错路径的长度定义为：<strong>访问过的节点数目 - 1</strong>（单个节点的路径长度为 0 ）。
+
+请你返回给定树中最长 <strong>交错路径</strong>的长度。
+
+
+
+<strong>示例 1：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/07/sample_1_1702.png" style="height: 283px; width: 151px;"></strong>
+
+<pre><strong>输入：</strong>root = [1,null,1,1,1,null,null,1,1,null,1,null,null,null,1,null,1]
+<strong>输出：</strong>3
+<strong>解释：</strong>蓝色节点为树中最长交错路径（右 -&gt; 左 -&gt; 右）。
+</pre>
+
+<strong>示例 2：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/07/sample_2_1702.png" style="height: 253px; width: 120px;"></strong>
+
+<pre><strong>输入：</strong>root = [1,1,1,null,1,null,null,1,1,null,1]
+<strong>输出：</strong>4
+<strong>解释：</strong>蓝色节点为树中最长交错路径（左 -&gt; 右 -&gt; 左 -&gt; 右）。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>root = [1]
+<strong>输出：</strong>0
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	每棵树最多有<code>50000</code>个节点。
+	每个节点的值在<code>[1, 100]</code> 之间。
+</ul>
+
+二叉树中的最长交错路径
+Given a binary tree <code>root</code>, aZigZag path for a binary tree is defined as follow:
+
+<ul>
+	Choose <strong>any </strong>node in the binary tree and a direction (right or left).
+	If the current direction is right then move to the right child of the current node otherwise move to the left child.
+	Change the direction from right to left or right to left.
+	Repeat the second and third step until you can&#39;t move in the tree.
+</ul>
+
+Zigzag length is defined as the number of nodes visited - 1. (A single node has a length of 0).
+
+Returnthe longest <strong>ZigZag</strong> path contained in that tree.
+
+
+<strong>Example 1:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2020/01/22/sample_1_1702.png" style="width: 151px; height: 283px;" /></strong>
+
+<pre>
+<strong>Input:</strong> root = [1,null,1,1,1,null,null,1,1,null,1,null,null,null,1,null,1]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> Longest ZigZag path in blue nodes (right -&gt; left -&gt; right).
+</pre>
+
+<strong>Example 2:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2020/01/22/sample_2_1702.png" style="width: 120px; height: 253px;" /></strong>
+
+<pre>
+<strong>Input:</strong> root = [1,1,1,null,1,null,null,1,1,null,1]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> Longest ZigZag path in blue nodes (left -&gt; right -&gt; left -&gt; right).
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> root = [1]
+<strong>Output:</strong> 0
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	Each tree has at most <code>50000</code> nodes..
+	Each node&#39;s value is between <code>[1, 100]</code>.
+</ul>

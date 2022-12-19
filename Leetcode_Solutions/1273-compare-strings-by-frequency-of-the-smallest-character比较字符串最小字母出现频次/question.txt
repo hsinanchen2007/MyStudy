@@ -1,0 +1,65 @@
+compare-strings-by-frequency-of-the-smallest-character
+我们来定义一个函数<code>f(s)</code>，其中传入参数<code>s</code>是一个非空字符串；该函数的功能是统计<code>s</code> 中（按字典序比较）最小字母的出现频次。
+
+例如，若<code>s = &quot;dcce&quot;</code>，那么<code>f(s) = 2</code>，因为最小的字母是<code>&quot;c&quot;</code>，它出现了2 次。
+
+现在，给你两个字符串数组待查表<code>queries</code>和词汇表<code>words</code>，请你返回一个整数数组<code>answer</code>作为答案，其中每个<code>answer[i]</code>是满足<code>f(queries[i])</code>&lt; <code>f(W)</code>的词的数目，<code>W</code>是词汇表<code>words</code>中的词。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>queries = [&quot;cbd&quot;], words = [&quot;zaaaz&quot;]
+<strong>输出：</strong>[1]
+<strong>解释：</strong>查询 f(&quot;cbd&quot;) = 1，而 f(&quot;zaaaz&quot;) = 3 所以 f(&quot;cbd&quot;) &lt; f(&quot;zaaaz&quot;)。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>queries = [&quot;bbb&quot;,&quot;cc&quot;], words = [&quot;a&quot;,&quot;aa&quot;,&quot;aaa&quot;,&quot;aaaa&quot;]
+<strong>输出：</strong>[1,2]
+<strong>解释：</strong>第一个查询 f(&quot;bbb&quot;) &lt; f(&quot;aaaa&quot;)，第二个查询 f(&quot;aaa&quot;) 和 f(&quot;aaaa&quot;) 都 &gt; f(&quot;cc&quot;)。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= queries.length &lt;= 2000</code>
+	<code>1 &lt;= words.length &lt;= 2000</code>
+	<code>1 &lt;= queries[i].length, words[i].length &lt;= 10</code>
+	<code>queries[i][j]</code>, <code>words[i][j]</code>都是小写英文字母
+</ul>
+
+比较字符串最小字母出现频次
+Let&#39;s define a function <code>f(s)</code> over a non-empty string <code>s</code>, which calculates the frequency of the smallest character in <code>s</code>. For example,if <code>s = &quot;dcce&quot;</code> then <code>f(s) = 2</code> because the smallest character is <code>&quot;c&quot;</code> and its frequency is 2.
+
+Now, given string arrays <code>queries</code>and <code>words</code>, return an integer array <code>answer</code>, where each <code>answer[i]</code>is the number of words such that <code>f(queries[i])</code>&lt; <code>f(W)</code>, where <code>W</code>is a word in <code>words</code>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> queries = [&quot;cbd&quot;], words = [&quot;zaaaz&quot;]
+<strong>Output:</strong> [1]
+<strong>Explanation:</strong> On the first query we have f(&quot;cbd&quot;) = 1, f(&quot;zaaaz&quot;) = 3 so f(&quot;cbd&quot;) &lt; f(&quot;zaaaz&quot;).
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> queries = [&quot;bbb&quot;,&quot;cc&quot;], words = [&quot;a&quot;,&quot;aa&quot;,&quot;aaa&quot;,&quot;aaaa&quot;]
+<strong>Output:</strong> [1,2]
+<strong>Explanation:</strong> On the first query only f(&quot;bbb&quot;) &lt; f(&quot;aaaa&quot;). On the second query both f(&quot;aaa&quot;) and f(&quot;aaaa&quot;) are both &gt; f(&quot;cc&quot;).
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= queries.length &lt;= 2000</code>
+	<code>1 &lt;= words.length &lt;= 2000</code>
+	<code>1 &lt;= queries[i].length, words[i].length &lt;= 10</code>
+	<code>queries[i][j]</code>, <code>words[i][j]</code> are English lowercase letters.
+</ul>

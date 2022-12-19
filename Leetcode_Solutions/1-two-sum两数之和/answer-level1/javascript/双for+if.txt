@@ -1,0 +1,22 @@
+### 解题思路
+双for+if-----类冒泡排序,修改判断条件
+
+### 代码
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let len = nums.length;
+    for(let i = 0; i < len; i++){
+        for(let j = i + 1; j < len; j++){
+            if(nums[i] + nums[j] === target){
+                return [i, j];
+            }
+        }
+    }
+};
+```

@@ -1,0 +1,1 @@
+return Arrays.stream(A).map(x -> x*x).sorted().toArray();

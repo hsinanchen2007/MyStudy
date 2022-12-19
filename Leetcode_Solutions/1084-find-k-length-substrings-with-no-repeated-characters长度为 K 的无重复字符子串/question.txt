@@ -1,0 +1,62 @@
+find-k-length-substrings-with-no-repeated-characters
+给你一个字符串<code>S</code>，找出所有长度为<code>K</code>且不含重复字符的子串，请你返回全部满足要求的子串的<strong>数目</strong>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>S = &quot;havefunonleetcode&quot;, K = 5
+<strong>输出：</strong>6
+<strong>解释：</strong>
+这里有 6 个满足题意的子串，分别是：&#39;havef&#39;,&#39;avefu&#39;,&#39;vefun&#39;,&#39;efuno&#39;,&#39;etcod&#39;,&#39;tcode&#39;。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>S = &quot;home&quot;, K = 5
+<strong>输出：</strong>0
+<strong>解释：</strong>
+注意：K 可能会大于 S 的长度。在这种情况下，就无法找到任何长度为 K 的子串。</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= S.length &lt;= 10^4</code>
+	<code>S</code> 中的所有字符均为小写英文字母
+	<code>1 &lt;= K &lt;= 10^4</code>
+</ol>
+
+长度为 K 的无重复字符子串
+Given a string <code>S</code>, return the number of substrings of length <code>K</code> with no repeated characters.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>S = <span id="example-input-1-1">&quot;havefunonleetcode&quot;</span>, K = <span id="example-input-1-2">5</span>
+<strong>Output: </strong><span id="example-output-1">6</span>
+<strong>Explanation: </strong>
+There are 6 substrings they are : &#39;havef&#39;,&#39;avefu&#39;,&#39;vefun&#39;,&#39;efuno&#39;,&#39;etcod&#39;,&#39;tcode&#39;.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>S = <span id="example-input-2-1">&quot;home&quot;</span>, K = <span id="example-input-2-2">5</span>
+<strong>Output: </strong><span id="example-output-2">0</span>
+<strong>Explanation: </strong>
+Notice K can be larger than the length of S. In this case is not possible to find any substring.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= S.length &lt;= 10^4</code>
+	All characters of S are lowercase English letters.
+	<code>1 &lt;= K &lt;= 10^4</code>
+</ol>

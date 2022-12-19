@@ -1,0 +1,1 @@
+这个题主要是测试row_number（指定条件排序后生成行号）、rank（指定条件排序后生成同序占位排名）、dense_rank（指定条件排序后生成同序不占位排名）三个函数及条件升降序参数（asc、desc）的使用，上述三个函数均需要配合over(order by )使用，语句格式: row_number/rank/dense_rank() over (order by 字段 升/降序)

@@ -1,0 +1,43 @@
+implement-trie-prefix-tree
+实现一个 Trie (前缀树)，包含<code>insert</code>,<code>search</code>, 和<code>startsWith</code>这三个操作。
+
+<strong>示例:</strong>
+
+<pre>Trie trie = new Trie();
+
+trie.insert(&quot;apple&quot;);
+trie.search(&quot;apple&quot;);   // 返回 true
+trie.search(&quot;app&quot;);     // 返回 false
+trie.startsWith(&quot;app&quot;); // 返回 true
+trie.insert(&quot;app&quot;);   
+trie.search(&quot;app&quot;);     // 返回 true</pre>
+
+<strong>说明:</strong>
+
+<ul>
+	你可以假设所有的输入都是由小写字母<code>a-z</code>构成的。
+	保证所有输入均为非空字符串。
+</ul>
+
+实现 Trie (前缀树)
+Implement a trie with <code>insert</code>, <code>search</code>, and <code>startsWith</code> methods.
+
+<b>Example:</b>
+
+<pre>
+Trie trie = new Trie();
+
+trie.insert(&quot;apple&quot;);
+trie.search(&quot;apple&quot;);   // returns true
+trie.search(&quot;app&quot;);     // returns false
+trie.startsWith(&quot;app&quot;); // returns true
+trie.insert(&quot;app&quot;);   
+trie.search(&quot;app&quot;);     // returns true
+</pre>
+
+<b>Note:</b>
+
+<ul>
+	You may assume that all inputs are consist of lowercase letters <code>a-z</code>.
+	All inputs are guaranteed to be non-empty strings.
+</ul>

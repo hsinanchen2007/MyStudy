@@ -1,0 +1,37 @@
+line-reflection
+在一个二维平面空间中，给你 n个点的坐标。问，是否能找出一条平行于 y<strong></strong>轴的直线，让这些点关于这条直线成镜像排布？
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入: </strong>[[1,1],[-1,1]]
+<strong>输出: </strong>true
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入: </strong>[[1,1],[-1,-1]]
+<strong>输出: </strong>false</pre>
+
+<strong>拓展：</strong><br>
+你能找到比 O(<em>n</em><sup>2</sup>) 更优的解法吗?
+
+直线镜像
+Given n points on a 2D plane, find if there is such a line parallel to y-axis that reflect the given points.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[1,1],[-1,1]]</span>
+<strong>Output: </strong><span id="example-output-1">true</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[[1,1],[-1,-1]]</span>
+<strong>Output: </strong><span id="example-output-2">false</span></pre>
+</div>
+
+<b>Follow up:</b><br />
+Could you do better than O(<i>n</i><sup>2</sup>) ?

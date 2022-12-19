@@ -1,0 +1,63 @@
+valid-boomerang
+回旋镖定义为一组三个点，这些点各不相同且<strong>不</strong>在一条直线上。
+
+给出平面上三个点组成的列表，判断这些点是否可以构成回旋镖。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[[1,1],[2,3],[3,2]]
+<strong>输出：</strong>true
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[[1,1],[2,2],[3,3]]
+<strong>输出：</strong>false</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>points.length == 3</code>
+	<code>points[i].length == 2</code>
+	<code>0 &lt;= points[i][j] &lt;= 100</code>
+</ol>
+
+有效的回旋镖
+A <em>boomerang</em> is a set of 3 points that are all distinct and <strong>not</strong> in a straight line.
+
+Given a listof three points in the plane, return whether these points are a boomerang.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[1,1],[2,3],[3,2]]</span>
+<strong>Output: </strong><span id="example-output-1">true</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[[1,1],[2,2],[3,3]]</span>
+<strong>Output: </strong><span id="example-output-2">false</span></pre>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>points.length == 3</code>
+	<code>points[i].length == 2</code>
+	<code>0 &lt;= points[i][j] &lt;= 100</code>
+</ol>
+
+<div>
+<div></div>
+</div>

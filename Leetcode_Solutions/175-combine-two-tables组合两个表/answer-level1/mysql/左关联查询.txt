@@ -1,0 +1,9 @@
+### 解题思路
+此处撰写解题思路
+根据题目要求当Address表中无对应数据也要查询，因此可以将person作为看做一个主表personId作为关联条件，进行左关联查询
+### 代码
+
+```mysql
+# Write your MySQL query statement below
+select p.FirstName,p.LastName,a.City,a.State from Person p left join Address a on p.PersonId = a.PersonId 
+```

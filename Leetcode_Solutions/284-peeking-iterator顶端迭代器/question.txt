@@ -1,0 +1,29 @@
+peeking-iterator
+给定一个迭代器类的接口，接口包含两个方法：<code>next()</code>和<code>hasNext()</code>。设计并实现一个支持<code>peek()</code>操作的顶端迭代器 -- 其本质就是把原本应由<code>next()</code>方法返回的元素<code>peek()</code>出来。
+
+<strong>示例:</strong>
+
+<pre>假设迭代器被初始化为列表<strong><code>[1,2,3]</code></strong>。
+
+调用<strong><code>next() </code></strong>返回 <strong>1</strong>，得到列表中的第一个元素。
+现在调用<strong><code>peek()</code></strong>返回 <strong>2</strong>，下一个元素。在此之后调用<strong><code>next() </code></strong>仍然返回 <strong>2</strong>。
+最后一次调用<strong><code>next()</code></strong>返回 <strong>3</strong>，末尾元素。在此之后调用<strong><code>hasNext()</code></strong>应该返回 <strong>false</strong>。
+</pre>
+
+<strong>进阶：</strong>你将如何拓展你的设计？使之变得通用化，从而适应所有的类型，而不只是整数型？
+
+顶端迭代器
+Given an Iterator class interface with methods: <code>next()</code> and <code>hasNext()</code>, design and implement a PeekingIterator that support the <code>peek()</code> operation -- it essentially peek() at the element that will be returned by the next call to next().
+
+<strong>Example:</strong>
+
+<pre>
+Assume that the iterator is initialized to the beginning of the list: <strong><code>[1,2,3]</code></strong>.
+
+Call <strong><code>next()</code></strong> gets you <strong>1</strong>, the first element in the list.
+Now you call <strong><code>peek()</code></strong> and it returns <strong>2</strong>, the next element. Calling <strong><code>next()</code></strong> after that <i><b>still</b></i> return <strong>2</strong>. 
+You call <strong><code>next()</code></strong> the final time and it returns <strong>3</strong>, the last element. 
+Calling <strong><code>hasNext()</code></strong> after that should return <strong>false</strong>.
+</pre>
+
+<b>Follow up</b>: How would you extend your design to be generic and work with all types, not just integer?

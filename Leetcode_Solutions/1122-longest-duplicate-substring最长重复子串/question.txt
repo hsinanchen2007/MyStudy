@@ -1,0 +1,57 @@
+longest-duplicate-substring
+给出一个字符串<code>S</code>，考虑其所有<strong>重复子串</strong>（<code>S</code> 的连续子串，出现两次或多次，可能会有重叠）。
+
+返回<strong>任何</strong>具有最长可能长度的重复子串。（如果 <code>S</code>不含重复子串，那么答案为<code>&quot;&quot;</code>。）
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;banana&quot;
+<strong>输出：</strong>&quot;ana&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;abcd&quot;
+<strong>输出：</strong>&quot;&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>2 &lt;= S.length &lt;= 10^5</code>
+	<code>S</code> 由小写英文字母组成。
+</ol>
+
+最长重复子串
+Given a string <code>S</code>, consider all <em>duplicated substrings</em>: (contiguous) substrings of S that occur 2 or more times. (The occurrencesmay overlap.)
+
+Return <strong>any</strong> duplicatedsubstring that has the longest possible length. (If <code>S</code> does not have a duplicated substring, the answer is <code>&quot;&quot;</code>.)
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;banana&quot;</span>
+<strong>Output: </strong><span id="example-output-1">&quot;ana&quot;</span>
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;abcd&quot;</span>
+<strong>Output: </strong><span id="example-output-2">&quot;&quot;</span>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>2 &lt;= S.length &lt;= 10^5</code>
+	<code>S</code> consists of lowercase English letters.
+</ol>

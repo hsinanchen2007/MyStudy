@@ -1,0 +1,1 @@
+return(str(eval(num1+'*'+num2)))

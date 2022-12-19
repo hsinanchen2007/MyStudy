@@ -1,0 +1,127 @@
+design-search-autocomplete-system
+为搜索引擎设计一个搜索自动补全系统。用户会输入一条语句（最少包含一个字母，以特殊字符 <code>&#39;#&#39;</code> 结尾）。除 &#39;#&#39; 以外用户输入的每个字符，返回历史中热度前三并以当前输入部分为前缀的句子。下面是详细规则：
+
+<ol>
+	一条句子的热度定义为历史上用户输入这个句子的总次数。
+	返回前三的句子需要按照热度从高到低排序（第一个是最热门的）。如果有多条热度相同的句子，请按照 ASCII 码的顺序输出（ASCII 码越小排名越前）。
+	如果满足条件的句子个数少于 3，将它们全部输出。
+	如果输入了特殊字符，意味着句子结束了，请返回一个空集合。
+</ol>
+
+你的工作是实现以下功能：
+
+构造函数：
+
+<code>AutocompleteSystem(String[] sentences, int[] times):</code>这是构造函数，输入的是<code>历史数据</code>。<code>Sentences</code>是之前输入过的所有句子，<code>Times</code>是每条句子输入的次数，你的系统需要记录这些历史信息。
+
+现在，用户输入一条新的句子，下面的函数会提供用户输入的下一个字符：
+
+<code>List&lt;String&gt; input(char c):</code>其中<code>c</code>是用户输入的下一个字符。字符只会是小写英文字母（<code>&#39;a&#39; </code>到<code> &#39;z&#39; </code>），空格（<code>&#39; &#39;</code>）和特殊字符（<code>&#39;#&#39;</code>）。输出历史热度前三的具有相同前缀的句子。
+
+
+
+<strong>样例 ：</strong><br>
+<strong>操作 ：</strong>AutocompleteSystem([&quot;i love you&quot;, &quot;island&quot;,&quot;ironman&quot;, &quot;i love leetcode&quot;], [5,3,2,2])<br>
+系统记录下所有的句子和出现的次数：<br>
+<code>&quot;i love you&quot;</code> : <code>5</code>次<br>
+<code>&quot;island&quot;</code> : <code>3</code>次<br>
+<code>&quot;ironman&quot;</code> : <code>2</code>次<br>
+<code>&quot;i love leetcode&quot;</code> : <code>2</code>次<br>
+现在，用户开始新的键入：
+
+<br>
+<strong>输入 ：</strong>input(&#39;i&#39;)<br>
+<strong>输出 ：</strong>[&quot;i love you&quot;, &quot;island&quot;,&quot;i love leetcode&quot;]<br>
+<strong>解释 ：</strong><br>
+有四个句子含有前缀 <code>&quot;i&quot;</code>。其中&quot;ironman&quot; 和 &quot;i love leetcode&quot; 有相同的热度，由于<code>&#39; &#39;</code> 的 ASCII 码是 32 而<code>&#39;r&#39;</code>的 ASCII 码是114，所以&quot;i love leetcode&quot; 在 &quot;ironman&quot; 前面。同时我们只输出前三的句子，所以 &quot;ironman&quot; 被舍弃。<br>
+<br>
+<strong>输入 ：</strong>input(&#39; &#39;)<br>
+<strong>输出 ：</strong>[&quot;i love you&quot;,&quot;i love leetcode&quot;]<br>
+<strong>解释:</strong><br>
+只有两个句子含有前缀<code>&quot;i &quot;</code>。<br>
+<br>
+<strong>输入 ：</strong>input(&#39;a&#39;)<br>
+<strong>输出 ：</strong> []<br>
+<strong>解释 ：</strong><br>
+没有句子有前缀<code>&quot;i a&quot;</code>。<br>
+<br>
+<strong>输入 ：</strong>input(&#39;#&#39;)<br>
+<strong>输出 ：</strong> []<br>
+<strong>解释 ：</strong>
+
+用户输入结束，<code>&quot;i a&quot;</code>被存到系统中，后面的输入被认为是下一次搜索。
+
+
+
+<strong>注释 ：</strong>
+
+<ol>
+	输入的句子以字母开头，以 &#39;#&#39; 结尾，两个字母之间最多只会出现一个空格。
+	即将搜索的句子总数不会超过 100。每条句子的长度（包括已经搜索的和即将搜索的）也不会超过 100。
+	即使只有一个字母，输出的时候请使用双引号而不是单引号。
+	请记住<strong>清零</strong>AutocompleteSystem 类中的变量，因为静态变量、类变量会在多组测试数据中保存之前结果。详情请看<a href="http://leetcode.com/faq/#different-output" target="_blank">这里</a>。
+</ol>
+
+
+
+设计搜索自动补全系统
+Design a search autocomplete system for a search engine. Users may input a sentence (at least one word and end with a special character <code>&#39;#&#39;</code>). For <b>each character</b> they type <b>except &#39;#&#39;</b>, you need to return the <b>top 3</b> historical hot sentences that have prefix the same as the part of sentence already typed. Here are the specific rules:
+
+<ol>
+	The hot degree for a sentence is defined as the number of times a user typed the exactly same sentence before.
+	The returned top 3 hot sentences should be sorted by hot degree (The first is the hottest one). If several sentences have the same degree of hot, you need to use ASCII-code order (smaller one appears first).
+	If less than 3 hot sentences exist, then just return as many as you can.
+	When the input is a special character, it means the sentence ends, and in this case, you need to return an empty list.
+</ol>
+
+Your job is to implement the following functions:
+
+The constructor function:
+
+<code>AutocompleteSystem(String[] sentences, int[] times):</code> This is the constructor. The input is <b>historical data</b>. <code>Sentences</code> is a string array consists of previously typed sentences. <code>Times</code> is the corresponding times a sentence has been typed. Your system should record these historical data.
+
+Now, the user wants to input a new sentence. The following function will provide the next character the user types:
+
+<code>List&lt;String&gt; input(char c):</code> The input <code>c</code> is the next character typed by the user. The character will only be lower-case letters (<code>&#39;a&#39;</code> to <code>&#39;z&#39;</code>), blank space (<code>&#39; &#39;</code>) or a special character (<code>&#39;#&#39;</code>). Also, the previously typed sentence should be recorded in your system. The output will be the <b>top 3</b> historical hot sentences that have prefix the same as the part of sentence already typed.
+
+
+<b>Example:</b><br />
+<b>Operation:</b> AutocompleteSystem([&quot;i love you&quot;, &quot;island&quot;,&quot;ironman&quot;, &quot;i love leetcode&quot;], [5,3,2,2])<br />
+The system have already tracked down the following sentences and their corresponding times:<br />
+<code>&quot;i love you&quot;</code> : <code>5</code> times<br />
+<code>&quot;island&quot;</code> : <code>3</code> times<br />
+<code>&quot;ironman&quot;</code> : <code>2</code> times<br />
+<code>&quot;i love leetcode&quot;</code> : <code>2</code> times<br />
+Now, the user begins another search:<br />
+<br />
+<b>Operation:</b> input(&#39;i&#39;)<br />
+<b>Output:</b> [&quot;i love you&quot;, &quot;island&quot;,&quot;i love leetcode&quot;]<br />
+<b>Explanation:</b><br />
+There are four sentences that have prefix <code>&quot;i&quot;</code>. Among them, &quot;ironman&quot; and &quot;i love leetcode&quot; have same hot degree. Since <code>&#39; &#39;</code> has ASCII code 32 and <code>&#39;r&#39;</code> has ASCII code 114, &quot;i love leetcode&quot; should be in front of &quot;ironman&quot;. Also we only need to output top 3 hot sentences, so &quot;ironman&quot; will be ignored.<br />
+<br />
+<b>Operation:</b> input(&#39; &#39;)<br />
+<b>Output:</b> [&quot;i love you&quot;,&quot;i love leetcode&quot;]<br />
+<b>Explanation:</b><br />
+There are only two sentences that have prefix <code>&quot;i &quot;</code>.<br />
+<br />
+<b>Operation:</b> input(&#39;a&#39;)<br />
+<b>Output:</b> []<br />
+<b>Explanation:</b><br />
+There are no sentences that have prefix <code>&quot;i a&quot;</code>.<br />
+<br />
+<b>Operation:</b> input(&#39;#&#39;)<br />
+<b>Output:</b> []<br />
+<b>Explanation:</b><br />
+The user finished the input, the sentence <code>&quot;i a&quot;</code> should be saved as a historical sentence in system. And the following input will be counted as a new search.
+
+
+<b>Note:</b>
+
+<ol>
+	The input sentence will always start with a letter and end with &#39;#&#39;, and only one blank space will exist between two words.
+	The number of <b>complete sentences</b> that to be searched won&#39;t exceed 100. The length of each sentence including those in the historical data won&#39;t exceed 100.
+	Please use double-quote instead of single-quote when you write test cases even for a character input.
+	Please remember to <b>RESET</b> your class variables declared in class AutocompleteSystem, as static/class variables are <b>persisted across multiple test cases</b>. Please see <a href="https://leetcode.com/faq/#different-output">here</a> for more details.
+</ol>
+
+

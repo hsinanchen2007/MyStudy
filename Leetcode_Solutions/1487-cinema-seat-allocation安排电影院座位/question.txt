@@ -1,0 +1,90 @@
+cinema-seat-allocation
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/21/cinema_seats_1.png" style="height: 149px; width: 400px;">
+
+如上图所示，电影院的观影厅中有 <code>n</code>行座位，行编号从 1到 <code>n</code>，且每一行内总共有 10 个座位，列编号从 1 到 10 。
+
+给你数组<code>reservedSeats</code>，包含所有已经被预约了的座位。比如说，<code>researvedSeats[i]=[3,8]</code>，它表示第<strong>3</strong>行第<strong>8</strong>个座位被预约了。
+
+请你返回<strong>最多能安排多少个 4 人家庭</strong>。4 人家庭要占据<strong>同一行内连续</strong>的 4 个座位。隔着过道的座位（比方说 [3,3] 和 [3,4]）不是连续的座位，但是如果你可以将 4 人家庭拆成过道两边各坐 2 人，这样子是允许的。
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/21/cinema_seats_3.png" style="height: 96px; width: 400px;">
+
+<pre><strong>输入：</strong>n = 3, reservedSeats = [[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]
+<strong>输出：</strong>4
+<strong>解释：</strong>上图所示是最优的安排方案，总共可以安排 4 个家庭。蓝色的叉表示被预约的座位，橙色的连续座位表示一个 4 人家庭。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 2, reservedSeats = [[2,1],[1,8],[2,6]]
+<strong>输出：</strong>2
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>n = 4, reservedSeats = [[4,3],[1,4],[4,6],[1,7]]
+<strong>输出：</strong>4
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 10^9</code>
+	<code>1 &lt;=reservedSeats.length &lt;= min(10*n, 10^4)</code>
+	<code>reservedSeats[i].length == 2</code>
+	<code>1&lt;=reservedSeats[i][0] &lt;= n</code>
+	<code>1 &lt;=reservedSeats[i][1] &lt;= 10</code>
+	所有<code>reservedSeats[i]</code> 都是互不相同的。
+</ul>
+
+安排电影院座位
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/14/cinema_seats_1.png" style="width: 400px; height: 149px;" />
+
+A cinemahas <code>n</code>rows of seats, numbered from 1 to <code>n</code>and there are tenseats in each row, labelled from 1to 10as shown in the figure above.
+
+Given the array <code>reservedSeats</code> containing the numbers of seats already reserved, for example, <code>reservedSeats[i]=[3,8]</code>means the seat located in row <strong>3</strong> and labelled with <b>8</b>is already reserved.
+
+<em>Return the maximum number of four-person families you can allocate on the cinemaseats.</em> A four-person family occupies fours seats <strong>in one row</strong>, that are <strong>next to each other</strong>. Seats across an aisle (such as [3,3]and [3,4]) are not considered to be next to each other, however, It is permissible for the four-person family to be separated by an aisle, but in that case, <strong>exactly two people</strong> have to sit on each side of the aisle.
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/14/cinema_seats_3.png" style="width: 400px; height: 96px;" />
+
+<pre>
+<strong>Input:</strong> n = 3, reservedSeats = [[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The figure above shows the optimal allocation for four families, where seats mark with blue are already reserved and contiguous seats mark with orange are for one family.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 2, reservedSeats = [[2,1],[1,8],[2,6]]
+<strong>Output:</strong> 2
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> n = 4, reservedSeats = [[4,3],[1,4],[4,6],[1,7]]
+<strong>Output:</strong> 4
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 10^9</code>
+	<code>1 &lt;=reservedSeats.length &lt;= min(10*n, 10^4)</code>
+	<code>reservedSeats[i].length == 2</code>
+	<code>1&lt;=reservedSeats[i][0] &lt;= n</code>
+	<code>1 &lt;=reservedSeats[i][1] &lt;= 10</code>
+	All <code>reservedSeats[i]</code> are distinct.
+</ul>

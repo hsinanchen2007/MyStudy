@@ -1,0 +1,40 @@
+pond-sizes-lcci
+你有一个用于表示一片土地的整数矩阵<code>land</code>，该矩阵中每个点的值代表对应地点的海拔高度。若值为0则表示水域。由垂直、水平或对角连接的水域为池塘。池塘的大小是指相连接的水域的个数。编写一个方法来计算矩阵中所有池塘的大小，返回值需要从小到大排序。
+<strong>示例：</strong>
+<pre><strong>输入：</strong>
+[
+  [0,2,1,0],
+  [0,1,0,1],
+  [1,1,0,1],
+  [0,1,0,1]
+]
+<strong>输出：</strong> [1,2,4]
+</pre>
+<strong>提示：</strong>
+<ul>
+<code>0 < len(land) <= 1000</code>
+<code>0 < len(land[i]) <= 1000</code>
+</ul>
+
+水域大小
+You have an integer matrix representing a plot of land, where the value at that loca&shy;tion represents the height above sea level. A value of zero indicates water. A pond is a region of water connected vertically, horizontally, or diagonally. The size of the pond is the total number of connected water cells. Write a method to compute the sizes of all ponds in the matrix.
+
+<strong>Example: </strong>
+
+<pre>
+<strong>Input: </strong>
+[
+  [0,2,1,0],
+  [0,1,0,1],
+  [1,1,0,1],
+  [0,1,0,1]
+]
+<strong>Output: </strong> [1,2,4]
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>0 &lt; len(land) &lt;= 1000</code>
+	<code>0 &lt; len(land[i]) &lt;= 1000</code>
+</ul>

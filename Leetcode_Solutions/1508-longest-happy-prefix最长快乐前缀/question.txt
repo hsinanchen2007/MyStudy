@@ -1,0 +1,89 @@
+longest-happy-prefix
+「快乐前缀」是在原字符串中既是<strong>非空</strong> 前缀也是后缀（不包括原字符串自身）的字符串。
+
+给你一个字符串 <code>s</code>，请你返回它的 <strong>最长快乐前缀</strong>。
+
+如果不存在满足题意的前缀，则返回一个空字符串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;level&quot;
+<strong>输出：</strong>&quot;l&quot;
+<strong>解释：</strong>不包括 s 自己，一共有 4 个前缀（&quot;l&quot;, &quot;le&quot;, &quot;lev&quot;, &quot;leve&quot;）和 4 个后缀（&quot;l&quot;, &quot;el&quot;, &quot;vel&quot;, &quot;evel&quot;）。最长的既是前缀也是后缀的字符串是 &quot;l&quot; 。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;ababab&quot;
+<strong>输出：</strong>&quot;abab&quot;
+<strong>解释：</strong>&quot;abab&quot; 是最长的既是前缀也是后缀的字符串。题目允许前后缀在原字符串中重叠。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;leetcodeleet&quot;
+<strong>输出：</strong>&quot;leet&quot;
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>s = &quot;a&quot;
+<strong>输出：</strong>&quot;&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>s</code> 只含有小写英文字母
+</ul>
+
+最长快乐前缀
+A string is called a<em>happy prefix</em>if is a <strong>non-empty</strong> prefix which is also a suffix (excluding itself).
+
+Given a string <code>s</code>. Return the <strong>longest happy prefix</strong>of <code>s</code>.
+
+Return an empty string if no such prefix exists.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;level&quot;
+<strong>Output:</strong> &quot;l&quot;
+<strong>Explanation:</strong> s contains 4 prefix excluding itself (&quot;l&quot;, &quot;le&quot;, &quot;lev&quot;, &quot;leve&quot;), and suffix (&quot;l&quot;, &quot;el&quot;, &quot;vel&quot;, &quot;evel&quot;). The largest prefix which is also suffix is given by &quot;l&quot;.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;ababab&quot;
+<strong>Output:</strong> &quot;abab&quot;
+<strong>Explanation:</strong> &quot;abab&quot; is the largest prefix which is also suffix. They can overlap in the original string.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;leetcodeleet&quot;
+<strong>Output:</strong> &quot;leet&quot;
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;a&quot;
+<strong>Output:</strong> &quot;&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>s</code> contains only lowercase English letters.
+</ul>

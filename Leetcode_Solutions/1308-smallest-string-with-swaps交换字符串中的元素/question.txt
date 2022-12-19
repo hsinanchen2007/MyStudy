@@ -1,0 +1,96 @@
+smallest-string-with-swaps
+给你一个字符串<code>s</code>，以及该字符串中的一些「索引对」数组<code>pairs</code>，其中<code>pairs[i] =[a, b]</code>表示字符串中的两个索引（编号从 0 开始）。
+
+你可以 <strong>任意多次交换</strong> 在<code>pairs</code>中任意一对索引处的字符。
+
+返回在经过若干次交换后，<code>s</code>可以变成的按字典序最小的字符串。
+
+
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入：</strong>s = &quot;dcab&quot;, pairs = [[0,3],[1,2]]
+<strong>输出：</strong>&quot;bacd&quot;
+<strong>解释：</strong> 
+交换 s[0] 和 s[3], s = &quot;bcad&quot;
+交换 s[1] 和 s[2], s = &quot;bacd&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;dcab&quot;, pairs = [[0,3],[1,2],[0,2]]
+<strong>输出：</strong>&quot;abcd&quot;
+<strong>解释：</strong>
+交换 s[0] 和 s[3], s = &quot;bcad&quot;
+交换 s[0] 和 s[2], s = &quot;acbd&quot;
+交换 s[1] 和 s[2], s = &quot;abcd&quot;</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;cba&quot;, pairs = [[0,1],[1,2]]
+<strong>输出：</strong>&quot;abc&quot;
+<strong>解释：</strong>
+交换 s[0] 和 s[1], s = &quot;bca&quot;
+交换 s[1] 和 s[2], s = &quot;bac&quot;
+交换 s[0] 和 s[1], s = &quot;abc&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>0 &lt;= pairs.length &lt;= 10^5</code>
+	<code>0 &lt;= pairs[i][0], pairs[i][1] &lt;s.length</code>
+	<code>s</code>中只含有小写英文字母
+</ul>
+
+交换字符串中的元素
+You are given a string <code>s</code>, and an array of pairs of indices in the string<code>pairs</code>where<code>pairs[i] =[a, b]</code>indicates 2 indices(0-indexed) of the string.
+
+You canswap the characters at any pair of indices in the given<code>pairs</code><strong>any number of times</strong>.
+
+Return thelexicographically smallest string that <code>s</code>can be changed to after using the swaps.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;dcab&quot;, pairs = [[0,3],[1,2]]
+<strong>Output:</strong> &quot;bacd&quot;
+<strong>Explaination:</strong> 
+Swap s[0] and s[3], s = &quot;bcad&quot;
+Swap s[1] and s[2], s = &quot;bacd&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;dcab&quot;, pairs = [[0,3],[1,2],[0,2]]
+<strong>Output:</strong> &quot;abcd&quot;
+<strong>Explaination: </strong>
+Swap s[0] and s[3], s = &quot;bcad&quot;
+Swap s[0] and s[2], s = &quot;acbd&quot;
+Swap s[1] and s[2], s = &quot;abcd&quot;</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;cba&quot;, pairs = [[0,1],[1,2]]
+<strong>Output:</strong> &quot;abc&quot;
+<strong>Explaination: </strong>
+Swap s[0] and s[1], s = &quot;bca&quot;
+Swap s[1] and s[2], s = &quot;bac&quot;
+Swap s[0] and s[1], s = &quot;abc&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>0 &lt;= pairs.length &lt;= 10^5</code>
+	<code>0 &lt;= pairs[i][0], pairs[i][1] &lt;s.length</code>
+	<code>s</code>only contains lower case English letters.
+</ul>

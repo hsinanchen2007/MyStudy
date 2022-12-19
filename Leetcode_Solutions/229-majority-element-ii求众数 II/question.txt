@@ -1,0 +1,31 @@
+majority-element-ii
+给定一个大小为<em>n</em>的数组，找出其中所有出现超过<code>&lfloor; n/3 &rfloor;</code>次的元素。
+
+<strong>说明: </strong>要求算法的时间复杂度为 O(n)，空间复杂度为 O(1)。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> [3,2,3]
+<strong>输出:</strong> [3]</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> [1,1,1,3,3,2,2,2]
+<strong>输出:</strong> [1,2]</pre>
+
+求众数 II
+Given an integer array of size <i>n</i>, find all elements that appear more than <code>&lfloor; n/3 &rfloor;</code> times.
+
+<strong>Note: </strong>The algorithm should run in linear time and in O(1) space.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> [3,2,3]
+<strong>Output:</strong> [3]</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> [1,1,1,3,3,2,2,2]
+<strong>Output:</strong> [1,2]</pre>

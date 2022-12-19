@@ -1,0 +1,54 @@
+string-rotation-lcci
+字符串轮转。给定两个字符串<code>s1</code>和<code>s2</code>，请编写代码检查<code>s2</code>是否为<code>s1</code>旋转而成（比如，<code>waterbottle</code>是<code>erbottlewat</code>旋转后的字符串）。
+
+<strong>示例1:</strong>
+
+<pre><strong> 输入</strong>：s1 = &quot;waterbottle&quot;, s2 = &quot;erbottlewat&quot;
+<strong> 输出</strong>：True
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong> 输入</strong>：s1 = &quot;aa&quot;, &quot;aba&quot;
+<strong> 输出</strong>：False
+</pre>
+
+<ol>
+</ol>
+
+<strong>提示：</strong>
+
+<ol>
+	字符串长度在[0, 100000]范围内。
+</ol>
+
+<strong>说明:</strong>
+
+<ol>
+	你能只调用一次检查子串的方法吗？
+</ol>
+
+字符串轮转
+Given two strings, <code>s1</code>and <code>s2</code>, write code to check if <code>s2</code> is a rotation of <code>s1</code> (e.g.,&quot;waterbottle&quot; is a rotation of&quot;erbottlewat&quot;).Can you useonly one call to the method thatchecks if one word is a substring of another?
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>s1 = &quot;waterbottle&quot;, s2 = &quot;erbottlewat&quot;
+<strong>Output: </strong>True
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>s1 = &quot;aa&quot;, &quot;aba&quot;
+<strong>Output: </strong>False
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code><font face="monospace">0 &lt;= s1.length, s1.length &lt;=</font>100000</code>
+</ol>

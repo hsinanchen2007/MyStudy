@@ -1,0 +1,72 @@
+greatest-common-divisor-of-strings
+对于字符串<code>S</code> 和<code>T</code>，只有在 <code>S = T + ... + T</code>（<code>T</code>与自身连接 1 次或多次）时，我们才认定&ldquo;<code>T</code> 能除尽 <code>S</code>&rdquo;。
+
+返回最长字符串<code>X</code>，要求满足<code>X</code> 能除尽 <code>str1</code> 且<code>X</code> 能除尽 <code>str2</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;
+<strong>输出：</strong>&quot;ABC&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;
+<strong>输出：</strong>&quot;AB&quot;
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;
+<strong>输出：</strong>&quot;&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= str1.length &lt;= 1000</code>
+	<code>1 &lt;= str2.length &lt;= 1000</code>
+	<code>str1[i]</code> 和<code>str2[i]</code> 为大写英文字母
+</ol>
+
+字符串的最大公因子
+For strings <code>S</code> and <code>T</code>, we say &quot;<code>T</code> divides <code>S</code>&quot; if and only if <code>S = T + ... + T</code> (<code>T</code> concatenated with itself 1 or more times)
+
+Return the largest string <code>X</code> such that <code>X</code> divides <font face="monospace">str1</font>and <code>X</code> divides <font face="monospace">str2</font>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>str1 = <span id="example-input-1-1">&quot;ABCABC&quot;</span>, str2 = <span id="example-input-1-2">&quot;ABC&quot;</span>
+<strong>Output: </strong><span id="example-output-1">&quot;ABC&quot;</span>
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>str1 = <span id="example-input-2-1">&quot;ABABAB&quot;</span>, str2 = <span id="example-input-2-2">&quot;ABAB&quot;</span>
+<strong>Output: </strong><span id="example-output-2">&quot;AB&quot;</span>
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong>str1 = <span id="example-input-3-1">&quot;LEET&quot;</span>, str2 = <span id="example-input-3-2">&quot;CODE&quot;</span>
+<strong>Output: </strong><span id="example-output-3">&quot;&quot;</span>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= str1.length &lt;= 1000</code>
+	<code>1 &lt;= str2.length &lt;= 1000</code>
+	<code>str1[i]</code> and <code>str2[i]</code> are English uppercase letters.
+</ol>

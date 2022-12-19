@@ -1,0 +1,99 @@
+score-of-parentheses
+给定一个平衡括号字符串<code>S</code>，按下述规则计算该字符串的分数：
+
+<ul>
+	<code>()</code> 得 1 分。
+	<code>AB</code> 得<code>A + B</code>分，其中 A 和 B 是平衡括号字符串。
+	<code>(A)</code> 得<code>2 * A</code>分，其中 A 是平衡括号字符串。
+</ul>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入： </strong>&quot;()&quot;
+<strong>输出： </strong>1
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入： </strong>&quot;(())&quot;
+<strong>输出： </strong>2
+</pre>
+
+<strong>示例3：</strong>
+
+<pre><strong>输入： </strong>&quot;()()&quot;
+<strong>输出： </strong>2
+</pre>
+
+<strong>示例4：</strong>
+
+<pre><strong>输入： </strong>&quot;(()(()))&quot;
+<strong>输出： </strong>6
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>S</code>是平衡括号字符串，且只含有<code>(</code>和<code>)</code>。
+	<code>2 &lt;= S.length &lt;= 50</code>
+</ol>
+
+括号的分数
+Given a balanced parentheses string <code>S</code>, compute the score of the string based on the following rule:
+
+<ul>
+	<code>()</code> has score 1
+	<code>AB</code> has score <code>A + B</code>, where A and B are balanced parentheses strings.
+	<code>(A)</code> has score <code>2 * A</code>, where A is a balanced parentheses string.
+</ul>
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;()&quot;</span>
+<strong>Output: </strong><span id="example-output-1">1</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;(())&quot;</span>
+<strong>Output: </strong><span id="example-output-2">2</span>
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">&quot;()()&quot;</span>
+<strong>Output: </strong><span id="example-output-3">2</span>
+</pre>
+
+<div>
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-4-1">&quot;(()(()))&quot;</span>
+<strong>Output: </strong><span id="example-output-4">6</span>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>S</code> is a balanced parentheses string, containing only <code>(</code> and <code>)</code>.
+	<code>2 &lt;= S.length &lt;= 50</code>
+</ol>
+</div>
+</div>
+</div>
+</div>

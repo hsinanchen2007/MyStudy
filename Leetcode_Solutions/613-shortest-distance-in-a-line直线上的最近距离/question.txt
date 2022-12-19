@@ -1,0 +1,70 @@
+shortest-distance-in-a-line
+表<code>point</code>保存了一些点在 x 轴上的坐标，这些坐标都是整数。
+
+
+
+写一个查询语句，找到这些点中最近两个点之间的距离。
+
+
+
+<pre>| x   |
+|-----|
+| -1  |
+| 0   |
+| 2   |
+</pre>
+
+
+
+最近距离显然是 &#39;1&#39; ，是点 &#39;-1&#39; 和 &#39;0&#39; 之间的距离。所以输出应该如下：
+
+
+
+<pre>| shortest|
+|---------|
+| 1       |
+</pre>
+
+
+
+<strong>注意：</strong>每个点都与其他点坐标不同，表<code>table</code>不会有重复坐标出现。
+
+
+
+<strong>进阶：</strong>如果这些点在 x 轴上从左到右都有一个编号，输出结果时需要输出最近点对的编号呢？
+
+
+
+直线上的最近距离
+Table <code>point</code> holds the x coordinate of some points on x-axis in a plane, which are all integers.
+
+Write a query to find the shortest distance between two points in these points.
+
+
+
+<pre>
+| x   |
+|-----|
+| -1  |
+| 0   |
+| 2   |
+</pre>
+
+
+The shortest distance is &#39;1&#39; obviously, which is from point &#39;-1&#39; to &#39;0&#39;. So the output is as below:
+
+
+
+<pre>
+| shortest|
+|---------|
+| 1       |
+</pre>
+
+
+<b>Note:</b> Every point is unique, which means there is no duplicates in table <code>point</code>.
+
+
+<b>Follow-up:</b> What if all these points have an id and are arranged from the left most to the right most of x axis?
+
+

@@ -1,0 +1,1 @@
+先产生一个虚拟的头结点dummyhead，遍历l1与l2，再依次比较l1,l2谁的val值更大， 就将dummyhead的next指向谁，依次这样进行下去。

@@ -1,0 +1,130 @@
+increasing-decreasing-string
+给你一个字符串<code>s</code>，请你根据下面的算法重新构造字符串：
+
+<ol>
+	从 <code>s</code>中选出 <strong>最小</strong>的字符，将它 <strong>接在</strong>结果字符串的后面。
+	从 <code>s</code>剩余字符中选出<strong>最小</strong>的字符，且该字符比上一个添加的字符大，将它 <strong>接在</strong>结果字符串后面。
+	重复步骤 2 ，直到你没法从 <code>s</code>中选择字符。
+	从 <code>s</code>中选出 <strong>最大</strong>的字符，将它 <strong>接在</strong>结果字符串的后面。
+	从 <code>s</code>剩余字符中选出<strong>最大</strong>的字符，且该字符比上一个添加的字符小，将它 <strong>接在</strong>结果字符串后面。
+	重复步骤 5，直到你没法从 <code>s</code>中选择字符。
+	重复步骤 1 到 6 ，直到 <code>s</code>中所有字符都已经被选过。
+</ol>
+
+在任何一步中，如果最小或者最大字符不止一个，你可以选择其中任意一个，并将其添加到结果字符串。
+
+请你返回将<code>s</code>中字符重新排序后的 <strong>结果字符串</strong> 。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;aaaabbbbcccc&quot;
+<strong>输出：</strong>&quot;abccbaabccba&quot;
+<strong>解释：</strong>第一轮的步骤 1，2，3 后，结果字符串为 result = &quot;abc&quot;
+第一轮的步骤 4，5，6 后，结果字符串为 result = &quot;abccba&quot;
+第一轮结束，现在 s = &quot;aabbcc&quot; ，我们再次回到步骤 1
+第二轮的步骤 1，2，3 后，结果字符串为 result = &quot;abccbaabc&quot;
+第二轮的步骤 4，5，6 后，结果字符串为 result = &quot;abccbaabccba&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;rat&quot;
+<strong>输出：</strong>&quot;art&quot;
+<strong>解释：</strong>单词 &quot;rat&quot; 在上述算法重排序以后变成 &quot;art&quot;
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;leetcode&quot;
+<strong>输出：</strong>&quot;cdelotee&quot;
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>s = &quot;ggggggg&quot;
+<strong>输出：</strong>&quot;ggggggg&quot;
+</pre>
+
+<strong>示例 5：</strong>
+
+<pre><strong>输入：</strong>s = &quot;spo&quot;
+<strong>输出：</strong>&quot;ops&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 500</code>
+	<code>s</code>只包含小写英文字母。
+</ul>
+
+上升下降字符串
+Given a string <code>s</code>. You should re-order the string using the following algorithm:
+
+<ol>
+	Pick the <strong>smallest</strong> character from <code>s</code> and <strong>append</strong> it to the result.
+	Pick the <strong>smallest</strong> character from <code>s</code> which is greater than the last appended character to the result and <strong>append</strong> it.
+	Repeat step 2 until you cannot pick more characters.
+	Pick the <strong>largest</strong>character from <code>s</code> and <strong>append</strong> it to the result.
+	Pick the <strong>largest</strong>character from <code>s</code> which is smaller than the last appended character to the result and <strong>append</strong> it.
+	Repeat step 5 until you cannot pick more characters.
+	Repeat the steps from 1 to 6 until you pick all characters from <code>s</code>.
+</ol>
+
+In each step, If the smallest or the largest character appears more than once you can choose any occurrence and append it to the result.
+
+Return <em>the result string</em> after sorting <code>s</code>with this algorithm.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;aaaabbbbcccc&quot;
+<strong>Output:</strong> &quot;abccbaabccba&quot;
+<strong>Explanation:</strong> After steps 1, 2 and 3 of the first iteration, result = &quot;abc&quot;
+After steps 4, 5 and 6 of the first iteration, result = &quot;abccba&quot;
+First iteration is done. Now s = &quot;aabbcc&quot; and we go back to step 1
+After steps 1, 2 and 3 of the second iteration, result = &quot;abccbaabc&quot;
+After steps 4, 5 and 6 of the second iteration, result = &quot;abccbaabccba&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;rat&quot;
+<strong>Output:</strong> &quot;art&quot;
+<strong>Explanation:</strong> The word &quot;rat&quot; becomes &quot;art&quot; after re-ordering it with the mentioned algorithm.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;leetcode&quot;
+<strong>Output:</strong> &quot;cdelotee&quot;
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;ggggggg&quot;
+<strong>Output:</strong> &quot;ggggggg&quot;
+</pre>
+
+<strong>Example 5:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;spo&quot;
+<strong>Output:</strong> &quot;ops&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 500</code>
+	<code>s</code> contains only lower-case English letters.
+</ul>

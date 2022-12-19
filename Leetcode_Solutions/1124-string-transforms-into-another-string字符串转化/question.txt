@@ -1,0 +1,65 @@
+string-transforms-into-another-string
+给出两个长度相同的字符串，分别是<code>str1</code>和 <code>str2</code>。请你帮忙判断字符串 <code>str1</code> 能不能在 <strong>零次</strong>或 <strong>多次</strong>转化后变成字符串 <code>str2</code>。
+
+每一次转化时，将会一次性将 <code>str1</code> 中出现的<strong>所有</strong>相同字母变成其他<strong>任何</strong>小写英文字母（见示例）。
+
+只有在字符串 <code>str1</code>能够通过上述方式顺利转化为字符串 <code>str2</code>时才能返回<code>True</code>，否则返回 <code>False</code>。​​
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>str1 = &quot;aabcc&quot;, str2 = &quot;ccdee&quot;
+<strong>输出：</strong>true
+<strong>解释：</strong>将 &#39;c&#39; 变成 &#39;e&#39;，然后把 &#39;b&#39; 变成 &#39;d&#39;，接着再把 &#39;a&#39; 变成 &#39;c&#39;。注意，转化的顺序也很重要。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>str1 = &quot;leetcode&quot;, str2 = &quot;codeleet&quot;
+<strong>输出：</strong>false
+<strong>解释：</strong>我们没有办法能够把 str1 转化为 str2。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= str1.length == str2.length &lt;= 10^4</code>
+	<code>str1</code>和 <code>str2</code> 中都只会出现<strong>小写英文字母</strong>
+</ol>
+
+字符串转化
+Given two strings <code>str1</code> and <code>str2</code>of the same length, determine whether you can transform <code>str1</code>into <code>str2</code> by doing <strong>zero or more</strong><em>conversions</em>.
+
+In one conversion you can convert<strong>all</strong> occurrences of one character in <code>str1</code> to<strong>any</strong> other lowercase English character.
+
+Return <code>true</code>if and only if you can transform <code>str1</code> into <code>str2</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>str1 = <span id="example-input-1-1">&quot;aabcc&quot;</span>, str2 = <span id="example-input-1-2">&quot;ccdee&quot;</span>
+<strong>Output: </strong><span id="example-output-1">true</span>
+<strong>Explanation: </strong>Convert &#39;c&#39; to &#39;e&#39; then &#39;b&#39; to &#39;d&#39; then &#39;a&#39; to &#39;c&#39;. Note that the order of conversions matter.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>str1 = <span id="example-input-2-1">&quot;leetcode&quot;</span>, str2 = <span id="example-input-2-2">&quot;codeleet&quot;</span>
+<strong>Output: </strong><span id="example-output-2">false</span>
+<strong>Explanation: </strong>There is no way to transform str1 to str2.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= str1.length == str2.length &lt;= 10^4</code>
+	Both <code>str1</code> and <code>str2</code> contain only lowercase English letters.
+</ol>

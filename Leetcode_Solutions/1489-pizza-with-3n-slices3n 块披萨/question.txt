@@ -1,0 +1,113 @@
+pizza-with-3n-slices
+给你一个披萨，它由 3n 块不同大小的部分组成，现在你和你的朋友们需要按照如下规则来分披萨：
+
+<ul>
+	你挑选 <strong>任意</strong>一块披萨。
+	Alice 将会挑选你所选择的披萨逆时针方向的下一块披萨。
+	Bob 将会挑选你所选择的披萨顺时针方向的下一块披萨。
+	重复上述过程直到没有披萨剩下。
+</ul>
+
+每一块披萨的大小按顺时针方向由循环数组 <code>slices</code>表示。
+
+请你返回你可以获得的披萨大小总和的最大值。
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/21/sample_3_1723.png" style="height: 240px; width: 475px;">
+
+<pre><strong>输入：</strong>slices = [1,2,3,4,5,6]
+<strong>输出：</strong>10
+<strong>解释：</strong>选择大小为 4 的披萨，Alice 和 Bob 分别挑选大小为 3 和 5 的披萨。然后你选择大小为 6 的披萨，Alice 和 Bob 分别挑选大小为 2 和 1 的披萨。你获得的披萨总大小为 4 + 6 = 10 。
+</pre>
+
+<strong>示例 2：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/21/sample_4_1723.png" style="height: 250px; width: 475px;"></strong>
+
+<pre><strong>输入：</strong>slices = [8,9,8,6,1,1]
+<strong>输出：</strong>16
+<strong>解释：</strong>两轮都选大小为 8 的披萨。如果你选择大小为 9 的披萨，你的朋友们就会选择大小为 8 的披萨，这种情况下你的总和不是最大的。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>slices = [4,1,2,5,8,3,1,9,7]
+<strong>输出：</strong>21
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>slices = [3,1,2]
+<strong>输出：</strong>3
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= slices.length &lt;= 500</code>
+	<code>slices.length % 3 == 0</code>
+	<code>1 &lt;= slices[i] &lt;= 1000</code>
+</ul>
+
+3n 块披萨
+There is a pizza with 3n slices of varying size, you and your friends will take slices of pizza as follows:
+
+<ul>
+	You will pick <strong>any</strong> pizza slice.
+	Your friend Alicewill picknext slice in anti clockwise direction of your pick.
+	Your friend Bobwillpicknext slice in clockwise direction of your pick.
+	Repeatuntilthere are no more slices of pizzas.
+</ul>
+
+Sizes of Pizza slices is represented by circular array <code>slices</code> in clockwise direction.
+
+Return the maximum possible sum of slice sizes which you can have.
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/18/sample_3_1723.png" style="width: 475px; height: 240px;" />
+
+<pre>
+<strong>Input:</strong> slices = [1,2,3,4,5,6]
+<strong>Output:</strong> 10
+<strong>Explanation:</strong> Pick pizza slice of size 4, Alice and Bob will pick slices with size 3 and 5 respectively. Then Pick slices with size 6, finally Alice and Bob will pick slice of size 2 and 1 respectively. Total = 4 + 6.
+</pre>
+
+<strong>Example 2:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2020/02/18/sample_4_1723.png" style="width: 475px; height: 250px;" /></strong>
+
+<pre>
+<strong>Input:</strong> slices = [8,9,8,6,1,1]
+<strong>Output:</strong> 16
+<strong>Output:</strong> Pick pizza slice of size 8 in each turn. If you pick slice with size 9 your partners will pick slices of size 8.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> slices = [4,1,2,5,8,3,1,9,7]
+<strong>Output:</strong> 21
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> slices = [3,1,2]
+<strong>Output:</strong> 3
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= slices.length &lt;= 500</code>
+	<code>slices.length % 3 == 0</code>
+	<code>1 &lt;= slices[i] &lt;= 1000</code>
+</ul>

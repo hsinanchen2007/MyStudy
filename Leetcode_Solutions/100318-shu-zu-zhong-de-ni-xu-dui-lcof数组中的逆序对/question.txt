@@ -1,0 +1,18 @@
+shu-zu-zhong-de-ni-xu-dui-lcof
+在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。输入一个数组，求出这个数组中的逆序对的总数。
+
+
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入</strong>: [7,5,6,4]
+<strong>输出</strong>: 5</pre>
+
+
+
+<strong>限制：</strong>
+
+<code>0 &lt;= 数组长度 &lt;= 50000</code>
+
+数组中的逆序对
+English description is not available for the problem. Please switch to Chinese.

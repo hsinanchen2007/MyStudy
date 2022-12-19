@@ -1,0 +1,52 @@
+n-queens-ii
+<em>n</em>皇后问题研究的是如何将 <em>n</em>个皇后放置在 <em>n</em>&times;<em>n</em> 的棋盘上，并且使皇后彼此之间不能相互攻击。
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png" style="height: 276px; width: 258px;">
+
+<small>上图为 8 皇后问题的一种解法。</small>
+
+给定一个整数 <em>n</em>，返回 <em>n</em> 皇后不同的解决方案的数量。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> 4
+<strong>输出:</strong> 2
+<strong>解释:</strong> 4 皇后问题存在如下两个不同的解法。
+[
+[&quot;.Q..&quot;, // 解法 1
+ &quot;...Q&quot;,
+ &quot;Q...&quot;,
+ &quot;..Q.&quot;],
+
+[&quot;..Q.&quot;, // 解法 2
+ &quot;Q...&quot;,
+ &quot;...Q&quot;,
+ &quot;.Q..&quot;]
+]
+</pre>
+
+N皇后 II
+The <em>n</em>-queens puzzle is the problem of placing <em>n</em> queens on an <em>n</em>&times;<em>n</em> chessboard such that no two queens attack each other.
+
+<img src="https://assets.leetcode.com/uploads/2018/10/12/8-queens.png" style="width: 258px; height: 276px;" />
+
+Given an integer<em>n</em>, return the number ofdistinct solutions to the<em>n</em>-queens puzzle.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> 4
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> There are two distinct solutions to the 4-queens puzzle as shown below.
+[
+[&quot;.Q..&quot;, // Solution 1
+ &quot;...Q&quot;,
+ &quot;Q...&quot;,
+ &quot;..Q.&quot;],
+
+[&quot;..Q.&quot;, // Solution 2
+ &quot;Q...&quot;,
+ &quot;...Q&quot;,
+ &quot;.Q..&quot;]
+]
+</pre>

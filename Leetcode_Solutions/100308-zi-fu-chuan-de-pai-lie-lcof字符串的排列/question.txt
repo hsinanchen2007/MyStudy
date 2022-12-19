@@ -1,0 +1,23 @@
+zi-fu-chuan-de-pai-lie-lcof
+输入一个字符串，打印出该字符串中字符的所有排列。
+
+
+
+你可以以任意顺序返回这个字符串数组，但里面不能有重复元素。
+
+
+
+<strong>示例:</strong>
+
+<pre><strong>输入：</strong>s = &quot;abc&quot;
+<strong>输出：[</strong>&quot;abc&quot;,&quot;acb&quot;,&quot;bac&quot;,&quot;bca&quot;,&quot;cab&quot;,&quot;cba&quot;<strong>]</strong>
+</pre>
+
+
+
+<strong>限制：</strong>
+
+<code>1 &lt;= s 的长度 &lt;= 8</code>
+
+字符串的排列
+English description is not available for the problem. Please switch to Chinese.

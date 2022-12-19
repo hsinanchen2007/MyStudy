@@ -1,0 +1,84 @@
+remove-all-adjacent-duplicates-in-string-ii
+给你一个字符串<code>s</code>，「<code>k</code> 倍重复项删除操作」将会从 <code>s</code>中选择<code>k</code>个相邻且相等的字母，并删除它们，使被删去的字符串的左侧和右侧连在一起。
+
+你需要对<code>s</code>重复进行无限次这样的删除操作，直到无法继续为止。
+
+在执行完所有删除操作后，返回最终得到的字符串。
+
+本题答案保证唯一。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;abcd&quot;, k = 2
+<strong>输出：</strong>&quot;abcd&quot;
+<strong>解释：</strong>没有要删除的内容。</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;deeedbbcccbdaa&quot;, k = 3
+<strong>输出：</strong>&quot;aa&quot;
+<strong>解释： 
+</strong>先删除 &quot;eee&quot; 和 &quot;ccc&quot;，得到 &quot;ddbbbdaa&quot;
+再删除 &quot;bbb&quot;，得到 &quot;dddaa&quot;
+最后删除 &quot;ddd&quot;，得到 &quot;aa&quot;</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;pbbcggttciiippooaais&quot;, k = 2
+<strong>输出：</strong>&quot;ps&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>2 &lt;= k &lt;= 10^4</code>
+	<code>s</code>中只含有小写英文字母。
+</ul>
+
+删除字符串中的所有相邻重复项 II
+Given a string<code>s</code>, a <em>k</em><em>duplicate removal</em>consists of choosing <code>k</code>adjacent and equal letters from<code>s</code> and removingthem causing the left and the right side of the deleted substring to concatenate together.
+
+We repeatedly make <code>k</code> duplicate removals on <code>s</code> until we no longer can.
+
+Return the final string after all such duplicate removals have been made.
+
+It is guaranteed that the answer is unique.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;abcd&quot;, k = 2
+<strong>Output:</strong> &quot;abcd&quot;
+<strong>Explanation: </strong>There&#39;s nothing to delete.</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;deeedbbcccbdaa&quot;, k = 3
+<strong>Output:</strong> &quot;aa&quot;
+<strong>Explanation: 
+</strong>First delete &quot;eee&quot; and &quot;ccc&quot;, get &quot;ddbbbdaa&quot;
+Then delete &quot;bbb&quot;, get &quot;dddaa&quot;
+Finally delete &quot;ddd&quot;, get &quot;aa&quot;</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;pbbcggttciiippooaais&quot;, k = 2
+<strong>Output:</strong> &quot;ps&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>2 &lt;= k &lt;= 10^4</code>
+	<code>s</code> only contains lower case English letters.
+</ul>

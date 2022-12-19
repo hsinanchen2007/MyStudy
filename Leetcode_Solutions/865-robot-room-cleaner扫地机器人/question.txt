@@ -1,0 +1,109 @@
+robot-room-cleaner
+房间（用格栅表示）中有一个扫地机器人。格栅中的每一个格子有空和障碍物两种可能。
+
+扫地机器人提供4个API，可以向前进，向左转或者向右转。每次转弯90度。
+
+当扫地机器人试图进入障碍物格子时，它的碰撞传感器会探测出障碍物，使它停留在原地。
+
+请利用提供的4个API编写让机器人清理整个房间的算法。
+
+<pre>interface Robot {
+ // 若下一个方格为空，则返回true，并移动至该方格
+ // 若下一个方格为障碍物，则返回false，并停留在原地
+ boolean move();
+
+  // 在调用turnLeft/turnRight后机器人会停留在原位置
+ // 每次转弯90度
+ void turnLeft();
+ void turnRight();
+
+  // 清理所在方格
+  void clean();
+}
+</pre>
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong>
+room = [
+  [1,1,1,1,1,0,1,1],
+  [1,1,1,1,1,0,1,1],
+  [1,0,1,1,1,1,1,1],
+  [0,0,0,1,0,0,0,0],
+  [1,1,1,1,1,1,1,1]
+],
+row = 1,
+col = 3
+
+<strong>解析:</strong>
+房间格栅用0或1填充。0表示障碍物，1表示可以通过。
+机器人从row=1，col=3的初始位置出发。在左上角的一行以下，三列以右。
+</pre>
+
+<strong>注意:</strong>
+
+<ol>
+	输入只用于初始化房间和机器人的位置。你需要&ldquo;盲解&rdquo;这个问题。换而言之，你必须在对房间和机器人位置一无所知的情况下，只使用4个给出的API解决问题。
+	扫地机器人的初始位置一定是空地。
+	扫地机器人的初始方向向上。
+	所有可抵达的格子都是相连的，亦即所有标记为1的格子机器人都可以抵达。
+	可以假定格栅的四周都被墙包围。
+</ol>
+
+扫地机器人
+Given a robot cleaner in a room modeled as a grid.
+
+Each cell in the grid can be empty or blocked.
+
+The robot cleaner with 4 given APIs can move forward, turn left or turn right. Each turn it made is 90 degrees.
+
+When it tries to move into a blocked cell, its bumper sensor detects the obstacle and it stays on the current cell.
+
+Design an algorithm to clean the entire room using only the 4 given APIs shown below.
+
+<pre>
+interface Robot {
+ // returns true if next cell is open and robot moves into the cell.
+ // returns false if next cell is obstacle and robot stays on the current cell.
+ boolean move();
+
+  // Robot will stay on the same cell after calling turnLeft/turnRight.
+ // Each turn will be 90 degrees.
+ void turnLeft();
+ void turnRight();
+
+  // Clean the current cell.
+  void clean();
+}
+</pre>
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong>
+room = [
+  [1,1,1,1,1,0,1,1],
+  [1,1,1,1,1,0,1,1],
+  [1,0,1,1,1,1,1,1],
+  [0,0,0,1,0,0,0,0],
+  [1,1,1,1,1,1,1,1]
+],
+row = 1,
+col = 3
+
+<strong>Explanation:</strong>
+All grids in the room are marked by either 0 or 1.
+0 means the cell is blocked, while 1 means the cell is accessible.
+The robot initially starts at the position of row=1, col=3.
+From the top left corner, its position is one row below and three columns right.
+</pre>
+
+<strong>Notes:</strong>
+
+<ol>
+	The input is only given to initialize the room and the robot&#39;s position internally.You must solve this problem &quot;blindfolded&quot;. In other words, you must control the robot using only the mentioned 4 APIs, without knowing the room layout and the initial robot&#39;s position.
+	The robot&#39;s initial position will always be in an accessible cell.
+	The initial direction of the robot will be facing up.
+	All accessible cells are connected, which means the all cells marked as 1 will be accessible by the robot.
+	Assume all four edges of the grid are all surrounded by wall.
+</ol>

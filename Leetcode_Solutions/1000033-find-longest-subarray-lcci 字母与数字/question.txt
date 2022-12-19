@@ -1,0 +1,51 @@
+find-longest-subarray-lcci
+给定一个放有字符和数字的数组，找到最长的子数组，且包含的字符和数字的个数相同。
+
+返回该子数组，若存在多个最长子数组，返回左端点最小的。若不存在这样的数组，返回一个空数组。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>[&quot;A&quot;,&quot;1&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;E&quot;,&quot;5&quot;,&quot;F&quot;,&quot;G&quot;,&quot;6&quot;,&quot;7&quot;,&quot;H&quot;,&quot;I&quot;,&quot;J&quot;,&quot;K&quot;,&quot;L&quot;,&quot;M&quot;]
+
+<strong>输出: </strong>[&quot;A&quot;,&quot;1&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;E&quot;,&quot;5&quot;,&quot;F&quot;,&quot;G&quot;,&quot;6&quot;,&quot;7&quot;]
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>[&quot;A&quot;,&quot;A&quot;]
+
+<strong>输出: </strong>[]
+</pre>
+
+<strong>提示：</strong>
+
+<ul>
+	<code>array.length &lt;= 100000</code>
+</ul>
+
+ 字母与数字
+Given an array filled with letters and numbers, find the longest subarray with an equal number of letters and numbers.
+
+Return the subarray. If there are more than one answer, return the one which has the smallestindex of its left endpoint. If there is no answer, return an empty arrary.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>[&quot;A&quot;,&quot;1&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;E&quot;,&quot;5&quot;,&quot;F&quot;,&quot;G&quot;,&quot;6&quot;,&quot;7&quot;,&quot;H&quot;,&quot;I&quot;,&quot;J&quot;,&quot;K&quot;,&quot;L&quot;,&quot;M&quot;]
+
+<strong>Output: </strong>[&quot;A&quot;,&quot;1&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;E&quot;,&quot;5&quot;,&quot;F&quot;,&quot;G&quot;,&quot;6&quot;,&quot;7&quot;]
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>[&quot;A&quot;,&quot;A&quot;]
+
+<strong>Output: </strong>[]
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>array.length &lt;= 100000</code>
+</ul>

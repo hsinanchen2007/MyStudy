@@ -1,0 +1,157 @@
+## 方法1：构建自己的链表
+
+```python
+# 题目定义的节点
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+# 自己定义的单链表
+class LinkedList:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+    
+    def is_empty(self):
+        return self.head ==  None
+    
+    def append(self, data):
+        node = ListNode(data)
+        if self.head is None:
+            self.head = node
+            self.tail = node
+        else:
+            self.tail.next = node
+            self.tail = node
+    
+    def show(self):
+        if self.is_empty():
+            print("链表为空")
+            return
+       	head = self.head
+        while self.head != None:
+            print(self.head.val)
+            self.head = self.head.next
+        self.head = head
+
+
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        result = []
+        while True:
+            l1_val = l1.val if l1 != None else 0
+            l2_val = l2.val if l2 != None else 0
+            mid_num = l1_val + l2_val
+            if mid_num >= 10:
+                if l1.next != None:
+                    l1.next.val += 1
+                else:
+                    l1.next = ListNode(1)
+                mid_num = mid_num % 10
+            result.append(mid_num)
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+            if l1 == None and l2 == None:
+                break
+        new_li = LinkedList()
+        for each in result:
+            new_li.append(each) 
+        # 用于测试
+        # new_li.show()       
+        return new_li.head
+```
+
+**这里需要注意的是返回的结果只要是第一个节点，LeetCode就会进行自动遍历进行校验**
+
+```python
+test_1 = [2, 4, 3]
+test_2 = [5, 6, 4]
+l1 = LinkedList()
+l2 = LinkedList()
+for each in test_1:
+    l1.append(each)
+for each in test_2:
+    l2.append(each)
+s = Solution()
+s.addTwoNumbers(l1.head, l2.head)
+# 上面这些是测试数据
+# 预计结果[7,0,8]
+```
+
+运行结果：
+
+```
+执行用时 :72 ms, 在所有 python3 提交中击败了98.44% 的用户
+内存消耗 :14 MB, 在所有 python3 提交中击败了5.06%的用户
+
+执行用时 :76 ms, 在所有 python3 提交中击败了95.97% 的用户
+内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.06%的用户
+
+执行用时 :84 ms, 在所有 python3 提交中击败了84.08% 的用户
+内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.06%的用户
+```
+
+这次没有遇到什么超时问题，还蛮顺利的o(￣︶￣)o
+
+## 方法2：正常判断
+
+核心思路和上面那个一样，代码进行优化
+
+```python
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        new_list_node = ListNode(-1)
+        head = new_list_node
+        while l1 and l2:
+            new_result = l1.val + l2.val
+            if new_result >= 10:
+                new_result -= 10
+                if l1.next:
+                    l1.next.val += 1
+                else:
+                    l1.next = ListNode(1)
+            new_list_node.next = ListNode(new_result)
+            l1 = l1.next
+            l2 = l2.next
+            new_list_node = new_list_node.next
+        while l1:
+            l1_value = l1.val
+            if l1_value >= 10:
+                l1_value -= 10
+                if l1.next:
+                    l1.next.val += 1
+                else:
+                    l1.next = ListNode(1)
+            new_list_node.next = ListNode(l1_value)
+            new_list_node = new_list_node.next
+            l1 = l1.next
+        while l2:
+            l2_value = l2.val
+            if l2_value >= 10:
+                l2_value -= 10
+                if l2.next:
+                    l2.next.val += 1
+                else:
+                    l2.next = ListNode(1)
+            new_list_node.next = ListNode(l2_value)
+            new_list_node = new_list_node.next
+            l2 = l2.next
+        return head.next
+          
+```
+
+运行结果
+
+```
+执行用时 :72 ms, 在所有 Python3 提交中击败了69.02% 的用户
+内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.01%的用户
+
+执行用时 :96 ms, 在所有 Python3 提交中击败了25.73% 的用户
+内存消耗 :13.5 MB, 在所有 Python3 提交中击败了5.01%的用户
+
+执行用时 :80 ms, 在所有 Python3 提交中击败了41.45% 的用户
+内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.01%的用户
+```
+
+欢迎来github上看更多题目的解答[力扣解题思路](

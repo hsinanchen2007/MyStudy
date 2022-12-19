@@ -1,0 +1,88 @@
+path-with-maximum-minimum-value
+给你一个 R 行 C 列的整数矩阵<code>A</code>。矩阵上的路径从<code>[0,0]</code>开始，在<code>[R-1,C-1]</code>结束。
+
+路径沿四个基本方向（上、下、左、右）展开，从一个已访问单元格移动到任一相邻的未访问单元格。
+
+路径的得分是该路径上的 <strong>最小</strong> 值。例如，路径 8 &rarr; 4 &rarr; 5 &rarr; 9 的值为 4 。
+
+找出所有路径中得分 <strong>最高</strong> 的那条路径，返回其<strong>得分</strong>。
+
+
+
+<strong>示例 1：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/06/27/1313_ex1.jpeg" style="height: 59px; width: 70px;"></strong>
+
+<pre><strong>输入：</strong>[[5,4,5],[1,2,6],[7,4,6]]
+<strong>输出：</strong>4
+<strong>解释： </strong>
+得分最高的路径用黄色突出显示。 
+</pre>
+
+<strong>示例 2：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/06/27/1313_ex2.jpeg" style="height: 39px; width: 134px;"></strong>
+
+<pre><strong>输入：</strong>[[2,2,1,2,2,2],[1,2,2,2,1,2]]
+<strong>输出：</strong>2</pre>
+
+<strong>示例 3：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/06/27/1313_ex3.jpeg"></strong>
+
+<pre><strong>输入：</strong>[[3,4,6,3,4],[0,2,1,1,7],[8,8,3,2,7],[3,2,4,9,8],[4,1,2,0,0],[4,6,5,4,3]]
+<strong>输出：</strong>3</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= R, C&lt;= 100</code>
+	<code>0 &lt;= A[i][j] &lt;= 10^9</code>
+</ol>
+
+得分最高的路径
+Given amatrix of integers <code>A</code>with<font face="monospace">R</font>rows and <font face="monospace">C</font>columns, findthe <strong>maximum</strong>scoreof a path starting at<code>[0,0]</code>and ending at <code>[R-1,C-1]</code>.
+
+The <em>score</em> of a path is the <strong>minimum</strong> value in that path. For example, the value of the path 8 &rarr; 4 &rarr; 5 &rarr; 9 is 4.
+
+A <em>path</em> moves some number of times from one visited cell to any neighbouring unvisited cell in one of the 4 cardinal directions (north, east, west, south).
+
+
+
+<strong>Example 1:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/04/23/1313_ex1.JPG" style="width: 70px; height: 59px;" /></strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[5,4,5],[1,2,6],[7,4,6]]</span>
+<strong>Output: </strong><span id="example-output-1">4</span>
+<strong>Explanation: </strong>
+The path with the maximum score is highlighted in yellow. 
+</pre>
+
+<strong>Example 2:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/04/23/1313_ex2.JPG" style="width: 134px; height: 39px;" /></strong>
+
+<pre>
+<strong>Input: </strong><span>[[2,2,1,2,2,2],[1,2,2,2,1,2]]</span>
+<strong>Output: 2</strong></pre>
+
+<strong>Example 3:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/04/23/1313_ex3.JPG" /></strong>
+
+<pre>
+<strong>Input: </strong><span>[[3,4,6,3,4],[0,2,1,1,7],[8,8,3,2,7],[3,2,4,9,8],[4,1,2,0,0],[4,6,5,4,3]]</span>
+<strong>Output: 3</strong></pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= R, C&lt;= 100</code>
+	<code>0 &lt;= A[i][j] &lt;= 10^9</code>
+</ol>

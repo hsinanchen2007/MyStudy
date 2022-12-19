@@ -1,0 +1,51 @@
+reorganize-string
+给定一个字符串<code>S</code>，检查是否能重新排布其中的字母，使得两相邻的字符不同。
+
+若可行，输出任意可行的结果。若不可行，返回空字符串。
+
+<strong>示例1:</strong>
+
+<pre>
+<strong>输入:</strong> S = &quot;aab&quot;
+<strong>输出:</strong> &quot;aba&quot;
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre>
+<strong>输入:</strong> S = &quot;aaab&quot;
+<strong>输出:</strong> &quot;&quot;
+</pre>
+
+<strong>注意:</strong>
+
+<ul>
+	<code>S</code> 只包含小写字母并且长度在<code>[1, 500]</code>区间内。
+</ul>
+
+重构字符串
+Given a string <code>S</code>, check if the letters can be rearranged so that two characters that are adjacent to each other are not the same.
+
+If possible, output any possible result. If not possible, return the empty string.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> S = &quot;aab&quot;
+<strong>Output:</strong> &quot;aba&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> S = &quot;aaab&quot;
+<strong>Output:</strong> &quot;&quot;
+</pre>
+
+<strong>Note:</strong>
+
+<ul>
+	<code>S</code> will consist of lowercase letters and have length in range <code>[1, 500]</code>.
+</ul>
+
+

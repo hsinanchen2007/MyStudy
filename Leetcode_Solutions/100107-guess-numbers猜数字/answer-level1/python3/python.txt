@@ -1,0 +1,1 @@
+return [i==j for i,j in zip(guess,answer)].count(True)

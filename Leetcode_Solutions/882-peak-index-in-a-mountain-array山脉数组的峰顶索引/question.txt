@@ -1,0 +1,67 @@
+peak-index-in-a-mountain-array
+我们把符合下列属性的数组<code>A</code>称作山脉：
+
+<ul>
+	<code>A.length &gt;= 3</code>
+	存在 <code>0 &lt; i&lt; A.length - 1</code> 使得<code>A[0] &lt; A[1] &lt; ... A[i-1] &lt; A[i] &gt; A[i+1] &gt; ... &gt; A[A.length - 1]</code>
+</ul>
+
+给定一个确定为山脉的数组，返回任何满足<code>A[0] &lt; A[1] &lt; ... A[i-1] &lt; A[i] &gt; A[i+1] &gt; ... &gt; A[A.length - 1]</code>的 <code>i</code>的值。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[0,1,0]
+<strong>输出：</strong>1
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[0,2,1,0]
+<strong>输出：</strong>1</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>3 &lt;= A.length &lt;= 10000</code>
+	0 &lt;= A[i] &lt;= 10^6
+	A 是如上定义的山脉
+</ol>
+
+
+
+山脉数组的峰顶索引
+Let&#39;s call an array <code>A</code> a <em>mountain</em>if the following properties hold:
+
+<ul>
+	<code>A.length &gt;= 3</code>
+	There exists some <code>0 &lt; i&lt; A.length - 1</code> such that <code>A[0] &lt; A[1] &lt; ... A[i-1] &lt; A[i] &gt; A[i+1] &gt; ... &gt; A[A.length - 1]</code>
+</ul>
+
+Given an array that is definitely a mountain, return any<code>i</code>such that<code>A[0] &lt; A[1] &lt; ... A[i-1] &lt; A[i] &gt; A[i+1] &gt; ... &gt; A[A.length - 1]</code>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[0,1,0]</span>
+<strong>Output: </strong><span id="example-output-1">1</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[0,2,1,0]</span>
+<strong>Output: </strong><span id="example-output-2">1</span></pre>
+</div>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>3 &lt;= A.length &lt;= 10000</code>
+	<code><font face="monospace">0 &lt;= A[i] &lt;= 10^6</font></code>
+	Ais a mountain, as defined above.
+</ol>

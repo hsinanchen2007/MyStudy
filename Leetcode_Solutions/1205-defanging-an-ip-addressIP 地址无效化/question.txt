@@ -1,0 +1,46 @@
+defanging-an-ip-address
+给你一个有效的 <a href="https://baike.baidu.com/item/IPv4" target="_blank">IPv4</a> 地址<code>address</code>，返回这个 IP 地址的无效化版本。
+
+所谓无效化IP 地址，其实就是用<code>&quot;[.]&quot;</code>代替了每个 <code>&quot;.&quot;</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>address = &quot;1.1.1.1&quot;
+<strong>输出：</strong>&quot;1[.]1[.]1[.]1&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>address = &quot;255.100.50.0&quot;
+<strong>输出：</strong>&quot;255[.]100[.]50[.]0&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	给出的<code>address</code>是一个有效的 IPv4 地址
+</ul>
+
+IP 地址无效化
+Given a valid (IPv4) IP <code>address</code>, return a defanged version of that IP address.
+
+A <em>defangedIP address</em>replaces every period <code>&quot;.&quot;</code> with <code>&quot;[.]&quot;</code>.
+
+
+<strong>Example 1:</strong>
+<pre><strong>Input:</strong> address = "1.1.1.1"
+<strong>Output:</strong> "1[.]1[.]1[.]1"
+</pre><strong>Example 2:</strong>
+<pre><strong>Input:</strong> address = "255.100.50.0"
+<strong>Output:</strong> "255[.]100[.]50[.]0"
+</pre>
+
+<strong>Constraints:</strong>
+
+<ul>
+	The given <code>address</code> is a valid IPv4 address.
+</ul>

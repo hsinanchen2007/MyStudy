@@ -1,0 +1,133 @@
+# 1297. 子串的最大出现次数
+
+Hi 大家好，我是张小猪。欢迎来到『宝宝也能看懂』系列之 leetcode 周赛题解。
+
+这里是第 168 期的第 3 题，也是题目列表中的第 1297 题 -- 『子串的最大出现次数』
+
+## 题目描述
+
+给你一个字符串 `s`，请你返回满足以下条件且出现次数最大的 **任意** 子串的出现次数：
+
+- 子串中不同字母的数目必须小于等于 `maxLetters`。
+- 子串的长度必须大于等于 `minSize` 且小于等于 `maxSize`。
+
+示例 1：
+
+```shell
+输入：s = "aababcaab", maxLetters = 2, minSize = 3, maxSize = 4
+输出：2
+解释：子串 "aab" 在原字符串中出现了 2 次。
+它满足所有的要求：2 个不同的字母，长度为 3 （在 minSize 和 maxSize 范围内）。
+```
+
+示例 2：
+
+```shell
+输入：s = "aaaa", maxLetters = 1, minSize = 3, maxSize = 3
+输出：2
+解释：子串 "aaa" 在原字符串中出现了 2 次，且它们有重叠部分。
+```
+
+示例 3：
+
+```shell
+输入：s = "aabcabcab", maxLetters = 2, minSize = 2, maxSize = 3
+输出：3
+```
+
+示例 4：
+
+```shell
+输入：s = "abcde", maxLetters = 2, minSize = 3, maxSize = 3
+输出：0
+```
+
+提示：
+
+```shell
+1 <= s.length <= 10^5
+1 <= maxLetters <= 26
+1 <= minSize <= maxSize <= min(26, s.length)
+s only contains lowercase English letters.
+```
+
+## 官方难度
+
+MEDIUM
+
+## 解决思路
+
+乍一看题目内容似乎还挺复杂，仅输入参数就有 4 个。细看一下，描述的过程为，尝试把输入的字符串 `s` 进行拆分，对子字符串的要求为最多包含 `maxLetters` 个不同的字符，并且长度要在 `[minSize, maxSize]` 这个区间里。每个这样的子字符串可能会在 `s` 中出现一次或者多次。需要返回最大的子字符串出现次数。
+
+结合题目内容和例子，我们可以发现一件事情。假设我们子字符串的长度范围为 [2,4]，并且允许的最大不同字符数为 4，那么所有满足需求的长度为 4 的子字符串，它的每一次重复里一定至少包含一次长度为 2 的子字符串。例如对于字符串 "abcdefghabcd"，其中 "abcd" 重复了两次，那么至少 "ab" 也重复了两次。
+
+由于我们是为了求得最大的子字符串出现的次数，所以根据上面发现的事情，我们不难得到其实我们只需要去找出满足条件要求的最短的子字符串，然后完成计数即可。因为比它更长的子字符串的出现次数一定是小于或者等于它的。
+
+### 直接方案
+
+基于我们上述的思路，最直接的想法是，我们可以从头开始遍历整个原始字符串，找到每个符合要求的最短的子字符串。然后利用 Map 结构完成计数。最终得到最大的结果。代码如下：
+
+```js
+const maxFreq = (s, maxLetters, minSize, maxSize) => {
+  const substrMap = new Map();
+  let max = 0;
+  outer:
+  for (let i = 0; i <= s.length - minSize; ++i) {
+    const substr = s.substr(i, minSize);
+    const letterSet = new Set();
+    for (const char of substr) {
+      letterSet.add(char);
+      if (letterSet.size > maxLetters) continue outer;
+    }
+    const count = substrMap.has(substr) ? substrMap.get(substr) + 1 : 1;
+    substrMap.set(substr, count);
+    count > max && (max = count);
+  }
+  return max;
+};
+```
+
+这段代码在 Accepted 后我跑到了 112ms 的结果。其中用到了不太常见的 label，大家如果不喜欢的可以在内部循环后，添加一个判断用以直接跳出即可。
+
+### 优化
+
+比较惭愧的说，这个优化其实并不来源于我自己。在上述方案提交后，我重新看了一下题目的描述，在关联话题里我看到了 Bit Manipulation 这一项。再结合原始字符串 `s` 只会包含小写英文字母。于是被提醒到了这一个优化点。
+
+上述方案里，我们判断子字符串中不同字符出现的数量，是通过遍历结合 `Set` 的方式实现的，循环中每次都会执行集合操作。但是由于小写英文字母一共只有 26 个，而每个字母的状态也只有两种，即出现或未出现。于是我们可以联想到用 0 和 1 这两个值标识这两种状态，并且天然的我们的数字在计算机中就是二进制来表示，于是我们可以尝试用 32 位的 Int 直接标识出子字符串中所有的字母状态。
+
+利用这个思路，我们可以省下很多集合的操作，代价只是简单的位运算。与此同时，空间上来看也有很大的优势。代码如下：
+
+```js
+const maxFreq = (s, maxLetters, minSize, maxSize) => {
+  const substrMap = new Map();
+  let max = 0;
+  outer:
+  for (let i = 0; i <= s.length - minSize; ++i) {
+    const substr = s.substr(i, minSize);
+    let flag = len = 0;
+    for (let i = 0; i < substr.length; ++i) {
+      const inc = 1 << (substr.charCodeAt(i) - 97);
+      if ((flag & inc) === 0 && ++len > maxLetters) continue outer;
+      flag |= inc;
+    }
+    const count = substrMap.has(substr) ? substrMap.get(substr) + 1 : 1;
+    substrMap.set(substr, count);
+    count > max && (max = count);
+  }
+  return max;
+};
+```
+
+其中 label 的问题和上面一样可以随意替换。这段代码我跑到了 68ms，暂时 beats 100%。
+
+## 总结
+
+回看一下这道题的优化方案，会发现其实是一个还蛮常见的方案。以前在大学的时候遇到过挺多次类似的处理，工作之后在计算资源比较充足的情况下，似乎就很少这么做了。当然在生产业务代码中这样写还是需要写好注释，在自己维护的 helper 或者 lib 之类的内部我觉得大家还是可以尝试一下的。当然如果我们把『前端』的范围放大一点，那适用的场景就更多啦。
+
+## 相关链接
+
+- [Weekly Contest 168 题目列表](https://github.com/poppinlp/leetcode#weekly-contest-168)
+- [系列题解 repo](https://github.com/poppinlp/leetcode)
+- [我的 segmentfault 专栏](https://segmentfault.com/blog/zxzfbz)
+- [我的知乎专栏](https://zhuanlan.zhihu.com/zxzfbz)
+

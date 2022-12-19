@@ -1,0 +1,58 @@
+
+![](https://pic.leetcode-cn.com/42956fdc6dcbe3c229b889c4008d1f0c105ba5d7f813e3c782f6b650e7593882.png)
+
+### 思路
+
+- 标签：`辅助栈`
+- 一个栈作为辅助栈，存放最小值；一个栈正常存放数据
+- push 时，辅助栈如果为空或者小于**等于**辅助栈栈顶元素，加入辅助栈
+- pop 时，如果元素等于最小栈栈顶，辅助栈也顺便 pop
+- 辅助栈的存放的元素一定是最小的哪几个，虽然没有存放所有元素，但可以保证每次获取的是当前最小值
+- 获取最小元素的时间复杂度为 O(1)，最小元素总是在辅助栈最上面
+- 空间复杂度：O(n)
+
+### 代码
+
+```Java []
+// Java
+class MinStack {
+    private Stack assistStack; // 辅助栈
+    private Stack stack;
+
+    /**
+     * initialize your data structure here.
+     */
+    public MinStack() {
+        assistStack = new Stack();
+        stack = new Stack();
+    }
+
+    public void push(int x) {
+        stack.push(x);
+        if (!assistStack.empty()) {
+            if (x <= (int) assistStack.peek()) {
+                assistStack.push(x);
+            }
+        } else {
+            assistStack.push(x);
+        }
+    }
+
+    public void pop() {
+        int top = (int) stack.pop();
+        if ((int) assistStack.peek() == top) {
+            assistStack.pop();
+        }
+    }
+
+    public int top() {
+        return (int) stack.peek();
+    }
+
+    public int getMin() {
+        return (int) assistStack.peek();
+    }
+}
+```
+
+

@@ -1,0 +1,25 @@
+建立前缀和数组，每次计算区域和的时候只做一次减法即可。
+
+```java
+class NumArray {
+    private int[] preSum;
+    public NumArray(int[] nums) {
+        // preSum[i]表示i位之前的数组元素之和
+        preSum = new int[nums.length + 1];
+        for (int i = 0; i < nums.length; i++) {
+            preSum[i + 1] += preSum[i] + nums[i];
+        }
+    }
+    
+    public int sumRange(int i, int j) {
+        // 因为是闭区间，所以这里要用j+1
+        return preSum[j + 1] - preSum[i];
+    }
+}
+
+/**
+ * Your NumArray object will be instantiated and called as such:
+ * NumArray obj = new NumArray(nums);
+ * int param_1 = obj.sumRange(i,j);
+ */
+```

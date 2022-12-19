@@ -1,0 +1,63 @@
+reorder-data-in-log-files
+你有一个日志数组 <code>logs</code>。每条日志都是以空格分隔的字串。
+
+对于每条日志，其第一个字为字母数字<em>标识符</em>。然后，要么：
+
+<ul>
+	标识符后面的每个字将仅由小写字母组成，或；
+	标识符后面的每个字将仅由数字组成。
+</ul>
+
+我们将这两种日志分别称为字母日志和数字日志。保证每个日志在其标识符后面至少有一个字。
+
+将日志重新排序，使得所有字母日志都排在数字日志之前。字母日志按内容字母顺序排序，忽略标识符；在内容相同时，按标识符排序。数字日志应该按原来的顺序排列。
+
+返回日志的最终顺序。
+
+
+
+<strong>示例 ：</strong>
+
+<pre><strong>输入：</strong>[&quot;a1 9 2 3 1&quot;,&quot;g1 act car&quot;,&quot;zo4 4 7&quot;,&quot;ab1 off key dog&quot;,&quot;a8 act zoo&quot;]
+<strong>输出：</strong>[&quot;g1 act car&quot;,&quot;a8 act zoo&quot;,&quot;ab1 off key dog&quot;,&quot;a1 9 2 3 1&quot;,&quot;zo4 4 7&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= logs.length &lt;= 100</code>
+	<code>3 &lt;= logs[i].length &lt;= 100</code>
+	<code>logs[i]</code>保证有一个标识符，并且标识符后面有一个字。
+</ol>
+
+重新排列日志文件
+You have an array of <code>logs</code>. Each log is a space delimited string of words.
+
+For each log, the first word in each log is an alphanumeric <em>identifier</em>. Then, either:
+
+<ul>
+	Each word after the identifier will consist only of lowercase letters, or;
+	Each word after the identifier will consist only of digits.
+</ul>
+
+We will call these two varieties of logs <em>letter-logs</em> and <em>digit-logs</em>. It is guaranteed that each log has at least one word after its identifier.
+
+Reorder the logs so that all of the letter-logs come before any digit-log. The letter-logs are ordered lexicographically ignoring identifier, with the identifier used in case of ties. The digit-logs should be put in their original order.
+
+Return the final order of the logs.
+
+
+<strong>Example 1:</strong>
+<pre><strong>Input:</strong> logs = ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
+<strong>Output:</strong> ["let1 art can","let3 art zero","let2 own kit dig","dig1 8 1 5 1","dig2 3 6"]
+</pre>
+
+<strong>Constraints:</strong>
+
+<ol>
+	<code>0 &lt;= logs.length &lt;= 100</code>
+	<code>3 &lt;= logs[i].length &lt;= 100</code>
+	<code>logs[i]</code> is guaranteed to have an identifier, and a word after the identifier.
+</ol>

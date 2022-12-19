@@ -1,0 +1,58 @@
+maximum-level-sum-of-a-binary-tree
+给你一个二叉树的根节点<code>root</code>。设根节点位于二叉树的第 <code>1</code> 层，而根节点的子节点位于第 <code>2</code> 层，依此类推。
+
+请你找出层内元素之和 <strong>最大</strong> 的那几层（可能只有一层）的层号，并返回其中<strong>最小</strong> 的那个。
+
+
+
+<strong>示例：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/08/17/capture.jpeg" style="height: 175px; width: 200px;"></strong>
+
+<pre><strong>输入：</strong>[1,7,0,7,-8,null,null]
+<strong>输出：</strong>2
+<strong>解释：</strong>
+第 1 层各元素之和为 1，
+第 2 层各元素之和为 7 + 0 = 7，
+第 3 层各元素之和为 7 + -8 = -1，
+所以我们返回第 2 层的层号，它的层内元素之和最大。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	树中的节点数介于<code>1</code>和<code>10^4</code>之间
+	<code>-10^5 &lt;= node.val &lt;= 10^5</code>
+</ol>
+
+最大层内元素和
+Given the <code>root</code> of a binary tree, the level of its root is <code>1</code>,the level of its children is <code>2</code>,and so on.
+
+Return the <strong>smallest</strong> level <code>X</code> such that the sum of all the values of nodes at level <code>X</code> is <strong>maximal</strong>.
+
+
+
+<strong>Example 1:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/05/03/capture.JPG" style="width: 200px; height: 175px;" /></strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[1,7,0,7,-8,null,null]</span>
+<strong>Output: </strong><span id="example-output-1">2</span>
+<strong>Explanation: </strong>
+Level 1 sum = 1.
+Level 2 sum = 7 + 0 = 7.
+Level 3 sum = 7 + -8 = -1.
+So we return the level with the maximum sum which is level 2.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	The number of nodes in the given tree is between <code>1</code> and <code>10^4</code>.
+	<code>-10^5 &lt;= node.val &lt;= 10^5</code>
+</ol>

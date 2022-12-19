@@ -1,0 +1,55 @@
+break-a-palindrome
+给你一个回文字符串<code>palindrome</code> ，请你将其中<strong>一个</strong> 字符用任意小写英文字母替换，使得结果字符串的字典序最小，且<strong>不是</strong>回文串。
+
+请你返回结果字符串。如果无法做到，则返回一个空串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>palindrome = &quot;abccba&quot;
+<strong>输出：</strong>&quot;aaccba&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>palindrome = &quot;a&quot;
+<strong>输出：</strong>&quot;&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= palindrome.length &lt;= 1000</code>
+	<code>palindrome</code>只包含小写英文字母。
+</ul>
+
+破坏回文串
+Given a palindromic string <code>palindrome</code>, replace <strong>exactly one</strong> character by any lowercase English letter so that the string becomes the lexicographically smallest possible string that <strong>isn&#39;t</strong> a palindrome.
+
+After doing so, return the final string. If there is no way to do so, return the empty string.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> palindrome = &quot;abccba&quot;
+<strong>Output:</strong> &quot;aaccba&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> palindrome = &quot;a&quot;
+<strong>Output:</strong> &quot;&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= palindrome.length &lt;= 1000</code>
+	<code>palindrome</code>consists of only lowercase English letters.
+</ul>

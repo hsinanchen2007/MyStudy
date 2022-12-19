@@ -1,0 +1,69 @@
+excel-sheet-column-title
+给定一个正整数，返回它在 Excel 表中相对应的列名称。
+
+例如，
+
+<pre>    1 -&gt; A
+    2 -&gt; B
+    3 -&gt; C
+    ...
+    26 -&gt; Z
+    27 -&gt; AA
+    28 -&gt; AB 
+    ...
+</pre>
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> 1
+<strong>输出:</strong> &quot;A&quot;
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> 28
+<strong>输出:</strong> &quot;AB&quot;
+</pre>
+
+<strong>示例3:</strong>
+
+<pre><strong>输入:</strong> 701
+<strong>输出:</strong> &quot;ZY&quot;
+</pre>
+
+Excel表列名称
+Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+
+For example:
+
+<pre>
+    1 -&gt; A
+    2 -&gt; B
+    3 -&gt; C
+    ...
+    26 -&gt; Z
+    27 -&gt; AA
+    28 -&gt; AB 
+    ...
+</pre>
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> 1
+<strong>Output:</strong> &quot;A&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> 28
+<strong>Output:</strong> &quot;AB&quot;
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> 701
+<strong>Output:</strong> &quot;ZY&quot;
+</pre>

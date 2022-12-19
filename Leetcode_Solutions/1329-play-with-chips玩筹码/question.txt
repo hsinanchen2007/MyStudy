@@ -1,0 +1,77 @@
+play-with-chips
+数轴上放置了一些筹码，每个筹码的位置存在数组<code>chips</code>当中。
+
+你可以对 <strong>任何筹码</strong> 执行下面两种操作之一（<strong>不限操作次数</strong>，0 次也可以）：
+
+<ul>
+	将第 <code>i</code> 个筹码向左或者右移动 2 个单位，代价为 <strong>0</strong>。
+	将第 <code>i</code> 个筹码向左或者右移动 1 个单位，代价为 <strong>1</strong>。
+</ul>
+
+最开始的时候，同一位置上也可能放着两个或者更多的筹码。
+
+返回将所有筹码移动到同一位置（任意位置）上所需要的最小代价。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>chips = [1,2,3]
+<strong>输出：</strong>1
+<strong>解释：</strong>第二个筹码移动到位置三的代价是 1，第一个筹码移动到位置三的代价是 0，总代价为 1。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>chips = [2,2,2,3,3]
+<strong>输出：</strong>2
+<strong>解释：</strong>第四和第五个筹码移动到位置二的代价都是 1，所以最小总代价为 2。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= chips.length &lt;= 100</code>
+	<code>1 &lt;= chips[i] &lt;= 10^9</code>
+</ul>
+
+玩筹码
+There are some chips, and the i-th chip is at position <code>chips[i]</code>.
+
+You can perform any of the two following types of moves <strong>any number of times</strong> (possiblyzero) <strong>on any chip</strong>:
+
+<ul>
+	Move the <code>i</code>-th chipby2 units to the left or to the right with a cost of <strong>0</strong>.
+	Movethe <code>i</code>-th chipby1 unit to the left or to the right with a cost of<strong>1</strong>.
+</ul>
+
+There can be two or more chipsat the same position initially.
+
+Return theminimum cost needed to move all the chips to the same position (any position).
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> chips = [1,2,3]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Second chip will be moved to positon 3 with cost 1. First chip will be moved to position 3 with cost 0. Total cost is 1.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> chips = [2,2,2,3,3]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Both fourth and fifth chip will be moved to position two with cost 1. Total minimum cost will be 2.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= chips.length &lt;= 100</code>
+	<code>1 &lt;= chips[i] &lt;= 10^9</code>
+</ul>

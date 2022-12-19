@@ -1,0 +1,132 @@
+number-of-distinct-islands-ii
+给定一个非空01二维数组表示的网格，一个岛屿由四连通（上、下、左、右四个方向）的 <code>1</code> 组成，你可以认为网格的四周被海水包围。
+
+请你计算这个网格中共有多少个形状不同的岛屿。如果两个岛屿的形状相同，或者通过旋转（顺时针旋转 90&deg;，180&deg;，270&deg;）、翻转（左右翻转、上下翻转）后形状相同，那么就认为这两个岛屿是相同的。
+
+
+
+<strong>样例 1:</strong>
+
+<pre>11000
+10000
+00001
+00011
+</pre>
+
+给定上图，返回结果 <code>1</code>。<br>
+<br>
+注意 ：
+
+<pre>11
+1
+</pre>
+
+和
+
+<pre> 1
+11</pre>
+
+是相同的岛屿。因为我们通过 180&deg; 旋转第一个岛屿，两个岛屿的形状相同。
+
+
+
+<strong>样例2:</strong>
+
+<pre>11100
+10001
+01001
+01110</pre>
+
+给定上图，返回结果 <code>2</code>。<br>
+<br>
+下面是两个不同的岛屿：
+
+<pre>111
+1</pre>
+
+和
+
+<pre>1
+1
+</pre>
+
+
+
+注意 ：
+
+<pre>111
+1</pre>
+
+和
+
+<pre>1
+111
+</pre>
+
+相同的岛屿。因为我们通过上下翻转第一个岛屿，两个岛屿的形状相同。
+
+
+
+<strong>注释 :</strong> 二维数组每维的大小都不会超过50。
+
+不同岛屿的数量 II
+Given a non-empty 2D array <code>grid</code> of 0's and 1's, an <b>island</b> is a group of <code>1</code>'s (representing land) connected 4-directionally (horizontal or vertical.)  You may assume all four edges of the grid are surrounded by water.
+
+Count the number of <b>distinct</b> islands.  An island is considered to be the same as another if they have the same shape, or have the same shape after <b>rotation</b> (90, 180, or 270 degrees only) or <b>reflection</b> (left/right direction or up/down direction).
+
+<b>Example 1:</b><br />
+<pre>
+11000
+10000
+00001
+00011
+</pre>
+Given the above grid map, return <code>1</code>.
+<br><br>
+Notice that:
+<pre>
+11
+1
+</pre>
+and
+<pre>
+ 1
+11
+</pre>
+are considered <b>same</b> island shapes. Because if we make a 180 degrees clockwise rotation on the first island, then two islands will have the same shapes.
+
+
+<b>Example 2:</b><br />
+<pre>
+11100
+10001
+01001
+01110</pre>
+Given the above grid map, return <code>2</code>.<br />
+<br>
+Here are the two distinct islands:
+<pre>
+111
+1
+</pre>
+and
+<pre>
+1
+1
+</pre>
+<br />
+Notice that:
+<pre>
+111
+1
+</pre>
+and
+<pre>
+1
+111
+</pre>
+are considered <b>same</b> island shapes. Because if we flip the first array in the up/down direction, then they have the same shapes.
+
+
+<b>Note:</b>
+The length of each dimension in the given <code>grid</code> does not exceed 50.

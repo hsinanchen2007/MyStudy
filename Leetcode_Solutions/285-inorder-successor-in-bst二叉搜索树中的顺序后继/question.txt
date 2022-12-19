@@ -1,0 +1,65 @@
+inorder-successor-in-bst
+给你一个二叉搜索树和其中的某一个结点，请你找出该结点在树中顺序后继的节点。
+
+结点<code>p</code>的后继是值比<code>p.val</code>大的结点中键值最小的结点。
+
+
+
+<strong>示例 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/01/23/285_example_1.PNG" style="height: 117px; width: 122px;">
+
+<pre><strong>输入: </strong>root = [2,1,3], p = 1
+<strong>输出: </strong>2
+<strong>解析: </strong>这里 1 的顺序后继是 2。请注意 p 和返回值都应是 TreeNode 类型。
+</pre>
+
+<strong>示例2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/01/23/285_example_2.PNG" style="height: 229px; width: 246px;">
+
+<pre><strong>输入: </strong>root = [5,3,6,2,4,null,null,1], p = 6
+<strong>输出: </strong>null
+<strong>解析: </strong>因为给出的结点没有顺序后继，所以答案就返回 <code>null 了。</code>
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	假如给出的结点在该树中没有顺序后继的话，请返回<code>null</code>
+	我们保证树中每个结点的值是唯一的
+</ol>
+
+二叉搜索树中的顺序后继
+Given a binary search tree and a node in it, find the in-order successor of that node in the BST.
+
+The successor of a node<code>p</code>is the node with the smallest key greater than<code>p.val</code>.
+
+
+
+<strong>Example 1:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2019/01/23/285_example_1.PNG" style="width: 122px; height: 117px;" />
+<pre>
+<strong>Input: </strong>root = <span id="example-input-1-1">[2,1,3]</span>, p = <span id="example-input-1-2">1</span>
+<strong>Output: </strong><span id="example-output-1">2</span>
+<strong>Explanation: </strong>1&#39;s in-order successor node is 2. Note that both p and the return value is of TreeNode type.
+</pre>
+
+<strong>Example 2:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2019/01/23/285_example_2.PNG" style="width: 246px; height: 229px;" />
+<pre>
+<strong>Input: </strong>root = <span id="example-input-2-1">[5,3,6,2,4,null,null,1]</span>, p = <span id="example-input-2-2">6</span>
+<strong>Output: </strong><span id="example-output-2">null</span>
+<strong>Explanation: </strong>There is no in-order successor of the current node, so the answer is <code>null</code>.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	If the given node has no in-order successor in the tree, return <code>null</code>.
+	It&#39;s guaranteed that the values of the tree are unique.
+</ol>

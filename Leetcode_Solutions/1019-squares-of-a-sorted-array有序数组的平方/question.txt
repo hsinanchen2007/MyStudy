@@ -1,0 +1,59 @@
+squares-of-a-sorted-array
+给定一个按非递减顺序排序的整数数组 <code>A</code>，返回每个数字的平方组成的新数组，要求也按非递减顺序排序。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[-4,-1,0,3,10]
+<strong>输出：</strong>[0,1,9,16,100]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[-7,-3,2,3,11]
+<strong>输出：</strong>[4,9,9,49,121]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 10000</code>
+	<code>-10000 &lt;= A[i] &lt;= 10000</code>
+	<code>A</code>已按非递减顺序排序。
+</ol>
+
+有序数组的平方
+Given an array of integers <code>A</code>sorted in non-decreasing order,return an array of the squares of each number,also in sorted non-decreasing order.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[-4,-1,0,3,10]</span>
+<strong>Output: </strong><span id="example-output-1">[0,1,9,16,100]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[-7,-3,2,3,11]</span>
+<strong>Output: </strong><span id="example-output-2">[4,9,9,49,121]</span>
+</pre>
+
+
+
+<strong><span>Note:</span></strong>
+
+<ol>
+	<code><span>1 &lt;= A.length &lt;= 10000</span></code>
+	<code>-10000 &lt;= A[i] &lt;= 10000</code>
+	<code>A</code>is sorted in non-decreasing order.
+</ol>
+</div>
+</div>

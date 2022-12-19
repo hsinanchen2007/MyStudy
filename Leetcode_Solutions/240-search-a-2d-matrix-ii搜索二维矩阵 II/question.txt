@@ -1,0 +1,50 @@
+search-a-2d-matrix-ii
+编写一个高效的算法来搜索<em>m</em>x<em>n</em>矩阵 matrix 中的一个目标值 target。该矩阵具有以下特性：
+
+<ul>
+	每行的元素从左到右升序排列。
+	每列的元素从上到下升序排列。
+</ul>
+
+<strong>示例:</strong>
+
+现有矩阵 matrix 如下：
+
+<pre>[
+  [1,   4,  7, 11, 15],
+  [2,   5,  8, 12, 19],
+  [3,   6,  9, 16, 22],
+  [10, 13, 14, 17, 24],
+  [18, 21, 23, 26, 30]
+]
+</pre>
+
+给定 target=<code>5</code>，返回<code>true</code>。
+
+给定target=<code>20</code>，返回<code>false</code>。
+
+搜索二维矩阵 II
+Write an efficient algorithm that searches for a value in an <i>m</i> x <i>n</i> matrix. This matrix has the following properties:
+
+<ul>
+	Integers in each row are sorted in ascending from left to right.
+	Integers in each column are sorted in ascending from top to bottom.
+</ul>
+
+<strong>Example:</strong>
+
+Consider the following matrix:
+
+<pre>
+[
+  [1,   4,  7, 11, 15],
+  [2,   5,  8, 12, 19],
+  [3,   6,  9, 16, 22],
+  [10, 13, 14, 17, 24],
+  [18, 21, 23, 26, 30]
+]
+</pre>
+
+Giventarget=<code>5</code>, return<code>true</code>.
+
+Giventarget=<code>20</code>, return<code>false</code>.

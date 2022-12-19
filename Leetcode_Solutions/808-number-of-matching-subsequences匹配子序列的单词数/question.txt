@@ -1,0 +1,41 @@
+number-of-matching-subsequences
+给定字符串 <code>S</code> 和单词字典 <code>words</code>, 求<code>words[i]</code>中是<code>S</code>的子序列的单词个数。
+
+<pre>
+<strong>示例:</strong>
+<strong>输入:</strong> 
+S = &quot;abcde&quot;
+words = [&quot;a&quot;, &quot;bb&quot;, &quot;acd&quot;, &quot;ace&quot;]
+<strong>输出:</strong> 3
+<strong>解释:</strong> 有三个是S 的子序列的单词: &quot;a&quot;, &quot;acd&quot;, &quot;ace&quot;。
+</pre>
+
+<strong>注意:</strong>
+
+<ul>
+	所有在<code>words</code>和<code>S</code>里的单词都只由小写字母组成。
+	<code>S</code> 的长度在<code>[1, 50000]</code>。
+	<code>words</code>的长度在<code>[1, 5000]</code>。
+	<code>words[i]</code>的长度在<code>[1, 50]</code>。
+</ul>
+
+匹配子序列的单词数
+Given string <code>S</code> and adictionary of words <code>words</code>, find the number of <code>words[i]</code> that is a subsequence of <code>S</code>.
+
+<pre>
+<strong>Example :</strong>
+<strong>Input:</strong> 
+S = &quot;abcde&quot;
+words = [&quot;a&quot;, &quot;bb&quot;, &quot;acd&quot;, &quot;ace&quot;]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> There are three words in <code>words</code> that are a subsequence of <code>S</code>: &quot;a&quot;, &quot;acd&quot;, &quot;ace&quot;.
+</pre>
+
+<strong>Note:</strong>
+
+<ul>
+	All words in <code>words</code> and <code>S</code> will only consists of lowercase letters.
+	The length of <code>S</code> will be in the range of <code>[1, 50000]</code>.
+	The length of <code>words</code> will be in the range of<code>[1, 5000]</code>.
+	The length of <code>words[i]</code> will be in the range of <code>[1, 50]</code>.
+</ul>

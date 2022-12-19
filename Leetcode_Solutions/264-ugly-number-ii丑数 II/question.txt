@@ -1,0 +1,36 @@
+ugly-number-ii
+编写一个程序，找出第 <code>n</code> 个丑数。
+
+丑数就是只包含质因数<code>2, 3, 5</code> 的<strong>正整数</strong>。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> n = 10
+<strong>输出:</strong> 12
+<strong>解释: </strong><code>1, 2, 3, 4, 5, 6, 8, 9, 10, 12</code> 是前 10 个丑数。</pre>
+
+<strong>说明:</strong>
+
+<ol>
+	<code>1</code>是丑数。
+	<code>n</code><strong>不超过</strong>1690。
+</ol>
+
+丑数 II
+Write a program to find the <code>n</code>-th ugly number.
+
+Ugly numbers are<strong> positive numbers</strong> whose prime factors only include <code>2, 3, 5</code>.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> n = 10
+<strong>Output:</strong> 12
+<strong>Explanation: </strong><code>1, 2, 3, 4, 5, 6, 8, 9, 10, 12</code> is the sequence of the first <code>10</code> ugly numbers.</pre>
+
+<strong>Note: </strong>
+
+<ol>
+	<code>1</code> is typically treated as an ugly number.
+	<code>n</code> <b>does not exceed 1690</b>.
+</ol>

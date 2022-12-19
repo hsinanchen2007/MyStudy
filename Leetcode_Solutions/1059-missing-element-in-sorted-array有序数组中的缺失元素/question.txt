@@ -1,0 +1,80 @@
+missing-element-in-sorted-array
+给出一个有序数组<code>A</code>，数组中的每个数字都是<strong>独一无二的</strong>，找出从数组最左边开始的第<code><em>K</em></code>个缺失数字。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>A = [4,7,9,10], K = 1
+<strong>输出：</strong>5
+<strong>解释：</strong>
+第一个缺失数字为 5 。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>A = [4,7,9,10], K = 3
+<strong>输出：</strong>8
+<strong>解释： </strong>
+缺失数字有 [5,6,8,...]，因此第三个缺失数字为 8 。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>A = [1,2,4], K = 3
+<strong>输出：</strong>6
+<strong>解释：</strong>
+缺失数字有 [3,5,6,7,...]，因此第三个缺失数字为 6 。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 50000</code>
+	<code>1 &lt;= A[i] &lt;= 1e7</code>
+	<code>1 &lt;= K &lt;= 1e8</code>
+</ol>
+
+有序数组中的缺失元素
+Given a sorted array <code>A</code> of <strong>unique</strong> numbers, find the <code><em>K</em>-th</code> missing number starting from the leftmost number of the array.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-1-1">[4,7,9,10]</span>, K = 1
+<strong>Output: </strong><span id="example-output-1">5</span>
+<strong>Explanation: </strong>
+The first missing number is 5.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-2-1">[4,7,9,10]</span>, K = 3
+<strong>Output: </strong><span id="example-output-2">8</span>
+<strong>Explanation: </strong>
+The missing numbers are [5,6,8,...], hence the third missing number is 8.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-3-1">[1,2,4]</span>, K = 3
+<strong>Output: </strong><span id="example-output-3">6</span>
+<strong>Explanation: </strong>
+The missing numbers are [3,5,6,7,...], hence the third missing number is 6.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 50000</code>
+	<code>1 &lt;= A[i] &lt;= 1e7</code>
+	<code>1 &lt;= K &lt;= 1e8</code>
+</ol>

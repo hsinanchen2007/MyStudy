@@ -1,0 +1,83 @@
+connecting-cities-with-minimum-cost
+想象一下你是个城市基建规划者，地图上有<code>N</code>座城市，它们按以<code>1</code> 到<code>N</code>的次序编号。
+
+给你一些可连接的选项<code>conections</code>，其中每个选项<code>conections[i] = [city1, city2, cost]</code>表示将城市<code>city1</code> 和城市<code>city2</code>连接所要的成本。（<strong>连接是双向的</strong>，也就是说城市 <code>city1</code>和城市<code>city2</code>相连也同样意味着城市<code>city2</code> 和城市<code>city1</code>相连）。
+
+返回使得每对城市间都存在将它们连接在一起的连通路径（可能长度为 1 的）最小成本。该最小成本应该是所用全部连接代价的综合。如果根据已知条件无法完成该项任务，则请你返回-1。
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/07/27/1314_ex2.png" style="height: 141px; width: 161px;">
+
+<pre><strong>输入：</strong>N = 3, conections = [[1,2,5],[1,3,6],[2,3,1]]
+<strong>输出：</strong>6
+<strong>解释：</strong>
+选出任意 2 条边都可以连接所有城市，我们从中选取成本最小的 2 条。
+</pre>
+
+<strong>示例 2：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/07/27/1314_ex1.png" style="height: 91px; width: 136px;">
+
+<pre><strong>输入：</strong>N = 4, conections = [[1,2,3],[3,4,4]]
+<strong>输出：</strong>-1
+<strong>解释： </strong>
+即使连通所有的边，也无法连接所有城市。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= N &lt;= 10000</code>
+	<code>1 &lt;= conections.length &lt;= 10000</code>
+	<code>1 &lt;= conections[i][0], conections[i][1] &lt;= N</code>
+	<code>0 &lt;= conections[i][2] &lt;= 10^5</code>
+	<code>conections[i][0] != conections[i][1]</code>
+</ol>
+
+最低成本联通所有城市
+There are <code>N</code> cities numbered from 1 to <code>N</code>.
+
+You are given <code>connections</code>, where each <code>connections[i] = [city1, city2, cost]</code>represents the cost to connect <code>city1</code> and <code>city2</code> together. (A <em>connection</em> is bidirectional: connecting <code>city1</code> and <code>city2</code> is the same as connecting <code>city2</code> and <code>city1</code>.)
+
+Return the minimum cost so that for every pair of cities, there exists a pathof connections (possibly of length 1) that connects those two cities together. The cost is the sum of the connection costs used. If the task is impossible, return -1.
+
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/04/20/1314_ex2.png" style="width: 161px; height: 141px;" />
+
+<pre>
+<strong>Input: </strong>N = 3, connections = [[1,2,5],[1,3,6],[2,3,1]]
+<strong>Output: </strong>6
+<strong>Explanation: </strong>
+Choosing any 2 edges will connect all cities so we choose the minimum 2.
+</pre>
+
+<strong>Example 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/04/20/1314_ex1.png" style="width: 136px; height: 91px;" />
+
+<pre>
+<strong>Input: </strong>N = 4, connections = [[1,2,3],[3,4,4]]
+<strong>Output: </strong>-1
+<strong>Explanation: </strong>
+There is no way to connect all cities even if all edges are used.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= N &lt;= 10000</code>
+	<code>1 &lt;= connections.length &lt;= 10000</code>
+	<code>1 &lt;= connections[i][0], connections[i][1] &lt;= N</code>
+	<code>0 &lt;= connections[i][2] &lt;= 10^5</code>
+	<code>connections[i][0] != connections[i][1]</code>
+</ol>

@@ -1,0 +1,64 @@
+flatten-2d-vector
+请设计并实现一个能够展开二维向量的迭代器。该迭代器需要支持<code>next</code> 和<code>hasNext</code>两种操作。、
+
+<strong>示例：</strong>
+
+<pre>Vector2D iterator = new Vector2D([[1,2],[3],[4]]);
+
+iterator.next(); // 返回 1
+iterator.next(); // 返回 2
+iterator.next(); // 返回 3
+iterator.hasNext(); // 返回 true
+iterator.hasNext(); // 返回 true
+iterator.next(); // 返回 4
+iterator.hasNext(); // 返回 false
+</pre>
+
+
+
+<strong>注意：</strong>
+
+<ol>
+	请记得<strong>重置</strong>在 Vector2D 中声明的类变量（静态变量），因为类变量会<strong>在多个测试用例中保持不变</strong>，影响判题准确。请 <a href="https://support.leetcode-cn.com/hc/kb/section/1071534/" target="_blank">查阅</a> 这里。
+	你可以假定 <code>next()</code> 的调用总是合法的，即当 <code>next()</code> 被调用时，二维向量总是存在至少一个后续元素。
+</ol>
+
+
+
+<strong>进阶：</strong>
+
+尝试在代码中仅使用 <a href="http://www.cplusplus.com/reference/iterator/iterator/">C++ 提供的迭代器</a> 或 <a href="https://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html">Java 提供的迭代器</a>。
+
+展开二维向量
+Design and implement an iterator to flatten a 2d vector. It should support the following operations: <code>next</code> and <code>hasNext</code>.
+
+
+
+<b>Example:</b>
+
+<pre>
+Vector2D iterator = new Vector2D([[1,2],[3],[4]]);
+
+iterator.next(); // return 1
+iterator.next(); // return 2
+iterator.next(); // return 3
+iterator.hasNext(); // return true
+iterator.hasNext(); // return true
+iterator.next(); // return 4
+iterator.hasNext(); // return false
+</pre>
+
+
+
+<strong>Notes:</strong>
+
+<ol>
+	Please remember to <b>RESET</b> your class variables declared in Vector2D, as static/class variables are <b>persisted across multiple test cases</b>. Please see <a href="https://leetcode.com/faq/" target="_blank">here</a> for more details.
+	You may assume that <code>next()</code> call will always be valid, that is, there will be at least a next element in the 2d vector when <code>next()</code> is called.
+</ol>
+
+
+
+<b>Follow up:</b>
+
+As an added challenge, try to code it using only <a href="http://www.cplusplus.com/reference/iterator/iterator/" target="_blank">iterators in C++</a> or <a href="http://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html" target="_blank">iterators in Java</a>.

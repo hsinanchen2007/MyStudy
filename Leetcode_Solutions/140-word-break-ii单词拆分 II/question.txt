@@ -1,0 +1,91 @@
+word-break-ii
+给定一个<strong>非空</strong>字符串 <em>s</em> 和一个包含<strong>非空</strong>单词列表的字典 <em>wordDict</em>，在字符串中增加空格来构建一个句子，使得句子中所有的单词都在词典中。返回所有这些可能的句子。
+
+<strong>说明：</strong>
+
+<ul>
+	分隔时可以重复使用字典中的单词。
+	你可以假设字典中没有重复的单词。
+</ul>
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入:
+</strong>s = &quot;<code>catsanddog</code>&quot;
+wordDict = <code>[&quot;cat&quot;, &quot;cats&quot;, &quot;and&quot;, &quot;sand&quot;, &quot;dog&quot;]</code>
+<strong>输出:
+</strong><code>[
+ &quot;cats and dog&quot;,
+ &quot;cat sand dog&quot;
+]</code>
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入:
+</strong>s = &quot;pineapplepenapple&quot;
+wordDict = [&quot;apple&quot;, &quot;pen&quot;, &quot;applepen&quot;, &quot;pine&quot;, &quot;pineapple&quot;]
+<strong>输出:
+</strong>[
+ &quot;pine apple pen apple&quot;,
+ &quot;pineapple pen apple&quot;,
+ &quot;pine applepen apple&quot;
+]
+<strong>解释:</strong> 注意你可以重复使用字典中的单词。
+</pre>
+
+<strong>示例3：</strong>
+
+<pre><strong>输入:
+</strong>s = &quot;catsandog&quot;
+wordDict = [&quot;cats&quot;, &quot;dog&quot;, &quot;sand&quot;, &quot;and&quot;, &quot;cat&quot;]
+<strong>输出:
+</strong>[]
+</pre>
+
+单词拆分 II
+Given a <strong>non-empty</strong> string <em>s</em> and a dictionary <em>wordDict</em> containing a list of <strong>non-empty</strong> words, add spaces in <em>s</em> to construct a sentence where each word is a valid dictionary word.Return all such possible sentences.
+
+<strong>Note:</strong>
+
+<ul>
+	The same word in the dictionary may be reused multiple times in the segmentation.
+	You may assume the dictionary does not contain duplicate words.
+</ul>
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:
+</strong>s = &quot;<code>catsanddog</code>&quot;
+wordDict = <code>[&quot;cat&quot;, &quot;cats&quot;, &quot;and&quot;, &quot;sand&quot;, &quot;dog&quot;]</code>
+<strong>Output:
+</strong><code>[
+ &quot;cats and dog&quot;,
+ &quot;cat sand dog&quot;
+]</code>
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:
+</strong>s = &quot;pineapplepenapple&quot;
+wordDict = [&quot;apple&quot;, &quot;pen&quot;, &quot;applepen&quot;, &quot;pine&quot;, &quot;pineapple&quot;]
+<strong>Output:
+</strong>[
+ &quot;pine apple pen apple&quot;,
+ &quot;pineapple pen apple&quot;,
+ &quot;pine applepen apple&quot;
+]
+<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:
+</strong>s = &quot;catsandog&quot;
+wordDict = [&quot;cats&quot;, &quot;dog&quot;, &quot;sand&quot;, &quot;and&quot;, &quot;cat&quot;]
+<strong>Output:
+</strong>[]</pre>

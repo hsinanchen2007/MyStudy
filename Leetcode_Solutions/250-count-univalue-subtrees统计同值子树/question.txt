@@ -1,0 +1,36 @@
+count-univalue-subtrees
+给定一个二叉树，统计该二叉树数值相同的子树个数。
+
+同值子树是指该子树的所有节点都拥有相同的数值。
+
+<strong>示例：</strong>
+
+<pre><strong>输入: </strong>root = [5,1,5,5,5,null,5]
+
+              5
+             / \
+            1   5
+           / \   \
+          5   5   5
+
+<strong>输出:</strong> 4
+</pre>
+
+统计同值子树
+Given a binary tree, count the number of uni-value subtrees.
+
+A Uni-value subtree means all nodes of the subtree have the same value.
+
+<b>Example :</b>
+
+<pre>
+<b>Input:</b>  root = [5,1,5,5,5,null,5]
+
+              5
+             / \
+            1   5
+           / \   \
+          5   5   5
+
+<b>Output:</b> 4
+</pre>

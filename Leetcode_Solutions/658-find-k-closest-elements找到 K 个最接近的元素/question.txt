@@ -1,0 +1,68 @@
+find-k-closest-elements
+给定一个排序好的数组，两个整数 <code>k</code> 和 <code>x</code>，从数组中找到最靠近 <code>x</code>（两数之差最小）的 <code>k</code> 个数。返回的结果必须要是按升序排好的。如果有两个数与 <code>x</code> 的差值一样，优先选择数值较小的那个数。
+
+<strong>示例1:</strong>
+
+<pre>
+<strong>输入:</strong> [1,2,3,4,5], k=4, x=3
+<strong>输出:</strong> [1,2,3,4]
+</pre>
+
+
+
+<strong>示例 2:</strong>
+
+<pre>
+<strong>输入:</strong> [1,2,3,4,5], k=4, x=-1
+<strong>输出:</strong> [1,2,3,4]
+</pre>
+
+
+
+<strong>说明:</strong>
+
+<ol>
+	k 的值为正数，且总是小于给定排序数组的长度。
+	数组不为空，且长度不超过 10<sup>4</sup>
+	数组里的每个元素与x 的绝对值不超过 10<sup>4</sup>
+</ol>
+
+
+
+<strong>更新(2017/9/19):</strong><br />
+这个参数 <em>arr</em> 已经被改变为一个<strong>整数数组</strong>（而不是整数列表）。<strong><em>请重新加载代码定义以获取最新更改。</em></strong>
+
+找到 K 个最接近的元素
+
+Given a sorted array, two integers <code>k</code> and <code>x</code>, find the <code>k</code> closest elements to <code>x</code> in the array.  The result should also be sorted in ascending order.
+If there is a tie,  the smaller elements are always preferred.
+
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> [1,2,3,4,5], k=4, x=3
+<b>Output:</b> [1,2,3,4]
+</pre>
+
+
+
+<b>Example 2:</b><br />
+<pre>
+<b>Input:</b> [1,2,3,4,5], k=4, x=-1
+<b>Output:</b> [1,2,3,4]
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+The value k is positive and will always be smaller than the length of the sorted array.
+ Length of the given array is positive and will not exceed 10<sup>4</sup>
+ Absolute value of elements in the array and x will not exceed 10<sup>4</sup>
+</ol>
+
+
+<hr />
+
+
+<b><font color="red">UPDATE (2017/9/19):</font></b><br />
+The <i>arr</i> parameter had been changed to an <b>array of integers</b> (instead of a list of integers). <b><i>Please reload the code definition to get the latest changes</i></b>.

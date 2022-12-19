@@ -1,0 +1,62 @@
+two-sum-bsts
+给出两棵二叉搜索树，请你从两棵树中各找出一个节点，使得这两个节点的值之和等于目标值<code>Target</code>。
+
+如果可以找到返回<code>True</code>，否则返回<code>False</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/06/21/1368_1_a2.png" style="height: 140px; width: 150px;"><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/06/21/1368_1_b.png" style="height: 136px; width: 150px;"></strong>
+
+<pre><strong>输入：</strong>root1 = [2,1,4], root2 = [1,0,3], target = 5
+<strong>输出：</strong>true
+<strong>解释：</strong>2 加 3 和为 5 。
+</pre>
+
+<strong>示例 2：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/06/21/1368_2_a.png" style="height: 137px; width: 150px;"><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/06/21/1368_2_b.png" style="height: 168px; width: 150px;"></strong>
+
+<pre><strong>输入：</strong>root1 = [0,-10,10], root2 = [5,1,7,0,2], target = 18
+<strong>输出：</strong>false</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	每棵树上最多有<code>5000</code>个节点。
+	<code>-10^9 &lt;= target, node.val &lt;= 10^9</code>
+</ol>
+
+查找两棵二叉搜索树之和
+Given two binary search trees, return <code>True</code>if and only if there is a node in the first tree and a node in the second tree whose valuessum up to a given integer<code>target</code>.
+
+
+<strong>Example 1:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/05/31/1368_1_a2.png" style="width: 150px; height: 140px;" /><img alt="" src="https://assets.leetcode.com/uploads/2019/05/31/1368_1_b.png" style="width: 150px; height: 136px;" /></strong>
+
+<pre>
+<strong>Input:</strong> root1 = [2,1,4], root2 = [1,0,3], target = 5
+<strong>Output:</strong> true
+<strong>Explanation: </strong>2 and 3 sum up to 5.
+</pre>
+
+<strong>Example 2:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/05/31/1368_2_a.png" style="width: 150px; height: 137px;" /><img alt="" src="https://assets.leetcode.com/uploads/2019/05/31/1368_2_b.png" style="width: 150px; height: 168px;" /></strong>
+
+<pre>
+<strong>Input:</strong> root1 = [0,-10,10], root2 = [5,1,7,0,2], target = 18
+<strong>Output:</strong> false
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	Each tree has at most <code>5000</code> nodes.
+	<code>-10^9 &lt;= target, node.val &lt;= 10^9</code>
+</ul>

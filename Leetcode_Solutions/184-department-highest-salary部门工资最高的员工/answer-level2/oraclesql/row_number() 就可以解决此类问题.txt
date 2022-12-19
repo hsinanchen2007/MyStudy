@@ -1,0 +1,1 @@
+1. 1row_number() 就可以解决此类问题/* Write your PL/SQL query statement below */ select Department ,Employee, Salary from (select d.Name as Department ,e.name as Employee              ,e.Salary,row_number() over(partition by d.id order by e.Salary  desc) as rk from Employee e,Department d where e.DepartmentId =d.id ) where rk=1. 

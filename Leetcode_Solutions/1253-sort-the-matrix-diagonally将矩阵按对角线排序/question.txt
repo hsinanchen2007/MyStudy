@@ -1,0 +1,44 @@
+sort-the-matrix-diagonally
+给你一个<code>m * n</code>的整数矩阵<code>mat</code>，请你将同一条对角线上的元素（从左上到右下）按升序排序后，返回排好序的矩阵。
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/01/25/1482_example_1_2.png" style="height: 198px; width: 500px;">
+
+<pre><strong>输入：</strong>mat = [[3,3,1,1],[2,2,1,2],[1,1,1,2]]
+<strong>输出：</strong>[[1,1,1,1],[1,2,2,2],[1,2,3,3]]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>m ==mat.length</code>
+	<code>n ==mat[i].length</code>
+	<code>1 &lt;= m, n&lt;= 100</code>
+	<code>1 &lt;= mat[i][j] &lt;= 100</code>
+</ul>
+
+将矩阵按对角线排序
+Given a <code>m * n</code> matrix <code>mat</code>of integers, sort it diagonally in ascending order from the top-left to the bottom-right then return the sorted array.
+
+
+<strong>Example 1:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/21/1482_example_1_2.png" style="width: 500px; height: 198px;" />
+<pre>
+<strong>Input:</strong> mat = [[3,3,1,1],[2,2,1,2],[1,1,1,2]]
+<strong>Output:</strong> [[1,1,1,1],[1,2,2,2],[1,2,3,3]]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>m ==mat.length</code>
+	<code>n ==mat[i].length</code>
+	<code>1 &lt;= m, n&lt;= 100</code>
+	<code>1 &lt;= mat[i][j] &lt;= 100</code>
+</ul>

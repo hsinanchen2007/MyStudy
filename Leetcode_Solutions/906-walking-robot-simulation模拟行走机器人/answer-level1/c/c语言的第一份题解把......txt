@@ -1,0 +1,173 @@
+
+![hhh.png](https://pic.leetcode-cn.com/b5181be1473991951b537856531ad19f7ded2649e986dfbf3444acba2042102e-hhh.png)
+基本思路就是定flag根据命令去改动方向
+每跑一步验证是不是阻塞点
+用了二分查找库函数，应该能比直接暴力快点，毕竟c穷酸的没有合适解这个题的库函数.....
+（用之前记得排序哦！！！）
+```
+typedef struct
+{
+    int x;
+    int y;
+}node;
+int cmp(const void*a,const void*b)
+{
+    node*c=(node*)a;
+    node*d=(node*)b;
+    if(c->x!=d->x)
+    {
+        return c->x-d->x;
+    }
+    return c->y-d->y;
+}
+int robotSim(int* commands, int commandsSize, int** obstacles, int obstaclesSize, int* obstaclesColSize){
+int i,j;
+int ans=-1;
+node now;
+int temp;
+now.x=now.y=0;
+node*ob=(node*)malloc(sizeof(node)*obstaclesSize);
+for(i=0;i<obstaclesSize;i++)
+{
+    ob[i].x=obstacles[i][1];
+    ob[i].y=obstacles[i][0];
+}
+qsort(ob,obstaclesSize,sizeof(node),cmp);
+int face=0;//0北，1南，2西，3东
+node*item;
+for(i=0;i<commandsSize;i++)
+{
+    if(face==0)
+    {
+        if(commands[i]>=0)
+        {
+            for(j=0;j<commands[i];j++)
+			{
+				now.x++;
+				item=(node*)bsearch(&now,ob,obstaclesSize,sizeof(node),cmp);//每走一步判断一次
+				if(item!=NULL)
+				{
+                     now.x--;
+					 break;
+				}
+			}
+            temp=now.x*now.x+now.y*now.y;//最大值一定在端点上，直接在端点找最大值
+            if(temp>ans)
+            {
+                ans=temp;
+            }
+            continue;
+        }
+        if(commands[i]==-1)
+        {
+            face=3;
+            continue;
+        }
+        if(commands[i]==-2)
+        {
+            face=2;
+            continue;
+        }
+    }
+    if(face==1)
+    {
+        if(commands[i]>=0)
+        {
+            for(j=0;j<commands[i];j++)
+			{
+				now.x--;
+				item=(node*)bsearch(&now,ob,obstaclesSize,sizeof(node),cmp);
+				if(item!=NULL)
+				{
+                     now.x++;
+					 break;
+				}
+			}
+             temp=now.x*now.x+now.y*now.y;
+            if(temp>ans)
+            {
+                ans=temp;
+            }
+            continue;
+        }
+        
+        if(commands[i]==-1)
+        {
+            face=2;
+            continue;
+        }
+        if(commands[i]==-2)
+        {
+            face=3;
+            continue;
+        }
+    }
+    if(face==2)
+    {
+        if(commands[i]>=0)
+        {
+            for(j=0;j<commands[i];j++)
+			{
+				now.y--;
+				item=(node*)bsearch(&now,ob,obstaclesSize,sizeof(node),cmp);
+				if(item!=NULL)
+				{
+                     now.y++;
+					 break;
+				}
+			}
+             temp=now.x*now.x+now.y*now.y;
+            if(temp>ans)
+            {
+                ans=temp;
+            }
+            continue;
+        }
+        if(commands[i]==-1)
+        {
+            face=0;
+            continue;
+        }
+        if(commands[i]==-2)
+        {
+            face=1;
+            continue;
+        }
+ }
+    if(face==3)
+    {
+        if(commands[i]>=0)
+        {
+            for(j=0;j<commands[i];j++)
+			{
+				now.y++;
+				item=(node*)bsearch(&now,ob,obstaclesSize,sizeof(node),cmp);
+				if(item!=NULL)
+				{
+                     now.y--;
+					 break;
+				}
+			}
+            temp=now.x*now.x+now.y*now.y;
+            if(temp>ans)
+            {
+                ans=temp;
+            }
+            continue;
+        }
+        if(commands[i]==-1)
+        {
+            face=1;
+            continue;
+        }
+        if(commands[i]==-2)
+        {
+            face=0;
+            continue;
+        }
+    }
+}
+return ans;
+}
+```
+又臭又长，不过应该容易理解

@@ -1,0 +1,87 @@
+divide-array-in-sets-of-k-consecutive-numbers
+给你一个整数数组<code>nums</code>和一个正整数<code>k</code>，请你判断是否可以把这个数组划分成一些由<code>k</code>个连续数字组成的集合。<br>
+如果可以，请返回<code>True</code>；否则，返回<code>False</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>nums = [1,2,3,3,4,4,5,6], k = 4
+<strong>输出：</strong>true
+<strong>解释：</strong>数组可以分成 [1,2,3,4] 和 [3,4,5,6]。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>nums = [3,2,1,2,3,4,3,4,5,9,10,11], k = 3
+<strong>输出：</strong>true
+<strong>解释：</strong>数组可以分成 [1,2,3] , [2,3,4] , [3,4,5] 和 [9,10,11]。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>nums = [3,3,2,2,1,1], k = 3
+<strong>输出：</strong>true
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>nums = [1,2,3,4], k = 3
+<strong>输出：</strong>false
+<strong>解释：</strong>数组不能分成几个大小为 3 的子数组。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= nums.length &lt;= 10^5</code>
+	<code>1 &lt;= nums[i] &lt;= 10^9</code>
+	<code>1 &lt;= k &lt;= nums.length</code>
+</ul>
+
+划分数组为连续数字的集合
+Given an array of integers<code>nums</code>and a positive integer<code>k</code>, find whether it&#39;s possible to divide this array intosets of <code>k</code> consecutive numbers<br />
+Return<code>True</code>if its possible<strong></strong>otherwisereturn<code>False</code>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [1,2,3,3,4,4,5,6], k = 4
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Array can be divided into [1,2,3,4] and [3,4,5,6].
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [3,2,1,2,3,4,3,4,5,9,10,11], k = 3
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Array can be divided into [1,2,3] , [2,3,4] , [3,4,5] and [9,10,11].
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [3,3,2,2,1,1], k = 3
+<strong>Output:</strong> true
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4], k = 3
+<strong>Output:</strong> false
+<strong>Explanation:</strong> Each array should be divided in subarrays of size 3.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= nums.length &lt;= 10^5</code>
+	<code>1 &lt;= nums[i] &lt;= 10^9</code>
+	<code>1 &lt;= k &lt;= nums.length</code>
+</ul>

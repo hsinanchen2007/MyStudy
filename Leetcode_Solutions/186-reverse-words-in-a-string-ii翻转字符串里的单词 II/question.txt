@@ -1,0 +1,36 @@
+reverse-words-in-a-string-ii
+给定一个字符串，逐个翻转字符串中的每个单词。
+
+<strong>示例：</strong>
+
+<pre><strong>输入: </strong>[&quot;t&quot;,&quot;h&quot;,&quot;e&quot;,&quot; &quot;,&quot;s&quot;,&quot;k&quot;,&quot;y&quot;,&quot; &quot;,&quot;i&quot;,&quot;s&quot;,&quot; &quot;,&quot;b&quot;,&quot;l&quot;,&quot;u&quot;,&quot;e&quot;]
+<strong>输出: </strong>[&quot;b&quot;,&quot;l&quot;,&quot;u&quot;,&quot;e&quot;,&quot; &quot;,&quot;i&quot;,&quot;s&quot;,&quot; &quot;,&quot;s&quot;,&quot;k&quot;,&quot;y&quot;,&quot; &quot;,&quot;t&quot;,&quot;h&quot;,&quot;e&quot;]</pre>
+
+<strong>注意：</strong>
+
+<ul>
+	单词的定义是不包含空格的一系列字符
+	输入字符串中不会包含前置或尾随的空格
+	单词与单词之间永远是以单个空格隔开的
+</ul>
+
+<strong>进阶：</strong>使用<em>O</em>(1) 额外空间复杂度的原地解法。
+
+翻转字符串里的单词 II
+Given an input string<strong><em></em></strong>, reverse the string word by word.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:  </strong>[&quot;t&quot;,&quot;h&quot;,&quot;e&quot;,&quot; &quot;,&quot;s&quot;,&quot;k&quot;,&quot;y&quot;,&quot; &quot;,&quot;i&quot;,&quot;s&quot;,&quot; &quot;,&quot;b&quot;,&quot;l&quot;,&quot;u&quot;,&quot;e&quot;]
+<strong>Output: </strong>[&quot;b&quot;,&quot;l&quot;,&quot;u&quot;,&quot;e&quot;,&quot; &quot;,&quot;i&quot;,&quot;s&quot;,&quot; &quot;,&quot;s&quot;,&quot;k&quot;,&quot;y&quot;,&quot; &quot;,&quot;t&quot;,&quot;h&quot;,&quot;e&quot;]</pre>
+
+<strong>Note:</strong>
+
+<ul>
+	A word is defined as a sequence of non-space characters.
+	The input string does not contain leading or trailing spaces.
+	The words are always separated by a single space.
+</ul>
+
+<strong>Follow up:</strong>Could you do it <i>in-place</i> without allocating extra space?

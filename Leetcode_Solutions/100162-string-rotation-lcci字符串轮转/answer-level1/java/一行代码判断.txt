@@ -1,0 +1,1 @@
+  return s1.length()==s2.length() && new StringBuffer().append(s2).append(s2).toString().contains(s1);

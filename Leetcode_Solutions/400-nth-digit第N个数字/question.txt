@@ -1,0 +1,57 @@
+nth-digit
+在无限的整数序列1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...中找到第<em>n</em>个数字。
+
+<strong>注意:</strong><br />
+<em>n</em>是正数且在32为整形范围内(<em>n</em> &lt; 2<sup>31</sup>)。
+
+<strong>示例 1:</strong>
+
+<pre>
+<strong>输入:</strong>
+3
+
+<strong>输出:</strong>
+3
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre>
+<strong>输入:</strong>
+11
+
+<strong>输出:</strong>
+0
+
+<strong>说明:</strong>
+第11个数字在序列 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... 里是<strong>0</strong>，它是10的一部分。
+</pre>
+
+第N个数字
+Find the <i>n</i><sup>th</sup> digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... 
+
+<b>Note:</b><br />
+<i>n</i> is positive and will fit within the range of a 32-bit signed integer (<i>n</i> < 2<sup>31</sup>).
+
+
+<b>Example 1:</b>
+<pre>
+<b>Input:</b>
+3
+
+<b>Output:</b>
+3
+</pre>
+
+
+<b>Example 2:</b>
+<pre>
+<b>Input:</b>
+11
+
+<b>Output:</b>
+0
+
+<b>Explanation:</b>
+The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.
+</pre>

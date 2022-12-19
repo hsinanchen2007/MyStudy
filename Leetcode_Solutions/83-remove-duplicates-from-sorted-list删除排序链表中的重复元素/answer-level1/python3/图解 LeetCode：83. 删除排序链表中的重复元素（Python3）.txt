@@ -1,0 +1,74 @@
+
+### 思路
+
+- 标签：`链表`、`假节点`
+- 跟 「26.有序数组删除重复元素」有什么相似之处？
+- 26 题，有序数组删除重复元素，可使用「双指针」：不真正删除，找到后面不重复元素，依次覆盖前面元素，最后只返回不重复元素的长度。因为数组有下标，所以「双指针」实现比较简单。
+- 此题需要返回一个没有重复元素的新链表，因为没有链表没有下标，如果使用「双指针」（双引用），后面覆盖前面，可行。但返回新链表，实现起来比较复杂。
+- 此题可借助链表的特性「指针」（Pointer）来实现。如果当前节点的值等于下一个节点的值，指向下下个节点（**跳过**下一个节点），引用 head 并后移一位。
+
+```
+                 head 
+                  ↓    
+ dummyHead → 0 -> 1 -> 1 -> 2 -> 3 -> 3 -> None  ∵ head.val == head.next.val  ∴ head.next = head.next.next head = head.next
+                   ↘_______↗
+```
+
+```
+                     head 
+                       ↓    
+ dummyHead → 0 -> 1 -> 2 -> 3 -> 3 -> None
+```
+
+- 需要考虑特殊情况：有多个相同的节点。**只有当所有相同节点都跳过时，引用 head 才后移**
+
+```
+                 head 
+                  ↓    
+ dummyHead → 0 -> 1 -> 1 -> 1 -> 2 -> None
+                   ↘_______↗
+```
+
+```
+                 head 
+                  ↓    
+ dummyHead → 0 -> 1 -> 1 -> 2 -> None
+                   ↘_______↗
+```
+
+```
+                     head 
+                       ↓    
+ dummyHead → 0 -> 1 -> 2 -> None
+```
+- 时间复杂度：O(n)，链表需要遍历完
+- 空间复杂度：O(1)，不需要额外空间
+### 代码
+
+```Python []
+# Python3
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        if head == None or head.next == None:
+            return head
+        dummyHead,dummyHead.next = ListNode(0),head
+        while head != None and head.next != None:
+            if head.val == head.next.val:
+                head.next = head.next.next
+            else:
+                head = head.next
+        return dummyHead.next
+```
+
+### 测试用例
+
+| 输入    | 输出  |
+| ------- | ----- |
+| [1,2,2] | [1,2] |
+| [1,1,1] | [1]   |

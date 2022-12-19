@@ -1,0 +1,43 @@
+average-of-levels-in-binary-tree
+给定一个非空二叉树, 返回一个由每层节点平均值组成的数组.
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong>
+    3
+   / \
+  9  20
+    /  \
+   15   7
+<strong>输出:</strong> [3, 14.5, 11]
+<strong>解释:</strong>
+第0层的平均值是 3,  第1层是 14.5, 第2层是 11. 因此返回 [3, 14.5, 11].
+</pre>
+
+<strong>注意：</strong>
+
+<ol>
+	节点值的范围在32位有符号整数范围内。
+</ol>
+
+二叉树的层平均值
+Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b>
+    3
+   / \
+  9  20
+    /  \
+   15   7
+<b>Output:</b> [3, 14.5, 11]
+<b>Explanation:</b>
+The average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 is 11. Hence return [3, 14.5, 11].
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+The range of node's value is in the range of 32-bit signed integer.
+</ol>

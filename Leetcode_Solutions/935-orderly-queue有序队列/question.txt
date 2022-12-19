@@ -1,0 +1,77 @@
+orderly-queue
+给出了一个由小写字母组成的字符串 <code>S</code>。然后，我们可以进行任意次数的<em>移动</em>。
+
+在每次移动中，我们选择前 <code>K</code> 个字母中的一个（从左侧开始），将其从原位置移除，并放置在字符串的末尾。
+
+返回我们在任意次数的移动之后可以拥有的按字典顺序排列的最小字符串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>S = &quot;cba&quot;, K = 1
+<strong>输出：</strong>&quot;acb&quot;
+<strong>解释：</strong>
+在第一步中，我们将第一个字符（&ldquo;c&rdquo;）移动到最后，获得字符串 &ldquo;bac&rdquo;。
+在第二步中，我们将第一个字符（&ldquo;b&rdquo;）移动到最后，获得最终结果 &ldquo;acb&rdquo;。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>S = &quot;baaca&quot;, K = 3
+<strong>输出：</strong>&quot;aaabc&quot;
+<strong>解释：
+</strong>在第一步中，我们将第一个字符（&ldquo;b&rdquo;）移动到最后，获得字符串 &ldquo;aacab&rdquo;。
+在第二步中，我们将第三个字符（&ldquo;c&rdquo;）移动到最后，获得最终结果 &ldquo;aaabc&rdquo;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= K &lt;= S.length&lt;= 1000</code>
+	<code>S</code>只由小写字母组成。
+</ol>
+
+有序队列
+A string <code>S</code> of lowercase letters is given. Then, we may make any number of <em>moves</em>.
+
+In each move, wechoose oneof the first <code>K</code> letters (starting from the left), remove it,and place it at the end of the string.
+
+Return the lexicographically smallest string we could have after any number of moves.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>S = <span id="example-input-1-1">&quot;cba&quot;</span>, K = <span id="example-input-1-2">1</span>
+<strong>Output: </strong><span id="example-output-1">&quot;acb&quot;</span>
+<strong>Explanation: </strong>
+In the first move, we move the 1st character (&quot;c&quot;) to the end, obtaining the string &quot;bac&quot;.
+In the second move, we move the 1st character (&quot;b&quot;) to the end, obtaining the final result &quot;acb&quot;.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>S = <span id="example-input-2-1">&quot;baaca&quot;</span>, K = <span id="example-input-2-2">3</span>
+<strong>Output: </strong><span id="example-output-2">&quot;aaabc&quot;</span>
+<strong>Explanation: </strong>
+In the first move, we move the 1st character (&quot;b&quot;) to the end, obtaining the string &quot;aacab&quot;.
+In the second move, we move the 3rd character (&quot;c&quot;) to the end, obtaining the final result &quot;aaabc&quot;.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= K &lt;= S.length&lt;= 1000</code>
+	<code>S</code>consists of lowercase letters only.
+</ol>
+</div>
+</div>

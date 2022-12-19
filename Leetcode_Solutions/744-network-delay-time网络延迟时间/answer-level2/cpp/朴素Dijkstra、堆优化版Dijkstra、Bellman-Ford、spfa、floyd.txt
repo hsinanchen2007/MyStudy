@@ -1,0 +1,189 @@
+
+## 最短路算法
+
+最短路算法的分类：
+
+- 单源最短路
+  - 所有边权都是正数
+    - 朴素的Dijkstra算法 O(n^2) 适合稠密图
+    - 堆优化版的Dijkstra算法 O(mlog n)（m是图中节点的个数）适合稀疏图
+  - 存在负权边
+    - Bellman-Ford O(nm)
+    - spfa 一般O(m),最坏O(nm)
+- 多源汇最短路  Floyd算法 O(n^3)
+
+**力扣上的最短路问题比较少，我们就用这个题作为板子题，把4种单源最短路算法都实现一下**
+
+## 朴素的dijkstra算法
+
+```cpp
+class Solution {
+public:
+
+    int networkDelayTime(vector<vector<int>>& times, int n, int K) {
+        const int INF = 0x3f3f3f3f;
+        vector<vector<int>> g(n+1, vector<int>(n+1, INF));
+        for (auto &v: times){
+            g[v[0]][v[1]] = v[2];
+        }
+        vector<int> dist(n+1, INF); // 距离起始点的最短距离
+        vector<bool> st(n+1, false); // 是否已经得到最优解
+
+        dist[K] = 0; // 起始点
+        for (int i = 0; i< n - 1; i++ ){
+            int t = -1;
+            for (int j = 1; j <=n; j++){ // 在还未确定最短路的点中，寻找到起始点距离最小的点 的点
+                if (!st[j] && (t == -1 || dist[t] > dist[j])){ 
+                    t = j;
+                }
+            }
+
+            st[t] = true; // t号点的最短路已经确定
+
+            for (int j = 1; j<=n; j++){ // 用t更新其他点的距离
+                dist[j] = min(dist[j], dist[t] + g[t][j]); 
+            }
+        }
+        int ans = *max_element(dist.begin()+1, dist.end());
+        return ans == INF ? -1: ans;
+    }
+};
+```
+
+## 堆优化版的Dijkstra算法
+
+```cpp
+class Solution {
+public:
+    int networkDelayTime(vector<vector<int>>& times, int N, int K) {
+        const int INF = 0x3f3f3f3f;
+        typedef pair<int, int> PII; // first:距离; second: 几号点
+        vector<bool> st(N+1, false); // 是否已得到最短距离
+        vector<int> dist(N+1, INF); // 距离起始点的最短距离
+        unordered_map<int, vector<PII>> graph; // 邻接表；u->v,权重w
+        priority_queue<PII, vector<PII>, greater<PII>> heap; // 小顶堆；维护到起始点的最短距离和点
+
+        for (auto &t: times){ // 初始化邻接表
+            graph[t[0]].push_back({t[2],t[1]});
+        }
+        heap.push({0, K});
+        dist[K] = 0;
+        while(heap.size()){
+            auto t = heap.top();
+            heap.pop();
+            int ver = t.second, distance = t.first;
+            if (st[ver]) continue; // 之前更新过，是冗余备份
+            st[ver] = true;
+            for (auto &p: graph[ver]){
+                if (dist[p.second] > distance + p.first){ // 用t去更新其他点到起始点的最短距离
+                    dist[p.second] = distance + p.first;
+                    heap.push({dist[p.second], p.second});
+                }
+            }
+        }
+        int ans = *max_element(dist.begin()+1, dist.end());
+        return ans == INF ? -1: ans;
+    }
+};
+```
+
+## Bellmon-Ford算法
+
+```cpp
+class Solution {
+public:
+    int networkDelayTime(vector<vector<int>>& times, int N, int K) {
+        const int INF = 0x3f3f3f3f;
+        vector<int> dist(N+1, INF); // 到起点的最短距离
+        vector<int> backup(N+1); // 防止串联
+
+        dist[K] = 0;
+        for (int i =0; i<=N; i++){ // 松弛N 次
+            backup.assign(dist.begin(), dist.end());
+            for (auto &t: times){ // 枚举所有边
+                dist[t[1]] = min(dist[t[1]], backup[t[0]] + t[2]); // 更新最短路
+            }
+        }
+        int ans = *max_element(dist.begin() + 1, dist.end());
+        return ans > INF/2 ? -1: ans; // INF/2 是因为可能有负权边；这个题没有负权边，可以用INF
+    }
+};
+```
+
+## spfa算法
+
+```cpp
+class Solution {
+public:
+    int networkDelayTime(vector<vector<int>>& times, int N, int K) {
+        const int INF = 0x3f3f3f3f;
+        vector<int> dist(N+1, INF); // 保存到起点的距离
+        vector<bool> st(N+1, false); // 是否最短
+        typedef pair<int, int> PII;
+        unordered_map<int, vector<PII>> edges; // 邻接表
+
+        queue<int> q;
+        q.push(K);
+        dist[K] = 0;
+        st[K] = true; // 是否在队列中
+
+        for (auto &t: times){
+            edges[t[0]].push_back({t[1], t[2]});
+        }
+
+        while (!q.empty()){ // 当没有点可以更新的时候，说明得到最短路
+            auto t = q.front();
+            q.pop();
+            st[t] = false;
+            for (auto &e: edges[t]){ // 更新队列中的点出发的 所有边
+                int v = e.first, w = e.second;
+                if (dist[v] > dist[t] + w){
+                    dist[v] = dist[t] + w;
+                    if (!st[v]){
+                        q.push(v);
+                        st[v] = true;
+                    }
+                }
+            }
+        }
+        int ans = *max_element(dist.begin()+1, dist.end());
+        return ans == INF ? -1: ans;
+    }
+};
+```
+
+
+## floyd算法
+
+```cpp
+class Solution {
+public:
+    int networkDelayTime(vector<vector<int>>& times, int N, int K) {
+        const int INF = 0x3f3f3f3f;
+        vector<vector<int>> d(N+1, vector<int>(N+1, INF));
+        for (int i = 1; i<=N; i++) d[i][i] = 0;
+
+        for (auto &t: times){
+            d[t[0]][t[1]] = min(d[t[0]][t[1]], t[2]);
+        }
+
+        for (int k = 1; k<=N; k++){
+            for (int i = 1; i<=N; i++){
+                for (int j =1; j<=N; j++){
+                    d[i][j] = min(d[i][j], d[i][k] + d[k][j]);
+                }
+            }
+        }
+        int ans = 0;
+        for (int i =1; i<=N; i++){
+            ans = max(ans, d[K][i]);
+        }
+        return ans > INF/2 ? -1: ans;
+    }
+};
+```
+
+
+[从零开始学算法](https://muyids.github.io/simple-algorithm/)
+
+[最短路](https://muyids.github.io/simple-algorithm/chapter/graph/%E6%9C%80%E7%9F%AD%E8%B7%AF.html)

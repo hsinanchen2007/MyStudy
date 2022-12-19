@@ -1,0 +1,82 @@
+kth-smallest-number-in-multiplication-table
+几乎每一个人都用<a href="https://baike.baidu.com/item/%E4%B9%98%E6%B3%95%E8%A1%A8">乘法表</a>。但是你能在乘法表中快速找到第<code>k</code>小的数字吗？
+
+给定高度<code>m</code>、宽度<code>n</code> 的一张<code>m * n</code>的乘法表，以及正整数<code>k</code>，你需要返回表中第<code>k</code>小的数字。
+
+<strong>例1：</strong>
+
+<pre>
+<strong>输入:</strong> m = 3, n = 3, k = 5
+<strong>输出:</strong> 3
+<strong>解释:</strong> 
+乘法表:
+1	2	3
+2	4	6
+3	6	9
+
+第5小的数字是 3 (1, 2, 2, 3, 3).
+</pre>
+
+<strong>例 2：</strong>
+
+<pre>
+<strong>输入:</strong> m = 2, n = 3, k = 6
+<strong>输出:</strong> 6
+<strong>解释:</strong> 
+乘法表:
+1	2	3
+2	4	6
+
+第6小的数字是 6 (1, 2, 2, 3, 4, 6).
+</pre>
+
+<strong>注意：</strong>
+
+<ol>
+	<code>m</code> 和<code>n</code>的范围在 [1, 30000] 之间。
+	<code>k</code> 的范围在 [1, m * n] 之间。
+</ol>
+
+乘法表中第k小的数
+
+Nearly every one have used the <a href="https://en.wikipedia.org/wiki/Multiplication_table">Multiplication Table</a>. But could you find out the <code>k-th</code> smallest number quickly from the multiplication table?
+
+
+
+Given the height <code>m</code> and the length <code>n</code> of a <code>m * n</code> Multiplication Table, and a positive integer <code>k</code>, you need to return the <code>k-th</code> smallest number in this table.
+
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> m = 3, n = 3, k = 5
+<b>Output:</b> 
+<b>Explanation:</b> 
+The Multiplication Table:
+1	2	3
+2	4	6
+3	6	9
+
+The 5-th smallest number is 3 (1, 2, 2, 3, 3).
+</pre>
+
+
+
+<b>Example 2:</b><br />
+<pre>
+<b>Input:</b> m = 2, n = 3, k = 6
+<b>Output:</b> 
+<b>Explanation:</b> 
+The Multiplication Table:
+1	2	3
+2	4	6
+
+The 6-th smallest number is 6 (1, 2, 2, 3, 4, 6).
+</pre>
+
+
+
+<b>Note:</b><br>
+<ol>
+The <code>m</code> and <code>n</code> will be in the range [1, 30000].
+The <code>k</code> will be in the range [1, m * n]
+</ol>

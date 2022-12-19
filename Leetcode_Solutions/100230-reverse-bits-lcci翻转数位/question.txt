@@ -1,0 +1,31 @@
+reverse-bits-lcci
+给定一个32位整数 <code>num</code>，你可以将一个数位从0变为1。请编写一个程序，找出你能够获得的最长的一串1的长度。
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入:</strong> <code>num</code> = 1775(11011101111<sub>2</sub>)
+<strong>输出:</strong> 8
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入:</strong> <code>num</code> = 7(0111<sub>2</sub>)
+<strong>输出:</strong> 4
+</pre>
+
+翻转数位
+You have an integer and you can flip exactly one bit from a 0 to a 1. Write code to find the length of the longest sequence of 1s you could create.
+
+<strong>Example 1: </strong>
+
+<pre>
+<strong>Input:</strong> <code>num</code> = 1775(11011101111<sub>2</sub>)
+<strong>Output:</strong> 8
+</pre>
+
+<strong>Example 2: </strong>
+
+<pre>
+<strong>Input:</strong> <code>num</code> = 7(0111<sub>2</sub>)
+<strong>Output:</strong> 4
+</pre>

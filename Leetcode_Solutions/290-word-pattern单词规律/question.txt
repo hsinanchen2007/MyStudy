@@ -1,0 +1,59 @@
+word-pattern
+给定一种规律 <code>pattern</code>和一个字符串<code>str</code>，判断 <code>str</code> 是否遵循相同的规律。
+
+这里的<strong>遵循</strong>指完全匹配，例如，<code>pattern</code>里的每个字母和字符串<code>str</code><strong></strong>中的每个非空单词之间存在着双向连接的对应规律。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>
+<strong>输出:</strong> true</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong>pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat fish&quot;</code>
+<strong>输出:</strong> false</pre>
+
+<strong>示例 3:</strong>
+
+<pre><strong>输入:</strong> pattern = <code>&quot;aaaa&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>
+<strong>输出:</strong> false</pre>
+
+<strong>示例4:</strong>
+
+<pre><strong>输入:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog dog dog dog&quot;</code>
+<strong>输出:</strong> false</pre>
+
+<strong>说明:</strong><br>
+你可以假设<code>pattern</code>只包含小写字母，<code>str</code>包含了由单个空格分隔的小写字母。 
+
+单词规律
+Given a <code>pattern</code> and a string <code>str</code>, find if <code>str</code> follows the same pattern.
+
+Here <b>follow</b> means a full match, such that there is a bijection between a letter in <code>pattern</code> and a <b>non-empty</b> word in <code>str</code>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>
+<strong>Output:</strong> true</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong>pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat fish&quot;</code>
+<strong>Output:</strong> false</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> pattern = <code>&quot;aaaa&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>
+<strong>Output:</strong> false</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog dog dog dog&quot;</code>
+<strong>Output:</strong> false</pre>
+
+<b>Notes:</b><br />
+You may assume <code>pattern</code> contains only lowercase letters, and <code>str</code> contains lowercase letters that may be separated by a single space.

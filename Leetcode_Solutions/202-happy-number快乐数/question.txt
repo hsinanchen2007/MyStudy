@@ -1,0 +1,38 @@
+happy-number
+编写一个算法来判断一个数 <code>n</code> 是不是快乐数。
+
+「快乐数」定义为：对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和，然后重复这个过程直到这个数变为 1，也可能是 <strong>无限循环</strong> 但始终变不到 1。如果 <strong>可以变为</strong> 1，那么这个数就是快乐数。
+
+如果 <code>n</code> 是快乐数就返回 <code>True</code> ；不是，则返回 <code>False</code> 。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>19
+<strong>输出：</strong>true
+<strong>解释：
+</strong>1<sup>2</sup> + 9<sup>2</sup> = 82
+8<sup>2</sup> + 2<sup>2</sup> = 68
+6<sup>2</sup> + 8<sup>2</sup> = 100
+1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
+</pre>
+
+快乐数
+Write an algorithm to determine if a number <code>n</code> is &quot;happy&quot;.
+
+A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it <strong>loops endlessly in a cycle</strong> which does not include 1. Those numbers for which this process <strong>ends in 1</strong> are happy numbers.
+
+Return True if <code>n</code> is a happy number, and False if not.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> 19
+<strong>Output:</strong> true
+<strong>Explanation: 
+</strong>1<sup>2</sup> + 9<sup>2</sup> = 82
+8<sup>2</sup> + 2<sup>2</sup> = 68
+6<sup>2</sup> + 8<sup>2</sup> = 100
+1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
+</pre>

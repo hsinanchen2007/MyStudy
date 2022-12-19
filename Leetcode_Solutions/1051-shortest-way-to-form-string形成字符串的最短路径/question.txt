@@ -1,0 +1,74 @@
+shortest-way-to-form-string
+对于任何字符串，我们可以通过删除其中一些字符（也可能不删除）来构造该字符串的子序列。
+
+给定源字符串<code>source</code> 和目标字符串<code>target</code>，找出源字符串中能通过串联形成目标字符串的子序列的最小数量。如果无法通过串联源字符串中的子序列来构造目标字符串，则返回<code>-1</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>source = &quot;abc&quot;, target = &quot;abcbc&quot;
+<strong>输出：</strong>2
+<strong>解释：</strong>目标字符串 &quot;abcbc&quot; 可以由 &quot;abc&quot; 和 &quot;bc&quot; 形成，它们都是源字符串 &quot;abc&quot; 的子序列。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>source = &quot;abc&quot;, target = &quot;acdbc&quot;
+<strong>输出：</strong>-1
+<strong>解释：</strong>由于目标字符串中包含字符 &quot;d&quot;，所以无法由源字符串的子序列构建目标字符串。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>source = &quot;xyz&quot;, target = &quot;xzyxz&quot;
+<strong>输出：</strong>3
+<strong>解释：</strong>目标字符串可以按如下方式构建： &quot;xz&quot; + &quot;y&quot; + &quot;xz&quot;。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>source</code> 和<code>target</code>两个字符串都只包含&quot;a&quot;-&quot;z&quot;的英文小写字母。
+	<code>source</code> 和<code>target</code>两个字符串的长度介于<code>1</code> 和<code>1000</code>之间。
+</ol>
+
+形成字符串的最短路径
+From any string, we can form a <i>subsequence</i> of that string by deleting some number of characters (possibly no deletions).
+
+Given two strings <code>source</code> and <code>target</code>, return the minimum number of subsequences of <code>source</code> such that their concatenation equals <code>target</code>. If the task is impossible, return <code>-1</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>source = <span id="example-input-1-1">&quot;abc&quot;</span>, target = <span id="example-input-1-2">&quot;abcbc&quot;</span>
+<strong>Output: </strong><span id="example-output-1">2</span>
+<strong>Explanation: </strong>The target &quot;abcbc&quot; can be formed by &quot;abc&quot; and &quot;bc&quot;, which are subsequences of source &quot;abc&quot;.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>source = <span id="example-input-2-1">&quot;abc&quot;</span>, target = <span id="example-input-2-2">&quot;acdbc&quot;</span>
+<strong>Output: </strong><span id="example-output-2">-1</span>
+<strong>Explanation: </strong>The target string cannot be constructed from the subsequences of source string due to the character &quot;d&quot; in target string.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong>source = <span id="example-input-3-1">&quot;xyz&quot;</span>, target = <span id="example-input-3-2">&quot;xzyxz&quot;</span>
+<strong>Output: </strong><span id="example-output-3">3</span>
+<strong>Explanation: </strong>The target string can be constructed as follows &quot;xz&quot; + &quot;y&quot; + &quot;xz&quot;.
+</pre>
+
+<strong>Constraints:</strong>
+
+<ul>
+	Both the <code>source</code> and <code>target</code> strings consist of only lowercase English letters from &quot;a&quot;-&quot;z&quot;.
+	The lengths of <code>source</code> and <code>target</code> string are between <code>1</code> and <code>1000</code>.
+</ul>

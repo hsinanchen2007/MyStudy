@@ -1,0 +1,41 @@
+best-meeting-point
+有一队人（两人或以上）想要在一个地方碰面，他们希望能够最小化他们的总行走距离。
+
+给你一个 2D网格，其中各个格子内的值要么是0，要么是1。
+
+1 表示某个人的家所处的位置。这里，我们将使用<a href="https://baike.baidu.com/item/%E6%9B%BC%E5%93%88%E9%A1%BF%E8%B7%9D%E7%A6%BB" target="_blank">曼哈顿距离</a>来计算，其中distance(p1, p2) = <code>|p2.x - p1.x| + |p2.y - p1.y|</code>。
+
+<strong>示例：</strong>
+
+<pre><strong>输入:</strong> 
+
+1 - 0 - 0 - 0 - 1
+|   |   |   |   |
+0 - 0 - 0 - 0 - 0
+|   |   |   |   |
+0 - 0 - 1 - 0 - 0
+
+<strong>输出: 6 
+
+解析: </strong>给定的三个人分别住在<code>(0,0)<span style="">，</span></code><code>(0,4) </code>和 <code>(2,2)</code>:
+    <code>(0,2)</code> 是一个最佳的碰面点，其总行走距离为 2 + 2 + 2 = 6，最小，因此返回 6。</pre>
+
+最佳的碰头地点
+A group of two or more people wants to meet and minimize the total travel distance. You are given a 2D grid of values 0 or 1, where each 1 marks the home of someone in the group. The distance is calculated using <a href="http://en.wikipedia.org/wiki/Taxicab_geometry" target="_blank">Manhattan Distance</a>, where distance(p1, p2) = <code>|p2.x - p1.x| + |p2.y - p1.y|</code>.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> 
+
+1 - 0 - 0 - 0 - 1
+|   |   |   |   |
+0 - 0 - 0 - 0 - 0
+|   |   |   |   |
+0 - 0 - 1 - 0 - 0
+
+<strong>Output: 6 
+
+Explanation: </strong>Given three people living at <code>(0,0)</code>, <code>(0,4)</code>, and <code>(2,2)</code>:
+            The point <code>(0,2)</code> is an ideal meeting point, as the total travel distance 
+            of 2+2+2=6 is minimal. So return 6.</pre>

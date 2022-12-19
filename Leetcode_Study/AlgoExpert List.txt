@@ -1,0 +1,190 @@
+* Array
+    Two Number Sum
+    Validate Subsequence
+    Sorted Squared Array
+    Tournament Winner
+    Non-Constructible Change
+    Three Number Sum
+    Smallest Difference
+    Move Element To End
+    Monotonic Array
+    Spiral Traverse
+    Longest Peak
+    Array Of Products
+    First Duplicate Value
+    Merge Overlapping Intervals
+    Four Number Sum
+    Subarray Sort
+    Largest Range
+    Min Rewards
+    Zigzag Traverse
+    Apartment Hunting
+    Calendar Matching
+    Waterfall Streams
+    Minimum Area Rectangle
+    Line Through Points
+
+* Binary Search Tree
+    Find Closest Value In BST
+    BST Construction
+    Validate BST
+    BST Traversal
+    Min Height BST
+    Find Kth Largest Value In BST
+    Reconstruct BST
+    Same BSTs
+    Validate Three Nodes
+    Right Smaller Than
+
+* Binary Tree
+    Branch Sums
+    Node Depths
+    Invert Binary Tree
+    Binary Tree Diameter
+    Find Successor
+    Height Balanced Binary Tree
+    Max Path Sum In Binary Tree
+    Find Nodes Distance K
+    Iterative In-order Traversal
+    Flatten Binary Tree
+    Right Sibling Tree
+    All Kinds Of Node Depths
+    Compare Leaf Traversal
+
+* Dynamic Programming
+    Max Subset Sum No Adjacent
+    Number Of Ways To Make Change
+    Min Number Of Coins For Change
+    Levenshtein Distance
+    Number Of Ways To Traverse Graph
+    Max Sum Increasing Subsequence
+    Longest Common Subsequence
+    Min Number Of Jumps
+    Water Area
+    Knapsack Problem
+    Disk Stacking
+    Numbers In Pi
+    Maximum Sum Submatrix
+    Maximize Expression
+    Max Profit With K Transactions
+    Palindrome Partitioning Min Cuts
+    Longest Increasing Subsequence
+    Longest String Chain
+    Square of Zeroes
+
+* Famous Algorithm
+    Kadane's Algorithm
+    Dijkstra's Algorithm
+    Topological Sort
+    Knuth—Morris—Pratt Algorithm
+    A* Algorithm
+
+* Graph
+    Depth-first Search
+    Single Cycle Check
+    Breadth-first Search
+    River Sizes
+    Youngest Common Ancestor
+    Remove Islands
+    Cycle In Graph
+    Minimum Passes Of Matrix
+    Boggle Board
+    Rectangle Mania
+    Detect Arbitrage
+    Two-Edge-Connected Graph
+    Airport Connections
+
+* Greedy Algorithm
+    Minimum Waiting Time
+    Class Photos
+    Tandem Bicycle
+    Task Assignment
+    Valid Starting City
+
+* Heaps
+    Min Heap Construction
+    Continuous Median
+    Sort K-Sorted Array
+    Laptop Rentals
+    Merge Sorted Arrays
+
+* Linked List
+    Remove Duplicates From Linked List
+    Linked List Construction
+    Remove Kth Node From End
+    Sum of Linked Lists
+    Find Loop
+    Reverse Linked List
+    Merge Linked Lists
+    Shift Linked List
+    LRU Cache
+    Rearrange Linked List
+    Linked List Palindrome
+    Zip Linked List
+    Node Swap
+
+* Recursion
+    Nth Fibonacci
+    Product Sum
+    Permutations
+    Powerset
+    Phone Number Mnemonics
+    Staircase Traversal
+    Lowest Common Manager
+    Interweaving Strings
+    Solve Sudoku
+    Generate Div Tags
+    Ambiguous Measurements
+    Number Of Binary Tree Topologies
+    Non-Attacking Queens
+
+* Searching
+    Binary Search
+    Find Three Largest Numbers
+    Search In Sorted Matrix
+    Shifted Binary Search
+    Search For Range
+    Quickselect
+    Index Equals Value
+
+* Sorting
+    Bubble Sort
+    Insertion Sort
+    Selection Sort
+    Three Number Sort
+    Quick Sort
+    Heap Sort
+    Radix Sort
+    Merge Sort
+    Count Inversions
+
+* Stack
+    Min Max Stack Construction
+    Balanced Brackets
+    Sunset Views
+    Sort Stack
+    Next Greater Element
+    Shorten Path
+    Largest Rectangle Under Skyline
+
+* Strings
+    Palindrome Check
+    Caesar Cipher Encryptor
+    Run-Length Encoding
+    Generate Document
+    First Non-Repeating Character
+    Longest Palindromic Substring
+    Group Anagrams
+    Valid IP Addresses
+    Reverse Words In String
+    Minimum Characters For Words
+    Longest Substring Without Duplication
+    Underscorify Substring
+    Pattern Matcher
+    Smallest Substring Containing
+    Longest Balanced Substring
+
+* Tries
+    Suffix Trie Construction
+    Multi String Search
+

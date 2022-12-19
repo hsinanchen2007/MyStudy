@@ -1,0 +1,63 @@
+occurrences-after-bigram
+给出第一个词<code>first</code> 和第二个词<code>second</code>，考虑在某些文本<code>text</code>中可能以 &quot;<code>first second third</code>&quot; 形式出现的情况，其中<code>second</code>紧随<code>first</code>出现，<code>third</code>紧随<code>second</code>出现。
+
+对于每种这样的情况，将第三个词 &quot;<code>third</code>&quot; 添加到答案中，并返回答案。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>text = &quot;alice is a good girl she is a good student&quot;, first = &quot;a&quot;, second = &quot;good&quot;
+<strong>输出：</strong>[&quot;girl&quot;,&quot;student&quot;]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>text = &quot;we will we will rock you&quot;, first = &quot;we&quot;, second = &quot;will&quot;
+<strong>输出：</strong>[&quot;we&quot;,&quot;rock&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= text.length &lt;= 1000</code>
+	<code>text</code>由一些用空格分隔的单词组成，每个单词都由小写英文字母组成
+	<code>1 &lt;= first.length, second.length &lt;= 10</code>
+	<code>first</code> 和<code>second</code>由小写英文字母组成
+</ol>
+
+Bigram 分词
+Given words <code>first</code> and <code>second</code>, consider occurrences in some<code>text</code> of the form &quot;<code>first second third</code>&quot;, where <code>second</code> comes immediately after <code>first</code>, and <code>third</code> comes immediately after <code>second</code>.
+
+For each such occurrence, add &quot;<code>third</code>&quot; to the answer, and return the answer.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>text = <span id="example-input-1-1">&quot;alice is a good girl she is a good student&quot;</span>, first = <span id="example-input-1-2">&quot;a&quot;</span>, second = <span id="example-input-1-3">&quot;good&quot;</span>
+<strong>Output: </strong><span id="example-output-1">[&quot;girl&quot;,&quot;student&quot;]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>text = <span id="example-input-2-1">&quot;we will we will rock you&quot;</span>, first = <span id="example-input-2-2">&quot;we&quot;</span>, second = <span id="example-input-2-3">&quot;will&quot;</span>
+<strong>Output: </strong><span id="example-output-2">[&quot;we&quot;,&quot;rock&quot;]</span>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= text.length &lt;= 1000</code>
+	<code>text</code> consists of space separated words, where each word consists of lowercase English letters.
+	<code>1 &lt;= first.length, second.length &lt;= 10</code>
+	<code>first</code> and <code>second</code> consist of lowercase English letters.
+</ol>
+</div>

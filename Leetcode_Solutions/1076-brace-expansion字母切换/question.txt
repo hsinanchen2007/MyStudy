@@ -1,0 +1,69 @@
+brace-expansion
+我们用一个特殊的字符串<code>S</code>来表示一份单词列表，之所以能展开成为一个列表，是因为这个字符串<code>S</code>中存在一个叫做「选项」的概念：
+
+单词中的每个字母可能只有一个选项或存在多个备选项。如果只有一个选项，那么该字母按原样表示。
+
+如果存在多个选项，就会以花括号包裹来表示这些选项（使它们与其他字母分隔开），例如 <code>&quot;{a,b,c}&quot;</code> 表示<code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code>。
+
+<strong>例子：</strong><code>&quot;{a,b,c}d{e,f}&quot;</code>可以表示单词列表<code>[&quot;ade&quot;, &quot;adf&quot;, &quot;bde&quot;, &quot;bdf&quot;, &quot;cde&quot;, &quot;cdf&quot;]</code>。
+
+请你按字典顺序，返回所有以这种方式形成的单词。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;{a,b}c{d,e}f&quot;
+<strong>输出：</strong>[&quot;acdf&quot;,&quot;acef&quot;,&quot;bcdf&quot;,&quot;bcef&quot;]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;abcd&quot;
+<strong>输出：</strong>[&quot;abcd&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= S.length &lt;= 50</code>
+	你可以假设题目中不存在嵌套的花括号
+	在一对连续的花括号（开花括号与闭花括号）之间的所有字母都不会相同
+</ol>
+
+字母切换
+A string <code>S</code>represents a list of words.
+
+Each letter in the word has 1 or more options. If there is one option, the letter is represented as is. If there is more than one option, then curly braces delimit the options. For example, <code>&quot;{a,b,c}&quot;</code> represents options <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code>.
+
+For example, <code>&quot;{a,b,c}d{e,f}&quot;</code> represents the list <code>[&quot;ade&quot;, &quot;adf&quot;, &quot;bde&quot;, &quot;bdf&quot;, &quot;cde&quot;, &quot;cdf&quot;]</code>.
+
+Return all words that can be formed in this manner, in lexicographical order.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;{a,b}c{d,e}f&quot;</span>
+<strong>Output: </strong><span id="example-output-1">[&quot;acdf&quot;,&quot;acef&quot;,&quot;bcdf&quot;,&quot;bcef&quot;]</span>
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;abcd&quot;</span>
+<strong>Output: </strong><span id="example-output-2">[&quot;abcd&quot;]</span>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= S.length &lt;= 50</code>
+	There are nonested curly brackets.
+	All characters inside a pair ofconsecutive opening and ending curly brackets are different.
+</ol>

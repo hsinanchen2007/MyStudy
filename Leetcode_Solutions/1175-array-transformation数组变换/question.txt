@@ -1,0 +1,85 @@
+array-transformation
+首先，给你一个初始数组 <code>arr</code>。然后，每天你都要根据前一天的数组生成一个新的数组。
+
+第<code>i</code>天所生成的数组，是由你对第<code>i-1</code>天的数组进行如下操作所得的：
+
+<ol>
+	假如一个元素小于它的左右邻居，那么该元素自增 <code>1</code>。
+	假如一个元素大于它的左右邻居，那么该元素自减 <code>1</code>。
+	首、尾元素 <strong>永不</strong>改变。
+</ol>
+
+过些时日，你会发现数组将会不再发生变化，请返回最终所得到的数组。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[6,2,3,4]
+<strong>输出：</strong>[6,3,3,4]
+<strong>解释：</strong>
+第一天，数组从 [6,2,3,4] 变为 [6,3,3,4]。
+无法再对该数组进行更多操作。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[1,6,3,4,3,5]
+<strong>输出：</strong>[1,4,4,4,4,5]
+<strong>解释：</strong>
+第一天，数组从 [1,6,3,4,3,5] 变为 [1,5,4,3,4,5]。
+第二天，数组从 [1,5,4,3,4,5] 变为 [1,4,4,4,4,5]。
+无法再对该数组进行更多操作。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= arr.length &lt;= 100</code>
+	<code>1 &lt;= arr[i] &lt;= 100</code>
+</ol>
+
+数组变换
+Given an initial array <code>arr</code>, every day you produce a new array using the array of the previous day.
+
+On the <code>i</code>-th day, you do the following operations on the array of day<code>i-1</code>to produce the array of day <code>i</code>:
+
+<ol>
+	If an element is smaller than both its left neighbor and its right neighbor, then this element is incremented.
+	If an element is bigger than both its left neighbor and its right neighbor, then this element is decremented.
+	The firstand last elements never change.
+</ol>
+
+After some days, the array does not change. Return that final array.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [6,2,3,4]
+<strong>Output:</strong> [6,3,3,4]
+<strong>Explanation: </strong>
+On the first day, the array is changed from [6,2,3,4] to [6,3,3,4].
+No more operations can be done to this array.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [1,6,3,4,3,5]
+<strong>Output:</strong> [1,4,4,4,4,5]
+<strong>Explanation: </strong>
+On the first day, the array is changed from [1,6,3,4,3,5] to [1,5,4,3,4,5].
+On the second day, the array is changed from [1,5,4,3,4,5] to [1,4,4,4,4,5].
+No more operations can be done to this array.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= arr.length &lt;= 100</code>
+	<code>1 &lt;= arr[i] &lt;= 100</code>
+</ul>

@@ -1,0 +1,106 @@
+minimum-number-of-steps-to-make-two-strings-anagram
+给你两个长度相等的字符串<code>s</code> 和 <code>t</code>。每一个步骤中，你可以选择将<code>t</code>中的 <strong>任一字符</strong> 替换为 <strong>另一个字符</strong>。
+
+返回使<code>t</code>成为<code>s</code>的字母异位词的最小步骤数。
+
+<strong>字母异位词</strong> 指字母相同，但排列不同的字符串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输出：</strong>s = &quot;bab&quot;, t = &quot;aba&quot;
+<strong>输出：</strong>1
+<strong>提示：</strong>用 &#39;b&#39; 替换 t 中的第一个 &#39;a&#39;，t = &quot;bba&quot; 是 s 的一个字母异位词。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输出：</strong>s = &quot;leetcode&quot;, t = &quot;practice&quot;
+<strong>输出：</strong>5
+<strong>提示：</strong>用合适的字符替换 t 中的 &#39;p&#39;, &#39;r&#39;, &#39;a&#39;, &#39;i&#39; 和 &#39;c&#39;，使 t 变成 s 的字母异位词。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输出：</strong>s = &quot;anagram&quot;, t = &quot;mangaar&quot;
+<strong>输出：</strong>0
+<strong>提示：</strong>&quot;anagram&quot; 和 &quot;mangaar&quot; 本身就是一组字母异位词。 
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输出：</strong>s = &quot;xxyyzz&quot;, t = &quot;xxyyzz&quot;
+<strong>输出：</strong>0
+</pre>
+
+<strong>示例 5：</strong>
+
+<pre><strong>输出：</strong>s = &quot;friend&quot;, t = &quot;family&quot;
+<strong>输出：</strong>4
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 50000</code>
+	<code>s.length == t.length</code>
+	<code>s</code> 和 <code>t</code>只包含小写英文字母
+</ul>
+
+制造字母异位词的最小步骤数
+Given two equal-size strings <code>s</code> and <code>t</code>. In one step you can choose <strong>any character</strong> of <code>t</code> and replace it with <strong>another character</strong>.
+
+Return <em>the minimum number of steps</em> to make <code>t</code>an anagram of <code>s</code>.
+
+An<strong>Anagram</strong>of astringis a string that contains the same characters with a different (or the same) ordering.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;bab&quot;, t = &quot;aba&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Replace the first &#39;a&#39; in t with b, t = &quot;bba&quot; which is anagram of s.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;leetcode&quot;, t = &quot;practice&quot;
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> Replace &#39;p&#39;, &#39;r&#39;, &#39;a&#39;, &#39;i&#39; and &#39;c&#39; from t with proper characters to make t anagram of s.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;anagram&quot;, t = &quot;mangaar&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> &quot;anagram&quot; and &quot;mangaar&quot; are anagrams. 
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;xxyyzz&quot;, t = &quot;xxyyzz&quot;
+<strong>Output:</strong> 0
+</pre>
+
+<strong>Example 5:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;friend&quot;, t = &quot;family&quot;
+<strong>Output:</strong> 4
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 50000</code>
+	<code>s.length == t.length</code>
+	<code>s</code> and <code>t</code> contain lower-case English letters only.
+</ul>

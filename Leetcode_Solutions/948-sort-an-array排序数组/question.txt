@@ -1,0 +1,47 @@
+sort-an-array
+给你一个整数数组<code>nums</code>，请你将该数组升序排列。
+
+
+
+<ol>
+</ol>
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>nums = [5,2,3,1]
+<strong>输出：</strong>[1,2,3,5]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>nums = [5,1,1,2,0,0]
+<strong>输出：</strong>[0,0,1,1,2,5]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= nums.length &lt;= 50000</code>
+	<code>-50000 &lt;= nums[i] &lt;= 50000</code>
+</ol>
+
+排序数组
+Given an array of integers <code>nums</code>, sort the array in ascending order.
+
+
+<strong>Example 1:</strong>
+<pre><strong>Input:</strong> nums = [5,2,3,1]
+<strong>Output:</strong> [1,2,3,5]
+</pre><strong>Example 2:</strong>
+<pre><strong>Input:</strong> nums = [5,1,1,2,0,0]
+<strong>Output:</strong> [0,0,1,1,2,5]
+</pre>
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= nums.length &lt;= 50000</code>
+	<code>-50000 &lt;= nums[i] &lt;= 50000</code>
+</ul>

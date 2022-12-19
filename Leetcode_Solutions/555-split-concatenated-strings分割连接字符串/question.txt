@@ -1,0 +1,59 @@
+split-concatenated-strings
+给定一个字符串列表，你可以将这些字符串连接成一个循环字符串，对于每个字符串，你可以选择是否翻转它。在所有可能的循环字符串中，你需要分割循环字符串（这将使循环字符串变成一个常规的字符串），然后找到字典序最大的字符串。
+
+具体来说，要找到字典序最大的字符串，你需要经历两个阶段：
+
+<ol>
+	将所有字符串连接成一个循环字符串，你可以选择是否翻转某些字符串，并按照给定的顺序连接它们。
+	在循环字符串的某个位置分割它，这将使循环字符串从分割点变成一个常规的字符串。
+</ol>
+
+你的工作是在所有可能的常规字符串中找到字典序最大的一个。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> &quot;abc&quot;, &quot;xyz&quot;
+<strong>输出:</strong> &quot;zyxcba&quot;
+<strong>解释:</strong> 你可以得到循环字符串 &quot;-abcxyz-&quot;, &quot;-abczyx-&quot;, &quot;-cbaxyz-&quot;, &quot;-cbazyx-&quot;，
+其中 &#39;-&#39; 代表循环状态。 
+答案字符串来自第四个循环字符串， 
+你可以从中间字符 &#39;a&#39; 分割开然后得到 &quot;zyxcba&quot;。
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	输入字符串只包含小写字母。
+	所有字符串的总长度不会超过 1,000。
+</ol>
+
+
+
+分割连接字符串
+Given a list of strings, you could concatenate these strings together into a loop, where for each string you could choose to reverse it or not. Among all the possible loops, you need to find the lexicographically biggest string after cutting the loop, which will make the looped string into a regular one.
+
+Specifically, to find the lexicographically biggest string, you need to experience two phases: 
+<ol>
+Concatenate all the strings into a loop, where you can reverse some strings or not and connect them in the same order as given.
+Cut and make one breakpoint in any place of the loop, which will make the looped string into a regular one starting from the character at the cutpoint. 
+</ol>
+
+
+And your job is to find the lexicographically biggest one among all the possible regular strings.
+
+
+<b>Example:</b><br />
+<pre>
+<b>Input:</b> "abc", "xyz"
+<b>Output:</b> "zyxcba"
+<b>Explanation:</b> You can get the looped string "-abcxyz-", "-abczyx-", "-cbaxyz-", "-cbazyx-", <br/>where '-' represents the looped status. <br/>The answer string came from the fourth looped one, <br/>where you could cut from the middle character 'a' and get "zyxcba".
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+The input strings will only contain lowercase letters.
+The total length of all the strings will not over 1,000.
+</ol>

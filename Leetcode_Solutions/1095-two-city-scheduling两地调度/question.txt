@@ -1,0 +1,60 @@
+two-city-scheduling
+公司计划面试 <code>2N</code> 人。第 <code>i</code> 人飞往 <code>A</code> 市的费用为 <code>costs[i][0]</code>，飞往 <code>B</code> 市的费用为 <code>costs[i][1]</code>。
+
+返回将每个人都飞到某座城市的最低费用，要求每个城市都有 <code>N</code> 人抵达<strong>。</strong>
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>[[10,20],[30,200],[400,50],[30,20]]
+<strong>输出：</strong>110
+<strong>解释：</strong>
+第一个人去 A 市，费用为 10。
+第二个人去 A 市，费用为 30。
+第三个人去 B 市，费用为 50。
+第四个人去 B 市，费用为 20。
+
+最低总费用为 10 + 30 + 50 + 20 = 110，每个城市都有一半的人在面试。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= costs.length &lt;= 100</code>
+	<code>costs.length</code> 为偶数
+	<code>1 &lt;= costs[i][0], costs[i][1] &lt;= 1000</code>
+</ol>
+
+两地调度
+There are <code>2N</code> people a company is planning to interview. The cost of flying the <code>i</code>-th person to city <code>A</code> is <code>costs[i][0]</code>, and the cost of flying the <code>i</code>-th person to city <code>B</code> is <code>costs[i][1]</code>.
+
+Return the minimum cost to fly every person to a city such that exactly <code>N</code> people arrive in each city.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[10,20],[30,200],[400,50],[30,20]]</span>
+<strong>Output: </strong><span id="example-output-1">110</span>
+<strong>Explanation: </strong>
+The first person goes to city A for a cost of 10.
+The second person goes to city A for a cost of 30.
+The third person goes to city B for a cost of 50.
+The fourth person goes to city B for a cost of 20.
+
+The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interviewing in each city.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= costs.length &lt;= 100</code>
+	It is guaranteed that <code>costs.length</code> is even.
+	<code>1 &lt;= costs[i][0], costs[i][1] &lt;= 1000</code>
+</ol>

@@ -1,0 +1,23 @@
+count-numbers-with-unique-digits
+给定一个<strong>非负</strong>整数 n，计算各位数字都不同的数字 x 的个数，其中 0 &le; x &lt; 10<sup>n</sup>。
+
+<strong>示例:</strong>
+
+<pre><strong>输入: </strong>2
+<strong>输出: </strong>91 
+<strong>解释: </strong>答案应为除去 <code>11,22,33,44,55,66,77,88,99 </code>外，在 [0,100) 区间内的所有数字。
+</pre>
+
+计算各个位数不同的数字个数
+Given a <b>non-negative</b> integer n, count all numbers with unique digits, x, where 0 &le; x &lt; 10<sup>n</sup>.
+
+<div>
+<strong>Example:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">2</span>
+<strong>Output: </strong><span id="example-output-1">91 
+<strong>Explanation: </strong></span>The answer should be the total numbers in the range of 0 &le; x &lt; 100, 
+            excluding <code>11,22,33,44,55,66,77,88,99</code>
+</pre>
+</div>

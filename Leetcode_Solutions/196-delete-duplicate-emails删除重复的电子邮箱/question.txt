@@ -1,0 +1,60 @@
+delete-duplicate-emails
+编写一个 SQL 查询，来删除<code>Person</code>表中所有重复的电子邮箱，重复的邮箱里只保留<strong>Id</strong><em>最小</em>的那个。
+
+<pre>+----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
+| 3  | john@example.com |
++----+------------------+
+Id 是这个表的主键。
+</pre>
+
+例如，在运行你的查询语句之后，上面的 <code>Person</code> 表应返回以下几行:
+
+<pre>+----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
++----+------------------+
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	执行 SQL 之后，输出是整个 <code>Person</code>表。
+	使用 <code>delete</code> 语句。
+</ul>
+
+删除重复的电子邮箱
+Write a SQL query to <strong>delete</strong> all duplicate email entries in a table named <code>Person</code>, keeping only unique emails based on its <i>smallest</i> <b>Id</b>.
+
+<pre>
++----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
+| 3  | john@example.com |
++----+------------------+
+Id is the primary key column for this table.
+</pre>
+
+For example, after running your query, the above <code>Person</code> table should have the following rows:
+
+<pre>
++----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
++----+------------------+
+</pre>
+
+<strong>Note:</strong>
+
+Your output is the whole <code>Person</code>table after executing your sql. Use <code>delete</code> statement.

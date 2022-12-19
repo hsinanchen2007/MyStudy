@@ -1,0 +1,62 @@
+number-of-recent-calls
+写一个<code>RecentCounter</code>类来计算最近的请求。
+
+它只有一个方法：<code>ping(int t)</code>，其中<code>t</code>代表以毫秒为单位的某个时间。
+
+返回从 3000 毫秒前到现在的<code>ping</code>数。
+
+任何处于<code>[t - 3000, t]</code>时间范围之内的 <code>ping</code>都将会被计算在内，包括当前（指 <code>t</code>时刻）的 <code>ping</code>。
+
+保证每次对 <code>ping</code> 的调用都使用比之前更大的 <code>t</code> 值。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>inputs = [&quot;RecentCounter&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;], inputs = [[],[1],[100],[3001],[3002]]
+<strong>输出：</strong>[null,1,2,3,3]</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	每个测试用例最多调用<code>10000</code>次<code>ping</code>。
+	每个测试用例会使用严格递增的 <code>t</code> 值来调用<code>ping</code>。
+	每次调用 <code>ping</code>都有<code>1 &lt;= t &lt;= 10^9</code>。
+</ol>
+
+
+
+最近的请求次数
+Write a class <code>RecentCounter</code> to count recent requests.
+
+It has only one method:<code>ping(int t)</code>, where t represents some time in milliseconds.
+
+Return the number of <code>ping</code>s that have been made from 3000 milliseconds ago until now.
+
+Any ping with time in <code>[t - 3000, t]</code> will count, including the current ping.
+
+It is guaranteed that every call to <code>ping</code> uses a strictly larger value of<code>t</code> than before.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>inputs = <span id="example-input-1-1">[&quot;RecentCounter&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;]</span>, inputs = <span id="example-input-1-2">[[],[1],[100],[3001],[3002]]</span>
+<strong>Output: </strong><span id="example-output-1">[null,1,2,3,3]</span></pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	Each test case will have at most <code>10000</code> calls to <code>ping</code>.
+	Each test case will call<code>ping</code> with strictly increasing values of <code>t</code>.
+	Each call to ping will have <code>1 &lt;= t &lt;= 10^9</code>.
+</ol>
+
+<div>
+
+</div>

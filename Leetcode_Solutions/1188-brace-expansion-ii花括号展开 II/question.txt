@@ -1,0 +1,127 @@
+brace-expansion-ii
+如果你熟悉 Shell 编程，那么一定了解过花括号展开，它可以用来生成任意字符串。
+
+花括号展开的表达式可以看作一个由 <strong>花括号</strong>、<strong>逗号</strong> 和 <strong>小写英文字母</strong> 组成的字符串，定义下面几条语法规则：
+
+<ul>
+	如果只给出单一的元素<code>x</code>，那么表达式表示的字符串就只有<code>&quot;x&quot;</code>。
+
+	<ul>
+		例如，表达式 <code>{a}</code>表示字符串 <code>&quot;a&quot;</code>。
+		而表达式 <code>{ab}</code>就表示字符串 <code>&quot;ab&quot;</code>。
+	</ul>
+	
+	当两个或多个表达式并列，以逗号分隔时，我们取这些表达式中元素的并集。
+	<ul>
+		例如，表达式<code>{a,b,c}</code> 表示字符串<code>&quot;a&quot;,&quot;b&quot;,&quot;c&quot;</code>。
+		而表达式 <code>{a,b},{b,c}</code>也可以表示字符串<code>&quot;a&quot;,&quot;b&quot;,&quot;c&quot;</code>。
+	</ul>
+	
+	要是两个或多个表达式相接，中间没有隔开时，我们从这些表达式中各取一个元素依次连接形成字符串。
+	<ul>
+		例如，表达式 <code>{a,b}{c,d}</code> 表示字符串<code>&quot;ac&quot;,&quot;ad&quot;,&quot;bc&quot;,&quot;bd&quot;</code>。
+	</ul>
+	
+	表达式之间允许嵌套，单一元素与表达式的连接也是允许的。
+	<ul>
+		例如，表达式<code>a{b,c,d}</code> 表示字符串<code>&quot;ab&quot;,&quot;ac&quot;,&quot;ad&quot;​​​​​​</code>。
+		例如，表达式<code>{a{b,c}}{{d,e}f{g,h}}</code> 可以代换为<code>{ab,ac}{dfg,dfh,efg,efh}</code>，表示字符串<code>&quot;abdfg&quot;, &quot;abdfh&quot;, &quot;abefg&quot;, &quot;abefh&quot;, &quot;acdfg&quot;, &quot;acdfh&quot;, &quot;acefg&quot;, &quot;acefh</code>&quot;。
+	</ul>
+	
+</ul>
+
+给出表示基于给定语法规则的表达式<code>expression</code>，返回它所表示的所有字符串组成的有序列表。
+
+假如你希望以「集合」的概念了解此题，也可以通过点击 &ldquo;<strong>显示英文描述</strong>&rdquo; 获取详情。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;{a,b}{c{d,e}}&quot;
+<strong>输出：</strong>[&quot;acd&quot;,&quot;ace&quot;,&quot;bcd&quot;,&quot;bce&quot;]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;{{a,z}, a{b,c}, {ab,z}}&quot;
+<strong>输出：</strong>[&quot;a&quot;,&quot;ab&quot;,&quot;ac&quot;,&quot;z&quot;]
+<strong>解释：</strong>输出中 <strong>不应 </strong>出现重复的组合结果。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= expression.length &lt;= 50</code>
+	<code>expression[i]</code> 由 <code>&#39;{&#39;</code>，<code>&#39;}&#39;</code>，<code>&#39;,&#39;</code>或小写英文字母组成
+	给出的表达式<code>expression</code>用以表示一组基于题目描述中语法构造的字符串
+</ol>
+
+花括号展开 II
+Under a grammar given below, strings can represent a set of lowercase words. Let&#39;suse <code>R(expr)</code>to denote the <strong>set</strong> of words the expression represents.
+
+Grammar can best be understood through simple examples:
+
+<ul>
+	Single letters represent a singleton set containing that word.
+	<ul>
+		<code>R(&quot;a&quot;) = {&quot;a&quot;}</code>
+		<code>R(&quot;w&quot;) = {&quot;w&quot;}</code>
+	</ul>
+	
+	When we take a comma delimited list of 2 or more expressions, we take the union of possibilities.
+	<ul>
+		<code>R(&quot;{a,b,c}&quot;) = {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;}</code>
+		<code>R(&quot;{{a,b},{b,c}}&quot;) = {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;}</code>(notice the final set only contains each word at most once)
+	</ul>
+	
+	When we concatenate two expressions, we take the set of possible concatenations between two words where the first word comes from the first expression and the second word comes from the second expression.
+	<ul>
+		<code>R(&quot;{a,b}{c,d}&quot;) = {&quot;ac&quot;,&quot;ad&quot;,&quot;bc&quot;,&quot;bd&quot;}</code>
+		<code>R(&quot;a{b,c}{d,e}f{g,h}&quot;)= {&quot;abdfg&quot;, &quot;abdfh&quot;, &quot;abefg&quot;, &quot;abefh&quot;, &quot;acdfg&quot;, &quot;acdfh&quot;, &quot;acefg&quot;, &quot;acefh&quot;}</code>
+	</ul>
+	
+</ul>
+
+Formally, the 3 rules for our grammar:
+
+<ul>
+	For every lowercase letter <code>x</code>, we have <code>R(x) = {x}</code>
+	For expressions <code>e_1, e_2, ... , e_k</code>with <code>k &gt;= 2</code>, we have <code>R({e_1,e_2,...}) = R(e_1)&cup; R(e_2)&cup; ...</code>
+	Forexpressions <code>e_1</code> and <code>e_2</code>, we have <code>R(e_1 + e_2) = {a + b for (a, b) inR(e_1)&times; R(e_2)}</code>, where + denotes concatenation, and &times; denotes the cartesian product.
+</ul>
+
+Given an <code>expression</code> representing a set of words under the given grammar, return thesorted list of words that the expression represents.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;{a,b}{c,{d,e}}&quot;</span>
+<strong>Output: </strong><span id="example-output-1">[&quot;ac&quot;,&quot;ad&quot;,&quot;ae&quot;,&quot;bc&quot;,&quot;bd&quot;,&quot;be&quot;]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span>&quot;{{a,z},a{b,c},{ab,z}}&quot;</span>
+<strong>Output: </strong><span>[&quot;a&quot;,&quot;ab&quot;,&quot;ac&quot;,&quot;z&quot;]</span>
+<strong>Explanation: </strong>Each distinct word is written only once in the final answer.
+</pre>
+
+
+
+<strong>Constraints:</strong>
+
+<ol>
+	<code>1 &lt;= expression.length &lt;= 60</code>
+	<code>expression[i]</code> consists of <code>&#39;{&#39;</code>, <code>&#39;}&#39;</code>, <code>&#39;,&#39;</code>or lowercase English letters.
+	The given<code>expression</code>represents a set of words based on the grammar given in the description.
+</ol>
+</div>
+</div>

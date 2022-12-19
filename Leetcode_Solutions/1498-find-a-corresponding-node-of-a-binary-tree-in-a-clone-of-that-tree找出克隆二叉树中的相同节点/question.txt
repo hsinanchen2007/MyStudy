@@ -1,0 +1,131 @@
+find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree
+给你两棵二叉树，原始树 <code>original</code> 和克隆树 <code>cloned</code>，以及一个位于原始树 <code>original</code>中的目标节点<code>target</code>。
+
+其中，克隆树 <code>cloned</code>是原始树 <code>original</code>的一个<strong> 副本 </strong>。
+
+请找出在树<code>cloned</code>中，与<code>target</code><strong>相同</strong>的节点，并返回对该节点的引用（在 C/C++ 等有指针的语言中返回 节点指针，其他语言返回节点本身）。
+
+
+
+<strong>注意：</strong>
+
+<ol>
+	你 <strong>不能</strong> 对两棵二叉树，以及 <code>target</code>节点进行更改。
+	<strong>只能</strong> 返回对克隆树<code>cloned</code>中已有的节点的引用。
+</ol>
+
+<ul>
+</ul>
+
+<strong>进阶：</strong>如果树中允许出现值相同的节点，你将如何解答？
+
+
+
+<ul>
+</ul>
+
+<strong>示例 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e1.png" style="height: 426px; width: 544px;">
+
+<pre><strong>输入:</strong> tree = [7,4,3,null,null,6,19], target = 3
+<strong>输出:</strong> 3
+<strong>解释:</strong> 上图画出了树 original 和 cloned。target 节点在树 original 中，用绿色标记。答案是树 cloned 中的黄颜色的节点（其他示例类似）。</pre>
+
+<strong>示例 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e2.png" style="height: 159px; width: 221px;">
+
+<pre><strong>输入:</strong> tree = [7], target =  7
+<strong>输出:</strong> 7
+</pre>
+
+<strong>示例 3:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e3.png" style="height: 486px; width: 459px;">
+
+<pre><strong>输入:</strong> tree = [8,null,6,null,5,null,4,null,3,null,2,null,1], target = 4
+<strong>输出:</strong> 4
+</pre>
+
+<strong>示例 4:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e4.png" style="height: 239px; width: 555px;">
+
+<pre><strong>输入:</strong> tree = [1,2,3,4,5,6,7,8,9,10], target = 5
+<strong>输出:</strong> 5
+</pre>
+
+<strong>示例 5:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e5.png" style="height: 345px; width: 427px;">
+
+<pre><strong>输入:</strong> tree = [1,2,null,3], target = 2
+<strong>输出:</strong> 2</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	树中节点的数量范围为<code>[1, 10^4]</code>。
+	同一棵树中，没有值相同的节点。
+	<code>target</code>节点是树<code>original</code>中的一个节点，并且不会是<code>null</code>。
+</ul>
+
+找出克隆二叉树中的相同节点
+Given two binary trees <code>original</code> and <code>cloned</code> and given a reference to a node <code>target</code> in the original tree.
+
+The <code>cloned</code> tree is a <strong>copy of</strong> the <code>original</code> tree.
+
+Return <em>a reference to the same node</em> in the <code>cloned</code> tree.
+
+<strong>Note</strong> that you are <strong>not allowed</strong> to change any of the two trees or the <code>target</code> node and the answer <strong>must be</strong> a reference to a node in the <code>cloned</code> tree.
+
+<strong>Follow up:</strong>Solve the problem if repeated values on the tree are allowed.
+
+
+<strong>Example 1:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e1.png" style="width: 544px; height: 426px;" />
+<pre>
+<strong>Input:</strong> tree = [7,4,3,null,null,6,19], target = 3
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> In all examples the original and cloned trees are shown. The target node is a green node from the original tree. The answer is the yellow node from the cloned tree.
+</pre>
+
+<strong>Example 2:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e2.png" style="width: 221px; height: 159px;" />
+<pre>
+<strong>Input:</strong> tree = [7], target =  7
+<strong>Output:</strong> 7
+</pre>
+
+<strong>Example 3:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e3.png" style="width: 459px; height: 486px;" />
+<pre>
+<strong>Input:</strong> tree = [8,null,6,null,5,null,4,null,3,null,2,null,1], target = 4
+<strong>Output:</strong> 4
+</pre>
+
+<strong>Example 4:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e4.png" style="width: 555px; height: 239px;" />
+<pre>
+<strong>Input:</strong> tree = [1,2,3,4,5,6,7,8,9,10], target = 5
+<strong>Output:</strong> 5
+</pre>
+
+<strong>Example 5:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/02/21/e5.png" style="width: 427px; height: 345px;" />
+<pre>
+<strong>Input:</strong> tree = [1,2,null,3], target = 2
+<strong>Output:</strong> 2
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	The number of nodes in the <code>tree</code> is in the range <code>[1, 10^4]</code>.
+	The values of the nodes of the <code>tree</code> are unique.
+	<code>target</code> node is anode from the <code>original</code> tree and is not <code>null</code>.
+</ul>

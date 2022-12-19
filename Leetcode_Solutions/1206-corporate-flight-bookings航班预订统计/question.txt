@@ -1,0 +1,48 @@
+corporate-flight-bookings
+这里有<code>n</code>个航班，它们分别从 <code>1</code> 到 <code>n</code> 进行编号。
+
+我们这儿有一份航班预订表，表中第<code>i</code>条预订记录<code>bookings[i] = [i, j, k]</code>意味着我们在从<code>i</code>到<code>j</code>的每个航班上预订了 <code>k</code> 个座位。
+
+请你返回一个长度为 <code>n</code> 的数组<code>answer</code>，按航班编号顺序返回每个航班上预订的座位数。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>bookings = [[1,2,10],[2,3,20],[2,5,25]], n = 5
+<strong>输出：</strong>[10,55,45,25,25]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= bookings.length &lt;= 20000</code>
+	<code>1 &lt;= bookings[i][0] &lt;= bookings[i][1] &lt;= n &lt;= 20000</code>
+	<code>1 &lt;= bookings[i][2] &lt;= 10000</code>
+</ul>
+
+航班预订统计
+There are <code>n</code> flights, and they are labeledfrom <code>1</code> to <code>n</code>.
+
+We have a list of flight bookings. The <code>i</code>-th booking<code>bookings[i] = [i, j, k]</code>means that we booked <code>k</code> seats from flights labeled <code>i</code> to <code>j</code> inclusive.
+
+Return an array <code>answer</code> of length <code>n</code>, representing the number of seats booked on each flight in order of their label.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> bookings = [[1,2,10],[2,3,20],[2,5,25]], n = 5
+<strong>Output:</strong> [10,55,45,25,25]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= bookings.length &lt;= 20000</code>
+	<code>1 &lt;= bookings[i][0] &lt;= bookings[i][1] &lt;= n &lt;= 20000</code>
+	<code>1 &lt;= bookings[i][2] &lt;= 10000</code>
+</ul>

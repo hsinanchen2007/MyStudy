@@ -1,0 +1,45 @@
+largest-rectangle-in-histogram
+给定 <em>n</em> 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
+
+求在该柱状图中，能够勾勒出来的矩形的最大面积。
+
+
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/histogram.png">
+
+<small>以上是柱状图的示例，其中每个柱子的宽度为 1，给定的高度为<code>[2,1,5,6,2,3]</code>。</small>
+
+
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/histogram_area.png">
+
+<small>图中阴影部分为所能勾勒出的最大矩形面积，其面积为<code>10</code>个单位。</small>
+
+
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> [2,1,5,6,2,3]
+<strong>输出:</strong> 10</pre>
+
+柱状图中最大的矩形
+Given <em>n</em> non-negative integers representing the histogram&#39;s bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
+
+
+
+<img src="https://assets.leetcode.com/uploads/2018/10/12/histogram.png" style="width: 188px; height: 204px;" /><br />
+<small>Above is a histogram where width of each bar is 1, given height = <code>[2,1,5,6,2,3]</code>.</small>
+
+
+
+<img src="https://assets.leetcode.com/uploads/2018/10/12/histogram_area.png" style="width: 188px; height: 204px;" /><br />
+<small>The largest rectangle is shown in the shaded area, which has area = <code>10</code> unit.</small>
+
+
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> [2,1,5,6,2,3]
+<strong>Output:</strong> 10
+</pre>

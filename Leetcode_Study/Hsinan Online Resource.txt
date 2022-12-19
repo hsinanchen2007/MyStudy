@@ -1,0 +1,143 @@
+1. Edward Leetcode class and solutions (X)
+   --> 求职面试刷题班
+   --> LeetCode视频讲解
+
+2. Udemy classes (X)
+   C++ Programming
+      --> C++ Programming Bootcamp
+      --> Learn C++ Programming from Zero to Mastery in 2022 (FAANG)
+      --> Learn C++ Programming -Beginner to Advance- Deep Dive in C++
+      --> C++ programming step-by-step: From Beginner to Advanced
+
+   C++ STL
+      --> Mastering C++ Standard Library Features
+      --> C++ Standard Template Library in Practice
+
+   Data Structure & Algorithm
+      --> 算法设计与分析
+      --> Data Structures and Algorithms Bootcamp
+      --> Graph Theory Algorithms for Competitive Programming (2022)
+      --> Data Structure & Algorithm using C++ : Zero To Mastery 2022
+      --> Algorithms (Data Structures) Bootcamp in C++
+      --> Data Structures and Algorithms In C++ ( DSA )
+      --> Mastering Data Structures & Algorithms using C and C++
+      --> Graph Theory Algorithms
+      --> Easy to Advanced Data Structures
+      --> Mastering Data Structure Using C
+      --> Deep Dive into Algorithms
+      --> Algorithms and Data Structures
+      --> Data Structure with C++ : Zero to Hero
+      --> Learning Data Structures and Algorithms
+      --> Data Structures & Algorithms using C++, C and Python - 2022
+      --> Mastering critical SKILLS in Data Structures using C++
+      --> Data Structures and Algorithms using c++
+      --> Algorithms and Data structures - Part 1
+      --> Algorithms and Data structures - Part 2
+      --> Algorithms and Data structures - Part 3
+      --> Data Structures A-Z : Data Structures + Algorithms Bootcamp
+      --> Data Structures & Algorithms Essentials using C++ (2022)
+      --> C++版数据结构
+
+   Coding Interview
+      --> Cracking Coding Interviews - Mastering Algorithms
+      --> Leetcode Questions Solutions Explained 1
+      --> Leetcode Questions Solutions Explained 2
+      --> Leetcode Questions Solutions Explained 3
+      --> Leetcode Questions Solutions Explained 4
+      --> Leetcode Questions Solutions Explained 5
+      --> Leetcode Questions Solutions Explained 6
+      --> Leetcode Questions Solutions Explained 7
+      --> Leetcode Questions Solutions Explained 8
+      --> Cracking Coding Interview : Data Structure & Algorithm FAANG
+      --> The Bible of Competitive Programming & Coding Interviews
+      --> Data Structures & Algorithms, Level-up for Coding Interviews
+      --> Cracking the Coding Interview at FAANG & Tech Companies
+      --> C++ Programming: The Coding Interview
+      --> Mastering critical SKILLS for Coding Interviews C++: Part 1
+      --> Mastering critical SKILLS in Algorithms using C++: Part 1
+      --> Algorithms for Job Interviews and Competitive Programming
+      --> Data Structures and Algorithms in C++ For Coding Interview
+      --> 50 popular coding interview problems
+      --> Mastering Coding Interviews & Competitions
+      --> 成功通過編碼面試:数据结构与算法Crushing the Code Interview: Data Structures
+      --> Master the Coding Interview: Data Structures + Algorithms
+      --> Master the Coding Interview: Big Tech (FAANG) Interviews
+      --> The Ultimate C++ Interview Questions Bootcamp
+
+   Misc
+      --> Docker 全方位入門指南：一天成為容器大師
+      --> 人生不能重來，但 Git 可以
+      --> 零基础玩转 Docker 容器技术
+
+   Network/Security
+      --> Ethical Hacking - Kali Linux for beginners with an e-book
+      --> Kali Linux Web App Pentesting Labs
+      --> The Complete Penetration Testing Bootcamp
+      --> Hands-on Penetration Testing Labs 1.0
+      --> Hands-on Penetration Testing Labs 2.0
+      --> Hands-on Penetration Testing Labs 3.0
+      --> Kali Linux Tutorial For Beginners
+      --> The Complete Cyber Security Course : Network Security!
+      --> Nmap: Network Security Scanning Basics & Advanced Techniques
+      --> Nmap 和 Nessus 网络扫描
+      --> Web网站安全测试（Penetration Testing）- 从初学到精通
+      --> 红队技术浅析
+      --> x86/x64软件逆向分析【提高篇】
+      --> X86软件逆向分析实战
+      --> X86软件逆向分析实战（一）
+
+3. educative classes
+   --> C++ for Programmers
+   --> Ace the C++ Coding Interview
+   --> Learn Graph Algorithms in C++
+   --> Data Structures for Coding Interviews in C++
+   --> Grokking Dynamic Programming Patterns for Coding Interviews
+   --> Grokking the System Design Interview
+   --> Grokking the Advanced System Design Interview
+   --> Grokking the Object Oriented Design Interview
+   --> Grokking the Coding Interview: Patterns for Coding Questions
+   --> Recursion for Coding Interviews in C++
+   --> Algorithms for Coding Interviews in C++
+   --> Coderust: Hacking the Coding Interview
+   --> Competitive Programming - Crack Your Coding Interview, C++
+   --> Decode the Coding Interview in C++: Real-World Examples
+   --> The Algorithms and Data Structures Interview Crash Course
+
+4. TechInterviewPro (X)
+   --> CoderPro, https://www.techseries.dev/products/coderpro
+
+5. C语言中文网
+   --> C++ STL快速入门
+   --> 数据结构
+   --> C++11
+   --> 算法入门教程
+
+6. Coursera
+
+7. Greeksforgreeks (X)
+   --> C++ STL - Self Paced
+   --> Data Structures and Algorithm Foundation - Self Paced
+   --> Data Structures and Algorithms - Self Paced
+
+8. AlgoExpert (X)
+   --> Data Structure Crash Course (X)
+   --> 160 Coding Interview Questions (X)
+   --> System Design Interview (X)
+
+9. 极客时间
+   --> 2020_极客学院-算法训练营 （李熤東）
+   --> 第21套 极客算法训练营 (覃超)
+
+10. CSDN (X)
+
+11. AlgoMonster (X)
+
+12. AcWing, https://www.acwing.com/about/
+    --> LeetCode究极班
+
+13. W3C school, https://www.w3cschool.cn/
+    --> Some other programming language
+
+14. 吴师兄学算法
+    --> https://ke.algomooc.com/detail/p_6243bcc1e4b04e8d90291891/8
+

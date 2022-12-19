@@ -1,0 +1,65 @@
+not-boring-movies
+某城市开了一家新的电影院，吸引了很多人过来看电影。该电影院特别注意用户体验，专门有个 LED显示板做电影推荐，上面公布着影评和相关电影描述。
+
+作为该电影院的信息部主管，您需要编写一个 SQL查询，找出所有影片描述为<strong>非</strong><code>boring</code>(不无聊)的并且<strong> id 为奇数</strong>的影片，结果请按等级 <code>rating</code> 排列。
+
+
+
+例如，下表 <code>cinema</code>:
+
+<pre>
++---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   1     | War       |   great 3D   |   8.9     |
+|   2     | Science   |   fiction    |   8.5     |
+|   3     | irish     |   boring     |   6.2     |
+|   4     | Ice song  |   Fantacy    |   8.6     |
+|   5     | House card|   Interesting|   9.1     |
++---------+-----------+--------------+-----------+
+</pre>
+
+对于上面的例子，则正确的输出是为：
+
+<pre>
++---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   5     | House card|   Interesting|   9.1     |
+|   1     | War       |   great 3D   |   8.9     |
++---------+-----------+--------------+-----------+
+</pre>
+
+
+
+有趣的电影
+X city opened a new cinema, many people would like to go to this cinema. The cinema also gives out a poster indicating the movies&rsquo; ratings and descriptions.
+Please write a SQL query to output movies with an odd numbered ID and a description that is not &#39;boring&#39;. Order the result by rating.
+
+
+
+For example, table <code>cinema</code>:
+
+<pre>
++---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   1     | War       |   great 3D   |   8.9     |
+|   2     | Science   |   fiction    |   8.5     |
+|   3     | irish     |   boring     |   6.2     |
+|   4     | Ice song  |   Fantacy    |   8.6     |
+|   5     | House card|   Interesting|   9.1     |
++---------+-----------+--------------+-----------+
+</pre>
+For the example above, the output should be:
+
+<pre>
++---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   5     | House card|   Interesting|   9.1     |
+|   1     | War       |   great 3D   |   8.9     |
++---------+-----------+--------------+-----------+
+</pre>
+
+

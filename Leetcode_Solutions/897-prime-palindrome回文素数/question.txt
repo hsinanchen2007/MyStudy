@@ -1,0 +1,90 @@
+prime-palindrome
+求出大于或等于<code>N</code>的最小回文素数。
+
+回顾一下，如果一个数大于 1，且其因数只有 1 和它自身，那么这个数是<em>素数</em>。
+
+例如，2，3，5，7，11 以及13 是素数。
+
+回顾一下，如果一个数从左往右读与从右往左读是一样的，那么这个数是<em>回文数。</em>
+
+例如，12321 是回文数。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>6
+<strong>输出：</strong>7
+</pre>
+
+<strong>示例2：</strong>
+
+<pre><strong>输入：</strong>8
+<strong>输出：</strong>11
+</pre>
+
+<strong>示例3：</strong>
+
+<pre><strong>输入：</strong>13
+<strong>输出：</strong>101</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= N &lt;= 10^8</code>
+	答案肯定存在，且小于<code>2 * 10^8</code>。
+</ul>
+
+
+
+
+
+回文素数
+Find the smallest prime palindrome greater than or equal to <code>N</code>.
+
+Recall that anumber is <em>prime</em> if it&#39;s only divisors are 1 and itself, and it is greater than 1.
+
+For example, 2,3,5,7,11 and 13 areprimes.
+
+Recall that a number is a <em>palindrome</em> if it reads the same from left to right as it does from right to left.
+
+For example, 12321 is a palindrome.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">6</span>
+<strong>Output: </strong><span id="example-output-1">7</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">8</span>
+<strong>Output: </strong><span id="example-output-2">11</span>
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">13</span>
+<strong>Output: </strong><span id="example-output-3">101</span></pre>
+</div>
+</div>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ul>
+	<code>1 &lt;= N &lt;= 10^8</code>
+	The answer is guaranteed to exist and be less than <code>2 * 10^8</code>.
+</ul>

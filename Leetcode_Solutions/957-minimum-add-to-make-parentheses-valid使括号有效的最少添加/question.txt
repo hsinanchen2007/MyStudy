@@ -1,0 +1,113 @@
+minimum-add-to-make-parentheses-valid
+给定一个由<code>&#39;(&#39;</code>和<code>&#39;)&#39;</code>括号组成的字符串 <code>S</code>，我们需要添加最少的括号（ <code>&#39;(&#39;</code>或是<code>&#39;)&#39;</code>，可以在任何位置），以使得到的括号字符串有效。
+
+从形式上讲，只有满足下面几点之一，括号字符串才是有效的：
+
+<ul>
+	它是一个空字符串，或者
+	它可以被写成<code>AB</code>（<code>A</code>与<code>B</code>连接）, 其中<code>A</code> 和<code>B</code>都是有效字符串，或者
+	它可以被写作<code>(A)</code>，其中<code>A</code>是有效字符串。
+</ul>
+
+给定一个括号字符串，返回为使结果字符串有效而必须添加的最少括号数。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;())&quot;
+<strong>输出：</strong>1
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;(((&quot;
+<strong>输出：</strong>3
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>&quot;()&quot;
+<strong>输出：</strong>0
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>&quot;()))((&quot;
+<strong>输出：</strong>4</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>S.length &lt;= 1000</code>
+	<code>S</code> 只包含<code>&#39;(&#39;</code> 和<code>&#39;)&#39;</code>字符。
+</ol>
+
+
+
+使括号有效的最少添加
+Given a string<code>S</code> of <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code> parentheses, we add the minimum number of parentheses ( <code>&#39;(&#39;</code> or <code>&#39;)&#39;</code>, and in any positions ) so that the resulting parentheses string is valid.
+
+Formally, a parentheses string is valid if and only if:
+
+<ul>
+	It is the empty string, or
+	It can be written as <code>AB</code>(<code>A</code> concatenated with <code>B</code>), where <code>A</code> and <code>B</code> are valid strings, or
+	It can be written as <code>(A)</code>, where <code>A</code> is a valid string.
+</ul>
+
+Given a parentheses string, return the minimum number of parentheses we must add to make the resulting string valid.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;())&quot;</span>
+<strong>Output: </strong><span id="example-output-1">1</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;(((&quot;</span>
+<strong>Output: </strong><span id="example-output-2">3</span>
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">&quot;()&quot;</span>
+<strong>Output: </strong><span id="example-output-3">0</span>
+</pre>
+
+<div>
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-4-1">&quot;()))((&quot;</span>
+<strong>Output: </strong><span id="example-output-4">4</span></pre>
+
+
+</div>
+</div>
+</div>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>S.length &lt;= 1000</code>
+	<code>S</code> only consists of <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code> characters.
+</ol>
+
+<div>
+<div>
+<div>
+<div></div>
+</div>
+</div>
+</div>

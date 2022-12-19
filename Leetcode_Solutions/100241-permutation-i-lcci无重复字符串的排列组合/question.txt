@@ -1,0 +1,47 @@
+permutation-i-lcci
+无重复字符串的排列组合。编写一种方法，计算某字符串的所有排列组合，字符串每个字符均不相同。
+
+ <strong>示例1:</strong>
+
+<pre>
+<strong> 输入</strong>：S = "qwe"
+<strong> 输出</strong>：["qwe", "qew", "wqe", "weq", "ewq", "eqw"]
+</pre>
+
+ <strong>示例2:</strong>
+
+<pre>
+<strong> 输入</strong>：S = "ab"
+<strong> 输出</strong>：["ab", "ba"]
+</pre>
+
+ <strong>提示:</strong>
+
+<ol>
+字符都是英文字母。
+字符串长度在[1, 9]之间。
+</ol>
+
+无重复字符串的排列组合
+Write a method to compute all permutations of a string of unique characters.
+
+<strong>Example1:</strong>
+
+<pre>
+<strong> Input</strong>: S = &quot;qwe&quot;
+<strong> Output</strong>: [&quot;qwe&quot;, &quot;qew&quot;, &quot;wqe&quot;, &quot;weq&quot;, &quot;ewq&quot;, &quot;eqw&quot;]
+</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong> Input</strong>: S = &quot;ab&quot;
+<strong> Output</strong>: [&quot;ab&quot;, &quot;ba&quot;]
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	All charaters are English letters.
+	<code>1 &lt;= S.length &lt;= 9</code>
+</ol>

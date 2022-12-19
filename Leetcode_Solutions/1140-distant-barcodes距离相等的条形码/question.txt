@@ -1,0 +1,63 @@
+distant-barcodes
+在一个仓库里，有一排条形码，其中第 <code>i</code> 个条形码为<code>barcodes[i]</code>。
+
+请你重新排列这些条形码，使其中两个相邻的条形码 <strong>不能</strong> 相等。 你可以返回任何满足该要求的答案，此题保证存在答案。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[1,1,1,2,2,2]
+<strong>输出：</strong>[2,1,2,1,2,1]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[1,1,1,1,2,2,3,3]
+<strong>输出：</strong>[1,3,1,3,2,1,2,1]</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= barcodes.length &lt;= 10000</code>
+	<code>1 &lt;= barcodes[i] &lt;= 10000</code>
+</ol>
+
+
+
+距离相等的条形码
+In a warehouse, there is a row of barcodes, where the <code>i</code>-th barcode is<code>barcodes[i]</code>.
+
+Rearrange the barcodes so that no two adjacent barcodes are equal. You may return any answer, and it is guaranteed an answer exists.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[1,1,1,2,2,2]</span>
+<strong>Output: </strong><span id="example-output-1">[2,1,2,1,2,1]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[1,1,1,1,2,2,3,3]</span>
+<strong>Output: </strong><span id="example-output-2">[1,3,1,3,2,1,2,1]</span></pre>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= barcodes.length &lt;= 10000</code>
+	<code>1 &lt;= barcodes[i] &lt;= 10000</code>
+</ol>
+
+<div>
+<div></div>
+</div>

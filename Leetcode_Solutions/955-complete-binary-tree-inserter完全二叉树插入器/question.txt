@@ -1,0 +1,88 @@
+complete-binary-tree-inserter
+完全二叉树是每一层（除最后一层外）都是完全填充（即，结点数达到最大）的，并且所有的结点都尽可能地集中在左侧。
+
+设计一个用完全二叉树初始化的数据结构<code>CBTInserter</code>，它支持以下几种操作：
+
+<ul>
+	<code>CBTInserter(TreeNode root)</code>使用头结点为<code>root</code>的给定树初始化该数据结构；
+	<code>CBTInserter.insert(int v)</code> 将<code>TreeNode</code>插入到存在值为<code>node.val =v</code> 的树中以使其保持完全二叉树的状态，<strong>并返回插入的 <code>TreeNode</code>的父结点的值</strong>；
+	<code>CBTInserter.get_root()</code> 将返回树的头结点。
+</ul>
+
+
+
+<ol>
+</ol>
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>inputs = [&quot;CBTInserter&quot;,&quot;insert&quot;,&quot;get_root&quot;], inputs = [[[1]],[2],[]]
+<strong>输出：</strong>[null,1,[1,2]]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>inputs = [&quot;CBTInserter&quot;,&quot;insert&quot;,&quot;insert&quot;,&quot;get_root&quot;], inputs = [[[1,2,3,4,5,6]],[7],[8],[]]
+<strong>输出：</strong>[null,3,4,[1,2,3,4,5,6,7,8]]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	最初给定的树是完全二叉树，且包含<code>1</code>到<code>1000</code>个结点。
+	每个测试用例最多调用<code>CBTInserter.insert</code> 操作<code>10000</code>次。
+	给定结点或插入结点的每个值都在<code>0</code>到<code>5000</code>之间。
+</ol>
+
+完全二叉树插入器
+A <em>complete</em> binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.
+
+Write a data structure<code>CBTInserter</code>that is initialized with a complete binary tree and supports the following operations:
+
+<ul>
+	<code>CBTInserter(TreeNode root)</code> initializes the data structure on a given treewith head node <code>root</code>;
+	<code>CBTInserter.insert(int v)</code> will insert a <code>TreeNode</code>into the tree with value <code>node.val =v</code>so that the tree remains complete, <strong>and returns the value of the parent of the inserted <code>TreeNode</code></strong>;
+	<code>CBTInserter.get_root()</code> will return the head node of the tree.
+</ul>
+
+<ol>
+</ol>
+
+<div>
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>inputs = <span id="example-input-1-1">[&quot;CBTInserter&quot;,&quot;insert&quot;,&quot;get_root&quot;]</span>, inputs = <span id="example-input-1-2">[[[1]],[2],[]]</span>
+<strong>Output: </strong><span id="example-output-1">[null,1,[1,2]]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>inputs = <span id="example-input-2-1">[&quot;CBTInserter&quot;,&quot;insert&quot;,&quot;insert&quot;,&quot;get_root&quot;]</span>, inputs = <span id="example-input-2-2">[[[1,2,3,4,5,6]],[7],[8],[]]</span>
+<strong>Output: </strong><span id="example-output-2">[null,3,4,[1,2,3,4,5,6,7,8]]</span></pre>
+</div>
+
+<div>
+
+
+<strong>Note:</strong>
+
+<ol>
+	The initial given tree is complete and contains between <code>1</code> and <code>1000</code> nodes.
+	<code>CBTInserter.insert</code> is called at most <code>10000</code> times per test case.
+	Every value of a given or inserted node is between <code>0</code> and <code>5000</code>.
+</ol>
+</div>
+</div>
+
+<div>
+
+
+<div></div>
+</div>

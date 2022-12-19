@@ -1,0 +1,125 @@
+ads-performance
+表: <code>Ads</code>
+
+<pre>+---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| ad_id         | int     |
+| user_id       | int     |
+| action        | enum    |
++---------------+---------+
+(ad_id, user_id) 是该表的主键
+该表的每一行包含一条广告的 ID(ad_id)，用户的 ID(user_id) 和用户对广告采取的行为 (action)
+action 列是一个枚举类型 (&#39;Clicked&#39;, &#39;Viewed&#39;, &#39;Ignored&#39;) 。
+</pre>
+
+
+
+一家公司正在运营这些广告并想计算每条广告的效果。
+
+广告效果用点击通过率（Click-Through Rate：CTR）来衡量，公式如下:
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/03/06/sql1.png" style="height: 75px; width: 600px;">
+
+写一条SQL语句来查询每一条广告的<code>ctr</code>，
+
+<code>ctr</code>要保留两位小数。结果需要按<code>ctr</code><strong>降序</strong>、按<code>ad_id</code><strong>升序</strong>进行排序。
+
+
+
+查询结果示例如下：
+
+<pre>Ads 表:
++-------+---------+---------+
+| ad_id | user_id | action  |
++-------+---------+---------+
+| 1     | 1       | Clicked |
+| 2     | 2       | Clicked |
+| 3     | 3       | Viewed  |
+| 5     | 5       | Ignored |
+| 1     | 7       | Ignored |
+| 2     | 7       | Viewed  |
+| 3     | 5       | Clicked |
+| 1     | 4       | Viewed  |
+| 2     | 11      | Viewed  |
+| 1     | 2       | Clicked |
++-------+---------+---------+
+结果表:
++-------+-------+
+| ad_id | ctr   |
++-------+-------+
+| 1     | 66.67 |
+| 3     | 50.00 |
+| 2     | 33.33 |
+| 5     | 0.00  |
++-------+-------+
+对于 ad_id = 1, ctr = (2/(2+1)) * 100 = 66.67
+对于 ad_id = 2, ctr = (1/(1+2)) * 100 = 33.33
+对于 ad_id = 3, ctr = (1/(1+1)) * 100 = 50.00
+对于 ad_id = 5, ctr = 0.00, 注意 ad_id = 5 没有被点击 (Clicked) 或查看 (Viewed) 过
+注意我们不关心 action 为 Ingnored 的广告
+结果按 ctr（降序），ad_id（升序）排序
+</pre>
+
+广告效果
+Table: <code>Ads</code>
+
+<pre>
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| ad_id         | int     |
+| user_id       | int     |
+| action        | enum    |
++---------------+---------+
+(ad_id, user_id) is the primary key for this table.
+Each row of this table contains the ID of an Ad, the ID of a user and the action taken by this user regarding this Ad.
+The action column is an ENUM type of (&#39;Clicked&#39;, &#39;Viewed&#39;, &#39;Ignored&#39;).
+</pre>
+
+
+
+A company is running Ads and wants to calculate the performance of each Ad.
+
+Performance of the Ad is measured usingClick-Through Rate (CTR) where:
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/17/sql1.png" style="width: 600px; height: 75px;" />
+
+Write an SQL query to find the <code>ctr</code> of each Ad.
+
+<strong>Round</strong> <code>ctr</code>to 2 decimal points. <strong>Order</strong> the result table by <code>ctr</code>in descending orderand by<code>ad_id</code>in ascending order in case of a tie.
+
+The query result format is in the following example:
+
+<pre>
+Ads table:
++-------+---------+---------+
+| ad_id | user_id | action  |
++-------+---------+---------+
+| 1     | 1       | Clicked |
+| 2     | 2       | Clicked |
+| 3     | 3       | Viewed  |
+| 5     | 5       | Ignored |
+| 1     | 7       | Ignored |
+| 2     | 7       | Viewed  |
+| 3     | 5       | Clicked |
+| 1     | 4       | Viewed  |
+| 2     | 11      | Viewed  |
+| 1     | 2       | Clicked |
++-------+---------+---------+
+Result table:
++-------+-------+
+| ad_id | ctr   |
++-------+-------+
+| 1     | 66.67 |
+| 3     | 50.00 |
+| 2     | 33.33 |
+| 5     | 0.00  |
++-------+-------+
+for ad_id = 1, ctr = (2/(2+1)) * 100 = 66.67
+for ad_id = 2, ctr = (1/(1+2)) * 100 = 33.33
+for ad_id = 3, ctr = (1/(1+1)) * 100 = 50.00
+for ad_id = 5, ctr = 0.00, Note that ad_id = 5 has no clicks or views.
+Note that we don&#39;t care about Ignored Ads.
+Result table is ordered by the ctr. in case of a tie we order them by ad_id
+</pre>

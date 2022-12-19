@@ -1,0 +1,46 @@
+multiply-strings
+给定两个以字符串形式表示的非负整数<code>num1</code>和<code>num2</code>，返回<code>num1</code>和<code>num2</code>的乘积，它们的乘积也表示为字符串形式。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> num1 = &quot;2&quot;, num2 = &quot;3&quot;
+<strong>输出:</strong> &quot;6&quot;</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> num1 = &quot;123&quot;, num2 = &quot;456&quot;
+<strong>输出:</strong> &quot;56088&quot;</pre>
+
+<strong>说明：</strong>
+
+<ol>
+	<code>num1</code>和<code>num2</code>的长度小于110。
+	<code>num1</code> 和<code>num2</code> 只包含数字<code>0-9</code>。
+	<code>num1</code> 和<code>num2</code>均不以零开头，除非是数字 0 本身。
+	<strong>不能使用任何标准库的大数类型（比如 BigInteger）</strong>或<strong>直接将输入转换为整数来处理</strong>。
+</ol>
+
+字符串相乘
+Given two non-negative integers <code>num1</code> and <code>num2</code> represented as strings, return the product of <code>num1</code> and <code>num2</code>, also represented as a string.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> num1 = &quot;2&quot;, num2 = &quot;3&quot;
+<strong>Output:</strong> &quot;6&quot;</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> num1 = &quot;123&quot;, num2 = &quot;456&quot;
+<strong>Output:</strong> &quot;56088&quot;
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	The length of both <code>num1</code> and <code>num2</code> is &lt; 110.
+	Both <code>num1</code> and <code>num2</code> containonly digits <code>0-9</code>.
+	Both <code>num1</code> and <code>num2</code>do not contain any leading zero, except the number 0 itself.
+	You <strong>must not use any built-in BigInteger library</strong> or <strong>convert the inputs to integer</strong> directly.
+</ol>

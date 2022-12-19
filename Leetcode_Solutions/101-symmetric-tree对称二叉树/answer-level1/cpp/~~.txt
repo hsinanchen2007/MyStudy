@@ -1,0 +1,57 @@
+### 解题思路
+利用栈进行广度优先遍历
+
+### 代码
+
+```cpp
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+
+
+    bool isSymmetric(TreeNode* root) {
+        //思路 使用递归进行判断是否是二叉树
+        /*
+        if(root->left==NULL&&root->right==NULL)
+            return true;
+        else if(root == NULL)
+            return true;
+        else if(root->left!=NULL && root->right!=NULL && root->left->val == root->right->val)
+        {
+            return root->left && root->right;
+        }
+        return false;*/
+        stack <TreeNode*> stc;
+        if(root==NULL)
+            return true;
+        stc.push(root);
+        stc.push(root);
+        while(!stc.empty())
+        {
+            TreeNode* p = stc.top();
+            stc.pop();
+            TreeNode* q = stc.top();
+            stc.pop();
+            if(p==NULL&&q==NULL)
+                continue;
+            if(p==NULL||q==NULL)
+                return false;
+            if(p->val!=q->val)
+                return false;
+            stc.push(p->left);
+            stc.push(q->right);
+            stc.push(p->right);
+            stc.push(q->left);
+        }
+        return true;
+    }
+};
+```

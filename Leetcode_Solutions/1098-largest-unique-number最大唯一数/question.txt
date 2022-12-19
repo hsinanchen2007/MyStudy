@@ -1,0 +1,65 @@
+largest-unique-number
+给你一个整数数组<code>A</code>，请找出并返回在该数组中仅出现一次的最大整数。
+
+如果不存在这个只出现一次的整数，则返回 -1。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[5,7,3,9,4,9,8,3,1]
+<strong>输出：</strong>8
+<strong>解释： </strong>
+数组中最大的整数是 9，但它在数组中重复出现了。而第二大的整数是 8，它只出现了一次，所以答案是 8。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[9,9,8,8]
+<strong>输出：</strong>-1
+<strong>解释： </strong>
+数组中不存在仅出现一次的整数。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 2000</code>
+	<code>0 &lt;= A[i] &lt;= 1000</code>
+</ol>
+
+最大唯一数
+Given an array of integers <code>A</code>, return the largest integer that only occurs once.
+
+If no integer occurs once, return -1.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[5,7,3,9,4,9,8,3,1]</span>
+<strong>Output: </strong><span id="example-output-1">8</span>
+<strong>Explanation: </strong>
+The maximum integer in the array is 9 but it is repeated. The number 8 occurs only once, so it&#39;s the answer.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[9,9,8,8]</span>
+<strong>Output: </strong><span id="example-output-1">-1</span>
+<strong>Explanation: </strong>
+There is no number that occurs only once.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 2000</code>
+	<code>0 &lt;= A[i] &lt;= 1000</code>
+</ol>

@@ -1,0 +1,53 @@
+integer-to-english-words
+将非负整数转换为其对应的英文表示。可以保证给定输入小于2<sup>31</sup> - 1 。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> 123
+<strong>输出:</strong> &quot;One Hundred Twenty Three&quot;
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> 12345
+<strong>输出:</strong> &quot;Twelve Thousand Three Hundred Forty Five&quot;</pre>
+
+<strong>示例 3:</strong>
+
+<pre><strong>输入:</strong> 1234567
+<strong>输出:</strong> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;</pre>
+
+<strong>示例 4:</strong>
+
+<pre><strong>输入:</strong> 1234567891
+<strong>输出:</strong> &quot;One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One&quot;</pre>
+
+整数转换英文表示
+Convert a non-negative integer to its english words representation. Given input is guaranteed to be less than 2<sup>31</sup> - 1.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> 123
+<b>Output:</b> &quot;One Hundred Twenty Three&quot;
+</pre>
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> 12345
+<b>Output:</b> &quot;Twelve Thousand Three Hundred Forty Five&quot;</pre>
+
+<b>Example 3:</b>
+
+<pre>
+<b>Input:</b> 1234567
+<b>Output:</b> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;
+</pre>
+
+<b>Example 4:</b>
+
+<pre>
+<b>Input:</b> 1234567891
+<b>Output:</b> &quot;One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One&quot;
+</pre>

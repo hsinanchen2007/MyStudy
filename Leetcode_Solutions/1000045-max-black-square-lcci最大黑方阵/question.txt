@@ -1,0 +1,69 @@
+max-black-square-lcci
+给定一个方阵，其中每个单元(像素)非黑即白。设计一个算法，找出 4 条边皆为黑色像素的最大子方阵。
+
+返回一个数组 <code>[r, c, size]</code> ，其中<code>r</code>,<code>c</code>分别代表子方阵左上角的行号和列号，<code>size</code> 是子方阵的边长。若有多个满足条件的子方阵，返回 <code>r</code> 最小的，若 <code>r</code> 相同，返回 <code>c</code> 最小的子方阵。若无满足条件的子方阵，返回空数组。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:
+</strong>[
+  [1,0,1],
+  [<strong>0,0</strong>,1],
+  [<strong>0,0</strong>,1]
+]
+<strong>输出: </strong>[1,0,2]
+<strong>解释: </strong>输入中 0 代表黑色，1 代表白色，标粗的元素即为满足条件的最大子方阵
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:
+</strong>[
+  [<strong>0</strong>,1,1],
+  [1,0,1],
+  [1,1,0]
+]
+<strong>输出: </strong>[0,0,1]
+</pre>
+
+<strong>提示：</strong>
+
+<ul>
+	<code>matrix.length == matrix[0].length &lt;= 200</code>
+</ul>
+
+最大黑方阵
+Imagine you have a square matrix, where each cell (pixel) is either black or white Design an algorithm to find the maximum subsquare such that all four borders are filled with black pixels.
+
+Return an array<code>[r, c, size]</code>, where<code>r</code>,<code>c</code>are the row number and the column number of the subsquare&#39;s upper left corner respectively, and <code>size</code>is the side length of the subsquare. If there are more than one answers, return the one that has smallest <code>r</code>. If there are more than one answers that have the same <code>r</code>, return the one that has smallest <code>c</code>. If there&#39;s no answer, return an empty array.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:
+</strong>[
+  [1,0,1],
+  [<strong>0,0</strong>,1],
+  [<strong>0,0</strong>,1]
+]
+<strong>Output: </strong>[1,0,2]
+<strong>Explanation:</strong> 0 represents black, and 1 represents white, bold elements in the input is the answer.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:
+</strong>[
+  [<strong>0</strong>,1,1],
+  [1,0,1],
+  [1,1,0]
+]
+<strong>Output: </strong>[0,0,1]
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>matrix.length == matrix[0].length &lt;= 200</code>
+</ul>

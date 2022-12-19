@@ -1,0 +1,3 @@
+Let `nums` be the list, `index` be the current number's index, `num` be the current number.
+As `nums` is not longer than maximum of the numbers in it, you can assign any number `num` in `nums` to `nums[num]`. 
+If it is already there, just skip it. If it is not the case, check if the number in `nums[num]` is equal to current number. If the 2 numbers is equal, return `num`. Otherwise, change the position of current number `nums[index]` to the place it should be `nums[num]`. Finally, bring the number in `nums[num]` to current position `nums[index]` and set it as the next number to check.

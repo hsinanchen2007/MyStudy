@@ -1,0 +1,32 @@
+先将链表分为两半（注意链表长度为奇数和偶数的情况），再将第二段链表反转，再分别将第二段链表的第k个节点插入第一段链表的原第k个节点后。
+```c
+void reorderList(struct ListNode* head){
+    if(head){
+        struct ListNode *p=head, *fast_p=head, *sec;
+        //找到中间节点。
+        while(fast_p->next&&fast_p->next->next){
+            p=p->next;
+            fast_p=fast_p->next->next;
+        }
+        fast_p=p->next;
+        p->next=0;
+        //将fast_p指向的链表反转，sec指向反转后的链表。
+        sec=fast_p;
+        while(fast_p&&fast_p->next){
+            p=fast_p->next;
+            fast_p->next=p->next;
+            p->next=sec;
+            sec=p;
+        }
+        //将sec指向的链表的节点依次插入head指向的节点。
+        p=head;
+        while(sec){
+            fast_p=sec->next;
+            sec->next=p->next;
+            p->next=sec;
+            p=sec->next;
+            sec=fast_p;
+        }
+    }
+}
+```

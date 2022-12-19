@@ -1,0 +1,47 @@
+intersection-of-two-arrays
+给定两个数组，编写一个函数来计算它们的交集。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>nums1 = [1,2,2,1], nums2 = [2,2]
+<strong>输出: </strong>[2]
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+<strong>输出: </strong>[9,4]</pre>
+
+<strong>说明:</strong>
+
+<ul>
+	输出结果中的每个元素一定是唯一的。
+	我们可以不考虑输出结果的顺序。
+</ul>
+
+两个数组的交集
+Given two arrays, write a function to compute their intersection.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>nums1 = <span id="example-input-1-1">[1,2,2,1]</span>, nums2 = <span id="example-input-1-2">[2,2]</span>
+<strong>Output: </strong><span id="example-output-1">[2]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>nums1 = <span id="example-input-2-1">[4,9,5]</span>, nums2 = <span id="example-input-2-2">[9,4,9,8,4]</span>
+<strong>Output: </strong><span id="example-output-2">[9,4]</span></pre>
+</div>
+
+<b>Note:</b>
+
+<ul>
+	Each element in the result must be unique.
+	The result can be in any order.
+</ul>
+
+

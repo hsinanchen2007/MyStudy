@@ -1,0 +1,48 @@
+sort-array-by-parity
+给定一个非负整数数组 <code>A</code>，返回一个数组，在该数组中，<code>A</code> 的所有偶数元素之后跟着所有奇数元素。
+
+你可以返回满足此条件的任何数组作为答案。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>[3,1,2,4]
+<strong>输出：</strong>[2,4,3,1]
+输出 [4,2,3,1]，[2,4,1,3] 和 [4,2,1,3] 也会被接受。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 5000</code>
+	<code>0 &lt;= A[i] &lt;= 5000</code>
+</ol>
+
+按奇偶排序数组
+Given an array <code>A</code> of non-negative integers, return an array consisting of all the even elements of <code>A</code>, followed by all the odd elements of <code>A</code>.
+
+You may return any answer array that satisfies this condition.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[3,1,2,4]</span>
+<strong>Output: </strong><span id="example-output-1">[2,4,3,1]</span>
+The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 5000</code>
+	<code>0 &lt;= A[i] &lt;= 5000</code>
+</ol>
+</div>

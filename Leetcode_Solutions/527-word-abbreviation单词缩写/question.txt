@@ -1,0 +1,50 @@
+word-abbreviation
+给定一个由n个不重复非空字符串组成的数组，你需要按照以下规则为每个单词生成<strong>最小的</strong>缩写<strong>。</strong>
+
+<ol>
+	初始缩写由起始字母+省略字母的数量+结尾字幕组成。
+	若存在冲突，亦即多于一个单词有同样的缩写，则使用更长的前缀代替首字母，直到从单词到缩写的映射唯一。换而言之，最终的缩写必须只能映射到一个单词。
+	若缩写并不比原单词更短，则保留原样。
+</ol>
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> [&quot;like&quot;, &quot;god&quot;, &quot;internal&quot;, &quot;me&quot;, &quot;internet&quot;, &quot;interval&quot;, &quot;intension&quot;, &quot;face&quot;, &quot;intrusion&quot;]
+<strong>输出:</strong> [&quot;l2e&quot;,&quot;god&quot;,&quot;internal&quot;,&quot;me&quot;,&quot;i6t&quot;,&quot;interval&quot;,&quot;inte4n&quot;,&quot;f2e&quot;,&quot;intr4n&quot;]
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	n和每个单词的长度均不超过 400。
+	每个单词的长度大于 1。
+	单词只由英文小写字母组成。
+	返回的答案需要和原数组保持<strong>同一顺序。</strong>
+</ol>
+
+单词缩写
+Given an array of n distinct non-empty strings, you need to generate <b>minimal</b> possible abbreviations for every word following rules below.
+
+<ol>
+Begin with the first character and then the number of characters abbreviated, which followed by the last character.
+If there are any conflict, that is more than one words share the same abbreviation, a longer prefix is used instead of only the first character until making the map from word to abbreviation become unique. In other words, a final abbreviation cannot map to more than one original words.
+ If the abbreviation doesn't make the word shorter, then keep it as original.
+</ol>
+
+<b>Example:</b><br />
+<pre>
+<b>Input:</b> ["like", "god", "internal", "me", "internet", "interval", "intension", "face", "intrusion"]
+<b>Output:</b> ["l2e","god","internal","me","i6t","interval","inte4n","f2e","intr4n"]
+</pre>
+
+
+
+<b>Note:</b> 
+<ol>
+ Both n and the length of each word will not exceed 400.
+ The length of each word is greater than 1.
+ The words consist of lowercase English letters only.
+ The return answers should be <b>in the same order</b> as the original array.
+</ol>

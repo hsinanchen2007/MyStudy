@@ -1,0 +1,41 @@
+sum-of-square-numbers
+给定一个非负整数<code>c</code>，你要判断是否存在两个整数 <code>a</code> 和 <code>b</code>，使得a<sup>2</sup> + b<sup>2</sup> = c。
+
+<strong>示例1:</strong>
+
+<pre>
+<strong>输入:</strong> 5
+<strong>输出:</strong> True
+<strong>解释:</strong> 1 * 1 + 2 * 2 = 5
+</pre>
+
+
+
+<strong>示例2:</strong>
+
+<pre>
+<strong>输入:</strong> 3
+<strong>输出:</strong> False
+</pre>
+
+平方数之和
+Given a non-negative integer <code>c</code>, your task is to decide whether there&#39;re two integers <code>a</code> and <code>b</code> such that a<sup>2</sup> + b<sup>2</sup> = c.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> 5
+<b>Output:</b> True
+<b>Explanation:</b> 1 * 1 + 2 * 2 = 5
+</pre>
+
+
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> 3
+<b>Output:</b> False
+</pre>
+
+

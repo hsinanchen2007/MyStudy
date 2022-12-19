@@ -1,0 +1,150 @@
+design-underground-system
+请你实现一个类<code>UndergroundSystem</code>，它支持以下 3 种方法：
+
+1.<code>checkIn(int id, string stationName, int t)</code>
+
+<ul>
+	编号为<code>id</code>的乘客在 <code>t</code>时刻进入地铁站<code>stationName</code>。
+	一个乘客在同一时间只能在一个地铁站进入或者离开。
+</ul>
+
+2.<code>checkOut(int id, string stationName, int t)</code>
+
+<ul>
+	编号为<code>id</code>的乘客在 <code>t</code>时刻离开地铁站 <code>stationName</code>。
+</ul>
+
+3.<code>getAverageTime(string startStation, string endStation)</code>
+
+<ul>
+	返回从地铁站<code>startStation</code>到地铁站<code>endStation</code>的平均花费时间。
+	平均时间计算的行程包括当前为止所有从<code>startStation</code><strong>直接到达</strong><code>endStation</code>的行程。
+	调用<code>getAverageTime</code>时，询问的路线至少包含一趟行程。
+</ul>
+
+你可以假设所有对<code>checkIn</code>和<code>checkOut</code>的调用都是符合逻辑的。也就是说，如果一个顾客在 <strong>t<sub>1</sub></strong>时刻到达某个地铁站，那么他离开的时间<strong>t<sub>2</sub></strong>一定满足<strong>t<sub>2</sub> &gt; t<sub>1</sub></strong>。所有的事件都按时间顺序给出。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>
+[&quot;UndergroundSystem&quot;,&quot;checkIn&quot;,&quot;checkIn&quot;,&quot;checkIn&quot;,&quot;checkOut&quot;,&quot;checkOut&quot;,&quot;checkOut&quot;,&quot;getAverageTime&quot;,&quot;getAverageTime&quot;,&quot;checkIn&quot;,&quot;getAverageTime&quot;,&quot;checkOut&quot;,&quot;getAverageTime&quot;]
+[[],[45,&quot;Leyton&quot;,3],[32,&quot;Paradise&quot;,8],[27,&quot;Leyton&quot;,10],[45,&quot;Waterloo&quot;,15],[27,&quot;Waterloo&quot;,20],[32,&quot;Cambridge&quot;,22],[&quot;Paradise&quot;,&quot;Cambridge&quot;],[&quot;Leyton&quot;,&quot;Waterloo&quot;],[10,&quot;Leyton&quot;,24],[&quot;Leyton&quot;,&quot;Waterloo&quot;],[10,&quot;Waterloo&quot;,38],[&quot;Leyton&quot;,&quot;Waterloo&quot;]]
+
+<strong>输出：</strong>
+[null,null,null,null,null,null,null,14.0,11.0,null,11.0,null,12.0]
+
+<strong>解释：</strong>
+UndergroundSystem undergroundSystem = new UndergroundSystem();
+undergroundSystem.checkIn(45, &quot;Leyton&quot;, 3);
+undergroundSystem.checkIn(32, &quot;Paradise&quot;, 8);
+undergroundSystem.checkIn(27, &quot;Leyton&quot;, 10);
+undergroundSystem.checkOut(45, &quot;Waterloo&quot;, 15);
+undergroundSystem.checkOut(27, &quot;Waterloo&quot;, 20);
+undergroundSystem.checkOut(32, &quot;Cambridge&quot;, 22);
+undergroundSystem.getAverageTime(&quot;Paradise&quot;, &quot;Cambridge&quot;);       // 返回 14.0。从 &quot;Paradise&quot;（时刻 8）到 &quot;Cambridge&quot;(时刻 22)的行程只有一趟
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Waterloo&quot;);          // 返回 11.0。总共有 2 躺从 &quot;Leyton&quot; 到 &quot;Waterloo&quot; 的行程，编号为 id=45 的乘客出发于 time=3 到达于 time=15，编号为 id=27 的乘客于 time=10 出发于 time=20 到达。所以平均时间为 ( (15-3) + (20-10) ) / 2 = 11.0
+undergroundSystem.checkIn(10, &quot;Leyton&quot;, 24);
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Waterloo&quot;);          // 返回 11.0
+undergroundSystem.checkOut(10, &quot;Waterloo&quot;, 38);
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Waterloo&quot;);          // 返回 12.0</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	总共最多有<code>20000</code>次操作。
+	<code>1 &lt;= id, t &lt;= 10^6</code>
+	所有的字符串包含大写字母，小写字母和数字。
+	<code>1 &lt;=stationName.length &lt;= 10</code>
+	与标准答案误差在<code>10^-5</code>以内的结果都视为正确结果。
+</ul>
+
+设计地铁系统
+Implement the class <code>UndergroundSystem</code> that supports three methods:
+
+1.<code>checkIn(int id, string stationName, int t)</code>
+
+<ul>
+	A customer with id card equal to <code>id</code>, gets in the station <code>stationName</code> at time <code>t</code>.
+	A customercan only be checked into one place at a time.
+</ul>
+
+2.<code>checkOut(int id, string stationName, int t)</code>
+
+<ul>
+	A customer with id card equal to <code>id</code>, gets out from the station <code>stationName</code> at time <code>t</code>.
+</ul>
+
+3.<code>getAverageTime(string startStation, string endStation)</code>
+
+<ul>
+	Returns the average time to travel between the <code>startStation</code> and the <code>endStation</code>.
+	The average time is computed from all the previous traveling from <code>startStation</code> to <code>endStation</code> that happened <strong>directly</strong>.
+	Call to <code>getAverageTime</code> is always valid.
+</ul>
+
+You can assume all calls to <code>checkIn</code> and <code>checkOut</code> methods are consistent. That is, if a customer gets in at time <strong>t<sub>1</sub></strong> at some station, then it gets out at time <strong>t<sub>2</sub></strong> with <strong>t<sub>2</sub> &gt; t<sub>1</sub></strong>.All events happen in chronological order.
+
+
+<strong>Example 1:</strong>
+<strong>Input</strong>
+
+<pre>
+[&quot;UndergroundSystem&quot;,&quot;checkIn&quot;,&quot;checkIn&quot;,&quot;checkIn&quot;,&quot;checkOut&quot;,&quot;checkOut&quot;,&quot;checkOut&quot;,&quot;getAverageTime&quot;,&quot;getAverageTime&quot;,&quot;checkIn&quot;,&quot;getAverageTime&quot;,&quot;checkOut&quot;,&quot;getAverageTime&quot;]
+[[],[45,&quot;Leyton&quot;,3],[32,&quot;Paradise&quot;,8],[27,&quot;Leyton&quot;,10],[45,&quot;Waterloo&quot;,15],[27,&quot;Waterloo&quot;,20],[32,&quot;Cambridge&quot;,22],[&quot;Paradise&quot;,&quot;Cambridge&quot;],[&quot;Leyton&quot;,&quot;Waterloo&quot;],[10,&quot;Leyton&quot;,24],[&quot;Leyton&quot;,&quot;Waterloo&quot;],[10,&quot;Waterloo&quot;,38],[&quot;Leyton&quot;,&quot;Waterloo&quot;]]
+
+<strong>Output</strong>
+[null,null,null,null,null,null,null,14.00000,11.00000,null,11.00000,null,12.00000]
+
+<strong>Explanation</strong>
+UndergroundSystem undergroundSystem = new UndergroundSystem();
+undergroundSystem.checkIn(45, &quot;Leyton&quot;, 3);
+undergroundSystem.checkIn(32, &quot;Paradise&quot;, 8);
+undergroundSystem.checkIn(27, &quot;Leyton&quot;, 10);
+undergroundSystem.checkOut(45, &quot;Waterloo&quot;, 15);
+undergroundSystem.checkOut(27, &quot;Waterloo&quot;, 20);
+undergroundSystem.checkOut(32, &quot;Cambridge&quot;, 22);
+undergroundSystem.getAverageTime(&quot;Paradise&quot;, &quot;Cambridge&quot;);    // return 14.00000. There was only one travel from &quot;Paradise&quot; (at time 8) to &quot;Cambridge&quot; (at time 22)
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Waterloo&quot;);     // return 11.00000. There were two travels from &quot;Leyton&quot; to &quot;Waterloo&quot;, a customer with id=45 from time=3 to time=15 and a customer with id=27 from time=10 to time=20. So the average time is ( (15-3) + (20-10) ) / 2 = 11.00000
+undergroundSystem.checkIn(10, &quot;Leyton&quot;, 24);
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Waterloo&quot;);     // return 11.00000
+undergroundSystem.checkOut(10, &quot;Waterloo&quot;, 38);
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Waterloo&quot;);     // return 12.00000
+</pre>
+
+<strong>Example 2:</strong>
+<strong>Input</strong>
+
+<pre>
+[&quot;UndergroundSystem&quot;,&quot;checkIn&quot;,&quot;checkOut&quot;,&quot;getAverageTime&quot;,&quot;checkIn&quot;,&quot;checkOut&quot;,&quot;getAverageTime&quot;,&quot;checkIn&quot;,&quot;checkOut&quot;,&quot;getAverageTime&quot;]
+[[],[10,&quot;Leyton&quot;,3],[10,&quot;Paradise&quot;,8],[&quot;Leyton&quot;,&quot;Paradise&quot;],[5,&quot;Leyton&quot;,10],[5,&quot;Paradise&quot;,16],[&quot;Leyton&quot;,&quot;Paradise&quot;],[2,&quot;Leyton&quot;,21],[2,&quot;Paradise&quot;,30],[&quot;Leyton&quot;,&quot;Paradise&quot;]]
+
+<strong>Output</strong>
+[null,null,null,5.00000,null,null,5.50000,null,null,6.66667]
+
+<strong>Explanation</strong>
+UndergroundSystem undergroundSystem = new UndergroundSystem();
+undergroundSystem.checkIn(10, &quot;Leyton&quot;, 3);
+undergroundSystem.checkOut(10, &quot;Paradise&quot;, 8);
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Paradise&quot;); // return 5.00000
+undergroundSystem.checkIn(5, &quot;Leyton&quot;, 10);
+undergroundSystem.checkOut(5, &quot;Paradise&quot;, 16);
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Paradise&quot;); // return 5.50000
+undergroundSystem.checkIn(2, &quot;Leyton&quot;, 21);
+undergroundSystem.checkOut(2, &quot;Paradise&quot;, 30);
+undergroundSystem.getAverageTime(&quot;Leyton&quot;, &quot;Paradise&quot;); // return 6.66667
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	There will be at most <code><font face="monospace">20000</font></code>operations.
+	<code>1 &lt;= id, t &lt;= 10^6</code>
+	All strings consist of uppercase, lowercase English letters and digits.
+	<code>1 &lt;=stationName.length &lt;= 10</code>
+	Answers within<code>10^-5</code>of the actual value will be accepted as correct.
+</ul>

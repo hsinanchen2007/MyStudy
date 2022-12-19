@@ -1,0 +1,87 @@
+increasing-order-search-tree
+给你一个树，请你 <strong>按中序遍历</strong> 重新排列树，使树中最左边的结点现在是树的根，并且每个结点没有左子结点，只有一个右子结点。
+
+
+
+<strong>示例 ：</strong>
+
+<pre><strong>输入：</strong>[5,3,6,2,4,null,8,1,null,null,null,7,9]
+
+       5
+      / \
+    3    6
+   / \    \
+  2   4    8
+/        / \ 
+1        7   9
+
+<strong>输出：</strong>[1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9]
+
+ 1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6
+           \
+            7
+             \
+              8
+               \
+                 9  </pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	给定树中的结点数介于 <code>1</code> 和<code>100</code> 之间。
+	每个结点都有一个从 <code>0</code> 到 <code>1000</code> 范围内的唯一整数值。
+</ol>
+
+递增顺序查找树
+Given a binary search tree, rearrange the tree in <strong>in-order</strong> so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only 1 right child.
+
+<pre>
+<strong>Example 1:</strong>
+<strong>Input:</strong> [5,3,6,2,4,null,8,1,null,null,null,7,9]
+
+       5
+      / \
+    3    6
+   / \    \
+  2   4    8
+/        / \ 
+1        7   9
+
+<strong>Output:</strong> [1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9]
+
+ 1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6
+           \
+            7
+             \
+              8
+               \
+                 9  </pre>
+
+<strong>Constraints:</strong>
+
+<ul>
+	The number of nodes in the given tree will be between <code>1</code> and <code>100</code>.
+	Each node will have a unique integer value from <code>0</code> to <code>1000</code>.
+</ul>

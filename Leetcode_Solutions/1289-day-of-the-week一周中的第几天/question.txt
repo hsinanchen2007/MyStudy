@@ -1,0 +1,70 @@
+day-of-the-week
+给你一个日期，请你设计一个算法来判断它是对应一周中的哪一天。
+
+输入为三个整数：<code>day</code>、<code>month</code> 和<code>year</code>，分别表示日、月、年。
+
+您返回的结果必须是这几个值中的一个<code>{&quot;Sunday&quot;, &quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;}</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>day = 31, month = 8, year = 2019
+<strong>输出：</strong>&quot;Saturday&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>day = 18, month = 7, year = 1999
+<strong>输出：</strong>&quot;Sunday&quot;
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>day = 15, month = 8, year = 1993
+<strong>输出：</strong>&quot;Sunday&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	给出的日期一定是在<code>1971</code> 到<code>2100</code>年之间的有效日期。
+</ul>
+
+一周中的第几天
+Given a date, return the corresponding day of the week for that date.
+
+The input is given as three integers representing the <code>day</code>, <code>month</code> and <code>year</code> respectively.
+
+Return the answer as one of the following values<code>{&quot;Sunday&quot;, &quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;}</code>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> day = 31, month = 8, year = 2019
+<strong>Output:</strong> &quot;Saturday&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> day = 18, month = 7, year = 1999
+<strong>Output:</strong> &quot;Sunday&quot;
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> day = 15, month = 8, year = 1993
+<strong>Output:</strong> &quot;Sunday&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	The given dates are validdates between the years <code>1971</code> and <code>2100</code>.
+</ul>

@@ -1,0 +1,53 @@
+flatten-binary-tree-to-linked-list
+给定一个二叉树，<a href="https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95/8010757" target="_blank">原地</a>将它展开为链表。
+
+例如，给定二叉树
+
+<pre>    1
+   / \
+  2   5
+ / \   \
+3   4   6</pre>
+
+将其展开为：
+
+<pre>1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6</pre>
+
+二叉树展开为链表
+Given a binary tree, flatten it to a linked list in-place.
+
+For example, given the following tree:
+
+<pre>
+    1
+   / \
+  2   5
+ / \   \
+3   4   6
+</pre>
+
+The flattened tree should look like:
+
+<pre>
+1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6
+</pre>

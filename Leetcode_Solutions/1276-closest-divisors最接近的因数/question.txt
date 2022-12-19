@@ -1,0 +1,73 @@
+closest-divisors
+给你一个整数<code>num</code>，请你找出同时满足下面全部要求的两个整数：
+
+<ul>
+	两数乘积等于 <code>num + 1</code>或<code>num + 2</code>
+	以绝对差进行度量，两数大小最接近
+</ul>
+
+你可以按任意顺序返回这两个整数。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>num = 8
+<strong>输出：</strong>[3,3]
+<strong>解释：</strong>对于 num + 1 = 9，最接近的两个因数是 3 &amp; 3；对于 num + 2 = 10, 最接近的两个因数是 2 &amp; 5，因此返回 3 &amp; 3 。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>num = 123
+<strong>输出：</strong>[5,25]
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>num = 999
+<strong>输出：</strong>[40,25]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= num &lt;= 10^9</code>
+</ul>
+
+最接近的因数
+Given an integer <code>num</code>, find the closest two integers in absolute difference whose product equals<code>num + 1</code>or <code>num + 2</code>.
+
+Return the two integers in any order.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> num = 8
+<strong>Output:</strong> [3,3]
+<strong>Explanation:</strong> For num + 1 = 9, the closest divisors are 3 &amp; 3, for num + 2 = 10, the closest divisors are 2 &amp; 5, hence 3 &amp; 3 is chosen.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> num = 123
+<strong>Output:</strong> [5,25]
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> num = 999
+<strong>Output:</strong> [40,25]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= num &lt;= 10^9</code>
+</ul>

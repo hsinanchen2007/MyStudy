@@ -1,0 +1,62 @@
+synonymous-sentences
+给你一个近义词表<code>synonyms</code> 和一个句子<code>text</code>，<code>synonyms</code> 表中是一些近义词对 ，你可以将句子<code>text</code> 中每个单词用它的近义词来替换。
+
+请你找出所有用近义词替换后的句子，按<strong>字典序排序</strong>后返回。
+
+
+
+<strong>示例 1：</strong>
+
+<pre>
+<strong>输入：
+</strong>synonyms = [[&quot;happy&quot;,&quot;joy&quot;],[&quot;sad&quot;,&quot;sorrow&quot;],[&quot;joy&quot;,&quot;cheerful&quot;]],
+text = &quot;I am happy today but was sad yesterday&quot;
+<strong>输出：
+</strong>[&quot;I am cheerful today but was sad yesterday&quot;,
+&quot;I am cheerful today but was sorrow yesterday&quot;,
+&quot;I am happy today but was sad yesterday&quot;,
+&quot;I am happy today but was sorrow yesterday&quot;,
+&quot;I am joy today but was sad yesterday&quot;,
+&quot;I am joy today but was sorrow yesterday&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>0 &lt;=synonyms.length &lt;= 10</code>
+	<code>synonyms[i].length == 2</code>
+	<code>synonyms[0] != synonyms[1]</code>
+	所有单词仅包含英文字母，且长度最多为<code>10</code> 。
+	<code>text</code>最多包含<code>10</code> 个单词，且单词间用单个空格分隔开。
+</ul>
+
+近义词句子
+Given a list of pairs of equivalent words<code>synonyms</code> and a sentence <code>text</code>,Return all possible synonymous sentences <strong>sorted lexicographically</strong>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:
+</strong>synonyms = [[&quot;happy&quot;,&quot;joy&quot;],[&quot;sad&quot;,&quot;sorrow&quot;],[&quot;joy&quot;,&quot;cheerful&quot;]],
+text = &quot;I am happy today but was sad yesterday&quot;
+<strong>Output:
+</strong>[&quot;I am cheerful today but was sad yesterday&quot;,
+​​​​​​​&quot;I am cheerful today but was sorrow yesterday&quot;,
+&quot;I am happy today but was sad yesterday&quot;,
+&quot;I am happy today but was sorrow yesterday&quot;,
+&quot;I am joy today but was sad yesterday&quot;,
+&quot;I am joy today but was sorrow yesterday&quot;]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>0 &lt;=synonyms.length &lt;= 10</code>
+	<code>synonyms[i].length == 2</code>
+	<code>synonyms[0] != synonyms[1]</code>
+	All words consist of at most <code>10</code> English letters only.
+	<code>text</code>is a single space separated sentence of at most <code>10</code> words.
+</ul>

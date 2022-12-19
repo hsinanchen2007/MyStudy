@@ -1,0 +1,1 @@
+针对题目的两个陷阱使用临时表（因为select null 结果就是 null）和distinct，然后用limit排序

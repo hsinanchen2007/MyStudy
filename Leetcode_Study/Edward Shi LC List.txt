@@ -1,0 +1,738 @@
+Chapter 2. Bit Manipulation
+	XOR
+		389. Find the Difference, E, https://leetcode.com/problems/find-the-difference/
+		136. Single Number, E, https://leetcode.com/problems/single-number/
+		268. Missing Number, E, https://leetcode.com/problems/missing-number/
+
+	n&(n-1)
+		231. Power of Two, E, https://leetcode.com/problems/power-of-two/
+		191. Number of 1 Bits, E, https://leetcode.com/problems/number-of-1-bits/
+	
+	n&1
+		190. Reverse Bits, E, https://leetcode.com/problems/reverse-bits/
+	
+	Bitmap
+		318. Maximum Product of Word Lengths, M, https://leetcode.com/problems/maximum-product-of-word-lengths/
+
+	Others
+		397. Integer Replacement, M, https://leetcode.com/problems/integer-replacement/
+		393. UTF-8 Validation, M, https://leetcode.com/problems/utf-8-validation/
+		201. Bitwise AND of Numbers Range, M, https://leetcode.com/problems/bitwise-and-of-numbers-range/
+		371. Sum of Two Integers, M, https://leetcode.com/problems/sum-of-two-integers/
+		338. Counting Bits, E, https://leetcode.com/problems/counting-bits/
+		89. Gray Code, M, https://leetcode.com/problems/gray-code/
+		137. Single Number II, M, https://leetcode.com/problems/single-number-ii/
+		260. Single Number III, M, https://leetcode.com/problems/single-number-iii/
+		405. Convert a Number to Hexadecimal, E, https://leetcode.com/problems/convert-a-number-to-hexadecimal/
+		421. Maximum XOR of Two Numbers in an Array, M, https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+		461. Hamming Distance, E, https://leetcode.com/problems/hamming-distance/
+		476. Number Complement, E, https://leetcode.com/problems/number-complement/
+		477. Total Hamming Distance, M, https://leetcode.com/problems/total-hamming-distance/
+
+
+
+
+Chapter 3. Match
+	Basic
+		7. Reverse Integer, M, https://leetcode.com/problems/reverse-integer/
+		8. String to Integer (atoi), M, https://leetcode.com/problems/string-to-integer-atoi/
+		504. Base 7, E, https://leetcode.com/problems/base-7/
+
+	+-*/
+		66. Plus One, E, https://leetcode.com/problems/plus-one/
+		67. Add Binary, E, https://leetcode.com/problems/add-binary/
+		258. Add Digits, E, https://leetcode.com/problems/add-digits/
+		415. Add Strings, E, https://leetcode.com/problems/add-strings/
+		43. Multiply Strings, M, https://leetcode.com/problems/multiply-strings/
+		29. Divide Two Integers, M, https://leetcode.com/problems/divide-two-integers/
+
+	^
+		69. Sqrt(x), E, https://leetcode.com/problems/sqrtx/
+		50. Pow(x, n), M, https://leetcode.com/problems/powx-n/
+		367. Valid Perfect Square, M, https://leetcode.com/problems/valid-perfect-square/
+		507. Perfect Number, E, https://leetcode.com/problems/perfect-number/
+
+	Special
+		172. Factorial Trailing Zeroes, M, https://leetcode.com/problems/factorial-trailing-zeroes/
+
+	Practice
+		412. Fizz Buzz, E, https://leetcode.com/problems/fizz-buzz/
+		263. Ugly Number, E, https://leetcode.com/problems/ugly-number/
+		264. Ugly Number II, M, https://leetcode.com/problems/ugly-number-ii/
+		413. Arithmetic Slices, M, https://leetcode.com/problems/arithmetic-slices/
+		453. Minimum Moves to Equal Array Elements, M, https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
+		592. Fraction Addition and Subtraction, M, https://leetcode.com/problems/fraction-addition-and-subtraction/
+
+	Cycle
+		204. Count Primes, M, https://leetcode.com/problems/count-primes/
+		492. Construct the Rectangle, E, https://leetcode.com/problems/construct-the-rectangle/
+		573. Squirrel Simulationm, M, https://leetcode.com/problems/squirrel-simulation/ 
+
+	Others
+		166. Fraction to Recurring Decimal, M, https://leetcode.com/problems/fraction-to-recurring-decimal/
+		65. Valid Number, E, https://leetcode.com/problems/plus-one/
+		326. Power of Three, E, https://leetcode.com/problems/power-of-three/
+		342. Power of Four, E, https://leetcode.com/problems/power-of-four/
+		372. Super Pow, M, https://leetcode.com/problems/super-pow/
+		233. Number of Digit One, H, https://leetcode.com/problems/number-of-digit-one/
+		319. Bulb Switcher, M, https://leetcode.com/problems/bulb-switcher/
+		292. Nim Game, E, https://leetcode.com/problems/nim-game/
+		202. Happy Number, E, https://leetcode.com/problems/happy-number/
+		400. Nth Digit, M, https://leetcode.com/problems/nth-digit/
+		306. Additive Number, M, https://leetcode.com/problems/additive-number/
+		343. Integer Break, M, https://leetcode.com/problems/integer-break/
+		396. Rotate Function, M, https://leetcode.com/problems/rotate-function/
+		390. Elimination Game, M, https://leetcode.com/problems/elimination-game/
+		386. Lexicographical Numbers, M, https://leetcode.com/problems/lexicographical-numbers/
+		357. Count Numbers with Unique Digits, M, https://leetcode.com/problems/count-numbers-with-unique-digits/
+		360. Sort Transformed Array, M, https://leetcode.com/problems/sort-transformed-array/
+		368. Largest Divisible Subset, M, https://leetcode.com/problems/largest-divisible-subset/
+		423. Reconstruct Original Digits from English, M, https://leetcode.com/problems/reconstruct-original-digits-from-english/
+		441. Arranging Coins, E, https://leetcode.com/problems/arranging-coins/
+		458. Poor Pigs, H, https://leetcode.com/problems/poor-pigs/
+		537. Complex Number Multiplication, M, https://leetcode.com/problems/complex-number-multiplication/
+		517. Super Washing Machines, H, https://leetcode.com/problems/super-washing-machines/
+		598. Range Addition II, E, https://leetcode.com/problems/range-addition-ii/
+
+
+
+
+Chapter 4. Arrays
+	Dutch national flag problem
+		75. Sort Colors, M, https://leetcode.com/problems/sort-colors/
+
+	Bubble sort
+		283. Move Zeroes, E, https://leetcode.com/problems/move-zeroes/
+
+	Select sort
+		287. Find the Duplicate Number, M, https://leetcode.com/problems/find-the-duplicate-number/
+		334. Increasing Triplet Subsequence, M, https://leetcode.com/problems/increasing-triplet-subsequence/
+
+	Insert sort
+		300. Longest Increasing Subsequence, M, https://leetcode.com/problems/longest-increasing-subsequence/
+
+	Merge sort
+		88. Merge Sorted Array, E, https://leetcode.com/problems/merge-sorted-array/
+		493. Reverse Pairs, H, https://leetcode.com/problems/reverse-pairs/
+
+	Quick sort
+		215. Kth Largest Element in an Array, M, https://leetcode.com/problems/kth-largest-element-in-an-array/
+		462. Minimum Moves to Equal Array Elements II, M, https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/
+
+	Count sort
+		387. First Unique Character in a String, E, https://leetcode.com/problems/first-unique-character-in-a-string/
+		383. Ransom Note, E, https://leetcode.com/problems/ransom-note/
+		467. Unique Substrings in Wraparound String, M, https://leetcode.com/problems/unique-substrings-in-wraparound-string/
+		87. Scramble String, H, https://leetcode.com/problems/scramble-string/
+		567. Permutation in String, M, https://leetcode.com/problems/permutation-in-string/
+		205. Isomorphic Strings, E, https://leetcode.com/problems/isomorphic-strings/
+		299. Bulls and Cows, M, https://leetcode.com/problems/bulls-and-cows/
+		274. H-Index, M, https://leetcode.com/problems/h-index/
+
+	Bucket sort
+		451. Sort Characters By Frequency, M, https://leetcode.com/problems/sort-characters-by-frequency/
+		164. Maximum Gap, H, https://leetcode.com/problems/maximum-gap/
+		347. Top K Frequent Elements, M, https://leetcode.com/problems/top-k-frequent-elements/
+
+	Two pointers, one direction
+		27. Remove Element, E, https://leetcode.com/problems/remove-element/
+		26. Remove Duplicates from Sorted Array, E, https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+		80. Remove Duplicates from Sorted Array II, M, https://leetcode.com/problems/word-search/
+		487. Max Consecutive Ones II, M, https://leetcode.com/problems/max-consecutive-ones-ii/
+
+	Interval
+		57. Insert Interval, M, https://leetcode.com/problems/insert-interval/
+		56. Merge Intervals, M, https://leetcode.com/problems/merge-intervals/
+		252. Meeting Rooms, E, https://leetcode.com/problems/meeting-rooms/
+		253. Meeting Rooms II, M, https://leetcode.com/problems/meeting-rooms-ii/
+		435. Non-overlapping Intervals, M, https://leetcode.com/problems/non-overlapping-intervals/
+
+	Treemap
+		436. Find Right Interval, M, https://leetcode.com/problems/find-right-interval/
+		352. Data Stream as Disjoint Intervals, H, https://leetcode.com/problems/data-stream-as-disjoint-intervals/
+
+	Subarray
+		325. Maximum Size Subarray Sum Equals k, M, https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
+		209. Minimum Size Subarray Sum, M, https://leetcode.com/problems/minimum-size-subarray-sum/
+		238. Product of Array Except Self, M, https://leetcode.com/problems/product-of-array-except-self/
+		152. Maximum Product Subarray, M, https://leetcode.com/problems/maximum-product-subarray/
+		523. Continuous Subarray Sum, M, https://leetcode.com/problems/continuous-subarray-sum/
+		548. Split Array with Equal Sum, H, https://leetcode.com/problems/split-array-with-equal-sum/
+		560. Subarray Sum Equals K, M, https://leetcode.com/problems/subarray-sum-equals-k/
+
+	Two pointers, bidirection
+		11. Container With Most Water, M, https://leetcode.com/problems/container-with-most-water/
+
+	Sum, Hashmap
+		1. Two Sum, E, https://leetcode.com/problems/two-sum/
+		15. 3Sum, M, https://leetcode.com/problems/3sum/
+		16. 3Sum Closest, M, https://leetcode.com/problems/3sum-closest/
+		259. 3Sum Smaller, M, https://leetcode.com/problems/3sum-smaller/
+		18. 4Sum, M, https://leetcode.com/problems/4sum/
+		454. 4Sum II, M, https://leetcode.com/problems/4sum-ii/
+
+	Exchange
+		189. Rotate Array, M, https://leetcode.com/problems/rotate-array/
+		280. Wiggle Sort, M, https://leetcode.com/problems/wiggle-sort/
+		41. First Missing Positive, H, https://leetcode.com/problems/first-missing-positive/
+
+	Three pointers
+		581. Shortest Unsorted Continuous Subarray, M, https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+
+	Hashset
+		217. Contains Duplicate, E, https://leetcode.com/problems/contains-duplicate/
+		575. Distribute Candies, E, https://leetcode.com/problems/distribute-candies/
+		219. Contains Duplicate II, E, https://leetcode.com/problems/contains-duplicate-ii/
+		525. Contiguous Array, M, https://leetcode.com/problems/contiguous-array/
+		447. Number of Boomerangs, M, https://leetcode.com/problems/number-of-boomerangs/
+		532. K-diff Pairs in an Array, M, https://leetcode.com/problems/k-diff-pairs-in-an-array/
+		554. Brick Wall, M, https://leetcode.com/problems/brick-wall/
+		599. Minimum Index Sum of Two Lists, E, https://leetcode.com/problems/minimum-index-sum-of-two-lists/
+
+	Practice
+		220. Contains Duplicate III, M, https://leetcode.com/problems/contains-duplicate-iii/
+		442. Find All Duplicates in an Array, M, https://leetcode.com/problems/find-all-duplicates-in-an-array/
+		414. Third Maximum Number, E, https://leetcode.com/problems/third-maximum-number/
+		448. Find All Numbers Disappeared in an Array, E, https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+		485. Max Consecutive Ones, E, https://leetcode.com/problems/max-consecutive-ones/
+		229. Majority Element II, M, https://leetcode.com/problems/majority-element-ii/
+		277. Find the Celebrity. M, https://leetcode.com/problems/find-the-celebrity/
+		495. Teemo Attacking. E, https://leetcode.com/problems/teemo-attacking/
+		370. Range Addition, M, https://leetcode.com/problems/range-addition/
+		296. Best Meeting Point. H, https://leetcode.com/problems/best-meeting-point/
+		118. Pascal's Triangle, E, https://leetcode.com/problems/pascals-triangle/
+		119. Pascal's Triangle II, E, https://leetcode.com/problems/pascals-triangle-ii/
+		457. Circular Array Loop, M, https://leetcode.com/problems/circular-array-loop/
+		128. Longest Consecutive Sequence, M, https://leetcode.com/problems/longest-consecutive-sequence/
+		561. Array Partition I, E, https://leetcode.com/problems/array-partition-i/
+		376. Wiggle Subsequence. M, https://leetcode.com/problems/wiggle-subsequence/
+		463. Island Perimeter, E, https://leetcode.com/problems/island-perimeter/
+
+	Math
+		134. Gas Station, M, https://leetcode.com/problems/gas-station/
+		169. Majority Element, E, https://leetcode.com/problems/majority-element/
+
+	2D Array
+		566. Reshape the Matrix, E, https://leetcode.com/problems/reshape-the-matrix/
+		48. Rotate Image, M, https://leetcode.com/problems/rotate-image/
+		54. Spiral Matrix, M, https://leetcode.com/problems/spiral-matrix/
+		59. Spiral Matrix II, M, https://leetcode.com/problems/spiral-matrix-ii/
+		73. Set Matrix Zeroes, M, https://leetcode.com/problems/set-matrix-zeroes/
+		531. Lonely Pixel I, M, https://leetcode.com/problems/lonely-pixel-i/
+
+	Hashmap
+		533. Lonely Pixel II, M, https://leetcode.com/problems/lonely-pixel-ii/
+
+	Treeset
+		363. Max Sum of Rectangle No Larger Than K, H, https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+
+	Others
+		311. Sparse Matrix Multiplication, M, https://leetcode.com/problems/sparse-matrix-multiplication/
+		36. Valid Sudoku, M, https://leetcode.com/problems/valid-sudoku/
+		37. Sudoku Solver, H, https://leetcode.com/problems/sudoku-solver/
+		289. Game of Life, M, https://leetcode.com/problems/game-of-life/
+		4. Median of Two Sorted Arrays, H, https://leetcode.com/problems/median-of-two-sorted-arrays/
+		327. Count of Range Sum, H, https://leetcode.com/problems/count-of-range-sum/
+		321. Create Maximum Number, H, https://leetcode.com/problems/create-maximum-number/
+		324. Wiggle Sort II, M, https://leetcode.com/problems/wiggle-sort-ii/
+		440. K-th Smallest in Lexicographical Order, H, https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/
+		480. Sliding Window Median, H, https://leetcode.com/problems/sliding-window-median/
+		562. Longest Line of Consecutive One in Matrix, M, https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/
+
+
+
+
+Chapter 5. Binary search
+	Basic
+		35. Search Insert Position, E, https://leetcode.com/problems/search-insert-position/
+		374. Guess Number Higher or Lower, E, https://leetcode.com/problems/guess-number-higher-or-lower/
+		278. First Bad Version, E, https://leetcode.com/problems/first-bad-version/
+		34. Find First and Last Position of Element in Sorted Array, M, https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+		167. Two Sum II - Input Array Is Sorted, M, https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+		162. Find Peak Element, M, https://leetcode.com/problems/find-peak-element/
+		349. Intersection of Two Arrays, E, https://leetcode.com/problems/intersection-of-two-arrays/
+		350. Intersection of Two Arrays II, E, https://leetcode.com/problems/intersection-of-two-arrays-ii/
+		275. H-Index II, M, https://leetcode.com/problems/h-index-ii/
+		540. Single Element in a Sorted Array, M, https://leetcode.com/problems/single-element-in-a-sorted-array/
+		528. Random Pick with Weight, M, https://leetcode.com/problems/random-pick-with-weight/
+
+	Rotate
+		33. Search in Rotated Sorted Array, M, https://leetcode.com/problems/search-in-rotated-sorted-array/
+		81. Search in Rotated Sorted Array II, M, https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+		153. Find Minimum in Rotated Sorted Array, M, https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+		154. Find Minimum in Rotated Sorted Array II, H, https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+
+	Sorting
+		354. Russian Doll Envelopes, H, https://leetcode.com/problems/russian-doll-envelopes/
+		315. Count of Smaller Numbers After Self, H, https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+
+	2D array
+		419. Battleships in a Board, M, https://leetcode.com/problems/battleships-in-a-board/
+		74. Search a 2D Matrix, M, https://leetcode.com/problems/search-a-2d-matrix/
+		240. Search a 2D Matrix II, M, https://leetcode.com/problems/search-a-2d-matrix-ii/
+		302. Smallest Rectangle Enclosing Black Pixels, H, https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+
+	Others
+		410. Split Array Largest Sum, H, https://leetcode.com/problems/split-array-largest-sum/
+		483. Smallest Good Base, H, https://leetcode.com/problems/smallest-good-base/
+		498. Diagonal Traverse, M, https://leetcode.com/problems/diagonal-traverse/
+
+
+
+
+Chapter 6. Linked list
+	Basic
+		24. Swap Nodes in Pairs, M, https://leetcode.com/problems/swap-nodes-in-pairs/
+		328. Odd Even Linked List, M, https://leetcode.com/problems/odd-even-linked-list/
+		61. Rotate List, M, https://leetcode.com/problems/rotate-list/
+		86. Partition List, M, https://leetcode.com/problems/partition-list/
+
+	Reverse
+		206. Reverse Linked List, E, https://leetcode.com/problems/reverse-linked-list/
+		92. Reverse Linked List II, M, https://leetcode.com/problems/reverse-linked-list-ii/
+		25. Reverse Nodes in k-Group, H, https://leetcode.com/problems/reverse-nodes-in-k-group/
+
+	Delete
+		237. Delete Node in a Linked List, E, https://leetcode.com/problems/delete-node-in-a-linked-list/
+		19. Remove Nth Node From End of List, M, https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+		83. Remove Duplicates from Sorted List, E, https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+		203. Remove Linked List Elements, E, https://leetcode.com/problems/remove-linked-list-elements/
+		82. Remove Duplicates from Sorted List II, M, https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+		
+	Cycle
+		141. Linked List Cycle, E, https://leetcode.com/problems/linked-list-cycle/
+		142. Linked List Cycle II, M, https://leetcode.com/problems/linked-list-cycle-ii/
+
+	Array
+		148. Sort List, M, https://leetcode.com/problems/sort-list/
+		369. Plus One Linked List, M, https://leetcode.com/problems/plus-one-linked-list/
+		2. Add Two Numbers, M, https://leetcode.com/problems/add-two-numbers/
+		160. Intersection of Two Linked Lists, E, https://leetcode.com/problems/intersection-of-two-linked-lists/
+		21. Merge Two Sorted Lists, E, https://leetcode.com/problems/merge-two-sorted-lists/
+		147. Insertion Sort List, M, https://leetcode.com/problems/insertion-sort-list/
+
+	Others
+		234. Palindrome Linked List, E, https://leetcode.com/problems/palindrome-linked-list/
+		143. Reorder List, M, https://leetcode.com/problems/reorder-list/
+		430. Flatten a Multilevel Doubly Linked List, M, https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+		445. Add Two Numbers II, M, https://leetcode.com/problems/add-two-numbers-ii/
+
+
+
+
+Chapter 7. Random
+	Basic
+		384. Shuffle an Array, M, https://leetcode.com/problems/shuffle-an-array/
+		398. Random Pick Index, M, https://leetcode.com/problems/random-pick-index/
+		382. Linked List Random Node, M, https://leetcode.com/problems/linked-list-random-node/
+		380. Insert Delete GetRandom O(1), M, https://leetcode.com/problems/insert-delete-getrandom-o1/
+		381. Insert Delete GetRandom O(1) - Duplicates allowed, H, https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
+		138. Copy List with Random Pointer, M, https://leetcode.com/problems/copy-list-with-random-pointer/
+
+	Others
+		497. Random Point in Non-overlapping Rectangles, M, https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/
+
+	Rejection sampling
+		470. Implement Rand10() Using Rand7(), M, https://leetcode.com/problems/implement-rand10-using-rand7/
+		478. Generate Random Point in a Circle, M, https://leetcode.com/problems/generate-random-point-in-a-circle/
+
+
+
+
+Chapter 8. Stack
+	Application
+		155. Min Stack, E, https://leetcode.com/problems/min-stack/
+		232. Implement Queue using Stacks, E, https://leetcode.com/problems/implement-queue-using-stacks/
+		225. Implement Stack using Queues, E, https://leetcode.com/problems/implement-stack-using-queues/
+
+	Parentheses
+		20. Valid Parentheses, E, https://leetcode.com/problems/valid-parentheses/
+
+	Expression calculation
+		150. Evaluate Reverse Polish Notation, M, https://leetcode.com/problems/evaluate-reverse-polish-notation/
+		224. Basic Calculator, H, https://leetcode.com/problems/basic-calculator/
+		227. Basic Calculator II, M, https://leetcode.com/problems/basic-calculator-ii/
+		439. Ternary Expression Parser, M, https://leetcode.com/problems/ternary-expression-parser/
+
+	Stack match
+		71. Simplify Path, M, https://leetcode.com/problems/simplify-path/
+		388. Longest Absolute File Path, M, https://leetcode.com/problems/longest-absolute-file-path/
+		394. Decode String, M, https://leetcode.com/problems/decode-string/
+		341. Flatten Nested List Iterator, M, https://leetcode.com/problems/flatten-nested-list-iterator/
+		385. Mini Parser, M, https://leetcode.com/problems/mini-parser/
+
+	Recursive stack
+		42. Trapping Rain Water, H, https://leetcode.com/problems/trapping-rain-water/
+		496. Next Greater Element I, E, https://leetcode.com/problems/next-greater-element-i/
+		503. Next Greater Element II, M, https://leetcode.com/problems/next-greater-element-ii/
+		456. 132 Pattern, M, https://leetcode.com/problems/132-pattern/
+		84. Largest Rectangle in Histogram, H, https://leetcode.com/problems/largest-rectangle-in-histogram/
+		85. Maximal Rectangle, H, https://leetcode.com/problems/maximal-rectangle/
+		316. Remove Duplicate Letters, M, https://leetcode.com/problems/remove-duplicate-letters/
+		402. Remove K Digits, M, https://leetcode.com/problems/remove-k-digits/
+		536. Construct Binary Tree from String, M, https://leetcode.com/problems/construct-binary-tree-from-string/
+
+	Others
+		591. Tag Validator, H, https://leetcode.com/problems/tag-validator/
+
+
+
+
+Chapter 9. String, basic & practice
+	Basic
+		521. Longest Uncommon Subsequence I, E, https://leetcode.com/problems/longest-uncommon-subsequence-i/
+		165. Compare Version Numbers, M, https://leetcode.com/problems/compare-version-numbers/
+		28. Implement strStr(), E, https://leetcode.com/problems/implement-strstr/
+		14. Longest Common Prefix, E, https://leetcode.com/problems/longest-common-prefix/
+		58. Length of Last Word, E, https://leetcode.com/problems/length-of-last-word/
+		168. Excel Sheet Column Title, E, https://leetcode.com/problems/excel-sheet-column-title/
+		171. Excel Sheet Column Number, E, https://leetcode.com/problems/excel-sheet-column-number/
+		161. One Edit Distance, M, https://leetcode.com/problems/one-edit-distance/
+		433. Minimum Genetic Mutation, M, https://leetcode.com/problems/minimum-genetic-mutation/
+		482. License Key Formatting, E, https://leetcode.com/problems/license-key-formatting/
+		344. Reverse String, E, https://leetcode.com/problems/reverse-string/
+		186. Reverse Words in a String II, M, https://leetcode.com/problems/reverse-words-in-a-string-ii/
+		151. Reverse Words in a String, M, https://leetcode.com/problems/reverse-words-in-a-string/
+		345. Reverse Vowels of a String, E, https://leetcode.com/problems/reverse-vowels-of-a-string/
+		541. Reverse String II, E, https://leetcode.com/problems/reverse-string-ii/
+		557. Reverse Words in a String III, E, https://leetcode.com/problems/reverse-words-in-a-string-iii/
+		556. Next Greater Element III, M, https://leetcode.com/problems/next-greater-element-iii/
+
+	Practice	
+		459. Repeated Substring Pattern, E, https://leetcode.com/problems/repeated-substring-pattern/
+		520. Detect Capital, E, https://leetcode.com/problems/detect-capital/
+		38. Count and Say, M, https://leetcode.com/problems/count-and-say/
+		522. Longest Uncommon Subsequence II, M, https://leetcode.com/problems/longest-uncommon-subsequence-ii/
+		553. Optimal Division, M, https://leetcode.com/problems/optimal-division/
+		544. Output Contest Matches, M, https://leetcode.com/problems/output-contest-matches/
+		551. Student Attendance Record I, E, https://leetcode.com/problems/student-attendance-record-i/
+		243. Shortest Word Distance, E, https://leetcode.com/problems/shortest-word-distance/
+		245. Shortest Word Distance III, M, https://leetcode.com/problems/shortest-word-distance-iii/
+		271. Encode and Decode Strings, M, https://leetcode.com/problems/encode-and-decode-strings/
+		408. Valid Word Abbreviation, E, https://leetcode.com/problems/valid-word-abbreviation/
+		418. Sentence Screen Fitting, M, https://leetcode.com/problems/sentence-screen-fitting/
+		422. Valid Word Square, E, https://leetcode.com/problems/valid-word-square/
+		443. String Compression, M, https://leetcode.com/problems/string-compression/
+		13. Roman to Integer, E, https://leetcode.com/problems/roman-to-integer/
+		12. Integer to Roman, M, https://leetcode.com/problems/integer-to-roman/
+		273. Integer to English Words, H, https://leetcode.com/problems/integer-to-english-words/
+		555. Split Concatenated Strings, M, https://leetcode.com/problems/split-concatenated-strings/
+		246. Strobogrammatic Number, E, https://leetcode.com/problems/strobogrammatic-number/
+		247. Strobogrammatic Number II, M, https://leetcode.com/problems/strobogrammatic-number-ii/
+		248. Strobogrammatic Number III, H, https://leetcode.com/problems/strobogrammatic-number-iii/
+		157. Read N Characters Given Read4, E, https://leetcode.com/problems/read-n-characters-given-read4/
+		158. Read N Characters Given read4 II - Call Multiple Times, H, https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
+		293. Flip Game, E, https://leetcode.com/problems/flip-game/
+		294. Flip Game II, M, https://leetcode.com/problems/flip-game-ii/
+		68. Text Justification, H, https://leetcode.com/problems/text-justification/
+		179. Largest Number, M, https://leetcode.com/problems/largest-number/
+		6. Zigzag Conversion, M, https://leetcode.com/problems/zigzag-conversion/
+		420. Strong Password Checker, H, https://leetcode.com/problems/strong-password-checker/
+		468. Validate IP Address, M, https://leetcode.com/problems/validate-ip-address/
+
+
+
+
+Chapter 10. String, HashMap & Sliding Window
+	HashMap
+		506. Relative Ranks, E, https://leetcode.com/problems/relative-ranks/
+		3. Longest Substring Without Repeating Characters, M, https://leetcode.com/problems/longest-substring-without-repeating-characters/
+		290. Word Pattern, E, https://leetcode.com/problems/word-pattern/
+		500. Keyboard Row, E, https://leetcode.com/problems/keyboard-row/
+		249. Group Shifted Strings, M, https://leetcode.com/problems/group-shifted-strings/
+		535. Encode and Decode TinyURL, M, https://leetcode.com/problems/encode-and-decode-tinyurl/
+
+	Sliding Window
+		228. Summary Ranges, E, https://leetcode.com/problems/summary-ranges/
+		163. Missing Ranges, E, https://leetcode.com/problems/missing-ranges/
+		475. Heaters, M, https://leetcode.com/problems/heaters/
+		481. Magical String, M, https://leetcode.com/problems/magical-string/
+		565. Array Nesting, M, https://leetcode.com/problems/array-nesting/
+		424. Longest Repeating Character Replacement, M, https://leetcode.com/problems/longest-repeating-character-replacement/
+		239. Sliding Window Maximum, H, https://leetcode.com/problems/sliding-window-maximum/
+		
+
+	Substring & Sliding Window
+		76. Minimum Window Substring, H, https://leetcode.com/problems/minimum-window-substring/
+		30. Substring with Concatenation of All Words, H, https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+		340. Longest Substring with At Most K Distinct Characters, M, https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+		395. Longest Substring with At Least K Repeating Characters, M, https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+		159. Longest Substring with At Most Two Distinct Characters, M, https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+
+
+
+
+Chapter 11. String, Anagram Parentheses Palindrome Subsequence
+	Anagram
+		242. Valid Anagram, E, https://leetcode.com/problems/valid-anagram/
+		49. Group Anagrams, M, https://leetcode.com/problems/group-anagrams/
+		438. Find All Anagrams in a String, M, https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+	Parentheses
+		32. Longest Valid Parentheses, H, https://leetcode.com/problems/longest-valid-parentheses/
+		22. Generate Parentheses, M, https://leetcode.com/problems/generate-parentheses/
+		241. Different Ways to Add Parentheses, M, https://leetcode.com/problems/different-ways-to-add-parentheses/
+		301. Remove Invalid Parentheses, H, https://leetcode.com/problems/remove-invalid-parentheses/
+
+	Palindrome
+		9. Palindrome Number, E, https://leetcode.com/problems/palindrome-number/
+		125. Valid Palindrome, E, https://leetcode.com/problems/valid-palindrome/
+		409. Longest Palindrome, E, https://leetcode.com/problems/longest-palindrome/
+		266. Palindrome Permutation, E, https://leetcode.com/problems/palindrome-permutation/
+		214. Shortest Palindrome, H, https://leetcode.com/problems/shortest-palindrome/
+		5. Longest Palindromic Substring, M, https://leetcode.com/problems/longest-palindromic-substring/
+		336. Palindrome Pairs, H, https://leetcode.com/problems/palindrome-pairs/
+		131. Palindrome Partitioning, M, https://leetcode.com/problems/palindrome-partitioning/
+		132. Palindrome Partitioning II, H, https://leetcode.com/problems/palindrome-partitioning-ii/
+		267. Palindrome Permutation II, M, https://leetcode.com/problems/palindrome-permutation-ii/
+		479. Largest Palindrome Product, H, https://leetcode.com/problems/largest-palindrome-product/
+		564. Find the Closest Palindrome, H, https://leetcode.com/problems/find-the-closest-palindrome/
+
+	Subsequence
+		392. Is Subsequence, E, https://leetcode.com/problems/is-subsequence/
+		524. Longest Word in Dictionary through Deleting, M, https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
+		594. Longest Harmonious Subsequence, E, https://leetcode.com/problems/longest-harmonious-subsequence/
+		115. Distinct Subsequences, H, https://leetcode.com/problems/distinct-subsequences/
+		187. Repeated DNA Sequences, M, https://leetcode.com/problems/repeated-dna-sequences/
+
+
+
+
+Chapter 12. Graph
+	Point line
+		149. Max Points on a Line, H, https://leetcode.com/problems/max-points-on-a-line/
+
+	Line
+		356. Line Reflection, M, https://leetcode.com/problems/line-reflection/
+
+	Math
+		365. Water and Jug Problem, M, https://leetcode.com/problems/water-and-jug-problem/
+
+	Direction
+		469. Convex Polygon, M, https://leetcode.com/problems/convex-polygon/
+
+	Misc
+		223. Rectangle Area, M, https://leetcode.com/problems/rectangle-area/
+		335. Self Crossing, H, https://leetcode.com/problems/self-crossing/
+		391. Perfect Rectangle, H, https://leetcode.com/problems/perfect-rectangle/
+		587. Erect the Fence, H, https://leetcode.com/problems/erect-the-fence/
+		593. Valid Square, M, https://leetcode.com/problems/valid-square/
+
+
+
+
+Chapter 13. Heap
+	Basic
+		502. IPO, H, https://leetcode.com/problems/ipo/
+		23. Merge k Sorted Lists, H, https://leetcode.com/problems/merge-k-sorted-lists/
+		295. Find Median from Data Stream, H, https://leetcode.com/problems/find-median-from-data-stream/
+		358. Rearrange String k Distance Apart, H, https://leetcode.com/problems/rearrange-string-k-distance-apart/
+		373. Find K Pairs with Smallest Sums, M, https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+		313. Super Ugly Number, M, https://leetcode.com/problems/super-ugly-number/
+		378. Kth Smallest Element in a Sorted Matrix, M, https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+
+	Difficult
+		218. The Skyline Problem, H, https://leetcode.com/problems/the-skyline-problem/
+
+
+
+
+Chapter 14. Backtracking
+	Sorting
+		46. Permutations, M, https://leetcode.com/problems/permutations/
+		47. Permutations II, M, https://leetcode.com/problems/permutations-ii/
+
+	Sorting & cycle
+		31. Next Permutation, M, https://leetcode.com/problems/next-permutation/
+		60. Permutation Sequence, H, https://leetcode.com/problems/permutation-sequence/
+
+	Subset
+		78. Subsets, M, https://leetcode.com/problems/subsets/
+		90. Subsets II, M, https://leetcode.com/problems/subsets-ii/
+
+	Combination
+		77. Combinations, M, https://leetcode.com/problems/combinations/
+		39. Combination Sum, M, https://leetcode.com/problems/combination-sum/
+		40. Combination Sum II, M, https://leetcode.com/problems/combination-sum-ii/
+		216. Combination Sum III, M, https://leetcode.com/problems/combination-sum-iii/
+		254. Factor Combinations, M, https://leetcode.com/problems/factor-combinations/
+
+	Practice
+		526. Beautiful Arrangement, M, https://leetcode.com/problems/beautiful-arrangement/
+		582. Kill Process, M, https://leetcode.com/problems/kill-process/
+		491. Increasing Subsequences, M, https://leetcode.com/problems/increasing-subsequences/
+		17. Letter Combinations of a Phone Number, M, https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+		320. Generalized Abbreviation, M, https://leetcode.com/problems/generalized-abbreviation/
+		282. Expression Add Operators, H, https://leetcode.com/problems/expression-add-operators/
+		140. Word Break II, H, https://leetcode.com/problems/word-break-ii/
+		401. Binary Watch, E, https://leetcode.com/problems/binary-watch/
+		465. Optimal Account Balancing, H, https://leetcode.com/problems/optimal-account-balancing/
+		473. Matchsticks to Square, M, https://leetcode.com/problems/matchsticks-to-square/
+		51. N-Queens, H, https://leetcode.com/problems/n-queens/
+		52. N-Queens II, H, https://leetcode.com/problems/n-queens-ii/
+		488. Zuma Game, H, https://leetcode.com/problems/zuma-game/
+		351. Android Unlock Patterns, M, https://leetcode.com/problems/android-unlock-patterns/
+		93. Restore IP Addresses, M, https://leetcode.com/problems/restore-ip-addresses/
+		291. Word Pattern II, M, https://leetcode.com/problems/word-pattern-ii/
+
+
+
+		
+Chapter 15. Graph
+	Basic
+		133. Clone Graph, M, https://leetcode.com/problems/clone-graph/
+
+	Transform
+		399. Evaluate Division, M, https://leetcode.com/problems/evaluate-division/
+		332. Reconstruct Itinerary, H, https://leetcode.com/problems/reconstruct-itinerary/
+		433. Minimum Genetic Mutation, M, https://leetcode.com/problems/minimum-genetic-mutation/
+		
+	BFS
+		310. Minimum Height Trees, M, https://leetcode.com/problems/minimum-height-trees/
+		127. Word Ladder, H, https://leetcode.com/problems/word-ladder/
+
+	Topology sorting
+		126. Word Ladder II, H, https://leetcode.com/problems/word-ladder-ii/
+		207. Course Schedule, M, https://leetcode.com/problems/course-schedule/
+		210. Course Schedule II, M, https://leetcode.com/problems/course-schedule-ii/
+		269. Alien Dictionary, H, https://leetcode.com/problems/alien-dictionary/
+		444. Sequence Reconstruction, M, https://leetcode.com/problems/sequence-reconstruction/
+
+	DFS/BFS
+		339. Nested List Weight Sum, M, https://leetcode.com/problems/nested-list-weight-sum/
+		364. Nested List Weight Sum II, M, https://leetcode.com/problems/nested-list-weight-sum-ii/
+
+	Set lookup
+		261. Graph Valid Tree, M, https://leetcode.com/problems/graph-valid-tree/
+		323. Number of Connected Components in an Undirected Graph, M, https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+		305. Number of Islands II, H, https://leetcode.com/problems/number-of-islands-ii/
+		547. Number of Provinces, M, https://leetcode.com/problems/number-of-provinces/
+
+	Flood fill
+		200. Number of Islands, M, https://leetcode.com/problems/number-of-islands/
+		130. Surrounded Regions, M, https://leetcode.com/problems/surrounded-regions/
+		490. The Maze, M, https://leetcode.com/problems/the-maze/
+		505. The Maze II, M, https://leetcode.com/problems/the-maze-ii/
+		499. The Maze III, H, https://leetcode.com/problems/the-maze-iii/
+		286. Walls and Gates, M, https://leetcode.com/problems/walls-and-gates/
+		317. Shortest Distance from All Buildings, H , https://leetcode.com/problems/shortest-distance-from-all-buildings/
+		329. Longest Increasing Path in a Matrix, H, https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+		79. Word Search, M, https://leetcode.com/problems/word-search/
+		407. Trapping Rain Water II, H, https://leetcode.com/problems/trapping-rain-water-ii/
+		417. Pacific Atlantic Water Flow, M, https://leetcode.com/problems/pacific-atlantic-water-flow/
+		489. Robot Room Cleaner, H, https://leetcode.com/problems/robot-room-cleaner/
+		529. Minesweeper, M, https://leetcode.com/problems/minesweeper/
+		542. 01 Matrix, M, https://leetcode.com/problems/01-matrix/
+		576. Out of Boundary Paths, M, https://leetcode.com/problems/out-of-boundary-paths/
+
+
+
+
+Chapter 16. Tree
+	Basic
+		144. Binary Tree Preorder Traversal. E, https://leetcode.com/problems/binary-tree-preorder-traversal/
+		94. Binary Tree Inorder Traversal, E, https://leetcode.com/problems/binary-tree-inorder-traversal/
+		145. Binary Tree Postorder Traversal, E, https://leetcode.com/problems/binary-tree-postorder-traversal/
+		102. Binary Tree Level Order Traversal, M, https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+	Preorder
+		257. Binary Tree Paths, E, https://leetcode.com/problems/binary-tree-paths/
+		113. Path Sum II, M, https://leetcode.com/problems/path-sum-ii/
+		298. Binary Tree Longest Consecutive Sequence, M, https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
+		513. Find Bottom Left Tree Value, M, https://leetcode.com/problems/find-bottom-left-tree-value/
+		559. Maximum Depth of N-ary Tree, E, https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+		589. N-ary Tree Preorder Traversal, E, https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+
+	Dual Pre
+		100. Same Tree, E, https://leetcode.com/problems/same-tree/
+		101. Symmetric Tree, E, https://leetcode.com/problems/symmetric-tree/
+		112. Path Sum, E, https://leetcode.com/problems/path-sum/
+		437. Path Sum III, M, https://leetcode.com/problems/path-sum-iii/
+		129. Sum Root to Leaf Numbers, M, https://leetcode.com/problems/sum-root-to-leaf-numbers/
+		111. Minimum Depth of Binary Tree, E, https://leetcode.com/problems/minimum-depth-of-binary-tree/
+		98. Validate Binary Search Tree, M, https://leetcode.com/problems/validate-binary-search-tree/
+		572. Subtree of Another Tree, E, https://leetcode.com/problems/subtree-of-another-tree/
+
+	BFS
+		107. Binary Tree Level Order Traversal II, M, https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+		103. Binary Tree Zigzag Level Order Traversal, M, https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+		199. Binary Tree Right Side View, M, https://leetcode.com/problems/binary-tree-right-side-view/
+		226. Invert Binary Tree, E, https://leetcode.com/problems/invert-binary-tree/
+		404. Sum of Left Leaves,E, https://leetcode.com/problems/sum-of-left-leaves/
+		429. N-ary Tree Level Order Traversal, M, https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+		428. Serialize and Deserialize N-ary Tree, H, https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+		431. Encode N-ary Tree to Binary Tree, H, https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/
+		515. Find Largest Value in Each Tree Row, M, https://leetcode.com/problems/find-largest-value-in-each-tree-row/
+
+	Postorder
+		104. Maximum Depth of Binary Tree, E, https://leetcode.com/problems/maximum-depth-of-binary-tree/
+		110. Balanced Binary Tree, E, https://leetcode.com/problems/balanced-binary-tree/
+		563. Binary Tree Tilt, E, https://leetcode.com/problems/binary-tree-tilt/
+		124. Binary Tree Maximum Path Sum, H, https://leetcode.com/problems/binary-tree-maximum-path-sum/
+		543. Diameter of Binary Tree, E, https://leetcode.com/problems/diameter-of-binary-tree/
+		250. Count Univalue Subtrees, M, https://leetcode.com/problems/count-univalue-subtrees/
+		366. Find Leaves of Binary Tree, M, https://leetcode.com/problems/find-leaves-of-binary-tree/
+		337. House Robber III, M, https://leetcode.com/problems/house-robber-iii/
+		236. Lowest Common Ancestor of a Binary Tree, M, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+		508. Most Frequent Subtree Sum, M, https://leetcode.com/problems/most-frequent-subtree-sum/
+		549. Binary Tree Longest Consecutive Sequence II, M, https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/
+		590. N-ary Tree Postorder Traversal, E, https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+
+	BST
+		450. Delete Node in a BST, M, https://leetcode.com/problems/delete-node-in-a-bst/
+		235. Lowest Common Ancestor of a Binary Search Tree, E, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+		270. Closest Binary Search Tree Value, E, https://leetcode.com/problems/closest-binary-search-tree-value/
+		530. Minimum Absolute Difference in BST, E, https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+
+	BST & Inorder
+		173. Binary Search Tree Iterator, M, https://leetcode.com/problems/binary-search-tree-iterator/
+		538. Convert BST to Greater Tree, M, https://leetcode.com/problems/convert-bst-to-greater-tree/
+		230. Kth Smallest Element in a BST, M, https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+		285. Inorder Successor in BST, M, https://leetcode.com/problems/inorder-successor-in-bst/
+		510. Inorder Successor in BST II, M, https://leetcode.com/problems/inorder-successor-in-bst-ii/
+		272. Closest Binary Search Tree Value II, H, https://leetcode.com/problems/closest-binary-search-tree-value-ii/
+		99. Recover Binary Search Tree, M, https://leetcode.com/problems/recover-binary-search-tree/
+		501. Find Mode in Binary Search Tree, E, https://leetcode.com/problems/find-mode-in-binary-search-tree/
+		426. Convert Binary Search Tree to Sorted Doubly Linked List, M, https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
+		297. Serialize and Deserialize Binary Tree, H, https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+		108. Convert Sorted Array to Binary Search Tree, E, https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+		109. Convert Sorted List to Binary Search Tree, M, https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+		449. Serialize and Deserialize BST, M, https://leetcode.com/problems/serialize-and-deserialize-bst/
+		333. Largest BST Subtree, M, https://leetcode.com/problems/largest-bst-subtree/
+
+	Others	
+		116. Populating Next Right Pointers in Each Node, M, https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+		117. Populating Next Right Pointers in Each Node II, M, https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+		314. Binary Tree Vertical Order Traversal, M, https://leetcode.com/problems/binary-tree-vertical-order-traversal/
+		156. Binary Tree Upside Down, M, https://leetcode.com/problems/binary-tree-upside-down/
+		114. Flatten Binary Tree to Linked List, M, https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+		255. Verify Preorder Sequence in Binary Search Tree, M, https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/
+		222. Count Complete Tree Nodes, M, https://leetcode.com/problems/count-complete-tree-nodes/
+		105. Construct Binary Tree from Preorder and Inorder Traversal, M, https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+		106. Construct Binary Tree from Inorder and Postorder Traversal, M, https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+		331. Verify Preorder Serialization of a Binary Tree, M, https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
+		427. Construct Quad Tree, M, https://leetcode.com/problems/construct-quad-tree/
+		558. Logical OR of Two Binary Grids Represented as Quad-Trees, M, https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/
+		545. Boundary of Binary Tree, M, https://leetcode.com/problems/boundary-of-binary-tree/
+
+
+
+
+Chapter 17. Tree structure
+	Trie/dictionary
+		304. Range Sum Query 2D - Immutable, M, https://leetcode.com/problems/range-sum-query-2d-immutable/
+		307. Range Sum Query - Mutable, M, https://leetcode.com/problems/range-sum-query-mutable/
+		211. Design Add and Search Words Data Structure, M, https://leetcode.com/problems/design-add-and-search-words-data-structure/
+		208. Implement Trie (Prefix Tree), M, https://leetcode.com/problems/implement-trie-prefix-tree/
+
+
+		425. Word Squares, H, https://leetcode.com/problems/word-squares/
+		
+
+
+
+
+
+
+
+

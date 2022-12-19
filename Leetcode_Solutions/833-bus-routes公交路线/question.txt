@@ -1,0 +1,48 @@
+bus-routes
+我们有一系列公交路线。每一条路线 <code>routes[i]</code>上都有一辆公交车在上面循环行驶。例如，有一条路线<code>routes[0] = [1, 5, 7]</code>，表示第一辆 (下标为0) 公交车会一直按照1-&gt;5-&gt;7-&gt;1-&gt;5-&gt;7-&gt;1-&gt;...的车站路线行驶。
+
+假设我们从<code>S</code>车站开始（初始时不在公交车上），要去往<code>T</code>站。 期间仅可乘坐公交车，求出最少乘坐的公交车数量。返回 -1 表示不可能到达终点车站。
+
+<pre>
+<strong>示例:</strong>
+<strong>输入:</strong> 
+routes = [[1, 2, 7], [3, 6, 7]]
+S = 1
+T = 6
+<strong>输出:</strong> 2
+<strong>解释:</strong> 
+最优策略是先乘坐第一辆公交车到达车站 7, 然后换乘第二辆公交车到车站 6。
+</pre>
+
+<strong>说明: </strong>
+
+<ul>
+	<code>1 &lt;= routes.length &lt;= 500</code>.
+	<code>1 &lt;= routes[i].length &lt;= 500</code>.
+	<code>0 &lt;= routes[i][j] &lt; 10 ^ 6</code>.
+</ul>
+
+公交路线
+We have a list of bus routes. Each <code>routes[i]</code> is a bus route that the i-th busrepeats forever. For example if <code>routes[0] = [1, 5, 7]</code>, this means that the firstbus (0-th indexed) travels in the sequence 1-&gt;5-&gt;7-&gt;1-&gt;5-&gt;7-&gt;1-&gt;... forever.
+
+We start at bus stop <code>S</code> (initially not on a bus), and we want to go to bus stop <code>T</code>. Travelling by buses only, what is the least number of buses we must take to reach our destination? Return -1 if it is not possible.
+
+<pre>
+<strong>Example:</strong>
+<strong>Input:</strong> 
+routes = [[1, 2, 7], [3, 6, 7]]
+S = 1
+T = 6
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> 
+The best strategy is take the first bus to the bus stop 7, then take the second bus to the bus stop 6.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= routes.length &lt;= 500</code>.
+	<code>1 &lt;= routes[i].length &lt;= 10^5</code>.
+	<code>0 &lt;= routes[i][j] &lt; 10 ^ 6</code>.
+</ul>

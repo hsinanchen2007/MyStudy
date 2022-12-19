@@ -1,0 +1,26 @@
+swap-numbers-lcci
+编写一个函数，不用临时变量，直接交换<code>numbers = [a, b]</code>中<code>a</code>与<code>b</code>的值。
+<strong>示例：</strong>
+<pre><strong>输入:</strong> numbers = [1,2]
+<strong>输出:</strong> [2,1]
+</pre>
+<strong>提示：</strong>
+<ul>
+<code>numbers.length == 2</code>
+</ul>
+
+交换数字
+Write a function to swap a number in place (that is, without temporary vari&shy; ables).
+
+<strong>Example: </strong>
+
+<pre>
+<strong>Input:</strong> numbers = [1,2]
+<strong>Output:</strong> [2,1]
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>numbers.length == 2</code>
+</ul>

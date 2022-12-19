@@ -1,0 +1,36 @@
+power-of-four
+给定一个整数 (32 位有符号整数)，请编写一个函数来判断它是否是 4的幂次方。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>16
+<strong>输出: </strong>true
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>5
+<strong>输出: </strong>false</pre>
+
+<strong>进阶：</strong><br>
+你能不使用循环或者递归来完成本题吗？
+
+4的幂
+Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">16</span>
+<strong>Output: </strong><span id="example-output-1">true</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">5</span>
+<strong>Output: </strong><span id="example-output-2">false</span></pre>
+</div>
+
+<b>Follow up</b>: Could you solve it without loops/recursion?

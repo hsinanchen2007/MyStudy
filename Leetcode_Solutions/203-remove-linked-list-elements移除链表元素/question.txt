@@ -1,0 +1,18 @@
+remove-linked-list-elements
+删除链表中等于给定值<strong><em>val</em></strong>的所有节点。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> 1-&gt;2-&gt;6-&gt;3-&gt;4-&gt;5-&gt;6, <em><strong>val</strong></em> = 6
+<strong>输出:</strong> 1-&gt;2-&gt;3-&gt;4-&gt;5
+</pre>
+
+移除链表元素
+Remove all elements from a linked list of integers that have value <b><i>val</i></b>.
+
+<b>Example:</b>
+
+<pre>
+<b>Input:</b>  1-&gt;2-&gt;6-&gt;3-&gt;4-&gt;5-&gt;6, <em><b>val</b></em> = 6
+<b>Output:</b> 1-&gt;2-&gt;3-&gt;4-&gt;5
+</pre>

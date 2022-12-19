@@ -1,0 +1,76 @@
+count-different-palindromic-subsequences
+给定一个字符串 S，找出 S 中不同的非空回文子序列个数，并<strong>返回该数字与 <code>10^9 + 7 </code>的模。</strong>
+
+通过从 S 中删除 0 个或多个字符来获得子字符序列。
+
+如果一个字符序列与它反转后的字符序列一致，那么它是回文字符序列。
+
+如果对于某个<code>i</code>，<code>A_i != B_i</code>，那么<code>A_1, A_2, ...</code> 和<code>B_1, B_2, ...</code> 这两个字符序列是不同的。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>
+S = &#39;bccb&#39;
+<strong>输出：</strong>6
+<strong>解释：</strong>
+6 个不同的非空回文子字符序列分别为：&#39;b&#39;, &#39;c&#39;, &#39;bb&#39;, &#39;cc&#39;, &#39;bcb&#39;, &#39;bccb&#39;。
+注意：&#39;bcb&#39; 虽然出现两次但仅计数一次。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>
+S = &#39;abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba&#39;
+<strong>输出：</strong>104860361
+<strong>解释：</strong>
+共有 3104860382 个不同的非空回文子字符序列，对 10^9 + 7 取模为 104860361。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	字符串<code>S</code>的长度将在<code>[1, 1000]</code>范围内。
+	每个字符<code>S[i]</code>将会是集合<code>{&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;}</code>中的某一个。
+</ul>
+
+
+
+统计不同回文子字符串
+
+Given a string S, find the number of different non-empty palindromic subsequences in S, and <b>return that number modulo <code>10^9 + 7</code>.</b>
+
+A subsequence of a string S is obtained by deleting 0 or more characters from S.
+
+A sequence is palindromic if it is equal to the sequence reversed.
+
+Two sequences <code>A_1, A_2, ...</code> and <code>B_1, B_2, ...</code> are different if there is some <code>i</code> for which <code>A_i != B_i</code>.
+
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> 
+S = 'bccb'
+<b>Output:</b> 6
+<b>Explanation:</b> 
+The 6 different non-empty palindromic subsequences are 'b', 'c', 'bb', 'cc', 'bcb', 'bccb'.
+Note that 'bcb' is counted only once, even though it occurs twice.
+</pre>
+
+
+<b>Example 2:</b><br />
+<pre>
+<b>Input:</b> 
+S = 'abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba'
+<b>Output:</b> 104860361
+<b>Explanation:</b> 
+There are 3104860382 different non-empty palindromic subsequences, which is 104860361 modulo 10^9 + 7.
+</pre>
+
+
+<b>Note:</b>
+The length of <code>S</code> will be in the range <code>[1, 1000]</code>.
+Each character <code>S[i]</code> will be in the set <code>{'a', 'b', 'c', 'd'}</code>.

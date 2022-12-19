@@ -1,0 +1,45 @@
+check-permutation-lcci
+给定两个字符串 <code>s1</code> 和 <code>s2</code>，请编写一个程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入:</strong> <code>s1</code> = &quot;abc&quot;, <code>s2</code> = &quot;bca&quot;
+<strong>输出:</strong> true 
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入:</strong> <code>s1</code> = &quot;abc&quot;, <code>s2</code> = &quot;bad&quot;
+<strong>输出:</strong> false
+</pre>
+
+<strong>说明：</strong>
+
+<ul>
+	<code>0 &lt;= len(s1) &lt;= 100 </code>
+	<code>0 &lt;= len(s2) &lt;= 100 </code>
+</ul>
+
+判定是否互为字符重排
+Given two strings,write a method to decide if one is a permutation of the other.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><code>s1</code> = &quot;abc&quot;, <code>s2</code> = &quot;bca&quot;
+<strong>Output: </strong>true
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><code>s1</code> = &quot;abc&quot;, <code>s2</code> = &quot;bad&quot;
+<strong>Output: </strong>false
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= len(s1) &lt;= 100 </code>
+	<code>0 &lt;= len(s2) &lt;= 100</code>
+</ol>

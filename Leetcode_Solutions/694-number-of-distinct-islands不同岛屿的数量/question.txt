@@ -1,0 +1,82 @@
+number-of-distinct-islands
+给定一个非空01二维数组表示的网格，一个岛屿由四连通（上、下、左、右四个方向）的 <code>1</code> 组成，你可以认为网格的四周被海水包围。
+
+请你计算这个网格中共有多少个形状不同的岛屿。两个岛屿被认为是相同的，当且仅当一个岛屿可以通过平移变换（不可以旋转、翻转）和另一个岛屿重合。
+
+
+
+<strong>样例 1:</strong>
+
+<pre>11000
+11000
+00011
+00011
+</pre>
+
+给定上图，返回结果 <code>1</code>。
+
+
+
+<strong>样例 2:</strong>
+
+<pre>11011
+10000
+00001
+11011</pre>
+
+给定上图，返回结果 &lt;font color="#c7254e" face="Menlo, Monaco, Consolas, Courier New, monospace"&gt;<span style="">3</span>&lt;/font&gt;。<br>
+<br>
+注意:
+
+<pre>11
+1
+</pre>
+
+和
+
+<pre> 1
+11
+</pre>
+
+是不同的岛屿，因为我们不考虑旋转、翻转操作。
+
+
+
+<strong>注释 :</strong> 二维数组每维的大小都不会超过50。
+
+不同岛屿的数量
+Given a non-empty 2D array <code>grid</code> of 0's and 1's, an <b>island</b> is a group of <code>1</code>'s (representing land) connected 4-directionally (horizontal or vertical.)  You may assume all four edges of the grid are surrounded by water.
+
+Count the number of <b>distinct</b> islands.  An island is considered to be the same as another if and only if one island can be translated (and not rotated or reflected) to equal the other.
+
+<b>Example 1:</b><br />
+<pre>
+11000
+11000
+00011
+00011
+</pre>
+Given the above grid map, return <code>1</code>.
+
+
+<b>Example 2:</b><br />
+<pre>11011
+10000
+00001
+11011</pre>
+Given the above grid map, return <code>3</code>.<br /><br />
+Notice that:
+<pre>
+11
+1
+</pre>
+and
+<pre>
+ 1
+11
+</pre>
+are considered different island shapes, because we do not consider reflection / rotation.
+
+
+<b>Note:</b>
+The length of each dimension in the given <code>grid</code> does not exceed 50.

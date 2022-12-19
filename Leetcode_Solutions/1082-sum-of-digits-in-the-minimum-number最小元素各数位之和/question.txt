@@ -1,0 +1,67 @@
+sum-of-digits-in-the-minimum-number
+给你一个正整数的数组<code>A</code>。
+
+然后计算<code>S</code>，使其等于数组<code>A</code>当中最小的那个元素各个数位上数字之和。
+
+最后，假如<code>S</code>所得计算结果是<strong>奇数</strong>的请你返回 0，否则请返回 1。
+
+
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入：</strong>[34,23,1,24,75,33,54,8]
+<strong>输出：</strong>0
+<strong>解释：</strong>
+最小元素为 1，该元素各个数位上的数字之和 S = 1，是奇数所以答案为 0。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[99,77,33,66,55]
+<strong>输出：</strong>1
+<strong>解释：</strong>
+最小元素为 33，该元素各个数位上的数字之和 S = 3 + 3 = 6，是偶数所以答案为 1。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 100</code>
+	<code>1 &lt;= A[i].length &lt;= 100</code>
+</ol>
+
+最小元素各数位之和
+Given an array <code>A</code> of positive integers, let <code>S</code> be the sum of the digits of the minimal element of <code>A</code>.
+
+Return 0 if <code>S</code> is odd, otherwise return 1.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[34,23,1,24,75,33,54,8]</span>
+<strong>Output: </strong><span id="example-output-1">0</span>
+<strong>Explanation: </strong>
+The minimal element is 1, and the sum of those digits is S = 1 which is odd, so the answer is 0.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[99,77,33,66,55]</span>
+<strong>Output: </strong><span id="example-output-2">1</span>
+<strong>Explanation: </strong>
+The minimal element is 33, and the sum of those digits is S = 3 + 3 = 6 which is even, so the answer is 1.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 100</code>
+	<code>1 &lt;= A[i].length &lt;= 100</code>
+</ol>

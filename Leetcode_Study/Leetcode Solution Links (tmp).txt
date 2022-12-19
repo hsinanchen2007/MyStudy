@@ -1,0 +1,270 @@
+Leetcode solutions
+
+C++:
+    AcWing LC solutions
+    https://www.acwing.com/solution/
+
+
+    Kamyu104 (C++ and Python)
+    https://github.com/kamyu104/LeetCode-Solutions/blob/master/0001-1000.md
+    https://github.com/kamyu104/LeetCode-Solutions
+
+
+    代码随想录 (with book)
+    https://programmercarl.com/
+    https://github.com/youngyangyang04/leetcode-master
+
+
+    walkccc (over ~2000 LC)
+    https://walkccc.me/LeetCode/problems/0001/
+    https://github.com/walkccc/LeetCode/tree/main/solutions
+
+
+    力扣加加/算法通关之路 (with book)
+    https://github.com/azl397985856/leetcode
+    https://github.com/azl397985856/algorithm-base
+    https://lucifer.ren/blog/
+    https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/thinkings
+
+
+    数据结构与算法/leetcode/lintcode题解 (good category)
+    https://algorithm.yuanbin.me/zh-hans/
+
+
+    LeetCode 101：和你一起你轻松刷题 (one famous LC solutions with PDF)
+    https://github.com/changgyhub/leetcode_101
+    https://github.com/changgyhub/leetcode_101/blob/master/LeetCode%20101%20-%20A%20LeetCode%20Grinding%20Guide%20(C%2B%2B%20Version).pdf
+
+
+    CS-Note (one famous LC solutions, but not complete or up to date)
+    http://www.cyc2018.xyz/
+    https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md
+
+
+    fishercoder's LC solutions (most Java ones, but a lot of solutions to over LC 2000)
+    https://github.com/fishercoder1534/Leetcode
+
+
+    小浩算法
+    https://github.com/geekxh/hello-algorithm
+    https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/01.html
+
+
+    grandyang (C++ solutions to LC 1292)
+    https://github.com/grandyang/leetcode
+    https://www.cnblogs.com/grandyang/p/4606334.html
+
+
+    haoel (C++ solutions to ~LC 2000)
+    https://github.com/haoel/leetcode
+
+
+    花花酱 (C++, up to date w/ explanation)
+    https://zxi.mytechroad.com/blog/
+
+
+    keineahnung2345 (~ LC 1000, but do by himself and with multiple solutions)
+    https://github.com/keineahnung2345/leetcode-cpp-practices
+
+
+    labuladong (famous LC solutions with book)
+    https://labuladong.gitee.io/algo/
+    https://github.com/labuladong/fucking-algorithm
+
+
+    A good place to find LC solutions contributed by many people in the world
+    https://leetcode.ca/
+
+
+    Another good place to find LC solutions from github
+    https://github.com/topics/leetcode-cpp?l=c%2B%2B&o=desc&s=stars
+
+
+    MaskRay (C++ solutions to LC 2000)
+    https://github.com/MaskRay/LeetCode
+
+
+    soulmachine (famous LC solutions)
+    https://github.com/soulmachine/leetcode
+
+
+    wisdompeak (famous LC solutions)
+    https://github.com/wisdompeak/LeetCode
+
+
+    小土刀的面试刷题笔记 (LC & some interview info)
+    https://wdxtub.com/interview/14520609088903.html
+
+
+    LintCode（炼码） / LeetCode 参考答案查询
+    https://www.jiuzhang.com/problem
+
+
+    Terry Tang, Amazon SDE
+    https://www.guozet.me/leetcode/
+
+
+    luliyucoordinate
+    https://github.com/luliyucoordinate/Leetcode
+
+
+    liuyubobobo
+    https://github.com/liuyubobobo/Play-Leetcode
+
+
+    Leetcode Training
+    https://haren-lin-1.gitbook.io/leetcode-training/
+
+
+
+
+Java or misc:
+    fengvyi's LC C++ solutions (447/581 algorithm questions, all within LC 1000>)
+    https://github.com/fengvyi/LeetCode
+
+
+    gouthampradhan (all Java LC solutions)
+    https://github.com/gouthampradhan/leetcode
+
+
+    h2pl (Java solutions, not complete)
+    https://github.com/h2pl/leetcode
+
+
+    halfrost's Go solutions
+    https://github.com/halfrost/LeetCode-Go
+    https://books.halfrost.com/leetcode/
+
+
+    Leetcode 前 300 题算法题解析（Java）
+    https://www.bookstack.cn/read/wind-liang-eetcode/65eddf354510804a.md
+
+
+    goodtecher (Java/Python solutions, but with video explanation)
+    https://goodtecher.com/leetcode-solutions-explanations/
+
+
+    LeetCode刷题指南(Java版)
+    https://blog.nowcoder.net/n/350edbebd58941a0849abafcbec5d862
+
+
+    liuchuo (~ LC 800 with Java/Python/C++ solutions)
+    https://github.com/liuchuo/LeetCode
+
+
+    pezy (not coplete but to ~ LC 700)
+    https://github.com/pezy/LeetCode
+
+
+    zfang399 (~ LC 500)
+    https://github.com/zfang399/LeetCode-Problems
+
+
+    MisterBooo (with animation but not complete)
+    https://github.com/MisterBooo/LeetCodeAnimation
+
+
+    李威威 (need to B site to watch video)
+    https://github.com/liweiwei1419/LeetCode-Solutions-in-Good-Style
+    https://github.com/liweiwei1419
+
+
+    liuchuo (multiple language answers)
+    https://github.com/liuchuo/LeetCode
+
+
+    程序员代码面试指南：IT名企算法与数据结构题目最优解 (by C++ solutions, not original author)
+    https://github.com/CyberSpaceWang/Algorithm_Interview
+
+
+
+
+Misc:
+    windliang (only ~first 400 LC)
+    https://leetcode.wang/
+    https://github.com/wind-liang/leetcode
+
+
+    arcsinw (not complete)
+    https://github.com/arcsinw/LeetCode
+
+
+    chenyanzhe (not complete)
+    https://github.com/chenyanzhe/leetcode/tree/master/src
+
+
+    Ji4n1ng (coding skill not good and LC not complete)
+    https://github.com/Ji4n1ng/my-leetcode-solutions/tree/master/code
+
+
+    shuboc (only ~180 LC questions)
+    https://github.com/shuboc/leetcode
+    https://github.com/shuboc/LeetCode-2
+
+
+    kdn251
+    https://github.com/kdn251/interviews/blob/master/README-zh-cn.md
+    https://github.com/kdn251/interviews
+
+
+    KrisYu (Python solutions)
+    https://github.com/KrisYu/LeetCode-CLRS-Python
+
+
+    Edward Shi's LC site
+    https://www.cspiration.com/#/leetcodeClassification
+
+
+    Orcuslc (old and not complete, C++ solutions)
+    https://github.com/Orcuslc/Learning/tree/master/LeetCode
+
+
+    LeetCode刷题 (~300 LC with video explanation)
+    https://zhuanlan.zhihu.com/leetcode1024
+
+
+    luas13 (not complete)
+    https://github.com/luas13/Leetcode_New
+
+
+    pdeljanov (not complete)
+    https://github.com/pdeljanov/leetcode
+
+
+    royalpranjal (not complete)
+    https://github.com/royalpranjal/LeetCode
+
+
+    sunnypatel165 (not complete, C++ ~ LC 400)
+    https://github.com/sunnypatel165/leetcode
+    https://github.com/sunnypatel165/leetcode-again
+
+
+    yuzhoujr (only Python, not complete)
+    https://github.com/yuzhoujr/leetcode
+
+
+    LeetBook(LeetCode题解开源书)
+    https://www.bookstack.cn/read/LeetBook/README.md
+
+
+    Personal site
+    http://www.longluo.me/
+
+
+
+    https://github.com/sunnypatel165/leetcode/blob/master/algorithms/cpp/3SumClosest/3SumClosest.cpp
+    https://github.com/SumanSudhir/LeetCode
+    https://github.com/shuboc/leetcode
+    https://github.com/royalpranjal/LeetCode
+    https://github.com/pdeljanov/leetcode
+    https://github.com/Orcuslc/Learning/tree/master/LeetCode
+    https://github.com/jp9573/LeetCode-Solutions/tree/main/cpp
+    https://github.com/JinZhenlin/LeetCode/tree/master/C%2B%2B
+    https://github.com/shuboc/LeetCode-2
+    https://github.com/chenyanzhe/leetcode
+    https://github.com/arcsinw/LeetCode
+    
+
+
+

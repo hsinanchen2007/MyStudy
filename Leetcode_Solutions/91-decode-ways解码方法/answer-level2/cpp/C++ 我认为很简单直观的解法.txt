@@ -1,0 +1,20 @@
+# 算法分析
+![image.png](https://pic.leetcode-cn.com/c09dc70d3085792b2b8417843e297f6841fd12f921b0e4fe28a2c4a8dc86dd1e-image.png)
+
+# 源码
+```
+int numDecodings(string s) {
+    if (s[0] == '0') return 0;
+    int pre = 1, curr = 1;//dp[-1] = dp[0] = 1
+    for (int i = 1; i < s.size(); i++) {
+        int tmp = curr;
+        if (s[i] == '0')
+            if (s[i - 1] == '1' || s[i - 1] == '2') curr = pre;
+            else return 0;
+        else if (s[i - 1] == '1' || (s[i - 1] == '2' && s[i] >= '1' && s[i] <= '6'))
+            curr = curr + pre;
+        pre = tmp;
+    }
+    return curr;
+}
+```

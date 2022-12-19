@@ -1,0 +1,67 @@
+check-if-it-is-a-straight-line
+在一个XY 坐标系中有一些点，我们用数组<code>coordinates</code>来分别记录它们的坐标，其中<code>coordinates[i] = [x, y]</code>表示横坐标为 <code>x</code>、纵坐标为 <code>y</code>的点。
+
+请你来判断，这些点是否在该坐标系中属于同一条直线上，是则返回 <code>true</code>，否则请返回 <code>false</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/10/19/untitled-diagram-2.jpg" style="height: 336px; width: 336px;">
+
+<pre><strong>输入：</strong>coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
+<strong>输出：</strong>true
+</pre>
+
+<strong>示例 2：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/10/19/untitled-diagram-1.jpg" style="height: 336px; width: 348px;"></strong>
+
+<pre><strong>输入：</strong>coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
+<strong>输出：</strong>false
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>2 &lt;=coordinates.length &lt;= 1000</code>
+	<code>coordinates[i].length == 2</code>
+	<code>-10^4 &lt;=coordinates[i][0],coordinates[i][1] &lt;= 10^4</code>
+	<code>coordinates</code>中不含重复的点
+</ul>
+
+缀点成线
+You are given an array<code>coordinates</code>, <code>coordinates[i] = [x, y]</code>, where <code>[x, y]</code> represents the coordinate of a point. Check if these pointsmake a straight line in the XY plane.
+
+
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/10/15/untitled-diagram-2.jpg" style="width: 336px; height: 336px;" />
+
+<pre>
+<strong>Input:</strong> coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
+<strong>Output:</strong> true
+</pre>
+
+<strong>Example 2:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg" style="width: 348px; height: 336px;" /></strong>
+
+<pre>
+<strong>Input:</strong> coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
+<strong>Output:</strong> false
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>2 &lt;=coordinates.length &lt;= 1000</code>
+	<code>coordinates[i].length == 2</code>
+	<code>-10^4 &lt;=coordinates[i][0],coordinates[i][1] &lt;= 10^4</code>
+	<code>coordinates</code>contains no duplicate point.
+</ul>

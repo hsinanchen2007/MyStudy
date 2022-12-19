@@ -1,0 +1,30 @@
+remove-duplicates-from-sorted-list
+给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> 1-&gt;1-&gt;2
+<strong>输出:</strong> 1-&gt;2
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> 1-&gt;1-&gt;2-&gt;3-&gt;3
+<strong>输出:</strong> 1-&gt;2-&gt;3</pre>
+
+删除排序链表中的重复元素
+Given a sorted linked list, delete all duplicates such that each element appear only <em>once</em>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> 1-&gt;1-&gt;2
+<strong>Output:</strong> 1-&gt;2
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> 1-&gt;1-&gt;2-&gt;3-&gt;3
+<strong>Output:</strong> 1-&gt;2-&gt;3
+</pre>

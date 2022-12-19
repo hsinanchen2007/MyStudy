@@ -1,0 +1,47 @@
+closed-number-lcci
+下一个数。给定一个正整数，找出与其二进制表达式中1的个数相同且大小最接近的那两个数（一个略大，一个略小）。
+
+ <strong>示例1:</strong>
+
+<pre>
+<strong> 输入</strong>：num = 2（或者0b10）
+<strong> 输出</strong>：[4, 1] 或者（[0b100, 0b1]）
+</pre>
+
+ <strong>示例2:</strong>
+
+<pre>
+<strong> 输入</strong>：num = 1
+<strong> 输出</strong>：[2, -1]
+</pre>
+
+ <strong>提示:</strong>
+
+<ol>
+<code>num</code>的范围在[1, 2147483647]之间；
+如果找不到前一个或者后一个满足条件的正数，那么输出 -1。
+</ol>
+
+下一个数
+Given a positive integer, print the next smallest and the next largest number that have the same number of 1 bits in their binary representation.
+
+<strong>Example1:</strong>
+
+<pre>
+<strong> Input</strong>: num = 2 (0b10)
+<strong> Output</strong>: [4, 1] ([0b100, 0b1])
+</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong> Input</strong>: num = 1
+<strong> Output</strong>: [2, -1]
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= num &lt;=2147483647</code>
+	If there is no next smallest or next largest number, output -1.
+</ol>

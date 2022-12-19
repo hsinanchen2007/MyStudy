@@ -1,0 +1,79 @@
+print-foobar-alternately
+我们提供一个类：
+
+<pre>
+class FooBar {
+  public void foo() {
+  for (int i = 0; i &lt; n; i++) {
+   print(&quot;foo&quot;);
+   }
+  }
+
+  public void bar() {
+  for (int i = 0; i &lt; n; i++) {
+   print(&quot;bar&quot;);
+  }
+  }
+}
+</pre>
+
+两个不同的线程将会共用一个 <code>FooBar</code>实例。其中一个线程将会调用<code>foo()</code>方法，另一个线程将会调用<code>bar()</code>方法。
+
+请设计修改程序，以确保 &quot;foobar&quot; 被输出 n 次。
+
+
+
+<strong>示例 1:</strong>
+
+<pre>
+<strong>输入:</strong> n = 1
+<strong>输出:</strong> &quot;foobar&quot;
+<strong>解释:</strong> 这里有两个线程被异步启动。其中一个调用 foo() 方法, 另一个调用 bar() 方法，&quot;foobar&quot; 将被输出一次。
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre>
+<strong>输入:</strong> n = 2
+<strong>输出:</strong> &quot;foobarfoobar&quot;
+<strong>解释:</strong> &quot;foobar&quot; 将被输出两次。
+</pre>
+
+交替打印FooBar
+Suppose you are given the following code:
+
+<pre>
+class FooBar {
+  public void foo() {
+  for (int i = 0; i &lt; n; i++) {
+   print(&quot;foo&quot;);
+   }
+  }
+
+  public void bar() {
+  for (int i = 0; i &lt; n; i++) {
+   print(&quot;bar&quot;);
+  }
+  }
+}
+</pre>
+
+The same instance of <code>FooBar</code> will be passed to two different threads. Thread A will call<code>foo()</code> while thread B will call<code>bar()</code>.Modify the given program to output &quot;foobar&quot; <em>n</em> times.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<b>Input:</b> n = 1
+<b>Output:</b> &quot;foobar&quot;
+<strong>Explanation:</strong> There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar(). &quot;foobar&quot; is being output 1 time.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<b>Input:</b> n = 2
+<b>Output:</b> &quot;foobarfoobar&quot;
+<strong>Explanation:</strong> &quot;foobar&quot; is being output 2 times.
+</pre>

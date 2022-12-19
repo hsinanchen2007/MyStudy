@@ -1,0 +1,17 @@
+daily-temperatures
+根据每日 <code>气温</code> 列表，请重新生成一个列表，对应位置的输出是需要再等待多久温度才会升高超过该日的天数。如果之后都不会升高，请在该位置用<code>0</code> 来代替。
+
+例如，给定一个列表<code>temperatures = [73, 74, 75, 71, 69, 72, 76, 73]</code>，你的输出应该是<code>[1, 1, 4, 2, 1, 1, 0, 0]</code>。
+
+<strong>提示：</strong><code>气温</code> 列表长度的范围是<code>[1, 30000]</code>。每个气温的值的均为华氏度，都是在<code>[30, 100]</code>范围内的整数。
+
+每日温度
+
+Given a list of daily temperatures <code>T</code>, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature.  If there is no future day for which this is possible, put <code>0</code> instead.
+
+For example, given the list of temperatures <code>T = [73, 74, 75, 71, 69, 72, 76, 73]</code>, your output should be <code>[1, 1, 4, 2, 1, 1, 0, 0]</code>.
+
+
+<b>Note:</b>
+The length of <code>temperatures</code> will be in the range <code>[1, 30000]</code>.
+Each temperature will be an integer in the range <code>[30, 100]</code>.

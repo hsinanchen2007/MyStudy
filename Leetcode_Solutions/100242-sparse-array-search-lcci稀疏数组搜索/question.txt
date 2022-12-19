@@ -1,0 +1,45 @@
+sparse-array-search-lcci
+稀疏数组搜索。有个排好序的字符串数组，其中散布着一些空字符串，编写一种方法，找出给定字符串的位置。
+
+<strong>示例1:</strong>
+
+<pre><strong> 输入</strong>: words = [&quot;at&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;ball&quot;, &quot;&quot;, &quot;&quot;, &quot;car&quot;, &quot;&quot;, &quot;&quot;,&quot;dad&quot;, &quot;&quot;, &quot;&quot;], s = &quot;ta&quot;
+<strong> 输出</strong>：-1
+<strong> 说明</strong>: 不存在返回-1。
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong> 输入</strong>：words = [&quot;at&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;ball&quot;, &quot;&quot;, &quot;&quot;, &quot;car&quot;, &quot;&quot;, &quot;&quot;,&quot;dad&quot;, &quot;&quot;, &quot;&quot;], s = &quot;ball&quot;
+<strong> 输出</strong>：4
+</pre>
+
+<strong>提示:</strong>
+
+<ol>
+	words的长度在[1, 1000000]之间
+</ol>
+
+稀疏数组搜索
+Given a sorted array of strings that is interspersed with empty strings, write a method to find the location of a given string.
+
+<strong>Example1:</strong>
+
+<pre>
+<strong> Input</strong>: words = [&quot;at&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;ball&quot;, &quot;&quot;, &quot;&quot;, &quot;car&quot;, &quot;&quot;, &quot;&quot;,&quot;dad&quot;, &quot;&quot;, &quot;&quot;], s = &quot;ta&quot;
+<strong> Output</strong>: -1
+<strong> Explanation</strong>: Return -1 if <code>s</code> is not in <code>words</code>.
+</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong> Input</strong>: words = [&quot;at&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;ball&quot;, &quot;&quot;, &quot;&quot;, &quot;car&quot;, &quot;&quot;, &quot;&quot;,&quot;dad&quot;, &quot;&quot;, &quot;&quot;], s = &quot;ball&quot;
+<strong> Output</strong>: 4
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= words.length &lt;= 1000000</code>
+</ol>

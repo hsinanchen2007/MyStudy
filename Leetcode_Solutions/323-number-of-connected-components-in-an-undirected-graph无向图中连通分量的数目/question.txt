@@ -1,0 +1,57 @@
+number-of-connected-components-in-an-undirected-graph
+给定编号从 <code>0</code> 到 <code>n-1</code> 的 <code>n</code> 个节点和一个无向边列表（每条边都是一对节点），请编写一个函数来计算无向图中连通分量的数目。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong><code>n = 5</code> 和 <code>edges = [[0, 1], [1, 2], [3, 4]]</code>
+
+     0          3
+     |          |
+     1 --- 2    4 
+
+<strong>输出: </strong>2
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong><code>n = 5</code> 和 <code>edges = [[0, 1], [1, 2], [2, 3], [3, 4]]</code>
+
+     0           4
+     |           |
+     1 --- 2 --- 3
+
+<strong>输出:</strong>1
+</pre>
+
+<strong>注意:</strong><br>
+你可以假设在 <code>edges</code> 中不会出现重复的边。而且由于所以的边都是无向边，<code>[0, 1]</code> 与 <code>[1, 0]</code> 相同，所以它们不会同时在 <code>edges</code> 中出现。
+
+无向图中连通分量的数目
+Given <code>n</code> nodes labeled from <code>0</code> to <code>n - 1</code> and a list of undirected edges (each edge is a pair of nodes), write a function to find the number of connected components in an undirected graph.
+
+<b>Example 1:</b>
+
+<pre>
+<strong>Input: </strong><code>n = 5</code> and <code>edges = [[0, 1], [1, 2], [3, 4]]</code>
+
+     0          3
+     |          |
+     1 --- 2    4 
+
+<strong>Output: </strong>2
+</pre>
+
+<b>Example 2:</b>
+
+<pre>
+<strong>Input: </strong><code>n = 5</code> and <code>edges = [[0, 1], [1, 2], [2, 3], [3, 4]]</code>
+
+     0           4
+     |           |
+     1 --- 2 --- 3
+
+<strong>Output:</strong>1
+</pre>
+
+<b>Note:</b><br />
+You can assume that no duplicate edges will appear in <code>edges</code>. Since all edges are undirected, <code>[0, 1]</code> is the same as <code>[1, 0]</code> and thus will not appear together in <code>edges</code>.

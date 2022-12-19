@@ -1,0 +1,1 @@
+两表的连接查询 select ...from 表一 left join 表二 on 主表.主键=从表.外键

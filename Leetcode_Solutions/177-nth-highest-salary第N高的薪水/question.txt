@@ -1,0 +1,43 @@
+nth-highest-salary
+编写一个 SQL 查询，获取 <code>Employee</code> 表中第<em>n</em>高的薪水（Salary）。
+
+<pre>+----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+</pre>
+
+例如上述<code>Employee</code>表，<em>n = 2</em>时，应返回第二高的薪水<code>200</code>。如果不存在第<em>n</em>高的薪水，那么查询应返回<code>null</code>。
+
+<pre>+------------------------+
+| getNthHighestSalary(2) |
++------------------------+
+| 200                    |
++------------------------+
+</pre>
+
+第N高的薪水
+Write a SQL query to get the <em>n</em><sup>th</sup> highest salary from the <code>Employee</code> table.
+
+<pre>
++----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+</pre>
+
+For example, given the above Employee table, the <em>n</em><sup>th</sup> highest salary where <em>n</em> = 2 is <code>200</code>. If there is no <em>n</em><sup>th</sup> highest salary, then the query should return <code>null</code>.
+
+<pre>
++------------------------+
+| getNthHighestSalary(2) |
++------------------------+
+| 200                    |
++------------------------+
+</pre>

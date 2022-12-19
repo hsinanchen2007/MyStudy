@@ -1,0 +1,65 @@
+minimum-area-rectangle
+给定在 xy 平面上的一组点，确定由这些点组成的矩形的最小面积，其中矩形的边平行于 x 轴和 y 轴。
+
+如果没有任何矩形，就返回 0。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[[1,1],[1,3],[3,1],[3,3],[2,2]]
+<strong>输出：</strong>4
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[[1,1],[1,3],[3,1],[3,3],[4,1],[4,3]]
+<strong>输出：</strong>2
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= points.length &lt;= 500</code>
+	<code>0 &lt;=points[i][0] &lt;=40000</code>
+	<code>0 &lt;=points[i][1] &lt;=40000</code>
+	所有的点都是不同的。
+</ol>
+
+最小面积矩形
+Given a set of points in the xy-plane, determine the minimum area of a rectangle formed from these points, with sides parallel to the x and y axes.
+
+If there isn&#39;t any rectangle, return 0.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[1,1],[1,3],[3,1],[3,3],[2,2]]</span>
+<strong>Output: </strong><span id="example-output-1">4</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[[1,1],[1,3],[3,1],[3,3],[4,1],[4,3]]</span>
+<strong>Output: </strong><span id="example-output-2">2</span>
+</pre>
+
+
+
+<strong>Note</strong>:
+
+<ol>
+	<code>1 &lt;= points.length &lt;= 500</code>
+	<code>0 &lt;=points[i][0] &lt;=40000</code>
+	<code>0 &lt;=points[i][1] &lt;=40000</code>
+	All points are distinct.
+</ol>
+</div>
+</div>

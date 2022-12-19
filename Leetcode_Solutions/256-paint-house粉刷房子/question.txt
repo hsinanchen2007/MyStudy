@@ -1,0 +1,35 @@
+paint-house
+假如有一排房子，共 <em>n</em> 个，每个房子可以被粉刷成红色、蓝色或者绿色这三种颜色中的一种，你需要粉刷所有的房子并且使其相邻的两个房子颜色不能相同。
+
+当然，因为市场上不同颜色油漆的价格不同，所以房子粉刷成不同颜色的花费成本也是不同的。每个房子粉刷成不同颜色的花费是以一个<code><em>n</em> x <em>3</em></code><em></em>的矩阵来表示的。
+
+例如，<code>costs[0][0]</code> 表示第 0 号房子粉刷成红色的成本花费；<code>costs[1][2]</code>表示第 1 号房子粉刷成绿色的花费，以此类推。请你计算出粉刷完所有房子最少的花费成本。
+
+<strong>注意：</strong>
+
+所有花费均为正整数。
+
+<strong>示例：</strong>
+
+<pre><strong>输入: </strong>[[17,2,17],[16,16,5],[14,3,19]]
+<strong>输出: </strong>10
+<strong>解释: 将 0 号房子粉刷成蓝色，1 号房子粉刷成绿色，2 号房子粉刷成蓝色。</strong>
+    <strong>最少花费:</strong> 2 + 5 + 3 = 10。
+</pre>
+
+粉刷房子
+There are a row of <i>n</i> houses, each house can be painted with one of the three colors: red, blue or green. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
+
+The cost of painting each house with a certain color is represented by a <code><i>n</i> x <i>3</i></code> cost matrix. For example, <code>costs[0][0]</code> is the cost of painting house 0 with color red; <code>costs[1][2]</code> is the cost of painting house 1 with color green, and so on... Find the minimum cost to paint all houses.
+
+<b>Note:</b><br />
+All costs are positive integers.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input:</strong> [[17,2,17],[16,16,5],[14,3,19]]
+<strong>Output:</strong> 10
+<strong>Explanation: </strong>Paint house 0 into blue, paint house 1 into green, paint house 2 into blue. 
+            Minimum cost: 2 + 5 + 3 = 10.
+</pre>

@@ -1,0 +1,68 @@
+random-flip-matrix
+题中给出一个 <code>n</code> 行 <code>n</code> 列的二维矩阵<code> (n_rows,n_cols)</code>，且所有值被初始化为 0。要求编写一个 <code>flip</code> 函数，<a href="https://en.wikipedia.org/wiki/Discrete_uniform_distribution">均匀随机</a>的将矩阵中的 0 变为 1，并返回该值的位置下标 <code>[row_id,col_id]</code>；同样编写一个 <code>reset</code> 函数，将所有的值都重新置为 0。<strong>尽量最少调用随机函数 Math.random()</strong>，并且优化时间和空间复杂度。
+
+注意:
+
+1.1 &lt;= n_rows, n_cols &lt;= 10000
+
+2. 0 &lt;= row.id &lt; n_rows 并且 0 &lt;= col.id &lt; n_cols
+
+3.当矩阵中没有值为 0 时，不可以调用 flip 函数
+
+4.调用 flip 和 reset 函数的次数加起来不会超过 1000 次
+
+<strong>示例 1：</strong>
+
+<pre>
+<strong>输入: 
+</strong>[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;]
+[[2,3],[],[],[],[]]
+<strong>输出: </strong>[null,[0,1],[1,2],[1,0],[1,1]]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre>
+<strong>输入: 
+</strong>[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;reset&quot;,&quot;flip&quot;]
+[[1,2],[],[],[],[]]
+<strong>输出: </strong>[null,[0,0],[0,1],null,[0,0]]</pre>
+
+<strong>输入语法解释：</strong>
+
+输入包含两个列表：被调用的子程序和他们的参数。<code>Solution</code> 的构造函数有两个参数，分别为 <code>n_rows</code> 和 <code>n_cols</code>。<code>flip</code>和 <code>reset</code> 没有参数，参数总会以列表形式给出，哪怕该列表为空
+
+随机翻转矩阵
+You are given the number of rows <code>n_rows</code>and number of columns <code>n_cols</code>of a2Dbinary matrixwhere all values are initially 0.Write a function <code>flip</code>which choosesa 0 value<a href="https://en.wikipedia.org/wiki/Discrete_uniform_distribution" target="_blank">uniformly at random</a>,changes it to 1,and then returns the position <code>[row.id, col.id]</code> of that value. Also, write a function <code>reset</code> which sets all values back to 0.<strong>Try to minimize the number of calls to system&#39;s Math.random()</strong> and optimize the time andspace complexity.
+
+Note:
+
+<ol>
+	<code>1 &lt;= n_rows, n_cols&lt;= 10000</code>
+	<code>0 &lt;= row.id &lt; n_rows</code> and <code>0 &lt;= col.id &lt; n_cols</code>
+	<code>flip</code>will not be called when the matrix has no0 values left.
+	the total number of calls to<code>flip</code>and <code>reset</code>will not exceed1000.
+</ol>
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: 
+</strong><span id="example-input-1-1">[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;]
+</span><span id="example-input-1-2">[[2,3],[],[],[],[]]</span>
+<strong>Output: </strong><span id="example-output-1">[null,[0,1],[1,2],[1,0],[1,1]]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: 
+</strong><span id="example-input-2-1">[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;reset&quot;,&quot;flip&quot;]
+</span><span id="example-input-2-2">[[1,2],[],[],[],[]]</span>
+<strong>Output: </strong><span id="example-output-2">[null,[0,0],[0,1],null,[0,0]]</span></pre>
+</div>
+
+<strong>Explanation of Input Syntax:</strong>
+
+The input is two lists:the subroutines calledand theirarguments. <code>Solution</code>&#39;s constructorhas two arguments, <code>n_rows</code> and <code>n_cols</code>.<code>flip</code>and <code>reset</code> havenoarguments.Argumentsarealways wrapped with a list, even if there aren&#39;t any.

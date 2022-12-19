@@ -1,0 +1,63 @@
+global-and-local-inversions
+数组<code>A</code>是<code>[0, 1, ..., N - 1]</code>的一种排列，<code>N</code> 是数组<code>A</code>的长度。全局倒置指的是 <code>i,j</code>满足<code>0 &lt;= i &lt; j &lt; N</code> 并且<code>A[i] &gt; A[j]</code>，局部倒置指的是 <code>i</code> 满足<code>0 &lt;= i &lt; N</code>并且<code>A[i] &gt; A[i+1]</code>。
+
+当数组<code>A</code>中全局倒置的数量等于局部倒置的数量时，返回 <code>true</code> 。
+
+
+
+<strong>示例 1:</strong>
+
+<pre>
+<strong>输入:</strong> A = [1,0,2]
+<strong>输出:</strong> true
+<strong>解释:</strong> 有 1 个全局倒置，和 1 个局部倒置。
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre>
+<strong>输入:</strong> A = [1,2,0]
+<strong>输出:</strong> false
+<strong>解释:</strong> 有 2 个全局倒置，和 1 个局部倒置。
+</pre>
+
+<strong>注意:</strong>
+
+<ul>
+	<code>A</code> 是<code>[0, 1, ..., A.length - 1]</code>的一种排列
+	<code>A</code> 的长度在<code>[1, 5000]</code>之间
+	这个问题的时间限制已经减少了。
+</ul>
+
+全局倒置与局部倒置
+We have some permutation <code>A</code> of <code>[0, 1, ..., N - 1]</code>, where <code>N</code> is the length of <code>A</code>.
+
+The number of (global) inversions is the number of <code>i &lt; j</code> with <code>0 &lt;= i &lt; j &lt; N</code> and <code>A[i] &gt; A[j]</code>.
+
+The number of local inversions is the number of <code>i</code> with <code>0 &lt;= i &lt; N</code> and <code>A[i] &gt; A[i+1]</code>.
+
+Return <code>true</code>if and only if the number of global inversions is equal to the number of local inversions.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> A = [1,0,2]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> There is 1 global inversion, and 1 local inversion.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> A = [1,2,0]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> There are 2 global inversions, and 1 local inversion.
+</pre>
+
+<strong>Note:</strong>
+
+<ul>
+	<code>A</code> will be a permutation of <code>[0, 1, ..., A.length - 1]</code>.
+	<code>A</code> will have length in range <code>[1, 5000]</code>.
+	The time limit for this problem has been reduced.
+</ul>

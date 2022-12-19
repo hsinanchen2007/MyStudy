@@ -1,0 +1,59 @@
+prime-arrangements
+请你帮忙给从 <code>1</code> 到 <code>n</code>的数设计排列方案，使得所有的「质数」都应该被放在「质数索引」（索引从 1 开始）上；你需要返回可能的方案总数。
+
+让我们一起来回顾一下「质数」：质数一定是大于 1 的，并且不能用两个小于它的正整数的乘积来表示。
+
+由于答案可能会很大，所以请你返回答案 <strong>模 mod<code>10^9 + 7</code></strong>之后的结果即可。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>n = 5
+<strong>输出：</strong>12
+<strong>解释：</strong>举个例子，[1,2,5,4,3] 是一个有效的排列，但 [5,2,3,4,1] 不是，因为在第二种情况里质数 5 被错误地放在索引为 1 的位置上。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 100
+<strong>输出：</strong>682289015
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 100</code>
+</ul>
+
+质数排列
+Return the number of permutations of 1 to <code>n</code> so that prime numbers are at prime indices (1-indexed.)
+
+<em>(Recall that an integeris prime if and only if it is greater than 1, and cannot be written as a product of two positive integersboth smaller than it.)</em>
+
+Since the answer may be large, return the answer <strong>modulo <code>10^9 + 7</code></strong>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> n = 5
+<strong>Output:</strong> 12
+<strong>Explanation:</strong> For example [1,2,5,4,3] is a valid permutation, but [5,2,3,4,1] is not because the prime number 5 is at index 1.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 100
+<strong>Output:</strong> 682289015
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 100</code>
+</ul>

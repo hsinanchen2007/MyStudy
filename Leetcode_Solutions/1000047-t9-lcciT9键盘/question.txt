@@ -1,0 +1,51 @@
+t9-lcci
+在老式手机上，用户通过数字键盘输入，手机将提供与这些数字相匹配的单词列表。每个数字映射到0至4个字母。给定一个数字序列，实现一个算法来返回匹配单词的列表。你会得到一张含有有效单词的列表。映射如下图所示：
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/original_images/17_telephone_keypad.png" style="width: 200px;">
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> num = &quot;8733&quot;, words = [&quot;tree&quot;, &quot;used&quot;]
+<strong>输出:</strong> [&quot;tree&quot;, &quot;used&quot;]
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> num = &quot;2&quot;, words = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]
+<strong>输出:</strong> [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</pre>
+
+提示：
+
+<ul>
+	<code>num.length &lt;= 1000</code>
+	<code>words.length &lt;= 500</code>
+	<code>words[i].length == num.length</code>
+	<code>num</code>中不会出现 0, 1 这两个数字
+</ul>
+
+T9键盘
+On old cell phones, users typed on a numeric keypad and the phone would provide a list of words that matched these numbers. Each digit mapped to a set of 0- 4 letters. Implement an algo&shy;rithm to return a list of matching words, given a sequence of digits. You are provided a list of valid words. The mapping is shown in the diagram below:
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/original_images/17_telephone_keypad.png" style="width: 200px;" />
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> num = &quot;8733&quot;, words = [&quot;tree&quot;, &quot;used&quot;]
+<strong>Output:</strong> [&quot;tree&quot;, &quot;used&quot;]
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> num = &quot;2&quot;, words = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]
+<strong>Output:</strong> [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</pre>
+
+Note:
+
+<ul>
+	<code>num.length &lt;= 1000</code>
+	<code>words.length &lt;= 500</code>
+	<code>words[i].length == num.length</code>
+	<code>There are no number 0 and 1 in num</code>.
+</ul>

@@ -1,0 +1,34 @@
+max-sum-of-rectangle-no-larger-than-k
+给定一个非空二维矩阵<em>matrix</em>和一个整数<em> k</em>，找到这个矩阵内部不大于 <em>k</em> 的最大矩形和。
+
+<strong>示例:</strong>
+
+<pre><strong>输入: </strong>matrix = [[1,0,1],[0,-2,3]], k = 2
+<strong>输出: </strong>2 
+<strong>解释:</strong>矩形区域<code>[[0, 1], [-2, 3]]</code>的数值和是 2，且 2 是不超过 k 的最大数字（k = 2）。
+</pre>
+
+<strong>说明：</strong>
+
+<ol>
+	矩阵内的矩形区域面积必须大于 0。
+	如果行数远大于列数，你将如何解答呢？
+</ol>
+
+矩形区域不超过 K 的最大数值和
+Given a non-empty 2D matrix <i>matrix</i> and an integer <i>k</i>, find the max sum of a rectangle in the <i>matrix</i> such that its sum is no larger than <i>k</i>.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input: </strong>matrix = <span id="example-input-1-1">[[1,0,1],[0,-2,3]]</span>, k = <span id="example-input-1-2">2</span>
+<strong>Output: </strong><span id="example-output-1">2 
+<strong>Explanation:</strong></span>Because the sum of rectangle <code>[[0, 1], [-2, 3]]</code> is 2,
+            and 2 is the max number no larger than k (k = 2).</pre>
+
+<b>Note:</b>
+
+<ol>
+	The rectangle inside the matrix must have an area &gt; 0.
+	What if the number of rows is much larger than the number of columns?
+</ol>

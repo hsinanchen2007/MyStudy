@@ -1,0 +1,65 @@
+iterator-for-combination
+请你设计一个迭代器类，包括以下内容：
+
+<ul>
+	一个构造函数，输入参数包括：一个<strong>有序且字符唯一</strong>的字符串<code>characters</code>（该字符串只包含小写英文字母）和一个数字<code>combinationLength</code>。
+	函数<em>next()</em>，按<strong>字典序</strong>返回长度为<code>combinationLength</code> 的下一个字母组合。
+	函数<em>hasNext()</em>，只有存在长度为<code>combinationLength</code> 的下一个字母组合时，才返回<code>True</code>；否则，返回 <code>False</code>。
+</ul>
+
+
+
+<strong>示例：</strong>
+
+<pre>CombinationIterator iterator = new CombinationIterator(&quot;abc&quot;, 2); // 创建迭代器 iterator
+
+iterator.next(); // 返回 &quot;ab&quot;
+iterator.hasNext(); // 返回 true
+iterator.next(); // 返回 &quot;ac&quot;
+iterator.hasNext(); // 返回 true
+iterator.next(); // 返回 &quot;bc&quot;
+iterator.hasNext(); // 返回 false
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= combinationLength &lt;=characters.length &lt;= 15</code>
+	每组测试数据最多包含<code>10^4</code>次函数调用。
+	题目保证每次调用函数<code>next</code>时都存在下一个字母组合。
+</ul>
+
+字母组合迭代器
+Design an Iterator class, which has:
+
+<ul>
+	A constructor that takes a string<code>characters</code>of <strong>sorted distinct</strong> lowercase English letters and a number<code>combinationLength</code> as arguments.
+	A function <em>next()</em>that returns the next combination of length <code>combinationLength</code>in <strong>lexicographical order</strong>.
+	A function <em>hasNext()</em> that returns <code>True</code>if and only ifthere exists a next combination.
+</ul>
+
+
+
+<b>Example:</b>
+
+<pre>
+CombinationIterator iterator = new CombinationIterator(&quot;abc&quot;, 2); // creates the iterator.
+
+iterator.next(); // returns &quot;ab&quot;
+iterator.hasNext(); // returns true
+iterator.next(); // returns &quot;ac&quot;
+iterator.hasNext(); // returns true
+iterator.next(); // returns &quot;bc&quot;
+iterator.hasNext(); // returns false
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= combinationLength &lt;=characters.length &lt;= 15</code>
+	There will be at most <code>10^4</code> function calls per test.
+	It&#39;s guaranteed that allcallsof the function <code>next</code>are valid.
+</ul>

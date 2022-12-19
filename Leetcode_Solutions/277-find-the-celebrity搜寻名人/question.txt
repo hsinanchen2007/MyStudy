@@ -1,0 +1,87 @@
+find-the-celebrity
+假设你是一个专业的狗仔，参加了一个<code>n</code>人派对，其中每个人被从<code>0</code>到<code>n - 1</code>标号。在这个派对人群当中可能存在一位&ldquo;名人&rdquo;。所谓 &ldquo;名人&rdquo; 的定义是：其他所有<code>n - 1</code>个人都认识他/她，而他/她并不认识其他任何人。
+
+现在你想要确认这个 &ldquo;名人&rdquo; 是谁，或者确定这里没有&ldquo;名人&rdquo;。而你唯一能做的就是问诸如 &ldquo;A你好呀，请问你认不认识B呀？&rdquo;的问题，以确定 A 是否认识 B。你需要在（渐近意义上）尽可能少的问题内来确定这位 &ldquo;名人&rdquo; 是谁（或者确定这里没有 &ldquo;名人&rdquo;）。
+
+在本题中，你可以使用辅助函数<code>bool knows(a, b)</code>获取到 A是否认识 B。请你来实现一个函数<code>int findCelebrity(n)</code>。
+
+派对最多只会有一个 &ldquo;名人&rdquo; 参加。若&ldquo;名人&rdquo; 存在，请返回他/她的编号；若&ldquo;名人&rdquo;不存在，请返回<code>-1</code>。
+
+
+
+<strong>示例 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/02/02/277_example_1_bold.PNG" style="height: 181px; width: 186px;">
+
+<pre><strong>输入: </strong>graph = [
+ [1,1,0],
+ [0,1,0],
+ [1,1,1]
+]
+<strong>输出: </strong>1
+<strong>解析: </strong>有编号分别为 0、1 和 2 的三个人。graph[i][j] = 1 代表编号为 i 的人认识编号为 j 的人，而 graph[i][j] = 0 则代表编号为 i 的人不认识编号为 j 的人。&ldquo;名人&rdquo; 是编号 1 的人，因为 0 和 2 均认识他/她，但 1 不认识任何人。
+</pre>
+
+<strong>示例2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/02/02/277_example_2.PNG" style="height: 192px; width: 193px;">
+
+<pre><strong>输入: </strong>graph = [
+ [1,0,1],
+ [1,1,0],
+ [0,1,1]
+]
+<strong>输出: </strong>-1
+<strong>解析: 没有 &ldquo;名人&rdquo;</strong>
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	该有向图是以邻接矩阵的形式给出的，是一个<code>n &times;n</code>的矩阵，<code>a[i][j] = 1</code>代表<code>i</code>与<code>j</code>认识，<code>a[i][j] = 0</code>则代表<code>i</code>与<code>j</code>不认识。
+	请记住，您是无法直接访问邻接矩阵的。
+</ol>
+
+搜寻名人
+Suppose you are at a party with <code>n</code> people (labeled from <code>0</code> to <code>n - 1</code>) and among them, there may exist one celebrity. The definition of a celebrity is that all the other <code>n - 1</code> people know him/her but he/she does not know any of them.
+
+Now you want to find out who the celebrity is or verify that there is not one. The only thing you are allowed to do is to ask questions like: &quot;Hi, A. Do you know B?&quot; to get information of whether A knows B. You need to find out the celebrity (or verify there is not one) by asking as few questions as possible (in the asymptotic sense).
+
+You are given a helper function <code>bool knows(a, b)</code> which tells you whether A knows B. Implement a function <code>int findCelebrity(n)</code>.There will be exactly one celebrity if he/she is in the party. Return the celebrity&#39;s label if there is a celebrity in the party. If there is no celebrity, return <code>-1</code>.
+
+
+
+<strong>Example 1:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2019/02/02/277_example_1_bold.PNG" style="width: 186px; height: 181px;" />
+<pre>
+<strong>Input: </strong>graph = <span id="example-input-1-1">[
+ [1,1,0],
+ [0,1,0],
+ [1,1,1]
+]</span>
+<strong>Output: </strong><span id="example-output-1">1</span>
+<strong>Explanation: </strong>There are three persons labeled with 0, 1 and 2. graph[i][j] = 1 means person i knows person j, otherwise graph[i][j] = 0 means person i does not know person j. The celebrity is the person labeled as 1 because both 0 and 2 know him but 1 does not know anybody.
+</pre>
+
+<strong>Example 2:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2019/02/02/277_example_2.PNG" style="width: 193px; height: 192px;" />
+<pre>
+<strong>Input: </strong>graph = <span id="example-input-2-1">[
+ [1,0,1],
+ [1,1,0],
+ [0,1,1]
+]</span>
+<strong>Output: </strong><span id="example-output-2">-1</span>
+<strong>Explanation: </strong>There is no celebrity.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	The directed graph is represented as an adjacency matrix, which is an<code>n x n</code> matrix where <code>a[i][j] = 1</code> means person<code>i</code> knows person<code>j</code> while<code>a[i][j] = 0</code> means the contrary.
+	Remember that you won&#39;t have direct access to the adjacency matrix.
+</ol>

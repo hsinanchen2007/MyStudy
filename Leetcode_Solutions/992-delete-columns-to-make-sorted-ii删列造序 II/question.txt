@@ -1,0 +1,120 @@
+delete-columns-to-make-sorted-ii
+给定由<code>N</code>个小写字母字符串组成的数组<code>A</code>，其中每个字符串长度相等。
+
+选取一个删除索引序列，对于<code>A</code>中的每个字符串，删除对应每个索引处的字符。
+
+比如，有<code>A = [&quot;abcdef&quot;, &quot;uvwxyz&quot;]</code>，删除索引序列<code>{0, 2, 3}</code>，删除后<code>A</code>为<code>[&quot;bef&quot;, &quot;vyz&quot;]</code>。
+
+假设，我们选择了一组删除索引<code>D</code>，那么在执行删除操作之后，最终得到的数组的元素是按 <strong>字典序</strong>（<code>A[0] &lt;= A[1] &lt;= A[2] ... &lt;= A[A.length - 1]</code>）排列的，然后请你返回<code>D.length</code>的最小可能值。
+
+
+
+<ol>
+</ol>
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[&quot;ca&quot;,&quot;bb&quot;,&quot;ac&quot;]
+<strong>输出：</strong>1
+<strong>解释： </strong>
+删除第一列后，A = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]。
+现在 A 中元素是按字典排列的 (即，A[0] &lt;= A[1] &lt;= A[2])。
+我们至少需要进行 1 次删除，因为最初 A 不是按字典序排列的，所以答案是 1。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[&quot;xc&quot;,&quot;yb&quot;,&quot;za&quot;]
+<strong>输出：</strong>0
+<strong>解释：</strong>
+A 的列已经是按字典序排列了，所以我们不需要删除任何东西。
+注意 A 的行不需要按字典序排列。
+也就是说，A[0][0] &lt;= A[0][1] &lt;= ... 不一定成立。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>[&quot;zyx&quot;,&quot;wvu&quot;,&quot;tsr&quot;]
+<strong>输出：</strong>3
+<strong>解释：</strong>
+我们必须删掉每一列。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 100</code>
+	<code>1 &lt;= A[i].length &lt;= 100</code>
+</ol>
+
+删列造序 II
+We are given an array<code>A</code> of <code>N</code> lowercase letter strings, all of the same length.
+
+Now, we may choose any set of deletion indices, and for each string, we delete all the characters in those indices.
+
+For example, if we have an array <code>A = [&quot;abcdef&quot;,&quot;uvwxyz&quot;]</code> and deletion indices <code>{0, 2, 3}</code>, then the final array after deletions is <code>[&quot;bef&quot;,&quot;vyz&quot;]</code>.
+
+Suppose we chose a set of deletion indices <code>D</code> such that after deletions, the final array has its elements in <strong>lexicographic</strong> order (<code>A[0] &lt;= A[1] &lt;= A[2] ... &lt;= A[A.length - 1]</code>).
+
+Return the minimum possible value of <code>D.length</code>.
+
+
+
+<div>
+<div>
+<ol>
+</ol>
+</div>
+</div>
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[&quot;ca&quot;,&quot;bb&quot;,&quot;ac&quot;]</span>
+<strong>Output: </strong><span id="example-output-1">1</span>
+<strong>Explanation: </strong>
+After deleting the first column, A = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;].
+Now A is in lexicographic order (ie. A[0] &lt;= A[1] &lt;= A[2]).
+We require at least 1 deletion since initially A was not in lexicographic order, so the answer is 1.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span>[&quot;xc&quot;,&quot;yb&quot;,&quot;za&quot;]</span>
+<strong>Output: </strong><span id="example-output-2">0</span>
+<strong>Explanation: </strong>
+A is already in lexicographic order, so we don&#39;t need to delete anything.
+Note that the rows of A are not necessarily in lexicographic order:
+ie. it is NOT necessarily true that (A[0][0] &lt;= A[0][1] &lt;= ...)
+</pre>
+
+<div>
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">[&quot;zyx&quot;,&quot;wvu&quot;,&quot;tsr&quot;]</span>
+<strong>Output: </strong><span id="example-output-3">3</span>
+<strong>Explanation: </strong>
+We have to delete every column.
+</pre>
+
+
+
+<div>
+<div>
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= A.length &lt;= 100</code>
+	<code>1 &lt;= A[i].length &lt;= 100</code>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>

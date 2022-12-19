@@ -1,0 +1,46 @@
+exchange-lcci
+配对交换。编写程序，交换某个整数的奇数位和偶数位，尽量使用较少的指令（也就是说，位0与位1交换，位2与位3交换，以此类推）。
+
+ <strong>示例1:</strong>
+
+<pre>
+<strong> 输入</strong>：num = 2（或者0b10）
+<strong> 输出</strong> 1 (或者 0b01)
+</pre>
+
+ <strong>示例2:</strong>
+
+<pre>
+<strong> 输入</strong>：num = 3
+<strong> 输出</strong>：3
+</pre>
+
+ <strong>提示:</strong>
+
+<ol>
+<code>num</code>的范围在[0, 2^30 - 1]之间，不会发生整数溢出。
+</ol>
+
+配对交换
+Write a program to swap odd and even bits in an integer with as few instructions as possible (e.g., bit 0 and bit 1 are swapped, bit 2 and bit 3 are swapped, and so on).
+
+<strong>Example1:</strong>
+
+<pre>
+<strong> Input</strong>: num = 2（0b10）
+<strong> Output</strong> 1 (0b01)
+</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong> Input</strong>: num = 3
+<strong> Output</strong>: 3
+</pre>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= num &lt;=</code>2^30 - 1
+	The result integer fits into 32-bit integer.
+</ol>

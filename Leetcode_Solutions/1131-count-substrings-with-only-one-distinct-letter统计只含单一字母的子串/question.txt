@@ -1,0 +1,62 @@
+count-substrings-with-only-one-distinct-letter
+给你一个字符串 <code>S</code>，返回只含 <strong>单一字母</strong> 的子串个数。
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入： </strong>&quot;aaaba&quot;
+<strong>输出： </strong>8
+<strong>解释： 
+</strong>只含单一字母的子串分别是 &quot;aaa&quot;， &quot;aa&quot;， &quot;a&quot;， &quot;b&quot;。
+&quot;aaa&quot; 出现 1 次。
+&quot;aa&quot; 出现 2 次。
+&quot;a&quot; 出现 4 次。
+&quot;b&quot; 出现 1 次。
+所以答案是 1 + 2 + 4 + 1 = 8。
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入： </strong>&quot;aaaaaaaaaa&quot;
+<strong>输出： </strong>55
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= S.length &lt;= 1000</code>
+	<code>S[i]</code> 仅由小写英文字母组成。
+</ol>
+
+统计只含单一字母的子串
+Given a string <code>S</code>,return the number of substrings that haveonly <strong>one distinct</strong> letter.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> S = &quot;aaaba&quot;
+<strong>Output:</strong> 8
+<strong>Explanation: </strong>The substrings with one distinct letter are &quot;aaa&quot;, &quot;aa&quot;, &quot;a&quot;, &quot;b&quot;.
+&quot;aaa&quot; occurs 1 time.
+&quot;aa&quot; occurs 2 times.
+&quot;a&quot; occurs 4 times.
+&quot;b&quot; occurs 1 time.
+So the answer is 1 + 2 + 4 + 1 = 8.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> S = &quot;aaaaaaaaaa&quot;
+<strong>Output:</strong> 55
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= S.length &lt;= 1000</code>
+	<code>S[i]</code> consists of only lowercase English letters.
+</ul>

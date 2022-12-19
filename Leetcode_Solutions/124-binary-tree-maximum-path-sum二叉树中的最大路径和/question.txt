@@ -1,0 +1,58 @@
+binary-tree-maximum-path-sum
+给定一个<strong>非空</strong>二叉树，返回其最大路径和。
+
+本题中，路径被定义为一条从树中任意节点出发，达到任意节点的序列。该路径<strong>至少包含一个</strong>节点，且不一定经过根节点。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> [1,2,3]
+
+       <strong>1</strong>
+      <strong>/ \</strong>
+     <strong>2</strong>   <strong>3</strong>
+
+<strong>输出:</strong> 6
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> [-10,9,20,null,null,15,7]
+
+  -10
+ / \
+ 9 <strong>20</strong>
+  <strong>/ \</strong>
+ <strong>15  7</strong>
+
+<strong>输出:</strong> 42</pre>
+
+二叉树中的最大路径和
+Given a <strong>non-empty</strong> binary tree, find the maximum path sum.
+
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain <strong>at least one node</strong> and does not need to go through the root.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> [1,2,3]
+
+       <strong>1</strong>
+      <strong>/ \</strong>
+     <strong>2</strong>   <strong>3</strong>
+
+<strong>Output:</strong> 6
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> [-10,9,20,null,null,15,7]
+
+  -10
+ / \
+ 9 <strong>20</strong>
+  <strong>/ \</strong>
+ <strong>15  7</strong>
+
+<strong>Output:</strong> 42
+</pre>

@@ -1,0 +1,102 @@
+number-of-corner-rectangles
+给定一个只包含 0 和 1 的网格，找出其中角矩形的数量。
+
+一个「角矩形」是由四个不同的在网格上的 1 形成的轴对称的矩形。注意只有角的位置才需要为 1。并且，4 个 1 需要是不同的。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>grid = 
+[[1, 0, 0, 1, 0],
+ [0, 0, 1, 0, 1],
+ [0, 0, 0, 1, 0],
+ [1, 0, 1, 0, 1]]
+<strong>输出：</strong>1
+<strong>解释：</strong>只有一个角矩形，角的位置为 grid[1][2], grid[1][4], grid[3][2], grid[3][4]。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>grid = 
+[[1, 1, 1],
+ [1, 1, 1],
+ [1, 1, 1]]
+<strong>输出：</strong>9
+<strong>解释：</strong>这里有 4 个 2x2 的矩形，4 个 2x3 和 3x2 的矩形和 1 个 3x3的矩形。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>grid = 
+[[1, 1, 1, 1]]
+<strong>输出：</strong>0
+<strong>解释：</strong>矩形必须有 4 个不同的角。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	网格 <code>grid</code> 中行和列的数目范围为<code>[1, 200]</code>。
+	每个网格 <code>grid[i][j]</code> 中的值不是 <code>0</code> 就是 <code>1</code> 。
+	网格中<code>1</code>的个数不会超过<code>6000</code>。
+</ol>
+
+
+
+角矩形的数量
+Given a grid where each entry is only 0 or 1, find the number of corner rectangles.
+
+A <em>corner rectangle</em> is 4 distinct 1s on the grid that form an axis-aligned rectangle. Note that only the corners need to have the value 1. Also, all four 1s used must be distinct.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> grid = 
+[[1, 0, 0, 1, 0],
+ [0, 0, 1, 0, 1],
+ [0, 0, 0, 1, 0],
+ [1, 0, 1, 0, 1]]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There is only one corner rectangle, with corners grid[1][2], grid[1][4], grid[3][2], grid[3][4].
+</pre>
+
+
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> grid = 
+[[1, 1, 1],
+ [1, 1, 1],
+ [1, 1, 1]]
+<strong>Output:</strong> 9
+<strong>Explanation:</strong> There are four 2x2 rectangles, four 2x3 and 3x2 rectangles, and one 3x3 rectangle.
+</pre>
+
+
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> grid = 
+[[1, 1, 1, 1]]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Rectangles must have four distinct corners.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	The number of rows and columns of <code>grid</code> will each be in the range <code>[1, 200]</code>.
+	Each <code>grid[i][j]</code> will be either <code>0</code> or <code>1</code>.
+	The number of <code>1</code>s in the grid will be at most <code>6000</code>.
+</ol>
+
+

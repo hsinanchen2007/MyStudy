@@ -1,0 +1,94 @@
+optimal-account-balancing
+一群朋友在度假期间会相互借钱。比如说，小爱同学支付了小新同学的午餐共计 10 美元。如果小明同学支付了小爱同学的出租车钱共计 5 美元。我们可以用一个三元组 (x, y, z) 表示一次交易，表示 x 借给 y 共计 z 美元。用 0, 1, 2 表示小爱同学、小新同学和小明同学（0, 1, 2 为人的标号），上述交易可以表示为 <code>[[0, 1, 10], [2, 0, 5]]</code>。
+
+给定一群人之间的交易信息列表，计算能够还清所有债务的最小次数。
+
+<strong>注意：</strong>
+
+<ol>
+	一次交易会以三元组 (x, y, z) 表示，并有<code>x &ne; y</code>且<code>z &gt; 0</code>。
+	人的标号可能不是按顺序的，例如标号可能为 0, 1, 2 也可能为 0, 2, 6。
+</ol>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>
+[[0,1,10], [2,0,5]]
+
+<strong>输出：</strong>
+2
+
+<strong>解释：</strong>
+人 #0 给人 #1 共计 10 美元。
+人 #2 给人 #0 共计 5 美元。
+
+需要两次交易。一种方式是人 #1 分别给人 #0 和人 #2 各 5 美元。
+</pre>
+
+
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>
+[[0,1,10], [1,0,1], [1,2,5], [2,0,5]]
+
+<strong>输出：</strong>
+1
+
+<strong>解释：</strong>
+人 #0 给人 #1 共计 10 美元。Person #0 gave person #1 $10.
+人 #1 给人 #0 共计 1 美元。Person #1 gave person #0 $1.
+人 #1 给人 #2 共计 5 美元。Person #1 gave person #2 $5.
+人 #2 给人 #0 共计 5 美元。Person #2 gave person #0 $5.
+
+因此，人 #1 需要给人 #0 共计 4 美元，所有的债务即可还清。
+</pre>
+
+
+
+最优账单平衡
+A group of friends went on holiday and sometimes lent each other money. For example, Alice paid for Bill's lunch for $10. Then later Chris gave Alice $5 for a taxi ride. We can model each transaction as a tuple (x, y, z) which means person x gave person y $z. Assuming Alice, Bill, and Chris are person 0, 1, and 2 respectively (0, 1, 2 are the person's ID), the transactions can be represented as <code>[[0, 1, 10], [2, 0, 5]]</code>.
+
+Given a list of transactions between a group of people, return the minimum number of transactions required to settle the debt.
+
+<b>Note:</b>
+<ol>
+A transaction will be given as a tuple (x, y, z). Note that <code>x &ne; y</code> and <code>z > 0</code>.
+Person's IDs may not be linear, e.g. we could have the persons 0, 1, 2 or we could also have the persons 0, 2, 6.
+</ol>
+
+
+<b>Example 1:</b>
+<pre>
+<b>Input:</b>
+[[0,1,10], [2,0,5]]
+
+<b>Output:</b>
+2
+
+<b>Explanation:</b>
+Person #0 gave person #1 $10.
+Person #2 gave person #0 $5.
+
+Two transactions are needed. One way to settle the debt is person #1 pays person #0 and #2 $5 each.
+</pre>
+
+
+<b>Example 2:</b>
+<pre>
+<b>Input:</b>
+[[0,1,10], [1,0,1], [1,2,5], [2,0,5]]
+
+<b>Output:</b>
+1
+
+<b>Explanation:</b>
+Person #0 gave person #1 $10.
+Person #1 gave person #0 $1.
+Person #1 gave person #2 $5.
+Person #2 gave person #0 $5.
+
+Therefore, person #1 only need to give person #0 $4, and all debt is settled.
+</pre>

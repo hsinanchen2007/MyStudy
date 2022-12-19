@@ -1,0 +1,55 @@
+construct-binary-tree-from-string
+你需要从一个包括括号和整数的字符串构建一棵二叉树。
+
+输入的字符串代表一棵二叉树。它包括整数和随后的0，1或2对括号。整数代表根的值，一对括号内表示同样结构的子树。
+
+若存在左子结点，则从左子结点开始构建。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> &quot;4(2(3)(1))(6(5))&quot;
+<strong>输出:</strong> 返回代表下列二叉树的根节点:
+
+       4
+     /   \
+    2     6
+   / \   / 
+  3   1 5   
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	输入字符串中只包含<code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;-&#39;</code>和<code>&#39;0&#39;</code> ~ <code>&#39;9&#39;</code>
+	空树由<code>&quot;&quot;</code>而非<code>&quot;()&quot;</code>表示。
+</ol>
+
+
+
+从字符串生成二叉树
+You need to construct a binary tree from a string consisting of parenthesis and integers. 
+
+The whole input represents a binary tree. It contains an integer followed by zero, one or two pairs of parenthesis. The integer represents the root's value and a pair of parenthesis contains a child binary tree with the same structure. 
+
+You always start to construct the <b>left</b> child node of the parent first if it exists.
+
+<b>Example:</b><br />
+<pre>
+<b>Input:</b> "4(2(3)(1))(6(5))"
+<b>Output:</b> return the tree root node representing the following tree:
+
+       4
+     /   \
+    2     6
+   / \   / 
+  3   1 5   
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+There will only be <code>'('</code>,  <code>')'</code>,  <code>'-'</code> and  <code>'0'</code> ~ <code>'9'</code> in the input string.
+An empty tree is represented by <code>""</code> instead of <code>"()"</code>.
+</ol>

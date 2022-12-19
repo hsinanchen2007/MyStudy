@@ -1,0 +1,92 @@
+remove-sub-folders-from-the-filesystem
+你是一位系统管理员，手里有一份文件夹列表 <code>folder</code>，你的任务是要删除该列表中的所有 <strong>子文件夹</strong>，并以 <strong>任意顺序</strong> 返回剩下的文件夹。
+
+我们这样定义「子文件夹」：
+
+<ul>
+	如果文件夹<code>folder[i]</code>位于另一个文件夹<code>folder[j]</code>下，那么<code>folder[i]</code>就是<code>folder[j]</code>的子文件夹。
+</ul>
+
+文件夹的「路径」是由一个或多个按以下格式串联形成的字符串：
+
+<ul>
+	<code>/</code>后跟一个或者多个小写英文字母。
+</ul>
+
+例如，<code>/leetcode</code>和<code>/leetcode/problems</code>都是有效的路径，而空字符串和<code>/</code>不是。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>folder = [&quot;/a&quot;,&quot;/a/b&quot;,&quot;/c/d&quot;,&quot;/c/d/e&quot;,&quot;/c/f&quot;]
+<strong>输出：</strong>[&quot;/a&quot;,&quot;/c/d&quot;,&quot;/c/f&quot;]
+<strong>解释：</strong>&quot;/a/b/&quot; 是 &quot;/a&quot; 的子文件夹，而 &quot;/c/d/e&quot; 是 &quot;/c/d&quot; 的子文件夹。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>folder = [&quot;/a&quot;,&quot;/a/b/c&quot;,&quot;/a/b/d&quot;]
+<strong>输出：</strong>[&quot;/a&quot;]
+<strong>解释：</strong>文件夹 &quot;/a/b/c&quot; 和 &quot;/a/b/d/&quot; 都会被删除，因为它们都是 &quot;/a&quot; 的子文件夹。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>folder = [&quot;/a/b/c&quot;,&quot;/a/b/d&quot;,&quot;/a/b/ca&quot;]
+<strong>输出：</strong>[&quot;/a/b/c&quot;,&quot;/a/b/ca&quot;,&quot;/a/b/d&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= folder.length&lt;= 4 * 10^4</code>
+	<code>2 &lt;= folder[i].length &lt;= 100</code>
+	<code>folder[i]</code>只包含小写字母和 <code>/</code>
+	<code>folder[i]</code>总是以字符 <code>/</code>起始
+	每个文件夹名都是唯一的
+</ul>
+
+删除子文件夹
+Given a list of folders, remove all sub-folders in those folders and return in <strong>any order</strong> the folders after removing.
+
+If a <code>folder[i]</code> is located withinanother <code>folder[j]</code>, it is called asub-folderof it.
+
+The format of a path isone or more concatenated strings of the form:<code>/</code>followed by one or more lowercase English letters. For example,<code>/leetcode</code>and<code>/leetcode/problems</code>are valid paths while an empty string and<code>/</code>are not.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> folder = [&quot;/a&quot;,&quot;/a/b&quot;,&quot;/c/d&quot;,&quot;/c/d/e&quot;,&quot;/c/f&quot;]
+<strong>Output:</strong> [&quot;/a&quot;,&quot;/c/d&quot;,&quot;/c/f&quot;]
+<strong>Explanation:</strong> Folders &quot;/a/b/&quot; is a subfolder of &quot;/a&quot; and &quot;/c/d/e&quot; is inside of folder &quot;/c/d&quot; in our filesystem.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> folder = [&quot;/a&quot;,&quot;/a/b/c&quot;,&quot;/a/b/d&quot;]
+<strong>Output:</strong> [&quot;/a&quot;]
+<strong>Explanation:</strong> Folders &quot;/a/b/c&quot; and &quot;/a/b/d/&quot; will be removed because they are subfolders of &quot;/a&quot;.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> folder = [&quot;/a/b/c&quot;,&quot;/a/b/ca&quot;,&quot;/a/b/d&quot;]
+<strong>Output:</strong> [&quot;/a/b/c&quot;,&quot;/a/b/ca&quot;,&quot;/a/b/d&quot;]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= folder.length&lt;= 4 * 10^4</code>
+	<code>2 &lt;= folder[i].length &lt;= 100</code>
+	<code>folder[i]</code> contains onlylowercase letters and &#39;/&#39;
+	<code>folder[i]</code> always starts with character &#39;/&#39;
+	Each folder name is unique.
+</ul>

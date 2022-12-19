@@ -1,0 +1,60 @@
+1-bit-and-2-bit-characters
+有两种特殊字符。第一种字符可以用一比特<code>0</code>来表示。第二种字符可以用两比特(<code>10</code>或<code>11</code>)来表示。
+
+现给一个由若干比特组成的字符串。问最后一个字符是否必定为一个一比特字符。给定的字符串总是由0结束。
+
+<strong>示例1:</strong>
+
+<pre>
+<strong>输入:</strong> 
+bits = [1, 0, 0]
+<strong>输出:</strong> True
+<strong>解释:</strong> 
+唯一的编码方式是一个两比特字符和一个一比特字符。所以最后一个字符是一比特字符。
+</pre>
+
+<strong>示例2:</strong>
+
+<pre>
+<strong>输入:</strong> 
+bits = [1, 1, 1, 0]
+<strong>输出:</strong> False
+<strong>解释:</strong> 
+唯一的编码方式是两比特字符和两比特字符。所以最后一个字符不是一比特字符。
+</pre>
+
+<strong>注意:</strong>
+
+<ul>
+	<code>1 &lt;= len(bits) &lt;= 1000</code>.
+	<code>bits[i]</code> 总是<code>0</code> 或<code>1</code>.
+</ul>
+
+1比特与2比特字符
+We have two special characters. The first character can be represented by one bit <code>0</code>. The second character can be represented by two bits (<code>10</code> or <code>11</code>).  
+
+Now given a string represented by several bits. Return whether the last character must be a one-bit character or not. The given string will always end with a zero.
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> 
+bits = [1, 0, 0]
+<b>Output:</b> True
+<b>Explanation:</b> 
+The only way to decode it is two-bit character and one-bit character. So the last character is one-bit character.
+</pre>
+
+
+<b>Example 2:</b><br />
+<pre>
+<b>Input:</b> 
+bits = [1, 1, 1, 0]
+<b>Output:</b> False
+<b>Explanation:</b> 
+The only way to decode it is two-bit character and two-bit character. So the last character is NOT one-bit character.
+</pre>
+
+
+<b>Note:</b>
+<code>1 <= len(bits) <= 1000</code>.
+<code>bits[i]</code> is always <code>0</code> or <code>1</code>.

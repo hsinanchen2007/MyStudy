@@ -1,0 +1,63 @@
+divide-array-into-increasing-sequences
+给你一个 <strong>非递减</strong> 的正整数数组<code>nums</code>和整数<code>K</code>，判断该数组是否可以被分成一个或几个<strong>长度至少为 </strong><code>K</code><strong> 的 不相交的递增子序列</strong>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>nums = [1,2,2,3,3,4,4], K = 3
+<strong>输出：</strong>true
+<strong>解释：</strong>
+该数组可以分成两个子序列 [1,2,3,4] 和 [2,3,4]，每个子序列的长度都至少是 3。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>nums = [5,6,6,7,8], K = 3
+<strong>输出：</strong>false
+<strong>解释：</strong>
+没有办法根据条件来划分数组。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= nums.length&lt;= 10^5</code>
+	<code>1 &lt;= K &lt;= nums.length</code>
+	<code>1 &lt;= nums[i] &lt;= 10^5</code>
+</ol>
+
+将数组分成几个递增序列
+Given a <strong>non-decreasing</strong> array of positive integers<code>nums</code>and an integer <code>K</code>, find out if this array can be divided into one or more <strong>disjoint increasing subsequences of length at least</strong> <code>K</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>nums = <span id="example-input-1-1">[1,2,2,3,3,4,4]</span>, K = <span id="example-input-1-2">3</span>
+<strong>Output: </strong><span id="example-output-1">true</span>
+<strong>Explanation: </strong>
+The array can be divided into the two subsequences [1,2,3,4] and [2,3,4] with lengths at least 3 each.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>nums = <span id="example-input-2-1">[5,6,6,7,8]</span>, K = <span id="example-input-2-2">3</span>
+<strong>Output: </strong><span id="example-output-2">false</span>
+<strong>Explanation: </strong>
+There is no way to divide the array using the conditions required.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= nums.length&lt;= 10^5</code>
+	<code>1 &lt;= K &lt;= nums.length</code>
+	<code>1 &lt;= nums[i] &lt;= 10^5</code>
+</ol>

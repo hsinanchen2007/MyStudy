@@ -1,0 +1,143 @@
+word-squares
+给定一个单词集合 <strong>（没有重复）</strong>，找出其中所有的 <a href="https://en.wikipedia.org/wiki/Word_square">单词方块</a><strong></strong>。
+
+一个单词序列形成了一个有效的单词方块的意思是指从第 k 行和第 k 列 (0 &le; <em>k</em> &lt; max(行数, 列数)) 来看都是相同的字符串。
+
+例如，单词序列<code>[&quot;ball&quot;,&quot;area&quot;,&quot;lead&quot;,&quot;lady&quot;]</code>形成了一个单词方块，因为每个单词从水平方向看和从竖直方向看都是相同的。
+
+<pre>b a l l
+a r e a
+l e a d
+l a d y
+</pre>
+
+<strong>注意：</strong>
+
+<ol>
+	单词个数大于等于 1 且不超过500。
+	所有的单词长度都相同。
+	单词长度大于等于 1 且不超过5。
+	每个单词只包含小写英文字母<code>a-z</code>。
+</ol>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>
+[&quot;area&quot;,&quot;lead&quot;,&quot;wall&quot;,&quot;lady&quot;,&quot;ball&quot;]
+
+<strong>输出：</strong>
+[
+  [ &quot;wall&quot;,
+    &quot;area&quot;,
+    &quot;lead&quot;,
+    &quot;lady&quot;
+  ],
+  [ &quot;ball&quot;,
+    &quot;area&quot;,
+    &quot;lead&quot;,
+    &quot;lady&quot;
+  ]
+]
+
+<strong>解释：</strong>
+输出包含两个单词方块，输出的顺序不重要，只需要保证每个单词方块内的单词顺序正确即可。 
+</pre>
+
+
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>
+[&quot;abat&quot;,&quot;baba&quot;,&quot;atan&quot;,&quot;atal&quot;]
+
+<strong>输出：</strong>
+[
+  [ &quot;baba&quot;,
+    &quot;abat&quot;,
+    &quot;baba&quot;,
+    &quot;atan&quot;
+  ],
+  [ &quot;baba&quot;,
+    &quot;abat&quot;,
+    &quot;baba&quot;,
+    &quot;atal&quot;
+  ]
+]
+
+<strong>解释：</strong>
+输出包含两个单词方块，输出的顺序不重要，只需要保证每个单词方块内的单词顺序正确即可。 
+</pre>
+
+
+
+单词方块
+Given a set of words <b>(without duplicates)</b>, find all <a href="https://en.wikipedia.org/wiki/Word_square" target="_blank">word squares</a> you can build from them.
+
+A sequence of words forms a valid word square if the <i>k</i><sup>th</sup> row and column read the exact same string, where 0 &le; <i>k</i> &lt; max(numRows, numColumns).
+
+For example, the word sequence <code>["ball","area","lead","lady"]</code> forms a word square because each word reads the same both horizontally and vertically.
+
+<pre>
+b a l l
+a r e a
+l e a d
+l a d y
+</pre>
+
+<b>Note:</b><br />
+<ol>
+There are at least 1 and at most 1000 words.
+All words will have the exact same length.
+Word length is at least 1 and at most 5.
+Each word contains only lowercase English alphabet <code>a-z</code>.
+</ol>
+
+
+<b>Example 1:</b>
+<pre>
+<b>Input:</b>
+["area","lead","wall","lady","ball"]
+
+<b>Output:</b>
+[
+  [ "wall",
+    "area",
+    "lead",
+    "lady"
+  ],
+  [ "ball",
+    "area",
+    "lead",
+    "lady"
+  ]
+]
+
+<b>Explanation:</b>
+The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).
+</pre>
+
+
+<b>Example 2:</b>
+<pre>
+<b>Input:</b>
+["abat","baba","atan","atal"]
+
+<b>Output:</b>
+[
+  [ "baba",
+    "abat",
+    "baba",
+    "atan"
+  ],
+  [ "baba",
+    "abat",
+    "baba",
+    "atal"
+  ]
+]
+
+<b>Explanation:</b>
+The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).
+</pre>

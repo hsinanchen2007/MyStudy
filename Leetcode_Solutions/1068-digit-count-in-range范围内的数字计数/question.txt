@@ -1,0 +1,62 @@
+digit-count-in-range
+给定一个在 <code>0</code>到<code>9</code> 之间的整数<code>d</code>，和两个正整数<code>low</code>和<code>high</code>分别作为上下界。返回<code>d</code> 在<code>low</code>和<code>high</code>之间的整数中出现的次数，包括边界<code>low</code> 和<code>high</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>d = 1, low = 1, high = 13
+<strong>输出：</strong>6
+<strong>解释： </strong>
+数字 <code>d=1</code> 在 <code>1,10,11,12,13 中出现 6 次</code>。注意 <code>d=1</code> 在数字 11 中出现两次。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>d = 3, low = 100, high = 250
+<strong>输出：</strong>35
+<strong>解释：</strong>
+数字 <code>d=3</code> 在 <code>103,113,123,130,131,...,238,239,243 出现 35 次。</code>
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= d &lt;= 9</code>
+	<code>1 &lt;= low &lt;= high &lt;= 2&times;10^8</code>
+</ol>
+
+范围内的数字计数
+Given an integer <code>d</code> between <code>0</code> and <code>9</code>, and two positive integers <code>low</code> and <code>high</code> as lower and upper bounds, respectively. Return the number of times that <code>d</code> occurs as a digit in all integers between <code>low</code> and <code>high</code>, including the bounds <code>low</code> and <code>high</code>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>d = <span id="example-input-1-1">1</span>, low = <span id="example-input-1-2">1</span>, high = <span id="example-input-1-3">13</span>
+<strong>Output: </strong><span id="example-output-1">6</span>
+<strong>Explanation: </strong>
+The digit <code>d=1</code> occurs <code>6</code> times in <code>1,10,11,12,13</code>. Note that the digit <code>d=1</code> occurs twice in the number <code>11</code>.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>d = <span id="example-input-2-1">3</span>, low = <span id="example-input-2-2">100</span>, high = <span id="example-input-2-3">250</span>
+<strong>Output: </strong><span id="example-output-2">35</span>
+<strong>Explanation: </strong>
+The digit <code>d=3</code> occurs <code>35</code> times in <code>103,113,123,130,131,...,238,239,243</code>.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= d &lt;= 9</code>
+	<code>1 &lt;= low &lt;= high &lt;= 2&times;10^8</code>
+</ol>
+</div>

@@ -1,0 +1,83 @@
+binary-tree-upside-down
+给定一个二叉树，其中所有的右节点要么是具有兄弟节点（拥有相同父节点的左节点）的叶节点，要么为空，将此二叉树上下翻转并将它变成一棵树， 原来的右节点将转换成左叶节点。返回新的根。
+
+<strong>例子:</strong>
+
+<pre><strong>输入: </strong>[1,2,3,4,5]
+
+    1
+   / \
+  2   3
+ / \
+4   5
+
+<strong>输出:</strong> 返回二叉树的根 [4,5,2,#,#,3,1]
+
+   4
+  / \
+ 5   2
+    / \
+   3   1  
+</pre>
+
+<strong>说明:</strong>
+
+对 <code>[4,5,2,#,#,3,1]</code> 感到困惑? 下面详细介绍请查看<a href="https://support.leetcode-cn.com/hc/kb/article/1194353/" target="_blank">二叉树是如何被序列化的</a>。
+
+二叉树的序列化遵循层次遍历规则，当没有节点存在时，&#39;#&#39; 表示路径终止符。
+
+这里有一个例子:
+
+<pre>   1
+  / \
+ 2   3
+    /
+   4
+    \
+     5
+</pre>
+
+上面的二叉树则被序列化为 <code>[1,2,3,#,#,4,#,#,5]</code>.
+
+上下翻转二叉树
+Given a binary tree where all the right nodes are either leaf nodes with a sibling (a left node that shares the same parent node) or empty, flip it upside down and turn it into a tree where the original right nodes turned into left leaf nodes. Return the new root.
+
+<strong>Example:</strong>
+
+<pre>
+<strong>Input: </strong>[1,2,3,4,5]
+
+    1
+   / \
+  2   3
+ / \
+4   5
+
+<strong>Output:</strong> return the root of the binary tree [4,5,2,#,#,3,1]
+
+   4
+  / \
+ 5   2
+    / \
+   3   1  
+</pre>
+
+<strong>Clarification:</strong>
+
+Confused what <code>[4,5,2,#,#,3,1<font face="monospace">]</font></code>means? Read more below on how binary tree is serialized on OJ.
+
+The serialization of a binary tree follows a level order traversal, where &#39;#&#39; signifies a path terminator where no node exists below.
+
+Here&#39;s an example:
+
+<pre>
+   1
+  / \
+ 2   3
+    /
+   4
+    \
+     5
+</pre>
+
+The above binary tree is serialized as <code>[1,2,3,#,#,4,#,#,5]</code>.

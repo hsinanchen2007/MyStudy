@@ -1,0 +1,64 @@
+online-election
+在选举中，第<code>i</code>张票是在时间为<code>times[i]</code>时投给<code>persons[i]</code>的。
+
+现在，我们想要实现下面的查询函数： <code>TopVotedCandidate.q(int t)</code> 将返回在<code>t</code> 时刻主导选举的候选人的编号。
+
+在<code>t</code> 时刻投出的选票也将被计入我们的查询之中。在平局的情况下，最近获得投票的候选人将会获胜。
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>[&quot;TopVotedCandidate&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;], [[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]
+<strong>输出：</strong>[null,0,1,1,0,0,1]
+<strong>解释：</strong>
+时间为 3，票数分布情况是 [0]，编号为 0 的候选人领先。
+时间为 12，票数分布情况是 [0,1,1]，编号为 1 的候选人领先。
+时间为 25，票数分布情况是 [0,1,1,0,0,1]，编号为 1 的候选人领先（因为最近的投票结果是平局）。
+在时间 15、24 和 8 处继续执行 3 个查询。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= persons.length = times.length &lt;= 5000</code>
+	<code>0 &lt;= persons[i] &lt;= persons.length</code>
+	<code>times</code>是严格递增的数组，所有元素都在<code>[0, 10^9]</code>范围中。
+	每个测试用例最多调用<code>10000</code>次<code>TopVotedCandidate.q</code>。
+	<code>TopVotedCandidate.q(int t)</code>被调用时总是满足<code>t &gt;= times[0]</code>。
+</ol>
+
+在线选举
+In an election, the <code>i</code>-thvote was cast for <code>persons[i]</code> at time <code>times[i]</code>.
+
+Now, we would like to implement the following query function: <code>TopVotedCandidate.q(int t)</code> will return the number of the person that was leading the election at time <code>t</code>.
+
+Votes cast at time <code>t</code> will count towards our query. In the case of a tie, the most recent vote (among tied candidates) wins.
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[&quot;TopVotedCandidate&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;]</span>, <span id="example-input-1-2">[[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]</span>
+<strong>Output: </strong><span id="example-output-1">[null,0,1,1,0,0,1]</span>
+<strong>Explanation: </strong>
+At time 3, the votes are [0], and 0 is leading.
+At time 12, the votes are [0,1,1], and 1 is leading.
+At time 25, the votes are [0,1,1,0,0,1], and 1 is leading (as ties go to the most recent vote.)
+This continues for 3 more queries at time 15, 24, and 8.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= persons.length = times.length &lt;= 5000</code>
+	<code>0 &lt;= persons[i] &lt;= persons.length</code>
+	<code>times</code>is a strictly increasing array with all elements in <code>[0, 10^9]</code>.
+	<code>TopVotedCandidate.q</code> is called at most <code>10000</code> times per test case.
+	<code>TopVotedCandidate.q(int t)</code> is always called with <code>t &gt;= times[0]</code>.
+</ol>
+</div>

@@ -1,0 +1,106 @@
+number-of-steps-to-reduce-a-number-in-binary-representation-to-one
+给你一个以二进制形式表示的数字 <code>s</code> 。请你返回按下述规则将其减少到 1 所需要的步骤数：
+
+<ul>
+	
+	如果当前数字为偶数，则将其除以 2 。
+	
+	
+	如果当前数字为奇数，则将其加上 1 。
+	
+</ul>
+
+题目保证你总是可以按上述规则将测试用例变为 1 。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;1101&quot;
+<strong>输出：</strong>6
+<strong>解释：</strong>&quot;1101&quot; 表示十进制数 13 。
+Step 1) 13 是奇数，加 1 得到 14
+Step 2) 14 是偶数，除 2 得到 7
+Step 3) 7  是奇数，加 1 得到 8
+Step 4) 8  是偶数，除 2 得到 4 
+Step 5) 4  是偶数，除 2 得到 2
+Step 6) 2  是偶数，除 2 得到 1 
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;10&quot;
+<strong>输出：</strong>1
+<strong>解释：</strong>&quot;10&quot; 表示十进制数 2 。
+Step 1) 2 是偶数，除 2 得到 1 
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;1&quot;
+<strong>输出：</strong>0
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length&lt;= 500</code>
+	<code>s</code> 由字符 <code>&#39;0&#39;</code> 或 <code>&#39;1&#39;</code> 组成。
+	<code>s[0] == &#39;1&#39;</code>
+</ul>
+
+将二进制表示减到 1 的步骤数
+Given a number<code>s</code> in their binary representation. Return the number of steps to reduce it to 1 under the following rules:
+
+<ul>
+	
+	If the current number is even, you have to divide it by 2.
+	
+	
+	If the current number is odd, you have to add 1 to it.
+	
+</ul>
+
+It&#39;s guaranteed that you can always reach to one for all testcases.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;1101&quot;
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> &quot;1101&quot; corressponds to number 13 in their decimal representation.
+Step 1) 13 is odd, add 1 and obtain 14.
+Step 2) 14 is even, divide by 2 and obtain 7.
+Step 3) 7 is odd, add 1 and obtain 8.
+Step 4) 8 is even, divide by 2 and obtain 4. 
+Step 5) 4 is even, divide by 2 and obtain 2.
+Step 6) 2 is even, divide by 2 and obtain 1. 
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;10&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> &quot;10&quot; corressponds to number 2 in their decimal representation.
+Step 1) 2 is even, divide by 2 and obtain 1. 
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;1&quot;
+<strong>Output:</strong> 0
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length&lt;= 500</code>
+	<code>s</code> consists of characters &#39;0&#39; or &#39;1&#39;
+	<code>s[0] == &#39;1&#39;</code>
+</ul>

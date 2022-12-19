@@ -1,0 +1,69 @@
+string-without-aaa-or-bbb
+给定两个整数<code>A</code>和<code>B</code>，返回<strong>任意</strong>字符串 <code>S</code>，要求满足：
+
+<ul>
+	<code>S</code> 的长度为<code>A + B</code>，且正好包含<code>A</code>个 <code>&#39;a&#39;</code>字母与<code>B</code>个 <code>&#39;b&#39;</code>字母；
+	子串<code>&#39;aaa&#39;</code>没有出现在<code>S</code>中；
+	子串<code>&#39;bbb&#39;</code> 没有出现在<code>S</code>中。
+</ul>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>A = 1, B = 2
+<strong>输出：</strong>&quot;abb&quot;
+<strong>解释：</strong>&quot;abb&quot;, &quot;bab&quot; 和 &quot;bba&quot; 都是正确答案。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>A = 4, B = 1
+<strong>输出：</strong>&quot;aabaa&quot;</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= A &lt;= 100</code>
+	<code>0 &lt;= B &lt;= 100</code>
+	对于给定的 <code>A</code> 和 <code>B</code>，保证存在满足要求的 <code>S</code>。
+</ol>
+
+不含 AAA 或 BBB 的字符串
+Given two integers <code>A</code> and <code>B</code>, return <strong>any</strong> string <code>S</code> such that:
+
+<ul>
+	<code>S</code> has length <code>A + B</code> and contains exactly <code>A</code> <code>&#39;a&#39;</code> letters, and exactly <code>B</code> <code>&#39;b&#39;</code> letters;
+	The substring<code>&#39;aaa&#39;</code>does not occur in <code>S</code>;
+	The substring <code>&#39;bbb&#39;</code> does not occur in <code>S</code>.
+</ul>
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-1-1">1</span>, B = <span id="example-input-1-2">2</span>
+<strong>Output: </strong><span id="example-output-1">&quot;abb&quot;
+</span><strong>Explanation:</strong> &quot;abb&quot;, &quot;bab&quot; and &quot;bba&quot; are all correct answers.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>A = <span id="example-input-2-1">4</span>, B = <span id="example-input-2-2">1</span>
+<strong>Output: </strong><span id="example-output-2">&quot;aabaa&quot;</span></pre>
+
+
+</div>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= A &lt;= 100</code>
+	<code>0 &lt;= B &lt;= 100</code>
+	It is guaranteed such an <code>S</code> exists for the given <code>A</code> and <code>B</code>.
+</ol>

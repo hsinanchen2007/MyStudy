@@ -1,0 +1,307 @@
+* Binary Search
+    Overview
+        Vanilla Binary Search
+        Finding the Boundary
+    Sorted Array
+        First Element Not Smaller Than Target
+        First Occurrence
+        Square Root
+    Implicitly Sorted Array
+        Minimum in Rotated Sorted Array
+        Peak of Mountain Array
+    Advanced
+        Capacity to Ship Packages Within D Days
+        Newspapers
+
+* Depth First Search
+    Introduction
+        Recursion Review
+        DFS Fundamentals
+    DFS on Tree
+        Introduction
+        Max Depth of A Tree
+        Visible Tree Node
+        Balanced Binary Tree
+        Serializing and Deserializing Binary Tree
+        Lowest Common Ancestor
+    Binary Search Tree
+        Binary Search Tree Intro
+        Valid Binary Search Tree
+        Insert Into BST
+        Invert Binary Tree
+
+* Backtracking
+    Combinatorial Search
+        DFS with States
+        Backtracking Fundamentals
+        Permutations
+        Letter Combinations of Phone Number
+    Memoization
+        Memoization Intro
+        Word Break
+        Decode Ways
+    Pruning
+        Introduction
+        Palindrome Partitioning
+    Dedup
+        Combination Sum
+    Additional Practices
+        Subsets
+
+* Breadth First Search
+    Introduction
+        BFS Fundamentals
+    BFS on Tree
+        Binary Tree Level Order Traversal
+        Binary Tree ZigZag Level Order Traversal
+        Binary Tree Right Side View
+        Binary Tree Min Depth
+
+* Graph
+    Introduction
+        Graph Fundamentals
+        BFS on Graphs
+        DFS on Graph
+        BFS or DFS
+    Vanilla BFS
+        Shortest Path
+    Matrix as Graph
+        Matrix as Graph
+        Flood Fill
+        Number of Islands
+        Knight Minimum Moves
+        Walls and Gates / Zombie in Matrix
+    Implicit Graph
+        Open the Lock
+        Word Ladder
+        Sliding Puzzle
+    Directed Graph / Topological Sort
+        Topological Sort Introduction
+        Task Scheduling
+        Reconstructing Sequence
+        Task Scheduling 2
+        Alien Dictionary
+        Course Schedule
+    Weighted Graph
+        Dijkstra's Algorithm | Shortest Path in a Weighted Graph
+        Uniform Cost Search | Shortest Path in a Weighted Graph
+    Minimum Spanning Tree
+        Introduction to Minimum Spanning Tree
+        Minimum Spanning Tree | Forests
+
+* Two Pointers
+    Introduction
+        Two Pointers Introduction
+    Same Direction
+        Remove Duplicates
+        Middle of a Linked List
+        Move Zeros
+    Opposite Direction
+        Two Sum Sorted
+        Valid Palindrome
+    Sliding Window
+        Longest Substring without Repeating Characters
+        Find All Anagrams in a String
+        Minimum Window Substring
+    Prefix Sum
+        Subarray Sum
+    Cycle Finding
+        Linked List Cycle
+    Advanced
+        Get the Maximum Score
+        Trapping Rain Water
+
+* Priority Queue/Heap
+    Introduction
+        Heap Fundamentals
+    Top K
+        K Closest points
+        Merge K Sorted Lists
+        Kth Largest Element in an Array
+        Kth Smallest Element in a Sorted Matrix
+    Moving Best
+        Reorganize String
+        Ugly Number
+    Multiple Heaps
+        Median of Data Stream
+
+* Dynamic Programming
+    Introduction
+        Dynamic Programming Introduction and Patterns
+    Sequence
+        House Robber
+        Coin Change
+    Grid
+        Number of Robot Paths
+        Minimal Path Sum
+        Maximal Square
+        Plumber
+    Dynamic number of subproblems
+        Longest Increasing Subsequence
+        Russian Doll Envelopes
+        Largest Divisible Subset
+    Partition
+        Triangle
+        Partition to Two Equal Sum Subsets
+    Interval
+        Palindrome Counting
+        Palindrome Partitioning DP
+        Combine String
+        Festival Game
+    Two Sequences
+        Edit Distance
+        Delete String
+        Longest Common Subsequence
+    Game Theory
+        Divisor Game
+    0-1 Knapsack
+        0-1 Knapsack Problem | Dynamic Programming
+        Perfect Squares
+        Perfect Squares 2
+        Sequence Check
+    Bitmask
+        Bitmask Introduction
+        Min Cost to Visit Every Node
+
+* Advanced Data Structure
+    Disjoint Set Union | Union Find
+        DSU/Union Find Fundamentals
+        DSU Introductory Problem
+        Size of Connect Components
+        Umbristan | Reverse Union Find
+        Merge User Accounts
+        Number of Connected Components
+    Trie
+        Trie Introduction
+        Autocomplete
+        Prefix Count
+    Data Structure Design
+        LRU Cache
+    Segment Tree
+        Segment Tree
+        Range max
+
+* Miscellaneous
+    Interval
+        Intervals
+        Merge Intervals
+        Insert Interval
+        Meeting Room
+    Monotonic Stack
+        Monotonic Stack/Queue Intro
+        Sliding Window Maximum
+        Daily Temperatures
+        Next Greater Element II
+        Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+        Sum of Subarray Minimums
+    Divide and Conquer
+        Divide and Conquer Intro
+        The Skyline Problem
+        Count of Smaller Numbers After Self
+    Line Sweep
+        Line-Sweep Introduction
+    Tree Traversal without Recursion
+        Closest BST Values II
+    Greedy
+        Gas Station
+    Composite Patterns
+        Train Ride
+        Train Ride II
+        Train Ride III
+        Word Search II | Depth First Search + Trie
+    Math
+        Prime Sieve Introduction
+        N-th prime
+    Matrix
+        Sparse Matrix Multiplication
+
+* Object Oriented Design
+    Classics
+        Playing Cards
+        Parking Spots
+        Public Library
+        Call Center
+        Vending Machine
+
+* System Design
+    Concepts
+        Load Balancing
+        Partition and Sharding
+        Caching
+    Projects
+        URL Shortener | TinyURL | System Design Interview Question
+        Web Crawler
+
+* Company Specific Questions
+Amazon OA
+    Amazon Online Assessment Questions 2021 (OA)
+    Robot in Circle
+    Number Game
+    Find All Combination of Numbers that Sum to a Target
+    Fill The Truck
+    Slowest Key
+    Five Star Sellers
+    Number of Ways to Split Into Primes
+    Storage Optimization
+    Music Pair
+    Minimum Difficulty of a Job Schedule
+    Autoscale Policy, Utilization Check
+    Optimal Utilization
+    Merge Two Sorted Lists
+    Two Sum - Unique Pairs
+    Shopping Patterns
+    Amazon Prime Air Delivery Route
+    Reorder Data in Log Files
+    Top K Frequently Mentioned Keywords
+Microsoft OA
+    Microsoft Online Assessment Questions
+    Max Network Rank
+    Minimum Adj Swaps to Make Palindrome
+    Lexicographically Smallest String
+    Longest Substring Without 3 Contiguous Occurrences of Letter
+    Min Moves to Obtain String Without 3 Identical Consecutive Letters
+    String Without 3 Identical Consecutive Letters
+    Longest Semi-Alternating Substring
+    Min Steps to Make Piles Equal Height
+    Day of week that is K days later
+    Max Inserts to Obtain String Without 3 Consecutive 'a'
+    Concatenated String Length with unique Characters
+    Largest K such that both K and -K exist in array
+    Min Adj Swaps to Group Red Balls
+    Maximum Length of a Concatenated String with Unique Characters
+    Unique Integers That Sum Up To 0
+    Min Deletions To Obtain String in Right Format
+    Particle Velocity
+    Widest Path Without Trees
+    Jump Game
+    Fair Indexes
+    Partition array into N subsets with balanced sum
+Google OA
+    Google Online Assessment Questions 2021 (OA)
+    Compare Strings
+    Largest Subarray
+    Maximum Area Serving Cake
+    Minimum Number of Decreasing Subsequence Partitions
+    Pick Up Coupons
+    Rose Garden
+    Smallest Integer Satisfying the Rule
+    Fill 2D Array
+    Water Plants
+    Split Strings
+    Google Online Assessment 2021 (OA) - Rings on Rods
+    Google Online Assessment 2021 (OA) - Longest Palindrome
+Twitter OA
+    Twitter Online Assessment Questions 2021 (OA)
+    K-Different Pairs
+    Weird Faculty
+    Social Network
+    University Career Fair
+    Game Events
+    Activate Fountain
+    Final Discounted Price
+    Partition Array
+    Authentication Tokens
+    Parking Dilemma
+    Efficient Job Processing Service
+    Unique Twitter User ID Set
+

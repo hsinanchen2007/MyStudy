@@ -1,0 +1,94 @@
+number-of-closed-islands
+有一个二维矩阵 <code>grid</code>，每个位置要么是陆地（记号为<code>0</code> ）要么是水域（记号为<code>1</code> ）。
+
+我们从一块陆地出发，每次可以往上下左右4 个方向相邻区域走，能走到的所有陆地区域，我们将其称为一座「<strong>岛屿</strong>」。
+
+如果一座岛屿<strong>完全</strong>由水域包围，即陆地边缘上下左右所有相邻区域都是水域，那么我们将其称为 「<strong>封闭岛屿</strong>」。
+
+请返回封闭岛屿的数目。
+
+
+
+<strong>示例 1：</strong>
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/11/07/sample_3_1610.png">
+
+<pre><strong>输入：</strong>grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
+<strong>输出：</strong>2
+<strong>解释：</strong>
+灰色区域的岛屿是封闭岛屿，因为这座岛屿完全被水域包围（即被 1 区域包围）。</pre>
+
+<strong>示例 2：</strong>
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/11/07/sample_4_1610.png">
+
+<pre><strong>输入：</strong>grid = [[0,0,1,0,0],[0,1,0,1,0],[0,1,1,1,0]]
+<strong>输出：</strong>1
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>grid = [[1,1,1,1,1,1,1],
+            [1,0,0,0,0,0,1],
+            [1,0,1,1,1,0,1],
+            [1,0,1,0,1,0,1],
+            [1,0,1,1,1,0,1],
+            [1,0,0,0,0,0,1],
+             [1,1,1,1,1,1,1]]
+<strong>输出：</strong>2
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= grid.length, grid[0].length &lt;= 100</code>
+	<code>0 &lt;= grid[i][j] &lt;=1</code>
+</ul>
+
+统计封闭岛屿的数目
+Given a 2D<code>grid</code> consists of <code>0s</code> (land)and <code>1s</code> (water). An <em>island</em> is a maximal 4-directionally connected group of <code><font face="monospace">0</font>s</code> and a <em>closed island</em>is an island <strong>totally</strong>(all left, top, right, bottom) surrounded by <code>1s.</code>
+
+Return the number of <em>closed islands</em>.
+
+
+<strong>Example 1:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/10/31/sample_3_1610.png" style="width: 240px; height: 120px;" />
+
+<pre>
+<strong>Input:</strong> grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> 
+Islands in gray are closed because they are completely surrounded by water (group of 1s).</pre>
+
+<strong>Example 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2019/10/31/sample_4_1610.png" style="width: 160px; height: 80px;" />
+
+<pre>
+<strong>Input:</strong> grid = [[0,0,1,0,0],[0,1,0,1,0],[0,1,1,1,0]]
+<strong>Output:</strong> 1
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> grid = [[1,1,1,1,1,1,1],
+              [1,0,0,0,0,0,1],
+              [1,0,1,1,1,0,1],
+              [1,0,1,0,1,0,1],
+              [1,0,1,1,1,0,1],
+              [1,0,0,0,0,0,1],
+               [1,1,1,1,1,1,1]]
+<strong>Output:</strong> 2
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= grid.length, grid[0].length &lt;= 100</code>
+	<code>0 &lt;= grid[i][j] &lt;=1</code>
+</ul>

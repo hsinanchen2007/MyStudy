@@ -1,0 +1,38 @@
+shortest-unsorted-continuous-subarray
+给定一个整数数组，你需要寻找一个<strong>连续的子数组</strong>，如果对这个子数组进行升序排序，那么整个数组都会变为升序排序。
+
+你找到的子数组应是<strong>最短</strong>的，请输出它的长度。
+
+<strong>示例 1:</strong>
+
+<pre>
+<strong>输入:</strong> [2, 6, 4, 8, 10, 9, 15]
+<strong>输出:</strong> 5
+<strong>解释:</strong> 你只需要对 [6, 4, 8, 10, 9] 进行升序排序，那么整个表都会变为升序排序。
+</pre>
+
+<strong>说明 :</strong>
+
+<ol>
+	输入的数组长度范围在[1, 10,000]。
+	输入的数组可能包含<strong>重复</strong>元素，所以<strong>升序</strong>的意思是<strong>&lt;=。</strong>
+</ol>
+
+最短无序连续子数组
+Given an integer array, you need to find one <b>continuous subarray</b> that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order, too.  
+
+You need to find the <b>shortest</b> such subarray and output its length.
+
+<b>Example 1:</b><br />
+<pre>
+<b>Input:</b> [2, 6, 4, 8, 10, 9, 15]
+<b>Output:</b> 5
+<b>Explanation:</b> You need to sort [6, 4, 8, 10, 9] in ascending order to make the whole array sorted in ascending order.
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+Then length of the input array is in range [1, 10,000].
+The input array may contain duplicates, so ascending order here means <b><=</b>. 
+</ol>

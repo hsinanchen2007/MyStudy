@@ -1,0 +1,98 @@
+find-positive-integer-solution-for-a-given-equation
+给出一个函数<code>f(x, y)</code>和一个目标结果<code>z</code>，请你计算方程<code>f(x,y) == z</code>所有可能的正整数 <strong>数对</strong><code>x</code> 和 <code>y</code>。
+
+给定函数是严格单调的，也就是说：
+
+<ul>
+	<code>f(x, y) &lt; f(x + 1, y)</code>
+	<code>f(x, y) &lt; f(x, y + 1)</code>
+</ul>
+
+函数接口定义如下：
+
+<pre>interface CustomFunction {
+public:
+ // Returns positive integer f(x, y) for any given positive integer x and y.
+ int f(int x, int y);
+};
+</pre>
+
+如果你想自定义测试，你可以输入整数<code>function_id</code>和一个目标结果<code>z</code>作为输入，其中<code>function_id</code>表示一个隐藏函数列表中的一个函数编号，题目只会告诉你列表中的 <code>2</code> 个函数。 
+
+你可以将满足条件的 <strong>结果数对</strong> 按任意顺序返回。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>function_id = 1, z = 5
+<strong>输出：</strong>[[1,4],[2,3],[3,2],[4,1]]
+<strong>解释：</strong>function_id = 1 表示 f(x, y) = x + y</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>function_id = 2, z = 5
+<strong>输出：</strong>[[1,5],[5,1]]
+<strong>解释：</strong>function_id = 2 表示 f(x, y) = x * y
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= function_id &lt;= 9</code>
+	<code>1 &lt;= z &lt;= 100</code>
+	题目保证<code>f(x, y) == z</code>的解处于<code>1 &lt;= x, y &lt;= 1000</code>的范围内。
+	在 <code>1 &lt;= x, y &lt;= 1000</code>的前提下，题目保证<code>f(x, y)</code>是一个32 位有符号整数。
+</ul>
+
+找出给定方程的正整数解
+Given afunction <code>f(x, y)</code>and a value <code>z</code>, return all positive integerpairs <code>x</code> and <code>y</code> where <code>f(x,y) == z</code>.
+
+The function is constantly increasing, i.e.:
+
+<ul>
+	<code>f(x, y) &lt; f(x + 1, y)</code>
+	<code>f(x, y) &lt; f(x, y + 1)</code>
+</ul>
+
+The function interface is defined like this:
+
+<pre>
+interface CustomFunction {
+public:
+ // Returns positive integer f(x, y) for any given positive integer x and y.
+ int f(int x, int y);
+};
+</pre>
+
+For custom testing purposes you&#39;re given an integer <code>function_id</code> and a target <code>z</code> as input, where <code>function_id</code> represent one function from an secret internal list, on the examples you&#39;ll know only two functions from the list. 
+
+You may return the solutions in any order.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> function_id = 1, z = 5
+<strong>Output:</strong> [[1,4],[2,3],[3,2],[4,1]]
+<strong>Explanation:</strong>function_id = 1 means that f(x, y) = x + y</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> function_id = 2, z = 5
+<strong>Output:</strong> [[1,5],[5,1]]
+<strong>Explanation:</strong>function_id = 2 means that f(x, y) = x * y
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= function_id &lt;= 9</code>
+	<code>1 &lt;= z &lt;= 100</code>
+	It&#39;s guaranteed that the solutions of <code>f(x, y) == z</code> will be on the range <code>1 &lt;= x, y &lt;= 1000</code>
+	It&#39;s also guaranteed that <code>f(x, y)</code> will fit in 32 bit signed integer if <code>1 &lt;= x, y &lt;= 1000</code>
+</ul>

@@ -1,0 +1,48 @@
+operations-lcci
+请实现整数数字的乘法、减法和除法运算，运算结果均为整数数字，程序中只允许使用加法运算符和逻辑运算符，允许程序中出现正负常数，不允许使用位运算。
+你的实现应该支持如下操作：
+<ul>
+<code>Operations()</code> 构造函数
+<code>minus(a, b)</code> 减法，返回<code>a - b</code>
+<code>multiply(a, b)</code> 乘法，返回<code>a * b</code>
+<code>divide(a, b)</code> 除法，返回<code>a / b</code>
+</ul>
+<strong>示例：</strong>
+<pre>Operations operations = new Operations();
+operations.minus(1, 2); //返回-1
+operations.multiply(3, 4); //返回12
+operations.divide(5, -2); //返回-2
+</pre>
+<strong>提示：</strong>
+<ul>
+你可以假设函数输入一定是有效的，例如不会出现除法分母为0的情况
+单个用例的函数调用次数不会超过1000次
+</ul>
+
+运算
+rite methods to implement the multiply, subtract, and divide operations for integers. The results of all of these are integers. Use only the add operator.
+
+You should implement following methods:
+
+<ul>
+	<code>Operations()</code> constructor
+	<code>minus(a, b)</code> Subtraction, returns<code>a - b</code>
+	<code>multiply(a, b)</code> Multiplication, returns<code>a * b</code>
+	<code>divide(a, b)</code> Division, returns<code>a / b</code>
+</ul>
+
+<strong>Example: </strong>
+
+<pre>
+Operations operations = new Operations();
+operations.minus(1, 2); //returns -1
+operations.multiply(3, 4); //returns 12
+operations.divide(5, -2); //returns -2
+</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	You can assume inputs are always valid, that is, e.g., denominator will not be 0 in division.
+	The number of calls will not exceed 1000.
+</ul>

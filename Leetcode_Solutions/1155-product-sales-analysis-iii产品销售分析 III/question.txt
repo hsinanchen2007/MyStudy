@@ -1,0 +1,126 @@
+product-sales-analysis-iii
+销售表<code>Sales</code>：
+
+<pre>
++-------------+-------+
+| Column Name | Type  |
++-------------+-------+
+| sale_id     | int   |
+| product_id  | int   |
+| year        | int   |
+| quantity    | int   |
+| price       | int   |
++-------------+-------+
+sale_id 是此表的主键。
+产品 ID 是产品表的外键。
+请注意，价格是按每单位计的。
+</pre>
+
+产品表<code>Product</code>：
+
+<pre>
++--------------+---------+
+| Column Name  | Type    |
++--------------+---------+
+| product_id   | int     |
+| product_name | varchar |
++--------------+---------+
+产品 ID 是此表的主键。</pre>
+
+
+
+编写一个 SQL 查询，选出每个销售产品的 <strong>第一年</strong> 的 <strong>产品 id</strong>、<strong>年份</strong>、<strong>数量</strong>和 <strong>价格</strong>。
+
+查询结果格式如下：
+
+<pre>
+<code>Sales</code> table:
++---------+------------+------+----------+-------+
+| sale_id | product_id | year | quantity | price |
++---------+------------+------+----------+-------+ 
+| 1       | 100        | 2008 | 10       | 5000  |
+| 2       | 100        | 2009 | 12       | 5000  |
+| 7       | 200        | 2011 | 15       | 9000  |
++---------+------------+------+----------+-------+
+
+Product table:
++------------+--------------+
+| product_id | product_name |
++------------+--------------+
+| 100        | Nokia        |
+| 200        | Apple        |
+| 300        | Samsung      |
++------------+--------------+
+
+Result table:
++------------+------------+----------+-------+
+| product_id | first_year | quantity | price |
++------------+------------+----------+-------+ 
+| 100        | 2008       | 10       | 5000  |
+| 200        | 2011       | 15       | 9000  |
++------------+------------+----------+-------+
+</pre>
+
+产品销售分析 III
+Table:<code>Sales</code>
+
+<pre>
++-------------+-------+
+| Column Name | Type  |
++-------------+-------+
+| sale_id     | int   |
+| product_id  | int   |
+| year        | int   |
+| quantity    | int   |
+| price       | int   |
++-------------+-------+
+sale_id is the primary key of this table.
+product_id is a foreign key to <code>Product</code> table.
+Note that the price is per unit.
+</pre>
+
+Table:<code>Product</code>
+
+<pre>
++--------------+---------+
+| Column Name  | Type    |
++--------------+---------+
+| product_id   | int     |
+| product_name | varchar |
++--------------+---------+
+product_id is the primary key of this table.
+</pre>
+
+
+
+<p style="direction: ltr;">Write an SQL query that selects the <strong>product id</strong>, <strong>year</strong>, <strong>quantity</strong>, and <strong>price</strong> for the <strong>first year</strong> of every product sold.
+
+The query result format is in the following example:
+
+<pre>
+<code>Sales</code> table:
++---------+------------+------+----------+-------+
+| sale_id | product_id | year | quantity | price |
++---------+------------+------+----------+-------+ 
+| 1       | 100        | 2008 | 10       | 5000  |
+| 2       | 100        | 2009 | 12       | 5000  |
+| 7       | 200        | 2011 | 15       | 9000  |
++---------+------------+------+----------+-------+
+
+Product table:
++------------+--------------+
+| product_id | product_name |
++------------+--------------+
+| 100        | Nokia        |
+| 200        | Apple        |
+| 300        | Samsung      |
++------------+--------------+
+
+Result table:
++------------+------------+----------+-------+
+| product_id | first_year | quantity | price |
++------------+------------+----------+-------+ 
+| 100        | 2008       | 10       | 5000  |
+| 200        | 2011       | 15       | 9000  |
++------------+------------+----------+-------+
+</pre>

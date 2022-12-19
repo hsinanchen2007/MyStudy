@@ -1,0 +1,51 @@
+boolean-evaluation-lcci
+给定一个布尔表达式和一个期望的布尔结果 result，布尔表达式由 <code>0</code> (false)、<code>1</code> (true)、<code>&amp;</code> (AND)、 <code>|</code> (OR) 和 <code>^</code> (XOR) 符号组成。实现一个函数，算出有几种可使该表达式得出 result 值的括号方法。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>s = &quot;1^0|0|1&quot;, result = 0
+
+<strong>输出: </strong>2
+<strong>解释:</strong>两种可能的括号方法是
+1^(0|(0|1))
+1^((0|0)|1)
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入: </strong>s = &quot;0&amp;0&amp;0&amp;1^1|0&quot;, result = 1
+
+<strong>输出: </strong>10</pre>
+
+<strong>提示：</strong>
+
+<ul>
+	运算符的数量不超过 19 个
+</ul>
+
+布尔运算
+Given a boolean expression consisting of the symbols <code>0</code> (false), <code>1</code> (true), <code>&amp;</code> (AND), <code>|</code> (OR), and <code>^</code>(XOR), and a desired boolean result value result, implement a function to count the number of ways of parenthesizing the expression such that it evaluates to result.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>s = &quot;1^0|0|1&quot;, result = 0
+
+<strong>Output: </strong>2
+<strong>Explanation:</strong>Two possible parenthesizing ways are:
+1^(0|(0|1))
+1^((0|0)|1)
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>s = &quot;0&amp;0&amp;0&amp;1^1|0&quot;, result = 1
+
+<strong>Output: </strong>10</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	There are no more than19 operators in <code>s</code>.
+</ul>

@@ -1,0 +1,97 @@
+maximum-number-of-occurrences-of-a-substring
+给你一个字符串<code>s</code> ，请你返回满足以下条件且出现次数最大的<strong>任意</strong>子串的出现次数：
+
+<ul>
+	子串中不同字母的数目必须小于等于 <code>maxLetters</code> 。
+	子串的长度必须大于等于<code>minSize</code> 且小于等于<code>maxSize</code> 。
+</ul>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>s = &quot;aababcaab&quot;, maxLetters = 2, minSize = 3, maxSize = 4
+<strong>输出：</strong>2
+<strong>解释：</strong>子串 &quot;aab&quot; 在原字符串中出现了 2 次。
+它满足所有的要求：2 个不同的字母，长度为 3 （在 minSize 和 maxSize 范围内）。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>s = &quot;aaaa&quot;, maxLetters = 1, minSize = 3, maxSize = 3
+<strong>输出：</strong>2
+<strong>解释：</strong>子串 &quot;aaa&quot; 在原字符串中出现了 2 次，且它们有重叠部分。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>s = &quot;aabcabcab&quot;, maxLetters = 2, minSize = 2, maxSize = 3
+<strong>输出：</strong>3
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>s = &quot;abcde&quot;, maxLetters = 2, minSize = 3, maxSize = 3
+<strong>输出：</strong>0
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>1 &lt;= maxLetters &lt;= 26</code>
+	<code>1 &lt;= minSize &lt;= maxSize &lt;= min(26, s.length)</code>
+	<code>s</code>只包含小写英文字母。
+</ul>
+
+子串的最大出现次数
+Given a string <code>s</code>, return the maximum number of ocurrences of <strong>any</strong> substringunder the following rules:
+
+<ul>
+	The number of unique characters in the substring must be less than or equal to <code>maxLetters</code>.
+	The substring size must be between <code>minSize</code> and <code>maxSize</code>inclusive.
+</ul>
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;aababcaab&quot;, maxLetters = 2, minSize = 3, maxSize = 4
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Substring &quot;aab&quot; has 2 ocurrences in the original string.
+It satisfies the conditions, 2 unique letters and size 3 (between minSize and maxSize).
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;aaaa&quot;, maxLetters = 1, minSize = 3, maxSize = 3
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Substring &quot;aaa&quot; occur 2 times in the string. It can overlap.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;aabcabcab&quot;, maxLetters = 2, minSize = 2, maxSize = 3
+<strong>Output:</strong> 3
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;abcde&quot;, maxLetters = 2, minSize = 3, maxSize = 3
+<strong>Output:</strong> 0
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 10^5</code>
+	<code>1 &lt;= maxLetters &lt;= 26</code>
+	<code>1 &lt;= minSize &lt;= maxSize &lt;= min(26, s.length)</code>
+	<code>s</code> only contains lowercase English letters.
+</ul>

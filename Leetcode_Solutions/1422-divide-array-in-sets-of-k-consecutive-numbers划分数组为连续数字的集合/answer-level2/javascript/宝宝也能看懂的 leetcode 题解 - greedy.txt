@@ -1,0 +1,134 @@
+# 1296. 划分数组为连续数字的集合
+
+Hi 大家好，我是张小猪。欢迎来到『宝宝也能看懂』系列之 leetcode 周赛题解。
+
+这里是第 168 期的第 2 题，也是题目列表中的第 1296 题 -- 『划分数组为连续数字的集合』
+
+## 题目描述
+
+给你一个整数数组 `nums` 和一个正整数 `k`，请你判断是否可以把这个数组划分成一些由 `k` 个连续数字组成的集合。
+如果可以，请返回 `True`；否则，返回 `False`。
+
+示例 1：
+
+```shell
+输入：nums = [1,2,3,3,4,4,5,6], k = 4
+输出：true
+解释：数组可以分成 [1,2,3,4] 和 [3,4,5,6]。
+```
+
+示例 2：
+
+```shell
+输入：nums = [3,2,1,2,3,4,3,4,5,9,10,11], k = 3
+输出：true
+解释：数组可以分成 [1,2,3] , [2,3,4] , [3,4,5] 和 [9,10,11]。
+```
+
+示例 3：
+
+```shell
+输入：nums = [3,3,2,2,1,1], k = 3
+输出：true
+```
+
+示例 4：
+
+```shell
+输入：nums = [1,2,3,4], k = 3
+输出：false
+解释：数组不能分成几个大小为 3 的子数组。
+```
+
+提示：
+
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^9`
+- `1 <= k <= nums.length`
+
+## 官方难度
+
+MEDIUM
+
+## 解决思路
+
+题目内容不长，是对于一个条件的判断。即尝试把输入数组进行拆分，拆分后每一段的长度都要为 `k`，并且每一段都要是连续的数字。
+
+看完题目之后，第一反应，数组长度可以先做判断，不能整除 `k` 就一定无法满足。接下来思路的大体方向就是，从最小或者最大开始，逐渐扫出符合要求的子段，然后剔除出去，直到遇到不符合要求的情况，或者剩下的内容为空为止。
+
+### 直接方案
+
+整体思路感觉可行后，便开始具体施工。为了从一端开始，我们首先对数组进行了排序。接下来最关键的就是对子段的剔除操作。这里可能有两种常见的方式：
+
+- 第一种方式，即是真正的执行这个剔除操作。这样做的话会受到底层数据结构的影响，例如如果是线性表，那么在中间进行部分移除操作会消耗蛮多的代价；而如果是链表，那么频繁的查询又是一个问题。而 JS 语言原生其实并没有太多的内置数据结构。
+- 第二种方式，即用计数法来处理剔除行为。这种方式我们不需要进行实际的剔除行为，只需要在 O(1) 的时间索引到目标，然后改变计数值即可。不过代价是需要 O(n) 的时间来初始化计数，以及占用额外的空间进行储存。
+
+考虑到希望整体时间能更加快，所以这里采用了第二种方式。由于数字的范围较大，`[1, 10^9]`，所以使用了 Map 而不是固定长度的数组来储存计数。
+
+```js
+const isPossibleDivide = (nums, k) => {
+  if (nums.length % k !== 0) return false;
+  const map = new Map();
+  nums.sort((a, b) => a - b);
+  for (const val of nums) {
+    map.set(val, map.has(val) ? map.get(val) + 1 : 1);
+  }
+  for (let i = 0; i < nums.length; ++i) {
+    const start = nums[i];
+    const count = map.get(start);
+    if (count === 0) continue;
+    for (let i = 1; i < k; ++i) {
+      const c = map.get(start + i)
+      if (c === undefined || c < count) return false;
+      map.set(start + i, c - count);
+    }
+    map.set(start, 0);
+  }
+  return true;
+};
+```
+
+试了一下，Accepted，152ms。
+
+### 优化
+
+回头看代码，这个针对全数组的排序一直很让我在意，因为单看它就会承担着比较大的额外性能负担，而它的收益仅仅是确保了我们从数据的一端开始进行剔除操作。那么我们是否有其他办法保证这件事情呢？
+
+一个非常简单的思路是，对于我们遍历到的数字，我们尝试找到它前面最近的一个断点，这样我们便满足了需求。并且随着一次次的剔除操作，这个查找断点的过程会更加的简单。
+
+```js
+const isPossibleDivide = (nums, k) => {
+  if (nums.length % k !== 0) return false;
+  const map = new Map();
+  for (const val of nums) {
+    map.set(val, map.has(val) ? map.get(val) + 1 : 1);
+  }
+  for (let start of nums) {
+    if (map.get(start) === 0) continue;
+    while (map.get(--start) > 0);
+    ++start;
+    const count = map.get(start);
+    for (let i = 1; i < k; ++i) {
+      const c = map.get(start + i)
+      if (c === undefined || c < count) return false;
+      map.set(start + i, c - count);
+    }
+    map.set(start, 0);
+  }
+  return true;
+};
+```
+
+这段代码最终跑到了 92ms，暂时 beats 100%。
+
+## 总结
+
+这道题的优化思路是从一个较大的性能消耗点出发来尝试解决。这种方案在实际生产中是更为推荐的方案，即先收集性能数据分析出较大的性能消耗点，然后针对性的作出提升和优化。这样往往会对性能指标有显著的改进，而且相对无目的的泛泛的优化更有性价比。
+
+## 相关链接
+
+- [Weekly Contest 168 题目列表](https://github.com/poppinlp/leetcode#weekly-contest-168)
+- [系列题解 repo](https://github.com/poppinlp/leetcode)
+- [我的 segmentfault 专栏](https://segmentfault.com/blog/zxzfbz)
+- [我的知乎专栏](https://zhuanlan.zhihu.com/zxzfbz)
+

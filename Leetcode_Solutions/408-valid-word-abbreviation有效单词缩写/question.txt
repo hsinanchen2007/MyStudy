@@ -1,0 +1,60 @@
+valid-word-abbreviation
+给一个<strong>非空</strong>字符串<code>s</code>和一个单词缩写<code>abbr</code>，判断这个缩写是否可以是给定单词的缩写。
+
+字符串<code>&quot;word&quot;</code>的所有有效缩写为：
+
+<pre>[&quot;word&quot;, &quot;1ord&quot;, &quot;w1rd&quot;, &quot;wo1d&quot;, &quot;wor1&quot;, &quot;2rd&quot;, &quot;w2d&quot;, &quot;wo2&quot;, &quot;1o1d&quot;, &quot;1or1&quot;, &quot;w1r1&quot;, &quot;1o2&quot;, &quot;2r1&quot;, &quot;3d&quot;, &quot;w3&quot;, &quot;4&quot;]</pre>
+
+注意单词<code>&quot;word&quot;</code>的所有有效缩写仅包含以上这些。任何其他的字符串都不是<code>&quot;word&quot;</code>的有效缩写。
+
+<strong>注意:</strong><br>
+假设字符串<code>s</code>仅包含小写字母且<code>abbr</code> 只包含小写字母和数字。
+
+<strong>示例 1:</strong>
+
+<pre>给定 <strong>s</strong> = &quot;internationalization&quot;, <strong>abbr</strong> = &quot;i12iz4n&quot;:
+
+函数返回 true.
+</pre>
+
+
+
+<strong>示例 2:</strong>
+
+<pre>给定 <strong>s</strong> = &quot;apple&quot;, <strong>abbr</strong> = &quot;a2e&quot;:
+
+函数返回 false.
+</pre>
+
+
+
+有效单词缩写
+
+Given a <b>non-empty</b> string <code>s</code> and an abbreviation <code>abbr</code>, return whether the string matches with the given abbreviation.
+
+
+A string such as <code>"word"</code> contains only the following valid abbreviations:
+
+<pre>["word", "1ord", "w1rd", "wo1d", "wor1", "2rd", "w2d", "wo2", "1o1d", "1or1", "w1r1", "1o2", "2r1", "3d", "w3", "4"]
+</pre>
+
+Notice that only the above abbreviations are valid abbreviations of the string <code>"word"</code>. Any other string is not a valid abbreviation of <code>"word"</code>.
+
+<b>Note:</b><br />
+Assume <code>s</code> contains only lowercase letters and <code>abbr</code> contains only lowercase letters and digits.
+
+
+<b>Example 1:</b><br />
+<pre>
+Given <b>s</b> = "internationalization", <b>abbr</b> = "i12iz4n":
+
+Return true.
+</pre>
+
+
+<b>Example 2:</b><br />
+<pre>
+Given <b>s</b> = "apple", <b>abbr</b> = "a2e":
+
+Return false.
+</pre>

@@ -1,0 +1,81 @@
+day-of-the-year
+给你一个按 <code>YYYY-MM-DD</code> 格式表示日期的字符串<code>date</code>，请你计算并返回该日期是当年的第几天。
+
+通常情况下，我们认为 1 月 1 日是每年的第 1 天，1 月 2 日是每年的第 2 天，依此类推。每个月的天数与现行公元纪年法（格里高利历）一致。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>date = &quot;2019-01-09&quot;
+<strong>输出：</strong>9
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>date = &quot;2019-02-10&quot;
+<strong>输出：</strong>41
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>date = &quot;2003-03-01&quot;
+<strong>输出：</strong>60
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>date = &quot;2004-03-01&quot;
+<strong>输出：</strong>61</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>date.length == 10</code>
+	<code>date[4] == date[7] == &#39;-&#39;</code>，其他的<code>date[i]</code>都是数字。
+	<code>date</code> 表示的范围从 1900 年 1 月 1 日至 2019 年 12 月 31 日。
+</ul>
+
+一年中的第几天
+Given a string <code>date</code> representing a <a href="https://en.wikipedia.org/wiki/Gregorian_calendar" target="_blank">Gregoriancalendar</a> date formatted as <code>YYYY-MM-DD</code>, return the day number of the year.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> date = &quot;2019-01-09&quot;
+<strong>Output:</strong> 9
+<strong>Explanation:</strong> Given date is the 9th day of the year in 2019.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> date = &quot;2019-02-10&quot;
+<strong>Output:</strong> 41
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> date = &quot;2003-03-01&quot;
+<strong>Output:</strong> 60
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> date = &quot;2004-03-01&quot;
+<strong>Output:</strong> 61
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>date.length == 10</code>
+	<code>date[4] == date[7] == &#39;-&#39;</code>, and all other <code>date[i]</code>&#39;s are digits
+	<code>date</code> represents a calendar date between Jan 1st, 1900 and Dec 31, 2019.
+</ul>

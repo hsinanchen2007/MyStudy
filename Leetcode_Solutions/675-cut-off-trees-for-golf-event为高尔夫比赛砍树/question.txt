@@ -1,0 +1,129 @@
+cut-off-trees-for-golf-event
+你被请来给一个要举办高尔夫比赛的树林砍树. 树林由一个非负的二维数组表示， 在这个数组中：
+
+<ol>
+	<code>0</code> 表示障碍，无法触碰到.
+	<code>1</code>表示可以行走的地面.
+	<code>比 1 大的数</code>表示一颗允许走过的树的高度.
+</ol>
+
+每一步，你都可以向上、下、左、右四个方向之一移动一个单位，如果你站的地方有一棵树，那么你可以决定是否要砍倒它。
+
+你被要求按照树的高度从低向高砍掉所有的树，每砍过一颗树，树的高度变为 1 。
+
+你将从（0，0）点开始工作，你应该返回你砍完所有树需要走的最小步数。 如果你无法砍完所有的树，返回 -1 。
+
+可以保证的是，没有两棵树的高度是相同的，并且你至少需要砍倒一棵树。
+
+
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> 
+[
+ [1,2,3],
+ [0,0,4],
+ [7,6,5]
+]
+<strong>输出:</strong> 6
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> 
+[
+ [1,2,3],
+ [0,0,0],
+ [7,6,5]
+]
+<strong>输出:</strong> -1
+</pre>
+
+<strong>示例3:</strong>
+
+<pre><strong>输入:</strong> 
+[
+ [2,3,4],
+ [0,0,5],
+ [8,7,6]
+]
+<strong>输出:</strong> 6
+<strong>解释:</strong> (0,0) 位置的树，你可以直接砍去，不用算步数
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= forest.length &lt;= 50</code>
+	<code>1 &lt;= forest[i].length &lt;= 50</code>
+	<code>0 &lt;= forest[i][j]&lt;= 10^9</code>
+</ul>
+
+为高尔夫比赛砍树
+You are asked to cut off trees in a forest for a golf event. The forest is represented as a non-negative 2D map, in this map:
+
+<ol>
+	<code>0</code> represents the <code>obstacle</code> can&#39;t be reached.
+	<code>1</code> represents the <code>ground</code> can be walked through.
+	<code>The place with number bigger than 1</code> represents a <code>tree</code> can be walked through, and this positive number represents the tree&#39;s height.
+</ol>
+
+In one step you can walk in any of the four directions <code>top</code>, <code>bottom</code>, <code>left</code> and <code>right</code>also when standing in a point which is a tree you can decide whether or not to cut off the tree.
+
+You are asked to cut off <b>all</b> the trees in this forest in the order of tree&#39;s height - always cut off the tree with lowest height first. And after cutting, the original place has the tree will become a grass (value 1).
+
+You will start from the point (0, 0) and you should output the minimum steps <b>you need to walk</b> to cut off all the trees. If you can&#39;t cut off all the trees, output -1 in that situation.
+
+You are guaranteed that no two <code>trees</code> have the same height and there is at least one tree needs to be cut off.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> 
+[
+ [1,2,3],
+ [0,0,4],
+ [7,6,5]
+]
+<b>Output:</b> 6
+</pre>
+
+
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> 
+[
+ [1,2,3],
+ [0,0,0],
+ [7,6,5]
+]
+<b>Output:</b> -1
+</pre>
+
+
+
+<b>Example 3:</b>
+
+<pre>
+<b>Input:</b> 
+[
+ [2,3,4],
+ [0,0,5],
+ [8,7,6]
+]
+<b>Output:</b> 6
+<b>Explanation:</b> You started from the point (0,0) and you can cut off the tree in (0,0) directly without walking.
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= forest.length &lt;= 50</code>
+	<code>1 &lt;= forest[i].length &lt;= 50</code>
+	<code>0 &lt;= forest[i][j]&lt;= 10^9</code>
+</ul>

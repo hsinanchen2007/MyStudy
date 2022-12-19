@@ -1,0 +1,84 @@
+maximum-performance-of-a-team
+公司有编号为 <code>1</code>到 <code>n</code>的 <code>n</code>个工程师，给你两个数组 <code>speed</code>和 <code>efficiency</code>，其中 <code>speed[i]</code>和 <code>efficiency[i]</code>分别代表第 <code>i</code>位工程师的速度和效率。请你返回由最多<code>k</code>个工程师组成的<strong>​​​​​​最大团队表现值</strong>，由于答案可能很大，请你返回结果对 <code>10^9 + 7</code> 取余后的结果。
+
+<strong>团队表现值</strong>的定义为：一个团队中「所有工程师速度的和」乘以他们「效率值中的最小值」。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 2
+<strong>输出：</strong>60
+<strong>解释：</strong>
+我们选择工程师 2（speed=10 且 efficiency=4）和工程师 5（speed=5 且 efficiency=7）。他们的团队表现值为 performance = (10 + 5) * min(4, 7) = 60 。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 3
+<strong>输出：</strong>68
+<strong>解释：
+</strong>此示例与第一个示例相同，除了 k = 3 。我们可以选择工程师 1 ，工程师 2 和工程师 5 得到最大的团队表现值。表现值为 performance = (2 + 10 + 5) * min(5, 4, 7) = 68 。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 4
+<strong>输出：</strong>72
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 10^5</code>
+	<code>speed.length == n</code>
+	<code>efficiency.length == n</code>
+	<code>1 &lt;= speed[i] &lt;= 10^5</code>
+	<code>1 &lt;= efficiency[i] &lt;= 10^8</code>
+	<code>1 &lt;= k &lt;= n</code>
+</ul>
+
+最大的团队表现值
+There are <code>n</code> engineers numbered from 1 to <code>n</code>andtwo arrays: <code>speed</code>and <code>efficiency</code>, where <code>speed[i]</code> and <code>efficiency[i]</code> represent the speed and efficiency for the i-th engineer respectively. <em>Return the maximum <strong>performance</strong> of a team composed ofat most<code>k</code>engineers, since the answer can be a huge number, return this modulo10^9 + 7.</em>
+
+The <strong>performance</strong> of a team is the sum of their engineers&#39; speeds multiplied by the minimum efficiency amongtheir engineers.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 2
+<strong>Output:</strong> 60
+<strong>Explanation:</strong> 
+We have the maximum performance of the team by selecting engineer 2 (with speed=10 and efficiency=4) and engineer 5 (with speed=5 and efficiency=7). That is, performance = (10 + 5) * min(4, 7) = 60.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 3
+<strong>Output:</strong> 68
+<strong>Explanation:
+</strong>This is the same example as the first but k = 3. We can select engineer 1, engineer 2 and engineer 5 to get the maximum performance of the team. That is, performance = (2 + 10 + 5) * min(5, 4, 7) = 68.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 4
+<strong>Output:</strong> 72
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 10^5</code>
+	<code>speed.length == n</code>
+	<code>efficiency.length == n</code>
+	<code>1 &lt;= speed[i] &lt;= 10^5</code>
+	<code>1 &lt;= efficiency[i] &lt;= 10^8</code>
+	<code>1 &lt;= k &lt;= n</code>
+</ul>

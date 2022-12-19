@@ -1,0 +1,35 @@
+factorial-zeros-lcci
+设计一个算法，算出 n 阶乘有多少个尾随零。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> 3
+<strong>输出:</strong> 0
+<strong>解释:</strong>3! = 6, 尾数中没有零。</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> 5
+<strong>输出:</strong> 1
+<strong>解释:</strong>5! = 120, 尾数中有 1 个零.</pre>
+
+<strong>说明: </strong>你算法的时间复杂度应为<em>O</em>(log<em>n</em>)<em></em>。
+
+阶乘尾数
+Write an algorithm which computes the number of trailing zeros in n factorial.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> 3
+<strong>Output:</strong> 0
+<strong>Explanation:</strong>3! = 6, no trailing zero.</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong>Input:</strong> 5
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>5! = 120, one trailing zero.</pre>
+
+<b>Note:</b>Your solution should be in logarithmic time complexity.

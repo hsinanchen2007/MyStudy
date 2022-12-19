@@ -1,0 +1,49 @@
+robot-in-a-grid-lcci
+设想有个机器人坐在一个网格的左上角，网格 r 行 c 列。机器人只能向下或向右移动，但不能走到一些被禁止的网格（有障碍物）。设计一种算法，寻找机器人从左上角移动到右下角的路径。
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/robot_maze.png" style="height: 183px; width: 400px;">
+
+网格中的障碍物和空位置分别用 <code>1</code> 和 <code>0</code> 来表示。
+
+返回一条可行的路径，路径由经过的网格的行号和列号组成。左上角为 0 行 0 列。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:
+</strong>[
+ [<strong>0</strong>,<strong>0</strong>,<strong>0</strong>],
+ [0,1,<strong>0</strong>],
+ [0,0,<strong>0</strong>]
+]
+<strong>输出:</strong> [[0,0],[0,1],[0,2],[1,2],[2,2]]
+<strong>解释: 
+</strong>输入中标粗的位置即为输出表示的路径，即
+0行0列（左上角） -&gt; 0行1列 -&gt; 0行2列 -&gt; 1行2列 -&gt; 2行2列（右下角）</pre>
+
+<strong>说明：</strong><em>r</em>和 <em>c </em>的值均不超过 100。
+
+迷路的机器人
+Imagine a robot sitting on the upper left corner of grid with r rows and c columns. The robot can only move in two directions, right and down, but certain cells are &quot;off limits&quot; such that the robot cannot step on them. Design an algorithm to find a path for the robot from the top left to the bottom right.
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/robot_maze.png" style="height: 183px; width: 400px;" />
+
+&quot;off limits&quot; and empty grid are represented by<code>1</code> and<code>0</code>respectively.
+
+Return a valid path, consisting of row number and column number of grids in the path.
+
+<strong>Example1:</strong>
+
+<pre>
+<strong>Input:
+</strong>[
+ [<strong>0</strong>,<strong>0</strong>,<strong>0</strong>],
+ [0,1,<strong>0</strong>],
+ [0,0,<strong>0</strong>]
+]
+<strong>Output:</strong> [[0,0],[0,1],[0,2],[1,2],[2,2]]</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>r,c &lt;= 100</code>
+</ul>

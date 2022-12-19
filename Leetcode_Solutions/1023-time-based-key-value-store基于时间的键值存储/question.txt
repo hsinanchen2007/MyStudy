@@ -1,0 +1,109 @@
+time-based-key-value-store
+创建一个基于时间的键值存储类<code>TimeMap</code>，它支持下面两个操作：
+
+1. <code>set(string key, string value, int timestamp)</code>
+
+<ul>
+	存储键<code>key</code>、值<code>value</code>，以及给定的时间戳<code>timestamp</code>。
+</ul>
+
+2. <code>get(string key, int timestamp)</code>
+
+<ul>
+	返回先前调用<code>set(key, value, timestamp_prev)</code>所存储的值，其中<code>timestamp_prev &lt;= timestamp</code>。
+	如果有多个这样的值，则返回对应最大的<code>timestamp_prev</code>的那个值。
+	如果没有值，则返回空字符串（<code>&quot;&quot;</code>）。
+</ul>
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>inputs = [&quot;TimeMap&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;], inputs = [[],[&quot;foo&quot;,&quot;bar&quot;,1],[&quot;foo&quot;,1],[&quot;foo&quot;,3],[&quot;foo&quot;,&quot;bar2&quot;,4],[&quot;foo&quot;,4],[&quot;foo&quot;,5]]
+<strong>输出：</strong>[null,null,&quot;bar&quot;,&quot;bar&quot;,null,&quot;bar2&quot;,&quot;bar2&quot;]
+<strong>解释：</strong> 
+TimeMap kv;  
+kv.set(&quot;foo&quot;, &quot;bar&quot;, 1); // 存储键 &quot;foo&quot; 和值 &quot;bar&quot; 以及时间戳 timestamp = 1  
+kv.get(&quot;foo&quot;, 1);  // 输出 &quot;bar&quot;  
+kv.get(&quot;foo&quot;, 3); // 输出 &quot;bar&quot; 因为在时间戳 3 和时间戳 2 处没有对应 &quot;foo&quot; 的值，所以唯一的值位于时间戳 1 处（即 &quot;bar&quot;）  
+kv.set(&quot;foo&quot;, &quot;bar2&quot;, 4);  
+kv.get(&quot;foo&quot;, 4); // 输出 &quot;bar2&quot;  
+kv.get(&quot;foo&quot;, 5); // 输出 &quot;bar2&quot;  
+
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>inputs = [&quot;TimeMap&quot;,&quot;set&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;], inputs = [[],[&quot;love&quot;,&quot;high&quot;,10],[&quot;love&quot;,&quot;low&quot;,20],[&quot;love&quot;,5],[&quot;love&quot;,10],[&quot;love&quot;,15],[&quot;love&quot;,20],[&quot;love&quot;,25]]
+<strong>输出：</strong>[null,null,null,&quot;&quot;,&quot;high&quot;,&quot;high&quot;,&quot;low&quot;,&quot;low&quot;]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	所有的键/值字符串都是小写的。
+	所有的键/值字符串长度都在<code>[1, 100]</code>范围内。
+	所有<code>TimeMap.set</code>操作中的时间戳<code>timestamps</code> 都是严格递增的。
+	<code>1 &lt;= timestamp &lt;= 10^7</code>
+	<code>TimeMap.set</code> 和<code>TimeMap.get</code>函数在每个测试用例中将（组合）调用总计<code>120000</code> 次。
+</ol>
+
+基于时间的键值存储
+Create a timebased key-value store class<code>TimeMap</code>, that supports two operations.
+
+1. <code>set(string key, string value, int timestamp)</code>
+
+<ul>
+	Stores the <code>key</code> and <code>value</code>, along with the given <code>timestamp</code>.
+</ul>
+
+2. <code>get(string key, int timestamp)</code>
+
+<ul>
+	Returns a value such that <code>set(key, value, timestamp_prev)</code> was called previously, with <code>timestamp_prev &lt;= timestamp</code>.
+	If there are multiple such values, it returns the one with the largest <code>timestamp_prev</code>.
+	If there are no values, it returns the empty string (<code>&quot;&quot;</code>).
+</ul>
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>inputs = <span id="example-input-1-1">[&quot;TimeMap&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;]</span>, inputs = <span id="example-input-1-2">[[],[&quot;foo&quot;,&quot;bar&quot;,1],[&quot;foo&quot;,1],[&quot;foo&quot;,3],[&quot;foo&quot;,&quot;bar2&quot;,4],[&quot;foo&quot;,4],[&quot;foo&quot;,5]]</span>
+<strong>Output: </strong><span id="example-output-1">[null,null,&quot;bar&quot;,&quot;bar&quot;,null,&quot;bar2&quot;,&quot;bar2&quot;]</span>
+<strong>Explanation: </strong><span id="example-output-1"> 
+TimeMap kv;  
+kv.set(&quot;foo&quot;, &quot;bar&quot;, 1); // store the key &quot;foo&quot; and value &quot;bar&quot; along with timestamp = 1  
+kv.get(&quot;foo&quot;, 1);  // output &quot;bar&quot;  
+kv.get(&quot;foo&quot;, 3); // output &quot;bar&quot; since there is no value corresponding to foo at timestamp 3 and timestamp 2, then the only value is at timestamp 1 ie &quot;bar&quot;  
+kv.set(&quot;foo&quot;, &quot;bar2&quot;, 4);  
+kv.get(&quot;foo&quot;, 4); // output &quot;bar2&quot;  
+kv.get(&quot;foo&quot;, 5); //output &quot;bar2&quot;  
+</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>inputs = <span id="example-input-2-1">[&quot;TimeMap&quot;,&quot;set&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;]</span>, inputs = <span id="example-input-2-2">[[],[&quot;love&quot;,&quot;high&quot;,10],[&quot;love&quot;,&quot;low&quot;,20],[&quot;love&quot;,5],[&quot;love&quot;,10],[&quot;love&quot;,15],[&quot;love&quot;,20],[&quot;love&quot;,25]]</span>
+<strong>Output: </strong><span id="example-output-2">[null,null,null,&quot;&quot;,&quot;high&quot;,&quot;high&quot;,&quot;low&quot;,&quot;low&quot;]</span>
+</pre>
+</div>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	All key/value strings are lowercase.
+	All key/value strings havelength in the range<code>[1, 100]</code>
+	The <code>timestamps</code> for all <code>TimeMap.set</code> operations are strictly increasing.
+	<code>1 &lt;= timestamp &lt;= 10^7</code>
+	<code>TimeMap.set</code> and <code>TimeMap.get</code>functions will be called a total of <code>120000</code> times (combined) per test case.
+</ol>

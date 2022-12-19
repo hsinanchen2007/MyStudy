@@ -1,0 +1,2 @@
+![约瑟夫环.gif](https://pic.leetcode-cn.com/ac988da63354219d66e1f84fb7b9afaacdd258d601731a2cbe62908cc996915d-%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF.gif)
+ [原PPT链接](https://yk3.gokuai.com/file/5f69tkx4wgvmh04plvuhppmzk5r6hjtj#)

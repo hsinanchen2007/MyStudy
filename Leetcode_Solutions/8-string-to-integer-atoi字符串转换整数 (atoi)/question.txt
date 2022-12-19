@@ -1,0 +1,117 @@
+string-to-integer-atoi
+请你来实现一个<code>atoi</code>函数，使其能将字符串转换成整数。
+
+首先，该函数会根据需要丢弃无用的开头空格字符，直到寻找到第一个非空格的字符为止。接下来的转化规则如下：
+
+<ul>
+	如果第一个非空字符为正或者负号时，则将该符号与之后面尽可能多的连续数字字符组合起来，形成一个有符号整数。
+	假如第一个非空字符是数字，则直接将其与之后连续的数字字符组合起来，形成一个整数。
+	该字符串在有效的整数部分之后也可能会存在多余的字符，那么这些字符可以被忽略，它们对函数不应该造成影响。
+</ul>
+
+注意：假如该字符串中的第一个非空格字符不是一个有效整数字符、字符串为空或字符串仅包含空白字符时，则你的函数不需要进行转换，即无法进行有效转换。
+
+在任何情况下，若函数不能进行有效的转换时，请返回 0 。
+
+<strong>提示：</strong>
+
+<ul>
+	本题中的空白字符只包括空格字符 <code>&#39; &#39;</code> 。
+	假设我们的环境只能存储 32 位大小的有符号整数，那么其数值范围为[&minus;2<sup>31</sup>, 2<sup>31</sup>&minus; 1]。如果数值超过这个范围，请返回 INT_MAX (2<sup>31</sup>&minus; 1) 或INT_MIN (&minus;2<sup>31</sup>) 。
+</ul>
+
+
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> &quot;42&quot;
+<strong>输出:</strong> 42
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> &quot;   -42&quot;
+<strong>输出:</strong> -42
+<strong>解释: </strong>第一个非空白字符为 &#39;-&#39;, 它是一个负号。
+    我们尽可能将负号与后面所有连续出现的数字组合起来，最后得到 -42 。
+</pre>
+
+<strong>示例3:</strong>
+
+<pre><strong>输入:</strong> &quot;4193 with words&quot;
+<strong>输出:</strong> 4193
+<strong>解释:</strong> 转换截止于数字 &#39;3&#39; ，因为它的下一个字符不为数字。
+</pre>
+
+<strong>示例4:</strong>
+
+<pre><strong>输入:</strong> &quot;words and 987&quot;
+<strong>输出:</strong> 0
+<strong>解释:</strong> 第一个非空字符是 &#39;w&#39;, 但它不是数字或正、负号。
+     因此无法执行有效的转换。</pre>
+
+<strong>示例5:</strong>
+
+<pre><strong>输入:</strong> &quot;-91283472332&quot;
+<strong>输出:</strong> -2147483648
+<strong>解释:</strong> 数字 &quot;-91283472332&quot; 超过 32 位有符号整数范围。 
+    因此返回 INT_MIN (&minus;2<sup>31</sup>) 。
+</pre>
+
+字符串转换整数 (atoi)
+Implement <code><span>atoi</span></code> whichconverts a string to an integer.
+
+The function first discards as many whitespace characters as necessary until the first non-whitespace character is found. Then, starting from this character, takes an optional initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value.
+
+The string can contain additional characters after those that form the integral number, which are ignored and have no effect on the behavior of this function.
+
+If the first sequence of non-whitespace characters in str is not a valid integral number, or if no such sequence exists because either str is empty or it contains only whitespace characters, no conversion is performed.
+
+If no valid conversion could be performed, a zero value is returned.
+
+<strong>Note:</strong>
+
+<ul>
+	Only the space character <code>&#39; &#39;</code> is considered as whitespace character.
+	Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&minus;2<sup>31</sup>, 2<sup>31</sup>&minus; 1]. If the numerical value is out of the range of representable values, INT_MAX (2<sup>31</sup>&minus; 1) or INT_MIN (&minus;2<sup>31</sup>) is returned.
+</ul>
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;42&quot;
+<strong>Output:</strong> 42
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;   -42&quot;
+<strong>Output:</strong> -42
+<strong>Explanation:</strong> The first non-whitespace character is &#39;-&#39;, which is the minus sign.
+            Then take as many numerical digits as possible, which gets 42.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;4193 with words&quot;
+<strong>Output:</strong> 4193
+<strong>Explanation:</strong> Conversion stops at digit &#39;3&#39; as the next character is not a numerical digit.
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;words and 987&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> The first non-whitespace character is &#39;w&#39;, which is not a numerical 
+            digit or a +/- sign. Therefore no valid conversion could be performed.</pre>
+
+<strong>Example 5:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;-91283472332&quot;
+<strong>Output:</strong> -2147483648
+<strong>Explanation:</strong> The number &quot;-91283472332&quot; is out of the range of a 32-bit signed integer.
+            Thefore INT_MIN (&minus;2<sup>31</sup>) is returned.</pre>

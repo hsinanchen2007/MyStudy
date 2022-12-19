@@ -1,0 +1,83 @@
+find-the-smallest-divisor-given-a-threshold
+给你一个整数数组<code>nums</code> 和一个正整数<code>threshold</code> ，你需要选择一个正整数作为除数，然后将数组里每个数都除以它，并对除法结果求和。
+
+请你找出能够使上述结果小于等于阈值<code>threshold</code>的除数中 <strong>最小</strong> 的那个。
+
+每个数除以除数后都向上取整，比方说 7/3 = 3 ， 10/2 = 5 。
+
+题目保证一定有解。
+
+
+
+<strong>示例 1：</strong>
+
+<pre>
+<strong>输入：</strong>nums = [1,2,5,9], threshold = 6
+<strong>输出：</strong>5
+<strong>解释：</strong>如果除数为 1 ，我们可以得到和为 17 （1+2+5+9）。
+如果除数为 4 ，我们可以得到和为 7 (1+1+2+3) 。如果除数为 5 ，和为 5 (1+1+1+2)。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre>
+<strong>输入：</strong>nums = [2,3,5,7,11], threshold = 11
+<strong>输出：</strong>3
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre>
+<strong>输入：</strong>nums = [19], threshold = 5
+<strong>输出：</strong>4
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= nums.length &lt;= 5 * 10^4</code>
+	<code>1 &lt;= nums[i] &lt;= 10^6</code>
+	<code>nums.length &lt;=threshold &lt;= 10^6</code>
+</ul>
+
+使结果不超过阈值的最小除数
+Given an array of integers <code>nums</code> and an integer <code>threshold</code>, we will choose a positive integer divisor anddivideall the array by it and sum the result of the division. Find the <strong>smallest</strong> divisor such that the result mentioned above is less thanor equal to <code>threshold</code>.
+
+Eachresult ofdivision is roundedto the nearest integer greater than or equal to that element.(For example: 7/3 = 3 and 10/2 = 5).
+
+It is guaranteed that there will be an answer.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [1,2,5,9], threshold = 6
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> We can get a sum to 17 (1+2+5+9) if the divisor is 1. 
+If the divisor is 4 we can get a sum to 7 (1+1+2+3) and if the divisor is 5 the sum will be 5 (1+1+1+2). 
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [2,3,5,7,11], threshold = 11
+<strong>Output:</strong> 3
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [19], threshold = 5
+<strong>Output:</strong> 4
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= nums.length &lt;= 5 * 10^4</code>
+	<code>1 &lt;= nums[i] &lt;= 10^6</code>
+	<code>nums.length &lt;=threshold &lt;= 10^6</code>
+</ul>

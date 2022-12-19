@@ -1,0 +1,101 @@
+reachable-nodes-in-subdivided-graph
+从具有<code>0</code> 到 <code>N-1</code> 的结点的<strong>无向</strong>图（&ldquo;原始图&rdquo;）开始，对一些边进行细分。
+
+该图给出如下：<code>edges[k]</code>是整数对<code>(i, j, n)</code>组成的列表，使<code>(i, j)</code> 是原始图的边。
+
+<code>n</code> 是该边上<strong>新</strong>结点的总数
+
+然后，将边<code>(i, j)</code>从原始图中删除，将<code>n</code>个新结点<code>(x_1, x_2, ..., x_n)</code>添加到原始图中，
+
+将<code>n+1</code>条新边<code>(i, x_1), (x_1, x_2), (x_2, x_3), ..., (x_{n-1}, x_n), (x_n, j)</code>添加到原始图中。
+
+现在，你将从原始图中的结点<code>0</code>处出发，并且每次移动，你都将沿着一条边行进。
+
+返回最多 <code>M</code> 次移动可以达到的结点数。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong><code>edges </code>= [[0,1,10],[0,2,1],[1,2,2]], M = 6, N = 3
+<strong>输出：</strong>13
+<strong>解释：</strong>
+在 M = 6 次移动之后在最终图中可到达的结点如下所示。
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/01/origfinal.png" style="height: 200px; width: 487px;">
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong><code>edges </code>= [[0,1,4],[1,2,6],[0,2,8],[1,3,1]], M = 10, N = 4
+<strong>输出：</strong>23</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>0 &lt;= edges.length &lt;= 10000</code>
+	<code>0 &lt;= edges[i][0] &lt;edges[i][1] &lt; N</code>
+	不存在任何<code>i != j</code>情况下<code>edges[i][0] == edges[j][0]</code>且<code>edges[i][1] == edges[j][1]</code>.
+	原始图没有平行的边。
+	<code>0 &lt;= edges[i][2] &lt;= 10000</code>
+	<code>0 &lt;= M &lt;= 10^9</code>
+	<code>1 &lt;= N &lt;= 3000</code>
+	可到达结点是可以从结点 <code>0</code> 开始使用最多 <code>M</code> 次移动到达的结点。
+</ol>
+
+
+
+细分图中的可到达结点
+Starting with an<strong>undirected</strong> graph (the &quot;original graph&quot;) with nodes from <code>0</code> to <code>N-1</code>, subdivisions are made to some of the edges.
+
+The graph is given as follows: <code>edges[k]</code> is a list of integer pairs <code>(i, j, n)</code> such that <code>(i, j)</code> is an edge of the original graph,
+
+and <code>n</code> is the total number of <strong>new</strong> nodes on that edge.
+
+Then, the edge <code>(i, j)</code> is deleted from the original graph,<code>n</code>new nodes <code>(x_1, x_2, ..., x_n)</code> are added to the original graph,
+
+and <code>n+1</code> newedges <code>(i, x_1), (x_1, x_2), (x_2, x_3), ..., (x_{n-1}, x_n), (x_n, j)</code>are added to the originalgraph.
+
+Now, you start at node <code>0</code>from the original graph, and in each move, you travel along oneedge.
+
+Return how many nodes you can reach in at most <code>M</code> moves.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><code>edges </code>= <span id="example-input-1-1">[[0,1,10],[0,2,1],[1,2,2]]</span>, M = <span id="example-input-1-2">6</span>, N = <span id="example-input-1-3">3</span>
+<strong>Output: </strong><span id="example-output-1">13</span>
+<strong>Explanation: </strong>
+The nodes that are reachable in the final graph after M = 6 moves are indicated below.
+<span><img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/01/origfinal.png" style="width: 487px; height: 200px;" /></span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><code>edges </code>= <span id="example-input-2-1">[[0,1,4],[1,2,6],[0,2,8],[1,3,1]]</span>, M = <span id="example-input-2-2">10</span>, N = <span id="example-input-2-3">4</span>
+<strong>Output: </strong><span id="example-output-2">23</span></pre>
+
+
+</div>
+
+<strong>Note:</strong>
+
+<ol>
+	<code>0 &lt;= edges.length &lt;= 10000</code>
+	<code>0 &lt;= edges[i][0] &lt;edges[i][1] &lt; N</code>
+	There does not exist any<code>i != j</code> for which <code>edges[i][0] == edges[j][0]</code> and <code>edges[i][1] == edges[j][1]</code>.
+	The original graphhas no parallel edges.
+	<code>0 &lt;= edges[i][2] &lt;= 10000</code>
+	<code>0 &lt;= M &lt;= 10^9</code>
+	<code><font face="monospace">1 &lt;= N &lt;= 3000</font></code>
+	A reachable node is a node that can be travelled tousing at mostM moves starting fromnode 0.
+</ol>
+
+<div>
+<div></div>
+</div>

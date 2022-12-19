@@ -1,0 +1,41 @@
+kth-largest-element-in-a-stream
+设计一个找到数据流中第K大元素的类（class）。注意是排序后的第K大元素，不是第K个不同的元素。
+
+你的<code>KthLargest</code>类需要一个同时接收整数<code>k</code> 和整数数组<code>nums</code>的构造器，它包含数据流中的初始元素。每次调用<code>KthLargest.add</code>，返回当前数据流中第K大的元素。
+
+<strong>示例:</strong>
+
+<pre>
+int k = 3;
+int[] arr = [4,5,8,2];
+KthLargest kthLargest = new KthLargest(3, arr);
+kthLargest.add(3); // returns 4
+kthLargest.add(5); // returns 5
+kthLargest.add(10); // returns 5
+kthLargest.add(9); // returns 8
+kthLargest.add(4); // returns 8
+</pre>
+
+<strong>说明: </strong><br />
+你可以假设<code>nums</code>的长度&ge;<code>k-1</code>且<code>k</code> &ge;1。
+
+数据流中的第K大元素
+Design a class to findthe <strong>k</strong>th largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.
+
+Your<code>KthLargest</code>class will have a constructor which accepts an integer <code>k</code> and an integer array <code>nums</code>, which contains initial elements fromthe stream. For each call to the method <code>KthLargest.add</code>, return the element representing the kth largest element in the stream.
+
+<strong>Example:</strong>
+
+<pre>
+int k = 3;
+int[] arr = [4,5,8,2];
+KthLargest kthLargest = new KthLargest(3, arr);
+kthLargest.add(3); // returns 4
+kthLargest.add(5); // returns 5
+kthLargest.add(10); // returns 5
+kthLargest.add(9); // returns 8
+kthLargest.add(4); // returns 8
+</pre>
+
+<strong>Note: </strong><br />
+You may assume that<code>nums</code>&#39; length&ge;<code>k-1</code>and <code>k</code> &ge;1.

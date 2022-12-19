@@ -1,0 +1,98 @@
+all-elements-in-two-binary-search-trees
+给你<code>root1</code> 和 <code>root2</code>这两棵二叉搜索树。
+
+请你返回一个列表，其中包含<strong>两棵树</strong>中的所有整数并按 <strong>升序</strong> 排序。.
+
+
+
+<strong>示例 1：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/12/29/q2-e1.png">
+
+<pre><strong>输入：</strong>root1 = [2,1,4], root2 = [1,0,3]
+<strong>输出：</strong>[0,1,1,2,3,4]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>root1 = [0,-10,10], root2 = [5,1,7,0,2]
+<strong>输出：</strong>[-10,0,0,1,2,5,7,10]
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>root1 = [], root2 = [5,1,7,0,2]
+<strong>输出：</strong>[0,1,2,5,7]
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>root1 = [0,-10,10], root2 = []
+<strong>输出：</strong>[-10,0,10]
+</pre>
+
+<strong>示例 5：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/12/29/q2-e5-.png">
+
+<pre><strong>输入：</strong>root1 = [1,null,8], root2 = [8,1]
+<strong>输出：</strong>[1,1,8,8]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	每棵树最多有<code>5000</code>个节点。
+	每个节点的值在<code>[-10^5, 10^5]</code>之间。
+</ul>
+
+两棵二叉搜索树中的所有元素
+Given two binary search trees <code>root1</code> and <code>root2</code>.
+
+Return a list containing <em>all the integers</em> from <em>both trees</em> sorted in <strong>ascending</strong> order.
+
+
+<strong>Example 1:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png" style="width: 457px; height: 207px;" />
+<pre>
+<strong>Input:</strong> root1 = [2,1,4], root2 = [1,0,3]
+<strong>Output:</strong> [0,1,1,2,3,4]
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> root1 = [0,-10,10], root2 = [5,1,7,0,2]
+<strong>Output:</strong> [-10,0,0,1,2,5,7,10]
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> root1 = [], root2 = [5,1,7,0,2]
+<strong>Output:</strong> [0,1,2,5,7]
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> root1 = [0,-10,10], root2 = []
+<strong>Output:</strong> [-10,0,10]
+</pre>
+
+<strong>Example 5:</strong>
+<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png" style="width: 352px; height: 197px;" />
+<pre>
+<strong>Input:</strong> root1 = [1,null,8], root2 = [8,1]
+<strong>Output:</strong> [1,1,8,8]
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	Each tree has at most <code>5000</code> nodes.
+	Each node&#39;s value is between <code>[-10^5, 10^5]</code>.
+</ul>

@@ -1,0 +1,39 @@
+shortest-word-distance-iii
+给定一个单词列表和两个单词 <em>word1</em> 和 <em>word2</em>，返回列表中这两个单词之间的最短距离。
+
+<em>word1</em> 和 <em>word2</em>是有可能相同的，并且它们将分别表示为列表中两个独立的单词。
+
+<strong>示例:</strong><br>
+假设 words = <code>[&quot;practice&quot;, &quot;makes&quot;, &quot;perfect&quot;, &quot;coding&quot;, &quot;makes&quot;]</code>.
+
+<pre><strong>输入:</strong> <em>word1</em> = <code>&ldquo;makes&rdquo;</code>, <em>word2</em> = <code>&ldquo;coding&rdquo;</code>
+<strong>输出:</strong> 1
+</pre>
+
+<pre><strong>输入:</strong> <em>word1</em> = <code>&quot;makes&quot;</code>, <em>word2</em> = <code>&quot;makes&quot;</code>
+<strong>输出:</strong> 3
+</pre>
+
+<strong>注意:</strong><br>
+你可以假设 <em>word1</em> 和 <em>word2</em> 都在列表里。
+
+最短单词距离 III
+Given a list of words and two words <em>word1</em> and <em>word2</em>, return the shortest distance between these two words in the list.
+
+<em>word1</em> and <em>word2</em> may be the same and they represent two individual words in the list.
+
+<strong>Example:</strong><br />
+Assume that words = <code>[&quot;practice&quot;, &quot;makes&quot;, &quot;perfect&quot;, &quot;coding&quot;, &quot;makes&quot;]</code>.
+
+<pre>
+<b>Input:</b> <em>word1</em> = <code>&ldquo;makes&rdquo;</code>, <em>word2</em> = <code>&ldquo;coding&rdquo;</code>
+<b>Output:</b> 1
+</pre>
+
+<pre>
+<b>Input:</b> <em>word1</em> = <code>&quot;makes&quot;</code>, <em>word2</em> = <code>&quot;makes&quot;</code>
+<b>Output:</b> 3
+</pre>
+
+<strong>Note:</strong><br />
+You may assume <em>word1</em> and <em>word2</em> are both in the list.

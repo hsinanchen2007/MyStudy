@@ -1,0 +1,109 @@
+minimum-insertion-steps-to-make-a-string-palindrome
+给你一个字符串<code>s</code>，每一次操作你都可以在字符串的任意位置插入任意字符。
+
+请你返回让<code>s</code>成为回文串的<strong>最少操作次数</strong>。
+
+「回文串」是正读和反读都相同的字符串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre>
+<strong>输入：</strong>s = &quot;zzazz&quot;
+<strong>输出：</strong>0
+<strong>解释：</strong>字符串 &quot;zzazz&quot; 已经是回文串了，所以不需要做任何插入操作。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre>
+<strong>输入：</strong>s = &quot;mbadm&quot;
+<strong>输出：</strong>2
+<strong>解释：</strong>字符串可变为 &quot;mbdadbm&quot; 或者 &quot;mdbabdm&quot; 。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre>
+<strong>输入：</strong>s = &quot;leetcode&quot;
+<strong>输出：</strong>5
+<strong>解释：</strong>插入 5 个字符后字符串变为 &quot;leetcodocteel&quot; 。
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre>
+<strong>输入：</strong>s = &quot;g&quot;
+<strong>输出：</strong>0
+</pre>
+
+<strong>示例 5：</strong>
+
+<pre>
+<strong>输入：</strong>s = &quot;no&quot;
+<strong>输出：</strong>1
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 500</code>
+	<code>s</code>中所有字符都是小写字母。
+</ul>
+
+让字符串成为回文串的最少插入次数
+Given a string <code>s</code>. In one step you can insert any character at any index of the string.
+
+Return <em>the minimum number of steps</em> to make <code>s</code>palindrome.
+
+A<b>Palindrome String</b>is one that reads the same backward as well as forward.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;zzazz&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> The string &quot;zzazz&quot; is already palindrome we don&#39;t need any insertions.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;mbadm&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> String can be &quot;mbdadbm&quot; or &quot;mdbabdm&quot;.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;leetcode&quot;
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> Inserting 5 characters the string becomes &quot;leetcodocteel&quot;.
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;g&quot;
+<strong>Output:</strong> 0
+</pre>
+
+<strong>Example 5:</strong>
+
+<pre>
+<strong>Input:</strong> s = &quot;no&quot;
+<strong>Output:</strong> 1
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= s.length &lt;= 500</code>
+	All characters of <code>s</code>are lower case English letters.
+</ul>

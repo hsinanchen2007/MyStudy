@@ -1,0 +1,54 @@
+last-stone-weight
+有一堆石头，每块石头的重量都是正整数。
+
+每一回合，从中选出两块<strong>最重的</strong>石头，然后将它们一起粉碎。假设石头的重量分别为<code>x</code> 和<code>y</code>，且<code>x &lt;= y</code>。那么粉碎的可能结果如下：
+
+<ul>
+	如果<code>x == y</code>，那么两块石头都会被完全粉碎；
+	如果<code>x != y</code>，那么重量为<code>x</code>的石头将会完全粉碎，而重量为<code>y</code>的石头新重量为<code>y-x</code>。
+</ul>
+
+最后，最多只会剩下一块石头。返回此石头的重量。如果没有石头剩下，就返回 <code>0</code>。
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= stones.length &lt;= 30</code>
+	<code>1 &lt;= stones[i] &lt;= 1000</code>
+</ol>
+
+最后一块石头的重量
+We have a collection of stones, each stonehas a positive integer weight.
+
+Each turn, we choose the two <strong>heaviest</strong>stonesand smash them together. Suppose the stones have weights <code>x</code> and <code>y</code> with <code>x &lt;= y</code>. The result of this smash is:
+
+<ul>
+	If <code>x == y</code>, both stones are totally destroyed;
+	If <code>x != y</code>, the stone of weight <code>x</code> is totally destroyed, and the stone of weight <code>y</code> has new weight <code>y-x</code>.
+</ul>
+
+At the end, there is at most 1 stone left. Return the weight of this stone (or 0 if there are no stones left.)
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>[2,7,4,1,8,1]
+<strong>Output: </strong>1
+<strong>Explanation: </strong>
+We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
+we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
+we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
+we combine 1 and 1 to get 0 so the array converts to [1] then that&#39;s the value of last stone.</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>1 &lt;= stones.length &lt;= 30</code>
+	<code>1 &lt;= stones[i] &lt;= 1000</code>
+</ol>

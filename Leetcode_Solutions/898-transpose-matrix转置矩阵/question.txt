@@ -1,0 +1,64 @@
+transpose-matrix
+给定一个矩阵<code>A</code>，返回<code>A</code>的转置矩阵。
+
+矩阵的转置是指将矩阵的主对角线翻转，交换矩阵的行索引与列索引。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[[1,2,3],[4,5,6],[7,8,9]]
+<strong>输出：</strong>[[1,4,7],[2,5,8],[3,6,9]]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[[1,2,3],[4,5,6]]
+<strong>输出：</strong>[[1,4],[2,5],[3,6]]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>1 &lt;= A.length&lt;= 1000</code>
+	<code>1 &lt;= A[0].length&lt;= 1000</code>
+</ol>
+
+转置矩阵
+Given amatrix <code>A</code>, return the transpose of <code>A</code>.
+
+The transpose of a matrix is the matrix flipped over it&#39;s main diagonal, switching the row and column indices of the matrix.
+
+<br>
+<img src="https://assets.leetcode.com/uploads/2019/10/20/hint_transpose.png" width="700"/>
+
+
+
+<div>
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[[1,2,3],[4,5,6],[7,8,9]]</span>
+<strong>Output: </strong><span id="example-output-1">[[1,4,7],[2,5,8],[3,6,9]]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">[[1,2,3],[4,5,6]]</span>
+<strong>Output: </strong><span id="example-output-2">[[1,4],[2,5],[3,6]]</span>
+</pre>
+
+
+
+<span><strong>Note:</strong></span>
+
+<ol>
+	<code><span>1 &lt;= A.length&lt;= 1000</span></code>
+	<code><span>1 &lt;= A[0].length&lt;= 1000</span></code>
+</ol>
+</div>
+</div>

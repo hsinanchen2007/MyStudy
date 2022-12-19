@@ -1,0 +1,71 @@
+prime-number-of-set-bits-in-binary-representation
+给定两个整数<code>L</code>和<code>R</code>，找到闭区间<code>[L, R]</code>范围内，计算置位位数为质数的整数个数。
+
+（注意，计算置位代表二进制表示中1的个数。例如<code>21</code>的二进制表示<code>10101</code>有 3 个计算置位。还有，1 不是质数。）
+
+<strong>示例 1:</strong>
+
+<pre>
+<strong>输入:</strong> L = 6, R = 10
+<strong>输出:</strong> 4
+<strong>解释:</strong>
+6 -&gt; 110 (2 个计算置位，2 是质数)
+7 -&gt; 111 (3 个计算置位，3 是质数)
+9 -&gt; 1001 (2 个计算置位，2 是质数)
+10-&gt; 1010 (2 个计算置位，2 是质数)
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre>
+<strong>输入:</strong> L = 10, R = 15
+<strong>输出:</strong> 5
+<strong>解释:</strong>
+10 -&gt; 1010 (2 个计算置位, 2 是质数)
+11 -&gt; 1011 (3 个计算置位, 3 是质数)
+12 -&gt; 1100 (2 个计算置位, 2 是质数)
+13 -&gt; 1101 (3 个计算置位, 3 是质数)
+14 -&gt; 1110 (3 个计算置位, 3 是质数)
+15 -&gt; 1111 (4 个计算置位, 4 不是质数)
+</pre>
+
+<strong>注意:</strong>
+
+<ol>
+	<code>L, R</code>是<code>L &lt;= R</code>且在<code>[1, 10^6]</code>中的整数。
+	<code>R - L</code>的最大值为 10000。
+</ol>
+
+二进制表示中质数个计算置位
+
+Given two integers <code>L</code> and <code>R</code>, find the count of numbers in the range <code>[L, R]</code> (inclusive) having a prime number of set bits in their binary representation.
+
+(Recall that the number of set bits an integer has is the number of <code>1</code>s present when written in binary.  For example, <code>21</code> written in binary is <code>10101</code> which has 3 set bits.  Also, 1 is not a prime.)
+
+
+<b>Example 1:</b><br /><pre>
+<b>Input:</b> L = 6, R = 10
+<b>Output:</b> 4
+<b>Explanation:</b>
+6 -> 110 (2 set bits, 2 is prime)
+7 -> 111 (3 set bits, 3 is prime)
+9 -> 1001 (2 set bits , 2 is prime)
+10->1010 (2 set bits , 2 is prime)
+</pre>
+
+<b>Example 2:</b><br /><pre>
+<b>Input:</b> L = 10, R = 15
+<b>Output:</b> 5
+<b>Explanation:</b>
+10 -> 1010 (2 set bits, 2 is prime)
+11 -> 1011 (3 set bits, 3 is prime)
+12 -> 1100 (2 set bits, 2 is prime)
+13 -> 1101 (3 set bits, 3 is prime)
+14 -> 1110 (3 set bits, 3 is prime)
+15 -> 1111 (4 set bits, 4 is not prime)
+</pre>
+
+<b>Note:</b><br><ol>
+<code>L, R</code> will be integers <code>L <= R</code> in the range <code>[1, 10^6]</code>.
+<code>R - L</code> will be at most 10000.
+</ol>

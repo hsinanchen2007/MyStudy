@@ -1,0 +1,99 @@
+get-watched-videos-by-your-friends
+有<code>n</code> 个人，每个人都有一个 <code>0</code>到<code>n-1</code>的唯一<em>id</em>。
+
+给你数组 <code>watchedVideos</code> 和<code>friends</code>，其中<code>watchedVideos[i]</code> 和<code>friends[i]</code>分别表示<code>id = i</code>的人观看过的视频列表和他的好友列表。
+
+Level<strong>1</strong>的视频包含所有你好友观看过的视频，level<strong>2</strong>的视频包含所有你好友的好友观看过的视频，以此类推。一般的，Level 为 <strong>k</strong>的视频包含所有从你出发，最短距离为<strong>k</strong>的好友观看过的视频。
+
+给定你的<code>id</code> 和一个<code>level</code>值，请你找出所有指定 <code>level</code> 的视频，并将它们按观看频率升序返回。如果有频率相同的视频，请将它们按字母顺序从小到大排列。
+
+
+
+<strong>示例 1：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/01/03/leetcode_friends_1.png" style="height: 179px; width: 129px;"></strong>
+
+<pre><strong>输入：</strong>watchedVideos = [[&quot;A&quot;,&quot;B&quot;],[&quot;C&quot;],[&quot;B&quot;,&quot;C&quot;],[&quot;D&quot;]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 1
+<strong>输出：</strong>[&quot;B&quot;,&quot;C&quot;] 
+<strong>解释：</strong>
+你的 id 为 0（绿色），你的朋友包括（黄色）：
+id 为 1 -&gt; watchedVideos = [&quot;C&quot;]
+id 为 2 -&gt; watchedVideos = [&quot;B&quot;,&quot;C&quot;]
+你朋友观看过视频的频率为：
+B -&gt; 1
+C -&gt; 2
+</pre>
+
+<strong>示例 2：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/01/03/leetcode_friends_2.png" style="height: 179px; width: 129px;"></strong>
+
+<pre><strong>输入：</strong>watchedVideos = [[&quot;A&quot;,&quot;B&quot;],[&quot;C&quot;],[&quot;B&quot;,&quot;C&quot;],[&quot;D&quot;]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 2
+<strong>输出：</strong>[&quot;D&quot;]
+<strong>解释：</strong>
+你的 id 为 0（绿色），你朋友的朋友只有一个人，他的 id 为 3（黄色）。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>n == watchedVideos.length ==friends.length</code>
+	<code>2 &lt;= n&lt;= 100</code>
+	<code>1 &lt;=watchedVideos[i].length &lt;= 100</code>
+	<code>1 &lt;=watchedVideos[i][j].length &lt;= 8</code>
+	<code>0 &lt;= friends[i].length &lt; n</code>
+	<code>0 &lt;= friends[i][j]&lt; n</code>
+	<code>0 &lt;= id &lt; n</code>
+	<code>1 &lt;= level &lt; n</code>
+	如果<code>friends[i]</code> 包含<code>j</code>，那么<code>friends[j]</code> 包含<code>i</code>
+</ul>
+
+获取你好友已观看的视频
+There are <code>n</code> people, each person has a unique <em>id</em> between <code>0</code> and <code>n-1</code>. Given the arrays <code>watchedVideos</code> and <code>friends</code>, where <code>watchedVideos[i]</code> and <code>friends[i]</code> contain the list of watched videos and the list of friends respectively for the person with <code>id = i</code>.
+
+Level <strong>1</strong> of videos are all watched videos by yourfriends, level <strong>2</strong> of videos are all watched videos by the friends of yourfriends and so on. In general, the level <code>k</code> of videos are allwatched videos by peoplewith the shortest path <strong>exactly</strong> equalto<code>k</code> with you. Given your<code>id</code> and the <code>level</code> of videos, return the list of videos ordered by their frequencies (increasing). For videos with the same frequency order them alphabetically from least to greatest.
+
+
+<strong>Example 1:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_1.png" style="width: 144px; height: 200px;" /></strong>
+
+<pre>
+<strong>Input:</strong> watchedVideos = [[&quot;A&quot;,&quot;B&quot;],[&quot;C&quot;],[&quot;B&quot;,&quot;C&quot;],[&quot;D&quot;]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 1
+<strong>Output:</strong> [&quot;B&quot;,&quot;C&quot;] 
+<strong>Explanation:</strong> 
+You have id = 0 (green color in the figure) and your friends are (yellow color in the figure):
+Person with id = 1 -&gt; watchedVideos = [&quot;C&quot;]
+Person with id = 2 -&gt; watchedVideos = [&quot;B&quot;,&quot;C&quot;]
+The frequencies of watchedVideos by your friends are:
+B -&gt; 1
+C -&gt; 2
+</pre>
+
+<strong>Example 2:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2020/01/02/leetcode_friends_2.png" style="width: 144px; height: 200px;" /></strong>
+
+<pre>
+<strong>Input:</strong> watchedVideos = [[&quot;A&quot;,&quot;B&quot;],[&quot;C&quot;],[&quot;B&quot;,&quot;C&quot;],[&quot;D&quot;]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 2
+<strong>Output:</strong> [&quot;D&quot;]
+<strong>Explanation:</strong> 
+You have id = 0 (green color in the figure) and the only friend of your friends is the person with id = 3 (yellow color in the figure).
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>n == watchedVideos.length ==friends.length</code>
+	<code>2 &lt;= n&lt;= 100</code>
+	<code>1 &lt;=watchedVideos[i].length &lt;= 100</code>
+	<code>1 &lt;=watchedVideos[i][j].length &lt;= 8</code>
+	<code>0 &lt;= friends[i].length &lt; n</code>
+	<code>0 &lt;= friends[i][j]&lt; n</code>
+	<code>0 &lt;= id &lt; n</code>
+	<code>1 &lt;= level &lt; n</code>
+	if<code>friends[i]</code> contains <code>j</code>, then <code>friends[j]</code> contains <code>i</code>
+</ul>

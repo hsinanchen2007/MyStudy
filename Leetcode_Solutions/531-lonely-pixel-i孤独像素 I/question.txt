@@ -1,0 +1,51 @@
+lonely-pixel-i
+给定一幅黑白像素组成的图像, 计算<strong>黑色</strong>孤独像素的数量。
+
+图像由一个由&lsquo;B&rsquo;和&lsquo;W&rsquo;组成二维字符数组表示, &lsquo;B&rsquo;和&lsquo;W&rsquo;分别代表黑色像素和白色像素。
+
+黑色孤独像素指的是在同一行和同一列不存在其他黑色像素的黑色像素。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong> 
+[[&#39;W&#39;, &#39;W&#39;, &#39;B&#39;],
+ [&#39;W&#39;, &#39;B&#39;, &#39;W&#39;],
+ [&#39;B&#39;, &#39;W&#39;, &#39;W&#39;]]
+
+<strong>输出:</strong> 3
+<strong>解析:</strong> 全部三个&#39;B&#39;都是黑色孤独像素。
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	输入二维数组行和列的范围是 [1,500]。
+</ol>
+
+
+
+孤独像素 I
+Given a picture consisting of black and white pixels, find the number of <b>black</b> lonely pixels.
+
+The picture is represented by a 2D char array consisting of 'B' and 'W', which means black and white pixels respectively. 
+
+A black lonely pixel is character 'B' that located at a specific position where the same row and same column don't have any other black pixels.
+
+<b>Example:</b><br />
+<pre>
+<b>Input:</b> 
+[['W', 'W', 'B'],
+ ['W', 'B', 'W'],
+ ['B', 'W', 'W']]
+
+<b>Output:</b> 3
+<b>Explanation:</b> All the three 'B's are black lonely pixels.
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+The range of width and height of the input 2D array is [1,500].
+</ol>

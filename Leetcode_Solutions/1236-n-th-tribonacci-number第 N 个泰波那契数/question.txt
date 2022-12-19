@@ -1,0 +1,65 @@
+n-th-tribonacci-number
+泰波那契序列T<sub>n</sub>定义如下：
+
+T<sub>0</sub> = 0, T<sub>1</sub> = 1, T<sub>2</sub> = 1, 且在 n &gt;= 0的条件下 T<sub>n+3</sub> = T<sub>n</sub> + T<sub>n+1</sub> + T<sub>n+2</sub>
+
+给你整数<code>n</code>，请返回第 n 个泰波那契数T<sub>n </sub>的值。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>n = 4
+<strong>输出：</strong>4
+<strong>解释：</strong>
+T_3 = 0 + 1 + 1 = 2
+T_4 = 1 + 1 + 2 = 4
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 25
+<strong>输出：</strong>1389537
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>0 &lt;= n &lt;= 37</code>
+	答案保证是一个 32 位整数，即<code>answer &lt;= 2^31 - 1</code>。
+</ul>
+
+第 N 个泰波那契数
+The Tribonacci sequence T<sub>n</sub> is defined as follows:
+
+T<sub>0</sub> = 0, T<sub>1</sub> = 1, T<sub>2</sub> = 1, and T<sub>n+3</sub> = T<sub>n</sub> + T<sub>n+1</sub> + T<sub>n+2</sub> for n &gt;= 0.
+
+Given <code>n</code>, return the value of T<sub>n</sub>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> n = 4
+<strong>Output:</strong> 4
+<strong>Explanation:</strong>
+T_3 = 0 + 1 + 1 = 2
+T_4 = 1 + 1 + 2 = 4
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 25
+<strong>Output:</strong> 1389537
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>0 &lt;= n &lt;= 37</code>
+	The answer is guaranteed to fit within a 32-bit integer, ie. <code>answer &lt;= 2^31 - 1</code>.
+</ul>

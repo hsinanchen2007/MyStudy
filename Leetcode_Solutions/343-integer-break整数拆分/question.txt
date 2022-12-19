@@ -1,0 +1,39 @@
+integer-break
+给定一个正整数<em>n</em>，将其拆分为<strong>至少</strong>两个正整数的和，并使这些整数的乘积最大化。 返回你可以获得的最大乘积。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>2
+<strong>输出: </strong>1
+<strong>解释: </strong>2 = 1 + 1, 1 &times; 1 = 1。</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入: </strong>10
+<strong>输出: </strong>36
+<strong>解释: </strong>10 = 3 + 3 + 4, 3 &times;3 &times;4 = 36。</pre>
+
+<strong>说明: </strong>你可以假设<em>n</em>不小于 2 且不大于 58。
+
+整数拆分
+Given a positive integer <i>n</i>, break it into the sum of <b>at least</b> two positive integers and maximize the product of those integers. Return the maximum product you can get.
+
+<strong>Example 1:</strong>
+
+<div>
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">2</span>
+<strong>Output: </strong><span id="example-output-1">1</span>
+<strong>Explanation: </strong>2 = 1 + 1, 1 &times; 1 = 1.</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">10</span>
+<strong>Output: </strong><span id="example-output-2">36</span>
+<strong>Explanation: </strong>10 = 3 + 3 + 4, 3 &times;3 &times;4 = 36.</pre>
+
+<b>Note</b>: You may assume that <i>n</i> is not less than 2 and not larger than 58.
+</div>
+</div>

@@ -1,0 +1,54 @@
+
+
+![](https://pic.leetcode-cn.com/6daa78ec594640b47d6375aa5d51be77fe01c36c422de51272d687b106283bfd.jpg)
+
+### 思路
+
+- 标签：`动态规划`、`队列`
+- 动态规划：通过子问题解决父问题，即父问题的答案可以通过子问题得到
+- 无法直观的得到结果，需要找到一个规律
+- 规律就是：**从后往前遍历**，当前子序列的和（解码方法数）跟上一个和上上个子序列的和相关。分为三种情况：
+  1. 如果当前子序列以 0 开头，那么解码方法数始终为 0
+  2. 如果当前子序列前 2 个数大于 26，那么解码方法数为上一个子序列的和（例如：901，90 > 26，默认为上一个子序列 01 的和 0）
+  3. 不满足上面两个条件时，那么解码方法数为上一个和上上个子序列的和相加
+- 计算从倒数第 2 个开始，默认最右边隐含 1；利用队列存放前两个子序列的总和
+- 时间复杂度：O(n)，遍历一遍就能得到结果
+- 空间复杂度：O(1)，队列的长度始终为 2
+
+
+### 代码
+
+```Java []
+class Solution {
+    public int numDecodings(String s) {
+        char[] charArr = s.toCharArray();
+        if (s.equals("") || charArr[0] == '0') {
+            return 0;
+        }
+        int index = charArr.length - 1;
+        int preNumber = Character.getNumericValue(charArr[index]);
+        Deque<Integer> preSumStack = new LinkedList<>();
+        preSumStack.add(1);
+        preSumStack.add(preNumber == 0 ? 0 : 1);
+        while (index > 0) {
+            int currNumber = Integer.parseInt(String.valueOf(charArr[index - 1]));
+            int currSum = preSumStack.getLast();
+            if (currNumber == 0) {
+                currSum = 0;
+            } else {
+                int newNumber = currNumber * 10 + preNumber;
+                if (newNumber > 0 && newNumber <= 26) {
+                    currSum = preSumStack.getFirst() + preSumStack.getLast();
+                }
+            }
+            preSumStack.removeFirst();
+            preSumStack.add(currSum);
+            preNumber = currNumber;
+            index = index - 1;
+        }
+        return preSumStack.getLast();
+    }
+}
+```
+
+

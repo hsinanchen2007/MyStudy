@@ -1,0 +1,1 @@
+Line 36: Char 5: error: redefinition of 'main'这是什么错误，第一次用这个编译器，求助怎么用。

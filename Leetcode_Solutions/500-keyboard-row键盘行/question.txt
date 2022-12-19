@@ -1,0 +1,46 @@
+keyboard-row
+给定一个单词列表，只返回可以使用在键盘同一行的字母打印出来的单词。键盘如下图所示。
+
+
+
+<img alt="American keyboard" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/keyboard.png" style="width: 100%; max-width: 600px">
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入:</strong> [&quot;Hello&quot;, &quot;Alaska&quot;, &quot;Dad&quot;, &quot;Peace&quot;]
+<strong>输出:</strong> [&quot;Alaska&quot;, &quot;Dad&quot;]
+</pre>
+
+
+
+<strong>注意：</strong>
+
+<ol>
+	你可以重复使用键盘上同一字符。
+	你可以假设输入的字符串将只包含字母。
+</ol>
+键盘行
+Given a List of words, return the words that can be typed using letters of <b>alphabet</b> on only one row&#39;s of American keyboard like the image below.
+
+
+
+<img alt="" src="https://assets.leetcode.com/uploads/2018/10/12/keyboard.png" style="width: 100%; max-width: 600px" />
+
+
+<b>Example:</b>
+
+<pre>
+<b>Input:</b> [&quot;Hello&quot;, &quot;Alaska&quot;, &quot;Dad&quot;, &quot;Peace&quot;]
+<b>Output:</b> [&quot;Alaska&quot;, &quot;Dad&quot;]
+</pre>
+
+
+
+<b>Note:</b>
+
+<ol>
+	You may use one character in the keyboard more than once.
+	You may assume the input string will only contain letters of alphabet.
+</ol>

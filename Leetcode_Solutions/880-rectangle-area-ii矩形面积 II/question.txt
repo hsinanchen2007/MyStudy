@@ -1,0 +1,61 @@
+rectangle-area-ii
+我们给出了一个（轴对齐的）矩形列表<code>rectangles</code>。 对于<code>rectangle[i] = [x1, y1, x2, y2]</code>，其中（x1，y1）是矩形<code>i</code>左下角的坐标，（x2，y2）是该矩形右上角的坐标。
+
+找出平面中所有矩形叠加覆盖后的总面积。 由于答案可能太大，<strong>请返回它对 10 ^ 9 + 7 取模的结果</strong>。
+
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/06/rectangle_area_ii_pic.png" style="height: 360px; width: 480px;">
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>[[0,0,2,2],[1,0,2,3],[1,0,3,1]]
+<strong>输出：</strong>6
+<strong>解释：</strong>如图所示。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>[[0,0,1000000000,1000000000]]
+<strong>输出：</strong>49
+<strong>解释：</strong>答案是 10^18 对 (10^9 + 7) 取模的结果， 即 (10^9)^2 &rarr; (-7)^2 = 49 。
+</pre>
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= rectangles.length &lt;= 200</code>
+	<code>rectanges[i].length = 4</code>
+	<code>0 &lt;= rectangles[i][j] &lt;= 10^9</code>
+	矩形叠加覆盖后的总面积不会超越<code>2^63 - 1</code>，这意味着可以用一个64 位有符号整数来保存面积结果。
+</ul>
+
+矩形面积 II
+We are given a list of (axis-aligned)<code>rectangles</code>. Each<code>rectangle[i] = [x1, y1, x2, y2]</code>, where (x1, y1) are the coordinates of the bottom-left corner, and (x2, y2) are the coordinates of the top-right corner of the <code>i</code>th rectangle.
+
+Find the total area covered by all <code>rectangles</code> in the plane. Since the answermay be too large, <strong>return it modulo 10^9 + 7</strong>.
+
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/06/rectangle_area_ii_pic.png" style="width: 480px; height: 360px;" />
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>[[0,0,2,2],[1,0,2,3],[1,0,3,1]]
+<strong>Output: </strong>6
+<strong>Explanation: </strong>As illustrated in the picture.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>[[0,0,1000000000,1000000000]]
+<strong>Output: </strong>49
+<strong>Explanation: </strong>The answer is 10^18 modulo (10^9 + 7), which is (10^9)^2 = (-7)^2 = 49.
+</pre>
+
+<strong>Note:</strong>
+
+<ul>
+	<code>1 &lt;= rectangles.length &lt;= 200</code>
+	<code><font face="monospace">rectanges[i].length = 4</font></code>
+	<code>0 &lt;= rectangles[i][j] &lt;= 10^9</code>
+	The total area covered by all rectangles will never exceed<code>2^63 - 1</code>and thus will fit in a 64-bit signed integer.
+</ul>

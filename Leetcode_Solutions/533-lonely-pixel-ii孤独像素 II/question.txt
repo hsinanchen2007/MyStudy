@@ -1,0 +1,83 @@
+lonely-pixel-ii
+给定一幅由黑色像素和白色像素组成的图像，与一个正整数N, 找到位于某行<strong>R</strong>和某列<strong>C</strong>中且符合下列规则的黑色像素的数量:
+
+<ol>
+	行R 和列C都恰好包括N个黑色像素。
+	列C中所有黑色像素所在的行必须和行R完全相同。
+</ol>
+
+图像由一个由&lsquo;B&rsquo;和&lsquo;W&rsquo;组成二维字符数组表示, &lsquo;B&rsquo;和&lsquo;W&rsquo;分别代表黑色像素和白色像素。
+
+<strong>示例:</strong>
+
+<pre><strong>输入:</strong>                                            
+[[&#39;W&#39;, &#39;B&#39;, &#39;W&#39;, &#39;B&#39;, &#39;B&#39;, &#39;W&#39;],    
+ [&#39;W&#39;, &#39;B&#39;, &#39;W&#39;, &#39;B&#39;, &#39;B&#39;, &#39;W&#39;],    
+ [&#39;W&#39;, &#39;B&#39;, &#39;W&#39;, &#39;B&#39;, &#39;B&#39;, &#39;W&#39;],    
+ [&#39;W&#39;, &#39;W&#39;, &#39;B&#39;, &#39;W&#39;, &#39;B&#39;, &#39;W&#39;]] 
+
+N = 3
+<strong>输出:</strong> 6
+<strong>解析:</strong> 所有粗体的&#39;B&#39;都是我们所求的像素(第1列和第3列的所有&#39;B&#39;).
+        0    1    2    3    4    5         列号                                          
+0    [[&#39;W&#39;, <strong>&#39;B&#39;</strong>, &#39;W&#39;, <strong>&#39;B&#39;</strong>, &#39;B&#39;, &#39;W&#39;],    
+1     [&#39;W&#39;, <strong>&#39;B&#39;</strong>, &#39;W&#39;, <strong>&#39;B&#39;</strong>, &#39;B&#39;, &#39;W&#39;],    
+2     [&#39;W&#39;, <strong>&#39;B&#39;</strong>, &#39;W&#39;, <strong>&#39;B&#39;</strong>, &#39;B&#39;, &#39;W&#39;],    
+3     [&#39;W&#39;, &#39;W&#39;, &#39;B&#39;, &#39;W&#39;, &#39;B&#39;, &#39;W&#39;]]    
+行号
+
+以R = 0行和C = 1列的&#39;B&#39;为例:
+规则 1，R = 0行和C = 1列都恰好有N = 3个黑色像素. 
+规则 2，在C = 1列的黑色像素分别位于0，1和2行。它们都和R = 0行完全相同。
+
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	输入二维数组行和列的范围是 [1,200]。
+</ol>
+
+
+
+孤独像素 II
+Given a picture consisting of black and white pixels, and a positive integer N, find the number of black pixels located at some specific row <b>R</b> and column <b>C</b> that align with all the following rules:
+
+<ol>
+ Row R and column C both contain exactly N black pixels.
+ For all rows that have a black pixel at column C, they should be exactly the same as row R
+</ol>
+
+The picture is represented by a 2D char array consisting of 'B' and 'W', which means black and white pixels respectively. 
+
+<b>Example:</b><br />
+<pre>
+<b>Input:</b>                                            
+[['W', 'B', 'W', 'B', 'B', 'W'],    
+ ['W', 'B', 'W', 'B', 'B', 'W'],    
+ ['W', 'B', 'W', 'B', 'B', 'W'],    
+ ['W', 'W', 'B', 'W', 'B', 'W']] 
+
+N = 3
+<b>Output:</b> 6
+<b>Explanation:</b> All the bold 'B' are the black pixels we need (all 'B's at column 1 and 3).
+        0    1    2    3    4    5         column index                                            
+0    [['W', <b>'B'</b>, 'W', <b>'B'</b>, 'B', 'W'],    
+1     ['W', <b>'B'</b>, 'W', <b>'B'</b>, 'B', 'W'],    
+2     ['W', <b>'B'</b>, 'W', <b>'B'</b>, 'B', 'W'],    
+3     ['W', 'W', 'B', 'W', 'B', 'W']]    
+row index
+
+Take 'B' at row R = 0 and column C = 1 as an example:
+Rule 1, row R = 0 and column C = 1 both have exactly N = 3 black pixels. 
+Rule 2, the rows have black pixel at column C = 1 are row 0, row 1 and row 2. They are exactly the same as row R = 0.
+
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+The range of width and height of the input 2D array is [1,200].
+</ol>

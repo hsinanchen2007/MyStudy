@@ -1,0 +1,77 @@
+numbers-at-most-n-given-digit-set
+我们有一组<strong>排序的</strong>数字 <code>D</code>，它是 <code>{&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;,&#39;5&#39;,&#39;6&#39;,&#39;7&#39;,&#39;8&#39;,&#39;9&#39;}</code>的非空子集。（请注意，<code>&#39;0&#39;</code> 不包括在内。）
+
+现在，我们用这些数字进行组合写数字，想用多少次就用多少次。例如<code>D = {&#39;1&#39;,&#39;3&#39;,&#39;5&#39;}</code>，我们可以写出像<code>&#39;13&#39;, &#39;551&#39;, &#39;1351315&#39;</code>这样的数字。
+
+返回可以用 <code>D</code> 中的数字写出的小于或等于 <code>N</code> 的正整数的数目。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>D = [&quot;1&quot;,&quot;3&quot;,&quot;5&quot;,&quot;7&quot;], N = 100
+<strong>输出：</strong>20
+<strong>解释：</strong>
+可写出的 20 个数字是：
+1, 3, 5, 7, 11, 13, 15, 17, 31, 33, 35, 37, 51, 53, 55, 57, 71, 73, 75, 77.
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>D = [&quot;1&quot;,&quot;4&quot;,&quot;9&quot;], N = 1000000000
+<strong>输出：</strong>29523
+<strong>解释：</strong>
+我们可以写 3 个一位数字，9 个两位数字，27 个三位数字，
+81 个四位数字，243 个五位数字，729 个六位数字，
+2187 个七位数字，6561 个八位数字和 19683 个九位数字。
+总共，可以使用D中的数字写出 29523 个整数。</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>D</code> 是按排序顺序的数字 <code>&#39;1&#39;-&#39;9&#39;</code> 的子集。
+	<code>1 &lt;= N &lt;= 10^9</code>
+</ol>
+
+最大为 N 的数字组合
+We have a <strong>sorted</strong> set of digits <code>D</code>, a non-empty subset of <code>{&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;,&#39;5&#39;,&#39;6&#39;,&#39;7&#39;,&#39;8&#39;,&#39;9&#39;}</code>. (Note that <code>&#39;0&#39;</code> is not included.)
+
+Now, we write numbers using these digits, using each digit as many times as we want. For example, if <code>D = {&#39;1&#39;,&#39;3&#39;,&#39;5&#39;}</code>, we may write numbers such as <code>&#39;13&#39;, &#39;551&#39;, &#39;1351315&#39;</code>.
+
+Return the number of positive integers that can be written (using the digits of <code>D</code>) that are less than or equal to <code>N</code>.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>D = <span id="example-input-1-1">[&quot;1&quot;,&quot;3&quot;,&quot;5&quot;,&quot;7&quot;]</span>, N = <span id="example-input-1-2">100</span>
+<strong>Output: </strong><span id="example-output-1">20</span>
+<strong>Explanation: </strong>
+The 20 numbers that can be written are:
+1, 3, 5, 7, 11, 13, 15, 17, 31, 33, 35, 37, 51, 53, 55, 57, 71, 73, 75, 77.
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>D = <span id="example-input-2-1">[&quot;1&quot;,&quot;4&quot;,&quot;9&quot;]</span>, N = <span id="example-input-2-2">1000000000</span>
+<strong>Output: </strong><span id="example-output-2">29523</span>
+<strong>Explanation: </strong>
+We can write 3 one digit numbers, 9 two digit numbers, 27 three digit numbers,
+81 four digit numbers, 243 five digit numbers, 729 six digit numbers,
+2187 seven digit numbers, 6561 eight digit numbers, and 19683 nine digit numbers.
+In total, this is 29523 integers that can be written using the digits of D.</pre>
+</div>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>D</code> is asubset of digits <code>&#39;1&#39;-&#39;9&#39;</code> in sorted order.
+	<code>1 &lt;= N &lt;= 10^9</code>
+</ol>

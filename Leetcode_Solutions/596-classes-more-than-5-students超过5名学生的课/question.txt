@@ -1,0 +1,73 @@
+classes-more-than-5-students
+有一个<code>courses</code> 表 ，有: <strong>student(学生) </strong>和 <strong>class (课程)</strong>。
+
+请列出所有超过或等于5名学生的课。
+
+例如,表:
+
+<pre>
++---------+------------+
+| student | class      |
++---------+------------+
+| A       | Math       |
+| B       | English    |
+| C       | Math       |
+| D       | Biology    |
+| E       | Math       |
+| F       | Computer   |
+| G       | Math       |
+| H       | Math       |
+| I       | Math       |
++---------+------------+
+</pre>
+
+应该输出:
+
+<pre>
++---------+
+| class   |
++---------+
+| Math    |
++---------+
+</pre>
+
+<strong>Note:</strong><br />
+学生在每个课中不应被重复计算。
+
+超过5名学生的课
+There is a table <code>courses</code> with columns: <b>student</b> and <b>class</b>
+
+Please list out all classes which have more than or equal to 5 students.
+
+For example, the table:
+
+<pre>
++---------+------------+
+| student | class      |
++---------+------------+
+| A       | Math       |
+| B       | English    |
+| C       | Math       |
+| D       | Biology    |
+| E       | Math       |
+| F       | Computer   |
+| G       | Math       |
+| H       | Math       |
+| I       | Math       |
++---------+------------+
+</pre>
+
+Should output:
+
+<pre>
++---------+
+| class   |
++---------+
+| Math    |
++---------+
+</pre>
+
+
+
+<b>Note:</b><br />
+The students should not be counted duplicate in each course.

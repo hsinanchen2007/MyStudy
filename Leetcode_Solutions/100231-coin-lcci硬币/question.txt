@@ -1,0 +1,67 @@
+coin-lcci
+硬币。给定数量不限的硬币，币值为25分、10分、5分和1分，编写代码计算n分有几种表示法。(结果可能会很大，你需要将结果模上1000000007)
+
+ <strong>示例1:</strong>
+
+<pre>
+<strong> 输入</strong>: n = 5
+<strong> 输出</strong>：2
+<strong> 解释</strong>: 有两种方式可以凑成总金额:
+5=5
+5=1+1+1+1+1
+</pre>
+
+ <strong>示例2:</strong>
+
+<pre>
+<strong> 输入</strong>: n = 10
+<strong> 输出</strong>：4
+<strong> 解释</strong>: 有四种方式可以凑成总金额:
+10=10
+10=5+5
+10=5+1+1+1+1+1
+10=1+1+1+1+1+1+1+1+1+1
+</pre>
+
+ <strong>说明：</strong>
+
+注意:
+
+你可以假设：
+
+<ul>
+0 &lt;= n (总金额) &lt;= 1000000
+</ul>
+
+硬币
+Given an infinite number of quarters (25 cents), dimes (10 cents), nickels (5 cents), and pennies (1 cent), write code to calculate the number of ways of representing n cents.(The result may be large, so you should return it modulo 1000000007)
+
+<strong>Example1:</strong>
+
+<pre>
+<strong> Input</strong>: n = 5
+<strong> Output</strong>: 2
+<strong> Explanation</strong>: There are two ways:
+5=5
+5=1+1+1+1+1
+</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong> Input</strong>: n = 10
+<strong> Output</strong>: 4
+<strong> Explanation</strong>: There are four ways:
+10=10
+10=5+5
+10=5+1+1+1+1+1
+10=1+1+1+1+1+1+1+1+1+1
+</pre>
+
+<strong>Notes: </strong>
+
+You can assume:
+
+<ul>
+	0 &lt;= n&lt;= 1000000
+</ul>

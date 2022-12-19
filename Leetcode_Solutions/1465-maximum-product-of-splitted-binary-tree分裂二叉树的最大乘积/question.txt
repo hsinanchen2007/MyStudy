@@ -1,0 +1,93 @@
+maximum-product-of-splitted-binary-tree
+给你一棵二叉树，它的根为<code>root</code> 。请你删除 1 条边，使二叉树分裂成两棵子树，且它们子树和的乘积尽可能大。
+
+由于答案可能会很大，请你将结果对 10^9 + 7 取模后再返回。
+
+
+
+<strong>示例 1：</strong>
+
+<strong><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/02/02/sample_1_1699.png" style="height: 200px; width: 495px;"></strong>
+
+<pre><strong>输入：</strong>root = [1,2,3,4,5,6]
+<strong>输出：</strong>110
+<strong>解释：</strong>删除红色的边，得到 2 棵子树，和分别为 11 和 10 。它们的乘积是 110 （11*10）
+</pre>
+
+<strong>示例 2：</strong>
+
+<img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/02/02/sample_2_1699.png" style="height: 200px; width: 495px;">
+
+<pre><strong>输入：</strong>root = [1,null,2,3,4,null,null,5,6]
+<strong>输出：</strong>90
+<strong>解释：</strong>移除红色的边，得到 2 棵子树，和分别是 15 和 6 。它们的乘积为 90 （15*6）
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>root = [2,3,9,10,7,8,6,5,4,11,1]
+<strong>输出：</strong>1025
+</pre>
+
+<strong>示例 4：</strong>
+
+<pre><strong>输入：</strong>root = [1,1]
+<strong>输出：</strong>1
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	每棵树最多有<code>50000</code>个节点，且至少有<code>2</code>个节点。
+	每个节点的值在<code>[1, 10000]</code>之间。
+</ul>
+
+分裂二叉树的最大乘积
+Given a binary tree <code>root</code>.Split the binary tree into two subtrees by removing1 edge such that the product of the sums of the subtrees are maximized.
+
+Since the answermay be too large,return it modulo10^9 + 7.
+
+
+<strong>Example 1:</strong>
+
+<strong><img alt="" src="https://assets.leetcode.com/uploads/2020/01/21/sample_1_1699.png" style="width: 495px; height: 200px;" /></strong>
+
+<pre>
+<strong>Input:</strong> root = [1,2,3,4,5,6]
+<strong>Output:</strong> 110
+<strong>Explanation:</strong> Remove the red edge and get 2 binary trees with sum 11 and 10. Their product is 110 (11*10)
+</pre>
+
+<strong>Example 2:</strong>
+
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/21/sample_2_1699.png" style="width: 495px; height: 200px;" />
+
+<pre>
+<strong>Input:</strong> root = [1,null,2,3,4,null,null,5,6]
+<strong>Output:</strong> 90
+<strong>Explanation:</strong>  Remove the red edge and get 2 binary trees with sum 15 and 6.Their product is 90 (15*6)
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> root = [2,3,9,10,7,8,6,5,4,11,1]
+<strong>Output:</strong> 1025
+</pre>
+
+<strong>Example 4:</strong>
+
+<pre>
+<strong>Input:</strong> root = [1,1]
+<strong>Output:</strong> 1
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	Each tree has at most <code>50000</code> nodes and at least <code>2</code> nodes.
+	Each node&#39;s value is between <code>[1, 10000]</code>.
+</ul>

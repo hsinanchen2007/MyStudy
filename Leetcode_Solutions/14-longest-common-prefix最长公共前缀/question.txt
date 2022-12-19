@@ -1,0 +1,45 @@
+longest-common-prefix
+编写一个函数来查找字符串数组中的最长公共前缀。
+
+如果不存在公共前缀，返回空字符串<code>&quot;&quot;</code>。
+
+<strong>示例1:</strong>
+
+<pre><strong>输入: </strong>[&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
+<strong>输出:</strong> &quot;fl&quot;
+</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入: </strong>[&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
+<strong>输出:</strong> &quot;&quot;
+<strong>解释:</strong> 输入不存在公共前缀。
+</pre>
+
+<strong>说明:</strong>
+
+所有输入只包含小写字母<code>a-z</code>。
+
+最长公共前缀
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string <code>&quot;&quot;</code>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong>[&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
+<strong>Output:</strong> &quot;fl&quot;
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong>[&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
+<strong>Output:</strong> &quot;&quot;
+<strong>Explanation:</strong> There is no common prefix among the input strings.
+</pre>
+
+<strong>Note:</strong>
+
+All given inputs are in lowercase letters <code>a-z</code>.

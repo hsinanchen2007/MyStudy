@@ -1,0 +1,44 @@
+one-away-lcci
+字符串有三种编辑操作:插入一个字符、删除一个字符或者替换一个字符。 给定两个字符串，编写一个函数判定它们是否只需要一次(或者零次)编辑。
+
+
+
+<strong>示例1:</strong>
+
+<pre><strong>输入:</strong> 
+first = &quot;pale&quot;
+second = &quot;ple&quot;
+<strong>输出:</strong> True</pre>
+
+
+
+<strong>示例2:</strong>
+
+<pre><strong>输入:</strong> 
+first = &quot;pales&quot;
+second = &quot;pal&quot;
+<strong>输出:</strong> False
+</pre>
+
+一次编辑
+There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
+
+
+
+<strong>Example1:</strong>
+
+<pre>
+<strong>Input:</strong> 
+first = &quot;pale&quot;
+second = &quot;ple&quot;
+<strong>Output:</strong> True
+</pre>
+
+<strong>Example2:</strong>
+
+<pre>
+<strong>Input:</strong> 
+first = &quot;pales&quot;
+second = &quot;pal&quot;
+<strong>Output:</strong> False
+</pre>

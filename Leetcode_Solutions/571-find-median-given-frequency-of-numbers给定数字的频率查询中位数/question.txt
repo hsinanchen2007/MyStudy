@@ -1,0 +1,49 @@
+find-median-given-frequency-of-numbers
+<code>Numbers</code> 表保存数字的值及其频率。
+
+<pre>+----------+-------------+
+|  Number  |  Frequency  |
++----------+-------------|
+|  0       |  7          |
+|  1       |  1          |
+|  2       |  3          |
+|  3       |  1          |
++----------+-------------+
+</pre>
+
+在此表中，数字为 <code>0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 3</code>，所以中位数是 <code>(0 + 0) / 2 = 0</code>。
+
+<pre>+--------+
+| median |
++--------|
+| 0.0000 |
++--------+
+</pre>
+
+请编写一个查询来查找所有数字的中位数并将结果命名为 <code>median</code> 。
+
+给定数字的频率查询中位数
+The <code>Numbers</code> table keeps the value of number and its frequency.
+
+<pre>
++----------+-------------+
+|  Number  |  Frequency  |
++----------+-------------|
+|  0       |  7          |
+|  1       |  1          |
+|  2       |  3          |
+|  3       |  1          |
++----------+-------------+
+</pre>
+
+In this table, the numbers are <code>0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 3</code>, so the median is <code>(0 + 0) / 2 = 0</code>.
+
+<pre>
++--------+
+| median |
++--------|
+| 0.0000 |
++--------+
+</pre>
+
+Write a query to find the median of all numbers and name the result as <code>median</code>.

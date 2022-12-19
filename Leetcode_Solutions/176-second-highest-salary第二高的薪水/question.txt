@@ -1,0 +1,43 @@
+second-highest-salary
+编写一个 SQL 查询，获取 <code>Employee</code>表中第二高的薪水（Salary）。
+
+<pre>+----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+</pre>
+
+例如上述<code>Employee</code>表，SQL查询应该返回<code>200</code> 作为第二高的薪水。如果不存在第二高的薪水，那么查询应返回 <code>null</code>。
+
+<pre>+---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200                 |
++---------------------+
+</pre>
+
+第二高的薪水
+Write a SQL query to get the second highest salary from the <code>Employee</code> table.
+
+<pre>
++----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+</pre>
+
+For example, given the above Employee table, the query should return <code>200</code> as the second highest salary. If there is no second highest salary, then the query should return <code>null</code>.
+
+<pre>
++---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200                 |
++---------------------+
+</pre>

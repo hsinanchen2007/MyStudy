@@ -1,0 +1,35 @@
+longest-substring-with-at-most-two-distinct-characters
+给定一个字符串<strong><em> s</em></strong> ，找出<strong>至多</strong>包含两个不同字符的最长子串 <strong><em>t</em> 。</strong>
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> &quot;eceba&quot;
+<strong>输出: </strong>3
+<strong>解释: <em>t</em></strong> 是 &quot;ece&quot;，长度为3。
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> &quot;ccaabbb&quot;
+<strong>输出: </strong>5
+<strong>解释: <em>t</em></strong><em> </em>是 &quot;aabbb&quot;，长度为5。
+</pre>
+
+至多包含两个不同字符的最长子串
+Given a string <strong><em>s</em></strong> , find the length of the longest substring<strong><em>t</em></strong>that contains <strong>at most </strong>2 distinct characters.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;eceba&quot;
+<strong>Output: </strong>3
+<strong>Explanation: <em>t</em></strong><em> </em>is &quot;ece&quot; which its length is 3.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;ccaabbb&quot;
+<strong>Output: </strong>5
+<strong>Explanation: <em>t</em></strong><em> </em>is &quot;aabbb&quot; which its length is 5.
+</pre>

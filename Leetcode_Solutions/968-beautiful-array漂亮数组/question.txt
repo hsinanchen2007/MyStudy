@@ -1,0 +1,69 @@
+beautiful-array
+对于某些固定的<code>N</code>，如果数组<code>A</code>是整数<code>1, 2, ..., N</code>组成的排列，使得：
+
+对于每个<code>i &lt; j</code>，都<strong>不存在</strong><code>k</code> 满足<code>i &lt; k &lt; j</code>使得<code>A[k] * 2 = A[i] + A[j]</code>。
+
+那么数组 <code>A</code>是漂亮数组。
+
+
+
+给定<code>N</code>，返回<strong>任意</strong>漂亮数组<code>A</code>（保证存在一个）。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>4
+<strong>输出：</strong>[2,1,4,3]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>5
+<strong>输出：</strong>[3,1,2,5,4]</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= N &lt;= 1000</code>
+</ul>
+
+
+
+漂亮数组
+For some fixed <code>N</code>, an array <code>A</code> is <em>beautiful</em> if it is a permutation of the integers <code>1, 2, ..., N</code>, such that:
+
+For every <code>i &lt; j</code>, there is <strong>no</strong><code>k</code> with <code>i &lt; k &lt; j</code>such that <code>A[k] * 2 = A[i] + A[j]</code>.
+
+Given <code>N</code>, return <strong>any</strong> beautiful array <code>A</code>. (It is guaranteed that one exists.)
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">4</span>
+<strong>Output: </strong><span id="example-output-1">[2,1,4,3]</span>
+</pre>
+
+<div>
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">5</span>
+<strong>Output: </strong><span>[3,1,2,5,4]</span></pre>
+
+
+</div>
+
+<strong>Note:</strong>
+
+<ul>
+	<code>1 &lt;= N &lt;= 1000</code>
+</ul>
+
+<div>
+<div></div>
+</div>

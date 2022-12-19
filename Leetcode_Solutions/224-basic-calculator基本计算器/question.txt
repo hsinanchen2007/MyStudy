@@ -1,0 +1,57 @@
+basic-calculator
+实现一个基本的计算器来计算一个简单的字符串表达式的值。
+
+字符串表达式可以包含左括号<code>(</code>，右括号<code>)</code>，加号<code>+</code>，减号<code>-</code>，<strong>非负</strong>整数和空格<code></code>。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> &quot;1 + 1&quot;
+<strong>输出:</strong> 2
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> &quot; 2-1 + 2 &quot;
+<strong>输出:</strong> 3</pre>
+
+<strong>示例 3:</strong>
+
+<pre><strong>输入:</strong> &quot;(1+(4+5+2)-3)+(6+8)&quot;
+<strong>输出:</strong> 23</pre>
+
+<strong>说明：</strong>
+
+<ul>
+	你可以假设所给定的表达式都是有效的。
+	请<strong>不要</strong>使用内置的库函数 <code>eval</code>。
+</ul>
+
+基本计算器
+Implement a basic calculator to evaluate a simple expression string.
+
+The expression string may contain open <code>(</code> and closing parentheses <code>)</code>, the plus <code>+</code> or minus sign <code>-</code>, <b>non-negative</b> integers and empty spaces <code> </code>.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;1 + 1&quot;
+<strong>Output:</strong> 2
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> &quot; 2-1 + 2 &quot;
+<strong>Output:</strong> 3</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> &quot;(1+(4+5+2)-3)+(6+8)&quot;
+<strong>Output:</strong> 23</pre>
+<b>Note:</b>
+
+<ul>
+	You may assume that the given expression is always valid.
+	<b>Do not</b> use the <code>eval</code> built-in library function.
+</ul>

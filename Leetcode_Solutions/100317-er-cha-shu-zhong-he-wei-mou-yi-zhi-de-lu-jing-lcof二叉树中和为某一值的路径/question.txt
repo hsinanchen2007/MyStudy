@@ -1,0 +1,37 @@
+er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof
+输入一棵二叉树和一个整数，打印出二叉树中节点值的和为输入整数的所有路径。从树的根节点开始往下一直到叶节点所经过的节点形成一条路径。
+
+
+
+<strong>示例:</strong><br>
+给定如下二叉树，以及目标和<code>sum = 22</code>，
+
+<pre>              <strong>5</strong>
+             / \
+            <strong>4</strong>   <strong>8</strong>
+           /   / \
+          <strong>11</strong>  13  <strong>4</strong>
+         /  \    / \
+        7    <strong>2</strong>  <strong>5</strong>   1
+</pre>
+
+返回:
+
+<pre>[
+   [5,4,11,2],
+   [5,8,4,5]
+]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>节点总数 &lt;= 10000</code>
+</ol>
+
+注意：本题与主站 113题相同：<a href="https://leetcode-cn.com/problems/path-sum-ii/">https://leetcode-cn.com/problems/path-sum-ii/</a>
+
+二叉树中和为某一值的路径
+English description is not available for the problem. Please switch to Chinese.

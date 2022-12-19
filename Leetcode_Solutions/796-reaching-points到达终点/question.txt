@@ -1,0 +1,57 @@
+reaching-points
+从点<code>(x, y)</code>可以<strong>转换</strong>到<code>(x, x+y)</code> 或者<code>(x+y, y)</code>。
+
+给定一个起点<code>(sx, sy)</code>和一个终点<code>(tx, ty)</code>，如果通过一系列的<strong>转换</strong>可以从起点到达终点，则返回 <code>True</code>，否则返回<code>False</code>。
+
+<pre>
+<strong>示例:</strong>
+<strong>输入:</strong> sx = 1, sy = 1, tx = 3, ty = 5
+<strong>输出:</strong> True
+<strong>解释:
+</strong>可以通过以下一系列<strong>转换</strong>从起点转换到终点：
+(1, 1) -&gt; (1, 2)
+(1, 2) -&gt; (3, 2)
+(3, 2) -&gt; (3, 5)
+
+<strong>输入:</strong> sx = 1, sy = 1, tx = 2, ty = 2
+<strong>输出:</strong> False
+
+<strong>输入:</strong> sx = 1, sy = 1, tx = 1, ty = 1
+<strong>输出:</strong> True
+
+</pre>
+
+<strong>注意:</strong>
+
+<ul>
+	<code>sx, sy, tx, ty</code>是范围在<code>[1, 10^9]</code>的整数。
+</ul>
+
+到达终点
+A move consists of taking a point <code>(x, y)</code> and transforming it to either <code>(x, x+y)</code> or <code>(x+y, y)</code>.
+
+Given a starting point <code>(sx, sy)</code> and a target point <code>(tx, ty)</code>, return <code>True</code> if and only if a sequence of moves exists to transform the point <code>(sx, sy)</code> to <code>(tx, ty)</code>. Otherwise, return <code>False</code>.
+
+<pre>
+<strong>Examples:</strong>
+<strong>Input:</strong> sx = 1, sy = 1, tx = 3, ty = 5
+<strong>Output:</strong> True
+<strong>Explanation:</strong>
+One series of moves that transforms the starting point to the target is:
+(1, 1) -&gt; (1, 2)
+(1, 2) -&gt; (3, 2)
+(3, 2) -&gt; (3, 5)
+
+<strong>Input:</strong> sx = 1, sy = 1, tx = 2, ty = 2
+<strong>Output:</strong> False
+
+<strong>Input:</strong> sx = 1, sy = 1, tx = 1, ty = 1
+<strong>Output:</strong> True
+
+</pre>
+
+<strong>Note:</strong>
+
+<ul>
+	<code>sx, sy, tx, ty</code> will all be integers in the range <code>[1, 10^9]</code>.
+</ul>

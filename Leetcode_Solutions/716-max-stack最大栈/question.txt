@@ -1,0 +1,75 @@
+max-stack
+设计一个最大栈，支持 push、pop、top、peekMax 和 popMax 操作。
+
+
+
+<ol>
+	push(x) -- 将元素 x 压入栈中。
+	pop() -- 移除栈顶元素并返回这个值。
+	top() -- 返回栈顶元素。
+	peekMax() -- 返回栈中最大元素。
+	popMax() -- 返回栈中最大的元素，并将其删除。如果有多个最大元素，只要删除最靠近栈顶的那个。
+</ol>
+
+
+
+<strong>样例 1:</strong>
+
+<pre>MaxStack stack = new MaxStack();
+stack.push(5); 
+stack.push(1);
+stack.push(5);
+stack.top(); -&gt; 5
+stack.popMax(); -&gt; 5
+stack.top(); -&gt; 1
+stack.peekMax(); -&gt; 5
+stack.pop(); -&gt; 1
+stack.top(); -&gt; 5
+</pre>
+
+
+
+<strong>注释:</strong>
+
+<ol>
+	-1e7 &lt;= x &lt;= 1e7
+	操作次数不会超过 10000。
+	当栈为空的时候不会出现后四个操作。
+</ol>
+
+
+
+最大栈
+Design a max stack that supports push, pop, top, peekMax and popMax.
+
+
+<ol>
+push(x) -- Push element x onto stack.
+pop() -- Remove the element on top of the stack and return it.
+top() -- Get the element on the top.
+peekMax() -- Retrieve the maximum element in the stack.
+popMax() -- Retrieve the maximum element in the stack, and remove it. If you find more than one maximum elements, only remove the top-most one.
+</ol>
+
+
+<b>Example 1:</b><br />
+<pre>
+MaxStack stack = new MaxStack();
+stack.push(5); 
+stack.push(1);
+stack.push(5);
+stack.top(); -> 5
+stack.popMax(); -> 5
+stack.top(); -> 1
+stack.peekMax(); -> 5
+stack.pop(); -> 1
+stack.top(); -> 5
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+-1e7 <= x <= 1e7
+Number of operations won't exceed 10000.
+The last four operations won't be called when stack is empty.
+</ol>

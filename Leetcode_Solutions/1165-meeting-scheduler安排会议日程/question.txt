@@ -1,0 +1,75 @@
+meeting-scheduler
+你是一名行政助理，手里有两位客户的空闲时间表：<code>slots1</code> 和 <code>slots2</code>，以及会议的预计持续时间<code>duration</code>，请你为他们安排合适的会议时间。
+
+「会议时间」是两位客户都有空参加，并且持续时间能够满足预计时间<code>duration</code> 的 <strong>最早的时间间隔</strong>。
+
+如果没有满足要求的会议时间，就请返回一个 <strong>空数组</strong>。
+
+
+
+「空闲时间」的格式是<code>[start, end]</code>，由开始时间<code>start</code>和结束时间<code>end</code>组成，表示从<code>start</code>开始，到 <code>end</code>结束。
+
+题目保证数据有效：同一个人的空闲时间不会出现交叠的情况，也就是说，对于同一个人的两个空闲时间<code>[start1, end1]</code>和<code>[start2, end2]</code>，要么<code>start1 &gt; end2</code>，要么<code>start2 &gt; end1</code>。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>slots1 = [[10,50],[60,120],[140,210]], slots2 = [[0,15],[60,70]], duration = 8
+<strong>输出：</strong>[60,68]
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>slots1 = [[10,50],[60,120],[140,210]], slots2 = [[0,15],[60,70]], duration = 12
+<strong>输出：</strong>[]
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= slots1.length, slots2.length &lt;= 10^4</code>
+	<code>slots1[i].length, slots2[i].length == 2</code>
+	<code>slots1[i][0] &lt; slots1[i][1]</code>
+	<code>slots2[i][0] &lt; slots2[i][1]</code>
+	<code>0 &lt;= slots1[i][j], slots2[i][j] &lt;= 10^9</code>
+	<code>1 &lt;= duration &lt;= 10^6</code>
+</ul>
+
+安排会议日程
+Given the availability time slots arrays<code>slots1</code> and <code>slots2</code>of two people and a meeting duration <code>duration</code>, return the <strong>earliest time slot</strong> that works for both of them and is of duration <code>duration</code>.
+
+If there is no common time slot that satisfies the requirements, return an <strong>empty array</strong>.
+
+The format of a time slot is an array of two elements<code>[start, end]</code>representing an inclusive time range from <code>start</code>to <code>end</code>.
+
+It is guaranteed that no two availability slots of the same person intersect with each other. That is, for any two time slots<code>[start1, end1]</code>and<code>[start2, end2]</code>of the same person, either<code>start1 &gt; end2</code>or<code>start2 &gt; end1</code>.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> slots1 = [[10,50],[60,120],[140,210]], slots2 = [[0,15],[60,70]], duration = 8
+<strong>Output:</strong> [60,68]
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> slots1 = [[10,50],[60,120],[140,210]], slots2 = [[0,15],[60,70]], duration = 12
+<strong>Output:</strong> []
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= slots1.length, slots2.length &lt;= 10^4</code>
+	<code>slots1[i].length, slots2[i].length == 2</code>
+	<code>slots1[i][0] &lt; slots1[i][1]</code>
+	<code>slots2[i][0] &lt; slots2[i][1]</code>
+	<code>0 &lt;= slots1[i][j], slots2[i][j] &lt;= 10^9</code>
+	<code>1 &lt;= duration &lt;= 10^6</code>
+</ul>

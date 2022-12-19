@@ -1,0 +1,63 @@
+range-sum-query-2d-mutable
+给你一个 2D 矩阵<em>matrix</em>，请计算出从左上角<code>(row1, col1)</code> 到右下角 <code>(row2, col2)</code> 组成的矩形中所有元素的和。
+
+<img alt="Range Sum Query 2D" src="https://assets.leetcode-cn.com/aliyun-lc-upload/original_images/308_range_sum_query_2d_mutable.png" style="width: 150px;"><br>
+<small>上述粉色矩形框内的，该矩形由左上角 (row1, col1) = <strong>(2, 1)</strong>和右下角(row2, col2) = <strong>(4, 3) </strong>确定。其中，所包括的元素总和 sum = <strong>8</strong>。</small>
+
+<strong>示例：</strong>
+
+<pre>给定 matrix = [
+  [3, 0, 1, 4, 2],
+  [5, 6, 3, 2, 1],
+  [1, 2, 0, 1, 5],
+  [4, 1, 0, 1, 7],
+  [1, 0, 3, 0, 5]
+]
+
+sumRegion(2, 1, 4, 3) -&gt; 8
+update(3, 2, 2)
+sumRegion(2, 1, 4, 3) -&gt; 10
+</pre>
+
+
+
+<strong>注意:</strong>
+
+<ol>
+	矩阵 <em>matrix</em>的值只能通过<em>update</em>函数来进行修改
+	你可以默认<em>update</em>函数和<em>sumRegion </em>函数的调用次数是均匀分布的
+	你可以默认<em>row</em>1 &le; <em>row</em>2，<em>col</em>1 &le; <em>col2</em>
+</ol>
+
+
+
+二维区域和检索 - 可变
+Given a 2D matrix <i>matrix</i>, find the sum of the elements inside the rectangle defined by its upper left corner (<i>row</i>1, <i>col</i>1) and lower right corner (<i>row</i>2, <i>col</i>2).
+
+
+<img src="/static/images/courses/range_sum_query_2d.png" border="0" alt="Range Sum Query 2D" /><br />
+<small>The above rectangle (with the red border) is defined by (row1, col1) = <b>(2, 1)</b> and (row2, col2) = <b>(4, 3)</b>, which contains sum = <b>8</b>.</small>
+
+
+<b>Example:</b><br>
+<pre>
+Given matrix = [
+  [3, 0, 1, 4, 2],
+  [5, 6, 3, 2, 1],
+  [1, 2, 0, 1, 5],
+  [4, 1, 0, 1, 7],
+  [1, 0, 3, 0, 5]
+]
+
+sumRegion(2, 1, 4, 3) -> 8
+update(3, 2, 2)
+sumRegion(2, 1, 4, 3) -> 10
+</pre>
+
+
+<b>Note:</b><br>
+<ol>
+The matrix is only modifiable by the <i>update</i> function.
+You may assume the number of calls to <i>update</i> and <i>sumRegion</i> function is distributed evenly.
+You may assume that <i>row</i>1 &le; <i>row</i>2 and <i>col</i>1 &le; <i>col</i>2.
+</ol>

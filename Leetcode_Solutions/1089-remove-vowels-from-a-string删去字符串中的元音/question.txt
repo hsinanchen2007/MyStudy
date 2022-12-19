@@ -1,0 +1,53 @@
+remove-vowels-from-a-string
+给你一个字符串<code>S</code>，请你删去其中的所有元音字母（<code>&#39;a&#39;</code>，<code>&#39;e&#39;</code>，<code>&#39;i&#39;</code>，<code>&#39;o&#39;</code>，<code>&#39;u&#39;</code>），并返回这个新字符串。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>&quot;leetcodeisacommunityforcoders&quot;
+<strong>输出：</strong>&quot;ltcdscmmntyfrcdrs&quot;
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>&quot;aeiou&quot;
+<strong>输出：</strong>&quot;&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>S</code> 仅由小写英文字母组成。
+	<code>1 &lt;= S.length &lt;= 1000</code>
+</ol>
+
+删去字符串中的元音
+Given a string <code>S</code>, remove the vowels <code>&#39;a&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;i&#39;</code>, <code>&#39;o&#39;</code>, and <code>&#39;u&#39;</code> from it, and return the new string.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;leetcodeisacommunityforcoders&quot;</span>
+<strong>Output: </strong><span id="example-output-1">&quot;ltcdscmmntyfrcdrs&quot;</span>
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;aeiou&quot;</span>
+<strong>Output: </strong><span id="example-output-2">&quot;&quot;</span>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>S</code> consists of lowercase English letters only.
+	<code>1 &lt;= S.length &lt;= 1000</code>
+</ol>

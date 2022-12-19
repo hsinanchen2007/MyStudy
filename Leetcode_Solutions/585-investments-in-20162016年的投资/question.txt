@@ -1,0 +1,105 @@
+investments-in-2016
+写一个查询语句，将2016 年 (<strong>TIV_2016</strong>) 所有成功投资的金额加起来，保留 2 位小数。
+
+对于一个投保人，他在 2016 年成功投资的条件是：
+
+<ol>
+	他在 2015 年的投保额(<strong>TIV_2015</strong>) 至少跟一个其他投保人在 2015 年的投保额相同。
+	他所在的城市必须与其他投保人都不同（也就是说维度和经度不能跟其他任何一个投保人完全相同）。
+</ol>
+
+<strong>输入格式:</strong><br>
+表<strong><em>insurance</em></strong> 格式如下：
+
+<pre>| Column Name | Type          |
+|-------------|---------------|
+| PID         | INTEGER(11)   |
+| TIV_2015    | NUMERIC(15,2) |
+| TIV_2016    | NUMERIC(15,2) |
+| LAT         | NUMERIC(5,2)  |
+| LON         | NUMERIC(5,2)  |
+</pre>
+
+<strong>PID</strong>字段是投保人的投保编号，<strong>TIV_2015</strong> 是该投保人在2015年的总投保金额，<strong>TIV_2016</strong> 是该投保人在2016年的投保金额，<strong>LAT</strong> 是投保人所在城市的维度，<strong>LON</strong>是投保人所在城市的经度。
+
+<strong>样例输入</strong>
+
+<pre>| PID | TIV_2015 | TIV_2016 | LAT | LON |
+|-----|----------|----------|-----|-----|
+| 1   | 10       | 5        | 10  | 10  |
+| 2   | 20       | 20       | 20  | 20  |
+| 3   | 10       | 30       | 20  | 20  |
+| 4   | 10       | 40       | 40  | 40  |
+</pre>
+
+<strong>样例输出</strong>
+
+<pre>| TIV_2016 |
+|----------|
+| 45.00    |
+</pre>
+
+<strong>解释</strong>
+
+<pre>就如最后一个投保人，第一个投保人同时满足两个条件：
+1. 他在 2015 年的投保金额 <strong>TIV_2015 </strong>为 &#39;10&#39; ，与第三个和第四个投保人在 2015 年的投保金额相同。
+2. 他所在城市的经纬度是独一无二的。
+
+第二个投保人两个条件都不满足。他在 2015 年的投资 <strong>TIV_2015 </strong>与其他任何投保人都不相同。
+且他所在城市的经纬度与第三个投保人相同。基于同样的原因，第三个投保人投资失败。
+
+所以返回的结果是第一个投保人和最后一个投保人的 <strong>TIV_2016 </strong>之和，结果是 45 。</pre>
+
+2016年的投资
+Write a query to print the sum of all total investment values in 2016 (<b>TIV_2016</b>), to a scale of 2 decimal places, for all policy holders who meet the following criteria:
+
+<ol>
+	Have the same <b>TIV_2015</b> value as one or more other policyholders.
+	Are not located in the same city as any other policyholder (i.e.: the (latitude, longitude) attribute pairs must be unique).
+</ol>
+
+<b>Input Format:</b><br />
+The <b><i>insurance</i></b> table is described as follows:
+
+<pre>
+| Column Name | Type          |
+|-------------|---------------|
+| PID         | INTEGER(11)   |
+| TIV_2015    | NUMERIC(15,2) |
+| TIV_2016    | NUMERIC(15,2) |
+| LAT         | NUMERIC(5,2)  |
+| LON         | NUMERIC(5,2)  |
+</pre>
+
+where <b>PID</b> is the policyholder&#39;s policy ID, <b>TIV_2015</b> is the total investment value in 2015, <b>TIV_2016</b> is the total investment value in 2016, <b>LAT</b> is the latitude of the policy holder&#39;s city, and <b>LON</b> is the longitude of the policy holder&#39;s city.
+
+<b>Sample Input</b>
+
+<pre>
+| PID | TIV_2015 | TIV_2016 | LAT | LON |
+|-----|----------|----------|-----|-----|
+| 1   | 10       | 5        | 10  | 10  |
+| 2   | 20       | 20       | 20  | 20  |
+| 3   | 10       | 30       | 20  | 20  |
+| 4   | 10       | 40       | 40  | 40  |
+</pre>
+
+<b>Sample Output</b>
+
+<pre>
+| TIV_2016 |
+|----------|
+| 45.00    |
+</pre>
+
+<b>Explanation</b>
+
+<pre>
+The first record in the table, like the last record, meets both of the two criteria.
+The <b>TIV_2015</b> value &#39;10&#39; is as the same as the third and forth record, and its location unique.
+
+The second record does not meet any of the two criteria. Its <b>TIV_2015</b> is not like any other policyholders.
+
+And its location is the same with the third record, which makes the third record fail, too.
+
+So, the result is the sum of <b>TIV_2016</b> of the first and last record, which is 45.</pre>

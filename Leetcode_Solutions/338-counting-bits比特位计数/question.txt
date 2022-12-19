@@ -1,0 +1,44 @@
+counting-bits
+给定一个非负整数<strong>num</strong>。对于<strong>0 &le; i &le; num </strong>范围中的每个数字<strong>i</strong>，计算其二进制数中的 1 的数目并将它们作为数组返回。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入: </strong>2
+<strong>输出: </strong>[0,1,1]</pre>
+
+<strong>示例2:</strong>
+
+<pre><strong>输入: </strong>5
+<strong>输出: </strong><code>[0,1,1,2,1,2]</code></pre>
+
+<strong>进阶:</strong>
+
+<ul>
+	给出时间复杂度为<strong>O(n*sizeof(integer))</strong>的解答非常容易。但你可以在线性时间<strong>O(n)</strong>内用一趟扫描做到吗？
+	要求算法的空间复杂度为<strong>O(n)</strong>。
+	你能进一步完善解法吗？要求在C++或任何其他语言中不使用任何内置函数（如 C++ 中的<strong>__builtin_popcount</strong>）来执行此操作。
+</ul>
+
+比特位计数
+Given a non negative integer number <b>num</b>. For every numbers <b>i</b> in the range <b>0 &le; i &le; num</b> calculate the number of 1&#39;s in their binary representation and return them as an array.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">2</span>
+<strong>Output: </strong><span id="example-output-1">[0,1,1]</span></pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">5</span>
+<strong>Output: </strong><code>[0,1,1,2,1,2]</code>
+</pre>
+
+<b>Follow up:</b>
+
+<ul>
+	It is very easy to come up with a solution with run time <b>O(n*sizeof(integer))</b>. But can you do it in linear time <b>O(n)</b> /possibly in a single pass?
+	Space complexity should be <b>O(n)</b>.
+	Can you do it like a boss? Do it without using any builtin function like <b>__builtin_popcount</b> in c++ or in any other language.
+</ul>

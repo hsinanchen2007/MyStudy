@@ -1,0 +1,70 @@
+generate-a-string-with-characters-that-have-odd-counts
+给你一个整数 <code>n</code>，请你返回一个含<em> <code>n</code> </em>个字符的字符串，其中每种字符在该字符串中都恰好出现 <strong>奇数次</strong> <em><strong>。</strong></em>
+
+返回的字符串必须只含小写英文字母。如果存在多个满足题目要求的字符串，则返回其中任意一个即可。
+
+
+
+<strong>示例 1：</strong>
+
+<pre><strong>输入：</strong>n = 4
+<strong>输出：</strong>&quot;pppz&quot;
+<strong>解释：</strong>&quot;pppz&quot; 是一个满足题目要求的字符串，因为 &#39;p&#39; 出现 3 次，且 &#39;z&#39; 出现 1 次。当然，还有很多其他字符串也满足题目要求，比如：&quot;ohhh&quot; 和 &quot;love&quot;。
+</pre>
+
+<strong>示例 2：</strong>
+
+<pre><strong>输入：</strong>n = 2
+<strong>输出：</strong>&quot;xy&quot;
+<strong>解释：</strong>&quot;xy&quot; 是一个满足题目要求的字符串，因为 &#39;x&#39; 和 &#39;y&#39; 各出现 1 次。当然，还有很多其他字符串也满足题目要求，比如：&quot;ag&quot; 和 &quot;ur&quot;。
+</pre>
+
+<strong>示例 3：</strong>
+
+<pre><strong>输入：</strong>n = 7
+<strong>输出：</strong>&quot;holasss&quot;
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 500</code>
+</ul>
+
+生成每种字符都是奇数个的字符串
+Given aninteger <code>n</code>, <em>return a string with <code>n</code>characters such that each character in such string occurs <strong>an odd number of times</strong></em>.
+
+The returned string must contain only lowercase English letters. If there are multiples valid strings, return <strong>any</strong> of them. 
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> n = 4
+<strong>Output:</strong> &quot;pppz&quot;
+<strong>Explanation:</strong> &quot;pppz&quot; is a valid string since the character &#39;p&#39; occurs three times and the character &#39;z&#39; occurs once. Note that there are many other valid strings such as &quot;ohhh&quot; and &quot;love&quot;.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> &quot;xy&quot;
+<strong>Explanation:</strong> &quot;xy&quot; is a valid string since the characters &#39;x&#39; and &#39;y&#39; occur once. Note that there are many other valid strings such as &quot;ag&quot; and &quot;ur&quot;.
+</pre>
+
+<strong>Example 3:</strong>
+
+<pre>
+<strong>Input:</strong> n = 7
+<strong>Output:</strong> &quot;holasss&quot;
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= n &lt;= 500</code>
+</ul>

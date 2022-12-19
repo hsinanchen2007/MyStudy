@@ -1,0 +1,1 @@
+创建一个虚拟头结点dummyhead，其值设为删除元素val-1，他的指向为真正的头结点，也就是dummyhead.next = head。之后的判断也从dummyhead.next开始判断，这样就不需要判断头结点的的具体情况。最后的返回值为dummyhead.next。

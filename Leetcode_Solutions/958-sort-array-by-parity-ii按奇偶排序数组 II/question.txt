@@ -1,0 +1,58 @@
+sort-array-by-parity-ii
+给定一个非负整数数组<code>A</code>， A 中一半整数是奇数，一半整数是偶数。
+
+对数组进行排序，以便当<code>A[i]</code> 为奇数时，<code>i</code>也是奇数；当<code>A[i]</code>为偶数时， <code>i</code> 也是偶数。
+
+你可以返回任何满足上述条件的数组作为答案。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>[4,2,5,7]
+<strong>输出：</strong>[4,5,2,7]
+<strong>解释：</strong>[4,7,2,5]，[2,5,4,7]，[2,7,4,5] 也会被接受。
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>2 &lt;= A.length &lt;= 20000</code>
+	<code>A.length % 2 == 0</code>
+	<code>0 &lt;= A[i] &lt;= 1000</code>
+</ol>
+
+
+
+按奇偶排序数组 II
+Given an array <code>A</code>of non-negative integers, half of the integers in A are odd, and half of the integers are even.
+
+Sort the array so that whenever <code>A[i]</code> is odd, <code>i</code> is odd; and whenever <code>A[i]</code> is even, <code>i</code> is even.
+
+You may return any answer array that satisfies this condition.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[4,2,5,7]</span>
+<strong>Output: </strong><span id="example-output-1">[4,5,2,7]</span>
+<strong>Explanation: </strong>[4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>2 &lt;= A.length &lt;= 20000</code>
+	<code>A.length % 2 == 0</code>
+	<code>0 &lt;= A[i] &lt;= 1000</code>
+</ol>
+
+<div>
+
+</div>

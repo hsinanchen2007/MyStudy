@@ -1,0 +1,49 @@
+![frame_00001.png](https://pic.leetcode-cn.com/119337afc747f1e88fcc7e4f0121a1fb4463f5c85c9cda92c8c1a154ef2c97e8.jpg)
+
+### 思路
+
+* 标签：`数学`
+* 使用数学的方式，`x` 依次除 10 取余 `pop`，结果 `rev` 依次乘 10 加余 `pop`。需要**考虑溢出**问题（大于最大值，小于最小值）
+* `rev * 10 + pop > Integer.MAX_VALUE` 会溢出
+  * `rev > Integer.MAX_VALUE/ 10` 时，不管 `pop` 为何值，均溢出
+  * `rev == Integer.MAX_VALUE/ 10` 时，`pop` 大于 `7` 时会溢出（`Integer.MAX_VALUE == 2147483647`）。但这种情况不存在，当 `pop == 8` , `x == 8463847412`，远大于 `2147483647`。只要 `x` 值为正常值，`pop` 总是小于 `7`。
+* `rev * 10 + pop < Integer.MIN_VALUE` 也会溢出
+  * `rev < Integer.MIN_VALUE/ 10` 时，不管 `pop` 为何值，均溢出
+  * `rev == Integer.MIN_VALUE/ 10` 时，`pop` 小于 `-8` 时会溢出（`Integer.MIN_VALUE == -2147483648`）。这种情况也不存在，当 `pop == -9`，`x == -9463847412`，远小于 `-2147483648`。只要 `x` 值为正常值，`pop` 总是大于 `-8`。
+* 时间复杂度：O(log n) ：一个为 n 的数字，大概有 x 位，10<sup>x</sup> = n，x == log<sub>10</sub>n，会比较 log<sub>10</sub>n 次。
+ 
+### 代码
+```Java []
+class Solution {
+    public int reverse(int x) {
+        int rev = 0;
+        while (x != 0) {
+            int pop = x % 10;
+            if (rev > Integer.MAX_VALUE / 10) 
+                return 0;
+            if (rev < Integer.MIN_VALUE / 10) 
+                return 0;
+            rev = rev * 10 + pop; // 位于判断后，避免溢出
+            x = x / 10;
+        }
+        return rev;
+    }
+}
+```
+```JavaScript []
+var reverse = function (x) {
+    let rev = 0;
+    while (x !== 0) {
+        let pop = x % 10;
+        if (rev > 214748364)
+            return 0;
+        if (rev < -214748364)
+            return 0;
+        rev = rev * 10 + pop;
+        x = parseInt(x / 10);
+    }
+    return rev;
+};
+```
+### 画解
+<![frame_00001.png](https://pic.leetcode-cn.com/add21e0df5264dbfb3c1fe76d753d995442edc374f4c7864c2a5f1dcabe74466-file_1565853476903),![frame_00002.png](https://pic.leetcode-cn.com/856473aa432feae05c5e6136906c49873cedc9705bf10efa3443c37f4ee5c50b-file_1565855143775),![frame_00003.png](https://pic.leetcode-cn.com/4748068990635767588f415670bcbafb854972cea05415b6744c821456c8f47c-file_1565855143778)>

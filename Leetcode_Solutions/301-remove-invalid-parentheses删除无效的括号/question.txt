@@ -1,0 +1,47 @@
+remove-invalid-parentheses
+删除最小数量的无效括号，使得输入的字符串有效，返回所有可能的结果。
+
+<strong>说明:</strong> 输入可能包含了除<code>(</code>和<code>)</code>以外的字符。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> &quot;()())()&quot;
+<strong>输出:</strong> [&quot;()()()&quot;, &quot;(())()&quot;]
+</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> &quot;(a)())()&quot;
+<strong>输出:</strong> [&quot;(a)()()&quot;, &quot;(a())()&quot;]
+</pre>
+
+<strong>示例 3:</strong>
+
+<pre><strong>输入:</strong> &quot;)(&quot;
+<strong>输出: </strong>[&quot;&quot;]</pre>
+
+删除无效的括号
+Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.
+
+<strong>Note:</strong>The input string may contain letters other than the parentheses <code>(</code> and <code>)</code>.
+
+<b>Example 1:</b>
+
+<pre>
+<b>Input:</b> &quot;()())()&quot;
+<b>Output:</b> [&quot;()()()&quot;, &quot;(())()&quot;]
+</pre>
+
+<b>Example 2:</b>
+
+<pre>
+<b>Input:</b> &quot;(a)())()&quot;
+<b>Output:</b> [&quot;(a)()()&quot;, &quot;(a())()&quot;]
+</pre>
+
+<b>Example 3:</b>
+
+<pre>
+<b>Input:</b> &quot;)(&quot;
+<b>Output: </b>[&quot;&quot;]
+</pre>

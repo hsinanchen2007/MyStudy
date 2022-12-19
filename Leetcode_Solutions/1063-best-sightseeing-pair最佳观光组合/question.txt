@@ -1,0 +1,50 @@
+best-sightseeing-pair
+给定正整数数组<code>A</code>，<code>A[i]</code>表示第 <code>i</code> 个观光景点的评分，并且两个景点<code>i</code> 和<code>j</code>之间的距离为<code>j - i</code>。
+
+一对景点（<code>i &lt; j</code>）组成的观光组合的得分为（<code>A[i] + A[j] + i- j</code>）：景点的评分之和<strong>减去</strong>它们两者之间的距离。
+
+返回一对观光景点能取得的最高分。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>[8,1,5,2,6]
+<strong>输出：</strong>11
+<strong>解释：</strong>i = 0, j = 2, <code>A[i] + A[j] + i - j = 8 + 5 + 0 - 2 = 11</code>
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ol>
+	<code>2 &lt;= A.length &lt;= 50000</code>
+	<code>1 &lt;= A[i] &lt;= 1000</code>
+</ol>
+
+最佳观光组合
+Given an array <code>A</code> of positive integers, <code>A[i]</code> represents the value of the <code>i</code>-th sightseeing spot, and twosightseeing spots <code>i</code> and <code>j</code>have distance <code>j - i</code>between them.
+
+The <em>score</em>of a pair (<code>i &lt; j</code>) of sightseeing spots is (<code>A[i] + A[j] + i- j)</code> : the sum of the values of the sightseeing spots, <strong>minus</strong> the distance between them.
+
+Return the maximum score of a pair of sightseeing spots.
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">[8,1,5,2,6]</span>
+<strong>Output: </strong><span id="example-output-1">11
+<strong>Explanation:</strong> i = 0, j = 2, </span><code>A[i] + A[j] + i - j = 8 + 5 + 0 - 2 = 11</code>
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	<code>2 &lt;= A.length &lt;= 50000</code>
+	<code>1 &lt;= A[i] &lt;= 1000</code>
+</ol>

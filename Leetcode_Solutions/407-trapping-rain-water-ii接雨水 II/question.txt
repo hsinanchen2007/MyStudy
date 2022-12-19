@@ -1,0 +1,69 @@
+trapping-rain-water-ii
+给你一个 <code>m x n</code>的矩阵，其中的值均为正整数，代表二维高度图每个单元的高度，请计算图中形状最多能接多少体积的雨水。
+
+
+
+<strong>示例：</strong>
+
+<pre>给出如下 3x6 的高度图:
+[
+  [1,4,3,1,3,2],
+  [3,2,1,3,2,4],
+  [2,3,3,2,3,1]
+]
+
+返回 4 。
+</pre>
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/rainwater_empty.png" style="width: 500px;">
+
+如上图所示，这是下雨前的高度图<code>[[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]</code> 的状态。
+
+
+
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/rainwater_fill.png" style="width: 500px;">
+
+下雨后，雨水将会被存储在这些方块中。总的接雨水量是4。
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= m, n &lt;= 110</code>
+	<code>0 &lt;= heightMap[i][j] &lt;= 20000</code>
+</ul>
+
+接雨水 II
+Given an <code>m x n</code> matrix of positive integers representing the height of each unit cell in a 2D elevation map, compute the volume of water it is able to trap after raining.
+
+<b>Example:</b>
+
+<pre>
+Given the following 3x6 height map:
+[
+  [1,4,3,1,3,2],
+  [3,2,1,3,2,4],
+  [2,3,3,2,3,1]
+]
+
+Return 4.
+</pre>
+
+<img src="https://assets.leetcode.com/uploads/2018/10/13/rainwater_empty.png" style="width: 100%; max-width: 500px;" />
+
+The above image represents the elevation map <code>[[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]</code> before the rain.
+
+
+
+<img src="https://assets.leetcode.com/uploads/2018/10/13/rainwater_fill.png" style="width: 100%; max-width: 500px;" />
+
+After the rain, water is trapped between the blocks. The total volume of water trapped is 4.
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= m, n &lt;= 110</code>
+	<code>0 &lt;= heightMap[i][j] &lt;= 20000</code>
+</ul>

@@ -1,0 +1,71 @@
+minimum-cost-tree-from-leaf-values
+给你一个正整数数组<code>arr</code>，考虑所有满足以下条件的二叉树：
+
+<ul>
+	每个节点都有 0 个或是 2 个子节点。
+	数组<code>arr</code>中的值与树的中序遍历中每个叶节点的值一一对应。（知识回顾：如果一个节点有 0 个子节点，那么该节点为叶节点。）
+	每个非叶节点的值等于其左子树和右子树中叶节点的最大值的乘积。
+</ul>
+
+在所有这样的二叉树中，返回每个非叶节点的值的最小可能总和。这个和的值是一个32 位整数。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>arr = [6,2,4]
+<strong>输出：</strong>32
+<strong>解释：</strong>
+有两种可能的树，第一种的非叶节点的总和为 36，第二种非叶节点的总和为 32。
+
+    24            24
+   /  \          /  \
+  12   4        6    8
+ /  \               / \
+6    2             2   4</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>2 &lt;= arr.length &lt;= 40</code>
+	<code>1 &lt;= arr[i] &lt;= 15</code>
+	答案保证是一个 32 位带符号整数，即小于<code>2^31</code>。
+</ul>
+
+叶值的最小代价生成树
+Given an array <code>arr</code> of positive integers, consider all binary trees such that:
+
+<ul>
+	Each node has either 0 or 2 children;
+	The values of <code>arr</code> correspond to the values of each<strong>leaf</strong> in an in-order traversal of the tree. <em>(Recall that a node is a leaf if and only if it has 0 children.)</em>
+	The valueof each non-leaf node is equal to the product of the largest leaf value in its left and right subtree respectively.
+</ul>
+
+Among all possible binary trees considered,return the smallest possible sum of the values of each non-leaf node. It is guaranteed this sum fits into a 32-bit integer.
+
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> arr = [6,2,4]
+<strong>Output:</strong> 32
+<strong>Explanation:</strong>
+There are two possible trees.  The first has non-leaf node sum 36, and the second has non-leaf node sum 32.
+
+    24            24
+   /  \          /  \
+  12   4        6    8
+ /  \               / \
+6    2             2   4
+</pre>
+
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>2 &lt;= arr.length &lt;= 40</code>
+	<code>1 &lt;= arr[i] &lt;= 15</code>
+	It is guaranteed that the answer fits into a 32-bit signed integer (ie.it is less than <code>2^31</code>).
+</ul>

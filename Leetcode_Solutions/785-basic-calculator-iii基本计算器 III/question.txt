@@ -1,0 +1,46 @@
+basic-calculator-iii
+实现一个基本的计算器来计算简单的表达式字符串。
+
+表达式字符串可以包含左括号 <code>(</code> 和右括号 <code>)</code>，加号 <code>+</code> 和减号 <code>-</code>，<strong>非负</strong>整数和空格。
+
+表达式字符串只包含非负整数，<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>操作符，左括号 <code>(</code>，右括号 <code>)</code>和空格。整数除法需要向下截断。
+
+你可以假定给定的字符串总是有效的。所有的中间结果的范围为 <code>[-2147483648, 2147483647]</code>。
+
+
+
+一些例子：
+
+<pre>&quot;1 + 1&quot; = 2
+&quot; 6-4 / 2 &quot; = 4
+&quot;2*(5+5*2)/3+(6/2+8)&quot; = 21
+&quot;(2+6* 3+5- (3*14/7+2)*5)+3&quot;=-12
+</pre>
+
+
+
+<strong>注：不要 </strong>使用内置库函数 <code>eval</code>。
+
+
+
+基本计算器 III
+Implement a basic calculator to evaluate a simple expression string.
+
+The expression string may contain open <code>(</code> and closing parentheses <code>)</code>, the plus <code>+</code> or minus sign <code>-</code>, <strong>non-negative</strong> integers and empty spaces <code> </code>.
+
+The expression string contains only non-negative integers, <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code> operators , open <code>(</code> and closing parentheses <code>)</code> and empty spaces <code> </code>. The integer division should truncate toward zero.
+
+You may assume that the given expression is always valid. All intermediate results will be in the range of <code>[-2147483648, 2147483647]</code>.
+
+Some examples:
+
+<pre>
+&quot;1 + 1&quot; = 2
+&quot; 6-4 / 2 &quot; = 4
+&quot;2*(5+5*2)/3+(6/2+8)&quot; = 21
+&quot;(2+6* 3+5- (3*14/7+2)*5)+3&quot;=-12
+</pre>
+
+
+
+<strong>Note:</strong> <strong>Do not</strong> use the <code>eval</code> built-in library function.

@@ -1,0 +1,43 @@
+number-of-equivalent-domino-pairs
+给你一个由一些多米诺骨牌组成的列表<code>dominoes</code>。
+
+如果其中某一张多米诺骨牌可以通过旋转 <code>0</code>度或 <code>180</code> 度得到另一张多米诺骨牌，我们就认为这两张牌是等价的。
+
+形式上，<code>dominoes[i] = [a, b]</code>和<code>dominoes[j] = [c, d]</code>等价的前提是<code>a==c</code>且<code>b==d</code>，或是<code>a==d</code> 且<code>b==c</code>。
+
+在<code>0 &lt;= i &lt; j &lt; dominoes.length</code>的前提下，找出满足<code>dominoes[i]</code> 和<code>dominoes[j]</code>等价的骨牌对 <code>(i, j)</code> 的数量。
+
+
+
+<strong>示例：</strong>
+
+<pre><strong>输入：</strong>dominoes = [[1,2],[2,1],[3,4],[5,6]]
+<strong>输出：</strong>1
+</pre>
+
+
+
+<strong>提示：</strong>
+
+<ul>
+	<code>1 &lt;= dominoes.length &lt;= 40000</code>
+	<code>1 &lt;= dominoes[i][j] &lt;= 9</code>
+</ul>
+
+等价多米诺骨牌对的数量
+Given a list of <code>dominoes</code>,<code>dominoes[i] = [a, b]</code>is <em>equivalent</em> to <code>dominoes[j] = [c, d]</code>if and only if either (<code>a==c</code> and <code>b==d</code>), or (<code>a==d</code> and <code>b==c</code>) - that is, one domino can be rotated to be equal to another domino.
+
+Return the number of pairs <code>(i, j)</code> for which <code>0 &lt;= i &lt; j &lt; dominoes.length</code>, and<code>dominoes[i]</code> is equivalent to <code>dominoes[j]</code>.
+
+
+<strong>Example 1:</strong>
+<pre><strong>Input:</strong> dominoes = [[1,2],[2,1],[3,4],[5,6]]
+<strong>Output:</strong> 1
+</pre>
+
+<strong>Constraints:</strong>
+
+<ul>
+	<code>1 &lt;= dominoes.length &lt;= 40000</code>
+	<code>1 &lt;= dominoes[i][j] &lt;= 9</code>
+</ul>

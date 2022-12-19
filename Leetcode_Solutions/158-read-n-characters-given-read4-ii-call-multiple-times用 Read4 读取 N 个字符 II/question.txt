@@ -1,0 +1,145 @@
+read-n-characters-given-read4-ii-call-multiple-times
+给你一个文件，并且该文件只能通过给定的<code>read4</code>方法来读取，请实现一个方法使其能够读取 n 个字符。<strong>注意：你的</strong><strong><code>read</code> 方法可能会被调用多次。</strong>
+
+<strong>read4 的定义：</strong>
+
+<pre>参数类型: char[] buf
+返回类型: int
+
+注意: buf[] 是目标缓存区不是源缓存区，read4 的返回结果将会复制到 buf[] 当中。
+</pre>
+
+下列是一些使用 <code>read4</code> 的例子：
+
+<pre><code>File file(&quot;abcdefghijk&quot;); // 文件名为 &quot;abcdefghijk&quot;， 初始文件指针 (fp) 指向 &#39;a&#39; 
+char[] buf = new char[4]; // 创建一个缓存区使其能容纳足够的字符
+read4(buf); // read4 返回 4。现在 buf = &quot;abcd&quot;，fp 指向 &#39;e&#39;
+read4(buf); // read4 返回 4。现在 buf = &quot;efgh&quot;，fp 指向 &#39;i&#39;
+read4(buf); // read4 返回 3。现在 buf = &quot;ijk&quot;，fp 指向文件末尾</code></pre>
+
+<strong>read 方法：</strong>
+
+通过使用 <code>read4</code> 方法，实现<code>read</code> 方法。该方法可以从文件中读取 n 个字符并将其存储到缓存数组<code>buf</code> 中。您<strong>不能</strong>直接操作文件。
+
+返回值为实际读取的字符。
+
+<strong>read的定义：</strong>
+
+<pre>参数:   char[] buf, int n
+返回值: int
+
+注意: buf[] 是目标缓存区不是源缓存区，你需要将结果写入 buf[] 中。
+</pre>
+
+
+
+<strong>示例 1：</strong>
+
+<pre>File file(&quot;abc&quot;);
+Solution sol;
+// 假定 buf 已经被分配了内存，并且有足够的空间来存储文件中的所有字符。
+sol.read(buf, 1); // 当调用了您的 read 方法后，buf 需要包含 &quot;a&quot;。 一共读取 1 个字符，因此返回 1。
+sol.read(buf, 2); // 现在 buf 需要包含 &quot;bc&quot;。一共读取 2 个字符，因此返回 2。
+sol.read(buf, 1); // 由于已经到达了文件末尾，没有更多的字符可以读取，因此返回 0。
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>File file(&quot;abc&quot;);
+Solution sol;
+sol.read(buf, 4); // 当调用了您的 read 方法后，buf 需要包含 &quot;abc&quot;。 一共只能读取 3 个字符，因此返回 3。
+sol.read(buf, 1); // 由于已经到达了文件末尾，没有更多的字符可以读取，因此返回 0。
+</pre>
+
+<strong>注意：</strong>
+
+<ol>
+	你 <strong>不能</strong> 直接操作该文件，文件只能通过 <code>read4</code> 获取而 <strong>不能</strong> 通过 <code>read</code>。
+	<code>read</code> 函数可以被调用<strong>多次</strong>。
+	请记得<strong>重置</strong>在 Solution 中声明的类变量（静态变量），因为类变量会<strong>在多个测试用例中保持不变</strong>，影响判题准确。请 <a href="https://support.leetcode-cn.com/hc/kb/section/1071534/" target="_blank">查阅</a> 这里。
+	你可以假定目标缓存数组<code>buf</code> 保证有足够的空间存下 n 个字符。
+	保证在一个给定测试用例中，<code>read</code> 函数使用的是同一个 <code>buf</code>。
+</ol>
+
+用 Read4 读取 N 个字符 II
+Given a file and assume that you can only read the file using a given method<code>read4</code>, implement a method <code>read</code> to read <em>n</em> characters. <strong>Your method <code>read</code> may be called multiple times.</strong>
+
+
+
+<b>Method read4: </b>
+
+The API<code>read4</code> reads 4 consecutive characters from the file, then writes those characters into the buffer array <code>buf</code>.
+
+The return value is the number of actual characters read.
+
+Note that<code>read4()</code> has its own file pointer, much like <code>FILE *fp</code> in C.
+
+<b>Definition of read4:</b>
+
+<pre>
+    Parameter:  char[] buf
+    Returns:    int
+
+Note: buf[] is destination not source, the results from read4 will be copied to buf[]
+</pre>
+
+Below is a high level example of how <code>read4</code> works:
+
+<pre>
+<code>File file(&quot;abcdefghijk&quot;); // File is &quot;abcdefghijk&quot;, initially file pointer (fp) points to &#39;a&#39;
+char[] buf = new char[4]; // Create buffer with enough space to store characters
+read4(buf); // read4 returns 4. Now buf = &quot;abcd&quot;, fp points to &#39;e&#39;
+read4(buf); // read4 returns 4. Now buf = &quot;efgh&quot;, fp points to &#39;i&#39;
+read4(buf); // read4 returns 3. Now buf = &quot;ijk&quot;, fp points to end of file</code>
+</pre>
+
+
+
+<strong>Method read:</strong>
+
+By using the <code>read4</code> method, implement the method<code>read</code> that reads <i>n</i> characters from the file and store it in thebuffer array<code>buf</code>. Consider that you <strong>cannot</strong> manipulate the file directly.
+
+The return value is the number of actual characters read.
+
+<b>Definition of read: </b>
+
+<pre>
+    Parameters:	char[] buf, int n
+    Returns:	int
+
+Note: buf[] is destination not source, you will need to write the results to buf[]
+</pre>
+
+
+
+<strong>Example 1:</strong>
+
+<pre>
+File file(&quot;abc&quot;);
+Solution sol;
+// Assume buf is allocated and guaranteed to have enough space for storing all characters from the file.
+sol.read(buf, 1); // After calling your read method, buf should contain &quot;a&quot;. We read a total of 1 character from the file, so return 1.
+sol.read(buf, 2); // Now buf should contain &quot;bc&quot;. We read a total of 2 characters from the file, so return 2.
+sol.read(buf, 1); // We have reached the end of file, no more characters can be read. So return 0.
+</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+File file(&quot;abc&quot;);
+Solution sol;
+sol.read(buf, 4); // After calling your read method, buf should contain &quot;abc&quot;. We read a total of 3 characters from the file, so return 3.
+sol.read(buf, 1); // We have reached the end of file, no more characters can be read. So return 0.
+</pre>
+
+
+
+<strong>Note:</strong>
+
+<ol>
+	Consider that you <strong>cannot</strong> manipulate the file directly, the file is only accesible for <code>read4</code> but<strong>not</strong> for <code>read</code>.
+	The <code>read</code> function may be called <strong>multiple times</strong>.
+	Please remember to <b>RESET</b> your class variables declared in Solution, as static/class variables are <b>persisted across multiple test cases</b>. Please see <a href="https://leetcode.com/faq/" target="_blank">here</a> for more details.
+	You may assume the destination buffer array,<code>buf</code>,is guaranteed to have enoughspace for storing<em>n</em>characters.
+	It is guaranteed that in a given test case the same buffer <code>buf</code> is called by <code>read</code>.
+</ol>

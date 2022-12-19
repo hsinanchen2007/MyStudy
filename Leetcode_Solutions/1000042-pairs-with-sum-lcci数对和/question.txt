@@ -1,0 +1,39 @@
+pairs-with-sum-lcci
+设计一个算法，找出数组中两数之和为指定值的所有整数对。一个数只能属于一个数对。
+
+<strong>示例 1:</strong>
+
+<pre><strong>输入:</strong> nums = [5,6,5], target = 11
+<strong>输出: </strong>[[5,6]]</pre>
+
+<strong>示例 2:</strong>
+
+<pre><strong>输入:</strong> nums = [5,6,5,6], target = 11
+<strong>输出: </strong>[[5,6],[5,6]]</pre>
+
+<strong>提示：</strong>
+
+<ul>
+	<code>nums.length &lt;= 100000</code>
+</ul>
+
+数对和
+Design an algorithm to find all pairs of integers within an array which sum to a specified value.
+
+<strong>Example 1:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [5,6,5], target = 11
+<strong>Output: </strong>[[5,6]]</pre>
+
+<strong>Example 2:</strong>
+
+<pre>
+<strong>Input:</strong> nums = [5,6,5,6], target = 11
+<strong>Output: </strong>[[5,6],[5,6]]</pre>
+
+<strong>Note: </strong>
+
+<ul>
+	<code>nums.length &lt;= 100000</code>
+</ul>
