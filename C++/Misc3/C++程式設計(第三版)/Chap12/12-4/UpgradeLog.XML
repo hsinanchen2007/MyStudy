@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="12-4">
+</Property><Property Name="方案檔" Value="C:\Documents and Settings\wei\桌面\VC10\Chap12\12-4\12-4.sln">
+</Property><Property Name="Date" Value="2011年3月14日">
+</Property><Property Name="Time" Value="下午 14:46:05">
+</Property></Properties><Event ErrorLevel="0" Project="12-4" Source="12-4.vcproj" Description="Converting project file 'C:\Documents and Settings\wei\桌面\VC10\Chap12\12-4\12-4.vcproj'.">
+</Event><Event ErrorLevel="1" Project="12-4" Source="12-4.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="12-4" Source="12-4.vcproj" Description="Done converting to new project file 'C:\Documents and Settings\wei\桌面\VC10\Chap12\12-4\12-4.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="12-4" Source="12-4.vcproj" Description="Converted">
+</Event></UpgradeLog>
