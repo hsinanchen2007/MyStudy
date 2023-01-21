@@ -267,9 +267,7 @@ class Solution {
 public:
     // 2023.1.21 by Hsin-An
     int removeDuplicates(vector<int>& nums) {
-        auto last = std::unique(nums.begin(), nums.end());
-        int distance = std::distance(nums.begin(), last);
-        return distance;
+        return std::distance(nums.begin(), std::unique(nums.begin(), nums.end()));
     }
 };
 

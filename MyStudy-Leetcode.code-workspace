@@ -83,7 +83,27 @@
 			"any": "cpp",
 			"climits": "cpp",
 			"stack": "cpp",
-			"queue": "cpp"
+			"queue": "cpp",
+			"bit": "cpp",
+			"compare": "cpp",
+			"concepts": "cpp",
+			"ios": "cpp",
+			"ranges": "cpp",
+			"span": "cpp",
+			"xfacet": "cpp",
+			"xhash": "cpp",
+			"xiosbase": "cpp",
+			"xlocale": "cpp",
+			"xlocinfo": "cpp",
+			"xlocmon": "cpp",
+			"xlocnum": "cpp",
+			"xloctime": "cpp",
+			"xmemory": "cpp",
+			"xstddef": "cpp",
+			"xstring": "cpp",
+			"xtr1common": "cpp",
+			"xtree": "cpp",
+			"xutility": "cpp"
 		},
 		"printcode.lineNumbers": "off"
 	}
