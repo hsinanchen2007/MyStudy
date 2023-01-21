@@ -388,7 +388,7 @@ public:
 };
 
 
-class Solution {
+class Solution92 {
 public:
     // 2022.7.28, from https://github.com/grandyang/leetcode/issues/20
     /*
@@ -416,6 +416,26 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
+class Solution {
+public:
+    // 2023.1.21 by Hsin-An
+    bool isValid(string s) {
+        stack<char> myStack;
+        for (int i = 0; i < s.size(); i++) {
+            if (s[i] == ')' || s[i] == ']' || s[i] == '}') {
+                if (myStack.empty()) return false;
+                if (s[i] == ')' && myStack.top() != '(') return false;
+                if (s[i] == ']' && myStack.top() != '[') return false;
+                if (s[i] == '}' && myStack.top() != '{') return false;
+                myStack.pop();
+            } else {
+                myStack.push(s[i]);
+            }
+        }
+        if (!myStack.empty()) return false;
+        else return true;
+    }
+};
 
 // @lc code=end
 
