@@ -294,7 +294,7 @@ public:
 };
 
 
-class Solution {
+class Solution90 {
 public:
     // 2022.7.28, from https://github.com/grandyang/leetcode/issues/27
     /*
@@ -314,8 +314,16 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
-
 // 2022.8.15, not in top list
+
+class Solution {
+public:
+    // 2023.1.21 by Hsin-An
+    int removeElement(vector<int>& nums, int val) {
+        return std::distance(nums.begin(), std::remove(nums.begin(), nums.end(), val));
+    }
+};
+
 
 // @lc code=end
 
