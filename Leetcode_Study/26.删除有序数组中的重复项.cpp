@@ -239,7 +239,7 @@ public:
 };
 
 
-class Solution {
+class Solution90 {
 public:
     // 2022.7.28, from https://github.com/grandyang/leetcode/issues/26
     /*
@@ -262,6 +262,16 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+class Solution {
+public:
+    // 2023.1.21 by Hsin-An
+    int removeDuplicates(vector<int>& nums) {
+        auto last = std::unique(nums.begin(), nums.end());
+        int distance = std::distance(nums.begin(), last);
+        return distance;
+    }
+};
 
 
 // @lc code=end
