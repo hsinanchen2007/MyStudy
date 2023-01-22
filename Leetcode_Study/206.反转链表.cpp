@@ -384,10 +384,10 @@ public:
         ListNode* prev = nullptr;
 
         while (head) {
-        ListNode* next = head->next;
-        head->next = prev;
-        prev = head;
-        head = next;
+            ListNode* next = head->next;
+            head->next = prev;
+            prev = head;
+            head = next;
         }
 
         return prev;
@@ -419,7 +419,7 @@ public:
 };
 
 
-class Solution {
+class Solution87 {
 public:
     // 2022.7.27, from https://github.com/grandyang/leetcode/issues/206
     /*
@@ -443,6 +443,28 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        // sanity check
+        if (head == NULL || head->next == NULL) return head;
+
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+        ListNode* next = curr->next;
+
+        while (curr != NULL) {
+            next = curr->next;  // save before reverse
+            curr->next = prev;  // reverse current's next to prev
+            prev = curr;        // reverse current to prev
+            curr = next;        // reverse next to current
+        }
+
+        // stop condidtion is current == NULL, so the prev will be the new head of reversed list
+        return prev;
+    }
+};
 
 
 // @lc code=end
