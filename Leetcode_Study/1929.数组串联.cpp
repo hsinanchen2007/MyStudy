@@ -52,7 +52,7 @@ n == nums.length
 */
 
 // @lc code=start
-class Solution {
+class Solution100 {
 public:
     // 2023.1.21 by Hsin-An
     vector<int> getConcatenation(vector<int>& nums) {
@@ -64,6 +64,20 @@ public:
         return nums;
     }
 };
+
+
+class Solution {
+public:
+    // 2023.1.21 by Hsin-An
+    vector<int> getConcatenation(vector<int>& nums) {
+        int size = nums.size();
+        for (int i = 0; i < size; i++) {
+            nums.emplace_back(nums[i]);
+        }
+        return nums;
+    }
+};
+
 
 // @lc code=end
 
