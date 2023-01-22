@@ -59,6 +59,7 @@ l1 和 l2 均按 非递减顺序 排列
  */
 class Solution {
 public:
+    // 2023.1.22 by Hsin-An
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         // sanity check
         if (list1 == NULL && list2 == NULL) return NULL;
