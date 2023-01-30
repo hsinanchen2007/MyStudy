@@ -56,7 +56,7 @@ myStack.empty(); // 返回 False
 */
 
 // @lc code=start
-class MyStack {
+class MyStack100 {
 public:
 
     // 2022.7.24, from https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0225.%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md
@@ -94,7 +94,7 @@ public:
     queue<int> que1;
     queue<int> que2; // 辅助队列，用来备份
 
-    MyStack() {
+    MyStack100() {
 
     }
     
@@ -185,6 +185,49 @@ public:
 
 
 // 2022.8.15, not in top list
+
+class MyStack {
+    queue<int>q1;
+    queue<int>q2;
+public:
+    MyStack() {
+        
+    }
+    
+    void push(int x) {
+        q1.push(x);
+    }
+    
+    int pop() {
+        while(q1.size()!=1){
+            q2.push(q1.front());
+                q1.pop();
+        }
+        int x=q1.front();
+        q1.pop();
+        swap(q1,q2);
+        return x;
+        
+    }
+    
+    int top() {
+        while(q1.size()!=1){
+            q2.push(q1.front());
+                q1.pop();
+        }
+        int x=q1.front();
+        q1.pop();
+        swap(q1,q2);
+        q1.push(x);
+        return x;
+        
+    }
+  bool empty() {
+        return(q1.empty() && q2.empty());
+            
+    }
+};
+
 
 // @lc code=end
 

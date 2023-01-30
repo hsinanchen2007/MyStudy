@@ -355,7 +355,7 @@ public:
 };
 
 
-class Solution {
+class Solution89 {
 public:
     // 2022.9.15, from https://github.com/azl397985856/leetcode/blob/master/problems/75.sort-colors.md
     /*
@@ -418,6 +418,27 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int p1=0,p2=nums.size()-1;
+        for(int i=p1;i<=p2;i++)
+        {
+            if(nums[i]==0)
+            {
+                swap(nums[i],nums[p1]);
+                p1++;
+            }
+            if(nums[i]==2)
+            {
+                swap(nums[i],nums[p2]);
+                p2--;
+                i--;
+            }
+        }
+    }
+};
 
 
 // @lc code=end
