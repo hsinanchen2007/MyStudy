@@ -411,7 +411,7 @@ public:
 /************************************************************************************************************/
 
 
-class Solution {
+class Solution89 {
 public:
     // 2022.8.6 by Hsinan, use lower_bound() to get >= target index
     int searchInsert(vector<int>& A, int target) {
@@ -433,6 +433,16 @@ public:
         }
     }
 };
+
+
+class Solution {
+public:
+    // 2023.1.31 by Hsinan
+    int searchInsert(vector<int>& nums, int target) {
+        return distance(nums.begin(), lower_bound(nums.begin(), nums.end(), target));
+    }
+};
+
 
 // @lc code=end
 
