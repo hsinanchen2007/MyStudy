@@ -46,7 +46,7 @@ n == matrix[0].length
 */
 
 // @lc code=start
-class Solution {
+class Solution100 {
 public:
     // 2023.1.31, from https://walkccc.me/LeetCode/problems/0073/
     void setZeroes(vector<vector<int>>& matrix) {
@@ -90,6 +90,32 @@ public:
         if (shouldFillFirstCol)
             for (int i = 0; i < m; ++i)
                 matrix[i][0] = 0;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：风清云淡
+    // 链接：https://leetcode.cn/leetbook/read/array-and-string/ciekh/?discussion=P792EH
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    void setZeroes(vector<vector<int>>& matrix) {
+        int rows=matrix.size(),cols=matrix[0].size();
+        unordered_set<int>zero_row,zero_col;
+        for(int i=0;i<rows;++i)
+            for(int j=0;j<cols;++j)
+                if(!matrix[i][j])
+                {
+                    zero_row.insert(i);
+                    zero_col.insert(j);
+                }
+        for(auto i:zero_row)
+            for(int j=0;j<cols;++j)
+                matrix[i][j]=0;
+        for(auto j:zero_col)
+            for(int i=0;i<rows;++i)
+                matrix[i][j]=0;
     }
 };
 
