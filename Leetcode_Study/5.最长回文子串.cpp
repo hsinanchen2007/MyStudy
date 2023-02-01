@@ -173,7 +173,7 @@ private:
 };
 
 
-class Solution {
+class Solution96 {
 public:
     // 2023.2.1, from https://walkccc.me/LeetCode/problems/0005/
     // Approach 2: Manacher
@@ -228,6 +228,140 @@ private:
             joined += c;
         }
         return joined;
+    }
+};
+
+
+class Solution95 {
+public:
+    // 作者：⊙_⊙
+    // 链接：https://leetcode.cn/leetbook/read/array-and-string/conm7/?discussion=BMElkd
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    string longestPalindrome(string s) {
+        int i = 0, j = 0;
+        for(int k=1; k<s.size(); k++)
+        {
+            int i0 = k, j0 = k;//奇数回文
+            while(i0>0 && j0<s.size()-1)
+            {
+                if(s[i0-1]==s[j0+1])
+                {
+                    i0--;
+                    j0++;
+                }
+                else    break;
+            }
+            if(j0-i0 > j-i) 
+            {
+                i = i0;
+                j = j0;
+            }
+
+            i0 = k, j0 = k-1;//偶数回文
+            while(i0>0 && j0<s.size()-1)
+            {
+                if(s[i0-1]==s[j0+1])
+                {
+                    i0--;
+                    j0++;
+                }
+                else    break;
+            }
+            if(j0-i0 > j-i) 
+            {
+                i = i0;
+                j = j0;
+            }
+        } 
+        return s.substr(i,j-i+1);
+    }
+};
+
+
+class Solution94 {
+public:
+    // 作者：CainHuang
+    // 链接：https://leetcode.cn/leetbook/read/array-and-string/conm7/?discussion=v7utYQ
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    /*
+        1、动态规划
+        从长度length为1，到长度s.size()进行遍历，每个长度都从i = 0开始遍历，结尾j = i + length - 1
+        if length == 1， dp[i][j] == 1
+        else if length == 2, dp[i][j] = (s[i] == s[j])
+        else dp[i][j] = (s[i] == s[j] && dp[i+1][j-1])
+    */
+    string longestPalindrome(string s) {
+        int n = s.size();
+        vector<vector<int>> dp(n, vector<int>(n));
+        string ans;
+        for (int length = 1; length <= n; ++length) {
+            for (int i = 0; i + length - 1 < n; ++i) {
+                int j = i + length - 1;
+                if (length == 1) {
+                    dp[i][j] = 1;
+                } else if (length == 2) {
+                    dp[i][j] = (s[i] == s[j]);
+                } else {
+                    dp[i][j] = (s[i] == s[j] && dp[i+1][j-1]);
+                }
+                if (dp[i][j] && length > ans.size()) {
+                    ans = s.substr(i, length);
+                }
+            }
+        }
+        return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：CainHuang
+    // 链接：https://leetcode.cn/leetbook/read/array-and-string/conm7/?discussion=v7utYQ
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    /*
+        2、中心扩散法：
+        从前面的判断可以知道，dp[i][j] -> dp[i - 1][j + 1] -> dp[i - 2][j + 2] -> ... -> 某个边界结束，
+        得到边界条件为 length == 1 或者 length == 2，我们以这个边界作为中心，进行循环扩散，直到两边的值不相同为止，然后返回这个边界下标，
+        用于给外面判断最长字串，扩散代码如下：
+
+        pair<int, int> expandAroundCenter(const string& s, int left, int right) {
+            while (left >= 0 && right < s.size() && s[left] == s[right]) {
+                --left;
+                ++right;
+            }
+            return {left+1, right-1};
+        }
+        
+        在得到中心扩散方法后，遍历字符串，以索尼i为基准的两个边界进行扩散，然后计算出最大的字串索引，遍历完成，直接返回最长子串
+    */
+    string longestPalindrome(string s) {
+        int left = 0;
+        int right = 0;
+        for (int i = 0; i < s.size(); ++i) {
+            auto [left1, right1] = expandAroundCenter(s, i, i);
+            auto [left2, right2] = expandAroundCenter(s, i, i + 1);
+            if (right1 - left1 > right - left) {
+                left = left1;
+                right = right1;
+            } 
+            if (right2 - left2 > right - left) {
+                left = left2;
+                right = right2;
+            }
+        }
+        return s.substr(left, right - left + 1);
+    }
+
+    pair<int, int> expandAroundCenter(const string& s, int left, int right) {
+        while (left >= 0 && right < s.size() && s[left] == s[right]) {
+            --left;
+            ++right;
+        }
+        return {left + 1, right - 1};
     }
 };
 
