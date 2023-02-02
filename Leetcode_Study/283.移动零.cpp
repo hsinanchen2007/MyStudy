@@ -269,7 +269,7 @@ public:
 };
 
 
-class Solution {
+class Solution89 {
 public:
     // 2022.7.27, from https://github.com/grandyang/leetcode/issues/283
     /*
@@ -291,6 +291,14 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+class Solution {
+public:
+    // 2023.2.2, by Hsinan
+    void moveZeroes(vector<int>& nums) {
+        std::fill(std::remove(nums.begin(), nums.end(), 0), nums.end(), 0);
+    }
+};
 
 
 // @lc code=end
