@@ -220,7 +220,7 @@ public:
 };
 
 
-class Solution {
+class Solution93 {
 public:
     // 2022.7.27, from https://github.com/grandyang/leetcode/issues/167
     /*
@@ -248,8 +248,24 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
-
 // 2022.8.15, not in top list
+
+class Solution {
+public:
+    // 2023.2.1, by Hsinan, use lower_bound() to find corresponding element
+    // note that we need to +1 for lower_bound()'s starting point, otherwise it may return current index itself
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        int size = numbers.size();
+        for (int i = 0; i < size; i++) {
+            auto item = lower_bound(numbers.begin()+i+1, numbers.end(), target - numbers[i]);
+            if (item != numbers.end() && *item == target - numbers[i]) {
+                return {i+1, (int)(distance(numbers.begin(), item))+1};
+            }
+        }
+        return {};
+    }
+};
+
 
 // @lc code=end
 
