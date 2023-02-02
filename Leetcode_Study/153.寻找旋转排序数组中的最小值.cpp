@@ -349,7 +349,7 @@ public:
 /************************************************************************************************************/
 
 
-class Solution {
+class Solution87 {
 public:
     // 2022.9.3, from https://leetcode-solution.cn/book
     int findMin(vector<int>& nums) {
@@ -365,6 +365,15 @@ public:
             }
         }
         return -1;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.2, by Hsinan, use min_element() to get a min element in a given vector
+    int findMin(vector<int>& nums) {
+        return *(min_element(nums.begin(), nums.end()));
     }
 };
 
