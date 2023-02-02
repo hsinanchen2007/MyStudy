@@ -290,11 +290,11 @@ public:
         int sum = 0;
 
         for (int l = 0, r = 0; r < nums.size(); ++r) {
-        sum += nums[r];
-        while (sum >= s) {
-            ans = min(ans, r - l + 1);
-            sum -= nums[l++];
-        }
+            sum += nums[r];
+            while (sum >= s) {
+                ans = min(ans, r - l + 1);
+                sum -= nums[l++];
+            }
         }
 
         return ans < INT_MAX ? ans : 0;
