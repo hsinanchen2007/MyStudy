@@ -198,7 +198,7 @@ public:
 };
 
 
-class Solution {
+class Solution93 {
 public:
     // 2022.7.27, from https://github.com/grandyang/leetcode/issues/344
     /*
@@ -217,6 +217,14 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+class Solution {
+public:
+    // 2023.2.1 by Hsinan
+    void reverseString(vector<char>& s) {
+        std::reverse(s.begin(), s.end());
+    }
+};
 
 
 // @lc code=end
