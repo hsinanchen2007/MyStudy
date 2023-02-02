@@ -263,11 +263,21 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
-class Solution {
+class Solution89 {
 public:
-    // 2023.1.21 by Hsin-An
+    // 2023.1.21 by Hsinan
     int removeDuplicates(vector<int>& nums) {
         return std::distance(nums.begin(), std::unique(nums.begin(), nums.end()));
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.2, by Hsinan
+    int removeDuplicates(vector<int>& nums) {
+        nums.erase(unique(nums.begin(), nums.end()), nums.end());
+        return nums.size();
     }
 };
 
