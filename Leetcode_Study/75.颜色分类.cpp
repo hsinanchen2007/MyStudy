@@ -419,7 +419,7 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
-class Solution {
+class Solution88 {
 public:
     void sortColors(vector<int>& nums) {
         int p1=0,p2=nums.size()-1;
@@ -435,6 +435,30 @@ public:
                 swap(nums[i],nums[p2]);
                 p2--;
                 i--;
+            }
+        }
+    }
+};
+
+
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        // bucket sort, as we already know the limited numbers are only 0, 1, 2
+        int count[3] = {0, 0, 0};
+
+        // count # of 0, 1, 2's
+        for_each(nums.begin(), nums.end(), [&](int v){ count[v]++; });
+
+        // assign them back based on # of 0, 1, 2's counter
+        for (int i = 0; i < nums.size(); i++) {
+            for (int j = 0; j < 3; j ++) {
+                if (count[j] > 0) {
+                    // decrease counter and exit once assign value
+                    nums[i] = j;
+                    count[j]--;
+                    break;
+                } 
             }
         }
     }
