@@ -1,1 +1,1 @@
-Leetcode study and solutions
+MyStudy
