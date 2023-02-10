@@ -143,7 +143,7 @@ public:
 };
 
 
-class Solution {
+class Solution96 {
 public:
     // 2023.2.2 from https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/longest-continuous-increasing-subsequence.cpp
     // Time:  O(n)
@@ -159,6 +159,220 @@ public:
         }
         return result;
     }   
+};
+
+
+class Solution95 {
+public:
+    // 2023.2.9, from https://github.com/grandyang/leetcode/issues/674
+    /*
+        这道题让我们求一个数组的最长连续递增序列，由于有了连续这个条件，跟之前那道 Number of Longest Increasing Subsequence 
+        比起来，其实难度就降低了很多。可以使用一个计数器，如果遇到大的数字，计数器自增1；如果是一个小的数字，则计数器重置为1。
+        用一个变量 cur 来表示前一个数字，初始化为整型最大值，当前遍历到的数字 num 就和 cur 比较就行了，每次用 cnt 来更新结果 
+        res，参见代码如下：    
+    */
+    int findLengthOfLCIS(vector<int>& nums) {
+        int res = 0, cnt = 0, cur = INT_MAX;
+        for (int num : nums) {
+            if (num > cur) ++cnt;
+            else cnt = 1;
+            res = max(res, cnt);
+            cur = num;
+        }
+        return res;
+    }
+};
+
+
+class Solution94 {
+public:
+    // 2023.2.9, from https://github.com/grandyang/leetcode/issues/674
+    /*
+        下面这种方法的思路和上面的解法一样，每次都和前面一个数字来比较，注意处理无法取到钱一个数字的情况，参见代码如下：
+    */
+    int findLengthOfLCIS(vector<int>& nums) {
+        int res = 0, cnt = 0, n = nums.size();
+        for (int i = 0; i < n; ++i) {
+            if (i == 0 || nums[i - 1] < nums[i]) res = max(res, ++cnt);
+            else cnt = 1;
+        }
+        return res;
+    }
+};
+
+
+class Solution93 {
+public:
+    // 作者：yxc
+    // 链接：https://www.acwing.com/activity/content/code/content/922879/
+    // 来源：AcWing
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int findLengthOfLCIS(vector<int>& nums) {
+        int res = 0;
+        for (int i = 0; i < nums.size(); i ++ ) {
+            int j = i + 1;
+            while (j < nums.size() && nums[j] > nums[j - 1]) j ++ ;
+            res = max(res, j - i);
+            i = j - 1;
+        }
+        return res;
+    }
+};
+
+
+class Solution92 {
+public:
+    // 2023.2.9, from https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0674.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97.md
+    /*
+        思路
+        本题相对于昨天的动态规划：300.最长递增子序列最大的区别在于“连续”。
+
+        本题要求的是最长连续递增序列
+
+        动态规划
+        动规五部曲分析如下：
+
+        确定dp数组（dp table）以及下标的含义
+        dp[i]：以下标i为结尾的连续递增的子序列长度为dp[i]。
+
+        注意这里的定义，一定是以下标i为结尾，并不是说一定以下标0为起始位置。
+
+        确定递推公式
+        如果 nums[i] > nums[i - 1]，那么以 i 为结尾的连续递增的子序列长度 一定等于 以i - 1为结尾的连续递增的子序列长度 + 1 。
+
+        即：dp[i] = dp[i - 1] + 1;
+
+        注意这里就体现出和动态规划：300.最长递增子序列的区别！
+
+        因为本题要求连续递增子序列，所以就只要比较nums[i]与nums[i - 1]，而不用去比较nums[j]与nums[i] （j是在0到i之间遍历）。
+
+        既然不用j了，那么也不用两层for循环，本题一层for循环就行，比较nums[i] 和 nums[i - 1]。
+
+        这里大家要好好体会一下！
+
+        dp数组如何初始化
+        以下标i为结尾的连续递增的子序列长度最少也应该是1，即就是nums[i]这一个元素。
+
+        所以dp[i]应该初始1;
+
+        确定遍历顺序
+        从递推公式上可以看出， dp[i + 1]依赖dp[i]，所以一定是从前向后遍历。
+
+        本文在确定递推公式的时候也说明了为什么本题只需要一层for循环，代码如下：
+
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] > nums[i - 1]) { // 连续记录
+                dp[i] = dp[i - 1] + 1;
+            }
+        }
+        举例推导dp数组
+        已输入nums = [1,3,5,4,7]为例，dp数组状态如下：
+
+        674.最长连续递增序列
+
+        注意这里要取dp[i]里的最大值，所以dp[2]才是结果！    
+    */
+    int findLengthOfLCIS(vector<int>& nums) {
+        if (nums.size() == 0) return 0;
+        int result = 1;
+        vector<int> dp(nums.size() ,1);
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] > nums[i - 1]) { // 连续记录
+                dp[i] = dp[i - 1] + 1;
+            }
+            if (dp[i] > result) result = dp[i];
+        }
+        return result;
+    }
+};
+
+
+class Solution91 {
+public:
+    // 2023.2.9, from https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0674.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97.md
+    /*
+        贪心
+        这道题目也可以用贪心来做，也就是遇到nums[i] > nums[i - 1]的情况，count就++，否则count为1，记录count的最大值就可以了。
+        代码如下：
+    */
+    int findLengthOfLCIS(vector<int>& nums) {
+        if (nums.size() == 0) return 0;
+        int result = 1; // 连续子序列最少也是1
+        int count = 1;
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] > nums[i - 1]) { // 连续记录
+                count++;
+            } else { // 不连续，count从头开始
+                count = 1;
+            }
+            if (count > result) result = count;
+        }
+        return result;
+    }
+};
+
+
+class Solution90 {
+public:
+    int findLengthOfLCIS(vector<int>& nums) {
+        // 设置数组 dp，用来存储 nums 中以每个元素结尾的最长连续递增序列的程度
+        // dp[0] 表示以 nums[0] 结尾的最长连续递增序列的长度
+        // dp[1] 表示以 nums[1] 结尾的最长连续递增序列的长度
+        // dp[i] 表示以 nums[i] 结尾的最长连续递增序列的长度
+        // 首先将数组 dp 里面的值都初始化为 1
+        // 1 表示以当前元素结尾的最长连续递增序列的长度为 1
+        // 即最长连续递增序列就是当前元素本身
+        vector<int> dp( nums.size() , 1 );
+
+        // 设置一个变量用来存储最长连续递增序列的结果
+        int maxLength = 1;
+
+        // 从 1 开始，直到 dp.length ，往 dp 里面填充结果
+        for(int i = 1 ; i < dp.size() ; i++){
+
+    
+            // 索引      0  1  2  3  4  5  6
+            // nums 为 [ 1, 5, 2, 5, 3, 7, 2 ]
+            // 此时 i 为 3，那么 1,5,2 这些数字都在索引位置为 3 的前面
+            // 此时发现 i - 1 对应的数字为 2
+            // nums[i ] > nums[ i - 1 ]，意味着最长连续递增序列的长度增加了
+            // 需要更新 dp[i]
+            if(nums[i] > nums[ i - 1 ]){
+                // 4、更新 dp[i]
+                dp[i] = dp[ i - 1] + 1;
+            }
+
+            // 在更新 dp[i] 的过程中，发现了一个更长的子序列
+            if(maxLength < dp[i]){
+                // 那么把更长的子序列的长度赋值给 maxLength
+                maxLength = dp[i];
+            }
+        }
+
+        // 最后返回 maxLength 就行
+        return maxLength;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.9, from https://zxi.mytechroad.com/blog/?s=LeetCode+674.
+    // Author: Huahua
+    int findLengthOfLCIS(vector<int>& nums) {
+        if (nums.empty()) return 0;
+        int cur = 1;
+        int ans = 1;
+        for (int i = 1; i < nums.size(); ++i) {
+            if (nums[i] > nums[i-1]) {
+                ++cur;
+                ans = max(ans, cur);
+            } else {
+                cur = 1;
+            }            
+        }
+        return ans;
+    }
 };
 
 
