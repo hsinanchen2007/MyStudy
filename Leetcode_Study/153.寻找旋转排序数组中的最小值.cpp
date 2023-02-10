@@ -369,11 +369,40 @@ public:
 };
 
 
-class Solution {
+class Solution86 {
 public:
     // 2023.2.2, by Hsinan, use min_element() to get a min element in a given vector
     int findMin(vector<int>& nums) {
         return *(min_element(nums.begin(), nums.end()));
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.10, from https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/153.Find-Minimum-in-Rotated-Sorted-Array/153.Find-Minimum-in-Rotated-Sorted-Array.cpp
+    /*
+        153.Find-Minimum-in-Rotated-Sorted-Array
+        常规的二分搜索，目标是右区间的第一个元素。如果中位数nums[k]>=nums[0]，那么说明k在左区间，我们将搜索范围调整为[k+1,j]。如果中位数
+        nums[k]<nums[0]，那么说明k在右区间，我们将搜索范围调整为[i,k]。
+
+        因为此题必然有解，所以当收敛到i==j时，就是答案。
+    */
+    int findMin(vector<int>& nums) 
+    {
+        int i = 0,  j = nums.size()-1;
+        if (nums[j]>=nums[i])
+            return nums[i];
+
+        while (i<j)
+        {
+            int k = i+(j-i)/2;
+            if (nums[k] >= nums[0])
+                i = k+1;
+            else
+                j = k;
+        }
+        return nums[i];
     }
 };
 
