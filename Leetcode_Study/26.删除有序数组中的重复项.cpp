@@ -272,12 +272,109 @@ public:
 };
 
 
-class Solution {
+class Solution88 {
 public:
     // 2023.2.2, by Hsinan
     int removeDuplicates(vector<int>& nums) {
         nums.erase(unique(nums.begin(), nums.end()), nums.end());
         return nums.size();
+    }
+};
+
+
+class Solution87 {
+public:
+    // 2023.2.9, from https://ke.algomooc.com/p/t_pc/course_pc_detail/video/v_63451d00e4b050af23c31415?product_id=p_63451cbbe4b0a51fef271048&content_app_id=&type=8&parent_pro_id=p_6243bcc1e4b04e8d90291891
+    int removeDuplicates(vector<int>& nums) {
+
+        // 指针 i 进行数组遍历
+        int n = nums.size();
+
+        // 指针 j 指向即将被赋值的位置
+        int j = 0;
+
+        // 开始对数组进行遍历
+        for (int i = 0 ; i < n ; i++) {
+
+            // 进行筛选
+            if ( i == 0 ||  nums[i] != nums[i - 1]) {
+                // 赋值
+                nums[j] = nums[i];
+
+                // j 移动
+                j++;
+            }
+        }
+
+        // 获取结果
+        return j ;
+
+    }
+};
+
+
+class Solution86 {
+public:
+    // 2023.2.9, from https://github.com/azl397985856/leetcode/blob/master/problems/26.remove-duplicates-from-sorted-array.md
+    /*
+        思路
+        使用快慢指针来记录遍历的坐标。
+
+        开始时这两个指针都指向第一个数字
+
+        如果两个指针指的数字相同，则快指针向前走一步
+
+        如果不同，则两个指针都向前走一步
+
+        当快指针走完整个数组后，慢指针当前的坐标加 1 就是数组中不同数字的个数
+
+        26.remove-duplicates-from-sorted-array
+
+        （图片来自： https://github.com/MisterBooo/LeetCodeAnimation)
+
+        实际上这就是双指针中的快慢指针。在这里快指针是读指针， 慢指针是写指针。从读写指针考虑， 我觉得更符合本质。
+
+        关键点解析
+        双指针
+        这道题如果不要求，O(n) 的时间复杂度， O(1) 的空间复杂度的话，会很简单。 但是这道题是要求的，这种题的思路一般都是采用双指针
+
+        如果是数据是无序的，就不可以用这种方式了，从这里也可以看出排序在算法中的基础性和重要性。
+
+        注意 nums 为空时的边界条件。    
+    */
+    int removeDuplicates(vector<int>& nums) {
+        if(nums.empty()) return 0;
+        int fast,slow;
+        fast=slow=0;
+        while(fast!=nums.size()){
+            if(nums[fast]==nums[slow]) fast++;
+            else {
+                slow++;
+                nums[slow]=nums[fast];
+                fast++;
+            }
+        }
+        return slow+1;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.9, from https://zxi.mytechroad.com/blog/?s=LeetCode+26.
+    // Author: Huahua
+    int removeDuplicates(vector<int>& nums) {
+        const int n = nums.size();
+        if (n <= 1) return n;        
+        int ans = 0;
+        int i = 0;
+        while (i < n) {
+            nums[ans++] = nums[i];
+            int j = i + 1;
+            while (j < n && nums[j] == nums[j - 1]) ++j;
+            i = j;
+        }
+        return ans;
     }
 };
 
