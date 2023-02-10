@@ -292,11 +292,94 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
-class Solution {
+class Solution88 {
 public:
     // 2023.2.2, by Hsinan
     void moveZeroes(vector<int>& nums) {
         std::fill(std::remove(nums.begin(), nums.end(), 0), nums.end(), 0);
+    }
+};
+
+
+class Solution87 {
+public:
+    // 2023.2.9, from https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/283.Move-Zeroes/%20283.Move%20Zeroes.cpp
+    /*
+        283.Move-Zeroes
+        思考如何用in-place实现。   基本思想是用双指针。方案1：让右指针遇到非零的数就扔到左边；方案2：让右指针遇到0就扔到右边。
+
+        方案1：
+        int left=0;
+        int right=0;
+        a 当遇到 nums[right]==0时应该如何操作呢? 既然非0的都已经扔到了左边，那么右指针遇到0就继续前进。
+
+        b 当遇到 nums[right]!=0时应该如何操作呢?
+        首先，把这个数扔到左边去:
+
+        swap(nums[left],nums[right])
+        然后，nums[left]已经是非0数，故可以放心 left++.
+        那么右指针呢？关键点来了，如果left!=right的话，左指针一定指向的是0，因为左右指针之间拉开的差距的原因，就是因为有0的存在。右指针是踏着
+        0才能前进的，所以左指针原先指向的必定是0，交换之后右指针也是0，故可以继续right++
+
+        综上：
+
+                while (right<nums.size())
+                {
+                    if (nums[right]==0)
+                    {
+                        right++;
+                    }
+                    else
+                    {
+                        swap(nums[left],nums[right]);
+                        left++;
+                        right++;
+                    }
+                        
+                }
+        类似的题目： 75.Sort-Colors
+    */
+    void moveZeroes(vector<int>& nums) 
+    {
+        int left=0;
+        int right=0;
+        
+        while (right<nums.size())
+        {
+            if (nums[right]==0)
+            {
+                right++;
+            }
+            else
+            {
+                swap(nums[left],nums[right]);
+                left++;
+                right++;
+            }
+                
+        }
+        
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.9, from https://github.com/azl397985856/leetcode/blob/master/problems/283.move-zeroes.md
+    void moveZeroes(vector<int>& nums) {
+        vector<int>::size_type nonZero = 0;
+        vector<int>::size_type next = 0;
+        while (next < nums.size()) {
+            if (nums[next] != 0) {
+                // 使用 std::swap() 会带来 8ms 的性能损失
+                // swap(nums[next], nums[nonZero]);
+                auto tmp = nums[next];
+                nums[next] = nums[nonZero];
+                nums[nonZero] = tmp;
+                ++nonZero;
+            }
+            ++next;
+        }
     }
 };
 
