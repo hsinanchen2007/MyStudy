@@ -273,8 +273,8 @@ public:
         int i = 0;
 
         for (const int num : nums)
-        if (num != val)
-            nums[i++] = num;
+            if (num != val)
+                nums[i++] = num;
 
         return i;
     }
@@ -316,11 +316,24 @@ public:
 
 // 2022.8.15, not in top list
 
-class Solution {
+class Solution89 {
 public:
     // 2023.1.21 by Hsin-An
     int removeElement(vector<int>& nums, int val) {
         return std::distance(nums.begin(), std::remove(nums.begin(), nums.end(), val));
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.10, from https://zxi.mytechroad.com/blog/?s=LeetCode+27.
+    // Author: Huahua
+    int removeElement(vector<int>& nums, int val) {
+        int len = 0;
+        for (int num : nums)
+            if (num != val) nums[len++] = num;
+        return len;
     }
 };
 
