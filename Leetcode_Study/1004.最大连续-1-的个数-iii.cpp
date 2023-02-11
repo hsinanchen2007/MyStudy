@@ -247,7 +247,7 @@ public:
 };
 
 
-class Solution {
+class Solution91 {
 public:
     // 2022.8.27, from https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/1004.Max-Consecutive-Ones-III/1004.Max-Consecutive-Ones-III_v2.cpp
     /*
@@ -286,6 +286,24 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution {
+public:
+    // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+1004.
+    int longestOnes(vector<int>& A, int K) {
+        int l = 0;
+        int zeros = 0;
+        int ans = 0;
+        for (int r = 0; r < A.size(); ++r) {
+        if (A[r] == 0) ++zeros;
+        while (zeros > K)
+            if (A[l++] == 0) --zeros;
+        ans = max(ans, r - l + 1);
+        }
+        return ans;
+    }
+};
 
 
 // @lc code=end
