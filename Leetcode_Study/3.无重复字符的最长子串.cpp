@@ -382,7 +382,7 @@ public:
 };
 
 
-class Solution {
+class Solution88 {
 public:
     // 2022.8.27, from https://medium.com/leetcode-patterns/leetcode-pattern-2-sliding-windows-for-strings-e19af105316b
     int lengthOfLongestSubstring(string s) {
@@ -411,6 +411,138 @@ public:
         }
         
         return len;
+    }
+};
+
+
+class Solution87 {
+public:
+    // 2023.2.11, from https://ke.algomooc.com/p/t_pc/course_pc_detail/video/v_62bec0dee4b0eca59c10b728?product_id=p_62b96d90e4b00a4f371ee3ad&content_app_id=&type=8&parent_pro_id=p_6243bcc1e4b04e8d90291891
+    int lengthOfLongestSubstring(string s) {
+
+        // 滑动窗口模板化解题，五步走策略
+
+        // 【1、定义需要维护的变量】
+
+        // 对于此题来说，要求是最大长度
+        int maxLen = 0;
+
+        // 同时又涉及去重，因此需要一个哈希表
+        unordered_set<char> hash;
+
+        // 【2、定义窗口的首尾端 (start, end)， 然后滑动窗口】
+
+        // 窗口的左端位置从 0 开始
+        int start = 0;
+
+        // 窗口的右端位置从 0 开始，可以一直移动到尾部
+        for( int end = 0 ; end < s.length() ; end++ ){
+
+            // 【3、更新需要维护的变量, 有的变量需要一个 if 语句来维护 (比如最大最小长度)】
+
+            // 【4、如果题目的窗口长度可变: 这个时候一般涉及到窗口是否合法的问题】
+            //  如果当前窗口不合法时, 用一个 while 去不断移动窗口左指针, 从而剔除非法元素直到窗口再次合法
+
+            // 如果哈希表中存储了即将加入滑动窗口的元素
+            while(hash.count(s[end])){
+                
+                // 那么需要不断的把窗口左边的元素移除窗口
+
+                // 把 s.charAt(start) 移除记录
+                hash.erase(s[start]);
+
+                // 窗口左端向右移动
+                start++;
+            }
+
+            // 此时，滑动窗口可以接纳 s.charAt(end)
+            hash.insert(s[end]);
+
+            // 维护变量 maxLen
+            maxLen = max(maxLen,end - start + 1);
+
+        }
+
+        // 【5、返回所需要的答案】
+        return maxLen;
+
+    }
+};
+
+
+class Solution86 {
+public:
+    // 2023.2.11, from https://github.com/azl397985856/leetcode/blob/master/problems/3.longest-substring-without-repeating-characters.md
+    /*
+        题目要求连续， 我们考虑使用滑动窗口。 而这道题就是窗口大小不固定的滑动窗口题目，然后让我们求满足条件的窗口大小的最大值，
+        这是一种非常常见的滑动窗口题目。
+
+        算法：
+
+        用一个 hashmap 来建立字符和其出现位置之间的映射。同时维护一个滑动窗口，窗口内的都是没有重复的字符，去尽可能的扩大窗口的大小，
+        窗口不停的向右滑动。如果当前遍历到的字符从未出现过，那么直接扩大右边界；
+
+        如果当前遍历到的字符出现过，则缩小窗口（左边索引向右移动），然后继续观察当前遍历到的字符；
+        重复（1）（2），直到窗口内无重复元素；
+        维护一个全局最大窗口 res，每次用出现过的窗口大小来更新结果 res，最后返回 res 获取结果;
+        最后返回 res 即可;
+
+        3.longestSubstringWithoutRepeatingCharacters
+
+        (图片来自： https://github.com/MisterBooo/LeetCodeAnimation)
+
+        关键点
+        mapper 记录出现过并且没有被删除的字符
+        滑动窗口记录当前 index 开始的最大的不重复的字符序列    
+    */
+    int lengthOfLongestSubstring(string s) {
+
+        int ans = 0, start = 0;
+        int n = s.length();
+        
+        map<char, int> mp;
+
+        for(int i=0;i<n;i++)
+        {
+            char alpha = s[i];
+            if(mp.count(alpha))
+            {
+                start = max(start, mp[alpha]+1);
+            }
+            ans = max(ans, i-start+1);
+            // 字符位置
+            mp[alpha] = i;
+        }
+
+        return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+3.
+    // Author: Huahua
+    /*
+        Using a hashtable to remember the last index of every char.  And keep tracking the starting point of 
+        a valid substring.
+        
+            start = max(start, last[s[i]] + 1)
+            ans = max(ans, i – start + 1)
+
+        Time complexity: O(n)
+        Space complexity: O(128)    
+    */
+    int lengthOfLongestSubstring(string s) {
+        const int n = s.length();
+        int ans = 0;
+        vector<int> idx(128, -1);
+        for (int i = 0, j = 0; j < n; ++j) {
+            i = max(i,idx[s[j]] + 1);
+            ans = max(ans, j - i + 1);      
+            idx[s[j]] = j;
+        }
+        return ans;
     }
 };
 

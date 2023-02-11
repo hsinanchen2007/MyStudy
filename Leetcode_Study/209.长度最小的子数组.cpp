@@ -444,7 +444,7 @@ public:
 };
 
 
-class Solution {
+class Solution86 {
 public:
     // 2022.8.20, from https://ke.algomooc.com/detail/v_62bc4653e4b0a51feef9213f/3?from=p_6243bcc1e4b04e8d90291891&type=8&parent_pro_id=p_62b96d90e4b00a4f371ee3ad
     int minSubArrayLen(int target, vector<int>& nums) {
@@ -490,6 +490,55 @@ public:
         // 返回结果
         return result == nums.size() + 1 ? 0 : result;
 
+    }
+};
+
+
+class Solution85 {
+public:
+    // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+209.
+    int minSubArrayLen(int s, vector<int>& nums) {
+        int l = 0;
+        int r = 0;
+        int t = 0;
+        int ans = INT_MAX;
+        while (l < nums.size()) {
+            while (t < s && r < nums.size()) t += nums[r++];      
+            if (t < s) break;
+            ans = min(ans, r - l);      
+            t -= nums[l++];
+        }
+        return ans == INT_MAX ? 0 : ans;      
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.11, from https://github.com/azl397985856/leetcode/blob/master/problems/209.minimum-size-subarray-sum.md
+    /*
+        思路
+        用滑动窗口来记录序列， 每当滑动窗口中的 sum 超过 s， 就去更新最小值，并根据先进先出的原则更新滑动窗口，直至 sum 刚好小于 s
+
+        209.minimum-size-subarray-sum
+
+        这道题目和 leetcode 3 号题目有点像，都可以用滑动窗口的思路来解决
+
+        关键点
+        滑动窗口简化操作(滑窗口适合用于求解这种要求连续的题目)    
+    */
+    int minSubArrayLen(int s, vector<int>& nums) {
+        int num_len= nums.size();
+        int left=0, right=0, total=0, min_len= num_len+1;
+        while (right < num_len) {
+            do {
+                total += nums[right++];
+            } while (right < num_len && total < s);
+            while (left < right && total - nums[left] >= s) total -= nums[left++];
+            if (total >=s && min_len > right - left)
+                min_len = right- left;
+        }
+        return min_len <= num_len ? min_len: 0;
     }
 };
 
