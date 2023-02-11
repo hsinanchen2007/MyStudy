@@ -500,7 +500,7 @@ public:
 /************************************************************************************************************/
 
 
-class Solution {
+class Solution86 {
     public:
         // 2022.9.2, from https://leetcode-solution.cn/book
         bool checkInclusion(string s1, string s2) {
@@ -523,6 +523,29 @@ class Solution {
 
             return false;
         }
+};
+
+
+class Solution {
+public:
+    // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+567.
+    // Author: Huahua
+    // Running time: 12 ms
+    bool checkInclusion(string s1, string s2) {
+        int l1 = s1.length();
+        int l2 = s2.length();    
+        vector<int> c1(26);
+        vector<int> c2(26);
+        for (const char c : s1)
+        ++c1[c - 'a'];
+        for (int i = 0; i < l2; ++i) {
+            if (i >= l1)
+                --c2[s2[i - l1] - 'a'];
+            ++c2[s2[i] - 'a'];      
+            if (c1 == c2) return true;      
+        }
+        return false;
+    }
 };
 
 
