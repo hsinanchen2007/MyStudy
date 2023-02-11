@@ -48,9 +48,6 @@ s 仅由大写英文字母组成
     # of can be replaced characters K, then move j (start pointer). As this solution has two for loops, not a 
     good one
 
-    
-
-
 */
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -398,7 +395,7 @@ class Solution89 {
 };
 
 
-class Solution {
+class Solution88 {
     public:
         // 2022.9.2, from https://leetcode-solution.cn/book
         int characterReplacement(string s, int k) {
@@ -416,6 +413,28 @@ class Solution {
                     count[s[i - res] - 'A'] -= 1;
             }
 
+            return res;
+        }
+};
+
+
+class Solution {
+    public:
+        // 2023.2.10, from Edward Shi
+        // time: O(N), space: O(1)
+        int characterReplacement(string s, int k) {
+            vector<int> count(26, 0);
+            int maxLen = 0;
+            int start = 0;
+            int res = 0;
+            for (int i = 0; i < s.length(); i++) {
+                maxLen = max(maxLen, ++count[s[i] - 'A']);
+                while (i - start + 1 - maxLen > k) {
+                    count[s[start] - 'A']--;
+                    start++;
+                }
+                res = max(res, i - start + 1);
+            }
             return res;
         }
 };
