@@ -820,7 +820,7 @@ public:
 };
 
 
-class Solution {
+class Solution85 {
 public:
     // 2023.2.10, from https://zxi.mytechroad.com/blog/?s=LeetCode+76.
     // Author: Huahua
@@ -842,6 +842,34 @@ public:
             }
         }
         return l == INT_MAX ? "" : s.substr(start, l);
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.12, from Edward Shi
+    string minWindow(string &str, string &pattern) {
+        std::vector<int> cnt(128);
+        for (auto c : pattern) { cnt[c]++; }
+        int from = 0;
+        int total = pattern.length();
+        int min = std::numeric_limits<int>::max();
+        for (int i = 0, j = 0; i < str.length(); i++) {
+            if (cnt[str[i]]-- > 0) {
+                total--;
+            }
+            while (total == 0) {
+                if (i - j + 1 < min) {
+                    min = i - j + 1;
+                    from = j;
+                }
+                if (++cnt[str[j++]] > 0) {
+                    total++;
+                }
+            }
+        }
+        return (min == std::numeric_limits<int>::max() ? "" : str.substr(from, min));
     }
 };
 
