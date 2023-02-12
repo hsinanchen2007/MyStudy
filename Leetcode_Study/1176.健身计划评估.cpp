@@ -45,12 +45,11 @@ https://leetcode.cn/problems/diet-plan-performance/
 
 */
 
-// Time:  O(n)
-// Space: O(1)
-
 class Solution100 {
 public:
     // 2022.8.19, from https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/diet-plan-performance.cpp
+    // Time:  O(n)
+    // Space: O(1)
     int dietPlanPerformance(vector<int>& calories, int k, int lower, int upper) {
         int total = accumulate(calories.cbegin(), calories.cbegin() + k, 0);
         int result = int(total > upper) - int(total < lower);
@@ -103,6 +102,24 @@ public:
             cur -= calories[i - (k - 1)];
         }
         return res;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.12, from https://zxi.mytechroad.com/blog/?s=LeetCode+1176
+    // Author: Huahua
+    int dietPlanPerformance(vector<int>& calories, int k, int lower, int upper) {
+        int ans = 0;
+        int t = accumulate(begin(calories), begin(calories) + k - 1, 0);
+        for (int i = k - 1; i < calories.size(); ++i) {
+            if (i >= k) t -= calories[i - k];
+            t += calories[i];
+            if (t > upper) ++ans;
+            if (t < lower) --ans;      
+        }
+        return ans;
     }
 };
 
