@@ -388,3 +388,33 @@ public:
     }
 };
 
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/riwpld/?discussion=32Ybf1
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    string minWindow(string s1, string s2) {
+        int left = 0 , right = 0 , current_index = 0;
+        int n1 = s1.length() , n2 = s2.length() , min_len = INT_MAX;
+        string res;
+        for(; right < n1; right++){
+            current_index = right;
+            while(s1[right] == s2[0] && left < n2 && current_index < n1){
+                if(s1[current_index] == s2[left]){
+                    left++;
+                }
+                current_index++;
+            }
+            if(current_index - right < min_len && current_index != right && ((left == n2 && current_index == n1) || current_index < n1)){
+                if(res.length()) res = "";
+                min_len = current_index - right;
+                res = s1.substr(right , min_len);
+            }
+            left = 0;
+        }
+        return min_len == INT_MAX ? "" : res;
+    }
+};
+
