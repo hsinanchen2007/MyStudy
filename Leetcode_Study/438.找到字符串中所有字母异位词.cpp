@@ -303,17 +303,17 @@ public:
         int required = p.length();
 
         for (const char c : p)
-        ++count[c];
+            ++count[c];
 
         for (int l = 0, r = 0; r < s.length(); ++r) {
-        if (--count[s[r]] >= 0)
-            --required;
-        while (required == 0) {
-            if (r - l + 1 == p.length())
-            ans.push_back(l);
-            if (++count[s[l++]] > 0)
-            ++required;
-        }
+            if (--count[s[r]] >= 0)
+                --required;
+            while (required == 0) {
+                if (r - l + 1 == p.length())
+                    ans.push_back(l);
+                if (++count[s[l++]] > 0)
+                    ++required;
+            }
         }
 
         return ans;
@@ -473,7 +473,7 @@ public:
 };
 
 
-class Solution {
+class Solution87 {
 public:
     // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+438.
     // Author: Huahua
@@ -486,9 +486,9 @@ public:
         vector<int> vs(26, 0);
         for (char c : p) ++vp[c - 'a'];    
         for (int i = 0; i < n; ++i) {
-        if (i >= l) --vs[s[i - l] - 'a'];        
-        ++vs[s[i] - 'a'];
-        if (vs == vp) ans.push_back(i + 1 - l);
+            if (i >= l) --vs[s[i - l] - 'a'];        
+            ++vs[s[i] - 'a'];
+            if (vs == vp) ans.push_back(i + 1 - l);
         }
         return ans;
     }
@@ -497,6 +497,44 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+class Solution {
+public:
+    // 2023.2.14, from https://labuladong.github.io/algo/di-ling-zh-bfe1b/wo-xie-le--f02cd/
+    vector<int> findAnagrams(string s, string t) {
+        unordered_map<char, int> need, window;
+        for (char c : t) need[c]++;
+
+        int left = 0, right = 0;
+        int valid = 0;
+        vector<int> res; // 记录结果
+        while (right < s.size()) {
+            char c = s[right];
+            right++;
+            // 进行窗口内数据的一系列更新
+            if (need.count(c)) {
+                window[c]++;
+                if (window[c] == need[c]) 
+                    valid++;
+            }
+            // 判断左侧窗口是否要收缩
+            while (right - left >= t.size()) {
+                // 当窗口符合条件时，把起始索引加入 res
+                if (valid == need.size())
+                    res.push_back(left);
+                char d = s[left];
+                left++;
+                // 进行窗口内数据的一系列更新
+                if (need.count(d)) {
+                    if (window[d] == need[d])
+                        valid--;
+                    window[d]--;
+                }
+            }
+        }
+        return res;
+    }
+};
 
 
 // @lc code=end
