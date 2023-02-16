@@ -175,13 +175,12 @@ public:
         vector<int> l(n);
         vector<int> r(n);
         for (int i = 0; i < n; ++i)
-        l[i] = (i > 0 ? l[i - 1] * nums[i] : 0) + nums[i];
+            l[i] = (i > 0 ? l[i - 1] * nums[i] : 0) + nums[i];
         for (int i = n - 1; i >= 0; --i)
-        r[i] = (i < n - 1 ? r[i + 1] * nums[i] : 0) + nums[i];
+            r[i] = (i < n - 1 ? r[i + 1] * nums[i] : 0) + nums[i];
         int ans = 0;
         for (int i = 0; i < n; ++i)
-        ans = max(ans, (i > 0 ? l[i - 1] : 0) + 
-                        (i < n - 1 ? r[i + 1] : 0));
+            ans = max(ans, (i > 0 ? l[i - 1] : 0) + (i < n - 1 ? r[i + 1] : 0));
         return ans;
     }
 };
@@ -213,14 +212,14 @@ public:
         vector<vector<int>> dp(n + 1, vector<int>(2));
         int ans = 0;
         for (int i = 1; i <= n; ++i) {
-        if (nums[i - 1] == 1) {
-            dp[i][0] = dp[i - 1][0] + 1;
-            dp[i][1] = dp[i - 1][1] + 1;
-        } else {
-            dp[i][0] = 0;
-            dp[i][1] = dp[i - 1][0] + 1;
-        }
-        ans = max({ans, dp[i][0] - 1, dp[i][1] - 1});
+            if (nums[i - 1] == 1) {
+                dp[i][0] = dp[i - 1][0] + 1;
+                dp[i][1] = dp[i - 1][1] + 1;
+            } else {
+                dp[i][0] = 0;
+                dp[i][1] = dp[i - 1][0] + 1;
+            }
+            ans = max({ans, dp[i][0] - 1, dp[i][1] - 1});
         }
         return ans;
     }
@@ -245,15 +244,16 @@ public:
         int ans = 0;
         int sum = 0; // sum of nums[l~r].
         for (int l = 0, r = 0; r < n; ++r) {
-        sum += nums[r];
-        // Maintain sum >= r - l, at most 1 zero.
-        while (l < r && sum < r - l)
-            sum -= nums[l++];
-        ans = max(ans, r - l);
+            sum += nums[r];
+            // Maintain sum >= r - l, at most 1 zero.
+            while (l < r && sum < r - l)
+                sum -= nums[l++];
+            ans = max(ans, r - l);
         }
         return ans;
     }
 };
+
 
 // @lc code=end
 
