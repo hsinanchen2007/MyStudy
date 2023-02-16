@@ -128,9 +128,9 @@ public:
     int equalSubstring(string s, string t, int maxCost) {
         int j = 0;
         for (int i = 0; i < s.length(); ++i) {
-        maxCost -= abs(s[i] - t[i]);
-        if (maxCost < 0)
-            maxCost += abs(s[j] - t[j++]);
+            maxCost -= abs(s[i] - t[i]);
+            if (maxCost < 0)
+                maxCost += abs(s[j] - t[j++]);
         }
 
         return s.length() - j;
@@ -171,14 +171,14 @@ public:
         const int n = s.length();
         int ans = 0;    
         for (int i = 0, j = 0, cost = 0; i < n && j < n; ++i) {
-        while (j < n) {
-            int c = abs(s[j] - t[j]);
-            if (cost + c > maxCost) break;
-            cost += c;
-            ++j;
-        }
-        ans = max(ans, j - i);
-        cost -= abs(s[i] - t[i]);
+            while (j < n) {
+                int c = abs(s[j] - t[j]);
+                if (cost + c > maxCost) break;
+                cost += c;
+                ++j;
+            }
+            ans = max(ans, j - i);
+            cost -= abs(s[i] - t[i]);
         }
         return ans;
     }
