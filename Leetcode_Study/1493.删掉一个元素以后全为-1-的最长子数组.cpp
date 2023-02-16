@@ -226,7 +226,7 @@ public:
 };
 
 
-class Solution {
+class Solution93 {
 public:
     // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+1493
     // Author: Huahua
@@ -251,6 +251,27 @@ public:
             ans = max(ans, r - l);
         }
         return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.16, based on LC 1004 and LC 487, use almost same code with very minor change
+    // we need to -1 at the end because we should exclude the will be removed 0
+    // while LC 1004 and LC 487 are flipping 0 to 1, which will include the original 0
+    // for this case, if we can remove not only one 0, then at the end, we will need to 
+    // reduce # of allowed 0's as answer
+    int longestSubarray(vector<int>& nums) {
+        int res = 0, zero = 0, left = 0, k = 1;
+        for (int right = 0; right < nums.size(); ++right) {
+            if (nums[right] == 0) ++zero;
+            while (zero > k) {
+                if (nums[left++] == 0) --zero;
+            }
+            res = max(res, right - left + 1);
+        }
+        return res - 1;
     }
 };
 
