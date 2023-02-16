@@ -236,17 +236,17 @@ public:
         int decreasing = 1;
 
         for (int i = 1; i < A.size(); ++i) {
-        if (A[i] > A[i - 1]) {
-            increasing = decreasing + 1;
-            decreasing = 1;
-        } else if (A[i] < A[i - 1]) {
-            decreasing = increasing + 1;
-            increasing = 1;
-        } else {
-            increasing = 1;
-            decreasing = 1;
-        }
-        ans = max({ans, increasing, decreasing});
+            if (A[i] > A[i - 1]) {
+                increasing = decreasing + 1;
+                decreasing = 1;
+            } else if (A[i] < A[i - 1]) {
+                decreasing = increasing + 1;
+                increasing = 1;
+            } else {
+                increasing = 1;
+                decreasing = 1;
+            }
+            ans = max({ans, increasing, decreasing});
         }
 
         return ans;
@@ -308,9 +308,9 @@ public:
         vector<int> down(A.size(), 1);
         int ans = 1;
         for (int i = 1; i < A.size(); ++i) {
-        if (A[i] > A[i - 1]) up[i] = down[i - 1] + 1;
-        if (A[i] < A[i - 1]) down[i] = up[i - 1] + 1;
-        ans = max(ans, max(up[i], down[i]));      
+            if (A[i] > A[i - 1]) up[i] = down[i - 1] + 1;
+            if (A[i] < A[i - 1]) down[i] = up[i - 1] + 1;
+            ans = max(ans, max(up[i], down[i]));      
         }
         return ans;
     }
