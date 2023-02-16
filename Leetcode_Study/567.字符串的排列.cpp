@@ -334,16 +334,16 @@ public:
         int required = s1.length();
 
         for (const char c : s1)
-        ++count[c];
+            ++count[c];
 
         for (int l = 0, r = 0; r < s2.length(); ++r) {
             if (--count[s2[r]] >= 0)
                 --required;
             while (required == 0) {
                 if (r - l + 1 == s1.length())
-                return true;
+                    return true;
                 if (++count[s2[l++]] > 0)
-                ++required;
+                    ++required;
             }
         }
 
@@ -369,7 +369,7 @@ public:
             --required;
         if (r >= s1.length())  // the window is oversized
             if (++count[s2[r - s1.length()]] > 0)
-            ++required;
+                ++required;
         if (required == 0)
             return true;
         }
@@ -537,7 +537,7 @@ public:
         vector<int> c1(26);
         vector<int> c2(26);
         for (const char c : s1)
-        ++c1[c - 'a'];
+            ++c1[c - 'a'];
         for (int i = 0; i < l2; ++i) {
             if (i >= l1)
                 --c2[s2[i - l1] - 'a'];
