@@ -288,7 +288,7 @@ public:
 /************************************************************************************************************/
 
 
-class Solution {
+class Solution90 {
 public:
     // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+1004.
     int longestOnes(vector<int>& A, int K) {
@@ -302,6 +302,29 @@ public:
             ans = max(ans, r - l + 1);
         }
         return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.15, a modified version from below LC 487
+    // 2023.2.11, from https://github.com/grandyang/leetcode/issues/487
+    /*
+        上面的方法有局限性，如果题目中说能翻转k次怎么办呢，最好用一个通解来处理这类问题。可以维护一个窗口 [left,right] 
+        来容纳至少k个0。当遇到了0，就累加 zero 的个数，然后判断如果此时0的个数大于k，则右移左边界left，如果移除掉的 
+        nums[left] 为0，那么 zero 自减1。如果不大于k，则用窗口中数字的个数来更新 res，参见代码如下：    
+    */
+    int longestOnes(vector<int>& nums, int K) {
+        int res = 0, zero = 0, left = 0, k = K;
+        for (int right = 0; right < nums.size(); ++right) {
+            if (nums[right] == 0) ++zero;
+            while (zero > k) {
+                if (nums[left++] == 0) --zero;
+            }
+            res = max(res, right - left + 1);
+        }
+        return res;
     }
 };
 
