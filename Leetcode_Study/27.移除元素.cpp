@@ -325,7 +325,7 @@ public:
 };
 
 
-class Solution {
+class Solution88 {
 public:
     // 2023.2.10, from https://zxi.mytechroad.com/blog/?s=LeetCode+27.
     // Author: Huahua
@@ -334,6 +334,23 @@ public:
         for (int num : nums)
             if (num != val) nums[len++] = num;
         return len;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.18, from https://labuladong.github.io/algo/di-ling-zh-bfe1b/shuang-zhi-fa4bd/
+    int removeElement(vector<int>& nums, int val) {
+        int fast = 0, slow = 0;
+        while (fast < nums.size()) {
+            if (nums[fast] != val) {
+                nums[slow] = nums[fast];
+                slow++;
+            }
+            fast++;
+        }
+        return slow;
     }
 };
 
