@@ -321,7 +321,7 @@ public:
 };
 
 
-class Solution {
+class Solution89 {
 public:
     // 2022.8.20, from https://github.com/liuyubobobo/Play-Leetcode/blob/master/0001-0500/0340-Longest-Substring-with-At-Most-K-Distinct-Characters/cpp-0340/main2.cpp
     // Sliding Window (Another implement version)
@@ -354,4 +354,27 @@ public:
 /************************************************************************************************************/
 
 
+class Solution {
+public:
+    // 作者：疯狂小菜鸡
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ri87ec/?discussion=KS8hnL
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int lengthOfLongestSubstringKDistinct(string s, int k) {
+        int ans = 0;
+        unordered_map<char, int> m;
+        for(int l = 0, r = 0; r < s.size(); ++r) {
+            m[s[r]]++;
+            while(m.size() > k) {
+                m[s[l]]--;
+                if (m[s[l]] == 0) {
+                    m.erase(s[l]);
+                }
+                l++;
+            }
+            ans = max(ans, (r - l + 1));
+        }
+        return ans;
+    }
+};
 
