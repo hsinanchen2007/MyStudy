@@ -412,7 +412,7 @@ public:
 };
 
 
-class Solution {
+class Solution88 {
 public:
     // 2022.8.27, from https://medium.com/leetcode-patterns/leetcode-pattern-2-sliding-windows-for-strings-e19af105316b
     int lengthOfLongestSubstringTwoDistinct(string s) {
@@ -450,4 +450,32 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution {
+public:
+    // 作者：万吨匿名信
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ritur2/?discussion=qT7pgJ
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int lengthOfLongestSubstringTwoDistinct(string s) {
+        unordered_map<char,int>map;
+        int left=0,right=0,len=0,cnt=0;
+        int n=s.size();
+        while(right<n)
+        {
+            map[s[right]]++;
+            if(map[s[right]]==1)cnt++;
+            while(cnt>2)
+            {
+                map[s[left]]--;
+                if(map[s[left]]==0)cnt--;
+                left++;
+            }
+            len=max(len,right-left+1);
+            right++;
+        }
+        return len;
+    }
+};
 
