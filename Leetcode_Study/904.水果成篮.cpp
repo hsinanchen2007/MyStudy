@@ -300,7 +300,7 @@ public:
 };
 
 
-class Solution {
+class Solution90 {
 public:
     // 2022.8.21, from https://walkccc.me/LeetCode/problems/0904/
     int totalFruit(vector<int>& tree) {
@@ -324,6 +324,46 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution {
+public:
+    // 2023.2.19, from https://zxi.mytechroad.com/blog/?s=LeetCode+904.
+    // Author: Huahua, 144 ms
+    /*
+        Solution: Hashtable + Sliding window
+        Time complexity: O(n)
+
+        Space complexity: O(1)
+
+        Keep track of the last index of each element. If a third type of fruit comes in, the new window starts 
+        after the fruit with smaller last index. Otherwise extend the current window.
+
+        [1 3 1 3 1 1] 4 1 4 … <- org window, 3 has a smaller last index than 1.
+
+        1 3 1 3 [1 1 4] 1 4 … <- new window    
+    */
+    int totalFruit(vector<int>& tree) {        
+        map<int, int> idx; // {fruit -> last_index}
+        int ans = 0;
+        int cur = 0;
+        for (int i = 0; i < tree.size(); ++i) {
+            int f = tree[i];
+            if (!idx.count(f)) {
+                if (idx.size() == 2) {
+                    auto it1 = begin(idx);
+                    auto it2 = next(it1);
+                    if (it1->second > it2->second) swap(it1, it2);
+                    cur = i - it1->second - 1;          
+                    idx.erase(it1);          
+                }       
+            }      
+            idx[f] = i;      
+            ans = max(++cur, ans);
+        }
+        return ans;
+    }
+};
 
 
 // @lc code=end
