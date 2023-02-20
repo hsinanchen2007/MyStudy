@@ -238,7 +238,7 @@ public:
 }; 
 
 
-class Solution {
+class Solution93 {
 public:
     // 2023.2.20, from https://zxi.mytechroad.com/blog/?s=LeetCode+220.
     // Author: Huahua, running time: 12 ms
@@ -261,6 +261,30 @@ public:
                 return true;
             if (next(it) != end(s) && *next(it) - *it <= t)
                 return true;
+        }
+        return false;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rumvrr/?discussion=xHPzO3
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
+        int n = nums.size();
+        set<int> rec;
+        for(int i = 0 ; i < n ; i++){
+            auto iter = rec.lower_bound(max(nums[i] , INT_MIN + t) - t);//找到第一个大于等于nums[i]-t的元素
+            if(iter != rec.end() && *iter <= min(nums[i] , INT_MAX - t) + t){
+                return true;
+            }
+            rec.insert(nums[i]);
+            if(i >= k) {
+                rec.erase(nums[i - k]);
+            }
         }
         return false;
     }
