@@ -444,7 +444,7 @@ public:
 };
 
 
-class Solution {
+class Solution89 {
 public:
     // 2023.2.20, from https://zxi.mytechroad.com/blog/?s=LeetCode+1438.
     // Author: Huahua
@@ -476,6 +476,52 @@ public:
                 ++l;
             }
             ans = max(ans, r - l + 1);
+        }
+        return ans;
+    }
+};
+
+
+class Solution88 {
+public:
+    // 作者：郫县林俊杰
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ru2r9d/?discussion=R83t2x
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    // 用multiset
+    int longestSubarray(vector<int>& nums, int limit) {
+        multiset<int> s1,s2;
+        int res=1;
+        for(int i=0,j=0;i<nums.size();i++){
+            s1.insert(nums[i]),s2.insert(nums[i]);
+            while(j<nums.size()&&abs(*s1.begin()-*s2.rbegin())>limit){
+                s1.erase(s1.find(nums[j]));
+                s2.erase(s2.find(nums[j]));
+                j++;
+            }
+            res=max(res,i-j+1);
+        }
+        return res;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ru2r9d/?discussion=qeQGYu
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int longestSubarray(vector<int>& nums, int limit) {
+        multiset<int> rec;
+        int n = nums.size();
+        int left = 0 , right = 0 , ans = 0;
+        for(; right < n ; right++){
+            rec.insert(nums[right]);
+            while(*rec.rbegin() - *rec.begin() > limit){
+                rec.erase(rec.find(nums[left++]));
+            }
+            ans = max(ans , right - left + 1);
         }
         return ans;
     }

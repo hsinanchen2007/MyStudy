@@ -280,7 +280,7 @@ public:
 };
 
 
-class Solution {
+class Solution91 {
 public:
     // 2022.7.27, from https://github.com/grandyang/leetcode/issues/141
     /*
@@ -301,6 +301,44 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution90 {
+public:
+    // 作者：(｡･ω･｡)
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ribv31/?discussion=sSgtdM
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    bool hasCycle(ListNode *head) {
+        int VISITED = 1e6;
+        while (head != nullptr) {
+            if (head->val == VISITED) return true;
+            else head->val = VISITED;
+            head = head->next;
+        }
+        return false;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ribv31/?discussion=NGfRwp
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    bool hasCycle(ListNode *head) {
+        if(head == nullptr || head -> next == nullptr) return false;
+        ListNode *slow = head;
+        ListNode *fast = head;
+        do{
+            if(fast == nullptr || fast -> next == nullptr) return false;
+            fast = fast -> next -> next;
+            slow = slow -> next;
+        }while(fast != slow);
+        return fast == slow;
+    }
+};
 
 
 // @lc code=end
