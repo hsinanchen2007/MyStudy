@@ -181,7 +181,7 @@ public:
 };
 
 
-class Solution {
+class Solution96 {
 public:
     // 2023.2.20, from https://zxi.mytechroad.com/blog/?s=LeetCode+683.
     // Author: Huahua
@@ -206,6 +206,34 @@ public:
             }            
         }
         
+        return -1;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ruaaes/?discussion=VhWUl6
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int kEmptySlots(vector<int>& bulbs, int k) {
+        int n = bulbs.size();
+        set<int> rec;
+        for(int i = 0 ; i < n ; i++) {
+            int x = bulbs[i];
+            rec.insert(x);
+            auto it = rec.lower_bound(x);
+            if(it != rec.end()){
+                int x_next = *(++it);
+                if(x_next - x == k + 1) return i + 1;
+            }
+            it--;
+            if(it != rec.begin()){
+                int x_prev = *(--it);
+                if(x - x_prev == k + 1) return i + 1;
+            }
+        }
         return -1;
     }
 };

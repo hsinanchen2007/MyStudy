@@ -381,7 +381,7 @@ public:
 };
 
 
-class Solution {
+class Solution91 {
 public:
     // 2022.8.20, from https://github.com/liuyubobobo/Play-Leetcode/blob/master/1001-1500/1438-Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit/cpp-1438/main4.cpp
     // Sliding Window + Mono Queue
@@ -415,6 +415,71 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution90 {
+public:
+    // 2023.2.20, from https://zxi.mytechroad.com/blog/?s=LeetCode+1438.
+    // Author: Huahua
+    /*
+        Solution 1: Sliding Window + TreeSet
+        Use a treeset to maintain a range of [l, r] such that max(nums[l~r]) – min(nums[l~r]) <= limit.
+        Every time, we add nums[r] into the tree, and move l towards r to keep the max diff under limit.
+
+        Time complexity: O(nlogn)
+        Space complexity: O(n)    
+    */
+    int longestSubarray(vector<int>& nums, int limit) {
+        multiset<int> s;
+        int l = 0;
+        int ans = 0;
+        for (int r = 0; r < nums.size(); ++r) {
+            s.insert(nums[r]);
+            while (*rbegin(s) - *begin(s) > limit)
+                s.erase(s.equal_range(nums[l++]).first);
+            ans = max(ans, r - l + 1);
+        }
+        return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.20, from https://zxi.mytechroad.com/blog/?s=LeetCode+1438.
+    // Author: Huahua
+    /*
+        Solution 2: Dual Monotonic Queue
+        Similar to https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-1425-constrained-subset-sum/
+
+        We want to maintain a range [l, r] that max(nums[l~r]) – min(nums[l~r]) <= limit, to track the max/min 
+        of a range efficiently we could use monotonic queue. One for max and one for min.
+
+        Time complexity: O(n)
+        Space complexity: O(n)    
+    */
+    int longestSubarray(vector<int>& nums, int limit) {
+        deque<int> max_q;
+        deque<int> min_q;
+        int ans = 0;
+        int l = 0;
+        for (int r = 0; r < nums.size(); ++r) {
+            while (!min_q.empty() && nums[r] < min_q.back()) 
+                min_q.pop_back();
+            while (!max_q.empty() && nums[r] > max_q.back()) 
+                max_q.pop_back();
+            min_q.push_back(nums[r]);
+            max_q.push_back(nums[r]);
+            while (max_q.front() - min_q.front() > limit) {
+                if (max_q.front() == nums[l]) max_q.pop_front();
+                if (min_q.front() == nums[l]) min_q.pop_front();
+                ++l;
+            }
+            ans = max(ans, r - l + 1);
+        }
+        return ans;
+    }
+};
 
 
 // @lc code=end
