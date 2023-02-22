@@ -398,7 +398,7 @@ public:
 };
 
 
-class Solution {
+class Solution93 {
 public:
     // 2022.8.10, from https://www.acwing.com/solution/content/241/
     // 作者：yxc
@@ -467,6 +467,42 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution92 {
+public:
+    // 2023.2.21, from https://zxi.mytechroad.com/blog/?s=LeetCode+142.
+    // Author: Huahua
+    /*
+        Solution 1: Hashtset
+        Time complexity: O(n)
+        Space complexity: O(n)    
+    */
+    ListNode *detectCycle(ListNode *head) {
+        unordered_set<ListNode*> s;
+        for (ListNode* cur = head; cur; cur = cur->next)
+            if (!s.insert(cur).second) return cur;
+        return nullptr;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.21, from https://zxi.mytechroad.com/blog/?s=LeetCode+142.
+    // Author: Huahua
+    /*
+        Solution: Fast slow pointers
+        Time complexity: O(n)
+        Space complexity: O(1)    
+    */
+    ListNode *detectCycle(ListNode *head) {
+        unordered_set<ListNode*> s;
+        for (ListNode* cur = head; cur; cur = cur->next)
+            if (!s.insert(cur).second) return cur;
+        return nullptr;
+    }
+};
 
 
 // @lc code=end
