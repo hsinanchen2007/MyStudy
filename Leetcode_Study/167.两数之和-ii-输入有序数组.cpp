@@ -145,10 +145,10 @@ public:
         int r = numbers.size() - 1;
 
         while (numbers[l] + numbers[r] != target)
-        if (numbers[l] + numbers[r] < target)
-            ++l;
-        else
-            --r;
+            if (numbers[l] + numbers[r] < target)
+                ++l;
+            else
+                --r;
 
         return {l + 1, r + 1};
     }
@@ -250,7 +250,7 @@ public:
 
 // 2022.8.15, not in top list
 
-class Solution {
+class Solution92 {
 public:
     // 2023.2.1, by Hsinan, use lower_bound() to find corresponding element
     // note that we need to +1 for lower_bound()'s starting point, otherwise it may return current index itself
@@ -263,6 +263,77 @@ public:
             }
         }
         return {};
+    }
+};
+
+
+class Solution91 {
+public:
+    // 2023.2.22, from https://zxi.mytechroad.com/blog/?s=LeetCode+167.
+    // Author: Huahua
+    // Running time: 6 ms
+    // C++ / two pointers
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        int i = 0;
+        int j = numbers.size() - 1;
+        while (i < j) {
+            const int sum = numbers[i] + numbers[j];
+            if (sum == target)
+                break;
+            else if (sum < target)
+                ++i;
+            else
+                --j;
+        }
+        return {i + 1, j + 1};
+    }
+};
+
+
+class Solution90 {
+public:
+    // 2023.2.22, from https://zxi.mytechroad.com/blog/?s=LeetCode+167.
+    // Author: Huahua
+    // Running time: 6 ms
+    // C++ / Binary search
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        const int n = numbers.size();
+        for (int i = 0; i < n; ++i) {
+            int l = i + 1;
+            int r = n;
+            int t = target - numbers[i];
+            while (l < r) {
+                int m = l + (r - l) / 2;
+                if (numbers[m] == t)
+                    return {i + 1, m + 1};
+                else if (numbers[m] < t)
+                    l = m + 1;
+                else
+                    r = m;
+            }
+        }
+        return {};
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/odks36/?discussion=QUcgQC
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        int n = numbers.size();
+        int left = 0 , right = n - 1;
+        int sum = 0;
+        while(left < right){
+            sum = numbers[left] + numbers[right];
+            if(sum == target) return {left + 1 , right + 1};
+            else if(sum > target) right--;
+            else left++;
+        }
+        return {-1 , -1};
     }
 };
 
