@@ -191,7 +191,7 @@ public:
 };
 
 
-class Solution {
+class Solution95 {
 public:
     // 2023.2.21, from https://programmercarl.com/%E9%9D%A2%E8%AF%95%E9%A2%9802.07.%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4.html#%E6%80%9D%E8%B7%AF
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -228,6 +228,23 @@ public:
             curB = curB->next;
         }
         return NULL;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：郫县林俊杰
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/ruxb0c/?discussion=00IgJN
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        auto p=headA,q=headB;
+        while(p!=q){
+            p=p? p->next:headB;
+            q=q? q->next:headA;
+        }
+        return p;
     }
 };
 
