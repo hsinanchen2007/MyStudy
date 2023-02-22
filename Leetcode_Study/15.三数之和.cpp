@@ -645,7 +645,7 @@ public:
 /************************************************************************************************************/
 
 
-class Solution {
+class Solution90 {
 public:
     // 作者：力扣 (LeetCode)
     // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/od7qht/
@@ -681,6 +681,38 @@ public:
                 }
                 if (nums[second] + nums[third] == target) {
                     ans.push_back({nums[first], nums[second], nums[third]});
+                }
+            }
+        }
+        return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/odgk82/?discussion=nds7BP
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        int n = nums.size();
+        if(n < 3) return {};
+        vector<vector<int>> ans;
+        sort(nums.begin() , nums.end());
+        for(int i = 0 ; i < n ; i++){
+            if(nums[i] > 0) return ans;
+            if(i > 0 && nums[i] == nums[i - 1]) continue;
+            int left = i + 1 , right = n - 1;
+            while(left < right){
+                if(nums[left] + nums[right] > -nums[i]) right--;
+                else if(nums[left] + nums[right] < -nums[i]) left++;
+                else{
+                    ans.push_back({nums[i] , nums[left] , nums[right]});
+                    left++;
+                    right--;
+                    while(left < right && nums[left] == nums[left - 1]) left++;
+                    while(left < right && nums[right] == nums[right + 1]) right--;
                 }
             }
         }
