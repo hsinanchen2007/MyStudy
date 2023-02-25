@@ -401,7 +401,7 @@ public:
 };
 
 
-class Solution {
+class Solution88 {
 public:
     // 2022.9.15, from https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0844.%E6%AF%94%E8%BE%83%E5%90%AB%E9%80%80%E6%A0%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md
     /*
@@ -451,6 +451,31 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rwmaaj/?discussion=8JvhA2
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    bool backspaceCompare(string s, string t) {
+        return stringwithback(s) == stringwithback(t);
+    }
+
+    string stringwithback(string s){
+        string res;
+        for(char ch : s){
+            if(ch != '#'){
+                res.push_back(ch);
+            }
+            else if(!res.empty()) {
+                res.pop_back();
+            }
+        }
+        return res;
+    }
+};
 
 
 // @lc code=end

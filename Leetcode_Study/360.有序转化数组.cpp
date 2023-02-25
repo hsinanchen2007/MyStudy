@@ -191,7 +191,7 @@ private:
 };
 
 
-class Solution {
+class Solution95 {
 public:
     // 2023.2.24, from https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/360.Sort-Transformed-Array/360.Sort%20Transformed%20Array.cpp
     /*
@@ -240,3 +240,51 @@ public:
         return result;        
     }
 };
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rwpvnv/?discussion=L1Z52N
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    vector<int> sortTransformedArray(vector<int>& nums, int a, int b, int c) {
+        int n = nums.size();
+        vector<int> ans(n , 0);
+        int leftval = 0 , rightval = 0 , left = 0 , right = n - 1;
+        if(a > 0){
+            for(int i = 0 ; i < n ; i++){
+                leftval = leftval = fx(nums[left] , a , b , c);
+                rightval = fx(nums[right] , a , b , c);
+                if(leftval < rightval) {
+                    ans[n - i - 1] = rightval;
+                    right--;
+                }
+                else{
+                    ans[n - i - 1] = leftval;
+                    left++;
+                }
+            }
+        }
+        else{
+            for(int i = 0 ; i < n ; i++){
+                leftval = leftval = fx(nums[left] , a , b , c);
+                rightval = fx(nums[right] , a , b , c);
+                if(leftval < rightval) {
+                    ans[i] = leftval;
+                    left++;
+                }
+                else{
+                    ans[i] = rightval;
+                    right--;
+                }
+            }
+        }
+        return ans;
+    }
+
+    int fx(int x , int a , int b , int c){
+        return a * x * x + b * x + c;
+    }
+};
+
