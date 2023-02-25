@@ -316,7 +316,7 @@ public:
 };
 
 
-class Solution {
+class Solution91 {
 public:
     // 2022.9.8, from https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/658.Find-K-Closest-Elements/658.Find-K-Closest-Elements.cpp
     /*
@@ -360,6 +360,23 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/odqjk7/?discussion=VzsohY
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+        auto res = arr;
+        while(res.size() > k){
+            if(x - res.front() > res.back() - x) res.erase(res.begin());
+            else res.pop_back();
+        }
+        return res;
+    }
+};
 
 
 // @lc code=end

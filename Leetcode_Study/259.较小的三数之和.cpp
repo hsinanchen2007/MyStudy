@@ -174,7 +174,7 @@ public:
 };
 
 
-class Solution {
+class Solution95 {
 public:
     // 2022.7.27, from https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/259.3Sum-Smaller/259.%203Sum%20Smaller.cpp
     int threeSumSmaller(vector<int>& nums, int target) 
@@ -213,4 +213,65 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
+
+class Solution94 {
+public:
+    int threeSumSmaller(vector<int>& nums, int target) 
+    {
+        int count=0;
+        sort(nums.begin(),nums.end());
+        
+        for (int a=0; a<nums.size(); a++)
+        {
+            int sum=target-nums[a];
+            int left=a+1;
+            int right=nums.size()-1;
+            
+            while (left<right)
+            {
+                if (nums[left]+nums[right]<sum)
+                {
+                    count+=right-left;
+                    left++;
+                }
+                else
+                {
+                    right--;
+                }
+            }
+            
+            //cout<<count<<endl;
+        }
+        
+        return count;   
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.2.24, from https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rwr0vg/
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rwr0vg/?discussion=mD8RjF
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int threeSumSmaller(vector<int>& nums, int target) {
+        int n = nums.size();
+        int ans = 0;
+        if(n < 3) return ans;
+        sort(nums.begin() , nums.end());
+        for(int i = 0 ; i < n - 2 ; i++){
+            int left = i + 1 , right = n - 1;
+            while(left < right){
+                int sum = nums[i] + nums[left] + nums[right];
+                if(sum >= target) right--;
+                else {
+                    ans += right - left;
+                    left++;
+                }
+            }
+        }
+        return ans;
+    }
+};
 
