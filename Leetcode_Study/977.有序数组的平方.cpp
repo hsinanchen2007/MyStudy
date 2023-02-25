@@ -307,7 +307,7 @@ public:
 };
 
 
-class Solution {
+class Solution91 {
 public:
     // 2022.7.26, from https://github.com/grandyang/leetcode/issues/977
     /*
@@ -337,6 +337,27 @@ public:
 
 
 // 2022.8.15, not in top list
+
+
+class Solution {
+public:
+    // 2023.2.24, from https://zxi.mytechroad.com/blog/?s=LeetCode+977.
+    // Author: Huahua, running time: 120 ms
+    vector<int> sortedSquares(vector<int>& A) {
+        vector<int> ans(A.size());
+        auto e = prev(end(A));
+        auto s = begin(A);
+        auto it = end(ans);
+        while (--it >= begin(ans)) {
+        if (e > s && abs(*e) > abs(*s))
+            *it = pow(*e--, 2);        
+        else
+            *it = pow(*s++, 2);
+        }
+        return ans;
+    }
+};
+
 
 // @lc code=end
 
