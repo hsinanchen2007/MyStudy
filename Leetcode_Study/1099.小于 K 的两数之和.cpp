@@ -84,7 +84,7 @@ public:
 };
 
 
-class Solution {
+class Solution98 {
 public:
     // OJ: https://leetcode.com/problems/two-sum-less-than-k/
     // Author: github.com/lzl124631x
@@ -103,3 +103,29 @@ public:
         return ans == INT_MIN ? -1 : ans;
     }
 };
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rwv19h/?discussion=X1kqLn
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int twoSumLessThanK(vector<int>& nums, int k) {
+        int n = nums.size();
+        sort(nums.begin() , nums.end());
+        int ans = 0 , sum = 0;
+        int left = 0 , right = n - 1;
+        while(left < right){
+            sum = nums[left] + nums[right];
+            if(sum >= k) right--;
+            else {
+                ans = max(sum , ans);
+                left++;
+            }
+
+        }
+        return ans = ans == 0 ? -1 : ans;
+    }
+};
+
