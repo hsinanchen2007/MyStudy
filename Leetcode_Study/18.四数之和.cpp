@@ -310,5 +310,95 @@ public:
 /************************************************************************************************************/
 
 
+class Solution95 {
+public:
+    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        vector<vector<int>> ans;
+        vector<int> path;
+
+        sort(begin(nums), end(nums));
+        nSum(nums, 4, target, 0, nums.size() - 1, path, ans);
+        return ans;
+    }
+
+private:
+    // In [l, r], find n numbers add up to the target
+    void nSum(const vector<int>& nums, long n, long target, int l, int r,
+                vector<int>& path, vector<vector<int>>& ans) {
+        if (r - l + 1 < n || target < nums[l] * n || target > nums[r] * n)
+            return;
+        if (n == 2) {
+            // Very simliar to the sub procedure in 15. 3Sum
+            while (l < r) {
+                const int sum = nums[l] + nums[r];
+                if (sum == target) {
+                    path.push_back(nums[l]);
+                    path.push_back(nums[r]);
+                    ans.push_back(path);
+                    path.pop_back();
+                    path.pop_back();
+                    ++l;
+                    --r;
+                    while (l < r && nums[l] == nums[l - 1])
+                        ++l;
+                    while (l < r && nums[r] == nums[r + 1])
+                        --r;
+                } else if (sum < target) {
+                    ++l;
+                } else {
+                    --r;
+                }
+            }
+            return;
+        }
+
+        for (int i = l; i <= r; ++i) {
+            if (i > l && nums[i] == nums[i - 1])
+                continue;
+            path.push_back(nums[i]);
+            nSum(nums, n - 1, target - nums[i], i + 1, r, path, ans);
+            path.pop_back();
+        }
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/od3esm/?discussion=RuXxYw
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        int n = nums.size();
+        vector<vector<int>> num;
+        if(n < 4) return num;
+        sort(nums.begin() , nums.end());
+        for(int i = 0 ; i < n - 3 ; i++){
+            if(i > 0 && nums[i] == nums[i - 1]) continue;
+            if((long)nums[i] + (long)nums[i + 1] + (long)nums[i + 2] + (long)nums[i + 3] > target) break;
+            if((long)nums[i] + (long)nums[n - 1] + (long)nums[n - 2] + (long)nums[n - 3] < target) continue;
+            for(int j = i + 1 ; j < n - 2 ; j++){
+                if(j > i + 1 && nums[j] == nums[j - 1]) continue;
+                if((long)nums[i] + (long)nums[j] + (long)nums[j + 1] + (long)nums[j + 2] > target) break;
+                if((long)nums[i] + (long)nums[n - 1] + (long)nums[n - 2] + (long)nums[j] < target) continue;
+                int left = j + 1 , right = n - 1;
+                while(left < right){
+                    long sum = (long)nums[i] + (long)nums[j] + (long)nums[left] + (long)nums[right];
+                    if(sum == target) {
+                        num.push_back({nums[i] , nums[j] , nums[left] , nums[right]});
+                        while(left < right && nums[left] == nums[++left]) {}
+                        while(left < right && nums[right] == nums[--right]) {}
+                    }
+                    else if(sum < target) left++;
+                    else right--;
+                }
+            }
+        }
+        return num;
+    }
+};
+
+
 // @lc code=end
 
