@@ -375,7 +375,7 @@ public:
 };
 
 
-class Solution {
+class Solution92 {
 public:
     // 2022.7.28, from https://github.com/grandyang/leetcode/issues/16
     /*
@@ -421,6 +421,47 @@ public:
 
 
 // 2022.8.15, not in top list
+
+
+class Solution92 {
+public:
+    // 2023.2.24, from https://zxi.mytechroad.com/blog/?s=LeetCode+16.
+    // Author: Huahua, 8 ms
+    /*
+        Solution: Sorting + Two Pointers
+        Similar to 花花酱 LeetCode 15. 3Sum
+
+        Time complexity: O(n^2)
+        Space complexity: O(1)    
+    */
+    int threeSumClosest(vector<int> &num, int target) {
+        int n = num.size();
+        int d = INT_MAX;
+        int ans = target;
+        sort(num.begin(), num.end());
+        
+        for (int i = 0; i < n - 2; i++) {
+            int s = i + 1, t = n - 1;
+            while (s < t) {
+            int sum = num[i] + num[s] + num[t];
+            if (sum == target)
+                return target;            
+    
+            int diff = abs(sum - target);
+            if (diff < d) {
+                d = diff;
+                ans = sum;
+            }
+    
+            if (sum > target) --t;            
+            else ++s;
+            }
+        }
+    
+        return ans;
+    }
+};
+
 
 // @lc code=end
 
