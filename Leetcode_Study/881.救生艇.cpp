@@ -262,7 +262,7 @@ public:
 };
 
 
-class Solution {
+class Solution92 {
 public:
     // 2023.2.24, from https://github.com/wisdompeak/LeetCode/blob/master/Greedy/881.Boats-to-Save-People/881.Boats-to-Save-People_v3.cpp
     /*
@@ -301,6 +301,29 @@ public:
         }
                 
         return count;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rw29pr/?discussion=1bwl0t
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    int numRescueBoats(vector<int>& people, int limit) {
+        int n = people.size();
+        int ans = 0 , l = 0 , r = n - 1;
+        sort(people.begin() , people.end());
+        while(l <= r){
+            if(people[l] + people[r] > limit) --r;
+            else{
+                l++;
+                r--;
+            }
+            ans++;
+        }
+        return ans;
     }
 };
 
