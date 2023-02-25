@@ -339,7 +339,7 @@ public:
 // 2022.8.15, not in top list
 
 
-class Solution {
+class Solution90 {
 public:
     // 2023.2.24, from https://zxi.mytechroad.com/blog/?s=LeetCode+977.
     // Author: Huahua, running time: 120 ms
@@ -353,6 +353,33 @@ public:
             *it = pow(*e--, 2);        
         else
             *it = pow(*s++, 2);
+        }
+        return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 作者：xzp
+    // 链接：https://leetcode.cn/leetbook/read/sliding-window-and-two-pointers/rwnbed/?discussion=3mDS61
+    // 来源：力扣（LeetCode）
+    // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    vector<int> sortedSquares(vector<int>& nums) {
+        int n = nums.size();
+        int left = 0 , right = n - 1;
+        vector<int> ans(n , 0);
+        for(int i = 0 ; i < n ; i++){
+            int leftval = nums[left] * nums[left];
+            int rightval = nums[right] * nums[right];
+            if(leftval > rightval){
+                ans[n - i - 1] = leftval;
+                left++;
+            }
+            else{
+                ans[n - i - 1] = rightval;
+                right--;
+            }
         }
         return ans;
     }
