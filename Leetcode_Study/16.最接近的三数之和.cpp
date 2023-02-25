@@ -423,7 +423,7 @@ public:
 // 2022.8.15, not in top list
 
 
-class Solution92 {
+class Solution {
 public:
     // 2023.2.24, from https://zxi.mytechroad.com/blog/?s=LeetCode+16.
     // Author: Huahua, 8 ms
