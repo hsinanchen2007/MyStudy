@@ -105,6 +105,7 @@
 			"xtree": "cpp",
 			"xutility": "cpp"
 		},
-		"printcode.lineNumbers": "off"
+		"printcode.lineNumbers": "off",
+		"files.autoGuessEncoding": true
 	}
 }
