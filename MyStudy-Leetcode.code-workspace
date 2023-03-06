@@ -106,6 +106,9 @@
 			"xutility": "cpp"
 		},
 		"printcode.lineNumbers": "off",
-		"files.autoGuessEncoding": true
+		"files.autoGuessEncoding": true,
+		"workbench.preferredDarkColorTheme": "Visual Studio Dark - C++",
+		"workbench.colorTheme": "Visual Studio Dark - C++",
+		"workbench.preferredHighContrastColorTheme": "Visual Studio Dark - C++"
 	}
 }
