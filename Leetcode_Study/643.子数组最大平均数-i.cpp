@@ -181,7 +181,7 @@ public:
 };
 
 
-class Solution {
+class Solution93 {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
 
@@ -243,6 +243,120 @@ public:
 
 
 // 2022.8.15, not in top list
+
+class Solution92 {
+public:
+    double findMaxAverage(vector<int>& nums, int k) {
+        // 2023.3.6, use C++ STL accumulate() to get sum of first [0 ~ k-1) elements.
+        // Starting from i = k, update sum first by - nums[i-k] + nums[i],
+        // then check whether current sum is max compared to all previous sum
+        double sum, ans;
+        sum = ans = accumulate(nums.begin(), nums.begin()+k, 0);
+
+        for (int i = k; i < nums.size(); i++) {
+            sum = sum - nums[i-k] + nums[i];
+            ans = max(sum, ans);
+        }
+        return ans / k;
+    }
+};
+
+
+class Solution91 {
+public:
+    double findMaxAverage(vector<int>& nums, int k) {
+        // 2023.3.6, don't use C++ STL accumulate()
+        double sum, ans;
+
+        for (int i = 0; i < nums.size(); i++) {
+            if (i > k - 1) {
+                // When i > k - 1, update sum by - nums[i-k] + nums[i],
+                // then check whether current sum is max compared to all previous sum.
+                // The if condition is the key and we need to have ans assigned before 
+                // i <= k-1, otherwise if k = 1 and only 1 element, ans is not assign or 0,
+                // that will cause wrong answer
+                sum = sum - nums[i-k] + nums[i];
+                ans = std::max(sum, ans);
+            } else {
+                // use one for loop, before i <= k-1, get sum and ans for current elements
+                sum = sum + nums[i];
+                ans = sum;
+            }
+        }
+        return ans / k;
+    }
+};
+
+
+class Solution90 {
+public:
+    double findMaxAverage(vector<int>& nums, int k) {
+        // 2023.3.6, by using Labuladong's sliding window template
+        int left = 0, right = 0;
+        double sum = 0.0, ans = 0.0;
+
+        while (right < nums.size()) {
+            // c 是将移入窗口的字符
+            sum = sum + nums[right];
+
+            // 增大窗口
+            right++;
+
+            // 进行窗口内数据的一系列更新
+            // due to the template will increase right first, we have to update ans
+            // when it is less than k+1, otherwise we may miss the last sum
+            if (right < k+1) {
+                ans = sum;
+            }
+            
+            /*** debug 输出的位置 ***/
+            // 注意在最终的解法代码中不要 print
+            // 因为 IO 操作很耗时，可能导致超时
+            // printf("window: [%d, %d)\n", left, right);
+            /********************/
+            
+            // 判断左侧窗口是否要收缩
+            // as we increase right before, right here is already +1, so we can 
+            // simply do (right - left > k) check below, update sum, get max ans, and left++
+            // be sure the "left" needed to be updated (++) here, otherwise it will become
+            // infinite loop
+            while (right - left > k) {
+                // d 是将移出窗口的字符
+                sum = sum - nums[left];
+
+                // 缩小窗口
+                left++;
+
+                // 进行窗口内数据的一系列更新
+                ans = max(sum, ans);
+            }
+        }
+
+        return ans / k;
+    }
+};
+
+
+class Solution {
+public:
+    double findMaxAverage(vector<int>& nums, int k) {
+        // 2023.3.7, don't use C++ STL accumulate()
+        // double sum = 0.0, ans = -DBL_MAX;
+        // double sum = 0.0, ans = std::numeric_limits<double>::lowest();
+        double sum = 0.0, ans = std::numeric_limits<int>::min();
+
+        for (int i = 0; i < nums.size(); i++) {
+            sum = sum + nums[i];
+            if (i >= k-1) {
+                ans = std::max(sum, ans);
+                //cout << ans << endl;
+                sum = sum - nums[i-k+1];
+            } 
+        }
+        return ans / k;
+    }
+};
+
 
 // @lc code=end
 
