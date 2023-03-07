@@ -106,7 +106,7 @@ public:
 };
 
 
-class Solution {
+class Solution97 {
 public:
     // 2023.2.12, from https://zxi.mytechroad.com/blog/?s=LeetCode+1176
     // Author: Huahua
@@ -128,4 +128,30 @@ public:
 /************************************************************************************************************/
 
 
-
+// 2023.2.17, from https://leetcode.ca/2019-02-18-1176-Diet-Plan-Performance/
+// OJ: https://leetcode.com/problems/diet-plan-performance/
+// Time: O(N)
+// Space: O(1)
+/*
+    Use the idea of sliding window. Initially, calculate the calories consumed during the first 
+    consecutive k days, which is calories[0] + calories[1] + ... + calories[k - 1]. Let sum be 
+    the the calories consumed during the first consecutive k days. If sum < lower, then lose 1 
+    point. If sum > upper, then gain 1 point. Each time, remove the first element from the window 
+    and add the next element into the window and calculate the sum, and decided whether the point 
+    is increased, decreased or unchanged.
+*/
+class Solution {
+public:
+    int dietPlanPerformance(vector<int>& A, int k, int lower, int upper) {
+        int N = A.size(), ans = 0, sum = 0;
+        for (int i = 0; i < N; ++i) {
+            sum += A[i];
+            if (i - k >= 0) sum -= A[i - k];
+            if (i >= k - 1) {
+                if (sum < lower) --ans;
+                else if (sum > upper) ++ans;
+            }
+        }
+        return ans;
+    }
+};
