@@ -341,9 +341,9 @@ public:
         int sum = 0;
 
         for (const int num : nums) {
-        sum += num;
-        ans = max(ans, sum);
-        sum = max(sum, 0);
+            sum += num;
+            ans = max(ans, sum);
+            sum = max(sum, 0);
         }
 
         return ans;
