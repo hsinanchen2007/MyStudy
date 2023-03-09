@@ -609,7 +609,7 @@ public:
 };
 
 
-class Solution {
+class Solution81 {
 public:
     // 2022.8.13, from https://ke.algomooc.com/detail/v_628a513de4b09dda126bc4d2/3?from=p_6243bcc1e4b04e8d90291891&type=8&parent_pro_id=p_628a35d3e4b0812e179cf4bc
     int maxSubArray(vector<int>& nums) {
@@ -672,6 +672,22 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+// Author: Huahua
+// Runtime: 6 ms (better than 98.66%)
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        vector<int> f(nums.size());
+        f[0] = nums[0];
+        
+        for (int i = 1; i < nums.size(); ++i)
+            f[i] = max(f[i - 1] + nums[i], nums[i]);
+        
+        return *std::max_element(f.begin(), f.end());
+    }
+};
 
 
 // @lc code=end
