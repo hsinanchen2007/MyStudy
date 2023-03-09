@@ -341,9 +341,14 @@ class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
         // 2023.3.7, don't use C++ STL accumulate()
-        // double sum = 0.0, ans = -DBL_MAX;
-        // double sum = 0.0, ans = std::numeric_limits<double>::lowest();
-        double sum = 0.0, ans = std::numeric_limits<int>::min();
+        // Below is a tricky part. By using -DBL_MAX or -INT_MAX, it works as expected
+        //     double sum = 0.0, ans = -DBL_MAX;   // or -INT_MAX
+        // However, by using std::numeric_limits<TYPE>::function(), it depends on the type we use
+        //     double sum = 0.0, ans = std::numeric_limits<double>::lowest(); --> OK
+        //     double sum = 0.0, ans = std::numeric_limits<double>::min(); --> NOT OK
+        //     double sum = 0.0, ans = std::numeric_limits<int>::lowest(); --> OK
+        //     double sum = 0.0, ans = std::numeric_limits<int>::min(); --> OK
+        double sum = 0.0, ans = std::numeric_limits<double>::lowest();
 
         for (int i = 0; i < nums.size(); i++) {
             sum = sum + nums[i];
