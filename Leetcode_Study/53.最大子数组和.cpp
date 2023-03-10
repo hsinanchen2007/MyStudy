@@ -691,7 +691,7 @@ public:
 
 
 class Solution80 {
-    // NOT WORKING!!! 
+    // NOT WORKING!!! Brute force solution
     // 2023.3.10, TLE solution by adding LC 463 with a given size k
     int findMaxSubArrayBySizeK(vector<int>& nums, int k) {
         int sum = accumulate(nums.begin(), nums.begin()+k, 0), res = sum;
