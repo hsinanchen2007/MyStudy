@@ -674,10 +674,10 @@ public:
 /************************************************************************************************************/
 
 
-// Author: Huahua
-// Runtime: 6 ms (better than 98.66%)
 class Solution {
 public:
+    // Author: Huahua
+    // Runtime: 6 ms (better than 98.66%)
     int maxSubArray(vector<int>& nums) {
         vector<int> f(nums.size());
         f[0] = nums[0];
@@ -686,6 +686,29 @@ public:
             f[i] = max(f[i - 1] + nums[i], nums[i]);
         
         return *std::max_element(f.begin(), f.end());
+    }
+};
+
+
+class Solution80 {
+    // NOT WORKING!!! 
+    // 2023.3.10, TLE solution by adding LC 463 with a given size k
+    int findMaxSubArrayBySizeK(vector<int>& nums, int k) {
+        int sum = accumulate(nums.begin(), nums.begin()+k, 0), res = sum;
+        for (int i = k; i < nums.size(); ++i) {
+            sum += nums[i] - nums[i - k];
+            res = max(res, sum);
+        }
+        return res;
+    }
+public:
+    int maxSubArray(vector<int>& nums) {
+        int res = -INT_MAX;
+        // to use with LC 463, below condition needed to be "i <= nums.size()",
+        // as we are giving the size from 1 to its real size, not from 0
+        for (int i = 1; i <= nums.size(); i++)
+            res = max(res, findMaxSubArrayBySizeK(nums, i));
+        return res;
     }
 };
 
