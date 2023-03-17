@@ -326,7 +326,7 @@ public:
 /************************************************************************************************************/
 
 
-class Solution {
+class Solution89 {
 public:
     // 2023.2.19, from https://zxi.mytechroad.com/blog/?s=LeetCode+904.
     // Author: Huahua, 144 ms
@@ -362,6 +362,28 @@ public:
             ans = max(++cur, ans);
         }
         return ans;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.3.16, by Hsin-An
+    int totalFruit(vector<int>& fruits) {
+        int maxFruit = 0;
+        std::unordered_map<int, int> hashTbl;
+        for (int l = 0, r = 0; r < fruits.size(); r++) {
+            hashTbl[fruits[r]]++;
+            while (hashTbl.size() > 2) {
+                hashTbl[fruits[l]]--;
+                if (hashTbl[fruits[l]] == 0) {
+                    hashTbl.erase(fruits[l]);
+                }
+                l++;
+            }
+            maxFruit = std::max(maxFruit, r - l + 1);
+        }
+        return maxFruit;
     }
 };
 
