@@ -418,7 +418,7 @@ class Solution88 {
 };
 
 
-class Solution {
+class Solution87 {
     public:
         // 2023.2.10, from Edward Shi
         // time: O(N), space: O(1)
@@ -439,6 +439,24 @@ class Solution {
         }
 };
 
+
+class Solution {
+public:
+    // 2023.3.17, by Hsin-An
+    int characterReplacement(string s, int k) {
+        int maxLength = 0, result = 0;
+        unordered_map<char, int> hashTbl;
+        for (int l = 0, r = 0; r < s.size(); r++) {
+            hashTbl[s[r]]++;
+            maxLength = max(maxLength, hashTbl[s[r]]);
+            while (r - l + 1 - maxLength > k) {
+                hashTbl[s[l++]]--;
+            }
+            result = max(result, r - l + 1);
+        }
+        return result;
+    }
+};
 
 // @lc code=end
 
