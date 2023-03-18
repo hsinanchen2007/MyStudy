@@ -306,7 +306,7 @@ public:
 };
 
 
-class Solution {
+class Solution89 {
 public:
     // 2023.2.15, a modified version from below LC 487
     // 2023.2.11, from https://github.com/grandyang/leetcode/issues/487
@@ -325,6 +325,41 @@ public:
             res = max(res, right - left + 1);
         }
         return res;
+    }
+};
+
+
+class Solution88 {
+public:
+    int longestOnes(vector<int>& nums, int k) {
+        int answer = 0, maxRepeat = 0;
+        for (int l = 0, r = 0; r < nums.size(); r++) {
+            if (nums[r] == 1) maxRepeat++;
+            while (r - l + 1 - maxRepeat > k) {
+                if (nums[l] == 1) maxRepeat--;
+                l++;
+            }
+            answer = max(answer, r - l + 1);
+        }
+        return answer;
+    }
+};
+
+
+class Solution {
+public:
+    int longestOnes(vector<int>& nums, int k) {
+        int answer = 0;
+        unordered_map<int, int> hashTbl;
+        for (int l = 0, r = 0; r < nums.size(); r++) {
+            if (nums[r] == 1) hashTbl[1]++;
+            while (r - l + 1 - hashTbl[1] > k) {
+                if (nums[l] == 1) hashTbl[1]--;
+                l++;
+            }
+            answer = max(answer, r - l + 1);
+        }
+        return answer;
     }
 };
 
