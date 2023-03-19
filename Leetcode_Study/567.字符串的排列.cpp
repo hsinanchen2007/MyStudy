@@ -526,7 +526,7 @@ class Solution86 {
 };
 
 
-class Solution {
+class Solution85 {
 public:
     // 2023.2.11, from https://zxi.mytechroad.com/blog/?s=LeetCode+567.
     // Author: Huahua
@@ -544,6 +544,46 @@ public:
             ++c2[s2[i] - 'a'];      
             if (c1 == c2) return true;      
         }
+        return false;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.3.19, mainly from educative template
+    bool checkInclusion(string s1, string s2) {
+        unordered_map<char, int> hashTbl;
+        int matched = 0;
+
+        // fill up hashTbl of s1 first
+        for (auto item : s1) hashTbl[item]++;
+
+        // iterate s2 string and compare with hashTbl
+        for (int start = 0, end = 0; end < s2.size(); end++) {
+            // update hashTbl and check matched
+            if (hashTbl.find(s2[end]) != hashTbl.end()) {
+                hashTbl[s2[end]]--;
+                if (hashTbl[s2[end]] == 0) {
+                    matched++;
+                }
+            }
+
+            if (matched == hashTbl.size()) return true;
+
+            // update start
+            if (end >= s1.size() - 1) {
+                char leftChar = s2[start++];
+                if (hashTbl.find(leftChar) != hashTbl.end()) {
+                    if (hashTbl[leftChar] == 0) {
+                        matched--;
+                    }
+                    // this one is tricky, it is to maintain the original hashTbl as original value
+                    hashTbl[leftChar]++;
+                }
+            }
+        }
+
         return false;
     }
 };
