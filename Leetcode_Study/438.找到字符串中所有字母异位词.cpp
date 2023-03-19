@@ -498,7 +498,7 @@ public:
 /************************************************************************************************************/
 /************************************************************************************************************/
 
-class Solution {
+class Solution86 {
 public:
     // 2023.2.14, from https://labuladong.github.io/algo/di-ling-zh-bfe1b/wo-xie-le--f02cd/
     vector<int> findAnagrams(string s, string t) {
@@ -533,6 +533,50 @@ public:
             }
         }
         return res;
+    }
+};
+
+
+class Solution {
+public:
+    // 2023.3.19, mainly from educative template
+    // s1 is target, s2 is pattern while LC 567 is s1 is pattern, s2 is target
+    vector<int> findAnagrams(string s1, string s2) {
+        unordered_map<char, int> hashTbl;
+        vector<int> answer;
+        int matched = 0;
+
+        // fill up hashTbl of s1 first
+        for (auto item : s2) hashTbl[item]++;
+
+        // iterate s2 string and compare with hashTbl
+        for (int start = 0, end = 0; end < s1.size(); end++) {
+            // update hashTbl and check matched
+            if (hashTbl.find(s1[end]) != hashTbl.end()) {
+                hashTbl[s1[end]]--;
+                if (hashTbl[s1[end]] == 0) {
+                    matched++;
+                }
+            }
+
+            if (matched == hashTbl.size()) {
+                answer.push_back(start);
+            };
+
+            // update start
+            if (end >= s2.size() - 1) {
+                char leftChar = s1[start++];
+                if (hashTbl.find(leftChar) != hashTbl.end()) {
+                    if (hashTbl[leftChar] == 0) {
+                        matched--;
+                    }
+                    // this one is tricky, it is to maintain the original hashTbl as original value
+                    hashTbl[leftChar]++;
+                }
+            }
+        }
+
+        return answer;
     }
 };
 
