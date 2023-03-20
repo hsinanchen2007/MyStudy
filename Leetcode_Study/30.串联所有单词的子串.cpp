@@ -527,7 +527,7 @@ public:
 };
 
 
-class Solution {
+class Solution90 {
 public:
     // 2022.8.27, from https://github.com/liuyubobobo/Play-Leetcode/blob/master/0001-0500/0030-Substring-with-Concatenation-of-All-Words/cpp-0030/main.cpp
     // Sliding Window
@@ -580,6 +580,33 @@ public:
 
 /************************************************************************************************************/
 /************************************************************************************************************/
+
+
+class Solution {
+public:
+    // 2023.3.20, from educative
+    vector<int> findSubstring(string s, vector<string>& words) {
+        int wordsCount = words.size(), wordsLength = words[0].length();
+        vector<int> answer;
+        unordered_map<string, int> hashTbl;
+
+        for (auto item : words) hashTbl[item]++;
+
+        for (int i = 0; i <= int(s.length()) - wordsCount * wordsLength; i++) {
+            unordered_map<string, int> wordsSeen;
+            
+            for (int  j = 0; j < wordsCount; j++) {
+                int nextWordIndex = i + j * wordsLength;
+                string word = s.substr(nextWordIndex, wordsLength);
+                if (hashTbl.find(word) == hashTbl.end()) break;
+                wordsSeen[word]++;
+                if (wordsSeen[word] > hashTbl[word]) break;
+                if (j + 1 == wordsCount) answer.push_back(i);
+            }
+        }
+        return answer;
+    }
+};
 
 
 // @lc code=end
