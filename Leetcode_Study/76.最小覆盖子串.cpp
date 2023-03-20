@@ -846,7 +846,7 @@ public:
 };
 
 
-class Solution {
+class Solution84 {
 public:
     // 2023.2.12, from Edward Shi
     string minWindow(string &str, string &pattern) {
@@ -870,6 +870,44 @@ public:
             }
         }
         return (min == std::numeric_limits<int>::max() ? "" : str.substr(from, min));
+    }
+};
+
+
+class Solution {
+public:
+    string minWindow(string s, string t) {
+        string answer = "";
+        unordered_map<char, int> hashTbl;
+        int matched = 0;
+        int subStart = 0;
+        int minLength = std::numeric_limits<int>::max();
+
+        // fill up pattern
+        for (auto item : t) hashTbl[item]++;
+
+        // iterate target
+        for (int start = 0, end = 0; end < s.size(); end++) {
+            if (hashTbl.find(s[end]) != hashTbl.end()) {
+                hashTbl[s[end]]--;
+                if (hashTbl[s[end]] == 0) matched++;
+            }
+            // variant sliding window size
+            while (matched == hashTbl.size()) {
+                // don't use min(minLength, end - start + 1)
+                // as this can't tell whether the minLength is updated or not
+                if (minLength > end - start + 1) {
+                    minLength = end - start + 1;
+                    subStart = start;
+                }
+                char leftChar = s[start++];
+                if (hashTbl.find(leftChar) != hashTbl.end()) {
+                    if (hashTbl[leftChar] == 0) matched--;
+                    hashTbl[leftChar]++;
+                }
+            }
+        }
+        return (minLength == std::numeric_limits<int>::max()) ? "" : s.substr(subStart, minLength);
     }
 };
 
