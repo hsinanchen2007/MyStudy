@@ -379,9 +379,9 @@ public:
 };
 
 
-class LongestSubstringKDistinct {
+class Solution {
 public:
-    static int findLength(string str, int k) {
+    int lengthOfLongestSubstringKDistinct(string str, int k) {
         int windowStart = 0, maxLength = 0;
         unordered_map<char, int> charFrequencyMap;
         // in the following loop we'll try to extend the range [windowStart, windowEnd]
