@@ -1,1 +1,0 @@
-cat words.txt |awk '{for(x=1;x<NF+1;x++){print $x}}'|sort|uniq -c|sort -k1nr|awk '{print $2,$1}'                       
