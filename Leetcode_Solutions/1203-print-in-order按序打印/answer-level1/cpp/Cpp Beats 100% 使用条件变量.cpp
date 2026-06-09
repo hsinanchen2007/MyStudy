@@ -1,6 +1,6 @@
-执行用时0ms, 在所有c++提交中击败了100%的用户
+// 执行用时0ms, 在所有c++提交中击败了100%的用户
 
-```
+// ```
 class Foo {
 public:
     Foo() {
@@ -41,4 +41,4 @@ private:
     // 使用lock和unlock手动加锁
     std::mutex g_mutex;
 };
-```
+// ```

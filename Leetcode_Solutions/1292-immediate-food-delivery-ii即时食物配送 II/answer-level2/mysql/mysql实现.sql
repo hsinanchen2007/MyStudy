@@ -1,4 +1,4 @@
-```
+-- ```
 select round(count(
     case when d.order_date = d.customer_pref_delivery_date then 1
     end
@@ -8,4 +8,4 @@ from Delivery d,
 from Delivery
 group by customer_id) as t
 where d.customer_id = t.customer_id and d.order_date = t.order_date
-```
+-- ```

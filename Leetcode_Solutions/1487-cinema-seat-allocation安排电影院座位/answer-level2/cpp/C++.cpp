@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
@@ -54,4 +54,4 @@ public:
         return res;
     }
 };
-```
+// ```

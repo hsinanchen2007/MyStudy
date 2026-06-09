@@ -1,9 +1,9 @@
-### 解题思路
-判断nums[i]是否等于nums[i-1],若是则删除即可。
+// ### 解题思路
+// 判断nums[i]是否等于nums[i-1],若是则删除即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -16,4 +16,4 @@ var removeDuplicates = function(nums) {
     }
     return nums.length;
 };
-```
+// ```

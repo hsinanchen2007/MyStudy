@@ -1,9 +1,9 @@
-### 解题思路
-两边总有一遍是有序的；每次判断一下有序的那边有没有target，有的话就从里面找；没有就从另一半找
+// ### 解题思路
+// 两边总有一遍是有序的；每次判断一下有序的那边有没有target，有的话就从里面找；没有就从另一半找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return -1;
     }
 };
-```
+// ```

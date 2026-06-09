@@ -1,8 +1,8 @@
-### 解题思路
-参见题解 [主站 105 题](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-### 代码
+# ### 解题思路
+# 参见题解 [主站 105 题](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         pre_idx = 0
         return helper(0, len(preorder)-1)
 
-```
+# ```

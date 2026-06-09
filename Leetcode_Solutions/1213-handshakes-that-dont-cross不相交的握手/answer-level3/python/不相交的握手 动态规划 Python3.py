@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :84 ms, 在所有 Python3 提交中击败了10.71%的用户
-内存消耗 :13.5 MB, 在所有 Python3 提交中击败了50.00%的用户
+# ### 解题思路
+# 执行用时 :84 ms, 在所有 Python3 提交中击败了10.71%的用户
+# 内存消耗 :13.5 MB, 在所有 Python3 提交中击败了50.00%的用户
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def numberOfWays(self, num_people: int) -> int:
         mod = 10**9 + 7
@@ -17,4 +17,4 @@ class Solution:
 
         return int(dp[num_people] % mod)
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func wallsAndGates(rooms [][]int) {
 	if 0 == len(rooms) || 0 == len(rooms[0]) {
 		return
@@ -23,4 +23,4 @@ func wallsAndGates(rooms [][]int) {
 		}
 	}
 }
-```
+// ```

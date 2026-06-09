@@ -1,9 +1,9 @@
-### 解题思路
-先把链表存储成list，然后list倒序，然后两个list相加，然后再把相加的结果存储成链表返回。
+# ### 解题思路
+# 先把链表存储成list，然后list倒序，然后两个list相加，然后再把相加的结果存储成链表返回。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution(object):
             p = p.next
             
         return head
-```
+# ```

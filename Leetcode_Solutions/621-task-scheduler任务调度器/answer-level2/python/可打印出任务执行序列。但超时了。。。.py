@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sequence(self, tasks: List[str], n: int):
         # 在task中取出长度问n 的不含重复元素的序列 不满足就用0 来补上
@@ -66,4 +66,4 @@ class Solution:
             for _ in range(item[1]):
                 string.append(item[0])
         return string
-```
+# ```

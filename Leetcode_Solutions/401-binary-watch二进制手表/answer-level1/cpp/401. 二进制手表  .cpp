@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-1.0
-![401_1.jpg](https://pic.leetcode-cn.com/d92f980aaa0b057943ab650f95a09208842080600d780e06f685a75d20b9cd47-401_1.jpg)
-```cpp
+// ### 代码
+// 1.0
+// ![401_1.jpg](https://pic.leetcode-cn.com/d92f980aaa0b057943ab650f95a09208842080600d780e06f685a75d20b9cd47-401_1.jpg)
+// ```cpp
 class Solution {
     int inline cntOne(int n)
     {
@@ -40,11 +40,11 @@ public:
     }
 };
 
-```
-2.0
-![401_2.jpg](https://pic.leetcode-cn.com/82bc928220bf48285fb62c044ace3fbdac7ec62590e2482364c339881e36d15a-401_2.jpg)
+// ```
+// 2.0
+// ![401_2.jpg](https://pic.leetcode-cn.com/82bc928220bf48285fb62c044ace3fbdac7ec62590e2482364c339881e36d15a-401_2.jpg)
 
-```cpp
+// ```cpp
 //2.0
 //改进cntOne方法
 //双重for循环的剪枝
@@ -91,4 +91,4 @@ public:
 
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-位运算是计算机最底层的运算方式，可以用来实现加减乘除
+# ### 解题思路
+# 位运算是计算机最底层的运算方式，可以用来实现加减乘除
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         shang = 0
@@ -25,4 +25,4 @@ class Solution:
         shang = shang if shang < 2**31-1 else 2**31-1
         return shang
 
-```
+# ```

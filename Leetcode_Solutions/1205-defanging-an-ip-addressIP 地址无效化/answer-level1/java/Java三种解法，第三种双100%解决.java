@@ -1,14 +1,14 @@
-1. 直接使用 String 类的 replace。
-```
+// 1. 直接使用 String 类的 replace。
+// ```
 class Solution {
     public String defangIPaddr(String address) {
         return address.replace(".", "[.]");
     }
 }
-```
+// ```
 
-2. 使用 address 创建 StringBuilder，遍历，遇到 '.' 使用 insert。
-```
+// 2. 使用 address 创建 StringBuilder，遍历，遇到 '.' 使用 insert。
+// ```
 class Solution {
     public String defangIPaddr(String address) {
         StringBuilder s = new StringBuilder(address);
@@ -24,10 +24,10 @@ class Solution {
         return s.toString();
     }
 }
-```
+// ```
 
-3. 创建空的 Stringbuilder ，遍历 address 进行 append。
-```
+// 3. 创建空的 Stringbuilder ，遍历 address 进行 append。
+// ```
 class Solution {
     public String defangIPaddr(String address) {
         StringBuilder s = new StringBuilder();
@@ -44,5 +44,5 @@ class Solution {
         return s.toString();
     }
 }
-```
+// ```
 

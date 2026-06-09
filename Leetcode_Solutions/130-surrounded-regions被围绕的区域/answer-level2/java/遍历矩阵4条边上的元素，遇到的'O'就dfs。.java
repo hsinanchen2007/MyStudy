@@ -1,6 +1,6 @@
-![搜狗截图20191110152912.png](https://pic.leetcode-cn.com/fd7804c388922df02aa0c891440f1c947b3401821ef476369a5dc89ca7bb14de-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191110152912.png)
+// ![搜狗截图20191110152912.png](https://pic.leetcode-cn.com/fd7804c388922df02aa0c891440f1c947b3401821ef476369a5dc89ca7bb14de-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191110152912.png)
 
-```
+// ```
 /*
 只需要遍历矩阵4条边上元素，遇到'O'，以'O'为起点dfs和'O'相接的所以'O'，
 并在flag数组(与board数组一样大)中标为true。
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

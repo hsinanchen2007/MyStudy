@@ -1,9 +1,9 @@
-### 解题思路
-只需统计种类总数， 然后与size() / 2 比较大小， 选择较小的数
+// ### 解题思路
+// 只需统计种类总数， 然后与size() / 2 比较大小， 选择较小的数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
@@ -21,4 +21,4 @@ public:
         return min(candies.size() / 2, set.size());
     }
 };
-```
+// ```

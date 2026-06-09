@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     import java.util.Calendar
     def dayOfTheWeek(day: Int, month: Int, year: Int): String = {
@@ -15,4 +15,4 @@ object Solution {
     arr(calendar.get(Calendar.DAY_OF_WEEK) - 1)   
     }
 }
-```
+// ```

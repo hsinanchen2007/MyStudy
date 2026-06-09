@@ -1,9 +1,9 @@
-### 哈希他不香吗
-遍历计数，选择输出
+// ### 哈希他不香吗
+// 遍历计数，选择输出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {

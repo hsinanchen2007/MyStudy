@@ -1,9 +1,9 @@
-### 解题思路
-官方题解，**zip(*)用法** 
+# ### 解题思路
+# 官方题解，**zip(*)用法** 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minDeletionSize(self, A):
         ans = 0
@@ -11,4 +11,4 @@ class Solution(object):
             if any(col[i] > col[i+1] for i in range(len(col) - 1)):
                 ans += 1
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if len(nums) == 1: return nums[0]
@@ -16,9 +16,9 @@ class Solution:
                 left = mid + 1
         return nums[left]
              
-```
+# ```
 
-``` python []
+# ``` python []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if len(nums) == 1: return nums[0]
@@ -37,4 +37,4 @@ class Solution:
                 right = mid - 1          
         return nums[left]
            
-```
+# ```

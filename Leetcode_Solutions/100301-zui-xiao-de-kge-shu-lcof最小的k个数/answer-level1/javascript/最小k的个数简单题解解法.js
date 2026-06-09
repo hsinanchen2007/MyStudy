@@ -1,8 +1,8 @@
-通过将数组从小到大排序，然后截取数组
+// 通过将数组从小到大排序，然后截取数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -18,4 +18,4 @@ var getLeastNumbers = function(arr, k) {
 // 返回截取后的数组
     return arr;
 };
-```
+// ```

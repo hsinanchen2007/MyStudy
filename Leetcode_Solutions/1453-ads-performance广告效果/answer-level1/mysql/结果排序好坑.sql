@@ -1,4 +1,4 @@
-```
+-- ```
 # Write your MySQL query statement below
 select 
     t2.ad_id,ifnull(t1.ctr,0.00) as ctr
@@ -31,4 +31,4 @@ on
     t1.ad_id=t2.ad_id
 order by 
     ctr desc,t2.ad_id
-```
+-- ```

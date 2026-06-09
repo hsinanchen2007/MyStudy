@@ -1,9 +1,9 @@
-### 解题思路
-后序遍历最后一个一定是root结点，根据root结点找到左子树和右子树，递归遍历左子树和右子树，注意边界条件即可。
+// ### 解题思路
+// 后序遍历最后一个一定是root结点，根据root结点找到左子树和右子树，递归遍历左子树和右子树，注意边界条件即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static boolean verifyPostorder(int[] postorder) {
         if(postorder == null)
@@ -42,4 +42,4 @@ class Solution {
         return (left&&right);
     }
 }
-```
+// ```

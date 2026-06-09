@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -24,4 +24,4 @@ public:
         return false;
     }
 };
-```
+// ```

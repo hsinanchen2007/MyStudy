@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
         int mystr=haystack.length();
@@ -32,5 +32,5 @@ class Solution {
         }
     }
 }
-```
-还有就是可以直接截取字符串，那样速度更快。上面的方法是直接字符与字符比较的。
+// ```
+// 还有就是可以直接截取字符串，那样速度更快。上面的方法是直接字符与字符比较的。

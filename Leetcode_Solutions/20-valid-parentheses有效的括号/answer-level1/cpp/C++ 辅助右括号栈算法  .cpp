@@ -1,5 +1,5 @@
-遇到左括号时，如果栈顶配对则出栈继续，否则退出，注意特殊情况。
-```
+// 遇到左括号时，如果栈顶配对则出栈继续，否则退出，注意特殊情况。
+// ```
 class Solution {
 public:
     bool isValid(string s) {
@@ -27,4 +27,4 @@ public:
         else  return true;
     }
 };
-```
+// ```

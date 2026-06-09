@@ -1,9 +1,9 @@
-### 解题思路
-未按照要求，建立了一个辅助数组，比较容易想到的
+// ### 解题思路
+// 未按照要求，建立了一个辅助数组，比较容易想到的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ bool isPalindrome(struct ListNode* head){
     }
     return true;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-在阅读了评论区的双栈惰性更新后使用栈+循环队列来实现无需更新。
-使用循环队列使得得到栈顶和栈底元素都十分方便且减小了内存的占用。
-```
+// 在阅读了评论区的双栈惰性更新后使用栈+循环队列来实现无需更新。
+// 使用循环队列使得得到栈顶和栈底元素都十分方便且减小了内存的占用。
+// ```
 class SortedStack {
 public:
     int main_stack[5005],help_stack[5005],main_p=0,help_l=0,help_r=0;
@@ -60,6 +60,6 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->isEmpty();
  */
-```
-![image.png](https://pic.leetcode-cn.com/48e7d50e9a4e256b68bcc2112a96ef1971e71d894962253462efc0434c2395ac-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/48e7d50e9a4e256b68bcc2112a96ef1971e71d894962253462efc0434c2395ac-image.png)
 

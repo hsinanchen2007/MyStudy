@@ -1,9 +1,9 @@
-### 解题思路
-维护一个头尾节点
+// ### 解题思路
+// 维护一个头尾节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyLinkedList {
 
    
@@ -116,4 +116,4 @@ class MyLinkedList {
  * obj.addAtIndex(index,val);
  * obj.deleteAtIndex(index);
  */
-```
+// ```

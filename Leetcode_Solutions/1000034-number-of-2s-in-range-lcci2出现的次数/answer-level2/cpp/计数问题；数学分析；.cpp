@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![解题思路](https://pic.leetcode-cn.com/fd0a26fa6d65fb8e76ea094da3aa944ff89a1e136b37d535b4c2177644518c5b.png)
+// ![解题思路](https://pic.leetcode-cn.com/fd0a26fa6d65fb8e76ea094da3aa944ff89a1e136b37d535b4c2177644518c5b.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOf2sInRange(int num) {
@@ -31,4 +31,4 @@ public:
         return getN(x / 10) + 1;
     }
 };
-```
+// ```

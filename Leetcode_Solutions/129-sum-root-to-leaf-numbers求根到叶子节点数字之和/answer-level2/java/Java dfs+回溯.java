@@ -1,8 +1,8 @@
 
-思路：
-深度优先搜索，在递归时传入StringBuilder作为容器拼接节点值，当到达叶子节点时将容器中的值加入sum中，注意每次遍历完需要将当前节点值删除。
+// 思路：
+// 深度优先搜索，在递归时传入StringBuilder作为容器拼接节点值，当到达叶子节点时将容器中的值加入sum中，注意每次遍历完需要将当前节点值删除。
 
-```
+// ```
 class Solution {
     int res = 0;
 
@@ -27,4 +27,4 @@ class Solution {
         sb.deleteCharAt(sb.length() - 1);
     }
 }
-```
+// ```

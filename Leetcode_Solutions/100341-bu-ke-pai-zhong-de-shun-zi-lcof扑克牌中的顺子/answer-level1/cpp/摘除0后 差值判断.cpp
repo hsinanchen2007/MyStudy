@@ -1,5 +1,5 @@
-将0单独拿出来后排序，相邻元素之间的差值-1为需要0元素的个数，如果0元素不够，直接返回false
-```
+// 将0单独拿出来后排序，相邻元素之间的差值-1为需要0元素的个数，如果0元素不够，直接返回false
+// ```
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return ok1;
     }
 };
-```
+// ```

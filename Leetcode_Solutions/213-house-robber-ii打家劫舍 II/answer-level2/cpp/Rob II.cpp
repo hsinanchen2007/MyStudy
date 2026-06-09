@@ -1,15 +1,15 @@
-# Rob II ->an intresting question
+// # Rob II ->an intresting question
 
-***In this question,it is a little difference of Rob I,because the fitst house and the last one is aside;***
+// ***In this question,it is a little difference of Rob I,because the fitst house and the last one is aside;***
 
 
 
-**That is means we can not choose both of them , choose the first house or the last;
-It is easy for us to think we can solve this question by dp of twice.
-1.bigan with nums[0] but end by nums[len-2];
-2.bigan with nums[1] entuil nums[len-1];**
+// **That is means we can not choose both of them , choose the first house or the last;
+// It is easy for us to think we can solve this question by dp of twice.
+// 1.bigan with nums[0] but end by nums[len-2];
+// 2.bigan with nums[1] entuil nums[len-1];**
 
-```
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -41,4 +41,4 @@ public:
         return max(a,b);
     }
 };
-```
+// ```

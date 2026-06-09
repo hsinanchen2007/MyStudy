@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/782072d0eff13cbeca11cb1a5cf24a45fa84a9e2984badca56466ecb01024d53-image.png)
-执行用时0ms, 内存击败97.6%
-### 解题思路
-整体思路采用递归, 从根节点往回拼接。
-字符查找采用计算的方案, 内存消耗小。
+// ![image.png](https://pic.leetcode-cn.com/782072d0eff13cbeca11cb1a5cf24a45fa84a9e2984badca56466ecb01024d53-image.png)
+// 执行用时0ms, 内存击败97.6%
+// ### 解题思路
+// 整体思路采用递归, 从根节点往回拼接。
+// 字符查找采用计算的方案, 内存消耗小。
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
 	vector<string> letterCombinations(string digits) {
@@ -25,4 +25,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

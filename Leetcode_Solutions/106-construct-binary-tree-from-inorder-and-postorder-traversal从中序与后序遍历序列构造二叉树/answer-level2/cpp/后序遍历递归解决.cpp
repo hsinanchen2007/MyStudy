@@ -1,5 +1,5 @@
-后序遍历的结果从后向前看,都是当前区间的根节点,然后在中序遍历中寻找根节点,将其分割成两个区间,分别为根节点的右左子树.
-```
+// 后序遍历的结果从后向前看,都是当前区间的根节点,然后在中序遍历中寻找根节点,将其分割成两个区间,分别为根节点的右左子树.
+// ```
 class Solution {
     TreeNode *postordered(vector<int> &inorder, vector<int> &postorder, int begin, int end, int &pos){
         if(pos<0 || begin>=end) return NULL;
@@ -16,4 +16,4 @@ public:
         return postordered(inorder,postorder,0,inorder.size(),pos);
     }
 };
-```
+// ```

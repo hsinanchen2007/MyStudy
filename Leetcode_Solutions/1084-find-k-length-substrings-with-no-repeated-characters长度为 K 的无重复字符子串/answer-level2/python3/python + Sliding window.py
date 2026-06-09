@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numKLenSubstrNoRepeats(self, S: str, K: int) -> int:
         if K > len(S): return 0
@@ -14,4 +14,4 @@ class Solution:
                 char_dict[S[i + 1 - K]] -= 1
                 if char_dict[S[i + 1 - K]] == 0: del char_dict[S[i + 1 - K]] # O(1)
         return res
-```
+# ```

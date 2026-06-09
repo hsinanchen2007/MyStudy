@@ -1,9 +1,9 @@
-### 解题思路
-先设定可增加的x，y坐标列表，然后找到R所在的坐标，最后按规则行走
+# ### 解题思路
+# 先设定可增加的x，y坐标列表，然后找到R所在的坐标，最后按规则行走
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         add_x = [0, 1, 0, -1]
@@ -29,4 +29,4 @@ class Solution:
 
 
 
-```
+# ```

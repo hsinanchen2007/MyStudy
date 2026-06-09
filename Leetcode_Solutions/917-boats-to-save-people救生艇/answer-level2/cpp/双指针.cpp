@@ -1,9 +1,9 @@
-### 解题思路
-由于一艘船最多可坐两个人，使用双指针代码简单。首先将数组进行排序，指针left下标为0，指针right指向数组末尾，对left和right进行比较，如果left和right数值相加不大于limit，则船数加一，left右移；然后将不小于right左移，船数加一。最后要判断left和right的关系，如果相等，表示还剩一个人，船数只能加一。
+// ### 解题思路
+// 由于一艘船最多可坐两个人，使用双指针代码简单。首先将数组进行排序，指针left下标为0，指针right指向数组末尾，对left和right进行比较，如果left和right数值相加不大于limit，则船数加一，left右移；然后将不小于right左移，船数加一。最后要判断left和right的关系，如果相等，表示还剩一个人，船数只能加一。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) {
@@ -26,4 +26,4 @@ public:
         return count;
     }
 };
-```
+// ```

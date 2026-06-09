@@ -1,9 +1,9 @@
-### 解题思路
-方法1：抽屉原理+换位trick
-方法2：异或法
-### 方法1
+// ### 解题思路
+// 方法1：抽屉原理+换位trick
+// 方法2：异或法
+// ### 方法1
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> missingTwo(vector<int>& nums) {
@@ -24,10 +24,10 @@ public:
         return ans;
     }
 };
-```
-### 方法2
+// ```
+// ### 方法2
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> missingTwo(vector<int>& nums) {
@@ -65,4 +65,4 @@ public:
         return vector<int>{_xor_1, _xor ^ _xor_1};
     }
 };
-```
+// ```

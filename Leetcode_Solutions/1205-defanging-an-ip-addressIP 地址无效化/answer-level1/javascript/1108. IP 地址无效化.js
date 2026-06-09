@@ -1,9 +1,9 @@
-### 解题思路
-直接撸
+// ### 解题思路
+// 直接撸
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} address
  * @return {string}
@@ -11,4 +11,4 @@
 var defangIPaddr = function(address) {
     return address.replace(/\./g, '[.]')
 };
-```
+// ```

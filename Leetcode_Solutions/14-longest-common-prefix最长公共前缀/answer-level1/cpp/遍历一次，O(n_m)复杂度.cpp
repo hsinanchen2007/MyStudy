@@ -1,9 +1,9 @@
-### 解题思路
-n为字符串个数，m为第一个字符串的长度
+// ### 解题思路
+// n为字符串个数，m为第一个字符串的长度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -25,4 +25,4 @@ public:
         return end==0 ? re : strs[0].substr(0, end);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     List<List<Integer>> ans=new ArrayList<>();
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
@@ -20,4 +20,4 @@ class Solution {
         path.remove(path.size()-1);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
- 小白解答，这个注释在用时上为什么会一会加一会减呢
+# ### 解题思路
+#  小白解答，这个注释在用时上为什么会一会加一会减呢
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def calculateTime(self, keyboard: str, word: str) -> int:
         num = []

@@ -1,7 +1,7 @@
-按行动态规划，ans[i][j] = ans[i][j-1]+vs(mat,j+K,i-K,i+K)-vs(mat,j-K-1,i-K,i+K)
-后面的和 == 左边的和 + 新增加的列 - 出去的列
+// 按行动态规划，ans[i][j] = ans[i][j-1]+vs(mat,j+K,i-K,i+K)-vs(mat,j-K-1,i-K,i+K)
+// 后面的和 == 左边的和 + 新增加的列 - 出去的列
 
-```
+// ```
 class Solution {
 	int m, n, sum, x, y;
 public:
@@ -47,4 +47,4 @@ public:
     }
 };
 
-```
+// ```

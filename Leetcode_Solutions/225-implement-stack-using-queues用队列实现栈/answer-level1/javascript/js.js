@@ -1,7 +1,7 @@
 
-### 对于js来说不难，难的是怎么减少时间，提供一种办法作为参考，欢迎提供更优方法，感谢。
+// ### 对于js来说不难，难的是怎么减少时间，提供一种办法作为参考，欢迎提供更优方法，感谢。
 
-```javascript []
+// ```javascript []
 /**
  * Initialize your data structure here.
  */
@@ -58,4 +58,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

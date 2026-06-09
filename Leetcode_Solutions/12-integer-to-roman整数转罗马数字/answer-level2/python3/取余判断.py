@@ -1,9 +1,9 @@
-### 解题思路
-先取余数，得到每个位的数字，然后直接进行判断即可
+# ### 解题思路
+# 先取余数，得到每个位的数字，然后直接进行判断即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     @staticmethod
@@ -38,4 +38,4 @@ class Solution:
         # print(a4, a3, a2, a1)
         return a4 + a3 + a2 + a1
 
-```
+# ```

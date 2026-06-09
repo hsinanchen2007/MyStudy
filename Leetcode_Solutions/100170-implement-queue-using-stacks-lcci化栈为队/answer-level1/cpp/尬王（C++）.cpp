@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-不停的倒来倒去
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 不停的倒来倒去
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {      
 stack<int> s_in;
 stack<int> s_out;
@@ -69,4 +69,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

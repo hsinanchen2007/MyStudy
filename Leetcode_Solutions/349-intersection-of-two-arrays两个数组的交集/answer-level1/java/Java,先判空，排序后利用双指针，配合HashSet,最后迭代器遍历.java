@@ -1,6 +1,6 @@
-执行用时 :3 ms, 在所有 Java 提交中击败了97.50%的用户
-内存消耗 :36.6 MB, 在所有 Java 提交中击败了53.88%的用户
-```
+// 执行用时 :3 ms, 在所有 Java 提交中击败了97.50%的用户
+// 内存消耗 :36.6 MB, 在所有 Java 提交中击败了53.88%的用户
+// ```
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1.length == 0){
@@ -37,4 +37,4 @@ class Solution {
     }
 }
 
-```
+// ```

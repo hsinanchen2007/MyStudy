@@ -1,18 +1,18 @@
-### 解题思路
-首先明确**队列**和**栈**的属性：
+// ### 解题思路
+// 首先明确**队列**和**栈**的属性：
 
-- 队列：尾进头出，也就对应JavaScript中数组的`push`和`shift`
-- 栈：尾进尾出，对应JavaScript中数组的`push`和`pop`
+// - 队列：尾进头出，也就对应JavaScript中数组的`push`和`shift`
+// - 栈：尾进尾出，对应JavaScript中数组的`push`和`pop`
 
-关于`push`的操作是相同的，所以此题也可转换为：使用`push`和`shift`实现`pop`、`top`。
+// 关于`push`的操作是相同的，所以此题也可转换为：使用`push`和`shift`实现`pop`、`top`。
 
 
 
-由于队列属性的限制，所以想要获取q1队尾的元素，只能先把q1前面的元素逐一出队，知道q1长度为1，则返回该元素。为了保存q1队尾前的元素，引入q2作为辅助队列。
+// 由于队列属性的限制，所以想要获取q1队尾的元素，只能先把q1前面的元素逐一出队，知道q1长度为1，则返回该元素。为了保存q1队尾前的元素，引入q2作为辅助队列。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MyStack = function() {
     this.q1=[];
     this.q2=[];
@@ -63,4 +63,4 @@ MyStack.prototype.top = function() {
 MyStack.prototype.empty = function() {
     return this.q1.length==0;
 };
-```
+// ```

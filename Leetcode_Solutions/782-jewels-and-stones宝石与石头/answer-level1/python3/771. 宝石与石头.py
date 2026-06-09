@@ -1,5 +1,5 @@
-1. 直接循环
-```
+# 1. 直接循环
+# ```
 # -*- coding: utf-8 -*
 
 class Solution(object):
@@ -16,10 +16,10 @@ class Solution(object):
                     sum = sum + 1
         return sum
 
-```
+# ```
 
-2. 简化
-```
+# 2. 简化
+# ```
 # -*- coding: utf-8 -*
 
 class Solution(object):
@@ -31,4 +31,4 @@ class Solution(object):
         """
         return sum(S.count(J_data) for J_data in J)
 
-```
+# ```

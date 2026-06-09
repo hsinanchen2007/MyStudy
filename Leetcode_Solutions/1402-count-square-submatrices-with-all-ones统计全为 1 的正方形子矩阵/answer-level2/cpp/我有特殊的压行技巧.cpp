@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j]=min(dp[i-1][j],dp[i-1][j-1],dp[i-1][j]);
+// ### 解题思路
+// dp[i][j]=min(dp[i-1][j],dp[i-1][j-1],dp[i-1][j]);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #define MIN_THERR(a,b,c) min(c,min(a,b))
 const int maxn=3e3+3;
 class Solution {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

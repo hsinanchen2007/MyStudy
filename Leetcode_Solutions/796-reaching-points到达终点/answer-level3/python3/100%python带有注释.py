@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def reachingPoints(self, sx, sy, tx, ty):
         # 从叶子节点开始倒推。不做减法，做除法。
@@ -35,4 +35,4 @@ class Solution(object):
 
         return tx == sx and ty == sy
 
-```
+# ```

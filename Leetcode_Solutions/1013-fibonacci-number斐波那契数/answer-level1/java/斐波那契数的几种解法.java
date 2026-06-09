@@ -1,7 +1,7 @@
-### 解题思路
-方法1 递归思路
+// ### 解题思路
+// 方法1 递归思路
     
-```
+// ```
 int fib(int N) {
         if (N == 0) {
             return 0;
@@ -11,12 +11,12 @@ int fib(int N) {
             return fib(N - 1) + fib(N - 2);
         }
     }
-```
-方法2 递归+记录已计算结果
+// ```
+// 方法2 递归+记录已计算结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 HashMap<Integer, Integer> recordMap = new HashMap<Integer, Integer>();
 
@@ -36,9 +36,9 @@ HashMap<Integer, Integer> recordMap = new HashMap<Integer, Integer>();
         return tValue;
     }
 
-```
-方法3 自底向上的解法
-```
+// ```
+// 方法3 自底向上的解法
+// ```
 int fib(int N) {
         if (N <= 1) {
             return N;
@@ -57,4 +57,4 @@ int fib(int N) {
         }
         return current;
     }
-```
+// ```

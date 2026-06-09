@@ -1,9 +1,9 @@
-### 解题思路
-把小问题的解计算出来。
+// ### 解题思路
+// 把小问题的解计算出来。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -22,4 +22,4 @@ private:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用栈思想，rn记录当前栈内(数量，n记录嵌套括号深度，对每个最大的嵌套括号，选出$\lceil\frac{n}{2}\rceil$层。
+// ### 解题思路
+// 使用栈思想，rn记录当前栈内(数量，n记录嵌套括号深度，对每个最大的嵌套括号，选出$\lceil\frac{n}{2}\rceil$层。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     free(hash);
     return result;
 }
-```
+// ```

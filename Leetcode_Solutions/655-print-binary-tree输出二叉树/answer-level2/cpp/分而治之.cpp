@@ -1,7 +1,7 @@
-- 分治
-首先行数显然等于二叉树高度n，列数显然等于高度等于n的满二叉树的节点数即$2^n-1$
-根节点的值在当前这层的$start...end$的中间，子节点在下一层的区间$start...(start+end)/2-1$的中间和$(start+end)/2+1...end$的中间，递归即可
-```cpp
+// - 分治
+// 首先行数显然等于二叉树高度n，列数显然等于高度等于n的满二叉树的节点数即$2^n-1$
+// 根节点的值在当前这层的$start...end$的中间，子节点在下一层的区间$start...(start+end)/2-1$的中间和$(start+end)/2+1...end$的中间，递归即可
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         res[curdeep][mid]=to_string(root->val);
     }
 };
-```
+// ```

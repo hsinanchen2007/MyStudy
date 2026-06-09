@@ -1,6 +1,6 @@
-设置一个辅助栈，让辅助栈中的元素为原栈中元素的非增序的值
+// 设置一个辅助栈，让辅助栈中的元素为原栈中元素的非增序的值
 
-```
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -51,6 +51,6 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->min();
  */
-```
+// ```
 
 

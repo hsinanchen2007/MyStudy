@@ -1,7 +1,7 @@
-python实现了扁扁熊的思路, 添加了自己的理解
+# python实现了扁扁熊的思路, 添加了自己的理解
 
 
-```
+# ```
 class Solution:
     def findMedianSortedArraysB(self, nums1, nums2):
         '''
@@ -53,4 +53,4 @@ class Solution:
                 break
         # 处理数组长度为偶数/奇数的边界问题
         return (max(n1left, n2left) + min(n1right, n2right)) / 2.0
-```
+# ```

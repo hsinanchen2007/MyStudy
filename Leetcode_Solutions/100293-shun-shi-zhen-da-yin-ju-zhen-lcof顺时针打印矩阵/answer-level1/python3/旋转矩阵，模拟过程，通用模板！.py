@@ -1,7 +1,7 @@
-# 设置上下左右四个边界，模拟过程，思路清晰。
+# # 设置上下左右四个边界，模拟过程，思路清晰。
 
-# 代码
-```
+# # 代码
+# ```
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix: return 
@@ -24,4 +24,4 @@ class Solution:
                 res.append(matrix[i][left])
             left+=1
         return res
-```
+# ```

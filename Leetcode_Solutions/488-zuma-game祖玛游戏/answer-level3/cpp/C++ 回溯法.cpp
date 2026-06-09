@@ -1,7 +1,7 @@
-回溯法：
-1，寻找board的颜色交替处，在hand中找到对应的颜色，看是否可以补全缺数
-2，当某一步的使用球数目已经大于等于了全局最小值，就可以剪枝退出了
-```
+// 回溯法：
+// 1，寻找board的颜色交替处，在hand中找到对应的颜色，看是否可以补全缺数
+// 2，当某一步的使用球数目已经大于等于了全局最小值，就可以剪枝退出了
+// ```
 class Solution {
 public:
     string boom(string s, int i) {
@@ -46,5 +46,5 @@ public:
         return (res == INT_MAX) ? -1 : res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8779bd818ad64321a390f31f5b32f90adc1f9ab608d217bc44ff36f124a2556e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8779bd818ad64321a390f31f5b32f90adc1f9ab608d217bc44ff36f124a2556e-image.png)

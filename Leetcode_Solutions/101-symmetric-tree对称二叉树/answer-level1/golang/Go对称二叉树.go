@@ -1,9 +1,9 @@
-### 解题思路
-go里面数据结构支持弱写起来还是比较费劲
+// ### 解题思路
+// go里面数据结构支持弱写起来还是比较费劲
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -36,4 +36,4 @@ func isSymmetric(root *TreeNode) bool {
     }
     return true;
 }
-```
+// ```

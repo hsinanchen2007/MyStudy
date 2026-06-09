@@ -1,9 +1,9 @@
-### 解题思路
-难点在于在用LEFT JOIN的时候，确保选择的是唯一的product id。因为临时表也去重了，这样在做连接的时候，数据都是唯一的。
+-- ### 解题思路
+-- 难点在于在用LEFT JOIN的时候，确保选择的是唯一的product id。因为临时表也去重了，这样在做连接的时候，数据都是唯一的。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select p.product_id,ifnull(temp.new_price,10) as price
 from (select distinct product_id from products) p 

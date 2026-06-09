@@ -1,9 +1,9 @@
-### 解题思路
-大写也放进判断字符串里，比再调用 s[i].lower()转成小写来判断快很多。
+# ### 解题思路
+# 大写也放进判断字符串里，比再调用 s[i].lower()转成小写来判断快很多。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseVowels(self, s: str) -> str:
         
@@ -23,4 +23,4 @@ class Solution:
             j -= 1
         return ''.join(lst)
         
-```
+# ```

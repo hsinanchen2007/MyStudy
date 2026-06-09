@@ -1,6 +1,6 @@
-![88608659-A17E-4E2A-8780-D7E8B2EEFCB7.jpeg](https://pic.leetcode-cn.com/32c7ac97b351b7b59170bb66c404867f5aaa030a05fef62f2cb3b4a15075f279-88608659-A17E-4E2A-8780-D7E8B2EEFCB7.jpeg)
+// ![88608659-A17E-4E2A-8780-D7E8B2EEFCB7.jpeg](https://pic.leetcode-cn.com/32c7ac97b351b7b59170bb66c404867f5aaa030a05fef62f2cb3b4a15075f279-88608659-A17E-4E2A-8780-D7E8B2EEFCB7.jpeg)
 
-```
+// ```
 int equalSubstring(char * s, char * t, int maxCost)
 {
     int lenS = strlen(s);
@@ -28,10 +28,10 @@ int equalSubstring(char * s, char * t, int maxCost)
 
     return returnLen;
 }
-```
-![1F086E0A-4D6F-45E9-A1DB-2DBBF803EE62.jpeg](https://pic.leetcode-cn.com/bed0f01d674731100447fa9503c51dfb01d27a2b1ff917f5a4e9ebd5c1e9dbb3-1F086E0A-4D6F-45E9-A1DB-2DBBF803EE62.jpeg)
+// ```
+// ![1F086E0A-4D6F-45E9-A1DB-2DBBF803EE62.jpeg](https://pic.leetcode-cn.com/bed0f01d674731100447fa9503c51dfb01d27a2b1ff917f5a4e9ebd5c1e9dbb3-1F086E0A-4D6F-45E9-A1DB-2DBBF803EE62.jpeg)
 
-```
+// ```
 int equalSubstring(char * s, char * t, int maxCost)
 {
     int lenS = strlen(s);
@@ -59,5 +59,5 @@ int equalSubstring(char * s, char * t, int maxCost)
 __END__:
     return returnVal;
 }
-```
+// ```
 

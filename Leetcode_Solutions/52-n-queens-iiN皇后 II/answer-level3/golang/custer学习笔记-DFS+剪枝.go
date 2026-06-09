@@ -1,4 +1,4 @@
-```go
+// ```go
 func totalNQueens(n int) int {
 	if n == 0 {
 		return 0
@@ -27,4 +27,4 @@ func dfs(r int, cols, d1, d2 []bool, res *int) {
 		}
 	}
 }
-```
+// ```

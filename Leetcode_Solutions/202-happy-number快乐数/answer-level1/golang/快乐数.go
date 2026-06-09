@@ -1,9 +1,9 @@
-### 解题思路
-利用hashmap判断是否是死循环
+// ### 解题思路
+// 利用hashmap判断是否是死循环
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func isHappy(n int) bool {
 	m := make(map[int]bool)
@@ -36,4 +36,4 @@ func getNum(n int) int {
 	}
 	return result
 }
-```
+// ```

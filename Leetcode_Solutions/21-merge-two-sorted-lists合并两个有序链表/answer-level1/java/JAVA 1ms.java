@@ -1,9 +1,9 @@
-### 解题思路
-创建一个新的链表，遍历比较两个链表，每次把最小的节点放到新的链表中
+// ### 解题思路
+// 创建一个新的链表，遍历比较两个链表，每次把最小的节点放到新的链表中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -62,4 +62,4 @@ class Solution {
         return r;
     }
 }
-```
+// ```

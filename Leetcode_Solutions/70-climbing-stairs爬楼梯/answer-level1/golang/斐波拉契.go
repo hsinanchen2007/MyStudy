@@ -1,4 +1,4 @@
-```
+// ```
 func climbStairs(n int) int {
     var hs map[int]int
 	hs=make(map[int]int)
@@ -16,4 +16,4 @@ func climbStairs(n int) int {
 	}
 	return fnc(n,hs)
 }
-```
+// ```

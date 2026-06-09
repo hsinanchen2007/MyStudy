@@ -1,16 +1,16 @@
-### 解题思路
-1. 生成空哈希表
-1. 遍历数组，查询表中是否存在，若该数已存在则从表中将该数删除，否则插入该数，最后表中只剩下那个单独的数
-1. 遍历哈希表读取剩余的一个数
-在下编程新手，哈希表的C语言实现参考了
-:[https://blog.csdn.net/u013799749/article/details/75674985](https://blog.csdn.net/u013799749/article/details/75674985)
-这篇文章的实现方法虽然繁琐但简单易懂，从表中删除给定函数这篇文章没给，自己写了个居然调通了
-![两数之和-哈希表法.PNG](https://pic.leetcode-cn.com/f7efef56b73fad9c0dcc6668225e230491101a90c979ec03cf2aacc18c6e2ade-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C-%E5%93%88%E5%B8%8C%E8%A1%A8%E6%B3%95.PNG)
-哈希表果然是拿空间换时间啊
+// ### 解题思路
+// 1. 生成空哈希表
+// 1. 遍历数组，查询表中是否存在，若该数已存在则从表中将该数删除，否则插入该数，最后表中只剩下那个单独的数
+// 1. 遍历哈希表读取剩余的一个数
+// 在下编程新手，哈希表的C语言实现参考了
+// :[https://blog.csdn.net/u013799749/article/details/75674985](https://blog.csdn.net/u013799749/article/details/75674985)
+// 这篇文章的实现方法虽然繁琐但简单易懂，从表中删除给定函数这篇文章没给，自己写了个居然调通了
+// ![两数之和-哈希表法.PNG](https://pic.leetcode-cn.com/f7efef56b73fad9c0dcc6668225e230491101a90c979ec03cf2aacc18c6e2ade-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C-%E5%93%88%E5%B8%8C%E8%A1%A8%E6%B3%95.PNG)
+// 哈希表果然是拿空间换时间啊
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct NodeData{
     int val;
     int key;
@@ -139,4 +139,4 @@ int singleNumber(int* nums, int numsSize){
     FreeHashMap(hashmap);
     return ans;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-先将排列组合算好，再计算时间是否合理。
-递归+回溯
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先将排列组合算好，再计算时间是否合理。
+// 递归+回溯
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public List<String> readBinaryWatch(int num) {
         List<int[]> resTmp = new ArrayList<>();
@@ -53,4 +53,4 @@ class Solution {
         initTime(num - 1, tmp, resTmp, idx + 1);
     }
 }
-```
+// ```

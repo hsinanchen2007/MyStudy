@@ -1,8 +1,8 @@
-### 解题思路
-利用 wait() 和 notifyAll() 保证顺序，留意notify 与 notifyAll()
-### 代码
+// ### 解题思路
+// 利用 wait() 和 notifyAll() 保证顺序，留意notify 与 notifyAll()
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private volatile int mark = 1;
     public Foo() {
@@ -46,4 +46,4 @@ class Foo {
     }
 
 }
-```
+// ```

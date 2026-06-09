@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     typedef struct {
@@ -52,4 +52,4 @@ public:
         return;
     }
 };
-```
+// ```

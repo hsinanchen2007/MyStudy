@@ -1,11 +1,11 @@
-# 三种方式实现N皇后问题
+// # 三种方式实现N皇后问题
 
-1. hashMap实现
-2. 数组实现
-3. 位运算实现
+// 1. hashMap实现
+// 2. 数组实现
+// 3. 位运算实现
 
-# 1.HashMap实现
-```
+// # 1.HashMap实现
+// ```
 //用map实现
 func solveNQueens(n int) [][]string {
     if n==0 {
@@ -66,11 +66,11 @@ func generateResult(res [][]int, n int) (result [][]string) {
 	return
 }
 
-```
+// ```
 
-# 2、数组实现
+// # 2、数组实现
 
-```
+// ```
 //用数组实现
 func solveNQueens(n int) [][]string {
     if n==0 {
@@ -137,11 +137,11 @@ func generateResult(res [][]int, n int) (result [][]string) {
 	return
 }
 
-```
+// ```
 
-# 3、用位运算实现(最优解法)
+// # 3、用位运算实现(最优解法)
 
-```
+// ```
 //位运算实现
 func solveNQueens(n int) [][]string {
     if n==0 {
@@ -193,6 +193,6 @@ func generateResult(res [][]int, n int) (result [][]string) {
 	}
 	return
 }
-```
+// ```
 
-# 位运算执行用时为4ms，内存消耗为3.6MB
+// # 位运算执行用时为4ms，内存消耗为3.6MB

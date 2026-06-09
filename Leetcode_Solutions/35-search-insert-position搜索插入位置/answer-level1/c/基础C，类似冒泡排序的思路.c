@@ -1,9 +1,9 @@
-### 解题思路
-一循环来实现冒泡排序的逐个排查，一选择来判断位置
+// ### 解题思路
+// 一循环来实现冒泡排序的逐个排查，一选择来判断位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int i;
     for(i=0;i<numsSize;i++)
@@ -13,4 +13,4 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return numsSize;
 }
-```
+// ```

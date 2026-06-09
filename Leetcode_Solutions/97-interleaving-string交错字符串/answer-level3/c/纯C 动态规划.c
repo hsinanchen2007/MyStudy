@@ -1,9 +1,9 @@
-### 解题思路
-二维动态规划 存在性问题 OR AND
+// ### 解题思路
+// 二维动态规划 存在性问题 OR AND
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isInterleave(char * s1, char * s2, char * s3){
     /*
      * 状态方程：dp[i][j] = OR{ dp[i(j)-1] AND (s1(2)[i(j)-1] = s3[i+j-1]) }
@@ -58,4 +58,4 @@ bool isInterleave(char * s1, char * s2, char * s3){
     
     return dp[length1][length2];   
 }
-```
+// ```

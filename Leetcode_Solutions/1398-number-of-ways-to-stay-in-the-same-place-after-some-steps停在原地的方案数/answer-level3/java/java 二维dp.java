@@ -1,7 +1,7 @@
-这道题状态转移方程很好想 就是dp[i][j] = dp[i-1][j] + dp[i-1][j+1] + dp[i-1][j-1];(i代表走了i+1步,j代表到达数组的第j个Index)
-遇到的问题是如果arrLen为10^6时会爆内存
-但其实根本不可能到达10^6 最多走steps步 所以我取了两个的更小值作为j 表示最远能走的距离
-```
+// 这道题状态转移方程很好想 就是dp[i][j] = dp[i-1][j] + dp[i-1][j+1] + dp[i-1][j-1];(i代表走了i+1步,j代表到达数组的第j个Index)
+// 遇到的问题是如果arrLen为10^6时会爆内存
+// 但其实根本不可能到达10^6 最多走steps步 所以我取了两个的更小值作为j 表示最远能走的距离
+// ```
 class Solution {
     public int numWays(int steps, int arrLen) {
         if(steps == 0 || arrLen == 0)
@@ -28,4 +28,4 @@ class Solution {
         return dp[steps - 1][0];
     }
 }
-```
+// ```

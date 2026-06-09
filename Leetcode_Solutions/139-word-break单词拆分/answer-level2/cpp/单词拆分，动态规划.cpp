@@ -1,11 +1,11 @@
-### 解题思路
-记dp[i]为长度为i(下标0~i-1)的子串是否能单词拆分，
-那么对于dp[j]，若dp[j]能拆分且长度为i-j(下标j~i-1)的子串在候选项中，那么dp[i]就能拆分；
-递推公式:
-if(dp[j] && wordDict.has(s.substr(j,i-j))) dp[i] = true;
-### 代码
+// ### 解题思路
+// 记dp[i]为长度为i(下标0~i-1)的子串是否能单词拆分，
+// 那么对于dp[j]，若dp[j]能拆分且长度为i-j(下标j~i-1)的子串在候选项中，那么dp[i]就能拆分；
+// 递推公式:
+// if(dp[j] && wordDict.has(s.substr(j,i-j))) dp[i] = true;
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -21,4 +21,4 @@ public:
         return dp.back();
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-两矩形相交：
+// ### 解题思路
+// 两矩形相交：
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -12,4 +12,4 @@ public:
                 min(rec1[3], rec2[3]) > max(rec1[1], rec2[1]));
     }
 };
-```
+// ```

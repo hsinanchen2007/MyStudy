@@ -1,10 +1,10 @@
-### 解题思路
-把中位数转化为求第k小个数
-每次通过二分排除k//2个数
+# ### 解题思路
+# 把中位数转化为求第k小个数
+# 每次通过二分排除k//2个数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         l1, l2 = len(nums1), len(nums2)
@@ -25,4 +25,4 @@ class Solution:
         return 0.5*(solve(nums1, nums2, (l+1)//2)+solve(nums1,nums2,(l+2)//2))
         # 对于奇数 第 l1+l2+1//2 或 l1+l2+2//2 个数才是中位数 (第l1+l2+1//2 小)
         # 对于偶数 第 l1+l2+1//2 和 l1+l2+2//2 个数的平均才是中位数 (第 l1+l2+1//2 和 l1+l2+2//2 小)
-```
+# ```

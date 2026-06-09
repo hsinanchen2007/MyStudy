@@ -1,18 +1,18 @@
-### 解题思路
-经典的二分查找题型，使用典型的二分查找模板，这里给出C语言解法。
-1.初始化left，right，top，bottem
+// ### 解题思路
+// 经典的二分查找题型，使用典型的二分查找模板，这里给出C语言解法。
+// 1.初始化left，right，top，bottem
 
-1.首先二分查找left列（以行开始也可以），找到并更新bottem，使得凡是行号大于bottem，值都大于target；
+// 1.首先二分查找left列（以行开始也可以），找到并更新bottem，使得凡是行号大于bottem，值都大于target；
 
-2.然后对bottem为行进行二分查找，找到并更新left，使得凡是列号小于left，值都小于target；
+// 2.然后对bottem为行进行二分查找，找到并更新left，使得凡是列号小于left，值都小于target；
 
-3.重复1，2步骤直至找到结果
+// 3.重复1，2步骤直至找到结果
 
-注意判断是否找到的条件。
+// 注意判断是否找到的条件。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -88,4 +88,4 @@ bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target
         }
     }
 }
-```
+// ```

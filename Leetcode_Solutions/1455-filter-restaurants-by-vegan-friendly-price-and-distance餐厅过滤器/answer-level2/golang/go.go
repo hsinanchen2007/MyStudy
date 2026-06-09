@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func filterRestaurants(restaurants [][]int, veganFriendly int, maxPrice int, maxDistance int) []int {
     data := make([]elem,0)
 
@@ -52,4 +52,4 @@ func (s IntSlice) Less(i, j int) bool {
     }
      
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-利用标准库里的`container/list`容器实现，很省事，但空间效率不好。
-仅供参考。
+// ### 解题思路
+// 利用标准库里的`container/list`容器实现，很省事，但空间效率不好。
+// 仅供参考。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     Data *list.List
 }
@@ -50,4 +50,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

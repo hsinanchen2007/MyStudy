@@ -1,8 +1,8 @@
-### 解题思路
-二分法，三个标记点，左区间，右区间，中间点
-### 代码
+# ### 解题思路
+# 二分法，三个标记点，左区间，右区间，中间点
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x==0:
@@ -25,4 +25,4 @@ class Solution:
                 m=(l+r)//2
 
 
-```
+# ```

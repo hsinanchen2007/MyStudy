@@ -1,9 +1,9 @@
-### 解题思路
-算是一次通过的暴力解法
+// ### 解题思路
+// 算是一次通过的暴力解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -44,4 +44,4 @@ public:
         return str.substr(0, max);
     }
 };
-```
+// ```

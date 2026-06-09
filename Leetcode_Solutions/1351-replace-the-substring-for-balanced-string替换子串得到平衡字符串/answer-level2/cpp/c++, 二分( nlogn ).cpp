@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
 public:
@@ -48,4 +48,4 @@ public:
         return goal;
     }
 };
-```
+// ```

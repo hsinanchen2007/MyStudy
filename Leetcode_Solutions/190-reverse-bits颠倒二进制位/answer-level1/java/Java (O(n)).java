@@ -1,9 +1,9 @@
-### 解题思路
-每次res向左移一位，然后加上n最右边的数字，n再右移一位。
+// ### 解题思路
+// 每次res向左移一位，然后加上n最右边的数字，n再右移一位。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -16,4 +16,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

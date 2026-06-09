@@ -1,4 +1,4 @@
-```
+# ```
 from functools import reduce
 
 class Solution:
@@ -6,4 +6,4 @@ class Solution:
         while num >= 10:
             num = reduce(lambda x, y: x + y ,map(int, str(num)))
         return num
-```
+# ```

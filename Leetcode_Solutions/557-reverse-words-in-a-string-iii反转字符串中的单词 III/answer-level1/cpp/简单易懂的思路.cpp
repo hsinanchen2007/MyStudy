@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，若遇到空格，就把之前的单词逐一反转。
+// ### 解题思路
+// 遍历字符串，若遇到空格，就把之前的单词逐一反转。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverse(string &s,int l,int r){
@@ -30,4 +30,4 @@ public:
         return s;
     }
 };
-```
+// ```

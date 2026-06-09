@@ -1,10 +1,10 @@
-### 解题思路
-坑1：空数组
-坑2：重复元素
+# ### 解题思路
+# 坑1：空数组
+# 坑2：重复元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         
@@ -40,4 +40,4 @@ class Solution:
                 else:
                     d[end] = nums[i]
         return length
-```
+# ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 int minFallingPathSum(int** A, int ASize, int* AColSize){
     int dp[ASize][*AColSize];
        int result=INT_MAX;
@@ -37,5 +37,5 @@ int minFallingPathSum(int** A, int ASize, int* AColSize){
   
     return result;
 }
-```
-0.0.
+// ```
+// 0.0.

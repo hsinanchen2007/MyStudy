@@ -1,8 +1,8 @@
  
 
-### 代码
+// ### 代码
 
-```c
+// ```c
  bool findNumberIn2DArray(int** matrix, int matrixSize, int* matrixColSize, int target){
      int row=0;
      int col=*matrixColSize-1;
@@ -19,4 +19,4 @@
      }
      return false;
 }
-```
+// ```

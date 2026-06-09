@@ -1,13 +1,13 @@
-### 解题思路
-/**
- * 思路
- * 1.如果在两个结点以内，直接返回空，结束
- * 2.找到终点，反转后半部分，进行插入
- */
+// ### 解题思路
+// /**
+//  * 思路
+//  * 1.如果在两个结点以内，直接返回空，结束
+//  * 2.找到终点，反转后半部分，进行插入
+//  */
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reorderList(ListNode head) {
         if(head== null || head.next == null || head.next.next==null) return ;
@@ -46,4 +46,4 @@ class Solution {
         return prev;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-分别定义一个栈和一个数组，先将左子树压入到栈中，直到左子树为null,然后开始弹栈，将值push到数组中，再反过来将右子树压入到栈中，
-再开始弹栈，将结果push到数组中。
+// ### 解题思路
+// 分别定义一个栈和一个数组，先将左子树压入到栈中，直到左子树为null,然后开始弹栈，将值push到数组中，再反过来将右子树压入到栈中，
+// 再开始弹栈，将结果push到数组中。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -32,4 +32,4 @@ const inorderTraversal = function(root) {
     }
     return result
 };
-```
+// ```

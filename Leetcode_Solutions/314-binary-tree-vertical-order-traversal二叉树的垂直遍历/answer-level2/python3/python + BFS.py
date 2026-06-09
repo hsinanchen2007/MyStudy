@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
                 queue.append((top.right, index + 1))
         res = sorted(res.items(), key = lambda x: x[0])
         return [val[1] for val in res]
-```
+# ```

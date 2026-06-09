@@ -1,9 +1,9 @@
-### 解题思路
-window function
-两个lag
-### 代码
+-- ### 解题思路
+-- window function
+-- 两个lag
+-- ### 代码
 
-```mssql
+-- ```mssql
 /* Write your T-SQL query statement below */
 
 select distinct num as ConsecutiveNums
@@ -16,4 +16,4 @@ where num = lag1 and num = lag2
 
 
 
-```
+-- ```

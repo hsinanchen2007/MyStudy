@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findRightInterval(self, intervals):
         """
@@ -34,7 +34,7 @@ class Solution(object):
         my_dict_2[new_l[-1][0]] = -1
 
         return [my_dict_2[v[0]] for v in intervals]
-```
-排序再折半查找比较
-执行用时 :376 ms, 在所有 python 提交中击败了75.00%的用户
-内存消耗 :17.9 MB, 在所有 python 提交中击败了100.00%的用户
+# ```
+# 排序再折半查找比较
+# 执行用时 :376 ms, 在所有 python 提交中击败了75.00%的用户
+# 内存消耗 :17.9 MB, 在所有 python 提交中击败了100.00%的用户

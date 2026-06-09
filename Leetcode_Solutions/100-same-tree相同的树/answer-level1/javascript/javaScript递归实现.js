@@ -1,5 +1,5 @@
-一开始写起来经常有`can't read x of p`类似的报错，感觉用递归写就是`if`的顺序要放好
-```js
+// 一开始写起来经常有`can't read x of p`类似的报错，感觉用递归写就是`if`的顺序要放好
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -20,4 +20,4 @@ var isSameTree = function(p, q) {
     if(p.val !== q.val) return false
     return isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
 };
-```
+// ```

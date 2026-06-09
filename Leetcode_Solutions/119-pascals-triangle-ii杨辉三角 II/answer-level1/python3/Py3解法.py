@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         # j行的数据, 应该由j - 1行的数据计算出来.
@@ -11,4 +11,4 @@ class Solution:
             for j in range(i):
                 r[j] = r[j] + r[j + 1]
         return r
-```
+# ```

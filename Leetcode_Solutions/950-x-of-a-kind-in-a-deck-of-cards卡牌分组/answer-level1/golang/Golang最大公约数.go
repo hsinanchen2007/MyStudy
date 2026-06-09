@@ -1,9 +1,9 @@
-### 解题思路
-按照题意，如果能分组，每个数出现的次数的最大公约数应该大于1
+// ### 解题思路
+// 按照题意，如果能分组，每个数出现的次数的最大公约数应该大于1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
     m := make(map[int]int, len(deck))
     for _,v := range deck {
@@ -26,4 +26,4 @@ func gcd(a,b int) int {
     }
     return gcd(b, a%b)
 }
-```
+// ```

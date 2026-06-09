@@ -1,7 +1,7 @@
-使用一个辅助队列，每次遍历一层。
-一次取出一层，进行处理
+// 使用一个辅助队列，每次遍历一层。
+// 一次取出一层，进行处理
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return $res;
     }
 }
-```
+// ```

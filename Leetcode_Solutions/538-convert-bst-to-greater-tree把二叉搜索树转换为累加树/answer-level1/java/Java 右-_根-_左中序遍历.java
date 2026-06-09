@@ -1,10 +1,10 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-从BST的最大节点开始自底向上递归，节点的更新顺序为右->中->左。创建一个全局变量来保存当前节点需要累加的节点数，当前节点需要累加的节点值sum为上一个节点的val+上一个节点需要累加的sum
+// 从BST的最大节点开始自底向上递归，节点的更新顺序为右->中->左。创建一个全局变量来保存当前节点需要累加的节点数，当前节点需要累加的节点值sum为上一个节点的val+上一个节点需要累加的sum
 
-```
+// ```
 class Solution {
     int sum = 0;
 
@@ -19,4 +19,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

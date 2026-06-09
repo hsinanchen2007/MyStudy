@@ -1,4 +1,4 @@
-```
+// ```
 直接上代码
 vector<int> findSubstring(string s, vector<string>& words) 
     {
@@ -27,6 +27,6 @@ vector<int> findSubstring(string s, vector<string>& words)
         }
         return res;
     }
-```
-参考了别人的题解，由于我太菜了，我也不知道这是什么解法（狗头）
-因为我看C++的代码比较少，我就发出来供参考啦~~
+// ```
+// 参考了别人的题解，由于我太菜了，我也不知道这是什么解法（狗头）
+// 因为我看C++的代码比较少，我就发出来供参考啦~~

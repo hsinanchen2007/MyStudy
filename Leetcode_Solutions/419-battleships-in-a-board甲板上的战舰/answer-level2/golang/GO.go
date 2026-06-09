@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countBattleships(board [][]byte) int {
     x := len(board)
     y := len(board[0])
@@ -21,4 +21,4 @@ func countBattleships(board [][]byte) int {
 
     return res
 }
-```
+// ```

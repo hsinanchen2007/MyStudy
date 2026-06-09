@@ -1,9 +1,9 @@
-### 解题思路
-初始值 0,0 mx1单调向右 1xn单调向下
+// ### 解题思路
+// 初始值 0,0 mx1单调向右 1xn单调向下
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minPathSum(grid [][]int) int {
 	m := len(grid)
 	n := len(grid[0])
@@ -31,4 +31,4 @@ func min(a ,b int) int {
     }
     return b
 }
-```
+// ```

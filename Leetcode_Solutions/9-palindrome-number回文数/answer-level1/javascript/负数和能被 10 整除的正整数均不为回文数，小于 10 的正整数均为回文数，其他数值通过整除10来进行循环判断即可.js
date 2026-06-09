@@ -1,4 +1,4 @@
-```
+// ```
 var isPalindrome = function(x) {
     // 小于 10 的正整数均为回文数，多一个这个判断，可以少执行一层 while 循环
     if (x >= 0 && x <= 9) {
@@ -15,4 +15,4 @@ var isPalindrome = function(x) {
     }
     return end === x
 };
-```
+// ```

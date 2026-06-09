@@ -1,4 +1,4 @@
-```
+// ```
 bool isAnagram(char * s, char * t){
     if (s == NULL || t == NULL || strlen(s) != strlen(t)) {
         return false;
@@ -21,4 +21,4 @@ bool isAnagram(char * s, char * t){
 
     return true;
 }
-```
+// ```

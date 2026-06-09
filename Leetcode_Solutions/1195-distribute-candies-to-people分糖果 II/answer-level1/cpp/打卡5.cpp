@@ -1,9 +1,9 @@
-### 解题思路
-简单的暴力模拟，一个一个加过去，到底了就再回到开头继续。知道糖果数量小于等于该次该分结束。
+// ### 解题思路
+// 简单的暴力模拟，一个一个加过去，到底了就再回到开头继续。知道糖果数量小于等于该次该分结束。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -24,4 +24,4 @@ public:
         return r;
     }
 };
-```
+// ```

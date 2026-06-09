@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-数组元素作为 key；次数为 value
+// 数组元素作为 key；次数为 value
 
-遍历数组，将 （key, value++）存入哈希表，并判断 value 的值是否超过数组长度的一半。如果超过，即返回元素即可。
+// 遍历数组，将 （key, value++）存入哈希表，并判断 value 的值是否超过数组长度的一半。如果超过，即返回元素即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     res := make(map[int]int)
     for _, m := range nums {
@@ -17,4 +17,4 @@ func majorityElement(nums []int) int {
     }
     return 0
 }
-```
+// ```

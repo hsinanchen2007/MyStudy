@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -7,10 +7,10 @@
  *     Next *ListNode
  * }
  */
-```
+// ```
 
 
-```
+// ```
  // 这个逻辑我自己都看不懂了
 func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
@@ -40,5 +40,5 @@ func deleteDuplicates(head *ListNode) *ListNode {
     slow.Next = fast
     return dummy.Next
 }
-```
+// ```
 

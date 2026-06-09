@@ -1,14 +1,14 @@
-[2],
-[3,4],
-[6,5,7],
-[4,1,8,3]
+// [2],
+// [3,4],
+// [6,5,7],
+// [4,1,8,3]
 
-自顶向下推算最优
+// 自顶向下推算最优
 
-遍历到每一行的时候, 当前index = min(当前index + 上一行index, 当前index + 上一行index - 1) 可以保证每个数据都是最优解
+// 遍历到每一行的时候, 当前index = min(当前index + 上一行index, 当前index + 上一行index - 1) 可以保证每个数据都是最优解
 
-只使用了常数空间res 时间复杂度n^2
-```
+// 只使用了常数空间res 时间复杂度n^2
+// ```
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if(triangle.size() == 0) return 0;
@@ -33,4 +33,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

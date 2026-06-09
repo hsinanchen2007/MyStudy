@@ -1,10 +1,10 @@
-### 解题思路
-我也不知道我用的算是什么方法(萌新瑟瑟发抖),思路就是顺序遍历一遍s,记录重复的字符数量,在发现不同字符时写入数量与当前字符.
-![image.png](https://pic.leetcode-cn.com/baed24fc35d7e1f48180b746ff98d55daa9fe8adaca4ea6bc3b11156e189cc6a-image.png)
+// ### 解题思路
+// 我也不知道我用的算是什么方法(萌新瑟瑟发抖),思路就是顺序遍历一遍s,记录重复的字符数量,在发现不同字符时写入数量与当前字符.
+// ![image.png](https://pic.leetcode-cn.com/baed24fc35d7e1f48180b746ff98d55daa9fe8adaca4ea6bc3b11156e189cc6a-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 char * compressString(char * s){
     if (s == NULL || s[0] == '\0') {
@@ -63,4 +63,4 @@ char * compressString(char * s){
         return s;
     }
 }
-```
+// ```

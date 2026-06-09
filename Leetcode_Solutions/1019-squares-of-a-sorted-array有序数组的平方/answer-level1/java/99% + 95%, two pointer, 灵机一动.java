@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] sortedSquares(int[] A) {
         int[] rs = new int[A.length];
@@ -29,4 +29,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

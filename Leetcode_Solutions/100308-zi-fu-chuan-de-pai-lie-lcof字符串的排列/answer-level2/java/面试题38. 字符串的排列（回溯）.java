@@ -1,10 +1,10 @@
-联想数字的全排列，数字全排列传的是int数组，这里是String
-1 先把Sting.toCharArray 转化为char数组
+// 联想数字的全排列，数字全排列传的是int数组，这里是String
+// 1 先把Sting.toCharArray 转化为char数组
 
-数字全排列 用ArrayList储放子集
-2 这里用StringBilder储存子集，当StingBuilder.length == char.length时 说明把所有的元素都挑完了，再把StringBuilder转化为String
-放到结果中
-```java []
+// 数字全排列 用ArrayList储放子集
+// 2 这里用StringBilder储存子集，当StingBuilder.length == char.length时 说明把所有的元素都挑完了，再把StringBuilder转化为String
+// 放到结果中
+// ```java []
 public class Solution {
     public ArrayList<String> Permutation(String str) {
        ArrayList<String> res = new ArrayList<>();
@@ -41,4 +41,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

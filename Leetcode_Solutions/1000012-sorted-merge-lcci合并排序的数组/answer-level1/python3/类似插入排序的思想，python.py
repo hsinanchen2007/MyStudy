@@ -1,5 +1,5 @@
-遍历B中的所有元素，只要找到元素应该插入的位置，然后将原本A从该位置起元素向后移动一位，然后把B的该元素插入A中
-```
+# 遍历B中的所有元素，只要找到元素应该插入的位置，然后将原本A从该位置起元素向后移动一位，然后把B的该元素插入A中
+# ```
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -15,4 +15,4 @@ class Solution:
                     break
             A[insert + 1:m + i + 1] = A[insert:m + i]
             A[insert] = B[i]
-```
+# ```

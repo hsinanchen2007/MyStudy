@@ -1,9 +1,9 @@
-### 解题思路
-用scala，因为最近在做大数据相关的项目；解题思路及代码如下
+// ### 解题思路
+// 用scala，因为最近在做大数据相关的项目；解题思路及代码如下
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def minMoves(nums: Array[Int]): Int = {
         //换个思路，这个题目要求是“找平”，加法可以找平，减法也可以找平；
@@ -15,4 +15,4 @@ object Solution {
         diff.sum        
     }
 }
-```
+// ```

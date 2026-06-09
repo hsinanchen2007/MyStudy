@@ -1,8 +1,8 @@
-## 一、暴力解法
+// ## 一、暴力解法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -23,15 +23,15 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false
 };
-```
-时间复杂度：O(n^2)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(1)
 
-## 二、二分查找解法
+// ## 二、二分查找解法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -56,6 +56,6 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false
 };
-```
-时间复杂度：O(M+N) 
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(M+N) 
+// 空间复杂度：O(1)

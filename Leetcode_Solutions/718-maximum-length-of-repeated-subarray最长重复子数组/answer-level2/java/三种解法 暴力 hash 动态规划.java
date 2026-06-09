@@ -1,5 +1,5 @@
-动态规划：
-```
+// 动态规划：
+// ```
 public int findLength(int[] numa, int[] numb) {
     	if(numa == null || numb ==null){
     		return 0;
@@ -26,11 +26,11 @@ public int findLength(int[] numa, int[] numb) {
     	}
     	return max;
     }
-```
+// ```
 
 
-暴力法：
-```
+// 暴力法：
+// ```
 public int findLength1(int[] numa, int[] numb) {
     	if(numa == null || numb ==null){
     		return 0;
@@ -57,12 +57,12 @@ public int findLength1(int[] numa, int[] numb) {
     	return max;
     }
     
-```
+// ```
 
-hash：
+// hash：
  
 	
-    ```
+//     ```
 public int findLength2(int[] A, int[] B) {
         if(A == null || B == null){
         	return 0;
@@ -101,4 +101,4 @@ public int findLength2(int[] A, int[] B) {
         }
         return max;
     }
-```
+// ```

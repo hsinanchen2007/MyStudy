@@ -1,9 +1,9 @@
-### 解题思路
-先把原来的值放到一个数组中，然后翻转这个数组，如果翻转过来的数组和原来的一样就是回文。
+// ### 解题思路
+// 先把原来的值放到一个数组中，然后翻转这个数组，如果翻转过来的数组和原来的一样就是回文。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return $vals == array_reverse($vals);
     }
 }
-```
+// ```

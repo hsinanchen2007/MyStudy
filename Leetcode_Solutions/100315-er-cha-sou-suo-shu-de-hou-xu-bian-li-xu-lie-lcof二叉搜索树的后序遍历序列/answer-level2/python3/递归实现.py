@@ -1,5 +1,5 @@
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         """
@@ -44,4 +44,4 @@ class Solution:
         # 左、右子树也各有一个后续遍历，递归检查
         return self.verifyPostorder(postorder[:i]) and self.verifyPostorder(postorder[i:])
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         """
@@ -106,4 +106,4 @@ class Solution:
         
         return helper(days, costs, 0)
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-将b数组中数字和a组比较只要小于就插入，如果没有小于则在末尾插入。做完才看大家的题解，发现很多更好的方法。
+// ### 解题思路
+// 将b数组中数字和a组比较只要小于就插入，如果没有小于则在末尾插入。做完才看大家的题解，发现很多更好的方法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int flag=1;
     int m1=m;
@@ -30,4 +30,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
             
     }
 }
-```
+// ```

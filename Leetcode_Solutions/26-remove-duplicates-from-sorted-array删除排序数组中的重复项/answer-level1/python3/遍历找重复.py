@@ -1,9 +1,9 @@
-### 解题思路
-代码简单、思路清晰
+# ### 解题思路
+# 代码简单、思路清晰
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         index = 0
@@ -13,4 +13,4 @@ class Solution:
             else:
                 index += 1
         return len(nums)
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :1 ms, 在所有 Java 提交中击败了90.51%的用户
-内存消耗 :36.9 MB, 在所有 Java 提交中击败了5.27%的用户
-比较暴力的解法了
-设置数组存放结果
-设置n存放当前分的糖的数目
-temp变量存放特殊情况中那个人在数组中的位置（剩余的糖数小于n）
-### 代码
+// ### 解题思路
+// 执行用时 :1 ms, 在所有 Java 提交中击败了90.51%的用户
+// 内存消耗 :36.9 MB, 在所有 Java 提交中击败了5.27%的用户
+// 比较暴力的解法了
+// 设置数组存放结果
+// 设置n存放当前分的糖的数目
+// temp变量存放特殊情况中那个人在数组中的位置（剩余的糖数小于n）
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] ans=new int[num_people];
@@ -33,4 +33,4 @@ class Solution {
        return(ans);
     }
 }
-```
+// ```

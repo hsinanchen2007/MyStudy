@@ -1,11 +1,11 @@
-### 解题思路
-二分查找的经典问题：“寻找有序序列中第一个满足某条件的元素的位置”
-时间复杂度：O(logn)。
-空间复杂度：O(1)。
+// ### 解题思路
+// 二分查找的经典问题：“寻找有序序列中第一个满足某条件的元素的位置”
+// 时间复杂度：O(logn)。
+// 空间复杂度：O(1)。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
@@ -27,4 +27,4 @@ public:
 		return pLeft;
 	}
 };
-```
+// ```

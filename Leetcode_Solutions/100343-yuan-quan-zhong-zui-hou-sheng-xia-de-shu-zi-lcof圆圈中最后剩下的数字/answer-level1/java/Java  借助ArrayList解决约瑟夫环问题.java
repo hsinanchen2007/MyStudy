@@ -1,13 +1,13 @@
-### 解题思路
-将所有元素放入ArrayList中，然后遍历去除第m个元素。
-index = (m - 1) % n;
-index = (index + m - 1) % list.size();
+// ### 解题思路
+// 将所有元素放入ArrayList中，然后遍历去除第m个元素。
+// index = (m - 1) % n;
+// index = (index + m - 1) % list.size();
 
-size为1的时候结束！！！
+// size为1的时候结束！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         if (n == 0 || m == 0) {
@@ -28,4 +28,4 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```

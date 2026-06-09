@@ -1,9 +1,9 @@
-### 解题思路
-利用两个指针分别记录word1和word2的位置，若符合条件，更新最小值。一次遍历即可。
+// ### 解题思路
+// 利用两个指针分别记录word1和word2的位置，若符合条件，更新最小值。一次遍历即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findClosest(vector<string>& words, string word1, string word2) {
@@ -30,4 +30,4 @@ public:
          return ans;
     }
 };
-```
+// ```

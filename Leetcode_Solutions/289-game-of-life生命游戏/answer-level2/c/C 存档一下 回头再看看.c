@@ -1,6 +1,6 @@
-click here
+// click here
 
-```
+// ```
 int around[8][2] = 
 {
   // row col  
@@ -81,4 +81,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```

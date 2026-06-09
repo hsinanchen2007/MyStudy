@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-题意等价于求每个节点的左右子树最大深度之和的最大值。
+// 题意等价于求每个节点的左右子树最大深度之和的最大值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,7 +35,7 @@ public:
         return result;
     }
 };
-```
+// ```
 
 
 

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-非递归后序遍历，每个节点被访问的时候，栈里面内容都是其所有根节点。
-（本题栈结构选用了vector实现,为了遍历）
-可以参考 [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/c-die-dai-shuang-bai-qian-zhong-hou-zong-jie-by-gw/)
+// 非递归后序遍历，每个节点被访问的时候，栈里面内容都是其所有根节点。
+// （本题栈结构选用了vector实现,为了遍历）
+// 可以参考 [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/c-die-dai-shuang-bai-qian-zhong-hou-zong-jie-by-gw/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -42,7 +42,7 @@ public:
     }
 
 };
-```
+// ```
 
-### 结果
-![image.png](https://pic.leetcode-cn.com/6f445d18ae952ff15d2a56ed00c41fcf96583e05a8f7e6addc2f556b000d08e6-image.png)
+// ### 结果
+// ![image.png](https://pic.leetcode-cn.com/6f445d18ae952ff15d2a56ed00c41fcf96583e05a8f7e6addc2f556b000d08e6-image.png)

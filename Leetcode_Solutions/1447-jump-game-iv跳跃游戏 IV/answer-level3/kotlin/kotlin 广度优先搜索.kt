@@ -1,11 +1,11 @@
-### 解题思路
-Queue:   广度优先搜索 使用Queue队列进行遍历
-HashMap: 在准备阶段遍历数组，将同值元素储存到HashMap中,方便跳跃时寻址
-memo:    记录最小步数
+// ### 解题思路
+// Queue:   广度优先搜索 使用Queue队列进行遍历
+// HashMap: 在准备阶段遍历数组，将同值元素储存到HashMap中,方便跳跃时寻址
+// memo:    记录最小步数
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 import java.util.concurrent.LinkedBlockingQueue
 class Solution {
     fun minJumps(arr: IntArray): Int {
@@ -47,4 +47,4 @@ class Solution {
 
     class Frog(val index:Int,val time:Int)
 }
-```
+// ```

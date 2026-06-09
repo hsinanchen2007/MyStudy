@@ -1,7 +1,7 @@
-![5d683ec5516e3f3104f75fc8c06ab6e.png](https://pic.leetcode-cn.com/9efe5d563408e5058e00f4e59a6708b033b72803da34847c5335d8839578980c-5d683ec5516e3f3104f75fc8c06ab6e.png)
+# ![5d683ec5516e3f3104f75fc8c06ab6e.png](https://pic.leetcode-cn.com/9efe5d563408e5058e00f4e59a6708b033b72803da34847c5335d8839578980c-5d683ec5516e3f3104f75fc8c06ab6e.png)
 
-要原地实现移动0，只需要双指针，代码如下：
-```java []
+# 要原地实现移动0，只需要双指针，代码如下：
+# ```java []
 class Solution {
     public void moveZeroes(int[] nums) {
         int i = 0;  // i是第一个指针，代表第i个非零数
@@ -14,8 +14,8 @@ class Solution {
          }  // 完成后，最够若干位（i+1以及后面的位置）自动都交换变成0
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -27,4 +27,4 @@ class Solution:
                 nums[i], nums[j] = nums[j], nums[i]
                 i += 1
         return nums  ## 完成后，最够若干位（i+1以及后面的位置）自动都交换变成0
-```
+# ```

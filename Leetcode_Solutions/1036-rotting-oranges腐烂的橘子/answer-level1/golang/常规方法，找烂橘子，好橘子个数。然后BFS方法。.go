@@ -1,9 +1,9 @@
-### 解题思路
-常规方法，找烂橘子，好橘子个数。然后BFS方法。
+// ### 解题思路
+// 常规方法，找烂橘子，好橘子个数。然后BFS方法。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func orangesRotting(grid [][]int) int {
 	
 	time := 0
@@ -78,4 +78,4 @@ func orangesRotting(grid [][]int) int {
 		return time
 	}
 }
-```
+// ```

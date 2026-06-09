@@ -1,9 +1,9 @@
-### 解题思路
-就是首先把两个链表里的数都存到一个arraylist里，然后再根据这个来构造链表。可以写的简短。直接存，然后排序。
+// ### 解题思路
+// 就是首先把两个链表里的数都存到一个arraylist里，然后再根据这个来构造链表。可以写的简短。直接存，然后排序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -55,4 +55,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

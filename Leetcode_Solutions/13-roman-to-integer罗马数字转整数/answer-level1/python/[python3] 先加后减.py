@@ -1,10 +1,10 @@
-### 解题思路
-1. 把所有的数相加
-2. 把多加的数去除
+# ### 解题思路
+# 1. 把所有的数相加
+# 2. 把多加的数去除
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s):
         roman = {'I': 1,
@@ -26,4 +26,4 @@ class Solution:
         for k, v in roman_no.items():
             sum += v * s.count(k)
         return sum
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-dfs
-排序
-统计该字符出现个数
-循环中每次加一个该字符，后面得字符必不是该字符的dfs
+// ### 解题思路
+// dfs
+// 排序
+// 统计该字符出现个数
+// 循环中每次加一个该字符，后面得字符必不是该字符的dfs
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
@@ -51,4 +51,4 @@ class Solution {
         }
     }
 }
-```
+// ```

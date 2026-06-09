@@ -1,9 +1,9 @@
-### 解题思路
-插入后排序
+// ### 解题思路
+// 插入后排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int comp(const void *a,const void *b)
 {
@@ -19,4 +19,4 @@ qsort(A,m+n,sizeof(int),comp);
 }
 
 
-```
+// ```

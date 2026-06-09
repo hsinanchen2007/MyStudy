@@ -1,4 +1,4 @@
-```
+// ```
 class FizzBuzz {
     // 1. synchronized
     private int n;
@@ -73,4 +73,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

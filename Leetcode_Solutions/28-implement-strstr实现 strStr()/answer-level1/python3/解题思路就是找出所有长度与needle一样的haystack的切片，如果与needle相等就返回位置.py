@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle == "":
@@ -16,4 +16,4 @@ class Solution:
             if s == n:
                 return i
         return -1
-```
+# ```

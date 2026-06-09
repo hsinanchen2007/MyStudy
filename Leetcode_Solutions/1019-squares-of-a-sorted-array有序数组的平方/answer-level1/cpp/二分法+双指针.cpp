@@ -1,12 +1,12 @@
-### 解题思路
-先二分查找找到0的下标。
-然后双指针，其实就是合并两个有序链表。
-![image.png](https://pic.leetcode-cn.com/dbf256ba2dc3ee91db246ab7318399fe8711589a3d8a307c5828f5af6ce130d9-image.png)
+// ### 解题思路
+// 先二分查找找到0的下标。
+// 然后双指针，其实就是合并两个有序链表。
+// ![image.png](https://pic.leetcode-cn.com/dbf256ba2dc3ee91db246ab7318399fe8711589a3d8a307c5828f5af6ce130d9-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A) {
@@ -48,4 +48,4 @@ public:
         return ret;
     }
 };
-```
+// ```

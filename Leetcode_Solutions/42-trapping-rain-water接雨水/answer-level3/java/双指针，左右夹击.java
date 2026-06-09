@@ -1,5 +1,5 @@
-先找到最高的墙坐标 index，对于 index 左边的所有坐标，只关心当前坐标左边最高的墙即可。右边同理。
-```
+// 先找到最高的墙坐标 index，对于 index 左边的所有坐标，只关心当前坐标左边最高的墙即可。右边同理。
+// ```
 class Solution {
     public int trap(int[] height) {
         int index = 0;//记录最长墙的坐标
@@ -36,4 +36,4 @@ class Solution {
     }
 
 }
-```
+// ```

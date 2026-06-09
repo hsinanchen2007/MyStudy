@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int closestValue(TreeNode* root, double target) {
@@ -11,4 +11,4 @@ public:
         else return fabs(target-root->val)<fabs(target-closestValue(root->left,target))||!root->left?root->val:closestValue(root->left,target);
     }
 };
-```
+// ```

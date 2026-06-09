@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def longestPalindrome(self, s):
         ans = 0
@@ -15,4 +15,4 @@ class Solution:
             if ans % 2 == 0 and v % 2 == 1:
                 ans += 1
         return ans
-```
+# ```

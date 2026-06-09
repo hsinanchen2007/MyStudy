@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-c[i][j] = min(c[i-1][j-1],c[i-1][j], c[i][j-1]) + 1;
+// c[i][j] = min(c[i-1][j-1],c[i-1][j], c[i][j-1]) + 1;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
@@ -36,4 +36,4 @@ public:
         return max_tag * max_tag;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 //与62题不同的就是：1、初始化赋值的时候遇到障碍物就退出，后面的就不需要赋值了
                    2、for循环的时候遇到障碍物就直接将障碍物处的路径置为0；
 public int uniquePathsWithObstacles(int[][] obstacleGrid) {
@@ -30,4 +30,4 @@ public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         }
         return dp[m-1][n-1];
     }
-```
+// ```

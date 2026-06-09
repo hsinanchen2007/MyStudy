@@ -1,10 +1,10 @@
-### 解题思路
-我吐了，内存占用200多m还100%，真是有够可笑的呢
-![image.png](https://pic.leetcode-cn.com/93b1fff0a94ebb0087cdeffef1e99cac4c9a39a2c0b7fc5673a094698042a7b2-image.png)
+// ### 解题思路
+// 我吐了，内存占用200多m还100%，真是有够可笑的呢
+// ![image.png](https://pic.leetcode-cn.com/93b1fff0a94ebb0087cdeffef1e99cac4c9a39a2c0b7fc5673a094698042a7b2-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -49,4 +49,4 @@ private:
 
     }
 };
-```
+// ```

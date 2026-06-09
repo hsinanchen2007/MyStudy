@@ -1,13 +1,13 @@
-动态规划实现，先进行dp数组初始化，然后根据状态转移方程，迭代出最佳解。
-```
+// 动态规划实现，先进行dp数组初始化，然后根据状态转移方程，迭代出最佳解。
+// ```
 OPT(i, j) = max(OPT(i - 1, j), OPT(i, j - 1)) + grid[i][j];
 BASECASE:
 case1:OPT(0, 0) = grid[0][0](i == 0 && j == 0);
 case2:OPT(0, j) = OPT(0, j - 1) + grid[0][j](i == 0);
 case3:OPT(i, 0) = OPT(i - 1, 0) + grid[i][0](j == 0);
-```
+// ```
 
-```
+// ```
 class Solution {
     public int maxValue(int[][] grid) {
         int row = grid.length, col = grid[0].length;
@@ -31,9 +31,9 @@ class Solution {
         return dp[row - 1][col - 1];
     }
 }
-```
-其实这道题可以对原数组进行修改，不需要新建一个dp数组，节省空间。
-```
+// ```
+// 其实这道题可以对原数组进行修改，不需要新建一个dp数组，节省空间。
+// ```
 class Solution {
     public int maxValue(int[][] grid) {
         int row = grid.length, col = grid[0].length;
@@ -54,4 +54,4 @@ class Solution {
         return grid[row - 1][col - 1];
     }
 }
-```
+// ```

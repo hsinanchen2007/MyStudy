@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 func splitArray(nums []int, m int) int {
     //二分查找，数组划分只能为1-l份
@@ -40,4 +40,4 @@ func spilt(nums []int, largestSum int) int {
     }
     return pieces
 }
-```
+// ```

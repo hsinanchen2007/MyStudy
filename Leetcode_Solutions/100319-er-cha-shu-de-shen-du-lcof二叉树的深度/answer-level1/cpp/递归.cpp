@@ -1,9 +1,9 @@
-### 解题思路
-return max(dfs(root->left,n+1),dfs(root->right,n+1));
+// ### 解题思路
+// return max(dfs(root->left,n+1),dfs(root->right,n+1));
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ public:
         return dfs(root,0);
     }
 };
-```
+// ```

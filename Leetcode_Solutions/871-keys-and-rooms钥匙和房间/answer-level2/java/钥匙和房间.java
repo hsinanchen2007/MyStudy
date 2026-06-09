@@ -1,14 +1,14 @@
 
-#### 方法 1：深度优先搜索
+// #### 方法 1：深度优先搜索
 
-**想法和算法**
+// **想法和算法**
 
-当第一次访问房间时，查看房间内的所有钥匙。如果有任意一个未被使用的钥匙，将其加入待办任务列表（`stack`）中，等待使用。
+// 当第一次访问房间时，查看房间内的所有钥匙。如果有任意一个未被使用的钥匙，将其加入待办任务列表（`stack`）中，等待使用。
 
-实现细节请查看代码。
+// 实现细节请查看代码。
 
 
-```Java []
+// ```Java []
 class Solution {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         boolean[] seen = new boolean[rooms.size()];
@@ -32,9 +32,9 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class Solution(object):
     def canVisitAllRooms(self, rooms):
         seen = [False] * len(rooms)
@@ -49,10 +49,10 @@ class Solution(object):
                     seen[nei] = True # mark that we've entered the room
                     stack.append(nei) # add the key to the todo list
         return all(seen) # Return true iff we've visited every room
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N+E)$，其中 $N$ 是房间数量，$E$ 是钥匙数量。
-* 空间复杂度：$O(N)$，用来存储 `stack` 和 `seen`。
+// * 时间复杂度：$O(N+E)$，其中 $N$ 是房间数量，$E$ 是钥匙数量。
+// * 空间复杂度：$O(N)$，用来存储 `stack` 和 `seen`。

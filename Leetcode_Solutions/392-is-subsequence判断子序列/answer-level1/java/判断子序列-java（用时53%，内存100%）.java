@@ -1,9 +1,9 @@
-### 解题思路
-用count记录匹配的个数，若值为s.length()则匹配成功
+// ### 解题思路
+// 用count记录匹配的个数，若值为s.length()则匹配成功
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 
 class Solution {
@@ -30,4 +30,4 @@ class Solution {
 	        }
     }
 }
-```
+// ```

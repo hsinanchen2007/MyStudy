@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findNthDigit = function(n) {
     n -= 1;
     for(let i = 1; i < 11; i++){
@@ -14,4 +14,4 @@ var findNthDigit = function(n) {
 };
 
 
-```
+// ```

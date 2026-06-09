@@ -1,7 +1,7 @@
 
 
 
-```
+// ```
 class Solution287 {
     public int findDuplicate(int[] nums) {
         int fast=0;int slow=0;//定义快慢指针
@@ -19,5 +19,5 @@ class Solution287 {
         }
     }
 }
-```
-![图解.jpg](https://pic.leetcode-cn.com/42fa3f0c45466c47e9a26d5d5f9d2e5f76607edb8f7deace6112ae09803f8712-%E5%9B%BE%E8%A7%A3.jpg)
+// ```
+// ![图解.jpg](https://pic.leetcode-cn.com/42fa3f0c45466c47e9a26d5d5f9d2e5f76607edb8f7deace6112ae09803f8712-%E5%9B%BE%E8%A7%A3.jpg)

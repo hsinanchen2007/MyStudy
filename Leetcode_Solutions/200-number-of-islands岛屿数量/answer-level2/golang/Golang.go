@@ -1,4 +1,4 @@
-```
+// ```
 func numIslands(grid [][]byte) int {
     result := 0
     for i := 0; i < len(grid); i++ {
@@ -26,4 +26,4 @@ func BFS(grid [][]byte, x int, y int){
 }
 
 //建立xy坐标轴的方式遍历一个点的四个方向，并将遇到的岛屿转化成水域。递归退出的临界条件是遇到边界就退出，或者传入岛屿皆为0就直接退出。
-```
+// ```

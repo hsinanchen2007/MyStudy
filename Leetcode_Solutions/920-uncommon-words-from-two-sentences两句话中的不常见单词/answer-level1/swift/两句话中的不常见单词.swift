@@ -1,5 +1,5 @@
-合并然后切割单词，之后看单词在数组中第一次出现和最后一次出现的下标索引是否相同，相同则出现一次，不同则至少有两次以上。
-```swift 
+// 合并然后切割单词，之后看单词在数组中第一次出现和最后一次出现的下标索引是否相同，相同则出现一次，不同则至少有两次以上。
+// ```swift 
 class Solution {
     func uncommonFromSentences(_ A: String, _ B: String) -> [String] {
         var result = [String]()
@@ -13,5 +13,5 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 

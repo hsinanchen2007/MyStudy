@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-由小及大，从2到n, 一步步找呀
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 由小及大，从2到n, 一步步找呀
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int integerBreak(int n) {
         int[]dp=new int[n+1];
@@ -16,4 +16,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

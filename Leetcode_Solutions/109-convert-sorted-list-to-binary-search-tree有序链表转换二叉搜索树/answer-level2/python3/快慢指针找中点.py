@@ -1,12 +1,12 @@
-## 思路:
+# ## 思路:
 
-与上一题[108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/),还是找中点
+# 与上一题[108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/),还是找中点
 
-但是这个是链表找中点,所以我们用快慢指针!
+# 但是这个是链表找中点,所以我们用快慢指针!
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -40,11 +40,11 @@ class Solution:
             
         return helper(head, None)
             
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -84,5 +84,5 @@ class Solution {
         return root;
     }
 }
-```
+# ```
 

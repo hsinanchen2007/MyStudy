@@ -1,10 +1,10 @@
-### 解题思路
-提交出错n次 因为没用自己编译器
-始终不知道l1 l2为空时候的判断条件 后来发现是null
+// ### 解题思路
+// 提交出错n次 因为没用自己编译器
+// 始终不知道l1 l2为空时候的判断条件 后来发现是null
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -46,4 +46,4 @@ function toList(arr) {
     }
     return obj;
 }
-```
+// ```

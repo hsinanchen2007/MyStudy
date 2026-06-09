@@ -1,5 +1,5 @@
-一个通用方法团灭 6 道股票问题 中的这道题解法没看懂，我的内层循环为交易次数，从0一直到maxk
-```
+# 一个通用方法团灭 6 道股票问题 中的这道题解法没看懂，我的内层循环为交易次数，从0一直到maxk
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         #判空
@@ -25,4 +25,4 @@ class Solution:
                     dp[i][k][0] = max(dp[i-1][k][0],dp[i-1][k][1]+prices[i])
                 dp[i][k][1] = max(dp[i-1][k][1],dp[i-1][k-1][0]-prices[i])
         return max(dp[len(prices)-1][0][0],dp[len(prices)-1][1][0],dp[len(prices)-1][2][0])
-```
+# ```

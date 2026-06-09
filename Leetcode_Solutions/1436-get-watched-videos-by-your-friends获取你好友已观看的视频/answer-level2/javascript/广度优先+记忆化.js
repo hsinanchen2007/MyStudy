@@ -1,8 +1,8 @@
-- 要找到最短距离为 k 的好友 可以通过广度优先 
-- 广度优先遍历每一层好友 都放到 visited 中  因为已经遍历过的节点 不可能是最短距离为 k 的好友
-- 遍历level次  最后得到最短距离为 level 的好友
-- 然后统计video次数 排序即可 
-```
+// - 要找到最短距离为 k 的好友 可以通过广度优先 
+// - 广度优先遍历每一层好友 都放到 visited 中  因为已经遍历过的节点 不可能是最短距离为 k 的好友
+// - 遍历level次  最后得到最短距离为 level 的好友
+// - 然后统计video次数 排序即可 
+// ```
 var watchedVideosByFriends = function (watchedVideos, friends, id, level) {
   let next = [id]; // 下一次广度优先遍历的父节点
   let visited = new Set(); // 已经遍历过的节点 不可能是最短距离为 k 的好友
@@ -28,4 +28,4 @@ var watchedVideosByFriends = function (watchedVideos, friends, id, level) {
   })
   return arr.sort((a, b) => a[0] !== b[0] ? a[0] - b[0] : a[1] > b[1] ? 1 : -1).map(el => el[1]);
 };
-```
+// ```

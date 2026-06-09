@@ -1,8 +1,8 @@
-#在递归遍历的时候带上层次参数，直接将结果输出值指定位置
+// #在递归遍历的时候带上层次参数，直接将结果输出值指定位置
 
-1.代码逻辑很直接，对应的人的直观思维，直接将第k层的数据放入第k个数组中。
-2.JavaScript的数组是动态的，所以我们不需要提前考虑有多少层，也不需要考虑每层有多少个数据。
-```
+// 1.代码逻辑很直接，对应的人的直观思维，直接将第k层的数据放入第k个数组中。
+// 2.JavaScript的数组是动态的，所以我们不需要提前考虑有多少层，也不需要考虑每层有多少个数据。
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -38,4 +38,4 @@ function search(layers, node, k) {
     search(layers, node.left, k + 1);
     search(layers, node.right, k + 1);
 }
-```
+// ```

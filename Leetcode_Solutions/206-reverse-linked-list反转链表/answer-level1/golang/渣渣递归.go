@@ -1,4 +1,4 @@
-```
+// ```
 func reverseList(head *ListNode )*ListNode {
 
     if head==nil||head.Next==nil{
@@ -26,4 +26,4 @@ func digui(head *ListNode,new []*ListNode)[]*ListNode{
     prev.Next=nil
     return digui(head,new)
 }
-```
+// ```

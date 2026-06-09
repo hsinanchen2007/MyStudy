@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT
     employee_id,
     team_size
@@ -15,4 +15,4 @@ INNER JOIN
             team_id
     ) AS t1
 ON e.team_id = t1.team_id
-```
+-- ```

@@ -1,4 +1,4 @@
-```
+// ```
 var sortedArrayToBST = function (nums) {
     if (!nums.length) return null;
 
@@ -11,4 +11,4 @@ var sortedArrayToBST = function (nums) {
     root.right = sortedArrayToBST(nums.slice(mid + 1));
     return root;
 };
-```
+// ```

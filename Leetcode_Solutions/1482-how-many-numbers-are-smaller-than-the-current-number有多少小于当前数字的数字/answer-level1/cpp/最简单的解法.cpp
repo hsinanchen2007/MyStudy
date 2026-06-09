@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度O(n)
-空间复杂度O(1)
+// ### 解题思路
+// 时间复杂度O(n)
+// 空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return smaller;
     }
 };
-```
+// ```

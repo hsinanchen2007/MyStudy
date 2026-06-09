@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/7f2ff71fec51a6f1444d879e90a708b3dcf4c9953131083250757429ef2ba3d2-1.png)
+// ![1.png](https://pic.leetcode-cn.com/7f2ff71fec51a6f1444d879e90a708b3dcf4c9953131083250757429ef2ba3d2-1.png)
 
-### 解题思路
-找到思路其实很简单，遍历一次S，如果S[i]>'9',则一定是字母，将已经创建的空间依次复制，并将每个对应的字母改掉就结束了。
+// ### 解题思路
+// 找到思路其实很简单，遍历一次S，如果S[i]>'9',则一定是字母，将已经创建的空间依次复制，并将每个对应的字母改掉就结束了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -28,4 +28,4 @@ char ** letterCasePermutation(char * S, int* returnSize){
 	*returnSize = size;
 	return res;
 }
-```
+// ```

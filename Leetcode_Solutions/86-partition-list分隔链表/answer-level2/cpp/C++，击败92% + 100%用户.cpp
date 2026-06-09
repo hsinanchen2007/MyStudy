@@ -1,6 +1,6 @@
-![微信图片_20200325232733.png](https://pic.leetcode-cn.com/19f279e5bfed883d35fe12b8e154c5469944425ac6ddf3e8889921273eb5f1cf-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200325232733.png)
+// ![微信图片_20200325232733.png](https://pic.leetcode-cn.com/19f279e5bfed883d35fe12b8e154c5469944425ac6ddf3e8889921273eb5f1cf-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200325232733.png)
 
-```
+// ```
 创建两个头结点，形成双链表，最后合并，时间复杂度O(N),空间复杂O(1)
 /**
  * Definition for singly-linked list.
@@ -37,4 +37,4 @@ public:
         return small_head->next;
     }
 };
-```
+// ```

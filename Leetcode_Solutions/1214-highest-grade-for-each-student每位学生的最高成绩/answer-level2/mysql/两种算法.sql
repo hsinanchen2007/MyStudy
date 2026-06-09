@@ -1,9 +1,9 @@
-### 解题思路
-两种算法 第一种就是先获取每个学生的id和最大成绩然后联源数据表
-第二种就是 用源数据表直接查 
-### 代码
+-- ### 解题思路
+-- 两种算法 第一种就是先获取每个学生的id和最大成绩然后联源数据表
+-- 第二种就是 用源数据表直接查 
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -15,4 +15,4 @@ WHERE (student_id,grade) IN (SELECT student_id,max(grade) FROM enrollments GROUP
 GROUP BY student_id
 ORDER BY student_id ;
 
-```
+-- ```

@@ -1,7 +1,7 @@
-1.求和
-2.求diff
-3.使用diff在前导和中寻找，如果匹配，求max
-```
+// 1.求和
+// 2.求diff
+// 3.使用diff在前导和中寻找，如果匹配，求max
+// ```
 /*
 * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
 * Description: i love leetcode
@@ -56,4 +56,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,8 +1,8 @@
-Xjj
+// Xjj
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinIncrementForUnique(int[] A) {
          Array.Sort(A);
@@ -22,4 +22,4 @@ public class Solution {
             return move;
         }
 }
-```
+// ```

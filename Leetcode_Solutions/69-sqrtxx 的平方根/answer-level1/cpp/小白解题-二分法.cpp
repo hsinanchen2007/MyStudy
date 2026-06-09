@@ -1,5 +1,5 @@
-典型的二分解法 关键是想出边界条件
-```
+// 典型的二分解法 关键是想出边界条件
+// ```
 class Solution {
 public:
     int mySqrt(int x) {
@@ -32,4 +32,4 @@ public:
         return left;
     }
 };
-```
+// ```

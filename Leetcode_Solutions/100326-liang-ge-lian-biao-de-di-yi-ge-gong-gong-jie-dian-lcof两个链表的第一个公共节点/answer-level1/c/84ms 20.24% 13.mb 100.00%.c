@@ -1,9 +1,9 @@
-### 解题思路
-要不是408见过我还真不会做。。。不过这速度太慢了8
+// ### 解题思路
+// 要不是408见过我还真不会做。。。不过这速度太慢了8
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
     }
     return NULL;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍， 字典记录出现次数，拼接新的字符串
+# ### 解题思路
+# 遍历一遍， 字典记录出现次数，拼接新的字符串
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if len(S) <= 1:
@@ -28,4 +28,4 @@ class Solution:
         else:
             return res
 
-```
+# ```

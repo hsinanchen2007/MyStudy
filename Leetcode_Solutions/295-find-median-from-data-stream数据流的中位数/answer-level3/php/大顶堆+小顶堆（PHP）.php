@@ -1,4 +1,4 @@
-```
+// ```
 class MedianFinder {
     /**
      * initialize your data structure here.
@@ -38,4 +38,4 @@ class MedianFinder {
         }
     }
 }
-```
+// ```

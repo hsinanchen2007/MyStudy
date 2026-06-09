@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-统计输出
+// 统计输出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -13,4 +13,4 @@ public:
         return true;
     }
 };
-```
+// ```

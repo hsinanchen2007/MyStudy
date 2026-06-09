@@ -1,14 +1,14 @@
-思路如下：
+// 思路如下：
 
-每次顺序读取两个值，前一个比后面小的话，就说明出现了那六种情况，也就是需要用后一个值减去前一个值。比如：
+// 每次顺序读取两个值，前一个比后面小的话，就说明出现了那六种情况，也就是需要用后一个值减去前一个值。比如：
 
-s="IV";
+// s="IV";
 
-此时，V-I即可的到值，反之，如果前一个值大于后一个值，那么，正常读取当前值即可
+// 此时，V-I即可的到值，反之，如果前一个值大于后一个值，那么，正常读取当前值即可
 
-![romantoint.png](https://pic.leetcode-cn.com/a2d67e363770be56e206ebc410a8b3773ba80fbb565046dabcfa8cbb1661b8f4-romantoint.png)
+// ![romantoint.png](https://pic.leetcode-cn.com/a2d67e363770be56e206ebc410a8b3773ba80fbb565046dabcfa8cbb1661b8f4-romantoint.png)
 
-```
+// ```
 int read(char a){
     switch (a){
         case 'I': return 1;
@@ -45,5 +45,5 @@ int romantoint(char *s){
     }
     return sum;
 }
-```
+// ```
 

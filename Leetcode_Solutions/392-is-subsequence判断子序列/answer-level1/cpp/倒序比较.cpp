@@ -1,6 +1,6 @@
-![QQ图片20200209165142.png](https://pic.leetcode-cn.com/04222b796b484718a998f4a6a58a61b9f82c8b18de4d7e89a22a6128430951ab-QQ%E5%9B%BE%E7%89%8720200209165142.png)
+// ![QQ图片20200209165142.png](https://pic.leetcode-cn.com/04222b796b484718a998f4a6a58a61b9f82c8b18de4d7e89a22a6128430951ab-QQ%E5%9B%BE%E7%89%8720200209165142.png)
 
-```
+// ```
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -23,4 +23,4 @@ public:
         return true;
     }
 };
-```
+// ```

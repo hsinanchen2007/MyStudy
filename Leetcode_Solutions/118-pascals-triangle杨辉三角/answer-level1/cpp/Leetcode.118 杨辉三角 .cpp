@@ -1,10 +1,10 @@
-### 解题思路
-记住一点：从第三行开始 i--行 j-th 数
-    ans[i][j] = ans[i-1][j-1] + ans[i-1][j]
+// ### 解题思路
+// 记住一点：从第三行开始 i--行 j-th 数
+//     ans[i][j] = ans[i-1][j-1] + ans[i-1][j]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -57,4 +57,4 @@ public:
 
 
 
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-深度搜索 + 染色 
-思路挺简单的，就是遍历 board 找到可以进行搜索的格子进行尝试搜索
+// ### 解题思路
+// 深度搜索 + 染色 
+// 思路挺简单的，就是遍历 board 找到可以进行搜索的格子进行尝试搜索
 
-搜索的时候记得吧当前走过的格子染色，我这里染成了 '0'，最后染回来，还原。
+// 搜索的时候记得吧当前走过的格子染色，我这里染成了 '0'，最后染回来，还原。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         int col = board[0].length;
@@ -44,4 +44,4 @@ class Solution {
         return left || right || top || down;
     }
 }
-```
+// ```

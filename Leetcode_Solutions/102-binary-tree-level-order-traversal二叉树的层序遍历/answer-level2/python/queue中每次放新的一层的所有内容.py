@@ -1,12 +1,12 @@
-### 解题思路
-1、使用queue来搞定，先入根节点，然后一直判断不为空则进行（循环中会更新的）；
-2、每次处理一层的所有节点；
-3、每次先算出队列中的所有元素，其实就是一层的所有元素；然后写内部for循环遍历所有该层的节点；
-4、因为每次先算出来level_size，所以for循环中的新增，并不会影响该层的输出；
+# ### 解题思路
+# 1、使用queue来搞定，先入根节点，然后一直判断不为空则进行（循环中会更新的）；
+# 2、每次处理一层的所有节点；
+# 3、每次先算出队列中的所有元素，其实就是一层的所有元素；然后写内部for循环遍历所有该层的节点；
+# 4、因为每次先算出来level_size，所以for循环中的新增，并不会影响该层的输出；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -46,4 +46,4 @@ class Solution(object):
             result.append(curr_level_datas)
         return result
 
-```
+# ```

@@ -1,8 +1,8 @@
-首先可以不用管maxsize，假如说长度最长的子串出现了5次那么把它截掉一些它的字串肯定也同样出现在这些位置；
-所以说只要扫长度为minsize，用map统计出现的次数，最后取个最大的就ok了。
-### 代码
+// 首先可以不用管maxsize，假如说长度最长的子串出现了5次那么把它截掉一些它的字串肯定也同样出现在这些位置；
+// 所以说只要扫长度为minsize，用map统计出现的次数，最后取个最大的就ok了。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxFreq(string s, int maxLetters, int minSize, int maxSize) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

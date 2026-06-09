@@ -1,9 +1,9 @@
-### 解题思路
-bfs思路
+// ### 解题思路
+// bfs思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     //存方向数组
@@ -68,4 +68,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

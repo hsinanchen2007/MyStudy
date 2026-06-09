@@ -1,9 +1,9 @@
-### 解题思路
-本来一行代码解决的事情。。。
+// ### 解题思路
+// 本来一行代码解决的事情。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -22,4 +22,4 @@ var merge = function(A, m, B, n) {
     return A.sort((a,b)=>a-b)
 
 };
-```
+// ```

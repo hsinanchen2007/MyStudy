@@ -1,11 +1,11 @@
-### 解题思路
-用官方（C++）改写成JAVA代码会出问题，修正点如下：
-先 (n1 - 1 - k) / (i - k) 得到int整数之后，再乘以一个重复模板中s2的数量(countr[i] - countr[k]) ，得到所有的重复模板中s2的数量。
+// ### 解题思路
+// 用官方（C++）改写成JAVA代码会出问题，修正点如下：
+// 先 (n1 - 1 - k) / (i - k) 得到int整数之后，再乘以一个重复模板中s2的数量(countr[i] - countr[k]) ，得到所有的重复模板中s2的数量。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int getMaxRepetitions(String s1, int n1, String s2, int n2) {
 
@@ -46,4 +46,4 @@ class Solution {
         return countr[n1 - 1] / n2;
     }
 }
-```
+// ```

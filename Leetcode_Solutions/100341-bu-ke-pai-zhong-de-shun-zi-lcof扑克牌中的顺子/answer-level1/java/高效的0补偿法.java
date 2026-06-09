@@ -1,33 +1,33 @@
-## 61.扑克牌中的顺子
+// ## 61.扑克牌中的顺子
 
-### Information
+// ### Information
 
-* TIME: 2020/02/25
-* LINK: [Click Here](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
-* TAG: 
+// * TIME: 2020/02/25
+// * LINK: [Click Here](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
+// * TAG: 
 
-### Description
+// ### Description
 
-> 从扑克牌中随机抽5张牌，判断是不是一个顺子，即这5张牌是不是连续的。2～10为数字本身，A为1，J为11，Q为12，K为13，而大、小王为 0 ，可以看成任意数字。A 不能视为 14。
+// > 从扑克牌中随机抽5张牌，判断是不是一个顺子，即这5张牌是不是连续的。2～10为数字本身，A为1，J为11，Q为12，K为13，而大、小王为 0 ，可以看成任意数字。A 不能视为 14。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: [1,2,3,4,5]
 输出: True
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 排个序，然后统计`0`的个数
->
-> 因为`0`是通配符，检查其他数字的间距，不够用`0`补
->
-> 如果最后还有`0`剩余或用完，说明数字逐差为1，顺子
->
-> 如果计数器为负，说明存在相邻两个数逐差大于1，不是顺子
+// > 排个序，然后统计`0`的个数
+// >
+// > 因为`0`是通配符，检查其他数字的间距，不够用`0`补
+// >
+// > 如果最后还有`0`剩余或用完，说明数字逐差为1，顺子
+// >
+// > 如果计数器为负，说明存在相邻两个数逐差大于1，不是顺子
 
-```java
+// ```java
 class Solution {
     public boolean isStraight(int[] nums) {
         int count0 = 0;
@@ -44,23 +44,23 @@ class Solution {
         return count0 >= 0? true : false;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/5c19f43ee6560c2f98d5e051de4da8c5b1a54aa76dd866d7b248ec8aa193c3d8-file_1582622550064)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/5c19f43ee6560c2f98d5e051de4da8c5b1a54aa76dd866d7b248ec8aa193c3d8-file_1582622550064)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

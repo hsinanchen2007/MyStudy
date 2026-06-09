@@ -1,4 +1,4 @@
-```Python
+# ```Python
 class Solution:
     def maxCandies(self,
                    status,
@@ -29,4 +29,4 @@ class Solution:
                         queue.append(index)
                         list_box.pop(i)
         return cnt
-```
+# ```

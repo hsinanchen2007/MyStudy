@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-寻找包含每个元素子串的最大值与最小值
+# ### 解题思路
+# 动态规划
+# 寻找包含每个元素子串的最大值与最小值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         length = len(nums)
@@ -27,4 +27,4 @@ class Solution:
 
 
             
-```
+# ```

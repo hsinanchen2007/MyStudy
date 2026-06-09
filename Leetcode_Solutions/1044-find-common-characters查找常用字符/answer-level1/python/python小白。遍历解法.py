@@ -1,8 +1,8 @@
-### 解题思路
-遍历暴力法
-### 代码
+# ### 解题思路
+# 遍历暴力法
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         A = list(map(list,sorted(A,key = lambda x :len(x))))
@@ -22,4 +22,4 @@ class Solution:
                     A[j].remove(de)
             i += 1
         return result
-```
+# ```

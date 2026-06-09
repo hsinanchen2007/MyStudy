@@ -1,5 +1,5 @@
-方法一：直接遍历，最小值在开头或结尾，或者中间。
-```java
+// 方法一：直接遍历，最小值在开头或结尾，或者中间。
+// ```java
 class Solution {
     public int findMin(int[] nums){
         for(int i = 1; i< nums.length; i++){
@@ -10,10 +10,10 @@ class Solution {
         return nums[0];
     }
 }
-```
+// ```
 
-方法二：二分查找的方法
-```java
+// 方法二：二分查找的方法
+// ```java
 class Solution {
     public int findMin(int[] nums) {
         int left = 0;
@@ -35,4 +35,4 @@ class Solution {
         return nums[left];
     }
 }
-```
+// ```

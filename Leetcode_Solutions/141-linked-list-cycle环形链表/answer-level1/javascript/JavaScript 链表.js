@@ -1,8 +1,8 @@
-### 解题思路
-为每个节点记录pos，如果遍历过程遇到之前的pos，证明含有环
-### 代码
+// ### 解题思路
+// 为每个节点记录pos，如果遍历过程遇到之前的pos，证明含有环
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,4 +29,4 @@ var hasCycle = function(head) {
     }
     return false
 };
-```
+// ```

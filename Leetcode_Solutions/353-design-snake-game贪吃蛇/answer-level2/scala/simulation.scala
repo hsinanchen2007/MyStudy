@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 class SnakeGame(_width: Int, _height: Int, _food: Array[Array[Int]]) {
     case class Pos(x:Int, y:Int){
         def +(that:Pos):Pos = Pos(x+that.x, y + that.y)
@@ -24,5 +24,5 @@ class SnakeGame(_width: Int, _height: Int, _food: Array[Array[Int]]) {
     }
 
 }
-```
-```
+// ```
+// ```

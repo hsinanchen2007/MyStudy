@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(X,Y) (X>Y ? Y:X)
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
 int row = gridSize;
@@ -35,4 +35,4 @@ for(int i = 0;i<row;i++)
 return sum;
 
 }
-```
+// ```

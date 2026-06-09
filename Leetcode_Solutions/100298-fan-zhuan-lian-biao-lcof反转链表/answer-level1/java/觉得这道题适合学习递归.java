@@ -1,5 +1,5 @@
-使用递归的时候就认为函数功能已经实现了，reverseList(head.next) 使得 head.next 已经逆序了,我们只要把头结点放到逆序链表的最后面就行了。
-```
+// 使用递归的时候就认为函数功能已经实现了，reverseList(head.next) 使得 head.next 已经逆序了,我们只要把头结点放到逆序链表的最后面就行了。
+// ```
 class Solution {
     public ListNode reverseList(ListNode head) {
         // if(head == null) return null;
@@ -28,4 +28,4 @@ class Solution {
     }
 
 }
-```
+// ```

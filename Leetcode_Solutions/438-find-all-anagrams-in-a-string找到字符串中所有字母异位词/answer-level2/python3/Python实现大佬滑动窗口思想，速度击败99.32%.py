@@ -1,7 +1,7 @@
-详细的解释见这里：[滑动窗口通用思想解决子串问题](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
+# 详细的解释见这里：[滑动窗口通用思想解决子串问题](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
 
-下面直接贴代码，注释详细：
-```
+# 下面直接贴代码，注释详细：
+# ```
 class Solution:
     def findAnagrams(self, s: str, p: str) -> list:
         '''
@@ -28,4 +28,4 @@ class Solution:
                     window[s[left]] -= 1                    # 并将移除的字符数量减一
                 right += 1                                  # right右移
         return res
-```
+# ```

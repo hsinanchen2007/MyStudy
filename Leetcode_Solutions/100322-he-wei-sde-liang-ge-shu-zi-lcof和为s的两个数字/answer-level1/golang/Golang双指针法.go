@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
     lo,hi:=0,len(nums)-1
     for{
@@ -15,4 +15,4 @@ func twoSum(nums []int, target int) []int {
     }
     return nil
 }
-```
+// ```

@@ -1,5 +1,5 @@
-先对同一行进行消除
-```
+// 先对同一行进行消除
+// ```
 for (int i = 0; i < m; ++i) {
     int left;
     for (int j = 0; j < n - 2; j = left) {
@@ -19,9 +19,9 @@ for (int i = 0; i < m; ++i) {
         }
     }
 }
-```
-再对同一列进行消除，注意使用visited数组记录已被行消除的数字
-```
+// ```
+// 再对同一列进行消除，注意使用visited数组记录已被行消除的数字
+// ```
 for (int j = 0; j < n; j++) {
     int down;
     for (int i = 0; i < m - 2; i = down) {
@@ -50,9 +50,9 @@ for (int j = 0; j < n; j++) {
         }
     }
 }
-```
-最后下落
-```
+// ```
+// 最后下落
+// ```
 for (int j = 0; j < n; ++j) {
     int i = m - 1;
     int pos = m - 1;
@@ -65,10 +65,10 @@ for (int j = 0; j < n; ++j) {
         i--;
     }
 }
-```
-以上三个过程迭代执行，使用flag变量记录当前图是否为终态（即一次循环中未发生任何改变）  
-完整代码如下：
-```
+// ```
+// 以上三个过程迭代执行，使用flag变量记录当前图是否为终态（即一次循环中未发生任何改变）  
+// 完整代码如下：
+// ```
 vector<vector<int>> candyCrush(vector<vector<int>> &board) {
         int m = board.size();
         int n = board[0].size();
@@ -139,4 +139,4 @@ vector<vector<int>> candyCrush(vector<vector<int>> &board) {
         } while (!flag);
         return board;
     }
-```
+// ```

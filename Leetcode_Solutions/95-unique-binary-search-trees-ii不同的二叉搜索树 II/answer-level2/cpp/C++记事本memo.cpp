@@ -1,10 +1,10 @@
-这道题的做法很明显。看前几个答案就知道了，我这里主要提供下c++下memo的思路
+// 这道题的做法很明显。看前几个答案就知道了，我这里主要提供下c++下memo的思路
 
-这里实际上是有俩个思路来做memo。第一种是二维数组。即vector<vector<vector<TreeNode*>>> memo;
-我觉得这样理解起来有点难受。
-第二种就是用unordered_map来做。但是我们的key是标准类型，是一个类似int,int的组合。如果做key的话，就需要定义自己的hash函数，和比较运算符。
-我这里想到了个取巧的办法，就是将其转为string，即"num_num"的形式。详情可以查看我的getKey。
-```cpp
+// 这里实际上是有俩个思路来做memo。第一种是二维数组。即vector<vector<vector<TreeNode*>>> memo;
+// 我觉得这样理解起来有点难受。
+// 第二种就是用unordered_map来做。但是我们的key是标准类型，是一个类似int,int的组合。如果做key的话，就需要定义自己的hash函数，和比较运算符。
+// 我这里想到了个取巧的办法，就是将其转为string，即"num_num"的形式。详情可以查看我的getKey。
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -57,4 +57,4 @@ public:
         return memo[getKey(start, end)];
     }
 };
-```
+// ```

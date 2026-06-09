@@ -1,8 +1,8 @@
-这题用C真是恶心、、、
-![捕获.PNG](https://pic.leetcode-cn.com/eab3527f56da98dc9fd548d02fab75f95561ebc2aa428d32340a7a34103579fd-%E6%8D%95%E8%8E%B7.PNG)
+// 这题用C真是恶心、、、
+// ![捕获.PNG](https://pic.leetcode-cn.com/eab3527f56da98dc9fd548d02fab75f95561ebc2aa428d32340a7a34103579fd-%E6%8D%95%E8%8E%B7.PNG)
 
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -165,4 +165,4 @@ char** trulyMostPopular(char** names, int namesSize, char** synonyms, int synony
     * returnSize = ret_index;
     return ret;
 }
-```
+// ```

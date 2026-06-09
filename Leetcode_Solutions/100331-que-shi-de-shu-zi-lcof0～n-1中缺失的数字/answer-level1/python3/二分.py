@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         start = 0 
@@ -11,4 +11,4 @@ class Solution:
             else:
                 end = mid - 1
         return start
-```
+# ```

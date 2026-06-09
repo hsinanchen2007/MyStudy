@@ -1,9 +1,9 @@
-### 解题思路
-不知道为什么现在不能用缓存了 换了一种做法 就是简单的斐波那契数列
+# ### 解题思路
+# 不知道为什么现在不能用缓存了 换了一种做法 就是简单的斐波那契数列
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # from functools import lru_cache
 
 class Solution:
@@ -17,4 +17,4 @@ class Solution:
             climb[i] = climb[i-1]+climb[i-2]
         return climb[n]
 
-```
+# ```

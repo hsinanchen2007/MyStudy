@@ -1,4 +1,4 @@
-```
+// ```
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
         stack<int> s;
         int n = pushed.size();
@@ -9,4 +9,4 @@
         }
         return s.empty() ? true:false;//若合法，则此时栈一定是空的
     }
-```
+// ```

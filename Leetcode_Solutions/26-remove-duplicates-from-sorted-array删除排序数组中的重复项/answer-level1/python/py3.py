@@ -1,9 +1,9 @@
-### 解题思路
-不知道加负无穷符不符合题意
+# ### 解题思路
+# 不知道加负无穷符不符合题意
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         j=1
@@ -21,4 +21,4 @@ class Solution:
                     return j
         return j
         
-```
+# ```

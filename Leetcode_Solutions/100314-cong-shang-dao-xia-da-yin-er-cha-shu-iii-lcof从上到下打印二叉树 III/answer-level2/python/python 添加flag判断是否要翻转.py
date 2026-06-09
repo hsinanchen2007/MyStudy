@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-添加翻转flag
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 添加翻转flag
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
                 flag =1
             resp.append(tmp)
         return resp
-```
+# ```

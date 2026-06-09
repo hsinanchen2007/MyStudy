@@ -1,13 +1,13 @@
-### 解题思路
-一开始想着用字符串的charAt方法，不过耗时居高不下，后改为toCharArray然后遍历。
-思路：
-1. 通过前后元素异或，如果相同则异或结果为0，计数count++;
-2. 当异或不为0，说明发现前后不一致字符，添加进StringBuilder中；
-3. 考虑循环是length-1，所以要把最后统计的字符加入
+// ### 解题思路
+// 一开始想着用字符串的charAt方法，不过耗时居高不下，后改为toCharArray然后遍历。
+// 思路：
+// 1. 通过前后元素异或，如果相同则异或结果为0，计数count++;
+// 2. 当异或不为0，说明发现前后不一致字符，添加进StringBuilder中；
+// 3. 考虑循环是length-1，所以要把最后统计的字符加入
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String string) {
         if (Objects.isNull(string) || string.length() <= 2) {
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

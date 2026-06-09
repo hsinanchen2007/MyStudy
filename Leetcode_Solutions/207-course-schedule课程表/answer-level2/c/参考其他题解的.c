@@ -1,4 +1,4 @@
-```
+// ```
 bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize){
     /* 1、首先了解下，什么是图
         图起始就是模拟不同的东西的相连
@@ -62,4 +62,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     free(inDegree);
     return ((result > 0 ) ? false : true);
 }
-```
+// ```

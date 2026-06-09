@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int mid,low=0,high=numsSize-1;
     while(low<=high){
@@ -25,4 +25,4 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return numsSize;
 }
-```
+// ```

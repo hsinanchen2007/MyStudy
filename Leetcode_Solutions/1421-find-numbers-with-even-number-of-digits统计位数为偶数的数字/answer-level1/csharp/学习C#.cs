@@ -1,9 +1,9 @@
-### 解题思路
-int to String `myint.ToString()`
+// ### 解题思路
+// int to String `myint.ToString()`
 
-### 代码
+// ### 代码
 
-```python3
+// ```python3
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         res=0
@@ -11,4 +11,4 @@ class Solution:
             if len(str(i))%2==0:
                 res+=1
         return res
-```
+// ```

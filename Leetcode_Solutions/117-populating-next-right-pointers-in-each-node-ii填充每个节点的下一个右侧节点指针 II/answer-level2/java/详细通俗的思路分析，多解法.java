@@ -1,18 +1,18 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![](https://pic.leetcode-cn.com/dc001ea66dacf422000e02bc60abc251b254d334f462b772187b7ef48184e7ac.jpg)
+// ![](https://pic.leetcode-cn.com/dc001ea66dacf422000e02bc60abc251b254d334f462b772187b7ef48184e7ac.jpg)
 
-![](https://pic.leetcode-cn.com/efc0b0705b4d32b25df185dd8855ebe96cbf23ec7117911376805311846f6853.jpg)
+// ![](https://pic.leetcode-cn.com/efc0b0705b4d32b25df185dd8855ebe96cbf23ec7117911376805311846f6853.jpg)
 
-给定一个二叉树，然后每个节点有一个 `next` 指针，将它指向它右边的节点。和  [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 基本一样，区别在于之前是满二叉树。
+// 给定一个二叉树，然后每个节点有一个 `next` 指针，将它指向它右边的节点。和  [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 基本一样，区别在于之前是满二叉树。
 
-# 解法一 BFS
+// # 解法一 BFS
 
-直接把 [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 题的代码复制过来就好，一句也不用改。
+// 直接把 [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 题的代码复制过来就好，一句也不用改。
 
-利用一个栈将下一层的节点保存。通过`pre`指针把栈里的元素一个一个接起来。
+// 利用一个栈将下一层的节点保存。通过`pre`指针把栈里的元素一个一个接起来。
 
-```java
+// ```java
 public Node connect(Node root) {
     if (root == null) {
         return root;
@@ -39,15 +39,15 @@ public Node connect(Node root) {
     }
     return root;
 }
-```
+// ```
 
-# 解法二
+// # 解法二
 
-当然题目要求了空间复杂度，可以先到 [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 看一下思路，这里在上边的基础上改一下。
+// 当然题目要求了空间复杂度，可以先到 [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 看一下思路，这里在上边的基础上改一下。
 
-我们用第二种简洁的代码，相对会好改一些。
+// 我们用第二种简洁的代码，相对会好改一些。
 
-```java
+// ```java
 Node connect(Node root) {
     if (root == null)
         return root;
@@ -67,28 +67,28 @@ Node connect(Node root) {
 
     return root;
 }
-```
+// ```
 
-需要解决的问题还是挺多的。
+// 需要解决的问题还是挺多的。
 
-```java
+// ```java
 cur.left.next = cur.right;
 cur.right.next = cur.next.left;
-```
+// ```
 
-之前的关键代码就是上边两句，但是在这道题中我们无法保证`cur.left` 或者 `cur.right` 或者  `cur.next.left`或者`cur.next.right` 是否为`null`。所以我们需要用一个`while`循环来保证当前节点至少有一个孩子。
+// 之前的关键代码就是上边两句，但是在这道题中我们无法保证`cur.left` 或者 `cur.right` 或者  `cur.next.left`或者`cur.next.right` 是否为`null`。所以我们需要用一个`while`循环来保证当前节点至少有一个孩子。
 
-```java
+// ```java
 while (cur.left == null && cur.right == null) {
     cur = cur.next; 
 }
-```
+// ```
 
-这样的话保证了当前节点至少有一个孩子，然后如果一个孩子为 `null`，那么就可以保证另一个一定不为 `null` 了。
+// 这样的话保证了当前节点至少有一个孩子，然后如果一个孩子为 `null`，那么就可以保证另一个一定不为 `null` 了。
 
-整体的话，就用了上边介绍的技巧，代码比较长，可以结合的看一下。
+// 整体的话，就用了上边介绍的技巧，代码比较长，可以结合的看一下。
 
-```java
+// ```java
 Node connect(Node root) {
     if (root == null)
         return root;
@@ -141,40 +141,40 @@ Node connect(Node root) {
         pre = pre.left != null ? pre.left : pre.right;
     } 
 }
-```
+// ```
 
-# 解法三
+// # 解法三
 
-参考 [这里](<https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/discuss/37979/O(1).-Concise.-Fast.-What's-so-hard>)。
+// 参考 [这里](<https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/discuss/37979/O(1).-Concise.-Fast.-What's-so-hard>)。
 
-利用解法一的思想，我们利用 `pre` 指针，然后一个一个取节点，把它连起来。解法一为什么没有像解法二那样考虑当前节点为 `null` 呢？因为我们没有添加为 `null` 的节点，就是下边的代码的作用。
+// 利用解法一的思想，我们利用 `pre` 指针，然后一个一个取节点，把它连起来。解法一为什么没有像解法二那样考虑当前节点为 `null` 呢？因为我们没有添加为 `null` 的节点，就是下边的代码的作用。
 
-```java
+// ```java
 if (cur.left != null) {
     queue.offer(cur.left);
 }
 if (cur.right != null) {
     queue.offer(cur.right);
 }
-```
+// ```
 
-所以这里是一样的，如果当前节点为`null`不处理就可以了。
+// 所以这里是一样的，如果当前节点为`null`不处理就可以了。
 
-第二个问题，怎么得到每次的开头的节点呢？我们用一个`dummy`指针，当连接第一个节点的时候，就将`dummy`指针指向他。此外，之前用的`pre`指针，把它当成`tail`指针可能会更好理解。如下图所示：
+// 第二个问题，怎么得到每次的开头的节点呢？我们用一个`dummy`指针，当连接第一个节点的时候，就将`dummy`指针指向他。此外，之前用的`pre`指针，把它当成`tail`指针可能会更好理解。如下图所示：
 
-![](https://pic.leetcode-cn.com/0dc6ed6ba29a12469f6254b1016c90608b852131939d03fd23d4bbd1aa0a9d78.jpg)
+// ![](https://pic.leetcode-cn.com/0dc6ed6ba29a12469f6254b1016c90608b852131939d03fd23d4bbd1aa0a9d78.jpg)
 
-`cur` 指针利用 `next` 不停的遍历当前层。
+// `cur` 指针利用 `next` 不停的遍历当前层。
 
-如果 `cur` 的孩子不为 `null` 就将它接到 `tail` 后边，然后更新`tail`。
+// 如果 `cur` 的孩子不为 `null` 就将它接到 `tail` 后边，然后更新`tail`。
 
-当 `cur` 为 `null` 的时候，再利用 `dummy` 指针得到新的一层的开始节点。
+// 当 `cur` 为 `null` 的时候，再利用 `dummy` 指针得到新的一层的开始节点。
 
-`dummy` 指针在链表中经常用到，他只是为了处理头结点的情况，它并不属于当前链表。
+// `dummy` 指针在链表中经常用到，他只是为了处理头结点的情况，它并不属于当前链表。
 
-代码就异常的简单了。
+// 代码就异常的简单了。
 
-```java
+// ```java
 Node connect(Node root) {
     Node cur = root;
     while (cur != null) {
@@ -197,10 +197,10 @@ Node connect(Node root) {
     }
     return root;
 }
-```
+// ```
 
-# 总
+// # 总
 
-本来为了图方便，在 [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 的基础上把解法二改了出来，还搞了蛮久，因为为 `null` 的情况太多了，不停的报空指针异常，最后终于理清了思路。但和解法三比起来实在是相形见绌了，解法三太优雅了，但其实这才是正常的思路，从解法一的做法产生灵感，利用 `tail` 指针将它们连起来。
+// 本来为了图方便，在 [116 题](<https://leetcode.wang/leetcode-116-Populating-Next-Right-Pointers-in-Each-Node.html>) 的基础上把解法二改了出来，还搞了蛮久，因为为 `null` 的情况太多了，不停的报空指针异常，最后终于理清了思路。但和解法三比起来实在是相形见绌了，解法三太优雅了，但其实这才是正常的思路，从解法一的做法产生灵感，利用 `tail` 指针将它们连起来。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

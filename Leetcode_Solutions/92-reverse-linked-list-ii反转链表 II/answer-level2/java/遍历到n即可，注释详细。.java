@@ -1,10 +1,10 @@
-### 解题思路
-从链表头部遍历到n即可。
-记录m的Node，以及m前一个node。
-m->n之间的遍历，使用头插法。
-### 代码
+// ### 解题思路
+// 从链表头部遍历到n即可。
+// 记录m的Node，以及m前一个node。
+// m->n之间的遍历，使用头插法。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if(head == null || m == n){
@@ -56,6 +56,6 @@ class Solution {
         return ret.next;
     }
 }
-```
+// ```
 
-![D17D6AFF-9844-47E5-90CE-1DA0C9430F3C.png](https://pic.leetcode-cn.com/0d46d5031498c6384181b7248097e0e48cab1795e4233375131aceacfee6819d-D17D6AFF-9844-47E5-90CE-1DA0C9430F3C.png)
+// ![D17D6AFF-9844-47E5-90CE-1DA0C9430F3C.png](https://pic.leetcode-cn.com/0d46d5031498c6384181b7248097e0e48cab1795e4233375131aceacfee6819d-D17D6AFF-9844-47E5-90CE-1DA0C9430F3C.png)

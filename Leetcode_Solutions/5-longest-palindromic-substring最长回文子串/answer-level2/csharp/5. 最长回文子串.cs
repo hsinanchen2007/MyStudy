@@ -1,10 +1,10 @@
-### 解题思路
-动态规划算法
-bool[,] dp[start, end] 表示从i到j的字符串是否为回文；
+// ### 解题思路
+// 动态规划算法
+// bool[,] dp[start, end] 表示从i到j的字符串是否为回文；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string LongestPalindrome(string s) {
         if (string.IsNullOrEmpty(s)) return string.Empty;
@@ -34,4 +34,4 @@ public class Solution {
         return s.Substring(index, length);
     }
 }
-```
+// ```

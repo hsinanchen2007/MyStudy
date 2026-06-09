@@ -1,22 +1,22 @@
-写了一个C++的解法，已经通过了。。。关键点在这几个地方。。。
-1. 用字符位图当做map用，可以加快速度。。。
-2. 滑动窗口的主要处理难度在于出现重复字符的end位置与start位置的关系。
-3. 现在看起来一共有三种关系。
-3.1 重复字符位置 < start  这种情况出现在“abba”的测试中在判断最后一个a的时候会出现。
-a     b     b     a
-          start  dup
-此时只需要简单的更新map里a的位置。 
+// 写了一个C++的解法，已经通过了。。。关键点在这几个地方。。。
+// 1. 用字符位图当做map用，可以加快速度。。。
+// 2. 滑动窗口的主要处理难度在于出现重复字符的end位置与start位置的关系。
+// 3. 现在看起来一共有三种关系。
+// 3.1 重复字符位置 < start  这种情况出现在“abba”的测试中在判断最后一个a的时候会出现。
+// a     b     b     a
+//           start  dup
+// 此时只需要简单的更新map里a的位置。 
 
-3.2 重复字符位置 = start  这种就是"abcabcbb"出现的a,b,c对应前面的start
-遇到这种情况 start 向前移动一个位置，然后更新map里重复字符的位置
+// 3.2 重复字符位置 = start  这种就是"abcabcbb"出现的a,b,c对应前面的start
+// 遇到这种情况 start 向前移动一个位置，然后更新map里重复字符的位置
  
 
-3.3 重复字符位置 > start  情况"abba"里 第二个b是大于start位置的
-此时，start可以快速移动到dup + 1的位置，然后更新map索引。
+// 3.3 重复字符位置 > start  情况"abba"里 第二个b是大于start位置的
+// 此时，start可以快速移动到dup + 1的位置，然后更新map索引。
 
-代码如下：
+// 代码如下：
 
-```
+// ```
 int lengthOfLongestSubstring(string s)
  {
 	int charmap[128];
@@ -74,5 +74,5 @@ int lengthOfLongestSubstring(string s)
 	return maxLen;
 }
 
-```
+// ```
 

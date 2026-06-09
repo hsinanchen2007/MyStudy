@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func maxSlidingWindow(nums []int, k int) []int {
     if len(nums) == 0 || k<=0 || len(nums)<k{
 		return []int{}
@@ -20,4 +20,4 @@ func maxSlidingWindow(nums []int, k int) []int {
 	}
 	return res
 }
-```
+// ```

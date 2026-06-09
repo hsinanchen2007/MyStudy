@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ int travalTree(struct TreeNode* root, int64_t min, int64_t max)
 bool isValidBST(struct TreeNode* root){
     return travalTree(root, INT64_MIN, INT64_MAX);
 }
-```
+// ```

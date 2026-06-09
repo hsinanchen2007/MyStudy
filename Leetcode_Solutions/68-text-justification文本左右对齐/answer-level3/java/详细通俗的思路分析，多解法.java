@@ -1,21 +1,21 @@
-# 题目描述（困难难度）
+// # 题目描述（困难难度）
 
-![image.png](https://pic.leetcode-cn.com/16de4073d5b8130ade140c207b281d17180ab9e55a53e62053e6f1a3afb87e6a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/16de4073d5b8130ade140c207b281d17180ab9e55a53e62053e6f1a3afb87e6a-image.png)
 
-一个句子，和一个长度表示一行最长的长度，然后对齐文本，有下边几个规则。
+// 一个句子，和一个长度表示一行最长的长度，然后对齐文本，有下边几个规则。
 
-1. 同一个单词只能出现在一行中，不能拆分
-2. 一行如果只能放下一个单词，该单词放在最左边，然后空格补齐，例如 "acknowledgement#####"，这里只是我为了直观，# 表示空格，题目并没有要求。
-3. 一行如果有多个单词，最左边和最右边不能有空格，每个单词间隙尽量平均，如果无法平均，把剩余的空隙从左边开始分配。例如，"enough###to###explain##to"，3 个间隙，每个 2 个空格的话，剩下 2 个空格，从左边依次添加一个空格。
-4. 最后一行执行左对齐，单词间一个空格，末尾用空格补齐。
+// 1. 同一个单词只能出现在一行中，不能拆分
+// 2. 一行如果只能放下一个单词，该单词放在最左边，然后空格补齐，例如 "acknowledgement#####"，这里只是我为了直观，# 表示空格，题目并没有要求。
+// 3. 一行如果有多个单词，最左边和最右边不能有空格，每个单词间隙尽量平均，如果无法平均，把剩余的空隙从左边开始分配。例如，"enough###to###explain##to"，3 个间隙，每个 2 个空格的话，剩下 2 个空格，从左边依次添加一个空格。
+// 4. 最后一行执行左对齐，单词间一个空格，末尾用空格补齐。
 
-# 解法一
+// # 解法一
 
-这道题关键就是理解题目，然后就是一些细节的把控了，我主要是下边的想法。
+// 这道题关键就是理解题目，然后就是一些细节的把控了，我主要是下边的想法。
 
-一行一行计算该行可以放多少个单词，然后计算单词间的空隙是多少，然后把它添加到结果中。
+// 一行一行计算该行可以放多少个单词，然后计算单词间的空隙是多少，然后把它添加到结果中。
 
-```java
+// ```java
 public List<String> fullJustify(String[] words, int maxWidth) {
     List<String> ans = new ArrayList<>();
     //当前行单词已经占用的长度
@@ -95,15 +95,15 @@ private String getStringBlank(int n) {
     }
     return str.toString();
 }
-```
+// ```
 
-时间复杂度：
+// 时间复杂度：
 
-空间复杂度：
+// 空间复杂度：
 
-但是这个算法，在 leetcode 跑，速度只打败了 30% 多的人，1 ms。然后在 discuss 里转了一圈寻求原因，发现大家思路都是这样子，然后找了一个人的跑了下，[链接](https://leetcode.com/problems/text-justification/discuss/24902/Java-easy-to-understand-broken-into-several-functions)。
+// 但是这个算法，在 leetcode 跑，速度只打败了 30% 多的人，1 ms。然后在 discuss 里转了一圈寻求原因，发现大家思路都是这样子，然后找了一个人的跑了下，[链接](https://leetcode.com/problems/text-justification/discuss/24902/Java-easy-to-understand-broken-into-several-functions)。
 
-```java
+// ```java
 public List<String> fullJustify(String[] words, int maxWidth) {
     int left = 0; List<String> result = new ArrayList<>();
 
@@ -161,11 +161,11 @@ private String padResult(String result, int maxWidth) {
 private String blank(int length) {
     return new String(new char[length]).replace('\0', ' ');
 }
-```
+// ```
 
-看了下，发现思想和自己也是一样的。但是这个速度却打败了 100% ，0 ms。考虑了下，差别应该在我的算法里使用了一个叫做 row 的 list 用来保存当前行的单词，用了很多 row.get ( index )，而上边的算法只记录了 left 和 right 下标，取单词直接用的 words 数组。然后尝试着在我之前的算法上改了一下，去掉 row，用两个变量 start 和 end 保存当前行的单词范围。主要是 ( end - start ) 代替了之前的 row.size ( )， words [ start + k ] 代替了之前的 row.get ( k )。
+// 看了下，发现思想和自己也是一样的。但是这个速度却打败了 100% ，0 ms。考虑了下，差别应该在我的算法里使用了一个叫做 row 的 list 用来保存当前行的单词，用了很多 row.get ( index )，而上边的算法只记录了 left 和 right 下标，取单词直接用的 words 数组。然后尝试着在我之前的算法上改了一下，去掉 row，用两个变量 start 和 end 保存当前行的单词范围。主要是 ( end - start ) 代替了之前的 row.size ( )， words [ start + k ] 代替了之前的 row.get ( k )。
 
-```java
+// ```java
 public List<String> fullJustify2(String[] words, int maxWidth) {
     List<String> ans = new ArrayList<>();
     int currentLen = 0;
@@ -230,12 +230,12 @@ private String getStringBlank(int n) {
     }
     return str.toString();
 }
-```
+// ```
 
-果然，速度也到了打败 100%，0 ms。
+// 果然，速度也到了打败 100%，0 ms。
 
-# 总
+// # 总
 
-充分说明 list 的读取还是没有数组的直接读取快呀，还有就是要向上边的作者学习，多封装几个函数，思路会更加清晰，代码也会简明。
+// 充分说明 list 的读取还是没有数组的直接读取快呀，还有就是要向上边的作者学习，多封装几个函数，思路会更加清晰，代码也会简明。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

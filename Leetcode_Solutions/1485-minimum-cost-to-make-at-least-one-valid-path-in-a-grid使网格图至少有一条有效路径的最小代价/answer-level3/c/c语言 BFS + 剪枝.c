@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 BFS, 尝试从原点开始，遍历所有能走到终点的可能性，同时记录到达每个点的花费。
 
 #define MAX_NUMS 100000
@@ -143,4 +143,4 @@ int minCost(int** grid, int gridSize, int* gridColSize){
     }
     return res;
 }
-```
+// ```

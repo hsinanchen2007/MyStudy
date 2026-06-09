@@ -1,9 +1,9 @@
-### 解题思路
-归并排序
+# ### 解题思路
+# 归并排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, left, right):
         """合并两个已排序好的列表，产生一个新的已排序好的列表"""
@@ -45,10 +45,10 @@ class Solution(object):
         res = self.mergesort(nums)
         n = len(nums)
         return res[n-k]
-```
+# ```
 
 
-```python
+# ```python
 class Solution(object):
 
     def merge(self, left, right):
@@ -95,17 +95,17 @@ class Solution(object):
         res = self.mergeSort(nums)
         n = len(nums)
         return res[n-k]
-```
+# ```
 
 
 
 
-### 解题思路
-选择排序
+# ### 解题思路
+# 选择排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findKthLargest(self, nums, k):
         """
@@ -125,15 +125,15 @@ class Solution(object):
             nums[mindex], nums[i] = nums[i], nums[mindex]
 
         return nums[n-k]
-```
+# ```
 
 
-### 解题思路
-冒泡排序
+# ### 解题思路
+# 冒泡排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortColors(self, nums):
         """
@@ -149,15 +149,15 @@ class Solution(object):
                     nums[j], nums[j+1] = nums[j+1], nums[j]
         # print nums
         return nums
-```
+# ```
 
 
-### 解题思路
-快速排序
+# ### 解题思路
+# 快速排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def partition(self, arr,low,high): 
         i = ( low-1 )         # 最小元素索引
@@ -194,16 +194,16 @@ class Solution(object):
         self.quickSort(nums, 0, n-1)
         # print nums
         return nums[n-k]
-```
+# ```
 
 
 
-### 解题思路
-堆排序
+# ### 解题思路
+# 堆排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def heapify(self, arr, n, i): 
         largest = i  
@@ -246,4 +246,4 @@ class Solution(object):
         # print nums
         return nums[n-k]
 
-```
+# ```

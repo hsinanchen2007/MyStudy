@@ -1,10 +1,10 @@
-### 解题思路
-回溯法本质就是不停的试探，利用递归提升效率
-需要提供一个数据空间记录之前的尝试结果
+// ### 解题思路
+// 回溯法本质就是不停的试探，利用递归提升效率
+// 需要提供一个数据空间记录之前的尝试结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -115,4 +115,4 @@ char ** restoreIpAddresses(char *s, int* returnSize)
     //printf("end %d\n",ipindex);
     return ret_ip;
 }
-```
+// ```

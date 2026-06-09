@@ -1,6 +1,6 @@
-# 如果用宏，能实现吗？该怎么写。。
-# 不是宏递归，是宏生成对应数量的嵌套循环。
-```
+// # 如果用宏，能实现吗？该怎么写。。
+// # 不是宏递归，是宏生成对应数量的嵌套循环。
+// ```
 impl Solution {
     pub fn permute(nums: Vec<i32>) -> Vec<Vec<i32>> {
         let mut res = Vec::new();
@@ -20,4 +20,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

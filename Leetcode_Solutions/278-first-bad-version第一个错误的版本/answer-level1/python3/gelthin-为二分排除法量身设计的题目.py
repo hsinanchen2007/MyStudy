@@ -1,11 +1,11 @@
-### 解题思路
-这一题是为二分排除法量身设计的，因为只能判断 mid < target, 还是 mid >= target, 无法直接判断 mid == target
-因此只需要判断一下。
-当然最后还需要最好确认一下。
+# ### 解题思路
+# 这一题是为二分排除法量身设计的，因为只能判断 mid < target, 还是 mid >= target, 无法直接判断 mid == target
+# 因此只需要判断一下。
+# 当然最后还需要最好确认一下。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -29,4 +29,4 @@ class Solution:
                 right = mid
         return left
 
-```
+# ```

@@ -1,8 +1,8 @@
-左边界是什么，就是当前下标i对应的nums[i]==target且nums[i-1]!=target(或当前下标i为0)
-右边界是什么，就是当前下标i对应的nums[i]==target且nums[i+1]!=target(或当前下标i为nums.length-1)
-返回数组初始就赋值[-1,-1]
-没有找到边界就不会改变返回数组的值，即返回[-1,-1]
-```
+// 左边界是什么，就是当前下标i对应的nums[i]==target且nums[i-1]!=target(或当前下标i为0)
+// 右边界是什么，就是当前下标i对应的nums[i]==target且nums[i+1]!=target(或当前下标i为nums.length-1)
+// 返回数组初始就赋值[-1,-1]
+// 没有找到边界就不会改变返回数组的值，即返回[-1,-1]
+// ```
 class Solution {
     int[] res=new int[2];
     int[] n;
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

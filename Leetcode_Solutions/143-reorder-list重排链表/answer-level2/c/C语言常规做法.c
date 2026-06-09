@@ -1,5 +1,5 @@
-先将链表分为两半（注意链表长度为奇数和偶数的情况），再将第二段链表反转，再分别将第二段链表的第k个节点插入第一段链表的原第k个节点后。
-```c
+// 先将链表分为两半（注意链表长度为奇数和偶数的情况），再将第二段链表反转，再分别将第二段链表的第k个节点插入第一段链表的原第k个节点后。
+// ```c
 void reorderList(struct ListNode* head){
     if(head){
         struct ListNode *p=head, *fast_p=head, *sec;
@@ -29,4 +29,4 @@ void reorderList(struct ListNode* head){
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingTwo(self, nums: List[int]) -> List[int]:
         n=len(nums)+2
@@ -21,4 +21,4 @@ class Solution:
         v1=maxHalfv-sumhalf
         v2=diffSum-v1
         return [v1,v2]
-```
+# ```

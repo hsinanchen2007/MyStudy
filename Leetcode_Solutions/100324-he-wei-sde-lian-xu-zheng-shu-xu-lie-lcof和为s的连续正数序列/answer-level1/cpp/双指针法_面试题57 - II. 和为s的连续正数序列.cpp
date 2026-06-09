@@ -1,19 +1,19 @@
-### 解题思路 双指针法
-    /*
-     * 双指针法
-     *
-     * 设置双指针small,big，分别初始化指向1和2,它们都是向右侧移动。
-     * 因为是连续有序序列的和为target，即small与big之间数字的临时和，
-     * 如果临时和大于target，就将small右移，将临时和减去之前的small值，
-     * 继续与target比较，如果仍然大于target，则small继续右移，临时和继续减small值；
-     * 如果临时和小于target，就将big右移，将临时和增加更新后的big值，
-     * 继续与target比较，如果仍然小于target，则big继续右移，临时和继续加big值，
-     * 直到(small, big)之间的临时和等于target，则将该段数字组合为数组存储起来，
-     * 在small小于mid的情况下，big继续右移，继续上面的步骤，
-     * 直到找到所有的和等于target的子数组(因为到mid后面两个数的和一定大于target)。
-     * */
-### 代码
-```cpp
+// ### 解题思路 双指针法
+//     /*
+//      * 双指针法
+//      *
+//      * 设置双指针small,big，分别初始化指向1和2,它们都是向右侧移动。
+//      * 因为是连续有序序列的和为target，即small与big之间数字的临时和，
+//      * 如果临时和大于target，就将small右移，将临时和减去之前的small值，
+//      * 继续与target比较，如果仍然大于target，则small继续右移，临时和继续减small值；
+//      * 如果临时和小于target，就将big右移，将临时和增加更新后的big值，
+//      * 继续与target比较，如果仍然小于target，则big继续右移，临时和继续加big值，
+//      * 直到(small, big)之间的临时和等于target，则将该段数字组合为数组存储起来，
+//      * 在small小于mid的情况下，big继续右移，继续上面的步骤，
+//      * 直到找到所有的和等于target的子数组(因为到mid后面两个数的和一定大于target)。
+//      * */
+// ### 代码
+// ```cpp
 std::vector<std::vector<int>> findContinuousSequence(int target) {
     if(target < 3){
         return {};
@@ -67,4 +67,4 @@ std::vector<int> subSequence(int small, int big) {
 
     return temp;
 }
-```
+// ```

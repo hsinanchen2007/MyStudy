@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针
+# ### 解题思路
+# 快慢指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         return slow
-```
+# ```

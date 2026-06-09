@@ -1,14 +1,14 @@
-思路：
-将结果s一分为二
-String s = start + end;
-递归情况 ： 
-    1. start+"0"+"0"+end（1/8也成立）
-    2. start+"6"+"9"+end
-    3. start+"9"+"6"+end
+// 思路：
+// 将结果s一分为二
+// String s = start + end;
+// 递归情况 ： 
+//     1. start+"0"+"0"+end（1/8也成立）
+//     2. start+"6"+"9"+end
+//     3. start+"9"+"6"+end
 
 
-可以设置布尔变量判断是否为首次递归，毕竟0开头算的次数占了1/5
-```
+// 可以设置布尔变量判断是否为首次递归，毕竟0开头算的次数占了1/5
+// ```
 class Solution {
         List<String> list = new ArrayList<>();
         //上下对称的数字
@@ -48,4 +48,4 @@ class Solution {
             findStrobogrammatic(start + "9", "6" + end, n - 2);
         }
     }
-```
+// ```

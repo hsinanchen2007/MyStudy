@@ -1,13 +1,13 @@
-### 解题思路
-1.找出第i个最大值位置pos
-   如果第i个最大值已经在目标位置，重复1，找下一个次大值
-2.按pos煎饼翻一次
-3.按第i个值得目标位置Asize - i - 1再翻一次
-4.重复1，找下一个次大值
+// ### 解题思路
+// 1.找出第i个最大值位置pos
+//    如果第i个最大值已经在目标位置，重复1，找下一个次大值
+// 2.按pos煎饼翻一次
+// 3.按第i个值得目标位置Asize - i - 1再翻一次
+// 4.重复1，找下一个次大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -65,4 +65,4 @@ int* pancakeSort(int* A, int ASize, int* returnSize)
     *returnSize = index;
     return ret;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2577a44158f8f8b904bed1c1cdb9bac0c3dd6245b62b2cbda8cdbbc477261e4e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2577a44158f8f8b904bed1c1cdb9bac0c3dd6245b62b2cbda8cdbbc477261e4e-image.png)
 
 
-```
+# ```
 '''
 要能够分成三段
 1肯定是均分在这段里面的，要不然三段数值不可能相等
@@ -54,4 +54,4 @@ class Solution:
         if one_pos[one_cnt // 3] - pos1 - 1 >= tail_zero_cnt and one_pos[one_cnt // 3 * 2] - pos2 - 1 >= tail_zero_cnt:
             return [pos1+ tail_zero_cnt, pos2+1+tail_zero_cnt]
         return [-1, -1]
-```
+# ```

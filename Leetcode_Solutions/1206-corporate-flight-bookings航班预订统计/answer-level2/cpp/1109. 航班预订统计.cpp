@@ -1,9 +1,9 @@
 
-#### 方法1
+// #### 方法1
 
-差分法，使用数组维护前缀和，时间复杂度$O(N)$。
+// 差分法，使用数组维护前缀和，时间复杂度$O(N)$。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
@@ -19,13 +19,13 @@ public:
         return vector<int>(tmp.begin()+1,tmp.end()-1);
     }
 };
-```
+// ```
 
-#### 方法2
+// #### 方法2
 
-同样是差分，不过换成了树状数组来维护前缀和。
+// 同样是差分，不过换成了树状数组来维护前缀和。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
@@ -60,4 +60,4 @@ private:
         return x & (-x);
     }
 };
-```
+// ```

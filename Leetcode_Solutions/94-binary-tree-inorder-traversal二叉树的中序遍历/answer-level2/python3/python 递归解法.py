@@ -1,5 +1,5 @@
-递归解法 注意判断node是否为空
-```
+# 递归解法 注意判断node是否为空
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution(object):
         self.helper(root,res)
         return res
 
-```
+# ```

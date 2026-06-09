@@ -1,9 +1,9 @@
-### 解题思路
-突破口：S+S的[-1:1]中必有原S串
+// ### 解题思路
+// 突破口：S+S的[-1:1]中必有原S串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {
@@ -12,4 +12,4 @@ public:
         return false;
     }
 };
-```
+// ```

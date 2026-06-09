@@ -1,9 +1,9 @@
-### 解题思路
-利用Map中key不能重复将key-次数存入
+// ### 解题思路
+// 利用Map中key不能重复将key-次数存入
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> m = new HashMap();
@@ -18,4 +18,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

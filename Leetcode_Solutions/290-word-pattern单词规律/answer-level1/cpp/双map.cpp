@@ -1,9 +1,9 @@
-### 解题思路
-因为题目要求双向匹配，所以要设置两个map。
+// ### 解题思路
+// 因为题目要求双向匹配，所以要设置两个map。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -29,4 +29,4 @@ public:
         return true;
     }
 };
-```
+// ```

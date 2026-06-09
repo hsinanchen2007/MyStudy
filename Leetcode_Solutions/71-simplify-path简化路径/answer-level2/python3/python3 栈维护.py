@@ -1,9 +1,9 @@
-### 解题思路
-栈维护
+# ### 解题思路
+# 栈维护
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def simplifyPath(self, path: str) -> str:
         tmp = path.split("/")
@@ -22,4 +22,4 @@ class Solution:
         if len(res)==0:
             return '/'
         return res
-```
+# ```

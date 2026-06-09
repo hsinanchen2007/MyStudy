@@ -1,12 +1,12 @@
 
-![20191019194052110.png](https://pic.leetcode-cn.com/0b5aa6de4a34a48577b5fb2a01e63e18383297f801338697bb6581b64b8916d5-20191019194052110.png)
-***
-![20191019194347569.png](https://pic.leetcode-cn.com/9068a064656a6bc36694e5c95b83a0d25f8e7bf1175a291ba8dcf983a18a0b3b-20191019194347569.png)
+// ![20191019194052110.png](https://pic.leetcode-cn.com/0b5aa6de4a34a48577b5fb2a01e63e18383297f801338697bb6581b64b8916d5-20191019194052110.png)
+// ***
+// ![20191019194347569.png](https://pic.leetcode-cn.com/9068a064656a6bc36694e5c95b83a0d25f8e7bf1175a291ba8dcf983a18a0b3b-20191019194347569.png)
 
-***
-![20191019195005295.png](https://pic.leetcode-cn.com/ed8d043c2fc01081f937627eadf25f09e30ab5062e769003691d617451eb5df6-20191019195005295.png)
-***
-```
+// ***
+// ![20191019195005295.png](https://pic.leetcode-cn.com/ed8d043c2fc01081f937627eadf25f09e30ab5062e769003691d617451eb5df6-20191019195005295.png)
+// ***
+// ```
 // 279. Perfect Squares
 // https://leetcode-cn.com/problems/perfect-squares/description/
 // 该方法会导致 Time Limit Exceeded 或者 Memory Limit Exceeded
@@ -38,9 +38,9 @@ public class Solution {
     //    System.out.println((new Solution()).numSquares(13));
     //}
 }
-```
-由于从不同的节点，都可以到同一个节点，每个节点只需要入队一次即可（其他的都是重复的过程）
-```
+// ```
+// 由于从不同的节点，都可以到同一个节点，每个节点只需要入队一次即可（其他的都是重复的过程）
+// ```
 // 279. Perfect Squares
 // https://leetcode-cn.com/problems/perfect-squares/description/
 // 使用visited数组,记录每一个入队元素
@@ -75,9 +75,9 @@ public class Solution {
     //    System.out.println((new Solution()).numSquares(13));
     //}
 }
-```
-进一步优化
-```
+// ```
+// 进一步优化
+// ```
 // 279. Perfect Squares
 // https://leetcode-cn.com/problems/perfect-squares/description/
 // 时间复杂度: O(n)
@@ -117,5 +117,5 @@ public class Solution {
     //    System.out.println((new Solution()).numSquares(13));
     //}
 }
-```
-详细说明：[https://blog.csdn.net/qq_40794973/article/details/102642113]()
+// ```
+// 详细说明：[https://blog.csdn.net/qq_40794973/article/details/102642113]()

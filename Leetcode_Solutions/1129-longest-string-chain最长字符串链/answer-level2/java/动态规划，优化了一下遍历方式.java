@@ -1,4 +1,4 @@
-```
+// ```
 public static int longestStrChain(String[] words) {
         if (words == null || words.length == 0) {
             return 0;
@@ -49,4 +49,4 @@ public static int longestStrChain(String[] words) {
         }
         return i == lenA;
     }
-```
+// ```

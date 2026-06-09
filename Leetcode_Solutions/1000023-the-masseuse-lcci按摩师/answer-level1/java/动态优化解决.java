@@ -1,12 +1,12 @@
-### 解题思路
-首先，设状态为下标值
-状态转义方程为f(i)=f(i-c)+nums(c),其中c为数组下标，
-将nums复制到一个比nums数组大2的数组mid中，index从nums.length-1开始，由此将数组最后一项与其它项的处理方法进行统一处理
+// ### 解题思路
+// 首先，设状态为下标值
+// 状态转义方程为f(i)=f(i-c)+nums(c),其中c为数组下标，
+// 将nums复制到一个比nums数组大2的数组mid中，index从nums.length-1开始，由此将数组最后一项与其它项的处理方法进行统一处理
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[] memo = null;
     public int massage(int[] nums) {   
@@ -33,4 +33,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

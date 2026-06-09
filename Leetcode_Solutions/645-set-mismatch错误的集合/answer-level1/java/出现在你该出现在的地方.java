@@ -1,9 +1,9 @@
-### 解题思路
-主要思想是通过交换数组元素，使得数组上的元素在正确的位置上。
+// ### 解题思路
+// 主要思想是通过交换数组元素，使得数组上的元素在正确的位置上。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public int[] findErrorNums(int[] nums) {
             for(int i = 0;i<nums.length;i++){
@@ -24,4 +24,4 @@ class Solution {
             nums[j] = temp;
         }
     }
-```
+// ```

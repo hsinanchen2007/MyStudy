@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![2020-04-02 17-53-05 的屏幕截图.png](https://pic.leetcode-cn.com/a86c7504ae7faefa447a8b57b24209d20a1ed82f839a96543e831cc4fbe0dfb0-2020-04-02%2017-53-05%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![2020-04-02 17-53-05 的屏幕截图.png](https://pic.leetcode-cn.com/a86c7504ae7faefa447a8b57b24209d20a1ed82f839a96543e831cc4fbe0dfb0-2020-04-02%2017-53-05%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 
 public:
@@ -40,4 +40,4 @@ public:
         return ans;
     }
 };
-```
+// ```

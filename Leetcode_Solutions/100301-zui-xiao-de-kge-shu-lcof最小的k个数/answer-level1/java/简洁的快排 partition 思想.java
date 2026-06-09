@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (k == 0 || arr.length == 0) {
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

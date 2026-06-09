@@ -1,9 +1,9 @@
-### 解题思路
-1. 使用双指针从左开始遍历，如果从右开始移动操作多。
+// ### 解题思路
+// 1. 使用双指针从左开始遍历，如果从右开始移动操作多。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         if(nums == null || nums.length == 0) return;
@@ -14,4 +14,4 @@ class Solution {
             if(nums[j] != 0) nums[j] = 0;
     }
 }
-```
+// ```

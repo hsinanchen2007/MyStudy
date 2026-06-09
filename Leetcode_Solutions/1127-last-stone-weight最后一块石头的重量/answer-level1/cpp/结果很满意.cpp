@@ -1,6 +1,6 @@
-代码写出来了，不确定这是不是贪心算法。。。
+// 代码写出来了，不确定这是不是贪心算法。。。
 
-```
+// ```
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -29,4 +29,4 @@ public:
         return stones[index];  //除了这个值可能不是0，其他值都为0
     }
 };
-```
+// ```

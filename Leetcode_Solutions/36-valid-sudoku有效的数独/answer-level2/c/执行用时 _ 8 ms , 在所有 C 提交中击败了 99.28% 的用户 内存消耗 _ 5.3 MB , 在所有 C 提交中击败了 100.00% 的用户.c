@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     int row[9][10] = {0};
@@ -28,4 +28,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
 
 
 
-```
+// ```

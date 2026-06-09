@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：遍历字符串
@@ -56,4 +56,4 @@ bool checkRecord( char * s ){
     return true;
 
 }
-```
+// ```

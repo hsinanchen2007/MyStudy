@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int numSimilarGroups(String[] strings) {
         if (strings == null || strings.length == 0) {
@@ -67,4 +67,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

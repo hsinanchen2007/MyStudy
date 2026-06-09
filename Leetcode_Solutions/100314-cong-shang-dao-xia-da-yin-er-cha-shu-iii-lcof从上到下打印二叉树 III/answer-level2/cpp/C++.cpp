@@ -1,5 +1,5 @@
-用二维vector ans存储指针。用c记录当前层数，奇数层逆序访问上一层的指针，先插入左指针，再插入右指针。偶数层也是逆序访问上一层的指针，但先插入右指针，再插入左指针。
-```
+// 用二维vector ans存储指针。用c记录当前层数，奇数层逆序访问上一层的指针，先插入左指针，再插入右指针。偶数层也是逆序访问上一层的指针，但先插入右指针，再插入左指针。
+// ```
 vector<vector<int>> levelOrder(TreeNode* root) {
     vector<vector<TreeNode*>> ans;
     if(root==nullptr)return vector<vector<int>>();
@@ -47,4 +47,4 @@ vector<vector<int>> levelOrder(TreeNode* root) {
     return res;
 }
 
-```
+// ```

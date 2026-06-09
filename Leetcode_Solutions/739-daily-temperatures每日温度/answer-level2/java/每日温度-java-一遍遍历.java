@@ -1,6 +1,6 @@
-可以从后往前遍历，设置双指针，i代表当前温度，j从i+1位置开始往后遍历（小于数组范围），
-如果T[i] < T[j] 存储当前i为j-i。如果不会升温，设零，开始下一个位置。
-```
+// 可以从后往前遍历，设置双指针，i代表当前温度，j从i+1位置开始往后遍历（小于数组范围），
+// 如果T[i] < T[j] 存储当前i为j-i。如果不会升温，设零，开始下一个位置。
+// ```
 class Solution {
     public int[] dailyTemperatures(int[] T) {
         int[] r = new int[T.length]; 
@@ -22,4 +22,4 @@ class Solution {
         return r;
     }
 }
-```
+// ```

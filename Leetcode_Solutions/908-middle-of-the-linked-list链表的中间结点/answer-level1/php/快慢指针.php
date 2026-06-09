@@ -1,9 +1,9 @@
-### 解题思路
-快慢的原理，快的到头，则慢的一定在中间
+// ### 解题思路
+// 快慢的原理，快的到头，则慢的一定在中间
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -32,4 +32,4 @@ class Solution {
 
     }
 }
-```
+// ```

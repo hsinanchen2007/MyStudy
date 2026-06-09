@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
     
-    1. 完整分发的糖果的构成一个等差数列：1+2+……+p = 1/2*p*(p+1)
-        其中 0 < 1/2*p*(p+1) < candies, 求得 p = floor(sqrt(2c + 1/4)-1/2)
-        remain = candies - p*(p+1)*1/2
-    2. 完整分发轮次 row = p//num, 最后剩下获得剩余糖果的人 col = p%num
-    3. 在完整分发轮次，每人获得的糖果为 res[i] += (i+1)*row + n*row*(row-1)*1/2
-       最后一个回合不完整，在col之前的人能再获得一次 i+1+n*row, 在col上的人获得remain。
+#     1. 完整分发的糖果的构成一个等差数列：1+2+……+p = 1/2*p*(p+1)
+#         其中 0 < 1/2*p*(p+1) < candies, 求得 p = floor(sqrt(2c + 1/4)-1/2)
+#         remain = candies - p*(p+1)*1/2
+#     2. 完整分发轮次 row = p//num, 最后剩下获得剩余糖果的人 col = p%num
+#     3. 在完整分发轮次，每人获得的糖果为 res[i] += (i+1)*row + n*row*(row-1)*1/2
+#        最后一个回合不完整，在col之前的人能再获得一次 i+1+n*row, 在col上的人获得remain。
         
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         res = [0] * num_people
@@ -29,4 +29,4 @@ class Solution:
         res[col] += remain
         return res
 
-```
+# ```

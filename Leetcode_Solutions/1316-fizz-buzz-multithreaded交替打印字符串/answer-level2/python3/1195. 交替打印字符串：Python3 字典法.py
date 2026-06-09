@@ -1,6 +1,6 @@
-设一个线程安全的全局字典`self.d`存储`4`个函数的函数指针，每次获取函数指针的时候进行判断是否获取完了全部函数指针，当满足数量条件时，按顺序输出指针的对应的函数项，这个方法可以解决目前LeetCode里面的所有的多线程问题。
+# 设一个线程安全的全局字典`self.d`存储`4`个函数的函数指针，每次获取函数指针的时候进行判断是否获取完了全部函数指针，当满足数量条件时，按顺序输出指针的对应的函数项，这个方法可以解决目前LeetCode里面的所有的多线程问题。
 
-```python []
+# ```python []
 class FizzBuzz:
     def __init__(self, n: int):
         self.n = n
@@ -33,8 +33,8 @@ class FizzBuzz:
                     self.d['b']()
                 else:
                     self.d['n'](i)
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/9d2a36e206715e39c8aa2443380380254de2e428ae41a2029eabdef203c20055-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9d2a36e206715e39c8aa2443380380254de2e428ae41a2029eabdef203c20055-image.png)
 
-56ms仅供参考。
+# 56ms仅供参考。

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 我们要将n拆成尽可能多的3，剩下的余数若为1，则加入3变成4，若为2，则直接相乘
  * @param {number} n
@@ -24,4 +24,4 @@ const cuttingRope = function(m) {
         return 2n * (3n ** time) % modNum
     }
 }
-```
+// ```

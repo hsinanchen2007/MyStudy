@@ -1,13 +1,13 @@
-**基本思想**
+// **基本思想**
 
-```
+// ```
 curL统计当前（个数，curR统计当前）个数
 result作为结果集
-```
+// ```
 
-**代码实现**
+// **代码实现**
 
-```
+// ```
 func helper(str string,result *[]string,curL int,curR int ,n int)  {
 	if curL == curR && curL == n {
 		*result = append(*result, str)
@@ -27,4 +27,4 @@ func generateParenthesis(n int) []string {
 	helper("",&result,0,0,n)
 	return result
 }
-```
+// ```

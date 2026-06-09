@@ -1,9 +1,9 @@
-### 解题思路
-创个头，谁小谁先跟着，最后谁还有谁再跟上
+// ### 解题思路
+// 创个头，谁小谁先跟着，最后谁还有谁再跟上
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     if(l2) pro->next=l2;
     return head->next;
 }
-```
+// ```

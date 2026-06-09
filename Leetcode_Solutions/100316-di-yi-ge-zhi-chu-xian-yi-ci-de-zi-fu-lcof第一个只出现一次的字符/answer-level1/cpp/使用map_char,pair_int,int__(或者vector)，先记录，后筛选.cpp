@@ -1,7 +1,7 @@
-1、 记录pair<char,pair<数量，位置>>
-2、 遍历map找到满足条件的pair<char,位置>
+// 1、 记录pair<char,pair<数量，位置>>
+// 2、 遍历map找到满足条件的pair<char,位置>
 
-之前想过一些骚方法，比如怎么把map改造成按char来查找而按位置来排序，但是没有实现，希望大佬们多多指教
+// 之前想过一些骚方法，比如怎么把map改造成按char来查找而按位置来排序，但是没有实现，希望大佬们多多指教
 
 class Solution {
 public:

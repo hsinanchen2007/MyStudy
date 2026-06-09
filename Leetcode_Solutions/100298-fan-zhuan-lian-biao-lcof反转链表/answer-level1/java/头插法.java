@@ -1,5 +1,5 @@
-很多答案都用的是双指针。用的是上数据结构课讲得**头插法**进行链表反转
-```
+// 很多答案都用的是双指针。用的是上数据结构课讲得**头插法**进行链表反转
+// ```
     public ListNode reverseList(ListNode head) {
         if (head == null) return null;
         ListNode p = head.next;
@@ -12,5 +12,5 @@
         }
         return head1;   
     }
-```
+// ```
 

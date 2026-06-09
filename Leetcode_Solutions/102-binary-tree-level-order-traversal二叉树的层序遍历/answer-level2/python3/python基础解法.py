@@ -1,10 +1,10 @@
-### 解题思路
-1. BFS，通过两个列表记录当前层数的值，和下一层的node从而遍历出每一层的值
-2. 递归去遍历每一层的值，同时判断若存在下一层的值就去遍历
+# ### 解题思路
+# 1. BFS，通过两个列表记录当前层数的值，和下一层的node从而遍历出每一层的值
+# 2. 递归去遍历每一层的值，同时判断若存在下一层的值就去遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -47,4 +47,4 @@ class Solution:
 
         helper(root, 0)
         return ans       
-```
+# ```

@@ -1,6 +1,6 @@
-搞两个字母表，一个放license的，一个放words。
-统计每个字母出现的个数，然后比较两个字母表，取最短的单词。
-```
+// 搞两个字母表，一个放license的，一个放words。
+// 统计每个字母出现的个数，然后比较两个字母表，取最短的单词。
+// ```
 typedef struct {
 	char* string;
 	int len;
@@ -53,4 +53,4 @@ char * shortestCompletingWord(char * licensePlate, char ** words, int wordsSize)
 	}
 	return result[0].string;
 }
-```
+// ```

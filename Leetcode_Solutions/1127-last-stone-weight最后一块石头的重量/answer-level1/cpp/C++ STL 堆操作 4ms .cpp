@@ -1,5 +1,5 @@
-#### 最大堆，剩余石块多于1时，总可以粉碎，出堆最大的两颗石头，如果重量不同入堆重量的差
-```
+// #### 最大堆，剩余石块多于1时，总可以粉碎，出堆最大的两颗石头，如果重量不同入堆重量的差
+// ```
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -27,4 +27,4 @@ public:
         else return stones.at(0);
     }
 };
-```
+// ```

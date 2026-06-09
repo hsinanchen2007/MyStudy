@@ -1,8 +1,8 @@
-### 解题思路
-我是渣渣。
-### 代码
+// ### 解题思路
+// 我是渣渣。
+// ### 代码
 
-```c
+// ```c
 void rotate(int* nums, int numsSize, int k){
     if(k==0 || numsSize==1 || numsSize==0 || numsSize==k){return;}
 
@@ -31,4 +31,4 @@ void rotate(int* nums, int numsSize, int k){
     
 }
 
-```
+// ```

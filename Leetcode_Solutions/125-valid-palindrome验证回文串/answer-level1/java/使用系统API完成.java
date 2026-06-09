@@ -1,10 +1,10 @@
-### 解题思路
-isLetterOrDigit
-equalsIgnoreCase
+// ### 解题思路
+// isLetterOrDigit
+// equalsIgnoreCase
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         char[] chars = s.toCharArray();
@@ -17,4 +17,4 @@ class Solution {
         return stringBuffer.toString().equalsIgnoreCase(stringBuffer.reverse().toString());
     }
 }
-```
+// ```

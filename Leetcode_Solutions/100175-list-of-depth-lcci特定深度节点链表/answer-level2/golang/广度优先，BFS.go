@@ -1,4 +1,4 @@
-```
+// ```
 type queueNode struct {
 	node  *TreeNode
 	depth int
@@ -35,4 +35,4 @@ func listOfDepth(tree *TreeNode) []*ListNode {
 
 	return result
 }
-```
+// ```

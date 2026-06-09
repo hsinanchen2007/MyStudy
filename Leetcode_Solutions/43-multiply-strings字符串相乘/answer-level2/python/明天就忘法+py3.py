@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if num1=="0" or num2=="0":
@@ -50,4 +50,4 @@ class Solution:
         for s1 in ans:
             res=addStrings(res,s1)
         return res
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-第i家 1、被偷 2、不偷
+// 第i家 1、被偷 2、不偷
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return dp[nums.size()-1];
     }
 };
-```
+// ```

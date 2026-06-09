@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/4fbff76dc5ed2894c63eee7b528e80f76f4e87467ee96db6d1344bf292aad7f3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4fbff76dc5ed2894c63eee7b528e80f76f4e87467ee96db6d1344bf292aad7f3-image.png)
 
-```
+// ```
         int[] res = new int[2];
         int[] array = {a, b, c};
         Arrays.sort(array);
@@ -13,4 +13,4 @@
         res[1] = array[2] - array[0] - 2;
 
         return res;
-```
+// ```

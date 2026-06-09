@@ -1,7 +1,7 @@
-set自动去重，设一set存储摩尔斯密码，返回set大小即可
+// set自动去重，设一set存储摩尔斯密码，返回set大小即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int uniqueMorseRepresentations(vector<string>& words) {
@@ -16,4 +16,4 @@ public:
         return s.size();
     }
 };
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-1. 套用回溯的魔板代码
-2. 按行处理，用 route 保存已经放置皇后的行
-3. 放置下一行的时候需要判断水平和竖直方向是否已经放置，需要遍历已经放置的数组，处理斜线行，斜线的处理可以用如下方式判断
-```
+// ### 解题思路
+// 1. 套用回溯的魔板代码
+// 2. 按行处理，用 route 保存已经放置皇后的行
+// 3. 放置下一行的时候需要判断水平和竖直方向是否已经放置，需要遍历已经放置的数组，处理斜线行，斜线的处理可以用如下方式判断
+// ```
 int diff = Math.abs(current - j);
 (i == (posQ - diff)) || (i == (posQ + diff))
-```
-i 表示当前行中预放置的列号，j表示对已经放置的行的遍历，current 表示当前需要放置的行，
-则 diff 标志当前行和已经放置的行的查，用 posQ 加、减 diff 可以得到斜线坐标 (current, posQ - diff) 和 (current, postQ + diff) 
+// ```
+// i 表示当前行中预放置的列号，j表示对已经放置的行的遍历，current 表示当前需要放置的行，
+// 则 diff 标志当前行和已经放置的行的查，用 posQ 加、减 diff 可以得到斜线坐标 (current, posQ - diff) 和 (current, postQ + diff) 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public List<List<String>> solveNQueens(int n) {
         List<List<String>> ans = new ArrayList<>();
@@ -53,4 +53,4 @@ class Solution {
         }
     }
 }
-```
+// ```

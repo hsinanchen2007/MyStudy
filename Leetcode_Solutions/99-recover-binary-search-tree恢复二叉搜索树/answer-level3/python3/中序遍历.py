@@ -1,33 +1,33 @@
-## 思路:
+# ## 思路:
 
-这道题难点,是找到那两个交换节点,把它交换过来就行了.
+# 这道题难点,是找到那两个交换节点,把它交换过来就行了.
 
-这里我们二叉树搜索树的中序遍历(中序遍历遍历元素是递增的)
+# 这里我们二叉树搜索树的中序遍历(中序遍历遍历元素是递增的)
 
-如下图所示, 中序遍历顺序是 `4,2,3,1`,我们只要找到节点`4`和节点`1`交换顺序即可!
+# 如下图所示, 中序遍历顺序是 `4,2,3,1`,我们只要找到节点`4`和节点`1`交换顺序即可!
 
-这里我们有个规律发现这两个节点:
+# 这里我们有个规律发现这两个节点:
 
-第一个节点,是第一个按照中序遍历时候前一个节点大于后一个节点,我们选取前一个节点,这里指节点`4`;
+# 第一个节点,是第一个按照中序遍历时候前一个节点大于后一个节点,我们选取前一个节点,这里指节点`4`;
 
-第二个节点,是在第一个节点找到之后, 后面出现前一个节点大于后一个节点,我们选择后一个节点,这里指节点`1`;
+# 第二个节点,是在第一个节点找到之后, 后面出现前一个节点大于后一个节点,我们选择后一个节点,这里指节点`1`;
 
 
-![1561339663404.png](https://pic.leetcode-cn.com/b4ee2fcef6391b0756e5d0e84540b448b9ac122a0efabc9ff505e4fdcdd3bc3c-1561339663404.png)
+# ![1561339663404.png](https://pic.leetcode-cn.com/b4ee2fcef6391b0756e5d0e84540b448b9ac122a0efabc9ff505e4fdcdd3bc3c-1561339663404.png)
 
-对于中序遍历,我们有两种方法.
+# 对于中序遍历,我们有两种方法.
 
-方法一: 迭代
+# 方法一: 迭代
 
-方法二: 递归
+# 方法二: 递归
 
-[详细链接](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/die-dai-he-di-gui-by-powcai/) 关于树遍历.
+# [详细链接](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/die-dai-he-di-gui-by-powcai/) 关于树遍历.
 
-## 代码:
+# ## 代码:
 
-方法一:
+# 方法一:
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -60,11 +60,11 @@ class Solution:
             pre = p
             p = p.right
         firstNode.val, secondNode.val = secondNode.val, firstNode.val
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -97,11 +97,11 @@ class Solution {
         secondNode.val = tmp;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python [2]
+# ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -131,11 +131,11 @@ class Solution:
 
         in_order(root)
         self.firstNode.val, self.secondNode.val = self.secondNode.val, self.firstNode.val
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -167,5 +167,5 @@ class Solution {
         in_order(root.right);
     }
 }
-```
+# ```
 

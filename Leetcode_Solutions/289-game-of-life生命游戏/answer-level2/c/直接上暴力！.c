@@ -1,13 +1,13 @@
-### 解题思路
-![1.jpg](https://pic.leetcode-cn.com/710c685e19df55276978fdc41273c0691b9291e24c0259d0d8c25cfe8cff0150-1.jpg)
+// ### 解题思路
+// ![1.jpg](https://pic.leetcode-cn.com/710c685e19df55276978fdc41273c0691b9291e24c0259d0d8c25cfe8cff0150-1.jpg)
 
-暴力求解O(m*n)：
-计算出每一个细胞周围存活的细胞数目O(m*n)。
-根据相应数目改变自身状态O(m*n)。
+// 暴力求解O(m*n)：
+// 计算出每一个细胞周围存活的细胞数目O(m*n)。
+// 根据相应数目改变自身状态O(m*n)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //计算细胞周围存活数目
 int count(int** board, int boardSize, int boardColSize, int i, int j){
     int num = 0;
@@ -57,4 +57,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         for (j = 0; j < boardColSize[0]; ++j)
             board[i][j] = update(board, nums[i][j], i, j);
 }
-```
+// ```

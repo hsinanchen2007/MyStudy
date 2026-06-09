@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历，找到目标后，再多找一步即可
+// ### 解题思路
+// 中序遍历，找到目标后，再多找一步即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         helper(root.right, p);
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/e2e80cc9f64dc3b3073dcbe9be7eb4f5598b471da047befc26113f4ff42c7102-image.png)
-```python
+# ![image.png](https://pic.leetcode-cn.com/e2e80cc9f64dc3b3073dcbe9be7eb4f5598b471da047befc26113f4ff42c7102-image.png)
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         out = r = ""
@@ -17,4 +17,4 @@ class Solution:
         if len(out) < len(r):
             out = r
         return len(out) 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> decimals(int n) {
@@ -31,6 +31,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/21fcba63444e0553c3d827ea1860698d1ccb3c77721ab04690a40ad51d7b022c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/21fcba63444e0553c3d827ea1860698d1ccb3c77721ab04690a40ad51d7b022c-image.png)

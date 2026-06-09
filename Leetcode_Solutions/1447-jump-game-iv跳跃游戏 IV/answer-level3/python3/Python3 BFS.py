@@ -1,8 +1,8 @@
-求最少次数，典型的 BFS 问题。
+# 求最少次数，典型的 BFS 问题。
 
-注意只处理一次值相同的元素，不能重复处理，否则会 TLE。
+# 注意只处理一次值相同的元素，不能重复处理，否则会 TLE。
 
-```
+# ```
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
         d = collections.defaultdict(list)
@@ -41,4 +41,4 @@ class Solution:
             
             res += 1
         
-```
+# ```

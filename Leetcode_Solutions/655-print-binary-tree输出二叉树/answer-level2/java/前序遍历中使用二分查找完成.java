@@ -1,19 +1,19 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 根据示例的结果，我们应该求出树的最大宽度
-    2.2 因为我们需要求出最大宽度，满二叉树的宽度是最大的，所以我们可以通过求出树的最大深度进而求出最大宽度
-    2.3 调用getDepth求出树的最大深度
-    2.4 根据树的高度初始化结果list
-    2.5 根据示例的表示，我们可以推断出结果应该是一个二分查找的形式
-    2.6 对树使用前序遍历，记录层数并使用二分查找决定元素最终位置
-3. 提交记录
-    3.1 力扣中耗时3ms,消耗37.6MB内存
-    3.2 leetcode中耗时1ms,消耗36.4MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 根据示例的结果，我们应该求出树的最大宽度
+//     2.2 因为我们需要求出最大宽度，满二叉树的宽度是最大的，所以我们可以通过求出树的最大深度进而求出最大宽度
+//     2.3 调用getDepth求出树的最大深度
+//     2.4 根据树的高度初始化结果list
+//     2.5 根据示例的表示，我们可以推断出结果应该是一个二分查找的形式
+//     2.6 对树使用前序遍历，记录层数并使用二分查找决定元素最终位置
+// 3. 提交记录
+//     3.1 力扣中耗时3ms,消耗37.6MB内存
+//     3.2 leetcode中耗时1ms,消耗36.4MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     655.Print Binary Tree
@@ -84,6 +84,6 @@ class Solution {
         return Math.max(getLevel(root.left), getLevel(root.right)) + 1;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

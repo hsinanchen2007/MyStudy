@@ -1,9 +1,9 @@
-### 解题思路
-大佬轻喷
+// ### 解题思路
+// 大佬轻喷
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s)
@@ -37,4 +37,4 @@ public:
         return subs;
     }
 };
-```
+// ```

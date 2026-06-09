@@ -1,6 +1,6 @@
-考虑一个长度为6的数组，k为4
-只需要做gcd(6,4)次，步长为k的旋转
-```
+# 考虑一个长度为6的数组，k为4
+# 只需要做gcd(6,4)次，步长为k的旋转
+# ```
 class Solution:
     def gcd(self,a,b):
         return a if b==0 else self.gcd(b,a%b)
@@ -17,4 +17,4 @@ class Solution:
                 nums[ind]=nums[(ind-k+N)%N]
                 ind=(ind-k+N)%N
             nums[(i+k)%N]=temp
-```
+# ```

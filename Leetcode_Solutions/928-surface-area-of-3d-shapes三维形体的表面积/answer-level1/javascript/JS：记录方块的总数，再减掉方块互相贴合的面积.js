@@ -1,8 +1,8 @@
-js ： 记录方块的总数，每个方块6个面，再减掉方块之间互相贴合而损失的面积
+// js ： 记录方块的总数，每个方块6个面，再减掉方块之间互相贴合而损失的面积
 
-顺便说一句，这玩意是“飘”在天上的，不用减地面那部分面积
+// 顺便说一句，这玩意是“飘”在天上的，不用减地面那部分面积
 
-```js
+// ```js
 var surfaceArea = function(grid) {
   const N = grid.length;
   if(N === 0)return 0;
@@ -25,4 +25,4 @@ var surfaceArea = function(grid) {
   }
   return num*6 - area;
 };
-```
+// ```

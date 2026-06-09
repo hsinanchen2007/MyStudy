@@ -1,9 +1,9 @@
-### 解题思路
-前后指针逐步向右滑动，并更新当前子串内元素个数， 分为新元素加入 和重复元素两种情况 滑动窗口即可
+// ### 解题思路
+// 前后指针逐步向右滑动，并更新当前子串内元素个数， 分为新元素加入 和重复元素两种情况 滑动窗口即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
 
     int length = strlen(s);
@@ -34,4 +34,4 @@ int lengthOfLongestSubstring(char * s){
 }
 
 
-```
+// ```

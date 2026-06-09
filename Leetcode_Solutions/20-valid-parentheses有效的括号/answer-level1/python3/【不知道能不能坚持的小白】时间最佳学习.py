@@ -1,11 +1,11 @@
-### 解题思路
-学习结果里面的时间最佳方法。
+# ### 解题思路
+# 学习结果里面的时间最佳方法。
 
-**本题关键思路**：匹配对以左括号为key，右括号为对应的value放入字典（也就是哈希表），通过查找字典来确定括号是否匹配。
+# **本题关键思路**：匹配对以左括号为key，右括号为对应的value放入字典（也就是哈希表），通过查找字典来确定括号是否匹配。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         # 左括号作为key，右括号作为value。
@@ -21,4 +21,4 @@ class Solution:
             elif match_dict[stack.pop()] != i:
                 return False
         return len(stack) == 1
-```
+# ```

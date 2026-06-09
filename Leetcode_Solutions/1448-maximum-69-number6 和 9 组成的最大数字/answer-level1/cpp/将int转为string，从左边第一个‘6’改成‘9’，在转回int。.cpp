@@ -1,11 +1,11 @@
-### 解题思路
-将int转为string，从左边第一个‘6’改成‘9’，在转回int。
+// ### 解题思路
+// 将int转为string，从左边第一个‘6’改成‘9’，在转回int。
 
-![image.png](https://pic.leetcode-cn.com/d87e43e7d85592adcb6405bdb51791533e7a3208ecfa507f3c2bb86bb7926b23-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d87e43e7d85592adcb6405bdb51791533e7a3208ecfa507f3c2bb86bb7926b23-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -20,4 +20,4 @@ public:
         return stoi(str);
     }
 };
-```
+// ```

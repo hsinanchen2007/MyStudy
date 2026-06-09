@@ -1,9 +1,9 @@
-### 解题思路
-首先定义Node类，在此基础上定义Stack并实现增删查；基于Stack实现队列
+# ### 解题思路
+# 首先定义Node类，在此基础上定义Stack并实现增删查；基于Stack实现队列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -86,4 +86,4 @@ class Stack:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

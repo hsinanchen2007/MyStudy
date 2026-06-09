@@ -1,4 +1,4 @@
-// 先切割，然后独自判断
+// // 先切割，然后独自判断
 class Solution {
 public:
     string validIPAddress(string IP) {

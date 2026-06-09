@@ -1,8 +1,8 @@
-### 解题思路
-判断如果左边大于等于右边则加否则减
-### 代码
+# ### 解题思路
+# 判断如果左边大于等于右边则加否则减
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         dict_roman = {
@@ -24,4 +24,4 @@ class Solution:
             else:
                 n -= x
         return n
-```
+# ```

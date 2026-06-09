@@ -1,18 +1,18 @@
-1.利用unordered_map统计每个字母出现的次数
-2.构建一个结构体
-```
+// 1.利用unordered_map统计每个字母出现的次数
+// 2.构建一个结构体
+// ```
    struct pair{
         int times;
         char letter;
     };
-```
-3.将map中的数据转为结构体后传入一个数组中
-4.利用sort函数对pair.times 排序
-5.按照排好的顺序创建新的string
+// ```
+// 3.将map中的数据转为结构体后传入一个数组中
+// 4.利用sort函数对pair.times 排序
+// 5.按照排好的顺序创建新的string
 
 
 
-```
+// ```
 class Solution {
 private:
     struct pair{
@@ -54,5 +54,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

@@ -1,10 +1,10 @@
-参考了前面几位大神的代码，但加入了 dummy node。
+// 参考了前面几位大神的代码，但加入了 dummy node。
 
-直接看代码，pre 表示当前需要寻找 next 的节点。在每一层最开始，把 pre 设为 dummy node。这样不用每一层都先寻找第一个点。
+// 直接看代码，pre 表示当前需要寻找 next 的节点。在每一层最开始，把 pre 设为 dummy node。这样不用每一层都先寻找第一个点。
 
-做完这一层连接后，直接把下一层的起始 parent 设为 dummy.next。dummy node 的加入简化了代码。
+// 做完这一层连接后，直接把下一层的起始 parent 设为 dummy.next。dummy node 的加入简化了代码。
 
-```
+// ```
     public Node connect(Node root) {
         if (root == null)
             return null;
@@ -39,4 +39,4 @@
         return root;
     }
 
-```
+// ```

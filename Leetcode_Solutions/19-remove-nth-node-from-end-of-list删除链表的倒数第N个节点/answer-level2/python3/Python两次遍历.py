@@ -1,8 +1,8 @@
-### 解题思路
-先计算长度再删除
-### 代码
+# ### 解题思路
+# 先计算长度再删除
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             node = node.next
         node.next = node.next.next
         return head
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-- 直接使用暴力解法
-- 根据官方的一次的哈希，因为Swift没有哈希，所以在取之前的数的序列的时候还是需要用到数组。
+// ### 解题思路
+// - 直接使用暴力解法
+// - 根据官方的一次的哈希，因为Swift没有哈希，所以在取之前的数的序列的时候还是需要用到数组。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func twoSum(_ A: [Int], _ target: Int) -> [Int] {
         // for i in 0..<nums.count {
@@ -31,4 +31,4 @@ class Solution {
         assert(false, "NO SOLUTION")
     }
 }
-```
+// ```

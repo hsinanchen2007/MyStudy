@@ -1,10 +1,10 @@
-### 解题思路
-* 贪心算法，一开始各种胡思乱想
-* 不要假设第一个种或者第一个没种，场景太多，后续每一个位置都可能种了或者没种
-* 贪心的关键条件是把所有前后都是0的全部都种上。
+// ### 解题思路
+// * 贪心算法，一开始各种胡思乱想
+// * 不要假设第一个种或者第一个没种，场景太多，后续每一个位置都可能种了或者没种
+// * 贪心的关键条件是把所有前后都是0的全部都种上。
 
-### 代码
-```java
+// ### 代码
+// ```java
 // 第一步、正常判断条件，存在越界情况无法正常运行
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
@@ -22,8 +22,8 @@ class Solution {
         return flowerCnt >= n;
     }
 }
-```
-```java
+// ```
+// ```java
 第二步、增加贪心条件
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
@@ -37,4 +37,4 @@ class Solution {
         return flowerCnt >= n;
     }
 }
-```
+// ```

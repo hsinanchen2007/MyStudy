@@ -1,9 +1,9 @@
-### 解题思路
-使用 reverse 方法对整个字符串进行翻转
+// ### 解题思路
+// 使用 reverse 方法对整个字符串进行翻转
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         int b = 1;
@@ -24,4 +24,4 @@ class Solution {
     }
 }
 
-```
+// ```

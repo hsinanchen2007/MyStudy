@@ -1,12 +1,12 @@
-### 解题思路
-牢记双层递归的遍历顺序问题
-然后重点就是左孩子是null，直接返回右边的孩子值，如果是null，也会返回，然后继续回溯，再向上找父节点
-如果左右都有值，那当前节点就是公共祖先节点
-本次操作的缺点，会把整颗树遍历完。
+// ### 解题思路
+// 牢记双层递归的遍历顺序问题
+// 然后重点就是左孩子是null，直接返回右边的孩子值，如果是null，也会返回，然后继续回溯，再向上找父节点
+// 如果左右都有值，那当前节点就是公共祖先节点
+// 本次操作的缺点，会把整颗树遍历完。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,4 +33,4 @@ var lowestCommonAncestor = function(root, p, q) {
     if(leftNode !=null && rightNode !=null)
     return root;
 };
-```
+// ```

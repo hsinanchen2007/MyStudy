@@ -1,11 +1,11 @@
-### 解题思路
-第一步：dfs将第一个的岛屿元素全部标记出来，并顺序入队；
-第二步：bfs遍历队内各元素，将未标记元素标记并入队，step++;
-第三步：找到新的元素为1即为新岛屿，step++返回即可。
+// ### 解题思路
+// 第一步：dfs将第一个的岛屿元素全部标记出来，并顺序入队；
+// 第二步：bfs遍历队内各元素，将未标记元素标记并入队，step++;
+// 第三步：找到新的元素为1即为新岛屿，step++返回即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define FOUND      2
 #define DIRECTIONS 4
 #define MAXSIZE    10000
@@ -164,4 +164,4 @@ int shortestBridge(int** A, int ASize, int* AColSize){
 
     return step;
 }
-```
+// ```

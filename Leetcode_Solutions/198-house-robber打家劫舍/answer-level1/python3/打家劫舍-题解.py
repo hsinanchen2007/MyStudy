@@ -1,9 +1,9 @@
-### 解题思路
-此题参考了[官方题解](https://leetcode-cn.com/problems/the-masseuse-lcci/solution/an-mo-shi-by-leetcode-solution/)，讲解的很细致明白，规律很明显，感谢！
+# ### 解题思路
+# 此题参考了[官方题解](https://leetcode-cn.com/problems/the-masseuse-lcci/solution/an-mo-shi-by-leetcode-solution/)，讲解的很细致明白，规律很明显，感谢！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         lgth = len(nums)
@@ -22,4 +22,4 @@ class Solution:
             dp0, dp1 = dp0_cur, dp1_cur
         
         return max(dp0, dp1)
-```
+# ```

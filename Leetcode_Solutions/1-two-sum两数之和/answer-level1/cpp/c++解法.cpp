@@ -1,8 +1,8 @@
-### 解题思路
-8ms战胜了96.45%的用户,从首尾向中间查找，需要排序,但由于c++无法直接记录索引的排序,所以这里还排序了2次,如果有更好的记录排序索引的方式欢迎交流
-### 代码
+// ### 解题思路
+// 8ms战胜了96.45%的用户,从首尾向中间查找，需要排序,但由于c++无法直接记录索引的排序,所以这里还排序了2次,如果有更好的记录排序索引的方式欢迎交流
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<int> twoSum(vector<int> &nums, int target)
@@ -54,4 +54,4 @@ vector<int> twoSum(vector<int> &nums, int target)
     return result;
 }
 };
-```
+// ```

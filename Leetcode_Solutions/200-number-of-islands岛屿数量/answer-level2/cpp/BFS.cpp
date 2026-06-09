@@ -1,11 +1,11 @@
-### 解题思路
-没啥值得详细阐述的。大致思路如下：
-遍历grid中的每一个节点，设置count变量计数岛屿数量；
-如果遍历到值为1的节点，则count++并从该节点开始对值为1的节点进行BFS，经过的节点值改为2（避免重复），BFS结束后继续grid的遍历。
+// ### 解题思路
+// 没啥值得详细阐述的。大致思路如下：
+// 遍历grid中的每一个节点，设置count变量计数岛屿数量；
+// 如果遍历到值为1的节点，则count++并从该节点开始对值为1的节点进行BFS，经过的节点值改为2（避免重复），BFS结束后继续grid的遍历。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void explore(vector<vector<char>>& grid, int row, int col){  //保证grid[row][col]=1
@@ -38,4 +38,4 @@ public:
         return count;
     }
 };
-```
+// ```

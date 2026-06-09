@@ -1,9 +1,9 @@
-### 解题思路
-注意n为1、2、3的情况，还有为负数的过程
+// ### 解题思路
+// 注意n为1、2、3的情况，还有为负数的过程
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-类似组合数思路，重点在先对nums进行排序，在递归中，遇见重复数字跳过即可
+// ### 解题思路
+// 类似组合数思路，重点在先对nums进行排序，在递归中，遇见重复数字跳过即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>> res;
     public List<List<Integer>> subsetsWithDup(int[] nums) {
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

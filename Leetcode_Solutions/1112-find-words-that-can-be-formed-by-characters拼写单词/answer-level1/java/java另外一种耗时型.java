@@ -1,9 +1,9 @@
-### 解题思路
-该方法13ms  把判断布尔值的函数提取出来的方法6ms 事实证明写在一起即慢又看不清楚
+// ### 解题思路
+// 该方法13ms  把判断布尔值的函数提取出来的方法6ms 事实证明写在一起即慢又看不清楚
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int[] charnum = new int[26];
@@ -32,4 +32,4 @@ class Solution {
         return length;
     }
 }
-```
+// ```

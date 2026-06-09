@@ -1,4 +1,4 @@
-    //先找倒数第一个非空格的索引，再继续找一个个空格索引
+//     //先找倒数第一个非空格的索引，再继续找一个个空格索引
     int lengthOfLastWord(string s) {
         int i = s.size()-1;
         int j  =  i;

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,5 +27,5 @@ class Solution {
         }
     }
 }
-```
-非常简单的递归法,效率也还是可以的.
+// ```
+// 非常简单的递归法,效率也还是可以的.

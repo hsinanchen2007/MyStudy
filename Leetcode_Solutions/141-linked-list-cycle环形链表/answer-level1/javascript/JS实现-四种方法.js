@@ -1,6 +1,6 @@
 
-[JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/tree/0816-leetcode/src/leetcode)
-```js
+// [JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/tree/0816-leetcode/src/leetcode)
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -106,4 +106,4 @@ var hasCycle4 = function (head) {
 // Test
 console.log(hasCycle4(head))
 
-```
+// ```

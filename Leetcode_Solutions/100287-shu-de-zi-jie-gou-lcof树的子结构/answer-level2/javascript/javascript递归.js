@@ -1,9 +1,9 @@
-### 解题思路
-注意，这道题是子结构，不是子树。解法和子树差不多，唯一不同的就是子结构只要匹配一部分就可以 
+// ### 解题思路
+// 注意，这道题是子结构，不是子树。解法和子树差不多，唯一不同的就是子结构只要匹配一部分就可以 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -40,4 +40,4 @@ var isSubStructure = function(A, B) {
     helper(A)
     return isSame
 };
-```
+// ```

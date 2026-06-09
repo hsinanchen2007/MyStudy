@@ -1,9 +1,9 @@
-执行用时 : 244 ms, 在Flower Planting With No Adjacent的Python3提交中击败了91.86% 的用户
+# 执行用时 : 244 ms, 在Flower Planting With No Adjacent的Python3提交中击败了91.86% 的用户
 
-内存消耗 : 17.6 MB, 在Flower Planting With No Adjacent的Python3提交中击败了100.00% 的用户
+# 内存消耗 : 17.6 MB, 在Flower Planting With No Adjacent的Python3提交中击败了100.00% 的用户
 
 
-```
+# ```
 class Solution:
     def gardenNoAdj(self, N, paths):
         from collections import defaultdict
@@ -28,4 +28,4 @@ class Solution:
             result.append(this_garden_flower)
             garden_flower[i] = this_garden_flower
         return result
-```
+# ```

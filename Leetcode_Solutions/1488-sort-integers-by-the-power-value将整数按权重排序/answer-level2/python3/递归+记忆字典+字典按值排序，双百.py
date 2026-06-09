@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/8881b6282b3f1047f467ebd77e924309b6bda36e97a04e24dd31fdf8ee390e02-image.png)
+# ![image.png](https://pic.leetcode-cn.com/8881b6282b3f1047f467ebd77e924309b6bda36e97a04e24dd31fdf8ee390e02-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getKth(self, lo: int, hi: int, k: int) -> int:
         mem = {}
@@ -33,4 +33,4 @@ class Solution:
             if i + 1 == k:
                 return key
             
-```
+# ```

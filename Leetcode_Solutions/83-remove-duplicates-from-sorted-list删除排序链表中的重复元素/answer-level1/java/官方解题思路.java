@@ -1,8 +1,8 @@
-### 解题思路
-官方解题思路，只用一个current节点而非两个pre和rear节点可以介绍额外的判空。
-### 代码
+// ### 解题思路
+// 官方解题思路，只用一个current节点而非两个pre和rear节点可以介绍额外的判空。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,4 +24,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-**里面的ret这个值大概是这个解法最重要的一部分
-本题的难点在于的是如何处理一些进位之类的特殊情况，而其中ret的设立很好的解决了这个问题，并且容易理解。
-大概就是这样了，个人能力有限，能给大家带来好处的话再好不过，不喜勿喷。**
-```
+// **里面的ret这个值大概是这个解法最重要的一部分
+// 本题的难点在于的是如何处理一些进位之类的特殊情况，而其中ret的设立很好的解决了这个问题，并且容易理解。
+// 大概就是这样了，个人能力有限，能给大家带来好处的话再好不过，不喜勿喷。**
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2)
 {
     struct ListNode *l3 = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -51,4 +51,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2)
     }
     return l3;
 }
-```
+// ```

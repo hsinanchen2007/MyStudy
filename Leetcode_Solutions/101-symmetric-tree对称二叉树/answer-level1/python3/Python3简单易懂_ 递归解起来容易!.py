@@ -1,13 +1,13 @@
-### 解题思路
-写一个is_sym函数, 输入两个节点.
+# ### 解题思路
+# 写一个is_sym函数, 输入两个节点.
 
-判断两个节点是否本身值相等, 左子==右子, 右子==左子, 都满足就是对称的!
+# 判断两个节点是否本身值相等, 左子==右子, 右子==左子, 都满足就是对称的!
 
-本质上还是一个递归解法.
+# 本质上还是一个递归解法.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         return is_sym(root.left, root.right)
         
         
-```
+# ```

@@ -1,6 +1,6 @@
-class Solution {
-public:
-```
+// class Solution {
+// public:
+// ```
 int f(int n){//计算1到n含的5的因子数 
 	int sum=0;
 	while(n>=0&&n%5)//0到n中最大的5的倍数 
@@ -17,5 +17,5 @@ int trailingZeroes(int n) {
 	//并且5远比2少，所以只要知道5的因子数即可
  	return f(n); 
 }
-```	
-};
+// ```	
+// };

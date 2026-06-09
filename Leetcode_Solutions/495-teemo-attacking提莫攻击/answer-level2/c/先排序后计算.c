@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-先排序后计算
+// 先排序后计算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int MyCompare(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -30,4 +30,4 @@ int findPoisonedDuration(int* timeSeries, int timeSeriesSize, int duration)
 
     return sum + duration;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-把数组长度延长一倍，就可以循环到数组内所有元素，使用单调递减栈解决。
-### 代码
+// ### 解题思路
+// 把数组长度延长一倍，就可以循环到数组内所有元素，使用单调递减栈解决。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return anss;
     }
 };
-```
+// ```

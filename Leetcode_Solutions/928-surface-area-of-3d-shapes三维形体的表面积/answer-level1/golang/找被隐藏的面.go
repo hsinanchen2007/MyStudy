@@ -1,11 +1,11 @@
-### 解题思路
-* 直接算外表面比较复杂，通过算重合被隐藏的面比较简单
-  * 上下隐藏 2 *（grid[i][j] - 1 ）
-  * 左右隐藏 min(grid[i][j],前后左右)
+// ### 解题思路
+// * 直接算外表面比较复杂，通过算重合被隐藏的面比较简单
+//   * 上下隐藏 2 *（grid[i][j] - 1 ）
+//   * 左右隐藏 min(grid[i][j],前后左右)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func surfaceArea(grid [][]int) int {
   N := len(grid)
   sum := 0
@@ -41,4 +41,4 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```

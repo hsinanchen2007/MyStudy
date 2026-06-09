@@ -1,13 +1,13 @@
-### 解题思路
-	1. 创建队列q1
-	2. push(x)：将x直接push到q1，除x外所有元素均从队首取出后再push到q1，此时队首为x
-	3. pop()：q1首个元素出队
-	4. top()：获取q1首个元素
-	5. empty()：q1的长度是否为0
+# ### 解题思路
+# 	1. 创建队列q1
+# 	2. push(x)：将x直接push到q1，除x外所有元素均从队首取出后再push到q1，此时队首为x
+# 	3. pop()：q1首个元素出队
+# 	4. top()：获取q1首个元素
+# 	5. empty()：q1的长度是否为0
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack:
 
     def __init__(self):
@@ -55,4 +55,4 @@ class MyStack:
 # param_3 = obj.top()
 # param_4 = obj.empty()
 
-```
+# ```

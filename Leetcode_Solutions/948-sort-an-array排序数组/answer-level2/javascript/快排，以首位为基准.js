@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -26,4 +26,4 @@ var helper = function(nums, i, j){
 var sortArray = function(nums) {
   return helper(nums, 0, nums.length-1)
 };
-```
+// ```

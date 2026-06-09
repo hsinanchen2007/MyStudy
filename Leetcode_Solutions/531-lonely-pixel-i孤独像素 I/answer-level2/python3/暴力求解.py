@@ -1,4 +1,4 @@
-```
+# ```
         size_row = len(picture)
         size_col = len(picture[0])
         # candidate记录了哪些行只包含一个B, 然后后续的操作就是在这些记录上进一步判断列上有没有之前出现过B
@@ -28,4 +28,4 @@
                     col_set.add(j)
         
         return len(candidates)
-```
+# ```

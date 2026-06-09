@@ -1,6 +1,6 @@
-其实类似N皇后的问题，都是此路不通则返回上一状态并继续尝试。
-直接上代码，大家多指教
-```
+// 其实类似N皇后的问题，都是此路不通则返回上一状态并继续尝试。
+// 直接上代码，大家多指教
+// ```
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -34,4 +34,4 @@ private:
         return false;
     }
 };
-```
+// ```

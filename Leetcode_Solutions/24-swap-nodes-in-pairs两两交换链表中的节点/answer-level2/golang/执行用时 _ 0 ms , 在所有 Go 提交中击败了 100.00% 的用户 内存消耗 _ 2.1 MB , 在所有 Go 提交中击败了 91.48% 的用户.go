@@ -1,5 +1,5 @@
-不一定递归吧，三个指针就好了
-```
+// 不一定递归吧，三个指针就好了
+// ```
 func swapPairs(head *ListNode) *ListNode {
 	if head==nil {
 		return nil
@@ -25,4 +25,4 @@ func swapPairs(head *ListNode) *ListNode {
 	}
 	return res
 }
-```
+// ```

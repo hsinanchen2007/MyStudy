@@ -1,9 +1,9 @@
-### 解题思路
-我真是个笨比
+# ### 解题思路
+# 我真是个笨比
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         dic1={nums[0]:0}
@@ -17,4 +17,4 @@ class Solution:
              dic1[nums[i]]=1
              k=0
         return max(dic1,key=dic1.get)
-```
+# ```

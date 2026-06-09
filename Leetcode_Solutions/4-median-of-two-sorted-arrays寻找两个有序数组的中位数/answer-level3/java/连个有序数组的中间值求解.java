@@ -1,14 +1,14 @@
-### 解题思路
-首先数组A和数组B，规定A的长度m小于B的长度n;k=(m+n+1)/2；
-其中如果m+n是偶数，那么中间值是第k个值和K+1个值的平均数；
-如果m+n是奇数，那么中间值是第k个值；
-设i取值[0，m],j=(m+n+1)/2-i-1;
-i初始值取m/2;
-通过i来确定j，通过处理A数组来解决B的数据；
+// ### 解题思路
+// 首先数组A和数组B，规定A的长度m小于B的长度n;k=(m+n+1)/2；
+// 其中如果m+n是偶数，那么中间值是第k个值和K+1个值的平均数；
+// 如果m+n是奇数，那么中间值是第k个值；
+// 设i取值[0，m],j=(m+n+1)/2-i-1;
+// i初始值取m/2;
+// 通过i来确定j，通过处理A数组来解决B的数据；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
@@ -271,4 +271,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

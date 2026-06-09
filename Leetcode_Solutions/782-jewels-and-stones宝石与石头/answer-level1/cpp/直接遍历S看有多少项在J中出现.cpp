@@ -1,9 +1,9 @@
-### 解题思路
-代码很好懂，不用解释
+// ### 解题思路
+// 代码很好懂，不用解释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -25,4 +25,4 @@ public:
         
     }
 };
-```
+// ```

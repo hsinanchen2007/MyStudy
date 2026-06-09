@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/6cca10f0cacc37e87c274761040f045db7da43006cbeb4d3550df9d36762c702-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6cca10f0cacc37e87c274761040f045db7da43006cbeb4d3550df9d36762c702-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def permutation(self, S):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                     temp.append(value[:j] + S[i] + value[j:])
             result = temp
         return result
-```
+# ```

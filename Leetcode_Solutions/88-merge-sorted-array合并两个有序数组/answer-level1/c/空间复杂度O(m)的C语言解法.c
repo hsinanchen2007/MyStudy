@@ -1,11 +1,11 @@
-### 解题思路
-1.使用m个大小的空间复制nums1
-2.比较之后放入新数组
-//高级解法：从后往前开始比较，存在最后
+// ### 解题思路
+// 1.使用m个大小的空间复制nums1
+// 2.比较之后放入新数组
+// //高级解法：从后往前开始比较，存在最后
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int* a = (int*)malloc(sizeof(int)*m);
@@ -20,4 +20,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     else while(i<m)nums1[k++]=a[i++];
     m = m+n;
 }
-```
+// ```

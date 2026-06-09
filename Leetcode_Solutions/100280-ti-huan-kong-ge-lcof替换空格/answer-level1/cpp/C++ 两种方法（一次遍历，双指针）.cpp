@@ -1,10 +1,10 @@
-### 解题思路
-![1581482989(1).png](https://pic.leetcode-cn.com/cbbd4287b365a833f2e0a85d01c7574d8e3a8ba7820bbd8621b14439920e8aa7-1581482989\(1\).png)
+// ### 解题思路
+// ![1581482989(1).png](https://pic.leetcode-cn.com/cbbd4287b365a833f2e0a85d01c7574d8e3a8ba7820bbd8621b14439920e8aa7-1581482989\(1\).png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

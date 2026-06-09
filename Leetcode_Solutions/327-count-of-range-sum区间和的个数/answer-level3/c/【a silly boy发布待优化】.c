@@ -1,4 +1,4 @@
-```
+// ```
 void SubFuncDFS(int* nums, int numsSize, int lIndex, int rIndex, int lower, int upper, long long int sum, int *outputNum)
 {
     int i;
@@ -33,4 +33,4 @@ int countRangeSum(int* nums, int numsSize, int lower, int upper){
 
     return outputNum;
 }
-```
+// ```

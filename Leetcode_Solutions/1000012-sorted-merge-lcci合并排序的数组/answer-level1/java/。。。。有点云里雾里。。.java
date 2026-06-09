@@ -1,9 +1,9 @@
-### 解题思路
-。。。。有点云里雾里。。
+// ### 解题思路
+// 。。。。有点云里雾里。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         if(n==0)
@@ -13,4 +13,4 @@ class Solution {
         Arrays.sort(A);
     }
 }
-```
+// ```

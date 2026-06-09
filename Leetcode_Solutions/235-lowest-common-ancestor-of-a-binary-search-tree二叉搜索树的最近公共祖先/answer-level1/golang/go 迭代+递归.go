@@ -1,4 +1,4 @@
-```
+// ```
 //迭代
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	pVal, qVal := p.Val, q.Val
@@ -29,4 +29,4 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 		return root
 	}
 }
-```
+// ```

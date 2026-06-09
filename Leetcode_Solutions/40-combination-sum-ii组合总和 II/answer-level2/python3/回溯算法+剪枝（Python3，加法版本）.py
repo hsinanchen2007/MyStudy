@@ -1,8 +1,8 @@
 
-解法：回溯 + 剪枝
+# 解法：回溯 + 剪枝
 
 
-```
+# ```
 class Solution:
     def combinationSum2(self, candidates, target):
         lenCan = len(candidates)
@@ -30,4 +30,4 @@ class Solution:
                 # 由于元素只能用一次，所以indBegin = index+1
                 self.backtrack(curCandidates, target, lenCan, nextSum, index+1, path, res)
                 path.pop()
-```
+# ```

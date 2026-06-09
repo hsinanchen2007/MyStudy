@@ -1,10 +1,10 @@
-### 解题思路
-法一：就是纯条件判断解法
-法二：正则表达式匹配，用findall或者match
+# ### 解题思路
+# 法一：就是纯条件判断解法
+# 法二：正则表达式匹配，用findall或者match
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def strToInt(self, str: str) -> int:
         # 法一
@@ -70,4 +70,4 @@ class Solution:
         
         
         
-```
+# ```

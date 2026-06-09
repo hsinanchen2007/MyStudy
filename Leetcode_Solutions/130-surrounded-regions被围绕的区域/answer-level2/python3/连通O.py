@@ -1,9 +1,9 @@
-### 解题思路
-寻找与边界相连的所有o(从边缘的o出发，dfs遍历)，再将其他o置为x
+# ### 解题思路
+# 寻找与边界相连的所有o(从边缘的o出发，dfs遍历)，再将其他o置为x
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -42,4 +42,4 @@ class Solution:
                     if board[i][j] == 'O' and [i,j] not in flag:
                         board[i][j] = 'X'
 
-```
+# ```

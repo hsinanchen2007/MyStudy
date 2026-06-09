@@ -1,7 +1,7 @@
-# 思路
-思路很简单，就是遍历所有的路径，并保存和值最小的子路径的和，防止再次计算。通过一个二维数组来保存这些最优子路径的数值。
-# 代码
-```
+// # 思路
+// 思路很简单，就是遍历所有的路径，并保存和值最小的子路径的和，防止再次计算。通过一个二维数组来保存这些最优子路径的数值。
+// # 代码
+// ```
 int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
     int i = 0;
     int j = 0;
@@ -31,4 +31,4 @@ int slove(int** triangle, int triangleSize, int* triangleColSize, int row, int c
     dp[row][col] = left > right ? right + triangle[row][col]: left + triangle[row][col];
     return dp[row][col];
 }
-```
+// ```

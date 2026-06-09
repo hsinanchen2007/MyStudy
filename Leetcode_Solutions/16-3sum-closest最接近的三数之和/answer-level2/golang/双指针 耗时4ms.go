@@ -1,9 +1,9 @@
-### 解题思路
-使用双指针
+// ### 解题思路
+// 使用双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func threeSumClosest(nums []int, target int) int {
 	var result int
 	sortInt := sort.IntSlice(nums)
@@ -58,7 +58,7 @@ func threeSumClosest(nums []int, target int) int {
 	}
 	return result
 }
-```
+// ```
 
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/57ba6bb926bf1513cd3f50b61a7477287b32a219ea6fa47eb94d96acd4cc97e2-image.png)
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/57ba6bb926bf1513cd3f50b61a7477287b32a219ea6fa47eb94d96acd4cc97e2-image.png)

@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/888508d646c72c4a69b9f3c093958723a88745cce35f10b58e7ee0ccc55ec6d8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/888508d646c72c4a69b9f3c093958723a88745cce35f10b58e7ee0ccc55ec6d8-image.png)
 
-# 思路
-其实这道题使用回溯法思路很简单，就是比较的过程中情况比较多，需要细心（具体见如下代码）。还有由于'*'这种字符的存在，导致回溯过程中可能会存在比较多的重复计算（当前比较的sIndex和pIndex都相同），因此可以引入备忘录来记录针对每一组sIndex和pIndex的组合，通过递归函数计算得来的值。 具体代码如下：
+// # 思路
+// 其实这道题使用回溯法思路很简单，就是比较的过程中情况比较多，需要细心（具体见如下代码）。还有由于'*'这种字符的存在，导致回溯过程中可能会存在比较多的重复计算（当前比较的sIndex和pIndex都相同），因此可以引入备忘录来记录针对每一组sIndex和pIndex的组合，通过递归函数计算得来的值。 具体代码如下：
 
-```java
+// ```java
 class Solution {
  // 经测试，LeetCode上测试用例的s和p字符串的长度都不会超过30个。
     private int[] memo; // 每个递归函数值的备忘录
@@ -127,4 +127,4 @@ class Solution {
         return backTracking(s, p, 0, 0);
     }
 }
-```
+// ```

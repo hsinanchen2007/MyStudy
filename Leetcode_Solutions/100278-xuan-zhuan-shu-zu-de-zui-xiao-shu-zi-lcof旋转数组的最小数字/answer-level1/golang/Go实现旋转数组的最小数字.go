@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func minArray(numbers []int) int {
     l,r := 0,len(numbers)-1
     for numbers[l]>=numbers[r] && l<r{
@@ -14,4 +14,4 @@ func minArray(numbers []int) int {
     }
     return numbers[l]
 }
-```
+// ```

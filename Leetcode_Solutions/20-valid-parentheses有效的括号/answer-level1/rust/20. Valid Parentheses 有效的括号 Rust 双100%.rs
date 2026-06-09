@@ -1,5 +1,5 @@
-![图片.png](https://pic.leetcode-cn.com/2f8d437bab78e4d597e4cd14aa907264e7cede60472d006e5678b287224e8eb9-%E5%9B%BE%E7%89%87.png)
-``` rust
+// ![图片.png](https://pic.leetcode-cn.com/2f8d437bab78e4d597e4cd14aa907264e7cede60472d006e5678b287224e8eb9-%E5%9B%BE%E7%89%87.png)
+// ``` rust
 use std::collections::VecDeque;
 impl Solution {
     pub fn is_valid(s: String) -> bool {
@@ -35,4 +35,4 @@ impl Solution {
         return true;
     }
 }
-```
+// ```

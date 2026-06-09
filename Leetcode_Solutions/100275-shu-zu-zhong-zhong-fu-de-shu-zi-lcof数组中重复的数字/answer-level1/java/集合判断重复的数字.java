@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findRepeatNumber(int[] nums) {
         Set<Integer> set = new HashSet<Integer>();
@@ -12,7 +12,7 @@ class Solution {
         return repeat;
     }
 }
-```
+// ```
 
-#思路
-使用set集合。 若set.add()==false，则表明，改数字已经存在于集合中，因此将其返回出来
+// #思路
+// 使用set集合。 若set.add()==false，则表明，改数字已经存在于集合中，因此将其返回出来

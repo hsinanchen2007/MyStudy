@@ -1,9 +1,9 @@
-### 解题思路
-使用动态规划的思想解题, dp[i] 表示兑换价钱为 i 所需要的最小硬币数.
+// ### 解题思路
+// 使用动态规划的思想解题, dp[i] 表示兑换价钱为 i 所需要的最小硬币数.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func coinChange(coins []int, amount int) int {
 	dp := make([]int, amount+1)
 	for i := 0; i <= amount; i++ {
@@ -29,4 +29,4 @@ func min(a, b int) int {
 	}
 	return b
 }
-```
+// ```

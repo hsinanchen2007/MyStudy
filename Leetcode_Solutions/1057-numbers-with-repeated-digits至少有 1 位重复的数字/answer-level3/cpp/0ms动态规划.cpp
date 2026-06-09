@@ -1,10 +1,10 @@
-### 解题思路
-用动态规划求不同状态的解。
-![image.png](https://pic.leetcode-cn.com/c77c684765ace78ae37218bda4316203cfaf0e2e8f0829fbdea9bd30eba55772-image.png)
+// ### 解题思路
+// 用动态规划求不同状态的解。
+// ![image.png](https://pic.leetcode-cn.com/c77c684765ace78ae37218bda4316203cfaf0e2e8f0829fbdea9bd30eba55772-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int dp8(bool*access,int log10,int N,bool first,int c)
@@ -63,4 +63,4 @@ int Aij(int i, int j)
 	return res;
     }
 };
-```
+// ```

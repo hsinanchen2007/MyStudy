@@ -1,5 +1,5 @@
-![截图.PNG](https://pic.leetcode-cn.com/3fdd90bcc8fda083df13fd0c13aa68b851cb6809717464a9a1a8a339114216ca-%E6%88%AA%E5%9B%BE.PNG)
-```
+// ![截图.PNG](https://pic.leetcode-cn.com/3fdd90bcc8fda083df13fd0c13aa68b851cb6809717464a9a1a8a339114216ca-%E6%88%AA%E5%9B%BE.PNG)
+// ```
 /* 找第一个左括号对应的右括号，返回括号个数，postion为第一个左括号对应的右括号 */
 int FindRightBrackets(char *s, int *leftPosition, int *rightPosition, int *numPostion)
 {
@@ -133,5 +133,5 @@ char *decodeString(char * s){
     }
     return result;
 }
-```
+// ```
 

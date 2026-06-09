@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canPermutePalindrome(char* s){
      int chart[255]={0};
      int len=strlen(s);
@@ -15,4 +15,4 @@ bool canPermutePalindrome(char* s){
      }
      return 1;
 }
-```
+// ```

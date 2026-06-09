@@ -1,10 +1,10 @@
-### 解题思路
-1. 通过快慢指针是否相等来判断是否有环的存在
-2. 通过set集合判断是否存在环
+# ### 解题思路
+# 1. 通过快慢指针是否相等来判断是否有环的存在
+# 2. 通过set集合判断是否存在环
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         return False
 
 
-```
+# ```

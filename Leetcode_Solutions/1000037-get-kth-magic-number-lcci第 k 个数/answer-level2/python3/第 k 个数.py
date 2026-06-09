@@ -1,9 +1,9 @@
-### 解题思路
-满足条件的数只能是3 5 7，不能有其他因子。
+# ### 解题思路
+# 满足条件的数只能是3 5 7，不能有其他因子。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getKthMagicNumber(self, k: int) -> int:
         # 作者：godweiyang
@@ -20,4 +20,4 @@ class Solution:
                 idx7 += 1
         return res[k-1]
 
-```
+# ```

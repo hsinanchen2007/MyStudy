@@ -1,5 +1,5 @@
-Time 8ms, 95%
-```
+// Time 8ms, 95%
+// ```
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
@@ -7,4 +7,4 @@ public:
         return dict.count(target);
     }
 };
-```
+// ```

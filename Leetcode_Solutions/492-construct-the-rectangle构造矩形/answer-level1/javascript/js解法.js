@@ -1,9 +1,9 @@
 
-#### 思路
-- 设宽为变量，从面积的开方起往下找，能整除的第一个就是相差最近的高和宽
+// #### 思路
+// - 设宽为变量，从面积的开方起往下找，能整除的第一个就是相差最近的高和宽
 
 
-```
+// ```
 /**
  * @param {number} area
  * @return {number[]}
@@ -15,4 +15,4 @@ var constructRectangle = function (area) {
     }
     return [area / M, M]
 };
-```
+// ```

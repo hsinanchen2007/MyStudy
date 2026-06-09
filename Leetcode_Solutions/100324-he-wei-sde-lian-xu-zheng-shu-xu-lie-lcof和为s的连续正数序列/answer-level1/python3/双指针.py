@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         def func(start , end):
@@ -15,4 +15,4 @@ class Solution:
                 ans.append(func(start, end))
                 start +=1
         return ans 
-```
+# ```

@@ -1,12 +1,12 @@
-针对asii码字符用数组实现哈希表比较适合，如果是unicode则只能使用通用的哈希表。
-至于排序再比较的方法，在go语言中是不太经济的，内存和时间开销都高。
+// 针对asii码字符用数组实现哈希表比较适合，如果是unicode则只能使用通用的哈希表。
+// 至于排序再比较的方法，在go语言中是不太经济的，内存和时间开销都高。
 
-关于编码相关的知识，参看阮一峰大神博客：
-- <http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html>
+// 关于编码相关的知识，参看阮一峰大神博客：
+// - <http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html>
 
-## 思路与实现
+// ## 思路与实现
 
-```go
+// ```go
 package lt242
 
 import (
@@ -209,4 +209,4 @@ func (m mySort) Swap(i, j int) {
 //}
 
 
-```
+// ```

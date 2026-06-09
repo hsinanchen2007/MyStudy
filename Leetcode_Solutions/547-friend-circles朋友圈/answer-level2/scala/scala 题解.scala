@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def findCircleNum(M: Array[Array[Int]]): Int = {
     val arr = M.indices.toArray
@@ -10,4 +10,4 @@ object Solution {
     arr.zipWithIndex.count(x => x._1 == x._2)
   }
 }
-```
+// ```

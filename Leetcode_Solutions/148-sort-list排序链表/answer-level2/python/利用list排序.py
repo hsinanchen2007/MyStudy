@@ -1,6 +1,6 @@
-【思路】先将head中的val值挨个放在L中，然后对L从小到大排序，再将L中得值从前往后挨个取出链在p后面
+# 【思路】先将head中的val值挨个放在L中，然后对L从小到大排序，再将L中得值从前往后挨个取出链在p后面
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
             p=p.next
         return result
         
-```
+# ```

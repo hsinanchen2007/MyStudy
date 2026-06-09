@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -24,4 +24,4 @@ public:
         return root;
     }
 };
-```
+// ```

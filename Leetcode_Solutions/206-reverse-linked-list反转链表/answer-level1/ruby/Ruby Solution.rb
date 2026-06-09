@@ -1,9 +1,9 @@
-### 解题思路
-迭代翻转
+# ### 解题思路
+# 迭代翻转
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # Definition for singly-linked list.
 # class ListNode
 #     attr_accessor :val, :next
@@ -24,4 +24,4 @@ def reverse_list(head)
     head.next = nil
     new_head
 end
-```
+# ```

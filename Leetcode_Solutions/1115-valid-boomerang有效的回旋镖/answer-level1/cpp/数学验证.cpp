@@ -1,9 +1,9 @@
-### 解题思路
-用其中两个点确定一条直线a*x+b*y+c=0，验证第三个点是否在该直线上
+// ### 解题思路
+// 用其中两个点确定一条直线a*x+b*y+c=0，验证第三个点是否在该直线上
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isBoomerang(vector<vector<int>>& points) {
@@ -12,4 +12,4 @@ public:
     return true;
     }
 };
-```
+// ```

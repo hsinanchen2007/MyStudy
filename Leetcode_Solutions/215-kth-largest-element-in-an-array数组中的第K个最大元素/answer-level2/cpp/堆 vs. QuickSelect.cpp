@@ -1,10 +1,10 @@
-### 解题思路一
+// ### 解题思路一
 
-维护一个容量为K的最小堆，因为有N-K个比堆顶元素小的，有K-1个比堆顶元素大的，所以堆顶元素是第K大。时间复杂度O(N * log K).
+// 维护一个容量为K的最小堆，因为有N-K个比堆顶元素小的，有K-1个比堆顶元素大的，所以堆顶元素是第K大。时间复杂度O(N * log K).
 
-### 代码一
+// ### 代码一
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -19,17 +19,17 @@ public:
         return heap.top();
     }
 };
-```
+// ```
 
-执行用时 :12 ms
+// 执行用时 :12 ms
 
-### 解题思路二
+// ### 解题思路二
 
-QuickSelect
+// QuickSelect
 
-### 代码二
+// ### 代码二
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -71,17 +71,17 @@ public:
         return i;
     }
 };
-```
+// ```
 
-执行用时：8 ms
+// 执行用时：8 ms
 
-### 解题思路三
+// ### 解题思路三
 
-STL
+// STL
 
-### 代码三
+// ### 代码三
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -89,9 +89,9 @@ public:
         return nums[k-1];
     }
 };
-```
+// ```
 
-执行用时：8 ms
+// 执行用时：8 ms
 
 
 

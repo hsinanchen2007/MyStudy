@@ -1,9 +1,9 @@
-### 解题思路
-如果sum小于0，直接把前面的结果放弃
+// ### 解题思路
+// 如果sum小于0，直接把前面的结果放弃
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int max=nums[0];
@@ -21,4 +21,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

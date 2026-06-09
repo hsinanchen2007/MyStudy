@@ -1,9 +1,9 @@
-### 解题思路
-使用一个差值数组sub来存储A中后一个元素与前一个元素之差，sub中只要连续两个或以上值相同，即可构成等差数列，遍历sub数组，用count计数连续相等的差值数，最后ans += count*(count-1)/2
+# ### 解题思路
+# 使用一个差值数组sub来存储A中后一个元素与前一个元素之差，sub中只要连续两个或以上值相同，即可构成等差数列，遍历sub数组，用count计数连续相等的差值数，最后ans += count*(count-1)/2
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numberOfArithmeticSlices(self, A):
         if len(A) < 3:
@@ -28,4 +28,4 @@ class Solution(object):
                 ans += int(count*(count-1)/2)
         return ans
 
-```
+# ```

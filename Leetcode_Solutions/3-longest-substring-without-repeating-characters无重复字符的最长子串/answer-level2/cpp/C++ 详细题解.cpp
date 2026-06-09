@@ -1,5 +1,5 @@
-思路很简单很暴力，记录每次遇到重复之前最长的子串len，并与答案候选ans对比，若大于ans就赋值给ans
-```cpp
+// 思路很简单很暴力，记录每次遇到重复之前最长的子串len，并与答案候选ans对比，若大于ans就赋值给ans
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

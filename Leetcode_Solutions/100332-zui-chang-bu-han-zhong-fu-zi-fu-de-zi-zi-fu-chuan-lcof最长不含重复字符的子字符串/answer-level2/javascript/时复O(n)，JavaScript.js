@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5da1e024aa0676a9556b50f2ed31a43d635edd560420c50ef38dc3131653ba3a-image.png)
-很简单的思路，几行代码，一看就会啦~
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5da1e024aa0676a9556b50f2ed31a43d635edd560420c50ef38dc3131653ba3a-image.png)
+// 很简单的思路，几行代码，一看就会啦~
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -24,4 +24,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return res;
 };
-```
+// ```

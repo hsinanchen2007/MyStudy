@@ -1,9 +1,9 @@
-### 解题思路
-二分思想，每次让数组长度二分，直到数组长度为1
+// ### 解题思路
+// 二分思想，每次让数组长度二分，直到数组长度为1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
         return lists[0];
     }
 };
-```
+// ```

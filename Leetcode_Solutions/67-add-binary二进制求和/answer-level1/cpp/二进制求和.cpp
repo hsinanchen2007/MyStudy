@@ -1,8 +1,8 @@
-内存消耗大，但速度快，将二进制字符转化为int 整数来操作
+// 内存消耗大，但速度快，将二进制字符转化为int 整数来操作
 
-![捕获.PNG](https://pic.leetcode-cn.com/9564e5fbf0f44d139a6f6c42d1a93de65ca513dba0096524e63df7182712c2fc-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/9564e5fbf0f44d139a6f6c42d1a93de65ca513dba0096524e63df7182712c2fc-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -48,4 +48,4 @@ public:
     return s;
     }
 };
-```
+// ```

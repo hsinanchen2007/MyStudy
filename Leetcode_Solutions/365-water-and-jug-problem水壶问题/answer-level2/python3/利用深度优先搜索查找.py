@@ -1,11 +1,11 @@
-### 解题思路
-直接记录每步可能出现的杯中的水量情况，对于已经出现过的，则不再搜索。
-开始seeked用的列表，发现超时..只好改用set
-leetcode对于时间还是卡挺死的
+# ### 解题思路
+# 直接记录每步可能出现的杯中的水量情况，对于已经出现过的，则不再搜索。
+# 开始seeked用的列表，发现超时..只好改用set
+# leetcode对于时间还是卡挺死的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         if x==z or y==z or x+y==z:
@@ -50,4 +50,4 @@ class Solution:
                 stack.append(next5)
         
         return False       
-```
+# ```

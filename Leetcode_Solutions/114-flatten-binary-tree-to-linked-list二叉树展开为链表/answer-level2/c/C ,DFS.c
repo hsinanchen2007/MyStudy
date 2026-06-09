@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :8 ms, 在所有 C 提交中击败了61.40%的用户内存消耗 :6.4 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :8 ms, 在所有 C 提交中击败了61.40%的用户内存消耗 :6.4 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ void flatten(struct TreeNode* root){
     tmp_node1->right = tmp_node;
 
 }
-```
+// ```

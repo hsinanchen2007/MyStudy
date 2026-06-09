@@ -1,7 +1,7 @@
-执行用时 :4 ms, 在所有 C++ 提交中击败了84.34%的用户
-内存消耗 :8.9 MB, 在所有 C++ 提交中击败了36.01%的用户
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了84.34%的用户
+// 内存消耗 :8.9 MB, 在所有 C++ 提交中击败了36.01%的用户
 
-```
+// ```
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -120,4 +120,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

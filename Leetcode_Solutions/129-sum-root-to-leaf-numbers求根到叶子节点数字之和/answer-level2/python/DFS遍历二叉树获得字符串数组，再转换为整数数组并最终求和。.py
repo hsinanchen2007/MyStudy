@@ -1,9 +1,9 @@
-### 解题思路
-DFS遍历二叉树获得字符串数组，再转换为整数数组并最终求和。
+# ### 解题思路
+# DFS遍历二叉树获得字符串数组，再转换为整数数组并最终求和。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             if node.left:
                 stack.append((node.left, char + str(node.val)))
         return  sum([int(ch) for ch in res])
-```
+# ```

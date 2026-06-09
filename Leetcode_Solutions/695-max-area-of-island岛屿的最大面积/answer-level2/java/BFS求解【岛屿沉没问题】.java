@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/fc4bd51d9c34e90b03f3e7a7bc656f6a19cc4f49dbd1d9727fc9a8377d8979b2-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/fc4bd51d9c34e90b03f3e7a7bc656f6a19cc4f49dbd1d9727fc9a8377d8979b2-image.png)
 
-逐个遍历二维数组元素，如果发现该元素为1，则分别从其上下左右四个方面蔓延，求得该区域的面积，同时将计算后的节点至为0，最后求得最大面积。
+// 逐个遍历二维数组元素，如果发现该元素为1，则分别从其上下左右四个方面蔓延，求得该区域的面积，同时将计算后的节点至为0，最后求得最大面积。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int row;
     int column;
@@ -40,4 +40,4 @@ class Solution {
         bfs(r,c+1);
     }
 }
-```
+// ```

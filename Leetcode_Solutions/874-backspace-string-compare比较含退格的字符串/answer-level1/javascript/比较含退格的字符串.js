@@ -1,6 +1,6 @@
-使用正则表达式
+// 使用正则表达式
 
-```js
+// ```js
 var backspaceCompare = function(S, T) {
     let pat = /([\w]#)/;
     let pat2 = /^#+/;
@@ -12,10 +12,10 @@ var backspaceCompare = function(S, T) {
     }
     return S === T
 };
-```
+// ```
 
 
-```js
+// ```js
 var backspaceCompare = function(S, T) {
     let pat = /.?\#/;
     while(/#/.test(S)) {
@@ -26,5 +26,5 @@ var backspaceCompare = function(S, T) {
     }
     return S === T
 };
-```
+// ```
 

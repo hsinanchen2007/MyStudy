@@ -1,9 +1,9 @@
-### 解题思路
-先定义一个排序的规则，之后按照这个规则进行排序就OK
+// ### 解题思路
+// 先定义一个排序的规则，之后按照这个规则进行排序就OK
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * customSortString(char * S, char * T){
     int a[26]={0},i,t,k=1,j;
     char c;
@@ -24,4 +24,4 @@ char * customSortString(char * S, char * T){
     }
     return T;
 }
-```
+// ```

@@ -1,5 +1,5 @@
- `c++`  分治递归
-```c++
+//  `c++`  分治递归
+// ```c++
 class Solution {
 public:
     Node* construct(vector<vector<int>>& grid) {
@@ -29,5 +29,5 @@ public:
         return root;
     }
 };
-```
+// ```
  

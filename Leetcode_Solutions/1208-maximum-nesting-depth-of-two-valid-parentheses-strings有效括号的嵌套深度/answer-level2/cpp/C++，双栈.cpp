@@ -1,9 +1,9 @@
-### 解题思路
-双栈，左括号放入层数最少的栈中，右括号匹配层数最多的栈
+// ### 解题思路
+// 双栈，左括号放入层数最少的栈中，右括号匹配层数最多的栈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> maxDepthAfterSplit(string seq) {
@@ -29,4 +29,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

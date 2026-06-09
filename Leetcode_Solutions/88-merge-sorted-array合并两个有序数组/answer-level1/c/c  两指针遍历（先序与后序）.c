@@ -1,9 +1,9 @@
-### 解题思路
-两指针的目的就是为了不走重复的步骤
+// ### 解题思路
+// 两指针的目的就是为了不走重复的步骤
 
-### 代码
-从后向前遍历，不需要创建额外空间
-```
+// ### 代码
+// 从后向前遍历，不需要创建额外空间
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
     int j=m+n-1,p=m-1,q=n-1;
@@ -28,9 +28,9 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
         }
     }
 }
-```
-由前向后遍历，需要额外创建空间
-```
+// ```
+// 由前向后遍历，需要额外创建空间
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
     int m1=m;
@@ -69,6 +69,6 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
         }
     }
 }
-```
-此处两个其实差别不大
+// ```
+// 此处两个其实差别不大
 

@@ -1,12 +1,12 @@
-### 解题思路
-这个没什么技巧，就是遍历。
-对于边界判断 用了两个语句
-`if (row < 0 || row >= ROW) continue`
-` if (col < 0 || col >= COL) continue`
-其它都是正常循环的代码
-### 代码
+// ### 解题思路
+// 这个没什么技巧，就是遍历。
+// 对于边界判断 用了两个语句
+// `if (row < 0 || row >= ROW) continue`
+// ` if (col < 0 || col >= COL) continue`
+// 其它都是正常循环的代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} M
  * @return {number[][]}
@@ -33,4 +33,4 @@ var imageSmoother = function (M) {
   }
   return result
 };
-```
+// ```

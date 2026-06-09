@@ -1,9 +1,9 @@
-### 解题思路
-先合并 再排序
+// ### 解题思路
+// 先合并 再排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int i;
     for(i=0;i<n;++i)
@@ -22,4 +22,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     }
     return A;
 }
-```
+// ```

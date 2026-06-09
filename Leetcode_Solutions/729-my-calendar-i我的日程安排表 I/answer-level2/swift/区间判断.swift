@@ -1,6 +1,6 @@
-1. 利用元组存储已经添加的日程
-2. 在新的加入的时候遍历已添加的进行区间交错的比较
-```
+// 1. 利用元组存储已经添加的日程
+// 2. 在新的加入的时候遍历已添加的进行区间交错的比较
+// ```
 class MyCalendar {
 
     init() {
@@ -30,4 +30,4 @@ class MyCalendar {
  * let obj = MyCalendar()
  * let ret_1: Bool = obj.book(start, end)
  */
-```
+// ```

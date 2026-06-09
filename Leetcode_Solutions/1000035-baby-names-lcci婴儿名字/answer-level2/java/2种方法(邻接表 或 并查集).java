@@ -1,8 +1,8 @@
-# PS:
-无论使用哪种方法，代码都会变得又长又臭。
+// # PS:
+// 无论使用哪种方法，代码都会变得又长又臭。
 
-# 邻接表代码
-```java
+// # 邻接表代码
+// ```java
 class Solution {
     public String[] trulyMostPopular(String[] names, String[] synonyms) {
         int init_size = names.length;
@@ -58,10 +58,10 @@ class Solution {
         return res.stream().toArray(String[]::new);
     }
 }
-```
+// ```
 
-# 并查集代码
-```java
+// # 并查集代码
+// ```java
 class Solution {
     public String[] trulyMostPopular(String[] names, String[] synonyms) {
         Map<String, Integer> ori_map = new HashMap<>();
@@ -132,4 +132,4 @@ class DSU {
         parent[find(x)] = find(y);
     }
 }
-```
+// ```

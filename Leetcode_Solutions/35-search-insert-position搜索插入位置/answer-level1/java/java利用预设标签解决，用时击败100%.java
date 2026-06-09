@@ -1,6 +1,6 @@
-预设布尔型标签flag，默认值为false，如果出现匹配的元素，就将flag赋值为true，如果跳出for循环之后还为false，则证明无匹配，此时执行返回索引，方法比较简单，但不够简洁，适合初学者，欢迎探讨
+// 预设布尔型标签flag，默认值为false，如果出现匹配的元素，就将flag赋值为true，如果跳出for循环之后还为false，则证明无匹配，此时执行返回索引，方法比较简单，但不够简洁，适合初学者，欢迎探讨
 
-```
+// ```
 class Solution {
     public int searchInsert(int[] nums, int target) {
         boolean flag = false;
@@ -26,4 +26,4 @@ class Solution {
        return b;
     }//public
 }//class
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         strs1 = strs[:]
@@ -12,4 +12,4 @@ class Solution:
                 d[tuple(strs[i])] = []
                 d[tuple(strs[i])].append(strs1[i])
         return list(d.values())
-```
+# ```

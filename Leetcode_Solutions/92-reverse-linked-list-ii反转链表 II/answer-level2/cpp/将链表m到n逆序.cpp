@@ -1,11 +1,11 @@
-首先定义struct ListNode{}
+// 首先定义struct ListNode{}
 
-编写Solution类
-确定需要操作的节点有几个 n-m+1个
-定义关键节点  pre_head、modify_list_tail、head、new_head
-将头节点用指针result=head保存下来，因为head后来将发生变化
-使pre_head一直是head的前一个节点
-while(head&&--m){               //并且为了找到需要逆置的第一个节点，需将head指针向后推移m-1次
+// 编写Solution类
+// 确定需要操作的节点有几个 n-m+1个
+// 定义关键节点  pre_head、modify_list_tail、head、new_head
+// 将头节点用指针result=head保存下来，因为head后来将发生变化
+// 使pre_head一直是head的前一个节点
+// while(head&&--m){               //并且为了找到需要逆置的第一个节点，需将head指针向后推移m-1次
    pre_head=head;
    head=head->next;
 }

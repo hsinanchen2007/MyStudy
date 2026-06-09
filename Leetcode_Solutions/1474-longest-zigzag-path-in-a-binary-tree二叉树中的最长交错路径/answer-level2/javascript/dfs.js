@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,4 +33,4 @@ var longestZigZag = function(root) {
     dfs(root.right, 1, 1)
     return Math.max(0, ans)
 }; 
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1,String str2){
 		// 枚举法
@@ -27,8 +27,8 @@ class Solution {
 		return str.equals(ans);
 	}
 }
-```
+// ```
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/5617091e9e2aa905ca63d0907225149f981729bba986cc84283995793052fbde-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/5617091e9e2aa905ca63d0907225149f981729bba986cc84283995793052fbde-wechat.png)

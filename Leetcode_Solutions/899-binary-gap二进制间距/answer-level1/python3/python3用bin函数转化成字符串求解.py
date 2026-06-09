@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def binaryGap(self, N: int) -> int:
         str_ = bin(N)
@@ -11,4 +11,4 @@ class Solution:
             if tmp[i + 1] - tmp[i] > ans:
                 ans = tmp[i + 1] - tmp[i]
         return ans
-```
+# ```

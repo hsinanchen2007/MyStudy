@@ -1,4 +1,4 @@
-```
+// ```
 class Trie {
     //定义一个节点
     public class TrieNode{
@@ -87,4 +87,4 @@ class Trie {
     }
 }
 
-```
+// ```

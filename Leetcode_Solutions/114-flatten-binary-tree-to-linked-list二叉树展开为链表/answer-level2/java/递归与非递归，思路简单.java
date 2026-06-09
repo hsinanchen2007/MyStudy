@@ -1,7 +1,7 @@
-### 解题思路
-思路来源于很多人的题解，按先序遍历来看，1的右子树5,6都该在4的后面
+// ### 解题思路
+// 思路来源于很多人的题解，按先序遍历来看，1的右子树5,6都该在4的后面
         
-```
+// ```
          1
         / \
        2   5
@@ -26,11 +26,11 @@
                5
                 \
                  6       然后进入右子树，继续上面的操作
-```
+// ```
     
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,9 +53,9 @@ class Solution {
         flatten(root.right);
     }
 }
-```
-当然此递归属于尾递归,也可以改为迭代形式：
-```java
+// ```
+// 当然此递归属于尾递归,也可以改为迭代形式：
+// ```java
 class Solution {
     public void flatten(TreeNode root) {
         if(root == null) return;
@@ -71,4 +71,4 @@ class Solution {
         }
     }
 }
-```
+// ```

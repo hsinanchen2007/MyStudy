@@ -1,9 +1,9 @@
-### 解题思路
-不进位加(^), 加进位
+// ### 解题思路
+// 不进位加(^), 加进位
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func add(a int, b int) int {
     // 进位
     var carry int
@@ -17,4 +17,4 @@ func add(a int, b int) int {
     }
     return a
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-本题可以使用递归来实现
+// 本题可以使用递归来实现
 
-![image.png](https://pic.leetcode-cn.com/69909f2bde6061e87226be56c6dbdf988190b69bf17573809585bc17d6aa1af6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/69909f2bde6061e87226be56c6dbdf988190b69bf17573809585bc17d6aa1af6-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         if (n < k) return Collections.emptyList();
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

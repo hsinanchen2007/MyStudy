@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_3_robot.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_3_robot.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 简单直接能出结果，但是提交超时，主要耗时在障碍物的循环判断上，当障碍物太多了就比较耗时了
@@ -99,4 +99,4 @@
 
         return true;
     }
-```
+// ```

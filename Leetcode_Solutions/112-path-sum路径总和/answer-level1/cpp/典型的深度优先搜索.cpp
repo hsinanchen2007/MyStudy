@@ -1,10 +1,10 @@
-### 解题思路
-1、判断边界条件。1）root为null。2）root左右子树为null。
-2、深度搜索左右子树。
+// ### 解题思路
+// 1、判断边界条件。1）root为null。2）root左右子树为null。
+// 2、深度搜索左右子树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return DFS(root, sum);
     }
 };
-```
+// ```

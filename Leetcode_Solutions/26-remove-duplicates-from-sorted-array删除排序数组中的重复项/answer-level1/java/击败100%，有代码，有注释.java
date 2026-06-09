@@ -1,6 +1,6 @@
-![WX20191116-194441@2x.png](https://pic.leetcode-cn.com/3b5d1a157657b16e48d25d1932f829cd1c5776e8aaa95275e26747ac914a5709-WX20191116-194441@2x.png)
+// ![WX20191116-194441@2x.png](https://pic.leetcode-cn.com/3b5d1a157657b16e48d25d1932f829cd1c5776e8aaa95275e26747ac914a5709-WX20191116-194441@2x.png)
 
-```
+// ```
 public int removeDuplicates(int[] nums){
         /*当数组为null或没元素时直接返回*/
         if(nums==null||nums.length<1){
@@ -22,4 +22,4 @@ public int removeDuplicates(int[] nums){
         }
         return newLength;
     }
-```
+// ```

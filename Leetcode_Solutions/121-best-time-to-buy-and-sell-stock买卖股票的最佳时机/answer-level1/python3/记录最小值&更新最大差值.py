@@ -1,4 +1,4 @@
-```java []
+# ```java []
 class Solution {
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE, max = 0, ans = 0;
@@ -17,8 +17,8 @@ class Solution {
         return ans;
     }
 }
-```
-```python3 []
+# ```
+# ```python3 []
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -30,5 +30,5 @@ class Solution:
             else : ans = max(ans, price - min)
 
         return ans
-```
+# ```
 

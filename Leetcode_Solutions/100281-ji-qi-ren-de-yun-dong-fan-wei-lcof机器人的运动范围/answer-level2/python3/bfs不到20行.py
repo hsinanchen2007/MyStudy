@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def __init__(self):
         self.count = 0
@@ -19,4 +19,4 @@ class Solution:
                 self.__bfs_search(x, y + 1, k, marked)
 
         return
-```
+# ```

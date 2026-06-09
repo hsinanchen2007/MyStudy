@@ -1,6 +1,6 @@
-*法一：数字转化成字符串 + 数组的reverse方法*
+// *法一：数字转化成字符串 + 数组的reverse方法*
 
-```js
+// ```js
 /**
  * @param {number} x
  * @return {number}
@@ -36,10 +36,10 @@ var reverse = function(x) {
 var x = -5428514;
 console.log(reverse(x))
 
-```
+// ```
 
-*法二：数组存储每次的商【最高位上的数】*
-```js
+// *法二：数组存储每次的商【最高位上的数】*
+// ```js
 /*法二：数组存储每次的商【最高位上的数】*/
 var reverse2 = function(x) {
     var flag = true;
@@ -79,10 +79,10 @@ var reverse2 = function(x) {
 var x = -5428514;
 console.log(reverse2(x))
 
-```
+// ```
 
-*法三：字符串拼接每次的余数【最低位上的数】*
-```js
+// *法三：字符串拼接每次的余数【最低位上的数】*
+// ```js
 
 /*法三：字符串拼接每次的余数【最低位上的数】*/
 var reverse3 = function(x) {
@@ -119,5 +119,5 @@ var reverse3 = function(x) {
     return result;
 
 }
-```
+// ```
 

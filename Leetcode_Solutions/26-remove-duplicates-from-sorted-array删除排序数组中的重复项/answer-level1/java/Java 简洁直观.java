@@ -1,6 +1,6 @@
-- 自增和赋值一起 *(活用++)*
+// - 自增和赋值一起 *(活用++)*
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;
@@ -12,5 +12,5 @@ class Solution {
         return ++i;
     }
 }
-```
+// ```
 

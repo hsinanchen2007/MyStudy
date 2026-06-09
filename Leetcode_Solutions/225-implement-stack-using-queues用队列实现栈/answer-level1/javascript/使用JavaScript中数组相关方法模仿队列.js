@@ -1,9 +1,9 @@
-### 解题思路
-利用JavaScript中自带的数组方法push和pop方法进行在入栈和出栈操作
+// ### 解题思路
+// 利用JavaScript中自带的数组方法push和pop方法进行在入栈和出栈操作
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -61,4 +61,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

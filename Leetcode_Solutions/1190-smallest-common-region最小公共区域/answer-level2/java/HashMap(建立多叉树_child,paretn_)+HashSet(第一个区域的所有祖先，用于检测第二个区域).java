@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-**LCA步骤**
-- 通过hashMap建立多叉树<child,parent>;已经存在则没有必要
-- 使用HashSet保存`节点1`的所有祖先节点,`anceALL1`。
-- `节点2`的第一个出现在region01中的祖先节点`anceALL1`，就是最近公共祖先
-![Snipaste_2020-03-22_23-52-46.png](https://pic.leetcode-cn.com/98fb4da3eda9760ac1c5882317e7aa8071113fe59cb2ebcf1b130d8d430e5f5c-Snipaste_2020-03-22_23-52-46.png)
+// ### 解题思路
+// 此处撰写解题思路
+// **LCA步骤**
+// - 通过hashMap建立多叉树<child,parent>;已经存在则没有必要
+// - 使用HashSet保存`节点1`的所有祖先节点,`anceALL1`。
+// - `节点2`的第一个出现在region01中的祖先节点`anceALL1`，就是最近公共祖先
+// ![Snipaste_2020-03-22_23-52-46.png](https://pic.leetcode-cn.com/98fb4da3eda9760ac1c5882317e7aa8071113fe59cb2ebcf1b130d8d430e5f5c-Snipaste_2020-03-22_23-52-46.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String findSmallestRegion(List<List<String>> regions, String region1, String region2) {
         //多叉树如何建立？？？hashmap
@@ -31,4 +31,4 @@ class Solution {
         
     }
 }
-```
+// ```

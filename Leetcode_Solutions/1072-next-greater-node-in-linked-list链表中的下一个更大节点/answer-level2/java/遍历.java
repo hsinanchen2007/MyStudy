@@ -1,4 +1,4 @@
-```
+// ```
 public int[] nextLargerNodes(ListNode head) {
         ArrayList<Integer> list = new ArrayList<>();
         ListNode current = head;
@@ -21,4 +21,4 @@ public int[] nextLargerNodes(ListNode head) {
         }
         return result;
     }
-```
+// ```

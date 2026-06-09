@@ -1,5 +1,5 @@
 
-```python
+# ```python
     def distanceK(self, root, target, K):
         if not K:  # k为0时即target自己，不用构造图
             return [target.val]
@@ -26,4 +26,4 @@
                     for i in graph.get(node, ()):
                         q.append((i, dist + 1))
         return res
-```
+# ```

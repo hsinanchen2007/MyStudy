@@ -1,5 +1,5 @@
-前向差分
-```
+// 前向差分
+// ```
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
@@ -20,10 +20,10 @@ public:
         return NULL;
     }
 };
-```
+// ```
 
-最大值
-```
+// 最大值
+// ```
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
@@ -36,10 +36,10 @@ public:
         return distance(A.begin(), biggest);
     }
 };
-```
+// ```
 
-二分查找
-```
+// 二分查找
+// ```
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
@@ -68,4 +68,4 @@ public:
         return p;
     }
 };
-```
+// ```

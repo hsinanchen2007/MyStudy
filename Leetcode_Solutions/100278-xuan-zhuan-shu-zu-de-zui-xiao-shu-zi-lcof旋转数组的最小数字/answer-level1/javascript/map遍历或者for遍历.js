@@ -1,9 +1,9 @@
-### 解题思路
-map遍历或者for遍历
+// ### 解题思路
+// map遍历或者for遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} numbers
  * @return {number}
@@ -19,4 +19,4 @@ var minArray = function(numbers) {
     })
     return minNum
 };
-```
+// ```

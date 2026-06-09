@@ -1,9 +1,9 @@
-### 解题思路
-从起点（start）开始，判断起点能到达的点(reach)中，reach能到达的最远位置furthest。以最远的reach作为下次的start。
+// ### 解题思路
+// 从起点（start）开始，判断起点能到达的点(reach)中，reach能到达的最远位置furthest。以最远的reach作为下次的start。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int jump(int[] nums) {
         if (nums.length <= 1) return 0;
@@ -27,4 +27,4 @@ class Solution {
         return step;
     }
 }
-```
+// ```

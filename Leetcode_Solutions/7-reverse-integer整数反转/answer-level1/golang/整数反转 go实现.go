@@ -1,9 +1,9 @@
-解题思路
-反转的主要思路就是把一个数字的每位元素拆出来，在逆序加乘出一个结果。 我们主要用除法算式中商的概念。
-(被除数-余数)÷除数=商
+// 解题思路
+// 反转的主要思路就是把一个数字的每位元素拆出来，在逆序加乘出一个结果。 我们主要用除法算式中商的概念。
+// (被除数-余数)÷除数=商
 
-完整代码
-```
+// 完整代码
+// ```
 func reverse(x int) int {
 	var (
 		limit int64 = 1 << 31
@@ -43,8 +43,8 @@ func reverse(x int) int {
 	}
 	return 0
 }
-```
+// ```
 
 
-执行结果
-![image.png](https://pic.leetcode-cn.com/bf0b8011a3093e8ece63f1240acb613f2557c8d2a8cb3efb7ed735335484432f-image.png)
+// 执行结果
+// ![image.png](https://pic.leetcode-cn.com/bf0b8011a3093e8ece63f1240acb613f2557c8d2a8cb3efb7ed735335484432f-image.png)

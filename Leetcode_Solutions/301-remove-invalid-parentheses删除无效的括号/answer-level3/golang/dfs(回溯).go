@@ -1,4 +1,4 @@
-```
+// ```
 var ansMap map[string]bool
 
 func removeInvalidParentheses(s string) []string {
@@ -88,4 +88,4 @@ func GetRemoveCnt(s string) (int, int) {
 	}
 	return lcnt, rcnt
 }
-```
+// ```

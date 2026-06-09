@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-因为 JavaScript 不支持队列，所以采用数组来模拟队列
-在队列中，只支持 push(入队),shift(出队)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 因为 JavaScript 不支持队列，所以采用数组来模拟队列
+// 在队列中，只支持 push(入队),shift(出队)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  * only push, shift allowed to use
@@ -65,4 +65,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

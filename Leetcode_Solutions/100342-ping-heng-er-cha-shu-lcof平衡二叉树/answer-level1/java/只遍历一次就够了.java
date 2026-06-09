@@ -1,5 +1,5 @@
 
-```
+// ```
     int isBalanced2(TreeNode root) {
         if (root == null) {
             return 0;
@@ -25,4 +25,4 @@
     public boolean isBalanced(TreeNode root) {
         return isBalanced2(root) != -1;
     }
-```
+// ```

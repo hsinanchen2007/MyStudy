@@ -1,13 +1,13 @@
-### 啰嗦几句
-只能写出自顶向下的方法，等能看懂了自底向上再来补充吧
+# ### 啰嗦几句
+# 只能写出自顶向下的方法，等能看懂了自底向上再来补充吧
 
-### 解题思路
-定义一个求高度的函数，那么也就是104题。
-来循环的判断每一个子树是不是都是balanced。
+# ### 解题思路
+# 定义一个求高度的函数，那么也就是104题。
+# 来循环的判断每一个子树是不是都是balanced。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
 
         return abs(__depth(root.left) - __depth(root.right)) < 2 and self.isBalanced(root.left) and self.isBalanced(root.right)
 
-```
+# ```

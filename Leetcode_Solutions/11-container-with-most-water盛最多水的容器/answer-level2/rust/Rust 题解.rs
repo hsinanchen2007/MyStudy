@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn max_area(height: Vec<i32>) -> i32 {
         let mut left_point: i32 = 0;
@@ -25,4 +25,4 @@ impl Solution {
         max_value
     }
 }
-```
+// ```

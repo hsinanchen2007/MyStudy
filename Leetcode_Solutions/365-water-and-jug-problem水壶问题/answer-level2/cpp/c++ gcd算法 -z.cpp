@@ -1,9 +1,9 @@
-此处用到了前两天每日一题用过的gcd算法，算法的作用是求两个数的最大公约数，算法的过程类似于辗转相除法
-解题原理：裴蜀定理          目标：ax+by=z
+// 此处用到了前两天每日一题用过的gcd算法，算法的作用是求两个数的最大公约数，算法的过程类似于辗转相除法
+// 解题原理：裴蜀定理          目标：ax+by=z
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) 
@@ -17,5 +17,5 @@ public:
         return !b ? a : gcd(b,a%b); 
     }
 };
-```
+// ```
 

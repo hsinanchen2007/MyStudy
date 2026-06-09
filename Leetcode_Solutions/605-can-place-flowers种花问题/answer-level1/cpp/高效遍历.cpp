@@ -1,9 +1,9 @@
-### 解题思路
-根据下一个点是否为1 来提高遍历效率。
+// ### 解题思路
+// 根据下一个点是否为1 来提高遍历效率。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -41,4 +41,4 @@ public:
         return n<=0;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-思路就不多说了，一个一个判断，然后主要就是应对各种特殊情况进行补充，所以显得很杂乱，不过思考流程很简单
+// ### 解题思路
+// 思路就不多说了，一个一个判断，然后主要就是应对各种特殊情况进行补充，所以显得很杂乱，不过思考流程很简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length<1) return "";
@@ -27,4 +27,4 @@ class Solution {
       return StringBuilder.toString();
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-执行用时 :36 ms, 在所有 C++ 提交中击败了97.31%
+// 执行用时 :36 ms, 在所有 C++ 提交中击败了97.31%
 
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -13,4 +13,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /*方法1 创建一个新的数列，在新数列中按要求的顺序写入后，cpy一下；
 void rotate(int* nums, int numsSize, int k){
 
@@ -39,4 +39,4 @@ void rotate(int* nums, int numsSize, int k){
     return;
 }
 */
-```
+// ```

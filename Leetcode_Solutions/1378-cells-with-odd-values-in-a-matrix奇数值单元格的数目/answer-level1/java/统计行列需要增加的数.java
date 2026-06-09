@@ -1,12 +1,12 @@
-### 解题思路
-row[], row[i] : 第i行需要增加的数
-col[], col[i] : 第i列需要增加的数
-分别统计row[]和col[]
-遍历每个行列交叉，判断是否为奇数
+// ### 解题思路
+// row[], row[i] : 第i行需要增加的数
+// col[], col[i] : 第i列需要增加的数
+// 分别统计row[]和col[]
+// 遍历每个行列交叉，判断是否为奇数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int [] row = new int[n];
@@ -24,4 +24,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

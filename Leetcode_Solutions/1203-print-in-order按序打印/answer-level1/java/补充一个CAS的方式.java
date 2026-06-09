@@ -1,5 +1,5 @@
-使用CAS实现。
-```java
+// 使用CAS实现。
+// ```java
 class Foo {
     
     volatile boolean mWaitFirst = true;
@@ -29,5 +29,5 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```
 

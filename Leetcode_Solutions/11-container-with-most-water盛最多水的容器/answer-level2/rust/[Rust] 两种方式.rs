@@ -1,8 +1,8 @@
-# 方式不同，消耗的资源不同
+// # 方式不同，消耗的资源不同
 
-# 方式1：暴力
-*300ms左右/2m左右*
-```
+// # 方式1：暴力
+// *300ms左右/2m左右*
+// ```
 pub fn max_area(height: Vec<i32>) -> i32 {
         let compute_area = |min_height: i32, step: i32| -> i32 { min_height * step };
         let min_value = |a: i32, b: i32| -> i32 { if a > b { b } else { a } };
@@ -19,11 +19,11 @@ pub fn max_area(height: Vec<i32>) -> i32 {
         }
         max_area
     }
-```
+// ```
 
-# 方式2：双指针
-*0ms左右/2m左右*
-```
+// # 方式2：双指针
+// *0ms左右/2m左右*
+// ```
 pub fn max_area(height: Vec<i32>) -> i32 {
         let compute_area = |min_height: i32, step: i32| -> i32 { min_height * step };
         let min_value = |a: i32, b: i32| -> i32 { if a > b { b } else { a } };
@@ -43,4 +43,4 @@ pub fn max_area(height: Vec<i32>) -> i32 {
         }
         max_area
     }
-```
+// ```

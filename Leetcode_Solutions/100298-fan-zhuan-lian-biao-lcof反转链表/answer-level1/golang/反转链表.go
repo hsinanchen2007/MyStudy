@@ -1,9 +1,9 @@
-### 解题思路
-递归反转
+// ### 解题思路
+// 递归反转
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func reverseList(head *ListNode) *ListNode {
     head.Next = nil
     return p
 }
-```
+// ```

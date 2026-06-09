@@ -1,16 +1,16 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 对比两个数组，使用较大的数组作为被对比set，较小的数组作为对比set
-    2.2 遍历对比数组，每个元素都需要跟被对比set对比，被对比数组中没有这个元素，将这个元素加入对比set中
-    2.3 迭代输出对比set中所有元素
-3. 提交记录
-    3.1 力扣中耗时8ms,消耗38MB内存
-    3.2 leetcode中耗时2ms,消耗35.4MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 对比两个数组，使用较大的数组作为被对比set，较小的数组作为对比set
+//     2.2 遍历对比数组，每个元素都需要跟被对比set对比，被对比数组中没有这个元素，将这个元素加入对比set中
+//     2.3 迭代输出对比set中所有元素
+// 3. 提交记录
+//     3.1 力扣中耗时8ms,消耗38MB内存
+//     3.2 leetcode中耗时2ms,消耗35.4MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      349. Intersection of Two Arrays
@@ -67,6 +67,6 @@ class Solution {
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

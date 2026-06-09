@@ -1,4 +1,4 @@
-```
+// ```
 public  int singleNumber(int[] nums){
 
 		if(nums.length==1){
@@ -15,4 +15,4 @@ public  int singleNumber(int[] nums){
 		}
 		 return nums[nums.length-1];
 	}
-```
+// ```

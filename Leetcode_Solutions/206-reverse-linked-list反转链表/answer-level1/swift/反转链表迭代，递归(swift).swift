@@ -1,4 +1,4 @@
-```
+// ```
    // 迭代
     func reverseList(_ head: ListNode?) -> ListNode? {
         var curNode: ListNode? = head
@@ -22,4 +22,4 @@
         return preNode
         
     }
-```
+// ```

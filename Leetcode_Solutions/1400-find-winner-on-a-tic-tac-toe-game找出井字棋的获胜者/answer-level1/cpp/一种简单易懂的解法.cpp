@@ -1,5 +1,5 @@
-建立一个3*3数组，将vector中对应的元素按A:1,B:-1的规则，然后根据位置再进行判断。
-```
+// 建立一个3*3数组，将vector中对应的元素按A:1,B:-1的规则，然后根据位置再进行判断。
+// ```
 class Solution {
 public:
     string tictactoe(vector<vector<int>>& moves) {
@@ -29,4 +29,4 @@ public:
         
     }
 };
-```
+// ```

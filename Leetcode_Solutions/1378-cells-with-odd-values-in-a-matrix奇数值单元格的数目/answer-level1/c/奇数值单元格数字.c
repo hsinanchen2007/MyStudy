@@ -1,9 +1,9 @@
-### 解题思路
-暴力循环，注意行列不要颠倒
+// ### 解题思路
+// 暴力循环，注意行列不要颠倒
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
     
     int **nums=(int**)malloc(sizeof(int*)*n);
@@ -33,4 +33,4 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
     free(nums);
     return sum;
 }
-```
+// ```

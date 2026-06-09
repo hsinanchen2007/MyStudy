@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```
+// ```
 result = []
 def backtrack(选择列表，路径):
     if 满足结束条件:
@@ -12,12 +12,12 @@ def backtrack(选择列表，路径):
         做选择
         backtrack(路径, 选择列表)
         撤销选择
-```
+// ```
 
 
-先排序后剪枝
+// 先排序后剪枝
 
-```
+// ```
 void backtrack(vector<int>& nums, vector<int> track, vector<int> rt){
         if(track.size() == nums.size()){
             res.push_back(rt);
@@ -35,11 +35,11 @@ void backtrack(vector<int>& nums, vector<int> track, vector<int> rt){
             }
         }
     }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -68,4 +68,4 @@ public:
         return res;
     }
 };
-```
+// ```

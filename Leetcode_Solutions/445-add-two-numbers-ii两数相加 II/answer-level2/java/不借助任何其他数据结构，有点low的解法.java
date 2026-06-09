@@ -1,9 +1,9 @@
-### 解题思路
-用最简单的指针，数学特性考虑，关键是要保留9的进位指针
+// ### 解题思路
+// 用最简单的指针，数学特性考虑，关键是要保留9的进位指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -68,4 +68,4 @@ class Solution {
         return head.val == 0 ? head.next : head;
     }
 }
-```
+// ```

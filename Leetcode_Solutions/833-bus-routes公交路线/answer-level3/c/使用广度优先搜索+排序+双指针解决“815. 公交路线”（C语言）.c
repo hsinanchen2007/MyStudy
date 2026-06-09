@@ -1,22 +1,22 @@
-### 解题思路
-经典的BFS题型，新颖之处在于：**由于站点范围很大，使用路线作为遍历的节点**，这里给出C语言的接法。
+// ### 解题思路
+// 经典的BFS题型，新颖之处在于：**由于站点范围很大，使用路线作为遍历的节点**，这里给出C语言的接法。
 
-c语言的难点在于邻接表的实现，本题选择了固定长度数组实现，给定合适的数组范围。
+// c语言的难点在于邻接表的实现，本题选择了固定长度数组实现，给定合适的数组范围。
 
-1.将原有线路的站点进行排序，便于后续快速查找
+// 1.将原有线路的站点进行排序，便于后续快速查找
 
-2.构建邻接表
+// 2.构建邻接表
 
-3.根据邻接表，按照层序进行遍历
+// 3.根据邻接表，按照层序进行遍历
 
-4.如果再某条线路中找到对应站点，遍历结束；否则返回-1
+// 4.如果再某条线路中找到对应站点，遍历结束；否则返回-1
 
-![image.png](https://pic.leetcode-cn.com/8f64dafb63dbaf6b2fd89b7083626695f66f6b7fefcd3bc11d4d4a8031388b11-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8f64dafb63dbaf6b2fd89b7083626695f66f6b7fefcd3bc11d4d4a8031388b11-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -184,4 +184,4 @@ int numBusesToDestination(int** routes, int routesSize, int* routesColSize, int 
 
     return -1;
 }
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int waysToStep(int n) {
@@ -18,4 +18,4 @@ public:
         return help[n];
     }
 };
-```
+// ```

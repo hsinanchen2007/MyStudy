@@ -1,10 +1,10 @@
-### 经验
-为什么我的内存消耗这么大？
-看了一下别人的，发现很多人用递归（recursion）求公因数
+# ### 经验
+# 为什么我的内存消耗这么大？
+# 看了一下别人的，发现很多人用递归（recursion）求公因数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         s1 = str1
@@ -21,4 +21,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用manacher的方法实现，O(n)的时间复杂的。动态规划和穷举等方法都是O(n^2)的复杂度，时间超时。
-manacher的核心思想是使用之前的中心点算出的重复半径来估算新的位置的重复半径。
-### 代码
+// ### 解题思路
+// 使用manacher的方法实现，O(n)的时间复杂的。动态规划和穷举等方法都是O(n^2)的复杂度，时间超时。
+// manacher的核心思想是使用之前的中心点算出的重复半径来估算新的位置的重复半径。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if(s==null ||s.length()==0)
@@ -59,4 +59,4 @@ class Solution {
     }
     
 }
-```
+// ```

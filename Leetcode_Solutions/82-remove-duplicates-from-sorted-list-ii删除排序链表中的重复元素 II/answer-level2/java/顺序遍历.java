@@ -1,4 +1,4 @@
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -50,7 +50,7 @@ class Solution {
         return first.next;
     }
 }
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/e7438df0507b15cec6e807c93d015712fb7cbd2e47e361fd999e0913a96cf267-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e7438df0507b15cec6e807c93d015712fb7cbd2e47e361fd999e0913a96cf267-image.png)

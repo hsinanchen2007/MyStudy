@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/4030c1787e09352d40c63ffe6220805a4a208d68a2a0adf9ccf4ce5ed4a08bb5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4030c1787e09352d40c63ffe6220805a4a208d68a2a0adf9ccf4ce5ed4a08bb5-image.png)
 
 
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -26,5 +26,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

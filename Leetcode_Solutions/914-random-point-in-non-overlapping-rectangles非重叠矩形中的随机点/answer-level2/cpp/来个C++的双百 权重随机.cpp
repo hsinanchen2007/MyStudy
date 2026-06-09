@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>>* rects;
@@ -24,4 +24,4 @@ public:
         return{ vec[0] + (r - data[start - 1]) % (vec[2] - vec[0] + 1), vec[1] + (r - data[start - 1]) / (vec[2] - vec[0] + 1) };
     }
 };
-```
+// ```

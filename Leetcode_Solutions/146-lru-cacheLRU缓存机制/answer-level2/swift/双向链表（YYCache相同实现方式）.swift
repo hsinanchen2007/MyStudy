@@ -1,9 +1,9 @@
-### 解题思路
-用双向链表实现，思路还是比较简单的具体看代码应该能明白。（YYCache相同实现方式）。
+// ### 解题思路
+// 用双向链表实现，思路还是比较简单的具体看代码应该能明白。（YYCache相同实现方式）。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class DLikedNode {
     var val: Int
     var next: DLikedNode?
@@ -93,4 +93,4 @@ class LRUCache {
         }
     }
 }
-```
+// ```

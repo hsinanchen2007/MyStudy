@@ -1,9 +1,9 @@
-### 解题思路
-和s+s在find的方法没得比，但是如果要你 找出重复的字符串，我这种方法就能派的上用场
+// ### 解题思路
+// 和s+s在find的方法没得比，但是如果要你 找出重复的字符串，我这种方法就能派的上用场
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {
@@ -31,4 +31,4 @@ public:
         return false;
     }
 };
-```
+// ```

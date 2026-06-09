@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def totalHammingDistance(self, nums: List[int]) -> int:
         bit_arr_zero = [0] * 31
@@ -15,4 +15,4 @@ class Solution:
             ans += bit_arr_zero[i] * bit_arr_one[i]
         return ans
 
-```
+# ```

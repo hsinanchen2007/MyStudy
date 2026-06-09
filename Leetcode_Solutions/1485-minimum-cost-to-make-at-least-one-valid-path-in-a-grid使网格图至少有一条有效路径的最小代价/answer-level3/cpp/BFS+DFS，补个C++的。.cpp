@@ -1,11 +1,11 @@
-### 解题思路
-这题要注意的是图的每个“节点”是由从当前节点开始所能走到的所有之前没有遍历过的点构成的，思路和题解中其他人的无二。
-![image.png](https://pic.leetcode-cn.com/4f39fedcdb964b513f2b4c58bc0ecca99a278c792c9b726bdd42558b5cbf50e2-image.png)
+// ### 解题思路
+// 这题要注意的是图的每个“节点”是由从当前节点开始所能走到的所有之前没有遍历过的点构成的，思路和题解中其他人的无二。
+// ![image.png](https://pic.leetcode-cn.com/4f39fedcdb964b513f2b4c58bc0ecca99a278c792c9b726bdd42558b5cbf50e2-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid) {
@@ -76,4 +76,4 @@ public:
     int dr[4]={0, 0, 1, -1};
     int dc[4]={1, -1, 0, 0,};
 };
-```
+// ```

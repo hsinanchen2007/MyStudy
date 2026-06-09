@@ -1,4 +1,4 @@
-```
+// ```
 function prefix($arr) {
     <!-- $arr = ['abcdwf', 'abcdddee', 'abcdee', 'abcdq']; -->
     $count = count($arr); // 数组长度
@@ -30,4 +30,4 @@ function prefix($arr) {
 
     return $res;
 }
-```
+// ```

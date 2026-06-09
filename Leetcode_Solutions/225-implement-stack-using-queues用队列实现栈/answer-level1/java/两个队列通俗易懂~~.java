@@ -1,12 +1,12 @@
-# 解题思路
+// # 解题思路
 
 
-用两个队列q1,q2实现，一碰到top/pop操作就把当前使用的队列全扔另一个里面，返回最后扔的那个值，
-top,pop的差别只在top操作最后一个值不删除，pop操作最后一个值要删除
+// 用两个队列q1,q2实现，一碰到top/pop操作就把当前使用的队列全扔另一个里面，返回最后扔的那个值，
+// top,pop的差别只在top操作最后一个值不删除，pop操作最后一个值要删除
 
 
-# 代码
-```
+// # 代码
+// ```
 class MyStack {
 
     LinkedList<Integer> q1,q2;
@@ -117,4 +117,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

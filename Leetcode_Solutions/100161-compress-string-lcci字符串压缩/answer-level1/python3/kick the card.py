@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-Punch in the card. 
+# Punch in the card. 
 
-Again, I will give you the code. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import typing
 class Solution:
     def compressString(self, S: str) -> str:
@@ -29,4 +29,4 @@ class Solution:
         return S
 
             
-```
+# ```

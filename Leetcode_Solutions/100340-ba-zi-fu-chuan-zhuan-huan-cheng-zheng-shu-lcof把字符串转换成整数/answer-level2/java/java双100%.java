@@ -2,7 +2,7 @@
 
 
 
-```
+// ```
 class Solution {
     public int strToInt(String str) {
         if(str==null||str.length()==0)return 0;
@@ -28,4 +28,4 @@ class Solution {
            return  (int) (isFu? -ans:ans);
     }
 }
-```
+// ```

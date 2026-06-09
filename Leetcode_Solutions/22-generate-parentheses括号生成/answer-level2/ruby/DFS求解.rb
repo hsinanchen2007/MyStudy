@@ -1,14 +1,14 @@
-DFS求解
-当左括号数==n and 右括号数==n:
-    res.append()
-当左括号数<右括号:
-    不符合题意，返回
-当左括号数小于n：
-    DFS
-当右括号数小于n:
-    DFS
+# DFS求解
+# 当左括号数==n and 右括号数==n:
+#     res.append()
+# 当左括号数<右括号:
+#     不符合题意，返回
+# 当左括号数小于n：
+#     DFS
+# 当右括号数小于n:
+#     DFS
 
-```ruby
+# ```ruby
 class Solution(object):
     def __init__(self):
         self.ans=[]

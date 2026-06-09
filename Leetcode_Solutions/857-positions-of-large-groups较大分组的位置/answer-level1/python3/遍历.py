@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         n=len(S)
@@ -16,4 +16,4 @@ class Solution:
             else:
                 r+=1
         return res
-```
+# ```

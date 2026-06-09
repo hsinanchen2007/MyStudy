@@ -1,6 +1,6 @@
-暴力双循环
+// 暴力双循环
 
-```js
+// ```js
 var nextGreaterElement = function(nums1, nums2) {
     let arr = [];
     for (let i = 0; i < nums1.length; i++) {
@@ -19,5 +19,5 @@ var nextGreaterElement = function(nums1, nums2) {
     }
     return arr;
 };
-```
+// ```
 

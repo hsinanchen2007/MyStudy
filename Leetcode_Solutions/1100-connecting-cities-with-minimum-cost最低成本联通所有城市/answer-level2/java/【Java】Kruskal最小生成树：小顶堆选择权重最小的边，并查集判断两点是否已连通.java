@@ -1,6 +1,6 @@
-每次选择具有最小权重，且两顶点还未连通的边。
-不多解释，直接看代码
-```
+// 每次选择具有最小权重，且两顶点还未连通的边。
+// 不多解释，直接看代码
+// ```
 class Solution {
     
     public int minimumCost(int N, int[][] conections) {
@@ -84,7 +84,7 @@ class Edge {
         cost = triple[2];
     }
 }
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/80bc1e7f853bdbaf251970d1751f3d6eb163879662fe96385af1db92aae95ec8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/80bc1e7f853bdbaf251970d1751f3d6eb163879662fe96385af1db92aae95ec8-image.png)

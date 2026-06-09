@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean checkRecord(String s) {
         // 查找A的个数如果>=2 || s是否包含LLL 返回false

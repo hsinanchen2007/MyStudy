@@ -1,5 +1,5 @@
-动态规划：
-```
+// 动态规划：
+// ```
 function combinationSum4($nums, $target){
     $n = count($nums);
     if($n<=0) return 0;
@@ -9,9 +9,9 @@ function combinationSum4($nums, $target){
             if($i-$num>=0) $dp[$i] += $dp[$i-$num];
     return isset($dp[$target])?$dp[$target]:0;
 }
-```
-递归超时：
-```
+// ```
+// 递归超时：
+// ```
 function combinationSum4($nums, $target){
     if($target == 0) return 1;
     $res = 0;
@@ -20,4 +20,4 @@ function combinationSum4($nums, $target){
             $res += $this->combinationSum4($nums, $target-$nums[$i]);
     return $res;
 }
-```
+// ```

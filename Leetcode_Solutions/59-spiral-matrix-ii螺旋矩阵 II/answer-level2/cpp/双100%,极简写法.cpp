@@ -1,6 +1,6 @@
-![T1~@IDASLSS0TAE77B3YWS4.png](https://pic.leetcode-cn.com/d81e699d3e58abb6dfc7d6dabaab8aa477ac5e6b8a5373fbdfd30fe372e7bb27-T1~@IDASLSS0TAE77B3YWS4.png)
+// ![T1~@IDASLSS0TAE77B3YWS4.png](https://pic.leetcode-cn.com/d81e699d3e58abb6dfc7d6dabaab8aa477ac5e6b8a5373fbdfd30fe372e7bb27-T1~@IDASLSS0TAE77B3YWS4.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

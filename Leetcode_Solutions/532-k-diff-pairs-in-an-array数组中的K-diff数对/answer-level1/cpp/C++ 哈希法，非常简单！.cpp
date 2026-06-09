@@ -1,8 +1,8 @@
-# 利用unordered_map实现哈希表，思路简单。
+// # 利用unordered_map实现哈希表，思路简单。
 
-不过我这里针对k==0的情况专门搞了个set来处理，大家有没有什么优化方法？
+// 不过我这里针对k==0的情况专门搞了个set来处理，大家有没有什么优化方法？
 
-```c++ []
+// ```c++ []
 int findPairs(vector<int>& nums, int k) {
     if (k < 0) return 0;
     int ans = 0;
@@ -17,5 +17,5 @@ int findPairs(vector<int>& nums, int k) {
     }
     return k?ans:set.size();
 }
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-一开始暴力求解超时
+// ### 解题思路
+// 一开始暴力求解超时
 
-后来先取每个time对60的模，然后计算有多少对time的模相加为60的。
+// 后来先取每个time对60的模，然后计算有多少对time的模相加为60的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numPairsDivisibleBy60(int[] time){
         int[] record = new int[60];
@@ -40,4 +40,4 @@ class Solution {
 //         return ans;
 //     }
 // }
-```
+// ```

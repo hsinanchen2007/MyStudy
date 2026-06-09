@@ -1,5 +1,5 @@
-排序+二分
-```
+// 排序+二分
+// ```
 func findRadius(houses []int, heaters []int) int {
     sort.Ints(houses)
 	sort.Ints(heaters)
@@ -54,4 +54,4 @@ func findRadius(houses []int, heaters []int) int {
     }
     return max
 }
-```
+// ```

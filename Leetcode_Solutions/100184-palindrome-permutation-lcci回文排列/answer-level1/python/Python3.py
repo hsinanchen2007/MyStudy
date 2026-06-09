@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
@@ -15,4 +15,4 @@ class Solution:
             if odd > 1:
                 return False
         return True
-```
+# ```

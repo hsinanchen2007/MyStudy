@@ -1,8 +1,8 @@
-二分查找 
-- 将区域划分为 [1, mid-1] [mid, x]
+// 二分查找 
+// - 将区域划分为 [1, mid-1] [mid, x]
 
 
-```
+// ```
     public int mySqrt(int x) {
         int l=1, r=x;
         while(l < r){
@@ -13,4 +13,4 @@
         
         return r;
     }
-```
+// ```

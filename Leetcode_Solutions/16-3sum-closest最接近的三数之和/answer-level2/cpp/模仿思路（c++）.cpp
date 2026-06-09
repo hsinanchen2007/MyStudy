@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	static bool cmp(const int&a, const int &b)
@@ -30,4 +30,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

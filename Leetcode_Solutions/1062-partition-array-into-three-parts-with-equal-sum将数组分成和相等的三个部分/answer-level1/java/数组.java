@@ -1,9 +1,9 @@
-### 解题思路
-这一题要考虑充分全面才能ac啊。有几个测试用例都没想到
+// ### 解题思路
+// 这一题要考虑充分全面才能ac啊。有几个测试用例都没想到
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         if(A.length < 3)
@@ -37,4 +37,4 @@ class Solution {
             return false;
     }
 }
-```
+// ```

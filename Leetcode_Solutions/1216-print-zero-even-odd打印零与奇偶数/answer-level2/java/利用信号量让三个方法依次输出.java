@@ -1,9 +1,9 @@
-### 解题思路
-![{DX@WF\]L9BA$73817EVO05A.png](https://pic.leetcode-cn.com/8e90669eb3c609a4eae6e34ca1104cbba6f22634a5b233820649355a69125517-%7BDX@WF%5DL9BA$73817EVO05A.png)
-利用三个信号量分别控制三个方法，让其依次打印
-### 代码
+// ### 解题思路
+// ![{DX@WF\]L9BA$73817EVO05A.png](https://pic.leetcode-cn.com/8e90669eb3c609a4eae6e34ca1104cbba6f22634a5b233820649355a69125517-%7BDX@WF%5DL9BA$73817EVO05A.png)
+// 利用三个信号量分别控制三个方法，让其依次打印
+// ### 代码
 
-```java
+// ```java
 class ZeroEvenOdd {
     private int n;
     private Semaphore zeroSemaphore = new Semaphore(0);
@@ -57,4 +57,4 @@ class ZeroEvenOdd {
         evenSemaphore.release();
     }
 }
-```
+// ```

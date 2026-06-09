@@ -1,5 +1,5 @@
-可以再短一点，但是懒得改了😂
-```
+# 可以再短一点，但是懒得改了😂
+# ```
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> List[int]:
         l = sorted([a,b,c])
@@ -16,4 +16,4 @@ class Solution:
             return [1,b - a - 1]
         elif b - a != 1 and c - b != 1:
             return [2,c - a - 2]
-```
+# ```

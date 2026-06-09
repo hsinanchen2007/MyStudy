@@ -1,9 +1,9 @@
-### 解题思路
-对wordDict进行循环，使用dfs
+# ### 解题思路
+# 对wordDict进行循环，使用dfs
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         res = []
@@ -31,4 +31,4 @@ def dfs(s, memo, wordDict):
     # 保存当前s的结果
     memo[s] = res
     return res
-```
+# ```

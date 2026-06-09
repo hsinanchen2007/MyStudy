@@ -1,6 +1,6 @@
-### Analyze
+// ### Analyze
 
-```js
+// ```js
        cur    next
 Input:  1  ->  2  ->  3  ->  4  ->  5  ->  NULL
        prev   cur    next
@@ -12,12 +12,12 @@ Input:  1  ->  2  ->  3  ->  4  ->  5  ->  NULL
 
 
 Output: 1  ->  3  ->  5  ->  2  ->  4  ->  NULL
-```
+// ```
 
-* 将 prev 的 next 指向 next;
-* 如何将奇数链表与偶数链表进行链接(末尾的链表可能为奇数位也可能为偶数位)?
+// * 将 prev 的 next 指向 next;
+// * 如何将奇数链表与偶数链表进行链接(末尾的链表可能为奇数位也可能为偶数位)?
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -58,6 +58,6 @@ var oddEvenList = function(head) {
 
   return odd
 }
-```
+// ```
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

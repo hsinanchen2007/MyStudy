@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     private Queue<Integer> q1 = new LinkedList<>();
     private Queue<Integer> q2 = new LinkedList<>();
@@ -52,8 +52,8 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
-```
+// ```
+// ```
 struct MyStack {
     q1: Vec<i32>,
     q2: Vec<i32>,
@@ -114,4 +114,4 @@ impl MyStack {
  * let ret_3: i32 = obj.top();
  * let ret_4: bool = obj.empty();
  */
-```
+// ```

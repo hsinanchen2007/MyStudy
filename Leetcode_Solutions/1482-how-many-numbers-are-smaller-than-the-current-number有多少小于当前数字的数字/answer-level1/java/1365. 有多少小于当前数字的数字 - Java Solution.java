@@ -1,9 +1,9 @@
-### 暴力求解
-采用枚举法进行暴力求解。
+// ### 暴力求解
+// 采用枚举法进行暴力求解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ret= new int[nums.length];
@@ -20,7 +20,7 @@ class Solution {
         return ret;
     }
 }
-```
-### 复杂度
-- 时间：$O(n^2)$ 
-- 空间：$O(1)$
+// ```
+// ### 复杂度
+// - 时间：$O(n^2)$ 
+// - 空间：$O(1)$

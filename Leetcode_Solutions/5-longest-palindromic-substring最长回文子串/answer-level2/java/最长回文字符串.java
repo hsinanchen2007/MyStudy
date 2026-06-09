@@ -1,7 +1,7 @@
-1、以 i 为中心扩展
-2、以 i 和 i + 1 为中心扩展
+// 1、以 i 为中心扩展
+// 2、以 i 和 i + 1 为中心扩展
 
-```
+// ```
 class Solution {
     public String longestPalindrome(String s) {
         if (s.length() == 0) return s;
@@ -41,4 +41,4 @@ class Solution {
         return s.substring(ll, rr + 1);
     }
 }
-```
+// ```

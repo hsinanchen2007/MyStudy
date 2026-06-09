@@ -1,5 +1,5 @@
-方法一：（利用异或运算符）
-```c
+// 方法一：（利用异或运算符）
+// ```c
 int hammingDistance(int x, int y){
     int xor,res=0;
     xor=x^y;
@@ -9,9 +9,9 @@ int hammingDistance(int x, int y){
     }
     return res;
 }
-```
-方法二：
-```c
+// ```
+// 方法二：
+// ```c
 int hammingDistance(int x, int y){
     int tmp,res=0;
     if(x<y){
@@ -30,4 +30,4 @@ int hammingDistance(int x, int y){
     }
     return res;
 }
-```
+// ```

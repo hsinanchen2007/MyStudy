@@ -1,9 +1,9 @@
-### 解题思路
-两数组合并，然后排序，直接找中位数
+// ### 解题思路
+// 两数组合并，然后排序，直接找中位数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int CMP(const void *a, const void *b)
 {
     return (*(int*)a - *(int*)b);
@@ -33,4 +33,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
 
     return mid;
 }
-```
+// ```

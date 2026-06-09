@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 int thirdMax(int* nums, int numsSize){   
     int queue[3] = {(int)0x80000000, (int)0x80000000, (int)0x80000000};
     int min_val = 0x7fffffff;
@@ -17,4 +17,4 @@ int thirdMax(int* nums, int numsSize){
     return queue[2] >= min_val ? (queue[1] > queue[2] ? queue[2] : queue[0]) : queue[0];
 }
 
-```
+// ```

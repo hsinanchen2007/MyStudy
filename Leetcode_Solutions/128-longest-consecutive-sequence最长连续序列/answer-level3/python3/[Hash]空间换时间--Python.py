@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         h = {}
@@ -19,4 +19,4 @@ class Solution:
         for i in h:
             ret = max(ret,h[i][1]-h[i][0]+1)
         return ret
-```
+# ```

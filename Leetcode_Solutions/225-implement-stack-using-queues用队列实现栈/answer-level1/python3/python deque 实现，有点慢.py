@@ -1,10 +1,10 @@
-### 解题思路
-类似官解方法三，只不过deque里面直接appendleft,在队列前端加入元素。
-体会思想可以用append加while
+# ### 解题思路
+# 类似官解方法三，只不过deque里面直接appendleft,在队列前端加入元素。
+# 体会思想可以用append加while
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack:
 
     def __init__(self):
@@ -47,4 +47,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

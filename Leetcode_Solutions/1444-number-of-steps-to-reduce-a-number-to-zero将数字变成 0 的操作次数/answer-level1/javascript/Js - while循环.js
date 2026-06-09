@@ -1,9 +1,9 @@
-### 解题思路
-i 记录步骤次数，偶数/2，奇数自减，while循环直至为0
+// ### 解题思路
+// i 记录步骤次数，偶数/2，奇数自减，while循环直至为0
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -17,4 +17,4 @@ var numberOfSteps = function (num) {
   }
   return i
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-绕啊绕，，，
-### 代码
+// ### 解题思路
+// 绕啊绕，，，
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,4 +25,4 @@ class Solution {
         return prev;
     }
 }
-```
+// ```

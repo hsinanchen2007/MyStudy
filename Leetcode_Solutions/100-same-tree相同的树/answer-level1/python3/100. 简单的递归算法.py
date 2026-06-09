@@ -1,10 +1,10 @@
-### 解题思路
-如果节点值不同，直接为False。
-如果节点值相同，分别判断左右，只有左右都相同，才为True，其他所有情况都为False。
+# ### 解题思路
+# 如果节点值不同，直接为False。
+# 如果节点值相同，分别判断左右，只有左右都相同，才为True，其他所有情况都为False。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
 
         else:
             return False
-```
+# ```

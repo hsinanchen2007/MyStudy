@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-双指针解法
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 双指针解法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -32,4 +32,4 @@ public:
         return true;
     }
 };
-```
+// ```

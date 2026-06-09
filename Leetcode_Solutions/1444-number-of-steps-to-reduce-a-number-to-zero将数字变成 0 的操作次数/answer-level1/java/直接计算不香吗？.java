@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int numberOfSteps (int num) {
         int step = 0;
@@ -13,4 +13,4 @@ class Solution {
         return step;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-哈希表的key值是字符串，这里要注意uthash的接口中对字符串与字符指针的区别，别的就没什么大问题了；
-wordsFrequencyCreate就是调用addNode把单词写入哈希表，wordsFrequencyGet就是find的实现，wordsFrequencyFree就是deleteAll的实现
+// ### 解题思路
+// 哈希表的key值是字符串，这里要注意uthash的接口中对字符串与字符指针的区别，别的就没什么大问题了；
+// wordsFrequencyCreate就是调用addNode把单词写入哈希表，wordsFrequencyGet就是find的实现，wordsFrequencyFree就是deleteAll的实现
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     char name[12];
     int freq;
@@ -62,4 +62,4 @@ void wordsFrequencyFree(WordsFrequency* obj) {
  
  * wordsFrequencyFree(obj);
 */
-```
+// ```

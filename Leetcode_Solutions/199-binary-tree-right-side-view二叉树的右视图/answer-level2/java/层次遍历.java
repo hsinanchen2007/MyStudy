@@ -1,6 +1,6 @@
-想到的是层次遍历，只是在层次遍历的过程中需要两个变量记录上一层和下一层最后一个节点
+// 想到的是层次遍历，只是在层次遍历的过程中需要两个变量记录上一层和下一层最后一个节点
 
-```
+// ```
    
  public List<Integer> rightSideView(TreeNode root) {
         List<Integer> resultList = new ArrayList<>();
@@ -31,4 +31,4 @@
         return resultList;
     }
 
-```
+// ```

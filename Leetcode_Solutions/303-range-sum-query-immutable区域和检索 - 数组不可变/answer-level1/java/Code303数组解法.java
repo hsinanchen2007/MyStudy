@@ -1,9 +1,9 @@
-### 解题思路
-数组保存[0...n - 1]个元素的和，然后做减法
+// ### 解题思路
+// 数组保存[0...n - 1]个元素的和，然后做减法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
     private int[] sumArr;
 
@@ -30,4 +30,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

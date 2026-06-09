@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/42629b23671f910845a0a0b2a82711415b2f2d4dec08ace92839eec0b4f10e73-image.png)
+// ![image.png](https://pic.leetcode-cn.com/42629b23671f910845a0a0b2a82711415b2f2d4dec08ace92839eec0b4f10e73-image.png)
 
-本题单纯使用前缀和需要枚举区间左端点和右端点，复杂度n²，太慢;
+// 本题单纯使用前缀和需要枚举区间左端点和右端点，复杂度n²，太慢;
 
-维护前缀和的权值线段树，每到一个pre[i]就在树内查询有多少值在pre[i]-upper到pre[i]-lower之间，并向树内update pre[i]离散化后的值，复杂度nlogn;
+// 维护前缀和的权值线段树，每到一个pre[i]就在树内查询有多少值在pre[i]-upper到pre[i]-lower之间，并向树内update pre[i]离散化后的值，复杂度nlogn;
 
-```
+// ```
 class Solution {
 public:
     typedef long long ll;
@@ -95,4 +95,4 @@ public:
         return res;
     }
 };
-```
+// ```

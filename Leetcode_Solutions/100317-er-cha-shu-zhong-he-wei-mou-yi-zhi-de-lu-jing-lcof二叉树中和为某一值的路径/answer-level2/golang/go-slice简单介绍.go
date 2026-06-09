@@ -1,5 +1,5 @@
-**思路**
-```
+// **思路**
+// ```
 
 slice 引用传递
 所以： =只是改变了原来的指向
@@ -12,12 +12,12 @@ slice 引用传递
 
 
 
-```
+// ```
 
 
-**代码**
+// **代码**
 
-```
+// ```
 func dfs(root *TreeNode,sum int,temp []int ,result *[][]int)  {
 	if root == nil{
 		return
@@ -43,4 +43,4 @@ func pathSum(root *TreeNode, sum int) [][]int {
 	dfs(root,sum,[]int{},&result)
 	return result
 }
-```
+// ```

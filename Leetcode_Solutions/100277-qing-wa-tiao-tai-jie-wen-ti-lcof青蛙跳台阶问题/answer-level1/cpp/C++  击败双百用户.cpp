@@ -1,10 +1,10 @@
-### 解题思路
-关注微信公众号'码农黑板报' 获取更多题解
-![image.png](https://pic.leetcode-cn.com/b14831484e93c9e1381e8f1ba155ddd64eef8d276128545edab6fa37923c6141-image.png)
+// ### 解题思路
+// 关注微信公众号'码农黑板报' 获取更多题解
+// ![image.png](https://pic.leetcode-cn.com/b14831484e93c9e1381e8f1ba155ddd64eef8d276128545edab6fa37923c6141-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numWays(int n) {
@@ -20,4 +20,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

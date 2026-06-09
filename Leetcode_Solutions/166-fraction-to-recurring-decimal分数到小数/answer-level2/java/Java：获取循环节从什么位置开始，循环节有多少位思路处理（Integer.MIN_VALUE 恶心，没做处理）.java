@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         if(denominator == 0 || numerator == 0){
@@ -59,4 +59,4 @@ class Solution {
         }
     }
 }
-```
+// ```

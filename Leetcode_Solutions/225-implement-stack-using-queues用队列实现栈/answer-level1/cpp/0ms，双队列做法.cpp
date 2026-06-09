@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/4d4f72b29319091e3d6cd864eafb7ff82cc585974fe64d70dfbd8547cc384455-image.png)
-使用两个队列q，a_q，其中a_q进行辅助操作。
-push 直接push进q中
-pop和top都需要把q中所有元素放进a_q队列中
+// ![image.png](https://pic.leetcode-cn.com/4d4f72b29319091e3d6cd864eafb7ff82cc585974fe64d70dfbd8547cc384455-image.png)
+// 使用两个队列q，a_q，其中a_q进行辅助操作。
+// push 直接push进q中
+// pop和top都需要把q中所有元素放进a_q队列中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 private:
     queue<int> q;
@@ -60,4 +60,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

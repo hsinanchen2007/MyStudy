@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def cuttingRope(self, n: int) -> int:
         self.result = [0, 1, 1]    # 存放最短长度
@@ -17,4 +17,4 @@ class Solution:
         self.result.append(res)
         return res
 
-```
+# ```

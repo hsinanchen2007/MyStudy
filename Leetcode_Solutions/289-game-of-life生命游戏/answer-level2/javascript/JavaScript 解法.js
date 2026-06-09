@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -48,4 +48,4 @@ let aroundSurviveNum = (x, y, board) => {
 let clone = (val) => {
     return JSON.parse(JSON.stringify(val));
 };
-```
+// ```

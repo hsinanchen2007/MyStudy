@@ -1,6 +1,6 @@
 
-string类成员函数inset
-```
+// string类成员函数inset
+// ```
 class Solution {
 public:
     string convertToBase7(int num)
@@ -25,4 +25,4 @@ public:
     }
 };
 
-```
+// ```

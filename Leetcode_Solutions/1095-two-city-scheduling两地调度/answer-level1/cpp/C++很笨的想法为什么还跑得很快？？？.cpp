@@ -1,4 +1,4 @@
-```
+// ```
 bool cmp(const int &a,const int &b){return a>b;}
 class Solution {/*思路：按照两地价格差的最大值从大到小进行排序分配即可，但是该比较函数cmp写不出来*/
 public:
@@ -32,4 +32,4 @@ public:
        return sum;
     }
 };
-```
+// ```

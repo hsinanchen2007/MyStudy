@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-匹配成功后将最后一个字符的位置标记为true，然后剩下部分要是也能匹配成功，则完成匹配
+// ### 解题思路
+// 此处撰写解题思路
+// 匹配成功后将最后一个字符的位置标记为true，然后剩下部分要是也能匹配成功，则完成匹配
 
-标记过的位置就不再重复匹配了
+// 标记过的位置就不再重复匹配了
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool check(char * s, char ** wordDict, int wordDictSize, bool *flag) {
     int len;
     //printf("%s\n", s);
@@ -33,4 +33,4 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     memset(flag, 0, sizeof(bool) * len);
     return check(s, wordDict, wordDictSize, flag);
 }
-```
+// ```

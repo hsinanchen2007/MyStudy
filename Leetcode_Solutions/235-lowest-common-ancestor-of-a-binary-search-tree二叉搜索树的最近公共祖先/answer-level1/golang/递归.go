@@ -1,8 +1,8 @@
-### 解题思路
-如果两个节点的值都大于当前节点的值就在节点又子树，小于在左子树，否则就是当前节点
-### 代码
+// ### 解题思路
+// 如果两个节点的值都大于当前节点的值就在节点又子树，小于在左子树，否则就是当前节点
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -26,4 +26,4 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     }
     return root
 }
-```
+// ```

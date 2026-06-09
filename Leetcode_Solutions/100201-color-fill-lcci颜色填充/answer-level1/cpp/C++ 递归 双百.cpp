@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d50ec524ac65f5261fbd0749174b3a521d55a05b9d5bb486614b0a8abffdbddc-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d50ec524ac65f5261fbd0749174b3a521d55a05b9d5bb486614b0a8abffdbddc-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor)
@@ -30,4 +30,4 @@ public:
         }
     }
 };
-```
+// ```

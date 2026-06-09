@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 function intToRoman($num,$string = "") {
     $arr = [1000,900,500,400,100,90,50,40,10,9,5,4,1];
     $code = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"];
@@ -10,10 +10,10 @@ function intToRoman($num,$string = "") {
     }
     return $string;
 }
-```
+// ```
 
-方法二
-```
+// 方法二
+// ```
 function intToRoman2($num,$string = "") {
     if($num == 0){
         return $string;
@@ -28,4 +28,4 @@ function intToRoman2($num,$string = "") {
         }
     }
 }
-```
+// ```

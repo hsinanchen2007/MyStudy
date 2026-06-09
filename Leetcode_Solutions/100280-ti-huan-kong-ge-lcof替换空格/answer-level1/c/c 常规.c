@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -54,4 +54,4 @@ char * replaceSpace( char * s ){
     return buffer;
 
 }
-```
+// ```

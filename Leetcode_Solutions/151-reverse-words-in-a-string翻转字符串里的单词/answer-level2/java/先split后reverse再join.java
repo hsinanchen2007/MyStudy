@@ -1,21 +1,21 @@
-### 解题思路
-##### 方法1
-```text
+// ### 解题思路
+// ##### 方法1
+// ```text
 1. String trim()后通过split转换成数组strs
 2. 遍历数组，交换对应元素的位置（i与strs.length - i -1交换）
 3. 将数组转换成字符串，去除数组中的空字符串
-```
-##### 方法2
-```
+// ```
+// ##### 方法2
+// ```
 方法2和方法1没有本质区别，只是用了java 集合中的一些原生方法，显得更精炼一些
 1. split的时候，匹配正则' +',而不是' '
 2. 交换对应元素位置的时候，使用collections.reverse(Arrays.asList(...))
 3. 数组转换成String的时候，使用String.join(...)
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String[] strs = s.trim().split(" ");
@@ -38,10 +38,10 @@ class Solution {
         strs[j] = tmp;
     }
 }
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -64,4 +64,4 @@ public class SolutionTest {
         assertEquals(expect3, output3);
     }
 }
-```
+// ```

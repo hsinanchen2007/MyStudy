@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（m+n）
-空间复杂度：O(n)
+# ### 解题思路
+# 时间复杂度：O（m+n）
+# 空间复杂度：O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not haystack and needle:
@@ -41,4 +41,4 @@ class Solution:
             else:
                 j = next_str[j]
         return next_str
-```
+# ```

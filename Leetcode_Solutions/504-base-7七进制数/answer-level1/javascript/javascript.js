@@ -1,7 +1,7 @@
-用数组储存最后的结果，然后输出成字符串
-讲进制转换写成函数方便负数和正数两种情况调用
+// 用数组储存最后的结果，然后输出成字符串
+// 讲进制转换写成函数方便负数和正数两种情况调用
 
-```
+// ```
 var convertToBase7 = function(num) {
    let res=[];
    if(num>=0) return go(num)
@@ -16,4 +16,4 @@ var convertToBase7 = function(num) {
    return res.join('')
    } 
 };
-```
+// ```

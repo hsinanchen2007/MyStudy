@@ -1,9 +1,9 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/27f1779307cb51b89efb9f82a698dda8d47c1cdc4433e3ac1da69e1b30b77106-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/27f1779307cb51b89efb9f82a698dda8d47c1cdc4433e3ac1da69e1b30b77106-1.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int oddCells(int n, int m, vector<vector<int>>& indices) {
@@ -23,4 +23,4 @@ public:
     return cnt;
     }
 };
-```
+// ```

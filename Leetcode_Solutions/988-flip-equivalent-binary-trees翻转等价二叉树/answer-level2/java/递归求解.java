@@ -1,6 +1,6 @@
-注意是翻转一定次数之后所以有两种情况
-1 翻转k次(k = 1,3,5.....)
-2 翻转k-1次
+// 注意是翻转一定次数之后所以有两种情况
+// 1 翻转k次(k = 1,3,5.....)
+// 2 翻转k-1次
 class Solution {
     public boolean flipEquiv(TreeNode root1, TreeNode root2) {
        return isEqual(root1,root2);

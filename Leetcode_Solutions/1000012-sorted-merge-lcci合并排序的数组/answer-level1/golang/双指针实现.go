@@ -1,6 +1,6 @@
-## 双指针实现（和实现链表合并方法一样）
+// ## 双指针实现（和实现链表合并方法一样）
 
-```
+// ```
 //双指针实现
 func merge(A []int, m int, B []int, n int)  {
     C:=make([]int,m)
@@ -29,4 +29,4 @@ func merge(A []int, m int, B []int, n int)  {
         p++
     }
 }
-```
+// ```

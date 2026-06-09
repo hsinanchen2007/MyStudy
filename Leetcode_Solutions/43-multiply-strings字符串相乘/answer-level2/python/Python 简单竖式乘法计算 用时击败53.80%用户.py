@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :172 ms, 在所有 python 提交中击败了53.80%的用户
-内存消耗 :11.6 MB, 在所有 python 提交中击败了40.31%的用户
-![微信图片_20191208171955.png](https://pic.leetcode-cn.com/f188d6f7e414bce89c551913c8b7e56348eb17215697e146682143e1b0ee62d4-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191208171955.png)
+# ### 解题思路
+# 执行用时 :172 ms, 在所有 python 提交中击败了53.80%的用户
+# 内存消耗 :11.6 MB, 在所有 python 提交中击败了40.31%的用户
+# ![微信图片_20191208171955.png](https://pic.leetcode-cn.com/f188d6f7e414bce89c551913c8b7e56348eb17215697e146682143e1b0ee62d4-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191208171955.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def multiply(self, num1, num2):
         """
@@ -50,4 +50,4 @@ class Solution(object):
         s = ''.join(str(num_sum[j]) for j in range(len(num_sum)))
         print(s)
         return s
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-go有点不好就是没有map的deepclone
+// ### 解题思路
+// go有点不好就是没有map的deepclone
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countCharacters(words []string, chars string) int {
 	count := 0
 	for i := 0; i < len(words); i++ {
@@ -29,4 +29,4 @@ func getAlphabet(chars string) map[byte]int {
 	}
 	return alphabet
 }
-```
+// ```

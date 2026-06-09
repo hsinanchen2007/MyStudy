@@ -1,9 +1,9 @@
-### 解题思路
-之前一直提交出现越界问题，一脸懵逼的解决了。没想到耗时那么高，暴力法确实不行
+# ### 解题思路
+# 之前一直提交出现越界问题，一脸懵逼的解决了。没想到耗时那么高，暴力法确实不行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
        maxlen = 1
@@ -20,4 +20,4 @@ class Solution:
        if res == "":
           res = s[0]
        return res
-```
+# ```

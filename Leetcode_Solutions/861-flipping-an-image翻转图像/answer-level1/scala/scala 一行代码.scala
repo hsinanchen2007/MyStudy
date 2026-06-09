@@ -1,9 +1,9 @@
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def flipAndInvertImage(A: Array[Array[Int]]): Array[Array[Int]] = {
          A.map{_.reverse.map(1 - _)}
     }
 }
-```
+// ```

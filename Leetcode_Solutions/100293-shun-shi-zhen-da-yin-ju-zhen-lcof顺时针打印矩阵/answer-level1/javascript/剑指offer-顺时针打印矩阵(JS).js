@@ -1,4 +1,4 @@
-```js
+// ```js
 var spiralOrder = function(matrix) {
   let height = matrix.length;
   if (!height) return matrix;
@@ -24,4 +24,4 @@ var spiralOrder = function(matrix) {
   }
   return result;
 };
-```
+// ```

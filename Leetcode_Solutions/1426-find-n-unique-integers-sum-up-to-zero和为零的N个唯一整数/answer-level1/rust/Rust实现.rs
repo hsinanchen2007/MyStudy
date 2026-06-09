@@ -1,9 +1,9 @@
-### 解题思路
-见代码，方法不唯一
+// ### 解题思路
+// 见代码，方法不唯一
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn sum_zero(n: i32) -> Vec<i32> {
         let mut sum = 0i32;
@@ -18,4 +18,4 @@ impl Solution {
         (arr)
     }
 }
-```
+// ```

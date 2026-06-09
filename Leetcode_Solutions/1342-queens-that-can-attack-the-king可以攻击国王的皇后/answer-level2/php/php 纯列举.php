@@ -1,15 +1,15 @@
 
-[题目传送门](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/)
+// [题目传送门](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/)
 
-我直接把8种情况列出来了...
-国王的坐标为(i, j), 白皇后的坐标为(qi, qj)
-1. 同一行 i = qi: 找最靠近的两列
-2. 同一列 j = qj: 找最近的两行
-3. 对角线1: i + j = qi + qj
-4. 对角线2: i - j = qi - qj
+// 我直接把8种情况列出来了...
+// 国王的坐标为(i, j), 白皇后的坐标为(qi, qj)
+// 1. 同一行 i = qi: 找最靠近的两列
+// 2. 同一列 j = qj: 找最近的两行
+// 3. 对角线1: i + j = qi + qj
+// 4. 对角线2: i - j = qi - qj
 
 
-``` php
+// ``` php
 class Solution {
 
     /**
@@ -77,4 +77,4 @@ class Solution {
         return array_values($r);
     }
 }
-```
+// ```

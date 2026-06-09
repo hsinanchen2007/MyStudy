@@ -1,13 +1,13 @@
-### 解题思路
-1、求出每个字符串的hashCode
-    注意这里的hashCode不能是数字，因为有可能存在重复后的数字相同。
-    这里应该用String,将原字符串的每一位char排序后重新组合在一起
+// ### 解题思路
+// 1、求出每个字符串的hashCode
+//     注意这里的hashCode不能是数字，因为有可能存在重复后的数字相同。
+//     这里应该用String,将原字符串的每一位char排序后重新组合在一起
 
-2、再根据hashCode进行分组
+// 2、再根据hashCode进行分组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
    private String getHashCode(String str){
@@ -38,4 +38,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用广度优先搜索，当stack为[]时，表示遍历完所有层
+# ### 解题思路
+# 利用广度优先搜索，当stack为[]时，表示遍历完所有层
 
-### 代码1
+# ### 代码1
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -30,9 +30,9 @@ class Solution(object):
             if node.right:
                 stack.append([node.right,level+1])         
         return deep
-```
-### 代码2
-```
+# ```
+# ### 代码2
+# ```
 class Solution(object):
     def maxDepth(self, root):
         """
@@ -53,4 +53,4 @@ class Solution(object):
                     temp.append([node.right,level+1])
             stack=temp
         return deep
-```
+# ```

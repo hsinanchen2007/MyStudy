@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         #定义一个临时列表
@@ -18,4 +18,4 @@ class Solution:
             else:
                 result[dic[tmp[i]]].append(strs[i])
         return result
-```
+# ```

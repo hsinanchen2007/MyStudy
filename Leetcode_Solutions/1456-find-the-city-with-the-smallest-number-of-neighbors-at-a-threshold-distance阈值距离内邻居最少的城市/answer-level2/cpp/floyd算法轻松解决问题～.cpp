@@ -1,9 +1,9 @@
-### 解题思路
-不用思考就是弗洛伊德算法，猛着往上就行～
+// ### 解题思路
+// 不用思考就是弗洛伊德算法，猛着往上就行～
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
@@ -43,4 +43,4 @@ public:
         return maxind;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def translateNum(self, num: int) -> int:
         num = str(num)
@@ -16,4 +16,4 @@ class Solution:
                 dp[i] = dp[i-1]
         return dp[-1]
             
-```
+# ```

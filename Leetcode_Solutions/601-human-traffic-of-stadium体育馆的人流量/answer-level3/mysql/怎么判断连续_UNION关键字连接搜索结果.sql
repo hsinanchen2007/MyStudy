@@ -1,4 +1,4 @@
-```
+-- ```
 # Write your MySQL query statement below
 SELECT
     *
@@ -56,4 +56,4 @@ FROM
     ) AS result   #如果没有别号，编译会不通过
 ORDER BY
     result.id     #如果不排序，答案会出错
-```
+-- ```

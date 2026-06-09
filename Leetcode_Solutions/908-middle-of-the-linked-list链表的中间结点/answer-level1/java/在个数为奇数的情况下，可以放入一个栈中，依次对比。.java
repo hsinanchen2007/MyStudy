@@ -1,4 +1,4 @@
- ```
+//  ```
 public ListNode middleNode(ListNode head) {
         if(head==null){
             return null;
@@ -15,4 +15,4 @@ public ListNode middleNode(ListNode head) {
         }
         return slow;
     }
-```
+// ```

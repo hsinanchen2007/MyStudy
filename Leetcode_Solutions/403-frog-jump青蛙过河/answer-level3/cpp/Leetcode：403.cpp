@@ -1,13 +1,13 @@
-### 解题思路
-首先设石头的个数为n 步长jump最长也就是 n - 1
-状态表示： dp[x][z] 表示跳到第x块石头上所用的步长为z dp[][z]仅与dp[][z - 1] dp[][z] dp[][z + 1]有关
-状态转移：dp[x][z] = dp[y][z - 1] || dp[y][z] || dp[y][z + 1] 其中 y∈[0, x - 1]
-边界条件： 设 x 和 y 之间的距离为 dis = stones[x] - stones[y]  如果dis >= n(n为石头的个数) 则从j -> i的转移不成立
-转移顺序：从x = 0 ==> x = n - 1
+// ### 解题思路
+// 首先设石头的个数为n 步长jump最长也就是 n - 1
+// 状态表示： dp[x][z] 表示跳到第x块石头上所用的步长为z dp[][z]仅与dp[][z - 1] dp[][z] dp[][z + 1]有关
+// 状态转移：dp[x][z] = dp[y][z - 1] || dp[y][z] || dp[y][z + 1] 其中 y∈[0, x - 1]
+// 边界条件： 设 x 和 y 之间的距离为 dis = stones[x] - stones[y]  如果dis >= n(n为石头的个数) 则从j -> i的转移不成立
+// 转移顺序：从x = 0 ==> x = n - 1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #define ll long long
 const int MAXN = 1050;
 ll dp[MAXN][MAXN];
@@ -32,4 +32,4 @@ public:
         return false;
     }
 };
-```
+// ```

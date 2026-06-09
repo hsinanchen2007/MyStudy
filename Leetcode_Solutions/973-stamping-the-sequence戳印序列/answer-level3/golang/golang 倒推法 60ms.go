@@ -1,7 +1,7 @@
-这题使用倒退法求解较快。
+// 这题使用倒退法求解较快。
 
-我们通过不断的遍历target。只要发现target[i:i+len(stamp)] == stamp，那么我就将target中这一段每个字节修改为'?'，'?'作为通配符可以参与到下次的比较中。具体见注释
-```
+// 我们通过不断的遍历target。只要发现target[i:i+len(stamp)] == stamp，那么我就将target中这一段每个字节修改为'?'，'?'作为通配符可以参与到下次的比较中。具体见注释
+// ```
 func movesToStamp(stamp string, target string) []int {
 	bTarget := make([]byte, len(target))
 	bStamp := []byte(stamp)
@@ -52,4 +52,4 @@ func compare(bs, bt []byte) bool {
 	}
 	return true
 }
-```
+// ```

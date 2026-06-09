@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func validateStackSequences(pushed []int, popped []int) bool {
     if len(pushed)==0{
         return true
@@ -29,4 +29,4 @@ func validateStackSequences(pushed []int, popped []int) bool {
         }
     }
 }
-```
+// ```

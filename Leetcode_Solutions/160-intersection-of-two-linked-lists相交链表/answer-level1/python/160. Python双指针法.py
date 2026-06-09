@@ -1,9 +1,9 @@
-### 解题思路
-先计算两条链的长度，让长的那条链的指针从头先走一个长度差，然后再一起向前走即可。
+# ### 解题思路
+# 先计算两条链的长度，让长的那条链的指针从头先走一个长度差，然后再一起向前走即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
             p = p.next
             q = q.next
         return p
-```
+# ```

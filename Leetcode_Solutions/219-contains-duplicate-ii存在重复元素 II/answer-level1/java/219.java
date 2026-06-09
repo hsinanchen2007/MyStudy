@@ -1,9 +1,9 @@
-### 解题思路
-从i处向前寻找K个位置内是否有相同元素
+// ### 解题思路
+// 从i处向前寻找K个位置内是否有相同元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution{
 public boolean containsNearbyDuplicate(int[] nums, int k) {
     for (int i = 0; i < nums.length; ++i) {
@@ -16,4 +16,4 @@ public boolean containsNearbyDuplicate(int[] nums, int k) {
 }
 
 
-```
+// ```

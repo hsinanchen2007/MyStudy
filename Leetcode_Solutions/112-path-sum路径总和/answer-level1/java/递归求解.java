@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/fbf8ac417d5fa34a065661a650c4686f5ea384f7518db18caa5e4d05ebaaf5ef-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/fbf8ac417d5fa34a065661a650c4686f5ea384f7518db18caa5e4d05ebaaf5ef-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return sum == root.val;
     }
 }
-```
+// ```

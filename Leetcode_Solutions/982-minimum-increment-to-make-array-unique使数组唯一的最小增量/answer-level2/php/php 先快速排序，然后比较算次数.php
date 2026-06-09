@@ -1,9 +1,9 @@
-### 解题思路
-快排，加记录上一个元素来和当前元素比较进行记录次数
+// ### 解题思路
+// 快排，加记录上一个元素来和当前元素比较进行记录次数
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -51,4 +51,4 @@ class Solution {
         return array_merge(self::quickSort($left), [$mid], self::quickSort($right));
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public bool HasAlternatingBits(int n) {
         var count=0;
         var t=n;
@@ -20,4 +20,4 @@ public bool HasAlternatingBits(int n) {
         }
         return n==t1||n==t2;
     }
-```
+// ```

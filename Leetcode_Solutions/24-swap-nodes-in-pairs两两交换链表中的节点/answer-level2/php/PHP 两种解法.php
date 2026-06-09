@@ -1,8 +1,8 @@
-## 非递归解法
+// ## 非递归解法
 
-借助一个虚拟头节点，画图
+// 借助一个虚拟头节点，画图
 
-```php
+// ```php
 function swapPairs($head)
 {
     if ($head === null || $head->next === null) {
@@ -23,11 +23,11 @@ function swapPairs($head)
 
     return $dummyHead->next;
 }
-```
+// ```
 
-## 递归解法
+// ## 递归解法
 
-```php
+// ```php
 function swapPairs($head)
 {
     // 递归函数的含义，返回后续所有节点两两交换之后的头节点
@@ -41,4 +41,4 @@ function swapPairs($head)
     $next->next = $head;
     return $next;
 }
-```
+// ```

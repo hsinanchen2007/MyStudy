@@ -1,9 +1,9 @@
-### 解题思路
-二分法查找，未找到时，返回最后一次二分查询的起始索引即可。
+// ### 解题思路
+// 二分法查找，未找到时，返回最后一次二分查询的起始索引即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
 // 1.遍历法
@@ -26,4 +26,4 @@ class Solution {
            return start;
     }
 }
-```
+// ```

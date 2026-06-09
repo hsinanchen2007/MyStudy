@@ -1,7 +1,7 @@
-时间复杂度： O(n log n)
-空间复杂度： O(log n)
+// 时间复杂度： O(n log n)
+// 空间复杂度： O(log n)
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -24,4 +24,4 @@ class Solution {
         return $num;
     }
 }
-```
+// ```

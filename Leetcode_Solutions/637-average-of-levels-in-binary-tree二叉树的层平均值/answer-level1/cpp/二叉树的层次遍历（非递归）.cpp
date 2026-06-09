@@ -1,6 +1,6 @@
-1. 层次遍历二叉树
-2. 求每层的平均值
-``` C++
+// 1. 层次遍历二叉树
+// 2. 求每层的平均值
+// ``` C++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
         return res;
     }
 };
-```
+// ```

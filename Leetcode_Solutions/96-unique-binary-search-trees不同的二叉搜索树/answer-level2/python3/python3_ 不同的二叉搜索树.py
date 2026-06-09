@@ -1,4 +1,4 @@
-```python
+# ```python
 def numTrees(n):
     """
         1. dp问题: dp[i] = dp[i - 1]为左子树 * dp[i+1]为右子树
@@ -14,4 +14,4 @@ def numTrees(n):
     return dp[-1]
 
 print(numTrees(8))
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-更加简洁的动态规划思想
+// ### 解题思路
+// 更加简洁的动态规划思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.lang.Math;
 class Solution {
     public int cuttingRope(int n) {
@@ -22,4 +22,4 @@ class Solution {
         return result[n];
     }
 }
-```
+// ```

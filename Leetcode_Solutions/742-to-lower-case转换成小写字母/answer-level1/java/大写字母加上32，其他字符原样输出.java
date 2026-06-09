@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```java
+// ```java
 class Solution {
     public String toLowerCase(String str) {
          char[] chars = str.toCharArray();
@@ -15,4 +15,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

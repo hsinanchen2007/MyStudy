@@ -1,10 +1,10 @@
-### 解题思路
-二路分治，归并结果
-分治：把k个链表合并问题分解成2个链表合并。
+// ### 解题思路
+// 二路分治，归并结果
+// 分治：把k个链表合并问题分解成2个链表合并。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -73,4 +73,4 @@ class Solution {
     }
 
 }
-```
+// ```

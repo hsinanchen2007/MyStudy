@@ -1,9 +1,9 @@
-### 解题思路
-这一题和349一样的，就一个地方不一样。
+// ### 解题思路
+// 这一题和349一样的，就一个地方不一样。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         List<Integer> list = new ArrayList<>();
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

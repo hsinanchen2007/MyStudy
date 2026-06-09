@@ -1,5 +1,5 @@
-第一次写出困难题，开心~
-```
+// 第一次写出困难题，开心~
+// ```
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -36,4 +36,4 @@ public:
         return q->next;
     }
 };
-```
+// ```

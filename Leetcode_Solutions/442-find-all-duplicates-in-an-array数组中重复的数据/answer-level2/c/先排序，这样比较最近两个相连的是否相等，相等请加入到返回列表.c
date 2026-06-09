@@ -1,10 +1,10 @@
-### 解题思路
-先排序，重复加入返回列表
+// ### 解题思路
+// 先排序，重复加入返回列表
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

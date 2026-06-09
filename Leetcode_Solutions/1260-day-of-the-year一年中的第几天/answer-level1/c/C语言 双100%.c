@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/3a3a875cfb49fad9be9ea4bad7b89f121ec669b2af7a8b56402eeb8f1a4934ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3a3a875cfb49fad9be9ea4bad7b89f121ec669b2af7a8b56402eeb8f1a4934ac-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int getYMD(char *date, int *y, int *m, int *d)
 {
 	int stat = 0;
@@ -43,4 +43,4 @@ int dayOfYear(char * date){
 	rlt += d;
 	return rlt;
 }
-```
+// ```

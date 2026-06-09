@@ -1,4 +1,4 @@
-```go
+// ```go
 func multiply(num1 string, num2 string) string {
     if len(num1) == 0 { return num2 }
     if len(num2) == 0 { return num1 }
@@ -53,4 +53,4 @@ func addString(s1, s2 string) string {
     }
     return res
 }
-```
+// ```

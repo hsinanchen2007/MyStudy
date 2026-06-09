@@ -1,9 +1,9 @@
-### 解题思路
-申请一个辅助数组help，遍历第一次把奇数放进去，然后遍历第二遍把偶数放进去
+// ### 解题思路
+// 申请一个辅助数组help，遍历第一次把奇数放进去，然后遍历第二遍把偶数放进去
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         if(nums==null||nums.length==0){
@@ -24,8 +24,8 @@ class Solution {
         return help;
     }
 }
-```
+// ```
 
-### 复杂度分析
-- 时间复杂度为O(N)
-- 空间复杂度为O(N)
+// ### 复杂度分析
+// - 时间复杂度为O(N)
+// - 空间复杂度为O(N)

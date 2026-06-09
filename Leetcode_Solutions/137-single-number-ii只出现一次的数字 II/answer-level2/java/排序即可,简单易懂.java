@@ -1,9 +1,9 @@
-### 解题思路
-位运算需要结合数字逻辑的知识,排序简单粗暴!
+// ### 解题思路
+// 位运算需要结合数字逻辑的知识,排序简单粗暴!
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
     	Arrays.sort(nums);
@@ -18,4 +18,4 @@ class Solution {
     	return nums[nums.length-1];
     }
 }
-```
+// ```

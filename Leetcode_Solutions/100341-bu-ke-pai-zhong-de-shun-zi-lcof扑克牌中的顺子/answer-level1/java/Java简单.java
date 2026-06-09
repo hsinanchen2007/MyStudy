@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isStraight(int[] nums) {
         Set<Integer> set = new HashSet<>();
@@ -22,4 +22,4 @@ class Solution {
         return (max-min+1) <= (set.size()+cnt);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func pruneTree(root *TreeNode) *TreeNode {
     if root == nil {
         return nil
@@ -10,4 +10,4 @@ func pruneTree(root *TreeNode) *TreeNode {
     }
     return root
 }
-```
+// ```

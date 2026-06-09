@@ -1,4 +1,4 @@
-```
+// ```
 Array.prototype.peek = function () {
   return this[this.length - 1]
 }
@@ -15,4 +15,4 @@ var dailyTemperatures = function(T) {
   }
   return result
 }
-```
+// ```

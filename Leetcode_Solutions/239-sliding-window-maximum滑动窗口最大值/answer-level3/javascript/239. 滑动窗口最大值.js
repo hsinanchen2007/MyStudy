@@ -1,22 +1,22 @@
-## 滑动窗口思想
-+ 讲解
-  + [滑动窗口11道](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/demos/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A311%E9%81%93.md)
-+ 类似题型
-  + 1、[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-  + 2、[30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
-  + 3、[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
-  + 4、[159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
-  + 5、[209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
-  + 6、[239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
-  + 7、[340. 至多包含 K 个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)
-  + 8、[438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
-  + 9、[567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
-  + 10、[632. 最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/)
-  + 11、[727. 最小窗口子序列](https://leetcode-cn.com/problems/minimum-window-subsequence/)
-+ 戳看👇
-  + [leetCode所有题解](https://github.com/Alex660/leetcode)
-#### 解法一：暴力法
-```javascript
+// ## 滑动窗口思想
+// + 讲解
+//   + [滑动窗口11道](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/demos/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A311%E9%81%93.md)
+// + 类似题型
+//   + 1、[3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+//   + 2、[30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+//   + 3、[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+//   + 4、[159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+//   + 5、[209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+//   + 6、[239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+//   + 7、[340. 至多包含 K 个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+//   + 8、[438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
+//   + 9、[567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
+//   + 10、[632. 最小区间](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/)
+//   + 11、[727. 最小窗口子序列](https://leetcode-cn.com/problems/minimum-window-subsequence/)
+// + 戳看👇
+//   + [leetCode所有题解](https://github.com/Alex660/leetcode)
+// #### 解法一：暴力法
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -35,21 +35,21 @@ var maxSlidingWindow = function(nums, k) {
     }
     return res;
 };
-```
-#### 解法二：滑动窗口 + 双端队列
-+ 时间复杂度：O(N)
-  + 每个元素被处理两次- 其索引被添加到双向队列中和被双向队列删除
-+ 空间复杂度：O(N)
-  + 双向队列的空间
-+ 思路
-  + [参考题解 - 单调队列解题详解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-dui-lie-by-labuladong/)
-  + 填充滑动窗口图解(借用)
-    + ![](https://pic.leetcode-cn.com/192b98a80836b47b553ac3b70a13ab3c8dbb1a30f09652f8183f8e4b00c8a3e7-file_1560498372627)
-  + 双向队列
-    + 维持单调递减队列
-      + 每次push元素时，将队列中更小元素删除，直到不小时
-      + 每次pop元素时，如果是更小的元素在push时就已经删除了，只需要判断是否是头部最大值，是再删除一遍头部元素即可
-```javascript
+// ```
+// #### 解法二：滑动窗口 + 双端队列
+// + 时间复杂度：O(N)
+//   + 每个元素被处理两次- 其索引被添加到双向队列中和被双向队列删除
+// + 空间复杂度：O(N)
+//   + 双向队列的空间
+// + 思路
+//   + [参考题解 - 单调队列解题详解](https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-dui-lie-by-labuladong/)
+//   + 填充滑动窗口图解(借用)
+//     + ![](https://pic.leetcode-cn.com/192b98a80836b47b553ac3b70a13ab3c8dbb1a30f09652f8183f8e4b00c8a3e7-file_1560498372627)
+//   + 双向队列
+//     + 维持单调递减队列
+//       + 每次push元素时，将队列中更小元素删除，直到不小时
+//       + 每次pop元素时，如果是更小的元素在push时就已经删除了，只需要判断是否是头部最大值，是再删除一遍头部元素即可
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -91,12 +91,12 @@ var maxSlidingWindow = function(nums, k) {
     }
     return res;
 };
-```
-#### 解法三：参考解法 - 动态规划
-+ 参考题解
-  + [中文](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetcode-3/)
-  + [英文](https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
-```javascript
+// ```
+// #### 解法三：参考解法 - 动态规划
+// + 参考题解
+//   + [中文](https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetcode-3/)
+//   + [英文](https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -122,4 +122,4 @@ var maxSlidingWindow = function(nums, k) {
     }
     return res;
 };
-```
+// ```

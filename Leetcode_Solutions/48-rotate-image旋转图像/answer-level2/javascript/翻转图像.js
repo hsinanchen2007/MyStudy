@@ -1,7 +1,7 @@
-1. 先翻转整个矩阵
-2. 再翻转每一行
+// 1. 先翻转整个矩阵
+// 2. 再翻转每一行
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -24,4 +24,4 @@ var rotate = function(matrix) {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j]表示第i至第j个元素这个区间能获得的最大硬币数，k表示在i,j这个区间内最后戳破的气球，状态转移方程dp[i][j]=max(dp[i][j],dp[i][k]+dp[k][j]+nums[i]*nums[k]*nums[j])
+// ### 解题思路
+// dp[i][j]表示第i至第j个元素这个区间能获得的最大硬币数，k表示在i,j这个区间内最后戳破的气球，状态转移方程dp[i][j]=max(dp[i][j],dp[i][k]+dp[k][j]+nums[i]*nums[k]*nums[j])
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return dp[0][n-1];
     }
 };
-```
+// ```

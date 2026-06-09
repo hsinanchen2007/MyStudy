@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 '''
 DP算法依然很直观：
 1. state definition:
@@ -51,4 +51,4 @@ class Solution:
                 dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j]
 
         return dp[x - 1][y - 1]
-```
+# ```

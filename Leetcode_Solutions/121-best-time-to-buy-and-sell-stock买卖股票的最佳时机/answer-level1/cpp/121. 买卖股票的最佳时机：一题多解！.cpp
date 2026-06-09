@@ -1,10 +1,10 @@
-### 0x00.题目分析
+// ### 0x00.题目分析
 
-给定数组$prices[0:n-1]$，要求$max(prices[j]-prices[i])$且$j>i$。
+// 给定数组$prices[0:n-1]$，要求$max(prices[j]-prices[i])$且$j>i$。
 
-### 0x01.暴力
+// ### 0x01.暴力
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -17,18 +17,18 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-时间复杂度：$O(n^2)$。
-空间复杂度：$O(1)$。只使用了常数个变量。
+// 时间复杂度：$O(n^2)$。
+// 空间复杂度：$O(1)$。只使用了常数个变量。
 
-### 0x02.树状数组
+// ### 0x02.树状数组
 
-从$n-1$向前枚举$j$，利用树状数组求出$prices[0:j-1]$的最小值。
+// 从$n-1$向前枚举$j$，利用树状数组求出$prices[0:j-1]$的最小值。
 
-注意树状数组下标一般是从$1$开始的。
+// 注意树状数组下标一般是从$1$开始的。
 
-```cpp
+// ```cpp
 int mmin[30005];
 
 int lowbit(int x) {return x & -x;}
@@ -54,16 +54,16 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-时间复杂度：$O(nlogn)$。
-空间复杂度：$O(n)$。有一个长度为n的$mmin$数组以及常数个变量。
+// 时间复杂度：$O(nlogn)$。
+// 空间复杂度：$O(n)$。有一个长度为n的$mmin$数组以及常数个变量。
 
-### 0x03.一次遍历
+// ### 0x03.一次遍历
 
-从$0$向后枚举$j$，并时刻保存$prices[0:j-1]$的最小值。
+// 从$0$向后枚举$j$，并时刻保存$prices[0:j-1]$的最小值。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -76,7 +76,7 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-时间复杂度：$O(n)$。
-空间复杂度：$O(1)$。
+// 时间复杂度：$O(n)$。
+// 空间复杂度：$O(1)$。

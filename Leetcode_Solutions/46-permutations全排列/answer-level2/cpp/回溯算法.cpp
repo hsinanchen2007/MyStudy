@@ -1,9 +1,9 @@
-### 解题思路
-这道题比较好的地方在于不用剪枝。
+// ### 解题思路
+// 这道题比较好的地方在于不用剪枝。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void permute_core(vector<int> nums, vector<vector<int>> & re, vector<int> & t, int pos, int & size) {
@@ -31,4 +31,4 @@ public:
         return re;
     }
 };
-```
+// ```

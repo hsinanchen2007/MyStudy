@@ -1,9 +1,9 @@
-### 解题思路
-注意区间划分边界
+# ### 解题思路
+# 注意区间划分边界
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         # O(n)+O(1) -> O(n)+O(26) -> O(lgn)+O(1)
@@ -16,4 +16,4 @@ class Solution:
             else:  
                 r=m # 目标在 [,m]
         return letters[l%len(letters)] #最后一定相遇, ==n，没有一个大的
-```
+# ```

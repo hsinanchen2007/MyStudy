@@ -1,9 +1,9 @@
-### 解题思路
-通过dict实现。
+# ### 解题思路
+# 通过dict实现。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -27,4 +27,4 @@ class Solution(object):
         for i in setnums.keys():
             if len(setnums[i]) > n/2:
                 return i
-```
+# ```

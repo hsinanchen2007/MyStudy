@@ -1,13 +1,13 @@
-### 解题思路
-dp[i]记录以nums[i]作为最后一个元素的最长摆动序列状态
-dp[i] = maxlen(dp[j])+nums[i:i+1]
+# ### 解题思路
+# dp[i]记录以nums[i]作为最后一个元素的最长摆动序列状态
+# dp[i] = maxlen(dp[j])+nums[i:i+1]
 
-循环内部判断条件 (dp[j][-1]-dp[j][-2])*(dp[j][-1]-nums[i])有溢出风险，
-但是分开来写太长了,所幸最后通过了...
+# 循环内部判断条件 (dp[j][-1]-dp[j][-2])*(dp[j][-1]-nums[i])有溢出风险，
+# 但是分开来写太长了,所幸最后通过了...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     # dp[i] = maxlen(dp[j])+nums[i:i+1]
     # dp[i]表示以nums[i]作为最后一个元素的最长摆动序列状态
@@ -37,4 +37,4 @@ class Solution:
 
 
 
-```
+# ```

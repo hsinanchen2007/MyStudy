@@ -1,9 +1,9 @@
-### 解题思路
-双指针 快慢指针
+// ### 解题思路
+// 双指针 快慢指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if (numsSize <= 2)
     {
@@ -23,4 +23,4 @@ int removeDuplicates(int* nums, int numsSize){
 
     return slow;
 }
-```
+// ```

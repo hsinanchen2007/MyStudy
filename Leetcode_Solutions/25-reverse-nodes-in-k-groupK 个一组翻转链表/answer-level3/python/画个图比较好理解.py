@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseKGroup(self, l, k):
         if k==1:return l
@@ -30,4 +30,4 @@ class Solution(object):
                     l=l.next ;p.append(l)
                     if not l:return n
         return n
-```
+# ```

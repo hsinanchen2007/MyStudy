@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/6a30bd530febc5e13f4d150c2d7dcfbcb1a6495010c6c68909b6a6f203ff58a1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6a30bd530febc5e13f4d150c2d7dcfbcb1a6495010c6c68909b6a6f203ff58a1-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -39,4 +39,4 @@ class Solution {
         return strlen($newS) >= strlen($S) ? $S : $newS;
     }
 }
-```
+// ```

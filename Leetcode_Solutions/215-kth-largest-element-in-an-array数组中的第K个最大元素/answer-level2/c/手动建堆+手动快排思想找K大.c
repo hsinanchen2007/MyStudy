@@ -1,9 +1,9 @@
 
-![捕获.PNG](https://pic.leetcode-cn.com/ab06143afce70e61ab86fc2d2daf5bed287ccb3e6973763d156311ef5665a9f7-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/ab06143afce70e61ab86fc2d2daf5bed287ccb3e6973763d156311ef5665a9f7-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
-1.建小顶堆
-```
+// ### 代码
+// 1.建小顶堆
+// ```
 void Heap(int a[],int pos,int length){
 	int temp=a[pos];
 	for(int i=2*pos+1;i<length;pos=i,i=2*i+1){
@@ -24,10 +24,10 @@ int findKthLargest(int* a, int numsSize, int k){
 	}
 	return a[0];
 }
-```
+// ```
 
-2.类似于快排
-```
+// 2.类似于快排
+// ```
 int findKthLargest(int* a, int numsSize, int k){
     int low=0,high=numsSize-1;
     while(low<high){
@@ -51,5 +51,5 @@ int findKthLargest(int* a, int numsSize, int k){
     }
     return a[low];
 }
-```
+// ```
 

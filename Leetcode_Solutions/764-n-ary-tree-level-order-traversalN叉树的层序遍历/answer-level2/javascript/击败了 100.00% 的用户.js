@@ -1,9 +1,9 @@
-### 解题思路
-使用队列进行广度优先遍历
+// ### 解题思路
+// 使用队列进行广度优先遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,children) {
@@ -33,4 +33,4 @@ var levelOrder = function(root) {
     }
     return ans;
 };
-```
+// ```

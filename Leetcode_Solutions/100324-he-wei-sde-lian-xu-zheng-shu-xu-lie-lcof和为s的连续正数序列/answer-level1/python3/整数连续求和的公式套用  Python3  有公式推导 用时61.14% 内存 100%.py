@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-因为连续求和公式 sum = （首项+尾项）*项数/2
-所以假如target可以分成N个数相加
-target = x + (x+1) + (x+2) + (x+3) + (x+4) + ..... +(x+n-1)
-       = nx + （0+1+2+3+4+...+n-1）
-       = nx + (n-1)*n/2
-所以 x = (target - (n-1)*n/2)/n   X即代码里的Y
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 因为连续求和公式 sum = （首项+尾项）*项数/2
+# 所以假如target可以分成N个数相加
+# target = x + (x+1) + (x+2) + (x+3) + (x+4) + ..... +(x+n-1)
+#        = nx + （0+1+2+3+4+...+n-1）
+#        = nx + (n-1)*n/2
+# 所以 x = (target - (n-1)*n/2)/n   X即代码里的Y
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         A = []
@@ -26,4 +26,4 @@ class Solution:
         return A
         
         
-```
+# ```

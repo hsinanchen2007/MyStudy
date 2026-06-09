@@ -1,6 +1,6 @@
-![DD348F89-814D-4701-B648-A5F16FB72FB7.jpeg](https://pic.leetcode-cn.com/306fb44f3b10ab489bd7bac270fa34162cfc4349bcfaa9b5b11d8ad47ce5f598-DD348F89-814D-4701-B648-A5F16FB72FB7.jpeg)
+// ![DD348F89-814D-4701-B648-A5F16FB72FB7.jpeg](https://pic.leetcode-cn.com/306fb44f3b10ab489bd7bac270fa34162cfc4349bcfaa9b5b11d8ad47ce5f598-DD348F89-814D-4701-B648-A5F16FB72FB7.jpeg)
 
-```
+// ```
 int SubFunc(int a, int b)
 {
     int returnVal;
@@ -33,4 +33,4 @@ int findTheDistanceValue(int* arr1, int arr1Size, int* arr2, int arr2Size, int d
 
     return returnCount;
 }
-```
+// ```

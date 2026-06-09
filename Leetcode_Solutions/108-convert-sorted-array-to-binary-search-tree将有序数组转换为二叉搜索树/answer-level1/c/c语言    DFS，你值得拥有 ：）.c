@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/63789d450b8215cf8e3df537aed8477fe1dacb96e4f3e05a65a28360356e0469-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/63789d450b8215cf8e3df537aed8477fe1dacb96e4f3e05a65a28360356e0469-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
 
     return DFS(nums,0,numsSize);
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-遍历第一个字符串每个字母  在第二个字符串里面查找 找到就删除
-### 代码
+# ### 解题思路
+# 遍历第一个字符串每个字母  在第二个字符串里面查找 找到就删除
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         if len(s1) != len(s2):
@@ -15,4 +15,4 @@ class Solution:
             
         if len(s2) == 0:
             return True
-```
+# ```

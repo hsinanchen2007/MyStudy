@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	bool isHappy(int n) {
@@ -17,4 +17,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

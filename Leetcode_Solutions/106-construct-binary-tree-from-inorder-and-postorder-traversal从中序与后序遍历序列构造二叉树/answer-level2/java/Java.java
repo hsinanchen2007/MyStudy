@@ -1,6 +1,6 @@
-1.使用左右都是闭区间的解法。
-2.其中最难理解的应该是左子树和右子树递归时的下标的取值，建议可以先画个三层的完整二叉树，分别写出其对应的中序列遍历和后序遍历，然后对应着看就很清晰了。
-```
+// 1.使用左右都是闭区间的解法。
+// 2.其中最难理解的应该是左子树和右子树递归时的下标的取值，建议可以先画个三层的完整二叉树，分别写出其对应的中序列遍历和后序遍历，然后对应着看就很清晰了。
+// ```
 class Solution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         return dfs(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1);
@@ -20,4 +20,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

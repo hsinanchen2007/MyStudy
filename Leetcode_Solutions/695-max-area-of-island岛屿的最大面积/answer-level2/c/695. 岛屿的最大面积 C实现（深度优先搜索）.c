@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void DepthFirstSearch(int** grid, int gridSize, int* gridColSize, int x, int y, int* dx, int* dy, int* cnt)
 {
     if (grid[x][y] == 0) {
@@ -41,4 +41,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return ret;
 }
-```
+// ```

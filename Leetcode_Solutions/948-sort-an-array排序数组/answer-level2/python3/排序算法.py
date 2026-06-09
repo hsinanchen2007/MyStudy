@@ -1,5 +1,5 @@
-快速排序：
-```python3
+# 快速排序：
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
 
@@ -22,11 +22,11 @@ class Solution:
         quicksort(nums, 0, n - 1)
         return nums
 
-```
+# ```
 
 
-归并排序：
-```
+# 归并排序：
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
 
@@ -56,11 +56,11 @@ class Solution:
         sort(nums, 0, n-1)
         return nums
 
-```
+# ```
 
 
-选择排序：
-```
+# 选择排序：
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -70,11 +70,11 @@ class Solution:
                 if nums[j] < nums[min]: min = j
             nums[i], nums[min] = nums[min], nums[i]
         return nums
-```
+# ```
 
 
-插入排序：
-```
+# 插入排序：
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         for i in range(1, len(nums)):
@@ -83,11 +83,11 @@ class Solution:
                 if value >= nums[j]:break
                 else:nums[j + 1], nums[j] = nums[j], value
         return nums
-```
+# ```
 
 
-冒泡排序：
-```
+# 冒泡排序：
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -99,9 +99,9 @@ class Solution:
                     f = 0
             if f: break
         return nums
-```
-计数排序：
-```
+# ```
+# 计数排序：
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         low, high = min(nums), max(nums)
@@ -114,7 +114,7 @@ class Solution:
         	k[i - low] -= 1
         	s[k[i - low]] = i
         return s
-```
+# ```
 
 
 

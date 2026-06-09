@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/def82e791218f96a58f04a6821cf838104a14b4647f034aed2ff3ce9519d81ee-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/def82e791218f96a58f04a6821cf838104a14b4647f034aed2ff3ce9519d81ee-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int num = 0;
@@ -37,4 +37,4 @@ public:
         return num;
     }
 };
-```
+// ```

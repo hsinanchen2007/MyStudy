@@ -1,6 +1,6 @@
-用数字的每一位进行计算
-不用转换成字符串，利用除法
-```
+// 用数字的每一位进行计算
+// 不用转换成字符串，利用除法
+// ```
 func translateNum(num int) int {
     dp := []int{1} // 默认1个
 	pn := -1       // 前一个数字(0-9)
@@ -19,11 +19,11 @@ func translateNum(num int) int {
 	}
 	return dp[i]
 }
-```
+// ```
 
-// 空间O(1)的解法
-// 从上诉动态规划中，我们只要保留i-2这一位的数量即可
-```
+// // 空间O(1)的解法
+// // 从上诉动态规划中，我们只要保留i-2这一位的数量即可
+// ```
 func translateNum(num int) int {
     pn := -1    // 前一个数字(0-9)
 	cn := 0     // 当前数字
@@ -42,5 +42,5 @@ func translateNum(num int) int {
 	}
 	return ans
 }
-```
+// ```
 

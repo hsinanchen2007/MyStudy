@@ -1,7 +1,7 @@
-#### 思路
-&emsp;&emsp;滑动窗口右侧并通过哈希表判断当前窗口是否包含small的全部元素。当前窗口包含所有元素时将窗口的左侧缩减，得到最小窗口。
-#### 代码
-```javascript []
+// #### 思路
+// &emsp;&emsp;滑动窗口右侧并通过哈希表判断当前窗口是否包含small的全部元素。当前窗口包含所有元素时将窗口的左侧缩减，得到最小窗口。
+// #### 代码
+// ```javascript []
 var shortestSeq = function(big, small) {
     let left = -1, right = -1, retLeft = -1, retRight = -1, length = big.length + 1, cnt = 0;
     let cntObj = {}, smallSet = new Set(small);
@@ -22,4 +22,4 @@ var shortestSeq = function(big, small) {
     }
     return retLeft == -1 && retRight == -1 ? [] : [retLeft, retRight];
 };
-```
+// ```

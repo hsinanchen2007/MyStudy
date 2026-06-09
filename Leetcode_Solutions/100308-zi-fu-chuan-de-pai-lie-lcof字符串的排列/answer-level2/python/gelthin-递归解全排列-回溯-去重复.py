@@ -1,22 +1,22 @@
-### 解题思路
+# ### 解题思路
 
-#### 1. 使用递归方法，不是回溯法。
-这里效率比较低，大量重复子问题, 选 b 和 c  与 选 c 和 b 的子问题是一样的，但都要重复求解。
-代码好写。
-需要用 set 去重。
+# #### 1. 使用递归方法，不是回溯法。
+# 这里效率比较低，大量重复子问题, 选 b 和 c  与 选 c 和 b 的子问题是一样的，但都要重复求解。
+# 代码好写。
+# 需要用 set 去重。
 
-#### 2. 回溯法
-参见题解 [回溯，使用set去重](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/hui-su-shi-yong-setqu-zhong-by-wonderwall-2/)
-效率我不会分析，不知道是不是比递归快一些。感觉和递归效率一样。也在大量重复求解子问题。
-仍然要用 set 去重。
+# #### 2. 回溯法
+# 参见题解 [回溯，使用set去重](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/hui-su-shi-yong-setqu-zhong-by-wonderwall-2/)
+# 效率我不会分析，不知道是不是比递归快一些。感觉和递归效率一样。也在大量重复求解子问题。
+# 仍然要用 set 去重。
 
-#### 3. [回溯法并进行去重复](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/hui-su-fa-by-luo-jing-yu-yu/)
-
-
-#### 4. 交换法，这个方法比较强。待学习。
+# #### 3. [回溯法并进行去重复](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/hui-su-fa-by-luo-jing-yu-yu/)
 
 
-```
+# #### 4. 交换法，这个方法比较强。待学习。
+
+
+# ```
 *
  * 回溯法
  *
@@ -62,32 +62,32 @@
  * 当字符出现重复，且重复位置不一定时，需要先对字符串进行排序，
  * 再对字符串进行“去重”处理，之后按照回溯框架即可。
  * */
-```
+# ```
 
 
-[我关于去重的理解](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/hui-su-fa-by-luo-jing-yu-yu/307947)
+# [我关于去重的理解](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/hui-su-fa-by-luo-jing-yu-yu/307947)
 
-这里可以这么理解, 对于 aab, 记为 "a1a2b", 为了保证不出现重复，我们可以规定一个顺序，当我们需要使用字符 a 的时候，必须先用字符 a1, 后再用字符 a2； 或者当我们需要使用字符 a 时，必须先用字符a2, 后用字符 a1. 这样就是要保证在生成的字符串排列中不会因为 a1 和 a2 的位置发生对换，而产生新的重复的字符串。
+# 这里可以这么理解, 对于 aab, 记为 "a1a2b", 为了保证不出现重复，我们可以规定一个顺序，当我们需要使用字符 a 的时候，必须先用字符 a1, 后再用字符 a2； 或者当我们需要使用字符 a 时，必须先用字符a2, 后用字符 a1. 这样就是要保证在生成的字符串排列中不会因为 a1 和 a2 的位置发生对换，而产生新的重复的字符串。
 
-我们可以有以下两种方式：
-+ a1a2b, a1ba2, ba1a2 # 对应 !visit[i-1]
-+ a2a1b, a2ba1, ba2a1 # 对应 visit[i-1]
+# 我们可以有以下两种方式：
+# + a1a2b, a1ba2, ba1a2 # 对应 !visit[i-1]
+# + a2a1b, a2ba1, ba2a1 # 对应 visit[i-1]
 
-这里解释似乎不对，!visit[i-1] 和 visit[i-1] 都是对应 a1a2b, a1ba2, ba1a2.
-考虑到 for 循环都是从左到右遍历的, s[i-1] == s[i] 也是和左边比较。
-如果和右边比较才有， a2a1b, a2ba1, ba2a1 的可能。
+# 这里解释似乎不对，!visit[i-1] 和 visit[i-1] 都是对应 a1a2b, a1ba2, ba1a2.
+# 考虑到 for 循环都是从左到右遍历的, s[i-1] == s[i] 也是和左边比较。
+# 如果和右边比较才有， a2a1b, a2ba1, ba2a1 的可能。
 
-似乎没有错，当使用 visit[i-1]时，若第一次取了 a1, 那么 a2 不会被取，最终循环会被终结。不会进入更深的 dfs
-
-
-
-这里对于三重复 aaab, 也是成立的。
+# 似乎没有错，当使用 visit[i-1]时，若第一次取了 a1, 那么 a2 不会被取，最终循环会被终结。不会进入更深的 dfs
 
 
 
-#### 回溯法去重的代码
+# 这里对于三重复 aaab, 也是成立的。
 
-```python3
+
+
+# #### 回溯法去重的代码
+
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         def dfs(tmp):
@@ -107,11 +107,11 @@ class Solution:
         res = []
         dfs("")
         return res
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         if len(s) == 1:
@@ -122,11 +122,11 @@ class Solution:
             for t in self.permutation(rest):
                 res.append(s[i]+t)
         return list(set(res))  # 用set 去重，不然 “aabc” 过不去
-```
+# ```
 
-#### 回溯法，采用一个 visited 数组标记是否访问过
+# #### 回溯法，采用一个 visited 数组标记是否访问过
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         def dfs(tmp):
@@ -143,4 +143,4 @@ class Solution:
         res = []
         dfs("")
         return list(set(res))     
-```
+# ```

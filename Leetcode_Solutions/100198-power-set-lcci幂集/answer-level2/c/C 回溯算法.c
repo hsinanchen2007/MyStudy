@@ -1,9 +1,9 @@
-### 解题思路
-由于子集[1,2] 和 [2,1]属于同一个，所以每次递归的起点要从当前位置的下一个开始；
-参数** returnColumnSizes有点变态，被折磨了好久
-### 代码
+// ### 解题思路
+// 由于子集[1,2] 和 [2,1]属于同一个，所以每次递归的起点要从当前位置的下一个开始；
+// 参数** returnColumnSizes有点变态，被折磨了好久
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -52,4 +52,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     }
     return subsetArr;
 }
-```
+// ```

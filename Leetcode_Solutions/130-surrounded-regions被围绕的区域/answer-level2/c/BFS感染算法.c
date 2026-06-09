@@ -1,11 +1,11 @@
-### 解题思路
-1、沿着边搜索'O'
-2、从'O'开始做BFS搜索相邻得'O'，并把这些'O'改成'Y'，这一步后，所有和边相邻的'O'都变成了'Y',剩下的'O'就是真正需要变成'X'的'O'
-3、在从头扫描把所有的'O'变成'X',同时把'Y'变成'X'
+// ### 解题思路
+// 1、沿着边搜索'O'
+// 2、从'O'开始做BFS搜索相邻得'O'，并把这些'O'改成'Y'，这一步后，所有和边相邻的'O'都变成了'Y',剩下的'O'就是真正需要变成'X'的'O'
+// 3、在从头扫描把所有的'O'变成'X',同时把'Y'变成'X'
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct tagList {
     struct tagList *next;
     struct tagList *prev;
@@ -194,4 +194,4 @@ void solve(char** board, int boardSize, int* boardColSize){
 
     MyQueueNodeFree(queue);
 }
-```
+// ```

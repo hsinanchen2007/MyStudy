@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int translateNum(int num) {
         //将数字转化为数组
@@ -22,4 +22,4 @@ class Solution {
         return dp[len];
     }
 }
-```
+// ```

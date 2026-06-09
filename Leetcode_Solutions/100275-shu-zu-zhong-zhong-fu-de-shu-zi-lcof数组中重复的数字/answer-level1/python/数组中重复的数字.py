@@ -1,9 +1,9 @@
-### 解题思路
-利用python字典
+# ### 解题思路
+# 利用python字典
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         nums.sort()
@@ -13,4 +13,4 @@ class Solution:
                 RepeatDic[num]=1
             else:
                 return num
-```
+# ```

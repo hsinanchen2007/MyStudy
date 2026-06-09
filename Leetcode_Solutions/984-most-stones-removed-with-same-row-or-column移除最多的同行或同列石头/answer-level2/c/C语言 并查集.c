@@ -1,8 +1,8 @@
-主要看石头相同行列合并之后，剩余几个集合，每个集合必然最少要剩1个石头，因此move最多的总数应该等于
-stonesSize - 集合数
-操作比较简单，直接创建1个从0到stonesSize-1序号的石子集合，然后只要行标相同就合并，列标相同就合并。
-最终检查合并后的集合set中有多少个集合，然后求得最终结果。
-```
+// 主要看石头相同行列合并之后，剩余几个集合，每个集合必然最少要剩1个石头，因此move最多的总数应该等于
+// stonesSize - 集合数
+// 操作比较简单，直接创建1个从0到stonesSize-1序号的石子集合，然后只要行标相同就合并，列标相同就合并。
+// 最终检查合并后的集合set中有多少个集合，然后求得最终结果。
+// ```
 int* MakeSet(int n)
 {
     int *set = calloc((unsigned int)n, sizeof(int));
@@ -60,4 +60,4 @@ int removeStones(int** stones, int stonesSize, int* stonesColSize){
     free(newSet);
     return stonesSize - newSetCnt;
 }
-```
+// ```

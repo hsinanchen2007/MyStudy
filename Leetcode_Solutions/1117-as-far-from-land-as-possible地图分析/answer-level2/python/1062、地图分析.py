@@ -1,10 +1,10 @@
-### 解题思路
-借助了题解中广度优先的思路，不断扩展陆地，直到没有海洋。
-（广度优先啥的咱也不懂！）
+# ### 解题思路
+# 借助了题解中广度优先的思路，不断扩展陆地，直到没有海洋。
+# （广度优先啥的咱也不懂！）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = 1
@@ -54,4 +54,4 @@ class Solution:
                 grid[i][j] = n
                 return True
         return False
-```
+# ```

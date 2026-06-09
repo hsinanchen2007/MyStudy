@@ -1,9 +1,9 @@
-### 解题思路
-纯用数组解决，等我进个阶再回来收拾你，可恶
+// ### 解题思路
+// 纯用数组解决，等我进个阶再回来收拾你，可恶
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool isValidgroup(int *arr, int* arrSize) {
     int i,j;
@@ -74,4 +74,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     out: 
     return 0;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-# 窗口内始终时满足条件的序列，连续
-### 滑动窗口，当不满足条件时，要一直增加left，直达满足条件！！！
-### 滑动窗口，当不满足条件时，要一直增加left，直达满足条件！！
+// # 窗口内始终时满足条件的序列，连续
+// ### 滑动窗口，当不满足条件时，要一直增加left，直达满足条件！！！
+// ### 滑动窗口，当不满足条件时，要一直增加left，直达满足条件！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         HashSet<Character> count=new HashSet<>();
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

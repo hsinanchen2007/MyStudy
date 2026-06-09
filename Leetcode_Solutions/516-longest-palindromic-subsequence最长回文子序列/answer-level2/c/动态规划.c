@@ -1,4 +1,4 @@
-```
+// ```
 /*
     解题思想：动态规划。
 	解题步骤：
@@ -38,13 +38,13 @@
 		1、时间复杂度：O(strlen(s)*strlen(s))
 		2、空间复杂度：O(1000*1000),因为开辟了一个全局的二维数组去存储过程值。
 */
-```
+// ```
 
 
-![leetcode.516.最长回文子序列.png](https://pic.leetcode-cn.com/79fc8c0e78d799783a622a1c52140b00bddfb579107eac816c0921608573cabb-leetcode.516.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97.png)
+// ![leetcode.516.最长回文子序列.png](https://pic.leetcode-cn.com/79fc8c0e78d799783a622a1c52140b00bddfb579107eac816c0921608573cabb-leetcode.516.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97.png)
 
 
-```
+// ```
 #define MAX_SIZE 1000
 int record[MAX_SIZE][MAX_SIZE] = {0};//在longestPalindromeSubseq函数体之外申请一个全局二维数组，可以优化内存消耗
 int longestPalindromeSubseq(char * s){
@@ -82,4 +82,4 @@ int longestPalindromeSubseq(char * s){
     
     return record[0][len-1];    
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![Snipaste_2020-03-15_07-50-21.png](https://pic.leetcode-cn.com/4689f8dd28b53b94a957c43aa9b57831d098f92bfdaa4c681cf8395ba3fe1c67-Snipaste_2020-03-15_07-50-21.png)
-```
+// ![Snipaste_2020-03-15_07-50-21.png](https://pic.leetcode-cn.com/4689f8dd28b53b94a957c43aa9b57831d098f92bfdaa4c681cf8395ba3fe1c67-Snipaste_2020-03-15_07-50-21.png)
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,5 +33,5 @@ public:
         
     }
 };
-```
+// ```
 

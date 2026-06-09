@@ -1,10 +1,10 @@
-### 解题思路
-循环删除当前字符的后缀字符，最后剩下的就是可以合并的字符串
-O(mn)
+// ### 解题思路
+// 循环删除当前字符的后缀字符，最后剩下的就是可以合并的字符串
+// O(mn)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minimumLengthEncoding(words []string) int {
 	tmp := make(map[string]int, 0)
 	for _, value := range words {
@@ -27,4 +27,4 @@ func minimumLengthEncoding(words []string) int {
 
 	return ans
 }
-```
+// ```

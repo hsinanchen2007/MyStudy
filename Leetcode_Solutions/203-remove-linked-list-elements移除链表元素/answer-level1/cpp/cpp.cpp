@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-简单题，使用一个dummy node好写点
-### 代码
+// 简单题，使用一个dummy node好写点
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return prenode.next;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int tribonacci(int n) {
@@ -13,6 +13,6 @@ public:
         return T[index];
     }
 };
-```
+// ```
 
-相比于使用`vector`，内存消耗减少了0.3M。
+// 相比于使用`vector`，内存消耗减少了0.3M。

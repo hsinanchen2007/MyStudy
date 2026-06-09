@@ -1,9 +1,9 @@
-### 解题思路
-交替遍历以消除两个链表的长度差
+# ### 解题思路
+# 交替遍历以消除两个链表的长度差
 
-### 代码
+# ### 代码
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
             ha = ha.next if ha else headB
             hb = hb.next if hb else headA
         return ha
-```
+# ```

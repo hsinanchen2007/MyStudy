@@ -1,10 +1,10 @@
-### 解题思路
-动态规划的思路，自下而上，以每个元素为结尾，计算这个元素之前所有元素的最大和。
-递推公式d[i] = max(d[i-1] + nums[i], nums[i])
+// ### 解题思路
+// 动态规划的思路，自下而上，以每个元素为结尾，计算这个元素之前所有元素的最大和。
+// 递推公式d[i] = max(d[i-1] + nums[i], nums[i])
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return max_num;        
     }
 };
-```
+// ```

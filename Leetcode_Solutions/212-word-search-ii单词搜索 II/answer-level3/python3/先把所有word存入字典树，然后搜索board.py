@@ -1,5 +1,5 @@
-Python3 , 方法一：根据每个word搜索一遍整个board；方法二：先把所有word存入字典树，然后搜索board（下附代码）
-```
+# Python3 , 方法一：根据每个word搜索一遍整个board；方法二：先把所有word存入字典树，然后搜索board（下附代码）
+# ```
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
@@ -42,4 +42,4 @@ class Solution:
             if 0<=cur_row<self.rows and 0<=cur_col<self.cols and board[cur_row][cur_col] != '@' and board[cur_row][cur_col] in cur_node:
                 self._dfs(board, cur_row, cur_col, cur_node, cur_word)
         board[row][col] = temp
-```
+# ```

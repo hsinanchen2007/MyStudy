@@ -1,7 +1,7 @@
-首先这道题目需要多次对数组中部分序列求和，可以利用一个小技巧，先遍历一遍数组，将数组中前n个元素的和保存在d[n]中。sum(i,j)即为d[j+1]-d[i]。
+// 首先这道题目需要多次对数组中部分序列求和，可以利用一个小技巧，先遍历一遍数组，将数组中前n个元素的和保存在d[n]中。sum(i,j)即为d[j+1]-d[i]。
 
-然后就是暴力求解，最开始的代码如下：
-```
+// 然后就是暴力求解，最开始的代码如下：
+// ```
 class Solution {
 public:
     bool splitArray(vector<int>& nums) {
@@ -24,11 +24,11 @@ public:
         return false;
     }
 };
-```
-提交后发现超时了，挂在第113个case。
-思考后发现满足条件的i,j,k可能出现在任意位置，n^3的算法复杂度无法优化，那么只能剪枝了。
-一个比较容易想到的思路是固定i，在遍历j时，判断sum(0,i-1)和sum(i+1,j-1)是否相等，如果相等才去找k。这样在很多场景下可以省去第三次循环。
-```
+// ```
+// 提交后发现超时了，挂在第113个case。
+// 思考后发现满足条件的i,j,k可能出现在任意位置，n^3的算法复杂度无法优化，那么只能剪枝了。
+// 一个比较容易想到的思路是固定i，在遍历j时，判断sum(0,i-1)和sum(i+1,j-1)是否相等，如果相等才去找k。这样在很多场景下可以省去第三次循环。
+// ```
 class Solution {
 public:
     bool splitArray(vector<int>& nums) {
@@ -53,15 +53,15 @@ public:
         return false;
     }
 };
-```
-再次提交后发现又超时了。。。。挂在了第115个case，需要进一步剪枝。
-注意到三元组将整个数组分成了4段。而j将数组分成了前后两部分，每个部分包含两段sum序列。对于满足条件的三元组，前后两部分的sum求和也应该是相等的，即前部分求和减去nums[i]和后部分求和减去nums[k]也应该是一样的。但是这里nums[i]和nums[k]的值无法确定，但是发现超时的case中序列值都比较均匀，均为0或1，所以这里可以采用一个缩放后的约束条件来进行剪枝。
--   sum(0,i-1)+sum(i+1,j-1) = sum(j+1,k-1)+sum(k+1,n-1)
-- =>sum(0,j-1)-nums[i] = sum(j+1,n-1)-nums[k]
-- =>sum(0,j-1)-sum(j+1,n-1) = nums[i]-nums[k]
-- =>|sum(0,j-1)-sum(j+1,n-1)| = |nums[i]-nums[k]| <= max-min
-这样剪枝的话需要重新调整下循环的顺序，再次剪枝后的代码如下：
-```
+// ```
+// 再次提交后发现又超时了。。。。挂在了第115个case，需要进一步剪枝。
+// 注意到三元组将整个数组分成了4段。而j将数组分成了前后两部分，每个部分包含两段sum序列。对于满足条件的三元组，前后两部分的sum求和也应该是相等的，即前部分求和减去nums[i]和后部分求和减去nums[k]也应该是一样的。但是这里nums[i]和nums[k]的值无法确定，但是发现超时的case中序列值都比较均匀，均为0或1，所以这里可以采用一个缩放后的约束条件来进行剪枝。
+// -   sum(0,i-1)+sum(i+1,j-1) = sum(j+1,k-1)+sum(k+1,n-1)
+// - =>sum(0,j-1)-nums[i] = sum(j+1,n-1)-nums[k]
+// - =>sum(0,j-1)-sum(j+1,n-1) = nums[i]-nums[k]
+// - =>|sum(0,j-1)-sum(j+1,n-1)| = |nums[i]-nums[k]| <= max-min
+// 这样剪枝的话需要重新调整下循环的顺序，再次剪枝后的代码如下：
+// ```
 class Solution {
 public:
     bool splitArray(vector<int>& nums) {
@@ -92,9 +92,9 @@ public:
         return false;
     }
 };
-```
-重新提交后pass
-![image.png](https://pic.leetcode-cn.com/f75ae8b1c1540b192ce49af4a911548f9a13d579eb999b5cc15751fd1ce9266d-image.png)
+// ```
+// 重新提交后pass
+// ![image.png](https://pic.leetcode-cn.com/f75ae8b1c1540b192ce49af4a911548f9a13d579eb999b5cc15751fd1ce9266d-image.png)
 
 
 

@@ -1,10 +1,10 @@
-### 解题思路
-最简单的方式是使用re，这里未采用re，采用多重判断。
-lstrip:去除左边空格。
+# ### 解题思路
+# 最简单的方式是使用re，这里未采用re，采用多重判断。
+# lstrip:去除左边空格。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, strs: str) -> int:
         #最简单的方式是使用re，这里未采用re，采用多重判断
@@ -39,4 +39,4 @@ class Solution:
                 if int(numstr)<2**31:return int(numstr)#若为正数未超界直接转换返回
                 else:return 2**31-1
         else:return 0
-```
+# ```

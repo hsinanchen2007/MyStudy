@@ -1,5 +1,5 @@
-击败100%……有点假……
-```
+// 击败100%……有点假……
+// ```
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -13,4 +13,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. head是否为空 return 0
-2. 遍历所有值
+# ### 解题思路
+# 1. head是否为空 return 0
+# 2. 遍历所有值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
             cur = cur.next
 
         return int(string, 2)
-```
+# ```

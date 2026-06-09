@@ -1,5 +1,5 @@
-说实在的 PHP不适合底层数据结构实现
-```
+// 说实在的 PHP不适合底层数据结构实现
+// ```
 class MyHashMap {
     private $hash = [];
     /**
@@ -49,4 +49,4 @@ class MyHashMap {
  * $ret_2 = $obj->get($key);
  * $obj->remove($key);
  */
-```
+// ```

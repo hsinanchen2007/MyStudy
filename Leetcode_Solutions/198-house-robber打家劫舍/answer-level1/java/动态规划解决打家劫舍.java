@@ -1,5 +1,5 @@
-动态规划问题，不过是把递归问题，转化为数组存储每一步结果的问题。减少时间复杂度的问题
-```java
+// 动态规划问题，不过是把递归问题，转化为数组存储每一步结果的问题。减少时间复杂度的问题
+// ```java
 class Solution {
     public static int rob(int[] a){
         int len=a.length;
@@ -20,4 +20,4 @@ class Solution {
         return db[a.length-1];
     }
 }
-```
+// ```

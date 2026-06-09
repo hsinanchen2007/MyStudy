@@ -1,8 +1,8 @@
-### 解题思路
-右上角开始寻找
-### 代码
+// ### 解题思路
+// 右上角开始寻找
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public static boolean findNumberIn2DArray(int[][] matrix, int target) {
         if (matrix.length == 0) {
@@ -24,4 +24,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

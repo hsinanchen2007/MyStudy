@@ -1,9 +1,9 @@
-### 解题思路
-码农就是我，我就是码农
+// ### 解题思路
+// 码农就是我，我就是码农
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
 int[] ans = new int [seq.length()];
@@ -17,4 +17,4 @@ int[] ans = new int [seq.length()];
 
     }
 }
-```
+// ```

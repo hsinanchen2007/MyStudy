@@ -1,12 +1,12 @@
-### 思路一：
+// ### 思路一：
 
-遍历，遇到第一个等于或大于 target 的元素，返回该元素的 index，对于大于 target 的元素的 index 就是应该插入元素的 index。找不到就返回 A.length，即放在最后。
+// 遍历，遇到第一个等于或大于 target 的元素，返回该元素的 index，对于大于 target 的元素的 index 就是应该插入元素的 index。找不到就返回 A.length，即放在最后。
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(n)，空间复杂度O(1)
+// 时间复杂度O(n)，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -23,23 +23,23 @@ class Solution {
         return nums.length;
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：5ms
+// Runtime：5ms
 
-Your runtime beats 63.43% of java submissions.
+// Your runtime beats 63.43% of java submissions.
 
-### 思路二：
+// ### 思路二：
 
-对有序数组进行二分查找,找到即返回 index，否则，最后返回 low，即为该插入的位置。
+// 对有序数组进行二分查找,找到即返回 index，否则，最后返回 low，即为该插入的位置。
 
-### 代码：
+// ### 代码：
 
-时间复杂度O(logn)，空间复杂度O(1)
+// 时间复杂度O(logn)，空间复杂度O(1)
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -62,19 +62,19 @@ class Solution {
         return low;
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：0ms
+// Runtime：0ms
 
-Your runtime beats 100% of java submissions.
+// Your runtime beats 100% of java submissions.
 
-### 思路二的进一步优化：
+// ### 思路二的进一步优化：
 
-在进行二分的时候，**可以顺带判断，减少二分的次数**。即一旦左边界大于目标值或者右边界小于目标值，即可终止操作。
+// 在进行二分的时候，**可以顺带判断，减少二分的次数**。即一旦左边界大于目标值或者右边界小于目标值，即可终止操作。
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -111,4 +111,4 @@ class Solution {
         return low;
     }
 }
-```
+// ```

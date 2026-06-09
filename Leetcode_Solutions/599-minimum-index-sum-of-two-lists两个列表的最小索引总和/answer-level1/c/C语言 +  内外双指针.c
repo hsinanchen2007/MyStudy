@@ -1,10 +1,10 @@
-### 解题思路
-1、内外双指针遍历；
-2、若当前索引和小于上一次索引和，则保存对应的字符串。
-3、返回的数组内存分配时：应分配行，再分配列。
-### 代码
+// ### 解题思路
+// 1、内外双指针遍历；
+// 2、若当前索引和小于上一次索引和，则保存对应的字符串。
+// 3、返回的数组内存分配时：应分配行，再分配列。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -38,4 +38,4 @@ char ** findRestaurant(char ** list1, int list1Size, char ** list2, int list2Siz
 
     return returnList;
 }
-```
+// ```

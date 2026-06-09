@@ -1,6 +1,6 @@
-执行用时 :340 ms, 在所有 Kotlin 提交中击败了100.00%的用户
-内存消耗 :44.7 MB, 在所有 Kotlin 提交中击败了100.00%的用户
-```
+// 执行用时 :340 ms, 在所有 Kotlin 提交中击败了100.00%的用户
+// 内存消耗 :44.7 MB, 在所有 Kotlin 提交中击败了100.00%的用户
+// ```
     fun dietPlanPerformance(calories: IntArray, k: Int, lower: Int, upper: Int): Int {
         var grade = 0
         var calorie = 0
@@ -20,4 +20,4 @@
         }
         return grade
     }
-```
+// ```

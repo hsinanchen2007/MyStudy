@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5a6f7732dc7c09890825f33f476d4a5c514d0b4bf8c2049955a16e24a5d20e7b-image.png)
-DFS，用一个全局变量记录最大深度
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5a6f7732dc7c09890825f33f476d4a5c514d0b4bf8c2049955a16e24a5d20e7b-image.png)
+// DFS，用一个全局变量记录最大深度
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a Node.
  * struct Node {
@@ -32,4 +32,4 @@ int* maxDepth(struct Node* root) {
     preorder(root, depth);
     return g_depth;   
 }
-```
+// ```

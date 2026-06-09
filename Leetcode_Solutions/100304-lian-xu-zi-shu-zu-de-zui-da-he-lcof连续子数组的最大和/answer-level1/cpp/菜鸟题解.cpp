@@ -1,9 +1,9 @@
-### 解题思路
-对数组遍历的同时记录每一个数的最大和
+// ### 解题思路
+// 对数组遍历的同时记录每一个数的最大和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
 
     }
 };
-```
+// ```

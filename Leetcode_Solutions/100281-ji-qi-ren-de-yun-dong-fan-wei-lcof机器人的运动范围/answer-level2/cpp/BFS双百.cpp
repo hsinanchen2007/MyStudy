@@ -1,10 +1,10 @@
-### 解题思路
-flag:能到达 标记为true，不能到达和到达过的标记为false
-每次push进行 ans++ 操作
+// ### 解题思路
+// flag:能到达 标记为true，不能到达和到达过的标记为false
+// 每次push进行 ans++ 操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int dx[2] = {1,0};
 int dy[2] = {0,1};
 const int MAXN = 105;
@@ -56,4 +56,4 @@ public:
         return ans;
     }
 };
-```
+// ```

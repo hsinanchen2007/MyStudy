@@ -1,4 +1,4 @@
-//动态数组val，队首下标front指向队首、队尾下标rear指向队尾的下一个 ,size为队列实际体积
+// //动态数组val，队首下标front指向队首、队尾下标rear指向队尾的下一个 ,size为队列实际体积
 
 typedef struct {
                

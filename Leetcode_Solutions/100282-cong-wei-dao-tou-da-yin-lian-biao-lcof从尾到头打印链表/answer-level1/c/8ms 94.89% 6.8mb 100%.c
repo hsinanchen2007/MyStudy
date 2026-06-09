@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-注意要对returnSize赋值  不然会出错
+// 注意要对returnSize赋值  不然会出错
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     }
     return res;
 }
-```
+// ```

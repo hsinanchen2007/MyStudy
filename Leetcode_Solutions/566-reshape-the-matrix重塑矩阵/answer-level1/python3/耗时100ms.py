@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         n1 = len(nums)
@@ -20,4 +20,4 @@ class Solution:
                     num += 1
                 list2.append(list3)
             return(list2)
-```
+# ```

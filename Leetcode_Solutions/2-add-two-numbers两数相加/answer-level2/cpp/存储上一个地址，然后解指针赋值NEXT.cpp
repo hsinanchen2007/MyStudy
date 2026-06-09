@@ -1,28 +1,28 @@
-### 解题思路
-特殊情况特殊处理，当都不为空时进行加法，如果超过10，则记录标志位，下一次相加进行补位；另外            
-            if (retNodeOld->next != NULL)
-            {
-                ListNode* temp = (ListNode*)retNodeOld->next; //解指针 将next赋值
-                temp->next = tempNode;
-            }
-最为关键，相当于利用old记录指针，解指针后，再对它的next赋值，这样子链表就连起来了。
+// ### 解题思路
+// 特殊情况特殊处理，当都不为空时进行加法，如果超过10，则记录标志位，下一次相加进行补位；另外            
+//             if (retNodeOld->next != NULL)
+//             {
+//                 ListNode* temp = (ListNode*)retNodeOld->next; //解指针 将next赋值
+//                 temp->next = tempNode;
+//             }
+// 最为关键，相当于利用old记录指针，解指针后，再对它的next赋值，这样子链表就连起来了。
 
-不喜勿喷！
+// 不喜勿喷！
 
-执行用时 :
-24 ms
-, 在所有 cpp 提交中击败了
-94.27%
-的用户
-内存消耗 :
-10.3 MB
-, 在所有 cpp 提交中击败了
-82.54%
-的用户
+// 执行用时 :
+// 24 ms
+// , 在所有 cpp 提交中击败了
+// 94.27%
+// 的用户
+// 内存消耗 :
+// 10.3 MB
+// , 在所有 cpp 提交中击败了
+// 82.54%
+// 的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -118,4 +118,4 @@ public:
         return retNode->next;
     }
 };
-```
+// ```

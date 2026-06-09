@@ -1,6 +1,6 @@
-利用substring() + equals() 暴力遍历也可以1ms
+// 利用substring() + equals() 暴力遍历也可以1ms
 
-```
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
         if (needle.equals(""))
@@ -20,4 +20,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

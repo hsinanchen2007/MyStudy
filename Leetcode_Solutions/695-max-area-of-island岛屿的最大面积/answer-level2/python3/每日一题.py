@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dfs(self,grid,x,y):
         if x<0 or y<0 or x >= self.row or y >= self.col or grid[x][y]!=1:
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

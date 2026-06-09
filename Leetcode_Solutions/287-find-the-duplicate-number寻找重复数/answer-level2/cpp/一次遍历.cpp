@@ -1,7 +1,7 @@
-遍历数组
-并将数组元素作为数组索引的值大于nums.size()时说明该值重复，否则加对应值加nums.size()
+// 遍历数组
+// 并将数组元素作为数组索引的值大于nums.size()时说明该值重复，否则加对应值加nums.size()
 
-``` C++
+// ``` C++
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

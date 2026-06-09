@@ -1,5 +1,5 @@
-思路很简单，2和前面不是2的数交换，0和后面不是0的数交换。
-```
+// 思路很简单，2和前面不是2的数交换，0和后面不是0的数交换。
+// ```
 class Solution {
     public void sortColors(int[] nums) {
         if (nums.length == 0) return;
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

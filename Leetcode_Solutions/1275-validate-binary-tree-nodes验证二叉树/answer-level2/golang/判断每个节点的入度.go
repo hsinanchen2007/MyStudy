@@ -1,9 +1,9 @@
-### 解题思路
-判断每个节点的入度，只有一个是0其他是1。还要从root开始先序遍历，最后都能联通
+// ### 解题思路
+// 判断每个节点的入度，只有一个是0其他是1。还要从root开始先序遍历，最后都能联通
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func validateBinaryTreeNodes(n int, leftChild []int, rightChild []int) bool {
     // 判断0 ~ n - 1 每个只出先一次，0不出现
     if n < 1 {
@@ -61,4 +61,4 @@ func validateBinaryTreeNodes(n int, leftChild []int, rightChild []int) bool {
 
     return len(res) == n - 1
 }
-```
+// ```

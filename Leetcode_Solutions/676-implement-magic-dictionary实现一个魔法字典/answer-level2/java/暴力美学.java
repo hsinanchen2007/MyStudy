@@ -1,11 +1,11 @@
-### 解题思路
-暴力法是每个小白走出江湖的第一个招式
-map保存相同长度的集合
-通过长度找是否有仅有一个字符差异的字符串，有则true，无则false
+// ### 解题思路
+// 暴力法是每个小白走出江湖的第一个招式
+// map保存相同长度的集合
+// 通过长度找是否有仅有一个字符差异的字符串，有则true，无则false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MagicDictionary {
 
     Map<Integer, ArrayList<String>> maps;
@@ -60,4 +60,4 @@ class MagicDictionary {
  * obj.buildDict(dict);
  * boolean param_2 = obj.search(word);
  */
-```
+// ```

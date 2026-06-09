@@ -1,6 +1,6 @@
-之前用set统计各个数的数量，超时了，现在用map就没超时，不知道为什么。
-看到官方解里面有用Boyer-Moore投票算法，太强了。
-```C++ []
+// 之前用set统计各个数的数量，超时了，现在用map就没超时，不知道为什么。
+// 看到官方解里面有用Boyer-Moore投票算法，太强了。
+// ```C++ []
 class Solution {
 public:
 	int majorityElement(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
 		return -1;
 	}
 };
-```
+// ```

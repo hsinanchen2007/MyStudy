@@ -1,4 +1,4 @@
-```
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -37,9 +37,9 @@ public:
     }
 };
 
-```
-方法2
-```
+// ```
+// 方法2
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -73,4 +73,4 @@ public:
     }
 };
 
-```
+// ```

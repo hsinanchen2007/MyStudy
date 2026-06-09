@@ -1,10 +1,10 @@
-### 解题思路
-本题在常规的回溯过程中,考虑取值的范围,去除将不必访问的元素,优化时间复杂度
-![image.png](https://pic.leetcode-cn.com/be5a0aceaac9dbe517efef3f1497c469c0427adf62ac82128d9cbec6c7bf29e0-image.png)
+# ### 解题思路
+# 本题在常规的回溯过程中,考虑取值的范围,去除将不必访问的元素,优化时间复杂度
+# ![image.png](https://pic.leetcode-cn.com/be5a0aceaac9dbe517efef3f1497c469c0427adf62ac82128d9cbec6c7bf29e0-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combine(self, n: int, k: int) -> [[int]]:
         res=[]
@@ -23,4 +23,4 @@ class Solution:
         ll=[]
         dfs(ll,1)
         return res
-```
+# ```

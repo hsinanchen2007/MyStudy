@@ -1,9 +1,9 @@
-### 解题思路
-原先用头插法的思想是错误的，不符合队列的性质，所以就导致了返回最大值的函数O(n)
+// ### 解题思路
+// 原先用头插法的思想是错误的，不符合队列的性质，所以就导致了返回最大值的函数O(n)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct MaxQueueNode{
     int val;
     int presentMaxValue;
@@ -81,4 +81,4 @@ void maxQueueFree(MaxQueue* obj) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

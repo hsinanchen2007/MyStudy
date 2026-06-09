@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:           
         m = len(obstacleGrid)
@@ -15,4 +15,4 @@ class Solution:
                 dp[j] = 0 if flag else dp[j] + dp[j - 1] 
             print(dp)
         return dp[-1]
-```
+# ```

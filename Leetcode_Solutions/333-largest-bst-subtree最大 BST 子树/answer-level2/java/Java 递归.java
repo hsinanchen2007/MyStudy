@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
-dfs判断树中所有子树是否为BST，如果是BST，则计算该子树的节点个数，保存在结果变量中，取最大值即可。
+// 思路：
+// dfs判断树中所有子树是否为BST，如果是BST，则计算该子树的节点个数，保存在结果变量中，取最大值即可。
 
-判断当前树是否是BST：因为BST中序遍历为升序，所以如果当前元素小于等于上一个元素，则返回false
+// 判断当前树是否是BST：因为BST中序遍历为升序，所以如果当前元素小于等于上一个元素，则返回false
 
 
-```
+// ```
 int res = 0, preVal = Integer.MIN_VALUE;
 
 public int largestBSTSubtree(TreeNode root) {
@@ -37,4 +37,4 @@ private boolean isBST(TreeNode root) {
     boolean rightFlag = isBST(root.right);
     return leftFlag && rightFlag;
 }
-```
+// ```

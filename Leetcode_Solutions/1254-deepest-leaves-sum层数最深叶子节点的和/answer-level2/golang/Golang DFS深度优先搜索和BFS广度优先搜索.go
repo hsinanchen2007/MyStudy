@@ -1,9 +1,9 @@
-### 解题思路
-Golang DFS和BFS实现方法
+// ### 解题思路
+// Golang DFS和BFS实现方法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func deepestLeavesSum(root *TreeNode) int {
     // 定义两个变量 - 最深层数和结果
     var (
@@ -69,12 +69,12 @@ func bfs(root *TreeNode, dep int, maxDep, result *int){
         }
     }
 }
-```
+// ```
 
-### 运行结果
+// ### 运行结果
 
-1. DFS
-![image.png](https://pic.leetcode-cn.com/3881b2120b5787c946a877573006d76624f640d3658d87d92ddd778040e972dc-image.png)
+// 1. DFS
+// ![image.png](https://pic.leetcode-cn.com/3881b2120b5787c946a877573006d76624f640d3658d87d92ddd778040e972dc-image.png)
 
-2. BFS
-![image.png](https://pic.leetcode-cn.com/45570aa7ff78f58339fc6d88e42d194b4a488addbb30b88b5f6ec4c1330e8161-image.png)
+// 2. BFS
+// ![image.png](https://pic.leetcode-cn.com/45570aa7ff78f58339fc6d88e42d194b4a488addbb30b88b5f6ec4c1330e8161-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-状态转移
+// ### 解题思路
+// 状态转移
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -21,4 +21,4 @@ public:
         return p20;
     }
 };
-```
+// ```

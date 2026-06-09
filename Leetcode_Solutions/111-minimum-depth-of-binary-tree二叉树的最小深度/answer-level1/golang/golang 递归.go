@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-此题核心是要清楚叶子节点是指左右子树均为nil的节点
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 此题核心是要清楚叶子节点是指左右子树均为nil的节点
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func iter_min_depth(root *TreeNode, depth int, min *int) {
 }
 
 
-```
+// ```

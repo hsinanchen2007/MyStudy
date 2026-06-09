@@ -1,4 +1,4 @@
-```go
+// ```go
 func fourSumCount(A []int, B []int, C []int, D []int) int {
   record := make(map[int]int)
   for i := 0; i < len(C); i++ {
@@ -17,9 +17,9 @@ func fourSumCount(A []int, B []int, C []int, D []int) int {
   }
   return res
 }
-```
-// Time Complexity: O(n^2) Space Complexity: O(n^2)
-```go
+// ```
+// // Time Complexity: O(n^2) Space Complexity: O(n^2)
+// ```go
 func fourSumCount(A []int, B []int, C []int, D []int) int {
   hashTable1 := make(map[int]int)
   hashTable2 := make(map[int]int)
@@ -44,4 +44,4 @@ func fourSumCount(A []int, B []int, C []int, D []int) int {
   }
   return res
 }
-```
+// ```

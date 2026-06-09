@@ -1,4 +1,4 @@
-```
+// ```
 func isPalindrome(s string) bool {
     s = strings.ToLower(s)  // 字母转换为小写
     l,r := 0,len(s)-1
@@ -20,4 +20,4 @@ func isPalindrome(s string) bool {
     return true
 }
 
-```
+// ```

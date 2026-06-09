@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int[] num = new int[10000];
@@ -18,4 +18,4 @@ class Solution {
         return a == 0? b: gcd(b % a, a);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-其实就是类似滑动窗口一样
+# ### 解题思路
+# 其实就是类似滑动窗口一样
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target):
         # 最少两个，也就是说遍历到一半就不用继续下去了
@@ -26,4 +26,4 @@ class Solution:
                     # 在这不能直接放进去，要拷贝一下
                     res.append(tmp[:])
         return res
-```
+# ```

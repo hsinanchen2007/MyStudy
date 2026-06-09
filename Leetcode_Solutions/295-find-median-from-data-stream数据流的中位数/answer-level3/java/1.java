@@ -1,10 +1,10 @@
-### 解题思路
-参考如下链接：
-链接：https://leetcode-cn.com/problems/find-median-from-data-stream/solution/priorityqueuexue-xi-by-xyx1273930793/
+// ### 解题思路
+// 参考如下链接：
+// 链接：https://leetcode-cn.com/problems/find-median-from-data-stream/solution/priorityqueuexue-xi-by-xyx1273930793/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MedianFinder {
     PriorityQueue<Integer> maxQueue = new PriorityQueue<>((o1, o2) -> o2-o1);
     PriorityQueue<Integer> minQueue = new PriorityQueue<>();
@@ -39,4 +39,4 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

@@ -1,6 +1,6 @@
-思路很简单，先将末尾的空格全部删掉，再从末尾往前加
+// 思路很简单，先将末尾的空格全部删掉，再从末尾往前加
 
-```golang []
+// ```golang []
 func lengthOfLastWord(s string) int {
     
   for i:= len(s)-1;i >= 0;i-- {
@@ -27,4 +27,4 @@ func lengthOfLastWord(s string) int {
 
 	return 0
 }
-```
+// ```

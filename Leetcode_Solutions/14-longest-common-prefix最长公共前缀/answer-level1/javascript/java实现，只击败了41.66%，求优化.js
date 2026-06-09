@@ -1,4 +1,4 @@
-```
+// ```
  //最长公共前缀,最长公共前缀,最长公共前缀
     public String longestCommonPrefix(String[] strs) {
         if(strs == null || strs.length == 0){
@@ -31,6 +31,6 @@
         }
         return "";
     }
-```
+// ```
 
 

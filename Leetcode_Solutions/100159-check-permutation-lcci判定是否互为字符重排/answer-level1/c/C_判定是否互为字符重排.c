@@ -1,10 +1,10 @@
-### 解题思路
-题目没限定一定是26个字母、包含大小写52个字母、数字、中文.....所以没办法用简单的数组来建立hash表。自己写个链表来记录，既可以动态增长，又可以省空间，记得及时返回效率双百。
-![image.png](https://pic.leetcode-cn.com/e6a0931cf2dc1b59dace99efb02ed702ae95e328e32ac027083eb53b4572edb0-image.png)
+// ### 解题思路
+// 题目没限定一定是26个字母、包含大小写52个字母、数字、中文.....所以没办法用简单的数组来建立hash表。自己写个链表来记录，既可以动态增长，又可以省空间，记得及时返回效率双百。
+// ![image.png](https://pic.leetcode-cn.com/e6a0931cf2dc1b59dace99efb02ed702ae95e328e32ac027083eb53b4572edb0-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 ////////////////////////////////////////////////////////////////////链表存储
 typedef struct Node
 {
@@ -68,4 +68,4 @@ bool CheckPermutation(char* s1, char* s2){
     del(link);
     return true;
 }
-```
+// ```

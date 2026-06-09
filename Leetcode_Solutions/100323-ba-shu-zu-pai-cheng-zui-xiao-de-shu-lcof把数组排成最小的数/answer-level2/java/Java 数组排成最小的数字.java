@@ -1,9 +1,9 @@
-### 解题思路
-解题思路见代码注释！！！
+// ### 解题思路
+// 解题思路见代码注释！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minNumber(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

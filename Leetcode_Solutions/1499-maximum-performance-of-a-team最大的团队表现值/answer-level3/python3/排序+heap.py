@@ -1,10 +1,10 @@
-### 解题思路
-排序+heap
-![image.png](https://pic.leetcode-cn.com/7f8ebfc333019b61111bb6dacaed68817bb2e299305651dc1bd412ab301bb246-image.png)
+# ### 解题思路
+# 排序+heap
+# ![image.png](https://pic.leetcode-cn.com/7f8ebfc333019b61111bb6dacaed68817bb2e299305651dc1bd412ab301bb246-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxPerformance(self, n: int, speed: List[int], efficiency: List[int], k: int) -> int:
         mat=[]
@@ -31,4 +31,4 @@ class Solution:
         print(res,res%int(10**9 + 7))
         return res%int(10**9 + 7)
 
-```
+# ```

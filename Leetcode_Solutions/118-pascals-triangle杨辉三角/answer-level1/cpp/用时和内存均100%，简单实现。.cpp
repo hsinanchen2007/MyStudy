@@ -1,9 +1,9 @@
-### 解题思路
-用时和内存均100%。初始化i个，不执行push_back。
+// ### 解题思路
+// 用时和内存均100%。初始化i个，不执行push_back。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -27,4 +27,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-建两个字典,dict01放{单词:单词出现的次数},按定长(所有单词的长度)遍历s,把遍历到的单词放入dict02,此时次数不能超过dict01中的值
-```
+# 建两个字典,dict01放{单词:单词出现的次数},按定长(所有单词的长度)遍历s,把遍历到的单词放入dict02,此时次数不能超过dict01中的值
+# ```
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         res=[]
@@ -33,4 +33,4 @@ class Solution:
             if t==i+l:
                 res.append(i)
         return res
-```
+# ```

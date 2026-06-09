@@ -1,10 +1,10 @@
-### 解题思路
-将链表指针存储到数组中，这样中点计算就是直接可以使用线性值，不需要遍历，但是需要O(n)的空间
-![image.png](https://pic.leetcode-cn.com/4ba55a9fc5e3fbbd18f9d3145654bfbd2a4253a2dc212e33ff30234775122971-image.png)
+// ### 解题思路
+// 将链表指针存储到数组中，这样中点计算就是直接可以使用线性值，不需要遍历，但是需要O(n)的空间
+// ![image.png](https://pic.leetcode-cn.com/4ba55a9fc5e3fbbd18f9d3145654bfbd2a4253a2dc212e33ff30234775122971-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -84,4 +84,4 @@ struct TreeNode* sortedListToBST(struct ListNode* head){
 	free(arr);
 	return rlt;
 }
-```
+// ```

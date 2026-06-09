@@ -1,7 +1,7 @@
 
-### 方法 1，用 slice 模拟
+// ### 方法 1，用 slice 模拟
 
-```golang
+// ```golang
 
 type MyQueue struct {
     arr []interface{}
@@ -78,11 +78,11 @@ func (this *MyStack) Empty() bool {
  * param_4 := obj.Empty();
  */
 
-```
+// ```
 
-### 方法2 用 list 模拟（双端链表）
+// ### 方法2 用 list 模拟（双端链表）
 
-```golang
+// ```golang
 import "container/list"
 
 type MyQueue2 struct {
@@ -172,4 +172,4 @@ func (this *MyStack) Empty() bool {
  */
 
 
-```
+// ```

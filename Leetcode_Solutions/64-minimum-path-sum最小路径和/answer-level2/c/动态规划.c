@@ -1,5 +1,5 @@
-典型的动态规划问题：
-```c
+// 典型的动态规划问题：
+// ```c
 /*
  * @lc app=leetcode.cn id=64 lang=c
  *
@@ -28,4 +28,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
     return grid[gridSize-1][*gridColSize-1];
 }
 
-```
+// ```

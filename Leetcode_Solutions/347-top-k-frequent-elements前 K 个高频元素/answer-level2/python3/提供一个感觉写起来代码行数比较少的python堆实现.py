@@ -1,5 +1,5 @@
-思路简单，hash计数，堆输出，直接在方法该方法里面定义堆的各种方法，把堆数组看成全局
-```
+# 思路简单，hash计数，堆输出，直接在方法该方法里面定义堆的各种方法，把堆数组看成全局
+# ```
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         dict_hash = {}
@@ -46,4 +46,4 @@ class Solution:
             size -= 1
             down(1)
         return res
-```
+# ```

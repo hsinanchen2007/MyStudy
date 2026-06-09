@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-最基本的递归，构建新节点时交换左右子节点即可。前序遍历，从树底开始翻转。
+// 最基本的递归，构建新节点时交换左右子节点即可。前序遍历，从树底开始翻转。
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 /**
  * Definition for a binary tree node.
  * class TreeNode(var _value: Int) {
@@ -27,4 +27,4 @@ object Solution {
     }
   }
 }
-```
+// ```

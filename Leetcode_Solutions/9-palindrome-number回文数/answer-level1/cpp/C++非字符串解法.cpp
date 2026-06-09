@@ -1,9 +1,9 @@
-### 解题思路
-定义resolve函数，将传入的数%10 来取出个位数，再整除10消除个位数。
+// ### 解题思路
+// 定义resolve函数，将传入的数%10 来取出个位数，再整除10消除个位数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
   unsigned int resolve(int a)
@@ -23,4 +23,4 @@ public:
     }
 
 };
-```
+// ```

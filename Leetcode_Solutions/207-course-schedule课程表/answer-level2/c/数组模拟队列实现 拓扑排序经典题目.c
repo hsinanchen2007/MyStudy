@@ -1,4 +1,4 @@
-```
+// ```
 bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize){
     int G[numCourses][numCourses];
     memset(G, 0, sizeof(int) * numCourses * numCourses);
@@ -36,4 +36,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     return false;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-x异或y的结果中包含1的个数即为汉明距离
-```C++ []
+// x异或y的结果中包含1的个数即为汉明距离
+// ```C++ []
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -15,4 +15,4 @@ public:
         return count;
     }
 };
-```
+// ```

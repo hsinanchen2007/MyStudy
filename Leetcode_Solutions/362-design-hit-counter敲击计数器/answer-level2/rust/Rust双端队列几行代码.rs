@@ -1,8 +1,8 @@
-这道题就是个双端队列的裸题，每次Hit就往队尾插一条记录。每次get就从前开始删除离当前大于等于300的。结果就是队列长度
+// 这道题就是个双端队列的裸题，每次Hit就往队尾插一条记录。每次get就从前开始删除离当前大于等于300的。结果就是队列长度
 
-0ms
+// 0ms
 
-```rust
+// ```rust
 use std::collections::VecDeque;
 
 struct HitCounter {
@@ -42,4 +42,4 @@ impl HitCounter {
         self.dq.len() as i32
     }
 }
-```
+// ```

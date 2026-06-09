@@ -1,9 +1,9 @@
-### 解题思路
-暴力填充，我好菜
+// ### 解题思路
+// 暴力填充，我好菜
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -17,4 +17,4 @@ var decompressRLElist = function(arr) {
     }
     return newArr
 };
-```
+// ```

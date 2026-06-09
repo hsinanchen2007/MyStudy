@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-首先需要找到最后一个单词，之前想过从后向前遍历找到第一个不是字母的字符，就基本找到了。
+// 首先需要找到最后一个单词，之前想过从后向前遍历找到第一个不是字母的字符，就基本找到了。
 
-但是很傻啊，那么多库函数，直接使用 trim 先，然后 lastIndexOf(" ") 就找到了，然后 substring 一下就结束了
+// 但是很傻啊，那么多库函数，直接使用 trim 先，然后 lastIndexOf(" ") 就找到了，然后 substring 一下就结束了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         s = s.trim();
@@ -14,4 +14,4 @@ class Solution {
         return s.substring(start).length();
     }
 }
-```
+// ```

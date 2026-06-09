@@ -1,9 +1,9 @@
-### 解题思路
-先数一遍链表中的元素个数，然后计算数值
+// ### 解题思路
+// 先数一遍链表中的元素个数，然后计算数值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

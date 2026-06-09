@@ -1,9 +1,9 @@
-找到最大的数字，然后遍历
+// 找到最大的数字，然后遍历
 
-当然还可以结合分片来提高效率，然后合并slice。
+// 当然还可以结合分片来提高效率，然后合并slice。
 
 
-```golang
+// ```golang
 func printNumbers(n int) []int {
     if n <= 0 {
         return []int{}
@@ -17,4 +17,4 @@ func printNumbers(n int) []int {
 
     return result
 }
-```
+// ```

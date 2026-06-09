@@ -1,5 +1,5 @@
-参考3数之和，双指针，在外面在套一层循环。
-```java
+// 参考3数之和，双指针，在外面在套一层循环。
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -41,4 +41,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

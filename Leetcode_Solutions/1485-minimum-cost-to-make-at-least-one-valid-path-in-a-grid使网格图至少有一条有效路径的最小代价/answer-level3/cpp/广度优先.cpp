@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid) {
@@ -73,4 +73,4 @@ public:
         return -1;
     }
 };
-```
+// ```

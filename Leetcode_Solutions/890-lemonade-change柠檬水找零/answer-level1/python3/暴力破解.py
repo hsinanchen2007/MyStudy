@@ -1,9 +1,9 @@
-### 解题思路
-使用字典记录５元和１０元分别有多少．
+# ### 解题思路
+# 使用字典记录５元和１０元分别有多少．
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
         dict1={5:0,10:0}
@@ -24,4 +24,4 @@ class Solution:
             else:
                 return False
         return True 
-```
+# ```

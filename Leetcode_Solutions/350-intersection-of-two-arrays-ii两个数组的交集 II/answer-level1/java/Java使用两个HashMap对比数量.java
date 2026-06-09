@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap<Integer,Integer> map1 = new HashMap<Integer,Integer>();
@@ -22,4 +22,4 @@ class Solution {
         return Arrays.copyOfRange(nums1, 0, i);
     }
 }
-```
+// ```

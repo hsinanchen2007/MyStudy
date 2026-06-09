@@ -1,10 +1,10 @@
-### 解题思路
-1.快指针一次进两步，慢指针一次进一步。最后答案为慢指针。
-2.遍历计算总数，算出中间位置再遍历一次。
+// ### 解题思路
+// 1.快指针一次进两步，慢指针一次进一步。最后答案为慢指针。
+// 2.遍历计算总数，算出中间位置再遍历一次。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -22,9 +22,9 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return slow;
 }
-```
+// ```
 
-```c
+// ```c
 struct ListNode* middleNode(struct ListNode* head){
     int cnt = 0;
     struct ListNode *cur = head;
@@ -43,5 +43,5 @@ struct ListNode* middleNode(struct ListNode* head){
 
     return cur;
 }
-```
-```
+// ```
+// ```

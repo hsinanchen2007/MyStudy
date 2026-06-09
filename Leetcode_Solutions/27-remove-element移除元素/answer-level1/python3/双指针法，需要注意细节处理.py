@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释，拿示例模拟一遍即可
+# ### 解题思路
+# 见代码注释，拿示例模拟一遍即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         '''
@@ -34,4 +34,4 @@ class Solution:
 
         # 最后i==j，需要单独判断一次nums[i]的值
         return (i + 1) if nums[i] != val else i
-```
+# ```

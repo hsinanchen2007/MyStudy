@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func rotate(nums []int, k int)   {
 	len := len(nums)
 	index := len - k % len
@@ -12,4 +12,4 @@ func rotate(nums []int, k int)   {
 		nums[i] = newNums[i]
 	}
 }
-```
+// ```

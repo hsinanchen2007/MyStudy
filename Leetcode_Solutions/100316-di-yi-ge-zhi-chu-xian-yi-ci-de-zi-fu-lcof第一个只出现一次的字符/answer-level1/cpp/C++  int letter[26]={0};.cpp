@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 char firstUniqChar(string s) {
@@ -12,4 +12,4 @@ char firstUniqChar(string s) {
 	return ' ';
 }
 };
-```
+// ```

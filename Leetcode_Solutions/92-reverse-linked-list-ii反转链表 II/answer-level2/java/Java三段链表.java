@@ -1,8 +1,8 @@
-- 将链表分为三段:1~m为第一段链表preHead,m~n为第二段反转链表reverseNode,n~末尾为第三段链表tailListNode
-- 头插法反转reverseNode
-- preHead + reverseNode + tailListNode即为结果
-**特殊情况:** 当m为1时,preHead为null，需要特殊判空
-```
+// - 将链表分为三段:1~m为第一段链表preHead,m~n为第二段反转链表reverseNode,n~末尾为第三段链表tailListNode
+// - 头插法反转reverseNode
+// - preHead + reverseNode + tailListNode即为结果
+// **特殊情况:** 当m为1时,preHead为null，需要特殊判空
+// ```
 public ListNode reverseBetween(ListNode head, int m, int n) {
     if (head == null || head.next == null || m == n) {
         return head;
@@ -54,4 +54,4 @@ public ListNode reverseBetween(ListNode head, int m, int n) {
         return reverseNode.next;
     }
 }
-```
+// ```

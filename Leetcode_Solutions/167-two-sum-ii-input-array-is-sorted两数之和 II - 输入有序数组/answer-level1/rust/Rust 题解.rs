@@ -1,5 +1,5 @@
-最优：两个指针利用输入是顺序数组的条件，前后夹逼
-```
+// 最优：两个指针利用输入是顺序数组的条件，前后夹逼
+// ```
 impl Solution {
     pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
         let len = numbers.len();
@@ -20,9 +20,9 @@ impl Solution {
         res
     }
 }
-```
-另一个暴力但是也能过的实现
-```
+// ```
+// 另一个暴力但是也能过的实现
+// ```
 impl Solution {
     pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
         let len = numbers.len();
@@ -41,4 +41,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

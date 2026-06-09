@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/0ee2ef67d6dce7e4eb186fd7d64d098dd5f908c79ec725ae8a517462e5bb91d2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0ee2ef67d6dce7e4eb186fd7d64d098dd5f908c79ec725ae8a517462e5bb91d2-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var dp func(x, y int) int
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
@@ -49,4 +49,4 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 func K(x, y int) string {
     return fmt.Sprint(x, y)
 }
-```
+// ```

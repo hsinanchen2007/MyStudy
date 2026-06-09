@@ -1,6 +1,6 @@
-只需要4行代码
+# 只需要4行代码
 
-```python []
+# ```python []
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         pre, cur = None, head
@@ -8,4 +8,4 @@ class Solution:
             cur.next, cur, pre = pre, cur.next, cur
         return pre
         
-```
+# ```

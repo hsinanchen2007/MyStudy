@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -22,4 +22,4 @@ for(i=0;i<k;i++)
 list[i]=arr[i];
 return list;
 }
-```
+// ```

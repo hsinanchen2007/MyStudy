@@ -1,5 +1,5 @@
-# 方法1：通过x,y模拟路径
-```
+// # 方法1：通过x,y模拟路径
+// ```
 
 func judgeCircle(moves string) bool {
 	var x,y int
@@ -21,9 +21,9 @@ func judgeCircle(moves string) bool {
 		return false
 	}
 }
-```
-# 方法2：堆栈实现（耗时耗力）
-```
+// ```
+// # 方法2：堆栈实现（耗时耗力）
+// ```
 
 func judgeCircle(moves string) bool {
 	var stackLR = make([]byte,0)
@@ -54,5 +54,5 @@ func judgeCircle(moves string) bool {
 	}
 }
 }
-```
+// ```
 

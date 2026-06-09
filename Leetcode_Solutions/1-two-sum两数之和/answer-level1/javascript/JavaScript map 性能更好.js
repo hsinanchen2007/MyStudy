@@ -1,10 +1,10 @@
-### 解题思路
-1. map 比较，耗时短
-2. 普通双层循环，耗时久
+// ### 解题思路
+// 1. map 比较，耗时短
+// 2. 普通双层循环，耗时久
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -21,4 +21,4 @@ var twoSum = function(nums, target) {
     map.set(nums[i], i);
    }
 };
-```
+// ```

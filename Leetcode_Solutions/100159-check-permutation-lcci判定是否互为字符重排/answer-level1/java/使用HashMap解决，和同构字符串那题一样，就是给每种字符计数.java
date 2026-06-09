@@ -1,4 +1,4 @@
-```
+// ```
 public boolean CheckPermutation(String s1, String s2) {
     Map<Character, Integer> map1 = new HashMap<>();
 	for (int i = 0; i < s1.length(); i++) {
@@ -10,4 +10,4 @@ public boolean CheckPermutation(String s1, String s2) {
 	}
 	return map1.equals(map2);    
     }
-```
+// ```

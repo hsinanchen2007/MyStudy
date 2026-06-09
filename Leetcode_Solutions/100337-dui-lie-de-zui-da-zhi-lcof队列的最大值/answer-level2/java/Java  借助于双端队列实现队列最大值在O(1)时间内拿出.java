@@ -1,9 +1,9 @@
-### 解题思路
-解题思路：两个队列，由于存最大值，后入队的比之前元素大时需要更新以前元素对应的最大值为当前元素，因此需要使用一个双端队列存储最大值信息。
+// ### 解题思路
+// 解题思路：两个队列，由于存最大值，后入队的比之前元素大时需要更新以前元素对应的最大值为当前元素，因此需要使用一个双端队列存储最大值信息。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     private Queue<Integer> queue;
     private Deque<Integer> deque;
@@ -56,4 +56,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

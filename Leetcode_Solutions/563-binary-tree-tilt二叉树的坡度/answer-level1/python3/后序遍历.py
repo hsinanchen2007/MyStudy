@@ -1,6 +1,6 @@
-![486b8a5b139466180380e60ed30a120.png](https://pic.leetcode-cn.com/62bb05feca78e91730ed7b8f9bff17fdcf3ab9c549172b99d81877a89fd94dae-486b8a5b139466180380e60ed30a120.png)
+# ![486b8a5b139466180380e60ed30a120.png](https://pic.leetcode-cn.com/62bb05feca78e91730ed7b8f9bff17fdcf3ab9c549172b99d81877a89fd94dae-486b8a5b139466180380e60ed30a120.png)
 
-```python []
+# ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,5 +32,5 @@ class Solution:
         f(root)
         return res
 
-```
+# ```
 

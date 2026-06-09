@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
         if not root:
@@ -18,4 +18,4 @@ class Solution:
                     return False
                 pnt = pnt.right
         return True
-```
+# ```

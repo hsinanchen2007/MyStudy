@@ -1,5 +1,5 @@
-方法一：两重循环，内层循环，每次从第一个元素开始，遍历到外层循环的前一个位置，并判断是否存在满足条件的数。
-```
+// 方法一：两重循环，内层循环，每次从第一个元素开始，遍历到外层循环的前一个位置，并判断是否存在满足条件的数。
+// ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
@@ -17,12 +17,12 @@ class Solution {
     }
 }
 
-```
+// ```
 
 
-方法二：hashmap。在for循环的过程中，同时构建hashmap，利用hashmap快速
-查找的特点，省去了方法一中内层循环的时间。
-```
+// 方法二：hashmap。在for循环的过程中，同时构建hashmap，利用hashmap快速
+// 查找的特点，省去了方法一中内层循环的时间。
+// ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
@@ -40,4 +40,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

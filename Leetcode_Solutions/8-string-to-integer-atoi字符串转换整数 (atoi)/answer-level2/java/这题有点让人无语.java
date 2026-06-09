@@ -1,9 +1,9 @@
-### 解题思路
-if-else走天下
+// ### 解题思路
+// if-else走天下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         int n = str.length();
@@ -56,4 +56,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

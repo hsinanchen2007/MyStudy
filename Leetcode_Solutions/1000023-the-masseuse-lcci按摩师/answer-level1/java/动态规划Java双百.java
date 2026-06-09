@@ -1,10 +1,10 @@
-### 解题思路
-典型的动态规划，，由于i-1的元素被取之后，i的元素是无法使用的，所以有
-dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i])
+// ### 解题思路
+// 典型的动态规划，，由于i-1的元素被取之后，i的元素是无法使用的，所以有
+// dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i])
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int massage(int[] nums) {
         int n = nums.length;
@@ -19,4 +19,4 @@ class Solution {
         return pre1;
     }
 }
-```
+// ```

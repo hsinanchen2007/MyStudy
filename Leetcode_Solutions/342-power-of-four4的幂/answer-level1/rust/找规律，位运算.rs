@@ -1,5 +1,5 @@
 
-```
+// ```
 impl Solution {
     pub fn is_power_of_four(num: i32) -> bool {
 //    4 -> 0b00000000000000000000000000000100 ->  3
@@ -19,5 +19,5 @@ impl Solution {
         }
     }
 }
-```
+// ```
 

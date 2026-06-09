@@ -1,4 +1,4 @@
-整形反转可以转化到字符型反转，再处理一下符号即可
+# 整形反转可以转化到字符型反转，再处理一下符号即可
 class Solution(object):
     def reverse(self, x):
         """

@@ -1,9 +1,9 @@
-### 解题思路
-遍历，使用map来记录层数和这一层的节点数量，最后计算平均数
+// ### 解题思路
+// 遍历，使用map来记录层数和这一层的节点数量，最后计算平均数
 
-### 代码 dfs
+// ### 代码 dfs
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,9 +41,9 @@ public:
         dfs(root->right,level+1);
     }
 };
-```
-### 代码 bfs
-```cpp
+// ```
+// ### 代码 bfs
+// ```cpp
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
@@ -71,4 +71,4 @@ public:
         return res;
     }
 };
-```
+// ```

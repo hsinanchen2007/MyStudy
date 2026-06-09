@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-n个```1 * 1 * 1```的立方体堆在一起的表面积是4n + 2
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// n个```1 * 1 * 1```的立方体堆在一起的表面积是4n + 2
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -38,4 +38,4 @@ var surfaceArea = function(grid) {
     return res
 };
 
-```
+// ```

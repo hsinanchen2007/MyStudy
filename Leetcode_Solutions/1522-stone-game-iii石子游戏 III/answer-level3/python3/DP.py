@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:
         dp = [-1e9]*len(stoneValue)
@@ -18,4 +18,4 @@ class Solution:
         if alice==bob:return 'Tie'
         elif alice>bob:return 'Alice'
         else:return 'Bob'
-```
+# ```

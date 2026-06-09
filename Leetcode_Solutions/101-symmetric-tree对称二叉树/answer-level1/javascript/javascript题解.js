@@ -1,13 +1,13 @@
-[101.对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/submissions/)
+// [101.对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
 
-## 方法一 递归   
+// ## 方法一 递归   
 
-DFS。
+// DFS。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,13 +34,13 @@ function help(left, right) {
     
     return left.val === right.val && help(left.left, right.right) && help(left.right, right.left);
 }
-```
+// ```
 
-## 方法三 
+// ## 方法三 
 
-BFS。
+// BFS。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -67,14 +67,14 @@ var isSymmetric = function(root) {
     }
     return true
 };
-```
+// ```
 
 
-## 方法三 迭代
+// ## 方法三 迭代
 
-层序遍历二叉树，判断每一层的二叉树节点的值是否对称。
+// 层序遍历二叉树，判断每一层的二叉树节点的值是否对称。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -123,4 +123,4 @@ function help(arr) {
     }
     return true;
 }
-```
+// ```

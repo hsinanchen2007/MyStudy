@@ -1,9 +1,9 @@
-### 解题思路
-入栈序列进行入栈操作，栈顶等于出栈序列第一个数就出栈
+# ### 解题思路
+# 入栈序列进行入栈操作，栈顶等于出栈序列第一个数就出栈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         stack = []
@@ -14,4 +14,4 @@ class Solution:
                 stack.pop()
                 cur+=1
         return False if stack else True
-```
+# ```

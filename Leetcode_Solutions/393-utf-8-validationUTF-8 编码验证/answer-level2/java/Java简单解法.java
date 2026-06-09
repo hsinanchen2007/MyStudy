@@ -1,8 +1,8 @@
-1. 每个数从依次与运算 128 64 32 16，计算这个unicode多少位，计入count；
-2. 假如目前count为0，不允许有10开头的
-3. 减去自己本身，count-1，之后每遍历一个count-1
-4. count没归零之前，必须是10开头，不是的话返回false
-```
+// 1. 每个数从依次与运算 128 64 32 16，计算这个unicode多少位，计入count；
+// 2. 假如目前count为0，不允许有10开头的
+// 3. 减去自己本身，count-1，之后每遍历一个count-1
+// 4. count没归零之前，必须是10开头，不是的话返回false
+// ```
     
     public boolean validUtf8(int[] data) {
         int n = data.length;
@@ -40,4 +40,4 @@
         }
     }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0f53e4c6e9a98e0eff2c0dca3f07af2d6ac5886ad77a8b8042fb8457ac425686-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0f53e4c6e9a98e0eff2c0dca3f07af2d6ac5886ad77a8b8042fb8457ac425686-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
         int[] map = new int[26];
@@ -36,4 +36,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

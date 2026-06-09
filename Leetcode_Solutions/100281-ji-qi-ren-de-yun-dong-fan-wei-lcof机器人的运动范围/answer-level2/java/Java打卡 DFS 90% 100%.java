@@ -1,6 +1,6 @@
-个人习惯：在写DFS喜欢用void，然后将状态、结果记录在类的成员变量中。
+// 个人习惯：在写DFS喜欢用void，然后将状态、结果记录在类的成员变量中。
 
-```Java [深度遍历搜索]
+// ```Java [深度遍历搜索]
 import java.util.*;
 
 public class Solution {
@@ -50,4 +50,4 @@ public class Solution {
         return sum;
     }
 }
-```
+// ```

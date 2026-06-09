@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/000a042384fe719944cb1b364a72fb8ce2e062cb5b8842f2d5e532ad310db6b3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/000a042384fe719944cb1b364a72fb8ce2e062cb5b8842f2d5e532ad310db6b3-image.png)
 
-``` js
+// ``` js
 var addToArrayForm = function(A, K) {
     var i = A.length - 1;
     var carry = 0;
@@ -23,4 +23,4 @@ var addToArrayForm = function(A, K) {
     if (carry > 0) ans.unshift(carry);
     return ans;
 };
-```
+// ```

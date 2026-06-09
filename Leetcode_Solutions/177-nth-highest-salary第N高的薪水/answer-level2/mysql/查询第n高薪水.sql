@@ -1,11 +1,11 @@
-### 解题思路
-distinct 去重
-利用limit定位第n个（limit （n-1），1）
-ifnull 当没有结果集时返回null
+-- ### 解题思路
+-- distinct 去重
+-- 利用limit定位第n个（limit （n-1），1）
+-- ifnull 当没有结果集时返回null
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
    declare p int;
@@ -17,4 +17,4 @@ BEGIN
       
   );
 END
-```
+-- ```

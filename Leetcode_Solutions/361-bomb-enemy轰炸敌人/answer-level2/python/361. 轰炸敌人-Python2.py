@@ -1,5 +1,5 @@
-找到所有是0的点，然后向四个方向找可以炸死的敌人。
-```python
+# 找到所有是0的点，然后向四个方向找可以炸死的敌人。
+# ```python
 class Solution(object):
     def maxKilledEnemies(self, grid):
         """
@@ -43,4 +43,4 @@ class Solution(object):
                 if grid[i][j] == "0":
                     res = max(res, count(i, j))
         return res
-```
+# ```

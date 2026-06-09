@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -34,4 +34,4 @@ var rob = function(nums) {
     console.log(tempone,temptwo);
     return Math.max(temptwo.pop(),tempone.pop());
 };
-```
+// ```

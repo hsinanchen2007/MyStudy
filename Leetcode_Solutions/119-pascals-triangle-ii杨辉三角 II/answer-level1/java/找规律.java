@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         rowIndex++;
@@ -24,4 +24,4 @@ class Solution {
         return IntStream.of(lastArray).boxed().collect(Collectors.toList());
     }
 }
-```
+// ```

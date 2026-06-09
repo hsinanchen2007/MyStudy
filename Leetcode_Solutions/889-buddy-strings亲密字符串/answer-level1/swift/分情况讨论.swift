@@ -1,9 +1,9 @@
-### 解题思路
-看注释
+// ### 解题思路
+// 看注释
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func buddyStrings(_ A: String, _ B: String) -> Bool {
         
@@ -65,4 +65,4 @@ class Solution {
        return false
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 回溯
-```cpp
+// ### 回溯
+// ```cpp
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -20,10 +20,10 @@ public:
 
     int _maxDepth;
 };
-```
+// ```
 
-### 化归
-```cpp
+// ### 化归
+// ```cpp
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -31,4 +31,4 @@ public:
         return max(maxDepth(root->left), maxDepth(root->right))+1;
     }
 };
-```
+// ```

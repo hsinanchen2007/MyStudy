@@ -1,4 +1,4 @@
-```
+# ```
 这个题不是很简单，边界很多；还是转换比较简单一些；
 class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
@@ -22,4 +22,4 @@ class Solution:
             if word[i] ！= b[i] and b[i] == '*'
                 return False
         return True
-```
+# ```

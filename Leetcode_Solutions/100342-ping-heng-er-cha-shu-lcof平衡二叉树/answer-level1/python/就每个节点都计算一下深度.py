@@ -1,9 +1,9 @@
-### 解题思路
-遍历
+# ### 解题思路
+# 遍历
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
                 else:
                     return check(root.left) and check(root.right)
         return check(root)
-```
+# ```

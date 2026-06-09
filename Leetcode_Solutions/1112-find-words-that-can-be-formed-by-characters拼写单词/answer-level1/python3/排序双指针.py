@@ -1,10 +1,10 @@
-### 解题思路
-一开始想到用collection，但是不会
-先排序，然后双指针，结果中间的判断搞死我了
+# ### 解题思路
+# 一开始想到用collection，但是不会
+# 先排序，然后双指针，结果中间的判断搞死我了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         s_chars = sorted (chars)
@@ -41,4 +41,4 @@ class Solution:
         return res
 
             
-```
+# ```

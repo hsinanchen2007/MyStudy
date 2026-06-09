@@ -1,4 +1,4 @@
-![360截图20200406133219354.jpg](https://pic.leetcode-cn.com/d6fd43248cc616402386788388a66037943caadad9f8f9d34604f7bc860d8c9c-360%E6%88%AA%E5%9B%BE20200406133219354.jpg)
+// ![360截图20200406133219354.jpg](https://pic.leetcode-cn.com/d6fd43248cc616402386788388a66037943caadad9f8f9d34604f7bc860d8c9c-360%E6%88%AA%E5%9B%BE20200406133219354.jpg)
 
  bool uniqueOccurrences(vector<int>& arr) {
         //vector<int> a(10000,0);

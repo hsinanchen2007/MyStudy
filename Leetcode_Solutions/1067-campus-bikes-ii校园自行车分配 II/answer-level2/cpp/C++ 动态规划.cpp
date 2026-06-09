@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int abs(int x) {
@@ -55,5 +55,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ab08cf7e66642986bb39da9d6d1f48be4e03c847b88b9081234bfc58352e3406-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ab08cf7e66642986bb39da9d6d1f48be4e03c847b88b9081234bfc58352e3406-image.png)

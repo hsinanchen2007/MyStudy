@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& Seats) {
@@ -24,4 +24,4 @@ public:
         return count+2*(n-m.size());
     }
 };
-```
+// ```

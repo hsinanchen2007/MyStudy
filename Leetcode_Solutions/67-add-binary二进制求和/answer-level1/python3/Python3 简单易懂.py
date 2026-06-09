@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :40 ms, 在所有 python3 提交中击败了81.13%的用户
-内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.69%的用户
+# ### 解题思路
+# 执行用时 :40 ms, 在所有 python3 提交中击败了81.13%的用户
+# 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.69%的用户
 
-来菜鸡互啄呀~~~~
-### 代码
+# 来菜鸡互啄呀~~~~
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         la = len(a)-1   #指向a的元素，从后往前
@@ -24,4 +24,4 @@ class Solution:
             res = '1' + res #算完后如果最高位还要进位，就加一个‘1’
         return res
 
-```
+# ```

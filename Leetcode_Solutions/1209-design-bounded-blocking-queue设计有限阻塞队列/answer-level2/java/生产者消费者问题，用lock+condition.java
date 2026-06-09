@@ -1,4 +1,4 @@
-```
+// ```
 class BoundedBlockingQueue {
 
     private LinkedList<Integer> queue=new LinkedList<>();
@@ -55,4 +55,4 @@ class BoundedBlockingQueue {
         return size;
     }
 }
-```
+// ```

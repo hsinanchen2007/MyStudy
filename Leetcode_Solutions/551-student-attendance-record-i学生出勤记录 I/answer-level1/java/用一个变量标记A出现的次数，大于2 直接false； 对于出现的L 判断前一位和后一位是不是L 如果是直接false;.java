@@ -1,4 +1,4 @@
-用一个变量标记A出现的次数，大于2 直接false； 对于出现的L 判断前一位和后一位是不是L 如果是直接false;
+// 用一个变量标记A出现的次数，大于2 直接false； 对于出现的L 判断前一位和后一位是不是L 如果是直接false;
 class Solution {
     public boolean checkRecord(String s) {
          int count = 0;

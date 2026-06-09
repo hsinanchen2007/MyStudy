@@ -1,9 +1,9 @@
-### 解题思路
-哈希表存储每个域名出现的次数，哈希表无需存储每个域名内容
+// ### 解题思路
+// 哈希表存储每个域名出现的次数，哈希表无需存储每个域名内容
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -181,4 +181,4 @@ char ** subdomainVisits(char ** cpdomains, int cpdomainsSize, int* returnSize){
 
     return result;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-正常求子数组最大和:
-参考题目：[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/submissions/)
-代码如下：
-```java
+// 正常求子数组最大和:
+// 参考题目：[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/submissions/)
+// 代码如下：
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int ans = Integer.MIN_VALUE, sum = 0;
@@ -13,17 +13,17 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-而删除1次得到子数组最大和，就基于上述代码进行修改。
-有2种方案：
-1. 在sum < 0时，sum重置为0，然后继续累加。其中记录最小值min。当min < 0时，就删除min的值，删去后的子数组和为sum - min；若min > 0，则保留，即子数组和为sum。
-2. 在sum - min < 0时，sum重置为0，然后继续累加。其中也记录最小值min。当min < 0时，就删除min的值，删去后的子数组和为sum - min；若min > 0，则保留，即子数组和为sum。
+// 而删除1次得到子数组最大和，就基于上述代码进行修改。
+// 有2种方案：
+// 1. 在sum < 0时，sum重置为0，然后继续累加。其中记录最小值min。当min < 0时，就删除min的值，删去后的子数组和为sum - min；若min > 0，则保留，即子数组和为sum。
+// 2. 在sum - min < 0时，sum重置为0，然后继续累加。其中也记录最小值min。当min < 0时，就删除min的值，删去后的子数组和为sum - min；若min > 0，则保留，即子数组和为sum。
 
-在2种方案中取 较优者即可。
+// 在2种方案中取 较优者即可。
 
-# 代码：
-```java
+// # 代码：
+// ```java
 class Solution {
     public int maximumSum(int[] arr) {
         int len = arr.length;
@@ -68,4 +68,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

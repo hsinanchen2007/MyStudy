@@ -1,5 +1,5 @@
-也算是多一种做法吧，减少了重复计算，也能过了，但是肯定没有dp正规。
-```
+// 也算是多一种做法吧，减少了重复计算，也能过了，但是肯定没有dp正规。
+// ```
 using pii = pair<int, int>;
 class Solution {
 private:
@@ -20,4 +20,4 @@ public:
         return search(triangle, 0, 0);
     }
 };
-```
+// ```

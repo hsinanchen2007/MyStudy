@@ -1,10 +1,10 @@
-### 解题思路
-1、统计出每种数字的数目
-2、所有数目的最大公约数 > 1
+// ### 解题思路
+// 1、统计出每种数字的数目
+// 2、所有数目的最大公约数 > 1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -30,4 +30,4 @@ var hasGroupsSizeX = function(deck) {
   // 成功条件：
   return getGCD(counts) > 1
 };
-```
+// ```

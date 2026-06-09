@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n){
 char*ret=(char*)malloc(sizeof(char)*5000);
 char*signal=(char*)malloc(sizeof(char)*5000);
@@ -33,4 +33,4 @@ while(ret[k++]=signal[j++]);   //字符串复制,将字符串signal中的数据�
 }
 return signal;
 }
-```
+// ```

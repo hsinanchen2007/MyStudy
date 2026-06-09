@@ -1,7 +1,7 @@
-### 代码
-![深度.JPG](https://pic.leetcode-cn.com/ed4aed36369f4116b3ec8e2e81eee88b45eb0469d082f8b346ec49e7cbd092b5-%E6%B7%B1%E5%BA%A6.JPG)
+# ### 代码
+# ![深度.JPG](https://pic.leetcode-cn.com/ed4aed36369f4116b3ec8e2e81eee88b45eb0469d082f8b346ec49e7cbd092b5-%E6%B7%B1%E5%BA%A6.JPG)
 
-```python3
+# ```python3
 class Solution:
     def readBinaryWatch(self, num: int) -> List[str]:
         # Hour: 8 4 2 1
@@ -42,4 +42,4 @@ class Solution:
                         timestr = str(hnum) + ':' + str(mnum // 10) + str(mnum % 10)
                         output.append(timestr)
         return output
-```
+# ```

@@ -1,9 +1,9 @@
-比起n次广度优先搜索，还是多源BFS更香一点
-理解起来其实不难，就是一开始把烂橘子都放进队列里边，去模拟实际橘子腐烂的过程
-因为橘子它实际就是一起同时腐烂的
-代码里的last就是判断遍历层数的重要变量
-参考代码如下
-```
+// 比起n次广度优先搜索，还是多源BFS更香一点
+// 理解起来其实不难，就是一开始把烂橘子都放进队列里边，去模拟实际橘子腐烂的过程
+// 因为橘子它实际就是一起同时腐烂的
+// 代码里的last就是判断遍历层数的重要变量
+// 参考代码如下
+// ```
 int count;
 struct Coordinates
 {
@@ -72,4 +72,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     BFS(grid,gridSize,gridColSize);
     return count;
 }
-```
+// ```

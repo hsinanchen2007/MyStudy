@@ -1,5 +1,5 @@
-方法一：每次查找当前字符第一次出现的索引值
-```
+// 方法一：每次查找当前字符第一次出现的索引值
+// ```
 bool isIsomorphic(char * s, char * t){
     int i = 0;
     while (s[i]) {
@@ -17,9 +17,9 @@ int find_fir(char *s, int end)
     }
     return end;
 }
-```
-方法二：用空间换时间，不断累加索引值
-```
+// ```
+// 方法二：用空间换时间，不断累加索引值
+// ```
 bool isIsomorphic(char * s, char * t){        
     int a[128]={0};
     int b[128]={0};
@@ -30,7 +30,7 @@ bool isIsomorphic(char * s, char * t){
     }
     return true;
 }
-```
+// ```
 
 
 

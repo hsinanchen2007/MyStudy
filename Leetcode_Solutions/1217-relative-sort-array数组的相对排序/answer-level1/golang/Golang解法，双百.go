@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/623c7a3a01346585892bba0127c4f9552633507663bd847f9645c4a94cb80d67-image.png)
+// ![image.png](https://pic.leetcode-cn.com/623c7a3a01346585892bba0127c4f9552633507663bd847f9645c4a94cb80d67-image.png)
 
 
-```
+// ```
 func relativeSortArray(arr1 []int, arr2 []int) []int {
 	lastIdx := 0
 	for i := 0; i < len(arr2); i++ {
@@ -15,4 +15,4 @@ func relativeSortArray(arr1 []int, arr2 []int) []int {
 	sort.Ints(arr1[lastIdx:])
 	return arr1
 }
-```
+// ```

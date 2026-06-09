@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isStrobogrammatic(String num) {
         HashMap<Character, Character> map = new HashMap<>();
@@ -29,6 +29,6 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-用时和内存都是100%，还不错
+// 用时和内存都是100%，还不错

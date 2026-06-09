@@ -1,9 +1,9 @@
-### 解题思路
-三个节点，first记录已经翻转的链表头，middle是需要翻转的节点，later是middle的下一个作为辅助。当然存在各种边界条件，不是很好的实现。
+// ### 解题思路
+// 三个节点，first记录已经翻转的链表头，middle是需要翻转的节点，later是middle的下一个作为辅助。当然存在各种边界条件，不是很好的实现。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
         return middle;
     }
 };
-```
+// ```

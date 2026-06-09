@@ -1,10 +1,10 @@
-### 解题思路
-尝试改进了一下themoonston的代码  https://leetcode-cn.com/problems/word-ladder/solution/golang-shi-xian-de-shuang-xiang-bfs-by-themoonston/
-在替换word的字符时，判断target是否在wordlist中，若不在则直接continue，尝试下一种替换。（时间可从60ms下降至20ms）
-### 代码
-执行用时 :20 ms, 在所有 Go 提交中击败了95.68%的用户
-内存消耗 :5.8 MB, 在所有 Go 提交中击败了68.00%的用户
-```golang
+// ### 解题思路
+// 尝试改进了一下themoonston的代码  https://leetcode-cn.com/problems/word-ladder/solution/golang-shi-xian-de-shuang-xiang-bfs-by-themoonston/
+// 在替换word的字符时，判断target是否在wordlist中，若不在则直接continue，尝试下一种替换。（时间可从60ms下降至20ms）
+// ### 代码
+// 执行用时 :20 ms, 在所有 Go 提交中击败了95.68%的用户
+// 内存消耗 :5.8 MB, 在所有 Go 提交中击败了68.00%的用户
+// ```golang
 package main
 
 func ladderLength(beginWord string, endWord string, wordList []string) int {
@@ -59,4 +59,4 @@ func contains(list []string, target string) bool {
 	return false
 }
 
-```
+// ```

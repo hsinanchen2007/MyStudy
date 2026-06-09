@@ -1,5 +1,5 @@
-C语言，0ms.先遍历一次，计算左右括号的个数和索引位置。然后从最里层括号进行反转，左括号要和第一个位置大于它的右括号对应，最后剔除括号
-```
+// C语言，0ms.先遍历一次，计算左右括号的个数和索引位置。然后从最里层括号进行反转，左括号要和第一个位置大于它的右括号对应，最后剔除括号
+// ```
 char * reverseParentheses(char * s) {
 	if (s == NULL) {
 		return NULL;
@@ -54,4 +54,4 @@ char * reverseParentheses(char * s) {
 	sNew = NULL;
 	return s;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/687e964166869e6858773acff488777b92d2ad6264faba3e852a576c1c603330-image.png)
+// ![image.png](https://pic.leetcode-cn.com/687e964166869e6858773acff488777b92d2ad6264faba3e852a576c1c603330-image.png)
 
-```
+// ```
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
         int len = s1.length();
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

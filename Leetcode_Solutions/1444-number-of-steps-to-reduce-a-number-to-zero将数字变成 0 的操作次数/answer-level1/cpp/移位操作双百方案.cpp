@@ -1,5 +1,5 @@
-#### 双百方案：
-```
+// #### 双百方案：
+// ```
 class Solution {
 public:
     int numberOfSteps (int num) {
@@ -16,4 +16,4 @@ public:
         return cnt - 1;
     }
 };
-```
+// ```

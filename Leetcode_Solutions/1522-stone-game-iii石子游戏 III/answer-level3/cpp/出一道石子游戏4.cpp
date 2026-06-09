@@ -1,6 +1,6 @@
-先给出我的写法。
+// 先给出我的写法。
 
-```
+// ```
 int dp[50005][2]; //dp[i][j]表示的当前在第i个位置选，当前是alice/bob都选用最优策略的情况下，sum(alice)-sum(bob)的值
 
 int visited[50005][2];
@@ -47,8 +47,8 @@ public:
             return "Bob";  
     }
 };
-```
+// ```
 
-预测一下石子游戏4， HAHAHA。
-![e11117a1c461fabff52f8c2dd7b13b5.png](https://pic.leetcode-cn.com/8cbda3fb51af4583cd859801935a21a76468420778d133d84f918131eccf9e75-e11117a1c461fabff52f8c2dd7b13b5.png)
+// 预测一下石子游戏4， HAHAHA。
+// ![e11117a1c461fabff52f8c2dd7b13b5.png](https://pic.leetcode-cn.com/8cbda3fb51af4583cd859801935a21a76468420778d133d84f918131eccf9e75-e11117a1c461fabff52f8c2dd7b13b5.png)
 

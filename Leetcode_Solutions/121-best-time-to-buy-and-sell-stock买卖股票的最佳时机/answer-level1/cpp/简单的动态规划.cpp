@@ -1,9 +1,9 @@
-### 解题思路
-只需要遍历一遍数组即可，在我们遍历数组的过程中，只需要记录下s[i]之前的最小值min，以及卖出的最高价max和s[i]-min比较即可
+// ### 解题思路
+// 只需要遍历一遍数组即可，在我们遍历数组的过程中，只需要记录下s[i]之前的最小值min，以及卖出的最高价max和s[i]-min比较即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -25,4 +25,4 @@ public:
          return max;
     }
 };
-```
+// ```

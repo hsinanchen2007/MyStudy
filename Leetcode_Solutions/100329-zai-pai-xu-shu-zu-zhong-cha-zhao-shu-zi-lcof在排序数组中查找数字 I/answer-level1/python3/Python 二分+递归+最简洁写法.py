@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def __init__(self):
         self.count = 0
@@ -16,4 +16,4 @@ class Solution:
         if nums[mid]>target:
             self.search(nums[:mid],target)
         return(self.count)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先序遍历二叉树，将遍历到的节点值存放在一个set里，每次遍历到新值val，先看看set里是否存在一个值等于k-val
+// 先序遍历二叉树，将遍历到的节点值存放在一个set里，每次遍历到新值val，先看看set里是否存在一个值等于k-val
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -51,4 +51,4 @@ class Solution {
     }
 }
 
-```
+// ```

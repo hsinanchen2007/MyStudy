@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var majorityElement = function(nums) {
     let hash = [];  // 用hash表存储被扫描元素的次数
     for (let i = 0; i < nums.length; i++) {
@@ -17,4 +17,4 @@ var majorityElement = function(nums) {
         }
     }
 };
-```
+// ```

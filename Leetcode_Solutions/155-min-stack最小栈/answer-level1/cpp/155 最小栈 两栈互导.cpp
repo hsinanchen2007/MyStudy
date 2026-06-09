@@ -1,11 +1,11 @@
-### 解题思路
-关键在于维护最小值，
-其关键在于原有最小值被pop()后，如何更新，这里遍历stack就显得很困难
-![image.png](https://pic.leetcode-cn.com/d4acfcc8c747f4ce6439f9cf59e3b3e50e4065364c0322be17567a50efeeecc9-image.png)
+// ### 解题思路
+// 关键在于维护最小值，
+// 其关键在于原有最小值被pop()后，如何更新，这里遍历stack就显得很困难
+// ![image.png](https://pic.leetcode-cn.com/d4acfcc8c747f4ce6439f9cf59e3b3e50e4065364c0322be17567a50efeeecc9-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -55,4 +55,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

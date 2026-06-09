@@ -1,9 +1,9 @@
-### 解题思路
-典型的宽度优先搜索，使用队列实现宽度优先搜索，FIFO
+# ### 解题思路
+# 典型的宽度优先搜索，使用队列实现宽度优先搜索，FIFO
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,5 +34,5 @@ class Solution:
                     
             result.append(cur_level)
         return result
-```
-![image.png](https://pic.leetcode-cn.com/0e44ccc29345a1ef7dd460031c014f0ffffcbe235aae322bf80c849e9cb1b4c7-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/0e44ccc29345a1ef7dd460031c014f0ffffcbe235aae322bf80c849e9cb1b4c7-image.png)

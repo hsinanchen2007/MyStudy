@@ -1,10 +1,10 @@
-### 解题思路
-这算是面向测试结果编程吧！！
-哈哈😁
+// ### 解题思路
+// 这算是面向测试结果编程吧！！
+// 哈哈😁
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 long myAtoiDetail(char* str, int start, int sign) {
     long result = 0;
@@ -36,4 +36,4 @@ int myAtoi(char * str){
     return result*sign;
 }
 
-```
+// ```

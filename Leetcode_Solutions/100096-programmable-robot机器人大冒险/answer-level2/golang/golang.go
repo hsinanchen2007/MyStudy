@@ -1,6 +1,6 @@
-这题主要需要什么时候可以停止。因为机器人走的方向要么 x + 1， 要么 y + 1
-所以当 x0 > x || y0 > y 时，说明机器人永远也走不到要求的点了，可以返回了
-```
+// 这题主要需要什么时候可以停止。因为机器人走的方向要么 x + 1， 要么 y + 1
+// 所以当 x0 > x || y0 > y 时，说明机器人永远也走不到要求的点了，可以返回了
+// ```
 func robot(command string, obstacles [][]int, x int, y int) bool {
     obm := make(map[[2]int]bool)
     for i := 0; i < len(obstacles); i++ {
@@ -30,4 +30,4 @@ func robot(command string, obstacles [][]int, x int, y int) bool {
     }
     return false
 }
-```
+// ```

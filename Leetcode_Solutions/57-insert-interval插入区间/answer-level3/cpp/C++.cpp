@@ -1,9 +1,9 @@
-### 解题思路
-官方思路，C++解法
+// ### 解题思路
+// 官方思路，C++解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) 
@@ -30,4 +30,4 @@ public:
         return result;
     }
 };
-```
+// ```

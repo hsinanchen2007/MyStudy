@@ -1,9 +1,9 @@
-### 解题思路
-joshua告诉你：这是一道简单题，只要用map保存好每个数的次数就行，map的键会自动排序
+// ### 解题思路
+// joshua告诉你：这是一道简单题，只要用map保存好每个数的次数就行，map的键会自动排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class StreamRank {
 public:
     StreamRank() {
@@ -32,4 +32,4 @@ private:
  * obj->track(x);
  * int param_2 = obj->getRankOfNumber(x);
  */
-```
+// ```

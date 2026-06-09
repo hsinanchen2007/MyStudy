@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {//非递归
     public TreeNode searchBST(TreeNode root, int val) {
      Stack<TreeNode> stack=new Stack();
@@ -14,9 +14,9 @@ class Solution {//非递归
          return null;
     }
 }
-```
+// ```
 
-```
+// ```
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
     
@@ -32,4 +32,4 @@ class Solution {
  return null;   
 }
 }
-```
+// ```

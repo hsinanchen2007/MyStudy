@@ -1,5 +1,5 @@
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         if (head == null) return head;
@@ -14,9 +14,9 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     ListNode rear = null;
     
@@ -31,4 +31,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

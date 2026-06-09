@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public int missingNumber(int[] arr) {
         int p = 0;
@@ -17,4 +17,4 @@ class Solution {
         return sum / 2; //原数列长度为奇数且去掉了中间项时
     }
 }
-```
+// ```

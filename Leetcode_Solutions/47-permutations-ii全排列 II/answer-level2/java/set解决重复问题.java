@@ -1,9 +1,9 @@
-### 解题思路
-在排数中，在同一位置中  不允许出现相同的数字
+// ### 解题思路
+// 在排数中，在同一位置中  不允许出现相同的数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -44,4 +44,4 @@ class Solution {
 
     }
 }
-```
+// ```

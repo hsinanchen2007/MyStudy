@@ -1,6 +1,6 @@
-1.当数组长度小于2时，直接返回true
-2.先根据前两个组数据求出斜率k1
-3.用for遍历后边的数据，看是否与前面的斜率相等
+// 1.当数组长度小于2时，直接返回true
+// 2.先根据前两个组数据求出斜率k1
+// 3.用for遍历后边的数据，看是否与前面的斜率相等
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
         if(coordinates.length<=2){

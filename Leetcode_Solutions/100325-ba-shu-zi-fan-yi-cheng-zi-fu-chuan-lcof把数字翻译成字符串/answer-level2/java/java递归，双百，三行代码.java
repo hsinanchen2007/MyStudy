@@ -1,9 +1,9 @@
-### 解题思路
-递归判断后两位数字是否可以翻译成两个字母
+// ### 解题思路
+// 递归判断后两位数字是否可以翻译成两个字母
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int translateNum(int num) {
         if(num <= 9) return 1;
@@ -13,4 +13,4 @@ class Solution {
             + (two > 9 && two < 26 ? translateNum(num / 100) : 0);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT
     S.name
 FROM
@@ -13,4 +13,4 @@ HAVING
     SUM(IF(C.name = 'RED', 1, 0))  = 0
 ORDER BY
     S.sales_id
-```
+-- ```

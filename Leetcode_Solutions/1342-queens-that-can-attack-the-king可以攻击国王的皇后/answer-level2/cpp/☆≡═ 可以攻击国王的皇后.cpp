@@ -1,5 +1,5 @@
-以国王为中心，逆时针遍历8个方向，寻找皇后。
-```
+// 以国王为中心，逆时针遍历8个方向，寻找皇后。
+// ```
 class Solution {
 public:
     vector<vector<int>> queensAttacktheKing(const vector<vector<int>>& queens,
@@ -25,4 +25,4 @@ private:
         return 0 <= r && r < n && 0 <= c && c < n;
     }
 };
-```
+// ```

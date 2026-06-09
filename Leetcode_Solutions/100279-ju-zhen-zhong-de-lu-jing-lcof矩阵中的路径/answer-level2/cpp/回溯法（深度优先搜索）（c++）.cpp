@@ -1,12 +1,12 @@
-1.比较学习“131、分割回文串”：
-https://leetcode-cn.com/problems/palindrome-partitioning/solution/shen-du-you-xian-sou-suo-jie-fa-c-by-bike666222/
-2.本题可参考：
-https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/
-3.思路如下：
-![矩阵中的路径01.jpg](https://pic.leetcode-cn.com/a33139fafa0537f5e1cddf4c3a026a8ca4ecab167e78b009285b1327b3d849ac-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%8401.jpg)
+// 1.比较学习“131、分割回文串”：
+// https://leetcode-cn.com/problems/palindrome-partitioning/solution/shen-du-you-xian-sou-suo-jie-fa-c-by-bike666222/
+// 2.本题可参考：
+// https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/
+// 3.思路如下：
+// ![矩阵中的路径01.jpg](https://pic.leetcode-cn.com/a33139fafa0537f5e1cddf4c3a026a8ca4ecab167e78b009285b1327b3d849ac-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%8401.jpg)
 
 
-```
+// ```
 //深度优先搜索（也可以称为回溯法）,DFS
 class Solution {
 public:
@@ -84,18 +84,18 @@ public:
         
     }
 };
-```
-改进：
-"""
-参考：
-作者：Hanwn
-链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/shen-sou-hui-su-by-hanwn/
-"""
+// ```
+// 改进：
+// """
+// 参考：
+// 作者：Hanwn
+// 链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/shen-sou-hui-su-by-hanwn/
+// """
 
-![矩阵中的路径02.jpg](https://pic.leetcode-cn.com/b643f39dfee9dec91d7e0b19366a5687d8c303d996d101566b73e3d1db68ca3c-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%8402.jpg)
+// ![矩阵中的路径02.jpg](https://pic.leetcode-cn.com/b643f39dfee9dec91d7e0b19366a5687d8c303d996d101566b73e3d1db68ca3c-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%8402.jpg)
 
 
-```
+// ```
 class Solution {
 public:
     int x[4] = {0,0,-1,1}; //x[4]、y[4]和dfs中for循环，共同构成遍历字符board[i][j]的“左右上下”四个字符这一功能
@@ -128,10 +128,10 @@ public:
         return false;
     }
 };
-```
-下面是更简洁的代码：（但是消耗的内存是上面的8倍，时间是上面的6倍）
- --- “先判断是否需要遍历，需要再遍历”比“先进行遍历，再判断”明显节省时间。
-```
+// ```
+// 下面是更简洁的代码：（但是消耗的内存是上面的8倍，时间是上面的6倍）
+//  --- “先判断是否需要遍历，需要再遍历”比“先进行遍历，再判断”明显节省时间。
+// ```
 class Solution {
 public:
     int rows,cols;
@@ -159,4 +159,4 @@ public:
         return false;
     }
 };
-```
+// ```

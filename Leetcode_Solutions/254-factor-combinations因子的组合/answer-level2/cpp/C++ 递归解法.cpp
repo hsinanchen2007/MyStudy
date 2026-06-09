@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     // l 代表因子的起始数，保证因子的有序性可以做到天然的去重
@@ -19,6 +19,6 @@ public:
         return dfs(n, 2);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0b3ab36094a9bc9fa78df7b77db4985df16ce784a662060c5ad5c4fcdfa8b575-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0b3ab36094a9bc9fa78df7b77db4985df16ce784a662060c5ad5c4fcdfa8b575-image.png)

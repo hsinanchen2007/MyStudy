@@ -1,9 +1,9 @@
-### 解题思路
-可以修改元素的相对顺序，因此当发现目标元素时，将当前数组的最后一个元素转移到当前位置即可。
+# ### 解题思路
+# 可以修改元素的相对顺序，因此当发现目标元素时，将当前数组的最后一个元素转移到当前位置即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         len1=len(nums)
@@ -15,6 +15,6 @@ class Solution:
             else:
                 d+=1
         return len1
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/3f131f53500c8326e915036326809dbb07fd0da7d2b8658f590937034df68bde-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3f131f53500c8326e915036326809dbb07fd0da7d2b8658f590937034df68bde-image.png)

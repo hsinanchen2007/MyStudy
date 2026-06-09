@@ -1,10 +1,10 @@
-### 解题思路
-遍历每一个陆地的四个邻块，若是水或者边界，则边长+1
-![image.png](https://pic.leetcode-cn.com/c2216feefb7c2055e481b850b7d6c89ddfb689a133c6f2e621b74f4c78fa8b7c-image.png)
+// ### 解题思路
+// 遍历每一个陆地的四个邻块，若是水或者边界，则边长+1
+// ![image.png](https://pic.leetcode-cn.com/c2216feefb7c2055e481b850b7d6c89ddfb689a133c6f2e621b74f4c78fa8b7c-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int dir[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -45,4 +45,4 @@ public:
         return ret;
     }
 };
-```
+// ```

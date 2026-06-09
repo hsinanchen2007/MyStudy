@@ -1,11 +1,11 @@
-### 解题思路
-哨兵(sentinel)节点广泛应用于树和链表中，如伪头、伪尾、标记等，它们是纯功能的，通常不保存任何数据，
-其主要目的是使链表标准化，如使链表永不为空、永不无头、简化插入和删除。
-sentinel 即本题的dummy头。
+// ### 解题思路
+// 哨兵(sentinel)节点广泛应用于树和链表中，如伪头、伪尾、标记等，它们是纯功能的，通常不保存任何数据，
+// 其主要目的是使链表标准化，如使链表永不为空、永不无头、简化插入和删除。
+// sentinel 即本题的dummy头。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* removeElements(struct ListNode* head, int val)
     }
     return sentinel->next;
 }
-```
+// ```

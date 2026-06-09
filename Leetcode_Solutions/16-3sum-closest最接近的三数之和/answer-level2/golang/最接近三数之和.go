@@ -1,16 +1,16 @@
-思路：
- - 排序。之后计算三数之和时，排除一些离目标太远的结果
- - 计算距离。得到离目标比较近的结果集后，做与目标距离（数轴上的距离）计算，最小的距离即为最终答案
+// 思路：
+//  - 排序。之后计算三数之和时，排除一些离目标太远的结果
+//  - 计算距离。得到离目标比较近的结果集后，做与目标距离（数轴上的距离）计算，最小的距离即为最终答案
 
 
-> 做了优化，运行时间减半，内存占用降低 40%
+// > 做了优化，运行时间减半，内存占用降低 40%
 
-![屏幕快照 2019-11-20 22.18.22.png](https://pic.leetcode-cn.com/3e4c73c2831a88e7fa5e1e9834852f132a2ed9fb9c780e99e107e6d1a707fa0d-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-11-20%2022.18.22.png)
+// ![屏幕快照 2019-11-20 22.18.22.png](https://pic.leetcode-cn.com/3e4c73c2831a88e7fa5e1e9834852f132a2ed9fb9c780e99e107e6d1a707fa0d-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-11-20%2022.18.22.png)
 
 
 
-**优化后：**
-```go []
+// **优化后：**
+// ```go []
 func threeSumClosest(nums []int, n int) int {
 	quickSort(nums)
 	var (
@@ -79,11 +79,11 @@ func quickSort(nums []int) {
 	quickSort(nums[:head])
 	quickSort(nums[head+1:])
 }
-```
+// ```
 
-**优化前：**
+// **优化前：**
 
-```go []
+// ```go []
 
 func threeSumClosest(nums []int, n int) int {
 	quickSort(nums)
@@ -170,4 +170,4 @@ func quickSort(nums []int) {
 	quickSort(nums[head+1:])
 }
 
-```
+// ```

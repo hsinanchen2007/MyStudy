@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] arr) {
         //由于删除的不是第一个，也不是最后一个，因此可以计算出等差数列的和
@@ -14,4 +14,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

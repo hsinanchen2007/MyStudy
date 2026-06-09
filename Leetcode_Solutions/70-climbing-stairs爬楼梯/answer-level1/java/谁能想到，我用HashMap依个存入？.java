@@ -1,10 +1,10 @@
-### 解题思路
-思路非常简单，不信你看
-！
+// ### 解题思路
+// 思路非常简单，不信你看
+// ！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
 		HashMap<Integer, Integer> map = new HashMap<>();
@@ -13,4 +13,4 @@ class Solution {
 		return map.get(n);
     }
 }
-```
+// ```

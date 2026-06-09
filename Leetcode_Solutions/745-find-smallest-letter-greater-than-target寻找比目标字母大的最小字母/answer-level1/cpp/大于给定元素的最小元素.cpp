@@ -1,8 +1,8 @@
-二分查找
-----------
-* while循环结束标志
-* 中间的判断
-```cpp
+// 二分查找
+// ----------
+// * while循环结束标志
+// * 中间的判断
+// ```cpp
 class Solution {
 public:
     //二分查找
@@ -28,4 +28,4 @@ public:
         return low<nums?letters[low]:letters[0];
     }
 };
-```
+// ```

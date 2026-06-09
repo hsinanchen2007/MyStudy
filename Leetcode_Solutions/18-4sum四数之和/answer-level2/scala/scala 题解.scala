@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def fourSum(nums: Array[Int], target: Int): List[List[Int]] = {
     solve(nums.sorted, target)
@@ -38,4 +38,4 @@ object Solution {
     ).toSet.toList
   }
 }
-```
+// ```

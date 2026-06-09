@@ -1,4 +1,4 @@
-```
+// ```
     public boolean canThreePartsEqualSum(int[] A) {
         //先计算所有元素之和，如果结果不能被3整除，则返回false；
         int sum = 0;
@@ -19,4 +19,4 @@
         }
         return section == 3;
     }
-```
+// ```

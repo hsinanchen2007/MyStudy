@@ -1,9 +1,9 @@
-### 解题思路
-普通循环思路
+// ### 解题思路
+// 普通循环思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var majorityElement = function (nums) {
     }
     return result
 };
-```
+// ```

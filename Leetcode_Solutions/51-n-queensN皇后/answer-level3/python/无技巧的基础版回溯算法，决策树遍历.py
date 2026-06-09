@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+# ### 解题思路
+# 见代码注释
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def solveNQueens(self, n):
         """
@@ -63,4 +63,4 @@ class Solution(object):
 # print(a)
 
 
-```
+# ```

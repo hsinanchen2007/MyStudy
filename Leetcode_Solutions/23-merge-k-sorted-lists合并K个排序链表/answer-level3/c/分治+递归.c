@@ -1,10 +1,10 @@
-### 解题思路
-结合两个链表合并的题目，用分治+递归的方式，降低时间复杂度。
-另外，第一部分的mergeTwoList也可以使用递归方式进行改造，减少代码的冗余。
+// ### 解题思路
+// 结合两个链表合并的题目，用分治+递归的方式，降低时间复杂度。
+// 另外，第一部分的mergeTwoList也可以使用递归方式进行改造，减少代码的冗余。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -100,4 +100,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
 
     return NULL;
 }
-```
+// ```

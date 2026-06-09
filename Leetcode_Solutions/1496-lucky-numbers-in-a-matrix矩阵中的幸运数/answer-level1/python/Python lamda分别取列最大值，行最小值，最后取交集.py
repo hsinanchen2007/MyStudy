@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
@@ -9,4 +9,4 @@ class Solution:
         col_max = list(map(lambda x: max(x), zip(*matrix)))
 
         return list(set(row_min).intersection(set(col_max)))
-```
+# ```

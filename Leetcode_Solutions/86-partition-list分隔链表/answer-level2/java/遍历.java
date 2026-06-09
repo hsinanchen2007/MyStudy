@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode lowHead = null,lowCur = null,highHead = null,highCur = null;
@@ -40,4 +40,4 @@ class Solution {
         return lowHead;
     }
 }
-```
+// ```

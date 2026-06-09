@@ -1,9 +1,9 @@
-### 解题思路
-奇数指针从零开始，偶数指针从尾开始。
+# ### 解题思路
+# 奇数指针从零开始，偶数指针从尾开始。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -18,4 +18,4 @@ class Solution:
                 nums[even],nums[odd] = nums[odd],nums[even]
             
         return nums
-```
+# ```

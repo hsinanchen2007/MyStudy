@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         
@@ -20,5 +20,5 @@ class Solution:
                     return ''
             return helper(s1[:-l], s2)
         return helper(str1, str2)
-```
+# ```
 

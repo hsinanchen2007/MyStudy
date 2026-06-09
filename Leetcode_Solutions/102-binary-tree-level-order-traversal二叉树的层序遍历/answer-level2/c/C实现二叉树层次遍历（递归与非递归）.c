@@ -1,6 +1,6 @@
-### 解题思路
-1.递归法
-```c
+// ### 解题思路
+// 1.递归法
+// ```c
 int depth(struct TreeNode *root)
 {
     int ld=0,rd=0;
@@ -72,11 +72,11 @@ int** levelOrderRecursion(struct TreeNode* root, int* returnSize, int** returnCo
     level_order_recursion(root,array,*returnColumnSizes,0);
     return array;
 }
-```
-2.非递归，采用一个队列，在遍历每层的节点时使其子节点入队
-### 代码
+// ```
+// 2.非递归，采用一个队列，在遍历每层的节点时使其子节点入队
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -192,4 +192,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
 
     return array;   
 }
-```
+// ```

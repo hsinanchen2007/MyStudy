@@ -1,12 +1,12 @@
-### 解题思路
-* 不提前遍历判断长短
-* 进位carry提前加到l1
-* 先遍历l1，保持tmp1是最后一个结点值；然后遍历l2
-* 最后一位可能会产生进位，对值进行判断，然后对carry判断
+// ### 解题思路
+// * 不提前遍历判断长短
+// * 进位carry提前加到l1
+// * 先遍历l1，保持tmp1是最后一个结点值；然后遍历l2
+// * 最后一位可能会产生进位，对值进行判断，然后对carry判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,5 +53,5 @@ public:
         return l1;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/02e122b7e456a45f8fcc6ee1c28bd5ab5036ca1307f4e075f1965966a9ac07d2-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/02e122b7e456a45f8fcc6ee1c28bd5ab5036ca1307f4e075f1965966a9ac07d2-1.png)

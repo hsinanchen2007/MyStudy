@@ -1,6 +1,6 @@
-参考了各位大佬的意见，总结了常规易懂c++写法：BFS的同时构造路径，dfs利用路径构造答案vector<vector<string>> allPath
-写法更加单易懂，变量名，代码风格符合编程规范。
-```
+// 参考了各位大佬的意见，总结了常规易懂c++写法：BFS的同时构造路径，dfs利用路径构造答案vector<vector<string>> allPath
+// 写法更加单易懂，变量名，代码风格符合编程规范。
+// ```
 代码块
 #include <vector>
 #include <cstdlib>
@@ -90,5 +90,5 @@ public:
         return allPath;
     }
 };
-```
+// ```
 

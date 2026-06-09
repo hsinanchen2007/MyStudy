@@ -1,9 +1,9 @@
-### 解题思路
-能在中间拦截说明到终点的曼哈顿距离有“不大于”的关系（到拦截点，然后再最短路径走向终点，这个距离一定不小于直接最短路径） 所以True对应“大于”的关系
+# ### 解题思路
+# 能在中间拦截说明到终点的曼哈顿距离有“不大于”的关系（到拦截点，然后再最短路径走向终点，这个距离一定不小于直接最短路径） 所以True对应“大于”的关系
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # https://leetcode-cn.com/problems/escape-the-ghosts/
 
 class Solution:
@@ -12,4 +12,4 @@ class Solution:
 
     def escapeGhosts(self, ghosts: List[List[int]], target: List[int]) -> bool:
         return min(self.dist(target, ghost) for ghost in ghosts) > self.dist(target, [0, 0])
-```
+# ```

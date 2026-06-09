@@ -1,16 +1,16 @@
-### 复杂度分析
-时间复杂度：O(n)
-空间复杂度：O(1)
+// ### 复杂度分析
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
 
-### 解题思路
-记录反转结点的前驱与后继，循环执行 
-node.next = pre;
-pre = node;
-node = next;
+// ### 解题思路
+// 记录反转结点的前驱与后继，循环执行 
+// node.next = pre;
+// pre = node;
+// node = next;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-## 不能使用临时变量，那只能从加减法或者位操作出发来思考
+// ## 不能使用临时变量，那只能从加减法或者位操作出发来思考
 
-```
+// ```
 /**
  * @param {number[]} numbers
  * @return {number[]}
@@ -25,4 +25,4 @@ var swapNumbers = function(numbers) {
     numbers[0] = numbers[0] ^ numbers[1]
     return numbers
 };
-```
+// ```

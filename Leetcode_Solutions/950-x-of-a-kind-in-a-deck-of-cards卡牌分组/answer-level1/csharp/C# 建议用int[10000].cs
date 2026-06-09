@@ -1,10 +1,10 @@
 
-用int[10000]最快
+// 用int[10000]最快
 
-![无标题.jpg](https://pic.leetcode-cn.com/ecc418030baf5b28e347086907d49d05614272eb44f0a28b60a8ea2e5f05bbb1-%E6%97%A0%E6%A0%87%E9%A2%98.jpg)
+// ![无标题.jpg](https://pic.leetcode-cn.com/ecc418030baf5b28e347086907d49d05614272eb44f0a28b60a8ea2e5f05bbb1-%E6%97%A0%E6%A0%87%E9%A2%98.jpg)
 
 
-```csharp
+// ```csharp
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         if(deck.Length < 2)
@@ -54,10 +54,10 @@ public class Solution {
         return min;
     }
 }
-```
+// ```
 
-其实Linq很方便，但做算法时尽量不用
-```csharp
+// 其实Linq很方便，但做算法时尽量不用
+// ```csharp
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         if(deck.Length < 2)
@@ -94,4 +94,4 @@ public class Solution {
         return min;
     }
 }
-```
+// ```

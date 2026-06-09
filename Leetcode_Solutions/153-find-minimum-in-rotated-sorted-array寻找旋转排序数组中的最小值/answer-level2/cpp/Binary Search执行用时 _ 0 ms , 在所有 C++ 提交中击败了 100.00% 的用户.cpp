@@ -1,4 +1,4 @@
-```
+// ```
 class Solution 
 {
 public:
@@ -19,4 +19,4 @@ public:
         return nums[h];
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-这不是打家劫舍的那类题型的变体形式嘛
-![image.png](https://pic.leetcode-cn.com/c9aea867092d9f5ef285f39b3c4907e34e61ff3949844ec2cb3ab3033e91fb52-image.png)
+// ### 解题思路
+// 这不是打家劫舍的那类题型的变体形式嘛
+// ![image.png](https://pic.leetcode-cn.com/c9aea867092d9f5ef285f39b3c4907e34e61ff3949844ec2cb3ab3033e91fb52-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max(int a, int b){return a>b?a:b;}
 int massage(int* nums, int n){
     /*
@@ -23,4 +23,4 @@ int massage(int* nums, int n){
     }
     return tmax;
 }
-```
+// ```

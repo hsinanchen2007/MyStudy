@@ -3,14 +3,14 @@
 
 
 
-总体思路是二叉树拓展中介节点，让二叉树层数足够保存一层n叉树的数据
-转换示意图
-![image.png](https://pic.leetcode-cn.com/f92f9a30bbe3f34a8e1b10771c9283d6bf1b9b9ae51e09905da01c85955c2557-image.png)
+# 总体思路是二叉树拓展中介节点，让二叉树层数足够保存一层n叉树的数据
+# 转换示意图
+# ![image.png](https://pic.leetcode-cn.com/f92f9a30bbe3f34a8e1b10771c9283d6bf1b9b9ae51e09905da01c85955c2557-image.png)
 
 
-代码
+# 代码
 
-```
+# ```
 
 '''
 思路
@@ -91,4 +91,4 @@ class Codec:
             return Node(data.val, [self.decode(node) for node in buf])
         else:
             return Node(data.val, [])
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maximum69Number (self, num):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         :rtype: int
         """
         return int(str(num).replace("6", "9", 1))
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def deleteDuplicates(self, n):
         h=n
@@ -21,4 +21,4 @@ class Solution(object):
                 if not tmp:break
         return n.next
             
-```
+# ```

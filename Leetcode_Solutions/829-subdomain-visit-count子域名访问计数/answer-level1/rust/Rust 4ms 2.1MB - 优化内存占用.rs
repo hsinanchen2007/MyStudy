@@ -1,14 +1,14 @@
-思路很简单：
-1. 用 `HashMap` 存储 `域名->数量` 对；
-2. 对于每个输入的字符串，分割并解析其中的数量和域名，添加到哈希表里；
-3. 遍历输出哈希表即可。
+// 思路很简单：
+// 1. 用 `HashMap` 存储 `域名->数量` 对；
+// 2. 对于每个输入的字符串，分割并解析其中的数量和域名，添加到哈希表里；
+// 3. 遍历输出哈希表即可。
 
-优化思路：
-1. 一般分割字符串，都会用 `split(/* pattern */).collect::<Vec<_>>()` 把结果存为 `Vec<&str>`，但这里的字符串非常简单，完全可以用 `find(/* pattern */)` 找到对应的位置再手动分割，这样就不需要给 `Split` 和 `Vec` 分配内存了。
-2. `HashMap` 的 key 应该用 `&str` 而非 `String`，减少不必要的内存分配。
+// 优化思路：
+// 1. 一般分割字符串，都会用 `split(/* pattern */).collect::<Vec<_>>()` 把结果存为 `Vec<&str>`，但这里的字符串非常简单，完全可以用 `find(/* pattern */)` 找到对应的位置再手动分割，这样就不需要给 `Split` 和 `Vec` 分配内存了。
+// 2. `HashMap` 的 key 应该用 `&str` 而非 `String`，减少不必要的内存分配。
 
-代码：
-```Rust
+// 代码：
+// ```Rust
 use std::collections::HashMap;
 
 pub fn subdomain_visits(cpdomains: Vec<String>) -> Vec<String> {
@@ -33,4 +33,4 @@ pub fn subdomain_visits(cpdomains: Vec<String>) -> Vec<String> {
         .map(|(domain, count)| format!("{} {}", count, domain))
         .collect()
 }
-```
+// ```

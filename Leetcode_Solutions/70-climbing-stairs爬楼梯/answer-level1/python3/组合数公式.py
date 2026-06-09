@@ -1,10 +1,10 @@
-### 解题思路
-看了几个题解，我感觉组合数公式是思路也还行啊 时间和空间都击败90%+ 哇
+# ### 解题思路
+# 看了几个题解，我感觉组合数公式是思路也还行啊 时间和空间都击败90%+ 哇
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n<=0:
@@ -36,4 +36,4 @@ class Solution:
             buf_2 -= 1
             buf_1 += 2
         return count
-```
+# ```

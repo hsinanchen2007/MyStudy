@@ -1,9 +1,9 @@
-### 解题思路
-C++，双指针
+// ### 解题思路
+// C++，双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return nums;
     }
 };
-```
+// ```

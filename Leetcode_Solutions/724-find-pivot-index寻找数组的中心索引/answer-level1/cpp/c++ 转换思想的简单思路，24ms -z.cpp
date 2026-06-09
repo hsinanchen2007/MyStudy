@@ -1,8 +1,8 @@
-### 解题思路
-快速算法，当sumLeft*2==sumTotal-nums[j]时，j为中心索引
-### 代码
+// ### 解题思路
+// 快速算法，当sumLeft*2==sumTotal-nums[j]时，j为中心索引
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {

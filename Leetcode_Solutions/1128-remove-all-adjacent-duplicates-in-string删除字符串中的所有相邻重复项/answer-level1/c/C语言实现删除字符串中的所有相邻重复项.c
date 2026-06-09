@@ -1,5 +1,5 @@
-C语言动态数组的生成-----使用malloc()函数
-栈的思想----使用两个栈，通过比较两个栈顶元素来实现删除相邻重复项
+// C语言动态数组的生成-----使用malloc()函数
+// 栈的思想----使用两个栈，通过比较两个栈顶元素来实现删除相邻重复项
 char * removeDuplicates(char * S){
     int len = strlen(S);
     char *s1 = (char *)malloc(sizeof(char)*len);

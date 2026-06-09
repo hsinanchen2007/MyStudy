@@ -1,11 +1,11 @@
 
-[@wafer-2](/u/wafer-2)参考这位朋友的评论以及他提及的原评论
+# [@wafer-2](/u/wafer-2)参考这位朋友的评论以及他提及的原评论
 
-[@lee215](/u/lee215) [原题解](https://leetcode.com/problems/numbers-with-repeated-digits/discuss/256725/JavaPython-Count-the-Number-Without-Repeated-Digit)
+# [@lee215](/u/lee215) [原题解](https://leetcode.com/problems/numbers-with-repeated-digits/discuss/256725/JavaPython-Count-the-Number-Without-Repeated-Digit)
 
-自己基于上述理解Python3编程实现，48ms，击败了90%的Python3提交
+# 自己基于上述理解Python3编程实现，48ms，击败了90%的Python3提交
 
-```
+# ```
 import functools
 
 class Solution:
@@ -37,4 +37,4 @@ class Solution:
             # print("set", s)
         return N - res
 
-```
+# ```

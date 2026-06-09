@@ -1,9 +1,9 @@
-### 解题思路
-不用抄作业了，算是个好的开始 ^_^!
+// ### 解题思路
+// 不用抄作业了，算是个好的开始 ^_^!
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -58,4 +58,4 @@ var lengthOfLongestSubstring = function(s) {
     return data.max;
 
 };
-```
+// ```

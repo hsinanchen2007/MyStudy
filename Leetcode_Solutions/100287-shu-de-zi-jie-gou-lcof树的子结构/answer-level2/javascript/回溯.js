@@ -1,10 +1,10 @@
-### 解题思路
-1. 判断A或B是否为null
-2. 判断AB根值是否相同，A的left判断、A的right判断
-5. 只要有个符合就return  true
-### 代码
+// ### 解题思路
+// 1. 判断A或B是否为null
+// 2. 判断AB根值是否相同，A的left判断、A的right判断
+// 5. 只要有个符合就return  true
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var isSubStructure = function(A, B) {
     }
     return back(A,B) || isSubStructure(A.left,B) || isSubStructure(A.right,B)
 };
-```
+// ```

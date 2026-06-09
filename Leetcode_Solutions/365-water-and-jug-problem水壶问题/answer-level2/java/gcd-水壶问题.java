@@ -1,8 +1,8 @@
-bfs的问题先没看，采用了gcd求最大公约数的做法，如果z能整除x和y的最大公约数，就可以刚好装下z，具体证明还没研究。
+// bfs的问题先没看，采用了gcd求最大公约数的做法，如果z能整除x和y的最大公约数，就可以刚好装下z，具体证明还没研究。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if( z == 0) return true;
@@ -21,4 +21,4 @@ class Solution {
         return z % small == 0;
     }
 }
-```
+// ```

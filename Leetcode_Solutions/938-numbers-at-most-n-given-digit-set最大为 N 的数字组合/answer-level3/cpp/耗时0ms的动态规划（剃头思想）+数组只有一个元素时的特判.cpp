@@ -1,18 +1,18 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/def589acf5d8aa9e6605d2cdac4e55d6d0fdd7f761e20e0ab13984e1b41bb631-image.png)
-先令结果re=0，对于一个n位数的N，数位分别为AnAn-1An-2....A1，如果最大位在字符串数组中，则re+=dp[An-1An-2...A1];接着通过查找在字符串数组中有多少个不大于（An）-1的数，将这个个数乘以字符数组大小的n-1次方（乘法原理），求出这个dp值后，再加上倒数后1位为0，倒数后2位为0，...直到第二位为0的所有情形，也就是一个等比数列求和式，就可以得到答案。
-部分代码的含义：
-re表示结果，
-dp表示求值函数，
-pre[i]表示在字符串数组中小于等于i的数的出现次数再加一
-posOfBit当前状态的位数-1；
-exist[i]数字i是否出现在字符串数组中。
-exOfN：N的位数-1；
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/def589acf5d8aa9e6605d2cdac4e55d6d0fdd7f761e20e0ab13984e1b41bb631-image.png)
+// 先令结果re=0，对于一个n位数的N，数位分别为AnAn-1An-2....A1，如果最大位在字符串数组中，则re+=dp[An-1An-2...A1];接着通过查找在字符串数组中有多少个不大于（An）-1的数，将这个个数乘以字符数组大小的n-1次方（乘法原理），求出这个dp值后，再加上倒数后1位为0，倒数后2位为0，...直到第二位为0的所有情形，也就是一个等比数列求和式，就可以得到答案。
+// 部分代码的含义：
+// re表示结果，
+// dp表示求值函数，
+// pre[i]表示在字符串数组中小于等于i的数的出现次数再加一
+// posOfBit当前状态的位数-1；
+// exist[i]数字i是否出现在字符串数组中。
+// exOfN：N的位数-1；
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int dp(int n, int*pre, bool*exist, int posOfBit)
@@ -67,4 +67,4 @@ int dp(int n, int*pre, bool*exist, int posOfBit)
 	return re;
     }
 };
-```
+// ```

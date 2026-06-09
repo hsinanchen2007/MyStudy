@@ -1,4 +1,4 @@
-```
+// ```
     public int[] divingBoard(int shorter, int longer, int k) {
         if(k==0) return new int[0];
         if(shorter==longer) return new int[]{k};
@@ -7,4 +7,4 @@
             res[i]=longer*i+shorter*(k-i);
         return res;
     }
-```
+// ```

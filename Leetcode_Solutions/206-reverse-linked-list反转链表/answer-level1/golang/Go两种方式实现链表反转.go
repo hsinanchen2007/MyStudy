@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-- 输入: `1->2->3->4->5->NULL`
-- 反转`nil<-1<-2<-3<-4<-5`
+// - 输入: `1->2->3->4->5->NULL`
+// - 反转`nil<-1<-2<-3<-4<-5`
 
 
-### 代码
-- 递归实现
+// ### 代码
+// - 递归实现
 
-```golang
+// ```golang
 
 func reverseList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
@@ -22,11 +22,11 @@ func reverseList(head *ListNode) *ListNode {
 
 	return end
 }
-```
+// ```
 
 
-- 迭代实现
-```go
+// - 迭代实现
+// ```go
 func reverseList(head *ListNode) *ListNode {
 
 	var (
@@ -45,4 +45,4 @@ func reverseList(head *ListNode) *ListNode {
 
 	return upper
 }
-```
+// ```

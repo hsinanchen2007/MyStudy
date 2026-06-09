@@ -1,6 +1,6 @@
-维护2个优先队列，大堆存小的一半数据，小堆存大的一半数据，数据流到来后，维持两堆数量差不超过1，取中位数时，拿它们的堆顶即可。
+// 维护2个优先队列，大堆存小的一半数据，小堆存大的一半数据，数据流到来后，维持两堆数量差不超过1，取中位数时，拿它们的堆顶即可。
 
-```rust
+// ```rust
 use std::collections::BinaryHeap;
 use std::cmp::Reverse;
 struct MedianFinder {
@@ -54,4 +54,4 @@ impl MedianFinder {
         }
     }
 }
-```
+// ```

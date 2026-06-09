@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 type MinStack struct {
     data []int
     help []int
@@ -46,4 +46,4 @@ func (this *MinStack) Min() int {
  */
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int dirs[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -32,6 +32,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/aa84dc5d68e719fb95287c538105c6501917e7ff1c302e4ab23020ce67921b82-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aa84dc5d68e719fb95287c538105c6501917e7ff1c302e4ab23020ce67921b82-image.png)

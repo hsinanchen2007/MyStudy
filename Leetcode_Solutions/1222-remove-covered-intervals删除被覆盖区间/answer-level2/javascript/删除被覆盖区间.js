@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-通过双指针依次去对比删除。
+// 通过双指针依次去对比删除。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number}
@@ -28,4 +28,4 @@ var removeCoveredIntervals = function(intervals) {
     }
     return intervals.length;
 };
-```
+// ```

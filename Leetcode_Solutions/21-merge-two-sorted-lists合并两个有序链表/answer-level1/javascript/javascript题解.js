@@ -1,10 +1,10 @@
-[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/submissions/)
+// [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## 迭代
+// ## 迭代
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -42,11 +42,11 @@ var mergeTwoLists = function(l1, l2) {
     
     return head.next;
 };
-```
+// ```
 
-## 递归
+// ## 递归
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -72,4 +72,4 @@ var mergeTwoLists = function(l1, l2) {
         return l2;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-按照评论里 @lizju 的解法de
-```
+// 按照评论里 @lizju 的解法de
+// ```
 func cmp(sa, sb string) int {
 	c := 0
 	for i := 0; i < 6; i++ {
@@ -51,4 +51,4 @@ func findSecretWord(wordlist []string, master *Master) {
 		findSecretWord(sub, master)
 	}
 }
-```
+// ```

@@ -1,7 +1,7 @@
-### 解题思路
-思路如下：
+# ### 解题思路
+# 思路如下：
 
-```
+# ```
 def reverseList(self, head: ListNode) -> ListNode:
         prev = None
         curr = head
@@ -11,4 +11,4 @@ def reverseList(self, head: ListNode) -> ListNode:
             prev = curr         # 更新prev
             curr = tmp          # 更新curr
         return prev
-```
+# ```

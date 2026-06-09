@@ -1,5 +1,5 @@
-# 暴力，顺便膜拜大神。
-```
+// # 暴力，顺便膜拜大神。
+// ```
 class Solution {
 public:
     Solution() {
@@ -90,4 +90,4 @@ private:
         return true;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-设Hash Table，统计字符串s中字符出现个数；再遍历t,发现一个字符，Hash对应位置-1，如果发现0位置上还需要减，返回false。
-当然，长度不同的话，直接false
+// ### 解题思路
+// 设Hash Table，统计字符串s中字符出现个数；再遍历t,发现一个字符，Hash对应位置-1，如果发现0位置上还需要减，返回false。
+// 当然，长度不同的话，直接false
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAnagram(char * s, char * t)
 {
     int Len1=(int)strlen(s);
@@ -25,4 +25,4 @@ bool isAnagram(char * s, char * t)
     }
     return -1;
 }
-```
+// ```

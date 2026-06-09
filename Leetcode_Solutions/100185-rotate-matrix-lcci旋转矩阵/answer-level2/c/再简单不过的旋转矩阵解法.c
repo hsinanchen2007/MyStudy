@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单就是先对矩阵做转置，然后对称。
+// ### 解题思路
+// 思路很简单就是先对矩阵做转置，然后对称。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int n = matrixSize;
     int i,j;
@@ -31,4 +31,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-加油......
+// ### 解题思路
+// 加油......
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int number_divisors(int num)
 {
@@ -41,4 +41,4 @@ int sumFourDivisors(int* nums, int numsSize)
 
 }
 
-```
+// ```

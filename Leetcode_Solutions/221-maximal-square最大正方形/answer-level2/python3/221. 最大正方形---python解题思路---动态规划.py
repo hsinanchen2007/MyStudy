@@ -1,14 +1,14 @@
-这题感觉好像在哪里做过一边，好像之前那题求的是最大的矩形面积。找到题目了[85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)，而85题又用到了[84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)的方法。
+# 这题感觉好像在哪里做过一边，好像之前那题求的是最大的矩形面积。找到题目了[85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/)，而85题又用到了[84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)的方法。
 
-那现在其实就是把84题中的最大矩形改为最大正方形，84题用了单调栈的方式解题。现在来复习一下，也当作是复习了84和85。
+# 那现在其实就是把84题中的最大矩形改为最大正方形，84题用了单调栈的方式解题。现在来复习一下，也当作是复习了84和85。
 
-回顾的时候突然发现一个问题，84和85都是困难类型的题目，为啥这个221是中等？难道不用这么麻烦？不管了先用老办法。
+# 回顾的时候突然发现一个问题，84和85都是困难类型的题目，为啥这个221是中等？难道不用这么麻烦？不管了先用老办法。
 
-## 方法1：单调栈
+# ## 方法1：单调栈
 
-下面是修改后的单调栈的方法，具体看我84题的[解题思路](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-pythonjie/)
+# 下面是修改后的单调栈的方法，具体看我84题的[解题思路](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-pythonjie/)
 
-```python
+# ```python
 def find_max_square(self, heights) -> int:
     if not heights:
         return 0
@@ -26,11 +26,11 @@ def find_max_square(self, heights) -> int:
         min_len = min(heights[top_index], length - stack[-1] - 1)
         MAX = max(MAX, min_len*min_len)
     return MAX
-```
+# ```
 
-转化函数，具体看我85题[解题思路](https://leetcode-cn.com/problems/maximal-rectangle/solution/85-zui-da-ju-xing-pythonjie-ti-si-lu-can-kao-84ti-/)
+# 转化函数，具体看我85题[解题思路](https://leetcode-cn.com/problems/maximal-rectangle/solution/85-zui-da-ju-xing-pythonjie-ti-si-lu-can-kao-84ti-/)
 
-```python
+# ```python
 def convertRow(self, matrix):
     row_length = len(matrix[0])
     last = len(matrix) - 1
@@ -48,11 +48,11 @@ def convertRow(self, matrix):
                 else: break
                 now -= 1
         last -= 1
-```
+# ```
 
-然后合并!
+# 然后合并!
 
-```python
+# ```python
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix: return 0
@@ -97,11 +97,11 @@ class Solution:
             min_len = min(heights[top_index], length - stack[-1] - 1)
             MAX = max(MAX, min_len*min_len)
         return MAX
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :444 ms, 在所有 Python3 提交中击败了5.34% 的用户
 内存消耗 :14.3 MB, 在所有 Python3 提交中击败了9.18%的用户
 
@@ -110,23 +110,23 @@ class Solution:
 
 执行用时 :372 ms, 在所有 Python3 提交中击败了9.17% 的用户
 内存消耗 :14.4 MB, 在所有 Python3 提交中击败了9.18%的用户
-```
+# ```
 
-哈哈哈，就是有点费时间哈。看一下官方的答案
+# 哈哈哈，就是有点费时间哈。看一下官方的答案
 
-## 方法2：动态规划
+# ## 方法2：动态规划
 
-```python
+# ```python
 dp(i, j)=min(dp(i−1, j), dp(i−1, j−1), dp(i, j−1))+1
-```
+# ```
 
-上面这个公式就是，取 左边， 左上 左斜上 最小的那个动态数组值 + 1 (因为只会遍历为1的元素)
+# 上面这个公式就是，取 左边， 左上 左斜上 最小的那个动态数组值 + 1 (因为只会遍历为1的元素)
 
-至于为啥可以这样呢？
+# 至于为啥可以这样呢？
 
-下面演示一下，dp上面的元素代表单前可组成最大正方形的边长
+# 下面演示一下，dp上面的元素代表单前可组成最大正方形的边长
 
-```
+# ```
 1 1
 1 x
 对于x这个位置，由于上左斜左上全有值并且都是1，所以这个x自然是2
@@ -148,13 +148,13 @@ dp(i, j)=min(dp(i−1, j), dp(i−1, j−1), dp(i, j−1))+1
 1 1 0
 1 2 1
 1 2 x
-```
+# ```
 
-可以发现x的值是木桶效应，取决于最短的那边。那公式理解了就开始构思代码
+# 可以发现x的值是木桶效应，取决于最短的那边。那公式理解了就开始构思代码
 
-说实话刚刚用官方思路尝试的时候发现从1开始遍历有点，麻烦，特别是遇到只有一行的数据，或者多行但是每行只有一个数据的情况。于是进行修改后代码如下
+# 说实话刚刚用官方思路尝试的时候发现从1开始遍历有点，麻烦，特别是遇到只有一行的数据，或者多行但是每行只有一个数据的情况。于是进行修改后代码如下
 
-```python
+# ```python
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         # 复制一份整型的matrixmatrix
@@ -172,11 +172,11 @@ class Solution:
         up_position = dp[row-1][col] if row - 1 >= 0 else 0
         ot_position = dp[row-1][col-1] if row - 1 >= 0  and col - 1 >= 0 else 0
         return min(le_position, up_position, ot_position) + 1
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :124 ms, 在所有 Python3 提交中击败了67.94% 的用户
 内存消耗 :14.4 MB, 在所有 Python3 提交中击败了8.72%的用户
 
@@ -185,10 +185,10 @@ class Solution:
 
 执行用时 :176 ms, 在所有 Python3 提交中击败了56.78% 的用户
 内存消耗 :14.4 MB, 在所有 Python3 提交中击败了9.18%的用户
-```
+# ```
 
-果然快了很多，优化的那个方法就不搞了
+# 果然快了很多，优化的那个方法就不搞了
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

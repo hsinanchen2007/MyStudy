@@ -1,4 +1,4 @@
-```
+// ```
 class ValidWordAbbr {
 public:
     map<string, set<string>> mset;
@@ -24,4 +24,4 @@ public:
         return !mset.count(str) || (mset[str].size() == 1 && mset[str].count(word));
     }
 };
-```
+// ```

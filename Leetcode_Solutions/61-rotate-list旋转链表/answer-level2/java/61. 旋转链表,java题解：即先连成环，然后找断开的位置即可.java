@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode rotateRight(ListNode head, int k) {//让该链表直接连成环然后从某一个位置断开即相当于旋转
     if(head == null||head.next == null||k==0) {
     	return head;
@@ -21,4 +21,4 @@ public ListNode rotateRight(ListNode head, int k) {//让该链表直接连成环
     end.next = null;
     return head;   
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-一开始我的思路是直接遍历，但是从左上角开始的话会走一些不必要的路
-仔细观察一下可以优化，如果我们取右上角作为搜索起始点，因为只有左边的数比它小，下面的数比它大，这样搜索路径会更短一些
+# ### 解题思路
+# 一开始我的思路是直接遍历，但是从左上角开始的话会走一些不必要的路
+# 仔细观察一下可以优化，如果我们取右上角作为搜索起始点，因为只有左边的数比它小，下面的数比它大，这样搜索路径会更短一些
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         row = len(matrix)
@@ -32,4 +32,4 @@ class Solution:
                 return True
         
         return False
-```
+# ```

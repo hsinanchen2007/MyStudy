@@ -1,13 +1,13 @@
-### 解题思路
-快指针走两步，慢指针走一步，即可满足题设要求。
-所以明确了往前走两步的条件（或者不能再走两步的条件）即可。
+// ### 解题思路
+// 快指针走两步，慢指针走一步，即可满足题设要求。
+// 所以明确了往前走两步的条件（或者不能再走两步的条件）即可。
 
-fast != nil && fast.Next != nil 即可走两步 fast = fast.Next.Next
-fast == nil || fast.Next == nil 不能走两步
+// fast != nil && fast.Next != nil 即可走两步 fast = fast.Next.Next
+// fast == nil || fast.Next == nil 不能走两步
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -35,4 +35,4 @@ func middleNode(head *ListNode) *ListNode {
     }
     return slow
 }
-```
+// ```

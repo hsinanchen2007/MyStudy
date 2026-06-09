@@ -1,7 +1,7 @@
 
-迭代算法
+// 迭代算法
 
-```
+// ```
 func reverseList(head *ListNode) *ListNode {
     r := &ListNode {
         Val: -1,
@@ -19,11 +19,11 @@ func reverseList(head *ListNode) *ListNode {
     
     return r.Next
 }
-```
+// ```
 
-递归算法
+// 递归算法
 
-```
+// ```
 func reverseList(head *ListNode) *ListNode {
     if head == nil {
         return nil
@@ -46,4 +46,4 @@ func reverseListRecur(head *ListNode) (h, t *ListNode) {
         return 
     }
 }
-```
+// ```

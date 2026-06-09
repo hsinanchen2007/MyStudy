@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再合并。
+// ### 解题思路
+// 先排序，再合并。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 bool compare(const vector<int> &a, const vector<int> &b) {
     return a[0] < b[0];
 }
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

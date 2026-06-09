@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         if not s: return -1
@@ -8,4 +8,4 @@ class Solution:
                 return i
         else:
             return -1
-```
+# ```

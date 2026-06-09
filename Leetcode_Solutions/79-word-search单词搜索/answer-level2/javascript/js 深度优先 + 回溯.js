@@ -1,6 +1,6 @@
-![图片.png](https://pic.leetcode-cn.com/db455278451700b79d9d1c91b116572cbc98d2a1099f297252ed27e21251e0b9-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/db455278451700b79d9d1c91b116572cbc98d2a1099f297252ed27e21251e0b9-%E5%9B%BE%E7%89%87.png)
 
-```
+// ```
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -52,4 +52,4 @@ var exist = function(board, word) {
     }
     return false
 };
-```
+// ```

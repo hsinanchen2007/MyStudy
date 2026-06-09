@@ -1,13 +1,13 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 题解
-从右上角(或者左下角)开始查找：
+# ### 题解
+# 从右上角(或者左下角)开始查找：
 
-如果target更大，指针下移
-如果target更小，指针左移
+# 如果target更大，指针下移
+# 如果target更小，指针左移
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def findNumberIn2DArray(self, matrix, target):
         """
@@ -28,4 +28,4 @@ class Solution(object):
                 j -= 1
         return False
         
-```
+# ```

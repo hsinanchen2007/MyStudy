@@ -1,9 +1,9 @@
-### 解题思路
-官方解之二
+// ### 解题思路
+// 官方解之二
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -28,4 +28,4 @@ class Solution {
         return $r != 0 ? $this->gcd($b, $r) : abs($b);
     }
 }
-```
+// ```

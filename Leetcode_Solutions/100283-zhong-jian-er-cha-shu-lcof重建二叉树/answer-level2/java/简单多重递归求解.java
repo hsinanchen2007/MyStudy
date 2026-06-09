@@ -1,10 +1,10 @@
-思路如下：前序遍历的第一个数是根节点，并且该数在中序遍历中可以将树分为左右两子树。如例子中的
-前序遍历 preorder = [3,9,20,15,7] 中序遍历 inorder = [9,3,15,20,7] 其中3 将inorder分为[9]和[15,20,7]左右子树。
-那么只需要记录下左右子树有哪些，再在各个子树中去寻找根节点，即前序遍历 preorder 的下一个数的值，即可。
+// 思路如下：前序遍历的第一个数是根节点，并且该数在中序遍历中可以将树分为左右两子树。如例子中的
+// 前序遍历 preorder = [3,9,20,15,7] 中序遍历 inorder = [9,3,15,20,7] 其中3 将inorder分为[9]和[15,20,7]左右子树。
+// 那么只需要记录下左右子树有哪些，再在各个子树中去寻找根节点，即前序遍历 preorder 的下一个数的值，即可。
 
 
 
-```
+// ```
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         LinkedList<Integer> childleftlist=new LinkedList<Integer>();
         LinkedList<Integer> childrightlist=new LinkedList<Integer>();
@@ -61,4 +61,4 @@
             buildleft(root.right,preorder,i+1,childleftlist,childrightlist);
         }
     }
-```
+// ```

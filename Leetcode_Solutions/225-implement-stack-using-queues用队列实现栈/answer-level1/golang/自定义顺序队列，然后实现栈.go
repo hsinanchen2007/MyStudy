@@ -1,5 +1,5 @@
-首先自定义一个队列：
-```go
+// 首先自定义一个队列：
+// ```go
 type Queue struct {
 	data        []int
 	front, tail int
@@ -34,10 +34,10 @@ func (q *Queue) Size() int {
 func (q *Queue) Empty() bool {
 	return q.front == q.tail
 }
-```
+// ```
 
-然后使用两个队列(a、b)来实现栈，其中**所有的操作都是在 a 上进行，b 是用于辅助的**：
-```go
+// 然后使用两个队列(a、b)来实现栈，其中**所有的操作都是在 a 上进行，b 是用于辅助的**：
+// ```go
 type MyStack struct {
 	a, b Queue
 }
@@ -79,4 +79,4 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
 	return this.a.Empty()
 }
-```
+// ```

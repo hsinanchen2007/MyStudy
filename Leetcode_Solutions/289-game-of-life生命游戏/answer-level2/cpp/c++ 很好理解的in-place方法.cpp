@@ -1,16 +1,16 @@
-### 解题思路
-in-place算法，分两轮遍历：
-1. 第一轮遍历标记
-    如果board[i][j]为live且需要修改成dead，那么令board[i][j] = 2;
-    如果board[i][j]为dead且需要修改成live, 那么令board[i][j] = -1;
+// ### 解题思路
+// in-place算法，分两轮遍历：
+// 1. 第一轮遍历标记
+//     如果board[i][j]为live且需要修改成dead，那么令board[i][j] = 2;
+//     如果board[i][j]为dead且需要修改成live, 那么令board[i][j] = -1;
 
-2. 第二轮遍历修改
-    将所有的2改成0，所有的-1改成1
+// 2. 第二轮遍历修改
+//     将所有的2改成0，所有的-1改成1
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -41,4 +41,4 @@ public:
         }
     }
 };
-```
+// ```

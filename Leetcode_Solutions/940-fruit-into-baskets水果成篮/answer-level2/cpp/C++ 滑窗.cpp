@@ -1,6 +1,6 @@
-滑窗，用map记录每种水果最后出现的下标index，map的大小超过2时，对左指针做移动操作
+// 滑窗，用map记录每种水果最后出现的下标index，map的大小超过2时，对左指针做移动操作
 
-```c++
+// ```c++
 class Solution {
 public:
     int totalFruit(vector<int>& tree) {
@@ -25,6 +25,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 

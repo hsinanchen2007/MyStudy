@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -18,4 +18,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

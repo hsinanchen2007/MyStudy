@@ -1,4 +1,4 @@
-```
+// ```
 func pathSum(root *TreeNode, sum int) [][]int {
 	res := make([][]int, 0)
 	DFS(root, sum, []int{}, &res)
@@ -19,4 +19,4 @@ func DFS(root *TreeNode, sum int, stack []int, res *[][]int) {
 	DFS(root.Left, sum-root.Val, stack, res)
 	DFS(root.Right, sum-root.Val, stack, res)
 }
-```
+// ```

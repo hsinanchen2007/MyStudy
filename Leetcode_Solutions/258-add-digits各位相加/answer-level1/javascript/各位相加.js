@@ -1,6 +1,6 @@
-*法一：while+while，每次取余数相加*
+// *法一：while+while，每次取余数相加*
 
-```js
+// ```js
 var addDigits = function(num) {
     while (num > 9) {
         var i = 0;
@@ -23,11 +23,11 @@ var addDigits = function(num) {
 };
 var num = 19;
 console.log(addDigits(num));
-```
+// ```
 
-*法二：while+for，借用数组*
+// *法二：while+for，借用数组*
 
-```js
+// ```js
 var addDigits2 = function(num) {
     while (num > 9) {
         var str = num.toString();
@@ -39,11 +39,11 @@ var addDigits2 = function(num) {
     }
     return num
 };
-```
+// ```
 
-*法三：一次for循环，加的时候超过10就减9*
+// *法三：一次for循环，加的时候超过10就减9*
 
-```js
+// ```js
 var addDigits3 = function(num) {
     var sum = 0;
     var str = num.toString();
@@ -55,16 +55,16 @@ var addDigits3 = function(num) {
     }
     return sum
 };
-```
+// ```
 
-*法四：借助数组的reduce方法*
+// *法四：借助数组的reduce方法*
 
-```js
+// ```js
 var addDigits4 = function(num) {
     while (num > 9) {
         num = num.toString().split('').reduce((a, b) => parseInt(a) + parseInt(b))
     }
     return num
 };
-```
+// ```
 

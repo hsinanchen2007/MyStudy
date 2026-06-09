@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int closedIsland(vector<vector<int>>& grid) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

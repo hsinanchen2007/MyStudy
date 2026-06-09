@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void myFindCircleNum(char **M, int **arr, int ROW, int COL, int row, int col)
 {
     if (row >= 0 && row < ROW && col >= 0 && col < COL && (M[row][col] == '1') && (arr[row][col] == 0)) {        
@@ -45,4 +45,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     return res;
 }
 
-```
+// ```

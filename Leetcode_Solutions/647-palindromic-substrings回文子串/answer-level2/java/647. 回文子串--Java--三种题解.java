@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_647_countSubstrings.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_647_countSubstrings.java)
 
-```java
+// ```java
  /**
      * 解法一：
      * 定义两个指针，从0到len判断所有的回文可能性，性能不一定高，结果一定对（时间复杂度O(n^3)）
@@ -93,4 +93,4 @@
         return result;
     }
 
-```
+// ```

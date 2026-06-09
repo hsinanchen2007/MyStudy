@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/97f10de3cd7507e496c30b082086874fceec94b2834456a0f233900205bb66d2-1.png)
+// ![1.png](https://pic.leetcode-cn.com/97f10de3cd7507e496c30b082086874fceec94b2834456a0f233900205bb66d2-1.png)
 
-数值反转
-```
+// 数值反转
+// ```
 var reverse = function (x) {
     let fu = ''
     if (x < 0) {
@@ -21,4 +21,4 @@ var reverse = function (x) {
     }
     return res
 };
-```
+// ```

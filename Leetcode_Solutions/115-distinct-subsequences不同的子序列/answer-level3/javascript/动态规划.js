@@ -1,23 +1,23 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/distinct-subsequences/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/distinct-subsequences/)
 
-## 解法一 - 暴力法（超时）
-很明显可以得出公式：
-$$
-f(s, t) = 
-\begin{cases}
-f(s[1:], t[1:]) + f(s[1:], t), \ s[0] = t[0] \\
-f(s[1:], t), \ s[0] \not ={t[0]}
-\end{cases}
-$$
+// ## 解法一 - 暴力法（超时）
+// 很明显可以得出公式：
+// $$
+// f(s, t) = 
+// \begin{cases}
+// f(s[1:], t[1:]) + f(s[1:], t), \ s[0] = t[0] \\
+// f(s[1:], t), \ s[0] \not ={t[0]}
+// \end{cases}
+// $$
 
-那么边界情况是：
-$$
-f(s, t) = 1, t 为空 \\
-f(s, t) = 0, s 为空且 t 不为空
-$$
+// 那么边界情况是：
+// $$
+// f(s, t) = 1, t 为空 \\
+// f(s, t) = 0, s 为空且 t 不为空
+// $$
 
-```javascript
+// ```javascript
 var numDistinct = function(s, t) {
     return helper(0, 0);
 
@@ -34,13 +34,13 @@ var numDistinct = function(s, t) {
         return ans;
     }
 };
-```
+// ```
 
-很明显，可以看出有很多重复的子问题，我们将中间子问题结果存储起来降低时间复杂度。
+// 很明显，可以看出有很多重复的子问题，我们将中间子问题结果存储起来降低时间复杂度。
 
-## 解法二 - 动态规划 - 自顶向下
+// ## 解法二 - 动态规划 - 自顶向下
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -70,13 +70,13 @@ var numDistinct = function(s, t) {
         return memo[i][j];
     }
 };
-```
-**复杂度分析**:
-- 时间复杂度：$O(N*M)$，$N$ 是 s 的长度，$M$ 是 t 的长度
-- 空间复杂度：$O(N*M)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度：$O(N*M)$，$N$ 是 s 的长度，$M$ 是 t 的长度
+// - 空间复杂度：$O(N*M)$
 
-## 解法三 - 动态规划-自底向上
-```javascript
+// ## 解法三 - 动态规划-自底向上
+// ```javascript
 var numDistinct = function(s, t) {
     let n = s.length;
     let m = t.length;
@@ -95,11 +95,11 @@ var numDistinct = function(s, t) {
     return memo[0][0];
 
 };
-```
+// ```
 
-**空间优化**:
-从状态 $i$ 角度来看，状态 $i$ 只和 状态 $i+1$ 相关，因此我们可以去掉状态 $i$的维度。
-```javascript
+// **空间优化**:
+// 从状态 $i$ 角度来看，状态 $i$ 只和 状态 $i+1$ 相关，因此我们可以去掉状态 $i$的维度。
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -127,8 +127,8 @@ var numDistinct = function(s, t) {
     return memo[0];
 
 };
-```
+// ```
 
-**复杂度分析**:
-- 时间复杂度：$O(N*M)$，$N$ 是 s 的长度，$M$ 是 t 的长度
-- 空间复杂度：$O(M)$
+// **复杂度分析**:
+// - 时间复杂度：$O(N*M)$，$N$ 是 s 的长度，$M$ 是 t 的长度
+// - 空间复杂度：$O(M)$

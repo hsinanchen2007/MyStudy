@@ -1,8 +1,8 @@
-[toc]
-### 排序算法
+// [toc]
+// ### 排序算法
 
-#### 1. 冒泡排序
-```cpp
+// #### 1. 冒泡排序
+// ```cpp
 // 1. 冒泡排序
 void bubble_sort(vector<int>& nums){
     int size = nums.size();
@@ -17,10 +17,10 @@ void bubble_sort(vector<int>& nums){
         if(!is_swap) break;
     }
 }
-```
+// ```
 
-#### 2. 选择排序
-```cpp
+// #### 2. 选择排序
+// ```cpp
 // 2. 选择排序
 void select_sort(vector<int>& nums){
     int size = nums.size();
@@ -34,10 +34,10 @@ void select_sort(vector<int>& nums){
         swap(nums[min_index], nums[i]);
     }
 }
-```
+// ```
 
-#### 3. 快速排序
-```cpp
+// #### 3. 快速排序
+// ```cpp
 // 3. 快速排序
 void quick_sort(vector<int>&nums){
     quick_sort(nums, 0, nums.size() - 1);
@@ -58,10 +58,10 @@ void quick_sort(vector<int>& nums, int start, int end){
         quick_sort(nums, left + 1, end);
     }
 }
-```
+// ```
 
-#### 4. 计数排序
-```cpp
+// #### 4. 计数排序
+// ```cpp
 // 4. 计数排序
 void count_sort(vector<int>& nums){
     int size = nums.size();
@@ -80,10 +80,10 @@ void count_sort(vector<int>& nums){
         }
     }
 }
-```
+// ```
 
-#### 5. 插入排序
-```cpp
+// #### 5. 插入排序
+// ```cpp
 // 5. 插入排序
 void insert_sort(vector<int>& nums){
     int size = nums.size();
@@ -95,10 +95,10 @@ void insert_sort(vector<int>& nums){
         nums[j + 1] = tmp;
     }
 }
-```
+// ```
 
-#### 6. 堆排序
-```cpp
+// #### 6. 堆排序
+// ```cpp
 // 6. 堆排序
     void heap_sort(vector<int>& nums){
         int size = nums.size();
@@ -124,10 +124,10 @@ void insert_sort(vector<int>& nums){
         }
         nums[index] = parent;
     }
-```
+// ```
 
-#### 7. 归并排序
-```cpp
+// #### 7. 归并排序
+// ```cpp
     // 7. 归并排序
     void merge_sort(vector<int>& nums){
         vector<int> dest(nums.size());
@@ -157,10 +157,10 @@ void insert_sort(vector<int>& nums){
         }
         std::copy(dest.begin(), dest.begin() + cur, nums.begin() + left);
     }
-```
+// ```
 
-#### 8. 上述排序算法的使用
-```cpp
+// #### 8. 上述排序算法的使用
+// ```cpp
 class Solution {
 private:
     /*
@@ -178,4 +178,4 @@ public:
         return nums;
     }
 };
-```
+// ```

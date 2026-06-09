@@ -1,9 +1,9 @@
-### 解题思路
-一次循环解决
+// ### 解题思路
+// 一次循环解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return r;
     }
 }
-```
+// ```

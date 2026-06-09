@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         // 标记用来替换的位置
@@ -23,4 +23,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

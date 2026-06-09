@@ -1,6 +1,6 @@
-每一行除了第一个和最后一个是1，其余的index为i的数字，均是其上一行index为i-1和index为i的数字相加所得。
+// 每一行除了第一个和最后一个是1，其余的index为i的数字，均是其上一行index为i-1和index为i的数字相加所得。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -21,4 +21,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-时间复杂度： O(n)
-空间复杂度： O(1)
+// 时间复杂度： O(n)
+// 空间复杂度： O(1)
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -35,4 +35,4 @@ class Solution {
         return $min;
     }
 }
-```
+// ```

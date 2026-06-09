@@ -1,10 +1,10 @@
-- dp[y][x] 表示以mat[0][0]为左上角顶点和以mat[y-1][x-1]为右下角顶点的矩形中每个数和
-- dp[0] = new Array(mat[0].length+1).fill(0)
-- dp[y][0] = 0
-- 则dp[y][x] = dp[y-1][x] + dp[y][x-1] - dp[y-1][x-1] + mat[y-1][x-1]
-- 则以mat[y-1][x-1]为右下角顶点的长度mid的正方形中每个数和为
-- dp[y][x] + dp[y-mid][x-mid] - dp[y-mid][x] - dp[y][x-mid]
-```
+// - dp[y][x] 表示以mat[0][0]为左上角顶点和以mat[y-1][x-1]为右下角顶点的矩形中每个数和
+// - dp[0] = new Array(mat[0].length+1).fill(0)
+// - dp[y][0] = 0
+// - 则dp[y][x] = dp[y-1][x] + dp[y][x-1] - dp[y-1][x-1] + mat[y-1][x-1]
+// - 则以mat[y-1][x-1]为右下角顶点的长度mid的正方形中每个数和为
+// - dp[y][x] + dp[y-mid][x-mid] - dp[y-mid][x] - dp[y][x-mid]
+// ```
 var maxSideLength = function(mat, threshold) {
   let _y = mat.length;
   let _x = mat[0].length;
@@ -35,4 +35,4 @@ var maxSideLength = function(mat, threshold) {
   }
   return left;
 };
-```
+// ```

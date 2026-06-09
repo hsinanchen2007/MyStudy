@@ -1,4 +1,4 @@
-```
+# ```
 # -*- coding: utf-8 -*-
 
 from typing import List
@@ -82,4 +82,4 @@ class Solution:
             k1 = find_k(nums1, nums2, int((len1+len2)/2))
             k2 = find_k(nums1, nums2, int((len1+len2+2)/2))
             return float((k1+k2)/2)
-```
+# ```

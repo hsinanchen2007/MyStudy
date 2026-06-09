@@ -1,13 +1,13 @@
-# 二叉树后序非递归
+// # 二叉树后序非递归
 
-<br>
+// <br>
 
-## 两种方法都基于前序改进而来
+// ## 两种方法都基于前序改进而来
 
-<br>
+// <br>
 
-### >先看前序
-```
+// ### >先看前序
+// ```
 vector<int> preorderTraversal(TreeNode* root) {
     vector<int> v;
     if(root==nullptr)
@@ -25,12 +25,12 @@ vector<int> preorderTraversal(TreeNode* root) {
     }
     return v;
 }
-```
+// ```
 
-<br>
+// <br>
 
-### >这时第一种写法就是采用根右左的遍历方法，最后再将结果翻转
-```
+// ### >这时第一种写法就是采用根右左的遍历方法，最后再将结果翻转
+// ```
 vector<int> postorderTraversal(TreeNode* root) {
     vector<int> v;
     if(root==nullptr)
@@ -49,12 +49,12 @@ vector<int> postorderTraversal(TreeNode* root) {
     reverse(v.begin(), v.end());
     return v;
     }
-```
+// ```
 
-<br>
+// <br>
 
-### >第二种写法是建立一个指向前一节点的指针，标记右孩子是否被访问
-```
+// ### >第二种写法是建立一个指向前一节点的指针，标记右孩子是否被访问
+// ```
 vector<int> postorderTraversal(TreeNode* root) {
     vector<int> v;
     if(root==nullptr)
@@ -79,12 +79,12 @@ vector<int> postorderTraversal(TreeNode* root) {
     }
     return v;
 }
-```
+// ```
 
-<br>
+// <br>
 
-## 这个写法可以说非常简洁
+// ## 这个写法可以说非常简洁
 
-<br>
+// <br>
 
 

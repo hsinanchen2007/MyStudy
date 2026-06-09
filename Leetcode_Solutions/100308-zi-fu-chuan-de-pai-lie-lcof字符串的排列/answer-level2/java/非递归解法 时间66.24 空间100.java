@@ -1,14 +1,14 @@
-### 解题思路
-基本思路：插缝法
-例如：s="abcd"
-"a"仅存在一种顺序，第二个字符b进来后，可以插到a前面，也可以插到a后面，从而出现了“ab”  “ba”两种形式；
-第三个字符“c”，便分别插入“ab“ ”ba“的缝隙中出现 cab,acb,abc , cba,bca,bac
-以此类推，即可得到全部解。另外为了避免重复，每个步骤加入HashSet操作来进行判重。
+// ### 解题思路
+// 基本思路：插缝法
+// 例如：s="abcd"
+// "a"仅存在一种顺序，第二个字符b进来后，可以插到a前面，也可以插到a后面，从而出现了“ab”  “ba”两种形式；
+// 第三个字符“c”，便分别插入“ab“ ”ba“的缝隙中出现 cab,acb,abc , cba,bca,bac
+// 以此类推，即可得到全部解。另外为了避免重复，每个步骤加入HashSet操作来进行判重。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] permutation(String s) {
         //边界值处理
@@ -53,4 +53,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

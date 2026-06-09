@@ -1,9 +1,9 @@
-### 解题思路
-没有思路，干就完了。
+// ### 解题思路
+// 没有思路，干就完了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
 int b=nums[0];
@@ -21,4 +21,4 @@ for(int i=1;i<nums.length;i++){
 return sum;
     }
 }
-```
+// ```

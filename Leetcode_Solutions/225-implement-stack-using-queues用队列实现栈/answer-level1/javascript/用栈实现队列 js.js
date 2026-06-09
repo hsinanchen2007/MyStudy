@@ -1,9 +1,9 @@
-### 解题思路
-利用js的数组来模拟出栈、入栈。
+// ### 解题思路
+// 利用js的数组来模拟出栈、入栈。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -59,4 +59,4 @@ Array.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

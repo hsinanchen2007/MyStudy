@@ -1,29 +1,29 @@
-### 解题思路
-N为枚举的边界，因为最少`2`个连续整数的和为`target`，所以N最大为$\frac{target}{2} + 1$，
-最大枚举区间为 $[\frac{target}{2}, \frac{target}{2}+1]$
+// ### 解题思路
+// N为枚举的边界，因为最少`2`个连续整数的和为`target`，所以N最大为$\frac{target}{2} + 1$，
+// 最大枚举区间为 $[\frac{target}{2}, \frac{target}{2}+1]$
 
-优化：
-1、以 i 为起点的连续区间最多只有一个满足 $\sum_{k=i}^j k = target$
+// 优化：
+// 1、以 i 为起点的连续区间最多只有一个满足 $\sum_{k=i}^j k = target$
 
-#### 进步一优化暴力算法：滑动窗口
+// #### 进步一优化暴力算法：滑动窗口
 
-滑动窗口的重要性质是：窗口的**左边界和右边界永远只能向右移动，而不能向左移动**。这是为了保证滑动窗口的时间复杂度是 $O(n)$。如果左右边界向左移动的话，这叫做“回溯”，算法的时间复杂度就可能不止 $O(n)$。
+// 滑动窗口的重要性质是：窗口的**左边界和右边界永远只能向右移动，而不能向左移动**。这是为了保证滑动窗口的时间复杂度是 $O(n)$。如果左右边界向左移动的话，这叫做“回溯”，算法的时间复杂度就可能不止 $O(n)$。
 
-在这道题中，我们关注的是**滑动窗口中所有数的和**。
-* 当滑动窗口的**右边界**向右移动时，也就是 `j = j + 1`，窗口中多了一个数字 `j`，窗口的和也就要加上 `j`。
-* 当滑动窗口的**左边界**向右移动时，也就是 `i = i + 1`，窗口中少了一个数字 `i`，窗口的和也就要减去 `i`。
+// 在这道题中，我们关注的是**滑动窗口中所有数的和**。
+// * 当滑动窗口的**右边界**向右移动时，也就是 `j = j + 1`，窗口中多了一个数字 `j`，窗口的和也就要加上 `j`。
+// * 当滑动窗口的**左边界**向右移动时，也就是 `i = i + 1`，窗口中少了一个数字 `i`，窗口的和也就要减去 `i`。
 
-滑动窗口只有右边界向右移动（扩大窗口） 和 左边界向右移动（缩小窗口） 两个操作，所以实际上非常简单。
+// 滑动窗口只有右边界向右移动（扩大窗口） 和 左边界向右移动（缩小窗口） 两个操作，所以实际上非常简单。
 
->作者：nettee
->链接：https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/shi-yao-shi-hua-dong-chuang-kou-yi-ji-ru-he-yong-h/
->来源：力扣（LeetCode）
->著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+// >作者：nettee
+// >链接：https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/shi-yao-shi-hua-dong-chuang-kou-yi-ji-ru-he-yong-h/
+// >来源：力扣（LeetCode）
+// >著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
-### 代码（暴力枚举）
+// ### 代码（暴力枚举）
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int N = target/2 + 1;
@@ -49,10 +49,10 @@ class Solution {
         return ans.toArray(new int[ans.size()][]);
     }
 }
-```
+// ```
 
-### 代码（滑动窗口）
-```java
+// ### 代码（滑动窗口）
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         int N = target/2;
@@ -77,4 +77,4 @@ class Solution {
         return ans.toArray(new int[ans.size()][]);
     }
 }
-```
+// ```

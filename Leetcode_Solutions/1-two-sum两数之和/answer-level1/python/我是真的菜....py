@@ -1,9 +1,9 @@
-### 解题思路
-简直了 赶紧胡弄完看人家的题解...
+# ### 解题思路
+# 简直了 赶紧胡弄完看人家的题解...
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
@@ -18,4 +18,4 @@ class Solution:
                     nums[i] = tempint
                     continue
         return [i,idx]
-```
+# ```

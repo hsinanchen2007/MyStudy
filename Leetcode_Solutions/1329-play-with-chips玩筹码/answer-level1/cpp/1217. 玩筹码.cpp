@@ -1,5 +1,5 @@
-就是看奇数和偶数哪个多……双百……
-```
+// 就是看奇数和偶数哪个多……双百……
+// ```
 class Solution {
 public:
     int minCostToMoveChips(vector<int>& chips) {
@@ -19,4 +19,4 @@ public:
         return min(sum0,sum1);
     }
 };
-```
+// ```

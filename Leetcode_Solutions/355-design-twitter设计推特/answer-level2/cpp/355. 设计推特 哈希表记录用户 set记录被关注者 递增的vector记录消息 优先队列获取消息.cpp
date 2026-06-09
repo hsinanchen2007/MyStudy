@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-每个用户的消息都存在vector中，则vector是按照时间递增的
-优先队列中元素为pair<>，为两个iterator，分别为begin与当前
-最大时间出队后，移动当前iterator再次入队，当两者相等时不再入队
-![355.jpg](https://pic.leetcode-cn.com/241a902f0b4f130616395ffeca3050582589bede4529247e1cda39cba722129d-355.jpg)
+// 每个用户的消息都存在vector中，则vector是按照时间递增的
+// 优先队列中元素为pair<>，为两个iterator，分别为begin与当前
+// 最大时间出队后，移动当前iterator再次入队，当两者相等时不再入队
+// ![355.jpg](https://pic.leetcode-cn.com/241a902f0b4f130616395ffeca3050582589bede4529247e1cda39cba722129d-355.jpg)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //挤牙膏方式通过优先队列获取消息
 //初始用户数，总共用户数从何获知
 //返回前十条数据的操作可以用优先队列
@@ -114,4 +114,4 @@ pair< vector<pair<int,int>>::iterator,vector<pair<int,int>>::iterator > tmpPair;
  * obj->follow(followerId,followeeId);
  * obj->unfollow(followerId,followeeId);
  */
-```
+// ```

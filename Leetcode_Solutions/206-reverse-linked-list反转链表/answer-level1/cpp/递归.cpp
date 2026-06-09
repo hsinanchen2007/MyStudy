@@ -1,9 +1,9 @@
-### 解题思路
-关键就是理解p是反转后链表的表头
+// ### 解题思路
+// 关键就是理解p是反转后链表的表头
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ public:
 
     }
 };
-```
+// ```

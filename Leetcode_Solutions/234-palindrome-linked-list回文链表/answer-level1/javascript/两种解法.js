@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
-* 快慢指针查找中间值，利用前插方法将前半部分反转，同后半部分进行比较，注意节点奇数情况时，中间值不参与比较
-```javascript
+// ### 代码
+// * 快慢指针查找中间值，利用前插方法将前半部分反转，同后半部分进行比较，注意节点奇数情况时，中间值不参与比较
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -34,11 +34,11 @@ var isPalindrome = function(head) {
     }
     return true
 };
-```
-* 第二种解法。
-* 递归，递归的过程即是入栈的过程，得出解的过程即是出栈的过程
+// ```
+// * 第二种解法。
+// * 递归，递归的过程即是入栈的过程，得出解的过程即是出栈的过程
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -67,4 +67,4 @@ var isPalindrome = function(head) {
     }
     return help(head)
 };
-```
+// ```

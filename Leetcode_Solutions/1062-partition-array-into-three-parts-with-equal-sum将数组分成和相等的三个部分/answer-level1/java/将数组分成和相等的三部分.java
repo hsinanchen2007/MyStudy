@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum=0;
@@ -25,4 +25,4 @@ class Solution {
         return  cnt==3||(cnt>3&&sum==0);  //如果目标值是0可以大于三
     }
 }
-```
+// ```

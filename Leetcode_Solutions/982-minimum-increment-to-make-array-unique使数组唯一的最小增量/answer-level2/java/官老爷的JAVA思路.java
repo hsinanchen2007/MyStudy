@@ -1,9 +1,9 @@
-### 解题思路
-思路还没来得及仔细看，先闭的眼把官老爷写的抄了一遍
+// ### 解题思路
+// 思路还没来得及仔细看，先闭的眼把官老爷写的抄了一遍
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
 int[] count = new int[80000];
@@ -26,4 +26,4 @@ int[] count = new int[80000];
 
     }
 }
-```
+// ```

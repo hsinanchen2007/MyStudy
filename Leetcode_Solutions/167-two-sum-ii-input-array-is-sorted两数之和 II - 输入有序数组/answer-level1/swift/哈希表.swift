@@ -1,9 +1,9 @@
-### 解题思路
-我知道双指针更简单，但生活中哪有那么多事先帮你排序好的数组！
+// ### 解题思路
+// 我知道双指针更简单，但生活中哪有那么多事先帮你排序好的数组！
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
         
@@ -26,4 +26,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

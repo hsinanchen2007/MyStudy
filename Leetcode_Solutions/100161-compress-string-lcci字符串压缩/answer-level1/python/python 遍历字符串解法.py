@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def compressString(self, S):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 count += 1
         res += letter + str(count)
         return res if len(res) < len(S) else S
-```
+# ```

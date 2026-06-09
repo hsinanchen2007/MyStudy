@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力匹配求解
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 暴力匹配求解
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countCharacters(self, words, chars):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             if len(c)==flag:
                 sum=sum+flag
         return sum
-```
+# ```

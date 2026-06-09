@@ -1,12 +1,12 @@
-### 解题思路
-1.使用单调栈。
-2.遍历nums2数组，当栈为空就压入栈，若后续数字大于栈顶元素则将栈顶元素作为key，后续数字作为此key的value，并出栈不断重复2步骤直到栈为空或者是栈顶元素大于后续数字。
-3.遍历完nums2数组后，循环查看栈内是否有元素，若有元素则出栈元素作为key，对应value写作-1。
-4.遍历nums1数组，将其中元素对照map找key将其对应value压入result容器中返回。
+// ### 解题思路
+// 1.使用单调栈。
+// 2.遍历nums2数组，当栈为空就压入栈，若后续数字大于栈顶元素则将栈顶元素作为key，后续数字作为此key的value，并出栈不断重复2步骤直到栈为空或者是栈顶元素大于后续数字。
+// 3.遍历完nums2数组后，循环查看栈内是否有元素，若有元素则出栈元素作为key，对应value写作-1。
+// 4.遍历nums1数组，将其中元素对照map找key将其对应value压入result容器中返回。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -38,4 +38,4 @@ public:
         return result;
     }
 };
-```
+// ```

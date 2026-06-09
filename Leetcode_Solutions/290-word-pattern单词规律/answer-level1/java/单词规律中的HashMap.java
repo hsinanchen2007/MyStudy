@@ -1,7 +1,7 @@
-# 解题思路：
-    利用HashMap保存不同的键值对集合，然后遍历匹配
-# 代码：
-```
+// # 解题思路：
+//     利用HashMap保存不同的键值对集合，然后遍历匹配
+// # 代码：
+// ```
 public class Solution1 {
 
     HashMap<Character, String> patternMap = new HashMap<>();
@@ -41,4 +41,4 @@ public class Solution1 {
         System.out.println(solution1.wordPattern(pattern, str));
     }
 }
-```
+// ```

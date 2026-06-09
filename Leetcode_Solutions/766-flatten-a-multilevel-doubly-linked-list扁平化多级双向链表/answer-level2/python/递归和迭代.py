@@ -1,14 +1,14 @@
-## 思路:
+# ## 思路:
 
-思路一：非递归
+# 思路一：非递归
 
-思路二：递归
+# 思路二：递归
 
-## 代码:
+# ## 代码:
 
-非递归
+# 非递归
 
-```python
+# ```python
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
         if not head: return 
@@ -31,11 +31,11 @@ class Solution:
             tail = cur
         p.next.prev = None
         return p.next
-```
+# ```
 
-递归
+# 递归
 
-```python
+# ```python
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
         if not head: return 
@@ -57,6 +57,6 @@ class Solution:
         dfs(dummy, head)
         p.next.prev = None
         return p.next
-```
+# ```
 
 

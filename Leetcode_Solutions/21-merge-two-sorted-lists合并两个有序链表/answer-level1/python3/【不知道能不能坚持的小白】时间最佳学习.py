@@ -1,11 +1,11 @@
-### 解题思路
-学习结果里面的时间最佳方法。
+# ### 解题思路
+# 学习结果里面的时间最佳方法。
 
-**本题关键思路**：思路与之前写的暴力解决完全一样，就是构建一个新的链表。实现上也基本一样，就是有一行重复代码原先复制粘贴的时候直接卸载if else里面，应该放出到while层。https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-bao-2/
+# **本题关键思路**：思路与之前写的暴力解决完全一样，就是构建一个新的链表。实现上也基本一样，就是有一行重复代码原先复制粘贴的时候直接卸载if else里面，应该放出到while层。https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-bao-2/
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
         if cur2:
             cur.next = cur2
         return head.next
-```
+# ```

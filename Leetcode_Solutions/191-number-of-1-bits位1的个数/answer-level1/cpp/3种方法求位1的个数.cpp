@@ -1,5 +1,5 @@
-# stl法
-```
+// # stl法
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -7,10 +7,10 @@ public:
         return bit.count();
     }
 };
-```
-# 巧妙消除1法
-每一次的 n & (n-1) 都可以把n最后一个1给变成0
-```
+// ```
+// # 巧妙消除1法
+// 每一次的 n & (n-1) 都可以把n最后一个1给变成0
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -22,10 +22,10 @@ public:
         return sum;
     }
 };
-```
-# 平行算法求位1的个数
-若相邻的两个数为00则结果为00， 相邻的两个数为01或10则结果为01，相邻两个数为11则结果为10，也就是先小范围统计每两位中1的个数，后面的步骤在累计有多少个1.
-```
+// ```
+// # 平行算法求位1的个数
+// 若相邻的两个数为00则结果为00， 相邻的两个数为01或10则结果为01，相邻两个数为11则结果为10，也就是先小范围统计每两位中1的个数，后面的步骤在累计有多少个1.
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -38,4 +38,4 @@ public:
         return temp;
     }
 };
-```
+// ```

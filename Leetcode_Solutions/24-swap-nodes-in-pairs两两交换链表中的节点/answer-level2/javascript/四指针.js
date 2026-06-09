@@ -1,6 +1,6 @@
-### analyze
+// ### analyze
 
-```js
+// ```js
 prev  first  second  next
         1  ->  2  ->  3  ->  4 -> null
               .
@@ -16,9 +16,9 @@ prev -> second -> first -> next
               .
               .
 重复上述操作
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -51,6 +51,6 @@ var swapPairs = function(head) {
 
   return dummyHead.next
 }
-```
+// ```
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

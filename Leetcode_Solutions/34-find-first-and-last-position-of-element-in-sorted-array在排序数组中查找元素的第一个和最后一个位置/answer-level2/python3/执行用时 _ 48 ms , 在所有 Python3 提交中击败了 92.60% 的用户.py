@@ -1,5 +1,5 @@
-利用两次二分查找，分别查找左右边界点。时间复杂度O（logn）
-```
+# 利用两次二分查找，分别查找左右边界点。时间复杂度O（logn）
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if len(nums)==0:
@@ -29,4 +29,4 @@ class Solution:
                 right = mid
         two = left-1 if nums[left-1] == target else -1
         return [one,two]
-```
+# ```

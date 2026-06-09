@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -32,4 +32,4 @@ var mergeTwoLists = function(l1, l2) {
     pointer.next=l1?l1:l2;//最后剩下不为空的链表剩余节点们肯定大于结果链表最后那个节点，所以直接连在结果链表末尾就可以了
     return link.next; //返回临时节点一开始时候保存的第一个节点
 };
-```
+// ```

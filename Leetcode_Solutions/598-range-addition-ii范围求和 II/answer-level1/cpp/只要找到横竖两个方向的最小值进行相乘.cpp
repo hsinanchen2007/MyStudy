@@ -1,9 +1,9 @@
-### 解题思路
-只要找到横竖两个方向的最小值进行相乘，就可以得到最大值的数量。
+// ### 解题思路
+// 只要找到横竖两个方向的最小值进行相乘，就可以得到最大值的数量。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxCount(int m, int n, vector<vector<int>>& ops) {
@@ -23,4 +23,4 @@ public:
         return m_min*n_min;
     }
 };
-```
+// ```

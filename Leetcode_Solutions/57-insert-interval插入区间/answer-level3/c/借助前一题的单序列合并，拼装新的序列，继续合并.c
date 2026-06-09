@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX(a,b) ((a) > (b) ? (a) : (b))
 #define COLUMNSIZE 2
 
@@ -95,4 +95,4 @@ int** insert(int** intervals, int intervalsSize, int* intervalsColSize, int* new
     /* merge the space and return */
     return merge(newIntervals, intervalsSize + 1,  newIntervalColSize, returnSize, returnColumnSizes);
 }
-```
+// ```

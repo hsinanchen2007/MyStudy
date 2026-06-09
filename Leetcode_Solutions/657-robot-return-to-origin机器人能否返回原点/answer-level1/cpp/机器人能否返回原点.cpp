@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool judgeCircle(string moves) {
@@ -14,4 +14,4 @@ public:
         return !UD&&!LR ? true : false ;
     }
 };
-```
+// ```

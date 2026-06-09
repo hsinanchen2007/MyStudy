@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     /*
         先计算链表的长度n，然后从头找第n-k个节点，即为倒数第k个节点。（这就双百了？离谱！）
@@ -17,8 +17,8 @@ class Solution {
         return node.val;
     }
 }
-```
-```
+// ```
+// ```
 class Solution {
     /*
         双指针技巧，一样双百。
@@ -38,5 +38,5 @@ class Solution {
         return p.val;
     }
 }
-```
+// ```
 

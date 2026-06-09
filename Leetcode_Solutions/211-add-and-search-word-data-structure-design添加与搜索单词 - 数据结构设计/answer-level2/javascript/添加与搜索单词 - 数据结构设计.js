@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 再添加时利用 `map` 数据结构将单词按长度进行分类；在查找时只查找对应长度下的单词。
-- 将 `.` 替换为 `[a-z]` 利用正则去匹配。
+// - 再添加时利用 `map` 数据结构将单词按长度进行分类；在查找时只查找对应长度下的单词。
+// - 将 `.` 替换为 `[a-z]` 利用正则去匹配。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -53,4 +53,4 @@ WordDictionary.prototype.search = function(word) {
  * obj.addWord(word)
  * var param_2 = obj.search(word)
  */
-```
+// ```

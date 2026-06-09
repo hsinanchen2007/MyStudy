@@ -1,14 +1,14 @@
-### 解题思路
-1. 双指针迭代
-	a) 申请previous，current和temp三个节点。其中，previous指向null。
-	b) 首先记录current节点的下一个节点，保存于temp。
-	c) 将current.next指向previous指向的节点。
-	d) 将previous和current同时向后移向下一个位置。
-	e) 重复操作，直至current为null(表明链表遍历结束)。
-2. 递归(画图来理解)
-### 代码
-//双指针迭代
-```java
+// ### 解题思路
+// 1. 双指针迭代
+// 	a) 申请previous，current和temp三个节点。其中，previous指向null。
+// 	b) 首先记录current节点的下一个节点，保存于temp。
+// 	c) 将current.next指向previous指向的节点。
+// 	d) 将previous和current同时向后移向下一个位置。
+// 	e) 重复操作，直至current为null(表明链表遍历结束)。
+// 2. 递归(画图来理解)
+// ### 代码
+// //双指针迭代
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,11 +36,11 @@ class Solution {
 	}
 }
 
-```
+// ```
 
-### 代码
-//迭代
-```java
+// ### 代码
+// //迭代
+// ```java
 class Solution {
 	public ListNode reverseList(ListNode head) {
 		//递归终止条件是当前为空，或者下一个节点为空
@@ -61,5 +61,5 @@ class Solution {
 	}
 }
 
-```
+// ```
 

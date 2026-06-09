@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     string reverseWords(string s) {        
@@ -14,4 +14,4 @@ public:
         return s;
     }
 };
-```
+// ```

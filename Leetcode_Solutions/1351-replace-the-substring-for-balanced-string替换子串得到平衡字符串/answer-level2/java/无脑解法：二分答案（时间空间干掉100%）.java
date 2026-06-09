@@ -1,7 +1,7 @@
-直接二分答案即可啦
-![1.png](https://pic.leetcode-cn.com/a7ad83979b4646e138babc482fc06e943f73a3008965a67053f04cf534830709-1.png)
+// 直接二分答案即可啦
+// ![1.png](https://pic.leetcode-cn.com/a7ad83979b4646e138babc482fc06e943f73a3008965a67053f04cf534830709-1.png)
 
-```
+// ```
 class Solution {
     public int balancedString(String s) {
         int len=s.length();
@@ -63,4 +63,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

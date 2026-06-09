@@ -1,9 +1,9 @@
-### 解题思路
-首先不管是否能在容器nums里搜索到target，先将target push_back到容器中，然后用sort()排序，最后在容器里查找target并获取下标。
+// ### 解题思路
+// 首先不管是否能在容器nums里搜索到target，先将target push_back到容器中，然后用sort()排序，最后在容器里查找target并获取下标。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -21,4 +21,4 @@ public:
         return 0;
     }
 };
-```
+// ```

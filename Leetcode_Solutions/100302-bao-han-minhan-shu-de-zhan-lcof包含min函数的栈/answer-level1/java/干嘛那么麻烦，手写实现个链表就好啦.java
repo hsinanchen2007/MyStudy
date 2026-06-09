@@ -1,5 +1,5 @@
-在Node里添加个属性min，既简单又直观，代码如下：
-``` java
+// 在Node里添加个属性min，既简单又直观，代码如下：
+// ``` java
     private Node head; 
 
     public MinStack() {
@@ -42,4 +42,4 @@
             this.next = next;
         }
     }
-```
+// ```

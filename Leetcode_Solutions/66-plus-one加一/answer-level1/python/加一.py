@@ -1,4 +1,4 @@
-#利用最原始暴力的方法，直接从最高位便利，分为三种情况
+# #利用最原始暴力的方法，直接从最高位便利，分为三种情况
 class Solution(object):
     def plusOne(self, digits):
         """

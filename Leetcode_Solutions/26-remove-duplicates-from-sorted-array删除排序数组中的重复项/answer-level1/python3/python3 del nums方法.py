@@ -1,10 +1,10 @@
 
-代码思路：
-既然不能正着删除list元素，因为会造成list长度错误，所以从末尾开始判断，然后删除相同元素
+# 代码思路：
+# 既然不能正着删除list元素，因为会造成list长度错误，所以从末尾开始判断，然后删除相同元素
 
 
-代码块
-```import sys
+# 代码块
+# ```import sys
 import math
 import numpy as np
 from gettext import find

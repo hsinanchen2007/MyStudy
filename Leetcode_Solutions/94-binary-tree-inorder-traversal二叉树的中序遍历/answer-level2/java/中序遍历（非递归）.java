@@ -1,8 +1,8 @@
-### 解题思路  中序是利用遍历链表，先把左节点全入栈，然后弹出，在判断右结点。
+// ### 解题思路  中序是利用遍历链表，先把左节点全入栈，然后弹出，在判断右结点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

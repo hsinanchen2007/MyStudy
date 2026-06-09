@@ -1,9 +1,9 @@
-### 解题思路
-某个题解 稍加修改 更好的效率
+// ### 解题思路
+// 某个题解 稍加修改 更好的效率
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& points) 
@@ -47,4 +47,4 @@ public:
 };
 
 
-```
+// ```

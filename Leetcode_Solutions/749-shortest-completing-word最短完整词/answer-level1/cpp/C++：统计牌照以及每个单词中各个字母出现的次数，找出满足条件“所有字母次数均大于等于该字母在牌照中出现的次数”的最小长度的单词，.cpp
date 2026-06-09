@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> statistic(string word)
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

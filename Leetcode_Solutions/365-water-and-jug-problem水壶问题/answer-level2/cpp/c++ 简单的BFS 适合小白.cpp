@@ -1,9 +1,9 @@
-### 解题思路
-列举各种情况BFS即可
+// ### 解题思路
+// 列举各种情况BFS即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool canMeasureWater(int x, int y, int z){
@@ -124,4 +124,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

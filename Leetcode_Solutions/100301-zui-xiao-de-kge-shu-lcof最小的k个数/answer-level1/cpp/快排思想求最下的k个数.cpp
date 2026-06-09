@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -21,5 +21,5 @@ public:
         else quick_sort(arr,j+1,r,k-sl);
     }
 };
-```
->ps: 很奇怪 手写快排，比这个还快？？？？？
+// ```
+// >ps: 很奇怪 手写快排，比这个还快？？？？？

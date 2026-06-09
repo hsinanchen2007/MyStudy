@@ -1,5 +1,5 @@
-![1D694741-E74E-457A-A786-9E1A83971D8E.jpeg](https://pic.leetcode-cn.com/03ae8c3d481d404293e93223db9147f7a0d1c0cb73c1eebcd37698f28fddce8b-1D694741-E74E-457A-A786-9E1A83971D8E.jpeg)
-```
+// ![1D694741-E74E-457A-A786-9E1A83971D8E.jpeg](https://pic.leetcode-cn.com/03ae8c3d481d404293e93223db9147f7a0d1c0cb73c1eebcd37698f28fddce8b-1D694741-E74E-457A-A786-9E1A83971D8E.jpeg)
+// ```
 /*
 基本算法：对于不完全为 0 的非负整数 a，b，gcd（a，b）表示 a，b 的最大公约数，必然存在整数对 x，y，
 使得gcd（a，b）= ax + by。
@@ -42,5 +42,5 @@ bool canMeasureWater(int x, int y, int z){
         return false;
     }
 }
-```
+// ```
 

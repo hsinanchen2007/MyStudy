@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -10,4 +10,4 @@ public:
         return mx >= nums.size() - 1;
     }
 };
-```
+// ```

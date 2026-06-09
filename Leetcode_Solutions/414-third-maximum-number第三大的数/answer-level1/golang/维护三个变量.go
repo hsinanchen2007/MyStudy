@@ -1,10 +1,10 @@
-### 解题思路
-一开始n1 为第一个元素，n2,n3为math.MinInt32-1
-遍历数组，然后进行比较，调整n1,n2,n3
+// ### 解题思路
+// 一开始n1 为第一个元素，n2,n3为math.MinInt32-1
+// 遍历数组，然后进行比较，调整n1,n2,n3
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func thirdMax(nums []int) int {
     n1,n2,n3 := nums[0],math.MinInt32-1,math.MinInt32-1
     for i:=1;i<len(nums);i++ {
@@ -27,4 +27,4 @@ func thirdMax(nums []int) int {
     }
     return n3
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-找到所有可以插入的位置；
-然后进行合并，如果有重复或者重合；
-输出。
+// ### 解题思路
+// 找到所有可以插入的位置；
+// 然后进行合并，如果有重复或者重合；
+// 输出。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String boldWords(String[] words, String S) {
         //error cases
@@ -110,4 +110,4 @@ class Solution {
             return ret;
         }
     }
-```
+// ```

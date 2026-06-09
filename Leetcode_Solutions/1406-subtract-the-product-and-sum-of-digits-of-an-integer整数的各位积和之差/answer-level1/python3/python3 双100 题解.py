@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         num = []
@@ -14,4 +14,4 @@ class Solution:
             p = p * item
             s = s + item
         return p - s
-```
+# ```

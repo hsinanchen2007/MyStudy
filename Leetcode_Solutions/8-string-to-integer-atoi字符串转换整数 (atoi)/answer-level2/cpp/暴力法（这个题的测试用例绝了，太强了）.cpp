@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/e7e829e6ea950b2adadec68d5f2aa6ec2ab3f9e8e5259692507d677768be48cb-image.png)
-暴力法遍历字符串
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/e7e829e6ea950b2adadec68d5f2aa6ec2ab3f9e8e5259692507d677768be48cb-image.png)
+// 暴力法遍历字符串
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void Trim(string& str)
@@ -124,4 +124,4 @@ public:
 	}
 	
 };
-```
+// ```

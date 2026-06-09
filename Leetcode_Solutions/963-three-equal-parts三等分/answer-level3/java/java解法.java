@@ -1,6 +1,6 @@
-执行用时 :18 ms, 击败了47.83%的用户。
-内存消耗 :53.1 MB, 击败了33.33%的用户。
-```
+// 执行用时 :18 ms, 击败了47.83%的用户。
+// 内存消耗 :53.1 MB, 击败了33.33%的用户。
+// ```
 class Solution {
     public int[] threeEqualParts(int[] A) {
         int[] res = new int[]{-1,-1};
@@ -46,4 +46,4 @@ class Solution {
                
     }
 }
-```
+// ```

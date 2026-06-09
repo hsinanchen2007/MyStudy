@@ -1,11 +1,11 @@
-### 解题思路
-典型的回溯法，剪枝有点搞心态，不够细致！
-对于当前节点有两种情况：
-1. 作为一种一个子集的结尾添加到结果集中
-2. 作为一个子集中的元素添加进去，继续往递归树向下添加。
-### 代码
+// ### 解题思路
+// 典型的回溯法，剪枝有点搞心态，不够细致！
+// 对于当前节点有两种情况：
+// 1. 作为一种一个子集的结尾添加到结果集中
+// 2. 作为一个子集中的元素添加进去，继续往递归树向下添加。
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -49,4 +49,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     (*returnSize)++;
     return retArray;
 }
-```
+// ```

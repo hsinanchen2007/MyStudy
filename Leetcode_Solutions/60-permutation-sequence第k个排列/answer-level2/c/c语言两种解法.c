@@ -1,7 +1,7 @@
-法一：
-把k从0计数，k = index(0)*(n-1)! + index(1)*(n-2)! + index(n-1) *(0)!
-index(i) 是 n个数按升序排列，i个序列的下标。并且当第nums[i]数字被选择后，后面的序列不能再选择它
-```
+// 法一：
+// 把k从0计数，k = index(0)*(n-1)! + index(1)*(n-2)! + index(n-1) *(0)!
+// index(i) 是 n个数按升序排列，i个序列的下标。并且当第nums[i]数字被选择后，后面的序列不能再选择它
+// ```
 int calcFactorial( int l) {
 	if (l == 0 || l == 1) {
 		return 1;
@@ -33,11 +33,11 @@ char * getPermutation2(int n, int k) {
 	}
 	return result;
 }
-```
+// ```
 
-法二：
-利用leecode 31题,循环k次获取结果
-```
+// 法二：
+// 利用leecode 31题,循环k次获取结果
+// ```
 int compareInt(void const *v1, void const *v2) {
 	return *(int *)v1 > *(int*)v2;
 }
@@ -85,4 +85,4 @@ char * getPermutation(int n, int k) {
 	return result;
 }
 
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-双指针法，矩形的面积取决于两边的短板。
-宽则是（right - left）
-每次进行移动，丢弃短边。
-需要注意的是，计算面积的时候，长是两边较短的那一边
+// ### 解题思路
+// 双指针法，矩形的面积取决于两边的短板。
+// 宽则是（right - left）
+// 每次进行移动，丢弃短边。
+// 需要注意的是，计算面积的时候，长是两边较短的那一边
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxArea(int* height, int heightSize){
     if (height == NULL || heightSize == 0) {
         return 0;
@@ -33,4 +33,4 @@ int maxArea(int* height, int heightSize){
     }
     return max;
 }
-```
+// ```

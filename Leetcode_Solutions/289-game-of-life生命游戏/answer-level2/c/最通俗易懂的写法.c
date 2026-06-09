@@ -1,10 +1,10 @@
-### 解题思路
-拷贝一个`board_tmp`作为当前细胞状态，board存放下一次结果
-遍历`board_tmp`中每一个细胞，根据条件更新board
+// ### 解题思路
+// 拷贝一个`board_tmp`作为当前细胞状态，board存放下一次结果
+// 遍历`board_tmp`中每一个细胞，根据条件更新board
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int getAlive(int **board, int boardSize, int boardColSize, int row, int col) {
 	int sum = 0;
@@ -67,4 +67,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize) {
 	}
 }
 
-```
+// ```

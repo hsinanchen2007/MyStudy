@@ -1,5 +1,5 @@
-遍历单元格，计算每个格子的立方体叠成的表面积s = 底面+顶面+四周*n(当前立方体个数)，再根据周围是否有立方体以及有多少个立方体进行相减 s -= Math.min(currentLength, anotherLength);
-```js
+// 遍历单元格，计算每个格子的立方体叠成的表面积s = 底面+顶面+四周*n(当前立方体个数)，再根据周围是否有立方体以及有多少个立方体进行相减 s -= Math.min(currentLength, anotherLength);
+// ```js
 var surfaceArea = function(grid) {
     var count = 0;
     var r = grid.length;
@@ -18,4 +18,4 @@ var surfaceArea = function(grid) {
     }
     return count;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考题解区答案。
+# ### 解题思路
+# 参考题解区答案。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -25,4 +25,4 @@ class Solution:
                     board[row][col] = 0
                 if copy_board[row][col] == 0 and live_neighbors == 3:
                     board[row][col] = 1
-```
+# ```

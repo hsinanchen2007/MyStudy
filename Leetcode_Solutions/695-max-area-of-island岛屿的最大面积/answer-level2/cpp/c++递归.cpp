@@ -1,9 +1,9 @@
-### 解题思路
-不用额外开数组，用原数组记录是否使用过
+// ### 解题思路
+// 不用额外开数组，用原数组记录是否使用过
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int func(vector<vector<int>>& vec,int i,int j){
@@ -20,4 +20,4 @@ public:
             return ans;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int threeSumSmaller(int[] nums, int target) {
         int n = nums.length;
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

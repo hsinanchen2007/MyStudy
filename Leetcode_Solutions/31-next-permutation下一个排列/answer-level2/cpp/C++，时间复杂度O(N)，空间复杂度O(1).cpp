@@ -1,6 +1,6 @@
-处理类似[1,5,4,3,2]的情况时为最差时间复杂度O(2N + NlogN) ~= O(N), 空间复杂度O(1)
+// 处理类似[1,5,4,3,2]的情况时为最差时间复杂度O(2N + NlogN) ~= O(N), 空间复杂度O(1)
 
-```
+// ```
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         sort(nums.begin(), nums.end());
     }
 };
-```
+// ```

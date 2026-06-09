@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-加入指针，值相同时保存指标最大的元素
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 加入指针，值相同时保存指标最大的元素
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 flag += 1
                 nums[flag] = nums[i]
         return flag + 1
-```
+# ```

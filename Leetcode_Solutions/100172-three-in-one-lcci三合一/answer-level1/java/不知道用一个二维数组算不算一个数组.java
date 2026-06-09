@@ -1,5 +1,5 @@
-定义一个二维数组保存数据，然后最后一个位置放当前栈长度
-```
+// 定义一个二维数组保存数据，然后最后一个位置放当前栈长度
+// ```
 class TripleInOne {
 
     /**
@@ -48,4 +48,4 @@ class TripleInOne {
  * int param_3 = obj.peek(stackNum);
  * boolean param_4 = obj.isEmpty(stackNum);
  */
-```
+// ```

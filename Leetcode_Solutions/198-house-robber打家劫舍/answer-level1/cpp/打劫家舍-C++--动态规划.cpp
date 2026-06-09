@@ -1,13 +1,13 @@
-### 解题思路
-f(1)=A1;
-f(2)=max(A1,A2)
-f(3)=max(f(2),f(1)+A3)
-...
-f(k)=max(f(k-1),f(k-2)+Ak)  关键就在于找公式
+// ### 解题思路
+// f(1)=A1;
+// f(2)=max(A1,A2)
+// f(3)=max(f(2),f(1)+A3)
+// ...
+// f(k)=max(f(k-1),f(k-2)+Ak)  关键就在于找公式
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int max(int n1,int n2)
@@ -30,4 +30,4 @@ public:
       return curMax;
     }
 };
-```
+// ```

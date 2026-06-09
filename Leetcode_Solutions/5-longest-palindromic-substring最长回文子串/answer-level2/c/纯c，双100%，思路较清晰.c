@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/a3d209df432d3984e826c9c824c4882f7aa552a1c5f5a6d579741e0dbc474810-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a3d209df432d3984e826c9c824c4882f7aa552a1c5f5a6d579741e0dbc474810-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestPalindrome(char * s){
     int right = 0, left = 0, count = 0;
     int startidx = 0;
@@ -30,4 +30,4 @@ char * longestPalindrome(char * s){
     s[startidx + max_len] = '\0';
     return s + startidx;
 }
-```
+// ```

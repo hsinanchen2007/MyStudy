@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //dp[i][j]: word1[0...i]转换成word2[0...j]的最少操作数
 //dp[i - 1][j] : 删除第i个
 //dp[i - 1][j - 1] : 替换第i个
@@ -37,4 +37,4 @@ func min(x, y int) int {
     } 
     return y
 }
-```
+// ```

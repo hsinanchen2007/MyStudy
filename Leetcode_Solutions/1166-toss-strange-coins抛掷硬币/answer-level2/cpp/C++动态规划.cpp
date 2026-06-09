@@ -1,15 +1,15 @@
-### 解题思路
-dp[i][j]表示0~i枚硬币j个正面朝上的概率
-// 1. 前一次已有j个正面朝上，这一次反面朝上
-// 2. 前一次已有j-1个正面朝上，这一次还是正面朝上
-dp[i][j] = dp[i - 1][j] * (1 - prob[i]) + dp[i - 1][j - 1] * prob[i];
+// ### 解题思路
+// dp[i][j]表示0~i枚硬币j个正面朝上的概率
+// // 1. 前一次已有j个正面朝上，这一次反面朝上
+// // 2. 前一次已有j-1个正面朝上，这一次还是正面朝上
+// dp[i][j] = dp[i - 1][j] * (1 - prob[i]) + dp[i - 1][j - 1] * prob[i];
 
-![图片.png](https://pic.leetcode-cn.com/76fddcee6c898d293e744739b3eb89b85fa47ab3a5e8c0a1c4720c728af0e7d0-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/76fddcee6c898d293e744739b3eb89b85fa47ab3a5e8c0a1c4720c728af0e7d0-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double probabilityOfHeads(vector<double>& prob, int target) {
@@ -43,4 +43,4 @@ public:
         return dp[n - 1][target];
     }
 };
-```
+// ```

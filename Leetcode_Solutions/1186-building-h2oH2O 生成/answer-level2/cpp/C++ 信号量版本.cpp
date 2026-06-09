@@ -1,4 +1,4 @@
-```
+// ```
 
 #include <semaphore.h>
 // 用四个信号量，两个用来限制h和o的数量，两个用来同步h2o。
@@ -43,7 +43,7 @@ public:
 private:
     sem_t h_limit, o_limit, h, o;
 };
-```
+// ```
 
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-在haystack中取一段长度为needle.size()的子串，依次与needle比较就可以了。
+// ### 解题思路
+// 在haystack中取一段长度为needle.size()的子串，依次与needle比较就可以了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -16,4 +16,4 @@ public:
         return -1; 
     }
 };
-```
+// ```

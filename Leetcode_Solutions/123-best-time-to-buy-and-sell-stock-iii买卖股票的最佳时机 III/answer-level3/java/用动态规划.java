@@ -1,9 +1,9 @@
-### 解题思路
-用动态规划
+// ### 解题思路
+// 用动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) {
@@ -36,4 +36,4 @@ class Solution {
         return Math.max(dp[m][1], Math.max(dp[m][3], dp[m][5]));
     }
 }
-```
+// ```

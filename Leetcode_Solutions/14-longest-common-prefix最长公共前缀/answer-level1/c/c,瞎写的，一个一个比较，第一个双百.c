@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/28b8c0b8906e2705d7b05d6e7796d55229ea7c9c9d955b745d0e328c8b6bcfbf-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/28b8c0b8906e2705d7b05d6e7796d55229ea7c9c9d955b745d0e328c8b6bcfbf-image.png)
+// ```
 #define MAX_SIZE 26
 char * longestCommonPrefix(char ** strs, int strsSize){
     
@@ -24,4 +24,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
      return a;
 
 }
-```
+// ```

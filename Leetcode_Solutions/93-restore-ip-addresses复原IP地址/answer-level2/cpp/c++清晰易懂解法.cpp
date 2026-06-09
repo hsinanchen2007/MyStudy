@@ -1,7 +1,7 @@
-DFS深度搜索思路，数值>255非法，以零开头长度大于等于2非法；
-不同于常规回溯思路，同层只用最多遍历3个数字，依次查看是否满足数值要求；
-各段的数值状态也是分段存储的，互不干涉，使用vector<string> path来存储；
-```
+// DFS深度搜索思路，数值>255非法，以零开头长度大于等于2非法；
+// 不同于常规回溯思路，同层只用最多遍历3个数字，依次查看是否满足数值要求；
+// 各段的数值状态也是分段存储的，互不干涉，使用vector<string> path来存储；
+// ```
 class Solution {
 public:
     bool isValid(string ip)
@@ -45,4 +45,4 @@ vector<string> restoreIpAddresses(string s)
     return res;
 }
 };
-```
+// ```

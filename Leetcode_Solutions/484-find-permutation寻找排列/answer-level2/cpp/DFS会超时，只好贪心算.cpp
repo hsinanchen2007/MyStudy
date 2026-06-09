@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findPermutation(string s) {
@@ -39,4 +39,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

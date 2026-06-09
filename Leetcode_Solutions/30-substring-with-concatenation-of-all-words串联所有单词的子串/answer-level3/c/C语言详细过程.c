@@ -1,11 +1,11 @@
-![result.JPG](https://pic.leetcode-cn.com/bfe043a520e4fc8537d5bf9d6c4d5dc060a8baa71ff27c34d2f7ce2893d7e7dd-result.JPG)
-整个过程如下：
-![image.png](https://pic.leetcode-cn.com/585e7f492169c5af0a317661a4d81ea6761c5aa323d55660fa3b13a03f842c52-image.png)
-![image.png](https://pic.leetcode-cn.com/1e5b5ad0526151c051c58e86c28430f33220e08ba410515adca4da0633daa8ac-image.png)
-![image.png](https://pic.leetcode-cn.com/8a0d495fa65f25d5da55dded4d963ca5e3ab0f0223eb4438432d1559cec59a49-image.png)
+// ![result.JPG](https://pic.leetcode-cn.com/bfe043a520e4fc8537d5bf9d6c4d5dc060a8baa71ff27c34d2f7ce2893d7e7dd-result.JPG)
+// 整个过程如下：
+// ![image.png](https://pic.leetcode-cn.com/585e7f492169c5af0a317661a4d81ea6761c5aa323d55660fa3b13a03f842c52-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1e5b5ad0526151c051c58e86c28430f33220e08ba410515adca4da0633daa8ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8a0d495fa65f25d5da55dded4d963ca5e3ab0f0223eb4438432d1559cec59a49-image.png)
 
-附代码：
-```
+// 附代码：
+// ```
 /**
 * Note: The returned array must be malloced, assume caller calls free().
 */
@@ -108,5 +108,5 @@ int* findSubstring(char * s, char ** words, int wordsSize, int* returnSize) {
     free(index_buf);
 	return result_buf;
 }
-```
+// ```
 

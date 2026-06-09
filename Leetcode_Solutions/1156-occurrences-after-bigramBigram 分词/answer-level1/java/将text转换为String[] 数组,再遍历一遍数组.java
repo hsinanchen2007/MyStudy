@@ -1,12 +1,12 @@
-![2019122302.PNG](https://pic.leetcode-cn.com/43a6e7d0cd3baafa4c2f2d5a82ce23f69f7059cb6c2b1ab6fd3c4904f5d1a279-2019122302.PNG)
-### 解题思路
-首先,将text切割成String[] myString数组,再遍历一遍数组myString,
-遍历过程中分别将myString[i]与first比较,以及将myString[i+1]与second比较,
-若两个比较同时相等,则记录myString[i+2]字符串(字符串的记录用ArrayList完成),
-最后用一个for循环将ArrayList转换成Array,
-### 代码
+// ![2019122302.PNG](https://pic.leetcode-cn.com/43a6e7d0cd3baafa4c2f2d5a82ce23f69f7059cb6c2b1ab6fd3c4904f5d1a279-2019122302.PNG)
+// ### 解题思路
+// 首先,将text切割成String[] myString数组,再遍历一遍数组myString,
+// 遍历过程中分别将myString[i]与first比较,以及将myString[i+1]与second比较,
+// 若两个比较同时相等,则记录myString[i+2]字符串(字符串的记录用ArrayList完成),
+// 最后用一个for循环将ArrayList转换成Array,
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findOcurrences(String text, String first, String second) {
         //########耗时1ms
@@ -39,4 +39,4 @@ class Solution {
         return finalRes;
     }
 }
-```
+// ```

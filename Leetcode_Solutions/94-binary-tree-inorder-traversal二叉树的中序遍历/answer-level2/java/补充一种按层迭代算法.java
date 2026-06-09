@@ -1,5 +1,5 @@
-基本思路：从上到下，按层，按照左中顺序依次将节点存入list即可。
-```
+// 基本思路：从上到下，按层，按照左中顺序依次将节点存入list即可。
+// ```
 public List<Integer> inorderTraversal4(TreeNode root) {
         //方法3的优化版：试着不用noNodes, 左右add后，将left right置为空即可
         List<Integer> list = new ArrayList<>();
@@ -37,4 +37,4 @@ public List<Integer> inorderTraversal4(TreeNode root) {
         }
         return list;
     }
-```
+// ```

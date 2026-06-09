@@ -1,9 +1,9 @@
-### 解题思路
-先将字母按数量排序，然后将字母一个一个插入Out中，插入规则为，如果找到两个相邻是一样的
-就插入这里，如果Out里没有相邻是一样的则从头开始在一个前后与自己不同的地方插入。
-### 代码
+# ### 解题思路
+# 先将字母按数量排序，然后将字母一个一个插入Out中，插入规则为，如果找到两个相邻是一样的
+# 就插入这里，如果Out里没有相邻是一样的则从头开始在一个前后与自己不同的地方插入。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reorganizeString(self, S: str) -> str:
         words = [[chr(97+i),0] for i in range(26)]
@@ -36,4 +36,4 @@ class Solution:
             if word[i] == word[i+1]:
                 return True
         return False
-```
+# ```

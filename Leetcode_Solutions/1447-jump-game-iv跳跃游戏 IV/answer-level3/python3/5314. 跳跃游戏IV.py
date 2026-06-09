@@ -1,9 +1,9 @@
-### 解题思路
-这里是powcai大佬的代码，我主要是理解了这份代码：预处理+BFS，预处理是把连续相同的元素只保留前后两个索引，BFS的终止条件就是就是当前为所寻结点，每一层（queue每次保留一层结点）遍历结束后，step+1.
+# ### 解题思路
+# 这里是powcai大佬的代码，我主要是理解了这份代码：预处理+BFS，预处理是把连续相同的元素只保留前后两个索引，BFS的终止条件就是就是当前为所寻结点，每一层（queue每次保留一层结点）遍历结束后，step+1.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
         from collections import defaultdict
@@ -30,4 +30,4 @@ class Solution:
                         visited.add(j)
                         queue.appendleft(j)
             step += 1
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-求出转移方程，直接动态规划
-![image.png](https://pic.leetcode-cn.com/d98199cc659649789e78aa5fddb33f461b5ce5b4b66fc4c50783cc25d07c31e6-image.png)
+// ### 解题思路
+// 求出转移方程，直接动态规划
+// ![image.png](https://pic.leetcode-cn.com/d98199cc659649789e78aa5fddb33f461b5ce5b4b66fc4c50783cc25d07c31e6-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDecodings(string s) {
@@ -31,4 +31,4 @@ public:
         return dp[s.size()];
     }
 };
-```
+// ```

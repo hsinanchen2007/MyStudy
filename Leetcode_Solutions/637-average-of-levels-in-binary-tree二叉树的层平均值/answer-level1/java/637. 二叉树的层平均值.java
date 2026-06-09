@@ -1,14 +1,14 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/27
- * 
- * 解题思路: 层次遍历求平均值
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/27
+//  * 
+//  * 解题思路: 层次遍历求平均值
+//  * 
+//  */
+// ```
 class Solution {
     List<Double> list = new ArrayList<>();
     public List<Double> averageOfLevels(TreeNode root) {
@@ -39,4 +39,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

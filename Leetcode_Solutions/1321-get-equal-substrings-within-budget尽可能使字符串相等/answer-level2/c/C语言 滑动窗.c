@@ -1,9 +1,9 @@
-此题比较容易，滑动窗的套路题，下面是代码，思路参见注释
-执行结果：通过
-显示详情 
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :5.9 MB, 在所有 C 提交中击败了100.00%的用户
-```
+// 此题比较容易，滑动窗的套路题，下面是代码，思路参见注释
+// 执行结果：通过
+// 显示详情 
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :5.9 MB, 在所有 C 提交中击败了100.00%的用户
+// ```
 int equalSubstring(char * s, char * t, int maxCost)
 {
     int begin = 0, end = 0, max = 0, cost = maxCost;
@@ -21,4 +21,4 @@ int equalSubstring(char * s, char * t, int maxCost)
     }
     return max;
 }
-```
+// ```

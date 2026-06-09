@@ -1,10 +1,10 @@
-### 解题思路
-解法很简单，sort一遍，找出头尾不一样的坐标，相减可得结果。
-注意区分坐标是否相同。
+// ### 解题思路
+// 解法很简单，sort一遍，找出头尾不一样的坐标，相减可得结果。
+// 注意区分坐标是否相同。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findUnsortedSubarray(nums []int) int {
     tmp := make([]int,len(nums))
 	start, end := -1, -1
@@ -27,4 +27,4 @@ func findUnsortedSubarray(nums []int) int {
     }
 	return end-start+1
 }
-```
+// ```

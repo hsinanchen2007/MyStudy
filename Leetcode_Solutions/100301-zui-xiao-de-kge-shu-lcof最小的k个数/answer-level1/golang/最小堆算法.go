@@ -1,6 +1,6 @@
-最小堆算法，空间时间秒杀，取前k个最小堆，迭代即可停止。
+// 最小堆算法，空间时间秒杀，取前k个最小堆，迭代即可停止。
 
-```go
+// ```go
 func heapify(root int, length int, arr []int) {
     for root < length {
         min, left, right := root, 2*root+1, 2*root+2
@@ -29,10 +29,10 @@ func getLeastNumbers(arr []int, k int) []int {
     }
     return arr[len(arr)-k:]
 }
-```
+// ```
 
-快速排序（暴力解法）
-```golang
+// 快速排序（暴力解法）
+// ```golang
 func quickSort(l int, r int, arr []int) {
     if l >= r {
         return
@@ -57,5 +57,5 @@ func getLeastNumbers(arr []int, k int) []int {
     quickSort(0, len(arr) - 1, arr)
     return arr[:k]
 }
-```
+// ```
 

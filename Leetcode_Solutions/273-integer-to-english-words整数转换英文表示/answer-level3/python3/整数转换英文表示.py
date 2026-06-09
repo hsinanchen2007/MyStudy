@@ -1,8 +1,8 @@
-### 解题思路
-蒟蒻递归写法，望dalao轻喷
-### 代码
+# ### 解题思路
+# 蒟蒻递归写法，望dalao轻喷
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberToWords(self, num: int) -> str:
         if num==0: return "Zero";
@@ -47,4 +47,4 @@ class Solution:
         recursion(num,0);
         output=" ".join(res);
         return output
-```
+# ```

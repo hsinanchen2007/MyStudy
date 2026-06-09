@@ -1,10 +1,10 @@
-### 解题思路
-- 二叉树的中序遍历就是从小到大的递增的顺序
-- DFS：深度搜索，如果当前状态不符合回到上一步的状态。
+// ### 解题思路
+// - 二叉树的中序遍历就是从小到大的递增的顺序
+// - DFS：深度搜索，如果当前状态不符合回到上一步的状态。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var kthLargest = function(root, k) {
     return arr.reverse()[k-1];
 
 };
-```
+// ```

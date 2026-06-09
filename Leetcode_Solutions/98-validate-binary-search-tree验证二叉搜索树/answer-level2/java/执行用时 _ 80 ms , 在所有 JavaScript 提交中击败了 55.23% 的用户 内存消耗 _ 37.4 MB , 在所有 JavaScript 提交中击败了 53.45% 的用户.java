@@ -1,4 +1,4 @@
-```
+// ```
 var isValidBST = function (root, min, max) {
 
     if (root == null) return true
@@ -10,4 +10,4 @@ var isValidBST = function (root, min, max) {
     }
     return isValidBST(root.left, min, root.val) && isValidBST(root.right, root.val, max)
 };
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/825824de5d74780d374298bbb5639886730588cf8acd1a9dde7bde2535c26ec3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/825824de5d74780d374298bbb5639886730588cf8acd1a9dde7bde2535c26ec3-image.png)
 
 
-算法核心：将链表节点放入数组中
-```
+// 算法核心：将链表节点放入数组中
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,4 +47,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     free(Node[i - n]);
     return head;
 }
-```
+// ```

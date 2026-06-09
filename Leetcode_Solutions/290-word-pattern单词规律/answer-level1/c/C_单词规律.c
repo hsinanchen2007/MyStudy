@@ -1,16 +1,16 @@
-### 解题思路
-参照我的题解：
-同构字符串https://leetcode-cn.com/problems/isomorphic-strings/solution/c_tong-gou-zi-fu-chuan-by-liu-shuo-7/
+// ### 解题思路
+// 参照我的题解：
+// 同构字符串https://leetcode-cn.com/problems/isomorphic-strings/solution/c_tong-gou-zi-fu-chuan-by-liu-shuo-7/
 
-本题不同的在于第二个字符串不再代表字符的集合，而是变成了一个字符串的集合。所以要换成字符串版本的“比较第一次出现的位置是否相同”
-代码多，因为没用库函数，自己写的链表，但是效率双百，没问题。
-![290单词规律.jpg](https://pic.leetcode-cn.com/81ee35eb160b35c8cfc1ec970fa80aa8da5a08663867d57486a0de3a52b6711f-290%E5%8D%95%E8%AF%8D%E8%A7%84%E5%BE%8B.jpg)
+// 本题不同的在于第二个字符串不再代表字符的集合，而是变成了一个字符串的集合。所以要换成字符串版本的“比较第一次出现的位置是否相同”
+// 代码多，因为没用库函数，自己写的链表，但是效率双百，没问题。
+// ![290单词规律.jpg](https://pic.leetcode-cn.com/81ee35eb160b35c8cfc1ec970fa80aa8da5a08663867d57486a0de3a52b6711f-290%E5%8D%95%E8%AF%8D%E8%A7%84%E5%BE%8B.jpg)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //-------------------------------针对字符的链表
 typedef struct NodeChar {
 	char data;
@@ -158,4 +158,4 @@ bool wordPattern(char * c, char * str)
         }
     return 1;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-# 视频
-![盛最多的水 双指针.mp4](c2e70eca-204b-4c2c-a722-96df1f60d017)
-# 代码
-```
+# # 视频
+# ![盛最多的水 双指针.mp4](c2e70eca-204b-4c2c-a722-96df1f60d017)
+# # 代码
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         # area = (right - left) * min(height[left], height[right])
@@ -28,4 +28,4 @@ class Solution:
             for j in range(i):
                 ma = max(ma, (i-j)*min(height[i], height[j]))
         return ma
-```
+# ```

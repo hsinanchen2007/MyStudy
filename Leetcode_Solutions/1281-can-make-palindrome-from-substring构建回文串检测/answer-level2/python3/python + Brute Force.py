@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canMakePaliQueries(self, s: str, queries: List[List[int]]) -> List[bool]:
         dic_arr = []
@@ -16,4 +16,4 @@ class Solution:
                     if cnt // 2 > k: break
             res.append(False if cnt // 2 > k else True)
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-看
+// ### 解题思路
+// 看
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var missingNumber = function(nums) {
     },0)
     return s-sum
 };
-```
+// ```

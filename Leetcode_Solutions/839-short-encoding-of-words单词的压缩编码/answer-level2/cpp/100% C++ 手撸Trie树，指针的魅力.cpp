@@ -1,8 +1,8 @@
-思路：每个字符串反向构建 TrieTree，根结点为 #。之后所有叶子结点高度之和即为答案。
+// 思路：每个字符串反向构建 TrieTree，根结点为 #。之后所有叶子结点高度之和即为答案。
 
-下面上代码
+// 下面上代码
 
-```c++
+// ```c++
 // TrieTree结构
 typedef struct _TrieTree {
     char value;
@@ -101,4 +101,4 @@ public:
         return result;
     }
 };
-```
+// ```

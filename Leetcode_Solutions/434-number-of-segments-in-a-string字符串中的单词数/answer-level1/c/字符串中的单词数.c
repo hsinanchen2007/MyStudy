@@ -1,5 +1,5 @@
-**统计前一个为空格且自身不是空格的数量即可。(注意s[0])**
-```c
+// **统计前一个为空格且自身不是空格的数量即可。(注意s[0])**
+// ```c
 int countSegments(char * s)
 {
     int cnt = 0, i, len = strlen(s);
@@ -9,4 +9,4 @@ int countSegments(char * s)
     }
     return cnt;
 }
-```
+// ```

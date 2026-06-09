@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
         # cnt of increasing sequence
@@ -18,4 +18,4 @@ class Solution:
         for i, d in enumerate(dp):
             if d == max_cnt: ans += cnt[i]
         return ans
-```
+# ```

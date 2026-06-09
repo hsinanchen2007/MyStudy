@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             return float(lst[value - 1] + lst[value]) / 2
         else:
             return lst[value]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int max_difference=0, difference;
     for(int i=0;i<pricesSize;i++)
@@ -23,4 +23,4 @@ int maxProfit(int* prices, int pricesSize){
     return max_difference;
 
 }
-```
+// ```

@@ -1,5 +1,5 @@
-刚开始忘了加回溯子函数的终止条件，返回了最原始的board。。。
-```
+// 刚开始忘了加回溯子函数的终止条件，返回了最原始的board。。。
+// ```
 bool backtrack(int row,int column,char **board,int**hashrow,int **hashcol,int **subboard);
 void inithash(char **board,int**hashrow,int **hashcol,int **subboard);
 bool isok(int i,int row,int column,int**hashrow,int **hashcolcol,int **subboard);
@@ -92,5 +92,5 @@ void freshhash(int i, int row, int column, int**hashrow,int **hashcol,int **subb
     hashcol[column][i]=0;
     subboard[row/3*3+column/3][i]=0;
 }
-```
-![image.png](https://pic.leetcode-cn.com/982856a9bf4d86d7cc851941b82fab2bf868e4950cea4b3607edbd8de8171f97-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/982856a9bf4d86d7cc851941b82fab2bf868e4950cea4b3607edbd8de8171f97-image.png)

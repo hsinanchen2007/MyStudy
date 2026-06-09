@@ -1,5 +1,5 @@
 
-```
+-- ```
 SELECT b.Name AS Department, a.name AS Employee, a.Salary
 FROM (
 	SELECT Id, Name, Salary, DepartmentId
@@ -12,4 +12,4 @@ FROM (
 	LEFT JOIN Department b ON a.DepartmentId = b.Id 
 WHERE b.Id IS NOT NULL
 
-```
+-- ```

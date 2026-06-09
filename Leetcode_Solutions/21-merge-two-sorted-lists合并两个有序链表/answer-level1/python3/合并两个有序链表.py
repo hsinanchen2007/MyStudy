@@ -1,9 +1,9 @@
-### 迭代法
+# ### 迭代法
 
-* 3个指针：`ptr1`和`ptr2`指向两个链表，`ptr3`指向新合成的链表。
-* 时间复杂度: O(m+n), 空间复杂度: O(1)
+# * 3个指针：`ptr1`和`ptr2`指向两个链表，`ptr3`指向新合成的链表。
+# * 时间复杂度: O(m+n), 空间复杂度: O(1)
 
-```python []
+# ```python []
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         dummy = ListNode(0)
@@ -21,12 +21,12 @@ class Solution:
         elif ptr2:
             ptr3.next = ptr2
         return dummy.next
-```
-### 递归法
+# ```
+# ### 递归法
 
-* 时间复杂度是O(m+n), 空间复杂度是O(m+n)，平均意义上。最好的情况应该都能达到O(min(m, n))
+# * 时间复杂度是O(m+n), 空间复杂度是O(m+n)，平均意义上。最好的情况应该都能达到O(min(m, n))
 
-```python []
+# ```python []
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         if l1 is None:
@@ -40,4 +40,4 @@ class Solution:
             l1.next = self.mergeTwoLists(l1.next, l2)
             return l1
     
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-广度遍历，之前没有接触过这样类型的广度遍历，值得思考
-self.seen如果使用list会超过时间限制。
-注意结束条件
+# ### 解题思路
+# 广度遍历，之前没有接触过这样类型的广度遍历，值得思考
+# self.seen如果使用list会超过时间限制。
+# 注意结束条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         xx = 0
@@ -39,4 +39,4 @@ class Solution:
                 self.states.append((xx+yy, 0))
         return False
     
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于要输出第几大或者第几小的值的问题，应该首先想到用堆来解决，相比于先进行排序的方法来说，使用堆具有更低的时间复杂度。
+# ### 解题思路
+# 对于要输出第几大或者第几小的值的问题，应该首先想到用堆来解决，相比于先进行排序的方法来说，使用堆具有更低的时间复杂度。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Heap:
     def __init__(self):
         self.heap = [(0, 0)] # (num, num出现的次数)
@@ -62,4 +62,4 @@ class Solution(object):
         for _ in range(k):
             res.append(heap.pop())
         return res
-```
+# ```

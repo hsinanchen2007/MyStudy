@@ -1,11 +1,11 @@
-### 解题思路
-- 头尾指针分别表示0的右边界和2的左边界
-- 如果当前元素等于0，和头指针元素互换
-- 等于2，和尾指针元素互换
+// ### 解题思路
+// - 头尾指针分别表示0的右边界和2的左边界
+// - 如果当前元素等于0，和头指针元素互换
+// - 等于2，和尾指针元素互换
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -30,4 +30,4 @@ var sortColors = function(nums) {
         }
     }
 };
-```
+// ```

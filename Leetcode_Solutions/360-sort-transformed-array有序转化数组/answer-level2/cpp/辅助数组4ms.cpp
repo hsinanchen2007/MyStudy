@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortTransformedArray(vector<int>& nums, int a, int b, int c) {
@@ -40,4 +40,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

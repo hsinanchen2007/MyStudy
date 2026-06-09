@@ -1,5 +1,5 @@
-首先对text分词，注意去除多余的空格。然后就是简单的匹配了，当first匹配后， 就去匹配second。 要注意当前idx是否是最后一个值。不然会panic
-```
+// 首先对text分词，注意去除多余的空格。然后就是简单的匹配了，当first匹配后， 就去匹配second。 要注意当前idx是否是最后一个值。不然会panic
+// ```
 func findOcurrences(text string, first string, second string) []string {
     ts := strings.Split(text, " ")
     tss := make([]string, 0)
@@ -22,4 +22,4 @@ func findOcurrences(text string, first string, second string) []string {
     }
     return ret
 }
-```
+// ```

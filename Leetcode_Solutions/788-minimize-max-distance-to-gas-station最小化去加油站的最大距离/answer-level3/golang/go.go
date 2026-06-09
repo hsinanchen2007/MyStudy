@@ -1,4 +1,4 @@
-```
+// ```
 func minmaxGasDist(stations []int, K int) float64 {
 	var l, r float64 = 0, 1e8
 	for r-l > 1e-6 {
@@ -14,4 +14,4 @@ func minmaxGasDist(stations []int, K int) float64 {
 	}
 	return l
 }
-```
+// ```

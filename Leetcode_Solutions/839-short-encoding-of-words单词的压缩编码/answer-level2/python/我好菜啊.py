@@ -1,9 +1,9 @@
-### 解题思路
-就是把每个字符串倒过来用re匹配
+# ### 解题思路
+# 就是把每个字符串倒过来用re匹配
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words) -> int:
         for i in range(len(words)):
@@ -24,4 +24,4 @@ class Solution:
         return res + len(words[-1]) + 1
 
 
-```
+# ```

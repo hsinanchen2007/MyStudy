@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool dfs(int curr,vector<bool> & visit,vector<vector<bool>> &graph){
@@ -39,4 +39,4 @@ public:
         return ans;
     }
 };
-```
+// ```

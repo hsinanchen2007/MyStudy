@@ -1,6 +1,6 @@
-我们设dp[i][j]：以第j个元音字符结尾的方案数
-然后去除掉所有不合法的方案数即可。。。
-```
+// 我们设dp[i][j]：以第j个元音字符结尾的方案数
+// 然后去除掉所有不合法的方案数即可。。。
+// ```
 class Solution {
 	int mod = 1000000007;
     public int countVowelPermutation(int n) {
@@ -23,4 +23,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

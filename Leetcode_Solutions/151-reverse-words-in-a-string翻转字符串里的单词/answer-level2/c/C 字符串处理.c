@@ -1,11 +1,11 @@
-### 解题思路
-1. 去掉多余空格；
-2. 整体翻转；
-3. 单词逐个翻转
+// ### 解题思路
+// 1. 去掉多余空格；
+// 2. 整体翻转；
+// 3. 单词逐个翻转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void ReverseString(char* s, int start, int end)
 {
     if (s == NULL ) {
@@ -95,4 +95,4 @@ char * reverseWords(char * s)
     // 4. 返回结果
     return newStr;
 }
-```
+// ```

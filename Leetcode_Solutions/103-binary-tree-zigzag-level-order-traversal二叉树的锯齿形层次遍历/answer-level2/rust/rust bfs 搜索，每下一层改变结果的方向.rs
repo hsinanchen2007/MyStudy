@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-和[第102题](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) 是差不多的思路，区别在于每往下走一层要变换一次顺序，最简单的办法还是按照102广度搜索的方式自左向右搜索，如果要变方向那在把本层的结果添加到总结果集里的时候判断方向，每往下走一层改一次方向
+// 和[第102题](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) 是差不多的思路，区别在于每往下走一层要变换一次顺序，最简单的办法还是按照102广度搜索的方式自左向右搜索，如果要变方向那在把本层的结果添加到总结果集里的时候判断方向，每往下走一层改一次方向
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -63,4 +63,4 @@ pub fn zigzag_level_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> 
     res
 }
 }
-```
+// ```

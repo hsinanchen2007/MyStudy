@@ -1,4 +1,4 @@
-```
+// ```
 func validateBinaryTreeNodes(n int, leftChild []int, rightChild []int) bool {
     for i := 0; i < n; i++ {
         visited := map[int]bool{i: true}
@@ -35,4 +35,4 @@ func vbt(idx int, leftChild []int, rightChild []int, visited map[int]bool) bool 
     }
     return true
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-解题思路见代码中
+# ### 解题思路
+# 解题思路见代码中
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                     if k<j:#为什么只能写K<j,不能写k>i，因为对neg进行的从小到大的排序，如果对pos进行从大到小的排序，就可以写k>i
                         break
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -8,7 +8,7 @@ public:
         for (auto& row: matrix) reverse(row.begin(), row.end());
     }
 };
-```
-- 时间 O(N^2) 空间 O(1)
-- 前俩行转置矩阵
-- 最后一行做左右镜像
+// ```
+// - 时间 O(N^2) 空间 O(1)
+// - 前俩行转置矩阵
+// - 最后一行做左右镜像

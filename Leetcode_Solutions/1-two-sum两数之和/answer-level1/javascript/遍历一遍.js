@@ -1,9 +1,9 @@
-### 解题思路
-查找数，思路就要往Map上想，此题的核心是，只遍历一遍，一边判断，一边将值放进去，因为只要有合适的，就能匹配上
+// ### 解题思路
+// 查找数，思路就要往Map上想，此题的核心是，只遍历一遍，一边判断，一边将值放进去，因为只要有合适的，就能匹配上
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -19,4 +19,4 @@ var twoSum = function(nums, target) {
         tempDict[nums[i]] = i
     }
 };
-```
+// ```

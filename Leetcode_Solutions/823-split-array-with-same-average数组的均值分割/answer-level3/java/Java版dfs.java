@@ -1,4 +1,4 @@
-```
+// ```
     public boolean splitArraySameAverage(int[] A) {
         int sum = 0;
         for (int num : A) {
@@ -33,4 +33,4 @@
         }
         return false;
     }
-```
+// ```

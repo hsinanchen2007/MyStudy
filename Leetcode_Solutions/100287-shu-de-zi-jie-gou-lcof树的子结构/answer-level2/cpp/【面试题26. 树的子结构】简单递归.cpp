@@ -1,10 +1,10 @@
-## 思路
-如果A 和 B 当前节点值相等，则判断 B 节点的子树是否是 A 节点子树的子结构（**注意：** 此时B的子树中的空节点为A的子结构）
-否则，递归判断 B 是否是 A 的左右节点的子结构
+// ## 思路
+// 如果A 和 B 当前节点值相等，则判断 B 节点的子树是否是 A 节点子树的子结构（**注意：** 此时B的子树中的空节点为A的子结构）
+// 否则，递归判断 B 是否是 A 的左右节点的子结构
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isSubStructure(TreeNode* A, TreeNode* B) {
@@ -24,4 +24,4 @@ public:
         return helper(A->left, B->left) && helper(A->right, B->right);
     }
 };
-```
+// ```

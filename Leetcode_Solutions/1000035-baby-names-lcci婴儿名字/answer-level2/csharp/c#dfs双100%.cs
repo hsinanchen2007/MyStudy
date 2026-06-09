@@ -1,11 +1,11 @@
-### 解题思路
-1.用一个二维数组保存相似关系，但这样会导致很多无用的遍历而超时，改用HashSet<int>[]保存关系就行
-2.用dfs不断往下找相似的名字，并把数量累加
-3.每个名字只查一次，为了避免重复查，需要用passFlags做标记来
+// ### 解题思路
+// 1.用一个二维数组保存相似关系，但这样会导致很多无用的遍历而超时，改用HashSet<int>[]保存关系就行
+// 2.用dfs不断往下找相似的名字，并把数量累加
+// 3.每个名字只查一次，为了避免重复查，需要用passFlags做标记来
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string[] TrulyMostPopular(string[] names, string[] synonyms) {
         int[] counts = new int[names.Length];
@@ -89,4 +89,4 @@ public class Solution {
         return c;
     }
 }
-```
+// ```

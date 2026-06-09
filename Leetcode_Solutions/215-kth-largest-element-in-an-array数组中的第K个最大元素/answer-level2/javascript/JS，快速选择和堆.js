@@ -1,8 +1,8 @@
-### 解题思路
-&emsp;&emsp;官方解法解释已经很明确了，我只是添加下js版本的代码（主要是堆和快速选择）。因为原生js没那么多轮子所以简单的造一下。
+// ### 解题思路
+// &emsp;&emsp;官方解法解释已经很明确了，我只是添加下js版本的代码（主要是堆和快速选择）。因为原生js没那么多轮子所以简单的造一下。
 
-### 代码
-```javascript []
+// ### 代码
+// ```javascript []
 var findKthLargest = function(nums, k) {
     //堆
     function Heap(){
@@ -82,4 +82,4 @@ var findKthLargest = function(nums, k) {
         return i > k ? findKthNumber(arr, k, p, index) : findKthNumber(arr, k - i, index + 1, q)
     }
 };
-```
+// ```

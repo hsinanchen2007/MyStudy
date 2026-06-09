@@ -1,9 +1,9 @@
-解题思路简单说明：
-- 两种解决方案中，分别使用到了Semaphore及AtomicInteger来完成线程间互斥。
-- 使用AtomicInteger时，使用了while及LockSupport来完成线程等待。
+// 解题思路简单说明：
+// - 两种解决方案中，分别使用到了Semaphore及AtomicInteger来完成线程间互斥。
+// - 使用AtomicInteger时，使用了while及LockSupport来完成线程等待。
 
-1. Semaphore解决方案
-```
+// 1. Semaphore解决方案
+// ```
 class FizzBuzz {
     // Initialize the permit, limit to one.
     private Semaphore sema = new Semaphore(1);
@@ -99,10 +99,10 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```
 
-2. AtomicInteger解决方案
-```
+// 2. AtomicInteger解决方案
+// ```
 class FizzBuzz {
     // Initialize the flag.
     private AtomicInteger state = new AtomicInteger(1);
@@ -203,4 +203,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

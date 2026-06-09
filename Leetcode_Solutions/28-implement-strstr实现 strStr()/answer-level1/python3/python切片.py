@@ -1,5 +1,5 @@
-用python切片，直接一个循环下去
-```
+# 用python切片，直接一个循环下去
+# ```
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         n_len = len(needle)
@@ -11,4 +11,4 @@ class Solution:
             if haystack[i:i+n_len] == needle:
                 return i
         return -1
-```
+# ```

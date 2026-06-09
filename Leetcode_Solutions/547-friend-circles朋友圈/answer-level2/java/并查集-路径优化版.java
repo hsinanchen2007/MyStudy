@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findCircleNum(int[][] M) {
         int cnt = 0;
@@ -57,4 +57,4 @@ class UF {
     public int connections() {return cnt;}
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-感觉可以一行处理完？还是写了很长
+# ### 解题思路
+# 感觉可以一行处理完？还是写了很长
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         ret, temp1, temp2, temp3 = ['{}'.format(i + 1) for i in range(n)], -1, -1, -1
@@ -18,4 +18,4 @@ class Solution:
             ret[temp3] = 'FizzBuzz'
         return ret
 
-```
+# ```

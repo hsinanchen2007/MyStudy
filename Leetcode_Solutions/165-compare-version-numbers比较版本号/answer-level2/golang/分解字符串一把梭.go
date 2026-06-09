@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"strconv"
 	"strings"
@@ -53,4 +53,4 @@ func toInt(s string) (rtn int) {
 	return
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-由于是有序整数，那么在找到根节点后，我们可以将数组一分为二，其左侧必然是左子树，右侧必然是右子树。
+// ### 解题思路
+// 由于是有序整数，那么在找到根节点后，我们可以将数组一分为二，其左侧必然是左子树，右侧必然是右子树。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -24,4 +24,4 @@ func sortedArrayToBST(nums []int) *TreeNode {
     t.Right = sortedArrayToBST(nums[mid+1:])
     return t
 }
-```
+// ```

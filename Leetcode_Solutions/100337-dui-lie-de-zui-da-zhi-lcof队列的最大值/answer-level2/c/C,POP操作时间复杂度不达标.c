@@ -1,9 +1,9 @@
-### 解题思路
-POP操作时间复杂度不达标
+// ### 解题思路
+// POP操作时间复杂度不达标
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct listNode {
     int val;
     struct listNode *next;
@@ -86,4 +86,4 @@ void maxQueueFree(MaxQueue* obj) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

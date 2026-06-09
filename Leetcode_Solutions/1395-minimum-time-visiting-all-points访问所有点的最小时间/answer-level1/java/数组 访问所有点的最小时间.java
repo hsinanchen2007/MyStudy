@@ -1,9 +1,9 @@
-### 解题思路
-取绝对值Math.abs()
+// ### 解题思路
+// 取绝对值Math.abs()
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
 int length=0,wide=0,time=0;
@@ -20,4 +20,4 @@ for(int i=0;i<points.length-1;i++){
 return time;
     }
 }
-```
+// ```

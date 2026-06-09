@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int SetEqualInFlag(char *flag, char a, char b, int cnt)
 {
 	int i;
@@ -71,4 +71,4 @@ bool equationsPossible(char ** equations, int equationsSize){
 	
 	return true;
 }
-```
+// ```

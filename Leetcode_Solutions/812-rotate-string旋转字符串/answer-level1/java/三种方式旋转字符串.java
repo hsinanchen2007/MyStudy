@@ -1,46 +1,46 @@
-### 裁切字符串再比较
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(n)
-2. 我的解题思路
-<br />&nbsp;2.1 拼接除第一个字符之外的所有字符串，然后再在末尾拼接第一个字符
-<br />&nbsp;2.2 对比拼接后的字符串与对比字符串
-<br />&nbsp;2.3 这个解法虽然简答，但是用了太多时间。虽然是可行的，但是我不喜欢这个算法
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时2ms,消耗35.9MB内存
-<br />&nbsp;3.2 leetcode中耗时1ms,消耗35.4MB内存
-4. Q&A
+// ### 裁切字符串再比较
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(n)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 拼接除第一个字符之外的所有字符串，然后再在末尾拼接第一个字符
+// <br />&nbsp;2.2 对比拼接后的字符串与对比字符串
+// <br />&nbsp;2.3 这个解法虽然简答，但是用了太多时间。虽然是可行的，但是我不喜欢这个算法
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时2ms,消耗35.9MB内存
+// <br />&nbsp;3.2 leetcode中耗时1ms,消耗35.4MB内存
+// 4. Q&A
 
-### 拼接A自身判断旋转字符串
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(n)
-2. 我的解题思路
-<br />&nbsp;2.1 拼接A自身
-<br />&nbsp;2.2 利用String成员方法contains对比判断B是否在拼接的字符串上(拼接两次的字符串含有所有的旋转字符串可能性)
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗34.8MB内存
-<br />&nbsp;3.2 leetcode中耗时0ms,消耗33.9MB内存
-4. Q&A
+// ### 拼接A自身判断旋转字符串
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(n)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 拼接A自身
+// <br />&nbsp;2.2 利用String成员方法contains对比判断B是否在拼接的字符串上(拼接两次的字符串含有所有的旋转字符串可能性)
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗34.8MB内存
+// <br />&nbsp;3.2 leetcode中耗时0ms,消耗33.9MB内存
+// 4. Q&A
 
-### 利用StringBuilder拼接A自身判断旋转字符串
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(n)
-2. 我的解题思路
-<br />&nbsp;2.1 利用StringBuilder拼接A两次
-<br />&nbsp;2.2 利用StringBuilder成员方法indexOf对比判断B是否在拼接的字符串上(拼接两次的字符串含有所有的旋转字符串可能性)
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗34.8MB内存
-<br />&nbsp;3.2 leetcode中耗时0ms,消耗33.9MB内存
-4. Q&A
-<br />&nbsp;4.1 Q:这个解法与解法2有区别吗？
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:差别在于拼接A的方法上，String的拼接需要经过常量池的追加，拼接对象的返回，StringBuilder只需在堆上直接操作
-
-
+// ### 利用StringBuilder拼接A自身判断旋转字符串
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(n)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 利用StringBuilder拼接A两次
+// <br />&nbsp;2.2 利用StringBuilder成员方法indexOf对比判断B是否在拼接的字符串上(拼接两次的字符串含有所有的旋转字符串可能性)
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗34.8MB内存
+// <br />&nbsp;3.2 leetcode中耗时0ms,消耗33.9MB内存
+// 4. Q&A
+// <br />&nbsp;4.1 Q:这个解法与解法2有区别吗？
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:差别在于拼接A的方法上，String的拼接需要经过常量池的追加，拼接对象的返回，StringBuilder只需在堆上直接操作
 
 
-```
+
+
+// ```
 /**
  * Problem
  *     796.Rotate String
@@ -151,6 +151,6 @@
         return false;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

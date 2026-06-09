@@ -1,10 +1,10 @@
-### 解题思路
-正如官方题解所说，本质上还是**前缀法**的应用。
-要注意的是边界值的界定。
+// ### 解题思路
+// 正如官方题解所说，本质上还是**前缀法**的应用。
+// 要注意的是边界值的界定。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> matrixBlockSum(vector<vector<int>> &mat, int K) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

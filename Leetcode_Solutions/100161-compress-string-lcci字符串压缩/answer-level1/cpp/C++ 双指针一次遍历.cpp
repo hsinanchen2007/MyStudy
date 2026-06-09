@@ -1,10 +1,10 @@
-### 解题思路
-- 设置slow与fast双指针
-- slow：指向当前char
-- fast: 用于统计slow字符1个数
-### 代码
+// ### 解题思路
+// - 设置slow与fast双指针
+// - slow：指向当前char
+// - fast: 用于统计slow字符1个数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -28,9 +28,9 @@ public:
         return res.length()<=len?res:S;
     }
 };
-```
-### 结果
-```
+// ```
+// ### 结果
+// ```
 执行用时 :12 ms, 在所有 C++ 提交中击败了86.18%的用户
 内存消耗 :9 MB, 在所有 C++ 提交中击败了100.00%的用户
-```
+// ```

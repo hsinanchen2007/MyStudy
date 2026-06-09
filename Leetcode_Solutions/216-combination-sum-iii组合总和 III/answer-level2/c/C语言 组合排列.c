@@ -1,10 +1,10 @@
-### 解题思路
-题目就是求组合，使用了递归
-![image.png](https://pic.leetcode-cn.com/7b7093dbf5aa379811b3075c1596f206bf1038f8f0502f52a2e4570959dca1d3-image.png)
+// ### 解题思路
+// 题目就是求组合，使用了递归
+// ![image.png](https://pic.leetcode-cn.com/7b7093dbf5aa379811b3075c1596f206bf1038f8f0502f52a2e4570959dca1d3-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -140,4 +140,4 @@ int** combinationSum3(int k, int n, int* returnSize, int** returnColumnSizes){
 	*returnColumnSizes = r.returnColumnSizes;
 	return r.rlt;
 }
-```
+// ```

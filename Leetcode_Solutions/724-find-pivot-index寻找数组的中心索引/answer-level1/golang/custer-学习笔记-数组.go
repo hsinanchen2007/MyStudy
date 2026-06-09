@@ -1,5 +1,5 @@
-# 第一思路-错误
-```go
+// # 第一思路-错误
+// ```go
 func pivotIndex(nums []int) int {
   count := make([]int, len(nums))
   for i := 0; i < len(nums)-1; i++ {
@@ -12,14 +12,14 @@ func pivotIndex(nums []int) int {
   }
   return -1
 }
-```
+// ```
 
-# 学习自
-https://leetcode-cn.com/problems/find-pivot-index/solution/724-xun-zhao-shu-zu-de-zhong-xin-suo-yin-by-en-zha/
+// # 学习自
+// https://leetcode-cn.com/problems/find-pivot-index/solution/724-xun-zhao-shu-zu-de-zhong-xin-suo-yin-by-en-zha/
 
-## 方法：使用两个数组分别进行记录左侧右侧数字总和
+// ## 方法：使用两个数组分别进行记录左侧右侧数字总和
 
-```go
+// ```go
 func pivotIndex(nums []int) int {
   left := make([]int, len(nums))
   right := make([]int, len(nums))
@@ -43,11 +43,11 @@ func pivotIndex(nums []int) int {
   }
   return -1
 }
-```
+// ```
 
-## 优化：只记录右侧 左侧的总和在线性遍历判定的时候一起做
+// ## 优化：只记录右侧 左侧的总和在线性遍历判定的时候一起做
 
-```go
+// ```go
 func pivotIndex(nums []int) int {
   right := make([]int, len(nums))
 
@@ -66,4 +66,4 @@ func pivotIndex(nums []int) int {
   }
   return -1
 }
-```
+// ```

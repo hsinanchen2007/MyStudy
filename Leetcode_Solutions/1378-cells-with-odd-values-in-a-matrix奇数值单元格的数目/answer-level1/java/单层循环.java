@@ -1,9 +1,9 @@
-### 解题思路
-借鉴某位老哥的思路，豁然开朗。
+// ### 解题思路
+// 借鉴某位老哥的思路，豁然开朗。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         boolean[] row=new boolean[n];
@@ -33,4 +33,4 @@ class Solution {
         return ans_r*m+ans_c*n-2*ans_r*ans_c;
     }
 }
-```
+// ```

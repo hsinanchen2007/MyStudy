@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度$O(N^4)$, 空间复杂度$O(N^3)$
+// ### 解题思路
+// 时间复杂度$O(N^4)$, 空间复杂度$O(N^3)$
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public boolean isScramble(String ss1, String ss2) {
         // string T & string S
@@ -71,8 +71,8 @@ class Solution {
         return f[0][0][N];
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def isScramble(self, s1: str, s2: str) -> bool:
         # 扰乱字符的两种pattern
@@ -106,8 +106,8 @@ class Solution:
                             break
 
         return f[0][0][N]
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     bool isScramble(string s1, string s2) {
@@ -155,4 +155,4 @@ public:
     
     }
 };
-```
+// ```

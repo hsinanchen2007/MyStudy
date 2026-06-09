@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
     
@@ -22,4 +22,4 @@ class Solution:
         backtrace(nums,[])
        
         return res
-```
+# ```

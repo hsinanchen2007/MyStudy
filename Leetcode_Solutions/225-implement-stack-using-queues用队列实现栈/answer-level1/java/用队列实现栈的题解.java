@@ -1,11 +1,11 @@
-### 解题思路
-队列是先进先出的，栈是先进后出的；
-为了让最后入队列的元素x先出，可以将队列中除了位于队尾的元素x外的所有元素先出队列，然后再入队列；此时，元素x位于队首；
-依此循环，就实现了先进后出的顺序；
+// ### 解题思路
+// 队列是先进先出的，栈是先进后出的；
+// 为了让最后入队列的元素x先出，可以将队列中除了位于队尾的元素x外的所有元素先出队列，然后再入队列；此时，元素x位于队首；
+// 依此循环，就实现了先进后出的顺序；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     private Queue<Integer> queue = new LinkedList<Integer>();
     /** Initialize your data structure here. */
@@ -47,4 +47,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

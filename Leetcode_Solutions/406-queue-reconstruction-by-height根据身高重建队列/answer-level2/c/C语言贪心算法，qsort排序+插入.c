@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/ea3ea057f881a28bc733629420c338acd23ba710437466b9ab05dc5f862a5af8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ea3ea057f881a28bc733629420c338acd23ba710437466b9ab05dc5f862a5af8-image.png)
 
-qsort排序，按照身高从大到小排序，身高一样按照人数从小到大排序，然后依次取出，对应人数即应该插入的位置；
+// qsort排序，按照身高从大到小排序，身高一样按照人数从小到大排序，然后依次取出，对应人数即应该插入的位置；
 
-```
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -52,4 +52,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
     return rst;
 }
 
-```
+// ```

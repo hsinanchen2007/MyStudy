@@ -1,5 +1,5 @@
-三个指针，pre,cur,nex,先把cur的下一个指pre，然后pre指向cur，cur指向nex，nex指向下一个next；
-```
+// 三个指针，pre,cur,nex,先把cur的下一个指pre，然后pre指向cur，cur指向nex，nex指向下一个next；
+// ```
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -14,5 +14,5 @@ public:
         return pre;
     }
 };
-```
-代码超简洁
+// ```
+// 代码超简洁

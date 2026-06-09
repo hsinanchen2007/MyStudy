@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/1e22ad38133214e54f44c7fc33594c86d5375920ffdcd4efd701a311107224d4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1e22ad38133214e54f44c7fc33594c86d5375920ffdcd4efd701a311107224d4-image.png)
 
 
-```
+# ```
 class Solution:
 
     def solve(self, head) -> bool:
@@ -31,4 +31,4 @@ class Solution:
             pass
 
         return fake.next
-```
+# ```

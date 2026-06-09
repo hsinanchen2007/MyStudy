@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 dp[i]保存的是以i结束的子串合为0的个数
+// ### 解题思路
+// 动态规划 dp[i]保存的是以i结束的子串合为0的个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -56,4 +56,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var reverseWords = function (s) {
     let arr = s.trim().replace(/\s+/g, ' ').split(' ')
     let left = 0, right = arr.length - 1
@@ -9,4 +9,4 @@ var reverseWords = function (s) {
     }
     return arr.join(' ')
 };
-```
+// ```

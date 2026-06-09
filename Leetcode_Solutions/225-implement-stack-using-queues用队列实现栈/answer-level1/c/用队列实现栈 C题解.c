@@ -1,9 +1,9 @@
-### 解题思路
-这里用一个链表来实现栈，其中链表头仅起到辅助作用，栈顶为链表头的下一个元素。
+// ### 解题思路
+// 这里用一个链表来实现栈，其中链表头仅起到辅助作用，栈顶为链表头的下一个元素。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct mystack{
     int val;
     struct mystack* next;
@@ -67,4 +67,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

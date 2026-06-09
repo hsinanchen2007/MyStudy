@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路，用一个while循环判断公共字符串长度
+# ### 解题思路
+# 此处撰写解题思路，用一个while循环判断公共字符串长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         st = []
@@ -21,4 +21,4 @@ class Solution:
                  j+=1
              st=ns
         return ''.join(st)
-```
+# ```

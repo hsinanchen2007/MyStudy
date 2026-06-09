@@ -1,7 +1,7 @@
-合并数组再冒泡排序，
-好笨，被各种大神解法吊打！！！
+// 合并数组再冒泡排序，
+// 好笨，被各种大神解法吊打！！！
 
-```
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int p,q,j;
     q = 0;
@@ -26,4 +26,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     return nums1;
 }
 
-```
+// ```

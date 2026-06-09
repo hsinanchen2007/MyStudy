@@ -1,5 +1,5 @@
-> 思路：每两个非'.'之间的处理是独立的，记录下来依次处理即可。
-```python
+# > 思路：每两个非'.'之间的处理是独立的，记录下来依次处理即可。
+# ```python
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
         
@@ -35,4 +35,4 @@ class Solution:
         for i,j in tuples:
             process(dominoes,i,j)
         return ''.join(dominoes)[1:-1]
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -7,4 +7,4 @@ public:
         return (n & n-1) == 0;
     }
 };
-```
+// ```

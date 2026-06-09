@@ -1,9 +1,9 @@
-### 解题思路
-闹了半天原来就他妈是个辗转相除法
+// ### 解题思路
+// 闹了半天原来就他妈是个辗转相除法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(y<x)
@@ -82,4 +82,4 @@ class Solution {
         }
     }
 }
-```
+// ```

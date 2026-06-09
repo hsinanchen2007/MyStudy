@@ -1,8 +1,8 @@
-### 解题思路
-用一个计数器计数返回状态
-### 代码
+# ### 解题思路
+# 用一个计数器计数返回状态
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -51,4 +51,4 @@ class Solution:
 
 
 
-```
+# ```

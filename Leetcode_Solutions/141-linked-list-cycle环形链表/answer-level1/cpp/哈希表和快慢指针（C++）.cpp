@@ -1,10 +1,10 @@
-本题我使用链表题目最常用的两种方法：哈希表和快慢指针
+// 本题我使用链表题目最常用的两种方法：哈希表和快慢指针
 
-## 哈希表
+// ## 哈希表
 
-储存结点，发现相同的即为有环，时间复杂度O(n),空间复杂度O(n)
+// 储存结点，发现相同的即为有环，时间复杂度O(n),空间复杂度O(n)
 
-```
+// ```
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -22,13 +22,13 @@ public:
     }
 };
 
-```
+// ```
 
-## 快慢指针
+// ## 快慢指针
 
-有环必然相遇，可以当做结论。
+// 有环必然相遇，可以当做结论。
 
-```
+// ```
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -45,6 +45,6 @@ public:
         return false;
     }
 };
-```
-github pages：https://aiaimuti.github.io/ 里面有很多关于C++的总结
+// ```
+// github pages：https://aiaimuti.github.io/ 里面有很多关于C++的总结
 

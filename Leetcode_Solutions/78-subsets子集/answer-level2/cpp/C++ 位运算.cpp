@@ -1,5 +1,5 @@
-简单位运算即可
-```
+// 简单位运算即可
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

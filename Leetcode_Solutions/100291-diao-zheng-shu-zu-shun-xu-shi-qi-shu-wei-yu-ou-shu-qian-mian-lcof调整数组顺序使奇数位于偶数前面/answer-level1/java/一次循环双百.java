@@ -1,9 +1,9 @@
-### 解题思路
-在循环的同时筛选奇数和偶数分别从新数组的前端和后端赋值
+// ### 解题思路
+// 在循环的同时筛选奇数和偶数分别从新数组的前端和后端赋值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         int res[] = new int[nums.length];
@@ -17,4 +17,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -14,4 +14,4 @@ class Solution(object):
                 ans.append(k)
             
         return ans
-```
+# ```

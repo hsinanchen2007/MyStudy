@@ -1,8 +1,8 @@
-### 解题思路
-Dictionary 
-### 代码
+# ### 解题思路
+# Dictionary 
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def judgeCircle(self, moves):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             else:
                 y+=dict[i][1]
         return x==y==0
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-算法的设计思想是从前往后扫码数组元素，标记出一个可能成为主元素的元素num。然后重新计数，确认num是否为主元素。
+// ### 解题思路
+// 算法的设计思想是从前往后扫码数组元素，标记出一个可能成为主元素的元素num。然后重新计数，确认num是否为主元素。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int num = nums[0],count = 1;
     for(int i = 1; i < numsSize; i++){
@@ -29,4 +29,4 @@ int majorityElement(int* nums, int numsSize){
         return -1;
         
 }
-```
+// ```

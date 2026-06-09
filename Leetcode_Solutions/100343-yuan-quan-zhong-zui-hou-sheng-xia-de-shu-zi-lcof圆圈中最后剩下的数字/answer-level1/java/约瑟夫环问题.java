@@ -1,4 +1,4 @@
-```java
+// ```java
 // 约瑟夫环问题
 // 有n个人，编号分别为0, 1, 2, ……, n - 1，每当报道第m个人时，就杀掉他，求最后胜利者编号
 // f(n, m) = [f(n − 1, m) + m] % n
@@ -35,4 +35,4 @@ public int lastRemaining1(int n, int m) {
     }
     return res;
 }
-```
+// ```

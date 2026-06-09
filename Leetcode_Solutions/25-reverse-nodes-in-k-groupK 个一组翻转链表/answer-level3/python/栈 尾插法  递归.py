@@ -1,10 +1,10 @@
-这个道题非常好，可以通过此题学习多种解题思维
-1.  利用栈
-2.  尾插法，学习链表的删除与插入
-3.  递归，学习链表的原地反转，递归的调用
+# 这个道题非常好，可以通过此题学习多种解题思维
+# 1.  利用栈
+# 2.  尾插法，学习链表的删除与插入
+# 3.  递归，学习链表的原地反转，递归的调用
 
 
-```栈 []
+# ```栈 []
 class Solution(object):
     def reverseKGroup(self, head, k):
         """
@@ -33,8 +33,8 @@ class Solution(object):
             pre.next = cur
             head = cur
         return dumy.next
-```
-```尾插法 []
+# ```
+# ```尾插法 []
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
         # 创建头部节点并与head连接
@@ -70,8 +70,8 @@ class Solution:
             pre = head
             tail = head
         return dumy.next
-```
-```递归 []
+# ```
+# ```递归 []
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
         # 记录
@@ -98,7 +98,7 @@ class Solution:
             head = res
             
         return head
-```
+# ```
 
 
 

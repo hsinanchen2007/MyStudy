@@ -1,9 +1,9 @@
-### 解题思路
-filter  /  includes
+// ### 解题思路
+// filter  /  includes
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -12,4 +12,4 @@ filter  /  includes
 var numJewelsInStones = function (J, S) {
   return S.split('').filter(value => J.split('').includes(value)).length
 };
-```
+// ```

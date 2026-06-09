@@ -1,9 +1,9 @@
-### 解题思路
-如下代码所示
+// ### 解题思路
+// 如下代码所示
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -46,4 +46,4 @@ func connect(root *Node) *Node {
 
 	return root
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-动态规划：
-    cur_max = max(pre_max * num, pre_min * num, num)
-    cur_min = min(pre_max * num, pre_min * num, num)
+# ### 解题思路
+# 动态规划：
+#     cur_max = max(pre_max * num, pre_min * num, num)
+#     cur_min = min(pre_max * num, pre_min * num, num)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def maxProduct(self, nums):
 
@@ -21,4 +21,4 @@ class Solution:
 
         return ans
         
-```
+# ```

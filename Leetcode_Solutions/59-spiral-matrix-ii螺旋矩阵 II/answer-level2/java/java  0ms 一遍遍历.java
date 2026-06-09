@@ -1,5 +1,5 @@
-![C9511CF4-3A87-4c9d-A990-318DAA3F878C.png](https://pic.leetcode-cn.com/4c6a63d8af84dece280433a2ec1f4a99a4c4a5376f772d15249783e3d830f3fb-C9511CF4-3A87-4c9d-A990-318DAA3F878C.png)
-```
+// ![C9511CF4-3A87-4c9d-A990-318DAA3F878C.png](https://pic.leetcode-cn.com/4c6a63d8af84dece280433a2ec1f4a99a4c4a5376f772d15249783e3d830f3fb-C9511CF4-3A87-4c9d-A990-318DAA3F878C.png)
+// ```
 int[][] result = new int[n][n];
         int count = 1;
         int dir = 0, i = 0, j = 0, minI = 0, maxI = n - 1, minJ = 0, maxJ = n - 1; //right = 0, down = 1, left = 2, up = 3;
@@ -46,4 +46,4 @@ int[][] result = new int[n][n];
             }
         }
         return result;
-```
+// ```

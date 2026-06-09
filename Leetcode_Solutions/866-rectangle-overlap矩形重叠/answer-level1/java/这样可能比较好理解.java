@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int rec1_left = rec1[0];
@@ -18,4 +18,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

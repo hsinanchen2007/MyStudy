@@ -1,9 +1,9 @@
-### 解题思路
-1.输入数组有可能为空数组
-2.定义了个标志位，每交换一次往后移动一位
-### 代码
+# ### 解题思路
+# 1.输入数组有可能为空数组
+# 2.定义了个标志位，每交换一次往后移动一位
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if nums == []:
@@ -16,4 +16,4 @@ class Solution:
                 tmp = nums[i+1]
                 lens+=1
         return lens+1
-```
+# ```

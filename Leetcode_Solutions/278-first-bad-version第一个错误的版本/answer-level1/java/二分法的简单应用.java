@@ -1,9 +1,9 @@
-### 解题思路
-二分法的简单应用
+// ### 解题思路
+// 二分法的简单应用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
@@ -27,4 +27,4 @@ public class Solution extends VersionControl {
         return -1;
     }
 }
-```
+// ```

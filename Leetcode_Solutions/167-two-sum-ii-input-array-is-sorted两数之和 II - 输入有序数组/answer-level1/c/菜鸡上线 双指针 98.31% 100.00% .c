@@ -1,9 +1,9 @@
-### 解题思路
-双指针分别指向头尾。如果小头++，如果大尾--。
+// ### 解题思路
+// 双指针分别指向头尾。如果小头++，如果大尾--。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize)
 }
 
 
-```
+// ```

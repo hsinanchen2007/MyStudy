@@ -1,9 +1,9 @@
-### 解题思路
-while循环中判断next存在与否，next所指的值是否等于val，如果是，则返回这个节点的父结点。
+// ### 解题思路
+// while循环中判断next存在与否，next所指的值是否等于val，如果是，则返回这个节点的父结点。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ public:
     }  
 }
 };
-```
+// ```

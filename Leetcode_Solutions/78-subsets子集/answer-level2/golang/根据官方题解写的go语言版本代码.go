@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-思路见官方题解
+// 思路见官方题解
 
-### 递归
+// ### 递归
 
-```golang
+// ```golang
 func subsets1(nums []int) [][]int {
 	result := make([][]int, 0)
 	result = append(result, make([]int, 0))
@@ -22,11 +22,11 @@ func subsets1(nums []int) [][]int {
 	}
 	return result
 }
-```
+// ```
 
-### 回溯
+// ### 回溯
 
-```golang
+// ```golang
 var total int
 
 func backtrack(result *[][]int, cur *[]int, start int, nums []int) {
@@ -52,11 +52,11 @@ func subsets(nums []int) [][]int {
 	}
 	return result
 }
-```
+// ```
 
-### 字典
+// ### 字典
 
-```golang
+// ```golang
 func subsets3(nums []int) [][]int {
 	result := make([][]int, 0)
 	start := math.Pow(2, float64(len(nums)))
@@ -73,4 +73,4 @@ func subsets3(nums []int) [][]int {
 	}
 	return result
 }
-```
+// ```

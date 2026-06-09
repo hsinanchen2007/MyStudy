@@ -1,4 +1,4 @@
-```
+// ```
 func replaceSpace(s string) string {
 	var (
 		i, total int
@@ -19,4 +19,4 @@ func replaceSpace(s string) string {
 	}
 	return string(bytes[:total])
 }
-```
+// ```

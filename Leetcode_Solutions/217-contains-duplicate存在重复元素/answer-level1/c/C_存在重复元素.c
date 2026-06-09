@@ -1,9 +1,9 @@
-### 解题思路
-这题就要考库函数，不是考什么算法
+// ### 解题思路
+// 这题就要考库函数，不是考什么算法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void bubbleSort(int *dataArray,int n){
 	for(int i = 0;i < n - 1;i++)
     {	
@@ -32,4 +32,4 @@ bool containsDuplicate(int* nums, int numsSize){
     }
     return false;    
 }
-```
+// ```

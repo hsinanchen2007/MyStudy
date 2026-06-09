@@ -1,9 +1,9 @@
-### 解题思路
-不限制次数，只要能赚，就当天买第二天卖就行了
-一次遍历
-### 代码
+// ### 解题思路
+// 不限制次数，只要能赚，就当天买第二天卖就行了
+// 一次遍历
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -15,4 +15,4 @@ public:
         return profit;
     }
 };
-```
+// ```

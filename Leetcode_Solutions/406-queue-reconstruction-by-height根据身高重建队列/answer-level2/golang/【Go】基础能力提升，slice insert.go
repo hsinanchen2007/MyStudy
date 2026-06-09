@@ -1,4 +1,4 @@
-```
+// ```
 func reconstructQueue(people [][]int) [][]int {
 	sort.Slice(people, func(i, j int) bool {
 		if people[i][0] != people[j][0] {
@@ -16,4 +16,4 @@ func reconstructQueue(people [][]int) [][]int {
 
 	return result
 }
-```
+// ```

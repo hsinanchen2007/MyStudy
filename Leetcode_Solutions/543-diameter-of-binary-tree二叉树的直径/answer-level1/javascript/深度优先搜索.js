@@ -1,11 +1,11 @@
-### 解题思路
-对于每个树的节点，以它为 root 的直径为 左子树的深度 + 右子树的深度 + 1
+// ### 解题思路
+// 对于每个树的节点，以它为 root 的直径为 左子树的深度 + 右子树的深度 + 1
 
-遍历一遍该树，更新每次的最大直径和每个节点的深度
+// 遍历一遍该树，更新每次的最大直径和每个节点的深度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -29,8 +29,8 @@ var diameterOfBinaryTree = function(root) {
     getDepth(root);
     return res - 1;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(logN)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(logN)

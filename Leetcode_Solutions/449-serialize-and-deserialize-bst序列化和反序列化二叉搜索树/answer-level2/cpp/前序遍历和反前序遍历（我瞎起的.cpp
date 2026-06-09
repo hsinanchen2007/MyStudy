@@ -1,5 +1,5 @@
-速度很辣鸡，反正能过（
-```
+// 速度很辣鸡，反正能过（
+// ```
 class Codec {
 public:
     string int2str(int a) {
@@ -68,4 +68,4 @@ public:
         return root;
     }
 };
-```
+// ```

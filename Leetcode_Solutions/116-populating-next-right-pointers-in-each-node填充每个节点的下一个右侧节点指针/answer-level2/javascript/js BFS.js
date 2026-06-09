@@ -1,4 +1,4 @@
-```
+// ```
 var connect = function(root) {
     if(!root) return null;
     const queue = [root];
@@ -20,4 +20,4 @@ var connect = function(root) {
     }
     return root;
 };
-```
+// ```

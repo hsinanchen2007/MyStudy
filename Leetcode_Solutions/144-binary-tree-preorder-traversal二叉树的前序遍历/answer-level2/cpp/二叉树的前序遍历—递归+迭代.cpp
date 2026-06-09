@@ -1,5 +1,5 @@
-方法一 递归
-```
+// 方法一 递归
+// ```
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -14,9 +14,9 @@ public:
         helper(root->right,res);
     }
 };
-```
-方法二 迭代
-```
+// ```
+// 方法二 迭代
+// ```
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -34,5 +34,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

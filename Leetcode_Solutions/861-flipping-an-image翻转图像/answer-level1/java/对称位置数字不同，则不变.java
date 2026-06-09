@@ -1,9 +1,9 @@
-### 解题思路
-如果对称位置两个数相同，则0 1 互换。
+// ### 解题思路
+// 如果对称位置两个数相同，则0 1 互换。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public int[][] flipAndInvertImage(int[][] A) {
 		int n=A[0].length;
@@ -19,4 +19,4 @@ class Solution {
 		return A;
 	}
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-运用快速排序partition思想
+// ### 解题思路
+// 运用快速排序partition思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         if(nums.length == 1){return nums;}
@@ -25,4 +25,4 @@ class Solution {
         nums[i] = nums[i] ^ nums[j];
     } 
 }
-```
+// ```

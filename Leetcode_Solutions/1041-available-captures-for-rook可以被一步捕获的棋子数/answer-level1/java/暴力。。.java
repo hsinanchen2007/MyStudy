@@ -1,9 +1,9 @@
-### 解题思路
-看懂题目了就会发现很简单。。而且棋盘大小其实也是固定的
+// ### 解题思路
+// 看懂题目了就会发现很简单。。而且棋盘大小其实也是固定的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         // 无聊题。。
@@ -37,4 +37,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

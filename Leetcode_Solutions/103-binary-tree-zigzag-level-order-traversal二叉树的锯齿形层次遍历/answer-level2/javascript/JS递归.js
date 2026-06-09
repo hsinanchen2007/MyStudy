@@ -1,5 +1,5 @@
-偶数层从左至右，奇数层从右至左
-```js
+// 偶数层从左至右，奇数层从右至左
+// ```js
 var zigzagLevelOrder = function(root) {
     var res = [];
     dfs(0, root);
@@ -13,4 +13,4 @@ var zigzagLevelOrder = function(root) {
         dfs(i+1, root.right);
     }
 };
-```
+// ```

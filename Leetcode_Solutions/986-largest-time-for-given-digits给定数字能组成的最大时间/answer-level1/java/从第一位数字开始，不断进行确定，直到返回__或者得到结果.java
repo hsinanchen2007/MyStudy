@@ -1,7 +1,7 @@
-    思路：对给定的数字进行判断，根据时间的特点得出每一位数字，不满足条件的直接返回空串。
-（没啥技术含量，请见谅）
+//     思路：对给定的数字进行判断，根据时间的特点得出每一位数字，不满足条件的直接返回空串。
+// （没啥技术含量，请见谅）
 
-```
+// ```
 class Solution {
     public String largestTimeFromDigits(int[] A) {
         String ans = "";
@@ -64,4 +64,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

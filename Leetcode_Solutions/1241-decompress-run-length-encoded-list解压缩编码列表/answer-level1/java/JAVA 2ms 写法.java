@@ -1,8 +1,8 @@
-1、基于下标进行判断奇偶
-2、取偶数位while循环赋值
-3、一开始就开辟数组空间，最后COPYOF截取返回
+// 1、基于下标进行判断奇偶
+// 2、取偶数位while循环赋值
+// 3、一开始就开辟数组空间，最后COPYOF截取返回
 
-```
+// ```
 class Solution {
     public int[] decompressRLElist(int[] nums) {
     int[] results = new int[5000];
@@ -21,4 +21,4 @@ class Solution {
 		return Arrays.copyOf(results, idx);
     }
 }
-```
+// ```

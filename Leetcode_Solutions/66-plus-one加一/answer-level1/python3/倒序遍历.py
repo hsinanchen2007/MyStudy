@@ -1,4 +1,4 @@
-- 注意考虑首位进位的边界问题
+# - 注意考虑首位进位的边界问题
 ~~~
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:

@@ -1,4 +1,4 @@
-```
+// ```
 int getNums(int left, int right){
     if(left == right || left+1 == right){
         return 1;
@@ -14,4 +14,4 @@ int getNums(int left, int right){
 int numTrees(int n){
     return getNums(1,n+1);
 }
-```
+// ```

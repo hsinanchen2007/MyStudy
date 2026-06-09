@@ -1,5 +1,5 @@
 
-启发来自：[LeetCode : 43. 字符串相乘（Multiply Strings）解答
+// 启发来自：[LeetCode : 43. 字符串相乘（Multiply Strings）解答
 ](https://blog.csdn.net/afei__/article/details/83891547)
 
 class Solution {

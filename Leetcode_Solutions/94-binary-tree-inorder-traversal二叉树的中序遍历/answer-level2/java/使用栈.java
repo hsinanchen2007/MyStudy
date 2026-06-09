@@ -1,10 +1,10 @@
-### 解题思路
-两个while循环 
-内部一个while循环一直加左节点
+// ### 解题思路
+// 两个while循环 
+// 内部一个while循环一直加左节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Stack;
@@ -65,4 +65,4 @@ class Solution {
         }
     }
 }
-```
+// ```

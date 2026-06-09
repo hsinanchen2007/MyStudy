@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0e315b503426706402f49cf003996c06cf2b5268a90300f307119f6dfd1089d5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0e315b503426706402f49cf003996c06cf2b5268a90300f307119f6dfd1089d5-image.png)
 
-```
+// ```
     List<Integer> res = new ArrayList<Integer>();
     public List<Integer> postorder(Node root) {
         helper(root);
@@ -16,4 +16,4 @@
         }
         res.add(root.val);
     }
-```
+// ```

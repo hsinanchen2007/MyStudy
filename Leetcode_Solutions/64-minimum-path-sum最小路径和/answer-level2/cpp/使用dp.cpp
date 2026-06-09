@@ -1,12 +1,12 @@
-### 解题思路
-使用dp的时间复杂度为O（M*N)
-先遍历第一层数据，算出在第一层挨个走下去每走到一个格子的总步数。
-然后开始使用dp。
-dp[i][j]=grid[i][j]+min(dp[i][j-1],dp[i-1][j])
-处于节省内存的考虑，在原地修改。直接将dp[i][j]写入对于grid[i][j]
-### 代码
+// ### 解题思路
+// 使用dp的时间复杂度为O（M*N)
+// 先遍历第一层数据，算出在第一层挨个走下去每走到一个格子的总步数。
+// 然后开始使用dp。
+// dp[i][j]=grid[i][j]+min(dp[i][j-1],dp[i-1][j])
+// 处于节省内存的考虑，在原地修改。直接将dp[i][j]写入对于grid[i][j]
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -26,4 +26,4 @@ public:
         return grid[m-1][n-1];
     }
 };
-```
+// ```

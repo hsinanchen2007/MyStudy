@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路:迭代
@@ -48,4 +48,4 @@ int tribonacci( int n ){
     return first;
 
 }
-```
+// ```

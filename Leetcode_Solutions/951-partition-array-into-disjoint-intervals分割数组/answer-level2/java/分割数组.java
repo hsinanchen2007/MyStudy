@@ -1,18 +1,18 @@
-#### 方法 1：辅助数组
+// #### 方法 1：辅助数组
 
-**想法**
+// **想法**
 
-不检验 `all(L <= R for L in left for R in right)`，而是检验 `max(left) <= min(right)`。
+// 不检验 `all(L <= R for L in left for R in right)`，而是检验 `max(left) <= min(right)`。
 
-**算法**
+// **算法**
 
-找出对于所有子集 `left = A[:1], left = A[:2], left =  A[:3], ...` 的最大值 `max(left)`，也就是用 `maxleft[i]` 记录子集 `A[:i]` 的最大值。两两之间是相互关联的：`max(A[:4]) = max(max(A[:3]), A[3])` 所以有 `maxleft[4] = max(maxleft[3], A[3])`。
+// 找出对于所有子集 `left = A[:1], left = A[:2], left =  A[:3], ...` 的最大值 `max(left)`，也就是用 `maxleft[i]` 记录子集 `A[:i]` 的最大值。两两之间是相互关联的：`max(A[:4]) = max(max(A[:3]), A[3])` 所以有 `maxleft[4] = max(maxleft[3], A[3])`。
 
-同理，所有可能的 `right` 子集最小值 `min(right)` 也可以在线性时间内获得。
+// 同理，所有可能的 `right` 子集最小值 `min(right)` 也可以在线性时间内获得。
 
-最后只需要快速扫描一遍 `max(left)` 和 `min(right)`，答案非常明显。
+// 最后只需要快速扫描一遍 `max(left)` 和 `min(right)`，答案非常明显。
 
-```Java []
+// ```Java []
 class Solution {
     public int partitionDisjoint(int[] A) {
         int N = A.length;
@@ -38,9 +38,9 @@ class Solution {
         throw null;
     }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class Solution(object):
     def partitionDisjoint(self, A):
         N = len(A)
@@ -60,9 +60,9 @@ class Solution(object):
         for i in xrange(1, N):
             if maxleft[i-1] <= minright[i]:
                 return i
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 $N$ 是 `A` 的长度。
-* 空间复杂度：$O(N)$。
+// * 时间复杂度：$O(N)$，其中 $N$ 是 `A` 的长度。
+// * 空间复杂度：$O(N)$。

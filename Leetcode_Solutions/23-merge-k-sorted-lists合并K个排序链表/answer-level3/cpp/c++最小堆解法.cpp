@@ -1,6 +1,6 @@
-使用自定义的排序方法，可以稍微简化整个处理。个人认为还是比较清晰的。
+// 使用自定义的排序方法，可以稍微简化整个处理。个人认为还是比较清晰的。
 
-```
+// ```
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -24,4 +24,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

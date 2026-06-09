@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![搜狗截图20200325115722.png](https://pic.leetcode-cn.com/d1572090a6c9949fa9d5587560d2f848be04c1b7a872938193ab045f3147634e-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20200325115722.png)
-```c
+// ### 代码
+// ![搜狗截图20200325115722.png](https://pic.leetcode-cn.com/d1572090a6c9949fa9d5587560d2f848be04c1b7a872938193ab045f3147634e-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20200325115722.png)
+// ```c
 int strStr(char * haystack, char * needle){
     int len1,len2;
     int i=0,j=0,k=0;
@@ -28,4 +28,4 @@ int strStr(char * haystack, char * needle){
         else return -1;
     }
 }
-```
+// ```

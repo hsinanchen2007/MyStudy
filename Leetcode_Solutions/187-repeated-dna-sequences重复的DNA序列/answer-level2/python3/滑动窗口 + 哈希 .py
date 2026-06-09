@@ -1,12 +1,12 @@
-## 思路：
+# ## 思路：
 
-滑动窗口 + 哈希
+# 滑动窗口 + 哈希
 
-每次取10个字符记录下来，然后记录个数
+# 每次取10个字符记录下来，然后记录个数
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-```python [1]
+# ```python [1]
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
         from collections import defaultdict
@@ -18,11 +18,11 @@ class Solution:
                 res.add(tmp)
             visited.add(tmp)
         return list(res)          
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         Set visited = new HashSet(), res = new HashSet();
@@ -37,7 +37,7 @@ class Solution {
         return new ArrayList<>(res);
     }
 }
-```
+# ```
 
 
 

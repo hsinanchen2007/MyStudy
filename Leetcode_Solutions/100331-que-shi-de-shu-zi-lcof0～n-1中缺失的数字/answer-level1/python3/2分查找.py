@@ -1,9 +1,9 @@
-### 解题思路
-需要注意递归停止条件
+# ### 解题思路
+# 需要注意递归停止条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         s, e = 0, len(nums)-1
@@ -24,4 +24,4 @@ class Solution:
 
 
             
-```
+# ```

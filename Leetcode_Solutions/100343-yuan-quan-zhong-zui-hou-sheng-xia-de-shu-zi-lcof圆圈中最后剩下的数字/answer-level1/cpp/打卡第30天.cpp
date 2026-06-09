@@ -1,5 +1,5 @@
-原题在剑指offer上
-```
+// 原题在剑指offer上
+// ```
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -11,4 +11,4 @@ public:
 
     }
 };
-```
+// ```

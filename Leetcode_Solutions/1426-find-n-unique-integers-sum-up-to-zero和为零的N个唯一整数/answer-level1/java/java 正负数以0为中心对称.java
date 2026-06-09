@@ -1,5 +1,5 @@
-show the code
-```java
+// show the code
+// ```java
     public int[] sumZero(int n) {
         int[] ans = new int[n];
         int index = 0;
@@ -9,4 +9,4 @@ show the code
         }
         return ans;
     }
-```
+// ```

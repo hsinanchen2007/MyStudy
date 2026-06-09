@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
         import collections
@@ -18,4 +18,4 @@ class Solution:
                 else:
                     d[item + i] -= d[item]
         return True
-```
+# ```

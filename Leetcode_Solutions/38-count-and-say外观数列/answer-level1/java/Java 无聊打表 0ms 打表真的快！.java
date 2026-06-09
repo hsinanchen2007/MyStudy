@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-这个性能没得说：
+// 这个性能没得说：
 
-![批注 2020-02-03 175912.png](https://pic.leetcode-cn.com/2d9e3d816fae45e3a7d8158f3494272020ac97251a0e9cf29ed37f6fed84be9e-%E6%89%B9%E6%B3%A8%202020-02-03%20175912.png)
+// ![批注 2020-02-03 175912.png](https://pic.leetcode-cn.com/2d9e3d816fae45e3a7d8158f3494272020ac97251a0e9cf29ed37f6fed84be9e-%E6%89%B9%E6%B3%A8%202020-02-03%20175912.png)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         		String a[] = {"","1","11","21","1211","111221","312211","13112221"
@@ -36,4 +36,4 @@ class Solution {
                 return a[n];
     }
 }
-```
+// ```

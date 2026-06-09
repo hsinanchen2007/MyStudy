@@ -1,13 +1,13 @@
-![1162.png](https://pic.leetcode-cn.com/bcf2a5a0167677a10689229d335d2939f111481177b362eb863055a229d70fe8-1162.png)
+// ![1162.png](https://pic.leetcode-cn.com/bcf2a5a0167677a10689229d335d2939f111481177b362eb863055a229d70fe8-1162.png)
 
-### 解题思路
-1. 筛选出海洋和陆地并记录, 减少后续遍历次数
-2. 对于每个海洋, 求其离陆地最近的距离dis
-3. 结果为dis中的最大值
+// ### 解题思路
+// 1. 筛选出海洋和陆地并记录, 减少后续遍历次数
+// 2. 对于每个海洋, 求其离陆地最近的距离dis
+// 3. 结果为dis中的最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var maxDistance = function(grid) {
   const land = []
   const sea = []
@@ -37,4 +37,4 @@ var maxDistance = function(grid) {
     return res
   }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} k
@@ -23,4 +23,4 @@ var combine = function (n, k) {
     recusion(1, [], n, k, results);
     return results;
 };
-```
+// ```

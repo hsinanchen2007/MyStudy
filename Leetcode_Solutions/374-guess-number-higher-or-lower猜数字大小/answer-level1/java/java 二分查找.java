@@ -1,5 +1,5 @@
-java 二分查找解决问题
-```
+// java 二分查找解决问题
+// ```
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int low = 1;
@@ -19,4 +19,4 @@ public class Solution extends GuessGame {
         return 0;
     }
 }
-```
+// ```

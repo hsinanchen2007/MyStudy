@@ -1,9 +1,9 @@
-### 解题思路
-参考大神，编写出自己理解代码 ，java 简单暴力解法
+// ### 解题思路
+// 参考大神，编写出自己理解代码 ，java 简单暴力解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> restoreIpAddresses(String s) {
 
@@ -34,4 +34,4 @@ class Solution {
 
     }
 }
-```
+// ```

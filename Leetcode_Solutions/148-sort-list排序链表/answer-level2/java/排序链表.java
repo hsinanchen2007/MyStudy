@@ -1,5 +1,5 @@
-归并排序
-```
+// 归并排序
+// ```
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) return head;
         
@@ -29,4 +29,4 @@
             return l1;
         }
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var transpose = function (A) {
     let row = A.length,
         col = A[0].length
@@ -10,4 +10,4 @@ var transpose = function (A) {
     }
     return res
 };
-```
+// ```

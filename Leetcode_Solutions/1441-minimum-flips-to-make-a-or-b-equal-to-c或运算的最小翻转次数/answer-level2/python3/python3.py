@@ -1,8 +1,8 @@
-### 解题思路
-麻烦解法
-### 代码
+# ### 解题思路
+# 麻烦解法
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def minFlips(self, a: int, b: int, c: int) -> int:
 #按位排列数组
@@ -33,4 +33,4 @@ class Solution:
                 if lb[i]|la[i]!=1: #一开始以为 ^ 是或
                     res+=1
         return res
-```
+# ```

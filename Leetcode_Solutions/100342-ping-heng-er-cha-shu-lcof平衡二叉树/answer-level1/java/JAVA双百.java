@@ -1,10 +1,10 @@
-### 解题思路
-判断一棵树是否为平衡二叉树，需要遍历每个节点，并且需要得到该节点是否为平衡二叉树、该节点的高度。
-![批注 2020-03-27 154956.png](https://pic.leetcode-cn.com/1b2e3184917fc9acb79d7ba3d47f034b427d2ede980537ef2fbbc0cd60a4a9c8-%E6%89%B9%E6%B3%A8%202020-03-27%20154956.png)
+// ### 解题思路
+// 判断一棵树是否为平衡二叉树，需要遍历每个节点，并且需要得到该节点是否为平衡二叉树、该节点的高度。
+// ![批注 2020-03-27 154956.png](https://pic.leetcode-cn.com/1b2e3184917fc9acb79d7ba3d47f034b427d2ede980537ef2fbbc0cd60a4a9c8-%E6%89%B9%E6%B3%A8%202020-03-27%20154956.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ class Solution {
         return leftReturnData.isAVL && rightReturnData.isAVL && Math.abs(leftReturnData.height - rightReturnData.height) < 2;
     }
 }
-```
+// ```

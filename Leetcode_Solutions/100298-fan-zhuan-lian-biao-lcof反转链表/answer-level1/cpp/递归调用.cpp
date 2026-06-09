@@ -1,8 +1,8 @@
-### 解题思路
-简单的递归调用。
-### 代码
+// ### 解题思路
+// 简单的递归调用。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ public:
         return new_head;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/c4c1c6674ec1d2ee559a086ff66f6b34cfe7cba9f1486c52ec8ccd0e4d21b7c9-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/c4c1c6674ec1d2ee559a086ff66f6b34cfe7cba9f1486c52ec8ccd0e4d21b7c9-image.png)
+// ```
 public int[] sortArrayByParity(int[] A) {
             if (A.length<2)
                 return A;
@@ -20,4 +20,4 @@ public int[] sortArrayByParity(int[] A) {
             }
             return A;
         }
-```
+// ```

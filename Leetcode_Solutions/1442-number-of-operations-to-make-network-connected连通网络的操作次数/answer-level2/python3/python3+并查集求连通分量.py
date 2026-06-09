@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class UnionFindSet(object):
     """并查集"""
     def __init__(self, data_list):
@@ -62,4 +62,4 @@ class Solution:
                 count += 1
         return count - 1
 
-```
+# ```

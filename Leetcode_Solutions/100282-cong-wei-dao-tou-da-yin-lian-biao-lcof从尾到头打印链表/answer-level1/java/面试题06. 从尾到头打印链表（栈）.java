@@ -1,9 +1,9 @@
-### 解题思路
-栈方法，先进后出
+// ### 解题思路
+// 栈方法，先进后出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

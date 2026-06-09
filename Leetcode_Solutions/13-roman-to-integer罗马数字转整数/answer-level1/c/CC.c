@@ -1,9 +1,9 @@
-### 解题思路
-笨方法
+// ### 解题思路
+// 笨方法
 
-### 代码
-C
-```c
+// ### 代码
+// C
+// ```c
 int judge(char x,char y)
 {
     if(x=='I'&&y=='V')
@@ -47,4 +47,4 @@ int romanToInt(char * s)
     }
     return sum;
 }
-```
+// ```

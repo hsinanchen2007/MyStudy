@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def reverseList(self, head):
         pre = None
@@ -20,4 +20,4 @@ class Solution(object):
                 and self.reverseList(head) == head:
             return True
         return False
-```
+# ```

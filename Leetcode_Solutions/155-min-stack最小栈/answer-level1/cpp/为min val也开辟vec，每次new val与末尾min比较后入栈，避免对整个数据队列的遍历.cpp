@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :32 ms, 在所有 C++ 提交中击败了76.01% 的用户
-内存消耗 :17 MB, 在所有 C++ 提交中击败了21.26%的用户
+// ### 解题思路
+// 执行用时 :32 ms, 在所有 C++ 提交中击败了76.01% 的用户
+// 内存消耗 :17 MB, 在所有 C++ 提交中击败了21.26%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -41,4 +41,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

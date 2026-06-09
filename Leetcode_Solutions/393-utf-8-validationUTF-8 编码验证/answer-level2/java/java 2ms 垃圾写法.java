@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean validUtf8(int[] data) {
         int i=0,j=0,length=data.length;
@@ -39,4 +39,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

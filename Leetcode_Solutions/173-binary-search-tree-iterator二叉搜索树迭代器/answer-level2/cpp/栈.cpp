@@ -1,5 +1,5 @@
-这道题与[94 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)类似。
-```
+// 这道题与[94 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)类似。
+// ```
 class BSTIterator {
     stack<TreeNode*> nodes;
     void prepare(TreeNode *root){
@@ -26,4 +26,4 @@ public:
         return nodes.size();
     }
 };
-```
+// ```

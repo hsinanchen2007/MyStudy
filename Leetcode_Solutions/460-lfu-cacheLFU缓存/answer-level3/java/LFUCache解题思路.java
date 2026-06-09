@@ -1,9 +1,9 @@
-### 解题思路
-利用map和双头链表来解决
+// ### 解题思路
+// 利用map和双头链表来解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.HashMap;
 import java.util.Map;
 
@@ -175,4 +175,4 @@ class LFUCache {
 //    }
 }
 
-```
+// ```

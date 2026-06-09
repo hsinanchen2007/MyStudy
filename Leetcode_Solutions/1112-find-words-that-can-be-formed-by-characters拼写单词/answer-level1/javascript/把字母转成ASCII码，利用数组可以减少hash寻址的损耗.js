@@ -1,4 +1,4 @@
-```
+// ```
 var countCharacters = function (words, chars) {
     // 26个字母代表每个下标
     let charCodeArr = Array(26).fill(0)
@@ -32,4 +32,4 @@ var countCharacters = function (words, chars) {
     }
     return num
 }
-```
+// ```

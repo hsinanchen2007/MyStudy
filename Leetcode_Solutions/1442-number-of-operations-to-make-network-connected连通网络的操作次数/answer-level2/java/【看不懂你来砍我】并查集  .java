@@ -1,13 +1,13 @@
-这是一道微软校招原题哈
-用了两个小时系统的学了一下并查集
-在find的时候和join的时候都进行了压缩
-思路是：
-0.判断connections的数量够不够连接n台机器，不够的话直接return -1;
-1.把每台机器都当成一个集合，初始的时候自己是自己的father——》father[i]=i;
-2.根据connections数组  把connections[i][0]和connections[i][1]进行合并，合并的时候用rank数组进行了压缩，保证高度尽可能的低;
-3.根据father数组我们开始find，find的过程中进行压缩，这样把每个台机器的结果放入HashSet中去重，这样set的大小就是集合的个数了;
-4.根据n个节点至少需要n-1条边连接得到答案。
-```
+// 这是一道微软校招原题哈
+// 用了两个小时系统的学了一下并查集
+// 在find的时候和join的时候都进行了压缩
+// 思路是：
+// 0.判断connections的数量够不够连接n台机器，不够的话直接return -1;
+// 1.把每台机器都当成一个集合，初始的时候自己是自己的father——》father[i]=i;
+// 2.根据connections数组  把connections[i][0]和connections[i][1]进行合并，合并的时候用rank数组进行了压缩，保证高度尽可能的低;
+// 3.根据father数组我们开始find，find的过程中进行压缩，这样把每个台机器的结果放入HashSet中去重，这样set的大小就是集合的个数了;
+// 4.根据n个节点至少需要n-1条边连接得到答案。
+// ```
 class Solution {
     public int makeConnected(int n, int[][] connections) {
         if (connections.length<(n-1)) return -1;
@@ -60,4 +60,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public ListNode OddEvenList(ListNode head) {
         if(head == null){
@@ -18,4 +18,4 @@ public class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 层次遍历
-**(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
+# ### 层次遍历
+# **(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
 
-思路：逐层遍历，再反转数组
-```
+# 思路：逐层遍历，再反转数组
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,15 +28,15 @@ class Solution:
             target.append(tmp)
         return target[::-1]
         
-```
-#### 复杂度分析
-__时间复杂度:__ 最差O(n^2)，for循环O(n)，pop操作O(n)
+# ```
+# #### 复杂度分析
+# __时间复杂度:__ 最差O(n^2)，for循环O(n)，pop操作O(n)
 
-__空间复杂度：__ O(n)，tmp, ans,target数组的空间均不超过O(n)
+# __空间复杂度：__ O(n)，tmp, ans,target数组的空间均不超过O(n)
 
-### 递归
-改成了递归，不过好像没啥意义，空间复杂度还变高了...
-```
+# ### 递归
+# 改成了递归，不过好像没啥意义，空间复杂度还变高了...
+# ```
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         if not root:
@@ -61,4 +61,4 @@ class Solution:
                 subfunc(ans)
         subfunc(ans)
         return target[::-1]
-```
+# ```

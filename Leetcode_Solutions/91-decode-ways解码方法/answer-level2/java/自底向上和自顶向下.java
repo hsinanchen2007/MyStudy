@@ -1,22 +1,22 @@
-## 思路:
+// ## 思路:
 
-动态规划
+// 动态规划
 
-`dp[i]`到字符串第`i`位置最多解码的个数
+// `dp[i]`到字符串第`i`位置最多解码的个数
 
-动态方程: `dp[i] = dp[i-1] + dp[i - 2]`
+// 动态方程: `dp[i] = dp[i-1] + dp[i - 2]`
 
-注意:这里有很多要考虑的情况
+// 注意:这里有很多要考虑的情况
 
-例如:`101`,`100`,所以要考虑有`0`的情况,直接看代码,注释写在里面了!
+// 例如:`101`,`100`,所以要考虑有`0`的情况,直接看代码,注释写在里面了!
 
-再附上自顶向下的动态规划, 大家可以提供 `Java`版本吗?
+// 再附上自顶向下的动态规划, 大家可以提供 `Java`版本吗?
 
-## 代码:
+// ## 代码:
 
-自底向上
+// 自底向上
 
-```python [1]
+// ```python [1]
 class Solution:
     def numDecodings(self, s: str) -> int:
         dp = [0] * len(s)
@@ -41,11 +41,11 @@ class Solution:
             if 10 <= int(s[i - 1] + s[i]) <= 26:
                 dp[i] += dp[i - 2]
         return dp[-1]
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public int numDecodings(String s) {
         int[] dp = new int[s.length()];
@@ -67,11 +67,11 @@ class Solution {
         return dp[dp.length - 1];  
     }
 }
-```
+// ```
 
-自顶向下
+// 自顶向下
 
-```python [2]
+// ```python [2]
 import functools
 class Solution:
     @functools.lru_cache(None)
@@ -84,7 +84,7 @@ class Solution:
         if len(s) >= 2 and s[0] != '0' and int(s[:2]) <= 26:
             ans += self.numDecodings(s[2:])
         return ans
-```
+// ```
 
 
 

@@ -1,22 +1,22 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 获取链表长度
-    2.2 定义四个指针
-        2.2.1 node，链表的头结点
-        2.2.2 pre，有序区的边界结点
-        2.2.3 cur，无序区的第一个元素
-        2.2.4 temp，操作指针
-    2.3 k组分别循环
-        2.3.1 子循环反转k-1个元素
-        2.3.2 移动各自指针，这一步可以参照反转链表的题目，我觉得这个就是带上一元素的反转链表
-3. 提交记录
-    3.1 力扣中耗时1ms,消耗37.9MB内存
-    3.2 leetcode中耗时1ms,消耗38.9MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 获取链表长度
+//     2.2 定义四个指针
+//         2.2.1 node，链表的头结点
+//         2.2.2 pre，有序区的边界结点
+//         2.2.3 cur，无序区的第一个元素
+//         2.2.4 temp，操作指针
+//     2.3 k组分别循环
+//         2.3.1 子循环反转k-1个元素
+//         2.3.2 移动各自指针，这一步可以参照反转链表的题目，我觉得这个就是带上一元素的反转链表
+// 3. 提交记录
+//     3.1 力扣中耗时1ms,消耗37.9MB内存
+//     3.2 leetcode中耗时1ms,消耗38.9MB内存
+// 4. Q&A
 
-```
+// ```
  /**
  * Problem
  *     25.Reverse Nodes in k-Group
@@ -80,6 +80,6 @@ class Solution {
         return node.next;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

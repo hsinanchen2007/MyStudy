@@ -1,5 +1,5 @@
-思路参考注释。
-```java
+// 思路参考注释。
+// ```java
 /**
  * 整体思路：给每个字符做个唯一编码映射为 map 的 key
  * <p>
@@ -32,4 +32,4 @@ class Solution {
         return new ArrayList<>(r.values());
     }
 }
-```
+// ```

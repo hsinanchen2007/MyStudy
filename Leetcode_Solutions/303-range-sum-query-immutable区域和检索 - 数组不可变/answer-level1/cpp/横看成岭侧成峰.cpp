@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-问题有些简单，思路明显，起初觉得除了暴力方法，也没觉得非得整一些大的方法。但耗时要332ms（暴力法）。后续可以再补充动态规划相关的内容。
+// 问题有些简单，思路明显，起初觉得除了暴力方法，也没觉得非得整一些大的方法。但耗时要332ms（暴力法）。后续可以再补充动态规划相关的内容。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     NumArray(vector<int>& nums):nums(nums) {
@@ -28,4 +28,4 @@ private:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

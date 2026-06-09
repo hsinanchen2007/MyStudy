@@ -1,9 +1,9 @@
-### 解题思路
-仿照上一题的思路，当杨辉三角到达目标行数时，直接打印改行即可
+// ### 解题思路
+// 仿照上一题的思路，当杨辉三角到达目标行数时，直接打印改行即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
                List<List<Integer>> lists = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         return lists.get(0);
     }
 }
-```
+// ```

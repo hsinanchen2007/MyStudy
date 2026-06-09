@@ -1,10 +1,10 @@
-### 解题思路
-注意两点：
-1.第一次到达时肯定时最短距离需要直接返回。
-2.如果一个点第二次到达时如果消耗的k值更少，则需要再次考察，否则上次消耗k比较多的有可能无法到达。
-### 代码
+// ### 解题思路
+// 注意两点：
+// 1.第一次到达时肯定时最短距离需要直接返回。
+// 2.如果一个点第二次到达时如果消耗的k值更少，则需要再次考察，否则上次消耗k比较多的有可能无法到达。
+// ### 代码
 
-```c
+// ```c
 /*广度优先搜索*/
 typedef struct Cell_{
     int row;
@@ -73,4 +73,4 @@ int shortestPath(int** grid, int gridSize, int* gridColSize, int k){
     }
     return table[size.row - 1][size.col - 1].v == true ? table[size.row - 1][size.col - 1].setp : -1;
 }
-```
+// ```

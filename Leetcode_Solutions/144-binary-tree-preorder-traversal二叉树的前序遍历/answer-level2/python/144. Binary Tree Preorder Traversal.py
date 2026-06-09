@@ -1,6 +1,6 @@
-前序遍历
+# 前序遍历
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
             self.traverse(node.left)
             self.traverse(node.right)
         
-```
+# ```

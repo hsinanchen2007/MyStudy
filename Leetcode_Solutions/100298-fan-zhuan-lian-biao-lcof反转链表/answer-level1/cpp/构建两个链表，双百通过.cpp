@@ -1,11 +1,11 @@
-### 解题思路
-构建两个链表，left和right；
-left初始化为空，right初始化为head；
-然后逐渐迭代下去就可以了。
+// ### 解题思路
+// 构建两个链表，left和right；
+// left初始化为空，right初始化为head；
+// 然后逐渐迭代下去就可以了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
         return left;
     }
 };
-```
+// ```

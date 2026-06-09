@@ -1,5 +1,5 @@
 
-```go
+// ```go
 func myAtoi(str string) int {
 	var (
 		max = 1 << 31 - 1
@@ -72,4 +72,4 @@ func myAtoi(str string) int {
 			return ret
 		}
 }
-```
+// ```

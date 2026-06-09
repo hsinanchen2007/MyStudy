@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :36 ms, 在所有 Python3 提交中击败了93.41%的用户
-内存消耗 :13.2 MB, 在所有 Python3 提交中击败了62.35%的用户
+# ### 解题思路
+# 执行用时 :36 ms, 在所有 Python3 提交中击败了93.41%的用户
+# 内存消耗 :13.2 MB, 在所有 Python3 提交中击败了62.35%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         dic = {}
@@ -21,4 +21,4 @@ class Solution:
             elif dit[t[k]] != s[k]:
                 return False
         return True
-```
+# ```

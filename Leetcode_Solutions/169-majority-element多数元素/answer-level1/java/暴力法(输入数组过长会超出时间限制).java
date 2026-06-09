@@ -1,8 +1,8 @@
-### 解题思路
-    暴力法(输入数组过长会超出时间限制)
-### 代码
+// ### 解题思路
+//     暴力法(输入数组过长会超出时间限制)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int answer = 0;
@@ -22,4 +22,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

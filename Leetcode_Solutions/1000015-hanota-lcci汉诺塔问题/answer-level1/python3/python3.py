@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution():
     def hanota(self,A,B,C):
         if len(A) == 0:
@@ -23,4 +23,4 @@ class Solution():
             self.disk_move(n-1,B,A,C)
 
 
-```
+# ```

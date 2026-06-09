@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 贪心算法
+// # 贪心算法
 
-时间复杂度是O(nlogn)，其中n为points数组的长度。空间复杂度是O(1)。
+// 时间复杂度是O(nlogn)，其中n为points数组的长度。空间复杂度是O(1)。
 
-执行用时：25ms，击败80.31%。消耗内存：46.4MB，击败79.63%。
+// 执行用时：25ms，击败80.31%。消耗内存：46.4MB，击败79.63%。
 
-```java
+// ```java
 public class Solution {
     public int findMinArrowShots(int[][] points) {
         Arrays.sort(points, Comparator.comparingInt(point -> point[1]));    //按右端点从小到大排序
@@ -22,4 +22,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-改了好久，虽然很慢但好歹做出来了
-```
+// 改了好久，虽然很慢但好歹做出来了
+// ```
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         HashMap<Character,Integer> hm = new HashMap<Character,Integer>();
@@ -27,4 +27,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

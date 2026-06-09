@@ -1,4 +1,4 @@
-```
+// ```
 int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     int *ret=(int *)malloc(sizeof(int)*2);
     ret[0]=-1;
@@ -35,5 +35,5 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     }
     return ret;
 }
-```
-![image.png](https://pic.leetcode-cn.com/84536ece440f08f9e646edce296c6c32d96ba8f3517907ae6db33c89afa02f87-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/84536ece440f08f9e646edce296c6c32d96ba8f3517907ae6db33c89afa02f87-image.png)

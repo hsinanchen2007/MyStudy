@@ -1,10 +1,10 @@
-### 解题思路
-从Vector的末位处 + 1
-依次计算本位与进位
-对于999 这样的需要在vector的首位添加进位 
-### 代码
+// ### 解题思路
+// 从Vector的末位处 + 1
+// 依次计算本位与进位
+// 对于999 这样的需要在vector的首位添加进位 
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -33,4 +33,4 @@ public:
         return digits;
     }
 };
-```
+// ```

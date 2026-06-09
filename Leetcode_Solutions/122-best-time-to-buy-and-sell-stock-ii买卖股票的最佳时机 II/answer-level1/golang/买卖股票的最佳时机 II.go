@@ -1,12 +1,12 @@
-## 结果
+// ## 结果
 
-![image.png](https://pic.leetcode-cn.com/689650065b95cc0b85c98817ed1ff6d38cc47843cd2ad421acecb649f67148eb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/689650065b95cc0b85c98817ed1ff6d38cc47843cd2ad421acecb649f67148eb-image.png)
 
-## 思路
+// ## 思路
 
-简单遍历，在价格最低点买入，对高点卖出
+// 简单遍历，在价格最低点买入，对高点卖出
 
-```
+// ```
 func maxProfit(prices []int) int {
     earn := 0
     // 是否已经持有
@@ -31,5 +31,5 @@ func maxProfit(prices []int) int {
     }
     return earn
 }
-```
+// ```
 

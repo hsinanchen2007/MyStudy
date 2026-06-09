@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
     private TrieNode root;
 
@@ -68,4 +68,4 @@ class TrieNode{
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

@@ -1,6 +1,6 @@
-dfs(i, M) - 从第i堆石子开始取, 最多能取M(M = 3)堆时可取到的最大石子数, 然后记忆化搜索Alice取得的最大石子数之和, 石子数总和-Alice取得的最大石子数之和即为Bob取得的石子数, 取得更多石子数量的即为胜者。
-时间复杂度O(n), 空间复杂度O(n).
-```
+# dfs(i, M) - 从第i堆石子开始取, 最多能取M(M = 3)堆时可取到的最大石子数, 然后记忆化搜索Alice取得的最大石子数之和, 石子数总和-Alice取得的最大石子数之和即为Bob取得的石子数, 取得更多石子数量的即为胜者。
+# 时间复杂度O(n), 空间复杂度O(n).
+# ```
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:
         n, total = len(stoneValue), sum(stoneValue)
@@ -33,4 +33,4 @@ class Solution:
         if Alice > Bob: return "Alice"
         elif Bob > Alice: return "Bob"
         else: return "Tie"
-```
+# ```

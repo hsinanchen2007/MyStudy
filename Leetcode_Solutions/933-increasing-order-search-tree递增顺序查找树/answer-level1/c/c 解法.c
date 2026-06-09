@@ -1,11 +1,11 @@
-# 解题思路：
+// # 解题思路：
 
-1. 用递归把数字拿出来
-2. 再放把数字按顺序返回一个新的树中
+// 1. 用递归把数字拿出来
+// 2. 再放把数字按顺序返回一个新的树中
 
-![捕获3.PNG](https://pic.leetcode-cn.com/eb60913448c8a9595d7c71091396445acd5e0c19d820e26ea6336e3a523774db-%E6%8D%95%E8%8E%B73.PNG)
-# 代码：
-```
+// ![捕获3.PNG](https://pic.leetcode-cn.com/eb60913448c8a9595d7c71091396445acd5e0c19d820e26ea6336e3a523774db-%E6%8D%95%E8%8E%B73.PNG)
+// # 代码：
+// ```
 
 /**
  * Definition for a binary tree node.
@@ -55,7 +55,7 @@ void getting_the_numbers_out(struct TreeNode* root,  int** numbers, int* count){
  
  
  
-```
+// ```
 
 
 

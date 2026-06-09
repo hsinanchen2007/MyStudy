@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def numberToWords(num: Int): String = {
     var n = num
@@ -24,4 +24,4 @@ object Solution {
     res
   }
 }
-```
+// ```

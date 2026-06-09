@@ -1,6 +1,6 @@
-合并数组之后，利用array_count_values进行统计再输出。
+// 合并数组之后，利用array_count_values进行统计再输出。
 
-```
+// ```
 class Solution {
 
     /**
@@ -25,4 +25,4 @@ class Solution {
         
     }
 }
-```
+// ```

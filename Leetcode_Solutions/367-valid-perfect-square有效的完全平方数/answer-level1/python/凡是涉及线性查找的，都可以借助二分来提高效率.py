@@ -1,9 +1,9 @@
-### 解题思路
-凡是涉及线性查找的，都可以借助二分来提高效率
+# ### 解题思路
+# 凡是涉及线性查找的，都可以借助二分来提高效率
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPerfectSquare(self, num):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             elif mid*mid > num:
                 right = mid - 1
         return False
-```
+# ```

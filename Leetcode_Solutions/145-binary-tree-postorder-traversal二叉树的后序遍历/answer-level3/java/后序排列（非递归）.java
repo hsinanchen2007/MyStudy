@@ -1,10 +1,10 @@
-### 解题思路  利用集合的反转方法Collections.revese()，反转其中元素，依次把根、右、左、存入原集合中
-，然后翻转一下即可。
+// ### 解题思路  利用集合的反转方法Collections.revese()，反转其中元素，依次把根、右、左、存入原集合中
+// ，然后翻转一下即可。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

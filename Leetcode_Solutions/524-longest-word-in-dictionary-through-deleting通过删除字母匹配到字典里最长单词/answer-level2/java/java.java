@@ -1,10 +1,10 @@
-### 解题思路
-按序比较每个字符是否是子串（这里的题意：删除部分字符，所以子串的相对排序不能变。）
-符合条件就进行比较。得出符合的解
+// ### 解题思路
+// 按序比较每个字符是否是子串（这里的题意：删除部分字符，所以子串的相对排序不能变。）
+// 符合条件就进行比较。得出符合的解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String findLongestWord(String s, List<String> d) {
         int max = 0;
@@ -31,4 +31,4 @@ class Solution {
         return maxStr;
     }
 }
-```
+// ```

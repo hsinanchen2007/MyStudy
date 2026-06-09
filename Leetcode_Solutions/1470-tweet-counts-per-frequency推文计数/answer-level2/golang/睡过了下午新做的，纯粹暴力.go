@@ -1,6 +1,6 @@
-简单粗暴的状态模拟，这代码肯定不够简洁，凑合看吧。
-写这个其实就是为了证明，这题GO能过，献丑了。
-```
+// 简单粗暴的状态模拟，这代码肯定不够简洁，凑合看吧。
+// 写这个其实就是为了证明，这题GO能过，献丑了。
+// ```
 type TweetCounts struct {
     Name []string //我也不知道我为什么想定义这个变量，其实没用
     Time [][]int
@@ -87,4 +87,4 @@ func (this *TweetCounts) GetTweetCountsPerFrequency(freq string, tweetName strin
  * obj.RecordTweet(tweetName,time);
  * param_2 := obj.GetTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
  */
-```
+// ```

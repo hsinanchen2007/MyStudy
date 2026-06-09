@@ -1,9 +1,9 @@
-执行用时 : 388 ms, 在Intersection of Two Arrays II的C#提交中击败了89.38% 的用户
-内存消耗 : 29.1 MB, 在Intersection of Two Arrays II的C#提交中击败了28.95% 的用户
+// 执行用时 : 388 ms, 在Intersection of Two Arrays II的C#提交中击败了89.38% 的用户
+// 内存消耗 : 29.1 MB, 在Intersection of Two Arrays II的C#提交中击败了28.95% 的用户
 
-和两个数组的交集I 相比,这道题要求不去掉重复,而哈希表不能储存重复的key
-上一题中哈希表key和value我们只用了一个key而已,所以这道题value再存个元素出现的次数就ojbk了
-```
+// 和两个数组的交集I 相比,这道题要求不去掉重复,而哈希表不能储存重复的key
+// 上一题中哈希表key和value我们只用了一个key而已,所以这道题value再存个元素出现的次数就ojbk了
+// ```
 public int[] Intersect(int[] nums1, int[] nums2)
 {
     if (nums1 == null || nums2 == null || nums1.Length == 0 || nums2.Length == 0)
@@ -51,4 +51,4 @@ public int[] Intersect(int[] nums1, int[] nums2)
     }
     return result;
 }
-```
+// ```

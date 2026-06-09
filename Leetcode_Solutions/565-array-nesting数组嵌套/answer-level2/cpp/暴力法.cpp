@@ -1,8 +1,8 @@
-### 解题思路
-暴力法效率较低执行用时 :2208 ms, 在所有 cpp 提交中击败了5.38%的用户
-### 代码
+// ### 解题思路
+// 暴力法效率较低执行用时 :2208 ms, 在所有 cpp 提交中击败了5.38%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int arrayNesting(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return ret;
     }
 };
-```
+// ```

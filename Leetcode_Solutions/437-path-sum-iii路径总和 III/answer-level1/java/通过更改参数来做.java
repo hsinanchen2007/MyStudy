@@ -1,12 +1,12 @@
-### 解题思路
-0.全局变量count
-1.分开两个模块：遍历所有根节点;以当前根节点开始遍历
-2.headdown实现：以当前节点为开始节点 or 以其子节点为开始节点
-3.down实现：开始寻找路径，更改sum并作为参数重新递归自己，一旦为0就计数+1
+// ### 解题思路
+// 0.全局变量count
+// 1.分开两个模块：遍历所有根节点;以当前根节点开始遍历
+// 2.headdown实现：以当前节点为开始节点 or 以其子节点为开始节点
+// 3.down实现：开始寻找路径，更改sum并作为参数重新递归自己，一旦为0就计数+1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
 		if(node.right!=null)down(node.right, sum);
 	}
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-倒序相加就很简单了， 十进制，两数相加满10进位就行，  正序才麻烦。
+// ### 解题思路
+// 倒序相加就很简单了， 十进制，两数相加满10进位就行，  正序才麻烦。
 
-执行用时 :
-2 ms, 在所有 Java 提交中击败了99.97%的用户
-内存消耗 :40 MB, 在所有 Java 提交中击败了95.71%的用户
+// 执行用时 :
+// 2 ms, 在所有 Java 提交中击败了99.97%的用户
+// 内存消耗 :40 MB, 在所有 Java 提交中击败了95.71%的用户
 
-### 解题代码
+// ### 解题代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,12 +37,12 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
-一开始以为正序数字，而且以为是自由编码。写了一大堆。。。
-### 正序代码
+// 一开始以为正序数字，而且以为是自由编码。写了一大堆。。。
+// ### 正序代码
 
-```java
+// ```java
 public static void main(String[] args) {
         List<Integer> a = new ArrayList<Integer>();
         a.add(1);
@@ -92,4 +92,4 @@ public static void main(String[] args) {
             System.out.print(o+" ");
         }
     }
-```
+// ```

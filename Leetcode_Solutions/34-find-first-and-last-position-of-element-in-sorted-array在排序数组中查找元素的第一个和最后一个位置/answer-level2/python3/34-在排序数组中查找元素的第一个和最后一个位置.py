@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         n = len(nums)
@@ -32,4 +32,4 @@ class Solution:
                     left = mid + 1
         return low, high
 
-```
+# ```

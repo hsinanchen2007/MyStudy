@@ -1,10 +1,10 @@
-### 解题思路
-queue<pair<TreeNode*, int>>分别保存当前的节点和行。 
-按照层次遍历的顺序，将当前一层的节点值保存在vector中，并同时将其孩子节点入队。
+// ### 解题思路
+// queue<pair<TreeNode*, int>>分别保存当前的节点和行。 
+// 按照层次遍历的顺序，将当前一层的节点值保存在vector中，并同时将其孩子节点入队。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ public:
         return vec;
     }
 };
-```
+// ```

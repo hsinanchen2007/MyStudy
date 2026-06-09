@@ -1,9 +1,9 @@
-### 解题思路
-使用hashmap存储数值出现的次数
+// ### 解题思路
+// 使用hashmap存储数值出现的次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int majorityElement(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
 		return maxCount > floor(nums.size() / 2) ? maxCountNum : -1;
 	}
 };
-```
+// ```

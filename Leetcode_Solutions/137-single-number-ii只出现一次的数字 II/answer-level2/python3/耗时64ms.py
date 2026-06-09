@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         nums.sort()
@@ -9,4 +9,4 @@ class Solution:
             if nums[i] != nums[i-2]:
                 return(nums[i-2])
         return(nums[i+1])
-```
+# ```

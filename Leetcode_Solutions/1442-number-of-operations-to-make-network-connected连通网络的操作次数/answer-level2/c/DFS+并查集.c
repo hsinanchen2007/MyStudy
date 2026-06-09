@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-注意一点，找爹记得路径压缩，也就是father[t] = getFather(father, father[t]);
-Merge后更新的是找到的2个father节点其中某一个节点的爹。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意一点，找爹记得路径压缩，也就是father[t] = getFather(father, father[t]);
+// Merge后更新的是找到的2个father节点其中某一个节点的爹。
+// ### 代码
 
-```c
+// ```c
 int getFather(int *fahter, int t)
 {
     if (fahter[t] == t) {
@@ -79,4 +79,4 @@ int makeConnected(int n, int** connections, int connectionsSize, int* connection
     }
 }
 
-```
+// ```

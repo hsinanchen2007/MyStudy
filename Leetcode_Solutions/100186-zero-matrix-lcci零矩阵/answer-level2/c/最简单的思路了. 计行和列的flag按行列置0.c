@@ -1,14 +1,14 @@
-### 解题思路
-if(matrix[i][j] == 0){
-    flag_row[i]=1;
-    flag_col[j]=1;
-}
-再把flag是1的row和col置0.
-完全不用考虑第几行先后顺序.nice!
+// ### 解题思路
+// if(matrix[i][j] == 0){
+//     flag_row[i]=1;
+//     flag_col[j]=1;
+// }
+// 再把flag是1的row和col置0.
+// 完全不用考虑第几行先后顺序.nice!
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
 
     int row = matrixSize, col = *matrixColSize;
@@ -37,4 +37,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
 
      return matrix;
 }
-```
+// ```

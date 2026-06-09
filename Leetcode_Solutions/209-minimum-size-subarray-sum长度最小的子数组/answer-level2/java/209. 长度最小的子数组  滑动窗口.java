@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         int l = 0, r = -1;              // [l...r] 滑动窗口范围, 初始区间不存在
@@ -26,4 +26,4 @@ class Solution {
         return res == nums.length + 1 ? 0 : res;
     }
 }
-```
+// ```

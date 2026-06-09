@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :24 ms, 在所有 Java 提交中击败了46.89%的用户
-内存消耗 :39.3 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :24 ms, 在所有 Java 提交中击败了46.89%的用户
+// 内存消耗 :39.3 MB, 在所有 Java 提交中击败了100.00%的用户
 
 
-方法2： 勉强通过，用一个容器记录最大字符的所有开始位置，然后比较从各个开始位置的最大字符串
+// 方法2： 勉强通过，用一个容器记录最大字符的所有开始位置，然后比较从各个开始位置的最大字符串
 
-### 代码
-方法一 如果不是最大字符，但是前面有重复的情况，会有冗余操作
-```java
+// ### 代码
+// 方法一 如果不是最大字符，但是前面有重复的情况，会有冗余操作
+// ```java
 class Solution {
     public String lastSubstring(String s) {
         if (s == null) {
@@ -62,9 +62,9 @@ class Solution {
         return s.substring(maxStart);
     }
 }
-```
-方法二 可以直接先找到最大字符的所有开始位置，然后获取最大字符串的开始位置。
-```
+// ```
+// 方法二 可以直接先找到最大字符的所有开始位置，然后获取最大字符串的开始位置。
+// ```
 public String lastSubstring1(String s) {
         if (s == null) {
             return "";
@@ -115,4 +115,4 @@ public String lastSubstring1(String s) {
         }
         return s.substring(maxStart);
     }
-```
+// ```

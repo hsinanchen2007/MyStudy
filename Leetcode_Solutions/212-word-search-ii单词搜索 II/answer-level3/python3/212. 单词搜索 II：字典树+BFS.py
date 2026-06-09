@@ -1,6 +1,6 @@
-一遍过了，没啥优化，就是先把词存进字典，然后遍历矩阵，对前缀进行宽搜，优化的点在于对字典树删词，有点麻烦就没做。
+# 一遍过了，没啥优化，就是先把词存进字典，然后遍历矩阵，对前缀进行宽搜，优化的点在于对字典树删词，有点麻烦就没做。
 
-```python []
+# ```python []
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         d = {}
@@ -31,4 +31,4 @@ class Solution:
                 if board[i][j] in d:
                     bfs(i, j)
         return sorted(ans)
-```
+# ```

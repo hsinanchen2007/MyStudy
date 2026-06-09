@@ -1,6 +1,6 @@
-# 动态规划
-若至少dp[i]个完全平方数相加为i，则dp[i] = min(dp[i], dp[i-j*j]+1)。
-```c++
+// # 动态规划
+// 若至少dp[i]个完全平方数相加为i，则dp[i] = min(dp[i], dp[i-j*j]+1)。
+// ```c++
 class Solution {
 public:
     int numSquares(int n) {
@@ -14,11 +14,11 @@ public:
        return dp[n];
     }
 };
-```
+// ```
 
-# BFS
-类似于最短路算法的暴力解法。
-```c++
+// # BFS
+// 类似于最短路算法的暴力解法。
+// ```c++
 class Solution {
 public:
     typedef pair<int, int> pi;
@@ -45,6 +45,6 @@ public:
         return 0;
     }
 };
-```
+// ```
 
->dp较之bfs时空复杂度都更低，代码也更为简洁。
+// >dp较之bfs时空复杂度都更低，代码也更为简洁。

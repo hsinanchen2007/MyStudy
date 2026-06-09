@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def calculate(self, s):
         """
@@ -85,4 +85,4 @@ class Solution(object):
             i += 1
         return num
 
-```
+# ```

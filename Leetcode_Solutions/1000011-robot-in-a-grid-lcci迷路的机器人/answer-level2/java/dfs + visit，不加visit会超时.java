@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
         if (obstacleGrid == null || obstacleGrid.length == 0) {
@@ -32,4 +32,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

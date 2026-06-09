@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2bc971b9acb7e4e8b023d23a498022c1a6f380314349fc280ecd8b38ab9d15e0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2bc971b9acb7e4e8b023d23a498022c1a6f380314349fc280ecd8b38ab9d15e0-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   BFS：
   
   每一种尝试进入队列要去重，使用 map，比 indexOf 判断快一些
@@ -28,11 +28,11 @@
   👆上面这种 BFS 队列的每一项元素记录当前的字符串的左、右括号数量的好处：
   当左括号数量大于右括号数量的时候，我们只会删除左括号去尝试，不会进行「傻傻地去删除
   右括号进行尝试」这样的无用操作。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string[]}
@@ -139,4 +139,4 @@ var removeInvalidParentheses = function(s) {
   
   return [...ans];
 };
-```
+// ```

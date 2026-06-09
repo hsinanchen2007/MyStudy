@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def countAndSay(self, n: int) -> str:
         """
@@ -24,4 +24,4 @@ class Solution:
 
 
         return string
-```
+# ```

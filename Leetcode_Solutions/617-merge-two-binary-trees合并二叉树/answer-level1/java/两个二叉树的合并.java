@@ -1,6 +1,6 @@
-**树结构相关题目优先考虑递归写法：**
+// **树结构相关题目优先考虑递归写法：**
 
-```
+// ```
 class Solution {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if (t1 == null) {
@@ -18,4 +18,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

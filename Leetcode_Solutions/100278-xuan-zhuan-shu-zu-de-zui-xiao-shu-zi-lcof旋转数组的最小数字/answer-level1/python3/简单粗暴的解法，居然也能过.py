@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         min_val = numbers[0]
@@ -6,4 +6,4 @@ class Solution:
             if i < min_val:
                 min_val = i
         return min_val
-```
+# ```

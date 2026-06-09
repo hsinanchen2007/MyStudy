@@ -1,5 +1,5 @@
-先把nums数组存入哈希表，再对nums数组排序
-再遍历就行，但是要考虑k=0的特殊情况
+# 先把nums数组存入哈希表，再对nums数组排序
+# 再遍历就行，但是要考虑k=0的特殊情况
 
 
     def findPairs(self, nums: List[int], k: int) -> int:

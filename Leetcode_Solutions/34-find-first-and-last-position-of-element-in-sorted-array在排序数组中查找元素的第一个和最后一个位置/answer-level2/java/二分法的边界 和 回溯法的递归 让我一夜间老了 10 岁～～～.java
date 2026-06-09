@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     // 一种直接的解法，线性扫描，但是其时间复杂度是 n，不满足条件呀！
     public int[] searchRange(int[] nums, int target) {
@@ -41,4 +41,4 @@ class Solution {
         return res;
     } 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java 
+// ```java 
 public class Leetcode80 {
     public int removeDuplicates(int[] nums) {
         if(nums.length<=2){
@@ -28,4 +28,4 @@ public class Leetcode80 {
         return index;
     }
 }
-```
+// ```

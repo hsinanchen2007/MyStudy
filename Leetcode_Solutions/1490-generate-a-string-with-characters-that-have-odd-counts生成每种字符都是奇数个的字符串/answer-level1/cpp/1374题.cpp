@@ -1,10 +1,10 @@
-### 解题思路
-当n为偶数那么我们的结果由n-1个“a”和1个b构成
-当n为奇数那么我们的结果由n个“a构成”
+// ### 解题思路
+// 当n为偶数那么我们的结果由n-1个“a”和1个b构成
+// 当n为奇数那么我们的结果由n个“a构成”
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String generateTheString(int n) {
         String res = "";
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-方法1：8ms
+// 方法1：8ms
 
-```
+// ```
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -23,10 +23,10 @@ public:
         return to_string(bull) + "A" + to_string(cow) + "B";
     }
 };
-```
-改进一下：
+// ```
+// 改进一下：
 
-```
+// ```
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -45,12 +45,12 @@ public:
         return to_string(bull) + "A" + to_string(cow - bull) + "B";
     }
 };
-```
+// ```
 
 
-方法2：4ms
+// 方法2：4ms
 
-```
+// ```
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -77,4 +77,4 @@ public:
         return to_string(bull) + "A" + to_string(cow) + "B";
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool findInStack(char buff[], int top, int val)
 {
     for (int i = 0; i <= top; i++) {
@@ -56,4 +56,4 @@ char* removeDuplicateLetters(char *s)
     return rlt;
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
-参考题解中的高票解答
+// 参考题解中的高票解答
 
-```php
+// ```php
 class MyQueue {
     protected $stackPush;
     protected $stackPop;
@@ -69,4 +69,4 @@ class MyQueue {
  * $ret_3 = $obj->peek();
  * $ret_4 = $obj->empty();
  */
-```
+// ```

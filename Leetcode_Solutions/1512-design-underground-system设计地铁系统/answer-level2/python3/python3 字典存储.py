@@ -1,11 +1,11 @@
-### 解题思路
-字典存储到站和离站乘客
-字典key为站台名，value为二维列表，列表值为`[id, t]`
+# ### 解题思路
+# 字典存储到站和离站乘客
+# 字典key为站台名，value为二维列表，列表值为`[id, t]`
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class UndergroundSystem:
 
     def __init__(self):
@@ -41,4 +41,4 @@ class UndergroundSystem:
 # obj.checkIn(id,stationName,t)
 # obj.checkOut(id,stationName,t)
 # param_3 = obj.getAverageTime(startStation,endStation)
-```
+# ```

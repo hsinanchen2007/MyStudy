@@ -1,8 +1,8 @@
-## 方法1：动态规划两遍遍历
+# ## 方法1：动态规划两遍遍历
 
-我感觉这题可以动态规划一波，一股脑的写下了下面的代码（错误）
+# 我感觉这题可以动态规划一波，一股脑的写下了下面的代码（错误）
 
-```python
+# ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         db = []
@@ -14,11 +14,11 @@ class Solution:
             db.append(MAX)
             if each == 0: Tem_MAX = 1
         return db[-1]
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 164 / 184 个通过测试用例
 	状态：解答错误
 	
@@ -26,13 +26,13 @@ class Solution:
 输入： [2,-5,-2,-4,3]
 输出： 20
 预期： 24
-```
+# ```
 
-哦吼，我只考虑到了0可能对累乘的影响，没考虑到正负号的影响。
+# 哦吼，我只考虑到了0可能对累乘的影响，没考虑到正负号的影响。
 
-尽然这样！那我只能从右到左也遍历一遍了（滑稽）
+# 尽然这样！那我只能从右到左也遍历一遍了（滑稽）
 
-```python
+# ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         left_turn = self.find_max(nums)
@@ -49,11 +49,11 @@ class Solution:
             db.append(MAX)
             if each == 0: Tem_MAX = 1
         return db[-1]
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :48 ms, 在所有 Python3 提交中击败了90.78% 的用户
 内存消耗 :14.2 MB, 在所有 Python3 提交中击败了5.24%的用户
 
@@ -62,21 +62,21 @@ class Solution:
 
 执行用时 :44 ms, 在所有 Python3 提交中击败了96.06% 的用户
 内存消耗 :14.2 MB, 在所有 Python3 提交中击败了6.19%的用户
-```
+# ```
 
-哦吼！没想到速度还挺快哈哈哈。果然熟能生巧，动态解题做多了也就有了动态规划的思维了。就和当初我还到处搜索怎么做递归题一样，其实做多了套路就了然于胸了。（其实上面这个db数组作用不大，只是为了符合套路我加了进来）
+# 哦吼！没想到速度还挺快哈哈哈。果然熟能生巧，动态解题做多了也就有了动态规划的思维了。就和当初我还到处搜索怎么做递归题一样，其实做多了套路就了然于胸了。（其实上面这个db数组作用不大，只是为了符合套路我加了进来）
 
-那现在就是参考一下官方是怎么解题的学习一下
+# 那现在就是参考一下官方是怎么解题的学习一下
 
-哦吼，这题没有官方解答。我还是搞不懂，为啥有的题目LeetCode没有官方解答思路？？？
+# 哦吼，这题没有官方解答。我还是搞不懂，为啥有的题目LeetCode没有官方解答思路？？？
 
-## 方法2：动态规划一边遍历
+# ## 方法2：动态规划一边遍历
 
-哦吼，看完[画解算法：152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/solution/hua-jie-suan-fa-152-cheng-ji-zui-da-zi-xu-lie-by-g/)恍然大悟啊（日常恍然大悟）思路很简单，因为负数，所以我们之前累乘的计数变量时而大时而小，所以这里把这个数一分为二
+# 哦吼，看完[画解算法：152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/solution/hua-jie-suan-fa-152-cheng-ji-zui-da-zi-xu-lie-by-g/)恍然大悟啊（日常恍然大悟）思路很简单，因为负数，所以我们之前累乘的计数变量时而大时而小，所以这里把这个数一分为二
 
-其实之前那个解法的db也是用处不大的，这里就忽略了
+# 其实之前那个解法的db也是用处不大的，这里就忽略了
 
-```python
+# ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         MAX = float("-inf")
@@ -89,11 +89,11 @@ class Solution:
             total_min = min(total_min*each, each)
             MAX = max(MAX, total_max, total_min)
         return MAX
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :72 ms, 在所有 Python3 提交中击败了28.44% 的用户
 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了23.81%的用户
     
@@ -102,8 +102,8 @@ class Solution:
 
 执行用时 :56 ms, 在所有 Python3 提交中击败了74.16% 的用户
 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了25.47%的用户
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

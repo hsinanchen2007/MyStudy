@@ -1,6 +1,6 @@
-如下所示，代码比较长，单数之和最大进位是1， 所以我们用 k = 1 或者 0 去记录进位的值，并与下一位数进行相加，生成新的数赋值给L1,并赋值 k的新进位值，直到某一个链表遍历完成，其余部分拼接到L1，继续遍历，需要注意的是遍历完成后，还需要看是否要进位，对链接进行溢出处理。
+// 如下所示，代码比较长，单数之和最大进位是1， 所以我们用 k = 1 或者 0 去记录进位的值，并与下一位数进行相加，生成新的数赋值给L1,并赋值 k的新进位值，直到某一个链表遍历完成，其余部分拼接到L1，继续遍历，需要注意的是遍历完成后，还需要看是否要进位，对链接进行溢出处理。
 
-```
+// ```
 
 /**
  * Definition for singly-linked list.
@@ -10,9 +10,9 @@
  * };
  */
 
-```
+// ```
 
-```cpp
+// ```cpp
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     
   int k = 0;
@@ -63,4 +63,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
   
 }
 
-```
+// ```

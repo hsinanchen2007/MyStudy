@@ -1,9 +1,9 @@
-### 解题思路
-使用String的indexOf(int ch, int fromIndex)方法，则只需要遍历一遍就OK了
+// ### 解题思路
+// 使用String的indexOf(int ch, int fromIndex)方法，则只需要遍历一遍就OK了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         char[] chars = s.toCharArray();
@@ -18,4 +18,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

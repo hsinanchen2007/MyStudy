@@ -1,4 +1,4 @@
-```
+// ```
 public class MaxQueue {
 
     Queue<Integer> queue;
@@ -31,4 +31,4 @@ public class MaxQueue {
         return ans;
     }
 }
-```
+// ```

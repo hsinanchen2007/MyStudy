@@ -1,15 +1,15 @@
-### 解题思路
-1. 先遍历数组,存入到map,key为数值,value为频率
-2. 数组排序,去重.
-3. 双重循环
-4. 三种情况:
-4. a. 3个相同数都为0
-5. b. 2个相同数,1个不同数
-6. c. 3个不同数
+// ### 解题思路
+// 1. 先遍历数组,存入到map,key为数值,value为频率
+// 2. 数组排序,去重.
+// 3. 双重循环
+// 4. 三种情况:
+// 4. a. 3个相同数都为0
+// 5. b. 2个相同数,1个不同数
+// 6. c. 3个不同数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         HashMap<Integer, Integer> counter = new HashMap<>();
@@ -55,4 +55,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

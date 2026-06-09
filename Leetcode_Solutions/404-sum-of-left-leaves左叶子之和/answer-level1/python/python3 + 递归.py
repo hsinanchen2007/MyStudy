@@ -1,4 +1,4 @@
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             helper(root.right,-1)
         helper(root,0)
         return self.result
-```
+# ```

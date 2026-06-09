@@ -1,5 +1,5 @@
-hash函数+检查
-```
+// hash函数+检查
+// ```
 class Solution {
 public:
     // 计算hash 
@@ -42,4 +42,4 @@ public:
         return -1;
     }
 };
-```
+// ```

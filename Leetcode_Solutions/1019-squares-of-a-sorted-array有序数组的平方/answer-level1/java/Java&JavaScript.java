@@ -1,5 +1,5 @@
-1. Java方法一（遍历平方再排序）
-```
+// 1. Java方法一（遍历平方再排序）
+// ```
 class Solution {
     public int[] sortedSquares(int[] A) {
         int[] result = new int[A.length];
@@ -10,10 +10,10 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
-2. Java方法二（双指针）
-```
+// 2. Java方法二（双指针）
+// ```
 class Solution {
     public int[] sortedSquares(int[] A) {
         int l = A.length;
@@ -44,10 +44,10 @@ class Solution {
         return result; 
     }
 }
-```
+// ```
 
-3. JS方法（先map再sort）
-```
+// 3. JS方法（先map再sort）
+// ```
 /**
  * @param {number[]} A
  * @return {number[]}
@@ -66,4 +66,4 @@ var sortedSquares = function(A) {
 function pow(x) {
     return x * x;
 }
-```
+// ```

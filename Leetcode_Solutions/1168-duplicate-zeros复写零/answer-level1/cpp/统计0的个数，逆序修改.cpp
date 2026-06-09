@@ -1,9 +1,9 @@
-### 解题思路
-统计0的个数，逆序修改
+// ### 解题思路
+// 统计0的个数，逆序修改
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void duplicateZeros(vector<int>& arr) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         found = False
@@ -26,8 +26,8 @@ class Solution:
                 if found:
                     return True
         return found
-```
-```
+# ```
+# ```
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         def searchwd(board, i, j, word):
@@ -50,4 +50,4 @@ class Solution:
                 if searchwd(board, i, j, word):
                     return True
         return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-三个指针A数组原地排序方法
+# ### 解题思路
+# 三个指针A数组原地排序方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
             p -= 1
         
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func cuttingRope(n int) int {
 	dp := make([]int,n + 1)
 	dp[1] = 1
@@ -19,4 +19,4 @@ func max(a,b int) int{
 	}
 	return b
 }
-```
+// ```

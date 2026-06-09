@@ -1,9 +1,9 @@
-## 思路
-建立一个线段树，如果插入的数据和当前有重叠，则返回false。否则，根据其大小选择对左侧还是右侧递归，并注意在为null的时候进行插入（类似BST)。
+// ## 思路
+// 建立一个线段树，如果插入的数据和当前有重叠，则返回false。否则，根据其大小选择对左侧还是右侧递归，并注意在为null的时候进行插入（类似BST)。
 
 
-## 代码
-```java
+// ## 代码
+// ```java
 class  Node{
     int start;
     int end;
@@ -45,4 +45,4 @@ private boolean book(Node root, int start, int end) {
     }
     return false;
 }
-```
+// ```

@@ -1,13 +1,13 @@
-解题思路：
+// 解题思路：
 
-* 将logs按日期排序；
-* 依赖遍历所有的log = logs[i]：
-  * 执行find操作，如果两人属于同一个集合，说明已经认识了，不做任何操作；
-  * 执行find操作，如果两人不属于同一个集合，说明还没有认识，执行union操作，max = log[0]。
+// * 将logs按日期排序；
+// * 依赖遍历所有的log = logs[i]：
+//   * 执行find操作，如果两人属于同一个集合，说明已经认识了，不做任何操作；
+//   * 执行find操作，如果两人不属于同一个集合，说明还没有认识，执行union操作，max = log[0]。
   
-* 返回更新的时间
+// * 返回更新的时间
 
-``` java
+// ``` java
 class Solution {
     int[] parents;
     Map<Integer, Integer> times = new HashMap<>();
@@ -52,4 +52,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

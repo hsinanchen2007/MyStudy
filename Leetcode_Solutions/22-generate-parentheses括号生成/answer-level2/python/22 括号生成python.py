@@ -1,15 +1,15 @@
-### 解题思路
-深度优先遍历
-def dfs(cur_str, left, right)
-    if left == 0 and right == 0:
-    if right < left:
-    if left > 0:
-    if right > 0:
+# ### 解题思路
+# 深度优先遍历
+# def dfs(cur_str, left, right)
+#     if left == 0 and right == 0:
+#     if right < left:
+#     if left > 0:
+#     if right > 0:
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def generateParenthesis(self, n):
         """
@@ -36,4 +36,4 @@ class Solution(object):
         return res
 
 
-```
+# ```

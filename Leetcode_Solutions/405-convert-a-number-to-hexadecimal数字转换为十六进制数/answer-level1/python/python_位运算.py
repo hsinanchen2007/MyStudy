@@ -1,5 +1,5 @@
-难点在负数补码和低四位的位运算
-```
+# 难点在负数补码和低四位的位运算
+# ```
 class Solution(object):
     def toHex(self, num):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             num = (num >> 4)
         return rst
 
-```
+# ```

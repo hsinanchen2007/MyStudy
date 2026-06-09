@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/58688089e2a16ac7bcdfba44f337094a83564d8616441390f4c08779a12284a6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/58688089e2a16ac7bcdfba44f337094a83564d8616441390f4c08779a12284a6-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   学习一下欧几里得算法 gcd 
   const gcd = (a, b) => return b === 0 ? a : gcd( b, a % b )
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -25,4 +25,4 @@ var gcdOfStrings = function(str1, str2) {
   
   return str1.substring(0, gcd(str1.length, str2.length));
 };
-```
+// ```

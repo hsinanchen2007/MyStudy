@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1 对数组进行排序；
-2 前一个数组的最后一元素如果等于或者大于，下一个数组的第一个元素，则可以合并；
-3 选择Stack，栈顶作为用于比较的元素。
+// 1 对数组进行排序；
+// 2 前一个数组的最后一元素如果等于或者大于，下一个数组的第一个元素，则可以合并；
+// 3 选择Stack，栈顶作为用于比较的元素。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     static Comparator comparator = new Comparator<int[]>() {
@@ -55,4 +55,4 @@ public static int[][] merge(int[][] intervals) {
         return result;
     }
 }
-```
+// ```

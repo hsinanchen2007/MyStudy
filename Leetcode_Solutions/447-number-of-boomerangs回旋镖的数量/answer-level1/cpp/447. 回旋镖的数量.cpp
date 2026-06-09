@@ -1,8 +1,8 @@
-### 解题思路
-1.使用hash_map记录相同距离的个数，因为方向不同也算一个回旋镖，因此每当有一个坐标到n个坐标都有相同的距离时就有2 * (n - 1)个回旋镖。
-### 代码
+// ### 解题思路
+// 1.使用hash_map记录相同距离的个数，因为方向不同也算一个回旋镖，因此每当有一个坐标到n个坐标都有相同的距离时就有2 * (n - 1)个回旋镖。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfBoomerangs(vector<vector<int>>& points) {
@@ -23,4 +23,4 @@ public:
         return num;
     }
 };
-```
+// ```

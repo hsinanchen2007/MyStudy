@@ -1,14 +1,14 @@
 
-/**
-1、先按身高从大到小排序，再根据每个人前面身高大于等于他的计算插人即可。
-2、运用qsort 和 memmove 库函数即可。
+// /**
+// 1、先按身高从大到小排序，再根据每个人前面身高大于等于他的计算插人即可。
+// 2、运用qsort 和 memmove 库函数即可。
 
-void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))
-int compar(const void *p1, const void *p2);
-void *memmove(void *str1, const void *str2, size_t n)
-**/
+// void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))
+// int compar(const void *p1, const void *p2);
+// void *memmove(void *str1, const void *str2, size_t n)
+// **/
 
-```
+// ```
 typedef struct peopleStr{
     int height;
     int hCount;
@@ -45,4 +45,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
     *returnSize = peopleSize;
     return res;
 }
-```
+// ```

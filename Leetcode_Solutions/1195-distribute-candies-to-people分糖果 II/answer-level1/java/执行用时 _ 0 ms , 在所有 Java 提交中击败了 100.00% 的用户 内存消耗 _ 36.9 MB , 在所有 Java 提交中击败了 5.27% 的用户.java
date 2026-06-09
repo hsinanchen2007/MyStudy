@@ -1,9 +1,9 @@
-### 解题思路
-这道题需要自己列出几行数据，然后去寻找规律。先计算可以分到第count层，再计算count - 1层每个人能分到的糖果数，最后如果还有糖果剩余，继续分配。
+// ### 解题思路
+// 这道题需要自己列出几行数据，然后去寻找规律。先计算可以分到第count层，再计算count - 1层每个人能分到的糖果数，最后如果还有糖果剩余，继续分配。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int[] distributeCandies(int candies, int num_people) {
         int count = 0;
@@ -50,4 +50,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

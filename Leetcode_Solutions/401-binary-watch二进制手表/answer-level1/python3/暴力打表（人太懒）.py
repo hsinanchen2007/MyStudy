@@ -1,10 +1,10 @@
-其实算清楚组合情况，把小时和分钟数直接写死在表里，然后两两相加枚举就可以了。
+# 其实算清楚组合情况，把小时和分钟数直接写死在表里，然后两两相加枚举就可以了。
 
-可是我懒得手算了，直接做了个二进制的全排列，枚举了所有情况。结果代码 TLE 了。于是改造成了生成器，暴力打表。
+# 可是我懒得手算了，直接做了个二进制的全排列，枚举了所有情况。结果代码 TLE 了。于是改造成了生成器，暴力打表。
 
-Data Generator 代码：
+# Data Generator 代码：
 
-```python
+# ```python
 import itertools
     
 def rr(num: int) -> []:
@@ -31,11 +31,11 @@ for i in range(1, 9):
     print(i, "\n")
     print(rr(i))
     print("\n")
-```
+# ```
 
-AC 代码：
+# AC 代码：
 
-```python
+# ```python
 class Solution:
         
     def readBinaryWatch(self, num: int) -> List[str]:
@@ -61,4 +61,4 @@ class Solution:
             return []
         
 
-```
+# ```

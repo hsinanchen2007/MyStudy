@@ -1,7 +1,7 @@
-看到楼下的解法，刚开始不太理解，后来用C++重新写了一遍，终于理解楼下的做法了.
-解法非常巧妙，利用了众数的特性，解法非常榜。
+// 看到楼下的解法，刚开始不太理解，后来用C++重新写了一遍，终于理解楼下的做法了.
+// 解法非常巧妙，利用了众数的特性，解法非常榜。
 
-```c++ []
+// ```c++ []
 struct SegTreeNode{
     int l;
     int r;
@@ -129,8 +129,8 @@ private:
  * MajorityChecker* obj = new MajorityChecker(arr);
  * int param_1 = obj->query(left,right,threshold);
  */
-```
-```python []
+// ```
+// ```python []
 class SegTreeNode(object):
     def __init__(self,l,r):
         self.l = l
@@ -253,4 +253,4 @@ class MajorityChecker(object):
 # Your MajorityChecker object will be instantiated and called as such:
 # obj = MajorityChecker(arr)
 # param_1 = obj.query(left,right,threshold)
-```
+// ```

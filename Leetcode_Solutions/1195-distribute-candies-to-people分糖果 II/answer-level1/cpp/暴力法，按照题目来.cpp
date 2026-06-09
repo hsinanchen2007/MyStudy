@@ -1,4 +1,4 @@
-```C++
+// ```C++
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -24,5 +24,5 @@ int main()
 	
 	return 0;
 }
-```
-按照题目一步步去做就可以了，虽然比不上算术法
+// ```
+// 按照题目一步步去做就可以了，虽然比不上算术法

@@ -1,4 +1,4 @@
-```
+# ```
 import heapq as hq
 class Solution:
     def maximumMinimumPath(self, A: List[List[int]]) -> int:
@@ -17,4 +17,4 @@ class Solution:
                     if A[new_i][new_j] != -1:
                         hq.heappush(ans, (max(score, -A[new_i][new_j]), new_i, new_j))
                         A[new_i][new_j] = -1
-```
+# ```

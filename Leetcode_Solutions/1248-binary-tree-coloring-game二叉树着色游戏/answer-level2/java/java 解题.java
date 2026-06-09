@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/08bf674324dacfb1835a9f244b1b61bc110f0fbc9dffe7b6987060854dbf0cd2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/08bf674324dacfb1835a9f244b1b61bc110f0fbc9dffe7b6987060854dbf0cd2-image.png)
 
 
-思路： 
+// 思路： 
 
-当一号玩家完成了选择，把其余二叉树节点分成3部分：左孩子节点及其子孙节点，右孩子节点及其子孙节点，父节点及其他。如果有一个区域的节点数大于另外两个区域的节点数，那么二号玩家能赢。
+// 当一号玩家完成了选择，把其余二叉树节点分成3部分：左孩子节点及其子孙节点，右孩子节点及其子孙节点，父节点及其他。如果有一个区域的节点数大于另外两个区域的节点数，那么二号玩家能赢。
 
-```java []
+// ```java []
 class Solution {
     private TreeNode firstPlayerNode = null; //第一个玩家选择的节点
     private int leftChildrenNodeCount = 0; // 第一个玩家选择的节点为基准，左孩子及子孙节点数
@@ -51,5 +51,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-使用java的TreeSet+HashMap构造双向链表，总代码行数93行，运行55ms
-思路大佬们都讲的很清楚了，这里提供一种使用TreeSet和HashMap的方式来构建数据结构，存储频率队列
-代码中的TreeSet<Long> freqSet;用于快速找到频率最小的频率队列
-class FreqQueue 中的TreeSet<Long> index;用于快速查找当前频率相同的时间队列中，时间戳最小的节点。
-代码量较少+运行时间还说得过去，提供一种思路。
-写一个类似官方题解中的结构体也可以
-```
+// 使用java的TreeSet+HashMap构造双向链表，总代码行数93行，运行55ms
+// 思路大佬们都讲的很清楚了，这里提供一种使用TreeSet和HashMap的方式来构建数据结构，存储频率队列
+// 代码中的TreeSet<Long> freqSet;用于快速找到频率最小的频率队列
+// class FreqQueue 中的TreeSet<Long> index;用于快速查找当前频率相同的时间队列中，时间戳最小的节点。
+// 代码量较少+运行时间还说得过去，提供一种思路。
+// 写一个类似官方题解中的结构体也可以
+// ```
 class FreqQueue{
         TreeSet<Long> index;
         Map<Integer,Long> nameToId;
@@ -98,4 +98,4 @@ class FreqQueue{
             cap--;
         }
     }
-```
+// ```

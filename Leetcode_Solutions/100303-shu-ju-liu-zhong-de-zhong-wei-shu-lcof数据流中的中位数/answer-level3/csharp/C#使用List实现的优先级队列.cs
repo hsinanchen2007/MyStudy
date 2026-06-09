@@ -1,5 +1,5 @@
-没找到标准库中提供的优先级队列，只好自己实现一个，如果有人知道请分享一下，感激不尽！
-```
+// 没找到标准库中提供的优先级队列，只好自己实现一个，如果有人知道请分享一下，感激不尽！
+// ```
 public class MedianFinder {
 
   class Heap<T> {
@@ -88,4 +88,4 @@ public class MedianFinder {
     return this.isOdd ? this.maxHeap.Peek() : ((double) (this.maxHeap.Peek() + this.minHeap.Peek())) / 2;
   }
 }
-```
+// ```

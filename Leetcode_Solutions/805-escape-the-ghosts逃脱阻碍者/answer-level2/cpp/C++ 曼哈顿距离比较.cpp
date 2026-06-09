@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int abs(int x) {
@@ -15,7 +15,7 @@ public:
         return true;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c40aada8bbcd12a0bcfd79a124287dd0f5493a79e6dfdc3168dccb183ca085d8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c40aada8bbcd12a0bcfd79a124287dd0f5493a79e6dfdc3168dccb183ca085d8-image.png)
 
 

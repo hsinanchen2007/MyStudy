@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+# ### 解题思路
+# 动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         rows = len(grid)
@@ -20,4 +20,4 @@ class Solution:
                 else:
                     dp[i][j] = min(dp[i + 1][j], dp[i][j + 1]) + grid[i][j]
         return dp[0][0]
-```
+# ```

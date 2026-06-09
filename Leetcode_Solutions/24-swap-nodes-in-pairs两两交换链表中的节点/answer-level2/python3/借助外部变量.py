@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1. 偶数步前进，每前进一步就替换当前位置与下一个位置；
-2. 需要注意链表元素个数，如果为奇数则最后一个元素不用替换；
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 偶数步前进，每前进一步就替换当前位置与下一个位置；
+# 2. 需要注意链表元素个数，如果为奇数则最后一个元素不用替换；
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             temp = temp.next
             head = head.next
         return node.next
-```
+# ```

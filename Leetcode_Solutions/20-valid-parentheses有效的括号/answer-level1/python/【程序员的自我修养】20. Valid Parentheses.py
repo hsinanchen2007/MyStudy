@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
 
-利用一个栈，不断地往里压左括号，一旦遇上了一个右括号，我们就把栈顶的左括号弹出来，
-表示这是一个合法的组合，以此类推，直到最后判断栈里还有没有左括号剩余。
+# 利用一个栈，不断地往里压左括号，一旦遇上了一个右括号，我们就把栈顶的左括号弹出来，
+# 表示这是一个合法的组合，以此类推，直到最后判断栈里还有没有左括号剩余。
 
 
-```python []
+# ```python []
 ValidMap = {
     '(': ')',
     '[': ']',
@@ -40,9 +40,9 @@ class Solution(object):
                 else:
                     return False
         return len(stack) <= 0
-```
+# ```
 
-```c++ []
+# ```c++ []
 class _20_Valid_Parentheses
 {
 private:
@@ -80,7 +80,7 @@ public:
 		return stack.empty();
 	}
 };
-```
+# ```
 
 
-![20.gif](https://pic.leetcode-cn.com/e5fe11d245f9d820e6ff40d8c862633077178d754ec4891b1bdf31568799e119-20.gif)
+# ![20.gif](https://pic.leetcode-cn.com/e5fe11d245f9d820e6ff40d8c862633077178d754ec4891b1bdf31568799e119-20.gif)

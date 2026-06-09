@@ -1,6 +1,6 @@
-只要不是第一个和最后一个元素，就等于上一行同位置和前一个位置的和
+// 只要不是第一个和最后一个元素，就等于上一行同位置和前一个位置的和
 
-```
+// ```
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -18,4 +18,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

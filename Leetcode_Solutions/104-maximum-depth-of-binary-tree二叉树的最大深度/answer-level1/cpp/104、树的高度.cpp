@@ -1,9 +1,9 @@
-### 解题思路
-1、第一种是DFS，就是求左右子树的高度+1，用递归实现
-2、第二种是按层遍历，BFS
-### 代码
+// ### 解题思路
+// 1、第一种是DFS，就是求左右子树的高度+1，用递归实现
+// 2、第二种是按层遍历，BFS
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
         return depth;
     }
 };
-```
+// ```

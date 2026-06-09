@@ -1,17 +1,17 @@
-### 解题思路
-看到C语言的解题方法太少了，所以分享一下。
-顺便吐槽一下C方式的接口变量确实很烦，需要这么多入口参数嘛？
+// ### 解题思路
+// 看到C语言的解题方法太少了，所以分享一下。
+// 顺便吐槽一下C方式的接口变量确实很烦，需要这么多入口参数嘛？
 
-简单来讲，就跟正常的二维数组遍历一样，两个for循环嵌套。稍微有点不同的有三点：
-+ 外层循环`i`的最大边界是`(column + row)`，内层循环的`j`的最大边界是`i`
-+ 遍历到的点要满足`arr[i - j][j]`, 也就是改点的行列坐标之和必须等于`i`
-+ 奇偶行的遍历方向不同
+// 简单来讲，就跟正常的二维数组遍历一样，两个for循环嵌套。稍微有点不同的有三点：
+// + 外层循环`i`的最大边界是`(column + row)`，内层循环的`j`的最大边界是`i`
+// + 遍历到的点要满足`arr[i - j][j]`, 也就是改点的行列坐标之和必须等于`i`
+// + 奇偶行的遍历方向不同
 
-![image.png](https://pic.leetcode-cn.com/b737f22a9a9b33b7200e7cbb81efae47e92b74d6356aa7f695fb877e545c6dfe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b737f22a9a9b33b7200e7cbb81efae47e92b74d6356aa7f695fb877e545c6dfe-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -44,4 +44,4 @@ int* findDiagonalOrder(int** matrix, int matrixSize, int* matrixColSize, int* re
     }
     return MidArray;
 }
-```
+// ```

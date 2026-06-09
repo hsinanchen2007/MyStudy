@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
@@ -20,6 +20,6 @@ public:
 
     }
 };
-```
+// ```
 
-奇偶双指针交替连接形成新链表，最后把偶链表接到奇链表末尾。
+// 奇偶双指针交替连接形成新链表，最后把偶链表接到奇链表末尾。

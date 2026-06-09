@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bf2b7a5e51132dc4c1e2e391a3dbec1e6adc3b4c4c3be9985273e75ed965c825-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bf2b7a5e51132dc4c1e2e391a3dbec1e6adc3b4c4c3be9985273e75ed965c825-image.png)
 
-速度全国倒数，全排列两两对比，一个是否在另一个尾部。
-### 代码
+// 速度全国倒数，全排列两两对比，一个是否在另一个尾部。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -43,4 +43,4 @@ var minimumLengthEncoding = function (words) {
     }
     return totalLen;
 };
-```
+// ```

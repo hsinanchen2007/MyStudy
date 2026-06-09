@@ -1,8 +1,8 @@
-快排
+// 快排
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] GetLeastNumbers(int[] arr, int k) {
         int[] result = new int[k];
@@ -55,4 +55,4 @@ public class Solution {
         return i;
     }
 }
-```
+// ```

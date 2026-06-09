@@ -1,6 +1,6 @@
-翻转链表，并统计长度。
+// 翻转链表，并统计长度。
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

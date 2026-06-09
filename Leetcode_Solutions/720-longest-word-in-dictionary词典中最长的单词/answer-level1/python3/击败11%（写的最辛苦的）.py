@@ -1,12 +1,12 @@
-### 解题思路
-1.所有字符串按照长度排序；
-2.排序后从尾部开始将字符串每次切掉尾部元素，确认其所有子串在words中；
-3.充分利用for-else循环结构，break掉的模块无法进入else语句；
-注释：虽然时间复杂度很高，但是写的很辛苦，不总结下感觉对不住辛苦。
+# ### 解题思路
+# 1.所有字符串按照长度排序；
+# 2.排序后从尾部开始将字符串每次切掉尾部元素，确认其所有子串在words中；
+# 3.充分利用for-else循环结构，break掉的模块无法进入else语句；
+# 注释：虽然时间复杂度很高，但是写的很辛苦，不总结下感觉对不住辛苦。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestWord(self, words):
         length=len(words)
@@ -29,4 +29,4 @@ class Solution:
                 else:
                     continue
         return min(res_list) if res_list else ''
-```
+# ```

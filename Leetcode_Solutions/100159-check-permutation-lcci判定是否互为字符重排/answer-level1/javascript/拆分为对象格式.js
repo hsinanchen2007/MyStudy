@@ -1,11 +1,11 @@
-### 解题思路
-写进对象 
-var in遍历 判断两个不同对象键名-键值是否一致
-需要注意 如果长度不一样直接返回false 如果字符串为空也可以直接返回
+// ### 解题思路
+// 写进对象 
+// var in遍历 判断两个不同对象键名-键值是否一致
+// 需要注意 如果长度不一样直接返回false 如果字符串为空也可以直接返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s1
  * @param {string} s2
@@ -38,4 +38,4 @@ function translateObj(str) {
     }
     return obj;
 }
-```
+// ```

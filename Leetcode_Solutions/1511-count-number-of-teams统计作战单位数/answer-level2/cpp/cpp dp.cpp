@@ -1,9 +1,9 @@
-### 解题思路
-dp[rating第i个数][0：升降队列第2个数，1：升降队列第3个数][0：升，1：降]
+// ### 解题思路
+// dp[rating第i个数][0：升降队列第2个数，1：升降队列第3个数][0：升，1：降]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

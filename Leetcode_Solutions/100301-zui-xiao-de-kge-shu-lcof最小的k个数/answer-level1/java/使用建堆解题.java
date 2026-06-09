@@ -1,9 +1,9 @@
-### 解题思路
-堆排序的时间复杂度为 n * logN 这里要查询K下小数；所以时间复杂度为： k * logN ; 
+// ### 解题思路
+// 堆排序的时间复杂度为 n * logN 这里要查询K下小数；所以时间复杂度为： k * logN ; 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (arr == null || arr.length < 2 ){
@@ -51,4 +51,4 @@ class Solution {
         arr[idx] = tmp;
     }
 }
-```
+// ```

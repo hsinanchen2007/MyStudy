@@ -1,4 +1,4 @@
-```js
+// ```js
 var decodeString = function (s) {
   const reg = /(\d+)\[(\w+)\]/g;
   let matches = s.match(reg);
@@ -8,4 +8,4 @@ var decodeString = function (s) {
   }
   return s;
 };
-```
+// ```

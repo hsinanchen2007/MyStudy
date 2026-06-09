@@ -1,9 +1,9 @@
-### 解题思路
-迭代，不用递归，一个while循环即可。
+// ### 解题思路
+// 迭代，不用递归，一个while循环即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return node;
     }
 };
-```
+// ```

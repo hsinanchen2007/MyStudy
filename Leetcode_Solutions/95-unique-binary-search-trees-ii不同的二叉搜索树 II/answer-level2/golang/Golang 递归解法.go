@@ -1,7 +1,7 @@
 
-递归函数 generateTreesRecur(start, end int) 代表构造从 start 到 end 的这么多元素能形成的二叉搜索树
+// 递归函数 generateTreesRecur(start, end int) 代表构造从 start 到 end 的这么多元素能形成的二叉搜索树
 
-```
+// ```
 func generateTrees(n int) []*TreeNode {
     res := make([]*TreeNode, 0) 
     
@@ -64,4 +64,4 @@ func generateTreesRecur(start, end int) []*TreeNode {
     
     return res
 }
-```
+// ```

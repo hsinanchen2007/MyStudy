@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/8b2836f3c543aab4794be4cc406e672061ac5dd17d14890ef01638946c703e89-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8b2836f3c543aab4794be4cc406e672061ac5dd17d14890ef01638946c703e89-image.png)
 
-因为不能确定输入字符串有多长，即不能确定有多少重循环，所以考虑用递归来处理。
+// 因为不能确定输入字符串有多长，即不能确定有多少重循环，所以考虑用递归来处理。
 
-代码
-```
+// 代码
+// ```
 var table = map[byte]string{            // 键盘映射表
     '0':" ",'1':"*", '2':"abc",
     '3':"def", '4':"ghi", '5':"jkl",
@@ -29,4 +29,4 @@ func dfs(n int, cur string, digits string, ans []string) []string {
 func letterCombinations(digits string) []string {
     return dfs(0, "", digits, []string{})
 }
-```
+// ```

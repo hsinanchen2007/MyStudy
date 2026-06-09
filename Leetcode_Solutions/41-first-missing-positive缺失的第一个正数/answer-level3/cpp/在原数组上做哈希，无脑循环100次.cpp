@@ -1,5 +1,5 @@
-先把nums的大小填到n + 1确保1~n都能放进去，然后就开始排了嗷。循环100次可以不这么做，而是在内部一直置换到当前数不能置换为止的哈。
-```c++
+// 先把nums的大小填到n + 1确保1~n都能放进去，然后就开始排了嗷。循环100次可以不这么做，而是在内部一直置换到当前数不能置换为止的哈。
+// ```c++
 class Solution {
 public:
   int firstMissingPositive(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
     return nums.size();
   }
 };
-```
+// ```

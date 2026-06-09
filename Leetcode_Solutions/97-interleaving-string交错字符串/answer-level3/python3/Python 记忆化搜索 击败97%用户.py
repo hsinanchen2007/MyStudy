@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7f024c2e906bd0f298cbf154a4dbf7b76f6f9f94e7b1343f8045d516cc5e5e86-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7f024c2e906bd0f298cbf154a4dbf7b76f6f9f94e7b1343f8045d516cc5e5e86-image.png)
 
 
-```
+# ```
 from functools import lru_cache
 
 class Solution:
@@ -27,4 +27,4 @@ class Solution:
         if len(s3) != len(s1) + len(s2):
             return False
         return self.isValid(s3, 0, s1, 0, s2, 0) or self.isValid(s3, 0, s2, 0, s1, 0)
-```
+# ```

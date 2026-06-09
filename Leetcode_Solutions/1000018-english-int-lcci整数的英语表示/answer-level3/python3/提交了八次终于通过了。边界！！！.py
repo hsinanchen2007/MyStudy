@@ -1,9 +1,9 @@
-### 解题思路
-思路并不难 边界太多了！
+# ### 解题思路
+# 思路并不难 边界太多了！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def numberToWords(self, num: int) -> str:
@@ -60,4 +60,4 @@ class Solution:
         answer = [' '.join(item.split()) for item in answer if item.strip() != '']
         print(answer)
         return ' '.join(answer).strip()
-```
+# ```

@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/10/17
- *
- * 解题思路: 固定一个数值 右端进行双指针
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/10/17
+//  *
+//  * 解题思路: 固定一个数值 右端进行双指针
+//  *
+//  */
+// ```
 public int threeSumClosest(int[] nums, int target) {
     Arrays.sort(nums);
     int l = 1;
@@ -37,4 +37,4 @@ public int threeSumClosest(int[] nums, int target) {
 
 }
 
-```
+// ```

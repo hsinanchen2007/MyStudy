@@ -1,9 +1,9 @@
-### 解题思路
-参考84（栈）
+// ### 解题思路
+// 参考84（栈）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calc_max_square(vector<int> &heights){
@@ -38,4 +38,4 @@ public:
         return rt;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-把所有只连接一个点加入外层洋葱队列（集合），然后一层一层往内剥，直到剩余1或2个点时停止，这两个点都可以作为树的根节点。
+# 把所有只连接一个点加入外层洋葱队列（集合），然后一层一层往内剥，直到剩余1或2个点时停止，这两个点都可以作为树的根节点。
 
-时间复杂度，边哈希$O(E)$,队列初始化$O(N)$,剥洋葱过程$O(N)$。
+# 时间复杂度，边哈希$O(E)$,队列初始化$O(N)$,剥洋葱过程$O(N)$。
 
-```python []
+# ```python []
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         if n == 1:
@@ -22,4 +22,4 @@ class Solution:
                 n -= 1                  #删除计数
             q = t
         return list(q)
-```
+# ```

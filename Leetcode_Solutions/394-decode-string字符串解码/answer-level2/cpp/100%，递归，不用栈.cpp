@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string decodeString(string s) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

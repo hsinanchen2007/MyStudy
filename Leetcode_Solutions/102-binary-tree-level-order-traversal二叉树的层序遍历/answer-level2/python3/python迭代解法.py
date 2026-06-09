@@ -1,10 +1,10 @@
-### 解题思路
-将TreeNode一层层的拆解为左节点和右节点，父节点的值直接放入result数组中。
-相同层级的值需要放在同一个列表中然后存入result，通过给第一个父节点传入index，依次传递index的递增值来区分存入result的第几个列表中。
+# ### 解题思路
+# 将TreeNode一层层的拆解为左节点和右节点，父节点的值直接放入result数组中。
+# 相同层级的值需要放在同一个列表中然后存入result，通过给第一个父节点传入index，依次传递index的递增值来区分存入result的第几个列表中。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             item = self.traversalList.pop(0)
             self.traversalMaker(item)
         return self.result
-```
+# ```

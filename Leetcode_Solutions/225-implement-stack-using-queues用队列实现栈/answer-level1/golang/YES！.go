@@ -1,9 +1,9 @@
-### 解题思路
-新元素入队后，咱就把之前的元素又重新入了一下队，没别哒
+// ### 解题思路
+// 新元素入队后，咱就把之前的元素又重新入了一下队，没别哒
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     data []int
 }
@@ -60,4 +60,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

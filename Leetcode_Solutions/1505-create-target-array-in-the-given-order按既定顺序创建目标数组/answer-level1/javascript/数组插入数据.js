@@ -1,9 +1,9 @@
-### 解题思路
-调用splice方法直接插入数据即可
+// ### 解题思路
+// 调用splice方法直接插入数据即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number[]} index
@@ -16,4 +16,4 @@ var createTargetArray = function(nums, index) {
     }
     return target;
 };
-```
+// ```

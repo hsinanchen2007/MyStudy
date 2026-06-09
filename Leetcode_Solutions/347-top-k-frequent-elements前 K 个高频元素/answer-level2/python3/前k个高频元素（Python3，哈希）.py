@@ -1,5 +1,5 @@
-主体思想：先排序，记录每个数的个数，和每个数的初始下标。分别存在两个列表里，构建字典。将字典排序，输出前K个高频元素
-```
+# 主体思想：先排序，记录每个数的个数，和每个数的初始下标。分别存在两个列表里，构建字典。将字典排序，输出前K个高频元素
+# ```
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         if len(nums)==1:
@@ -33,4 +33,4 @@ class Solution:
             else:
                 break
         return re_nu
-```
+# ```

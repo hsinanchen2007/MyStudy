@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解进行
+// ### 解题思路
+// 参考官方题解进行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return n+1;
     }
 };
-```
+// ```

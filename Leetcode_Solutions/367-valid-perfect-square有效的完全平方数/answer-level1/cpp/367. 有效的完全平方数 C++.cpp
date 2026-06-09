@@ -1,9 +1,9 @@
-### 解题思路
-1.使用牛顿迭代法求完全平方数。
+// ### 解题思路
+// 1.使用牛顿迭代法求完全平方数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -16,4 +16,4 @@ public:
         return (x * x == num);
     }
 };
-```
+// ```

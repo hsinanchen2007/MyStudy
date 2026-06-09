@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/c1313ce043dd144106316d9df3ef8171477ece219b1bb0e282679b8eba3c42ea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c1313ce043dd144106316d9df3ef8171477ece219b1bb0e282679b8eba3c42ea-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   对不同数字的出现次数，求它们的最大公约数，是否大于等于2
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -40,4 +40,4 @@ var hasGroupsSizeX = function(deck) {
   
   return ans >= 2;
 };
-```
+// ```

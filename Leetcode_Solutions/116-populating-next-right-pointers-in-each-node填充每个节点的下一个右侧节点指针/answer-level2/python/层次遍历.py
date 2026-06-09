@@ -1,7 +1,7 @@
-1.对完美二叉树进行层次遍历，设置遍历的层数，当遍历到每层的最后一个元素的时候其next指针指向NULL
-否则指向下一个遍历的节点，
-2.遍历完美二叉树使用队
-```
+# 1.对完美二叉树进行层次遍历，设置遍历的层数，当遍历到每层的最后一个元素的时候其next指针指向NULL
+# 否则指向下一个遍历的节点，
+# 2.遍历完美二叉树使用队
+# ```
 from collections import deque
 class Solution(object):
     def connect(self, root):
@@ -25,4 +25,4 @@ class Solution(object):
         return root
 
 
-```
+# ```

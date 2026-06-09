@@ -1,10 +1,10 @@
-### 解题思路
-1. 简单写直接循环遍历找到两个边界算法为O（N^2）
-2. 快排可以达到O（NlogN）
+// ### 解题思路
+// 1. 简单写直接循环遍历找到两个边界算法为O（N^2）
+// 2. 快排可以达到O（NlogN）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> subSort(vector<int>& array) {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

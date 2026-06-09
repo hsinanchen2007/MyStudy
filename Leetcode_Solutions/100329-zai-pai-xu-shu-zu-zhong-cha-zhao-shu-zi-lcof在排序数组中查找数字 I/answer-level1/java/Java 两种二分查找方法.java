@@ -1,29 +1,29 @@
-## 53-I.在排序数组中查找数字I
+// ## 53-I.在排序数组中查找数字I
 
-### Information
+// ### Information
 
-* TIME: 2020/02/22
-* LINK: [Click Here](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)
-* TAG: `二分`
+// * TIME: 2020/02/22
+// * LINK: [Click Here](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)
+// * TAG: `二分`
 
-### Description
+// ### Description
 
-> 统计一个数字在排序数组中出现的次数。
+// > 统计一个数字在排序数组中出现的次数。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: nums = [5,7,7,8,8,10], target = 8
 输出: 2
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 二分随机找到一个等于`target`的索引
->
-> 再左右拓展计数
+// > 二分随机找到一个等于`target`的索引
+// >
+// > 再左右拓展计数
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums == null || nums.length == 0) return 0;
@@ -56,15 +56,15 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> 二分查找`target`出现的左边界
->
-> 二分查找第一个大于`target`的右索引
+// > 二分查找`target`出现的左边界
+// >
+// > 二分查找第一个大于`target`的右索引
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums == null || nums.length == 0) return 0;
@@ -88,23 +88,23 @@ class Solution {
         return left;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/3851f6c3a02c56cde62ae292744b1f4fa421071e9b350b77e970936191ed2497-file_1582341783108)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/3851f6c3a02c56cde62ae292744b1f4fa421071e9b350b77e970936191ed2497-file_1582341783108)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

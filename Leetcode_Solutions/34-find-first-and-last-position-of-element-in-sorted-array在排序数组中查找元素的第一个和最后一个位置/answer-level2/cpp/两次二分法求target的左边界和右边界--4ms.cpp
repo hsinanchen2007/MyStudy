@@ -1,9 +1,9 @@
-### 解题思路
-求左边界和右边界的可以当做固定的套路来记。
+// ### 解题思路
+// 求左边界和右边界的可以当做固定的套路来记。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -37,4 +37,4 @@ public:
         return{leftbound,rightbound};
     }
 };
-```
+// ```

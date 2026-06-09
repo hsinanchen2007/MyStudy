@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/822cb507a08274180d053cea6b468304b2193d0bc1d2a1e068f7c65c9efc07de-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/822cb507a08274180d053cea6b468304b2193d0bc1d2a1e068f7c65c9efc07de-image.png)
 
-就用了两个map，一个【key，value】，一个【frequency，keyArray[]】，然后就捣腾呗。
+// 就用了两个map，一个【key，value】，一个【frequency，keyArray[]】，然后就捣腾呗。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 // 460. LFU Cache
 // Design and implement a data structure for Least Frequently Used (LFU) cache. It should support the following operations: get and put.
 
@@ -118,4 +118,4 @@ LFUCache.prototype.put = function (key, value) {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```

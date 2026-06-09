@@ -1,13 +1,13 @@
-基本思路 ： 
-首先维护一个k长度的滑动窗口set。
-然后由于set是排好序了的，因此可以直接把set转换为list进行二分搜索。
-令lNum = nums[i] - t rNum = nums[i] + t (注意：这里可能产生溢出)，判断list中是否存在val,使得 lNum <= val <= rNum。
-这道题有几个坑：
-1. 直接滑动窗口+线性搜索会超时的 
-2. 数字可能会产生溢出 eg [0,2147483647] 1 2147483647，然后官方解答就偷偷的使用了long类型。
-3. t居然可以为负数，咕了。
+// 基本思路 ： 
+// 首先维护一个k长度的滑动窗口set。
+// 然后由于set是排好序了的，因此可以直接把set转换为list进行二分搜索。
+// 令lNum = nums[i] - t rNum = nums[i] + t (注意：这里可能产生溢出)，判断list中是否存在val,使得 lNum <= val <= rNum。
+// 这道题有几个坑：
+// 1. 直接滑动窗口+线性搜索会超时的 
+// 2. 数字可能会产生溢出 eg [0,2147483647] 1 2147483647，然后官方解答就偷偷的使用了long类型。
+// 3. t居然可以为负数，咕了。
 
-```
+// ```
 public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         //居然存在 t < 0 用例
         if (t < 0) return false;
@@ -59,7 +59,7 @@ public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         }
         return false;
     }
-```
+// ```
 
 
 

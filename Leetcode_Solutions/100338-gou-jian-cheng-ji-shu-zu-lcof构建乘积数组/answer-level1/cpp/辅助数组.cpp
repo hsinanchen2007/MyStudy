@@ -1,12 +1,12 @@
-### 解题思路
-使用两个辅助数组x与y
-- x[i]记录A[0]×A[1]×…×A[i-1]
-- y[i]记录A[i+1]×A[i+2]×…×A[n-1]
-- res[i]=x[i]×y[i]
+// ### 解题思路
+// 使用两个辅助数组x与y
+// - x[i]记录A[0]×A[1]×…×A[i-1]
+// - y[i]记录A[i+1]×A[i+2]×…×A[n-1]
+// - res[i]=x[i]×y[i]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> constructArr(vector<int>& a) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

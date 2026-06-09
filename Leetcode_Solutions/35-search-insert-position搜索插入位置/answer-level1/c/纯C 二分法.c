@@ -1,9 +1,9 @@
-### 解题思路
-二分法 框架
+// ### 解题思路
+// 二分法 框架
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int low = 0;
     int high = numsSize - 1;
@@ -29,4 +29,4 @@ int searchInsert(int* nums, int numsSize, int target){
 
     return low;
 }
-```
+// ```

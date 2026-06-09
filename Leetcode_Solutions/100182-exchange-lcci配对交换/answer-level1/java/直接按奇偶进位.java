@@ -1,6 +1,6 @@
-很简单的进位问题，只是不要搞错了什么时候该进位。
+// 很简单的进位问题，只是不要搞错了什么时候该进位。
 
-```
+// ```
 class Solution {
     public int exchangeBits(int num) {
         int target = 0;
@@ -20,4 +20,4 @@ class Solution {
         return target;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历所有格子，符合条件的计数1，不符合的计数0
+// ### 解题思路
+// 遍历所有格子，符合条件的计数1，不符合的计数0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         int result = 0;
@@ -44,4 +44,4 @@ class Solution {
     }
 
 }
-```
+// ```

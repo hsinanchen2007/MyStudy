@@ -1,11 +1,11 @@
-### 解题思路
-1.将lic拆分出来并转换成小写字母
-2.排序（将words按照字符串长度排序）
-2.利用collections.Counter()函数的集合操作
+# ### 解题思路
+# 1.将lic拆分出来并转换成小写字母
+# 2.排序（将words按照字符串长度排序）
+# 2.利用collections.Counter()函数的集合操作
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
         str_lice=''
@@ -22,4 +22,4 @@ class Solution:
 
 
 
-```
+# ```

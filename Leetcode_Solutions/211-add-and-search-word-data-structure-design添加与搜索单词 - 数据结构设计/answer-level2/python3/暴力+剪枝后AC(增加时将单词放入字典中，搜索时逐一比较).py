@@ -1,19 +1,19 @@
-![图片.png](https://pic.leetcode-cn.com/806fe6e6654fb3e99b1f9919b5e4d25d5744f3043e05bce3dcc36b98067046f2-%E5%9B%BE%E7%89%87.png)
-1.碰到增加单词时，逐一的将单词放入哈希表temp中即可
+# ![图片.png](https://pic.leetcode-cn.com/806fe6e6654fb3e99b1f9919b5e4d25d5744f3043e05bce3dcc36b98067046f2-%E5%9B%BE%E7%89%87.png)
+# 1.碰到增加单词时，逐一的将单词放入哈希表temp中即可
 
-2.搜索单词时，对hash表中的每一个单词进行比对，长度不同的直接跳过到下一个单词，碰见长度相同的，则对两个单词中的字符逐一比对。
+# 2.搜索单词时，对hash表中的每一个单词进行比对，长度不同的直接跳过到下一个单词，碰见长度相同的，则对两个单词中的字符逐一比对。
 
-        1.如果预见万能字符'.'，则continue比对下一个字符。
+#         1.如果预见万能字符'.'，则continue比对下一个字符。
 
-        2.如果碰见字符不匹配，直接break
+#         2.如果碰见字符不匹配，直接break
 
-如果找到了匹配的单词，则置标识符s为1，这样就能停止外层搜索实现剪枝。
-
-
+# 如果找到了匹配的单词，则置标识符s为1，这样就能停止外层搜索实现剪枝。
 
 
-AC代码如下
-```python []
+
+
+# AC代码如下
+# ```python []
 class WordDictionary:
 
     def __init__(self):
@@ -66,5 +66,5 @@ class WordDictionary:
 # obj = WordDictionary()
 # obj.addWord(word)
 # param_2 = obj.search(word)
-```
+# ```
 

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func solveEquation(_ equation: String) -> String {
         let compoments = equation.split(separator: "=")
@@ -53,4 +53,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

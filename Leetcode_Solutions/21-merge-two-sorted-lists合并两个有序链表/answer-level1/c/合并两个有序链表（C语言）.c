@@ -1,9 +1,9 @@
-### 解题思路
-二路归并，遍历一遍两个链表即可
+// ### 解题思路
+// 二路归并，遍历一遍两个链表即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     r->next=NULL;
     return x->next;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 //双指针
@@ -13,4 +13,4 @@ public:
         for(int k=j;k<n;k++)nums[k]=0;
     }
 };
-```
+// ```

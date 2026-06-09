@@ -1,7 +1,7 @@
-传入paths时要引用，当时郁闷了很长时间。。。
-### 代码
+// 传入paths时要引用，当时郁闷了很长时间。。。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -29,4 +29,4 @@ public:
 		return paths;
 	}
 };
-```
+// ```

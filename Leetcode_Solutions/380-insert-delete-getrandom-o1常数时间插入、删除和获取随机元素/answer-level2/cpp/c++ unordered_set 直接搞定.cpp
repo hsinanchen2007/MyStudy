@@ -1,5 +1,5 @@
-直接上代码
-```
+// 直接上代码
+// ```
 class RandomizedSet {
   unordered_set<int>s;
 public:
@@ -31,4 +31,4 @@ public:
     }
 };
 
-```
+// ```

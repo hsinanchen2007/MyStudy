@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-![image.png](https://pic.leetcode-cn.com/4d812a1e70aa933a4c62b076818064cb62ed64e026ce9aa8d19e7ca509157b5d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4d812a1e70aa933a4c62b076818064cb62ed64e026ce9aa8d19e7ca509157b5d-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

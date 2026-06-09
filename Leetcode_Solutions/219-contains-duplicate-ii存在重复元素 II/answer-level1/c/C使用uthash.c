@@ -1,6 +1,6 @@
-不废话，上代码
+// 不废话，上代码
 
-```
+// ```
 struct myStru {
     int key;
     int val;
@@ -47,4 +47,4 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     data_free(&table);
     return false;
 }
-```
+// ```

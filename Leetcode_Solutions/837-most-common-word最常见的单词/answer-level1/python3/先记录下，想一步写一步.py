@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         p = "!?',;."
@@ -21,4 +21,4 @@ class Solution:
                 i +=1
             else:
                 return dic_sort[i][0]
-```
+# ```

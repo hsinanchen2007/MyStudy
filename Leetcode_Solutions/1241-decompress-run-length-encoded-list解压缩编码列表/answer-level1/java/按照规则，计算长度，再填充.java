@@ -1,9 +1,9 @@
-### 解题思路
-先计算长度，再填充
+// ### 解题思路
+// 先计算长度，再填充
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int len = 0;
@@ -26,4 +26,4 @@ class Solution {
 		return rst;
     }
 }
-```
+// ```

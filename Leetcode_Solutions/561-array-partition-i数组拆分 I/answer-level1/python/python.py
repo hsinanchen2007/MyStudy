@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def arrayPairSum(self, nums):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         """
         return sum(sorted(nums)[::2])
         
-```
+# ```

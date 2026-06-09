@@ -1,11 +1,11 @@
-### 解题思路
-注意本题要跟树的子结构区分开来
+// ### 解题思路
+// 注意本题要跟树的子结构区分开来
 
-因为判断子树的函数hasSubTree，返回true或false的条件也略有不同
+// 因为判断子树的函数hasSubTree，返回true或false的条件也略有不同
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ public:
         return res;
     }
 };
-```
+// ```

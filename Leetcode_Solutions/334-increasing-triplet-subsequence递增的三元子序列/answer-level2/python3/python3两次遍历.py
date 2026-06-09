@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def increasingTriplet(self, nums: [int]) -> bool:
         # 这个子序列不要求是连续的
@@ -27,4 +27,4 @@ class Solution:
             if add_num >= 3:
                 return True
         return False
-```
+# ```

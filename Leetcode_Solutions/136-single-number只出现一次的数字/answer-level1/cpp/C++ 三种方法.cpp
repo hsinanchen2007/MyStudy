@@ -1,5 +1,5 @@
-### 已存在哈希表则删除否则插入
-```cpp
+// ### 已存在哈希表则删除否则插入
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -11,10 +11,10 @@ public:
         return *uset.begin();
     }
 };
-```
+// ```
 
-### 2*(a+b+c)-(a+a+b+b+c)=c
-```cpp
+// ### 2*(a+b+c)-(a+a+b+b+c)=c
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -31,10 +31,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### a^b^a=a^a^b=b
-```cpp
+// ### a^b^a=a^a^b=b
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

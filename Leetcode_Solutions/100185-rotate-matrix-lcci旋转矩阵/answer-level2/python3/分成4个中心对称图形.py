@@ -1,9 +1,9 @@
-### 解题思路
-分成4个中心对称图形
+# ### 解题思路
+# 分成4个中心对称图形
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -18,4 +18,4 @@ class Solution:
                 matrix[-i-1][-j-1] = matrix[j][-i-1]
                 matrix[j][-i-1] = t
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-双指针 注意事项在备注中
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 双指针 注意事项在备注中
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         l = 1
@@ -23,4 +23,4 @@ class Solution:
                 l += 1
         return res
 
-```
+# ```

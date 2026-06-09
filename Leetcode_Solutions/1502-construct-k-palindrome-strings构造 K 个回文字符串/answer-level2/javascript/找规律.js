@@ -1,9 +1,9 @@
-### 解题思路
-js
+// ### 解题思路
+// js
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} k
@@ -25,4 +25,4 @@ var canConstruct = function(s, k) {
     return true
 
 };
-```
+// ```

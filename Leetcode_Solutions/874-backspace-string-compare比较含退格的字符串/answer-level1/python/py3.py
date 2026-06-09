@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         S2=''
@@ -16,4 +16,4 @@ class Solution:
             else:
                 T2=T2+i
         return S2==T2
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-两点需要注意 1、用元组记录当前节点的层数；2、当辅助队列为None时，还有最后一层的节点没有加入到结果集中，需要单独加入   时间复杂度O（N），空间复杂度O（N）
+# ### 解题思路
+# 两点需要注意 1、用元组记录当前节点的层数；2、当辅助队列为None时，还有最后一层的节点没有加入到结果集中，需要单独加入   时间复杂度O（N），空间复杂度O（N）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         res.append(floor_nodes)   
         return res
 
-```
+# ```

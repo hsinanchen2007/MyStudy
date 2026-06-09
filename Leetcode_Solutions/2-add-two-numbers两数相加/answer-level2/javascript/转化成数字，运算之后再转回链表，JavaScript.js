@@ -1,11 +1,11 @@
-解题思路：
-1. 将链表转化成数字，测试用例中有超过Number精度的数字，所以用BigInt类型
-2. BigInt 之间运算
-3. 再转换成逆序链表
+// 解题思路：
+// 1. 将链表转化成数字，测试用例中有超过Number精度的数字，所以用BigInt类型
+// 2. BigInt 之间运算
+// 3. 再转换成逆序链表
 
-这种方法稍加改造，就能适配正序的链表
+// 这种方法稍加改造，就能适配正序的链表
 
-```javascript
+// ```javascript
 var addTwoNumbers = function(l1, l2) {
   const value1 = getLinkListValue(l1);
   const value2 = getLinkListValue(l2);
@@ -37,4 +37,4 @@ function setLinkListValue(num) {
       return listNode;
     })[0];
 }
-```
+// ```

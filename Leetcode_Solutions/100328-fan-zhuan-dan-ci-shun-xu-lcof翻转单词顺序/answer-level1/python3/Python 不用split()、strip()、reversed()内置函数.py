@@ -1,5 +1,5 @@
-参考[https://leetcode.com/problems/reverse-words-in-a-string/discuss/172258/Python-or-Two-Pointers-%2B-No-Cheating-tm]()
-```
+# 参考[https://leetcode.com/problems/reverse-words-in-a-string/discuss/172258/Python-or-Two-Pointers-%2B-No-Cheating-tm]()
+# ```
 class Solution:
     def reverseWords(self, s: str) -> str:
         def reverse_string(arr, i, j):  # 反转整个句子
@@ -49,4 +49,4 @@ class Solution:
         arr = trim_spaces(arr)
         res = remove_spaces(arr)
         return ''.join(res)
-```
+# ```

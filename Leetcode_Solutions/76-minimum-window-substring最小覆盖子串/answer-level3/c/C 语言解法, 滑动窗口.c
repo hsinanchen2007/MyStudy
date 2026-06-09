@@ -1,11 +1,11 @@
-### 解题思路
-参考大佬[@labuladong](/u/labuladong/)的算法思想，写出 C lang 的版本
+// ### 解题思路
+// 参考大佬[@labuladong](/u/labuladong/)的算法思想，写出 C lang 的版本
 
-![image.png](https://pic.leetcode-cn.com/4a8d1049c28904c30a107b715600250898a5e8ea2c59b3d71f55d792ccc418a4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4a8d1049c28904c30a107b715600250898a5e8ea2c59b3d71f55d792ccc418a4-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define LEN  125
 char* minWindow(char* s, char* t)
 {

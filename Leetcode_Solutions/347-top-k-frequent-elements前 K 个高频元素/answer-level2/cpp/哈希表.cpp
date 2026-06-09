@@ -1,9 +1,9 @@
-### 解题思路
-先建立num和times的哈希表，然后在建立times和num数组的哈希表， 利用map的有序性进行操作；同时也需要注意可以将time和num放到vector里面，然后排序输出。
+// ### 解题思路
+// 先建立num和times的哈希表，然后在建立times和num数组的哈希表， 利用map的有序性进行操作；同时也需要注意可以将time和num放到vector里面，然后排序输出。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -32,4 +32,4 @@ public:
         return results;
     }
 };
-```
+// ```

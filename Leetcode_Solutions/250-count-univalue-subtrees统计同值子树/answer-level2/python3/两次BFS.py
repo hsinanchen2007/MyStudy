@@ -1,4 +1,4 @@
-```
+# ```
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -38,4 +38,4 @@ class Solution:
             if now_node.right:
                 list2.append(now_node.right)
         return rs
-```
+# ```

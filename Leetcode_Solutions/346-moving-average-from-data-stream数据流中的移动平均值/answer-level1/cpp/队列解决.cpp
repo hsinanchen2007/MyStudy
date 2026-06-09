@@ -1,5 +1,5 @@
-题意大概是想让我们用队列，就自己写个队列，用双链表就好了。
-```
+// 题意大概是想让我们用队列，就自己写个队列，用双链表就好了。
+// ```
 struct Node {
     int val;
     Node *next;
@@ -68,4 +68,4 @@ public:
  * MovingAverage* obj = new MovingAverage(size);
  * double param_1 = obj->next(val);
  */
-```
+// ```

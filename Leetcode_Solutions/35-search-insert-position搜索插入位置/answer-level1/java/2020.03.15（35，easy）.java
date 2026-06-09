@@ -1,11 +1,11 @@
-### 解题思路
-本题使用**二分查找**的思想
+// ### 解题思路
+// 本题使用**二分查找**的思想
 
-通过定义中间位置mid，将数组划分为左右两端，每次查找都是一半一半，时间复杂度为O(logn)
+// 通过定义中间位置mid，将数组划分为左右两端，每次查找都是一半一半，时间复杂度为O(logn)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
@@ -27,4 +27,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

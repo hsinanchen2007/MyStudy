@@ -1,9 +1,9 @@
-### 解题思路
-dfs+剪枝
+# ### 解题思路
+# dfs+剪枝
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         coins.sort(reverse = True)
@@ -22,4 +22,4 @@ class Solution:
         dfs(amount, 0, 0)
         
         return -1 if self.res == float('inf') else self.res
-```
+# ```

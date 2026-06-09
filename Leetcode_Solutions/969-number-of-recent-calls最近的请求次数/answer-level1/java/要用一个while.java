@@ -1,9 +1,9 @@
-### 解题思路
-用一个while,移除所有大于3000的。
+// ### 解题思路
+// 用一个while,移除所有大于3000的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class RecentCounter {
 
     Deque<Integer> deque;
@@ -26,4 +26,4 @@ class RecentCounter {
  * RecentCounter obj = new RecentCounter();
  * int param_1 = obj.ping(t);
  */
-```
+// ```

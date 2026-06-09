@@ -1,9 +1,9 @@
-### 解题思路
-在True的区域生长步长标为True
+# ### 解题思路
+# 在True的区域生长步长标为True
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if len(nums)<=1:
@@ -40,4 +40,4 @@ class Solution:
         #print(ans)
         return ans[-1]
         '''       
-```
+# ```

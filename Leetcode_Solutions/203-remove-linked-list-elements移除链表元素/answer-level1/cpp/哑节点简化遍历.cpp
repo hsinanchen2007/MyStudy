@@ -1,9 +1,9 @@
-### 解题思路
-通过一个哑节点避开对头节点删除时的特殊处理
+// ### 解题思路
+// 通过一个哑节点避开对头节点删除时的特殊处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意循环的条件和方向是这道题的关键
+// ### 解题思路
+// 注意循环的条件和方向是这道题的关键
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -41,4 +41,4 @@ public:
         return s.substr(st, maxx);
     }
 };
-```
+// ```

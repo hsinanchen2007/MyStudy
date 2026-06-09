@@ -1,5 +1,5 @@
-标记为0表示已访问过。时间O（n3）QAQ 空间O（n）
-```
+// 标记为0表示已访问过。时间O（n3）QAQ 空间O（n）
+// ```
 class Solution {
 public:
     int result=0;
@@ -35,4 +35,4 @@ public:
         return result;
     }
 };
-```
+// ```

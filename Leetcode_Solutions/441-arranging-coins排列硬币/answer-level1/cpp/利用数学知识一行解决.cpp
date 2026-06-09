@@ -1,9 +1,9 @@
-### 解题思路
-百度有的公式
+// ### 解题思路
+// 百度有的公式
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int arrangeCoins(int n) {
@@ -12,4 +12,4 @@ public:
 
     }
 };
-```
+// ```

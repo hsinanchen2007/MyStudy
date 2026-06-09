@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestDistance(self, maze: List[List[int]], start: List[int], destination: List[int]) -> int:
         from collections import deque
@@ -31,4 +31,4 @@ class Solution:
                     visited[tmp_i][tmp_j] = steps
                     
         return visited[destination[0]][destination[1]] if visited[destination[0]][destination[1]] else -1
-```
+# ```

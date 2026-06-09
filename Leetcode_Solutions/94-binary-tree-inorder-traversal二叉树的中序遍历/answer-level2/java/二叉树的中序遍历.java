@@ -1,5 +1,5 @@
-递归
-```
+// 递归
+// ```
     private List<Integer> ansList = new ArrayList();
     public List<Integer> inorderTraversal(TreeNode root) {
         solve(root);
@@ -12,9 +12,9 @@
         ansList.add(root.val);
         solve(root.right);
     }
-```
-迭代
-```
+// ```
+// 迭代
+// ```
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ansList = new ArrayList();
         Stack<TreeNode> stack = new Stack();
@@ -32,4 +32,4 @@
         
         return ansList;   
     }
-```
+// ```

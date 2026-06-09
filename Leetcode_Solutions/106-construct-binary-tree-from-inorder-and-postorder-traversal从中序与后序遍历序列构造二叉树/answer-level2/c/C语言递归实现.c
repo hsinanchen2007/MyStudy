@@ -1,5 +1,5 @@
-参照官方题解，C语言递归实现```
-```
+// 参照官方题解，C语言递归实现```
+// ```
 int GetIndex(int *inorder, int inorderSize, int val)
 {
     for (int i = 0; i < inorderSize; i++) {
@@ -38,5 +38,5 @@ struct TreeNode *buildTree(int *inorder, int inorderSize, int *postorder, int po
     struct TreeNode *result = Build(0, inorderSize - 1, inorder, inorderSize, postorder, &postIndex);
     return result;
 }
-```
+// ```
 

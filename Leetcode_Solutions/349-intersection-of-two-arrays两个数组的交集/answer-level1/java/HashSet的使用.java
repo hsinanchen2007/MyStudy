@@ -1,8 +1,8 @@
-### 解题思路
-使用了两个HashSet,第一个是为了找出交集,第二个是为了将结果集去重
+// ### 解题思路
+// 使用了两个HashSet,第一个是为了找出交集,第二个是为了将结果集去重
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> hSet = new HashSet<>();
@@ -26,4 +26,4 @@ class Solution {
         return Arrays.copyOfRange(result, 0, hSet2.size());
     }
 }
-```
+// ```

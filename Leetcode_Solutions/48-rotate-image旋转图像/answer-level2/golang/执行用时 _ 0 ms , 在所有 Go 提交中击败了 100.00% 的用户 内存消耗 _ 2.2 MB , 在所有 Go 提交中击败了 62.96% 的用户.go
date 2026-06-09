@@ -1,5 +1,5 @@
-最蠢写法，每次转动外面一层，再去里面一层
-```
+// 最蠢写法，每次转动外面一层，再去里面一层
+// ```
 func rotate(matrix [][]int)  {
 	if len(matrix)<=1 {
 		return
@@ -30,4 +30,4 @@ func rotate(matrix [][]int)  {
 		n--
 	}
 }
-```
+// ```

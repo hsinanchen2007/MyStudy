@@ -1,9 +1,9 @@
-### 解题思路
-投机取巧 正则表达式
+// ### 解题思路
+// 投机取巧 正则表达式
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using System.Text.RegularExpressions;
 
 public class Solution {
@@ -14,4 +14,4 @@ public class Solution {
         return regex.IsMatch(s);
     }
 }
-```
+// ```

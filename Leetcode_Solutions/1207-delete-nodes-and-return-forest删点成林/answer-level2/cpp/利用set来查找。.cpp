@@ -1,5 +1,5 @@
-- 自己竞赛时写的。写的比较多。后序遍历这样删除就不会影响遍历了。
-```
+// - 自己竞赛时写的。写的比较多。后序遍历这样删除就不会影响遍历了。
+// ```
 class Solution {
 public:
     vector<TreeNode*> res;
@@ -31,11 +31,11 @@ public:
         }
     }
 };
-```
+// ```
 
-- 下面是大佬的代码。参考下。
+// - 下面是大佬的代码。参考下。
 
-```
+// ```
 class Solution {
 public:
     vector<TreeNode*> res;
@@ -53,4 +53,4 @@ public:
         if (found) root = nullptr;
     }
 };
-```
+// ```

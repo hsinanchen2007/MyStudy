@@ -1,6 +1,6 @@
-### 解题思路
-已知中位数算法
-``` kotlin
+// ### 解题思路
+// 已知中位数算法
+// ``` kotlin
 val median: (IntArray) -> Double = {
     if (it.size % 2 == 0) {
         (it[it.size / 2 - 1] + it[it.size / 2]) / 2.0
@@ -8,13 +8,13 @@ val median: (IntArray) -> Double = {
         it[it.size / 2].toDouble()
     }
 }
-```
+// ```
 
-按题目的要求应该是合并两个有序数组，然后求中位数，因为是有序数组，合并算法复杂度为O(m+n)，方法就是两个数组交替填充。算法本身不复杂，需要处理的特殊情况比较多，使用了Lambda简化了代码。
+// 按题目的要求应该是合并两个有序数组，然后求中位数，因为是有序数组，合并算法复杂度为O(m+n)，方法就是两个数组交替填充。算法本身不复杂，需要处理的特殊情况比较多，使用了Lambda简化了代码。
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         val median: (IntArray) -> Double = {
@@ -72,4 +72,4 @@ class Solution {
         return median(array)
     }
 }
-```
+// ```

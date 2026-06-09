@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-9 ms
-, 在所有 java 提交中击败了
-19.51%
-的用户
-内存消耗 :
-35.5 MB
-, 在所有 java 提交中击败了
-52.03%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 9 ms
+// , 在所有 java 提交中击败了
+// 19.51%
+// 的用户
+// 内存消耗 :
+// 35.5 MB
+// , 在所有 java 提交中击败了
+// 52.03%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> res_list=new ArrayList<>();
@@ -44,4 +44,4 @@ class Solution {
     	return res_list;
     }
 }
-```
+// ```

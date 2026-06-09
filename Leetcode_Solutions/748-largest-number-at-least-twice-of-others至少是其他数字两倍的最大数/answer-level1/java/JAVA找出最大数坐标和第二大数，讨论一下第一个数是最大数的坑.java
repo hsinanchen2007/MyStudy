@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int dominantIndex(int[] nums) {
     	if(nums.length == 1) {
@@ -21,6 +21,6 @@ class Solution {
         return 2*max2>nums[index] ? -1 : index;
     }
 }
-```
-测试了好多用例都不通过，发现问题是第一个数字就是最大数，于是第二个else if 执行的时候将最大值直接赋值给了max2(第二大的数字).
-加了一个限定条件i>0解决
+// ```
+// 测试了好多用例都不通过，发现问题是第一个数字就是最大数，于是第二个else if 执行的时候将最大值直接赋值给了max2(第二大的数字).
+// 加了一个限定条件i>0解决

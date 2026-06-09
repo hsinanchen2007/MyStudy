@@ -1,6 +1,6 @@
-暴力将所有和全部求出来
+// 暴力将所有和全部求出来
 
-```js
+// ```js
 var findMaxAverage = function(nums, k) {
     let len = nums.length;
     let arr = [];
@@ -13,5 +13,5 @@ var findMaxAverage = function(nums, k) {
     }
     return Math.max.apply(Math, arr) / k;
 };
-```
+// ```
 

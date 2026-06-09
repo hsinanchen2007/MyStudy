@@ -1,7 +1,7 @@
-让left与随机位置交换一下，避免最坏的情况，性能明显提升
-![image.png](https://pic.leetcode-cn.com/c771bbaecd7257204072058b5ce02e3eefa6103f9741a519398422ccb5331932-image.png)
+// 让left与随机位置交换一下，避免最坏的情况，性能明显提升
+// ![image.png](https://pic.leetcode-cn.com/c771bbaecd7257204072058b5ce02e3eefa6103f9741a519398422ccb5331932-image.png)
 
-```
+// ```
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         
@@ -42,4 +42,4 @@ class Solution {
         nums[b]=temp;
     }
 }
-```
+// ```

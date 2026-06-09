@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-跟组合总和2的题目很相似，就把候选数组初始化一下并且加上flag来保证总的位数为k。
+// 跟组合总和2的题目很相似，就把候选数组初始化一下并且加上flag来保证总的位数为k。
 
 
-![image.png](https://pic.leetcode-cn.com/da6aa40f58da68c08db730959d282d97b8be3e328af078fa830d3f41dd910818-image.png)
+// ![image.png](https://pic.leetcode-cn.com/da6aa40f58da68c08db730959d282d97b8be3e328af078fa830d3f41dd910818-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combinationSum3(int k, int target) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

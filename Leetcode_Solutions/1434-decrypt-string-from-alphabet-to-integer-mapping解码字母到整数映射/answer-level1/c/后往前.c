@@ -1,9 +1,9 @@
-### 解题思路
-从后往前转换时关键
+// ### 解题思路
+// 从后往前转换时关键
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * freqAlphabets(char * s){
     char *res;
     int count=0;
@@ -34,4 +34,4 @@ char * freqAlphabets(char * s){
     res[count]='\0';
     return res;
 }
-```
+// ```

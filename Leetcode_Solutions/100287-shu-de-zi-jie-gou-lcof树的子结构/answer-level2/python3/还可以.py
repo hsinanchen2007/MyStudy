@@ -1,11 +1,11 @@
-### 解题思路
-如果A有左子树，B无左子树，那么左支为True；
-如果A有左子树，B有左子树，那么递归比较；
-如果A无左子树，B有左子树，那么左支为False。
+# ### 解题思路
+# 如果A有左子树，B无左子树，那么左支为True；
+# 如果A有左子树，B有左子树，那么递归比较；
+# 如果A无左子树，B有左子树，那么左支为False。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
                 b2 = self.isMatch(A.right, B.right)
         return b1 and b2
             
-```
+# ```

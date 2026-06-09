@@ -1,9 +1,9 @@
-### 解题思路
-记录num[mid],观察可以发现最小值永远在乱序的那一半,通过不断递归当指针相遇即为最小值
+// ### 解题思路
+// 记录num[mid],观察可以发现最小值永远在乱序的那一半,通过不断递归当指针相遇即为最小值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMin(int[] nums) {
       int low = 0;
@@ -22,4 +22,4 @@ class Solution {
         return nums[high];
     }
 }
-```
+// ```

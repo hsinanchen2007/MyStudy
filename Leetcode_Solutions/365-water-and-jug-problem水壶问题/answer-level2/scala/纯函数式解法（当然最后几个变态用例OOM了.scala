@@ -1,11 +1,11 @@
 
-### 解法
+// ### 解法
 
-通过惰性计算进行DFS，祖师爷给的代码改改还是能用的。目前`Stream`已经不再推荐使用，可以使用`LazyList`代替。
+// 通过惰性计算进行DFS，祖师爷给的代码改改还是能用的。目前`Stream`已经不再推荐使用，可以使用`LazyList`代替。
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
   def canMeasureWater(x: Int, y: Int, z: Int): Boolean = {
     val game = new Pouring(Vector(x, y)) // x和y分别代表给定的两个容器的大小

@@ -1,9 +1,9 @@
-### 解题思路
-排序，优先选择最大的数
+// ### 解题思路
+// 排序，优先选择最大的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> minSubsequence(int[] nums) {
         List<Integer> list = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

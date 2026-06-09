@@ -1,9 +1,9 @@
-# 解题思路
-1. A与B哪个待配对的左括号少就优先给他加左括号
-2. 哪个待配对的左括号多就优先给他分配右括号
+# # 解题思路
+# 1. A与B哪个待配对的左括号少就优先给他加左括号
+# 2. 哪个待配对的左括号多就优先给他分配右括号
 
-# 代码
-```
+# # 代码
+# ```
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         answer = []
@@ -26,6 +26,6 @@ class Solution:
                     sum_of_lb_B += 1
                     
         return answer
-```
+# ```
 
 

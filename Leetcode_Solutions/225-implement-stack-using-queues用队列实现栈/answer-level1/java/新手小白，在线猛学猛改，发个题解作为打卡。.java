@@ -1,9 +1,9 @@
-### 解题思路
-基础太差，只能多借鉴大佬们的解题方法，
-下面是用Java双队列做的，注释的都是做的时候犯的低级错误。
-### 代码
+// ### 解题思路
+// 基础太差，只能多借鉴大佬们的解题方法，
+// 下面是用Java双队列做的，注释的都是做的时候犯的低级错误。
+// ### 代码
 
-```java
+// ```java
 class MyStack {//使用双队列解决//
     private Queue<Integer> a;
     private Queue<Integer> b;
@@ -63,4 +63,4 @@ public int pop() {//移除
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

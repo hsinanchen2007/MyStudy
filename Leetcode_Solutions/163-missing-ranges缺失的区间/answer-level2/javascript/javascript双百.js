@@ -1,7 +1,7 @@
-首先将lower, upper加入首尾
-求区间
+// 首先将lower, upper加入首尾
+// 求区间
 
-```javascript
+// ```javascript
 var findMissingRanges = function (nums, lower, upper) {
     let ans = []
     nums.unshift(lower - 1)
@@ -14,7 +14,7 @@ var findMissingRanges = function (nums, lower, upper) {
     }
     return ans;
 };
-```
+// ```
 
-![163.png](https://pic.leetcode-cn.com/6d826fdf6793221828be907501b24ef5ec5a024a0f53c255114e459a44671a18-163.png)
+// ![163.png](https://pic.leetcode-cn.com/6d826fdf6793221828be907501b24ef5ec5a024a0f53c255114e459a44671a18-163.png)
 

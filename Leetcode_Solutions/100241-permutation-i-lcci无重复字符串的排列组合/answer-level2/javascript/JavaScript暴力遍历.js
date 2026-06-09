@@ -1,4 +1,4 @@
-```js
+// ```js
 var permutation = function(S) {
   let len = S.length
   let result = []
@@ -29,4 +29,4 @@ var permutation = function(S) {
   //输出
   return result
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxScoreSightseeingPair(self, A: List[int]) -> int:
         # score: A[i] + A[j] + i - j
@@ -25,4 +25,4 @@ class Solution:
             ans = max(ans, max_A + max_B[i + 1])
         return ans
 
-```
+# ```

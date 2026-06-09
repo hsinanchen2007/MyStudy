@@ -1,9 +1,9 @@
-### 解题思路
-传统if语句解决，0ms。
+// ### 解题思路
+// 传统if语句解决，0ms。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isNumber(string s) { // e 0~9 +- .  -3.2e-4
@@ -44,4 +44,4 @@ public:
         
     }
 };
-```
+// ```

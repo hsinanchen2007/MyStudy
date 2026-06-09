@@ -1,10 +1,10 @@
-### 解题思路
-***二叉树最大深度 = 1 + max(左子树最大深度， 右子树最大深度)；***
-当树根节点为null，深度为0
+// ### 解题思路
+// ***二叉树最大深度 = 1 + max(左子树最大深度， 右子树最大深度)；***
+// 当树根节点为null，深度为0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDepth(TreeNode root) {
         return getMaxDepth(root);
@@ -17,4 +17,4 @@ class Solution {
         return Math.max(1 + getMaxDepth(node.left), 1 + getMaxDepth(node.right));
     }
 }
-```
+// ```

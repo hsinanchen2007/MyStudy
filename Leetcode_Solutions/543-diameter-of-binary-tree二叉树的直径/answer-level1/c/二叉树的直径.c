@@ -1,8 +1,8 @@
-### 解题思路
-使用指针和工具函数减少全局变量的使用
-### 代码
+// ### 解题思路
+// 使用指针和工具函数减少全局变量的使用
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     doDiameterOfBinaryTree(root,&maxD);
     return maxD-1;
 }
-```
+// ```

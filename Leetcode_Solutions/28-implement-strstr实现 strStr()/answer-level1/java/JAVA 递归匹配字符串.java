@@ -1,9 +1,9 @@
-### 解题思路
-递归逐个匹配，保存第一次匹配的位置，匹配失败后回归到匹配位置重新匹配。
+// ### 解题思路
+// 递归逐个匹配，保存第一次匹配的位置，匹配失败后回归到匹配位置重新匹配。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     public  int strStr(String haystack, String needle) {
@@ -64,4 +64,4 @@ class Solution {
          return strSearch (haystack, h, needle, n, pass);
     }
 }
-```
+// ```

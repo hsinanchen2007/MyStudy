@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/e81a090259a91dca9c34bacf91d8d7bae32e7dca33d8fc14bc18060881cb1e40-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/e81a090259a91dca9c34bacf91d8d7bae32e7dca33d8fc14bc18060881cb1e40-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     char s[333333] =  {0};
     s[0] = S[0];
@@ -44,4 +44,4 @@ int jia(char * s, int j ,int num)
     return j;
 }
 
-```
+// ```

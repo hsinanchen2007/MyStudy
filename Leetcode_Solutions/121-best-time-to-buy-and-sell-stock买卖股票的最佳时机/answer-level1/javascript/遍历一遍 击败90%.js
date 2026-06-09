@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍 O（n）
+// ### 解题思路
+// 遍历一遍 O（n）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -29,4 +29,4 @@ var maxProfit = function(prices) {
     })
     return max
 };
-```
+// ```

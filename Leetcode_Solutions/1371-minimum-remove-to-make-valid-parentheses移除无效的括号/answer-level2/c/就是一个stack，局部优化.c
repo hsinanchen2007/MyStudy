@@ -1,9 +1,9 @@
-### 解题思路
-添加进来的index从小到大，所以查找的时候不用全遍历
+// ### 解题思路
+// 添加进来的index从小到大，所以查找的时候不用全遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -52,4 +52,4 @@ char *minRemoveToMakeValid(char *s)
 	free(stack);
 	return ans;
 }
-```
+// ```

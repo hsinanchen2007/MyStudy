@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     const int inf=0x7fffffff;
@@ -50,4 +50,4 @@ public:
         return A;
     }
 };
-```
+// ```

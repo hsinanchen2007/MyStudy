@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def myAtoi(self, str: str) -> int:
         # discard whitespace
@@ -21,4 +21,4 @@ class Solution:
         if num == '' or num == '-' or num == '+': return 0
         integer_val = int(num)
         return max(-2 ** 31, min(2 ** 31 - 1, integer_val))
-```
+# ```

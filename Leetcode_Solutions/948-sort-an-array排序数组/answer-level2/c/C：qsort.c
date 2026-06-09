@@ -1,6 +1,6 @@
-思路：
-直接qsort后返回malloc的数组
-```
+// 思路：
+// 直接qsort后返回malloc的数组
+// ```
 int compare(const void *a, const void *b){
     return *(int*)a - *(int*)b;
 }
@@ -13,4 +13,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
     qsort(res, *returnSize, sizeof(int), compare);
     return res;
 }
-```
+// ```

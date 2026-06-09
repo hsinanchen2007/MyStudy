@@ -1,8 +1,8 @@
-简单难度：
+// 简单难度：
 
-> 暴力破解
+// > 暴力破解
 
-```js
+// ```js
 const findOcurrences = (text, first, second) => {
   const textArr = text.split(' ');
   const result = [];
@@ -13,28 +13,28 @@ const findOcurrences = (text, first, second) => {
   }
   return result;
 };
-```
+// ```
 
-步骤：
+// 步骤：
 
-1. 先根据 `' '` 空格切割字符串。
-2. 设置 `result` 获取最终结果。
-3. 通过 2 个游标的移动，获取第三个游标对应的字符串，将其添加进 `result` 中。
+// 1. 先根据 `' '` 空格切割字符串。
+// 2. 设置 `result` 获取最终结果。
+// 3. 通过 2 个游标的移动，获取第三个游标对应的字符串，将其添加进 `result` 中。
 
-打完收工，耗时如下：
+// 打完收工，耗时如下：
 
-```js
+// ```js
 Accepted
 * 29/29 cases passed (64 ms)
 * Your runtime beats 58.56 % of javascript submissions
 * Your memory usage beats 49.38 % of javascript submissions (33.8 MB)
-```
+// ```
 
-那肯定会有小伙伴会纠结：我不喜欢用 JavaScript 原生 API 工具，我就喜欢手写，你都不是手写的~
+// 那肯定会有小伙伴会纠结：我不喜欢用 JavaScript 原生 API 工具，我就喜欢手写，你都不是手写的~
 
-> split 代码实现
+// > split 代码实现
 
-```js
+// ```js
 const findOcurrences = (text, first, second) => {
   const textArr = [];
   let str = '';
@@ -55,22 +55,22 @@ const findOcurrences = (text, first, second) => {
   }
   return result;
 };
-```
+// ```
 
-Submit 提交：
+// Submit 提交：
 
-```js
+// ```js
 Accepted
 * 29/29 cases passed (60 ms)
 * Your runtime beats 73.87 % of javascript submissions
 * Your memory usage beats 59.26 % of javascript submissions (33.7 MB)
-```
+// ```
 
-enm...那我都直接在字符串上进行切割了，我何不直接在支付串上操作获取 `third` 元素：
+// enm...那我都直接在字符串上进行切割了，我何不直接在支付串上操作获取 `third` 元素：
 
-> 暴力破解【优化】
+// > 暴力破解【优化】
 
-```js
+// ```js
 const findOcurrences = (text, first, second) => {
   // 1. 定义系列字段
   let flag = 0; // 当前游标
@@ -103,22 +103,22 @@ const findOcurrences = (text, first, second) => {
   // 3. 返回最终结果
   return result;
 };
-```
+// ```
 
-Submit 提交：
+// Submit 提交：
 
-```js
+// ```js
 Accepted
 * 29/29 cases passed (60 ms)
 * Your runtime beats 73.87 % of javascript submissions
 * Your memory usage beats 6.17 % of javascript submissions (35.4 MB)
-```
+// ```
 
-你想要的，全都在这了~
+// 你想要的，全都在这了~
 
-如果小伙伴有更好的思路想法，欢迎评论留言或者私聊 **jsliang**~
+// 如果小伙伴有更好的思路想法，欢迎评论留言或者私聊 **jsliang**~
 
 
-公众号：飘飞的心灵
+// 公众号：飘飞的心灵
 
-GitHub：https://github.com/LiangJunrong/document-library
+// GitHub：https://github.com/LiangJunrong/document-library

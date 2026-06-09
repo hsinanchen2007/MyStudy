@@ -1,34 +1,34 @@
-#### 单个HashSet
-NOTICE: 这个解法可行，但是没完全符合题目的要求
-1. 关于复杂度
-  1.1 时间复杂度为 O(1)
-  1.2 空间负责度依赖与set中的数据多少
-2. 我的解题思路
-  2.1 因为题目严格要求平均时间复杂度为 O(1)，所以我选择HashSet作为我的底层数据结构
-  2.2 插入与删除操作依赖于HashSet的成员方法
-  2.3 random 方法依赖于HashSet的大小，我使用一个随机数生成转换数组的索引并返回
-3. 提交记录
-  3.1 力扣中耗时545ms,消耗85MB内存
-  3.2 leetcode中耗时177ms,消耗58.2MB内存
-4. Q&A
+// #### 单个HashSet
+// NOTICE: 这个解法可行，但是没完全符合题目的要求
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(1)
+//   1.2 空间负责度依赖与set中的数据多少
+// 2. 我的解题思路
+//   2.1 因为题目严格要求平均时间复杂度为 O(1)，所以我选择HashSet作为我的底层数据结构
+//   2.2 插入与删除操作依赖于HashSet的成员方法
+//   2.3 random 方法依赖于HashSet的大小，我使用一个随机数生成转换数组的索引并返回
+// 3. 提交记录
+//   3.1 力扣中耗时545ms,消耗85MB内存
+//   3.2 leetcode中耗时177ms,消耗58.2MB内存
+// 4. Q&A
 
-#### 两个HashMap
-1. 关于复杂度
-  1.1 时间复杂度为 O(1)
-  1.2 空间负责度为 O(n)
-2. 我的解题思路
-  2.1 使用两个 HashMap（一个为 index-value，一个为 value-index）以及一个整数计数器count
-  2.2 插入功能就是传统的插入到两个 HashMap 中
-  2.3 删除功能
-      2.3.1 获取传入数所在索引
-      2.3.2 用数组中最后一个值覆盖2.3.1上索引上的值
-      2.3.3 移除最后一个元素以及更新计数器
-3. 提交记录
-  3.1 力扣中耗时12ms,消耗44.3MB内存
-  3.2 leetcode中耗时12ms,消耗44.3MB内存
-4. Q&A
+// #### 两个HashMap
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(1)
+//   1.2 空间负责度为 O(n)
+// 2. 我的解题思路
+//   2.1 使用两个 HashMap（一个为 index-value，一个为 value-index）以及一个整数计数器count
+//   2.2 插入功能就是传统的插入到两个 HashMap 中
+//   2.3 删除功能
+//       2.3.1 获取传入数所在索引
+//       2.3.2 用数组中最后一个值覆盖2.3.1上索引上的值
+//       2.3.3 移除最后一个元素以及更新计数器
+// 3. 提交记录
+//   3.1 力扣中耗时12ms,消耗44.3MB内存
+//   3.2 leetcode中耗时12ms,消耗44.3MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      380. Insert Delete GetRandom O(1)
@@ -164,6 +164,6 @@ public class Solution380 {
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

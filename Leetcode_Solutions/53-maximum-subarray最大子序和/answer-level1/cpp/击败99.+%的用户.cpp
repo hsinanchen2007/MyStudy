@@ -1,5 +1,5 @@
-[知乎@司南牧](https://www.zhihu.com/people/yuanmuou/activities)
-```c++
+// [知乎@司南牧](https://www.zhihu.com/people/yuanmuou/activities)
+// ```c++
  int maxSubArray(vector<int>& nums) {
 	int len = nums.size();
 	int result = nums[0];
@@ -18,4 +18,4 @@
 	}
 	return result;
 }
-```
+// ```

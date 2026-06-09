@@ -1,9 +1,9 @@
-### 解题思路
-用集合去重，然后比较长度确认是否存在重复的元素
+# ### 解题思路
+# 用集合去重，然后比较长度确认是否存在重复的元素
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def containsDuplicate(self, nums):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: bool
         """
         return len(set(tuple(nums))) < len(nums)
-```
+# ```

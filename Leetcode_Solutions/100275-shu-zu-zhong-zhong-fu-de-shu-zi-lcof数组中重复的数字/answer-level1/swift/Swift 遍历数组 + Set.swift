@@ -1,4 +1,4 @@
-```
+// ```
  class Solution {
      func findRepeatNumber(_ nums: [Int]) -> Int {
         if nums.count == 0 {
@@ -15,4 +15,4 @@
         return -1
      }
  }
-```
+// ```

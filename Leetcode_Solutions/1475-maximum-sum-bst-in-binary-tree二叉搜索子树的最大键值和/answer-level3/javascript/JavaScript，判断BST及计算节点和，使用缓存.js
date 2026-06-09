@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -44,4 +44,4 @@ var maxSumBST = function(root) {
     }
 };
 
-```
+// ```

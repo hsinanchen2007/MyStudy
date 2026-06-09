@@ -1,4 +1,4 @@
-```python
+# ```python
 from copy import copy 
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode: 
@@ -8,4 +8,4 @@ class Solution:
             pre.next = cur
             cur, pre = pre, t.next
         return cur 
-```
+# ```

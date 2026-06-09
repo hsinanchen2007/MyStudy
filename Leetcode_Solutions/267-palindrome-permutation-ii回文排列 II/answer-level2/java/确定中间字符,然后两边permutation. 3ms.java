@@ -1,4 +1,4 @@
-```
+// ```
     public List<String> generatePalindromes(String s) {
         List<String> res = new ArrayList<>();
 
@@ -82,4 +82,4 @@
             }
         }
     }
-```
+// ```

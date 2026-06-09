@@ -1,8 +1,8 @@
-由题意可发现，当连续数列之和为目标值时，数列的中间值必为目标的因子。
-奇数情况下,target%mid==0&&target/mid==奇数；
-偶数情况下更简单，target%(mid+mid+1)==0；
-找到数列中间值后，边界值可用target%mid来找到，奇偶实现略有不同，注意边界值需要从1开始。
-```
+// 由题意可发现，当连续数列之和为目标值时，数列的中间值必为目标的因子。
+// 奇数情况下,target%mid==0&&target/mid==奇数；
+// 偶数情况下更简单，target%(mid+mid+1)==0；
+// 找到数列中间值后，边界值可用target%mid来找到，奇偶实现略有不同，注意边界值需要从1开始。
+// ```
 class Solution {
 public:
 	vector<vector<int>> findContinuousSequence(int target) {
@@ -33,7 +33,7 @@ public:
 		return res;
 	}
 };
-```
-提交结果如下
-![微信截图_20200306150335.png](https://pic.leetcode-cn.com/35cf1a43074deab689584be5548ae9a8131f77507550190100e166a641e92cb5-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200306150335.png)
+// ```
+// 提交结果如下
+// ![微信截图_20200306150335.png](https://pic.leetcode-cn.com/35cf1a43074deab689584be5548ae9a8131f77507550190100e166a641e92cb5-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200306150335.png)
 

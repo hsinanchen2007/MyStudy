@@ -1,11 +1,11 @@
-# 解题思路：
-依次检查每一条对角线，若不同则返回false。检查完后返回true。
-比较每一条对角线，即依次遍历第一行及第一列，判断当前数延伸出去的是否相等。
-对角线每一个数的坐标都是上一个数的横纵坐标加一。
+// # 解题思路：
+// 依次检查每一条对角线，若不同则返回false。检查完后返回true。
+// 比较每一条对角线，即依次遍历第一行及第一列，判断当前数延伸出去的是否相等。
+// 对角线每一个数的坐标都是上一个数的横纵坐标加一。
 
-执行用时：16ms，战胜81.63%
-内存消耗：5.8MB
-```
+// 执行用时：16ms，战胜81.63%
+// 内存消耗：5.8MB
+// ```
 bool isToeplitzMatrix(int** matrix, int matrixSize, int* matrixColSize){
     int i, j;
     int M = matrixSize;
@@ -32,4 +32,4 @@ bool isToeplitzMatrix(int** matrix, int matrixSize, int* matrixColSize){
     }
     return true;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
     public int kthSmallest(int[][] matrix, int k) {
         PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
@@ -19,5 +19,5 @@
         }
         return queue.peek();
     }
-```
-正常优先级队列是小顶堆，重写下比较方法变为大顶堆。
+// ```
+// 正常优先级队列是小顶堆，重写下比较方法变为大顶堆。

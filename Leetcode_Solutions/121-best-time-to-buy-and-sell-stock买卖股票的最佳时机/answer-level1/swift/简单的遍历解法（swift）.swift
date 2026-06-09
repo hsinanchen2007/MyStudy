@@ -1,5 +1,5 @@
-提供一个简单的解决思路
-```
+// 提供一个简单的解决思路
+// ```
 func maxProfit(_ prices: [Int]) -> Int {
     var maxPrice = 0
     if prices.count < 2 {
@@ -23,4 +23,4 @@ func maxProfit(_ prices: [Int]) -> Int {
     
     return maxPrice
 }
-```
+// ```

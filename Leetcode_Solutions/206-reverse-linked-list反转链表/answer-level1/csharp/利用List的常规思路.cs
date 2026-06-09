@@ -1,11 +1,11 @@
-### 解题思路
-既然要反转单链表，那就先使用一个List列表存储单链表里的全部数据，反转之后依次存入。
+// ### 解题思路
+// 既然要反转单链表，那就先使用一个List列表存储单链表里的全部数据，反转之后依次存入。
 
-优化思路：反转和导入过程有重叠，可以合并。
+// 优化思路：反转和导入过程有重叠，可以合并。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ public class Solution {
             return head;
         }
 }
-```
+// ```

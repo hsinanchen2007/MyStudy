@@ -1,11 +1,11 @@
-### 解题思路
-1.链表分割，快慢指针
-pre->next = NULL;
-2.排序链表合并
-递归 or 循环
-### 代码
+// ### 解题思路
+// 1.链表分割，快慢指针
+// pre->next = NULL;
+// 2.排序链表合并
+// 递归 or 循环
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -66,4 +66,4 @@ public:
         return cur;
     }
 };
-```
+// ```

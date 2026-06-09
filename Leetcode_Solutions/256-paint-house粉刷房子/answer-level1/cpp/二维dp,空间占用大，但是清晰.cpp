@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/dafd188bfd8db94030fa3862d2fbf065d5b76c76b8df3fa4cad49fb5381b4107-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/dafd188bfd8db94030fa3862d2fbf065d5b76c76b8df3fa4cad49fb5381b4107-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -20,4 +20,4 @@ public:
         return min(dp[m][0],min(dp[m][1],dp[m][2]));        
     }
 };
-```
+// ```

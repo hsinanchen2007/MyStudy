@@ -1,9 +1,9 @@
-### 解题思路
-垃圾代码
+// ### 解题思路
+// 垃圾代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char intToChar(int d){
     if(d>=0&&d<=9){
         return '0'+d;
@@ -40,4 +40,4 @@ char * toHex(int num){
     reverse(res,0,index-1);
     return res;
 }
-```
+// ```

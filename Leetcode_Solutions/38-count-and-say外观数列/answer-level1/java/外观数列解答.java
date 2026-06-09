@@ -1,9 +1,9 @@
-### 解题思路
-序列n由序列n-1得到，首先从第一个序列开始，有频繁的对字符串操作，必须使用单线程的动态字符串StringBuilder类型，再转化为String类型进行返回
+// ### 解题思路
+// 序列n由序列n-1得到，首先从第一个序列开始，有频繁的对字符串操作，必须使用单线程的动态字符串StringBuilder类型，再转化为String类型进行返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         StringBuilder str = new StringBuilder();
@@ -29,4 +29,4 @@ class Solution {
         return preStr;
     }
 }
-```
+// ```

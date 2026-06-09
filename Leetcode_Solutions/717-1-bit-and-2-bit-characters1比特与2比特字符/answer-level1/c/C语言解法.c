@@ -1,4 +1,4 @@
-```c
+// ```c
 bool isOneBitCharacter(int* bits, int bitsSize)
 {
     int i,j;

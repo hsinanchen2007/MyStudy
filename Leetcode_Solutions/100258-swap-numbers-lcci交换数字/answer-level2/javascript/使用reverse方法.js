@@ -1,9 +1,9 @@
-### 解题思路
-emmm...如果有现成的API直接拿来用不丢人
+// ### 解题思路
+// emmm...如果有现成的API直接拿来用不丢人
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} numbers
  * @return {number[]}
@@ -11,4 +11,4 @@ emmm...如果有现成的API直接拿来用不丢人
 var swapNumbers = function(numbers) {
     return numbers.reverse()
 };
-```
+// ```

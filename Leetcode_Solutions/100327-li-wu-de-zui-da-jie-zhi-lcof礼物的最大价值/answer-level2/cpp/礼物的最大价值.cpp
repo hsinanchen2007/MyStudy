@@ -1,16 +1,16 @@
-### 解题思路
-动态规划
-并且利用了原数组的空间,
-要注意边界问题，grid[i-1][j],grid[i][j-1]要考虑超过边界的情况；
-因此有else if(i==0 && j!=0)
-        grid[i][j] += grid[i][j-1];
-     else if(i!=0 && j==0)
-        grid[i][j] += grid[i-1][j];
-这两种情况；
+// ### 解题思路
+// 动态规划
+// 并且利用了原数组的空间,
+// 要注意边界问题，grid[i-1][j],grid[i][j-1]要考虑超过边界的情况；
+// 因此有else if(i==0 && j!=0)
+//         grid[i][j] += grid[i][j-1];
+//      else if(i!=0 && j==0)
+//         grid[i][j] += grid[i-1][j];
+// 这两种情况；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid) {
@@ -34,4 +34,4 @@ public:
         return grid[length-1][width-1];
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-思路大家都一样。
-找零时简单贪心优先用面值10元的。
-如果用 C++，使用 switch 语句可以简洁清晰很多。
-这里下面的if else 写的不好，很臃肿。
+# ### 解题思路
+# 思路大家都一样。
+# 找零时简单贪心优先用面值10元的。
+# 如果用 C++，使用 switch 语句可以简洁清晰很多。
+# 这里下面的if else 写的不好，很臃肿。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
         n = len(bills)
@@ -41,4 +41,4 @@ class Solution:
                         return False
         return True
 
-```
+# ```

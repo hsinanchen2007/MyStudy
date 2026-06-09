@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPrime(int num)
 {
     if (num == 1 || num == 0) {
@@ -46,4 +46,4 @@ int countPrimeSetBits(int L, int R){
 
     return res_cnt;
 }
-```
+// ```

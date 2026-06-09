@@ -1,9 +1,9 @@
-### 解题思路
-经典的Flood Fill问题，借助于队列采用有记录的多源BFS即可
+# ### 解题思路
+# 经典的Flood Fill问题，借助于队列采用有记录的多源BFS即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -41,4 +41,4 @@ class Solution:
         return minute if not cnt else -1
 
 
-```
+# ```

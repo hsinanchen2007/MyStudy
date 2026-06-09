@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
 	def findSubstring(self, s, words: List[str]) -> List[int]:
 		words_hash = collections.defaultdict(int)
@@ -21,4 +21,4 @@ class Solution:
 					break
 			if flag: res.append(i)
 		return res
-```
+# ```

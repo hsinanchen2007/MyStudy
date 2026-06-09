@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int binaryFindMin(vector<int>& nums, int left, int right){
@@ -25,4 +25,4 @@ public:
         return nums[index];
     }
 };
-```
+// ```

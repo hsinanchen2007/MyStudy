@@ -1,4 +1,4 @@
-```
+// ```
 type MyQueue struct {
     data []int
 }
@@ -47,4 +47,4 @@ func (this *MyQueue) Empty() bool {
  * param_3 := obj.Peek();
  * param_4 := obj.Empty();
  */
-```
+// ```

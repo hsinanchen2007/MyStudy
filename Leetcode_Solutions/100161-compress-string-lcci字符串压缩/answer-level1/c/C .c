@@ -1,7 +1,7 @@
 
-中间还是掉坑了 字符串拼接还是要注意 参看一下别人处理拼接的实现。
+// 中间还是掉坑了 字符串拼接还是要注意 参看一下别人处理拼接的实现。
 
-```
+// ```
 
 char* compressString(char* S){
 
@@ -35,4 +35,4 @@ char* compressString(char* S){
   return lenNewS < lenS ? newS : S;
 }
 
-```
+// ```

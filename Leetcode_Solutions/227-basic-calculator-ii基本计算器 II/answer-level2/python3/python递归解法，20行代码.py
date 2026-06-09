@@ -1,7 +1,7 @@
-## 思路
-- - 先按照＋号切分
-- 然后对切分后的元素调用sub_calculate方法，它是各递归的方法
-```
+# ## 思路
+# - - 先按照＋号切分
+# - 然后对切分后的元素调用sub_calculate方法，它是各递归的方法
+# ```
 class Solution:
     def calculate(self, s: str) -> int:
         plus_elem = [self.sub_calculate(x.strip()) for x in s.split('+')]
@@ -24,4 +24,4 @@ class Solution:
                 return int(self.sub_calculate(s[:i].strip())/self.sub_calculate(s[i+1:].strip()))
         elif s.isdigit():
             return int(s.strip())
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-思路：1、写一个MergeTwo的函数2、使用divide&conquer不断迭代二分lists。
+// ### 解题思路
+// 思路：1、写一个MergeTwo的函数2、使用divide&conquer不断迭代二分lists。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -63,4 +63,4 @@ public:
         
     }
 };
-```
+// ```

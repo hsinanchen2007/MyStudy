@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func uncommonFromSentences(A string, B string) []string {
 	mapA:=make(map[string]int)
 	mapB:=make(map[string]int)
@@ -40,4 +40,4 @@ func uncommonFromSentences(A string, B string) []string {
 	}
 	return res
 }
-```
+// ```

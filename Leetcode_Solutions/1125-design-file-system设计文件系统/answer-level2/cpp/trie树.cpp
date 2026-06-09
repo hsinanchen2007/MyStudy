@@ -1,9 +1,9 @@
-### 解题思路
-跟内存文件系统那道题类似，用trie记录节点
+// ### 解题思路
+// 跟内存文件系统那道题类似，用trie记录节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class FileSystem {
 public:
     FileSystem() {
@@ -91,4 +91,4 @@ private:
  * bool param_1 = obj->createPath(path,value);
  * int param_2 = obj->get(path);
  */
-```
+// ```

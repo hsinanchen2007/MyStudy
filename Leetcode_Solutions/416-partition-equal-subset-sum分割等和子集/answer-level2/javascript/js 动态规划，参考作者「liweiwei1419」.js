@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/9dbe5c1dd0bd8620fed2911ea840a32a0c482ff1264c922d3539186fd58f4ce5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9dbe5c1dd0bd8620fed2911ea840a32a0c482ff1264c922d3539186fd58f4ce5-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   动态规划问题，参考作者：liweiwei1419
   
   dp[i][j] 代表数组从 0 到 i 之间是否有 n 个数加起来等于 j
   最终求 dp[nums.length - 1][target] target 为 nums 数组和的一半
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -50,4 +50,4 @@ var canPartition = function(nums) {
   
   return dp[n - 1][target];
 };
-```
+// ```

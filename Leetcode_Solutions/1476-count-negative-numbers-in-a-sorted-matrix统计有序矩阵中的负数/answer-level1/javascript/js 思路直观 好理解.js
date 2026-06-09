@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/3421607069d6c484900adc674300c32b0f73c89f2147c07da90bde81fe235b64-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3421607069d6c484900adc674300c32b0f73c89f2147c07da90bde81fe235b64-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 直观思路：只要在每一行遇到了负数，那么从他往后都是负数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -29,4 +29,4 @@ var countNegatives = function(grid) {
   
   return ans;
 };
-```
+// ```

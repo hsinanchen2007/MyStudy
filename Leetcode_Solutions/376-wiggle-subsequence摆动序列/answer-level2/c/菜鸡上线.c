@@ -1,11 +1,11 @@
-### 解题思路
-![QQ图片20200321154901.png](https://pic.leetcode-cn.com/bae2789d2386001d0ed51da948e59362768ef325345bea8109c0bb87981d57c0-QQ%E5%9B%BE%E7%89%8720200321154901.png)
-前后差为正负交替+1
+// ### 解题思路
+// ![QQ图片20200321154901.png](https://pic.leetcode-cn.com/bae2789d2386001d0ed51da948e59362768ef325345bea8109c0bb87981d57c0-QQ%E5%9B%BE%E7%89%8720200321154901.png)
+// 前后差为正负交替+1
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int wiggleMaxLength(int* nums, int numsSize)
 {
 	int i;
@@ -58,4 +58,4 @@ int wiggleMaxLength(int* nums, int numsSize)
     return ret;
 }
 
-```
+// ```

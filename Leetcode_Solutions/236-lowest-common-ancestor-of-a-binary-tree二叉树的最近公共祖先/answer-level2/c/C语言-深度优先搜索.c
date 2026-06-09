@@ -1,7 +1,7 @@
-```
+// ```
 C语言
-```
-```
+// ```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,8 +39,8 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
     dfs(root,p,q);
     return pRes;  
 }
-```
+// ```
 
-```
+// ```
 
-```
+// ```

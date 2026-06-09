@@ -1,5 +1,5 @@
-# 自己完成
-```go
+// # 自己完成
+// ```go
 func sortColors(nums []int) {
   mark := [3]int{0} // 数组
   for _, v := range nums {
@@ -13,9 +13,9 @@ func sortColors(nums []int) {
     }
   }
 }
-```
-# 第一版
-```go
+// ```
+// # 第一版
+// ```go
 // 计数排序的思路,对整个数组遍历了两遍
 // 时间复杂度: O(n) 空间复杂度: O(k), k为元素的取值范围
 
@@ -42,9 +42,9 @@ func sortColors(nums []int) {
     index++
   }
 }
-```
-# 第二版，三路快速排序思路
-```go
+// ```
+// # 第二版，三路快速排序思路
+// ```go
 // 时间复杂度度: O(n),空间复杂度: O(1),只遍历一遍数组
 func sortColors(nums []int) {
   zero := -1       // nums[0...zero] == 0
@@ -62,4 +62,4 @@ func sortColors(nums []int) {
     }
   }
 }
-```
+// ```

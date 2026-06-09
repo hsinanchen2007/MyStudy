@@ -1,4 +1,4 @@
- dfs用栈的方法实现，方式和bfs类似但是本质不同。
+//  dfs用栈的方法实现，方式和bfs类似但是本质不同。
 public int numIslands(char[][] grid) {
         if(grid.length==0){
         return 0;            

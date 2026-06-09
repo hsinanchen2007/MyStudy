@@ -1,9 +1,9 @@
-### 解题思路
-利用取余反转和目标对比
+// ### 解题思路
+// 利用取余反转和目标对比
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isPalindrome(x int) bool {
 	y:=0
 	target:=x
@@ -23,4 +23,4 @@ func isPalindrome(x int) bool {
 		}
 	}
 }
-```
+// ```

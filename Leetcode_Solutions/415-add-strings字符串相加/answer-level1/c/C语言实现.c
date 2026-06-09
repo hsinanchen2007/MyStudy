@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 char * addStrings(char * num1, char * num2){
     int len1 = strlen(num1);
     int len2 = strlen(num2);
@@ -35,4 +35,4 @@ char * addStrings(char * num1, char * num2){
         return ret + 1;
 }
 
-```
+// ```

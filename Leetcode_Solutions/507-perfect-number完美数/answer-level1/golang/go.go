@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func checkPerfectNumber(num int) bool {
     if num == 1 {
         return false
@@ -20,4 +20,4 @@ func checkPerfectNumber(num int) bool {
     
     return sum == num
 }
-```
+// ```

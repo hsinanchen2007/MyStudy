@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct linklist{
     
     int data;
@@ -118,4 +118,4 @@ void myLinkedListFree(MyLinkedList* obj) {
         obj = p;
     }
 }
-```
+// ```

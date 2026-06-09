@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode virHead = new ListNode(0), p = virHead; // 虚拟表头
@@ -49,6 +49,6 @@ class Solution {
         }
     }
 }
-```
-复杂度O(Nlogk)，但是有一个问题：为了方便用了MAX_VALUE代替了那些空节点，如果链表中本来就刚好有这个值的=。= 
-当然可以通过加一个计数来维护。
+// ```
+// 复杂度O(Nlogk)，但是有一个问题：为了方便用了MAX_VALUE代替了那些空节点，如果链表中本来就刚好有这个值的=。= 
+// 当然可以通过加一个计数来维护。

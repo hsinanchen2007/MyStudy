@@ -1,6 +1,6 @@
-**本题实质就是10进制转化为26进制，但没有表示0的字母，需特别注意。**
+// **本题实质就是10进制转化为26进制，但没有表示0的字母，需特别注意。**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convertToTitle(int n) {
@@ -17,4 +17,4 @@ public:
         return s;
     }
 };
-```
+// ```

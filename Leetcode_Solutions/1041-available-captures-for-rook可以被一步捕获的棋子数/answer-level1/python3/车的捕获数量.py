@@ -1,9 +1,9 @@
-### 解题思路
-沿各个方向判断是否存在对应棋子，如果一个方向存在则加一
+# ### 解题思路
+# 沿各个方向判断是否存在对应棋子，如果一个方向存在则加一
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         x, y = 0, 0
@@ -28,4 +28,4 @@ class Solution:
                     break
         return count
         
-```
+# ```

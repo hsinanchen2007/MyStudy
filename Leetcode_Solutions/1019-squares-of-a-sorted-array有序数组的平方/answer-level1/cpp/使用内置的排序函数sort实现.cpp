@@ -1,9 +1,9 @@
-### 解题思路
-使用内置的排序函数实现；
+// ### 解题思路
+// 使用内置的排序函数实现；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(const int &a,const int &b) {
@@ -17,4 +17,4 @@ public:
         return A;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public boolean isPalindrome(String s) {
         char[] chars = s.toCharArray();
         int left = 0, right = chars.length - 1;
@@ -21,5 +21,5 @@ public boolean isPalindrome(String s) {
         }
         return true;
     }
-```
+// ```
 

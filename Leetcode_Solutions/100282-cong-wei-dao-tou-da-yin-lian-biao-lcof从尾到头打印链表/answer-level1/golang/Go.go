@@ -1,4 +1,4 @@
-```
+// ```
 func reversePrint(head *ListNode) []int {
     var res = make([]int,0,10)
     for{
@@ -18,4 +18,4 @@ func reversePrint(head *ListNode) []int {
     }
     return res
 }
-```
+// ```

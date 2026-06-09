@@ -1,10 +1,10 @@
-### 解题思路
-并查集合并水池
-每个水池根据边界统一增长高度
+// ### 解题思路
+// 并查集合并水池
+// 每个水池根据边界统一增长高度
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 
 public class Heap<T> {
 
@@ -343,4 +343,4 @@ public class Solution {
         return od.Trap(height);
     }
 }
-```
+// ```

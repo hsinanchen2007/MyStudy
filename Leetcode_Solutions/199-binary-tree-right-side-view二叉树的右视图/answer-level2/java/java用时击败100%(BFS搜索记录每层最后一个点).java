@@ -1,5 +1,5 @@
-这个和二叉树的层序遍历区别在于,只需要保存最右边的TreeNode即可
-```
+// 这个和二叉树的层序遍历区别在于,只需要保存最右边的TreeNode即可
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ return list;
         
     }
 }
-```
+// ```

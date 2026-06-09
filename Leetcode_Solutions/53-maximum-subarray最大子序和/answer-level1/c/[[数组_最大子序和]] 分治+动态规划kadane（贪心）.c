@@ -1,5 +1,5 @@
-分治：最大子序和只出现在左侧、只出现在右侧、横跨左右侧三种情况。
-```c
+// 分治：最大子序和只出现在左侧、只出现在右侧、横跨左右侧三种情况。
+// ```c
 #define max(a,b)  (a>b ? a:b)
 int maxSubArray(int* nums, int numsSize){
     int i = 0;
@@ -31,9 +31,9 @@ int maxSubArray(int* nums, int numsSize){
     //4,三者比较返回最大值
     return max(max(max_left,max_right),max_mid);
 }
-```
-动态规划：从左往右遍历，记录前面元素的累加。往右的过程中，如果遇到某个数大于累加和+此数，因为继续往后走后面的元素资源都一样，这时候原来以某个数为头的子序从此往后开始拖后腿了（但不能否认其曾经峰值的存在，以max记录），那么舍弃原来的和，以遇到的这个数为头建立新的子序。
-```c
+// ```
+// 动态规划：从左往右遍历，记录前面元素的累加。往右的过程中，如果遇到某个数大于累加和+此数，因为继续往后走后面的元素资源都一样，这时候原来以某个数为头的子序从此往后开始拖后腿了（但不能否认其曾经峰值的存在，以max记录），那么舍弃原来的和，以遇到的这个数为头建立新的子序。
+// ```c
 int maxSubArray(int* nums, int numsSize){
     int cursum= nums[0];
     int maxsum= nums[0];  
@@ -43,4 +43,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return maxsum;
 }
-```
+// ```

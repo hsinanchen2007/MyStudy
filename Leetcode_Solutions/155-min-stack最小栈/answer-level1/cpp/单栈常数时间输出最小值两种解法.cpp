@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 2000
 typedef struct {
     int *data;
@@ -67,10 +67,10 @@ void minStackFree(MinStack* obj) {
 }
 
 
-```
-//利用min解决最小值问题，引用INT_MAX值
+// ```
+// //利用min解决最小值问题，引用INT_MAX值
 
-```
+// ```
 #define maxSize 2000
 
 typedef struct {
@@ -138,4 +138,4 @@ void minStackFree(MinStack* obj) {
     obj->data=NULL;
     free(obj);
 }
-```
+// ```

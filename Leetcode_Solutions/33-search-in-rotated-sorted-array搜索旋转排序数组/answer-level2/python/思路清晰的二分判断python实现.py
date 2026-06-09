@@ -1,8 +1,8 @@
-### 解题思路
-首先判断mid位于左边还是右边，然后在两边已经排好序的数组中查找target.
-### 代码
+# ### 解题思路
+# 首先判断mid位于左边还是右边，然后在两边已经排好序的数组中查找target.
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         l,r = 0,len(nums)-1
@@ -21,4 +21,4 @@ class Solution:
                 else: # (mid,r]
                     l = mid+1
         return l if nums[l]==target else -1
-```
+# ```

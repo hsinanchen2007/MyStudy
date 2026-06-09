@@ -1,10 +1,10 @@
-### 解题思路
-此题做法和官方给出的差不多，但是在寻找最小数那部分，此解法用的方法[https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/]为153题的官方解法
-![捕获.JPG](https://pic.leetcode-cn.com/df701d6f8b0019905bb0d1931c9fb44a2d96937ad81736970eac2ddc55532122-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 此题做法和官方给出的差不多，但是在寻找最小数那部分，此解法用的方法[https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/]为153题的官方解法
+// ![捕获.JPG](https://pic.leetcode-cn.com/df701d6f8b0019905bb0d1931c9fb44a2d96937ad81736970eac2ddc55532122-%E6%8D%95%E8%8E%B7.JPG)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
 解法同官方过程的思想类似，用两遍二分，第一遍寻找出最小值的位置（flag）；
 第二遍来进行二分查找；
@@ -82,4 +82,4 @@ t的作用为标志是否旋转数组（即判断flag是否为0），如果没�
 
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-遍历数组，为奇数时置于新数组前端，否则置于后端。
-```c
+// 遍历数组，为奇数时置于新数组前端，否则置于后端。
+// ```c
 int* exchange(int* nums, int numsSize, int* returnSize){
     *returnSize=numsSize;
     int *res=malloc(sizeof(int)*numsSize);
@@ -16,4 +16,4 @@ int* exchange(int* nums, int numsSize, int* returnSize){
     }
     return res;
 }
-```
+// ```

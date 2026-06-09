@@ -1,4 +1,4 @@
-```
+// ```
 var removeDuplicates = function(S) {
     let res=[];
     for(let i of S){
@@ -9,4 +9,4 @@ var removeDuplicates = function(S) {
     }
     return res.join("");
 };
-```
+// ```

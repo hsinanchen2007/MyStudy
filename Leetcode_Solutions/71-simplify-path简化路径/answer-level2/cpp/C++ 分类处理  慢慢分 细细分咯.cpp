@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -57,4 +57,4 @@ public:
         return res;
     }
 };
-```
+// ```

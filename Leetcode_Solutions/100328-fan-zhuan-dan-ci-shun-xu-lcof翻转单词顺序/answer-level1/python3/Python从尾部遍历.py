@@ -1,9 +1,9 @@
-### 解题思路
-先去除首尾空格，然后从尾部遍历，遇到空格则找到一个单词。注意对首位单词的处理（前面没有空格了）
+# ### 解题思路
+# 先去除首尾空格，然后从尾部遍历，遇到空格则找到一个单词。注意对首位单词的处理（前面没有空格了）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         s = s.strip()
@@ -20,4 +20,4 @@ class Solution:
             if i == 0:
                 res += tmp[::-1]
         return res
-```
+# ```

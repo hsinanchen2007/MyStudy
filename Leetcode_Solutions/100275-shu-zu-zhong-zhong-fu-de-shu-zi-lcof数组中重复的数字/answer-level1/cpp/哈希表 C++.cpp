@@ -1,5 +1,5 @@
-建立哈希表计数，顺序遍历数组，若表中已存在计数，说明第二次出现，即可返回
-```
+// 建立哈希表计数，顺序遍历数组，若表中已存在计数，说明第二次出现，即可返回
+// ```
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -11,4 +11,4 @@ public:
         return -1;
     }
 };
-```
+// ```

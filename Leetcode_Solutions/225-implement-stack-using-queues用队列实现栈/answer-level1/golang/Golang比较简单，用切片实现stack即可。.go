@@ -1,12 +1,12 @@
-### 解题思路
-Golang比较简单，用切片实现stack即可。pop出栈只要将切片最后一个元素去掉即可（items[0 : len(items)-1]）。
+// ### 解题思路
+// Golang比较简单，用切片实现stack即可。pop出栈只要将切片最后一个元素去掉即可（items[0 : len(items)-1]）。
 
-执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
-内存消耗 :2 MB, 在所有 Go 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
+// 内存消耗 :2 MB, 在所有 Go 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
 	Items []int
 }
@@ -77,4 +77,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

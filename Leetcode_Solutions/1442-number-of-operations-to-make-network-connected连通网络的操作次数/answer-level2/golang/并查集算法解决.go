@@ -1,5 +1,5 @@
 
-```
+// ```
 // 并查集实现
 func makeConnected(n int, connections [][]int) int {
 	line := len(connections)
@@ -45,4 +45,4 @@ func find(x int, p []int) int {
 	return r
 }
 
-```
+// ```

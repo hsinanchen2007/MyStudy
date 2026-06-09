@@ -1,4 +1,4 @@
-```
+// ```
 int sumNums( int n ){
 
     int result = 0;
@@ -7,4 +7,4 @@ int sumNums( int n ){
     return result + n;
 
 }
-```
+// ```

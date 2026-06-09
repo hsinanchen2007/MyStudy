@@ -1,5 +1,5 @@
-对于算法确实不太精通,从自己已经了解的算法,进行计算.
-```
+// 对于算法确实不太精通,从自己已经了解的算法,进行计算.
+// ```
 	public boolean isMatch(String s, String p) {
 		if (s.equals("") && p.equals(""))
 			return true;
@@ -141,4 +141,4 @@
 				return ch + "";
 		}
 	}
-```
+// ```

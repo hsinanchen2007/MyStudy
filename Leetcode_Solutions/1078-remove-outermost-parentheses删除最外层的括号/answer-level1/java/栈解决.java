@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String removeOuterParentheses(String S) {
         Stack<Character> leftStack = new Stack<>();
@@ -23,4 +23,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

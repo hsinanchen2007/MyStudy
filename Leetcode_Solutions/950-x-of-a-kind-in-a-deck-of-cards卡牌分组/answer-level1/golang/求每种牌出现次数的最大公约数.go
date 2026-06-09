@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
     cnts := make([]int, 10001)
     size := len(deck)
@@ -33,4 +33,4 @@ func gcd(x, y int) int {
     }
     return y
 }
-```
+// ```

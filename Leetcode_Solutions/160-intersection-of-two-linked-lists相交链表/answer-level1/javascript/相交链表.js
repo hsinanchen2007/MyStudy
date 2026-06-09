@@ -1,6 +1,6 @@
-1、嵌套循环
+// 1、嵌套循环
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -26,12 +26,12 @@ var getIntersectionNode = function(headA, headB) {
     }
     return null;
 };
-```
-时间复杂度 : O(m*n)
-空间复杂度 : O(1)
+// ```
+// 时间复杂度 : O(m*n)
+// 空间复杂度 : O(1)
 
-2、使用哈希
-```javascript
+// 2、使用哈希
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -59,13 +59,13 @@ var getIntersectionNode = function(headA, headB) {
     }
     return null;
 };
-```
-时间复杂度 : O(n+m)
-空间复杂度 : O(m)或O(n)
+// ```
+// 时间复杂度 : O(n+m)
+// 空间复杂度 : O(m)或O(n)
 
-3、双指针
-可以理解为两个链表AB和BA,他们两的长度一定相等，因此可以同时走，直到找到相等的位置
-```javascript
+// 3、双指针
+// 可以理解为两个链表AB和BA,他们两的长度一定相等，因此可以同时走，直到找到相等的位置
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -89,6 +89,6 @@ var getIntersectionNode = function(headA, headB) {
     }
     return pA;
 };
-```
-时间复杂度 : O(n+m)
-空间复杂度 : O(1)
+// ```
+// 时间复杂度 : O(n+m)
+// 空间复杂度 : O(1)

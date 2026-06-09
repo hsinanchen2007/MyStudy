@@ -1,9 +1,9 @@
-![奇怪的知识增加了.jpg](https://pic.leetcode-cn.com/7f559d03203d255210df68a525117b1da540ad2ef34db6f273d0f67a77a50931-%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.jpg)
+// ![奇怪的知识增加了.jpg](https://pic.leetcode-cn.com/7f559d03203d255210df68a525117b1da540ad2ef34db6f273d0f67a77a50931-%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.jpg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class UndergroundSystem {
     HashMap<Integer, String> stName = new HashMap<>();
     HashMap<Integer, Integer> stTime = new HashMap<>();
@@ -39,4 +39,4 @@ class UndergroundSystem {
     }
 }
 
-```
+// ```

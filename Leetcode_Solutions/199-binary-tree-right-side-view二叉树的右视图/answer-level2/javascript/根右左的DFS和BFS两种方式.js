@@ -1,5 +1,5 @@
-层序遍历, 每层获取到末端的节点后, 清空所有节点
-```
+// 层序遍历, 每层获取到末端的节点后, 清空所有节点
+// ```
 var rightSideView = function(root) {
     if (!root) return [];
     let output = [];
@@ -26,9 +26,9 @@ var rightSideView = function(root) {
     }
     return output;
 };
-```
-根右左深度优先遍历, 记录当前遍历的节点层级,只取层级不一样的新节点,右节点优先
-```
+// ```
+// 根右左深度优先遍历, 记录当前遍历的节点层级,只取层级不一样的新节点,右节点优先
+// ```
 var rightSideView = function(root) {
     if (!root) return [];
     let output = [];
@@ -56,4 +56,4 @@ var rightSideView = function(root) {
     }
     return output;
 };
-```
+// ```

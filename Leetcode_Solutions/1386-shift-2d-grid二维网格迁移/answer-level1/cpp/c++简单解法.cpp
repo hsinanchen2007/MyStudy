@@ -1,5 +1,5 @@
-可以把这个二维数组想像成一个n*m的环,推进k次就是把环的起点后移k位
-```
+// 可以把这个二维数组想像成一个n*m的环,推进k次就是把环的起点后移k位
+// ```
 class Solution {
 public:
     vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

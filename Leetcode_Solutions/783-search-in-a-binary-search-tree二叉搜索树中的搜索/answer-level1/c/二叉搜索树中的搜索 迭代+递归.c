@@ -1,6 +1,6 @@
-![QQ截图20191103223603.png](https://pic.leetcode-cn.com/1b4dd64a08fc0ee631a84a18e3aa4243aa42d174da0089d3e633eb9ee6bdccae-QQ%E6%88%AA%E5%9B%BE20191103223603.png)
+// ![QQ截图20191103223603.png](https://pic.leetcode-cn.com/1b4dd64a08fc0ee631a84a18e3aa4243aa42d174da0089d3e633eb9ee6bdccae-QQ%E6%88%AA%E5%9B%BE20191103223603.png)
 
-```
+// ```
 迭代法
 struct TreeNode* searchBST(struct TreeNode* root, int val)
 {
@@ -13,8 +13,8 @@ struct TreeNode* searchBST(struct TreeNode* root, int val)
 	}
 	return NULL;
  } 
-```
-```
+// ```
+// ```
 递归法
 struct TreeNode* searchBST(struct TreeNode* root, int val){
 	if(!root) return NULL;
@@ -26,4 +26,4 @@ struct TreeNode* searchBST(struct TreeNode* root, int val){
 	return searchBST(root->right,val);
 
 }
-```
+// ```

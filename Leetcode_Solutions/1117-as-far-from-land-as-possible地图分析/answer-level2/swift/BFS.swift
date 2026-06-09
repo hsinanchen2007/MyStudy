@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
        func maxDistance(_ grid: [[Int]]) -> Int {
         var grid = grid
@@ -43,4 +43,4 @@ class Solution {
         return grid[point.0][point.1] - 1;
     }
 }
-```
+// ```

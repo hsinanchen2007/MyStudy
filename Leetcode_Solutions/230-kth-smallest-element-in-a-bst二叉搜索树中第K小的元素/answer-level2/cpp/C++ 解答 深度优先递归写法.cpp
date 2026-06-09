@@ -1,6 +1,6 @@
-C++ 递归深度优先，24ms(92%), 21.5MB(63%)
+// C++ 递归深度优先，24ms(92%), 21.5MB(63%)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         dfs(node->right, idx, res, k);
     }
 };
-```
+// ```

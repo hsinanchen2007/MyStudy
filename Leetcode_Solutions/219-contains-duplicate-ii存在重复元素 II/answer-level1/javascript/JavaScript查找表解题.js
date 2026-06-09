@@ -1,10 +1,10 @@
-### 解法
+// ### 解法
 
-* 遍历当前 nums, 维护一个队列 arr 来存储 k 个数值, 判断该队列 arr 中是否包含当前遍历值 nums[l];
-  * 若有, 则返回 true;
-* 若遍历结束, 则返回 false;
+// * 遍历当前 nums, 维护一个队列 arr 来存储 k 个数值, 判断该队列 arr 中是否包含当前遍历值 nums[l];
+//   * 若有, 则返回 true;
+// * 若遍历结束, 则返回 false;
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -31,13 +31,13 @@ var containsNearbyDuplicate = function(nums, k) {
 
   return false
 }
-```
+// ```
 
-![](https://pic.leetcode-cn.com/2267c41f908da4502fd81607cda13df5ae18f133835ba1b348893da698bd828c.jpg-400)
+// ![](https://pic.leetcode-cn.com/2267c41f908da4502fd81607cda13df5ae18f133835ba1b348893da698bd828c.jpg-400)
 
-算法时间复杂度是 NlogN 级别的, 执行时间花了 1800ms。
+// 算法时间复杂度是 NlogN 级别的, 执行时间花了 1800ms。
 
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -64,10 +64,10 @@ var containsNearbyDuplicate = function(nums, k) {
 
   return false
 }
-```
+// ```
 
-![](https://pic.leetcode-cn.com/6265562224a82d669e0ec7f12151fc728cb0c8d69ad1c46672cb555d9f9e287f.jpg-400)
+// ![](https://pic.leetcode-cn.com/6265562224a82d669e0ec7f12151fc728cb0c8d69ad1c46672cb555d9f9e287f.jpg-400)
 
-使用 Set 用同样的思路实验, 时间复杂度为 O(N), 其执行时间比之前用数组队列的实现快了很多。
+// 使用 Set 用同样的思路实验, 时间复杂度为 O(N), 其执行时间比之前用数组队列的实现快了很多。
 
-> 为确保内容的实时性, 可以关注 [JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时性, 可以关注 [JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

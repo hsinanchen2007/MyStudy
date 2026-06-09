@@ -1,6 +1,6 @@
-可以使用python内置的排序函数。也可以使用双指针，逆序遍历负数部分，正序遍历非负数部分
-在使用双指针方法时，要注意如何得到负数与非负数的界限，使用 j = i+1 很有可能会越界，导致错误
-```vim
+# 可以使用python内置的排序函数。也可以使用双指针，逆序遍历负数部分，正序遍历非负数部分
+# 在使用双指针方法时，要注意如何得到负数与非负数的界限，使用 j = i+1 很有可能会越界，导致错误
+# ```vim
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
         """1. 使用内置的排序函数"""
@@ -49,4 +49,4 @@ class Solution:
 
         """3. 先对原始数组进行排序"""
         return [x*x for x in sorted(A, key=lambda a:abs(a))]
-```
+# ```

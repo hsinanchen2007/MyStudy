@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 class Solution {
     fun countCharacters(words: Array<String>, chars: String): Int {
         val count = IntArray(26)
@@ -16,4 +16,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-- 双指针处理
+# - 双指针处理
 
-```
+# ```
 class Solution(object):
     def reverseString(self, s):
         """
@@ -13,7 +13,7 @@ class Solution(object):
             i += 1
             j -= 1
         return s
-```
+# ```
 
-- 反转 list.reverse()
-return s.reverse()
+# - 反转 list.reverse()
+# return s.reverse()

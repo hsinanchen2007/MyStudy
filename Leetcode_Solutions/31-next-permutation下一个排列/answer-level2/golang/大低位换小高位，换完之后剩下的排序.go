@@ -1,9 +1,9 @@
-### 解题思路
-脑残办法，大低位换小高位，换完之后剩下的排序
+// ### 解题思路
+// 脑残办法，大低位换小高位，换完之后剩下的排序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nextPermutation(nums []int)  {
     if len(nums) <= 1 {
         return
@@ -23,4 +23,4 @@ func nextPermutation(nums []int)  {
     }   
 
 }
-```
+// ```

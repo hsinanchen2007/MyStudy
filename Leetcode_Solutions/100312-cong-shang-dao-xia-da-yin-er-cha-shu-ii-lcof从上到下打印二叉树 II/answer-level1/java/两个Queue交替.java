@@ -1,10 +1,10 @@
-### 解题思路
-随便写完发现数据还挺好（。
-就是交替用了两个queue和list 感觉比计数直观一点2333
+// ### 解题思路
+// 随便写完发现数据还挺好（。
+// 就是交替用了两个queue和list 感觉比计数直观一点2333
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

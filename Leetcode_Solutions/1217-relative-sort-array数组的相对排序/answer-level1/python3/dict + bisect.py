@@ -1,7 +1,7 @@
-执行用时 : 44 ms, 在所有 Python3 提交中击败了98.48%的用户
+# 执行用时 : 44 ms, 在所有 Python3 提交中击败了98.48%的用户
 
-内存消耗 :13.8 MB, 在所有 Python3 提交中击败了100.00% 的用户
-```python
+# 内存消耗 :13.8 MB, 在所有 Python3 提交中击败了100.00% 的用户
+# ```python
 class Solution:
     def relativeSortArray(self, arr1, arr2):
         from collections import defaultdict
@@ -22,4 +22,4 @@ class Solution:
                 result.extend([i]*arr1_dict[i])
         result.extend(result_not_in_arr2)
         return result
-```
+# ```

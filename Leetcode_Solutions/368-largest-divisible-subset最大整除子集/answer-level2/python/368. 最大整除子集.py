@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def largestDivisibleSubset(self, nums):
         nums = sorted(nums)
@@ -13,4 +13,4 @@ class Solution:
             if len(dp[i])>len(ans):
                 ans = dp[i]
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-运用递归依次剔除`复杂类型hashMap1`和`简单类型hashMap2`
+// ### 解题思路
+// 运用递归依次剔除`复杂类型hashMap1`和`简单类型hashMap2`
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -43,4 +43,4 @@ var romanToInt = function(s) {
     recur(s);
     return num;
 };
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :44 ms, 在所有Python3提交中击败了95.78% 的用户
-内存消耗 :13 MB, 在所有Python3提交中击败了95.45%的用户
-```
+# 执行用时 :44 ms, 在所有Python3提交中击败了95.78% 的用户
+# 内存消耗 :13 MB, 在所有Python3提交中击败了95.45%的用户
+# ```
 class Solution:
     def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
         count = 0
@@ -35,4 +35,4 @@ class Solution:
 另一个思路，直接在原始链表进行反转
 定位到m的前一个元素，用prev指向，第m个元素,cur指向
 """
-```
+# ```

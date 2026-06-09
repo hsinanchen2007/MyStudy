@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
         graph = collections.defaultdict(set)           # 利用字典记录关联信息
@@ -26,8 +26,8 @@ class Solution:
                                                        # 结果+1
 
         return res                                     # 对所有节点进行遍历后，返回res
-```
+# ```
 
 
 
-![微信截图_20200114123213.png](https://pic.leetcode-cn.com/e2b5d5045a2817d2c269aca047b5d281ee59dd2f4f7a3ff3e63b5ea1ff8b75f1-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200114123213.png)
+# ![微信截图_20200114123213.png](https://pic.leetcode-cn.com/e2b5d5045a2817d2c269aca047b5d281ee59dd2f4f7a3ff3e63b5ea1ff8b75f1-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200114123213.png)

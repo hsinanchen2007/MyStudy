@@ -1,6 +1,6 @@
-![WechatIMG17.png](https://pic.leetcode-cn.com/b8e9b3632a873980f75f81307bdca91751479436c7e5cce5d218b069c0544212-WechatIMG17.png)
+// ![WechatIMG17.png](https://pic.leetcode-cn.com/b8e9b3632a873980f75f81307bdca91751479436c7e5cce5d218b069c0544212-WechatIMG17.png)
 
-```
+// ```
 public int findShortestSubArray(int[] nums) {
         int max = -1;
         for (int i : nums) max = Math.max(max, i);
@@ -32,5 +32,5 @@ public int findShortestSubArray(int[] nums) {
 
         return min;
     }
-```
+// ```
 

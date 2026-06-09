@@ -1,9 +1,9 @@
-### 解题思路
-仅需要修改mergesort中非常少量的代码，在归并两个排好序的数组时，出现了左边数组元素大于右边数组元素，则左边数组剩余的元素均大于右边该元素，因此可以求出逆序对。
+# ### 解题思路
+# 仅需要修改mergesort中非常少量的代码，在归并两个排好序的数组时，出现了左边数组元素大于右边数组元素，则左边数组剩余的元素均大于右边该元素，因此可以求出逆序对。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import copy
 class Solution:
     def __init__(self):
@@ -49,4 +49,4 @@ class Solution:
         self.nums = copy.deepcopy(nums)
         self.tmp = copy.deepcopy(nums)
         return self.mergesort(0, len(nums)-1)
-```
+# ```

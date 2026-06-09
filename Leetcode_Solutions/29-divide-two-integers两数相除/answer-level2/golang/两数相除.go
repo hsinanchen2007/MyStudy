@@ -1,8 +1,8 @@
-借鉴解答区的大佬的思路，位移的方式计算。
+// 借鉴解答区的大佬的思路，位移的方式计算。
 
-go版本：
+// go版本：
 
-```go [go]
+// ```go [go]
 func divide(dividend int, divisor int) int {
 	if dividend == 0 || divisor == 0 {
 		return 0
@@ -51,4 +51,4 @@ func divide(dividend int, divisor int) int {
 
 	return result
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-队列记录所有待搜索节点，以及对应步数，知道找到两个子节点均为空。简单的是不用记录已经遍历的点。
+# ### 解题思路
+# 队列记录所有待搜索节点，以及对应步数，知道找到两个子节点均为空。简单的是不用记录已经遍历的点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             if curnode.right != None:
                 nodelist.append((curnode.right,step+1))
 
-```
+# ```

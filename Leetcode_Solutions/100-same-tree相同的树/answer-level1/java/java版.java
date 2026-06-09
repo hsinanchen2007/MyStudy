@@ -1,9 +1,9 @@
-### 解题思路
-递归分别判断两棵树的对应节点是否相等接口
+// ### 解题思路
+// 递归分别判断两棵树的对应节点是否相等接口
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
     }
     
 }
-```
+// ```

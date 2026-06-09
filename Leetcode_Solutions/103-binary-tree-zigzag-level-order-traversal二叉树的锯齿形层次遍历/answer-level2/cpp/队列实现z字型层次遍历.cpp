@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
@@ -26,5 +26,5 @@ public:
         return result;
     }
 };
-```
-思路很简单，跟102一样，先用队列完成层次遍历，然后只需要加入对Level的判断，如果是偶数层不用反转，奇数层则对该层的list调用reverse进行反转即可。运行时间4ms。
+// ```
+// 思路很简单，跟102一样，先用队列完成层次遍历，然后只需要加入对Level的判断，如果是偶数层不用反转，奇数层则对该层的list调用reverse进行反转即可。运行时间4ms。

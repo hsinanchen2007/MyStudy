@@ -1,10 +1,10 @@
-### 解题思路
-1. 计数节点
-2. 获取中间节点
+// ### 解题思路
+// 1. 计数节点
+// 2. 获取中间节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return res;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # 缓存以加快速度
 import functools
 class Solution:
@@ -16,4 +16,4 @@ class Solution:
 
   
 
-```
+# ```

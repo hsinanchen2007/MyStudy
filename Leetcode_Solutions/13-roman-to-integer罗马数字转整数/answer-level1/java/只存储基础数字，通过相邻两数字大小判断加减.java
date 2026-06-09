@@ -1,8 +1,8 @@
-### 解题思路
-先用哈希表存储基础罗马数字，当罗马数字中小的数字在大的数字的右边，就做加法，否则做减法。注意处理最后一个数字。
-### 代码
+// ### 解题思路
+// 先用哈希表存储基础罗马数字，当罗马数字中小的数字在大的数字的右边，就做加法，否则做减法。注意处理最后一个数字。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int romanToInt(String s) {
         HashMap<Character,Integer> map = new HashMap(){
@@ -27,4 +27,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-和之前的题目类似，排序索引去除重复，但是不知道为什么时间这么慢。。。
+# ### 解题思路
+# 此处撰写解题思路
+# 和之前的题目类似，排序索引去除重复，但是不知道为什么时间这么慢。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         ans = [[],nums]
@@ -25,4 +25,4 @@ class Solution:
             res = []
             helper(nums,0,i,res)
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var minDepth = function(root) {
     if(root == null){                               //叶子节点值为0
         return 0;               
@@ -10,4 +10,4 @@ var minDepth = function(root) {
     }
     return Math.min(l,r)+1                          //每个节点的值应该是其最小深度加上其本身
 };
-```
+// ```

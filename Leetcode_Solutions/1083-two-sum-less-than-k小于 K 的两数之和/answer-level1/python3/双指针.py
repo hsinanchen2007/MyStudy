@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def twoSumLessThanK(self, A: List[int], K: int) -> int:
         A, ret = sorted(A), -1
@@ -16,4 +16,4 @@ class Solution:
                 p1 += 1
 
         return max(-1, ret)
-```
+# ```

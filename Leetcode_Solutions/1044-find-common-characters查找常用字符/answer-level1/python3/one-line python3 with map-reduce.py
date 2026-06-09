@@ -1,4 +1,4 @@
-```
+# ```
 def commonChars(self, A: List[str]) -> List[str]:
     from functools import reduce 
     from collections import Counter 
@@ -9,4 +9,4 @@ def commonChars(self, A: List[str]) -> List[str]:
 
     # one line
     # return [ char for k, v in reduce(operator.and_, map(lambda x: Counter(x), A) for char in k*v)]
-```
+# ```

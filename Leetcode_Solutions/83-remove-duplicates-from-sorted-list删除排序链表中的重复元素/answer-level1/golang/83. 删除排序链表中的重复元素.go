@@ -1,13 +1,13 @@
-### 解题思路
-![111.png](https://pic.leetcode-cn.com/fee7ab8cddd5d288dcfd737fb75cf9a387adabd7c2d193550b1c1e78eef3b7bd-111.png)
+// ### 解题思路
+// ![111.png](https://pic.leetcode-cn.com/fee7ab8cddd5d288dcfd737fb75cf9a387adabd7c2d193550b1c1e78eef3b7bd-111.png)
 
-维护两个快慢指针 由于是有序的 所有
-1.当碰到prev节点的值和cur节点值相同时 prev移动到当前位置cur上 cur节点继续向下移动
-2.prev的值和cur节点值不同时 两个节点同时向后移动一个位置
+// 维护两个快慢指针 由于是有序的 所有
+// 1.当碰到prev节点的值和cur节点值相同时 prev移动到当前位置cur上 cur节点继续向下移动
+// 2.prev的值和cur节点值不同时 两个节点同时向后移动一个位置
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -40,4 +40,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	return h.Next
 }
 
-```
+// ```

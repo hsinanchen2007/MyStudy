@@ -1,9 +1,9 @@
-### 解题思路
-先垂直，再主对角线旋转
+// ### 解题思路
+// 先垂直，再主对角线旋转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void swap(int *a, int *b) {
     if (a == b) {
         return;
@@ -42,4 +42,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize)
     rotateVertical(matrix, matrixSize);
     rotateDiag(matrix, matrixSize);
 }
-```
+// ```

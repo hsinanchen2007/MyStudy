@@ -1,24 +1,24 @@
-### 解题思路
-思路很简单，就是先对二维数组intervals[][]进行排序，按照每一个的起点intervals[i][0]从小到大进行排序，然后开始遍历：
-如果intervals[i+1][0]<=intervals[i][1]，即说明可以合并，合并步骤：
-intervals[i+1][0]=intervals[i][0];
-intervals[i+1][1]=max(intervals[i][1],intervals[i+1][1]);
-同时令intervals[i]为(-1,-1)，方便后面的返回答案。
-### 最主要的是怎么进行排序？
-Java中Arrays的静态类sort()方法可以对一维数组进行排序，但是如何对二维数组排序？
-我是这么想的：如果将二维数组m[][]传入时，Java比较的元素将是m[],而m[]显然是无法比较的，那么就需要继承比较接口Comparator<int[]>，重写compare方法为:
-将m[i]当成a,那么起点自然为a[0]
-```
+// ### 解题思路
+// 思路很简单，就是先对二维数组intervals[][]进行排序，按照每一个的起点intervals[i][0]从小到大进行排序，然后开始遍历：
+// 如果intervals[i+1][0]<=intervals[i][1]，即说明可以合并，合并步骤：
+// intervals[i+1][0]=intervals[i][0];
+// intervals[i+1][1]=max(intervals[i][1],intervals[i+1][1]);
+// 同时令intervals[i]为(-1,-1)，方便后面的返回答案。
+// ### 最主要的是怎么进行排序？
+// Java中Arrays的静态类sort()方法可以对一维数组进行排序，但是如何对二维数组排序？
+// 我是这么想的：如果将二维数组m[][]传入时，Java比较的元素将是m[],而m[]显然是无法比较的，那么就需要继承比较接口Comparator<int[]>，重写compare方法为:
+// 将m[i]当成a,那么起点自然为a[0]
+// ```
 public int compare(int[] a,int[] b)
 {
     return Integer.compare(a[0], b[0]);
 }
-```
+// ```
 
-只需要传入继承比较接口Comparator<int[]>的类就可以了。
-### 代码
+// 只需要传入继承比较接口Comparator<int[]>的类就可以了。
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int[][] merge(int[][] intervals) {
@@ -67,4 +67,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

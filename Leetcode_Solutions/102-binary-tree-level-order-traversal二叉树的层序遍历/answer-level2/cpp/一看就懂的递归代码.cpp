@@ -1,11 +1,11 @@
-### 解题思路
-![2.png](https://pic.leetcode-cn.com/b83ac08cb8f462b12539df3832d2abdc866b6fbddf0826613d3325cbbfe4a2a3-2.png)
+// ### 解题思路
+// ![2.png](https://pic.leetcode-cn.com/b83ac08cb8f462b12539df3832d2abdc866b6fbddf0826613d3325cbbfe4a2a3-2.png)
 
-先用递归求出二叉树的层数。
-然后通过节点和层级来进行递归将答案写进容器中。
-### 代码
+// 先用递归求出二叉树的层数。
+// 然后通过节点和层级来进行递归将答案写进容器中。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
         return max(howlen(root->left),howlen(root->right))+1;
     }
 };
-```
+// ```

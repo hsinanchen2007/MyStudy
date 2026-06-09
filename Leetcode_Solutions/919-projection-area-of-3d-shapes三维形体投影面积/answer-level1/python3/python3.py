@@ -1,7 +1,7 @@
-题目意思：grid为n*n矩阵，grid中的row和col对应着三维空间中的x，y
-	# 俯视，与z轴无关，基于grid中的值无关，遍历grid中的非零值
-	# 正视，与y轴无关，x轴最大值相加
-	# 右视，与x轴无关，y轴最大值相加
+# 题目意思：grid为n*n矩阵，grid中的row和col对应着三维空间中的x，y
+# 	# 俯视，与z轴无关，基于grid中的值无关，遍历grid中的非零值
+# 	# 正视，与y轴无关，x轴最大值相加
+# 	# 右视，与x轴无关，y轴最大值相加
 
     def projectionArea(self, grid: List[List[int]]) -> int:
         result = 0

@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
-内存消耗 :2.5 MB, 在所有 Go 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
+// 内存消耗 :2.5 MB, 在所有 Go 提交中击败了100.00%的用户
+// ### 代码
 
-```golang
+// ```golang
 //dp
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
@@ -46,4 +46,4 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 
     return obstacleGrid[m-1][n-1]
 }
-```
+// ```

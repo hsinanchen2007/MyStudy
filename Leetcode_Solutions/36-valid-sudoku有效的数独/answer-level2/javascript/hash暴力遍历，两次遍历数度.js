@@ -1,4 +1,4 @@
-```
+// ```
 var isValidSudoku = function(board) {
     let flag = true
     for (let i = 0; i < 9; i++) {
@@ -35,4 +35,4 @@ function checkCenter(posX, posY, board) {
 
     return checkArr(arr)
 }
-```
+// ```

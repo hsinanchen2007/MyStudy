@@ -1,6 +1,6 @@
- **两种解法，异曲同工之妙**
-1. 解法一：
-```python
+#  **两种解法，异曲同工之妙**
+# 1. 解法一：
+# ```python
 from typing import List
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -16,9 +16,9 @@ class Solution:
         output = []
         backtrack([], target, 0)
         return output
-```
-2. 解法二：
-```python
+# ```
+# 2. 解法二：
+# ```python
 from typing import List
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -37,7 +37,7 @@ class Solution:
         p = []
         backtrack(target,0)
         return output
-```
+# ```
 
 
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     vector<int> color;
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

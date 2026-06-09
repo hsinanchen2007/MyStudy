@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 void Quicksort(vector<int> &arr,int low,int high,int k)
@@ -53,4 +53,4 @@ int partion(vector<int> &arr,int low,int high)
 
     }
 };
-```
+// ```

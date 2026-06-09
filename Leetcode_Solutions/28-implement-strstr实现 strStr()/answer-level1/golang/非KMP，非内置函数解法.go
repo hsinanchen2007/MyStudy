@@ -1,7 +1,7 @@
-两种方法，方法一是参照他人讲解KMP时给的示例解的，代码比较好理解；方法二是我自己写的，代码可能看上去不太好看
-方法一
-![image.png](https://pic.leetcode-cn.com/cdd1abe2628f86250a15b45336b45124e5a212ea6b6ef75ef3e001ac05ae9d3f-image.png)
-```
+// 两种方法，方法一是参照他人讲解KMP时给的示例解的，代码比较好理解；方法二是我自己写的，代码可能看上去不太好看
+// 方法一
+// ![image.png](https://pic.leetcode-cn.com/cdd1abe2628f86250a15b45336b45124e5a212ea6b6ef75ef3e001ac05ae9d3f-image.png)
+// ```
 func strStr(haystack string, needle string) int {
     var lenH int = len(haystack)
 	var lenN int = len(needle)
@@ -28,11 +28,11 @@ func strStr(haystack string, needle string) int {
 
 	return -1
 }
-```
+// ```
 
-方法二
-![image.png](https://pic.leetcode-cn.com/442777b455230f3f3d4aaf10d8ac70443d3bc1ce3d7f6cfc472c6e414ce6202a-image.png)
-```
+// 方法二
+// ![image.png](https://pic.leetcode-cn.com/442777b455230f3f3d4aaf10d8ac70443d3bc1ce3d7f6cfc472c6e414ce6202a-image.png)
+// ```
 func strStr(haystack string, needle string) int {
 	if len(needle) > len(haystack) {
 		return -1
@@ -57,6 +57,6 @@ func strStr(haystack string, needle string) int {
 
 	return -1
 }
-```
+// ```
 
 

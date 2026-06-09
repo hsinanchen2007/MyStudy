@@ -1,4 +1,4 @@
-```
+// ```
 char group[4097][50000];
 char * findContestMatch(int n)
 {
@@ -38,4 +38,4 @@ char * findContestMatch(int n)
     }
     return group[1];
 }
-```
+// ```

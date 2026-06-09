@@ -1,8 +1,8 @@
-golang  1.动态规划，2.贪心＋二分查找（0ms, 击败100%）
-github: https://github.com/Crownt/leetcode
+// golang  1.动态规划，2.贪心＋二分查找（0ms, 击败100%）
+// github: https://github.com/Crownt/leetcode
 
-１．动态规划
-```
+// １．动态规划
+// ```
 // 动态规划
 // dp[k]表示以第k个元素结尾的数组中的最长上升子序列
 // dp[k] = max(dp[k], dp[i]+1) if nums[k]>nums[i], (0<=i<k)
@@ -31,10 +31,10 @@ func lengthOfLIS(nums []int) int {
 
 	return max_length
 }
-```
-２．贪心＋二分查找
+// ```
+// ２．贪心＋二分查找
 
-```
+// ```
 // 贪心 + 二分查找
 // 贪心思想：如果要使上升子序列尽可能的长，则需要让序列上升得尽可能慢，
 //         因此希望每次在上升子序列最后加上的那个数尽可能的小。
@@ -76,7 +76,7 @@ func lengthOfLIS(nums []int) int {
 
 	return length	
 }
-```
+// ```
 
 
 

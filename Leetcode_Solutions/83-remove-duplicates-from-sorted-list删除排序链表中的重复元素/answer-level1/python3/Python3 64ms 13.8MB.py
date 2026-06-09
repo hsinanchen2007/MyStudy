@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         temp = head
         while temp and temp.next:
@@ -10,7 +10,7 @@ console.log('Hello world!')
             else:
                 temp = temp.next
         return head
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

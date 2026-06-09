@@ -1,9 +1,9 @@
-### 解题思路
-Use second stack to reverse the order of the elements;
+// ### 解题思路
+// Use second stack to reverse the order of the elements;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
     private Stack<Integer> stackNewest;
     private Stack<Integer> stackOldest;
@@ -53,4 +53,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

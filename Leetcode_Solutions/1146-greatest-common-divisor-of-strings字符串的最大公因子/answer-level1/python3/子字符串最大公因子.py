@@ -1,9 +1,9 @@
-### 解题思路
-先算出两字符串所有公约数，然后从最大公约数开始轮循，看子字符串是否是最大公因子
+# ### 解题思路
+# 先算出两字符串所有公约数，然后从最大公约数开始轮循，看子字符串是否是最大公因子
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         str1,str2 = sorted([str1,str2],key=lambda x:len(x))        
@@ -22,4 +22,4 @@ class Solution:
 
 
 
-```
+# ```

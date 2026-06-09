@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-动态规划
-dp[0]=nums[0]
-dp[1]=max(nums[0], nums[1])
-dp[i]=max(dp[i-1], dp[i-2]+nums[i])
+// ### 解题思路
+// 此处撰写解题思路
+// 动态规划
+// dp[0]=nums[0]
+// dp[1]=max(nums[0], nums[1])
+// dp[i]=max(dp[i-1], dp[i-2]+nums[i])
 
-return res[nums.size()-1]
-### 代码
+// return res[nums.size()-1]
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return res[nums.size()-1];
     }
 };
-```
+// ```

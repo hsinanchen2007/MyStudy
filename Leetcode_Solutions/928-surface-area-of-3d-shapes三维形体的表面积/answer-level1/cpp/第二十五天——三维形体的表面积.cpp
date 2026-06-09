@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，逐点遍历，计算表面积值
+// ### 解题思路
+// 常规思路，逐点遍历，计算表面积值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -31,4 +31,4 @@ public:
         return area;
     }
 };
-```
+// ```

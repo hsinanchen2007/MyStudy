@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-**对象存储**：用对象存储`chars`,匹配到该字母时，判断值
-- 字母的值为`0`或`undefined`时，即该字母不能拼写，false
-- 字母的值大于0时，其值-1
+// **对象存储**：用对象存储`chars`,匹配到该字母时，判断值
+// - 字母的值为`0`或`undefined`时，即该字母不能拼写，false
+// - 字母的值大于0时，其值-1
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -31,10 +31,10 @@ var countCharacters = function (words, chars) {
     }
     return sum
 };
-```
+// ```
 
-**replace**：将每一个单词与`chars`比较，替换字母，如果替换前后的字符串相同，说明`chars`中没有该字母，false
-```javascript
+// **replace**：将每一个单词与`chars`比较，替换字母，如果替换前后的字符串相同，说明`chars`中没有该字母，false
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -62,4 +62,4 @@ var countCharacters = function (words, chars) {
     return sum
 };
 
-```
+// ```

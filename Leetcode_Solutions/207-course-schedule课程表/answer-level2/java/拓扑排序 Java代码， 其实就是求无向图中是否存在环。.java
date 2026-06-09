@@ -1,5 +1,5 @@
-代码，简介
-```java
+// 代码，简介
+// ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] scheduleCources = new int[numCourses];
@@ -34,13 +34,13 @@ class Solution {
         return true;
     }
 }
-```
-```javascript []
+// ```
+// ```javascript []
 console.log('Hello world!')
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
-```ruby []
+// ```
+// ```ruby []
 puts 'Hello world!'
-```
+// ```

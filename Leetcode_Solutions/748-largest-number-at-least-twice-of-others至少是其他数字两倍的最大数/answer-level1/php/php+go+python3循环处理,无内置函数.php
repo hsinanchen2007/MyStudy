@@ -1,6 +1,6 @@
-1. 找出最大数
-2. 遍历判断
-```php []
+// 1. 找出最大数
+// 2. 遍历判断
+// ```php []
 class Solution {
 
     /**
@@ -23,8 +23,8 @@ class Solution {
         return $idx;
     }
 }
-```
-```go []
+// ```
+// ```go []
 func dominantIndex(nums []int) int {
     idx := 0
     for k,_ := range nums {
@@ -40,8 +40,8 @@ func dominantIndex(nums []int) int {
     }
     return idx
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         idx = 0
@@ -58,4 +58,4 @@ class Solution:
                 return -1
         
         return idx
-```
+// ```

@@ -1,7 +1,7 @@
-基本思路：
-sort函数中实现根据arr2中的值来给arr1排序
-insertsort则是把arr1剩下的数进行升序排序
-```
+// 基本思路：
+// sort函数中实现根据arr2中的值来给arr1排序
+// insertsort则是把arr1剩下的数进行升序排序
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -53,4 +53,4 @@ int* relativeSortArray(int* arr1, int arr1Size, int* arr2, int arr2Size, int* re
    *returnSize =arr1Size;
    return arry;
 }
-```
+// ```

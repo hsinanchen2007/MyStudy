@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int num) {
         long n = (long)num;
@@ -24,4 +24,4 @@ class Solution {
         return pow(x * x, n / 2);
     }
 } 
-```
+// ```

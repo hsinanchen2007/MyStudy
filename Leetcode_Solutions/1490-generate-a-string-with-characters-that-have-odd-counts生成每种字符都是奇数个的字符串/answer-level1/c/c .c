@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -39,4 +39,4 @@ char * generateTheString( int n ){
     return s;
 
 }
-```
+// ```

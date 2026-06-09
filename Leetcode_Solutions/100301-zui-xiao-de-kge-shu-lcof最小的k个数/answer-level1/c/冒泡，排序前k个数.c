@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用冒泡排序，从尾到头对数组进行升序排列，只需要排列前k个数。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用冒泡排序，从尾到头对数组进行升序排列，只需要排列前k个数。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -38,4 +38,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmq(const void *ca, const void *cb){
 	return *(int*)ca - *(int*)cb;
 }
@@ -26,4 +26,4 @@ int findLHS(int* nums, int numsSize){
             max=max>(map[i]+map[i+1])?max:(map[i]+map[i+1]);
     return max;
 }
-```
+// ```

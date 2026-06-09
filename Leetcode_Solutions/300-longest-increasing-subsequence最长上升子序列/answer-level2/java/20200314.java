@@ -1,9 +1,9 @@
-### 解题思路
-明人不说暗话，抄的作业，dp还是写的脑瓜子疼
+// ### 解题思路
+// 明人不说暗话，抄的作业，dp还是写的脑瓜子疼
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
      if (nums.length < 1) return 0;
@@ -22,4 +22,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

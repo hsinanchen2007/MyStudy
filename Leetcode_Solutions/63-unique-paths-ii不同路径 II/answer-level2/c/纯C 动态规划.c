@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 清清爽爽
+// ### 解题思路
+// 动态规划 清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleGridColSize){
     int row = 0;
     int col = 0;
@@ -46,4 +46,4 @@ int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obst
 
     return dp[obstacleGridSize - 1][*obstacleGridColSize - 1];
 }
-```
+// ```

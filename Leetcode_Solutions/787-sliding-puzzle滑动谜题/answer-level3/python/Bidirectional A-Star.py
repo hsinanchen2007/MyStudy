@@ -1,8 +1,8 @@
-A*，BFS搜索的时候根据估价函数，优先搜索优先级高的节点。
+# A*，BFS搜索的时候根据估价函数，优先搜索优先级高的节点。
 
-跟BidirectionalBFS一样，从起点和终点同时搜索，搜索到重合的地方就等于找到了最短路劲，然后返回两点的距离和。
+# 跟BidirectionalBFS一样，从起点和终点同时搜索，搜索到重合的地方就等于找到了最短路劲，然后返回两点的距离和。
 
-``` python3
+# ``` python3
 import itertools
 from heapq import heappush, heappop
 from typing import List
@@ -67,4 +67,4 @@ class Solution:
             if len(bq) > len(eq):
                 bq, eq, b_scores, e_scores, goal_pos, start_pos, rev = eq, bq, e_scores, b_scores, start_pos, goal_pos, not rev
         return -1
-```
+# ```

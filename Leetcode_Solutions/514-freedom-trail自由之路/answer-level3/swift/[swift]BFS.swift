@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
  class Solution {
     struct State {
         var steps: Int//目前为止旋转次数
@@ -43,4 +43,4 @@
         return ans + key.count //旋转次数  + 按钮次数
     }
  }
-```
+// ```

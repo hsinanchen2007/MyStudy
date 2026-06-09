@@ -1,10 +1,10 @@
-### 解题思路
-全程手动转换，累死我了
+# ### 解题思路
+# 全程手动转换，累死我了
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def toHex(self, num: int) -> str:
         l1 = [i for i in range(16)]
@@ -56,4 +56,4 @@ class Solution:
         
         ss = ''.join(l)
         return ss
-```
+# ```

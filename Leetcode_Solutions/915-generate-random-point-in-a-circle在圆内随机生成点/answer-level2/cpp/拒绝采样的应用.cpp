@@ -1,7 +1,7 @@
-方法介绍参考：https://blog.csdn.net/tywwwww/article/details/98397495
+// 方法介绍参考：https://blog.csdn.net/tywwwww/article/details/98397495
 
 
-```
+// ```
 class Solution {//拒绝采样的应用
 public:
     Solution(double radius, double x_center, double y_center) {
@@ -33,4 +33,4 @@ private:
  * Solution* obj = new Solution(radius, x_center, y_center);
  * vector<double> param_1 = obj->randPoint();
  */
-```
+// ```

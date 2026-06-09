@@ -1,9 +1,9 @@
-### 解题思路
-第二次学习终于理解了一些
+// ### 解题思路
+// 第二次学习终于理解了一些
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func shortestSubarray(A []int, K int) int {
     // 前缀和
     var sumArr []int
@@ -47,4 +47,4 @@ func shortestSubarray(A []int, K int) int {
     }
     return res
 }
-```
+// ```

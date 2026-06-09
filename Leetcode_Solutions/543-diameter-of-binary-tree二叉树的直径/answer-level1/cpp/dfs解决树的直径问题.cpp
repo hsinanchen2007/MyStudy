@@ -1,8 +1,8 @@
-本文是 https://leetcode-cn.com/problems/diameter-of-binary-tree/solution/c-di-gui-qiu-jie-by-frostime/
-的详细解释，分享供大家阅读，希望对有疑惑的小伙伴有帮助！
-### 代码
+// 本文是 https://leetcode-cn.com/problems/diameter-of-binary-tree/solution/c-di-gui-qiu-jie-by-frostime/
+// 的详细解释，分享供大家阅读，希望对有疑惑的小伙伴有帮助！
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return max(rightHeight, leftHeight)+1; 
     }
 };
-```
+// ```

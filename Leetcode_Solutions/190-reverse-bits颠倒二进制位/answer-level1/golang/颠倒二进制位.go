@@ -1,9 +1,9 @@
-### 解题思路
-从左到右取位并累加。
+// ### 解题思路
+// 从左到右取位并累加。
 
-### 代码
+// ### 代码
 
-```go []
+// ```go []
 func reverseBits(num uint32) uint32 {
 	//	逐个位取值并用于构造结果
 	var result uint32 = 0
@@ -17,8 +17,8 @@ func reverseBits(num uint32) uint32 {
 	}
 	return result
 }
-```
-```java []
+// ```
+// ```java []
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int num) {
@@ -33,4 +33,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

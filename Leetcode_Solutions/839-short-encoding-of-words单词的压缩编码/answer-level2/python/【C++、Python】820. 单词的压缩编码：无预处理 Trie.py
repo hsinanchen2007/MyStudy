@@ -1,12 +1,12 @@
-#### 思路 ####
-- 对每个节点标记是否为单词结尾（字典树常规操作），标记是否有子节点
-- 若在插入单词的过程中，遇到单词结尾，则
-  - 将结尾标记置为`false`，然后根据子节点标记判断是否需要压缩
-  - 若该节点无子节点，则累计长度应**减去（该节点的深度 + 1）**，有子节点的话说明已经被压缩了
-- 将一个单词插入到树中之后，若末尾节点没有子节点，则累计长度应**增加（该单词长度 + 1）**
-- 如此，无需对`words`进行预处理，一边将`word`按原顺序插入字典树，一边累计长度即可
-#### 代码 ####
-```cpp []
+# #### 思路 ####
+# - 对每个节点标记是否为单词结尾（字典树常规操作），标记是否有子节点
+# - 若在插入单词的过程中，遇到单词结尾，则
+#   - 将结尾标记置为`false`，然后根据子节点标记判断是否需要压缩
+#   - 若该节点无子节点，则累计长度应**减去（该节点的深度 + 1）**，有子节点的话说明已经被压缩了
+# - 将一个单词插入到树中之后，若末尾节点没有子节点，则累计长度应**增加（该单词长度 + 1）**
+# - 如此，无需对`words`进行预处理，一边将`word`按原顺序插入字典树，一边累计长度即可
+# #### 代码 ####
+# ```cpp []
 class Solution {
 public:
     struct TreeNode {
@@ -39,8 +39,8 @@ public:
         });
     }
 };
-```
-```python3 []
+# ```
+# ```python3 []
 class TreeNode(object):
     def __init__(self):
         self.end = False
@@ -62,8 +62,8 @@ class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         trie = TreeNode()
         return sum(map(trie.insert, words))
-```
-```python3 []
+# ```
+# ```python3 []
 """ 官方题解风格的字典树，很漂亮的解法 """
 from functools import reduce
 class Solution:
@@ -76,5 +76,5 @@ class Solution:
         ends = tuple(reduce(dict.__getitem__, word[::-1], trie) for word in words)
         """ 若单词的末尾节点无子节点，则总长度增加（单词长度 + 1） """
         return sum(len(word) + 1 for i, word in enumerate(words) if not ends[i])
-```
+# ```
 

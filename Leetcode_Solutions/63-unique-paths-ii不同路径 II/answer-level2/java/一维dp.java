@@ -1,10 +1,10 @@
-### 解题思路
-还是按照左侧跟上侧进行相加，转换成一维dp，然后对于obstacle的数据，先进行判断，等于1则直接将该处的dp赋值为0，
-这里需要注意一个第一列的边界，每次循环需要进行判定。
+// ### 解题思路
+// 还是按照左侧跟上侧进行相加，转换成一维dp，然后对于obstacle的数据，先进行判断，等于1则直接将该处的dp赋值为0，
+// 这里需要注意一个第一列的边界，每次循环需要进行判定。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution{
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m=obstacleGrid.length;
@@ -39,4 +39,4 @@ class Solution{
         return dp[n-1];
     }
 }
-```
+// ```

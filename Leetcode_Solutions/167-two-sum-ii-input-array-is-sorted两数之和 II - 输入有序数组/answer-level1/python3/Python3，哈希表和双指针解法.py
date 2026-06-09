@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 #解法1：同样利用哈希表，相同的代码，可以直接解决，只需要修改返回的索引值
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -23,5 +23,5 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
             else: #如果刚好等于，则
                 return [start+1 , end+1] #直接返回
 
-```
+# ```
 

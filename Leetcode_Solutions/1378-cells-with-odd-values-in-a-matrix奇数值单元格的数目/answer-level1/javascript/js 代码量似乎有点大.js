@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/4e6a440a13a602b2ebaddec5dca5ce37e9d56b69c9973e227ed3e5a6196d1a44-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4e6a440a13a602b2ebaddec5dca5ce37e9d56b69c9973e227ed3e5a6196d1a44-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 思路：
 
 这道题的本质是：
@@ -9,11 +9,11 @@
 初始化的时候没有奇数的格子，每当某个格子被操作一次，他就变化了一次奇偶性，
 一遍填充格子一遍统计当前的奇数格子个数，我们在填充格子的时候，不需要一直向上加，
 只需要变换 0 1 两个值变换奇偶即可
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -56,4 +56,4 @@ var oddCells = function(n, m, indices) {
   
   return ans;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**给链表用qsort排序，然后就ok了
  * Definition for a Node.
  * struct Node {
@@ -67,4 +67,4 @@ struct Node* insert(struct Node* head, int insertVal) {
 }
 
 
-```
+// ```

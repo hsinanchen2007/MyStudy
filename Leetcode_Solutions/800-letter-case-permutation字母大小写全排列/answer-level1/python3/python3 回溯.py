@@ -1,7 +1,7 @@
 
 
 
-```
+# ```
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         S = S.lower()
@@ -33,5 +33,5 @@ class Solution:
             self.dfs(cur_S, index, chars, ls)
             cur_S.pop()
             index -= 1
-```
+# ```
 

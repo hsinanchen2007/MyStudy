@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用for循环，分别求每个数的二进制1的位数
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用for循环，分别求每个数的二进制1的位数
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] countBits(int num) {
         // 方法1：
@@ -21,4 +21,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

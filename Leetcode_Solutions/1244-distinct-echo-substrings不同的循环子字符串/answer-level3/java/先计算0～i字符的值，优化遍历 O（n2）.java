@@ -1,15 +1,15 @@
-### 解题思路
-参照top排行的解法
-先计算0～i字符的值，优化遍历 O（n2）
+// ### 解题思路
+// 参照top排行的解法
+// 先计算0～i字符的值，优化遍历 O（n2）
 
-```
+// ```
 sum(i,j) * hSqr = sum(j,2j-i+1)
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distinctEchoSubstrings(String text) {
 		Set<Integer> table = new HashSet<Integer>();
@@ -45,4 +45,4 @@ class Solution {
         return table.size();
 	}
 }
-```
+// ```

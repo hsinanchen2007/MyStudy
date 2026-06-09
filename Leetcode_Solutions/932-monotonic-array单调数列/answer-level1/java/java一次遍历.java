@@ -1,6 +1,6 @@
-一次遍历，用两个变量记录单调递增或递减的长度，如果长度正好等于A.length，则为单调数列
+// 一次遍历，用两个变量记录单调递增或递减的长度，如果长度正好等于A.length，则为单调数列
 
-```java
+// ```java
 class Solution {
     public boolean isMonotonic(int[] A) {
         if(A.length <= 2) return true;
@@ -23,4 +23,4 @@ class Solution {
     }
     
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def divisorGame(self, N: int) -> bool:
         dp = [0 for i in range(N+1)]
@@ -13,4 +13,4 @@ class Solution:
                         dp[i]=1
             
             return dp[N]==1
-```
+# ```

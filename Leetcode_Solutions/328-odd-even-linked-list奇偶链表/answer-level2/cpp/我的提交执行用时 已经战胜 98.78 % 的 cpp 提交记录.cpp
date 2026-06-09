@@ -1,5 +1,5 @@
-简单的想法
-```
+// 简单的想法
+// ```
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
@@ -25,4 +25,4 @@ public:
         return head;
     }
 };
-```
+// ```

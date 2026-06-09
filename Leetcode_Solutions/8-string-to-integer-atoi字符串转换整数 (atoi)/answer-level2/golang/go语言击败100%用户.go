@@ -1,17 +1,17 @@
 
-![1560851569(1).png](https://pic.leetcode-cn.com/45a19f1a981593fdca51e6b0783c6bcd5e0d8a891cee195361c42531b67af26a-1560851569\(1\).png)
+// ![1560851569(1).png](https://pic.leetcode-cn.com/45a19f1a981593fdca51e6b0783c6bcd5e0d8a891cee195361c42531b67af26a-1560851569\(1\).png)
 
-step1：去无效字符
+// step1：去无效字符
 
-step2：规范首字符
+// step2：规范首字符
 
-step3：遍历检测数字0-9
+// step3：遍历检测数字0-9
 
-step4：转换
+// step4：转换
 
-step5：转换异常处理
+// step5：转换异常处理
 
-```
+// ```
 import (
 	"strconv"
 	"strings"
@@ -57,4 +57,4 @@ func myAtoi(str string) int {
 
 	return int(res)
 }
-```
+// ```

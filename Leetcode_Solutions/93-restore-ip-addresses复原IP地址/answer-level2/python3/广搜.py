@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def restoreIpAddresses(self, s: str):
         if s.__len__() < 4:
@@ -48,4 +48,4 @@ class Solution:
 
                 list1.append((next_step, next_str, next_end))
         return rs
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :
-0 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :
-8.6 MB, 在所有 C++ 提交中击败了23.24%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :
+// 8.6 MB, 在所有 C++ 提交中击败了23.24%
+// 的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<bool> camelMatch(vector<string>& queries, string pattern) {
@@ -35,4 +35,4 @@ public:
         return result;
     }
 };
-```
+// ```

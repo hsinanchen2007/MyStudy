@@ -1,9 +1,9 @@
-### 解题思路
-简单的回溯法，走一遍例子就会懂
+# ### 解题思路
+# 简单的回溯法，走一遍例子就会懂
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         def helper(nums,target,index):
@@ -34,4 +34,4 @@ class Solution:
       
 
     
-```
+# ```

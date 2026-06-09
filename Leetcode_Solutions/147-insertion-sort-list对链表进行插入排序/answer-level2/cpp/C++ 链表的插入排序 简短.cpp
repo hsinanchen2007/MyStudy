@@ -1,4 +1,4 @@
-```
+// ```
     ListNode* insertionSortList(ListNode* head) {
         auto h = new ListNode(-1),pre = h,q=head;//q为防止断链的备份节点
         for(auto p = head; p; p=q){//把head的每个节点p插入到h链中
@@ -7,4 +7,4 @@
         }
         return h->next;
     }
-```
+// ```

@@ -1,10 +1,10 @@
 
-转载借鉴自 https://leetcode.com/problems/multiply-strings/discuss/17605/Easiest-JAVA-Solution-with-Graph-Explanation
+// 转载借鉴自 https://leetcode.com/problems/multiply-strings/discuss/17605/Easiest-JAVA-Solution-with-Graph-Explanation
 
 
-![image.png](https://pic.leetcode-cn.com/171cad48cd0c14f565f2a0e5aa5ccb130e4562906ee10a84289f12e4460fe164-image.png)
+// ![image.png](https://pic.leetcode-cn.com/171cad48cd0c14f565f2a0e5aa5ccb130e4562906ee10a84289f12e4460fe164-image.png)
 
-```
+// ```
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -29,4 +29,4 @@ public:
         
     }
 };
-```
+// ```

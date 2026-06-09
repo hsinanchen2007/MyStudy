@@ -1,9 +1,9 @@
-### 解题思路
-跟三数和差不多，有待改正。
+// ### 解题思路
+// 跟三数和差不多，有待改正。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
 
@@ -52,4 +52,4 @@ class Solution {
 
     }
 }
-```
+// ```

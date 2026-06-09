@@ -1,9 +1,9 @@
-看着题解里很多代码篇幅挺大的，感觉自己写得还挺简洁的，上传上来供大家检验。
+// 看着题解里很多代码篇幅挺大的，感觉自己写得还挺简洁的，上传上来供大家检验。
 
-![image.png](https://pic.leetcode-cn.com/677d9c976c5763d68d6c10bae6a2c6177ae23a48b7f4beb397fcca544e0d9dec-image.png)
+// ![image.png](https://pic.leetcode-cn.com/677d9c976c5763d68d6c10bae6a2c6177ae23a48b7f4beb397fcca544e0d9dec-image.png)
 
 
-```go
+// ```go
     func permute(nums []int) [][]int {
 
         result := [][]int{}
@@ -31,4 +31,4 @@
             trackback(tmp, prev[:prevIndex + 1], result)
         }
     }
-```
+// ```

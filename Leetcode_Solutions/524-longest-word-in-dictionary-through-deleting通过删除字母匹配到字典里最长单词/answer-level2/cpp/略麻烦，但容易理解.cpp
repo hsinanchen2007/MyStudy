@@ -1,8 +1,8 @@
-### 解题思路
-index存储符合条件的所有字符串的索引，然后按字典序进行排序，在找出最长的字符串
-### 代码
+// ### 解题思路
+// index存储符合条件的所有字符串的索引，然后按字典序进行排序，在找出最长的字符串
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string findLongestWord(string s, vector<string>& d) {
@@ -58,4 +58,4 @@ void swap(string &t1,string &t2)
     t2=tmp;
 }
 };
-```
+// ```

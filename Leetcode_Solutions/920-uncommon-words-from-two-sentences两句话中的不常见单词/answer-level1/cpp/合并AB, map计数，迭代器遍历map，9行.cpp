@@ -1,9 +1,9 @@
-### 解题思路
-将AB合并，使用stringstream实现空格split，map计数，再用迭代器遍历map输出计数为1的单词
+// ### 解题思路
+// 将AB合并，使用stringstream实现空格split，map计数，再用迭代器遍历map输出计数为1的单词
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> uncommonFromSentences(string A, string B) {
@@ -18,6 +18,6 @@ public:
         return ret;
     }
 };
-```
-执行用时 :4 ms, 在所有 cpp 提交中击败了90.85%的用户
-内存消耗 :9 MB, 在所有 cpp 提交中击败了84.21%的用户
+// ```
+// 执行用时 :4 ms, 在所有 cpp 提交中击败了90.85%的用户
+// 内存消耗 :9 MB, 在所有 cpp 提交中击败了84.21%的用户

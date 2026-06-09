@@ -1,9 +1,9 @@
-### 解题思路
-每次都只能向下或者向右下，对于对于每个节点(i,j),都能通过dp[i-1][j]和dp[i-1][j-1]得到
+// ### 解题思路
+// 每次都只能向下或者向右下，对于对于每个节点(i,j),都能通过dp[i-1][j]和dp[i-1][j-1]得到
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -35,4 +35,4 @@ public:
         return ans;
     }
 };
-```
+// ```

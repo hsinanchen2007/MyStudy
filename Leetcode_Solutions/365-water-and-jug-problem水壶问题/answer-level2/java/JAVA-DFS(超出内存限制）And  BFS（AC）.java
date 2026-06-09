@@ -1,7 +1,7 @@
-八种状态， 不清楚请查看官方题解
+// 八种状态， 不清楚请查看官方题解
 
-DFS-超出内存限制
-```
+// DFS-超出内存限制
+// ```
     //把x壶倒空
     //把x壶倒满
     //把y壶倒空
@@ -50,10 +50,10 @@ DFS-超出内存限制
         }
         return xEmpty || xFull || yEmpty || yFull || xToY || yToX;
     }
-```
+// ```
 
-BFS(AC)
-```
+// BFS(AC)
+// ```
     public boolean canMeasureWater(int x, int y, int z) {
         int xMax = x;
         int yMax = y;
@@ -112,5 +112,5 @@ BFS(AC)
         if(visited.get(x) == null)  return false;
         return visited.get(x).contains(y);
     }
-```
+// ```
 

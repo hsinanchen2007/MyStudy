@@ -1,10 +1,10 @@
-### 解题思路
-使用字典和队列模拟统计；
-使用递归处理括号；
+// ### 解题思路
+// 使用字典和队列模拟统计；
+// 使用递归处理括号；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string CountOfAtoms(string formula)
     {
@@ -122,4 +122,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/89224807
-```py
+# 直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/89224807
+# ```py
 class Solution:
     def twoSum(self, numbers, target):
         """
@@ -19,4 +19,4 @@ class Solution:
                 r -= 1
         return []
 
-```
+# ```

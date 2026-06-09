@@ -1,9 +1,9 @@
-### 解题思路
-参考点赞数最多的大佬：前缀和+单调栈 Python3写的注解，转换为上坡路问题理解更简单
+# ### 解题思路
+# 参考点赞数最多的大佬：前缀和+单调栈 Python3写的注解，转换为上坡路问题理解更简单
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestWPI(self, hours: List[int]) -> int:
         length = len(hours)
@@ -44,4 +44,4 @@ class Solution:
                 ans = max(ans,i - stack[-1])
                 stack.pop()
         return ans
-```
+# ```

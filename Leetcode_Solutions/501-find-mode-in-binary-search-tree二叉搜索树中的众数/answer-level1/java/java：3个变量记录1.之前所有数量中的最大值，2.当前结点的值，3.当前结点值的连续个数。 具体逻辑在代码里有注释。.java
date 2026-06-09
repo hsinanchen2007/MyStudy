@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/511c1a6765f73645698e40b55b380b54feb278898b2743c92714b7f1ee753e40-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/511c1a6765f73645698e40b55b380b54feb278898b2743c92714b7f1ee753e40-image.png)
+// ```
 class Solution {
     public List<Integer> maxValue;  // 用于将相同数量的众数保存
     public int curValue;  // 记录当前结点的值
@@ -44,5 +44,5 @@ class Solution {
         inOrder(root.right);
     }
 }
-```
+// ```
 

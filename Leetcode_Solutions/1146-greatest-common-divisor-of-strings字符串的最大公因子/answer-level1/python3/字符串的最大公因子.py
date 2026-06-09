@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         if not str1 and not str2:
@@ -11,4 +11,4 @@ class Solution:
                 (len(str2) // (i + 1)) == str2):
                 Flag = i + 1
         return str1[:Flag] 
-```
+# ```

@@ -1,6 +1,6 @@
-对于这种队列的设计，主要考虑的是什么情况队空、什么情况队满，还有清楚队空和队满时，rear和front指针的位置如何。如果考虑到以上这些条件，相信设计一个队列不难。
+// 对于这种队列的设计，主要考虑的是什么情况队空、什么情况队满，还有清楚队空和队满时，rear和front指针的位置如何。如果考虑到以上这些条件，相信设计一个队列不难。
 
-```
+// ```
 typedef struct MyCircularQueue
 {
     int front, rear;
@@ -78,5 +78,5 @@ void myCircularQueueFree(MyCircularQueue* obj) {
     free(obj);
     obj = NULL;
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-1、将父进程ppid转化unordered_multimap，pid作为key，位置下标作为value，这样可以实现ppid的快速查找，以及对应子进程pid；
-2、然后对每个子进程pid进行递归删除。
+// ### 解题思路
+// 1、将父进程ppid转化unordered_multimap，pid作为key，位置下标作为value，这样可以实现ppid的快速查找，以及对应子进程pid；
+// 2、然后对每个子进程pid进行递归删除。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<int> result;

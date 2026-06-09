@@ -1,9 +1,9 @@
-### 解题思路
-循环判断和左上角是否相等，如果判断右下角则需要担心越界问题
+// ### 解题思路
+// 循环判断和左上角是否相等，如果判断右下角则需要担心越界问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
              //0,0  1,1,  2,2   
@@ -23,4 +23,4 @@ class Solution {
    }
 }
 
-```
+// ```

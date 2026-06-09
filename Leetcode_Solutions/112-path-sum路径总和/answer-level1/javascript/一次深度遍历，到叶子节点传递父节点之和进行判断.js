@@ -1,9 +1,9 @@
-### 解题思路
-代码有注释
+// ### 解题思路
+// 代码有注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -42,4 +42,4 @@ var hasPathSum = function(root, sum, psum) {
         return false
     }
 };
-```
+// ```

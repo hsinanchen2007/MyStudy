@@ -1,5 +1,5 @@
-思路看代码注释。
-```
+// 思路看代码注释。
+// ```
 class Solution {
     //没得思路试试3sum
     public  List<List<Integer>> fourSum(int[] nums, int target) {
@@ -64,5 +64,5 @@ class Solution {
         return list;
     }
 }
-```
-ps：一次编译通过还是很有成就感的！应该还有更好的解法但我这种笨逼只能想到这了
+// ```
+// ps：一次编译通过还是很有成就感的！应该还有更好的解法但我这种笨逼只能想到这了

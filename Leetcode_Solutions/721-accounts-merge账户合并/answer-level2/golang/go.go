@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func find(s string, root map[string]string) string {
@@ -46,4 +46,4 @@ func accountsMerge(accounts [][]string) [][]string {
 	}
 	return out
 }
-```
+// ```

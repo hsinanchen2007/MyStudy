@@ -1,9 +1,9 @@
-### 解题思路
-直接用正则就很简单
+# ### 解题思路
+# 直接用正则就很简单
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import re
 class Solution:
     def myAtoi(self, str: str) -> int:
@@ -18,4 +18,4 @@ class Solution:
             return 2**31-1
         return res
 
-```
+# ```

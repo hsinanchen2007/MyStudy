@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-Line 207: Char 3: runtime error: load of null pointer of type 'int' (__Serializer__.c)
-测试的时候经常出现这个问题，测试用例是输入空链表"[]"，此时的处理需要让 *returnSize = 0，
-否则输出为 "]" ，提示不通过
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// Line 207: Char 3: runtime error: load of null pointer of type 'int' (__Serializer__.c)
+// 测试的时候经常出现这个问题，测试用例是输入空链表"[]"，此时的处理需要让 *returnSize = 0，
+// 否则输出为 "]" ，提示不通过
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
 
     return ret;
 }
-```
+// ```

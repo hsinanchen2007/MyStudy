@@ -1,12 +1,12 @@
-执行用时 : 12 ms , 在所有 Python 提交中击败了 97.92% 的用户
-内存消耗 : 12.8 MB , 在所有 Python 提交中击败了 5.55% 的用户
+# 执行用时 : 12 ms , 在所有 Python 提交中击败了 97.92% 的用户
+# 内存消耗 : 12.8 MB , 在所有 Python 提交中击败了 5.55% 的用户
 
 
-普通的栈遍历一次即可。
+# 普通的栈遍历一次即可。
 
 
 
-```py
+# ```py
 class Solution(object):
     def decodeString(self, s):
         """
@@ -44,4 +44,4 @@ class Solution(object):
         # print(stack)
 
         return "".join(stack)
-```
+# ```

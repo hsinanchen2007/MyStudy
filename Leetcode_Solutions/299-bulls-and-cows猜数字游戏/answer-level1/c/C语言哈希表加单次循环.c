@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2b0fa33cb9a0c73328068b22be38545faab1522953a924905cda786759dc1519-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2b0fa33cb9a0c73328068b22be38545faab1522953a924905cda786759dc1519-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * getHint(char * secret, char * guess){
     char* ret = (char*)malloc(sizeof(char) * 100);
     int A_num = 0, B_num = 0;
@@ -33,4 +33,4 @@ char * getHint(char * secret, char * guess){
     sprintf(ret, "%dA%dB", A_num, B_num);
     return ret; 
 }
-```
+// ```

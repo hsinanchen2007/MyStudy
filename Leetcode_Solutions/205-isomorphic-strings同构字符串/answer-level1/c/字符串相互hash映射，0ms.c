@@ -1,10 +1,10 @@
-1.s(key)->t(value)
-2.t(key)->s(value)
-如果两次映射都是一对一，则是同构。
+// 1.s(key)->t(value)
+// 2.t(key)->s(value)
+// 如果两次映射都是一对一，则是同构。
 
-![c.PNG](https://pic.leetcode-cn.com/1a83ff171e33c440c437bd3948a0fdc97c1350ed869b2a436c7c22a42c9cf7ab-c.PNG)
+// ![c.PNG](https://pic.leetcode-cn.com/1a83ff171e33c440c437bd3948a0fdc97c1350ed869b2a436c7c22a42c9cf7ab-c.PNG)
 
-```
+// ```
 #define HASH_LEN 128   //ascii码数值0-127
 typedef struct HashNode{
     char key;
@@ -46,4 +46,4 @@ bool isIsomorphic(char * s, char * t){
     return true;
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-BFS，当遇到第一个叶子节点的时候，该节点深度就是最小深度。
-```
+# BFS，当遇到第一个叶子节点的时候，该节点深度就是最小深度。
+# ```
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if not root: return 0
@@ -12,10 +12,10 @@ class Solution:
                 queue.append((depth + 1, node.left))
             if node.right:
                 queue.append((depth + 1, node.right))
-```
+# ```
 
-DFS，需要把所有的叶子节点的深度进行比较，才可以得到最终的最小深度。
-```
+# DFS，需要把所有的叶子节点的深度进行比较，才可以得到最终的最小深度。
+# ```
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if not root: return 0
@@ -30,4 +30,4 @@ class Solution:
             if node.left:
                 stack.append((depth + 1, node.left))       
         return min_depth 
-```
+# ```

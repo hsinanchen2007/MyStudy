@@ -1,10 +1,10 @@
-### 解题思路
-摘抄voyagerhui的代码
+// ### 解题思路
+// 摘抄voyagerhui的代码
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef struct CacheNode{
     int key;
@@ -94,4 +94,4 @@ void lFUCacheFree(LFUCache* obj) {
 
 
 
-```
+// ```

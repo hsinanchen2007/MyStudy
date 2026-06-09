@@ -1,9 +1,9 @@
-### 解题思路
-根据判断index与numRows不相等，递归call函数，往arr里push
+// ### 解题思路
+// 根据判断index与numRows不相等，递归call函数，往arr里push
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} numRows
  * @return {number[][]}
@@ -34,4 +34,4 @@ var generate = function (numRows) {
     call(index)
     return arr
 };
-```
+// ```

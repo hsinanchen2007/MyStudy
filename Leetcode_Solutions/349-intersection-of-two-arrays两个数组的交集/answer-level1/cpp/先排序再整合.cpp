@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -18,6 +18,6 @@ public:
         return ans;
     }
 };
-```
-如果不用sort
-手写完成排序的同时去重的话理论上应该还能更快一点。
+// ```
+// 如果不用sort
+// 手写完成排序的同时去重的话理论上应该还能更快一点。

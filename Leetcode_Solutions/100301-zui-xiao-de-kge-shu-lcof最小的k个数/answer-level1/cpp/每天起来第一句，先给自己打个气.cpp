@@ -1,9 +1,9 @@
-### 解题思路
-看到vector容器，再看题目找到k个小的数，就想到了sort排序，默认是从小到大排序，然后把前k个数输出就好了
+// ### 解题思路
+// 看到vector容器，再看题目找到k个小的数，就想到了sort排序，默认是从小到大排序，然后把前k个数输出就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -15,4 +15,4 @@ public:
         return arr1;
     }
 };
-```
+// ```

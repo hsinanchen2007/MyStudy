@@ -1,9 +1,9 @@
-### 解题思路
-垃圾拙码
+// ### 解题思路
+// 垃圾拙码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     int len=strlen(s);
     if(len==0)
@@ -77,4 +77,4 @@ char * reverseWords(char * s){
     s[len]='\0';
     return s;
 }
-```
+// ```

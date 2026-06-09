@@ -1,10 +1,10 @@
-### 解题思路
-明确状态
-防止无休止的搜索下去，用set去重
+// ### 解题思路
+// 明确状态
+// 防止无休止的搜索下去，用set去重
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         //DFS: 六种操作
@@ -98,4 +98,4 @@ class state {
     }
 
 }
-```
+// ```

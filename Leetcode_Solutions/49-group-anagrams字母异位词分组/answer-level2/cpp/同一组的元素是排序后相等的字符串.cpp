@@ -1,7 +1,7 @@
-同一组的元素是排序后相等的字符串。
-下面代码用了两个vector来存储，实际也可以用一个unordered_map<string,vector<string>>来存储，会更快一点。
+// 同一组的元素是排序后相等的字符串。
+// 下面代码用了两个vector来存储，实际也可以用一个unordered_map<string,vector<string>>来存储，会更快一点。
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -25,10 +25,10 @@ public:
 		return res;
 	}
 };
-```
+// ```
 
-下面是用unordered_map的写法，执行用时超过86.17%
-```C++ []
+// 下面是用unordered_map的写法，执行用时超过86.17%
+// ```C++ []
 class Solution {
 public:
 	vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -45,4 +45,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

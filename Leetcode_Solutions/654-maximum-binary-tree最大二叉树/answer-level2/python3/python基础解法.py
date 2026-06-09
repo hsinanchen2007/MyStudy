@@ -1,9 +1,9 @@
-### 解题思路
-递归解决，首先递归的出口是nums为空，递归式是找到max_index,左子树为max_index前面的，右子树为max_index后面的，返回root
+# ### 解题思路
+# 递归解决，首先递归的出口是nums为空，递归式是找到max_index,左子树为max_index前面的，右子树为max_index后面的，返回root
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
         root.left = self.constructMaximumBinaryTree(nums[: max_index])
         root.right = self.constructMaximumBinaryTree(nums[max_index+1 :])
         return root
-```
+# ```

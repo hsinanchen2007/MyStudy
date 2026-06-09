@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         memo = {}
@@ -23,4 +23,4 @@ class Solution:
         else:
             memo[(idx1,idx2)] = 1 + min(min(self.memo_recursion(word1,word2,idx1-1,idx2-1,memo),self.memo_recursion(word1, word2, idx1-1, idx2, memo)),self.memo_recursion(word1, word2, idx1, idx2-1, memo))
         return memo[(idx1,idx2)]
-```
+# ```

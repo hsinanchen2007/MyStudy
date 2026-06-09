@@ -1,6 +1,6 @@
-## 方法一： 回溯法 + 深度优先搜索
-思路：其实回溯法就是需要把图画清楚，画成树形图，当某一条路走到**底**时开始**回溯**，思想跟深度优先搜索差不多.
-```c++
+// ## 方法一： 回溯法 + 深度优先搜索
+// 思路：其实回溯法就是需要把图画清楚，画成树形图，当某一条路走到**底**时开始**回溯**，思想跟深度优先搜索差不多.
+// ```c++
 class Solution {
 private:
     vector<int> path;
@@ -31,10 +31,10 @@ public:
         return result;
     }
 };
-```
-## 方法二： Next permutation
-思路：将数组排好序不断加入其下一个排列
-```c++
+// ```
+// ## 方法二： Next permutation
+// 思路：将数组排好序不断加入其下一个排列
+// ```c++
 vector<vector<int>> permute(vector<int>& nums) {
         
     sort(nums.begin(), nums.end());
@@ -44,4 +44,4 @@ vector<vector<int>> permute(vector<int>& nums) {
 
     return result;
     }
-```
+// ```

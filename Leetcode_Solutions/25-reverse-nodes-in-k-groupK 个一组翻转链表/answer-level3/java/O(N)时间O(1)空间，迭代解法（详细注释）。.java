@@ -1,5 +1,5 @@
-迭代解法：外层循环ceiling(N/k)次 内层开销O(k) 总时间复杂度O(N) 常数级额外空间使用，空间复杂度O(1)
-```
+// 迭代解法：外层循环ceiling(N/k)次 内层开销O(k) 总时间复杂度O(N) 常数级额外空间使用，空间复杂度O(1)
+// ```
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         //边界情况：0,1 个元素 或 k = 1 的情况下返回原链表
@@ -47,11 +47,11 @@ class Solution {
     }
 }
  
-```
+// ```
 
 
-递归解法：看起来更简单 时间复杂度O(N) 空间复杂度好像是O(1 * N/k)=O(N) 每个栈帧上都有常数级的空间调用
-```
+// 递归解法：看起来更简单 时间复杂度O(N) 空间复杂度好像是O(1 * N/k)=O(N) 每个栈帧上都有常数级的空间调用
+// ```
 class Solution {
     ListNode reverse(ListNode a, ListNode b) { //反转[a,b)的链表并返回新的头节点
         ListNode curr = a, prev = null;
@@ -75,7 +75,7 @@ class Solution {
         return new_head;
     }
 }
-```
+// ```
 
 
 

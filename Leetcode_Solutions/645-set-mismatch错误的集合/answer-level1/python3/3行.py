@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+# ### 解题思路
+# 见注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         # 找到重复的元素
@@ -12,4 +12,4 @@ class Solution:
         ans.append((len(nums)+1)*len(nums) // 2 - sum(nums) + ans[0])
         return ans
 
-```
+# ```

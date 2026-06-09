@@ -1,8 +1,8 @@
-### 解题思路
-通过队列的头尾循环实现简单的栈
-### 代码
+// ### 解题思路
+// 通过队列的头尾循环实现简单的栈
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     queue<int> q;
@@ -57,4 +57,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

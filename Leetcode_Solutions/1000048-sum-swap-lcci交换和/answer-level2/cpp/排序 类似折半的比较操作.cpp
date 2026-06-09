@@ -1,13 +1,13 @@
-### 解题思路
-1. 由于需交换元素，需求得剩余元素和，故首先求出两个数组的各自总和sum1, sum2
-2. 根据等式sum1 - array1[i] + array2[j] == sum2 - array2[j] + array1[i]，
-   变换后得到， sum1 + 2 * array2[j] == sum2 + 2 * array1[i]
-遍历整个array1,array2数组，确定i，j位置，测试用例会导致超时
-3. 于是想到对array1, array2排序，在根据等式大小的比较结果，调整array1或array2的索引，类似折半的比较操作
+// ### 解题思路
+// 1. 由于需交换元素，需求得剩余元素和，故首先求出两个数组的各自总和sum1, sum2
+// 2. 根据等式sum1 - array1[i] + array2[j] == sum2 - array2[j] + array1[i]，
+//    变换后得到， sum1 + 2 * array2[j] == sum2 + 2 * array1[i]
+// 遍历整个array1,array2数组，确定i，j位置，测试用例会导致超时
+// 3. 于是想到对array1, array2排序，在根据等式大小的比较结果，调整array1或array2的索引，类似折半的比较操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findSwapValues(vector<int>& array1, vector<int>& array2) {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

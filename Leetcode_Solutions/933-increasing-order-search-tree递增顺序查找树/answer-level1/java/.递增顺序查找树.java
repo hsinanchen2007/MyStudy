@@ -1,5 +1,5 @@
-递归法，采用一个next指针记录下一个数的位置
-```java
+// 递归法，采用一个next指针记录下一个数的位置
+// ```java
 class Solution {
    public TreeNode increasingBST(TreeNode root) {
         return  increasingBST(root,null);
@@ -16,4 +16,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

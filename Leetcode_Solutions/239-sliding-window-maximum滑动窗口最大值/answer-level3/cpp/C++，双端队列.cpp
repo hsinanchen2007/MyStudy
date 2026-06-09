@@ -1,8 +1,8 @@
-### 解题思路
-双端队列
-### 代码
+// ### 解题思路
+// 双端队列
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -31,4 +31,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

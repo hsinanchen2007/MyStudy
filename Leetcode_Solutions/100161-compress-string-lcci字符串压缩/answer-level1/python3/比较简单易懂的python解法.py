@@ -1,9 +1,9 @@
-### 解题思路
-通过保存上一个字符和下标来合并相同的字符
+# ### 解题思路
+# 通过保存上一个字符和下标来合并相同的字符
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if not S or len(S) <= 2:
@@ -17,4 +17,4 @@ class Solution:
                 last_index, last_char = i + 1, c
         SC = "".join(res)
         return SC if len(SC) < len(S) - 1 else S[:-1]
-```
+# ```

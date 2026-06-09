@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] degree = new int[numCourses];
@@ -37,4 +37,4 @@ class Solution {
         return ans.stream().mapToInt(i -> i).toArray();
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ static int dfs(struct TreeNode *root, long long last, int step)
     max = (right_step > max) ? right_step : max;
     return max;
 }
-```
+// ```

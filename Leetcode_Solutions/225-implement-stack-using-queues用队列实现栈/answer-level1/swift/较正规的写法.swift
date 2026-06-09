@@ -1,9 +1,9 @@
-### 解题思路
-手动创建一个队列，很多答案都直接用数组创建栈，不知道在想什么...
+// ### 解题思路
+// 手动创建一个队列，很多答案都直接用数组创建栈，不知道在想什么...
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Queue {
     private var array = [Int]()
     
@@ -87,4 +87,4 @@ class MyStack {
  * let ret_3: Int = obj.top()
  * let ret_4: Bool = obj.empty()
  */
-```
+// ```

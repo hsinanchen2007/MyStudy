@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-采用pthread库的mutex 和cond 来解题是最常规最正确的思路了。
+// 采用pthread库的mutex 和cond 来解题是最常规最正确的思路了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int n;
     int flag;
@@ -55,4 +55,4 @@ void fooBarFree(FooBar* obj) {
     pthread_mutex_destroy(&obj->g_task_lock);
     pthread_cond_destroy(&obj->g_task_cv);
 }
-```
+// ```

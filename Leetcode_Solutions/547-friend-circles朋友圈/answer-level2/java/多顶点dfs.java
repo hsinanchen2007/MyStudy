@@ -1,10 +1,10 @@
-### 解题思路
-1.非连通图，开始节点不唯一，遍历所有顶点；
-2.每个顶点进行dfs；
+// ### 解题思路
+// 1.非连通图，开始节点不唯一，遍历所有顶点；
+// 2.每个顶点进行dfs；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static final int UNVISITED = 0;
     public static final int IS_FRIENTD = 1;
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-时间复杂度：O(d^2)
+// 时间复杂度：O(d^2)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -72,4 +72,4 @@ int countNodes(struct TreeNode* root){
     // 2. l -1 , 是最后总会查看结点存在最右叶子的邻居右节点不在结束，l 会多加一次，需要减掉
 }
 
-```
+// ```

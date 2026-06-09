@@ -1,4 +1,4 @@
-```
+// ```
 public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> list = new ArrayList<>();
     inorderTraversal(root,list);
@@ -12,4 +12,4 @@ public void inorderTraversal(TreeNode root, List<Integer> list) {
     inorderTraversal(root.right,list);
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-``` go
+// ``` go
 func distributeCandies(candies int, num_people int) []int {
     res := make([]int, num_people)
     base := 1
@@ -17,5 +17,5 @@ func distributeCandies(candies int, num_people int) []int {
     
     return res
 }
-```
-水个题解，hard题我唯唯诺诺，easy题我重拳出击。
+// ```
+// 水个题解，hard题我唯唯诺诺，easy题我重拳出击。

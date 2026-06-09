@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-中序遍历，标记修改。
+# 中序遍历，标记修改。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def inorderSuccessor(self, root: 'TreeNode', p: 'TreeNode') -> 'TreeNode':
         flag, ans = False, None
@@ -20,4 +20,4 @@ class Solution:
                 f(r.right)
         f(root)
         return ans
-```
+# ```

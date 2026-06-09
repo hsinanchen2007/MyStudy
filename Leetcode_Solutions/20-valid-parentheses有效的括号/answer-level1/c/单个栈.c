@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char* s) {
 	int len = strlen(s);
 	if (len == 0) return true;
@@ -28,4 +28,4 @@ bool isValid(char* s) {
 	free(stack);
 	return top == -1;
 }
-```
+// ```

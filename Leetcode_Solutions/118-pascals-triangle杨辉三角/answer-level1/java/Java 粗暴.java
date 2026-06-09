@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         if(numRows<=0){
@@ -27,4 +27,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

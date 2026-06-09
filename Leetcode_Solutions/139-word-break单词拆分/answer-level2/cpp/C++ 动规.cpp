@@ -1,11 +1,11 @@
-### 解题思路
-用string.compare对字符串进行比较，
-遍历wordDict中的word，与s的字串（从i开始，往前数word.size()个）进行比较，如果比较结果一致，改变dp
-常规DP解法，需要注意的地方是s的索引i和dp数组的索引之间的关系。
+// ### 解题思路
+// 用string.compare对字符串进行比较，
+// 遍历wordDict中的word，与s的字串（从i开始，往前数word.size()个）进行比较，如果比较结果一致，改变dp
+// 常规DP解法，需要注意的地方是s的索引i和dp数组的索引之间的关系。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -24,5 +24,5 @@ public:
         return dp[s.size()];    //返回最后的一个元素即为结果
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/3ffa64695af023c5752450ebae5baef44f749054c5b32eff5d7ef2c915bae10a-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3ffa64695af023c5752450ebae5baef44f749054c5b32eff5d7ef2c915bae10a-image.png)

@@ -1,6 +1,6 @@
-参考了甜姨的自定义双链表的解法
+// 参考了甜姨的自定义双链表的解法
 
-```
+// ```
 class LFUCache
 {
 
@@ -139,4 +139,4 @@ class doublylinkedlist
         $node->pre = $this->head;
     }
 }
-```
+// ```

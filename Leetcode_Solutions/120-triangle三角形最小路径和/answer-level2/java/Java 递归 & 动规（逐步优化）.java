@@ -1,5 +1,5 @@
-1、递归（记忆化搜索）
-```java
+// 1、递归（记忆化搜索）
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null || triangle.isEmpty()) return 0;
@@ -19,11 +19,11 @@ class Solution {
         return memo[row][col] = Math.min(left, right) + triangle.get(row).get(col);
     }
 }
-```
+// ```
 
-2、DP
-二维数组（空间复杂度O(n^2)）
-```java
+// 2、DP
+// 二维数组（空间复杂度O(n^2)）
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null || triangle.isEmpty()) return 0;
@@ -40,9 +40,9 @@ class Solution {
         return dp[0][0];
     }
 }
-```
-同上（略作优化）
-```java
+// ```
+// 同上（略作优化）
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null || triangle.isEmpty()) return 0;
@@ -56,9 +56,9 @@ class Solution {
         return dp[0][0];
     }
 }
-```
-一维数组（空间复杂度O(n)）
-```java
+// ```
+// 一维数组（空间复杂度O(n)）
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null || triangle.isEmpty()) return 0;
@@ -72,9 +72,9 @@ class Solution {
         return dp[0];
     }
 }
-```
-利用自身（空间复杂度O(1)）
-```java
+// ```
+// 利用自身（空间复杂度O(1)）
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null || triangle.isEmpty()) return 0;
@@ -89,4 +89,4 @@ class Solution {
         return triangle.get(0).get(0);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Rust 改写标程
+// ### 解题思路
+// Rust 改写标程
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn is_match(s: String, p: String) -> bool {
         let new_s = "#".to_string() + &s;
@@ -50,4 +50,4 @@ impl Solution {
         return true;
     }
 }
-```
+// ```

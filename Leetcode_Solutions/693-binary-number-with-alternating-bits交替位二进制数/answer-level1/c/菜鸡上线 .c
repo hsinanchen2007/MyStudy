@@ -1,10 +1,10 @@
-### 解题思路
-找到左移位数再判断
-![QQ图片20200326103529.png](https://pic.leetcode-cn.com/fc8576ec57ec21062b8431fc07b13f91f1bc56505e20b496153ae00a9e902822-QQ%E5%9B%BE%E7%89%8720200326103529.png)
+// ### 解题思路
+// 找到左移位数再判断
+// ![QQ图片20200326103529.png](https://pic.leetcode-cn.com/fc8576ec57ec21062b8431fc07b13f91f1bc56505e20b496153ae00a9e902822-QQ%E5%9B%BE%E7%89%8720200326103529.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasAlternatingBits(int n)
 {
     int i=1;
@@ -44,4 +44,4 @@ bool hasAlternatingBits(int n)
     }
     return true;
 }
-```
+// ```

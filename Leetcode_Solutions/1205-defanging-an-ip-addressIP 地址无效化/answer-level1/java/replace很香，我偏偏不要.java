@@ -1,9 +1,9 @@
-### 解题思路
-已知字符传就是IP，只需要遍历一次即可，虽然replace很香，但正则匹配是需要时间的
+// ### 解题思路
+// 已知字符传就是IP，只需要遍历一次即可，虽然replace很香，但正则匹配是需要时间的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String defangIPaddr(String address) {
         char[] charArr = address.toCharArray();
@@ -22,4 +22,4 @@ class Solution {
         return String.valueOf(charDefangIpArr);
     }
 }
-```
+// ```

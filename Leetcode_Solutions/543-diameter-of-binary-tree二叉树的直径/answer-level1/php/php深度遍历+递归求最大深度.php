@@ -1,6 +1,6 @@
-思路：基本思路就是看了官方的思路，对所有节点进行一次遍历，对每个节点，求经过该节点的最长路径值，全部放入一个数组，最后数组中的最大值就是所求的答案。
-- 第一版
-```php
+// 思路：基本思路就是看了官方的思路，对所有节点进行一次遍历，对每个节点，求经过该节点的最长路径值，全部放入一个数组，最后数组中的最大值就是所求的答案。
+// - 第一版
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -50,9 +50,9 @@ class Solution {
         return $lmax>$rmax?$lmax:$rmax;
     }
 }
-```
-- 第二版，参照其他网友的方法改进，速度更快
-```php
+// ```
+// - 第二版，参照其他网友的方法改进，速度更快
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -90,4 +90,4 @@ class Solution {
         return ($lmax>$rmax?$lmax:$rmax)+1;
     }
 }
-```
+// ```

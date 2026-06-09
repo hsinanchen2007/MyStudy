@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,7 +27,7 @@ public:
         return l_depth > r_depth? l_depth+1: r_depth+1;
     }
 };
-```
+// ```
 
 
 

@@ -1,26 +1,26 @@
-### 解题思路
-典型的字符串操作，关键在于将操作步骤进行分解。
+// ### 解题思路
+// 典型的字符串操作，关键在于将操作步骤进行分解。
 
-为了处理方便，先将待查找下标进行排序。
+// 为了处理方便，先将待查找下标进行排序。
 
-1.将待带查找的index、source、target整合，使用qsort排序
+// 1.将待带查找的index、source、target整合，使用qsort排序
 
-2.查找tid（target index），在sid不等于tid时，进行数据拷贝
+// 2.查找tid（target index），在sid不等于tid时，进行数据拷贝
 
-3.当sid等于tid时，判断source是否满足条件，注意超出尾部也判断为不满足条件
+// 3.当sid等于tid时，判断source是否满足条件，注意超出尾部也判断为不满足条件
 
-4.当不满足条件时更新tid，进行后面的处理。（关键点，如果没有下一个index，则使用slen，目的在于完成拷贝）
+// 4.当不满足条件时更新tid，进行后面的处理。（关键点，如果没有下一个index，则使用slen，目的在于完成拷贝）
 
-5.如果满足条件，则进行替换。为了方便处理，结果的rid和S的sid分别记录，互不影响。sid用于和index比较；rid主要用于结果拷贝。
+// 5.如果满足条件，则进行替换。为了方便处理，结果的rid和S的sid分别记录，互不影响。sid用于和index比较；rid主要用于结果拷贝。
 
-6.完成处理输出结果
+// 6.完成处理输出结果
 
-![image.png](https://pic.leetcode-cn.com/fe31d41d24c232636b99668a6abfa09e39ee1a13395f811a8000ce61c56d0dd6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fe31d41d24c232636b99668a6abfa09e39ee1a13395f811a8000ce61c56d0dd6-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=833 lang=c
  *
@@ -122,4 +122,4 @@ char * findReplaceString(char * S, int* indexes, int indexesSize, char ** source
 // @lc code=end
 
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e576a88058f23e8c1f1badec6be00079bc76cc9810861516100b6dfb5d679195-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e576a88058f23e8c1f1badec6be00079bc76cc9810861516100b6dfb5d679195-image.png)
 
-dp递归
-注意如果是0的话，+0,-0都可以，所以是两种
-### 代码
+// dp递归
+// 注意如果是0的话，+0,-0都可以，所以是两种
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} S
@@ -26,4 +26,4 @@ var findTargetSumWays = function (nums, S) {
         return findTargetSumWays(nums.slice(1), S - nums[0]) + findTargetSumWays(nums.slice(1), S + nums[0]);
     }
 };
-```
+// ```

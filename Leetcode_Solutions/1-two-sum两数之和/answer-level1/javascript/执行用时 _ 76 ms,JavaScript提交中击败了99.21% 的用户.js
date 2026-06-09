@@ -1,5 +1,5 @@
-使用Object作为Map
-```
+// 使用Object作为Map
+// ```
 var twoSum = function(nums, target) {
     let map = {};
     for(let i=0;i<nums.length;i++){
@@ -12,4 +12,4 @@ var twoSum = function(nums, target) {
     }
     return []
 };
-```
+// ```

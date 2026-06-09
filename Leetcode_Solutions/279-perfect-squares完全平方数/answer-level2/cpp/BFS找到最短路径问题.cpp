@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numSquares(int n) {
@@ -26,4 +26,4 @@ public:
         return d[n];
     }
 };
-```
+// ```

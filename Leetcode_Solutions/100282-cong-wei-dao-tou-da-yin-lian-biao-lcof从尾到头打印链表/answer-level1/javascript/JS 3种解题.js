@@ -1,5 +1,5 @@
-1. `reverse()` 输出
-```js
+// 1. `reverse()` 输出
+// ```js
 var reversePrint = function (head) {
   if (head === null) return []
   const res = []
@@ -9,11 +9,11 @@ var reversePrint = function (head) {
   }
   return res.reverse()
 }
-```
+// ```
 
-2. 反转链表
+// 2. 反转链表
 
-```js
+// ```js
 // 首先将链表反转
 function reverseLink(head) {
     if (head === null || head.next === null) return head
@@ -28,12 +28,12 @@ function reverseLink(head) {
     }
     return head
 }
-```
-然后再输出即可
+// ```
+// 然后再输出即可
 
-3. 递归反转链表
+// 3. 递归反转链表
 
-```js
+// ```js
 function reverseLink(head) {
     if (head === null || head.next === null) return head
     const p = reverseLink(head.next)
@@ -41,4 +41,4 @@ function reverseLink(head) {
     head.next = null
     return p // 返回真正的表头
 }
-```
+// ```

@@ -1,9 +1,9 @@
 
-基本思路：
+// 基本思路：
 
-对于每一列，找出当前列左边的最大值和右边的最大值，如果 `curHeight < min(leftMax, rightMax)`，则当前列水量为`min(leftMax, rightMax) - curHeight`，否则，当前不可能盛水。因此，首先需要构建左边和右边最大值的数组。实际上，左边最大值数组不需要提前构建，也不用数组，在求水量的过程中动态更新即可。
+// 对于每一列，找出当前列左边的最大值和右边的最大值，如果 `curHeight < min(leftMax, rightMax)`，则当前列水量为`min(leftMax, rightMax) - curHeight`，否则，当前不可能盛水。因此，首先需要构建左边和右边最大值的数组。实际上，左边最大值数组不需要提前构建，也不用数组，在求水量的过程中动态更新即可。
 
-```
+// ```
 class Solution {
    public:
     int trap(vector<int>& height) {
@@ -28,9 +28,9 @@ class Solution {
         return res;
     }
 };
-```
+// ```
 
-时间复杂度：O(n)
-空间复杂度：O(n)
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
 
-![image.png](https://pic.leetcode-cn.com/4ae5d9404d84b1dff6b65aa3716ddc4e67033a701c51a70cb2059e60046483e2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4ae5d9404d84b1dff6b65aa3716ddc4e67033a701c51a70cb2059e60046483e2-image.png)

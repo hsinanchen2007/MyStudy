@@ -1,6 +1,6 @@
-# 解法一：
-借用tarjan算法改造
-```
+// # 解法一：
+// 借用tarjan算法改造
+// ```
 class Solution {
 public:
     int rank;
@@ -44,13 +44,13 @@ public:
         return dfn[destination] != 0 && g[destination].empty();
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/530fda65cbb26f374d2c3a202c134462ad85da4040e0173ab27de8242428a91f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/530fda65cbb26f374d2c3a202c134462ad85da4040e0173ab27de8242428a91f-image.png)
 
-# 解法二：
-轻量版普通递归
-```
+// # 解法二：
+// 轻量版普通递归
+// ```
 class Solution {
 public:
     bool dfs(const vector<vector<int> >& g, vector<bool>& visited, int src, int tgt) {
@@ -76,6 +76,6 @@ public:
         return dfs(g, visited, source, destination);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4c839bfa25a4502b3e378e2319ba2352f80d7debdec11d39e242092cf4ac686f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4c839bfa25a4502b3e378e2319ba2352f80d7debdec11d39e242092cf4ac686f-image.png)

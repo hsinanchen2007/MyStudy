@@ -1,9 +1,9 @@
-### 解题思路
-由于第一行和第一列的最大值是固定的，首先对第一行第一列最大值进行求取。
-在原数组上进行修改既可。
-### 代码
+// ### 解题思路
+// 由于第一行和第一列的最大值是固定的，首先对第一行第一列最大值进行求取。
+// 在原数组上进行修改既可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxValue(int[][] grid) {
         int rowLen = grid.length;
@@ -24,4 +24,4 @@ class Solution {
         return grid[rowLen-1][colLen-1];
     }
 }
-```
+// ```

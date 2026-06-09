@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         N=len(nums)
@@ -22,6 +22,6 @@ class Solution:
             
         return maxValue
 
-```
+# ```
 
-类似题目参考862. 和至少为 K 的最短子数组
+# 类似题目参考862. 和至少为 K 的最短子数组

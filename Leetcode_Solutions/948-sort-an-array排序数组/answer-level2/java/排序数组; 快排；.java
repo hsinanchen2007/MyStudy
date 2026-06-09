@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
       public int[] sortArray(int[] nums) {
         quicksort(0, nums.length-1, nums);
@@ -27,12 +27,12 @@ class Solution {
         quicksort(i+1,l,nums);
     }
 }
-```
-```java []
+// ```
+// ```java []
 class Solution {
      public int[] sortArray(int[] nums) {
         Arrays.sort(nums);
         return nums;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-C纯手写思路
-![1.jpg](https://pic.leetcode-cn.com/16c21dac8bc840e9bf45c2d3917411f9ad4651cc927e49681fce111e35d8eebb-1.jpg)
+// ### 解题思路
+// C纯手写思路
+// ![1.jpg](https://pic.leetcode-cn.com/16c21dac8bc840e9bf45c2d3917411f9ad4651cc927e49681fce111e35d8eebb-1.jpg)
 
-### 代码
+// ### 代码
 
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize)
 {
     void swap(int *, int *);
@@ -28,4 +28,4 @@ void swap(int *a, int *b)
     *a = *b;
     *b = temp;
 }
-```
+// ```

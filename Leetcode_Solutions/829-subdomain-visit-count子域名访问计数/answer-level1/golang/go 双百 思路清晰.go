@@ -1,15 +1,15 @@
-![屏幕快照 2020-04-03 下午8.45.24.png](https://pic.leetcode-cn.com/6fc810759898caf8b1cda36e6c25b1d481da34a6a0a5c9ccb33e181ece6972ff-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-03%20%E4%B8%8B%E5%8D%888.45.24.png)
+// ![屏幕快照 2020-04-03 下午8.45.24.png](https://pic.leetcode-cn.com/6fc810759898caf8b1cda36e6c25b1d481da34a6a0a5c9ccb33e181ece6972ff-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-03%20%E4%B8%8B%E5%8D%888.45.24.png)
 
 
-#### 解题思路
+// #### 解题思路
 
-思路如注释所示
+// 思路如注释所示
 
 
 
-#### 参考代码
+// #### 参考代码
 
-```go
+// ```go
 func subdomainVisits(cpdomains []string) []string {
 	mp := make(map[string]int)
 	for _,value := range cpdomains {
@@ -58,8 +58,8 @@ func getdomin(name string) []string {
 	return res
 }
 
-```
+// ```
 
-**更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
+// **更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
 
 

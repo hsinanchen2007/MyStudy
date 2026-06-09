@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Foo {
 public:
     Foo():one_ok_(false), two_ok_(false) {
@@ -48,4 +48,4 @@ private:
      bool one_ok_; 
      bool two_ok_; 
 };
-```
+// ```

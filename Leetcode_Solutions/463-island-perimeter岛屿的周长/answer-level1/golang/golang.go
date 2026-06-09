@@ -1,4 +1,4 @@
-```
+// ```
 func islandPerimeter(grid [][]int) int {
 	res := 0
 
@@ -45,4 +45,4 @@ func islandPerimeter(grid [][]int) int {
 
     return res
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-暴力，动态规划，分治
+// ### 解题思路
+// 暴力，动态规划，分治
 
-### 代码
+// ### 代码
 
-#### 暴力
-```cpp
+// #### 暴力
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -21,10 +21,10 @@ public:
         return maxnum;
     }
 };
-```
+// ```
 
-#### 动态规划
-```cpp
+// #### 动态规划
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -38,10 +38,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-#### 分治
-```cpp
+// #### 分治
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -70,4 +70,4 @@ public:
         return max(crossmax, max(leftmax, rightmax));
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-由等差数列求和公式可得 target最多可以分成 `int((2*target)**0.5)` 个数的和。那么我们只需要把target可以拆分的所有情况枚举一下。
+# ### 解题思路
+# 由等差数列求和公式可得 target最多可以分成 `int((2*target)**0.5)` 个数的和。那么我们只需要把target可以拆分的所有情况枚举一下。
 
-如果可以拆分为奇数份，那么target肯定是中间那个数（也就是中位数）的倍数；如果可以拆分为偶数份，那么target肯定是中间两个数的倍数。由此可以得到target能否拆分的条件，以及拆分后中位数的数值。然后向左右延伸就可以了。
+# 如果可以拆分为奇数份，那么target肯定是中间那个数（也就是中位数）的倍数；如果可以拆分为偶数份，那么target肯定是中间两个数的倍数。由此可以得到target能否拆分的条件，以及拆分后中位数的数值。然后向左右延伸就可以了。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         res = []
@@ -20,4 +20,4 @@ class Solution:
                     res.append(list(range(mid - i//2 + 1, mid + i//2 + 1)))
         return sorted(res, key = lambda x: x[0])
             
-```
+# ```

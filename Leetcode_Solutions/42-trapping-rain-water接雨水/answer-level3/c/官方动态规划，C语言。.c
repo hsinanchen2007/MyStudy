@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max(int a,int b)
 {
     return a>b?a:b;
@@ -46,4 +46,4 @@ int trap(int* height,int heightSize)//动态规划，储存最高高度；
 
 
 
-```
+// ```

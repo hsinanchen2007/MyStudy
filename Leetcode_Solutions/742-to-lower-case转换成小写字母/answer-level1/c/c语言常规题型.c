@@ -1,9 +1,9 @@
-### 解题思路
-利用ascii码判断。
+// ### 解题思路
+// 利用ascii码判断。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 char * toLowerCase(char * str){
@@ -16,4 +16,4 @@ char * toLowerCase(char * str){
 }
 
 
-```
+// ```

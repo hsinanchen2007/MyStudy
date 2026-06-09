@@ -1,4 +1,4 @@
-C# 编译器有问题，这个为什么不行
+// C# 编译器有问题，这个为什么不行
 public class Solution {
     public int MyAtoi(string str) {
         int dig = 0;

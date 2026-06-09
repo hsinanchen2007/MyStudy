@@ -1,6 +1,6 @@
-1. 方法1 **迭代**： 用队列，把每一层的值存起来，然后两点连起来
+// 1. 方法1 **迭代**： 用队列，把每一层的值存起来，然后两点连起来
 
-```
+// ```
 	    public Node connect(Node root) {
 	    	
 	    	 if(root==null)return root;	        
@@ -25,12 +25,12 @@
 		     }
 		     return root;
 	    }
-```
+// ```
 
-方法2： 递归
-![微信图片_20200103164703.png](https://pic.leetcode-cn.com/65542efd24b0a01f56f660d583381585fa0b28a48a7aff9ecae263d787c96c64-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200103164703.png)
+// 方法2： 递归
+// ![微信图片_20200103164703.png](https://pic.leetcode-cn.com/65542efd24b0a01f56f660d583381585fa0b28a48a7aff9ecae263d787c96c64-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200103164703.png)
 
-```
+// ```
 	    // 方法2 递归
 	    public Node connect(Node root) {
 	    	if(root==null) return root; 
@@ -69,4 +69,4 @@
 	    		return;
 	    	}
 	    }
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-1.思路比较简单：逐位遍历求解。
-2.corner condition：
-边界条件比较多，4、9、40、90、400、900等，都是特殊条件，所以选择了逐位遍历；
-3.知识点总结：
-无特殊知识点需要记录。
-4.耗时：24mins，比较满意，哈~~。主要耗时点：
-（1）尽量取大的单位来实现数的表示-----读题理解题意是这道题的关键；
-![image.png](https://pic.leetcode-cn.com/83a6bbfbbabf9e100276596baeb8edc68bd4fea6efb6f7612dd91e6c795473a4-image.png)
+// ### 解题思路
+// 1.思路比较简单：逐位遍历求解。
+// 2.corner condition：
+// 边界条件比较多，4、9、40、90、400、900等，都是特殊条件，所以选择了逐位遍历；
+// 3.知识点总结：
+// 无特殊知识点需要记录。
+// 4.耗时：24mins，比较满意，哈~~。主要耗时点：
+// （1）尽量取大的单位来实现数的表示-----读题理解题意是这道题的关键；
+// ![image.png](https://pic.leetcode-cn.com/83a6bbfbbabf9e100276596baeb8edc68bd4fea6efb6f7612dd91e6c795473a4-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * intToRoman(int num){
     int k = 0;
     int h = 0;
@@ -123,4 +123,4 @@ char * intToRoman(int num){
 
     return ret;
 }
-```
+// ```

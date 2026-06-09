@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int longestDecomposition(string text) {
@@ -25,4 +25,4 @@ public:
         return count;
     }
 };
-```
+// ```

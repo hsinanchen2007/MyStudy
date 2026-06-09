@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution(object):
         m.next=p
         # 返回新的头节点
         return r
-```
+# ```

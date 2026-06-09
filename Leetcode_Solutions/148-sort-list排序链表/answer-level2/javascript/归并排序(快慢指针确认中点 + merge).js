@@ -1,15 +1,15 @@
-### analyze
+// ### analyze
 
-根据题意的要求, 锁定使用`归并排序`算法, 但是相对数组的归并排序, 有以下两个难点:
+// 根据题意的要求, 锁定使用`归并排序`算法, 但是相对数组的归并排序, 有以下两个难点:
 
-* 问题一: 如何确认链表的中点?
-* 问题二: 链表如何 merge?
+// * 问题一: 如何确认链表的中点?
+// * 问题二: 链表如何 merge?
 
-针对问题一, 可以使用`快慢指针`来确认链表的中点, 快指针每次走两步, 慢指针每次走一步, 慢指针最后的位置就是链表的中点位置, 步骤图解如下:
+// 针对问题一, 可以使用`快慢指针`来确认链表的中点, 快指针每次走两步, 慢指针每次走一步, 慢指针最后的位置就是链表的中点位置, 步骤图解如下:
 
-针对奇数情形:
+// 针对奇数情形:
 
-```js
+// ```js
           slow
           quick
 dummy  ->  1  ->  null
@@ -20,31 +20,31 @@ dummy  ->  4  ->  2  ->  1  ->  null
 偶数:
           slow  quick
 dummy  ->  1  ->  2  ->  null
-```
+// ```
 
-针对偶数情形:
+// 针对偶数情形:
 
-```js
+// ```js
           slow   quick
 dummy  ->  1  ->  2  ->  null
-```
+// ```
 
-此外另外一个难点是如何进行 merge 操作。大体思路为
+// 此外另外一个难点是如何进行 merge 操作。大体思路为
 
-1. 在 leftList 中找到比 rNode 小且最接近 rNode 的值 lNode;
-2. 将 rNode 插入 lNode 的后面;
+// 1. 在 leftList 中找到比 rNode 小且最接近 rNode 的值 lNode;
+// 2. 将 rNode 插入 lNode 的后面;
 
-步骤图解如下:
+// 步骤图解如下:
 
-```js
+// ```js
 lNode                         rNode
 dummy -> 1 -> 3 -> null         2 -> 4 -> null
 
              lNode            rNode
 dummy -> 1 -> 2 -> 3 -> null    4 -> null
-```
+// ```
 
-```js
+// ```js
 var sortList = function(head) {
   const dummy = new ListNode(0)
   dummy.next = head
@@ -81,10 +81,10 @@ var merge = function(leftList, rightList) {
   }
   return dummy.next
 }
-```
+// ```
 
-### 姊妹题
+// ### 姊妹题
 
-147
+// 147
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

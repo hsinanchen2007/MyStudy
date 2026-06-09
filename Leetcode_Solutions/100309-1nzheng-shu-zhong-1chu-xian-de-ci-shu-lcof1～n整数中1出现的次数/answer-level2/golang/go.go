@@ -1,4 +1,4 @@
-```
+// ```
 func countDigitOne(n int) int {
 	o, a, b := 0, 1, 1
 	for n > 0 {
@@ -12,4 +12,4 @@ func countDigitOne(n int) int {
 	}
 	return o
 }
-```
+// ```

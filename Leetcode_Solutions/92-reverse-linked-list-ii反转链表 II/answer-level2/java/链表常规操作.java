@@ -1,6 +1,6 @@
-> 链表反转常用结构 
+// > 链表反转常用结构 
 
-```java
+// ```java
  1 -> 3 -> 4 -> 5 -> 6 -> null
 h/c  tmp
 
@@ -15,12 +15,12 @@ while(c != null){
     pre = c;
     c = tmp;
 }
-```
+// ```
 
 
-> 代码
+// > 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -65,4 +65,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-代码是参考别人的写出来的，但是参考过程中遇到了一个很细微的差别，就是在下面的代码中
-                    ++j,--k;
-                    while(j < k && nums[j] == nums[j - 1]) ++j;
-                    while(j < k && nums[k] == nums[k + 1]) --k;
-起初我是写这样：
-                    ++j,--k;
-                    while(j < k && nums[j] == nums[j + 1]) ++j;
-                    while(j < k && nums[k] == nums[k - 1]) --k;
-区别就在于while循环判断，而后果就是总是会漏掉一些情况，我想是因为每次j、k都多移一次，从而导致跳过一些可能的答案。
-### 代码
+// ### 解题思路
+// 代码是参考别人的写出来的，但是参考过程中遇到了一个很细微的差别，就是在下面的代码中
+//                     ++j,--k;
+//                     while(j < k && nums[j] == nums[j - 1]) ++j;
+//                     while(j < k && nums[k] == nums[k + 1]) --k;
+// 起初我是写这样：
+//                     ++j,--k;
+//                     while(j < k && nums[j] == nums[j + 1]) ++j;
+//                     while(j < k && nums[k] == nums[k - 1]) --k;
+// 区别就在于while循环判断，而后果就是总是会漏掉一些情况，我想是因为每次j、k都多移一次，从而导致跳过一些可能的答案。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -39,4 +39,4 @@ public:
         return ans_set;
     }
 };
-```
+// ```

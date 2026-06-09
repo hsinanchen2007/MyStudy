@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         l = []
@@ -11,4 +11,4 @@ class Solution:
                 n_row = [1] + row_mid + [1]        //两边是1，拼上中间的
             l.append(n_row)
         return l
-```
+# ```

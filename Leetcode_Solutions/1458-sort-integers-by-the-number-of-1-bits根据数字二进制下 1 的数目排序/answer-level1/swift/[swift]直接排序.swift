@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func sortByBits(_ arr: [Int]) -> [Int] {
         return arr.sorted { (v1, v2) -> Bool in
@@ -10,4 +10,4 @@ class Solution {
     }
  }
  
-```
+// ```

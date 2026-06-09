@@ -1,6 +1,6 @@
-从[合并区间](https://leetcode-cn.com/problems/merge-intervals/)过来的，很自然的思路就是先合并，再取反。
+// 从[合并区间](https://leetcode-cn.com/problems/merge-intervals/)过来的，很自然的思路就是先合并，再取反。
 
-```C++[]
+// ```C++[]
 
 class Solution {
 public:
@@ -36,4 +36,4 @@ public:
         return result;
     }
 };
-```
+// ```

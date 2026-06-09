@@ -1,9 +1,9 @@
-# 思路
-- 遍历一次，计算链表总长度
-- 将链表不断二分（至只有一个元素），断开，遍历左右两部分->顺序链接
+// # 思路
+// - 遍历一次，计算链表总长度
+// - 将链表不断二分（至只有一个元素），断开，遍历左右两部分->顺序链接
 
-# 代码
-```
+// # 代码
+// ```
 public ListNode binarySort(ListNode h, int n) {
     // n 为h链表的总节点个数
     ListNode combine = new ListNode(0);
@@ -60,8 +60,8 @@ public ListNode sortList(ListNode head) {
     }
     return binarySort(head, count);
 }
-```
+// ```
 
-# 总结
-- 时间复杂度O(nlogn):遍历一次O(n),归并排序O(nlogn)
-- 空间复杂度O(1)
+// # 总结
+// - 时间复杂度O(nlogn):遍历一次O(n),归并排序O(nlogn)
+// - 空间复杂度O(1)

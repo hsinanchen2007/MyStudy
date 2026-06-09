@@ -1,9 +1,9 @@
-### 解题思路
-![微信图片_20200130171639.png](https://pic.leetcode-cn.com/047fd870d61ae9d205b39b9fac3802ea4b057922be9d81e323f795ce8a2d3fb0-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200130171639.png)
+// ### 解题思路
+// ![微信图片_20200130171639.png](https://pic.leetcode-cn.com/047fd870d61ae9d205b39b9fac3802ea4b057922be9d81e323f795ce8a2d3fb0-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200130171639.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    //此方法通过上一个区间的末端值e,去搜索包含末端值的最长区间
    public int getNextLongest(int e,int[][]clips){
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

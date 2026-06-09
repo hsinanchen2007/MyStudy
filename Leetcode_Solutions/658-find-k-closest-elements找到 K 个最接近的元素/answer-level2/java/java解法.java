@@ -1,6 +1,6 @@
-执行用时 :28 ms, 击败了23.70%的用户。
-内存消耗 :50.7 MB, 击败了40.43%的用户。
-```
+// 执行用时 :28 ms, 击败了23.70%的用户。
+// 内存消耗 :50.7 MB, 击败了40.43%的用户。
+// ```
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         List<Integer> list = new ArrayList<>();
@@ -49,4 +49,4 @@ class Solution {
         return list;  
     }
 }
-```
+// ```

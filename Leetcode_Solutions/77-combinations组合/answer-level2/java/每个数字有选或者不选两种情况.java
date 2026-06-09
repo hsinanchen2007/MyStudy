@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-8 ms
-, 在所有 Java 提交中击败了
-77.23%
-的用户
-内存消耗 :
-49.1 MB
-, 在所有 Java 提交中击败了
-66.92%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 8 ms
+// , 在所有 Java 提交中击败了
+// 77.23%
+// 的用户
+// 内存消耗 :
+// 49.1 MB
+// , 在所有 Java 提交中击败了
+// 66.92%
+// 的用户
+// ```
 class Solution {
     List<List<Integer>> list = new ArrayList<List<Integer>>();
     public List<List<Integer>> combine(int n, int k) {
@@ -53,4 +53,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/287d1ed0a9546c72fec557dba43782e350e6e6b33bcb55abddf886ae5904de80-image.png)
+# ![image.png](https://pic.leetcode-cn.com/287d1ed0a9546c72fec557dba43782e350e6e6b33bcb55abddf886ae5904de80-image.png)
 
 
-```
+# ```
 
 '''
 枚举每一个字符对应的区间列表，
@@ -47,4 +47,4 @@ class Solution:
                         ans = max(ans, (r_list[i][1]-r_list[i][0] + 1) + (r_list[i+1][1]-r_list[i+1][0] + 1) + 1)
 
         return ans
-```
+# ```

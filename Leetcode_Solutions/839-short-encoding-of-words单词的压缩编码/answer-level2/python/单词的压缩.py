@@ -1,5 +1,5 @@
-### 逆序直接判断是否为子串
-```python
+# ### 逆序直接判断是否为子串
+# ```python
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words.sort(key=lambda i:len(i), reverse=True) #按单词元素长度降序
@@ -8,10 +8,10 @@ class Solution:
             if word+'#' in res:continue
             else: res+= word+'#'
         return len(res)
-```
+# ```
 
-### 优化
-```python
+# ### 优化
+# ```python
 class Solution:
     def minmumLengthEncoding(self, words):
         res, N = '', len(words)
@@ -20,10 +20,10 @@ class Solution:
             if i+1 < N and words[i+1].endswith(words[i]):continue
             else: res += words[i] + '#'
         return len(res)
-```
+# ```
 
-### Trie字典树
-```python
+# ### Trie字典树
+# ```python
 class Trie:
     def __init__(self):
         self.Trie = {}
@@ -50,4 +50,4 @@ class Solution:
         for word in words:
             if trie.isTail(word[::-1]):res += word + '#'
         return len(res)
-```
+# ```

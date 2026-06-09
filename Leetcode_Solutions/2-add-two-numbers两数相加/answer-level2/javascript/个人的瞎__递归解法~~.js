@@ -1,4 +1,4 @@
-转数组就略过了，主要看过程哈~~
+// 转数组就略过了，主要看过程哈~~
 `var addTwoNumbers = function(l1, l2, unit=0, sum=0, carry=false) {
     /** 第一步转数组 **/
     var l1 = l1 instanceof Array ? l1 : [],

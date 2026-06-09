@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/e3f13a67126fcdf9e5c1af1cf9ee4723468dba55b1f49dc46ebcf8e4642ac931-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e3f13a67126fcdf9e5c1af1cf9ee4723468dba55b1f49dc46ebcf8e4642ac931-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   参考作者：「王尼玛」
   利用额外指针，先把所有非 0 的数，从头到尾放
   剩下的全部填充为 0
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -29,4 +29,4 @@ var moveZeroes = function(nums) {
     nums[i] = 0;
   }
 };
-```
+// ```

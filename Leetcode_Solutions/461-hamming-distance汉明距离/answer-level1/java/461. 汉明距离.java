@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/17
- *
- * 解题思路: 位运算 不多说了
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/17
+//  *
+//  * 解题思路: 位运算 不多说了
+//  */
 
-```
+// ```
 public int hammingDistance(int x, int y) {
     int z = x ^ y;
 
@@ -20,4 +20,4 @@ public int hammingDistance(int x, int y) {
     }
     return count;
 }
-```
+// ```

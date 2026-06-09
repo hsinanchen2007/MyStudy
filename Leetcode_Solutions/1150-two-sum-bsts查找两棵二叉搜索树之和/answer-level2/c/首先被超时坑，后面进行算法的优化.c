@@ -1,4 +1,4 @@
-```
+// ```
 //首先尝试这个代码，迭代次数过多，超时
 bool twoSumBSTs(struct TreeNode* root1, struct TreeNode* root2, int target){
     if (!root1 || !root2)
@@ -39,4 +39,4 @@ bool twoSumBSTs(struct TreeNode* root1, struct TreeNode* root2, int target){
         return twoSumBSTs1(root1, target - root2->val) || left || right;
     }
 }
-```
+// ```

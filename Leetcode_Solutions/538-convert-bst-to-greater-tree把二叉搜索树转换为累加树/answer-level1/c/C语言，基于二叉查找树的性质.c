@@ -1,10 +1,10 @@
-### 解题思路
-1、先中序遍历，有序地将结点的指针存入一个指针数组里。
-2、从后向前遍历，将a[n-1]=a[n-1]+a[n]
+// ### 解题思路
+// 1、先中序遍历，有序地将结点的指针存入一个指针数组里。
+// 2、从后向前遍历，将a[n-1]=a[n-1]+a[n]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ struct TreeNode* convertBST(struct TreeNode* root){
     }
     return root;
 }
-```
+// ```

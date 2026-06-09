@@ -1,6 +1,6 @@
-嗯，照着liweiwei大佬的图，自己写出来了。先用给的测试用例运行了几次，发现还是有不少错误的。但终究写出来了，还是有点小成就感的哈哈。
+# 嗯，照着liweiwei大佬的图，自己写出来了。先用给的测试用例运行了几次，发现还是有不少错误的。但终究写出来了，还是有点小成就感的哈哈。
 
-```
+# ```
 class ListNode:
     def __init__(self, key, val):
         self.key = key
@@ -76,4 +76,4 @@ class LFUCache:
             node = ListNode(key, value)
             self.insert(node)
             self.cache.update({key: node}) # 这里也别忘了
-```
+# ```

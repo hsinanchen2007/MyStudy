@@ -1,10 +1,10 @@
-### 解题思路
-- 头尾指针向中间逼近。根据sum的值判断逼近方式
-- 初始判断如果头两个数或最后两个数超出边界 那么整个数组一定不符合条件
+// ### 解题思路
+// - 头尾指针向中间逼近。根据sum的值判断逼近方式
+// - 初始判断如果头两个数或最后两个数超出边界 那么整个数组一定不符合条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int len = numbers.length;
@@ -29,4 +29,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

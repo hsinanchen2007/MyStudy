@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             node.right = self.build_tree(node.right,i)
             
         return node        #返回给上一级：已经build完成的Node
-```
+# ```

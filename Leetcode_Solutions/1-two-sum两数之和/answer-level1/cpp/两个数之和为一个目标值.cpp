@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-挺简单的，遍历就可以了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 挺简单的，遍历就可以了
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -22,4 +22,4 @@ public:
         return vecTwo;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class CQueue {
     Stack<int> stack1 = new Stack<int>();
     Stack<int> stack2 = new Stack<int>();
@@ -35,4 +35,4 @@ public class CQueue {
  * obj.AppendTail(value);
  * int param_2 = obj.DeleteHead();
  */
-```
+// ```

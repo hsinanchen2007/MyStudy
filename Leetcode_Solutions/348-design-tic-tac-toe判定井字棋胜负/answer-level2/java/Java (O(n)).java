@@ -1,9 +1,9 @@
-### 解题思路
-井字棋每次判断的思路是：判断下子的时候，当前所在的行以及所在的列（某些情况下是两条斜边）是否已经构成三个同样的子。所以理论上只需要O(n)时间。
+// ### 解题思路
+// 井字棋每次判断的思路是：判断下子的时候，当前所在的行以及所在的列（某些情况下是两条斜边）是否已经构成三个同样的子。所以理论上只需要O(n)时间。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class TicTacToe {
     int[][] board;
     int rows;
@@ -79,4 +79,4 @@ class TicTacToe {
  * TicTacToe obj = new TicTacToe(n);
  * int param_1 = obj.move(row,col,player);
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numWays(int n, int k) {
         if(n == 0 || k == 0) return 0;
@@ -14,4 +14,4 @@ class Solution {
         return dp[n-1][0] + dp[n-1][1];     
     }
 }
-```
+// ```

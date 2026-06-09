@@ -1,4 +1,4 @@
-```
+// ```
 func myAtoi(str string) int {
 	clean := func(s string)(sign int,  ss string) {
 		s = strings.TrimSpace(s)
@@ -39,4 +39,4 @@ func myAtoi(str string) int {
 	return convert( clean(str))
 }
 
-```
+// ```

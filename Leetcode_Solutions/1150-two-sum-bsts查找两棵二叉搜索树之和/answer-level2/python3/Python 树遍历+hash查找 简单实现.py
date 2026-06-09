@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/ee2011a82be23b7976d1f709e1d494c0ebfa1f66036a40f3aba47b1985daf1f4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ee2011a82be23b7976d1f709e1d494c0ebfa1f66036a40f3aba47b1985daf1f4-image.png)
 
 
 
-```
+# ```
 class Solution:
 
     def dfs(self, root: TreeNode, node_vals):
@@ -26,5 +26,5 @@ class Solution:
         node_vals = set()
         self.dfs(root1, node_vals)
         return self.search(root2, node_vals, target)
-```
+# ```
 

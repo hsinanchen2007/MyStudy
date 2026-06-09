@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numFriendRequests(self, ages: List[int]) -> int:
         cage = [0 for _ in range(121)] 
@@ -16,4 +16,4 @@ class Solution:
             #(所有满足年龄的人数-1)*当前年龄的人数即当前年龄所有人会发出的请求总数
             #上面的-1是因为自己不会对自己发出请求
         return ans
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         long num = n;
@@ -29,4 +29,4 @@ class Solution {
 		throw new IllegalArgumentException("出现异常！");
 	}
 }
-```
+// ```

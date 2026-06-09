@@ -1,9 +1,9 @@
-### 解题思路
-两重循环，完全背包的内层循环从0开始，状态转移方程看代码。
+// ### 解题思路
+// 两重循环，完全背包的内层循环从0开始，状态转移方程看代码。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

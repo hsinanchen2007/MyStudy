@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/2278dcf571696418f164419e50fc94cc21c53ee1dc16ef8d4455f5a6f5ec160a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2278dcf571696418f164419e50fc94cc21c53ee1dc16ef8d4455f5a6f5ec160a-image.png)
 
-并查集：用来检测一个图里面是不是包含有环，在Kruskal算法（最小生成树）里面有非常重要的作用。
+// 并查集：用来检测一个图里面是不是包含有环，在Kruskal算法（最小生成树）里面有非常重要的作用。
 
-PS: rank用来解决极端情况，减少树的高度。
+// PS: rank用来解决极端情况，减少树的高度。
 
-```
+// ```
 public class Disjoint {
     private int[] rank;   // 节点的高度
     private int[] parent; // 节点的父节点
@@ -64,4 +64,4 @@ public class Disjoint {
         }
     }
 }
-```
+// ```

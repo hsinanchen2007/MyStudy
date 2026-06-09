@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码
+// ### 解题思路
+// 直接上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if (prices == NULL || pricesSize < 1) {
         return 0;
@@ -20,4 +20,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return profit;
 }
-```
+// ```

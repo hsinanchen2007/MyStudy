@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void findMaxStr(char * pstr, int pos, int mod, int * start, int *end) {
     int low = 0, high = 0;  
     int invliad = 0;
@@ -73,4 +73,4 @@ char * longestPalindrome(char * s){
     }
     return pstreturn;
 }
-```
+// ```

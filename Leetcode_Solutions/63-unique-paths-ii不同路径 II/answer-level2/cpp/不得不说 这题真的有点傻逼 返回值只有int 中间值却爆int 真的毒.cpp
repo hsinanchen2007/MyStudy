@@ -1,9 +1,9 @@
-### 解题思路
-障碍物不考虑 全部为零
+// ### 解题思路
+// 障碍物不考虑 全部为零
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -19,4 +19,4 @@ public:
 		return dp[obstacleGrid.size() - 1][obstacleGrid[0].size() - 1];
 	}
 };
-```
+// ```

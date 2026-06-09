@@ -1,9 +1,9 @@
-### 解题思路
-如果叶节点为空，返回0，不为空，返回左右子数最大加1
+# ### 解题思路
+# 如果叶节点为空，返回0，不为空，返回左右子数最大加1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
 
 
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用reverse函数和stringstream方便
+// ### 解题思路
+// 用reverse函数和stringstream方便
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -18,4 +18,4 @@ public:
             return ans;
     }
 };
-```
+// ```

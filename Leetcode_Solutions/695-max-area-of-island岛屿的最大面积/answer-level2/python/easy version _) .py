@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         ans = 0
@@ -19,4 +19,4 @@ class Solution:
             return 1 + self.update(grid, row+1, col) + self.update(grid, row-1, col) + self.update(grid, row, col-1) + self.update(grid, row, col+1)
         return 0
            
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 给出一个中心的周围八个值的相对坐标。
-2. 如果存在有效的坐标`0 <= dx < row and 0 <= dy < col`则相加且累计数目。
+# ### 解题思路
+# 1. 给出一个中心的周围八个值的相对坐标。
+# 2. 如果存在有效的坐标`0 <= dx < row and 0 <= dy < col`则相加且累计数目。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:
         row, col = len(M), len(M[0])
@@ -29,4 +29,4 @@ class Solution:
                 res[i][j] = calc(i, j)
         
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-**解题思路：**
-新的节点其实并不需要真正的插入，而是根据新节点的不同插入合并情况，在57题的基础上面稍作修改就可以了。
+// **解题思路：**
+// 新的节点其实并不需要真正的插入，而是根据新节点的不同插入合并情况，在57题的基础上面稍作修改就可以了。
 
-上一题解答：（注）参考了@powcai的代码
+// 上一题解答：（注）参考了@powcai的代码
 
-```
+// ```
 class Solution {
     public int[][] merge(int[][] intervals, int[] newInterval) {
         List<int[]> res = new ArrayList<>();
@@ -26,11 +26,11 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
-这一次不需要再次排序。而新节点插入以及合并有如下的几种情况。
-首先我们要明确，排序的标准是新增节点的左端，而右端对于是否合并有影响。
+// ```
+// 这一次不需要再次排序。而新节点插入以及合并有如下的几种情况。
+// 首先我们要明确，排序的标准是新增节点的左端，而右端对于是否合并有影响。
 
-```
+// ```
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> res = new ArrayList<>();
@@ -104,5 +104,5 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
+// ```
 

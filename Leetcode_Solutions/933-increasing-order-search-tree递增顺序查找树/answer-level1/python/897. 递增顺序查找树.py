@@ -1,9 +1,9 @@
-### 解题思路
-**1.迭代**
-中序遍历 构造新树
-### 代码
+# ### 解题思路
+# **1.迭代**
+# 中序遍历 构造新树
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -32,10 +32,10 @@ class Solution(object):
         return res.right
 
 
-```
-### 解题思路
-**2.递归**
-```python
+# ```
+# ### 解题思路
+# **2.递归**
+# ```python
 class Solution(object):
     def increasingBST(self, root):
         self.stack = []
@@ -58,4 +58,4 @@ class Solution(object):
             cur.right = TreeNode(c)
             cur = cur.right
         return res.right
-```
+# ```

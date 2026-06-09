@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> bits;
@@ -35,6 +35,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/91ba488bf57932d01f7b531bf00e38cfcc4d28fd8eb4f4322fbc70a1ef0cc496-image.png)
+// ![image.png](https://pic.leetcode-cn.com/91ba488bf57932d01f7b531bf00e38cfcc4d28fd8eb4f4322fbc70a1ef0cc496-image.png)

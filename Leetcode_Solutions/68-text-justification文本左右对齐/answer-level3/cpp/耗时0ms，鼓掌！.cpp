@@ -1,7 +1,7 @@
-怎么也得纪念一下，0ms，思路很简单，就是从前往后构造字符串……
-![S(WM8GB5LKYCMEOSKBWI41X.png](https://pic.leetcode-cn.com/c79a35fe815a18dd7ce2545a658ae5e915ced569fd9e856d8c312b00d48843f7-S\(WM8GB5LKYCMEOSKBWI41X.png)
+// 怎么也得纪念一下，0ms，思路很简单，就是从前往后构造字符串……
+// ![S(WM8GB5LKYCMEOSKBWI41X.png](https://pic.leetcode-cn.com/c79a35fe815a18dd7ce2545a658ae5e915ced569fd9e856d8c312b00d48843f7-S\(WM8GB5LKYCMEOSKBWI41X.png)
 
-```
+// ```
 class Solution {
 public:
 	vector<string> fullJustify(vector<string>& words, int maxWidth) {
@@ -72,4 +72,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

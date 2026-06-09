@@ -1,7 +1,7 @@
 
-首先判断A和B哪个大，最大的数字减去2除以2必须小于等于最小的数字，否则错误
-然后就是直接插入就可以了
-```cpp []
+// 首先判断A和B哪个大，最大的数字减去2除以2必须小于等于最小的数字，否则错误
+// 然后就是直接插入就可以了
+// ```cpp []
 class Solution {
 public:
     string strWithout3a3b(int A, int B) {
@@ -38,6 +38,6 @@ public:
         return result;
     }
 };
-```
-![msedge_SuMnL2cXH2.png](https://pic.leetcode-cn.com/9f0b3982a97caaab6fa4f6408bc2bc7650ec90ff27283a97c4e5c07e0508399a-msedge_SuMnL2cXH2.png)
+// ```
+// ![msedge_SuMnL2cXH2.png](https://pic.leetcode-cn.com/9f0b3982a97caaab6fa4f6408bc2bc7650ec90ff27283a97c4e5c07e0508399a-msedge_SuMnL2cXH2.png)
 

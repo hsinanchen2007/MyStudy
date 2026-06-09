@@ -1,4 +1,4 @@
-```
+// ```
 //二分法
 class Solution {
     public int search(int[] nums, int target) {
@@ -22,4 +22,4 @@ class Solution {
         return left - right;
     }
 }
-```
+// ```

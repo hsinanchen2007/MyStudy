@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def constructMaximumBinaryTree(self, nums: List[int]) -> TreeNode:
         
@@ -11,9 +11,9 @@ class Solution:
             n.right = mktree(nums[i+1:])
             return n
         return mktree(nums)
-```
-迭代法直接构造最大树
-```
+# ```
+# 迭代法直接构造最大树
+# ```
 class Solution(object):
     def constructMaximumBinaryTree(self, nums):
         """
@@ -38,5 +38,5 @@ class Solution(object):
                 p.right = n
         return root
                     
-```
+# ```
 

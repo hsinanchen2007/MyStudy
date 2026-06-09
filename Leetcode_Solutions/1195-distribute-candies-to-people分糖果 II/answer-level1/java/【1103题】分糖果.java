@@ -1,5 +1,5 @@
-**方法一：暴力循环分糖**
-```
+// **方法一：暴力循环分糖**
+// ```
 class Solution {
     /**
     * 思路：
@@ -26,10 +26,10 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**方法二：**
-```
+// **方法二：**
+// ```
 class Solution {
     /**
     * 思路：
@@ -46,12 +46,12 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**方法三：运用等差数列公式**
-![distribute_candies.png](https://pic.leetcode-cn.com/9120f7c82aa050a9f9cd9137568e61dbefc85499d39d0236963eff50cb51237c-distribute_candies.png)
+// **方法三：运用等差数列公式**
+// ![distribute_candies.png](https://pic.leetcode-cn.com/9120f7c82aa050a9f9cd9137568e61dbefc85499d39d0236963eff50cb51237c-distribute_candies.png)
 
-```
+// ```
 class Solution {
     /**
     * 思路：
@@ -77,4 +77,4 @@ class Solution {
     return d;
   }
 }
-```
+// ```

@@ -1,22 +1,22 @@
-### 题意：
+# ### 题意：
 
-实际，这个考点就是求树上权值和最大的一条路径。
+# 实际，这个考点就是求树上权值和最大的一条路径。
 
-分析一下，假如得到在u点为根的子树里(**除了**下面红色的情况的)权值和最大的路径为**sum(u)**, 那么往下分析：
+# 分析一下，假如得到在u点为根的子树里(**除了**下面红色的情况的)权值和最大的路径为**sum(u)**, 那么往下分析：
 
 
-![图片.png](https://pic.leetcode-cn.com/bc8665aded704a30690dfdca8e9b3e5aec470a031701b223f02e11add8555bc0-%E5%9B%BE%E7%89%87.png)
+# ![图片.png](https://pic.leetcode-cn.com/bc8665aded704a30690dfdca8e9b3e5aec470a031701b223f02e11add8555bc0-%E5%9B%BE%E7%89%87.png)
 
-sum(u)= max(u.val , u.val + sum(u.right), u.val + sum(u.left))
+# sum(u)= max(u.val , u.val + sum(u.right), u.val + sum(u.left))
 
-而最终的答案再把上面红色的情况考虑进去:
+# 而最终的答案再把上面红色的情况考虑进去:
 
-ans = max(sum(u), **u.val + sum(u.right)+sum(u.left)** )= max(u.val , **u.val + sum(u.right)+sum(u.left)**, u.val + sum(u.right), u.val + sum(u.left)))
+# ans = max(sum(u), **u.val + sum(u.right)+sum(u.left)** )= max(u.val , **u.val + sum(u.right)+sum(u.left)**, u.val + sum(u.right), u.val + sum(u.left)))
 
-### 代码:
+# ### 代码:
 
-c++
-```c++
+# c++
+# ```c++
 class Solution {
 public:
     int ans;
@@ -33,9 +33,9 @@ public:
         return ans;
     }
 };
-```
-python
-```py
+# ```
+# python
+# ```py
 
 class Solution:
     def dfs_sum(self, root: TreeNode):
@@ -50,4 +50,4 @@ class Solution:
         self.ans = - 1e9
         self.dfs_sum(root)
         return self.ans
-```
+# ```

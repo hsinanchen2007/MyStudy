@@ -1,10 +1,10 @@
-![2020011701.PNG](https://pic.leetcode-cn.com/49ffac11febd358339b04d82638d0c672d4eb424245019eb375c17bd1b361b9e-2020011701.PNG)
-### 解题思路
-这个做法太渣了,改天来改进;
-哈哈哈！！
-### 代码
+// ![2020011701.PNG](https://pic.leetcode-cn.com/49ffac11febd358339b04d82638d0c672d4eb424245019eb375c17bd1b361b9e-2020011701.PNG)
+// ### 解题思路
+// 这个做法太渣了,改天来改进;
+// 哈哈哈！！
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
     	List<List<Integer>> out = new ArrayList<>();//声明一个二维的List
@@ -138,4 +138,4 @@ class MyNeg{
     	return out1;
     }
 }
-```
+// ```

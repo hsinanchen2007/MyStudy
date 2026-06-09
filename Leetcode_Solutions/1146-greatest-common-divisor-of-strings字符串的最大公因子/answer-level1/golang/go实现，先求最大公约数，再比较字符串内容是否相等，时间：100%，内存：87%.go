@@ -1,5 +1,5 @@
-代码如下：
-```
+// 代码如下：
+// ```
 	if len(str1) == 0 || len(str2) == 0 {
 		return ""
 	}
@@ -18,4 +18,4 @@
 		return ""
 	}
 	return gcdOfStrings(str1[s2:],str2)
-```
+// ```

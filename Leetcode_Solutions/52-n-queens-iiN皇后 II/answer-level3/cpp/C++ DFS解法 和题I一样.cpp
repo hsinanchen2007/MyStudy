@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int n;
     int cnt = 0;
@@ -57,4 +57,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

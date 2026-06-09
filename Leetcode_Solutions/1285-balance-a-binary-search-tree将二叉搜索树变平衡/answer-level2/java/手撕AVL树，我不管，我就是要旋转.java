@@ -1,15 +1,15 @@
-### 解题思路
-比赛看到这题的时候，有一点懵。这是要手撕AVL树么？要玩左右旋？好吧，我中计了。
+// ### 解题思路
+// 比赛看到这题的时候，有一点懵。这是要手撕AVL树么？要玩左右旋？好吧，我中计了。
 
-直接手撕AVL树的话，并没有利用到原树是一个二叉搜索树，所以效率会偏低（但是通用性更强，一颗普通的二叉树，也可以这么玩）。
+// 直接手撕AVL树的话，并没有利用到原树是一个二叉搜索树，所以效率会偏低（但是通用性更强，一颗普通的二叉树，也可以这么玩）。
 
-**强调，手撕AVL并不是最优解，只是通解，时间复杂度是nlog(n)**。
+// **强调，手撕AVL并不是最优解，只是通解，时间复杂度是nlog(n)**。
 
-**利用二叉搜索树的性质，中序遍历输出，然后以中间为root，递归构造树，效率更高，算是本题的最优解。**
+// **利用二叉搜索树的性质，中序遍历输出，然后以中间为root，递归构造树，效率更高，算是本题的最优解。**
 
-### 本着精益求精的指导思想，放上中序遍历构造有序数组，有序数组构造平衡二叉树的代码。手撕AVL，在这段代码之后。
+// ### 本着精益求精的指导思想，放上中序遍历构造有序数组，有序数组构造平衡二叉树的代码。手撕AVL，在这段代码之后。
 
-```java
+// ```java
 public TreeNode balanceBST(TreeNode root){
         List<Integer> sortList = new ArrayList<>();
         // 中序遍历构造有序链表
@@ -40,30 +40,30 @@ public TreeNode balanceBST(TreeNode root){
         // 返回root
         return root;
     }
-```
+// ```
 
-### 如果各位看官要看最优解的话，可以就此打住，下面也不浪费您的时间了
+// ### 如果各位看官要看最优解的话，可以就此打住，下面也不浪费您的时间了
 
-### 嘤嘤嘤，我不管，我就是要旋转
+// ### 嘤嘤嘤，我不管，我就是要旋转
 
-那好吧，我们就来手撕AVL。
+// 那好吧，我们就来手撕AVL。
 
-如果直接在原树上调整，是非常复杂的（至少本菜鸡是这么认为的，大佬勿喷）。想想AVL树和RBT的旋转，都是在插入删除的时候进行，于是，就通过原来的二叉搜索树，重新构造一个AVL树。在插入的时候旋转。考虑的情况会少很多。
+// 如果直接在原树上调整，是非常复杂的（至少本菜鸡是这么认为的，大佬勿喷）。想想AVL树和RBT的旋转，都是在插入删除的时候进行，于是，就通过原来的二叉搜索树，重新构造一个AVL树。在插入的时候旋转。考虑的情况会少很多。
 
-原二叉搜索树怎么遍历都行，每个节点都是新插入到AVL树中。由于TreeNode这个结构，**没有高度属性**，所以我们需要一个**节点高度缓存**的容器，来记录每个节点的高度。
+// 原二叉搜索树怎么遍历都行，每个节点都是新插入到AVL树中。由于TreeNode这个结构，**没有高度属性**，所以我们需要一个**节点高度缓存**的容器，来记录每个节点的高度。
 
-插入的过程和二叉搜索树插入过程一致，小于root，往左子树插入，大于root，往右子树插入。节点插入后，就是要根据**节点的高度，动态对节点进行旋转。然后更新路径上每个节点的高度**。
+// 插入的过程和二叉搜索树插入过程一致，小于root，往左子树插入，大于root，往右子树插入。节点插入后，就是要根据**节点的高度，动态对节点进行旋转。然后更新路径上每个节点的高度**。
 
-旋转的情况一共有4种情况：
-1. 新加入节点为*node.left*的**左**孩子，height(node.left) - height(node.right) > 1。直接**对node节点右旋**。
-2. 新加入节点为*node.left*的**右**孩子，height(node.left) - height(node.right) > 1。这时候要**先对node.left左旋，调整为1的情况**，再进行**右旋**。
-3. 新加入节点为*node.right*的**右**孩子，height(node.right) - height(node.left) > 1。直接**对node节点左旋**。
-4. 新加入节点为*node.right*的**左**孩子，height(node.right) - height(node.left) > 1。这时候要**先对node.right右旋，调整为3的情况**，再进行**左旋**。
+// 旋转的情况一共有4种情况：
+// 1. 新加入节点为*node.left*的**左**孩子，height(node.left) - height(node.right) > 1。直接**对node节点右旋**。
+// 2. 新加入节点为*node.left*的**右**孩子，height(node.left) - height(node.right) > 1。这时候要**先对node.left左旋，调整为1的情况**，再进行**右旋**。
+// 3. 新加入节点为*node.right*的**右**孩子，height(node.right) - height(node.left) > 1。直接**对node节点左旋**。
+// 4. 新加入节点为*node.right*的**左**孩子，height(node.right) - height(node.left) > 1。这时候要**先对node.right右旋，调整为3的情况**，再进行**左旋**。
 
-要注意的是，节点旋转的时候，高度不是简单的+-1，而是要根据从**当前节点旋转调整后的左右节点高度中**获取较大值+1（本题从缓存中读取左右子树高度）。旋转高度调整完成后，返回node节点时候，也要重新计算一下新的高度，其高度为**左右子树最大值+1**。
+// 要注意的是，节点旋转的时候，高度不是简单的+-1，而是要根据从**当前节点旋转调整后的左右节点高度中**获取较大值+1（本题从缓存中读取左右子树高度）。旋转高度调整完成后，返回node节点时候，也要重新计算一下新的高度，其高度为**左右子树最大值+1**。
 
-### 旋转代码
-```java
+// ### 旋转代码
+// ```java
     /**
      * node节点左旋
      * @param node node
@@ -93,10 +93,10 @@ public TreeNode balanceBST(TreeNode root){
         // node节点的高度，为现在node左右子树最大高度+1
         return Math.max(nodeHeight.getOrDefault(node.left,0),nodeHeight.getOrDefault(node.right,0)) + 1;
     }
-```
+// ```
 
-### 节点插入后调整代码
-```java
+// ### 节点插入后调整代码
+// ```java
 // 往左子树插入
 node.left = insert(root.left,val,nodeHeight);
 // 如果左右子树高度差超过1，进行旋转调整
@@ -108,13 +108,13 @@ if (nodeHeight.getOrDefault(node.left,0) - nodeHeight.getOrDefault(node.right,0)
     // 节点右旋
     node = rotateRight(node,nodeHeight);
 }
-```
+// ```
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public TreeNode balanceBST(TreeNode root) {
         if (root == null){
@@ -247,4 +247,4 @@ class Solution {
         return Math.max(nodeHeight.getOrDefault(node.left,0),nodeHeight.getOrDefault(node.right,0)) + 1;
     }
 }
-```
+// ```

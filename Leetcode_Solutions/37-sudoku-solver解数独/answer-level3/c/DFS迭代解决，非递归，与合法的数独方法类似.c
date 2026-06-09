@@ -1,6 +1,6 @@
-与上一题的检测是否合法的方法类似，建立3个vector里用bitset<9>，一行一个bitset，一列一个，一个方块一个，总共9*3个，使用下标访问，是常数时间复杂度，但是开始时先用两次循环对这几个进行初始化，话不多说上代码
+// 与上一题的检测是否合法的方法类似，建立3个vector里用bitset<9>，一行一个bitset，一列一个，一个方块一个，总共9*3个，使用下标访问，是常数时间复杂度，但是开始时先用两次循环对这几个进行初始化，话不多说上代码
 
-```
+// ```
 class Solution {
  public:
   void solveSudoku(vector<vector<char>> &board) {
@@ -48,9 +48,9 @@ class Solution {
     return;
   }
 };
-```
-还写了一个c语言递归的写法，不是很快，还在思考如何不用flag来保持不被回溯。。。
-```
+// ```
+// 还写了一个c语言递归的写法，不是很快，还在思考如何不用flag来保持不被回溯。。。
+// ```
 int hang[9][9];
 int lie[9][9];
 int cube[9][9];
@@ -106,4 +106,4 @@ void solveSudoku(char** board, int boardSize, int* boardColSize){
 }
 
 
-```
+// ```

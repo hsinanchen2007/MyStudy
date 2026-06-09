@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n）
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（n）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         from queue import LifoQueue
@@ -32,4 +32,4 @@ class Solution:
             else:
                 raise ValueError
         return out_list
-```
+# ```

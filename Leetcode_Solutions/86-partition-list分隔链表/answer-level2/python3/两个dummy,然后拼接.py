@@ -1,12 +1,12 @@
-## 思路:
+# ## 思路:
 
-用两个链表,一个链表放小于`x`的节点,一个链表放大于等于`x`的节点
+# 用两个链表,一个链表放小于`x`的节点,一个链表放大于等于`x`的节点
 
-最后,拼接这两个链表.
+# 最后,拼接这两个链表.
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,11 +32,11 @@ class Solution:
         p1.next = dummy2.next
         p2.next = None
         return dummy1.next
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -66,5 +66,5 @@ class Solution {
         return dummy1.next; 
     }
 }
-```
+# ```
 

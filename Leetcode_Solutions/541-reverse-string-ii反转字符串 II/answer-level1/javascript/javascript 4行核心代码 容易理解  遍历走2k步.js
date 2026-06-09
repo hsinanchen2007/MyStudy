@@ -1,6 +1,6 @@
-思路：遍历字符串数组，每次遍历走 2*k 步，循环体内将 [i..i+k-1] 的字符依次反转
+// 思路：遍历字符串数组，每次遍历走 2*k 步，循环体内将 [i..i+k-1] 的字符依次反转
 
-```javascript
+// ```javascript
 /**
  * 541. Reverse String II
  * https://leetcode-cn.com/problems/reverse-string-ii/
@@ -18,4 +18,4 @@ const reverseStr = (s, k) => {
   }
   return arr.join('')
 }
-```
+// ```

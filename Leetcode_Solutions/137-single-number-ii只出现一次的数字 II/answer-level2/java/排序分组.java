@@ -1,10 +1,10 @@
-### 解题思路
-1. 排序
-2. 三个一组，找出不同的那一个
+// ### 解题思路
+// 1. 排序
+// 2. 三个一组，找出不同的那一个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         Arrays.sort(nums);
@@ -16,14 +16,14 @@ class Solution {
         return nums[nums.length - 1];
     }
 }
-```
-方法二：效率更高，但是没看懂
+// ```
+// 方法二：效率更高，但是没看懂
 
-public int singleNumber(int[] nums) {
-        int ones = 0, twos = 0;
-        for(int num : nums){
-            ones = ones ^ num & ~twos;
-            twos = twos ^ num & ~ones;
-        }
-        return ones;
-    }
+// public int singleNumber(int[] nums) {
+//         int ones = 0, twos = 0;
+//         for(int num : nums){
+//             ones = ones ^ num & ~twos;
+//             twos = twos ^ num & ~ones;
+//         }
+//         return ones;
+//     }

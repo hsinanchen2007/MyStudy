@@ -1,9 +1,9 @@
-- 首先根据题意，只能往低了跳，且中间不能遇到比我高的
-- 用 dp[i] 表示从 i 开始跳，最多可以跳的台阶数
-- 那么 dp 需要从底的开始往高的计算，所以要先排序
+// - 首先根据题意，只能往低了跳，且中间不能遇到比我高的
+// - 用 dp[i] 表示从 i 开始跳，最多可以跳的台阶数
+// - 那么 dp 需要从底的开始往高的计算，所以要先排序
 
 
-```
+// ```
 class Solution {
 public:
     int maxJumps(vector<int>& arr, int d) {
@@ -32,7 +32,7 @@ public:
     }
 };
 
-```
-[https://michael.blog.csdn.net/article/details/104149099](https://michael.blog.csdn.net/article/details/104149099)
+// ```
+// [https://michael.blog.csdn.net/article/details/104149099](https://michael.blog.csdn.net/article/details/104149099)
 
-![image.png](https://pic.leetcode-cn.com/b75d1f27ba6f45dc4b0fbbe0eb87b304a0f32a42dc8e09b32beb8676aeef1013-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b75d1f27ba6f45dc4b0fbbe0eb87b304a0f32a42dc8e09b32beb8676aeef1013-image.png)

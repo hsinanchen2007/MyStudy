@@ -1,10 +1,10 @@
-### 解题思路
-递减栈
-![image.png](https://pic.leetcode-cn.com/3a74158c8bc8d93ee18dd278fb3a16ee4a19553a87faa7579bc1b1cb113c0a42-image.png)
+// ### 解题思路
+// 递减栈
+// ![image.png](https://pic.leetcode-cn.com/3a74158c8bc8d93ee18dd278fb3a16ee4a19553a87faa7579bc1b1cb113c0a42-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* *
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -137,4 +137,4 @@ int *dailyTemperatures(int *T, int TSize, int *returnSize)
     sFree(&s);
     return rlt;
 }
-```
+// ```

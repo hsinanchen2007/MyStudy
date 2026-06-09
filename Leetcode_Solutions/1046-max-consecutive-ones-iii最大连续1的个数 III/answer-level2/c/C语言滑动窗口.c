@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_HTL(a, b) ((a) > (b) ? (a) : (b))
 
 /*
@@ -54,4 +54,4 @@ int longestOnes(int* A, int ASize, int K){
 
     return max;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-    由于strtok会将多个相连的分隔符看作是一个，所以用一个num记录有效字符数，与IP的长度对比，如果不符合说明有多的"."或者":"。
-```
+//     由于strtok会将多个相连的分隔符看作是一个，所以用一个num记录有效字符数，与IP的长度对比，如果不符合说明有多的"."或者":"。
+// ```
 class Solution {
 public:
     string validIPAddress(string IP) {
@@ -51,6 +51,6 @@ public:
         return "Neither";
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f7a2fbbcb13b8a812ebc0ea20d5d0e6bb9fa0eda13bf60fd2fb2c775e0822b27-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f7a2fbbcb13b8a812ebc0ea20d5d0e6bb9fa0eda13bf60fd2fb2c775e0822b27-image.png)

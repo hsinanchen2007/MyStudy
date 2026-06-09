@@ -1,12 +1,12 @@
-### 解题思路
-与其他题解不同的是，本题没有使用大根堆去解决这个问题。
-vector<pair<int,int>>tem;第一个int 代表point的位置，第二个代表每个point和原点的距离。
-对tem进行排序。再根据第一个int point的位置插入到结果中。
-![image.png](https://pic.leetcode-cn.com/0f598758790a51af31312ec6bd9317f1e0138f61a290b041aeccc520d6d5099b-image.png)
+// ### 解题思路
+// 与其他题解不同的是，本题没有使用大根堆去解决这个问题。
+// vector<pair<int,int>>tem;第一个int 代表point的位置，第二个代表每个point和原点的距离。
+// 对tem进行排序。再根据第一个int point的位置插入到结果中。
+// ![image.png](https://pic.leetcode-cn.com/0f598758790a51af31312ec6bd9317f1e0138f61a290b041aeccc520d6d5099b-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(pair<int,int>& a,pair<int,int>& b)
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

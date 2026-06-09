@@ -1,4 +1,4 @@
-从后往前找到nums[i] > nums[i - 1]的点。
+// 从后往前找到nums[i] > nums[i - 1]的点。
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {

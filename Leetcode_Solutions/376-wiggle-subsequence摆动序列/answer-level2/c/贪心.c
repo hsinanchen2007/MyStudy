@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int wiggleMaxLength(int* nums, int numsSize){
     int *ans=(int*)malloc(sizeof(int)*numsSize + 1);
     int i,j=0,da=0;
@@ -27,4 +27,4 @@ int wiggleMaxLength(int* nums, int numsSize){
 
     return j + 1;
 }
-```
+// ```

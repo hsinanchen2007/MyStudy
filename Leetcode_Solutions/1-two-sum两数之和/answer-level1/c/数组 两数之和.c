@@ -1,10 +1,10 @@
-### 解题思路
-题目中malloc在一个函数中分配，在另一个函数中free；
-关键在于return的是 malloc的地址
+// ### 解题思路
+// 题目中malloc在一个函数中分配，在另一个函数中free；
+// 关键在于return的是 malloc的地址
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ for(i=0;i<numsSize-1;i++)
 
 return NULL;
 }
-```
+// ```

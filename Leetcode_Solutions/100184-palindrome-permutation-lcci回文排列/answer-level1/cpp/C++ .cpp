@@ -1,9 +1,9 @@
-### 解题思路
-示例实际返回的是False,  此题并没有说忽略大小写、空格等
+// ### 解题思路
+// 示例实际返回的是False,  此题并没有说忽略大小写、空格等
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -37,4 +37,4 @@ public:
         return false;
     }
 };
-```
+// ```

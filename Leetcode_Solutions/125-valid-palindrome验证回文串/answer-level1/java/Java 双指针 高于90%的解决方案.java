@@ -1,5 +1,5 @@
-尽可能少地去调用库函数，太耗费性能了~
-```
+// 尽可能少地去调用库函数，太耗费性能了~
+// ```
 public boolean isPalindrome(String s) {
         char[] chars = s.toCharArray();
         for (int i=0,j=chars.length-1; i<j;) {
@@ -21,4 +21,4 @@ public boolean isPalindrome(String s) {
         }
         return true;
     }
-```
+// ```

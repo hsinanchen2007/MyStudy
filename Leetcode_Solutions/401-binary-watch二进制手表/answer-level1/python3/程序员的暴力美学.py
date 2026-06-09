@@ -1,7 +1,7 @@
-Easy的题是你们这么做的么？回溯递归都整出来了。。。
-搞什么乱七八糟的飞机，暴躁老哥在线穷举。
-这才是最好理解的答案：
-```python []
+# Easy的题是你们这么做的么？回溯递归都整出来了。。。
+# 搞什么乱七八糟的飞机，暴躁老哥在线穷举。
+# 这才是最好理解的答案：
+# ```python []
 class Solution:
     def readBinaryWatch(self, num: int) -> List[str]:
         if num < 0 or num > 10:
@@ -45,4 +45,4 @@ class Solution:
             res = ['59', '55', '47', '31']
         return res
                 
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :3189 ms, 在所有 Java 提交中击败了5.01%的用户
-内存消耗 :49.9 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :3189 ms, 在所有 Java 提交中击败了5.01%的用户
+// 内存消耗 :49.9 MB, 在所有 Java 提交中击败了100.00%的用户
 
-最简单的暴力解法
+// 最简单的暴力解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int repect = -1;
@@ -21,4 +21,4 @@ class Solution {
         return repect;
     }
 }
-```
+// ```

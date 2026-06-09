@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/652926164ab247e3cfeb1cdc4fc93a5712878cda559ee496a5524931608d30dd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/652926164ab247e3cfeb1cdc4fc93a5712878cda559ee496a5524931608d30dd-image.png)
 
-```
+// ```
 int cmp(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -22,4 +22,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     *returnSize = k;
     return returnValue;
 }
-```
+// ```

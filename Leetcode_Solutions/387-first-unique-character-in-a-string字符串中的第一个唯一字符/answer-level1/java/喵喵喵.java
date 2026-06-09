@@ -1,9 +1,9 @@
-### 解题思路
-喵喵喵
+// ### 解题思路
+// 喵喵喵
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstUniqChar(String s) {
         int index=-1;
@@ -23,4 +23,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

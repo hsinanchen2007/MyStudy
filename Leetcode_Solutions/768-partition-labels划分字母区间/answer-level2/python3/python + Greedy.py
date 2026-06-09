@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def partitionLabels(self, S: str) -> List[int]:
         # Greedy
@@ -17,4 +17,4 @@ class Solution:
                 res.append(end + 1 - begin)
                 begin = i + 1
         return res
-```
+# ```

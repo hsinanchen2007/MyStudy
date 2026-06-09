@@ -1,5 +1,5 @@
-直接两个方向找`p\.*R`和`R\.*p`就行
-```
+# 直接两个方向找`p\.*R`和`R\.*p`就行
+# ```
 import re
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
@@ -9,4 +9,4 @@ class Solution:
             res+=bool(re.search(r'p\.*R',s))
             res+=bool(re.search(r'R\.*p',s))
         return res
-```
+# ```

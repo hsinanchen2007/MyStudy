@@ -1,7 +1,7 @@
-汉明距离就是两数异或之后“1”位的个数
+// 汉明距离就是两数异或之后“1”位的个数
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -15,4 +15,4 @@ public:
         return ans;
     }
 };
-```
+// ```

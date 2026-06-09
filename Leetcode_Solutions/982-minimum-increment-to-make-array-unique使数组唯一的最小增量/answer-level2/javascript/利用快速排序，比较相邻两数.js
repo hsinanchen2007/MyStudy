@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} A
  * @return {number}
@@ -40,4 +40,4 @@ let quickSort = (array) => {
         sort(newArr);
         return newArr;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归生成所有可能的字符串，符合条件的字符串添加到list中
+// ### 解题思路
+// 递归生成所有可能的字符串，符合条件的字符串添加到list中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static List<String> list;
     public List<String> generateParenthesis(int n) {
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

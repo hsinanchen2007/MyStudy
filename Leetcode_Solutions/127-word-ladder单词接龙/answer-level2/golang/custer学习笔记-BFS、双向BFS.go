@@ -1,9 +1,9 @@
-# 学习自 [Huahua酱LeetCode视频](https://www.bilibili.com/video/av38705526)
+// # 学习自 [Huahua酱LeetCode视频](https://www.bilibili.com/video/av38705526)
 
-# 伪代码
-## BFS
+// # 伪代码
+// ## BFS
 
-```go
+// ```go
 q.push(start) // 初始节点放入队列
 step = 0 // 初始化步长为0
 
@@ -17,11 +17,11 @@ while not q.empty(): // 当前节点不为空
         q.append(new_nodes) // 如果没有找到结果，把下一层的所有节点加入队列
 
 return NOT_FOUND // 队列全部结束，没有找到结果
-```
+// ```
 
-## Bidirectional BFS
+// ## Bidirectional BFS
 
-```go
+// ```go
 s1.insert(start) // 方便使用HashSet
 s2.insert(end) // start和end放入两个set
 step = 0 // 初始化步长为0
@@ -37,13 +37,13 @@ while not (s1.empty() || s2.empty()): // 当两个set都不为空，循环执行
     s1 = s // 临时的集合赋值给s1，即把已经走的路径存储起来
 
 return NOT_FOUND // 队列全部结束，没有找到结果
-```
+// ```
 
-# Go实现
+// # Go实现
 
-## BFS
+// ## BFS
 
-```go
+// ```go
 // BFS Time Complexity: O(n*26^l), l = len(word), n=|wordList| Space Complexity: O(n)
 func ladderLength(beginWord string, endWord string, wordList []string) int {
     dict := make(map[string]bool) // 把word存入字典
@@ -90,11 +90,11 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
     }
     return 0
 }
-```
+// ```
 
-## Bidirectional BFS
+// ## Bidirectional BFS
 
-```go
+// ```go
 // Bidirectional BFS Time Complexity: O(n*26^l/2), l = len(word), n=|wordList| Space Complexity: O(n)
 func ladderLength(beginWord string, endWord string, wordList []string) int {
     dict := make(map[string]bool) // 把word存入字典
@@ -143,4 +143,4 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
     }
     return 0
 }
-```
+// ```

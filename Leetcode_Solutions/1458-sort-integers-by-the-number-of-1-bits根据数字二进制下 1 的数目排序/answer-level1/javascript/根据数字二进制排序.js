@@ -1,11 +1,11 @@
-### 解题思路
-1. 对数组升序排序
-2. 获得数字的二进制数中1的个数，并放在hash表里
-3. 升序变量hash表，输出
+// ### 解题思路
+// 1. 对数组升序排序
+// 2. 获得数字的二进制数中1的个数，并放在hash表里
+// 3. 升序变量hash表，输出
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number[]}
@@ -30,4 +30,4 @@ var sortByBits = function(arr) {
     })
     return r
 };
-```
+// ```

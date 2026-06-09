@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int res=0, charcmp[26] = {0};
     for(int i = 0; i < strlen(chars); i++)  charcmp[chars[i]-'a']++;
@@ -19,4 +19,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return res;
 }
-```
+// ```

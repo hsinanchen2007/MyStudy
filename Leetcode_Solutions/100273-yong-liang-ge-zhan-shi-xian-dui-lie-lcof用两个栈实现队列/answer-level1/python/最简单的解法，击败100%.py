@@ -1,11 +1,11 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-一个栈用来存储 pop时弹出stack2，stack2为空，pop出stack1存储在stack2中
+# ### 解题思路
+# 一个栈用来存储 pop时弹出stack2，stack2为空，pop出stack1存储在stack2中
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class CQueue(object):
 
     def __init__(self):
@@ -22,4 +22,4 @@ class CQueue(object):
         if len(self.stack2) == 0: 
             return -1
         return self.stack2.pop(-1)
-```
+# ```

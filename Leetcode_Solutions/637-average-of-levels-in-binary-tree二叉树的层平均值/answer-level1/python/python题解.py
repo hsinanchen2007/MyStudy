@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def averageOfLevels(self, root):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             result.append(float(sum(out)) / len(out))
             queen = temp
         return result
-```
+# ```

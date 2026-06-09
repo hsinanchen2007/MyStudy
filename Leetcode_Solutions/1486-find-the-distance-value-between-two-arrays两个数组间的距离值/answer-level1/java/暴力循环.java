@@ -1,5 +1,5 @@
 
-```java
+// ```java
 public class Solution {
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
         int res = 0;
@@ -17,4 +17,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

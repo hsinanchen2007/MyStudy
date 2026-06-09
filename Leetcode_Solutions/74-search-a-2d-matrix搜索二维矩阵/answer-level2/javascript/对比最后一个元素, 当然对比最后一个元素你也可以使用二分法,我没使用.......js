@@ -1,6 +1,6 @@
-> 思路: 对比每行的最后一个大小,如果大于该目标值,那么向前进行查找
+// > 思路: 对比每行的最后一个大小,如果大于该目标值,那么向前进行查找
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -19,4 +19,4 @@ var searchMatrix = function(matrix, target) {
     }
     return false;
 };
-```
+// ```

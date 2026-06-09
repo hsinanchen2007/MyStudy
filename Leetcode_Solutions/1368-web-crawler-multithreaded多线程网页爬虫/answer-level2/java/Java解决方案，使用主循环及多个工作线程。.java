@@ -1,10 +1,10 @@
-解题思路简单描述：
-- 使用一个ConcurrentHashMap来存储已知的所有URL，主线程向其添加起始URL，多个工作线程可以并发添加已抓取的、符合规则要求的URL。
-- 使用一个LinkedList来保存结果URL，使用对应的ReentrantLock来同步多线程访问，结果只增不减。
-- 使用一个LinkedList来保存待抓取的URL，使用对应的ReentrantLock来同步多线程访问。主线程添加起始URL，工作线程从该List中取出要开始抓取的URL，抓取后将符合规范的URL添加至该链表及结果URL链表。
-- 主循环的退出条件：（1）待抓取URL链表中无元素；（2）已无工作线程（所有的工作线程已完成工作）。
-- 需要说明的是，如果待抓取的URL集合很大，那么创建的工作线程会偏多，在生产实践中可以使用线程池来限制并发度。
-```
+// 解题思路简单描述：
+// - 使用一个ConcurrentHashMap来存储已知的所有URL，主线程向其添加起始URL，多个工作线程可以并发添加已抓取的、符合规则要求的URL。
+// - 使用一个LinkedList来保存结果URL，使用对应的ReentrantLock来同步多线程访问，结果只增不减。
+// - 使用一个LinkedList来保存待抓取的URL，使用对应的ReentrantLock来同步多线程访问。主线程添加起始URL，工作线程从该List中取出要开始抓取的URL，抓取后将符合规范的URL添加至该链表及结果URL链表。
+// - 主循环的退出条件：（1）待抓取URL链表中无元素；（2）已无工作线程（所有的工作线程已完成工作）。
+// - 需要说明的是，如果待抓取的URL集合很大，那么创建的工作线程会偏多，在生产实践中可以使用线程池来限制并发度。
+// ```
 /**
  * // This is the HtmlParser's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -157,4 +157,4 @@ class Solution {
         this.choreCount.decrementAndGet();
     }
 }
-```
+// ```

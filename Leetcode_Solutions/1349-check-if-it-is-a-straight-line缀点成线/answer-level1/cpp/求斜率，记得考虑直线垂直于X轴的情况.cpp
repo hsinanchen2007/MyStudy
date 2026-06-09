@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //y = ax +b;
 public:
@@ -32,5 +32,5 @@ public:
         return temp;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4dbb2c6c4758ca80ec13479a87be73b25962746e0a34136b3fcb2ad7b78ec47f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4dbb2c6c4758ca80ec13479a87be73b25962746e0a34136b3fcb2ad7b78ec47f-image.png)

@@ -1,11 +1,11 @@
-### 解题思路
-1.找出二维数组中最短的那个数组
-2.每个二维数组中的数组元素中的每个元素按下标比较，记录长度
-3.起始位置为0，按长度截取字符串并返回
+// ### 解题思路
+// 1.找出二维数组中最短的那个数组
+// 2.每个二维数组中的数组元素中的每个元素按下标比较，记录长度
+// 3.起始位置为0，按长度截取字符串并返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(!strsSize) return "\0";
    int minlen=100000000;
@@ -28,4 +28,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
    s[clen]='\0';
    return s;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-看下注释就懂啦
-```
+// 看下注释就懂啦
+// ```
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

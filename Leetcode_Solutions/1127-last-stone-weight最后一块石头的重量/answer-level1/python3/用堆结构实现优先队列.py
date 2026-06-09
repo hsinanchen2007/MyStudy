@@ -1,5 +1,5 @@
-![73ff27dc8d0960d99ee4abdcda9cf39.png](https://pic.leetcode-cn.com/1ada10d677b5592c5c20edb89155f2255183338d806c786c7ff5da699ae6698c-73ff27dc8d0960d99ee4abdcda9cf39.png)
-```python []
+# ![73ff27dc8d0960d99ee4abdcda9cf39.png](https://pic.leetcode-cn.com/1ada10d677b5592c5c20edb89155f2255183338d806c786c7ff5da699ae6698c-73ff27dc8d0960d99ee4abdcda9cf39.png)
+# ```python []
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         import heapq  ## heapq库是专门处理最小堆的库
@@ -16,5 +16,5 @@ class Solution:
             res =  0  ## 如果不剩下石头，那么返回值是0
         return res
 
-```
+# ```
 

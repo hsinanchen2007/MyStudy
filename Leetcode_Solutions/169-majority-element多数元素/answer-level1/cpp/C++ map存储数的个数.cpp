@@ -1,9 +1,9 @@
-### 解题思路
-用map来记录已经出现过的数的个数，但个数大于n/2就可以直接返回结果了
+// ### 解题思路
+// 用map来记录已经出现过的数的个数，但个数大于n/2就可以直接返回结果了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return nums[i];
     }
 };
-```
+// ```

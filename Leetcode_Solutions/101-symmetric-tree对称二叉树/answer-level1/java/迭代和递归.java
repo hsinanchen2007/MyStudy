@@ -1,20 +1,20 @@
-## 思路:
+// ## 思路:
 
-这道题和 上一题 [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)是一样的
+// 这道题和 上一题 [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)是一样的
 
-我们只要比较`root`左右树是否对称(和是否相同的树类似)就行了
+// 我们只要比较`root`左右树是否对称(和是否相同的树类似)就行了
 
-思路一:递归
+// 思路一:递归
 
-思路二:迭代
+// 思路二:迭代
 
-思路三:层次遍历
+// 思路三:层次遍历
 
-## 代码:
+// ## 代码:
 
-思路一:
+// 思路一:
 
-```python [1]
+// ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,11 +31,11 @@ class Solution:
                 return Tree(p.left, q.right) and Tree(p.right, q.left)     
             return False
         return Tree(root.left, root.right)
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -58,10 +58,10 @@ class Solution {
         else return false;
     }
 }
-```
+// ```
 
 
-```python [2]
+// ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -85,10 +85,10 @@ class Solution:
                     return False
             return True
         return Tree(root.left, root.right)
-```
+// ```
 
 
-```java [2]
+// ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -123,10 +123,10 @@ class Solution {
         return stack1.isEmpty() && stack2.isEmpty();
     }
 }
-```
+// ```
 
-层次遍历
-```python
+// 层次遍历
+// ```python
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         from collections import deque 
@@ -148,5 +148,5 @@ class Solution:
                     fontier.extend(["#", "#"])     
             if bfs_nums != bfs_nums[::-1]: return False
         return True
-```
+// ```
 

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String tree2str(TreeNode root) {
         if (root == null) {
@@ -23,4 +23,4 @@ class Solution {
     }
 
 }
-```
+// ```

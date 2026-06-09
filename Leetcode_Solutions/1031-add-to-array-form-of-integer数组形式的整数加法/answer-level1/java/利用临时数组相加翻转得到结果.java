@@ -1,15 +1,15 @@
-1. 关于复杂度
-     1.1 时间复杂度为 O(n)
-     1.2 空间负责度为 O(n)
-2. 我的解题思路
-     2.1 将K变成一个整数数组
-     2.2 新建一个长度为原两个数组长度较大值+1的数组
-     2.3 循环遍历两个数组相加值
-     2.4 翻转遍历新建数组得到最终结果
+// 1. 关于复杂度
+//      1.1 时间复杂度为 O(n)
+//      1.2 空间负责度为 O(n)
+// 2. 我的解题思路
+//      2.1 将K变成一个整数数组
+//      2.2 新建一个长度为原两个数组长度较大值+1的数组
+//      2.3 循环遍历两个数组相加值
+//      2.4 翻转遍历新建数组得到最终结果
 
 
-### java实现
-```
+// ### java实现
+// ```
 class Solution{
 
     /**
@@ -74,10 +74,10 @@ class Solution{
     }
 }
 
-```
+// ```
 
-### php实现
-```
+// ### php实现
+// ```
 class Solution{
 
     /**
@@ -143,7 +143,7 @@ class Solution{
         return $res;
     }
 }
-```
-<br />
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// <br />
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

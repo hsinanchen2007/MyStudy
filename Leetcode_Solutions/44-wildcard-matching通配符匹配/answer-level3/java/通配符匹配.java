@@ -1,8 +1,8 @@
-动态规划：
-1. 划分区域，将结果集划分为 * 和 ？ 分别处理
-2. 自底向上求解即可，注意初始化
+// 动态规划：
+// 1. 划分区域，将结果集划分为 * 和 ？ 分别处理
+// 2. 自底向上求解即可，注意初始化
 
-```
+// ```
     public boolean isMatch(String s, String p) {
         int sLen = s.length(), pLen = p.length();
         boolean[][] match = new boolean[sLen+1][pLen+1];
@@ -25,4 +25,4 @@
         return match[0][0];
 
 	}
-```
+// ```

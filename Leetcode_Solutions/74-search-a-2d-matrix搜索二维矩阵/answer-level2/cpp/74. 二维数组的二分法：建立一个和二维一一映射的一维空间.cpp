@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/f20499ed0e3ec0334c61b470ea02479d931b841881ef8ebde717f506df87dec0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f20499ed0e3ec0334c61b470ea02479d931b841881ef8ebde717f506df87dec0-image.png)
 
-### 解题思路
-**建立一个和二维一一映射的一维。**
-在逻辑上将二维看成一维，然后使用二分法，实际比较的时候将一维映射到二维上，也就是比较的是二维数组的元素，但是元素下标是通过一维空间的二分来确定的。
-· 二分一维空间，等价于二分二维空间。
-· 取到一个一维上的mid，等价于取到一个二维上的matrix[mid/n][mid%n]
+// ### 解题思路
+// **建立一个和二维一一映射的一维。**
+// 在逻辑上将二维看成一维，然后使用二分法，实际比较的时候将一维映射到二维上，也就是比较的是二维数组的元素，但是元素下标是通过一维空间的二分来确定的。
+// · 二分一维空间，等价于二分二维空间。
+// · 取到一个一维上的mid，等价于取到一个二维上的matrix[mid/n][mid%n]
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -35,5 +35,5 @@ public:
         }
     }
 };
-```
-有收获请点赞
+// ```
+// 有收获请点赞

@@ -1,9 +1,9 @@
-### 解题思路
-不明白为什么空间复杂度O（1）的算法跟空间复杂度O（n／2）的算法是一样的，只能表明n很小。
+// ### 解题思路
+// 不明白为什么空间复杂度O（1）的算法跟空间复杂度O（n／2）的算法是一样的，只能表明n很小。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // int majorityElement(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
          return cond;
      }
 };
-```
+// ```

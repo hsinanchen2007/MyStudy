@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int vis[1 << 9];
@@ -42,4 +42,4 @@ public:
         return vis[0] == INF ? -1 : vis[0];
     }
 };
-```
+// ```

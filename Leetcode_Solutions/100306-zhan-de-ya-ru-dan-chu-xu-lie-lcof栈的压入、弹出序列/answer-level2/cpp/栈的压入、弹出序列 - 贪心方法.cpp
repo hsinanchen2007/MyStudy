@@ -1,12 +1,12 @@
-### 解题思路
-**模拟栈的压入弹出过程**：
-1. 使用一个栈，开始为空
-2. 持续压入`pushed`数组元素到栈中，直到栈顶元素和`popped`首元素相同，开始弹出，若弹出后还是匹配，继续弹出
-3. 最后判断栈是否为空，空则`true`，否则`false`
+// ### 解题思路
+// **模拟栈的压入弹出过程**：
+// 1. 使用一个栈，开始为空
+// 2. 持续压入`pushed`数组元素到栈中，直到栈顶元素和`popped`首元素相同，开始弹出，若弹出后还是匹配，继续弹出
+// 3. 最后判断栈是否为空，空则`true`，否则`false`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -25,4 +25,4 @@ public:
         return sk.empty();
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-**暴力解法n^3超时，采用哈希表解法与头尾指针**
-## 哈希表
-```
+// **暴力解法n^3超时，采用哈希表解法与头尾指针**
+// ## 哈希表
+// ```
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) return new LinkedList<>();
@@ -21,12 +21,12 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度: O(n^2)
-空间复杂度: O(n)
-## 头尾指针
-**利用Set集合去重**
-```
+// ```
+// 时间复杂度: O(n^2)
+// 空间复杂度: O(n)
+// ## 头尾指针
+// **利用Set集合去重**
+// ```
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) return new LinkedList<>();
@@ -44,9 +44,9 @@ class Solution {
         return new LinkedList(result);
     }
 }
-```
-**自行去重**
-```
+// ```
+// **自行去重**
+// ```
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) return new LinkedList<>();
@@ -67,9 +67,9 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度: O(n^2)
-空间复杂度: O(1)
+// ```
+// 时间复杂度: O(n^2)
+// 空间复杂度: O(1)
 
 
 

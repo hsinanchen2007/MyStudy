@@ -1,8 +1,8 @@
-### 解题思路
-'0'对应的值为48
-### 代码
+// ### 解题思路
+// '0'对应的值为48
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String freqAlphabets(String s) {
 String res=new String();
@@ -22,4 +22,4 @@ index+=2;
 return res;
     }
 }
-```
+// ```

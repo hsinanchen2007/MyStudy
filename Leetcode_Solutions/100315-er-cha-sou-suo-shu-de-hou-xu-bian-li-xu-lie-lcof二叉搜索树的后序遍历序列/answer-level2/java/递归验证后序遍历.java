@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         return verify(postorder, 0, postorder.length - 1);
@@ -28,4 +28,4 @@ class Solution {
         return verify(data, left, index-1) && verify(data, index, right-1);
     }
 }
-```
+// ```

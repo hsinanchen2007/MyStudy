@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-使用快慢指针，用于将链表的前半部分进行反转。
+// 使用快慢指针，用于将链表的前半部分进行反转。
 
-需要考虑到链表的数目的奇偶型
+// 需要考虑到链表的数目的奇偶型
 
-如果是偶数个, 条件是 `fast->next == NULL`
+// 如果是偶数个, 条件是 `fast->next == NULL`
 
-如果是奇数个，条件是 `fast == NULL`
+// 如果是奇数个，条件是 `fast == NULL`
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ bool isPalindrome(struct ListNode* head){
     return true;
 
 }
-```
+// ```

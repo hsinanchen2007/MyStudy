@@ -1,5 +1,5 @@
-历时一个小时，wocao
-```
+# 历时一个小时，wocao
+# ```
 class Solution(object):
     def movesToChessboard(self, board):
         """
@@ -93,4 +93,4 @@ class Solution(object):
                 if col[i]!=1:
                     res+=1
         return res
-```
+# ```

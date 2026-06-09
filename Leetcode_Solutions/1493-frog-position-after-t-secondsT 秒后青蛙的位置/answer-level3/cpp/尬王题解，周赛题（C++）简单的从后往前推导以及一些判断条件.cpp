@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-拿到数据先排序，如果目标结点还有子结点则需要注意，判断跳跃到目标结点的步数（time）是否小于给定的，如果是再结合前面判断的目标结点是否还有子结点的信息（flag）若flag==1且time<t那肯定不满足，如果flag==0且time<t，说明目标结点没有地方可以跳，只能一直留在原地，所以返回的结果sum是有效的。
-![image.png](https://pic.leetcode-cn.com/601801f7b7018343686d1e87400d6d0f0ef0f79789f51205112b1f3b3ea9bb6c-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 拿到数据先排序，如果目标结点还有子结点则需要注意，判断跳跃到目标结点的步数（time）是否小于给定的，如果是再结合前面判断的目标结点是否还有子结点的信息（flag）若flag==1且time<t那肯定不满足，如果flag==0且time<t，说明目标结点没有地方可以跳，只能一直留在原地，所以返回的结果sum是有效的。
+// ![image.png](https://pic.leetcode-cn.com/601801f7b7018343686d1e87400d6d0f0ef0f79789f51205112b1f3b3ea9bb6c-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double frogPosition(int n, vector<vector<int>>& edges, int t, int target) {
@@ -56,4 +56,4 @@ public:
         return 0;
     }
 };
-```
+// ```

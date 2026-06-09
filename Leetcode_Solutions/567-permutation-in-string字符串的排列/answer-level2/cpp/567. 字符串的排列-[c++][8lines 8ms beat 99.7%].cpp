@@ -1,7 +1,7 @@
-[c++] 双指针模板
+// [c++] 双指针模板
 
 
-```cpp
+// ```cpp
 bool checkInclusion(string t, string s) {
     int count[256] = { 0 };
     for (auto c : t) count[c]++;
@@ -12,4 +12,4 @@ bool checkInclusion(string t, string s) {
     }
     return false;
 }
-```
+// ```

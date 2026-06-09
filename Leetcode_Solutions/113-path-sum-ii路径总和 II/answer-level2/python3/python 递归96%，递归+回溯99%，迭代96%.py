@@ -1,4 +1,4 @@
-```
+# ```
 #纯递归 96%
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
@@ -65,4 +65,4 @@ class Solution:
                 rightPath.append(curNode.right.val)
                 pathStack.append({"path":rightPath,"sum":curSum + curNode.right.val})
         return res
-```
+# ```

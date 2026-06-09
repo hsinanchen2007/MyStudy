@@ -1,9 +1,9 @@
-### 解题思路
-将每个节点当作根节点进行判断
-用到了函数嵌套函数
-### 代码
+# ### 解题思路
+# 将每个节点当作根节点进行判断
+# 用到了函数嵌套函数
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
         countnum(root, sum)
         # print(root.left.left.val)
         return self.res
-```
+# ```

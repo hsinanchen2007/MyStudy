@@ -1,8 +1,8 @@
-##
-- 执行用时 :38 ms, 在所有 Java 提交中击败了34.32% 的用户
-- 内存消耗 :45.7 MB, 在所有 Java 提交中击败了69.70%的用户
-##
-```
+// ##
+// - 执行用时 :38 ms, 在所有 Java 提交中击败了34.32% 的用户
+// - 内存消耗 :45.7 MB, 在所有 Java 提交中击败了69.70%的用户
+// ##
+// ```
 public static String convert(String s, int numRows){
 		if(numRows==1){
 			return s;
@@ -56,4 +56,4 @@ public static String convert(String s, int numRows){
 			return sb.toString();
 		}	
 	}
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-1.正常链表删除操作 2.递归
-### 代码
+// ### 解题思路
+// 1.正常链表删除操作 2.递归
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,4 +60,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
     }
     return head;
 }
-```
+// ```

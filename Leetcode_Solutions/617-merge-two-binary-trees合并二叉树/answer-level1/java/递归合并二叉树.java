@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         //null值判断, 如果全null返回null, 如果其中一个为null则返回另一个树
@@ -25,4 +25,4 @@ class Solution {
     }
 
 }
-```
+// ```

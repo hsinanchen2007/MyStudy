@@ -1,6 +1,6 @@
-中序遍历 递归构造新树
+// 中序遍历 递归构造新树
 
-```
+// ```
 func increasingBST(root *TreeNode) *TreeNode {
 	var tree []int
 	tree=serch(root)
@@ -28,6 +28,6 @@ func serch(root *TreeNode) []int{
     r2 := serch(root.Right)
     return append(append(r1, root.Val), r2...)
 }
-```
+// ```
 
 

@@ -1,5 +1,5 @@
-每次都寻找下次能跳跃的最远处，然后更新状态
-```
+// 每次都寻找下次能跳跃的最远处，然后更新状态
+// ```
 class Solution {
 public:
     int jump(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return step;
     }
 };
-```
+// ```

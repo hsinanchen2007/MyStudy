@@ -1,9 +1,9 @@
-### 解题思路
-就是简单的递归遍历二叉树
+// ### 解题思路
+// 就是简单的递归遍历二叉树
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

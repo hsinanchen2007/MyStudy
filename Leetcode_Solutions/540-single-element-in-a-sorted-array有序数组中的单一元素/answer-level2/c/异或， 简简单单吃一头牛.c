@@ -1,4 +1,4 @@
-```
+// ```
 int singleNonDuplicate(int* nums, int numsSize)
 {
     int res = 0;
@@ -8,4 +8,4 @@ int singleNonDuplicate(int* nums, int numsSize)
     }
     return res;
 }
-```
+// ```

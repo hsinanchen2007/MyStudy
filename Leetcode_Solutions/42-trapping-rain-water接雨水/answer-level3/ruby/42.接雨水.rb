@@ -1,9 +1,9 @@
-要算出所有能积累起来的雨水，只要算出每根柱子上面积累的雨水的总和就可以了，而每根柱子上能积累起来的雨水取决于两边的柱子，仔细思考就会发现，是等于两边最高柱子中较小的那个减去柱子本身的高度，即：
-    `water[i] = min(leftMax[i], rightMax[i]) - height[i];`
+# 要算出所有能积累起来的雨水，只要算出每根柱子上面积累的雨水的总和就可以了，而每根柱子上能积累起来的雨水取决于两边的柱子，仔细思考就会发现，是等于两边最高柱子中较小的那个减去柱子本身的高度，即：
+#     `water[i] = min(leftMax[i], rightMax[i]) - height[i];`
 
-所以先遍历一遍数组得出每根柱子左右两边最高柱子的值并分别保存在leftMax、rightMax数组中，然后再遍历一遍求出每根柱子上遗留水的和即可。
+# 所以先遍历一遍数组得出每根柱子左右两边最高柱子的值并分别保存在leftMax、rightMax数组中，然后再遍历一遍求出每根柱子上遗留水的和即可。
 
-```javascript []
+# ```javascript []
 /**
  * @param {number[]} height
  * @return {number}
@@ -23,10 +23,10 @@ var trap = function(height) {
     }
     return sum;
 };
-```
-```python []
+# ```
+# ```python []
 print('Hello world!')
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

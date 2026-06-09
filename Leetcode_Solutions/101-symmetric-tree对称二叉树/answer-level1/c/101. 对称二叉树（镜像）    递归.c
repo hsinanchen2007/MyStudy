@@ -1,9 +1,9 @@
-### 解题思路
-看那个示例图，写递归  找准递归的终止条件。 和递归函数调用法
+// ### 解题思路
+// 看那个示例图，写递归  找准递归的终止条件。 和递归函数调用法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ bool isSymmetric(struct TreeNode* root){
         return true;
    return isMirro(root, root);
 }
-```
+// ```

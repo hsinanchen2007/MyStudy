@@ -1,7 +1,7 @@
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)
 
-# dfs
-```golang
+// # dfs
+// ```golang
 var res [][]int
 
 func levelOrder(root *TreeNode) [][]int {
@@ -20,11 +20,11 @@ func dfs(root *TreeNode, level int) {
 		dfs(root.Right, level+1)
 	}
 }
-```
+// ```
 
 
-# bfs(queue)
-```golang
+// # bfs(queue)
+// ```golang
 func levelOrder(root *TreeNode) [][]int {
 	res := [][]int{}
     if root == nil{
@@ -50,4 +50,4 @@ func levelOrder(root *TreeNode) [][]int {
 	}
 	return res
 }
-```
+// ```

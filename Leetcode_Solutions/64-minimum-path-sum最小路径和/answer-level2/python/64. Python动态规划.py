@@ -1,9 +1,9 @@
-### 解题思路
-经典动态规划习题，递推式`dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j]`。
+# ### 解题思路
+# 经典动态规划习题，递推式`dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j]`。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minPathSum(self, grid):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             for j in range(1, n):
                 dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + grid[i][j]
         return dp[-1][-1]
-```
+# ```

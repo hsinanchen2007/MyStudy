@@ -1,10 +1,10 @@
-### 解题思路
-![Snipaste_2020-03-09_17-16-49.png](https://pic.leetcode-cn.com/fabc55e0b3a5092ee6cc9ae0f6542bdf2edf8337c31e999f42fe7dcd02d0d6d4-Snipaste_2020-03-09_17-16-49.png)
+// ### 解题思路
+// ![Snipaste_2020-03-09_17-16-49.png](https://pic.leetcode-cn.com/fabc55e0b3a5092ee6cc9ae0f6542bdf2edf8337c31e999f42fe7dcd02d0d6d4-Snipaste_2020-03-09_17-16-49.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* selfDividingNumbers(int left, int right, int* returnSize){
     return num;
 
 }
-```
+// ```

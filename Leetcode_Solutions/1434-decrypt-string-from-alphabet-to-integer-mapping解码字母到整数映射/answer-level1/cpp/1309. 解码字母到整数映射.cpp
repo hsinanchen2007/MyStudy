@@ -1,4 +1,4 @@
-```
+// ```
 string freqAlphabets(string s) {
 	vector<vector<char>>dic(2, vector<char>(10, '0'));
 	for (int i = 0; i<10; i++){
@@ -21,4 +21,4 @@ string freqAlphabets(string s) {
 	}
 	return res;
 }
-```
+// ```

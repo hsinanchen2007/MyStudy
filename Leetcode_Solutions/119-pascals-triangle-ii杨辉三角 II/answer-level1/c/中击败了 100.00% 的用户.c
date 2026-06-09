@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -18,4 +18,4 @@ int* getRow(int rowIndex, int* returnSize){
     }
     return arr;
 }
-```
+// ```

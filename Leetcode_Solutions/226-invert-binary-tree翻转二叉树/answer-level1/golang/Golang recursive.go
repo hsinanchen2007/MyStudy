@@ -1,4 +1,4 @@
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -16,4 +16,4 @@ func invertTree(root *TreeNode) *TreeNode {
     root.Right = temp
     return root
 }
-```
+// ```

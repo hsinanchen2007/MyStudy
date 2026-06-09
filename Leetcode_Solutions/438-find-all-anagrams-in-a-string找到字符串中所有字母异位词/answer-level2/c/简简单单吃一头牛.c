@@ -1,8 +1,8 @@
 
-![438.png](https://pic.leetcode-cn.com/61fd026dc824b17e4c4b118f739032deeb3307f75dc0a6a44c5671991f4d371a-438.png)
+// ![438.png](https://pic.leetcode-cn.com/61fd026dc824b17e4c4b118f739032deeb3307f75dc0a6a44c5671991f4d371a-438.png)
 
 
-```
+// ```
 int g_target[26] = {0};
 int g_temp[26] = {0};
 
@@ -69,4 +69,4 @@ int *findAnagrams(char *s, char *p, int *returnSize)
     }
     return res;
 }
-```
+// ```

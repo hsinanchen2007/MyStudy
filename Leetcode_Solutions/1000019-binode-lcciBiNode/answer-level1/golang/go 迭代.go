@@ -1,4 +1,4 @@
-```
+// ```
 func convertBiNode(root *TreeNode) *TreeNode {
 	lists := &TreeNode{}
 	head := lists
@@ -20,9 +20,9 @@ func convertBiNode(root *TreeNode) *TreeNode {
 	}
 	return head.Right
 }
-```
+// ```
 
-```
+// ```
 //参考解题
 func convertBiNode(root *TreeNode) *TreeNode {
 	newList := &TreeNode{}
@@ -43,4 +43,4 @@ func convertBiNode(root *TreeNode) *TreeNode {
 	}
 	return head.Right
 }
-```
+// ```

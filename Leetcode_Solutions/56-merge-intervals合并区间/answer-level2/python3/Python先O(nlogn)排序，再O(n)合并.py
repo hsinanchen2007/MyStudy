@@ -1,6 +1,6 @@
-先排序，再合并。合并过程中维护两个变量curl和curr，表示当前区间的左右边界。
+# 先排序，再合并。合并过程中维护两个变量curl和curr，表示当前区间的左右边界。
 
-```
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals: return []
@@ -17,4 +17,4 @@ class Solution:
                 curr = newint[i][1]
         res.append([curl, curr])
         return res
-```
+# ```

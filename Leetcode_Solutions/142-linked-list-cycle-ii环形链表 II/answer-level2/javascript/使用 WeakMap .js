@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用 `WeakMap` 存入已经遍历的数据，每次遍历前查看 `WeakMap` 有没有当前有的 `node` 节点，有则返回节点 `node` ; 遍历完成后没有的话 返回那 `null`
+// 使用 `WeakMap` 存入已经遍历的数据，每次遍历前查看 `WeakMap` 有没有当前有的 `node` 节点，有则返回节点 `node` ; 遍历完成后没有的话 返回那 `null`
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,4 +29,4 @@ var detectCycle = function(head) {
   }
   return null
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int num1, int num2) {
     int mod = num1 % num2;
     if (mod == 0) {
@@ -22,4 +22,4 @@ bool canMeasureWater(int x, int y, int z){
     }
     return z % gcd(x, y) == 0;
 }
-```
+// ```

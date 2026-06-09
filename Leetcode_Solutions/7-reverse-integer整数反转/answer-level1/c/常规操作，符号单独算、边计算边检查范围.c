@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 long reverse(long x){
     int flag=1;
     if(x<0){
@@ -24,4 +24,4 @@ long reverse(long x){
     y*=flag;
     return y;
 }
-```
+// ```

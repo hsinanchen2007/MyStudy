@@ -1,9 +1,9 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
-dfs，每次递归时判断当前节点是否是左叶子节点，即在递归时定义一个参数存储当前节点的上一个节点，如果当前节点左右节点为null且是上一个节点的左儿子，则当前节点就是左叶子节点，加入结果即可。
+// 思路：
+// dfs，每次递归时判断当前节点是否是左叶子节点，即在递归时定义一个参数存储当前节点的上一个节点，如果当前节点左右节点为null且是上一个节点的左儿子，则当前节点就是左叶子节点，加入结果即可。
 
-```
+// ```
 int res = 0;
 public int sumOfLeftLeaves(TreeNode root) {
     if (root == null) return 0;
@@ -21,4 +21,4 @@ private void helper(TreeNode root, TreeNode pre) {
     helper(root.left, root);
     helper(root.right, root);
 }
-```
+// ```

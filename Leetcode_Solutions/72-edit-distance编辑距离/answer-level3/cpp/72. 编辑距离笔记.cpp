@@ -1,9 +1,9 @@
-### 解题思路
-1. 动态规划解法，[参考链接](https://leetcode-cn.com/problems/edit-distance/solution/zi-di-xiang-shang-he-zi-ding-xiang-xia-by-powcai-3/)
+// ### 解题思路
+// 1. 动态规划解法，[参考链接](https://leetcode-cn.com/problems/edit-distance/solution/zi-di-xiang-shang-he-zi-ding-xiang-xia-by-powcai-3/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -37,4 +37,4 @@ public:
         return dis[m][n];
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-这题当时在字母的ASCII代码上纠结排序，其实原生即可。 80ms超过90%左右。
-1. 统计词频：js的Object自带key、value对应；类似Map；
-2. key排序；kv映射；
-3. 遍历集合筛选；
+// ### 解题思路
+// 这题当时在字母的ASCII代码上纠结排序，其实原生即可。 80ms超过90%左右。
+// 1. 统计词频：js的Object自带key、value对应；类似Map；
+// 2. key排序；kv映射；
+// 3. 遍历集合筛选；
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {number} k
@@ -30,4 +30,4 @@ var topKFrequent = function(words, k) {
     })
     return arr.slice(0, k)
 };
-```
+// ```

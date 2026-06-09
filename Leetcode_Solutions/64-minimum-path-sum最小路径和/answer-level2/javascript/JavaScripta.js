@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-动态规划
+// 动态规划
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -32,4 +32,4 @@ var minPathSum = function(grid) {
     }
     return dp[m - 1][n - 1]
 };
-```
+// ```

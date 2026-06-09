@@ -1,12 +1,12 @@
-### 解题思路
-0 ms
-, 在所有 golang 提交中击败了
-100.00%
-的用户
+// ### 解题思路
+// 0 ms
+// , 在所有 golang 提交中击败了
+// 100.00%
+// 的用户
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func totalNQueens(n int) int {
     res := 0 
     // 生成一个n x n的数组
@@ -72,4 +72,4 @@ func isOk(board [][]rune, row, col int) bool {
     }
     return true
 }
-```
+// ```

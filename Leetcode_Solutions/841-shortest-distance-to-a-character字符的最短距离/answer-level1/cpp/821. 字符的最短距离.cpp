@@ -1,10 +1,10 @@
-### 解题思路
-从前往后扫描一遍
-再从后往前取最小值
+// ### 解题思路
+// 从前往后扫描一遍
+// 再从后往前取最小值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

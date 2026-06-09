@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6617fc9b3a7ab26892adbc43d96d41295affa156cf6ac4e1ee947a924d202b45-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6617fc9b3a7ab26892adbc43d96d41295affa156cf6ac4e1ee947a924d202b45-image.png)
 
-遍历存入一个ArrayList，直接利用下标
-看了双指针的算法，确实牛逼！
+// 遍历存入一个ArrayList，直接利用下标
+// 看了双指针的算法，确实牛逼！
 
-特意拿双指针跑了一下 0ms 40MB ；对比我的1ms，40MB，好奇为啥没多空间，反而是多了用时，不科学啊
-### 代码
+// 特意拿双指针跑了一下 0ms 40MB ；对比我的1ms，40MB，好奇为啥没多空间，反而是多了用时，不科学啊
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

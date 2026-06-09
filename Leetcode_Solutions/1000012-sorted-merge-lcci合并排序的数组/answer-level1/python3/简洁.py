@@ -1,10 +1,10 @@
-### 解题思路
-“从数组的末端向前端移动”
-原来是这个意思hhh
+# ### 解题思路
+# “从数组的末端向前端移动”
+# 原来是这个意思hhh
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -29,4 +29,4 @@ class Solution:
             else:
                 A[k] = B[pb]
                 pb -= 1
-```
+# ```

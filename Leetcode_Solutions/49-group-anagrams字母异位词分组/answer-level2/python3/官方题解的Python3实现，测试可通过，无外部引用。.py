@@ -1,5 +1,5 @@
-此类型题目模板
-```python
+# 此类型题目模板
+# ```python
 class Solution:
     def func(self, inputs):
         res = {}
@@ -13,11 +13,11 @@ class Solution:
     def hashMapFunc(self, value):
         # 构建value-key关系
         return key
-```
+# ```
 
 
-方法二可通过的Python3实现
-```python
+# 方法二可通过的Python3实现
+# ```python
 class Solution:
     def groupAnagrams(self,strs):
         temp_dict={}
@@ -32,12 +32,12 @@ class Solution:
 
     def HashMapFunc(self, temp_str):
         return ''.join(sorted(list(temp_str)))
-```
-执行用时 :56 ms, 在所有 Python3 提交中击败了96.16%的用户  
-内存消耗 :16.2 MB, 在所有 Python3 提交中击败了61.68%的用户
+# ```
+# 执行用时 :56 ms, 在所有 Python3 提交中击败了96.16%的用户  
+# 内存消耗 :16.2 MB, 在所有 Python3 提交中击败了61.68%的用户
 
-方法二可通过的Python3实现
-```python
+# 方法二可通过的Python3实现
+# ```python
 class Solution:
     def groupAnagrams(self,strs):
         temp_dict={}
@@ -54,6 +54,6 @@ class Solution:
         for char in temp_str:
             key[ord(char) - ord('a')] += 1
         return ''.join([str(i) for i in key])
-```
-执行用时 :140 ms, 在所有 Python3 提交中击败了30.09%的用户  
-内存消耗 :16.2 MB, 在所有 Python3 提交中击败了60.42%的用户
+# ```
+# 执行用时 :140 ms, 在所有 Python3 提交中击败了30.09%的用户  
+# 内存消耗 :16.2 MB, 在所有 Python3 提交中击败了60.42%的用户

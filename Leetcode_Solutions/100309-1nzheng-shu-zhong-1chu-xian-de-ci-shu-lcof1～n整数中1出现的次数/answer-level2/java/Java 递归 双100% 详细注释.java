@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     //nums[i]= 1 到 10^i-1之间1的数量,比如i=2,，nums[i]就存着1~99中1的数量
     int[] nums;
@@ -56,4 +56,4 @@ class Solution {
         return getResult(n);
     }
 }
-```
+// ```

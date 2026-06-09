@@ -1,9 +1,9 @@
-### 解题思路
-这种题感觉技巧性太强了，知道快慢指针就好了
+// ### 解题思路
+// 这种题感觉技巧性太强了，知道快慢指针就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
         return false;
     }
 };
-```
+// ```

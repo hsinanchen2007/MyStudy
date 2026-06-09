@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/296ed2f9af0c0e79bc42ad4d0d71b176c649e3abaf6141fedee25b34a1dbea90-image.png)
+# ![image.png](https://pic.leetcode-cn.com/296ed2f9af0c0e79bc42ad4d0d71b176c649e3abaf6141fedee25b34a1dbea90-image.png)
 
 
-```
+# ```
 class Solution(object):
         
     def longestCommonPrefix(self, strs):
@@ -25,4 +25,4 @@ class Solution(object):
             common = temp
 
         return common
-```
+# ```

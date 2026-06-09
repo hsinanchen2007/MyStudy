@@ -1,5 +1,5 @@
-Kotlin
-```kotlin
+// Kotlin
+// ```kotlin
 class Solution {
     fun numJewelsInStones(J: String, S: String): Int {
         val jHashMap = hashMapOf<Char, Boolean>()
@@ -15,4 +15,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

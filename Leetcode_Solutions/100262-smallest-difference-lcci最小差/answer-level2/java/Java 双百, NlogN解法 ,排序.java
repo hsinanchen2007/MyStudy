@@ -1,15 +1,15 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/528fa27eabf5c5426a8996701b9edaeb56ce06f04f81d5081aeb47ffc647fefa-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/528fa27eabf5c5426a8996701b9edaeb56ce06f04f81d5081aeb47ffc647fefa-image.png)
 
-排序处O(nlogn)
-后面循环O(n)
-双指针
-左<右时 左++到大于
-之后比较临界值大小
+// 排序处O(nlogn)
+// 后面循环O(n)
+// 双指针
+// 左<右时 左++到大于
+// 之后比较临界值大小
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int smallestDifference(int[] a, int[] b) {
     	long min =  Integer.MAX_VALUE;
@@ -45,4 +45,4 @@ class Solution {
     	return (int)min;
     }
 }
-```
+// ```

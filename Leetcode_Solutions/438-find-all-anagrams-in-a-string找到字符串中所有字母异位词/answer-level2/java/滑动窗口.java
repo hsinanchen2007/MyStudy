@@ -1,5 +1,5 @@
-和leetcode567写法一样 两道题可以一起做
-```
+// 和leetcode567写法一样 两道题可以一起做
+// ```
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> res = new ArrayList<>();
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

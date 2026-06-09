@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历，维持k个元素，新元素如果更接近target则选入，踢出已选元素的第一个即可
+// ### 解题思路
+// 中序遍历，维持k个元素，新元素如果更接近target则选入，踢出已选元素的第一个即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

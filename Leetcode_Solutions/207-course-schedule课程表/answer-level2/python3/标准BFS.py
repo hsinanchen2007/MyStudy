@@ -1,9 +1,9 @@
-### 解题思路
-标准BFS
+# ### 解题思路
+# 标准BFS
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         # if not prerequisites:
@@ -29,5 +29,5 @@ class Solution:
             result[j] += 1
             neigbhors[i].append(j)
         return result, neigbhors
-```
-![image.png](https://pic.leetcode-cn.com/34bef5de8190460b355352b7daa0b5f863c11f20ef48ddc5de0d53b130bdc9b3-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/34bef5de8190460b355352b7daa0b5f863c11f20ef48ddc5de0d53b130bdc9b3-image.png)

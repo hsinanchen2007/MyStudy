@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/0783bd908137e55179d59f1034d56eb57428537a6aaeb5a9957aa641e204b719-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0783bd908137e55179d59f1034d56eb57428537a6aaeb5a9957aa641e204b719-image.png)
 
 
-做完才反应过来数据好小昂，用上了自创的非递归并查集方法，32ms仅供参考。
+# 做完才反应过来数据好小昂，用上了自创的非递归并查集方法，32ms仅供参考。
 
-```python []
+# ```python []
 class Solution:
     def generateSentences(self, synonyms: List[List[str]], text: str) -> List[str]:
         p, text = {}, text.split()
@@ -22,4 +22,4 @@ class Solution:
                 [*map(g, p[text[i]] if text[i] in p else [text[i]])]
         f(0, [])
         return sorted(ans)
-```
+# ```

@@ -1,5 +1,5 @@
-有一个向前搜的过程，所以复杂度会大于o(n)我觉得
-```
+# 有一个向前搜的过程，所以复杂度会大于o(n)我觉得
+# ```
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
         if len(tree)<=2:
@@ -26,4 +26,4 @@ class Solution:
                     i-=1
                 tmp=j-i
         return res
-```
+# ```

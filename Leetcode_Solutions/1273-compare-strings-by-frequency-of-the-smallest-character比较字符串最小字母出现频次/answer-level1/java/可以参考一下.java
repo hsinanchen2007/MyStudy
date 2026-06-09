@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
         int i,n1 = queries.length,n2 = words.length;
@@ -36,4 +36,4 @@ class Solution {
         return coun;
     }
 }
-```
+// ```

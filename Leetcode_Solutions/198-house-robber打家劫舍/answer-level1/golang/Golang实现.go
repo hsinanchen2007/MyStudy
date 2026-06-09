@@ -1,5 +1,5 @@
-典型动态规划类问题
-```
+// 典型动态规划类问题
+// ```
 func rob(nums []int) int {
     lenNums := len(nums)
     if lenNums == 0{
@@ -21,6 +21,6 @@ func max(a, b int)int{
     }
     return b
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a5429ecf90bf50302447d936889861fad81fd6c4a59f20f6bafad2c01d8bf91f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a5429ecf90bf50302447d936889861fad81fd6c4a59f20f6bafad2c01d8bf91f-image.png)

@@ -1,5 +1,5 @@
-遍历链表，删除目标节点
-```   
+// 遍历链表，删除目标节点
+// ```   
  public ListNode deleteNode(ListNode head, int val) {
         if (head == null) {
             return null;
@@ -16,4 +16,4 @@
         }
         return head;
     }
-```
+// ```

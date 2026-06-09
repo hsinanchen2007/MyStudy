@@ -1,8 +1,8 @@
-执行用时 :44 ms, 在所有 C 提交中击败了67.21的用户
-内存消耗 :9.7 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :44 ms, 在所有 C 提交中击败了67.21的用户
+// 内存消耗 :9.7 MB, 在所有 C 提交中击败了100.00%的用户
 
-通过交叉点来每次排除左下方的矩形块数据，仅对该数据块上方的数据进行检索
-```
+// 通过交叉点来每次排除左下方的矩形块数据，仅对该数据块上方的数据进行检索
+// ```
 bool findNumByCro(int** matrix, int matrixSize, int* matrixColSize, int cross, int target)
 {
     if (cross == matrixSize || cross == *matrixColSize || matrix[cross][cross] > target) {
@@ -37,4 +37,4 @@ bool findNumberIn2DArray(int** matrix, int matrixSize, int* matrixColSize, int t
     
     return findNumByCro(matrix, matrixSize, matrixColSize, 0, target);  
 }
-```
+// ```

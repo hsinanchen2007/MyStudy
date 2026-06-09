@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/6cb1901bb51e9e449218c5c61ba700c81eb9922aa1798292aaeb8513f674e2c6-image.png)
-动态规划：
-分两种情况
-![image.png](https://pic.leetcode-cn.com/3427e8053429d41556b9fed04daa16b4d4d6241ca86411b6037609a0d9c92e7a-image.png)
-``` c++
+// ![image.png](https://pic.leetcode-cn.com/6cb1901bb51e9e449218c5c61ba700c81eb9922aa1798292aaeb8513f674e2c6-image.png)
+// 动态规划：
+// 分两种情况
+// ![image.png](https://pic.leetcode-cn.com/3427e8053429d41556b9fed04daa16b4d4d6241ca86411b6037609a0d9c92e7a-image.png)
+// ``` c++
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -26,5 +26,5 @@ public:
         return maxLen;
     }
 };
-```
+// ```
 

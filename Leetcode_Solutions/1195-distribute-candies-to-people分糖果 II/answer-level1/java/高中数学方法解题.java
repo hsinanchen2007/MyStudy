@@ -1,12 +1,12 @@
-### 解题思路
-1、先理解题意，顺序发糖，直到最后发完，其实就是一个1+2+....+n+delta的问题
-2、利用数学方式解出n和余数delta，即分发了n次和最后一个余数delta
-3、根据num_people计算出完全发完的次数row,以及剩余的可以分发delta_count个人
-4、最后，利用数学公式进行累加就好了，这种方法的用时很少，但是内存会较大
+// ### 解题思路
+// 1、先理解题意，顺序发糖，直到最后发完，其实就是一个1+2+....+n+delta的问题
+// 2、利用数学方式解出n和余数delta，即分发了n次和最后一个余数delta
+// 3、根据num_people计算出完全发完的次数row,以及剩余的可以分发delta_count个人
+// 4、最后，利用数学公式进行累加就好了，这种方法的用时很少，但是内存会较大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] distribute = new int[num_people];
@@ -24,4 +24,4 @@ class Solution {
         return distribute;
     }
 }
-```
+// ```

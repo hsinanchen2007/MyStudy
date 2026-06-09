@@ -1,9 +1,9 @@
-### 解题思路
-使用C++的STL中的std::deque容器可以模拟实现栈操作。
+// ### 解题思路
+// 使用C++的STL中的std::deque容器可以模拟实现栈操作。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 MyStack() {}
 
 void push(int x) {
@@ -29,4 +29,4 @@ bool empty() {
     // 判断队列为空模拟判断栈为空
     return deq.empty();
 }
-```
+// ```

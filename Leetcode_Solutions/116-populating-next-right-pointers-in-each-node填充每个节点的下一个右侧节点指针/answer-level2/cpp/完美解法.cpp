@@ -1,12 +1,12 @@
 
-```
+// ```
 执行用时 :
 16 ms, 在所有 cpp 提交中击败了99.47%的用户
 内存消耗 :
 19.1 MB, 在所有 cpp 提交中击败了100.00%的用户
-```
+// ```
 
-```
+// ```
 class Solution {
 private:
     void p(Node *root){
@@ -33,4 +33,4 @@ public:
         return root;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-想着可以用String转int来处理，看看题目发现，这样接替是不可以的，老老实实用求模迭代的处理方法
+// ### 解题思路
+// 想着可以用String转int来处理，看看题目发现，这样接替是不可以的，老老实实用求模迭代的处理方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int reverse(int x) {
         long temp = 0;
@@ -21,4 +21,4 @@ class Solution {
     }
 
 }
-```
+// ```

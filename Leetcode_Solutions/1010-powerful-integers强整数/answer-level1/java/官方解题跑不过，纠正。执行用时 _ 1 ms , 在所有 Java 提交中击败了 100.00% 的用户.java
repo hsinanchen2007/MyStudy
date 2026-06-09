@@ -1,9 +1,9 @@
-### 解题思路
-官方解题有个小于18，其实不用这样，感觉加这个主要是为了推出循环，在x=1或者y=1时如果不加条件判断会死循环的，因为1的任何次幂都等于1.
+// ### 解题思路
+// 官方解题有个小于18，其实不用这样，感觉加这个主要是为了推出循环，在x=1或者y=1时如果不加条件判断会死循环的，因为1的任何次幂都等于1.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> powerfulIntegers(int x, int y, int bound) {
         Set<Integer> seen = new HashSet();
@@ -27,4 +27,4 @@ class Solution {
         return new ArrayList(seen);
     }
 }
-```
+// ```

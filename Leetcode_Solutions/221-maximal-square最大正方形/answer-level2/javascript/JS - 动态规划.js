@@ -1,9 +1,9 @@
-### 解题思路
-递推, 递归可解(后面的解 和 前面解之间的转换公式),前面解暂存(有空间优化的空间),往往通过空间来换时间
+// ### 解题思路
+// 递推, 递归可解(后面的解 和 前面解之间的转换公式),前面解暂存(有空间优化的空间),往往通过空间来换时间
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} matrix
  * @return {number}
@@ -32,4 +32,4 @@ var maximalSquare = function(matrix) {
     }
     return maxLen * maxLen;
 };
-```
+// ```

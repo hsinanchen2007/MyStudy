@@ -1,6 +1,6 @@
-## 不添加头节点
-**把第一个节点当成头节点，最后再处理**
-```cpp
+// ## 不添加头节点
+// **把第一个节点当成头节点，最后再处理**
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,10 +26,10 @@ public:
         return head;
     }
 };
-```
-## 添加虚拟头节点
-**为了方便操作添加一个头节点，之后再删掉**
-```cpp
+// ```
+// ## 添加虚拟头节点
+// **为了方便操作添加一个头节点，之后再删掉**
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ public:
         return H->next;
     }
 };
-```
+// ```

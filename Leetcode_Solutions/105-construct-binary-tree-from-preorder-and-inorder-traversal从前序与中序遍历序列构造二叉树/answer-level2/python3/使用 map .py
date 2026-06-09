@@ -1,15 +1,15 @@
 
-## 思路:
+# ## 思路:
 
-这道题和[106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)是一样的
+# 这道题和[106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)是一样的
 
-我们想了解, 前序遍历是 : 根->左->右;中序遍历是:左->根->右
+# 我们想了解, 前序遍历是 : 根->左->右;中序遍历是:左->根->右
 
-所以我们可以通过前序遍历,可以把树分成左右部分.
+# 所以我们可以通过前序遍历,可以把树分成左右部分.
 
-例如示例中, 前序遍历`3`,那么节点`3`左右子树为`[9]`;`[15,20,7]`,然后我们递归下去,简单想法如下
+# 例如示例中, 前序遍历`3`,那么节点`3`左右子树为`[9]`;`[15,20,7]`,然后我们递归下去,简单想法如下
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,18 +25,18 @@ class Solution:
         root.left = self.buildTree(preorder[1 : loc + 1], inorder[ : loc])
         root.right = self.buildTree(preorder[loc+1 : ], inorder[loc+1: ])
         return root
-```
+# ```
 
-注意: 
+# 注意: 
 
-1. 我们保证递归下去的 `preorder` 和 `inorder` 个数是一样的
-2. 每次都要`index`;所以我们`map` 节约时间.
+# 1. 我们保证递归下去的 `preorder` 和 `inorder` 个数是一样的
+# 2. 每次都要`index`;所以我们`map` 节约时间.
 
-我们将我们代码优化, 代码中有注释,很好理解的!
+# 我们将我们代码优化, 代码中有注释,很好理解的!
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -64,11 +64,11 @@ class Solution:
             return root
 
         return helper(0, n, 0, n)
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -98,5 +98,5 @@ class Solution {
         return root;
     }
 }
-```
+# ```
 

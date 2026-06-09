@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var luckyNumbers  = function(matrix) {
         let arrIndex = [] //3,3,3,1
         let maxH = []
@@ -33,4 +33,4 @@ var luckyNumbers  = function(matrix) {
         }
         return result
     };
-```
+// ```

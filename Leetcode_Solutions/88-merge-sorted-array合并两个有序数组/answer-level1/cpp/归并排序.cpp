@@ -1,9 +1,9 @@
-### 解题思路
-直接归并排序（本题属于归并排序中的后一部分）
+// ### 解题思路
+// 直接归并排序（本题属于归并排序中的后一部分）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {//直接归并排序
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -22,4 +22,4 @@ public:
         }
     }
 };
-```
+// ```

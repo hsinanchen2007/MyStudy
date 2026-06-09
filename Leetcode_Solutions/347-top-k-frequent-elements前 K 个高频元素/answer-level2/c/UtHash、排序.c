@@ -1,11 +1,11 @@
-### 解题思路
-Hash 解法
-排序解法
+// ### 解题思路
+// Hash 解法
+// 排序解法
 
-### 代码
+// ### 代码
 
-【排序】
-```
+// 【排序】
+// ```
 int Comp(void *a, void *b)
 {
     return *(int *)a - *(int *)b;
@@ -59,11 +59,11 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize)
     *returnSize = k;
     return ans;
 }
-```
+// ```
 
 
-【uthash】
-```c
+// 【uthash】
+// ```c
 //#include "uthash.h"
 
 struct HashEntry {
@@ -118,4 +118,4 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize){
     *returnSize = k;
     return ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c
+// ```c
 #define MAX_SIZE 500005
 #define memset_s(a, b, c, d) memset(a, c, d)
 #define memcpy_s(a, b, c, d) memcpy(a, c, b)
@@ -51,4 +51,4 @@ char* compressString(char* S){
 }
 
 
-```
+// ```

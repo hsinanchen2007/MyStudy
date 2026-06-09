@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_NUM 	100
 
 #define STACK_SIZE 	100
@@ -81,4 +81,4 @@ int** combinationSum3(int k, int n, int* returnSize, int** returnColumnSizes)
 	}
 	return ret;
 }
-```
+// ```

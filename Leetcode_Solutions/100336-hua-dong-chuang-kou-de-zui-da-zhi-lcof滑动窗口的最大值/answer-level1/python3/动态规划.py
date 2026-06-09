@@ -1,6 +1,6 @@
 
 
-```python
+# ```python
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         n = len(nums)
@@ -30,4 +30,4 @@ class Solution:
             res.append(max(left[i + k - 1],right[i]))
         return res
 
-```
+# ```

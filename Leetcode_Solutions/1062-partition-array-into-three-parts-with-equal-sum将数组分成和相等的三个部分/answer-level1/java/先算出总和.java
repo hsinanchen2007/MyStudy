@@ -1,4 +1,4 @@
-```
+// ```
     public boolean canThreePartsEqualSum(int[] A) {
         int totol = 0;
         for (int i : A){
@@ -19,4 +19,4 @@
         }
         return sum==0 && count==3;
     }
-```
+// ```

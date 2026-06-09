@@ -1,26 +1,26 @@
-## 思路：
+# ## 思路：
 
-前缀树(字典树)
+# 前缀树(字典树)
 
-先做一下前缀树的数据结构[208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [题解链接](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/pythonjian-dan-shi-xian-by-powcai)
+# 先做一下前缀树的数据结构[208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [题解链接](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/pythonjian-dan-shi-xian-by-powcai)
 
-我们把所有单词构造成前缀树
+# 我们把所有单词构造成前缀树
 
-再遍历 `board` 用DFS分别在前缀树上跑
+# 再遍历 `board` 用DFS分别在前缀树上跑
 
-------
+# ------
 
-有不清楚的地方, 欢迎留言~
+# 有不清楚的地方, 欢迎留言~
 
-相关题型：
+# 相关题型：
 
-[212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
+# [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
 
-[421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+# [421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 
-## 代码：
+# ## 代码：
 
-```python
+# ```python
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         trie = {}
@@ -52,5 +52,5 @@ class Solution:
             for j in range(col):
                 dfs(i, j, trie, "")
         return res
-```
+# ```
 

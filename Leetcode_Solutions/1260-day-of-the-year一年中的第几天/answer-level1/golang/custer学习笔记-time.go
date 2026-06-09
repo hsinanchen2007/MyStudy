@@ -1,4 +1,4 @@
-```go
+// ```go
 func ordinalOfDate(date string) int {
   year := string([]rune(date)[:4])
   y, _ := strconv.Atoi(year)
@@ -50,11 +50,11 @@ func isLeapYear(year int) bool { //y == 2000, 2004
 
   return false
 }
-```
+// ```
 
-学习rockstar代码-优化
+// 学习rockstar代码-优化
 
-```go
+// ```go
 func ordinalOfDate(date string) int {
     var m = []int{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
     parts := strings.Split(date, "-")
@@ -74,11 +74,11 @@ func ordinalOfDate(date string) int {
     }
     return res
 }
-```
+// ```
 
-继续优化，使用time标准库
+// 继续优化，使用time标准库
 
-```go
+// ```go
 func ordinalOfDate(date string) int {
     t, _ := time.Parse("2006-01-02", date)
     start := time.Date(t.Year(), 1, 1, 0, 0, 0, 0, time.Local)
@@ -90,4 +90,4 @@ func ordinalOfDate(date string) int {
     t, _ := time.Parse(format, date)
     return t.YearDay()
 }
-```
+// ```

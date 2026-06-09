@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int str2int(const string& s) {
@@ -23,4 +23,4 @@ public:
     }
 };
 
-```
+// ```

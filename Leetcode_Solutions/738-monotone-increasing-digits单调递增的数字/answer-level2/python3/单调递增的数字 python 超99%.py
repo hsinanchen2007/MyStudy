@@ -1,5 +1,5 @@
-> 思路：每次从右往左便历，遇到第一处递增就停下，然后将前一位减1，后面所有位置为9；循环往复，直到序列从左到右是递增的。
-```python
+# > 思路：每次从右往左便历，遇到第一处递增就停下，然后将前一位减1，后面所有位置为9；循环往复，直到序列从左到右是递增的。
+# ```python
 class Solution:
     def monotoneIncreasingDigits(self, N: int) -> int:
         
@@ -18,4 +18,4 @@ class Solution:
                 i = i-1
                 
         return int(''.join(map(str,N)))
-```
+# ```

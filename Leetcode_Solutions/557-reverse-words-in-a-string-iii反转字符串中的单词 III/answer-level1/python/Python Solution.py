@@ -1,8 +1,8 @@
-### 解题思路
-using stack, LIFO: last-in first-out
-### 代码
+# ### 解题思路
+# using stack, LIFO: last-in first-out
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 while stack:
                     res += stack.pop()
         return res[1:]
-```
+# ```

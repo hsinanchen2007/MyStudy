@@ -1,9 +1,9 @@
-### 解题思路
-    之前用细分网格+深搜的方式写过这题，效率不是很高，用并查集的思路写了一遍，大体思路就不写了，看看代码理解一下吧。有疑问可以在评论区留言。
+// ### 解题思路
+//     之前用细分网格+深搜的方式写过这题，效率不是很高，用并查集的思路写了一遍，大体思路就不写了，看看代码理解一下吧。有疑问可以在评论区留言。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 inline void InitUnionFind(int* root, char** grid, int gridSize)
 {
     int col = gridSize + 1;
@@ -63,4 +63,4 @@ int regionsBySlashes(char ** grid, int gridSize){
 }
 
 
-```
+// ```

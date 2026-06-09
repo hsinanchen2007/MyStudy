@@ -1,9 +1,9 @@
-### 解题思路
-窗口固定K，其它的差不多，先去重，再计算是否满足条件
+// ### 解题思路
+// 窗口固定K，其它的差不多，先去重，再计算是否满足条件
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 128
 int GetWindow(int start, int end)
 {
@@ -56,4 +56,4 @@ int numKLenSubstrNoRepeats(char * S, int K){
 
     return num;
 }
-```
+// ```

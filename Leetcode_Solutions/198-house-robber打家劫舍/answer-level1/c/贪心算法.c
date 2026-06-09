@@ -1,6 +1,6 @@
-贪心算法，从小到大，计算出处于每一个位置的最大收益。
+// 贪心算法，从小到大，计算出处于每一个位置的最大收益。
 
-```c
+// ```c
 int max(int a, int b) {
     return ((a > b) ?a:b);
 }
@@ -22,4 +22,4 @@ int rob(int* nums, int numsSize){
     }
     return 0;
 }
-```
+// ```

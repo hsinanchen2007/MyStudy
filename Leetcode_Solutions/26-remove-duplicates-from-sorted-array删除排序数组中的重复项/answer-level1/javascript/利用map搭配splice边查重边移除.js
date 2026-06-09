@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -20,5 +20,5 @@ var removeDuplicates = function(nums) {
     }
     return nums.length
 };
-```
-利用map搭配splice边查重边移除
+// ```
+// 利用map搭配splice边查重边移除

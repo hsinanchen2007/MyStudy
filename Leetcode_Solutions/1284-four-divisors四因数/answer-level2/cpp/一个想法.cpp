@@ -1,5 +1,5 @@
-如果分解出1、两个质数2、一个小的质数和和它的平方3、特殊情况2*4=8。
-```
+// 如果分解出1、两个质数2、一个小的质数和和它的平方3、特殊情况2*4=8。
+// ```
 class Solution {
 public:
     int sumFourDivisors(vector<int>& nums) {
@@ -26,6 +26,6 @@ public:
         return true;
     }
 };
-```
+// ```
 
 

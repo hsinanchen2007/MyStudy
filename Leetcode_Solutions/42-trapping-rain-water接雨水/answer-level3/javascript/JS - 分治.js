@@ -1,9 +1,9 @@
-### 解题思路
-如题
+// ### 解题思路
+// 如题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -44,4 +44,4 @@ const trapWithLimit = (arr, leftLimit, rightLimit) => {
     }
     return leftWater + rightWater;
 }
-```
+// ```

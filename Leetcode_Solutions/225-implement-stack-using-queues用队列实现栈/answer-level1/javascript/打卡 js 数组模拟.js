@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-...emm 就打个卡。。。
-拿个数组模拟一下
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ...emm 就打个卡。。。
+// 拿个数组模拟一下
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -56,4 +56,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

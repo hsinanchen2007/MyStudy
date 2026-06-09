@@ -1,9 +1,9 @@
-### 解题思路
-双指针优化的暴力法
+// ### 解题思路
+// 双指针优化的暴力法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         if (height.length == 0) return 0;
@@ -17,4 +17,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

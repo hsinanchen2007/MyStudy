@@ -1,14 +1,14 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(1)
-2. 我的解题思路
-<br />&nbsp;2.1 根据题意可知，丑数的定义为只含有2，3，5任一个质数，重点是在只这个字上
-<br />&nbsp;2.2 根据丑数的定义，其实我们可以用原来的数据分别整除掉2，3，5
-<br />&nbsp;2.3 在整除完后，如果结果不等于1，就意味着原始数据含有除2，3，5之外的因数
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时5ms,消耗33.5MB内存
-<br />&nbsp;3.2 leetcode中耗时1ms,消耗33.7MB内存
-```
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(1)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 根据题意可知，丑数的定义为只含有2，3，5任一个质数，重点是在只这个字上
+// <br />&nbsp;2.2 根据丑数的定义，其实我们可以用原来的数据分别整除掉2，3，5
+// <br />&nbsp;2.3 在整除完后，如果结果不等于1，就意味着原始数据含有除2，3，5之外的因数
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时5ms,消耗33.5MB内存
+// <br />&nbsp;3.2 leetcode中耗时1ms,消耗33.7MB内存
+// ```
 /**
  * Problem
  *     263.Ugly Number
@@ -55,6 +55,6 @@ public class Solution263 {
         return num==1;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

@@ -1,5 +1,5 @@
-话不多说，直接上代码：
-```java
+// 话不多说，直接上代码：
+// ```java
 class Solution {
     public boolean isNumber(String s) {
         char[] chars = s.toCharArray();
@@ -134,4 +134,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

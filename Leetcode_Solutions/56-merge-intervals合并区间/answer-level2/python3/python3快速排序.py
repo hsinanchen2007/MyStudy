@@ -1,5 +1,5 @@
-代码稍微多一点，但是思路很简单，python3先根据[i][0]快速排序，再进行覆盖，时间复杂度快速排序O(nlogn)，覆盖是O(n)，空间复杂度快速排序O(logn)，覆盖只有一个结果的 
-```
+# 代码稍微多一点，但是思路很简单，python3先根据[i][0]快速排序，再进行覆盖，时间复杂度快速排序O(nlogn)，覆盖是O(n)，空间复杂度快速排序O(logn)，覆盖只有一个结果的 
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         n = len(intervals)
@@ -43,4 +43,4 @@ class Solution:
             result.append([intervals[start][0],max_1])
             i += 1
         return result
-```
+# ```

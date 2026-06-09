@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/91fa72cf1b5dd93dc0730599c9dc52bd5895fa7c36542cbdbff4d099cceee4f5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/91fa72cf1b5dd93dc0730599c9dc52bd5895fa7c36542cbdbff4d099cceee4f5-image.png)
 
 
-```
+// ```
 func TreePaths(cur *TreeNode, s string, ans []string) []string {
     if cur == nil {
         return ans
@@ -24,4 +24,4 @@ func binaryTreePaths(root *TreeNode) []string {
     ans := TreePaths(root, "", []string{})
     return ans
 }
-```
+// ```

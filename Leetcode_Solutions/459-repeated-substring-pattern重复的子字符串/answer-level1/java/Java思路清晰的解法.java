@@ -1,6 +1,6 @@
-执行用时 :17 ms, 在所有 Java 提交中击败了87.04%的用户    
-内存消耗 :37.9 MB, 在所有 Java 提交中击败了38.75%的用户    
-```
+// 执行用时 :17 ms, 在所有 Java 提交中击败了87.04%的用户    
+// 内存消耗 :37.9 MB, 在所有 Java 提交中击败了38.75%的用户    
+// ```
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
         for(int i=1;i<s.length();i++){
@@ -18,4 +18,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

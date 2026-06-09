@@ -1,9 +1,9 @@
-### 解题思路
-如果链表存在环，那么假如有两个速度分别为1和2的指针一起移动，那么肯定会在未来的某一刻相遇。可以想象成两个人在操场跑步，一个速度快一个速度慢，速度快的总会追上速度慢的。
+# ### 解题思路
+# 如果链表存在环，那么假如有两个速度分别为1和2的指针一起移动，那么肯定会在未来的某一刻相遇。可以想象成两个人在操场跑步，一个速度快一个速度慢，速度快的总会追上速度慢的。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution(object):
             if p == q:
                 return True
         return False
-```
+# ```

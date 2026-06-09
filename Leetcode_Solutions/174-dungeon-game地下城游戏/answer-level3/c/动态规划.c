@@ -1,8 +1,8 @@
-其实逻辑很简单，使用动态规划来解决。
-从最右下角要救出开始，可以知道我们要到右下角的最小值
-右下角知道了，又可以辐射到最后一行和最后一列
-然后再依次倒退，看下每次到底是否右边还是下边的值小，就从哪里过来，一直反推到[0][0]
-```
+// 其实逻辑很简单，使用动态规划来解决。
+// 从最右下角要救出开始，可以知道我们要到右下角的最小值
+// 右下角知道了，又可以辐射到最后一行和最后一列
+// 然后再依次倒退，看下每次到底是否右边还是下边的值小，就从哪里过来，一直反推到[0][0]
+// ```
 int calculateMinimumHP(int dungeon, int dungeonSize, int* dungeonColSize) {
     #define GET_MIN_REQUEST(req, cur) ((req) <= (cur) ? 1 : (req) - (cur))
 
@@ -39,4 +39,4 @@ int calculateMinimumHP(int dungeon, int dungeonSize, int* dungeonColSize) {
     return result;
 }
 
-```
+// ```

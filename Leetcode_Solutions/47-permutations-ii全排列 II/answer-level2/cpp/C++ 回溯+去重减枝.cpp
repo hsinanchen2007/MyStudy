@@ -1,15 +1,15 @@
-### 解题思路
-此题是[全排列](https://leetcode-cn.com/problems/permutations/)的变体，重点是去重减枝。都是回溯算法。
+// ### 解题思路
+// 此题是[全排列](https://leetcode-cn.com/problems/permutations/)的变体，重点是去重减枝。都是回溯算法。
 
-回溯算法的解题步骤：
+// 回溯算法的解题步骤：
 
-1. 确定解空间元素，也可以说是解路径上的各个节点取值。
-2. 如何定义到达叶子节点，即找到问题的一个解
-3. 对于每一个可行路径，判断当前节点是否能够加入到当前路径，利用减枝条件减枝，如果满足可行解条件加入路径，否则回溯到上一个节点，并且清楚当前节点记录信息。
+// 1. 确定解空间元素，也可以说是解路径上的各个节点取值。
+// 2. 如何定义到达叶子节点，即找到问题的一个解
+// 3. 对于每一个可行路径，判断当前节点是否能够加入到当前路径，利用减枝条件减枝，如果满足可行解条件加入路径，否则回溯到上一个节点，并且清楚当前节点记录信息。
 
-### 全排列
+// ### 全排列
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -39,11 +39,11 @@ public:
 private:
     vector<vector<int>> res;
 };
-```
+// ```
 
-### 全排列II
+// ### 全排列II
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -80,4 +80,4 @@ private:
     vector<vector<int>> res;
 };
 
-```
+// ```

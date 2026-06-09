@@ -1,9 +1,9 @@
-### 解题思路
-先插入再用快排排序
+// ### 解题思路
+// 先插入再用快排排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int i,j=0;
     void quick_sort(int a[],int l,int r);
@@ -39,4 +39,4 @@ void quick_sort(int a[],int l,int r){
         quick_sort(a,i+1,r);
     }
 }
-```
+// ```

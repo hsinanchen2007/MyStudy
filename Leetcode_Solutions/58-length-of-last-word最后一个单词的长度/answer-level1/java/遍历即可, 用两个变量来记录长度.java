@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int lengthOfLastWord(String s) {
         // 记录之前可能存在的结果
@@ -19,4 +19,4 @@ class Solution {
         return sum == 0 ? res : sum;
     }
 }
-```
+// ```

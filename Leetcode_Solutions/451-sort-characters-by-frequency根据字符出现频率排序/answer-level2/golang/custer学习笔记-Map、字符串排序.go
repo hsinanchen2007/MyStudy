@@ -1,5 +1,5 @@
-# 第一思路
-```go
+// # 第一思路
+// ```go
 func frequencySort(s string) string {
   record := make(map[byte]int)
   for i := 0; i < len(s); i++ {
@@ -25,10 +25,10 @@ func maxFrequency(record map[byte]int) (key byte, val int) {
   }
   return
 }
-```
+// ```
 
-# Using Counting Sort使用计数排序
-```go
+// # Using Counting Sort使用计数排序
+// ```go
 func frequencySort(s string) string {
    freq := make(map[rune]int, len(s))
   for _, c := range s {
@@ -55,4 +55,4 @@ type str []string
 func (s str) Len() int           { return len(s) }
 func (s str) Less(i, j int) bool { return len(s[i]) > len(s[j]) }
 func (s str) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-双指针，，真的很简单。。
+# ### 解题思路
+# 此处撰写解题思路
+# 双指针，，真的很简单。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
             s = s.next
             f = f.next.next
         return s
-```
+# ```

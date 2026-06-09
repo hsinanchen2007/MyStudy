@@ -1,8 +1,8 @@
-### 解题思路
-方法理解起来还是挺容易的，不过就是慢。。。
-### 代码
+// ### 解题思路
+// 方法理解起来还是挺容易的，不过就是慢。。。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return res;
     }
 };
-```
+// ```

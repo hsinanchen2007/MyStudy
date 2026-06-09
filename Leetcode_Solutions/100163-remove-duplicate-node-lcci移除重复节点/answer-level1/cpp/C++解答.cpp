@@ -1,11 +1,11 @@
-### 解题思路
-使用一个数组记住数字是否出现过
+// ### 解题思路
+// 使用一个数组记住数字是否出现过
 
-![image.png](https://pic.leetcode-cn.com/8983e5827238c19babede09bb282508f3b249e4b1eecbac9eabec08e86cac031-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8983e5827238c19babede09bb282508f3b249e4b1eecbac9eabec08e86cac031-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-双hash表解法
-```
+// 双hash表解法
+// ```
 public class LFUCache {
     private int cap;
     // 存储键值对
@@ -76,4 +76,4 @@ public class LFUCache {
     }
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-耗时1.1s, 击败5%，内存360MB，说明测试用例很变态。应该有更好的解法。
-动态规划方程：
+// 耗时1.1s, 击败5%，内存360MB，说明测试用例很变态。应该有更好的解法。
+// 动态规划方程：
 
-    dp[r][c] = dp[r-1][c-1] + dp[0][c]
-    dp[r][c] 代表在r~c数字之和
+//     dp[r][c] = dp[r-1][c-1] + dp[0][c]
+//     dp[r][c] 代表在r~c数字之和
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums)
@@ -24,4 +24,4 @@ public:
         return 0;
     }
 };
-```
+// ```

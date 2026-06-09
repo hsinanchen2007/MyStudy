@@ -1,8 +1,8 @@
-### 解题思路
-- 降维，降重叠区域转换成不重叠区域，再取反就是结果
-### 代码
+// ### 解题思路
+// - 降维，降重叠区域转换成不重叠区域，再取反就是结果
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isRectangleOverlap(_ rec1: [Int], _ rec2: [Int]) -> Bool {
 
@@ -11,4 +11,4 @@ class Solution {
         return !x_overlap && !y_overlap
     }
 }
-```
+// ```

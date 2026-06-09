@@ -1,6 +1,6 @@
-//以下是我的一些思路，供参考谢谢！
+// //以下是我的一些思路，供参考谢谢！
     
-```
+// ```
 if (!l1 || !l2) return l1==nullptr?l2:l1;
     queue<int> q1,q2;
     while (l1) {
@@ -40,5 +40,5 @@ if (!l1 || !l2) return l1==nullptr?l2:l1;
     delete Head;
 
     return Q; 
-```
+// ```
 

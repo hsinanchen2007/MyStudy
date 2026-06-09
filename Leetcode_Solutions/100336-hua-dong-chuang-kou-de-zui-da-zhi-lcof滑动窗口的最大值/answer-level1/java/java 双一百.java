@@ -1,5 +1,5 @@
-记录下上一次最大值的索引，当该索引还在窗口内时，只要比较其与新加进来的数(最后一个数)即可，当索引到了窗口外时，遍历一遍窗口内的元素，找最大值
-```java
+// 记录下上一次最大值的索引，当该索引还在窗口内时，只要比较其与新加进来的数(最后一个数)即可，当索引到了窗口外时，遍历一遍窗口内的元素，找最大值
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int len = nums.length;
@@ -33,4 +33,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

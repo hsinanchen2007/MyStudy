@@ -1,9 +1,9 @@
-### 解题思路
-使用C的运行时间竟然没有golang 快？？
+// ### 解题思路
+// 使用C的运行时间竟然没有golang 快？？
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a Node.
  * struct Node {
@@ -55,4 +55,4 @@ int* preorder(struct Node* root, int* returnSize) {
     r = realloc(r, sizeof(int) * (*returnSize));
     return r;
 }
-```
+// ```

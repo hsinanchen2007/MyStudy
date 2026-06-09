@@ -1,9 +1,9 @@
-### 解题思路
-归并排序添加一行代码即可， 见注释
+// ### 解题思路
+// 归并排序添加一行代码即可， 见注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int global_count = 0;
@@ -32,4 +32,4 @@ public:
         copy(copyarr.begin()+left, copyarr.begin()+right+1, nums.begin()+left);
     }
 };
-```
+// ```

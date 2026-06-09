@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int shortestDistance(vector<string>& words, string word1, string word2) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

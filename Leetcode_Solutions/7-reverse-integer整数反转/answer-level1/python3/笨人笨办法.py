@@ -1,8 +1,8 @@
-### 解题思路
-继续笨办法，拿到数字先判是否为负数，立flag，之后列表化反取，拼接重新整数化，再根据flag判断是否为负数，最后做数字校验，完成。
-### 代码
+# ### 解题思路
+# 继续笨办法，拿到数字先判是否为负数，立flag，之后列表化反取，拼接重新整数化，再根据flag判断是否为负数，最后做数字校验，完成。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         flag = False
@@ -22,4 +22,4 @@ class Solution:
             return 0
         return a
 
-```
+# ```

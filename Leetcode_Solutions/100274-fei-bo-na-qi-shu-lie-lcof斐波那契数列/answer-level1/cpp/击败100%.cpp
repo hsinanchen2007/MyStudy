@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/37727162ce645c6049e6bda83008e72c96afb81a68e6cc54626362007f0b0fe8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/37727162ce645c6049e6bda83008e72c96afb81a68e6cc54626362007f0b0fe8-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n) {
@@ -22,4 +22,4 @@ public:
         return (int)c;
     }
 };
-```
+// ```

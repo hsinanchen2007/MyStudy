@@ -1,9 +1,9 @@
-### 解题思路
-这类预留一个0,注意进位问题即可
+// ### 解题思路
+// 这类预留一个0,注意进位问题即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -30,4 +30,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意两个边界和空指针问题即可。
+// ### 解题思路
+// 注意两个边界和空指针问题即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

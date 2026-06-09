@@ -1,9 +1,9 @@
-### 解题思路
-只要判断边界为2的-31次方即可
+// ### 解题思路
+// 只要判断边界为2的-31次方即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string printBin(double num) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

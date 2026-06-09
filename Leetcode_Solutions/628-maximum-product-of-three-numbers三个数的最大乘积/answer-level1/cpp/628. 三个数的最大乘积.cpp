@@ -1,8 +1,8 @@
-## 找出前三大的数和前二小的数
-**最大乘积等于以下其一：
-1. 前三大的数的乘积
-2. 前二小的数与第一大的数的乘积**
-```cpp
+// ## 找出前三大的数和前二小的数
+// **最大乘积等于以下其一：
+// 1. 前三大的数的乘积
+// 2. 前二小的数与第一大的数的乘积**
+// ```cpp
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -33,4 +33,4 @@ public:
         return max(min1 * min2 * max1, max1 * max2 * max3);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-其实也是和大家差不多的思路，不说那么复杂了。
-1. 这里用到了Arrays.sort排序，得到了从小到大的数组。
-2. 接下来用lastIndex指针指向未被粉碎的最后一个元素，取两个最大的石头，下标lastIndex,lastIndex-1。两者相减的差值赋给lastIndex-1,再移动下lastIndex指针就相当于删除了最后一个元素了
-3. 也可以改写成递归，思路是一样的。
+// 其实也是和大家差不多的思路，不说那么复杂了。
+// 1. 这里用到了Arrays.sort排序，得到了从小到大的数组。
+// 2. 接下来用lastIndex指针指向未被粉碎的最后一个元素，取两个最大的石头，下标lastIndex,lastIndex-1。两者相减的差值赋给lastIndex-1,再移动下lastIndex指针就相当于删除了最后一个元素了
+// 3. 也可以改写成递归，思路是一样的。
 
-```
+// ```
 import java.util.Arrays;
 
 class Solution {
@@ -36,4 +36,4 @@ class Solution {
    
 }
 
-```
+// ```

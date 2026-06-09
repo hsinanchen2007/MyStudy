@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canReach(int[] arr, int start) {
         if (arr == null || arr.length == 0 || start >= arr.length) {
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

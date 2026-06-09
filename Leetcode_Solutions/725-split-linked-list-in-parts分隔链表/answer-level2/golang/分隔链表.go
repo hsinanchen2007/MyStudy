@@ -1,9 +1,9 @@
-### 解题思路
-先平均分配,有余再均分给开头几个大兄弟.
+// ### 解题思路
+// 先平均分配,有余再均分给开头几个大兄弟.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -49,4 +49,4 @@ func splitListToParts(root *ListNode, k int) []*ListNode {
 	return ans
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number} x
  * @param {number} y
@@ -20,4 +20,4 @@ var hammingDistance = function(x, y) {
    let res = str.match(/1/g)
    return res?res.length:0
 };
-```
+// ```

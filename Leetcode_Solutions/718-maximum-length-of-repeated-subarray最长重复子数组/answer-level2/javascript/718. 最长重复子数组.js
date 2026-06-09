@@ -1,12 +1,12 @@
-#### 解法一：动态规划
-+ 状态定义
-  + dp[i][j]：为A[i:]和B[j:]最长公共前缀
-+ 转移方程
-  + A[i] == B[j]时
-    + dp[i][j] = dp[i-1][j-1] + 1;
-  + A[i] != B[j]时
-    + dp[i][j] = 0;
-```javascript
+// #### 解法一：动态规划
+// + 状态定义
+//   + dp[i][j]：为A[i:]和B[j:]最长公共前缀
+// + 转移方程
+//   + A[i] == B[j]时
+//     + dp[i][j] = dp[i-1][j-1] + 1;
+//   + A[i] != B[j]时
+//     + dp[i][j] = 0;
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number[]} B
@@ -26,10 +26,10 @@ var findLength = function(A, B) {
     }
     return resMax;
 };
-```
-#### 解法二：遍历矩阵
-+ [参考这里](https://leetcode.com/problems/maximum-length-of-repeated-subarray/discuss/109040/Java-O(mn)-time-O(1)-space)
-```javascript
+// ```
+// #### 解法二：遍历矩阵
+// + [参考这里](https://leetcode.com/problems/maximum-length-of-repeated-subarray/discuss/109040/Java-O(mn)-time-O(1)-space)
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number[]} B
@@ -60,4 +60,4 @@ var findLength = function(A, B) {
     }
     return resMax;
 };
-```
+// ```

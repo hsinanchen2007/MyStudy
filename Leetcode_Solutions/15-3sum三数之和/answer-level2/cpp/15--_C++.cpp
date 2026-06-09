@@ -1,9 +1,9 @@
-### 解题思路
-先将第一个点定住，然后再通过两个游标来判断是否符合预期结果。
+// ### 解题思路
+// 先将第一个点定住，然后再通过两个游标来判断是否符合预期结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 public:
     vector<vector<int>> threeSum(vector<int>& nums){
@@ -31,4 +31,4 @@ public:
         return ans;
     }
 };
-```
+// ```

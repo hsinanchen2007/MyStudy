@@ -1,4 +1,4 @@
-```c# []
+// ```c# []
 public bool IsNStraightHand(int[] hand, int W) {
         if (hand.Length % W != 0)
             {
@@ -43,5 +43,5 @@ public bool IsNStraightHand(int[] hand, int W) {
             }
             return true;
     }
-```
+// ```
 

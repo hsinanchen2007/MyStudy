@@ -1,14 +1,14 @@
-### 思路
+# ### 思路
 
-**栈**  **队列**
+# **栈**  **队列**
 
-```
+# ```
 数据结构基础
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class MyStack:
 
     def __init__(self):
@@ -54,8 +54,8 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0225-Implement-Stack-using-Queues/0225.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0225-Implement-Stack-using-Queues/0225.py)

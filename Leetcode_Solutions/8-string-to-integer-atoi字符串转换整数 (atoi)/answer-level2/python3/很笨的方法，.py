@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/772e907160d4d627223146434d585f34936e86d871f0a3f49c16ab1101adc0a8-image.png)
+# ### 解题思路
+# 此处撰写解题思路
+# ![image.png](https://pic.leetcode-cn.com/772e907160d4d627223146434d585f34936e86d871f0a3f49c16ab1101adc0a8-image.png)
 
-笨蛋笨方法，直接转为list处理，根据有无符号分别处理
+# 笨蛋笨方法，直接转为list处理，根据有无符号分别处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         string = str.lstrip()
@@ -43,4 +43,4 @@ class Solution:
         else:
             numm = 0
         return numm
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用数组存统计字符次数，双数次的字符代表可以组成回文，奇数的字符取一个可以当中心点
+// ### 解题思路
+// 用数组存统计字符次数，双数次的字符代表可以组成回文，奇数的字符取一个可以当中心点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
 	apl, res := [52]uint8{}, 0
 	for i := range s {
@@ -22,4 +22,4 @@ func longestPalindrome(s string) int {
 	return res
 }
 
-```
+// ```

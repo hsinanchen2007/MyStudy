@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         result = nums[0]
@@ -7,4 +7,4 @@ class Solution:
             max_move = max(ele,max_move+ele)
             result = max(max_move,result)
         return result
-```
+# ```

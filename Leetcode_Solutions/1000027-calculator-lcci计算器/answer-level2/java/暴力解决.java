@@ -1,10 +1,10 @@
-### 解题思路
-把优先级高的*/先解决
-然后高 强 度 循 环
+// ### 解题思路
+// 把优先级高的*/先解决
+// 然后高 强 度 循 环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calculate(String s) 
     {
@@ -112,4 +112,4 @@ class Solution {
     }
 }
 
-```
+// ```

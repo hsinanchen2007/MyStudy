@@ -1,11 +1,11 @@
-### 解题思路
- 奇怪的知识增加了
+// ### 解题思路
+//  奇怪的知识增加了
 
-见最高题解即可.
+// 见最高题解即可.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func cuttingRope(n int) int {
     if n <= 3 {
         return n - 1
@@ -18,4 +18,4 @@ func cuttingRope(n int) int {
     }
     return -1
 }
-```
+// ```

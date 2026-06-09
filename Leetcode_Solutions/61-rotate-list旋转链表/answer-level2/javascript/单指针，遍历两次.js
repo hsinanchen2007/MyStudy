@@ -1,9 +1,9 @@
-### 解题思路
-分析题意，整个链表向右移动 k 位，等价于：一个首位首尾相连的链表，长度为 len， 某个指针指向 head，将其从 head 前 k + 1 位断开，以 head 前 k 位为新的链表头。
+// ### 解题思路
+// 分析题意，整个链表向右移动 k 位，等价于：一个首位首尾相连的链表，长度为 len， 某个指针指向 head，将其从 head 前 k + 1 位断开，以 head 前 k 位为新的链表头。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -33,8 +33,8 @@ var rotateRight = function(head, k) {
     prev.next = null;
     return dump;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(1)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(1)

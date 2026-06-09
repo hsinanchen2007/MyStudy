@@ -1,5 +1,5 @@
-使用双向队列，把根节点压入，从队列左边取出节点后把节点的左右节点压入队列尾部，直到双向队列为空，代码如下
-```
+# 使用双向队列，把根节点压入，从队列左边取出节点后把节点的左右节点压入队列尾部，直到双向队列为空，代码如下
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,5 +22,5 @@ class Solution:
                 if cur.right:
                     temp.append(cur.right)
         return ans
-```
+# ```
 

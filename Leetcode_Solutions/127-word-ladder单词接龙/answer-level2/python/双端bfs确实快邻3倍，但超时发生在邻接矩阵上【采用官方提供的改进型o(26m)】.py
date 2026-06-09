@@ -1,10 +1,10 @@
-### 解题思路
-    不用保存路径，代码要缩短一倍
-    代码增加一倍时，bug成指数增长
+# ### 解题思路
+#     不用保存路径，代码要缩短一倍
+#     代码增加一倍时，bug成指数增长
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         #tab是原始字符集，adj是hashmap的邻接矩阵，算是一种备忘录或懒加载策略吧
@@ -42,4 +42,4 @@ class Solution:
         if endWord not in tab : return 0
         #结束2
         return bfs(tab, adj, beginWord, endWord)
-```
+# ```

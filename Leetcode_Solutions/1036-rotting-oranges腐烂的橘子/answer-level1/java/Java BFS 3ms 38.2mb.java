@@ -1,9 +1,9 @@
-### 解题思路
-与其他bfs不同的是，这里使用了一个无用的Integer MAXVALUE来区分bfs不同的层级。一遍过开心。
+// ### 解题思路
+// 与其他bfs不同的是，这里使用了一个无用的Integer MAXVALUE来区分bfs不同的层级。一遍过开心。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public int orangesRotting(int[][] grid) {
         Queue<Integer> rot = new LinkedList<>();
@@ -65,4 +65,4 @@ public int orangesRotting(int[][] grid) {
         return res;
     }
 }
-```
+// ```

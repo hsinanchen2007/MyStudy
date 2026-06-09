@@ -1,10 +1,10 @@
-### 解题思路
-暴力判断字符
-判断words 中的 字符串中的字符 是否在chars中存在，如果存在，则 将chars截取后再次判断
+# ### 解题思路
+# 暴力判断字符
+# 判断words 中的 字符串中的字符 是否在chars中存在，如果存在，则 将chars截取后再次判断
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countCharacters(self, words, chars):
         """
@@ -33,4 +33,4 @@ class Solution(object):
         return num
                 
 
-```
+# ```

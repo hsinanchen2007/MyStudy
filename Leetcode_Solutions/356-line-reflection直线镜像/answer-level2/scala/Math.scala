@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 object Solution {
     def isReflected(points: Array[Array[Int]]): Boolean = {
         def f(points: Array[Array[Int]]): Boolean = {
@@ -12,6 +12,6 @@ object Solution {
         f(points.map(_.toList).distinct.map(_.toArray))
     }
 }
-```
+// ```
 
-```
+// ```

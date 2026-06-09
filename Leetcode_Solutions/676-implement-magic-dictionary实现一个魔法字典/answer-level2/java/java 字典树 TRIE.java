@@ -1,10 +1,10 @@
 
-第一步构建字典树
-然后对每一个search的单词每次替换一个字符为*进行查找，
-或者用一个变量存储改变字符的次数也可以(刚刚想到)
+// 第一步构建字典树
+// 然后对每一个search的单词每次替换一个字符为*进行查找，
+// 或者用一个变量存储改变字符的次数也可以(刚刚想到)
 
 
-```
+// ```
 class MagicDictionary {
     Trie head;
     /** Initialize your data structure here. */
@@ -95,4 +95,4 @@ class MagicDictionary {
  * obj.buildDict(dict);
  * boolean param_2 = obj.search(word);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 回溯算法，每次只记录每列Queen放置的位置。
-见代码
+# ### 回溯算法，每次只记录每列Queen放置的位置。
+# 见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         res = []
@@ -28,4 +28,4 @@ class Solution:
                 # tmp.pop()
         dfs([], 0)
         return res
-```
+# ```

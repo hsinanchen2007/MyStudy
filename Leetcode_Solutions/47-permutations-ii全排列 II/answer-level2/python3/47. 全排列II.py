@@ -1,9 +1,9 @@
-### 解题思路
-与上一题同样地思路，回溯模板准备好，不过考虑到重复情况，还需要剪枝处理。重复的部分，利用滑动窗口技巧过滤掉。
+# ### 解题思路
+# 与上一题同样地思路，回溯模板准备好，不过考虑到重复情况，还需要剪枝处理。重复的部分，利用滑动窗口技巧过滤掉。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -21,4 +21,4 @@ class Solution:
         nums.sort()
         backtrack(nums,[])
         return res
-```
+# ```

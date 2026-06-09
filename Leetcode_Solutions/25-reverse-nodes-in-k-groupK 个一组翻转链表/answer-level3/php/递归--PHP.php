@@ -1,13 +1,13 @@
-### 解题思路
-掌握单链表的反转后，处理好分组，按分组来反转比较好理解。
+// ### 解题思路
+// 掌握单链表的反转后，处理好分组，按分组来反转比较好理解。
 
-### 性能
-执行用时 :8 ms, 在所有 PHP 提交中击败了100.00%的用户
-内存消耗 :16.6 MB, 在所有 PHP 提交中击败了13.16%的用户
+// ### 性能
+// 执行用时 :8 ms, 在所有 PHP 提交中击败了100.00%的用户
+// 内存消耗 :16.6 MB, 在所有 PHP 提交中击败了13.16%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -55,11 +55,11 @@ class Solution {
         return $pre;
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度 O(N) 【应该是吧】
-- 空间复杂度 O(1)
+// ### 算法复杂度
+// - 时间复杂度 O(N) 【应该是吧】
+// - 空间复杂度 O(1)
 
-### 参考
-[https://leetcode-cn.com/problems/reverse-nodes-in-k-group/comments/2253](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/comments/2253)
+// ### 参考
+// [https://leetcode-cn.com/problems/reverse-nodes-in-k-group/comments/2253](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/comments/2253)

@@ -1,5 +1,5 @@
-**让n的每一位与1按位与，统计结果为1的个数即可。**
-```c
+// **让n的每一位与1按位与，统计结果为1的个数即可。**
+// ```c
 int hammingWeight(uint32_t n) {
     int cnt = 0;
     for(int i = 0; i < 32; i++){
@@ -9,4 +9,4 @@ int hammingWeight(uint32_t n) {
     }
     return cnt;
 }
-```
+// ```

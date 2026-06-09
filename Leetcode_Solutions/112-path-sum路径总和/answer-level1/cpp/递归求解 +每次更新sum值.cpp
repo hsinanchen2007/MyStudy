@@ -1,4 +1,4 @@
-```
+// ```
 public:
     bool hasPathSum(TreeNode* root, int sum) {
         if(root==NULL)
@@ -12,4 +12,4 @@ public:
         }
     }
 };
-```
+// ```

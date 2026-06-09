@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func numJewelsInStones(_ J: String, _ S: String) -> Int {
         if J.count == 0 ||  S.count == 0 {
@@ -17,4 +17,4 @@ class Solution {
         return count
     }
 }
-```
+// ```

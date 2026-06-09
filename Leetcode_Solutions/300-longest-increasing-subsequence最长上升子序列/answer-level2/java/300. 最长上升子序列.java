@@ -1,12 +1,12 @@
-### 解题思路
-动态规划：
-- dp[i] 表示以 nums[i] 结尾的最长子序列的长度
-- dp[i] = max{dp[j]}+1，j 取值范围 [0,i-1]
-- dp[0]=1
+// ### 解题思路
+// 动态规划：
+// - dp[i] 表示以 nums[i] 结尾的最长子序列的长度
+// - dp[i] = max{dp[j]}+1，j 取值范围 [0,i-1]
+// - dp[0]=1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
@@ -38,4 +38,4 @@ public class Solution {
     }
 }
 
-```
+// ```

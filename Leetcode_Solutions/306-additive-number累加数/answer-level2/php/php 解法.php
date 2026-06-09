@@ -1,7 +1,7 @@
-![微信截图_20191107151748.png](https://pic.leetcode-cn.com/053fd3b633357ad31eee0ccc19be730c311b61e7185eac2e47eda38768c705c9-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191107151748.png)
+// ![微信截图_20191107151748.png](https://pic.leetcode-cn.com/053fd3b633357ad31eee0ccc19be730c311b61e7185eac2e47eda38768c705c9-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191107151748.png)
 
-解析思路都在注释里了
-```
+// 解析思路都在注释里了
+// ```
 class Solution {
 
     /**
@@ -33,4 +33,4 @@ class Solution {
         return $this->helper(substr($str,strlen($sums)), $int2, $sum);
     }
 }
-```
+// ```

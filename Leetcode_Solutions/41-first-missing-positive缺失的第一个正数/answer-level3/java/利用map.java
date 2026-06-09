@@ -1,9 +1,9 @@
-### 解题思路
-把原数组保存到map中，在i=1；若map.get(i)==null,返回i,else i++
+// ### 解题思路
+// 把原数组保存到map中，在i=1；若map.get(i)==null,返回i,else i++
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         Map<Integer,Integer> map=new HashMap();
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

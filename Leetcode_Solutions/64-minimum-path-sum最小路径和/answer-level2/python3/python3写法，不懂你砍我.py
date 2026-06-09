@@ -1,9 +1,9 @@
-### 解题思路
-从左上角开始，原地修改，grid[i][j] +=min(grid[i-1][j],grid[i][j-1])
+# ### 解题思路
+# 从左上角开始，原地修改，grid[i][j] +=min(grid[i-1][j],grid[i][j-1])
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -18,4 +18,4 @@ class Solution:
                 grid[i][j] +=min(grid[i-1][j],grid[i][j-1])
         return grid[-1][-1]
 
-```
+# ```

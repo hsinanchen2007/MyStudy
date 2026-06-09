@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
     lo,hi:=0,len(nums)-1
     mid:=(lo+hi)/2
@@ -17,4 +17,4 @@ func missingNumber(nums []int) int {
     }
     return lo
 }
-```
+// ```

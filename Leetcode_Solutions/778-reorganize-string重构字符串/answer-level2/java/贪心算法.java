@@ -1,6 +1,6 @@
-每次输出剩余数量最多和次多的字符,可利用数组重写排队器来排序.
+// 每次输出剩余数量最多和次多的字符,可利用数组重写排队器来排序.
 
-```
+// ```
 class Solution {
     HashMap<Character,Integer> data=new HashMap<>();
     public String reorganizeString(String S) {
@@ -42,4 +42,4 @@ class Solution {
         });
     }
 }
-```
+// ```

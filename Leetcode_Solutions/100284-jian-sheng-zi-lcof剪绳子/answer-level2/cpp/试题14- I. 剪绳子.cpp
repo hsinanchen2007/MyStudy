@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 // // 动态规划
 // class Solution {
 // public:
@@ -47,4 +47,4 @@ public:
         return pow(2, time2) * pow(3, time3);            
     }
 };
-```
+// ```

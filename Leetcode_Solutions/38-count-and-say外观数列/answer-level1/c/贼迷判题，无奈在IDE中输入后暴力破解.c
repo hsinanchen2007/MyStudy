@@ -1,4 +1,4 @@
-```
+// ```
 char* countAndSay(int n) {
     switch (n) 
     {
@@ -66,9 +66,9 @@ char* countAndSay(int n) {
             return "0";
 }
 }
-```
-不知道这是这么判的题，在IDE中没有问题，但这里的第二个样例都跑不过，只好全打印出来，双一百过了，也很迷
-```
+// ```
+// 不知道这是这么判的题，在IDE中没有问题，但这里的第二个样例都跑不过，只好全打印出来，双一百过了，也很迷
+// ```
 #include <iostream>
 using namespace std;
 
@@ -120,5 +120,5 @@ int main()
     cout << "1" << endl;
     s=countAndSay(n);
 }
-```
-这里是在IDE中的代码，为了方便没有用纯C，部分C++的输出，这判题是真的迷
+// ```
+// 这里是在IDE中的代码，为了方便没有用纯C，部分C++的输出，这判题是真的迷

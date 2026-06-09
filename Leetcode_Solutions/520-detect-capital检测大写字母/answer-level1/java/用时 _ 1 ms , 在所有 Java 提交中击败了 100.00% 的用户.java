@@ -1,12 +1,12 @@
-### 解题思路
-先判断除了首字母后的字母是否全为大写或小写
-判断首字母是否为大写
-为大写判断后面是否全为小写或大写
-为小写判断是否全为小写
+// ### 解题思路
+// 先判断除了首字母后的字母是否全为大写或小写
+// 判断首字母是否为大写
+// 为大写判断后面是否全为小写或大写
+// 为小写判断是否全为小写
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean detectCapitalUse(String word) {
         char[] ch = word.toCharArray();
@@ -28,4 +28,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

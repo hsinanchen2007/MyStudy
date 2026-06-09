@@ -1,9 +1,9 @@
-### 解题思路
-这类题并不要求把所有的数都排好序，所有堆排序非常适合。堆排序的步骤：1.创建堆；2.调整堆。其中调整堆是最基本的操作。
+# ### 解题思路
+# 这类题并不要求把所有的数都排好序，所有堆排序非常适合。堆排序的步骤：1.创建堆；2.调整堆。其中调整堆是最基本的操作。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findKthLargest(self, nums, k: int) -> int:
         # 最大堆：创建堆、调整堆
@@ -42,4 +42,4 @@ class Solution:
             # 调整堆
             adjustHeap(nums, 0, length - 1 - i)
         return nums[0]
-```
+# ```

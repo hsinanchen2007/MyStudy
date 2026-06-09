@@ -1,11 +1,11 @@
-### 解题思路
-遍历1，找出行最大
-遍历2，找出列最大
-遍历3，计算最大填充
+# ### 解题思路
+# 遍历1，找出行最大
+# 遍历2，找出列最大
+# 遍历3，计算最大填充
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -> int:
         if not grid: return 0
@@ -21,4 +21,4 @@ class Solution:
                 total += min(row_max[r], col_max[c]) - grid[r][c]
         return total
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-1. 中序遍历，设置一个全局count计数，遍历到第k个位置时，返回结果
+// ### 解题思路
+// 1. 中序遍历，设置一个全局count计数，遍历到第k个位置时，返回结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

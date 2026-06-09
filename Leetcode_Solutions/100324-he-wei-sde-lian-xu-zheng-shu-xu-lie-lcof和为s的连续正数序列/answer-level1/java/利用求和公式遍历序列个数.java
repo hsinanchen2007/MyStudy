@@ -1,20 +1,20 @@
-等差数列求和公式
+// 等差数列求和公式
 
-$$
-S_n = a_1 + a_2 + ... + a_n = na_1 + \frac{n(n-1)}{2}d
-$$
+// $$
+// S_n = a_1 + a_2 + ... + a_n = na_1 + \frac{n(n-1)}{2}d
+// $$
 
-已知公差d=1，则有
-$$
-S_n = a_1 + a_2 + ... + a_n = na_1 + \frac{n(n-1)}{2}
-$$
+// 已知公差d=1，则有
+// $$
+// S_n = a_1 + a_2 + ... + a_n = na_1 + \frac{n(n-1)}{2}
+// $$
 
-已知sn，每次循环时固定的n，直接可得到a1，然后从a1开始以等差1递增n次即可得到一个合法序列。
-当 a1 不是整数时，跳过循环；当 sn 不够减时，结束循环。
+// 已知sn，每次循环时固定的n，直接可得到a1，然后从a1开始以等差1递增n次即可得到一个合法序列。
+// 当 a1 不是整数时，跳过循环；当 sn 不够减时，结束循环。
 
-n 最多循环 √target 次，每次里面的小循环也需要 n 次(也就是 √target 次) ，所以总的时间复杂度是 `O(target)`
+// n 最多循环 √target 次，每次里面的小循环也需要 n 次(也就是 √target 次) ，所以总的时间复杂度是 `O(target)`
 
-```java
+// ```java
 private static class SolutionV2020 {
     public int[][] findContinuousSequence(int sn) {
         LinkedList<List<Integer>> listList = new LinkedList<>();
@@ -45,4 +45,4 @@ private static class SolutionV2020 {
         return ret;
     }
 }
-```
+// ```

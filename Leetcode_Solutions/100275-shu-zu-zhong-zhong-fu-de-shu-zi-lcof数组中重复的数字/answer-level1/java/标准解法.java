@@ -1,9 +1,9 @@
-### 解题思路
-将nums[nums[i]]置为-1，如果下次再遍历发现该地方为-1，则说明遍历成功
+// ### 解题思路
+// 将nums[nums[i]]置为-1，如果下次再遍历发现该地方为-1，则说明遍历成功
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         for(int i = 0; i < nums.length; i++) {
@@ -19,4 +19,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

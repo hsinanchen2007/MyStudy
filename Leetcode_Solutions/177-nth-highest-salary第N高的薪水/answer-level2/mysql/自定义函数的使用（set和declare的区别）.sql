@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
     set n = N-1;
@@ -25,4 +25,4 @@ BEGIN
     ) t
   );
 END
-```
+-- ```

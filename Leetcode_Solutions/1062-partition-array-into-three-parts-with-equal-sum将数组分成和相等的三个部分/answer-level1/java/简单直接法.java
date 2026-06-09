@@ -1,9 +1,9 @@
-### 解题思路
-求和并除以3，如果能整除，一次循环凑次数；若不能返回false
+// ### 解题思路
+// 求和并除以3，如果能整除，一次循环凑次数；若不能返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -24,4 +24,4 @@ class Solution {
         return count >= 3;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-很常规的题目
-```
+// 很常规的题目
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
         return head;
     }
 };
-```
+// ```

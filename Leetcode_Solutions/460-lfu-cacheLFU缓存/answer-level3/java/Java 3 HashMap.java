@@ -1,9 +1,9 @@
 
-参考下面链接里的写的, 文章里面写得很清楚, 没有花太多时间
+// 参考下面链接里的写的, 文章里面写得很清楚, 没有花太多时间
 
-https://medium.com/algorithm-and-datastructure/lfu-cache-in-o-1-in-java-4bac0892bdb3
+// https://medium.com/algorithm-and-datastructure/lfu-cache-in-o-1-in-java-4bac0892bdb3
 
-```
+// ```
 class LFUCache {
 
     private int cap; //Cache 容量
@@ -62,6 +62,6 @@ class LFUCache {
         }
     }
 }
-```
+// ```
 
 

@@ -1,11 +1,11 @@
-### 解题思路
-建立邻接表
-顶点节点里加入flag,判断其是否被遍历过
-用队列存储入度为0的顶点
+// ### 解题思路
+// 建立邻接表
+// 顶点节点里加入flag,判断其是否被遍历过
+// 用队列存储入度为0的顶点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct Node{
     int innum;
     int outnum;
@@ -58,4 +58,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
 
     return true;
 }
-```
+// ```

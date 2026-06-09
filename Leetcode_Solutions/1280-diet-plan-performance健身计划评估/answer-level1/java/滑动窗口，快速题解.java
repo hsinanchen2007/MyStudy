@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public int dietPlanPerformance(int[] calories, int k, int lower, int upper) {
         int sum = 0;
@@ -22,5 +22,5 @@ class Solution {
         return grade;
     }
 }
-```
+// ```
 

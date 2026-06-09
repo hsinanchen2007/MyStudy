@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   @scala.annotation.tailrec
   def reachingPoints(sx: Int, sy: Int, tx: Int, ty: Int): Boolean = {
@@ -8,4 +8,4 @@ object Solution {
     reachingPoints(sx, sy, tx % ty, ty % tx)
   }
 }
-```
+// ```

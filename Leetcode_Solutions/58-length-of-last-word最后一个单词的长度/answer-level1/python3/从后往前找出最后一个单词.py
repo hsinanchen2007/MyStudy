@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         while i>=0 and s[i] != ' ':
             i -= 1
         return j-i
-```
+# ```

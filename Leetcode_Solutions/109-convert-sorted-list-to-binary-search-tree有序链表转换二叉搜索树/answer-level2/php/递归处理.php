@@ -1,10 +1,10 @@
-### 解题思路
-先封装一个函数，将链表分割为三部分：中间节点，左侧头结点，右侧头结点。
-然后递归调用sortedListToBST即可。
+// ### 解题思路
+// 先封装一个函数，将链表分割为三部分：中间节点，左侧头结点，右侧头结点。
+// 然后递归调用sortedListToBST即可。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -93,4 +93,4 @@ class Solution {
 
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-查找落单的字母，如果落单的字母>1,肯定不是回文字
+// ### 解题思路
+// 查找落单的字母，如果落单的字母>1,肯定不是回文字
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canPermutePalindrome(s string) bool {
     
     smp:=map[rune]int{}
@@ -18,4 +18,4 @@ func canPermutePalindrome(s string) bool {
     }
     return true
 }
-```
+// ```

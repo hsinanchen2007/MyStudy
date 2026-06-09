@@ -1,13 +1,13 @@
-# 思路
-- 先对数组排序
-- 进行遍历数组 nums ，每遍历一个值利用其下标k，形成一个固定值 nums[k]，使用两个指针， 左边起点为 left = k + 1 ，右边终点 right = nums.length - 1 
-- 因为数组已经排序，故在 [left, right]区间内，最大值 sum_three_max = nums[k] + nums[right] + nums[right - 1],最小值为 sum_three_min = nums[k] + nums[left] + nums[left + 1];
-    如果最大值sum_three_max比target还小，或者最小值sum_three_min比target还大，这一轮就可以跳过了。
-    否则就按照正常的双指针找法。
-- 根据 sum = nums[left] + nums[right] + nums[k] 的结果，判断 sum 与目标 target 的距离，如果更近则更新结果 min_sum，同时判断 sum 与 target 的大小关系，因为数组已经排过序，如果 sum > target 则 right--，如果 sum < target 则 right++，如果 sum == target 直接返回结果
+# # 思路
+# - 先对数组排序
+# - 进行遍历数组 nums ，每遍历一个值利用其下标k，形成一个固定值 nums[k]，使用两个指针， 左边起点为 left = k + 1 ，右边终点 right = nums.length - 1 
+# - 因为数组已经排序，故在 [left, right]区间内，最大值 sum_three_max = nums[k] + nums[right] + nums[right - 1],最小值为 sum_three_min = nums[k] + nums[left] + nums[left + 1];
+#     如果最大值sum_three_max比target还小，或者最小值sum_three_min比target还大，这一轮就可以跳过了。
+#     否则就按照正常的双指针找法。
+# - 根据 sum = nums[left] + nums[right] + nums[k] 的结果，判断 sum 与目标 target 的距离，如果更近则更新结果 min_sum，同时判断 sum 与 target 的大小关系，因为数组已经排过序，如果 sum > target 则 right--，如果 sum < target 则 right++，如果 sum == target 直接返回结果
 
 
-```
+# ```
 class Solution(object):
     def threeSumClosest(self, nums, target):
         """
@@ -52,4 +52,4 @@ class Solution(object):
                     else :
                         return sum_three
         return min_sum
-```
+# ```

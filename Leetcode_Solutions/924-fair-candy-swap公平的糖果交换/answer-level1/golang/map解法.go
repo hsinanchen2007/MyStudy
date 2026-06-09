@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fairCandySwap(A []int, B []int) []int {
 	sumA:=0
 	sumB:=0
@@ -25,4 +25,4 @@ func fairCandySwap(A []int, B []int) []int {
 	}
 	return nil
 }
-```
+// ```

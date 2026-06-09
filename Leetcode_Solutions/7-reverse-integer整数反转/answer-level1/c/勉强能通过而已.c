@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverse(int x)
 {
 	int max = 2e31 -1 ;
@@ -31,4 +31,4 @@ int reverse(int x)
 	
 	return (int)result*sign;
 }
-```
+// ```

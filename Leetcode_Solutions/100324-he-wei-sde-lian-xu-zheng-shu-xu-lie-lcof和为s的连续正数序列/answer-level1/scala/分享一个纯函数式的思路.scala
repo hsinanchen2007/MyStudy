@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-利用题目给定的条件进行建模，然后使用`LazyList`生成一个无限流（注意`from`函数）。建模完成后根据题目的条件筛选出合格的答案即可。
+// 利用题目给定的条件进行建模，然后使用`LazyList`生成一个无限流（注意`from`函数）。建模完成后根据题目的条件筛选出合格的答案即可。
 
-这种方法也可以用来解决一些动态规划和DFS的问题。
+// 这种方法也可以用来解决一些动态规划和DFS的问题。
 
-当然也可以用递归。
+// 当然也可以用递归。
 
-### 代码
+// ### 代码
 
-```scala [] 
+// ```scala [] 
 object Solution {
   def findContinuousSequence(target: Int): Array[Array[Int]] = {
     val game = new ContinuousSequence {
@@ -51,8 +51,8 @@ object Solution {
     } yield path._2.reverse.toArray).toArray
   }
 }
-```
-```scala []
+// ```
+// ```scala []
 // 递归解法
 object Solution {
   def findContinuousSequence(target: Int): Array[Array[Int]] = {
@@ -70,4 +70,4 @@ object Solution {
     res.filter(_.nonEmpty).map(_.reverse.toArray).toArray
   }
 }
-```
+// ```

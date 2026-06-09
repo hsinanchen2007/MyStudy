@@ -1,10 +1,10 @@
-### 解题思路
-left[i]存放nums[i]的左侧的和
-right[i]存放nums[i]的右侧的和
-dp:用前一个数的左右的和得出下一个数左右的和
-### 代码
+// ### 解题思路
+// left[i]存放nums[i]的左侧的和
+// right[i]存放nums[i]的右侧的和
+// dp:用前一个数的左右的和得出下一个数左右的和
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return -1;
     }
 };
-```
+// ```

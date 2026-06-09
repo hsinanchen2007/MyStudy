@@ -1,18 +1,18 @@
-### 解题思路
-线段树本身是一种高级数据结构，但构建出一棵线段树后题解思路是相对容易懂的。
+# ### 解题思路
+# 线段树本身是一种高级数据结构，但构建出一棵线段树后题解思路是相对容易懂的。
 
-首先，收集建筑物的x坐标用于构建线段树。
+# 首先，收集建筑物的x坐标用于构建线段树。
 
-测试用例中有[[0,2147483647,2147483647]]这样的例子即可得知，如果我们构建一棵范围在[0,2147483647]的线段树是很不效率的。
-所以我们建立一个x坐标的映射，将它们缩小至[0:len(x坐标总数)]的范围。
+# 测试用例中有[[0,2147483647,2147483647]]这样的例子即可得知，如果我们构建一棵范围在[0,2147483647]的线段树是很不效率的。
+# 所以我们建立一个x坐标的映射，将它们缩小至[0:len(x坐标总数)]的范围。
 
-这是一个维护区间最大值的线段树，为更新方便，将建筑物的高度从小到大排序，直接覆盖该区间的值，就不会破坏线段树的区间最大值。
+# 这是一个维护区间最大值的线段树，为更新方便，将建筑物的高度从小到大排序，直接覆盖该区间的值，就不会破坏线段树的区间最大值。
 
-最后对于线段树的每一个点查询它的最大值即可生成天际线。
+# 最后对于线段树的每一个点查询它的最大值即可生成天际线。
 
-### 代码
+# ### 代码
 
-``` python3
+# ``` python3
 class Solution:
     def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
         if len(buildings) == 0:
@@ -43,10 +43,10 @@ class Solution:
             geometricX.add(start)
             geometricX.add(end)
         return sorted(geometricX)
-```
-### 附：线段树
+# ```
+# ### 附：线段树
 
-``` python3
+# ``` python3
 class Node:
     def __init__(self, startIndex, endIndex, val):
         self.start = startIndex
@@ -124,4 +124,4 @@ class MultiOverwriteSegmentTree:
             root.right.lazyVal = root.lazyVal
         root.lazyVal = None
 
-```
+# ```

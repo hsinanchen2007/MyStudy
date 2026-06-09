@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
     private:stack<int> s1;
     private:stack<int> s2;
@@ -115,4 +115,4 @@ public:
 //         else
 //             return false;
 //     }
-```
+// ```

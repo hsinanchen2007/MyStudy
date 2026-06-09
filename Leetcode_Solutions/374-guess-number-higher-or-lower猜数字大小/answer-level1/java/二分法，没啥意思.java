@@ -1,9 +1,9 @@
-### 解题思路
-log(N)时间复杂度。
+// ### 解题思路
+// log(N)时间复杂度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /* The guess API is defined in the parent class GuessGame.
    @param num, your guess
    @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -27,4 +27,4 @@ public class Solution extends GuessGame {
         return end;
     }
 }
-```
+// ```

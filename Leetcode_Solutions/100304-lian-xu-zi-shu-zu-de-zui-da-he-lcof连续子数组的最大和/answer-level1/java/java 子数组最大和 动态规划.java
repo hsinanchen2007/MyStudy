@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //动态规划算法
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -30,4 +30,4 @@ class Solution {
         
     }
 }
-```
+// ```

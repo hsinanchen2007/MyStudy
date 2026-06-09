@@ -1,10 +1,10 @@
-### 解题思路
-在 206 题[https://leetcode-cn.com/problems/reverse-linked-list/] 中实现了链表反转。
-可以先反转链表，删除链表中的第 n 个节点，难度就小多了。在删除节点后再次调用反转函数即可。
+// ### 解题思路
+// 在 206 题[https://leetcode-cn.com/problems/reverse-linked-list/] 中实现了链表反转。
+// 可以先反转链表，删除链表中的第 n 个节点，难度就小多了。在删除节点后再次调用反转函数即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     dummy->next = reversal(dummy->next);
     return dummy->next;
 }
-```
+// ```

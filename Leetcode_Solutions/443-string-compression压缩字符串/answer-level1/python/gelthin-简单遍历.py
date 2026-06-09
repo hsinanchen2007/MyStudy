@@ -1,11 +1,11 @@
-### 解题思路
-也许有更好的代码。
+# ### 解题思路
+# 也许有更好的代码。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compress(self, chars: List[str]) -> int:
         n = len(chars)
@@ -23,4 +23,4 @@ class Solution:
                     i += 1
             j += 1  # 漏了此导致 bug 
         return i 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-官方题解方法三双指针法的Python版本
+# ### 解题思路
+# 官方题解方法三双指针法的Python版本
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumSmaller(self, nums: List[int], target: int) -> int:
         if len(nums) < 3:  # 处理边界条件
@@ -22,8 +22,8 @@ class Solution:
                 else:
                     right -= 1
         return ans
-```
-### 复杂度分析
-- 时间复杂度：$O(n^2)$。在每一步中，要么`left`向右移动一位，要么`right`向左移动一位。当`left = right`时循环结束，因此它的时间复杂度为$O(n)$。加上外层的循环，总的时间复杂度为$O(n^2)$。
-- 空间复杂度：$O(1)$。
+# ```
+# ### 复杂度分析
+# - 时间复杂度：$O(n^2)$。在每一步中，要么`left`向右移动一位，要么`right`向左移动一位。当`left = right`时循环结束，因此它的时间复杂度为$O(n)$。加上外层的循环，总的时间复杂度为$O(n^2)$。
+# - 空间复杂度：$O(1)$。
 

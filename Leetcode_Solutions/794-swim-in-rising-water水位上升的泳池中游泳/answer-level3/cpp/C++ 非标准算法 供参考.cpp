@@ -1,7 +1,7 @@
-维护一个动态的水池边界点集，初始化为{{0,1},{1,0}}；
-不断加高水位，水位打到水池边界最低点，则更新水池边界点集，往外扩张
+// 维护一个动态的水池边界点集，初始化为{{0,1},{1,0}}；
+// 不断加高水位，水位打到水池边界最低点，则更新水池边界点集，往外扩张
 
-```
+// ```
     bool** MakeMatrix(int rows, int cols, bool defVal) {
         bool** mat = new bool*[rows];
         for (int i = 0; i < rows; ++i) {
@@ -78,5 +78,5 @@ RET:
         DestroyMatrix(gridUsed, N);
         return level;
     }
-```
-![image.png](https://pic.leetcode-cn.com/58ef580eaf73dc431e1109d3540282b2eee1e8fed7f0f6684d5b0ad1cf2afbaf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/58ef580eaf73dc431e1109d3540282b2eee1e8fed7f0f6684d5b0ad1cf2afbaf-image.png)

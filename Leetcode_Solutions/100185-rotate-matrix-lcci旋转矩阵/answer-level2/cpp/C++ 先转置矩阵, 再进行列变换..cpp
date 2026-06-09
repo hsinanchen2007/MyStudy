@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 private:
     int n;
@@ -25,4 +25,4 @@ public:
         colTrans(matrix);
     }
 };
-```
+// ```

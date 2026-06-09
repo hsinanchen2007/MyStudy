@@ -1,16 +1,16 @@
-### 解题思路
-本题考查数组下标关系，以及原位交换的知识，这里给出C语言的写法。
+// ### 解题思路
+// 本题考查数组下标关系，以及原位交换的知识，这里给出C语言的写法。
 
-关键点：
-1.根据第一个点计算其他三个点的位置
-2.原位异或交换
+// 关键点：
+// 1.根据第一个点计算其他三个点的位置
+// 2.原位异或交换
 
-![image.png](https://pic.leetcode-cn.com/c38d6494f4b1a02c0607e218259a3c1eb4d6c664c42a594579d925a1647521c6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c38d6494f4b1a02c0607e218259a3c1eb4d6c664c42a594579d925a1647521c6-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -55,4 +55,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

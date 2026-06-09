@@ -1,4 +1,4 @@
-```
+// ```
 #define APL_NUM 26
 typedef struct _TireTree TireTree;
 struct _TireTree{
@@ -46,4 +46,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     }
     return count;
 }
-```
+// ```

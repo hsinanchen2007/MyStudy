@@ -1,9 +1,9 @@
-### 解题思路
-leetcode206. 反转链表
+// ### 解题思路
+// leetcode206. 反转链表
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -30,4 +30,4 @@ func reverse(pre, cur *ListNode) *ListNode {
    cur.Next = pre
    return head
 }
-```
+// ```

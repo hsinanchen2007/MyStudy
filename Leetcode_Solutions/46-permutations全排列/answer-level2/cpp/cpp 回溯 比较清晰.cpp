@@ -1,8 +1,8 @@
-//回溯
-//路径：记录在track中
-//选择列表：nums中不存在于track中的元素
-//结束条件：nums中的元素全部出现在track中
-```
+// //回溯
+// //路径：记录在track中
+// //选择列表：nums中不存在于track中的元素
+// //结束条件：nums中的元素全部出现在track中
+// ```
 class Solution {
 public:
     vector<vector<int>> result;
@@ -27,4 +27,4 @@ public:
         }
     }
 };
-```
+// ```

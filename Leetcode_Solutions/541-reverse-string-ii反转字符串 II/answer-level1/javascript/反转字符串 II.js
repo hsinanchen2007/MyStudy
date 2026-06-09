@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-将字符串分割，依次去反转。
+// 将字符串分割，依次去反转。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} k
@@ -22,4 +22,4 @@ var reverseStr = function(s, k) {
     });
     return result.join('');
 };
-```
+// ```

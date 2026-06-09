@@ -1,9 +1,9 @@
-### 解题思路
-计数排序
+// ### 解题思路
+// 计数排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         //计数排序
@@ -38,4 +38,4 @@ class Solution {
         return arr1;
     }
 }
-```
+// ```

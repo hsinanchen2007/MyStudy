@@ -1,9 +1,9 @@
-// The rand7() API is already defined for you.
-// int rand7();
-// @return a random integer in the range 1 to 7
+// // The rand7() API is already defined for you.
+// // int rand7();
+// // @return a random integer in the range 1 to 7
 
-//要得到rand10(),首先得到rand10() * K，这里的关键是a的分布一定是均匀的（概率相同）
-```
+// //要得到rand10(),首先得到rand10() * K，这里的关键是a的分布一定是均匀的（概率相同）
+// ```
 class Solution {
 public:
     int rand10() {
@@ -16,4 +16,4 @@ public:
         return 0;
     }
 };
-```
+// ```

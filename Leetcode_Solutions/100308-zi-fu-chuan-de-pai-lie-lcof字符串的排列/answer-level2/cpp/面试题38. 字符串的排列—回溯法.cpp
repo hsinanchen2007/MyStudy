@@ -1,8 +1,8 @@
-方法一 
-一个布尔数组visited，初始化的时候都为 false 表示这些数还没有被选择，当我们选定一个数的时候，就将这个数组的相应位置设置为true。 
-当s[i-1] == s[i]时，若确定当前位为s[i-1]，下一位为s[i]，在下一次将当前位确定为s[i]时，s[i-1]会被撤销选择, 即s[i-1]当前未被使用，那么确定下一位时可能出现s[i-1]，由于s[i-1] == s[i]，s[i-1]、s[i]和s[i]、s[i-1]是一样的。
-因此需要去重，即当s[i-1] == s[i] && !visited[i-1]当前循环停止直接进入下次循环。
-```
+// 方法一 
+// 一个布尔数组visited，初始化的时候都为 false 表示这些数还没有被选择，当我们选定一个数的时候，就将这个数组的相应位置设置为true。 
+// 当s[i-1] == s[i]时，若确定当前位为s[i-1]，下一位为s[i]，在下一次将当前位确定为s[i]时，s[i-1]会被撤销选择, 即s[i-1]当前未被使用，那么确定下一位时可能出现s[i-1]，由于s[i-1] == s[i]，s[i-1]、s[i]和s[i]、s[i-1]是一样的。
+// 因此需要去重，即当s[i-1] == s[i] && !visited[i-1]当前循环停止直接进入下次循环。
+// ```
 class Solution {
 public:
     vector<string> permutation(string s) {
@@ -28,8 +28,8 @@ public:
         }
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     vector<string> permutation(string s) {
@@ -53,9 +53,9 @@ public:
         }
     }
 };
-```
-方法二 交换swap()
-```
+// ```
+// 方法二 交换swap()
+// ```
 class Solution {
 public:
     vector<string> permutation(string s) {
@@ -78,8 +78,8 @@ public:
         }
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     vector<string> permutation(string s) {
@@ -102,5 +102,5 @@ public:
         }
     }
 };
-```
+// ```
 

@@ -1,20 +1,20 @@
-第一次不看评论题解 击败了
+// 第一次不看评论题解 击败了
 
-执行用时 :
-1 ms
-, 在所有 Java 提交中击败了
-99.83%
-的用户
-内存消耗 :
-35.7 MB
-, 在所有 Java 提交中击败了
-100.00%
-的用户
-思路： 1. 创建一个数组长度小于等于1001  = list   
-2. 将arr1循环放入到list中arr1中的值作为下标，value为出现的次数
-3. 循环arr2，根据对应下标取出value,循环添加当前下标value次，然后将value赋值为0；
-4. 循环list，将value值不等于1的循环添加到数组末尾
-```
+// 执行用时 :
+// 1 ms
+// , 在所有 Java 提交中击败了
+// 99.83%
+// 的用户
+// 内存消耗 :
+// 35.7 MB
+// , 在所有 Java 提交中击败了
+// 100.00%
+// 的用户
+// 思路： 1. 创建一个数组长度小于等于1001  = list   
+// 2. 将arr1循环放入到list中arr1中的值作为下标，value为出现的次数
+// 3. 循环arr2，根据对应下标取出value,循环添加当前下标value次，然后将value赋值为0；
+// 4. 循环list，将value值不等于1的循环添加到数组末尾
+// ```
 public static int[] relativeSortArray(int[] arr1, int[] arr2) {
 		int[] list = new int[1001];
 		for (int i = 0; i < arr1.length; i++) {
@@ -39,4 +39,4 @@ public static int[] relativeSortArray(int[] arr1, int[] arr2) {
 		
 		return arr1;
 	}
-```
+// ```

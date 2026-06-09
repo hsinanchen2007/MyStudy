@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 
@@ -76,9 +76,9 @@ public:
         return ans;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c3c47a5eb8ccb1a71b51f4a7055d2eadede6774a093e09ee4b18fdf5a7a7301f-image.png)
-//
-用kmp还需要注意些细节，debug很久～可能是我太菜了居然跑了1000+ms
-数位dp+kmp的版本
-https://paste.ubuntu.com/p/KF6kY7mJt9/
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c3c47a5eb8ccb1a71b51f4a7055d2eadede6774a093e09ee4b18fdf5a7a7301f-image.png)
+// //
+// 用kmp还需要注意些细节，debug很久～可能是我太菜了居然跑了1000+ms
+// 数位dp+kmp的版本
+// https://paste.ubuntu.com/p/KF6kY7mJt9/

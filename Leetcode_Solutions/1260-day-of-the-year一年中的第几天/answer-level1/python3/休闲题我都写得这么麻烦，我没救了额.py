@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200215170151.png](https://pic.leetcode-cn.com/025960d3e8f10181c6266607f9f93f11fc7878ea35c6f0ed85b58d150ad3eda4-QQ%E6%88%AA%E5%9B%BE20200215170151.png)
+# ### 解题思路
+# ![QQ截图20200215170151.png](https://pic.leetcode-cn.com/025960d3e8f10181c6266607f9f93f11fc7878ea35c6f0ed85b58d150ad3eda4-QQ%E6%88%AA%E5%9B%BE20200215170151.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import functools
 class Solution:
     def dayOfYear(self, date: str) -> int:
@@ -28,4 +28,4 @@ class Solution:
             days += functools.reduce(lambda x, y: x + y, days_of_month[0:month-1])
             days += day
         return days
-```
+# ```

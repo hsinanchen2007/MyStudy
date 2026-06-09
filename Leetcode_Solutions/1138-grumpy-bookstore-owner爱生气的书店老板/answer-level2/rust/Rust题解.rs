@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn max_satisfied(customers: Vec<i32>, grumpy: Vec<i32>, x: i32) -> i32 {
         let mut curr = 0;
@@ -22,5 +22,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

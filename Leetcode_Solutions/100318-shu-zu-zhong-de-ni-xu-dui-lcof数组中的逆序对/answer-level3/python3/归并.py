@@ -1,12 +1,12 @@
-### 解题思路
-归并递归思想。
-左右两部分的逆序数，加上两部分总共的逆序数
+# ### 解题思路
+# 归并递归思想。
+# 左右两部分的逆序数，加上两部分总共的逆序数
 
-代码如下
+# 代码如下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         if not nums:
@@ -40,4 +40,4 @@ class Solution:
         re, re_list = merge_order(nums)
         return re
             
-```
+# ```

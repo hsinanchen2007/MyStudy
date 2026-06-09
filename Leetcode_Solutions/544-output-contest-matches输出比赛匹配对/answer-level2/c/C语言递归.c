@@ -1,5 +1,5 @@
-直接创建动态二维数组，折半首尾合并（1和8, 2和7，3和6.....），然后递归到只剩1行即结果。申请内存默认不会失败，未加保护。
-```
+// 直接创建动态二维数组，折半首尾合并（1和8, 2和7，3和6.....），然后递归到只剩1行即结果。申请内存默认不会失败，未加保护。
+// ```
 char** find(char **nums, int numsSize, int numsColSize, int *returnSize, int *returnColSize)
 {
     int i;
@@ -58,4 +58,4 @@ char * findContestMatch(int n)
     free(res);
     return ans;
 }
-```
+// ```

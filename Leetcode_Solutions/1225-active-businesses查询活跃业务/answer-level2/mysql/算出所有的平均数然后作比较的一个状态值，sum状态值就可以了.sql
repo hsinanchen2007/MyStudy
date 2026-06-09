@@ -1,9 +1,9 @@
-### 解题思路
-算出所有的平均数然后作比较的一个状态值，sum状态值就可以了
+-- ### 解题思路
+-- 算出所有的平均数然后作比较的一个状态值，sum状态值就可以了
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select
@@ -36,4 +36,4 @@ group by
 	tmp1.business_id
 having
 	sum(tmp1.isActive) >= 2
-```
+-- ```

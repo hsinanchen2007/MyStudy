@@ -1,8 +1,8 @@
-![Screen Shot 2020-02-12 at 12.39.27.png](https://pic.leetcode-cn.com/f9232727598d6f992a3ebb7a7b69d2d2330b1a513f08d711267da3489b3cca82-Screen%20Shot%202020-02-12%20at%2012.39.27.png)
+// ![Screen Shot 2020-02-12 at 12.39.27.png](https://pic.leetcode-cn.com/f9232727598d6f992a3ebb7a7b69d2d2330b1a513f08d711267da3489b3cca82-Screen%20Shot%202020-02-12%20at%2012.39.27.png)
 
-链表基本操作。
+// 链表基本操作。
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         return newList.next;
     }
 }
-```
+// ```

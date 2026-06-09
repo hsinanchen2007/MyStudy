@@ -1,7 +1,7 @@
-创建max,second和third变量来存放最大、第二大和第三大的值。
-将second和third初始化为Integer.MAX_VALUE应该是没有问题吧？
+// 创建max,second和third变量来存放最大、第二大和第三大的值。
+// 将second和third初始化为Integer.MAX_VALUE应该是没有问题吧？
 
-```
+// ```
 public int thirdMax(int[] nums) {
         Arrays.sort(nums);
         int len = nums.length;
@@ -28,9 +28,9 @@ public int thirdMax(int[] nums) {
             return max;
         }
     }
-```
+// ```
 
-Accepted
-26/26 cases passed (2 ms)
-Your runtime beats 62.49 % of java submissions
-Your memory usage beats 68.24 % of java submissions (38.1 MB)
+// Accepted
+// 26/26 cases passed (2 ms)
+// Your runtime beats 62.49 % of java submissions
+// Your memory usage beats 68.24 % of java submissions (38.1 MB)

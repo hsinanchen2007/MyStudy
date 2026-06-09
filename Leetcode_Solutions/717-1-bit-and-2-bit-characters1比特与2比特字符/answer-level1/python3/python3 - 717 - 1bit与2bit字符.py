@@ -1,10 +1,10 @@
-### 解题思路
-从倒数第二位起，算连续1的个数
-只有连续1的个数为偶数，才能保证最后一位一定是1比特
+# ### 解题思路
+# 从倒数第二位起，算连续1的个数
+# 只有连续1的个数为偶数，才能保证最后一位一定是1比特
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isOneBitCharacter(self, bits: List[int]) -> bool:
         tmp = 0
@@ -16,4 +16,4 @@ class Solution:
         if tmp % 2 == 0:
             return True
         return False
-```
+# ```

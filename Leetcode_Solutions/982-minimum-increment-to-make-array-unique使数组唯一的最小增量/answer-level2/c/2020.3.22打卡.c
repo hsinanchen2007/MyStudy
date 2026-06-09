@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再一个个算差值
+// ### 解题思路
+// 先排序，再一个个算差值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void quicksort(int *A,int start,int end)
 {
     int mid=*(A+end);
@@ -58,4 +58,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return ans;
 }
-```
+// ```

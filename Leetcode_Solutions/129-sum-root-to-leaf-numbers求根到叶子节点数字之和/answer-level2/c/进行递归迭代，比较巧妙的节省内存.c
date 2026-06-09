@@ -1,4 +1,4 @@
-```
+// ```
 void sum_tree(struct TreeNode *root, int value_root, int *count)
 {
     if (root->right == NULL && root->left == NULL)
@@ -31,4 +31,4 @@ int sumNumbers(struct TreeNode* root){
     }
     return count;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 public int myAtoi(String str) {
         // str is null or empty
         if (str == null || (str = str.trim()).isEmpty()) {
@@ -33,4 +33,4 @@ public int myAtoi(String str) {
         }
         return sign == '+' ? ans :  -ans;
     }
-```
+// ```

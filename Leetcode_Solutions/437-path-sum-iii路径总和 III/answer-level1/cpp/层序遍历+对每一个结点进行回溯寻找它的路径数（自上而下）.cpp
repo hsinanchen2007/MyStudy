@@ -1,9 +1,9 @@
-### 解题思路
-257题和112题的结合。
+// ### 解题思路
+// 257题和112题的结合。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -59,4 +59,4 @@ private:
         return count;
     }
 };
-```
+// ```

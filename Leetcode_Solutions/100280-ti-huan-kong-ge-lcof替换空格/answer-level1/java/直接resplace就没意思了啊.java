@@ -1,9 +1,9 @@
-### 解题思路
-双百
+// ### 解题思路
+// 双百
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         StringBuffer result = new StringBuffer();
@@ -18,4 +18,4 @@ class Solution {
         return result.toString();
     }
 }
-```
+// ```

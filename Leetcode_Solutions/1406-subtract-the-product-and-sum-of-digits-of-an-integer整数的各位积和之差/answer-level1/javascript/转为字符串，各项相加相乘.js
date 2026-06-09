@@ -1,9 +1,9 @@
-### 解题思路
-转为字符串，各项相加相乘，运算过程中注意转为数字
+// ### 解题思路
+// 转为字符串，各项相加相乘，运算过程中注意转为数字
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -18,4 +18,4 @@ var subtractProductAndSum = function(n) {
     }
     return count - total;
 };
-```
+// ```

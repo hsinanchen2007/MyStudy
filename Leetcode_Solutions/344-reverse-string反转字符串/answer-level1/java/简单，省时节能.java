@@ -1,9 +1,9 @@
-### 解题思路
-直接交换对应索引位置的元素即可。 击败 100% & 97% ~
+// ### 解题思路
+// 直接交换对应索引位置的元素即可。 击败 100% & 97% ~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         char a = 0;
@@ -14,4 +14,4 @@ class Solution {
         }
     }
 }
-```
+// ```

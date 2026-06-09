@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDominoRotations(int[] A, int[] B) {
         int[] aCount = new int[6];
@@ -66,4 +66,4 @@ class Solution {
         return ans == 20001 ? -1 : ans;
     }
 }
-```
+// ```

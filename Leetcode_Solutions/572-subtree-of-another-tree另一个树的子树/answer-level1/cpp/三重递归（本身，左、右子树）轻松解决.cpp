@@ -1,10 +1,10 @@
-### 解题思路
-思路在注解里：
-主要思路其实就是要么本身是t，要么左右子树是t,中间是或的关系
+// ### 解题思路
+// 思路在注解里：
+// 主要思路其实就是要么本身是t，要么左右子树是t,中间是或的关系
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
        return (Judge(s->left,t->left) && Judge(s->right,t->right));
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/894b81e864b788ab06dfe6d2e2f36fe685c09ac7666a45371f6b7b6293c9507e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/894b81e864b788ab06dfe6d2e2f36fe685c09ac7666a45371f6b7b6293c9507e-image.png)
 
-```
+// ```
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
@@ -20,4 +20,4 @@ public:
 		return s1<s2?s1:s2;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-单调栈，取余代替扩展数组
+// ### 解题思路
+// 单调栈，取余代替扩展数组
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-创建一个空结点指向头结点，这样返回新链表的头结点时就不会因为头结点可能被删除而带来bug。
+// ### 解题思路
+// 创建一个空结点指向头结点，这样返回新链表的头结点时就不会因为头结点可能被删除而带来bug。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,5 +29,5 @@ public:
         return H->next;         //返回的是新链表 指向头节点的无意义结点
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/1de16c57ac9732f7e4c73f7d67274742f24067ce93e62c70198cbdc8c024d192-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/1de16c57ac9732f7e4c73f7d67274742f24067ce93e62c70198cbdc8c024d192-image.png)

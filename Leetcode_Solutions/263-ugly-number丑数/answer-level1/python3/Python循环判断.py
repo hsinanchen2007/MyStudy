@@ -1,5 +1,5 @@
-对num，遍历集合x，如果不能被2或3或5整除，返回False，否则更新num继续判断。
-```
+# 对num，遍历集合x，如果不能被2或3或5整除，返回False，否则更新num继续判断。
+# ```
 class Solution:
     def isUgly(self, num: int) -> bool:
         if num<=0:
@@ -13,4 +13,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

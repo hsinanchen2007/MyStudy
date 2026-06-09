@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         odd_hw_indexs=[]#奇数位
@@ -52,4 +52,4 @@ class Solution:
         return re_str
         
         
-```
+# ```

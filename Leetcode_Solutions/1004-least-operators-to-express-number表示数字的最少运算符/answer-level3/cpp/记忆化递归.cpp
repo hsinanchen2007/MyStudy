@@ -1,9 +1,9 @@
-### 解题思路
-实际上是用带负数的x进制表示target。
+// ### 解题思路
+// 实际上是用带负数的x进制表示target。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 typedef long long ll;
 const ll INF = 1e10;
 
@@ -48,4 +48,4 @@ public:
         return ans - 1;
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-![2019122101.PNG](https://pic.leetcode-cn.com/22efdceee25c04d1e50738c4c76b8de42ddd54ab4c79c170cb35b6ef99ebed72-2019122101.PNG)
-### 解题思路
-//遍历一遍数组,设置三个变量:firstMax(记录遍历过程中出现的最大数),firstIndex(记录遍历过程中最大数的索引值),
-//secondMax(记录遍历过程中出现的第二大的数),
-//整个遍历完成后:用firstMax与secondMax进行除法运算,除法存在两种情况:
-//1) secondMax不为0,firstMax/secondMax大于等于2,则返回firstIndex;
-//2) secondMax为0,firstMax不为0,则返回firstIndex;
-//否则返回-1;
-### 代码
-```java
+// ![2019122101.PNG](https://pic.leetcode-cn.com/22efdceee25c04d1e50738c4c76b8de42ddd54ab4c79c170cb35b6ef99ebed72-2019122101.PNG)
+// ### 解题思路
+// //遍历一遍数组,设置三个变量:firstMax(记录遍历过程中出现的最大数),firstIndex(记录遍历过程中最大数的索引值),
+// //secondMax(记录遍历过程中出现的第二大的数),
+// //整个遍历完成后:用firstMax与secondMax进行除法运算,除法存在两种情况:
+// //1) secondMax不为0,firstMax/secondMax大于等于2,则返回firstIndex;
+// //2) secondMax为0,firstMax不为0,则返回firstIndex;
+// //否则返回-1;
+// ### 代码
+// ```java
 class Solution {
     public int dominantIndex(int[] nums) {
     	int firstMax = 0;
@@ -39,4 +39,4 @@ class Solution {
     	return -1;
     }
 }
-```
+// ```

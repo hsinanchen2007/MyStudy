@@ -1,5 +1,5 @@
-大家可以先看一下官方题解中思路，在看我的程序比较好
-```
+// 大家可以先看一下官方题解中思路，在看我的程序比较好
+// ```
 struct ListNode *detectCycle(struct ListNode *pHead) {
     if (pHead == NULL || pHead->next == NULL) return NULL;
     struct ListNode *fast = pHead;
@@ -13,4 +13,4 @@ struct ListNode *detectCycle(struct ListNode *pHead) {
     while (fast != slow) slow = slow->next, fast = fast->next;
     return fast;
 }
-```
+// ```

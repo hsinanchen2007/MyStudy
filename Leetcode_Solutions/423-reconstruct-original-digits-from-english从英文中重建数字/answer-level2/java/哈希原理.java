@@ -1,6 +1,6 @@
-按照下列的顺序进行检测,可以根据加粗的字母来确定该数字的个数
-**z**ero,t**w**o,si**x**,ei**g**ht->**s**even->fi**v**e->**f**our->t**h**ree->n**i**ne->o**n**e
-```
+// 按照下列的顺序进行检测,可以根据加粗的字母来确定该数字的个数
+// **z**ero,t**w**o,si**x**,ei**g**ht->**s**even->fi**v**e->**f**our->t**h**ree->n**i**ne->o**n**e
+// ```
 class Solution {
     public String originalDigits(String s) {
         int i, j;
@@ -39,5 +39,5 @@ class Solution {
         return answer;
     }
 }
-```
+// ```
 

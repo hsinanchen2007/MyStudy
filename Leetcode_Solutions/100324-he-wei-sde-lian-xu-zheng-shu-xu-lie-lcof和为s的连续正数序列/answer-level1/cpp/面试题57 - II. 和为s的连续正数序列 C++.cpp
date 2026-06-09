@@ -1,11 +1,11 @@
-### 解题思路
-一看到连续正数序列，不用想，**一定是前缀和+MAP或者前缀和+二分查找**
+// ### 解题思路
+// 一看到连续正数序列，不用想，**一定是前缀和+MAP或者前缀和+二分查找**
 
-如下代码用的是前缀和+map
+// 如下代码用的是前缀和+map
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target)
@@ -42,4 +42,4 @@ public:
         return result;
     }
 };
-```
+// ```

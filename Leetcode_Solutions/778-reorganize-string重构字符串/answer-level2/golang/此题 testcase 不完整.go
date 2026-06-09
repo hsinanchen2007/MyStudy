@@ -1,6 +1,6 @@
-本来以为是 1046 的翻版，用如下方法解决
+// 本来以为是 1046 的翻版，用如下方法解决
 
-```go
+// ```go
 func left(i int) int {
     return 2 * i + 1
 }
@@ -96,13 +96,13 @@ func reorganizeString(S string) string {
         }
     }
 }
-```
+// ```
 
-这种解法可以 beat 100% 的提交，但是是有缺陷的，比如 “aabbcc” 就不会得到正确输出。
+// 这种解法可以 beat 100% 的提交，但是是有缺陷的，比如 “aabbcc” 就不会得到正确输出。
 
-改用如下方法可以通过这个 case
+// 改用如下方法可以通过这个 case
 
-```
+// ```
 func left(i int) int {
     return 2 * i + 1
 }
@@ -203,4 +203,4 @@ func reorganizeString(S string) string {
         }
     }
 }
-```
+// ```

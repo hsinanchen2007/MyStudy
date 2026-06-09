@@ -1,11 +1,11 @@
-### 解题思路
-对每个 string， 计算出一个 hash map， 然后取相同 key 对应的出现次数的较小值。
+# ### 解题思路
+# 对每个 string， 计算出一个 hash map， 然后取相同 key 对应的出现次数的较小值。
 
-他人的解法还是比我好，简洁精炼。
+# 他人的解法还是比我好，简洁精炼。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         hs = dict()
@@ -34,4 +34,4 @@ class Solution:
         
         return result
 
-```
+# ```

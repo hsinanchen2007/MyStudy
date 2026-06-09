@@ -1,8 +1,8 @@
-### 解题思路
-用java实现大小堆，保证大小堆的大小差不大于1并且小堆最小值大于大堆最大值。
-### 代码
+// ### 解题思路
+// 用java实现大小堆，保证大小堆的大小差不大于1并且小堆最小值大于大堆最大值。
+// ### 代码
 
-```java
+// ```java
 class MedianFinder {
     
     private Heap maxHeap;
@@ -183,4 +183,4 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

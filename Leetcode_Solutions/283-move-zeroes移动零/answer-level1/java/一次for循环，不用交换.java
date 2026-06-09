@@ -1,5 +1,5 @@
-1. `lastNonZeroIndex`指向从前向后最后一个不为0的元素，`i`为遍历指针。
-```
+// 1. `lastNonZeroIndex`指向从前向后最后一个不为0的元素，`i`为遍历指针。
+// ```
  class Solution {
         public void moveZeroes(int[] nums) {
             //定义 nums[0]~nums[lastNonZeroIndex]!=0
@@ -15,4 +15,4 @@
             }
         }
     }
-```
+// ```

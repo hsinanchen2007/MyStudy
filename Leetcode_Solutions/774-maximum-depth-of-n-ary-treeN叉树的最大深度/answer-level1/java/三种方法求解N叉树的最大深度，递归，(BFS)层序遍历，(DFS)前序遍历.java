@@ -1,5 +1,5 @@
-N叉树和二叉树求最大深度的步骤差不读，只不过二叉树只有左右两个孩子节点，而N叉树最多有N个孩子节点，因此只要遍历所有的孩子同时并找到最大值即可
-```java
+// N叉树和二叉树求最大深度的步骤差不读，只不过二叉树只有左右两个孩子节点，而N叉树最多有N个孩子节点，因此只要遍历所有的孩子同时并找到最大值即可
+// ```java
 class Solution {
     public int maxDepth(Node root) {
         int max = 0;
@@ -15,9 +15,9 @@ class Solution {
         return max;
     }
 }
-```
-BFS层序遍历，使用队列模拟递归的过程（迭代）
-```java
+// ```
+// BFS层序遍历，使用队列模拟递归的过程（迭代）
+// ```java
 import java.util.AbstractMap;
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -46,9 +46,9 @@ class Solution {
         return depth;
     }
 }
-```
-DFS前序遍历，使用栈进行迭代
-```java
+// ```
+// DFS前序遍历，使用栈进行迭代
+// ```java
 import java.util.AbstractMap;
 import java.util.Stack;
 
@@ -75,4 +75,4 @@ class Solution {
         return depth;
     }
 }
-```
+// ```

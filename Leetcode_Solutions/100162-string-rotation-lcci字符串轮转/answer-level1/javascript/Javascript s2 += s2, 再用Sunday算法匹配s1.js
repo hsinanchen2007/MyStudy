@@ -1,4 +1,4 @@
-```
+// ```
 var isFlipedString = function (s1, s2) {
 
     // 长度不一致，返回false
@@ -30,4 +30,4 @@ var isFlipedString = function (s1, s2) {
     }
     return false;
 };
-```
+// ```

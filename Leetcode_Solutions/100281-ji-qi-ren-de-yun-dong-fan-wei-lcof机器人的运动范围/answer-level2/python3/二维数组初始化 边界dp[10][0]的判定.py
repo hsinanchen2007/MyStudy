@@ -1,6 +1,6 @@
-- 注意两种特殊情况：k=4时，dp[10][0] 这种必须在dp[9][0]为真的才可以
-- 注意二维数组的初始化  不能 直接[[0]*n]*m 会使得地址相连
-```
+# - 注意两种特殊情况：k=4时，dp[10][0] 这种必须在dp[9][0]为真的才可以
+# - 注意二维数组的初始化  不能 直接[[0]*n]*m 会使得地址相连
+# ```
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def valid(m,n,k):
@@ -24,4 +24,4 @@ class Solution:
                             res += 1
             return res
         return main(m,n,k)
-```
+# ```

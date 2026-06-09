@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-01-22 16.25.01.png](https://pic.leetcode-cn.com/794ccab66b3938e944f80f3e86931fb81de410823b58cf20cca5b7f570f4717f-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-22%2016.25.01.png)
+// ### 解题思路
+// ![屏幕快照 2020-01-22 16.25.01.png](https://pic.leetcode-cn.com/794ccab66b3938e944f80f3e86931fb81de410823b58cf20cca5b7f570f4717f-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-22%2016.25.01.png)
 
 
-### 记忆化搜索
+// ### 记忆化搜索
 
-```java
+// ```java
 class Solution {
     int[] memo;
     public int climbStairs(int n) {
@@ -31,11 +31,11 @@ class Solution {
         return memo[n];
     }
 }
-```
+// ```
 
-### 动态规划
+// ### 动态规划
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         if (n == 0 || n == 1) {
@@ -53,4 +53,4 @@ class Solution {
         return memo[n];
     }
 }
-```
+// ```

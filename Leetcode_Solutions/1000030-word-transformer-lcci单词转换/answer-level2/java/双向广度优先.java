@@ -1,7 +1,7 @@
-1. 通过List数组保存words之间的连通关系；
-2. 分别从start和end进行广度优先搜索，并将遍历过程存放在Map中；
-3. 如果出现“两头都可以到达某一个节点”的时候，表示start和end之间存在通路, 停止遍历并输出结果。  
-```java
+// 1. 通过List数组保存words之间的连通关系；
+// 2. 分别从start和end进行广度优先搜索，并将遍历过程存放在Map中；
+// 3. 如果出现“两头都可以到达某一个节点”的时候，表示start和end之间存在通路, 停止遍历并输出结果。  
+// ```java
 import java.util.*;
 
 class Solution {
@@ -129,4 +129,4 @@ class Solution {
         }
     }
 }
-```
+// ```

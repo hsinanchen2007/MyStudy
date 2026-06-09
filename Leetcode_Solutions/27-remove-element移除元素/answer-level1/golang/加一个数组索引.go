@@ -1,4 +1,4 @@
-```
+// ```
 func removeElement(nums []int, val int) int {
     
     // 索引指向当前有效的数组位置
@@ -18,4 +18,4 @@ func removeElement(nums []int, val int) int {
     
     return pos
 }
-```
+// ```

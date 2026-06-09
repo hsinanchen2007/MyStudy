@@ -1,9 +1,9 @@
-### 解题思路
-其实就是二分法，把二维下标转化下。
+// ### 解题思路
+// 其实就是二分法，把二维下标转化下。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix.length==0)return false;
@@ -23,4 +23,4 @@ class Solution {
         
     }
 }
-```
+// ```

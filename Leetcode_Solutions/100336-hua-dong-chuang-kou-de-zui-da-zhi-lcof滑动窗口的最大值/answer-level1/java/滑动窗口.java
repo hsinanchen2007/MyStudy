@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-在暴力的基础优化。
+// 在暴力的基础优化。
 
-![image.png](https://pic.leetcode-cn.com/34ff8486c495aa0284b95aa7342ad70956909e96d2f8108678b7427e196287ab-image.png)
+// ![image.png](https://pic.leetcode-cn.com/34ff8486c495aa0284b95aa7342ad70956909e96d2f8108678b7427e196287ab-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || k == 0 || nums.length < k) return new int[0];
@@ -32,4 +32,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

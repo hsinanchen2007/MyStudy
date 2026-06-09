@@ -1,6 +1,6 @@
-利用ES6 Map数据结构来解决
+// 利用ES6 Map数据结构来解决
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var majorityElement = function(nums) {
     }
   }
 };
-```
+// ```

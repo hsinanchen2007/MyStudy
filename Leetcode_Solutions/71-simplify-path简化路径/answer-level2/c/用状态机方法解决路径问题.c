@@ -1,9 +1,9 @@
 
 
-状态设计：
-typedef enum {START, DELIMITER("/"), CHAR, DOT, DDOT, END} State;
+// 状态设计：
+// typedef enum {START, DELIMITER("/"), CHAR, DOT, DDOT, END} State;
 
-状态转移图：
+// 状态转移图：
 ![1.png](https://pic.leetcode-cn.com/4c2002d0f3cb81f0c4ea9e8b6ca0d760a8a597fb9c1863c839c0964d25344e0c-1.png)
 
 

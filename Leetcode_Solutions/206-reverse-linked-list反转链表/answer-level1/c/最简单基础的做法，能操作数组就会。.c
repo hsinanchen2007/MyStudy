@@ -1,12 +1,12 @@
-### 解题思路
-最简单的做法，把所有的数字都取出来存入一个数组，然后重新构成链表即可。
-比如：
-```C
+// ### 解题思路
+// 最简单的做法，把所有的数字都取出来存入一个数组，然后重新构成链表即可。
+// 比如：
+// ```C
 1->2->3->4->5->NULL ---> 1 2 3 4 5 ---> 5->4...;
-```
-### 代码
+// ```
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

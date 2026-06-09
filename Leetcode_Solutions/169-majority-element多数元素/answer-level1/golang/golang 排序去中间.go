@@ -1,9 +1,9 @@
-### 解题思路
-1. 多数的定义是超过一半的数,所以排序后中间的数一定是多数
+// ### 解题思路
+// 1. 多数的定义是超过一半的数,所以排序后中间的数一定是多数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     sort.Ints(nums)
     return nums[len(nums)/2]
@@ -16,4 +16,4 @@ func majorityElement(nums []int) int {
     // }
     // return -1
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-动态规划：
-- sell表示当前最后操作为卖出股票时的最大盈利
-- hold表示当前最后操作为持有股票时的最大盈利
+// ### 解题思路
+// 动态规划：
+// - sell表示当前最后操作为卖出股票时的最大盈利
+// - hold表示当前最后操作为持有股票时的最大盈利
 
-状态转移方程：
-- hold=max(hold,sell-prices[i])
-- sell=max(sell,hold+prices[i])
-顺序可以颠倒
+// 状态转移方程：
+// - hold=max(hold,sell-prices[i])
+// - sell=max(sell,hold+prices[i])
+// 顺序可以颠倒
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -24,4 +24,4 @@ public:
         return sell;
     }
 };
-```
+// ```

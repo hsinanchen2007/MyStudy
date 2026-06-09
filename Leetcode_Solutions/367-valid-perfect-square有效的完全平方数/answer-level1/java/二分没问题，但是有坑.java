@@ -1,9 +1,9 @@
-### 解题思路
-一定要用long型，否则溢出，还是python好啊！！！
+// ### 解题思路
+// 一定要用long型，否则溢出，还是python好啊！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPerfectSquare(int num) {
         if(num == 1) {
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-大顶堆(优先队列)，就按照题目的步骤来就行了
+// ### 解题思路
+// 大顶堆(优先队列)，就按照题目的步骤来就行了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -30,4 +30,4 @@ public:
         }
     }
 };
-```
+// ```

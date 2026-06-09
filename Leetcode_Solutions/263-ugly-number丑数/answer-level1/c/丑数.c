@@ -1,5 +1,5 @@
-**用2，3,5去除num，最后判断num是否为1即可。**
-```c
+// **用2，3,5去除num，最后判断num是否为1即可。**
+// ```c
 bool isUgly(int num)
 {
     if(num <= 0)
@@ -14,4 +14,4 @@ bool isUgly(int num)
         num /= 5;
     return (num == 1) ? 1 : 0;
 }
-```
+// ```

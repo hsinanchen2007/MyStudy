@@ -1,8 +1,8 @@
-### 解题思路
-双指针倒排
-### 代码
+// ### 解题思路
+// 双指针倒排
+// ### 代码
 
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
     a := m - 1
     b := n - 1
@@ -29,4 +29,4 @@ func merge(A []int, m int, B []int, n int)  {
         }
     }
 }
-```
+// ```

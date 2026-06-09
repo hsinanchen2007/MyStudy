@@ -1,7 +1,7 @@
-##解题思路
-我的想法是尽量使用Swift String的自带的方法,这个题比较简单，只是需要注意特殊情况时直接返回s
-##代码如下：
-```
+// ##解题思路
+// 我的想法是尽量使用Swift String的自带的方法,这个题比较简单，只是需要注意特殊情况时直接返回s
+// ##代码如下：
+// ```
 class Solution {
     func reverseLeftWords(_ s: String, _ n: Int) -> String {
         let count = s.count
@@ -15,4 +15,4 @@ class Solution {
             return (result + stringRight + stringLeft)
     }
 }
-```
+// ```

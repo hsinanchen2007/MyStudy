@@ -1,6 +1,6 @@
-思路：如标题所示
-注意：不见得是最适合本题的解法 主要的语句都添加了注释 本人菜鸡 以下代码仅供参考
-```
+# 思路：如标题所示
+# 注意：不见得是最适合本题的解法 主要的语句都添加了注释 本人菜鸡 以下代码仅供参考
+# ```
 class Solution:
 	def findBottomLeftValue(self,root):
 		deque=[root] #可以from collections import deque来用 但是这题必要性不是很大
@@ -15,4 +15,4 @@ class Solution:
 				deque=tmp
 			else: #没有的话就能得到结果了
 				return deque[0].val
-```
+# ```

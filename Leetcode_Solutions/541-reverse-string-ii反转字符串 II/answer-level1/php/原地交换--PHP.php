@@ -1,13 +1,13 @@
-### 解题思路
-以2k的步长遍历字符串，每次遍历的时候交换前k个元素。
+// ### 解题思路
+// 以2k的步长遍历字符串，每次遍历的时候交换前k个元素。
 
-### 性能
-执行用时 :8 ms, 在所有 PHP 提交中击败了76.47%的用户
-内存消耗 :15.2 MB, 在所有 PHP 提交中击败了50.00%的用户
+// ### 性能
+// 执行用时 :8 ms, 在所有 PHP 提交中击败了76.47%的用户
+// 内存消耗 :15.2 MB, 在所有 PHP 提交中击败了50.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -29,7 +29,7 @@ class Solution {
         return $s;
     }
 }
-```
+// ```
 
-### 参考
-[官方解题：反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/solution/fan-zhuan-zi-fu-chuan-ii-by-leetcode/)
+// ### 参考
+// [官方解题：反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/solution/fan-zhuan-zi-fu-chuan-ii-by-leetcode/)

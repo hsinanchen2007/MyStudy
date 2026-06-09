@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,6 +36,6 @@ public:
         return head;
     }
 };
-```
-设置count计数，在count<3时均默认头结点head即为要删除的del_node,当count>=3后，用pre_node记录del_node，然后del_node后移，然后用run_node当前判断到的结点,当run_node==NULL时退出循环，此时的del_node即为要删除的节点。
-一次通过，小开心
+// ```
+// 设置count计数，在count<3时均默认头结点head即为要删除的del_node,当count>=3后，用pre_node记录del_node，然后del_node后移，然后用run_node当前判断到的结点,当run_node==NULL时退出循环，此时的del_node即为要删除的节点。
+// 一次通过，小开心

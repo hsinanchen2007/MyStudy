@@ -1,10 +1,10 @@
-### 解题思路
-递归思路比较简单，
-非递归，使用pre保存前几个节点，最后保存尾结点返回
+# ### 解题思路
+# 递归思路比较简单，
+# 非递归，使用pre保存前几个节点，最后保存尾结点返回
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution(object):
                 cur =tmp              
             return pre
         return reverese(head)
-```
+# ```

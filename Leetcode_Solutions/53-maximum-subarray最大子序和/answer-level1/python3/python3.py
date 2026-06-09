@@ -1,9 +1,9 @@
-### 解题思路
-利用列表max函数特性解法
+# ### 解题思路
+# 利用列表max函数特性解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
 
@@ -13,4 +13,4 @@ class Solution:
 
         return max(nums)
 
-```
+# ```

@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_297_Codec.java)
+// [Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_297_Codec.java)
 
-```java
+// ```java
     // Encodes a tree to a single string.
 
     /**
@@ -67,4 +67,4 @@
         return Integer.parseInt(str);
     }
 
-```
+// ```

@@ -1,9 +1,9 @@
-1. 因为arr[i]的范围是给定了的，所以可以用此方法。
-2. count1[]中最多只有arrSize个不为0的数，所以只用给count2[]申请arrSize个空间
-3. count1[]用于记录各个数出现的次数；count2[]用于记录次数的个数
-![3.png](https://pic.leetcode-cn.com/c08077b32c15e093937916c01e8150096168790d821d5e385ddd9174df62c2fc-3.png)
+// 1. 因为arr[i]的范围是给定了的，所以可以用此方法。
+// 2. count1[]中最多只有arrSize个不为0的数，所以只用给count2[]申请arrSize个空间
+// 3. count1[]用于记录各个数出现的次数；count2[]用于记录次数的个数
+// ![3.png](https://pic.leetcode-cn.com/c08077b32c15e093937916c01e8150096168790d821d5e385ddd9174df62c2fc-3.png)
 
-```
+// ```
 bool uniqueOccurrences(int* arr, int arrSize){
     int i,j;
     bool temp=true;
@@ -27,4 +27,4 @@ bool uniqueOccurrences(int* arr, int arrSize){
     free(count2);
     return temp;
 }
-```
+// ```

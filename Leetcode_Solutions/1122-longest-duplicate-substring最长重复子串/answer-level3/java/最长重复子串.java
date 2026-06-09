@@ -1,9 +1,9 @@
-### 解题思路
-二分查找的思想
+// ### 解题思路
+// 二分查找的思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestDupSubstring(String S) {
         int n = S.length();
@@ -62,4 +62,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

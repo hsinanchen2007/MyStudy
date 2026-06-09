@@ -1,8 +1,8 @@
-思路：
-1.先将链表翻转
-2.遍历打印value
-代码：
-```
+// 思路：
+// 1.先将链表翻转
+// 2.遍历打印value
+// 代码：
+// ```
 class Solution {
     public int[] reversePrint(ListNode head) {
         //先倒序，然后遍历打印
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

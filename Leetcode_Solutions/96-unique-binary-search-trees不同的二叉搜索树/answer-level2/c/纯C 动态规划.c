@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numTrees(int n){
     // Catalan number：f(n) =  f(0)f(n-1) + f(1)f(n-2) + ... + f(n-2)f(1) + f(n-1)f(0)
 
@@ -22,4 +22,4 @@ int numTrees(int n){
     
     return sum[n];
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-迭代写法
+// ### 解题思路
+// 迭代写法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ public class Solution {
         return prev;
     }
 }
-```
+// ```

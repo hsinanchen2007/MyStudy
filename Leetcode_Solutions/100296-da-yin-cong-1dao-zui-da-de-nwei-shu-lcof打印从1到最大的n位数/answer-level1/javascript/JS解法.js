@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -13,4 +13,4 @@ var printNumbers = function(n) {
     }
     return result 
 };
-```
+// ```

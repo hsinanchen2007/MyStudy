@@ -1,10 +1,10 @@
-### 解题思路
-先从左向右找，找到比自己大的，算出值。左会停在最高的位置
-然后从右向左找，同样的思路。
+// ### 解题思路
+// 先从左向右找，找到比自己大的，算出值。左会停在最高的位置
+// 然后从右向左找，同样的思路。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int left = 0;
     int right = 2;
@@ -45,4 +45,4 @@ int trap(int* height, int heightSize){
     }
     return maxRain;
 }
-```
+// ```

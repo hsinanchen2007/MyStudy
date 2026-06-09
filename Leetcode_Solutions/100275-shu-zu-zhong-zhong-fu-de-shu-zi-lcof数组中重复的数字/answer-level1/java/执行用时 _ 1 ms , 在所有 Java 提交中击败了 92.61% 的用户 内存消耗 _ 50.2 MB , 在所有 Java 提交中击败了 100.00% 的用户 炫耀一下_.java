@@ -1,8 +1,8 @@
-### 解题思路
-第一题我就对剑指offer佩服的五体投地
-### 代码
+// ### 解题思路
+// 第一题我就对剑指offer佩服的五体投地
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         //解法1 放入set中，如果放入一个数字后，大小没变说明这个数字是重复的
@@ -33,4 +33,4 @@ class Solution {
         return nums[0];
     }
 }
-```
+// ```

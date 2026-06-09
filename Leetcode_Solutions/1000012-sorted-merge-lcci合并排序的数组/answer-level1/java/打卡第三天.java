@@ -1,9 +1,9 @@
-### 解题思路
-指针法的应用
+// ### 解题思路
+// 指针法的应用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         
@@ -23,4 +23,4 @@ class Solution {
             
     }
 }
-```
+// ```

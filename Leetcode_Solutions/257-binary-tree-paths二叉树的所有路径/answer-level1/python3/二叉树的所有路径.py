@@ -1,9 +1,9 @@
-### 解题思路
-递归方法.
+# ### 解题思路
+# 递归方法.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
         helper(root,s)
         return result
 
-```
+# ```

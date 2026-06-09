@@ -1,7 +1,7 @@
 
-### DFS+贪心
-DFS的解释详见【零钱兑换】贪心 + dfs = 8ms
-```python
+# ### DFS+贪心
+# DFS的解释详见【零钱兑换】贪心 + dfs = 8ms
+# ```python
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         self.ans = float('inf')
@@ -19,12 +19,12 @@ class Solution:
         while k >= 0 and k + cnt < self.ans: # k + cnt < self.ans 剪枝
             self.dfs(coins,c_index+1,amount-k*coins[c_index],cnt+k)
             k -= 1
-```
+# ```
 
-### 动态规划，自底向上，最自然
-动态规划的解释详见 Java 递归、记忆化搜索、动态规划
+# ### 动态规划，自底向上，最自然
+# 动态规划的解释详见 Java 递归、记忆化搜索、动态规划
 
-```python
+# ```python
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         # 备忘录
@@ -42,10 +42,10 @@ class Solution:
     
 
         
-```
-### 动态规划，自顶向下,递归
-动态规划的解释详见 Java 递归、记忆化搜索、动态规划
-```python
+# ```
+# ### 动态规划，自顶向下,递归
+# 动态规划的解释详见 Java 递归、记忆化搜索、动态规划
+# ```python
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         # 备忘录
@@ -74,4 +74,4 @@ class Solution:
                 ans = res + 1
         self.memo[amount] = ans if ans != float('inf') else -1
         return self.memo[amount]
-```
+# ```

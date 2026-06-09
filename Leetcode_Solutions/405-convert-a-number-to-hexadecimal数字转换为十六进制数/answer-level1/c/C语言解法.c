@@ -1,5 +1,5 @@
-每4位计算一个十六进制数。
-```C []
+// 每4位计算一个十六进制数。
+// ```C []
 char hex[9] = {0};
 char * toHex(int num){
     int i = 7;
@@ -14,14 +14,14 @@ char * toHex(int num){
     if (0 == index) hex[0] = '0';
     return hex;
 }
-```
+// ```
 
-或者直接调用sprintf，格式化转换。
-```C []
+// 或者直接调用sprintf，格式化转换。
+// ```C []
 char hex[9] = {0};
 char * toHex(int num){
     sprintf(hex, "%x", num);
     return hex;
 }
-```
+// ```
 

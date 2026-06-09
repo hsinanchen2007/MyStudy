@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         lenNeed = len(needle)
@@ -13,4 +13,4 @@ class Solution:
             else:
                 i += 1
         return -1
-```
+# ```

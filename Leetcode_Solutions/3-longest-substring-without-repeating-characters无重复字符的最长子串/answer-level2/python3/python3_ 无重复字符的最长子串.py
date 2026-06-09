@@ -1,4 +1,4 @@
-```python
+# ```python
 def lengthOfLongestSubstring(s):
     """
         1. 定义left, right指针, 用于存储最长子串的索引. windows用于存储子串的内容.
@@ -23,4 +23,4 @@ def lengthOfLongestSubstring(s):
 
 for _s in ["abcabcbb", "bbbbb", "pwwkew", "abcabcbb"]:
     print(lengthOfLongestSubstring(_s))
-```
+# ```

@@ -1,7 +1,7 @@
 
-从0到31位，每次统计下数组中该位上0和1的个数，如果1多，那么将结果 res 中该位变为1，最后累加出来的 res 就是过半数了
+// 从0到31位，每次统计下数组中该位上0和1的个数，如果1多，那么将结果 res 中该位变为1，最后累加出来的 res 就是过半数了
 
-```
+// ```
 int majorityElement(vector<int>& nums) {
     int res = 0, n = nums.size();
     for (int i = 0; i < 32; ++i) {
@@ -15,4 +15,4 @@ int majorityElement(vector<int>& nums) {
     }
     return res;
 }
-```
+// ```

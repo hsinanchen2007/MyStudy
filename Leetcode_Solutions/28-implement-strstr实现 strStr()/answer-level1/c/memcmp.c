@@ -1,9 +1,9 @@
-### 解题思路
-memcmp
+// ### 解题思路
+// memcmp
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     int l_n=strlen(needle);
     int l_h=strlen(haystack);
@@ -15,4 +15,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

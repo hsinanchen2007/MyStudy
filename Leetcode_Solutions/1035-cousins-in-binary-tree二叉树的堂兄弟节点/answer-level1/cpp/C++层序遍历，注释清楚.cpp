@@ -1,5 +1,5 @@
-多的不说，都在注释里了
-```
+// 多的不说，都在注释里了
+// ```
 class Solution {
 public:
     bool isCousins(TreeNode* root, int x, int y) {
@@ -31,4 +31,4 @@ public:
         return false;
     }
 };
-```
+// ```

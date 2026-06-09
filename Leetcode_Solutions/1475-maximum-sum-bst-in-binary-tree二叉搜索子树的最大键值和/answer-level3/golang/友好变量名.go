@@ -1,4 +1,4 @@
-```
+// ```
 func maxSumBST(root *TreeNode) (rst int) {
 	isBST(root, &rst)
 	return rst
@@ -38,4 +38,4 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```

@@ -1,7 +1,7 @@
-# PS:
-想不到位操作就只能转成String了(摊手)
+// # PS:
+// 想不到位操作就只能转成String了(摊手)
 
-```java
+// ```java
 class Solution {
     public int[] findClosedNumbers(int num) {
         String str_num = Integer.toBinaryString(num);
@@ -64,4 +64,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

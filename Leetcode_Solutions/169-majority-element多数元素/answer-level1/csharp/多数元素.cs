@@ -1,5 +1,5 @@
-**思路1：** 利用hash表存储每个元素的count。
-```
+// **思路1：** 利用hash表存储每个元素的count。
+// ```
 public int MajorityElement(int[] nums)
         {
             Dictionary<int, int> dict = new Dictionary<int, int>();
@@ -22,4 +22,4 @@ public int MajorityElement(int[] nums)
 
             return -1;
         }
-```
+// ```

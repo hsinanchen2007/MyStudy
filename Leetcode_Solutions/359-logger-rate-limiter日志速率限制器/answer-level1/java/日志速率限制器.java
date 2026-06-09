@@ -1,11 +1,11 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 哈希表
+// # 哈希表
 
-执行用时：41ms，击败42.11%。消耗内存：52.6MB，击败100.00%。
+// 执行用时：41ms，击败42.11%。消耗内存：52.6MB，击败100.00%。
 
-```java
+// ```java
 public class Logger {
     private Map<String, Integer> map;
 
@@ -21,4 +21,4 @@ public class Logger {
         return false;
     }
 }
-```
+// ```

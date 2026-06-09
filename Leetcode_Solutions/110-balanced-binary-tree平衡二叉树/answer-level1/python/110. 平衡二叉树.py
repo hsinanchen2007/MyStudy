@@ -1,9 +1,9 @@
-### 解题思路
-递归，自上向下，计算每一节点子树深度差
+# ### 解题思路
+# 递归，自上向下，计算每一节点子树深度差
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
             return False
         else:
             return self.isBalanced(root.left) and self.isBalanced(root.right)
-```
+# ```

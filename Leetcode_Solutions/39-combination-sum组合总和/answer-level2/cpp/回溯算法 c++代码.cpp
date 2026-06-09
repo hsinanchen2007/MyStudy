@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int target, sum;
@@ -26,6 +26,6 @@ public:
         return res;
     }
 };
-```
-![1568864268412.jpg](https://pic.leetcode-cn.com/36609453f8b37469a6d7ea58bfead73a8605a1bb6e681df1a91be33988543aeb-1568864268412.jpg)
+// ```
+// ![1568864268412.jpg](https://pic.leetcode-cn.com/36609453f8b37469a6d7ea58bfead73a8605a1bb6e681df1a91be33988543aeb-1568864268412.jpg)
 

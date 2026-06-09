@@ -1,9 +1,9 @@
-### 解题思路
-#### 主要是判别越界的边界问题
+// ### 解题思路
+// #### 主要是判别越界的边界问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         //判断越界：字符串转整数 ans=ans*10+digit,越界即出现ans*10+digit>Interger.Max_Value,所以(ans>interger.amx_value-digit)/10就是越界
@@ -66,4 +66,4 @@ class Solution {
    
 
 }
-```
+// ```

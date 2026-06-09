@@ -1,6 +1,6 @@
-因为最多需要 len(a)/len(b) + 2个字符串a（记为A）即可拼出b，之后通过kmp算法判断A中是否有b，最后通过匹配的起始下标判断具体需要几个字符串a
+// 因为最多需要 len(a)/len(b) + 2个字符串a（记为A）即可拼出b，之后通过kmp算法判断A中是否有b，最后通过匹配的起始下标判断具体需要几个字符串a
 
-```java
+// ```java
 public class P686_RepeatedStringMatch {
     public static int repeatedStringMatch(String a, String b) {
         int la = a.length(), lb = b.length();
@@ -63,4 +63,4 @@ public class P686_RepeatedStringMatch {
         System.out.println(repeatedStringMatch(a, b));
     }
 }
-```
+// ```

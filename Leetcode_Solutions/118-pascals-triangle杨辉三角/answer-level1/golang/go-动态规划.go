@@ -1,4 +1,4 @@
-```
+// ```
 func generate(numRows int) [][]int {
    if numRows==0{
        return [][]int{}
@@ -20,4 +20,4 @@ func generate(numRows int) [][]int {
 
     return dp[:numRows]
 }
-```
+// ```

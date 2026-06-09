@@ -1,5 +1,5 @@
-## 回溯算法 [`看到其它解法崩溃😫`]
-```
+// ## 回溯算法 [`看到其它解法崩溃😫`]
+// ```
 import java.util.*;
 public class LeetCode784 {
      /**
@@ -44,16 +44,16 @@ public class LeetCode784 {
     }
 }
 
-```
-![image.png](https://pic.leetcode-cn.com/616582a54680829b23cdca747e1d766b9c274bb91a49f8b4f97973f353bdcb8c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/616582a54680829b23cdca747e1d766b9c274bb91a49f8b4f97973f353bdcb8c-image.png)
 
 
-`大小写字母切换:s[i]^=(1<<5);`
+// `大小写字母切换:s[i]^=(1<<5);`
 
-- 大小写字母相差32,又因为异或重要特性:不进位加法,所以大写字母和(1<<5)异或变成变成小写字母,小写字母和(1<<5)异或变成大写字母。
+// - 大小写字母相差32,又因为异或重要特性:不进位加法,所以大写字母和(1<<5)异或变成变成小写字母,小写字母和(1<<5)异或变成大写字母。
 
-### 优化后
-```
+// ### 优化后
+// ```
 import java.util.*;
 public class LeetCode784 {
 
@@ -91,5 +91,5 @@ public class LeetCode784 {
     }
 }
 
-```
+// ```
 

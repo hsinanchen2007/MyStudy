@@ -1,10 +1,10 @@
-### 解题思路
-1. 如果p, q分别在root的两边或者root是p或q的其中一个, 则root必定是答案.
-2. 如果q, p在同一边, root = root->那一边, 回到1.
+// ### 解题思路
+// 1. 如果p, q分别在root的两边或者root是p或q的其中一个, 则root必定是答案.
+// 2. 如果q, p在同一边, root = root->那一边, 回到1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
         return NULL;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-通过哈希表来记录
+// ### 解题思路
+// 通过哈希表来记录
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> list = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

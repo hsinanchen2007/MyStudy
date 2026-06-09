@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/1d3ce97ef1d801c02262f47bc5b61531a4549b9effd51df30b860cd88983065d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1d3ce97ef1d801c02262f47bc5b61531a4549b9effd51df30b860cd88983065d-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   弗洛伊德快慢指针查找环，如果快慢指针相遇的点是 1，那么是快乐数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {boolean}
@@ -71,4 +71,4 @@ var isHappy = function(n) {
   
 //   return ans;
 // };
-```
+// ```

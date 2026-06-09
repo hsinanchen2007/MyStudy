@@ -1,11 +1,11 @@
-### 解题思路
-排序比较
+// ### 解题思路
+// 排序比较
 
-![图片.png](https://pic.leetcode-cn.com/710afa69a20eae877e8f1cd4940851514e0962084cdd0263b954f6e7d85323a0-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/710afa69a20eae877e8f1cd4940851514e0962084cdd0263b954f6e7d85323a0-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn remove_subfolders(folder: Vec<String>) -> Vec<String> {
         let mut  f = folder.clone();
@@ -28,4 +28,4 @@ impl Solution {
         v
     }
 }
-```
+// ```

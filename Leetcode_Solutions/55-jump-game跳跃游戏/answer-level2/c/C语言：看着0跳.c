@@ -1,4 +1,4 @@
-```
+// ```
 bool canJump(int* nums, int numsSize){
     if (numsSize == 1)//[0]
         return true;
@@ -19,4 +19,4 @@ bool canJump(int* nums, int numsSize){
     }
     return true;
 }
-```
+// ```

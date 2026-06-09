@@ -1,4 +1,4 @@
-```c
+// ```c
 /**
  * 递归
  **/ 
@@ -18,9 +18,9 @@ int* preorder(struct Node* root, int* returnSize) {
   visit(root, result, returnSize);
   return result;
 }
-```
+// ```
 
-```c
+// ```c
 /**
  * 迭代
  **/ 
@@ -40,4 +40,4 @@ int* preorder(struct Node* root, int* returnSize) {
   }
   return result;
 }
-```
+// ```

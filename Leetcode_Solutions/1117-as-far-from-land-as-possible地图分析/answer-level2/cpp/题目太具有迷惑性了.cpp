@@ -1,16 +1,16 @@
-### 解题思路
-这道题目的难点在于看懂题目。如果看懂的话，就很简单。
+// ### 解题思路
+// 这道题目的难点在于看懂题目。如果看懂的话，就很简单。
 
-这道题目其实我之前也没看懂。后面看了评论区，就懂了。
+// 这道题目其实我之前也没看懂。后面看了评论区，就懂了。
 
-这道题目其实就是对所有的陆地出发，找最远的就可以了。
+// 这道题目其实就是对所有的陆地出发，找最远的就可以了。
 
-那么就是[994.腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges/)。
+// 那么就是[994.腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges/)。
 
-基本上改一些参数，就可以实现本题了。
-### 代码
+// 基本上改一些参数，就可以实现本题了。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -56,4 +56,4 @@ public:
         else return min_count;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn remove_element(nums: &mut Vec<i32>, val: i32) -> i32 {
         let mut ans = 0;
@@ -11,5 +11,5 @@ impl Solution {
         ans as i32
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,18 +1,18 @@
-### 解题思路
-代码参考了[labuladong](https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/)的工作，不过我用数组代替map以加快速度。
+// ### 解题思路
+// 代码参考了[labuladong](https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/)的工作，不过我用数组代替map以加快速度。
 
-这道题一开始我理解有问题，我以为只要t中出现过的字母被s的子序列包含就行了，没有考虑t中字母出现的数量，导致当s="a"和t="aa"时程序报错。
+// 这道题一开始我理解有问题，我以为只要t中出现过的字母被s的子序列包含就行了，没有考虑t中字母出现的数量，导致当s="a"和t="aa"时程序报错。
 
-其实这道题很简单，与求和[209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)的思路很想，都是当满足条件时左指针持续进1后判断是否满足条件。
+// 其实这道题很简单，与求和[209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)的思路很想，都是当满足条件时左指针持续进1后判断是否满足条件。
 
-问题的关键就在于判断window中是否已经包含了所有需要的字母。最开始我的解法是写一个函数，函数输入是window和need的哈希表，然后比较两个哈希表是否完全相同，结果超时了，改进一下后不超时但是很慢。。。
+// 问题的关键就在于判断window中是否已经包含了所有需要的字母。最开始我的解法是写一个函数，函数输入是window和need的哈希表，然后比较两个哈希表是否完全相同，结果超时了，改进一下后不超时但是很慢。。。
 
-后来看了别人的解法，其实加速的思路也是一样的，就是不要每次更新都从头到尾比较一次哈希表，而是 ***只计算变动的那一部分是否会导致条件满足***。
+// 后来看了别人的解法，其实加速的思路也是一样的，就是不要每次更新都从头到尾比较一次哈希表，而是 ***只计算变动的那一部分是否会导致条件满足***。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minWindow(string s, string t) {
@@ -44,4 +44,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select a.player_id,a.event_date,sum(b.games_played) as games_played_so_far 
@@ -32,4 +32,4 @@ order by a.player_id,a.event_date
 
 
 
-```
+-- ```

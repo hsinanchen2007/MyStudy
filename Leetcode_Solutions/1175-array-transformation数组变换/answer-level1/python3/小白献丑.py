@@ -1,11 +1,11 @@
-### 解题思路
-brute force...
-两个helperfunction一个放进while循环用来判断是否满足条件；另一个就是操作并储存新的列表
-while判断失败时，对list进行一次action，直到list满足条件输出
+# ### 解题思路
+# brute force...
+# 两个helperfunction一个放进while循环用来判断是否满足条件；另一个就是操作并储存新的列表
+# while判断失败时，对list进行一次action，直到list满足条件输出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def action(self,reclist:List[int])->List[int]:
         newL = []
@@ -39,4 +39,4 @@ class Solution:
                 
 
     
-```
+# ```

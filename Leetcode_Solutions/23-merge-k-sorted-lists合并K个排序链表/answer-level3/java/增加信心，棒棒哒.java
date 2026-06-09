@@ -1,9 +1,9 @@
-### 解题思路
-K里面找最小的，最好的办法就是维护一个小顶堆，效率不错，整体效率为NlogK。
+// ### 解题思路
+// K里面找最小的，最好的办法就是维护一个小顶堆，效率不错，整体效率为NlogK。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return res.next;
     }
 }
-```
+// ```

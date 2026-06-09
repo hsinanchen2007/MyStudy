@@ -1,10 +1,10 @@
-1. 建立一个map来存储，记录出现的次数
-2. 对原数组进行排序
-3. 遍历原数组，当已经被取走了我就不再判断
-4. 既然是连续，那么下一个呈现的是递增，判断下一个元素在不在，如果不在返回false
-5. 结束返回true
+// 1. 建立一个map来存储，记录出现的次数
+// 2. 对原数组进行排序
+// 3. 遍历原数组，当已经被取走了我就不再判断
+// 4. 既然是连续，那么下一个呈现的是递增，判断下一个元素在不在，如果不在返回false
+// 5. 结束返回true
 
-```javascript
+// ```javascript
 var isNStraightHand = function(hand, W) {
   var map = {}
   for (var i = 0; i < hand.length; i++) {
@@ -32,4 +32,4 @@ var isNStraightHand = function(hand, W) {
   }
   return true
 };
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-设numCounts[i]为[0, i]范围内子数组的数字总个数
-设letterCounts[i]为[0, i]范围内子数组的子母总个数
-设满足题意的子数组的位置在[startPos, endPos]的闭区间
-那么这个子数组一定满总下面的条件
-    numCounts[startPos - 1] - letterCounts[startPos - 1] == numCounts[endPos] - letterCounts[endPos]
+// ### 解题思路
+// 设numCounts[i]为[0, i]范围内子数组的数字总个数
+// 设letterCounts[i]为[0, i]范围内子数组的子母总个数
+// 设满足题意的子数组的位置在[startPos, endPos]的闭区间
+// 那么这个子数组一定满总下面的条件
+//     numCounts[startPos - 1] - letterCounts[startPos - 1] == numCounts[endPos] - letterCounts[endPos]
 
-所以把numCounts[i] - letterCounts[i]的差值的最大位置和最小位置保存到两个字典里后， 遍历两个字典就可以找到最长子数组
+// 所以把numCounts[i] - letterCounts[i]的差值的最大位置和最小位置保存到两个字典里后， 遍历两个字典就可以找到最长子数组
 
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     bool isNum(char c)
     {
@@ -100,4 +100,4 @@ public class Solution {
         return ret;
     }
 }
-```
+// ```

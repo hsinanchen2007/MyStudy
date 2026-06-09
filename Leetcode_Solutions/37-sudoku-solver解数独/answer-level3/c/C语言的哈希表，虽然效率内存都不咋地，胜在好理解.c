@@ -1,8 +1,8 @@
-### 解题思路
-C语言哈希表+回溯
+// ### 解题思路
+// C语言哈希表+回溯
 
-### 代码
-```c
+// ### 代码
+// ```c
 struct myhash{
     int key;
     UT_hash_handle hh;
@@ -93,4 +93,4 @@ void solveSudoku(char** board, int boardSize, int* boardColSize){
     dfs(board, 0);
 }
 
-```
+// ```

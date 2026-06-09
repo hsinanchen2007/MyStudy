@@ -1,9 +1,9 @@
-### 解题思路
-并不推荐在竞赛时参考本篇，我是通过不断进行提交确定特殊情况再增加判断条件的方式通过的
+// ### 解题思路
+// 并不推荐在竞赛时参考本篇，我是通过不断进行提交确定特殊情况再增加判断条件的方式通过的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //numsSize代表个数
 int searchInsert(int* nums, int numsSize, int target){
     int m=0,n=numsSize;
@@ -39,4 +39,4 @@ int searchInsert(int* nums, int numsSize, int target){
     return n;
 
 }
-```
+// ```

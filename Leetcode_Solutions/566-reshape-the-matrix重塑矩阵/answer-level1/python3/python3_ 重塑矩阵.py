@@ -1,4 +1,4 @@
-```python
+# ```python
 def matrixReshape(nums, r, c):
     if len(nums) * len(nums[0]) != r * c:
         return nums
@@ -13,4 +13,4 @@ def matrixReshape(nums, r, c):
     return r
 
 print(matrixReshape([[1,2],[3,4]], 1, 4))
-```
+# ```

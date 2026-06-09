@@ -1,9 +1,9 @@
-### 解题思路
-组织一个数组用来记录每个points的下标和值，排序，输出前k个元素。
+// ### 解题思路
+// 组织一个数组用来记录每个points的下标和值，排序，输出前k个元素。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -50,4 +50,4 @@ int** kClosest(int** points, int pointsSize, int* pointsColSize, int K, int* ret
     //free(tmpArr);
     return retArr;
 }
-```
+// ```

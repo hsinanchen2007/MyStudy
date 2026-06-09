@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -9,4 +9,4 @@ public:
         return true;
     }
 };
-```
+// ```

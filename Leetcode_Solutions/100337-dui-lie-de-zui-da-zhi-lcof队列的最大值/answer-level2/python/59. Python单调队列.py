@@ -1,9 +1,9 @@
-### 解题思路
-题意的意思就是维护一个单调队列，单调队列的出队位置维护队列内最大值，入队位置维护队列最小值。
+# ### 解题思路
+# 题意的意思就是维护一个单调队列，单调队列的出队位置维护队列内最大值，入队位置维护队列最小值。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MaxQueue(object):
 
     def __init__(self):
@@ -46,4 +46,4 @@ class MaxQueue(object):
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

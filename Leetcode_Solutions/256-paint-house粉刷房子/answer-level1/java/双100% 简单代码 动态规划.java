@@ -1,6 +1,6 @@
-![1571645166.png](https://pic.leetcode-cn.com/61cb424a55a390e8e8a1e8c9b80c8e26fcb56a839934f21d4084ffdb02a770cd-1571645166.png)
+// ![1571645166.png](https://pic.leetcode-cn.com/61cb424a55a390e8e8a1e8c9b80c8e26fcb56a839934f21d4084ffdb02a770cd-1571645166.png)
 
-```
+// ```
 class Solution {
     public int minCost(int[][] costs) {
         int len = costs.length;
@@ -24,5 +24,5 @@ class Solution {
     }
 }
 //菜狗解析，有意见指出，有问题call我
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-1. 递归，递归的出口就是没有子节点的时候sum是否为0
-2. 迭代
+# ### 解题思路
+# 1. 递归，递归的出口就是没有子节点的时候sum是否为0
+# 2. 迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
                 de.append((node.left, cur_val - node.left.val))
         return False
 
-```
+# ```

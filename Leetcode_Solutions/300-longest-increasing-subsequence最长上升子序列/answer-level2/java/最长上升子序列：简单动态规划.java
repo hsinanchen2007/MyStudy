@@ -1,9 +1,9 @@
-### 解题思路
-定义一个相同长度的数组，该数组记录到达该位置时的最长上升序列，初始化为1，转移方程为：result[i] = Math.max(result[j] + 1,result[i]);
+// ### 解题思路
+// 定义一个相同长度的数组，该数组记录到达该位置时的最长上升序列，初始化为1，转移方程为：result[i] = Math.max(result[j] + 1,result[i]);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int length = nums.length;
@@ -23,4 +23,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

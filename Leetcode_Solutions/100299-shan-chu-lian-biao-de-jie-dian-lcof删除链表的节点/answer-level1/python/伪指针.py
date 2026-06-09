@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-头节点不是固定的，最好用伪指针。
+# 头节点不是固定的，最好用伪指针。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
                 last = last.next
             head = head.next
         return fake_head.next
-```
+# ```

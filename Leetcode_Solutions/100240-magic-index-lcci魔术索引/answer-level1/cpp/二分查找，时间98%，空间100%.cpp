@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void findandpush(vector<int>& nums,vector<int>& rec,int left,int right){
@@ -32,4 +32,4 @@ public:
         return min;
     }
 };
-```
+// ```

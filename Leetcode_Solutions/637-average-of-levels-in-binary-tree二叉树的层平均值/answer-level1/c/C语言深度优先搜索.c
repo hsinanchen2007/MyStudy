@@ -1,9 +1,9 @@
-### 解题思路
-深度搜索遍历每层，每层的数据使用一个链表保存（提前知道最大深度可以直接用数组）。
+// ### 解题思路
+// 深度搜索遍历每层，每层的数据使用一个链表保存（提前知道最大深度可以直接用数组）。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -81,4 +81,4 @@ double* averageOfLevels(struct TreeNode* root, int* returnSize)
     return pRet;
     
 }
-```
+// ```

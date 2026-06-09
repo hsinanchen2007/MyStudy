@@ -1,5 +1,5 @@
-在t中查找到s中的字符后，在t剩余的部分继续查找s中下一个字符
-```c
+// 在t中查找到s中的字符后，在t剩余的部分继续查找s中下一个字符
+// ```c
 bool isSubsequence(char* s, char* t)
 {
     char* m = t;
@@ -23,4 +23,4 @@ int main(void)
     printf("%d\n", isSubsequence(s, t));
     return 0;
 }
-```
+// ```

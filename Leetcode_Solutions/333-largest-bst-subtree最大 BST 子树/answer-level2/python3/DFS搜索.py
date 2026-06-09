@@ -1,17 +1,17 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f2a27b73d42fe0122cf3e1492e83a20ba8748b7016a9d89130344c3fe59d7ea4-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/f2a27b73d42fe0122cf3e1492e83a20ba8748b7016a9d89130344c3fe59d7ea4-image.png)
 
-- DFS
-- 从子节点向上传递三个值
-   - 最小值
-   - 最大值
-   - 搜索节点的数量
+# - DFS
+# - 从子节点向上传递三个值
+#    - 最小值
+#    - 最大值
+#    - 搜索节点的数量
 
-如果搜索节点的数量是-1，表示子树已经不是搜索树了
+# 如果搜索节点的数量是-1，表示子树已经不是搜索树了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -56,4 +56,4 @@ class Solution:
 
         dfs(root)
         return ans
-```
+# ```

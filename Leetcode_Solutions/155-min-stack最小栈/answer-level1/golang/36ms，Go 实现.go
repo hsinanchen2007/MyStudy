@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/9f3da51d6f7f056a8ac71fa1e6ee0cfaeed9acef9e5eb3feedeeda749868a90c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9f3da51d6f7f056a8ac71fa1e6ee0cfaeed9acef9e5eb3feedeeda749868a90c-image.png)
 
-开两个切片作为栈，一个存储入栈元素，一个存储当前层次最小元素。这样可以 O(1) 时间复杂度获取栈中最小元素。
+// 开两个切片作为栈，一个存储入栈元素，一个存储当前层次最小元素。这样可以 O(1) 时间复杂度获取栈中最小元素。
 
-代码：
-```
+// 代码：
+// ```
 type MinStack struct {
     data   []int    // 存储入栈数据
     min    []int    // 存储当前栈中最小元素
@@ -54,4 +54,4 @@ func (this *MinStack) GetMin() int {
  * param_3 := obj.Top();
  * param_4 := obj.GetMin();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-递归
-```
+# 递归
+# ```
 class Solution(object):
     def invertTree(self, root):
         """

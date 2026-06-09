@@ -1,14 +1,14 @@
-### 解题思路
-> 单次列表排序后连接作为目标串, 从主串中截取多个单词长度排序连接后与目标串比较, 性能一般, 用排序替代搜索,可以减少排列组合搜索的过程;
+// ### 解题思路
+// > 单次列表排序后连接作为目标串, 从主串中截取多个单词长度排序连接后与目标串比较, 性能一般, 用排序替代搜索,可以减少排列组合搜索的过程;
 
->注意: 内存操作比较麻烦, 用qsort排序字符串地址时, 传入的参数是 每个元素的地址, 元素的值才是我们的字符串首地址;
+// >注意: 内存操作比较麻烦, 用qsort排序字符串地址时, 传入的参数是 每个元素的地址, 元素的值才是我们的字符串首地址;
 
-- 方案1: 从s中暴力遍历, 每个起点开始选取公共长度, 进行切割比较;
-- 方案2: 从s中用```划窗```方法筛选字符组成一样的字符串,然后再进行切割比较;
+// - 方案1: 从s中暴力遍历, 每个起点开始选取公共长度, 进行切割比较;
+// - 方案2: 从s中用```划窗```方法筛选字符组成一样的字符串,然后再进行切割比较;
 
-### 代码
+// ### 代码
 
-```c [groups1-C排序单词表并串联后暴力求解]
+// ```c [groups1-C排序单词表并串联后暴力求解]
 int g_wordLen = 0;
 
 int StrCmpByLen(char *str, char *another, int maxCmpLen)
@@ -108,8 +108,8 @@ int *findSubstring(char *s, char **words, int wordsSize, int *returnSize)
     return resultArray;
 }
 
-```
-```c [groups1-C排序单词表并串联后划窗求解]
+// ```
+// ```c [groups1-C排序单词表并串联后划窗求解]
 #define MAX_CHAR_TYPES_COUNT 128
 int g_wordLen = 0;
 
@@ -259,10 +259,10 @@ int *findSubstring(char *s, char **words, int wordsSize, int *returnSize)
     *returnSize = FillMatachedPos(s, resultArray, words, wordsSize, maxArraySize);
     return resultArray;
 }
-```
+// ```
 
-### 性能表现
-```
+// ### 性能表现
+// ```
 - 方案1:
 执行用时 :408 ms, 在所有 C 提交中击败了65.67%的用户
 内存消耗 :35.7 MB, 在所有 C 提交中击败了25.30%的用户
@@ -270,7 +270,7 @@ int *findSubstring(char *s, char **words, int wordsSize, int *returnSize)
 - 方案2:
 执行用时 :132 ms, 在所有 C 提交中击败了77.23%的用户
 内存消耗 :25.9 MB, 在所有 C 提交中击败了16.33%的用户
-```
+// ```
 
 
 

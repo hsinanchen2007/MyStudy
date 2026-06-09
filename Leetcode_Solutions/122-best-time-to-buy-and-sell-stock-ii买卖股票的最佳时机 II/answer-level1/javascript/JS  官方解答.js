@@ -1,5 +1,5 @@
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 
 var maxProfit = function(prices) {
     let profit = 0
@@ -10,4 +10,4 @@ var maxProfit = function(prices) {
     }
     return profit
 };
-```
+// ```

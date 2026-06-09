@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-(1)分配两个链表left/right
-(2)轮循链表head，若其数据val小于x则把该节点挂在left上，不然就挂在right上
-(3)将left与right拼接起来即是所求链表
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// (1)分配两个链表left/right
+// (2)轮循链表head，若其数据val小于x则把该节点挂在left上，不然就挂在right上
+// (3)将left与right拼接起来即是所求链表
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -63,4 +63,4 @@ struct ListNode* partition(struct ListNode* head, int x)
     }
     return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-合理运用trim，split后遇到""就跳过
+// ### 解题思路
+// 合理运用trim，split后遇到""就跳过
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String string = s.trim();
@@ -18,4 +18,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

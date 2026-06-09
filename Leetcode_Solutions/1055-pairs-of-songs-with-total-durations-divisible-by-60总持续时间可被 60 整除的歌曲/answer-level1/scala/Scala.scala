@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def numPairsDivisibleBy60(time: Array[Int]): Int = {
     var i = 0
@@ -18,4 +18,4 @@ object Solution {
     count    
     }
 }
-```
+// ```

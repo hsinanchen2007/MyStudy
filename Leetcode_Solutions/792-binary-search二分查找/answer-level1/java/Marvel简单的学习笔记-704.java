@@ -1,9 +1,9 @@
-### 解题思路
-基本得不能再基本的二分查找题。
+// ### 解题思路
+// 基本得不能再基本的二分查找题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int lo=0,hi=nums.length-1;
@@ -17,4 +17,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

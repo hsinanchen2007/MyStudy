@@ -1,9 +1,9 @@
-### 解题思路
-前序遍历 + 判断同构
+# ### 解题思路
+# 前序遍历 + 判断同构
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
         if not t:
@@ -33,4 +33,4 @@ class Solution:
             return False
 
         return self._is_sub(A.left, B.left) and self._is_sub(A.right, B.right)
-```
+# ```

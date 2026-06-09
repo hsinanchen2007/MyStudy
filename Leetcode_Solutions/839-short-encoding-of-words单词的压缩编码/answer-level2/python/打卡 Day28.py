@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words = sorted(words, key=lambda i:len(i), reverse=True)
@@ -9,4 +9,4 @@ class Solution:
             if word+'#' not in S:
                 S+= word+'#'
         return len(S)
-```
+# ```

@@ -1,5 +1,5 @@
-思路：将元素出现的次数添加至map,O(n)。然后遍历计算相邻元素的累加和的最大值,O(n)。总体复杂度O(n).
-```
+# 思路：将元素出现的次数添加至map,O(n)。然后遍历计算相邻元素的累加和的最大值,O(n)。总体复杂度O(n).
+# ```
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
         hashmap = {}
@@ -14,4 +14,4 @@ class Solution:
                 up = hashmap[item+1] 
                 res = max(res,up+hashmap[item])
         return res
-```
+# ```

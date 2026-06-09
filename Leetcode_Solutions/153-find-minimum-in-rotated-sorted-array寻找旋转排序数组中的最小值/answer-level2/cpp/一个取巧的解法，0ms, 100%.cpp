@@ -1,5 +1,5 @@
-> 旋转后的数组是两段升序序列，最小值一定在旋转点和起始点中。
-```c++
+// > 旋转后的数组是两段升序序列，最小值一定在旋转点和起始点中。
+// ```c++
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return mins;
     }
 };
-```
+// ```

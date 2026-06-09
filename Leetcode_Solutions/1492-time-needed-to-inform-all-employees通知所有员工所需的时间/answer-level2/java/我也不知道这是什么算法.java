@@ -1,4 +1,4 @@
-```
+// ```
 public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         int maxDepth = 0;
         int t=0;
@@ -15,4 +15,4 @@ public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
 
         return maxDepth;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-方法一：用bisect包，思路很简单
-```
+# 方法一：用bisect包，思路很简单
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         left=bisect.bisect_left(nums,target)
@@ -8,9 +8,9 @@ class Solution:
         if left==right:
             return [-1,-1]
         return [left,right-1]
-```
-方法二，手动找左右边界
-```
+# ```
+# 方法二，手动找左右边界
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if not nums:
@@ -39,4 +39,4 @@ class Solution:
             else:
                 left=mid
         return [L,right]
-```
+# ```

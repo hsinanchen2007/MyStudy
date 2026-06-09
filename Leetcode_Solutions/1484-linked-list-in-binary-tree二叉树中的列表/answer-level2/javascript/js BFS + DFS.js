@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/1a50c4103b8eebe55d3d599bd7b81fe50bc80f50e5affe87587e47509669a5da-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1a50c4103b8eebe55d3d599bd7b81fe50bc80f50e5affe87587e47509669a5da-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 BFS + DFS
 BFS 层次遍历二叉树，一旦发现有和链表头部相等的节点值，开始 DFS
 先把链表转为数组，这样操作比较简单
 不然就每次定义新指针，从链表头一直向后比较也可以
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -78,4 +78,4 @@ var isSubPath = function(head, root) {
   
   return ans;
 };
-```
+// ```

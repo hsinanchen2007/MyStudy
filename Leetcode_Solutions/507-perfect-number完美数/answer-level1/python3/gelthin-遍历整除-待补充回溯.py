@@ -1,8 +1,8 @@
-### 解题思路
-这一题同[492. 构造矩形题](https://leetcode-cn.com/problems/construct-the-rectangle/)
+# ### 解题思路
+# 这一题同[492. 构造矩形题](https://leetcode-cn.com/problems/construct-the-rectangle/)
 
-想要进一步加速，但没有写出更好的代码。
-``` python3
+# 想要进一步加速，但没有写出更好的代码。
+# ``` python3
 
 ### 进行素数因子分解
 factor = dict()
@@ -22,11 +22,11 @@ for x, y in factor.items():
     for i in range(y):
         val *= x**i
 
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
         ## 首先查找平方根
@@ -46,4 +46,4 @@ class Solution:
             res += left
         return res==num
 
-```
+# ```

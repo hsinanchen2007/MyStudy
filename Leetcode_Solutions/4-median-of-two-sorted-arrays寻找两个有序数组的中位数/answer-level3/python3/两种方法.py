@@ -1,9 +1,9 @@
-### 解题思路
-两种方法
+# ### 解题思路
+# 两种方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 nums1 = [1, 2]
 nums2 = [3, 4]
 
@@ -17,8 +17,8 @@ class Solution(object):
 answer = Solution()
 r = answer.findMedianSortedArrays(nums1, nums2)
 print(r)
-```
-```python3
+# ```
+# ```python3
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         L = len(nums1) + len(nums2)
@@ -47,4 +47,4 @@ class Solution(object):
                 return nums  # 这里代表计算机偷懒成功 (〃'▽'〃)
 
         return nums  # 这里代表计算机没有偷懒成功 o(╥﹏╥)o
-```
+# ```

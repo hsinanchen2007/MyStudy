@@ -1,13 +1,13 @@
-设a[i]表示第i个航班预订的座位数。
+// 设a[i]表示第i个航班预订的座位数。
 
-定义一个差分数组tag[]，tag[i]表示第i个航班与第i-1个航班预订座位的差，即tag[i] = a[i] - a[i - 1]。
+// 定义一个差分数组tag[]，tag[i]表示第i个航班与第i-1个航班预订座位的差，即tag[i] = a[i] - a[i - 1]。
 
-这样，我们每次扫描到[i, j, k]，就只需要将tag[i]增加k，tag[j + 1]减少k即可。
+// 这样，我们每次扫描到[i, j, k]，就只需要将tag[i]增加k，tag[j + 1]减少k即可。
 
-最后，计算a[i] = a[i - 1] + tag[i]，返回a即可。
+// 最后，计算a[i] = a[i - 1] + tag[i]，返回a即可。
 
-给出代码：
-```cpp
+// 给出代码：
+// ```cpp
 class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int> >& bookings, int n) {
@@ -25,4 +25,4 @@ public:
         return a;//直接返回即可
     }
 };
-```
+// ```

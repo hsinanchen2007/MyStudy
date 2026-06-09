@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/f3c68ac0bf77766006ca5f273a34e089979f1eac0011225b79791462986405a0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f3c68ac0bf77766006ca5f273a34e089979f1eac0011225b79791462986405a0-image.png)
 
-看起来像背包，不过数据好像很小，所以就直接深搜回溯了。
+# 看起来像背包，不过数据好像很小，所以就直接深搜回溯了。
 
-用`Counter`容器的`subtract`方法来检验记录是否可以放入第`i`号单词，剩下的就是普通DFS的工作了了，80ms仅供参考。
+# 用`Counter`容器的`subtract`方法来检验记录是否可以放入第`i`号单词，剩下的就是普通DFS的工作了了，80ms仅供参考。
 
-注意扩展的时候要对计数字典进行浅拷贝才行，直接引用字典指针是无法得到正确答案的。
+# 注意扩展的时候要对计数字典进行浅拷贝才行，直接引用字典指针是无法得到正确答案的。
 
-缺陷也是有的，传参拷贝太多，影响了时间，总体马马虎虎吧。
+# 缺陷也是有的，传参拷贝太多，影响了时间，总体马马虎虎吧。
 
-```python []
+# ```python []
 class Solution:
     def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:
         a = {chr(97 + i): s for i, s in enumerate(score)}   #字母对应分数的哈希字典
@@ -26,4 +26,4 @@ class Solution:
                     t = max(t, f(i + 1, r + d[i], q))
                 return t
         return f(0, 0, collections.Counter(letters))
-```
+# ```

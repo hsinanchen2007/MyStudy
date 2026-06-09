@@ -1,8 +1,8 @@
-思路：队列是一端进行删除（即出队），另一端进行插入（即入队）的数据结构。
-题目要求2个栈空间，那么我们使一个限制为只能进行pop操作，一个只能进行push操作，模仿队列的入队和出队操作。
-pop栈我们命名为frontStack，push栈我们命名为rearStack，接下来的代码实现中有详细的注释。
+// 思路：队列是一端进行删除（即出队），另一端进行插入（即入队）的数据结构。
+// 题目要求2个栈空间，那么我们使一个限制为只能进行pop操作，一个只能进行push操作，模仿队列的入队和出队操作。
+// pop栈我们命名为frontStack，push栈我们命名为rearStack，接下来的代码实现中有详细的注释。
 
-```
+// ```
 #define MAXSIZE 30
 #define OK 1
 #define ERR 0
@@ -121,4 +121,4 @@ void myQueueFree(MyQueue* obj) {
     free(obj->rearStack);
     free(obj);
 }
-```
+// ```

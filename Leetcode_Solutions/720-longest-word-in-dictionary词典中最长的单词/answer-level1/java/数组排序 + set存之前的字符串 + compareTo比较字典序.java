@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/8d9fa8771b633f48a741da578849c47a2d5b5334782412397e61df0750482fca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8d9fa8771b633f48a741da578849c47a2d5b5334782412397e61df0750482fca-image.png)
 
-```
+// ```
     public String longestWord(String[] words) {
         Set<String> set = new HashSet();
         Arrays.sort(words, new Comparator<String> (){
@@ -19,5 +19,5 @@
         }
         return res;
     }
-```
+// ```
 

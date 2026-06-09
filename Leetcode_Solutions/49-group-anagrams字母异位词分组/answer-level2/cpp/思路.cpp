@@ -1,10 +1,10 @@
-### 解题思路
-本来用暴力法 sort 对比会超时
-改成hash的话，有一些细节需要理清下标的标识，和如何对比
+// ### 解题思路
+// 本来用暴力法 sort 对比会超时
+// 改成hash的话，有一些细节需要理清下标的标识，和如何对比
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -30,4 +30,4 @@ public:
       return res;
     }
 };
-```
+// ```

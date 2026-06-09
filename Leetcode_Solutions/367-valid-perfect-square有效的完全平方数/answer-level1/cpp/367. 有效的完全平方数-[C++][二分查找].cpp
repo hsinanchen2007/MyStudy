@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -16,4 +16,4 @@ public:
         return (long)lo * lo == num;
     }
 };
-```
+// ```

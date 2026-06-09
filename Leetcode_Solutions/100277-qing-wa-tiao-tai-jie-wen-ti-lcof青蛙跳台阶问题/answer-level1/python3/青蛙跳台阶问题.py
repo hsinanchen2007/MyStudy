@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numWays(self, n):
         """
@@ -9,4 +9,4 @@ class Solution(object):
         for i in range(n):
             a,b=b,a+b
         return a%1000000007
-```
+# ```

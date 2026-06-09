@@ -1,4 +1,4 @@
-```非递归
+# ```非递归
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
         if root is None:
@@ -14,4 +14,4 @@ class Solution:
                     stack.append(item)
         return out[::-1]                    #上一步循环完后是按照 根节点 右节点 左节点 倒序输出即可
                 
-```
+# ```

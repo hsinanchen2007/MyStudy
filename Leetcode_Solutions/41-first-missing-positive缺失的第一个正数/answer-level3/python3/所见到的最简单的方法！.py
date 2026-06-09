@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         s = set(nums)
@@ -10,11 +10,11 @@ class Solution:
                 return v
             v += 1
         
-```
+# ```
 
-或者：
+# 或者：
 
-```
+# ```
 class Solution:
     def firstMissingPositive(self, nums):
         """
@@ -26,4 +26,4 @@ class Solution:
         while n in nums:
             n=n+1
         return n
-```
+# ```

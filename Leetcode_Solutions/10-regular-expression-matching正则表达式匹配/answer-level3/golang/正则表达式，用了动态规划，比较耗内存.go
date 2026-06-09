@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func cmp(m [][]int, s string, i int, p string, j int ) int {
    
     if(m[i][j]!=0){
@@ -56,4 +56,4 @@ func isMatch(s string, p string) bool {
     }
     return  false
 }
-```
+// ```

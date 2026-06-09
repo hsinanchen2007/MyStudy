@@ -1,10 +1,10 @@
-### 解题思路
-建立unordered_map key为元素值 value为元素个数
-通过快慢指针判断是否更新指针
+// ### 解题思路
+// 建立unordered_map key为元素值 value为元素个数
+// 通过快慢指针判断是否更新指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return j+1;
     }
 };
-```
+// ```

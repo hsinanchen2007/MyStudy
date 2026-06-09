@@ -1,9 +1,9 @@
-### 解题思路
-纯C 一步一步做
+// ### 解题思路
+// 纯C 一步一步做
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -93,4 +93,4 @@ int** insert(IN int** intervals, IN int intervalsSize, IN int* intervalsColSize,
 
     return ppRes;
 }
-```
+// ```

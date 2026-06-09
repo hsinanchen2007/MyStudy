@@ -1,10 +1,10 @@
-### 解题思路
-1、用数组 or 切片
-2、用map
+// ### 解题思路
+// 1、用数组 or 切片
+// 2、用map
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countCharacters(words []string, chars string) int {
     chars1, chars2 := [26]int{}, [26]int{}
     for i := 0;i < len(chars);i++ {
@@ -28,5 +28,5 @@ func countCharacters(words []string, chars string) int {
     }
     return length
 }
-```
-[leetcode的golang AC代码](https://github.com/laijinhang/leetcode-golang/)
+// ```
+// [leetcode的golang AC代码](https://github.com/laijinhang/leetcode-golang/)

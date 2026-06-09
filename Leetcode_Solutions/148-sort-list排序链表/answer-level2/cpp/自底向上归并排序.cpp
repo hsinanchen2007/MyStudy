@@ -1,9 +1,9 @@
-### 解题思路
-参考了大佬的思路写的，自底向上归并排序，有点复杂，这是我在leetcode写过最长的代码。。。
+// ### 解题思路
+// 参考了大佬的思路写的，自底向上归并排序，有点复杂，这是我在leetcode写过最长的代码。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -127,4 +127,4 @@ private:
         return make_pair(head, tail);
     }
 };
-```
+// ```

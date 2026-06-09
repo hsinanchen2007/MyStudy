@@ -1,11 +1,11 @@
-[264.丑数二](https://leetcode-cn.com/problems/ugly-number-ii/submissions/)
+// [264.丑数二](https://leetcode-cn.com/problems/ugly-number-ii/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
 
-## 动态规划(三指针)
+// ## 动态规划(三指针)
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -25,4 +25,4 @@ var nthUglyNumber = function(n) {
     }
     return dp[n-1];
 };
-```
+// ```

@@ -1,5 +1,5 @@
-![A3C7D767-C32C-432F-8214-79C15FCBC7C6.jpeg](https://pic.leetcode-cn.com/7a5816ed69482415df092d9ba3434b75a33b3529609c1d5ba999cb8c5cc1cb6a-A3C7D767-C32C-432F-8214-79C15FCBC7C6.jpeg)
-```
+// ![A3C7D767-C32C-432F-8214-79C15FCBC7C6.jpeg](https://pic.leetcode-cn.com/7a5816ed69482415df092d9ba3434b75a33b3529609c1d5ba999cb8c5cc1cb6a-A3C7D767-C32C-432F-8214-79C15FCBC7C6.jpeg)
+// ```
 #define COLSIZE 2
 
 int Cmp(const void *a, const void *b)
@@ -47,5 +47,5 @@ int getKth(int lo, int hi, int k){
 }
 
 
-```
+// ```
 

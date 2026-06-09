@@ -1,8 +1,8 @@
-### 解题思路
-维护stack,遇到#就出栈，其他进栈
-### 代码
+# ### 解题思路
+# 维护stack,遇到#就出栈，其他进栈
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def backspaceCompare(self, S, T):
         """
@@ -33,4 +33,4 @@ class Solution(object):
             finalT = finalT + item
             
         return finalS == finalT
-```
+# ```

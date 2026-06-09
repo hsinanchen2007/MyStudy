@@ -1,9 +1,9 @@
 
-- 寻找满足 nums[m] < nums[m-1] 的点
-- 如果搜索到 m=0 时，特殊考虑
-- 没有搜索到代表数组是升序的，则返回 nums[0]
+// - 寻找满足 nums[m] < nums[m-1] 的点
+// - 如果搜索到 m=0 时，特殊考虑
+// - 没有搜索到代表数组是升序的，则返回 nums[0]
 
-```
+// ```
 func findMin(nums []int) int {
     l := 0
     r := len(nums)-1
@@ -31,4 +31,4 @@ func findMin(nums []int) int {
     }
     return nums[0]
 }
-```
+// ```

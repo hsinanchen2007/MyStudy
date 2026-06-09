@@ -1,8 +1,8 @@
-### 解题思路1
-两个for循环，最占用时间的。
+# ### 解题思路1
+# 两个for循环，最占用时间的。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -17,13 +17,13 @@ class Solution(object):
                 if sum_ij == target:
                     return [i, j]
 
-```
+# ```
 
-### 解题思路2
-一个for循环，直接用target 减去 取出的数字，看结果有没有在数组里.
+# ### 解题思路2
+# 一个for循环，直接用target 减去 取出的数字，看结果有没有在数组里.
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -37,13 +37,13 @@ class Solution(object):
             if sub_nums in nums[index_nums+1:]:
                 index_nums_sec = index_nums + 1 + nums[index_nums+1:].index(sub_nums)
                 return [index_nums, index_nums_sec]
-```
+# ```
 
-### 解题思路3
-直接用字典解决。
+# ### 解题思路3
+# 直接用字典解决。
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
 	def twoSum(self,nums,target):
 		d = {}
@@ -53,4 +53,4 @@ class Solution:
 				return d[target-nums[x]],x
 			else:
 				d[nums[x]] = x
-```
+# ```

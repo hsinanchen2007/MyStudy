@@ -1,4 +1,4 @@
-```
+// ```
 
 var lastRemaining = function (n) {
 
@@ -21,4 +21,4 @@ var lastRemaining = function (n) {
 
 
 
-```
+// ```

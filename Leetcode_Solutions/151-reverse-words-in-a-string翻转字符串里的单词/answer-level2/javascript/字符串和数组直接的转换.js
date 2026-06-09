@@ -1,11 +1,11 @@
-### 解题思路
-1. 根据空格符把字符串转换为数组，并把空格符元素过滤
-2. 使用reverse函数翻转数组元素
-3. 使用join函数把数组转换为字符串
+// ### 解题思路
+// 1. 根据空格符把字符串转换为数组，并把空格符元素过滤
+// 2. 使用reverse函数翻转数组元素
+// 3. 使用join函数把数组转换为字符串
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -28,4 +28,4 @@ var reverseWords = function(s) {
     }).reverse().join(' ');
     return arr_1;
 };
-```
+// ```

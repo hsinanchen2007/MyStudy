@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
-首先根据BST的性质找到与key相等节点，如果key节点的右子树为null，则直接将左节点放于key节点位置；如果key节点右子树不为null，则返回右子树的最小节点与key节点处。
+// 思路：
+// 首先根据BST的性质找到与key相等节点，如果key节点的右子树为null，则直接将左节点放于key节点位置；如果key节点右子树不为null，则返回右子树的最小节点与key节点处。
 
-如果BST树的左子树为null，则BST树的最小节点就是根节点，如果左子树不为null，在左子树上按照上述规则递归，便可找到最小节点。
+// 如果BST树的左子树为null，则BST树的最小节点就是根节点，如果左子树不为null，在左子树上按照上述规则递归，便可找到最小节点。
 
 
-```
+// ```
 public TreeNode deleteNode(TreeNode root, int key) {
     if (root == null) return null;
     if (root.val == key) {
@@ -37,4 +37,4 @@ public TreeNode deleteNode(TreeNode root, int key) {
     }
     return root;
 }
-```
+// ```

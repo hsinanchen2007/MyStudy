@@ -1,11 +1,11 @@
-### 解题思路
-没有边界检查的数组
-![image.png](https://pic.leetcode-cn.com/cde1d8163fb116de6829e111b10ebbe5d42e9efe2ac3020849c5c8342082c621-image.png)
-![image.png](https://pic.leetcode-cn.com/92359d01d985b48e4366be40a5527b84cf336bbec7542f0acf4a70aa5dce9d45-image.png)
+// ### 解题思路
+// 没有边界检查的数组
+// ![image.png](https://pic.leetcode-cn.com/cde1d8163fb116de6829e111b10ebbe5d42e9efe2ac3020849c5c8342082c621-image.png)
+// ![image.png](https://pic.leetcode-cn.com/92359d01d985b48e4366be40a5527b84cf336bbec7542f0acf4a70aa5dce9d45-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define QUEUESIZE 10000
 typedef struct {
     int data[QUEUESIZE];
@@ -67,4 +67,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

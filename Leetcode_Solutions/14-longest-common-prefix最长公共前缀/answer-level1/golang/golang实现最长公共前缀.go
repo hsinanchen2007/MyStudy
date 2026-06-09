@@ -1,10 +1,10 @@
-### 解题思路
-1.先找出数组中最短的字符串short
-2.然后用short做为比照对象与其他字符串进行比较
+// ### 解题思路
+// 1.先找出数组中最短的字符串short
+// 2.然后用short做为比照对象与其他字符串进行比较
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
     short := shortStr(strs)
 
@@ -30,4 +30,4 @@ func shortStr(strs []string) string {
     }
     return res
 }
-```
+// ```

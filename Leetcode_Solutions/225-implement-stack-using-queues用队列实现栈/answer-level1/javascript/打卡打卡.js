@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-本题使用JavaScript中的Array实现队列进而模拟栈。
-> Array中队列的操作有：
-> 入队：Array.push()
-> 出队：Array.shift()
-运用Array中常用的操作函数进行实现即可。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 本题使用JavaScript中的Array实现队列进而模拟栈。
+// > Array中队列的操作有：
+// > 入队：Array.push()
+// > 出队：Array.shift()
+// 运用Array中常用的操作函数进行实现即可。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -55,4 +55,4 @@ MyStack.prototype.top = function() {
 MyStack.prototype.empty = function() {
     return this.que.length == 0 ? true : false;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-大佬们的贪心算法，用C语言写的
+// ### 解题思路
+// 大佬们的贪心算法，用C语言写的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdio.h>
 #include<string.h>
 
@@ -36,4 +36,4 @@ char * intToRoman(int num)
     return str;
 }
 
-```
+// ```

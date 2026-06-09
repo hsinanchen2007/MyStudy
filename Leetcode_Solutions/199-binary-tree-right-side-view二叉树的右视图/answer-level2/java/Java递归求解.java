@@ -1,5 +1,5 @@
-耗时1ms，只要保存每层最右边的节点值就行，因此遍历顺序是`根-右-左`，对于当前深度，只保存第一个遍历到的节点
-```
+// 耗时1ms，只要保存每层最右边的节点值就行，因此遍历顺序是`根-右-左`，对于当前深度，只保存第一个遍历到的节点
+// ```
 class Solution {
     List<Integer> result = new ArrayList<>();
     public List<Integer> rightSideView(TreeNode root) {
@@ -15,4 +15,4 @@ class Solution {
         traverse(root.left,depth+1);
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-第一次上Leetcode刷题，现在的解题思路肯定是执行效率比较低的，慢慢来
-### 代码
+// ### 解题思路
+// 第一次上Leetcode刷题，现在的解题思路肯定是执行效率比较低的，慢慢来
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
          for (i,num) in nums.enumerated() {
@@ -16,4 +16,4 @@ class Solution {
         return[]
     }
 }
-```
+// ```

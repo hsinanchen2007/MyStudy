@@ -1,9 +1,9 @@
-### 解题思路
-DFS求经过每个节点的最大值中的最大值即可，中间有重复子问题加以利用就可以了。
+// ### 解题思路
+// DFS求经过每个节点的最大值中的最大值即可，中间有重复子问题加以利用就可以了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return max(max(max(l+t->val,r+t->val),t->val),0);
     }
 };
-```
+// ```

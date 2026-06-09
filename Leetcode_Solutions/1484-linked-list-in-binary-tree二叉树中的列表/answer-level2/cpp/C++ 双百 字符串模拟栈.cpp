@@ -1,6 +1,6 @@
-![TIM截图20200302212555.png](https://pic.leetcode-cn.com/e2a30b5ea1f81cdb6e8d5f0f3d8e621822606e9b348786bee6135c72c92e2ac8-TIM%E6%88%AA%E5%9B%BE20200302212555.png)
-将链表转化为字符串，深度优先遍历二叉树，对于每一条从根节点到叶子节点的路径，也转化为字符串，用find函数判断路径字符串是否包含链表字符串，如果包含，则令flag=1。执行完verify函数后，按照root->val位数退栈，root->val是几位数就在末尾删除几个字符（用substr实现退栈）。
-```
+// ![TIM截图20200302212555.png](https://pic.leetcode-cn.com/e2a30b5ea1f81cdb6e8d5f0f3d8e621822606e9b348786bee6135c72c92e2ac8-TIM%E6%88%AA%E5%9B%BE20200302212555.png)
+// 将链表转化为字符串，深度优先遍历二叉树，对于每一条从根节点到叶子节点的路径，也转化为字符串，用find函数判断路径字符串是否包含链表字符串，如果包含，则令flag=1。执行完verify函数后，按照root->val位数退栈，root->val是几位数就在末尾删除几个字符（用substr实现退栈）。
+// ```
 class Solution {
 public:
 string goal="";
@@ -50,5 +50,5 @@ bool isSubPath(ListNode* head, TreeNode* root) {
 	return false;
 }
 };
-```
+// ```
 

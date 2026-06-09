@@ -1,23 +1,23 @@
-# 分治
-分解成容易解决的子问题：也就是按运算符分成左右两部分，分别计算后，利用分隔符，合并
+// # 分治
+// 分解成容易解决的子问题：也就是按运算符分成左右两部分，分别计算后，利用分隔符，合并
 
-关于分治的更详细描述，请看：
+// 关于分治的更详细描述，请看：
 
-tip:https://blog.csdn.net/qq_21515253/article/details/96216125
+// tip:https://blog.csdn.net/qq_21515253/article/details/96216125
 
-# **策略**
+// # **策略**
 
-1、不处理字符串，以string形式进行partition
+// 1、不处理字符串，以string形式进行partition
 
-2、分割字符串（split），分离出所有参与运算的数字（数量为n）和符号(数量为n-1)
+// 2、分割字符串（split），分离出所有参与运算的数字（数量为n）和符号(数量为n-1)
 
-注：**(1)分隔符数量为string中符号数
+// 注：**(1)分隔符数量为string中符号数
 
-    (2)策略一效率优于策略二**
+//     (2)策略一效率优于策略二**
 
 
-# 策略一：
-```java []
+// # 策略一：
+// ```java []
 class Solution {
     
     public List<Integer> diffWaysToCompute(String input) {
@@ -48,10 +48,10 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
-# 策略二
-```java []
+// # 策略二
+// ```java []
 class Solution {
     ArrayList<Character> op = new ArrayList<>();
     String[] nums;
@@ -98,7 +98,7 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
 
 

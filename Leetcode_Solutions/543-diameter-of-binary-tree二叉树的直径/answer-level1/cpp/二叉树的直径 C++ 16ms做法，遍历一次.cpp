@@ -1,11 +1,11 @@
-### 解题思路
-递归求出每个根节点的左右子树深度的和，找出最大的那个即可。
-直接看代码吧，都有注释
-![image.png](https://pic.leetcode-cn.com/328a5f159b4e6781a2aad9af2c67380acb4933bc97ac9b06e4ec9f56bb3c46a5-image.png)
+// ### 解题思路
+// 递归求出每个根节点的左右子树深度的和，找出最大的那个即可。
+// 直接看代码吧，都有注释
+// ![image.png](https://pic.leetcode-cn.com/328a5f159b4e6781a2aad9af2c67380acb4933bc97ac9b06e4ec9f56bb3c46a5-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         else return max(left_deep+1,right_deep+1);//非叶子节点，则返回左右子树深度较深的那个，记得要+1，因为经过本身的这个根节点
     }
 };
-```
+// ```

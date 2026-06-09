@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思
-两个中间变量a和b， b负责遍历数组，a负责记录去重后的数组位置。
-### 代码
+// ### 解题思路
+// 此处撰写解题思
+// 两个中间变量a和b， b负责遍历数组，a负责记录去重后的数组位置。
+// ### 代码
 
-```golang
+// ```golang
 func removeDuplicates(nums []int) int {
     if (len(nums)==0) {
         return 0;
@@ -21,4 +21,4 @@ func removeDuplicates(nums []int) int {
     }
     return j+1;
 }
-```
+// ```

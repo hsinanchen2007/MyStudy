@@ -1,9 +1,9 @@
-### 解题思路
-快慢双指针解法, 多用一个int计数，也可以在计数环有多大时开始从头移动一个指针，就可以省略计数的int.
+// ### 解题思路
+// 快慢双指针解法, 多用一个int计数，也可以在计数环有多大时开始从头移动一个指针，就可以省略计数的int.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -52,4 +52,4 @@ public class Solution {
         return slow;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 //局部最大
 func findPeakElement(nums []int) int {
     if len(nums) == 0{//数组为空
@@ -29,4 +29,4 @@ func findPeakElement(nums []int) int {
     }
     return -1
 }
-```
+// ```

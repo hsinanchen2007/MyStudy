@@ -1,8 +1,8 @@
-第一步：快慢指针找到中间节点
-第二步：翻转后半段
-第三步：对比
+// 第一步：快慢指针找到中间节点
+// 第二步：翻转后半段
+// 第三步：对比
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
@@ -50,4 +50,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

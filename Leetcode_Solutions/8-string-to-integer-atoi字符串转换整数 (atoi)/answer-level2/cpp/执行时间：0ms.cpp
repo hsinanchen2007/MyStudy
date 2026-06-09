@@ -1,9 +1,9 @@
-### 解题思路
-先对字符串进行修剪，然后利用c++中stringstream流进行转化
+// ### 解题思路
+// 先对字符串进行修剪，然后利用c++中stringstream流进行转化
 
-##### 代码
+// ##### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -26,4 +26,4 @@ public:
         return re;
     }
 };
-```
+// ```

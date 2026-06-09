@@ -1,9 +1,9 @@
-### 解题思路
-用一个比board更大的board1去做判断，结果传回给board。
+// ### 解题思路
+// 用一个比board更大的board1去做判断，结果传回给board。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         int[][] board1 = new int[board.length+2][board[0].length+2];
@@ -60,4 +60,4 @@ class Solution {
         return board1[i][j];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int smallestRangeI(vector<int>& A, int K) {
@@ -13,4 +13,4 @@ public:
         return max(a_max-a_min-K-K,0);
     }
 };
-```
+// ```

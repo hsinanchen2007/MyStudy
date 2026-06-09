@@ -1,6 +1,6 @@
-动态规划
+# 动态规划
 
-```python3
+# ```python3
 class Solution:
     def subsetsWithDup(self, nums):
 
@@ -13,10 +13,10 @@ class Solution:
             #     continue
             res += [tt+[nums[i]] for tt in res if tt+[nums[i]] not in res]
         return res
-```
+# ```
 
-回溯法
-```
+# 回溯法
+# ```
 class Solution:
     def subsetsWithDup(self, nums):
         result = []
@@ -31,5 +31,5 @@ class Solution:
             tmp.append(nums[i])
             self.helper(nums, i+1, tmp, result)
             tmp.pop()
-```
+# ```
 

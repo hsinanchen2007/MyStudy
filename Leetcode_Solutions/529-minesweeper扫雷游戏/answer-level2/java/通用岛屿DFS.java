@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private int[][] dirArr = new int[][]{{1,0},{1,1},{0,1},{-1,1},{-1,0},{-1,-1},{0,-1},{1,-1}};
 
@@ -39,4 +39,4 @@ class Solution {
         return r >= 0 && r < board.length && c >= 0 && c < board[0].length;
     }
 }
-```
+// ```

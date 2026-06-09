@@ -1,9 +1,9 @@
-### 解题思路
-回溯超时了，自底向上就可以了
+// ### 解题思路
+// 回溯超时了，自底向上就可以了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      //标记能否从起点跳到这个位置
     private boolean[] ican;
@@ -21,4 +21,4 @@ class Solution {
         return ican[nums.length - 1];
     }
 }
-```
+// ```

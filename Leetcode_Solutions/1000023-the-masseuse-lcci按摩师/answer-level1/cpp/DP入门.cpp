@@ -1,13 +1,13 @@
-### 解题思路
-一共有n个预约，要求到第n个预约的最大时长。两种情况
-1）我们接第n个预约`dp[n]=dp[n-2]+num[n]`。
-2）我们不接第n个预约`dp[n]=dp[n-1]`
-选时间最大的那个作为dp[n]的值
-注意处理边界情况和`dp[0]`,`dp[1]`的赋值
+// ### 解题思路
+// 一共有n个预约，要求到第n个预约的最大时长。两种情况
+// 1）我们接第n个预约`dp[n]=dp[n-2]+num[n]`。
+// 2）我们不接第n个预约`dp[n]=dp[n-1]`
+// 选时间最大的那个作为dp[n]的值
+// 注意处理边界情况和`dp[0]`,`dp[1]`的赋值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -24,10 +24,10 @@ public:
         return dp[n-1];
     }
 };
-```
-### 优化后的方法
+// ```
+// ### 优化后的方法
 
-```
+// ```
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -42,4 +42,4 @@ public:
         return b;
     }
 };
-```
+// ```

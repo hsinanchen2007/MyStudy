@@ -1,4 +1,4 @@
-```java
+// ```java
 class Foo {
     private boolean firstFinished = false;
     private boolean secondFinished = false;
@@ -44,4 +44,4 @@ class Foo {
         }
     }
 }
-```
+// ```

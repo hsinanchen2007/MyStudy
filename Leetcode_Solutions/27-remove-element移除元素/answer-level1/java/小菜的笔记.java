@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-利用双指针，直接在数组上赋值。
+// ### 解题思路
+// 此处撰写解题思路
+// 利用双指针，直接在数组上赋值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int len=nums.length;
@@ -19,4 +19,4 @@ class Solution {
 
     }
 }
-```
+// ```

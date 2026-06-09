@@ -1,6 +1,6 @@
-1.map统计各个数字出现次数
-2.set记录出现次数
-```
+// 1.map统计各个数字出现次数
+// 2.set记录出现次数
+// ```
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
@@ -14,4 +14,4 @@ public:
         return true;
     }
 };
-```
+// ```

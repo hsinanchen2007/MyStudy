@@ -1,4 +1,4 @@
-```
+// ```
 function simplifyPath($path) {
     $stack = [];
     $parr = explode("/",$path);
@@ -17,4 +17,4 @@ function simplifyPath($path) {
     }
     return $ans;
 }
-```
+// ```

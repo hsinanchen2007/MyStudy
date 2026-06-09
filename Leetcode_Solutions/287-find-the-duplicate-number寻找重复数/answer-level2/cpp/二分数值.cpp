@@ -1,14 +1,14 @@
-### 解题思路
-解法1
-    （1）首先想到的是hash表去重，unordered_set插入元素前find一下查看元素是否已经存在，存在的话则这个元素就是答案，时间复          杂度是O(1)，空间复杂是O(n)
-    （2）借助一个长度为nums中元素最大值的数组cnt，cnt[nums[i]]统计值为nums[I]的元素个数,时间复杂度O（n）,空间复杂度O(n)
+// ### 解题思路
+// 解法1
+//     （1）首先想到的是hash表去重，unordered_set插入元素前find一下查看元素是否已经存在，存在的话则这个元素就是答案，时间复          杂度是O(1)，空间复杂是O(n)
+//     （2）借助一个长度为nums中元素最大值的数组cnt，cnt[nums[i]]统计值为nums[I]的元素个数,时间复杂度O（n）,空间复杂度O(n)
 
-解法2
-时间复杂度O（nlog2n）
-空间复杂度O（1）
-### 代码
+// 解法2
+// 时间复杂度O（nlog2n）
+// 空间复杂度O（1）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {

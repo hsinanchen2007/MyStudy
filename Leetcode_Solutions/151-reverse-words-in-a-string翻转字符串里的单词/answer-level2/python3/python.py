@@ -1,7 +1,7 @@
 
 
 
-```
+# ```
 def reverseWords( s: str):
     a = [i for i in s.split(' ')]
     n = 0
@@ -11,5 +11,5 @@ def reverseWords( s: str):
     for j in range(n):
         a.remove('')
     return ' '.join(a[::-1])
-```
+# ```
 

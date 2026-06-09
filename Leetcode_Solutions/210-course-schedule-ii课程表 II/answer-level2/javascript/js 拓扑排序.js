@@ -1,5 +1,5 @@
-JS 拓扑排序
-```
+// JS 拓扑排序
+// ```
 var findOrder = function(numCourses, prerequisites) {
     const record = {};
     const inDegree = new Array(numCourses).fill(0);
@@ -26,4 +26,4 @@ var findOrder = function(numCourses, prerequisites) {
     }
     return res.length === numCourses ? res.reverse() : [];
 };
-```
+// ```

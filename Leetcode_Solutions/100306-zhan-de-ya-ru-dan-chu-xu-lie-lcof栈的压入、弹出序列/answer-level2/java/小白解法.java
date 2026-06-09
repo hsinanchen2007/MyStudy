@@ -1,10 +1,10 @@
-### 解题思路
-关注他，学好算法不迷茫
-https://www.zhihu.com/people/god-jiang
+// ### 解题思路
+// 关注他，学好算法不迷茫
+// https://www.zhihu.com/people/god-jiang
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> stack=new Stack<>();
@@ -19,4 +19,4 @@ class Solution {
         return stack.isEmpty()?true:false;
     }
 }
-```
+// ```

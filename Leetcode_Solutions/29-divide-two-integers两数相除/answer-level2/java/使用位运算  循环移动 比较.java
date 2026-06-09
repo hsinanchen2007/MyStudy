@@ -1,7 +1,7 @@
-执行用时 :3 ms, 在所有 Java 提交中击败了94.76%的用户
-内存消耗 :34 MB, 在所有 Java 提交中击败了76.01%的用户
-使用位运算
-```
+// 执行用时 :3 ms, 在所有 Java 提交中击败了94.76%的用户
+// 内存消耗 :34 MB, 在所有 Java 提交中击败了76.01%的用户
+// 使用位运算
+// ```
 class Solution {
    public int divide(int dividend, int divisor) {
        	if(divisor==0) return Integer.MAX_VALUE;
@@ -40,4 +40,4 @@ class Solution {
         return sign*res;
    }
 }
-```
+// ```

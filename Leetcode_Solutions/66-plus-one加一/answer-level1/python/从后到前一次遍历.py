@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def plusOne(self, digits):
         """
@@ -23,10 +23,10 @@ class Solution(object):
         if acc == 1:
             digits.insert(0, 1)    
         return digits;
-```
+# ```
 
-# Java
-```
+# # Java
+# ```
 class Solution {
     public int[] plusOne(int[] digits) {
         int i = digits.length - 1;
@@ -49,4 +49,4 @@ class Solution {
         return digits;
     }
 }
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 左边移到上边
-2. 下边移到左边
-3. 右边移到下边
-4. 上边移到右边
-### 代码
+# ### 解题思路
+# 1. 左边移到上边
+# 2. 下边移到左边
+# 3. 右边移到下边
+# 4. 上边移到右边
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -32,4 +32,4 @@ class Solution:
                 matrix[i][last] = top
         return True
 
-```
+# ```

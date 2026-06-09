@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1.判断行重复
-2.判断列重复
-3.判断九宫格重复
-时间复杂度和空间复杂度均为O(1)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.判断行重复
+// 2.判断列重复
+// 3.判断九宫格重复
+// 时间复杂度和空间复杂度均为O(1)
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsValidSudoku(char[][] board) {
         HashSet<int>[] rows=new HashSet<int>[9];
@@ -40,4 +40,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

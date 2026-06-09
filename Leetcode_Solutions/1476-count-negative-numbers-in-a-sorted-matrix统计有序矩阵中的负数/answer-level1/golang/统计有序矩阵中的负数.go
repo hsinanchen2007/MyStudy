@@ -1,9 +1,9 @@
-### 解题思路
-太简单，直接看代码吧。
+// ### 解题思路
+// 太简单，直接看代码吧。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countNegatives(grid [][]int) int {
 	count := 0
 	for i := 0; i < len(grid); i++ {
@@ -15,4 +15,4 @@ func countNegatives(grid [][]int) int {
 	}
 	return count
 }
-```
+// ```

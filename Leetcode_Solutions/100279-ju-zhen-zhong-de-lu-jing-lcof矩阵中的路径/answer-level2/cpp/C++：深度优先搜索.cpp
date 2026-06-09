@@ -1,8 +1,8 @@
 
-注意点：
-    1.如何对越界条件进行判断
-    2.怎样对当前所在字符进行标记处理
-```
+// 注意点：
+//     1.如何对越界条件进行判断
+//     2.怎样对当前所在字符进行标记处理
+// ```
 class Solution {
 private:
     bool dfs(vector<vector<char>>& board, string& word, int i, int j, int k)
@@ -35,4 +35,4 @@ public:
         
     }
 };
-```
+// ```

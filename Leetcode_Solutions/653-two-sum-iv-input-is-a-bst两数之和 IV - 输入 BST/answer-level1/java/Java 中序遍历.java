@@ -1,6 +1,6 @@
-用中序遍历得到按大小排列的数组，然后遍历数组，用双指针判断是否满足条件。
+// 用中序遍历得到按大小排列的数组，然后遍历数组，用双指针判断是否满足条件。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         inOrder(root.right,nums);
     }
 }
-```
+// ```

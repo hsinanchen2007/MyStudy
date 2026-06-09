@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         '''
@@ -23,4 +23,4 @@ class Solution:
                 lenth = status[k]
                 
         return lenth
-```
+# ```

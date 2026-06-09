@@ -1,9 +1,9 @@
-### 解题思路
-根据左旋值k将字符串截成前后两段，重新拼接。
+// ### 解题思路
+// 根据左旋值k将字符串截成前后两段，重新拼接。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public String reverseLeftWords(String s, int n) {
         String s1 = s.substring(0, n);//第一段
@@ -14,4 +14,4 @@ class Solution {
         return s3;
     }
 }
-```
+// ```

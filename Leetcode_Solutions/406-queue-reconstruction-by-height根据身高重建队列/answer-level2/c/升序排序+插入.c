@@ -1,10 +1,10 @@
-### 解题思路
-先按照身高和体重升序排序，然后按照升序的顺序在结果列表中插入排序。
-因为排好序之后，根据当前已经存在的结果确认当前人应该插入到什么位置。
+// ### 解题思路
+// 先按照身高和体重升序排序，然后按照升序的顺序在结果列表中插入排序。
+// 因为排好序之后，根据当前已经存在的结果确认当前人应该插入到什么位置。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -98,4 +98,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
 
     return result;
 }
-```
+// ```

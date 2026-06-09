@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def distributeCandies(self, candies, num_people):
         result = [0]*num_people
@@ -9,4 +9,4 @@ class Solution:
             count += 1
         result[(count-1)%num_people] += candies
         return result
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-dp 和 回溯
+// ### 解题思路
+// dp 和 回溯
 
-### 代码
-回溯
-```cpp
+// ### 代码
+// 回溯
+// ```cpp
 class Solution {
 public:
     int translateNum(int num) {
@@ -20,10 +20,10 @@ public:
         
     }
 };
-```
+// ```
 
-dp
-```cpp
+// dp
+// ```cpp
 class Solution {
 public:
     int translateNum(int num) {
@@ -41,4 +41,4 @@ public:
         return dp[size];
     }
 };
-```
+// ```

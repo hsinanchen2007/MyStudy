@@ -1,12 +1,12 @@
-本题关键之处（完整代码见文末）：
+// 本题关键之处（完整代码见文末）：
 
-- 不能参与多笔交易
-- 尽可能多地进行交易
+// - 不能参与多笔交易
+// - 尽可能多地进行交易
 
-![image.png](https://pic.leetcode-cn.com/7041f9f79033a4599ccfc9fa311f89e9a154c2850ff71eda26cc52ff8c11f17d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7041f9f79033a4599ccfc9fa311f89e9a154c2850ff71eda26cc52ff8c11f17d-image.png)
 
 
-```go []
+// ```go []
 func maxProfit(prices []int) int {
     if len(prices) < 2 {
         return 0
@@ -27,4 +27,4 @@ func max(a,b int) int {
     }
     return b
 }
-```
+// ```

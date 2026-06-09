@@ -1,9 +1,9 @@
-### 解题思路
-由于数组升序，只要找到大于等于target的位置就返回
+// ### 解题思路
+// 由于数组升序，只要找到大于等于target的位置就返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -18,4 +18,4 @@ public:
         return pos;
     }
 };
-```
+// ```

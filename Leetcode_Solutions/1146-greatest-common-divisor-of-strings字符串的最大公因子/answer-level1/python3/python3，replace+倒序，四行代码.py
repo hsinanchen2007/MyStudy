@@ -1,4 +1,4 @@
-# replace+倒序四行代码
+# # replace+倒序四行代码
 
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:

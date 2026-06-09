@@ -1,9 +1,9 @@
-### 解题思路
-基本思路：先找到R的位置，然后再上下左右进行遍历。 并且分为if B 与 else if P 两种方式
-C语言和java代码实现基本类似，python更简洁
-### 代码
+# ### 解题思路
+# 基本思路：先找到R的位置，然后再上下左右进行遍历。 并且分为if B 与 else if P 两种方式
+# C语言和java代码实现基本类似，python更简洁
+# ### 代码
 
-```c
+# ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
 	int res = 0;
 	for (int i = 0; i < boardSize; i++){
@@ -69,4 +69,4 @@ class Solution:
                     break
                 step += 1    #y如果没遇到，则步数++
         return cnt
-```
+# ```

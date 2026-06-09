@@ -1,5 +1,5 @@
-拿到这道题的时候，一想卧槽好简单啊，反手就是一个暴力……
-```python
+# 拿到这道题的时候，一想卧槽好简单啊，反手就是一个暴力……
+# ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         return self.helper(nums, 0, 0, 0)
@@ -12,12 +12,12 @@ class Solution:
         res2 = self.helper(nums, idx + 1, branch1_sum, branch2_sum + nums[idx])
 
         return res1 or res2
-```
-果不其然，超时了，哈哈哈哈。。
+# ```
+# 果不其然，超时了，哈哈哈哈。。
 
-而且这种暴力解法无法使用记忆化搜索，想着怎么用记忆化搜索取解决。。
-题目要求全部数字分成两部分，两部分的和要相等，这不就是说两部分的和要等于整体数组的和的一半吗？那么问题就转换成了能否用这么多个数字（可以只取部分数字）取成一个和为**数组总和的一半(sum)**的子数组。用一些数去填充某个空间，是不是很熟悉，背包问题呀！背包空间是sum/2！所以将暴力递归转换为记忆化搜索：
-```python
+# 而且这种暴力解法无法使用记忆化搜索，想着怎么用记忆化搜索取解决。。
+# 题目要求全部数字分成两部分，两部分的和要相等，这不就是说两部分的和要等于整体数组的和的一半吗？那么问题就转换成了能否用这么多个数字（可以只取部分数字）取成一个和为**数组总和的一半(sum)**的子数组。用一些数去填充某个空间，是不是很熟悉，背包问题呀！背包空间是sum/2！所以将暴力递归转换为记忆化搜索：
+# ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         _sum = sum(nums)
@@ -60,9 +60,9 @@ class Solution:
         self.record[idx][c] = bool(res) # 记忆
 
         return res
-```
-通过啦，但是我们还可以用dp来解决背包问题，思路和自顶向下的记忆化搜索策略差不多，代码更简单一些
-```python
+# ```
+# 通过啦，但是我们还可以用dp来解决背包问题，思路和自顶向下的记忆化搜索策略差不多，代码更简单一些
+# ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         _sum = sum(nums)
@@ -86,4 +86,4 @@ class Solution:
                 dp[j] = dp[j] or dp[j - nums[i]]
 
         return dp[-1]  # 最后返回dp[-1]，代表用这len(nums)个元素能否填充容量为bag_volume的背包。
-```
+# ```

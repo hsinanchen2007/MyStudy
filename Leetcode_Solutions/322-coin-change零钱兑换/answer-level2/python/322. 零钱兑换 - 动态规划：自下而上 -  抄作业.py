@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :840 ms, 在所有 Python 提交中击败了84.86%的用户
-内存消耗 :12.2 MB, 在所有 Python 提交中击败了22.61%的用户
+# ### 解题思路
+# 执行用时 :840 ms, 在所有 Python 提交中击败了84.86%的用户
+# 内存消耗 :12.2 MB, 在所有 Python 提交中击败了22.61%的用户
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def coinChange(self, coins, amount):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             for x in range(coin, amount + 1):
                 dp[x] = min(dp[x], dp[x - coin] + 1)
         return dp[amount] if dp[amount] != float('inf') else -1  
-```
+# ```

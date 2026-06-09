@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-        前面一位是0时，dp[i] = dp[i-1]
-        当前位为0，则只有10和20可以匹配，因此如果前面是1和2，则dp[i] = dp[i-1] + dp[i-2];否则dp[i]=dp[i-2]
+# ### 解题思路
+# 此处撰写解题思路
+#         前面一位是0时，dp[i] = dp[i-1]
+#         当前位为0，则只有10和20可以匹配，因此如果前面是1和2，则dp[i] = dp[i-1] + dp[i-2];否则dp[i]=dp[i-2]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDecodings(self, s: str) -> int:
         if not s or int(s[0]) == 0:
@@ -27,4 +27,4 @@ class Solution:
 
 
         return best[-1]
-```
+# ```

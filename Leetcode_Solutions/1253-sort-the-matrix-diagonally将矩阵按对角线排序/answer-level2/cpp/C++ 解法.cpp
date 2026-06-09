@@ -1,8 +1,8 @@
-### 解题思路
-取对角线排序再赋值
-### 代码
+// ### 解题思路
+// 取对角线排序再赋值
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
@@ -31,4 +31,4 @@ private:
         }
     }
 };
-```
+// ```

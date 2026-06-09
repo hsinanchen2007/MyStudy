@@ -1,4 +1,4 @@
-```java
+// ```java
 class MaxQueue {
     Queue<Integer> que;
     Deque<Integer> deq;
@@ -28,4 +28,4 @@ class MaxQueue {
         return tmp;
     }
 }
-```
+// ```

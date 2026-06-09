@@ -1,10 +1,10 @@
-### 解题思路
-1. 奇偶判断
-2. 避免重复的求和
+// ### 解题思路
+// 1. 奇偶判断
+// 2. 避免重复的求和
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumEvenAfterQueries(int[] a, int[][] queries) {
         int aSum = 0;
@@ -37,4 +37,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

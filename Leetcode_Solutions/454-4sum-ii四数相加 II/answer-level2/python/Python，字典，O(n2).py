@@ -1,10 +1,10 @@
-用一个字典记录A+B中所有可能的结果及相应个数
-而后遍历C+D所有结果，若0-（C+D）在A+B的字典中，则结果数加上A+B中相应的个数
+# 用一个字典记录A+B中所有可能的结果及相应个数
+# 而后遍历C+D所有结果，若0-（C+D）在A+B的字典中，则结果数加上A+B中相应的个数
 
-![image.png](https://pic.leetcode-cn.com/bb63c9e0ea7d7af723ac2fc668d449b6905354b5ccd1159d83db54aec227d2d1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bb63c9e0ea7d7af723ac2fc668d449b6905354b5ccd1159d83db54aec227d2d1-image.png)
 
 
-```python []
+# ```python []
 class Solution(object):
     def fourSumCount(self, A, B, C, D):
         """
@@ -29,5 +29,5 @@ class Solution(object):
         
         return ans
 
-```
+# ```
 

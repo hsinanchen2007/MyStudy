@@ -1,5 +1,5 @@
-自己想的解法，感觉挺通俗简单易懂。
-```
+// 自己想的解法，感觉挺通俗简单易懂。
+// ```
 public int removeDuplicates(int[] nums) {
         if(nums.length < 3){
             return nums.length;
@@ -19,4 +19,4 @@ public int removeDuplicates(int[] nums) {
         }
         return index;
     }
-```
+// ```

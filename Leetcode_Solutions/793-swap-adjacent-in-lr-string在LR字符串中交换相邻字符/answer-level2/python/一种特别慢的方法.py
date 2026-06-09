@@ -1,17 +1,17 @@
-### 解题思路
-我来说一个运行特别慢的方法。
-不停的重复：
-  首先去掉start和end里面相同的部分。
-  如"RXXX"和"LXXX"，则变成"R"和"L"。
-  然后如果start里有"RX"，且end在该位置上是"XR"，就把start里的"RX"就把它变成"XR"。
-  同理，如果start里有"XL"，且end在该位置上是"LX"，就把start里的"XL"变成"LX"。
-  如果新的start不为空，就继续执行循环，为空的话就返回True
+# ### 解题思路
+# 我来说一个运行特别慢的方法。
+# 不停的重复：
+#   首先去掉start和end里面相同的部分。
+#   如"RXXX"和"LXXX"，则变成"R"和"L"。
+#   然后如果start里有"RX"，且end在该位置上是"XR"，就把start里的"RX"就把它变成"XR"。
+#   同理，如果start里有"XL"，且end在该位置上是"LX"，就把start里的"XL"变成"LX"。
+#   如果新的start不为空，就继续执行循环，为空的话就返回True
 
-如果上面的循环超过了500000，就返回false
+# 如果上面的循环超过了500000，就返回false
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
         if len(start) != len(end):
@@ -49,4 +49,4 @@ class Solution:
                 end_new = ''
                 continue
         return True
-```
+# ```

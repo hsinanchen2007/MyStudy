@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码吧 思路清晰 
+// ### 解题思路
+// 直接看代码吧 思路清晰 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         ArrayList<Integer> list = new ArrayList();
@@ -40,4 +40,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

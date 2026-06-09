@@ -1,6 +1,6 @@
-# dfs 先序
+// # dfs 先序
 
-```golang
+// ```golang
 
 var res []string
 
@@ -26,6 +26,6 @@ func dfs(root *TreeNode, path []string) {
 		dfs(root.Right, path)
 	}
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
+// [Go版本 Github](https://github.com/temporaries/leetcode)

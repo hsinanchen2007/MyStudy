@@ -1,5 +1,5 @@
-感觉反向也不会快多少
-```
+// 感觉反向也不会快多少
+// ```
 class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode cur = head;
@@ -17,4 +17,4 @@ class Solution {
         return cur;
     }
 }
-```
+// ```

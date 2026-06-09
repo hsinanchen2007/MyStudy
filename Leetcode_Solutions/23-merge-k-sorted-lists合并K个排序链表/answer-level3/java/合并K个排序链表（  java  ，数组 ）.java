@@ -1,9 +1,9 @@
-### 解题思路
-将链表中数复制到数组，然后排序后放入链表
+// ### 解题思路
+// 将链表中数复制到数组，然后排序后放入链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,4 +48,4 @@ class Solution {
         return p;
     }
 }
-```
+// ```

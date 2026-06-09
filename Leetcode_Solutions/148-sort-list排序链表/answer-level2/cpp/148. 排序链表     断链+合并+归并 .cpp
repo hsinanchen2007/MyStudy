@@ -1,12 +1,12 @@
-### 解题思路
-ListNode* p=head;
-        ListNode dummy(0);
-        dummy.next=head;
+// ### 解题思路
+// ListNode* p=head;
+//         ListNode dummy(0);
+//         dummy.next=head;
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -74,4 +74,4 @@ public:
         return dummy.next;
     }
 };
-```
+// ```

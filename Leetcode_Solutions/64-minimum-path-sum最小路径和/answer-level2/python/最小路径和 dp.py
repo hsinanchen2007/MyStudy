@@ -1,10 +1,10 @@
-### 解题思路
-直接在原数组上修改就行了, 转移方程
-grid[i][j] += min(grid[i-1][j], grid[i][j-1])
+# ### 解题思路
+# 直接在原数组上修改就行了, 转移方程
+# grid[i][j] += min(grid[i-1][j], grid[i][j-1])
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         h, w = len(grid), len(grid[0])
@@ -17,4 +17,4 @@ class Solution:
                 grid[i][j] += min(grid[i-1][j], grid[i][j-1])
         return grid[-1][-1]
 
-```
+# ```

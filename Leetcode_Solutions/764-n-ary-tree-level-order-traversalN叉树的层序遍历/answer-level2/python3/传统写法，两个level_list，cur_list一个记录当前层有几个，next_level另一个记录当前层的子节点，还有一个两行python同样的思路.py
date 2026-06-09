@@ -1,19 +1,19 @@
-### 解题思路
-这个就是nested for loop
-for r in d:
-    for t in r.children:
-缩写版
-    d = [t for r in d for t in r.children]
-```
+# ### 解题思路
+# 这个就是nested for loop
+# for r in d:
+#     for t in r.children:
+# 缩写版
+#     d = [t for r in d for t in r.children]
+# ```
 d = root and [root]
 while d:
     yield [r.val for r in d]
     d = [t for r in d for t in r.children]
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -49,4 +49,4 @@ class Solution:
             while d:
                 yield [r.val for r in d]
                 d = [t for r in d for t in r.children]
-```
+# ```

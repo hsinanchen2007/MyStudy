@@ -1,4 +1,4 @@
-```
+// ```
 int map[26];
 int calculateTime(char * keyboard, char * word)
 {
@@ -15,4 +15,4 @@ int calculateTime(char * keyboard, char * word)
     }
     return sum;
 }
-```
+// ```

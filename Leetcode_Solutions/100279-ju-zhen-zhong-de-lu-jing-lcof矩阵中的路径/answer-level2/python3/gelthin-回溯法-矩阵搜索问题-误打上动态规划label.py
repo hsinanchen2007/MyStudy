@@ -1,21 +1,21 @@
-### 解题思路
-这题应该是 回溯法，却被打上 动态规划的标签，错误！
+# ### 解题思路
+# 这题应该是 回溯法，却被打上 动态规划的标签，错误！
 
-同习题 [主站79 题](https://leetcode-cn.com/problems/word-search/)
-
-
-参看了题解 [面试题12. 矩阵中的路径（深度优先搜索 DFS ，清晰图](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/)
-其提到， 本题是典型的矩阵搜索问题
+# 同习题 [主站79 题](https://leetcode-cn.com/problems/word-search/)
 
 
-
-回溯法一直没有好好练过，确实吃亏。
+# 参看了题解 [面试题12. 矩阵中的路径（深度优先搜索 DFS ，清晰图](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/)
+# 其提到， 本题是典型的矩阵搜索问题
 
 
 
-### 代码
+# 回溯法一直没有好好练过，确实吃亏。
 
-```python3
+
+
+# ### 代码
+
+# ```python3
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         # 回溯法，dfs 一直没有练过相关题目
@@ -40,4 +40,4 @@ class Solution:
                 if dfs(i, j, 0):
                     return True
         return False
-```
+# ```

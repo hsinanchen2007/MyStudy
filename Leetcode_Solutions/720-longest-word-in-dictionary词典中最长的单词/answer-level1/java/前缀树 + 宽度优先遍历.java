@@ -1,9 +1,9 @@
-### 解题思路
-代码很简单，见注释
+// ### 解题思路
+// 代码很简单，见注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static class Node{
         char val; // 字符
@@ -67,4 +67,4 @@ class Solution {
         return ans.word;
     }
 }
-```
+// ```

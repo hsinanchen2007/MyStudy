@@ -1,9 +1,9 @@
-### 解题思路
-该题无考核点。
+// ### 解题思路
+// 该题无考核点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int[] arr = new int[(int)Math.pow(10,n)-1];
@@ -15,4 +15,4 @@ class Solution {
 
     }
 }
-```
+// ```

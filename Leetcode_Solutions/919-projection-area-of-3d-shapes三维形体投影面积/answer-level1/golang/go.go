@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func projectionArea(grid [][]int) int {
 	x:=0
 //xy面上 只要 grid[i][j]大于0 即可
@@ -26,4 +26,4 @@ func projectionArea(grid [][]int) int {
 	}
 	return x
 }
-```
+// ```

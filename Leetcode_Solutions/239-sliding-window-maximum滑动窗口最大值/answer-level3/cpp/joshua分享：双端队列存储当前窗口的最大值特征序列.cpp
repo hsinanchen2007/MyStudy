@@ -1,9 +1,9 @@
-### 解题思路
-joshua分享：必须保证队列保存的元素是当前扫描过，并且按照递减的顺序存放，其中，队首元素是当前的最大值
+// ### 解题思路
+// joshua分享：必须保证队列保存的元素是当前扫描过，并且按照递减的顺序存放，其中，队首元素是当前的最大值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -40,4 +40,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const void *a, const void *b) {
     int *tmpA = *(int **)a;
     int *tmpB = *(int **)b;
@@ -24,4 +24,4 @@ bool canAttendMeetings(int** intervals, int intervalsSize, int* intervalsColSize
 
     return true;
 }
-```
+// ```

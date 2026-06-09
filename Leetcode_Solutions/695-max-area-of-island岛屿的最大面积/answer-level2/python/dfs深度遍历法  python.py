@@ -1,9 +1,9 @@
-### 解题思路
-和leetcode200类似
+# ### 解题思路
+# 和leetcode200类似
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         row,col = len(grid),len(grid[0])
@@ -26,4 +26,4 @@ class Solution:
 
 
 
-```
+# ```

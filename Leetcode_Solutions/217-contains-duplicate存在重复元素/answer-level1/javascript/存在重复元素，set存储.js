@@ -1,9 +1,9 @@
-### 解题思路
-has的搜索速度或许比sort排序速度快
+// ### 解题思路
+// has的搜索速度或许比sort排序速度快
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -19,4 +19,4 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
+// ```

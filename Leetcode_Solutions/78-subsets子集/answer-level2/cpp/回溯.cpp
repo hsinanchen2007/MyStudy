@@ -1,14 +1,14 @@
-### 解题思路
-为使子集不重复，按 nums[ ] 中的顺序每次将nums的一个元素 nums[k] 作为子集的第一个元素，遍历该情况下所有的可能性，其中元素只能在 nums[k+1],nums[k+2],....nums[nums.size()-1] 中取。
+// ### 解题思路
+// 为使子集不重复，按 nums[ ] 中的顺序每次将nums的一个元素 nums[k] 作为子集的第一个元素，遍历该情况下所有的可能性，其中元素只能在 nums[k+1],nums[k+2],....nums[nums.size()-1] 中取。
 
-set: [1,2,3]
-subset: [[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]]
+// set: [1,2,3]
+// subset: [[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]]
 
-![leetcode78题解.JPG](https://pic.leetcode-cn.com/2369d1194b6d638b64da99d5bb42d8657d0bf812a0471ba746183cddd2d58d45-leetcode78%E9%A2%98%E8%A7%A3.JPG)
+// ![leetcode78题解.JPG](https://pic.leetcode-cn.com/2369d1194b6d638b64da99d5bb42d8657d0bf812a0471ba746183cddd2d58d45-leetcode78%E9%A2%98%E8%A7%A3.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int n;
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

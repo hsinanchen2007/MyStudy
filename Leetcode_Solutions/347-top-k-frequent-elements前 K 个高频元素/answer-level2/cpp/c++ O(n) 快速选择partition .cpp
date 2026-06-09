@@ -1,6 +1,6 @@
-快排partition思想，quickselect稍微改动一下就行。
-期望时间复杂度O(n)，算法导论9.2有证明。
-```
+// 快排partition思想，quickselect稍微改动一下就行。
+// 期望时间复杂度O(n)，算法导论9.2有证明。
+// ```
 class Solution {
 public:
     int partition(vector<pair<int,int>> &a,int l, int r){
@@ -32,5 +32,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

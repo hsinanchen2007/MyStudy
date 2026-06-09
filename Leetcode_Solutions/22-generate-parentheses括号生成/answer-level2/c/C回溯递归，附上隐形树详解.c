@@ -1,7 +1,7 @@
-![1111111111111111.JPG](https://pic.leetcode-cn.com/4999d7cf17af6c799254259f83218ac1d46c1ea6f8550eeaa5e476a846b81b54-1111111111111111.JPG)
+// ![1111111111111111.JPG](https://pic.leetcode-cn.com/4999d7cf17af6c799254259f83218ac1d46c1ea6f8550eeaa5e476a846b81b54-1111111111111111.JPG)
 
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -44,4 +44,4 @@ char ** generateParenthesis(int n, int* returnSize){
 
     return result;
 }
-```
+// ```

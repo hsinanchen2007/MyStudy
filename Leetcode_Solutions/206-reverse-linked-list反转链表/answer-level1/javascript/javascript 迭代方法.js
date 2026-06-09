@@ -1,10 +1,10 @@
-## 解题思路
+// ## 解题思路
 
-采用迭代的方式，使用两个变量，一个变量保存下一位待保存的ListNode
+// 采用迭代的方式，使用两个变量，一个变量保存下一位待保存的ListNode
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -27,4 +27,4 @@ var reverseList = function(head) {
   }
   return pre
 };
-```
+// ```

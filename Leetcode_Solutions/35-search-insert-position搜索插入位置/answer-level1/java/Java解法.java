@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int result = nums.length;//若是target大于nums最后一位
@@ -16,4 +16,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

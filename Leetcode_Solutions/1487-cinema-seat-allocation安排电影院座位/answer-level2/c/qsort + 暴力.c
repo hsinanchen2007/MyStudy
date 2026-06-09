@@ -1,10 +1,10 @@
-### 解题思路
-1、按照行号把预留的放在一起
-2、根据判断输出当前行最多能做几个家庭（如果没有预留，正好2个家庭）
+// ### 解题思路
+// 1、按照行号把预留的放在一起
+// 2、根据判断输出当前行最多能做几个家庭（如果没有预留，正好2个家庭）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int Compare(const void *a, const void *b)
 {
     const int *pa = *(const int **)a;
@@ -81,4 +81,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
     }
     return res;
 }
-```
+// ```

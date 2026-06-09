@@ -1,9 +1,9 @@
-### 解题思路
-声明一个`map`，然后从0开始遍历`map`，在`map`里找出缺失的数字。
+// ### 解题思路
+// 声明一个`map`，然后从0开始遍历`map`，在`map`里找出缺失的数字。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
     nummap := make(map[int]bool)
     //将nums数组里的每个数字都存进map里
@@ -19,4 +19,4 @@ func missingNumber(nums []int) int {
 
     return -1
 }
-```
+// ```

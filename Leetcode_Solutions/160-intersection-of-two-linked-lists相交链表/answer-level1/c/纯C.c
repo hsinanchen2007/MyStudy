@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，注意边界条件
+// ### 解题思路
+// 暴力解法，注意边界条件
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
 
     return NULL;
 }
-```
+// ```

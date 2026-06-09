@@ -1,5 +1,5 @@
-用的方法是在威神[@liweiwei1419](/u/liweiwei1419/)学来的减治思想，不明白的可以去[排除法总结](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)学习一下，非常好的方法，可以用很简洁的思想解决很多二分题目。
-```java
+// 用的方法是在威神[@liweiwei1419](/u/liweiwei1419/)学来的减治思想，不明白的可以去[排除法总结](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)学习一下，非常好的方法，可以用很简洁的思想解决很多二分题目。
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         // 解法：一次二分查找
@@ -29,4 +29,4 @@ class Solution {
         // 先对每一行的第一个值进行二分找比target小的第一个数，再对这一行进行二分找最后的结果
     }
 }
-```
+// ```

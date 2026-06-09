@@ -1,11 +1,11 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-层序打印即可。
+# ### 解题思路
+# 层序打印即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution(object):
                 temp.reverse()
             res.append(temp)
         return res
-```
+# ```

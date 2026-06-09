@@ -1,11 +1,11 @@
-### 解题思路
-先写一个两两合并的函数；
-从`lists`中pop两个链表进行合并，将结果append到`lists`中；
-直到`lists`的数量为1
+# ### 解题思路
+# 先写一个两两合并的函数；
+# 从`lists`中pop两个链表进行合并，将结果append到`lists`中；
+# 直到`lists`的数量为1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
         return lists[0]
 
 
-```
+# ```

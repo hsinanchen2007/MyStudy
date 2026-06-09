@@ -1,9 +1,9 @@
-### 解题思路
-使用原始的wait()和notifyAll来控制线程，使用字符串常量来当锁，减少开销，直接从常量池里面取，CountDownLatch 和 信号量都行，但我还是偏向于原始写法
+// ### 解题思路
+// 使用原始的wait()和notifyAll来控制线程，使用字符串常量来当锁，减少开销，直接从常量池里面取，CountDownLatch 和 信号量都行，但我还是偏向于原始写法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
 
     private volatile boolean firstFinish;
@@ -44,4 +44,4 @@ class Foo {
     }
 }
 
-```
+// ```

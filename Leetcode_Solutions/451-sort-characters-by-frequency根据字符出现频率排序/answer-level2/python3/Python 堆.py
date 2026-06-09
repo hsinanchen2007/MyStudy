@@ -1,4 +1,4 @@
-```
+# ```
 import collections
 import heapq
 class Solution:
@@ -16,5 +16,5 @@ class Solution:
             for _ in range(-times):
                 res.append(char)
         return ''.join(res)
-```
+# ```
 

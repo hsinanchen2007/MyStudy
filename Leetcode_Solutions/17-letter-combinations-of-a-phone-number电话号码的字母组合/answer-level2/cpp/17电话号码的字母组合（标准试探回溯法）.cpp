@@ -1,10 +1,10 @@
-### 解题思路
-比较标准的试探回溯法。
-1.pos表示digits的位置，每一次backtrace选择一个字符；
-2.string支持push_back()和pop_back()的用法。
-### 代码
+// ### 解题思路
+// 比较标准的试探回溯法。
+// 1.pos表示digits的位置，每一次backtrace选择一个字符；
+// 2.string支持push_back()和pop_back()的用法。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> res ;
@@ -35,4 +35,4 @@ public:
         }
     }
 };
-```
+// ```

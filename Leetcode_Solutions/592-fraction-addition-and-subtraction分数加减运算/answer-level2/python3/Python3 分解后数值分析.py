@@ -1,9 +1,9 @@
-### 解题思路
-Python3 分解后数值分析
+# ### 解题思路
+# Python3 分解后数值分析
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # https://leetcode-cn.com/problems/fraction-addition-and-subtraction/
 class Solution:
     def fractionAddition(self, expression: str) -> str:
@@ -55,4 +55,4 @@ class Solution:
         return num_analysis(final_str)[0]
 
 
-```
+# ```

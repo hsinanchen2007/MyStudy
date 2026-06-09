@@ -1,4 +1,4 @@
-```
+// ```
 func myAtoi(str string) int {
 	MIN:=-1<<31
 	MAX:=1<<31-1
@@ -38,4 +38,4 @@ func myAtoi(str string) int {
 	}
 	return res
 }
-```
+// ```

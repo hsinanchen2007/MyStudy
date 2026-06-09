@@ -1,9 +1,9 @@
-### 解题思路
-直接用random_shuffle……
+// ### 解题思路
+// 直接用random_shuffle……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     vector<int> v;
 public:
@@ -23,4 +23,4 @@ public:
         return v1;
     }
 };
-```
+// ```

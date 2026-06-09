@@ -1,4 +1,4 @@
-```rs
+// ```rs
 impl Solution {
     pub fn permutation(s: String) -> Vec<String> {
         fn mutation(chars: Vec<char>) -> Vec<String> {
@@ -19,4 +19,4 @@ impl Solution {
         mutation(chars).into_iter().collect()
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-利用字典树的思想，计算words中每个字符串的前缀，利用waiting存储{w[0]:w[1:]}形式的字典，这样就缩短了words的遍历次数：
-S = "abcde"
-words = ["a", "bb", "acd", "ace"]
+# ### 解题思路
+# 利用字典树的思想，计算words中每个字符串的前缀，利用waiting存储{w[0]:w[1:]}形式的字典，这样就缩短了words的遍历次数：
+# S = "abcde"
+# words = ["a", "bb", "acd", "ace"]
 
-小笔记：
-1. defaultdict和dict的区别：当dict[key]查找不存在的key时会出错，但defaultdict[key]查找不存在的key时会返回一个默认值，初始化时defaultdict(list/set/dict/tuple)括号里是啥，默认值就会是对应类型的空，比如defaultdict(list)就会返回一个空列表()
-2. 
+# 小笔记：
+# 1. defaultdict和dict的区别：当dict[key]查找不存在的key时会出错，但defaultdict[key]查找不存在的key时会返回一个默认值，初始化时defaultdict(list/set/dict/tuple)括号里是啥，默认值就会是对应类型的空，比如defaultdict(list)就会返回一个空列表()
+# 2. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numMatchingSubseq(self, S: str, words: List[str]) -> int:
         waiting = defaultdict(list)
@@ -40,4 +40,4 @@ class Solution:
         # return res.count(True)
 
         
-```
+# ```

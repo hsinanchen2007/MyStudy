@@ -1,16 +1,16 @@
-### 解题思路
-    /**
-     * 根据字符出现频率排序
-     * @param "tree"
-     * @return eetr or eert
-     * 1. 使用HashMap存储每个元素的出现次数
-     * 2. 使用PriorityQueue队列自定义排序规则,对HashMap中的每个Entry入队列
-     * 3. 使用StringBuilder完成字符拼接
-     */
+// ### 解题思路
+//     /**
+//      * 根据字符出现频率排序
+//      * @param "tree"
+//      * @return eetr or eert
+//      * 1. 使用HashMap存储每个元素的出现次数
+//      * 2. 使用PriorityQueue队列自定义排序规则,对HashMap中的每个Entry入队列
+//      * 3. 使用StringBuilder完成字符拼接
+//      */
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String frequencySort(String s) {
         Map<Character,Integer> map = new HashMap<>(16);
@@ -43,4 +43,4 @@ class Solution {
 
     }
 }
-```
+// ```

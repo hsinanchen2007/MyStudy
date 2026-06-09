@@ -1,9 +1,9 @@
-### 解题思路
-还是不明白lambda的写法。。。
+# ### 解题思路
+# 还是不明白lambda的写法。。。
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def sortByBits(self, arr: List[int]) -> List[int]:
         def count(num):
@@ -14,4 +14,4 @@ class Solution:
             return counts
         
         return sorted(arr, key=lambda x:(count(x),x))
-```
+# ```

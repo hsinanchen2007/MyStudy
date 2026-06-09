@@ -1,9 +1,9 @@
-如果和为负，则重新选集合
-否则{
-    如果新加数后和为正，则加进去，并更新最大和的值；
-    否则：重新选集合
-    }
-```
+// 如果和为负，则重新选集合
+// 否则{
+//     如果新加数后和为正，则加进去，并更新最大和的值；
+//     否则：重新选集合
+//     }
+// ```
 class Solution {
     public int maxSubArray(int[] nums) {
         int sum=nums[0],max=nums[0];
@@ -24,4 +24,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

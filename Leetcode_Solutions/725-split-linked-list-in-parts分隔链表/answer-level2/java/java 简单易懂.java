@@ -1,12 +1,12 @@
-### 解题思路
-1.计算链表总长度
-2.通过链表长度sum和拆分个数k，计算出拆分后链表的长度num
-3.对分链表进行赋值，分链表走过num后添加null进行截断
-4.返回链表数组
+// ### 解题思路
+// 1.计算链表总长度
+// 2.通过链表长度sum和拆分个数k，计算出拆分后链表的长度num
+// 3.对分链表进行赋值，分链表走过num后添加null进行截断
+// 4.返回链表数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode[] l1 = new ListNode[k];
@@ -40,4 +40,4 @@ class Solution {
         return l1;
     }
 }
-```
+// ```

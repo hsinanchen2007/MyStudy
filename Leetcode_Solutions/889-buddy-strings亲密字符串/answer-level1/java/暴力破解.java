@@ -1,12 +1,12 @@
-### 解题思路
-首先理解一下题目：一定要交换位置以后相等才算是true
-所以有几种情况返回为true：
-1.字符串相等，但是有相同的字母
-2.字符串不相等，交换两个字母以后相等
+// ### 解题思路
+// 首先理解一下题目：一定要交换位置以后相等才算是true
+// 所以有几种情况返回为true：
+// 1.字符串相等，但是有相同的字母
+// 2.字符串不相等，交换两个字母以后相等
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean buddyStrings(String A, String B) {
     	if (A.length() != B.length()) {
@@ -44,4 +44,4 @@ class Solution {
     	return false;
     }
 }
-```
+// ```

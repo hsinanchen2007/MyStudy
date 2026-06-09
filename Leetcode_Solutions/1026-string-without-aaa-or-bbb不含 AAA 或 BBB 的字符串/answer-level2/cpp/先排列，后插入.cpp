@@ -1,7 +1,7 @@
-如果A < B，我们先排列A个'ba'，然后把剩下的B-A个'b'插入到指定位置中；
-如果B < A，先排列B个'ab', 然后把剩下的'a'插入。
+// 如果A < B，我们先排列A个'ba'，然后把剩下的B-A个'b'插入到指定位置中；
+// 如果B < A，先排列B个'ab', 然后把剩下的'a'插入。
 
-```
+// ```
 class Solution {
 public:
     string strWithout3a3b(int A, int B) {
@@ -37,4 +37,4 @@ public:
         return result;
     }
 };
-```
+// ```

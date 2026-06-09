@@ -1,9 +1,9 @@
-### 解题思路
-js实现，p指向head，每次使得p.next变为head，p指向下一个节点，依次循环
+// ### 解题思路
+// js实现，p指向head，每次使得p.next变为head，p指向下一个节点，依次循环
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,4 +28,4 @@ var reverseList = function(head) {
     }
     return head;
 };
-```
+// ```

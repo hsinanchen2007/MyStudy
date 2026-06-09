@@ -1,4 +1,4 @@
-```c
+// ```c
 char ***g_solves;
 int g_solveCnt;
 /* 棋盘上0表示空格，-1表示QUEEN，数字表示被第几个QUEEN占用，用来方便的trackback */
@@ -143,4 +143,4 @@ char *** solveNQueens(int n, int* returnSize, int** returnColumnSizes){
     *returnColumnSizes = col;
     return g_solves;
 }
-```
+// ```

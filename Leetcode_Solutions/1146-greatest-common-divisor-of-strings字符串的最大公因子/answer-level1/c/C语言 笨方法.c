@@ -1,4 +1,4 @@
-```
+// ```
 char * gcdOfStrings(char * str1, char * str2){
     int len1=0,len2=0,i=0,shortlen,longlen,sublen=0;//记录两字符串的长度，确定公因串的长度
     char c=str1[i],*ans;
@@ -42,4 +42,4 @@ char * gcdOfStrings(char * str1, char * str2){
     }
     return ans;
 }
-```
+// ```

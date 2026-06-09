@@ -1,10 +1,10 @@
-### 解题思路
-1、递归求二叉树深度
-2、中间过程判断是否是平衡树，如果不是，直接终止递归，返回-1
+// ### 解题思路
+// 1、递归求二叉树深度
+// 2、中间过程判断是否是平衡树，如果不是，直接终止递归，返回-1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return Math.abs(left-right)<2?Math.max(left,right)+1:-1;
     }
 }
-```
+// ```

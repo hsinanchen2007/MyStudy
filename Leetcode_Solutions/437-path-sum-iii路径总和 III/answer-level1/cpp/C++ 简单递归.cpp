@@ -1,4 +1,4 @@
-```
+// ```
 // Solution 1
 class Solution {
 public:
@@ -32,7 +32,7 @@ public:
         return path(root, sum) + pathSum(root->left, sum) + pathSum(root->right, sum);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/615dc6ab117bbc46ae0f9b5697cd30d494586fa0a9574b0e39fc80724730d2ea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/615dc6ab117bbc46ae0f9b5697cd30d494586fa0a9574b0e39fc80724730d2ea-image.png)
 

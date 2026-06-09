@@ -1,6 +1,6 @@
-执行用时 :116 ms, 在所有 java 提交中击败了91.69% 的用户
-内存消耗 :248.4 MB, 在所有 java 提交中击败了100.00%的用户
-```
+// 执行用时 :116 ms, 在所有 java 提交中击败了91.69% 的用户
+// 内存消耗 :248.4 MB, 在所有 java 提交中击败了100.00%的用户
+// ```
 class Solution {
     public int longestArithSeqLength(int[] A) {
         if(A == null || A.length < 3)
@@ -22,4 +22,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

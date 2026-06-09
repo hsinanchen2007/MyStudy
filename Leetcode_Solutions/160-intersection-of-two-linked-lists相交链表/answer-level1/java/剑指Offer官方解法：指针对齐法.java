@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) return null;
         int lenA = 0, lenB = 0;
@@ -28,4 +28,4 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         }
         return pA;
     }
-```
+// ```

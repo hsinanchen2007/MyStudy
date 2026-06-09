@@ -1,5 +1,5 @@
-思路：如标题
-```
+# 思路：如标题
+# ```
 class Solution:
 	def rightSideView(self,root):
 		ans=[] #记录结果
@@ -15,4 +15,4 @@ class Solution:
 				ans.append(stack.pop().val) #将每层最右边一个节点的val保存到ans中
 				stack=tmp_stack
 		return ans
-```
+# ```

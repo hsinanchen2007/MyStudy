@@ -1,6 +1,6 @@
-1. 层次遍历二叉树，对二叉树每层求和，并计数，然后求平均值。
-2. 使用 long long 求和快于使用 double 求和。
-```
+// 1. 层次遍历二叉树，对二叉树每层求和，并计数，然后求平均值。
+// 2. 使用 long long 求和快于使用 double 求和。
+// ```
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

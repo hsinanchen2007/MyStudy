@@ -1,9 +1,9 @@
-### 解题思路
-抄了作业。。。
+# ### 解题思路
+# 抄了作业。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         if A == None:
@@ -30,4 +30,4 @@ class Solution:
         #     for i in range(len(words)):
                 
 
-```
+# ```

@@ -1,24 +1,24 @@
-### 解题思路
-题解来自于[评论区](https://leetcode-cn.com/problems/rotting-oranges/comments/72199)
+# ### 解题思路
+# 题解来自于[评论区](https://leetcode-cn.com/problems/rotting-oranges/comments/72199)
 
-我附加了一条评论， [rotlist = newrotlist[:] 可改为 rotlist = newrotlist, 仍然正确](https://leetcode-cn.com/problems/rotting-oranges/comments/268444/)
+# 我附加了一条评论， [rotlist = newrotlist[:] 可改为 rotlist = newrotlist, 仍然正确](https://leetcode-cn.com/problems/rotting-oranges/comments/268444/)
 
-我的原始代码有 bug, 不知为何。后来发现是错打了 dx = [0,0,1-1] 忘了逗号。
+# 我的原始代码有 bug, 不知为何。后来发现是错打了 dx = [0,0,1-1] 忘了逗号。
 
-此广度优先遍历也非常重要的一题。
+# 此广度优先遍历也非常重要的一题。
 
-#### 加速技巧:
+# #### 加速技巧:
 
-if else 高概率的事件 if， 立马判断。 来自数组搜索题，某一个人的回答。
-n<0 or n>l-1 or 短路表达式
-m = len(grid) 后面调用 m
-if left == None 变成 if left 来自链表的某一题
-x1 = x + dx[i] 后面调用 x1, 避免每次都查找 dx[i]
+# if else 高概率的事件 if， 立马判断。 来自数组搜索题，某一个人的回答。
+# n<0 or n>l-1 or 短路表达式
+# m = len(grid) 后面调用 m
+# if left == None 变成 if left 来自链表的某一题
+# x1 = x + dx[i] 后面调用 x1, 避免每次都查找 dx[i]
 
 
-### 代码
+# ### 代码
 
-```python3 评论区代码
+# ```python3 评论区代码
 class Solution(object):
     def orangesRotting(self, grid):
         """
@@ -58,11 +58,11 @@ class Solution(object):
                     return -1
         return minute
         
-```
+# ```
 
 
 
-```python3 我自己的代码
+# ```python3 我自己的代码
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -95,4 +95,4 @@ class Solution:
                 if grid[i][j] == 1:
                     return -1
         return minute         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-第一反应是并查集，结果发现还没两遍遍历高效
+// ### 解题思路
+// 第一反应是并查集，结果发现还没两遍遍历高效
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class mergeFind {
 public:
     mergeFind(int n)
@@ -88,4 +88,4 @@ public:
         return mf.mergedNum();
     }
 };
-```
+// ```

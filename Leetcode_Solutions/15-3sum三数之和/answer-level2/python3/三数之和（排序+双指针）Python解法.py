@@ -1,7 +1,7 @@
-思路1：三重循环，时间复杂度O(n^3)，空间复杂度O(n)
-思路2：排序，时间复杂度O(nlogn)，一冲循环—+双指针，时间复杂度O(n^2)，空间复杂度O(n)
-注意点：（1）对于不可能的组合情况进行过滤（2）跳过重复的情况（3）输出结果进行排序，时间复杂度O(3log3)=O(1)
-```
+# 思路1：三重循环，时间复杂度O(n^3)，空间复杂度O(n)
+# 思路2：排序，时间复杂度O(nlogn)，一冲循环—+双指针，时间复杂度O(n^2)，空间复杂度O(n)
+# 注意点：（1）对于不可能的组合情况进行过滤（2）跳过重复的情况（3）输出结果进行排序，时间复杂度O(3log3)=O(1)
+# ```
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -31,4 +31,4 @@ class Solution:
                     while left+1 < right and nums[left] == nums[left-1]:
                         left+=1
         return res
-```
+# ```

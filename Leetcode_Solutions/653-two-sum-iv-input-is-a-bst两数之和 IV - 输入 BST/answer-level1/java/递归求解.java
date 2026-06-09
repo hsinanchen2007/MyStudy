@@ -1,10 +1,10 @@
-### 解题思路
-1. set 记录k - root.val 的值
-2. 遍历树如果set包含某个root.val 返回true
+// ### 解题思路
+// 1. set 记录k - root.val 的值
+// 2. 遍历树如果set包含某个root.val 返回true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return findTarget(root.left, k) || findTarget(root.right, k);
     }
 }
-```
+// ```

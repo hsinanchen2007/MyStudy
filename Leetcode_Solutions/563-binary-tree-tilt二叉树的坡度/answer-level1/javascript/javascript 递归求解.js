@@ -1,9 +1,9 @@
-### 解题思路
-递归的求解
+// ### 解题思路
+// 递归的求解
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -29,4 +29,4 @@ var findTilt = function(root) {
     getSum(root)
     return sum
 };
-```
+// ```

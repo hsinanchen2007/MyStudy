@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![TIM图片20200303220819.png](https://pic.leetcode-cn.com/741609864f721940fa040e4269ad4c9c5856757aa30407db3d053da5d80ff57a-TIM%E5%9B%BE%E7%89%8720200303220819.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![TIM图片20200303220819.png](https://pic.leetcode-cn.com/741609864f721940fa040e4269ad4c9c5856757aa30407db3d053da5d80ff57a-TIM%E5%9B%BE%E7%89%8720200303220819.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class UnionSet {
 public:
     vector<int> parent;
@@ -76,4 +76,4 @@ public:
 
 };
 
-```
+// ```

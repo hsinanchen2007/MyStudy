@@ -1,10 +1,10 @@
-dp[i][j]表示s1[:i+1]和s2[:j+1]的最短编辑距离
-对i和j有以下几种情况：
-- dp[i][j] = dp[i-1][j]+1：删除字符
-- dp[i][j] = dp[i][j-1]+1：插入字符
-- dp[i][j] = dp[i-1][j-1]+1：替换字符
+// dp[i][j]表示s1[:i+1]和s2[:j+1]的最短编辑距离
+// 对i和j有以下几种情况：
+// - dp[i][j] = dp[i-1][j]+1：删除字符
+// - dp[i][j] = dp[i][j-1]+1：插入字符
+// - dp[i][j] = dp[i-1][j-1]+1：替换字符
 
-```golang
+// ```golang
 func minDistance(s1, s2 string) int {
 	ln1 := len(s1)
 	ln2 := len(s2)
@@ -45,4 +45,4 @@ func min(i, j int) int {
 	}
 	return j
 }
-```
+// ```

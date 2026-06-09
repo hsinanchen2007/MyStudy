@@ -1,11 +1,11 @@
-### 解题思路
-dfs求解：
-第n位数的子集 = 第n-1位子集 * nums中一个不相同的数
-为了避免重复子集：那么控制dfs只能往后扩展,同时也达到了减支的目的
+// ### 解题思路
+// dfs求解：
+// 第n位数的子集 = 第n-1位子集 * nums中一个不相同的数
+// 为了避免重复子集：那么控制dfs只能往后扩展,同时也达到了减支的目的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subsets(nums []int) [][]int {
 	ret := getSet(nums, []int{}, 0)
 	ret = append(ret, []int{})
@@ -31,4 +31,4 @@ func getSet(nums []int, data []int, index int) [][]int {
 
 	return curData
 }
-```
+// ```

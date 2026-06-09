@@ -1,9 +1,9 @@
-### 解题思路
-1、设置初始高度
-2、递归左右子树更新高度
-### 代码
+// ### 解题思路
+// 1、设置初始高度
+// 2、递归左右子树更新高度
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return d + 1;
     }
 }
-```
+// ```

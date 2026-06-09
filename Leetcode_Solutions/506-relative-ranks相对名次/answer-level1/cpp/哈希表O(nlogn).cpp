@@ -1,9 +1,9 @@
-### 解题思路
-O(n)额外空间，主要就是个哈希表。自己基础不太牢扎，刚刚才知道size()函数返回的是无符号数。。。崩溃
+// ### 解题思路
+// O(n)额外空间，主要就是个哈希表。自己基础不太牢扎，刚刚才知道size()函数返回的是无符号数。。。崩溃
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findRelativeRanks(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return re;
     }
 };
-```
+// ```

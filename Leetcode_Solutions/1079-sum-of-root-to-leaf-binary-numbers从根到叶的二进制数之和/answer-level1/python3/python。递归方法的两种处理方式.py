@@ -1,6 +1,6 @@
-Python。第一种方法，位运算
+# Python。第一种方法，位运算
 
-```ruby
+# ```ruby
 class Solution:
     def sumRootToLeaf(self, root: TreeNode) -> int:
         self.ans = 0
@@ -19,10 +19,10 @@ class Solution:
         helper(0, root)
         return self.ans
                 
-```
+# ```
 
-第２种方法，利用python的int()函数，将字符串转变为数字
-```ruby
+# 第２种方法，利用python的int()函数，将字符串转变为数字
+# ```ruby
 class Solution:
     def sumRootToLeaf(self, root: TreeNode) -> int:
         self.ans = 0
@@ -39,4 +39,4 @@ class Solution:
         
         helper('', root)
         return self.ans
-```
+# ```

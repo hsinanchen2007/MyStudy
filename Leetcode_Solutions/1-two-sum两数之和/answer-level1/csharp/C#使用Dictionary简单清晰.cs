@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :416 ms, 在所有 csharp 提交中击败了67.22%的用户
+// ### 解题思路
+// 执行用时 :416 ms, 在所有 csharp 提交中击败了67.22%的用户
 
-此思路参照别人解题方法，理解后可运用在许多场景。
+// 此思路参照别人解题方法，理解后可运用在许多场景。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         var dc = new Dictionary<int,int>();
@@ -22,4 +22,4 @@ public class Solution {
         return new int[]{};
     }
 }
-```
+// ```

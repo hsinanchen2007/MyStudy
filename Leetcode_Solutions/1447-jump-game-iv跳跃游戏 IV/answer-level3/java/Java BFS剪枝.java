@@ -1,11 +1,11 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/67627855177606dff772b46350b874b4f3ceb9539036b5ec29a5dd227eba5e02-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/67627855177606dff772b46350b874b4f3ceb9539036b5ec29a5dd227eba5e02-1.png)
 
-Java BFS剪枝
+// Java BFS剪枝
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     public int minJumps(int[] arr) {
@@ -50,4 +50,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

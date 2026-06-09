@@ -1,9 +1,9 @@
-### 解题思路
-95击败
-找入度为0
-### 代码
+// ### 解题思路
+// 95击败
+// 找入度为0
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> h, e, ne;
@@ -43,4 +43,4 @@ public:
         return ans == n ? true : false;
     }
 };
-```
+// ```

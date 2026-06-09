@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/3224fbb3298baf0d4e3eb450437ee4db3c75c77f15ea7857b786c76da423287a-image.png)
-一直想怎么遍历一遍就出结果，一晚上没搞出来，有点生气，随便写个两次遍历的吧。。。
-```
+# ![image.png](https://pic.leetcode-cn.com/3224fbb3298baf0d4e3eb450437ee4db3c75c77f15ea7857b786c76da423287a-image.png)
+# 一直想怎么遍历一遍就出结果，一晚上没搞出来，有点生气，随便写个两次遍历的吧。。。
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
 
@@ -38,5 +38,5 @@ class Solution:
             elif b is not None and b==item:
                 b_all+=1
         return [a,b] if a_all>length//3 and b_all>length//3  else [a] if a_all>length//3  else [b] if b_all>length//3 else []
-```
+# ```
 

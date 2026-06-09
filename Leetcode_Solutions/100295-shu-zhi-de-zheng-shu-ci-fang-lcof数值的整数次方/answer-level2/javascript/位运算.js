@@ -1,9 +1,9 @@
-### 解题思路
-1. 使用 & 来判断奇偶数
+// ### 解题思路
+// 1. 使用 & 来判断奇偶数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} n
@@ -46,4 +46,4 @@ var myPow = function(x, n) {
 
     return isNegative ? 1 / result : result
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-数字的位数是偶数，即数字对应的字符串的长度是偶数，使用to_string函数
+// ### 解题思路
+// 数字的位数是偶数，即数字对应的字符串的长度是偶数，使用to_string函数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
 
     }
 };
-```
+// ```

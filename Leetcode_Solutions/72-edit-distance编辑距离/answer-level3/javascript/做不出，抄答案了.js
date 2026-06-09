@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6d514dd315e6fc8f85dc171f8f2a452f1b015784e854f15155ed5daa611ea3fa-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6d514dd315e6fc8f85dc171f8f2a452f1b015784e854f15155ed5daa611ea3fa-image.png)
 
-什么抄袭，抄袭什么？！程序员的事情能叫“抄袭”吗？！这叫“借鉴”，这叫“赏析”，这叫“优化”，这叫“解构重构”。。。呸。
-[ε=ε=ε=┏(゜ロ゜;)┛]
+// 什么抄袭，抄袭什么？！程序员的事情能叫“抄袭”吗？！这叫“借鉴”，这叫“赏析”，这叫“优化”，这叫“解构重构”。。。呸。
+// [ε=ε=ε=┏(゜ロ゜;)┛]
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} word1
  * @param {string} word2
@@ -49,4 +49,4 @@ var minDistance = function (word1, word2) {
     }
     return dp[m][n];
 };
-```
+// ```

@@ -1,6 +1,6 @@
-# 1. 迭代
+// # 1. 迭代
 
-```
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
     struct ListNode *p,*q;
     if(!head) return NULL;    
@@ -23,21 +23,21 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     head=p;
     return head;
    }
-```
+// ```
 
 
-# 2. 递归
+// # 2. 递归
 
-```
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
    if(!head||!(head->next)) return head;    
 
    head->next= deleteDuplicates(head->next);
    return (head->val==head->next->val)?(head->next):(head);
 }
-```
-3.
-```
+// ```
+// 3.
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
     struct ListNode *p,*q;
     if(!head||!(head->next)) return head;    
@@ -60,4 +60,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     head=p;
     return head;
    }
-```
+// ```

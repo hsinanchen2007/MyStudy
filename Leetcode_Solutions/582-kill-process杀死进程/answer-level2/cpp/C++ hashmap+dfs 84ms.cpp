@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/426e77d594d6c7cb7f7619edf8971d3733eb5912935678ce6626d411156469ce-image.png)
+// ![image.png](https://pic.leetcode-cn.com/426e77d594d6c7cb7f7619edf8971d3733eb5912935678ce6626d411156469ce-image.png)
 
-hashmap维护父子关系，然后dfs，完事了
+// hashmap维护父子关系，然后dfs，完事了
 
-```
+// ```
 static auto pre =[] { std::ios::sync_with_stdio(false); cin.tie(nullptr); return nullptr;}();
 class Solution {
 public:
@@ -30,4 +30,4 @@ private:
 
     unordered_map<int, list<int>> relations_;
 };
-```
+// ```

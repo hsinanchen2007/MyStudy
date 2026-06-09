@@ -1,9 +1,9 @@
-### 解题思路
-1.使用新的头节点保存返回结果。
-2.具体参考代码
-### 代码
+// ### 解题思路
+// 1.使用新的头节点保存返回结果。
+// 2.具体参考代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return ans;
 }
-```
+// ```

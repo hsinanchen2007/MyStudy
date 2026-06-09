@@ -1,6 +1,6 @@
-排序之后 如果 i<j<k 如果 num[j] % num[i] == 0 而且 num[k] % num[j] == 0 那么 num[k] % num[i]必然也是0 那么这个问题就转换成了最长上升子序列
+// 排序之后 如果 i<j<k 如果 num[j] % num[i] == 0 而且 num[k] % num[j] == 0 那么 num[k] % num[i]必然也是0 那么这个问题就转换成了最长上升子序列
 
-```
+// ```
 class Solution {
     func largestDivisibleSubset(_ nums: [Int]) -> [Int] {
         let len = nums.count
@@ -30,4 +30,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

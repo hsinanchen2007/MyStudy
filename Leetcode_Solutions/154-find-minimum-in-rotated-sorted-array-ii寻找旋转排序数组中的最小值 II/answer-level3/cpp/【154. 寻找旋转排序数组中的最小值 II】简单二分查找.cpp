@@ -1,6 +1,6 @@
-## 思路：二分查找
-### 代码
-```c++
+// ## 思路：二分查找
+// ### 代码
+// ```c++
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -19,9 +19,9 @@ public:
         return nums[left];
     }
 };
-```
-#### 另一种写法
-```c++
+// ```
+// #### 另一种写法
+// ```c++
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -39,4 +39,4 @@ public:
         return nums[left];
     }
 };
-```
+// ```

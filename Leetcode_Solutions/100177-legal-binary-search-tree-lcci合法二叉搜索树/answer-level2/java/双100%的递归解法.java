@@ -1,9 +1,9 @@
-### 解题思路
-通俗简洁的递归方法：每次保存当前节点的上下界，由于会存在Integer_MAX_VALUE这样的节点，所以用Long.MIN_VALUE和Long.MAX_VALUE作为起始的界。
+// ### 解题思路
+// 通俗简洁的递归方法：每次保存当前节点的上下界，由于会存在Integer_MAX_VALUE这样的节点，所以用Long.MIN_VALUE和Long.MAX_VALUE作为起始的界。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

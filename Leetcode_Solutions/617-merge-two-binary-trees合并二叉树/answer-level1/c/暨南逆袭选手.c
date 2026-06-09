@@ -1,9 +1,9 @@
-### 解题思路
-将t2合并到t1。
+// ### 解题思路
+// 将t2合并到t1。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
     }
     return t1;
 }
-```
+// ```

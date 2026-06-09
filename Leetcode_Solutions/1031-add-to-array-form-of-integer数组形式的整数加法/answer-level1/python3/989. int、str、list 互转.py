@@ -1,7 +1,7 @@
-### 解题思路
-int、str、list 互转
-### 代码
-```
+# ### 解题思路
+# int、str、list 互转
+# ### 代码
+# ```
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
         A = [str(x) for x in A]
@@ -10,10 +10,10 @@ class Solution:
         new_list = [int(x) for x in list(add)]
 
         return new_list
-```
-想写成逐位相加，but
-写成下面这个样子，就超时。
-```
+# ```
+# 想写成逐位相加，but
+# 写成下面这个样子，就超时。
+# ```
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
         A.reverse()
@@ -40,4 +40,4 @@ class Solution:
         if new_sum[0] == 0:
             return new_sum[1:]
         return new_sum
-```
+# ```

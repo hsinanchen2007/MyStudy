@@ -1,5 +1,5 @@
-学习了一下105的官方题解
-```java
+// 学习了一下105的官方题解
+// ```java
 class Solution {
     HashMap<Integer,Integer> idx_map = new HashMap<Integer,Integer>();
     int[] postorder;
@@ -28,4 +28,4 @@ class Solution {
         return helper(0,inorder.length);
     }
 }
-```
+// ```

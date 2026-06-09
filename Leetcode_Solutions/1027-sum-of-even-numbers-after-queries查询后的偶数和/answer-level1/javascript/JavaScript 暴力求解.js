@@ -1,10 +1,10 @@
-### 解题思路
-- 先求出原来 A 矩阵的偶数和
-- 判断 原本位置上的数字是否是偶数 以及 添加之后的数字是否是偶数
+// ### 解题思路
+// - 先求出原来 A 矩阵的偶数和
+// - 判断 原本位置上的数字是否是偶数 以及 添加之后的数字是否是偶数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number[][]} queries
@@ -44,4 +44,4 @@ var sumEvenAfterQueries = function(A, queries) {
     }
     return answer 
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool isPalindrome(int num) {
     if (num < 0) {
         return false;
@@ -27,4 +27,4 @@ bool isPalindrome(int num) {
 
     return true;
 }
-```
+// ```

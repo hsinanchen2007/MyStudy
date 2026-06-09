@@ -1,8 +1,8 @@
->![image.png](https://pic.leetcode-cn.com/cb3e7cfea37ffc6e8ec68bab14693898327e8239fca9e9559994201756776d8a-image.png)
->
-代码:
+// >![image.png](https://pic.leetcode-cn.com/cb3e7cfea37ffc6e8ec68bab14693898327e8239fca9e9559994201756776d8a-image.png)
+// >
+// 代码:
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return DummyHead.next; // 返回有数据的第一个节点,也就是伪节点的下一个节点
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var getAllElements = function(root1, root2) {
   function order(root, res) {
     let temp = [];
@@ -37,4 +37,4 @@ var getAllElements = function(root1, root2) {
   order(root2, arr2)
   return mergeSort(arr1, arr2);
 };
-```
+// ```

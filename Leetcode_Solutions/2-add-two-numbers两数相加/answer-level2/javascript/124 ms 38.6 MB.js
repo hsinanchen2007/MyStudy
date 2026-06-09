@@ -1,9 +1,9 @@
-### 解题思路
-遍历l1和l2，求每个节点的和，创建l3保存每对节点的和，如果和大于10下一个节点直接创建一个基础值为1的节点，否则创建一个基础值为0的节点。
+// ### 解题思路
+// 遍历l1和l2，求每个节点的和，创建l3保存每对节点的和，如果和大于10下一个节点直接创建一个基础值为1的节点，否则创建一个基础值为0的节点。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -37,4 +37,4 @@ let addTwoNumbers = function(l1, l2) {
     }
     return node;
 };
-```
+// ```

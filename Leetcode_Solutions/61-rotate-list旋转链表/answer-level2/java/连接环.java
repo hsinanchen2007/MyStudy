@@ -1,4 +1,4 @@
-```java
+// ```java
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null)
             return head;
@@ -18,4 +18,4 @@
         head.next = null;
         return temp;
     }
-```
+// ```

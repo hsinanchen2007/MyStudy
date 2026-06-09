@@ -1,8 +1,8 @@
-![QQ截图20200301175630.jpg](https://pic.leetcode-cn.com/7dbfbcd7c8f92ba3d3831f7db2dd7d5a7a6c844265b9b3e218cb365969b5ddd8-QQ%E6%88%AA%E5%9B%BE20200301175630.jpg)
+// ![QQ截图20200301175630.jpg](https://pic.leetcode-cn.com/7dbfbcd7c8f92ba3d3831f7db2dd7d5a7a6c844265b9b3e218cb365969b5ddd8-QQ%E6%88%AA%E5%9B%BE20200301175630.jpg)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findNthDigit(int n){
     int num =9; // 记录当前位数一共有多少个数
     int bit = 1; // 记录当前位数
@@ -31,4 +31,4 @@ int findNthDigit(int n){
         return tar; // 返回
     }
 }
-```
+// ```

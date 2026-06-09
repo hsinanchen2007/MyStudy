@@ -1,9 +1,9 @@
-### 解题思路
-利用堆排序完成数组排序
+# ### 解题思路
+# 利用堆排序完成数组排序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def swap(self, arr, i, j):
         arr[i], arr[j] = arr[j], arr[i]
@@ -33,4 +33,4 @@ class Solution:
     def sortArray(self, nums):
         self.heap_sort(nums,  len(nums))
         return nums
-```
+# ```

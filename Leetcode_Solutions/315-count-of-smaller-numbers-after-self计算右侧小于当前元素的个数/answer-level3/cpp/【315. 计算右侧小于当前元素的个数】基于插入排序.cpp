@@ -1,9 +1,9 @@
-### 思路一
-插入排序
+// ### 思路一
+// 插入排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

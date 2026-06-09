@@ -1,8 +1,8 @@
-#### 概述
+# #### 概述
 
-最直接的方法是使用内置函数和 try/catch 结构检查 IP 地址的正确性：在 Python 中使用 [ipaddress](https://docs.python.org/3/library/ipaddress.html) ，在 Java 中使用 [InetAddress](https://docs.oracle.com/javase/7/docs/api/java/net/InetAddress.html) 。
+# 最直接的方法是使用内置函数和 try/catch 结构检查 IP 地址的正确性：在 Python 中使用 [ipaddress](https://docs.python.org/3/library/ipaddress.html) ，在 Java 中使用 [InetAddress](https://docs.oracle.com/javase/7/docs/api/java/net/InetAddress.html) 。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 from ipaddress import ip_address, IPv6Address
 class Solution:
     def validIPAddress(self, IP: str) -> str:
@@ -10,9 +10,9 @@ class Solution:
             return "IPv6" if type(ip_address(IP)) is IPv6Address else "IPv4"
         except ValueError:
             return "Neither"
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 import java.net.*;
 class Solution {
   public String validIPAddress(String IP) {
@@ -22,56 +22,56 @@ class Solution {
     return "Neither";
   }
 }
-```
+# ```
 
-注意：这两个类都是引用 [POSIX -兼容的](https://linux.die.net/man/3/inet_addr) `inet-addr()` 解析地址。如果地址带有前导零块，可能会发生错误。
+# 注意：这两个类都是引用 [POSIX -兼容的](https://linux.die.net/man/3/inet_addr) `inet-addr()` 解析地址。如果地址带有前导零块，可能会发生错误。
 
-> 地址的组成可以使十进制，八进制（以 0 开始），或十六进制（以 0X 开始）。
+# > 地址的组成可以使十进制，八进制（以 0 开始），或十六进制（以 0X 开始）。
 
-例如 `01.01.01.012` 是有效的八进制 IP 地址。检查该地址是否有效可以在控制台运行命令 `ping 01.01.01.012`，八进制地址 `01.01.01.012` 会被转换为对应的十进制地址 `1.1.1.10`，因此执行 ping 命令不会出错。
+# 例如 `01.01.01.012` 是有效的八进制 IP 地址。检查该地址是否有效可以在控制台运行命令 `ping 01.01.01.012`，八进制地址 `01.01.01.012` 会被转换为对应的十进制地址 `1.1.1.10`，因此执行 ping 命令不会出错。
 
-该题目指出如果 *IPv4 地址包含前置 0，则地址是无效的* ，但其实这不符合真实情况，不过我们仍然需要解决它。
+# 该题目指出如果 *IPv4 地址包含前置 0，则地址是无效的* ，但其实这不符合真实情况，不过我们仍然需要解决它。
 
-该题目要三种主要解法：
+# 该题目要三种主要解法：
 
-- 正则表达式，该方法性能不太好。
+# - 正则表达式，该方法性能不太好。
 
-- 分治法，效率最高的方法之一。
+# - 分治法，效率最高的方法之一。
 
-- 使用分治法和内置的 try/catch，将字符串转换成整数处理。使用 try/catch 不是一种好的方式，因为 try 块中的代码不会被编译器优化，所以最好不要在面试中使用。
+# - 使用分治法和内置的 try/catch，将字符串转换成整数处理。使用 try/catch 不是一种好的方式，因为 try 块中的代码不会被编译器优化，所以最好不要在面试中使用。
 
 
-#### 方法一：正则表达式
+# #### 方法一：正则表达式
 
-构造适用该题目的 “IPv4” 地址的正则表达式。注意前面讨论的前置零问题，它不属于 IPv4 地址。
+# 构造适用该题目的 “IPv4” 地址的正则表达式。注意前面讨论的前置零问题，它不属于 IPv4 地址。
 
-在 Python 中使用原始字符串 `r''` 构造正则表达式：
+# 在 Python 中使用原始字符串 `r''` 构造正则表达式：
 
-![](https://pic.leetcode-cn.com/Figures/468/regex_ipv4.png)
+# ![](https://pic.leetcode-cn.com/Figures/468/regex_ipv4.png)
 
-在 Java 中使用标准字符串构造正则表达式：
+# 在 Java 中使用标准字符串构造正则表达式：
 
-![](https://pic.leetcode-cn.com/Figures/468/java_ipv4.png)
+# ![](https://pic.leetcode-cn.com/Figures/468/java_ipv4.png)
 
-现在问题被简化为检查每个块是否正确，每个块的范围为 `(0, 255)`，且不允许有前置零出现。一共有五种情况：
+# 现在问题被简化为检查每个块是否正确，每个块的范围为 `(0, 255)`，且不允许有前置零出现。一共有五种情况：
 
-1. 块只包含一位数字，范围是 0 到 9。
+# 1. 块只包含一位数字，范围是 0 到 9。
 
-2. 块包含两位数字，第一位的范围是 1 到 9，第二位是 0 到 9。
+# 2. 块包含两位数字，第一位的范围是 1 到 9，第二位是 0 到 9。
 
-3. 块包含三位数字，且第一位为 1。第二、三位可以是 0 到 9。
+# 3. 块包含三位数字，且第一位为 1。第二、三位可以是 0 到 9。
 
-4. 块包含三位数字，且第一位为 2，第二位为 0 到 4。那么第三位可以是 0 到 9。
+# 4. 块包含三位数字，且第一位为 2，第二位为 0 到 4。那么第三位可以是 0 到 9。
 
-5. 块包含三位数字，且第一位为 2，第二位为 5，那么第三位可以是 0 到 5。
+# 5. 块包含三位数字，且第一位为 2，第二位为 5，那么第三位可以是 0 到 5。
 
-创建包含这 5 种情况的正则表达式。
+# 创建包含这 5 种情况的正则表达式。
 
-![](https://pic.leetcode-cn.com/Figures/468/chunk_regex.png) 
+# ![](https://pic.leetcode-cn.com/Figures/468/chunk_regex.png) 
 
-使用相同逻辑构造匹配 IPv6 地址的正则表达式。
+# 使用相同逻辑构造匹配 IPv6 地址的正则表达式。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 import re
 class Solution:
     chunk_IPv4 = r'([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])'
@@ -86,9 +86,9 @@ class Solution:
         if ':' in IP:
             return "IPv6" if self.patten_IPv6.match(IP) else "Neither" 
         return "Neither"
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 import java.util.regex.Pattern;
 class Solution {
   String chunkIPv4 = "([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])";
@@ -109,36 +109,36 @@ class Solution {
     return "Neither";
   }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$\mathcal{O}(1)$。
+# * 时间复杂度：$\mathcal{O}(1)$。
     
-* 空间复杂度：$\mathcal{O}(1)$。
+# * 空间复杂度：$\mathcal{O}(1)$。
 
 
-#### 方法二：分治法
+# #### 方法二：分治法
 
-**思想**
+# **思想**
 
-IPv4 和 IPv6 地址均是由特定的分界符隔开的字符串组成，并且每个子字符串具有相同格式。
+# IPv4 和 IPv6 地址均是由特定的分界符隔开的字符串组成，并且每个子字符串具有相同格式。
 
-![](https://pic.leetcode-cn.com/Figures/468/divide_conquer.png)
+# ![](https://pic.leetcode-cn.com/Figures/468/divide_conquer.png)
 
-因此，可以将地址分为多个块，然后逐块进行验证。
+# 因此，可以将地址分为多个块，然后逐块进行验证。
 
-仅当每个块都有效时，该地址才有效。这种方法称为 *分治法*。
+# 仅当每个块都有效时，该地址才有效。这种方法称为 *分治法*。
 
-**算法**
+# **算法**
 
-- 对于 IPv4 地址，通过界定符 `.` 将地址分为四块；对于 IPv6 地址，通过界定符 `:` 将地址分为八块。
+# - 对于 IPv4 地址，通过界定符 `.` 将地址分为四块；对于 IPv6 地址，通过界定符 `:` 将地址分为八块。
 
-- 对于 IPv4 地址的每一块，检查它们是否在 `0 - 255` 内，且没有前置零。
+# - 对于 IPv4 地址的每一块，检查它们是否在 `0 - 255` 内，且没有前置零。
 
-- 对于 IPv6 地址的每一块，检查其长度是否为 `1 - 4` 位的十六进制数。
+# - 对于 IPv6 地址的每一块，检查其长度是否为 `1 - 4` 位的十六进制数。
 
-```python [solution2-Python]
+# ```python [solution2-Python]
 class Solution:
     def validate_IPv4(self, IP: str) -> str:
         nums = IP.split('.')
@@ -172,9 +172,9 @@ class Solution:
             return self.validate_IPv6(IP)
         else:
             return "Neither"
-```
+# ```
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class Solution {
   public String validateIPv4(String IP) {
     String[] nums = IP.split("\\.", -1);
@@ -219,10 +219,10 @@ class Solution {
     else return "Neither";
   }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$\mathcal{O}(1)$。
+# * 时间复杂度：$\mathcal{O}(1)$。
     
-* 空间复杂度：$\mathcal{O}(1)$。
+# * 空间复杂度：$\mathcal{O}(1)$。

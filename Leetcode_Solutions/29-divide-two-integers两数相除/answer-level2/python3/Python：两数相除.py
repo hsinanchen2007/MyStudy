@@ -1,9 +1,9 @@
-### 解题思路
-位运算：利用除法竖式
+# ### 解题思路
+# 位运算：利用除法竖式
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         sign = (dividend > 0) ^ (divisor > 0)
@@ -22,4 +22,4 @@ class Solution:
                 dividend -= divisor
         if sign: result = -result
         return result if -(1<<31) <= result <= (1<<31)-1 else (1<<31)-1 
-```
+# ```

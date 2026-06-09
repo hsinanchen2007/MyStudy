@@ -1,9 +1,9 @@
-### 解题思路
-注意样例的结束时间会爆int，改用long存
+// ### 解题思路
+// 注意样例的结束时间会爆int，改用long存
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
@@ -15,4 +15,4 @@ public:
         return timeSeries.size()*duration-overlap;
     }
 };
-```
+// ```

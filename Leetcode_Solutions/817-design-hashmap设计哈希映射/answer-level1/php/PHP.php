@@ -1,4 +1,4 @@
-```php
+// ```php
 class MyHashMap {
     /**
      * Initialize your data structure here.
@@ -43,4 +43,4 @@ class MyHashMap {
  * $ret_2 = $obj->get($key);
  * $obj->remove($key);
  */
-```
+// ```

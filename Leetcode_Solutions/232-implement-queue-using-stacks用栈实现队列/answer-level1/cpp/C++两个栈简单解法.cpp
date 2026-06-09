@@ -1,5 +1,5 @@
-先贴上代码
-```cpp
+// 先贴上代码
+// ```cpp
 class MyQueue {
 public:
 	/** Initialize your data structure here. */
@@ -43,10 +43,10 @@ public:
 private:
 	stack<int> in, out;
 };
-```
-使用两个栈
-in从栈顶至栈底存放FIFO的元素
-所有新元素先加入out中,则是按照LIFO的顺序存放在栈中
-取top和pop都从in中操作
-若in为空了,就将out中的元素复制到in中去,现在的顺序又变为了FIFO了
-判断空则是判断in和out都为空
+// ```
+// 使用两个栈
+// in从栈顶至栈底存放FIFO的元素
+// 所有新元素先加入out中,则是按照LIFO的顺序存放在栈中
+// 取top和pop都从in中操作
+// 若in为空了,就将out中的元素复制到in中去,现在的顺序又变为了FIFO了
+// 判断空则是判断in和out都为空

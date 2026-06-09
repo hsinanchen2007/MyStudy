@@ -1,5 +1,5 @@
-棋盘每行每列编号0～n-1
-```
+// 棋盘每行每列编号0～n-1
+// ```
 class Solution {
     List<List<String>> result = new ArrayList();
     public List<List<String>> solveNQueens(int n) {
@@ -59,4 +59,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

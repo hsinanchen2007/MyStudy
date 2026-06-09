@@ -1,13 +1,13 @@
-深度优先算法
-（1）6种运算
-      a + b、a * b、a - b、 b - a、a / b、b / a.
-（2）2 种数值的组合方式
-    （（a b）c）d  
-    （a b）（c d）
-（3）DFS的截止条件：4个数值全部取完，满足24点
-（4）需要使用debouble类型，因存在除法
+// 深度优先算法
+// （1）6种运算
+//       a + b、a * b、a - b、 b - a、a / b、b / a.
+// （2）2 种数值的组合方式
+//     （（a b）c）d  
+//     （a b）（c d）
+// （3）DFS的截止条件：4个数值全部取完，满足24点
+// （4）需要使用debouble类型，因存在除法
 
-```
+// ```
 typedef enum {
     MIN,
     ADD,
@@ -127,4 +127,4 @@ bool judgePoint24(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

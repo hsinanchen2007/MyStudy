@@ -1,6 +1,6 @@
-题目的本身不是很复杂，主要是练习编码，里面是我自己的实现，供大家参考
+// 题目的本身不是很复杂，主要是练习编码，里面是我自己的实现，供大家参考
 
-```
+// ```
 #define FUN_FILE_DESC(x)   1 
 
 #if FUN_FILE_DESC("public")
@@ -206,4 +206,4 @@ char * validIPAddress(char * IP){
     }
     return NOIP_STR;
 }
-```
+// ```

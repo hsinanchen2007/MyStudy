@@ -1,5 +1,5 @@
-时间上超80% 空间上也还可以60%
-```
+# 时间上超80% 空间上也还可以60%
+# ```
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
         self.stack=[]
@@ -17,4 +17,4 @@ class NestedIterator:
     
     def hasNext(self) -> bool:
         return len(self.stack)!=0
-```
+# ```

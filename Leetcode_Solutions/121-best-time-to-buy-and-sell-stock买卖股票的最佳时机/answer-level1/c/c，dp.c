@@ -1,12 +1,12 @@
-### 解题思路
-1. f[i]为前i天为止的最大收益
-2. f[0]为0
-3. 当prices[i]比prices[i-1]小，说明下跌了，f[i] = f[i-1]
-4. 否则f[i] = prices[i] - curmin（历史低谷）
+// ### 解题思路
+// 1. f[i]为前i天为止的最大收益
+// 2. f[0]为0
+// 3. 当prices[i]比prices[i-1]小，说明下跌了，f[i] = f[i-1]
+// 4. 否则f[i] = prices[i] - curmin（历史低谷）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if (prices == NULL || pricesSize == 0) return 0;
 
@@ -30,4 +30,4 @@ int maxProfit(int* prices, int pricesSize){
 
     return max;
 }
-```
+// ```

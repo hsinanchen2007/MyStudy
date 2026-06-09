@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思
-因为这个数组排列的太过规律，所以可以先确定下行，然后再对该行进行列查找即可
-时间= log(行数) + log(列数)
-虽然代码的简洁和优雅性不如将整个表格看成一个列表
-但是时间上理论要快
-### 代码
+# ### 解题思路
+# 此处撰写解题思
+# 因为这个数组排列的太过规律，所以可以先确定下行，然后再对该行进行列查找即可
+# 时间= log(行数) + log(列数)
+# 虽然代码的简洁和优雅性不如将整个表格看成一个列表
+# 但是时间上理论要快
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or len(matrix) == 0  or len(matrix[0]) == 0:
@@ -39,4 +39,4 @@ class Solution:
             else:
                 left = mid +1
         return False
-```
+# ```

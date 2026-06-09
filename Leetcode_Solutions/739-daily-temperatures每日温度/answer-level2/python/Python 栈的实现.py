@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def dailyTemperatures(self, T):
         """
@@ -39,4 +39,4 @@ class Solution(object):
             # 当遍历栈顶元素不小于当前温度时，将当前温度入栈
             stack.append((index, value))
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-上面很多大佬的解法，很不错，但是感觉对我说稍微有点绕，在这提供一种解题思路，适合像我一样的小白看看。
-取出数组第一个数nums[0]，以及除第一个数外剩下数据的全排列结果Pn-1，将nums[0]插入到Pn-1的从i到n-1每一个位置， 就可以构造出全排列数组，
-表达能力有限，可以参考代码理解。
+// 上面很多大佬的解法，很不错，但是感觉对我说稍微有点绕，在这提供一种解题思路，适合像我一样的小白看看。
+// 取出数组第一个数nums[0]，以及除第一个数外剩下数据的全排列结果Pn-1，将nums[0]插入到Pn-1的从i到n-1每一个位置， 就可以构造出全排列数组，
+// 表达能力有限，可以参考代码理解。
 
 
-```
+// ```
 public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         if (nums == null || nums.length == 0) {
@@ -33,5 +33,5 @@ public List<List<Integer>> permute(int[] nums) {
         }
         return ans;
     }
-```
+// ```
 

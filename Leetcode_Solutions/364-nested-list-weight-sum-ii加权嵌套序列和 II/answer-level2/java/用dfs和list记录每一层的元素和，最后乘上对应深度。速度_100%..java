@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int depthSumInverse(List<NestedInteger> nestedList) {
         List<Integer> list=new ArrayList<>();
@@ -29,5 +29,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

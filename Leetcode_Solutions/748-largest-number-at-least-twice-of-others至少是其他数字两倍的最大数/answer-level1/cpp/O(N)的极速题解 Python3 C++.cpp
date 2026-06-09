@@ -1,9 +1,9 @@
-贪心算法，只要遍历一遍，遍历第一项的时候即把它当作最大项，以后如果出现更大的，再将最大项设置为它。同时有一个flag记录是否符合大两倍的条件。
+// 贪心算法，只要遍历一遍，遍历第一项的时候即把它当作最大项，以后如果出现更大的，再将最大项设置为它。同时有一个flag记录是否符合大两倍的条件。
 
 
-C++代码实现如下
+// C++代码实现如下
 
-```
+// ```
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
@@ -26,11 +26,11 @@ public:
         else return max_index;
     }
 };
-```
+// ```
 
-Python3 实现如下：
+// Python3 实现如下：
 
-```
+// ```
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         if len(nums)== 0:
@@ -50,4 +50,4 @@ class Solution:
             return -1 
         else:
             return max_index
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-设置三个节点，前继节点：pre;当前节点：cur;后继节点:next。
-从头结点开始，一个节点一个节点开始反转。       
-### 代码
+// ### 解题思路
+// 设置三个节点，前继节点：pre;当前节点：cur;后继节点:next。
+// 从头结点开始，一个节点一个节点开始反转。       
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return pre;//循环结束后，pre值为cur，cur值为null，所以要返回pre
     }
 }
-```
+// ```

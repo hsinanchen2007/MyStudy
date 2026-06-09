@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
         i=0
@@ -25,4 +25,4 @@ class Solution:
         elif i<len(a):
             return False
         return True
-```
+# ```

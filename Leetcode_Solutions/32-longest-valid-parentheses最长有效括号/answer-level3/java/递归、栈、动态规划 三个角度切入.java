@@ -1,14 +1,14 @@
-### 解题思路
-分享三种思路：递归、栈和动态规划。其中递归只能求解小规模数据，题目设置的测试点会T
+// ### 解题思路
+// 分享三种思路：递归、栈和动态规划。其中递归只能求解小规模数据，题目设置的测试点会T
 
-### 代码
+// ### 代码
 
-## recursion 
-预处理两端以后，要做的就是判断该字符串是否valid
-1. valid的话就返回当前字符串长度
-2. 否则的话递归[0...len-2]和[1...len-1]两个子字符串，取最大值即可
+// ## recursion 
+// 预处理两端以后，要做的就是判断该字符串是否valid
+// 1. valid的话就返回当前字符串长度
+// 2. 否则的话递归[0...len-2]和[1...len-1]两个子字符串，取最大值即可
 
-```java
+// ```java
 class Solution {
     public boolean check(String t) {
         int len = t.length();
@@ -45,12 +45,12 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-## dp 
-dp思路应该和大伙儿差不多。。
+// ## dp 
+// dp思路应该和大伙儿差不多。。
 
-```java
+// ```java
     public int longestValidParentheses(String s) {
         // dp[i]: longestValidParentheses end at pos i
         int len = s.length();
@@ -79,12 +79,12 @@ dp思路应该和大伙儿差不多。。
         }
         return res;
     }
-```
+// ```
 
-## stack
-栈存的是每一个字符的位置，通过栈消去匹配的括号，那么通过栈中剩下字符的位置就可以计算出消去括号字符串的长度，取最长即可。
+// ## stack
+// 栈存的是每一个字符的位置，通过栈消去匹配的括号，那么通过栈中剩下字符的位置就可以计算出消去括号字符串的长度，取最长即可。
 
-```java
+// ```java
     // stack method
     public int longestValidParentheses(String s) {
         Stack<Integer> st = new Stack<>();
@@ -114,4 +114,4 @@ dp思路应该和大伙儿差不多。。
         }
         return res;
     }
-```
+// ```

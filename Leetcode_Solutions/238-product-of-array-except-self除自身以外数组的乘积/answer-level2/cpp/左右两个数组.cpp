@@ -1,11 +1,11 @@
-### 解题思路
-1. 分为左右两个数组，双重动态规划
-2. 是我今天笔试题，竟然没做出来，55
-![image.png](https://pic.leetcode-cn.com/6f5521bc080d4992db8de3c9ca82d3869a708afa9667a03ea56fff1fceb1d363-image.png)
+// ### 解题思路
+// 1. 分为左右两个数组，双重动态规划
+// 2. 是我今天笔试题，竟然没做出来，55
+// ![image.png](https://pic.leetcode-cn.com/6f5521bc080d4992db8de3c9ca82d3869a708afa9667a03ea56fff1fceb1d363-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -39,4 +39,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-#### 方法 1：贪心[Accepted]
+// #### 方法 1：贪心[Accepted]
 
-**想法**
+// **想法**
 
-首先给每个单词选择最短的缩写。然后我们对于所有重复的单词，我们增加这些重复项的长度。
+// 首先给每个单词选择最短的缩写。然后我们对于所有重复的单词，我们增加这些重复项的长度。
 
-**算法**
+// **算法**
 
-比方说，我们有 `"aabaaa", "aacaaa", "aacdaa"`，我们首先得到 `"a4a", "a4a", "a4a"`。由于有重复项，我们将它们延长为 `"aa3a", "aa3a", "aa3a"`。此时仍然有重复项，所以我们继续延伸长度为 `"aab2a", "aac2a", "aac2a"`。最后两个字符串仍然是重复项，我们将它们继续延长得到 `"aacaaa", "aacdaa"`。
+// 比方说，我们有 `"aabaaa", "aacaaa", "aacdaa"`，我们首先得到 `"a4a", "a4a", "a4a"`。由于有重复项，我们将它们延长为 `"aa3a", "aa3a", "aa3a"`。此时仍然有重复项，所以我们继续延伸长度为 `"aab2a", "aac2a", "aac2a"`。最后两个字符串仍然是重复项，我们将它们继续延长得到 `"aacaaa", "aacdaa"`。
 
-在此过程中，我们用一个数组 `prefix[i]` 记录第 i 个字符串最少需要记录 prefix[i] 个字符。比方说 `prefix[i] = 2` 表示第 i 个字符串至少要记录 `word[0], word[1], word[2]` 这些字符才能保证跟别的字符串不同。
+// 在此过程中，我们用一个数组 `prefix[i]` 记录第 i 个字符串最少需要记录 prefix[i] 个字符。比方说 `prefix[i] = 2` 表示第 i 个字符串至少要记录 `word[0], word[1], word[2]` 这些字符才能保证跟别的字符串不同。
 
-```Python []
+// ```Python []
 class Solution(object):
     def wordsAbbreviation(self, words):
         def abbrev(word, i = 0):
@@ -35,9 +35,9 @@ class Solution(object):
                     ans[k] = abbrev(words[k], prefix[k])
 
         return ans
-```
+// ```
 
-```Java []
+// ```Java []
 class Solution {
     public List<String> wordsAbbreviation(List<String> words) {
         int N = words.size();
@@ -70,23 +70,23 @@ class Solution {
         return word.substring(0, i+1) + (N - i - 2) + word.charAt(N-1);
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(C^2)$。其中 $C$ 是给定数组中所有字符串的字符总数目。
+// * 时间复杂度：$O(C^2)$。其中 $C$ 是给定数组中所有字符串的字符总数目。
 
-* 空间复杂度：$O(C)$。
+// * 空间复杂度：$O(C)$。
 
-#### 方法 2：分组 + 最短公共前缀 [Accepted]
+// #### 方法 2：分组 + 最短公共前缀 [Accepted]
 
-**想法和算法**
+// **想法和算法**
 
-如果两个单词有相同的开始字符、最后一个字符和长度，那么这两个单词有相同的缩写。我们将所有单词按照这些属性进行分组，然后在组内将单词按字典序排序，解决冲突的问题。
+// 如果两个单词有相同的开始字符、最后一个字符和长度，那么这两个单词有相同的缩写。我们将所有单词按照这些属性进行分组，然后在组内将单词按字典序排序，解决冲突的问题。
 
-在某个组 `G` 中，如果某个单词 `W` 与组中其他单词 `X` 有最长公共前缀 `P` ，那么该单词的缩写至少要包含长度大于 `|P|` 个字符的前缀。在已经排序的组中，与 `W` 单词有最长公共前缀的单词一定是 `W` 相邻的单词（字典序中相邻），所以我们只需要将 `G` 排序然后查看相邻单词即可。
+// 在某个组 `G` 中，如果某个单词 `W` 与组中其他单词 `X` 有最长公共前缀 `P` ，那么该单词的缩写至少要包含长度大于 `|P|` 个字符的前缀。在已经排序的组中，与 `W` 单词有最长公共前缀的单词一定是 `W` 相邻的单词（字典序中相邻），所以我们只需要将 `G` 排序然后查看相邻单词即可。
 
-```Python []
+// ```Python []
 class Solution(object):
     def wordsAbbreviation(self, words):
         def longest_common_prefix(a, b):
@@ -118,9 +118,9 @@ class Solution(object):
                     ans[index] = word[:p+1] + str(delta) + last
 
         return ans
-```
+// ```
 
-```Java []
+// ```Java []
 class Solution {
     public List<String> wordsAbbreviation(List<String> words) {
         Map<String, List<IndexedWord>> groups = new HashMap();
@@ -176,23 +176,23 @@ class IndexedWord {
     }
 }
 
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(C \log C)$，其中 $C$ 是给定数组所有单词的总字符数。该算法时间主要耗费在排序上。
+// * 时间复杂度： $O(C \log C)$，其中 $C$ 是给定数组所有单词的总字符数。该算法时间主要耗费在排序上。
 
-* 空间复杂度： $O(C)$。
+// * 空间复杂度： $O(C)$。
 
-#### 方法 3：分组 + Trie 树[Accepted]
+// #### 方法 3：分组 + Trie 树[Accepted]
 
-**想法和算法**
+// **想法和算法**
 
-正如 *方法 2* 中所述，我们将单词按照长度、首字母、最后一个字母分组后，我们讨论何时一个组内的单词没有最长公共前缀。
+// 正如 *方法 2* 中所述，我们将单词按照长度、首字母、最后一个字母分组后，我们讨论何时一个组内的单词没有最长公共前缀。
 
-将一个组内的单词放到 trie 树中（前缀树），然后我们在每一个节点（代表某个前缀 `P`）统计有多少个单词的前缀为 `P`。如果数目为 1 ，我们就知道这个前缀是唯一的。
+// 将一个组内的单词放到 trie 树中（前缀树），然后我们在每一个节点（代表某个前缀 `P`）统计有多少个单词的前缀为 `P`。如果数目为 1 ，我们就知道这个前缀是唯一的。
 
-```Python []
+// ```Python []
 class Solution(object):
     def wordsAbbreviation(self, words):
         groups = collections.defaultdict(list)
@@ -220,9 +220,9 @@ class Solution(object):
                 else:
                     ans[index] = word
         return ans
-```
+// ```
 
-```Java []
+// ```Java []
 class Solution {
     public List<String> wordsAbbreviation(List<String> words) {
         Map<String, List<IndexedWord>> groups = new HashMap();
@@ -295,10 +295,10 @@ class IndexedWord {
         index = i;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(C)$，其中 $C$ 是给定数组中所有单词的字符总数。
+// * 时间复杂度：$O(C)$，其中 $C$ 是给定数组中所有单词的字符总数。
 
-* 空间复杂度：$O(C)$。
+// * 空间复杂度：$O(C)$。

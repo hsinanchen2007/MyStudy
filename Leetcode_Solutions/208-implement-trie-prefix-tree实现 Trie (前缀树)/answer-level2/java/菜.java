@@ -1,9 +1,9 @@
-### 解题思路
-难点在于search时判断trie小word长,trie长word小,子节点是否符合当前word中的字符,与trie长word小的情况下,判断遍历完word后的当前trie节点是否是一个单词的最后一个字符(即判断isWord)这几种情况
+// ### 解题思路
+// 难点在于search时判断trie小word长,trie长word小,子节点是否符合当前word中的字符,与trie长word小的情况下,判断遍历完word后的当前trie节点是否是一个单词的最后一个字符(即判断isWord)这几种情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 
 //根节点不存值
@@ -119,4 +119,4 @@ class TrieNode
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

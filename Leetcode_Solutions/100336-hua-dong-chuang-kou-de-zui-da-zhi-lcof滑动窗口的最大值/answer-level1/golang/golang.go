@@ -1,8 +1,8 @@
-### 解题思路
-双指针查大小，将新加入的跟最大的比
-### 代码
+// ### 解题思路
+// 双指针查大小，将新加入的跟最大的比
+// ### 代码
 
-```golang
+// ```golang
 func maxSlidingWindow(nums []int, k int) []int {
     n := len(nums)
     if n == 0 {
@@ -35,4 +35,4 @@ func MaxIndx(nums []int, k int) int {
     }
     return left
 }
-```
+// ```

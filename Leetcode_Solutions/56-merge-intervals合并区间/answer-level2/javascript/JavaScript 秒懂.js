@@ -1,4 +1,4 @@
-```
+// ```
 var merge = function (intervals) {
   intervals.sort((a, b) => a[0] - b[0])
   let k = 0
@@ -12,4 +12,4 @@ var merge = function (intervals) {
   }
   return intervals.slice(0, k + 1)
 };
-```
+// ```

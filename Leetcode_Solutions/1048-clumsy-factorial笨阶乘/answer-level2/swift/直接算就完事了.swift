@@ -1,5 +1,5 @@
-直接算 没有那么多花里胡哨的
-```
+// 直接算 没有那么多花里胡哨的
+// ```
 class Solution {
     func clumsy(_ N: Int) -> Int {
         var rate = N
@@ -29,4 +29,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

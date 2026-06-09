@@ -1,5 +1,5 @@
-**方法一：动态规划**
-```
+// **方法一：动态规划**
+// ```
 class Solution {
     /**
     * 思路：
@@ -31,10 +31,10 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-**方法二：中心扩散法**
-```
+// **方法二：中心扩散法**
+// ```
 class Solution {
     /**
     * 思路：
@@ -74,10 +74,10 @@ class Solution {
         return R - L - 1;
     }
 }
-```
+// ```
 
-**方法三：Manacher(马拉车)算法**
-```
+// **方法三：Manacher(马拉车)算法**
+// ```
 class Solution {
     /**
     * 算法思考比较复杂，但是消耗时间少。优化了中心扩展方法。
@@ -167,4 +167,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

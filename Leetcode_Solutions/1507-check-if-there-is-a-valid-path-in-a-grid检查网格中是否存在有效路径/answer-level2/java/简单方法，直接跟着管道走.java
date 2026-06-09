@@ -1,12 +1,12 @@
-### 解题思路
-首先别管那么多，既然规定了必须跟着管道走，咱就跟着管道走，比如说当前管道可以连接右，那么我们就判断他左连的那个管道是否可以连接左(这样才能两个管道才想通)，如果连接咋就过去，dfs操作。其他方向同理。
+// ### 解题思路
+// 首先别管那么多，既然规定了必须跟着管道走，咱就跟着管道走，比如说当前管道可以连接右，那么我们就判断他左连的那个管道是否可以连接左(这样才能两个管道才想通)，如果连接咋就过去，dfs操作。其他方向同理。
 
-但是双100%是我没想到的，交的人太少了？
-![MULLVTGKR7DNUBZLY1IFE4Q.png](https://pic.leetcode-cn.com/0d3488c9b2473033f6deb78670f177caca8fee68e031fbf61622212ac2e0f463-MULLVTGKR7DNUBZLY1IFE4Q.png)
+// 但是双100%是我没想到的，交的人太少了？
+// ![MULLVTGKR7DNUBZLY1IFE4Q.png](https://pic.leetcode-cn.com/0d3488c9b2473033f6deb78670f177caca8fee68e031fbf61622212ac2e0f463-MULLVTGKR7DNUBZLY1IFE4Q.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     boolean b =false;
     int lx,ly;
@@ -92,4 +92,4 @@ class Solution {
         }
     }
 }
-```
+// ```

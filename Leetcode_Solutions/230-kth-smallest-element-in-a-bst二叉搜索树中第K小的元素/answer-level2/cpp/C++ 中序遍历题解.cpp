@@ -1,9 +1,9 @@
-### 解题思路
-利用find记录是否找到结果，来提前终止遍历过程
+// ### 解题思路
+// 利用find记录是否找到结果，来提前终止遍历过程
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,6 +33,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/18ebd58549c5da2420e3e36f926fad5dfd29c71d0fd0b1af988e6f088b8d991b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/18ebd58549c5da2420e3e36f926fad5dfd29c71d0fd0b1af988e6f088b8d991b-image.png)

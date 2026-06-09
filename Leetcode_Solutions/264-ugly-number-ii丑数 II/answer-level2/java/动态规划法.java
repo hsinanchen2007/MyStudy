@@ -1,10 +1,10 @@
-### 解题思路
-请参考代码和注释
-疑问：在本机只要十几毫秒就执行完的代码为毛在leetcode执行了100多毫秒
+// ### 解题思路
+// 请参考代码和注释
+// 疑问：在本机只要十几毫秒就执行完的代码为毛在leetcode执行了100多毫秒
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int nthUglyNumber(int n) {
         int[] arr = this.dynamicPlan(n);
@@ -69,4 +69,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

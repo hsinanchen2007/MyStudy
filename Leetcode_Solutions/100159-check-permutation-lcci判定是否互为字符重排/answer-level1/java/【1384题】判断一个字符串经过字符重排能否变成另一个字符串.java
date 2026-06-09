@@ -1,5 +1,5 @@
-**方法一：使用字符串的repalce()方法**
-```
+// **方法一：使用字符串的repalce()方法**
+// ```
 class Solution {
     /**
     * 思路：
@@ -21,10 +21,10 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-**方法二：通过字符数组的排序**
-```
+// **方法二：通过字符数组的排序**
+// ```
 class Solution {
     /**
     * 思路：
@@ -43,10 +43,10 @@ class Solution {
         return new String(c1).equals(new String(c2));
     }
 }
-```
+// ```
 
-**方法三：使用ASCII码值记录字符**
-```
+// **方法三：使用ASCII码值记录字符**
+// ```
 class Solution {
     /**
     * 思路：
@@ -75,4 +75,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

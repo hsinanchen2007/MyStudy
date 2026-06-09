@@ -1,10 +1,10 @@
-### 解题思路
-一开始想到的是暴力解法，是可行的，不过超出时间限制。
-后面想到的这个解法非常巧妙，写出来很激动。
+// ### 解题思路
+// 一开始想到的是暴力解法，是可行的，不过超出时间限制。
+// 后面想到的这个解法非常巧妙，写出来很激动。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numPairsDivisibleBy60(int* time, int timeSize){
     //很巧妙的思路
     int i;
@@ -30,4 +30,4 @@ int numPairsDivisibleBy60(int* time, int timeSize){
     }
     return count;    
 }
-```
+// ```

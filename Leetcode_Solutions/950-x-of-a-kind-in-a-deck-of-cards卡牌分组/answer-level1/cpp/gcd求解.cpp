@@ -1,9 +1,9 @@
-### 解题思路
-gcd求解所有数的最大公约数
+// ### 解题思路
+// gcd求解所有数的最大公约数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int gcd(int a, int b){
@@ -33,4 +33,4 @@ public:
         return res >= 2;
     }
 };
-```
+// ```

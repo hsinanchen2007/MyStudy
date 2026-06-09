@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
         num = 0
@@ -16,4 +16,4 @@ class Solution:
             i += 1
             j += 1
         return(num)
-```
+# ```

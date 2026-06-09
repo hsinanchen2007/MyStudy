@@ -1,10 +1,10 @@
-### 解题思路
-1、暴力求解，两层循环；
-2、滑动窗口，参考答案，巧妙利用了char[128]来存储下标；
+// ### 解题思路
+// 1、暴力求解，两层循环；
+// 2、滑动窗口，参考答案，巧妙利用了char[128]来存储下标；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define max(a,b) ((a) > (b) ? (a) : (b))
 
 int lengthOfLongestSubstring(char * s) {
@@ -21,4 +21,4 @@ int lengthOfLongestSubstring(char * s) {
     }
     return ret;
 }
-```
+// ```

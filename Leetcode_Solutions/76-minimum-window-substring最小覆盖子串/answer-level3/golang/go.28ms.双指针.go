@@ -1,5 +1,5 @@
-# 解析
-```go
+// # 解析
+// ```go
 /*
 ====================================================
 76. 最小覆盖子串
@@ -51,10 +51,10 @@ func MinWindow(s string, t string) string {
 
 }
 
-```
+// ```
 
-# 测试用例
-```go
+// # 测试用例
+// ```go
 func Test_MinWindow(t *testing.T) {
 	var fibTest = []struct {
 		inputText   string
@@ -73,12 +73,12 @@ func Test_MinWindow(t *testing.T) {
 		}
 	}
 }
-```
+// ```
 
-# 疑惑
-看到代码提交页面的 0ms 的代码，不过没想明白具体的逻辑。有高手的话麻烦解答一下
+// # 疑惑
+// 看到代码提交页面的 0ms 的代码，不过没想明白具体的逻辑。有高手的话麻烦解答一下
 
-```go
+// ```go
 // 0ms 的 go 代码
 func MinWindowBak(s string, t string) string {
 	if len(s) < len(t) {
@@ -107,4 +107,4 @@ func MinWindowBak(s string, t string) string {
 
 	return results
 }
-```
+// ```

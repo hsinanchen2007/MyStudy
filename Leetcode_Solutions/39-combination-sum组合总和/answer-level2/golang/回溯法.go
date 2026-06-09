@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/87ce70bd81067648f0b6a85f7206bf3a5d2b7b99227fc20d9c6fc4d60a52a4d5-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/87ce70bd81067648f0b6a85f7206bf3a5d2b7b99227fc20d9c6fc4d60a52a4d5-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var result [][]int
 
 func combinationSum(candidates []int, target int) [][]int {
@@ -50,4 +50,4 @@ func arrangeSum(candidates, nums []int, target int, sum int) {
 		nums = nums[:len(nums)-1]
 	}
 }
-```
+// ```

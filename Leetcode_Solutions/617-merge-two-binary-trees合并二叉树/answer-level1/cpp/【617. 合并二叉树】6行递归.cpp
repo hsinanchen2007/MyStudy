@@ -1,9 +1,9 @@
-### 思路
+// ### 思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
@@ -15,4 +15,4 @@ public:
         return t1;
     }
 };
-```
+// ```

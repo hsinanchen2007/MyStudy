@@ -1,5 +1,5 @@
-# 当然是用异或啦
-```
+// # 当然是用异或啦
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -8,4 +8,4 @@ public:
         return nums[0];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     double cnt1[1000] = { 0 };
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

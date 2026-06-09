@@ -1,9 +1,9 @@
-### 解题思路
-先求和，再逐个减去数组数字，剩下的就是没出现的数字
+// ### 解题思路
+// 先求和，再逐个减去数组数字，剩下的就是没出现的数字
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int missingNumber(int* nums, int numsSize)
 {
     //printf("%d",numsSize);
@@ -14,4 +14,4 @@ int missingNumber(int* nums, int numsSize)
     }
     return k;
 }
-```
+// ```

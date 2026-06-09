@@ -1,12 +1,12 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/dc232a9c691dea620ee333132e4b9a15bbc0cb1fe86066b6404054a118eacb21-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/dc232a9c691dea620ee333132e4b9a15bbc0cb1fe86066b6404054a118eacb21-%E6%8D%95%E8%8E%B7.PNG)
 
-将生命状态改变的细胞设成一个除0、1之外的值，通过判断这个值可以知道初始时的存活与否。
-最后在统一改为改变后的状态。
+// 将生命状态改变的细胞设成一个除0、1之外的值，通过判断这个值可以知道初始时的存活与否。
+// 最后在统一改为改变后的状态。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int initvalue(int val){
     if(val == 2)
         return 0;
@@ -66,4 +66,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         for(j=0; j<n; j++)
             board[i][j] = nowvalue(board[i][j]);
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-两个数组分别统计行列增量，最后相加确认单元格奇偶
-![leetcode1252.jpg](https://pic.leetcode-cn.com/a66a72d61882a246a6c2a9b0eb3d1c8d5899731b4a625e3536ed1b10e748f119-leetcode1252.jpg)
+// ### 解题思路
+// 两个数组分别统计行列增量，最后相加确认单元格奇偶
+// ![leetcode1252.jpg](https://pic.leetcode-cn.com/a66a72d61882a246a6c2a9b0eb3d1c8d5899731b4a625e3536ed1b10e748f119-leetcode1252.jpg)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -37,4 +37,4 @@ var oddCells = function(n, m, indices) {
     }
     return count
 };
-```
+// ```

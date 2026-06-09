@@ -1,6 +1,6 @@
-递归
+// 递归
 
-```js
+// ```js
 var gcdOfStrings = function (str1, str2) {
     let len1 = str1.length;
     let len2 = str2.length;
@@ -18,4 +18,4 @@ var gcdOfStrings = function (str1, str2) {
         return gcdOfStrings(temp, str1)
     }
 };
-```
+// ```

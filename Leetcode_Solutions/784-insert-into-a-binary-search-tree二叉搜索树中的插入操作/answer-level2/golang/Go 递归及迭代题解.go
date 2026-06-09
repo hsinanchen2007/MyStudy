@@ -1,6 +1,6 @@
-1. 递归解法
+// 1. 递归解法
 
-```Go []
+// ```Go []
 func insertIntoBSTV1(root *TreeNode, val int) *TreeNode {
 	if root == nil {
 		return nil
@@ -20,11 +20,11 @@ func insertIntoBSTV1(root *TreeNode, val int) *TreeNode {
 	}
 	return root
 }
-```
+// ```
 
-2. 迭代解法
+// 2. 迭代解法
 
-```Go []
+// ```Go []
 func insertIntoBST(root *TreeNode, val int) *TreeNode {
 	if root == nil {
 		return nil
@@ -49,6 +49,6 @@ func insertIntoBST(root *TreeNode, val int) *TreeNode {
 	}
 	return root
 }
-```
+// ```
 
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

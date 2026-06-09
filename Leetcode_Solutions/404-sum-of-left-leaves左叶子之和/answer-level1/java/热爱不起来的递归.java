@@ -1,9 +1,9 @@
-### 解题思路
-递归很优雅，但是总是用不太好，可能熟能生巧，这个题目的递归写的还可以，清晰。
+// ### 解题思路
+// 递归很优雅，但是总是用不太好，可能熟能生巧，这个题目的递归写的还可以，清晰。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         calSum(root.right,false);
     }
 }
-```
+// ```

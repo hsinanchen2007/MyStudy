@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self,matrix,target):
         if matrix==[] or matrix[-1]==[]:return False
@@ -22,4 +22,4 @@ class Solution:
                 r=mid-1
                 mid=int((l+r)/2)
         return False
-```
+# ```

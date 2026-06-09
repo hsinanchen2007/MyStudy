@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int count(const vector<vector<int>>& matrix, const vector<int> first_col, int num) {
@@ -30,6 +30,6 @@ public:
         return lo;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/2f34aa4e76e82f0892204e449f66a7521cc30f5b0298d43ca73c29b71d3b3a30-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2f34aa4e76e82f0892204e449f66a7521cc30f5b0298d43ca73c29b71d3b3a30-image.png)

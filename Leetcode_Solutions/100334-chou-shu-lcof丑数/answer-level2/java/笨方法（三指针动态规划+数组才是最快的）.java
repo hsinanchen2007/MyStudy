@@ -1,10 +1,10 @@
-### 解题思路
-List+寻找丑数的方法
-用数组和指针是最快的
-用三个指针记录增长的增长头部位置，只要比较头部三个值中的最小值就可以了。
-### 代码
+// ### 解题思路
+// List+寻找丑数的方法
+// 用数组和指针是最快的
+// 用三个指针记录增长的增长头部位置，只要比较头部三个值中的最小值就可以了。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int nthUglyNumber(int n) {
         List<Integer> list = new ArrayList<>(n);
@@ -41,4 +41,4 @@ class Solution {
         list.add(Math.min(Math.min(a,b),c));
     }
 }
-```
+// ```

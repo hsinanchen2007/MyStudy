@@ -1,8 +1,8 @@
-**Java DFS(深度优先)**
-[我的github](https://github.com/epochong)
-- LeetCode的坑,将函数名称写成static不然会出现一些奇奇怪怪的错误
-- 下面是深度优先算法
-```
+// **Java DFS(深度优先)**
+// [我的github](https://github.com/epochong)
+// - LeetCode的坑,将函数名称写成static不然会出现一些奇奇怪怪的错误
+// - 下面是深度优先算法
+// ```
 class Solution {
     public int sum = 0;
     public Map<Integer,Employee> map = new HashMap <>();
@@ -27,4 +27,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

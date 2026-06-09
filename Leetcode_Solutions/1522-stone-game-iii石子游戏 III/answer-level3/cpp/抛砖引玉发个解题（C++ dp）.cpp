@@ -1,8 +1,8 @@
-和之前做过的一道很像[486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)
+// 和之前做过的一道很像[486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)
 
-如果你能理解上一道题，那么这道题很容易想到用dp了
+// 如果你能理解上一道题，那么这道题很容易想到用dp了
 
-```c++
+// ```c++
 class Solution {
 public:
 	string stoneGameIII(vector<int>& stoneValue) {
@@ -32,4 +32,4 @@ public:
 		else return "Tie";
 	}
 };
-```
+// ```

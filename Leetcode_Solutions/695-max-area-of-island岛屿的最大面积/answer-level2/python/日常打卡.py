@@ -1,9 +1,9 @@
-### 解题思路
-依次遍历，将遍历过的节点标记，避免重复标记
+# ### 解题思路
+# 依次遍历，将遍历过的节点标记，避免重复标记
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
 
@@ -27,4 +27,4 @@ class Solution:
                 self.addArea(grid,i+1,j)
                 self.addArea(grid,i-1,j)
 
-```
+# ```

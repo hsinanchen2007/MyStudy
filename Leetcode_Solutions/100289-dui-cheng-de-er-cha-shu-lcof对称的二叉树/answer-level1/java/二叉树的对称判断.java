@@ -1,9 +1,9 @@
-### 解题思路
-类似于二叉树的镜像，需要注意的是终止条件的判断
+// ### 解题思路
+// 类似于二叉树的镜像，需要注意的是终止条件的判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return isDuicheng(A.left,B.right)&&isDuicheng(A.right,B.left);
     }
 }
-```
+// ```

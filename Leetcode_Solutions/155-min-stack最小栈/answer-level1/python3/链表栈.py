@@ -1,5 +1,5 @@
-Python 时间93%，空间98%
-```
+# Python 时间93%，空间98%
+# ```
 class MinStack:
 
     def __init__(self):
@@ -40,13 +40,13 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-```
+# ```
 
 
-C 时间66%，空间95%
-由于不确定总大小，所以使用链表而不是列表。一开始想到了反向链表，但是反向链表头指针会动，必须传二级指针进去；但题目只能传一级指针。
-后来才想到声明一个栈结构，专门存头指针。
-```
+# C 时间66%，空间95%
+# 由于不确定总大小，所以使用链表而不是列表。一开始想到了反向链表，但是反向链表头指针会动，必须传二级指针进去；但题目只能传一级指针。
+# 后来才想到声明一个栈结构，专门存头指针。
+# ```
 struct minStackNode{
     struct minStackNode* last;
     int val;
@@ -115,4 +115,4 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
+# ```

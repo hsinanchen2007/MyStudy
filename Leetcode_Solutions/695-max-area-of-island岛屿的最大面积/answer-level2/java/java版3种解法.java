@@ -1,12 +1,12 @@
-[TOC]
+// [TOC]
 
-## 解法一：深度优先遍历(递归实现)
-### 解题思路
-通过递归实现深度优先遍历
+// ## 解法一：深度优先遍历(递归实现)
+// ### 解题思路
+// 通过递归实现深度优先遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int maxAreaOfIsland(int[][] grid) {
@@ -40,14 +40,14 @@ class Solution {
         return upMaxArea + downMaxArea + leftMaxArea + rightMaxArea + 1;
     }
 }
-```
-## 解法二：深度优先遍历(栈实现)
-### 解题思路
-通过栈实现深度优先遍历，和解法一类似，只是把递归变为了栈。
+// ```
+// ## 解法二：深度优先遍历(栈实现)
+// ### 解题思路
+// 通过栈实现深度优先遍历，和解法一类似，只是把递归变为了栈。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int maxAreaOfIsland(int[][] grid) {
@@ -82,14 +82,14 @@ class Solution {
 
 }
 
-```
-## 解法三：广度优先遍历(队列实现)
-### 解题思路
-基于解法二的变种，把栈替换为队列。
+// ```
+// ## 解法三：广度优先遍历(队列实现)
+// ### 解题思路
+// 基于解法二的变种，把栈替换为队列。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int maxAreaOfIsland(int[][] grid) {
@@ -126,4 +126,4 @@ class Solution {
     }
 
 }
-```
+// ```

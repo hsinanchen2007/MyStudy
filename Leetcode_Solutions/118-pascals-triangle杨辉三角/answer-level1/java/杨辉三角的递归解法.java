@@ -1,7 +1,7 @@
 
-在杨辉三角中，下一行的每个数是在上一行中它的左上和右上两数之和，很明显可以采用“递归”的方法来解决，代码如下：
+// 在杨辉三角中，下一行的每个数是在上一行中它的左上和右上两数之和，很明显可以采用“递归”的方法来解决，代码如下：
 
-```
+// ```
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

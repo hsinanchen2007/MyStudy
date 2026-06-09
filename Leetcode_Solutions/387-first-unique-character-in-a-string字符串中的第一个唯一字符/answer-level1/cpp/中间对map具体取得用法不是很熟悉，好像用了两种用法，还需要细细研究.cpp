@@ -1,4 +1,4 @@
-```
+// ```
         vector<char>  temp;
         unordered_map<char,int> mymap;
         for(auto i:s)
@@ -16,4 +16,4 @@
             if(mymap[temp[i]]==1)
                 return s.find(temp[i]);
         return -1;
-```
+// ```

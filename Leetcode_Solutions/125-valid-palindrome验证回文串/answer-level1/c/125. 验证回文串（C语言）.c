@@ -1,6 +1,6 @@
-# 125. 验证回文串
-两个指针的方法，遍历数组
-```
+// # 125. 验证回文串
+// 两个指针的方法，遍历数组
+// ```
 bool isPalindrome(char * s){
 	int left = 0;
 	int right = strlen(s) - 1;
@@ -40,6 +40,6 @@ bool isPalindrome(char * s){
 	return true;
 }
 }
-```
+// ```
 
-想问一下:为什么必须把char * s 拷贝一下 ，而不能直接使用s[i]修改数组的值呢？
+// 想问一下:为什么必须把char * s 拷贝一下 ，而不能直接使用s[i]修改数组的值呢？

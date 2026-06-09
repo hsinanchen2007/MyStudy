@@ -1,10 +1,10 @@
-### 解题思路
-常数的空间，就想到指针了。
-![微信图片_20200128195955.jpg](https://pic.leetcode-cn.com/618f8dfcb784d95a45e8c28961c39024be751d0bacedbc070faf9b89447ecb8a-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200128195955.jpg)
+# ### 解题思路
+# 常数的空间，就想到指针了。
+# ![微信图片_20200128195955.jpg](https://pic.leetcode-cn.com/618f8dfcb784d95a45e8c28961c39024be751d0bacedbc070faf9b89447ecb8a-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200128195955.jpg)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
         prehead = ListNode(-1)
@@ -30,4 +30,4 @@ class Solution:
                 p_list[i].next = p_list[i-1]
             p = p_list[0]
         return prehead.next
-```
+# ```

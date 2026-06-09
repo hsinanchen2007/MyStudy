@@ -1,10 +1,10 @@
-### 解题思路
-这道题思路来源于以下：
-https://leetcode-cn.com/problems/roman-to-integer/solution/cyu-yan-shi-xian-jian-dan-ming-liao-by-187022/
+// ### 解题思路
+// 这道题思路来源于以下：
+// https://leetcode-cn.com/problems/roman-to-integer/solution/cyu-yan-shi-xian-jian-dan-ming-liao-by-187022/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int len = strlen(s);    //先获取字符串长度
     if(len == 0) return 0;
@@ -31,11 +31,11 @@ int romanToInt(char * s){
   
     
 }
-```
-###总结
-为什么想不到用switch语句？
-首先，对字符串数组的操作不熟练，拿到题目之后看到*s，人是蒙的，不知道怎么下手。
-以后遇到多种不同情况分类进行的时候，优先使用switch分支语句，根据不同的情况进行讨论。
+// ```
+// ###总结
+// 为什么想不到用switch语句？
+// 首先，对字符串数组的操作不熟练，拿到题目之后看到*s，人是蒙的，不知道怎么下手。
+// 以后遇到多种不同情况分类进行的时候，优先使用switch分支语句，根据不同的情况进行讨论。
 
-###疑问
-为什么我的执行时间是12ms，参考案例是0ms，这之间的区别来自于我在switch语句里面的顺序不一样。
+// ###疑问
+// 为什么我的执行时间是12ms，参考案例是0ms，这之间的区别来自于我在switch语句里面的顺序不一样。

@@ -1,10 +1,10 @@
-### 解题思路
-查看前後花壇位置是否為0，單獨討論首尾花壇位置。
-注意使用固定數組時考慮數組大小，前提爲size()大於2才可使用flowerbad[1]
+// ### 解题思路
+// 查看前後花壇位置是否為0，單獨討論首尾花壇位置。
+// 注意使用固定數組時考慮數組大小，前提爲size()大於2才可使用flowerbad[1]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -34,4 +34,4 @@ public:
         return false;
     }
 };
-```
+// ```

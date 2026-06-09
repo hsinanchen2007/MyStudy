@@ -1,6 +1,6 @@
-空间性能和时间性能都不太彳亍的方法，适合笔试的时候大脑一片空白时使用，建议A后看看其他题解的正常思路。。。
+# 空间性能和时间性能都不太彳亍的方法，适合笔试的时候大脑一片空白时使用，建议A后看看其他题解的正常思路。。。
 
-```python
+# ```python
 class Solution:
 
     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
@@ -27,4 +27,4 @@ class Solution:
             return node
         return build(res)
 
-```
+# ```

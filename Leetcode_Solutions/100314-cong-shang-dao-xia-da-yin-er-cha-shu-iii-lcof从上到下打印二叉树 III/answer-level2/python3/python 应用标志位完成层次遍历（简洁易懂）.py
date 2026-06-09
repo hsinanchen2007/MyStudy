@@ -1,11 +1,11 @@
-### 解题思路
-使用flag标志位，当1，3，5，7等奇数层时flag为True,按正序放入列表
-当2，4，6等偶数层时，flag为False,按照反序放入列表
+# ### 解题思路
+# 使用flag标志位，当1，3，5，7等奇数层时flag为True,按正序放入列表
+# 当2，4，6等偶数层时，flag为False,按照反序放入列表
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
 
             res.append(tmp)
         return res
-```
+# ```

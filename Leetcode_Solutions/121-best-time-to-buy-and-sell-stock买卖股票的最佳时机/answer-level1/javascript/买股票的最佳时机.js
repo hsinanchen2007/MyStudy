@@ -1,5 +1,5 @@
-1. 暴力破解
-```javascript
+// 1. 暴力破解
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -14,13 +14,13 @@ var maxProfit = function(prices) {
        }
        return max < 0 ? 0 : max;
 };
-```
-时间复杂度：O(n^2)。循环运行 n(n−1)/2 次。
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n^2)。循环运行 n(n−1)/2 次。
+// 空间复杂度：O(1)
 
-2.  动态规划
-只需要找到股票的最低点买入，然后求在最低点买入之后的最大值就行了
-```javascript
+// 2.  动态规划
+// 只需要找到股票的最低点买入，然后求在最低点买入之后的最大值就行了
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -35,6 +35,6 @@ let minPrice = Infinity;
     }
     return max < 0 ? 0 : max;
 }
-```
-时间复杂度：O(n)，只需要遍历一次。
-空间复杂度：O(1)，只使用了两个变量。
+// ```
+// 时间复杂度：O(n)，只需要遍历一次。
+// 空间复杂度：O(1)，只使用了两个变量。

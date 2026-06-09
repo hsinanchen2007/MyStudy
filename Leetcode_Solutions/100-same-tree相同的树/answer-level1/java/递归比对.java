@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-比对两个节点（不为null且val相等，或者都为null），然后递归比对左右子树。
+// 比对两个节点（不为null且val相等，或者都为null），然后递归比对左右子树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_SIZE (2010)
 
 int g_nums[MAX_SIZE];
@@ -30,4 +30,4 @@ bool uniqueOccurrences(int* arr, int arrSize)
     }
     return true;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-C语言 分情况讨论
+// ### 解题思路
+// C语言 分情况讨论
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int little(int a,int b) 
 {
@@ -68,4 +68,4 @@ int movesToMakeZigzag(int* nums, int numsSize){
         return odd;
     }
 }
-```
+// ```

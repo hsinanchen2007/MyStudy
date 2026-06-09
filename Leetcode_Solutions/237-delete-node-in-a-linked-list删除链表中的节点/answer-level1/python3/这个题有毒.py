@@ -1,9 +1,9 @@
-### 解题思路
-这个题有毒
+# ### 解题思路
+# 这个题有毒
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
         :rtype: void Do not return anything, modify node in-place instead.
         """
         node.val,node.next=node.next.val,node.next.next
-```
+# ```

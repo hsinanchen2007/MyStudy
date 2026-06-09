@@ -1,9 +1,9 @@
-### 解题思路
-设置一个变量flag，初始为true，当递归中发现左右子树的高度差大于1时，将变量改为false。
+# ### 解题思路
+# 设置一个变量flag，初始为true，当递归中发现左右子树的高度差大于1时，将变量改为false。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
 
         height(root)
         return self.flag
-```
+# ```

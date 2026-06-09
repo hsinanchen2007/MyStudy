@@ -1,6 +1,6 @@
-一次遍历O(n)
+// 一次遍历O(n)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -38,4 +38,4 @@ var btreeGameWinningMove = function(root, n, x) {
 
     return res;
 };
-```
+// ```

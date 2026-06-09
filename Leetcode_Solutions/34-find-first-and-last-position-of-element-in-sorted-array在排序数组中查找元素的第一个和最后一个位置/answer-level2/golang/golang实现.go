@@ -1,4 +1,4 @@
-```
+// ```
 func searchRange(nums []int, target int) []int {
     //1. 寻找左边界
     l := 0
@@ -33,4 +33,4 @@ func searchRange(nums []int, target int) []int {
     
     return  []int{l, r1}
 }
-```
+// ```

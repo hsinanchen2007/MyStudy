@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func sortedSquares(_ A: [Int]) -> [Int] {
         var a = A
@@ -9,4 +9,4 @@ class Solution {
         return a
     }
 }
-```
+// ```

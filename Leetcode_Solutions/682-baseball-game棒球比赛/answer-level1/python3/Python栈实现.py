@@ -1,5 +1,5 @@
-这题比较简单，用栈，计算每轮分数入栈，最后求和即可
-```
+# 这题比较简单，用栈，计算每轮分数入栈，最后求和即可
+# ```
 class Solution:
     def calPoints(self, ops: List[str]) -> int:        
         stack = []
@@ -15,5 +15,5 @@ class Solution:
             else:
                 stack.append(int(i))    
         return sum(stack)
-```
+# ```
    

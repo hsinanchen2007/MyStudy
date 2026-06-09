@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -16,4 +16,4 @@ var reverse = function(x) {
     }
     return (s>m-1||s<-m)? 0 : s;
 };
-```
+// ```

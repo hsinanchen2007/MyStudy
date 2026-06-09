@@ -1,11 +1,11 @@
 
-![捕获.JPG](https://pic.leetcode-cn.com/fdffa9ebd81a39a0619f8382a8c8fbb61cc967d0cd89221b52362bab1edaedaa-%E6%8D%95%E8%8E%B7.JPG)
+// ![捕获.JPG](https://pic.leetcode-cn.com/fdffa9ebd81a39a0619f8382a8c8fbb61cc967d0cd89221b52362bab1edaedaa-%E6%8D%95%E8%8E%B7.JPG)
 
-直接计算出上界范围，然后用双指针
+// 直接计算出上界范围，然后用双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         res=[]
@@ -12,4 +12,4 @@ class Solution:
         for j in range(15,n+1,15):
             res[j-1]="FizzBuzz"
         return res
-```
+# ```

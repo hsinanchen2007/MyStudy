@@ -1,4 +1,4 @@
-```go
+// ```go
 package Leetcode_1091
 
 func shortestPathBinaryMatrix(grid [][]int) int {
@@ -52,4 +52,4 @@ func shortestPathBinaryMatrix(grid [][]int) int {
 func inArea(x, y, R, C int) bool {
 	return x >= 0 && x < R && y >= 0 && y < C
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先求出链表的长度，然后计算从前数第多少个。然后返回就可以了
+// ### 解题思路
+// 先求出链表的长度，然后计算从前数第多少个。然后返回就可以了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

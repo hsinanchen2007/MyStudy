@@ -1,9 +1,9 @@
-## 思路一：自上到下
+// ## 思路一：自上到下
 
-### 代码
-时间复杂度：O(n^2)
-空间复杂度：O(nlogn)
-```c++
+// ### 代码
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(nlogn)
+// ```c++
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -26,13 +26,13 @@ public:
         return max(left, right)+1;
     }
 };
-```
+// ```
 
-## 思路二：自下到上
+// ## 思路二：自下到上
 
-### 代码
-时间复杂度：O(n)
-```c++
+// ### 代码
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -60,4 +60,4 @@ public:
         return max(left, right)+1;
     }
 };
-```
+// ```

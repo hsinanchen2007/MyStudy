@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，
-很容易超时，要把能够减少运算的方式都考虑一下。
-### 代码
+// ### 解题思路
+// 暴力解法，
+// 很容易超时，要把能够减少运算的方式都考虑一下。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int orderOfLargestPlusSign(int N, int[][] mines) {
         int maxResult = 0;
@@ -77,4 +77,4 @@ class Solution {
         return rightDFS(map, N, curX, curY+1)+1;
     }
 }
-```
+// ```

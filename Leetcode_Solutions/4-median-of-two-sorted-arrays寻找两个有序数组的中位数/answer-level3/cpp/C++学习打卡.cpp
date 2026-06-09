@@ -1,9 +1,9 @@
-### 解题思路
-看了题解大佬的思路自己仿照学习了一遍
+// ### 解题思路
+// 看了题解大佬的思路自己仿照学习了一遍
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 
 public:
@@ -34,4 +34,4 @@ public:
 		return static_cast<double>(max(LMax1, LMax2) + min(RMin1, RMin2)) / 2;
 	}
 };
-```
+// ```

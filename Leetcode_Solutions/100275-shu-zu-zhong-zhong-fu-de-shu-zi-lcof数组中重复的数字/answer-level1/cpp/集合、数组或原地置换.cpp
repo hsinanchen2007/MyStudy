@@ -1,5 +1,5 @@
-第一种方法：用集合
-```python3 []
+// 第一种方法：用集合
+// ```python3 []
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         S = set()
@@ -7,8 +7,8 @@ class Solution:
             if n in S:
                 return n
             S.add(n)
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -21,8 +21,8 @@ public:
         return -1;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findRepeatNumber(int[] nums) {
         Set<Integer> S = new HashSet<Integer>();
@@ -34,10 +34,10 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-第二种方法：用数组标记
-```python3 []
+// 第二种方法：用数组标记
+// ```python3 []
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         L = [False] * len(nums)
@@ -45,8 +45,8 @@ class Solution:
             if L[n]:
                 return n
             L[n] = True
-```
-```c []
+// ```
+// ```c []
 int findRepeatNumber(int* nums, int numsSize){
     bool *hash = (bool *) malloc(numsSize * sizeof(bool));
     memset(hash, 0, numsSize * sizeof(bool));
@@ -57,8 +57,8 @@ int findRepeatNumber(int* nums, int numsSize){
     }
     return -1;
 }
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -72,10 +72,10 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-第三种方法：原地置换
-```python3 []
+// 第三种方法：原地置换
+// ```python3 []
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         for i in range(len(nums)):
@@ -83,8 +83,8 @@ class Solution:
                 if nums[i] == nums[nums[i]]:
                     return nums[i]
                 nums[nums[i]], nums[i] = nums[i], nums[nums[i]]
-```
-```c []
+// ```
+// ```c []
 int findRepeatNumber(int* nums, int numsSize){
     int n;
     for (int i = 0; i < numsSize; i++) {
@@ -99,8 +99,8 @@ int findRepeatNumber(int* nums, int numsSize){
     }
     return -1;
 }
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -115,4 +115,4 @@ public:
         return -1;
     }
 };
-```
+// ```

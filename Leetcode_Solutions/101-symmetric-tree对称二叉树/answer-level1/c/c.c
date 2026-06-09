@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-注意迭代对称性。
+// ### 解题思路
+// 此处撰写解题思路
+// 注意迭代对称性。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ bool isSymmetric(struct TreeNode* root){
 
     return find(root->left, root->right);
 }
-```
+// ```

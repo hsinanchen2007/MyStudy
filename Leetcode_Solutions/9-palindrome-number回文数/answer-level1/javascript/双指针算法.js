@@ -1,10 +1,10 @@
-/**
- * @param {number} x
- * @return {boolean}
- */
+// /**
+//  * @param {number} x
+//  * @return {boolean}
+//  */
 
-//双指针算法
-```
+// //双指针算法
+// ```
 var isPalindrome = function(x){
     if(x < 0) return false;
     let param = x.toString().split('');
@@ -15,4 +15,4 @@ var isPalindrome = function(x){
     }
     return true;
 }
-```
+// ```

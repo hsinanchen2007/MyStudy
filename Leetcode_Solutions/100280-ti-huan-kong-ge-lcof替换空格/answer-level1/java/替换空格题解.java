@@ -1,9 +1,9 @@
-### 解题思路
-计算原字符串中空格数，数据扩容，双指针。具体请看注释，谢谢大家。
+// ### 解题思路
+// 计算原字符串中空格数，数据扩容，双指针。具体请看注释，谢谢大家。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         if(s == null || s.length() <= 0) {
@@ -43,4 +43,4 @@ class Solution {
         return String.valueOf(newStr);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.遍历链表获得长度
-2.再次遍历链表，数组从尾到头插入数据
-### 代码
+// ### 解题思路
+// 1.遍历链表获得长度
+// 2.再次遍历链表，数组从尾到头插入数据
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

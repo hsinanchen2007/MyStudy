@@ -1,9 +1,9 @@
-### 解题思路
-也可以用快排（没写明白……）
-sorted()应该就是快排~但是还是想尝试自己写一下~下次写吧
-### 代码
+# ### 解题思路
+# 也可以用快排（没写明白……）
+# sorted()应该就是快排~但是还是想尝试自己写一下~下次写吧
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         # Solution 1: x=[2,2,3,1]; y_pred=2; y_true=1
@@ -32,4 +32,4 @@ class Solution:
         #             nums[i], nums[idx] = nums[idx], nums[i]
         #             new_idx = i
         #     return nums, new_idx
-```
+# ```

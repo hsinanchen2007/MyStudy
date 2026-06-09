@@ -1,9 +1,9 @@
-### 解题思路
-按照分数排序，并保留原始的数字下标
+// ### 解题思路
+// 按照分数排序，并保留原始的数字下标
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct Node {
@@ -37,6 +37,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/64a0435b375c23723839492eeb3e8d859f0003d7228e3f7de29924455366b2e8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/64a0435b375c23723839492eeb3e8d859f0003d7228e3f7de29924455366b2e8-image.png)

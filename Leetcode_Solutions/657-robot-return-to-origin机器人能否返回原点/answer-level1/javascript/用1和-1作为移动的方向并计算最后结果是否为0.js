@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} moves
  * @return {boolean}
@@ -25,4 +25,4 @@ var judgeCircle = function(moves) {
     //如果垂直和水平移动的矢量相加结果是0即表示在起点
     return !cauculateCoord(vmoves, vmap) && !cauculateCoord(pmoves, pmap);
 };
-```
+// ```

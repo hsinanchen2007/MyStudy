@@ -1,10 +1,10 @@
-### 解题思路
-知乎大佬给出这道题的两种解法，还是觉得异或运算比较厉害，逼格更高
-https://zhuanlan.zhihu.com/p/104143304
+// ### 解题思路
+// 知乎大佬给出这道题的两种解法，还是觉得异或运算比较厉害，逼格更高
+// https://zhuanlan.zhihu.com/p/104143304
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] singleNumbers(int[] nums) {
         if(nums==null||nums.length==0){
@@ -31,4 +31,4 @@ class Solution {
         return new int[]{res1,res2};
     }
 }
-```
+// ```

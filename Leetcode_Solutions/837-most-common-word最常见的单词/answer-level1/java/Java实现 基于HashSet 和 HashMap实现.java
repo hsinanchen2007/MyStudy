@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         Set<String> set = new HashSet<>();
@@ -52,4 +52,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

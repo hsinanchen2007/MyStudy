@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define  MIXSIZE 2000
 typedef struct {
     int *e;
@@ -75,4 +75,4 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c5e866b588909bf34e26b744f8b16aa416b3cc43dfc6289d3cfa76ca40f15738-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c5e866b588909bf34e26b744f8b16aa416b3cc43dfc6289d3cfa76ca40f15738-image.png)
 
-```
+// ```
 class Solution {
 public:
     int waysToStep(int n) {
@@ -27,4 +27,4 @@ public:
         return c;
     }
 };
-```
+// ```

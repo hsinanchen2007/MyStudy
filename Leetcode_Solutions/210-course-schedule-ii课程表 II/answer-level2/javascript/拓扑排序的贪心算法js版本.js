@@ -1,5 +1,5 @@
 
-```
+// ```
 //  Greedy
 var findOrder = function(numCourses, prerequisites) {
     const inDegrees = Array(numCourses).fill(0);
@@ -31,4 +31,4 @@ var findOrder = function(numCourses, prerequisites) {
 
     return res;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-dorun 函数每层递归，i==n-1时添加答案，否则像下递归
-dorun2 判断当前位置是否符合Q的条件
+// dorun 函数每层递归，i==n-1时添加答案，否则像下递归
+// dorun2 判断当前位置是否符合Q的条件
 
-```
+// ```
     public class SolveNQueens {
     private List<List<String>> ans;
 
@@ -51,4 +51,4 @@ dorun2 判断当前位置是否符合Q的条件
         return true;
     }
   }
-```
+// ```

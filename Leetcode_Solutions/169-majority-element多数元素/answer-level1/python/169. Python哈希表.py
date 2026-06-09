@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表记录每个数字的出现次数即可。
+# ### 解题思路
+# 使用哈希表记录每个数字的出现次数即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -16,4 +16,4 @@ class Solution(object):
         for key, value in my_dict.items():
             if value > len(nums) // 2:
                 return key
-```
+# ```

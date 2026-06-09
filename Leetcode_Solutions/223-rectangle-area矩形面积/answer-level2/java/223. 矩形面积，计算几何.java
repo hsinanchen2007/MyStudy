@@ -1,13 +1,13 @@
-### 解题思路
-1. 计算重叠部分的矩形面积。
-    - 先计算两个矩形在`x轴`投影的重叠长度 `xOverLapLine`
-    - 再计算两个矩形在`y轴`投影的重叠长度 `yOverLapLine`
-    - 合并前两部的结果得到重叠矩形面积 `xOverLapLive * yOverLapLine`
-2. 两个矩形面积 - 重叠部分面积 得到结果。
+// ### 解题思路
+// 1. 计算重叠部分的矩形面积。
+//     - 先计算两个矩形在`x轴`投影的重叠长度 `xOverLapLine`
+//     - 再计算两个矩形在`y轴`投影的重叠长度 `yOverLapLine`
+//     - 合并前两部的结果得到重叠矩形面积 `xOverLapLive * yOverLapLine`
+// 2. 两个矩形面积 - 重叠部分面积 得到结果。
 
-### 代码2（更优雅的重叠判断）
+// ### 代码2（更优雅的重叠判断）
 
-```java
+// ```java
 class Solution {
     public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         int xOverLapLine = overLapLine(A, C, E, G);
@@ -26,10 +26,10 @@ class Solution {
         return maxLeft - minRight;
     }
 }
-```
+// ```
 
-### 代码1（原始的丑的重叠判断）
-```java
+// ### 代码1（原始的丑的重叠判断）
+// ```java
 class Solution {
     public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         int xOverLapLine = overLapLine(A, C, E, G);
@@ -46,4 +46,4 @@ class Solution {
         return Math.min(x2, x4) - x3;
     }
 }
-```
+// ```

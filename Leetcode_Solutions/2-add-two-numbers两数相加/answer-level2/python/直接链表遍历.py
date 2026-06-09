@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-如果l1 和l2 都为None了，那么直接退出循环，否则当l1或l2为none时，则直接将其赋值为ListNode(0)
-新链表的值直接相加即可
+# ### 解题思路
+# 此处撰写解题思路
+# 如果l1 和l2 都为None了，那么直接退出循环，否则当l1或l2为none时，则直接将其赋值为ListNode(0)
+# 新链表的值直接相加即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             
         
         
-```
+# ```

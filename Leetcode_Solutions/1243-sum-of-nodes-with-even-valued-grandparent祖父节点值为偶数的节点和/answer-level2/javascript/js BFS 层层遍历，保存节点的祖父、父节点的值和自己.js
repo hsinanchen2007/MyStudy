@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/ade685d1ea2b9a8fb12c4671ad9bc556e52c5e34574f55c4823414f0c020f963-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ade685d1ea2b9a8fb12c4671ad9bc556e52c5e34574f55c4823414f0c020f963-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   层次遍历二叉树，每个节点都保留着自己的父节点和祖父节点的值，如果祖父节点值为偶数，
   那么统计此节点的值
   
   队列中的每个元素结构[祖父节点的值，父节点的值，当前节点]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -52,4 +52,4 @@ var sumEvenGrandparent = function(root) {
   
   return count;
 };
-```
+// ```

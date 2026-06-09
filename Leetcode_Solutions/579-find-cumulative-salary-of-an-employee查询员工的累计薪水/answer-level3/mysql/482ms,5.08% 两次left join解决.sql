@@ -1,9 +1,9 @@
-### 解题思路
-虽然慢，但是还是记录下
+-- ### 解题思路
+-- 虽然慢，但是还是记录下
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -20,4 +20,4 @@ where (p.id,p.month) not in  (select id,max(month)  from Employee group by id)
 
 order by id,month desc
 
-```
+-- ```

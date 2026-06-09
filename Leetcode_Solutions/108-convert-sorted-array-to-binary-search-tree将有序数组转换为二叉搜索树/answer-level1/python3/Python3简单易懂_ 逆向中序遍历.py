@@ -1,10 +1,10 @@
-### 解题思路
-二叉搜索树, 如果用中序遍历, 生成的一定是一个升序列表.
-那么我们就反其道而行之, 取中间元素为根节点, 取左半边为左子树, 右半边为右子树.
+# ### 解题思路
+# 二叉搜索树, 如果用中序遍历, 生成的一定是一个升序列表.
+# 那么我们就反其道而行之, 取中间元素为根节点, 取左半边为左子树, 右半边为右子树.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         root = foo(nums, 0, len(nums) - 1)
         return root
             
-```
+# ```

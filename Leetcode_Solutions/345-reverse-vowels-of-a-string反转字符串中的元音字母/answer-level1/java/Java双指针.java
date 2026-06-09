@@ -1,7 +1,7 @@
-使用双指针，找到元音字母，然后交换；  
-执行用时 :2 ms, 在所有 Java 提交中击败了100.00%的用户    
-内存消耗 :36.3 MB, 在所有 Java 提交中击败了99.10%的用户    
-```java
+// 使用双指针，找到元音字母，然后交换；  
+// 执行用时 :2 ms, 在所有 Java 提交中击败了100.00%的用户    
+// 内存消耗 :36.3 MB, 在所有 Java 提交中击败了99.10%的用户    
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         char[] arr = s.toCharArray();
@@ -26,4 +26,4 @@ class Solution {
         }else{return false;}
     }
 }
-```
+// ```

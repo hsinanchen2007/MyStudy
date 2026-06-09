@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def wiggleSort(self, nums):
         """
@@ -11,4 +11,4 @@ class Solution(object):
                 nums[i],nums[i+1] = nums[i+1],nums[i]
 
         return 
-```
+# ```

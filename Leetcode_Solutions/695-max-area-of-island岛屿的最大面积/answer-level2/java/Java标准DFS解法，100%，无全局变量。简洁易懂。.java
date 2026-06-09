@@ -1,11 +1,11 @@
-### 解题思路
-超级简单的DFS思想。也叫做沉岛思想。可以解决任何此类问题
+// ### 解题思路
+// 超级简单的DFS思想。也叫做沉岛思想。可以解决任何此类问题
  
-![image.png](https://pic.leetcode-cn.com/cd996c4fdf75d4d4f9ab718104e0f25e51932e3528309a9d589f898713f32613-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cd996c4fdf75d4d4f9ab718104e0f25e51932e3528309a9d589f898713f32613-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int res = 0; 
@@ -35,4 +35,4 @@ class Solution {
         
     }
 }
-```
+// ```

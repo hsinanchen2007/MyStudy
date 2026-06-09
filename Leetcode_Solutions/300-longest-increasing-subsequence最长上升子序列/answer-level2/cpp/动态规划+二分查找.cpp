@@ -1,6 +1,6 @@
-借助一个数组，通过大小限制数组的长度，最后数组的长度即为最长上身子序列
+// 借助一个数组，通过大小限制数组的长度，最后数组的长度即为最长上身子序列
 
-```
+// ```
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -40,4 +40,4 @@ public:
         return dp.size();
     }
 };
-```
+// ```

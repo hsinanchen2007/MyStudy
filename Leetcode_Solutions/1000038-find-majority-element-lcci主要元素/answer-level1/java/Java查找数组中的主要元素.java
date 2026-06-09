@@ -1,11 +1,11 @@
-### 解题思路
-1.处理特殊情况返回值，数组为空，只有一个元素
-2.遍历数组，将数组的值作为Map的key值，value作为统计值出现的次数
-3.遍历Map，判断数组长度的一半和Map中每一个vlue的值，符合条件（value<mid）的value对应的key值就是要找的主要元素
+// ### 解题思路
+// 1.处理特殊情况返回值，数组为空，只有一个元素
+// 2.遍历数组，将数组的值作为Map的key值，value作为统计值出现的次数
+// 3.遍历Map，判断数组长度的一半和Map中每一个vlue的值，符合条件（value<mid）的value对应的key值就是要找的主要元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
             
@@ -37,4 +37,4 @@ class Solution {
 
     }
 }
-```
+// ```

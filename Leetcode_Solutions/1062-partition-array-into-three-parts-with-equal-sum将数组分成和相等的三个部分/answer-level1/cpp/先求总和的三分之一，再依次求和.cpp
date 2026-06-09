@@ -1,13 +1,13 @@
-### 解题思路
-先求出数组总和的三分之一x
-sum函数是求数组中从begin到end之和
-在主函数中，先求i，使得从0到i的和为x
-再求j，使得从i到j的和为x
-最后求j到数组最后一位的和，检查其是否等于x
+// ### 解题思路
+// 先求出数组总和的三分之一x
+// sum函数是求数组中从begin到end之和
+// 在主函数中，先求i，使得从0到i的和为x
+// 再求j，使得从i到j的和为x
+// 最后求j到数组最后一位的和，检查其是否等于x
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //getSum of the range of A：[begin,end)
@@ -46,4 +46,4 @@ public:
             return false;
     }
 };
-```
+// ```

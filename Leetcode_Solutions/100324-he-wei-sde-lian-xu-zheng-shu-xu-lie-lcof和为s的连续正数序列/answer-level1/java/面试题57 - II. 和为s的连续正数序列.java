@@ -1,9 +1,9 @@
-### 解题思路
-暴力破解
+// ### 解题思路
+// 暴力破解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
        if(target<3)
@@ -35,4 +35,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-8ms版本
-```
+// 8ms版本
+// ```
 public class Solution {
     public int longestOnes(int[] A, int K) {
         int i=0;//用来指向窗口起始位置
@@ -31,10 +31,10 @@ public class Solution {
         return ans;
     }
 }
-```
+// ```
 
-改用队列来实现，29ms
-```
+// 改用队列来实现，29ms
+// ```
 public class Solution {
     public int longestOnes(int[] A, int K) {
         int i=0,j=0;
@@ -59,4 +59,4 @@ public class Solution {
         return ans;
     }
 }
-```
+// ```

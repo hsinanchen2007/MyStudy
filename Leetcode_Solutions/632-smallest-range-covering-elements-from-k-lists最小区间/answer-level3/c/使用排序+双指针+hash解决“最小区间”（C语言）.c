@@ -1,26 +1,26 @@
-### 解题思路
-典型的hash和+双指针问题，排序是为了准备数据。
+// ### 解题思路
+// 典型的hash和+双指针问题，排序是为了准备数据。
 
-关键点：使用hash记录是否新增或减少列表数，判断条件为：增加后，hash[id] == 1,总列表数加一；减少后，hash[id] == 0,总列表数减一
+// 关键点：使用hash记录是否新增或减少列表数，判断条件为：增加后，hash[id] == 1,总列表数加一；减少后，hash[id] == 0,总列表数减一
 
-1.将数据和所属id使用结构体记录。
+// 1.将数据和所属id使用结构体记录。
 
-2.将数据排序
+// 2.将数据排序
 
-3.移动右指针，找到区间内所有列表齐全的位置
+// 3.移动右指针，找到区间内所有列表齐全的位置
 
-4.移动左指针，找到区间列表仍旧齐全的位置(最终位置为缺1个列表位置)
+// 4.移动左指针，找到区间列表仍旧齐全的位置(最终位置为缺1个列表位置)
 
-5.该区间如果最小，刷新结果
+// 5.该区间如果最小，刷新结果
 
-6.返回3进行迭代
+// 6.返回3进行迭代
 
-![image.png](https://pic.leetcode-cn.com/38957b5ae487262d0f4dd553b9683d7b4ffd14102a2bb6b51b5febb6bb5e8801-image.png)
+// ![image.png](https://pic.leetcode-cn.com/38957b5ae487262d0f4dd553b9683d7b4ffd14102a2bb6b51b5febb6bb5e8801-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -146,4 +146,4 @@ int* smallestRange(int** nums, int numsSize, int* numsColSize, int* returnSize){
     *returnSize = 2;
     return res;
 }
-```
+// ```

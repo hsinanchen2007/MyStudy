@@ -1,12 +1,12 @@
-### 解题思路
-- 使用一个数组来保存code编码
-- 挨个遍历，使用StringBuilder拼接
-- 放入HashSet集合
-- 返回HashSet的size
+// ### 解题思路
+// - 使用一个数组来保存code编码
+// - 挨个遍历，使用StringBuilder拼接
+// - 放入HashSet集合
+// - 返回HashSet的size
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         HashSet<String> set = new HashSet<>();
@@ -23,4 +23,4 @@ class Solution {
         return set.size();
     }
 }
-```
+// ```

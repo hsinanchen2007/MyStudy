@@ -1,10 +1,10 @@
-### 解题思路
-四个指针分别为要反转链表的前驱和后驱，头结点和尾结点
-特判一下m==1的情况
+// ### 解题思路
+// 四个指针分别为要反转链表的前驱和后驱，头结点和尾结点
+// 特判一下m==1的情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

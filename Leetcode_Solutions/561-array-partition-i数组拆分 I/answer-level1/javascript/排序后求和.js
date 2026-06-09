@@ -1,9 +1,9 @@
-### 解题思路
-观察题目和示例，是将数组排序后，相邻2个数组成对，然后对每个数对的第一个数累计求和。
+// ### 解题思路
+// 观察题目和示例，是将数组排序后，相邻2个数组成对，然后对每个数对的第一个数累计求和。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -21,4 +21,4 @@ var arrayPairSum = function(nums) {
         return sum
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先求出链表长度，先较长的链表走到和较短的链表相同长度时，同时循环链表，如果有相同的节点，那么返回否则返回null；
+// ### 解题思路
+// 先求出链表长度，先较长的链表走到和较短的链表相同长度时，同时循环链表，如果有相同的节点，那么返回否则返回null；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -50,4 +50,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

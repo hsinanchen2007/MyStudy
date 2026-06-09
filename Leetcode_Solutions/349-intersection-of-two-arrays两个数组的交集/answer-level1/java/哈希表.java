@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表和集合。哈希表用作找到一样的元素，找到之后就把这个value置为0(区别于下一道题)。然后集合用作与存储元素，方便最后初始化数组。
+// ### 解题思路
+// 使用哈希表和集合。哈希表用作找到一样的元素，找到之后就把这个value置为0(区别于下一道题)。然后集合用作与存储元素，方便最后初始化数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         List<Integer> list = new ArrayList<>();
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

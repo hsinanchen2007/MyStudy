@@ -1,6 +1,6 @@
-通过分析，知道正确的二叉树是0结点没有被其它结点访问过，而且其他结点应该被访问一次。否则，就是不正确的二叉树。
+# 通过分析，知道正确的二叉树是0结点没有被其它结点访问过，而且其他结点应该被访问一次。否则，就是不正确的二叉树。
 
-```
+# ```
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild, rightChild) -> bool:
         def isValid(arr):
@@ -15,5 +15,5 @@ class Solution:
             if rightChild[i]>-1:
                 visit[rightChild[i]] +=1
         return isValid(visit)
-```
+# ```
 

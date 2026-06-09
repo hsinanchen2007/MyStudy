@@ -1,5 +1,5 @@
-妈的看错题了，返回了排列后的数组，用的方法巨蠢无比
-```
+// 妈的看错题了，返回了排列后的数组，用的方法巨蠢无比
+// ```
     let arr = s.split('')
     if(arr.length === 1) return 1
     arr.sort()
@@ -21,4 +21,4 @@
     }
     if(ifasdas === 0 && arr.length % 2 !== 0)return stack.length+1
     return stack.length
-```
+// ```

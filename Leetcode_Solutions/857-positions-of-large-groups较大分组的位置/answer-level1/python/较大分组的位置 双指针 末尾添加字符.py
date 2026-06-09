@@ -1,9 +1,9 @@
-### 解题思路
-末尾添加字符是为了满足当扫描走到最后仍没有出现字符不同的情况
+# ### 解题思路
+# 末尾添加字符是为了满足当扫描走到最后仍没有出现字符不同的情况
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def largeGroupPositions(self, S):
       S = S + '*'
@@ -20,4 +20,4 @@ class Solution(object):
           i = j
           j += 1
       return result
-```
+# ```

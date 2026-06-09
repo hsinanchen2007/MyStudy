@@ -1,6 +1,6 @@
-遍历整个字符串，计数L和R的数量,若LR相等且不为0则配对成功，结果加1。
+// 遍历整个字符串，计数L和R的数量,若LR相等且不为0则配对成功，结果加1。
 
-```
+// ```
 class Solution {
 public:
     int balancedStringSplit(string s) {
@@ -21,6 +21,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 

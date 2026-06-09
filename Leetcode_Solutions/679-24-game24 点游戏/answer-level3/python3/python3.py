@@ -1,6 +1,6 @@
-![679.jpg](https://pic.leetcode-cn.com/1bdcc219fc275312d8bd3968802612cd852e6ef65db53e249c2576009634c796-679.jpg)
+# ![679.jpg](https://pic.leetcode-cn.com/1bdcc219fc275312d8bd3968802612cd852e6ef65db53e249c2576009634c796-679.jpg)
 
-```
+# ```
 from operator import add,sub,mul
 from fractions import Fraction as div
 from itertools import permutations as perm
@@ -24,4 +24,4 @@ class Solution:
 						if p or q:
 							return True
 		return False
-```
+# ```

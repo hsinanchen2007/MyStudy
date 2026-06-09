@@ -1,8 +1,8 @@
-### 解题思路
-调用函数自身判断左子树和右子树的最大深度，然后+1
-### 代码
+// ### 解题思路
+// 调用函数自身判断左子树和右子树的最大深度，然后+1
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-思路：
-1、先将paragraph转成小写
-2、将paragraph中的符号用空格代替，并用split分隔paragraph
-3、用Counter统计个数
-4、对banned中的词进行判断
-```
+# 思路：
+# 1、先将paragraph转成小写
+# 2、将paragraph中的符号用空格代替，并用split分隔paragraph
+# 3、用Counter统计个数
+# 4、对banned中的词进行判断
+# ```
 class Solution:
     def mostCommonWord(self, paragraph, banned) -> str:
         banned = set(banned)
@@ -32,4 +32,4 @@ class Solution:
                     ss.remove(i)
       
         return ss[0][0]
-```
+# ```

@@ -1,6 +1,6 @@
-*法一：找到最大数的索引*
+// *法一：找到最大数的索引*
 
-```js
+// ```js
 var validMountainArray = function(A) {
     let max = A[0];
     let maxIndex = 0;
@@ -32,13 +32,13 @@ var validMountainArray = function(A) {
 
     }
 };
-```
+// ```
 
-*法二：双指针*
+// *法二：双指针*
 
-推荐
+// 推荐
 
-```js
+// ```js
 var validMountainArray = function(A) {
     let ALen = A.length
     if (ALen < 3) {
@@ -55,6 +55,6 @@ var validMountainArray = function(A) {
         return i === j
     }
 };
-```
+// ```
 
 

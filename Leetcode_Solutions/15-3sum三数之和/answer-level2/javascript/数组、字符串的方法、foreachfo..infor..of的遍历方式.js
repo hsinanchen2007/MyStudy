@@ -1,7 +1,7 @@
-### 超出时间限制的做法
-没有像[高赞](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-zhu-xing-jie-shi-python3-by/)一样考虑当有很多重复元素时，比如［0，0，0，0，0，....］
-应该当前后元素相等时跳过后面的元素，防止一直判断同样的元素，造成时间溢出
-```
+// ### 超出时间限制的做法
+// 没有像[高赞](https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-zhu-xing-jie-shi-python3-by/)一样考虑当有很多重复元素时，比如［0，0，0，0，0，....］
+// 应该当前后元素相等时跳过后面的元素，防止一直判断同样的元素，造成时间溢出
+// ```
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -64,7 +64,7 @@ function hasarr(arr, target) {
     }
     return false
 }
-```
-[for的各种循环方式](https://www.cnblogs.com/larrywang/p/10325988.html)
-[字符串的方法](https://www.runoob.com/js/js-strings.html)
-[数组的方法](https://www.runoob.com/jsref/jsref-obj-array.html)
+// ```
+// [for的各种循环方式](https://www.cnblogs.com/larrywang/p/10325988.html)
+// [字符串的方法](https://www.runoob.com/js/js-strings.html)
+// [数组的方法](https://www.runoob.com/jsref/jsref-obj-array.html)

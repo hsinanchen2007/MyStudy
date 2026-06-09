@@ -1,13 +1,13 @@
-### 解题思路
-暴力搞法：先让字符串等长，保存进位，最后去除左边的0
-执行用时: 24 ms
-内存消耗: 11.9 MB
+# ### 解题思路
+# 暴力搞法：先让字符串等长，保存进位，最后去除左边的0
+# 执行用时: 24 ms
+# 内存消耗: 11.9 MB
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def addBinary(self, a, b):
         if int(a) == 0:
@@ -39,4 +39,4 @@ class Solution(object):
         ret = ''.join(r_str).lstrip('0')
         return ret
 
-```
+# ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn k_closest(points: Vec<Vec<i32>>, k: i32) -> Vec<Vec<i32>> {
         let mut points = points;
@@ -6,5 +6,5 @@ impl Solution {
         points[..(k as usize)].to_vec()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

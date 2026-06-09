@@ -1,11 +1,11 @@
-### 解题思路
-先遍历一次，求出前缀和；后面计算数组和都使用前缀和相减计算。
-![图片.png](https://pic.leetcode-cn.com/82fc3e31f8c28d46bb4501391d80f11a5c16ac450f4875ed1a93c1e6d387c169-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 先遍历一次，求出前缀和；后面计算数组和都使用前缀和相减计算。
+// ![图片.png](https://pic.leetcode-cn.com/82fc3e31f8c28d46bb4501391d80f11a5c16ac450f4875ed1a93c1e6d387c169-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numOfSubarrays(vector<int>& arr, int k, int threshold) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

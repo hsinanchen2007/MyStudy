@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
  int get_cosum(int m,int n,int i,int j,vector<vector<int>>& board)
@@ -51,4 +51,4 @@ for(int i=0;i<m;i++)
 }
 }
 };
-```
+// ```

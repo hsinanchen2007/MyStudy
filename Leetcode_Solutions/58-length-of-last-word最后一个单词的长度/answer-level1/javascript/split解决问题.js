@@ -1,10 +1,10 @@
-### 解题思路
-trim 去除两边的space
-split后的最后一个字符串长度
+// ### 解题思路
+// trim 去除两边的space
+// split后的最后一个字符串长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 给定一个仅包含大小写字母和空格 ' ' 的字符串 s，返回其最后一个单词的长度。
 
@@ -18,4 +18,4 @@ var lengthOfLastWord = function(s) {
     let list = s.trim().split(' ');
     return list[list.length - 1].length;
 };
-```
+// ```

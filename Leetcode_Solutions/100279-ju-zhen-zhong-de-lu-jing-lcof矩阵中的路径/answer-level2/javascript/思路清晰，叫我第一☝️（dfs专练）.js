@@ -1,19 +1,19 @@
-### 解题思路
+// ### 解题思路
 
-思路清晰，叫我第一☝️（dfs专练）
+// 思路清晰，叫我第一☝️（dfs专练）
 
-此题，判断条件忘记加上
+// 此题，判断条件忘记加上
 
-```js
+// ```js
 board[i][j] == word[path.length]
-```
+// ```
 
-导致超时，需要注意下
+// 导致超时，需要注意下
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -54,4 +54,4 @@ var exist = function(board, word) {
     }
     return false
 };
-```
+// ```

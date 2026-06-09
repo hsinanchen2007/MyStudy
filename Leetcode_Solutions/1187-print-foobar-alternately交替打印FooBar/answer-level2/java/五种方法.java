@@ -1,7 +1,7 @@
-经过多次比较，最终思路三执行用时最少，其次是思路二只使用CyclicBarrier,再其次是思路一使用信号量，最后可重入锁和无锁这两种思路虽然结果正确但是用时超时
-### 思路一  信号量
-  信号量的思路实现较为简单且信号量的计数器不会自动重置，每次调用acquire()默认信号量为1或者acquire(int num)方法后都会将信号当前信号量与acquire的信号量相减的值设置为新的信号量。
-```java
+// 经过多次比较，最终思路三执行用时最少，其次是思路二只使用CyclicBarrier,再其次是思路一使用信号量，最后可重入锁和无锁这两种思路虽然结果正确但是用时超时
+// ### 思路一  信号量
+//   信号量的思路实现较为简单且信号量的计数器不会自动重置，每次调用acquire()默认信号量为1或者acquire(int num)方法后都会将信号当前信号量与acquire的信号量相减的值设置为新的信号量。
+// ```java
 class FooBar {
     private int n;
 
@@ -28,9 +28,9 @@ class FooBar {
         }
     }
 }
- ```
-### 思路二  只使用CyclicBarrier
-```java
+//  ```
+// ### 思路二  只使用CyclicBarrier
+// ```java
 class FooBar {
     private int n;
 
@@ -65,9 +65,9 @@ class FooBar {
         }
     }
 }
-```
-### 思路三  CyclicBarrier和CounDownLatch结合
-```java
+// ```
+// ### 思路三  CyclicBarrier和CounDownLatch结合
+// ```java
 import java.util.concurrent.CyclicBarrier;
 class FooBar {
     private int n;
@@ -110,11 +110,11 @@ class FooBar {
         }
     }
 }
-```
+// ```
 
-### 思路四  使用公平锁
+// ### 思路四  使用公平锁
 
-```java
+// ```java
 class FooBar {
     private int n;
 
@@ -156,10 +156,10 @@ class FooBar {
         }
     }
 }
-```
-### 思路五  无锁
-  无锁是线程自身不断自旋，没有其他方法那样有唤醒非执行状态的线程的途径，所以这种方法十分耗费资源，在执行了55个测试实例的时候就超时了，不可取，这里之所以写出来只是提供一种想法而已，在此题场景中并不可取。
-``` java
+// ```
+// ### 思路五  无锁
+//   无锁是线程自身不断自旋，没有其他方法那样有唤醒非执行状态的线程的途径，所以这种方法十分耗费资源，在执行了55个测试实例的时候就超时了，不可取，这里之所以写出来只是提供一种想法而已，在此题场景中并不可取。
+// ``` java
 class FooBar {
     private int n;
 
@@ -189,5 +189,5 @@ class FooBar {
         }
     }
 }
-```
+// ```
 

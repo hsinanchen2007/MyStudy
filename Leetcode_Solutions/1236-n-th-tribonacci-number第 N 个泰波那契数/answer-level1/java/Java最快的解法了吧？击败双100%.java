@@ -1,6 +1,6 @@
-算法不解释了，应该都能懂
+// 算法不解释了，应该都能懂
 
-```
+// ```
 class Solution {
     public int tribonacci(int n) {
         if (n < 2) return n;
@@ -16,4 +16,4 @@ class Solution {
         return t2;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
     public int minCost(int[][] costs) {
         if (costs == null || costs.length == 0) {
             return 0;
@@ -21,4 +21,4 @@
         return Math.min(Math.min(dp0, dp1), dp2);
 
     }
-```
+// ```

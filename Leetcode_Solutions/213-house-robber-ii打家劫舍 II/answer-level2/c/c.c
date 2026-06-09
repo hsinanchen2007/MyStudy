@@ -1,9 +1,9 @@
-### 解题思路
-...
+// ### 解题思路
+// ...
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int MaxNum(int num1, int num2)
 {
     if(num1 >= num2)
@@ -67,4 +67,4 @@ int rob(int* nums, int numsSize)
     b = GetMaxValue(temp, numsSize - 1);
     return MaxNum(a, b);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def hanota(self, A: List[int], B: List[int], C: List[int]) -> None:
         """
@@ -14,4 +14,4 @@ class Solution:
                 moveDisk(A, C)
                 moveTower(n-1, B, A, C)
         moveTower(n, A, B, C)
-```
+# ```

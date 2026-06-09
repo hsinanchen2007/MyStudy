@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1de6ded29be3c72c17cd35c0eb30a2dfe4860b5f5664c1edd4c97428e4192873-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1de6ded29be3c72c17cd35c0eb30a2dfe4860b5f5664c1edd4c97428e4192873-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -30,4 +30,4 @@ var isValid = function(s) {
     }
     return !stack.length;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-偷懒 直接排序
+// ### 解题思路
+// 偷懒 直接排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 
 int cmp(const void *a, const void *b) 
@@ -24,4 +24,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize) {
     *returnSize = numsSize;
 	return nums;
 }
-```
+// ```

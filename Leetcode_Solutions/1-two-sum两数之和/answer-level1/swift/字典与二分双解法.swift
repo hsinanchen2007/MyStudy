@@ -1,9 +1,9 @@
-### 解题思路
-字典 与 二分两种解法
-思路很简单，可以参考代码
-### 代码
+// ### 解题思路
+// 字典 与 二分两种解法
+// 思路很简单，可以参考代码
+// ### 代码
 
-```swift
+// ```swift
 //字典解法
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -19,9 +19,9 @@ class Solution {
         return result
     }
 }
-```
+// ```
 
-```swift
+// ```swift
 //二分解法
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -41,4 +41,4 @@ class Solution {
         return []
     }
 }
-```
+// ```

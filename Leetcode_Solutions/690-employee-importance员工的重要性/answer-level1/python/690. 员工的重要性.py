@@ -1,9 +1,9 @@
-### 解题思路
-类似于二叉搜索树的搜索，先找到与员工id 对应的根节点，然后寻找子节点
+# ### 解题思路
+# 类似于二叉搜索树的搜索，先找到与员工id 对应的根节点，然后寻找子节点
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Employee info
 class Employee(object):
     def __init__(self, id, importance, subordinates):
@@ -34,4 +34,4 @@ class Solution(object):
             return cur
         return addsum(employees,id)
 
-```
+# ```

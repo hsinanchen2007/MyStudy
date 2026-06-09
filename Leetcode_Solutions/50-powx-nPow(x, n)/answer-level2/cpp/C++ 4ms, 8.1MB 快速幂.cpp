@@ -1,11 +1,11 @@
-### 解题思路
-快速幂模板题
+// ### 解题思路
+// 快速幂模板题
 
-![image.png](https://pic.leetcode-cn.com/02661151ab594a538abe78e9184f6b660259c412add23d1ff1888c9810bb8916-image.png)
+// ![image.png](https://pic.leetcode-cn.com/02661151ab594a538abe78e9184f6b660259c412add23d1ff1888c9810bb8916-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

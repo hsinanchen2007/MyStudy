@@ -1,4 +1,4 @@
-```
+// ```
 func removeStones(stones [][]int) int {
 	visited := make(map[int]map[int]bool)
 	xm := make(map[int][]int)
@@ -42,4 +42,4 @@ func dfs(x, y int, xm, ym map[int][]int, visited map[int]map[int]bool) {
 	}
 }
 
-```
+// ```

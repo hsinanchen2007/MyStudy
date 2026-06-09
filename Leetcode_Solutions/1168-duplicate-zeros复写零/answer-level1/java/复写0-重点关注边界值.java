@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-待补充
+// 待补充
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public void duplicateZeros(int[] arr) {
@@ -36,4 +36,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

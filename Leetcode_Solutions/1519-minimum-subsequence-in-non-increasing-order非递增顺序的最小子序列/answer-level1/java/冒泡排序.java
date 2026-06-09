@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1.冒泡排序 由大到小
-2.循环  依次比较 是否大于剩余值。若大于返回；否则，与下一个相加，继续比较。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.冒泡排序 由大到小
+// 2.循环  依次比较 是否大于剩余值。若大于返回；否则，与下一个相加，继续比较。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> minSubsequence(int[] nums) {
         List<Integer> reslutSort = new ArrayList<>();
@@ -48,4 +48,4 @@ class Solution {
         return reslutSort;
     }
 }
-```
+// ```

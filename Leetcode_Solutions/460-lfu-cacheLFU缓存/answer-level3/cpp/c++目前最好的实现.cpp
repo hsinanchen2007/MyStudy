@@ -1,9 +1,9 @@
-![捕获.PNG](https://pic.leetcode-cn.com/4fd2e643c385d7f35016e73420c46b8e94beb2f23ee5360d64849f1313930140-%E6%8D%95%E8%8E%B7.PNG)
-关键数据结构：
-1.一个key排序的kvMap;
-2.一个频率排序的feqMap,它的每一个value是LRU双链表。
+// ![捕获.PNG](https://pic.leetcode-cn.com/4fd2e643c385d7f35016e73420c46b8e94beb2f23ee5360d64849f1313930140-%E6%8D%95%E8%8E%B7.PNG)
+// 关键数据结构：
+// 1.一个key排序的kvMap;
+// 2.一个频率排序的feqMap,它的每一个value是LRU双链表。
 
-```
+// ```
 class LFUCache {
 private:
     int capacity;
@@ -90,4 +90,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

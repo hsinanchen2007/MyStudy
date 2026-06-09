@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/4885dc2ba56071262e21906fb0c90b5a634f35737e422b787eb7090defe20be1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4885dc2ba56071262e21906fb0c90b5a634f35737e422b787eb7090defe20be1-image.png)
 
 
 
-```
+// ```
 static auto pre =[] { std::ios::sync_with_stdio(false); cin.tie(nullptr); return nullptr;}();
 
 struct record {
@@ -41,4 +41,4 @@ public:
 private:
     map<int, record> records_;
 };
-```
+// ```

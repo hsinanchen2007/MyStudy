@@ -1,10 +1,10 @@
-### 解题思路
-观察可知，其本质就是找到断点，将链表分成两段，后一段的尾部链接前一段的头部。
-特殊情况单独考虑
+// ### 解题思路
+// 观察可知，其本质就是找到断点，将链表分成两段，后一段的尾部链接前一段的头部。
+// 特殊情况单独考虑
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     t->next=head;
     return b;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两次动态规划
+// ### 解题思路
+// 两次动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
        int a=0,b=0;
@@ -26,4 +26,4 @@ class Solution {
         return (sum1>sum2)?sum1:sum2;
     }
 }
-```
+// ```

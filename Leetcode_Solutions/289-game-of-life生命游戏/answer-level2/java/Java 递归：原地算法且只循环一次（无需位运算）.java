@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     static final int[][] dir = {{1, 1}, {1, 0}, {0, 1}, {1, -1}, {0, -1}, {-1, 0}, {-1, 1}, {-1, -1}};
 
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

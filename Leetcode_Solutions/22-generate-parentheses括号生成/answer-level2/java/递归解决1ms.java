@@ -1,13 +1,13 @@
-### 解题思路
-递归解决，难点在于递归函数内部的设计：
-1.参数内容：string str,left(左括号数量)，right(右括号数量)，n(括号的对数)
-2.函数设计：先写出返回条件：左右括号数量==n
-            如果left括号的数量<n,那么就可以加"("
-            如果right括号的数量小于left括号的数量，就可以加")"
+// ### 解题思路
+// 递归解决，难点在于递归函数内部的设计：
+// 1.参数内容：string str,left(左括号数量)，right(右括号数量)，n(括号的对数)
+// 2.函数设计：先写出返回条件：左右括号数量==n
+//             如果left括号的数量<n,那么就可以加"("
+//             如果right括号的数量小于left括号的数量，就可以加")"
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static List<String> alist;
     public List<String> generateParenthesis(int n) {
@@ -30,4 +30,4 @@ class Solution {
 
     }
 }
-```
+// ```

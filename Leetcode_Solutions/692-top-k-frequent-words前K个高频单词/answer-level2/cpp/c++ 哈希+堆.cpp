@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     struct word{
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

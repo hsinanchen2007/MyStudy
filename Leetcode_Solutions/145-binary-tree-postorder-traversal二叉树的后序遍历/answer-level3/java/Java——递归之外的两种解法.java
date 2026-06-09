@@ -1,7 +1,7 @@
-- 方法一 跟官方的思路差不多，但是这里用两个栈模拟，看起来更清晰
-- 方法二 相当于模拟后序遍历的过程
+// - 方法一 跟官方的思路差不多，但是这里用两个栈模拟，看起来更清晰
+// - 方法二 相当于模拟后序遍历的过程
 
-```
+// ```
 
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
@@ -49,4 +49,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

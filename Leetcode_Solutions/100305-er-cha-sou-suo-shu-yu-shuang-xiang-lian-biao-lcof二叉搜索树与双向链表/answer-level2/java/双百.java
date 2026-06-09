@@ -1,11 +1,11 @@
-### 解题思路
-详见注释
-![image.png](https://pic.leetcode-cn.com/952030bcba226d6f832293f919874d0486c65d99560d6baf154819cc323db661-image.png)
+// ### 解题思路
+// 详见注释
+// ![image.png](https://pic.leetcode-cn.com/952030bcba226d6f832293f919874d0486c65d99560d6baf154819cc323db661-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -100,4 +100,4 @@ class Solution {
         }
     }
 }
-```
+// ```

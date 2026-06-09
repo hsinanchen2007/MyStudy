@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         if len(edges) != n - 1:
@@ -27,4 +27,4 @@ class Solution:
             find(u)
 
         return len(set(p)) == 1
-```
+# ```

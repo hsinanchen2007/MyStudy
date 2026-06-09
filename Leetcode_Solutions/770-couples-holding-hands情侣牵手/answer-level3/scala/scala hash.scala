@@ -1,4 +1,4 @@
-```scala
+// ```scala
 import scala.collection.mutable
 
 object Solution {
@@ -16,4 +16,4 @@ object Solution {
     if (m.contains(c1)) func(m, m(c1), c2) else m(c1) = c2
   }
 }
-```
+// ```

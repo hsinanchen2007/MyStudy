@@ -1,9 +1,9 @@
-### 解题思路
-题目不难，但是需要找好判断的条件以及循环结束的条件
+// ### 解题思路
+// 题目不难，但是需要找好判断的条件以及循环结束的条件
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func longestDiverseString(_ a: Int, _ b: Int, _ c: Int) -> String {
     var s: [String] = []
@@ -76,4 +76,4 @@ func longestDiverseString(_ a: Int, _ b: Int, _ c: Int) -> String {
 }
 
 }
-```
+// ```

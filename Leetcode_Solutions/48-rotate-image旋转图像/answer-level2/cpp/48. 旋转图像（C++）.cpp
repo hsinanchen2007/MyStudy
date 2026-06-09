@@ -1,6 +1,6 @@
-# 48. 旋转图像（C++）
-建立中间变量，移动后，再赋值回去
-```
+// # 48. 旋转图像（C++）
+// 建立中间变量，移动后，再赋值回去
+// ```
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -15,5 +15,5 @@ public:
         return;
     }
 };
-```
+// ```
 

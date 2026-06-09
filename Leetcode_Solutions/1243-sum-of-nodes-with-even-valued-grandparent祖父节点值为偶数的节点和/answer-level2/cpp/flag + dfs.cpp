@@ -1,6 +1,6 @@
-用一个flag（even_gradparent）来表示当前节点的父节点是否为偶。
-把当前节点的子节点push入队列时，用此flag来决定是否把子节点的值加入最后的result中。
-```
+// 用一个flag（even_gradparent）来表示当前节点的父节点是否为偶。
+// 把当前节点的子节点push入队列时，用此flag来决定是否把子节点的值加入最后的result中。
+// ```
 class Solution {
 public:
     int sumEvenGrandparent(TreeNode* root) {
@@ -35,4 +35,4 @@ public:
         return re;
     }
 };
-```
+// ```

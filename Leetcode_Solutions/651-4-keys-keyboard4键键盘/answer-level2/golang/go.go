@@ -1,4 +1,4 @@
-```
+// ```
 func max(a, b int) int {
 	if a < b {
 		return b
@@ -13,4 +13,4 @@ func maxA(N int) int {
 	}
 	return out
 }
-```
+// ```

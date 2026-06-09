@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         List<Integer> list1 = Arrays.stream(nums1).boxed().collect(Collectors.toList());
@@ -12,4 +12,4 @@ class Solution {
         return list1.stream().distinct().mapToInt(i -> i.intValue()).toArray();
     }
 }
-```
+// ```

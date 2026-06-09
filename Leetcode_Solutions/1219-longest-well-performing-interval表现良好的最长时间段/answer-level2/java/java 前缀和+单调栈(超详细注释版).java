@@ -1,8 +1,8 @@
-之所以用前缀和和单调栈的,请参考以下两个链接(将本题转化为最大宽度坡问题))
-- https://leetcode-cn.com/problems/longest-well-performing-interval/solution/qian-zhui-he-dan-diao-zhan-python3-by-smoon1989/
-- leetcode-cn.com/problems/longest-well-performing-interval/solution/can-kao-liao-ji-ge-da-shen-de-ti-jie-zhi-hou-zong-/
+// 之所以用前缀和和单调栈的,请参考以下两个链接(将本题转化为最大宽度坡问题))
+// - https://leetcode-cn.com/problems/longest-well-performing-interval/solution/qian-zhui-he-dan-diao-zhan-python3-by-smoon1989/
+// - leetcode-cn.com/problems/longest-well-performing-interval/solution/can-kao-liao-ji-ge-da-shen-de-ti-jie-zhi-hou-zong-/
 
-```java
+// ```java
 class Solution {
 	//假设传入[9,9,6,0,6,6,9]
     public int longestWPI(int[] hours) {
@@ -47,4 +47,4 @@ class Solution {
     	return res;
     }
 }
-```
+// ```

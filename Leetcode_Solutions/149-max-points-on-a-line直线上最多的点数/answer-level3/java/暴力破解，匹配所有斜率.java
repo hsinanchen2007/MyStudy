@@ -1,5 +1,5 @@
-talk is cheap，show your code.
-```
+// talk is cheap，show your code.
+// ```
 import java.util.Map.Entry;
 class Solution {
 	public int maxPoints(int[][] points) {
@@ -64,4 +64,4 @@ class Solution {
 		System.out.println(maxPoints(in));
 	}
 }
-```
+// ```

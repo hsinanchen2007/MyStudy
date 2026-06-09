@@ -1,4 +1,4 @@
-```java
+// ```java
 class ZeroEvenOdd {
     private int n;
     Semaphore even, odd, zero;
@@ -38,4 +38,4 @@ class ZeroEvenOdd {
         }        
     }
 }
-```
+// ```

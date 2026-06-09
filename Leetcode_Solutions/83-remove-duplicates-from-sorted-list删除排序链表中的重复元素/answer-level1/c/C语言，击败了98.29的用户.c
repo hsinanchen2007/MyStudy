@@ -1,4 +1,4 @@
-注意是有序链表
+// 注意是有序链表
 
 /**
  * Definition for singly-linked list.

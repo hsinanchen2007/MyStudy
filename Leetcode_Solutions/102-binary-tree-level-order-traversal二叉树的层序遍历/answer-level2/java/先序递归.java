@@ -1,5 +1,5 @@
-// 1.前序遍历获取深度,将每一层的左元素加入,根据深度逐层添加右元素
-```
+// // 1.前序遍历获取深度,将每一层的左元素加入,根据深度逐层添加右元素
+// ```
 class Solution {
     private List<List<Integer>> list = new ArrayList();
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -19,4 +19,4 @@ class Solution {
         levelOrderList(leve + 1, root.right);
     }
 }
-```
+// ```

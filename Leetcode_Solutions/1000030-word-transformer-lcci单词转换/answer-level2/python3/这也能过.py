@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![11.png](https://pic.leetcode-cn.com/09f182822b38ad49d6ef76f75a49c040580afaf2adfbc8f15ae93a74298e79bd-11.png)
+# ### 解题思路
+# 此处撰写解题思路
+# ![11.png](https://pic.leetcode-cn.com/09f182822b38ad49d6ef76f75a49c040580afaf2adfbc8f15ae93a74298e79bd-11.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[str]:
         if endWord not in wordList:return []
@@ -36,4 +36,4 @@ class Solution:
         dis = sum([0 if s1[i] == s2[i] else 1 for i in range(len(s1))])
         self.dic[(s1,s2)] = self.dic[(s2,s1)] = dis
         return dis
-```
+# ```

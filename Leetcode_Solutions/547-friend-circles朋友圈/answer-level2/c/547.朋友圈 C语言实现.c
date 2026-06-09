@@ -1,4 +1,4 @@
-递归删除一个圈的流程以下图为例，有点儿乱，见谅
+// 递归删除一个圈的流程以下图为例，有点儿乱，见谅
 ![image.png](https://pic.leetcode-cn.com/e13a1d89691fccdb74e53ce3cda6e2bb272d13684669db2d7ff4f8feb6aeb444-image.png)
 
 /* 删除某节点所有的朋友圈，深度优先遍历 */

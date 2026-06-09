@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func climbStairs(n int) int {
     if n ==0 || n==1{
         return 1
@@ -13,4 +13,4 @@ func climbStairs(n int) int {
     }
     return dp[n]
 }
-```
+// ```

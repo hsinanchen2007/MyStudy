@@ -1,10 +1,10 @@
-### 解题思路
-写两个不同的字典，都加入进去，比较是否一致
-不过不知道为什么居然没有 sorted(s1) == sorted(s2) 跑得快, 好吧.
+# ### 解题思路
+# 写两个不同的字典，都加入进去，比较是否一致
+# 不过不知道为什么居然没有 sorted(s1) == sorted(s2) 跑得快, 好吧.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         
@@ -29,4 +29,4 @@ class Solution:
                 return False
         
         return False
-```
+# ```

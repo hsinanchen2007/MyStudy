@@ -1,4 +1,4 @@
-```
+// ```
 /**12.整数转罗马数字（Java）*/
 public String T12(int num) {
 	//力扣题库系统上限9999
@@ -16,8 +16,8 @@ public String T12(int num) {
 	}
 	return stringBuilder.toString();
 }
-```
-```
+// ```
+// ```
 /**12.整数转罗马数字(JavaScript)*/
 function T12(num) {
 	//力扣题库系统上限9999
@@ -35,9 +35,9 @@ function T12(num) {
 	}
 	return numText;
 }
-```
+// ```
 
 
 
-![1.png](https://pic.leetcode-cn.com/b5e2dc1ce47de5f75bf40661c0c51c8df40c7a2da0777aada38303ed46d0a57d-1.png)
-![2.png](https://pic.leetcode-cn.com/3e684c7b973466971ddd5fc07fcd0cbb35d4bad46a4f798a42e7c4d31c563d6c-2.png)
+// ![1.png](https://pic.leetcode-cn.com/b5e2dc1ce47de5f75bf40661c0c51c8df40c7a2da0777aada38303ed46d0a57d-1.png)
+// ![2.png](https://pic.leetcode-cn.com/3e684c7b973466971ddd5fc07fcd0cbb35d4bad46a4f798a42e7c4d31c563d6c-2.png)

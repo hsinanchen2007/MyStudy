@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/d8055656314ff58a9af27bbd7316d4a1b53545ffd742f080742c4bc70fd97a1a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d8055656314ff58a9af27bbd7316d4a1b53545ffd742f080742c4bc70fd97a1a-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   动态规划：
   
   dp[row][col] 代表以当前网格为正方形右下角的顶点的边长
@@ -16,11 +16,11 @@
     : Math.min(dp[row - 1][col], dp[row - 1][col - 1], dp[row][col - 1]) + 1
     
   注意如果上、上左、左 三个点越界，那么当做 0
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} matrix
  * @return {number}
@@ -56,4 +56,4 @@ var maximalSquare = function(matrix) {
   
   return max * max;
 };
-```
+// ```

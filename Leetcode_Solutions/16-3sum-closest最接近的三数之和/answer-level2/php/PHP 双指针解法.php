@@ -1,7 +1,7 @@
-与三数之和解法类似
+// 与三数之和解法类似
 
 
-```php
+// ```php
 class Solution
 {
 
@@ -45,4 +45,4 @@ class Solution
         return $ans;
     }
 }
-```
+// ```

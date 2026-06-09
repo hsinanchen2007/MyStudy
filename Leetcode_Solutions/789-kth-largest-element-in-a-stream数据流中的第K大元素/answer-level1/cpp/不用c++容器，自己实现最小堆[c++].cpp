@@ -1,6 +1,6 @@
-这个代码就不用过多解释了吧，不熟悉堆的话，先熟悉下堆的内容再来看
-耗时和内存都是90左右
-```
+// 这个代码就不用过多解释了吧，不熟悉堆的话，先熟悉下堆的内容再来看
+// 耗时和内存都是90左右
+// ```
 class KthLargest {
 private:
     bool g_is_head_sorted = false;
@@ -78,4 +78,4 @@ public:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-https://blog.csdn.net/mmk27_word/article/details/90081551
+// ### 解题思路
+// https://blog.csdn.net/mmk27_word/article/details/90081551
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public static List<String> findItinerary(List<List<String>> tickets) {
         // 因为逆序插入，所以用链表
@@ -33,4 +33,4 @@ class Solution {
         ans.add(0, src); // 逆序插入
     }
 }
-```
+// ```

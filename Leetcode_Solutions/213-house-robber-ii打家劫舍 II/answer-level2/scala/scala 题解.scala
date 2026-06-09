@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def rob(nums: Array[Int]): Int = {
     if (nums.length <= 1) return if (nums.isEmpty) 0 else nums(0)
@@ -12,4 +12,4 @@ object Solution {
     even.max(odd)
   }
 }
-```
+// ```

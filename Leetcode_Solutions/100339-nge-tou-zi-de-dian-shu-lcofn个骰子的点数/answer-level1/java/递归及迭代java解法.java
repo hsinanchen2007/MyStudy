@@ -1,5 +1,5 @@
-递归解法：
-```java []
+// 递归解法：
+// ```java []
 class Solution {
     public double[] twoSum(int n) {
         double[] sum=new double[5*n+1];
@@ -16,9 +16,9 @@ class Solution {
         return summa(m-1,n-1)+summa(m-2,n-1)+summa(m-3,n-1)+summa(m-4,n-1)+summa(m-5,n-1)+summa(m-6,n-1);
     }
 }
-```
-递归解法超出时间限制，故使用迭代解法：
-```java []
+// ```
+// 递归解法超出时间限制，故使用迭代解法：
+// ```java []
 class Solution {
     public double[] twoSum(int n) {
         long[][] dp=new long[n][6*n];
@@ -42,4 +42,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

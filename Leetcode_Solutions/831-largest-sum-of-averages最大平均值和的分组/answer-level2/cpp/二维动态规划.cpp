@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     double largestSumOfAverages(vector<int>& A, int K) {
@@ -24,4 +24,4 @@ public:
         return dp[n-1][K];
     }
 };
-```
+// ```

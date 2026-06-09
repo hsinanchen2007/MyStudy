@@ -1,4 +1,4 @@
-`\\一、使用空头链表
+// `\\一、使用空头链表
 struct TreeNode* sortedListToBST(struct ListNode* head){
     if (head == NULL) return NULL;
     struct ListNode* pHead = (struct ListNode*)malloc(sizeof(struct ListNode));

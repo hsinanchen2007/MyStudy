@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -74,4 +74,4 @@ char * countAndSay( int n ){
     return buffer;
 
 }
-```
+// ```

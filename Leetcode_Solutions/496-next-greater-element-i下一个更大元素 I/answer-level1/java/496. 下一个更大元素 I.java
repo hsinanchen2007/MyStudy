@@ -1,19 +1,19 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/9/18
- *
- * 解题思路1: 使用双重循环建立当前值对应的下一个最大值的hash映射 后遍历nums1
- *
- * 解题思路2: 使用单调栈建立当前值对应的下一个最大值的hash映射 后遍历nums1
- * 1.先遍历大数组nums2，首先将第一个元素入栈；
- * 2.继续遍历，当前元素小于栈顶元素时，继续将它入栈；当当前元素大于栈顶元素时，栈顶元素出栈，此时应将该出栈的元素与当前元素形成key-value键值对，存入HashMap中；
- * 3.当遍历完nums2后，得到nums2中元素所对应的下一个更大元素的hash表；
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/9/18
+//  *
+//  * 解题思路1: 使用双重循环建立当前值对应的下一个最大值的hash映射 后遍历nums1
+//  *
+//  * 解题思路2: 使用单调栈建立当前值对应的下一个最大值的hash映射 后遍历nums1
+//  * 1.先遍历大数组nums2，首先将第一个元素入栈；
+//  * 2.继续遍历，当前元素小于栈顶元素时，继续将它入栈；当当前元素大于栈顶元素时，栈顶元素出栈，此时应将该出栈的元素与当前元素形成key-value键值对，存入HashMap中；
+//  * 3.当遍历完nums2后，得到nums2中元素所对应的下一个更大元素的hash表；
+//  *
+//  */
+// ```
 public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
     //int[] nums2_index = new int[nums2.length];
@@ -84,4 +84,4 @@ public int[] nextGreaterElement2(int[] nums1, int[] nums2){
 
 
 }
-```
+// ```

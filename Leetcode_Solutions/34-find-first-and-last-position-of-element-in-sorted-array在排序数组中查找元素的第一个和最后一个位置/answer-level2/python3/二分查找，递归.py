@@ -1,7 +1,7 @@
-1、定义两个函数：search_lower,用于查找下边界指针；search_upper,用于查找上边界指针；
-2、search_lower里，先判断first与last的大小，如果first比last大，说明给定区间不合法或者已经完全搜索过没找到target值，否则，找中点，判断是否是target值，如果是，判断mid是否为0或者nums[mid-1] < nums[mid]，是则直接返回，否则递归调用。
-3、找上边界是同样的做法，只是if里条件有些变动。
-```
+# 1、定义两个函数：search_lower,用于查找下边界指针；search_upper,用于查找上边界指针；
+# 2、search_lower里，先判断first与last的大小，如果first比last大，说明给定区间不合法或者已经完全搜索过没找到target值，否则，找中点，判断是否是target值，如果是，判断mid是否为0或者nums[mid-1] < nums[mid]，是则直接返回，否则递归调用。
+# 3、找上边界是同样的做法，只是if里条件有些变动。
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         def search_lower(first, last, target):
@@ -36,4 +36,4 @@ class Solution:
             last = search_upper(0, n, target)
         return [first, last]
         
-```
+# ```

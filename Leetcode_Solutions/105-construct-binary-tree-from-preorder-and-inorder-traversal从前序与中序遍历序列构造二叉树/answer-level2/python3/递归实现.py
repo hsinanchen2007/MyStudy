@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         def dotree(preorder, inorder):
@@ -13,4 +13,4 @@ class Solution:
             n.right = dotree(preorder, r)
             return n
         return dotree(preorder, inorder)
-```
+# ```

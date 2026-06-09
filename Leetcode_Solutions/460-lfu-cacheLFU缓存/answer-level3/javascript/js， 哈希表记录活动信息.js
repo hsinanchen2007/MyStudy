@@ -1,4 +1,4 @@
-```
+// ```
 var LFUCache = function(capacity) {
     this.cache = new Map()
     this.capacity = capacity
@@ -62,4 +62,4 @@ LFUCache.prototype.put = function(key, value) {
     this.setFrequency(key)
     this.cache.set(key, value)
 };
-```
+// ```

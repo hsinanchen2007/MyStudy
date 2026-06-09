@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
     /*
 	 * 双指针：i指向开头，j指向末尾，交换i和j指向的元素
@@ -16,4 +16,4 @@ public class Solution{
 			j--;
 		}
 	}
-```
+// ```

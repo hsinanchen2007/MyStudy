@@ -1,7 +1,7 @@
-思路：
-qsort排序，递增递减都可以，注意分奇偶个数找出有序数组的中位数
-遍历数组，累加差值的绝对值即可
-```
+// 思路：
+// qsort排序，递增递减都可以，注意分奇偶个数找出有序数组的中位数
+// 遍历数组，累加差值的绝对值即可
+// ```
 int compare(const void *a, const void *b){
     return *(int*)a - *(int*)b;
 }
@@ -22,4 +22,4 @@ int minMoves2(int* nums, int numsSize){
 
     return count;
 }
-```
+// ```

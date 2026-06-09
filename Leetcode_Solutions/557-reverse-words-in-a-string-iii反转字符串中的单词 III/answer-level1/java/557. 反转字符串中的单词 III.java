@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/23
- *
- * 解题思路:类似于双指针 start 记录单词开始 遇见空格就反转该单词  注意:最后一个单词要额外判断
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/23
+//  *
+//  * 解题思路:类似于双指针 start 记录单词开始 遇见空格就反转该单词  注意:最后一个单词要额外判断
+//  *
+//  */
+// ```
  public String reverseWords(String s) {
     char[] s_arr = s.toCharArray();
     int start = 0;
@@ -37,4 +37,4 @@ public void reverse(char[] arr , int from ,int end){
         arr[j] = t;
     }
 }
-```
+// ```

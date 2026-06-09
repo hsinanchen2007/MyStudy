@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {//98%
     
     int counter=2;//一共有多少步需要走，包括起点终点
@@ -50,4 +50,4 @@ class Solution {//98%
 
     }
 }
-```
+// ```

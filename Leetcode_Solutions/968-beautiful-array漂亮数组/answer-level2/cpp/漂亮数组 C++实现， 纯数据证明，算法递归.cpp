@@ -1,11 +1,11 @@
-依次递归
+// 依次递归
 
-    1,
-    1,2,
-    1,3,2,4
-左半边部分 x*2-1，右半部分 x*2 递归分解。
+//     1,
+//     1,2,
+//     1,3,2,4
+// 左半边部分 x*2-1，右半部分 x*2 递归分解。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> beautifulArray(int N) {
@@ -18,10 +18,10 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-以下错误的实现，虽然也是漂亮数组，但不是1~N
-```cpp
+// 以下错误的实现，虽然也是漂亮数组，但不是1~N
+// ```cpp
 class Solution {
 public:
     vector<int> beautifulArray_Invalid(int N) {
@@ -37,5 +37,5 @@ public:
         return ret;
     }
 };
-```
+// ```
 

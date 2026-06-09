@@ -1,9 +1,9 @@
-### 解题思路
-好恶心的测试样例
+// ### 解题思路
+// 好恶心的测试样例
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -38,4 +38,4 @@ var myAtoi = function(str) {
     }
     else return number
 };
-```
+// ```

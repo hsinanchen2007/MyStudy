@@ -1,4 +1,4 @@
-```c++
+// ```c++
 bool isUnivalTree(TreeNode* root) {
         if (!root) return true;
         else {

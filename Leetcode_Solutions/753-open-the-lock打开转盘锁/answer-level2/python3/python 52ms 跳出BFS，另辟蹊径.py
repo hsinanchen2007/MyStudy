@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/f435ae618b4fd395e9601e90cd9afd0734b56b731993f1eb53d06e8d9ebc8e98-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f435ae618b4fd395e9601e90cd9afd0734b56b731993f1eb53d06e8d9ebc8e98-image.png)
 
-代码如下（不过声明这是看别的大神的做法，我个人用的也是BFS，感觉这个做法很巧妙，但又有不明白的地方，在这里发出来算是共同探讨）：
-```
+# 代码如下（不过声明这是看别的大神的做法，我个人用的也是BFS，感觉这个做法很巧妙，但又有不明白的地方，在这里发出来算是共同探讨）：
+# ```
 class Solution:
     def openLock(self, deadends, target):
         # 定义一个距离函数，计算一个code直接拨需要多少下，比如0003就是3下，0099就是2下。
@@ -32,9 +32,9 @@ class Solution:
             if dist(move) < result: # <------
                 return result       # <------ 尤其这三行，为啥dist(move)比result小时，就返回result
         return result + 2           # <------ 否则就返回 result + 2 ，为啥+2 ？ 
-```
----------update-----------
-已经搞明白了，看评论
+# ```
+# ---------update-----------
+# 已经搞明白了，看评论
 
-以上！
+# 以上！
 

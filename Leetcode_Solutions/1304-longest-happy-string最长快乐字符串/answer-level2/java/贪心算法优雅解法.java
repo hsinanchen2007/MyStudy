@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/444956d6a43fb6802344d64c32aacbbfe0be381e344add2b73c1bfd83ea09cc4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/444956d6a43fb6802344d64c32aacbbfe0be381e344add2b73c1bfd83ea09cc4-image.png)
 
-**解题思路**
+// **解题思路**
 
 
-每轮放置字符时优先先放剩余次数最多的, 如果上次放的2个字符和剩余个数最多的字符相同，则放置次多的字符
+// 每轮放置字符时优先先放剩余次数最多的, 如果上次放的2个字符和剩余个数最多的字符相同，则放置次多的字符
 
-```
+// ```
 
 
 public String longestDiverseString(int a, int b, int c) {
@@ -57,4 +57,4 @@ public String longestDiverseString(int a, int b, int c) {
             return this.count - other.count;
         }
     }
-```
+// ```

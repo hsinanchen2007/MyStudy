@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/d36a557c7a8001203e095ed30a0243bddeff2b12877137fe2fa0bcc8dd4587b7-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/d36a557c7a8001203e095ed30a0243bddeff2b12877137fe2fa0bcc8dd4587b7-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 static int n=[](){std::ios::sync_with_stdio(false);std::cin.tie(nullptr);return 0;}();
 
 class MaxQueue {
@@ -44,4 +44,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

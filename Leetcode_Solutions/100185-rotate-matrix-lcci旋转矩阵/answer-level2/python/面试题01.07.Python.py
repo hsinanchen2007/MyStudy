@@ -1,9 +1,9 @@
-### 解题思路
-解题思路其实也很简单，我们只看对于相差90°的四个相关元素来说，顺时针旋转90°相当于逆时针方向两两交换。
+# ### 解题思路
+# 解题思路其实也很简单，我们只看对于相差90°的四个相关元素来说，顺时针旋转90°相当于逆时针方向两两交换。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 for _ in range(3):
                     matrix[tmp_i][tmp_j], matrix[N - 1 - tmp_j][tmp_i] = matrix[N - 1 - tmp_j][tmp_i], matrix[tmp_i][tmp_j]
                     tmp_i, tmp_j = N - 1 - tmp_j, tmp_i
-```
+# ```

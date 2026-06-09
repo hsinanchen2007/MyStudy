@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```
+// ```
    //临界折叠 [4,5][3,6],[2,7],[1,8]
     /*
      1|2 => [1,2],[0,3]
@@ -15,13 +15,13 @@
      3 => [2,4],[1,5],[0,6]
      .....
      */
-```
+// ```
 
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func longestPalindrome(_ s: String) -> String {
     let res = s.map {
@@ -127,4 +127,4 @@ func same(_ string: String) -> String {
 
 }
 
-```
+// ```

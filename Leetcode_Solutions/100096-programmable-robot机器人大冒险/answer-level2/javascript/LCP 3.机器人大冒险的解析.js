@@ -1,17 +1,17 @@
-### 解题思路
- 1. 出发点
-    考虑题目给出的条件,我们需要考虑最少需要的计算次数,才能保证不漏不重的检查完所有点.
-    根据题目条件,遍历commands至少是O(m),而obstacles至少是O(n).
-    由上可知,我们猜测最少需要的步骤为O(m+n).
-    2. 条件挖掘
-       1. 既然,我们要达到O(m+n),自然需要分别遍历commands和obstacles.
-          1. 遍历commands只需要一遍,这是为了找到第一个周期的path
-          2. 遍历obstacle则需要考虑,怎么裁剪搜索空间.
-       2. 注意到条件说明,如果先到达且在此之前没有碰撞,则可视为成功.于是,我们考虑能否通过dest来缩小搜索域.注意符合条件的点的有如下特性:(obstacle.x <= dest.x && obstack.y <= dest.y)且path是有序的,那么可以遍历查找obstacle.如果,此时找到碰撞,则返回false,否则,返回上一步的是否可达标记.
+// ### 解题思路
+//  1. 出发点
+//     考虑题目给出的条件,我们需要考虑最少需要的计算次数,才能保证不漏不重的检查完所有点.
+//     根据题目条件,遍历commands至少是O(m),而obstacles至少是O(n).
+//     由上可知,我们猜测最少需要的步骤为O(m+n).
+//     2. 条件挖掘
+//        1. 既然,我们要达到O(m+n),自然需要分别遍历commands和obstacles.
+//           1. 遍历commands只需要一遍,这是为了找到第一个周期的path
+//           2. 遍历obstacle则需要考虑,怎么裁剪搜索空间.
+//        2. 注意到条件说明,如果先到达且在此之前没有碰撞,则可视为成功.于是,我们考虑能否通过dest来缩小搜索域.注意符合条件的点的有如下特性:(obstacle.x <= dest.x && obstack.y <= dest.y)且path是有序的,那么可以遍历查找obstacle.如果,此时找到碰撞,则返回false,否则,返回上一步的是否可达标记.
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} command
  * @param {number[][]} obstacles
@@ -68,4 +68,4 @@ function checkPos(obstacle, vec, path) {
     
     return false
 }
-```
+// ```

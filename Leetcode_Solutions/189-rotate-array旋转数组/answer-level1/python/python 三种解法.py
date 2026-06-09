@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -43,4 +43,4 @@ class Solution:
             tmp = nums[-1]
             for i in range(len(nums)):
                 nums[i], tmp = tmp, nums[i]
-```
+# ```

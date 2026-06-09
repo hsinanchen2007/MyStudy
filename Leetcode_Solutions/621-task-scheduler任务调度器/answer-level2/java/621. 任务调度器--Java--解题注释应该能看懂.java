@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_621_leastInterval.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_621_leastInterval.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 1、将任务按类型分组，正好A-Z用一个int[26]保存任务类型个数
@@ -35,4 +35,4 @@
         return Math.max(retCount, tasks.length);
     }
 
-```
+// ```

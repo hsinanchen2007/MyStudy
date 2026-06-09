@@ -1,9 +1,9 @@
-### 解题思路
-双指针二分查找模板
+# ### 解题思路
+# 双指针二分查找模板
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         l = 0
@@ -17,4 +17,4 @@ class Solution:
             else:
                 l = m + 1
         return -1
-```
+# ```

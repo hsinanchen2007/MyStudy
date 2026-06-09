@@ -1,9 +1,9 @@
-### 解题思路
-广度遍历
+# ### 解题思路
+# 广度遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         que = []
@@ -36,4 +36,4 @@ class Solution:
             s.append(yy%10)
             yy = yy // 10
         return sum(s)
-```
+# ```

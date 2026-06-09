@@ -1,7 +1,7 @@
-将每段路程分成上车和下车两个步骤，位置pos处上车k人，记作（k,pos），位置pos处下车k人，记作（-k,pos）
-对所有步骤进行排序，pos小的排在前面，pos相等的，下车的排前面即记录中第一个数据小的排前面。
-然后遍历所有步骤，记录每个步骤后车上的人数，如果超过capacity就返回false。
-```C++ []
+// 将每段路程分成上车和下车两个步骤，位置pos处上车k人，记作（k,pos），位置pos处下车k人，记作（-k,pos）
+// 对所有步骤进行排序，pos小的排在前面，pos相等的，下车的排前面即记录中第一个数据小的排前面。
+// 然后遍历所有步骤，记录每个步骤后车上的人数，如果超过capacity就返回false。
+// ```C++ []
 class Solution {
 public:
 	bool carPooling(vector<vector<int>>& trips, int capacity) {
@@ -27,4 +27,4 @@ public:
 		return true;
 	}
 };
-```
+// ```

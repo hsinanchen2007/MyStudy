@@ -1,5 +1,5 @@
-此思路使用反推法，从右下角开始反推，每个节点最少血都是右和下最小血减去当前值，如果结果小于1则置为1。同时使用一个辅助二维数据节省计算量。
-``` C#
+// 此思路使用反推法，从右下角开始反推，每个节点最少血都是右和下最小血减去当前值，如果结果小于1则置为1。同时使用一个辅助二维数据节省计算量。
+// ``` C#
 public int CalculateMinimumHP(int[][] dungeon)
 {
 	int xLength = dungeon.Length, yLength = dungeon.Max(m => m.Length);
@@ -15,4 +15,4 @@ private static int CalculateMinimumHp(IReadOnlyList<IReadOnlyList<int>> dungeon,
 			: y == yLength - 1
 				? CalculateMinimumHp(dungeon, minHp, xLength, yLength, x + 1, y)
 				: Math.Min(CalculateMinimumHp(dungeon, minHp, xLength, yLength, x, y + 1), CalculateMinimumHp(dungeon, minHp, xLength, yLength, x + 1, y))) - dungeon[x][y]);
-```
+// ```

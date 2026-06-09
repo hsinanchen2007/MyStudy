@@ -1,6 +1,6 @@
-由于unodered_set的键值具有唯一性，可利用这种性质来进行求解。
-遍历一次数组，然后将每行，每列，每个就宫格的不为空的数据插入到unordered_set中，同时统计插入的次数，如果次数和插入之后unordered_set的尺寸不一致，则表明相同的数据被unordered_set排除掉了，那么数独就不是有效的。
-```
+// 由于unodered_set的键值具有唯一性，可利用这种性质来进行求解。
+// 遍历一次数组，然后将每行，每列，每个就宫格的不为空的数据插入到unordered_set中，同时统计插入的次数，如果次数和插入之后unordered_set的尺寸不一致，则表明相同的数据被unordered_set排除掉了，那么数独就不是有效的。
+// ```
 bool isValidSudoku(vector<vector<char>>& board) {
         unordered_set<int> h[9];
         unordered_set<int> v[9];
@@ -41,4 +41,4 @@ bool isValidSudoku(vector<vector<char>>& board) {
         }
         return true;
     }
-```
+// ```

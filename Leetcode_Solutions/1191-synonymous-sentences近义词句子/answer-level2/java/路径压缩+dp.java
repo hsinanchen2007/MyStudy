@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private HashMap<String,String> hash;
     public List<String> generateSentences(List<List<String>> synonyms, String text) {
@@ -85,4 +85,4 @@ class Solution {
         return top1;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-下面的代码封装的代码在OJ平台无法通过，但是在Windows下的MSV编译器以及Linux平台下的GCC编译器都能通过并正确运行。让我十分疑惑，但我想了想还是贴上来吧，毕竟许多C语言解似乎内存管理有问题。
+// 下面的代码封装的代码在OJ平台无法通过，但是在Windows下的MSV编译器以及Linux平台下的GCC编译器都能通过并正确运行。让我十分疑惑，但我想了想还是贴上来吧，毕竟许多C语言解似乎内存管理有问题。
 
-```
+// ```
 struct ListNode* partition(struct ListNode* head, int x){
     //空链表和只有一个节点情况，直接返回即可
     if(!head || !head->next)
@@ -54,4 +54,4 @@ lab:
         free(tMore);
     return NULL;
 }
-```
+// ```

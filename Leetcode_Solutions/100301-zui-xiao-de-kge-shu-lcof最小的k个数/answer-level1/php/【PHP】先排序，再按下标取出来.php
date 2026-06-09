@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再按下标取出来
+// ### 解题思路
+// 先排序，再按下标取出来
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -17,7 +17,7 @@ class Solution {
         return $min_arr;
     }
 }
-```
-提交结果如下：
-![image.png](https://pic.leetcode-cn.com/29d0a2eaafb3e2ae6c3720744f511829d931a36333cdaba249a889ad2a74d4f9-image.png)
-PHP太流氓了
+// ```
+// 提交结果如下：
+// ![image.png](https://pic.leetcode-cn.com/29d0a2eaafb3e2ae6c3720744f511829d931a36333cdaba249a889ad2a74d4f9-image.png)
+// PHP太流氓了

@@ -1,9 +1,9 @@
-### 解题思路
-先找到最大值的index，然后将其翻转到第一位，然后在翻转到最后一位
+# ### 解题思路
+# 先找到最大值的index，然后将其翻转到第一位，然后在翻转到最后一位
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pancakeSort(self, A: List[int]) -> List[int]:
         i, res = len(A), []
@@ -15,4 +15,4 @@ class Solution:
                 res.extend([max_idx+1, i])
             i +=-1
         return res
-```
+# ```

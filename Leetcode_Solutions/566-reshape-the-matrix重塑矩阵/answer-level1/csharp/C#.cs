@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public int[][] MatrixReshape(int[][] nums, int r, int c) {
     if(nums == null || nums.Length < 1) return nums;
     int col = nums[0].Length;
@@ -21,4 +21,4 @@ public int[][] MatrixReshape(int[][] nums, int r, int c) {
     }
     return ans;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 无序数组变有序数组，也以使用sort.Ints函数；
-2. 数组切片；
+// ### 解题思路
+// 1. 无序数组变有序数组，也以使用sort.Ints函数；
+// 2. 数组切片；
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func getLeastNumbers(arr []int, k int) []int {
     length := len(arr)
@@ -42,4 +42,4 @@ func QuickSort(nums []int, l, h int) {
 	QuickSort(nums, l, i-1)
 	QuickSort(nums, i+1, h)
 }
-```
+// ```

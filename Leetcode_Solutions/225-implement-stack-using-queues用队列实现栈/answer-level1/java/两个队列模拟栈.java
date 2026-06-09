@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-Queue<Integer> inQueue=new LinkedList<Integer>();//用来入栈（指向前面元素的）
-Queue<Integer> outQueue=new LinkedList<Integer>();//用来出栈（指向最后一个元素的）
+// Queue<Integer> inQueue=new LinkedList<Integer>();//用来入栈（指向前面元素的）
+// Queue<Integer> outQueue=new LinkedList<Integer>();//用来出栈（指向最后一个元素的）
 
-/*push 入栈 1,2,3,4,5*/
+// /*push 入栈 1,2,3,4,5*/
 inQueue={1,2,3,4,5}
 outQueue={}
 /*push 入栈 1,2,3,4,5*/

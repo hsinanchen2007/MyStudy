@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -14,4 +14,4 @@ public:
         return slow;
     }
 };
-```
+// ```

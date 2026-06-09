@@ -1,8 +1,8 @@
-通过对前一次结果进行个数统计得到下一次结果，类似数数
-![通过.png](https://pic.leetcode-cn.com/cd78d0e766c644daa12cb577861f44a9fc1f8816c04b69a41e9f0763da9469d3-%E9%80%9A%E8%BF%87.png)
+# 通过对前一次结果进行个数统计得到下一次结果，类似数数
+# ![通过.png](https://pic.leetcode-cn.com/cd78d0e766c644daa12cb577861f44a9fc1f8816c04b69a41e9f0763da9469d3-%E9%80%9A%E8%BF%87.png)
 
 
-代码：
+# 代码：
 
     class Solution:
     def countAndSay(self, n: int) -> str:

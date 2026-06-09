@@ -1,5 +1,5 @@
-14 行 python
-```python
+# 14 行 python
+# ```python
 class Solution:
     def decodeString(self, s: str) -> str:
         stack, a, n = [['', 1, '']], '', ''
@@ -16,5 +16,5 @@ class Solution:
                 stack[-1][-1] += p + t * (b + a)
                 a = ''
         return stack.pop()[-1] + a
-```
-- 用 stack 记录（[]之前的字母，翻倍次数，翻倍内容）
+# ```
+# - 用 stack 记录（[]之前的字母，翻倍次数，翻倍内容）

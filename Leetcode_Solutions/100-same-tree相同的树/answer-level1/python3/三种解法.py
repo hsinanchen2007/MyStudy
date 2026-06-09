@@ -1,17 +1,17 @@
-### 解题思路
-这种题和 合并二叉树一样，都在考察树的遍历
+# ### 解题思路
+# 这种题和 合并二叉树一样，都在考察树的遍历
 
-1：先序递归
-2：先序迭代
-3：层次遍历
+# 1：先序递归
+# 2：先序迭代
+# 3：层次遍历
 
-我感觉若不特定要求树的遍历方式，先序和层次相比之下更简单，可优先选择
+# 我感觉若不特定要求树的遍历方式，先序和层次相比之下更简单，可优先选择
 
 
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -29,9 +29,9 @@ class Solution:
         elif p.val == q.val:
             return self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right)
 
-```
+# ```
 
-```
+# ```
 
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
@@ -55,9 +55,9 @@ class Solution:
 
         return True
 
-```
+# ```
 
-```
+# ```
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         deque, output = [(p,q), ], []
@@ -73,4 +73,4 @@ class Solution:
             deque.append((root1.left, root2.left))
             deque.append((root1.right, root2.right))
         return True
-```
+# ```

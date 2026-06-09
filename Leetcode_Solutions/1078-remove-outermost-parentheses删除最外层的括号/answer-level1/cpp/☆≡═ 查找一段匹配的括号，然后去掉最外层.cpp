@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string removeOuterParentheses(const string& S) {
@@ -14,4 +14,4 @@ public:
         return os.str();
     }
 };
-```
+// ```

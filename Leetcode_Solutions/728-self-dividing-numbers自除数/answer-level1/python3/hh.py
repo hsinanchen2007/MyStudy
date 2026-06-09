@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         A=[str(i) for i in range(left,right+1)]
@@ -17,4 +17,4 @@ class Solution:
             else:
                 M.append(int(i))
         return M
-```
+# ```

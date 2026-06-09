@@ -1,5 +1,5 @@
-从左到右扫一个数，剩下两个数在这个数右侧的数里划窗就行了嗷
-```c++
+// 从左到右扫一个数，剩下两个数在这个数右侧的数里划窗就行了嗷
+// ```c++
 class Solution {
 public:
   int threeSumClosest(vector<int>& nums, int target) {
@@ -19,4 +19,4 @@ public:
     return ret;
   }
 };
-```
+// ```

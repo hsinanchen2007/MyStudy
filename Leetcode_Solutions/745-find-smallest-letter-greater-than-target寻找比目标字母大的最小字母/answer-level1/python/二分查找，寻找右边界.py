@@ -1,9 +1,9 @@
-### 解题思路
-题目的举例不太恰当，还是二分查找，寻找右边界，然后前挪一步，相当于取到大于target的最小值
+# ### 解题思路
+# 题目的举例不太恰当，还是二分查找，寻找右边界，然后前挪一步，相当于取到大于target的最小值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def nextGreatestLetter(self, letters, target):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             elif letters[mid] > target:
                 right = mid
         return letters[left % n]
-```
+# ```

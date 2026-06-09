@@ -1,9 +1,9 @@
-### 解题思路
-通过二重循环将重复元素修改为字符'a', 在进行一次循环将'a'删除
+// ### 解题思路
+// 通过二重循环将重复元素修改为字符'a', 在进行一次循环将'a'删除
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -26,4 +26,4 @@ var removeDuplicates = function(nums) {
     }
     return nums.length;
 };
-```
+// ```

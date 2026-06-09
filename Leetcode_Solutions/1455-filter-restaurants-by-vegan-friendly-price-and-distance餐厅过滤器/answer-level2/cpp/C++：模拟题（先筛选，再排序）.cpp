@@ -1,8 +1,8 @@
-**题解：**
-模拟题，按题目意思筛选数据之后再根据rating和id进行排序，最后排序后数组的id添加到ans即可。
+// **题解：**
+// 模拟题，按题目意思筛选数据之后再根据rating和id进行排序，最后排序后数组的id添加到ans即可。
 
-**代码如下：**
-```cpp
+// **代码如下：**
+// ```cpp
 class Solution {
 public:
     vector<int> filterRestaurants(vector<vector<int>>& restaurants, int veganFriendly, int maxPrice, int maxDistance) {
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从头开始找.之前的字符串，去除左边的0，进行比较
+// ### 解题思路
+// 从头开始找.之前的字符串，去除左边的0，进行比较
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compareVersion(version1 string, version2 string) int {
 	i, j := 0, 0
 	v1, v2 := 0, 0
@@ -48,4 +48,4 @@ func compareVersion(version1 string, version2 string) int {
 		return 0
 	}
 }
-```
+// ```

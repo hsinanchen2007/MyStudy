@@ -1,9 +1,9 @@
-### 解题思路
-emmm，就是一条一条对角线排过去
+// ### 解题思路
+// emmm，就是一条一条对角线排过去
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] diagonalSort(int[][] mat) {
         int row = mat.length;
@@ -49,4 +49,4 @@ class Solution {
         return mat;
     }
 }
-```
+// ```

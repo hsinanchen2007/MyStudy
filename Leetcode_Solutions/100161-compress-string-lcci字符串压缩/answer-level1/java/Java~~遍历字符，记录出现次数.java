@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String compressString(String S) {
         char[] cs = S.toCharArray();
@@ -38,4 +38,4 @@ class Solution {
         return sb.toString().length()<S.length()?sb.toString():S;
     }
 }
-```
+// ```

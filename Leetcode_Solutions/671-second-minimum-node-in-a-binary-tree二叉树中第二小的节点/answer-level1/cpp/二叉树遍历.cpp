@@ -1,9 +1,9 @@
-### 解题思路
-在比最小的那个值大的所有值里面找一个最小的就行了。
+// ### 解题思路
+// 在比最小的那个值大的所有值里面找一个最小的就行了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
 private:
     bool flag = false;
 };
-```
+// ```

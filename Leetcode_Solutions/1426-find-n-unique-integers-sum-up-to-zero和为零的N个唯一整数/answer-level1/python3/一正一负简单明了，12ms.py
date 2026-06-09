@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-n为偶数的话，则为  正负n/2
-n为奇数的话，则在  正负n/2 基础上多个0
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# n为偶数的话，则为  正负n/2
+# n为奇数的话，则在  正负n/2 基础上多个0
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sumZero(self, n):
         """
@@ -21,4 +21,4 @@ class Solution(object):
 
         return a
 
-```
+# ```

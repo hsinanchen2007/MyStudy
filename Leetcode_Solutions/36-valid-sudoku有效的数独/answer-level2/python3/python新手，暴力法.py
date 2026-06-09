@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isValidSudoku(self, board):
         """
@@ -31,5 +31,5 @@ class Solution(object):
                     return False
         #遍历区块
         return True
-```
-看了官方题解并没有太懂，索性就暴力写吧，提交结果还行，超过80%的朋友
+# ```
+# 看了官方题解并没有太懂，索性就暴力写吧，提交结果还行，超过80%的朋友

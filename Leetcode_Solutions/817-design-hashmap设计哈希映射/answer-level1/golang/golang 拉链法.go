@@ -1,5 +1,5 @@
 
-```
+// ```
 type LinkNode struct {
 	value int
 	key   int
@@ -120,4 +120,4 @@ func (this *MyHashMap) Remove(key int) {
  * param_2 := obj.Get(key);
  * obj.Remove(key);
  */
-```
+// ```

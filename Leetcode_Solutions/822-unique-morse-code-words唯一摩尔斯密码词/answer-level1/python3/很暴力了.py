@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
         import string
@@ -14,4 +14,4 @@ class Solution:
                 res += dic[j]
             re.append(res)
         return len(set(re))
-```
+# ```

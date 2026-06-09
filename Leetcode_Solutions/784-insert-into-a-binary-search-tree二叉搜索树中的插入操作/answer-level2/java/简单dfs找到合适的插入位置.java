@@ -1,5 +1,5 @@
-思路：dfs深搜，找到合适的插入位置就插入值。
-```
+// 思路：dfs深搜，找到合适的插入位置就插入值。
+// ```
 class Solution {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         dfs(root,val);
@@ -43,4 +43,4 @@ class Solution {
         }
     }
 }
-```
+// ```

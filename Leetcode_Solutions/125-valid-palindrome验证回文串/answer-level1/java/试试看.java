@@ -1,5 +1,5 @@
-不要学我，冗长案例提示：
-没啥
+// 不要学我，冗长案例提示：
+// 没啥
 
 class Solution {
     public boolean isPalindrome(String s) {

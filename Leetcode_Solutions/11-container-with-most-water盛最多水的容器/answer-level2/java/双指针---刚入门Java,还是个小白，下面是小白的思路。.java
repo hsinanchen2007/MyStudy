@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![2019120501.PNG](https://pic.leetcode-cn.com/0f60e386e1ffb31cb5113c9e47fe7bd4fd53a70bbc7cd1669350ff3bb3430a1a-2019120501.PNG)
+// ### 代码
+// ![2019120501.PNG](https://pic.leetcode-cn.com/0f60e386e1ffb31cb5113c9e47fe7bd4fd53a70bbc7cd1669350ff3bb3430a1a-2019120501.PNG)
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int maxValue = 0;//在遍历过程成记录最大值
@@ -27,4 +27,4 @@ class Solution {
         return maxValue;
     }
 }
-```
+// ```

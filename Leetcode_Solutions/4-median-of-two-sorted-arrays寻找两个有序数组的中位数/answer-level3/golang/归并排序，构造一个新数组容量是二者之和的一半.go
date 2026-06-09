@@ -1,7 +1,7 @@
-往新数组里不断比较放入，数组满的时候就取到了中位数,一共要比较(m+n)/2 次 所以时间复杂度是满足的？
+// 往新数组里不断比较放入，数组满的时候就取到了中位数,一共要比较(m+n)/2 次 所以时间复杂度是满足的？
 
 
-```
+// ```
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     n1l := len(nums1)
 	n2l := len(nums2)
@@ -52,4 +52,4 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 }
 
 
-```
+// ```

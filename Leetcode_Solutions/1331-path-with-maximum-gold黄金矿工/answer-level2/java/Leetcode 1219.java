@@ -1,7 +1,7 @@
-考虑到题目中描述最多 25 个单元格中有黄金，我们可以遍历所有初始时有黄金的单元格，以此单元格为出发点向下递归，返回最大值即可。
-下面是代码
-代码块
-```private int max = 0;
+// 考虑到题目中描述最多 25 个单元格中有黄金，我们可以遍历所有初始时有黄金的单元格，以此单元格为出发点向下递归，返回最大值即可。
+// 下面是代码
+// 代码块
+// ```private int max = 0;
     public int getMaximumGold(int[][] grid) {
         for (int i = 0;i < grid.length;i++) {
             for (int j = 0;j < grid[0].length;j++) {

@@ -1,10 +1,10 @@
-### 解题思路
-用replaceFirst把左边的 ")" 删掉,再把右边的 "(" 删掉...
-因为没有replaceLast函数(可以试试写一个),把它翻转过来最后在翻转回去.......
+// ### 解题思路
+// 用replaceFirst把左边的 ")" 删掉,再把右边的 "(" 删掉...
+// 因为没有replaceLast函数(可以试试写一个),把它翻转过来最后在翻转回去.......
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minRemoveToMakeValid(String s) {
         int n=0;
@@ -37,4 +37,4 @@ class Solution {
 		return new String( new StringBuffer(s).reverse() );
     }
 }
-```
+// ```

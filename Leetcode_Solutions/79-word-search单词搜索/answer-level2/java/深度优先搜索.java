@@ -1,11 +1,11 @@
-### 解题思路
-认真分析问题，会发现是一个深度优先搜索问题。
-首要找到根节点，然后进行深度优先搜索。
-退出条件为字符不匹配或者字符已经使用。
+// ### 解题思路
+// 认真分析问题，会发现是一个深度优先搜索问题。
+// 首要找到根节点，然后进行深度优先搜索。
+// 退出条件为字符不匹配或者字符已经使用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         if(board == null || board.length == 0){
@@ -53,4 +53,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

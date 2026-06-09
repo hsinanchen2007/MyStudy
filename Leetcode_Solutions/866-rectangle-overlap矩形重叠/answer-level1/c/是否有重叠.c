@@ -1,4 +1,4 @@
-```
+// ```
 int intMax(int a, int b) {
     return a >= b ? a : b;
 }
@@ -16,4 +16,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     }
     return true;;
 }
-```
+// ```

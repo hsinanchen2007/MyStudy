@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历每一颗树是否值相同
+// ### 解题思路
+// 递归遍历每一颗树是否值相同
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
 
     }
 }
-```
+// ```

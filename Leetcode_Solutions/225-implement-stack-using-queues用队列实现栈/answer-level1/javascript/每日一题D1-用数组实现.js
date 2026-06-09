@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-栈：**后进先出**，它的增加与删除操作都是在同一端执行的
-队列：**先进先出**，它的增加操作在一端执行，删除操作在另一端执行
+// 栈：**后进先出**，它的增加与删除操作都是在同一端执行的
+// 队列：**先进先出**，它的增加操作在一端执行，删除操作在另一端执行
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -57,4 +57,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

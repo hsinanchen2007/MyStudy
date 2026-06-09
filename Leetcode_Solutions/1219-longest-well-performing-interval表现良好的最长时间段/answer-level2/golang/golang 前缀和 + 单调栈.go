@@ -1,9 +1,9 @@
-### 解题思路
-单调栈用于找比某个元素小（大）元素的位置
+// ### 解题思路
+// 单调栈用于找比某个元素小（大）元素的位置
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestWPI(hours []int) int {
     ans := 0
     //prefixSum
@@ -54,4 +54,4 @@ func Max (a,b int) int{
     }
     return b
 }
-```
+// ```

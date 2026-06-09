@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         def fun(x,y,i,temp): #x和y是board的坐标，i是word的索引，temp是一个存储已走过路径的set
@@ -16,4 +16,4 @@ class Solution:
                     return True
         return False
 
-```
+# ```

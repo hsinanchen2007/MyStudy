@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     struct ListNode* head = (struct ListNode*)malloc(sizeof(struct ListNode));
     struct ListNode* tmp = head;
@@ -28,4 +28,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return head -> next;
 }
-```
+// ```

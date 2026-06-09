@@ -1,4 +1,4 @@
-```
+// ```
 function nthSuperUglyNumber($n, $primes) {
     $dp[0] = 1;
     $plen = count($primes);
@@ -17,4 +17,4 @@ function nthSuperUglyNumber($n, $primes) {
     }
     return $dp[$n-1];
 }
-```
+// ```

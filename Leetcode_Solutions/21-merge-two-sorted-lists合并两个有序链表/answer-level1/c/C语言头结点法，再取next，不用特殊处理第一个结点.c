@@ -1,11 +1,11 @@
-### 解题思路
-第一种方法是需要申请额外空间的，第二种方法不用申请额外空间。
-在普通局，一般不要破坏原链表，所以求稳就用第一种方法。
-你要是能秀起来就用第二种方法，第二种方法时间空间都省了不少。
+// ### 解题思路
+// 第一种方法是需要申请额外空间的，第二种方法不用申请额外空间。
+// 在普通局，一般不要破坏原链表，所以求稳就用第一种方法。
+// 你要是能秀起来就用第二种方法，第二种方法时间空间都省了不少。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,9 +49,9 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 	}
 	return l3->next;
 }
-```
-不用分配额外空间的方法
-```c
+// ```
+// 不用分配额外空间的方法
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *head=(struct ListNode*)malloc(sizeof(struct ListNode));
     head->val=0;
@@ -80,4 +80,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return head->next;
 }
-```
+// ```

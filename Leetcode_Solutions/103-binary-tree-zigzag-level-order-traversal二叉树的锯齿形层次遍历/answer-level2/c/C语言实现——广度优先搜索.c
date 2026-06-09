@@ -1,12 +1,12 @@
-# 代码如下所示：
+// # 代码如下所示：
 
-广度优先搜索实现思想：
-1. 建立一个栈
-2. 把当前层的数据放入栈中
-3. 根据当前层的数据把下一层的数据放入栈中。
+// 广度优先搜索实现思想：
+// 1. 建立一个栈
+// 2. 把当前层的数据放入栈中
+// 3. 根据当前层的数据把下一层的数据放入栈中。
 
 
-```
+// ```
 int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes){
     struct TreeNode *arr[2000];
     int ** ret  = (int **)malloc(sizeof(int *) * 2000);
@@ -65,5 +65,5 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
     return ret;
 
 }
-```
-![截图.PNG](https://pic.leetcode-cn.com/7cd451c0d82f4eee3abf1cd69b349b3eaf989d5dce53f99fc9141a0d1338044b-%E6%88%AA%E5%9B%BE.PNG)
+// ```
+// ![截图.PNG](https://pic.leetcode-cn.com/7cd451c0d82f4eee3abf1cd69b349b3eaf989d5dce53f99fc9141a0d1338044b-%E6%88%AA%E5%9B%BE.PNG)

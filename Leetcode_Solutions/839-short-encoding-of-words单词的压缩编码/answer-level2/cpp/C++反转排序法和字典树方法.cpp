@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class TrieNode{
 public:
     TrieNode(int dep): childrenNum(0), depth(dep)
@@ -63,4 +63,4 @@ public:
         // return dictionaryEncoding(words);
     }
 };
-```
+// ```

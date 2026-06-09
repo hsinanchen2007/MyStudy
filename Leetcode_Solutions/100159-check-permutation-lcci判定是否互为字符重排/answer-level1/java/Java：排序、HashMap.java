@@ -1,4 +1,4 @@
-```java
+// ```java
 public boolean CheckPermutation(String s1, String s2) {
     if(s1.length() != s2.length()) 
         return false;
@@ -8,9 +8,9 @@ public boolean CheckPermutation(String s1, String s2) {
     Arrays.sort(c2);
     return Arrays.equals(c1, c2);
 }
-```
---------
-```java
+// ```
+// --------
+// ```java
 public boolean CheckPermutation(String s1, String s2) {
     if(s1.length() != s2.length()) 
         return false;
@@ -38,4 +38,4 @@ public boolean CheckPermutation(String s1, String s2) {
     }
     return true;
 }
-```
+// ```

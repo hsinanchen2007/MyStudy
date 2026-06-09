@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numberOfSubstrings(String s) {
         int ans=0;
@@ -16,4 +16,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

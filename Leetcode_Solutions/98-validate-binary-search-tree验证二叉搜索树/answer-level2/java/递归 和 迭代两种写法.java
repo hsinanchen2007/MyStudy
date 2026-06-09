@@ -1,7 +1,7 @@
-主要利用 二叉搜索树 中序遍历的有序性，只需在遍历的过程中判断当前节点是否大于前一个节点即可
+// 主要利用 二叉搜索树 中序遍历的有序性，只需在遍历的过程中判断当前节点是否大于前一个节点即可
 
-递归写法：
-```
+// 递归写法：
+// ```
     long pre = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
         if(root == null) return true;
@@ -14,10 +14,10 @@
         }
         return false;
    }
-```
+// ```
 
-非递归写法
-```
+// 非递归写法
+// ```
     long pre = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
         if(root == null) return true;
@@ -38,4 +38,4 @@
         
         return true;
    }
-```
+// ```

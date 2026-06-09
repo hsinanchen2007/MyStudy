@@ -1,6 +1,6 @@
-# 第一思路-暴力解法
+// # 第一思路-暴力解法
 
-```go
+// ```go
 func distributeCandies(candies int, num_people int) []int {
 	kid := make([]int, num_people)
 	n := 0           // 每次分糖果的个数
@@ -18,4 +18,4 @@ func distributeCandies(candies int, num_people int) []int {
 	}
 	return kid
 }
-```
+// ```

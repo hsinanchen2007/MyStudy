@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -13,9 +13,9 @@ public:
       return *iter;
     }
 };
-```
+// ```
 
-```
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -35,7 +35,7 @@ public:
         return iter_reverse->first;
     }
 };
-```
+// ```
 
 
 

@@ -1,12 +1,12 @@
-这个问题和copy list是一样的， 最简单的方法就是两遍遍历graph。
-- 第一遍，只建立new node和一一mapping的关系。
-- 第二遍，建立各个new node之间的关系。
-        这里注意一定要遍历的是 旧的graph，而后利用一一的映射关系，来将旧的node上的关系，映射到新的node上。
-        ie. mapping[old_node].next = mapping[old_node.next]
-            左边的next表示关系，右边的next表示一个点，两边用mapping表示都映射到了新点上。
+# 这个问题和copy list是一样的， 最简单的方法就是两遍遍历graph。
+# - 第一遍，只建立new node和一一mapping的关系。
+# - 第二遍，建立各个new node之间的关系。
+#         这里注意一定要遍历的是 旧的graph，而后利用一一的映射关系，来将旧的node上的关系，映射到新的node上。
+#         ie. mapping[old_node].next = mapping[old_node.next]
+#             左边的next表示关系，右边的next表示一个点，两边用mapping表示都映射到了新点上。
 
 
-```
+# ```
 # 对set用in，理论上， 时间复杂度应该是O(1)
 from collections import deque
 class Solution:
@@ -38,4 +38,4 @@ class Solution:
                     queue.append(neighbor)
 
         return mapping[node]
-```
+# ```

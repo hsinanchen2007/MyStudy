@@ -1,8 +1,8 @@
-### 解题思路
-二分查找
-### 代码
+// ### 解题思路
+// 二分查找
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int len = nums.length;
@@ -49,4 +49,4 @@ class Solution {
         return result;
     } 
 }
-```
+// ```

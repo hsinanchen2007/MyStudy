@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -9,4 +9,4 @@ public:
         return res;
     }
 };
-```
+// ```

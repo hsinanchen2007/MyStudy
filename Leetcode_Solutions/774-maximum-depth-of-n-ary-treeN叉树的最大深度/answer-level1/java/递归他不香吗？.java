@@ -1,11 +1,11 @@
-### 解题思路
-简单递归一下子
-![图片.png](https://pic.leetcode-cn.com/2b24da54fc4a39a096ddb14b949cb12c8afe18715d0e78c07b5de8ec04bd7bee-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 简单递归一下子
+// ![图片.png](https://pic.leetcode-cn.com/2b24da54fc4a39a096ddb14b949cb12c8afe18715d0e78c07b5de8ec04bd7bee-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -34,4 +34,4 @@ class Solution {
         return temp + 1;
     }
 }
-```
+// ```

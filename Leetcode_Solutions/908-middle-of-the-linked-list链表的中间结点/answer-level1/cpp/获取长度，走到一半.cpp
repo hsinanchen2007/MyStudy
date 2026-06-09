@@ -1,5 +1,5 @@
-常规做法，先得到链表长度，确定中间节点的位置，移动指针到该位置即可。
-```cpp
+// 常规做法，先得到链表长度，确定中间节点的位置，移动指针到该位置即可。
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,6 +37,6 @@ public:
         return sum;
     }
 };
-```
+// ```
 
-![图片.png](https://pic.leetcode-cn.com/c05824a608e7f5f56b6f9f926bf7cc7e760d1201408e88e696ef1747706855cd-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/c05824a608e7f5f56b6f9f926bf7cc7e760d1201408e88e696ef1747706855cd-%E5%9B%BE%E7%89%87.png)

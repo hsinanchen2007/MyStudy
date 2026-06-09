@@ -1,4 +1,4 @@
-```
+// ```
 
 public int twoCitySchedCost(int[][] costs) {
         Arrays.sort(costs, (a, b) -> {
@@ -24,4 +24,4 @@ public int twoCitySchedCost(int[][] costs) {
 		return sum;
     }
 
-```
+// ```

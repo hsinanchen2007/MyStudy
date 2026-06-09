@@ -1,4 +1,4 @@
-一次遍历，原先price_in、price_out单纯是数字，后考虑到prices = [2，4, 1]这种情况，将价格变成一对一对的列表，遍历列表，刷新profit
+# 一次遍历，原先price_in、price_out单纯是数字，后考虑到prices = [2，4, 1]这种情况，将价格变成一对一对的列表，遍历列表，刷新profit
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:

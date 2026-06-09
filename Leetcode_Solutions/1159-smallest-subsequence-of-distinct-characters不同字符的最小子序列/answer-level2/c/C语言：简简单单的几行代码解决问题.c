@@ -1,6 +1,6 @@
-![QQ截图20190724091927.png](https://pic.leetcode-cn.com/c883da467587af4fbf526662c0478881803c566b9e26f71259f911aba3130abb-QQ%E6%88%AA%E5%9B%BE20190724091927.png)
+// ![QQ截图20190724091927.png](https://pic.leetcode-cn.com/c883da467587af4fbf526662c0478881803c566b9e26f71259f911aba3130abb-QQ%E6%88%AA%E5%9B%BE20190724091927.png)
 
-```
+// ```
 int char_num[128]; //用来记录text中每个字母的数量
 int exist[128];    //用来标识该字母是否已经入栈
 char* stack = NULL;//用来当作栈
@@ -26,4 +26,4 @@ char * smallestSubsequence(char * text){
     return stack;
 }
 
-```
+// ```

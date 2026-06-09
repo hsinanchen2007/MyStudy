@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     long reminder,numerator,denominator;
@@ -34,4 +34,4 @@ public:
         return s;
     }
 };
-```
+// ```

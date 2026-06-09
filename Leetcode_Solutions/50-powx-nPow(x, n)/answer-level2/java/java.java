@@ -1,13 +1,13 @@
-### 解题思路
-简单的递归思想：
-n为正数：
-如果n为偶数，则x^n = (x^(n/2))^2;
-如果n为奇数，则x^(n-1)为上面那种情况
-如果n为负数：
-将n设置为正数，最后再除1即可
-### 代码
+// ### 解题思路
+// 简单的递归思想：
+// n为正数：
+// 如果n为偶数，则x^n = (x^(n/2))^2;
+// 如果n为奇数，则x^(n-1)为上面那种情况
+// 如果n为负数：
+// 将n设置为正数，最后再除1即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         boolean flag = n<0?true:false;
@@ -32,4 +32,4 @@ class Solution {
             return result;
     }
 }
-```
+// ```

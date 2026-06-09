@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numIslands(char[][] grid) {//dfs
         if(grid.length==0)
@@ -34,4 +34,4 @@ class Solution {
          dfs(grid,i,j+1,visited); 
     }
 }
-```
+// ```

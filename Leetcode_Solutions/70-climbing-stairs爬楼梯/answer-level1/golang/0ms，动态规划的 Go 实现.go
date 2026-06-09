@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/a04d88c63cc3ca85b2512a71519048caa6e1629b2127d5eea799cc2d3a79e929-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a04d88c63cc3ca85b2512a71519048caa6e1629b2127d5eea799cc2d3a79e929-image.png)
 
-自己写了个递归超时，然后参考官方题解写了记忆化递归和动态规划的 Go 实现，供各位参考。
+// 自己写了个递归超时，然后参考官方题解写了记忆化递归和动态规划的 Go 实现，供各位参考。
 
-递归
-```
+// 递归
+// ```
 var cnt int = 0
 
 func climb(curlevel int, sumlevel int) {
@@ -23,11 +23,11 @@ func climbStairs(n int) int {
     climb(0,n)
     return cnt
 }
-```
+// ```
 
 
-记忆化递归
-```
+// 记忆化递归
+// ```
 func climb(curlevel int, sumlevel int, cnt_nums []int) int {    // 递归所有情况
     if curlevel > sumlevel {                // 停止条件
         return 0
@@ -46,10 +46,10 @@ func climbStairs(n int) int {
     cnt := climb(0, n, cnt_nums)
     return cnt
 }
-```
+// ```
 
-动态规划
-```
+// 动态规划
+// ```
 func climbStairs(n int) int {
     dp := make([]int, n+1)
     if n>=1 {
@@ -63,4 +63,4 @@ func climbStairs(n int) int {
     }
     return dp[n]
 }
-```
+// ```

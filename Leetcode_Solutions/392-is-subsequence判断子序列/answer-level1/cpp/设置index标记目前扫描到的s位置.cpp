@@ -1,9 +1,9 @@
-### 解题思路
-没啥说的，思路明确
+// ### 解题思路
+// 没啥说的，思路明确
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -21,4 +21,4 @@ public:
         return false;
     }
 };
-```
+// ```

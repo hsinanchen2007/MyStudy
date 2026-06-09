@@ -1,8 +1,8 @@
-### 解题思路
-定义一个列表，存储二叉树的每个节点和深度，过程中持续更新最大深度
-### 代码
+# ### 解题思路
+# 定义一个列表，存储二叉树的每个节点和深度，过程中持续更新最大深度
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
                 max_deep = cur[1]+1
             i += 1
         return max_deep
-```
+# ```

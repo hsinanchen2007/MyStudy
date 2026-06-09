@@ -1,9 +1,9 @@
-### 解题思路
-运用 BFS
+// ### 解题思路
+// 运用 BFS
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -31,4 +31,4 @@ var generateParenthesis = function(n) {
 
 	return Array.from(result);
 };
-```
+// ```

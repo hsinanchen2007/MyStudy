@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，相当于 a + b = b + a;
+// ### 解题思路
+// 快慢指针，相当于 a + b = b + a;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ public:
         return head;
     }
 };
-```
+// ```

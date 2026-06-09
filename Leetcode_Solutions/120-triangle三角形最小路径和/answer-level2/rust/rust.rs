@@ -1,10 +1,10 @@
-### 解题思路
-//状态转移方程： dp[i][j] = Min(dp[i-1][j-1], dp[i-1][j]) + triangle[i][j];
-//注意边界条件 没有左上角和右上角的情况
+// ### 解题思路
+// //状态转移方程： dp[i][j] = Min(dp[i-1][j-1], dp[i-1][j]) + triangle[i][j];
+// //注意边界条件 没有左上角和右上角的情况
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn minimum_total(triangle: Vec<Vec<i32>>) -> i32 {
         let n = triangle.len();
@@ -39,4 +39,4 @@ impl Solution {
         result
     }
 }
-```
+// ```

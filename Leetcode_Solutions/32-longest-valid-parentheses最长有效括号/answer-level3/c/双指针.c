@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) (a) > (b) ? (a) : (b)
 int longestValidParentheses(char * s){
     int sLen = strlen(s);
@@ -43,4 +43,4 @@ int longestValidParentheses(char * s){
     }
     return rslt;
 }
-```
+// ```

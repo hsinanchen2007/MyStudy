@@ -1,11 +1,11 @@
-### 解题思路
-设置快慢指针p,q初始同时指向head
-先让快指针q先next  k次
-在同时让p，q进行next，直到q为空
-返回p->val
-### 代码
+// ### 解题思路
+// 设置快慢指针p,q初始同时指向head
+// 先让快指针q先next  k次
+// 在同时让p，q进行next，直到q为空
+// 返回p->val
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ int kthToLast(struct ListNode* head, int k){
 
     return p->val;
 }
-```
+// ```

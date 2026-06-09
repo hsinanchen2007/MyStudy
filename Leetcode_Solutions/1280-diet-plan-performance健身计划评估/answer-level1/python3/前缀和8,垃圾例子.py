@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dietPlanPerformance(self, calories: List[int], k: int, lower: int, upper: int) -> int:
         pre = [0]
@@ -21,4 +21,4 @@ class Solution:
                 cur = 0
             ans+=cur
         return ans
-```
+# ```

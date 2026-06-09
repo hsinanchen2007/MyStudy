@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+# ### 解题思路
+# 双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -37,4 +37,4 @@ class Solution:
                 start=num_size
 
                     
-```
+# ```

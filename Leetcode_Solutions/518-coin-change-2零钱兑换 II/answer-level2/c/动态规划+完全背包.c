@@ -1,10 +1,10 @@
-### 解题思路
-递推公式：dp(i, v) += dp(i - 1, v - c[i])
-优化空间复杂度：dp(v) += dp（v - c[i])
+// ### 解题思路
+// 递推公式：dp(i, v) += dp(i - 1, v - c[i])
+// 优化空间复杂度：dp(v) += dp（v - c[i])
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int change(int amount, int* coins, int coinsSize){
     int i;
@@ -30,4 +30,4 @@ int change(int amount, int* coins, int coinsSize){
 
     return res[amount];
 }
-```
+// ```

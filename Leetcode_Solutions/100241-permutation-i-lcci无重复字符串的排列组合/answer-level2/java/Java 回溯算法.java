@@ -1,11 +1,11 @@
-### 解题思路
-回溯算法
-执行用时 :8 ms, 在所有 Java 提交中击败了82.77%的用户
-内存消耗 :51 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 回溯算法
+// 执行用时 :8 ms, 在所有 Java 提交中击败了82.77%的用户
+// 内存消耗 :51 MB, 在所有 Java 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> list = new ArrayList<>();
     public String[] permutation(String S) {
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

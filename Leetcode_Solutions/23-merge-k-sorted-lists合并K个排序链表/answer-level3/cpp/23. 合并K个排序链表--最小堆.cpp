@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 44 ms, 在所有 C++ 提交中击败了39.76%的用户
+// ### 解题思路
+// 执行用时 44 ms, 在所有 C++ 提交中击败了39.76%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
         return fist_node->next;
     }
 };
-```
+// ```

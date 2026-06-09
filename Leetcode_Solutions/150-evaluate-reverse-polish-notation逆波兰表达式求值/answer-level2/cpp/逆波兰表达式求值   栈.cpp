@@ -1,9 +1,9 @@
-容易出错的地方：stack.pop() 和stack.top()搞混淆
-switch('')里面是字符
+// 容易出错的地方：stack.pop() 和stack.top()搞混淆
+// switch('')里面是字符
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void helper(stack<int>& mystack, string it)
@@ -46,4 +46,4 @@ public:
         return mystack.top();
     }
 };
-```
+// ```

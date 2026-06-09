@@ -1,11 +1,11 @@
-### 解题思路
-几何题。
-两个矩形没有交集的情况是两个矩形的长宽加起来小于这两个矩形的能形成的最大矩形的长和宽。
+# ### 解题思路
+# 几何题。
+# 两个矩形没有交集的情况是两个矩形的长宽加起来小于这两个矩形的能形成的最大矩形的长和宽。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         def get_range(rect):
@@ -21,4 +21,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

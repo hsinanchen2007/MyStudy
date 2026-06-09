@@ -1,5 +1,5 @@
-三指针动态规划
-```
+// 三指针动态规划
+// ```
 class Solution {
     public int getKthMagicNumber(int k) {
         if(k==1) return 1;
@@ -19,4 +19,4 @@ class Solution {
         return dp[k-1];
     }
 }
-```
+// ```

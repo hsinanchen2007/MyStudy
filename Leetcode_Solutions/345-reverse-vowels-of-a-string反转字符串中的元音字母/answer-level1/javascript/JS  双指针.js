@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var reverseVowels = function(s) {
     const set = new Set(['a','e','i','o','u','A','E','I','O','U'])
     const arr = s.split('')
@@ -19,6 +19,6 @@ var reverseVowels = function(s) {
     }
     return arr.join('')
 };
-```
-时间复杂度：O(n)
-空间复杂度：O(2n)
+// ```
+// 时间复杂度：O(n)
+// 空间复杂度：O(2n)

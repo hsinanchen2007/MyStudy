@@ -1,9 +1,9 @@
-### 解题思路
-提前分配内存防止溢出，还是建议复制操作吧。
+// ### 解题思路
+// 提前分配内存防止溢出，还是建议复制操作吧。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -18,4 +18,4 @@ public:
         return s;
     }
 };
-```
+// ```

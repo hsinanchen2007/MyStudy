@@ -1,9 +1,9 @@
-### 解题思路
-递归 回溯 二进制
+# ### 解题思路
+# 递归 回溯 二进制
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # https://leetcode-cn.com/problems/subsets/
 class Solution_recursion:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -49,4 +49,4 @@ class Solution_bin:
             res.append(res_tmp)
         return res
     
-```
+# ```

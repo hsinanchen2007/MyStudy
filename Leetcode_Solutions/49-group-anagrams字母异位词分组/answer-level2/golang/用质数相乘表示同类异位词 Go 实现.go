@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/41ec020976500c84b55487ca6adce863271d131bededeffac4e5d8ee26101be0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/41ec020976500c84b55487ca6adce863271d131bededeffac4e5d8ee26101be0-image.png)
 
-用26个不同的质数代表26个字母，这样每类异位词都有一个唯一值代表。
+// 用26个不同的质数代表26个字母，这样每类异位词都有一个唯一值代表。
 
-```
+// ```
 func groupAnagrams(strs []string) [][]string {
     cnt := 0                        // 有几个字母异位词
     hash := map[int]int{}           // 记录每种异位词对应的下标数组
@@ -23,4 +23,4 @@ func groupAnagrams(strs []string) [][]string {
     }
     return ans
 }
-```
+// ```

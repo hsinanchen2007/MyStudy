@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         vowel = ['a','e','i','o','u','A','E','I','O','U']         # 元音字母
@@ -11,4 +11,4 @@ class Solution:
                 word = s[1:] + s[0] + 'ma' + ('a'*(i+1))
             res.append(word)
         return ' '.join(res)
-```
+# ```

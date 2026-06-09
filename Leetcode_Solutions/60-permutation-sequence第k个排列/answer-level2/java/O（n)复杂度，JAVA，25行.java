@@ -1,9 +1,9 @@
-### 解题思路
-从高位到低位，使用同余的思想，依次求出数字下标，并从nums数组中取出。
+// ### 解题思路
+// 从高位到低位，使用同余的思想，依次求出数字下标，并从nums数组中取出。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getPermutation(int n, int k) {
         List<Integer> nums = new LinkedList<>();
@@ -29,4 +29,4 @@ class Solution {
         return i * func(i - 1);
     }
 }
-```
+// ```

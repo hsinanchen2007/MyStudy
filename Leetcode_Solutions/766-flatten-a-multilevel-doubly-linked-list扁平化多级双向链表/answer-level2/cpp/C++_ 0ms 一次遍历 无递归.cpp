@@ -1,5 +1,5 @@
-我寻思这不就是每遇到一个child就把它并到队伍里然后head = head->next吗？
-```
+// 我寻思这不就是每遇到一个child就把它并到队伍里然后head = head->next吗？
+// ```
 /*
 // Definition for a Node.
 class Node {
@@ -29,4 +29,4 @@ public:
         return h;
     }
 };
-```
+// ```

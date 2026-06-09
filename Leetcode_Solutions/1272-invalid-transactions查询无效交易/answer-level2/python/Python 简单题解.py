@@ -1,4 +1,4 @@
-```Python []
+# ```Python []
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
         trans = [x.split(',') for x in transactions]
@@ -17,6 +17,6 @@ class Solution:
                     res.append(transactions[i])
                     break;
         return res
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/0ca7e2bab3e3ca16446616d66fa08af51ea98971b51995ed6d2e6e398553f2d6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0ca7e2bab3e3ca16446616d66fa08af51ea98971b51995ed6d2e6e398553f2d6-image.png)

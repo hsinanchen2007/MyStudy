@@ -1,5 +1,5 @@
-# C++版本的链表排序代码：使用QuickSort实现
-```
+// # C++版本的链表排序代码：使用QuickSort实现
+// ```
 class Solution {
 public:
 	ListNode* sortList(ListNode* head) {
@@ -43,5 +43,5 @@ public:
 	}
 
 };
-```
+// ```
 

@@ -1,6 +1,6 @@
-就是最笨的if语句来判断...
+// 就是最笨的if语句来判断...
 
-```java []
+// ```java []
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode Head1 = new ListNode(0);   //返回链表
@@ -35,4 +35,4 @@ class Solution {
         return Head1.next;
     }
 }
-```
+// ```

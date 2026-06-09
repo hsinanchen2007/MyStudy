@@ -1,4 +1,4 @@
-num先转string，取出每一位累加，再递归一波， 时间复杂度97%，空间100%
+# num先转string，取出每一位累加，再递归一波， 时间复杂度97%，空间100%
 class Solution:
     def addDigits(self, num: int) -> int:
         if num < 10:

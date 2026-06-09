@@ -1,6 +1,6 @@
-1. 常规 dp 解法, 第 i 天的最长预约时间
-dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i])
-```
+// 1. 常规 dp 解法, 第 i 天的最长预约时间
+// dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i])
+// ```
 var massage = function (nums) {
     var len = nums.length;
     if (len === 0) return 0;
@@ -13,9 +13,9 @@ var massage = function (nums) {
     }
     return dp[len - 1];
 };
-```
-2. dp 空间优化
-```
+// ```
+// 2. dp 空间优化
+// ```
 var massage = function (nums) {
     var a = 0 ;
     var b = 0;
@@ -26,5 +26,5 @@ var massage = function (nums) {
     }
     return b;
 }
-```
+// ```
 

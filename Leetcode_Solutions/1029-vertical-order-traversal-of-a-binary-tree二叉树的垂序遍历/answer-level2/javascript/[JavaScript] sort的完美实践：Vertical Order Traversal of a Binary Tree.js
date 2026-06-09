@@ -1,7 +1,7 @@
-### 参考别的大佬的解学到很多：
-1. API的使用sort
-2. 第二个是我的原解，做烦了
-```javascript
+// ### 参考别的大佬的解学到很多：
+// 1. API的使用sort
+// 2. 第二个是我的原解，做烦了
+// ```javascript
 const verticalTraversal = root => {
     if(!root) return [];
     const cords = []; // 这里定义成数组，如果用set和add，会增加时间复杂度(add为O(1))
@@ -33,15 +33,15 @@ function dfs(root, cords, x, y) {
     dfs(root.left, cords, x-1, y-1);
     dfs(root.right, cords, x+1, y-1);
 }
-```
-### 原解：
-1. 采用前序遍历
-2. 两种节点的存放： 
-    1. 用于记录节点和坐标的对应关系：{ 节点: [x坐标, y坐标] } 
-    2. 用于遍历时的顺序：{ x坐标: [y坐标] } 
-3. 反思：如果更好地使用sort可以避免无用的数据结构和排序以及各种复杂度上的浪费
+// ```
+// ### 原解：
+// 1. 采用前序遍历
+// 2. 两种节点的存放： 
+//     1. 用于记录节点和坐标的对应关系：{ 节点: [x坐标, y坐标] } 
+//     2. 用于遍历时的顺序：{ x坐标: [y坐标] } 
+// 3. 反思：如果更好地使用sort可以避免无用的数据结构和排序以及各种复杂度上的浪费
 
-```javascript
+// ```javascript
 const verticalTraversal = function(root) {
     if(!root) return [];
     let cords = {};
@@ -90,4 +90,4 @@ const sameCordNodes = function(cords, x, y) {
     }
     return same.sort((a,b)=> a-b); // 从小到大排序
 }
-```
+// ```

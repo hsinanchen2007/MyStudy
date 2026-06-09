@@ -1,7 +1,7 @@
-1. 先统计字符串s中各个字符的频率
-2. 自定义Item存储字符和对应的频率，然后根据字符频率创建优先队列
-3. 挨个从队列中取出元素Item，根据字符和频率拼接出结果
-```
+// 1. 先统计字符串s中各个字符的频率
+// 2. 自定义Item存储字符和对应的频率，然后根据字符频率创建优先队列
+// 3. 挨个从队列中取出元素Item，根据字符和频率拼接出结果
+// ```
 public String frequencySort(String s) {
         class Item{
 
@@ -35,4 +35,4 @@ public String frequencySort(String s) {
         return stringBuilder.toString();
 
     }
-```
+// ```

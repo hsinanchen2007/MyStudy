@@ -1,13 +1,13 @@
-### 解题思路
-参照之前各位大佬的解法，简单说一下自己的思路（参照了之前的双指针的思路做了优化）
-1、先排序
-2、特殊情况处理一下（长度小于3，全为正数，全为负数，全为0）
-3、将所有值存入hash表
-4、做两次循环判定
+# ### 解题思路
+# 参照之前各位大佬的解法，简单说一下自己的思路（参照了之前的双指针的思路做了优化）
+# 1、先排序
+# 2、特殊情况处理一下（长度小于3，全为正数，全为负数，全为0）
+# 3、将所有值存入hash表
+# 4、做两次循环判定
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums_length = len(nums)
@@ -41,4 +41,4 @@ class Solution:
                             result.append(target_row)
                             temp_row = target_row
         return result
-```
+# ```

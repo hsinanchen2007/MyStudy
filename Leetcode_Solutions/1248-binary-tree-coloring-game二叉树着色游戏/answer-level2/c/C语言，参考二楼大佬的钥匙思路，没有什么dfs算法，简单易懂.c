@@ -1,6 +1,6 @@
-参考二楼大佬的钥匙思路，以一号玩家节点为中心，划分成三个区域，计算每个区域的节点数，只要有一个的节点数区域大于一半以上的总节点数，则认为二号玩家可以获胜
+// 参考二楼大佬的钥匙思路，以一号玩家节点为中心，划分成三个区域，计算每个区域的节点数，只要有一个的节点数区域大于一半以上的总节点数，则认为二号玩家可以获胜
 
-```
+// ```
 struct TreeNode *g_left = NULL;
 struct TreeNode *g_right = NULL;
 
@@ -43,4 +43,4 @@ bool btreeGameWinningMove(struct TreeNode* root, int n, int x){
 
     return false;
 }
-```
+// ```

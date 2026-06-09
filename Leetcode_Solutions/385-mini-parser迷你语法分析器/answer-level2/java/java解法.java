@@ -1,6 +1,6 @@
-执行用时 : 16 ms, 击败了51.02% 的用户。
-内存消耗 : 38.7 MB, 击败了95.45% 的用户。
-```
+// 执行用时 : 16 ms, 击败了51.02% 的用户。
+// 内存消耗 : 38.7 MB, 击败了95.45% 的用户。
+// ```
 class Solution {
     public NestedInteger deserialize(String s) {
         if(!s.contains("[")){
@@ -55,4 +55,4 @@ class Solution {
         return numStack.pop();
     }
 }
-```
+// ```

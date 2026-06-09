@@ -1,10 +1,10 @@
-### 解题思路
-- 根据深度优先遍历的先序遍历来遍历二叉树
-- 当到达叶子节点，路径和等于目标和，那么就返回True,结束搜索。
+# ### 解题思路
+# - 根据深度优先遍历的先序遍历来遍历二叉树
+# - 当到达叶子节点，路径和等于目标和，那么就返回True,结束搜索。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
         
 
 
-```
+# ```

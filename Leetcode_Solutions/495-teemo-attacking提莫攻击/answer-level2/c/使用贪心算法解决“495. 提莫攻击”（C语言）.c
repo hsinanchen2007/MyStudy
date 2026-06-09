@@ -1,26 +1,26 @@
-### 解题思路
-典型的贪心算法，跳跃类型问题。
+// ### 解题思路
+// 典型的贪心算法，跳跃类型问题。
 
-主要算法思路为，先确定一步范围，然后将范围内的数据用于确定下一次范围。
+// 主要算法思路为，先确定一步范围，然后将范围内的数据用于确定下一次范围。
 
-此类问题解法如下：
+// 此类问题解法如下：
 
-1.关键三个变量：起点，当前范围和下次范围
+// 1.关键三个变量：起点，当前范围和下次范围
 
-2.在当前范围内，更新下次范围
+// 2.在当前范围内，更新下次范围
 
-3.统计信息，更新起点，当前和下次范围
+// 3.统计信息，更新起点，当前和下次范围
 
-4.统计时，区分连续扩展区间，和新开辟区间
+// 4.统计时，区分连续扩展区间，和新开辟区间
 
-5.结束时，注意统计最后一次信息
+// 5.结束时，注意统计最后一次信息
 
-![image.png](https://pic.leetcode-cn.com/9a69cfbf12245c2a762b4bdd79e3da564ce62977d43d33d6e0f2626982c0cbbb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9a69cfbf12245c2a762b4bdd79e3da564ce62977d43d33d6e0f2626982c0cbbb-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -94,4 +94,4 @@ int findPoisonedDuration(int* timeSeries, int timeSeriesSize, int duration){
 
     return ret;
 }
-```
+// ```

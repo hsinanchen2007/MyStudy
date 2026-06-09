@@ -1,8 +1,8 @@
-思路
-    1. 找出数组中最多多少元素可以组成target
-    2. 如果给定一个数目，也就是说找出数组中确切个数的元素来组成target
-    3. 去重
-```java
+// 思路
+//     1. 找出数组中最多多少元素可以组成target
+//     2. 如果给定一个数目，也就是说找出数组中确切个数的元素来组成target
+//     3. 去重
+// ```java
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if (candidates.length == 0)
@@ -143,4 +143,4 @@ class Solution {
     }
 }
 
-```
+// ```

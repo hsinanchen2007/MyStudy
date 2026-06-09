@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isUnique(astr string) bool {
 
 	if len(astr) == 0 {
@@ -23,4 +23,4 @@ func isUnique(astr string) bool {
 	return true
 
 }
-```
+// ```

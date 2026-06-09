@@ -1,5 +1,5 @@
-js 一层层剥开暴力解
-```js
+// js 一层层剥开暴力解
+// ```js
 /**
  * @param {number} n
  * @param {number[][]} edges
@@ -27,9 +27,9 @@ var findMinHeightTrees = function(n, edges) {
     }
     return items.length ? items : res;
 };
-```
-BFS出度
-```js
+// ```
+// BFS出度
+// ```js
 /**
  * @param {number} n
  * @param {number[][]} edges
@@ -65,5 +65,5 @@ var findMinHeightTrees = function(n, edges) {
     }
     return res;
 };
-```
+// ```
 

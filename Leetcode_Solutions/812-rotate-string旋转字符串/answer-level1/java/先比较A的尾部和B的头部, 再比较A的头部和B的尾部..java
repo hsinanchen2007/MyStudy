@@ -1,7 +1,7 @@
-1. 先比较A从开头到某一位和B从某一位到结尾是否相等. 如果走到B的结尾时不满足条件, 返回false.
-2. 比较A剩余到结尾和B开头的内容是否相等. 相等时返回true, 否则返回false.
+// 1. 先比较A从开头到某一位和B从某一位到结尾是否相等. 如果走到B的结尾时不满足条件, 返回false.
+// 2. 比较A剩余到结尾和B开头的内容是否相等. 相等时返回true, 否则返回false.
 
-```java
+// ```java
     public boolean rotateString(String A, String B) {
         if (A.length() != B.length()) {
             return false;
@@ -31,4 +31,4 @@
         }
         return true;
     }
-```
+// ```

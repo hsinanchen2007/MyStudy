@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  private String[] strings;
     private String string;
@@ -20,4 +20,4 @@ class Solution {
         return strings[0].equals("0")?"0":string;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-对于这种两两互相关系的情况通常使用并查集。并查集的father表示当前元素是father的倍数。在查找father时可以压缩路径，降低之后的查询复杂度。
+// 对于这种两两互相关系的情况通常使用并查集。并查集的father表示当前元素是father的倍数。在查找father时可以压缩路径，降低之后的查询复杂度。
 
-```c++
+// ```c++
 struct Union{
     Union* father;
     double times;
@@ -48,4 +48,4 @@ public:
         return ans;
     }
 };
-```
+// ```

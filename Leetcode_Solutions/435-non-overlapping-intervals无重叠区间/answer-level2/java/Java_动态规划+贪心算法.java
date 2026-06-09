@@ -1,5 +1,5 @@
-## 动态规划解法
-```java
+// ## 动态规划解法
+// ```java
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals.length == 0) {
             return 0;
@@ -36,10 +36,10 @@
         // 答案是要去除多少个
         return intervals.length - result;
     }
-```
+// ```
 
-## 贪心算法
-```java
+// ## 贪心算法
+// ```java
     // 贪心算法
     // 按照区间的结尾排序，每次选择结尾最早的，且和前一个区间不重叠的区间。
     // 因为每次都选结尾最早的，所以区间跨度一定是最小的，重叠就最少
@@ -75,4 +75,4 @@
         }
         return intervals.length - result;
     }
-```
+// ```

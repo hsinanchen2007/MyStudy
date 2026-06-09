@@ -1,5 +1,5 @@
-这道题考察树的基本遍历,下面是迭代方法实现.
-```
+// 这道题考察树的基本遍历,下面是迭代方法实现.
+// ```
     vector<int> getAllElements(TreeNode *root1, TreeNode *root2) {
         vector<int> v1 = vector<int>(); // 树1数组
         vector<int> v2 = vector<int>(); // 树2数组
@@ -64,4 +64,4 @@
         }
         return res;
     }
-```
+// ```

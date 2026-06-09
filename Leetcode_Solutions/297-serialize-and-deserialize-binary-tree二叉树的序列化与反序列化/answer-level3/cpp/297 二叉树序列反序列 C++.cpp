@@ -1,9 +1,9 @@
-### 解题思路
-思路1，按照先左子树，后右子树的序列方式进行序列化和反序列化，这样建叔的时候会比较方便
-思路2，按照leetcode给的方式构建树
-### 代码
+// ### 解题思路
+// 思路1，按照先左子树，后右子树的序列方式进行序列化和反序列化，这样建叔的时候会比较方便
+// 思路2，按照leetcode给的方式构建树
+// ### 代码
 
-```cpp
+// ```cpp
 #include <stdlib.h>
 /**
  * Definition for a binary tree node.
@@ -70,10 +70,10 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
-方法2：
+// ```
+// 方法2：
 
-```cpp
+// ```cpp
 #include <stdlib.h>
 /**
  * Definition for a binary tree node.
@@ -172,4 +172,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

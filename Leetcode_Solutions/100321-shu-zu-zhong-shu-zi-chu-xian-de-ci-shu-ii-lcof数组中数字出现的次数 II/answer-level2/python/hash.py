@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         dic  ={}
@@ -14,4 +14,4 @@ class Solution:
                 if dic[nums[i]]==3:dic.pop(nums[i]) 
                 
         return list(dic.keys())[0]
-```
+# ```

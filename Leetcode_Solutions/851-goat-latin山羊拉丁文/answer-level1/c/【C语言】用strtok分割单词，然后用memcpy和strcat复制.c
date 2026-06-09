@@ -1,9 +1,9 @@
-用strtok分割单词，然后用memcpy和strcat复制
-1.判断首字母是否元音时，统计转换为小写字母再判断；
-2.记得去掉处理最后一个单词而引入的空格
+// 用strtok分割单词，然后用memcpy和strcat复制
+// 1.判断首字母是否元音时，统计转换为小写字母再判断；
+// 2.记得去掉处理最后一个单词而引入的空格
 
 
-```
+// ```
 #include <string.h>
 #define MAX_LEN 10000
 
@@ -71,4 +71,4 @@ char * toGoatLatin(char * S)
 
     return goatLatin;
 }
-```
+// ```

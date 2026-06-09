@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/dd30c888ae118810ab4591e8e3421bb054813f45eef587298f38256f5af2c026-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dd30c888ae118810ab4591e8e3421bb054813f45eef587298f38256f5af2c026-image.png)
 
-没什么好说的，模拟生成下一个字符串
+// 没什么好说的，模拟生成下一个字符串
 
-代码
-```
+// 代码
+// ```
 func countAndSay(n int) string {
     s := "1"
     for n>1 {   // 循环生成下一个字符串
@@ -31,4 +31,4 @@ func countAndSay(n int) string {
     }
     return s
 }
-```
+// ```

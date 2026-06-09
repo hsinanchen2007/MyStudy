@@ -1,8 +1,8 @@
-### 解题思路
-制作几个列表来换取算法上的简单
-### 代码
+# ### 解题思路
+# 制作几个列表来换取算法上的简单
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         res = 0
@@ -17,4 +17,4 @@ class Solution:
                 res -= subnum[i]
         
         return res
-```
+# ```

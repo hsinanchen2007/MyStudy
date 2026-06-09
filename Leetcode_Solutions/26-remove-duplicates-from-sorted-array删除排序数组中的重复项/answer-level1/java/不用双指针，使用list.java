@@ -1,4 +1,4 @@
-```
+// ```
 public int removeDuplicates(int[] nums) {
 		if(nums==null)return 0;
 		if(nums.length==0)return 0;
@@ -15,7 +15,7 @@ public int removeDuplicates(int[] nums) {
 		}
 		return a.size();
 	}
-```
-运行时间慢了，但是占用内存还不错。所以就分享上来了。其实和双指针是一样的思路，
-![2019-11-12_143400.jpg](https://pic.leetcode-cn.com/a0252240f946e45d09189f6a15f7fb2e907e46cdc95c0cd8476957a6781e403f-2019-11-12_143400.jpg)
+// ```
+// 运行时间慢了，但是占用内存还不错。所以就分享上来了。其实和双指针是一样的思路，
+// ![2019-11-12_143400.jpg](https://pic.leetcode-cn.com/a0252240f946e45d09189f6a15f7fb2e907e46cdc95c0cd8476957a6781e403f-2019-11-12_143400.jpg)
 

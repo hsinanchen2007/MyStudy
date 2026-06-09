@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-先用投机过啊! 哈哈
+# 先用投机过啊! 哈哈
 
-```python
+# ```python
 class AllOne:
 
     def __init__(self):
@@ -42,18 +42,18 @@ class AllOne:
         Returns one of the keys with Minimal value.
         """
         return min(self.lookup.items(), key=lambda x: x[1], default=[""])[0]
-```
+# ```
 
-当然，还是那句话：**过不是我们的目的，目的是锻炼自己代码能力。**
+# 当然，还是那句话：**过不是我们的目的，目的是锻炼自己代码能力。**
 
-题目中说以 $O(1)$的时间，我们可以采用双向链表，如下图所示
+# 题目中说以 $O(1)$的时间，我们可以采用双向链表，如下图所示
 
-![image-20200304162915545.png](https://pic.leetcode-cn.com/97efe248949947f97db00414cfa6b58e0d6875c628f85c111b3603780a8b4851-image-20200304162915545.png)
+# ![image-20200304162915545.png](https://pic.leetcode-cn.com/97efe248949947f97db00414cfa6b58e0d6875c628f85c111b3603780a8b4851-image-20200304162915545.png)
 
 
-双向节点的值表示key的计数值，我们同一个计数的key 都挂在同一个节点上。有`head, tail`求最大值最小值都在 $O(1)$时间复杂度了。
+# 双向节点的值表示key的计数值，我们同一个计数的key 都挂在同一个节点上。有`head, tail`求最大值最小值都在 $O(1)$时间复杂度了。
 
-```python
+# ```python
 # 定义双向节点
 class Node:
     def __init__(self, cnt):
@@ -159,7 +159,7 @@ class AllOne:
         curNode.prev = None
 
 
-```
+# ```
 
 
 

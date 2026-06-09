@@ -1,9 +1,9 @@
-### 解题思路
-快速排序的思路
+# ### 解题思路
+# 快速排序的思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         p = 0
@@ -17,4 +17,4 @@ class Solution:
                 q -= 1
         return nums
 
-```
+# ```

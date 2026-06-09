@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minimumTotal(self, triangle):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             newSumPath.append(sumPath[-1]+triangle[i][-1])
             sumPath = newSumPath
         return min(sumPath)
-```
+# ```

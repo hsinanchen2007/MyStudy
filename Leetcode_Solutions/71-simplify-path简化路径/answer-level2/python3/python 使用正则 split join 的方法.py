@@ -1,9 +1,9 @@
-先通过正则消除多余“/”
-然后通过split形成list
-循环遍历list 遇到“..” or “.” 特殊处理 其他直接放入新的list
-然后用join方法返回结果
+# 先通过正则消除多余“/”
+# 然后通过split形成list
+# 循环遍历list 遇到“..” or “.” 特殊处理 其他直接放入新的list
+# 然后用join方法返回结果
 
-```python
+# ```python
 class Solution:
     def simplifyPath(self, path: str) -> str:
         import re
@@ -30,4 +30,4 @@ class Solution:
             return "/"
         return "/"+"/".join(result)
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func smallestFactorization(a int) int {
 	if a < 10 {
 		return a
@@ -17,4 +17,4 @@ func smallestFactorization(a int) int {
 	}
 	return 0
 }
-```
+// ```

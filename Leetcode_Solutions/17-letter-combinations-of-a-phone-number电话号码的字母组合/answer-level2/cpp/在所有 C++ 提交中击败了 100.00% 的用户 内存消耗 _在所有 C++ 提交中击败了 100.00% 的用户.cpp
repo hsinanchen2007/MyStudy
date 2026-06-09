@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	void merge(vector<string>& v, string str) {
@@ -44,4 +44,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

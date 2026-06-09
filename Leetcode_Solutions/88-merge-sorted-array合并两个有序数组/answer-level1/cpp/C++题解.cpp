@@ -1,8 +1,8 @@
-# 思路
-从nums1尾部开始，依次将nums1、nums2中数字由大到小填入到nums1中。
+// # 思路
+// 从nums1尾部开始，依次将nums1、nums2中数字由大到小填入到nums1中。
 
-# 代码
-```c++
+// # 代码
+// ```c++
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

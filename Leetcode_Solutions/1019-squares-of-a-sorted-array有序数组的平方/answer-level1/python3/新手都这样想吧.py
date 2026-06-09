@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
         A1=[]
@@ -8,6 +8,6 @@ class Solution:
             A1.append(x)
         A1.sort()
         return A1
-```
+# ```
 
 

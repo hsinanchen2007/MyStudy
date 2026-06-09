@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-1. 这道题目最大的问题在于我误解了题意(+_+)?，没有仔细看示例。题目的意思是chars中的每个char在针对每个单词时只能用一次，而不是针对整个words只能用一次。
+// 1. 这道题目最大的问题在于我误解了题意(+_+)?，没有仔细看示例。题目的意思是chars中的每个char在针对每个单词时只能用一次，而不是针对整个words只能用一次。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -28,7 +28,7 @@ public:
         return sum;
     }
 };
-```
+// ```
 
 
 

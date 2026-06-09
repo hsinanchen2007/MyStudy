@@ -1,6 +1,6 @@
-- 直接看代码，很好理解的
+// - 直接看代码，很好理解的
 
-```
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -14,4 +14,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```php []
+// ```php []
 function getlirun($arr){
 	$res = array();
 	$lastkey = count($arr) - 1;
@@ -106,6 +106,6 @@ function getlirun($arr){
 	return $c1arr[0]+$c1arr[1];
 	
 }
-```
+// ```
 
 

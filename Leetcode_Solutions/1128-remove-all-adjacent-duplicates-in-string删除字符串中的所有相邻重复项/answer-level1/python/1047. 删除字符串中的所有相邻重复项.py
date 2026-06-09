@@ -1,4 +1,4 @@
-```
+# ```
 # -*- coding: utf-8 -*
 
 class Solution(object):
@@ -15,4 +15,4 @@ class Solution(object):
                 L.append(v)
         return ''.join(L)
 
-```
+# ```

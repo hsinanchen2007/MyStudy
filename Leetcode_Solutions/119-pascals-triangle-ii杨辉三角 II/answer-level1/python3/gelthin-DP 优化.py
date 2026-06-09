@@ -1,10 +1,10 @@
-### 解题思路
-我这里的写的方式不对，没有对应到 DP 优化
-需要重写。
+# ### 解题思路
+# 我这里的写的方式不对，没有对应到 DP 优化
+# 需要重写。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         if rowIndex == 0:
@@ -22,4 +22,4 @@ class Solution:
             result = new_result
         return result
 
-```
+# ```

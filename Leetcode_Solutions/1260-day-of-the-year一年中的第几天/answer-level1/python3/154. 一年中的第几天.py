@@ -1,9 +1,9 @@
-### 解题思路
-1处理数据2判断年份3得出天数
+# ### 解题思路
+# 1处理数据2判断年份3得出天数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dayOfYear(self, date: str) -> int:
         month1=[0,31,29,31,30,31,30,31,31,30,31,30,31]
@@ -20,4 +20,4 @@ class Solution:
             sum=sum+day
         return sum
             
-```
+# ```

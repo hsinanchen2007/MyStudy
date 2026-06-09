@@ -1,10 +1,10 @@
-### 解题思路
-map + 递归
-时间有些慢，还请大佬给些优化的意见
+// ### 解题思路
+// map + 递归
+// 时间有些慢，还请大佬给些优化的意见
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} pid
  * @param {number[]} ppid
@@ -45,4 +45,4 @@ var killProcess = function(pid, ppid, kill) {
         }
     }
 };
-```
+// ```

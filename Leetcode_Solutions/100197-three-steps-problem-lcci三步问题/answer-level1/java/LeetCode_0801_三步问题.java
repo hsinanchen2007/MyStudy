@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-简单的斐波那契额数列相似问题。
+// 简单的斐波那契额数列相似问题。
 
-#### 优化思路 ：
+// #### 优化思路 ：
 
-- 加缓存
+// - 加缓存
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
 
@@ -39,13 +39,13 @@ class Solution {
     }
 }
 
-```
+// ```
 
-- 简化变量
+// - 简化变量
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int waysToStep(int n) {
@@ -63,4 +63,4 @@ class Solution {
         return d;
     }
 }
-```
+// ```

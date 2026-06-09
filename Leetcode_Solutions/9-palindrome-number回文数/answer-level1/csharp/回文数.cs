@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool IsPalindrome(int x) {
         //值小于0，直接判断不是回文数
@@ -15,4 +15,4 @@ public class Solution {
         return m == x;
     }
 }
-```
+// ```

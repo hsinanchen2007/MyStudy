@@ -1,10 +1,10 @@
-### 解题思路
-- 这里我只给出python的代码,具体的讲解参考大神的解释,非常受教
-- [https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/]()
+# ### 解题思路
+# - 这里我只给出python的代码,具体的讲解参考大神的解释,非常受教
+# - [https://leetcode-cn.com/problems/partition-equal-subset-sum/solution/0-1-bei-bao-wen-ti-xiang-jie-zhen-dui-ben-ti-de-yo/]()
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canPartition(self, nums):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                 return True
         return dp[-1]
 
-```
+# ```

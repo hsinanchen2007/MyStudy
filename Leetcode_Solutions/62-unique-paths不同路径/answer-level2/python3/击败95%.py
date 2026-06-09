@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         n1 = m + n - 2
@@ -11,4 +11,4 @@ class Solution:
         #print(n1,k)	
         return(int(ji1/ji2))
 
-```
+# ```

@@ -1,23 +1,23 @@
-## 思路：
+# ## 思路：
 
-### 思路 1：
+# ### 思路 1：
 
-优先级队列
+# 优先级队列
 
-时间复杂度：$O(n*log(k))$，`n` 是所有链表中元素的总和，`k` 是链表个数。
+# 时间复杂度：$O(n*log(k))$，`n` 是所有链表中元素的总和，`k` 是链表个数。
 
-### 思路 2：
+# ### 思路 2：
 
-分而治之
+# 分而治之
 
-链表两两合并
+# 链表两两合并
 
 
-## 代码：
+# ## 代码：
 
-### 思路 1：
+# ### 思路 1：
 
-```Python []
+# ```Python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,9 +42,9 @@ class Solution:
                 heapq.heappush(head, (lists[idx].val, idx))
                 lists[idx] = lists[idx].next
         return dummy.next
-```
+# ```
 
-```Java []
+# ```Java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -77,12 +77,12 @@ class Solution {
         return dummy.next;
     }
 }
-```
-### 思路 2：
+# ```
+# ### 思路 2：
 
-分而治之
+# 分而治之
 
-```Python []
+# ```Python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -110,8 +110,8 @@ class Solution:
         else:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
-```
-```Java []
+# ```
+# ```Java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -146,7 +146,7 @@ class Solution {
         }
     }
 }
-```
+# ```
 
 
 

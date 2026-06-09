@@ -1,10 +1,10 @@
-### 解题思路
-![123.jpg](https://pic.leetcode-cn.com/dd22ff71e60a4bf9fdee7842a750d07cd6f124cf802f57c8831ed09d343078d4-123.jpg)
-此处撰写解题思路
+// ### 解题思路
+// ![123.jpg](https://pic.leetcode-cn.com/dd22ff71e60a4bf9fdee7842a750d07cd6f124cf802f57c8831ed09d343078d4-123.jpg)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findJudge(int N, int[][] trust) {
         int trust_len;
@@ -38,4 +38,4 @@ class Solution {
     }
 
 }
-```
+// ```

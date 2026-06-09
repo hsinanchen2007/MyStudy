@@ -1,19 +1,19 @@
-建立三张表   
-分别为  
-      stations  key 站名     value 行程单ID    1对多
-       umap key 用户ID    value 行程ID   1对1   用户出站后可以认为行程已经结束 重新分配行程ID
-       atime key  行程ID    value 行程信息
+// 建立三张表   
+// 分别为  
+//       stations  key 站名     value 行程单ID    1对多
+//        umap key 用户ID    value 行程ID   1对1   用户出站后可以认为行程已经结束 重新分配行程ID
+//        atime key  行程ID    value 行程信息
 
-**入站    新增行程到站点,更新用户关系对应表 插入行程记录**
+// **入站    新增行程到站点,更新用户关系对应表 插入行程记录**
 
-**出站    新增行程到站点  因为肯定已经入站  所以可以直接从用户表读取行程ID， 更新行程出站记录**
+// **出站    新增行程到站点  因为肯定已经入站  所以可以直接从用户表读取行程ID， 更新行程出站记录**
 
-**统计时间   直接统计两个站点下的 同一行程记录   行程记录对应出站入站数据**
-
-
+// **统计时间   直接统计两个站点下的 同一行程记录   行程记录对应出站入站数据**
 
 
-```
+
+
+// ```
 class UndergroundSystem {
         Map<String, List<Integer>> stations =new HashMap<>(); //站台 行程ID对应表
         Map<Integer,Integer> umap =new HashMap<>();  //用户ID 行程ID 对应表
@@ -87,7 +87,7 @@ class UndergroundSystem {
 
 
 }
-```
+// ```
 
 
 

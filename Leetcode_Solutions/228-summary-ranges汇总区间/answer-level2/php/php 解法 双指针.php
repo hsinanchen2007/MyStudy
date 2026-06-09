@@ -1,4 +1,4 @@
-```
+// ```
 function summaryRanges($nums) {
     if(empty($nums)) return [];
     $left = 0;
@@ -12,4 +12,4 @@ function summaryRanges($nums) {
     $ans[] = $right-1==$left?($nums[$left].""):($nums[$left]."->".$nums[$right-1]);
     return $ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void dfs(map<char, int> counts, int i, int K, string odds, string& s, vector<string>& res) {
@@ -43,6 +43,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/872633c85f314a801089a00498851438a0e9270f113152f57b768b54cd4dd564-image.png)
+// ![image.png](https://pic.leetcode-cn.com/872633c85f314a801089a00498851438a0e9270f113152f57b768b54cd4dd564-image.png)

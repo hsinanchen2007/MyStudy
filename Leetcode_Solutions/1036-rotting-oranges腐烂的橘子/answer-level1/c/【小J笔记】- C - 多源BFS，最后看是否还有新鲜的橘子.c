@@ -1,5 +1,5 @@
-- 代码没什么好说的，基本的BFS写法
-```
+// - 代码没什么好说的，基本的BFS写法
+// ```
 #define MAX_QUEUE_SIZE (110)
 #define TRUE (1)
 #define FALSE (0)
@@ -118,4 +118,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize)
     }
     return step;
 }
-```
+// ```

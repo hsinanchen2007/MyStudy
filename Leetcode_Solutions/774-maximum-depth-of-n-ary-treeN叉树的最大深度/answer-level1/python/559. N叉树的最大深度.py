@@ -1,9 +1,9 @@
-### 解题思路
-**1.递归**
+# ### 解题思路
+# **1.递归**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a Node.
 class Node(object):
     def __init__(self, val=None, children=None):
@@ -18,13 +18,13 @@ class Solution(object):
         else: 
             depth = [self.maxDepth(c) for c in root.children]
             return max(depth) + 1 
-```
-### 解题思路
-**2.迭代**
+# ```
+# ### 解题思路
+# **2.迭代**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a Node.
 class Node(object):
     def __init__(self, val=None, children=None):
@@ -45,4 +45,4 @@ class Solution(object):
                     if c :
                         stack.append((level + 1,c))
         return max_depth
-```
+# ```

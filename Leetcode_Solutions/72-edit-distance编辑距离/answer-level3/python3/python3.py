@@ -1,10 +1,10 @@
-### 解题思路
-转移方程dp[i][j]=min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])(如果word1[i]!=word2[j])
-否则 dp[i][j]=dp[i-1][j-1]
+# ### 解题思路
+# 转移方程dp[i][j]=min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])(如果word1[i]!=word2[j])
+# 否则 dp[i][j]=dp[i-1][j-1]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         
@@ -25,6 +25,6 @@ class Solution:
                 else:
                     dp[i][j]=min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1
         return dp[-1][-1]
-```
+# ```
 
         

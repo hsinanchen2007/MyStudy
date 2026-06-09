@@ -1,13 +1,13 @@
-分治算法的题目一定要先把树画出来
-Res的作用域范围要分清楚
+// 分治算法的题目一定要先把树画出来
+// Res的作用域范围要分清楚
 
-![为运算符设计优先级.jpg](https://pic.leetcode-cn.com/f01eccc71eb72a0d0b6d4902d5ac1befa8ad9e50026fef539482e6c45d2281fc-%E4%B8%BA%E8%BF%90%E7%AE%97%E7%AC%A6%E8%AE%BE%E8%AE%A1%E4%BC%98%E5%85%88%E7%BA%A7.jpg)
+// ![为运算符设计优先级.jpg](https://pic.leetcode-cn.com/f01eccc71eb72a0d0b6d4902d5ac1befa8ad9e50026fef539482e6c45d2281fc-%E4%B8%BA%E8%BF%90%E7%AE%97%E7%AC%A6%E8%AE%BE%E8%AE%A1%E4%BC%98%E5%85%88%E7%BA%A7.jpg)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution
 {
 public:
@@ -63,4 +63,4 @@ public:
     }
     
 };
-```
+// ```

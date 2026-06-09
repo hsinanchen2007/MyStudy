@@ -1,9 +1,9 @@
-# 思路
-- 用两个对象来记录 o x 每一步，计数每一行、每一列、两个斜对角有棋子的个数
-- 每次计数都判断是否有一项达到了3（有人赢了）返回对应获胜者
-- 遍历 moves 长度之后如果没人获胜，判断长度是否为9，得出是 Draw 还是 Pending
-# Code
-```
+# # 思路
+# - 用两个对象来记录 o x 每一步，计数每一行、每一列、两个斜对角有棋子的个数
+# - 每次计数都判断是否有一项达到了3（有人赢了）返回对应获胜者
+# - 遍历 moves 长度之后如果没人获胜，判断长度是否为9，得出是 Draw 还是 Pending
+# # Code
+# ```
 class Solution:
     def tictactoe(self, moves: List[List[int]]) -> str:
         def check(obj, r, c, name):
@@ -30,4 +30,4 @@ class Solution:
             if res is not None:
                 return res
         return 'Draw' if len(moves) == 9 else 'Pending'
-```
+# ```

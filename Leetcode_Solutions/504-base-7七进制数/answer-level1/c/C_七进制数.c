@@ -1,10 +1,10 @@
-### 解题思路
-判断正负。借用栈。
-代码虽然多，但是省空间
-![image.png](https://pic.leetcode-cn.com/75de253ad325db1943ddc8d4c8db034c8ec0f3f63c7244482962d5033794dc75-image.png)
-### 代码
+// ### 解题思路
+// 判断正负。借用栈。
+// 代码虽然多，但是省空间
+// ![image.png](https://pic.leetcode-cn.com/75de253ad325db1943ddc8d4c8db034c8ec0f3f63c7244482962d5033794dc75-image.png)
+// ### 代码
 
-```c
+// ```c
 //----------------------------------------------------栈
 typedef struct Node
 {
@@ -78,4 +78,4 @@ char * convertToBase7(int num){
     del(stack);
     return result;
 }
-```
+// ```

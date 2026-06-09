@@ -1,5 +1,5 @@
-直接看代码吧，算是暴力过的。
-```
+# 直接看代码吧，算是暴力过的。
+# ```
 class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:
         events.sort(key = lambda x: (x[1], x[0]))
@@ -26,6 +26,6 @@ class Solution:
             if f:
                 count += 1
         return count
-```
+# ```
 
 

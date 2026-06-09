@@ -1,4 +1,4 @@
-```js
+// ```js
 var rob = function(nums) {
     let max =[0,nums[0]]
     let n = nums.length
@@ -7,4 +7,4 @@ var rob = function(nums) {
     }
     return max[n]
 };
-```
+// ```

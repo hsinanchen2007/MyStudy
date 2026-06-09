@@ -1,6 +1,6 @@
-利用双指针，每次交换前判断一下是否都是元音字母即可
+// 利用双指针，每次交换前判断一下是否都是元音字母即可
 
-```
+// ```
 class Solution:
     def reverseVowels(self, s: str) -> str:
         res = 'aeiouAEIOU'
@@ -20,11 +20,11 @@ class Solution:
                 r -= 1
         res = ''.join(s)
         return res
-```
+// ```
 
-golang:双指针+哈希表
+// golang:双指针+哈希表
 
-```
+// ```
 func reverseVowels(s string) string {
     res := []byte(s)
     match := map[byte]int{
@@ -49,5 +49,5 @@ func reverseVowels(s string) string {
     }
     return string(res)
 }
-```
+// ```
 

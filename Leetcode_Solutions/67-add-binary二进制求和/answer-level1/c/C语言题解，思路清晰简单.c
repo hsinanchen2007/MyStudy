@@ -1,8 +1,8 @@
-```c
+// ```c
 先把短的字符数组补齐0，再做二进制加法，注意进位就行。
-```
-代码块
-```
+// ```
+// 代码块
+// ```
 char * addBinary(char * a, char * b){
 
     int lenA = strlen(a);//找出最大的字符数组的长度length
@@ -48,4 +48,4 @@ char * addBinary(char * a, char * b){
     free(c);
     c = NULL;
 }
-```
+// ```

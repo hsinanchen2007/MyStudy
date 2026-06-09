@@ -1,6 +1,6 @@
-只使用动态规划思想解决这道题的话，其实这道题和264题丑数II的思想是一致的。
-dp保存按序排列的丑数，每个指针分别乘对应位置的素数找出下一个丑数。
-```
+// 只使用动态规划思想解决这道题的话，其实这道题和264题丑数II的思想是一致的。
+// dp保存按序排列的丑数，每个指针分别乘对应位置的素数找出下一个丑数。
+// ```
 public int nthSuperUglyNumber(int n, int[] primes) {
 
     int[] dp = new int[n];
@@ -25,4 +25,4 @@ public int nthSuperUglyNumber(int n, int[] primes) {
     }
     return dp[n - 1];
 }
-```
+// ```

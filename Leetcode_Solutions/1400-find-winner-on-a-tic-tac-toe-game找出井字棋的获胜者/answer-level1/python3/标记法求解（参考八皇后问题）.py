@@ -1,5 +1,5 @@
-设立好标记数组，只要数组中某一行某一列或者某一对角线上的数为3就获胜
-```Python3
+# 设立好标记数组，只要数组中某一行某一列或者某一对角线上的数为3就获胜
+# ```Python3
 class Solution:
     def judge(self, x, y, nums):
         nums[0][x] += 1
@@ -42,4 +42,4 @@ class Solution:
         else:
             return "Pending"
 
-```
+# ```

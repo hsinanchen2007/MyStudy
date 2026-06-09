@@ -1,7 +1,7 @@
-## 方法一：按行排序
-### 思路：
- 通过字符串遍历，并保存到对应行的字符串中，最后按顺序衔接在一起
-``` python3
+# ## 方法一：按行排序
+# ### 思路：
+#  通过字符串遍历，并保存到对应行的字符串中，最后按顺序衔接在一起
+# ``` python3
 class Solution:
     def convert(self, s: str, num_rows: int) -> str:
         if num_rows < 2 or len(s) < num_rows:
@@ -14,11 +14,11 @@ class Solution:
                 flag = -flag
             i += flag
         return "".join(new_s)
-```
-## 方法二：按行访问
-### 思路：
-通过每行中的index方法获取对应字符
-```
+# ```
+# ## 方法二：按行访问
+# ### 思路：
+# 通过每行中的index方法获取对应字符
+# ```
 class Solution:
     def convert(self, s: str, num_rows: int) -> str:
         if num_rows < 2 or len(s) < num_rows:
@@ -51,4 +51,4 @@ class Solution:
                     k += 1
                     index = 2 * k * (num_rows - 1) + i
         return new_s
-```
+# ```

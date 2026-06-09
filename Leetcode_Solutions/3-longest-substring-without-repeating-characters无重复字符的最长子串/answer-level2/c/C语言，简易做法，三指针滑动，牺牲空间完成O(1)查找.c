@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLongestSubstring(char * s){
     int head=0,rear=0,run;
     bool repeat=false;
@@ -22,4 +22,4 @@ int lengthOfLongestSubstring(char * s){
     if(rear-head>max) max=rear-head;
     return max;
 }
-```
+// ```

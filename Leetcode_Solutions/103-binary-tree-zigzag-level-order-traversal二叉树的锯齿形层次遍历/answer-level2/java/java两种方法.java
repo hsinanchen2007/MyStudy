@@ -1,6 +1,6 @@
-方法1：用队列宽度搜索没一层，并用一个flag判断某一层是否需要反转。
+// 方法1：用队列宽度搜索没一层，并用一个flag判断某一层是否需要反转。
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -25,11 +25,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-方法2：类似先序遍历，存结果的list一层尾插入，一层头插入。
+// 方法2：类似先序遍历，存结果的list一层尾插入，一层头插入。
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root){
         List<List<Integer>> res = new ArrayList<>();
@@ -48,4 +48,4 @@ class Solution {
         helper(root.right, level+1, res);
     }
 }
-```
+// ```

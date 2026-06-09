@@ -1,5 +1,5 @@
-直接上代码吧：
-```
+// 直接上代码吧：
+// ```
     public int[] numMovesStones(int a, int b, int c) {
         int[] step = new int[2];
         int x = Math.min(a, Math.min(b, c));
@@ -15,4 +15,4 @@
         step[1] = z - x - 2;
         return step;
     }
-```
+// ```

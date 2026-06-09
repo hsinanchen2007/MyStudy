@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-广度搜索
+// 广度搜索
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -36,4 +36,4 @@ func maxDepth(root *Node) int {
     }
     return deep
 }
-```
+// ```

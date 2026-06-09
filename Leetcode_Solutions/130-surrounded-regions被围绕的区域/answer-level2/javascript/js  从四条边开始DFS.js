@@ -1,4 +1,4 @@
-```js
+// ```js
 var solve = function(board) {
     const row = board.length;
     if(!row) return [];
@@ -32,4 +32,4 @@ var solve = function(board) {
         }
 	}
 };
-```
+// ```

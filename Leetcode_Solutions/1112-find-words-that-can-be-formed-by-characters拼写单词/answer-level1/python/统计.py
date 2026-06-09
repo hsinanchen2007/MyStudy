@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
 
@@ -17,4 +17,4 @@ class Solution:
         return ans
 
 
-```
+# ```

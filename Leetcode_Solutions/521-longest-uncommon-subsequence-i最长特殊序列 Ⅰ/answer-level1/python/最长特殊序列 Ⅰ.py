@@ -1,9 +1,9 @@
-### 解题思路
-想得特别复杂来着。。。。结果看题解只需要考虑字符串长度的关系。
+# ### 解题思路
+# 想得特别复杂来着。。。。结果看题解只需要考虑字符串长度的关系。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLUSlength(self, a: str, b: str) -> int:
         if a == b:  # 如果a和b同，则没有最长特殊序列
@@ -12,4 +12,4 @@ class Solution:
         
         
         
-```
+# ```

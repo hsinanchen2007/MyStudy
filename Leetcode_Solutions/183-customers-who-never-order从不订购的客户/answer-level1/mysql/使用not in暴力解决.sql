@@ -1,12 +1,12 @@
-### 解题思路
-就1句代码搞定
+-- ### 解题思路
+-- 就1句代码搞定
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select Name Customers from Customers where Id not in (select CustomerId from Orders)
 
 
-```
+-- ```

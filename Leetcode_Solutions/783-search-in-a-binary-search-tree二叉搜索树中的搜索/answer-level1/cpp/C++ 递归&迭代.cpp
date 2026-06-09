@@ -1,9 +1,9 @@
-### 解题思路
-这个题没有什么好说的，二叉搜索树的性质~~
+// ### 解题思路
+// 这个题没有什么好说的，二叉搜索树的性质~~
 
-### 递归
+// ### 递归
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -11,10 +11,10 @@ public:
         return root->val > val ? searchBST(root->left, val) : searchBST(root->right, val);
     }
 };
-```
+// ```
 
-### 迭代
-```cpp
+// ### 迭代
+// ```cpp
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

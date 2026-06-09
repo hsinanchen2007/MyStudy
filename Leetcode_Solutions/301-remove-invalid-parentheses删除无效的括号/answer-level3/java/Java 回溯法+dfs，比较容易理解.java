@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> removeInvalidParentheses(String s) {
         List<String> list = new ArrayList<String>();
@@ -81,4 +81,4 @@ class Solution {
     }
 
 }
-```
+// ```

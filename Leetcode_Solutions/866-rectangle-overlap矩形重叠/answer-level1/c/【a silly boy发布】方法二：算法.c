@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/94803f0fbab6808cb71d0a6bab949a57b825813b5d6d623491e38da9ed4d3e55-image.png)
+// ![image.png](https://pic.leetcode-cn.com/94803f0fbab6808cb71d0a6bab949a57b825813b5d6d623491e38da9ed4d3e55-image.png)
 
-```
+// ```
 int SubFuncMaxVal(int a, int b) 
 {
     return a > b ? a : b;
@@ -35,4 +35,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
 
     return false;
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-经典的字符串dp，类型为解决1或2个字串的动态规划问题。这里给出C语言解法。
+// ### 解题思路
+// 经典的字符串dp，类型为解决1或2个字串的动态规划问题。这里给出C语言解法。
 
-1.dp[i][j]表示word1的0~i和word2的0~j对应的解。
+// 1.dp[i][j]表示word1的0~i和word2的0~j对应的解。
 
-2.当word1[i] == word2[j]时，dp[i][j] = dp[i - 1][j - 1]
+// 2.当word1[i] == word2[j]时，dp[i][j] = dp[i - 1][j - 1]
 
-3.当word1[i] != word2[j]时，dp[i][j] = MMIN(dp[i - 1][j], MMIN(dp[i][j - 1], dp[i - 1][j - 1])) + 1;
+// 3.当word1[i] != word2[j]时，dp[i][j] = MMIN(dp[i - 1][j], MMIN(dp[i][j - 1], dp[i - 1][j - 1])) + 1;
 
-![image.png](https://pic.leetcode-cn.com/8aa77a971bdb7e57ad3bb21f22598dbacb0557315b3744d2aaf5a218a42f7fe6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8aa77a971bdb7e57ad3bb21f22598dbacb0557315b3744d2aaf5a218a42f7fe6-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -73,4 +73,4 @@ int minDistance(char * word1, char * word2){
 */
     return dp[wlen1][wlen2];
 }
-```
+// ```

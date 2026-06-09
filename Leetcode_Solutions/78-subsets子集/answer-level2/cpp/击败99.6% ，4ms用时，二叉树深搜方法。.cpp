@@ -1,10 +1,10 @@
-把放数据想象成数据多叉树深搜，
-nums[i+1]指向下一个数据Node。
-每次搜索深度都是nums.size()。
+// 把放数据想象成数据多叉树深搜，
+// nums[i+1]指向下一个数据Node。
+// 每次搜索深度都是nums.size()。
 
-![image.png](https://pic.leetcode-cn.com/72a74f44af705630190ea254406e57ac3491d3b6dae4d98a549b13504a210d75-image.png)
+// ![image.png](https://pic.leetcode-cn.com/72a74f44af705630190ea254406e57ac3491d3b6dae4d98a549b13504a210d75-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -33,4 +33,4 @@ private:
     }
 };
 
-```
+// ```

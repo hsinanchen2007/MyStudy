@@ -1,8 +1,8 @@
-### 解题思路
-投机取巧的解法，利用先用函数
-### 代码
+// ### 解题思路
+// 投机取巧的解法，利用先用函数
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -16,4 +16,4 @@ class Solution {
         return array_flip($arrs)[max($arrs)];
     }
 }
-```
+// ```

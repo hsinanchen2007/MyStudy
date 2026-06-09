@@ -1,9 +1,9 @@
-### 解题思路
-两个for循环查找
+// ### 解题思路
+// 两个for循环查找
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     if(needle[0]=='\0')
         return 0;
@@ -25,4 +25,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

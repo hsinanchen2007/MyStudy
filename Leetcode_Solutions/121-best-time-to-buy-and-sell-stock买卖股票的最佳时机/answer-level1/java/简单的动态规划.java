@@ -1,10 +1,10 @@
-### 解题思路
- 以 当前点为最高点，与之前的比，最大的差距，之前的点选择一个最小点
-   f(i) = s(i) - min( 0--i) 
+// ### 解题思路
+//  以 当前点为最高点，与之前的比，最大的差距，之前的点选择一个最小点
+//    f(i) = s(i) - min( 0--i) 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int maxProfit(int[] prices) {
 		   if(prices.length <= 1 ) {
@@ -27,4 +27,4 @@ class Solution {
 		   return max;
 	    }
 }
-```
+// ```

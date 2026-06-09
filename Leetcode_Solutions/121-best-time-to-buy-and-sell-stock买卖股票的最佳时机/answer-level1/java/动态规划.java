@@ -1,8 +1,8 @@
-### 解题思路
-前i天的最大收益 = max{前i-1天的最大收益，第i天的价格-前i-1天中的最小价格}
-### 代码
+// ### 解题思路
+// 前i天的最大收益 = max{前i-1天的最大收益，第i天的价格-前i-1天中的最小价格}
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int n=prices.length;  //共n天
@@ -24,4 +24,4 @@ class Solution {
         else return 0;    
     }
 }
-```
+// ```

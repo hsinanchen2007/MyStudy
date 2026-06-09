@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -22,4 +22,4 @@ var longestPalindrome = function(s) {
     });
     return flag ? res+1 : res;
 };
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool containsDuplicate(vector<int>& nums)
@@ -16,4 +16,4 @@ public:
 			return false;
 	}
 };
-```
+// ```

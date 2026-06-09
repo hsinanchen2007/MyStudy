@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
-   ①定义一个新数组nums，两个指向nums1和nums2的指针i,j
-   ②因为两个数组是有序数组，所以就直接进行比较，小的数组更新到nums上 并更新nums和对应的nums1/2的数组指针
-   ③其次讨论没有更新完毕的数组 将其全部加入nums即可
-## 基础错误点：
-   int[] nums=new int[length];
-   int[] nums=new int[]{1,2}
+// ### 解题思路
+// 此处撰写解题思路
+//    ①定义一个新数组nums，两个指向nums1和nums2的指针i,j
+//    ②因为两个数组是有序数组，所以就直接进行比较，小的数组更新到nums上 并更新nums和对应的nums1/2的数组指针
+//    ③其次讨论没有更新完毕的数组 将其全部加入nums即可
+// ## 基础错误点：
+//    int[] nums=new int[length];
+//    int[] nums=new int[]{1,2}
  
-   对于有序数组找中位数，直接用偶/2  (奇+1)/2
-   对于无序数组找中位数则将其变为有序，无序数组利用冒泡排序，快速排序等变为有序数组
-### 代码
+//    对于有序数组找中位数，直接用偶/2  (奇+1)/2
+//    对于无序数组找中位数则将其变为有序，无序数组利用冒泡排序，快速排序等变为有序数组
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums =new int[nums1.length+nums2.length];
@@ -48,4 +48,4 @@ class Solution {
     }
 }
 }
-```
+// ```

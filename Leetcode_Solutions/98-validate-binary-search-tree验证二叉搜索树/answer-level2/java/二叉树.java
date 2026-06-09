@@ -1,5 +1,5 @@
-中序遍历，递增则为二叉搜索树。
-```
+// 中序遍历，递增则为二叉搜索树。
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         List<Integer> li =new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
 
     
 }
-```
+// ```

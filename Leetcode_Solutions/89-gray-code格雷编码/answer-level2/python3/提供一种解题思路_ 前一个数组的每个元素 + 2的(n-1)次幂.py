@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     '''
     格雷编码是一个二进制数字系统，在该系统中，两个连续的数值仅有一个位数的差异。
@@ -19,4 +19,4 @@ class Solution:
             ans += tmp
             cnt += 1
         return ans
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-根据gird的行和列都是递减的规律
-遍历grid的每一行，当遇到小于0的值时就跳出循环。
-因为后面所有的值都小于0
+# 根据gird的行和列都是递减的规律
+# 遍历grid的每一行，当遇到小于0的值时就跳出循环。
+# 因为后面所有的值都小于0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
 
@@ -26,4 +26,4 @@ class Solution:
                    break
        return  count
 
-```
+# ```

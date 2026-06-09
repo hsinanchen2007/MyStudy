@@ -1,5 +1,5 @@
-注意多次使用sumRange方法，故要建立缓存
-```java []
+// 注意多次使用sumRange方法，故要建立缓存
+// ```java []
 class NumArray {
     private int[] sums;
     public NumArray(int[] nums) {
@@ -14,4 +14,4 @@ class NumArray {
         return sums[j+1]-sums[i];
     }
 }
-```
+// ```

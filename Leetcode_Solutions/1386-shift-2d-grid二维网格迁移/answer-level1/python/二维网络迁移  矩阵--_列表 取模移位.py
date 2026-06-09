@@ -1,10 +1,10 @@
-### 解题思路
-矩阵转换为一维列表，然后就是对列表进行循环移位的过程。列表长度为L，最终移位的值取决于k = k % L
-然后经过三次翻转便可以得到移位后的列表，再将列表转换为矩阵
+# ### 解题思路
+# 矩阵转换为一维列表，然后就是对列表进行循环移位的过程。列表长度为L，最终移位的值取决于k = k % L
+# 然后经过三次翻转便可以得到移位后的列表，再将列表转换为矩阵
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 #import numpy
 class Solution(object):
     def shiftGrid(self, grid, k):
@@ -25,4 +25,4 @@ class Solution(object):
                 grid[i][j] = ans[m]
                 m += 1
         return  grid
-```
+# ```

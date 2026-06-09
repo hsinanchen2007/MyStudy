@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {number} k
@@ -22,4 +22,4 @@ var topKFrequent = function(words, k) {
     key = key.map(item=>item[0]);
     return key.slice(0,k);
 };
-```
+// ```

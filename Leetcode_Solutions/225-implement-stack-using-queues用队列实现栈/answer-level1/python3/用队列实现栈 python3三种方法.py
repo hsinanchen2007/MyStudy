@@ -1,6 +1,6 @@
-整体思路我觉得看代码最清楚，代码也比较简单，我就不详细解释了
-### 方法一
-```
+# 整体思路我觉得看代码最清楚，代码也比较简单，我就不详细解释了
+# ### 方法一
+# ```
 from queue import Queue
 
 class MyStack:
@@ -42,9 +42,9 @@ class MyStack:
         """
         return self.queue_push.empty() and self.queue_pop.empty()
 
-```
-### 方法二
-```
+# ```
+# ### 方法二
+# ```
 from queue import Queue
 
 class MyStack:
@@ -84,9 +84,9 @@ class MyStack:
         self.top_ele = self.queue_pop.get()
         self.push(self.top_ele)
         return self.top_ele
-```
-### 方法三
-```
+# ```
+# ### 方法三
+# ```
 from queue import Queue
 
 class MyStack:
@@ -129,4 +129,4 @@ class MyStack:
         Returns whether the stack is empty.
         """
         return self.queue_push.empty()
-```
+# ```

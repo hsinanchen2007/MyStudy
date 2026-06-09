@@ -1,5 +1,5 @@
-1. 快排
-```
+// 1. 快排
+// ```
 #include <experimental/random>
 
 class Solution {
@@ -35,9 +35,9 @@ public:
         return j;
     }
 };
-```
-2. 堆排序
-```
+// ```
+// 2. 堆排序
+// ```
 class Solution {
 public:
 
@@ -72,9 +72,9 @@ public:
         }
     }
 };
-```
-3. 归并排序
-```
+// ```
+// 3. 归并排序
+// ```
 class Solution {
 public:
     //归并排序--迭代版
@@ -105,8 +105,8 @@ public:
     }
 
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     //归并排序--递归版
@@ -144,6 +144,6 @@ public:
     }
 
 };
-```
+// ```
 
 

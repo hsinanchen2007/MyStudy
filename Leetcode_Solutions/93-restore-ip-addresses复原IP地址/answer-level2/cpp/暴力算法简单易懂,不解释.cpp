@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public: //考验我对字符串的掌握了
     bool isOk(string s){
@@ -30,4 +30,4 @@ public: //考验我对字符串的掌握了
         return ret;
     }
 };
-```
+// ```

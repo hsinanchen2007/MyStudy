@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn detect_capital_use(word: String) -> bool {
         let mut chars = word.chars();
@@ -30,5 +30,5 @@ impl Solution {
         true
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

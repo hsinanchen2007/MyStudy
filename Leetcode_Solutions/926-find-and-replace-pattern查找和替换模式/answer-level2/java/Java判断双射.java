@@ -1,4 +1,4 @@
-```
+// ```
 public List<String> findAndReplacePattern(String[] words, String pattern) {
     List<String> results = new ArrayList<>();
     for (String word : words) {
@@ -24,4 +24,4 @@ public List<String> findAndReplacePattern(String[] words, String pattern) {
     }
     return results;
 }
-```
+// ```

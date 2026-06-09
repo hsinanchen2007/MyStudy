@@ -1,5 +1,5 @@
-将营业额累加，然后作减法得到7天的营业额
-```
+-- 将营业额累加，然后作减法得到7天的营业额
+-- ```
 select t3.visited_on, 
     if(t4.total is null, t3.total, t3.total - t4.total) as amount,
     round(if(t4.total is null, t3.total / 7, (t3.total - t4.total) / 7), 2) as average_amount 
@@ -22,4 +22,4 @@ left join (
 on datediff(t3.visited_on, t4.visited_on) = 7
 where t3.day = 7
 order by t3.visited_on
-```
+-- ```

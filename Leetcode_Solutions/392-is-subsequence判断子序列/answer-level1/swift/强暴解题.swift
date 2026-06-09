@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func isSubsequence(_ s: String, _ t: String) -> Bool {
         var queue = [Character]()
@@ -20,7 +20,7 @@ class Solution {
         return queue.isEmpty
     }
 }
-```
+// ```
 
-执行用时 :136 ms, 在所有 swift 提交中击败了100.00%的用户
-内存消耗 :21.3 MB, 在所有 swift 提交中击败了75.00%的用户
+// 执行用时 :136 ms, 在所有 swift 提交中击败了100.00%的用户
+// 内存消耗 :21.3 MB, 在所有 swift 提交中击败了75.00%的用户

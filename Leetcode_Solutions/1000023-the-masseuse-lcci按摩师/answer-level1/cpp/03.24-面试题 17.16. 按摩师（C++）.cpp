@@ -1,9 +1,9 @@
-### 解题思路
-双100%
+// ### 解题思路
+// 双100%
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

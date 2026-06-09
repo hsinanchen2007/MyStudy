@@ -1,5 +1,5 @@
-思路：首先把前k个链表看成一个子链表，然后进行翻转，我觉得第一组k跟其他组的k不同，涉及到返回值的问题，因此分成了第一组k个剩下的k
-```
+# 思路：首先把前k个链表看成一个子链表，然后进行翻转，我觉得第一组k跟其他组的k不同，涉及到返回值的问题，因此分成了第一组k个剩下的k
+# ```
 def ReserveK(head,k):
     if head == None or head.next == None:
         return head
@@ -41,4 +41,4 @@ def ReserveK(head,k):
         end = pre.next
         cur = pre.next
     return head
-```
+# ```

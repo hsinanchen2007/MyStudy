@@ -1,9 +1,9 @@
-### 解题思路
-[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java)
+// ### 解题思路
+// [Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_119_getRow.java)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      /**
      * 解题思路：
@@ -29,4 +29,4 @@ class Solution {
         return retList;
     }
 }
-```
+// ```

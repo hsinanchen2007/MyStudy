@@ -1,4 +1,4 @@
-这道题别想太复杂了就是将每站上下车的人数统计出来在顺序遍历进行维护数组就成功时间复杂度O(n+n)
+// 这道题别想太复杂了就是将每站上下车的人数统计出来在顺序遍历进行维护数组就成功时间复杂度O(n+n)
 `class Solution {
 public:
     bool carPooling(vector<vector<int>>& trips, int capacity) {

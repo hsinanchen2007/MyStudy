@@ -1,9 +1,9 @@
-### 解题思路
-注意细节
+// ### 解题思路
+// 注意细节
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -114,4 +114,4 @@ string validIPAddress(string IP) {
 	return "Neither";
 }
 };
-```
+// ```

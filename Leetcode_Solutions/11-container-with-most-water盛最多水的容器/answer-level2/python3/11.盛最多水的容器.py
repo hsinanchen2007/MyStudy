@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         left,right,area = 0,len(height) - 1,0
@@ -13,4 +13,4 @@ class Solution:
                 right -= 1
             
         return area
-```
+# ```

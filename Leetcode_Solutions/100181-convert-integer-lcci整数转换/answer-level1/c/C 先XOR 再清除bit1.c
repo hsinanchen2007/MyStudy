@@ -1,4 +1,4 @@
-```
+// ```
 int convertInteger(int A, int B){
 
   int count = 0;
@@ -8,4 +8,4 @@ int convertInteger(int A, int B){
 
   return count;
 }
-```
+// ```

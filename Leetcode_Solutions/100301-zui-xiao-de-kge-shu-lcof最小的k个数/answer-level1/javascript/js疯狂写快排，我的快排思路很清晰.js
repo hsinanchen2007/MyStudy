@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-思路清晰，叫我第一，快排系列
+// 思路清晰，叫我第一，快排系列
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -38,4 +38,4 @@ function quickSort(arr, begin, end){
     quickSort(arr, begin, h-1)
     quickSort(arr, h+1, target)
 }
-```
+// ```

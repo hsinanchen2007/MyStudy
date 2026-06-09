@@ -1,9 +1,9 @@
-### 解题思路
-python3动态规划
+# ### 解题思路
+# python3动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         matrix = [[1]*n for _ in range(m)]
@@ -15,4 +15,4 @@ class Solution:
 
         return matrix[-1][-1]
 
-```
+# ```

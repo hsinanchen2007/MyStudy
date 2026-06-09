@@ -1,19 +1,19 @@
-### 解题思路
-/* C++ 双指针滑动窗口解法
-最困难的点：如何计算子字符串中不同字符的个数
-1、使用一个unordered_map进行去重
-2、map中的key对应字符串中的字符，value对应该字符在字符串s中的位置，取值范围[0,s.size())
-3、value值得作用：map中有超过2个不同的字符时，自左至右移动左指针，直到子串中的不同字符少于3个
+// ### 解题思路
+// /* C++ 双指针滑动窗口解法
+// 最困难的点：如何计算子字符串中不同字符的个数
+// 1、使用一个unordered_map进行去重
+// 2、map中的key对应字符串中的字符，value对应该字符在字符串s中的位置，取值范围[0,s.size())
+// 3、value值得作用：map中有超过2个不同的字符时，自左至右移动左指针，直到子串中的不同字符少于3个
 
-时间复杂度为O(s.size())
+// 时间复杂度为O(s.size())
 
-详细的解释请参考图文并茂的官方题解：https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/solution/zhi-duo-bao-han-liang-ge-bu-tong-zi-fu-de-zui-chan/
+// 详细的解释请参考图文并茂的官方题解：https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/solution/zhi-duo-bao-han-liang-ge-bu-tong-zi-fu-de-zui-chan/
 
-*/
+// */
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 //指针的移动是难点
 class Solution {
@@ -50,4 +50,4 @@ public:
         
     }
 };
-```
+// ```

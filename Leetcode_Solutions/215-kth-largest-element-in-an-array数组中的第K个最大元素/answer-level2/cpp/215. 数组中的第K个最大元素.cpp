@@ -1,11 +1,11 @@
-### 大顶堆
-建立大顶堆，每次输出一个堆顶元素，直到K个。
-### 时间/空间复杂度
-时间：O（n/2logn）
-空间：O（1）
-### 代码
+// ### 大顶堆
+// 建立大顶堆，每次输出一个堆顶元素，直到K个。
+// ### 时间/空间复杂度
+// 时间：O（n/2logn）
+// 空间：O（1）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void adjustHeap(vector<int> &heap,int i,int n){
@@ -47,4 +47,4 @@ public:
         return ans;
     }
 };
-```
+// ```

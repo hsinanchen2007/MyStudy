@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -80,4 +80,4 @@ int* shortestToChar( char * S , char C , int * returnSize ){
     return buffer;
 
 }
-```
+// ```

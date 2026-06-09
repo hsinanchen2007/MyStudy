@@ -1,6 +1,6 @@
-添加两个中间状态，处理完成后恢复状态即可
+// 添加两个中间状态，处理完成后恢复状态即可
 
-```php
+// ```php
 class Solution
 {
     function gameOfLife(&$board)
@@ -36,4 +36,4 @@ class Solution
         return $board;
     }
 }
-```
+// ```

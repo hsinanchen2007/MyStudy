@@ -1,9 +1,9 @@
-### 解题思路
-将苹果重量排序，按顺序去拿苹果，直到苹果重量超出5000
+# ### 解题思路
+# 将苹果重量排序，按顺序去拿苹果，直到苹果重量超出5000
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxNumberOfApples(self, arr: List[int]) -> int:
         max_weight = 5000
@@ -18,4 +18,4 @@ class Solution:
         return count-1
 
 
-```
+# ```

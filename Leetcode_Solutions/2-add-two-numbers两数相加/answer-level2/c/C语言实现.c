@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode* head=(struct ListNode*)malloc(sizeof(struct ListNode));//使用头结点，用以最后返回结果（没有free，懒得写了）
     head->next=NULL;
@@ -41,4 +41,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head->next;
 }
-```
+// ```

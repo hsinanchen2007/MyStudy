@@ -1,11 +1,11 @@
-### 解题思路
-* 使用lower_bound()（<algorithm>）查出插入位置
-* 双指针
+// ### 解题思路
+// * 使用lower_bound()（<algorithm>）查出插入位置
+// * 双指针
 
-### 代码
-* 二分+插入
-* 最坏O(n*m)；空O(1);
-```cpp
+// ### 代码
+// * 二分+插入
+// * 最坏O(n*m)；空O(1);
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -21,12 +21,12 @@ public:
         nums1.resize(m);    // 如果有插入中间，则可能出现nums1的size变大，所以最后resize到m
     }
 };
-```
-![5.png](https://pic.leetcode-cn.com/037ef53156207d1e8e215a7c978da1bcf6eccabced903869e4ad72e7406e756a-5.png)
+// ```
+// ![5.png](https://pic.leetcode-cn.com/037ef53156207d1e8e215a7c978da1bcf6eccabced903869e4ad72e7406e756a-5.png)
 
-* 双指针从前往后
-* O(m+n), O(m)
-```cpp
+// * 双指针从前往后
+// * O(m+n), O(m)
+// ```cpp
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         if(nums2.empty())   return ;
 
@@ -46,12 +46,12 @@ public:
             nums1[i++] = nums2[p2++];
         }
     }
-```
-![1.png](https://pic.leetcode-cn.com/823424998e1dc5048669ddc61725e767d2f9157b66bf5f8f81cdf0bf87a8e2d3-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/823424998e1dc5048669ddc61725e767d2f9157b66bf5f8f81cdf0bf87a8e2d3-1.png)
 
-* 双指针从后往前
-* O(m+n), O(1)
-```cpp
+// * 双指针从后往前
+// * O(m+n), O(1)
+// ```cpp
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         if(nums2.empty())   return ;
 
@@ -74,5 +74,5 @@ public:
         }
 
     }
-```
-![2.png](https://pic.leetcode-cn.com/3cb6075dd083f23ad340ada7d6b5bc43822ef05db44183f23242b17ea541b6f0-2.png)
+// ```
+// ![2.png](https://pic.leetcode-cn.com/3cb6075dd083f23ad340ada7d6b5bc43822ef05db44183f23242b17ea541b6f0-2.png)

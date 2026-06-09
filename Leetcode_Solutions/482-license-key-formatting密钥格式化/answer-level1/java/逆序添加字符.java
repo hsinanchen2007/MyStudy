@@ -1,9 +1,9 @@
-### 解题思路
-先把字符串转换成大写，然后逆序遍历，每添加一个，count计数，判断count是否能整除K，最后注意一下可能会出现多添加一个'-'字符，删除即可。
+// ### 解题思路
+// 先把字符串转换成大写，然后逆序遍历，每添加一个，count计数，判断count是否能整除K，最后注意一下可能会出现多添加一个'-'字符，删除即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String licenseKeyFormatting(String S, int K) {
         String str = S.toUpperCase();
@@ -24,4 +24,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

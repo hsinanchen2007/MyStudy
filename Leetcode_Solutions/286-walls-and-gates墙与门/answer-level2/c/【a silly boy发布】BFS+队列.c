@@ -1,6 +1,6 @@
-![459DDBE3-43A3-4F7B-B302-5B092A02D3E2.jpeg](https://pic.leetcode-cn.com/c5cf8d1f408fd2bbe2ff0e27f43684a6200676007f15babdf6282b35d9d2364e-459DDBE3-43A3-4F7B-B302-5B092A02D3E2.jpeg)
+// ![459DDBE3-43A3-4F7B-B302-5B092A02D3E2.jpeg](https://pic.leetcode-cn.com/c5cf8d1f408fd2bbe2ff0e27f43684a6200676007f15babdf6282b35d9d2364e-459DDBE3-43A3-4F7B-B302-5B092A02D3E2.jpeg)
 
-```
+// ```
 #define INF 2147483647
 
 struct tt127ListNode{
@@ -130,4 +130,4 @@ void wallsAndGates(int** rooms, int roomsSize, int* roomsColSize){
 	isGlobalFlag = false;
 
 }
-```
+// ```

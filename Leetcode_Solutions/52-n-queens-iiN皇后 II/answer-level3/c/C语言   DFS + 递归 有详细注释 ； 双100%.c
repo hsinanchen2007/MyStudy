@@ -1,9 +1,9 @@
-### 解题思路
-1、用一维数组queenpos[]表示皇后放置的位置可以简化代码；
-2、递归思路比较清晰。
-### 代码
+// ### 解题思路
+// 1、用一维数组queenpos[]表示皇后放置的位置可以简化代码；
+// 2、递归思路比较清晰。
+// ### 代码
 
-```c
+// ```c
 int queenpos[20] = {-1};
 int g_sum;
 void step(int index, const int n) // 初始传入的index = 0； 表示放置第一个皇后
@@ -47,4 +47,4 @@ int totalNQueens(int n){
     step(0, n);
     return g_sum;
 }
-```
+// ```

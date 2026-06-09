@@ -1,4 +1,4 @@
-如果传入的氢氧比例不平衡，并且时间过长的话，估计会抛出异常，应该用acquireUninterruptibly好一点
+// 如果传入的氢氧比例不平衡，并且时间过长的话，估计会抛出异常，应该用acquireUninterruptibly好一点
 import java.util.concurrent.*;
 class H2O {
     private Semaphore sOxygen ,sHydrogen;

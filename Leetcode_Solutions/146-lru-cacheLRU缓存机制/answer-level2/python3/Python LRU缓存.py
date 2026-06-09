@@ -1,11 +1,11 @@
-### 解题思路
-学会用
-from collections import OrderedDict
-学会用
-move_to_end
-### 代码
+# ### 解题思路
+# 学会用
+# from collections import OrderedDict
+# 学会用
+# move_to_end
+# ### 代码
 
-```python3
+# ```python3
 from collections import OrderedDict
 class LRUCache:
 
@@ -36,4 +36,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

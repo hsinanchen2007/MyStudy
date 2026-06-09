@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
     for i:=0;i<n;i++{
         A[i+m]=B[i]
@@ -18,4 +18,4 @@ func merge(A []int, m int, B []int, n int)  {
         }
     }
 }
-```
+// ```

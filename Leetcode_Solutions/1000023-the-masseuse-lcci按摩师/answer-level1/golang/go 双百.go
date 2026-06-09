@@ -1,9 +1,9 @@
-### 解题思路
-动态规划的优化，用a来记录dp[i-2],b记录dp[i-1]
+// ### 解题思路
+// 动态规划的优化，用a来记录dp[i-2],b记录dp[i-1]
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func massage(nums []int) int {
 	a := 0
 	b := 0
@@ -18,4 +18,4 @@ func massage(nums []int) int {
 	}
     return c
 }
-```
+// ```

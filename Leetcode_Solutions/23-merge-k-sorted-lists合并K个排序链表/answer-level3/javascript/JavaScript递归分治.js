@@ -1,8 +1,8 @@
-其实感觉和MergeSort差不多，只不过合并数组的merge改成了合并两个链表的merge。
+// 其实感觉和MergeSort差不多，只不过合并数组的merge改成了合并两个链表的merge。
 
-首先实现合并两个链表的方法，这里可以参考另外一题的写法：
+// 首先实现合并两个链表的方法，这里可以参考另外一题的写法：
 
-```javascript
+// ```javascript
 function mergeList (l1, l2) {
   const dummyNode = new ListNode(null)
   let p = dummyNode
@@ -19,11 +19,11 @@ function mergeList (l1, l2) {
   p.next = l1 === null ? l2 : l1
   return dummyNode.next
 }
-```
+// ```
 
-然后递归地进行合并：
+// 然后递归地进行合并：
 
-```javascript
+// ```javascript
 var mergeKLists = function(lists) {
   let left = 0, right = lists.length, mid = ~~((left + right) / 2)
   if (right === 0) return null
@@ -32,4 +32,4 @@ var mergeKLists = function(lists) {
   const l2 = mergeKLists(lists.slice(mid, right))
   return mergeList(l1, l2)
 };
-```
+// ```

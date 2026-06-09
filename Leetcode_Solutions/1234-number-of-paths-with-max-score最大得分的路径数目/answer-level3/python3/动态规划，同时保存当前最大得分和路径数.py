@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def pathsWithMaxScore(self, board: List[str]) -> List[int]:
         length = len(board)
@@ -33,4 +33,4 @@ class Solution:
                         dp[i][j][1] = 1
                 # print(i,j)
         return [dp[i][j][0], dp[length-1][length-1][1] % (10**9 + 7)]
-```
+# ```

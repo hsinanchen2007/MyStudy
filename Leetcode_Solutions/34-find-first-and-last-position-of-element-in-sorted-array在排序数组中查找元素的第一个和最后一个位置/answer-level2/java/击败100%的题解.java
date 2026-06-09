@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
       int[] positions = { -1, -1};
@@ -27,5 +27,5 @@ class Solution {
         return position;
     }
 }
-```
-话说这个函数签名不是很好，返回一个Pair<Integer, Integer>是不是好一点？
+// ```
+// 话说这个函数签名不是很好，返回一个Pair<Integer, Integer>是不是好一点？

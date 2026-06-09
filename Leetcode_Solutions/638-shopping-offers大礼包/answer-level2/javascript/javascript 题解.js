@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} price
  * @param {number[][]} special
@@ -44,4 +44,4 @@ function calculatePriceIndividually (needs = [], prices = []) {
     }
     return price;
 }
-```
+// ```

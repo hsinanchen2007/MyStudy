@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-通过一个辅助函数findPorQ
-判断P 或者 Q 是在 node的左子树 还是右子树；
-1. 如果P、Q在left，return left
-2. P、Q在right, return right
-3. 一个在left 一个在right, return root
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 通过一个辅助函数findPorQ
+// 判断P 或者 Q 是在 node的左子树 还是右子树；
+// 1. 如果P、Q在left，return left
+// 2. P、Q在right, return right
+// 3. 一个在left 一个在right, return root
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return left == null ? right : left;
     }
 }
-```
+// ```

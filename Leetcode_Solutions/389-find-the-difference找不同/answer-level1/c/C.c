@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char findTheDifference(char * s, char * t){
     int m[26] = {0};
     char ret;
@@ -17,4 +17,4 @@ char findTheDifference(char * s, char * t){
 
     return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考了其他同学的代码，对merge做了一些改造
+// ### 解题思路
+// 参考了其他同学的代码，对merge做了一些改造
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class mergeFind {
 public:
     mergeFind(int n) {
@@ -72,4 +72,4 @@ public:
         return -1;
     }
 };
-```
+// ```

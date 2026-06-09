@@ -1,9 +1,9 @@
-记录一下第一个双百。
-![截屏2020-02-09下午7.09.55.png](https://pic.leetcode-cn.com/d33ad7da0a3eba59a78b5699b8ea7269e418872f555ee0ac4da340b2d7172d6f-%E6%88%AA%E5%B1%8F2020-02-09%E4%B8%8B%E5%8D%887.09.55.png)
+// 记录一下第一个双百。
+// ![截屏2020-02-09下午7.09.55.png](https://pic.leetcode-cn.com/d33ad7da0a3eba59a78b5699b8ea7269e418872f555ee0ac4da340b2d7172d6f-%E6%88%AA%E5%B1%8F2020-02-09%E4%B8%8B%E5%8D%887.09.55.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkIfExist(int[] arr) {
         Arrays.sort(arr);
@@ -19,4 +19,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

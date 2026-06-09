@@ -1,5 +1,5 @@
-![捕获.PNG](https://pic.leetcode-cn.com/a6e6884198758a9526bbc0e5b14c5e03c74acaa2e7fac20ca9e60a95d1fc5d56-%E6%8D%95%E8%8E%B7.PNG)
-```
+// ![捕获.PNG](https://pic.leetcode-cn.com/a6e6884198758a9526bbc0e5b14c5e03c74acaa2e7fac20ca9e60a95d1fc5d56-%E6%8D%95%E8%8E%B7.PNG)
+// ```
 class Solution {//33ms
     public int calculate(String s) {
         s=reBuild(s);
@@ -50,4 +50,4 @@ class Solution {//33ms
     }
 }
 
-```
+// ```

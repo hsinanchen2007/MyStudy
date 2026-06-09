@@ -1,9 +1,9 @@
-### 解题思路
-考虑上一个数字和当前数字就可以求得当前数字对应的解。
+// ### 解题思路
+// 考虑上一个数字和当前数字就可以求得当前数字对应的解。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDecodings(string s) {
@@ -77,4 +77,4 @@ public:
         return dp.back();
     }
 };
-```
+// ```

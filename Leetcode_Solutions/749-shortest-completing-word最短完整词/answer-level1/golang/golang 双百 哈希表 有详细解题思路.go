@@ -1,11 +1,11 @@
-#### 解题思路
+// #### 解题思路
 
-解题思路如参考代码注释所示
+// 解题思路如参考代码注释所示
 
 
-#### 参考代码
+// #### 参考代码
 
-```go
+// ```go
 func shortestCompletingWord(licensePlate string, words []string) string {
 	lengthWords := len(words)
 	min:= 16
@@ -48,7 +48,7 @@ func compare(list []int, licensePlate string) bool {
 	return true
 }
 
-```
+// ```
 
-**更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
+// **更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
 

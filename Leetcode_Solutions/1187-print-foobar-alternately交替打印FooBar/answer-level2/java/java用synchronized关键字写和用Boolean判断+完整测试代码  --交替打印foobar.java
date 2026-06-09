@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-		有两种思路，第一个用synchronized关键字，这种比较容易想到吧，学过javase就能想到了；然后通过代码分析可以想出来：我们只通过一个boolean变量可以么，然后就演变出来了另外一种；
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 		有两种思路，第一个用synchronized关键字，这种比较容易想到吧，学过javase就能想到了；然后通过代码分析可以想出来：我们只通过一个boolean变量可以么，然后就演变出来了另外一种；
+// ### 代码
 
-```java
+// ```java
 class FooBar {
 	    private int n;
 	    private boolean fooTurn = true;
@@ -40,10 +40,10 @@ class FooBar {
 	        }
 	    }
 	}
-```
+// ```
 
-测试用例：
-```java
+// 测试用例：
+// ```java
 public class Test{
 public static void main(String[] args) {
 	    	Print_n_FooBar p = new Print_n_FooBar(2);
@@ -85,9 +85,9 @@ public static void main(String[] args) {
 	        this.n = n;
 	    }
 
-```
-然后是只用一个Boolean来作为判断线程notify或者wait的标志（第一次拿错代码了，又改了）
-```java
+// ```
+// 然后是只用一个Boolean来作为判断线程notify或者wait的标志（第一次拿错代码了，又改了）
+// ```java
 class FooBar {
      private int              n;
 	    private volatile boolean isFoo;
@@ -126,4 +126,4 @@ class FooBar {
 	        }
 	    }
 }
-```
+// ```

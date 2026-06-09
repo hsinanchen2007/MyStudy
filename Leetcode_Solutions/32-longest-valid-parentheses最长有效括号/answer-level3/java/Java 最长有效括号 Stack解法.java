@@ -1,11 +1,11 @@
-### 解题思路
-1.有效括号问题想到使用Stack
-2.长度问题想到下标
-综上，使用栈求解，并且栈中存放下标。
+// ### 解题思路
+// 1.有效括号问题想到使用Stack
+// 2.长度问题想到下标
+// 综上，使用栈求解，并且栈中存放下标。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestValidParentheses(String s) {
         if(s == null || s.length() < 2) return 0 ;
@@ -28,4 +28,4 @@ class Solution {
         return max ;
     }
 }
-```
+// ```

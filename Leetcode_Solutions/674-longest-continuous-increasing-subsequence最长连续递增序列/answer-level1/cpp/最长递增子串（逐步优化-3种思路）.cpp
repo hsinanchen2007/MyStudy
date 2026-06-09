@@ -1,21 +1,21 @@
-+ 暴力枚举：O(n^2)
+// + 暴力枚举：O(n^2)
 
-+ 动态规划：T(n)=O(n)，S(n)=O(n)
+// + 动态规划：T(n)=O(n)，S(n)=O(n)
 
-  + 状态定义：dp(i)表示以A[i]为结尾的最长递增子串的长度（开头可变）
-  + 状态转移：
+//   + 状态定义：dp(i)表示以A[i]为结尾的最长递增子串的长度（开头可变）
+//   + 状态转移：
 
-    $$
-    dp(i) =
-    \begin{cases} 
-    dp(i-1)+1,  & \text{A[i-1]<A[i]} \\
-    1, & \text{A[i-1]}\ge A[i]
-    \end{cases}
-    $$
+//     $$
+//     dp(i) =
+//     \begin{cases} 
+//     dp(i-1)+1,  & \text{A[i-1]<A[i]} \\
+//     1, & \text{A[i-1]}\ge A[i]
+//     \end{cases}
+//     $$
 
-  + base case：dp(0)=1
+//   + base case：dp(0)=1
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLengthOfLCIS(vector<int>& nums) {
@@ -27,13 +27,13 @@ public:
         return *max_element(dp.begin(),dp.end());
     }
 };
-```
+// ```
 
-+ 双指针：T(n)=O(n)，S(n)=O(n)
-  + 定义i和j分别指向LCIS的起止元素，ans记录最大值
-  + 若A[j-1]>=A[j]，出现断层，令i=j，ans=max(ans,i-j)。
-  + 指针j++
-```
+// + 双指针：T(n)=O(n)，S(n)=O(n)
+//   + 定义i和j分别指向LCIS的起止元素，ans记录最大值
+//   + 若A[j-1]>=A[j]，出现断层，令i=j，ans=max(ans,i-j)。
+//   + 指针j++
+// ```
 class Solution {
 public:
     int findLengthOfLCIS(vector<int>& nums) {
@@ -50,4 +50,4 @@ public:
         return ans;
     }
 };
-```
+// ```

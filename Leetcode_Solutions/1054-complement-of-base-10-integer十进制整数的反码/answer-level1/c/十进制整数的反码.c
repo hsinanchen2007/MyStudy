@@ -1,5 +1,5 @@
-**设n的二进制表示有cnt位，则（2 ^ cnt - n - 1）即为所求。**
-```c
+// **设n的二进制表示有cnt位，则（2 ^ cnt - n - 1）即为所求。**
+// ```c
 int bitwiseComplement(int n)
 {
     if(n == 0)
@@ -11,4 +11,4 @@ int bitwiseComplement(int n)
     }
     return (1 << cnt) - 1 - n;
 }
-```
+// ```

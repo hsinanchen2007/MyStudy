@@ -1,9 +1,9 @@
-### 解题思路
-利用二叉搜索树的中序遍历的有序性，找出需要调整的值，通过值查找相应节点，调换两个节点的值
+// ### 解题思路
+// 利用二叉搜索树的中序遍历的有序性，找出需要调整的值，通过值查找相应节点，调换两个节点的值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -75,4 +75,4 @@ func (t *TT) LDR1(root *TreeNode) {
 type TT struct {
 	P []int
 }
-```
+// ```

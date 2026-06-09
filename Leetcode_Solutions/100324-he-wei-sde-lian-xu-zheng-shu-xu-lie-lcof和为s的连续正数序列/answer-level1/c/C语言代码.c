@@ -1,5 +1,5 @@
-方法一：遍历所有可能的正数序列
-```
+// 方法一：遍历所有可能的正数序列
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -47,9 +47,9 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     *returnSize = num_arrays;
     return arrays;
 }
-```
-方法二：通过指针+序列求和公式遍历可能连续序列
-```
+// ```
+// 方法二：通过指针+序列求和公式遍历可能连续序列
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -86,4 +86,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     *returnSize = cnt;
     return array;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-输入两个数组通过一一对比来判定猜对个数
+// ### 解题思路
+// 输入两个数组通过一一对比来判定猜对个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int game(vector<int>& guess, vector<int>& answer) {
@@ -14,4 +14,4 @@ public:
         return a;
     }
 };
-```
+// ```

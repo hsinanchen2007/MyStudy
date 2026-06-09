@@ -1,4 +1,4 @@
-方式一：双指针，遍历数组，等于右指针的时候更新left和right，然后更新每个字母的相对位置
+// 方式一：双指针，遍历数组，等于右指针的时候更新left和right，然后更新每个字母的相对位置
 var shortestToChar = function(S, C) {
     let result = new Array(S.length);
     let left = S.indexOf(C);

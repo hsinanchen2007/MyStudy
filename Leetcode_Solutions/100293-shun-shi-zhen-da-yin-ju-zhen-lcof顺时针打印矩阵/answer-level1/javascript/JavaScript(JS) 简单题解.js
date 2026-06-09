@@ -1,9 +1,9 @@
-执行用时 :92 ms, 在所有 JavaScript 提交中击败了82.85%的用户
-内存消耗 :38 MB, 在所有 JavaScript 提交中击败了100.00%的用户
+// 执行用时 :92 ms, 在所有 JavaScript 提交中击败了82.85%的用户
+// 内存消耗 :38 MB, 在所有 JavaScript 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var spiralOrder = function (matrix) {
     // 空值校验
     if (!matrix.length) return []
@@ -36,4 +36,4 @@ var spiralOrder = function (matrix) {
     }
     return result
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-狗血的题目，无非就是奇偶性的判断
-然后循环添加
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 狗血的题目，无非就是奇偶性的判断
+// 然后循环添加
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String generateTheString(int n) {
         StringBuffer sbf = new StringBuffer();
@@ -19,4 +19,4 @@ class Solution {
 		return sbf.toString();
     }
 }
-```
+// ```

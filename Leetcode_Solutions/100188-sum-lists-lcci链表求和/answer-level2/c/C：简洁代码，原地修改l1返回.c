@@ -1,16 +1,16 @@
-### 解题思路
-当然原地修改是不对的，哈哈哈。这题跟第三题：链表相加一模一样！
+// ### 解题思路
+// 当然原地修改是不对的，哈哈哈。这题跟第三题：链表相加一模一样！
 
-1. 由于需要原地修改，那么末尾结点前驱节点是必须拿到的（否则你先全部遍历完，然后再取）
-2. 进位处理，相加取余，最后还需要判断carry=1（这种只可能在链表终止，比如2->4->3,5->6->6)
+// 1. 由于需要原地修改，那么末尾结点前驱节点是必须拿到的（否则你先全部遍历完，然后再取）
+// 2. 进位处理，相加取余，最后还需要判断carry=1（这种只可能在链表终止，比如2->4->3,5->6->6)
 
-+ 最短遍历，取到尾结点前驱节点，同时carry进位存储
-+ 在上述遍历后，定有其中一个结束或者一起结束，都获得前结点，还要对此结点进行加减操作
-+ 判断上步是谁终止，将长的连l1上，然后继续运算。如果一起断，那么最后判断carry=1额外申请结点
+// + 最短遍历，取到尾结点前驱节点，同时carry进位存储
+// + 在上述遍历后，定有其中一个结束或者一起结束，都获得前结点，还要对此结点进行加减操作
+// + 判断上步是谁终止，将长的连l1上，然后继续运算。如果一起断，那么最后判断carry=1额外申请结点
 
-### 代码
-> 1.原地修改
-```c
+// ### 代码
+// > 1.原地修改
+// ```c
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *head = l1;
     int carry = 0;  // 表示进位0
@@ -40,11 +40,11 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head;
 }
-```
+// ```
 
-> 2.有dummy结点辅助建表
+// > 2.有dummy结点辅助建表
 
-```c
+// ```c
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *p, *q;
     struct ListNode *dummy = (struct ListNode *)malloc(sizeof(struct ListNode));
@@ -63,10 +63,10 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return dummy->next;
 }
-```
+// ```
 
-> 3.无dummy辅助建表，多一个判断
-```c
+// > 3.无dummy辅助建表，多一个判断
+// ```c
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *head = NULL, *p, *q;
     int carry = 0;  // 进位
@@ -84,11 +84,11 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head;
 }
-```
+// ```
 
-## 拓展（右对齐）
-使用栈就搞定了，反转链表也行。
-```python3
+// ## 拓展（右对齐）
+// 使用栈就搞定了，反转链表也行。
+// ```python3
 def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     if not l1 or not l2: return l1 or l2
     stack1, stack2 = [l1], [l2]
@@ -104,6 +104,6 @@ def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
         head.next = prev
         prev = head
     return head
-```
-需要注意的就是给0->3->5,2->5这种右对齐，前面的0会照样返回，具体看题要求
-扩展题：[445.两数相加Ⅱ]((https://leetcode-cn.com/problems/add-two-numbers-ii/))
+// ```
+// 需要注意的就是给0->3->5,2->5这种右对齐，前面的0会照样返回，具体看题要求
+// 扩展题：[445.两数相加Ⅱ]((https://leetcode-cn.com/problems/add-two-numbers-ii/))

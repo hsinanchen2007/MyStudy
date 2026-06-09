@@ -1,11 +1,11 @@
-#### 解法一：BFS
-+ 类似题型解法
-  + [102. 二叉树的层次遍历-解法一](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/102-er-cha-shu-de-ceng-ci-bian-li-by-alexer-660/) 
-+ 本质和102题一模一样
-+ 只是本题取的是每层的最大值
-  + 因此只需要每次更新当前层遍历元素的最大值即可
-  + 合并解即为所求
-```javascript
+// #### 解法一：BFS
+// + 类似题型解法
+//   + [102. 二叉树的层次遍历-解法一](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/102-er-cha-shu-de-ceng-ci-bian-li-by-alexer-660/) 
+// + 本质和102题一模一样
+// + 只是本题取的是每层的最大值
+//   + 因此只需要每次更新当前层遍历元素的最大值即可
+//   + 合并解即为所求
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -42,12 +42,12 @@ var largestValues = function(root) {
     }
     return result;
 };
-```
-#### 解法二：DFS
-+ 类似题型解法
-  + [102. 二叉树的层次遍历-解法二](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/102-er-cha-shu-de-ceng-ci-bian-li-by-alexer-660/) 
-+ 本质和102题一模一样
-```javascript
+// ```
+// #### 解法二：DFS
+// + 类似题型解法
+//   + [102. 二叉树的层次遍历-解法二](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/102-er-cha-shu-de-ceng-ci-bian-li-by-alexer-660/) 
+// + 本质和102题一模一样
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -82,4 +82,4 @@ var largestValues = function(root) {
     dfs(root,0);
     return result;
 };
-```
+// ```

@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/731d4b9ca7f46c9938f1a89e030aed7f15737e067e871df7e5714c56d5f5b190-image.png)
+// ![image.png](https://pic.leetcode-cn.com/731d4b9ca7f46c9938f1a89e030aed7f15737e067e871df7e5714c56d5f5b190-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 /*
   对每一个节点进行广度优先搜索
 */
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[][]}
@@ -62,4 +62,4 @@ var updateMatrix = function(matrix) {
   
   return ans;
 };
-```
+// ```

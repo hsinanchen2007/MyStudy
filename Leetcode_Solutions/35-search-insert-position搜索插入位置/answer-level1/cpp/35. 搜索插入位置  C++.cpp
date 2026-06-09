@@ -1,9 +1,9 @@
-### 解题思路
-二分查找，如果没找到,则返回left(待插入位置)
+// ### 解题思路
+// 二分查找，如果没找到,则返回left(待插入位置)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -33,4 +33,4 @@ public:
         return left;
     }
 };
-```
+// ```

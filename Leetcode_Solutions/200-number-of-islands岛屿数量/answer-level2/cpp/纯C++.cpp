@@ -1,9 +1,9 @@
-### 解题思路
-纯C++
+// ### 解题思路
+// 纯C++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
@@ -42,4 +42,4 @@ private:
         dfs(grid, row, col - 1);
     }
 };
-```
+// ```

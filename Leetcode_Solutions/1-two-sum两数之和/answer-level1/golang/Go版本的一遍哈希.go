@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
     mapp := make(map[int]int)
     for i:=0; i<len(nums); i++ {
@@ -11,4 +11,4 @@ func twoSum(nums []int, target int) []int {
     }
     return nil
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-首先遍历链表算出长度，然后计算中间值，最后再次遍历链表当指针走到中间值时，截断链表返回
+# ### 解题思路
+# 首先遍历链表算出长度，然后计算中间值，最后再次遍历链表当指针走到中间值时，截断链表返回
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
                 temp_head=head
                 break
         return temp_head
-```
+# ```

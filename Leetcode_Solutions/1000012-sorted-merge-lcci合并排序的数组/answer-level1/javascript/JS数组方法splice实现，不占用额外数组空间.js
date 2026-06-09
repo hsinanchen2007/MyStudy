@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/f5fefe27bce298f55470b38b702463412e37e6b22254882587155215237cb723-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/f5fefe27bce298f55470b38b702463412e37e6b22254882587155215237cb723-image.png)
+// ```
 /**
  * @param {number[]} A
  * @param {number} m
@@ -23,5 +23,5 @@ var merge = function(A, m, B, n) {
         j++;
     }
 };
-```
+// ```
 

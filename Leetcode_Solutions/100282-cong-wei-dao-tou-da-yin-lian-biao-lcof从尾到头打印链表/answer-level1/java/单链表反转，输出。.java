@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-先将单链表反转，然后输出。
-![image.png](https://pic.leetcode-cn.com/622d449baaefb3337b04027e2d160746eeb3aa25ca001672f8edeb6fc98f1644-image.png)
+// 先将单链表反转，然后输出。
+// ![image.png](https://pic.leetcode-cn.com/622d449baaefb3337b04027e2d160746eeb3aa25ca001672f8edeb6fc98f1644-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
 
     }
 }
-```
+// ```

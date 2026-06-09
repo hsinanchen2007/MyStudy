@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-快慢指针 fast 和 slow 
+// 快慢指针 fast 和 slow 
 
-fast 先走 k步，如果k步没走完就到尾部了，抛出异常
+// fast 先走 k步，如果k步没走完就到尾部了，抛出异常
 
-fast 走完k步后，fast 与 slow 再同时开始走
+// fast 走完k步后，fast 与 slow 再同时开始走
 
-当fast 到达尾部之后，slow 指向的刚好是是 倒数第 k 个数
+// 当fast 到达尾部之后，slow 指向的刚好是是 倒数第 k 个数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -47,4 +47,4 @@ class Solution {
 
     }
 }
-```
+// ```

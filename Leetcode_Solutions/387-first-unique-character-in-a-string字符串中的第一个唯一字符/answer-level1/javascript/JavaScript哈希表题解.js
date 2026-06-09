@@ -1,4 +1,4 @@
-`
+// `
 /**
  * @param {string} s
  * @return {number}
@@ -14,7 +14,7 @@ var firstUniqChar = function(s) {
     const result = Math.min(...Object.values(map))
     return result === Infinity ? -1 : result
 };
-`
+// `
 
 没啥好说的，就是hashMap的简单应用，在O(n)时间内完成
 

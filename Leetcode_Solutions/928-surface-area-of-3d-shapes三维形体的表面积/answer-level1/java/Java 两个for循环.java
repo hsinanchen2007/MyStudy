@@ -1,11 +1,11 @@
-### 解题思路
-一个长方体的表面积是4 * 个数 + 2
+// ### 解题思路
+// 一个长方体的表面积是4 * 个数 + 2
 
-然后要减去和其他长方体重叠的部分
+// 然后要减去和其他长方体重叠的部分
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         int res = 0;
@@ -19,4 +19,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

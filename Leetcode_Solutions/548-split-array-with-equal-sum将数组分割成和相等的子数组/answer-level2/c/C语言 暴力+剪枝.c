@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f17097eef894b763cc70f7a723e2b5a0e0c02a77f1232b479ddf5d843b6c88b9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f17097eef894b763cc70f7a723e2b5a0e0c02a77f1232b479ddf5d843b6c88b9-image.png)
 
-固定j，前后分别遍历i和k，其中j前后总和的差超过最大和最小的差就剪枝掉。剪枝思路参考了其他题解，不剪枝妥妥超时。
-```
+// 固定j，前后分别遍历i和k，其中j前后总和的差超过最大和最小的差就剪枝掉。剪枝思路参考了其他题解，不剪枝妥妥超时。
+// ```
 bool splitArray(int* nums, int numsSize){
     if (numsSize < 7) {
         return false;
@@ -32,4 +32,4 @@ bool splitArray(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

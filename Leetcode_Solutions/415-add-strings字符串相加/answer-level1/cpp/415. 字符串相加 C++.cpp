@@ -1,9 +1,9 @@
-### 解题思路
-1.双指针从尾向前做十进制加法运算，carry位进制位。
+// ### 解题思路
+// 1.双指针从尾向前做十进制加法运算，carry位进制位。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -29,4 +29,4 @@ string addStrings(string num1, string num2) {
 }
 
 };
-```
+// ```

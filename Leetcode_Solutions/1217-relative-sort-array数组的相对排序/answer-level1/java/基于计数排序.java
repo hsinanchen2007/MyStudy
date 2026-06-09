@@ -1,4 +1,4 @@
-```
+// ```
 public static int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] tmp = new int[1001];
         for (int i = 0; i < arr1.length; i++) {
@@ -20,9 +20,9 @@ public static int[] relativeSortArray(int[] arr1, int[] arr2) {
         }
 
         return arr1;
-```
+// ```
 
 
-*执行用时 :1 ms, 在所有 Java 提交中击败了99.83%的用户*
+// *执行用时 :1 ms, 在所有 Java 提交中击败了99.83%的用户*
 
-*内存消耗 :35.9 MB, 在所有 Java 提交中击败了100.00%的用户*
+// *内存消耗 :35.9 MB, 在所有 Java 提交中击败了100.00%的用户*

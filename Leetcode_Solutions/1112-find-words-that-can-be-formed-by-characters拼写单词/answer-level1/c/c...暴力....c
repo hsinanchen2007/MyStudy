@@ -1,10 +1,10 @@
-### 解题思路
-1，把chars建一个数组cmap，保存每个字符的出现次数
-2，遍历words的每一个词，如果词中某个字母在cmap中没计数或者计数用完了，则不满足
+// ### 解题思路
+// 1，把chars建一个数组cmap，保存每个字符的出现次数
+// 2，遍历words的每一个词，如果词中某个字母在cmap中没计数或者计数用完了，则不满足
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     if (!words || wordsSize == 0 || !chars) return 0;
 
@@ -26,4 +26,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return ans;
 }
-```
+// ```

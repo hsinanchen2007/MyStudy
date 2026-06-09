@@ -1,7 +1,7 @@
-思路：同时遍历name和typed，逐个取不重复字符，比较即可。
-<br/><br/>
-代码：
-```
+// 思路：同时遍历name和typed，逐个取不重复字符，比较即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
         if (typed.length() < name.length()) {
@@ -42,4 +42,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

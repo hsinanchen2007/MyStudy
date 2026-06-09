@@ -1,6 +1,6 @@
-首先观察一下列名称：
+# 首先观察一下列名称：
 
-```
+# ```
     A -> 1
     B -> 2
     C -> 3
@@ -9,13 +9,13 @@
     AA -> 27
     AB -> 28 
     ...
-```
+# ```
 
-如果列名称只有 1 位，那么直接将该位转为对应的数字即可，A~Z 分别代表着 1~26。
+# 如果列名称只有 1 位，那么直接将该位转为对应的数字即可，A~Z 分别代表着 1~26。
 
-当我们将 26 个字母都使用完后，想表示更大的数字，1 位字母显然是不够的。所以有了 `AA` 这种写法，最左边的 `A` 代表着**进位**，这和十进制其实是一样的，只不过变成了 26 进一。
+# 当我们将 26 个字母都使用完后，想表示更大的数字，1 位字母显然是不够的。所以有了 `AA` 这种写法，最左边的 `A` 代表着**进位**，这和十进制其实是一样的，只不过变成了 26 进一。
 
-```python
+# ```python
 class Solution(object):
     def titleToNumber(self, s):
         """
@@ -31,8 +31,8 @@ class Solution(object):
             base = 26**j
             res += word_map[word] * base
         return res
-```
+# ```
 
-----
+# ----
 
-[LeetCode 题解](https://github.com/JalanJiang/leetcode-notebook) 每日更新，求个小星星~
+# [LeetCode 题解](https://github.com/JalanJiang/leetcode-notebook) 每日更新，求个小星星~

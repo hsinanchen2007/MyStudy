@@ -1,9 +1,9 @@
-### 解题思路
-套用堆排序，只需要修改最后一步，不用排序所有，只需要排序最后k位。
+# ### 解题思路
+# 套用堆排序，只需要修改最后一步，不用排序所有，只需要排序最后k位。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findKthLargest(self, nums, k):
         def seft(lis,start,end):
@@ -26,4 +26,4 @@ class Solution(object):
             nums[j],nums[0] = nums[0],nums[j]
             seft(nums,0,j-1)
         return nums[len(nums)-k]           
-```
+# ```

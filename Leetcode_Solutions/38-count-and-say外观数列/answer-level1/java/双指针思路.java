@@ -1,9 +1,9 @@
-### 解题思路
-双指针，直接上代码
+// ### 解题思路
+// 双指针，直接上代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
 
@@ -29,4 +29,4 @@ class Solution {
         return res;   
     }
 }
-```
+// ```

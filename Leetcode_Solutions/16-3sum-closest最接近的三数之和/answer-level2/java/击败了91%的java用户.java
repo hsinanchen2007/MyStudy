@@ -1,5 +1,5 @@
-更多双指针相关的算法题[参考此文](https://blog.csdn.net/reed1991/article/details/55096982)
-```
+// 更多双指针相关的算法题[参考此文](https://blog.csdn.net/reed1991/article/details/55096982)
+// ```
 public int threeSumClosest(int[] nums, int target) {
         assert nums.length > 2;
         Arrays.sort(nums);
@@ -32,4 +32,4 @@ public int threeSumClosest(int[] nums, int target) {
 
         return res;
     }
-```
+// ```

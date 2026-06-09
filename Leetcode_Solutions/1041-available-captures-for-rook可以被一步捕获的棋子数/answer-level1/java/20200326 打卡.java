@@ -1,9 +1,9 @@
-### 解题思路
-思路没啥好说的，先定位到车的位置，而后对四个方位记得遍历，要注意遍历的时候不能被己方的棋子挡了路
+// ### 解题思路
+// 思路没啥好说的，先定位到车的位置，而后对四个方位记得遍历，要注意遍历的时候不能被己方的棋子挡了路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int count = 0;
@@ -53,4 +53,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

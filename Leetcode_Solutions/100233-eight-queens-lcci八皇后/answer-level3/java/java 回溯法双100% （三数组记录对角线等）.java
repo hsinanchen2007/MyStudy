@@ -1,12 +1,12 @@
-### 解题思路
-每一个皇后的出现，导致对角线和反对角线，以及十字线内不能出现皇后，由于使用了回溯，逻辑上避免了同一行出现皇后，
-所以只需要记录出现过的对角线和反对角线以及，出现的Column就行了
-![image.png](https://pic.leetcode-cn.com/6a5f77026483586099bad7717af17cb842929d26c6d711356114b9bce01e1183-image.png)
+// ### 解题思路
+// 每一个皇后的出现，导致对角线和反对角线，以及十字线内不能出现皇后，由于使用了回溯，逻辑上避免了同一行出现皇后，
+// 所以只需要记录出现过的对角线和反对角线以及，出现的Column就行了
+// ![image.png](https://pic.leetcode-cn.com/6a5f77026483586099bad7717af17cb842929d26c6d711356114b9bce01e1183-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private char[][] pos;
     private int N;
@@ -71,4 +71,4 @@ class Solution {
         }
     }
 }
-```
+// ```

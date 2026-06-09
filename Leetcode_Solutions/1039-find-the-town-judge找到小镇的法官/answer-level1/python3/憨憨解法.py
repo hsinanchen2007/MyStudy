@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
       l=[i[0] for i in trust]
@@ -16,4 +16,4 @@ class Solution:
 
       
 
-```
+# ```

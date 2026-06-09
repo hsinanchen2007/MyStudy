@@ -1,9 +1,9 @@
-### 解题思路
-试了下java的精选算法，用js实现，运行结果比我自己写的这个还慢，也多占了.1M的内存，不明白
+// ### 解题思路
+// 试了下java的精选算法，用js实现，运行结果比我自己写的这个还慢，也多占了.1M的内存，不明白
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -31,4 +31,4 @@ var romanToInt = function(s) {
    }
    return sum;
 };
-```
+// ```

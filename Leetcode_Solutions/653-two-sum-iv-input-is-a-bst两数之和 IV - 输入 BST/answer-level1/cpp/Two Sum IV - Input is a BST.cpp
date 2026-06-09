@@ -1,9 +1,9 @@
-### 解题思路
-首先进行中序遍历，将遍历结果存到vecter中。然后根据[Two Sum II - Input array is sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)的方法来做
+// ### 解题思路
+// 首先进行中序遍历，将遍历结果存到vecter中。然后根据[Two Sum II - Input array is sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)的方法来做
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -51,4 +51,4 @@ public:
     }
 };
 
-```
+// ```

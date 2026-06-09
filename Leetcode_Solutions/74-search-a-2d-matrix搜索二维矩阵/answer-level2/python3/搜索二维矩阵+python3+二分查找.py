@@ -1,16 +1,16 @@
-####  方法1：二分查找
+# ####  方法1：二分查找
 
-| 时间复杂度 | 空间复杂度 |
-| :--------: | :--------: |
-|   O(m+logn)   |    O(l)    |
+# | 时间复杂度 | 空间复杂度 |
+# | :--------: | :--------: |
+# |   O(m+logn)   |    O(l)    |
 
-**基本思路：**
+# **基本思路：**
 
-> 根据题目设定，可以先查找目标元素在哪一行，然后二分查找判断元素是否在矩阵中。
+# > 根据题目设定，可以先查找目标元素在哪一行，然后二分查找判断元素是否在矩阵中。
 
-**代码：**
+# **代码：**
 
-```python []
+# ```python []
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or not matrix[0]: return False
@@ -33,4 +33,4 @@ class Solution:
             else:
                 l = mid + 1
         return False
-```
+# ```

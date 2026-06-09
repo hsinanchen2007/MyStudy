@@ -1,8 +1,8 @@
-1. 遍历远链表, 逐节点创建新链表, 新链表ramdom值COPY原链表的, 原链表random值更新为新链表节点的地址
-2. 遍历新链表, 逐个更新random值为random->random
-两次遍历, 时间复杂度O(N), 空间复杂度O(1)
+// 1. 遍历远链表, 逐节点创建新链表, 新链表ramdom值COPY原链表的, 原链表random值更新为新链表节点的地址
+// 2. 遍历新链表, 逐个更新random值为random->random
+// 两次遍历, 时间复杂度O(N), 空间复杂度O(1)
 
-```
+// ```
 /*
 // Definition for a Node.
 class Node {
@@ -43,4 +43,4 @@ public:
         return dummyHead.next;
     }
 };
-```
+// ```

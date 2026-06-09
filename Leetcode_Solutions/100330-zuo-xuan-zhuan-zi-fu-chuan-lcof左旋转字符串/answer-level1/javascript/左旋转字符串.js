@@ -1,8 +1,8 @@
-### 解题思路
-单行拼接一气呵成
-### 代码
+// ### 解题思路
+// 单行拼接一气呵成
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} n
@@ -11,4 +11,4 @@
 var reverseLeftWords = function(s, n) {
     return s.slice(n).concat(s.slice(0, n))
 };
-```
+// ```

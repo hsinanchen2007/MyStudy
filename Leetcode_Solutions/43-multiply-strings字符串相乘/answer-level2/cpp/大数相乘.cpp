@@ -1,15 +1,15 @@
-## 问题描述
-给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。
+// ## 问题描述
+// 给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。
 
-![](https://pic.leetcode-cn.com/aac90f9b3ceae0e6fde9399c97eb2a9500b2ded418adfbe31c5e75ba56f2ad1b.png)
+// ![](https://pic.leetcode-cn.com/aac90f9b3ceae0e6fde9399c97eb2a9500b2ded418adfbe31c5e75ba56f2ad1b.png)
 
-[字符串相乘](https://leetcode-cn.com/problems/multiply-strings/ "字符串相乘")
+// [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/ "字符串相乘")
 
-## 解决方法
+// ## 解决方法
 
 
-### 普通做法
-```bash
+// ### 普通做法
+// ```bash
      7 8 9 6 5 2
 ×       3 2 1 1
 -----------------
@@ -18,8 +18,8 @@
   ..........       <---- 第n趟 
 -----------------
  ? ? ? ? ? ? ? ?   <---- 最后的值用另一个数组表示 
-```
-```cpp
+// ```
+// ```cpp
 // class Solution {
 // public:
 //     //字符串相加
@@ -62,27 +62,27 @@
 //         return res;
 //     }
 // };
-```
-### 分治
+// ```
+// ### 分治
 
-算法课郭楠老师讲过，先记一下，回头补上
+// 算法课郭楠老师讲过，先记一下，回头补上
 
-### 竖式相乘
+// ### 竖式相乘
 
-两个数字相乘，结果的位数不会大于两个数字位数之和。
+// 两个数字相乘，结果的位数不会大于两个数字位数之和。
 
-该算法是通过两数相乘时，乘数某位与被乘数某位相乘，与产生结果的位置的规律来完成。具体规律如下：
-```bash
+// 该算法是通过两数相乘时，乘数某位与被乘数某位相乘，与产生结果的位置的规律来完成。具体规律如下：
+// ```bash
     乘数 `num1` 位数为 `M`，被乘数 `num2` 位数为 `N`， `num1 x num2` 结果 `res` 最大总位数为 `M+N`
 	
     `num1[i] x num2[j]` 的结果为 `temp`(位数为两位，"0x","xy"的形式)，其第一位位于 `res[i+j]`，第二位位于 `res[i+j+1]`。
-```
-如下图的变换过程
-![](https://pic.leetcode-cn.com/02b7323a5d60a528fa2679c64560547fb2266107c353eb1c1b395effe1944196.png)
+// ```
+// 如下图的变换过程
+// ![](https://pic.leetcode-cn.com/02b7323a5d60a528fa2679c64560547fb2266107c353eb1c1b395effe1944196.png)
 
-![](https://pic.leetcode-cn.com/44df1becd41cdef87ae54bb55a2ab4019cf32a25348f053338e2821bd314fd92.png)
+// ![](https://pic.leetcode-cn.com/44df1becd41cdef87ae54bb55a2ab4019cf32a25348f053338e2821bd314fd92.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //字符串相乘
@@ -106,10 +106,10 @@ public:
 
     }
 };
-```
+// ```
 
 
-参考： https://leetcode-cn.com/problems/multiply-strings/solution/you-hua-ban-shu-shi-da-bai-994-by-breezean/ "优化竖式"
+// 参考： https://leetcode-cn.com/problems/multiply-strings/solution/you-hua-ban-shu-shi-da-bai-994-by-breezean/ "优化竖式"
 
 
-个人网站：[liyiping](https://liyiping.cn)
+// 个人网站：[liyiping](https://liyiping.cn)

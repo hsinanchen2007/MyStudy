@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         a = collections.Counter(deck)
@@ -14,4 +14,4 @@ class Solution:
                 if all(v%x==0 for v in a.values()):
                     return True
         return False
-```
+# ```

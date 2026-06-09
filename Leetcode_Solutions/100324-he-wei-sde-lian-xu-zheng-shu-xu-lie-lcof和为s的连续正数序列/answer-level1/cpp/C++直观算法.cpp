@@ -1,9 +1,9 @@
-### 解题思路
-外层循环首位数字从1开始递增，内层循环为连续数字总和，注意边界判断即可
+// ### 解题思路
+// 外层循环首位数字从1开始递增，内层循环为连续数字总和，注意边界判断即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

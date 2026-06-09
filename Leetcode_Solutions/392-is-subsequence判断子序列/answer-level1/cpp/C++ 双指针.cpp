@@ -1,6 +1,6 @@
 
-简单题，没啥说的，直接上代码了：
-```
+// 简单题，没啥说的，直接上代码了：
+// ```
 bool isSubsequence(string s, string t) {
         int m=s.size(),n=t.size();
         if(n==0 && m==0)
@@ -21,4 +21,4 @@ bool isSubsequence(string s, string t) {
         }
         return i<m?false:true;
     }
-```
+// ```

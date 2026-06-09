@@ -1,5 +1,5 @@
 
-```
+// ```
 int longestConsecutive(vector<int>& nums) {
         //判断是否为空
         if(nums.size()==0)
@@ -30,4 +30,4 @@ int longestConsecutive(vector<int>& nums) {
         //这里需要考虑如果整个序列都是连续的情况
         return max(res,sub);
     }
-```
+// ```

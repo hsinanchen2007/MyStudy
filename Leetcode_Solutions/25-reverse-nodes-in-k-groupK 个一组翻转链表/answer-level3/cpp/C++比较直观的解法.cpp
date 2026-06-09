@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //头插法插入节点
     void addAtHead(ListNode* &p,int val){
@@ -44,4 +44,4 @@ public:
         return list;
     }
 };
-```
+// ```

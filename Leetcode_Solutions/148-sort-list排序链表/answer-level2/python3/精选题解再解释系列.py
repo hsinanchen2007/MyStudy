@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 148. 排序链表（看不懂得猛补归并排序）
 Sort a linked list in O(n log n) time using constant space complexity.
@@ -161,4 +161,4 @@ if __name__ == "__main__":
     s = Solution()
     l2 = s.sortList(l1)
     printList(l2)
-```
+# ```

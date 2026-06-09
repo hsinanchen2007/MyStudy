@@ -1,7 +1,7 @@
 
-# 方法1：使用点的入度实现，全部用例跑过。如下代码所示：
+// # 方法1：使用点的入度实现，全部用例跑过。如下代码所示：
 
-```
+// ```
 int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize, int* returnSize){
     int a[3000] = {0};
     int i,j, t;
@@ -49,10 +49,10 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     }
     return b;
 }
-```
-# 方法2：使用邻接表实现，部分用例跑过。当数组的大小超过100的时候，栈溢出。
+// ```
+// # 方法2：使用邻接表实现，部分用例跑过。当数组的大小超过100的时候，栈溢出。
 
-```
+// ```
 typedef struct NODE
 {   
     int key;
@@ -145,4 +145,4 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     
     return ret;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-rust 写法简单飘逸,应该还有很大优化空间
+// rust 写法简单飘逸,应该还有很大优化空间
 
-```rust
+// ```rust
 impl Solution {
  	fn num_to_letter(number: u32) -> Vec<char> {
 		match number {
@@ -44,4 +44,4 @@ impl Solution {
 		result
 	}
 }
-```
+// ```

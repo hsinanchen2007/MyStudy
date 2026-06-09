@@ -1,9 +1,9 @@
-### 解题思路
-设一个基本除数，构建一个简单的hash映射。
+// ### 解题思路
+// 设一个基本除数，构建一个简单的hash映射。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define HASH_BASE  (10031)
 
 int hash_index(int a)
@@ -45,4 +45,4 @@ int longestConsecutive(int* nums, int numsSize){
     free(hs);
     return lmax;
 }
-```
+// ```

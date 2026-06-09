@@ -1,4 +1,4 @@
-```
+// ```
  public Node copyRandomList(Node head) {
         Node dummy=new Node(); //dummy节点，即 结果链表的头结点
         Node tail=dummy;
@@ -28,4 +28,4 @@
         return dummy.next;
         
     }
-```
+// ```

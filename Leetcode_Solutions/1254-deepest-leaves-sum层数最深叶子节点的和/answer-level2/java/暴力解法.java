@@ -1,9 +1,9 @@
-### 解题思路
-只要有左或者右那就塞到List，List size增加 就代表有下一层，没增加 那就跑完了break掉，如果有增加的话就按照每次while开始时的size取下标把上一次的元素移除，最后遍历list 算个val的和
+// ### 解题思路
+// 只要有左或者右那就塞到List，List size增加 就代表有下一层，没增加 那就跑完了break掉，如果有增加的话就按照每次while开始时的size取下标把上一次的元素移除，最后遍历list 算个val的和
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ public class Solution {
         return treeList.stream().mapToInt(node -> node.val).sum();
     }
 }
-```
+// ```

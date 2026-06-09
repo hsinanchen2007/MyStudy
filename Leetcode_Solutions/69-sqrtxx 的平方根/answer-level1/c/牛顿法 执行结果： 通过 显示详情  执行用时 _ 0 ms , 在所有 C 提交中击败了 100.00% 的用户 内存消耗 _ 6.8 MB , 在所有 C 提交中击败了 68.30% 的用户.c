@@ -1,4 +1,4 @@
-直接上代码
+// 直接上代码
 int mySqrt(int x)
 
 {

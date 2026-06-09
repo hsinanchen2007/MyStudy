@@ -1,9 +1,9 @@
-### 解题思路
-暴力
+// ### 解题思路
+// 暴力
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 左旋转字符串操作 */
 char *reverseLeftWords(char *s, int n)
 {
@@ -28,4 +28,4 @@ char *reverseLeftWords(char *s, int n)
 
     return ans;
 }
-```
+// ```

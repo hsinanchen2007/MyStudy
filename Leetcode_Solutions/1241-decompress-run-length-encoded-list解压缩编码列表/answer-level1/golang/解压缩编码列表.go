@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码吧
+// ### 解题思路
+// 直接看代码吧
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func decompressRLElist(nums []int) []int {
 	var ret []int
 	for i := 1; i < len(nums); {
@@ -14,4 +14,4 @@ func decompressRLElist(nums []int) []int {
 	}
 	return ret
 }
-```
+// ```

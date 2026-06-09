@@ -1,6 +1,6 @@
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     Node* connect(Node* root) { // 递归解法
@@ -69,4 +69,4 @@ public:
         return root;        
     }
 };
-```
+// ```

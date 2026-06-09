@@ -1,5 +1,5 @@
 
-```
+// ```
 func calculate(s string) int {
         ss := strings.Replace(s, " ", "", -1) //字符串去空
 	str := strings.SplitAfter(ss, "")     //转数组
@@ -50,6 +50,6 @@ func isDigit(s []string, i int) bool {    //判断是否为数字
 	_, err := strconv.Atoi(s[i])
 	return err == nil
 }
-```
+// ```
 
 

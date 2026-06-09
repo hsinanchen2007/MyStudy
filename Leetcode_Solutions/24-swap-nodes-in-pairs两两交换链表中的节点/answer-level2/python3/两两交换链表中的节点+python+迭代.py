@@ -1,16 +1,16 @@
-####  方法1：迭代
+# ####  方法1：迭代
 
-| 时间复杂度 | 空间复杂度 |
-| :--------: | :--------: |
-|    O(n)    |    O(l)    |
+# | 时间复杂度 | 空间复杂度 |
+# | :--------: | :--------: |
+# |    O(n)    |    O(l)    |
 
-**基本思路：**
+# **基本思路：**
 
-> 如代码注释。
+# > 如代码注释。
 
-**代码：**
+# **代码：**
 
-```python []
+# ```python []
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         # 定义三个指针：pre、first、second，调换first和second的位置。
@@ -25,4 +25,4 @@ class Solution:
             pre.next, second.next = second, first
             pre = pre.next.next
         return tmp.next
-```
+# ```

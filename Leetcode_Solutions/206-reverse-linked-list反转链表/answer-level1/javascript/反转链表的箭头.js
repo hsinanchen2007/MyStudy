@@ -1,6 +1,6 @@
-定义三个变量，反转链表的箭头即可
+// 定义三个变量，反转链表的箭头即可
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -23,4 +23,4 @@ var reverseList = function(head) {
     }
     return pre
 };
-```
+// ```

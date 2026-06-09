@@ -1,9 +1,9 @@
-### 解题思路
-先找到车，再各个方向遍历
+# ### 解题思路
+# 先找到车，再各个方向遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         i, j = [(i,j) for i in range(8) for j in range(8) if board[i][j] == 'R'][0]
@@ -19,4 +19,4 @@ class Solution:
                     break
                 x, y = x + dx, y + dy 
         return acc
-```
+# ```

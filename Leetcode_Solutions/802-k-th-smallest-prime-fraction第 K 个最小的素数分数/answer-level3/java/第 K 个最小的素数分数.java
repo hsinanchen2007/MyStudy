@@ -1,18 +1,18 @@
-#### 方法一：二分查找【通过】
+// #### 方法一：二分查找【通过】
 
-**思路**
+// **思路**
 
- `under(x)` 用于求解小于 `x` 的分数数量，这是一个关于 `x` 的单调增函数，因此可以使用二分查找求解。
+//  `under(x)` 用于求解小于 `x` 的分数数量，这是一个关于 `x` 的单调增函数，因此可以使用二分查找求解。
 
-**算法**
+// **算法**
 
-使用二分查找找出一个 `x`，使得小于 `x` 的分数恰好有 `K` 个，并且记录其中最大的一个分数。
+// 使用二分查找找出一个 `x`，使得小于 `x` 的分数恰好有 `K` 个，并且记录其中最大的一个分数。
 
-我们的二分搜索与其他的二分搜索方法类似：初始有区间 `[lo, hi]`，中心点 `mi = (lo + hi) / 2.0`。如果小于 `mi` 的分数数量小于 `K`，更新区间为 `[mi, hi]`，否则更新为 `[lo, mi]`。更多关于二分搜索的内容，请访问 LeetCode 探索[这里](https://leetcode-cn.com/explore/learn/card/binary-search/)。
+// 我们的二分搜索与其他的二分搜索方法类似：初始有区间 `[lo, hi]`，中心点 `mi = (lo + hi) / 2.0`。如果小于 `mi` 的分数数量小于 `K`，更新区间为 `[mi, hi]`，否则更新为 `[lo, mi]`。更多关于二分搜索的内容，请访问 LeetCode 探索[这里](https://leetcode-cn.com/explore/learn/card/binary-search/)。
 
-`under(x)` 函数有两个目的：返回小于 `x` 的分数数量以及小于 `x` 的最大分数。在 `under(x)` 函数中使用滑动窗口的方法：对于每个 `primes[j]`，找出最大的 `i` 使得 `primes[i] / primes[j] < x`。随着 `j` （和 `primes[j]`）的增加， `i` 也会随之增加。 
+// `under(x)` 函数有两个目的：返回小于 `x` 的分数数量以及小于 `x` 的最大分数。在 `under(x)` 函数中使用滑动窗口的方法：对于每个 `primes[j]`，找出最大的 `i` 使得 `primes[i] / primes[j] < x`。随着 `j` （和 `primes[j]`）的增加， `i` 也会随之增加。 
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public int[] kthSmallestPrimeFraction(int[] primes, int K) {
         double lo = 0, hi = 1;
@@ -51,9 +51,9 @@ class Solution {
         return new int[]{count, numer, denom};
     }
 }
-```
+// ```
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def kthSmallestPrimeFraction(self, primes, K):
         from fractions import Fraction
@@ -83,29 +83,29 @@ class Solution(object):
                 hi = mi
 
         return ans.numerator, ans.denominator
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N \log W)$，其中 $N$ 是 `primes` 的长度，`W` 是二分查找的区间宽度，`(hi - lo) / 1e-9` 等于 $10^9$。
+// * 时间复杂度：$O(N \log W)$，其中 $N$ 是 `primes` 的长度，`W` 是二分查找的区间宽度，`(hi - lo) / 1e-9` 等于 $10^9$。
 
-* 空间复杂度：$O(1)$。
+// * 空间复杂度：$O(1)$。
 
-####方法二：堆【通过】
+// ####方法二：堆【通过】
 
-**思路**
+// **思路**
 
-使用一个堆记录所有以 `primes[j]` 为分母且未被弹出的最小分数。依次从堆中弹出 `K-1` 个元素，此时堆顶的分数就是结果。
+// 使用一个堆记录所有以 `primes[j]` 为分母且未被弹出的最小分数。依次从堆中弹出 `K-1` 个元素，此时堆顶的分数就是结果。
 
 
-**算法**
+// **算法**
 
-在 Python 中，使用 `(fraction, i, j)` 表示分数 `fraction = primes[i] / primes[j]`。如果下一个分数有效（即 `i+1 < j`），那么使用当前分数时，将下一个分数压入堆中。
+// 在 Python 中，使用 `(fraction, i, j)` 表示分数 `fraction = primes[i] / primes[j]`。如果下一个分数有效（即 `i+1 < j`），那么使用当前分数时，将下一个分数压入堆中。
 
-在Java中，使用记录  `{i, j}` （`i` 和 `j` 是索引，不是 `A` 中的元素）的 `int[2]` 表示分数，自定义比较器确保所有分数按照正确顺序存储。
+// 在Java中，使用记录  `{i, j}` （`i` 和 `j` 是索引，不是 `A` 中的元素）的 `int[2]` 表示分数，自定义比较器确保所有分数按照正确顺序存储。
 
-```java[solution2-Java]
+// ```java[solution2-Java]
 class Solution {
     public int[] kthSmallestPrimeFraction(int[] A, int K) {
         PriorityQueue<int[]> pq = new PriorityQueue<int[]>((a, b) ->
@@ -124,9 +124,9 @@ class Solution {
         return new int[]{A[ans[0]], A[ans[1]]};
     }
 }
-```
+// ```
 
-```python[solution2-Python]
+// ```python[solution2-Python]
 class Solution(object):
     #Note - this solution may TLE.
     def kthSmallestPrimeFraction(self, A, K):
@@ -139,16 +139,16 @@ class Solution(object):
                 heapq.heappush(pq, (A[i] / float(A[j]), i, j))
 
         return A[pq[0][1]], A[pq[0][2]]
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(K \log N)$，其中 $N$ 是 `A` 的长度，堆中最多压入 $N$ 个元素，每次弹出为 $O(\log N)$，需要 $O(K)$ 次弹出操作。
+// * 时间复杂度：$O(K \log N)$，其中 $N$ 是 `A` 的长度，堆中最多压入 $N$ 个元素，每次弹出为 $O(\log N)$，需要 $O(K)$ 次弹出操作。
 
-* 空间复杂度：$O(N)$，堆的大小。
+// * 空间复杂度：$O(N)$，堆的大小。
 
-#### 方法三：分治法【通过】
+// #### 方法三：分治法【通过】
 
-**说明**
+// **说明**
 
-除此之外，使用分治法也能解答此问题，时间复杂度可以达到 $O(N)$。将所有由素数组成的分数写到一个行和列都增长的矩阵中，然后查找其中第 `K` 个元素。它的主要思想与删除原始矩阵中所有奇数行和列，然后求其中的第 `K/4` 个元素非常相似。
+// 除此之外，使用分治法也能解答此问题，时间复杂度可以达到 $O(N)$。将所有由素数组成的分数写到一个行和列都增长的矩阵中，然后查找其中第 `K` 个元素。它的主要思想与删除原始矩阵中所有奇数行和列，然后求其中的第 `K/4` 个元素非常相似。

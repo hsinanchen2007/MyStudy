@@ -1,6 +1,6 @@
-![33F97C10-5BC3-4038-9008-6354D947E400.jpeg](https://pic.leetcode-cn.com/d3561bb39eb981d6821dd768ab13317385d8e8e821ef41c7daa4266e002e86a4-33F97C10-5BC3-4038-9008-6354D947E400.jpeg)
+// ![33F97C10-5BC3-4038-9008-6354D947E400.jpeg](https://pic.leetcode-cn.com/d3561bb39eb981d6821dd768ab13317385d8e8e821ef41c7daa4266e002e86a4-33F97C10-5BC3-4038-9008-6354D947E400.jpeg)
 
-```
+// ```
 void SubFuncDfs(int** grid, int gridSize, int* gridColSize, int x, int y, int *tmpValue)
 {
     if ((x < 0) || (x > gridSize - 1) || (y < 0) || (y > (*gridColSize) - 1)) {
@@ -46,4 +46,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
 
     return returnSize;
 }
-```
+// ```

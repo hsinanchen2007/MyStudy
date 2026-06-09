@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convertToBase7(int num) {
         int []sum=new int[10];
@@ -25,4 +25,4 @@ class Solution {
         return len;
     }
 }
-```
+// ```

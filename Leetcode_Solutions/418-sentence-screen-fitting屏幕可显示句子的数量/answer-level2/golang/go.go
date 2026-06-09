@@ -1,4 +1,4 @@
-```
+// ```
 func wordsTyping(sentence []string, rows int, cols int) int {
 	out, idx, l := 0, 0, 0
 	for _, s := range sentence {
@@ -25,4 +25,4 @@ func wordsTyping(sentence []string, rows int, cols int) int {
 	}
 	return out
 }
-```
+// ```

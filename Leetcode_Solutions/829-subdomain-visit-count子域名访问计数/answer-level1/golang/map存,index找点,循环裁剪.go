@@ -1,4 +1,4 @@
-```
+// ```
 func subdomainVisits(cpdomains []string) []string {
 	count := make(map[string]int, 0)
 	for _, value := range cpdomains {
@@ -25,14 +25,14 @@ func subdomainVisits(cpdomains []string) []string {
 }
 
 
-```
-执行用时 :
-8 ms
-, 在所有 golang 提交中击败了
-100.00%
-的用户
-内存消耗 :
-6 MB
-, 在所有 golang 提交中击败了
-100.00%
-的用户
+// ```
+// 执行用时 :
+// 8 ms
+// , 在所有 golang 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 6 MB
+// , 在所有 golang 提交中击败了
+// 100.00%
+// 的用户

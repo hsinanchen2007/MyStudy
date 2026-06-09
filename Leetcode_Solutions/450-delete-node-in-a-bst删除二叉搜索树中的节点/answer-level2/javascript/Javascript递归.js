@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -50,4 +50,4 @@ var deleteNode = function (root, key) {
 
     return root;
 };
-```
+// ```

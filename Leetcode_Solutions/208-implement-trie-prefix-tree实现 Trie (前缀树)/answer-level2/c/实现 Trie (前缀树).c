@@ -1,8 +1,8 @@
-### 解题思路
-前缀树的C实现
-### 代码
+// ### 解题思路
+// 前缀树的C实现
+// ### 代码
 
-```c
+// ```c
 typedef struct {
 	struct Trie* children[26];
 	bool isEnd;
@@ -73,4 +73,4 @@ void trieFree(Trie* obj) {
 	}
 	free(obj);
 }
-```
+// ```

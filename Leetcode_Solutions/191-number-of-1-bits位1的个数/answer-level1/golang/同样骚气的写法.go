@@ -1,4 +1,4 @@
-```
+// ```
 const (
 	m1  uint32 = 0x55555555 //binary: 0101...
 	m2  uint32 = 0x33333333 //binary: 00110011..
@@ -19,4 +19,4 @@ func hammingWeight(x uint32) int {
 	x = (x & m16) + ((x >> 16) & m16) //put count of each 32 bits into those 32 bits
 	return int(x)
 }
-```
+// ```

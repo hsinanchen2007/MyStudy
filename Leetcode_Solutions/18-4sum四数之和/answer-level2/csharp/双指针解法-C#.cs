@@ -1,20 +1,20 @@
-### 四数之和其实就是在[三数之和](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/)题目的基础上再多做一层循环嵌套，本质的算法思想是一致，都是采用双指针的解法。
+// ### 四数之和其实就是在[三数之和](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/)题目的基础上再多做一层循环嵌套，本质的算法思想是一致，都是采用双指针的解法。
 
-#### 举个例子：
+// #### 举个例子：
 
-测试用例：`nums：[1, 0, -1, 0, -2, 2]`，`target：0`
+// 测试用例：`nums：[1, 0, -1, 0, -2, 2]`，`target：0`
 
-先对`nums`做一个升序的排序得到`[-2,-1,0,0,1,2]`
+// 先对`nums`做一个升序的排序得到`[-2,-1,0,0,1,2]`
 
-利用两层循环首先是：`i=-2,j=-1`,然后剩下的区间为：`[0,0,1,2]`,利用双指针进行遍历
+// 利用两层循环首先是：`i=-2,j=-1`,然后剩下的区间为：`[0,0,1,2]`,利用双指针进行遍历
 
-即有：`i=-2,j=-1,L=0,R=2`,四数相加等于：`-1`,不等于且小于`target`，左指针加一位，即：`L++`
+// 即有：`i=-2,j=-1,L=0,R=2`,四数相加等于：`-1`,不等于且小于`target`，左指针加一位，即：`L++`
 
-否则右指针减一位：`R--`
+// 否则右指针减一位：`R--`
 
-若等于`target`，就存储在结果中，并对左右指针相邻重复的数做去重操作，继续上面的步骤 
+// 若等于`target`，就存储在结果中，并对左右指针相邻重复的数做去重操作，继续上面的步骤 
 
-```C# []
+// ```C# []
 public class Solution {
     public IList<IList<int>> FourSum(int[] nums, int target) {
         IList<IList<int>> resultList=new List<IList<int>>();
@@ -44,5 +44,5 @@ public class Solution {
         return resultList;
     }
 }
-```
+// ```
 

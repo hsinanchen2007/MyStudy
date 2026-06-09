@@ -1,7 +1,7 @@
-循环判断num是否等于0，
-在循环中每次*2，判断和1的关系，大于等于1为让num-=1，res+="1",
-否则让res+="0"
-```c++ []
+// 循环判断num是否等于0，
+// 在循环中每次*2，判断和1的关系，大于等于1为让num-=1，res+="1",
+// 否则让res+="0"
+// ```c++ []
 class Solution {
 public:
     string printBin(double num) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

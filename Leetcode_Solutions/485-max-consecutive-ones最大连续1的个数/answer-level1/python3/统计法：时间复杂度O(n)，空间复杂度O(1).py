@@ -1,9 +1,9 @@
-### 解题思路
-遇到1计数，遇到0 对比之前记录的最大连续数，最后返回计数与连续数中最大的那个
+# ### 解题思路
+# 遇到1计数，遇到0 对比之前记录的最大连续数，最后返回计数与连续数中最大的那个
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         i = 0
@@ -17,4 +17,4 @@ class Solution:
                 count = 0
             i += 1
         return max(ones,count)
-```
+# ```

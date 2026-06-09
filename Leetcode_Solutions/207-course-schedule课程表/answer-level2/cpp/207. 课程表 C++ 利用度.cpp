@@ -1,10 +1,10 @@
-### 解题思路
-类似题目：课程表II https://leetcode-cn.com/problems/course-schedule-ii/
-算法都是一样的
+// ### 解题思路
+// 类似题目：课程表II https://leetcode-cn.com/problems/course-schedule-ii/
+// 算法都是一样的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>> &prerequisites)
@@ -48,4 +48,4 @@ public:
         return true;
     }
 };
-```
+// ```

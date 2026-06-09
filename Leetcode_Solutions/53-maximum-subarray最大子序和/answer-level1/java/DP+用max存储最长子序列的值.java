@@ -1,4 +1,4 @@
-```java []
+// ```java []
 	public int maxSubArray(int[] nums) {
 		int[] dp = new int[nums.length];
 		int i = 0;
@@ -12,4 +12,4 @@
 		}
 		return max;
 	}
-```
+// ```

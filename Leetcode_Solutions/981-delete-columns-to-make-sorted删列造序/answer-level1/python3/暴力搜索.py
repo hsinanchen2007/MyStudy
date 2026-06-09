@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（mn）
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（mn）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:
         if not A:
@@ -31,4 +31,4 @@ class Solution:
                 return False
             last_s = i
         return True
-```
+# ```

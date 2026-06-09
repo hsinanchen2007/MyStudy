@@ -1,10 +1,10 @@
-### 解题思路
-继续使用[排除法](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)来做二分查找。
-只是这里需要使用 n = n + (x+mid-1)//mid 来统计不超一小时记作一小时。
+# ### 解题思路
+# 继续使用[排除法](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)来做二分查找。
+# 只是这里需要使用 n = n + (x+mid-1)//mid 来统计不超一小时记作一小时。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def eat_out(self, mid, piles, H):
         n = 0
@@ -28,4 +28,4 @@ class Solution:
                 left = mid+1
 
         return left
-```
+# ```

@@ -1,8 +1,8 @@
-golang 中心扩展算法
+// golang 中心扩展算法
 
-github: https://github.com/Crownt/leetcode
+// github: https://github.com/Crownt/leetcode
 
-```
+// ```
 // 中心扩展算法，对于奇数长度和偶数长度，分别以[i,i],[i,i+1]为回文串的中心向两端扩展
 // 时间复杂度：O(n^2)  空间复杂度：O(1)
 
@@ -29,4 +29,4 @@ func getPalindrome(s string, i int, j int) {
 		j++
 	} 	
 }
-```
+// ```

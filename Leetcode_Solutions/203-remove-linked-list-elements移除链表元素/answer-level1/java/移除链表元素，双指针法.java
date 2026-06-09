@@ -1,5 +1,5 @@
-java实现，双指针法。
-```
+// java实现，双指针法。
+// ```
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         ListNode soldier = new ListNode(0);
@@ -18,4 +18,4 @@ class Solution {
         return soldier.next.next;
     }
 }
-```
+// ```

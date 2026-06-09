@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int i, j;
 } Node;
@@ -82,4 +82,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize) {
     free(visited);
     return count;
 }
-```
+// ```

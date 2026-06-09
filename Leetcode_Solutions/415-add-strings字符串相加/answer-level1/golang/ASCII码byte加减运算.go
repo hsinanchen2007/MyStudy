@@ -1,17 +1,17 @@
-### 解题思路
-![微信截图_20200329182546.png](https://pic.leetcode-cn.com/b19cd622d8eaefd23b006f5b4e985ac882f99351a1b549a6fb2334f905f8db46-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200329182546.png)
+// ### 解题思路
+// ![微信截图_20200329182546.png](https://pic.leetcode-cn.com/b19cd622d8eaefd23b006f5b4e985ac882f99351a1b549a6fb2334f905f8db46-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200329182546.png)
 
 
-- 比较较长的字符串
-- 遍历较长字符串byte
-- byte + byte
-- 处理加法进位问题
-- 特殊处理最高位进位
-- []bytes -> string
+// - 比较较长的字符串
+// - 遍历较长字符串byte
+// - byte + byte
+// - 处理加法进位问题
+// - 特殊处理最高位进位
+// - []bytes -> string
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func addStrings(num1 string, num2 string) string {
 	//指定num1是较长字符串
@@ -64,4 +64,4 @@ func byteAdd(a, b byte) (byte, byte) {
 	return 0, ans + '0'
 }
 
-```
+// ```

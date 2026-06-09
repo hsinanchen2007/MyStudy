@@ -1,4 +1,4 @@
-``` C++
+// ``` C++
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-字数分离，字排序（自做个比较compare），字后加数
-```
+// 字数分离，字排序（自做个比较compare），字后加数
+// ```
 class Solution {
 public:
     static bool comp(string a, string b) {//比较函数
@@ -24,4 +24,4 @@ public:
 		return alpha;
     }
 };
-```
+// ```

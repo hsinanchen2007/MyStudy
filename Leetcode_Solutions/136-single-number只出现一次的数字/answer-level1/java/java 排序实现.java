@@ -1,5 +1,5 @@
-java 排序实现
-```
+// java 排序实现
+// ```
 class Solution {
     public int singleNumber(int[] nums) {
         Arrays.sort(nums);
@@ -18,4 +18,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

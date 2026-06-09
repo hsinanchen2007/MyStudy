@@ -1,9 +1,9 @@
-### 解题思路
-先按考虑`veganFriendly`，然后筛选就行了。最后按筛选结果拍序。注意先按 **rating** 排序，再按 **id** 排序。
+# ### 解题思路
+# 先按考虑`veganFriendly`，然后筛选就行了。最后按筛选结果拍序。注意先按 **rating** 排序，再按 **id** 排序。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def filterRestaurants(self, restaurants: List[List[int]], veganFriendly: int, maxPrice: int, maxDistance: int) -> List[int]:
         dic = {}
@@ -20,7 +20,7 @@ class Solution:
         for i in dic:
             res.append(i[0])
         return res
-```
-### 复杂度分析
-- 时间复杂度：$O(NlogN)$
-- 空间复杂度：$O(N)$
+# ```
+# ### 复杂度分析
+# - 时间复杂度：$O(NlogN)$
+# - 空间复杂度：$O(N)$

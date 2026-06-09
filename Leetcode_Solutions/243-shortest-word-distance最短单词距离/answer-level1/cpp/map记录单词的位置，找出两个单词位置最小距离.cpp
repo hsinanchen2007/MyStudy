@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int shortestDistance(vector<string>& words, string word1, string word2) {
@@ -24,9 +24,9 @@ public:
         return mn;
     }
 };
-```
-方法二，用两个vector分别记录两个单词的位置
-```
+// ```
+// 方法二，用两个vector分别记录两个单词的位置
+// ```
 class Solution {
 public:
     int shortestDistance(vector<string>& words, string word1, string word2) {
@@ -59,9 +59,9 @@ public:
         return mn;
     }
 };
-```
-方法三，用两个变量分别记录两个单词最后出现的左边，并更新最小距离
-```
+// ```
+// 方法三，用两个变量分别记录两个单词最后出现的左边，并更新最小距离
+// ```
 class Solution {
 public:
     int shortestDistance1(vector<string>& words, string word1, string word2) {
@@ -106,4 +106,4 @@ public:
         return mn;
     }
 };
-```
+// ```

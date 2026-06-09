@@ -1,6 +1,6 @@
-模拟每一位的加法计算，涉及到进位的问题
-运用递归，代码清晰易懂，方便理解
-```
+// 模拟每一位的加法计算，涉及到进位的问题
+// 运用递归，代码清晰易懂，方便理解
+// ```
 var addTwoNumbers = function(l1, l2, carry = 0) {
     // 如果当前位已不需要计算，则返回null
    if(l1 === null && l2 === null && carry == 0) return null
@@ -20,6 +20,6 @@ var addTwoNumbers = function(l1, l2, carry = 0) {
    newNode.next = addTwoNumbers(l1.next, l2.next, newCarry)
    return newNode
 };
-```
+// ```
 
-```
+// ```

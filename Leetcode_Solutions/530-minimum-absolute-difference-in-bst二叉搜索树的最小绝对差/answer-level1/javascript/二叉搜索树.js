@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,8 +31,8 @@ var getMinimumDifference = function(root) {
     recursion(root);
     return minValue;
 };
-```
-```
+// ```
+// ```
 var getMinimumDifference = function(root) {
 //BST 左节点的值<根节点<右节点
     var arr=[];
@@ -56,4 +56,4 @@ var getMinimumDifference = function(root) {
         return array;
     }
 };
-```
+// ```

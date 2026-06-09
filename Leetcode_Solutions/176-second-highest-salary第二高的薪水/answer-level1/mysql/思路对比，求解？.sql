@@ -1,9 +1,9 @@
-### 解题思路
-思路1相比思路2快很多，不懂为何，希望有朋友能帮忙答疑。
+-- ### 解题思路
+-- 思路1相比思路2快很多，不懂为何，希望有朋友能帮忙答疑。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 #  【思路1】
 select max(Salary) as SecondHighestSalary 
 from Employee 
@@ -16,4 +16,4 @@ where Salary != (
 --     order by Salary desc
 --     limit 1 offset 1
 -- ) SecondHighestSalary
-```
+-- ```

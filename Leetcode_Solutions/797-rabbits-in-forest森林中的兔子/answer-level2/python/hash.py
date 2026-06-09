@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         if not answers:
@@ -21,4 +21,4 @@ class Solution:
                 cnt=key+1
                 ans+=((value+cnt-1)//cnt)*cnt  #向上取整
         return ans
-```
+# ```

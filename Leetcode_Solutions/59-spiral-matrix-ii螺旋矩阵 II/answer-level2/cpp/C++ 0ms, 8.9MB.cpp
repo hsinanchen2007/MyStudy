@@ -1,13 +1,13 @@
-### 解题思路
-一圈一圈赋值！
-初始化和 dx,dy 是个好东西
-虽然我的vector初始化似乎有待优化
+// ### 解题思路
+// 一圈一圈赋值！
+// 初始化和 dx,dy 是个好东西
+// 虽然我的vector初始化似乎有待优化
 
-![image.png](https://pic.leetcode-cn.com/4ef626c0d25e7854096e0ff5a65cb4e8ed6e19adf0b9ea75f554fc983fb071f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4ef626c0d25e7854096e0ff5a65cb4e8ed6e19adf0b9ea75f554fc983fb071f0-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

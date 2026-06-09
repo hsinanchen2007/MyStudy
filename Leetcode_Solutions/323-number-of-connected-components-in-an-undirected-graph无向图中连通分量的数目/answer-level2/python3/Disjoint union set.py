@@ -1,10 +1,10 @@
-### 解题思路
-构造disjoint union set，每个连通的components都会有一个共同的root
-最后数有几个root parent，就有几个连通components
+# ### 解题思路
+# 构造disjoint union set，每个连通的components都会有一个共同的root
+# 最后数有几个root parent，就有几个连通components
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class DSU:
     def __init__(self, n):
         self.par = list(range(n))
@@ -32,4 +32,4 @@ class Solution:
         
         return len(set(dsu.par))
 
-```
+# ```

@@ -1,5 +1,5 @@
 
-```
+// ```
  public int read(char[] buf, int n) {
         int count=0;
 		int temp;
@@ -17,4 +17,4 @@
 		}
 		return count;
     }
-```
+// ```

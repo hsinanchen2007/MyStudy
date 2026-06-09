@@ -1,9 +1,9 @@
-### 解题思路
-先用二分查找找到目标值在数组中的某一个索引,然后向前查找第一个出现的位置,向后查找最后一个出现的位置
+// ### 解题思路
+// 先用二分查找找到目标值在数组中的某一个索引,然后向前查找第一个出现的位置,向后查找最后一个出现的位置
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchRange(nums []int, target int) []int {
     low, high := 0, len(nums)-1
 
@@ -41,4 +41,4 @@ func searchRange(nums []int, target int) []int {
 
 	return []int{first, last}
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这题就是怎么快怎么来了
+// ### 解题思路
+// 这题就是怎么快怎么来了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public void reverseString(char[] s) {
         char c;
@@ -19,4 +19,4 @@ class Solution {
         }
     }
 }
-```
+// ```

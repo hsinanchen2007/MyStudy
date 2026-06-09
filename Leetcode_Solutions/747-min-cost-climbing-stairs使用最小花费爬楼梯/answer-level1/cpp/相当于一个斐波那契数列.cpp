@@ -1,4 +1,4 @@
-```
+// ```
 class Solution{
 	public:
 		int minCostClimbingStairs(vector<int>& cost) {
@@ -7,4 +7,4 @@ class Solution{
 			return min(cost[num-1],cost[num-2]);
 	    }
 }; 
-```
+// ```

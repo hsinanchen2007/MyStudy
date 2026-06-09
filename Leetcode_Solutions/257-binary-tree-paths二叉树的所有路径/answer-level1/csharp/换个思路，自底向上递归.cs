@@ -1,6 +1,6 @@
-自底向上：
+// 自底向上：
 
-```
+// ```
  public IList<string> BinaryTreePaths(TreeNode root) {
         if(root==null){
             return new List<string>();
@@ -15,10 +15,10 @@
         }
         return list;
     }
-```
+// ```
 
-自上而下：
-```
+// 自上而下：
+// ```
  public IList<string> BinaryTreePaths(TreeNode root) {
         var list=new List<string>();
         BinaryTreePath(root,"",list);
@@ -42,4 +42,4 @@
             BinaryTreePath(root.right,path,list);
         }
     }
-```
+// ```

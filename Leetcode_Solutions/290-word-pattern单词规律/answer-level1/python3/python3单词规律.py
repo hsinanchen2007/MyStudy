@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def wordPattern(self, pattern: str, str1: str) -> bool:
         len1=len(pattern)
@@ -18,4 +18,4 @@ class Solution:
             else:
                 dic[pattern[i]]=strlist[i]
         return True
-```
+# ```

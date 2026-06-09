@@ -1,5 +1,5 @@
-代码行数稍微少点的写法：
-```
+// 代码行数稍微少点的写法：
+// ```
 var hasGroupsSizeX = function(deck) {
     function gcd(x, y) {
         return x == 0 ? y : gcd(y%x, x);
@@ -14,4 +14,4 @@ var hasGroupsSizeX = function(deck) {
     let res = arr[0];
     return arr.every(i => (res = gcd(res, i)) > 1);
 }
-```
+// ```

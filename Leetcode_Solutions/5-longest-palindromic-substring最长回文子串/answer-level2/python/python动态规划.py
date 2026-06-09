@@ -1,9 +1,9 @@
-### 解题思路
-1.用一个dp数组来表示，s[j:i]是否为回文串
-2.如果是回文串，判断长度
-### 代码
+# ### 解题思路
+# 1.用一个dp数组来表示，s[j:i]是否为回文串
+# 2.如果是回文串，判断长度
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -30,4 +30,4 @@ class Solution(object):
 
       
 
-```
+# ```

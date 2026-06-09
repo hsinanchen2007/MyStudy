@@ -1,6 +1,6 @@
-直接位运算解决。。。
+// 直接位运算解决。。。
 
-```
+// ```
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
@@ -12,4 +12,4 @@ public:
         return res;
     }
 };
-```
+// ```

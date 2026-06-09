@@ -1,10 +1,10 @@
-### 解题思路
-1. 从第一个到最后为一轮
-2. 每一轮 删除对应的下标的值
+// ### 解题思路
+// 1. 从第一个到最后为一轮
+// 2. 每一轮 删除对应的下标的值
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func lastRemaining(_ n: Int, _ m: Int) -> Int {
         var arr:[Int] = Array(0..<n)
@@ -26,4 +26,4 @@ class Solution {
         return arr.first ?? -1
     }
 }
-```
+// ```

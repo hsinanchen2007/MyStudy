@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return nums[left];
     }
 };
-```
+// ```

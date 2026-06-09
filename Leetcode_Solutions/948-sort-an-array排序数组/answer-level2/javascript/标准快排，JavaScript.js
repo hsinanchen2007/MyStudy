@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/ea6246828badb3359d414c49eeb53594b6972f589dfea7dd797f2cf6505b71d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ea6246828badb3359d414c49eeb53594b6972f589dfea7dd797f2cf6505b71d0-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -42,4 +42,4 @@ function getIndex(nums, low, hight) {
     nums[low] = temp;
     return low;
 }
-```
+// ```

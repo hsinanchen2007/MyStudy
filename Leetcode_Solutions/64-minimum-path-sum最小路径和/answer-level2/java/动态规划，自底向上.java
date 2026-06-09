@@ -1,6 +1,6 @@
-1. 这类题都一个套路，注意边界条件就可以了
+// 1. 这类题都一个套路，注意边界条件就可以了
 
-```
+// ```
 class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -33,4 +33,4 @@ class Solution {
     }
 }
 
-```
+// ```

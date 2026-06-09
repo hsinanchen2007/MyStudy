@@ -1,7 +1,7 @@
 
-1. b记录上一个Score的值
-2. a则代表名次, 用b和这一个Score做比较,如果改变就+1
-```sql []
+-- 1. b记录上一个Score的值
+-- 2. a则代表名次, 用b和这一个Score做比较,如果改变就+1
+-- ```sql []
 select 
 Score,
 cast( Rank as SIGNED INTEGER) as 'Rank'
@@ -16,4 +16,4 @@ from
     order by Score desc
 ) t
 
-```
+-- ```

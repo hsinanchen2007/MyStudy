@@ -1,12 +1,12 @@
 
-### 方法一：递归写法
+// ### 方法一：递归写法
 
-实际上就是在做前序遍历，再根据对称性设计递归往下传递的树的子结点。
+// 实际上就是在做前序遍历，再根据对称性设计递归往下传递的树的子结点。
 
 
-**参考代码 1**：
+// **参考代码 1**：
 
-```Java []
+// ```Java []
 class TreeNode {
     int val = 0;
     TreeNode left = null;
@@ -46,8 +46,8 @@ public class Solution {
         return dfs(pRoot1.left, pRoot2.right) && dfs(pRoot1.right, pRoot2.left);
     }
 }
-```
-```Python []
+// ```
+// ```Python []
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -70,23 +70,23 @@ class Solution:
 
         # 以上是递归终止条件
         return p1.val == p2.val and self.__helper(p1.left, p2.right) and self.__helper(p1.right, p2.left)
-```
+// ```
 
-**复杂度分析**：
+// **复杂度分析**：
 
-+ 时间复杂度：$O(N)$，这里 $N$ 为树的结点个数，事实上这个递归方法就是在做树的遍历，每个结点访问一次；
-+ 空间复杂度：$O(H)$，这里 $H$ 表示树的高度，系统栈需要 $H$ 长度的空间。
-
-
-### 方法二：非递归写法（层序遍历）
-
-+ 这个方法有点像层序遍历，故使用队列，但是根据对称性，队首和队尾其实都需要能够执行入队和出队操作，因此使用**双端队列（`Deque`）**；
-+ Java 语言中 `Deque` 的实现类在这道题里不能选 `ArrayDeque`，因为该类的 `add` 方法会对添加的元素做非空检查。
+// + 时间复杂度：$O(N)$，这里 $N$ 为树的结点个数，事实上这个递归方法就是在做树的遍历，每个结点访问一次；
+// + 空间复杂度：$O(H)$，这里 $H$ 表示树的高度，系统栈需要 $H$ 长度的空间。
 
 
-**参考代码 2**：
+// ### 方法二：非递归写法（层序遍历）
 
-```Java []
+// + 这个方法有点像层序遍历，故使用队列，但是根据对称性，队首和队尾其实都需要能够执行入队和出队操作，因此使用**双端队列（`Deque`）**；
+// + Java 语言中 `Deque` 的实现类在这道题里不能选 `ArrayDeque`，因为该类的 `add` 方法会对添加的元素做非空检查。
+
+
+// **参考代码 2**：
+
+// ```Java []
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -129,8 +129,8 @@ public class Solution {
         return true;
     }
 }
-```
-```Python []
+// ```
+// ```Python []
 from collections import deque
 
 
@@ -168,9 +168,9 @@ class Solution:
             d.append(right_node.left)
             d.append(right_node.right)
         return True
-```
+// ```
 
-**复杂度分析**：
+// **复杂度分析**：
 
-+ 时间复杂度：$O(N)$，这里 $N$ 为树的结点个数，事实上这个递归方法就是在做树的遍历，每个结点访问一次；
-+ 空间复杂度：$O(L)$，这里 $L$ 表示树的相邻两层结点个数之和的最大值。
+// + 时间复杂度：$O(N)$，这里 $N$ 为树的结点个数，事实上这个递归方法就是在做树的遍历，每个结点访问一次；
+// + 空间复杂度：$O(L)$，这里 $L$ 表示树的相邻两层结点个数之和的最大值。

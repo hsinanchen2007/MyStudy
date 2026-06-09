@@ -1,9 +1,9 @@
-### 解题思路1
-该思路是每次重新生成一个ListNode，会比较占用内存空间。
+# ### 解题思路1
+# 该思路是每次重新生成一个ListNode，会比较占用内存空间。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -41,16 +41,16 @@ class Solution(object):
 
 
         
-```
+# ```
 
 
 
-### 解题思路2
-不用生成一个新的节点，直接将两个节点相加的值赋给节点l3就可以了。
+# ### 解题思路2
+# 不用生成一个新的节点，直接将两个节点相加的值赋给节点l3就可以了。
 
 
-### 代码
-```python
+# ### 代码
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -86,13 +86,13 @@ class Solution(object):
 
         return l1
 
-```
+# ```
 
 
-### 解题思路3
-用递归的思路解答，这里暂时pending，后面解答。
+# ### 解题思路3
+# 用递归的思路解答，这里暂时pending，后面解答。
 
 
-### 代码
-```python
-```
+# ### 代码
+# ```python
+# ```

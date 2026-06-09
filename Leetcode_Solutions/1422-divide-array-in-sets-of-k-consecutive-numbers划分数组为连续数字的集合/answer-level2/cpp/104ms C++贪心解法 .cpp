@@ -1,6 +1,6 @@
-## 排序后，用k个指针来指向当前正确的(连续)k个数，然后每次尝试往后移，判断是否有不满足的。
+// ## 排序后，用k个指针来指向当前正确的(连续)k个数，然后每次尝试往后移，判断是否有不满足的。
 
-```c++
+// ```c++
 class Solution {
 public:
     bool isPossibleDivide(vector<int>& nums, int k) {
@@ -54,4 +54,4 @@ public:
         return true;
     }
 };
-```
+// ```

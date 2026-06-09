@@ -1,12 +1,12 @@
-### 解题思路
-这题一开始想用递归，方法如下
-1.构造一个函数analyzeString，输入上次一的string，输出本次的string
-2.countAndSay里面调用analyzeString(n-1),若是1则返回“1”
-但是这个递归里面的内存分配太多，会报错，改成for循环后解决，思路是一样的
+// ### 解题思路
+// 这题一开始想用递归，方法如下
+// 1.构造一个函数analyzeString，输入上次一的string，输出本次的string
+// 2.countAndSay里面调用analyzeString(n-1),若是1则返回“1”
+// 但是这个递归里面的内存分配太多，会报错，改成for循环后解决，思路是一样的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void analyzeString(char *s,char *pbuf) {
     int len = strlen(s);
     int arr[10] = {0};
@@ -44,4 +44,4 @@ char * countAndSay(int n){
     }
     return pCurCount;
 }
-```
+// ```

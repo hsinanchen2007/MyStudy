@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string rankTeams(vector<string>& votes) {
@@ -21,4 +21,4 @@ public:
         return votes[0];
     }
 };
-```
+// ```

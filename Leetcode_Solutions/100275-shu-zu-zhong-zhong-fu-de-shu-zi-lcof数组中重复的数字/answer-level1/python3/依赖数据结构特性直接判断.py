@@ -1,6 +1,6 @@
-python中的list和dict都可以做，dict做得快一些
+# python中的list和dict都可以做，dict做得快一些
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: [int]) -> int:
         r = {}
@@ -8,5 +8,5 @@ class Solution:
             if i in r:
                 return i
             r[i] = i
-```
-击败100%用户的时间和空间
+# ```
+# 击败100%用户的时间和空间

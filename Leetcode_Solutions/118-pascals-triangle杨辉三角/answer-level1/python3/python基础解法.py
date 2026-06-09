@@ -1,9 +1,9 @@
-### 解题思路
-其实就是动态规划的问题，将dp设为上一层，通过新的ans[i][j]=dp[j-1]+dp[j]就可以算出ans
+# ### 解题思路
+# 其实就是动态规划的问题，将dp设为上一层，通过新的ans[i][j]=dp[j-1]+dp[j]就可以算出ans
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if numRows == 0: return []
@@ -15,4 +15,4 @@ class Solution:
             for j in range(1, len(ans[i])-1):
                 ans[i][j] = dp[j-1] + dp[j]
         return ans
-```
+# ```

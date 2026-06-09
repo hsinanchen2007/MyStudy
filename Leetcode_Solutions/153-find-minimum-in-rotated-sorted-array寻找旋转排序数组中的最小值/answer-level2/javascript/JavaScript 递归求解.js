@@ -1,4 +1,4 @@
-```js
+// ```js
 const findMin = nums => {
 
     const findMinimum = (arr, low, high) => {
@@ -19,4 +19,4 @@ const findMin = nums => {
 }
   
 
-```
+// ```

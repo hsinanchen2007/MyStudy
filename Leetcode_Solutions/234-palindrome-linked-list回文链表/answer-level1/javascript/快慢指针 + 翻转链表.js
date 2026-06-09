@@ -1,16 +1,16 @@
-### Analyze
+// ### Analyze
 
-思路比较清晰直观, 步骤如下:
+// 思路比较清晰直观, 步骤如下:
 
-1. 第一步: 使用快慢指针找到链表中点, 链表分割为左右两部分;
-2. 第二步: 翻转右边的链表节点;
-3. 第三步: 比较左右两边的节点;
+// 1. 第一步: 使用快慢指针找到链表中点, 链表分割为左右两部分;
+// 2. 第二步: 翻转右边的链表节点;
+// 3. 第三步: 比较左右两边的节点;
 
-> 该题与题目 [143.Reorder_List](https://github.com/MuYunyun/blog/blob/master/LeetCode/143.Reorder_List/README.md) 十分类似。
+// > 该题与题目 [143.Reorder_List](https://github.com/MuYunyun/blog/blob/master/LeetCode/143.Reorder_List/README.md) 十分类似。
 
-步骤图解:
+// 步骤图解:
 
-```js
+// ```js
 第一步: 找中点, 分割链表;
                         q
               s
@@ -36,9 +36,9 @@ right 链表:
 1 -> 2 -> null
 
 第三步: 判断 left 链表与 right 链表;
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -92,13 +92,13 @@ function reverseLink(list) {
 
   return prev
 }
-```
+// ```
 
-![](https://pic.leetcode-cn.com/5a4bc5f550877ba40d10c90823ac6f3e7b53e1dab4beed0f40ffea17a6c579a0.jpg)
+// ![](https://pic.leetcode-cn.com/5a4bc5f550877ba40d10c90823ac6f3e7b53e1dab4beed0f40ffea17a6c579a0.jpg)
 
 
-### Sister Title
+// ### Sister Title
 
-* [143.Reorder_List]((https://github.com/MuYunyun/blog/blob/master/LeetCode/143.Reorder_List/README.md))
+// * [143.Reorder_List]((https://github.com/MuYunyun/blog/blob/master/LeetCode/143.Reorder_List/README.md))
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

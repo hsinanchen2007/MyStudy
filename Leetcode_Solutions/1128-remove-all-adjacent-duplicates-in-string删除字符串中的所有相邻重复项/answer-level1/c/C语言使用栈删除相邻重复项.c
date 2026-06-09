@@ -1,4 +1,4 @@
-```
+// ```
 char * removeDuplicates(char * S){
     char s[20000], *res;
     int top = -1;
@@ -17,4 +17,4 @@ char * removeDuplicates(char * S){
     }
     return res;
 }
-```
+// ```

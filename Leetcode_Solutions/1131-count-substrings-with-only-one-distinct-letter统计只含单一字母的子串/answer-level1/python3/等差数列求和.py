@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countLetters(self, S: str) -> int:
         p, q = 0, 0
@@ -14,4 +14,4 @@ class Solution:
 
     def fun(self, n):
         return (n+1) * n // 2
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归解法很简单，就是找到倒数第一个和倒数第二个节点。然后改变一下next指针即可。
+// ### 解题思路
+// 递归解法很简单，就是找到倒数第一个和倒数第二个节点。然后改变一下next指针即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,9 +33,9 @@ class Solution {
         return head;
     }
 }
-```
-非递归解法
-```java
+// ```
+// 非递归解法
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -91,4 +91,4 @@ if(head == null || head.next == null || head.next.next == null)
         return;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-### 解题思路
-``` java
+// ### 解题思路
+// ``` java
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || inorder == null || preorder.length == 0 || inorder.length == 0 || preorder.length != inorder.length) {
@@ -26,4 +26,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

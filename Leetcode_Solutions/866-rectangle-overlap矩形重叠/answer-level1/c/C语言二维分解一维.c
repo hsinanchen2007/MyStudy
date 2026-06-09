@@ -1,8 +1,8 @@
-### 解题思路
-矩形投影到横纵坐标上，只有横纵坐标都重合，矩形才重合。
-### 代码
+// ### 解题思路
+// 矩形投影到横纵坐标上，只有横纵坐标都重合，矩形才重合。
+// ### 代码
 
-```c
+// ```c
 #define PRINTF // printf
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     int bRet = false;
@@ -31,4 +31,4 @@ END:
     return bRet;
 
 }
-```
+// ```

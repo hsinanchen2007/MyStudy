@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         Arrays.sort(trips, new Comparator<int[]>() {
@@ -33,4 +33,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

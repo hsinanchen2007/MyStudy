@@ -1,4 +1,4 @@
-    // 暴力法
+//     // 暴力法
 	public boolean rotateString(String A, String B) {
 		if (A.equals(B)) {
 			return true;

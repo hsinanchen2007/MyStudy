@@ -1,10 +1,10 @@
-### 解题思路
-看到log(m+n) 想到递归处理，然后找中位数就是不断去掉两个数组的最大最小值，增加index，通过index+size保证数组可见范围不断缩减。
+// ### 解题思路
+// 看到log(m+n) 想到递归处理，然后找中位数就是不断去掉两个数组的最大最小值，增加index，通过index+size保证数组可见范围不断缩减。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double avaVal(int *nums, int numsSize,int numsLeftIndex) {
     if (numsSize == 0) {
         return 0;
@@ -52,4 +52,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
 }
 
 
-```
+// ```

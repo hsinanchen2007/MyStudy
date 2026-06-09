@@ -1,8 +1,8 @@
-1. 从 `1 ~ sqrt(num)` 的范围循环找出 `num` 的因子 `factor`
-2. 如果 `factor != 1`，那么可以求出另一个与之对应的因子 `num / factor`。这里注意要判断 `num / factor` 是否与 `factor` 相等，避免相同因子重复添加
-3. 计算所有因子和，判断是否与 `num` 相等
+# 1. 从 `1 ~ sqrt(num)` 的范围循环找出 `num` 的因子 `factor`
+# 2. 如果 `factor != 1`，那么可以求出另一个与之对应的因子 `num / factor`。这里注意要判断 `num / factor` 是否与 `factor` 相等，避免相同因子重复添加
+# 3. 计算所有因子和，判断是否与 `num` 相等
 
-```python
+# ```python
 import math
 
 class Solution(object):
@@ -28,4 +28,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

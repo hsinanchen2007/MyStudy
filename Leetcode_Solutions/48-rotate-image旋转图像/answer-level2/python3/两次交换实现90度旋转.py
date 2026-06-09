@@ -1,11 +1,11 @@
-### 解题思路
-两次旋转：
-1.对角交换
-2.水平交换
+# ### 解题思路
+# 两次旋转：
+# 1.对角交换
+# 2.水平交换
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -20,4 +20,4 @@ class Solution:
           for j in range(int(n/2)):
             matrix[i][j], matrix[i][n-1-j] = matrix[i][n-1-j], matrix[i][j]
 
-```
+# ```

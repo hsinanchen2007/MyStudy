@@ -1,9 +1,9 @@
-### 解题思路
-先说结论：在JS中，用数组模拟栈性能远远高于链表，也更易于操作，用链表只是一种思路；
-理论上，链表的pop和push操作复杂度低于数组。
-### 代码
+// ### 解题思路
+// 先说结论：在JS中，用数组模拟栈性能远远高于链表，也更易于操作，用链表只是一种思路；
+// 理论上，链表的pop和push操作复杂度低于数组。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} maxSize
  */
@@ -70,4 +70,4 @@ CustomStack.prototype.increment = function(k, val) {
  * var param_2 = obj.pop()
  * obj.increment(k,val)
  */
-```
+// ```

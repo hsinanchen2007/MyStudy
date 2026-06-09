@@ -1,7 +1,7 @@
-![捕获.PNG](https://pic.leetcode-cn.com/c257fe1888d06b824524af2a37f86bd85d8c26ffb0d2908c304ccb79f70c503d-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/c257fe1888d06b824524af2a37f86bd85d8c26ffb0d2908c304ccb79f70c503d-%E6%8D%95%E8%8E%B7.PNG)
 
 
-```
+// ```
 public int triangleNumber(int[] nums) {
         Arrays.sort(nums);
         int maxValue = nums[nums.length-1];
@@ -51,4 +51,4 @@ public int triangleNumber(int[] nums) {
         }
         return sum;
     }
-```
+// ```

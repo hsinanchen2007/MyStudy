@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void DFS(char** board, int boardSize, int* boardColSize, int row, int col)
 {
@@ -53,4 +53,4 @@ void solve(char** board, int boardSize, int* boardColSize){
 
     return;
 }
-```
+// ```

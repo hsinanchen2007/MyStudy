@@ -1,5 +1,5 @@
-方法简单但是提交多次才过 
-```
+# 方法简单但是提交多次才过 
+# ```
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         flag = True
@@ -48,4 +48,4 @@ class Solution:
                     break
         return flag
                     
-```
+# ```

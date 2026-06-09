@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select format_trans.month, format_trans.country, sum(if(format_trans.is_approved!=0, 1,0)) as approved_count, sum(format_trans.is_approved) as approved_amount, sum(if(format_trans.is_chargebacked!=0, 1,0)) as chargeback_count, sum(format_trans.is_chargebacked) as chargeback_amount
 from 
@@ -24,4 +24,4 @@ group by format_trans.month, format_trans.country
 having approved_count!=0 or approved_amount!=0 or chargeback_count!=0 or chargeback_amount
 !=0;
 
-```
+-- ```

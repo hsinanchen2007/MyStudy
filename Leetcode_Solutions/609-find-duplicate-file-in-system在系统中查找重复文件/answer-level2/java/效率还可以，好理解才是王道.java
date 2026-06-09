@@ -1,11 +1,11 @@
-### 解题思路
-这里的重点是利用indexOf获得要截取字符串的位置
-另外一个要看清题目，是输出重复的文件，不重复的不算
+// ### 解题思路
+// 这里的重点是利用indexOf获得要截取字符串的位置
+// 另外一个要看清题目，是输出重复的文件，不重复的不算
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
         HashMap<String, List<String>> map = new HashMap<>();
@@ -40,4 +40,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

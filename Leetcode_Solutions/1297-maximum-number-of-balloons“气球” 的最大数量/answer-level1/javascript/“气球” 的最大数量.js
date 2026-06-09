@@ -1,4 +1,4 @@
-```js
+// ```js
 var maxNumberOfBalloons = function(text) {
     let map = new Map()
     let arr = text.split('')
@@ -24,4 +24,4 @@ var maxNumberOfBalloons = function(text) {
     	return parseInt(min)
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-解题思路：fn = f0 + f1，然后要注意题目要进行取模
+// ### 解题思路
+// 解题思路：fn = f0 + f1，然后要注意题目要进行取模
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -19,4 +19,4 @@ var fib = function(n) {
     }
     return fn
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-字典树
+// ### 解题思路
+// 字典树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         Arrays.sort(words, (s1, s2)->(s2.length() - s1.length()));
@@ -43,4 +43,4 @@ class Tries {
         return isNew == true ? s.length() + 1 : 0;
     }
 }
-```
+// ```

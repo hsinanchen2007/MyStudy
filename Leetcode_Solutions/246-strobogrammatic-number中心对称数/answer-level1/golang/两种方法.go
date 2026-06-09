@@ -1,4 +1,4 @@
-# 方法一
+// # 方法一
 
 ![image.png](https://pic.leetcode-cn.com/b9eb6124886ded9183c7135fdb8b017967cc902b0fbb809b2163ef996f4ab3c9-image.png)
 # 方法二

@@ -1,4 +1,4 @@
-```
+// ```
 StringBuilder builder = new StringBuilder();
         int start = 0;
         int count = 0;
@@ -17,4 +17,4 @@ StringBuilder builder = new StringBuilder();
         }
 
         return builder.toString();
-```
+// ```

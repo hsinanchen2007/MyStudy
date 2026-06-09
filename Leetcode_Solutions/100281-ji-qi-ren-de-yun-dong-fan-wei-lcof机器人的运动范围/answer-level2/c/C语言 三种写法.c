@@ -1,9 +1,9 @@
-### 解题思路
-三种解法，大佬们解释的都很清楚了，此处仅做C代码写法参考
+// ### 解题思路
+// 三种解法，大佬们解释的都很清楚了，此处仅做C代码写法参考
 
-### 代码
-1. 动态规划：
-```c
+// ### 代码
+// 1. 动态规划：
+// ```c
 int isRightNum(int num1, int num2, int k){
 	int tmp = 0;
 	while (num1){
@@ -51,10 +51,10 @@ int movingCount(int m, int n, int k){
 	}
 	return res;
 }
-```
+// ```
 
-2. 深度优先遍历
-```c
+// 2. 深度优先遍历
+// ```c
 int isRightNum(int num1, int num2, int k){
 	int tmp = 0;
 	while (num1){
@@ -80,10 +80,10 @@ int movingCount(int m, int n, int k){
 	res = dfs(i, j, k, m, n, visited);
 	return res;
 }
-```
+// ```
 
-3. 广度优先遍历
-```c
+// 3. 广度优先遍历
+// ```c
 typedef struct Postion{
     int i; //横坐标
     int j; //纵坐标
@@ -135,4 +135,4 @@ int movingCount(int m, int n, int k){
 	return res;
 }
 
-```
+// ```

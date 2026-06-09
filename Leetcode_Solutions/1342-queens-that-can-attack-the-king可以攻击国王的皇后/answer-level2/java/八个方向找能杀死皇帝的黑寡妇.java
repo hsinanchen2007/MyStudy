@@ -1,12 +1,12 @@
-### 解题思路
-1. 定义八个方向
-2. 循环这八个方向寻找
-3. 找到第一个黑皇后就返回，或者达到边界就返回
-4. 返回结果
+// ### 解题思路
+// 1. 定义八个方向
+// 2. 循环这八个方向寻找
+// 3. 找到第一个黑皇后就返回，或者达到边界就返回
+// 4. 返回结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
         List<List<Integer>> list = new ArrayList<List<Integer>>();
@@ -49,4 +49,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

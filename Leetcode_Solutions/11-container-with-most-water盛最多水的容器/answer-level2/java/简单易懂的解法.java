@@ -1,8 +1,8 @@
-### 解题思路
-头尾指针，面积由较小值来确定，计算完成后，小的指针向中间移动
-### 代码
+// ### 解题思路
+// 头尾指针，面积由较小值来确定，计算完成后，小的指针向中间移动
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int max = 0, i = 0, j = height.length - 1;
@@ -17,4 +17,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLongestSubstring(char * s){
     int maxRes = 0;
     int tempNum[256] = {0};
@@ -19,4 +19,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return maxRes;
 }
-```
+// ```

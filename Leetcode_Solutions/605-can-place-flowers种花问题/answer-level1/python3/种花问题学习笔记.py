@@ -1,12 +1,12 @@
-### 解题思路
-根据官方的贪心算法写的，
-当测试用例为[0]，三个条件为flowerbed[i]==0,i==0,i==len(flowerbed)-1
-利用了逻辑判断的短路特性，不需要考虑list的溢出
+# ### 解题思路
+# 根据官方的贪心算法写的，
+# 当测试用例为[0]，三个条件为flowerbed[i]==0,i==0,i==len(flowerbed)-1
+# 利用了逻辑判断的短路特性，不需要考虑list的溢出
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         count=0
@@ -21,4 +21,4 @@ class Solution:
                 flowerbed[i] = 1
                 count+=1
         return count>=n
-```
+# ```

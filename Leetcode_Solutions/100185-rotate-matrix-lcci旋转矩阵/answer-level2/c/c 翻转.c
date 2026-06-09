@@ -1,4 +1,4 @@
-```
+// ```
 void rotate( int ** matrix , int matrixSize , int * matrixColSize ){
 
     for( int i = 0 ; i < matrixSize - i ; i++ ){
@@ -26,4 +26,4 @@ void rotate( int ** matrix , int matrixSize , int * matrixColSize ){
     }
 
 }
-```
+// ```

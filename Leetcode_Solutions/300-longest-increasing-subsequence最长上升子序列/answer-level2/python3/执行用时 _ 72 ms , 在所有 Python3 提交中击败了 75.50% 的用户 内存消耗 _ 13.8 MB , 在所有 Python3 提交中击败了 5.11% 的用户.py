@@ -1,9 +1,9 @@
-### 解题思路
-小白实在搞不出来，看题解写的
+# ### 解题思路
+# 小白实在搞不出来，看题解写的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         d = []
@@ -24,4 +24,4 @@ class Solution:
         return len(d)
 
 
-```
+# ```

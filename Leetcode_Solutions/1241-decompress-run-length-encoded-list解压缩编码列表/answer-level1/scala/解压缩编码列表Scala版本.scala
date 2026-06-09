@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 import scala.collection.mutable.ArrayBuffer
 object Solution {
     def decompressRLElist(nums: Array[Int]): Array[Int] = {
@@ -13,4 +13,4 @@ object Solution {
         res.toArray
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-先序遍历
-中序
-后序
-都可以
-### 代码
+// ### 解题思路
+// 先序遍历
+// 中序
+// 后序
+// 都可以
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return $t1;
     }
 }
-```
+// ```

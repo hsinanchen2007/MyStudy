@@ -1,9 +1,9 @@
-### 解题思路
-    一共两个栈,一个stackdata用来存放所有的数据,一个stackmin栈用来存放栈的最小值.push的时候,如果这个x比stackmin这个栈的最小值(也就是stackmin.top())小,就压入stackmin,如果不小,就压入此时stackmin栈的最小值,这样可以保证,stackmin的top是stackdata的最小值.
+// ### 解题思路
+//     一共两个栈,一个stackdata用来存放所有的数据,一个stackmin栈用来存放栈的最小值.push的时候,如果这个x比stackmin这个栈的最小值(也就是stackmin.top())小,就压入stackmin,如果不小,就压入此时stackmin栈的最小值,这样可以保证,stackmin的top是stackdata的最小值.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -67,4 +67,4 @@ private:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

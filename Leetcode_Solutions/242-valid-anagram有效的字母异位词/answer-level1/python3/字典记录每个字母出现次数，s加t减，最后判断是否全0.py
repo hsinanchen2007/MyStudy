@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         dic={}
@@ -21,4 +21,4 @@ class Solution:
             if i!=0:
                 return False
         return True
-```
+# ```

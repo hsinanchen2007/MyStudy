@@ -1,9 +1,9 @@
-### 解题思路
-中位数不断逼近，判断目标值与中位数平方和中位数+1平方之间的关系
+# ### 解题思路
+# 中位数不断逼近，判断目标值与中位数平方和中位数+1平方之间的关系
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         if num == 0:
@@ -19,4 +19,4 @@ class Solution:
             else:
                 l = mid + 1
         return True
-```
+# ```

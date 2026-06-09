@@ -1,9 +1,9 @@
-### 解题思路
-无
+# ### 解题思路
+# 无
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         num_L=0
@@ -20,4 +20,4 @@ class Solution:
                 count += 1
         return count
 
-```
+# ```

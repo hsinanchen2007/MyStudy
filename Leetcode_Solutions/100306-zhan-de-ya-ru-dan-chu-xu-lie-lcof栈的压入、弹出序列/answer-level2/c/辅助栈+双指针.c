@@ -1,5 +1,5 @@
-# 辅助栈+双指针
-```c
+// # 辅助栈+双指针
+// ```c
 bool validateStackSequences(int* pushed, int pushedSize, int* popped, int poppedSize){
     if(!pushed||!popped) return false;
     int temp[1000];
@@ -17,4 +17,4 @@ bool validateStackSequences(int* pushed, int pushedSize, int* popped, int popped
     }
     return pushind==0;
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
+// ### 解题思路
 
-看了评论区的各种代码，目前我知道的解法有三种：
+// 看了评论区的各种代码，目前我知道的解法有三种：
 
-- 把遍历过的节点缓存出来，如果在遍历过程中，下一个节点完全与当前节点相同，则返回true。如果遍历完都没有相同的节点则返回false。
+// - 把遍历过的节点缓存出来，如果在遍历过程中，下一个节点完全与当前节点相同，则返回true。如果遍历完都没有相同的节点则返回false。
 
-- 在遍历节点的过程中修改节点的值（这个值越奇怪越好），如果在遍历的过程中第二次发现了这个值，就说明有环，返回true，否则返回false。(最快解法)
+// - 在遍历节点的过程中修改节点的值（这个值越奇怪越好），如果在遍历的过程中第二次发现了这个值，就说明有环，返回true，否则返回false。(最快解法)
 
-- 快慢指针，定义两个指针，一个指针每次走一个next，一个指针每次走多个next，如果两个指针相遇，则说明有环，返回true。否则返回false
+// - 快慢指针，定义两个指针，一个指针每次走一个next，一个指针每次走多个next，如果两个指针相遇，则说明有环，返回true。否则返回false
 
-### 代码
+// ### 代码
 
-#### 解法1：缓存遍历过的值
+// #### 解法1：缓存遍历过的值
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -40,11 +40,11 @@ public class Solution {
         return true;
     }
 }
-```
+// ```
 
-#### 解法2：修改遍历过程中结点的值
+// #### 解法2：修改遍历过程中结点的值
 
-```java
+// ```java
 public class Solution {
     public boolean hasCycle(ListNode head) {
         while (head != null) {
@@ -58,11 +58,11 @@ public class Solution {
         return false;
     }
 }
-```
+// ```
 
-#### 解法3：快慢指针(未通过测试用例[1, 2], -1)
+// #### 解法3：快慢指针(未通过测试用例[1, 2], -1)
 
-```java
+// ```java
 if (head == null) return false;
         ListNode fast = head;
         ListNode slow = head;
@@ -72,5 +72,5 @@ if (head == null) return false;
         }
 
         return !(slow == null || fast.next == null);
-```
+// ```
 

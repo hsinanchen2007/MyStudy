@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-给定一个非空字符串 s，最多删除一个字符。判断是否能成为回文字符串。
+// 给定一个非空字符串 s，最多删除一个字符。判断是否能成为回文字符串。
 
-示例 1:
+// 示例 1:
 
-输入: "aba"
-输出: True
+// 输入: "aba"
+// 输出: True
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool Palindrome(char *s, int l, int r){
     while (l<r) {
         if (s[l++] != s[r--])
@@ -29,4 +29,4 @@ bool validPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

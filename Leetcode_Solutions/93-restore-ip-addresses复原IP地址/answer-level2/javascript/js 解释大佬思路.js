@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/e0805c715a4191a7b6615d0fa646ef55724603fe7e3864677d2f2e0cc165a130-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e0805c715a4191a7b6615d0fa646ef55724603fe7e3864677d2f2e0cc165a130-image.png)
 
-### 解题思路
-思路解释在递归函数中
+// ### 解题思路
+// 思路解释在递归函数中
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string[]}
@@ -135,4 +135,4 @@ var restoreIpAddresses = function(s) {
   
 //   return ans;
 // };
-```
+// ```

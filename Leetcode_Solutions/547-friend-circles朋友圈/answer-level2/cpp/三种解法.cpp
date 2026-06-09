@@ -1,11 +1,11 @@
-### 解题思路
-1.思路1:BFS
-2.思路2：DFS
-3.思路3:并查集
+// ### 解题思路
+// 1.思路1:BFS
+// 2.思路2：DFS
+// 3.思路3:并查集
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M) {
@@ -37,4 +37,4 @@ public:
         }
     }
 };
-```
+// ```

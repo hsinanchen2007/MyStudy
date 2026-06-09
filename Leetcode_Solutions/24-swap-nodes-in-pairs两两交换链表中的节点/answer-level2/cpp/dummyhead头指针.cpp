@@ -1,6 +1,6 @@
-头结点加上 dummyhead指针，dummyhead指针前面有个fatherhead指针指着dummyhead
+// 头结点加上 dummyhead指针，dummyhead指针前面有个fatherhead指针指着dummyhead
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         
     }
 };
-```
+// ```

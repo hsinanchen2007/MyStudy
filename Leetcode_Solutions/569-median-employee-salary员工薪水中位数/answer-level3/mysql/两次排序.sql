@@ -1,13 +1,13 @@
-### 解题思路
-1.同公司内，按照Salary分别升序降序排序
-2.两次排序结果之差绝对值小于2即为题目所求中位数
+-- ### 解题思路
+-- 1.同公司内，按照Salary分别升序降序排序
+-- 2.两次排序结果之差绝对值小于2即为题目所求中位数
 
-### 执行结果
-执行用时 :181 ms, 在所有 MySQL 提交中击败了45.32%的用户
+-- ### 执行结果
+-- 执行用时 :181 ms, 在所有 MySQL 提交中击败了45.32%的用户
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT Id, Company, Salary
@@ -30,4 +30,4 @@ FROM (
 ) b
 WHERE abs(rank - reverse) < 2
 ORDER BY Company, Salary
-```
+-- ```

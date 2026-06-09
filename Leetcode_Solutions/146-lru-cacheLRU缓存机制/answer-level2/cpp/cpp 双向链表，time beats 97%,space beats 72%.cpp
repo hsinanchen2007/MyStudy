@@ -1,6 +1,6 @@
-自己写了一个双向链表结构，每次读写都将这个key对应的node移动到head一端，key和node的对应用hash mpa记录
+// 自己写了一个双向链表结构，每次读写都将这个key对应的node移动到head一端，key和node的对应用hash mpa记录
 
-```cpp
+// ```cpp
 struct DListNode{
     int val;
     int key;
@@ -95,4 +95,4 @@ public:
  ["LRUCache","put","put","get","put","get","put","get","get","get"]
 [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
 */
-```
+// ```

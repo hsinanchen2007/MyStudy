@@ -1,9 +1,9 @@
-### 解题思路
-和之前的岛屿数量问题很像
+// ### 解题思路
+// 和之前的岛屿数量问题很像
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         if (image[sr][sc] == newColor) {
@@ -24,4 +24,4 @@ class Solution {
         fill(image, sr, sc + 1, color, newColor);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 
 /**
 *
@@ -77,4 +77,4 @@ int numPrimeArrangements( int n ){
     return ( int )result;
 
 }
-```
+// ```

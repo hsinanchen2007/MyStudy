@@ -1,6 +1,6 @@
- 一次遍历，如果map存在当前字符，则移除indexs中的当前下标，否则往indexs中插入当前下标
- 最后如果indexs为空，说明不存在第一个唯一字符，返回-1，否则返回第一个元素
-```
+//  一次遍历，如果map存在当前字符，则移除indexs中的当前下标，否则往indexs中插入当前下标
+//  最后如果indexs为空，说明不存在第一个唯一字符，返回-1，否则返回第一个元素
+// ```
 public int firstUniqChar(String s) {
         
         if (s == null || s.length() == 0) {
@@ -19,4 +19,4 @@ public int firstUniqChar(String s) {
         }
         return indexs.size() == 0 ? -1 : indexs.get(0);
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-无脑循环，求更优解
+# ### 解题思路
+# 无脑循环，求更优解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         init_candies = [0 for _ in range(num_people)]
@@ -27,4 +27,4 @@ class Solution:
         return init_candies
 
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         //桶排序思想，前缀和
@@ -19,4 +19,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

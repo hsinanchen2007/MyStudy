@@ -1,9 +1,9 @@
-### 解题思路
-白板Bugfree挑战，代码还是挺丑的，用了三次才通过，主要是没有考虑AB不用交换也可以的情况，时间复杂O(n)，空间复杂O(1)
+// ### 解题思路
+// 白板Bugfree挑战，代码还是挺丑的，用了三次才通过，主要是没有考虑AB不用交换也可以的情况，时间复杂O(n)，空间复杂O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDominoRotations(int[] A, int[] B) {
         //count the number of elements
@@ -41,4 +41,4 @@ class Solution {
         return Math.min(ansA, ansB);
     }
 }
-```
+// ```

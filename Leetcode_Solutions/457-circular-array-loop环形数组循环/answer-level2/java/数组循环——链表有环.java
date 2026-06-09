@@ -1,5 +1,5 @@
-参考别人代码写的~思路类似快慢指针判断链表是否有环，在注释里
-```
+// 参考别人代码写的~思路类似快慢指针判断链表是否有环，在注释里
+// ```
 class Solution {
     public boolean circularArrayLoop(int[] nums) {
         if(nums.length == 0 || nums.length == 1 || nums == null) return false;//处理特殊情况
@@ -28,4 +28,4 @@ class Solution {
             else {return nums.length+next%nums.length;}
         }
 }
-```
+// ```

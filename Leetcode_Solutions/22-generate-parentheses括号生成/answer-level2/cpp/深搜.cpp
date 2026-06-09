@@ -1,9 +1,9 @@
-### 解题思路
-深搜即可
+// ### 解题思路
+// 深搜即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -23,4 +23,4 @@ public:
         if(right != 0) dfs(left, right - 1, n, s + ')', ans);
     }
 };
-```
+// ```

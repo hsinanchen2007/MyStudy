@@ -1,10 +1,10 @@
-### 解题思路
-栈存储的是下标，然后判断的是值，如果找到比栈顶大的，就减下标
-注意：有可能后边的数会比前边N个数大，所以用while
+// ### 解题思路
+// 栈存储的是下标，然后判断的是值，如果找到比栈顶大的，就减下标
+// 注意：有可能后边的数会比前边N个数大，所以用while
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} T
  * @return {number[]}
@@ -25,4 +25,4 @@ var dailyTemperatures = function(T) {
 
    return result
 };
-```
+// ```

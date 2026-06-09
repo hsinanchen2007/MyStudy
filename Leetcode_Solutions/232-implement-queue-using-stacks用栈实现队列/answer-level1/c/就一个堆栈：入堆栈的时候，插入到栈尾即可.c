@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct Queue{
     int data;
     struct Queue * next;
@@ -53,4 +53,4 @@ void myQueueFree(MyQueue* obj) {
         free(tmp);
     }
 }
-```
+// ```

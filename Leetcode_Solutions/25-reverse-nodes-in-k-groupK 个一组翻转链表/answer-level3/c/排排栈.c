@@ -1,4 +1,4 @@
-每K个一组压栈，弹栈，记住head和前一组的end就可以了。
+// 每K个一组压栈，弹栈，记住head和前一组的end就可以了。
 
 typedef struct ListNode Node;
 

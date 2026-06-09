@@ -1,5 +1,5 @@
-method 1:  subtraction
-```
+// method 1:  subtraction
+// ```
 class Solution {
     public:
         char findTheDifference(string s, string t) {
@@ -12,11 +12,11 @@ class Solution {
             return res;
         }
 };
-```
+// ```
 
-method2: xor
+// method2: xor
 
-```
+// ```
 class Solution {
     public:
         char findTheDifference(string s, string t) {
@@ -28,4 +28,4 @@ class Solution {
             return res;
         }
 };
-```
+// ```

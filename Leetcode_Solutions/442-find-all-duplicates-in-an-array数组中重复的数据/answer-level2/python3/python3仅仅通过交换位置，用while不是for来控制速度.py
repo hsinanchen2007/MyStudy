@@ -1,9 +1,9 @@
-### 解题思路
-python3仅仅通过交换位置，用while不是for来控制速度
+# ### 解题思路
+# python3仅仅通过交换位置，用while不是for来控制速度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         len_int_list = len(nums)
@@ -25,4 +25,4 @@ class Solution:
 
         return list(set(ret_list))
 
-```
+# ```

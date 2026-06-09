@@ -1,8 +1,8 @@
-统计黏在一起的面一共有多少，然后总的面积减去该部分即可
+# 统计黏在一起的面一共有多少，然后总的面积减去该部分即可
 
 
 
-```
+# ```
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         count, total, N = 0, 0, len(grid)
@@ -16,4 +16,4 @@ class Solution:
                     if x < N and y < N:
                         count += min(grid[i][j], grid[x][y])
         return 6 * total - 2 * count    
-```
+# ```

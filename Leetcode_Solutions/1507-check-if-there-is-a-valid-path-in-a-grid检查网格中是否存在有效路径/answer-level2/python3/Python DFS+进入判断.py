@@ -1,5 +1,5 @@
-在传统DFS中加入能否进入当前位置的判断，比较简洁。
-```py
+# 在传统DFS中加入能否进入当前位置的判断，比较简洁。
+# ```py
 class Solution:
     def hasValidPath(self, grid):
         import sys   
@@ -27,4 +27,4 @@ class Solution:
             return dfs(d[0], x + d[0][0], y + d[0][1]) or dfs(d[1], x + d[1][0], y + d[1][1])
         
         return dfs(None, 0, 0)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-通过添加一个头结点，使得当m = 1的情况好处理。
-![捕获.JPG](https://pic.leetcode-cn.com/a2f234bc8c9a3fdc81ae04c970fe27c67e29cbb77827f5622b3657a6b07f1e65-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 通过添加一个头结点，使得当m = 1的情况好处理。
+// ![捕获.JPG](https://pic.leetcode-cn.com/a2f234bc8c9a3fdc81ae04c970fe27c67e29cbb77827f5622b3657a6b07f1e65-%E6%8D%95%E8%8E%B7.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ public:
         return Head->next;
     }
 };
-```
+// ```

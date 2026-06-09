@@ -1,9 +1,9 @@
-### 解题思路
-**1.迭代**
+# ### 解题思路
+# **1.迭代**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     #初始化
     def __init__(self):
@@ -44,11 +44,11 @@ class Solution(object):
         ans = temp[:l]
         return ans[::-1]
                 
-```
-### 
-**2.复制列表元素**
-### 代码
-```python
+# ```
+# ### 
+# **2.复制列表元素**
+# ### 代码
+# ```python
 class Solution(object):
     #初始化
     def __init__(self):
@@ -72,4 +72,4 @@ class Solution(object):
             ls -= 1
             i += 1
         return temp
-```
+# ```

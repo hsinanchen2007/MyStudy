@@ -1,6 +1,6 @@
-对于第i个数 当且仅当i和它前面所有数的最大值 小于 i后面所有数的最小值时 可以把i和它前面的数分出去 结果 + 1 复杂度O(n)
+// 对于第i个数 当且仅当i和它前面所有数的最大值 小于 i后面所有数的最小值时 可以把i和它前面的数分出去 结果 + 1 复杂度O(n)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxChunksToSorted(vector<int>& arr) {
@@ -19,4 +19,4 @@ public:
 	return result;
     }
 };
-```
+// ```

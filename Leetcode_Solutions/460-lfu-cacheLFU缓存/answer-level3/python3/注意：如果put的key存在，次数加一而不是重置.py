@@ -1,9 +1,9 @@
-### 解题思路
-垃圾题，第一次写了这么久，最后发现提议不清晰，我对着100多行的用例在草纸一步一步推，发现我推的和我代码一样我就知道这题一定有问题我佛了
+# ### 解题思路
+# 垃圾题，第一次写了这么久，最后发现提议不清晰，我对着100多行的用例在草纸一步一步推，发现我推的和我代码一样我就知道这题一定有问题我佛了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class LFUCache:
 
     def __init__(self, capacity: int):
@@ -57,4 +57,4 @@ class LFUCache:
         for i in range(10):
             print(self.keys[i], self.values[i], self.time[i], self.freq[i])
 
-```
+# ```

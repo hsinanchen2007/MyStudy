@@ -1,8 +1,8 @@
-*法一：暴力双循环*
+// *法一：暴力双循环*
 
-缺点：速度太慢
+// 缺点：速度太慢
 
-```js
+// ```js
 var twoSum = function(numbers, target) {
     var len = numbers.length;
     var result = [];
@@ -19,11 +19,11 @@ var twoSum = function(numbers, target) {
 var numbers = [2, 7, 11, 15];
 var target = 9;
 console.log(twoSum(numbers, target))
-```
+// ```
 
-*法二：双指针*
+// *法二：双指针*
 
-```js
+// ```js
 var twoSum2 = function(numbers, target) {
     var l = 0;
     var r = numbers.length - 1;
@@ -37,6 +37,6 @@ var twoSum2 = function(numbers, target) {
         }
     }
 };
-```
+// ```
 
 

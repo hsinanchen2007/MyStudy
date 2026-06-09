@@ -1,14 +1,14 @@
-按`字典序`排序： 去重后取最小的字典序的子序列
+// 按`字典序`排序： 去重后取最小的字典序的子序列
 
-示例一中`"cdadabcc"` 的去重结果有`"cdab"`, `"cadb"`, `"dabc"`, `"adbc"`，最小的字典序为`"adbc"`
+// 示例一中`"cdadabcc"` 的去重结果有`"cdab"`, `"cadb"`, `"dabc"`, `"adbc"`，最小的字典序为`"adbc"`
 
-一、暴力法
+// 一、暴力法
 
-通过递归找出所有的去重结果。
+// 通过递归找出所有的去重结果。
 
-时间复杂度为O(n!),妥妥的超时！
+// 时间复杂度为O(n!),妥妥的超时！
 
-```javascript []
+// ```javascript []
   var chars = new Set(text)
   var list = new Set()
 
@@ -25,28 +25,28 @@
   }
 
   backtrack(new Set(), 0)
-```
+// ```
 
-二、双向队列
+// 二、双向队列
 
-通过双向队列保存当前字母，当确认是最优解后增长子序列。
+// 通过双向队列保存当前字母，当确认是最优解后增长子序列。
 
-时间复杂度为O(n × m) 。n 为文本长度，m为子序列长度
+// 时间复杂度为O(n × m) 。n 为文本长度，m为子序列长度
 
-1、当前字母正好的需要的，直接加入结果，清空队列
+// 1、当前字母正好的需要的，直接加入结果，清空队列
 
-2、当前字母是最后一个时，将队列中比当前字母小的加入结果
+// 2、当前字母是最后一个时，将队列中比当前字母小的加入结果
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-2.1、当前字母在队列中时，保留其余字母
+// &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+// 2.1、当前字母在队列中时，保留其余字母
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-2.2、当前字母不在队列中时，清空队列
+// &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+// 2.2、当前字母不在队列中时，清空队列
 
-3、当前字母不在时队列，并删除队列中比当前字母的大的
+// 3、当前字母不在时队列，并删除队列中比当前字母的大的
 
-![未命名文件.png](https://pic.leetcode-cn.com/34b595547f320857be92ff4a4bdc4b67bc3c834185092b9a65531cf6f4f130ef-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.png)
-```javascript []
+// ![未命名文件.png](https://pic.leetcode-cn.com/34b595547f320857be92ff4a4bdc4b67bc3c834185092b9a65531cf6f4f130ef-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6.png)
+// ```javascript []
 
 var smallestSubsequence = function (text) {
   var map = {}, chars = [], result = '', queue = new Deque(), len // Deque 的实现在下面
@@ -103,9 +103,9 @@ var smallestSubsequence = function (text) {
 
   return result
 };
-```
-附：简单的双向队列实现
-```
+// ```
+// 附：简单的双向队列实现
+// ```
 class Deque extends Array {
   get first() {
     return this[0]
@@ -120,4 +120,4 @@ class Deque extends Array {
     return this.indexOf(val) !== -1
   }
 }
-```
+// ```

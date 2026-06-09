@@ -1,29 +1,29 @@
-### 解题思路
-sebset 方法变形，先了解subset的模板
-void subsetHelper(vector<vector<int>>& result, vector<int>& sebset, vector<int>& nums, int pos) {
-    result.push_back(sebset);
-    for (int i = pos; i < nums.size(); i++) {
-        sebset.push_back(nums[i]);
-        subsetHelper(result, sebset, nums, pos + 1);
-        temp.pop_back();
-    }
-}
-模板重要的是：
-（1）什么时候输出
-（2）什么时候跳过
+// ### 解题思路
+// sebset 方法变形，先了解subset的模板
+// void subsetHelper(vector<vector<int>>& result, vector<int>& sebset, vector<int>& nums, int pos) {
+//     result.push_back(sebset);
+//     for (int i = pos; i < nums.size(); i++) {
+//         sebset.push_back(nums[i]);
+//         subsetHelper(result, sebset, nums, pos + 1);
+//         temp.pop_back();
+//     }
+// }
+// 模板重要的是：
+// （1）什么时候输出
+// （2）什么时候跳过
 
-对于全排列（无重复）：
-（1）subset 的size 是 nums 的size的输出；
-（2）什么时候跳过，由于全排列，每次都要从头遍历（而不是从上一次pos遍历）所以要标记哪些位置的已经放入sebset，不能重复放入；
+// 对于全排列（无重复）：
+// （1）subset 的size 是 nums 的size的输出；
+// （2）什么时候跳过，由于全排列，每次都要从头遍历（而不是从上一次pos遍历）所以要标记哪些位置的已经放入sebset，不能重复放入；
 
 
-因此：关键点（key）
-（1）有个相同大小数组记录对应点是否放入sebset；
-（2）回溯subset的时候，也要重置这个对应点的状态；
+// 因此：关键点（key）
+// （1）有个相同大小数组记录对应点是否放入sebset；
+// （2）回溯subset的时候，也要重置这个对应点的状态；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -51,4 +51,4 @@ public:
         
     }
 };
-```
+// ```

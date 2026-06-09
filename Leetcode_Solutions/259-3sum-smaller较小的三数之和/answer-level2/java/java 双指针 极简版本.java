@@ -1,4 +1,4 @@
-和其他三数之和相同，重点在于count的更新  count = count + right - left;
+// 和其他三数之和相同，重点在于count的更新  count = count + right - left;
 
 class Solution {
     public int threeSumSmaller(int[] nums, int target) {

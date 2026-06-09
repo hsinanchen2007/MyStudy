@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :24 ms, 在所有 Python3 提交中击败了99.26%的用户
+# ### 解题思路
+# 执行用时 :24 ms, 在所有 Python3 提交中击败了99.26%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x:int) -> int:
             s = str(x)
@@ -29,4 +29,4 @@ class Solution:
                 return 0
             else :
                 return x
-```
+# ```

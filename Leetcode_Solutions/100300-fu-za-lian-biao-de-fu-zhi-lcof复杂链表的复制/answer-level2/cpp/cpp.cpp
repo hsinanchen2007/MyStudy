@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-就是一个合并数组的操作，合并后求数组的中值就可以。
+// ### 解题思路
+// 就是一个合并数组的操作，合并后求数组的中值就可以。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -38,4 +38,4 @@ public:
         }
     }
 };
-```
+// ```

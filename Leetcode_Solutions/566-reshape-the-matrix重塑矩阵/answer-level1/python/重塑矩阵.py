@@ -1,9 +1,9 @@
-### 解题思路
-重塑矩阵
+# ### 解题思路
+# 重塑矩阵
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         if len(nums) == 0:
@@ -24,4 +24,4 @@ class Solution:
                         tempI, tempJ = tempI + 1, 0
         return ret
                 
-```
+# ```

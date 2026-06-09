@@ -1,10 +1,10 @@
-# C语言，遍历查找重复节点
+// # C语言，遍历查找重复节点
 
-使用一个变量保存 **前一个结点**。  
-把所有重复的节点都遍历过，找到下一个不重复节点。  
-将**前一个节点**连接到下一个不重复节点即可。  
+// 使用一个变量保存 **前一个结点**。  
+// 把所有重复的节点都遍历过，找到下一个不重复节点。  
+// 将**前一个节点**连接到下一个不重复节点即可。  
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

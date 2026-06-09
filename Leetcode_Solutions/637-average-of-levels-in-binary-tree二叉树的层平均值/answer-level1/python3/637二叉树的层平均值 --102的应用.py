@@ -1,9 +1,9 @@
-### 解题思路
-这是102二叉树的层次遍历的应用，和<103>一样引入temp辅助变量保存每层结果，并从statistics标准库中导入求均值的方法mean()
+# ### 解题思路
+# 这是102二叉树的层次遍历的应用，和<103>一样引入temp辅助变量保存每层结果，并从statistics标准库中导入求均值的方法mean()
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
                     queue.append(curNode.right)
             res.append(mean(temp))
         return res
-```
+# ```

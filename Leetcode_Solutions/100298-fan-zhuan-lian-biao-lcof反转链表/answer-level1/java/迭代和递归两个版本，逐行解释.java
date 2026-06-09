@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-迭代版本
-```java
+// ### 代码
+// 迭代版本
+// ```java
 public ListNode reverseList(ListNode head) {
     ListNode pre = null;
     ListNode cur = head;
@@ -16,11 +16,11 @@ public ListNode reverseList(ListNode head) {
     }
     return pre;
 }
-```
+// ```
 
 
-递归版本
-```java
+// 递归版本
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
@@ -35,4 +35,4 @@ class Solution {
         return tail;
     }
 }
-```
+// ```

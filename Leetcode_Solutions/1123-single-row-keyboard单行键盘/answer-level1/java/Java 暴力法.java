@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int calculateTime(String keyboard, String word) {
         int result = 0;
@@ -11,4 +11,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

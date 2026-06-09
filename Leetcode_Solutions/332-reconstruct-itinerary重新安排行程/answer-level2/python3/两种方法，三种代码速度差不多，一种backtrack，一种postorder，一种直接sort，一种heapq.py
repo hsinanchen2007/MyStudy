@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-两种方法，三种代码速度差不多，一种backtrack，一种postorder，一种直接sort，一种heapq
-[Hierholzer算法](https://taodaling.github.io/blog/2019/04/25/Hierholzer%E7%AE%97%E6%B3%95/)
-### 代码
+# 两种方法，三种代码速度差不多，一种backtrack，一种postorder，一种直接sort，一种heapq
+# [Hierholzer算法](https://taodaling.github.io/blog/2019/04/25/Hierholzer%E7%AE%97%E6%B3%95/)
+# ### 代码
 
-```
+# ```
 from heapq import heappop, heappush
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
@@ -59,4 +59,4 @@ class Solution:
         
         _dfs('JFK', ['JFK'])
         return res   
-```
+# ```

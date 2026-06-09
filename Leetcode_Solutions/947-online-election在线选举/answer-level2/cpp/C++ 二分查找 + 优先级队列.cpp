@@ -1,6 +1,6 @@
-1，优先级队列用于在预处理时确定每一个时刻的答案
-2，二分查找寻找距离`t`最近的过去某个时刻的下标，然后取出答案即可
-```
+// 1，优先级队列用于在预处理时确定每一个时刻的答案
+// 2，二分查找寻找距离`t`最近的过去某个时刻的下标，然后取出答案即可
+// ```
 class TopVotedCandidate {
 public:
     struct Vote {
@@ -49,6 +49,6 @@ public:
         return results[index(t)];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/906a7ba8f15847a93abf04c092f6648ad5f3e78d45ce0f8b6d804d249fc0a7fe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/906a7ba8f15847a93abf04c092f6648ad5f3e78d45ce0f8b6d804d249fc0a7fe-image.png)

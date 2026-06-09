@@ -1,10 +1,10 @@
-### 解题思路
-有效括号的嵌套深度，用栈存放'('，栈的深度即时，'('的嵌套深度；
-遇到一个')'，从栈中弹出一个'('后，栈的深度即为')'的嵌套深度
+// ### 解题思路
+// 有效括号的嵌套深度，用栈存放'('，栈的深度即时，'('的嵌套深度；
+// 遇到一个')'，从栈中弹出一个'('后，栈的深度即为')'的嵌套深度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int[] answer = new int[seq.length()];
@@ -21,4 +21,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

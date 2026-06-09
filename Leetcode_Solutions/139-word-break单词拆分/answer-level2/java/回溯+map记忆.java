@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-10 ms
-, 在所有 Java 提交中击败了
-73.39%
-的用户
-内存消耗 :
-36.6 MB
-, 在所有 Java 提交中击败了
-80.11%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 10 ms
+// , 在所有 Java 提交中击败了
+// 73.39%
+// 的用户
+// 内存消耗 :
+// 36.6 MB
+// , 在所有 Java 提交中击败了
+// 80.11%
+// 的用户
+// ```
 public class Solution {
      boolean res=false;
 	    Map<String,Boolean> resmap = new HashMap<String,Boolean>();
@@ -51,4 +51,4 @@ public class Solution {
 	        return false;
 }
 }
-```
+// ```

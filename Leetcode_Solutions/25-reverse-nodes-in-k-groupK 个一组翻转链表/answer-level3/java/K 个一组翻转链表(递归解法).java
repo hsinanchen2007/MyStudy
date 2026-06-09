@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/70f6520d56c64e27bc25dcf43df71949b38a32955005a96e5d812ffa7ba04db8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/70f6520d56c64e27bc25dcf43df71949b38a32955005a96e5d812ffa7ba04db8-image.png)
 
-```
+// ```
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         int length, n, i;
@@ -46,4 +46,4 @@ class Solution {
         return 1 + getListLength(head.next);
     }
 }
-```
+// ```

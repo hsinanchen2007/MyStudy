@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* itoa(int a,int d){
     int acpy=a;int z=0;
     while(acpy>0){
@@ -57,4 +57,4 @@ char* compressString(char* S){
     }
     return intochar(a,c,adex,len);
 }
-```
+// ```

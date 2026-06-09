@@ -1,9 +1,9 @@
-### 解题思路
-利用Integer的最大值进行二分查找
+// ### 解题思路
+// 利用Integer的最大值进行二分查找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int mySqrt(int x) {
@@ -28,4 +28,4 @@ class Solution {
         return (int)left;
     }
 }
-```
+// ```

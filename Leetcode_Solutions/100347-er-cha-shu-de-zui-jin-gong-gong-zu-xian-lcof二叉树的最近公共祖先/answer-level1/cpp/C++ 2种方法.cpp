@@ -1,26 +1,26 @@
-### 解题思路
-方法一：参考自剑指offer
-1、通过先序遍历，获取根节点到目标节点的路径
-2、再通过获取的路径，求的公共节点
+// ### 解题思路
+// 方法一：参考自剑指offer
+// 1、通过先序遍历，获取根节点到目标节点的路径
+// 2、再通过获取的路径，求的公共节点
 
-方法二：参考自
-[@yuanninesuns](/u/yuanninesuns/)
-思路：
+// 方法二：参考自
+// [@yuanninesuns](/u/yuanninesuns/)
+// 思路：
 
-1、如果p和q分别是root的左右节点，那么root就是我们要找的最近公共祖先
-2、如果p和q都是root的左节点，那么返回lowestCommonAncestor(root->left, p, q)
-3、如果pheq都是root的右节点，那么返回lowestCommonAncestor(root->right, p, q)
-边界条件讨论：
-1、如果是null表示已经找到最低了，返回null表示没找到
-2、如果root与p相等或者q相等，则返回root
-3、如果左子树没找到，递归函数返回null，证明p和q在root的右侧，那么最终的公共祖先就是右子树找到的结点
-4、如果右子树没找到，递归函数返回null，证明p和q在root的左侧，那么最终的公共祖先就是左子树找到的结点
+// 1、如果p和q分别是root的左右节点，那么root就是我们要找的最近公共祖先
+// 2、如果p和q都是root的左节点，那么返回lowestCommonAncestor(root->left, p, q)
+// 3、如果pheq都是root的右节点，那么返回lowestCommonAncestor(root->right, p, q)
+// 边界条件讨论：
+// 1、如果是null表示已经找到最低了，返回null表示没找到
+// 2、如果root与p相等或者q相等，则返回root
+// 3、如果左子树没找到，递归函数返回null，证明p和q在root的右侧，那么最终的公共祖先就是右子树找到的结点
+// 4、如果右子树没找到，递归函数返回null，证明p和q在root的左侧，那么最终的公共祖先就是左子树找到的结点
 
-### 代码
+// ### 代码
 
-#### 方法一：
+// #### 方法一：
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -63,11 +63,11 @@ public:
 		return pLast;
 	}
 };
-```
+// ```
 
-#### 方法2：
+// #### 方法2：
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -86,4 +86,4 @@ public:
 		 
 	}
 };
-```
+// ```

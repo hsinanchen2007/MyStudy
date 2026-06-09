@@ -1,9 +1,9 @@
-### 解题思路1
-看了别人的思路写的解法
+# ### 解题思路1
+# 看了别人的思路写的解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         res=[-float('inf')]*len(nums)
@@ -19,14 +19,14 @@ class Solution:
             if res[i]>maxsum:
                 maxsum=res[i]
         return maxsum
-```
+# ```
 
-### 解题思路2
-自己写的动态规划，但是超时了
+# ### 解题思路2
+# 自己写的动态规划，但是超时了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def maxSubArray(self, nums: List[int]) -> int:
         res=[-float('inf')]*len(nums)
         res[0]=nums[0]
@@ -39,4 +39,4 @@ def maxSubArray(self, nums: List[int]) -> int:
                 if res[i]>maxt:
                     maxt=res[i]
         return maxt
-```
+# ```

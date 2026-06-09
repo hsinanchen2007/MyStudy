@@ -1,7 +1,7 @@
-使用两个栈，一个push栈，一个pop 栈，再用一个 front 记录队首
+// 使用两个栈，一个push栈，一个pop 栈，再用一个 front 记录队首
 
 
-```
+// ```
 class MyQueue {
 public:
     /** Initialize your data structure here. */
@@ -81,4 +81,4 @@ public:
  * bool param_4 = obj->empty();
  */
 
-```
+// ```

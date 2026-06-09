@@ -1,9 +1,9 @@
-### 解题思路
-贝祖定理--》把ax+by=z有解转换为z为x、y的最大公约数的倍数
+// ### 解题思路
+// 贝祖定理--》把ax+by=z有解转换为z为x、y的最大公约数的倍数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -12,4 +12,4 @@ public:
         return z % gcd(x, y) == 0;
     }
 };
-```
+// ```

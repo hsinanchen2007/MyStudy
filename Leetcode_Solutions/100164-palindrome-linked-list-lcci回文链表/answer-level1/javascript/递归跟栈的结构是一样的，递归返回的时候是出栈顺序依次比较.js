@@ -1,6 +1,6 @@
-小白一个
-先递归到最后一个，然后跟头比较。
-```
+// 小白一个
+// 先递归到最后一个，然后跟头比较。
+// ```
 var isPalindrome = function(head) {
     if(head === null) return true
     let copy = head
@@ -17,4 +17,4 @@ var isPalindrome = function(head) {
     trace(copy)
     return result
 };
-```
+// ```

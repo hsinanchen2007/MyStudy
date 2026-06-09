@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string licenseKeyFormatting(string S, int K) {
@@ -37,4 +37,4 @@ public:
         return S;
     }
 };
-```
+// ```

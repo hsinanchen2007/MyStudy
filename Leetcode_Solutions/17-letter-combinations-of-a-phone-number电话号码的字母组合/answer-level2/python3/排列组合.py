@@ -1,9 +1,9 @@
-### 解题思路
-就是写了个函数对列表进行排列组合就行了
+# ### 解题思路
+# 就是写了个函数对列表进行排列组合就行了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCombinations(self, digits):
         length = len(digits)
@@ -31,4 +31,4 @@ def lists_combination(lists, code=""):
         return [i + code + j for i in list1 for j in list2]
 
     return reduce(myfunc, lists)
-```
+# ```

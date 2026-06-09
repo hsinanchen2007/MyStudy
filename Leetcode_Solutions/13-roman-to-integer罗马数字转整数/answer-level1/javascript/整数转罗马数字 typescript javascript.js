@@ -1,6 +1,6 @@
-思路：当某数小于右侧的字符值时，相当于加上该数的相反数
-1.使用js实现
-```
+// 思路：当某数小于右侧的字符值时，相当于加上该数的相反数
+// 1.使用js实现
+// ```
 
 const map = new Map();
 map.set('I', 1);
@@ -24,9 +24,9 @@ const romanToInt = function(s) {
 };
 
 
-```
-2.使用ts
-```
+// ```
+// 2.使用ts
+// ```
 
 enum Rome{
     I=1,
@@ -48,4 +48,4 @@ const romeToInt = function (s:string) {
     return result
 };
 
-```
+// ```

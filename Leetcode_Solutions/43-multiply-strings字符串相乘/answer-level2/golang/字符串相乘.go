@@ -1,9 +1,9 @@
-### 解题思路
-注释
+// ### 解题思路
+// 注释
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func multiply(num1 string,num2 string) string{
 
     if (len(num1)==1 && num1[0]=='0') || (len(num2)==1 && num2[0]=='0'){
@@ -119,4 +119,4 @@ func addstr(num1 string,num2 string) string{
 //     return str[len(str)-1:]+digui(str[:len(str)-1])
 
 // }
-```
+// ```

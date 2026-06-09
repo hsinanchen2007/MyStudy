@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，将不同的元素存储在 k 位置，k 每次加一，相同的元素直接过滤掉。
+// ### 解题思路
+// 遍历数组，将不同的元素存储在 k 位置，k 每次加一，相同的元素直接过滤掉。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
       return ++k;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-O(n2)
-```java
+// ### 代码
+// O(n2)
+// ```java
 public int subarraySum(int[] nums, int k) {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -17,9 +17,9 @@ public int subarraySum(int[] nums, int k) {
         }
         return count;
     }
-```
-O(n)
-```java
+// ```
+// O(n)
+// ```java
 class Solution {
     public int subarraySum(int[] nums, int k) {
         int[] sum = new int[nums.length + 1];
@@ -37,4 +37,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

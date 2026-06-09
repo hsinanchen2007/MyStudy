@@ -1,6 +1,6 @@
 
-有点取巧。。不过我只想追求下速度。68ms超越88
-```
+// 有点取巧。。不过我只想追求下速度。68ms超越88
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -28,4 +28,4 @@ var twoSum = function(nums, target) {
         curpos++
     }
 };
-```
+// ```

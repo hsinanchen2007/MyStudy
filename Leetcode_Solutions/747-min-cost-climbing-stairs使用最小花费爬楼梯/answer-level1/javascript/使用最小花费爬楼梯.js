@@ -1,8 +1,8 @@
-动态规划
+// 动态规划
 
-f(n) = min(f(n-1), f(n-2)) + cost[n]
+// f(n) = min(f(n-1), f(n-2)) + cost[n]
 
-```js
+// ```js
 var minCostClimbingStairs = function(cost) {
     
     let len = cost.length;
@@ -16,5 +16,5 @@ var minCostClimbingStairs = function(cost) {
 
     return Math.min(arr[len-1], arr[len-2]);
 };
-```
+// ```
 

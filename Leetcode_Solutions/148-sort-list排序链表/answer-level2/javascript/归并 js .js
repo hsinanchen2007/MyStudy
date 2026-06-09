@@ -1,4 +1,4 @@
-```
+// ```
 var sortList = function(head) {
         if (!head || !head.next)
             return head;
@@ -40,4 +40,4 @@ var sortList = function(head) {
             p.next = p2;
         return res.next;
     }
-```
+// ```

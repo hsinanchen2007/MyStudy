@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def binaryGap(N: Int): Int = {
     var max = Int.MinValue
@@ -10,4 +10,4 @@ object Solution {
     return max
   }
 }
-```
+// ```

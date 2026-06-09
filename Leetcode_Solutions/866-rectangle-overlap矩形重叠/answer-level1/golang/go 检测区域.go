@@ -1,4 +1,4 @@
-```
+// ```
 // x,y 轴线
 
 //x2 和x1 比较
@@ -9,4 +9,4 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 	return (math.Min(float64(rec1[2]), float64(rec2[2])) > math.Max(float64(rec1[0]), float64(rec2[0]))) &&
 		(math.Min(float64(rec1[3]), float64(rec2[3])) > math.Max(float64(rec1[1]), float64(rec2[1])))
 }
-```
+// ```

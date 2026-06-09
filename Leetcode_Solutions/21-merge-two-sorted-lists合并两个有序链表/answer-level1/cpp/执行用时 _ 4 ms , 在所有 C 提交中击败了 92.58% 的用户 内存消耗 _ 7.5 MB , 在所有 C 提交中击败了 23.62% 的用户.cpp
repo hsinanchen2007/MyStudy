@@ -1,9 +1,9 @@
-### 解题思路
-指针从两个链的起始开头，较小的节点为当前节点并指针后移。当其中一条链走到末尾，设置哨兵。
+// ### 解题思路
+// 指针从两个链的起始开头，较小的节点为当前节点并指针后移。当其中一条链走到末尾，设置哨兵。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return dummy->next;
 }
-```
+// ```

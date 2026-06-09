@@ -1,7 +1,7 @@
-动态规划：
-执行用时 :111 ms, 在所有 java 提交中击败了7.97% 的用户
-内存消耗 :38.6 MB, 在所有 java 提交中击败了75.44%的用户
-```
+// 动态规划：
+// 执行用时 :111 ms, 在所有 java 提交中击败了7.97% 的用户
+// 内存消耗 :38.6 MB, 在所有 java 提交中击败了75.44%的用户
+// ```
 class Solution {
     public boolean increasingTriplet(int[] nums) {
         if(nums == null || nums.length < 3)
@@ -20,13 +20,13 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
 
-双指针：
-执行用时 :1 ms, 在所有 java 提交中击败了99.24% 的用户
-内存消耗 :38.8 MB, 在所有 java 提交中击败了72.59%的用户
-```
+// 双指针：
+// 执行用时 :1 ms, 在所有 java 提交中击败了99.24% 的用户
+// 内存消耗 :38.8 MB, 在所有 java 提交中击败了72.59%的用户
+// ```
 class Solution {
     public boolean increasingTriplet(int[] nums) {
         if(nums == null || nums.length < 3)
@@ -47,4 +47,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

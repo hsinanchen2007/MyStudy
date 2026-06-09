@@ -1,9 +1,9 @@
-### 解题思路
-C++ 非递归中序遍历 O(1)空间
+// ### 解题思路
+// C++ 非递归中序遍历 O(1)空间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     Node* treeToDoublyList(Node* root) {
@@ -36,4 +36,4 @@ public:
       return head;
     }
 };
-```
+// ```

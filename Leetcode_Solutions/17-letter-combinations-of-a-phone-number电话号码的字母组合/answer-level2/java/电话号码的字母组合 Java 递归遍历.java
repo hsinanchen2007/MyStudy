@@ -1,5 +1,5 @@
-使用辅助数组存储当前构建的字符串。对输入的数字下标递归，每个数字取一个字母，当递归到最后一个数字时，得到一个可行解。
-```
+// 使用辅助数组存储当前构建的字符串。对输入的数字下标递归，每个数字取一个字母，当递归到最后一个数字时，得到一个可行解。
+// ```
 class Solution {
     public List<String> letterCombinations(String digits) {
         Map<Character, List<Character>> dic = new HashMap<>();
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

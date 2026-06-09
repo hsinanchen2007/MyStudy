@@ -1,10 +1,10 @@
-在所有Java 提交中击败了99.13%的用户。思路很好理解。
-解题思路：
-1. 把所有层分为奇偶层，将根节点看作第0层(偶数层)，并入栈`evenLevel`
-2. 遍历偶数层的节点时，将**偶数层**的节点栈`evenLevel`依次出栈，**同时**把出栈节点的子树按`left`、`right`分别**入奇数层**节点栈`oddLevel`，直到偶数层的栈为空
-3. 遍历奇数层的节点时，将**奇数层**的节点栈`oddLevel`依次出栈，**同时**把出栈节点的子树按`right`、`left`分别**入偶数层**节点栈`evenLevel`，直到奇数层的栈为空
-4. 第2、3步骤交替进行，当两个栈都为空时结束锯齿遍历
-```java
+// 在所有Java 提交中击败了99.13%的用户。思路很好理解。
+// 解题思路：
+// 1. 把所有层分为奇偶层，将根节点看作第0层(偶数层)，并入栈`evenLevel`
+// 2. 遍历偶数层的节点时，将**偶数层**的节点栈`evenLevel`依次出栈，**同时**把出栈节点的子树按`left`、`right`分别**入奇数层**节点栈`oddLevel`，直到偶数层的栈为空
+// 3. 遍历奇数层的节点时，将**奇数层**的节点栈`oddLevel`依次出栈，**同时**把出栈节点的子树按`right`、`left`分别**入偶数层**节点栈`evenLevel`，直到奇数层的栈为空
+// 4. 第2、3步骤交替进行，当两个栈都为空时结束锯齿遍历
+// ```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
 		List<List<Integer>> res = new ArrayList<>();
@@ -44,4 +44,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

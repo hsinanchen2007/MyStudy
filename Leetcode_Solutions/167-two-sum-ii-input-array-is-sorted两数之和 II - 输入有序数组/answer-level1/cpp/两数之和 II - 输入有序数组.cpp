@@ -1,4 +1,4 @@
-双向指针，头尾各一个，两数之和与目标值比较决定指针的移动；
+// 双向指针，头尾各一个，两数之和与目标值比较决定指针的移动；
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {

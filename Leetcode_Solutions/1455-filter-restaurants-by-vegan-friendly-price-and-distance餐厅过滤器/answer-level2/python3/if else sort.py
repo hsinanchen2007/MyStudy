@@ -1,10 +1,10 @@
-### 解题思路
-if else 来做过滤器。
-使用sort方法来输出符合题意的答案
+# ### 解题思路
+# if else 来做过滤器。
+# 使用sort方法来输出符合题意的答案
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def filterRestaurants(self, restaurants: List[List[int]], veganFriendly: int, maxPrice: int, maxDistance: int) -> List[int]:
         cand = []
@@ -19,4 +19,4 @@ class Solution:
         cand.sort(key=lambda x: (-x[1],-x[0]))
         return [c[0] for c in cand]
         
-```
+# ```

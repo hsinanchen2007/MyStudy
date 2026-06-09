@@ -1,5 +1,5 @@
-最后的计算不重复元素个数用了先排序再计数跳跃，应可改进。
-```
+// 最后的计算不重复元素个数用了先排序再计数跳跃，应可改进。
+// ```
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M) {
@@ -43,4 +43,4 @@ public:
         return s;
     }
 };
-```
+// ```

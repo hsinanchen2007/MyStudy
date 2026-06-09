@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public int maxSubArray(int[] nums) {
             // 对于以nums[i]为开头的数字，有 [-2],[-2,1],[-2,1,-3]等……
@@ -24,4 +24,4 @@ class Solution {
             return max;
         }
     }
-```
+// ```

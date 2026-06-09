@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-思路都一致，实现参考了这个
-[https://leetcode-cn.com/problems/largest-number/solution/pai-xu-by-yuan-fei-yu-yue/](https://leetcode-cn.com/problems/largest-number/solution/pai-xu-by-yuan-fei-yu-yue/)
-### 代码
+// 思路都一致，实现参考了这个
+// [https://leetcode-cn.com/problems/largest-number/solution/pai-xu-by-yuan-fei-yu-yue/](https://leetcode-cn.com/problems/largest-number/solution/pai-xu-by-yuan-fei-yu-yue/)
+// ### 代码
 
-```c
+// ```c
 int cmp(int* a , int* b){
     char s1[1024] , s2[1024];
     sprintf(s1,"%d%d" , *a , *b);
@@ -31,4 +31,4 @@ char * largestNumber(int* nums, int numsSize){
     }
     return ch;
 }
-```
+// ```

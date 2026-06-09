@@ -1,9 +1,9 @@
-### 解题思路
-将每个word反转，并对words排序后，若可能存在压缩情况，只能是前一个word是后一个word的前缀。
+// ### 解题思路
+// 将每个word反转，并对words排序后，若可能存在压缩情况，只能是前一个word是后一个word的前缀。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -30,4 +30,4 @@ public:
         return len_idx_str;
     }
 };
-```
+// ```

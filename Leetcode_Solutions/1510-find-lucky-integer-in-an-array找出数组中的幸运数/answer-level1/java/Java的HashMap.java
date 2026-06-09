@@ -1,4 +1,4 @@
-```
+// ```
  public int findLucky(int[] arr) {
         int lucky = -1;
         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
@@ -15,4 +15,4 @@
                   }
                     return lucky;
                                    } 
-```
+// ```

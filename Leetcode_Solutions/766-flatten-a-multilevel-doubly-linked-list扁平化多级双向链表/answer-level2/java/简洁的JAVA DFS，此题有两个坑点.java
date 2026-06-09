@@ -1,7 +1,7 @@
-1. 在 head.child 非空的地方 DFS
+// 1. 在 head.child 非空的地方 DFS
 
-2. 这题有两个坑点是：DFS 后 child 指针要设为 null，并且维护 head.next.prev 时要判断 head.next 是否为空
-```java
+// 2. 这题有两个坑点是：DFS 后 child 指针要设为 null，并且维护 head.next.prev 时要判断 head.next 是否为空
+// ```java
 /*
 // Definition for a Node.
 class Node {

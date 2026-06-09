@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numWays(int n) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

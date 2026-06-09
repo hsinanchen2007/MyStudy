@@ -1,8 +1,8 @@
-### 解题思路
-1.从n递归到1，从1开始输出，依次解析
-### 代码
+// ### 解题思路
+// 1.从n递归到1，从1开始输出，依次解析
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n)
 {
     char *ret = NULL;
@@ -41,4 +41,4 @@ char * countAndSay(int n)
 
     return out;
 }
-```
+// ```

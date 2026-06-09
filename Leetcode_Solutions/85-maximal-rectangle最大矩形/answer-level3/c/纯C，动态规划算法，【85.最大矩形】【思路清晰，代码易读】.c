@@ -1,18 +1,18 @@
-### 解题思路
-方法二：动态规划法
-1,建立 dp[iCol] 个元素为 (left, right, height) 数组, left, right, height为当前位置最大的左边(坐标)，右边(坐标)，高
-2,当matrix[i][j]=0时，dp[j](left, right, height)=(0,0,0)
-3,当matrix[i][j]=1时，
-  1）计算高   dp[j].height = dp_old[j].height+1
-  2）计算左边 dp[j].left = max(dp_old[j].left, iCurLeft)  iCurLeft 为当前位置左边最近0点的坐标
-  3）计算右边 dp[j].right = min(dp_old[j].right, iCurRight) iCurRight 为当前位置右边最近0点的坐标
-4,计算当前行所有点的面积，计算最大面积
+// ### 解题思路
+// 方法二：动态规划法
+// 1,建立 dp[iCol] 个元素为 (left, right, height) 数组, left, right, height为当前位置最大的左边(坐标)，右边(坐标)，高
+// 2,当matrix[i][j]=0时，dp[j](left, right, height)=(0,0,0)
+// 3,当matrix[i][j]=1时，
+//   1）计算高   dp[j].height = dp_old[j].height+1
+//   2）计算左边 dp[j].left = max(dp_old[j].left, iCurLeft)  iCurLeft 为当前位置左边最近0点的坐标
+//   3）计算右边 dp[j].right = min(dp_old[j].right, iCurRight) iCurRight 为当前位置右边最近0点的坐标
+// 4,计算当前行所有点的面积，计算最大面积
 
-方法一的动态规划方法元素选择有问题，不能解决所有案例。
+// 方法一的动态规划方法元素选择有问题，不能解决所有案例。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //方法二：动态规划法
 //1,建立 dp[iCol] 个元素为 (left, right, height) 数组, left, right, height为当前位置最大的左边(坐标)，右边(坐标)，高
 //2,当matrix[i][j]=0时，dp[j](left, right, height)=(0,0,0)
@@ -241,4 +241,4 @@ int maximalRectangle(char** matrix, int matrixSize, int* matrixColSize){
 }
 
 */
-```
+// ```

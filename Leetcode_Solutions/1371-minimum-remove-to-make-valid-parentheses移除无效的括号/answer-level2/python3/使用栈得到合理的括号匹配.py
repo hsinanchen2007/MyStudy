@@ -1,11 +1,11 @@
-### 解题思路
-  使用栈得到合理的括号匹配 
-  然后拼接就好  
-  都有注释 简单易懂！
+# ### 解题思路
+#   使用栈得到合理的括号匹配 
+#   然后拼接就好  
+#   都有注释 简单易懂！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
@@ -37,4 +37,4 @@ class Solution:
                 ans.append(s[i])
         return ''.join(ans)
 
-```
+# ```

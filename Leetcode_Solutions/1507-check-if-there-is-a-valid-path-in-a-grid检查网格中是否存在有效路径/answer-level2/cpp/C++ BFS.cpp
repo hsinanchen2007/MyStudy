@@ -1,10 +1,10 @@
-### 解题思路
-![1111111.jpg](https://pic.leetcode-cn.com/dfc65facec5fd0fec434d608ca3f470cddd3ddc7b32a29315a2c7948841134a6-1111111.jpg)
+// ### 解题思路
+// ![1111111.jpg](https://pic.leetcode-cn.com/dfc65facec5fd0fec434d608ca3f470cddd3ddc7b32a29315a2c7948841134a6-1111111.jpg)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct Point
 {
     int x,y;
@@ -66,4 +66,4 @@ public:
     }
 };
 
-```
+// ```

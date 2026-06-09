@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-慢指针指向已确认的无重复元素的最后一项，快指针初始状态下指向慢指针的next，内循环后应该指向重复元素的最后一项。
+// 慢指针指向已确认的无重复元素的最后一项，快指针初始状态下指向慢指针的next，内循环后应该指向重复元素的最后一项。
 
-若内循环退出后，快指针仍然指向next，说明此处没有重复元素，两个指针同时后移。
+// 若内循环退出后，快指针仍然指向next，说明此处没有重复元素，两个指针同时后移。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -34,4 +34,4 @@ var deleteDuplicates = function(head) {
     }
     return dummy.next;
 };
-```
+// ```

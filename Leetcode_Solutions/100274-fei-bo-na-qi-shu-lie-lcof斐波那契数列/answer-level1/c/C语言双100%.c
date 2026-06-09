@@ -1,9 +1,9 @@
-### 解题思路
-感谢前排提示
+// ### 解题思路
+// 感谢前排提示
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int fib(int n){
     long long int a=0,b=1,c;
     for(int i=0;i<n;i++)
@@ -15,4 +15,4 @@ int fib(int n){
     return a;
         
 }
-```
+// ```

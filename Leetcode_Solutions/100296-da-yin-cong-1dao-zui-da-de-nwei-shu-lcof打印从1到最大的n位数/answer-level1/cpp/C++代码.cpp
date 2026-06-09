@@ -1,9 +1,9 @@
-### 解题思路
-1、求出最大值，然后运用iota赋值
+// ### 解题思路
+// 1、求出最大值，然后运用iota赋值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> printNumbers(int n) {        
@@ -29,4 +29,4 @@ vector<int> printNumbers(int n) {
         }
         return res;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int balancedStringSplit(String s) {
         int result = 0;
@@ -27,4 +27,4 @@ class Solution {
         return lCount == rCount;
     }
 }
-```
+// ```

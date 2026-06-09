@@ -1,11 +1,11 @@
-### 解题思路
-先產生積分影像 只要計算一次
-而後需要的矩形範圍 總合 只要將 
-右下角座標像素值 + 左上角座標像素值 - 右上座標像素值 - 左下角座標像素值就可以得到結果
+# ### 解题思路
+# 先產生積分影像 只要計算一次
+# 而後需要的矩形範圍 總合 只要將 
+# 右下角座標像素值 + 左上角座標像素值 - 右上座標像素值 - 左下角座標像素值就可以得到結果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class NumMatrix:
     def __init__(self, matrix: List[List[int]]):
@@ -32,4 +32,4 @@ class NumMatrix:
 # Your NumMatrix object will be instantiated and called as such:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
-```
+# ```

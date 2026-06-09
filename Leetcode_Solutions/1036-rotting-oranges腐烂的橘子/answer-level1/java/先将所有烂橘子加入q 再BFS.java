@@ -1,9 +1,9 @@
-### 解题思路
-先把所有烂橘子加入了队列 然后对所有烂橘子BFS 用到第一个烂橘子的距离来记录时间
+// ### 解题思路
+// 先把所有烂橘子加入了队列 然后对所有烂橘子BFS 用到第一个烂橘子的距离来记录时间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private static final List<int[]> DIRECTIONS = Arrays.asList(
@@ -58,4 +58,4 @@ class Solution {
         else return res;
     }
 }
-```
+// ```

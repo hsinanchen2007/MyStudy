@@ -1,20 +1,20 @@
-### 解题思路
-1. 链表的使用
-链表初始化 ListNode* res=new ListNode(val);
-链表的头   LIstNode* h=res;
-指向链表的下一个节点    h=h->next；
-2. 两个链表相加的思路
-    - 设置一个进位j
-    - 先计算两个链表都有数值的部分
-    - 再计算链表A/B有数值的部分
-    - 判断是否需要进位1
-3. 这个代码较为繁琐，有更简单的请指教
+// ### 解题思路
+// 1. 链表的使用
+// 链表初始化 ListNode* res=new ListNode(val);
+// 链表的头   LIstNode* h=res;
+// 指向链表的下一个节点    h=h->next；
+// 2. 两个链表相加的思路
+//     - 设置一个进位j
+//     - 先计算两个链表都有数值的部分
+//     - 再计算链表A/B有数值的部分
+//     - 判断是否需要进位1
+// 3. 这个代码较为繁琐，有更简单的请指教
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,4 +58,4 @@ public:
         return res->next;
     }
 };
-```
+// ```

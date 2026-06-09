@@ -1,9 +1,9 @@
-### 解题思路
-类似三数之和, 构造双指针移动区间, 判断两边之和是否大于第三边
+# ### 解题思路
+# 类似三数之和, 构造双指针移动区间, 判断两边之和是否大于第三边
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
@@ -29,8 +29,8 @@ public:
         return cnt;
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int triangleNumber(int[] nums) {
         int N = nums.length;
@@ -55,8 +55,8 @@ class Solution {
         return cnt;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
         cnt, N = 0, len(nums)
@@ -74,4 +74,4 @@ class Solution:
                 else:
                     j+=1
         return cnt
-```
+# ```

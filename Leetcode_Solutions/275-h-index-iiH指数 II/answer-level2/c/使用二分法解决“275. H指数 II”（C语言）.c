@@ -1,20 +1,20 @@
-### 解题思路
-典型的二分法题目，即找到一个点，具有明确的方向性，进行下一次尝试。这里给出本题的C语言解法
+// ### 解题思路
+// 典型的二分法题目，即找到一个点，具有明确的方向性，进行下一次尝试。这里给出本题的C语言解法
 
-本题使用了经典的二分查找模板，使用时需要注意：
+// 本题使用了经典的二分查找模板，使用时需要注意：
 
-1.退出条件为ll < rr
+// 1.退出条件为ll < rr
 
-2.预先处理好左右边界条件
+// 2.预先处理好左右边界条件
 
-3.结果需要判断ll和ll-1的合理性
+// 3.结果需要判断ll和ll-1的合理性
 
-![image.png](https://pic.leetcode-cn.com/c38e89806fb41944f7c31a838798a5742e80fc4c6fcc5b34290abd7a29d10897-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c38e89806fb41944f7c31a838798a5742e80fc4c6fcc5b34290abd7a29d10897-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -57,4 +57,4 @@ int hIndex(int* citations, int citationsSize){
 
     return ret;
 }
-```
+// ```

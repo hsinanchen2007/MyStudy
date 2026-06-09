@@ -1,10 +1,10 @@
-### 解题思路
-递减栈 栈顶位置有效，保存写入的元素
+// ### 解题思路
+// 递减栈 栈顶位置有效，保存写入的元素
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define STK_VOLUME 10001
 /**
@@ -137,4 +137,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize)
 
 }
 
-```
+// ```

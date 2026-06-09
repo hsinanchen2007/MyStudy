@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         if n == 1 or n == 3:
@@ -14,4 +14,4 @@ class Solution:
                     return True
                 if n ==1 or n == 2:
                     return False
-```
+# ```

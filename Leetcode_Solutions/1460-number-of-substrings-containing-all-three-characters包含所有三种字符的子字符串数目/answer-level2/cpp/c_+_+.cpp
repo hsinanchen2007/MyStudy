@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/33538b3931e0795acfb062cea512396b39b4902ee7ab4c789d9d6e31909ab773-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/33538b3931e0795acfb062cea512396b39b4902ee7ab4c789d9d6e31909ab773-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfSubstrings(string s) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

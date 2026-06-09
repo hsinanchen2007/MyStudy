@@ -1,9 +1,9 @@
-### 解题思路
-本来想用for循环，但是运行不出来，这个有点像二分查找，我也不知道是不是...
+// ### 解题思路
+// 本来想用for循环，但是运行不出来，这个有点像二分查找，我也不知道是不是...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int index1=0;
@@ -21,4 +21,4 @@ class Solution {
 return null;
      }
 }
-```
+// ```

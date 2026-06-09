@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         # 根据Z字转换的规律，从第一个数到最后一个数依次连续遍历，
@@ -18,4 +18,4 @@ class Solution:
         for v in res:
             ans += v 
         return ans 
-```
+# ```

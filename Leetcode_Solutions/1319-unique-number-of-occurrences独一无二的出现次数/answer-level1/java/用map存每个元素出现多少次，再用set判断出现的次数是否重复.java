@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

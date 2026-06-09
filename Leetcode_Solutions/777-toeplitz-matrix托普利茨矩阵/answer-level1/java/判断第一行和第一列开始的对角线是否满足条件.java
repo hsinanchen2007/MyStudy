@@ -1,9 +1,9 @@
-### 解题思路
-遍历以第一行和第一列的点开始的对角线是否满足条件
+// ### 解题思路
+// 遍历以第一行和第一列的点开始的对角线是否满足条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public boolean isToeplitzMatrix(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
@@ -31,4 +31,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

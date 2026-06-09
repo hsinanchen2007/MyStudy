@@ -1,12 +1,12 @@
-### 解题思路
-使用大根堆排序即可解；
-排序时，把最大值找出来即可；
-![123.PNG](https://pic.leetcode-cn.com/5156d60da97b8cec7414caac9bbf5467342ed1b72e9ec7d6e03aacd7fc096ca8-123.PNG)
+// ### 解题思路
+// 使用大根堆排序即可解；
+// 排序时，把最大值找出来即可；
+// ![123.PNG](https://pic.leetcode-cn.com/5156d60da97b8cec7414caac9bbf5467342ed1b72e9ec7d6e03aacd7fc096ca8-123.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void Sift(int *data, int low, int high)
 {
     int i, j;
@@ -61,4 +61,4 @@ int maximumGap(int* nums, int numsSize) {
     int maxRes = HeapSort(data, numsSize);
     return maxRes;
 }
-```
+// ```

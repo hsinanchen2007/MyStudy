@@ -1,4 +1,4 @@
-```
+-- ```
 select t3.name Name
 
 from Candidate t3,

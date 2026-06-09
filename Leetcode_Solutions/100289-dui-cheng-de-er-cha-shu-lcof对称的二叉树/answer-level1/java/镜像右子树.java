@@ -1,9 +1,9 @@
-### 解题思路
-右子树镜像，对比左右子树是否相等
+// ### 解题思路
+// 右子树镜像，对比左右子树是否相等
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
 
 
 }
-```
+// ```

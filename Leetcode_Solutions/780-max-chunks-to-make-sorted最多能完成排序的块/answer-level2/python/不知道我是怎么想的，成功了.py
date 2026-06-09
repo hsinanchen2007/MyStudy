@@ -1,7 +1,7 @@
-遇见最小的数，块就加一；
-遇见到当前为止最大的数，看此时的数组下标是否等于这个数，等于就更新最小的数为下标加1
-代码如下
-```
+# 遇见最小的数，块就加一；
+# 遇见到当前为止最大的数，看此时的数组下标是否等于这个数，等于就更新最小的数为下标加1
+# 代码如下
+# ```
 class Solution(object):
     def maxChunksToSorted(self, arr):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             if big==i:
                 small=i+1
         return res
-```
+# ```

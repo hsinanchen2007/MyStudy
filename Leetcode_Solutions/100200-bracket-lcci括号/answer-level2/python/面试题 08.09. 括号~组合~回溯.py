@@ -1,15 +1,15 @@
-### 解题思路
-回溯算法的第一步就是如何把问题转换成树形图
-需要自己手动模拟一遍，如下图
+# ### 解题思路
+# 回溯算法的第一步就是如何把问题转换成树形图
+# 需要自己手动模拟一遍，如下图
 
-![image.png](https://pic.leetcode-cn.com/71fd6bfd9ec0167ec466657b876ed206d0c666bf27a30b8a2dca83448c65a030-image.png)
+# ![image.png](https://pic.leetcode-cn.com/71fd6bfd9ec0167ec466657b876ed206d0c666bf27a30b8a2dca83448c65a030-image.png)
 
-【我们用左右括号的数量来进行回溯】
-注意要剪枝：如果你不剪枝，对最后生成的括号判断是否合法即可！
+# 【我们用左右括号的数量来进行回溯】
+# 注意要剪枝：如果你不剪枝，对最后生成的括号判断是否合法即可！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
@@ -34,4 +34,4 @@ class Solution:
         backtrack(origion_pair, path)
         return res
 
-```
+# ```

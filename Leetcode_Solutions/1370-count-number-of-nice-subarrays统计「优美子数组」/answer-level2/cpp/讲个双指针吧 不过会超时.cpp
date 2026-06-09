@@ -1,5 +1,5 @@
-两个指针一前一后包着 直观做法 但是超时了
-```
+// 两个指针一前一后包着 直观做法 但是超时了
+// ```
 class Solution {
 public:
 	int sum(const vector<int> &nums, int l, int r) {
@@ -32,4 +32,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

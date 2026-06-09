@@ -1,10 +1,10 @@
-### 解题思路
-双指针，逐个比较首尾的字母或数字
+// ### 解题思路
+// 双指针，逐个比较首尾的字母或数字
 
-isalnum:如果参数为字母或数字，则返回值为1
-toupper:将小写字母变为大写，如果是数字则不变
+// isalnum:如果参数为字母或数字，则返回值为1
+// toupper:将小写字母变为大写，如果是数字则不变
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -18,4 +18,4 @@ public:
         return true;
     }
 };
-```
+// ```

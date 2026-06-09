@@ -1,8 +1,8 @@
-### 解题思路
-利用递归，不断地判断cnt的值是否为一位数。
-### 代码
+// ### 解题思路
+// 利用递归，不断地判断cnt的值是否为一位数。
+// ### 代码
 
-```c
+// ```c
 int addDigits(int num){
     int cnt=0;
     while(num)
@@ -20,4 +20,4 @@ int addDigits(int num){
     }
     return cnt;
 }
-```
+// ```

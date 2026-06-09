@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/9c4a988f48af9385b908c97c765ab423edd8a3217c4861c709385014c6ceb103-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/9c4a988f48af9385b908c97c765ab423edd8a3217c4861c709385014c6ceb103-image.png)
+// ```
 class Solution {
 public:
     string compressString(string S) {
@@ -22,4 +22,4 @@ public:
         return retval.size() < S.size() ? retval : S;
     }
 };
-```
+// ```

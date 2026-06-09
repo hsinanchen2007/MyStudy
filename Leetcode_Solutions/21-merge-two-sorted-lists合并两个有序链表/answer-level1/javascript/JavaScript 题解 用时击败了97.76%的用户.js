@@ -1,7 +1,7 @@
-只是看到没有JS的题解。。。加上我刚学习链表，所以献丑写一个js的。
+// 只是看到没有JS的题解。。。加上我刚学习链表，所以献丑写一个js的。
 
 
-```javascript []
+// ```javascript []
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -44,4 +44,4 @@ function listPush(list, item) {
     return list
 }
 
-```
+// ```

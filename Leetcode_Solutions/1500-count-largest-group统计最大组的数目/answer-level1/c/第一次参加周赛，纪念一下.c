@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEM 1000
 
 int caculate(int num)
@@ -42,4 +42,4 @@ int countLargestGroup(int n)
 
     return max;
 }
-```
+// ```

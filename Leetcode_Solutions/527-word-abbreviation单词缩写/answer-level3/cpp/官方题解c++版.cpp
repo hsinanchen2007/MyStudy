@@ -1,9 +1,9 @@
-### 解题思路
-技巧还是蛮多的，还需要慢慢消化
+// ### 解题思路
+// 技巧还是蛮多的，还需要慢慢消化
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #if 0
 //贪心
 class Solution {
@@ -195,4 +195,4 @@ private:
         return word.substr(0, pos + 1) + to_string(word.size() - pos - 2) + word.back();
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```mysql
+-- ```mysql
 SELECT 
     id,
     SUM(CASE `month`
@@ -40,4 +40,4 @@ SELECT
 FROM
     Department
 GROUP BY id;
-```
+-- ```

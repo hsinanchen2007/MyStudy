@@ -1,13 +1,13 @@
-### 解题思路
-如何去重？
+// ### 解题思路
+// 如何去重？
 
-先对candidates数组进行排序，构造next_pos数组记录下一个不同的候选值的位置
-递归时，当选择了当前值，则不用忽略candidates数组中的相同元素
-当没有选择当前值，则后续与当前值相等的候选值值也要一并跳过（利用next_pos数组）
+// 先对candidates数组进行排序，构造next_pos数组记录下一个不同的候选值的位置
+// 递归时，当选择了当前值，则不用忽略candidates数组中的相同元素
+// 当没有选择当前值，则后续与当前值相等的候选值值也要一并跳过（利用next_pos数组）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> result;
@@ -47,4 +47,4 @@ public:
         combinationSum2(c, next_pos[c_pos], a, a_pos, target); // 传入next_pos[c_pos]跳过相同值
     }
 };
-```
+// ```

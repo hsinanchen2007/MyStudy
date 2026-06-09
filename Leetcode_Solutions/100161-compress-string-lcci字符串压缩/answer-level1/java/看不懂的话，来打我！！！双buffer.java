@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String compressString(String S) {
         char[] chars = S.toCharArray();
@@ -19,5 +19,5 @@ class Solution {
         return builder.toString().length() < S.length() ? builder.toString() : S;
     }
 }
-```
-只有这些简答题，我才敢写题解。还是看不懂，欢迎评论中开喷我。
+// ```
+// 只有这些简答题，我才敢写题解。还是看不懂，欢迎评论中开喷我。

@@ -1,6 +1,6 @@
-## 第一版，双指针从后置位开始向前遍历（先把nums1多余部分给裁了）
-> 72ms,34M。
-```javascript []
+// ## 第一版，双指针从后置位开始向前遍历（先把nums1多余部分给裁了）
+// > 72ms,34M。
+// ```javascript []
 /**
  * @param {number[]} nums1
  * @param {number} m
@@ -19,6 +19,6 @@ var merge = function(nums1, m, nums2, n) {
   }
   nums1.splice(m + 1, 0, ...nums2);
 };
-```
-## 思路
-![未命名文件 (1).jpg](https://pic.leetcode-cn.com/e6e16e77900b63b8943acbb700cb9d209be3602fd7103576d1733fcf8c7375ee-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%20\(1\).jpg)
+// ```
+// ## 思路
+// ![未命名文件 (1).jpg](https://pic.leetcode-cn.com/e6e16e77900b63b8943acbb700cb9d209be3602fd7103576d1733fcf8c7375ee-%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%20\(1\).jpg)

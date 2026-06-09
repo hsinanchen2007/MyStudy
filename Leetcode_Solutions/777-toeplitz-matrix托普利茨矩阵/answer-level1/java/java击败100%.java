@@ -1,9 +1,9 @@
-### 解题思路
-先把第0行所有元素往右下遍历，之后再把第0列第一行开始往右下遍历即可查完所有对角。
+// ### 解题思路
+// 先把第0行所有元素往右下遍历，之后再把第0列第一行开始往右下遍历即可查完所有对角。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
       
@@ -38,4 +38,4 @@ class Solution {
       return true;
     }
 }
-```
+// ```

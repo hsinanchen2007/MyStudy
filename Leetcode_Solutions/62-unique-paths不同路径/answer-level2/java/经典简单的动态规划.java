@@ -1,9 +1,9 @@
-### 解题思路
-经典的动态规划题目，从终点开始递推到起点，每个格子的值为下面那一个和左边那一个格子的值的和
+// ### 解题思路
+// 经典的动态规划题目，从终点开始递推到起点，每个格子的值为下面那一个和左边那一个格子的值的和
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] res = new int[m][n];
@@ -28,4 +28,4 @@ class Solution {
         return res[0][0];
     }
 }
-```
+// ```

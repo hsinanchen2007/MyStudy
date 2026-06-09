@@ -1,9 +1,9 @@
-### 解题思路
-直接将原数字进行翻转得到新数字，然后与原数字比较是否相等就可以了。
+// ### 解题思路
+// 直接将原数字进行翻转得到新数字，然后与原数字比较是否相等就可以了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0 || (x % 10 == 0 && x != 0)){
@@ -23,4 +23,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

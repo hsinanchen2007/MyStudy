@@ -1,9 +1,9 @@
-### 解题思路
-这一题主要是因为nums1足够大，满足条件，所以可以直接在其中添加后进行排序即可
+// ### 解题思路
+// 这一题主要是因为nums1足够大，满足条件，所以可以直接在其中添加后进行排序即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
          int j = 0;
@@ -16,4 +16,4 @@ class Solution {
          Arrays.sort(nums1);
     }
 }
-```
+// ```

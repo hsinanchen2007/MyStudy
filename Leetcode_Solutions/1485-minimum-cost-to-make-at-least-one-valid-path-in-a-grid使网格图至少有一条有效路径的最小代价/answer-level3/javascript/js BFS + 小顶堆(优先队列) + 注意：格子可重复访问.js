@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/847471f33f43049443c57689dda41644a6ee16c73283cb3d5590f99446c82c45-image.png)
+// ![image.png](https://pic.leetcode-cn.com/847471f33f43049443c57689dda41644a6ee16c73283cb3d5590f99446c82c45-image.png)
 
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 BFS + 小顶堆实现的队列
 
 每次从队列中拿出 cost 最小的格子进行 BFS
@@ -20,11 +20,11 @@ BFS + 小顶堆实现的队列
     
 (我的解法有个结构上的问题：我应该把构建、插入、删除小顶堆，作为一个类，实例化出来使用
 不能把方法放在全局上，直接操作全局的变量 queue ，先这样吧，毕竟为了做题，哈哈~)
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -112,4 +112,4 @@ var minCost = function(grid) {
 
 
 
-```
+// ```

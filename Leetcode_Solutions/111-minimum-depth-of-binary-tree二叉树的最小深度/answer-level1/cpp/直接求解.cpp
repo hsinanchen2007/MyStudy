@@ -1,9 +1,9 @@
-### 解题思路
-求出到每个叶子节点的深度，分别与成员minCount比较。
+// ### 解题思路
+// 求出到每个叶子节点的深度，分别与成员minCount比较。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         }
     }
 };
-```
+// ```

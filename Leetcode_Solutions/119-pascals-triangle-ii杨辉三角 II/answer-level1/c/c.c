@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、从后往前做，空间复杂度为o(k)
+// ### 解题思路
+// 此处撰写解题思路
+// 1、从后往前做，空间复杂度为o(k)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* getRow(int rowIndex, int* returnSize){
 
     return arr;
 }
-```
+// ```

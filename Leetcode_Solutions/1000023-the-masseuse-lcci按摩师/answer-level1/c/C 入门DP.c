@@ -1,9 +1,9 @@
-### 解题思路
-	入门DP，注意递归会超时
+// ### 解题思路
+// 	入门DP，注意递归会超时
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #define MAX(a,b) (a>b?a:b)
 
@@ -25,4 +25,4 @@ int massage(int* nums, int numsSize) {
 	}
 	return ans;
 }
-```
+// ```

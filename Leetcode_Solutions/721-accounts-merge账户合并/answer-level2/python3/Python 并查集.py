@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
         d = collections.defaultdict(set)
@@ -29,4 +29,4 @@ class Solution:
             else:
                 ans[pi] += accounts[i][1:]
         return [[s[0]] + sorted(list(set(s[1:]))) for s in ans.values()]        #邮箱列表去重并排序输出
-```
+# ```

@@ -1,11 +1,11 @@
-建议做此题目前先做「560. 和为K的子数组」，然后就豁然开朗，无非是数据结构从数组变成了二叉树。
+// 建议做此题目前先做「560. 和为K的子数组」，然后就豁然开朗，无非是数据结构从数组变成了二叉树。
 
-数组的遍历方式是从开始到结构的线性遍历，但是二叉树的遍历方式是前序遍历。
+// 数组的遍历方式是从开始到结构的线性遍历，但是二叉树的遍历方式是前序遍历。
 
 
-![image.png](https://pic.leetcode-cn.com/1b33236a00587af9ff0f8f2aed7247da453fe2c28450a7f27f98464077d4c0d3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1b33236a00587af9ff0f8f2aed7247da453fe2c28450a7f27f98464077d4c0d3-image.png)
 
-```
+// ```
 private int pathSum = 0;
 
     /**
@@ -46,4 +46,4 @@ private int pathSum = 0;
         // 回溯，撤销递归前做的决定
         prefixSum2Count.put(prefixSum, prefixSum2Count.getOrDefault(prefixSum, 0) - 1);
     }
-```
+// ```

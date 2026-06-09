@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/cd6132c87dfc7166c76fb05e0d24bf40f15ab9229e5edbc37741578eaef38883-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/cd6132c87dfc7166c76fb05e0d24bf40f15ab9229e5edbc37741578eaef38883-image.png)
+// ```
 class Solution {
 public:
     vector<int> nextLargerNodes(ListNode* head) 
@@ -28,6 +28,6 @@ public:
        return res;   
     }
 };
-```
+// ```
 
 

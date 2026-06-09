@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def minMoves(nums: Array[Int]): Int = {
     var num = 0
@@ -9,4 +9,4 @@ object Solution {
     return num
   }
 }
-```
+// ```

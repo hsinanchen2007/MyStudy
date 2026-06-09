@@ -1,6 +1,6 @@
-解题思路：借用了88题合并两个排序数组的双指针解法，使用双指针将两个数组合并为一个排序好的数组sorted，再寻找出中位数
+// 解题思路：借用了88题合并两个排序数组的双指针解法，使用双指针将两个数组合并为一个排序好的数组sorted，再寻找出中位数
 
-```
+// ```
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -37,4 +37,4 @@ public:
         }
     }
 };
-```
+// ```

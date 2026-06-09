@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -14,9 +14,9 @@ public:
         return ans;
     }
 };
-```
-方法二 二分查找 
-```
+// ```
+// 方法二 二分查找 
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -44,4 +44,4 @@ public:
         return mid;
     }
 };
-```
+// ```

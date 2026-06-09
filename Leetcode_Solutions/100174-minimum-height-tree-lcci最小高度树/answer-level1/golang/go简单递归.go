@@ -1,4 +1,4 @@
-```
+// ```
 func sortedArrayToBST(nums []int) *TreeNode {
     return helpTool(nums)
 }
@@ -13,4 +13,4 @@ func helpTool(nums []int) *TreeNode{
         return root
     }
 }
-```
+// ```

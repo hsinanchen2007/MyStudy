@@ -1,11 +1,11 @@
-### 解题思路
-将所有0的索引保存到zero_index中；
-根据zero_index计算所有1的长度，保存到difference中
-返回difference的最大值
+# ### 解题思路
+# 将所有0的索引保存到zero_index中；
+# 根据zero_index计算所有1的长度，保存到difference中
+# 返回difference的最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         if(0 not in nums):
@@ -21,4 +21,4 @@ class Solution:
         difference.append(len(nums) - zero_index[-1] - 1)
         difference.sort()
         return difference[-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-已经比较过的值就不要在后面进行比较了，也可以使用List存储已经比较过的值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 已经比较过的值就不要在后面进行比较了，也可以使用List存储已经比较过的值
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MajorityElement(int[] nums) {
             int a = 0;
@@ -41,4 +41,4 @@ public class Solution {
             return a;
     }
 }
-```
+// ```

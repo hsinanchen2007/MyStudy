@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
 
     def numSmallerByFrequency(self, queries, words):
@@ -22,4 +22,4 @@ class Solution:
             res.append(count)
         return res
 
-```
+# ```

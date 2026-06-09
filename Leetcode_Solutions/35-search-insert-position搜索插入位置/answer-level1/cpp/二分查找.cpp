@@ -1,7 +1,7 @@
-Solution1
-将查找区间分为nums[lo,mi)、nums(mi,hi)、nums[mi]
-进入左区间需要判断１次，进入右区间需要判断２次，直接命中需要判断３次
-```
+// Solution1
+// 将查找区间分为nums[lo,mi)、nums(mi,hi)、nums[mi]
+// 进入左区间需要判断１次，进入右区间需要判断２次，直接命中需要判断３次
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -16,11 +16,11 @@ public:
         return (lo==mi)?mi:mi+1;
     }
 };
-```
+// ```
 
-Solution2
-将查找区间分为nums[lo,mi)、nums[mi,hi)
-```
+// Solution2
+// 将查找区间分为nums[lo,mi)、nums[mi,hi)
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -33,11 +33,11 @@ public:
         return (nums[lo]<target)?lo+1:lo;
     }
 };
-```
+// ```
 
-Solution3 
-将查找区间分为nums[lo,mi)、nums(mi,hi)
-```
+// Solution3 
+// 将查找区间分为nums[lo,mi)、nums(mi,hi)
+// ```
 class Solution {
  public:
     int searchInsert(vector<int>& nums, int target) {
@@ -51,4 +51,4 @@ class Solution {
     }
 };
 
-```
+// ```

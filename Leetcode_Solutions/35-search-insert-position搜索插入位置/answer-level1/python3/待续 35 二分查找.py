@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         #执行用时 :56 ms, 在所有 python3 提交中击败了98.50%的用户
@@ -34,4 +34,4 @@ class Solution:
 
 
 
-```
+# ```

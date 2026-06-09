@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numTimesAllBlue(vector<int>& light) {
@@ -21,4 +21,4 @@ public:
         return count;
     }
 };
-```
+// ```

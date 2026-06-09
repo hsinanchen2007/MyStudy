@@ -1,8 +1,8 @@
-### 解题思路
-//双重循环遍历寻找之和等于target，一旦找到就返回，因为该数组只有一组符合要求
-### 代码
+// ### 解题思路
+// //双重循环遍历寻找之和等于target，一旦找到就返回，因为该数组只有一组符合要求
+// ### 代码
 
-```c
+// ```c
   /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

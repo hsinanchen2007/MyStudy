@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
@@ -21,5 +21,5 @@ public:
         return res;
     }
 };
-```
-![微信截图_20191206195600.png](https://pic.leetcode-cn.com/a6033449b8c5806abffc9c39a224d8c51b1acdd6d4d0f82543094cf32a8ccd95-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191206195600.png)
+// ```
+// ![微信截图_20191206195600.png](https://pic.leetcode-cn.com/a6033449b8c5806abffc9c39a224d8c51b1acdd6d4d0f82543094cf32a8ccd95-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191206195600.png)

@@ -1,4 +1,4 @@
-```
+// ```
 int hammingWeight(uint32_t n) {
     int i = 0;
     uint32_t m = 1;
@@ -21,4 +21,4 @@ int hammingWeight(uint32_t n) {
     }
     return i;
 }
-```
+// ```

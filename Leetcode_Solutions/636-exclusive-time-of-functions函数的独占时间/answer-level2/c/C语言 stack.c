@@ -1,6 +1,6 @@
-思路：
-遇到start入栈，遇见end，如果出栈后，栈不为空，需要将栈里所有的函数起始时间增加出栈函数所占时间
-![QQ截图20190723183049.png](https://pic.leetcode-cn.com/e8bedbc8a4c2864897ce22aaa0134f8d17672b5ed59eb69c0dcd273bf4b08c04-QQ%E6%88%AA%E5%9B%BE20190723183049.png)
+// 思路：
+// 遇到start入栈，遇见end，如果出栈后，栈不为空，需要将栈里所有的函数起始时间增加出栈函数所占时间
+// ![QQ截图20190723183049.png](https://pic.leetcode-cn.com/e8bedbc8a4c2864897ce22aaa0134f8d17672b5ed59eb69c0dcd273bf4b08c04-QQ%E6%88%AA%E5%9B%BE20190723183049.png)
 
 
 

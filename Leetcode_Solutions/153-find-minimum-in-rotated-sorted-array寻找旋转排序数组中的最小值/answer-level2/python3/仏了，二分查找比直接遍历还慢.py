@@ -1,8 +1,8 @@
-二分查找：
+# 二分查找：
 
-![image.png](https://pic.leetcode-cn.com/70e2cd31504f5958955105ebf32e1929bd00f46da0d4ea30f013e82fb441f708-image.png)
+# ![image.png](https://pic.leetcode-cn.com/70e2cd31504f5958955105ebf32e1929bd00f46da0d4ea30f013e82fb441f708-image.png)
 
-```
+# ```
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         i,j=1,len(nums)-1
@@ -15,13 +15,13 @@ class Solution:
             else:
                 return nums[k]
         return nums[0]
-```
+# ```
 
-直接遍历：
+# 直接遍历：
 
-![image.png](https://pic.leetcode-cn.com/8892ce57a628390060168bd601553324065a56d2ac929b78ae53c1c666a49418-image.png)
+# ![image.png](https://pic.leetcode-cn.com/8892ce57a628390060168bd601553324065a56d2ac929b78ae53c1c666a49418-image.png)
 
-```
+# ```
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         n=len(nums)
@@ -29,4 +29,4 @@ class Solution:
             if nums[i]<nums[i-1]:
                 return nums[i]
         return nums[0]
-```
+# ```

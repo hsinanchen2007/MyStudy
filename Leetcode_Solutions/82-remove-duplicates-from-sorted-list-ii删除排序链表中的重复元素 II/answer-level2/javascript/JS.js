@@ -1,8 +1,8 @@
-### 解题思路
-哈希表，简单明了，就是有点浪费空间了，其实这道题可以原地操作的。
-### 代码
+// ### 解题思路
+// 哈希表，简单明了，就是有点浪费空间了，其实这道题可以原地操作的。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -50,4 +50,4 @@ var deleteDuplicates = function(head) {
     })
     return newHead;
 };
-```
+// ```

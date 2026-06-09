@@ -1,18 +1,18 @@
-### 解题思路
+# ### 解题思路
 
-可以看成有向图上求最长路径。
+# 可以看成有向图上求最长路径。
 
-把这个数组转换成一个无环有向图。
+# 把这个数组转换成一个无环有向图。
 
-利用 mp 数组存每个点能直接到达的节点。
+# 利用 mp 数组存每个点能直接到达的节点。
 
-dfs 用于递归求一个点的解。一个点的解就是这个点能到的所有点里解最大的一个加一。（如果他哪也到不了，就是 1）
+# dfs 用于递归求一个点的解。一个点的解就是这个点能到的所有点里解最大的一个加一。（如果他哪也到不了，就是 1）
 
-ansx 做了记忆化搜索，防止求重复的点的解。这里可以使用 functools 中的 lru_cache(None) 代替自己定义数组，写法更简洁。
+# ansx 做了记忆化搜索，防止求重复的点的解。这里可以使用 functools 中的 lru_cache(None) 代替自己定义数组，写法更简洁。
 
-### 代码
-不用 functools：
-```python
+# ### 代码
+# 不用 functools：
+# ```python
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
         l = len(arr)
@@ -45,11 +45,11 @@ class Solution:
         for i in range(1, l):
             ans = max(ans, dfs(i))
         return ans
-```
+# ```
 
-使用 functools.lru_cache
+# 使用 functools.lru_cache
 
-```python
+# ```python
 import functools
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
@@ -80,4 +80,4 @@ class Solution:
         for i in range(1, l):
             ans = max(ans, dfs(i))
         return ans
-```
+# ```

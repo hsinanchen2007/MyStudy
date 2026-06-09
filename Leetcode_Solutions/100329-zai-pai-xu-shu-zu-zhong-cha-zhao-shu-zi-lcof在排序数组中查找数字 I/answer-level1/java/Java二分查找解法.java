@@ -1,4 +1,4 @@
-```Java
+// ```Java
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) return 0;
         int[] ret = new int[]{-1,-1};
@@ -26,4 +26,4 @@
         if(ret[1] == -1 || ret[0] == -1) return 0;
         return ret[1]-ret[0]+1;
     }
-```
+// ```

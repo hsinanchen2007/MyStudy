@@ -1,10 +1,10 @@
-\
-\
-# 非递归版
-![image.png](https://pic.leetcode-cn.com/dad45ba5beb7c926931fae24c6ae5163ba262f88011b8cc366619109a6ecd807-image.png)
-\
-\
-```C
+// \
+// \
+// # 非递归版
+// ![image.png](https://pic.leetcode-cn.com/dad45ba5beb7c926931fae24c6ae5163ba262f88011b8cc366619109a6ecd807-image.png)
+// \
+// \
+// ```C
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -77,19 +77,19 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     }
     return res;
 }
-```
-\
-\
-\
-\
-# 递归
-因为C语言的数组限制比较多，不易调整，所以我一开始就各层设定了大小，浪费较多，时间上也不快
-\
-\
-![image.png](https://pic.leetcode-cn.com/2aebbbe080c1952ca5187ce870324a942603e8c4079c8a14bd2a87b5b2b50e29-image.png)
+// ```
+// \
+// \
+// \
+// \
+// # 递归
+// 因为C语言的数组限制比较多，不易调整，所以我一开始就各层设定了大小，浪费较多，时间上也不快
+// \
+// \
+// ![image.png](https://pic.leetcode-cn.com/2aebbbe080c1952ca5187ce870324a942603e8c4079c8a14bd2a87b5b2b50e29-image.png)
 
 
-```C
+// ```C
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -151,4 +151,4 @@ void order(struct TreeNode* root,int k,int** res)
         order(root->right,k+1,res);  //递归右子节点
      }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-循环遍历，没有算法
+// ### 解题思路
+// 此处撰写解题思路
+// 循环遍历，没有算法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func distributeCandies(candies int, num_people int) []int {
     sum := 0
     n := 1
@@ -24,4 +24,4 @@ func distributeCandies(candies int, num_people int) []int {
     return ans
 }
 
-```
+// ```

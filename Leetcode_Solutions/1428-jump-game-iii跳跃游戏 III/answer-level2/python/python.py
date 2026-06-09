@@ -1,7 +1,7 @@
 
-python 采用bfs，使用队列实现，使用一个map记录已经走过的点，避免重复走入死循环
+# python 采用bfs，使用队列实现，使用一个map记录已经走过的点，避免重复走入死循环
 
-```
+# ```
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         m=len(arr)
@@ -16,4 +16,4 @@ class Solution:
                     mp[s2]=1
                     q.append(s2)
         return False
-```
+# ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f6eb79add6db06a209aea41f40216100ed4060a86656e46056bcb2ad1fda3823-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f6eb79add6db06a209aea41f40216100ed4060a86656e46056bcb2ad1fda3823-image.png)
 
 
-```
+# ```
 import re
 from pprint import pprint
 from typing import List
@@ -38,4 +38,4 @@ class Solution:
             nodes.append([layer[i], val])
 
         return self.buildTree(nodes)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
         if root is None:
@@ -14,4 +14,4 @@ class Solution:
                 if temp.right:
                     queue.append((temp.right, temp.right.val + tempSum))
             return False
-```
+# ```

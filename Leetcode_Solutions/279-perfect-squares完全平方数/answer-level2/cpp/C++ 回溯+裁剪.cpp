@@ -1,11 +1,11 @@
-1. 先把不大于n的完全平方数都算出来，再逆序一下，大的数在前面优先选择
-2. 回溯所有解法，每一步减去用掉的完全平方数，并累计数目
-3. 当剩余为0时，记录答案，保留最小的方案
+// 1. 先把不大于n的完全平方数都算出来，再逆序一下，大的数在前面优先选择
+// 2. 回溯所有解法，每一步减去用掉的完全平方数，并累计数目
+// 3. 当剩余为0时，记录答案，保留最小的方案
 
 
-![image.png](https://pic.leetcode-cn.com/c8078ea84f6614f64fdfec1e4e1686fc133c6c248299828bf6325de027005dbf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c8078ea84f6614f64fdfec1e4e1686fc133c6c248299828bf6325de027005dbf-image.png)
 
-```
+// ```
 class Solution {
 public:
     int minCnt{INT_MAX};
@@ -38,4 +38,4 @@ public:
         return minCnt;
     }
 };
-```
+// ```

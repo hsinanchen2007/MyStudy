@@ -1,9 +1,9 @@
-### 解题思路
-##运用哈希判定行列输赢，枚举来判定斜着的
+# ### 解题思路
+# ##运用哈希判定行列输赢，枚举来判定斜着的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def tictactoe(self, moves) -> str:
         #井字棋，a总是先走，一共可以走五局，最坏就是a走最后一颗棋子依然没有取胜
@@ -45,4 +45,4 @@ class Solution:
                 return 'Pending'
             else:
                 return 'Draw'
-```
+# ```

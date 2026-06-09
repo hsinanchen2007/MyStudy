@@ -1,7 +1,7 @@
-思路：indexOf
-循环石头S，定义count,石头遇到宝石count++
+// 思路：indexOf
+// 循环石头S，定义count,石头遇到宝石count++
 
-```
+// ```
 public static int numJewelsInStones(String J, String S) {
     int count = 0;
     for (int i = 0; i < S.toCharArray().length; i++) {
@@ -11,4 +11,4 @@ public static int numJewelsInStones(String J, String S) {
     }
     return count;
 }
-```
+// ```

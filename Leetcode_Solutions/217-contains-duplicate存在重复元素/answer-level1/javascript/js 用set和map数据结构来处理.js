@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 // 用map来记录，若是map中已经存在该值，那么则返回
 var containsDuplicate = function(nums) {
@@ -21,4 +21,4 @@ var containsDuplicate = function(nums) {
     let set = new Set(nums);
     return set.size !== nums.length;
 };
-```
+// ```

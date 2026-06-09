@@ -1,4 +1,4 @@
-```
+// ```
 public static int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length == 0) {
             return new int[] {};
@@ -33,4 +33,4 @@ public static int[] maxSlidingWindow(int[] nums, int k) {
 
         return result;
     }
-```
+// ```

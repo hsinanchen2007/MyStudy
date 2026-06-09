@@ -1,9 +1,9 @@
-### 解题思路
-一遍一遍递归下去就好了，核心思想就是定义位置坐标，最后再处理最后一次数据就好了。
+// ### 解题思路
+// 一遍一遍递归下去就好了，核心思想就是定义位置坐标，最后再处理最后一次数据就好了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         if (n < 1 || n > 30) {
@@ -36,4 +36,4 @@ class Solution {
         return r.toString();
     }
 }
-```
+// ```

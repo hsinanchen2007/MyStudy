@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历，取每一层的最后一个元素
+# ### 解题思路
+# 层次遍历，取每一层的最后一个元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             ans.append(res[i][-1])
         return ans
 
-```
+# ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> pourWater(vector<int>& heights, int V, int K) {
@@ -19,9 +19,9 @@ public:
         return heights;
     }
 };
-```
-或者
-```C++ []
+// ```
+// 或者
+// ```C++ []
 class Solution {
 public:
     vector<int> pourWater(vector<int>& heights, int V, int K) {
@@ -52,7 +52,7 @@ public:
         return heights;
     }
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/97367643f37331d33af06aa7b368cbd4aaa9e33f01c0471df9399043b91cde23-image.png)
+// ![image.png](https://pic.leetcode-cn.com/97367643f37331d33af06aa7b368cbd4aaa9e33f01c0471df9399043b91cde23-image.png)

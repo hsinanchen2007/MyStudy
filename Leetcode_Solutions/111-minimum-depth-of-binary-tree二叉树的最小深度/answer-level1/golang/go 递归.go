@@ -1,4 +1,4 @@
-```
+// ```
 func minDepth(root *TreeNode) int {
 	if root == nil {
 		return 0
@@ -15,4 +15,4 @@ func minDepth(root *TreeNode) int {
 	}
 	return min_Depth + 1
 }
-```
+// ```

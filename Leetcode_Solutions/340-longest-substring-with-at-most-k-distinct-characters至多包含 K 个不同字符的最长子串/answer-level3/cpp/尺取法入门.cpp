@@ -1,6 +1,6 @@
-# 至多包含K个不同字符的字串
-## 使用尺取法，4ms，6.7mB
-```
+// # 至多包含K个不同字符的字串
+// ## 使用尺取法，4ms，6.7mB
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstringKDistinct(string s, int k) {
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-找到正确的遍历数组的方法即可解题，很简单
+// ### 解题思路
+// 找到正确的遍历数组的方法即可解题，很简单
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isToeplitzMatrix(vector<vector<int>>& matrix) {
@@ -47,4 +47,4 @@ public:
         return true;
     }
 };
-```
+// ```

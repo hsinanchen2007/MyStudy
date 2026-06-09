@@ -1,10 +1,10 @@
-### 解题思路
-1、坐标矩阵，上下左右寻找
-2、走过的1改成0
+// ### 解题思路
+// 1、坐标矩阵，上下左右寻找
+// 2、走过的1改成0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int colum;
     private int row;
@@ -47,4 +47,4 @@ class Solution {
         return (x >= 0 && x < colum && y >= 0 && y < row) ? true : false;
     }
 }
-```
+// ```

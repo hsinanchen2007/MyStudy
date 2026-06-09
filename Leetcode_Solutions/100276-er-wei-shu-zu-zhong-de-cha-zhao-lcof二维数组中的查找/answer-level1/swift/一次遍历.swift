@@ -1,4 +1,4 @@
-``` swift
+// ``` swift
 class Solution {
     func findNumberIn2DArray(_ matrix: [[Int]], _ target: Int) -> Bool {
         let n = matrix.count
@@ -19,5 +19,5 @@ class Solution {
         return false
     }
 }
-```
-从左下角开始遍历，空间复杂度1，时间复杂度o(m + n)
+// ```
+// 从左下角开始遍历，空间复杂度1，时间复杂度o(m + n)

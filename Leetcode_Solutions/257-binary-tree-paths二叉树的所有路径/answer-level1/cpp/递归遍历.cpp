@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         func(root->right, res, sr);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-[每日打卡](https://github.com/hapiii/leetcode)
+// ### 解题思路
+// [每日打卡](https://github.com/hapiii/leetcode)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class KthLargest {
     //小顶堆
     priority_queue<int, vector<int>, greater<int> > smallHeap;
@@ -32,4 +32,4 @@ public:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```

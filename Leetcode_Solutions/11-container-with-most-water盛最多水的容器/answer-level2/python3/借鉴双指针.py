@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :24 ms, 在所有 Python 提交中击败了99.53% 的用户
-内存消耗 :13.5 MB, 在所有 Python 提交中击败了5.30%的用户
-不知道为啥这么快，之前提交两次都很慢，暴力法开始超时，借鉴双指针方法
+# ### 解题思路
+# 执行用时 :24 ms, 在所有 Python 提交中击败了99.53% 的用户
+# 内存消耗 :13.5 MB, 在所有 Python 提交中击败了5.30%的用户
+# 不知道为啥这么快，之前提交两次都很慢，暴力法开始超时，借鉴双指针方法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxArea(self, height):
         """
@@ -28,4 +28,4 @@ class Solution(object):
                 right = right - 1
         
         return area
-```
+# ```

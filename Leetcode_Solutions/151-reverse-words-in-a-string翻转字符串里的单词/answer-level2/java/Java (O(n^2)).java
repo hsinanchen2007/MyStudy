@@ -1,9 +1,9 @@
-### 解题思路
-翻转一遍句子，然后对于每个单词再翻转一遍。
+// ### 解题思路
+// 翻转一遍句子，然后对于每个单词再翻转一遍。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         // Reverse the whole line
@@ -47,4 +47,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

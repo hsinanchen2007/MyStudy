@@ -1,6 +1,6 @@
 
-第一种方法，先用map统计每个数字出现的次数，再利用sort排序，时间复杂度O(nlogn)
-```
+// 第一种方法，先用map统计每个数字出现的次数，再利用sort排序，时间复杂度O(nlogn)
+// ```
 class Solution {
 public:
         vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -21,10 +21,10 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-第二种方法，还是先统计每个数字出现的次数，再用优先队列建立小顶堆，时间复杂度O(nlogk)
-```
+// 第二种方法，还是先统计每个数字出现的次数，再用优先队列建立小顶堆，时间复杂度O(nlogk)
+// ```
 class Solution {
 public:
         struct cmp
@@ -54,4 +54,4 @@ public:
         return ret;
     }
 };
-```
+// ```

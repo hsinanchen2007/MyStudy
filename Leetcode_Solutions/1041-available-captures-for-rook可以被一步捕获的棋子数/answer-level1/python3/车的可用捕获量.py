@@ -1,5 +1,5 @@
-1. 暴力解法，直到循环出解
-```
+# 1. 暴力解法，直到循环出解
+# ```
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         row = col = count = 0
@@ -41,4 +41,4 @@ class Solution:
                 break
             a += 1
         return count
-```
+# ```

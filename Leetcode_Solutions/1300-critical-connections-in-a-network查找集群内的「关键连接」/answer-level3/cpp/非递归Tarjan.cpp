@@ -1,6 +1,6 @@
-写着玩的，耗时表现不好，空间倒是100%了
+// 写着玩的，耗时表现不好，空间倒是100%了
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
@@ -49,5 +49,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

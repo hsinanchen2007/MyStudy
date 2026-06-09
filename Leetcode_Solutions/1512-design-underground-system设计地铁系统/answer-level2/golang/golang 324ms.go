@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9e3a66d676fd6ad61f73a5f63fa1cb1b55ccbfe8b562691a98becedd0bd7288e-image.png)
-1. 通过byID记录每个乘客的所有进出站记录；
-2. 通过byName记录每个车站的所有进出记录；
-3. 遍历所有起始站的进站乘客，并且校验该乘客是否在结束站出站；
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/9e3a66d676fd6ad61f73a5f63fa1cb1b55ccbfe8b562691a98becedd0bd7288e-image.png)
+// 1. 通过byID记录每个乘客的所有进出站记录；
+// 2. 通过byName记录每个车站的所有进出记录；
+// 3. 遍历所有起始站的进站乘客，并且校验该乘客是否在结束站出站；
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type UndergroundSystem struct {
     byID map[int][]record
     byName map[string]map[int]uint
@@ -107,4 +107,4 @@ func (this *UndergroundSystem) GetAverageTime(startStation string, endStation st
  * obj.CheckOut(id,stationName,t);
  * param_3 := obj.GetAverageTime(startStation,endStation);
  */
-```
+// ```

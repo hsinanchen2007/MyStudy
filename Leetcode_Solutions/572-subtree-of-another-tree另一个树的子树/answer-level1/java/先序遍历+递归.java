@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if (isIdentical(s, t)) {
@@ -21,4 +21,4 @@ class Solution {
     }
 
 }
-```
+// ```

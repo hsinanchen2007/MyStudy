@@ -1,10 +1,10 @@
-### 解题思路
-回溯 +DFS 
-关键点 left<right时减枝，直接返回
+// ### 解题思路
+// 回溯 +DFS 
+// 关键点 left<right时减枝，直接返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> result;
@@ -45,4 +45,4 @@ public:
         return result;
     }
 };
-```
+// ```

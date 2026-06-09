@@ -1,10 +1,10 @@
-### 解题思路
-1. 直接法：直接判断值是否相等，相等的话直接下一个
-2. 递归判断下一个子节点的值是否相等，不等的话下一个
+# ### 解题思路
+# 1. 直接法：直接判断值是否相等，相等的话直接下一个
+# 2. 递归判断下一个子节点的值是否相等，不等的话下一个
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -46,4 +46,4 @@ class Solution:
             else:
                 current = current.next
         return head
-```
+# ```

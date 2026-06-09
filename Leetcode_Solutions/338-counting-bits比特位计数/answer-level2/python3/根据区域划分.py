@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countBits(self, num: int) -> List[int]:
         dp = [0]
@@ -11,4 +11,4 @@ class Solution:
             offset = _ - int(pow(2, _pow))
             dp.append(dp[offset]+1)
         return dp
-```
+# ```

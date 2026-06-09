@@ -1,10 +1,10 @@
-### 解题思路
-1 两个栈一个负责 push 一个负责 pop
-2 当 pop栈 没有元素的时候才需要 将 push栈 的元素导入,非空导入会打乱顺序
+// ### 解题思路
+// 1 两个栈一个负责 push 一个负责 pop
+// 2 当 pop栈 没有元素的时候才需要 将 push栈 的元素导入,非空导入会打乱顺序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     Stack<Integer> stackPush;
@@ -57,4 +57,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

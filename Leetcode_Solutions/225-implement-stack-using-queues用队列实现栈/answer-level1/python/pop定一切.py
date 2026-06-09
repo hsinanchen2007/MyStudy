@@ -1,10 +1,10 @@
-### 解题思路
-push和empty都很好解决，就用list的性质就可以了。top和pop有点难，因为题目不让用自带的pop。所以我先做了一个队列的pop函数，只能删list的第一项。top和pop用while循环调用队列的pop就能解决了。
+# ### 解题思路
+# push和empty都很好解决，就用list的性质就可以了。top和pop有点难，因为题目不让用自带的pop。所以我先做了一个队列的pop函数，只能删list的第一项。top和pop用while循环调用队列的pop就能解决了。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -78,4 +78,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

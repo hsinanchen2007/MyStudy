@@ -1,9 +1,9 @@
-### 解题思路
-该题对 go 无场景, 无实际意义
+// ### 解题思路
+// 该题对 go 无场景, 无实际意义
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type CQueue struct {
     q []int
 }
@@ -35,4 +35,4 @@ func (this *CQueue) DeleteHead() int {
  * obj.AppendTail(value);
  * param_2 := obj.DeleteHead();
  */
-```
+// ```

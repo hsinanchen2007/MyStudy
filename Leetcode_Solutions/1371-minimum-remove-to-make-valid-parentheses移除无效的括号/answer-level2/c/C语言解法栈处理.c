@@ -1,4 +1,4 @@
-```
+// ```
 char * minRemoveToMakeValid(char * s)
 {
     int len = strlen(s);
@@ -52,4 +52,4 @@ char * minRemoveToMakeValid(char * s)
     free(stk);
     return stret;
 }
-```
+// ```

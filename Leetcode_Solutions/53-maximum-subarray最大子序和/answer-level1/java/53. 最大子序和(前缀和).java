@@ -1,5 +1,5 @@
-前缀和　方法
-```java []
+// 前缀和　方法
+// ```java []
 class Solution {
     public int maxSubArray(int[] nums) {
         //前缀和
@@ -16,8 +16,8 @@ class Solution {
         return max;
     }
 }
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int maxSubArray(int[] nums) {
         int ans = Integer.MIN_VALUE;
@@ -37,8 +37,8 @@ class Solution {
         return ans;
     }
 }
-```
-时间复杂度On
+// ```
+// 时间复杂度On
 
 
 

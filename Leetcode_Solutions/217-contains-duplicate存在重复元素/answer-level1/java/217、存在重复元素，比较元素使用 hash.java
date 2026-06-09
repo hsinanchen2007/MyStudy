@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-思路很简单，遍历往HashSet 中添加元素，根据元素是否添加成功，来判断之前是否已经存储了相同元素。
+// 思路很简单，遍历往HashSet 中添加元素，根据元素是否添加成功，来判断之前是否已经存储了相同元素。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         if(nums == null || nums.length == 1){
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

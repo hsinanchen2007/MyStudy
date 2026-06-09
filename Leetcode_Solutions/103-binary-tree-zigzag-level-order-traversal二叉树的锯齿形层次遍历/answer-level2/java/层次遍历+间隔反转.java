@@ -1,9 +1,9 @@
-思路：层次遍历+间隔反转
-这里使用的是队列进行层次遍历，每一层的遍历后使用null进行间隔，对每个节点的非空子树都进行进队（先左后右）。
-其中隔层判断的技巧：队列中读到null时，说明该层已经读取完毕，可以加隔板了。
-间隔反转：
-这里使用了java的工具类Collections的反转方法，对上一步的结果进行进一步加工
-```
+// 思路：层次遍历+间隔反转
+// 这里使用的是队列进行层次遍历，每一层的遍历后使用null进行间隔，对每个节点的非空子树都进行进队（先左后右）。
+// 其中隔层判断的技巧：队列中读到null时，说明该层已经读取完毕，可以加隔板了。
+// 间隔反转：
+// 这里使用了java的工具类Collections的反转方法，对上一步的结果进行进一步加工
+// ```
 private List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         if (root == null) return new ArrayList<>();
         List<List<Integer>> res = new ArrayList<>();
@@ -33,4 +33,4 @@ private List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         }
         return res;
     }
-```
+// ```

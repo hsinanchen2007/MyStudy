@@ -1,9 +1,9 @@
-### 解题思路
-使用HashMap存入s对应的t的对应关系。同时，每加入一个对应关系，想用的t就不能再重复了，所以增加一个HashSet来应对重复的问题。
+// ### 解题思路
+// 使用HashMap存入s对应的t的对应关系。同时，每加入一个对应关系，想用的t就不能再重复了，所以增加一个HashSet来应对重复的问题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         HashMap<Character, Character> map = new HashMap(); // s->t 的HashMap
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

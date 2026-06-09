@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isHappy(self, n):
         """
@@ -31,4 +31,4 @@ def get_num(n):
     return sum
 
 
-```
+# ```

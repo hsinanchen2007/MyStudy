@@ -1,5 +1,5 @@
-找到状态之间的关系后，可以使用两行，也可以只是用1行数组本身（需要2辅助变量）。
-```
+// 找到状态之间的关系后，可以使用两行，也可以只是用1行数组本身（需要2辅助变量）。
+// ```
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         if(rowIndex <0)
@@ -38,4 +38,4 @@ class Solution {
     }
 
 }
-```
+// ```

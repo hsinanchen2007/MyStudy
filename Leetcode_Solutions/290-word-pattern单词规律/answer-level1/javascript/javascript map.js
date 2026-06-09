@@ -1,9 +1,9 @@
-### 解题思路
-javascript map
+// ### 解题思路
+// javascript map
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} pattern
  * @param {string} str
@@ -39,4 +39,4 @@ var wordPattern = function(pattern, str) {
       }
       return true
     };
-```
+// ```

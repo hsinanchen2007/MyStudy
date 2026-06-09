@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -16,5 +16,5 @@ public:
     }
 };
 
-```
-![Screenshot from 2019-09-29 15-45-32.png](https://pic.leetcode-cn.com/d2c4acccbc86b089b2a403a57050eb2626a1361101e1883d01890b8270366aa5-Screenshot%20from%202019-09-29%2015-45-32.png)
+// ```
+// ![Screenshot from 2019-09-29 15-45-32.png](https://pic.leetcode-cn.com/d2c4acccbc86b089b2a403a57050eb2626a1361101e1883d01890b8270366aa5-Screenshot%20from%202019-09-29%2015-45-32.png)

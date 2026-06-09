@@ -1,9 +1,9 @@
-### 解题思路
-同样是模拟K个子集，加了个特殊判断 if temp < target && temp + nums[0] > target {continue} 来减少对无效组合的计算
+// ### 解题思路
+// 同样是模拟K个子集，加了个特殊判断 if temp < target && temp + nums[0] > target {continue} 来减少对无效组合的计算
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var target int
 func canPartitionKSubsets(nums []int, k int) bool {
 	sort.Ints(nums)
@@ -46,4 +46,4 @@ func helper5(newGroups []int, nums []int, l int)bool{
 	}
 	return false
 }
-```
+// ```

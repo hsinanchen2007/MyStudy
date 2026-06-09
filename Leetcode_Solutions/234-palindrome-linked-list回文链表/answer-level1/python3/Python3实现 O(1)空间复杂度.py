@@ -1,9 +1,9 @@
-### 解题思路
-实现方法与官方题解类似
+# ### 解题思路
+# 实现方法与官方题解类似
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
         while cur:
             cur.next,cur,pre=pre,cur.next,cur
         return pre
-```
+# ```

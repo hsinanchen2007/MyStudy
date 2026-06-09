@@ -1,8 +1,8 @@
-## 思路一：暴力法
+// ## 思路一：暴力法
 
-### 代码
-时间复杂度：O(row * col * col)
-```c++
+// ### 代码
+// 时间复杂度：O(row * col * col)
+// ```c++
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -29,12 +29,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：柱状图-栈
-基于84题状态图求矩形，遍历每行求出状态图高度。
-### 代码
-```c++
+// ## 思路二：柱状图-栈
+// 基于84题状态图求矩形，遍历每行求出状态图高度。
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -82,10 +82,10 @@ public:
         return res;
     }
 };
-```
-#### 简化代码
-**height大小为col+1**，因为只有当最后一列小于等于前一列高度才会计算矩形面积，所以为了避免最后一列为最高值，在最后一列后添加一个0列，这样就一定会计算前面矩形面积。
-```c++
+// ```
+// #### 简化代码
+// **height大小为col+1**，因为只有当最后一列小于等于前一列高度才会计算矩形面积，所以为了避免最后一列为最高值，在最后一列后添加一个0列，这样就一定会计算前面矩形面积。
+// ```c++
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -112,6 +112,6 @@ public:
         return res;
     }    
 };
-```
+// ```
 
 

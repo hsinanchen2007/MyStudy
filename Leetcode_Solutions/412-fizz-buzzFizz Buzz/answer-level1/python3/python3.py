@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         list1 = []
@@ -12,4 +12,4 @@ class Solution:
             else:
                 list1.append(str(i))
         return list1
-```
+# ```

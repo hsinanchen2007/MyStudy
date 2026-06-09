@@ -1,9 +1,9 @@
-### 解题思路
-检查写算法
+// ### 解题思路
+// 检查写算法
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyHashMap {
     private $map = [];
     /**
@@ -49,4 +49,4 @@ class MyHashMap {
  * $ret_2 = $obj->get($key);
  * $obj->remove($key);
  */
-```
+// ```

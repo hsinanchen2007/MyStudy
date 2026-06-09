@@ -1,9 +1,9 @@
-本题与[424. 替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/solution/hua-dong-chuang-kou-chang-gui-tao-lu-by-xiaoneng/)一样的套路，不过更为简单一点，**直接用count统计窗口内的0的个数**。当窗口内0的个数大于K时，我们需要缩小窗口；当窗口内0的个数小于等于k时，我们就可将窗口大小来与result来进行比较来确定是否更新result了。
+// 本题与[424. 替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/solution/hua-dong-chuang-kou-chang-gui-tao-lu-by-xiaoneng/)一样的套路，不过更为简单一点，**直接用count统计窗口内的0的个数**。当窗口内0的个数大于K时，我们需要缩小窗口；当窗口内0的个数小于等于k时，我们就可将窗口大小来与result来进行比较来确定是否更新result了。
 
-**注：窗口内0的个数就是表示可以被1替换的个数！**
+// **注：窗口内0的个数就是表示可以被1替换的个数！**
 
-代码如下：
-```cpp
+// 代码如下：
+// ```cpp
 class Solution {
 public:
     int longestOnes(vector<int>& A, int K) {
@@ -25,4 +25,4 @@ public:
         return result;
     }
 };
-```
+// ```

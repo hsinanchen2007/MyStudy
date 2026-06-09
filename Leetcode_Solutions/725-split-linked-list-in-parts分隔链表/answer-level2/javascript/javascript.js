@@ -1,4 +1,4 @@
-```
+// ```
     var splitListToParts = function(head, k) {
         let len = 0,
             res = [],
@@ -54,4 +54,4 @@
         }
         return res;
     };
-```
+// ```

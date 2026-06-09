@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路
@@ -86,4 +86,4 @@ int countPrimeSetBits( int L , int R ){
     return count;
 
 }
-```
+// ```

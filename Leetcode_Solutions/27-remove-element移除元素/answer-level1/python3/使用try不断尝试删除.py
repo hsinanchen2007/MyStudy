@@ -1,9 +1,9 @@
-### 解题思路
-删到不能删除为止
+# ### 解题思路
+# 删到不能删除为止
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         while True:
@@ -11,4 +11,4 @@ class Solution:
                 nums.remove(val)
             except:
                 return len(nums)
-```
+# ```

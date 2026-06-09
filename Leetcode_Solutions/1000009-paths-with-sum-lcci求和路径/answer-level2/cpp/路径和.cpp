@@ -1,6 +1,6 @@
-见代码注释
+// 见代码注释
 
-```
+// ```
 class Solution {
    public:
     int pathSum(TreeNode* root, int sum) {
@@ -42,4 +42,4 @@ class Solution {
     vector<int> p;
     int res = 0;
 };
-```
+// ```

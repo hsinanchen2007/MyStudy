@@ -1,8 +1,8 @@
-这个方案我觉得比较好的是这一步。
-result[i] = result[i - two_log_vector[two_log_vector.size() - 2]] + 1;
-是利用了二进制本身的数学特点来解决的。
+// 这个方案我觉得比较好的是这一步。
+// result[i] = result[i - two_log_vector[two_log_vector.size() - 2]] + 1;
+// 是利用了二进制本身的数学特点来解决的。
 
-```
+// ```
 class Solution {
 public:
     vector<int> countBits(int num) {
@@ -26,5 +26,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

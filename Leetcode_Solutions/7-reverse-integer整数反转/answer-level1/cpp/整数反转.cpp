@@ -1,9 +1,9 @@
-### 解题思路
-初始化结果res为0，while循环，如果商不为0，则res = res * 10 + x % 10，最后判断是否溢出
+// ### 解题思路
+// 初始化结果res为0，while循环，如果商不为0，则res = res * 10 + x % 10，最后判断是否溢出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -18,4 +18,4 @@ public:
         return res;    
     }
 };
-```
+// ```

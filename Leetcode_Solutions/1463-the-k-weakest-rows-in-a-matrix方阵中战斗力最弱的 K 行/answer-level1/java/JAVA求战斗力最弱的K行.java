@@ -1,12 +1,12 @@
-### 解题思路
-先把每一行军人数累加存到数组arr里；同时求出一行中最小和最大军人数min,max;
-在arr中从min开始遍历到max，每找到一个arr[m]符合，就把m存进去,res结果集的idx就加1
-找到k个以后结束。
+// ### 解题思路
+// 先把每一行军人数累加存到数组arr里；同时求出一行中最小和最大军人数min,max;
+// 在arr中从min开始遍历到max，每找到一个arr[m]符合，就把m存进去,res结果集的idx就加1
+// 找到k个以后结束。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
         int arr[] = new int[mat.length];
@@ -31,4 +31,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

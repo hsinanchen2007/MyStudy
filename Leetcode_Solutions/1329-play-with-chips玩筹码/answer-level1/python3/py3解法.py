@@ -1,9 +1,9 @@
-### 解题思路
-主要是看明白题目，就是找出数组中奇数和偶数数量较少的那个的数量，代码简单。
+# ### 解题思路
+# 主要是看明白题目，就是找出数组中奇数和偶数数量较少的那个的数量，代码简单。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCostToMoveChips(self, chips: List[int]) -> int:
         odd_num = 0
@@ -16,4 +16,4 @@ class Solution:
                 odd_num += 1
                 
         return min(odd_num, even_num)
-```
+# ```

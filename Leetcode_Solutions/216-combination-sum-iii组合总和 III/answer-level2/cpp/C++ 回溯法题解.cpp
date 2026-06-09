@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void backtrace(unordered_set<int>& candidate, vector<int>& rec, vector<vector<int> >& res, int i, int k, int s, int n) {
@@ -27,6 +27,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c13e8fa10a53be95e958b0605821f062b1dbc3fa7893751eaaae377c6ab8ea19-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c13e8fa10a53be95e958b0605821f062b1dbc3fa7893751eaaae377c6ab8ea19-image.png)

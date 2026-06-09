@@ -1,6 +1,6 @@
 
-从后往前找点
-![QQ图片20200309221118.png](https://pic.leetcode-cn.com/9de5e227c4925072f93138a61465e7258070b90e7072df94729a94cc62118370-QQ%E5%9B%BE%E7%89%8720200309221118.png)
+// 从后往前找点
+// ![QQ图片20200309221118.png](https://pic.leetcode-cn.com/9de5e227c4925072f93138a61465e7258070b90e7072df94729a94cc62118370-QQ%E5%9B%BE%E7%89%8720200309221118.png)
 
 
     bool canJump(int* nums, int numsSize){

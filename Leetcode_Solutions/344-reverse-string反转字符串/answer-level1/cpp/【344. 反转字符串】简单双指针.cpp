@@ -1,6 +1,6 @@
-## 思路：双指针
-### 代码
-```c++
+// ## 思路：双指针
+// ### 代码
+// ```c++
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -14,9 +14,9 @@ public:
         }
     }
 };
-```
-#### 简化代码
-```c++
+// ```
+// #### 简化代码
+// ```c++
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -28,5 +28,5 @@ public:
         }
     }
 };
-```
+// ```
 

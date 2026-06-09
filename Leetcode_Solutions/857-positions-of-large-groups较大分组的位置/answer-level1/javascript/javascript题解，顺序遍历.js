@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 方法一：顺序遍历
  * 时间复杂度O(n)
@@ -38,4 +38,4 @@ var largeGroupPositions = function(S) {
   }
   return res
 };
-```
+// ```

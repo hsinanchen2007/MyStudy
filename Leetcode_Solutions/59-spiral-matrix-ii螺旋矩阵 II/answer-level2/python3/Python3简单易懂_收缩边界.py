@@ -1,10 +1,10 @@
-### 解题思路
-关键就是跟踪好左右上下四个边界l, r, t, b
-循环退出条件: count > n*n
+# ### 解题思路
+# 关键就是跟踪好左右上下四个边界l, r, t, b
+# 循环退出条件: count > n*n
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         l, r, t, b = 0, n - 1, 0, n - 1
@@ -37,4 +37,4 @@ class Solution:
         return M
     
 
-```
+# ```

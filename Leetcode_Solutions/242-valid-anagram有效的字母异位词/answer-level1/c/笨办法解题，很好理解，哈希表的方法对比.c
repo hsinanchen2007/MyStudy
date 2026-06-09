@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAnagram(char * s, char * t){
     
     if (s == NULL || t == NULL) {
@@ -44,4 +44,4 @@ bool isAnagram(char * s, char * t){
 }
 
 
-```
+// ```

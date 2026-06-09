@@ -1,6 +1,6 @@
-java 暴力1ms
+// java 暴力1ms
 
-```
+// ```
 class Solution {
     public int subtractProductAndSum(int n) {
         String xx = String.valueOf(n);
@@ -13,4 +13,4 @@ class Solution {
         return plus-sum;
     }
 }
-```
+// ```

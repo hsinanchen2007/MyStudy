@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，进行了些内存优化，只用一个数组记录上一行的结果
-但写得较烂..就这样吧。。
+// ### 解题思路
+// 动态规划，进行了些内存优化，只用一个数组记录上一行的结果
+// 但写得较烂..就这样吧。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a,b) ((a)<(b)?(a):(b))
 int minPathSum(int** grid, int gridSize, int* gridColSize){
     int *arr = (int *)malloc(sizeof(int) *gridColSize[0]);
@@ -20,4 +20,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
     }
     return arr[k-1];
 }
-```
+// ```

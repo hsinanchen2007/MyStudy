@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:
         m, n = len(seats), len(seats[0])
@@ -34,4 +34,4 @@ class Solution:
 
 
 
-```
+# ```

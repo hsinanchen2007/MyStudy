@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/65a9caafc0b757cc4a1625db4259a8b3dca75fe8a4ac6ce6acc81a620df06fc5-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/65a9caafc0b757cc4a1625db4259a8b3dca75fe8a4ac6ce6acc81a620df06fc5-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S)
 {
     int slen = strlen(S);
@@ -56,4 +56,4 @@ char* compressString(char* S)
     }
     return res;
 }
-```
+// ```

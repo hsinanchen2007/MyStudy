@@ -1,7 +1,7 @@
-遍历字符串即可
+// 遍历字符串即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<int> numberOfLines(vector<int>& widths, string S) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

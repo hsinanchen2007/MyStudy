@@ -1,9 +1,9 @@
-### 解题思路
-借鉴了优秀的题解算法，从后面往前找，每一步找能到达当前位置的最远距离的位置。
+# ### 解题思路
+# 借鉴了优秀的题解算法，从后面往前找，每一步找能到达当前位置的最远距离的位置。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def jump(self,nums):
         i = len(nums) - 1
@@ -18,4 +18,4 @@ class Solution(object):
             i = tempmax
             res += 1
         return res
-```
+# ```

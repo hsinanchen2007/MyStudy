@@ -1,6 +1,6 @@
-先转成字符串，创建dp数组，前一位和当前位组成的字符串和25比较就行了，还有注意前一位为0是不能算的。
+// 先转成字符串，创建dp数组，前一位和当前位组成的字符串和25比较就行了，还有注意前一位为0是不能算的。
 
-```
+// ```
 class Solution {
     public int translateNum(int num) {
         String s = String.valueOf(num);
@@ -19,4 +19,4 @@ class Solution {
         return dp[l];
     }
 }
-```
+// ```

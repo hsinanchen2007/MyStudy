@@ -1,9 +1,9 @@
-###
-所求结果有32位限制需要注意。
-每一位进数组，找到尽可能低位做交换，最后排序使得数满足最小且大于n。
-//-------author:PeanurLiu----------//
+// ###
+// 所求结果有32位限制需要注意。
+// 每一位进数组，找到尽可能低位做交换，最后排序使得数满足最小且大于n。
+// //-------author:PeanurLiu----------//
 
-```c
+// ```c
 int nextGreaterElement(int n){
 
     int *ans = (int *)malloc(sizeof(int) * 12);
@@ -49,4 +49,4 @@ int nextGreaterElement(int n){
     }
     return res;
 }
-```
+// ```

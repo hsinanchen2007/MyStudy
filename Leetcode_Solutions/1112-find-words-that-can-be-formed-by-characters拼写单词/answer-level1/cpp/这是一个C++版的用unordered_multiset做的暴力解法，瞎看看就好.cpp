@@ -1,6 +1,6 @@
-纯暴力，不用脑子，写起来快一点。
+// 纯暴力，不用脑子，写起来快一点。
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	int countCharacters(vector<string>& words, string chars) {
@@ -27,4 +27,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

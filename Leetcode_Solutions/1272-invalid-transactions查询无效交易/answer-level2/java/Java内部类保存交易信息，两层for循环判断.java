@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2e64d4886ff303e5345920666c8b4903c3b4bbf609efb0aa9d7fc232f0df8789-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2e64d4886ff303e5345920666c8b4903c3b4bbf609efb0aa9d7fc232f0df8789-image.png)
 
-```
+// ```
     private class Trade {
         private String s;
         private String name;
@@ -65,4 +65,4 @@
         }
         return result;
     }
-```
+// ```

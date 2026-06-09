@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-内存消耗 :
-13.3 MB
-, 在所有 Python3 提交中击败了
-100.00%
-的用户
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 内存消耗 :
+# 13.3 MB
+# , 在所有 Python3 提交中击败了
+# 100.00%
+# 的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         ans=[]
@@ -30,4 +30,4 @@ class Solution:
         return ans
         
 
-```
+# ```

@@ -1,14 +1,14 @@
-### 解题思路
-**新手小白**
-- 栈的特点：先入后出；队列的特点：先入先出；
-- 使用queue的push()实现push()功能；
-- 实现pop()功能时，新建queue保存其他数据；
-- top()同理；
-- 使用queue的empty()实现empty()判断。
+// ### 解题思路
+// **新手小白**
+// - 栈的特点：先入后出；队列的特点：先入先出；
+// - 使用queue的push()实现push()功能；
+// - 实现pop()功能时，新建queue保存其他数据；
+// - top()同理；
+// - 使用queue的empty()实现empty()判断。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -66,4 +66,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

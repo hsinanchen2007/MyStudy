@@ -1,7 +1,7 @@
-主要是参考官方的分治法，但是在出现在连续N个1的时候会超时。
-所以这里优化一下，就是在找左边或右边处理的时候，输入的边界比当前值要大。
-这里上代码，大家看下。
-```
+// 主要是参考官方的分治法，但是在出现在连续N个1的时候会超时。
+// 所以这里优化一下，就是在找左边或右边处理的时候，输入的边界比当前值要大。
+// 这里上代码，大家看下。
+// ```
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -35,4 +35,4 @@ private:
         return max(curArea, max(leftArea, rightArea));
     }
 };
-```
+// ```

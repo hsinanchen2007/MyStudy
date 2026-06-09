@@ -1,6 +1,6 @@
 
 
-```c
+// ```c
 #define LEN 58
 int longestPalindrome(char * s){
     if(strlen(s) == 0) {
@@ -29,4 +29,4 @@ int longestPalindrome(char * s){
     printf("%d,%d ",sum1,sum2);
     return (sum1 + sum2 + sum3);
 }
-```
+// ```

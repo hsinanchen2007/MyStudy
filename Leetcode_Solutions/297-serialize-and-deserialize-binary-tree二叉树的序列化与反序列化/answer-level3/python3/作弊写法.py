@@ -1,13 +1,13 @@
-### 解题思路
-**返回原值**
+# ### 解题思路
+# **返回原值**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Codec:
     def serialize(self, root):
         return root
 
     def deserialize(self, data):
         return data
-```
+# ```

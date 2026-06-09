@@ -1,9 +1,9 @@
-### 解题思路
-都在注释里
+// ### 解题思路
+// 都在注释里
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ class Solution {
         return ans.next;
     }
 }
-```
+// ```

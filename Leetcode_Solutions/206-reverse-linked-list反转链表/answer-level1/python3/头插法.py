@@ -1,10 +1,10 @@
-### 解题思路
-从旧链表取的每一个结点，用头插法插入新链表，返回新链表
-38ms
+# ### 解题思路
+# 从旧链表取的每一个结点，用头插法插入新链表，返回新链表
+# 38ms
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
             t.next = q
             q = t
         return q
-```
+# ```

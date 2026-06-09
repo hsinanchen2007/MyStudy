@@ -1,11 +1,11 @@
-### 解题思路
-1. 至少有一位重复的数字的个数=N-没有重复字符的数字的个数
-2. 设数字N有W位，则需要除去所有位数为1到W的数字中没有重复字符的数字
-3. 计算W位数字中小于N且没有重复的字符的数字的个数可以递归求得
+# ### 解题思路
+# 1. 至少有一位重复的数字的个数=N-没有重复字符的数字的个数
+# 2. 设数字N有W位，则需要除去所有位数为1到W的数字中没有重复字符的数字
+# 3. 计算W位数字中小于N且没有重复的字符的数字的个数可以递归求得
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def numDupDigitsAtMostN(self, N: int) -> int:
@@ -60,4 +60,4 @@ class Solution:
         ans = N - sum([non_dup_of_n_digits(i) for i in range(digits)]) - non_dup_of_num(num, 0, set())
 
         return ans
-```
+# ```

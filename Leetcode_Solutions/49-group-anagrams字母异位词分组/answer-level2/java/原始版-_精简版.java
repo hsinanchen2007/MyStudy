@@ -1,6 +1,6 @@
-# 49字母异位词分组
-**最初的方法，比较粗糙**
-```
+// # 49字母异位词分组
+// **最初的方法，比较粗糙**
+// ```
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String,List<String>> map = new HashMap<>();
@@ -25,10 +25,10 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-可以简化
-```
+// 可以简化
+// ```
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String,ArrayList<String>> map=new HashMap<>();
@@ -42,4 +42,4 @@ class Solution {
         return new ArrayList(map.values());
     }
 }
-```
+// ```

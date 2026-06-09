@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func productExceptSelf(nums []int) []int {
     // 用一个数组存结果
     var res []int
@@ -21,4 +21,4 @@ func productExceptSelf(nums []int) []int {
     }
     return res 
 }
-```
+// ```

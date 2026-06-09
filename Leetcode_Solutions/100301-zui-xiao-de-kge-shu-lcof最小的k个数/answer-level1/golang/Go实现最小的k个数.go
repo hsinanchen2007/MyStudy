@@ -1,6 +1,6 @@
-**两种实现方法，partition函数与最大堆实现**
+// **两种实现方法，partition函数与最大堆实现**
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
     if arr == nil || k<=0 || len(arr)<k{
         return []int{}
@@ -41,9 +41,9 @@ func partition(arr []int,left,right int)int{
 	arr[right],arr[p2] = arr[p2],arr[right]
 	return p1+1
 }
-```
+// ```
 
-```
+// ```
 func getLeastNumbers(arr []int, k int) []int {
     if arr == nil || k<=0 || len(arr)<k{
         return []int{}
@@ -94,4 +94,4 @@ func heapify(arr []int, index, heapSize int) {
 		left = 2*index + 1
 	}
 }
-```
+// ```

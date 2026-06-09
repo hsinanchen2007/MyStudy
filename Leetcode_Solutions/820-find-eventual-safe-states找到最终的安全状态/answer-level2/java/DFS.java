@@ -1,12 +1,12 @@
-### 解题思路
-设置一个状态数组 unsafe
-初始值为0，1代表不安全，2代表安全
-对于某次的dfs，用set记录访问过的点，若后续访问的点命中了set，则返回false
-同时注意从set中remove添加的元素，这样退栈到上层后，可保证数据不被干扰。
+// ### 解题思路
+// 设置一个状态数组 unsafe
+// 初始值为0，1代表不安全，2代表安全
+// 对于某次的dfs，用set记录访问过的点，若后续访问的点命中了set，则返回false
+// 同时注意从set中remove添加的元素，这样退栈到上层后，可保证数据不被干扰。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
         List<Integer> res = new ArrayList<>();
@@ -46,4 +46,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-使用队列保存当前未找到的字符，遍历序列t，直到队列为空或t遍历完
-```
+# 使用队列保存当前未找到的字符，遍历序列t，直到队列为空或t遍历完
+# ```
 class Solution(object):
     def isSubsequence(self, s, t):
         """
@@ -16,4 +16,4 @@ class Solution(object):
             curr += 1
         return len(queue) == 0
 
-```
+# ```

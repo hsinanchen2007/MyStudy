@@ -1,9 +1,9 @@
-### 解题思路
-yeah yeah yeah
+// ### 解题思路
+// yeah yeah yeah
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int[] left = new int[height.length];
@@ -22,4 +22,4 @@ class Solution {
 
     }
 }
-```
+// ```

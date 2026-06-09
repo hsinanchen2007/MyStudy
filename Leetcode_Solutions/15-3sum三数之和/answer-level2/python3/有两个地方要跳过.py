@@ -1,9 +1,9 @@
-### 解题思路
-有两个地方要跳过
+# ### 解题思路
+# 有两个地方要跳过
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -34,4 +34,4 @@ class Solution:
                 else:
                     left+=1
         return res
-```
+# ```

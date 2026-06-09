@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func maxSubArray(nums []int) int {
     max := nums[0]
     curMax := 0
@@ -15,4 +15,4 @@ func maxSubArray(nums []int) int {
     }
     return max
 }
-```
+// ```

@@ -1,4 +1,4 @@
-首先，使用min binary heap最小堆+哈希表的复杂度是O(log n)
+// 首先，使用min binary heap最小堆+哈希表的复杂度是O(log n)
 ![image.png](https://pic.leetcode-cn.com/8378469bfebf0811bab00419466385f48b17460a50fbe8f537d2fb9a06cdf497-image.png)
 
 LRU里已经讲过，哈希表+排序必须靠链表实现，

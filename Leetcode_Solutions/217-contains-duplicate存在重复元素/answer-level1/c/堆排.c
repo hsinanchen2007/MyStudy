@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //快排无法满足性能要求
 /*int partition(int a[],int low,int high){
     int key=a[low];
@@ -71,4 +71,4 @@ bool containsDuplicate(int* nums, int numsSize){
   }
   return false;
 }
-```
+// ```

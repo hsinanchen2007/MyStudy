@@ -1,11 +1,11 @@
-### 解题思路
-遍历整个矩阵
-1）找到R；
-2）遍历四个方向；
+// ### 解题思路
+// 遍历整个矩阵
+// 1）找到R；
+// 2）遍历四个方向；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -55,4 +55,4 @@ public:
         return 0;
     }
 };
-```
+// ```

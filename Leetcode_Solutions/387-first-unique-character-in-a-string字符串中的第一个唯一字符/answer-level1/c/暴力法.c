@@ -1,9 +1,9 @@
-### 解题思路
-思路比较简单，遍历所有可能情况
+// ### 解题思路
+// 思路比较简单，遍历所有可能情况
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstUniqChar(char * s){
     int i,j;
     int len;
@@ -31,4 +31,4 @@ int firstUniqChar(char * s){
     }
     return -1;
 }
-```
+// ```

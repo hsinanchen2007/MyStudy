@@ -1,5 +1,5 @@
-方法一另建链表
-```
+// 方法一另建链表
+// ```
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -31,11 +31,11 @@ public:
         return head->next;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/591e49920b596b73dd4cb2ae46eebe882cd433e11da127a8670165bd5a86627b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/591e49920b596b73dd4cb2ae46eebe882cd433e11da127a8670165bd5a86627b-image.png)
 
-方法二、在l1上修改
-```
+// 方法二、在l1上修改
+// ```
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -59,5 +59,5 @@ public:
         return head;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8298e68452cabac7f7f100f6e061bf8c1f3448cee9a3e47f6ed61e448d126d59-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8298e68452cabac7f7f100f6e061bf8c1f3448cee9a3e47f6ed61e448d126d59-image.png)

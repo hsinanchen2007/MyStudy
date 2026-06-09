@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/562f7bdbd945098eec088ef8b00d925e6a17d28b53b4089d6e4ecf74a504fd60-image.png)
+# ### 解题思路
+# 此处撰写解题思路
+# ![image.png](https://pic.leetcode-cn.com/562f7bdbd945098eec088ef8b00d925e6a17d28b53b4089d6e4ecf74a504fd60-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if len(intervals) <= 1:
@@ -25,4 +25,4 @@ class Solution:
                 
         res.append(new)
         return res
-```
+# ```

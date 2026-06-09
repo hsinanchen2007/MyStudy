@@ -1,5 +1,5 @@
-菜菜的我还是把代码贴了上来！
-```
+// 菜菜的我还是把代码贴了上来！
+// ```
 class Solution {
     public String countAndSay(int n) {
         StringBuilder start = new StringBuilder("1");
@@ -26,4 +26,4 @@ class Solution {
         return result.append(count).append(c);
     }
 }
-```
+// ```

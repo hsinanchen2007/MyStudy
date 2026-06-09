@@ -1,9 +1,9 @@
-### 解题思路
-用数列记录需要更改的位置，再做遍历插入
+# ### 解题思路
+# 用数列记录需要更改的位置，再做遍历插入
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def boldWords(self, words, S):
         """
@@ -41,4 +41,4 @@ class Solution(object):
                 newSlist.append('</b>')
         newS = ''.join(newSlist)
         return newS
-```
+# ```

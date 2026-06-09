@@ -1,12 +1,12 @@
-### 解题思路
-理解 python 的语言特性， self.val 变量，以及闭包 (Class内部函数, 函数内部函数)，以及 传值还是传引用
+# ### 解题思路
+# 理解 python 的语言特性， self.val 变量，以及闭包 (Class内部函数, 函数内部函数)，以及 传值还是传引用
 
-这一题官方代码写的不是非常清楚。看了很久才懂。
-我自己写的比较清楚。
+# 这一题官方代码写的不是非常清楚。看了很久才懂。
+# 我自己写的比较清楚。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
         result = dfs(root)  # 传引用
         return result
 
-```
+# ```

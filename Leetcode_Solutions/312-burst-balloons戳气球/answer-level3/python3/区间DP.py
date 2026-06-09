@@ -1,15 +1,15 @@
-### 解题思路
+# ### 解题思路
 
-区间DP 按照区间最后一个被扎破的气球对问题划分，找到所有可能中的最大的即可。
+# 区间DP 按照区间最后一个被扎破的气球对问题划分，找到所有可能中的最大的即可。
 
-递推方程 : $dp[i][j] = max_{k = i}^{j} dp[i][k-1] + dp[k+1][j] + nums[k] * numds[i-1] * nums[j + 1]$
+# 递推方程 : $dp[i][j] = max_{k = i}^{j} dp[i][k-1] + dp[k+1][j] + nums[k] * numds[i-1] * nums[j + 1]$
 
-时间复杂度$O(n ^ 3)$
-空间复杂度$O(n ^ 2)$
+# 时间复杂度$O(n ^ 3)$
+# 空间复杂度$O(n ^ 2)$
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxCoins(self, nums) -> int:
         # 按照第一个扎破的气球分类发现不能把问题转为子问题
@@ -27,4 +27,4 @@ class Solution:
                 for j in range(i, i + _len):
                     dp[i][i + _len - 1] = max(dp[i][i + _len - 1], dp[i][j -1] + dp[j + 1][i + _len - 1] + nums[j] * nums[i- 1] * nums[i + _len])
         return dp[1][l]
-```
+# ```

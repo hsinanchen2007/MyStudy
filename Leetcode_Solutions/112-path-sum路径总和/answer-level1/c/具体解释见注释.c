@@ -1,12 +1,12 @@
-### 解题思路
-* 递归
-* 情况1 root为空返回false
-* 情况2 root为叶子节点判断是否sum等于root->val；
-* 情况3 root不是叶子节点，递归判断root->left或者root->right是否满足hasPathSum
+// ### 解题思路
+// * 递归
+// * 情况1 root为空返回false
+// * 情况2 root为叶子节点判断是否sum等于root->val；
+// * 情况3 root不是叶子节点，递归判断root->left或者root->right是否满足hasPathSum
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
    return (hasPathSum(root->left,diff) || hasPathSum(root->right,diff));
     
 }
-```
+// ```

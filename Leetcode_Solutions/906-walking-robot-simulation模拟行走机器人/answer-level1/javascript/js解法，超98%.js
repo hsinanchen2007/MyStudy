@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} commands
  * @param {number[][]} obstacles
@@ -38,4 +38,4 @@ var robotSim = function(commands, obstacles) {
     }
     return ans;
 };
-```
+// ```

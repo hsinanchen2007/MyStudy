@@ -1,9 +1,9 @@
-### 解题思路
-第一次用Python
-看了官方题解+甜姨的图，差不多明白了。Python语言真是简洁~~
-### 代码
+# ### 解题思路
+# 第一次用Python
+# 看了官方题解+甜姨的图，差不多明白了。Python语言真是简洁~~
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def surfaceArea(self, grid):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                         ans+=max(grid[r][c]-nval,0)
         return ans
 
-```
+# ```

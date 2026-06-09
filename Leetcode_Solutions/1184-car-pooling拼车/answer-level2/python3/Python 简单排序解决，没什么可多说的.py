@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/71db6abd5a30fb10ceea9699347c052fce11f05a643b9b68f255ffc301fd1fa6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/71db6abd5a30fb10ceea9699347c052fce11f05a643b9b68f255ffc301fd1fa6-image.png)
 
 
 
-```
+# ```
 '''
 按时间戳升序排序，优先处理下车，如果中间出现容量不够情况
 即返回失败
@@ -25,4 +25,4 @@ class Solution:
             if cnt > capacity:
                 return False
         return True
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-将所有的字符串拼接成一条字符串，记住每条字符串的开始位置， 然后统一将所有下标右移动
+// ### 解题思路
+// 将所有的字符串拼接成一条字符串，记住每条字符串的开始位置， 然后统一将所有下标右移动
 
-### 边界条件
-- 第i个字符开始的位置 移动到了第i+1个字符的位置
-- 第i个字符下标move 不等于 第i+1个字符下标move
-- 是否有空串
+// ### 边界条件
+// - 第i个字符开始的位置 移动到了第i+1个字符的位置
+// - 第i个字符下标move 不等于 第i+1个字符下标move
+// - 是否有空串
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
 // 先找出所有的初始下标
 	var indexArr []int
@@ -53,4 +53,4 @@ func longestCommonPrefix(strs []string) string {
 	// fmt.Println(longStr[:move])
 	return longStr[:move]
 }
-```
+// ```

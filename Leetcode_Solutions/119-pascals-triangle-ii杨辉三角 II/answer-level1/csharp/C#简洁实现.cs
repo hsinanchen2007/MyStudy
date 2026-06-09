@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public IList<int> GetRow(int rowIndex) {
         int[] res = new int[++rowIndex]; 
@@ -10,4 +10,4 @@ public class Solution {
         return res.ToList();
     }
 }
-```
+// ```

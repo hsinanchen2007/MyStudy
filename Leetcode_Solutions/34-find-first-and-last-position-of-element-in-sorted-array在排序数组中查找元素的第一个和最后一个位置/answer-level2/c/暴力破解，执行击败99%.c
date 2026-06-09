@@ -1,9 +1,9 @@
-### 解题思路
-暴力破解
+// ### 解题思路
+// 暴力破解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -28,4 +28,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     }
     return re;
 }
-```
+// ```

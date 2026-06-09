@@ -1,5 +1,5 @@
-## 排序
-```
+// ## 排序
+// ```
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -10,12 +10,12 @@ class Solution {
         return list.subList(0, k);
     }
 }
-```
-时间复杂度：O(nlogn)
-空间复杂度：O(n)
+// ```
+// 时间复杂度：O(nlogn)
+// 空间复杂度：O(n)
 
-## 优先队列
-```
+// ## 优先队列
+// ```
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -33,6 +33,6 @@ class Solution {
         return list;        
     }
 }
-```
-时间复杂度：O(nlogk)
-空间复杂度：O(n)
+// ```
+// 时间复杂度：O(nlogk)
+// 空间复杂度：O(n)

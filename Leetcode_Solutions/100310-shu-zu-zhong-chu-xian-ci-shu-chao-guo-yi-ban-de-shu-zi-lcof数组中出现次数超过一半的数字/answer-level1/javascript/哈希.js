@@ -1,10 +1,10 @@
-### 解题思路
-- 用个对象来记录出现的次数
-- 
+// ### 解题思路
+// - 用个对象来记录出现的次数
+// - 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -24,4 +24,4 @@ var majorityElement = function(nums) {
 
     return 0
 };
-```
+// ```

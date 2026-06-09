@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-大家好，我是 17
+// 大家好，我是 17
 
-空间可以复用 传入的grid，这样可以用二维动态规划，而不需要额外空间
+// 空间可以复用 传入的grid，这样可以用二维动态规划，而不需要额外空间
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -31,4 +31,4 @@ var minPathSum = function (grid) {
   //最后一个就是右下角的值
   return grid[[M - 1]][N - 1]
 };
-```
+// ```

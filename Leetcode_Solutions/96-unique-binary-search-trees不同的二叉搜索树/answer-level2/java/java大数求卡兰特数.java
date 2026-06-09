@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.math.BigInteger;
 class Solution {
     public int numTrees(int n) {
@@ -12,4 +12,4 @@ class Solution {
         return res.divide(new BigInteger(String.valueOf(n + 1))).intValue();
     }
 }
-```
+// ```

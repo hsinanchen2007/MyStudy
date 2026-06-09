@@ -1,4 +1,4 @@
-```
+// ```
 //这道题跟第72题-最小编辑距离-：很相似
 //但这道题只允许删除word1、删除word2,没有替换这个操作
 //其实删除word2可以看成插入word1操作，这样就跟72题很像啦
@@ -31,4 +31,4 @@ public int minDistance(String word1, String word2) {
         //得到
         return dp[m][n];
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果可以形成回文，那么必然是出现了两次以上。
+# ### 解题思路
+# 如果可以形成回文，那么必然是出现了两次以上。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         letter_dict={}
@@ -24,4 +24,4 @@ class Solution:
         return suros_num
 
 
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-合并了筛选步骤，优化了以下内存消耗
-### 代码
+// ### 解题思路
+// 合并了筛选步骤，优化了以下内存消耗
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
@@ -30,4 +30,4 @@ public:
         return out;
     }
 };
-```
+// ```

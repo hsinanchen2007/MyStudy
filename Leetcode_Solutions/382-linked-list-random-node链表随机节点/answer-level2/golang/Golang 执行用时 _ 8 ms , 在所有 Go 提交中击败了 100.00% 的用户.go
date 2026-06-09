@@ -1,9 +1,9 @@
-### 解题思路
-第i个元素被选中的概率是1/i
+// ### 解题思路
+// 第i个元素被选中的概率是1/i
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -52,4 +52,4 @@ func (this *Solution) GetRandom() int {
  * obj := Constructor(head);
  * param_1 := obj.GetRandom();
  */
-```
+// ```

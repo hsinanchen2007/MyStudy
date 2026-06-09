@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         def less_search(arr, low, high, key): #查找第一个小于key的位置
@@ -48,4 +48,4 @@ class Solution:
             while i < n and nums[i] == nums[i-1]:#跳过相同的nums[i]
                 i += 1
         return ans
-```
+# ```

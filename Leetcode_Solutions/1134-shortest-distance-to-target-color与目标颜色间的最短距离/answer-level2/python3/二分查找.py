@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestDistanceColor(self, colors: List[int], queries: List[List[int]]) -> List[int]:
         from bisect import bisect_left
@@ -56,4 +56,4 @@ class Solution:
                 ans.append(abs(taregt_list[return_index] - start))        
         
         return ans
-```
+# ```

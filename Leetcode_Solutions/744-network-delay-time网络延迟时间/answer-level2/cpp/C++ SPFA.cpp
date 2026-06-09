@@ -1,5 +1,5 @@
-SPFA 和普通的 BFS 差不多，用队列保存待遍历结点。要注意的是，vis数组并非让每个点只遍历一次，每个点可能遍历的次数是不确定的，vis只是避免有重边反复把相同结点入队。这里我们删掉 vis[110] 数组也是可以 AC 的。
-```c++
+// SPFA 和普通的 BFS 差不多，用队列保存待遍历结点。要注意的是，vis数组并非让每个点只遍历一次，每个点可能遍历的次数是不确定的，vis只是避免有重边反复把相同结点入队。这里我们删掉 vis[110] 数组也是可以 AC 的。
+// ```c++
 class Solution {
 private:
     unordered_map<int, vector<pair<int, int>>> graph;
@@ -41,4 +41,4 @@ public:
         return res;
     }
 };
-```
+// ```

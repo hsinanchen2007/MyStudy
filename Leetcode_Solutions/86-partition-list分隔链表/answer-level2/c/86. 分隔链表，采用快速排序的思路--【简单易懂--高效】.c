@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![2019-12-28_233523.png](https://pic.leetcode-cn.com/0be74ddf3d347d901524b5c2139000046ce897c2d91abc25296d86cb473e4aab-2019-12-28_233523.png)
-维护两个链表，最后连接这两个链表。
-通过赋值，尽量把while大循环的判断语句省略掉，这样可以大大减少运行时间。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![2019-12-28_233523.png](https://pic.leetcode-cn.com/0be74ddf3d347d901524b5c2139000046ce897c2d91abc25296d86cb473e4aab-2019-12-28_233523.png)
+// 维护两个链表，最后连接这两个链表。
+// 通过赋值，尽量把while大循环的判断语句省略掉，这样可以大大减少运行时间。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ public:
         return pt1->next;
     }
 };
-```
+// ```

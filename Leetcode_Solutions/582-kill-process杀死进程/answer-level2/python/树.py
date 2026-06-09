@@ -1,4 +1,4 @@
-```
+# ```
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -30,4 +30,4 @@ class Solution:
             kills.append(child.val)
             kills = self.getChildren(child, kills)
         return kills
-```
+# ```

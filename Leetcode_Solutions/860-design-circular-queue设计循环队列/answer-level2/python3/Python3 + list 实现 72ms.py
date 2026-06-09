@@ -1,18 +1,18 @@
-### 解题思路
-关键步骤：
-  1. 数组需要保持一共空闲空间， 所以capacity = k + 1
-  2. head 或 tail == capacity 时需要重置为0. 不然就不是环了， 会一直往后走
-  3. 对空判断 head == tail, 这个很好理解
-  4. 队满:  (tail + 1) % capacity == head
-     a. tail + 1 == head 满足队满条件
-     b. 反过来表示： tail = capacity - 1, head = 0  队满， 实际上就是一直入队， 此时： tail + 1 = capacity 而 head = 0 
-        所以有： (tail + 1) % capacity == capacity % capacity == head == 0.
- 5. 调试一下 跑几个用例， 看看数据会了然很多
+# ### 解题思路
+# 关键步骤：
+#   1. 数组需要保持一共空闲空间， 所以capacity = k + 1
+#   2. head 或 tail == capacity 时需要重置为0. 不然就不是环了， 会一直往后走
+#   3. 对空判断 head == tail, 这个很好理解
+#   4. 队满:  (tail + 1) % capacity == head
+#      a. tail + 1 == head 满足队满条件
+#      b. 反过来表示： tail = capacity - 1, head = 0  队满， 实际上就是一直入队， 此时： tail + 1 = capacity 而 head = 0 
+#         所以有： (tail + 1) % capacity == capacity % capacity == head == 0.
+#  5. 调试一下 跑几个用例， 看看数据会了然很多
         
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyCircularQueue(object):
 
     def __init__(self, k):
@@ -87,4 +87,4 @@ class MyCircularQueue(object):
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()
-```
+# ```

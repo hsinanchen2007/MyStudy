@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap <Integer, Integer> hm = new HashMap();
@@ -19,4 +19,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

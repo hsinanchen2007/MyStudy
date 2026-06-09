@@ -1,8 +1,8 @@
-### DFS
-[102.二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/c-dui-lie-yi-dong-z-by-zrita/)
-ps:这道题其实就是102.二叉树的层次遍历的翻版，多了一个条件if(level %2==0),层数level从0开始表示二叉树的第一行，如果为偶数行则顺序加入，如果为奇数行则将数字每次插入到最前面
+// ### DFS
+// [102.二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/c-dui-lie-yi-dong-z-by-zrita/)
+// ps:这道题其实就是102.二叉树的层次遍历的翻版，多了一个条件if(level %2==0),层数level从0开始表示二叉树的第一行，如果为偶数行则顺序加入，如果为奇数行则将数字每次插入到最前面
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;   
@@ -25,11 +25,11 @@ public:
         addVector(root->right,level+1);          
     }
 };
-```
+// ```
 
-### BFS
+// ### BFS
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
@@ -63,4 +63,4 @@ public:
 };
 
 
-```
+// ```

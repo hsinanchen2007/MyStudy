@@ -1,12 +1,12 @@
-### 解题思路
-首先要注意的是个数不一样
-其次需要判断pettern中不同字符对应同一个字符串形式；
-其他正常
+// ### 解题思路
+// 首先要注意的是个数不一样
+// 其次需要判断pettern中不同字符对应同一个字符串形式；
+// 其他正常
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -38,4 +38,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-## 超过 98% 以上：js
-```
+// ## 超过 98% 以上：js
+// ```
 var threeSum = function(nums) {
     nums = nums.sort((a, b) => a - b)
     let res = []

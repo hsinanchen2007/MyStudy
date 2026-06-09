@@ -1,9 +1,9 @@
-### 解题思路
-所有和连通性有关的问题，首先应该想到使用并查集来解决。
+# ### 解题思路
+# 所有和连通性有关的问题，首先应该想到使用并查集来解决。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class UnionSet():
     def __init__(self, num):
         self.data = [i for i in range(num)]
@@ -57,4 +57,4 @@ class Solution(object):
                 if grid[i][j] and us.data[ind] == ind and us.size[ind] > res:
                     res = us.size[ind]
         return res
-```
+# ```

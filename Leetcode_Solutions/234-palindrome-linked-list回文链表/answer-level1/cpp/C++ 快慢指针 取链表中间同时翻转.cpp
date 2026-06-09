@@ -1,5 +1,5 @@
 
-使用2个指针，一个first，一个second，second的速度是first的2倍，使用first移动到链表中间，在移动指针时同时对前半部分链表进行反转，根据second是否为nullptr判断奇偶。
+// 使用2个指针，一个first，一个second，second的速度是first的2倍，使用first移动到链表中间，在移动指针时同时对前半部分链表进行反转，根据second是否为nullptr判断奇偶。
 
 class Solution {
 public:

@@ -1,9 +1,9 @@
 
 
 
-如 [4, 4, 6, 7, 7]则第二个4和第二个7开始的递归都需要剪枝
+// 如 [4, 4, 6, 7, 7]则第二个4和第二个7开始的递归都需要剪枝
 
-```
+// ```
 func findSubsequences(nums []int) [][]int {
 	paths := [][]int{}
 	path := []int{}
@@ -39,4 +39,4 @@ func findSubsequences(nums []int) [][]int {
 
 
 
-```
+// ```

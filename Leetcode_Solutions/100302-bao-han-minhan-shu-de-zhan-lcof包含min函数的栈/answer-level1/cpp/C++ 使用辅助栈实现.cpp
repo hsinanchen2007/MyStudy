@@ -1,7 +1,7 @@
-### 解题思路
-使用一个辅助栈，s_min，在每次s_data压入数据后，与s_min的top进行比较，如果比s_min当前的top的大，则将该数据压入到s_min中，如果s_min的top更大，则将top压入到s_min中
-### 代码
-```cpp
+// ### 解题思路
+// 使用一个辅助栈，s_min，在每次s_data压入数据后，与s_min的top进行比较，如果比s_min当前的top的大，则将该数据压入到s_min中，如果s_min的top更大，则将top压入到s_min中
+// ### 代码
+// ```cpp
 class MinStack {
 public:
 	/** initialize your data structure here. */
@@ -30,4 +30,4 @@ public:
 		return s_min.top();
 	}
 };
-```
+// ```

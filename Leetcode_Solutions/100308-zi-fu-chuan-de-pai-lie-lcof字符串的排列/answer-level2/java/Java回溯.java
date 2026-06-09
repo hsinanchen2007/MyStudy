@@ -1,4 +1,4 @@
-```
+// ```
     public String[] permutation(String s)
     {
         int[] qq = new int[256];
@@ -33,4 +33,4 @@
 //这么取不需要考虑去重问题
         }
     }
-```
+// ```

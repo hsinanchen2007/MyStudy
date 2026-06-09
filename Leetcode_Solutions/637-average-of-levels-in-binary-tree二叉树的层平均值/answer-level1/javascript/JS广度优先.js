@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 const averageOfLevels = (root) => {
     let queue = [root], result = [], arr = [], sum = 0, length = 1
     while (queue.length) {
@@ -16,4 +16,4 @@ const averageOfLevels = (root) => {
     }
     return result
 };
-```
+// ```

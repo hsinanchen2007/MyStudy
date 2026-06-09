@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int count(String[] arr,String str) {
 		int count=0;
@@ -54,4 +54,4 @@ class Solution {
         return crr;
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-和反转字符串是一个类型，只是加了一点条件，不过本质都是一样的
+// 和反转字符串是一个类型，只是加了一点条件，不过本质都是一样的
 
-这里使用 集合 Set 存储了元音字母的小写，判断时加上 tolowercase 就可以了
+// 这里使用 集合 Set 存储了元音字母的小写，判断时加上 tolowercase 就可以了
 
-关键是元音的下标 i j 如何找，这里使用了循环，不符合条件就一直找，每次还需要判断 i<j ，因为修改了 i j 的值
+// 关键是元音的下标 i j 如何找，这里使用了循环，不符合条件就一直找，每次还需要判断 i<j ，因为修改了 i j 的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         Set<Character> set = new HashSet<Character>();
@@ -34,4 +34,4 @@ class Solution {
 		return new String(chars);
     }
 }
-```
+// ```

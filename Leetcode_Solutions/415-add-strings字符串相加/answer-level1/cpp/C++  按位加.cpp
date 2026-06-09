@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/cfba7e826579d3171a84b666ef945c590ca80ac3c815180625511236ee2645d5-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/cfba7e826579d3171a84b666ef945c590ca80ac3c815180625511236ee2645d5-image.png)
 
-从各自的个位字符开始往左边推进，cur代表当前需要进位多少。
-### 代码
+// 从各自的个位字符开始往左边推进，cur代表当前需要进位多少。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -28,4 +28,4 @@ public:
         
     }
 };
-```
+// ```

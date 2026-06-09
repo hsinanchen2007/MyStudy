@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/01770e84b7cff45efa389e269f9da17b7b670b2128dda8e2cb730ebdab2f8b74-image.png)
-1. 排序前先检查是否已有序对本例有效
-2. 加入哨兵可减少特殊情况的代码
-3. 为每个house找到其左右近邻供暖器可减少abs函数的开销
-```c++
+// ![image.png](https://pic.leetcode-cn.com/01770e84b7cff45efa389e269f9da17b7b670b2128dda8e2cb730ebdab2f8b74-image.png)
+// 1. 排序前先检查是否已有序对本例有效
+// 2. 加入哨兵可减少特殊情况的代码
+// 3. 为每个house找到其左右近邻供暖器可减少abs函数的开销
+// ```c++
 class Solution {
 public:
     int findRadius(vector<int>& houses, vector<int>& heaters) {
@@ -26,4 +26,4 @@ public:
         return r;
     }
 };
-```
+// ```

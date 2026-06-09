@@ -1,8 +1,8 @@
-快排的比较函数cmp这么写很影响运行时间，
-return *( int * )a - *( int *)b;
-如上这么写，-1 - 2^(31)会溢出，才改成以下写法
+// 快排的比较函数cmp这么写很影响运行时间，
+// return *( int * )a - *( int *)b;
+// 如上这么写，-1 - 2^(31)会溢出，才改成以下写法
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -75,4 +75,4 @@ int * intersect(int * nums1 , int nums1Size , int * nums2 , int nums2Size , int 
     return buffer;
 
 }
-```
+// ```

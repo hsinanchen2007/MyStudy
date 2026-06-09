@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def checkRecord(s: String): Boolean = {
       var countA = 0
@@ -21,4 +21,4 @@ object Solution {
     true  
     }
 }
-```
+// ```

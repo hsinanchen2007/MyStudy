@@ -1,4 +1,4 @@
-```c
+// ```c
 char * reverseOnlyLetters(char * s)
 {
     int len = strlen(s), i, j = 0;
@@ -22,4 +22,4 @@ char * reverseOnlyLetters(char * s)
     free(stk);
     return p;
 }
-```
+// ```

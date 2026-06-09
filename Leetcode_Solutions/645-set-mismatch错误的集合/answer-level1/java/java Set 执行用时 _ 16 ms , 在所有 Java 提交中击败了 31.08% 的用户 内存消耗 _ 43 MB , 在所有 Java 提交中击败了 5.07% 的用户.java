@@ -1,10 +1,10 @@
-### 解题思路
-把nums数组元素存入Set，找到重复的就存入result数组，然后遍历Set，不包含就存入result
-时间复杂度为O(n)
+// ### 解题思路
+// 把nums数组元素存入Set，找到重复的就存入result数组，然后遍历Set，不包含就存入result
+// 时间复杂度为O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
         int[] result = new int[2];
@@ -24,4 +24,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

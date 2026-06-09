@@ -1,8 +1,8 @@
-### 解题思路
-sort 用 反向迭代器，来逆序
-### 代码
+// ### 解题思路
+// sort 用 反向迭代器，来逆序
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     
@@ -27,4 +27,4 @@ public:
         return res%mod;
     }
 };
-```
+// ```

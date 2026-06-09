@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool checkSubTree(TreeNode* t1, TreeNode* t2) {
@@ -12,4 +12,4 @@ public:
             return checkSubTree(t1->left,t2) || checkSubTree(t1->right,t2);
     }
 };
-```
+// ```

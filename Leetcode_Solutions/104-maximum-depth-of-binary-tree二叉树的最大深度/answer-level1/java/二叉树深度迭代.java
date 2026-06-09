@@ -1,9 +1,9 @@
-### 解题思路
-1. 使用栈进行DFS遍历，用到Pair，.getKey()，.getValue()。
-2. 也可以使用队列进行BFS，同样的原理
-### 代码
+// ### 解题思路
+// 1. 使用栈进行DFS遍历，用到Pair，.getKey()，.getValue()。
+// 2. 也可以使用队列进行BFS，同样的原理
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return depth;
     }
 }
-```
+// ```

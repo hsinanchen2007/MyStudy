@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         StringBuilder s = new StringBuilder(String.valueOf(x));
@@ -12,4 +12,4 @@ class Solution {
         return s.toString().equals(ss.reverse().toString());
     }
 }
-```
+// ```

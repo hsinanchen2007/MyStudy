@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
@@ -26,4 +26,4 @@ class Solution(object):
         #if  sin == 0:
             #return 0
         return num   
-```
+# ```

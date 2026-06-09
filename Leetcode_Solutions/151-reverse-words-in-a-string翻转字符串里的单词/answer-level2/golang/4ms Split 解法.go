@@ -1,4 +1,4 @@
-```go
+// ```go
 func reverseWords(s string) string {
 	parts := strings.Split(s, " ")
 	size := len(parts)
@@ -10,4 +10,4 @@ func reverseWords(s string) string {
 	}
 	return strings.Join(rparts, " ")
 }
-```
+// ```

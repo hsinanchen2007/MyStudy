@@ -1,4 +1,4 @@
-```
+// ```
 class MyCircularDeque {
 public:
     vector<int> que;
@@ -66,4 +66,4 @@ public:
         return (full == len);
     }
 };
-```
+// ```

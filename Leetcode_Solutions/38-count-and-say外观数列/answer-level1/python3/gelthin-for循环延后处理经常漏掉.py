@@ -1,15 +1,15 @@
-### 解题思路
+# ### 解题思路
 
-按照题意编写即可。
+# 按照题意编写即可。
 
-本质上从左往右读，若有 k个连着的数字都是 t，则读 kt, 而不是 t...t (k 个) 
+# 本质上从左往右读，若有 k个连着的数字都是 t，则读 kt, 而不是 t...t (k 个) 
 
-注意到 for 循环最后一段经常会漏掉，特别是这里延后处理：只有当出现不同时，才对上一段进行处理。
+# 注意到 for 循环最后一段经常会漏掉，特别是这里延后处理：只有当出现不同时，才对上一段进行处理。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         current = "1"
@@ -31,4 +31,4 @@ class Solution:
             current = new_current
         return current
 
-```
+# ```

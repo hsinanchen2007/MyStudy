@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -19,11 +19,11 @@ public:
         return ans;
     }
 };
-```
-由于有sort,理论上是O(m log m),m=数组中不相同的元素的个数，一般m<n，如果相等的话都是1，看sort的实现原理。
+// ```
+// 由于有sort,理论上是O(m log m),m=数组中不相同的元素的个数，一般m<n，如果相等的话都是1，看sort的实现原理。
 
-转换成桶排序，反而多了4ms.
-```
+// 转换成桶排序，反而多了4ms.
+// ```
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -47,5 +47,5 @@ public:
         return ans;
     }
 };
-```
+// ```
 

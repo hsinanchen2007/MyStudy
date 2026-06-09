@@ -1,12 +1,12 @@
-### 解题思路
-StringBuilder+char数组，实现高效拼接
+// ### 解题思路
+// StringBuilder+char数组，实现高效拼接
 
-执行用时 : 0 ms, 在所有 Java 提交中击败了 100.00% 的用户
-内存消耗 : 36.8 MB, 在所有 Java 提交中击败了 100.00% 的用户
+// 执行用时 : 0 ms, 在所有 Java 提交中击败了 100.00% 的用户
+// 内存消耗 : 36.8 MB, 在所有 Java 提交中击败了 100.00% 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         StringBuilder sb = new StringBuilder();
@@ -18,4 +18,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-# 借鉴一下还是可以的  写的不好的见谅 代码简单 看一下就懂
-### 代码
+// ### 解题思路
+// # 借鉴一下还是可以的  写的不好的见谅 代码简单 看一下就懂
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
         return head;
     }
 };
-```
+// ```

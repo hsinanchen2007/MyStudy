@@ -1,10 +1,10 @@
-### 解题思路
-1.HashMap方法
-先第一遍扫描得出{key：value}
-2.对hashmap进行扫描，当value==1时，返回key值
-### 代码
+// ### 解题思路
+// 1.HashMap方法
+// 先第一遍扫描得出{key：value}
+// 2.对hashmap进行扫描，当value==1时，返回key值
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         //HashMap先扫描一遍
@@ -32,4 +32,4 @@ class Solution {
 
     }
 }
-```
+// ```

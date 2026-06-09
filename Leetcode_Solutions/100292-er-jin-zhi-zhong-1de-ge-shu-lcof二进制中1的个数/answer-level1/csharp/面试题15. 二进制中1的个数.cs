@@ -1,9 +1,9 @@
-### 解题思路
-位运算
+// ### 解题思路
+// 位运算
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int HammingWeight(uint n) {
         int count=0;
@@ -20,4 +20,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

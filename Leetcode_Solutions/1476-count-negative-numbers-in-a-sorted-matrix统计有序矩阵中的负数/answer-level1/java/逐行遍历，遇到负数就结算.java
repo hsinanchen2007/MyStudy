@@ -1,9 +1,9 @@
-### 解题思路
-逐行遍历，每一行遍历到第一个负数就可以计算该行了
+// ### 解题思路
+// 逐行遍历，每一行遍历到第一个负数就可以计算该行了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         int rowcount = grid.length;
@@ -20,4 +20,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

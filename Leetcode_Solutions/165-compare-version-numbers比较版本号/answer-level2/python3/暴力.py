@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
         a = version1.split('.')
@@ -22,4 +22,4 @@ class Solution:
             else:
                 i += 1
         return 0
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         //各个需要的字符，而不是子串
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-跟二叉树遍历其实是差不多的
-root -> left -> right
-这里是N个结点 就是children嘛, 但是也是有顺序的
+# 跟二叉树遍历其实是差不多的
+# root -> left -> right
+# 这里是N个结点 就是children嘛, 但是也是有顺序的
 
-模型确定的是 root -> children
-                      递归 -> root -> children
-```
+# 模型确定的是 root -> children
+#                       递归 -> root -> children
+# ```
 class Solution(object):
     def __init__(self):
         self.L = []
@@ -25,4 +25,4 @@ class Solution(object):
             if node.children is not None:
                 for child in node.children:
                     self.tranverse(child)
-```
+# ```

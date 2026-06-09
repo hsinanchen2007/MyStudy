@@ -1,10 +1,10 @@
-### 解题思路
-1.先DFS一遍计算各节点的叶子数量（该步应该可以与下面的流程合并，但是我没有做）
-2.再DFS一遍计算能够达到目标节点的沿途节点的子节点数乘积，因为肯定只有一条路，所以不怕算重复了
-3.判断如果能够到达目标节点就计算概率，否则返回0；
-### 代码
+// ### 解题思路
+// 1.先DFS一遍计算各节点的叶子数量（该步应该可以与下面的流程合并，但是我没有做）
+// 2.再DFS一遍计算能够达到目标节点的沿途节点的子节点数乘积，因为肯定只有一条路，所以不怕算重复了
+// 3.判断如果能够到达目标节点就计算概率，否则返回0；
+// ### 代码
 
-```c
+// ```c
 bool DFS(int** edges, int edgesSize, int parNum, int currentNum, int target, int t, int level, int *ans, int *childNum) {
     int i;
     bool isPath = false;
@@ -68,4 +68,4 @@ double frogPosition(int n, int** edges, int edgesSize, int* edgesColSize, int t,
     }
     return 0;
 }
-```
+// ```

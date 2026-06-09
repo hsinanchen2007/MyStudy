@@ -1,5 +1,5 @@
-解题思路，用到辅助队列来反转队列中的元素。
-```
+# 解题思路，用到辅助队列来反转队列中的元素。
+# ```
 class MyStack:
 
     def __init__(self):
@@ -55,5 +55,5 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```
 

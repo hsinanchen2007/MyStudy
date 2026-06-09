@@ -1,6 +1,6 @@
-首先不压缩状态，会 OOM，这是错误的版本，但是容易理解：
+// 首先不压缩状态，会 OOM，这是错误的版本，但是容易理解：
 
-```
+// ```
 import "math"
 
 func maxProfit(k int, prices []int) int {
@@ -56,11 +56,11 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```
 
-接着就是状态压缩版本：
+// 接着就是状态压缩版本：
 
-```
+// ```
 import "math"
 
 func maxProfit(k int, prices []int) int {
@@ -127,4 +127,4 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```

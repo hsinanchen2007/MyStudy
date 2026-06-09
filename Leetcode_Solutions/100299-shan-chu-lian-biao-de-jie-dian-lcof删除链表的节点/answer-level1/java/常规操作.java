@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode deleteNode(ListNode head, int val) {
     if(head==null)return null;
     if(head.val==val){
@@ -15,4 +15,4 @@ public ListNode deleteNode(ListNode head, int val) {
     }
     return head;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/5d9a96cddd513041e70c88d091a58d8e1a0629403069ab8dde7f557f944b8ac1-image.png)
-```
+# ![image.png](https://pic.leetcode-cn.com/5d9a96cddd513041e70c88d091a58d8e1a0629403069ab8dde7f557f944b8ac1-image.png)
+# ```
 class Solution(object):
     def numRookCaptures(self, board):
         """
@@ -44,4 +44,4 @@ class Solution(object):
                     return [i,j]
                
                     
-```
+# ```

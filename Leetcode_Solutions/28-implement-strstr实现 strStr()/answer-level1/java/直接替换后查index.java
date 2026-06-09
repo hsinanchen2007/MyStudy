@@ -1,9 +1,9 @@
-### 解题思路
-直接替换掉，然后用indexof函数
+// ### 解题思路
+// 直接替换掉，然后用indexof函数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         if(needle.isEmpty()) {
@@ -18,4 +18,4 @@ class Solution {
         return haystack.indexOf("2");
     }
 }
-```
+// ```

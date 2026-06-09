@@ -1,9 +1,9 @@
-### 解题思路
-用HashMap保存数字个数，key是数字，value是数字的个数，然后对value进行由大到小排序，然后让总个数循环减去最大的数字的个数直到小于一半为止
+// ### 解题思路
+// 用HashMap保存数字个数，key是数字，value是数字的个数，然后对value进行由大到小排序，然后让总个数循环减去最大的数字的个数直到小于一半为止
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minSetSize(int[] arr) {
         if (arr.length == 0) return 0;
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-rt
+# ### 解题思路
+# rt
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         """
@@ -15,4 +15,4 @@ class Solution(object):
             if ransomNote.count(i)>magazine.count(i):
                 return False
         return True
-```
+# ```

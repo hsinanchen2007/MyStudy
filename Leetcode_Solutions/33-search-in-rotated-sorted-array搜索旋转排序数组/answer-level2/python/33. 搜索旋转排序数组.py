@@ -1,12 +1,12 @@
-### 解题思路
-看到log(N)时间复杂度应该想到二分法，套模板。
-1 2 3 4 5 6 7 的旋转可以分为两类：
-- 2 3 4 5 6 7 1 这种，也就是 `nums[left] <= nums[mid]`。此例子中就是 2 <= 5。这种情况下，前半部分有序。因此如果 `nums[left] <=target<nums[mid]`，则在前半部分找，否则去后半部分找。
-- 6 7 1 2 3 4 5 这种，也就是 `nums[left] > nums[mid]`。此例子中就是 6 > 2。这种情况下，后半部分有序。因此如果` nums[mid] <target<=nums[right]`，则在后半部分找，否则去前半部分找。
+# ### 解题思路
+# 看到log(N)时间复杂度应该想到二分法，套模板。
+# 1 2 3 4 5 6 7 的旋转可以分为两类：
+# - 2 3 4 5 6 7 1 这种，也就是 `nums[left] <= nums[mid]`。此例子中就是 2 <= 5。这种情况下，前半部分有序。因此如果 `nums[left] <=target<nums[mid]`，则在前半部分找，否则去后半部分找。
+# - 6 7 1 2 3 4 5 这种，也就是 `nums[left] > nums[mid]`。此例子中就是 6 > 2。这种情况下，后半部分有序。因此如果` nums[mid] <target<=nums[right]`，则在后半部分找，否则去前半部分找。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums or len(nums) == 0:
@@ -35,4 +35,4 @@ class Solution:
 
 
 
-```
+# ```

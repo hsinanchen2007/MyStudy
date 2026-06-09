@@ -1,6 +1,6 @@
-# 思想: BST中序遍历是有序的
-### 方法1. 先存储再比较
-```
+// # 思想: BST中序遍历是有序的
+// ### 方法1. 先存储再比较
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         List<Integer> list = new ArrayList<>();
@@ -15,12 +15,12 @@ class Solution {
         inOrderTravel(root.right, list);
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(n)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(n)
 
-### 方法2. 一边递归一边比较
-```
+// ### 方法2. 一边递归一边比较
+// ```
 class Solution {
     private long prev = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
@@ -28,13 +28,13 @@ class Solution {
         return isValidBST(root.left) && prev < (prev = root.val) && isValidBST(root.right);
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(h)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(h)
 
-### 方法3. 范围检查
+// ### 方法3. 范围检查
 
-```
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         if (root == null) return true;
@@ -47,7 +47,7 @@ class Solution {
             isValidBSTHelper(root.right, root.val, right);
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(h)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(h)
 

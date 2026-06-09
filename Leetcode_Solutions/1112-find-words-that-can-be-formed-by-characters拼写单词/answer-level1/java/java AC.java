@@ -1,9 +1,9 @@
-### 解题思路
-哈希计数
+// ### 解题思路
+// 哈希计数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public  int countCharacters(String[] words, String chars) {
         HashMap<Character, Integer> charMap = new HashMap<>();
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func canPermutePalindrome(s string) bool {
 	keyCount := map[rune]bool{}
 	for _, item := range s {
@@ -10,4 +10,4 @@ func canPermutePalindrome(s string) bool {
 	}
 	return len(keyCount) <= 1
 }
-```
+// ```

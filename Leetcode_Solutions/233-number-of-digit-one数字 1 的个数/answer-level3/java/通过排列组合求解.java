@@ -1,4 +1,4 @@
-最简单的方法当然是穷举啦~穷举算法如下：
+// 最简单的方法当然是穷举啦~穷举算法如下：
 public static  int CountDigitOne(int n) {
 	int count=0;
 	for(int i=1;i<n;i++) {

@@ -1,12 +1,12 @@
 
-可以将dp[i][j]二维数组，简化为2个一维数组
-dp_first, dp_second
+# 可以将dp[i][j]二维数组，简化为2个一维数组
+# dp_first, dp_second
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isInterleave(self, s1, s2, s3):
         """
@@ -39,4 +39,4 @@ class Solution(object):
 
         return dp_second[n] == 1
         
-```
+# ```

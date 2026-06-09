@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+// ### 解题思路
+// 见注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
@@ -19,4 +19,4 @@ public:
         return index == bits.size() - 1;
     }
 };
-```
+// ```

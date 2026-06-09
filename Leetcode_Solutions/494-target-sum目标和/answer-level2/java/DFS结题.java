@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用DFS方法，也就是把所有的可能性弄出来
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用DFS方法，也就是把所有的可能性弄出来
+// ### 代码
 
-```java
+// ```java
 class Solution {
    Integer sum=0;
     public int findTargetSumWays(int[] nums, int S) {
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

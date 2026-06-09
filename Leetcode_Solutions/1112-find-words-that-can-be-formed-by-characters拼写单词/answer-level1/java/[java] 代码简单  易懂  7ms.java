@@ -1,8 +1,8 @@
-1. 统计字符表中各自字符所出现的次数；
-2. 对词汇表中的每个单词也做上述统计；
-3. 比较1,2；如果1中各个字符出现的次数总是大于等于2，则符合要求；
+// 1. 统计字符表中各自字符所出现的次数；
+// 2. 对词汇表中的每个单词也做上述统计；
+// 3. 比较1,2；如果1中各个字符出现的次数总是大于等于2，则符合要求；
 
-```
+// ```
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int[] charsOfCase = new int[26];//统计字符表中的字符
@@ -28,4 +28,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

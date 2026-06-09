@@ -1,9 +1,9 @@
-### 解题思路
-先找出至少有5名直接下属的经理id，再与employee表连接找出该经理对应的名字
+-- ### 解题思路
+-- 先找出至少有5名直接下属的经理id，再与employee表连接找出该经理对应的名字
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 SELECT
     Name
@@ -21,4 +21,4 @@ FROM
 
 
 
-```
+-- ```

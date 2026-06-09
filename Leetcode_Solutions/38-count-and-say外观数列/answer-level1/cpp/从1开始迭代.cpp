@@ -1,9 +1,9 @@
-### 解题思路
-从1开始迭代
+// ### 解题思路
+// 从1开始迭代
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -47,4 +47,4 @@ public:
 	return list[currentListIdx];
     }
 };
-```
+// ```

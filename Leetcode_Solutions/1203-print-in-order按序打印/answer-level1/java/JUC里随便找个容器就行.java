@@ -1,4 +1,4 @@
-```
+// ```
 import java.util.concurrent.*;
 public class Foo {
      ConcurrentHashMap<String,String> map = new ConcurrentHashMap();
@@ -46,6 +46,6 @@ public class Foo {
     }
 }
 
-```
+// ```
 
   

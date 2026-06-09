@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convert(char * s, int numRows){
     int len = strlen(s);
     if(numRows == 1)
@@ -76,4 +76,4 @@ char * convert(char * s, int numRows){
     free(a);
     return s;
 }
-```
+// ```

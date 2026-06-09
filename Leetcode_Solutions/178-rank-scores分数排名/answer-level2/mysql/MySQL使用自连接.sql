@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT
   a.score AS Score,
   COUNT(DISTINCT b.score) AS Rank

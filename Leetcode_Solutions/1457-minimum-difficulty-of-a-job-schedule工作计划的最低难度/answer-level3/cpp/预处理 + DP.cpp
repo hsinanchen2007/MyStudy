@@ -1,12 +1,12 @@
-dp[d][Length] 意味着将长度为Length的工作计划，划分为d段（天）完成的最低总长度
-为了计算方便，提前记录好任务（i...j）之间的最难工作记为maxi[i][j];
+// dp[d][Length] 意味着将长度为Length的工作计划，划分为d段（天）完成的最低总长度
+// 为了计算方便，提前记录好任务（i...j）之间的最难工作记为maxi[i][j];
 
-这样动态转移方程就变成了
-dp[day][j] = min(dp[day][j], dp[day - 1][k] + maxi[k][j - 1]);
-我们可以把day天完成的任务 
-拆成 day-1天 加 1天 的子任务解决 
+// 这样动态转移方程就变成了
+// dp[day][j] = min(dp[day][j], dp[day - 1][k] + maxi[k][j - 1]);
+// 我们可以把day天完成的任务 
+// 拆成 day-1天 加 1天 的子任务解决 
 
-```
+// ```
 class Solution {
 public:
 	int minDifficulty(vector<int>& jobDifficulty, int d) {
@@ -33,4 +33,4 @@ public:
 		return dp[d][n];
 	}
 };
-```
+// ```

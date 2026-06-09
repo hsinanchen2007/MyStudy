@@ -1,9 +1,9 @@
-### 解题思路
-与二叉树相关的问题优先考虑递归。
+// ### 解题思路
+// 与二叉树相关的问题优先考虑递归。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -19,4 +19,4 @@ class Solution {
         return Math.max(maxDepth(root.left),maxDepth(root.right))+1;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-核心思路：从用前i个元素构成子集一路推到用整个nums数组构成子集
+// 核心思路：从用前i个元素构成子集一路推到用整个nums数组构成子集
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
     }
 
 };
-```
+// ```

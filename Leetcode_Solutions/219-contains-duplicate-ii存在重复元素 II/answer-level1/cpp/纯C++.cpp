@@ -1,9 +1,9 @@
-### 解题思路
-纯C++
+// ### 解题思路
+// 纯C++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -27,4 +27,4 @@ public:
     }
 };
 
-```
+// ```

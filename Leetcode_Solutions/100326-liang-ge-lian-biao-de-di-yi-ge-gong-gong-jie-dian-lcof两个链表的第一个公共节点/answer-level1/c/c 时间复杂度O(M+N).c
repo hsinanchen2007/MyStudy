@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：双指针
@@ -60,4 +60,4 @@ struct ListNode * getIntersectionNode( struct ListNode * headA
     return NULL;
     
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-首先实现2个有序链表的合并，而后按照归并排序的思路，持续对K个链表进行两两排序，如果是奇数个，则最后一个链表本轮不排序直接进入下一轮，直至最终只剩下一个链表结束。
+# ### 解题思路
+# 首先实现2个有序链表的合并，而后按照归并排序的思路，持续对K个链表进行两两排序，如果是奇数个，则最后一个链表本轮不排序直接进入下一轮，直至最终只剩下一个链表结束。
 
-### 结果
+# ### 结果
 
-![image.png](https://pic.leetcode-cn.com/305f345222a00a40226a05a41f84a6a4312ac1b3a7014c8bcca8f9580e0f56b7-image.png)
+# ![image.png](https://pic.leetcode-cn.com/305f345222a00a40226a05a41f84a6a4312ac1b3a7014c8bcca8f9580e0f56b7-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
                 tmp.append(lists[-1])
             lists = tmp
         return lists[0]
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def addBinary(self, a, b):
         if len(a)>len(b):a,b=b,a
@@ -35,4 +35,4 @@ class Solution(object):
         elif sta==1:s='1'+s
         return s
         
-```
+# ```

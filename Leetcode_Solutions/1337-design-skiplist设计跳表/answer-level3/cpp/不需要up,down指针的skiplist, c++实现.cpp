@@ -1,5 +1,5 @@
-可以调整maxLevel参数的大小。
-```
+// 可以调整maxLevel参数的大小。
+// ```
 class Skiplist {
 public:
     Skiplist() {
@@ -110,4 +110,4 @@ public:
  * obj->add(num);
  * bool param_3 = obj->erase(num);
  */
-```
+// ```

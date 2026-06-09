@@ -1,7 +1,7 @@
-思路：遍历words，逐个匹配是否满足pattern，在匹配时，借助HashMap建立字符映射关系，条件是：每个字母映射到另一个字母中，没有两个字母映射到同一个字母。
-<br/><br/>
-代码：
-```
+// 思路：遍历words，逐个匹配是否满足pattern，在匹配时，借助HashMap建立字符映射关系，条件是：每个字母映射到另一个字母中，没有两个字母映射到同一个字母。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public List<String> findAndReplacePattern(String[] words, String pattern) {
         if (words == null || words.length < 1) {
@@ -46,4 +46,4 @@ class Solution {
         return ok;
     }
 }
-```
+// ```

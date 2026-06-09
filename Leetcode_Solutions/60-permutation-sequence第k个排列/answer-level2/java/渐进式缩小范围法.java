@@ -1,5 +1,5 @@
 
-```java
+// ```java
 
 class Solution {
     public String getPermutation(int n, int k) {
@@ -37,6 +37,6 @@ class Solution {
     }
 }
 
-```
+// ```
 
-` create 2019-10-25 10:01:32 ， k12 `
+// ` create 2019-10-25 10:01:32 ， k12 `

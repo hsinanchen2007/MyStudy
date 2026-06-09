@@ -1,6 +1,6 @@
 
-核心就是S中所有的字符都统计一遍，然后计算J中所有对应的字符的个数信息。
-```cpp
+// 核心就是S中所有的字符都统计一遍，然后计算J中所有对应的字符的个数信息。
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

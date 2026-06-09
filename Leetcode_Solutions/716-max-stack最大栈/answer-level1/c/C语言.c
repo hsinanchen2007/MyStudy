@@ -1,9 +1,9 @@
-### 解题思路
-很普通的方法，时间和空间都不高
+// ### 解题思路
+// 很普通的方法，时间和空间都不高
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 100000
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 typedef struct {
@@ -83,4 +83,4 @@ void maxStackFree(MaxStack* obj) {
  
  * maxStackFree(obj);
 */
-```
+// ```

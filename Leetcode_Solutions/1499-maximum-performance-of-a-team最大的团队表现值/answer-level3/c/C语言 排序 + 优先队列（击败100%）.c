@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/e3c058989e5c172b54724135f4362065721f4e57fcc737a775574d1cd25e904c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e3c058989e5c172b54724135f4362065721f4e57fcc737a775574d1cd25e904c-image.png)
 
 
 
-```c
+// ```c
 #define PRIORITY_SIZE 100005
 #define PRIORITY_MAX_DATA 0x7fffffff
 #define PRIORITY_MIN_DATA -PRIORITY_MAX_DATA
@@ -174,4 +174,4 @@ int maxPerformance(int n, int* speed, int speedSize, int* efficiency, int effici
     return ret % MOD;
 }
 
-```
+// ```

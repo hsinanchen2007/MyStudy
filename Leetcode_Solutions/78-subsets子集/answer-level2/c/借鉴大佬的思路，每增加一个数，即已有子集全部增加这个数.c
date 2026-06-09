@@ -1,9 +1,9 @@
-### 解题思路
-两层for循环，第一个循环遍历数组中所有元素，第二层，对每个数添加子集
+// ### 解题思路
+// 两层for循环，第一个循环遍历数组中所有元素，第二层，对每个数添加子集
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -34,4 +34,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     }
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
         int []res = new int[houses.length];
         Arrays.sort(houses);
         Arrays.sort(heaters);
@@ -36,4 +36,4 @@
         }
         Arrays.sort(res);
         return res[res.length-1];
-```
+// ```

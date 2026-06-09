@@ -1,5 +1,5 @@
-**解法1：双指针法**
-```cpp
+// **解法1：双指针法**
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -7,9 +7,9 @@ public:
       while(i<j){swap(s[i],s[j]);++i;--j;}
     }
 };
-```
-**解法2：递归法**
-```cpp
+// ```
+// **解法2：递归法**
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s){
@@ -23,13 +23,13 @@ public:
         reverseString(s,i+1,j-1);
     }
 };
-```
-**解法3：STL算法**
-```cpp
+// ```
+// **解法3：STL算法**
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s){
         reverse(s.begin(),s.end());
     }
 };
-```
+// ```

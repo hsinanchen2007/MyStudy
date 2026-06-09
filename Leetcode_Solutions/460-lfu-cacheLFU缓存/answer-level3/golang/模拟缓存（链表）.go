@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type node struct{
     val int
     key int
@@ -106,4 +106,4 @@ func todo(head *node,n *node){
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

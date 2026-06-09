@@ -1,9 +1,9 @@
-golang解决
+// golang解决
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 时间复杂度：O(1)  空间复杂度：O(1)
 
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {
@@ -15,4 +15,4 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 
 	return true
 }
-```
+// ```

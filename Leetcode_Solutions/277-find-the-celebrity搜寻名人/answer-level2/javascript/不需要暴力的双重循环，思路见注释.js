@@ -1,9 +1,9 @@
-### 解题思路
-不需要暴力的双重循环，思路见注释
+// ### 解题思路
+// 不需要暴力的双重循环，思路见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for knows()
  * 
@@ -43,4 +43,4 @@ var solution = function(knows) {
         return index;
     };
 };
-```
+// ```

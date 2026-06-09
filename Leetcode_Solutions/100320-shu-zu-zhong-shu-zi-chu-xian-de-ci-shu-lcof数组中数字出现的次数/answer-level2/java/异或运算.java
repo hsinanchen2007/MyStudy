@@ -1,21 +1,21 @@
-### 解题思路
-这道题充分运用了异或运算的各种性质
-并且学习了提交记录中排第一的优化方案
+// ### 解题思路
+// 这道题充分运用了异或运算的各种性质
+// 并且学习了提交记录中排第一的优化方案
 
-首先要知道异或运算的几个性质
-- 交换律
-- 结合律（即(a^b)^c == a^(b^c)）
-- 对于任何数x，都有x^x=0，x^0=x
-- 自反性 A XOR B XOR B = A xor  0 = A ---> A XOR B = C 则 C XOR B = A
-以上摘自[异或的性质及运用](https://www.cnblogs.com/suoloveyou/archive/2012/04/25/2470292.html)
+// 首先要知道异或运算的几个性质
+// - 交换律
+// - 结合律（即(a^b)^c == a^(b^c)）
+// - 对于任何数x，都有x^x=0，x^0=x
+// - 自反性 A XOR B XOR B = A xor  0 = A ---> A XOR B = C 则 C XOR B = A
+// 以上摘自[异或的性质及运用](https://www.cnblogs.com/suoloveyou/archive/2012/04/25/2470292.html)
 
-具体思路其他题解都说的很明白了，这里就直接结合代码在注释中说明几种性质的运用。
-![image.png](https://pic.leetcode-cn.com/3364b1e194aa4155817ea0eea27d210992176b75cec1c0d613eaa8ce87f57994-image.png)
+// 具体思路其他题解都说的很明白了，这里就直接结合代码在注释中说明几种性质的运用。
+// ![image.png](https://pic.leetcode-cn.com/3364b1e194aa4155817ea0eea27d210992176b75cec1c0d613eaa8ce87f57994-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 假设结果数为A B
     public int[] singleNumbers(int[] nums) {
@@ -52,4 +52,4 @@ class Solution {
         return new int[] {res, x ^ res};
     }
 }
-```
+// ```

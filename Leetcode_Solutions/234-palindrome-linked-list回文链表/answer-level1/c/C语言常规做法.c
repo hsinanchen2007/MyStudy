@@ -1,5 +1,5 @@
-先将链表分成两半（注意处理链表长度为奇数的情况），将其中一个链表反转，再逐个比较两链表的val值。
-```c
+// 先将链表分成两半（注意处理链表长度为奇数的情况），将其中一个链表反转，再逐个比较两链表的val值。
+// ```c
 bool isPalindrome(struct ListNode* head){
     if(head==0||head->next==0) return 1;
     struct ListNode* slow_p=head,* p=head;
@@ -31,9 +31,9 @@ bool isPalindrome(struct ListNode* head){
     }
     return 1;
 }
-```
-以下代码是第一次提交通过的代码，当链表长度为奇数时，复制了一个节点使断开后两链表长度相等，实际上不需要这么做。
-```c
+// ```
+// 以下代码是第一次提交通过的代码，当链表长度为奇数时，复制了一个节点使断开后两链表长度相等，实际上不需要这么做。
+// ```c
 bool isPalindrome(struct ListNode* head){
     if(head==0) return 1;
     struct ListNode* slow_p=head,* p=head;
@@ -70,4 +70,4 @@ bool isPalindrome(struct ListNode* head){
     }
     return 1;
 }
-```
+// ```

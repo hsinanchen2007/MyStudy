@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def getHint(self, secret, guess):
         a=b=0
@@ -12,4 +12,4 @@ class Solution(object):
         for k in s&g:
             b+=min(s[k],g[k])
         return  '{0}A{1}B'.format(a, b-a)
-```
+# ```

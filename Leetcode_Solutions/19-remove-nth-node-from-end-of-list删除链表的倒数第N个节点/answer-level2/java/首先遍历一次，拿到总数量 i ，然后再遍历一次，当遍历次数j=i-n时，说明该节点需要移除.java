@@ -1,6 +1,6 @@
-思路: 首先遍历一次，拿到总数量 i ，然后再遍历一次，当遍历次数j=i-n时，说明该节点需要移除。
+// 思路: 首先遍历一次，拿到总数量 i ，然后再遍历一次，当遍历次数j=i-n时，说明该节点需要移除。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         }
     
 }
-```
+// ```

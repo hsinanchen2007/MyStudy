@@ -1,8 +1,8 @@
-### 二分查找
-这一题很好地满足了二分的要求。1. 有序；2. 求中间解。
+// ### 二分查找
+// 这一题很好地满足了二分的要求。1. 有序；2. 求中间解。
 
-直接暴力AC了，都懒得二分。。。
-```
+// 直接暴力AC了，都懒得二分。。。
+// ```
 /*
  * // This is the custom function interface.
  * // You should not implement it, or speculate about its implementation
@@ -38,4 +38,4 @@ public:
 		return vecAns;
 	}
 };
-```
+// ```

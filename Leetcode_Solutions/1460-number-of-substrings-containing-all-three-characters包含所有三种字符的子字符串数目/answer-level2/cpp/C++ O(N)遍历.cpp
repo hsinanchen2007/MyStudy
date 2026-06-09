@@ -1,10 +1,10 @@
-### 解题思路
-分别使用`next_a[N], next_b[N], next_c[N]`记录当前位置下一个`a/b/c`的位置；
-则以当前位置为起点的所有同时包含`abc`的子串的数目为`N - max(next_a[i], next_b[i], next_c[i])`
+// ### 解题思路
+// 分别使用`next_a[N], next_b[N], next_c[N]`记录当前位置下一个`a/b/c`的位置；
+// 则以当前位置为起点的所有同时包含`abc`的子串的数目为`N - max(next_a[i], next_b[i], next_c[i])`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfSubstrings(string s) {
@@ -30,4 +30,4 @@ public:
         return counter;
     }
 };
-```
+// ```

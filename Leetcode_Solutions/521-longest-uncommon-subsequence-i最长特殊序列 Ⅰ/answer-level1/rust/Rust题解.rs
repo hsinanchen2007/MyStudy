@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn find_lu_slength(a: String, b: String) -> i32 {
         if a == b {
@@ -8,5 +8,5 @@ impl Solution {
         }
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

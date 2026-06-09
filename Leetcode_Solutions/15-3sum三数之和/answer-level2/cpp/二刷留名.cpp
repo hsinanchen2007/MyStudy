@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -43,8 +43,8 @@ public:
         return ans;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
@@ -79,5 +79,5 @@ class Solution:
                         l += 1
             
         return ans
-```
+// ```
 

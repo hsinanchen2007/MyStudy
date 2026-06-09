@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         f_dict = {}
@@ -8,4 +8,4 @@ class Solution:
             else:
                 f_dict[num] += 1
         return max(f_dict, key=f_dict.get)
-```
+# ```

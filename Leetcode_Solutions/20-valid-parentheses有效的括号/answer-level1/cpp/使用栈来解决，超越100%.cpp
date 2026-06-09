@@ -1,9 +1,9 @@
-### 解题思路
-使用栈来解决
+// ### 解题思路
+// 使用栈来解决
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -32,4 +32,4 @@ public:
         else return false;
     }
 };
-```
+// ```

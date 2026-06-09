@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后在两两交换数组值即可。 index + 2 与 index + 1交换。
+// ### 解题思路
+// 先排序，然后在两两交换数组值即可。 index + 2 与 index + 1交换。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void DFSRefreshNums(vector<int>& nums, int index)
@@ -25,4 +25,4 @@ public:
 		DFSRefreshNums(nums, 0);
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-### 1. 使用递归。
+# ### 1. 使用递归。
 
 
-```python []
+# ```python []
 def solve(n):
     if n == 1:
         return "1"
@@ -31,9 +31,9 @@ def solve(n):
 
     
     return res
-```
-### 2. 递归结合itertools.groupBy 
-```python
+# ```
+# ### 2. 递归结合itertools.groupBy 
+# ```python
 import itertools
 
 def it_solve(n):
@@ -45,4 +45,4 @@ def it_solve(n):
         res += str(len(temp))
         res += str(k)
     return res
-```
+# ```

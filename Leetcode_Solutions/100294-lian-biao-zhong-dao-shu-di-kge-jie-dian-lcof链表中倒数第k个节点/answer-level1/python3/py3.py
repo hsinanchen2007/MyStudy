@@ -1,9 +1,9 @@
-### 解题思路
-先测链表长度，找出head应在的节点，直接把该节点设为head
+# ### 解题思路
+# 先测链表长度，找出head应在的节点，直接把该节点设为head
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
         for i in range(l - k):
             head = head.next
         return head
-```
+# ```

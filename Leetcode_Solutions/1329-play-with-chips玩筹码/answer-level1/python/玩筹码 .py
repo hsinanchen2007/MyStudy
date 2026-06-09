@@ -1,9 +1,9 @@
-### 解题思路
-最终思想就是奇偶分组，比较较小值
+# ### 解题思路
+# 最终思想就是奇偶分组，比较较小值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minCostToMoveChips(self, chips):
         #首先以2为间隔将所有能划归到一起的数字分组，最终会分为两组 奇数组和偶数组
@@ -14,4 +14,4 @@ class Solution(object):
             else:
                 odd += 1
         return min(odd,even)
-```
+# ```

@@ -1,33 +1,33 @@
-## 思路:
+# ## 思路:
 
-删除二叉搜索树节点，有三种情况
+# 删除二叉搜索树节点，有三种情况
 
-1. 该节点为叶子节点
+# 1. 该节点为叶子节点
 
-![image-20200324161922790.png](https://pic.leetcode-cn.com/ab7f175812c5f032a988060f06994b34f803328830857ee7ce88d150df5548d1-image-20200324161922790.png)
-
-
-2. 该节点左右只有一个孩子
-
-![image-20200324162000778.png](https://pic.leetcode-cn.com/6f2ddebaa0bd486d6e22c615e74201a721b59d9132d54b07d59324cbd479115b-image-20200324162000778.png)
+# ![image-20200324161922790.png](https://pic.leetcode-cn.com/ab7f175812c5f032a988060f06994b34f803328830857ee7ce88d150df5548d1-image-20200324161922790.png)
 
 
-3. 该节点左右都有孩子
+# 2. 该节点左右只有一个孩子
 
-![image-20200324162057015.png](https://pic.leetcode-cn.com/092472902ca8d406f19445096bbe72fa276e81814292b40cfdb3fe249c3a0838-image-20200324162057015.png)
+# ![image-20200324162000778.png](https://pic.leetcode-cn.com/6f2ddebaa0bd486d6e22c615e74201a721b59d9132d54b07d59324cbd479115b-image-20200324162000778.png)
 
 
-**注意：本文编码都是找右子树最小值来替换的。**
+# 3. 该节点左右都有孩子
 
-思路一：不成熟想法，直接按照上面过程模拟即可；
+# ![image-20200324162057015.png](https://pic.leetcode-cn.com/092472902ca8d406f19445096bbe72fa276e81814292b40cfdb3fe249c3a0838-image-20200324162057015.png)
 
-思路二：利用二叉搜索树的性质，找`key`；两种写法（看代码就能明白！）
 
-## 代码:
+# **注意：本文编码都是找右子树最小值来替换的。**
 
-思路一：不成熟方法
+# 思路一：不成熟想法，直接按照上面过程模拟即可；
 
-```python
+# 思路二：利用二叉搜索树的性质，找`key`；两种写法（看代码就能明白！）
+
+# ## 代码:
+
+# 思路一：不成熟方法
+
+# ```python
 class Solution:
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         dummy = TreeNode(-1)
@@ -75,13 +75,13 @@ class Solution:
 
         dfs(dummy, root)
         return dummy.left
-```
+# ```
 
-思路二：通过二叉搜索树性质
+# 思路二：通过二叉搜索树性质
 
-写法1：
+# 写法1：
 
-```python
+# ```python
 class Solution:
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
 
@@ -120,11 +120,11 @@ class Solution:
             return cur
         
         return delete(root, key)
-```
+# ```
 
-写法2
+# 写法2
 
-```python
+# ```python
 class Solution:
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
 
@@ -141,5 +141,5 @@ class Solution:
                 return root
         
         return delete(root, key, None)
-```
+# ```
 

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:
         # Time complexity: O(M * N) <= O(10 ** 6)
@@ -15,4 +15,4 @@ class Solution:
         for query in queries:
             ans.append(judge(query, pattern))
         return ans
-```
+# ```

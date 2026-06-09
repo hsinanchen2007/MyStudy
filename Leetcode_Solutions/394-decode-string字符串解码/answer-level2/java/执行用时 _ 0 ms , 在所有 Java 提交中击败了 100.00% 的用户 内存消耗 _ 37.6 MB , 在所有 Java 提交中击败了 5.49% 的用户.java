@@ -1,12 +1,12 @@
-1. 分三部分来拼接字符串， part1:第一个k[encodeString]之前的内容, part2:第一个k[encodeString],part3:第一个k[encodeString]之后的内容.
-2. part1 : 用sb来拼接字符串， 对于第一部分来说， 就是indexOf('[') 之前的内容(需要排除数字到tsb,tsb用于获取k值)
-3. part2 : 用part1 得到的k值 递归叠加 decodeString(encodeString)
-4. part3 : sb拼接 剩余的部分的decodeString;
-2
+// 1. 分三部分来拼接字符串， part1:第一个k[encodeString]之前的内容, part2:第一个k[encodeString],part3:第一个k[encodeString]之后的内容.
+// 2. part1 : 用sb来拼接字符串， 对于第一部分来说， 就是indexOf('[') 之前的内容(需要排除数字到tsb,tsb用于获取k值)
+// 3. part2 : 用part1 得到的k值 递归叠加 decodeString(encodeString)
+// 4. part3 : sb拼接 剩余的部分的decodeString;
+// 2
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String decodeString(String s) {
         
@@ -49,4 +49,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

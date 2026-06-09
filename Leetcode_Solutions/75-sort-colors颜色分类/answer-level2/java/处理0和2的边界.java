@@ -1,6 +1,6 @@
 
 
-```
+// ```
     public void sortColors(int[] nums) {
         if (nums == null || nums.length <= 1) {
             return;
@@ -27,4 +27,4 @@
         nums[a] = nums[b];
         nums[b] = tmp;
     }
-```
+// ```

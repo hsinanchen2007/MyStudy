@@ -1,5 +1,5 @@
-C++记忆搜索，map实现python的字典
-```
+// C++记忆搜索，map实现python的字典
+// ```
 class Solution {
 public:
     map<pair<int,int>,vector<TreeNode*>> dic;//dic是一个键为(left,right)左右边界的pair对，值为边界对应的TreeNode*型的数组的字典
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

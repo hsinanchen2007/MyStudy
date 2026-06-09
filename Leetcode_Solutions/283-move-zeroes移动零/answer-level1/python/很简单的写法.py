@@ -1,9 +1,9 @@
-### 解题思路
-很简单的写法，没使用双指针
+# ### 解题思路
+# 很简单的写法，没使用双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         temp, len_ = 0, len(nums)
@@ -14,4 +14,4 @@ class Solution:
                 nums.append(0)
                 continue
             temp += 1
-```
+# ```

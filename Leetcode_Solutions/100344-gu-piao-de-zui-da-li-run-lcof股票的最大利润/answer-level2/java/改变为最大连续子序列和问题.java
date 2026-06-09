@@ -1,14 +1,14 @@
-### 解题思路
-只能买入一次，卖出一次。并且买入在卖出之前。
-数组中索引为    0,1,2...buyIndex...sellIndex...prices.length - 1
-最大利润为      prices[sellIndex] - prices[buyIndex]
-最大利润也可以表示为   sellIndex 与 byIndex 之间的差值之和
-(prices[sellIndex] - prices[sellIndex - 1]) + (prices[sellIndex - 1] - prices[sellIndex - 2]) + ... + (prices[buyIndex + 1] - prices[buyIndex])
-最后就转化为最大连续子序和问题
+// ### 解题思路
+// 只能买入一次，卖出一次。并且买入在卖出之前。
+// 数组中索引为    0,1,2...buyIndex...sellIndex...prices.length - 1
+// 最大利润为      prices[sellIndex] - prices[buyIndex]
+// 最大利润也可以表示为   sellIndex 与 byIndex 之间的差值之和
+// (prices[sellIndex] - prices[sellIndex - 1]) + (prices[sellIndex - 1] - prices[sellIndex - 2]) + ... + (prices[buyIndex + 1] - prices[buyIndex])
+// 最后就转化为最大连续子序和问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length <= 1)
@@ -32,4 +32,4 @@ class Solution {
         return maxSum > 0 ? maxSum :0;
     }
 }
-```
+// ```

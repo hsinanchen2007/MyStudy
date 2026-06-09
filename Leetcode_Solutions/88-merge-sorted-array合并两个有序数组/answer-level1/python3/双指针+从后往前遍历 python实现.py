@@ -1,11 +1,11 @@
-### 解题思路
-双指针+从后往前遍历，直接在nums1上操作
-时间复杂度：O(m+n)
-空间复杂度：O(1)
+# ### 解题思路
+# 双指针+从后往前遍历，直接在nums1上操作
+# 时间复杂度：O(m+n)
+# 空间复杂度：O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -23,4 +23,4 @@ class Solution:
             p-=1
         if j>=0:
             nums1[:j+1]=nums2[:j+1]
-```
+# ```

@@ -1,5 +1,5 @@
-思路：利用集合唯一性，php键值数组
-```php
+// 思路：利用集合唯一性，php键值数组
+// ```php
 class Solution {
 
     /**
@@ -27,4 +27,4 @@ class Solution {
         return $ret;
     }
 }
-```
+// ```

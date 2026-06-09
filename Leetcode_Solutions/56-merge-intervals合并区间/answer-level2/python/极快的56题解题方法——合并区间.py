@@ -1,6 +1,6 @@
 
-直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/94826984
-```py
+# 直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/94826984
+# ```py
 class Solution:
     def merge(self, intervals):
         intervals.sort(key=lambda x: x[0])
@@ -11,4 +11,4 @@ class Solution:
             else:
                 merged[-1][-1] = max(merged[-1][-1], interval[-1])
         return merged
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用字符串自带的api解决空格问题。然后用空格划分每个空格，最后反向添加。
+// ### 解题思路
+// 使用字符串自带的api解决空格问题。然后用空格划分每个空格，最后反向添加。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         if(s.length() == 0)
@@ -24,4 +24,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

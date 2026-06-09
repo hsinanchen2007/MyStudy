@@ -1,13 +1,13 @@
-[207.课程表](https://leetcode-cn.com/problems/course-schedule/submissions/)   
+// [207.课程表](https://leetcode-cn.com/problems/course-schedule/submissions/)   
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
 
-题解参考[大神解答](https://leetcode-cn.com/problems/course-schedule/solution/tuo-bu-pai-xu-by-liweiwei1419/)
+// 题解参考[大神解答](https://leetcode-cn.com/problems/course-schedule/solution/tuo-bu-pai-xu-by-liweiwei1419/)
 
 
-## 拓扑排序
+// ## 拓扑排序
 
-```javascript
+// ```javascript
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites
@@ -49,11 +49,11 @@ var canFinish = function(numCourses, prerequisites) {
     }
     return res.length === numCourses; // 如果拓扑排序的数组结果长度等于给定长度，则满足要求
 };
-```
+// ```
 
-## DFS
+// ## DFS
 
-```javascript
+// ```javascript
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites
@@ -108,4 +108,4 @@ function dfs(i, setArr, marked) {
     marked[i] = 2; // 访问结束，且没有环
     return false;
 }
-```
+// ```

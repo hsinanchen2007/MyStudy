@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstUniqChar(string s) {
@@ -9,6 +9,6 @@ public:
         return -1;
     }
 };
-```
-- 利用哈希表对所有字符计数
-- 遍历字符串返回第一个唯一字符索引
+// ```
+// - 利用哈希表对所有字符计数
+// - 遍历字符串返回第一个唯一字符索引

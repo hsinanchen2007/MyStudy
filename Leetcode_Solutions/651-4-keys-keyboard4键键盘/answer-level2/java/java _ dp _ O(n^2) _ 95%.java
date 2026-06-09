@@ -1,6 +1,6 @@
-dp数组i索引存放操作数为i时，可以得到A的最大数量
+// dp数组i索引存放操作数为i时，可以得到A的最大数量
 
-```
+// ```
 class Solution {
     public int maxA(int N) {
         if(N<=0)
@@ -20,4 +20,4 @@ class Solution {
         return dp[N];
     }
 }
-```
+// ```

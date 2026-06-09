@@ -1,5 +1,5 @@
 
-```swift
+// ```swift
 class Solution {
     func rob(_ nums: [Int]) -> Int {
         var prev = 0
@@ -12,4 +12,4 @@ class Solution {
         return curr
     }
 }
-```
+// ```

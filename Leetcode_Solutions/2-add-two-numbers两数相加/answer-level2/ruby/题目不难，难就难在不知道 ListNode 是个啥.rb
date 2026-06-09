@@ -1,16 +1,16 @@
-### 解题思路
-先摸清楚 ListNode 是啥
-```
+# ### 解题思路
+# 先摸清楚 ListNode 是啥
+# ```
 puts l1
 puts l1.val
 puts l1.next
 puts l1.next.val
-```
-l1，l2 变数组后，反转数组变成整数 `a1.reverse.join().to_i`，相加后再反转，注意最后的结果需要数字数组。
+# ```
+# l1，l2 变数组后，反转数组变成整数 `a1.reverse.join().to_i`，相加后再反转，注意最后的结果需要数字数组。
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # Definition for singly-linked list.
 # class ListNode
 #     attr_accessor :val, :next
@@ -39,4 +39,4 @@ def list_node_to_array(list_node)
   end
   _r
 end
-```
+# ```

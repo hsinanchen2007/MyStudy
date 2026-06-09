@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
         int count = 0;
         for(int i =0 ;i < 32;i++){
@@ -10,7 +10,7 @@ public class Solution {
         return count;
     }
 }
-```
+// ```
 
 
-循环右移n 或者1也行，逐一判断每一位。
+// 循环右移n 或者1也行，逐一判断每一位。

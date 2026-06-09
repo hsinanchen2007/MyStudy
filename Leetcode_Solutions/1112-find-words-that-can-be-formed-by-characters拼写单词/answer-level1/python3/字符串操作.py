@@ -1,5 +1,5 @@
-1. python字符串转数字ord('a')=65  不可直接相减 'a'-'b' 是错误的
-```
+# 1. python字符串转数字ord('a')=65  不可直接相减 'a'-'b' 是错误的
+# ```
 # class Solution:
 #     def countCharacters(self, words: List[str], chars: str) -> int:
         # if not chars:
@@ -42,4 +42,4 @@ class Solution:
         return ans
             
 
-```
+# ```

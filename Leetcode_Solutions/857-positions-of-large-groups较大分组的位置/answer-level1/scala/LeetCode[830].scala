@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def largeGroupPositions(S: String): List[List[Int]] = {
     import scala.collection.mutable.ArrayBuffer
@@ -17,4 +17,4 @@ object Solution {
 
     myArrayBuffer.toList
   }
-```
+// ```

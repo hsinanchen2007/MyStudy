@@ -5,7 +5,7 @@
 
 
 
-```
+// ```
 
 static int dict_index;
 static int maxlen;
@@ -112,4 +112,4 @@ char * findLongestWord(char * s, char ** d, int dSize){
 }
 
 
-```
+// ```

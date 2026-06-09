@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -15,4 +15,4 @@ public:
         while(j >= 0) A[len_A--] = B[j--];  //当B的有效长度比A的长时，最后就直接归入即可
     }
 };
-```
+// ```

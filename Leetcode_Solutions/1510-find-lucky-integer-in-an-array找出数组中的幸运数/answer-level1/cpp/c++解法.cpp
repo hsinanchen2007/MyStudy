@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-遍历数组元素存入以元素大小为key，元素个数为value的unordered_map，然后遍历unordered_map如果map项的key等于value存入一个vector<int>容器，最后根据容器size决定返回容器内vector最大值或-1。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 遍历数组元素存入以元素大小为key，元素个数为value的unordered_map，然后遍历unordered_map如果map项的key等于value存入一个vector<int>容器，最后根据容器size决定返回容器内vector最大值或-1。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
@@ -28,4 +28,4 @@ public:
         }
     }
 };
-```
+// ```

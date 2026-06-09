@@ -1,5 +1,5 @@
-构造一个大小为k的优先队列，将数组里面依次填充进去，剩下的和根节点比较，大就移除根节点并添加进去。最后第一个就是第k大的
-```
+// 构造一个大小为k的优先队列，将数组里面依次填充进去，剩下的和根节点比较，大就移除根节点并添加进去。最后第一个就是第k大的
+// ```
 public int findKthLargest(int[] nums, int k) {
         int result = 0;
         if (nums.length==1){
@@ -21,6 +21,6 @@ public int findKthLargest(int[] nums, int k) {
         }
         return result;
     }
-```
+// ```
 
 

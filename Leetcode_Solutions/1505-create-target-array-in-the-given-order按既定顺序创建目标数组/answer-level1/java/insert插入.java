@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-直接插入操作即可
+// ### 解题思路
+// 此处撰写解题思路
+// 直接插入操作即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         int []temp = new int[nums.length];
@@ -22,4 +22,4 @@ class Solution {
         dataTemp[index] = data;
     }
 }
-```
+// ```

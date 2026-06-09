@@ -1,10 +1,10 @@
-### 解题思路
-就是剑指offer中的数据流的中位数，把两个数组都插入进去
-[具体解题思路](https://blog.csdn.net/liuyuchen282828/article/details/104206135)
+// ### 解题思路
+// 就是剑指offer中的数据流的中位数，把两个数组都插入进去
+// [具体解题思路](https://blog.csdn.net/liuyuchen282828/article/details/104206135)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     priority_queue<int,vector<int>,less<int>> max;
     priority_queue<int,vector<int>,greater<int>> min;
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

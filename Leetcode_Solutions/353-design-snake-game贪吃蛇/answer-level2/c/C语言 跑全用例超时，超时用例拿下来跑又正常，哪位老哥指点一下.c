@@ -1,5 +1,5 @@
-时间关系，队列是裸奔的实现
-```
+// 时间关系，队列是裸奔的实现
+// ```
 #define MAX_SIZE 1000000
 typedef struct {
     int width;
@@ -78,4 +78,4 @@ int snakeGameMove(SnakeGame* obj, char * direction) {
     }
     return 0;
 }
-```
+// ```

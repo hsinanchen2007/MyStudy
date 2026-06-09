@@ -1,9 +1,9 @@
-### 解题思路
-先来一个常规解法。T= O(n^2)。
+// ### 解题思路
+// 先来一个常规解法。T= O(n^2)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int profit = 0;
     int max = 0;
@@ -22,4 +22,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return profit;
 }
-```
+// ```

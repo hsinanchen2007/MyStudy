@@ -1,9 +1,9 @@
-### 解题思路
-python递归 迭代算法
+# ### 解题思路
+# python递归 迭代算法
 
-### 代码
+# ### 代码
 
-```python递归
+# ```python递归
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -58,4 +58,4 @@ class Solution(object):
             print(queue)
         return True
 
-```
+# ```

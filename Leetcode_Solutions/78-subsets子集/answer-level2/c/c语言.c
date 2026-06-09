@@ -1,6 +1,6 @@
-![QQ图片20191220171101.png](https://pic.leetcode-cn.com/82ebcc9851e47f8cc553cd731caec76f5c8bd73aeb639f455d27db040a6e791d-QQ%E5%9B%BE%E7%89%8720191220171101.png)
+// ![QQ图片20191220171101.png](https://pic.leetcode-cn.com/82ebcc9851e47f8cc553cd731caec76f5c8bd73aeb639f455d27db040a6e791d-QQ%E5%9B%BE%E7%89%8720191220171101.png)
 
-```
+// ```
 #define Max 10000
 void search(int *nums,int numsSize,int *returnSize,int**returnColumnSizes,int *digits,int length,int index,int **answer)
 {
@@ -25,4 +25,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
      return answer;
 
 }
-```
+// ```

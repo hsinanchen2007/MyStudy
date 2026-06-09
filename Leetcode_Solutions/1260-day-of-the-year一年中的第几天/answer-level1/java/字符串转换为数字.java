@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    public  int dayOfYear(String date) {
          int[] monthNum={31,28,31,30,31,30,31,31,30,31,30,31};
@@ -15,4 +15,4 @@ class Solution {
         return dayNum;
     }
 }
-```
+// ```

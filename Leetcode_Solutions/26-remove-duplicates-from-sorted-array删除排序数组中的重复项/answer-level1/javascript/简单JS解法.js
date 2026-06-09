@@ -1,10 +1,10 @@
-### 解题思路
-思路很简单，遇到不同的数字则填写到慢指针处，慢指针+1
-最后返回慢指针即可
+// ### 解题思路
+// 思路很简单，遇到不同的数字则填写到慢指针处，慢指针+1
+// 最后返回慢指针即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var removeDuplicates = function(nums) {
   }
   return slow;
 };
-```
+// ```

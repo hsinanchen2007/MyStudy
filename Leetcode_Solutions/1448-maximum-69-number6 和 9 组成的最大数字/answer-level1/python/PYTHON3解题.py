@@ -1,9 +1,9 @@
-### 解题思路
-当找到第一个为6的字符时，得到需要的结果
+# ### 解题思路
+# 当找到第一个为6的字符时，得到需要的结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maximum69Number (self, num: int) -> int:
         num =str(num)
@@ -17,4 +17,4 @@ class Solution:
         return num
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] Exchange(int[] nums) {
         int count1=0,len=nums.Length;
@@ -23,4 +23,4 @@ public class Solution {
         return arr;
     }
 }
-```
+// ```

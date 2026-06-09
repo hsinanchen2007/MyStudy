@@ -1,9 +1,9 @@
-### 解题思路
-位运算 与上题思路一致
+// ### 解题思路
+// 位运算 与上题思路一致
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*位运算 与上题思路一致*/
 class Solution {
 public:
@@ -17,5 +17,5 @@ public:
         return ans;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/3b40b5d6a0328ec9fd346254e79cdeb7b15acee4ffffdd58f6832d0dc838726c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3b40b5d6a0328ec9fd346254e79cdeb7b15acee4ffffdd58f6832d0dc838726c-image.png)

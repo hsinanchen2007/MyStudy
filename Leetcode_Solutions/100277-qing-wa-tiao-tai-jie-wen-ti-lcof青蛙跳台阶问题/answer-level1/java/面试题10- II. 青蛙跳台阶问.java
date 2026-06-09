@@ -1,8 +1,8 @@
-### 解题思路
-反向看问题。
-### 代码
+// ### 解题思路
+// 反向看问题。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n==1||n==2)return n;
@@ -22,4 +22,4 @@ class Solution {
         return 1;
     }
 }
-```
+// ```

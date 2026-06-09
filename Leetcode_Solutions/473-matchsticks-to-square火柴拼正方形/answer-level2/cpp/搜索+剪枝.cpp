@@ -1,9 +1,9 @@
-### 解题思路
-先放大的，这样能更快到终点。
+// ### 解题思路
+// 先放大的，这样能更快到终点。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool makesquare(vector<int>& nums) {
@@ -42,4 +42,4 @@ private:
     bool flag =false;
     int sum = 0;
 };
-```
+// ```

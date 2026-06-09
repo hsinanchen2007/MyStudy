@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct Result{
     int height=0;
     bool bal=false;
@@ -30,4 +30,4 @@ public:
         return helper(root).bal;
     }
 };
-```
+// ```

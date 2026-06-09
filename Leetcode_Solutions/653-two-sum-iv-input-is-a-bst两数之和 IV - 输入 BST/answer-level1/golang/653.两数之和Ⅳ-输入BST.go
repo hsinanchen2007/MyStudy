@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-遍历树，用哈希表存储遍历过的元素，若找到表中元素与当前元素相加等于k，则返回true，否则将当前元素加入哈希表。
+// 遍历树，用哈希表存储遍历过的元素，若找到表中元素与当前元素相加等于k，则返回true，否则将当前元素加入哈希表。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -27,4 +27,4 @@ func find(root *TreeNode,k int,hash map[int]int) bool {
 	hash[root.Val] = 1
 	return find(root.Left,k,hash) || find(root.Right,k,hash)
 }
-```
+// ```

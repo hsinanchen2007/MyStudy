@@ -1,10 +1,10 @@
-### 解题思路
-方法一，使用系统函数 memmove 效率低下
-方法二，使用快慢指针的做法
+// ### 解题思路
+// 方法一，使用系统函数 memmove 效率低下
+// 方法二，使用快慢指针的做法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //方法二，使用双指针，快指针遍历数组，慢指针修改数组
 int removeDuplicates(int* nums, int numsSize){
     int     pSlow   = 0;
@@ -49,4 +49,4 @@ int removeDuplicates(int* nums, int numsSize){
     return iRetNum;
 }
 */
-```
+// ```

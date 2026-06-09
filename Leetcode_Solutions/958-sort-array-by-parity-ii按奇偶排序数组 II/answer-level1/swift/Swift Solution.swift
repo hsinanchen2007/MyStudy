@@ -1,6 +1,6 @@
-Swift给的参数数组是不可变的，所以只能找个笨办法了。。。
+// Swift给的参数数组是不可变的，所以只能找个笨办法了。。。
 
-```
+// ```
 func sortArrayByParityII(_ A: [Int]) -> [Int] {
     var sorted = [Int]()
 
@@ -21,4 +21,4 @@ func sortArrayByParityII(_ A: [Int]) -> [Int] {
 
     return sorted
 }
-```
+// ```

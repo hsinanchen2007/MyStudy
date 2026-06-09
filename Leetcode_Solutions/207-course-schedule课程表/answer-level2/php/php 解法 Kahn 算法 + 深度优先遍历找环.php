@@ -1,5 +1,5 @@
-拓扑排序 Kahn 算法：
-```
+// 拓扑排序 Kahn 算法：
+// ```
 function canFinish($numCourses, $prerequisites) {
     $adj = array_fill(0,$numCourses,[]); // 邻接关系表
     $inDegree = array_fill(0,$numCourses,0); // 统计每个顶点的引入次数
@@ -22,9 +22,9 @@ function canFinish($numCourses, $prerequisites) {
     }
     return count($ans)==$numCourses;
 }
-```
-深度优先遍历找环：
-```
+// ```
+// 深度优先遍历找环：
+// ```
 class Solution {
 
     /**
@@ -55,5 +55,5 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 

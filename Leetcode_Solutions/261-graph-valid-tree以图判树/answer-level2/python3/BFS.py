@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         d = {}
@@ -21,4 +21,4 @@ class Solution:
                     return False
                 q.put((i,s))
         return len(visited)==n
-```
+# ```

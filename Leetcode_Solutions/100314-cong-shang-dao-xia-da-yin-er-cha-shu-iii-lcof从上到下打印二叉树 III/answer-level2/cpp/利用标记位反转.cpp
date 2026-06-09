@@ -1,9 +1,9 @@
-### 解题思路
-与从上到下打印二叉树II相似，不过需要设置一个flag标记，标记是否将v反转即可，用reverse()反转函数。
+// ### 解题思路
+// 与从上到下打印二叉树II相似，不过需要设置一个flag标记，标记是否将v反转即可，用reverse()反转函数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

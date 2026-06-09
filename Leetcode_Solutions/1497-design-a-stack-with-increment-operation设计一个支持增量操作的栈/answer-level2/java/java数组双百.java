@@ -1,6 +1,6 @@
-* 这道题的最优解应该是用数组模拟
-* 只需要维护一个cur指针，一个max指针即可
-```java
+// * 这道题的最优解应该是用数组模拟
+// * 只需要维护一个cur指针，一个max指针即可
+// ```java
 class CustomStack {
     int[] stack;
     int max;
@@ -34,4 +34,4 @@ class CustomStack {
         }
     }
 }
-```
+// ```

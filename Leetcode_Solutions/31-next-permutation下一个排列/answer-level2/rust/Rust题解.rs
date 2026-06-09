@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn next_permutation(nums: &mut Vec<i32>) {
         let len: usize = nums.len();
@@ -22,4 +22,4 @@ impl Solution {
 }
 
 
-```
+// ```

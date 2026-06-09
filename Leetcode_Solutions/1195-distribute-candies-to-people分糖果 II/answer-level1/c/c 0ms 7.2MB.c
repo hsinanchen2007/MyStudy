@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -41,4 +41,4 @@ int * distributeCandies( int candies , int num_people , int * returnSize){
     return buffer;
 
 }
-```
+// ```

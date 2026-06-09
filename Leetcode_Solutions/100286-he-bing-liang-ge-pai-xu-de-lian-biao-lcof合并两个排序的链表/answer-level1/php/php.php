@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-正常的排序，此题较为简单，不加赘述
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 正常的排序，此题较为简单，不加赘述
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return $root->next;
     }
 }
-```
+// ```

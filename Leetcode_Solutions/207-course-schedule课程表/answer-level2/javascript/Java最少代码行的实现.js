@@ -1,11 +1,11 @@
-### 解题思路
-还是拓扑排序。新建
-利用java8 stream减少代码行数。
+// ### 解题思路
+// 还是拓扑排序。新建
+// 利用java8 stream减少代码行数。
 
-js应该可以更少代码。
-### 代码
+// js应该可以更少代码。
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -29,4 +29,4 @@ class Solution {
         return Arrays.stream(nexts).noneMatch(Objects::nonNull);
     }
 }
-```
+// ```

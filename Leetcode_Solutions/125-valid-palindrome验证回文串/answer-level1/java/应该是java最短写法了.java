@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isPalindrome(String s) {
         StringBuffer cs = new StringBuffer();
@@ -10,4 +10,4 @@ class Solution {
         return cs.toString().indexOf(cs.reverse().toString())==0;
     }
 }
-```
+// ```

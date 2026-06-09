@@ -1,4 +1,4 @@
-```
+// ```
 var isValidBST = function(root) {
     let rtn = true;
     if (root) {
@@ -21,4 +21,4 @@ var isValidBST = function(root) {
     }
     return rtn;
 };
-```
+// ```

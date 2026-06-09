@@ -1,8 +1,8 @@
 
-老边界问题了。
-改mid-1还是mid+1，边界处要改等号，递归开始前的范围也要挪动，mid也要向上取整或者向下取整
+// 老边界问题了。
+// 改mid-1还是mid+1，边界处要改等号，递归开始前的范围也要挪动，mid也要向上取整或者向下取整
 
-```
+// ```
 TreeNode* sortedArrayToBST(vector<int>& nums) {
         return build(nums,0,nums.size()-1);
     }
@@ -41,4 +41,4 @@ TreeNode* sortedArrayToBST(vector<int>& nums) {
         cur->right=build(nums,mid+1,right);
         return cur;
 }
-```
+// ```

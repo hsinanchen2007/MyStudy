@@ -1,19 +1,19 @@
-### 解题思路
-思路1：在每次进行push的时候，都使用辅助的队列。使的一个队列里面的元素可以全部按照栈里面先进后出的顺序进行储存；
-1. 插入元素1
-    queue：1
-    temp：null
-2. 插入元素2
-    queue：1             queue：null
-    temp：2     进行转化   temp：2 <- 1(尾部)
-3. 插入元素3
-    queue：3                        queue：3 <- 2 <- 1(尾部)
-    temp：2 <- 1(尾部)     进行转化   temp：null
+// ### 解题思路
+// 思路1：在每次进行push的时候，都使用辅助的队列。使的一个队列里面的元素可以全部按照栈里面先进后出的顺序进行储存；
+// 1. 插入元素1
+//     queue：1
+//     temp：null
+// 2. 插入元素2
+//     queue：1             queue：null
+//     temp：2     进行转化   temp：2 <- 1(尾部)
+// 3. 插入元素3
+//     queue：3                        queue：3 <- 2 <- 1(尾部)
+//     temp：2 <- 1(尾部)     进行转化   temp：null
 
-插入元素的时候，进行上面的重复的操作
-pop(),top()的时候操作那个不为空的队列就可以了
+// 插入元素的时候，进行上面的重复的操作
+// pop(),top()的时候操作那个不为空的队列就可以了
 
-```
+// ```
 class MyStack {
 
 Queue<Integer> queue;
@@ -75,15 +75,15 @@ Queue<Integer> queue;
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```
 
-思路2：在思路1的基础上进行了优化
-一直使用push的时候，操作和思路1是一样的；
-但是，在某一个队列中只有一个元素的时候，如果要出栈，直接将size()为1的进行poll()就可以了，这样简化了一边push,一边pop()是的操作，不用在进行两个队列之间的相互的转化
+// 思路2：在思路1的基础上进行了优化
+// 一直使用push的时候，操作和思路1是一样的；
+// 但是，在某一个队列中只有一个元素的时候，如果要出栈，直接将size()为1的进行poll()就可以了，这样简化了一边push,一边pop()是的操作，不用在进行两个队列之间的相互的转化
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     Queue<Integer> queue;
     Queue<Integer> temp;
@@ -150,4 +150,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

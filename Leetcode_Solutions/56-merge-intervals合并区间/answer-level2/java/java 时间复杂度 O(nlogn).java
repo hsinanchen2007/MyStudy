@@ -1,4 +1,4 @@
-```
+// ```
 public int[][] merge(int[][] intervals) {
         if (intervals == null || intervals.length == 0 || intervals[0].length == 0)
             return new int[0][0];
@@ -41,4 +41,4 @@ public int[][] merge(int[][] intervals) {
             this.num2 = num2;
         }
     }
-```
+// ```

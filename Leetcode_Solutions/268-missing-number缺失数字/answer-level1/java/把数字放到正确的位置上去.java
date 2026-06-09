@@ -1,9 +1,9 @@
-### 解题思路
-如果当前位置的数字与下标不同，则把它换到正确的位置上去，最后位置不对的那个就是缺的数字
+// ### 解题思路
+// 如果当前位置的数字与下标不同，则把它换到正确的位置上去，最后位置不对的那个就是缺的数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         if (nums == null) {
@@ -27,4 +27,4 @@ class Solution {
         return nums.length;
     }
 }
-```
+// ```

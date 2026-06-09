@@ -1,7 +1,7 @@
-## 思路
-图深度优先搜索。
-## 代码
-```c++
+// ## 思路
+// 图深度优先搜索。
+// ## 代码
+// ```c++
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

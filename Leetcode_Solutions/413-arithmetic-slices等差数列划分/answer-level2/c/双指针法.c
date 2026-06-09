@@ -1,10 +1,10 @@
-### 解题思路
-1. 用一个n维数组盛放数组A的两两差值（数组索引从 1：n-1）
-2. 用left,right指针，来找到差值相同的索引范围，然后计算结果即可
+// ### 解题思路
+// 1. 用一个n维数组盛放数组A的两两差值（数组索引从 1：n-1）
+// 2. 用left,right指针，来找到差值相同的索引范围，然后计算结果即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int caculate(int x){
@@ -30,4 +30,4 @@ int numberOfArithmeticSlices(int* A, int ASize){
     }
     return count;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-cache数组类型为{value, freq}[]
-没有实现O(1), 看官解尝试了一波也无果..现在使用的方式思路简单, 先行记录, 好在内存消耗100%了😂
-重点在根据freq更新列表顺序上, 这里使用了findIndex的数组原生方法, 找到第一个小于等于该item.freq的index, 插入即可.
-### 代码
+// ### 解题思路
+// cache数组类型为{value, freq}[]
+// 没有实现O(1), 看官解尝试了一波也无果..现在使用的方式思路简单, 先行记录, 好在内存消耗100%了😂
+// 重点在根据freq更新列表顺序上, 这里使用了findIndex的数组原生方法, 找到第一个小于等于该item.freq的index, 插入即可.
+// ### 代码
 
-```javascript
+// ```javascript
 
 /**
  * @param {number} capacity
@@ -83,4 +83,4 @@ LFUCache.prototype.put = function(key, value) {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```

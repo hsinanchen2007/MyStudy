@@ -1,5 +1,5 @@
-个人的笨方法，写完比赛都结束了。太菜了
-```
+// 个人的笨方法，写完比赛都结束了。太菜了
+// ```
     public String[] permute(String S) {
         S = S.replaceAll(",", "");
 
@@ -78,4 +78,4 @@
 
         return res;
     }
-```
+// ```

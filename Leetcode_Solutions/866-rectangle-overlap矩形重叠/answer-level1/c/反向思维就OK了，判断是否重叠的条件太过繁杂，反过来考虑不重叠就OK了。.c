@@ -1,9 +1,9 @@
-### 解题思路
-不定义X1,Y1之类的也可以。我是因为刚开始正向考虑条件的时候为了清晰思路加的。
+// ### 解题思路
+// 不定义X1,Y1之类的也可以。我是因为刚开始正向考虑条件的时候为了清晰思路加的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size)
 {
 
@@ -17,4 +17,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size)
     return true;
 
 }
-```
+// ```

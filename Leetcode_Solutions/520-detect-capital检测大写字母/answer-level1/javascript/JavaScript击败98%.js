@@ -1,4 +1,4 @@
-```
+// ```
 var detectCapitalUse = function(word) {
   if(word.toUpperCase() == word|| word.toLowerCase() == word) {
       return true;
@@ -19,4 +19,4 @@ var detectCapitalUse = function(word) {
       }
   }
 };
-```
+// ```

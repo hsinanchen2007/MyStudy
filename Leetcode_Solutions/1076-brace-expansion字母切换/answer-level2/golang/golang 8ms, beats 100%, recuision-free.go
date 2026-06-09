@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 type Node struct {
@@ -58,4 +58,4 @@ func expand(S string) []string {
 	}
 	return o
 }
-```
+// ```

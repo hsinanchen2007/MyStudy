@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gcdOfStrings(str1 string, str2 string) string {
     if str1 + str2 != str2 + str1 {
         return ""
@@ -17,4 +17,4 @@ func gcdOfStrings(str1 string, str2 string) string {
     }
     return str1[:b]
 }
-```
+// ```

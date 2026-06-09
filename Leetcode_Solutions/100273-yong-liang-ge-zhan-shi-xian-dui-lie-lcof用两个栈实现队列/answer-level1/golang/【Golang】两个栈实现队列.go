@@ -1,8 +1,8 @@
-**栈:先进后出     队列：先进先出**
+// **栈:先进后出     队列：先进先出**
 
---执行时间：248 ms --消耗内存：8.1 MB
+// --执行时间：248 ms --消耗内存：8.1 MB
 
-```go
+// ```go
 type CQueue struct {
     //栈in负责输入，栈out负责从头输出
     in []int
@@ -50,4 +50,4 @@ func (this *CQueue) DeleteHead() int {
  * obj.AppendTail(value);
  * param_2 := obj.DeleteHead();
  */
-```
+// ```

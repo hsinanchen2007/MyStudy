@@ -1,10 +1,10 @@
-### 解题思路
-1. 出现次数超过一半的数一定是中位数, 使用快速选择法找出多数元素, 但最坏情况O(n^2), 超时
-2. 摩尔投票法
+# ### 解题思路
+# 1. 出现次数超过一半的数一定是中位数, 使用快速选择法找出多数元素, 但最坏情况O(n^2), 超时
+# 2. 摩尔投票法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         # 1. partition超时
@@ -63,4 +63,4 @@ class Solution:
                     count += 1
         return res if count > len(nums) // 2 else -1
         
-```
+# ```

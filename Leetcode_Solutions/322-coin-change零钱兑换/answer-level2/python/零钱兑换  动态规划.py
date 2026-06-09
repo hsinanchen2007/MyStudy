@@ -1,9 +1,9 @@
-### 解题思路
-num(amount) = num(amount-c) + 1
+# ### 解题思路
+# num(amount) = num(amount-c) + 1
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def coinChange(self, coins, amount):
         if not coins:return -1
@@ -17,4 +17,4 @@ class Solution(object):
             else:dp[i] = min(ans)
             ans = []
         return dp[-1]
-```
+# ```

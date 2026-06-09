@@ -1,7 +1,7 @@
-第一个递归是遍历A树。
-第二个递归是判断两棵树是否相同。
+// 第一个递归是遍历A树。
+// 第二个递归是判断两棵树是否相同。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return hasSubStructure(A->left, B->left) && hasSubStructure(A->right, B->right);
     }
 };
-```
+// ```

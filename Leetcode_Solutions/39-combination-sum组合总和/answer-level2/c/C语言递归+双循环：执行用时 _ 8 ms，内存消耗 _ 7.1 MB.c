@@ -1,11 +1,11 @@
-### 解题思路
-算法：外层循环（递归（内层循环））
-1、外层循环控制元素个数，递减；
-2、递归+内层循环，遍历所有组合。
+// ### 解题思路
+// 算法：外层循环（递归（内层循环））
+// 1、外层循环控制元素个数，递减；
+// 2、递归+内层循环，遍历所有组合。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -63,4 +63,4 @@ int** combinationSum(int* candidates, int candidatesSize, int target, int* retur
 
     return g_result;
 }
-```
+// ```

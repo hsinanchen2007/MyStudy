@@ -1,6 +1,6 @@
-*方法一：*
-前序遍历，找出根节点到叶子节点的所有路径，再进行每条路径求和判断，该方法直观，空间复杂度高，O(n),n为叶子节点的个数
-```
+# *方法一：*
+# 前序遍历，找出根节点到叶子节点的所有路径，再进行每条路径求和判断，该方法直观，空间复杂度高，O(n),n为叶子节点的个数
+# ```
 def hasPathSum(self, root, sum_):
         """
         :type root: TreeNode
@@ -27,8 +27,8 @@ def hasPathSum(self, root, sum_):
             return True
         else:
             return False
-```
-```
+# ```
+# ```
  class Solution {
         List<List<Integer>> list = new ArrayList<>();
         ArrayList<Integer> inner = new ArrayList<>();
@@ -48,13 +48,13 @@ def hasPathSum(self, root, sum_):
             return list;
         }
     }
-```
+# ```
 
 
-*方法二：*
-优化空间复杂度,直接每次缓存求和每一条路径，若存在该和的路径，则返回True
+# *方法二：*
+# 优化空间复杂度,直接每次缓存求和每一条路径，若存在该和的路径，则返回True
 
-```
+# ```
 def hasPathSum(self, root, sum_):
         """
         :type root: TreeNode
@@ -77,12 +77,12 @@ def hasPathSum(self, root, sum_):
         self.flag = False
         search(root,0)
         return self.flag
-```
+# ```
 
 
-*方法三：*
-将上述递归方法，用栈迭代实现，每个节点存储从根节点到该节点的和
-```
+# *方法三：*
+# 将上述递归方法，用栈迭代实现，每个节点存储从根节点到该节点的和
+# ```
 def hasPathSum(self, root, sum_):
         """
         :type root: TreeNode
@@ -108,11 +108,11 @@ def hasPathSum(self, root, sum_):
                     stacks.append((node.right,route_sum))
 
         return False
-```
-扩展：
-从上至下的路径，任意节点开始，至任意节点结束，找到路径和与指定值相等的所有路径
+# ```
+# 扩展：
+# 从上至下的路径，任意节点开始，至任意节点结束，找到路径和与指定值相等的所有路径
 
-```
+# ```
 def pathSum(self, root, sum):
         """
         :type root: TreeNode
@@ -164,5 +164,5 @@ def pathSum(self, root, sum):
                 stack.append((node.right,arr))
         
         return res
-```
+# ```
 

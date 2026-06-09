@@ -1,11 +1,11 @@
-### 解题思路
-1. 先分别统计两个链表的长度，la, lb
-2. 分别让两个指针指向链表的开头，让较长的链表指针先走abs(la - lb）步
-3. 让两个指针同时走，如果指针指向相同节点，返回该节点。若走到最后无相同节点，返回None
+# ### 解题思路
+# 1. 先分别统计两个链表的长度，la, lb
+# 2. 分别让两个指针指向链表的开头，让较长的链表指针先走abs(la - lb）步
+# 3. 让两个指针同时走，如果指针指向相同节点，返回该节点。若走到最后无相同节点，返回None
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution(object):
             nodeA = nodeA.next
             nodeB = nodeB.next
         return None
-```
+# ```

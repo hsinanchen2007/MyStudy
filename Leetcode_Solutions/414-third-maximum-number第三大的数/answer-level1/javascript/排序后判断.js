@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var thirdMax = function(nums) {
     nums = [...new Set(nums)].sort((a, b) => a - b)
     console.log(nums)
@@ -10,6 +10,6 @@ var thirdMax = function(nums) {
         return Math.max(...nums)
     }
 };
-```
-时间复杂度：O(n log n)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n log n)
+// 空间复杂度：O(1)

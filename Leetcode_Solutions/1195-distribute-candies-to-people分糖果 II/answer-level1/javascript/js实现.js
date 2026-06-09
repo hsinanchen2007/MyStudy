@@ -1,5 +1,5 @@
 
-```
+// ```
 //解法1：
 var distributeCandies = function (candies, num_people) {
     let ans = new Array(num_people).fill(0);
@@ -35,4 +35,4 @@ var distributeCandies = function (candies, num_people) {
     }
     res[cols] += r //remaining 🍬
     return res
-```
+// ```

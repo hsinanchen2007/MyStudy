@@ -1,9 +1,9 @@
-### 解题思路
-在所有可能溢出的地方做判断，用绝对值计算结果
+// ### 解题思路
+// 在所有可能溢出的地方做判断，用绝对值计算结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int divide(int dividend, int divisor) {
         if(dividend==0){
@@ -68,4 +68,4 @@ class Solution {
         return count+div(y-tempx,x);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-java回溯算法实现
+// ### 解题思路
+// java回溯算法实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> solveNQueens(int n) {
         // 初始化棋盘，赋初值
@@ -84,4 +84,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-这题有点不严谨，因为可以用Math.sqrt()和parseInt()实现。
+// 这题有点不严谨，因为可以用Math.sqrt()和parseInt()实现。
 ***
 > return parseInt(Math.sqrt(x));
 ***

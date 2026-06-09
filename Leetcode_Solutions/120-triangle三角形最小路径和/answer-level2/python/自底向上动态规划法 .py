@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-dp[i][j]:表示从开始到第i行，第j列最短 路径之和路径
-重叠子问题：
-     dp[i][j] = min(dp[i-1][j-1],dp[i-1][j]) + triangle[i][j]
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# dp[i][j]:表示从开始到第i行，第j列最短 路径之和路径
+# 重叠子问题：
+#      dp[i][j] = min(dp[i-1][j-1],dp[i-1][j]) + triangle[i][j]
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         len_triangle = len(triangle)
@@ -28,4 +28,4 @@ class Solution:
 
         
 
-```
+# ```

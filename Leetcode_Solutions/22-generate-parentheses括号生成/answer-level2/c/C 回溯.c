@@ -1,9 +1,9 @@
-### 解题思路
-回溯成功的关键是k不能自加，而是在不断回溯的过程加1，而k的值不修改，不然就容易陷入死循环。
-即代码里的k的操作。
-### 代码
+// ### 解题思路
+// 回溯成功的关键是k不能自加，而是在不断回溯的过程加1，而k的值不修改，不然就容易陷入死循环。
+// 即代码里的k的操作。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -45,4 +45,4 @@ char ** generateParenthesis(int n, int* returnSize){
     *returnSize = g_num;
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归+折半，请参考详细代码
+// ### 解题思路
+// 递归+折半，请参考详细代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
         if(nums.length==0){
@@ -38,4 +38,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

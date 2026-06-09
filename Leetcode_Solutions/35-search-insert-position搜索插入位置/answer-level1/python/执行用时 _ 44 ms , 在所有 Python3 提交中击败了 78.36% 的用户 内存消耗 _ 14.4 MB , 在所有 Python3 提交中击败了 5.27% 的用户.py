@@ -1,9 +1,9 @@
-### 解题思路
-5分钟搞定
+# ### 解题思路
+# 5分钟搞定
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if target in nums:
@@ -18,4 +18,4 @@ class Solution:
                 for i in range(len(nums)-1):
                     if target>nums[i] and target <nums[i+1]:
                         return i+1
-```
+# ```

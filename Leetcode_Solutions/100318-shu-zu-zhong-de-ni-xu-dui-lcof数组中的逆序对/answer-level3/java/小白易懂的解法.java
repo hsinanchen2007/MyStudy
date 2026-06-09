@@ -1,10 +1,10 @@
-### 解题思路
-这道题的本质就是归并排序。大佬已经讲解了归并排序和这道题目的解法。
-https://zhuanlan.zhihu.com/p/107280674
+// ### 解题思路
+// 这道题的本质就是归并排序。大佬已经讲解了归并排序和这道题目的解法。
+// https://zhuanlan.zhihu.com/p/107280674
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int count=0;
     public int reversePairs(int[] nums) {
@@ -45,4 +45,4 @@ class Solution {
         }
     }
 }
-```
+// ```

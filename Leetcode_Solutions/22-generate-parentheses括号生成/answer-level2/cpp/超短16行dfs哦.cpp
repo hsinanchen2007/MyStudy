@@ -1,8 +1,8 @@
-### 解题思路
-超短的dfs哦
-### 代码
+// ### 解题思路
+// 超短的dfs哦
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string>ans;
@@ -19,4 +19,4 @@ public:
             dfs(t+1,v+1,s+'(',n);
     }
 };
-```
+// ```

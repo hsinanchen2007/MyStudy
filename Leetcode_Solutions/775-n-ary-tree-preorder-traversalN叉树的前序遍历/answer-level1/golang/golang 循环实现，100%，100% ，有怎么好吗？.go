@@ -1,12 +1,12 @@
-### 解题思路
-自己维护栈，尽然结果如此好
+// ### 解题思路
+// 自己维护栈，尽然结果如此好
 
-![WX20200329-122527@2x.png](https://pic.leetcode-cn.com/3808825964f68df071c3fe811d4650e819e44be696c762621b32a8d605798579-WX20200329-122527@2x.png)
+// ![WX20200329-122527@2x.png](https://pic.leetcode-cn.com/3808825964f68df071c3fe811d4650e819e44be696c762621b32a8d605798579-WX20200329-122527@2x.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -48,4 +48,4 @@ func preorder(root *Node) []int {
 
     return r
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 public int subarraysWithKDistinct(int[] A, int K) {
         Map<Integer, Integer> m = new HashMap<>();//int->count
         int res = 0, dp = 1, p = 0;
@@ -21,4 +21,4 @@ public int subarraysWithKDistinct(int[] A, int K) {
         }
         return res;
     }
-```
+// ```

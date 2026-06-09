@@ -1,8 +1,8 @@
-### 解题思路
-使用快慢指针，慢指针走一格，快指针走两格。快指针遍历完，返回慢指针。注意边界情况和初始情况的处理。
-### 代码
+// ### 解题思路
+// 使用快慢指针，慢指针走一格，快指针走两格。快指针遍历完，返回慢指针。注意边界情况和初始情况的处理。
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -30,4 +30,4 @@ func middleNode(head *ListNode) *ListNode {
     return SlowPointer.Next
 
 }
-```
+// ```

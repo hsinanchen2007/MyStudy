@@ -1,10 +1,10 @@
-### 解题思路
-1. $j按照顺序在$nums塞非零数据；
-2. $i != $j 时，将$nums[$i] 置为0；
+// ### 解题思路
+// 1. $j按照顺序在$nums塞非零数据；
+// 2. $i != $j 时，将$nums[$i] 置为0；
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
     /**
      * @param Integer[] $nums
@@ -24,4 +24,4 @@ class Solution {
         return $nums;
     }
 }
-```
+// ```

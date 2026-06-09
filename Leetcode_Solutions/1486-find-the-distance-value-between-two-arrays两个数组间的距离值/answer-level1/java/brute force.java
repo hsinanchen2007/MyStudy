@@ -1,9 +1,9 @@
-### 解题思路
-令count = arr1.length，循环，只要有一个元素不符合条件，count--，最后返回count
+// ### 解题思路
+// 令count = arr1.length，循环，只要有一个元素不符合条件，count--，最后返回count
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
         int count = arr1.length;
@@ -18,4 +18,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

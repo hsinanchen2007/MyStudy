@@ -1,9 +1,9 @@
-### 解题思路
-双手指位置和当前字符位置 的最优解 和 之前的状态是独立的
+// ### 解题思路
+// 双手指位置和当前字符位置 的最优解 和 之前的状态是独立的
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int,int>;
 
 class Board{
@@ -84,4 +84,4 @@ public class Solution {
         return b.MinimumDistance(word);
     }
 }
-```
+// ```

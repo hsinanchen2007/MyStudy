@@ -1,30 +1,30 @@
-### 解题思路
-序列化，例如 python 的 pickle 模块 
-我之前也在纠结这个问题，在做题 [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)时， 看不懂二叉树的测试用例是如何序列化的，所有位置的 null 是否都需要打出来。官方给了分析 [请问 [1, null, 2, 3] 在二叉树测试用例中代表什么](https://support.leetcode-cn.com/hc/kb/article/1194353/)
+# ### 解题思路
+# 序列化，例如 python 的 pickle 模块 
+# 我之前也在纠结这个问题，在做题 [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)时， 看不懂二叉树的测试用例是如何序列化的，所有位置的 null 是否都需要打出来。官方给了分析 [请问 [1, null, 2, 3] 在二叉树测试用例中代表什么](https://support.leetcode-cn.com/hc/kb/article/1194353/)
 
-对于一般二叉树，不带null 的层次遍历，或者不带 null 的先序（中序或者后序）遍历是无法唯一确定一棵树的结构。
+# 对于一般二叉树，不带null 的层次遍历，或者不带 null 的先序（中序或者后序）遍历是无法唯一确定一棵树的结构。
 
-#### 1.带 null 的层次遍历
-1. 序列化有多种不同的形式，这里考虑层次遍历。例如，对于题解实例去掉节点 2 ，层次序列化可以为
-+ [1,null,3,4,5] （我的代码，效果和现在 leetcode 所使用的的相同）
-+ [1,null,3,4,5, null, null, null, null] （[高赞解答](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/solution/liang-chong-jie-fa-by-jason-2-13/)的效果 ，最外层的叶子节点必须使用 null 填充）
-+ [1,null,3,null,null,4,5] or [1,null,3,null,null,4,5,null,null,null,null,null,null,null,null] （堆结构的效果）
-为了实现我的代码的效果，需要对 null 累加进入 data 进行延后处理。这样 1 的左子节点 null 会累加进去，但是 4,5 的子节点的null 不会累加进去。
-
-
-2. 反序列化，对应于上面不同的结构有不同的写法
-+ 在堆结构下， 通过将所有节点（包括使用 null 填充的节点）存放在 list 中，可以使用下标很方便地找到父节点。但对于很深层的稀疏树，可能要耗费大量的额外存储空间，并且反序列化耗时很久。
-+ 之前考虑过在反序列化时，先将我的代码的序列化结果转换为 堆结构的效果，但发现还是超时了。
-+  对于我的代码，和高赞的代码，找到父节点稍微有一点麻烦，这里需要构造一个 queue 队列，代表目前还没有子节点，马上要成为父节点的点，然后 father = queue.pop(0), 一次枚举两个 data 中的元素，分别作为其左孩子和右孩子。
-+ 另外对我的代码，因为 4,5 的 null 子节点在 data 中略去了，为了避免 4,5 的 left 和 right 都变成了野指针，需要在生成 4,5 节点时，就把其 left 和 right 都初始化为 None. 同时我的代码需要判断 i 是否在循环内部增加的过程中超过了 len(data)-1, 因为可能有 例如，例子中 5 变成了 null, 而 null 没有累加进入 data，导致下标超界。
-+ 看讨论区第一高赞的代码突然想到，用上面第二种方法，在反序列化的时候，不用判断 i 是否会超过 len(data)-1。只需要用 queue 非空来控制就可以。
-
-#### 2. 带 null 的先序遍历
+# #### 1.带 null 的层次遍历
+# 1. 序列化有多种不同的形式，这里考虑层次遍历。例如，对于题解实例去掉节点 2 ，层次序列化可以为
+# + [1,null,3,4,5] （我的代码，效果和现在 leetcode 所使用的的相同）
+# + [1,null,3,4,5, null, null, null, null] （[高赞解答](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/solution/liang-chong-jie-fa-by-jason-2-13/)的效果 ，最外层的叶子节点必须使用 null 填充）
+# + [1,null,3,null,null,4,5] or [1,null,3,null,null,4,5,null,null,null,null,null,null,null,null] （堆结构的效果）
+# 为了实现我的代码的效果，需要对 null 累加进入 data 进行延后处理。这样 1 的左子节点 null 会累加进去，但是 4,5 的子节点的null 不会累加进去。
 
 
-### 代码
+# 2. 反序列化，对应于上面不同的结构有不同的写法
+# + 在堆结构下， 通过将所有节点（包括使用 null 填充的节点）存放在 list 中，可以使用下标很方便地找到父节点。但对于很深层的稀疏树，可能要耗费大量的额外存储空间，并且反序列化耗时很久。
+# + 之前考虑过在反序列化时，先将我的代码的序列化结果转换为 堆结构的效果，但发现还是超时了。
+# +  对于我的代码，和高赞的代码，找到父节点稍微有一点麻烦，这里需要构造一个 queue 队列，代表目前还没有子节点，马上要成为父节点的点，然后 father = queue.pop(0), 一次枚举两个 data 中的元素，分别作为其左孩子和右孩子。
+# + 另外对我的代码，因为 4,5 的 null 子节点在 data 中略去了，为了避免 4,5 的 left 和 right 都变成了野指针，需要在生成 4,5 节点时，就把其 left 和 right 都初始化为 None. 同时我的代码需要判断 i 是否在循环内部增加的过程中超过了 len(data)-1, 因为可能有 例如，例子中 5 变成了 null, 而 null 没有累加进入 data，导致下标超界。
+# + 看讨论区第一高赞的代码突然想到，用上面第二种方法，在反序列化的时候，不用判断 i 是否会超过 len(data)-1。只需要用 queue 非空来控制就可以。
 
-```python3
+# #### 2. 带 null 的先序遍历
+
+
+# ### 代码
+
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -134,4 +134,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.deserialize(codec.serialize(root))
-```
+# ```

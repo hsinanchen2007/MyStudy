@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct Stack{
     int data;
     struct Stack* next;
@@ -71,4 +71,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize){
     myStackFree(obj);
     return returnArray;
 }
-```
+// ```

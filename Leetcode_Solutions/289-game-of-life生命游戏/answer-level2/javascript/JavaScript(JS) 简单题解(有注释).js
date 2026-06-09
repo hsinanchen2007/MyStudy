@@ -1,13 +1,13 @@
-![Snipaste_2020-04-02_17-00-31.png](https://pic.leetcode-cn.com/ad76d7b112f80af013bc816e7cbff0cb278ef31f093f13df386910efbf0a5aad-Snipaste_2020-04-02_17-00-31.png)
-### 解题思路
-如果顺序遍历数组，改变了前面元素的状态，也会影响到后续的判断。
-本题的关键：**记录元素的状态变化又不影响其他元素的判断**。
-由此可以得出两种可行的思路：
+// ![Snipaste_2020-04-02_17-00-31.png](https://pic.leetcode-cn.com/ad76d7b112f80af013bc816e7cbff0cb278ef31f093f13df386910efbf0a5aad-Snipaste_2020-04-02_17-00-31.png)
+// ### 解题思路
+// 如果顺序遍历数组，改变了前面元素的状态，也会影响到后续的判断。
+// 本题的关键：**记录元素的状态变化又不影响其他元素的判断**。
+// 由此可以得出两种可行的思路：
 
-### 代码
-**方法一**：拷贝数组作为备份，不修改备份，把备份作为判断原数组每个元素的状态的依据。
-时间复杂度：O(mn)，空间复杂度：O(mn)
-```javascript
+// ### 代码
+// **方法一**：拷贝数组作为备份，不修改备份，把备份作为判断原数组每个元素的状态的依据。
+// 时间复杂度：O(mn)，空间复杂度：O(mn)
+// ```javascript
 var gameOfLife = function (board) {
     if (!board.length) return
 
@@ -56,12 +56,12 @@ var gameOfLife = function (board) {
         }
     }
 };
-```
+// ```
 
-**方法二**：不使用额外空间，用更复杂的状态设计来记录状态变化。
-时间复杂度：O(mn)，空间复杂度：O(1)
+// **方法二**：不使用额外空间，用更复杂的状态设计来记录状态变化。
+// 时间复杂度：O(mn)，空间复杂度：O(1)
 
-```javascript
+// ```javascript
 var gameOfLife = function (board) {
     if (!board.length) return
 
@@ -106,6 +106,6 @@ var gameOfLife = function (board) {
         }
     }
 };
-```
-![扫码_搜索联合传播样式-标准色版.png](https://pic.leetcode-cn.com/63c5ca01205e43b180036837eaf12616fd7536efbf258fb816c7868f7b7206be-%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)
+// ```
+// ![扫码_搜索联合传播样式-标准色版.png](https://pic.leetcode-cn.com/63c5ca01205e43b180036837eaf12616fd7536efbf258fb816c7868f7b7206be-%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)
 

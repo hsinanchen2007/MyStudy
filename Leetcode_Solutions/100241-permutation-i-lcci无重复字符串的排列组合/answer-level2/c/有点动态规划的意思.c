@@ -1,11 +1,11 @@
-### 解题思路
-深度优先+贪心。每一层用for循环对已有字符串逐个位置插入新字符，构造全部可能组合。
+// ### 解题思路
+// 深度优先+贪心。每一层用for循环对已有字符串逐个位置插入新字符，构造全部可能组合。
 
-![image.png](https://pic.leetcode-cn.com/bc6493e40c6d3dc2b2f7a432de68035bc59d1b0c923d5846a386add23369ca11-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bc6493e40c6d3dc2b2f7a432de68035bc59d1b0c923d5846a386add23369ca11-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char **list;
 int cnt;
 void proc(char *old, int len, char *add)
@@ -40,4 +40,4 @@ char **permutation(char *S, int *returnSize)
 	*returnSize = cnt;
 	return list;
 }
-```
+// ```

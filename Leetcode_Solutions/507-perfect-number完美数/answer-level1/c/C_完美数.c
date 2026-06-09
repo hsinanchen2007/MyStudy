@@ -1,9 +1,9 @@
-### 解题思路
-从0-n一个个查下去会导致超时
+// ### 解题思路
+// 从0-n一个个查下去会导致超时
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkPerfectNumber(int num)
 {
         if (num <= 0)
@@ -18,4 +18,4 @@ bool checkPerfectNumber(int num)
             }
         return sum - num == num;
 }
-```
+// ```

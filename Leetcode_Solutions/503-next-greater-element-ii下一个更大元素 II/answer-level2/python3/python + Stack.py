@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         # Time complexity : O(N)
@@ -16,4 +16,4 @@ class Solution:
                 res[stack[-1]] = num
                 stack.pop()
         return res
-```
+# ```

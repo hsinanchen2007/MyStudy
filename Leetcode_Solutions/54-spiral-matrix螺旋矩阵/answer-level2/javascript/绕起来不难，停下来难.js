@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b29d1d4d7c1d544ac7c41fd74f59cf07032bd3a55f86b6648567b208db99b4e3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b29d1d4d7c1d544ac7c41fd74f59cf07032bd3a55f86b6648567b208db99b4e3-image.png)
 
-“中止循环”的条件想了一会，不高兴想了，直接判断总数量然后break，代码看上去啰嗦所以速度也不快。
+// “中止循环”的条件想了一会，不高兴想了，直接判断总数量然后break，代码看上去啰嗦所以速度也不快。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -40,4 +40,4 @@ var spiralOrder = function(matrix) {
     }
     return arr;
 };
-```
+// ```

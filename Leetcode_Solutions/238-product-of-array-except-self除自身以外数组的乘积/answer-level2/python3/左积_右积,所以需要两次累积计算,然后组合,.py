@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def productExceptSelf(self, nums):
         nums_rev=reversed(nums)
@@ -10,5 +10,5 @@ class Solution:
             b*=j
         lb.reverse()
         return [i*j for i,j in zip(la,lb)]
-```
+# ```
 

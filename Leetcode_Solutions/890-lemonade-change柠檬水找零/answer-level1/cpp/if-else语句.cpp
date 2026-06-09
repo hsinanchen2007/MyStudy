@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/68db623021df73ce239e3d44f9ae37a93f068bc31e02dd94162f43e43d159749-image.png)
+// ![image.png](https://pic.leetcode-cn.com/68db623021df73ce239e3d44f9ae37a93f068bc31e02dd94162f43e43d159749-image.png)
 
-```
+// ```
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
@@ -41,4 +41,4 @@ public:
 		return 1;
     }
 };
-```
+// ```

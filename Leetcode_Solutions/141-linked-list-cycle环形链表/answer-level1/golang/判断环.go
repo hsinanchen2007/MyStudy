@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针
+// ### 解题思路
+// 快慢指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -31,4 +31,4 @@ func hasCycle(head *ListNode) bool {
     }
     return false
 }
-```
+// ```

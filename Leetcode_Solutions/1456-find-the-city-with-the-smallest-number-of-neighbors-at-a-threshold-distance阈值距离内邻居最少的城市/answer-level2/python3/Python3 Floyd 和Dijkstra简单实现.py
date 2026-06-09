@@ -1,10 +1,10 @@
-### 解题思路
-刚学会F和D算法，试试而已。
+# ### 解题思路
+# 刚学会F和D算法，试试而已。
 
-### 代码
+# ### 代码
 
-Floyd 最短路径算法
-```
+# Floyd 最短路径算法
+# ```
 class Solution:
     def findTheCity(self, n: int, edges: List[List[int]], distanceThreshold: int) -> int:
         mat=[[10001 for i in range(n)] for j in range(n)]
@@ -20,11 +20,11 @@ class Solution:
                         mat[i][j]=mat[i][k]+mat[k][j]
                         mat[j][i]=mat[i][j]
         return min(range(n),key=lambda i:(sum([1 for j in range(n) if i!=j and mat[i][j]<=distanceThreshold]),-i))
-```
+# ```
 
 
-Dijkstra 单点N次计算,D算法可以用最小堆优化每次pop,但我用了字典结构，怎么pop还没想好
-```
+# Dijkstra 单点N次计算,D算法可以用最小堆优化每次pop,但我用了字典结构，怎么pop还没想好
+# ```
 class Solution:
     def findTheCity(self, n: int, edges: List[List[int]], distanceThreshold: int) -> int:
         points=collections.defaultdict(list)
@@ -46,4 +46,4 @@ class Solution:
                             out[j]=min(out[j],v+s)
             return home
         return min(range(n),key =lambda i:(len(djs({i:0},{k:v for k,v in points[i]})),-i))
-```
+# ```

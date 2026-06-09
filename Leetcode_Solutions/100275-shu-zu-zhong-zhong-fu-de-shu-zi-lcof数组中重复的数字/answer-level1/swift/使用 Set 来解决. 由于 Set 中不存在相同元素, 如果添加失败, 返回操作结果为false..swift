@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findRepeatNumber(_ nums: [Int]) -> Int {
         var set: Set<Int> = []
@@ -17,4 +17,4 @@ class Solution {
         assert(false, "no repeat numbers")
     }
 }
-```
+// ```

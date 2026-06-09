@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-参考求二叉树的深度--仍旧是递归
+# 参考求二叉树的深度--仍旧是递归
 
-1. list列表添加数据(添加的是root.val)
-2. 注意运用level，进行list添加数据(一层一层地添加数据--广度优先遍历)
-3. 原始定义的返回list为[]，利用list[level].append()会超出list定义范围
+# 1. list列表添加数据(添加的是root.val)
+# 2. 注意运用level，进行list添加数据(一层一层地添加数据--广度优先遍历)
+# 3. 原始定义的返回list为[]，利用list[level].append()会超出list定义范围
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             return max(left, right)
         list_levelOrder(root, 0)
         return level_list
-```
+# ```

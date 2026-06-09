@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         len_text1 = len(text1)
@@ -18,4 +18,4 @@ class Solution:
                     dp[i][j] = max(dp[i-1][j],dp[i][j-1])
 
         return dp[len_text1][len_text2]
-```
+# ```

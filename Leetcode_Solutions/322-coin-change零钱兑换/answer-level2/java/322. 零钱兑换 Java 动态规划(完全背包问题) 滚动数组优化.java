@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * 动态规划 完全背包
  * f[i][j] 表示前 i 种硬币最少多少枚能够凑出 j 的面额
@@ -21,4 +21,4 @@ class Solution {
         return f[amount] == 0x3f3f3f3f ? -1 : f[amount];
     }
 }
-```
+// ```

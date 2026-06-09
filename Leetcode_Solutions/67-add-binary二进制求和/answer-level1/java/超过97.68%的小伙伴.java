@@ -1,13 +1,13 @@
-### 解题思路
-方法：
-    分为两种情况：
-            1.当a和b都还有值时，通过while和并，通过取余和除控制增量和当前位；
-            2.a或者b种某个值消耗完，通过while调用完所有。
-![image.png](https://pic.leetcode-cn.com/bc264a294e39c52553b4675a4e0c8094e3e9caf14bc73b381fbb20ae79131b29-image.png)
+// ### 解题思路
+// 方法：
+//     分为两种情况：
+//             1.当a和b都还有值时，通过while和并，通过取余和除控制增量和当前位；
+//             2.a或者b种某个值消耗完，通过while调用完所有。
+// ![image.png](https://pic.leetcode-cn.com/bc264a294e39c52553b4675a4e0c8094e3e9caf14bc73b381fbb20ae79131b29-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
                 char[] chara = a.toCharArray();
@@ -42,4 +42,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

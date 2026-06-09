@@ -1,6 +1,6 @@
-官方给的参考答案，跑不过官方给的测试样例，于是改了改，第一次编辑题解，哈哈有点开心
+# 官方给的参考答案，跑不过官方给的测试样例，于是改了改，第一次编辑题解，哈哈有点开心
 
-描述：python 三指针
+# 描述：python 三指针
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """

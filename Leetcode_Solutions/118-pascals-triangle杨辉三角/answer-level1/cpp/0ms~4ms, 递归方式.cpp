@@ -1,5 +1,5 @@
-看题解给的是迭代，这里分享个递归方法，时间空间都还可以
-```
+// 看题解给的是迭代，这里分享个递归方法，时间空间都还可以
+// ```
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -32,4 +32,4 @@ public:
         return;
     }
 };
-```
+// ```

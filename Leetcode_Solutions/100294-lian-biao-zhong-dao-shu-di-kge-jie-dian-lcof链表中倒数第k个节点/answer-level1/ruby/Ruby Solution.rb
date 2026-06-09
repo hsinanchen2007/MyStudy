@@ -1,9 +1,9 @@
-### 解题思路
-用栈存储链表节点，遍历一遍后，返回倒数第k个元素
+# ### 解题思路
+# 用栈存储链表节点，遍历一遍后，返回倒数第k个元素
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # Definition for singly-linked list.
 # class ListNode
 #     attr_accessor :val, :next
@@ -24,4 +24,4 @@ def get_kth_from_end(head, k)
     end    
     stack[-k]  
 end
-```
+# ```

@@ -1,4 +1,4 @@
-```java []
+// ```java []
 public class Solution {  
     public ListNode detectCycle(ListNode head) {
         if(head == null || head.next == null){
@@ -25,8 +25,8 @@ public class Solution {
     }
 }
 
-```
-```java []
+// ```
+// ```java []
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         if(head == null || head.next == null){
@@ -51,4 +51,4 @@ public class Solution {
         return fast;   
     }
 }
-```
+// ```

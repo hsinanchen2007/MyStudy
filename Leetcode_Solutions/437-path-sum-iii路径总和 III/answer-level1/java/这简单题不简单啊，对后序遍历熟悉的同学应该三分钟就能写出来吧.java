@@ -1,17 +1,17 @@
-思路就是：
-从根节点开始，首先计算以根节点开始的路径有多少个（通过后序遍历的方式，遍历所有节点，可以得出）计为sumroot
-对左右子节点，递归，得到sumleft和sumright。
-所以总路径sumall=sumroot+sumleft+sumright。
+// 思路就是：
+// 从根节点开始，首先计算以根节点开始的路径有多少个（通过后序遍历的方式，遍历所有节点，可以得出）计为sumroot
+// 对左右子节点，递归，得到sumleft和sumright。
+// 所以总路径sumall=sumroot+sumleft+sumright。
 
-后序遍历二叉树，用一个cursum表示当前路径和，
-在压栈的时候计算cursum加压入栈节点的值，然后判断是否为目标sum，是就count++
-在出栈的时候，cursum加弹出栈节点的值
+// 后序遍历二叉树，用一个cursum表示当前路径和，
+// 在压栈的时候计算cursum加压入栈节点的值，然后判断是否为目标sum，是就count++
+// 在出栈的时候，cursum加弹出栈节点的值
 
-最后返回count
+// 最后返回count
 
 
-应该没有比我这个更复杂的了吧。
-时间复杂度n2，空间复杂度n
+// 应该没有比我这个更复杂的了吧。
+// 时间复杂度n2，空间复杂度n
 
 
 class Solution {

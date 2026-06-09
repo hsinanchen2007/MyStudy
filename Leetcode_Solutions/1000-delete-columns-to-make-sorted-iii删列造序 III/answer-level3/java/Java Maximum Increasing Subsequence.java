@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int minDeletionSize(String[] A) {
         int m = A.length;
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

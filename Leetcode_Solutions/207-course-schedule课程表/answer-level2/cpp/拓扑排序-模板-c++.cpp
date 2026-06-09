@@ -1,10 +1,10 @@
-### 解题思路
-所谓的边缘列表有点扯，实际就是记录每条边:[end, start]，将其转换成邻接表形式，再用一个队列记录入度，便是套模板了
-具体看注释。。
+// ### 解题思路
+// 所谓的边缘列表有点扯，实际就是记录每条边:[end, start]，将其转换成邻接表形式，再用一个队列记录入度，便是套模板了
+// 具体看注释。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -40,4 +40,4 @@ public:
         return false;
     }
 };
-```
+// ```

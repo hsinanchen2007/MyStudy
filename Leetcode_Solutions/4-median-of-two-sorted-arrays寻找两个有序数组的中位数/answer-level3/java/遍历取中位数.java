@@ -1,9 +1,9 @@
-### 解题思路
-可以不必将两个数组完全遍历完，遍历到中位数下标位置，将中位数取出。不用开辟新的数组，节省空间。
+// ### 解题思路
+// 可以不必将两个数组完全遍历完，遍历到中位数下标位置，将中位数取出。不用开辟新的数组，节省空间。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len1 = nums1.length, len2 = nums2.length;
@@ -61,4 +61,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 // 分治算法，思路参考官方解题方案一
 func beautifulArray(N int) []int {
     // 递归结束条件
@@ -21,4 +21,4 @@ func beautifulArray(N int) []int {
 
 	return sli
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-C# 数组排序 双指针递进比较
+// ### 解题思路
+// C# 数组排序 双指针递进比较
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int SmallestDifference(int[] a, int[] b) {
         Array.Sort(a);
@@ -25,4 +25,4 @@ public class Solution {
         return (int)closest;
     }
 }
-```
+// ```

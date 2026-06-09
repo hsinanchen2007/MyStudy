@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people)
@@ -29,4 +29,4 @@ public:
         return v; // 返回发完糖的小朋友数组
     }
 };
-```
+// ```

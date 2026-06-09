@@ -1,6 +1,6 @@
-  第一次DFS将每个节点的值修改为将指向该点的指针删除后以该点为根节点的二叉树的所有值的总和，显然，叶子节点的值不变。本次DFS结束后，根节点的值赋给变量sum。
-  第二次DFS暴力搜索所有情况，每遍历到一个点，计算（sum-root->val）*root->val，并与max比较，比max大则更新max。
-```
+//   第一次DFS将每个节点的值修改为将指向该点的指针删除后以该点为根节点的二叉树的所有值的总和，显然，叶子节点的值不变。本次DFS结束后，根节点的值赋给变量sum。
+//   第二次DFS暴力搜索所有情况，每遍历到一个点，计算（sum-root->val）*root->val，并与max比较，比max大则更新max。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ int maxProduct(TreeNode* root) {
 	return max%1000000007;
 }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-每次碰撞后，重新排序
+// ### 解题思路
+// 每次碰撞后，重新排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int lastStoneWeight(vector<int>& stones)
@@ -26,4 +26,4 @@ public:
 		return stones[num -1];
 	}
 };
-```
+// ```

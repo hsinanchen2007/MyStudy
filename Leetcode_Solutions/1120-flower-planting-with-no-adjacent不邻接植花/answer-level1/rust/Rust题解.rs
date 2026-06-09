@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn garden_no_adj(n: i32, paths: Vec<Vec<i32>>) -> Vec<i32> {
         let mut answer = vec![0; n as usize];
@@ -28,5 +28,5 @@ impl Solution {
         answer
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

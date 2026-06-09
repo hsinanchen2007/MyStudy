@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int k, int[] prices) {
         //卖出和买入之间要间隔一天，也就是三天之内最多只有一笔交易
@@ -45,4 +45,4 @@ return dp[n - 1][k][0];
         return dp[n-1][0];
     }
 }
-```
+// ```

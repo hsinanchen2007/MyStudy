@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
    
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPerfectSquare(int num){
     long n = 1;
     if (num == 1){
@@ -17,4 +17,4 @@ bool isPerfectSquare(int num){
     }
     return false;
 }
-```
+// ```

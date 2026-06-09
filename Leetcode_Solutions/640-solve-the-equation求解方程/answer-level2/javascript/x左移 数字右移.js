@@ -1,6 +1,6 @@
-#### x左移 数字右移
+// #### x左移 数字右移
 
-```javascript
+// ```javascript
 /**
 * @param {string} equation
 * @return {string}
@@ -81,4 +81,4 @@ var solveEquation = function (equation) {
     }
     return 'x' + '=' + parseInt(totalNum/xCount)
 };
-```
+// ```

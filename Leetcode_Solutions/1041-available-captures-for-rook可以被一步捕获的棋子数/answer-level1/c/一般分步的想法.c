@@ -1,9 +1,9 @@
-### 解题思路
-先找到车的位置，然后搜索车上下左右的四个方向，遇到卒将 count++ 退出搜索，遇到象直接退出搜索，最后返回count
+// ### 解题思路
+// 先找到车的位置，然后搜索车上下左右的四个方向，遇到卒将 count++ 退出搜索，遇到象直接退出搜索，最后返回count
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int count = 0;
     // 找到车的位置并记录i j 的值
@@ -91,4 +91,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
 
     return count;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-代码如下
-确定最大最小值，减小查找区间以节约时间。
+// ### 解题思路
+// 代码如下
+// 确定最大最小值，减小查找区间以节约时间。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean judgeSquareSum(int c) {
         int i = 0,j = (int)Math.sqrt(c);        //i j 为工作指针，i最小为0，j最大为c的平方根
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

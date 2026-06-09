@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/ced3ebaca6b05eb57f5bc3b9da89d3ed32666073ea8ae51d0b1ec33f63734363-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ced3ebaca6b05eb57f5bc3b9da89d3ed32666073ea8ae51d0b1ec33f63734363-image.png)
 
-### 解题思路
-此处撰写解题思路
-使用中心扩散法寻找回文数组，但是回文数组有两种可能，奇数个和偶数个。
-设置两个指针left和right，分别位于对称中心的两边，向两边扩散，中心对称点是重复字符串则当成一个字符处理。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用中心扩散法寻找回文数组，但是回文数组有两种可能，奇数个和偶数个。
+// 设置两个指针left和right，分别位于对称中心的两边，向两边扩散，中心对称点是重复字符串则当成一个字符处理。
+// ### 代码
 
-```c
+// ```c
 char * longestPalindrome(char * s){
     if(strlen(s)==0||strlen(s)==1) return s;
     int i,start,left,right,count,len;
@@ -31,4 +31,4 @@ char * longestPalindrome(char * s){
     s[start + len] = '\0';      // 原地修改返回
     return s + start;
 }
-```
+// ```

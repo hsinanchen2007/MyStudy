@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} height
  * @return {number}
@@ -29,4 +29,4 @@ var trap = function(height) {
     
     return result;
 };
-```
+// ```

@@ -1,6 +1,6 @@
-废话不多说，直接上代码！
+# 废话不多说，直接上代码！
 
-```python []
+# ```python []
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         pos_nums, neg_nums, newList = [], [], []
@@ -30,5 +30,5 @@ class Solution:
 
         half = total_length // 2
         return float(newList[half]) if total_length & 1 else float(newList[half-1] + newList[half])/2
-```
+# ```
 

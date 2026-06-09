@@ -1,10 +1,10 @@
-### 解题思路
-每个Start位置 进行Cache
-使用字符串Hash 作为Key快速比较字符串
+// ### 解题思路
+// 每个Start位置 进行Cache
+// 使用字符串Hash 作为Key快速比较字符串
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int, System.UInt64, System.UInt64>;
 using LHash = System.ValueTuple<int, System.UInt64>;
 class FindWords{
@@ -216,4 +216,4 @@ public class Solution {
         return fw.WordBreak(s, wordDict);
     }
 }
-```
+// ```

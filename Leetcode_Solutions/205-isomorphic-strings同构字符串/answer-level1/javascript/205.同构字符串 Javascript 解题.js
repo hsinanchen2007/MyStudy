@@ -1,11 +1,11 @@
 
-![javascript.jpg](https://pic.leetcode-cn.com/ff1e039df78b6c147338dcd29f1630d0e1b530ba97b52592f6692f126b71e5fe-javascript.jpg)  
+// ![javascript.jpg](https://pic.leetcode-cn.com/ff1e039df78b6c147338dcd29f1630d0e1b530ba97b52592f6692f126b71e5fe-javascript.jpg)  
 
-<br />
+// <br />
 
-- 这道题我的思路是用 map 判断值和索引  
+// - 这道题我的思路是用 map 判断值和索引  
 
-```javascript []
+// ```javascript []
 const isIsomorphic = (s, t) => {
   if (s === t || s === '') return true
   let mapS = new Map(), mapT = new Map()
@@ -18,13 +18,13 @@ const isIsomorphic = (s, t) => {
   }
   return true
 }
-```
+// ```
 
-<br />
+// <br />
 
-- 然而我提交后看到了大佬更加简洁的思路, 利用`indexOf()`第二个参数去寻找后面相同字符的`骚操作`
+// - 然而我提交后看到了大佬更加简洁的思路, 利用`indexOf()`第二个参数去寻找后面相同字符的`骚操作`
 
-```javascript []
+// ```javascript []
 const isIsomorphic = (s, t) => {
   if (s === t || s === '') return true
   for (let i = 0; i < s.length - 1; i++) {
@@ -32,11 +32,11 @@ const isIsomorphic = (s, t) => {
   }
   return true
 }
-```
+// ```
 
-> 思路题解:
+// > 思路题解:
 
-```
+// ```
 第1个栗子: 输入`egg`和`add`
     第一步:
         判断`gg`是否包含`e`, 不包含返回 -1
@@ -47,8 +47,8 @@ const isIsomorphic = (s, t) => {
         判断`d`是否包含`d`, 包含返回 1
         0 === 0
     循环执行完毕, 然后`return true`
-```
-```
+// ```
+// ```
 第2个栗子: 输入`foo`和`bar`
     第一步:
         判断`oo`是否包含`f`, 不包含返回 -1
@@ -59,8 +59,8 @@ const isIsomorphic = (s, t) => {
         判断`r`是否包含`a`, 不包含返回 -1
         1 !== -1
         结束函数并 return false
-```
-```
+// ```
+// ```
 第3个栗子: 输入`paper`和`title`
     第一步:
         判断`aper`是否包含`p`, 包含返回 2
@@ -79,4 +79,4 @@ const isIsomorphic = (s, t) => {
         判断`e`是否包含`l`, 不包含返回 -1
         -1 === -1
     循环执行完毕, 然后`return true`
-```
+// ```

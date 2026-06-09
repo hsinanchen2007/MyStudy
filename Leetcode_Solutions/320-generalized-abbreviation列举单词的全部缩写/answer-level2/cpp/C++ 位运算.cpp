@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> generateAbbreviations(string word) {
@@ -24,7 +24,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/91ca3a7b4aa3a192052ee4c324ef454995908a77e51e5e0f79ab3f1e65a6e329-image.png)
+// ![image.png](https://pic.leetcode-cn.com/91ca3a7b4aa3a192052ee4c324ef454995908a77e51e5e0f79ab3f1e65a6e329-image.png)

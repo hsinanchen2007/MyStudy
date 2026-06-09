@@ -1,9 +1,9 @@
-### 解题思路
-生搬硬套三数之和的思路，只是在外面再加一层循环。用到了Set去重，最后用stream赋值给list
+// ### 解题思路
+// 生搬硬套三数之和的思路，只是在外面再加一层循环。用到了Set去重，最后用stream赋值给list
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -35,4 +35,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

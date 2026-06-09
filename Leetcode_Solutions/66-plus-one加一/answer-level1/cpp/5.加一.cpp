@@ -1,10 +1,10 @@
-### 解题思路
-第一次提交忘了数组全为99的情况 加黑部分是第二次补充的
-vector注意下，动态大小的只需要vector<int> a以及使用a.push_back(x)就可以了
+// ### 解题思路
+// 第一次提交忘了数组全为99的情况 加黑部分是第二次补充的
+// vector注意下，动态大小的只需要vector<int> a以及使用a.push_back(x)就可以了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -29,4 +29,4 @@ public:
        # else return all9;
     }
 };
-```
+// ```

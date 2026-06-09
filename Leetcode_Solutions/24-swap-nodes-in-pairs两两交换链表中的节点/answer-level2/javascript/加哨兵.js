@@ -1,9 +1,9 @@
-### 解题思路
-![IMG_0032.JPG](https://pic.leetcode-cn.com/4ca2f8051f162e6df89c748ff94fe64b9088ccf5f861d670a64b8771bb7091cc-IMG_0032.JPG)
-![IMG_0033.JPG](https://pic.leetcode-cn.com/093a8c2956b29f17ce888b9e6b47058b91b27f5d5b0d2b2f4029cbdff0c5ef45-IMG_0033.JPG)
-### 代码
+// ### 解题思路
+// ![IMG_0032.JPG](https://pic.leetcode-cn.com/4ca2f8051f162e6df89c748ff94fe64b9088ccf5f861d670a64b8771bb7091cc-IMG_0032.JPG)
+// ![IMG_0033.JPG](https://pic.leetcode-cn.com/093a8c2956b29f17ce888b9e6b47058b91b27f5d5b0d2b2f4029cbdff0c5ef45-IMG_0033.JPG)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,4 +29,4 @@ var swapPairs = function(head) {
     }
     return shaob.next // 返回的是最初哨兵的前一个 就是链表头
 };
-```
+// ```

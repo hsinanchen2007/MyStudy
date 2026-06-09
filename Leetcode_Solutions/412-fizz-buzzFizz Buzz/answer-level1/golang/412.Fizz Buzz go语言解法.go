@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-很简单的一道题，循环判断就行了。
+// 很简单的一道题，循环判断就行了。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fizzBuzz(n int) []string {
     var res []string
     for i := 1;i <= n;i++ {
@@ -20,4 +20,4 @@ func fizzBuzz(n int) []string {
     }
     return res
 }
-```
+// ```

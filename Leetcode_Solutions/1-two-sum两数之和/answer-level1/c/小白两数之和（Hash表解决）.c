@@ -1,18 +1,18 @@
- 新手小白，刚开始学习数据结构，借鉴了各路大神的解法，采用hashmap实现两数之和。
-参考文献：
-C语言实现hashmap:[https://blog.csdn.net/u013799749/article/details/75674985]()
+//  新手小白，刚开始学习数据结构，借鉴了各路大神的解法，采用hashmap实现两数之和。
+// 参考文献：
+// C语言实现hashmap:[https://blog.csdn.net/u013799749/article/details/75674985]()
 
-# 解题思路
-实现Two Sum 如果通过暴力法是很容易解决的,若要考虑效率，可以采用hashmap减少查询的时间。
+// # 解题思路
+// 实现Two Sum 如果通过暴力法是很容易解决的,若要考虑效率，可以采用hashmap减少查询的时间。
                  
-- 标签：hash表
-- 采用除留余数法构造hash，将`key`值作为`value`的索引，以`key-value`键值对的方式进行数据存储。
-- 采用链地址法解决冲突，将冲突的hash值链接到链尾。
-- 使用一层`for`循环遍历数组`nuns`，`i`为当前数组的下标，将`target`与遍历的每一个`nums[i]`产生差值,在hashmap中查找是否存在该值，若存在，则返回两个元素所在数组的下标。
-- 时间复杂度:*O*(n)
-- 空间复杂度:*O*(n)
+// - 标签：hash表
+// - 采用除留余数法构造hash，将`key`值作为`value`的索引，以`key-value`键值对的方式进行数据存储。
+// - 采用链地址法解决冲突，将冲突的hash值链接到链尾。
+// - 使用一层`for`循环遍历数组`nuns`，`i`为当前数组的下标，将`target`与遍历的每一个`nums[i]`产生差值,在hashmap中查找是否存在该值，若存在，则返回两个元素所在数组的下标。
+// - 时间复杂度:*O*(n)
+// - 空间复杂度:*O*(n)
 
-```
+// ```
 typedef struct HashData
 {
 	int key;
@@ -138,7 +138,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
 	freeHashMap(hashmap);
 	return res;
 }
-```
+// ```
 
 
 

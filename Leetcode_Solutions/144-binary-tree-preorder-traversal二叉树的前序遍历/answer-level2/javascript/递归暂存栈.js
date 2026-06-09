@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-使用栈保存node
-拿到一个节点，检查是否为null
+// 使用栈保存node
+// 拿到一个节点，检查是否为null
 
- * 非null, 保存值，添加到暂存栈，指向它的left
- * null，则从栈里pop出来一个node，并且指向它的right
-### 代码
+//  * 非null, 保存值，添加到暂存栈，指向它的left
+//  * null，则从栈里pop出来一个node，并且指向它的right
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 迭代的方法
  * 拿到一个节点，检查是否为null
@@ -37,4 +37,4 @@ var preorderTraversal = function (root) {
     }
     return result;
 };
-```
+// ```

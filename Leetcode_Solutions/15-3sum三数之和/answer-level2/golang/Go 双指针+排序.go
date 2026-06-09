@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func threeSum(nums []int) [][]int {
 	var n = len(nums)
 	if n < 3 {
@@ -49,4 +49,4 @@ func threeSum(nums []int) [][]int {
 	}
 	return sum
 }
-```
+// ```

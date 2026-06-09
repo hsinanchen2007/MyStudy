@@ -1,9 +1,9 @@
-### 解题思路
-暂时只想到pop弹出。。。
+# ### 解题思路
+# 暂时只想到pop弹出。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         nums=list(set(nums))
@@ -13,4 +13,4 @@ class Solution:
             nums.pop(nums.index(max(nums)))
             nums.pop(nums.index(max(nums)))
         return max(nums)
-```
+# ```

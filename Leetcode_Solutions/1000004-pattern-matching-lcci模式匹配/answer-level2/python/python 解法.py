@@ -1,9 +1,9 @@
-### 解题思路
-完全借鉴[dexin](https://leetcode-cn.com/problems/pattern-matching-lcci/solution/mo-shi-pi-pei-zui-ji-chu-jie-fa-by-dexin/)的思路，只不过换成了python的解法。
+# ### 解题思路
+# 完全借鉴[dexin](https://leetcode-cn.com/problems/pattern-matching-lcci/solution/mo-shi-pi-pei-zui-ji-chu-jie-fa-by-dexin/)的思路，只不过换成了python的解法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def patternMatching(self, pattern: str, value: str) -> bool:
         from collections import defaultdict
@@ -73,4 +73,4 @@ class Solution:
                 return True
         return False
         
-```
+# ```

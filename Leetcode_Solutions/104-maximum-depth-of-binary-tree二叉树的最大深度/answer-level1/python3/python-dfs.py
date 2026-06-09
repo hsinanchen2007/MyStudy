@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         stack=[]
@@ -11,4 +11,4 @@ class Solution:
                 stack.append((currentDepth+1,root.left))
                 stack.append((currentDepth+1,root.right))
         return depth
-```
+# ```

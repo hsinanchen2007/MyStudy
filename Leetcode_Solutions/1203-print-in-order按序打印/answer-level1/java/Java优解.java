@@ -1,7 +1,7 @@
-总结：所有的解法都是一个理念,无论采用何种方式，开始时必须执行first线程，然后设置条件满足second执行而first和third线程都不能执行，同时只有first线程执行完才能给与该条件，然后设置条件满足third执行而first和second线程都不能执行，同时只有second线程执行成功后才能给与该条件
+// 总结：所有的解法都是一个理念,无论采用何种方式，开始时必须执行first线程，然后设置条件满足second执行而first和third线程都不能执行，同时只有first线程执行完才能给与该条件，然后设置条件满足third执行而first和second线程都不能执行，同时只有second线程执行成功后才能给与该条件
 
-解法一：Synchronized锁和控制变量
-```
+// 解法一：Synchronized锁和控制变量
+// ```
 public class Foo {
     //控制变量
     private int flag = 0;
@@ -51,9 +51,9 @@ public class Foo {
         }
     }
 }
-```
-解法二：CountDownLatch
-```
+// ```
+// 解法二：CountDownLatch
+// ```
 public class Foo {
     //声明两个 CountDownLatch变量
     private CountDownLatch countDownLatch01;
@@ -87,12 +87,12 @@ public class Foo {
     }
 }
 
-```
-解法三：Semaphore（信号量）
-    Semaphore与CountDownLatch相似，不同的地方在于Semaphore的值被获取到后是可以释放的，并不像CountDownLatch那样一直减到底
+// ```
+// 解法三：Semaphore（信号量）
+//     Semaphore与CountDownLatch相似，不同的地方在于Semaphore的值被获取到后是可以释放的，并不像CountDownLatch那样一直减到底
 
-获得Semaphore的线程处理完它的逻辑之后，你就可以调用它的Release()函数将它的计数器重新加1，这样其它被阻塞的线程就可以得到调用了
-```
+// 获得Semaphore的线程处理完它的逻辑之后，你就可以调用它的Release()函数将它的计数器重新加1，这样其它被阻塞的线程就可以得到调用了
+// ```
 public class Foo03 {
     //声明两个 Semaphore变量
     private Semaphore spa,spb;
@@ -122,5 +122,5 @@ public class Foo03 {
     }
 }
 
-```
+// ```
 

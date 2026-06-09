@@ -1,12 +1,12 @@
-### 解题思路
-![Snipaste_2020-03-29_13-16-37.png](https://pic.leetcode-cn.com/fdab03575c0b723b58c8ad3d8307b86bb8330dfa9356d77991a65c5b149ba5be-Snipaste_2020-03-29_13-16-37.png)
+// ### 解题思路
+// ![Snipaste_2020-03-29_13-16-37.png](https://pic.leetcode-cn.com/fdab03575c0b723b58c8ad3d8307b86bb8330dfa9356d77991a65c5b149ba5be-Snipaste_2020-03-29_13-16-37.png)
 
-定义了四个Map，可以用 Pair减少Map个数
-给定输入已经严格限定了时间，无需进行时间，站点的判断，可以在出站时计算站点间时间，并且直接与之前保存的平均时间进行进一步计算
+// 定义了四个Map，可以用 Pair减少Map个数
+// 给定输入已经严格限定了时间，无需进行时间，站点的判断，可以在出站时计算站点间时间，并且直接与之前保存的平均时间进行进一步计算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class UndergroundSystem {
     
     private Map<Integer,String> id_in_s;//保存进站人 Id 站名
@@ -48,4 +48,4 @@ class UndergroundSystem {
             return this.s_avrage_time.get(startStation+"#"+endStation);
     }
 }
-```
+// ```

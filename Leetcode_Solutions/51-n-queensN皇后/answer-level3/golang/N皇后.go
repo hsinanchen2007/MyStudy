@@ -1,9 +1,9 @@
-### 解题思路
-cur_state 那里想了好久，记录一下
+// ### 解题思路
+// cur_state 那里想了好久，记录一下
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //var res [][]int
 func solveNQueens(n int) [][]string {
     if n < 0 {
@@ -68,4 +68,4 @@ func generateResult(res [][]int, n int) (result [][]string) {
 }
 
 
-```
+// ```

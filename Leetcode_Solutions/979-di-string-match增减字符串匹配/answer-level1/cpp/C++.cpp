@@ -1,9 +1,9 @@
-### 解题思路
-通过分析题干要求发现D所在的数字递减I数字递加
+// ### 解题思路
+// 通过分析题干要求发现D所在的数字递减I数字递加
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> diStringMatch(string S) {
@@ -23,4 +23,4 @@ public:
         return sum;
     }
 };
-```
+// ```

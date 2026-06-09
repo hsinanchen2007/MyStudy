@@ -1,4 +1,4 @@
-```
+// ```
 func validPalindrome(s string) bool {
   return doValidPalindrome(s,0,len(s)-1,0)
 }
@@ -16,4 +16,4 @@ func doValidPalindrome(s string,l,r int,k int) bool{
 	}
 	return true
 }
-```
+// ```

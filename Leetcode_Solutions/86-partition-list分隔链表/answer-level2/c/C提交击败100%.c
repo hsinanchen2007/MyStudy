@@ -1,9 +1,9 @@
-### 解题思路
-双指针遍历，最后拼接。
+// ### 解题思路
+// 双指针遍历，最后拼接。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     return p1Head->next;
 
 }
-```
+// ```

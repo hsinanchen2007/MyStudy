@@ -1,9 +1,9 @@
-### 解题思路
-把 特殊条件分隔开，，分开进行
+// ### 解题思路
+// 把 特殊条件分隔开，，分开进行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
 
@@ -44,4 +44,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

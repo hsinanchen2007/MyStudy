@@ -1,15 +1,15 @@
-### 解题思路
-这个比较麻烦的是状态方程
-说一下状态的含义
-dp[amount]有以下取值
-- -1，说明无解
-- 0，初始化状态，说明还没有计算过
-- 正数，对应mount的最优解
-![image.png](https://pic.leetcode-cn.com/be6d642075d4d3a6ff51b485293c5a14312560f5cb5b064d71895c374bb6ea3c-image.png)
+// ### 解题思路
+// 这个比较麻烦的是状态方程
+// 说一下状态的含义
+// dp[amount]有以下取值
+// - -1，说明无解
+// - 0，初始化状态，说明还没有计算过
+// - 正数，对应mount的最优解
+// ![image.png](https://pic.leetcode-cn.com/be6d642075d4d3a6ff51b485293c5a14312560f5cb5b064d71895c374bb6ea3c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -107,4 +107,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     sFree(&s);
     return rlt;
 }
-```
+// ```

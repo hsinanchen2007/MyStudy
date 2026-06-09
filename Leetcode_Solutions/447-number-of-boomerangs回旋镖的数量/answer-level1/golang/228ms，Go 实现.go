@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/6ccedd25fc56bef95d20641436de46c5e45a3e73f797ca342224f51fab6eb033-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6ccedd25fc56bef95d20641436de46c5e45a3e73f797ca342224f51fab6eb033-image.png)
 
-方法一：笨办法，三重循环（1916 ms）
-```
+// 方法一：笨办法，三重循环（1916 ms）
+// ```
 func dist(i,j []int) int {      // 两点间的距离
     return (i[0]-j[0])*(i[0]-j[0]) + (i[1]-j[1])*(i[1]-j[1])
 }
@@ -32,12 +32,12 @@ func numberOfBoomerangs(points [][]int) int {   // 三层循环遍历每个三�
     }
     return ans
 }
-```
+// ```
 
-方法二：两重循环，用 hash 表记录出现过的距离（228ms）
+// 方法二：两重循环，用 hash 表记录出现过的距离（228ms）
 
-遍历每个点和它所有点的距离，用 hash 表记录，如果出现重复的，说明可以形成“回旋镖”，累计个数
-```
+// 遍历每个点和它所有点的距离，用 hash 表记录，如果出现重复的，说明可以形成“回旋镖”，累计个数
+// ```
 func dist(i,j []int) int {      // 两点间的距离
     return (i[0]-j[0])*(i[0]-j[0]) + (i[1]-j[1])*(i[1]-j[1])
 }
@@ -59,4 +59,4 @@ func numberOfBoomerangs(points [][]int) int {   // 两重循环，hash 表
     }
     return ans
 }
-```
+// ```

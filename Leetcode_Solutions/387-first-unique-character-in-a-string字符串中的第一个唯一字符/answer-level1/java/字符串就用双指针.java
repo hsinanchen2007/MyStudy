@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int firstUniqChar(String s) {
         if(s.length() == 0) return -1;
@@ -19,7 +19,7 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
 
-入门小白，常规思路，只是代码不太好看，求大神指导优化
+// 入门小白，常规思路，只是代码不太好看，求大神指导优化

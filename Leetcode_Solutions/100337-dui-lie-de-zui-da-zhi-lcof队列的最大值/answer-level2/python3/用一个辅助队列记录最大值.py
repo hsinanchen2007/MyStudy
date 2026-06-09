@@ -1,8 +1,8 @@
-### 解题思路
-用一个单调非递增队列q2记录最大值
+# ### 解题思路
+# 用一个单调非递增队列q2记录最大值
 
-### 代码
-```
+# ### 代码
+# ```
 from collections import deque
 class MaxQueue:
 
@@ -37,4 +37,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

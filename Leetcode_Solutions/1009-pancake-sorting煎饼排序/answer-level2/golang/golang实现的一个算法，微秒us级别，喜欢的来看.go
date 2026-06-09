@@ -1,4 +1,4 @@
-![煎饼反转.PNG](https://pic.leetcode-cn.com/133cd86f79792751c798c59b521b7bc79c6abe8e4495c5244affb76417d00d82-%E7%85%8E%E9%A5%BC%E5%8F%8D%E8%BD%AC.PNG)
+// ![煎饼反转.PNG](https://pic.leetcode-cn.com/133cd86f79792751c798c59b521b7bc79c6abe8e4495c5244affb76417d00d82-%E7%85%8E%E9%A5%BC%E5%8F%8D%E8%BD%AC.PNG)
 
 func pancakeSort(A []int) []int {
 

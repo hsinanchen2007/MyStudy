@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def reorganizeString(S: String): String = {
     var idx = 1
@@ -21,4 +21,4 @@ object Solution {
     s.toString
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-计算资源很不稳定呀~~，测试是40ms； 提交的时候时间是36ms~~ 
+# ### 解题思路
+# 计算资源很不稳定呀~~，测试是40ms； 提交的时候时间是36ms~~ 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashmap={}
@@ -13,4 +13,4 @@ class Solution:
                 return [ind,j]
             hashmap[num] = ind
             
-```
+# ```

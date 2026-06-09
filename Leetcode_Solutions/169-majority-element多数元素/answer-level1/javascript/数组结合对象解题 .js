@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-循环得到每项出现的次数，放在一个对象中然后 循环对象key得到出现最大次数的项
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 循环得到每项出现的次数，放在一个对象中然后 循环对象key得到出现最大次数的项
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -27,4 +27,4 @@ const majorityElement = function(nums) {
   }
   return ele;
 };
-```
+// ```

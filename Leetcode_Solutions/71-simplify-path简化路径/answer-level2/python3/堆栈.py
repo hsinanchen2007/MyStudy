@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def simplifyPath(self, path: str) -> str:
         l = [ele for ele in path.split('/') if not (ele == '' or ele == '.')]
@@ -10,4 +10,4 @@ class Solution:
                 if res:
                     res.pop()
         return '/'+"/".join(res)
-```
+# ```

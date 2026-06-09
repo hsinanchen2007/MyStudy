@@ -1,10 +1,10 @@
-### 解题思路
-1、辗转相除法处理长度
-2、根据结果，遍历处理字串
+// ### 解题思路
+// 1、辗转相除法处理长度
+// 2、根据结果，遍历处理字串
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * gcdOfStrings(char * str1, char * str2)
 {
     int i, j, k, len1, len2, sub;
@@ -71,4 +71,4 @@ char * gcdOfStrings(char * str1, char * str2)
     }
     return p;
 }
-```
+// ```

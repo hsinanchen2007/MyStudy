@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                 index=helper(res,nums[i])
                 res[index]=nums[i]
         return len(res)
-```
+# ```

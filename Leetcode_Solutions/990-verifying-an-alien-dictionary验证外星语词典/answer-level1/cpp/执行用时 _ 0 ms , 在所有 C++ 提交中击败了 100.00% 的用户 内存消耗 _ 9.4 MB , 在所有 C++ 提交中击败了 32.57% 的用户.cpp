@@ -1,12 +1,12 @@
-### 解题思路
-本质上可以理解为给一个排序规则，按照这个规则排序，就把这个规则用bool函数写出来就好了，只是这个题不需要用这个规则排序，只需要用这个规则检验一下前后元素是不是都符合这个规则而已。
-其实用下面的排序函数可以直接对words进行排序，
-	sort(words.begin(),words.end(),paix);
-	for(string it:words) cout<<it<<" ";
+// ### 解题思路
+// 本质上可以理解为给一个排序规则，按照这个规则排序，就把这个规则用bool函数写出来就好了，只是这个题不需要用这个规则排序，只需要用这个规则检验一下前后元素是不是都符合这个规则而已。
+// 其实用下面的排序函数可以直接对words进行排序，
+// 	sort(words.begin(),words.end(),paix);
+// 	for(string it:words) cout<<it<<" ";
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string p;
@@ -26,4 +26,4 @@ public:
 		return true;
 	}
 };
-```
+// ```

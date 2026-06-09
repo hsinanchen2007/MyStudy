@@ -1,9 +1,9 @@
-### 解题思路
-很简单就看代码吧
+// ### 解题思路
+// 很简单就看代码吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
          return Math.max(height(root.left),height(root.right))+1;
      }
 }
-```
+// ```

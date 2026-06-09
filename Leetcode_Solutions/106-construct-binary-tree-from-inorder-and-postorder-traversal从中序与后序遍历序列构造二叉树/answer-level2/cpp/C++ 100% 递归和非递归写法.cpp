@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/a29668ebd29e00f0fae71fb596cf4cea9b2e5da744bbabe9e18daf010e24ec43-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a29668ebd29e00f0fae71fb596cf4cea9b2e5da744bbabe9e18daf010e24ec43-image.png)
 
-本质和LC105. 从前序与中序遍历序列构造二叉树一样
+// 本质和LC105. 从前序与中序遍历序列构造二叉树一样
 
-递归版
-```cpp
+// 递归版
+// ```cpp
 TreeNode* dfs(vector<int>& inorder, int i1, int j1, vector<int>& postorder,
               int i2, int j2, unordered_map<int, int>& M) {
   if (i1 >= j1 || i2 >= j2) return NULL;
@@ -19,9 +19,9 @@ TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
   for (int i = 0; i < inorder.size(); i++) M[inorder[i]] = i;
   return dfs(inorder, 0, inorder.size(), postorder, 0, postorder.size(), M);
 }
-```
-非递归版：
-```cpp
+// ```
+// 非递归版：
+// ```cpp
 TreeNode* buildTree(vector<int>& in, vector<int>& post) {
   if (in.empty()) return NULL;
   stack<TreeNode*> S;
@@ -38,5 +38,5 @@ TreeNode* buildTree(vector<int>& in, vector<int>& post) {
   }
   return root;
 }
-```
+// ```
 

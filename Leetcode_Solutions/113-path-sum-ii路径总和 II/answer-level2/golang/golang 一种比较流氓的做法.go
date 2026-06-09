@@ -1,4 +1,4 @@
-```
+// ```
 func pathSum(root *TreeNode, sum int) [][]int {
 	if root == nil {
 		return [][]int{}
@@ -26,4 +26,4 @@ func pathSum(root *TreeNode, sum int) [][]int {
 	res := append(l, r...)
 	return res
 }
-```
+// ```

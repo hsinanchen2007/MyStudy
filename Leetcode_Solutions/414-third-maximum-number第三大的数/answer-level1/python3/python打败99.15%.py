@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b5e62bef3236f5a1a59ec70023705f6084376d0705ca0e674229322d0793e090-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b5e62bef3236f5a1a59ec70023705f6084376d0705ca0e674229322d0793e090-image.png)
 
-```python []
+# ```python []
 class Solution(object):
     def thirdMax(self, nums):
         """
@@ -18,5 +18,5 @@ class Solution(object):
             return nums[length-1]
         else:
             return nums[0]
-```
+# ```
 

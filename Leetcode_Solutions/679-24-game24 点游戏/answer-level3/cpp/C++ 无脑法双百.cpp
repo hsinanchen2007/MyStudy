@@ -1,5 +1,5 @@
-不解释 利用引用最优化空间和时间
-```cpp
+// 不解释 利用引用最优化空间和时间
+// ```cpp
 class Solution {
 public:
 	bool judgePoint24(vector<int>& nums) {
@@ -83,4 +83,4 @@ public:
 			judgePoint24_3(b / a, c, d);
 	}
 };
-```
+// ```

@@ -1,5 +1,5 @@
-遍历累加，遍历顺序为右中左，自定义整型变量记录累加的数值。
-```
+// 遍历累加，遍历顺序为右中左，自定义整型变量记录累加的数值。
+// ```
 int n;
 void ss(struct TreeNode* root){
     int p;
@@ -22,4 +22,4 @@ struct TreeNode* bstToGst(struct TreeNode* root){
     ss(root);
         return root;
 }
-```
+// ```

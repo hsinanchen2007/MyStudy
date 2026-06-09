@@ -1,9 +1,9 @@
-### 解题思路
-window保存当前遍历的字母出现次数，right右指针若遍历到重复字母则移动左指针left直到right指向的字母再次变回在window中出现一次，即通过window[s[left]]-- 来实现window[s[right]]满足为1的条件，每次移动右指针都记录当前的子串长度，返回res
+# ### 解题思路
+# window保存当前遍历的字母出现次数，right右指针若遍历到重复字母则移动左指针left直到right指向的字母再次变回在window中出现一次，即通过window[s[left]]-- 来实现window[s[right]]满足为1的条件，每次移动右指针都记录当前的子串长度，返回res
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -31,4 +31,4 @@ class Solution(object):
 
             
 
-```
+# ```

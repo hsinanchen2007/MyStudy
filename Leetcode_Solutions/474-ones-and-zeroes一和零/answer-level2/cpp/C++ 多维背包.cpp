@@ -1,6 +1,6 @@
-多维背包，将0、1都当做一种容量，套用01背包的解法就行了
+// 多维背包，将0、1都当做一种容量，套用01背包的解法就行了
 
-```
+// ```
 class Solution {
 public:
     typedef pair<int, int> item;
@@ -37,4 +37,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

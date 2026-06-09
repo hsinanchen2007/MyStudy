@@ -1,9 +1,9 @@
-### 解题思路
-就是个数和字符拼接
+// ### 解题思路
+// 就是个数和字符拼接
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         if (n == 1) {
@@ -21,4 +21,4 @@ class Solution {
           return sb.append("" + (forward.length()-index) + forward.charAt(index)).toString();
     }
 }
-```
+// ```

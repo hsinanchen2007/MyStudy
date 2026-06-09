@@ -1,9 +1,9 @@
-### 解题思路
-注意 负数的位运算用补码
+// ### 解题思路
+// 注意 负数的位运算用补码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numberOfSteps (int num)
 {
     int count = 0;
@@ -16,4 +16,4 @@ int numberOfSteps (int num)
     }
     return count;
 }
-```
+// ```

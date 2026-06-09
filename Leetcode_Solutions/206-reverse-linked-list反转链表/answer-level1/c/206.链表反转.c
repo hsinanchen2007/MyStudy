@@ -1,9 +1,9 @@
-### 解题思路
-用递归实现，依次反转。
+// ### 解题思路
+// 用递归实现，依次反转。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ struct ListNode* reverseList(struct ListNode* head){
     return newhead;
         
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-一种是循环，另一种是递归。
+// 一种是循环，另一种是递归。
 
-都用到了两个额外的指针，一个临时空间。
+// 都用到了两个额外的指针，一个临时空间。
 
-### 代码
+// ### 代码
 
 
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -32,11 +32,11 @@ var reverseList = function(head) {
   return prev;
 };
 
-```
+// ```
 
 
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -60,4 +60,4 @@ var reverseList = function(head) {
   }
   return reverse(null, head);
 };
-```
+// ```

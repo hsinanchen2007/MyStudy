@@ -1,16 +1,16 @@
-#### 思路：
- - 将路径压入栈中，然后遍历路径；
- - 如果文件名为```..```，则弹出栈顶；
- - 为```.```，则不做任何处理；
- - 为其它情况，则置入栈顶
-#### 效率：
-> Runtime: 40 ms, faster than 63.22% of Python3 online submissions for Simplify Path.
-> Memory Usage: 13.9 MB, less than 14.29% of Python3 online submissions for Simplify Path.
-#### 复杂度分析：
- - 时间复杂度：$O(N)$
- - 空间复杂度：$O(N)$
-#### 代码：
-```Python
+# #### 思路：
+#  - 将路径压入栈中，然后遍历路径；
+#  - 如果文件名为```..```，则弹出栈顶；
+#  - 为```.```，则不做任何处理；
+#  - 为其它情况，则置入栈顶
+# #### 效率：
+# > Runtime: 40 ms, faster than 63.22% of Python3 online submissions for Simplify Path.
+# > Memory Usage: 13.9 MB, less than 14.29% of Python3 online submissions for Simplify Path.
+# #### 复杂度分析：
+#  - 时间复杂度：$O(N)$
+#  - 空间复杂度：$O(N)$
+# #### 代码：
+# ```Python
 class Solution:
 
     def simplifyPath(self, path: str) -> str:
@@ -42,4 +42,4 @@ class Solution:
 
         # 按照格式返回结果
         return '/' + '/'.join(stack)
-```
+# ```

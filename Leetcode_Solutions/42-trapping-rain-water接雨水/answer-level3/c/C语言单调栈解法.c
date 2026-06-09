@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct SNode* PtrToSNode;
 struct SNode{
     int val;
@@ -75,4 +75,4 @@ int trap(int* height, int heightSize)
     }
     return water;
 }
-```
+// ```

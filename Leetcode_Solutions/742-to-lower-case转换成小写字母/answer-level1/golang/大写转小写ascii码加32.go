@@ -1,4 +1,4 @@
-```
+// ```
 func toLowerCase(str string) string {
     if len(str) == 0 {
         return str
@@ -13,4 +13,4 @@ func toLowerCase(str string) string {
 
     return string(runes)
 }
-```
+// ```

@@ -1,8 +1,8 @@
-p、q为两个指针，分别指向最开始的数字和最末位的数字
+# p、q为两个指针，分别指向最开始的数字和最末位的数字
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class solution:
     def mostwater(self, height: List[int]) -> int:
         p = 0
@@ -16,4 +16,4 @@ class solution:
                 p += 1
             else:q -= 1
         return max_area
-```
+# ```

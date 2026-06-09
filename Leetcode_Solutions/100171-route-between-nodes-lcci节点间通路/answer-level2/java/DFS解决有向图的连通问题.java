@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean findWhetherExistsPath(int n, int[][] graph, int start, int target) {
         ArrayList<Integer>[] adj = new ArrayList[n];
@@ -19,4 +19,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution
 {
 	public int CharacterReplacement(string s, int k)
@@ -31,5 +31,5 @@ public class Solution
 		return res;
 	}
 }
-```
-![Snipaste_2019-12-26_22-20-54.jpg](https://pic.leetcode-cn.com/594a066b6a7bcccdf31441adf44c94e2dc2b7a9216f439512cb7ba40f066da8a-Snipaste_2019-12-26_22-20-54.jpg)
+// ```
+// ![Snipaste_2019-12-26_22-20-54.jpg](https://pic.leetcode-cn.com/594a066b6a7bcccdf31441adf44c94e2dc2b7a9216f439512cb7ba40f066da8a-Snipaste_2019-12-26_22-20-54.jpg)

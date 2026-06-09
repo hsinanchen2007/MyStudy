@@ -1,7 +1,7 @@
-并查集模板题, 加上了按秩合并和路径压缩优化
-学习并查集可以看labuladong这篇:
-https://github.com/labuladong/fucking-algorithm/blob/master/%E7%AE%97%E6%B3%95%E6%80%9D%E7%BB%B4%E7%B3%BB%E5%88%97/UnionFind%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3.md
-```
+// 并查集模板题, 加上了按秩合并和路径压缩优化
+// 学习并查集可以看labuladong这篇:
+// https://github.com/labuladong/fucking-algorithm/blob/master/%E7%AE%97%E6%B3%95%E6%80%9D%E7%BB%B4%E7%B3%BB%E5%88%97/UnionFind%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3.md
+// ```
 class Solution {
     private int[] parent; // 父节点
     private int[] rank; // 秩
@@ -44,4 +44,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

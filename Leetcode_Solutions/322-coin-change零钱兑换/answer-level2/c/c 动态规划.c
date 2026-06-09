@@ -1,4 +1,4 @@
-```
+// ```
 
 #define min( a , b ) ( a > b ? b : a )
 
@@ -43,4 +43,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     return *( buffer + amount ) > amount ? -1 : *( buffer + amount);
 
 }
-```
+// ```

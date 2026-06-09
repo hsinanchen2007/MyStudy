@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def smallestEquivalentString(self, A: str, B: str, S: str) -> str:
         all_sets = self.build_str_2_sets(A, B)
@@ -40,4 +40,4 @@ class Solution:
             if len1 == len2:
                 break
         return sets_list
-```
+# ```

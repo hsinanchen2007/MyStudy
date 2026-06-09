@@ -1,9 +1,9 @@
-### 解题思路
-判断左子树是否相同，判断右子树是否相同。
+// ### 解题思路
+// 判断左子树是否相同，判断右子树是否相同。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
         return isRootSame && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
-```
+// ```

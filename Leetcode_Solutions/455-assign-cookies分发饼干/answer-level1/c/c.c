@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findContentChildren(int* g, int gSize, int* s, int sSize){
     int i ,j ,k,t,tap=0;
     if(!sSize) return 0;
@@ -39,4 +39,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize){
     }
     return tap;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-借鉴求2次幂、3次幂、4次幂时用的累乘法思想。
-```
+# 借鉴求2次幂、3次幂、4次幂时用的累乘法思想。
+# ```
 class Solution(object):
     def isPerfectSquare(self, num):
         """
@@ -13,4 +13,4 @@ class Solution(object):
                 return True
             i += 1
         return False
-```
+# ```

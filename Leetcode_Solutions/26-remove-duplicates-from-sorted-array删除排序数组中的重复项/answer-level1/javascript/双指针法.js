@@ -1,9 +1,9 @@
-### 解题思路
-双指针法，准备两个游标p、q,q每次循环加1，p遇到不同元素时加1，数组长度即为p+1的值
+// ### 解题思路
+// 双指针法，准备两个游标p、q,q每次循环加1，p遇到不同元素时加1，数组长度即为p+1的值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -21,4 +21,4 @@ var removeDuplicates = function (nums) {
     return p+1;
 };
 
-```
+// ```

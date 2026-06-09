@@ -1,5 +1,5 @@
-# 方法一 双指针
-```PHP []
+// # 方法一 双指针
+// ```PHP []
 class Solution {
 
     /**
@@ -23,8 +23,8 @@ class Solution {
         return true;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func isPalindrome(x int) bool {
     if x < 0 {return false}
     if x == 0 {return true}
@@ -39,9 +39,9 @@ func isPalindrome(x int) bool {
     }
     return true
 }
-```
-# 方法二 反转
-```PHP数学 []
+// ```
+// # 方法二 反转
+// ```PHP数学 []
 class Solution {
 
     /**
@@ -61,8 +61,8 @@ class Solution {
         return $integer==$x;
     }
 }
-```
-```PHP字符串 []
+// ```
+// ```PHP字符串 []
 class Solution {
 
     /**
@@ -81,4 +81,4 @@ class Solution {
         return $integer==$str;
     }
 }
-```
+// ```

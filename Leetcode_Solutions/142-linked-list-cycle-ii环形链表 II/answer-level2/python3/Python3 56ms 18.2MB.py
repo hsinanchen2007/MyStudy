@@ -1,4 +1,4 @@
-```python []
+# ```python []
     def detectCycle(self, head):
         slow, fast = head, head
         while fast and fast.next:
@@ -12,4 +12,4 @@
                     fast = fast.next
                 return slow
         return None
-```
+# ```

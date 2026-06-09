@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxCount(int m, int n, int[][] ops) {
         if(ops.length==0){
@@ -17,4 +17,4 @@ class Solution {
         return minM*minN;
     }
 }
-```
+// ```

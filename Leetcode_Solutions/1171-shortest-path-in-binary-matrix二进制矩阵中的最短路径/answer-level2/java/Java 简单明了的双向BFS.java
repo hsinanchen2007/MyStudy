@@ -1,5 +1,5 @@
-通过两个Set实现交替扩散：
-```java
+// 通过两个Set实现交替扩散：
+// ```java
 class Solution {
     static final int[][] dir = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 
@@ -61,9 +61,9 @@ class Coordinate {
         return Objects.hash(x, y);
     }
 }
-```
-当然你也可以更直观更传统的用Queue来实现：
-```java
+// ```
+// 当然你也可以更直观更传统的用Queue来实现：
+// ```java
 class Solution {
     static final int[][] dir = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 
@@ -105,10 +105,10 @@ class Solution {
 class Coordinate {
     // 同上，略
 }
-```
+// ```
 
-或者更简约的实现，省去自定义类：
-```java
+// 或者更简约的实现，省去自定义类：
+// ```java
 class Solution {
     static final int[][] dir = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 
@@ -150,10 +150,10 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-算了，别烦了，就单向吧：
-```java
+// 算了，别烦了，就单向吧：
+// ```java
 class Solution {
     static final int[][] dir = {{1, 1}, {1, 0}, {0, 1}, {1, -1}, {0, -1}, {-1, 0}, {-1, 1}, {-1, -1}};
 
@@ -184,4 +184,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

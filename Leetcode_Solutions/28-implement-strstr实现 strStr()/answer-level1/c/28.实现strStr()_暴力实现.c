@@ -1,10 +1,10 @@
-### 解题思路
-暴力实现，时间复杂度为O(strlen(haystack)*strlen(needle))。
-一出现平方复杂度，很明显这方法太愚蠢！
+// ### 解题思路
+// 暴力实现，时间复杂度为O(strlen(haystack)*strlen(needle))。
+// 一出现平方复杂度，很明显这方法太愚蠢！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     if(strlen(needle) == 0)
         return 0;
@@ -31,4 +31,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

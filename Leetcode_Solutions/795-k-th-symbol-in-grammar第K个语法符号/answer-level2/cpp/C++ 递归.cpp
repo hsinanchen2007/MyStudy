@@ -1,9 +1,9 @@
-### 解题思路
-Grammar的每一行长度是上一行的2倍，
-第N行的第K个符号，由第N-1行的第(K+1)/2个符号扩展后得到
-### 代码
+// ### 解题思路
+// Grammar的每一行长度是上一行的2倍，
+// 第N行的第K个符号，由第N-1行的第(K+1)/2个符号扩展后得到
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int kthGrammar(int N, int K) {
@@ -18,4 +18,4 @@ public:
         return pre == 0 ? 1 : 0;
     }
 };
-```
+// ```

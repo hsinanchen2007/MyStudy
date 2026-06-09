@@ -1,4 +1,4 @@
-```
+// ```
 var topKFrequent = function(nums, k) {
     //前k个高频元素
     let hash = new Map();
@@ -44,4 +44,4 @@ var quikSort = function(nums,left,right){
     }
     return i;
 }
-```
+// ```

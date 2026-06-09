@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-一种思路是后移数组1
-我的思路从尾部迭代比较,需要处理nums1,和nums2的特殊值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 一种思路是后移数组1
+// 我的思路从尾部迭代比较,需要处理nums1,和nums2的特殊值
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -26,4 +26,4 @@ public:
         }
     }
 };
-```
+// ```

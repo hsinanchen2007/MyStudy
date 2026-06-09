@@ -1,8 +1,8 @@
-很蛋疼的一个题目,用数组dp[x][y],表示当前状态选中的人数与选中的车数之间的最小值。
-x表示已经选中的worker的标记，y表示当前已经选中的bike的标记，
-dp[x][y]表示当前选择标记中的最小值。
+// 很蛋疼的一个题目,用数组dp[x][y],表示当前状态选中的人数与选中的车数之间的最小值。
+// x表示已经选中的worker的标记，y表示当前已经选中的bike的标记，
+// dp[x][y]表示当前选择标记中的最小值。
 
-```
+// ```
 class Solution {
 public:
     int mahaton(vector<int>& a,vector<int>& b){
@@ -69,4 +69,4 @@ public:
         return ans;
     }
 };
-```
+// ```

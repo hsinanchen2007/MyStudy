@@ -1,9 +1,9 @@
-### 解题思路
-感觉我这个逻辑应该是最容易懂得了。
+// ### 解题思路
+// 感觉我这个逻辑应该是最容易懂得了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -29,4 +29,4 @@ public:
         return s;
     }
 };
-```
+// ```

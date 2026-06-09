@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class ListNode:
      def __init__(self, x):
          self.val = x
@@ -46,4 +46,4 @@ class Solution:
             wp=fw.next
         return h.next
 
-```
+# ```

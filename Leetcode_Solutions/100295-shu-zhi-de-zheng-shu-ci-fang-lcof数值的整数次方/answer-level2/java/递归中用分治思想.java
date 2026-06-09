@@ -1,9 +1,9 @@
-### 解题思路
-注意，num取负向最小数，转为正数会溢出，所以转为long类型最为稳妥。
+// ### 解题思路
+// 注意，num取负向最小数，转为正数会溢出，所以转为long类型最为稳妥。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int num) {
         long n = (long)num;//转化成long，避免取正溢出
@@ -32,4 +32,4 @@ class Solution {
         //return res * res*x;
     }
 }
-```
+// ```

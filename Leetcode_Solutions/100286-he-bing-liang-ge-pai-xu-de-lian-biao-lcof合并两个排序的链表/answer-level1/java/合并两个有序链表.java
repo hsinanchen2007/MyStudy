@@ -1,9 +1,9 @@
-### 解题思路
-创建好哨兵节点，依次判断l1和l2对应的节点即可。
+// ### 解题思路
+// 创建好哨兵节点，依次判断l1和l2对应的节点即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return curNode.next;
     }
 }
-```
+// ```

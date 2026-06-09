@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9e5ff189690d2943a083fade6a278c7fff5302374a6dd6b82089f37da9bb2528-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9e5ff189690d2943a083fade6a278c7fff5302374a6dd6b82089f37da9bb2528-image.png)
 
-```
+// ```
 #define MAX 3000
 
 int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize, int* returnSize){
@@ -51,4 +51,4 @@ int* findOrder(int numCourses, int** prerequisites, int prerequisitesSize, int* 
 
     return ret;
 }
-```
+// ```

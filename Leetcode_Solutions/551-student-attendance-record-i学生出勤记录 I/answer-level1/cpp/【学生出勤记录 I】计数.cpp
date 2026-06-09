@@ -1,9 +1,9 @@
-### 思路
-1. 对 `A` 和 `L` 计数
-2. 如果该字母不是 `L` 就对其计数清零
+// ### 思路
+// 1. 对 `A` 和 `L` 计数
+// 2. 如果该字母不是 `L` 就对其计数清零
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 bool checkRecord(string s) 
 {
     int cnt_A = 0;
@@ -17,13 +17,13 @@ bool checkRecord(string s)
     }
     return true;
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

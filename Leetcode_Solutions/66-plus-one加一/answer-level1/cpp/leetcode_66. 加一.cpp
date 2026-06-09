@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/460167ca4364356a20824056b37427496caa9a531d0fc95ba7e9d13e33a739a4-1.png)
+// ![1.png](https://pic.leetcode-cn.com/460167ca4364356a20824056b37427496caa9a531d0fc95ba7e9d13e33a739a4-1.png)
 
 
-```
+// ```
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -34,5 +34,5 @@ public:
     }
 };
 
-```
+// ```
 

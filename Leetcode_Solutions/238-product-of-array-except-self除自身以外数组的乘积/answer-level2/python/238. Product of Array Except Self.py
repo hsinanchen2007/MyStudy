@@ -1,5 +1,5 @@
-找规律, 左边乘积 * 左边乘积
-```
+# 找规律, 左边乘积 * 左边乘积
+# ```
 """
 [1,2,3,4]
 _m = left_m * right_m
@@ -33,4 +33,4 @@ class Solution(object):
         return L
 
 print Solution().productExceptSelf([1,2,3,4])
-```
+# ```

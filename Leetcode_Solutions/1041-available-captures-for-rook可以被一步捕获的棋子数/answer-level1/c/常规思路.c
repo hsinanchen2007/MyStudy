@@ -1,9 +1,9 @@
-### 解题思路
-简单遍历即可。
+// ### 解题思路
+// 简单遍历即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int X, Y;
     int cnt = 0;
@@ -53,4 +53,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return cnt;
 }
-```
+// ```

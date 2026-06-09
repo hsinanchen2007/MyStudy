@@ -1,5 +1,5 @@
 
-```Java []
+// ```Java []
 class Solution{
     /**
     * 方法一：每个数字先平方，然后调用sort()排序
@@ -76,4 +76,4 @@ class Solution{
         return a;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用取余操作来模拟循环过程，用数组的话会比vector更快，向量的优点在于操作方便
+// ### 解题思路
+// 用取余操作来模拟循环过程，用数组的话会比vector更快，向量的优点在于操作方便
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

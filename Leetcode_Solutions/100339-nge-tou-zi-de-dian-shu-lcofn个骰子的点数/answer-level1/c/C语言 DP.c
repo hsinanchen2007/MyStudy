@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -35,4 +35,4 @@ double* twoSum(int n, int* returnSize){
 
     return ret;
 }
-```
+// ```

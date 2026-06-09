@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 INT_MAX = 2 ** 31 - 1
 INT_MIN = -2 ** 31
 
@@ -26,4 +26,4 @@ class Solution:
             res[1] = '+'
         res[0] = min(res[0], INT_MAX) if res[1] == '+' else max(res[0], INT_MIN)
         return res[0]
-```
+# ```

@@ -1,7 +1,7 @@
-遍历到'.'不用管
-每遍历到一个'X'，战舰计数+1，并把这个战舰其余部分的'X'替换为'.'
-遍历完成后直接return战舰计数
-```
+# 遍历到'.'不用管
+# 每遍历到一个'X'，战舰计数+1，并把这个战舰其余部分的'X'替换为'.'
+# 遍历完成后直接return战舰计数
+# ```
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
         rows = len(board)
@@ -20,4 +20,4 @@ class Solution:
                         board[i+1][j] = '.'
                         i += 1
         return ans
-```
+# ```

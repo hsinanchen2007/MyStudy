@@ -1,8 +1,8 @@
 
-这个题边界处理相对上一题要麻烦点，拆开分别处理要清晰些。
+// 这个题边界处理相对上一题要麻烦点，拆开分别处理要清晰些。
 
 
-```
+// ```
 class Solution {
 public:
 int uniquePathsWithObstacles(vector<vector<int>>& p){
@@ -43,7 +43,7 @@ int uniquePathsWithObstacles(vector<vector<int>>& p){
 }
 };
 
-```
+// ```
 
-结果还不错：
-![image.png](https://pic.leetcode-cn.com/aa73347fdb9ed3b1d5c0008bcdaeed8560d53ba370161229017768c5541bec9f-image.png)
+// 结果还不错：
+// ![image.png](https://pic.leetcode-cn.com/aa73347fdb9ed3b1d5c0008bcdaeed8560d53ba370161229017768c5541bec9f-image.png)

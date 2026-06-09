@@ -1,6 +1,6 @@
-1、始终选择中间位置或中间位置靠左的元素作为根节点
+// 1、始终选择中间位置或中间位置靠左的元素作为根节点
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -23,10 +23,10 @@ const helper = function(nums,l,r) {
     root.right = helper(nums,m+1,r);
     return root;
 }
-```
+// ```
 
-2、选择中间任意位置
-```javascript
+// 2、选择中间任意位置
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -52,4 +52,4 @@ const helper = function(nums,l,r) {
     root.right = helper(nums,m+1,r);
     return root;
 }
-```
+// ```

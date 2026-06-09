@@ -1,10 +1,10 @@
-### 解题思路
-正常遍历，分情况讨论即可。
-（感觉这个题应该放在简单难度）
+// ### 解题思路
+// 正常遍历，分情况讨论即可。
+// （感觉这个题应该放在简单难度）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
@@ -22,4 +22,4 @@ public:
         return sum;
     }
 };
-```
+// ```

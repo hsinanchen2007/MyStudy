@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize){
     int a[10001]={0};
     int len=0,max=0;
@@ -29,4 +29,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     }
     return false;
 }
-```
+// ```

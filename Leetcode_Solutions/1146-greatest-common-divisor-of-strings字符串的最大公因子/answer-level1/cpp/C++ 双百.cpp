@@ -1,9 +1,9 @@
-### 解题思路
-求最大公约数即可
+// ### 解题思路
+// 求最大公约数即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int gcd(int x, int y) {
@@ -32,4 +32,4 @@ public:
         return res ? s : "";
     }
 };
-```
+// ```

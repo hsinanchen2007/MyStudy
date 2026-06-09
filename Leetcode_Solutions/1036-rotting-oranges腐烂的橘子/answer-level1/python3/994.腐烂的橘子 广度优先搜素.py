@@ -1,9 +1,9 @@
-### 解题思路
-一圈一圈往外腐蚀
+# ### 解题思路
+# 一圈一圈往外腐蚀
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         dx = [-1, 1, 0, 0]
@@ -44,4 +44,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-数组及字符串转换
+// ### 解题思路
+// 数组及字符串转换
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -25,4 +25,4 @@ class Solution {
         return implode(' ', $reserverList);
     }
 }
-```
+// ```

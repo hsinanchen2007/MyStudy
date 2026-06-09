@@ -1,5 +1,5 @@
 
-//Partition是快速排序的核心函数，它返回某一个数在一个数组中的最终排序位置
+// //Partition是快速排序的核心函数，它返回某一个数在一个数组中的最终排序位置
 int Partition(int *A, int low, int high)
 {
 	int pivot = A[low];

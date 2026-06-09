@@ -1,4 +1,4 @@
-```python
+# ```python
 def maxDepth(root: TreeNode) -> int:
     maxLevel = 0
     def help(n, r=0):
@@ -20,4 +20,4 @@ def maxDepth1(root: TreeNode) -> int:
     left, right = maxDepth1(root.left), maxDepth1(root.right)
     # 通过max, 会自动过滤掉深度较小的
     return max(left, right) + 1
-```
+# ```

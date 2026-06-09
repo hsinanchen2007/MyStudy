@@ -1,10 +1,10 @@
-### 解题思路
-1. 递归
-2. 检查左子树的左节点是否等于右子树右节点，左子树的右节点是否等于右子树左节点
+// ### 解题思路
+// 1. 递归
+// 2. 检查左子树的左节点是否等于右子树右节点，左子树的右节点是否等于右子树左节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ bool isSymmetric(struct TreeNode* root){
     if (root == NULL) return true;
     else return isMirror(root->left, root->right);
 }
-```
+// ```

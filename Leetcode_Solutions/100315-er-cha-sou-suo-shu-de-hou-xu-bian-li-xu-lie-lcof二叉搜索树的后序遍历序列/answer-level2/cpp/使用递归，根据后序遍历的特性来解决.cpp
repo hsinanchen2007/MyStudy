@@ -1,10 +1,10 @@
-### 解题思路
-因为是二分搜索
-然后后序遍历是左右根，所以左边是小于根的，根是小于右的
-所以根据这点来判断是否为后序遍历
-### 代码
+// ### 解题思路
+// 因为是二分搜索
+// 然后后序遍历是左右根，所以左边是小于根的，根是小于右的
+// 所以根据这点来判断是否为后序遍历
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     bool helper(vector<int>& postorder,int l,int r){
@@ -27,4 +27,4 @@ public:
         return helper(postorder,0,postorder.size() - 1);
     }
 };
-```
+// ```

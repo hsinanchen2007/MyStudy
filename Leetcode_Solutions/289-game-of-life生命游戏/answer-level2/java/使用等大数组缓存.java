@@ -1,9 +1,9 @@
-### 解题思路
-遍历，计数，缓存更新结果，输出更新结果
+// ### 解题思路
+// 遍历，计数，缓存更新结果，输出更新结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         int m = board.length;
@@ -46,4 +46,4 @@ class Solution {
         
     }
 }
-```
+// ```

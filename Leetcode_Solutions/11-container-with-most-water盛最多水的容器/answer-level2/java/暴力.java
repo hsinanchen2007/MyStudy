@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         //遍历，需要两个参数，minHeight,maxIndex
@@ -21,4 +21,4 @@ class Solution {
         return maxArea;
     }
 }
-```
+// ```

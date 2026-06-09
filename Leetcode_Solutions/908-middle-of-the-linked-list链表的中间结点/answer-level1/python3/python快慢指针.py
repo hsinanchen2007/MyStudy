@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def middleNode(self, head: ListNode) -> ListNode:
         slow=head
@@ -10,4 +10,4 @@ class Solution:
             if fast.next:
                 fast=fast.next
         return slow
-```
+# ```

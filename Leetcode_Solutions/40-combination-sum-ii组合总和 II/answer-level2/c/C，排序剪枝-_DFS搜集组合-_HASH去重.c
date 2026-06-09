@@ -1,10 +1,10 @@
-### 解题思路
-没太大难度，思路就看标题，这次比较仔细，一遍提交通过，写了1个半小时，速度还有待提升。
+// ### 解题思路
+// 没太大难度，思路就看标题，这次比较仔细，一遍提交通过，写了1个半小时，速度还有待提升。
 
-执行用时 :12 ms, 在所有 C 提交中击败了69.81%的用户内存消耗 :12.1 MB, 在所有 C 提交中击败了31.66%的用户
-### 代码
+// 执行用时 :12 ms, 在所有 C 提交中击败了69.81%的用户内存消耗 :12.1 MB, 在所有 C 提交中击败了31.66%的用户
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -284,4 +284,4 @@ int** combinationSum2(int* candidates, int candidatesSize, int target, int* retu
     *returnSize = l;
     return aa;
 }
-```
+// ```

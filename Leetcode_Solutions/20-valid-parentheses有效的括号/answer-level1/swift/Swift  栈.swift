@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     
     class Stack {
@@ -37,4 +37,4 @@ class Solution {
         return stack.top == nil
     }
 }
-```
+// ```

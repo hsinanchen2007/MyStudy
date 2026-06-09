@@ -1,9 +1,9 @@
-### 解题思路
-复写后把列表最后一位pop即可 o(n2)
+# ### 解题思路
+# 复写后把列表最后一位pop即可 o(n2)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """
@@ -23,4 +23,4 @@ class Solution:
 
 
 
-```
+# ```

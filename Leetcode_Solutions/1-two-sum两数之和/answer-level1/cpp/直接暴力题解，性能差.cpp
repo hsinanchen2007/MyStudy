@@ -1,14 +1,14 @@
-### 解题思路
-最直接暴力的思路图示如下，测试性能较差：
-```
+// ### 解题思路
+// 最直接暴力的思路图示如下，测试性能较差：
+// ```
 ——————————
   ——————————
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -26,4 +26,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-通过一个表来记录信任次数，最后通过判定N-1,和本身是否信任过他人(法官是不信任他人的)来确认
-```cpp
+// 通过一个表来记录信任次数，最后通过判定N-1,和本身是否信任过他人(法官是不信任他人的)来确认
+// ```cpp
 class Solution {
 public:
     int findJudge(int N, vector<vector<int>>& trust) {
@@ -32,4 +32,4 @@ public:
         return -1;
     }
 };
-```
+// ```

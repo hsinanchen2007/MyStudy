@@ -1,9 +1,9 @@
-### 解题思路
-思路和题解差不多，两个节点间使用BFS求最短距离，唯一要注意的是C实现的时候不要用realloc，不然会严重超时。
+// ### 解题思路
+// 思路和题解差不多，两个节点间使用BFS求最短距离，唯一要注意的是C实现的时候不要用realloc，不然会严重超时。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int x;
     int y;
@@ -141,4 +141,4 @@ int cutOffTree(int **forest, int forestSize, int *forestColSize)
 
     return minStep;
 }
-```
+// ```

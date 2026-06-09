@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 class MyCircularQueue(_k: Int) {
     val k = _k
     var l = List.empty[Int]
@@ -24,4 +24,4 @@ class MyCircularQueue(_k: Int) {
     def isEmpty(): Boolean = l.isEmpty
     def isFull():  Boolean = l.length == k
 }
-```
+// ```

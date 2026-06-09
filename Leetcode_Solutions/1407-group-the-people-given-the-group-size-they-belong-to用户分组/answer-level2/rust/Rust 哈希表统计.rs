@@ -1,5 +1,5 @@
-4 ms ; 2.1 MB
-```rs
+// 4 ms ; 2.1 MB
+// ```rs
 use std::collections::HashMap;
 
 impl Solution {
@@ -19,4 +19,4 @@ impl Solution {
         r
     }
 }
-```
+// ```

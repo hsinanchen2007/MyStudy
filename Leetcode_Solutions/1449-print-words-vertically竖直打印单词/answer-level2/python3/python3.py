@@ -1,8 +1,8 @@
-### 解题思路
-最直白的思路
-### 代码
+# ### 解题思路
+# 最直白的思路
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def printVertically(self, s: str) -> List[str]:
         tmp = list(s.split(" "))
@@ -20,5 +20,5 @@ class Solution:
             while res[i][-1]==" ":
                 res[i]=res[i][:-1]
         return res
-```
-![image.png](https://pic.leetcode-cn.com/508da0e89e172e6b6671f325192dccc3a4d2062f67b8a44828364abf209671bb-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/508da0e89e172e6b6671f325192dccc3a4d2062f67b8a44828364abf209671bb-image.png)

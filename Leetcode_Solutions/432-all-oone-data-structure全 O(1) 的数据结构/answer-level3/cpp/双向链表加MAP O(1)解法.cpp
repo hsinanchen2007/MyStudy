@@ -1,4 +1,4 @@
-```
+// ```
 class AllOne {
 public:
     list<pair<int, set<string>>> DoubleList;
@@ -101,4 +101,4 @@ public:
         return "";
     }
 };
-```
+// ```

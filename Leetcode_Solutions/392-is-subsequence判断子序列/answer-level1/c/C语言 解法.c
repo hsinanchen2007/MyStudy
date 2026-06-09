@@ -1,8 +1,8 @@
-![QQ截图20200229184723.jpg](https://pic.leetcode-cn.com/ba44d3ea759aad3f96803755cc09441a8fe589d21f90ce5ed792071d9c0bb693-QQ%E6%88%AA%E5%9B%BE20200229184723.jpg)
+// ![QQ截图20200229184723.jpg](https://pic.leetcode-cn.com/ba44d3ea759aad3f96803755cc09441a8fe589d21f90ce5ed792071d9c0bb693-QQ%E6%88%AA%E5%9B%BE20200229184723.jpg)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isSubsequence(char * s, char * t){
     char* p;
     char* q = s;
@@ -21,4 +21,4 @@ bool isSubsequence(char * s, char * t){
     }
     return false;
 }
-```
+// ```

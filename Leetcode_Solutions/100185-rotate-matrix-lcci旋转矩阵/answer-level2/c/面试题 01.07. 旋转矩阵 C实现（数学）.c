@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int center = matrixSize / 2;
     int jLim = (matrixSize - 1) / 2;
@@ -18,4 +18,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
     }
     return;
 }
-```
+// ```

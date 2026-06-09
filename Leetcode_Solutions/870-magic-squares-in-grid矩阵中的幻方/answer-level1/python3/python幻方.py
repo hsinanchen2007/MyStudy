@@ -1,5 +1,5 @@
-可以先找出所有三阶幻方，再来求个数
-```
+# 可以先找出所有三阶幻方，再来求个数
+# ```
 class Solution(object):
     def numMagicSquaresInside(self, grid):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 if temp in l:
                     count += 1
         return count
-```
+# ```

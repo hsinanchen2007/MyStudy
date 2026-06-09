@@ -1,8 +1,8 @@
-# 介绍：
-暴力法一、二皆超时
-环状替换略微有些复杂，通过。
-反转法 最优
-```
+// # 介绍：
+// 暴力法一、二皆超时
+// 环状替换略微有些复杂，通过。
+// 反转法 最优
+// ```
 //暴力法一
 class Solution {
 public:
@@ -39,10 +39,10 @@ public:
         }
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5d7ee957d770370505ff8d1d853571e50e8bdb017e6fab055a355bfd60168e86-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5d7ee957d770370505ff8d1d853571e50e8bdb017e6fab055a355bfd60168e86-image.png)
 
-```
+// ```
 //环状替换
 class Solution {
 public:
@@ -64,8 +64,8 @@ public:
         }
     }
 };
-```
-```
+// ```
+// ```
 //反转法
 class Solution {
 private:
@@ -87,7 +87,7 @@ public:
         reverse(nums,k,n-1);
     }
 };
-```
+// ```
 
 
 

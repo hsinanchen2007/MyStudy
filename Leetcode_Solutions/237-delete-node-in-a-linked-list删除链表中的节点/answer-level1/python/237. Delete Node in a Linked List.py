@@ -1,8 +1,8 @@
-- 刚开始理解错了 #return filter(lambda l: l != node, head) 这么去解决问题。
-- A -> B -> C, 变成 A -> C。 B是要删除的结点, 让C变成B就好了。
+# - 刚开始理解错了 #return filter(lambda l: l != node, head) 这么去解决问题。
+# - A -> B -> C, 变成 A -> C。 B是要删除的结点, 让C变成B就好了。
 
 
-```
+# ```
 """
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 单向链表 删除一个节点
@@ -22,4 +22,4 @@ class Solution(object):
         node.value, node.next = node.value.next, node.next.next
 
 # print Solution().deleteNode(5)
-```
+# ```

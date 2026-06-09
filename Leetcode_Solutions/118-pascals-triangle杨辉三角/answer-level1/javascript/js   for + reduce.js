@@ -1,4 +1,4 @@
-```
+// ```
 var generate = function(numRows) {
     if (!numRows) return []
     let r = Array(numRows)
@@ -13,4 +13,4 @@ var generate = function(numRows) {
     }
     return r
 };
-```
+// ```

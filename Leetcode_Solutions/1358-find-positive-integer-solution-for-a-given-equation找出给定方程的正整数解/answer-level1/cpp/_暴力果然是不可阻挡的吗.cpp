@@ -1,8 +1,8 @@
-### 解题思路
-感觉难点在理解题目上 我虽然没有理解 但是觉得暴力可行
-### 代码
+// ### 解题思路
+// 感觉难点在理解题目上 我虽然没有理解 但是觉得暴力可行
+// ### 代码
 
-```cpp
+// ```cpp
 /*
  * // This is the custom function interface.
  * // You should not implement it, or speculate about its implementation
@@ -29,4 +29,4 @@ public:
             return sol;
     }
 };
-```
+// ```

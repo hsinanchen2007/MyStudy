@@ -1,6 +1,6 @@
-Java实现
+// Java实现
 
-```
+// ```
 class CustomStack {
     
     private int[] stack;
@@ -44,4 +44,4 @@ class CustomStack {
         increment[t] += val;
     }
 }
-```
+// ```

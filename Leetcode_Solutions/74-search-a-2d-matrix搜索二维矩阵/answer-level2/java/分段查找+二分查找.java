@@ -1,18 +1,18 @@
-## 1、分段查找
+// ## 1、分段查找
 
-本质上还是暴力破解，但是借助归并的思想将数组分段，可以降低遍历数量级。
+// 本质上还是暴力破解，但是借助归并的思想将数组分段，可以降低遍历数量级。
 
-将矩阵的每行首位和末位，与target比较后如果区间覆盖，就进入行数组遍历。
+// 将矩阵的每行首位和末位，与target比较后如果区间覆盖，就进入行数组遍历。
 
-时间复杂度最好的情况是O(m)，最差的情况是O(m+n).
+// 时间复杂度最好的情况是O(m)，最差的情况是O(m+n).
 
-代码：
+// 代码：
 
-执行用时 : 0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 : 0 ms, 在所有 Java 提交中击败了100.00%的用户
 
-内存消耗 :  42.1 MB, 在所有 Java 提交中击败了21.18%的用户
+// 内存消耗 :  42.1 MB, 在所有 Java 提交中击败了21.18%的用户
 
-```java
+// ```java
 public boolean searchMatrix(int[][] matrix, int target){
     if (matrix.length ==0) return false;
     
@@ -32,27 +32,27 @@ public boolean searchMatrix(int[][] matrix, int target){
     }
     return false;
 }
-```
+// ```
 
 
 
-## 2、二分查找
+// ## 2、二分查找
 
-查看题目：行数组内递增，每行之间递增，所以整个矩阵就是个递增序列。
+// 查看题目：行数组内递增，每行之间递增，所以整个矩阵就是个递增序列。
 
-使用二分查找，关键在于序列下标index在规则的mxn矩阵中，index/n可以定位行，index%n可以定位列。
+// 使用二分查找，关键在于序列下标index在规则的mxn矩阵中，index/n可以定位行，index%n可以定位列。
 
-其余的与普通二分查找没区别。序列的总长度是mxn，所以时间复杂度是O(log(mn)).
+// 其余的与普通二分查找没区别。序列的总长度是mxn，所以时间复杂度是O(log(mn)).
 
-与分段查找相比，二分查找在数据量大的情况下优势依然明显。
+// 与分段查找相比，二分查找在数据量大的情况下优势依然明显。
 
-代码：
+// 代码：
 
-执行用时 : 0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 : 0 ms, 在所有 Java 提交中击败了100.00%的用户
 
-内存消耗 : 42 MB, 在所有 Java 提交中击败了23.77%的用户
+// 内存消耗 : 42 MB, 在所有 Java 提交中击败了23.77%的用户
 
-```java
+// ```java
 public boolean searchMatrix(int[][] matrix,int target){
     int m = matrix.length;
     if (m==0) return false;
@@ -71,5 +71,5 @@ public boolean searchMatrix(int[][] matrix,int target){
     }
     return false;
 }
-```
+// ```
 

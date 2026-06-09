@@ -1,8 +1,8 @@
-思路：
-1. 首先要遍历A找出与B根节点一样值的节点R
-2. 然后判断树A中以R为根节点的子树是否包含和B一样的结构
+// 思路：
+// 1. 首先要遍历A找出与B根节点一样值的节点R
+// 2. 然后判断树A中以R为根节点的子树是否包含和B一样的结构
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     bool isSubStructure(TreeNode* A, TreeNode* B) {
@@ -40,8 +40,8 @@ public:
         return helper(A->left, B->left) && helper(A->right, B->right);
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def isSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
         res = False
@@ -62,8 +62,8 @@ class Solution:
         if A.val != B.val:
             return False
         return self.helper(A.left, B.left) and self.helper(A.right, B.right)
-```
-[更多剑指offer题解（C++与Python实现）](https://github.com/bryceustc/CodingInterviews)
+// ```
+// [更多剑指offer题解（C++与Python实现）](https://github.com/bryceustc/CodingInterviews)
 
-[更多LeetCode题解（C++与Python实现）](https://github.com/bryceustc/LeetCode_Note)
+// [更多LeetCode题解（C++与Python实现）](https://github.com/bryceustc/LeetCode_Note)
 

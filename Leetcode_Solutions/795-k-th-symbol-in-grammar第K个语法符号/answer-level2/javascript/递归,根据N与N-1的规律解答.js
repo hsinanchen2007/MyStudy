@@ -1,4 +1,4 @@
-```
+// ```
 //优化后的算法,不会占用过多堆内存
 var kthGrammar = function(N, K) {
   /*
@@ -42,4 +42,4 @@ var kthGrammar = function(N, K) {
 
   return getValue(N, K);
 };
-```
+// ```

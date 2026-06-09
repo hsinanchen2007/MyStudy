@@ -1,10 +1,10 @@
-### 解题思路
-买入股票的时机，一定会在波谷出现，但不确定是哪一个。
-卖出股票的时机，一定会在波峰出现，但不确定是哪一个。
+// ### 解题思路
+// 买入股票的时机，一定会在波谷出现，但不确定是哪一个。
+// 卖出股票的时机，一定会在波峰出现，但不确定是哪一个。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) {
@@ -22,4 +22,4 @@ class Solution {
         return profit;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* rotateRight(struct ListNode* head, int k){
     struct ListNode * preHead    = (struct ListNode *)malloc(sizeof(struct ListNode));
     struct ListNode * p          = NULL;
@@ -24,4 +24,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     p->next = NULL;
     return preHead->next;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-采用kmp方式
-```
+// 采用kmp方式
+// ```
 // 采用 kmp 方式匹配
 int strStr(char * haystack, char * needle){
 
@@ -47,4 +47,4 @@ int strStr(char * haystack, char * needle){
 
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时：4 ms
-已经战胜 100.00 % 的 c 提交记录
-```c
+// 执行用时：4 ms
+// 已经战胜 100.00 % 的 c 提交记录
+// ```c
 char * toGoatLatin(char * S){
     char *start = S;
     char *end;
@@ -46,4 +46,4 @@ char * toGoatLatin(char * S){
     }
     return r;
 }
-```
+// ```

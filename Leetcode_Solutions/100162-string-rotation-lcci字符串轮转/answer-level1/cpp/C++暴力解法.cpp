@@ -1,12 +1,12 @@
-### 解题思路
-我的方法是不是原地“暴”炸了 ┭┮﹏┭┮
+// ### 解题思路
+// 我的方法是不是原地“暴”炸了 ┭┮﹏┭┮
 
-![image.png](https://pic.leetcode-cn.com/b8a7d71b3917c14da95dfa59ff89eccaa3f318b03577cd3975b12b8b00565b4b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b8a7d71b3917c14da95dfa59ff89eccaa3f318b03577cd3975b12b8b00565b4b-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isFlipedString(string s1, string s2) {
@@ -56,4 +56,4 @@ public:
             return false;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n == 1: return '1'
@@ -17,4 +17,4 @@ class Solution:
                 fast += 1
         return result_str + f"{fast - slow}{num_str[slow]}"
 
-```
+# ```

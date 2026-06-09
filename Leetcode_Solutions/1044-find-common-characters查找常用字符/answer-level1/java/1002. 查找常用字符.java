@@ -1,6 +1,6 @@
 
-用一个数组count存放每个字符串中都重复的字符个数，用数组currCount计算当前字符串都出现字符的总个数，然后比较一下两个数组count和currCount中谁的次数更少（取交集）。时间复杂度O(n+m)
-```
+// 用一个数组count存放每个字符串中都重复的字符个数，用数组currCount计算当前字符串都出现字符的总个数，然后比较一下两个数组count和currCount中谁的次数更少（取交集）。时间复杂度O(n+m)
+// ```
     public static List<String> commonChars(String[] A) {
         List<String> ans = new ArrayList<>();
         int[] count = new int[26]; // 每个字符串中都重复的字符个数
@@ -30,9 +30,9 @@
         return ans;
     }
 
-```
-代码行数优化
-```
+// ```
+// 代码行数优化
+// ```
     public static List<String> commonChars(String[] A) {
         List<String> ans = new ArrayList<>();
         int[] count = new int[26]; // 每个字符串中都重复的字符个数
@@ -55,4 +55,4 @@
         }
         return ans;
     }
-```
+// ```

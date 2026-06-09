@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         if len(s2) < len(s1): return False
@@ -22,4 +22,4 @@ class Solution:
             
             if len(dic) == 0: return True
         return False
-```
+# ```

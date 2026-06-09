@@ -1,7 +1,7 @@
-执行用时 :12 ms, 在所有 Java 提交中击败了91.46%的用户
-内存消耗 :39.7 MB, 在所有 Java 提交中击败了100.00%的用户
-参考下这位朋友[https://leetcode-cn.com/u/stevefrank/](https://leetcode-cn.com/u/stevefrank/)的[https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/solution/java-by-stevefrank/](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/solution/java-by-stevefrank/) 的解答
-```
+// 执行用时 :12 ms, 在所有 Java 提交中击败了91.46%的用户
+// 内存消耗 :39.7 MB, 在所有 Java 提交中击败了100.00%的用户
+// 参考下这位朋友[https://leetcode-cn.com/u/stevefrank/](https://leetcode-cn.com/u/stevefrank/)的[https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/solution/java-by-stevefrank/](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/solution/java-by-stevefrank/) 的解答
+// ```
 class Solution {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
         int[] result = new int[queries.length];
@@ -49,4 +49,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

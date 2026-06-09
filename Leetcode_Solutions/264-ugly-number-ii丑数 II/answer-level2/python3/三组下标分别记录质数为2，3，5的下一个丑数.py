@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         ret, index = [1], [0, 0, 0]
@@ -8,4 +8,4 @@ class Solution:
                 if ret[-1] == ret[index[j]]*[2, 3, 5][j]:
                     index[j] += 1            
         return ret[-1]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-这里主要是要控制一个 2k, k 以及剩余的元素的个数。
+# ### 解题思路
+# 这里主要是要控制一个 2k, k 以及剩余的元素的个数。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         n = len(s)
@@ -21,4 +21,4 @@ class Solution:
                     res = res + s[i:][::-1]
                 break
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索，用string记录路径
+// ### 解题思路
+// 深度优先搜索，用string记录路径
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,5 +36,5 @@ public:
         dfs(res, str, node->right);
     }
 };
-```
-![码农黑板报.png](https://pic.leetcode-cn.com/27df4b965401f0da621fdd899b15fd97b0ad93d8737c5ede51508144d3d78798-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)
+// ```
+// ![码农黑板报.png](https://pic.leetcode-cn.com/27df4b965401f0da621fdd899b15fd97b0ad93d8737c5ede51508144d3d78798-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)

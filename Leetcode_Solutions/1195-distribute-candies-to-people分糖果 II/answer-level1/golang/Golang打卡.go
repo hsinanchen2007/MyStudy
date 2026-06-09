@@ -1,8 +1,8 @@
-### 解题思路
-数学方法
+// ### 解题思路
+// 数学方法
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 func distributeCandies(candies int, num_people int) []int {
 	var (
 		result = make([]int, num_people)
@@ -24,4 +24,4 @@ func distributeCandies(candies int, num_people int) []int {
 	}
 	return result
 }
-```
+// ```

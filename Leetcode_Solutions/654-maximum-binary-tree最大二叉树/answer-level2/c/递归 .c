@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/8dd76e6ca29c0a9bc99d45864df17dbb04c617deee6b9cb751bbba1a9b0ff421-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/8dd76e6ca29c0a9bc99d45864df17dbb04c617deee6b9cb751bbba1a9b0ff421-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ struct TreeNode* process(int* nums, int start, int end){
 struct TreeNode* constructMaximumBinaryTree(int* nums, int numsSize){
     return process(nums, 0, numsSize);
 }
-```
+// ```

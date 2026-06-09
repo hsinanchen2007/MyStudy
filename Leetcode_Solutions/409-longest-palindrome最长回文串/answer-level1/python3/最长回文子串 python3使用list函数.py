@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-效率不高，记录一下自己的思路
+# 效率不高，记录一下自己的思路
 
-用list函数将字符串的每个字符都分来
-一个字母同时出现两次，就去掉，cnt + 2
-最后判断还有没有单独的一个字母，cnt + 1，这里用flag来标记是不是有奇数的字母
+# 用list函数将字符串的每个字符都分来
+# 一个字母同时出现两次，就去掉，cnt + 2
+# 最后判断还有没有单独的一个字母，cnt + 1，这里用flag来标记是不是有奇数的字母
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         cnt = 0
@@ -30,4 +30,4 @@ class Solution:
             flag = 1
         cnt = cnt + flag
         return cnt
-```
+# ```

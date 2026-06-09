@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         s_len, t_len = len(s), len(t)
@@ -14,4 +14,4 @@ class Solution:
             j += 1
         return i == s_len
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var waysToStep = function(n) {
   const dp = new Array(n)
   let m = 1e9+7
@@ -10,4 +10,4 @@ var waysToStep = function(n) {
   }
   return dp[n]
 };
-```
+// ```

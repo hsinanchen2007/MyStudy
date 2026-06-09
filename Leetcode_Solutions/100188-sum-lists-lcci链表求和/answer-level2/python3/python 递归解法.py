@@ -1,8 +1,8 @@
-python 递归解法
-和445一样
-[445] 两数相加 II
-https://leetcode-cn.com/problems/add-two-numbers-ii/description/
-```python3
+# python 递归解法
+# 和445一样
+# [445] 两数相加 II
+# https://leetcode-cn.com/problems/add-two-numbers-ii/description/
+# ```python3
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         # 循环计算每一位的和
         # cnt是l1-l2的长度差异
@@ -40,7 +40,7 @@ https://leetcode-cn.com/problems/add-two-numbers-ii/description/
             dummy.next = l1
             l1 = dummy                 #更新l1
         return l1
-```
-不过这题python的测试用例有问题，一会正一会反，迷之操作
-![WechatIMG13.jpeg](https://pic.leetcode-cn.com/abac5dea3d086f816097e2ebadf24d2ed079f9426b1146a957d3a093d73f3bc5-WechatIMG13.jpeg)
-![WechatIMG14.png](https://pic.leetcode-cn.com/c0ead44003efa71bb85af8a3d0b2b0eecf4bd07dab67ced87bc8aeb9be606005-WechatIMG14.png)
+# ```
+# 不过这题python的测试用例有问题，一会正一会反，迷之操作
+# ![WechatIMG13.jpeg](https://pic.leetcode-cn.com/abac5dea3d086f816097e2ebadf24d2ed079f9426b1146a957d3a093d73f3bc5-WechatIMG13.jpeg)
+# ![WechatIMG14.png](https://pic.leetcode-cn.com/c0ead44003efa71bb85af8a3d0b2b0eecf4bd07dab67ced87bc8aeb9be606005-WechatIMG14.png)

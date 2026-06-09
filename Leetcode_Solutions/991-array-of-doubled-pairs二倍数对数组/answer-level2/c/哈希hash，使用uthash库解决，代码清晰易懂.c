@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/66d899a9caa16ca3c5246010509586007687ed580cf4a4204506db153c8db3a8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/66d899a9caa16ca3c5246010509586007687ed580cf4a4204506db153c8db3a8-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <uthash.h>
 struct Number {
     int key;
@@ -81,4 +81,4 @@ bool canReorderDoubled(int *nums, int numsSize)
     Release(&ha);
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-把两个链表接在一起
+# ### 解题思路
+# 把两个链表接在一起
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
             tB=tB.next if tB else headA
         return tA
       
-```
+# ```

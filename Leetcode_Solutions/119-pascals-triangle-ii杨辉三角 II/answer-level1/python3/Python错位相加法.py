@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         a = [1]
@@ -7,4 +7,4 @@ class Solution:
             a, b = [0]+a, b+[0]
             a = [a[i]+b[i] for i in range(len(a))]
         return a
-```
+# ```

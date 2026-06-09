@@ -1,11 +1,11 @@
-### 解题思路
-- 当k=0时，直接返回
-- 当k!=0且shorter==longer时，返回{shorter*k}
-- 当k!=0且shorter!=longer时，res[i]=res[i-1]+longer-shorter，注意res的size为k+1
+// ### 解题思路
+// - 当k=0时，直接返回
+// - 当k!=0且shorter==longer时，返回{shorter*k}
+// - 当k!=0且shorter!=longer时，res[i]=res[i-1]+longer-shorter，注意res的size为k+1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> divingBoard(int shorter, int longer, int k) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

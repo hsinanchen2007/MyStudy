@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int key;
     int value;
@@ -96,4 +96,4 @@ void lFUCacheFree(LFUCache* obj) {
  
  * lFUCacheFree(obj);
 */
-```
+// ```

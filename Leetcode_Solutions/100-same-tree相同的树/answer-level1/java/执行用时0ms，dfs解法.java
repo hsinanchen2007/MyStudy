@@ -1,8 +1,8 @@
-### 解题思路
-很简单思路，dfs判断所有节点是否相同，注意是两棵树相同位置的两个节点同时进行比较，一旦不满足条件返回结果
-### 代码
+// ### 解题思路
+// 很简单思路，dfs判断所有节点是否相同，注意是两棵树相同位置的两个节点同时进行比较，一旦不满足条件返回结果
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return rightResult;
     }
 }
-```
+// ```

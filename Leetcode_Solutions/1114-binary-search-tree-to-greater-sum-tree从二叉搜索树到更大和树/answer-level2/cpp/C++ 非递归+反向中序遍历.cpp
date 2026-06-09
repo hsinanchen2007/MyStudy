@@ -1,6 +1,6 @@
-## 代码
+// ## 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* bstToGst(TreeNode* root) {
@@ -27,4 +27,4 @@ public:
         return root;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-官方题解，精辟
+// ### 解题思路
+// 官方题解，精辟
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -19,4 +19,4 @@ public:
         return j == popped.size();
     }
 };
-```
+// ```

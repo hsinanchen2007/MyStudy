@@ -1,16 +1,16 @@
-### 解题思路
-又是看题半小时做题十分钟（转一个别人的思路，因为我没看懂题目）
+// ### 解题思路
+// 又是看题半小时做题十分钟（转一个别人的思路，因为我没看懂题目）
 
-作者：lately
-链接：https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/lu-di-bu-duan-chang-da-zhi-dao-fu-gai-zheng-ge-di-/
-![image.png](https://pic.leetcode-cn.com/9393893fba0ffa4870d24c6e8827dee13967ba882aad02b2049e41441f302ba6-image.png)
+// 作者：lately
+// 链接：https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/lu-di-bu-duan-chang-da-zhi-dao-fu-gai-zheng-ge-di-/
+// ![image.png](https://pic.leetcode-cn.com/9393893fba0ffa4870d24c6e8827dee13967ba882aad02b2049e41441f302ba6-image.png)
 
-在这里插入图片描述
-看懂了题目这道题就挺简单的。就是遍历所有的陆地，然后bfs不断的一轮一轮扩大陆地
+// 在这里插入图片描述
+// 看懂了题目这道题就挺简单的。就是遍历所有的陆地，然后bfs不断的一轮一轮扩大陆地
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     
@@ -60,4 +60,4 @@ public:
         return ans - 1 ;
     }
 };
-```
+// ```

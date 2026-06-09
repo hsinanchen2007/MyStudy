@@ -1,8 +1,8 @@
-采用归并算法排序链表,主要包括两个关键步骤
-- 将链表划分为左右两部分子链表
-- 对两个有序链表进行合并
+// 采用归并算法排序链表,主要包括两个关键步骤
+// - 将链表划分为左右两部分子链表
+// - 对两个有序链表进行合并
 
-```
+// ```
 //将链表切分为左右两半
 void divideList(struct ListNode *head, int n,
                  struct ListNode **leftHead, struct ListNode **rightHead){
@@ -57,4 +57,4 @@ struct ListNode* sortList(struct ListNode* head){
     return _sortList(head, i);
 }
 
-```
+// ```

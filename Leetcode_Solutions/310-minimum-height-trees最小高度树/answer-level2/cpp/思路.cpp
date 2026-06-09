@@ -1,10 +1,10 @@
-### 解题思路
-很像拓扑排序的变种算法
-无向图需要注意的入度是1来判断 另外最后是留2个节点
+// ### 解题思路
+// 很像拓扑排序的变种算法
+// 无向图需要注意的入度是1来判断 另外最后是留2个节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
@@ -55,4 +55,4 @@ public:
       return res;
     }
 };
-```
+// ```

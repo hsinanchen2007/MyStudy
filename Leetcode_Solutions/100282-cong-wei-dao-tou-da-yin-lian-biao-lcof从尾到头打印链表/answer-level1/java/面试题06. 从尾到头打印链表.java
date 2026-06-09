@@ -1,11 +1,11 @@
-### 解题思路
-1、将链表翻转，同时记录链表长度
-2、遍历翻转后的链表，输出节点值到数组
-这里遍历了两遍链表，时间复杂度为O(n)，空间复杂度为O(1)
+// ### 解题思路
+// 1、将链表翻转，同时记录链表长度
+// 2、遍历翻转后的链表，输出节点值到数组
+// 这里遍历了两遍链表，时间复杂度为O(n)，空间复杂度为O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,11 +49,11 @@ class Solution {
         return array;
     }
 }
-```
+// ```
 
-另一种更方便的做法，不翻转链表，同样是遍历两次链表。
-第一次先获得链表长度，第二次遍历倒序插入数组
-```java
+// 另一种更方便的做法，不翻转链表，同样是遍历两次链表。
+// 第一次先获得链表长度，第二次遍历倒序插入数组
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -86,4 +86,4 @@ class Solution {
         return array;
     }
 }
-```
+// ```

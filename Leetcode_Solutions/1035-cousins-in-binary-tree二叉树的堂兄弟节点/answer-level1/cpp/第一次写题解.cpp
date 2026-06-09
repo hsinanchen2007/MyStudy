@@ -1,7 +1,7 @@
-按照自己的思路写了个BFS，哪里可以优化的欢迎提出宝贵意见。
+// 按照自己的思路写了个BFS，哪里可以优化的欢迎提出宝贵意见。
 
 
-```
+// ```
 class Solution {
 public:
     bool isCousins(TreeNode* root, int x, int y) {
@@ -37,6 +37,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
 

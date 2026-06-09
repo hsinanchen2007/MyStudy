@@ -1,5 +1,5 @@
-快慢指针
-```
+// 快慢指针
+// ```
 ListNode* middleNode(ListNode* head) {
         
         ListNode* slow = head;
@@ -11,4 +11,4 @@ ListNode* middleNode(ListNode* head) {
         }
         return slow;
     }
-```
+// ```

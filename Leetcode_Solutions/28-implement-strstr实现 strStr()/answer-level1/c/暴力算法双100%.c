@@ -1,9 +1,9 @@
-### 解题思路
-暴力算法
+// ### 解题思路
+// 暴力算法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle)
 {
 int haystack_len=strlen(haystack);
@@ -33,4 +33,4 @@ return -1;
     
 
 }
-```
+// ```

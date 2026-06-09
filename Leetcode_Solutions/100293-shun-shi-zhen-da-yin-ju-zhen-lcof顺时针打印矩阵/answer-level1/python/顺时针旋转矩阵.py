@@ -1,10 +1,10 @@
-### 解题思路
-执行时间很长，只是分享一下思路
-不停的旋转矩阵，每次输出第一行，直到矩阵为空
+# ### 解题思路
+# 执行时间很长，只是分享一下思路
+# 不停的旋转矩阵，每次输出第一行，直到矩阵为空
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         def T(matrix):
@@ -24,4 +24,4 @@ class Solution:
                 matrix=T(matrix)
         return re
 
-```
+# ```

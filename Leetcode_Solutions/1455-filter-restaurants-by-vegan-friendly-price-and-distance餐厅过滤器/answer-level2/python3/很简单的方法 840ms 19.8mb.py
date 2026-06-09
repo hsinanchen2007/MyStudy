@@ -1,9 +1,9 @@
-### 解题思路
-先筛选后排序
+# ### 解题思路
+# 先筛选后排序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def filterRestaurants(self, restaurants: List[List[int]], veganFriendly: int, maxPrice: int, maxDistance: int) -> List[int]:
         
@@ -16,4 +16,4 @@ class Solution:
         for res in restaurants:
             result.append(res[0])
         return result
-```
+# ```

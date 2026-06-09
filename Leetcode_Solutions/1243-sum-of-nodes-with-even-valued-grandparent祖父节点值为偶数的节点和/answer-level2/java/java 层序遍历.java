@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int sumEvenGrandparent(TreeNode root) {
         int result = 0;
@@ -38,5 +38,5 @@ class Solution {
         return result;
     }
 }
-```
-遍历，对val是偶数的节点的孙子的值求和。
+// ```
+// 遍历，对val是偶数的节点的孙子的值求和。

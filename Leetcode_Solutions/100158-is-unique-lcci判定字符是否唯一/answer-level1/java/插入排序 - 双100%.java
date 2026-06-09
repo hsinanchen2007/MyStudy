@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-插入排序，比较条件中加入相等的比较
+// 插入排序，比较条件中加入相等的比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         if (astr == null || "".equals(astr) || astr.length() == 1) {
@@ -28,4 +28,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

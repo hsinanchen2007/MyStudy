@@ -1,1 +1,1 @@
-javaScript已经提供了方法 reverse 一行代码搞定 return s.reverse()
+// javaScript已经提供了方法 reverse 一行代码搞定 return s.reverse()

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
  int strStr(string haystack, string needle) {
 	int m = haystack.size();
 	int n = needle.size();
@@ -18,4 +18,4 @@
 	}
 	return -1;
 }
-```
+// ```

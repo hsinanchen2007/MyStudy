@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String validIPAddress(String IP) {
     	if(IP.length()==0) return "Neither";
@@ -41,4 +41,4 @@ class Solution {
     	return true;
     }
 }		
-```
+// ```

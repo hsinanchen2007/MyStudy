@@ -1,9 +1,9 @@
-### 解题思路
-方法一、比较复杂
+// ### 解题思路
+// 方法一、比较复杂
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -32,13 +32,13 @@ var intersection = function(nums1, nums2) {
     }
     return arr;
 };
-```
-方法二、利用set的一些性质
-```
+// ```
+// 方法二、利用set的一些性质
+// ```
 var intersection = function(nums1, nums2) {
     var a=new Set(nums1);
     var b=new Set(nums2);
     let intersect = new Set([...a].filter(x => b.has(x)));
     return [...intersect];
 };
-```
+// ```

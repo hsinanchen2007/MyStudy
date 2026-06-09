@@ -1,11 +1,11 @@
-### 解题思路
-循环遍历，从num1、num2的后向前逐个获取对应的n1、n2的整数值，sum = n1+n2，sum/10即是进位，sum%10即是当前位的值，当前位的值就可以加入结果字符串，即res = (sum%10)+res,  上边的sum值还要加上上一次的进位。
-遍历完num1和num2为止，循环结束。
-注意：最后要判断一次进位是否大于0，如果大于0要加到结果字符串中。
+// ### 解题思路
+// 循环遍历，从num1、num2的后向前逐个获取对应的n1、n2的整数值，sum = n1+n2，sum/10即是进位，sum%10即是当前位的值，当前位的值就可以加入结果字符串，即res = (sum%10)+res,  上边的sum值还要加上上一次的进位。
+// 遍历完num1和num2为止，循环结束。
+// 注意：最后要判断一次进位是否大于0，如果大于0要加到结果字符串中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
         int len1 = num1.length();
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-方法1：
+// 方法1：
 
-```
+// ```
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
@@ -19,11 +19,11 @@ public:
         return head;
     }
 };
-```
+// ```
 
-方法2：
+// 方法2：
 
-```
+// ```
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
@@ -48,4 +48,4 @@ public:
         return head;
     }
 };
-```
+// ```

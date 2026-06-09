@@ -1,9 +1,9 @@
-### 解题思路
-注意理解贪心处理思维，处理连续总和问题。
+// ### 解题思路
+// 注意理解贪心处理思维，处理连续总和问题。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
 
     }
 };
-```
+// ```

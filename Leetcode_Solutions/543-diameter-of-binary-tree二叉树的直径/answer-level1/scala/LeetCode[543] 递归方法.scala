@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def depth(root: TreeNode): Int = {
     if (root == null) return 0
@@ -11,4 +11,4 @@ object Solution {
     List(r, diameterOfBinaryTree(root.left), diameterOfBinaryTree(root.right)).max
   }
 }
-```
+// ```

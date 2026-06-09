@@ -1,25 +1,25 @@
-### 解题思路
-动态规划问题。
+// ### 解题思路
+// 动态规划问题。
 
-dp[i][0]表示第0间房屋未被盗，0~i最大收益;
-dp[i][1]表示第0间房屋被盗，0~i最大收益;
+// dp[i][0]表示第0间房屋未被盗，0~i最大收益;
+// dp[i][1]表示第0间房屋被盗，0~i最大收益;
 
-当i不是最后一间屋子时，
-dp[i][0] = MMAX(dp[i - 1][0], dp[i - 2][0] + nums[i]);
-dp[i][1] = MMAX(dp[i - 1][1], dp[i - 2][1] + nums[i]);
+// 当i不是最后一间屋子时，
+// dp[i][0] = MMAX(dp[i - 1][0], dp[i - 2][0] + nums[i]);
+// dp[i][1] = MMAX(dp[i - 1][1], dp[i - 2][1] + nums[i]);
 
-在最后一间屋子，
-dp[numsSize - 1][0] = MMAX(dp[numsSize - 2][0], dp[numsSize - 3][0] + nums[numsSize - 1]);
-dp[numsSize - 1][1] = dp[numsSize - 2][1];
+// 在最后一间屋子，
+// dp[numsSize - 1][0] = MMAX(dp[numsSize - 2][0], dp[numsSize - 3][0] + nums[numsSize - 1]);
+// dp[numsSize - 1][1] = dp[numsSize - 2][1];
 
-最后，结果为MMAX(dp[numsSize - 1][0], dp[numsSize - 1][1])
+// 最后，结果为MMAX(dp[numsSize - 1][0], dp[numsSize - 1][1])
 
-![image.png](https://pic.leetcode-cn.com/73af47b378118fd948e092727a0852959899bf775c8ea7e4be0c80f0fdd202e0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/73af47b378118fd948e092727a0852959899bf775c8ea7e4be0c80f0fdd202e0-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -74,4 +74,4 @@ int rob(int* nums, int numsSize){
 */
     return MMAX(dp[numsSize - 1][0], dp[numsSize - 1][1]);
 }
-```
+// ```

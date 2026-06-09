@@ -1,10 +1,10 @@
-### 解题思路
-找到K的最小和最大值进行遍历。
-最小的k肯定大于等于所有香蕉的总和除H小时。
+// ### 解题思路
+// 找到K的最小和最大值进行遍历。
+// 最小的k肯定大于等于所有香蕉的总和除H小时。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minEatingSpeed(int* piles, int pilesSize, int H){
     int maxSpeed = 0;
     long long totalBanana = 0;
@@ -25,4 +25,4 @@ int minEatingSpeed(int* piles, int pilesSize, int H){
     }
     return maxSpeed;
 }
-```
+// ```

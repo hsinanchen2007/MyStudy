@@ -1,12 +1,12 @@
-### 解题思路
-使用几个变量分别记录当前状态
-left_arr_index  -> 目前左边数组结束index
-left_arr_big    -> 目前左边数组包含的最大值
-now_big         -> 目前遍历到i节点时遇到的最大的值
+// ### 解题思路
+// 使用几个变量分别记录当前状态
+// left_arr_index  -> 目前左边数组结束index
+// left_arr_big    -> 目前左边数组包含的最大值
+// now_big         -> 目前遍历到i节点时遇到的最大的值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int partitionDisjoint(int* A, int ASize){
     int mm = A[0];
     int i = 0;
@@ -28,4 +28,4 @@ int partitionDisjoint(int* A, int ASize){
     }
     return left_arr_index + 1;
 }
-```
+// ```

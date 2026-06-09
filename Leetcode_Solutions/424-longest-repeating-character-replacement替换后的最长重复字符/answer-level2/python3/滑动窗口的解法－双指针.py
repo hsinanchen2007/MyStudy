@@ -1,5 +1,5 @@
-解法：用字典保存字母出现的次数，需要替换的字符数目＝窗口字符数目－数量最多的字符数目
-```
+# 解法：用字典保存字母出现的次数，需要替换的字符数目＝窗口字符数目－数量最多的字符数目
+# ```
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         # 用字典保存字母出现的次数，需要替换的字符数目＝窗口字符数目－数量最多的字符数目
@@ -21,5 +21,5 @@ class Solution:
             res = max(res, r - l + 1)
             
         return res
-```
+# ```
 

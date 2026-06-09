@@ -1,10 +1,10 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/d9fe25468fa23dbad2cbe07dda485f4b216f951ec2cab87d4ab4bf36a624cd08-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/d9fe25468fa23dbad2cbe07dda485f4b216f951ec2cab87d4ab4bf36a624cd08-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
     t1->right=mergeTrees(t1->right,t2->right);
     return t1;
 }
-```
+// ```

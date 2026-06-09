@@ -1,9 +1,9 @@
-### 解题思路
-## **请哨兵是不可能的**
+// ### 解题思路
+// ## **请哨兵是不可能的**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
 		return head;
     }
 }
-```
+// ```

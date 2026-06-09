@@ -1,9 +1,9 @@
-执行用时 :48 ms, 在所有Python3提交中击败了94.86%的用户
-内存消耗 :13.1 MB, 在所有Python3提交中击败了64.62%的用户
+# 执行用时 :48 ms, 在所有Python3提交中击败了94.86%的用户
+# 内存消耗 :13.1 MB, 在所有Python3提交中击败了64.62%的用户
 
-这是我想到的唯一一个解决这个问题的笨方法
+# 这是我想到的唯一一个解决这个问题的笨方法
 
-```python []
+# ```python []
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
             for k in range(int(val)):
                 nums[z]=j
                 z+=1
-```
+# ```

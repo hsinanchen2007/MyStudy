@@ -1,5 +1,5 @@
 
-```rust
+// ```rust
 type Link = Option<Box<ListNode>>;
 impl Solution {
 
@@ -29,4 +29,4 @@ impl Solution {
         head
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：入栈：O(1), 出栈：O(n), 一般情况下不会是O(n)
+// ### 解题思路
+// 时间复杂度：入栈：O(1), 出栈：O(n), 一般情况下不会是O(n)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
 
     private Stack<Integer> sIn;
@@ -36,4 +36,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

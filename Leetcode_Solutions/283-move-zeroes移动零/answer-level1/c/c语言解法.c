@@ -1,9 +1,9 @@
-### 解题思路
-从后往前覆盖。
+// ### 解题思路
+// 从后往前覆盖。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void moveZeroes(int* nums, int numsSize){
     int size=numsSize;
     for(int i=0;i<size;)
@@ -22,4 +22,4 @@ void moveZeroes(int* nums, int numsSize){
     for(int i=size;i<numsSize;i++)
     nums[i]=0;
 }
-```
+// ```

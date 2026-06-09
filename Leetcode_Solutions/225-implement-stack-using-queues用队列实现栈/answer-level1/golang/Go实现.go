@@ -1,4 +1,4 @@
-```
+// ```
 type MyStack struct {
     data []int
 }
@@ -48,4 +48,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

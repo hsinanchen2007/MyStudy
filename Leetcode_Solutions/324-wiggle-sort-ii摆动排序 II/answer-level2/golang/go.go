@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func wiggleSort(nums []int) {
@@ -17,4 +17,4 @@ func wiggleSort(nums []int) {
 		}
 	}
 }
-```
+// ```

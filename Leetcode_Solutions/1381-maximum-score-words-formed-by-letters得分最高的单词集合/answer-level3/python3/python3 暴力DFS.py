@@ -1,10 +1,10 @@
-### 解题思路
-先处理了一下words中的每一个单词的信息和letters里的信息，然后暴力的搜索+剪枝。
-代码写的极丑。
+# ### 解题思路
+# 先处理了一下words中的每一个单词的信息和letters里的信息，然后暴力的搜索+剪枝。
+# 代码写的极丑。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:
         if not letters:
@@ -57,4 +57,4 @@ class Solution:
             for k, v in word_info[2].items():
                 letter_cnt[k] += v
         self.res = max(self.res, cur)
-```
+# ```

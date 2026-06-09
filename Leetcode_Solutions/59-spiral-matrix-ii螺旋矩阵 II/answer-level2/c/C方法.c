@@ -1,5 +1,5 @@
-模拟填值。
-```
+// 模拟填值。
+// ```
 int dir[4][2] = {{1, 0}, {0, -1}, {-1, 0}, {0, 1}}; // 每次变方向后x轴和y轴的变化
 int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
     int i, j;
@@ -39,4 +39,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
     }
     return output;
 }
-```
+// ```

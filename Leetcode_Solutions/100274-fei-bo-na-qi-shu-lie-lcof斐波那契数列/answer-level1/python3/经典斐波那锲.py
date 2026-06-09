@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度 O(N)
+# ### 解题思路
+# 时间复杂度 O(N)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, n: int) -> int:
         a,b = 0,1
@@ -11,4 +11,4 @@ class Solution:
             b,a=a+b,b
         return a % 1000000007
 
-```
+# ```

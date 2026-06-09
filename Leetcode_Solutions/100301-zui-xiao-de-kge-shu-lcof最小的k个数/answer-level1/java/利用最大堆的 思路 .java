@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class heap{
       public  int data[]; //存储数据的数组 
@@ -132,4 +132,4 @@ class Solution {
         arr[r]=tmp;
     }*/
 }
-```
+// ```

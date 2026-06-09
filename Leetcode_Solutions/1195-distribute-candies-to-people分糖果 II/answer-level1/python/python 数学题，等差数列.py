@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             mod -= should
             res.append((i + 1 + i + 1 + num_people * (num -1) ) * num / 2 + last)
         return res
-```
+# ```

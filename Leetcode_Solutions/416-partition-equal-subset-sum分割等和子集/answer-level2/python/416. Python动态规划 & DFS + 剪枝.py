@@ -1,9 +1,9 @@
-### 解题思路
-下面给出了动态规划以及DFS + 剪枝的代码，但是DFS + 剪枝会超时，所以仅仅是提供一个思路，动态规划给出了三种实现，使用的空间越来越小，分别对应使用N \* (sum // 2 + 1)、2 \* (sum // 2 + 1)以及sum // 2 + 1的数组。
+# ### 解题思路
+# 下面给出了动态规划以及DFS + 剪枝的代码，但是DFS + 剪枝会超时，所以仅仅是提供一个思路，动态规划给出了三种实现，使用的空间越来越小，分别对应使用N \* (sum // 2 + 1)、2 \* (sum // 2 + 1)以及sum // 2 + 1的数组。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canPartition_dfs(self, nums):
         """
@@ -114,4 +114,4 @@ class Solution(object):
                 not_use_res = dp[i - 1][j]
                 dp[i][j] = use_res or not_use_res
         return dp[-1][-1]
-```
+# ```

@@ -1,7 +1,7 @@
-主要是ascci码的使用
+// 主要是ascci码的使用
 
 
-```
+// ```
 var groupAnagrams = function(strs) {
     if(strs.length === 0) {
         return []
@@ -27,4 +27,4 @@ var groupAnagrams = function(strs) {
     }
     return result
 };
-```
+// ```

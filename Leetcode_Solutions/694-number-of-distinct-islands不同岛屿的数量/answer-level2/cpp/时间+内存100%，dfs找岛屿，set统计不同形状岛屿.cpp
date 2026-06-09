@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int row, col;
@@ -31,14 +31,14 @@ public:
         dfs(island, visited, grid, sr, sc, r, c+1);
     }
 };
-```
-后面想了想，没有必要维护一个vector<vector<bool>> visited，直接将每次访问过的陆地置为0即可
-注：以上操作不会造成漏掉陆地的情况吗？不会。因为“星星之火，可以燎原”，只要是连通的陆地，一定可以被遍历到
+// ```
+// 后面想了想，没有必要维护一个vector<vector<bool>> visited，直接将每次访问过的陆地置为0即可
+// 注：以上操作不会造成漏掉陆地的情况吗？不会。因为“星星之火，可以燎原”，只要是连通的陆地，一定可以被遍历到
 
-改进后，
-![image.png](https://pic.leetcode-cn.com/dbbfdd5dc80e3e24a9ac826a5493128f621daaea4c15beb1a2731889473df2ec-image.png)
+// 改进后，
+// ![image.png](https://pic.leetcode-cn.com/dbbfdd5dc80e3e24a9ac826a5493128f621daaea4c15beb1a2731889473df2ec-image.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int row, col;
@@ -71,5 +71,5 @@ public:
         dfs(island, grid, sr, sc, r, c+1);
     }
 };
-```
+// ```
 

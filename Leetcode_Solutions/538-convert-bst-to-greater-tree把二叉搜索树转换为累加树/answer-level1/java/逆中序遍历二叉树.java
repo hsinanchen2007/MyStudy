@@ -1,15 +1,15 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(1)
-2. 我的解题思路
-<br />&nbsp;2.1 定义一个整数用于缓存计算结果
-<br />&nbsp;2.2 逆中序遍历(遍历右子树，根节点，左子树)二叉树，将当前节点值与缓存值相加后赋回给当前节点和缓存变量
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗45.1MB内存
-<br />&nbsp;3.2 leetcode中耗时1ms,消耗39.7MB内存
-4. Q&A
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(1)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 定义一个整数用于缓存计算结果
+// <br />&nbsp;2.2 逆中序遍历(遍历右子树，根节点，左子树)二叉树，将当前节点值与缓存值相加后赋回给当前节点和缓存变量
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗45.1MB内存
+// <br />&nbsp;3.2 leetcode中耗时1ms,消耗39.7MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     538.Convert BST to Greater Tree
@@ -55,6 +55,6 @@ class Solution {
         inOrder(root.left);
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

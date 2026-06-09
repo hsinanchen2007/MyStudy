@@ -1,19 +1,19 @@
-# 审题
-1. 单链表反转
-2. 递归、迭代
+// # 审题
+// 1. 单链表反转
+// 2. 递归、迭代
 
-# 思路
-1. 递归
-2. 迭代
+// # 思路
+// 1. 递归
+// 2. 迭代
 
-# 代码实现
-1. 递归
-2. 迭代
-3. 旧代码
+// # 代码实现
+// 1. 递归
+// 2. 迭代
+// 3. 旧代码
 
-## 1.递归
+// ## 1.递归
 
-```java
+// ```java
 /**
     * 递归
     * 0 ms	38.5 MB
@@ -35,11 +35,11 @@ private ListNode recursiveSolution(ListNode head) {
     head.next = null;
     return tail;
 }
-```
+// ```
 
-## 2.迭代
+// ## 2.迭代
 
-```java
+// ```java
 /**
     * 迭代
     * 找到最近重复问题 a(pre) b(head) c(head.next)
@@ -65,11 +65,11 @@ private ListNode traverseSolution(ListNode head) {
     }
     return pre;
 }
-```
+// ```
 
-## 3.旧代码
+// ## 3.旧代码
 
-```java
+// ```java
 
 public ListNode reverseList20191031(ListNode head) {
     if (head == null || head.next == null) {
@@ -132,4 +132,4 @@ public ListNode reverseListRecursive(ListNode head) {
     head.next = null;
     return pre;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String prepareString(String s){
         if(s.length() == 0){
@@ -66,4 +66,4 @@ class Solution {
         return s.substring((current_index - max_len) /2,(current_index - max_len) /2 + max_len);
     }
 }
-```
+// ```

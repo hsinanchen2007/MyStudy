@@ -1,9 +1,9 @@
-### 解题思路
-![截屏2020-03-23下午11.17.44.png](https://pic.leetcode-cn.com/40bcf54cf92180e459b48b017e5eac5d2a60ceb743cc05d827ff0a98f0d4f8d8-%E6%88%AA%E5%B1%8F2020-03-23%E4%B8%8B%E5%8D%8811.17.44.png)
-每个格子都有两种进入方向，而一种进入方法对应唯一的离开格子方向，所以就可以结合当前格子内的值和进入方向得到对应的下一个格子的坐标，在判断以当前格子的离开方向能否进入下一个格子，如不能，则返回False，如可以，则以下一格子和和对应的进入方向开始下一次迭代，直到到达终点。
-### 代码
+# ### 解题思路
+# ![截屏2020-03-23下午11.17.44.png](https://pic.leetcode-cn.com/40bcf54cf92180e459b48b017e5eac5d2a60ceb743cc05d827ff0a98f0d4f8d8-%E6%88%AA%E5%B1%8F2020-03-23%E4%B8%8B%E5%8D%8811.17.44.png)
+# 每个格子都有两种进入方向，而一种进入方法对应唯一的离开格子方向，所以就可以结合当前格子内的值和进入方向得到对应的下一个格子的坐标，在判断以当前格子的离开方向能否进入下一个格子，如不能，则返回False，如可以，则以下一格子和和对应的进入方向开始下一次迭代，直到到达终点。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasValidPath(self, grid: List[List[int]]) -> bool:
         r,c=len(grid),len(grid[0])
@@ -63,4 +63,4 @@ class Solution:
             return func(1) or func(3)
         elif grid[0][0]==5:return False
         else:return func(2)
-```
+# ```

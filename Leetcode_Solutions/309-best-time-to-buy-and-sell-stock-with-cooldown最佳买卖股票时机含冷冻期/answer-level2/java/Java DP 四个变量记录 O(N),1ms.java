@@ -1,18 +1,18 @@
-## 原始转移方程
-考虑第i天不持有dp[i][0]和持有dp[i][1]的转移方程：
+// ## 原始转移方程
+// 考虑第i天不持有dp[i][0]和持有dp[i][1]的转移方程：
 
-dp[i][0]=max(dp[i-1][0],dp[i-1][1]+p[i])
-dp[i][1]=max(dp[i-1][1],dp[i-2][0]-p[i])
+// dp[i][0]=max(dp[i-1][0],dp[i-1][1]+p[i])
+// dp[i][1]=max(dp[i-1][1],dp[i-2][0]-p[i])
 
-## 压缩
-可以对i这个属性进行压缩，但是计算i需要i-1和i-2的信息，所以至少需要三行记录（类似斐波那契求解）
-cur[1]=max(bf1[1],bf2[0]-p[i])
-cur[0]=max(bf1[0],bf1[1]+p[i])
-初始化：
-i=0:cur[0]=0,cur[1]=-p[0],bf1[0]=0,bf1[1]=MIN
+// ## 压缩
+// 可以对i这个属性进行压缩，但是计算i需要i-1和i-2的信息，所以至少需要三行记录（类似斐波那契求解）
+// cur[1]=max(bf1[1],bf2[0]-p[i])
+// cur[0]=max(bf1[0],bf1[1]+p[i])
+// 初始化：
+// i=0:cur[0]=0,cur[1]=-p[0],bf1[0]=0,bf1[1]=MIN
 
-实现代码为：
-```
+// 实现代码为：
+// ```
 public int maxProfit(int[] prices) {
         int n=prices.length;
         if(n==0){
@@ -39,13 +39,13 @@ Integer.MIN_VALUE:bf2[0]-prices[i]);//在前天买入
         to[0]=from[0];
         to[1]=from[1];
     }
-```
+// ```
 
-## 进一步减少记录的变量
-细想一下，其实也不需要三个变量数组来记录，只需要增加两个个记录0的临时变量：cur0和cur1代表当前第i天持有和不持有股票的收益，bf1代表i-1天不持有，bf2代表第i-2天不持有。
-cur0=max(cur0,bf2-p[i])
-cur1=max(cur1,cur0+p[i])
-```
+// ## 进一步减少记录的变量
+// 细想一下，其实也不需要三个变量数组来记录，只需要增加两个个记录0的临时变量：cur0和cur1代表当前第i天持有和不持有股票的收益，bf1代表i-1天不持有，bf2代表第i-2天不持有。
+// cur0=max(cur0,bf2-p[i])
+// cur1=max(cur1,cur0+p[i])
+// ```
 public int maxProfit(int[] prices) {
         int n=prices.length;
         if(n==0){
@@ -65,6 +65,6 @@ public int maxProfit(int[] prices) {
         }
         return cur0;
     }
-```
+// ```
 
 

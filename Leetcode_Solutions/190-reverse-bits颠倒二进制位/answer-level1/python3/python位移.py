@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-做32次位移运算
-直接将每次的余数做2进制转10进制运算
-### 代码
+# 做32次位移运算
+# 直接将每次的余数做2进制转10进制运算
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseBits(self, n: int) -> int:
         count = 32
@@ -15,4 +15,4 @@ class Solution:
             n >>= 1
             count -= 1
         return result
-```
+# ```

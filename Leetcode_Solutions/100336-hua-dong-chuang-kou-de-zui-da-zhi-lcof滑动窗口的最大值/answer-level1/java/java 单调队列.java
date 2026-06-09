@@ -1,5 +1,5 @@
-思路和最高赞类似，简单记录下
-```
+// 思路和最高赞类似，简单记录下
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n=nums.length;
@@ -16,4 +16,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

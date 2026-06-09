@@ -1,7 +1,7 @@
 
-先转换成char数组排序, 再双指针
-不过Java里面的`toCharArray()`方法创建了新数组, 所以应该算使用了额外的数据结构
-```
+// 先转换成char数组排序, 再双指针
+// 不过Java里面的`toCharArray()`方法创建了新数组, 所以应该算使用了额外的数据结构
+// ```
  class Solution {
     public boolean isUnique(String astr) {
         char[] c =  astr.toCharArray();
@@ -14,4 +14,4 @@
         return true;
     }
 }
-```
+// ```

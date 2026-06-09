@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverseString(char* s, int sSize){
     int i=0,j=sSize-1;
     char temp;
@@ -15,4 +15,4 @@ void reverseString(char* s, int sSize){
         j--;
     }
 }
-```
+// ```

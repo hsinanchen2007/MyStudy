@@ -1,9 +1,9 @@
-# 解法一 卡特兰数
-问组合有多少种，大概率都是 卡特兰数
-类似题
-[22.括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+// # 解法一 卡特兰数
+// 问组合有多少种，大概率都是 卡特兰数
+// 类似题
+// [22.括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -40,6 +40,6 @@ func dfs(start, end int) []*TreeNode {
 	}
 	return res
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) int {
     if len(str) == 0{
         return 0
@@ -88,4 +88,4 @@ func myAtoi(str string) int {
 
     return ans*flag
 }
-```
+// ```

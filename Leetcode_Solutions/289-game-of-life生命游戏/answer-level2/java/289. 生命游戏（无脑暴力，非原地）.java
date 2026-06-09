@@ -1,9 +1,9 @@
-### 解题思路
-借助二维数组，空间复杂度O（mn）
+// ### 解题思路
+// 借助二维数组，空间复杂度O（mn）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         int rows=board.length;
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-1. 不用辅助栈
+# 1. 不用辅助栈
 
-```
+# ```
 # -*- coding: utf-8 -*
 
 class MinStack(object):
@@ -46,6 +46,6 @@ class MinStack(object):
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-```
+# ```
 
-2. 官方例子用了个辅助栈
+# 2. 官方例子用了个辅助栈

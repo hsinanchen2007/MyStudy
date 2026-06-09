@@ -1,9 +1,9 @@
-### 解题思路
-数位DP+KMP
+# ### 解题思路
+# 数位DP+KMP
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findGoodStrings(self, n: int, s1: str, s2: str, evil: str) -> int:
         def getNext(pattern):
@@ -41,5 +41,5 @@ class Solution:
             return ans % 1000000007
         return solve()
 
-```
-![image.png](https://pic.leetcode-cn.com/50811cd9d51d06043187c120c8d067c54c4388fc9d5e7d40194566db633f2ba3-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/50811cd9d51d06043187c120c8d067c54c4388fc9d5e7d40194566db633f2ba3-image.png)

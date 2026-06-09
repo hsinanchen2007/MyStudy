@@ -1,4 +1,4 @@
-```
+// ```
 func validWordAbbreviation(word string, abbr string) bool {
 	lw := len(word)
 	j, c := 0, 0
@@ -18,4 +18,4 @@ func validWordAbbreviation(word string, abbr string) bool {
 	}
 	return j+c == lw
 }
-```
+// ```

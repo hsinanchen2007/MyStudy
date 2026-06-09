@@ -1,9 +1,9 @@
-### 解题思路
-最开始分好每一个块，然后套模板去区间查询，线段树，应该也可以过。
+// ### 解题思路
+// 最开始分好每一个块，然后套模板去区间查询，线段树，应该也可以过。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const int maxn=3e4+50;
 #define FOR(i,x,n) for(register int i=x;i<=n;++i)
 class Solution {
@@ -35,4 +35,4 @@ public:
         return xorAns;
     }
 };
-```
+// ```

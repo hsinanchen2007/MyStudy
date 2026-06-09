@@ -1,9 +1,9 @@
-### 解题思路
-就是简单的hash加上qsort，题中没有标明说可以数字，稍微留意下就行了；一般的思路
+// ### 解题思路
+// 就是简单的hash加上qsort，题中没有标明说可以数字，稍微留意下就行了；一般的思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define TABNUMS 200
 struct tab{
     int idx;
@@ -48,4 +48,4 @@ char * frequencySort(char * s){
     
 
 }
-```
+// ```

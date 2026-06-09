@@ -1,9 +1,9 @@
 
-使用队列，从根节点开始，依次判断左子树和右子树，如果左子树或右子树已经被访问了，直接返回 false，最后判断是否有节点没被访问。
+// 使用队列，从根节点开始，依次判断左子树和右子树，如果左子树或右子树已经被访问了，直接返回 false，最后判断是否有节点没被访问。
 
-![image.png](https://pic.leetcode-cn.com/5c39e0cf1094bd4f58486f0865030831deba00970aafb7e727f8e6bba9294b65-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5c39e0cf1094bd4f58486f0865030831deba00970aafb7e727f8e6bba9294b65-image.png)
 
-```
+// ```
 class Solution {
    public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild,
@@ -41,4 +41,4 @@ class Solution {
         return true;
     }
 };
-```
+// ```

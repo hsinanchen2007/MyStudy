@@ -1,17 +1,17 @@
-# 解法1：DFS自顶向下
-## 算法描述
-使用邻接表来表示题目中的N叉树，
-再以headid为起点，进行树的遍历，记录搜索过程中计算出的最大通知时间，即为答案。
+// # 解法1：DFS自顶向下
+// ## 算法描述
+// 使用邻接表来表示题目中的N叉树，
+// 再以headid为起点，进行树的遍历，记录搜索过程中计算出的最大通知时间，即为答案。
 
-## 复杂度分析
-时间复杂度：O（n）
-空间复杂度：O（n）
+// ## 复杂度分析
+// 时间复杂度：O（n）
+// 空间复杂度：O（n）
 
-## 提交结果
-通过
+// ## 提交结果
+// 通过
 
-## 参考代码
-```
+// ## 参考代码
+// ```
 typedef struct
 {
     int key;
@@ -71,21 +71,21 @@ int numOfMinutes(int n, int headID, int* manager, int managerSize, int* informTi
     dfs(visited, informTime, n, hash, 0, headID, &t);
     return t;
 }
-```
+// ```
 
-# 解法2：DFS自底向上
-## 算法描述
-遍历所有员工，对所有最底层员工（叶子节点），DFS搜索父节点，直到没有父节点为止。记录所有遍历的最大时间即为答案。
+// # 解法2：DFS自底向上
+// ## 算法描述
+// 遍历所有员工，对所有最底层员工（叶子节点），DFS搜索父节点，直到没有父节点为止。记录所有遍历的最大时间即为答案。
 
-## 复杂度分析
-时间复杂度：O（n^2）
-空间复杂度：O（n）
+// ## 复杂度分析
+// 时间复杂度：O（n^2）
+// 空间复杂度：O（n）
 
-## 提交结果
-通过
+// ## 提交结果
+// 通过
 
-## 参考代码
-```
+// ## 参考代码
+// ```
 int dfs(int* manager, int *informTime, int id, int t)
 {
     int m = manager[id];
@@ -107,4 +107,4 @@ int numOfMinutes(int n, int headID, int* manager, int managerSize, int* informTi
     }
     return max;
 }
-```
+// ```

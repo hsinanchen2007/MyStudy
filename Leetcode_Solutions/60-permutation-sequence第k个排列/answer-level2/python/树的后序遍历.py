@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-观察题目可以发现排列顺序正好是树的后序遍历顺序
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 观察题目可以发现排列顺序正好是树的后序遍历顺序
+# ### 代码
 
-```python
+# ```python
 from copy import deepcopy as dc
 import math
 class Solution(object):
@@ -32,4 +32,4 @@ class Solution(object):
                 q.append(i)
                 self.find(n,k,q)
                 q.pop()
-```
+# ```

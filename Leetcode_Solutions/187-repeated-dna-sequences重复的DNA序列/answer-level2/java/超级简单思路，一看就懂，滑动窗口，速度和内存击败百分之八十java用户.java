@@ -1,6 +1,6 @@
-  这个题一看是个字母单词，找子串重复很容易就想到滑动窗口，以十个字母为窗口滑动一轮，直接得出结果。
-把得到的单词计入hashmap之后，得到的单词存入计数加一，得到计数等于1就加入list，否则不加入list直接去重完成。超级简单。说的不太明白直接上代码吧。
-```
+//   这个题一看是个字母单词，找子串重复很容易就想到滑动窗口，以十个字母为窗口滑动一轮，直接得出结果。
+// 把得到的单词计入hashmap之后，得到的单词存入计数加一，得到计数等于1就加入list，否则不加入list直接去重完成。超级简单。说的不太明白直接上代码吧。
+// ```
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> res=new ArrayList<>();
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

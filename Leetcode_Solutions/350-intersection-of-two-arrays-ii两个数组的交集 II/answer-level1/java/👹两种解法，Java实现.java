@@ -1,8 +1,8 @@
-思路1：时间复杂度和空间复杂度都为O(n)。
+// 思路1：时间复杂度和空间复杂度都为O(n)。
 
-使用哈希表记录数组1中的数和其对应频次。遍历数组2，如果当前索引的数在哈希表中存在，则把它丢进结果list中，并把它在哈希表中的频次-1，如果频次为0就移除它。完成遍历后，list中就是我们希望得到的结果。
+// 使用哈希表记录数组1中的数和其对应频次。遍历数组2，如果当前索引的数在哈希表中存在，则把它丢进结果list中，并把它在哈希表中的频次-1，如果频次为0就移除它。完成遍历后，list中就是我们希望得到的结果。
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -25,16 +25,16 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-思路二：时间复杂度为O(nlogn)，额外空间复杂度为O(1)。
+// 思路二：时间复杂度为O(nlogn)，额外空间复杂度为O(1)。
 
-首先对两个数组进行排序，然后就是双指针，p1指向nums1，p2指向nums2：
+// 首先对两个数组进行排序，然后就是双指针，p1指向nums1，p2指向nums2：
 
-1. 如果nums1[p1] == nums2[p2]，说明俩数组中都有这个数，是其交集，所以将它丢入list中。
-2. 如果不等，则移动小的那个指针。
+// 1. 如果nums1[p1] == nums2[p2]，说明俩数组中都有这个数，是其交集，所以将它丢入list中。
+// 2. 如果不等，则移动小的那个指针。
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
@@ -55,4 +55,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

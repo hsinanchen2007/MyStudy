@@ -1,8 +1,8 @@
-# 思路：
-1. 先反转每个单词，然后排序
-2. 按顺序遍历所有单词，如果在字典树中不存在这个单词则把该单词的长度+1计入结果中，然后将该单词插入字典树种
+// # 思路：
+// 1. 先反转每个单词，然后排序
+// 2. 按顺序遍历所有单词，如果在字典树中不存在这个单词则把该单词的长度+1计入结果中，然后将该单词插入字典树种
 
-```
+// ```
 #define MAX_CHILD_NUM 26
 typedef struct _TireNode {
 
@@ -93,4 +93,4 @@ int minimumLengthEncoding(char ** words, int wordsSize)
     return result;
 
 }
-```
+// ```

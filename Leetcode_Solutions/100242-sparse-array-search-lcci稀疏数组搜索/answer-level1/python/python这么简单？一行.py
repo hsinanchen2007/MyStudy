@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findString(self, words, s):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         """
 
         return words.index(s) if s in words else -1
-```
+# ```

@@ -1,5 +1,5 @@
-[更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
-```
+// [更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ```
 public TreeNode trimBST(TreeNode root, int L, int R) {
         if (root == null) {
             return null;
@@ -16,4 +16,4 @@ public TreeNode trimBST(TreeNode root, int L, int R) {
         return root;
 
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-为了规避给定的数组里面的重复元素，而且仍然保持只用一次for loop, 用一个List来存储每个值对应的序号。这样虽然快但是很耗内存，在内存不敏感的情况下可用。第二个for loop只是在一个值的重复的序号中递归，如果重复不多基本可以忽略。
+// ### 解题思路
+// 为了规避给定的数组里面的重复元素，而且仍然保持只用一次for loop, 用一个List来存储每个值对应的序号。这样虽然快但是很耗内存，在内存不敏感的情况下可用。第二个for loop只是在一个值的重复的序号中递归，如果重复不多基本可以忽略。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         Dictionary<int,List<int>> dic=new Dictionary<int,List<int>>();
@@ -31,4 +31,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

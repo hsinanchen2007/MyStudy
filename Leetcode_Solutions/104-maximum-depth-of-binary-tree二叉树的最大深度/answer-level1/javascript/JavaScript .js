@@ -1,10 +1,10 @@
-### 解题思路
-方法1： BFC，广度优先遍历。进入下一层之前加1
-方法2： 递归，一个节点往下的深度等于左边节点往下的深度和右边节点往下的深度两者中的最大值加1
+// ### 解题思路
+// 方法1： BFC，广度优先遍历。进入下一层之前加1
+// 方法2： 递归，一个节点往下的深度等于左边节点往下的深度和右边节点往下的深度两者中的最大值加1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -40,4 +40,4 @@ var maxDepth = function(root) {
     if(root===null) return 0;
     return Math.max(maxDepth(root.left),maxDepth(root.right))+1
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public int[] intersect(int[] nums1, int[] nums2) {
         Map<Integer, LinkedList<Integer>> map = new HashMap<>();
         // 将数组元素作为map的key，将元素添加到集合同时中作为map的value存储在map中
@@ -31,4 +31,4 @@ public int[] intersect(int[] nums1, int[] nums2) {
         }
         return res;
     }
-```
+// ```

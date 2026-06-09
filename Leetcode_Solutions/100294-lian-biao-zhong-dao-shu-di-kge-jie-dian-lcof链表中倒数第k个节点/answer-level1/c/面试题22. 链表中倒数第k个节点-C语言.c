@@ -1,22 +1,22 @@
-### 解题思路
-方法一：
-快慢指针法（前后指针法）。
-1、定义两个指针，快指针 Fast 慢指针 Slow （或者叫做前后指针）；
-2、让 Fast 先向前移动 k 个位置，然后 Fast 和 Slow 再一起向前移动 ；
-3、当 Fast 到达链表尾部，返回 Slow 。
+// ### 解题思路
+// 方法一：
+// 快慢指针法（前后指针法）。
+// 1、定义两个指针，快指针 Fast 慢指针 Slow （或者叫做前后指针）；
+// 2、让 Fast 先向前移动 k 个位置，然后 Fast 和 Slow 再一起向前移动 ；
+// 3、当 Fast 到达链表尾部，返回 Slow 。
 
-方法二：
-常规求取长度法。
-1、先遍历统计链表长度，记为 iLength ；
-2、设置一个指针走 (iLength−k) 步，即可找到链表倒数第 k 个节点。
+// 方法二：
+// 常规求取长度法。
+// 1、先遍历统计链表长度，记为 iLength ；
+// 2、设置一个指针走 (iLength−k) 步，即可找到链表倒数第 k 个节点。
 
-两种方法运行时间：
-![image.png](https://pic.leetcode-cn.com/c5d0f06a05c2a2583c79998f128fa4af4f73a0ff81a5a5d85bdfdce501cffd56-image.png)
+// 两种方法运行时间：
+// ![image.png](https://pic.leetcode-cn.com/c5d0f06a05c2a2583c79998f128fa4af4f73a0ff81a5a5d85bdfdce501cffd56-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -84,4 +84,4 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k){
     return pstLnCur;
 
 }
-```
+// ```

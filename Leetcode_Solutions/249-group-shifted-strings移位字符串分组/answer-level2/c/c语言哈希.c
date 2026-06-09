@@ -1,4 +1,4 @@
-c语言哈希题解，没有容器费劲啊
+// c语言哈希题解，没有容器费劲啊
 #define true 1
 #define false 0
 #define MAX_CH_NUM 26

@@ -1,5 +1,5 @@
-动态规划差不多都是这样的套路。用变量或数组来不断记录最优选择。
-```cpp []
+# 动态规划差不多都是这样的套路。用变量或数组来不断记录最优选择。
+# ```cpp []
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -14,8 +14,8 @@ public:
         return ans;
     }
 };
-```
-```python3 []
+# ```
+# ```python3 []
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         if len(nums) < 2:
@@ -30,5 +30,5 @@ class Solution:
                 dp[i] = nums[i] + dp[i - 1]
             ans = max(ans, dp[i])
         return ans
-```
+# ```
 

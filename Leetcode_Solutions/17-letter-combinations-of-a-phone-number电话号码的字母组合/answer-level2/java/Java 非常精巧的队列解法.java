@@ -1,4 +1,4 @@
-```
+// ```
 public List<String> letterCombinations(String digits) {
 		LinkedList<String> ans = new LinkedList<String>();
 		if(digits.isEmpty()) return ans;
@@ -14,5 +14,5 @@ public List<String> letterCombinations(String digits) {
 		}
 		return ans;
 	}
-```
-在英文版讨论区看到的，感觉很精巧。
+// ```
+// 在英文版讨论区看到的，感觉很精巧。

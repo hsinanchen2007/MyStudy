@@ -1,8 +1,8 @@
-*法一：暴力双循环*
+// *法一：暴力双循环*
 
-缺点：速度太慢，被吊打
+// 缺点：速度太慢，被吊打
 
-```js
+// ```js
 var maxProfit = function(prices) {
     var len = prices.length;
     var result = [];
@@ -22,20 +22,20 @@ var maxProfit = function(prices) {
 
 var prices = [7,1,5,3,6,4];
 console.log(maxProfit(prices))
-```
+// ```
 
-*法二：动态规划 【推荐】*
+// *法二：动态规划 【推荐】*
 
-前i天的最大收益 = max{前i-1天的最大收益，第i天的价格-前i-1天中的最小价格}
+// 前i天的最大收益 = max{前i-1天的最大收益，第i天的价格-前i-1天中的最小价格}
 
-1.	记录【今天之前买入的最小值】
+// 1.	记录【今天之前买入的最小值】
 
-2.	计算【今天之前最小值买入，今天卖出的获利】，也即【今天卖出的最大获利】
+// 2.	计算【今天之前最小值买入，今天卖出的获利】，也即【今天卖出的最大获利】
 
-3.	比较【每天的最大获利】，取最大值即可
+// 3.	比较【每天的最大获利】，取最大值即可
 
 
-```js
+// ```js
 var maxProfit2 = function(prices) {
     var len = prices.length;
     if (len <= 1) {
@@ -52,5 +52,5 @@ var maxProfit2 = function(prices) {
     }
     return max;
 };
-```
+// ```
 

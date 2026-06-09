@@ -1,4 +1,4 @@
-```
+// ```
 #define min(a,b) ((a)<(b)?(a):(b))
 int minPathSum(int** grid, int gridSize, int* gridColSize)
 {
@@ -25,4 +25,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize)
     
     return dp[m-1][n-1];
 }
-```
+// ```

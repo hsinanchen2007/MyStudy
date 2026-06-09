@@ -1,10 +1,10 @@
-### 解题思路
-1.首先遍历是肯定的，另外要元素以及个数 ，同时统计双数的元素个数
-2.下面的优化其实itemList 没必要开辟内存，用一个int计数 就ok了 
+// ### 解题思路
+// 1.首先遍历是肯定的，另外要元素以及个数 ，同时统计双数的元素个数
+// 2.下面的优化其实itemList 没必要开辟内存，用一个int计数 就ok了 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
           // 用LIst存取双数的
@@ -30,4 +30,4 @@ class Solution {
         return size < sChars.length ? size + 1 : size;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-递归实现。
-用sum减去当前节点的val。然后递归左右子树是否能生成对应sum-val的path。如果可以的话，在返回的path里面加上root的val就行。
+// ### 解题思路
+// 递归实现。
+// 用sum减去当前节点的val。然后递归左右子树是否能生成对应sum-val的path。如果可以的话，在返回的path里面加上root的val就行。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ public:
         return res;
     }
 };
-```
+// ```

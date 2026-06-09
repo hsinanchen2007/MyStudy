@@ -1,8 +1,8 @@
-> 有关更多题解，请访问 Gitee 中的项目【[myleetcode](https://gitee.com/guobinhit/myleetcode)】，欢迎大家共同参与此项目！
+// > 有关更多题解，请访问 Gitee 中的项目【[myleetcode](https://gitee.com/guobinhit/myleetcode)】，欢迎大家共同参与此项目！
 
->
+// >
 
-```
+// ```
 public class _28 {
     public int strStr(String haystack, String needle) {
         if (haystack == null || needle == null) {
@@ -93,4 +93,4 @@ public class _28 {
         return haystack.indexOf(needle);
     }
 }
-```
+// ```

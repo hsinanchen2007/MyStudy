@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -36,4 +36,4 @@ public:
 //无向图的深度优先遍历
 //首先利用暴力搜索找到word的第一个字符
 //然后 利用深度优先遍历，去查找以第一个字符为起点的四周，递归，若最终返回flag为true 则说明存在路径
-```
+// ```

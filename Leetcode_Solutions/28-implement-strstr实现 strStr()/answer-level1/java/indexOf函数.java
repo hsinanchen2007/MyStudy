@@ -1,4 +1,4 @@
-直接使用indexOf函数，空间换时间。
+// 直接使用indexOf函数，空间换时间。
 class Solution {
     public int strStr(String haystack, String needle) {
         if(needle == ""){return 0;}

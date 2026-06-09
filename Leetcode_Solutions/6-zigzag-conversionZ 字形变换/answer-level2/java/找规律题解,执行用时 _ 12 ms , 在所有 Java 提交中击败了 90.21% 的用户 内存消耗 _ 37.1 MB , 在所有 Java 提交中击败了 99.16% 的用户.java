@@ -1,5 +1,5 @@
 
-以例子中的“LEETCODEISHIRING”为例，分别画出为3行，4行，5行的图
+// 以例子中的“LEETCODEISHIRING”为例，分别画出为3行，4行，5行的图
 
 ![1d869741b2f0359708af690f061a052.png](https://pic.leetcode-cn.com/8f42fe4a625696d17668fbde69fa150356b6fed95ae82c8e79dd3f2dc922ee47-1d869741b2f0359708af690f061a052.png)
 ![4e3fbbefae5bde765ee42f0c8abc3fc.png](https://pic.leetcode-cn.com/a494f991b1091d68f5d8aac500262a33faaf3aa912e773a1f6e560d9090711b3-4e3fbbefae5bde765ee42f0c8abc3fc.png)

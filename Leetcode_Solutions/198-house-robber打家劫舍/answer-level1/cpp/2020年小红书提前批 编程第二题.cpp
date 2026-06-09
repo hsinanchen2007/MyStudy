@@ -1,5 +1,5 @@
-笔试题稍微有些不一样，还要返回抢了几家，就是dp2
-```
+// 笔试题稍微有些不一样，还要返回抢了几家，就是dp2
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return dp1[numslen-1];
     }
 };
-```
+// ```

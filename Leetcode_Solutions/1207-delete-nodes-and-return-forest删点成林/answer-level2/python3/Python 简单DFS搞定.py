@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/9fc70f8f6c70fe83c8aaed9e62cdebedb3f3ac07c6720aaf068b34b2ff99f182-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9fc70f8f6c70fe83c8aaed9e62cdebedb3f3ac07c6720aaf068b34b2ff99f182-image.png)
 
 
 
-```
+# ```
 
 '''
 递归进行操作
@@ -41,4 +41,4 @@ class Solution:
 
         self.solve(root, True, del_set, ans)
         return ans
-```
+# ```

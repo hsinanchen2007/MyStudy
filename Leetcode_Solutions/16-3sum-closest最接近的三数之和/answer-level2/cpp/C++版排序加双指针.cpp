@@ -1,4 +1,4 @@
-```
+// ```
 代码块
 int threeSumClosest(vector<int>& nums, int target) {
         int result = nums[0]+nums[2]+nums[1];
@@ -21,4 +21,4 @@ int threeSumClosest(vector<int>& nums, int target) {
     }
     return result;
     }
-```cpp
+// ```cpp

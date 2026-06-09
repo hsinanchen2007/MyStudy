@@ -1,14 +1,14 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f80cb35dd5a359be2a6b6daebe4a70e346c9373e93c4326201771b104e5b08e2-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f80cb35dd5a359be2a6b6daebe4a70e346c9373e93c4326201771b104e5b08e2-image.png)
 
-新的数字通过二分搜索在heaps中寻找：
-1.找到了heaps中比当前数字大且序号最靠前的数字（pos=-1,pos有值），那么直接覆盖这个数字
-2.找不到（pos == len(heaps)），那么在heaps中再添加一个数字
+// 新的数字通过二分搜索在heaps中寻找：
+// 1.找到了heaps中比当前数字大且序号最靠前的数字（pos=-1,pos有值），那么直接覆盖这个数字
+// 2.找不到（pos == len(heaps)），那么在heaps中再添加一个数字
 
-最终的结果就是len(heaps)
-### 代码
+// 最终的结果就是len(heaps)
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLIS(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -41,4 +41,4 @@ func binarySearch(nums []int,l,r int,target int) int {
     }
     return l
 }
-```
+// ```

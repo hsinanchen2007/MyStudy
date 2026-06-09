@@ -1,9 +1,9 @@
-### 解题思路
-先遍历一遍算出链表长度，然后取中间值，再从头遍历一遍到中间链表节点。
+// ### 解题思路
+// 先遍历一遍算出链表长度，然后取中间值，再从头遍历一遍到中间链表节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return middleNode;
     }
 }
-```
+// ```

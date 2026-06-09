@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-取到数组中各个元素，判断奇偶性，返回 count 即可！
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 取到数组中各个元素，判断奇偶性，返回 count 即可！
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findNumbers(_ nums: [Int]) -> Int {
         if nums.count <= 500 {
@@ -20,4 +20,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

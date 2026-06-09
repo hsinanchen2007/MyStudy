@@ -1,6 +1,6 @@
-整个过程类似于杨辉三角，让下一行的每一个数加上上一行所能加的最小数，两边边界直接加上上一行的边界值。
-可以在原数组上直接修改，无需任何多余的空间消耗。
-```
+# 整个过程类似于杨辉三角，让下一行的每一个数加上上一行所能加的最小数，两边边界直接加上上一行的边界值。
+# 可以在原数组上直接修改，无需任何多余的空间消耗。
+# ```
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         if not triangle:
@@ -16,4 +16,4 @@ class Solution:
             triangle[i][0] += triangle[i-1][0]
             triangle[i][-1] += triangle[i-1][-1]
         return min(triangle[-1])
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-利用没有重复数字的全排列代码，加上剪枝
+// ### 解题思路
+// 利用没有重复数字的全排列代码，加上剪枝
 
-### 代码
-![图片.png](https://pic.leetcode-cn.com/dd2151b4e89a678e3a414a39a8d5ac2b02e95ea132e2908f258e9509f80f7f8c-%E5%9B%BE%E7%89%87.png)
+// ### 代码
+// ![图片.png](https://pic.leetcode-cn.com/dd2151b4e89a678e3a414a39a8d5ac2b02e95ea132e2908f258e9509f80f7f8c-%E5%9B%BE%E7%89%87.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void DFS(vector<int>& nums, vector<vector<int>>& ret, int *visited, int cnt, vector<int>& tmp)
@@ -71,6 +71,6 @@ public:
     }
 };
 
-```
+// ```
 
 

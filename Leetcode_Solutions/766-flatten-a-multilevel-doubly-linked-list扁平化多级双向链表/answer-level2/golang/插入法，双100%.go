@@ -1,5 +1,5 @@
-思路：遇到child链表就将其插入到cur节点和next节点之间，并将child链表改成双向链表；这样循环直到末尾
-```
+// 思路：遇到child链表就将其插入到cur节点和next节点之间，并将child链表改成双向链表；这样循环直到末尾
+// ```
 func flatten(root *Node) *Node {
     if root == nil {
         return nil
@@ -30,4 +30,4 @@ func flatten(root *Node) *Node {
 	return root
 }
 
-```
+// ```

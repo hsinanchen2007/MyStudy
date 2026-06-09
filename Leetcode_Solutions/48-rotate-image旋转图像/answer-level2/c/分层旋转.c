@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //tR tC 代表左上角的元素， dR dC 代表右下角的元素
 void rotate_edge(int **matrix, int tR, int tC, int dR, int dC)
 {
@@ -27,4 +27,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
        rotate_edge(matrix, tR++, tC++, dR--, dC--);
    }
 }
-```
+// ```

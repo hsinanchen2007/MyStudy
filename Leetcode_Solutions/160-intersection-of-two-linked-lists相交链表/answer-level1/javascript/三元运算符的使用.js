@@ -1,8 +1,8 @@
-### 使用双指针法
+// ### 使用双指针法
 
-### 本来的写法：啰嗦、笨重
+// ### 本来的写法：啰嗦、笨重
 
-```
+// ```
 var getIntersectionNode = function(headA, headB) {
     var PA = headA;
     var PB = headB;
@@ -33,10 +33,10 @@ var getIntersectionNode = function(headA, headB) {
     return PA
 };
 
-```
-### 参照评论大神的写法，巧妙运用三元运算符
+// ```
+// ### 参照评论大神的写法，巧妙运用三元运算符
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -64,4 +64,4 @@ var getIntersectionNode = function(headA, headB) {
 };
 
 
-```
+// ```

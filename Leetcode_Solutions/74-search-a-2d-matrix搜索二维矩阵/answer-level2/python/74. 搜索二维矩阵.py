@@ -1,9 +1,9 @@
-### 解题思路
-转换为一维数组，然后二分查找
+# ### 解题思路
+# 转换为一维数组，然后二分查找
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchMatrix(self, matrix, target):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             else:
                 low = mid + 1
         return False
-```
+# ```

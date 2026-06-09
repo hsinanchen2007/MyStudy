@@ -1,9 +1,9 @@
-### 解题思路
-水塘抽样，只不过这一次是从和target相等的数字中抽样
+// ### 解题思路
+// 水塘抽样，只不过这一次是从和target相等的数字中抽样
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Solution struct {
     nums []int
     r *rand.Rand
@@ -43,4 +43,4 @@ func (this *Solution) Pick(target int) int {
  * obj := Constructor(nums);
  * param_1 := obj.Pick(target);
  */
-```
+// ```

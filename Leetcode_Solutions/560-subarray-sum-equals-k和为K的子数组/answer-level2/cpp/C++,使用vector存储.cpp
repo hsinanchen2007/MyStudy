@@ -1,9 +1,9 @@
-### 解题思路
-遍历，将从这个数开始的每个数之后的和都加起来，如果==k，res++；
+// ### 解题思路
+// 遍历，将从这个数开始的每个数之后的和都加起来，如果==k，res++；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

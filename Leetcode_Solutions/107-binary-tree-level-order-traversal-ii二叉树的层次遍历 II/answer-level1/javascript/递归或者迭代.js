@@ -1,5 +1,5 @@
-# 一、递归
-```
+// # 一、递归
+// ```
 var levelOrderBottom = function(root) {
     let temp = [];
     let push = (node, i) => {
@@ -13,10 +13,10 @@ var levelOrderBottom = function(root) {
     push(root, 0)
     return temp.reverse();
 };
-```
+// ```
 
-# 二、迭代
-```
+// # 二、迭代
+// ```
 var levelOrderBottom = function(root) {
     if(!root) return [];
     let temp = [];
@@ -37,6 +37,6 @@ var levelOrderBottom = function(root) {
     }
     return temp.reverse();
 };
-```
+// ```
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-三个指针，slow指向子串的头，fast遍历子串，进行计数，arrRes记录新的字符串
+// ### 解题思路
+// 三个指针，slow指向子串的头，fast遍历子串，进行计数，arrRes记录新的字符串
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compress(char* chars, int charsSize){
     
     int i = 0;
@@ -47,4 +47,4 @@ int compress(char* chars, int charsSize){
 }
 
 
-```
+// ```

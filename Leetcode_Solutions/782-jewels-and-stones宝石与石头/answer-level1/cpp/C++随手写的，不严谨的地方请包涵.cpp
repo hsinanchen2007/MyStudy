@@ -1,5 +1,5 @@
-只实现算法，合法性判断之类的检测就没写
-```
+// 只实现算法，合法性判断之类的检测就没写
+// ```
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -11,4 +11,4 @@ public:
         return c;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         if not root: return 0
@@ -18,4 +18,4 @@ class Solution:
                 if node.left:
                     stack.append(node.left)
         return MAX
-```
+# ```

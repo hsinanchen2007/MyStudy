@@ -1,9 +1,9 @@
-### 解题思路
-使用整数的地板除法巧妙的减少了判断
+// ### 解题思路
+// 使用整数的地板除法巧妙的减少了判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s) {
 	int count[2][26] = { 0 };
 	int len = strlen(s);
@@ -24,4 +24,4 @@ int longestPalindrome(char * s) {
 	}
 	return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         numsum = sum(nums)
@@ -21,4 +21,4 @@ class Solution:
                 j += 1
             return backtrack(nums, j, target)
         return backtrack(nums, 0, numsum/2)
-```
+# ```

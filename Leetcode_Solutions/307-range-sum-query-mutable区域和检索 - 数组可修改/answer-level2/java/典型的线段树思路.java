@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
 
     private int [] tree = new int [100001];
@@ -79,4 +79,4 @@ class NumArray {
  * obj.update(i,val);
  * int param_2 = obj.sumRange(i,j);
  */
-```
+// ```

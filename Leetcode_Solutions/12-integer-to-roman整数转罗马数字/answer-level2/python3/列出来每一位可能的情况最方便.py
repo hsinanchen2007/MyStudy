@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         ones_place=["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
@@ -11,4 +11,4 @@ class Solution:
         hundreds_place=["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
         thousands_place=["", "M", "MM", "MMM"]
         return thousands_place[num//1000]+hundreds_place[num%1000//100]+tens_place[num%100//10]+ones_place[num%10]
-```
+# ```

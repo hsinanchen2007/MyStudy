@@ -1,5 +1,5 @@
-简单双指针
-```
+// 简单双指针
+// ```
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) {
@@ -19,5 +19,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6bc170b24f6c8190159c03048feba35e9b283914e44c6578470ad2e80870afe2-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6bc170b24f6c8190159c03048feba35e9b283914e44c6578470ad2e80870afe2-image.png)

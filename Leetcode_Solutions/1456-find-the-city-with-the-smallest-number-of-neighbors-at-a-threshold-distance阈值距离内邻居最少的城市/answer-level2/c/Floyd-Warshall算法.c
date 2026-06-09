@@ -1,8 +1,8 @@
-### 解题思路
-先用Floyd-Warshall算法处理，然后再按照顶点扫就行了。
-### 代码
+// ### 解题思路
+// 先用Floyd-Warshall算法处理，然后再按照顶点扫就行了。
+// ### 代码
 
-```c
+// ```c
 int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distanceThreshold){
     int map[101][101];
     int i,j,k;
@@ -38,4 +38,4 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
     }
     return id;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从2开始依次找出所有满足条件的等差数列项数，然后计算出首项
+// ### 解题思路
+// 从2开始依次找出所有满足条件的等差数列项数，然后计算出首项
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target){
@@ -28,4 +28,4 @@ public:
         return results;
     }
 };
-```
+// ```

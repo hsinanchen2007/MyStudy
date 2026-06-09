@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdio.h>
 #include "securec.h"
 
@@ -114,4 +114,4 @@ int main()
     }
     return 0;
 }
-```
+// ```

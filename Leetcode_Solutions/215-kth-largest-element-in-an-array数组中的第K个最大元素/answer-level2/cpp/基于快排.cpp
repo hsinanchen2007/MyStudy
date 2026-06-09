@@ -1,9 +1,9 @@
-### 解题思路
-基于快排，前大后小，第K元素即为TOP K
+// ### 解题思路
+// 基于快排，前大后小，第K元素即为TOP K
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -56,4 +56,4 @@ public:
         }
     }
 };
-```
+// ```

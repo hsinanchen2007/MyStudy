@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n == 0:
@@ -12,5 +12,5 @@ class Solution:
             fib0 = fib1
             fib1 = temp+fib1
         return fib1
-```
+# ```
 

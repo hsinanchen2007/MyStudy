@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9fb1be75a10a9fad68367ee2b802356c12ed00aacde687cbf65b4f95e68ce448-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9fb1be75a10a9fad68367ee2b802356c12ed00aacde687cbf65b4f95e68ce448-image.png)
 
-```
+// ```
 int myAtoi(char * str){
     int len = strlen(str);
     while(*str != '\0' && *str == ' ')str++;
@@ -27,4 +27,4 @@ int myAtoi(char * str){
     }
     return flag ? ans : -ans;
 }
-```
+// ```

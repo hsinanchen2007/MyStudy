@@ -1,8 +1,8 @@
-### 解题思路
-DFS
+// ### 解题思路
+// DFS
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
 public:
     //#Brute Force# #DFS#
@@ -30,21 +30,21 @@ private:
     }
     int ways;
 };
-```
+// ```
 
 
 
 
 
-### 解题思路
-DP
-![image.png](https://pic.leetcode-cn.com/140576e6708704cb96ffc44ae7ab21d856d8890ffbdb4f1314fd42289f4364e9-image.png)
-附一个别人的代码，但是递推公式没有看明白（和官方题解相同）：
-https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-494-target-sum/
+// ### 解题思路
+// DP
+// ![image.png](https://pic.leetcode-cn.com/140576e6708704cb96ffc44ae7ab21d856d8890ffbdb4f1314fd42289f4364e9-image.png)
+// 附一个别人的代码，但是递推公式没有看明白（和官方题解相同）：
+// https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-494-target-sum/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public: 
     //#DP# #可以转化为背包问题?#
@@ -76,4 +76,4 @@ public:
         return dp[size-1][offset+S];
     }
 };
-```
+// ```

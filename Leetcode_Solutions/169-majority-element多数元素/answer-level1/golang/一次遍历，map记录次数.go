@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，map记录次数
+// ### 解题思路
+// 一次遍历，map记录次数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
 var currentMaxTimes = 0
 	var currentMostValue = nums[0]
@@ -25,4 +25,4 @@ var currentMaxTimes = 0
 
 	return currentMostValue
 }
-```
+// ```

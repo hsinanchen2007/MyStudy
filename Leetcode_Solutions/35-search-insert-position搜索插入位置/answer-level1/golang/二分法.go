@@ -1,4 +1,4 @@
-```go
+// ```go
 func searchInsert(nums []int, target int) int {
     n := len(nums)
     lo := 0
@@ -17,4 +17,4 @@ func searchInsert(nums []int, target int) int {
 
     return lo
 }
-```
+// ```

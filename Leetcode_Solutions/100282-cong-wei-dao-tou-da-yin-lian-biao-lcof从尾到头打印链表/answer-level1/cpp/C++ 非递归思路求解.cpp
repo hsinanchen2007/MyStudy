@@ -1,9 +1,9 @@
-### 解题思路
-非递归思路解反转链表
+// ### 解题思路
+// 非递归思路解反转链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> reversePrint(ListNode* head) {
@@ -27,4 +27,4 @@ public:
 		return list;
 	}
 };
-```
+// ```

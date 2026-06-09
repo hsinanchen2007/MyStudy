@@ -1,10 +1,10 @@
-### 解题思路
-递归
-执行用时 :2 ms, 在所有 Java 提交中击败了54.05%的用户
-内存消耗 :37.9 MB, 在所有 Java 提交中击败了84.66%的用户
-### 代码
+// ### 解题思路
+// 递归
+// 执行用时 :2 ms, 在所有 Java 提交中击败了54.05%的用户
+// 内存消耗 :37.9 MB, 在所有 Java 提交中击败了84.66%的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -37,4 +37,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

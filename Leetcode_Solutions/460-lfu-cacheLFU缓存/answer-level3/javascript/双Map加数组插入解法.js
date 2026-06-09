@@ -1,12 +1,12 @@
 
-第一个Map存储 key-value值
+// 第一个Map存储 key-value值
 
-第二个Map存储 key对应的频率
+// 第二个Map存储 key对应的频率
 
-数组存储 key值
+// 数组存储 key值
 
 
-```javascript []
+// ```javascript []
 /**
  * @param {number} capacity
  */
@@ -85,4 +85,4 @@ LFUCache.prototype.put = function (key, value) {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def nextGreatestLetter(self, letters, target):
         for i in letters:
@@ -11,4 +11,4 @@ class Solution(object):
                 return i
 
         return letters[0]
-```
+# ```

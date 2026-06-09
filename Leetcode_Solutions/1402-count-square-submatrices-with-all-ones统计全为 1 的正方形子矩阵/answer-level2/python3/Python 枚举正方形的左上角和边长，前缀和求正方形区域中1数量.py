@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/40c0b86ddc1ca158b65c57a74bb3b0d7276a7016a7a191753145d401e9274e48-image.png)
+# ![image.png](https://pic.leetcode-cn.com/40c0b86ddc1ca158b65c57a74bb3b0d7276a7016a7a191753145d401e9274e48-image.png)
 
 
-```
+# ```
 from typing import List
 class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
@@ -39,4 +39,4 @@ class Solution:
                     ans += 1
 
         return ans
-```
+# ```

@@ -1,7 +1,7 @@
-执行用时 :3 ms, 在所有 Java 提交中击败了86.49%的用户
-内存消耗 :38.8 MB, 在所有 Java 提交中击败了50.57%的用户	
-在网上看到了一个解法，但是改进了一点
-原地址为：https://blog.csdn.net/be_gin_ner/article/details/90524141
+// 执行用时 :3 ms, 在所有 Java 提交中击败了86.49%的用户
+// 内存消耗 :38.8 MB, 在所有 Java 提交中击败了50.57%的用户	
+// 在网上看到了一个解法，但是改进了一点
+// 原地址为：https://blog.csdn.net/be_gin_ner/article/details/90524141
 
     public static List<String> generateParenthesis(int n) {
 		List<String> al = new ArrayList<>();

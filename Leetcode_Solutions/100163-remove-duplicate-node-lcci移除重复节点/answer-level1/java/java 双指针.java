@@ -1,13 +1,13 @@
-### 解题思路
-1.将不重复的数据放入哈希表
-2.重复的数据进行判断，进行跳过
-3.使用双指针，
-4.有新元素加入，prev = current ，current后移
-5.无新元素加入，pre.next = current.next current 后移
+// ### 解题思路
+// 1.将不重复的数据放入哈希表
+// 2.重复的数据进行判断，进行跳过
+// 3.使用双指针，
+// 4.有新元素加入，prev = current ，current后移
+// 5.无新元素加入，pre.next = current.next current 后移
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-预处理数据，查询的数据的时候二分
-```
+// 预处理数据，查询的数据的时候二分
+// ```
 type TopVotedCandidate struct {
 	Persons []int
 	Times   []int
@@ -53,4 +53,4 @@ func (this *TopVotedCandidate) Q(t int) int {
  * param_1 := obj.Q(t);
  */
 
-```
+// ```

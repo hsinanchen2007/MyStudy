@@ -1,9 +1,9 @@
-### 解题思路
-利用堆来解决
-时间复杂度:$O(NlogK)$
-空间复杂度:$O(K)$
+# ### 解题思路
+# 利用堆来解决
+# 时间复杂度:$O(NlogK)$
+# 空间复杂度:$O(K)$
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
                 heapq.heappush(heap, (lists[index].val, index))
                 lists[index] = lists[index].next
         return dummyNode.next
-```
+# ```

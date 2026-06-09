@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0e3dd5c8b3b0ded06b295d8959f33146b8d3e2f9e311d4e6dbb36f30aa5ec0b3-image.png)
-解题思路：统计数组中1的个数count，返回2*count+2。若四个一组成方块--count。
-```
+// ![image.png](https://pic.leetcode-cn.com/0e3dd5c8b3b0ded06b295d8959f33146b8d3e2f9e311d4e6dbb36f30aa5ec0b3-image.png)
+// 解题思路：统计数组中1的个数count，返回2*count+2。若四个一组成方块--count。
+// ```
     int islandPerimeter(vector<vector<int>>& grid) {
         int count = 0;
         for(int i = 0;i<grid.size();++i)
@@ -12,4 +12,4 @@
         --count;
         return 2*count+2;
     }
-```
+// ```

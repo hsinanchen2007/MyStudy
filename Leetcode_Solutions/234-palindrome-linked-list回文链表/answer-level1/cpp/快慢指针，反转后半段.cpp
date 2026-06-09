@@ -1,12 +1,12 @@
-### 解题思路
-通过快慢指针找到链表的中点，然后将后半段反转，判断前后是否相等。将快指针初始位置设为第二个节点，方便后续奇偶链的处理。
-![image.png](https://pic.leetcode-cn.com/0106b15370fa782cb8ef0bd18f9a4141762478c942d04059d4b9488c10b178d8-image.png)
+// ### 解题思路
+// 通过快慢指针找到链表的中点，然后将后半段反转，判断前后是否相等。将快指针初始位置设为第二个节点，方便后续奇偶链的处理。
+// ![image.png](https://pic.leetcode-cn.com/0106b15370fa782cb8ef0bd18f9a4141762478c942d04059d4b9488c10b178d8-image.png)
 
-![image.png](https://pic.leetcode-cn.com/28f55bf2feabf4606ce5a7f49db9b3be43e5059bccd614efe8d8b0ab0c3aabd7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/28f55bf2feabf4606ce5a7f49db9b3be43e5059bccd614efe8d8b0ab0c3aabd7-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
         return true;
     }
 };
-```
+// ```

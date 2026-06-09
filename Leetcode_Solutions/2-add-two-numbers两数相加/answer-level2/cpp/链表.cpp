@@ -1,10 +1,10 @@
-### 解题思路
-新建第三个链表，记录l1，l2之和
-（用原链表的其中一个也可以）
+// ### 解题思路
+// 新建第三个链表，记录l1，l2之和
+// （用原链表的其中一个也可以）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

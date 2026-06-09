@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class RecentCounter {
 public:
     RecentCounter() {
@@ -19,4 +19,4 @@ private:
  * RecentCounter* obj = new RecentCounter();
  * int param_1 = obj->ping(t);
  */
-```
+// ```

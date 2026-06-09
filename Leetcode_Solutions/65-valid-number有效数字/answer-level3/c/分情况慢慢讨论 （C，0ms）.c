@@ -1,6 +1,6 @@
-不难，但是要慢慢讨论各种符号
+// 不难，但是要慢慢讨论各种符号
 
-```
+// ```
 bool isNumber(char* s) {
     bool decimal = false;  // flag of .
     bool neg = false;      // flag of +/-
@@ -42,4 +42,4 @@ bool isNumber(char* s) {
     return num;
 }
 
-```
+// ```

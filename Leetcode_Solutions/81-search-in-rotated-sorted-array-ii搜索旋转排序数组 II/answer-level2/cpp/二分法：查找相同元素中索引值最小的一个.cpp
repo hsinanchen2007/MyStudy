@@ -1,40 +1,40 @@
-解题思路：二分法，查找相同元素中索引值最小的一个。
+// 解题思路：二分法，查找相同元素中索引值最小的一个。
 
-对于能判断升序区间的情况，根据目标值的大小移动边界。
-对于不能判断升序区间的情况，需要逐步清除重复值。
+// 对于能判断升序区间的情况，根据目标值的大小移动边界。
+// 对于不能判断升序区间的情况，需要逐步清除重复值。
 
-                                        nums[left] <= target  
-                                  ┌─  && target <= nums[mid]   ──>  right = mid                
-                                  │   （目标在左边的升序区间中）         （右边界移动到mid）
-      ┌─  nums[left] < nums[mid] ─┼
-      │     （左边区间升序）         │
-      │                           └─    否则目标在右半边          ──>  left = mid + 1
-      │                                                             （左边界移动到mid+1）
-      │               
-      │                                 nums[left] <= target  
-      │                           ┌─  || target <= nums[mid]   ──>  right = mid              
-      │                           │    （目标在左半边）                （右边界移动到mid）
-     ─┼─  nums[left] > nums[mid] ─┼     
-      │     （左边不是升序）         │
-      │                           └─    否则目标在右半边          ──>  left = mid + 1 
-      │                                                              （左边界移动到mid+1）
-      │               
-      │                             
-      │                           ┌─   nums[left] != target    ──>  left++                
-      │                           │     （左值不等于目标               （需要逐一清理重复值）        
-      └─ nums[left] == nums[mid] ─┼         说明还没找到）
-          （可能是已经找到了目标      │
-            也可能是遇到了重复值）    └─   nums[left] == target    ──>  right = left
-                                        （左值等于目标                 （将右边界移动到left，循环结束）
-                                          已经找到最左边的目标值）
+//                                         nums[left] <= target  
+//                                   ┌─  && target <= nums[mid]   ──>  right = mid                
+//                                   │   （目标在左边的升序区间中）         （右边界移动到mid）
+//       ┌─  nums[left] < nums[mid] ─┼
+//       │     （左边区间升序）         │
+//       │                           └─    否则目标在右半边          ──>  left = mid + 1
+//       │                                                             （左边界移动到mid+1）
+//       │               
+//       │                                 nums[left] <= target  
+//       │                           ┌─  || target <= nums[mid]   ──>  right = mid              
+//       │                           │    （目标在左半边）                （右边界移动到mid）
+//      ─┼─  nums[left] > nums[mid] ─┼     
+//       │     （左边不是升序）         │
+//       │                           └─    否则目标在右半边          ──>  left = mid + 1 
+//       │                                                              （左边界移动到mid+1）
+//       │               
+//       │                             
+//       │                           ┌─   nums[left] != target    ──>  left++                
+//       │                           │     （左值不等于目标               （需要逐一清理重复值）        
+//       └─ nums[left] == nums[mid] ─┼         说明还没找到）
+//           （可能是已经找到了目标      │
+//             也可能是遇到了重复值）    └─   nums[left] == target    ──>  right = left
+//                                         （左值等于目标                 （将右边界移动到left，循环结束）
+//                                           已经找到最左边的目标值）
 
 
 
-没有重复值的最优情况时间复杂度是O(log N)，全部或几乎全部是重复值的最差情况时间复杂度是O(N)。
+// 没有重复值的最优情况时间复杂度是O(log N)，全部或几乎全部是重复值的最差情况时间复杂度是O(N)。
 
-以下是C++、Java、Python3代码：
+// 以下是C++、Java、Python3代码：
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
@@ -67,8 +67,8 @@ public:
         return (nums[left] == target) ? true : false;                   // 返回left，或者-1
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public boolean search(int[] nums, int target) {
         int left = 0;
@@ -100,8 +100,8 @@ class Solution {
         return (nums[left] == target) ? true : false;                   // 返回left，或者-1
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         if not nums:
@@ -125,4 +125,4 @@ class Solution:
                 else:                                               # 如果左值等于目标，说明已经找到最左边的目标值
                     right = left                                    # 将右边界移动到left，循环结束
         return True if nums[left] == target else False              # 返回left，或者-1
-```
+// ```

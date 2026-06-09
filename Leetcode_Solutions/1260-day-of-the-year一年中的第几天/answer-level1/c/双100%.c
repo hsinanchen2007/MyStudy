@@ -1,5 +1,5 @@
-![百分百.png](https://pic.leetcode-cn.com/66eed5da64bf258d7bce14eed21ee9d2d901181a35f8bfad86acb93570b6bd08-%E7%99%BE%E5%88%86%E7%99%BE.png)
-```
+// ![百分百.png](https://pic.leetcode-cn.com/66eed5da64bf258d7bce14eed21ee9d2d901181a35f8bfad86acb93570b6bd08-%E7%99%BE%E5%88%86%E7%99%BE.png)
+// ```
 int judgeYear(int year){
 	if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
 		return 29;
@@ -31,5 +31,5 @@ int dayOfYear(char * date){
     sscanf(date, "%d-%d-%d", &year, &month, &day);
     return judgeMonth(year, month, day);
 }
-```
+// ```
 

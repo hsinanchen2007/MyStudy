@@ -1,5 +1,5 @@
-##### 用一个队列：To be specific, refer to the code annotation.
-```
+// ##### 用一个队列：To be specific, refer to the code annotation.
+// ```
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -37,9 +37,9 @@ public:
 private:
     queue<int> mystack;
 };
-```
-##### 用两个队列：To be specific, refer to the code annotation.
-```
+// ```
+// ##### 用两个队列：To be specific, refer to the code annotation.
+// ```
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -82,4 +82,4 @@ public:
 private:
     queue<int> _data;
 };
-```
+// ```

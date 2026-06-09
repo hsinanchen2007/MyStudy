@@ -1,5 +1,5 @@
 
-```
+// ```
 public static int[] sortArrayByParity(int[] A) {
         int[] a = new int[A.length];
         int right = A.length - 1;
@@ -15,5 +15,5 @@ public static int[] sortArrayByParity(int[] A) {
         }
         return a;
     }
-```
+// ```
         

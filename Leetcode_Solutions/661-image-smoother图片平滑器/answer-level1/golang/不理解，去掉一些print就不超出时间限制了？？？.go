@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func imageSmoother(M [][]int) [][]int {
 	if len(M)==0{
 		return nil
@@ -41,4 +41,4 @@ func findSmoother(M [][]int,i int,j int,) []int {
 	return []int{0,0}
 }
 
-```
+// ```

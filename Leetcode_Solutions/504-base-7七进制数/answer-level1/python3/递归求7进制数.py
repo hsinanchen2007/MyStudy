@@ -1,5 +1,5 @@
-应该比较好懂，就不做解释了
-```
+# 应该比较好懂，就不做解释了
+# ```
 class Solution:
     def convertToBase7(self, num: int) -> str:
         def digui(num,a,f = 1):
@@ -18,4 +18,4 @@ class Solution:
         if num == 0:
             return '0'
         return digui(num,'',f = 1)
-```
+# ```

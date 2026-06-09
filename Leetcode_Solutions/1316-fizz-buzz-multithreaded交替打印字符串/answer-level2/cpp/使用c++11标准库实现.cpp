@@ -1,4 +1,4 @@
-```
+// ```
 class FizzBuzz {
 private:
 	int n;
@@ -81,4 +81,4 @@ public:
 		cv.notify_all();
 	}
 };
-```
+// ```

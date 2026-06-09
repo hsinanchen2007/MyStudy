@@ -1,6 +1,6 @@
-比较常规的一题
-第一种方法：
-```
+// 比较常规的一题
+// 第一种方法：
+// ```
 void permute(vector<int>& nums, vector<vector<int>>& ans, int k) {
 	if (k == nums.size()) {
 		ans.push_back(nums);
@@ -17,6 +17,6 @@ vector<vector<int>> permute(vector<int>& nums) {
 	permute(nums, ans, 0);
 	return ans;
 }
-```
-第二种方法：使用库函数
-先对数字排序，然后使用next_permutation函数
+// ```
+// 第二种方法：使用库函数
+// 先对数字排序，然后使用next_permutation函数

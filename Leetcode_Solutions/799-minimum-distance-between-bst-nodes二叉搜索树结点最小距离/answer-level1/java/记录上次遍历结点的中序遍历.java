@@ -1,17 +1,17 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(1)
-2. 我的解题思路
-<br />&nbsp;2.1 因为题目指出待遍历的树是二叉搜索树，所以中序遍历结果肯定为有序数组
-<br />&nbsp;2.2 因为题目要求求出结点的最小距离，所以这个距离肯定发生在相邻结点之间
-<br />&nbsp;2.3 定义两个变量记录遍历过程对比结果
-<br />&nbsp;2.4 中序遍历二叉树，对比当前结点与上一结点的差与当前最小距离，并根据对比结果适当调整变量的值
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗35MB内存
-<br />&nbsp;3.2 leetcode中耗时0ms,消耗34.5MB内存
-4. Q&A
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(1)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 因为题目指出待遍历的树是二叉搜索树，所以中序遍历结果肯定为有序数组
+// <br />&nbsp;2.2 因为题目要求求出结点的最小距离，所以这个距离肯定发生在相邻结点之间
+// <br />&nbsp;2.3 定义两个变量记录遍历过程对比结果
+// <br />&nbsp;2.4 中序遍历二叉树，对比当前结点与上一结点的差与当前最小距离，并根据对比结果适当调整变量的值
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗35MB内存
+// <br />&nbsp;3.2 leetcode中耗时0ms,消耗34.5MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     783.Minimum Distance Between BST Nodes
@@ -64,7 +64,7 @@ class Solution {
         inOrder(root.right);
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

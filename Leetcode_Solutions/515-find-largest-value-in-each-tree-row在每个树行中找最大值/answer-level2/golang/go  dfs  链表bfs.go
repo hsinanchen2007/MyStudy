@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-俩种解法 
+// 俩种解法 
 
-bfs 用的链表  
-下面还有个ListNode 实现的简易队列
+// bfs 用的链表  
+// 下面还有个ListNode 实现的简易队列
 
-### 代码
-bfs
-```golang
+// ### 代码
+// bfs
+// ```golang
 
 // bfs
 import "container/list"
@@ -46,10 +46,10 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-下面是dfs
-```golang
+// 下面是dfs
+// ```golang
 // dfs
 const INT_MIN =^int(^uint(0) >> 1)
 func largestValues(root *TreeNode) []int {
@@ -78,15 +78,15 @@ func max(a, b int) int {
     return b
 }
 
-```
+// ```
 
-### 解题思路
+// ### 解题思路
 
-bfs 借助链表实现
-弄个list存树的节点
-### 代码
+// bfs 借助链表实现
+// 弄个list存树的节点
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -159,4 +159,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

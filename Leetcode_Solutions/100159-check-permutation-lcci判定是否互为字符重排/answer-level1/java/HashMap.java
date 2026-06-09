@@ -1,5 +1,5 @@
-对于我这种菜鸡来说直接想到的就是hashmap，遍历两个字符串,如果最后所有的value都是0就返回true，否则返回false；
-```
+// 对于我这种菜鸡来说直接想到的就是hashmap，遍历两个字符串,如果最后所有的value都是0就返回true，否则返回false；
+// ```
 import java.util.HashMap;
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

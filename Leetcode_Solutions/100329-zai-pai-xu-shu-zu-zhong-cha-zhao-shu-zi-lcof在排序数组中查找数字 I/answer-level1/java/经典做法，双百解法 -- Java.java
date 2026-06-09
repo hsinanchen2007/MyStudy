@@ -1,11 +1,11 @@
-### 解题思路
-1.获得头target
-2.获得尾target
-3.两个差值
+// ### 解题思路
+// 1.获得头target
+// 2.获得尾target
+// 3.两个差值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int search(int[] nums, int target) {
         int begin = 0;
@@ -57,4 +57,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

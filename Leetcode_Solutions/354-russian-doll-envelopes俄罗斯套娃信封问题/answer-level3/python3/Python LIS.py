@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/46ce0998fecfd95e37eb964babc068a2a462c767c40f9480640c72592bc9c575-image.png)
+# ![image.png](https://pic.leetcode-cn.com/46ce0998fecfd95e37eb964babc068a2a462c767c40f9480640c72592bc9c575-image.png)
 
 
-```
+# ```
 '''
 二维LIS算法找最长递增序列长度
 将序列按照第一维升序，第二位降序排列，
@@ -29,4 +29,4 @@ class Solution:
                         lis[idx] = val
 
         return len(lis)
-```
+# ```

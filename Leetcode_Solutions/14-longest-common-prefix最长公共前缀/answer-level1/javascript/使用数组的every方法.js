@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[]} strs
  * @return {string}
@@ -14,6 +14,6 @@ var longestCommonPrefix = function(strs) {
     }
     return commonPre
 };
-```
-首先找到数组中字符串的最短长度，即最大循环次数
-循环判断每个字符是否相等，以数组中第一个字符串为参照
+// ```
+// 首先找到数组中字符串的最短长度，即最大循环次数
+// 循环判断每个字符是否相等，以数组中第一个字符串为参照

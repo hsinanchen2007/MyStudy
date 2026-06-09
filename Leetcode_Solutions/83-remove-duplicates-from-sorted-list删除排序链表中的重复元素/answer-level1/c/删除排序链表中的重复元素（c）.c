@@ -1,9 +1,9 @@
-### 解题思路
-常规题，递归和非递归两种方法。
+// ### 解题思路
+// 常规题，递归和非递归两种方法。
 
-### 代码
-# **递归**
-```c
+// ### 代码
+// # **递归**
+// ```c
 struct ListNode* deleteDuplicates(struct ListNode* head)
 {
     if(!head || !head->next)
@@ -16,9 +16,9 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
     }
     return head;
 }
-```
-# **非递归**
-```
+// ```
+// # **非递归**
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head)
 {
     if(!head)
@@ -39,4 +39,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
     }
     return head;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-求x的逆序数ux，判断x是否等于ux
+// ### 解题思路
+// 求x的逆序数ux，判断x是否等于ux
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     if(x<0)
         return false;
@@ -20,4 +20,4 @@ bool isPalindrome(int x){
     if(x==ux) return true;
     else return false;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-LeetCode序列化二叉树的格式可参考LeetCode国际站点：<https://support.leetcode.com/hc/en-us/articles/360011883654-What-does-1-null-2-3-mean-in-binary-tree-representation->
+// LeetCode序列化二叉树的格式可参考LeetCode国际站点：<https://support.leetcode.com/hc/en-us/articles/360011883654-What-does-1-null-2-3-mean-in-binary-tree-representation->
 
 
-``` java
+// ``` java
 public class Codec {
 
     // Encodes a tree to a single string.
@@ -78,4 +78,4 @@ public class Codec {
         return root;
     }
 }
-```
+// ```

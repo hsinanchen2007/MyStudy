@@ -1,13 +1,13 @@
-### 解题思路
-1、NUM+1开根后，从开根后的值开始取得第一个因子，该因子肯定是NUM+1最接近的两个数；
-2、同理取NUM+2的值；
-3、比较获取到的两个值的差距，取最小的区间；
+// ### 解题思路
+// 1、NUM+1开根后，从开根后的值开始取得第一个因子，该因子肯定是NUM+1最接近的两个数；
+// 2、同理取NUM+2的值；
+// 3、比较获取到的两个值的差距，取最小的区间；
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int DivisorsNum(int num)
 {
     int tmp = sqrt(num);
@@ -51,4 +51,4 @@ int* closestDivisors(int num, int* returnSize)
     *returnSize = 2;
     return result;
 }
-```
+// ```

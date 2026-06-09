@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
 
     def _isSymmetric(self, p, q):
@@ -12,4 +12,4 @@ class Solution(object):
         """
         if not root or not(root.left or root.right): return True
         return self._isSymmetric(root.left, root.right)
-```
+# ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b4254e2be1365c7ef75ed6478feff4811b696ebed7f8a8fb846213ef9e310db2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b4254e2be1365c7ef75ed6478feff4811b696ebed7f8a8fb846213ef9e310db2-image.png)
 
 
-```
+// ```
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
         //SUM记录全路线路程
@@ -25,4 +25,4 @@ class Solution {
         return Math.min(sum,SUM-sum);
     }
 }
-```
+// ```

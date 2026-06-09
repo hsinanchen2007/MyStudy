@@ -1,10 +1,10 @@
-### 解题思路
-方向数组啥的都见鬼去吧。但是为什么这样就能双百呢？
-![image.png](https://pic.leetcode-cn.com/72d7053e7e38205aa6c37300996dc61301cb28de83c54a08f7cbcec97f57ac3c-image.png)
+// ### 解题思路
+// 方向数组啥的都见鬼去吧。但是为什么这样就能双百呢？
+// ![image.png](https://pic.leetcode-cn.com/72d7053e7e38205aa6c37300996dc61301cb28de83c54a08f7cbcec97f57ac3c-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -72,4 +72,4 @@ public:
 
     }
 };
-```
+// ```

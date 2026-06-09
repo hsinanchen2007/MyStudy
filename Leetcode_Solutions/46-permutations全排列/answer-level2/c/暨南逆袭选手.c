@@ -1,10 +1,10 @@
-### 解题思路
-处理指针真的是让人头疼
-典型的回溯算法，细节有点磨人
+// ### 解题思路
+// 处理指针真的是让人头疼
+// 典型的回溯算法，细节有点磨人
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -52,4 +52,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     backTrack(nums, numsSize, 0, retArray, returnSize);
     return retArray;
 }
-```
+// ```

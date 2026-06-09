@@ -1,16 +1,16 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n!)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 这个解法基于滑动窗口
-    2.2 定义两个指针，分别是窗口的左边界以及右边界
-    2.3 循环遍历数组知道右边界到达数组的右边界
-        2.3.1 将右边界元素加到temp中
-        2.3.2 对比用temp减去左边界的元素，移动左边界
-        2.3.2 对比并更新result
-<br />
-### java实现
-```
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n!)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 这个解法基于滑动窗口
+//     2.2 定义两个指针，分别是窗口的左边界以及右边界
+//     2.3 循环遍历数组知道右边界到达数组的右边界
+//         2.3.1 将右边界元素加到temp中
+//         2.3.2 对比用temp减去左边界的元素，移动左边界
+//         2.3.2 对比并更新result
+// <br />
+// ### java实现
+// ```
 /**
  * Problem
  *     209.Minimum Size Subarray Sum
@@ -64,11 +64,11 @@ class Solution {
     }
 }
 
-```
+// ```
 
-<br />
-#### php实现
-```
+// <br />
+// #### php实现
+// ```
 class Solution{
 
     /**
@@ -109,7 +109,7 @@ class Solution{
         return $res == 2147483648 ? 0 : $res;
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

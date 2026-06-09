@@ -1,4 +1,4 @@
-![二分法.PNG](https://pic.leetcode-cn.com/9651992fb3d10f7b62caf25485ad07fa50ab824bb6486cc1c31f1fadcc750526-%E4%BA%8C%E5%88%86%E6%B3%95.PNG)
+// ![二分法.PNG](https://pic.leetcode-cn.com/9651992fb3d10f7b62caf25485ad07fa50ab824bb6486cc1c31f1fadcc750526-%E4%BA%8C%E5%88%86%E6%B3%95.PNG)
 
 class Solution {
     public int searchInsert(int[] nums, int target) {

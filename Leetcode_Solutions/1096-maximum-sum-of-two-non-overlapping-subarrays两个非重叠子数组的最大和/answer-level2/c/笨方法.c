@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) (((a) > (b)) ? (a) : (b))
 int maxSumTwoNoOverlapSingleStep(int* sum, int left, int right, int len) {
 	int ret, tmp, i, j;
@@ -38,4 +38,4 @@ int maxSumTwoNoOverlap(int* A, int ASize, int L, int M) {
     free(sum);
 	return ret;
 }
-```
+// ```

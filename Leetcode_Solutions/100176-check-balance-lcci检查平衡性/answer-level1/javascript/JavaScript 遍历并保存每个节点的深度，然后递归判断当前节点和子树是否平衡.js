@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,4 +33,4 @@ var isBalanced = function(root) {
     }
 };
 
-```
+// ```

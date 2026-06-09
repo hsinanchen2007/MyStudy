@@ -1,7 +1,7 @@
-遍历字符串长度一半，与对称位置利用和差互换
+// 遍历字符串长度一半，与对称位置利用和差互换
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -13,4 +13,4 @@ public:
         }
     }
 };
-```
+// ```

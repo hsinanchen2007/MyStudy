@@ -1,9 +1,9 @@
-### 解题思路
-看了别人的题解才发现自己太年轻了
+# ### 解题思路
+# 看了别人的题解才发现自己太年轻了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sequentialDigits(self, low, high):
         first  = int(str(low)[0])
@@ -47,4 +47,4 @@ def make_num(first_num, length):
     return result
 
 
-```
+# ```

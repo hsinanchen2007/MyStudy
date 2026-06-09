@@ -1,9 +1,9 @@
-### 解题思路
-记住就行了recursive binary search for the root, set right array to node.right, left array to node.left
+# ### 解题思路
+# 记住就行了recursive binary search for the root, set right array to node.right, left array to node.left
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -44,4 +44,4 @@ class Solution:
 
 #         return node
 
-```
+# ```

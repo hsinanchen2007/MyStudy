@@ -1,9 +1,9 @@
-### 解题思路
-JAVA 贪心算法 只交换偶数位即可
+// ### 解题思路
+// JAVA 贪心算法 只交换偶数位即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minSwapsCouples(int[] row) {
         int result = 0;
@@ -22,4 +22,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

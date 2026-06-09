@@ -1,9 +1,9 @@
-### 解题思路
-一个人可能有多次相同的进出站记录。不能做进出站和Id的映射。
+// ### 解题思路
+// 一个人可能有多次相同的进出站记录。不能做进出站和Id的映射。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 typedef struct {
     string in_station, out_station="";
     int in_time, out_time=0;
@@ -48,4 +48,4 @@ private:
  * obj->checkOut(id,stationName,t);
  * double param_3 = obj->getAverageTime(startStation,endStation);
  */
-```
+// ```

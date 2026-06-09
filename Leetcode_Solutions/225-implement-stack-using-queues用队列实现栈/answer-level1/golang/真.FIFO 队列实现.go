@@ -1,8 +1,8 @@
-因为题目要求了：你只能使用队列的基本操作-- 也就是 push to back, peek/pop from front, size, 和 is empty 这些操作是合法的。
+// 因为题目要求了：你只能使用队列的基本操作-- 也就是 push to back, peek/pop from front, size, 和 is empty 这些操作是合法的。
 
-所以用数组什么的是不符合要求的，因为 nums[len(nums)-1] 属于 pop from back。
+// 所以用数组什么的是不符合要求的，因为 nums[len(nums)-1] 属于 pop from back。
 
-```
+// ```
 import "container/list"
 
 type MyStack struct {
@@ -67,4 +67,4 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
 	return this.l1.Len() == 0 && this.l2.Len() == 0
 }
-```
+// ```

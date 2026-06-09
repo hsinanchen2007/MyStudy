@@ -1,9 +1,9 @@
-### 解题思路
-划分型动态规划
+// ### 解题思路
+// 划分型动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
@@ -19,4 +19,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

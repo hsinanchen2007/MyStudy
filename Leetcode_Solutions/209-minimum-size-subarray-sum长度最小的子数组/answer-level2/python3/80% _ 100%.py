@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口，如果窗口内的和超过s，就左移左边界，否则右移右边界
+# ### 解题思路
+# 滑动窗口，如果窗口内的和超过s，就左移左边界，否则右移右边界
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         left = 0        # 左指针
@@ -28,4 +28,4 @@ class Solution:
                 curSize += 1            # 窗口增大
         res = minSize if minSize != MAX else 0      # 没有符合条件的就返回0
         return res
-```
+# ```

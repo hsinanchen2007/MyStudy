@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-### 动态规划
-```php
+// ### 代码
+// ### 动态规划
+// ```php
 class Solution {
 
     /**
@@ -30,10 +30,10 @@ class Solution {
     }
 
 }
-```
+// ```
 
-### 回溯算法
-```php
+// ### 回溯算法
+// ```php
 class Solution {
 
     /**
@@ -67,8 +67,8 @@ class Solution {
     }
 
 }
-```
+// ```
 
-参考
+// 参考
 
-[参考](https://leetcode-cn.com/problems/subsets/solution/php-jie-fa-liang-chong-hui-su-jie-fa-by-andfly/)
+// [参考](https://leetcode-cn.com/problems/subsets/solution/php-jie-fa-liang-chong-hui-su-jie-fa-by-andfly/)

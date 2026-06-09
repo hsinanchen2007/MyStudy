@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
        int add = 0,mul = 1;
@@ -11,4 +11,4 @@ class Solution {
         return mul - add;
     }
 }
-```
+// ```

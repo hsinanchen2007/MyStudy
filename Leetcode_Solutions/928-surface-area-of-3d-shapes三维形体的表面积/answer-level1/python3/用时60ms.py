@@ -1,12 +1,12 @@
-### 解题思路
-        N=len(grid[0]) #网格长宽
-        n=0 #正方体个数
-        z=0 #竖直方向上的重叠面
-        x_y=0 #水平方向上的重叠面
+# ### 解题思路
+#         N=len(grid[0]) #网格长宽
+#         n=0 #正方体个数
+#         z=0 #竖直方向上的重叠面
+#         x_y=0 #水平方向上的重叠面
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def surfaceArea(self, grid):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                     x_y+=min(grid[j][i],grid[j+1][i])
         sum=6*n-2*(x_y+z)
         return sum
-```
+# ```

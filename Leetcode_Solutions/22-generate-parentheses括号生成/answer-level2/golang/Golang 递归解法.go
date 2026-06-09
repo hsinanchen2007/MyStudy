@@ -1,4 +1,4 @@
-```go
+// ```go
 func generateParenthesis(n int) []string {
     var res []string
     gen(&res, n, n, "")
@@ -17,4 +17,4 @@ func gen(res *[]string, left, right int, substr string) {
         gen(res, left, right-1, substr+")")
     }
 }
-```
+// ```

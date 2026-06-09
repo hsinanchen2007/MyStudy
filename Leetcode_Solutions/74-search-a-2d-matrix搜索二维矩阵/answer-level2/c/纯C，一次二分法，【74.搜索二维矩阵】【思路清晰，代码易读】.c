@@ -1,15 +1,15 @@
-### 解题思路
-方法一：两次二分法
-1,第一次二分法找到行
-2,第二次二分法找到列
+// ### 解题思路
+// 方法一：两次二分法
+// 1,第一次二分法找到行
+// 2,第二次二分法找到列
 
-方法二：一次二分法
-1, 将 m*n 矩阵看做是(m*n - 1)一维的有序数组
-2, Mid 位置对应的数组下标 matrix[Mid / Col][Mid % Col]
+// 方法二：一次二分法
+// 1, 将 m*n 矩阵看做是(m*n - 1)一维的有序数组
+// 2, Mid 位置对应的数组下标 matrix[Mid / Col][Mid % Col]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //方法二：一次二分法
 //1, 将 m*n 矩阵看做是(m*n - 1)一维的有序数组
 //2, Mid 位置对应的数组下标 matrix[Mid / Col][Mid % Col]
@@ -102,4 +102,4 @@ bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
     return false;
 }
 */
-```
+// ```

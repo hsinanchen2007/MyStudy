@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+# ### 解题思路
+# 见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         dic, j = collections.Counter(nums), -50000
@@ -16,4 +16,4 @@ class Solution:
         
         return nums
 
-```
+# ```

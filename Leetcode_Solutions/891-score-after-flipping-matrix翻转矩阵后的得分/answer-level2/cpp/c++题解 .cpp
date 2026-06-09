@@ -1,11 +1,11 @@
 
-![image.png](https://pic.leetcode-cn.com/1a720ef5d2d16d560445ef9b7692e8307ce910c506e3adfb93b29bb0d8d9add2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1a720ef5d2d16d560445ef9b7692e8307ce910c506e3adfb93b29bb0d8d9add2-image.png)
 
-思路：
-第一列必为1，然后逐列看 1 和 0 的个数 1<0的时候，进行翻转，否则不变
-有一个快捷的方法，就是翻转的时候就加和
+// 思路：
+// 第一列必为1，然后逐列看 1 和 0 的个数 1<0的时候，进行翻转，否则不变
+// 有一个快捷的方法，就是翻转的时候就加和
 
-```
+// ```
 class Solution {
 public:
     int matrixScore(vector<vector<int>>& A) {
@@ -75,4 +75,4 @@ public:
     
     
 };
-```
+// ```

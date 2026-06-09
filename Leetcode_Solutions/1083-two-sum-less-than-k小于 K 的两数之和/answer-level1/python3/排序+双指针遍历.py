@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSumLessThanK(self, A: List[int], K: int) -> int:
         A.sort()
@@ -18,4 +18,4 @@ class Solution:
         return res
             
         
-```
+# ```

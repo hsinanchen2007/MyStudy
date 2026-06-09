@@ -1,4 +1,4 @@
-******先上答案：
+// ******先上答案：
 class Solution {
     private int[][] myrec = new int[50][50];
     public int surfaceArea(int[][] grid) {

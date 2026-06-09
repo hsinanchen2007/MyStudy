@@ -1,5 +1,5 @@
 
-```js
+// ```js
 var isPalindrome = function(s) {
     if(s === '') return true
     let reg = /[^A-Za-z0-9]/g
@@ -15,4 +15,4 @@ var isPalindrome = function(s) {
     }
     return isPalind
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lastRemaining(int n, int m){
     int i = 0;
     int alive = 0;
@@ -24,4 +24,4 @@ int lastRemaining(int n, int m){
     }
     return alive;
 }
-```
+// ```

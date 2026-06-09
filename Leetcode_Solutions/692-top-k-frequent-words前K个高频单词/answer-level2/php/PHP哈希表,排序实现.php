@@ -1,12 +1,12 @@
-# 方法一: 哈希表,冒泡排序
-- 时间复杂度O(n²+n)
-- 空间复杂度: 哈希表最坏情况O(n),冒泡排序属于原地排序O(1),返回前K项O(k) 总复杂度O(n+k)
-- 
-- 注: 字符判断
-- a < b //true
-- b < a // false
-- coding > leetcode // false
-```
+// # 方法一: 哈希表,冒泡排序
+// - 时间复杂度O(n²+n)
+// - 空间复杂度: 哈希表最坏情况O(n),冒泡排序属于原地排序O(1),返回前K项O(k) 总复杂度O(n+k)
+// - 
+// - 注: 字符判断
+// - a < b //true
+// - b < a // false
+// - coding > leetcode // false
+// ```
 class Solution {
 
     /**
@@ -54,4 +54,4 @@ class Solution {
         return $out;
     }
 }
-```
+// ```

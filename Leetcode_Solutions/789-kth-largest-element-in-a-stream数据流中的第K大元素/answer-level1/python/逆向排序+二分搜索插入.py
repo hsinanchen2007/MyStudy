@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（log（n））
-空间复杂度：O（1）
+# ### 解题思路
+# 时间复杂度：O（log（n））
+# 空间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
@@ -39,4 +39,4 @@ class KthLargest:
         if len(self.nums) >= self.k:
             return self.nums[self.k-1]
         return -1
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     char n[50000], *result = (char*)calloc(strlen(S), sizeof(char));
     int i = 0, j ,k = 0, num, len = strlen(S) - 1;
@@ -26,4 +26,4 @@ char* compressString(char* S){
     else
         return S;
 }
-```
+// ```

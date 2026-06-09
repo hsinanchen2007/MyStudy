@@ -1,29 +1,29 @@
-## 9.用两个栈实现队列
+// ## 9.用两个栈实现队列
 
-### Information
+// ### Information
 
-* TIME: 2020/02/27
-* LINK: [Click Here](http://)
-* TAG: `queue`
+// * TIME: 2020/02/27
+// * LINK: [Click Here](http://)
+// * TAG: `queue`
 
-### Description
+// ### Description
 
-> 用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 appendTail 和 deleteHead ，分别完成在队列尾部插入整数和在队列头部删除整数的功能。(若队列中没有元素，deleteHead 操作返回 -1 )
+// > 用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 appendTail 和 deleteHead ，分别完成在队列尾部插入整数和在队列头部删除整数的功能。(若队列中没有元素，deleteHead 操作返回 -1 )
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入：
 ["CQueue","appendTail","deleteHead","deleteHead"]
 [[],[3],[],[]]
 输出：[null,null,3,-1]
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 建立缓存区`buffer`，每次往栈压入数据之前，先把栈内的数据放到`buffer`中暂存，再压入数据，然后把`buffer`中的数据拿出
+// > 建立缓存区`buffer`，每次往栈压入数据之前，先把栈内的数据放到`buffer`中暂存，再压入数据，然后把`buffer`中的数据拿出
 
-```java
+// ```java
 class CQueue {
     private LinkedList<Integer> buffer;
     private LinkedList<Integer> data;
@@ -56,23 +56,23 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/10a4a24d0efbd2e674a68feca5911b0675a97954492688a3a8f0f1d1935cf5c5-file_1582780885532)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/10a4a24d0efbd2e674a68feca5911b0675a97954492688a3a8f0f1d1935cf5c5-file_1582780885532)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

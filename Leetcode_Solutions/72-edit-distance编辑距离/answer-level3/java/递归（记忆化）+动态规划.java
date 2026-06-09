@@ -1,8 +1,8 @@
-### 1.递归（超时）
-这里递归的做法我们拿题目中的一个例子来看：horse，ros
-![image.png](https://pic.leetcode-cn.com/5fe3297f1c80530708d0c53c4f266abc433322ae7546a30e07e27ad5c9c2439b-image.png)
-比较这三种情况所需的步数，返回一个最小者，当然如果遇到两个字符串的某一位是相同的情况，此时直接跳过这个字符，去看剩下字符所需的最小的步数
-```java
+// ### 1.递归（超时）
+// 这里递归的做法我们拿题目中的一个例子来看：horse，ros
+// ![image.png](https://pic.leetcode-cn.com/5fe3297f1c80530708d0c53c4f266abc433322ae7546a30e07e27ad5c9c2439b-image.png)
+// 比较这三种情况所需的步数，返回一个最小者，当然如果遇到两个字符串的某一位是相同的情况，此时直接跳过这个字符，去看剩下字符所需的最小的步数
+// ```java
 class Solution {
     int exange(int i,int j,char[] o,char[] t){
         //如果i，j都为0，则返回0
@@ -33,12 +33,12 @@ class Solution {
         return exange(i,j,o,t);
     }
 }
-```
-### 2. 递归+记忆化（通过）
-从上一个例子，我们画一下它所对应的递归树
-![image.png](https://pic.leetcode-cn.com/715babf5bb43a889de6bc4be09b92421abefcd528e524407756660129a1b0b6c-image.png)
-可以看到，对于word1长度为i和word2长度为j的情况会有一些重复的计算，由此这里使用一个二维数组memo[i][j]保存对于word1长度为i，word2长度为j所对应的最小的转变步数
-```java
+// ```
+// ### 2. 递归+记忆化（通过）
+// 从上一个例子，我们画一下它所对应的递归树
+// ![image.png](https://pic.leetcode-cn.com/715babf5bb43a889de6bc4be09b92421abefcd528e524407756660129a1b0b6c-image.png)
+// 可以看到，对于word1长度为i和word2长度为j的情况会有一些重复的计算，由此这里使用一个二维数组memo[i][j]保存对于word1长度为i，word2长度为j所对应的最小的转变步数
+// ```java
 class Solution {
     int[][]memo;
     
@@ -77,13 +77,13 @@ class Solution {
         return exange(i,j,o,t);
     }
 }
-```
-### 3. 动态规划（通过）
-从上面的递归树可以看出，该问题具有重叠子问题，而且具有最优子结构，也就是对于父问题的最优解来自于子问题的最优解，所以这里可以使用动态规划来解决，我们这里定义状态dp[i][j]表示word1长度为i，word2长度为j所对应的最小的移动步数，那么dp[i-1][j]+1就表示的是word1的前i-1个字符转变为word2,然后再删除word1的第i个字符，也就是删除操作，dp[i][j-1]+1表示的是word1的前i个字符转变为word2的前j-1个字符，然后再插入word2的第j个字符，也就是插入操作，dp[i-1][j-1]+1表示的是word1的前i-1个字符转变为word2的前j-1个字符，然后将word1的第i个字符替换为word2的第j个字符，也就是替换操作，故最后的状态转移方程变为
-> dp[i][j]=min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1
+// ```
+// ### 3. 动态规划（通过）
+// 从上面的递归树可以看出，该问题具有重叠子问题，而且具有最优子结构，也就是对于父问题的最优解来自于子问题的最优解，所以这里可以使用动态规划来解决，我们这里定义状态dp[i][j]表示word1长度为i，word2长度为j所对应的最小的移动步数，那么dp[i-1][j]+1就表示的是word1的前i-1个字符转变为word2,然后再删除word1的第i个字符，也就是删除操作，dp[i][j-1]+1表示的是word1的前i个字符转变为word2的前j-1个字符，然后再插入word2的第j个字符，也就是插入操作，dp[i-1][j-1]+1表示的是word1的前i-1个字符转变为word2的前j-1个字符，然后将word1的第i个字符替换为word2的第j个字符，也就是替换操作，故最后的状态转移方程变为
+// > dp[i][j]=min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1
 
-当然这里同递归的思路一样，如果word1的第i个字符与word2的第j个字符相同，那么dp[i][j]=dp[i-1][j-1]，也就是此时的这个字符无需操作，继续看剩下的字符
-```java
+// 当然这里同递归的思路一样，如果word1的第i个字符与word2的第j个字符相同，那么dp[i][j]=dp[i-1][j-1]，也就是此时的这个字符无需操作，继续看剩下的字符
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         int n=word1.length();
@@ -113,4 +113,4 @@ class Solution {
         return dp[n][m];
     }
 }
-```
+// ```

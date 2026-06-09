@@ -1,10 +1,10 @@
-### 解题思路
-特殊情况 输入0 1 2的时候
-其他情况，看图解题
+// ### 解题思路
+// 特殊情况 输入0 1 2的时候
+// 其他情况，看图解题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -43,4 +43,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return result;
 }
-```
+// ```

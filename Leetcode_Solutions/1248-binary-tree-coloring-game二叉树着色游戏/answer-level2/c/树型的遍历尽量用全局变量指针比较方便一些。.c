@@ -1,9 +1,9 @@
-### 解题思路
-划分三个区间，分别求count
+// ### 解题思路
+// 划分三个区间，分别求count
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -73,4 +73,4 @@ bool btreeGameWinningMove(struct TreeNode* root, int n, int x){
 
 
 }
-```
+// ```

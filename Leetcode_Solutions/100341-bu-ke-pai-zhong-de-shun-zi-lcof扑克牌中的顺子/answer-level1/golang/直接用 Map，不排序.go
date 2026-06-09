@@ -1,4 +1,4 @@
-```
+// ```
 func isStraight(nums []int) bool {
 	var (
 		i, begin int
@@ -29,4 +29,4 @@ func isStraight(nums []int) bool {
 	}
 	return false
 }
-```
+// ```

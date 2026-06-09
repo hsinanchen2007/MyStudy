@@ -1,9 +1,9 @@
-### 解题思路
-二分法努力找到边界点，使得两个数组的左边加起来和右边加起来个数相同
+// ### 解题思路
+// 二分法努力找到边界点，使得两个数组的左边加起来和右边加起来个数相同
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     // 找到一个值让左右两边的数相等
     l1 := len(nums1)
@@ -73,4 +73,4 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-直接模拟。思路见注释😄
-### 代码
+// ### 解题思路
+// 直接模拟。思路见注释😄
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] ans = new int[num_people];
@@ -23,4 +23,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

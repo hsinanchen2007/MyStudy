@@ -1,11 +1,11 @@
-### 解题思路
-等差数列公式 ： (x+y)*(y-x+1)/2 = target; 
-展开得：y^2 + y + (-x^2+x-2*target) = 0
-求根公式：y = ( -1 + sqrt(1-4*(-x^2+x-2*target)) ) / 2;
-判断条件：delta>0 and (x + y) * (y - x + 1) / 2 == target
-### 代码
+// ### 解题思路
+// 等差数列公式 ： (x+y)*(y-x+1)/2 = target; 
+// 展开得：y^2 + y + (-x^2+x-2*target) = 0
+// 求根公式：y = ( -1 + sqrt(1-4*(-x^2+x-2*target)) ) / 2;
+// 判断条件：delta>0 and (x + y) * (y - x + 1) / 2 == target
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -34,4 +34,4 @@ public:
         return vec;
     }
 };
-```
+// ```

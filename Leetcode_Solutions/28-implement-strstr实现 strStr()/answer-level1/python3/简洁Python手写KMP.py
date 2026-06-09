@@ -1,9 +1,9 @@
-### 解题思路
-KMP算法
+# ### 解题思路
+# KMP算法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if len(needle) == 0:
@@ -43,4 +43,4 @@ class Solution:
                 next[i] = 0
                 i += 1
         return next
-```
+# ```

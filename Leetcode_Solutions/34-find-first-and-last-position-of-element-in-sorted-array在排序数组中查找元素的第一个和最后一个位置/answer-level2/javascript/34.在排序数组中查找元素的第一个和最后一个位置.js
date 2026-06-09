@@ -1,12 +1,12 @@
-### 解题思路
-题目要求时间复杂度是(logn) 所以采用二分法查找
-此处的查找跟普通二分法查找的不同之处在于数组中的目标值可能存在多个；
-当target==nums[mid]时，下标mid前或者后都可能存在于target相等的数，需要从下标mid依次向前或者向后判断与target相等的数据；
+// ### 解题思路
+// 题目要求时间复杂度是(logn) 所以采用二分法查找
+// 此处的查找跟普通二分法查找的不同之处在于数组中的目标值可能存在多个；
+// 当target==nums[mid]时，下标mid前或者后都可能存在于target相等的数，需要从下标mid依次向前或者向后判断与target相等的数据；
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -39,4 +39,4 @@ var searchRange = function(nums, target) {
     }
     return (nums[low]==target?[low,low]:[-1,-1])
 };
-```
+// ```

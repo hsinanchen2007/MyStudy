@@ -1,9 +1,9 @@
-### 解题思路
-没有思路，干就完事儿了。
+// ### 解题思路
+// 没有思路，干就完事儿了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //盲猜贪心算法
 bool lemonadeChange(int* bills, int billsSize){
@@ -47,4 +47,4 @@ count5-=3;
 return flag;
 
 }
-```
+// ```

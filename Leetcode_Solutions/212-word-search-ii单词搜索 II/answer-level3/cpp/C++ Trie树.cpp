@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Trie {
 public:
     bool isEnd;
@@ -87,4 +87,4 @@ public:
         return rs;
     }
 };
-```
+// ```

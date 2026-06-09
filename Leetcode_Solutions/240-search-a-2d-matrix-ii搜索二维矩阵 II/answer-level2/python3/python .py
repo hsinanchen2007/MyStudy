@@ -1,6 +1,6 @@
-官方最优方案思路写的python版。核心就是利用好每行和每列都排序了。选择一个合适的起点，然后更具比对结果移动。
+# 官方最优方案思路写的python版。核心就是利用好每行和每列都排序了。选择一个合适的起点，然后更具比对结果移动。
 
-```
+# ```
 class Solution:
     def searchMatrix(self, matrix, target):
         """
@@ -19,4 +19,4 @@ class Solution:
             else:
                 i-=1
         return False
-```
+# ```

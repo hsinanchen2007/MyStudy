@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     string getSimilar(string str) {

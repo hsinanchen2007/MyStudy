@@ -1,5 +1,5 @@
-# 低效的递归。。。
-```
+# # 低效的递归。。。
+# ```
 class Solution:
     def isOneBitCharacter(self, bits):
         if bits == [1,0]:
@@ -11,4 +11,4 @@ class Solution:
                 return self.isOneBitCharacter(bits[2:])
             else:
                 return self.isOneBitCharacter(bits[1:])
-```
+# ```

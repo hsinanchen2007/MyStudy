@@ -1,8 +1,8 @@
-### 解题思路
-排序解决
-### 代码
+# ### 解题思路
+# 排序解决
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         lnum = sorted(nums)
@@ -13,4 +13,4 @@ class Solution:
                     ans.append(j)
                     break
         return ans
-```
+# ```

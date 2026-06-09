@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-控制好头和尾即可
+// 控制好头和尾即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,4 +17,4 @@ var missingNumber = function(nums) {
     }
     return nums[length - 1] + 1
 };
-```
+// ```

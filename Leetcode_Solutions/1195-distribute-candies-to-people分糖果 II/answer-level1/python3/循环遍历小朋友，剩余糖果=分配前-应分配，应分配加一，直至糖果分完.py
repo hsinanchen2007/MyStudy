@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         # 声明首次所分糖果数量
@@ -28,4 +28,4 @@ class Solution:
                     candies = 0
             # 返回每个小朋友获得糖果
         return Allist
-```
+# ```

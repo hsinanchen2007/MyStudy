@@ -1,8 +1,8 @@
-利用原矩阵记录计算结果. 
-当martix[i][j] == 1时, 计算以(i, j)作为正方形的右下角顶点的正方形的个数, 将该个数赋值到martix[i][j].
-dp[m][n] = min(dp[m-1][n], dp[m][n-1], dp[m-1][n-1]) + 1
+// 利用原矩阵记录计算结果. 
+// 当martix[i][j] == 1时, 计算以(i, j)作为正方形的右下角顶点的正方形的个数, 将该个数赋值到martix[i][j].
+// dp[m][n] = min(dp[m-1][n], dp[m][n-1], dp[m-1][n-1]) + 1
 
-```java
+// ```java
 public int countSquares(int[][] matrix) {
     int sum = 0;
     for (int i = 0; i < matrix.length; i++) {
@@ -21,4 +21,4 @@ public int countSquares(int[][] matrix) {
     }
     return sum;
 }
-```
+// ```

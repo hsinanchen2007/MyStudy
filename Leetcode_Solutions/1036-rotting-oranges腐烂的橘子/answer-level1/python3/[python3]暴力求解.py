@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解
+# ### 解题思路
+# 暴力求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         row=len(grid)
@@ -33,4 +33,4 @@ class Solution:
 
         return res
             
-```
+# ```

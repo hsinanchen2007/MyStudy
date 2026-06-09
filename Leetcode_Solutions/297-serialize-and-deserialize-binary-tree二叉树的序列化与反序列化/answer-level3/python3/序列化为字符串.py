@@ -1,4 +1,4 @@
-```
+# ```
 class Codec:
 
     def serialize(self, root):
@@ -60,4 +60,4 @@ class Codec:
                     stack.append(r)
                 j += 1
         return root
-```
+# ```

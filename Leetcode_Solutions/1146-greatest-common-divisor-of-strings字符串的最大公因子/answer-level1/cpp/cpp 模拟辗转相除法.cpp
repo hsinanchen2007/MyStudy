@@ -1,9 +1,9 @@
-### 解题思路
-while下面的三行类似整除除法
+// ### 解题思路
+// while下面的三行类似整除除法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -18,4 +18,4 @@ public:
         return gcdOfStrings(str1, str2);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	if root==nil||root==p||root==q{
 		return root
@@ -13,4 +13,4 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 		return root
 	}
 }
-```
+// ```

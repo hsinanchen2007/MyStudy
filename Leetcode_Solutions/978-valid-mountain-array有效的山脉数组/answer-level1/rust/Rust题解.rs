@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn valid_mountain_array(a: Vec<i32>) -> bool {
         let length = a.len();
@@ -15,5 +15,5 @@ impl Solution {
         i + 1 == length
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

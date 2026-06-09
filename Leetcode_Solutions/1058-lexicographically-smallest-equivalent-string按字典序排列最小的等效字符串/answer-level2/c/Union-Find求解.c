@@ -1,9 +1,9 @@
-### 解题思路
-Union Find思路求解等效序列问题，重要在于Union的时候保证字典序，要求字典序靠前面的做根节点。
+// ### 解题思路
+// Union Find思路求解等效序列问题，重要在于Union的时候保证字典序，要求字典序靠前面的做根节点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int UnionMap[27];
 
 void init() {
@@ -47,4 +47,4 @@ char * smallestEquivalentString(char * A, char * B, char * S){
     ret[i] = 0;
     return ret;
 }
-```
+// ```

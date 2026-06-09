@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverseString(char* s, int sSize){
     int i, temp, x = sSize / 2;
     for (i = 0; i < x; i++)
@@ -14,4 +14,4 @@ void reverseString(char* s, int sSize){
     }
     return;
 }
-```
+// ```

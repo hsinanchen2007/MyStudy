@@ -1,6 +1,6 @@
-全程使用map,最有效的是minSize，如果在长字符串取得了最大值，那么最短字符串出现的次数>=长字符串出现次数
+// 全程使用map,最有效的是minSize，如果在长字符串取得了最大值，那么最短字符串出现的次数>=长字符串出现次数
 
-```java
+// ```java
 class Solution {
    private boolean checkMaxLetter(String s,int maxLetter){
         Map<Character,Integer> m = new HashMap<>();
@@ -24,4 +24,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

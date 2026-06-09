@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     string convert(int left, int right) {
@@ -28,6 +28,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4fecffad14e7128de1204a735773a8a7162b22c5f167656ecc40febca9a84f1b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4fecffad14e7128de1204a735773a8a7162b22c5f167656ecc40febca9a84f1b-image.png)

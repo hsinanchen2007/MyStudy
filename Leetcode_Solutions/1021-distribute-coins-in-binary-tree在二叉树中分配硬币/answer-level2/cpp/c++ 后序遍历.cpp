@@ -1,9 +1,9 @@
-### 解题思路
-很多题目都可以用“状态记录法”来解决，发现这个方法好像还挺好用。
+// ### 解题思路
+// 很多题目都可以用“状态记录法”来解决，发现这个方法好像还挺好用。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return Node{left.node_num+right.node_num+1, left.coin_num+right.coin_num+root->val};
     }
 };
-```
+// ```

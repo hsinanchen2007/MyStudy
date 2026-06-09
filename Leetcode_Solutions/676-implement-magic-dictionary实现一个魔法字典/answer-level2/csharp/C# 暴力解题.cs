@@ -1,9 +1,9 @@
-### 解题思路
-爆解：最笨的办法，逐一比较，哈哈哈，因为我比较蠢，时间复杂度很高。不知道为什么字典用不了
+// ### 解题思路
+// 爆解：最笨的办法，逐一比较，哈哈哈，因为我比较蠢，时间复杂度很高。不知道为什么字典用不了
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class MagicDictionary {
     public string[] MagicDict; 
     /** Initialize your data structure here. */
@@ -53,4 +53,4 @@ public class MagicDictionary {
  * obj.BuildDict(dict);
  * bool param_2 = obj.Search(word);
  */
-```
+// ```

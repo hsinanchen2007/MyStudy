@@ -1,9 +1,9 @@
-参考了[link](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution/yu-zhi-ju-chi-nei-lin-ju-zui-shao-de-cheng-shi-by-/)，
-算法分成 3 步骤实现
-1. 遍历每个顶点，以每个顶点为出发点到达图中其他顶点的最短路径
-2. 子方法中， 遍历当前顶点的所有最短路径的长度， filter 掉路径长度 大于 阈值上限（distanceThreshold） 的最短路径，将满足要求的路径 ++
-3. 将当前顶点的最短路径总数和全局变量比较，如果当前最短路径总数较小，就更新全局变量，然后使用 ans 同步存放当前顶点
- 最后留下的顶点 ans 就是 经历顶点最少，且以其为出发点的最短路径长度 小于等于阈值上限的顶点
+// 参考了[link](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution/yu-zhi-ju-chi-nei-lin-ju-zui-shao-de-cheng-shi-by-/)，
+// 算法分成 3 步骤实现
+// 1. 遍历每个顶点，以每个顶点为出发点到达图中其他顶点的最短路径
+// 2. 子方法中， 遍历当前顶点的所有最短路径的长度， filter 掉路径长度 大于 阈值上限（distanceThreshold） 的最短路径，将满足要求的路径 ++
+// 3. 将当前顶点的最短路径总数和全局变量比较，如果当前最短路径总数较小，就更新全局变量，然后使用 ans 同步存放当前顶点
+//  最后留下的顶点 ans 就是 经历顶点最少，且以其为出发点的最短路径长度 小于等于阈值上限的顶点
 
 
 `class Solution {

@@ -1,9 +1,9 @@
-### 解题思路
-栈
+# ### 解题思路
+# 栈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def backspaceCompare(self, S: str, T: str) -> bool:
         return self.f(S) == self.f(T)
@@ -16,4 +16,4 @@ class Solution:
             elif x != '#':
                 res.append(x)
         return ''.join(res)
-```
+# ```

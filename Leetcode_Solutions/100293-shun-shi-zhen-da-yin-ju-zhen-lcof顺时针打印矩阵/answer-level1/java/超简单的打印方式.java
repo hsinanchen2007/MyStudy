@@ -1,10 +1,10 @@
-### 解题思路
-知乎大佬写的，看不懂来打我~~~~~~
-https://zhuanlan.zhihu.com/p/103264795
+// ### 解题思路
+// 知乎大佬写的，看不懂来打我~~~~~~
+// https://zhuanlan.zhihu.com/p/103264795
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[] res;
     int index=0;
@@ -54,4 +54,4 @@ class Solution {
         }
     }
 }
-```
+// ```

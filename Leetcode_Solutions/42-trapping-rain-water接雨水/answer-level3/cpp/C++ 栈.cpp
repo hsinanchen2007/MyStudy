@@ -1,9 +1,9 @@
-### 解题思路
-用栈存储左边更高的位置就行啦
+// ### 解题思路
+// 用栈存储左边更高的位置就行啦
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

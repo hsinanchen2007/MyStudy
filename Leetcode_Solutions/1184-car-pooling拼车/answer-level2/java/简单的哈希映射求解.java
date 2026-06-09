@@ -1,5 +1,5 @@
-一个Map(上车点，上车人数)，一个Map(下车点，下车人数)。然后for循环整个路程，在每个下车点减下车的人数，每个上车点加上车的人数，期间如果总人数大于capacity，返回false，否则返回true。
-```
+// 一个Map(上车点，上车人数)，一个Map(下车点，下车人数)。然后for循环整个路程，在每个下车点减下车的人数，每个上车点加上车的人数，期间如果总人数大于capacity，返回false，否则返回true。
+// ```
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         Map<Integer,Integer> start=new HashMap<>();
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

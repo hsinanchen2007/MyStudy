@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     bool is_double(string s,char c){
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
         m = {}
@@ -15,4 +15,4 @@ class Solution:
         for n in m.values():
             sum += (n * (n-1)) // 2
         return sum
-```
+# ```

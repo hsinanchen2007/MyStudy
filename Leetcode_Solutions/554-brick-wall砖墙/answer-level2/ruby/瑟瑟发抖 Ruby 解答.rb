@@ -1,4 +1,4 @@
-```
+# ```
 # @param {Integer[][]} wall
 # @return {Integer}
 def least_bricks(wall)
@@ -13,4 +13,4 @@ def least_bricks(wall)
     end
   res.size >1 ? res.values.sort[-1]-res.values.sort[-2] : wall.size
 end
-```
+# ```

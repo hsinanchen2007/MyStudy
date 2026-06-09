@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/783bfb9c0b0bce65dcb8b3acdc9b873e5bf7bd7b4bc9abd3678a9f3764e909ed-image.png)
+# ![image.png](https://pic.leetcode-cn.com/783bfb9c0b0bce65dcb8b3acdc9b873e5bf7bd7b4bc9abd3678a9f3764e909ed-image.png)
 
 
-看到螺旋矩阵，想到的是按圈一圈一圈的打印元素
-那么就可以考虑循环打印的终止条件：
+# 看到螺旋矩阵，想到的是按圈一圈一圈的打印元素
+# 那么就可以考虑循环打印的终止条件：
 
-当rows和cols是奇数的时候，如图3x3，那么中间只会有一个数，每一圈我们只考虑左上角的index坐标设为start，那么第一圈是(0,0)，第二圈，也就是中间那一个数字的index是(1,1)
-如果是4x4的矩阵，那么最内层会是一个圈，最左上角的index仍然为(1,1)，
-那么可以推导：当rows > startx2 and cols > satrtx2的时候，我们就继续打印下一圈
+# 当rows和cols是奇数的时候，如图3x3，那么中间只会有一个数，每一圈我们只考虑左上角的index坐标设为start，那么第一圈是(0,0)，第二圈，也就是中间那一个数字的index是(1,1)
+# 如果是4x4的矩阵，那么最内层会是一个圈，最左上角的index仍然为(1,1)，
+# 那么可以推导：当rows > startx2 and cols > satrtx2的时候，我们就继续打印下一圈
 
-比如当5x5的时候，最内层的左上角index为(2,2)，6x6时仍为(2,2)
+# 比如当5x5的时候，最内层的左上角index为(2,2)，6x6时仍为(2,2)
 
-在知道了循环的终止条件的时候，就可以循环的打印每一圈的元素了：
-```
+# 在知道了循环的终止条件的时候，就可以循环的打印每一圈的元素了：
+# ```
         rows = len(matrix)
         cols = len(matrix[0])
         start = 0
@@ -25,37 +25,37 @@
             self.printCircle(matrix, rows, cols, start, res)
             start += 1
         return res
-```
+# ```
 
-那么我们还需要实现一个按圈打印的函数：
-按圈打印分为四步，1.从左往右，2.从上往下，3.从右往左，4.从下往上
+# 那么我们还需要实现一个按圈打印的函数：
+# 按圈打印分为四步，1.从左往右，2.从上往下，3.从右往左，4.从下往上
 
 
-那么就需要分别讨论一下这四步在什么情况下可以发生：
-首先，起始位置为(start,start)，行的终止位置为`endY = rows - start - 1`，列的终止位置为`endX = cols - start - 1`
-x和y对应坐标轴，能够代表是行和列的关系
+# 那么就需要分别讨论一下这四步在什么情况下可以发生：
+# 首先，起始位置为(start,start)，行的终止位置为`endY = rows - start - 1`，列的终止位置为`endX = cols - start - 1`
+# x和y对应坐标轴，能够代表是行和列的关系
 
-1.从左往右：只要有传进来元素需要打印，那么这一步都必然会发生
-![image.png](https://pic.leetcode-cn.com/80288b05ab003bc721e75b2a5d825cef1badcf06a61d505a2fbb2695355bbe35-image.png)
-遍历范围为：`for i in range(start, endX+1)`
+# 1.从左往右：只要有传进来元素需要打印，那么这一步都必然会发生
+# ![image.png](https://pic.leetcode-cn.com/80288b05ab003bc721e75b2a5d825cef1badcf06a61d505a2fbb2695355bbe35-image.png)
+# 遍历范围为：`for i in range(start, endX+1)`
 
-2.从上往下：能够从上往下，那么至少得有两行才能打印，那么就是终止行-start行>0
-![image.png](https://pic.leetcode-cn.com/3eabf447a2aa45b45c61f3f723cf1862833cc24eab5c4048fdd5b34922e1b0e3-image.png)
+# 2.从上往下：能够从上往下，那么至少得有两行才能打印，那么就是终止行-start行>0
+# ![image.png](https://pic.leetcode-cn.com/3eabf447a2aa45b45c61f3f723cf1862833cc24eab5c4048fdd5b34922e1b0e3-image.png)
 
-遍历范围为：`for i in range(start+1, endY+1)`
-start+1的原因是这一列的第一个元素已经作为第一行的最后一个元素打印过了
+# 遍历范围为：`for i in range(start+1, endY+1)`
+# start+1的原因是这一列的第一个元素已经作为第一行的最后一个元素打印过了
 
-3.从右往左：那么至少得有两行两列，那么就是终止列-start列>0
-![image.png](https://pic.leetcode-cn.com/a5c288a0eb2806b9ec67797e38df3f155e0d8f164ad48170a28fa291c229a52b-image.png)
-遍历范围为：`for i in range(endX-1, start-1, -1)`，逆序打印
-endX-1是因为这一行的最右一个元素已经作为上一步的最后一个元素打印过了
+# 3.从右往左：那么至少得有两行两列，那么就是终止列-start列>0
+# ![image.png](https://pic.leetcode-cn.com/a5c288a0eb2806b9ec67797e38df3f155e0d8f164ad48170a28fa291c229a52b-image.png)
+# 遍历范围为：`for i in range(endX-1, start-1, -1)`，逆序打印
+# endX-1是因为这一行的最右一个元素已经作为上一步的最后一个元素打印过了
 
-4.从下往上：那么至少得有三行两列，终止行-start行>1
-![image.png](https://pic.leetcode-cn.com/36bf96184626c08e42711f16917d7813661c2b8ec92bbe04348f12b6434a51f8-image.png)
-遍历范围为：`for i in range(endY-1, start, -1)`，逆序打印
-start不减1是因为start的元素已经作为第一步的第一个元素打印过了
+# 4.从下往上：那么至少得有三行两列，终止行-start行>1
+# ![image.png](https://pic.leetcode-cn.com/36bf96184626c08e42711f16917d7813661c2b8ec92bbe04348f12b6434a51f8-image.png)
+# 遍历范围为：`for i in range(endY-1, start, -1)`，逆序打印
+# start不减1是因为start的元素已经作为第一步的第一个元素打印过了
 
-```
+# ```
 class Solution:
     # matrix类型为二维列表，需要返回列表
     """
@@ -120,5 +120,5 @@ class Solution:
             '''endY-1是因为这一列的最后一个元素已经被打印过了，但是start是不能到达的一个元素，是因为第一步就走过这个元素了'''
             for i in range(endY - 1, start, -1):
                 res.append(matrix[i][start])
-```
+# ```
 

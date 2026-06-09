@@ -1,10 +1,10 @@
-### 解题思路
-1. 首先查找出两个节点的所有祖先，用List保存
-2. 从两个List中的第一个元素开始往后比较，第一个不相同的就是祖先节点
+// ### 解题思路
+// 1. 首先查找出两个节点的所有祖先，用List保存
+// 2. 从两个List中的第一个元素开始往后比较，第一个不相同的就是祖先节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,4 +56,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

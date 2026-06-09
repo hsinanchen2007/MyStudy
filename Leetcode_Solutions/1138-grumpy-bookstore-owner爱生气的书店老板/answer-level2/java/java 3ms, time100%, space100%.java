@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         int count = 0;
@@ -22,4 +22,4 @@ class Solution {
         return count + Math.max(max, maxStep);
     }
 }
-```
+// ```

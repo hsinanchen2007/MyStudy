@@ -1,5 +1,5 @@
-![Page 3.png](https://pic.leetcode-cn.com/02d1df54214456b2ac174f78599a93f64f655884c43310bc43d193d64907537d-Page%203.png)
-```
+// ![Page 3.png](https://pic.leetcode-cn.com/02d1df54214456b2ac174f78599a93f64f655884c43310bc43d193d64907537d-Page%203.png)
+// ```
 class Solution {
 public:
     int scoreOfParentheses(string S) {
@@ -32,6 +32,6 @@ public:
         return score;
     }
 };
-```
+// ```
 
 

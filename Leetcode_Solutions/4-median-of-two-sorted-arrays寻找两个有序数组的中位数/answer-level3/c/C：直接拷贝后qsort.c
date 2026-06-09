@@ -1,7 +1,7 @@
-思路：（只做能用于通过机试且直观简短的解法，不考虑题目要求的复杂度）
-将两个有序数组直接拼接在新数组里，qsort后按奇偶数找到中位数，下标处理要注意
-这里拼接可以加判断选择后合并的话可以不用qsort，但判断选择的合并要注意两个数组长度不确定谁大谁小
-```
+// 思路：（只做能用于通过机试且直观简短的解法，不考虑题目要求的复杂度）
+// 将两个有序数组直接拼接在新数组里，qsort后按奇偶数找到中位数，下标处理要注意
+// 这里拼接可以加判断选择后合并的话可以不用qsort，但判断选择的合并要注意两个数组长度不确定谁大谁小
+// ```
 int compare(void const *a, void const *b){
     return *(int*)a - *(int*)b;
 }
@@ -23,4 +23,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
         return (double)((combine[(len - 1)/ 2] + combine[(len - 1)/ 2 + 1]) / 2.0);
     }
 }
-```
+// ```

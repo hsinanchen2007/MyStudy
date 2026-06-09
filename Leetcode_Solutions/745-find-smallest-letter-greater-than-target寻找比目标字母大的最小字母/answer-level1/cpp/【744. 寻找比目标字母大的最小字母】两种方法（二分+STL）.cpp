@@ -1,6 +1,6 @@
-## 思路一：二分
-### 代码
-```c++
+// ## 思路一：二分
+// ### 代码
+// ```c++
 class Solution {
 public:
     char nextGreatestLetter(vector<char>& letters, char target) {
@@ -16,11 +16,11 @@ public:
         return letters[left % letters.size()];
     }
 };
-```
+// ```
 
-## 思路二：STL（最优）
-### 代码
-```c++
+// ## 思路二：STL（最优）
+// ### 代码
+// ```c++
 class Solution {
 public:
     char nextGreatestLetter(vector<char>& letters, char target) {
@@ -28,5 +28,5 @@ public:
         return it == letters.end() ? letters[0] : *it;
     }
 };
-```
+// ```
 

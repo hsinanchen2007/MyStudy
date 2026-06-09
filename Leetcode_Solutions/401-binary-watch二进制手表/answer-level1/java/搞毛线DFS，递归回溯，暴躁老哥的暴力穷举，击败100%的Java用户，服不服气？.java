@@ -1,6 +1,6 @@
-就是这么任性，就是这么暴力，你咬我？
+// 就是这么任性，就是这么暴力，你咬我？
 
-```
+// ```
 class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> ans = new ArrayList<String>();
@@ -21,4 +21,4 @@ class Solution {
 
     }
 }
-```
+// ```

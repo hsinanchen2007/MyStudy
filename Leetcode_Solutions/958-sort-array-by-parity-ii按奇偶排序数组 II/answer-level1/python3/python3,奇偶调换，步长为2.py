@@ -1,9 +1,9 @@
-### 解题思路
-奇指针和偶指针，找到不满足条件的调换，当任意一个指针到末尾，返回
+# ### 解题思路
+# 奇指针和偶指针，找到不满足条件的调换，当任意一个指针到末尾，返回
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         odd=1
@@ -14,4 +14,4 @@ class Solution:
                     odd+=2
                 A[even],A[odd]=A[odd],A[even]
         return A
-```
+# ```

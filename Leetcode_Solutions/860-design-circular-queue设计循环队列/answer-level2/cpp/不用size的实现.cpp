@@ -1,5 +1,5 @@
-不用size，但需要多一个数组元素空间作为队列满时的分界。代码较为简洁。
-```
+// 不用size，但需要多一个数组元素空间作为队列满时的分界。代码较为简洁。
+// ```
 class MyCircularQueue {
 private:
     int qHead, qTail;
@@ -49,4 +49,4 @@ public:
         return (qTail + 1) % data.size() == qHead;
     }
 };
-```
+// ```

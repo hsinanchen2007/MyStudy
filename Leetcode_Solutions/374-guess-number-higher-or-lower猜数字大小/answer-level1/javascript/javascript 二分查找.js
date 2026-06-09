@@ -1,10 +1,10 @@
-![k.jpg](https://pic.leetcode-cn.com/a145cf8d44e526d80b70fd033968d8f05980de46680e658988a7e0705086f78d-k.jpg)
-### 解题思路
-二分查找
+// ![k.jpg](https://pic.leetcode-cn.com/a145cf8d44e526d80b70fd033968d8f05980de46680e658988a7e0705086f78d-k.jpg)
+// ### 解题思路
+// 二分查找
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /** 
  * Forward declaration of guess API.
  * @param {number} num   your guess
@@ -34,4 +34,4 @@ var guessNumber = function(n) {
     }
     return -1;
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.深度优先搜索（非递归）
-先判断边界条件，是否为空，是否有子树，然后深度遍历树的各个节点，翻转当前探索节点的左右子树
-2.BFS
-3.递归
-### 代码
+# ### 解题思路
+# 1.深度优先搜索（非递归）
+# 先判断边界条件，是否为空，是否有子树，然后深度遍历树的各个节点，翻转当前探索节点的左右子树
+# 2.BFS
+# 3.递归
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -71,4 +71,4 @@ class Solution(object):
             return
         root.left,root.right = self.invertTree(root.right),self.invertTree(root.left)
         return root
-```
+# ```

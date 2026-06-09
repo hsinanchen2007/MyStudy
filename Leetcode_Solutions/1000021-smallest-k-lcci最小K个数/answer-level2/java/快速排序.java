@@ -1,5 +1,5 @@
-由于需要对这k个数排序，所以这道题直接先对原数组排序，使用大顶堆也是可以实现的。
-```
+// 由于需要对这k个数排序，所以这道题直接先对原数组排序，使用大顶堆也是可以实现的。
+// ```
 class Solution {
     public int[] smallestK(int[] arr, int k) {
         quicksort(arr);
@@ -35,4 +35,4 @@ class Solution {
         quicksort(nums, l + 1, right);
     }
 }
-```
+// ```

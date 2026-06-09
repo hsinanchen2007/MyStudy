@@ -1,6 +1,6 @@
 
-**(1) 自己刚开始想的方法，开始写python 还是很不熟悉**
-```
+# **(1) 自己刚开始想的方法，开始写python 还是很不熟悉**
+# ```
 def flipAndInvertImage(A):
   result = []
   for item in A:
@@ -21,12 +21,12 @@ def flipAndInvertImage(A):
   return result
 
 print(flipAndInvertImage([[1,1,0],[1,0,1],[0,0,0]]))
-```
+# ```
 
-**(2) 别人写的 照着的例子**
-这样写更简洁些
+# **(2) 别人写的 照着的例子**
+# 这样写更简洁些
 
-```
+# ```
 def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
   # i: 0, data1: [1,1,0]
   for i, data1 in enumerate(A):
@@ -35,4 +35,4 @@ def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
       # 绝对值
       A[i][j] = abs(data2 - 1)
   return A
-```
+# ```

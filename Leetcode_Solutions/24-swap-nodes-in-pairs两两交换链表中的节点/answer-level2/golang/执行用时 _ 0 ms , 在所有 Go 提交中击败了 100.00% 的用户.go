@@ -1,6 +1,6 @@
-创建一个辅助节点
+// 创建一个辅助节点
 
-```
+// ```
 func swapPairs2(head *ListNode) *ListNode {
 	//辅助节点，也是上一个完成交互的对的后一个节点
 	tmp := &ListNode{
@@ -20,4 +20,4 @@ func swapPairs2(head *ListNode) *ListNode {
 	return result.Next
 }
 
-```
+// ```

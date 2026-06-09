@@ -1,19 +1,19 @@
-## 解题方法
-该解法只是参照了另一个题解，[Three Sum题解](https://leetcode-cn.com/problems/3sum/solution/three-sum-ti-jie-by-wonderful611/)，本人只是将其可视化，方便大家理解
-### 原理
-- 先将数组进行排序
-- 从左侧开始，选定一个值为 `定值` ，右侧进行求解，获取与其相加为 $0$ 的两个值
- - 类似于快排，定义首和尾
- - 首尾与 `定值` 相加
-    1. 等于 $0$，记录这三个值
-    2. 小于 $0$，首部右移
-    3. 大于 $0$，尾部左移
-- 定值右移，重复该步骤
-### 图解
+// ## 解题方法
+// 该解法只是参照了另一个题解，[Three Sum题解](https://leetcode-cn.com/problems/3sum/solution/three-sum-ti-jie-by-wonderful611/)，本人只是将其可视化，方便大家理解
+// ### 原理
+// - 先将数组进行排序
+// - 从左侧开始，选定一个值为 `定值` ，右侧进行求解，获取与其相加为 $0$ 的两个值
+//  - 类似于快排，定义首和尾
+//  - 首尾与 `定值` 相加
+//     1. 等于 $0$，记录这三个值
+//     2. 小于 $0$，首部右移
+//     3. 大于 $0$，尾部左移
+// - 定值右移，重复该步骤
+// ### 图解
 
-![Video_2019-06-19_192352.gif](https://pic.leetcode-cn.com/2124b524439bcf0eb159ba43be4420c76f60ff2b3b51f87de269c001a323ea1a-Video_2019-06-19_192352.gif)
-### 代码
-```js [-JavaScript]
+// ![Video_2019-06-19_192352.gif](https://pic.leetcode-cn.com/2124b524439bcf0eb159ba43be4420c76f60ff2b3b51f87de269c001a323ea1a-Video_2019-06-19_192352.gif)
+// ### 代码
+// ```js [-JavaScript]
 var threeSum = function(nums) {
   // 最左侧值为定值，右侧所有值进行两边推进计算
   let res = [];
@@ -45,4 +45,4 @@ var threeSum = function(nums) {
 
   return res;
 };
-```
+// ```

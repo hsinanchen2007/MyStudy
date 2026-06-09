@@ -1,8 +1,8 @@
-### 解题思路
-一般已经排序好了的就可以考虑二分法，复杂度O(logn)
-### 代码
+// ### 解题思路
+// 一般已经排序好了的就可以考虑二分法，复杂度O(logn)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -27,4 +27,4 @@ var missingNumber = function(nums) {
    // return nums.length;
 
 };
-```
+// ```

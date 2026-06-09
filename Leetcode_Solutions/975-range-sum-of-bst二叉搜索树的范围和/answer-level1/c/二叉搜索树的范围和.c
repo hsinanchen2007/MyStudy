@@ -1,7 +1,7 @@
-![QQ截图20191106221659.png](https://pic.leetcode-cn.com/c9237d42462bde0ed30dff0967b9b54b574890037307424aabc6669005a9d4de-QQ%E6%88%AA%E5%9B%BE20191106221659.png)
+// ![QQ截图20191106221659.png](https://pic.leetcode-cn.com/c9237d42462bde0ed30dff0967b9b54b574890037307424aabc6669005a9d4de-QQ%E6%88%AA%E5%9B%BE20191106221659.png)
 
 
-```
+// ```
 int rangeSumBST(struct TreeNode* root, int L, int R){
 	
 	//递归 结束条件 
@@ -28,4 +28,4 @@ int rangeSumBST(struct TreeNode* root, int L, int R){
 	return cur+lef+rig;
 }
 
-```
+// ```

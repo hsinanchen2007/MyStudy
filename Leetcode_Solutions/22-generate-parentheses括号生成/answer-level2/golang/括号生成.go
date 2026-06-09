@@ -1,8 +1,8 @@
-看了解答区的大佬的[思路](https://leetcode-cn.com/problems/generate-parentheses/solution/zui-jian-dan-yi-dong-de-dong-tai-gui-hua-bu-lun-da/)后才恍然大悟，膜拜的同时用go 写了一遍
+// 看了解答区的大佬的[思路](https://leetcode-cn.com/problems/generate-parentheses/solution/zui-jian-dan-yi-dong-de-dong-tai-gui-hua-bu-lun-da/)后才恍然大悟，膜拜的同时用go 写了一遍
 
-代码：
+// 代码：
 
-```go [go]
+// ```go [go]
 
 func generateParenthesis(n int) []string {
 	if n ==0 {
@@ -26,4 +26,4 @@ func generateParenthesis(n int) []string {
 
 	return result[n]
 }
-```
+// ```

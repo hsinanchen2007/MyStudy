@@ -1,11 +1,11 @@
-### 解题思路
-注释很详细了，注意 2 点即可：
- - 异或的运算
- - 同时处理奇数列和偶数列的翻转
+// ### 解题思路
+// 注释很详细了，注意 2 点即可：
+//  - 异或的运算
+//  - 同时处理奇数列和偶数列的翻转
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -31,4 +31,4 @@ public:
         return A;
     }
 };
-```
+// ```

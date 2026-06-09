@@ -1,13 +1,13 @@
-### 解题思路
-同时向右和向下扫描：
-1、统计立方体个数total
-2、统计左右相邻两个立方体重叠的面数 min(grid[i][j], grid[i+1][j])
-3、统计上下相邻两个立方体重叠的面数 min(grid[i][j], grid[i][j+1])
-4、统计立方体层叠重叠的面数 max(0, grid[i][j] - 1)
+// ### 解题思路
+// 同时向右和向下扫描：
+// 1、统计立方体个数total
+// 2、统计左右相邻两个立方体重叠的面数 min(grid[i][j], grid[i+1][j])
+// 3、统计上下相邻两个立方体重叠的面数 min(grid[i][j], grid[i][j+1])
+// 4、统计立方体层叠重叠的面数 max(0, grid[i][j] - 1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int surfaceArea(vector<vector<int>>& grid) {
@@ -31,4 +31,4 @@ int surfaceArea(vector<vector<int>>& grid) {
     return total * 6 - inner * 2;
 }
 };
-```
+// ```

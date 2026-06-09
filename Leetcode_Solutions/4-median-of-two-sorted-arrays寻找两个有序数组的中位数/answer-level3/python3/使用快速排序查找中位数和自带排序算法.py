@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -14,9 +14,9 @@ class Solution(object):
             return float((x[length//2]+x[length//2-1]))/2
         else:
             return float(x[length//2])
-```
+# ```
 
-```
+# ```
 class search_median(object):
     def __init__(self, array, way):
         self.array = array
@@ -99,4 +99,4 @@ class Solution(object):
             r = search_median(x, 1)
         r.median(0, len(x) - 1)
         return r.medi
-```
+# ```

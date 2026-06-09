@@ -1,6 +1,6 @@
-不才，才4ms：
+// 不才，才4ms：
 
-```java []
+// ```java []
 class Solution {
         public int[] nextGreaterElements(int[] nums) {
             if (nums == null) {
@@ -50,4 +50,4 @@ class Solution {
             return ret;
         }
     }
-```
+// ```

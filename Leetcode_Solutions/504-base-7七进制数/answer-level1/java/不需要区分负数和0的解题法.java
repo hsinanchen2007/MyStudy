@@ -1,6 +1,6 @@
-缺点是用了 Java 自带的 `Math.pow()` 来计算次方, 走捷径了
+// 缺点是用了 Java 自带的 `Math.pow()` 来计算次方, 走捷径了
 
-```
+// ```
 class Solution {
     // 递归计数
     long count = 0;
@@ -23,4 +23,4 @@ class Solution {
         return Long.toString(result);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归，时间复杂度$O(n\log n)$，空间复杂度$O(\log n)$
+// ### 解题思路
+// 递归，时间复杂度$O(n\log n)$，空间复杂度$O(\log n)$
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxindex(int* height, int left, int right){
     int i, maxi, max = -1;
     for(i = left;i < right;i ++)
@@ -36,4 +36,4 @@ int trap(int* height, int heightSize){
     int maxi = maxindex(height, 0, heightSize);
     return traprain(height, 0, maxi) + traprain(height, maxi, heightSize - 1);
 }
-```
+// ```

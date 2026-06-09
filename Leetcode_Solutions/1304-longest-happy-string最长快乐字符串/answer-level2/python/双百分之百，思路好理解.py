@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/f78b62a6d81f021e6cbca9306c2ea886f7f496bff1df0a0fc34d24195cb9b080-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f78b62a6d81f021e6cbca9306c2ea886f7f496bff1df0a0fc34d24195cb9b080-image.png)
 
-主要思路就是一个一个往里面填，找最大值依次往里面填，如果碰到末尾两个一样的那就在另外两个字母中找寻最大值。
-```
+# 主要思路就是一个一个往里面填，找最大值依次往里面填，如果碰到末尾两个一样的那就在另外两个字母中找寻最大值。
+# ```
 class Solution(object):
     def longestDiverseString(self, a, b, c):
         res=[]
@@ -94,4 +94,4 @@ class Solution(object):
                     
         l=''.join(res)
         return l
-```
+# ```

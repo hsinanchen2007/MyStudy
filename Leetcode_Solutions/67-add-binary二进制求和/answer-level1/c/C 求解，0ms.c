@@ -1,4 +1,4 @@
-```
+// ```
 char * addBinary(char * a, char * b) {
     int la = strlen(a) - 1;
     int lb = strlen(b) - 1;
@@ -18,6 +18,6 @@ char * addBinary(char * a, char * b) {
     }
     return ans;
 }
-```
+// ```
 
-思路如注释
+// 思路如注释

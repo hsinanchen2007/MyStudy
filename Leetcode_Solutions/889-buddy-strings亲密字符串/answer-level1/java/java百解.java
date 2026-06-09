@@ -1,8 +1,8 @@
-### 解题思路
-具体分析各种情况即可。[https://blog.csdn.net/qq_23134039/article/details/103769493]()
-### 代码
+// ### 解题思路
+// 具体分析各种情况即可。[https://blog.csdn.net/qq_23134039/article/details/103769493]()
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean buddyStrings(String A, String B) {
        if(A.length()!=B.length()) {
@@ -39,4 +39,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

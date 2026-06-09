@@ -1,4 +1,4 @@
-```
+// ```
 typedef long long ll;
 struct Fraction {
 	ll n;
@@ -71,4 +71,4 @@ public:
 		return sf.n == tf.n&&sf.d == tf.d;
 	}
 };
-```
+// ```

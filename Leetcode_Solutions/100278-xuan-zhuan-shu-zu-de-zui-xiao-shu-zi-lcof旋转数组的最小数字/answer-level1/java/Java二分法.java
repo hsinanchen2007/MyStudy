@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-设置ij，前后同时开始搜索，注意未旋转数组
+// ### 解题思路
+// 此处撰写解题思路
+// 设置ij，前后同时开始搜索，注意未旋转数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minArray(int[] numbers) {
         int i = 0;
@@ -19,4 +19,4 @@ class Solution {
         }
     }
 }
-```
+// ```

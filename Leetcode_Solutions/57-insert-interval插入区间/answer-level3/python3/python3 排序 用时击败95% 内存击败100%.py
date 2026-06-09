@@ -1,10 +1,10 @@
-### 解题思路
-与56题类似思想，57题仅在56题的基础上加上
-`intervals.append(newInterval)`
+# ### 解题思路
+# 与56题类似思想，57题仅在56题的基础上加上
+# `intervals.append(newInterval)`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         intervals.append(newInterval)
@@ -26,4 +26,4 @@ class Solution:
         res.append([left, right])
         print(res)
         return res
-```
+# ```

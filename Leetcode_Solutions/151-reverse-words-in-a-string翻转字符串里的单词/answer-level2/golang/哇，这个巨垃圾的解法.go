@@ -1,9 +1,9 @@
-### 解题思路
-时间和内存消耗的高的一匹，巨垃圾
+// ### 解题思路
+// 时间和内存消耗的高的一匹，巨垃圾
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseWords(s string) string {
     var res string
     var ans []string
@@ -15,4 +15,4 @@ func reverseWords(s string) string {
     res = strings.TrimSpace(res)
     return res
 }
-```
+// ```

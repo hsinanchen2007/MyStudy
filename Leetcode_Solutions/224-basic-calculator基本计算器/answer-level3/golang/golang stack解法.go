@@ -1,11 +1,11 @@
-### 解题思路一
-使用一个stack协助求解（性能差，费空间）
+// ### 解题思路一
+// 使用一个stack协助求解（性能差，费空间）
 
-### 代码
-执行用时 :16 ms, 在所有 Go 提交中击败了21.21%的用户
-内存消耗 :5.2 MB, 在所有 Go 提交中击败了10.00%的用户
+// ### 代码
+// 执行用时 :16 ms, 在所有 Go 提交中击败了21.21%的用户
+// 内存消耗 :5.2 MB, 在所有 Go 提交中击败了10.00%的用户
 
-```golang
+// ```golang
 
 func calculate(s string) int {
 	stack := NewStack()
@@ -79,19 +79,19 @@ func (this *Stack)calc() {
 	this.arr[n-2] = fmt.Sprintf("%d", newNum)
 	this.arr = this.arr[:len(this.arr)-2]
 }
-```
+// ```
 
-### 解题思路二
-参考一份非常优秀的代码
-https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0224.basic-calculator/basic-calculator.go
+// ### 解题思路二
+// 参考一份非常优秀的代码
+// https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0224.basic-calculator/basic-calculator.go
 
-在遍历s的过程中，再未遇到(之前，一直计算并累计当前的计算结果；遇到(时，将当前计算结果压栈。
-另外，通过引入sign符号，避免对"+"、“-”号的多次判断：
+// 在遍历s的过程中，再未遇到(之前，一直计算并累计当前的计算结果；遇到(时，将当前计算结果压栈。
+// 另外，通过引入sign符号，避免对"+"、“-”号的多次判断：
 
-### 代码
-执行用时 :4 ms, 在所有 Go 提交中击败了83.33%的用户
-内存消耗 :3.2 MB, 在所有 Go 提交中击败了90.00%的用户
-```golang
+// ### 代码
+// 执行用时 :4 ms, 在所有 Go 提交中击败了83.33%的用户
+// 内存消耗 :3.2 MB, 在所有 Go 提交中击败了90.00%的用户
+// ```golang
 func calculate(s string) int {
 	stack := make([]int, 0)
 	res := 0
@@ -126,4 +126,4 @@ func calculate(s string) int {
 	}
 	return res
 }
-```
+// ```

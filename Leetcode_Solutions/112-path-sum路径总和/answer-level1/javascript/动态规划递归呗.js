@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/67dc9459a430a4afe9163f24361f600942e2726ea1a1ab96ca433cbd11801b21-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/67dc9459a430a4afe9163f24361f600942e2726ea1a1ab96ca433cbd11801b21-image.png)
 
-递归遍历，就酱。。
+// 递归遍历，就酱。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,4 +33,4 @@ var hasPathSum = function(root, sum) {
         return (hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val));
     }
 };
-```
+// ```

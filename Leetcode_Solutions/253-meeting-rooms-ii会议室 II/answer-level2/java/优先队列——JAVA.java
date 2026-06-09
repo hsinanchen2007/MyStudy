@@ -1,9 +1,9 @@
-### 解题思路
-优先队列实现，对起始时间进行排序
+// ### 解题思路
+// 优先队列实现，对起始时间进行排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
         if (intervals.length == 0) {
@@ -21,4 +21,4 @@ class Solution {
         return queue.size();
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-参考官方题解，构造一个前缀树，树的节点继承自HashMap。
-增加isEnd标志位，insert了"apple"，"app"的情况在app的末尾要设置isEnd。
+// 参考官方题解，构造一个前缀树，树的节点继承自HashMap。
+// 增加isEnd标志位，insert了"apple"，"app"的情况在app的末尾要设置isEnd。
 
 
-```JAVA
+// ```JAVA
 class Trie {
 
     private TrieNode root;
@@ -80,4 +80,4 @@ class Trie {
         System.out.println("t.search(\"app\") = " + t.search("app"));
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-1.先排序
-2.建立字典记录每个数（key）的最小位置（val）（因为可能有重复的数）
-3.遍历数组查找字典
-```
+# 1.先排序
+# 2.建立字典记录每个数（key）的最小位置（val）（因为可能有重复的数）
+# 3.遍历数组查找字典
+# ```
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         tmp=nums[:]
@@ -16,4 +16,4 @@ class Solution:
         for i in range(len(nums)):
             res[i]=d[nums[i]]
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         // 保存当前深度，然后根据深度的奇偶来对半分配
@@ -17,6 +17,6 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
-，，，有种感觉这题是阅读理解把难度提高到了中等 /_ \
+// ，，，有种感觉这题是阅读理解把难度提高到了中等 /_ \

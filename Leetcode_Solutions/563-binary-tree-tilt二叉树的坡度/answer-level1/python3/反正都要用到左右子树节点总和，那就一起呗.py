@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findTilt(self, root: TreeNode) -> int:
         # 本题与求二叉树直径题目类似，
@@ -17,4 +17,4 @@ class Solution:
             return l+r+root.val
         helper(root)
         return ans
-```
+# ```

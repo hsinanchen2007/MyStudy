@@ -1,5 +1,5 @@
 
-```
+# ```
 from itertools import *
 class Solution:
     def dfs(self,num,n_hours,res):
@@ -32,4 +32,4 @@ class Solution:
         res=[]
         self.dfs(num,0,res)
         return res
-```
+# ```

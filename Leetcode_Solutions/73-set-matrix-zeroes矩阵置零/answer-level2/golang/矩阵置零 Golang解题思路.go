@@ -1,11 +1,11 @@
-### 解题思路
-1、设置2个数组row int[], column []int，row存储第几行有数字0，column存储第几列有数字0；
-2、遍历row数组，分别将数组中存储的这些行（一整行的数字），全部设置为0；
-3、遍历column数组，分别将数组中存储的这些列（一整列的数字），全部设置为0；
+// ### 解题思路
+// 1、设置2个数组row int[], column []int，row存储第几行有数字0，column存储第几列有数字0；
+// 2、遍历row数组，分别将数组中存储的这些行（一整行的数字），全部设置为0；
+// 3、遍历column数组，分别将数组中存储的这些列（一整列的数字），全部设置为0；
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 时间复杂度：O(m+n)
 func setZeroes(matrix [][]int)  {
 	rowLength := len(matrix)
@@ -38,4 +38,4 @@ func setZeroes(matrix [][]int)  {
 		}
 	}
 }
-```
+// ```

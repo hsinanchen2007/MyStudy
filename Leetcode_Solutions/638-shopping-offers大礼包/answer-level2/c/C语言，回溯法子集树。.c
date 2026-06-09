@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 void dfs(int first,int *path,int depth,int *result,int *price,int priceSize,int **special,int specialSize,int *needs)
 {
     //mark
@@ -67,5 +67,5 @@ int shoppingOffers(int* price, int priceSize, int** special, int specialSize, in
     dfs(0,path,0,&result,price,priceSize,special,specialSize,needs);
     return result;
 }
-```
-1,此题mark为可重复挑选元素，即包括first在内的以后的元素。并且多了一种情况，全部散装,多一个结点。每一层兄弟结点要加上这种情况，即first往后个数，再+1.
+// ```
+// 1,此题mark为可重复挑选元素，即包括first在内的以后的元素。并且多了一种情况，全部散装,多一个结点。每一层兄弟结点要加上这种情况，即first往后个数，再+1.

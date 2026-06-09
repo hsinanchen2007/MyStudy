@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) {
@@ -16,6 +16,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/00fb8b1c9a343f1362871573f52209c27ae96168c3762281b4025d67741c3f5a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/00fb8b1c9a343f1362871573f52209c27ae96168c3762281b4025d67741c3f5a-image.png)

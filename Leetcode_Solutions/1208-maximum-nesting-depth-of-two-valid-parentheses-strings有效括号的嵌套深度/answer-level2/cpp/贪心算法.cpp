@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -46,5 +46,5 @@ public:
         return vresult;
     }
 };
-```
-始终让当前a b 联合的深度最低
+// ```
+// 始终让当前a b 联合的深度最低

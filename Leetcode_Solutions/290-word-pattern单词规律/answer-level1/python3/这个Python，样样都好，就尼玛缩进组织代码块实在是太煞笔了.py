@@ -1,17 +1,17 @@
-### 解题思路
-执行用时 :
-44 ms
-, 在所有 python3 提交中击败了
-31.95%
-的用户
-内存消耗 :
-12.7 MB
-, 在所有 python3 提交中击败了
-100.00%
-的用户
-### 代码
+# ### 解题思路
+# 执行用时 :
+# 44 ms
+# , 在所有 python3 提交中击败了
+# 31.95%
+# 的用户
+# 内存消耗 :
+# 12.7 MB
+# , 在所有 python3 提交中击败了
+# 100.00%
+# 的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         str_list=str.split(" ")
@@ -32,4 +32,4 @@ class Solution:
         return True
 
 
-```
+# ```

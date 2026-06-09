@@ -1,4 +1,4 @@
-```
+// ```
 int countCharacters(char ** words, int wordsSize, char * chars){
     int res=0;
     int a[26]={0};
@@ -28,4 +28,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return res;
 }
-```
+// ```

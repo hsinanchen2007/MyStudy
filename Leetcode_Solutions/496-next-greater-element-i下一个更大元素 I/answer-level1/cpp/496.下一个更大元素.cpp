@@ -1,10 +1,10 @@
-### 解题思路
-基本思路与739.每日温度一致，正向入栈，若是大的，小的pop，否则一起入栈。
-在对nums2进行所有解答后，用map进行配对，再将nums1一个个检索，以下是cpp版。
+// ### 解题思路
+// 基本思路与739.每日温度一致，正向入栈，若是大的，小的pop，否则一起入栈。
+// 在对nums2进行所有解答后，用map进行配对，再将nums1一个个检索，以下是cpp版。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2)
@@ -35,4 +35,4 @@ public:
     }
 };
 
-```
+// ```

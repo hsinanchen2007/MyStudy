@@ -1,10 +1,10 @@
-### 解题思路
-从最后一个字符开始依次向前比对，直至满足要求。有一些边界条件需要注意一下。
-初学者，写的有些啰嗦。
+// ### 解题思路
+// 从最后一个字符开始依次向前比对，直至满足要求。有一些边界条件需要注意一下。
+// 初学者，写的有些啰嗦。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char *haystack, char *needle)
 {
     int n_len = strlen(needle);
@@ -46,4 +46,4 @@ int strStr(char *haystack, char *needle)
     }
     return first_occ;
 }
-```
+// ```

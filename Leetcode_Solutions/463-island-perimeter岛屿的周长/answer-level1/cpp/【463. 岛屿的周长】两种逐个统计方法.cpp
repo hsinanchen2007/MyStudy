@@ -1,9 +1,9 @@
-### 思路一：逐个增加
-对于每个为1的方格，统计四条边是否包括在周长中。
+// ### 思路一：逐个增加
+// 对于每个为1的方格，统计四条边是否包括在周长中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -21,12 +21,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 思路二：逆向思维
-对于每个格子，先加上四个边，如果左边和上边有格子，则减去2个边。
+// ### 思路二：逆向思维
+// 对于每个格子，先加上四个边，如果左边和上边有格子，则减去2个边。
 
-```c++
+// ```c++
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -43,4 +43,4 @@ public:
         return res;
     }
 };
-```
+// ```

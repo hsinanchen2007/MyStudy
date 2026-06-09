@@ -1,9 +1,9 @@
-### 解题思路
-从第二个数开始，遇到相同的就加1，遇到不同的就减去1
+// ### 解题思路
+// 从第二个数开始，遇到相同的就加1，遇到不同的就减去1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int count=1, temp = nums[0];
@@ -22,4 +22,4 @@ class Solution {
 
     }
 }
-```
+// ```

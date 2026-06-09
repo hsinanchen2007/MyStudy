@@ -1,9 +1,9 @@
-1.使用dp https://leetcode-cn.com/problems/longest-palindromic-substring
-2.在1的基础上约束必须包含首字母
-3.当字符串很大的时候，用例约40004长度，矩阵40004×40004×sizeof(bool)内存超限了，使用求模复用
+// 1.使用dp https://leetcode-cn.com/problems/longest-palindromic-substring
+// 2.在1的基础上约束必须包含首字母
+// 3.当字符串很大的时候，用例约40004长度，矩阵40004×40004×sizeof(bool)内存超限了，使用求模复用
 
 
-```
+// ```
 const int MIN_ROW_NUM = 2;
 
 bool ** mallocDpArray(size_t length)
@@ -107,4 +107,4 @@ char * shortestPalindrome(char * s)
     memcpy(output + delta, s, length);
     return output;
 }
-```
+// ```

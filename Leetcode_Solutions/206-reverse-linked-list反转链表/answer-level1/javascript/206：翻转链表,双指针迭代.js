@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -23,5 +23,5 @@ cur=next;
 return pre;
 
 };
-```
-### 也可以利用数组等新空间。递归等方法解题
+// ```
+// ### 也可以利用数组等新空间。递归等方法解题

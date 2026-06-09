@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-1. !|& 直接放入stack
-2. ft 追加到stak最后一个元素后面(第一个一定是操作符，后面都是ft)
-3. 遇到), 取出上一个元素， 进行相应判断
+# 1. !|& 直接放入stack
+# 2. ft 追加到stak最后一个元素后面(第一个一定是操作符，后面都是ft)
+# 3. 遇到), 取出上一个元素， 进行相应判断
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def parseBoolExpr(self, expression):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 stack[-1] += sch
 
         return True if stack[0] == 't' else False
-```
+# ```

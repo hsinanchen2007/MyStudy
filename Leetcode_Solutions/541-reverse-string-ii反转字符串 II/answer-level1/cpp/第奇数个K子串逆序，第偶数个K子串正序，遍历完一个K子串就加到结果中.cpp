@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string reverseStr(string s, int k) {
@@ -20,4 +20,4 @@ public:
         return res + tmp;
     }
 };
-```
+// ```

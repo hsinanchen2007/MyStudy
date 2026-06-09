@@ -1,9 +1,9 @@
-### 解题思路
-如注释
+// ### 解题思路
+// 如注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int all;
@@ -38,4 +38,4 @@ int movingCount(int mm, int nn, int k)
 	return step;
 }
 };
-```
+// ```

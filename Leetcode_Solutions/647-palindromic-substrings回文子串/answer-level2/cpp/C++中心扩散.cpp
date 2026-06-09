@@ -1,6 +1,6 @@
 
 
-``` C++
+// ``` C++
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -31,4 +31,4 @@ public:
         return count;
     }
 };
-```
+// ```

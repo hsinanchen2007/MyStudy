@@ -1,8 +1,8 @@
-HashMap+两层for循环 
-执行用时 :3 ms, 在所有 Java 提交中击败了96.71%的用户
-内存消耗 :39.6 MB, 在所有 Java 提交中击败了5.64%的用户
-感觉自己写的有点笨比的意思
-附上代码
+// HashMap+两层for循环 
+// 执行用时 :3 ms, 在所有 Java 提交中击败了96.71%的用户
+// 内存消耗 :39.6 MB, 在所有 Java 提交中击败了5.64%的用户
+// 感觉自己写的有点笨比的意思
+// 附上代码
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int n = nums1.length;

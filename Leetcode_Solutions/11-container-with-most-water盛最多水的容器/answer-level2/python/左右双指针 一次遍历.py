@@ -1,10 +1,10 @@
-### 解题思路
-左右双指针 一次遍历
-高度由小的决定
+# ### 解题思路
+# 左右双指针 一次遍历
+# 高度由小的决定
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxArea(self, height):
         """
@@ -24,10 +24,10 @@ class Solution(object):
             cur = (right-left) * min(height[left], height[right])
             max_area = max(cur, max_area)
         return max_area
-```
+# ```
 
-# Java
-```
+# # Java
+# ```
 class Solution {
     public int maxArea(int[] height) {
         int left = 0;
@@ -49,4 +49,4 @@ class Solution {
     }
         
 }
-```
+# ```

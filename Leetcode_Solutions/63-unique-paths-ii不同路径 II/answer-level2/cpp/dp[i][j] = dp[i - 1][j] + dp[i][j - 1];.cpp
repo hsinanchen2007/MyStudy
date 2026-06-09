@@ -1,9 +1,9 @@
-### 解题思路
-首先预处理第一行和第一列的边界，在碰到障碍物之前的位置都置为1。之后在遇到障碍物时将此处的dp置为0，因为没有一条路可以到这里，剩下的地方就是常规处理了。
+// ### 解题思路
+// 首先预处理第一行和第一列的边界，在碰到障碍物之前的位置都置为1。之后在遇到障碍物时将此处的dp置为0，因为没有一条路可以到这里，剩下的地方就是常规处理了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -44,4 +44,4 @@ public:
         return dp[obstacleGrid.size() - 1][obstacleGrid[0].size() - 1];
     }
 };
-```
+// ```

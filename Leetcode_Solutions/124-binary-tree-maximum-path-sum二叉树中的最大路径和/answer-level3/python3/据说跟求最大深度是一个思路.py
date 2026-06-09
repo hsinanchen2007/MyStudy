@@ -1,12 +1,12 @@
-### 解题思路
-用的是递归思路
-self.res = max(self.res, left + right + root.val) 
-return max(0, max(left, right) + root.val)
-这两句是重点
+# ### 解题思路
+# 用的是递归思路
+# self.res = max(self.res, left + right + root.val) 
+# return max(0, max(left, right) + root.val)
+# 这两句是重点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             return max(0, max(left, right) + root.val)
         helper(root)
         return self.res
-```
+# ```

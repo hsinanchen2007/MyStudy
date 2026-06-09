@@ -1,11 +1,11 @@
-### 解题思路
-1. 定义两个字母计数表
-2. 分别计数字母
-3. 比较两个字母计数表
+// ### 解题思路
+// 1. 定义两个字母计数表
+// 2. 分别计数字母
+// 3. 比较两个字母计数表
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAnagram(char * s, char * t){
     int *table_one = (int *)calloc(26, sizeof(int));
     int *table_two = (int *)calloc(26, sizeof(int));
@@ -26,4 +26,4 @@ bool isAnagram(char * s, char * t){
     }
     return true;
 }
-```
+// ```

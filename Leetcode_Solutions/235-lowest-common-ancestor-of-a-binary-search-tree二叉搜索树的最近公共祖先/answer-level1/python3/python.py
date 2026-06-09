@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -16,4 +16,4 @@ class Solution:
             elif cur.val > p.val and cur.val > q.val: cur = cur.left
             else: return cur
             
-```
+# ```

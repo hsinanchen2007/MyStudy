@@ -1,9 +1,9 @@
-### 解题思路
-注意分治的划分方法和合并方法
+// ### 解题思路
+// 注意分治的划分方法和合并方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {//简单的分治算法:1.划分2.递归3.合并
 	public int maxSubArray(int[] nums) {
         // return fenzhi_helper(nums,0,nums.length);
@@ -34,4 +34,4 @@ class Solution {//简单的分治算法:1.划分2.递归3.合并
         return nowMax;
     }
 }
-```
+// ```

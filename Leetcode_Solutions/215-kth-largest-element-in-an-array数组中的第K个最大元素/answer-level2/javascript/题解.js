@@ -1,11 +1,11 @@
-### 解题思路
-新手基础向：冒泡或者选择n次即可
+// ### 解题思路
+// 新手基础向：冒泡或者选择n次即可
 
-### 代码
+// ### 代码
 
-调库-笑
+// 调库-笑
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -14,11 +14,11 @@
 var findKthLargest = function(nums, k) {
   return nums.sort((a, b) => b - a)[k - 1]
 };
-```
+// ```
 
-冒泡 k 次
+// 冒泡 k 次
 
-```javascript
+// ```javascript
 var findKthLargest = function(nums, k) {
   let len = nums.length - 1
   for (let i = len; i > len - k; i--) {
@@ -32,10 +32,10 @@ var findKthLargest = function(nums, k) {
   }
   return nums[nums.length - k]
 };
-```
+// ```
 
-选择 k 次
-```javascript
+// 选择 k 次
+// ```javascript
 var findKthLargest = function(nums, k) {
   for (let i = 0; i < k; i++) {
     let maxIdx = i
@@ -54,4 +54,4 @@ var findKthLargest = function(nums, k) {
   }
   return nums[k - 1]
 };
-```
+// ```

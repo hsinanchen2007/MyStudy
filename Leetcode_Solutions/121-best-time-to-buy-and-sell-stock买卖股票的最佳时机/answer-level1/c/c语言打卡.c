@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，min_price记录历史最低价格，max_profit记录历史最大利润。
+// ### 解题思路
+// 遍历数组，min_price记录历史最低价格，max_profit记录历史最大利润。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int i, min_price = INT_MAX, max_profit = 0;
     for(i = 0;i < pricesSize;i ++){
@@ -12,4 +12,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return max_profit;
 }
-```
+// ```

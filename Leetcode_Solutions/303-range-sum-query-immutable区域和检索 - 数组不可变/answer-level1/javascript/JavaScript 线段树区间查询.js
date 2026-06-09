@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 
 class SegmentTree {
     constructor(options) {
@@ -206,4 +206,4 @@ NumArray.prototype.sumRange = function(i, j) {
  * var obj = new NumArray(nums)
  * var param_1 = obj.sumRange(i,j)
  */
-```
+// ```

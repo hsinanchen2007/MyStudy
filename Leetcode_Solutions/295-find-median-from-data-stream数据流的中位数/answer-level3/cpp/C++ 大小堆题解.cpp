@@ -1,4 +1,4 @@
-```
+// ```
 
 class MedianFinder {
 public:
@@ -34,6 +34,6 @@ public:
         return 0.5 * (small.top() + large.top());
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e74a757792bc2c2929c13b8f3440ae02d66fb96e01f3dede6f9028bdd50d0b26-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e74a757792bc2c2929c13b8f3440ae02d66fb96e01f3dede6f9028bdd50d0b26-image.png)

@@ -1,6 +1,6 @@
-思路：此题是[715](https://leetcode-cn.com/problems/range-module/)题的简化版，715题加入的是区间，本题加入的是一个个点。在查找加入位置时可以通过二分查找或者TreeMap来实现，在进行区间合并时如果使用数组列表的话时间复杂度为O(n), 而用链表的话时间复杂度为O(1)。因此使用TreeMap达到O(lgn)的搜索速度，使用链表达到O(1)的区间合并速度，TreeMap的key采用区间的右端点。
-(PS: [715](https://leetcode-cn.com/problems/range-module/)题也可以使用本思路，即用TreeMap + 链表实现)
-```
+// 思路：此题是[715](https://leetcode-cn.com/problems/range-module/)题的简化版，715题加入的是区间，本题加入的是一个个点。在查找加入位置时可以通过二分查找或者TreeMap来实现，在进行区间合并时如果使用数组列表的话时间复杂度为O(n), 而用链表的话时间复杂度为O(1)。因此使用TreeMap达到O(lgn)的搜索速度，使用链表达到O(1)的区间合并速度，TreeMap的key采用区间的右端点。
+// (PS: [715](https://leetcode-cn.com/problems/range-module/)题也可以使用本思路，即用TreeMap + 链表实现)
+// ```
 class SummaryRanges {
 
   private class Node {
@@ -80,4 +80,4 @@ class SummaryRanges {
  * Your SummaryRanges object will be instantiated and called as such: SummaryRanges obj = new
  * SummaryRanges(); obj.addNum(val); int[][] param_2 = obj.getIntervals();
  */
-```
+// ```

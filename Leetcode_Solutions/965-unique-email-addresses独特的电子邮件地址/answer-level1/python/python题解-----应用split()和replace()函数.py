@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numUniqueEmails(self, emails):
         """
@@ -15,4 +15,4 @@ class Solution(object):
             if temp not in result:
                 result.append(temp)
         return len(result)
-```
+# ```

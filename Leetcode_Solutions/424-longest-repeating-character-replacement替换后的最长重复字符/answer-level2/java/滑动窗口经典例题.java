@@ -1,13 +1,13 @@
-### 解题思路
-滑动窗口适用于解决数组&字符串内子元素问题
-原理双指针，设定左右指针
-算法难点：左右指针滑动的边界条件，窗口内值变化要思考清晰
+// ### 解题思路
+// 滑动窗口适用于解决数组&字符串内子元素问题
+// 原理双指针，设定左右指针
+// 算法难点：左右指针滑动的边界条件，窗口内值变化要思考清晰
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int characterReplacement(String s, int k) {
  char[] str = s.toCharArray();
@@ -37,4 +37,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

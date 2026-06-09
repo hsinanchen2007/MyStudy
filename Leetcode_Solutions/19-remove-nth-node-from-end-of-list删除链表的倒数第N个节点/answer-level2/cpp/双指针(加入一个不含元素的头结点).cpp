@@ -1,9 +1,9 @@
-### 解题思路
-加入一个不含元素的头结点让代码可读性更高
+// ### 解题思路
+// 加入一个不含元素的头结点让代码可读性更高
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return head1->next;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从后往前遍历一次，不利用转换数字的捷径思想
+# ### 解题思路
+# 从后往前遍历一次，不利用转换数字的捷径思想
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         n=len(digits)
@@ -19,4 +19,4 @@ class Solution:
             digits.append(0)
             digits[0]=1
         return digits
-```
+# ```

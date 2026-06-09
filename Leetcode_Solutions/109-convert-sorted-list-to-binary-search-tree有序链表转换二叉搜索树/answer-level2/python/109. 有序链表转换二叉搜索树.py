@@ -1,10 +1,10 @@
-### 解题思路
-1.把有序链表的值放在列表中；
-2.处理有序列表，将其转化为平衡二叉搜索树；
+# ### 解题思路
+# 1.把有序链表的值放在列表中；
+# 2.处理有序列表，将其转化为平衡二叉搜索树；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
             root.right = helper(nums[mid + 1:])
             return root
         return helper(nums)
-```
+# ```

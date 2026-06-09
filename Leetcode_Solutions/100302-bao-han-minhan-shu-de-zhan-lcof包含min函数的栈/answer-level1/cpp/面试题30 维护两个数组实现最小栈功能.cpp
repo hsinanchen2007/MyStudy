@@ -1,10 +1,10 @@
-### 解题思路
-min,push和pop都是O(1)复杂度
-![image.png](https://pic.leetcode-cn.com/18ee9d151dfbdd835fbcd45a7622bfe8724b03c5994fd1534beb0789f959a4af-image.png)
+// ### 解题思路
+// min,push和pop都是O(1)复杂度
+// ![image.png](https://pic.leetcode-cn.com/18ee9d151dfbdd835fbcd45a7622bfe8724b03c5994fd1534beb0789f959a4af-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <algorithm>
 
 using namespace std;
@@ -57,4 +57,4 @@ private:
  * int param_3 = obj->top();
  * int param_4 = obj->min();
  */
-```
+// ```

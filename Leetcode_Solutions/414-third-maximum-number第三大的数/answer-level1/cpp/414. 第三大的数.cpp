@@ -1,6 +1,6 @@
-## 遍历一次，找出第一第二第三大的数
-**其实找出先三大的数很容易，这道题麻烦在于“值相同的数，排名相同，比如都排第二”，所以这里“第三大”的数并不是平时说的“第三大”**
-```cpp
+// ## 遍历一次，找出第一第二第三大的数
+// **其实找出先三大的数很容易，这道题麻烦在于“值相同的数，排名相同，比如都排第二”，所以这里“第三大”的数并不是平时说的“第三大”**
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -30,9 +30,9 @@ public:
         else return max1;
     }
 };
-```
-## 遍历三次，找出第一第二第三大的数
-```cpp
+// ```
+// ## 遍历三次，找出第一第二第三大的数
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -55,9 +55,9 @@ public:
         else return max3;
     }
 };
-```
-## 利用set----很慢
-```cpp
+// ```
+// ## 利用set----很慢
+// ```cpp
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -71,4 +71,4 @@ public:
         else return *(st.rbegin());
     }
 };
-```
+// ```

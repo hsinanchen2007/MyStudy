@@ -1,4 +1,4 @@
-```
+// ```
 bool hasGroupsSizeX(int* deck, int deckSize){
     if (deckSize == 1) {
         return false;
@@ -26,4 +26,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     }
     return false;
 }
-```
+// ```

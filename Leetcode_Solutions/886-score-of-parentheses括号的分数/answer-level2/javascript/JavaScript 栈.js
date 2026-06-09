@@ -1,8 +1,8 @@
-### 解题思路
-使用栈解决
-### 代码
+// ### 解题思路
+// 使用栈解决
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {number}
@@ -33,4 +33,4 @@ var scoreOfParentheses = function(S) {
     }
     return stack.reduce((a, b) => a + b)
 };
-```
+// ```

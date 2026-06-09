@@ -1,9 +1,9 @@
-### 解题思路
-看代码后面的注释会比较容易理解
+// ### 解题思路
+// 看代码后面的注释会比较容易理解
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var binaryTreePaths = function(root) {
     res = res.map(e=>e.join('->')); //把最后得到的路线数组，用->串起来
     return res;
 };
-```
+// ```

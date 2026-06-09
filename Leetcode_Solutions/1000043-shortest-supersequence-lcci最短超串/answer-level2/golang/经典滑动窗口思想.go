@@ -1,4 +1,4 @@
-```go
+// ```go
 func shortestSeq(big []int, small []int) []int {
     left, right := 0, 0
     l, r := 0, 0
@@ -54,4 +54,4 @@ func shortestSeq(big []int, small []int) []int {
     return []int{l, r}
 }
 
-```
+// ```

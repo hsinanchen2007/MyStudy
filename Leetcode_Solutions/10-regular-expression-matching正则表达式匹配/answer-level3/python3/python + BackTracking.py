@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         # '.' matches any single character.
@@ -19,4 +19,4 @@ class Solution:
             if s != '' and (s[0] == p[0] or p[0] == '.'):
                 return self.isMatch(s[1:], p[1:])
             else: return False
-```
+# ```

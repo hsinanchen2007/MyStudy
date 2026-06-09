@@ -1,8 +1,8 @@
-主要针对序列做了优化，比如
-1,2,3,4,5,6,7,8
+// 主要针对序列做了优化，比如
+// 1,2,3,4,5,6,7,8
 
-代码如下：
-```
+// 代码如下：
+// ```
 int removeDuplicates(int *nums, const int numsSize)
 {
         if (numsSize == 0) return 0;
@@ -20,4 +20,4 @@ int removeDuplicates(int *nums, const int numsSize)
  
         return (n_base+1);
 }
-```
+// ```

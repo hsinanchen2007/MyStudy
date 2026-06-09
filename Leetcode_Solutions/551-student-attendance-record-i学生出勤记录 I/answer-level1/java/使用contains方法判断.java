@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean checkRecord(String s) {
         if(s == null || s.length() == 0) return false;
@@ -17,4 +17,4 @@ class Solution {
             return false;
     }
 }
-```
+// ```

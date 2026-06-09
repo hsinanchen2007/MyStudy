@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] input = new int[101];
@@ -19,4 +19,4 @@ class Solution {
         return outPut;
     }
 }
-```
+// ```

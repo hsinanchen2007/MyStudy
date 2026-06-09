@@ -1,4 +1,4 @@
-```mysql
+-- ```mysql
 SELECT 
     lw.id AS 'Id'
 FROM
@@ -8,4 +8,4 @@ FROM
         AND lw.Temperature > rw.Temperature
 ;
 
-```
+-- ```

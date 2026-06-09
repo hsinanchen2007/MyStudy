@@ -1,10 +1,10 @@
-### 解题思路
-- 方法1：这是我想到的方法，先排序，然后查找对应元素；
-- 方法2：这是参考网友的方法，先求0---n的和，然后减去数组各元素和，即为缺失元素，这种方法效率高，相对更好
+// ### 解题思路
+// - 方法1：这是我想到的方法，先排序，然后查找对应元素；
+// - 方法2：这是参考网友的方法，先求0---n的和，然后减去数组各元素和，即为缺失元素，这种方法效率高，相对更好
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //方法1
 class Solution {
     public int missingNumber(int[] nums) {
@@ -22,8 +22,8 @@ class Solution {
        
         }
 }
-```
-```java
+// ```
+// ```java
 //方法2
 class Solution {
     public int missingNumber(int[] nums) {
@@ -35,4 +35,4 @@ class Solution {
         return cc-sum;
         }
 }
-```
+// ```

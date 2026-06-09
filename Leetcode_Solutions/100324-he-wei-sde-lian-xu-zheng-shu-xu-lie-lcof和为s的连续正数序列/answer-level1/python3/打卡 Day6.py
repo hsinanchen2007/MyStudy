@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List
     [int]]:
@@ -17,4 +17,4 @@ class Solution:
                 j+=1
                 sumTmp = sum(tmp[i:j+1])
         return ans
-```
+# ```

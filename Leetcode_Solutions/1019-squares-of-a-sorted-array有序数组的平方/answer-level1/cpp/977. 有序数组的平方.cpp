@@ -1,9 +1,9 @@
-### 解题思路
-先将负数变为正数，再使用快排
+// ### 解题思路
+// 先将负数变为正数，再使用快排
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A) {
@@ -44,4 +44,4 @@ public:
         return low;
     }
 };
-```
+// ```

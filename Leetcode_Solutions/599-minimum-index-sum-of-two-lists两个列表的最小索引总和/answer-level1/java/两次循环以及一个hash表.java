@@ -1,19 +1,19 @@
-1. 关于复杂度
-  1.1 时间复杂度为O(n)
-  1.2 空间负责度为O(n)
-2. 我的解题思路
-  2.1 利用 list1 元素以及索引构建 Hash
-  2.2 循环遍历 list2，有四种情况
-      2.2.1 hash 中已经存在当前元素，hash 中的 value 与当前索引相加结果小于 flag，清空 list 更新 flag 以及 list
-      2.2.2 hash 中已经存在当前元素，hash 中的 value 与当前索引相加结果等于 flag，当前元素加入 list
-      2.2.3 hash 中已经存在当前元素，hash 中的 value 与当前索引相加结果大于 flag，跳过
-      2.2.4 hash 中不含有当前元素，跳过
-3. 提交记录
-  3.1 力扣中耗时11ms,消耗38.4MB内存
-  3.2 leetcode中耗时8ms,消耗38.8MB内存
-4. Q&A
+// 1. 关于复杂度
+//   1.1 时间复杂度为O(n)
+//   1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//   2.1 利用 list1 元素以及索引构建 Hash
+//   2.2 循环遍历 list2，有四种情况
+//       2.2.1 hash 中已经存在当前元素，hash 中的 value 与当前索引相加结果小于 flag，清空 list 更新 flag 以及 list
+//       2.2.2 hash 中已经存在当前元素，hash 中的 value 与当前索引相加结果等于 flag，当前元素加入 list
+//       2.2.3 hash 中已经存在当前元素，hash 中的 value 与当前索引相加结果大于 flag，跳过
+//       2.2.4 hash 中不含有当前元素，跳过
+// 3. 提交记录
+//   3.1 力扣中耗时11ms,消耗38.4MB内存
+//   3.2 leetcode中耗时8ms,消耗38.8MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     599.Minimum Index Sum of Two Lists
@@ -72,6 +72,6 @@ class Solution{
     }
 
 }
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

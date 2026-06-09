@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int dirs[4][2] = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
@@ -39,6 +39,6 @@ public:
         return col - 1;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a92f5b273648f448e7510e3ee5656871d5742be1ff546424cc20129c790c7c16-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a92f5b273648f448e7510e3ee5656871d5742be1ff546424cc20129c790c7c16-image.png)

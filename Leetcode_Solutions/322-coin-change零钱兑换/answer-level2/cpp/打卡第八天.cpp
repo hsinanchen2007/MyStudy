@@ -1,4 +1,4 @@
-递归方法做的，贪心加剪枝。
+// 递归方法做的，贪心加剪枝。
  int coinChange(vector<int>& coins, int amount) {
          if(amount == 0) return 0;
          int m = __INT_MAX__;

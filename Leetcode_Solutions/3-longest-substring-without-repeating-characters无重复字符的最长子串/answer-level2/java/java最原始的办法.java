@@ -1,9 +1,9 @@
-### 解题思路
-//循环 把所有的字符加入到新容器中，直到出现重复字符，进行截取操作
+// ### 解题思路
+// //循环 把所有的字符加入到新容器中，直到出现重复字符，进行截取操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
 
@@ -36,4 +36,4 @@ class Solution {
     return maxTemp.length();
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-通过变量i标记反转开始位置，使用STL的reverse函数完成反转，注意最后是否越界的分类讨论
+// ### 解题思路
+// 通过变量i标记反转开始位置，使用STL的reverse函数完成反转，注意最后是否越界的分类讨论
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseStr(string s, int k) {
@@ -18,4 +18,4 @@ public:
         return s;
     }
 };
-```
+// ```

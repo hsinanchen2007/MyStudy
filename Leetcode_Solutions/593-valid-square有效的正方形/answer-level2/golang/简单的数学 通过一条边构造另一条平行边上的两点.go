@@ -1,6 +1,6 @@
-**思路**:见标题
-**注意**:构造另外两点时需要判断一个已有边的斜率 一种情况是斜率>0 另一种情况是斜率<=0/不存在 这两种情况下两点的构造是有一些区别的 但不管怎样 都能通过一条边得到两条可能的边 且一左一右 可以画个简单的图理解一下 最后 本人菜鸡 以下代码仅供参考 还请大家多多指教
-```python []
+// **思路**:见标题
+// **注意**:构造另外两点时需要判断一个已有边的斜率 一种情况是斜率>0 另一种情况是斜率<=0/不存在 这两种情况下两点的构造是有一些区别的 但不管怎样 都能通过一条边得到两条可能的边 且一左一右 可以画个简单的图理解一下 最后 本人菜鸡 以下代码仅供参考 还请大家多多指教
+// ```python []
 class Solution:
 	def validSquare(self,p1,p2,p3,p4):
 		def helper(p1,p2,p3,p4):
@@ -15,8 +15,8 @@ class Solution:
 			real=set([tuple(p3),tuple(p4)]) #给定的另外两个点组成的set
 			return ans_1==real or ans_2==real
 		return helper(p1,p2,p3,p4) or helper(p1,p3,p2,p4) #有可能p1,p2组成的线段正好是给定正方形的对角线 那么上面的函数就没有意义了 所以需要第二个helper调用
-```
-```golang []
+// ```
+// ```golang []
 func validSquare(p1 []int, p2 []int, p3 []int, p4 []int) bool {
 	helper:=func(p1,p2,p3,p4 []int) bool { //虽然go不能够命名函数的嵌套定义 但是这种将一个匿名函数赋值给一个函数变量 还是可以的
 		_x,_y:=p1[0]-p2[0],p1[1]-p2[1]
@@ -45,4 +45,4 @@ func validSquare(p1 []int, p2 []int, p3 []int, p4 []int) bool {
 	}
 	return helper(p1,p2,p3,p4) || helper(p1,p3,p2,p4) //有可能p1,p2是正方形任一对角线上的两点 这时上述函数没有什么意义 所以还需要后面一个
 }
-```
+// ```

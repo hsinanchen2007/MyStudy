@@ -1,5 +1,5 @@
-本题同[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)实际一毛一样，几乎就是换个变量名的事情...
-```java
+// 本题同[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)实际一毛一样，几乎就是换个变量名的事情...
+// ```java
 class Solution {
     public int minMutation(String start, String end, String[] bank) {
         HashSet<String> bankSet = new HashSet<>(Arrays.asList(bank));
@@ -41,4 +41,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
 
-![image.png](https://pic.leetcode-cn.com/df0e5961bdb316f8790da268541ed635868de1bcd9bbd02ae6be9fb21441e6c3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/df0e5961bdb316f8790da268541ed635868de1bcd9bbd02ae6be9fb21441e6c3-image.png)
 
-双指针判断
+// 双指针判断
 
-判断的时候需要用
--  r1的左子树和r2的右子树比较
--  r1的右子树和r2的左子树比较
+// 判断的时候需要用
+// -  r1的左子树和r2的右子树比较
+// -  r1的右子树和r2的左子树比较
 
 
-```c
+// ```c
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -28,4 +28,4 @@ public:
         
     }
 }
-```
+// ```

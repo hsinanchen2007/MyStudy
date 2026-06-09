@@ -1,5 +1,5 @@
-## string版
-```cpp
+// ## string版
+// ```cpp
 class Solution {
 public:
     string removeDuplicates(string S) {
@@ -13,13 +13,13 @@ public:
         return res;
     }
 };
-```
-### 复杂度分析
-- 时间复杂度：*O(N)*，其中 *N* 是字符串的长度
-- 空间复杂度：*O(N)*
+// ```
+// ### 复杂度分析
+// - 时间复杂度：*O(N)*，其中 *N* 是字符串的长度
+// - 空间复杂度：*O(N)*
 
-## cnt版
-```cpp
+// ## cnt版
+// ```cpp
 class Solution {
 public:
     string removeDuplicates(string S) {
@@ -34,7 +34,7 @@ public:
         return S;
     }
 };
-```
-### 复杂度分析
-- 时间复杂度：*O(N)*，其中 *N* 是字符串的长度
-- 空间复杂度：*O(1)*
+// ```
+// ### 复杂度分析
+// - 时间复杂度：*O(N)*，其中 *N* 是字符串的长度
+// - 空间复杂度：*O(1)*

@@ -1,9 +1,9 @@
-### 解题思路
-分析就再写了，基本思路都在代码的注释里面了，和其他的大神思路基本差不多的，主要就是通过hashmap从com 开始统计
+// ### 解题思路
+// 分析就再写了，基本思路都在代码的注释里面了，和其他的大神思路基本差不多的，主要就是通过hashmap从com 开始统计
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         HashMap<String,Integer> map = new HashMap<>();
@@ -39,4 +39,4 @@ class Solution {
     }
 
 }
-```
+// ```

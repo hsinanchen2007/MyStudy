@@ -1,8 +1,8 @@
-### 解题思路
-递归没有太理解，感觉使用 while 理解起来更容易一些
-### 代码
+// ### 解题思路
+// 递归没有太理解，感觉使用 while 理解起来更容易一些
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return lnode;
     }
 }
-```
+// ```

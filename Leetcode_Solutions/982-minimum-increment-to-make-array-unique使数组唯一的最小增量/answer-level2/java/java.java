@@ -1,9 +1,9 @@
-### 解题思路
-kande 官方解答，提交下
+// ### 解题思路
+// kande 官方解答，提交下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         int[] count = new int[80000];
@@ -22,4 +22,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

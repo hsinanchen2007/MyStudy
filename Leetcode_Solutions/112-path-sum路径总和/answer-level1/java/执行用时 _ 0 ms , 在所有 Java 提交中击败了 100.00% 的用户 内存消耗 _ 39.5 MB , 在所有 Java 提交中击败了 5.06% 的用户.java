@@ -1,9 +1,9 @@
-### 解题思路
-递归走一波，自顶向下。
+// ### 解题思路
+// 递归走一波，自顶向下。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-//先用Hashmap记录第一个数组中的元素【放在key】，和出现的次数【放在value】。然后再遍历第二个数组，如果找到对用元素&&对应HashMap中的value不为0，则添加这个元素到list中等下放到数组中，同时，HashMap中的value值减一，表示已经找到一个相同的了。最后的话，将list中的值取出来，放到数组中返回
-```
+// //先用Hashmap记录第一个数组中的元素【放在key】，和出现的次数【放在value】。然后再遍历第二个数组，如果找到对用元素&&对应HashMap中的value不为0，则添加这个元素到list中等下放到数组中，同时，HashMap中的value值减一，表示已经找到一个相同的了。最后的话，将list中的值取出来，放到数组中返回
+// ```
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -29,4 +29,4 @@ class Solution {
         return aux;
     }
 }
-```
+// ```

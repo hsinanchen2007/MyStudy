@@ -1,11 +1,11 @@
-### 解题思路
-动态规划，动态数组假设为 matrix[len(word1)+1][len(word2)+1]
-1. 如果 word1[i] == word2[j] 那么 matrix[i][j] = matrix[i-1][j-1]
-2. 否则 matrix[i][j] = min(matrix[i-1][j], matrix[i][j-1], matrix[i-1][j-1]) + 1
+// ### 解题思路
+// 动态规划，动态数组假设为 matrix[len(word1)+1][len(word2)+1]
+// 1. 如果 word1[i] == word2[j] 那么 matrix[i][j] = matrix[i-1][j-1]
+// 2. 否则 matrix[i][j] = min(matrix[i-1][j], matrix[i][j-1], matrix[i-1][j-1]) + 1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func minDistance(word1 string, word2 string) int {
 	if len(word1) == 0 {
@@ -66,4 +66,4 @@ func minNode(a, b, c int) int {
 
 	return min
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-一次遍历，当累加的元素数量小于等于k时(i<k)，直接累加，并且max=sum
-当累加的元素数量大于k时(i>=k)),累加当前元素，并删除第i-k个元素，然后max取sum和之前值较大的一个
+// ### 解题思路
+// 一次遍历，当累加的元素数量小于等于k时(i<k)，直接累加，并且max=sum
+// 当累加的元素数量大于k时(i>=k)),累加当前元素，并删除第i-k个元素，然后max取sum和之前值较大的一个
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -24,4 +24,4 @@ var findMaxAverage = function(nums, k) {
     }
     return max/k
 };
-```
+// ```

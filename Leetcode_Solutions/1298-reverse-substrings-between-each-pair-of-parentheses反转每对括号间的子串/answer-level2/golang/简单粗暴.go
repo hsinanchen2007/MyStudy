@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseParentheses(s string) string {
     stack:=make([]string,0)
 
@@ -31,4 +31,4 @@ func reverseParentheses(s string) string {
     }
     return strings.Join(stack,"")
 }
-```
+// ```

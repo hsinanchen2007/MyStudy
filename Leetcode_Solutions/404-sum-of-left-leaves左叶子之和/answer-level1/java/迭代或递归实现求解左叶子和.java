@@ -1,9 +1,9 @@
 
-# 方法一：迭代
+// # 方法一：迭代
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,10 +41,10 @@ class Solution {
 
 
 }
-```
+// ```
 
-方法二：递归
-```java
+// 方法二：递归
+// ```java
 public int sumOfLeftLeaves1(TreeNode root) {
         if(root==null) return 0;
         TreeNode left=root.left;
@@ -62,4 +62,4 @@ public int sumOfLeftLeaves1(TreeNode root) {
         }
         return l+r;
     }
-```
+// ```

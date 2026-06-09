@@ -1,18 +1,18 @@
-## 28.对称的二叉树
+// ## 28.对称的二叉树
 
-### Information
+// ### Information
 
-* TIME: 2020/02/14
-* LINK: [Click Here](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)
-* TAG: `Tree`
+// * TIME: 2020/02/14
+// * LINK: [Click Here](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)
+// * TAG: `Tree`
 
-### Description
+// ### Description
 
-> 请实现一个函数，用来判断一棵二叉树是不是对称的。如果一棵二叉树和它的镜像一样，那么它是对称的。
+// > 请实现一个函数，用来判断一棵二叉树是不是对称的。如果一棵二叉树和它的镜像一样，那么它是对称的。
 
-### Example
+// ### Example
 
-```text
+// ```text
 例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
 
     1
@@ -27,13 +27,13 @@
   2   2
    \   \
    3    3
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 所谓对称，就是左子树等于右子树，于是就能找到递归的条件
+// > 所谓对称，就是左子树等于右子树，于是就能找到递归的条件
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -55,23 +55,23 @@ class Solution {
         return isSymmetricHelper(root1.left, root2.right) && isSymmetricHelper(root1.right, root2.left);
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

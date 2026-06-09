@@ -1,4 +1,4 @@
-```
+// ```
 func postorderTraversal(root *TreeNode) []int {
     res := []int{}
     p := root
@@ -27,4 +27,4 @@ func postorderTraversal(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
         root.left = self.buildTree(preorder[1:idx+1],inorder[:idx])
         root.right = self.buildTree(preorder[idx+1:],inorder[idx+1:])
         return root
-```
+# ```

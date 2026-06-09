@@ -1,4 +1,4 @@
-```
+// ```
 func findSecondMinimumValue(root *TreeNode) int {
 	return dfsmin(root, root.Val)
 }
@@ -20,4 +20,4 @@ func dfsmin(root *TreeNode, val int) int {
 	}
 	return int(math.Min(float64(sleft), float64(sright)))
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if(nums.length == 0){
@@ -24,4 +24,4 @@ class Solution {
         return len+1;
     }
 }
-```
+// ```

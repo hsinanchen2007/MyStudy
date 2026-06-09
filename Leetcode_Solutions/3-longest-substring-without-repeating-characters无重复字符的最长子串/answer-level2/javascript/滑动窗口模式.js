@@ -1,11 +1,11 @@
-### 解题思路
-i-j左到右，
-如果没有重复字符串，则j+1,
-如果遇到重复则清除掉i-j存到hashSet中的值，并将i赋值为j
+// ### 解题思路
+// i-j左到右，
+// 如果没有重复字符串，则j+1,
+// 如果遇到重复则清除掉i-j存到hashSet中的值，并将i赋值为j
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -30,4 +30,4 @@ var lengthOfLongestSubstring = function(s) {
     return long;
 };
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-//第一反应就是双层的for循环，肯定要取出其中一个去循环本身的数组。
+// ### 解题思路
+// //第一反应就是双层的for循环，肯定要取出其中一个去循环本身的数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int[] smallerNumbersThanCurrent(int[] nums) {
         int[] newc = new int[nums.length];//结果返回数组
@@ -21,4 +21,4 @@ class Solution {
             return newc;
     }
 }
-```
+// ```

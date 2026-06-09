@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/a70f9c3700154ecbad50aed23e06b8b46e7b584996e3785f8cf3aed63ebc7efa-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a70f9c3700154ecbad50aed23e06b8b46e7b584996e3785f8cf3aed63ebc7efa-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool judgeSquareSum(int c) {
@@ -27,4 +27,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var rotatedDigits = function(N) {
     let goodNum = '2569';
     let count = 0;
@@ -18,11 +18,11 @@ var rotatedDigits = function(N) {
     }
     return count
 };
-```
+// ```
 
-*法二：正则*
+// *法二：正则*
 
-```js
+// ```js
 var rotatedDigits = function(N) {
     // 检测N是否含有3、4、7这三个数中的任意一个
     let pat1 = /[347]+/;
@@ -40,4 +40,4 @@ var rotatedDigits = function(N) {
     }
     return N - count1 - count2
 };
-```
+// ```

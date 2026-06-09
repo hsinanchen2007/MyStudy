@@ -1,9 +1,9 @@
-### 解题思路
-将链表中的每个结点保存到ArrayList中，直接返回ArrayList中ArrayList.size()/2
+// ### 解题思路
+// 将链表中的每个结点保存到ArrayList中，直接返回ArrayList中ArrayList.size()/2
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,4 +24,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<Integer> addToArrayForm(int[] A, int K) {
        LinkedList<Integer> list = new LinkedList<Integer>();
@@ -14,4 +14,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

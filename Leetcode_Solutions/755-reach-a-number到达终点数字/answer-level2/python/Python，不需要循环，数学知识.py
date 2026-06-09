@@ -1,4 +1,4 @@
-```python
+# ```python
 from math import ceil
 class Solution:
     def reachNumber(self, target: int) -> int:
@@ -10,4 +10,4 @@ class Solution:
             return x+1  # x为偶数则只需再走一下（x+1为奇数）将超出变成偶数，再将之前的某次行走翻转方向即可
         return x  # 超过target的步数为偶数，则将之前某次行走翻转方向就能减去这部分超出
 
-```
+# ```

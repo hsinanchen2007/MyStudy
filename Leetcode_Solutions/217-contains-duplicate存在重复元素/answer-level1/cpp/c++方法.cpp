@@ -1,9 +1,9 @@
-### 解题思路
-如果i从1开始就不要加一开始的判断了，这个点对于菜鸟来说经常搞错
+// ### 解题思路
+// 如果i从1开始就不要加一开始的判断了，这个点对于菜鸟来说经常搞错
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

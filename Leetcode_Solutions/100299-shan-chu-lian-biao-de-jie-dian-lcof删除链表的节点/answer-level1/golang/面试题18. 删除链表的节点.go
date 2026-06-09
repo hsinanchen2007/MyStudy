@@ -1,12 +1,12 @@
-### 解题思路
-需要考虑几种场景
-1. 删除节点是头结点
-2. 删除节点是中间节点
-3. 删除节点是尾节点
+// ### 解题思路
+// 需要考虑几种场景
+// 1. 删除节点是头结点
+// 2. 删除节点是中间节点
+// 3. 删除节点是尾节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -39,4 +39,4 @@ func deleteNode(head *ListNode, val int) *ListNode {
 	return head
 
 }
-```
+// ```

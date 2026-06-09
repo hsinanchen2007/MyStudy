@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1.构建字典树
+// 1.构建字典树
 
-2.使用双指针遍历处理语句。右指针找到单词尾部，左指针逐字符查字典树
+// 2.使用双指针遍历处理语句。右指针找到单词尾部，左指针逐字符查字典树
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define INFO_SIZE   100000
 
 typedef struct _info_st
@@ -101,4 +101,4 @@ char * replaceWords(char ** dict, int dictSize, char * sentence){
 
     return res;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-大家笑笑就好，写的比较复杂，但是逻辑不复杂，就是个穷举。
-```
+// 大家笑笑就好，写的比较复杂，但是逻辑不复杂，就是个穷举。
+// ```
 class Solution {
     
     List<Integer> price;
@@ -79,4 +79,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

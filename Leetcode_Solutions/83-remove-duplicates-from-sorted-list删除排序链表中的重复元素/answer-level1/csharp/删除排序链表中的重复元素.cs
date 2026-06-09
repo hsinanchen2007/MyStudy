@@ -1,5 +1,5 @@
-**思路：** 双指针，一个指向不重复的最后一节点，一个负责遍历。要注意遍历结束后，将第一个指针的下一个节点设为null。
-```
+// **思路：** 双指针，一个指向不重复的最后一节点，一个负责遍历。要注意遍历结束后，将第一个指针的下一个节点设为null。
+// ```
 public ListNode DeleteDuplicates(ListNode head)
         {
             if (head == null || head.next == null)
@@ -24,5 +24,5 @@ public ListNode DeleteDuplicates(ListNode head)
 
             return head;
         }
-```
-**注：** 代码写完后还是要多多用例子去检验自己的代码
+// ```
+// **注：** 代码写完后还是要多多用例子去检验自己的代码

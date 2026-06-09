@@ -1,13 +1,13 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/6ad3782b635c87173bab3f0f988405c64660e2ca3d85b78135741b69ec461d6b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6ad3782b635c87173bab3f0f988405c64660e2ca3d85b78135741b69ec461d6b-image.png)
 
-### 解题思路
-HashMap + HashSet
+// ### 解题思路
+// HashMap + HashSet
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
  use std::collections::HashMap;
  use std::collections::HashSet;
 
@@ -35,4 +35,4 @@ impl Solution {
         (_set.len() == map.len())
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-牛顿法
+// ### 解题思路
+// 牛顿法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mySqrt(int x){
     if(x<2)
      return x;
@@ -13,4 +13,4 @@ int mySqrt(int x){
     return (int)r;
 
 }
-```
+// ```

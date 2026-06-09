@@ -1,9 +1,9 @@
-### 解题思路
-转换成选与不选的问题，也就是动态规划，尤其要注意特殊情况（数组长度为0、1、2）
+// ### 解题思路
+// 转换成选与不选的问题，也就是动态规划，尤其要注意特殊情况（数组长度为0、1、2）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) { 
         int len = nums.length;
@@ -25,4 +25,4 @@ class Solution {
 		return dp[len - 1];
     }  
 }
-```
+// ```

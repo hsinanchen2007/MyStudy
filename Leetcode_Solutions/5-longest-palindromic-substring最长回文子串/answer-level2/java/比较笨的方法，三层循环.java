@@ -1,9 +1,9 @@
-### 解题思路
-从末尾开始查找与之前可能会形成回文的字符串，只要有就肯定是最长的
+// ### 解题思路
+// 从末尾开始查找与之前可能会形成回文的字符串，只要有就肯定是最长的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(final String s) {
         String test = "";
@@ -37,4 +37,4 @@ class Solution {
         return test;
     }
 }
-```
+// ```

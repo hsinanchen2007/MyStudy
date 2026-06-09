@@ -1,9 +1,9 @@
-### 解题思路
-利用Window function
+-- ### 解题思路
+-- 利用Window function
 
-### 代码
+-- ### 代码
 
-```mssql
+-- ```mssql
 /* Write your T-SQL query statement below */
 
 with t as (

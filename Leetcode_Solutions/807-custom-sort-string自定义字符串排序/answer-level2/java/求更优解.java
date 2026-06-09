@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/4369d336189d7bb269bbf6ab8e872acda2a5c3768da7ff897f97fbb9ccfdea4b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4369d336189d7bb269bbf6ab8e872acda2a5c3768da7ff897f97fbb9ccfdea4b-image.png)
 
-```
+// ```
     public String customSortString(String S, String T) {
         //idx: letter, element: cnt. T max len is 200，so can use byte arr. but need change negative
         byte[] map = new byte[26];
@@ -45,4 +45,4 @@
         }
         return i;
     }
-```
+// ```

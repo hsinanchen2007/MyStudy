@@ -1,5 +1,5 @@
-// 时间换空间
-```golang
+// // 时间换空间
+// ```golang
 func twoSum(nums []int, target int) []int {
 	ret := []int{}
 	for idx1, val1 := range nums {
@@ -12,10 +12,10 @@ func twoSum(nums []int, target int) []int {
 	}
 	return ret
 }
-```
+// ```
 
-// 空间换时间
-```golang
+// // 空间换时间
+// ```golang
 func twoSum(nums []int, target int) []int {
 	var ret []int
 	numToIndex := map[int]int{}
@@ -29,4 +29,4 @@ func twoSum(nums []int, target int) []int {
 	}
 	return ret
 }
-```
+// ```

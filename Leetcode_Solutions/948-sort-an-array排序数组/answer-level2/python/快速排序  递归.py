@@ -1,10 +1,10 @@
-### 解题思路
-快速排序 将数组第一个元素作为基准值fenge_num，遍历数组，将小于等于基准值的元素加入到left数组中（不包括第一个元素），将大于基准值的元素加入到right数组中。再对left/right两数组进行上述步骤sortArray()。
-返回每次的基准值self.sortArray(left)+[fenge_num]+self.sortArray(right) ，达成排序  
+# ### 解题思路
+# 快速排序 将数组第一个元素作为基准值fenge_num，遍历数组，将小于等于基准值的元素加入到left数组中（不包括第一个元素），将大于基准值的元素加入到right数组中。再对left/right两数组进行上述步骤sortArray()。
+# 返回每次的基准值self.sortArray(left)+[fenge_num]+self.sortArray(right) ，达成排序  
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortArray(self, nums):
         if not nums:         
@@ -21,4 +21,4 @@ class Solution(object):
         return self.sortArray(left)+[fenge_num]+self.sortArray(right)
  
     
-```
+# ```

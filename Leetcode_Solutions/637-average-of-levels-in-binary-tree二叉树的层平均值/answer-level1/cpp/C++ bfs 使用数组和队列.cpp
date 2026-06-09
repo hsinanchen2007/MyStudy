@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /* 不使用哈希表，而是使用数组和队列。 */
 class Solution {
 public:
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

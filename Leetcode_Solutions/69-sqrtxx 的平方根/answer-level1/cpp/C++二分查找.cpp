@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) {
@@ -16,4 +16,4 @@ public:
         return right;
     }
 };
-```
+// ```

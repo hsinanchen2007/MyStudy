@@ -1,5 +1,5 @@
-根据改变前的奇偶数决定新的求和
-```
+// 根据改变前的奇偶数决定新的求和
+// ```
  public int[] SumEvenAfterQueries(int[] A, int[][] queries) {
         int qh=queries.Length;
         var res=new List<int>();
@@ -26,4 +26,4 @@
         }
         return res.ToArray();
     }
-```
+// ```

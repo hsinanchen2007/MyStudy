@@ -1,5 +1,5 @@
-方法一：
-两个for循环，o(n2)
+// 方法一：
+// 两个for循环，o(n2)
 func twoSum(nums []int, target int) []int {
 for i:=0;i<len(nums);i++{
 for j:=i+1;j<len(nums);j++{

@@ -1,6 +1,6 @@
-思路同其他
+// 思路同其他
 
-```
+// ```
 var nextPermutation = function(nums) {
     let idx = nums.length - 2;
     while (idx >= 0 && nums[idx] >= nums[idx+1]) {
@@ -19,4 +19,4 @@ var nextPermutation = function(nums) {
         nums.reverse();
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool divisorGame(int N){
     // 如果a拿到奇数，则必输，
     // 因为奇数的因数必为奇数，则N-x必为偶数，
@@ -8,4 +8,4 @@ bool divisorGame(int N){
     // 反过来，如果a拿到偶数，只需要-1给b，那么b就必输。
     return N%2==0;
 }
-```
+// ```

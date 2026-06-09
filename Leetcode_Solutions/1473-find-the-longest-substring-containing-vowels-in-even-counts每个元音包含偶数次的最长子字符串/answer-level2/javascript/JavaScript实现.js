@@ -1,10 +1,10 @@
-### 解题思路
-参考了[mnizy](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/solution/jian-dan-de-si-lu-by-mnizy/)的C++的题解。
-充分理解之后，在此基础上再解释一下吧，这个思路是化繁为简，把5个元音字母出现的奇偶次数当做状态来存储，总共会出现32种可能的结果(2的5次方)，这个解法最巧妙的是把状态用二进制来存储了，直接用异或运算，速度非常快。
+// ### 解题思路
+// 参考了[mnizy](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/solution/jian-dan-de-si-lu-by-mnizy/)的C++的题解。
+// 充分理解之后，在此基础上再解释一下吧，这个思路是化繁为简，把5个元音字母出现的奇偶次数当做状态来存储，总共会出现32种可能的结果(2的5次方)，这个解法最巧妙的是把状态用二进制来存储了，直接用异或运算，速度非常快。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findTheLongestSubstring = function(s) {
   var state = new Array(32)
   var cur = 0;
@@ -38,4 +38,4 @@ var findTheLongestSubstring = function(s) {
   }
   return ans
 };
-```
+// ```

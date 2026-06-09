@@ -1,6 +1,6 @@
-# 手把手教你从0开始推导出二分查找的写法，超详细！
+// # 手把手教你从0开始推导出二分查找的写法，超详细！
 
-几乎所有讲二分查找的文章，都会引用Knuth这样的一句话
+// 几乎所有讲二分查找的文章，都会引用Knuth这样的一句话
 
 	Although the basic idea of binary search is comparatively straightforward, 
 	the details can be surprisingly tricky..

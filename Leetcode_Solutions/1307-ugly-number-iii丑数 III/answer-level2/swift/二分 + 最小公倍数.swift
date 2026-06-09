@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func nthUglyNumber(_ n: Int, _ a: Int, _ b: Int, _ c: Int) -> Int {
         let sorted = [a,b,c].sorted { (x, y) -> Bool in
@@ -39,4 +39,4 @@ class Solution {
         return gcd(y, x % y)
     }
 }
-```
+// ```

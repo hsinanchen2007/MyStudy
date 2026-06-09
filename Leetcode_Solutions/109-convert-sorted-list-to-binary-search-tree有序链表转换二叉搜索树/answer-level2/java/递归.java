@@ -1,9 +1,9 @@
-### 解题思路
-貌似绝大部分关于二叉树的题都是用递归吧，递归就完事了
+// ### 解题思路
+// 貌似绝大部分关于二叉树的题都是用递归吧，递归就完事了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -54,4 +54,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

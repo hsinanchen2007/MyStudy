@@ -1,7 +1,7 @@
-送分题，进制转换，别忘了负号和0
+// 送分题，进制转换，别忘了负号和0
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     string convertToBase7(int num) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

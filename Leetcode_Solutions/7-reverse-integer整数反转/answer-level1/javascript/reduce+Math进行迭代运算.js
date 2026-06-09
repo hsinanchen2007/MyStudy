@@ -1,9 +1,9 @@
-### 解题思路
-优先考虑实现方法，没有考虑优化方式。主要是通过reduce来实现入栈方式，进行数值反转。
+// ### 解题思路
+// 优先考虑实现方法，没有考虑优化方式。主要是通过reduce来实现入栈方式，进行数值反转。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -25,4 +25,4 @@ var reverse = function(x) {
     let num = flag?Number(res.join('')):-Number(res.join(''));
     return Math.pow(-2,31)<=num && num<=Math.pow(2,31)-1?num:0;
 };
-```
+// ```

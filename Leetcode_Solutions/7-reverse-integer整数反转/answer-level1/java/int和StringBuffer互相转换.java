@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-StringBuffer有个reverse函数，因此可以把int转成StringBuffer，然后逆转后再转换回int。但是第一次编译时出现了java.lang.NumberFormatException。因此要加try-catch
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// StringBuffer有个reverse函数，因此可以把int转成StringBuffer，然后逆转后再转换回int。但是第一次编译时出现了java.lang.NumberFormatException。因此要加try-catch
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         
@@ -26,4 +26,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

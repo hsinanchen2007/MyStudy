@@ -1,10 +1,10 @@
-### 解题思路
-1.处理边界（当有空链表时）
-2.找出首个元素最小的链表作为返回链表
-3.记录两条链的当前操作元素和前一个元素，对比处理即可
-### 代码
+// ### 解题思路
+// 1.处理边界（当有空链表时）
+// 2.找出首个元素最小的链表作为返回链表
+// 3.记录两条链的当前操作元素和前一个元素，对比处理即可
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2)
 
     return first;
 }
-```
+// ```

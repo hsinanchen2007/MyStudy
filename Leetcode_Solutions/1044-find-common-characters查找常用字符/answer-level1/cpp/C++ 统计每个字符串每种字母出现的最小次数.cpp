@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/ab22c36d42178b645d754941f57beb961ac8352311ff69e5233915c77c866290-image.png)
-解题思路：统计输入的vector中每个字符串每种字母出现的最小次数。
-```
+// ![image.png](https://pic.leetcode-cn.com/ab22c36d42178b645d754941f57beb961ac8352311ff69e5233915c77c866290-image.png)
+// 解题思路：统计输入的vector中每个字符串每种字母出现的最小次数。
+// ```
     vector<string> commonChars(vector<string>& A) {
         vector<string> res;
         int count[26];
@@ -24,5 +24,5 @@
                 }
         return res;
     }
-```
+// ```
 

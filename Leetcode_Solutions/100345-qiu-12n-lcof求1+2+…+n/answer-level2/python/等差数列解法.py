@@ -1,6 +1,6 @@
-根据等差数列共识： Sn = (A1 + An) *n /2
+# 根据等差数列共识： Sn = (A1 + An) *n /2
 
-```
+# ```
 class Solution(object):
     def sumNums(self, n):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         :rtype: int
         """
         return n*(n+1)/2
-```
+# ```

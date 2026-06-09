@@ -1,4 +1,4 @@
-```
+// ```
 char * toLowerCase(char * str){
     char *a=str;
     while(*str)
@@ -7,5 +7,5 @@ char * toLowerCase(char * str){
     }
     return a;
 }
-```
-暂时还想不到更短的
+// ```
+// 暂时还想不到更短的

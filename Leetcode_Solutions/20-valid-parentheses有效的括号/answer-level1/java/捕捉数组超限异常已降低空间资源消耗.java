@@ -1,10 +1,10 @@
-### 解题思路
-从题解中了解到利用数组模拟栈空间并不需要将数组开到和String一样大，只需要开到s.length() / 2即可。
-这里没用JDK中的java.util.Stack是由于刚开始利用JDK提供的Stack发现时间消耗太大。
+// ### 解题思路
+// 从题解中了解到利用数组模拟栈空间并不需要将数组开到和String一样大，只需要开到s.length() / 2即可。
+// 这里没用JDK中的java.util.Stack是由于刚开始利用JDK提供的Stack发现时间消耗太大。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
         if(s == null) return true;
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

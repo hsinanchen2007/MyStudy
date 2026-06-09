@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findLength(A []int, B []int) int {
 	res:=0
 	dp:=make([][]int, len(A)+1)
@@ -23,4 +23,4 @@ func findLength(A []int, B []int) int {
 	}
 	return res
 }
-```
+// ```

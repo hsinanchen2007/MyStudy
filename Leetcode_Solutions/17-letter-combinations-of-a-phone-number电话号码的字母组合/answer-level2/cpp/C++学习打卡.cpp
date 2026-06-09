@@ -1,9 +1,9 @@
-### 解题思路
-用队列依次处理每个数字
+// ### 解题思路
+// 用队列依次处理每个数字
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
 	vector<vector<char>>trans = {
@@ -42,4 +42,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

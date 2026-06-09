@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var reverseString = function (s) {
     for(let i = 0; i < s.length; i++) {
         if (i >= Math.ceil(s.length / 2)) return s
@@ -22,5 +22,5 @@ console.log(reverseString(["h", "e", "l", "l", "o", "o", "o", "o"]))
  * 5. 每次保存前位与后位相对应的值
  * 6. 进行一次交换，依次循环，但是我们不能让他一直循环下去，得将循环次数卡到数组的一半长度，否则做无用功
  */
-```
+// ```
 

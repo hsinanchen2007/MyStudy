@@ -1,9 +1,9 @@
-### 解题思路
-修改carry判断为加法计算以后，减少循环的判断
+// ### 解题思路
+// 修改carry判断为加法计算以后，减少循环的判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

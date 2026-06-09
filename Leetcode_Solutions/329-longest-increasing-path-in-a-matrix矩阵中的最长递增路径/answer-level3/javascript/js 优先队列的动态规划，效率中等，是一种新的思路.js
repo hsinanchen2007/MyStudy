@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/ffe6569da930db42c2d0c3983e8fa58a588d00528d2824b11b262d5533b7eb04-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ffe6569da930db42c2d0c3983e8fa58a588d00528d2824b11b262d5533b7eb04-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   优先队列的动态规划：除了记忆化搜索还有动态规划之外，我还有另一种想法：不知可不可行：
   把矩阵的数字排序放到一个队列当中，从最小的开始分析，一直到矩阵中的所有数字分析完，
   分析的过程就是，看这个点的四周到自己的最长路径
   
   分析过程中，如果它四周的某个点还没有被分析过或者越界就跳过，分析过的话，就比较出四个方向
   路径最长的一条 + 1 更新为当前点的值
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number}
@@ -78,4 +78,4 @@ var longestIncreasingPath = function(matrix) {
   
   return maxLong;
 }
-```
+// ```

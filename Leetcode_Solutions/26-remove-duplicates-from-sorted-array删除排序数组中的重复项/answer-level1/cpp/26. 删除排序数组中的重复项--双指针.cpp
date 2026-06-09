@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :16 ms, 在所有 C++ 提交中击败了77.62%的用户
+// 执行用时 :16 ms, 在所有 C++ 提交中击败了77.62%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return i+1;
     }
 };
-```
+// ```

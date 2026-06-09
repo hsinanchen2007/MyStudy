@@ -1,13 +1,13 @@
 
 
 
-1、自己实现阻塞队列要选择一个容器，这就是数据结构，虽然队列也是数据结构，但是到根本都是数组或者链表，然后封装一些规则，这就是数据结构。
-2、由于阻塞队列是多线程调用，为了避免过大以及体现阻塞的作用，需要借助Reentranlock和condition来阻塞，对于入队的程序，如果还无法入队，就用一个循环将其阻塞，然后通过condition的改变去调用线程或者使线程等待
-    lock.newCondition()\condition.await()\condition.signal()
-3、对于size，我这里使用的是原子类，保证了原子性，其实使用volatile也可以，确保可见性即可，lock能够保证原子性。
-4、注意哪怕阻塞了，每一个线程都是先获得了锁，这就叫做可重入锁
+// 1、自己实现阻塞队列要选择一个容器，这就是数据结构，虽然队列也是数据结构，但是到根本都是数组或者链表，然后封装一些规则，这就是数据结构。
+// 2、由于阻塞队列是多线程调用，为了避免过大以及体现阻塞的作用，需要借助Reentranlock和condition来阻塞，对于入队的程序，如果还无法入队，就用一个循环将其阻塞，然后通过condition的改变去调用线程或者使线程等待
+//     lock.newCondition()\condition.await()\condition.signal()
+// 3、对于size，我这里使用的是原子类，保证了原子性，其实使用volatile也可以，确保可见性即可，lock能够保证原子性。
+// 4、注意哪怕阻塞了，每一个线程都是先获得了锁，这就叫做可重入锁
 
-```
+// ```
 import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
@@ -86,4 +86,4 @@ class BoundedBlockingQueue {
         }
     }
 }
-```
+// ```

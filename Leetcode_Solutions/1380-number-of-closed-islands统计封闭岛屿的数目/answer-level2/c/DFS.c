@@ -1,10 +1,10 @@
-### 解题思路
-1. 递归连通岛屿
-2. 不与边界连通的岛屿算作被包围的
+// ### 解题思路
+// 1. 递归连通岛屿
+// 2. 不与边界连通的岛屿算作被包围的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int dirx[] = {-1, 0, 1, 0};
 int diry[] = {0, -1, 0, 1};
 bool dfs(int **grid, int n, int m, int x, int y)
@@ -50,4 +50,4 @@ int closedIsland(int** grid, int gridSize, int* gridColSize){
     }
     return count;
 }
-```
+// ```

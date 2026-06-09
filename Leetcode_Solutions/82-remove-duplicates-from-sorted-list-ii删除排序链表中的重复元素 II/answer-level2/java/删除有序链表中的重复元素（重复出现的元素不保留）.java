@@ -1,9 +1,9 @@
-### 解题思路
-这道题目重点是只要重复出现过，则该值不会出现在最终的链表中，即头节点会改变。
+// ### 解题思路
+// 这道题目重点是只要重复出现过，则该值不会出现在最终的链表中，即头节点会改变。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return newHead.next;
     }
 }
-```
+// ```

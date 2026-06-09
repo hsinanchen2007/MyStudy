@@ -1,5 +1,5 @@
-因为我学KMP的时候，就真的理解了很久，这次贴出来希望对你有所帮助，欢迎交流。
-```
+// 因为我学KMP的时候，就真的理解了很久，这次贴出来希望对你有所帮助，欢迎交流。
+// ```
  public String longestPrefix(String s) {
         if(s.length() < 2) return "";
         char[] chars =  (s + s.charAt(s.length()-1)).toCharArray();
@@ -20,6 +20,6 @@
         }
         return s.substring(0, next[chars.length-1]);
     }
-```
-附上一张小图
-![next.png](https://pic.leetcode-cn.com/b199e2d60ec69807be46422154519e6105b3a942f9764a9cbed8d30817552cd8-next.png)
+// ```
+// 附上一张小图
+// ![next.png](https://pic.leetcode-cn.com/b199e2d60ec69807be46422154519e6105b3a942f9764a9cbed8d30817552cd8-next.png)

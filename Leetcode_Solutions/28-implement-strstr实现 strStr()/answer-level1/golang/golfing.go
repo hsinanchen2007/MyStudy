@@ -1,9 +1,9 @@
-### 解题思路
-...
+// ### 解题思路
+// ...
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func strStr(haystack string, needle string) int {
     lenH := len(haystack)
     lenN := len(needle)
@@ -29,4 +29,4 @@ func strStr(haystack string, needle string) int {
     }
     return -1
 }
-```
+// ```

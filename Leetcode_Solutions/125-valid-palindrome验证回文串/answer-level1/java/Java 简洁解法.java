@@ -1,7 +1,7 @@
-第一步：去除噪音，只保留相关字符
-第二部：收尾对比判断是否是回文
+// 第一步：去除噪音，只保留相关字符
+// 第二部：收尾对比判断是否是回文
 
-```
+// ```
 public boolean isPalindrome(String s) {
     if (s == null) return false;
 
@@ -24,4 +24,4 @@ public boolean isPalindrome(String s) {
     }
     return true;
 }
-```
+// ```

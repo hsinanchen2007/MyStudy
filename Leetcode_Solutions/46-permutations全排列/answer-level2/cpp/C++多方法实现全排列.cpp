@@ -1,5 +1,5 @@
-* 回溯添加法
-    ```
+// * 回溯添加法
+//     ```
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         vector<int> track;
@@ -21,10 +21,10 @@
             visited[i] = false; // 恢复已访问
         }
     }
-    ```
+//     ```
 	
-* 回溯添加法--优化(track判断是已存在否存在)
-    ```
+// * 回溯添加法--优化(track判断是已存在否存在)
+//     ```
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         vector<int> track;
@@ -43,11 +43,11 @@
             track.pop_back();
         }
     }
-	```
-![](https://pic.leetcode-cn.com/1ff07d3e625bd8acb39d82bf8cfc3a19069510c3316db5f264d9e3cc91c9f472-image.png)
+// 	```
+// ![](https://pic.leetcode-cn.com/1ff07d3e625bd8acb39d82bf8cfc3a19069510c3316db5f264d9e3cc91c9f472-image.png)
 
-* 回溯交换法
-    ```
+// * 回溯交换法
+//     ```
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         permute(nums,0,res);
@@ -64,9 +64,9 @@
             swap(nums[i],nums[start]); // 恢复位置
         }
     }
-    ```
-* 插入法
-    ```
+//     ```
+// * 插入法
+//     ```
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         if(nums.empty()) return {{}};
@@ -86,9 +86,9 @@
         }
         return res;
     }
-    ```
-* STL
-    ```
+//     ```
+// * STL
+//     ```
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         sort(nums.begin(),nums.end());
@@ -97,4 +97,4 @@
         }while(next_permutation(nums.begin(),nums.end()));
         return res;
     }
-    ```
+//     ```

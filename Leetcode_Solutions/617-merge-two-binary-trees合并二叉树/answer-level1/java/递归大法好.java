@@ -1,9 +1,9 @@
-### 解题思路
-递归三部曲（忘记哪一题的大佬总结的了）
+// ### 解题思路
+// 递归三部曲（忘记哪一题的大佬总结的了）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return t1;
     }
 }
-```
+// ```

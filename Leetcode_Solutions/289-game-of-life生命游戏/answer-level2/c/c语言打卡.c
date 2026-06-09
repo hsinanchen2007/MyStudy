@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     int i, j, k, l, r, c;
     for(i = 0;i < boardSize;i ++)
@@ -31,4 +31,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
                 else
                     board[i][j] = 1;
 }
-```
+// ```

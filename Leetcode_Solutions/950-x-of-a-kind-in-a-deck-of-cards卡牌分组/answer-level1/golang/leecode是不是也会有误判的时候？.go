@@ -1,10 +1,10 @@
-### 解题思路
-如果最后数字出现的结果为 6，4，30，33
-那么应该返回false才对啊，我这里返回的是true。结果还验证通过了
+// ### 解题思路
+// 如果最后数字出现的结果为 6，4，30，33
+// 那么应该返回false才对啊，我这里返回的是true。结果还验证通过了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
     obj := make(map[int]int)
 	if len(deck) <= 1 {
@@ -36,4 +36,4 @@ func gcd(a,b int) int {
 	}
 	return gcd(b, a % b)
 }
-```
+// ```

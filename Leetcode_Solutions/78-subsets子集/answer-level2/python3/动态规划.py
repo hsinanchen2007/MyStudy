@@ -1,8 +1,8 @@
-构建一个数组dp[]
-dp[0]就是指针第0个数的子集，显然就是它本身list[0]
-dp[i]就是dp[i-1]内所有的子集+（dp[i-1]内每个子集都append（list[i]））+[list[i]]
+# 构建一个数组dp[]
+# dp[0]就是指针第0个数的子集，显然就是它本身list[0]
+# dp[i]就是dp[i-1]内所有的子集+（dp[i-1]内每个子集都append（list[i]））+[list[i]]
 
-最后返回dp[len(list)-1]
+# 最后返回dp[len(list)-1]
 def subsets( nums):
     """
     :type nums: List[int]

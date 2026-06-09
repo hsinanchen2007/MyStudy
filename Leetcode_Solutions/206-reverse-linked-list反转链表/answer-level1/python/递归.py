@@ -1,9 +1,9 @@
-### 解题思路
-找到每一次停止的条件，即指针的next为null的情况。
+# ### 解题思路
+# 找到每一次停止的条件，即指针的next为null的情况。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 class ListNode(object):
      def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution(object):
         q.next = head.next
         head.next = self.reverseList(p)
         return head
-```
+# ```

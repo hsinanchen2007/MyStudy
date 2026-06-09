@@ -1,4 +1,4 @@
-```C
+// ```C
 int reverse(int x)
 {
     int a;
@@ -23,4 +23,4 @@ int reverse(int x)
 
 }
 
-```
+// ```

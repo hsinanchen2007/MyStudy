@@ -1,8 +1,8 @@
-这个题和[令牌放置](https://leetcode-cn.com/problems/bag-of-tokens/)类似。
+// 这个题和[令牌放置](https://leetcode-cn.com/problems/bag-of-tokens/)类似。
 
-贪心策略，先排序，再使用双指针。
+// 贪心策略，先排序，再使用双指针。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) {
@@ -30,9 +30,9 @@ public:
         return res;
     }
 };
-```
-稍微简化一下：
-```cpp
+// ```
+// 稍微简化一下：
+// ```cpp
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) {
@@ -53,4 +53,4 @@ public:
         return res;
     }
 };
-```
+// ```

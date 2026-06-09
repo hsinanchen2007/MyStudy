@@ -1,7 +1,7 @@
-思路：遍历，直接计算周围的8个单元和它本身的值求平均即可。
-<br/><br/>
-代码：
-```
+// 思路：遍历，直接计算周围的8个单元和它本身的值求平均即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     int row = 0;
     int col = 0;
@@ -46,6 +46,6 @@ class Solution {
         return sum / count;
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/06f6e2ecf2a8a2b525822d90f261a7d838b211d4a9f92de270feb187064d0766-image.png)
+// ![image.png](https://pic.leetcode-cn.com/06f6e2ecf2a8a2b525822d90f261a7d838b211d4a9f92de270feb187064d0766-image.png)

@@ -1,6 +1,6 @@
-- 方法一
-利用双指针。
-```c
+// - 方法一
+// 利用双指针。
+// ```c
 bool hasCycle(struct ListNode *head) {
     struct ListNode *fast_p=head,*slow_p=head;
     while(fast_p!=0&&fast_p->next!=0){
@@ -10,10 +10,10 @@ bool hasCycle(struct ListNode *head) {
     }
     return 0;
 }
-```
-- 方法二
-此方法较笨。
-```c
+// ```
+// - 方法二
+// 此方法较笨。
+// ```c
 bool hasCycle(struct ListNode *head) {
     struct ListNode *Addr[10000]={0};
     short i=0,j;
@@ -26,4 +26,4 @@ bool hasCycle(struct ListNode *head) {
     }
     return 0;
 }
-```
+// ```

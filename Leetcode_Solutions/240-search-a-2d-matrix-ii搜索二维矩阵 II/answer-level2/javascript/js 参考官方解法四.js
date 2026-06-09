@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/465a7336f19e92dfc8da8ff085a94e08d49caa81c19143e500c8d248ce54379e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/465a7336f19e92dfc8da8ff085a94e08d49caa81c19143e500c8d248ce54379e-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   参考官方题解四，太巧秒了，充分利用矩阵的特点
   
   从左下角开始搜索
@@ -11,11 +11,11 @@
   
   找到则返回 true，
   如果到越界都没找到，那么返回 false
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -47,4 +47,4 @@ var searchMatrix = function(matrix, target) {
   
   return ans;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @param {number[][]} pairs
@@ -57,4 +57,4 @@ var smallestStringWithSwaps = function(s, pairs) {
     }
   }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用一个二维数组tmp存储更新后的地图，计算完后，再把值赋给原board数组
+// ### 解题思路
+// 用一个二维数组tmp存储更新后的地图，计算完后，再把值赋给原board数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     if(*boardColSize==0)
     {
@@ -49,4 +49,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
     }
 
 }
-```
+// ```

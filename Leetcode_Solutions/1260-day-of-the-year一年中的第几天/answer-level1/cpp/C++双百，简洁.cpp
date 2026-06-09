@@ -1,9 +1,9 @@
-### 解题思路
-注意范围内的闰年除了1900外都是4的倍数，其他的没什么了
+// ### 解题思路
+// 注意范围内的闰年除了1900外都是4的倍数，其他的没什么了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dayOfYear(string date) {
@@ -13,4 +13,4 @@ public:
         return ans+day+(year%4==0&&year!=1900&&month>2);
     }
 };
-```
+// ```

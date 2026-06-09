@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def maxSubArray(nums: Array[Int]): Int = {
      var max_sum = nums(0)
@@ -16,4 +16,4 @@ object Solution {
     max_sum   
     }
 }
-```
+// ```

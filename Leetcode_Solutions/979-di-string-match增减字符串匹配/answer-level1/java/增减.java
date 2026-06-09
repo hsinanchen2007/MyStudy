@@ -1,9 +1,9 @@
-### 解题思路
-两个变量指向头尾
+// ### 解题思路
+// 两个变量指向头尾
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] diStringMatch(String S) {
        int min=0,max=S.length();
@@ -24,4 +24,4 @@ class Solution {
        return s; 
     }
 }
-```
+// ```

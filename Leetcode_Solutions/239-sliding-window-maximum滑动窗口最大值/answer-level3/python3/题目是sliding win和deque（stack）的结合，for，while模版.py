@@ -1,8 +1,8 @@
-### 解题思路
-题目是sliding win和deque（stack）的结合，for，while模版
-### 代码
+# ### 解题思路
+# 题目是sliding win和deque（stack）的结合，for，while模版
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
 
@@ -26,4 +26,4 @@ class Solution:
 
         return res     
 
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-转换为long类型进行判断是否越界的问题
+// ### 解题思路
+// 转换为long类型进行判断是否越界的问题
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public int myAtoi(String str) {
         // "  21213    "
@@ -55,5 +55,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

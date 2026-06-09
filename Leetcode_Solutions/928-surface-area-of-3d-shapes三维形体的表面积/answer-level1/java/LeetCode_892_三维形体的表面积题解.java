@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-首先计算i,j位置上的表面积（area = 6n - 2(n-1)），之后鉴权行列位置上重叠的面积即可。
+// 首先计算i,j位置上的表面积（area = 6n - 2(n-1)），之后鉴权行列位置上重叠的面积即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         int res = 0;
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

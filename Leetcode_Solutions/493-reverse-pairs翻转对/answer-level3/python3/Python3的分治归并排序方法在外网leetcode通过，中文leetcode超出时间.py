@@ -1,9 +1,9 @@
 
-1. 时间复杂度o(nlgn)
-2. 每次调用函数helper(nums,l,r),将nums[l:r+1]分成两部分
-3. 每个部分分别调用helper计算自身的重要翻转对数，两部分在调用函数的时候排序了两部分的数组
-4. 分治归并的时候要做两件事情：计算跨两部分的重要翻转对数；对两部分进行归并排序。
-```
+# 1. 时间复杂度o(nlgn)
+# 2. 每次调用函数helper(nums,l,r),将nums[l:r+1]分成两部分
+# 3. 每个部分分别调用helper计算自身的重要翻转对数，两部分在调用函数的时候排序了两部分的数组
+# 4. 分治归并的时候要做两件事情：计算跨两部分的重要翻转对数；对两部分进行归并排序。
+# ```
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         def helper(nums,l,r):
@@ -47,9 +47,9 @@ class Solution:
             return 0
         else:
             return helper(nums,0,len(nums)-1)
-```
-超时原因是每次归并排序要开新数组空间，而且append用了太多，用原生sorted反而有时候可以通过。有时候的意思是提交了四次通过了两次。。。
-```
+# ```
+# 超时原因是每次归并排序要开新数组空间，而且append用了太多，用原生sorted反而有时候可以通过。有时候的意思是提交了四次通过了两次。。。
+# ```
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         def helper(nums,l,r):
@@ -75,4 +75,4 @@ class Solution:
             return 0
         else:
             return helper(nums,0,len(nums)-1)
-```
+# ```

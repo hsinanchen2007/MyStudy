@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/54ee3b547fe53c9f2e2e3eeea889cec8049c9d38e5a7a2a8759ad33990b29e21-image.png)
+// ![image.png](https://pic.leetcode-cn.com/54ee3b547fe53c9f2e2e3eeea889cec8049c9d38e5a7a2a8759ad33990b29e21-image.png)
 
-```
+// ```
 class Solution {
     public String multiply(String num1, String num2) {
         String[] products;
@@ -75,4 +75,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

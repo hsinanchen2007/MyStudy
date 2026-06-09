@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，状态转移方程，注意大数，有点坑
+// ### 解题思路
+// 动态规划，状态转移方程，注意大数，有点坑
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func waysToStep(n int) int {
     if n == 0 {
         return 1
@@ -24,4 +24,4 @@ func waysToStep(n int) int {
     }
     return (a[n-1] + a[n-2] + a[n-3])%1000000007
 }
-```
+// ```

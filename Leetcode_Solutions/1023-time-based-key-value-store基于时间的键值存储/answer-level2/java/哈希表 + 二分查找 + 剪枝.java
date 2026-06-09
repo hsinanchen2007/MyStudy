@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public int findMin(int[] nums) {
         if (nums.length == 0) {
@@ -29,6 +29,6 @@ class Solution {
         throw new IllegalArgumentException("不存在该情况！");
     }
 }
-```
+// ```
 
-超时到想哭，后面剪枝，稍微好点
+// 超时到想哭，后面剪枝，稍微好点

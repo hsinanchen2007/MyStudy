@@ -1,12 +1,12 @@
-### 解题思路
-按照题目中的步骤来；
+# ### 解题思路
+# 按照题目中的步骤来；
 
-时间复杂度：`O(n**2)`
-空间复杂度: `O(1)`
+# 时间复杂度：`O(n**2)`
+# 空间复杂度: `O(1)`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
                     node.next = start.next
                     start.next = node
         return head
-```
+# ```

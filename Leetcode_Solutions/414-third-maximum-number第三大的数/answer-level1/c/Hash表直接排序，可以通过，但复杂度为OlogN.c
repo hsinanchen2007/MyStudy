@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-复杂度可能不满足要求。
+// 复杂度可能不满足要求。
 
-```c
+// ```c
 
 typedef struct _my_struct {
     long id;                    
@@ -63,4 +63,4 @@ HASH_ITER(hh, g_hash, current_user, tmpuseless) {
 }
 return value;
 }
-```
+// ```

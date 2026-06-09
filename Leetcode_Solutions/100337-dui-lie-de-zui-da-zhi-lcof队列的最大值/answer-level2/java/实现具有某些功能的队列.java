@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-需要一个队列保存所有元素，而为了再求最大值时，避免每次遍历整个队列，所以还可以再使用一个辅助队列用来保存最大值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 需要一个队列保存所有元素，而为了再求最大值时，避免每次遍历整个队列，所以还可以再使用一个辅助队列用来保存最大值
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     private Deque<Integer> queue;
     private Deque<Integer> help;
@@ -44,4 +44,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

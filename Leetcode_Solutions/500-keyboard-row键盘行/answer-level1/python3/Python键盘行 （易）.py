@@ -1,8 +1,8 @@
-## 效率不咋地
+# ## 效率不咋地
 
-![深度截图_选择区域_20190612223515.png](https://pic.leetcode-cn.com/7f7abd16bfc61669f2d94bcbc1b45c2ed6a25229bd5398c89b84f4da1709e673-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20190612223515.png)
+# ![深度截图_选择区域_20190612223515.png](https://pic.leetcode-cn.com/7f7abd16bfc61669f2d94bcbc1b45c2ed6a25229bd5398c89b84f4da1709e673-%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20190612223515.png)
 
-```
+# ```
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
         line1='qwertyuiop'
@@ -53,5 +53,5 @@ class Solution:
                 
             
        
-```
+# ```
 

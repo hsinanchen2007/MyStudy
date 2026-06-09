@@ -1,6 +1,6 @@
-思路：暴力解题，外加trick，用maxInd记录遍历过的最大元素的索引，避免重复遍历查询。
-各位大神，看看有么有能继续优化的地方，希望能达到双百~~
-```
+// 思路：暴力解题，外加trick，用maxInd记录遍历过的最大元素的索引，避免重复遍历查询。
+// 各位大神，看看有么有能继续优化的地方，希望能达到双百~~
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int len = nums.length;
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

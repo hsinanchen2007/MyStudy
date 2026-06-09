@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/3607b44b3a1944281090d0d9b6d19c26f55dd0d4648b30bed381c9bfcfcf2525-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/3607b44b3a1944281090d0d9b6d19c26f55dd0d4648b30bed381c9bfcfcf2525-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpace(char* s)
 {
     int i = 0;
@@ -38,4 +38,4 @@ char* replaceSpace(char* s)
     }
     return s;
 }
-```
+// ```

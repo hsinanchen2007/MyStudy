@@ -1,9 +1,9 @@
-### 解题思路
-将链表后半部分逆置，然后前半部分与后半部分一一对比
+// ### 解题思路
+// 将链表后半部分逆置，然后前半部分与后半部分一一对比
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ bool isPalindrome(struct ListNode* head) {
 	return 0;
 
 }
-```
+// ```

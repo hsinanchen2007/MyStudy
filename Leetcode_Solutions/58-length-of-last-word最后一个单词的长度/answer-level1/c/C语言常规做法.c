@@ -1,4 +1,4 @@
-```c
+// ```c
 int lengthOfLastWord(char * s){
     short i=0,count=0;
     while(s[i]!=0) i++;
@@ -15,4 +15,4 @@ int lengthOfLastWord(char * s){
     }
     return count;
 }
-```
+// ```

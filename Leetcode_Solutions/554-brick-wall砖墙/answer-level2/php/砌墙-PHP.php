@@ -1,5 +1,5 @@
-我不想多说。。。。。。。。。。。看代码吧。
-```
+// 我不想多说。。。。。。。。。。。看代码吧。
+// ```
 class Solution
 {
 
@@ -24,5 +24,5 @@ class Solution
         return count($wall) - @max($dp);
     }
 }
-```
+// ```
 

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/8a76fba2c8b1a1e08a7d8f41d7919c20c7fbf9fc5ed1df1b6ea93138df0e8bbd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8a76fba2c8b1a1e08a7d8f41d7919c20c7fbf9fc5ed1df1b6ea93138df0e8bbd-image.png)
 
-# 方法一：调用31题函数
-```
+// # 方法一：调用31题函数
+// ```
 void nextPermutation(vector<int>& nums) {//31题函数
     int i = nums.size() - 2;
     while (i >= 0 && nums[i] >= nums[i + 1]) i--;
@@ -20,10 +20,10 @@ string getPermutation(int n, int k) {
     for (int i = 0; i < ivec.size(); i++) ans.push_back(ivec[i] + '0');
     return ans;
 }
-```
+// ```
 
-# 方法二：DFS + 回溯
-```
+// # 方法二：DFS + 回溯
+// ```
 void backtrack(vector<int>&nums, int i,int& k) {//k:距离目标还剩几个情况  
     if (i == nums.size())
         if (k-- == 0)
@@ -46,10 +46,10 @@ string getPermutation(int n, int k) {
     for (int i = 0; i < ivec.size(); i++) ans.push_back(ivec[i] + '0');
     return ans;
 }
-```
+// ```
 
-# 方法三：DFS + 回溯 + 剪枝
-```
+// # 方法三：DFS + 回溯 + 剪枝
+// ```
 vector<int>factorial{ 1,1,2,6,24,120,720,5040,40320,362880 }; //阶乘字典
 void backtrack(vector<int>&nums, int i, int& k) {	//k:距离目标还剩几个 
     if (i == nums.size())
@@ -77,4 +77,4 @@ string getPermutation(int n, int k) {
     for (int i = 0; i < ivec.size(); i++) ans.push_back(ivec[i] + '0');
     return ans;
 }
-```
+// ```

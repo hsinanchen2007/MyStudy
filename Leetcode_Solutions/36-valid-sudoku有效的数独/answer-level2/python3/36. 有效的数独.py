@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度O(n^3)，在这个固定的数独里n是9。
+# ### 解题思路
+# 时间复杂度O(n^3)，在这个固定的数独里n是9。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 
 class Solution:
@@ -32,4 +32,4 @@ class Solution:
                     return False
         return True
 
-```
+# ```

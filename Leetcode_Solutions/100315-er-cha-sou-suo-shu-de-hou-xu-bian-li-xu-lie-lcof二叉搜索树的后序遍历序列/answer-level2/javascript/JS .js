@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var verifyPostorder = function(postorder) {
     if(postorder == null || postorder.length < 1) return true;
     return judge(postorder, 0, postorder.length - 1)
@@ -23,4 +23,4 @@ const judge = (postorder, left, right) => {
     }
     return judge(postorder, left, index - 1) && judge(postorder, index, right - 1)
 }
-```
+// ```

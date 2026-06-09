@@ -1,5 +1,5 @@
-![截图.PNG](https://pic.leetcode-cn.com/09330f1bede828dd5fd4788255eea45a25992f705f1d9d6fec447e04b7522350-%E6%88%AA%E5%9B%BE.PNG)
-```
+// ![截图.PNG](https://pic.leetcode-cn.com/09330f1bede828dd5fd4788255eea45a25992f705f1d9d6fec447e04b7522350-%E6%88%AA%E5%9B%BE.PNG)
+// ```
 class Solution {
 public:
     bool isPerfectSquare(long long num)
@@ -21,5 +21,5 @@ public:
         return false;
     }
 };
-```
+// ```
 

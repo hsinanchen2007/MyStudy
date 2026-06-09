@@ -1,6 +1,6 @@
-从后往前计算，每一步之前先将分数倒转。
+// 从后往前计算，每一步之前先将分数倒转。
 
-```
+// ```
 class Solution {
     public int[] fraction(int[] cont) {
         if (cont == null || cont.length == 0) {
@@ -27,4 +27,4 @@ class Solution {
         nums[b] = tem;
     }
 }
-```
+// ```

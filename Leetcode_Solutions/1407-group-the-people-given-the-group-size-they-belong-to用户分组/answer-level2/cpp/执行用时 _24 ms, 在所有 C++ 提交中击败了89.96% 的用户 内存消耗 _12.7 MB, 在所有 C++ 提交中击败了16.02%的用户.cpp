@@ -1,9 +1,9 @@
-### 解题思路
-首先排序，然后得到groupsize的array，类似[1,3,3]这样，然后再计数并插入
+// ### 解题思路
+// 首先排序，然后得到groupsize的array，类似[1,3,3]这样，然后再计数并插入
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
@@ -59,4 +59,4 @@ public:
         return res;
     }
 };
-```
+// ```

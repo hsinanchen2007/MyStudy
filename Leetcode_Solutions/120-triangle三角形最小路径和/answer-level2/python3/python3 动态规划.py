@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         # 实际中m=n
@@ -17,5 +17,5 @@ class Solution:
                     dp[j]=min(dp[j],dp[j-1]) + triangle[i][j]
 
         return min(dp)
-```
+# ```
 

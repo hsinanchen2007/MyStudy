@@ -1,9 +1,9 @@
-### 解题思路
-思路比较直接，也比较好理解
+// ### 解题思路
+// 思路比较直接，也比较好理解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int search(int[] nums, int target) {
         int left = 0;
@@ -34,4 +34,4 @@ class Solution {
 
 
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-比较容易理解,遍历然后record.
-### 代码
+// ### 解题思路
+// 比较容易理解,遍历然后record.
+// ### 代码
 
-```java
+// ```java
 /*
  * Copyright (c) 2020
  * @Author:xiaoweixiang
@@ -38,4 +38,4 @@ public class Solution {
     }
 }
 
-```
+// ```

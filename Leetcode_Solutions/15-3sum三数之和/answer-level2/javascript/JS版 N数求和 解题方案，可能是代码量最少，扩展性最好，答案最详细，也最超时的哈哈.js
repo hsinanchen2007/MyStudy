@@ -1,6 +1,6 @@
 
-# N数求和
-```js
+// # N数求和
+// ```js
 function nSum(nums, sum, n) {
     var len = nums.length;
     if (len === 0) return [];
@@ -71,4 +71,4 @@ var sum = 0;
 var n = 3;
 var res = nSum(nums, sum, n);
 console.log(JSON.stringify(res));
-```
+// ```

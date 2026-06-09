@@ -1,5 +1,5 @@
-思路：将二维数组看成是一维数组，再进行二分查找
-```
+// 思路：将二维数组看成是一维数组，再进行二分查找
+// ```
 function searchMatrix($matrix, $target) {
     $depth = count($matrix);
     if($depth==0) return false;
@@ -20,4 +20,4 @@ function searchMatrix($matrix, $target) {
     }
     return false;
 }
-```
+// ```

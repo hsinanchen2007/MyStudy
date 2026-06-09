@@ -1,7 +1,7 @@
-### 解题思路
-从数组求和找到这来, 第一反应从二叉树取值下来双指针
+# ### 解题思路
+# 从数组求和找到这来, 第一反应从二叉树取值下来双指针
 
-```python
+# ```python
 class Solution(object):
     def findTarget(self, root, k):
         """
@@ -32,17 +32,17 @@ class Solution(object):
         if root.right:
             self.findAll(root.right, res)
         return res
-```
-**findAll**也可以这么写, 稍慢一点
-```python
+# ```
+# **findAll**也可以这么写, 稍慢一点
+# ```python
 def findAll(self, root):
         if not root:
             return []
         return self.findAll(root.left)+[root.val]+self.findAll(root.right)
-```
-直接在树上哈希
+# ```
+# 直接在树上哈希
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -67,4 +67,4 @@ class Solution(object):
         else:
             dic[root.val] = 1
         return self.findAll(root.left, dic, k) or self.findAll(root.right, dic, k)
-```
+# ```

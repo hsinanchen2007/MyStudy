@@ -1,5 +1,5 @@
-1.暴力法
-```
+// 1.暴力法
+// ```
 var containsDuplicate = function(nums) {
     if(nums.length <= 1){
         return false;
@@ -13,9 +13,9 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
-2.排序法
-```
+// ```
+// 2.排序法
+// ```
 var containsDuplicate = function(nums) {
     if(nums.length <= 1){
         return false;
@@ -28,4 +28,4 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -16,4 +16,4 @@ var reverse = function(x) {
     let num = x.toString().split('').reverse().join('');
     return num>min?0:(re?-Number(num):Number(num))
 };
-```
+// ```

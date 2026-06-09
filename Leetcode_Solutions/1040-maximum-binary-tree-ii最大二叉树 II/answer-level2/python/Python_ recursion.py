@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def insertIntoMaxTree(self, root: TreeNode, val: int) -> TreeNode:
         if not root: return TreeNode(val)
@@ -10,4 +10,4 @@ class Solution:
             return node
         root.right = self.insertIntoMaxTree(root.right, val)
         return root
-```
+# ```

@@ -1,14 +1,14 @@
-### 解题思路
-定义一个int类型的变量flag
-分三种情况讨论：
-1.S[i-1]和S[i]相同且为'('时，flag++。
-2.S[i-1]和S[i]相同且为')'时，flag--。
-3.S[i-1]和S[i]不同时，flag不变。
-最后判断flag是否不为0，不为0的时候，s+=S[i]；
+// ### 解题思路
+// 定义一个int类型的变量flag
+// 分三种情况讨论：
+// 1.S[i-1]和S[i]相同且为'('时，flag++。
+// 2.S[i-1]和S[i]相同且为')'时，flag--。
+// 3.S[i-1]和S[i]不同时，flag不变。
+// 最后判断flag是否不为0，不为0的时候，s+=S[i]；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -31,4 +31,4 @@ public:
         return s;
     }
 };
-```
+// ```

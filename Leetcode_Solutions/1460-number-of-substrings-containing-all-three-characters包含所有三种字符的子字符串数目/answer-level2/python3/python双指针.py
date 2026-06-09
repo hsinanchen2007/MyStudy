@@ -1,9 +1,9 @@
-### 解题思路
-双指针，右指针前进到abc齐全为止，中间记录每个字母最后一次出现的位置，左指针更新为其中最小的一个。
+# ### 解题思路
+# 双指针，右指针前进到abc齐全为止，中间记录每个字母最后一次出现的位置，左指针更新为其中最小的一个。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
         n, cnt, left = len(s), 0, 0
@@ -29,4 +29,4 @@ class Solution:
                 
                 
         
-```
+# ```

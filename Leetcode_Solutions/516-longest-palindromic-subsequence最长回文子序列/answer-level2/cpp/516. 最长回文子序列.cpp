@@ -1,9 +1,9 @@
-### 解题思路
-看注释吧
+// ### 解题思路
+// 看注释吧
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindromeSubseq(string s) {
@@ -39,4 +39,4 @@ public:
         return dp[0][n - 1];
     }
 };
-```
+// ```

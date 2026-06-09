@@ -1,6 +1,6 @@
-Not exactly optimized as you can probably figure out if a node is on right boundary during the first traversal.
+# Not exactly optimized as you can probably figure out if a node is on right boundary during the first traversal.
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -59,5 +59,5 @@ class Solution:
         return result + right_boundry
 
 
-```
-![Screen Shot 2020-01-10 at 16.42.56.png](https://pic.leetcode-cn.com/43ea8a7b61af283139fa74feead3b3a7949bb4fac7f1a215d10e0b38d2202be8-Screen%20Shot%202020-01-10%20at%2016.42.56.png)
+# ```
+# ![Screen Shot 2020-01-10 at 16.42.56.png](https://pic.leetcode-cn.com/43ea8a7b61af283139fa74feead3b3a7949bb4fac7f1a215d10e0b38d2202be8-Screen%20Shot%202020-01-10%20at%2016.42.56.png)

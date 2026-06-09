@@ -1,9 +1,9 @@
-### 解题思路
-不整那么复杂，首先左右节点对换一下，然后递归各自子节点进行对调
+# ### 解题思路
+# 不整那么复杂，首先左右节点对换一下，然后递归各自子节点进行对调
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
         self.invertTree(root.right)
         return root
 
-```
+# ```

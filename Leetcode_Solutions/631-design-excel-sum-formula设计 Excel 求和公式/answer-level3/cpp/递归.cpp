@@ -1,5 +1,5 @@
-1. 题目本身不难，关键点在于set操作时，需要对涉及到的sum关系进行更新，这时需要递归才行。
-```
+// 1. 题目本身不难，关键点在于set操作时，需要对涉及到的sum关系进行更新，这时需要递归才行。
+// ```
 class Excel {
 public:
     vector<vector<int>> parse(string str){
@@ -125,4 +125,4 @@ private:
  * int param_2 = obj->get(r,c);
  * int param_3 = obj->sum(r,c,strs);
  */
-```
+// ```

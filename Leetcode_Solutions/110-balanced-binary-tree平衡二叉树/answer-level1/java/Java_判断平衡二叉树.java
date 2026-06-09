@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先判断root是否为空，空则返回true
-2. 计算root的左子树与右子树的高差，高差应该小于等于1，否则不是平衡二叉树
-3. 最后再判断左子树和右子树
+// ### 解题思路
+// 1. 首先判断root是否为空，空则返回true
+// 2. 计算root的左子树与右子树的高差，高差应该小于等于1，否则不是平衡二叉树
+// 3. 最后再判断左子树和右子树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return 1+Math.max(left,right);
     }
 }
-```
+// ```

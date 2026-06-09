@@ -1,4 +1,4 @@
-```sql
+-- ```sql
 select
     o.id,
     case
@@ -7,4 +7,4 @@ select
         else 'Inner'
     end as Type
 from tree o
-```
+-- ```

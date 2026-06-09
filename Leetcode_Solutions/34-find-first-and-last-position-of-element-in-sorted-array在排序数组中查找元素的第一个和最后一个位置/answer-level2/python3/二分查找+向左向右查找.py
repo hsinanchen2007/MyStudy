@@ -1,9 +1,9 @@
-### 解题思路
-二分查找，找到后，然后向左向右进行查找，然后返回index
+# ### 解题思路
+# 二分查找，找到后，然后向左向右进行查找，然后返回index
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums, target: int):
         def b_search(list_nums,frist,end,target1):
@@ -44,4 +44,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool isIsomorphic(char* s, char* t)
 {
     int slen = strlen(s);
@@ -23,6 +23,6 @@ bool isIsomorphic(char* s, char* t)
     }
     return true;
 }
-```
+// ```
 
-建立两个表，只要两个字母的对应是双射（一一对应），就可以判断同构，反之不同构。
+// 建立两个表，只要两个字母的对应是双射（一一对应），就可以判断同构，反之不同构。

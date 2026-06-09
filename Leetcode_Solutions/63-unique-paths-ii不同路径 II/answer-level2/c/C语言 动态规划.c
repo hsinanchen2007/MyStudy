@@ -1,6 +1,6 @@
-动态规划4步法
+// 动态规划4步法
 
-```
+// ```
 #define IF_CONDITION_RETURN(condition, retCode) \
     do {                       \
         if ((condition)) {       \
@@ -46,4 +46,4 @@ int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obst
     }
     return dp[obstacleGridSize - 1][obstacleGridColSize[0] - 1];
 }
-```
+// ```

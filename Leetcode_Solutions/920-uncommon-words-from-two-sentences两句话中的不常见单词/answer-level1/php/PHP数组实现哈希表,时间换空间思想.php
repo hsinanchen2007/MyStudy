@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/1bc91c593541d93c621db610a8b1e895146b10d798f32aa789ee91980f31c915-image.png)
-生成hash表后,再遍历hash表,空间复杂度O(1),时间复杂度O(2(m+n))
-```
+// ![image.png](https://pic.leetcode-cn.com/1bc91c593541d93c621db610a8b1e895146b10d798f32aa789ee91980f31c915-image.png)
+// 生成hash表后,再遍历hash表,空间复杂度O(1),时间复杂度O(2(m+n))
+// ```
 class Solution {
 
     /**
@@ -39,4 +39,4 @@ class Solution {
         return $out;
     }
 }
-```
+// ```

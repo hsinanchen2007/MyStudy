@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Node:
     def __init__(self, key, val):
         self.pre = None
@@ -91,4 +91,4 @@ class LFUCache:
 # param_1 = obj.get(key)
 # obj.put(key,value)
 
-```
+# ```

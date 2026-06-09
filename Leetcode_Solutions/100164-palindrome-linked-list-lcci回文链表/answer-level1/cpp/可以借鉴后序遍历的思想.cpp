@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isOK = true;
@@ -16,4 +16,4 @@ public:
         return isOK;
     }
 };
-```
+// ```

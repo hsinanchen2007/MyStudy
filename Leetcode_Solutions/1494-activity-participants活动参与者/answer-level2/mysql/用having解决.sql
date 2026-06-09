@@ -1,4 +1,4 @@
-```
+-- ```
 # Write your MySQL query statement below
 select activity
 from Friends
@@ -19,4 +19,4 @@ from
     group by activity
     ) tmp
 )
-```
+-- ```

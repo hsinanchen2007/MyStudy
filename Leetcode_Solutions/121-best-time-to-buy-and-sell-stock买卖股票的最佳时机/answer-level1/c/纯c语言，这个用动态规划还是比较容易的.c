@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //动态数据归划
 
 int maxProfit(int* prices, int pricesSize)
@@ -26,4 +26,4 @@ for(i=1;i<pricesSize;i++)
     }
 return maxnums;
 }
-```
+// ```

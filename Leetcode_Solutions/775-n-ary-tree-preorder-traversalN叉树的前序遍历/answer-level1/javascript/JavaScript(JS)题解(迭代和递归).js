@@ -1,9 +1,9 @@
-### 解题思路
-和二叉树前序遍历方法一样。注意点：迭代法利用栈先进后出，需要反着遍历。
+// ### 解题思路
+// 和二叉树前序遍历方法一样。注意点：迭代法利用栈先进后出，需要反着遍历。
 
-### 代码
-**迭代**
-```javascript
+// ### 代码
+// **迭代**
+// ```javascript
 var preorder = function (root) {
     if (!root) return []
     let stack = [root];
@@ -19,10 +19,10 @@ var preorder = function (root) {
     }
     return arr
 };
-```
-**递归**
+// ```
+// **递归**
 
-```javascript
+// ```javascript
 var preorder = function (root) {
     if (!root) return []
     let arr = [];
@@ -36,4 +36,4 @@ var preorder = function (root) {
     recursion(root, arr);
     return arr
 };
-```
+// ```

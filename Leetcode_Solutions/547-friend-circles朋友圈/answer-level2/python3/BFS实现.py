@@ -1,6 +1,6 @@
-[DFS实现](https://leetcode-cn.com/problems/friend-circles/solution/dfs-by-matrix95/)
-以下是BFS实现：
-```
+# [DFS实现](https://leetcode-cn.com/problems/friend-circles/solution/dfs-by-matrix95/)
+# 以下是BFS实现：
+# ```
 class Solution:
     def findCircleNum(self, M):
 
@@ -25,4 +25,4 @@ class Solution:
                 ans += 1
         return ans
 
-```
+# ```

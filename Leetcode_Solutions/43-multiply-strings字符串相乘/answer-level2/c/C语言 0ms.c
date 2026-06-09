@@ -1,9 +1,9 @@
-### 解题思路
-细心一些就好了
+// ### 解题思路
+// 细心一些就好了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * multiply(char * num1, char * num2)
 {
     int len1 = strlen(num1), len2 = strlen(num2);
@@ -35,4 +35,4 @@ char * multiply(char * num1, char * num2)
     else ans += k;
     return ans;
 }
-```
+// ```

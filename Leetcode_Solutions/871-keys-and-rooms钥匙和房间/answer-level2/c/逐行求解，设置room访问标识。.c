@@ -1,9 +1,9 @@
-### 解题思路
-递归方法求解。
+// ### 解题思路
+// 递归方法求解。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void dfs(int** rooms,int room, int roomsSize, int* roomsColSize, int *visit){
 
@@ -52,4 +52,4 @@ bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize){
   return true;
 
 }
-```
+// ```

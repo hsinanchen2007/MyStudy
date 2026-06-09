@@ -1,4 +1,4 @@
-```
+# ```
 from threading import Lock
 class ZeroEvenOdd:
     def __init__(self, n):
@@ -37,5 +37,5 @@ class ZeroEvenOdd:
             self.lodd.acquire()
             printNumber(self.num)
             self.lzero.release()
-```
+# ```
 

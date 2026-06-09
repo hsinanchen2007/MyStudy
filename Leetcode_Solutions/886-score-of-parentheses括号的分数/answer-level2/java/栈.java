@@ -1,13 +1,13 @@
-### 解题思路
-java初学记录笔记
+// ### 解题思路
+// java初学记录笔记
 
-遍历字符串 
-遇到左括号入栈0
-右括号则出栈判断前一个数
-选择push 1 或者push *2后和前个数的加和
-### 代码
+// 遍历字符串 
+// 遇到左括号入栈0
+// 右括号则出栈判断前一个数
+// 选择push 1 或者push *2后和前个数的加和
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int scoreOfParentheses(String S) {
 
@@ -48,4 +48,4 @@ class Solution {
 		return stack.pop();
     }
 }
-```
+// ```

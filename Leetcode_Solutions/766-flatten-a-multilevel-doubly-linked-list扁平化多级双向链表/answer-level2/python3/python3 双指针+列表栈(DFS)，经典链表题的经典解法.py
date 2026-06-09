@@ -1,9 +1,9 @@
-在[python3 更简洁易懂高效的代码 + 更简单粗暴的解法](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/python3-geng-jian-ji-yi-dong-gao-xiao-de-dai-ma-ge/)中，我们总结了链表类题目的2种解题工具：
-**指针和列表**
+# 在[python3 更简洁易懂高效的代码 + 更简单粗暴的解法](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/python3-geng-jian-ji-yi-dong-gao-xiao-de-dai-ma-ge/)中，我们总结了链表类题目的2种解题工具：
+# **指针和列表**
 
-### 方法1：列表模拟DFS
-看示例的输入输出，明显是DFS，二叉树的中序遍历。当然是用列表表示栈来模拟DFS过程了  
-```
+# ### 方法1：列表模拟DFS
+# 看示例的输入输出，明显是DFS，二叉树的中序遍历。当然是用列表表示栈来模拟DFS过程了  
+# ```
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
         p = rst = Node(None,None,None,None) ## 初始化结果链表及其指针
@@ -16,17 +16,17 @@ class Solution:
             p, p.prev, p.child = p.next, p, None ## 设定节点属性        
         if rst.next: rst.next.prev = None ## rst.next的prev属性要设为None
         return rst.next
-```
-思路简单，执行效果如下：
-执行用时 :1128 ms, 在所有 python3 提交中击败了77.59%的用户  
-内存消耗 :335.8 MB, 在所有 python3 提交中击败了5.88%的用户  
+# ```
+# 思路简单，执行效果如下：
+# 执行用时 :1128 ms, 在所有 python3 提交中击败了77.59%的用户  
+# 内存消耗 :335.8 MB, 在所有 python3 提交中击败了5.88%的用户  
 
-不是特别好，那试试全指针无列表的方法：
+# 不是特别好，那试试全指针无列表的方法：
 
-### 方法2：双指针
-也可以勉强理解为快慢双指针，快指针用来遇到child节点时遍历child节点，慢指针用来遍历主线节点：
+# ### 方法2：双指针
+# 也可以勉强理解为快慢双指针，快指针用来遇到child节点时遍历child节点，慢指针用来遍历主线节点：
 
-```
+# ```
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
         p=head
@@ -40,15 +40,15 @@ class Solution:
                 p.next, p.child = p.child, None ## 设定主线的next为主线的child
             p = p.next
         return head
-```
-这样的双指针思路有点绕，效果差不多吧：
-执行用时 :1104 ms, 在所有 python3 提交中击败了81.98%的用户
-内存消耗 :335.7 MB, 在所有 python3 提交中击败了5.88%的用户 
+# ```
+# 这样的双指针思路有点绕，效果差不多吧：
+# 执行用时 :1104 ms, 在所有 python3 提交中击败了81.98%的用户
+# 内存消耗 :335.7 MB, 在所有 python3 提交中击败了5.88%的用户 
 
-但有没有更好的办法？既然用了栈，能否不用指针，栈顶pop哪个我就修改哪个，应该更快！
+# 但有没有更好的办法？既然用了栈，能否不用指针，栈顶pop哪个我就修改哪个，应该更快！
 
-### 方法3：纯用栈模拟DFS不用指针
-```
+# ### 方法3：纯用栈模拟DFS不用指针
+# ```
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
         visited = head and [head]
@@ -63,9 +63,9 @@ class Solution:
                 vertex.next, vertex.next.prev = vertex.child, vertex
                 vertex.child = None
         return head
-```
-执行效果如下：
-执行用时 :1060  ms, 在所有 python3 提交中击败了91.95%的用户
-内存消耗 :335.9 MB, 在所有 python3 提交中击败了5.88%的用户 
+# ```
+# 执行效果如下：
+# 执行用时 :1060  ms, 在所有 python3 提交中击败了91.95%的用户
+# 内存消耗 :335.9 MB, 在所有 python3 提交中击败了5.88%的用户 
 
-提升还是很明显的！
+# 提升还是很明显的！

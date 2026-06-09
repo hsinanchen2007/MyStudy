@@ -1,11 +1,11 @@
-### 解题思路
-最近重學遞迴，結果看題第一時間想到的都是遞迴解...
-看題解才發現自己多智障...
-但速度還是100%
+// ### 解题思路
+// 最近重學遞迴，結果看題第一時間想到的都是遞迴解...
+// 看題解才發現自己多智障...
+// 但速度還是100%
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int TitleToNumber(string s) {
         if(s.Length==0) return 0;
@@ -23,4 +23,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-既然 [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) 中使用单调栈能求出一维数组中的最大矩形，那么我们将二维数组转化为一维数组：
+// ### 解题思路
+// 既然 [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) 中使用单调栈能求出一维数组中的最大矩形，那么我们将二维数组转化为一维数组：
 
-用 dp[i] 表示从当前位置开始，该列向上的最多连续的 '1' 的个数。
+// 用 dp[i] 表示从当前位置开始，该列向上的最多连续的 '1' 的个数。
 
-对于每一行，使用动态规划求出该行的 dp，再求解该行的 maxArea 并更新结果。
+// 对于每一行，使用动态规划求出该行的 dp，再求解该行的 maxArea 并更新结果。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} matrix
  * @return {number}
@@ -42,8 +42,8 @@ var maximalRectangle = function(matrix) {
     }
     return res;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(MN)
-- 空间复杂度 O(M)
+// ### 复杂度
+// - 时间复杂度 O(MN)
+// - 空间复杂度 O(M)

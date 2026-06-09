@@ -1,6 +1,6 @@
-用线段树水过去了,不知道大佬们肿么写的
+// 用线段树水过去了,不知道大佬们肿么写的
 
-```
+// ```
 #define ll long long int
 #define MAXN ((int)40005)
 ll tree[MAXN<<2], pn; //pn是当前有多少个数字
@@ -62,4 +62,4 @@ public:
  * int param_2 = obj->getProduct(k);
  */
 
-```
+// ```

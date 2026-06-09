@@ -1,11 +1,11 @@
-## 思路：
-> 提供BFS\DFS两种方式，DFS写法根据题目要求，提示以及形参、实参之间的效率做了下简单的优化。
-> 执行用时：16 ms(从超时到100%(总算优化起了点作用))
-> 内存消耗：15.2 MB (100%)
+// ## 思路：
+// > 提供BFS\DFS两种方式，DFS写法根据题目要求，提示以及形参、实参之间的效率做了下简单的优化。
+// > 执行用时：16 ms(从超时到100%(总算优化起了点作用))
+// > 内存消耗：15.2 MB (100%)
 
-#### 第一种DFS解法
-__PHP Code__
-```php
+// #### 第一种DFS解法
+// __PHP Code__
+// ```php
 class Solution {
 
     /**
@@ -51,13 +51,13 @@ class Solution {
         return intval($x / 10) + $x % 10 + intval($y / 10) + $y % 10;
     }
 }
-```
+// ```
 
->更新附上使用PHP SPL队列实现真的BFS写法
+// >更新附上使用PHP SPL队列实现真的BFS写法
 
-#### 第二种BFS解法
-**PHP Code**
-```php
+// #### 第二种BFS解法
+// **PHP Code**
+// ```php
 class Solution {
 
     /**
@@ -93,4 +93,4 @@ class Solution {
         return intval($x / 10) + $x % 10 + intval($y / 10) + $y % 10;
     }
 }
-```
+// ```

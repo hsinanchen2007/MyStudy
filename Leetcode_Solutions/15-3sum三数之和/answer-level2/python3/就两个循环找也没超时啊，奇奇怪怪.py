@@ -1,5 +1,5 @@
-就两个循环找也没超时啊，奇奇怪怪，set去重。
-```
+# 就两个循环找也没超时啊，奇奇怪怪，set去重。
+# ```
 class Solution:
     def threeSum(self, nums: list):
         result = set()
@@ -26,4 +26,4 @@ class Solution:
         for _ in result:
             result_list.append(list(_))
         return result_list
-```
+# ```

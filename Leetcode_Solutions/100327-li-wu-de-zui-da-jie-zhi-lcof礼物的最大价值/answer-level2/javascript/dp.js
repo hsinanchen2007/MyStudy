@@ -1,9 +1,9 @@
-### 解题思路
-每一行 每一列那样获得dp
+// ### 解题思路
+// 每一行 每一列那样获得dp
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -36,4 +36,4 @@ var maxValue = function(grid) {
     // console.log(dp)
     return dp[grid.length - 1][grid[0].length - 1]
 };
-```
+// ```

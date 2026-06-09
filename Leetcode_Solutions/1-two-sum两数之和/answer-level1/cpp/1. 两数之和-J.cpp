@@ -1,10 +1,10 @@
-### 题目描述
-![image.png](https://pic.leetcode-cn.com/1b784152ec42aaa786a28f7bfefcd619fea8a39e8a64623a242709205ddbd694-image.png)
+// ### 题目描述
+// ![image.png](https://pic.leetcode-cn.com/1b784152ec42aaa786a28f7bfefcd619fea8a39e8a64623a242709205ddbd694-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // 一次哈希
 class Solution {
 public:
@@ -56,7 +56,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 三次代码运行效率分析：
-![image.png](https://pic.leetcode-cn.com/0d2fda68a552906d97205102c82589f3a0f8b5b6d4bd0463cca8625bab9a2415-image.png)
+// ### 三次代码运行效率分析：
+// ![image.png](https://pic.leetcode-cn.com/0d2fda68a552906d97205102c82589f3a0f8b5b6d4bd0463cca8625bab9a2415-image.png)

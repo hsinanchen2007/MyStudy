@@ -1,4 +1,4 @@
-```
+// ```
 func prisonAfterNDays(cells []int, N int) []int {
 	N %= 14
 	if N == 0 {
@@ -15,4 +15,4 @@ func prisonAfterNDays(cells []int, N int) []int {
 	}
 	return cells
 }
-```
+// ```

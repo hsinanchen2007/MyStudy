@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func findRepeatNumber(_ nums: [Int]) -> Int {
         var numsSet:Set<Int> = Set()
@@ -14,4 +14,4 @@ class Solution {
         return -1
     }
 }
-```
+// ```

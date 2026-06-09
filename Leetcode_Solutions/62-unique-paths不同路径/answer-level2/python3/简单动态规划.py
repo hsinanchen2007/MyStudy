@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:    
     def uniquePaths(self, m: int, n: int) -> int:
         '''
@@ -27,4 +27,4 @@ class Solution:
                     else:
                         status[i][j] = status[i+1][j] + status[i][j+1]
         return status[0][0]
-```
+# ```

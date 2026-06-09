@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d3451fab269a537a8334488b0791cb8706052321186b1e25f3397a80ce6ae0fe-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d3451fab269a537a8334488b0791cb8706052321186b1e25f3397a80ce6ae0fe-image.png)
 
-遍历数组，每次朝两边遍历检查，若两侧有比自己高的，把当前点修改为“两边比自己高的，取其矮”，得到“积水后“的数组，再遍历一次，得到雨水量。
+// 遍历数组，每次朝两边遍历检查，若两侧有比自己高的，把当前点修改为“两边比自己高的，取其矮”，得到“积水后“的数组，再遍历一次，得到雨水量。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -34,4 +34,4 @@ var trap = function (height) {
 
     return rain;
 };
-```
+// ```

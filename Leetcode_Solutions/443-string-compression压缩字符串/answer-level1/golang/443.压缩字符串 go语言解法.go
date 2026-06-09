@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双指针法，size代表压缩的当前位置。
+// 双指针法，size代表压缩的当前位置。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compress(chars []byte) int {
 	var left,right,size int = 0,0,0
 	for ; right <= len(chars); right++ {
@@ -23,4 +23,4 @@ func compress(chars []byte) int {
 	}
 	return size;
 }
-```
+// ```

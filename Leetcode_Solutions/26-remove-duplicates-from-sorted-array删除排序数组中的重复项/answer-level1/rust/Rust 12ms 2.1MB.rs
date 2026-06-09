@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8a59cd1a77b31bcbb395ba79455035895401828de2df562c96b123fa38351428-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8a59cd1a77b31bcbb395ba79455035895401828de2df562c96b123fa38351428-image.png)
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
         let mut i = 1;
@@ -19,4 +19,4 @@ impl Solution {
     }
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
-长度比原始数组加一是要考虑边界条件
+# 长度比原始数组加一是要考虑边界条件
 
-```
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums) == 1:
@@ -16,4 +16,4 @@ class Solution:
         for i in range(3, len(nums) + 1):
             money[i] = nums[i - 1] + max(money[i - 2], money[i - 3])
         return max(money[-1], money[-2])
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-栈处理的方法：
-字符串是有规律的， \t的个数就是栈坐标，遇到含.文件的就计算
+// ### 解题思路
+// 栈处理的方法：
+// 字符串是有规律的， \t的个数就是栈坐标，遇到含.文件的就计算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthLongestPath(char * input){
     int len = strlen(input);
     if (len == 0) {
@@ -59,4 +59,4 @@ int lengthLongestPath(char * input){
 
     return max;
 }
-```
+// ```

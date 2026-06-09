@@ -1,9 +1,9 @@
-### 解题思路
-仿照大神思路
+# ### 解题思路
+# 仿照大神思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -29,4 +29,4 @@ class Solution:
 
 
 
-```
+# ```

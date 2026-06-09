@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**递归**/
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
@@ -23,10 +23,10 @@ class Solution {
     }
 }
     
-```
+// ```
 
 
-```java
+// ```java
 /**迭代（用stack）**/
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
@@ -48,5 +48,5 @@ class Solution {
         return list;
         }
     }
-```
+// ```
     

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private int num = 0;
     private int pathLen = 2;
@@ -51,4 +51,4 @@ class Solution {
     }
 
 }
-```
+// ```

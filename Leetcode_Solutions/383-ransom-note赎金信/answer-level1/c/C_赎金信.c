@@ -1,9 +1,9 @@
-### 解题思路
-只有小写字母，建立哈希表存储不同字符个数，再跟据赎金信一个个减
+// ### 解题思路
+// 只有小写字母，建立哈希表存储不同字符个数，再跟据赎金信一个个减
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canConstruct(char * ransomNote, char * magazine){
     int hash[26]={0};
     for(char* iter=magazine;*iter!='\0';++iter)
@@ -13,4 +13,4 @@ bool canConstruct(char * ransomNote, char * magazine){
             return false;
     return true;
 }
-```
+// ```

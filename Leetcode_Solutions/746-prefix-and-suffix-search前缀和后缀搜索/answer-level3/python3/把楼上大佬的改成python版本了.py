@@ -1,4 +1,4 @@
-```
+# ```
 class WordFilter:
 
     def __init__(self, words: List[str]):
@@ -34,4 +34,4 @@ class WordFilter:
                 if l1[i].startswith(prefix) and l1[i].endswith(suffix):
                     return l2[i]
         return -1
-```
+# ```

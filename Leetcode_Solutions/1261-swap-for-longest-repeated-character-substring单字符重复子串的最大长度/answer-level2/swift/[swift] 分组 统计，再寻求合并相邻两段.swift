@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     typealias CharState = (length: Int,start:Int,end:Int)
     func maxRepOpt1(_ text: String) -> Int {
@@ -61,4 +61,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

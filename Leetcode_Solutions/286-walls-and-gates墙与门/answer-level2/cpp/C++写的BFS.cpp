@@ -1,5 +1,5 @@
-官方题解中方法一的C++版本。
-```
+// 官方题解中方法一的C++版本。
+// ```
 代码块
 #include <iostream>
 #include <vector>
@@ -92,4 +92,4 @@ int main(void)
 
     return 0;
 }
-```
+// ```

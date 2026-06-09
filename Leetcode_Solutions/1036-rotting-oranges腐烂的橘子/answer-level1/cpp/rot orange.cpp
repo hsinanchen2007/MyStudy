@@ -1,9 +1,9 @@
-### 解题思路
-遍历每个橘子
+// ### 解题思路
+// 遍历每个橘子
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -44,4 +44,4 @@ public:
         return res;        
     }
 };
-```
+// ```

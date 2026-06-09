@@ -1,7 +1,7 @@
-1.sort
-2.DP
-3.求max
-```
+// 1.sort
+// 2.DP
+// 3.求max
+// ```
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return maxLength;
     }
 };
-```
+// ```

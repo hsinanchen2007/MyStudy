@@ -1,7 +1,7 @@
-方法很蠢
-先排序再一个个找
+// 方法很蠢
+// 先排序再一个个找
 
-```
+// ```
 int missingNumber(vector<int>& nums) {
         sort(nums.begin(),nums.end());
         int count = 0;
@@ -16,4 +16,4 @@ int missingNumber(vector<int>& nums) {
         }
         return res;
     }
-```
+// ```

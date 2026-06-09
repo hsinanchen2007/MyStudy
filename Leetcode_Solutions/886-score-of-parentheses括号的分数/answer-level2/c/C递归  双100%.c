@@ -1,9 +1,9 @@
-### 解题思路
-判断字符串类型，为()时返回1，为(A)返回2*递归A   为AB时返回递归A+递归B
+// ### 解题思路
+// 判断字符串类型，为()时返回1，为(A)返回2*递归A   为AB时返回递归A+递归B
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int scoreOfParentheses(char * S){
     int i,j,k=0;
     int len = strlen(S);
@@ -35,4 +35,4 @@ int scoreOfParentheses(char * S){
     }
     return 0;
 }
-```
+// ```

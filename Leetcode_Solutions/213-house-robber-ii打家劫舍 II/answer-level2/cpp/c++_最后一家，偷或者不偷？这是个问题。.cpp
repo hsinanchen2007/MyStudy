@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return max(dp1[(len - 2) % 3], dp2[(len - 2) % 3]);
     }
 };
-```
+// ```

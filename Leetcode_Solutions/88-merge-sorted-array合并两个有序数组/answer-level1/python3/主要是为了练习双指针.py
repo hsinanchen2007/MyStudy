@@ -1,9 +1,9 @@
-### 解题思路
-其实Python可以有很简洁的写法，另外这个题有点迷惑的是应该是len(nums1) = m + n， 一开始按照len(nums1)可能大于m + n，发现提交总是解答错误。
+# ### 解题思路
+# 其实Python可以有很简洁的写法，另外这个题有点迷惑的是应该是len(nums1) = m + n， 一开始按照len(nums1)可能大于m + n，发现提交总是解答错误。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
                 i -= 1
         if j >= 0:
             nums1[:j + 1] = nums2[:j + 1]
-```
+# ```

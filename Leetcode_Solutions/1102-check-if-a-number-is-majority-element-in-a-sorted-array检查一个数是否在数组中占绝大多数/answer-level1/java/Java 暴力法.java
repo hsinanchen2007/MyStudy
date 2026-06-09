@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isMajorityElement(int[] nums, int target) {
         int times = 0;
@@ -10,4 +10,4 @@ class Solution {
         return times > nums.length / 2 ? true : false;
     }
 }
-```
+// ```

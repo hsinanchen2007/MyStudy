@@ -1,10 +1,10 @@
-### 解题思路
-这个问题的难点主要在于为什么只判断str[i - 1 - dp[i - 1]] == '('的情况，而不判断str[i - 1 - dp[i - 1]] == ')'的情况，
-这是因为这种情况包含在dp[i - 1]中，也即在dp[i - 1]时就会把前面包含"(...)"的情况包含进来。
+// ### 解题思路
+// 这个问题的难点主要在于为什么只判断str[i - 1 - dp[i - 1]] == '('的情况，而不判断str[i - 1 - dp[i - 1]] == ')'的情况，
+// 这是因为这种情况包含在dp[i - 1]中，也即在dp[i - 1]时就会把前面包含"(...)"的情况包含进来。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestValidParentheses(str string) int {
 	longest := 0
 	if len(str) < 2 {
@@ -45,4 +45,4 @@ func longestValidParentheses(str string) int {
 
 	return longest
 }
-```
+// ```

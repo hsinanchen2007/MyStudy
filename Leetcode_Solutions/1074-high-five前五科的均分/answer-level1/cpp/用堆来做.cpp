@@ -1,9 +1,9 @@
-### 解题思路
-建一个小顶堆，和学生id关联，分数都往小顶堆里面放，最后取平均
+// ### 解题思路
+// 建一个小顶堆，和学生id关联，分数都往小顶堆里面放，最后取平均
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> highFive(vector<vector<int>>& items) {
@@ -29,4 +29,4 @@ public:
 private:
     map<int, priority_queue<int, vector<int>, greater<int>>> total;
 };
-```
+// ```

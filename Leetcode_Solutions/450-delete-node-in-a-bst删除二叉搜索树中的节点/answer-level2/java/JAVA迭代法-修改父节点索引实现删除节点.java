@@ -1,16 +1,16 @@
-# 思路(迭代)
+// # 思路(迭代)
 
-删除节点, 关键点在于找到节点keyNode的同时, 记录下删除节点的父节点parent.
-最后通过将parent.left = keyNode.right(不一定, 这里仅仅是举个例子)将父节点指向keyNode的左孩子或者右孩子.
+// 删除节点, 关键点在于找到节点keyNode的同时, 记录下删除节点的父节点parent.
+// 最后通过将parent.left = keyNode.right(不一定, 这里仅仅是举个例子)将父节点指向keyNode的左孩子或者右孩子.
 
-边界情况一共三种, 实际为两种(原因如下).
+// 边界情况一共三种, 实际为两种(原因如下).
 
-- 删除节点的左孩子与孩子都不为空树, 可以在找到删除节点后与其后继或者前驱交换位置, 从而将问题转化为下面两种更平凡的情况. 这里问题转化成如何找前驱与后继, 以及如何更新前驱与后继的父节点.
-- 删除节点keyNode的左孩子为空树, 右孩子不为空树. 修改父节点的左(右)孩子parent.right = keyNode.right 或者 parent.left = keyNode.right.
-- 删除节点的左孩子不为空树, 右孩子为空树.修改父节点的左(右)孩子parent.right = keyNode.left 或者 parent.left = keyNode.left.
+// - 删除节点的左孩子与孩子都不为空树, 可以在找到删除节点后与其后继或者前驱交换位置, 从而将问题转化为下面两种更平凡的情况. 这里问题转化成如何找前驱与后继, 以及如何更新前驱与后继的父节点.
+// - 删除节点keyNode的左孩子为空树, 右孩子不为空树. 修改父节点的左(右)孩子parent.right = keyNode.right 或者 parent.left = keyNode.right.
+// - 删除节点的左孩子不为空树, 右孩子为空树.修改父节点的左(右)孩子parent.right = keyNode.left 或者 parent.left = keyNode.left.
 
-# JAVA CODE
-```
+// # JAVA CODE
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -86,4 +86,4 @@ class Solution {
         return key < root.val ? searchBST(root.left,key,this.parent) : searchBST(root.right,key,this.parent);
     }
 }
-```
+// ```

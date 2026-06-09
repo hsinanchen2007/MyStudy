@@ -1,7 +1,7 @@
-提取出年月日，根据不同月份累加天数即可
+// 提取出年月日，根据不同月份累加天数即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int dayOfYear(string date) {
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

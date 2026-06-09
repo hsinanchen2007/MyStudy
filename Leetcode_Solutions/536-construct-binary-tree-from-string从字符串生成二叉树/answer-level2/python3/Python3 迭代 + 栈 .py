@@ -1,9 +1,9 @@
-![d82d49effbd1196a2239c3996d74291.png](https://pic.leetcode-cn.com/2c18047e1b35cfae0513878ee2976456ebf1b0a3bafecb25f7802d7884130e82-d82d49effbd1196a2239c3996d74291.png)
+# ![d82d49effbd1196a2239c3996d74291.png](https://pic.leetcode-cn.com/2c18047e1b35cfae0513878ee2976456ebf1b0a3bafecb25f7802d7884130e82-d82d49effbd1196a2239c3996d74291.png)
 
-本方法主要使用了**迭代**（循环）和**栈**数据结构
-在处理字符串时使用了**正则表达式**
+# 本方法主要使用了**迭代**（循环）和**栈**数据结构
+# 在处理字符串时使用了**正则表达式**
 
-```python []
+# ```python []
 import re  # 使用re模块分割字符串
 
 
@@ -35,4 +35,4 @@ class Solution:
             i += 1
         return root
                     
-```
+# ```

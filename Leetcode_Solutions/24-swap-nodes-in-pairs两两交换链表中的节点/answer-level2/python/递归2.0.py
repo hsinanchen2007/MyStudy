@@ -1,9 +1,9 @@
-### 解题思路
-思路就是从前往后依次两两交换，需要判断链表的终止条件
+# ### 解题思路
+# 思路就是从前往后依次两两交换，需要判断链表的终止条件
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution(object):
         head.next = self.swapPairs(temp.next)
         temp.next = head
         return temp
-```
+# ```

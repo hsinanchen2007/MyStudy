@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 const int N = 1e5 + 1;
 struct Node{
     int val,left,right;
@@ -71,4 +71,4 @@ public:
         return ans;
     }
 };
-```
+// ```

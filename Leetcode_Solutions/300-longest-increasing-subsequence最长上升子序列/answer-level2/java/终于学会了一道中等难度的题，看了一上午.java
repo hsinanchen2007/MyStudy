@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，建立数组存储前i位的最长升序长度，遍历迭代比较，数组中的最大值即为答案。
+// ### 解题思路
+// 动态规划，建立数组存储前i位的最长升序长度，遍历迭代比较，数组中的最大值即为答案。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
     	if (nums.length<2) {
@@ -23,4 +23,4 @@ class Solution {
 		return ans;
     }
 }
-```
+// ```

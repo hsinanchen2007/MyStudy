@@ -1,5 +1,5 @@
 
-```go []
+// ```go []
 func gameOfLife(board [][]int) {
 	lenX := len(board)
 	lenY := len(board[0])
@@ -39,4 +39,4 @@ func gameOfLife(board [][]int) {
 		}
 	}
 }
-```
+// ```

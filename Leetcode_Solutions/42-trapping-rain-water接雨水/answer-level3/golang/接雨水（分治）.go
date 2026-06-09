@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func trap(height []int) int {
     return getResult(height,0,len(height)-1)
 }
@@ -46,4 +46,4 @@ func getMin(a,b int)int{
     }
     return a
 }
-```
+// ```

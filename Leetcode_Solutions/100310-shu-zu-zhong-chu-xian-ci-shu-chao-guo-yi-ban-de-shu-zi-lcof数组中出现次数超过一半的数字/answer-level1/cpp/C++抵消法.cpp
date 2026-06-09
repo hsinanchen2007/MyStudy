@@ -1,9 +1,9 @@
-### 解题思路
-不一样的都抵消掉，剩下的就是结果了
+// ### 解题思路
+// 不一样的都抵消掉，剩下的就是结果了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
 
     }
 };
-```
+// ```

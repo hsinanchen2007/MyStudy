@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int countVowelPermutation(int n) {
         if(n <= 0)
@@ -33,4 +33,4 @@ class Solution {
     }
     
 }
-```
+// ```

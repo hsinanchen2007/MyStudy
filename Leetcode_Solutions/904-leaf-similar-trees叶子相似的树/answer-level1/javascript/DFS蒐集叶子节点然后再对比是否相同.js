@@ -1,10 +1,10 @@
-### 解题思路
-1. 先蒐集所有叶子，也就是木有后代的节点，把它们统一放进一个数组
-2. 得到数组1 和 数组2， 先对比数组的长度 然后再逐个位置对比数组里边的元素
+// ### 解题思路
+// 1. 先蒐集所有叶子，也就是木有后代的节点，把它们统一放进一个数组
+// 2. 得到数组1 和 数组2， 先对比数组的长度 然后再逐个位置对比数组里边的元素
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -41,4 +41,4 @@ var leafSimilar = function(root1, root2) {
     allLeaves(root2, leaves2);
     return diff(leaves1, leaves2);
 };
-```
+// ```

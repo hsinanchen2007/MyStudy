@@ -1,9 +1,9 @@
-### 解题思路
-缓存取出的顶端元素，并用一个布尔变量表示当前是否有缓存值。
+// ### 解题思路
+// 缓存取出的顶端元素，并用一个布尔变量表示当前是否有缓存值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // Below is the interface for Iterator, which is already defined for you.
 // **DO NOT** modify the interface for Iterator.
 
@@ -59,4 +59,4 @@ public:
         return Iterator::hasNext();
 	}
 };
-```
+// ```

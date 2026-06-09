@@ -1,9 +1,9 @@
-### 解题思路
-去除栈减小时间空间复杂度
+// ### 解题思路
+// 去除栈减小时间空间复杂度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
          int[] res = new int[seq.length()];
@@ -21,4 +21,4 @@ class Solution {
          return res;
     }
 }
-```
+// ```

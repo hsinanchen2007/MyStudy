@@ -1,5 +1,5 @@
-采用贪心算法，用一个set来维护已经成立的结果:
-```
+// 采用贪心算法，用一个set来维护已经成立的结果:
+// ```
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -35,4 +35,4 @@ public:
         return rres;
     }
 };
-```
+// ```

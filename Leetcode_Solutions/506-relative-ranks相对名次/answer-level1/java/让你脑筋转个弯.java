@@ -1,10 +1,10 @@
-### 解题思路
-看清楚题意很重要，这个题目给的示例有点不太好
+// ### 解题思路
+// 看清楚题意很重要，这个题目给的示例有点不太好
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findRelativeRanks(int[] nums) {
 
@@ -49,4 +49,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-普通做法，寻找最大的公共前缀，然后进行字符串的循环生成检测
+// ### 解题思路
+// 普通做法，寻找最大的公共前缀，然后进行字符串的循环生成检测
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String gcdOfStrings(String str1, String str2) {
         // find the minmal string 
@@ -59,4 +59,4 @@ class Solution {
         System.out.println(gcdOfStrings("ABABAB","ABAB"));
     }
 }
-```
+// ```

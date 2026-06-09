@@ -1,4 +1,4 @@
-```c++
+// ```c++
 string strWithout3a3b(int A, int B) {
     char a = 'a', b = 'b';
     if (A < B) {
@@ -28,10 +28,10 @@ string strWithout3a3b(int A, int B) {
     }
     return res;
 }
-```
+// ```
 
-首先假设 A >= B，如果不符合，则通过 swap 构造出成符合的情况。然后分情况讨论：
+// 首先假设 A >= B，如果不符合，则通过 swap 构造出成符合的情况。然后分情况讨论：
 
-1. 当`2*B >= A`时，总是 append "aabb"
-2. 当`2*B > A`时，总是 append "aab"
-3. 其余情况， append "a" 或 "b" 即可
+// 1. 当`2*B >= A`时，总是 append "aabb"
+// 2. 当`2*B > A`时，总是 append "aab"
+// 3. 其余情况， append "a" 或 "b" 即可

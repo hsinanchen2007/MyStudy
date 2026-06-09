@@ -1,9 +1,9 @@
-### 解题思路
-此题有点尬，我用了最土味的方法来做。
+// ### 解题思路
+// 此题有点尬，我用了最土味的方法来做。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用数组模拟Stack，迭代
+// ### 解题思路
+// 用数组模拟Stack，迭代
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func preorderTraversal(root *TreeNode) []int {
 	if root == nil {
@@ -27,4 +27,4 @@ func preorderTraversal(root *TreeNode) []int {
 
 	return ret
 }
-```
+// ```

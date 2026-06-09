@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	vector<Interval*> merge(const vector<Interval*>& v1, const vector<Interval*>& v2) {
@@ -73,6 +73,6 @@ public:
 	}
 };
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/b6af9390c167be414a0af27df0f40e123d00dc56cc516e7903a92c69eb54f60b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b6af9390c167be414a0af27df0f40e123d00dc56cc516e7903a92c69eb54f60b-image.png)

@@ -1,5 +1,5 @@
-使用最简单的思路，规避了Python取余和除法的坑，以及题目的反转数的范围约束。代码思路简单，仅供参考
-```
+# 使用最简单的思路，规避了Python取余和除法的坑，以及题目的反转数的范围约束。代码思路简单，仅供参考
+# ```
 class Solution:
     def reverse(self, x: int) -> int:
         result_list = []
@@ -25,4 +25,4 @@ class Solution:
         else:
             return 0
             
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用hash表排序后映射
+// ### 解题思路
+// 利用hash表排序后映射
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findRelativeRanks(_ nums: [Int]) -> [String] {
         
@@ -38,4 +38,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

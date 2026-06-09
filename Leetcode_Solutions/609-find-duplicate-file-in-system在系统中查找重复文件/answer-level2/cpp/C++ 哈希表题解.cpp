@@ -1,9 +1,9 @@
-### 解题思路
-利用哈希表存储文件内容对应的路径集合，然后查找哈希表得到最终结果
+// ### 解题思路
+// 利用哈希表存储文件内容对应的路径集合，然后查找哈希表得到最终结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> split(const string& s, char sep) {
@@ -45,6 +45,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/7ae318db31fcadece53ac7a2875e1556f626e78aa6f5090108b8b3012c336b76-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7ae318db31fcadece53ac7a2875e1556f626e78aa6f5090108b8b3012c336b76-image.png)

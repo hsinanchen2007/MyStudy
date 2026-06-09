@@ -1,7 +1,7 @@
-# dfs
-只要左树 右树 有 p q,就必定是答案拉
+// # dfs
+// 只要左树 右树 有 p q,就必定是答案拉
 
-```golang
+// ```golang
  func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
   	if root == nil || root == p || root == q {
 		return root
@@ -16,6 +16,6 @@
 	}
 	return root
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
+// [Go版本 Github](https://github.com/temporaries/leetcode)

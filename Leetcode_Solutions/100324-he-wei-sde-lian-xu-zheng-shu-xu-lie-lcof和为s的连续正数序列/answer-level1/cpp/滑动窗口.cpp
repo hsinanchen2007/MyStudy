@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-这一道问题可以同过滑动窗口的问题进行解决。
+// 这一道问题可以同过滑动窗口的问题进行解决。
 
-![image.png](https://pic.leetcode-cn.com/224763c3f08dfae65887d4d8e46de1e2151613643d722ecca7a1096c5b7adbc5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/224763c3f08dfae65887d4d8e46de1e2151613643d722ecca7a1096c5b7adbc5-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -45,4 +45,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

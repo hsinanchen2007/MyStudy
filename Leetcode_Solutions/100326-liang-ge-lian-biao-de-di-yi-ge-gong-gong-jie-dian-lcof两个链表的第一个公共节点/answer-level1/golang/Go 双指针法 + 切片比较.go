@@ -1,8 +1,8 @@
-# 双指针法
+// # 双指针法
 
-	44 ms	7.9 MB
+// 	44 ms	7.9 MB
 
-```go
+// ```go
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
     nodeA, nodeB := headA, headB
     for nodeA != nodeB {
@@ -19,13 +19,13 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
     }
     return nodeA
 }
-```
+// ```
 
-# 切片比较
+// # 切片比较
 
-	44 ms	7 MB
+// 	44 ms	7 MB
 
-```go
+// ```go
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
     ptrsA := []*ListNode{}
     ptrsB := []*ListNode{}
@@ -56,6 +56,6 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
     }
     return ptrsA[ca]
 }
-```
+// ```
 
-理论上应该是双指针法内存消耗小，但是不知道为什么创建两个切片反而少一点
+// 理论上应该是双指针法内存消耗小，但是不知道为什么创建两个切片反而少一点

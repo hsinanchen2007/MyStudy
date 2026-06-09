@@ -1,13 +1,13 @@
-### 解题思路
-粗暴地把队列最后作为了栈顶。
-push就对应了append操作；
-pop使用del实现；
-top就取列表中的最后一个元素；
-empty返回列表长度是否为零。
+# ### 解题思路
+# 粗暴地把队列最后作为了栈顶。
+# push就对应了append操作；
+# pop使用del实现；
+# top就取列表中的最后一个元素；
+# empty返回列表长度是否为零。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -66,4 +66,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

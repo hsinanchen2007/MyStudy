@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         # pre = float('inf)
@@ -19,4 +19,4 @@ class Solution:
                 dp[j] = min(pre, dp[j]) + triangle[i][j]
                 pre = temp
         return min(dp)
-```
+# ```

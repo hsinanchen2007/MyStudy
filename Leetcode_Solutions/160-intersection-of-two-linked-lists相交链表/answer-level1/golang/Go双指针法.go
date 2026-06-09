@@ -1,12 +1,12 @@
-### 解题思路
-巧妙运用两指针经过的路程相等。
-指针a经过的路程：A全程+B到交点=A到交点+交点到结尾+B到交点
-指针b经过的路程：B全程+A到交点=B到交点+交点到结尾+A到交点
-所以如果有交点的话a、b两指针一定会在交点相遇
+// ### 解题思路
+// 巧妙运用两指针经过的路程相等。
+// 指针a经过的路程：A全程+B到交点=A到交点+交点到结尾+B到交点
+// 指针b经过的路程：B全程+A到交点=B到交点+交点到结尾+A到交点
+// 所以如果有交点的话a、b两指针一定会在交点相遇
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -46,4 +46,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
         }
     }
 }
-```
+// ```

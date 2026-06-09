@@ -1,10 +1,10 @@
-### 解题思路
--1记录1变成1
-2记录0变成1
+# ### 解题思路
+# -1记录1变成1
+# 2记录0变成1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -32,4 +32,4 @@ class Solution:
                     board[row][col] = 1
                 else:
                     board[row][col] = 0
-```
+# ```

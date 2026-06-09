@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -79,4 +79,4 @@ char * addBinary( char * a , char * b ){
     return buffer;
     
 }
-```
+// ```

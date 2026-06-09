@@ -1,9 +1,9 @@
-### 解题思路
-考虑问题要周全，分成三个数组，每个数组都不是空的。
+// ### 解题思路
+// 考虑问题要周全，分成三个数组，每个数组都不是空的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int i,j;
     int flag1=0,flag2=0;
@@ -41,4 +41,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
 }
 
 
-```
+// ```

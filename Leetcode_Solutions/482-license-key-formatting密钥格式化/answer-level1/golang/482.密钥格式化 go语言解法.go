@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-比较直观的方法，缺点是耗时长。先把字母转存在切片中，根据字母数和K取余得到的余数决定第一组放几个。用循环拼接字符串，取flag为标志位，用于控制在拼接字符串的时候加入'-'。
+// 比较直观的方法，缺点是耗时长。先把字母转存在切片中，根据字母数和K取余得到的余数决定第一组放几个。用循环拼接字符串，取flag为标志位，用于控制在拼接字符串的时候加入'-'。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func licenseKeyFormatting(S string, K int) string {
 	res := ""
 	tmp := []byte{}
@@ -36,4 +36,4 @@ func licenseKeyFormatting(S string, K int) string {
 	}
 	return res
 }
-```
+// ```

@@ -1,9 +1,9 @@
-执行结果：通过
-显示详情
-执行用时 :24 ms, 在所有 C 提交中击败了99.13%的用户
-内存消耗 :8.2 MB, 在所有 C 提交中击败了70.59%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :24 ms, 在所有 C 提交中击败了99.13%的用户
+// 内存消耗 :8.2 MB, 在所有 C 提交中击败了70.59%的用户
 
-```
+// ```
 
 bool checkPossibility(int* nums, int numsSize){
     int flag = 0;
@@ -46,4 +46,4 @@ bool checkPossibility(int* nums, int numsSize){
         
     return true;
 }
-```
+// ```

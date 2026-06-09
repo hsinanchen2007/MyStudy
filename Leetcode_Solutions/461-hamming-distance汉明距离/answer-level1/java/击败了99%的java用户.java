@@ -1,5 +1,5 @@
-[更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
-```
+// [更多leetcode题解参考此处](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ```
 public int hammingDistance(int x, int y) {
         int cnt = 0;
         while (x != 0 || y != 0) {
@@ -11,4 +11,4 @@ public int hammingDistance(int x, int y) {
         }
         return cnt;
     }
-```
+// ```

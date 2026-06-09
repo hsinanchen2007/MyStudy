@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
         dic = collections.defaultdict(int)
@@ -8,4 +8,4 @@ class Solution:
             dic[st] += 1
             if dic[st] == 2: res.append(st)
         return res
-```
+# ```

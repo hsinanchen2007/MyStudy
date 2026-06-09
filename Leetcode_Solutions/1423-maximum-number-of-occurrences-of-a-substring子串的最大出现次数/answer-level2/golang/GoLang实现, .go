@@ -1,8 +1,8 @@
-当某一个长度为$x$的子串(假定是$s[i...j]$)出现次数为$n$, 必然存在长度为$x-1$的子串($s[i+1...j]$ 或 $s[i...j-1]$) 出现次数不小于$n$, 所以只求$minSize$的情况即可.
+// 当某一个长度为$x$的子串(假定是$s[i...j]$)出现次数为$n$, 必然存在长度为$x-1$的子串($s[i+1...j]$ 或 $s[i...j-1]$) 出现次数不小于$n$, 所以只求$minSize$的情况即可.
 
-Ps: 主要是贴下`GOLANG`的代码..hhh.
+// Ps: 主要是贴下`GOLANG`的代码..hhh.
 
-```go
+// ```go
 func max(a, b int) int { // Go还得自己写比较大小qaq.
     if a>b {
         return a
@@ -45,4 +45,4 @@ func maxFreq(s string, maxLetters int, minSize int, maxSize int) int {
 
     return ans
 }
-```
+// ```

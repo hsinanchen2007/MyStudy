@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def getPermutation(self, n, k):
         """
@@ -87,4 +87,4 @@ class Solution(object):
         for i in r:
             s1+=str(i)
         return s1
-```
+# ```

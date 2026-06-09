@@ -1,9 +1,9 @@
-### 解题思路
-直接替换即可。
+// ### 解题思路
+// 直接替换即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         int length = s.length;
@@ -21,4 +21,4 @@ class Solution {
         s[j] = temp;
     }
 }
-```
+// ```

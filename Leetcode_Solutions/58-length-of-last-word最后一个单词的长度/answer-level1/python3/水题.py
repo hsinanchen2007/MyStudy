@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         if s=="":
@@ -6,4 +6,4 @@ class Solution:
         s=s.strip()
         s_list=s.split(" ")
         return s_list[-1].__len__()
-```
+# ```

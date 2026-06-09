@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //index遍历进行搜索整个字符串
     private int index = 0;
@@ -44,4 +44,4 @@ class Solution {
         return index > start;
     }
 }
-```
+// ```

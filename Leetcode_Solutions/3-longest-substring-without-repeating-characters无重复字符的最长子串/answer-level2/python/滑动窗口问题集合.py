@@ -1,5 +1,5 @@
-## [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
-```python
+# ## [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         left = 0
@@ -14,9 +14,9 @@ class Solution:
             max_len = max(max_len, right - left + 1)
 
         return max_len
-```
-## [30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
-```python
+# ```
+# ## [30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+# ```python
 from collections import Counter
 
 class Solution:
@@ -36,9 +36,9 @@ class Solution:
             if counter == Counter(temp):
                 res.append(right)
         return res
-```
-## [53. 最大子序和]()
-```python
+# ```
+# ## [53. 最大子序和]()
+# ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         max_sum = nums[0]
@@ -52,9 +52,9 @@ class Solution:
             max_sum = max(max_sum, curr_sum)
         
         return max_sum
-```
-## [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/submissions/)
-```python
+# ```
+# ## [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/submissions/)
+# ```python
 from collections import Counter
 
 class Solution:
@@ -87,9 +87,9 @@ class Solution:
                         dict1.pop(s[left])
                 left += 1
         return res
-```
-## [159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
-```python
+# ```
+# ## [159. 至多包含两个不同字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+# ```python
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
         max_len = 0
@@ -109,9 +109,9 @@ class Solution:
             max_len = max(max_len, right - left + 1)
         
         return max_len
-```
-## [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
-```python
+# ```
+# ## [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+# ```python
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         curr_sum = 0
@@ -126,9 +126,9 @@ class Solution:
                 left += 1
                 
         return min_len if min_len != len(nums) + 1 else 0
-```
-## [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
-```python
+# ```
+# ## [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
+# ```python
 from collections import Counter
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -150,9 +150,9 @@ class Solution:
             
         
         return False
-```
-## [727. 最小窗口子序列](https://leetcode-cn.com/problems/minimum-window-subsequence/)
-```python
+# ```
+# ## [727. 最小窗口子序列](https://leetcode-cn.com/problems/minimum-window-subsequence/)
+# ```python
 class Solution:
     def minWindow(self, S: str, T: str) -> str:
         i, j = 0, 0
@@ -175,10 +175,10 @@ class Solution:
             i += 1
         
         return S[start: start + min_len] if min_len != len(S) + 1 else ""
-```
+# ```
 
-## [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/)
-```python
+# ## [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/)
+# ```python
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
         max_len = 0
@@ -196,5 +196,5 @@ class Solution:
             max_len = max(max_len, right - left + 1)
 
         return max_len
-```
+# ```
 

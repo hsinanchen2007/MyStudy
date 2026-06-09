@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         """
@@ -19,4 +19,4 @@ class Solution:
                     return False
                 used_i[i][n] = used_j[j][n] = used_k[k][n] = 1
         return True
-```
+# ```

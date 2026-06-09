@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -15,4 +15,4 @@ class Solution {
         return array_count_values(str_split($s1)) == array_count_values(str_split($s2));
     }
 }
-```
+// ```

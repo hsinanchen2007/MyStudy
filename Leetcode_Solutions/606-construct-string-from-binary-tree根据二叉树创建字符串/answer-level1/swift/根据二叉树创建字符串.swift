@@ -1,10 +1,10 @@
 
-递归法：
-最重要的是枚举出每一种情况不同的处理方式
+// 递归法：
+// 最重要的是枚举出每一种情况不同的处理方式
 
 
 
-```swift []
+// ```swift []
 class Solution {
 
     func tree2str(_ t: TreeNode?) -> String {
@@ -28,4 +28,4 @@ class Solution {
 
     }
 }
-```
+// ```

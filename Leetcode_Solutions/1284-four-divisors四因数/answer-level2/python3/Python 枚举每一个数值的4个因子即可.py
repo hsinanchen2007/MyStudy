@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/04aecf41bfb5d70f75e5720bc566c9f02235f3424b887bf0f42091f9217e8fb6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/04aecf41bfb5d70f75e5720bc566c9f02235f3424b887bf0f42091f9217e8fb6-image.png)
 
 
-```
+# ```
 '''
 枚举每一个数的4个因子即可
 '''
@@ -28,4 +28,4 @@ class Solution:
         for val in nums:
             ans += sum(self.getFactor(val))
         return ans
-```
+# ```

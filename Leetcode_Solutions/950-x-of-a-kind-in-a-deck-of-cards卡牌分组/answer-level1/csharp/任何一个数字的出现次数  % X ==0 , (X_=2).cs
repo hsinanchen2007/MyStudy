@@ -1,10 +1,10 @@
-### 解题思路
- 任何一个数字的出现次数  % X ==0 , (X>=2)
+// ### 解题思路
+//  任何一个数字的出现次数  % X ==0 , (X>=2)
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         if(deck==null || deck.Length <=1){
@@ -38,4 +38,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

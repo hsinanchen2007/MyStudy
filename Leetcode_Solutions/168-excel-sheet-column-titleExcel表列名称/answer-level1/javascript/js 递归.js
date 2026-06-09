@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-将输入转化为nums数组，num[1, 26]。
-例如：
-1 -> [1]
-26 -> [26]
-27 -> [1, 1]
-52 -> [1, 26]
-...
+// ### 解题思路
+// 此处撰写解题思路
+// 将输入转化为nums数组，num[1, 26]。
+// 例如：
+// 1 -> [1]
+// 26 -> [26]
+// 27 -> [1, 1]
+// 52 -> [1, 26]
+// ...
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -25,4 +25,4 @@ var convertToTitle = function(n) {
     }
     return mod26(n).map(num => String.fromCharCode(num + 65 - 1)).join('');
 };
-```
+// ```

@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxm=static_cast<int>(pow(2,31)-1);
@@ -41,4 +41,4 @@ public:
 	return min;
     }
 };
-```
+// ```

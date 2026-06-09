@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var intToRoman = function(num) {
     let map = {
         1: 'I',
@@ -29,11 +29,11 @@ var intToRoman = function(num) {
     }
     return res
 };
-```
+// ```
 
-*法二*
+// *法二*
 
-```js
+// ```js
 var intToRoman = function(num) {
     var Q = ["", "M", "MM", "MMM"];
     var B = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"];
@@ -41,4 +41,4 @@ var intToRoman = function(num) {
     var G = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
     return Q[Math.floor(num/1000)] + B[Math.floor((num%1000)/100)] + S[Math.floor((num%100)/10)] + G[num%10];
 };
-```
+// ```

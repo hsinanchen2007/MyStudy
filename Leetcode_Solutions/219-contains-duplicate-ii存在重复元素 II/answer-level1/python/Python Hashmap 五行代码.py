@@ -1,11 +1,11 @@
-### 解题思路
-维护一个哈希表
-时间 O(n)
-空间 O(n)
+# ### 解题思路
+# 维护一个哈希表
+# 时间 O(n)
+# 空间 O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         hashmap = {}
@@ -14,4 +14,4 @@ class Solution:
             hashmap[nums[i]] = i
         return False
 
-```
+# ```

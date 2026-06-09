@@ -1,6 +1,6 @@
-刚开始刷题，供大家参考；
+// 刚开始刷题，供大家参考；
 
-```
+// ```
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -30,4 +30,4 @@ public:
         return -1;
     }
 };
-```
+// ```

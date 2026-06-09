@@ -1,8 +1,8 @@
-# 思路：
-1）统计两个strings 中的所有单词出现频率
-2）出现一次的单词一定只在其中之一的strings 中，这即等价于这题对不常见单词的定义。
-# 代码：
-```
+// # 思路：
+// 1）统计两个strings 中的所有单词出现频率
+// 2）出现一次的单词一定只在其中之一的strings 中，这即等价于这题对不常见单词的定义。
+// # 代码：
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -72,4 +72,4 @@ void getwords(char *string, int *wordscount,word **wordlist){
         }
     }
 }
-```
+// ```

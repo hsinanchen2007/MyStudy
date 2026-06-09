@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def cuttingRope(self, n):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 core=max(core,dp[j]*(i-j),j*(i-j))
             dp[i]=core
         return dp[n]
-```
+# ```

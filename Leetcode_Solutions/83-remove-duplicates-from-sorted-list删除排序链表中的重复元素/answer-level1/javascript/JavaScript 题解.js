@@ -1,16 +1,16 @@
-### Analyze
+// ### Analyze
 
-该题思路比较直接, 使用 cur, next 两个指针表示当前值和下一值, 若 cur 指针的值与 next 指针的值相等, 则将 next 指针往后移动一位即可。
+// 该题思路比较直接, 使用 cur, next 两个指针表示当前值和下一值, 若 cur 指针的值与 next 指针的值相等, 则将 next 指针往后移动一位即可。
 
-```js
+// ```js
 cur   next
  1  ->  1  ->  2  ->  3  ->  3
 
 cur          next
  1  ->  1  ->  2  ->  3  ->  3
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -36,10 +36,10 @@ var deleteDuplicates = function(head) {
   }
   return listNode.next
 }
-```
+// ```
 
-### Same Type Question
+// ### Same Type Question
 
-2、86、328、445
+// 2、86、328、445
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

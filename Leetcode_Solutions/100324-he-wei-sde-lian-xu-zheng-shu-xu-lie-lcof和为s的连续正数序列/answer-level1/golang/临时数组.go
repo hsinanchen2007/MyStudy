@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-建立临时数组，利用go的slice特性，返回slice节省内存
+// ### 解题思路
+// 此处撰写解题思路
+// 建立临时数组，利用go的slice特性，返回slice节省内存
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
     var ans [][]int
     l := target/2 + 1
@@ -33,4 +33,4 @@ func findContinuousSequence(target int) [][]int {
 }
 
 
-```
+// ```

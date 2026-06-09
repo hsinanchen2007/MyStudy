@@ -1,15 +1,15 @@
 
-## 数位dp
+// ## 数位dp
 
-考虑1出现在第i位的次数
+// 考虑1出现在第i位的次数
 
-以2出现的次数进行分析，换成1同样的思路
+// 以2出现的次数进行分析，换成1同样的思路
 
-![计数问题解题思路](https://pic.leetcode-cn.com/422510f7bb9872b15f65d732d56b0546ae71e141e70b47fd7e8010cad373a628.png)
+// ![计数问题解题思路](https://pic.leetcode-cn.com/422510f7bb9872b15f65d732d56b0546ae71e141e70b47fd7e8010cad373a628.png)
 
-## 代码实现
+// ## 代码实现
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countDigitOne(int n) {
@@ -43,6 +43,6 @@ public:
         return getW(x/10) + 1;
     }
 };
-```
+// ```
 
-[从零开始学算法](https://muyids.github.io/simple-algorithm/)
+// [从零开始学算法](https://muyids.github.io/simple-algorithm/)

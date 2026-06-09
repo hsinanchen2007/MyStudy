@@ -1,11 +1,11 @@
-### 解题思路
-双指针法参考自剑指offer，思路见图
-![image.png](https://pic.leetcode-cn.com/0be4fffc24ca7aa6c3631f3eab4181368d2848489920409595ac8b7b76f50887-image.png)
+// ### 解题思路
+// 双指针法参考自剑指offer，思路见图
+// ![image.png](https://pic.leetcode-cn.com/0be4fffc24ca7aa6c3631f3eab4181368d2848489920409595ac8b7b76f50887-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*双指针法*/
 class Solution {
 public:
@@ -72,4 +72,4 @@ public:
 		return s;
 	}
 };
-```
+// ```

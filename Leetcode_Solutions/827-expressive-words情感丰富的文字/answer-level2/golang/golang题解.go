@@ -1,6 +1,6 @@
-1.通过移动索引和计算字符数量来验证是否满足条件
-![1.png](https://pic.leetcode-cn.com/f9d8ace97cd005275bdf529155532f018e9b065da121ab118b20eb87bace762b-1.png)
-```
+// 1.通过移动索引和计算字符数量来验证是否满足条件
+// ![1.png](https://pic.leetcode-cn.com/f9d8ace97cd005275bdf529155532f018e9b065da121ab118b20eb87bace762b-1.png)
+// ```
 func expressiveWords(S string, words []string) int {
     var count int
     for _,v := range words{
@@ -60,7 +60,7 @@ func verifyString(s1 string, s2 string) bool {
 	}
 	return isFinish
 }
-```
+// ```
 
 
 

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:
         d.sort(key = lambda x: (-len(x), x))
@@ -13,4 +13,4 @@ class Solution:
                     cnt = index + 1
             if flag: return word
         return ''
-```
+# ```

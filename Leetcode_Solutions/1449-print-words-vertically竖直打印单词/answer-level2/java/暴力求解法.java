@@ -1,5 +1,5 @@
-暴力搜索一遍，然后去除末尾空格。
-```
+// 暴力搜索一遍，然后去除末尾空格。
+// ```
 public List<String> printVertically(String s) {
         List<String> res = new LinkedList<>();
         String[] tp = s.split(" ");
@@ -31,4 +31,4 @@ public List<String> printVertically(String s) {
         }
         return res;
     }
-```
+// ```

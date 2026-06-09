@@ -1,6 +1,6 @@
-**思路1：** 将字符串拆分成多个子串，每个子串内都是相等的数字，然后对子串进行计算结果，最终拼接这些结果得出下一个次序的字符串。
-如：1211-->1'2'11-->11'12'21-->111221。
-```
+// **思路1：** 将字符串拆分成多个子串，每个子串内都是相等的数字，然后对子串进行计算结果，最终拼接这些结果得出下一个次序的字符串。
+// 如：1211-->1'2'11-->11'12'21-->111221。
+// ```
 public string CountAndSay(int n)
         {
             if (n == 1)
@@ -34,6 +34,6 @@ public string CountAndSay(int n)
 
             return result.ToString();
         }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f46bd232e7b5854051902e075b7fdc1df4bf56091b3e46b908e2909f7484954c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f46bd232e7b5854051902e075b7fdc1df4bf56091b3e46b908e2909f7484954c-image.png)

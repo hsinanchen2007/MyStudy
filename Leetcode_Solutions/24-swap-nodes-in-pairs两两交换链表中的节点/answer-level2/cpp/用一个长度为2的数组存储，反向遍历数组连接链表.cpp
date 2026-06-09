@@ -1,9 +1,9 @@
-思路:用一个长度为2的ListNode*数组存储遍历到的节点，当数组满了或者链表遍历完了就从数组尾开始将数组元素加到结果链表ans末尾
-- 55/55 cases passed (4 ms)
-- Your runtime beats 89.76 % of cpp submissions
-- Your memory usage beats 84.79 % of cpp submissions (8.6 MB)
+// 思路:用一个长度为2的ListNode*数组存储遍历到的节点，当数组满了或者链表遍历完了就从数组尾开始将数组元素加到结果链表ans末尾
+// - 55/55 cases passed (4 ms)
+// - Your runtime beats 89.76 % of cpp submissions
+// - Your memory usage beats 84.79 % of cpp submissions (8.6 MB)
 
-```
+// ```
 class Solution {
 public:
     ListNode *swapPairs(ListNode *head)
@@ -34,4 +34,4 @@ public:
         return p->next;
     }
 };
-```
+// ```

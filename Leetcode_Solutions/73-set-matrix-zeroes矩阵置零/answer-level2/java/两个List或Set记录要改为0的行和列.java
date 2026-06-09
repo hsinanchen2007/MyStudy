@@ -1,5 +1,5 @@
-1. 两个List的方法，给的测试用例List竟然比Set块。
-```java
+// 1. 两个List的方法，给的测试用例List竟然比Set块。
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         List<Integer> list1 = new ArrayList<>();
@@ -24,9 +24,9 @@ class Solution {
         }
     }
 }
-```
-2. 两个Set的方法
-```java
+// ```
+// 2. 两个Set的方法
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         Set<Integer> set1 = new HashSet<>();
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

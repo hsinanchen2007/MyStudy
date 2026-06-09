@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     TreeNode* insertIntoMaxTree(TreeNode* root, int val) {
@@ -16,6 +16,6 @@ public:
         return dummy->right;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/312f07935a22f98c55a7b9fcf33994ba4b82a6f9f2eecfc192d8af520ac3cfe3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/312f07935a22f98c55a7b9fcf33994ba4b82a6f9f2eecfc192d8af520ac3cfe3-image.png)

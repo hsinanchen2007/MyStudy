@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findRepeatNumber(int* nums, int numsSize){
     if(numsSize <= 0 ){
         return -1;
@@ -20,4 +20,4 @@ int findRepeatNumber(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```

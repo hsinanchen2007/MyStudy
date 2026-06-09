@@ -1,9 +1,9 @@
-### 解题思路
-抖个机灵，我选择加上一圈0少点if😄
+# ### 解题思路
+# 抖个机灵，我选择加上一圈0少点if😄
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -19,4 +19,4 @@ class Solution:
                     -min(grid[i][j-1], num)-min(grid[i][j+1], num)
 
         return ans
-```
+# ```

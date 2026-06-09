@@ -1,5 +1,5 @@
-用叉乘排除非凸点，时间为 O(n)，但排序为 O(n log n)，总体还是 O(n log n)
-```
+# 用叉乘排除非凸点，时间为 O(n)，但排序为 O(n log n)，总体还是 O(n log n)
+# ```
 class Solution(object):
     def outerTrees(self, points):
   
@@ -23,4 +23,4 @@ class Solution(object):
         
         return list(set(low[:-1] + up[:-1]))
               
-```
+# ```

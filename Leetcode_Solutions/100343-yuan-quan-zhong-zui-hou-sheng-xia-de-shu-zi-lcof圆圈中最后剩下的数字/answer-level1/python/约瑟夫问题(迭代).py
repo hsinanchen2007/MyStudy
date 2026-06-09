@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
 
@@ -12,4 +12,4 @@ class Solution:
         return f
 
 
-```
+# ```

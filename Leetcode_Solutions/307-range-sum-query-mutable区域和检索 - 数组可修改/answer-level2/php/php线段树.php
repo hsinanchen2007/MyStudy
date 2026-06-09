@@ -1,6 +1,6 @@
-思路：创建一颗线段树，查询和更新操作都是log(n)的时间复杂度
-代码:
-```php
+// 思路：创建一颗线段树，查询和更新操作都是log(n)的时间复杂度
+// 代码:
+// ```php
 class NumArray {
     private $tree;
     /**
@@ -190,4 +190,4 @@ class SumMerge
  * $obj->update($i, $val);
  * $ret_2 = $obj->sumRange($i, $j);
  */
-```
+// ```

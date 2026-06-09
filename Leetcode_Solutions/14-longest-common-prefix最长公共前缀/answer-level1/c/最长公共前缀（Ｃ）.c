@@ -1,7 +1,7 @@
 
-**首先将第一个字符串作为ans，然后依次与后面的每一个字符串比较并更新ans，若某一趟途中ans为空，即没有公共前缀，直接返回。这样，最后得到的ans即为所求。**
+// **首先将第一个字符串作为ans，然后依次与后面的每一个字符串比较并更新ans，若某一趟途中ans为空，即没有公共前缀，直接返回。这样，最后得到的ans即为所求。**
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strsSize == 0)
         return "";
@@ -22,4 +22,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     return ans;
 
 }
-```
+// ```

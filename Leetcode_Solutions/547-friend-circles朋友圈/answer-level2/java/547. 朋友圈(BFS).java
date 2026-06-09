@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/6992a4bf6a9c3f2469e5aa80fd67288544eec47f62b792f4f790850909dae325-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6992a4bf6a9c3f2469e5aa80fd67288544eec47f62b792f4f790850909dae325-image.png)
 
-```
+// ```
 class Solution {
     public int findCircleNum(int[][] M) {
         int i, j, k, next;
@@ -34,4 +34,4 @@ class Solution {
         return k;
     }
 }
-```
+// ```

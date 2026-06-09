@@ -1,10 +1,10 @@
-### 解题思路
-1. 正则匹配字符串中连续字符并返回给数组
-2. 将数组中每项字符及该项的长度拼接起来，返回结果
+// ### 解题思路
+// 1. 正则匹配字符串中连续字符并返回给数组
+// 2. 将数组中每项字符及该项的长度拼接起来，返回结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -19,4 +19,4 @@ var compressString = function (S) {
   }
   return result.length >= S.length ? S : result;
 };
-```
+// ```

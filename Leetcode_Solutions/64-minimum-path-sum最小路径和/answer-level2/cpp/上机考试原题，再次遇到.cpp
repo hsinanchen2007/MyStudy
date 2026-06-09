@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -25,5 +25,5 @@ public:
         return grid[0][0];
     }
 };
-```
-重新写了一次
+// ```
+// 重新写了一次

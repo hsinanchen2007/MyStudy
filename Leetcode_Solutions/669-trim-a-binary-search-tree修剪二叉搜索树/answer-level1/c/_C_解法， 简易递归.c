@@ -1,10 +1,10 @@
-# **思路：**
-1）先递归到底层，遇到null停止
-2）返回时，每个结点三种情况逐个分析
-3）继续返还，重复以上（2）步骤
+// # **思路：**
+// 1）先递归到底层，遇到null停止
+// 2）返回时，每个结点三种情况逐个分析
+// 3）继续返还，重复以上（2）步骤
 
-# **代码：**
-```
+// # **代码：**
+// ```
 struct TreeNode* trimBST(struct TreeNode* root, int L, int R){
     if(root == NULL) return NULL;
     
@@ -18,4 +18,4 @@ struct TreeNode* trimBST(struct TreeNode* root, int L, int R){
 
     return root;
 }
-```
+// ```

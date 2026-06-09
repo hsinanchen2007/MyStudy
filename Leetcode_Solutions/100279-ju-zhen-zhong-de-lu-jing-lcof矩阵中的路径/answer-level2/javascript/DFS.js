@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :
-96 ms, 在所有 JavaScript 提交中击败73.30%的用户
-内存消耗 :38.1 MB, 在所有 JavaScript 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :
+// 96 ms, 在所有 JavaScript 提交中击败73.30%的用户
+// 内存消耗 :38.1 MB, 在所有 JavaScript 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -49,4 +49,4 @@ var dfs = function(board,word,rows,cols,row,col,i){
 return false;
 
 }
-```
+// ```

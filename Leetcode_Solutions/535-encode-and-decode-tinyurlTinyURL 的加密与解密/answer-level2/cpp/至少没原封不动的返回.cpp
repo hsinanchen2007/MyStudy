@@ -1,9 +1,9 @@
-### 解题思路
-按数组下标简化
+// ### 解题思路
+// 按数组下标简化
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<string> data;
@@ -23,4 +23,4 @@ public:
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
-```
+// ```

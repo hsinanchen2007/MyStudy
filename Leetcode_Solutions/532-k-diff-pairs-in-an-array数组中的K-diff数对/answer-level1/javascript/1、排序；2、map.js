@@ -1,9 +1,9 @@
-### 方法一
-先排序，然后逐步比较，注意去重的判断条件
+// ### 方法一
+// 先排序，然后逐步比较，注意去重的判断条件
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findPairs = function(nums, k) {
     nums.sort((a, b) => a - b);
     let n = nums.length, count = 0;
@@ -21,12 +21,12 @@ var findPairs = function(nums, k) {
     }
     return count;
 };
-```
-### 方法二
-两数之和的变形，对于任何一个`n`，寻找`n - k`和`n + k`，我们只需要记录diff对中左值(最小)即可
+// ```
+// ### 方法二
+// 两数之和的变形，对于任何一个`n`，寻找`n - k`和`n + k`，我们只需要记录diff对中左值(最小)即可
 
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 var findPairs = function(nums, k) {
     if (k < 0) return 0;
     let visit = new Set(), map = new Set();
@@ -42,5 +42,5 @@ var findPairs = function(nums, k) {
     }
     return map.size;
 }
-```
+// ```
 

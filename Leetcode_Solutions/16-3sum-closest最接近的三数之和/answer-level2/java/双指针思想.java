@@ -1,10 +1,10 @@
-转换为双指针思想：
-- 升序排列；
-- 转换为|nums[a] + nums[b] + nums[c] - target|无限趋近于0；
-- 固定指针a，双指针b，c策略；
+// 转换为双指针思想：
+// - 升序排列；
+// - 转换为|nums[a] + nums[b] + nums[c] - target|无限趋近于0；
+// - 固定指针a，双指针b，c策略；
 
-> 与15题“三数之和”类似
-```java
+// > 与15题“三数之和”类似
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         if(nums.length<3){
@@ -39,4 +39,4 @@ class Solution {
         
     }
 }
-```
+// ```

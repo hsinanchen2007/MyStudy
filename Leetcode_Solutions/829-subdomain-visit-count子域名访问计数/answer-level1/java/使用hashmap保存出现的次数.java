@@ -1,9 +1,9 @@
-### 解题思路
-使用hashmap保存出现的次数
+// ### 解题思路
+// 使用hashmap保存出现的次数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> map = new HashMap<String, Integer>();
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

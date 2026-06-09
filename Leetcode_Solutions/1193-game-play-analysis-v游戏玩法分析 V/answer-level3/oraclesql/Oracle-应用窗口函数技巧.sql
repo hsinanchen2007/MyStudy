@@ -1,6 +1,6 @@
-应用窗口函数技巧，可以比较快速的解题。
+-- 应用窗口函数技巧，可以比较快速的解题。
 
-```sql
+-- ```sql
 with tmp_act_ins as
 	(select
 		player_id,
@@ -22,8 +22,8 @@ from tmp_act_ins
 group by to_char(install_date, 'yyyy-mm-dd')
 order by "install_dt"
 
-```
+-- ```
 
 
-但在运行时，leetcode 就是判我回答错误（见下图）。可我死活没看出来“输出“和”预期”的差异在哪。。
-![2019-07-01_111953.png](https://pic.leetcode-cn.com/d65cfc7a175364284f78feae67796c1e103f329be1b2bf04d5ea4cbde087835a-2019-07-01_111953.png)
+-- 但在运行时，leetcode 就是判我回答错误（见下图）。可我死活没看出来“输出“和”预期”的差异在哪。。
+-- ![2019-07-01_111953.png](https://pic.leetcode-cn.com/d65cfc7a175364284f78feae67796c1e103f329be1b2bf04d5ea4cbde087835a-2019-07-01_111953.png)

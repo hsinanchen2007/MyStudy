@@ -1,20 +1,20 @@
-### 0. 思路
+// ### 0. 思路
 
-题目很简单，也容易懂，这里简单说一下思路：
-+ 首先在数组`nums`中找到最大值`max`或者它的索引`index`，并以`max`构造根节点`root`；
-+ `root->left`: 接着对`index`左端的部分数组找最大值，并构造节点
-+ `root->right`: 接着对`index`右端的部分数组找最大值，并构造节点
-+ 后面的工作交给递归就可以了~~
+// 题目很简单，也容易懂，这里简单说一下思路：
+// + 首先在数组`nums`中找到最大值`max`或者它的索引`index`，并以`max`构造根节点`root`；
+// + `root->left`: 接着对`index`左端的部分数组找最大值，并构造节点
+// + `root->right`: 接着对`index`右端的部分数组找最大值，并构造节点
+// + 后面的工作交给递归就可以了~~
 
-需要注意的就是递归结束的条件，仔细想想是什么吧~
+// 需要注意的就是递归结束的条件，仔细想想是什么吧~
 
-### 1. 自己找最大值
+// ### 1. 自己找最大值
 
-所以需要写一个找最大值及其索引的方法`searchMax`，我一般喜欢**左闭右闭区间**做处理。
+// 所以需要写一个找最大值及其索引的方法`searchMax`，我一般喜欢**左闭右闭区间**做处理。
 
-**代码：**
+// **代码：**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* constructMaximumBinaryTree(vector<int>& nums) {
@@ -50,17 +50,17 @@ public:
         return index;
     }
 };
-```
+// ```
 
-### 2. 使用标准库函数 std::max_element
+// ### 2. 使用标准库函数 std::max_element
 
-库函数`std::max_element`可以在一个迭代区间内查找最大值，并返回其迭代器；
+// 库函数`std::max_element`可以在一个迭代区间内查找最大值，并返回其迭代器；
 
-需要注意的是，标准库的区间一般都是**左闭右开**的。
+// 需要注意的是，标准库的区间一般都是**左闭右开**的。
 
-**代码：**
+// **代码：**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* constructMaximumBinaryTree(vector<int>& nums) {
@@ -76,4 +76,4 @@ private:
         return root;
     }
 };
-```
+// ```

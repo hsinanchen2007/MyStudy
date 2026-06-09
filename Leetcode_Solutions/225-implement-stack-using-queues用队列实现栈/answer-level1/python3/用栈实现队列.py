@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-python中可以使用列表来模拟队列和栈两种结构
-队列和栈的进入方法相同：list.append()
-出队列是list.pop(0) 出栈是list.pop(-1)
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# python中可以使用列表来模拟队列和栈两种结构
+# 队列和栈的进入方法相同：list.append()
+# 出队列是list.pop(0) 出栈是list.pop(-1)
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -54,4 +54,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

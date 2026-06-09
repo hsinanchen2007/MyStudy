@@ -1,11 +1,11 @@
-### 解题思路
-前缀后之后O(n^2)暴力求解，也能通过，耗时：1332 ms
-前缀和结合hash，可快速找出答案，需要注意的是前缀和下标是从1开始的，O(n)，耗时：68 ms
+// ### 解题思路
+// 前缀后之后O(n^2)暴力求解，也能通过，耗时：1332 ms
+// 前缀和结合hash，可快速找出答案，需要注意的是前缀和下标是从1开始的，O(n)，耗时：68 ms
 
-### 代码
-【前缀和暴力】
+// ### 代码
+// 【前缀和暴力】
 
-```
+// ```
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 int maxSubArrayLen(int* nums, int numsSize, int k){
     int *preSum = (int *)calloc(1, sizeof(int) * (numsSize + 1));
@@ -29,11 +29,11 @@ int maxSubArrayLen(int* nums, int numsSize, int k){
     free(preSum);
     return ans;
 }
-```
+// ```
 
 
-【前缀和+hash】
-```c
+// 【前缀和+hash】
+// ```c
 #include <stdio.h>
 //#include "uthash.h"
 
@@ -95,4 +95,4 @@ int maxSubArrayLen(int* nums, int numsSize, int k){
 	}
 	return ans;
 }
-```
+// ```

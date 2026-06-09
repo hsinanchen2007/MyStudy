@@ -1,17 +1,17 @@
-### 解题思路
-    ## 字符串分割问题一般都是组合问题 长度为n的字符串分割问题=n-1个数的组合问题
-     - abc ->a1b2c
-     - abc ->a bc  =[1]
-     - abc ->a b c =[1,2]
-     - abc ->ab c  =[2]
-     - abc ->abc   =[]
+// ### 解题思路
+//     ## 字符串分割问题一般都是组合问题 长度为n的字符串分割问题=n-1个数的组合问题
+//      - abc ->a1b2c
+//      - abc ->a bc  =[1]
+//      - abc ->a b c =[1,2]
+//      - abc ->ab c  =[2]
+//      - abc ->abc   =[]
     
-    ##组合、排列问题 用回溯算法来做
-    注意：递归结束条件，开始的index=s的长度，本题要求的是一个字符串分割成多个回文串，并且每个串拼接成为原串
+//     ##组合、排列问题 用回溯算法来做
+//     注意：递归结束条件，开始的index=s的长度，本题要求的是一个字符串分割成多个回文串，并且每个串拼接成为原串
  
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> partition(String s) {
        List<List<String>> result = new LinkedList<>();
@@ -56,4 +56,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

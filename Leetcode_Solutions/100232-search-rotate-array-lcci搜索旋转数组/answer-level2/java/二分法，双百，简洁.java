@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(int[] arr, int target) {
         int left = 0 ;
@@ -28,4 +28,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

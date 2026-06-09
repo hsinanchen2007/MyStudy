@@ -1,7 +1,7 @@
-# 思路：
-与下一个更大元素III一模一样
-[见题解](https://leetcode-cn.com/problems/next-greater-element-iii/solution/c-xun-zhao-zui-hou-yi-ge-shun-xu-dui-by-da-li-wang/)
-```C++ []
+// # 思路：
+// 与下一个更大元素III一模一样
+// [见题解](https://leetcode-cn.com/problems/next-greater-element-iii/solution/c-xun-zhao-zui-hou-yi-ge-shun-xu-dui-by-da-li-wang/)
+// ```C++ []
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -21,6 +21,6 @@ public:
         swap(nums[l], nums[r]);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/93fcb6cb4f1f2c398d8b70fb810347a1192031405b358f7980bf3abda663e8b8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/93fcb6cb4f1f2c398d8b70fb810347a1192031405b358f7980bf3abda663e8b8-image.png)

@@ -1,4 +1,4 @@
-```
+// ```
 func solveNQueens(n int) [][]string {
 	var queues [][]string
 	var board = make([][]byte, n)
@@ -49,4 +49,4 @@ func isValid(board [][]byte, row, col int) bool {
 	}
 	return true
 }
-```
+// ```

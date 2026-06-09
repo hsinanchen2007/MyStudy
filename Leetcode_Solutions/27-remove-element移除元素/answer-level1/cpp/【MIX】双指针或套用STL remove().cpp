@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i=0;
@@ -10,8 +10,8 @@ class Solution {
         return i;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         i = 0
@@ -21,8 +21,8 @@ class Solution:
                 i+=1
 
         return i
-```
-```c++ []
+// ```
+// ```c++ []
 // STL模板
 class Solution {
 public:
@@ -44,4 +44,4 @@ public:
 //         return i;
 //     }
 // };
-```
+// ```

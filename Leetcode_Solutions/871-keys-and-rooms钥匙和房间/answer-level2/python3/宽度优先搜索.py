@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         """
@@ -24,4 +24,4 @@ class Solution:
                         visted.add(key)
         
         return True if len(visted) == len(rooms) else False
-```
+# ```

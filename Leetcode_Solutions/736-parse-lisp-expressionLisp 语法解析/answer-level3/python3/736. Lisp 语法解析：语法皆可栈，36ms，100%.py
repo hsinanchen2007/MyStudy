@@ -1,12 +1,12 @@
-在右括号前面加了空格，再用空格把主字符串分离，可以单独处理表达式计算，主要思想还是栈操作。
+# 在右括号前面加了空格，再用空格把主字符串分离，可以单独处理表达式计算，主要思想还是栈操作。
 
-赋值是用浅拷贝字典栈处理的，出现`let`就压入浅拷贝字典，处理完`let`就弹出栈顶字典，数据不大，空间还好，理论上可以用二分查找优化，对这题来说太麻烦了，不另写了。
+# 赋值是用浅拷贝字典栈处理的，出现`let`就压入浅拷贝字典，处理完`let`就弹出栈顶字典，数据不大，空间还好，理论上可以用二分查找优化，对这题来说太麻烦了，不另写了。
 
-表达式计算完毕从栈顶弹出时，要判断新栈顶是否是`let`关键字的栈，如果是的话，要根据新栈顶长度的奇偶性来判断是否写入字典栈的顶元素。
+# 表达式计算完毕从栈顶弹出时，要判断新栈顶是否是`let`关键字的栈，如果是的话，要根据新栈顶长度的奇偶性来判断是否写入字典栈的顶元素。
 
-剩下的全都在分支里面了。
+# 剩下的全都在分支里面了。
 
-```python []
+# ```python []
 class Solution:
     def evaluate(self, expression: str) -> int:
         s = [[]]
@@ -50,11 +50,11 @@ class Solution:
                 s[-1] += [e]
 
         return s[0][0]
-```
+# ```
 
-样例的栈动态过程：
+# 样例的栈动态过程：
 
-```
+# ```
 expression: "(let x 2 (mult x (let x 3 y 4 (add x y))))"
 
 "(let"
@@ -126,9 +126,9 @@ s: [['14']]
 d: [{}]
 
 result: 14
-```
+# ```
 
-36ms，仅供参考。
+# 36ms，仅供参考。
 
-![image.png](https://pic.leetcode-cn.com/67f119a24ea1beec79654260e178447cc4e942a154dc41e11856e796518337e5-image.png)
-![image.png](https://pic.leetcode-cn.com/44564806a3700fdf8407649bbdbff2ab7e5d9e6299f8fac84b62d2424d442296-image.png)
+# ![image.png](https://pic.leetcode-cn.com/67f119a24ea1beec79654260e178447cc4e942a154dc41e11856e796518337e5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/44564806a3700fdf8407649bbdbff2ab7e5d9e6299f8fac84b62d2424d442296-image.png)

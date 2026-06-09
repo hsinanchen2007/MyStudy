@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-我的思路超级简单，先定义三个变量：step为返回的字符串长度，min_Postion为要返回字符串的开始下标，max_Postion为结束下标。当数组扫到i位置时，就检测1~i-1是否有和i相同的字符，如果有，假如下标为j，则min_POstionmin_Poostion变量就重新定义为j+1.max_Postion一直与i的值保持一致。
+// ### 解题思路
+// 此处撰写解题思路
+// 我的思路超级简单，先定义三个变量：step为返回的字符串长度，min_Postion为要返回字符串的开始下标，max_Postion为结束下标。当数组扫到i位置时，就检测1~i-1是否有和i相同的字符，如果有，假如下标为j，则min_POstionmin_Poostion变量就重新定义为j+1.max_Postion一直与i的值保持一致。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {

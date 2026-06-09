@@ -1,9 +1,9 @@
-### 解题思路
-这题需要好好看看
+// ### 解题思路
+// 这题需要好好看看
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         //回溯算法
@@ -28,4 +28,4 @@ class Solution {
             return false;
         }
 }
-```
+// ```

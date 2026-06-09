@@ -1,9 +1,9 @@
-### 解题思路
-两个难度，一个是解决数据的去重问题，这里用到了 HashSet。一个是循环终止问题，这里是通过两个 while 来实现的。
+// ### 解题思路
+// 两个难度，一个是解决数据的去重问题，这里用到了 HashSet。一个是循环终止问题，这里是通过两个 while 来实现的。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 
 use std::collections::HashSet;
 impl Solution {
@@ -36,4 +36,4 @@ impl Solution {
     }
 }
 
-```
+// ```

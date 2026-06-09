@@ -1,4 +1,4 @@
-耗时280 ms, 在所有 MySQL 提交中击败了94.76%的用户
+-- 耗时280 ms, 在所有 MySQL 提交中击败了94.76%的用户
 
 select name, population, area
 from World

@@ -1,11 +1,11 @@
-### 解题思路
-栈——后进先出，队列——先进先出，push可以直接使用append；pop直接使用队列的pop方法，移除最后一位即可；
-top取栈顶元素，使用append在后端进入，栈顶就是队列的最后一位，使用q[-1]；
-empty使用bool函数即可。
+# ### 解题思路
+# 栈——后进先出，队列——先进先出，push可以直接使用append；pop直接使用队列的pop方法，移除最后一位即可；
+# top取栈顶元素，使用append在后端进入，栈顶就是队列的最后一位，使用q[-1]；
+# empty使用bool函数即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -53,12 +53,12 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
-### 但是！！！
-按照栈的要求，新入栈的元素必须在第一位，所以在push函数在append之后，将先前入栈的元素放到新元素后方，也就是将新元素之前的队列元素按顺序出队列再入队列。
+# ```
+# ### 但是！！！
+# 按照栈的要求，新入栈的元素必须在第一位，所以在push函数在append之后，将先前入栈的元素放到新元素后方，也就是将新元素之前的队列元素按顺序出队列再入队列。
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class MyStack:
     def __init__(self):
         """
@@ -103,5 +103,5 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
-虽然两种都通过了！！！
+# ```
+# 虽然两种都通过了！！！

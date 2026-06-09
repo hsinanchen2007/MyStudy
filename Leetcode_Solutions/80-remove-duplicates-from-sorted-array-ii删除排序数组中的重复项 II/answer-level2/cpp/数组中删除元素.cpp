@@ -1,9 +1,9 @@
-### 解题思路
-对比26 27 题目 
+// ### 解题思路
+// 对比26 27 题目 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
 		return sp + 1;
 	} 
 };
-```
+// ```

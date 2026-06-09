@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         n1 = len(s)
@@ -11,4 +11,4 @@ class Solution:
             return(True)
         else:
             return(False)
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
         # return the indices : start of each interval
@@ -44,4 +44,4 @@ class Solution:
                     index1 = index_arr[i - 2][index2 - 1]
                     res = [index1, index2, index3]
         return res
-```
+# ```

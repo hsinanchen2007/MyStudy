@@ -1,4 +1,4 @@
-```
+// ```
 public String reverseStr(String s, int k) {
         if (k == 1 || s.equals(""))
             return s;
@@ -30,5 +30,5 @@ public String reverseStr(String s, int k) {
         }
         return sb.toString();
     }
-```
+// ```
 

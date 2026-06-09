@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
         Deque<Integer> pre = new LinkedList<>();
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

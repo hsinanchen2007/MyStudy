@@ -1,4 +1,4 @@
-```
+// ```
 function maxProduct($nums) {
     $max = PHP_INT_MIN;
     $imax = 1;
@@ -15,4 +15,4 @@ function maxProduct($nums) {
     }
     return $max;
 }
-```
+// ```

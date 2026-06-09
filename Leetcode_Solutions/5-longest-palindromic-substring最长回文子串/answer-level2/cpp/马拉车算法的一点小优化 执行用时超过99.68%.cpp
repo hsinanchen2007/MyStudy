@@ -1,4 +1,4 @@
-```
+// ```
  string longestPalindrome(string s) {
         string str_result = "$#";
         for(int i = 0;i < s.length(); ++i){
@@ -33,5 +33,5 @@
         }
         return s.substr((max_mid_pos - max_length) / 2,max_length - 1);
     }
-```
-__不知道leetcode这里的编译器是用什么来进行的，这里使用vector和new int数组、malloc分配内存比较，并不能节省内存消耗，有点奇怪，理论上vector会占用更大的内存__
+// ```
+// __不知道leetcode这里的编译器是用什么来进行的，这里使用vector和new int数组、malloc分配内存比较，并不能节省内存消耗，有点奇怪，理论上vector会占用更大的内存__

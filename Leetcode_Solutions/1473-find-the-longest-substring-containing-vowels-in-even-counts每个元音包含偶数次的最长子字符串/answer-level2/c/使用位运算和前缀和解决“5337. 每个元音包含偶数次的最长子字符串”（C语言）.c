@@ -1,20 +1,20 @@
-### 解题思路
-经典的前缀和问题，这里给出C语言解法。利用前缀和快速计算子串是否包含偶数个元音。
+// ### 解题思路
+// 经典的前缀和问题，这里给出C语言解法。利用前缀和快速计算子串是否包含偶数个元音。
 
-问题关键在于，使用异或运算进行每个元音是否偶数的判断，从而将二维状态压缩一维。
+// 问题关键在于，使用异或运算进行每个元音是否偶数的判断，从而将二维状态压缩一维。
 
-注意从尾部开始查找最长子序列，并且根据max进行剪枝
+// 注意从尾部开始查找最长子序列，并且根据max进行剪枝
 
-1.对于每一个字符获得当前元音是否偶数的状态（mask）
+// 1.对于每一个字符获得当前元音是否偶数的状态（mask）
 
-2.从头开始遍历，查找最长符合要求的子序列，判断条件为masks[j] - masks[i] == 0
+// 2.从头开始遍历，查找最长符合要求的子序列，判断条件为masks[j] - masks[i] == 0
 
-![image.png](https://pic.leetcode-cn.com/76fe1dc219cf650723cef41beb1733acbcd109a960b888f221993419251488ff-image.png)
+// ![image.png](https://pic.leetcode-cn.com/76fe1dc219cf650723cef41beb1733acbcd109a960b888f221993419251488ff-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void symb2msk(char symb, int *msk) {
     if(symb == 'a' || symb == 'e' || symb == 'i' || symb == 'o' || symb == 'u') {
@@ -58,4 +58,4 @@ int findTheLongestSubstring(char * s){
 
     return max;
 }
-```
+// ```

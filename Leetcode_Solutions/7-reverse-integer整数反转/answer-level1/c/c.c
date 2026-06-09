@@ -1,9 +1,9 @@
-### 解题思路
-如果new_num不溢出的话，强制转换为int后和new_num的值是相等的，如果不相等就说明溢出，返回0
+// ### 解题思路
+// 如果new_num不溢出的话，强制转换为int后和new_num的值是相等的，如果不相等就说明溢出，返回0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverse(int x){
     int n;
     long new_num;
@@ -20,4 +20,4 @@ int reverse(int x){
         return (int)new_num;
 
 }
-```
+// ```

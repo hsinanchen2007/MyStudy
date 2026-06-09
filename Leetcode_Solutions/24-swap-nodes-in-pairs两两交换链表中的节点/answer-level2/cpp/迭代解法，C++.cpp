@@ -1,9 +1,9 @@
-### 解题思路
-简洁的迭代解法，添加一个空头，再保存前后的两个节点
+// ### 解题思路
+// 简洁的迭代解法，添加一个空头，再保存前后的两个节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
         return pre.next;
     }
 };
-```
+// ```

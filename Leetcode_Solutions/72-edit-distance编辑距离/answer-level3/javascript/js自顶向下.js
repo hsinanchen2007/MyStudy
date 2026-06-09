@@ -1,4 +1,4 @@
-```
+// ```
 var minDistance = function (word1, word2) {
     var row = word1.length,
         col = word2.length;
@@ -23,4 +23,4 @@ var minDistance = function (word1, word2) {
     }
     return dp[row][col]
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意：dp数组的中间值可能会出现大于int范围的数，将dp声明为long类型即可。
+// ### 解题思路
+// 注意：dp数组的中间值可能会出现大于int范围的数，将dp声明为long类型即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -25,4 +25,4 @@ public:
         return dp[m][n];  //1637984640
     }
 };
-```
+// ```

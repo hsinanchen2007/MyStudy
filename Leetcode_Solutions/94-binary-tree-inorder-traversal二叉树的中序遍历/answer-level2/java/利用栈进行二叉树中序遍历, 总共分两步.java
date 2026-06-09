@@ -1,11 +1,11 @@
-**递归方法**可以通过**栈或者队列**的数据结构转化为**迭代方式**
+// **递归方法**可以通过**栈或者队列**的数据结构转化为**迭代方式**
 
-进行二叉树中序遍历的步骤为：
-Step 1: 判断当前node是否为null
-Step 1.1: 不为null则入栈
-Step 1.2: 为null出栈，并将当前出栈node的val存入链表， 将当前node修改为node->right, 重复Step 1
+// 进行二叉树中序遍历的步骤为：
+// Step 1: 判断当前node是否为null
+// Step 1.1: 不为null则入栈
+// Step 1.2: 为null出栈，并将当前出栈node的val存入链表， 将当前node修改为node->right, 重复Step 1
 
-```java []
+// ```java []
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

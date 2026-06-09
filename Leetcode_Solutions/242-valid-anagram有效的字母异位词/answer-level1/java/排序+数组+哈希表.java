@@ -1,5 +1,5 @@
-## 排序
-```
+// ## 排序
+// ```
 class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
@@ -13,11 +13,11 @@ class Solution {
         return true;
     }
 }
-```
-时间复杂度: O(nlogn)
-空间复杂度: O(k)或O(n)，k为字符串长度，是否O(n)取决于排序算法
-## 数组
-```
+// ```
+// 时间复杂度: O(nlogn)
+// 空间复杂度: O(k)或O(n)，k为字符串长度，是否O(n)取决于排序算法
+// ## 数组
+// ```
 class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
@@ -28,11 +28,11 @@ class Solution {
         return true;
     }
 }
-```
-时间复杂度：O(n)
-空间复杂度: O(k)，k为字符串长度
-## 哈希表
-```
+// ```
+// 时间复杂度：O(n)
+// 空间复杂度: O(k)，k为字符串长度
+// ## 哈希表
+// ```
 class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
@@ -43,6 +43,6 @@ class Solution {
         return true;
     }
 }
-```
-时间复杂度：O(n)
-空间复杂度: O(k)，k为字符串长度
+// ```
+// 时间复杂度：O(n)
+// 空间复杂度: O(k)，k为字符串长度

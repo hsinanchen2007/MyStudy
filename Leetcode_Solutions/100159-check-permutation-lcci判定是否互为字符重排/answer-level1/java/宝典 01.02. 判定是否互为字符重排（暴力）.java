@@ -1,9 +1,9 @@
-### 解题思路
-无脑暴力比较，只要S2中所有字符出现的此数和S1相同即可
+// ### 解题思路
+// 无脑暴力比较，只要S2中所有字符出现的此数和S1相同即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
          if(s1.length()!=s2.length()) return false;
@@ -22,4 +22,4 @@ class Solution {
          return true;
     }
 }
-```
+// ```

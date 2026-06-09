@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def __init__(self):
         self.ans = []
@@ -24,4 +24,4 @@ class Solution(object):
         self.ans.append(i*longer + (k-i)*shorter)
 
         self.rec(shorter, longer, i+1, k-i-1, k)
-```
+# ```

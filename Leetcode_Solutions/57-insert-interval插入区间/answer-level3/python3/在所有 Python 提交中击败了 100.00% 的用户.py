@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def insert(self, intervals, newInterval):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             elif intervals[i][0]>res[-1][1]:
                 res.append(intervals[i])
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用链表的val表示状态，遍利链表时，val来标记，遇到已经标记了的，return 即可
+// ### 解题思路
+// 利用链表的val表示状态，遍利链表时，val来标记，遇到已经标记了的，return 即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,4 +24,4 @@ public:
         return nullptr;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public void nextPermutation(int[] nums) {
         for (int i = nums.length - 1; i > 0; i--) {
             //找到第一个比前一个大的数的下标
@@ -40,4 +40,4 @@ public void nextPermutation(int[] nums) {
             right--;
         }
     }
-```
+// ```

@@ -1,6 +1,6 @@
-把候选数组从大到小排序，这一步至关重要
-能不能满足条件主要是大数决定的，先考虑大数，后考虑小数，能避免很多不必要的逻辑分支
-```
+// 把候选数组从大到小排序，这一步至关重要
+// 能不能满足条件主要是大数决定的，先考虑大数，后考虑小数，能避免很多不必要的逻辑分支
+// ```
 class Solution {
 public:
     bool backtrace(const vector<int>& nums, vector<int>& sums, int i, int k, int s) {
@@ -25,6 +25,6 @@ public:
         return backtrace(nums, sums, 0, k, s / k);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/01f55d3030b0032acfa6728e47d5f11c231881f90f4e5da46f8978eebe255318-image.png)
+// ![image.png](https://pic.leetcode-cn.com/01f55d3030b0032acfa6728e47d5f11c231881f90f4e5da46f8978eebe255318-image.png)

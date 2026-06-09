@@ -1,4 +1,4 @@
-```java
+// ```java
 //v1.0 抖个机灵
 class Solution {
     public int sum(int...a){
@@ -8,4 +8,4 @@ class Solution {
         return sum(a,b);
     }
 }
-```
+// ```

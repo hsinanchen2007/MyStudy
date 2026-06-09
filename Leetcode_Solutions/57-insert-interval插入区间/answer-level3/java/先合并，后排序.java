@@ -1,10 +1,10 @@
-### 解题思路
-要么先将newInterval插入intervals中，然后根据start点排序;
-要么就先合并newInterval到intervals中，然后再一起排序。
-此代码选择了后者：
-### 代码
+// ### 解题思路
+// 要么先将newInterval插入intervals中，然后根据start点排序;
+// 要么就先合并newInterval到intervals中，然后再一起排序。
+// 此代码选择了后者：
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private class SortComparator implements Comparator<int[]>
     {
@@ -55,4 +55,4 @@ class Solution {
         return nComplexityInsert(intervals,newInterval);
     }
 }
-```
+// ```

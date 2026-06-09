@@ -1,6 +1,6 @@
-做个老实人
+// 做个老实人
 
-```javascript
+// ```javascript
 var reverseWords = function(s) {
   let str = '';
   for (let i = 0; i < s.length;) {
@@ -21,4 +21,4 @@ var reverseWords = function(s) {
   }
   return str;
 };
-```
+// ```

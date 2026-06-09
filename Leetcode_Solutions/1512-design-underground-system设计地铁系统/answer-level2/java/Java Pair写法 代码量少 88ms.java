@@ -1,9 +1,9 @@
-### 解题思路
-在出站的时候，将入站和出站的stationName加起来变成一个Map的key，再把<时间,次数>组合成一个pair，这样计算平均时间就好算了
+// ### 解题思路
+// 在出站的时候，将入站和出站的stationName加起来变成一个Map的key，再把<时间,次数>组合成一个pair，这样计算平均时间就好算了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class UndergroundSystem {
 
     Map<Integer, Pair<String, Integer>> map = new HashMap<>();
@@ -46,4 +46,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

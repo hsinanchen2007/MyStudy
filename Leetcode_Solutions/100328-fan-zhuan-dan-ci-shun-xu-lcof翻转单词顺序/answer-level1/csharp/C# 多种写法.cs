@@ -1,9 +1,9 @@
-### 解题思路
-其实本题很简单，我尝试了多种方法，试图找到最优秀且最优雅的解题方法。
+// ### 解题思路
+// 其实本题很简单，我尝试了多种方法，试图找到最优秀且最优雅的解题方法。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution
 {
     public string ReverseWords(string s)
@@ -79,4 +79,4 @@ public class Solution
     }
 
 }
-```
+// ```

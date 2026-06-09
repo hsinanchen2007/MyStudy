@@ -1,9 +1,9 @@
-感觉像是一道数学题。
-我的思路是先判断要分几遍，然后再分
+// 感觉像是一道数学题。
+// 我的思路是先判断要分几遍，然后再分
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -42,4 +42,4 @@ public:
         return v;
     }
 };
-```
+// ```

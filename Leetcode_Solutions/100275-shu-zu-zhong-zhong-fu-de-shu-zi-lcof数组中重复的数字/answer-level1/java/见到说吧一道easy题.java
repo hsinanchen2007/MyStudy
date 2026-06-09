@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int[] tmps = new int[nums.length];
@@ -13,5 +13,5 @@ class Solution {
         return -1;
     }
 }
-```
-额外空间还是bitmap好用
+// ```
+// 额外空间还是bitmap好用

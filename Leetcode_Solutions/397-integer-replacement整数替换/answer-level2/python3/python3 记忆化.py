@@ -1,9 +1,9 @@
-### 解题思路
-记忆化加速递归
+# ### 解题思路
+# 记忆化加速递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def integerReplacement(self, n: int) -> int:
         return self.dfs(n, {})
@@ -20,4 +20,4 @@ class Solution:
             res = 1 + self.dfs(n//2, memo)
         memo[n] = res
         return res
-```
+# ```

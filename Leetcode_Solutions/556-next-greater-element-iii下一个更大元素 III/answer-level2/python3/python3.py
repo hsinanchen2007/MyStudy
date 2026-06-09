@@ -1,8 +1,8 @@
-# 使用指针保存位置
-1. 对于两个数，其升序排列一定比降序排列小。这题的关键就是从前往后遍历，寻找最后一对升序组合，记下位置former|latter. 
-2. 第二步操作是遍历latter之后的数，寻找最小的且大于former的数，将这个数和former交换位置
-3. 将latter开始的数重新使用升序排列
-```
+# # 使用指针保存位置
+# 1. 对于两个数，其升序排列一定比降序排列小。这题的关键就是从前往后遍历，寻找最后一对升序组合，记下位置former|latter. 
+# 2. 第二步操作是遍历latter之后的数，寻找最小的且大于former的数，将这个数和former交换位置
+# 3. 将latter开始的数重新使用升序排列
+# ```
 class Solution:
     def nextGreaterElement(self, n: int) -> int:
         if n < 10 or n > 2 ** 31 -1 : return -1
@@ -38,4 +38,4 @@ class Solution:
                 res = res * 10 + stack[i]
         if res > 2 ** 31 -1: return -1
         return res
-```
+# ```

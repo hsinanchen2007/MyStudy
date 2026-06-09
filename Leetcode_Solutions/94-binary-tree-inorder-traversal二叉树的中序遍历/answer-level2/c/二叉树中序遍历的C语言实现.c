@@ -1,13 +1,13 @@
-### 解题思路
-该题属于常规题目，二叉树的问题基本都需要用到递归，解题方法如下：
-* 入参检查
-* 获取二叉树的节点个数
-* 动态分配并初始化数组
-* 运用递归，中序遍历该二叉树
+// ### 解题思路
+// 该题属于常规题目，二叉树的问题基本都需要用到递归，解题方法如下：
+// * 入参检查
+// * 获取二叉树的节点个数
+// * 动态分配并初始化数组
+// * 运用递归，中序遍历该二叉树
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -57,4 +57,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize)
     inorder(root, returnSize, result);
     return result;
 }
-```
+// ```

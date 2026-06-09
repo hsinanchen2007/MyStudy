@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         
@@ -37,7 +37,7 @@ class Solution:
 # 如果 nums[i] == nums[i−1]，则说明该数字重复，会导致结果重复，所以应该跳过
 # 当 sum == 0 时，nums[L] == nums[L+1] 则会导致结果重复，应该跳过，L++
 # 当 sum == 0 时，nums[R] == nums[R−1] 则会导致结果重复，应该跳过，R−−
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

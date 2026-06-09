@@ -1,6 +1,6 @@
-# 使用哈希表去重的版本，效率较低
-（执行用时 :123 ms, 在所有 Java 提交中击败了32.37%的用户）
-```
+// # 使用哈希表去重的版本，效率较低
+// （执行用时 :123 ms, 在所有 Java 提交中击败了32.37%的用户）
+// ```
     public List<String> removeInvalidParentheses(String s) {
         int left = 0;
         int right = 0;
@@ -60,10 +60,10 @@
         }
         sb.setLength(len);                              //backtrack 
     }
-```
-# 优化重构后的版本，效率高，也更好理解
-（执行用时 :6 ms, 在所有 Java 提交中击败了81.50%的用户）
-```
+// ```
+// # 优化重构后的版本，效率高，也更好理解
+// （执行用时 :6 ms, 在所有 Java 提交中击败了81.50%的用户）
+// ```
     public List<String> removeInvalidParentheses(String s) {
         int leftParentheses = 0;
         int rightParentheses = 0;
@@ -122,6 +122,6 @@
             } 
         }
     }
-```
+// ```
 
 

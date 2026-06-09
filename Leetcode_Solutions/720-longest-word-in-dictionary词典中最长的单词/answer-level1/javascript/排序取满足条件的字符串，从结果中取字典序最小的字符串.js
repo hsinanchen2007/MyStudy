@@ -1,6 +1,6 @@
-先按长度排序，得到结果数组后在按字典序排序
+// 先按长度排序，得到结果数组后在按字典序排序
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {string}
@@ -45,4 +45,4 @@ function isAnswer(arr, str){
   }
   return flag;
 }
-```
+// ```

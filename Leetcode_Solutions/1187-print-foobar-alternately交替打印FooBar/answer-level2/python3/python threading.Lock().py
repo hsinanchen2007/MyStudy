@@ -1,8 +1,8 @@
-思想都一样，用两把锁控制两个进程的执行顺序，每个进程打印一个字符串后将两把锁反转，将自己停止，解锁另一个进程，把控制交给另一个进程。同样，另一个进程打印完后，将自己停止，解锁之前的进程，把控制交给之前的进程。
+# 思想都一样，用两把锁控制两个进程的执行顺序，每个进程打印一个字符串后将两把锁反转，将自己停止，解锁另一个进程，把控制交给另一个进程。同样，另一个进程打印完后，将自己停止，解锁之前的进程，把控制交给之前的进程。
 
-用到了`threaing.Lock()`
+# 用到了`threaing.Lock()`
 
-```python
+# ```python
 import threading
 class FooBar:
     def __init__(self, n):
@@ -27,4 +27,4 @@ class FooBar:
             # printBar() outputs "bar". Do not change or remove this line.
             printBar()
             self.lockfool.release()
-```
+# ```

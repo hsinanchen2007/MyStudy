@@ -1,6 +1,6 @@
-思路： 验证当前节点是否满足条件，否返回false，是则验证左右子节点。
+// 思路： 验证当前节点是否满足条件，否返回false，是则验证左右子节点。
 
-```
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
@@ -12,4 +12,4 @@ class Solution {
         return isValidBST(root.left, min, root.val) && isValidBST(root.right, root.val, max);
     }
 }
-```
+// ```

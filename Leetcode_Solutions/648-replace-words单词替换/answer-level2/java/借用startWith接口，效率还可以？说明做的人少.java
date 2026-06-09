@@ -1,9 +1,9 @@
-### 解题思路
-借用startWith接口，效率还可以？说明做的人少，下面尝试效率更高的算法
+// ### 解题思路
+// 借用startWith接口，效率还可以？说明做的人少，下面尝试效率更高的算法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceWords(List<String> dict, String sentence) {
         String[] words = sentence.split(" ");
@@ -25,4 +25,4 @@ class Solution {
         return stringBuffer.substring(0, stringBuffer.length() - 1);
     }
 }
-```
+// ```

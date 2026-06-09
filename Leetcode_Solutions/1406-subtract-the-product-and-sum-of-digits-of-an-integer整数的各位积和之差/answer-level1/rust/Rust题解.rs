@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn subtract_product_and_sum(n: i32) -> i32 {
         let mut n = n;
@@ -12,5 +12,5 @@ impl Solution {
         digits.iter().product::<i32>() - digits.iter().sum::<i32>()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

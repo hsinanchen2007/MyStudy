@@ -1,9 +1,9 @@
-### 解题思路
-条件为六边长度平方分别为a,a,a,a,2a,2a(a≠0)
+// ### 解题思路
+// 条件为六边长度平方分别为a,a,a,a,2a,2a(a≠0)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validSquare(vector<int>& p1, vector<int>& p2, vector<int>& p3, vector<int>& p4) {
@@ -18,4 +18,4 @@ public:
      return (p[1]==p[0]&&p[2]==p[0]&&p[3]==p[0]&&p[4]==p[0]*2&&p[5]==p[0]*2&&p[0]!=0); 
     }
 };
-```
+// ```

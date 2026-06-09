@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_73_setZeroes.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_73_setZeroes.java)
 
-```java
+// ```java
     /**
      * 难点在于：使用常数空间，我们先来看不适用常数空间咋解决
      * O(mn)：直接生成一个同等大小的矩阵，遍历原始矩阵，遇0将新矩阵横竖都设置为0
@@ -52,4 +52,4 @@
             }
         }
     }
-```
+// ```

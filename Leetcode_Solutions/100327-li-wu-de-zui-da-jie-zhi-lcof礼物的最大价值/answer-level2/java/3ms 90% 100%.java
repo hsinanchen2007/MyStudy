@@ -1,10 +1,10 @@
-### 解题思路
-这道题用递归算法发现超时了，改用的动态规划。
-公式是grid[i][j]=grid[i][j]+Math.max(grid[i-1][j],grid[i][j-1]);
+// ### 解题思路
+// 这道题用递归算法发现超时了，改用的动态规划。
+// 公式是grid[i][j]=grid[i][j]+Math.max(grid[i-1][j],grid[i][j-1]);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxValue(int[][] grid) {
         for (int i=0;i<grid.length;i++){
@@ -23,8 +23,8 @@ class Solution {
         return grid[grid.length-1][grid[0].length-1];
     }
 }
-```
-```java
+// ```
+// ```java
 class Solution {
    private int max=0;
    public int maxValue(int[][] grid) {

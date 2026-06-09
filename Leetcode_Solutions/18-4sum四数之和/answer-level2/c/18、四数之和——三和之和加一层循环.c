@@ -1,10 +1,10 @@
-### 解题思路
-1、利用三数之和的解法，內加一层for循环；
-2、特殊情况处理（参考了其他的答案）；
+// ### 解题思路
+// 1、利用三数之和的解法，內加一层for循环；
+// 2、特殊情况处理（参考了其他的答案）；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
     return *(int*)a - *(int*)b;
@@ -65,4 +65,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
     }
     return ret;
 }
-```
+// ```

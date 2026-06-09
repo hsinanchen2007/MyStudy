@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -12,4 +12,4 @@ public:
         return result;
     }
 };
-```
+// ```

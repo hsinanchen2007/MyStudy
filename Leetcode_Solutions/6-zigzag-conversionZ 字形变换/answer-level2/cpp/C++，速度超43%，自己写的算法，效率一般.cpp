@@ -1,14 +1,14 @@
-### 解题思路
-解决问题方法还是遍历和存储字符串的问题
-顺序遍历s, vectort<string> conv (看成二维动态字符数组)保存结果
-conv 采用 N (即到 Z 型) 遍历存储 s的字符
-1.即从上往下遍历conv, conv[i++] += s[k++]
-2.当conv == numRows时，把 i = numRows - 2;
-  再conv[i--] += s[k++](while i >=0 )时
-3 重复以上过程即可
-### 代码
+// ### 解题思路
+// 解决问题方法还是遍历和存储字符串的问题
+// 顺序遍历s, vectort<string> conv (看成二维动态字符数组)保存结果
+// conv 采用 N (即到 Z 型) 遍历存储 s的字符
+// 1.即从上往下遍历conv, conv[i++] += s[k++]
+// 2.当conv == numRows时，把 i = numRows - 2;
+//   再conv[i--] += s[k++](while i >=0 )时
+// 3 重复以上过程即可
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

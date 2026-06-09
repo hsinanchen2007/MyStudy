@@ -1,9 +1,9 @@
-### 解题思路
-思路就是加呗
+// ### 解题思路
+// 思路就是加呗
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
      int i,j,max=-12132,money;
      for(i=0;i<pricesSize;i++){
@@ -19,4 +19,4 @@ int maxProfit(int* prices, int pricesSize){
      }
      return max;
 }
-```
+// ```

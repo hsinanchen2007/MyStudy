@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def state_of_word(self, word):
         """
@@ -39,4 +39,4 @@ class Solution:
             ans[i] = sum([count[t] for t in st if t & s0 > 0])
     
         return ans
-```
+# ```

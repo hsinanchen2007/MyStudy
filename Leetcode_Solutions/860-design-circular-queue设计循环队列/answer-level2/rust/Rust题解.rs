@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 struct MyCircularQueue {
     data: Vec<i32>,
     size: usize,
@@ -86,5 +86,5 @@ impl MyCircularQueue {
  * let ret_5: bool = obj.is_empty();
  * let ret_6: bool = obj.is_full();
  */
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,4 +1,4 @@
-```
+// ```
 public static int thirdMax(int[] nums) {
         int[] arr = Arrays.stream(nums).distinct().toArray();
         Arrays.sort(arr);
@@ -7,4 +7,4 @@ public static int thirdMax(int[] nums) {
         else
             return arr[arr.length-3];
     }
-```
+// ```

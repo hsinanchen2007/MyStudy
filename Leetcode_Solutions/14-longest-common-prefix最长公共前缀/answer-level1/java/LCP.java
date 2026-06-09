@@ -1,5 +1,5 @@
-先确定公共前缀最长多少，再去循环比对
-```
+// 先确定公共前缀最长多少，再去循环比对
+// ```
 public String longestCommonPrefix(String[] strs) {
         
         if(strs == null) {
@@ -40,4 +40,4 @@ public String longestCommonPrefix(String[] strs) {
         }
         return commonPrefix.toString();
     }
-```
+// ```

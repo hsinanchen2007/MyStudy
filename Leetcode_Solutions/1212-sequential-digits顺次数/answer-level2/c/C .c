@@ -1,4 +1,4 @@
-```c
+// ```c
 int* sequentialDigits(int low, int high, int* returnSize){
     int idx = 0, idy = 0;
     int pop_low = low;
@@ -34,4 +34,4 @@ int helper(int pop_low, int digit) {
     }
     return ret;
 }
-```
+// ```

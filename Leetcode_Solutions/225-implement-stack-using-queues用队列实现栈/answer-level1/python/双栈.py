@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import collections
 #https://leetcode-cn.com/problems/implement-stack-using-queues/solution/jie-ti-si-lu-yong-liang-ge-dui-lie-shi-xian-zhan-y/ 
 class MyStack:
@@ -59,4 +59,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

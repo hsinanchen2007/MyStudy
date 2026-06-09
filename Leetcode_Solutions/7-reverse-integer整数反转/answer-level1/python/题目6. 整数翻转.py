@@ -1,9 +1,9 @@
-### 解题思路
-题目简单，需要注意的几种情况，x的正负，最后一位数是否是0，是否超出32位范围，用了几个if else规则解决。
+# ### 解题思路
+# 题目简单，需要注意的几种情况，x的正负，最后一位数是否是0，是否超出32位范围，用了几个if else规则解决。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
 
@@ -31,4 +31,4 @@ class Solution:
             else:
                 return b
             
-```
+# ```

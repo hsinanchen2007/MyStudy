@@ -1,9 +1,9 @@
-### 解题思路
-考虑翻转后是否相等或者不翻转是否相等
+# ### 解题思路
+# 考虑翻转后是否相等或者不翻转是否相等
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             return False
         return dfs(root1, root2)
             
-```
+# ```

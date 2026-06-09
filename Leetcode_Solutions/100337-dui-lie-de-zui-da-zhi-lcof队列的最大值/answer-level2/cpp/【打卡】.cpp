@@ -1,6 +1,6 @@
-太菜
-参考了剑指OFFER~
-```
+// 太菜
+// 参考了剑指OFFER~
+// ```
 class MaxQueue {
 private:
 	struct Node{
@@ -42,4 +42,4 @@ public:
 		return value;
     }
 };
-```
+// ```

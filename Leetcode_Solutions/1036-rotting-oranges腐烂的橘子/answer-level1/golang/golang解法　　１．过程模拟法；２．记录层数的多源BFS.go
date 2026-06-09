@@ -1,10 +1,10 @@
-golang解法　　１．过程模拟法；２．记录层数的多源BFS
+// golang解法　　１．过程模拟法；２．记录层数的多源BFS
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
-1.过程模拟法
+// 1.过程模拟法
 
-```go
+// ```go
 // 腐烂过程模拟法：构造方法 'rotting()' 模拟一次腐烂过程.
 //              若腐烂过程后新鲜橘子数小于腐烂过程前新鲜橘子数，则分钟数'times'加一并继续腐烂过程.
 //              直至某次腐烂过程前后，新鲜橘子数不变.
@@ -86,10 +86,10 @@ func rotting(grid [][]int) {
 func inArea(i int, j int) bool {
 	return i>=0 && i<M && j>=0 && j<N;
 }
-```
-２．记录层数的多源BFS法
+// ```
+// ２．记录层数的多源BFS法
 
-```go
+// ```go
 // 记录层数的多源BFS法，为了记录层数，需要记录维护每层入队节点的个数'cnt'
 // 时间复杂度：O(mn)  空间复杂度：O(mn)  
 
@@ -155,5 +155,5 @@ func inArea_2(i int, j int) bool {
 	return i>=0 && i<M_2 && j>=0 && j<N_2
 }
 
-```
+// ```
 

@@ -1,12 +1,12 @@
 
-思路：
-   1、DFS出所有好友，在最后一步前，所有Level-1步前的好友都标记到map，最后一步标记到last;
-   2、遍历last, map里为0的**最短距离**为k;
-   3、获取视频列表，加入hash, key为视频名称，val为观看次数；
-   4、hash表按视频名称字母序排序，再按观看次数排序，这样可以达到题目要求的先次数后字母序的结果；
-   5、hash表中所有key放到res 
+// 思路：
+//    1、DFS出所有好友，在最后一步前，所有Level-1步前的好友都标记到map，最后一步标记到last;
+//    2、遍历last, map里为0的**最短距离**为k;
+//    3、获取视频列表，加入hash, key为视频名称，val为观看次数；
+//    4、hash表按视频名称字母序排序，再按观看次数排序，这样可以达到题目要求的先次数后字母序的结果；
+//    5、hash表中所有key放到res 
 
-```
+// ```
 typedef struct hash_entry {
     char name[9];            /* we'll use this field as the key */
     int val;
@@ -122,12 +122,12 @@ char ** watchedVideosByFriends(char *** Videos, int VideosSize, int* VideosCol, 
     //printf("retSize = %d.", *retSize);
     return res;
 }
-```
+// ```
 
 
-执行用时 :
-132 ms, 在所有 C 提交中击败了85.25%的用户
-内存消耗 :
-22.8 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :
+// 132 ms, 在所有 C 提交中击败了85.25%的用户
+// 内存消耗 :
+// 22.8 MB, 在所有 C 提交中击败了100.00%的用户
 
 

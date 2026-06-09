@@ -1,6 +1,6 @@
-### 解题思路
-第一次写解题思路，献给打卡。基于Python List的栈，很简单的实现。
-```
+# ### 解题思路
+# 第一次写解题思路，献给打卡。基于Python List的栈，很简单的实现。
+# ```
 class MyStack(object):
 
     def __init__(self):
@@ -42,5 +42,5 @@ class MyStack(object):
         :rtype: bool
         """
         return not bool(self._queue)
-```
+# ```
 

@@ -1,12 +1,12 @@
-思路：
-- 先考虑递归，从上到下去解，但是，递归会导致多个重复子问题，时间复杂度很高
-- 因此考虑动态规划，对于动态规划，首先自己从最基本的一步步去推
+# 思路：
+# - 先考虑递归，从上到下去解，但是，递归会导致多个重复子问题，时间复杂度很高
+# - 因此考虑动态规划，对于动态规划，首先自己从最基本的一步步去推
 
-![image.png](https://pic.leetcode-cn.com/efefdfcbffac2e70197dfc0fea26c8883e676365594de698fda9b7835fd764c0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/efefdfcbffac2e70197dfc0fea26c8883e676365594de698fda9b7835fd764c0-image.png)
 
 
 
-```python []
+# ```python []
 # O(n)
 # O(n)
 class Solution:
@@ -31,5 +31,5 @@ class Solution:
         for i in nums:
             no,yes = max(no,yes),i+no
         return max(no,yes)
-```
+# ```
 

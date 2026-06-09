@@ -1,7 +1,7 @@
-暴力求解 超出时间限制
+// 暴力求解 超出时间限制
 
-Time: O(n^2), Space: O(1)
-```go
+// Time: O(n^2), Space: O(1)
+// ```go
 func reversePairs(nums []int) int {
 	if nums == nil || len(nums) < 2 {
 		// 数组为空，或长度小于2，肯定不存在逆序对
@@ -19,10 +19,10 @@ func reversePairs(nums []int) int {
 	}
 	return cnt // 最后返回cnt即可
 }
-```
-首先了解归并排序
+// ```
+// 首先了解归并排序
 
-```go
+// ```go
 package main
 
 func MergeSort(arr []int) {
@@ -70,10 +70,10 @@ func merge(arr []int, start, mid, end int) {
 	}
 	copy(arr[start:end+1], tmpArr)
 }
-```
+// ```
 
-归并排序实现 Time: O(n*log(n)), Space: O(n)
-```go
+// 归并排序实现 Time: O(n*log(n)), Space: O(n)
+// ```go
 func reversePairsMergeSort(nums []int) int {
 	if nums == nil || len(nums) < 2 {
 		// 数组为空，或长度小于2，肯定不存在逆序对
@@ -137,4 +137,4 @@ func sortAndCount(arr []int, low, high int, tmp []int) int {
 	}
 	return cnt // 最后返回cnt即可
 }
-```
+// ```

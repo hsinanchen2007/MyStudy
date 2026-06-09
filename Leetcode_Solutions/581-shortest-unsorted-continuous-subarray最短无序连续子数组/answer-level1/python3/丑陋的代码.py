@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
         l = -1
@@ -11,4 +11,4 @@ class Solution:
             if nums[n-1-i] != a[n-1-i] and r ==-1:
                 r = n-1-i
         return r-l+1 if l!=-1 and r!=-1 else 0
-```
+# ```

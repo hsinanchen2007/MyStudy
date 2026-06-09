@@ -1,6 +1,6 @@
-简单的标记遍历和剪枝
+// 简单的标记遍历和剪枝
 
-```
+// ```
 class Solution {
     TreeNode ans = null;
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -46,4 +46,4 @@ class Solution {
 
 
 }
-```
+// ```

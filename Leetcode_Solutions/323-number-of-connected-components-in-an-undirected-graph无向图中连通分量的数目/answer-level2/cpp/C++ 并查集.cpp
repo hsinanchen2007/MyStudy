@@ -1,4 +1,4 @@
-```
+// ```
 class UF {
 private:
   vector<int>parents;
@@ -78,4 +78,4 @@ public:
 
   }
 };
-```
+// ```

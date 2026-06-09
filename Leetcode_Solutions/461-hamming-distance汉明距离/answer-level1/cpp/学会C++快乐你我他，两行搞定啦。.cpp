@@ -1,5 +1,5 @@
-学会C++快乐你我他，两行搞定啦。
-```c++ []
+// 学会C++快乐你我他，两行搞定啦。
+// ```c++ []
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -7,4 +7,4 @@ public:
         return r.count();
     }
 };
-```
+// ```

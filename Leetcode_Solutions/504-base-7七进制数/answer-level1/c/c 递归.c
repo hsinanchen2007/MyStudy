@@ -1,8 +1,8 @@
-![QGQUE2DXN0U~9PMC09AW98Q.png](https://pic.leetcode-cn.com/9f4fddcd9635466937eeafbf7e64289dafad4adb60c500aa7a488d477575913f-QGQUE2DXN0U~9PMC09AW98Q.png)
+// ![QGQUE2DXN0U~9PMC09AW98Q.png](https://pic.leetcode-cn.com/9f4fddcd9635466937eeafbf7e64289dafad4adb60c500aa7a488d477575913f-QGQUE2DXN0U~9PMC09AW98Q.png)
 
 
 
-```
+// ```
 /**
 *
 *整体思路：
@@ -69,4 +69,4 @@ char * convertToBase7( int num ){
     return buffer;
 
 }
-```
+// ```

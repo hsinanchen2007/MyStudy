@@ -1,14 +1,14 @@
-### 解题思路
-找合法路径，递归实现，复杂度ok，内存稍大。result可以用链表代替，但估计优化不了太多
-open --- closed暂时不配对没关系，走到底再看
-open  <= closed后续无法补救，该分支无须继续
+// ### 解题思路
+// 找合法路径，递归实现，复杂度ok，内存稍大。result可以用链表代替，但估计优化不了太多
+// open --- closed暂时不配对没关系，走到底再看
+// open  <= closed后续无法补救，该分支无须继续
 
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :11.7 MB, 在所有 C 提交中击败了70.83%的用户
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :11.7 MB, 在所有 C 提交中击败了70.83%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -61,4 +61,4 @@ char ** generateParenthesis(int n, int* returnSize){
     free(parenthese);
     return result;
 }
-```
+// ```

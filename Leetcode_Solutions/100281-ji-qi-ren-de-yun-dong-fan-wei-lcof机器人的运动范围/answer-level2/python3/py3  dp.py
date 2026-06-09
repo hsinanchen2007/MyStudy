@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         ans = 0
@@ -25,4 +25,4 @@ class Solution:
             check(x+1, y)
         check()
         return ans
-```
+# ```

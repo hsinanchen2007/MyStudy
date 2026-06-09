@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def getRow(rowIndex: Int): List[Int] = {
     val arr = Array.ofDim[Int](rowIndex + 1)
@@ -12,4 +12,4 @@ object Solution {
     return arr.toList
   }
 }
-```
+// ```

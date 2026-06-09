@@ -1,9 +1,9 @@
-### 解题思路
-先把链表转成数组，然后每次将数组中位数放在根节点，左右子数组作为左右子树
+# ### 解题思路
+# 先把链表转成数组，然后每次将数组中位数放在根节点，左右子数组作为左右子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
         alist.append(head.val)
         return generate_Tree(alist)
 
-```
+# ```

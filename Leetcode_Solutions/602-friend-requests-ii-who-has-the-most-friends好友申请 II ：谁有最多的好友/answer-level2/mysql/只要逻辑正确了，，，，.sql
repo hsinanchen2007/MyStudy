@@ -1,9 +1,9 @@
-### 解题思路
-耗时这个东西，，，怎么优化？
+-- ### 解题思路
+-- 耗时这个东西，，，怎么优化？
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 
 
 select id ,count(*) num 
@@ -18,4 +18,4 @@ group by id
 order by num desc
 limit 1 
 
-```
+-- ```

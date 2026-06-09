@@ -1,7 +1,7 @@
-执行用时 :68 ms, 在所有 JavaScript 提交中击败了97.66%的用户
+// 执行用时 :68 ms, 在所有 JavaScript 提交中击败了97.66%的用户
 
-内存消耗 :33.5 MB, 在所有 JavaScript 提交中击败了79.44%的用户
-```
+// 内存消耗 :33.5 MB, 在所有 JavaScript 提交中击败了79.44%的用户
+// ```
 /**
 * @param {number[]} digits
 * @return {number[]}
@@ -24,4 +24,4 @@ var plusOne = function(digits) {
     }
     return digits;
 };
-```
+// ```

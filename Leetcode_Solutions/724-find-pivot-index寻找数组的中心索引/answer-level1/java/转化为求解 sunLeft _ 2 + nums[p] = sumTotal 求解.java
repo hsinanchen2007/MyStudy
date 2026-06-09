@@ -1,8 +1,8 @@
-1. sumLeft + sumRight + nums[p] = sumTotal;
-2. sumLeft = sumRight
-3. 可以得出 sumLeft * 2 + nums[p] = sumTotal;
+// 1. sumLeft + sumRight + nums[p] = sumTotal;
+// 2. sumLeft = sumRight
+// 3. 可以得出 sumLeft * 2 + nums[p] = sumTotal;
 
-```
+// ```
         int sumTotal = 0;
         int sumLeft = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -16,4 +16,4 @@
             sumLeft += nums[p];
         }
         return -1;
-```
+// ```

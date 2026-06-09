@@ -1,9 +1,9 @@
-### 解题思路
-flag标志位 识别是否开始连续计算节点
+// ### 解题思路
+// flag标志位 识别是否开始连续计算节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
     	
     }
 }
-```
+// ```

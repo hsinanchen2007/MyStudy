@@ -1,12 +1,12 @@
-### 解题思路
-128位 ascii 码，最后记录出现奇数次的数字个数。
+// ### 解题思路
+// 128位 ascii 码，最后记录出现奇数次的数字个数。
 
-### 缺陷
-从字母 a 到字母 Z 应该不需要 128位，可以改进，不过我懒。
+// ### 缺陷
+// 从字母 a 到字母 Z 应该不需要 128位，可以改进，不过我懒。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         if (s == null) return 0;
@@ -26,4 +26,4 @@ class Solution {
         return odd > 1 ? len - odd + 1 : len;
     }
 }
-```
+// ```

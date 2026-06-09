@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/998dcd74f475987d04ebd39ee434ca2346cb4af2d1393d54e210bcdb5f91a641-image.png)
+// ![image.png](https://pic.leetcode-cn.com/998dcd74f475987d04ebd39ee434ca2346cb4af2d1393d54e210bcdb5f91a641-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 思路：
 
 我们遍历去尝试 N 皇后的位置时，采用逐行尝试的方式，尝试完第一行、尝试第二行、
@@ -27,11 +27,11 @@ undefined： 为可以放置
   - 右对角线 '\' ：两个点的 列数 - 行数 相等
 
 开撸。。代码
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[][]}
@@ -98,4 +98,4 @@ var solveNQueens = function(n) {
   
   return ans;
 };
-```
+// ```

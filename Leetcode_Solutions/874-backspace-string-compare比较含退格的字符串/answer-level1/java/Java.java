@@ -1,16 +1,16 @@
-### 解题思路
-时间O(m+n) 空间O(m+n)
+// ### 解题思路
+// 时间O(m+n) 空间O(m+n)
 
-1. 直接stringbuilder操作
+// 1. 直接stringbuilder操作
 
-2. 两个栈 遇到'#'并且不为空就pop 否则push 最后比较两个栈的内容 全部相同就返回true 否则false
+// 2. 两个栈 遇到'#'并且不为空就pop 否则push 最后比较两个栈的内容 全部相同就返回true 否则false
 
-时间O(m+n) 空间O(1)
-1. 双指针逆向遍历 两个指针都从末尾元素位置开始 再用两个counter分别保存两个指针各自需要跳过的字符数。进行循环：只要指针位置都合法 把每个指针移到他们分别需要停下的位置： 检查下ij越界没有，比较ij位置字母 不等则不相同 再更新ij越过这个字符
+// 时间O(m+n) 空间O(1)
+// 1. 双指针逆向遍历 两个指针都从末尾元素位置开始 再用两个counter分别保存两个指针各自需要跳过的字符数。进行循环：只要指针位置都合法 把每个指针移到他们分别需要停下的位置： 检查下ij越界没有，比较ij位置字母 不等则不相同 再更新ij越过这个字符
 
-### 代码
-双指针
-```java
+// ### 代码
+// 双指针
+// ```java
 class Solution {
     public boolean backspaceCompare(String S, String T) {
         int i = S.length() - 1, j = T.length() - 1;
@@ -33,10 +33,10 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-用栈
-```
+// 用栈
+// ```
 class Solution {
 
     public boolean backspaceCompare(String S, String T) {
@@ -60,10 +60,10 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-直接操作
-```
+// 直接操作
+// ```
 class Solution {
 
     public boolean backspaceCompare(String S, String T) {
@@ -88,5 +88,5 @@ class Solution {
         return s1.toString().equals(s2.toString());
     }
 }
-```
+// ```
 

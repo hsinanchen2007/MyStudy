@@ -1,9 +1,9 @@
-### 解题思路
-这道题的关键在于状态的转移，一个状态要遍历前面的n个状态才能得到，其实就是序列的划分
+// ### 解题思路
+// 这道题的关键在于状态的转移，一个状态要遍历前面的n个状态才能得到，其实就是序列的划分
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCut(String s) {
         int len = s.length();
@@ -29,4 +29,4 @@ class Solution {
         return s1.equals(s);
     }
 }
-```
+// ```

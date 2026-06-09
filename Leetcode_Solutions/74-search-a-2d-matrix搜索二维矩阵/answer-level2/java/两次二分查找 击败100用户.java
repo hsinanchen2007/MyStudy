@@ -1,10 +1,10 @@
-两次二分查找 击败100用户
+// 两次二分查找 击败100用户
 
-第一次：target与中间行的最后一个元素比较
-第二次：找到target应该所属的row,在row中取mid进行比较
+// 第一次：target与中间行的最后一个元素比较
+// 第二次：找到target应该所属的row,在row中取mid进行比较
 
 
-```
+// ```
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix == null || matrix.length == 0 || matrix[0].length == 0) return false;
@@ -32,4 +32,4 @@ class Solution {
         else return false;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-不过脑子的暴力
+// 不过脑子的暴力
 
-```swift
+// ```swift
 class Solution {
     func numsSameConsecDiff(_ N: Int, _ K: Int) -> [Int] {
         if N == 1 {
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

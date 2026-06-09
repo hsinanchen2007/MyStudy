@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/50a3132e556979758e60c1be0f752d470d9cae6bdffdbebbadcc0fb1f29bab6d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/50a3132e556979758e60c1be0f752d470d9cae6bdffdbebbadcc0fb1f29bab6d-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 借用作者：coder_hezi 的思路和题解，解释的非常清楚
 动态规划
 别怪我写的这么完整
@@ -11,11 +11,11 @@ dp[7]=dp[6]+dp[4]+dp[3]
 其实就是说7的组合数可以由三部分组成，1和dp[6]，3和dp[4],4和dp[3];
 int[]dp=new int[target+1];
 是为了算上自己的情况，比如dp[1]可以由dp【0】和1这个数的这种情况组成。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -64,4 +64,4 @@ var combinationSum4 = function(nums, target) {
   
 //   return ans;
 // };
-```
+// ```

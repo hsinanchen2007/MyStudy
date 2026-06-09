@@ -1,9 +1,9 @@
-### 解题思路
-记录每一行的元素与第一个元素之间的相对关系，将其放入map里面，相同的+1,最后返回最大值即可。
+// ### 解题思路
+// 记录每一行的元素与第一个元素之间的相对关系，将其放入map里面，相同的+1,最后返回最大值即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxEqualRowsAfterFlips(vector<vector<int>>& matrix) {
@@ -33,4 +33,4 @@ public:
         return maxNum;
     }
 };
-```
+// ```

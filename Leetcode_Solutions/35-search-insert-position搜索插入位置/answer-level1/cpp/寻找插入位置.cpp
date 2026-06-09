@@ -1,9 +1,9 @@
-### 解题思路
-找到第一个大于目标值的数值，如果原数组里有target值，则返回对应下标；如果没有则返回插入下标
+// ### 解题思路
+// 找到第一个大于目标值的数值，如果原数组里有target值，则返回对应下标；如果没有则返回插入下标
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -19,4 +19,4 @@ public:
         return i; 
     }
 };
-```
+// ```

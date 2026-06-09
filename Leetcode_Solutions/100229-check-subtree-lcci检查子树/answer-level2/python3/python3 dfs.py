@@ -1,10 +1,10 @@
-### 解题思路
-先找t1中t2结点
-找到后进行dfs，确认子树和t2的子树完全相同，否则返回FALSE
+# ### 解题思路
+# 先找t1中t2结点
+# 找到后进行dfs，确认子树和t2的子树完全相同，否则返回FALSE
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
             return self.dfs(t1.left,t2.left) and self.dfs(t1.right,t2.right)
 
 
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-dfs遍历grid，找出每个岛并保存最大岛面积。
+# ### 解题思路
+# dfs遍历grid，找出每个岛并保存最大岛面积。
 
-虽然这么写比较慢，但看起来爽啊。需要注意的是max(*[0])居然会报错，不知什么缘故。
+# 虽然这么写比较慢，但看起来爽啊。需要注意的是max(*[0])居然会报错，不知什么缘故。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         if grid==[]:
@@ -23,4 +23,4 @@ def island_scan(l,i,j):
                      filter(lambda x:0<=x[0]<m and 0<=x[1]<n and l[x[0]][x[1]]==1,
                             [(i-1,j),(i+1,j),(i,j-1),(i,j+1)])])
     return land_size
-```
+# ```

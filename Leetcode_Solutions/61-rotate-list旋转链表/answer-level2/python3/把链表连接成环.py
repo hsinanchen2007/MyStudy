@@ -1,8 +1,8 @@
-1. 把链表连接成环
-2. 不使用双指针从后往前数k，而是在找尾指针的时候顺便把链表长度给统计了，然后用长度减去需要往前数的k位得到正向后移的位数。
-3. 正向后移，然后把环断开。
+# 1. 把链表连接成环
+# 2. 不使用双指针从后往前数k，而是在找尾指针的时候顺便把链表长度给统计了，然后用长度减去需要往前数的k位得到正向后移的位数。
+# 3. 正向后移，然后把环断开。
 
-```python []
+# ```python []
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         if not head or not k: return head
@@ -19,4 +19,4 @@ class Solution:
         r = temp.next
         temp.next = None
         return r
-```
+# ```

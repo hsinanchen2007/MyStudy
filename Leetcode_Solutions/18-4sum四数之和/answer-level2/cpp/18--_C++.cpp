@@ -1,9 +1,9 @@
-### 解题思路
-和三数之和相同的思想，只不过是多了一层循环
+// ### 解题思路
+// 和三数之和相同的思想，只不过是多了一层循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target){
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

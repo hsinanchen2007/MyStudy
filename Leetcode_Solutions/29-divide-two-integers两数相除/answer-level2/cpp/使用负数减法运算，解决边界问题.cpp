@@ -1,11 +1,11 @@
-边界问题：
-1. dividend = INT_MIN, 执行abs(dividend)转换为正整数时溢出；
-2. divisor = INT_MIN， 执行abs(divisor)转换时溢出；
-3. 当dividend = INT_MIN， divisor = -1时结果res溢出;
-为了避免过多的讨论边界问题，将除数和被除数都转换为负数，结果res也用负数计算,
-采用的[@powcai](/u/powcai)“倍增除数减法“。
+// 边界问题：
+// 1. dividend = INT_MIN, 执行abs(dividend)转换为正整数时溢出；
+// 2. divisor = INT_MIN， 执行abs(divisor)转换时溢出；
+// 3. 当dividend = INT_MIN， divisor = -1时结果res溢出;
+// 为了避免过多的讨论边界问题，将除数和被除数都转换为负数，结果res也用负数计算,
+// 采用的[@powcai](/u/powcai)“倍增除数减法“。
 
-```
+// ```
 class Solution {
 public:
 	int divide(int dividend, int divisor) {
@@ -37,6 +37,6 @@ public:
 		return INT_MAX;
 	}
 };
-```
+// ```
 
 

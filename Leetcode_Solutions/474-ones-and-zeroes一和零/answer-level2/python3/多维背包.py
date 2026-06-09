@@ -1,7 +1,7 @@
-发现 0 和 1 的数量为价值，并且价值也是体积。所以开一个二维的 01 背包就搞定了。
-整体没有什么坑。
+# 发现 0 和 1 的数量为价值，并且价值也是体积。所以开一个二维的 01 背包就搞定了。
+# 整体没有什么坑。
 
-```python
+# ```python
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         if len(strs) == 0:
@@ -14,4 +14,4 @@ class Solution:
                 for j in range(n, _1s - 1, -1): 
                     dp[i][j] = max(dp[i][j], dp[i - _0s][j - _1s] + 1)
         return dp[m][n]
-```
+# ```

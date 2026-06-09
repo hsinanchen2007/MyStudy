@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         HashSet<String> set = new HashSet();
@@ -18,4 +18,4 @@ class Solution {
         return set.size();
     }
 }
-```
+// ```

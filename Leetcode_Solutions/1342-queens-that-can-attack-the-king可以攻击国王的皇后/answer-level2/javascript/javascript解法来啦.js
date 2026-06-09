@@ -1,4 +1,4 @@
-```
+// ```
 var queensAttacktheKing = function(queens, king) {
   //从king出发
   let dx=[0,0,1,-1,1,-1,1,-1]//8个方向
@@ -26,4 +26,4 @@ var queensAttacktheKing = function(queens, king) {
   }
     return res
 };
-```
+// ```

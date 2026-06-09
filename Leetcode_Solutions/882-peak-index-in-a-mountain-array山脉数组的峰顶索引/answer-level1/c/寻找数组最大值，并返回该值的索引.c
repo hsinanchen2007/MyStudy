@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int peakIndexInMountainArray(int* A, int ASize)
 {
     //入参判断
@@ -24,4 +24,4 @@ int peakIndexInMountainArray(int* A, int ASize)
     }
     return index;
 }
-```
+// ```

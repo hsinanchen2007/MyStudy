@@ -1,9 +1,9 @@
-### 解题思路
-跟用栈实现队列差不多，就是pop的时候，应该pop的是刚刚push进队列的元素，为了实现这一点，可以在push之前，利用另一个队列，将当前队列清空，然后push元素，再将另一个队列的元素push回来。
+// ### 解题思路
+// 跟用栈实现队列差不多，就是pop的时候，应该pop的是刚刚push进队列的元素，为了实现这一点，可以在push之前，利用另一个队列，将当前队列清空，然后push元素，再将另一个队列的元素push回来。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN 100
 typedef struct {
     int front;
@@ -87,4 +87,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

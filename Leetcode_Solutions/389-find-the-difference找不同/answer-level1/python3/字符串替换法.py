@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findTheDifference(self, s, t):
         """
@@ -11,5 +11,5 @@ class Solution(object):
                 t = t.replace(i,'',1)
         return t
 
-```
-遍历一遍s，只要在t中就用空字符串替换t中的当前字符最后输出t即可
+# ```
+# 遍历一遍s，只要在t中就用空字符串替换t中的当前字符最后输出t即可

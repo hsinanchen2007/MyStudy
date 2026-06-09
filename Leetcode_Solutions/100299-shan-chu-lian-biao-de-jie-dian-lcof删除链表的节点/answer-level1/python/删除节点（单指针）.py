@@ -1,9 +1,9 @@
-### 解题思路
-常规套路删除节点
+# ### 解题思路
+# 常规套路删除节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,5 +25,5 @@ class Solution:
         if found:
             temp_node.next = temp_node.next.next
         return head
-```
+# ```
 

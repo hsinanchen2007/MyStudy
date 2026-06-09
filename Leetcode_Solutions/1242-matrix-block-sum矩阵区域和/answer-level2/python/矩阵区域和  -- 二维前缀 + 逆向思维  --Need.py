@@ -1,13 +1,13 @@
-### 解题思路
-1. [元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/solution/yuan-su-he-xiao-yu-deng-yu-yu-zhi-de-zheng-fang-2/)
-    - 暴力求解写无bug代码，也不容易
-    - 二维前缀
+# ### 解题思路
+# 1. [元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/solution/yuan-su-he-xiao-yu-deng-yu-yu-zhi-de-zheng-fang-2/)
+#     - 暴力求解写无bug代码，也不容易
+#     - 二维前缀
 
-2. **逆向思维，通过间接求救，几何图形的组合求解，使得复杂问题变得简答**
+# 2. **逆向思维，通过间接求救，几何图形的组合求解，使得复杂问题变得简答**
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 ''''
 class Solution:
     
@@ -77,4 +77,4 @@ class Solution:
 
     
     # Wrong 4: TimeOut....
-```
+# ```

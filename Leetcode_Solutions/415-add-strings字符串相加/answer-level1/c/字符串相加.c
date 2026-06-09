@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，逐位相加，模拟进位
-有道类似的题，叫二进制字符串相加。代码大同小异
-### 代码
+// ### 解题思路
+// 常规思路，逐位相加，模拟进位
+// 有道类似的题，叫二进制字符串相加。代码大同小异
+// ### 代码
 
-```c
+// ```c
 char * addStrings(char * num1, char * num2){
     int len_num1,len_num2,i,j,k,carry;
     len_num1=strlen(num1);len_num2=strlen(num2);
@@ -25,4 +25,4 @@ char * addStrings(char * num1, char * num2){
     res[0]='1';
     return res;
 }
-```
+// ```

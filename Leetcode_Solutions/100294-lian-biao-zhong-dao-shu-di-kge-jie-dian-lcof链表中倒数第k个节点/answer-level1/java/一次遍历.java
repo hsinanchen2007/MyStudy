@@ -1,8 +1,8 @@
-### 解题思路
-参考 leetcode1 9. 删除链表的倒数第N个节点
-### 代码
+// ### 解题思路
+// 参考 leetcode1 9. 删除链表的倒数第N个节点
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
        return slow;
     }
 }
-```
+// ```

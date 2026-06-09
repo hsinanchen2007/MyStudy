@@ -1,6 +1,6 @@
-java List 解决问题
+// java List 解决问题
 
-```
+// ```
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         List<Integer> list = new ArrayList<>();
@@ -13,4 +13,4 @@ class Solution {
         return list.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
-```
+// ```

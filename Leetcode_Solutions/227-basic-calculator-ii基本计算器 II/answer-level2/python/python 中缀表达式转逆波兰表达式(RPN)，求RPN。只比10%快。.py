@@ -1,4 +1,4 @@
-```
+# ```
 OPT = {'+', '-', '*', '/'}
 
 
@@ -96,7 +96,7 @@ class Solution(object):
         :rtype: int
         """
         return evalRPN(toRPN(s))
-```
-toRPN用来把表达式编程RPN。借助Reader用来把字符串变成 数字或者表达式 组成的列表。cmp_opt在toRPN的时候帮忙比较操作符的顺序。
-evalRPN计算RPN的值。
+# ```
+# toRPN用来把表达式编程RPN。借助Reader用来把字符串变成 数字或者表达式 组成的列表。cmp_opt在toRPN的时候帮忙比较操作符的顺序。
+# evalRPN计算RPN的值。
 

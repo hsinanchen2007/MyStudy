@@ -1,9 +1,9 @@
-### 解题思路
-个人觉得key,value分开放比较直观
+# ### 解题思路
+# 个人觉得key,value分开放比较直观
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyHashMap:
 
     def __init__(self):
@@ -45,4 +45,4 @@ class MyHashMap:
 # obj.put(key,value)
 # param_2 = obj.get(key)
 # obj.remove(key)
-```
+# ```

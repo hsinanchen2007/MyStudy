@@ -1,5 +1,5 @@
-在《挑战程序设计竞赛》中见过这道题。。。
-```
+// 在《挑战程序设计竞赛》中见过这道题。。。
+// ```
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return ans;
     }
 };
-```
+// ```

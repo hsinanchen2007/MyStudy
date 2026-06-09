@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isSymmetric_1(TreeNode* root) {
@@ -77,4 +77,4 @@ private:
         return (compare(ltree->left, rtree->right) && compare(ltree->right, rtree->left));        
     }
 };
-```
+// ```

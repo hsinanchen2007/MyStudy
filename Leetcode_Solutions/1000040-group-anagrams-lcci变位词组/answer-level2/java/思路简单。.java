@@ -1,5 +1,5 @@
 
-```java []
+// ```java []
 class Solution {
     //思路，使用单词进行字典排序，使用map的value，记录单词的位置。
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -32,5 +32,5 @@ class Solution {
         return  ret;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/132e3840261ddf83779434b282969ee1c44ffcaf0093c4b0536e567bb86b72a5-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/132e3840261ddf83779434b282969ee1c44ffcaf0093c4b0536e567bb86b72a5-image.png)

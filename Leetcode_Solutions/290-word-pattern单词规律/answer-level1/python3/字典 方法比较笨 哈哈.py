@@ -1,4 +1,4 @@
-```
+# ```
     def wordPattern(self, pattern: str, str: str) -> bool:
         str_list=str.split(" ")
         if len(pattern)!=len(str_list):
@@ -17,4 +17,4 @@
             else:
                 j+=1
         return True
-```
+# ```

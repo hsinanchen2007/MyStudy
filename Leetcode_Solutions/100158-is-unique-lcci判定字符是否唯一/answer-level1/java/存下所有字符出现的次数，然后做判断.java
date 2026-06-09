@@ -1,6 +1,6 @@
-常见的字符有128个就设数组长度128了
-这个也是双100precent
-```
+// 常见的字符有128个就设数组长度128了
+// 这个也是双100precent
+// ```
 class Solution {
     public boolean isUnique(String astr) {
         int[] count = new int[128];
@@ -13,4 +13,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

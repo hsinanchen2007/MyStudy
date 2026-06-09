@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，将数组的值当作key放到map中，值出现的次数当作value，当某一个value值达到n/2时就返回该值
+// ### 解题思路
+// 遍历数组，将数组的值当作key放到map中，值出现的次数当作value，当某一个value值达到n/2时就返回该值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int n = nums.length/2;
@@ -22,4 +22,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

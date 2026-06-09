@@ -1,8 +1,8 @@
-给树中的每一个节点进行编码，根节点为0，然后如果是左节点，值为根节点的二倍；如果是右节点，值为根节点的二倍加一，这样编出来的码就如图所示。
-![QQ截图20190815173647.png](https://pic.leetcode-cn.com/e9d7208a8bdc787df3c5856d1d6d14a5bd4075ef211596e06c12103281b154a1-QQ%E6%88%AA%E5%9B%BE20190815173647.png)
-再将每一层对应的编码放入一个hash表，求出每一层节点中编码的最大差值即为答案
+# 给树中的每一个节点进行编码，根节点为0，然后如果是左节点，值为根节点的二倍；如果是右节点，值为根节点的二倍加一，这样编出来的码就如图所示。
+# ![QQ截图20190815173647.png](https://pic.leetcode-cn.com/e9d7208a8bdc787df3c5856d1d6d14a5bd4075ef211596e06c12103281b154a1-QQ%E6%88%AA%E5%9B%BE20190815173647.png)
+# 再将每一层对应的编码放入一个hash表，求出每一层节点中编码的最大差值即为答案
 
-```python []
+# ```python []
 class Solution:
     def widthOfBinaryTree(self, root: TreeNode) -> int:
         if root==None:  #特殊判定
@@ -21,4 +21,4 @@ class Solution:
         for x in temp: #找到每一层中的编号最大差值，即为所求
             res=max(res,temp[x][len(temp[x])-1]-temp[x][0]+1)
         return res
-```
+# ```

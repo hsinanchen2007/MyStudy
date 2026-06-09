@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-感谢题目中提供的图。
-一层一层算，计算每层的山头之间的空格数
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 感谢题目中提供的图。
+// 一层一层算，计算每层的山头之间的空格数
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun trap(height: IntArray): Int {
         var biggest = 0
@@ -37,4 +37,4 @@ class Solution {
         return count + anotherTrap(height, num - 1)
     }
 }
-```
+// ```

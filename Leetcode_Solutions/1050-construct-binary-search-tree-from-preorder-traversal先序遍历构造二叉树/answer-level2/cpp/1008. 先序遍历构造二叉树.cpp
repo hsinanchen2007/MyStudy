@@ -1,7 +1,7 @@
-直接按照先序遍历的思维来，逆向恢复即可。  
-具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/1008.construct_binary_search_tree_from_preorder_traversal)
+// 直接按照先序遍历的思维来，逆向恢复即可。  
+// 具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/1008.construct_binary_search_tree_from_preorder_traversal)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -66,7 +66,7 @@ public:
         return root;
     }
 };
-```
+// ```
 
-> 执行用时 :4 ms, 在所有 C++ 提交中击败了96.01%的用户                                                                                                                                                                                                     
-内存消耗 :9 MB, 在所有 C++ 提交中击败了87.58%的用户 
+// > 执行用时 :4 ms, 在所有 C++ 提交中击败了96.01%的用户                                                                                                                                                                                                     
+// 内存消耗 :9 MB, 在所有 C++ 提交中击败了87.58%的用户 

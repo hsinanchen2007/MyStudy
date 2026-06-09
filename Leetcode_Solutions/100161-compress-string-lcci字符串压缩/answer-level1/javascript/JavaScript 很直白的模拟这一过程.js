@@ -1,5 +1,5 @@
-> 感觉这应该不需要解释了吧，直接看代码吧。
-```js
+// > 感觉这应该不需要解释了吧，直接看代码吧。
+// ```js
 var compressString = function (S) {
   if (S.length === 0) return S;
   let _s = ""
@@ -21,4 +21,4 @@ var compressString = function (S) {
     return S
   }
 };
-```
+// ```

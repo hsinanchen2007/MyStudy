@@ -1,9 +1,9 @@
-### 解题思路
-第I次使用I-1次的结果
+// ### 解题思路
+// 第I次使用I-1次的结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> l = new ArrayList<Integer>();
@@ -38,4 +38,4 @@ class Solution {
 		return l;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-分成k次删1个数字最小值得解法
-多个前后0的情况要考虑完整
-### 代码
+// ### 解题思路
+// 分成k次删1个数字最小值得解法
+// 多个前后0的情况要考虑完整
+// ### 代码
 
-```c
+// ```c
 void removeOnedigits(char *num){
     int len = strlen(num);
     if (len == 0) {
@@ -63,4 +63,4 @@ char * removeKdigits(char * num, int k){
     }
     return num;
 }
-```
+// ```

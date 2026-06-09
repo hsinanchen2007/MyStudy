@@ -1,9 +1,9 @@
-### 解题思路
-要注意限制条件
+// ### 解题思路
+// 要注意限制条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int rows = obstacleGrid.length;
@@ -29,4 +29,4 @@ class Solution {
         return memo[rows - 1][cols - 1];
     }
 }
-```
+// ```

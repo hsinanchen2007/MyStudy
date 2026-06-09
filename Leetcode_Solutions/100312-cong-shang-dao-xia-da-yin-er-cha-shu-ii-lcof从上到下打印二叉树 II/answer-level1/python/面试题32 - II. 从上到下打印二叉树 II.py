@@ -1,9 +1,9 @@
-### 解题思路
-**1.迭代 BFS**
+# ### 解题思路
+# **1.迭代 BFS**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -33,11 +33,11 @@ class Solution(object):
         ans.append(temp)
         return ans
 
-```
-### 解题思路
-**2.哈希表 递归**
+# ```
+# ### 解题思路
+# **2.哈希表 递归**
 
-```python
+# ```python
 
 class Solution(object):
     def levelOrder(self, root):
@@ -59,4 +59,4 @@ class Solution(object):
             ans.append(c[1])
         return ans
 
-```
+# ```

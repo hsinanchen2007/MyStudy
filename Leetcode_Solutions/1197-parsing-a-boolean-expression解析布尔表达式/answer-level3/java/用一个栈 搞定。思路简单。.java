@@ -1,9 +1,9 @@
-### 解题思路
-用一个栈，碰到')'就一直pop，得到false和true，直到碰到'('。碰到'('后，空pop一下，取出前面的运算符!或者&或者|。把运算结果在压入栈。
+// ### 解题思路
+// 用一个栈，碰到')'就一直pop，得到false和true，直到碰到'('。碰到'('后，空pop一下，取出前面的运算符!或者&或者|。把运算结果在压入栈。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean parseBoolExpr(String expression) {
         boolean ret = true ;
@@ -59,4 +59,4 @@ class Solution {
 
     }
 }
-```
+// ```

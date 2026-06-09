@@ -1,6 +1,6 @@
-执行用时 :1 ms, 在所有 java 提交中击败了99.81% 的用户
-内存消耗 :36.2 MB, 在所有 java 提交中击败了61.41%的用户
-```
+// 执行用时 :1 ms, 在所有 java 提交中击败了99.81% 的用户
+// 内存消耗 :36.2 MB, 在所有 java 提交中击败了61.41%的用户
+// ```
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> AL = new ArrayList();
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

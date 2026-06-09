@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -25,4 +25,4 @@ function func(root){
     func(root.left);
     func(root.right);
 }
-```
+// ```

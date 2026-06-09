@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String removeDuplicates(String S) {
         StringBuilder sB = new StringBuilder();
@@ -12,4 +12,4 @@ class Solution {
         return sB.toString();
     }
 }
-```
+// ```

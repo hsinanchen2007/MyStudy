@@ -1,16 +1,16 @@
-# 题目描述（简单难度）
+// # 题目描述（简单难度）
 
-![](https://pic.leetcode-cn.com/f0c96ee61a19f45dde01d464853b7cde4bee1fd22808c238110bb87675330b8b.jpg)
+// ![](https://pic.leetcode-cn.com/f0c96ee61a19f45dde01d464853b7cde4bee1fd22808c238110bb87675330b8b.jpg)
 
-判断一个字符串是否是回文串，忽略掉除了字母和数字外的字符。
+// 判断一个字符串是否是回文串，忽略掉除了字母和数字外的字符。
 
-# 解法一
+// # 解法一
 
-两个指针，一个指针从头进行，一个指针从尾部进行。依次判断两个指针的字符是否相等，同时要跳过非法字符。需要注意的是，两个指针不用从头到尾遍历，当两个指针相遇的时候就意味着这个字符串是回文串了。
+// 两个指针，一个指针从头进行，一个指针从尾部进行。依次判断两个指针的字符是否相等，同时要跳过非法字符。需要注意的是，两个指针不用从头到尾遍历，当两个指针相遇的时候就意味着这个字符串是回文串了。
 
-还需要注意的是 `'A' == 'a'` ，也就是大写字母和小写字母是相同的。
+// 还需要注意的是 `'A' == 'a'` ，也就是大写字母和小写字母是相同的。
 
-```java
+// ```java
 public boolean isPalindrome(String s) {
     int len = s.length();
     s = s.toLowerCase(); //统一转为小写
@@ -42,19 +42,19 @@ private boolean isAlphanumeric(char c) {
     }
     return false;
 }  
-```
+// ```
 
-# 解法二
+// # 解法二
 
-上边的是常规的思路，这里分享另一个 [思路](<https://leetcode.com/problems/valid-palindrome/discuss/39993/3ms-java-solution(beat-100-of-java-solution)>) 。
+// 上边的是常规的思路，这里分享另一个 [思路](<https://leetcode.com/problems/valid-palindrome/discuss/39993/3ms-java-solution(beat-100-of-java-solution)>) 。
 
-上边为了处理大小写字母的问题，首先全部统一为了小写。为了找出非法字符，每次都需要判断一下该字符是否在合法范围内。
+// 上边为了处理大小写字母的问题，首先全部统一为了小写。为了找出非法字符，每次都需要判断一下该字符是否在合法范围内。
 
-这里用一个技巧，把 `'0'` 到 `'10'` 映射到 `1` 到 `10`，`'a'` 到 `'z'` 映射到 `11` 到 `36` ，`'A'` 到 `'Z'` 也映射到 `11` 到 `36` 。然后把所有数字和字母用一个 `char` 数组存起来，没存的字符就默认映射到 `0` 了。
+// 这里用一个技巧，把 `'0'` 到 `'10'` 映射到 `1` 到 `10`，`'a'` 到 `'z'` 映射到 `11` 到 `36` ，`'A'` 到 `'Z'` 也映射到 `11` 到 `36` 。然后把所有数字和字母用一个 `char` 数组存起来，没存的字符就默认映射到 `0` 了。
 
-这样只需要判断字符串中每个字母映射过去的数字是否相等，如果是 `0` 就意味着它是非法字符。
+// 这样只需要判断字符串中每个字母映射过去的数字是否相等，如果是 `0` 就意味着它是非法字符。
 
-```java
+// ```java
 private static final char[] charMap = new char[256];
 
 static {
@@ -90,10 +90,10 @@ public boolean isPalindrome(String s) {
     }
     return true;
 }
-```
+// ```
 
-# 总
+// # 总
 
-很简单的一道题了，值得注意的就是解法二将所有字母进行映射，同时将大小写字母映射到同一个数字的想法，省了很多事，速度会提升一些。也可以做一下 [第 5 题](<https://leetcode.wang/leetCode-5-Longest-Palindromic-Substring.html>) ，给定一个字符串，找出最长的回文子串，里边的介绍的马拉车算法是真的太强了。
+// 很简单的一道题了，值得注意的就是解法二将所有字母进行映射，同时将大小写字母映射到同一个数字的想法，省了很多事，速度会提升一些。也可以做一下 [第 5 题](<https://leetcode.wang/leetCode-5-Longest-Palindromic-Substring.html>) ，给定一个字符串，找出最长的回文子串，里边的介绍的马拉车算法是真的太强了。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

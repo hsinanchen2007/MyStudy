@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         locate = {i : height[i] for i in range(len(height))}
@@ -23,4 +23,4 @@ class Solution:
                 if r0 > l and min(locate[l],locate[r0])*(r0 - l) > area:
                     area = min(locate[l],locate[r0])*(r0 - l)
         return area
-```
+# ```

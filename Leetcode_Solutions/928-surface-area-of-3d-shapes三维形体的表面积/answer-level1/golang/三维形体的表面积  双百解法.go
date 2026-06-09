@@ -1,6 +1,6 @@
-思想很简单依次遍历，主要优化是：由于由左上往右下遍历，因此可以省去对左和上的判断。
-![image.png](https://pic.leetcode-cn.com/68d251eb85d1ba196428680f92f8cd4d9da0221ef3358e5f12d5fd7e83250073-image.png)
-```
+// 思想很简单依次遍历，主要优化是：由于由左上往右下遍历，因此可以省去对左和上的判断。
+// ![image.png](https://pic.leetcode-cn.com/68d251eb85d1ba196428680f92f8cd4d9da0221ef3358e5f12d5fd7e83250073-image.png)
+// ```
 func GetMin(val1 int, val2 int) int {
     if val1 < val2 {
         return val1
@@ -33,4 +33,4 @@ func surfaceArea(grid [][]int) int {
 
     return cnt
 }
-```
+// ```

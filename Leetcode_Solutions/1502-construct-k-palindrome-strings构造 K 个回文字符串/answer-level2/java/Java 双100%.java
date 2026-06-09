@@ -1,6 +1,6 @@
-核心：记录多少个 奇数个数字符，总数 <= k则必然成立
+// 核心：记录多少个 奇数个数字符，总数 <= k则必然成立
 
-```
+// ```
     class Solution {
         public boolean canConstruct(String s, int k) {
             if(s.length()<k)return false;
@@ -13,4 +13,4 @@
             return !(odd>k);
         }
     }
-```
+// ```

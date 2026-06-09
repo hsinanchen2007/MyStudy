@@ -1,9 +1,9 @@
-### 解题思路
-排除不重叠的情况  rec2 在 rec1 的 上，右，下，左
+// ### 解题思路
+// 排除不重叠的情况  rec2 在 rec1 的 上，右，下，左
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -16,4 +16,4 @@ var isRectangleOverlap = function(rec1, rec2) {
     const [m1, n1, m2, n2] = rec2
     return !(  y2 <= n1 || x2 <= m1 || y1 >= n2 || x1 >= m2   )
 };
-```
+// ```

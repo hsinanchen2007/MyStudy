@@ -1,28 +1,28 @@
-### 解题思路
-总思路：
-能够接到的雨水面积 = 输入数组所构成的凸多边形面积（S1） - 输入数组面积（S2）
+# ### 解题思路
+# 总思路：
+# 能够接到的雨水面积 = 输入数组所构成的凸多边形面积（S1） - 输入数组面积（S2）
 
-S2:
-显然，S2 = sum(height[i])
+# S2:
+# 显然，S2 = sum(height[i])
 
-S1:
+# S1:
 
-在这里，我们使用两个指针（i，j)分别从左右两端遍历，每次移动之后增加斜线标识的面积到S1,示意图如下：
-![1.jpg](https://pic.leetcode-cn.com/2d024d2659675c83168ff8d0a673b9188665c5705b7666b163564ae78cfbd37a-1.jpg)
-![2.jpg](https://pic.leetcode-cn.com/bdbe6a66fdfbe6742bea957f792262b7cb6628c4cd05c8ca0bd400761c792b84-2.jpg)
+# 在这里，我们使用两个指针（i，j)分别从左右两端遍历，每次移动之后增加斜线标识的面积到S1,示意图如下：
+# ![1.jpg](https://pic.leetcode-cn.com/2d024d2659675c83168ff8d0a673b9188665c5705b7666b163564ae78cfbd37a-1.jpg)
+# ![2.jpg](https://pic.leetcode-cn.com/bdbe6a66fdfbe6742bea957f792262b7cb6628c4cd05c8ca0bd400761c792b84-2.jpg)
 
-要注意：
-1. 若当前左最高值高于右最高值，则左指针保持不动；右指针同理；
-2. 用一个变量pre记录前一次增加的斜线标识部分面积的高度，下一次增加的面积应是(min(height[i], height[j]) - pre) * (j - i + 1)
-3. 更新左右最大高度
-4. （最后返回时要注意无法接雨水的情况）
-
-
-
-### 代码
+# 要注意：
+# 1. 若当前左最高值高于右最高值，则左指针保持不动；右指针同理；
+# 2. 用一个变量pre记录前一次增加的斜线标识部分面积的高度，下一次增加的面积应是(min(height[i], height[j]) - pre) * (j - i + 1)
+# 3. 更新左右最大高度
+# 4. （最后返回时要注意无法接雨水的情况）
 
 
-```java []
+
+# ### 代码
+
+
+# ```java []
 class Solution {
     public int trap(int[] height) {
         int area = 0;
@@ -49,8 +49,8 @@ class Solution {
         return area_blue > 0 ? area_blue : 0;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def trap(self, height: List[int]) -> int:
         area = 0
@@ -75,6 +75,6 @@ class Solution:
             area_black += h
         area_blue = area - area_black
         return area_blue if area_blue > 0 else 0
-```
+# ```
 
 

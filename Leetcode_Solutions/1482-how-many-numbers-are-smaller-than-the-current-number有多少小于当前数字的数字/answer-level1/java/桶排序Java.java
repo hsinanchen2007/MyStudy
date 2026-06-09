@@ -1,9 +1,9 @@
-### 解题思路
-这种比较大小的问题首先应该想到排序  
-其次需要统计个数 故使用桶排序
-### 代码
+// ### 解题思路
+// 这种比较大小的问题首先应该想到排序  
+// 其次需要统计个数 故使用桶排序
+// ### 代码
 
-```java
+// ```java
 import java.util.Arrays;
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

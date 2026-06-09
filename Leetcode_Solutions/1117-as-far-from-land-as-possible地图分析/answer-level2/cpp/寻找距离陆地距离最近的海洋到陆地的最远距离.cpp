@@ -1,9 +1,9 @@
-### 解题思路
-寻找距离陆地最近的海洋时采用BFS搜索，这样，当遇到grid=1的当前陆地就是距离当前海洋最近的陆地；BFS性质决定
+// ### 解题思路
+// 寻找距离陆地最近的海洋时采用BFS搜索，这样，当遇到grid=1的当前陆地就是距离当前海洋最近的陆地；BFS性质决定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -83,4 +83,4 @@ public:
 
     }
 };
-```
+// ```

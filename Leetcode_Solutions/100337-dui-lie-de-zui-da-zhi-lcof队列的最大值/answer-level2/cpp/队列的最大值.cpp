@@ -1,9 +1,9 @@
-### 解题思路
-两个队列  速度有点慢
+// ### 解题思路
+// 两个队列  速度有点慢
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
     queue<int> m_queue;
     deque<int> m_deque;
@@ -47,4 +47,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

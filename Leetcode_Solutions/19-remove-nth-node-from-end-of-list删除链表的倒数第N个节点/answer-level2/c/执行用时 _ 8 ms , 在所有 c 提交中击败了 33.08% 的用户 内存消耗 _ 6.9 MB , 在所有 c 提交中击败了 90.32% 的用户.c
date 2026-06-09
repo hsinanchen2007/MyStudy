@@ -1,9 +1,9 @@
-### 解题思路
-总共遍历两遍，第一遍先遍历出来链表的长度，之后就好弄了
+// ### 解题思路
+// 总共遍历两遍，第一遍先遍历出来链表的长度，之后就好弄了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // /**
 //  * Definition for singly-linked list.
 //  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     p->next=p->next->next;
     return head;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题感想
-1. 首先，一段大学练习的美好回忆。
-2. 通过count队列长度和capacity队列容量控制入队和出队，以及判空
+# ### 解题感想
+# 1. 首先，一段大学练习的美好回忆。
+# 2. 通过count队列长度和capacity队列容量控制入队和出队，以及判空
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Node:
     def __init__(self, value, next):
         self.value = value
@@ -85,4 +85,4 @@ class MyCircularQueue:
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()
-```
+# ```

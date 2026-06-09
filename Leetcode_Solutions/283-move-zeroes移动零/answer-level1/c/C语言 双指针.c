@@ -1,9 +1,9 @@
-### 解题思路
-双指针，就地交换
+// ### 解题思路
+// 双指针，就地交换
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void moveZeroes(int* nums, int numsSize){
 	int l, r;
 	int tmp;
@@ -29,4 +29,4 @@ void moveZeroes(int* nums, int numsSize){
 	}
 	return;
 }
-```
+// ```

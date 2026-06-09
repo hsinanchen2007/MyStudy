@@ -1,4 +1,4 @@
-JAVA 的简单实现
+// JAVA 的简单实现
 
 class Solution {
     public void deleteNode(ListNode node) {

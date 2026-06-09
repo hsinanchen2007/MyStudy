@@ -1,4 +1,4 @@
-```js
+// ```js
 var missingNumber = function(nums) {
     nums.sort((a, b) => a - b);
     for (let i = 0; i < nums.length; i++) {
@@ -8,6 +8,6 @@ var missingNumber = function(nums) {
     }
     return nums.length
 };
-```
+// ```
 
 

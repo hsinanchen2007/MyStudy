@@ -1,4 +1,4 @@
-```
+// ```
 //1.先求出两个字符串数组每个字符串的f(s)存放在两个vector(temp1,t2mp2)中
     vector<int>temp1, temp2;
     //对字符串数组queries求f(s)
@@ -45,4 +45,4 @@
         cout << n << endl;
     }
     return result;
-```
+// ```

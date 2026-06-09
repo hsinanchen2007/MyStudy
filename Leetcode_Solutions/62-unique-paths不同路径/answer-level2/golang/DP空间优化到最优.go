@@ -1,9 +1,9 @@
-### 解题思路
-一维数组做缓存 DP空间优化到最优
+// ### 解题思路
+// 一维数组做缓存 DP空间优化到最优
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 空间优化到O(n), 同一行可以缓存全部数据
 func uniquePaths(m int, n int) int {
      if m == 1 && n == 1 {
@@ -43,4 +43,4 @@ func uniquePaths(m int, n int) int {
     }
     return res[m - 1][n - 1]
 }*/
-```
+// ```

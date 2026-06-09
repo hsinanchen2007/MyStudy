@@ -1,10 +1,10 @@
-### 解题思路
-判断一下输入链表是不是空链表
-因为链表没有头结点，所以处理比有头节点的麻烦
+// ### 解题思路
+// 判断一下输入链表是不是空链表
+// 因为链表没有头结点，所以处理比有头节点的麻烦
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
 //到这，如果链表有头结点，是可以省略的
     return head;
 }
-```
+// ```

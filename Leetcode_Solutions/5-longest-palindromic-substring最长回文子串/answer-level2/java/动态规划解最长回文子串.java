@@ -1,12 +1,12 @@
-### 解题思路
-dp[i][j]表示第i到第j的子串是否为回文子串
-初始化dp[i][i]=True
-递推公式为：dp[i][j]=(dp[i+1][j-1]&&arr[i]==arr[j])
-在构建dp数组的时候，要先遍历j，再遍历i，否则会出错。且构建dp数组的时候，顺便统计最长的回文长度
+// ### 解题思路
+// dp[i][j]表示第i到第j的子串是否为回文子串
+// 初始化dp[i][i]=True
+// 递推公式为：dp[i][j]=(dp[i+1][j-1]&&arr[i]==arr[j])
+// 在构建dp数组的时候，要先遍历j，再遍历i，否则会出错。且构建dp数组的时候，顺便统计最长的回文长度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
 		if(s.equals("")){
@@ -43,4 +43,4 @@ class Solution {
 	
     }
 }
-```
+// ```

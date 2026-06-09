@@ -1,10 +1,10 @@
-### 解题思路
-dp
-num[i] = max(num[i-1],num[i-2]+num[i])
+// ### 解题思路
+// dp
+// num[i] = max(num[i-1],num[i-2]+num[i])
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::cmp::max;
 impl Solution {
 pub fn massage(mut nums: Vec<i32>) -> i32 {
@@ -17,4 +17,4 @@ pub fn massage(mut nums: Vec<i32>) -> i32 {
     nums.last().map_or(0, |&val| val)
 }
 }
-```
+// ```

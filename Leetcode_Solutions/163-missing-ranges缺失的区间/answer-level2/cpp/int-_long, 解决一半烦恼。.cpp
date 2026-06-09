@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/abdc8299c98b63b5a83375486361939ab88d65b0056a22475c3932896c642973-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/abdc8299c98b63b5a83375486361939ab88d65b0056a22475c3932896c642973-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
@@ -56,4 +56,4 @@ public:
         return res;
     }
 };
-```
+// ```

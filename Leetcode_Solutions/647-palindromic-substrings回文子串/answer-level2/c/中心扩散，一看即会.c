@@ -1,4 +1,4 @@
-```
+// ```
 int g_totalCnt;
 
 void initCnt(){
@@ -48,4 +48,4 @@ int countSubstrings(char * s){
 
     return g_totalCnt;
 }
-```
+// ```

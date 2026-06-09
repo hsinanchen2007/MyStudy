@@ -1,22 +1,22 @@
-![2020040401.PNG](https://pic.leetcode-cn.com/09caa445e2aab0f5d4d5d877d88af53be4cd208ed10e9d61aa67433d8fabc733-2020040401.PNG)
+// ![2020040401.PNG](https://pic.leetcode-cn.com/09caa445e2aab0f5d4d5d877d88af53be4cd208ed10e9d61aa67433d8fabc733-2020040401.PNG)
 
-### 解题思路
-思路:
-1.声明dummyHead 为哨兵结点, dummyHead的下一个结点为链表的实际头结点head
+// ### 解题思路
+// 思路:
+// 1.声明dummyHead 为哨兵结点, dummyHead的下一个结点为链表的实际头结点head
  
-2.声明结点move, move指向非有序链表的第一个结点, 用来遍历非有序链表 
+// 2.声明结点move, move指向非有序链表的第一个结点, 用来遍历非有序链表 
 
-3.声明结点temp, 作为临时变量, 在将move结点插入到适合位置时使用到
+// 3.声明结点temp, 作为临时变量, 在将move结点插入到适合位置时使用到
 
-4.声明结点end, 结点end是有序链表的最后一个结点
+// 4.声明结点end, 结点end是有序链表的最后一个结点
 
-5.外层的while循环用来遍历非有序链表
+// 5.外层的while循环用来遍历非有序链表
 
-6.内层的while循环用来遍历有序链表, 以找到move结点应该插入的正确位置
+// 6.内层的while循环用来遍历有序链表, 以找到move结点应该插入的正确位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -54,4 +54,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-可以将给定字符串反转，从而成为一个最长子串问题。
+# 可以将给定字符串反转，从而成为一个最长子串问题。
 
-在记录最长子串时，由于$aacdecaa$翻转过来后会判定$aac$成为最长回文串，所以在记录时要首先判断是不是回文串。
+# 在记录最长子串时，由于$aacdecaa$翻转过来后会判定$aac$成为最长回文串，所以在记录时要首先判断是不是回文串。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -28,5 +28,5 @@ class Solution(object):
                             res_s = temp_s
 
         return res_s
-```
+# ```
 

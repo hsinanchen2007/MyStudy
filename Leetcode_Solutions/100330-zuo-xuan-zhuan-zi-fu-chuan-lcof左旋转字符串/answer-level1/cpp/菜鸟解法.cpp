@@ -1,9 +1,9 @@
-### 解题思路
-直接将给定字符串裁剪，裁切后的字符串前后互换再连接。
+// ### 解题思路
+// 直接将给定字符串裁剪，裁切后的字符串前后互换再连接。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -13,4 +13,4 @@ public:
         return s2+s1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
 
@@ -21,10 +21,10 @@ class Solution:
                         break
                 return
         nums.sort()
-```
+# ```
 
 
 
-reference the solution from the author Déjà vu,
+# reference the solution from the author Déjà vu,
 
-that is very nice 
+# that is very nice 

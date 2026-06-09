@@ -1,12 +1,12 @@
-### 解题思路
-分析出组成二叉树的条件即可
-1.每个节点的入度只能为1（除头节点）
-2.有且只能有一个入度为0的节点（头节点）
-3.图的遍历必须能遍历到所有节点
+# ### 解题思路
+# 分析出组成二叉树的条件即可
+# 1.每个节点的入度只能为1（除头节点）
+# 2.有且只能有一个入度为0的节点（头节点）
+# 3.图的遍历必须能遍历到所有节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
         import collections
@@ -49,4 +49,4 @@ class Solution:
         return True if len(res) == n else False
 
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-先找出第n位应该是哪个数字的第几位再返回。
+# ### 解题思路
+# 先找出第n位应该是哪个数字的第几位再返回。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNthDigit(self, n: int) -> int:
         i = 1 #位数
@@ -16,4 +16,4 @@ class Solution:
         return int(str(target)[n%i])
         
         
-```
+# ```

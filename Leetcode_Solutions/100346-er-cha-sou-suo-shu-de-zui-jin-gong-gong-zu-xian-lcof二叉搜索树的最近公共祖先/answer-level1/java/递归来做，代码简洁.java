@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root==null||p==root||q==root)
@@ -9,4 +9,4 @@ class Solution {
         return (right==null)?left:(left==null)?right:root;
     }
 }
-```
+// ```

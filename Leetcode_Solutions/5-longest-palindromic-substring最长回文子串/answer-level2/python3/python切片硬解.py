@@ -1,9 +1,9 @@
-### 解题思路
-计数切片，找到每个反转后字母的下标，可能包含相同的字母所以每个加a才能找到相同字母的不同下标
+# ### 解题思路
+# 计数切片，找到每个反转后字母的下标，可能包含相同的字母所以每个加a才能找到相同字母的不同下标
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         mx=s[0] if s else ''
@@ -24,4 +24,4 @@ class Solution:
                 return mx 
         return mx
 
-```
+# ```

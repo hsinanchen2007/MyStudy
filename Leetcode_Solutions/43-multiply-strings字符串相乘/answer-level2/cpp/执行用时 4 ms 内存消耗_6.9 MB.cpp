@@ -1,7 +1,7 @@
-num1依次乘以num2的每个数字
-如果num1较长，那么每次所做的乘法就会花费较多的时间
-如果将num1与每个个位数乘法的结果都用矩阵保存起来，就会节约时间（本文用tempResult[]保存）
-```
+// num1依次乘以num2的每个数字
+// 如果num1较长，那么每次所做的乘法就会花费较多的时间
+// 如果将num1与每个个位数乘法的结果都用矩阵保存起来，就会节约时间（本文用tempResult[]保存）
+// ```
 class Solution {
     inline string MultiplyBySingleDigits(string num, const int& length, const int& singleDigits){
         /// 字符串乘单个数字
@@ -69,4 +69,4 @@ public:
         return ans;
     }
 };
-```
+// ```

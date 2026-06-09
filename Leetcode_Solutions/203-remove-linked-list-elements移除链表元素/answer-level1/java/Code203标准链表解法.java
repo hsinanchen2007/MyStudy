@@ -1,9 +1,9 @@
-### 解题思路
-prev指针和cur指针分别指向当前节点和前序节点，注意要处理删除头节点和尾节点的特殊情况。
+// ### 解题思路
+// prev指针和cur指针分别指向当前节点和前序节点，注意要处理删除头节点和尾节点的特殊情况。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,4 +51,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

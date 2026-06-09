@@ -1,9 +1,9 @@
-### 解题思路
-就是水平旋转一下+主对角线旋转一下，不要问为什么，没有为什么
+// ### 解题思路
+// 就是水平旋转一下+主对角线旋转一下，不要问为什么，没有为什么
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int low=0,high=matrixSize-1;
     while(low<high)
@@ -22,4 +22,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
             }
 }
 
-```
+// ```

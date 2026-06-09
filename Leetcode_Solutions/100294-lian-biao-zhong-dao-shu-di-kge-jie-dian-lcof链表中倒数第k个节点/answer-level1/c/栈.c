@@ -1,10 +1,10 @@
-### 解题思路
-1.对于这个题，快慢指针更好，省内存省时间
-2.这个题解只是一种其他的思路
+// ### 解题思路
+// 1.对于这个题，快慢指针更好，省内存省时间
+// 2.这个题解只是一种其他的思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k){
     }
     return stack[top+1-k];
 }
-```
+// ```

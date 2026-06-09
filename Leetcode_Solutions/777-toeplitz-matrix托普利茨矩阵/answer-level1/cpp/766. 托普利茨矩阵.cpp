@@ -1,5 +1,5 @@
-## 对角线法----较快
-```cpp
+// ## 对角线法----较快
+// ```cpp
 class Solution {
 public:
     //
@@ -19,9 +19,9 @@ public:
         return true;
     }
 };
-```
-## 检查左上邻居----较慢
-```cpp
+// ```
+// ## 检查左上邻居----较慢
+// ```cpp
 class Solution {
 public:
     
@@ -37,4 +37,4 @@ public:
         return true;
     }
 };
-```
+// ```

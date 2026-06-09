@@ -1,6 +1,6 @@
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         dic = dict()
@@ -12,4 +12,4 @@ class Solution:
             if t[i] not in dic2: dic2[t[i]] = s[i]
             elif dic2[t[i]] != s[i]:return False
         return True            
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-先判断N的正负值，若为负，替换N= -N 和x= 1/x;
-然后递归一半乘一半，减少时间消耗。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先判断N的正负值，若为负，替换N= -N 和x= 1/x;
+// 然后递归一半乘一半，减少时间消耗。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private double fastPow(double x, long n) {
         if (n == 0) {
@@ -27,4 +27,4 @@ class Solution {
         return fastPow(x, N);
     }
 };
-```
+// ```

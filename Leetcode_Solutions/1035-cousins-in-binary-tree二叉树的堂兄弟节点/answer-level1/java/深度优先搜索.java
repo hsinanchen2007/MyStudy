@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int x, y;
     private int px, py;
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

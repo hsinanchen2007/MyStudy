@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_CHAR_NUM 27
 int countCharacters(char ** words, int wordsSize, char * chars){
@@ -40,4 +40,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     return result;
 }
 
-```
+// ```

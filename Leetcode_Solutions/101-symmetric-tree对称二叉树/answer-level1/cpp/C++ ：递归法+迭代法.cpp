@@ -1,6 +1,6 @@
-**方法一：递归**
-树是镜像的问题可以拆分成左、右两个子树是镜像的，用到迭代：两棵树是镜像的，则对应子树也是镜像的。
-```
+// **方法一：递归**
+// 树是镜像的问题可以拆分成左、右两个子树是镜像的，用到迭代：两棵树是镜像的，则对应子树也是镜像的。
+// ```
 class Solution {
 	bool isMirror(TreeNode* t1, TreeNode* t2){
 		if (t1 == NULL && t2 == NULL) return true;
@@ -16,10 +16,10 @@ public:
 		return isMirror(root->left, root->right);
 	}
 };
-```
-**方法二：迭代  用栈**
-将对称的两个节点放在一起
-```
+// ```
+// **方法二：迭代  用栈**
+// 将对称的两个节点放在一起
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -43,4 +43,4 @@ public:
         return true;
     }    
 };
-```
+// ```

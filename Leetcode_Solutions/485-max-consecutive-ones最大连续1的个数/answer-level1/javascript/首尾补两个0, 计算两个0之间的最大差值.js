@@ -1,9 +1,9 @@
-### 解题思路
-首尾补两个0, 遍历寻找0的位置,用index记录索引,作为下次查找的起点,要注意循环条件控制
+// ### 解题思路
+// 首尾补两个0, 遍历寻找0的位置,用index记录索引,作为下次查找的起点,要注意循环条件控制
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var findMaxConsecutiveOnes = function(nums) {
     }
     return max - 1
 };
-```
+// ```

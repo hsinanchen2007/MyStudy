@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int missingNumber(int[] nums) {
         int n = nums.length;
@@ -7,4 +7,4 @@ class Solution {
         return (1 + n) * n / 2 - sum; 
     }
 }
-```
+// ```

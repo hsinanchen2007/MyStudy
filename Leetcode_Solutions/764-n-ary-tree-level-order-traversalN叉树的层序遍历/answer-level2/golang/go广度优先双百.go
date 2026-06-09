@@ -1,6 +1,6 @@
-就是普通二叉树层序遍历的改版，直接看代码吧
+// 就是普通二叉树层序遍历的改版，直接看代码吧
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -29,4 +29,4 @@ func levelOrder(root *Node) [][]int {
 	}
 	return res
 }
-```
+// ```

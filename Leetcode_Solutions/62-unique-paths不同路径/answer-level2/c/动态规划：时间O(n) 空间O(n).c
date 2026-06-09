@@ -1,10 +1,10 @@
-### 解题思路
-动态规划：到达路径数等与前两种到达的和
-dp[i][j] = dp[i - 1][j] + dp[i][j-1];
+// ### 解题思路
+// 动态规划：到达路径数等与前两种到达的和
+// dp[i][j] = dp[i - 1][j] + dp[i][j-1];
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int uniquePaths(int m, int n){
     if(m == 0 || n == 0)
         return 0;
@@ -29,4 +29,4 @@ int uniquePaths(int m, int n){
     free(dp);
     return ret;
 }
-```
+// ```

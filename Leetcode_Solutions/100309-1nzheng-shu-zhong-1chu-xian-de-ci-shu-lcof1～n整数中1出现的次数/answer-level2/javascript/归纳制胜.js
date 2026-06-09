@@ -1,12 +1,12 @@
-### 解题思路
-归纳法，对于个位出现的1：(n / 10) * 1 + (n % 10) > 1 ? 1 : 0;
-对于十位出现的1：(n / 100) * 10 + if (k > 19) 10 else if (k < 10) 0 else k - 10 + 1;
-对于百位出现的1：(n / 1000) * 100 + if (k > 199) 100 else if (k < 100) 0 else k - 100 + 1;
-最终归纳出: (n / (i * 10)) * i + if (k > 2 * i - 1) i else if (k < i) 0 else k - i + 1, 其中k = n % (i * 10);
+// ### 解题思路
+// 归纳法，对于个位出现的1：(n / 10) * 1 + (n % 10) > 1 ? 1 : 0;
+// 对于十位出现的1：(n / 100) * 10 + if (k > 19) 10 else if (k < 10) 0 else k - 10 + 1;
+// 对于百位出现的1：(n / 1000) * 100 + if (k > 199) 100 else if (k < 100) 0 else k - 100 + 1;
+// 最终归纳出: (n / (i * 10)) * i + if (k > 2 * i - 1) i else if (k < i) 0 else k - i + 1, 其中k = n % (i * 10);
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var countDigitOne = function(n) {
     let count = 0;
 
@@ -20,4 +20,4 @@ var countDigitOne = function(n) {
     }
     return count;
 };
-```
+// ```

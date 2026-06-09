@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![589.jpg](https://pic.leetcode-cn.com/6bb01ef4355b623f485b5703df6b6db89a0ebbbcb6ebd99567cbcaa61643b63e-589.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![589.jpg](https://pic.leetcode-cn.com/6bb01ef4355b623f485b5703df6b6db89a0ebbbcb6ebd99567cbcaa61643b63e-589.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //同样使用迭代法，与后序相比，只是vector push_back的地方不同
 #include <stack>
 #include <utility>
@@ -54,4 +54,4 @@ public:
 
 
 
-```
+// ```

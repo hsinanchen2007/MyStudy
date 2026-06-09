@@ -1,15 +1,15 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
 
-### 解题思路
-动态规划：
-```
+# ### 解题思路
+# 动态规划：
+# ```
 dp[i] = dp[i-1] + p[i]   # if i != 0 and dp[i-1] > 0
 dp[i] = p[i]             # if i == 0 or dp[i-1] < 0
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxSubArray(self, array):
         max = array[0]
@@ -23,4 +23,4 @@ class Solution(object):
             if dp[i] > max:
                 max = dp[i]
         return max
-```
+# ```

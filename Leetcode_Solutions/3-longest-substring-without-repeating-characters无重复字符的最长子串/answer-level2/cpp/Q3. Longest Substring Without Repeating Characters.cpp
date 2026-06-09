@@ -1,11 +1,11 @@
-### 最大滑动窗口
-滑动窗口问题，求窗口最大的大小，使得窗口内不会出现重复字符。
-扫描字符串，用一个map来建立字符和其最后出现位置的映射，用一个pos记录重复字符最后出现的位置，即滑动窗口的左边界位置。
-1. 如果当前字符没有在前面出现过(map中找不到)，滑动窗口的大小可直接增加1，右边界向右滑动一位；
-2. 如果当前字符出现过，且该字符在前面的位置要比pos记录的位置要大，则更新pos；
-3. 遍历过程中维护nMaxLen = max(nMaxLen, i - pos);
+// ### 最大滑动窗口
+// 滑动窗口问题，求窗口最大的大小，使得窗口内不会出现重复字符。
+// 扫描字符串，用一个map来建立字符和其最后出现位置的映射，用一个pos记录重复字符最后出现的位置，即滑动窗口的左边界位置。
+// 1. 如果当前字符没有在前面出现过(map中找不到)，滑动窗口的大小可直接增加1，右边界向右滑动一位；
+// 2. 如果当前字符出现过，且该字符在前面的位置要比pos记录的位置要大，则更新pos；
+// 3. 遍历过程中维护nMaxLen = max(nMaxLen, i - pos);
 
-```
+// ```
 class Solution {
 public:
 	int lengthOfLongestSubstring(string s) {
@@ -31,6 +31,6 @@ public:
 	}
 };
 
-```
-我果真不适合写题解，写文章啊！
-文末推荐leetcode官方题解:[Longest Substring Without Repeating Characters - leetcode官方题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetcod/)
+// ```
+// 我果真不适合写题解，写文章啊！
+// 文末推荐leetcode官方题解:[Longest Substring Without Repeating Characters - leetcode官方题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetcod/)

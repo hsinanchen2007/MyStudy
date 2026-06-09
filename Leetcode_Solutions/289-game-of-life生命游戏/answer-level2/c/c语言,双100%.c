@@ -1,8 +1,8 @@
-### 解题思路
-先把结果放到sign,然后在给board
-### 代码
+// ### 解题思路
+// 先把结果放到sign,然后在给board
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize) {
     if(boardSize==0 || boardColSize[0]==0) return;
     bool sign[boardSize][boardColSize[0]];
@@ -30,4 +30,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize) {
     }
     for(int x=0; x<boardSize; x++) for(int y=0; y<boardColSize[0]; y++) board[x][y] = sign[x][y];
 }
-```
+// ```

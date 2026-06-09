@@ -1,5 +1,5 @@
-首先先求出正向排列的列表list
-```
+// 首先先求出正向排列的列表list
+// ```
   List<List<Integer>>result = new ArrayList<>();  
        
         Queue<TreeNode>queue = new LinkedList<TreeNode>();
@@ -37,11 +37,11 @@
         }
 
 
-```
+// ```
 
-最后再反转列表list
-```
+// 最后再反转列表list
+// ```
 Collection.reverse();
-```
+// ```
 
 

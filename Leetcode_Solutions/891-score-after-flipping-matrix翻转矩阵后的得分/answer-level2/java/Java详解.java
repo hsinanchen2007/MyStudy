@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int matrixScore(int[][] A) {
         //第一列肯定要全是1最后结果才最大，所以先把第一列是0的行翻一下
@@ -18,4 +18,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

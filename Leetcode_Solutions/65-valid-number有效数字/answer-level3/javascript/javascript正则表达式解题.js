@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -12,4 +12,4 @@ var isNumber = function(s) {
   const flag = /^([-+]?(\d+(\.\d*)?|\.\d+)(e[-+]?\d+)?)$/.test(s)
   return flag
 };
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -25,4 +25,4 @@ public:
         return prime[n-1];
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-数组筛选过的，尝试用哈希表代替数组，但是明显多此一举，过不了
+// ### 解题思路
+// 数组筛选过的，尝试用哈希表代替数组，但是明显多此一举，过不了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countPrimes(int n){
     if (n < 2) return 0;
     int ret = 0;
@@ -20,9 +20,9 @@ int countPrimes(int n){
     }
     return ret;
 }
-```
-哈希表
-```c
+// ```
+// 哈希表
+// ```c
 struct hash_node {
     int iKey;
     UT_hash_handle hh;
@@ -76,4 +76,4 @@ int countPrimes(int n){
     deleteALL();
     return ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         l1,l2 = len(s1),len(s2)
@@ -15,5 +15,5 @@ class Solution:
                 c2[s2[left]]  -= 1
                 left += 1
         return False
-```
+# ```
 

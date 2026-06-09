@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/85ce49e35c9f61f96af5b7a04b9a48f1b6bef056e335de481b364ff25330cf36-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/85ce49e35c9f61f96af5b7a04b9a48f1b6bef056e335de481b364ff25330cf36-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const int N = 1e4+10;
 class Solution {
 public:
@@ -38,4 +38,4 @@ public:
         return dfs1 && dfs2;
     }
 };
-```
+// ```

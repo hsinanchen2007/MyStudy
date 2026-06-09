@@ -1,14 +1,14 @@
-### 解题思路
-A位移位置，切分N长度数组
-L数量最多2 可构成开头结构
-P
-LP
-LLP
+// ### 解题思路
+// A位移位置，切分N长度数组
+// L数量最多2 可构成开头结构
+// P
+// LP
+// LLP
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 
 using VT = System.ValueTuple<bool, int, int>;
 using VT2 = System.ValueTuple<int, int>;
@@ -244,4 +244,4 @@ public class Solution {
         return a.CheckRecord(n);
     }
 }
-```
+// ```

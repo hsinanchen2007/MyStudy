@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define LIMIT 27
 int countCharacters(char ** words, int wordsSize, char * chars){
     char atable[LIMIT] = {0};
@@ -30,4 +30,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return count;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-分成奇数和偶数两种情况，奇数是中间的一个数向两边扩散，偶数是中间的两个数向两边扩散，然后记录下来扩散的次数。
+# 分成奇数和偶数两种情况，奇数是中间的一个数向两边扩散，偶数是中间的两个数向两边扩散，然后记录下来扩散的次数。
 
-```
+# ```
 class Solution(object):
     def isPalindrome(self,x):
         if not x: return True
@@ -31,4 +31,4 @@ class Solution(object):
                 return True
             else:
                 return False
-```
+# ```

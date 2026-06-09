@@ -1,7 +1,7 @@
-逐个花圃进行遍历，使用的是邻接表，用邻接矩阵遇到稀疏矩阵会超时！
-方法比较笨，下一步考虑用BFS优化
+// 逐个花圃进行遍历，使用的是邻接表，用邻接矩阵遇到稀疏矩阵会超时！
+// 方法比较笨，下一步考虑用BFS优化
 
-```
+// ```
 type Node struct {
 	val int
 	next []int
@@ -42,4 +42,4 @@ func gardenNoAdj(N int, paths [][]int) []int {
 	}
 	return res
 }
-```
+// ```

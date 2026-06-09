@@ -1,11 +1,11 @@
-### 解题思路
-构造一个小顶堆，小顶堆中的元素是一个int[]数组。
-int[]数组的构成为 ListNode.val和index 
-index用来标识该val是lists中的哪条链表
+// ### 解题思路
+// 构造一个小顶堆，小顶堆中的元素是一个int[]数组。
+// int[]数组的构成为 ListNode.val和index 
+// index用来标识该val是lists中的哪条链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         return result.next;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-回文串中只能有一个单数字母。剩下字母都应该是双数的。
+// 回文串中只能有一个单数字母。剩下字母都应该是双数的。
 
-```csharp
+// ```csharp
 public class Solution {
     public int LongestPalindrome(string s) 
     {
@@ -55,4 +55,4 @@ public class Solution {
 
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-将chars的字符用一个int数组表示出来，然后word每使用一个字符则将对应的
-int[i]=1,从而达到表示已经使用了的目的，然后循环查询还有没有需要的字符没有被使用即可
+// ### 解题思路
+// 将chars的字符用一个int数组表示出来，然后word每使用一个字符则将对应的
+// int[i]=1,从而达到表示已经使用了的目的，然后循环查询还有没有需要的字符没有被使用即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int result = 0;
@@ -37,4 +37,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00% 的用户
-内存消耗 :5.8 MB, 在所有 C++ 提交中击败了100.00%的用户
-（1）递归函数如下：
-```
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00% 的用户
+// 内存消耗 :5.8 MB, 在所有 C++ 提交中击败了100.00%的用户
+// （1）递归函数如下：
+// ```
     double get_pow(double x, int n){
         if(n==0) return 1;
         if(n==1) return x;
@@ -14,9 +14,9 @@
         if(n&1) result *= x;   
         return result;        
     }
-```
-（2）主函数如下
-```
+// ```
+// （2）主函数如下
+// ```
     double myPow(double x, int n) {
         double result = 1;
         int sign = 1;
@@ -33,12 +33,12 @@
         if(sign<0) result = 1 / result;
         return result;
     }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -66,4 +66,4 @@ public:
         return result;        
     }
 };
-```
+// ```

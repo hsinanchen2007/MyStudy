@@ -1,4 +1,4 @@
-```JAVA
+// ```JAVA
 class Solution{
 	public boolean canConstruct(String ransomNote,String magazine){
 		int b[]=new int[26];
@@ -13,4 +13,4 @@ class Solution{
 		return true;
 	}
 }
-```
+// ```

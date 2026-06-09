@@ -1,8 +1,8 @@
-### 思路一：遍历
+// ### 思路一：遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countPrimes(int n) {
@@ -21,13 +21,13 @@ public:
         return true;
     }
 };
-```
+// ```
 
-### 思路二：排除法
-用一个vector表示当前数是否是质数，从2开始遍历，先找到第一个质数，然后将所有2的倍数的数标记为false。
+// ### 思路二：排除法
+// 用一个vector表示当前数是否是质数，从2开始遍历，先找到第一个质数，然后将所有2的倍数的数标记为false。
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int countPrimes(int n) {
@@ -43,4 +43,4 @@ public:
         return res;
     }
 };
-```
+// ```

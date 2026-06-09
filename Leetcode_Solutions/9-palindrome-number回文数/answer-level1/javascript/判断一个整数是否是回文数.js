@@ -1,9 +1,9 @@
-### 解题思路
-负数肯定不是回文数，将整数变成数组，首尾进行比较
+// ### 解题思路
+// 负数肯定不是回文数，将整数变成数组，首尾进行比较
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -19,4 +19,4 @@ var isPalindrome = function(x) {
     }
     return true;
 };
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/7d028e927805970dd410cc7527e94e063afa855038da74abc05ddd481e6625ee-image.png)
-想法很简单，有朋友问了到底用m % n - 1作x循环还是用 m - 1% n作循环
-其实是一个基础的数学逻辑问题，记住在引起变化处还原它，而不是外层或其他
-代码如下
-```
+# ![image.png](https://pic.leetcode-cn.com/7d028e927805970dd410cc7527e94e063afa855038da74abc05ddd481e6625ee-image.png)
+# 想法很简单，有朋友问了到底用m % n - 1作x循环还是用 m - 1% n作循环
+# 其实是一个基础的数学逻辑问题，记住在引起变化处还原它，而不是外层或其他
+# 代码如下
+# ```
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         Circle = [i for i in range(n)]
@@ -19,4 +19,4 @@ class Solution:
         return Circle[0] 
 
 
-```
+# ```

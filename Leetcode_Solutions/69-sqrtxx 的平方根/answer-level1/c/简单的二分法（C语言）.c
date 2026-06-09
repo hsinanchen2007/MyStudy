@@ -1,4 +1,4 @@
-```
+// ```
 int mySqrt(int x){
     int start = 0;
     long temp =x/2;
@@ -15,4 +15,4 @@ int mySqrt(int x){
         else return temp;
     }
 }
-```
+// ```

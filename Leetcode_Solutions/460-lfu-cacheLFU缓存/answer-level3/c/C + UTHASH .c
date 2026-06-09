@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int name;//key
     int val;
@@ -107,4 +107,4 @@ void lFUCacheFree(LFUCache *obj) {
     if (max == 0) return;
     DeleteAll();
 }
-```
+// ```

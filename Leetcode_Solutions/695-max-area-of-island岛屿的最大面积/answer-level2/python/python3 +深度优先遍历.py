@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-全局变量 self.count
-思路：访问过标志为True,深度优先遍历，一个岛屿 每走一步加1 走完一个岛屿存放到 结果数组 max(结果数组)
+# ### 解题思路
+# 此处撰写解题思路
+# 全局变量 self.count
+# 思路：访问过标志为True,深度优先遍历，一个岛屿 每走一步加1 走完一个岛屿存放到 结果数组 max(结果数组)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     count=0
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
@@ -35,4 +35,4 @@ class Solution:
                     DFS(i,j)
                     resArray.append(self.count)
         return max(resArray) if resArray else 0
-```
+# ```

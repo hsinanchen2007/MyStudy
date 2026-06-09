@@ -1,6 +1,6 @@
 
 
-```python []
+# ```python []
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                     left += 1                                 
                           
         return res
-```
+# ```

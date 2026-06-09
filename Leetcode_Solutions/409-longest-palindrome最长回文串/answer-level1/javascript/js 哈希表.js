@@ -1,5 +1,5 @@
-哈希表
-```
+// 哈希表
+// ```
 var longestPalindrome = function(s) {
     const len = s.length;
     if(len < 2) return len;
@@ -10,4 +10,4 @@ var longestPalindrome = function(s) {
         return t;
     }, 0) + (Object.values(resord).some(t => t % 2) ? 1 : 0);
 };
-```
+// ```

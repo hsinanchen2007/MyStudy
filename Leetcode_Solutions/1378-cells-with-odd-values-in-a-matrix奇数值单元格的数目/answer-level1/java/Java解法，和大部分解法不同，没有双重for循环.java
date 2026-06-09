@@ -1,5 +1,5 @@
-主要思想是先按行再按列统计奇数的个数，最后对于重合点进行去重
-```
+// 主要思想是先按行再按列统计奇数的个数，最后对于重合点进行去重
+// ```
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int[] r=new int[n];
@@ -27,4 +27,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

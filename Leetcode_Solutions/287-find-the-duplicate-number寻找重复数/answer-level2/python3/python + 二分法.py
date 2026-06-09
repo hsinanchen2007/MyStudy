@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
 	# [1, 3, 4, 2, 2] (n == 4)
 	def findDuplicate(self, nums: List[int]) -> int:
@@ -10,4 +10,4 @@ class Solution:
 			if cnt > mid: r = mid
 			else: l = mid + 1
 		return l
-```
+# ```

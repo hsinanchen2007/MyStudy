@@ -1,10 +1,10 @@
-js Number超过 2^53-1 会溢出
-有一个 Bigint 对象可以处理
-不过两个对象不通用
+// js Number超过 2^53-1 会溢出
+// 有一个 Bigint 对象可以处理
+// 不过两个对象不通用
 
-搞定
+// 搞定
 
-```
+// ```
 var addBinary = function (a, b) {
     let numA
     let numB
@@ -17,5 +17,5 @@ var addBinary = function (a, b) {
     }
     return (numA + numB).toString(2)
 };
-```
+// ```
 

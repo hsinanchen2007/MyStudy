@@ -1,10 +1,10 @@
-### 解题思路
-dp[i] = 1 + dp[i - n]; （n为小于i的最大2的倍数）
-dp[7] = 1 + dp[7 - 4];
+// ### 解题思路
+// dp[i] = 1 + dp[i - n]; （n为小于i的最大2的倍数）
+// dp[7] = 1 + dp[7 - 4];
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] countBits(int num) {
         int[] res = new int[num + 1];
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

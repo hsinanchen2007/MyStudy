@@ -1,16 +1,16 @@
-### 解题思路
-设计两个映射表：
-1）原初0,1到目标0,1的映射
-2）映射值到目标0,1的映射
+// ### 解题思路
+// 设计两个映射表：
+// 1）原初0,1到目标0,1的映射
+// 2）映射值到目标0,1的映射
 
-![image.png](https://pic.leetcode-cn.com/a210ed6e202f6df5a2ac3164d20b6088e6f6dad84c4e3b90bdfb7ceda5817ac6-image.png)
-
-
+// ![image.png](https://pic.leetcode-cn.com/a210ed6e202f6df5a2ac3164d20b6088e6f6dad84c4e3b90bdfb7ceda5817ac6-image.png)
 
 
-### 代码
 
-```cpp
+
+// ### 代码
+
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -65,4 +65,4 @@ public:
         }
     }
 };
-```
+// ```

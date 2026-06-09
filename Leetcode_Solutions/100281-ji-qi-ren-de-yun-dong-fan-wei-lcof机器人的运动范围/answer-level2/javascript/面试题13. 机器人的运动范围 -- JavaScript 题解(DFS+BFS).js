@@ -1,6 +1,6 @@
-# DFS 解法
+// # DFS 解法
 
-```
+// ```
 var movingCount = function (m, n, k) {
     let visited = []
     for (let i = 0; i < m; i++) { visited[i] = [] }
@@ -24,10 +24,10 @@ function getSum(num) {
     }
     return sum;
 }
-```
+// ```
 
-# BFS解法
-```
+// # BFS解法
+// ```
 var movingCount = function (m, n, k) {
     let res = 1;
     let visited = [];
@@ -57,5 +57,5 @@ function getSum(num) {
     }
     return sum;
 }
-```
+// ```
 

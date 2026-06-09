@@ -1,10 +1,10 @@
-####  方法一：
-我们可以转换一下思想：每增加一行，角矩形的数量增加了多少。
+# ####  方法一：
+# 我们可以转换一下思想：每增加一行，角矩形的数量增加了多少。
 
-**算法：**
-我们用 `count[i, j]` 来记录 `row[i] = row[j] = 1` 的次数。当我们处理新的一行时，对于每一对 `new_row[i] = new_row[j] = 1`，我们添加 `count[i, j]` 到答案中，然后  `count[i, j]++`。
+# **算法：**
+# 我们用 `count[i, j]` 来记录 `row[i] = row[j] = 1` 的次数。当我们处理新的一行时，对于每一对 `new_row[i] = new_row[j] = 1`，我们添加 `count[i, j]` 到答案中，然后  `count[i, j]++`。
 
-```Python [ ]
+# ```Python [ ]
 class Solution(object):
     def countCornerRectangles(self, grid):
         count = collections.Counter()
@@ -17,9 +17,9 @@ class Solution(object):
                             ans += count[c1, c2]
                             count[c1, c2] += 1
         return ans
-```
+# ```
 
-```Java [ ]
+# ```Java [ ]
 class Solution {
     public int countCornerRectangles(int[][] grid) {
         Map<Integer, Integer> count = new HashMap();
@@ -37,21 +37,21 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(R*C^2)$。其中 $R, C$ 指的是行和列。
-* 空间复杂度：使用了 $O(C^2)$ 的额外空间。
+# * 时间复杂度：$O(R*C^2)$。其中 $R, C$ 指的是行和列。
+# * 空间复杂度：使用了 $O(C^2)$ 的额外空间。
 
 
-####  方法二：
-**算法：**
-- 我们能改进方法 1 中的方法吗？当一行有 $X$ 个 1 时，我们需要 $O(X^2)$ 的时间来枚举每对 1。当 $X$ 很小时，这是可以接受的；但当 $X$ 很大时，这是较为耗时的操作。
-- 假设第一行的元素都是 1 时，`f` 指的是下一行和第一行所匹配 1 的数量。所能够构造角矩形的数量就是所匹配 1 的数量的对数，即 `f * (f-1) / 2`。我们可以使用一个集合和对每行进行简单线性扫描快速找到每个 `f`。
+# ####  方法二：
+# **算法：**
+# - 我们能改进方法 1 中的方法吗？当一行有 $X$ 个 1 时，我们需要 $O(X^2)$ 的时间来枚举每对 1。当 $X$ 很小时，这是可以接受的；但当 $X$ 很大时，这是较为耗时的操作。
+# - 假设第一行的元素都是 1 时，`f` 指的是下一行和第一行所匹配 1 的数量。所能够构造角矩形的数量就是所匹配 1 的数量的对数，即 `f * (f-1) / 2`。我们可以使用一个集合和对每行进行简单线性扫描快速找到每个 `f`。
 
-```Python [ ]
+# ```Python [ ]
 class Solution(object):
     def countCornerRectangles(self, grid):
         rows = [[c for c, val in enumerate(row) if val]
@@ -75,9 +75,9 @@ class Solution(object):
                     count[pair] += 1
 
         return ans
-```
+# ```
 
-```Java [ ]
+# ```Java [ ]
 class Solution {
     public int countCornerRectangles(int[][] grid) {
         List<List<Integer>> rows = new ArrayList();
@@ -123,10 +123,10 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
  
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N \sqrt N + R*C)$。其中 $N$ 是网格中的个数。
-* 空间复杂度：$O(N + R + C^2)$，`rows`, `target` 和 `count` 所使用的空间。
+# * 时间复杂度：$O(N \sqrt N + R*C)$。其中 $N$ 是网格中的个数。
+# * 空间复杂度：$O(N + R + C^2)$，`rows`, `target` 和 `count` 所使用的空间。

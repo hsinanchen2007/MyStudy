@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![图片.png](https://pic.leetcode-cn.com/b811c5a2be320dfa7ea3340c201af12237e55113c03675120dce94df0cfb8bf9-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![图片.png](https://pic.leetcode-cn.com/b811c5a2be320dfa7ea3340c201af12237e55113c03675120dce94df0cfb8bf9-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if(null==S||0==S.length()){
@@ -33,4 +33,4 @@ class Solution {
         return sb.toString().length()>=S.length()?S:sb.toString();
     }
 }
-```
+// ```

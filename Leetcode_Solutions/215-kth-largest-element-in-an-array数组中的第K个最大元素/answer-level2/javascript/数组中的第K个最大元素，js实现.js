@@ -1,4 +1,4 @@
-```js
+// ```js
 function swap(array, a, b) {
     [array[a], array[b]] = [array[b], array[a]]
 }
@@ -80,4 +80,4 @@ var findKthLargest = function (nums, k) {
     }
     return res.heap[0]
 }
-```
+// ```

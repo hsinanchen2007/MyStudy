@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 哈希表+ceil()函数
+// # 哈希表+ceil()函数
 
-时间复杂度是O(nlogn)，其中n是intervals数组的长度。空间复杂度是O(n)。
+// 时间复杂度是O(nlogn)，其中n是intervals数组的长度。空间复杂度是O(n)。
 
-执行用时：13ms，击败97.57%。消耗内存：45.3MB，击败90.98%。
+// 执行用时：13ms，击败97.57%。消耗内存：45.3MB，击败90.98%。
 
-```java
+// ```java
 public class Solution {
     public int[] findRightInterval(int[][] intervals) {
         int n;
@@ -48,4 +48,4 @@ public class Solution {
         return left == nums.length ? -1 : left;
     }
 }
-```
+// ```

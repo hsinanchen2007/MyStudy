@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-1909年死的人应该在1909年还算存活，1910年不算了，，没理解好，所以应该是102大小的数组。
-### 代码
+// 1909年死的人应该在1909年还算存活，1910年不算了，，没理解好，所以应该是102大小的数组。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAliveYear(int[] birth, int[] death) {
         int [] alives = new int[102];
@@ -27,4 +27,4 @@ class Solution {
         return maxyear+1900;
     }
 }
-```
+// ```

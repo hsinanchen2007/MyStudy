@@ -1,9 +1,9 @@
-### 解题思路
-创建queue数组存放从根至叶的所有结点，非空结点则存其左右孩子，空则跳过，最后检查是否有交叉或环
+// ### 解题思路
+// 创建queue数组存放从根至叶的所有结点，非空结点则存其左右孩子，空则跳过，最后检查是否有交叉或环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
@@ -31,4 +31,4 @@ public:
         return true;
     }
 };
-```
+// ```

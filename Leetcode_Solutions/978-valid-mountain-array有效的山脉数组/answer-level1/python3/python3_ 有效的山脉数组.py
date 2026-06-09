@@ -1,4 +1,4 @@
-```python
+# ```python
 def validMountainArray(A):
     if len(A) < 3:
         return False
@@ -13,4 +13,4 @@ def validMountainArray(A):
 print(validMountainArray([2,1]))
 print(validMountainArray([3,5,5]))
 print(validMountainArray([0,3,2,1]))
-```
+# ```

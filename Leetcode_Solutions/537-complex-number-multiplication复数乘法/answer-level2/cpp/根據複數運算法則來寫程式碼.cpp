@@ -1,9 +1,9 @@
-### 解题思路
-思路不是很難，細心點就好了
+// ### 解题思路
+// 思路不是很難，細心點就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string complexNumberMultiply(string a, string b)
@@ -25,4 +25,4 @@ public:
         return to_string(real) + "+" + to_string(img) + "i";
     }
 };
-```
+// ```

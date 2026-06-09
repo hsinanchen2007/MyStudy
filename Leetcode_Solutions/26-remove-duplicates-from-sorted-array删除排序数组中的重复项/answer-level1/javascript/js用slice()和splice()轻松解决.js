@@ -1,5 +1,5 @@
-![...de026删除排序数组中的重复项.mp4](c0004e2a-5af0-40ef-9ed4-82a975b16183)
-```
+// ![...de026删除排序数组中的重复项.mp4](c0004e2a-5af0-40ef-9ed4-82a975b16183)
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var removeDuplicates = function(nums) {
     }
     return len;
 };
-```
+// ```

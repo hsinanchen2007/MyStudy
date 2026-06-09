@@ -1,5 +1,5 @@
-平均8ms，最快一次4ms。
-```
+// 平均8ms，最快一次4ms。
+// ```
 string minAbbreviation(string target, vector<string>& dictionary) {
     int n = (int) target.size();
     int bound = 1<<n;
@@ -63,4 +63,4 @@ string minAbbreviation(string target, vector<string>& dictionary) {
     if (count) oss << count;
     return oss.str();
 }
-```
+// ```

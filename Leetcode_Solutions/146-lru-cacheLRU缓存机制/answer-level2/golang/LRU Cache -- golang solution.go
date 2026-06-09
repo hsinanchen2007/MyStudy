@@ -1,11 +1,11 @@
-### 解题思路
-map + 双向链表
+// ### 解题思路
+// map + 双向链表
 
-golang原生支持map，标准库container中有双向链表list支持
+// golang原生支持map，标准库container中有双向链表list支持
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "container/list"
 type item struct {
     k int
@@ -57,4 +57,4 @@ func (this *LRUCache) Put(key int, value int)  {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

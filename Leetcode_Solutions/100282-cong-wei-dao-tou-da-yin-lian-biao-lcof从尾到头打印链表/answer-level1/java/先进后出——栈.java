@@ -1,12 +1,12 @@
-### 解题思路
-用的非常粗鲁简单的算法，分析到先进后出即想到栈的特性；
+// ### 解题思路
+// 用的非常粗鲁简单的算法，分析到先进后出即想到栈的特性；
 
 
-菜鸟成长中，加油
+// 菜鸟成长中，加油
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

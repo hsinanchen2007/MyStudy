@@ -1,9 +1,9 @@
-### 解题思路
-c语言常规解法
+// ### 解题思路
+// c语言常规解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -62,4 +62,4 @@ char ** printVertically(char * s, int* returnSize)
     return res;
 }
 
-```
+// ```

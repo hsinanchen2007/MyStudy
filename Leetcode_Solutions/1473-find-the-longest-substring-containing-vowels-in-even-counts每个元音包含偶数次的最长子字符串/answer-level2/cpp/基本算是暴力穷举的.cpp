@@ -1,12 +1,12 @@
-先统计前若干个字符里出现各种元音字母的个数。
+// 先统计前若干个字符里出现各种元音字母的个数。
 
-这样可以快速算出子串s[start:end]到底符合不符合。
+// 这样可以快速算出子串s[start:end]到底符合不符合。
 
-二重循环，外层start从前往后，内层end从后往前。
+// 二重循环，外层start从前往后，内层end从后往前。
 
-如果得出一个可行解，更短的字符串的情况可以跳过。
+// 如果得出一个可行解，更短的字符串的情况可以跳过。
 
-```
+// ```
 class Solution {
 public:
     bool test(vector<vector<int>>&board,int start,int end){
@@ -41,4 +41,4 @@ public:
         return ans;
     }
 };
-```
+// ```

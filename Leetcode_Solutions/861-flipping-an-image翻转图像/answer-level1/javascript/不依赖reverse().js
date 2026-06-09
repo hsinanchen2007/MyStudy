@@ -1,9 +1,9 @@
-### 解题思路
-不依赖reverse(), 最快98% 内存 35.1
+// ### 解题思路
+// 不依赖reverse(), 最快98% 内存 35.1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} A
  * @return {number[][]}
@@ -39,4 +39,4 @@ var flipAndInvertImage = function (A) {
 //     }
 //     return ans;
 // };
-```
+// ```

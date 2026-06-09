@@ -1,9 +1,9 @@
-### 解题思路
-纯C 相向双指针 挡板法 三色旗问题
+// ### 解题思路
+// 纯C 相向双指针 挡板法 三色旗问题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define SWAP(a,b) \
 {                 \
     int t = a;    \  
@@ -57,4 +57,4 @@ void sortColors(int* nums, int numsSize){
         SWAP((nums[needBeWhite]), (nums[needBeBlue]));
     }
 }
-```
+// ```

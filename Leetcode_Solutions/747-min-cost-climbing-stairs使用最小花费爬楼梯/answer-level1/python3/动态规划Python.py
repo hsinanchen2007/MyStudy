@@ -1,9 +1,9 @@
-### 解题思路
-类似于爬楼梯问题，注意最后返回min(dp[-1],dp[-2]),时间和内存beat 99%、98%
+# ### 解题思路
+# 类似于爬楼梯问题，注意最后返回min(dp[-1],dp[-2]),时间和内存beat 99%、98%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         if not cost:
@@ -19,4 +19,4 @@ class Solution:
             dp[i] = min(dp[i-1],dp[i-2]) + cost[i]
         return min(dp[-2],dp[-1])
         
-```
+# ```

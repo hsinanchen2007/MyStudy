@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
     
@@ -15,4 +15,4 @@ class Solution:
         res, used = [], set()
         helper([])
         return res
-```
+# ```

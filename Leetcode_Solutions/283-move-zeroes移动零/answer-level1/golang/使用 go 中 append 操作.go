@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-1. 使用 go 里面的强大的 append 函数
+// 1. 使用 go 里面的强大的 append 函数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func moveZeroes(nums []int)  {
 	count := len(nums)
 	for index := 0; index < count; index++ {
@@ -15,4 +15,4 @@ func moveZeroes(nums []int)  {
 		}
 	}
 }
-```
+// ```

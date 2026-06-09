@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var numRookCaptures = function(board) {
     let [sum, Rx, Ry] = [0];
     let found = false;
@@ -27,4 +27,4 @@ var numRookCaptures = function(board) {
     }
     return sum;
 }
-```
+// ```

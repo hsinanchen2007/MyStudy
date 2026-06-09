@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         if len(a) < len(b):
@@ -16,4 +16,4 @@ class Solution:
                 if j == -1 - len(a):
                     a = '1' + a
         return a
-```
+# ```

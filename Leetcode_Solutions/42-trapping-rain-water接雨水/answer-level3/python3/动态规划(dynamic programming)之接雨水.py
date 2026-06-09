@@ -1,10 +1,10 @@
-### 解题思路
-1.找出最高点
-2.分别从两边往最高点遍历：如果下一个数比当前数小，说明可以接到水
+# ### 解题思路
+# 1.找出最高点
+# 2.分别从两边往最高点遍历：如果下一个数比当前数小，说明可以接到水
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         if len(height) <= 1:
@@ -39,4 +39,4 @@ class Solution:
                 area = area + (tmp - height[i])
         
         return area
-```
+# ```

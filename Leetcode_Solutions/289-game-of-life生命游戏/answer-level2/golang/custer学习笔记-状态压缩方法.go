@@ -1,10 +1,10 @@
-### 解题思路
-学习自[花花酱视频](http://zxi.mytechroad.com/blog/simulation/leetcode-289-game-of-life/)
+// ### 解题思路
+// 学习自[花花酱视频](http://zxi.mytechroad.com/blog/simulation/leetcode-289-game-of-life/)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gameOfLife(board [][]int)  {
   m := len(board) // m 行
   n := 0 // n 列
@@ -48,4 +48,4 @@ func max(a, b int)int{
   }
   return a
 }
-```
+// ```

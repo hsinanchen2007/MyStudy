@@ -1,4 +1,4 @@
-```
+// ```
 public TreeNode convertBiNode(TreeNode root) {
         if (root == null) {
             return null;
@@ -18,4 +18,4 @@ public TreeNode convertBiNode(TreeNode root) {
         root.right = convertBiNode(root.right);
         return subRoot;
     }
-```
+// ```

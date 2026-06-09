@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func solve(board [][]byte) {
 	l := len(board)
 	if l == 0 {
@@ -65,4 +65,4 @@ func search(x, y, l, count int, board [][]byte,datas [][]bool){
 	return
 }
 
-```
+// ```

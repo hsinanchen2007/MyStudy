@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
         if nums.is_empty() {
@@ -24,4 +24,4 @@ impl Solution {
         j as i32 + 1
     }
 }
-```
+// ```

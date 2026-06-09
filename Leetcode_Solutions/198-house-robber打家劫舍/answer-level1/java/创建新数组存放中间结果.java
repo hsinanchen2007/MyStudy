@@ -1,11 +1,11 @@
-### 解题思路
-思路同官方解法，但是新建了一个同样长度的数组存放中间结果，便于理解。
+// ### 解题思路
+// 思路同官方解法，但是新建了一个同样长度的数组存放中间结果，便于理解。
 
-其实使用nums数组本身来存放中间结果也行
+// 其实使用nums数组本身来存放中间结果也行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
          if(nums == null || nums.length == 0){return 0;}
@@ -23,4 +23,4 @@ class Solution {
         return result[result.length - 1];
     }
 }
-```
+// ```

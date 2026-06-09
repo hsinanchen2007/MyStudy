@@ -1,4 +1,4 @@
-思路参考Leetcode108，每次选中间的结点作为root，链表要找出中间结点就需要设好头和尾，然后用快慢指针，一个指针走一步，一个指针走两步
+// 思路参考Leetcode108，每次选中间的结点作为root，链表要找出中间结点就需要设好头和尾，然后用快慢指针，一个指针走一步，一个指针走两步
 
 class Solution {
     public TreeNode sortedListToBST(ListNode head) {

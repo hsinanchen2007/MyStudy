@@ -1,4 +1,4 @@
-```
+// ```
         Queue<Integer> queue = new LinkedList<Integer>();
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for(int i = 0 ; i < k ; i++) queue.add(nums[i]);
@@ -11,4 +11,4 @@
 		int res [] = new int [list.size()];
 		for (int i = 0; i < res.length; i++) res[i] = list.get(i);
 		return res;
-```
+// ```

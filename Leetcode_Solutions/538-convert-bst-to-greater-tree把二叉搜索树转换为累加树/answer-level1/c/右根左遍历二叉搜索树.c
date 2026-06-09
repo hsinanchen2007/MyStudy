@@ -1,6 +1,6 @@
-右根左（RNL）遍历二叉搜索树，即逆序。
-每访问一个结点求和即可
-```c
+// 右根左（RNL）遍历二叉搜索树，即逆序。
+// 每访问一个结点求和即可
+// ```c
 void inOrder(struct TreeNode *root, int *sum)
 {
     int num;
@@ -19,4 +19,4 @@ struct TreeNode* convertBST(struct TreeNode* root){
     inOrder(root, &sum);
     return root;
 }
-```
+// ```

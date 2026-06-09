@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d37b7607cf5197f78515d273874c11a7ad1ba2a4302f839b99d0cc599a9d528c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d37b7607cf5197f78515d273874c11a7ad1ba2a4302f839b99d0cc599a9d528c-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -46,4 +46,4 @@ class Solution {
         return new int[]{first, second};
     }
 }
-```
+// ```

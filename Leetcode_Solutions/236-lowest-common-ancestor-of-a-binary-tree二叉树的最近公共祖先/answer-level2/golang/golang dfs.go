@@ -1,12 +1,12 @@
-### 解题思路
-思路：
-1. dfs搜出来所有路径
-2. 找出p获取q或者的路径以及位置
-3. 遍历两个路径，找到位置的最小值对应的节点或者最后一个相同的节点，即是结果
+// ### 解题思路
+// 思路：
+// 1. dfs搜出来所有路径
+// 2. 找出p获取q或者的路径以及位置
+// 3. 遍历两个路径，找到位置的最小值对应的节点或者最后一个相同的节点，即是结果
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -62,4 +62,4 @@ func dfs(root *TreeNode, tmp []*TreeNode, res *[][]*TreeNode) {
 	dfs(root.Right, append(tmp, root), res)
 }
 
-```
+// ```

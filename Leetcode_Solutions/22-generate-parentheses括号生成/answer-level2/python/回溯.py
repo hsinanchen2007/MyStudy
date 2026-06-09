@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]: 
         # 保存结果 
@@ -25,4 +25,4 @@ class Solution:
             self.dp(result, s+')', l_num, r_num-1)
         # print(result, s, l_num, r_num)
 
-```
+# ```

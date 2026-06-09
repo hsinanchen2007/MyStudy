@@ -1,9 +1,9 @@
-### 解题思路
-可以先排序，在逐个扫描
+# ### 解题思路
+# 可以先排序，在逐个扫描
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
         res, t = [], ' '
@@ -12,4 +12,4 @@ class Solution:
                 res.append(f)
                 t = f + '/'
         return res
-```
+# ```

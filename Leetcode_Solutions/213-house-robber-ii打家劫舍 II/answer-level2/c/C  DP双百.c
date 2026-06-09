@@ -1,10 +1,10 @@
-### 解题思路
-dp[i] = max{dp[i - 1], dp[i - 2] + nums[i]}
-因为环形限制头尾不能全偷所以两次DP， 第一次[0, len - 1]， 第二次[1, len]取两次结果最大值
+// ### 解题思路
+// dp[i] = max{dp[i - 1], dp[i - 2] + nums[i]}
+// 因为环形限制头尾不能全偷所以两次DP， 第一次[0, len - 1]， 第二次[1, len]取两次结果最大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int max(int a, int b) {
     return a > b ? a : b;
@@ -36,4 +36,4 @@ int rob(int* nums, int numsSize){
     ans = max(ans, dp[numsSize - 1]);
     return ans;
 }
-```
+// ```

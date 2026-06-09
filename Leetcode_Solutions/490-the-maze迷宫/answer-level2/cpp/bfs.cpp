@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-28ms cpp bfs
+// 28ms cpp bfs
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool sig[101][101];
@@ -33,4 +33,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-暴力解法
-```java
+// 暴力解法
+// ```java
 class Solution {
     public int trap(int[] height) {
         int ans = 0;
@@ -24,9 +24,9 @@ class Solution {
         return ans;
     }
 }
-```
-单调栈
-```java
+// ```
+// 单调栈
+// ```java
 class Solution {
     public int trap(int[] height) {
         int ans = 0;
@@ -47,10 +47,10 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-韦恩图
-```java
+// 韦恩图
+// ```java
 public class Solution {
     public int trap(int[] height) {
         int leftMax = 0;
@@ -75,4 +75,4 @@ public class Solution {
         return s1 + s2 - leftMax*n - sum;
     }
 }
-```
+// ```

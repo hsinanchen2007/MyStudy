@@ -1,4 +1,4 @@
-```js
+// ```js
 var reverseStr = function(s, k) {
   let res = "";
 
@@ -47,7 +47,7 @@ var reverseStr = function(s, k) {
   return s.join("");
 };
 
-```
+// ```
 
 
 

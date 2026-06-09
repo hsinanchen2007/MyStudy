@@ -1,6 +1,6 @@
-为什么都说不能用归并？
-击败95%
-```
+// 为什么都说不能用归并？
+// 击败95%
+// ```
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         int size1 = nums1.size();
         int size2 = nums2.size();
@@ -56,4 +56,4 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
             return nums[i];
         }
     }
-```
+// ```

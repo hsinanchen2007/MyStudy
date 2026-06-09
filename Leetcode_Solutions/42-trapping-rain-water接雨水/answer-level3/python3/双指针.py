@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度O(n)
+# ### 解题思路
+# 时间复杂度O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height):
         if len(height) < 3: return 0
@@ -25,4 +25,4 @@ class Solution:
 
 
         return count
-```
+# ```

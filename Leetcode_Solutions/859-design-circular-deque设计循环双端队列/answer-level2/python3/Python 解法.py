@@ -1,6 +1,6 @@
-一开始 以为要先初始化一波链表 self.deque=[None for i in range(k)]
-写到后面发现，越写越复杂 而且很难处理，两端有数，中间是none的时候，如果插入数据，如何处理的情况
-所以换了一种思路 直接将k作为一个值来比较，不去固定列表的大小
+# 一开始 以为要先初始化一波链表 self.deque=[None for i in range(k)]
+# 写到后面发现，越写越复杂 而且很难处理，两端有数，中间是none的时候，如果插入数据，如何处理的情况
+# 所以换了一种思路 直接将k作为一个值来比较，不去固定列表的大小
 class MyCircularDeque(object):
 
     def __init__(self, k):

@@ -1,5 +1,5 @@
-就是二分查找，最左边的某一位置的值 >= len(citations)-index
-```
+// 就是二分查找，最左边的某一位置的值 >= len(citations)-index
+// ```
 func hIndex(citations []int) int {
 	if len(citations) == 0 {
 		return 0
@@ -19,4 +19,4 @@ func hIndex(citations []int) int {
 	}
 	return h
 }
-```
+// ```

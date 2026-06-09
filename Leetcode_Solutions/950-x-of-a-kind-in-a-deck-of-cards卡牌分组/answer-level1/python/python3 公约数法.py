@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9b8a40bd81366a0e74c19ee16012689902a5d2cb62ac5fa38ce9b8bdab2dbf5d-image.png)
-没想到这么快，其实就是找所有元素个数的最大公约数
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/9b8a40bd81366a0e74c19ee16012689902a5d2cb62ac5fa38ce9b8bdab2dbf5d-image.png)
+# 没想到这么快，其实就是找所有元素个数的最大公约数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         def hcf(x, y):
@@ -39,4 +39,4 @@ class Solution:
         
 
         
-```
+# ```

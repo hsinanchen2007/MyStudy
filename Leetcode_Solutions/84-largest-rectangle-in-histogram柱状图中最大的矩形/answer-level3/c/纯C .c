@@ -1,9 +1,9 @@
-### 解题思路
-暴力暴力法
+// ### 解题思路
+// 暴力暴力法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int largestRectangleArea(int* heights, int heightsSize){
     int max = 0;
     int tmp = 0;
@@ -26,4 +26,4 @@ int largestRectangleArea(int* heights, int heightsSize){
     return max;
 }
 
-```
+// ```

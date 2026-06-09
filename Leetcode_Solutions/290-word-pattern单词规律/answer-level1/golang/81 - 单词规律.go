@@ -1,47 +1,47 @@
-# 81 - 单词规律
+// # 81 - 单词规律
 
-## 题目
+// ## 题目
 
-给定一种规律 pattern 和一个字符串 str ，判断 str 是否遵循相同的规律。
+// 给定一种规律 pattern 和一个字符串 str ，判断 str 是否遵循相同的规律。
 
-这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 str 中的每个非空单词之间存在着双向连接的对应规律。
+// 这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 str 中的每个非空单词之间存在着双向连接的对应规律。
 
-示例1:
+// 示例1:
 
-> 输入: pattern = "abba", str = "dog cat cat dog"
-> 输出: true
+// > 输入: pattern = "abba", str = "dog cat cat dog"
+// > 输出: true
 
-示例 2:
+// 示例 2:
 
-> 输入:pattern = "abba", str = "dog cat cat fish"
-> 输出: false
+// > 输入:pattern = "abba", str = "dog cat cat fish"
+// > 输出: false
 
-示例 3:
+// 示例 3:
 
-> 输入: pattern = "aaaa", str = "dog cat cat dog"
-> 输出: false
+// > 输入: pattern = "aaaa", str = "dog cat cat dog"
+// > 输出: false
 
-示例 4:
+// 示例 4:
 
-> 输入: pattern = "abba", str = "dog dog dog dog"
-> 输出: false
+// > 输入: pattern = "abba", str = "dog dog dog dog"
+// > 输出: false
 
-说明:
-你可以假设 pattern 只包含小写字母， str 包含了由单个空格分隔的小写字母。    
+// 说明:
+// 你可以假设 pattern 只包含小写字母， str 包含了由单个空格分隔的小写字母。    
 
-## 解答
+// ## 解答
 
-这题怎么那么像[同构字符串](https://github.com/joeyZhouYicheng/leetcode/blob/master/63%20-%20%E5%90%8C%E6%9E%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
+// 这题怎么那么像[同构字符串](https://github.com/joeyZhouYicheng/leetcode/blob/master/63%20-%20%E5%90%8C%E6%9E%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
 
-所以可以用两个哈希表存一下里面的值，每次遍历都找一下。
+// 所以可以用两个哈希表存一下里面的值，每次遍历都找一下。
 
-也可以把字符串变成数组，然后看对应的地方是不是一样的。这应该是最优解了
+// 也可以把字符串变成数组，然后看对应的地方是不是一样的。这应该是最优解了
 
-### indexOf
+// ### indexOf
 
-js的array，恰好也有indexOf这个函数，所以就直接抄代码了🙈
+// js的array，恰好也有indexOf这个函数，所以就直接抄代码了🙈
 
-```js
+// ```js
 var wordPattern = function (pattern, str) {
   const pattern_array = pattern.split('')
   const str_array = str.split(' ')
@@ -58,17 +58,17 @@ var wordPattern = function (pattern, str) {
   }
   return true
 };
-```
+// ```
 
-> Runtime: 52 ms, faster than 74.02% of JavaScript online submissions for Word Pattern.
->
-> Memory Usage: 33.7 MB, less than 90.91% of JavaScript online submissions for Word Pattern.
+// > Runtime: 52 ms, faster than 74.02% of JavaScript online submissions for Word Pattern.
+// >
+// > Memory Usage: 33.7 MB, less than 90.91% of JavaScript online submissions for Word Pattern.
 
 
 
-go只能自己手写一个`findIndex`函数，也是蛮僵硬的。。
+// go只能自己手写一个`findIndex`函数，也是蛮僵硬的。。
 
-```go
+// ```go
 func findIndex(slice []string, elem string, start int) int {
 	for i := start; i < len(slice); i++ {
 		if slice[i] == elem {
@@ -90,8 +90,8 @@ func wordPattern(pattern string, str string) bool {
 	}
 	return true
 }
-```
+// ```
 
-> Runtime: 0 ms, faster than 100.00% of Go online submissions for Word Pattern.
->
-> Memory Usage: 1.9 MB, less than 75.00% of Go online submissions for Word Pattern.
+// > Runtime: 0 ms, faster than 100.00% of Go online submissions for Word Pattern.
+// >
+// > Memory Usage: 1.9 MB, less than 75.00% of Go online submissions for Word Pattern.

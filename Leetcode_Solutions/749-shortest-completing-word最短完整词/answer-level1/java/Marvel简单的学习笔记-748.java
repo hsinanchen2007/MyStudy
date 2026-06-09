@@ -1,11 +1,11 @@
-### 解题思路
-用长度为26的int[]数组作为哈希表，统一使用小写（大写字母转换为小写），记录每个字母出现的次数。
-首先根据licensePlate构造好哈希表，再对words的每个单词进行检查。
-若license所有字母包括个数（忽略字母以外的数字空格等字符）都匹配上，再判断单词长度，从而得到最短完整单词；若有多个最短完整词，输出最靠前的一个。
+// ### 解题思路
+// 用长度为26的int[]数组作为哈希表，统一使用小写（大写字母转换为小写），记录每个字母出现的次数。
+// 首先根据licensePlate构造好哈希表，再对words的每个单词进行检查。
+// 若license所有字母包括个数（忽略字母以外的数字空格等字符）都匹配上，再判断单词长度，从而得到最短完整单词；若有多个最短完整词，输出最靠前的一个。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         int[] hash = new int[26];
@@ -50,4 +50,4 @@ class Solution {
         return output;
     }
 }
-```
+// ```

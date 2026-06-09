@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-用位运算
+// ### 解题思路
+// 此处撰写解题思路
+// 用位运算
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void GameOfLife(int[][] board) {
         if(board.Length == 0 || board[0].Length == 0)
@@ -85,4 +85,4 @@ public class Solution {
         return board[y][x] = v;
     }
 }
-```
+// ```

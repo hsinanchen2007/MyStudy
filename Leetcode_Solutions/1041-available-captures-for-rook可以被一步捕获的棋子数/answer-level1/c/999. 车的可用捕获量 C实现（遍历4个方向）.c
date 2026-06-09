@@ -1,9 +1,9 @@
-### 解题思路
-    循环部分代码重复量大，可以考虑抽方法，懒，不考虑怎么抽了
+// ### 解题思路
+//     循环部分代码重复量大，可以考虑抽方法，懒，不考虑怎么抽了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize)
 {
     int i, j;
@@ -55,4 +55,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize)
     }
     return cnt;
 }
-```
+// ```

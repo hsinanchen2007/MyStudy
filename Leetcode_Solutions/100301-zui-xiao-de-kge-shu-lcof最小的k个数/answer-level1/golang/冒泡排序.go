@@ -1,4 +1,4 @@
-```
+// ```
 func getLeastNumbers(arr []int, k int) []int {
     goal:=[]int{}
     goal=arr
@@ -12,4 +12,4 @@ func getLeastNumbers(arr []int, k int) []int {
     }}
      return goal[0:k]
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def __init__(self):
         self.string=[]
@@ -16,4 +16,4 @@ class Solution(object):
         """
         self.find(n,n,"")
         return self.string
-```
+# ```

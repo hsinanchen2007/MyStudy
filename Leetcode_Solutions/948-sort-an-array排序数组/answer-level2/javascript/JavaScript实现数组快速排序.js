@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/b0b762eae96d0c4968e894465b0ce911b436dbd4a3c1a9b183e5720e8dde43ec-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b0b762eae96d0c4968e894465b0ce911b436dbd4a3c1a9b183e5720e8dde43ec-image.png)
 
-### 解题思路
+// ### 解题思路
 
-JS的内置函数sort不知道怎么实现的，我使用它内存的时候和时间都消耗的挺多的，于是换了一种方法，从C++中的快速排序迁移过来
+// JS的内置函数sort不知道怎么实现的，我使用它内存的时候和时间都消耗的挺多的，于是换了一种方法，从C++中的快速排序迁移过来
 
-https://blog.csdn.net/qq_42842786/article/details/94304146
+// https://blog.csdn.net/qq_42842786/article/details/94304146
 
-快速排序算法首先需要有一个基准数，把小于基准数的放到基准数的左边，大于基准数的放到右边，再对当前基准数的左右两边的数据在进行同样的操作，直到所有的基准数归位
+// 快速排序算法首先需要有一个基准数，把小于基准数的放到基准数的左边，大于基准数的放到右边，再对当前基准数的左右两边的数据在进行同样的操作，直到所有的基准数归位
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -43,4 +43,4 @@ https://blog.csdn.net/qq_42842786/article/details/94304146
     };
     var num = [4, 5, -2, 3, 9, -5, 2, 3];
     console.log(sortArray(num));
-```
+// ```

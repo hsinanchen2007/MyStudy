@@ -1,4 +1,4 @@
-```py
+# ```py
 class Solution:
     def twoSumBSTs(self, root1: TreeNode, root2: TreeNode, target: int) -> bool:
 
@@ -28,10 +28,10 @@ class Solution:
         self.inorder(root.right, res)
 
         return res
-```
+# ```
 
 
-```py
+# ```py
 class Solution:
     def twoSumBSTs(self, root1: TreeNode, root2: TreeNode, target: int) -> bool:
 
@@ -60,8 +60,8 @@ class Solution:
         yield from self.inorder_gen(node_first, reverse) if node_first is not None else ()
         yield node.val
         yield from self.inorder_gen(node_last, reverse) if node_last is not None else ()
-```
+# ```
 
-Reference: https://codereview.stackexchange.com/questions/183942/use-generator-to-do-inorder-traversal
+# Reference: https://codereview.stackexchange.com/questions/183942/use-generator-to-do-inorder-traversal
 
-However, using generator turns out to be slower (96ms 19.7M vs 184ms 16.8M)
+# However, using generator turns out to be slower (96ms 19.7M vs 184ms 16.8M)

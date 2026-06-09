@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f836259ca60b558bde05dfc5a11a9ac87dfa3c8276a37f3b20a6d45bdb18cff9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f836259ca60b558bde05dfc5a11a9ac87dfa3c8276a37f3b20a6d45bdb18cff9-image.png)
 
 
-```
+# ```
 class Solution:
     def validIPAddress(self, IP: str) -> str:
         p=IP.split('.')
@@ -32,4 +32,4 @@ class Solution:
             return 'IPv6'
 
         return 'Neither'
-```
+# ```

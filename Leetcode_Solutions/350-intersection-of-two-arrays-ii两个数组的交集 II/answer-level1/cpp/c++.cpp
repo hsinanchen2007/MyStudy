@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -25,4 +25,4 @@ public:
         return a;
     }
 };
-```
+// ```

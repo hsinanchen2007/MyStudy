@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/22d6ca85ca641f500a9fcfb052d50eb24f20df6b2620e126be495c81c4865dcc-image.png)
+# ![image.png](https://pic.leetcode-cn.com/22d6ca85ca641f500a9fcfb052d50eb24f20df6b2620e126be495c81c4865dcc-image.png)
 
 
-```
+# ```
 '''
 dp 递推
 
@@ -27,4 +27,4 @@ class Solution:
                 else:
                     dp[i][j] = (1-prob[i]) * dp[i-1][j] + prob[i] * dp[i-1][j-1]
         return dp[n-1][target]
-```
+# ```

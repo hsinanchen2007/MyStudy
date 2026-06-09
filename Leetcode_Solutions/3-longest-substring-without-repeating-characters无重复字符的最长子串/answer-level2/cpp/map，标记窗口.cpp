@@ -1,9 +1,9 @@
-1. 开始标记为零，遍历，map里不存在则存入字符及下标；
-2. 存在则计算长度，当前下标-开始标记，大于置换；
-3. 若存在的map中字符下标大于开始标记，更新开始标记；
-4. 更新map。
+// 1. 开始标记为零，遍历，map里不存在则存入字符及下标；
+// 2. 存在则计算长度，当前下标-开始标记，大于置换；
+// 3. 若存在的map中字符下标大于开始标记，更新开始标记；
+// 4. 更新map。
 
-```
+// ```
 int mylengthOfLongestSubstring(string s) {
 	map<char, int> re;
 	int max = 0;
@@ -34,5 +34,5 @@ int mylengthOfLongestSubstring(string s) {
 		max = i - start;
 	return max;
 }
-```
+// ```
 

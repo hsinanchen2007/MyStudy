@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //动态规划
 int maxSubArray(int* nums, int numsSize){
@@ -33,4 +33,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max;
 }
-```
+// ```

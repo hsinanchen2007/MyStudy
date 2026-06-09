@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeDuplicates(nums []int) int {
 	location :=0
 	if len(nums)!= 0 {
@@ -15,4 +15,4 @@ func removeDuplicates(nums []int) int {
 	}
 	return location+1
 }
-```
+// ```

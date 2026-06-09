@@ -1,4 +1,4 @@
-```
+// ```
 void dfs(char** grid, int gridSize, int* gridColSize,int row, int col){
     if (grid[row][col] == '0') {
         return;
@@ -35,4 +35,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return num;
 }
-```
+// ```

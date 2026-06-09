@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(A []int, m int, B []int, n int)  {
     stack:=make([]int,m+n)
     k:=0
@@ -41,4 +41,4 @@ func merge(A []int, m int, B []int, n int)  {
    }
   
 }
-```
+// ```

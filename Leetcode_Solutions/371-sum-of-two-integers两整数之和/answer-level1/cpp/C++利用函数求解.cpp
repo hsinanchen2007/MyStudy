@@ -1,5 +1,5 @@
-不废话，看代码就懂了：
-```
+// 不废话，看代码就懂了：
+// ```
 class Solution {
 public:
     int getSum(int a, int b) {
@@ -7,4 +7,4 @@ public:
         return accumulate(x.begin(), x.end(), 0);
     }
 };
-```
+// ```

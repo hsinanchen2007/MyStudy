@@ -1,9 +1,9 @@
-### 解题思路
-rt
+// ### 解题思路
+// rt
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func detectCapitalUse(_ word: String) -> Bool {
         
@@ -30,4 +30,4 @@ class Solution {
 }
 
 
-```
+// ```

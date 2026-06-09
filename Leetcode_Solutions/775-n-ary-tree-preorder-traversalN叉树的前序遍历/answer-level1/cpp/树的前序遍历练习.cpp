@@ -1,7 +1,7 @@
-### 解题思路
+// ### 解题思路
 
-前序遍历模板
-```
+// 前序遍历模板
+// ```
 void preorder(Node* root) 
 {
     stack<Node*> myStack;
@@ -23,23 +23,23 @@ void preorder(Node* root)
         
     }
 
-```
+// ```
 
-根据题意变化
-```
+// 根据题意变化
+// ```
 int width=p->children.size();
 for(int i=width-1;i>=0;--i)
 {
     myStack.push(p->children[i]);
 }
-```
+// ```
 
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution 
 {
@@ -87,4 +87,4 @@ public:
 
 
 
-```
+// ```

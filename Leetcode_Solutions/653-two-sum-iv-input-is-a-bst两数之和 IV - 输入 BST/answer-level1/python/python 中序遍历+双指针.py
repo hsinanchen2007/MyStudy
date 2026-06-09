@@ -1,9 +1,9 @@
-### 解题思路
-将题目分解为中序遍历+双指针有序数组求2元素之和等于目标值
+# ### 解题思路
+# 将题目分解为中序遍历+双指针有序数组求2元素之和等于目标值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution(object):
             else:
                 l=l+1
         return False
-```
+# ```

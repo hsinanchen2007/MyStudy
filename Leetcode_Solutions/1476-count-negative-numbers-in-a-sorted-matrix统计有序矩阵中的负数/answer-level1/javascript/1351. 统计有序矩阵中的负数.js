@@ -1,9 +1,9 @@
-### 解题思路
-有序矩阵 -> 任何一个负数的右下方矩阵都是负数, 所以遍历到一个负数之后就可以缩小col的范围
+// ### 解题思路
+// 有序矩阵 -> 任何一个负数的右下方矩阵都是负数, 所以遍历到一个负数之后就可以缩小col的范围
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -24,4 +24,4 @@ var countNegatives = function (grid) {
     }
     return result
 };
-```
+// ```

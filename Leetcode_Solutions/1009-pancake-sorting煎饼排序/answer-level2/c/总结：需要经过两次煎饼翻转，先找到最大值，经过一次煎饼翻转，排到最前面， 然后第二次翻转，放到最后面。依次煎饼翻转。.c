@@ -1,14 +1,14 @@
 
-解释
-A = [3, 2, 4, 1]
-k = 3 [4, 2, 3, 1]
-k = 4 [1, 3, 2, 4]
-k = 2 [3, 1, 2, 4]
-k = 3 [2, 1, 3, 4]
-k = 2 [1, 2, 3, 4]
-输出: [3, 4, 2, 3, 2]
+// 解释
+// A = [3, 2, 4, 1]
+// k = 3 [4, 2, 3, 1]
+// k = 4 [1, 3, 2, 4]
+// k = 2 [3, 1, 2, 4]
+// k = 3 [2, 1, 3, 4]
+// k = 2 [1, 2, 3, 4]
+// 输出: [3, 4, 2, 3, 2]
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -57,5 +57,5 @@ int* pancakeSort(int* A, int ASize, int* returnSize)
     
     return res;
 }
-```
+// ```
 

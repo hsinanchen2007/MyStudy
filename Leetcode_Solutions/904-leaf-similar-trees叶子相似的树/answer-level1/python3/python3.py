@@ -1,7 +1,7 @@
-### 解题思路
-递归到叶子节点保存
-### 代码
-```
+# ### 解题思路
+# 递归到叶子节点保存
+# ### 代码
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,5 +22,5 @@ class Solution:
                 dfs(root.right,res)
             return res
         return dfs(root1,[])== dfs(root2,[])
-```
+# ```
 

@@ -1,10 +1,10 @@
-参考题解中c++位运算思路，写出python代码：
-1. 直接跳过与target长度不一致的单词。两个单词长度不一样，缩写一定不一样。
-2. 运用位运算遍历所有可能的缩写索引组合情况，如果与字典里的单词缩写相同则跳过，否则计算缩写的长度，如果比当前最小长度更小，则更新最小的缩写形式。
-3. generateAbbr是帮助函数，接受两个输入：1.target单词，2.list数组。返回单词缩写形式和其长度。
-如输入 "apple", [1, 3] 输出 "1p1l1"; 输入 "apple", [2, 3] 输出 "2pl1"。
+# 参考题解中c++位运算思路，写出python代码：
+# 1. 直接跳过与target长度不一致的单词。两个单词长度不一样，缩写一定不一样。
+# 2. 运用位运算遍历所有可能的缩写索引组合情况，如果与字典里的单词缩写相同则跳过，否则计算缩写的长度，如果比当前最小长度更小，则更新最小的缩写形式。
+# 3. generateAbbr是帮助函数，接受两个输入：1.target单词，2.list数组。返回单词缩写形式和其长度。
+# 如输入 "apple", [1, 3] 输出 "1p1l1"; 输入 "apple", [2, 3] 输出 "2pl1"。
 
-```
+# ```
 class Solution:
     def generateAbbr(self, target: str, indices):
         if not indices : return str(len(target)), 1
@@ -58,4 +58,4 @@ class Solution:
                 result_cnt = cnt
                 
         return result
-```
+# ```

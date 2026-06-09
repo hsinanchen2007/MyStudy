@@ -1,8 +1,8 @@
-看了题解才写出来，发现真心不难。。
+// 看了题解才写出来，发现真心不难。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum=0,i,ret,total=0;
     for(i=0;i<ASize;i++)
@@ -22,4 +22,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return false;
 }
-```
+// ```

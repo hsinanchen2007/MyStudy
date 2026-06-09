@@ -1,9 +1,9 @@
-### 解题思路
-最土的办法，设置两个for循环逐一比较。不过要注意临界情况（i+k和num.length的大小）
+// ### 解题思路
+// 最土的办法，设置两个for循环逐一比较。不过要注意临界情况（i+k和num.length的大小）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         int length=nums.length;
@@ -27,4 +27,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

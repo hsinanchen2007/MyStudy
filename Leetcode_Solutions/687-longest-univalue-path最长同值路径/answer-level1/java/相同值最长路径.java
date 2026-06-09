@@ -1,10 +1,10 @@
-### 解题思路  写一个方法求得一个根节点的左右两边相同值路径的最大值。
-  另外设一变量存值相等的路径最大值，一直更新其最大值，
+// ### 解题思路  写一个方法求得一个根节点的左右两边相同值路径的最大值。
+//   另外设一变量存值相等的路径最大值，一直更新其最大值，
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return Math.max(maxLeft,maxRight);
     }
 }
-```
+// ```

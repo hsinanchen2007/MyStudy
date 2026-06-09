@@ -1,7 +1,7 @@
-类似题目: 
-[516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
-[72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)
-```
+// 类似题目: 
+// [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
+// [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+// ```
 int minInsertions(string s) {
     vector<vector<int>> DP(s.size(), vector<int>(s.size())); // 创建DP数组
     for (int left = s.size()-1; left >= 0; left--) {
@@ -24,4 +24,4 @@ int minInsertions(string s) {
     }
     return s.size() - DP[s.size()][s.size()];
 }
-```
+// ```

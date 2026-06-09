@@ -1,20 +1,20 @@
-### 动态规划
-文首推荐LeetCode官方题解：[Palindrome Partitioning III - LeetCode官方题解 - 动态规划](https://leetcode-cn.com/problems/palindrome-partitioning-iii/solution/fen-ge-hui-wen-chuan-iii-by-leetcode/)
+// ### 动态规划
+// 文首推荐LeetCode官方题解：[Palindrome Partitioning III - LeetCode官方题解 - 动态规划](https://leetcode-cn.com/problems/palindrome-partitioning-iii/solution/fen-ge-hui-wen-chuan-iii-by-leetcode/)
 
-我也是在看了题目描述下的提示1之后才想到解法的。
-1. 首先计算出子串变成一个回文串需要修改的次数。
-	 - `subPalindrome[l][r]`表示子串`s[l,r]`变成回文串需要修改的次数；
-	 - 初始态1：仅一个字符时，`subPalindrome[i][i]`等于0，无需做修改；
-	 - 初始态2：相邻2个字符时，如果不相等，则需要修改其中一个；如果相等，则无需做修改；
-	 - 状态转移方程是：`subPalindrome[l][r] = subPalindrome[l+1][r-1] + (s[l] != s[r])`；
-	 - 由上面的状态转移方程可以看出，我们需要先计算出长度短的子串的修改次数，然后再计算长度长的。
-2. 有了前面计算好的子串变成回文串的修改次数`subPalindrome`之后，接下来继续使用动态规划解决字符串划分成`k`个回文串。
-	 - `dp[i][j]`表示前`i+1`个字符（`s[0~i]`）拆分成`j+1`个回文串所需要的最小修改次数；
-	 - 初始态：仅拆分成一个回文串时，`dp[i][0]`等于`subPalindrome[0][i]`；
-	 - 状态转移方程是：`dp[i][j] = min(dp[i0][j-1] + subPalindrome[i0+1][i])`，其中`j-1 <= i0 < i`。
+// 我也是在看了题目描述下的提示1之后才想到解法的。
+// 1. 首先计算出子串变成一个回文串需要修改的次数。
+// 	 - `subPalindrome[l][r]`表示子串`s[l,r]`变成回文串需要修改的次数；
+// 	 - 初始态1：仅一个字符时，`subPalindrome[i][i]`等于0，无需做修改；
+// 	 - 初始态2：相邻2个字符时，如果不相等，则需要修改其中一个；如果相等，则无需做修改；
+// 	 - 状态转移方程是：`subPalindrome[l][r] = subPalindrome[l+1][r-1] + (s[l] != s[r])`；
+// 	 - 由上面的状态转移方程可以看出，我们需要先计算出长度短的子串的修改次数，然后再计算长度长的。
+// 2. 有了前面计算好的子串变成回文串的修改次数`subPalindrome`之后，接下来继续使用动态规划解决字符串划分成`k`个回文串。
+// 	 - `dp[i][j]`表示前`i+1`个字符（`s[0~i]`）拆分成`j+1`个回文串所需要的最小修改次数；
+// 	 - 初始态：仅拆分成一个回文串时，`dp[i][0]`等于`subPalindrome[0][i]`；
+// 	 - 状态转移方程是：`dp[i][j] = min(dp[i0][j-1] + subPalindrome[i0+1][i])`，其中`j-1 <= i0 < i`。
 
-最终代码实现如下：
-```
+// 最终代码实现如下：
+// ```
 class Solution {
 public:
 	int palindromePartition(string s, int k) {
@@ -50,4 +50,4 @@ public:
 		return dp[s.size() - 1][k - 1];
 	}
 };
-```
+// ```

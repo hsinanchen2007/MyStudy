@@ -1,9 +1,9 @@
-### 解题思路
-記錄一系列暫存List 發生新值與暫存List最後一數值差值不為1則更新
+# ### 解题思路
+# 記錄一系列暫存List 發生新值與暫存List最後一數值差值不為1則更新
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         if not nums:
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

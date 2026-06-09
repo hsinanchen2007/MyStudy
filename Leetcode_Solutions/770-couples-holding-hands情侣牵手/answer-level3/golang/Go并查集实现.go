@@ -1,6 +1,6 @@
-补充Go的并查集写法（代码参考题解中的并查集C++实现）
+// 补充Go的并查集写法（代码参考题解中的并查集C++实现）
 
-```golang
+// ```golang
 func minSwapsCouples(row []int) int {
 	arr:=make([]int,len(row)/2)
 	for k,_:=range arr{
@@ -32,4 +32,4 @@ func combineC(arr []int,i,j int)  {
 		arr[j]=m
 	}
 }
-```
+// ```

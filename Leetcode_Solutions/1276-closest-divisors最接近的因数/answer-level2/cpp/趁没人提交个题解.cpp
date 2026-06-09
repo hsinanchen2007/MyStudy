@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/e34621c4bd0e6281dc7ff9b0a499e2aa6367508e6abd9af9820bcc29f4f762fc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e34621c4bd0e6281dc7ff9b0a499e2aa6367508e6abd9af9820bcc29f4f762fc-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> closestDivisors(int num) {
@@ -48,4 +48,4 @@ public:
         return result;
     }
 };
-```
+// ```

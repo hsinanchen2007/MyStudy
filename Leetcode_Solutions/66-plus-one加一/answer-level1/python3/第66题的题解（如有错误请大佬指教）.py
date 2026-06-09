@@ -1,9 +1,9 @@
-### 解题思路
-考虑每一种情况并分别给出对策，小白纯暴力解法，没想到效果还不错！如果觉得对你有帮助的话可以点赞哟~
+# ### 解题思路
+# 考虑每一种情况并分别给出对策，小白纯暴力解法，没想到效果还不错！如果觉得对你有帮助的话可以点赞哟~
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         length = len(digits)
@@ -40,4 +40,4 @@ class Solution:
                 digits.pop()
                 digits.append(temp)
                 return digits
-```
+# ```

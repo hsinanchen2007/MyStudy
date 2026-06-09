@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/c37a5192bafb2a0a9da1353eec0262b91d8c6578404db23e9905da952a6d0708-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c37a5192bafb2a0a9da1353eec0262b91d8c6578404db23e9905da952a6d0708-image.png)
 
-直接用数组就行
+// 直接用数组就行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int row[9][9], col[9][9], cell[3][3][9];
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

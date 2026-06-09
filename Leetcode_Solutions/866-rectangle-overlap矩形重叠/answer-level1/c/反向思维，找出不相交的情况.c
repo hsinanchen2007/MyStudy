@@ -1,9 +1,9 @@
-### 解题思路
-反向思维，找不不想交的情况，其他情况一定都是相交的
+// ### 解题思路
+// 反向思维，找不不想交的情况，其他情况一定都是相交的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     bool rlt = true;
     int rec1x1 = rec1[0];
@@ -24,4 +24,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     }
     return rlt;
 }
-```
+// ```

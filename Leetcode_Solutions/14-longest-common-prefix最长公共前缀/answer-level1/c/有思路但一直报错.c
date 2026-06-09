@@ -1,4 +1,4 @@
-```
+// ```
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strsSize == 0) return "";//没字符串时
     else if(strsSize == 1) return *strs;///就一字符串时
@@ -28,5 +28,5 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     }
     return 0;//非要我加上去
 }
-```
-memset(a,0,128);死在这一步
+// ```
+// memset(a,0,128);死在这一步

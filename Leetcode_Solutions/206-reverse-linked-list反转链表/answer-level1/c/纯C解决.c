@@ -1,9 +1,9 @@
-### 解题思路
-直接尾插法进行翻转即可，然后自建头结点。
+// ### 解题思路
+// 直接尾插法进行翻转即可，然后自建头结点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* reverseList(struct ListNode* head){
     pre->next=q;
     return pre->next;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-判断斜率变化方向，比如是否从递增化为递减
+// ### 解题思路
+// 判断斜率变化方向，比如是否从递增化为递减
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isConvex(vector<vector<int>>& points) {
@@ -37,4 +37,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -21,4 +21,4 @@ var plusOne = function(digits) {
     digits.unshift(1);//如果执行到这一步，说明999...99类型的，并且现在全部变为000..00了，则只需再头部添加1即可
     return digits;
 };
-```
+// ```

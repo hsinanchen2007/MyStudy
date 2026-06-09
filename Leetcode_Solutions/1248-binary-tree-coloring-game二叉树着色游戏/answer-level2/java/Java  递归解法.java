@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-x 节点的left和right以及parent是3个子数，本质上就是找到这三个树里面最大的节点树超没超过n / 2
+// x 节点的left和right以及parent是3个子数，本质上就是找到这三个树里面最大的节点树超没超过n / 2
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return l + r + 1;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.grid中每个元素为单位计算
-2.上、下、左、右、前、后分别计算累加
+// ### 解题思路
+// 1.grid中每个元素为单位计算
+// 2.上、下、左、右、前、后分别计算累加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         int rtn = 0;
@@ -47,4 +47,4 @@ class Solution {
         return rtn;
     }
 }
-```
+// ```

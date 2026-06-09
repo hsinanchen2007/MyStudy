@@ -1,4 +1,4 @@
-```
+# ```
 def trulyMostPopular( names, synonyms ):
 
     # you题意可知
@@ -44,4 +44,4 @@ def trulyMostPopular( names, synonyms ):
     for key, val in dp.items():
         ans[ find(dp, val) ] += dp_res[ key ]
     return [ k + '(' + str(v) + ')' for k, v in ans.items() ]
-```
+# ```

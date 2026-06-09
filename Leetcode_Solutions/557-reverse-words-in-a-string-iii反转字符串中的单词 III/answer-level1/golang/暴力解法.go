@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseWords(s string) string {
 	strSlice:=strings.Split(s," ")
 	res:=""
@@ -20,4 +20,4 @@ func reverseWords(s string) string {
 	}
 	return res
 }
-```
+// ```

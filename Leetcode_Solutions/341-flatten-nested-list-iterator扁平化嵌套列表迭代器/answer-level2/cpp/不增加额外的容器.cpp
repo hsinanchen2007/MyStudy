@@ -1,4 +1,4 @@
-```
+// ```
 class NestedIterator {
     vector<NestedInteger>::const_iterator currentPoint, endPoint;
     NestedIterator *it;
@@ -41,4 +41,4 @@ public:
         return false;
     }
 };
-```
+// ```

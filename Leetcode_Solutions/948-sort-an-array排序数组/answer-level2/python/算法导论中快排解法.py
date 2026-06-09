@@ -1,5 +1,5 @@
-采用一层循环完成切片[快排的四种Python实现](https://blog.csdn.net/razor87/article/details/71155518)
-```python
+# 采用一层循环完成切片[快排的四种Python实现](https://blog.csdn.net/razor87/article/details/71155518)
+# ```python
 class Solution:
     """算法导论中的快排"""
     def quick_sort(self,array,l,r):
@@ -23,4 +23,4 @@ if __name__ == '__main__':
     nums = [5,1,1,2,0,0]
     s = Solution()
     print(s.sortArray(nums))
-```
+# ```

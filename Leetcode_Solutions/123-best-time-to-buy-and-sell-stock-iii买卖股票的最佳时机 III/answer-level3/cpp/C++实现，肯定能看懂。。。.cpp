@@ -1,4 +1,4 @@
-```
+// ```
 //max_Profit_back和max_Profit_front是由121题改造的。
 
 //求prices这个向量，num这一点到终点的股票最大值（区间最大值）
@@ -47,7 +47,7 @@ int maxProfit(vector<int>& prices) {
     }
     return max_profit;
 }
-```
+// ```
 
 
 

@@ -1,8 +1,8 @@
-由于java中没有multiset,所以模拟使用TreeMap来替代。
+// 由于java中没有multiset,所以模拟使用TreeMap来替代。
 
-**大佬传送门** ：https://leetcode-cn.com/problems/the-skyline-problem/solution/218tian-ji-xian-wen-ti-sao-miao-xian-fa-by-ivan_al/
+// **大佬传送门** ：https://leetcode-cn.com/problems/the-skyline-problem/solution/218tian-ji-xian-wen-ti-sao-miao-xian-fa-by-ivan_al/
 
-```
+// ```
  public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> res = new ArrayList<>();
 
@@ -63,4 +63,4 @@
 
         return res;
     }
-```
+// ```

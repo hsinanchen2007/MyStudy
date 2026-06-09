@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * 529. Minesweeper
  * https://leetcode.com/problems/minesweeper/
@@ -53,4 +53,4 @@ const dfs = (board, row, col) => {
 const isInvalid = (board, row, col) => {
   return row < 0 || row >= board.length || col < 0 || col >= board[0].length
 }
-```
+// ```

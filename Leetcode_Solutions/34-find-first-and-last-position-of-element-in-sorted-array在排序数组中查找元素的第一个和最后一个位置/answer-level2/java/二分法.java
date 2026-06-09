@@ -1,13 +1,13 @@
-### 解题思路
-一看到log（n）的时间复杂度就大致是二分法了，这道题思路也是比较简单，找到符合条件的左右下标即可；
-如果数组中存在target，那么：
-1、左面的边界下标left一定要满足nums[left] > nums[left - 1];
-2、右面的边界下标right一定要满足nums[right] < nums[right + 1]
-两次遍历，一次找左下标，一次找右下标（特别注意处理left==0和right==nums.length - 1的情况）
+// ### 解题思路
+// 一看到log（n）的时间复杂度就大致是二分法了，这道题思路也是比较简单，找到符合条件的左右下标即可；
+// 如果数组中存在target，那么：
+// 1、左面的边界下标left一定要满足nums[left] > nums[left - 1];
+// 2、右面的边界下标right一定要满足nums[right] < nums[right + 1]
+// 两次遍历，一次找左下标，一次找右下标（特别注意处理left==0和right==nums.length - 1的情况）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int l = 0,r = nums.length - 1;
@@ -60,4 +60,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

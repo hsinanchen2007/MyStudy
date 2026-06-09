@@ -1,6 +1,6 @@
-通过快慢指针，快指针比慢指针先走一步，若有环则最终快慢指针会相遇```
+// 通过快慢指针，快指针比慢指针先走一步，若有环则最终快慢指针会相遇```
 
-```
+// ```
 public class Solution {
     public boolean hasCycle(ListNode head) {
 
@@ -17,5 +17,5 @@ public class Solution {
         return false;
     }
 }
-```
+// ```
 

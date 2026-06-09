@@ -1,20 +1,20 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-（1）大顶堆排序取前k大的元素
-（2）悉数入小顶堆
-（3）add时的数比堆顶小，忽略
-（4）add时的数比堆顶大，则重新建立堆
+// （1）大顶堆排序取前k大的元素
+// （2）悉数入小顶堆
+// （3）add时的数比堆顶小，忽略
+// （4）add时的数比堆顶大，则重新建立堆
 
-对于出错的示例
-需要考虑，输入数据中：
-（1）nums.size() == 0 的情况
-（2）nums.size() < k的情况，导致add时数比小顶堆小也不能忽略
+// 对于出错的示例
+// 需要考虑，输入数据中：
+// （1）nums.size() == 0 的情况
+// （2）nums.size() < k的情况，导致add时数比小顶堆小也不能忽略
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <vector>
 #include <algorithm>
 
@@ -85,11 +85,11 @@ public:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```
 
 
-这是之前超时的一种做法：
-```cpp
+// 这是之前超时的一种做法：
+// ```cpp
 #include <vector>
 #include <algorithm>
 
@@ -123,4 +123,4 @@ private:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```

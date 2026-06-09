@@ -1,4 +1,4 @@
-```
+// ```
 // 解题思路：
 // 先遍历nums计算出所有的和，复制给rightSum
 // 在遍历nums，rightSum减去当前下标的值==当前的rightSum
@@ -18,4 +18,4 @@ func pivotIndex724_0(nums []int) int {
 	return -1
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-思路和二分查找某个值的思路一样，只不过某个值变成了出现串序的位置。
+// ### 解题思路
+// 思路和二分查找某个值的思路一样，只不过某个值变成了出现串序的位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int finding(int[] nums,int begin,int end)
     {
@@ -28,4 +28,4 @@ class Solution {
         return finding(nums,0,nums.length-1);
     }
 }
-```
+// ```

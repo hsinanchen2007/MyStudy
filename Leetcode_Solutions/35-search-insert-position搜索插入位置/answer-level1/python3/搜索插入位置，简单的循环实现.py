@@ -1,9 +1,9 @@
-### 解题思路
-首先判断数组的长度是否为0，数组的第一个值是否比target大，若满足则返回0，否则进行遍历，在数组中找出target的位置找到就返回i,同时记录下比target小的元素的位置记为m，若没有找到target则返回m+1。
+# ### 解题思路
+# 首先判断数组的长度是否为0，数组的第一个值是否比target大，若满足则返回0，否则进行遍历，在数组中找出target的位置找到就返回i,同时记录下比target小的元素的位置记为m，若没有找到target则返回m+1。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -23,4 +23,4 @@ class Solution(object):
 
 
         
-```
+# ```

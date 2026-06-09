@@ -1,4 +1,4 @@
-```
+// ```
 bool lemonadeChange(int* bills, int billsSize){
     int i = 0;
     int cnt5  = 0;  // 记录5元钞的数量
@@ -42,4 +42,4 @@ bool lemonadeChange(int* bills, int billsSize){
     
     return true;    
 }
-```
+// ```

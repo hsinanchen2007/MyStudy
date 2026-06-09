@@ -1,9 +1,9 @@
-### 解题思路
-该题可以用贪心算法求解，但我看来也有点像穷举的方式。。。
+// ### 解题思路
+// 该题可以用贪心算法求解，但我看来也有点像穷举的方式。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} g
  * @param {number[]} s
@@ -22,4 +22,4 @@ var findContentChildren = function(g, s) {
     }
     return gi;
 };
-```
+// ```

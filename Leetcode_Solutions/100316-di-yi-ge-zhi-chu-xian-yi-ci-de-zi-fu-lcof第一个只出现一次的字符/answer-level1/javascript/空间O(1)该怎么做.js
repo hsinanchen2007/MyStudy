@@ -1,9 +1,9 @@
-### 解题思路
-完全可以使用长度26位的数组来存储字符出现的次数
+// ### 解题思路
+// 完全可以使用长度26位的数组来存储字符出现的次数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var firstUniqChar = function(s) {
     let arr = new Array(26).fill(0);
 
@@ -18,4 +18,4 @@ var firstUniqChar = function(s) {
     }
     return ' ';
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     double minmaxGasDist(vector<int>& stations, int K) {
@@ -28,4 +28,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

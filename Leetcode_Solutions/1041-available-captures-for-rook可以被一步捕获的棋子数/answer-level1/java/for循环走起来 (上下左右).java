@@ -1,9 +1,9 @@
-### 解题思路
-上下左右追踪!
+// ### 解题思路
+// 上下左右追踪!
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int h = 0;
@@ -60,4 +60,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

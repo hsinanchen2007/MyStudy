@@ -1,9 +1,9 @@
-golang实现，快慢双指针 + 虚拟头结点．
+// golang实现，快慢双指针 + 虚拟头结点．
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 快慢双指针 + 虚拟头结点
 // 通过建立虚拟头结点，可以将原链表头结点当做非头结点处理，避免额外考虑待删除节点为原链表头结点的情况
 // 时间复杂度：O(n)  空间复杂度：O(1)
@@ -37,4 +37,4 @@ github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 	return dummy_head.Next
 }
-```
+// ```

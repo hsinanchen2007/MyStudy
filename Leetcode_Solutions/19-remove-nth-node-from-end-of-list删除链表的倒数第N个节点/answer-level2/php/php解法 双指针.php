@@ -1,4 +1,4 @@
-```
+// ```
 function removeNthFromEnd($head, $n) {
     $dummy = new ListNode(0);
     $dummy->next = $head;
@@ -14,4 +14,4 @@ function removeNthFromEnd($head, $n) {
     $ptr2->next = $ptr2->next->next;
     return $dummy->next;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![49通过.png](https://pic.leetcode-cn.com/34b0aa24f29cbb67e9cd42cc52c27262d48187b5691e9e97d87b71e8804145d7-49%E9%80%9A%E8%BF%87.png)
+# ![49通过.png](https://pic.leetcode-cn.com/34b0aa24f29cbb67e9cd42cc52c27262d48187b5691e9e97d87b71e8804145d7-49%E9%80%9A%E8%BF%87.png)
 
-解题思路：若每个单词字母相同则排序后得到的字符串应一致，按照此规则遍历strs列表对单词进行分类
-代码：
+# 解题思路：若每个单词字母相同则排序后得到的字符串应一致，按照此规则遍历strs列表对单词进行分类
+# 代码：
 
     class Solution:
         def groupAnagrams(self, strs: List[str]) -> List[List[str]]:

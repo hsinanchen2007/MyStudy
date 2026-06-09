@@ -1,12 +1,12 @@
-![捕获.PNG](https://pic.leetcode-cn.com/82541502c8c555466a46ec9cc8a5aa5a7451e578009fa25fdea166e072daab79-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/82541502c8c555466a46ec9cc8a5aa5a7451e578009fa25fdea166e072daab79-%E6%8D%95%E8%8E%B7.PNG)
 
-1、思路：详见code
+// 1、思路：详见code
 
-2、复杂度分析
-    时间：每个元素仅进、出栈一次，所以时间复杂是O(n);
-    空间：最多存储二叉树的所有结点，所以复杂度是O(n));
+// 2、复杂度分析
+//     时间：每个元素仅进、出栈一次，所以时间复杂是O(n);
+//     空间：最多存储二叉树的所有结点，所以复杂度是O(n));
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ public:
 
     }
 };
-```
+// ```

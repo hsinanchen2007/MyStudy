@@ -1,13 +1,13 @@
-### 解题思路
-1.判断总量是否足够全程，不行返回-1
-2.从第一个加油站gas[0]开始，i=0
-3.rest=rest+gas[i]-cost[i]
-4.小于零则起始站换成下一站
-5.上一步如果在数组最后一位，则i=0,否则i+=1
-6.每次更新star，跳出while后返回star
-### 代码
+// ### 解题思路
+// 1.判断总量是否足够全程，不行返回-1
+// 2.从第一个加油站gas[0]开始，i=0
+// 3.rest=rest+gas[i]-cost[i]
+// 4.小于零则起始站换成下一站
+// 5.上一步如果在数组最后一位，则i=0,否则i+=1
+// 6.每次更新star，跳出while后返回star
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int i=0,rest=0,stop=1,j,star=i,sum_gas=0,sum_cost=0;
@@ -45,4 +45,4 @@ class Solution {
         return star;
     }
 }
-```
+// ```

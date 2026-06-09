@@ -1,8 +1,8 @@
-### 解题思路
-标准的二分查找，空间消耗好多啊，怎么降啊各位大佬
-### 代码
+// ### 解题思路
+// 标准的二分查找，空间消耗好多啊，怎么降啊各位大佬
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
          int lowPosition = 0;
@@ -25,4 +25,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

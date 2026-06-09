@@ -1,10 +1,10 @@
-### 解题思路
-![1584786743353.jpg](https://pic.leetcode-cn.com/fb48476a7933efbc449a4d6fbfa324be8c31ec1fc5b7cc31986059fabe922757-1584786743353.jpg)
-思路请看代码注释。
+// ### 解题思路
+// ![1584786743353.jpg](https://pic.leetcode-cn.com/fb48476a7933efbc449a4d6fbfa324be8c31ec1fc5b7cc31986059fabe922757-1584786743353.jpg)
+// 思路请看代码注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

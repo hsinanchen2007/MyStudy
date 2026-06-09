@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func longestCommonSubsequence(_ text1: String, _ text2: String) -> Int {
         let n1 = text1.count
@@ -20,4 +20,4 @@ class Solution {
         return dp[n1][n2]
     }
 }
-```
+// ```

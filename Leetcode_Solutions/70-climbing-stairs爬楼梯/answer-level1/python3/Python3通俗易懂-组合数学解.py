@@ -1,12 +1,12 @@
-### 解题思路
-直接用排列组合的数学知识解答!
-N choose K
-N 是 单步和双步的和, 即一共爬几下.
-K 是单步或者双步都行!
+# ### 解题思路
+# 直接用排列组合的数学知识解答!
+# N choose K
+# N 是 单步和双步的和, 即一共爬几下.
+# K 是单步或者双步都行!
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 
 class Solution:
@@ -21,4 +21,4 @@ class Solution:
             total += temp
         return total
 
-```
+# ```

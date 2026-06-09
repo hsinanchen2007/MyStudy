@@ -1,9 +1,9 @@
-### 解题思路
-容易理解的
+// ### 解题思路
+// 容易理解的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
     int arr[n][m];
     *indicesColSize=2;
@@ -30,4 +30,4 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
     }   
     return count;
 }
-```
+// ```

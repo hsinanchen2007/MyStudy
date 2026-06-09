@@ -1,9 +1,9 @@
-### 解题思路
-这道题用哈希表来做非常简单，边创建边检查
+# ### 解题思路
+# 这道题用哈希表来做非常简单，边创建边检查
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         hashtable = {}
@@ -14,4 +14,4 @@ class Solution:
                 hashtable[nums[i]] = i
         return False
 
-```
+# ```

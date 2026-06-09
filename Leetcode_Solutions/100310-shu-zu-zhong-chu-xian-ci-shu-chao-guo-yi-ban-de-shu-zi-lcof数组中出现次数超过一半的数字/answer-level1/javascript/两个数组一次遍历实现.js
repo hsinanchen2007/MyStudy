@@ -1,9 +1,9 @@
-### 解题思路
-一个数组储存无重复个体，另一个数组对无重复个体数组中的数进行计数
+// ### 解题思路
+// 一个数组储存无重复个体，另一个数组对无重复个体数组中的数进行计数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -27,4 +27,4 @@ var majorityElement = function (nums) {
 
 };
 
-```
+// ```

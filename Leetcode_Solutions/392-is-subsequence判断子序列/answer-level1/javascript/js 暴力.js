@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/2cf03bce11c8ecf977aa5c3ef6208e83244bc91cb5ced5e0e937b302752a9757-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2cf03bce11c8ecf977aa5c3ef6208e83244bc91cb5ced5e0e937b302752a9757-image.png)
 
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -30,4 +30,4 @@ var isSubsequence = function(s, t) {
   
   return ans;
 };
-```
+// ```

@@ -1,5 +1,5 @@
-栈和递归的解法十分类似，就不写了。
-```
+// 栈和递归的解法十分类似，就不写了。
+// ```
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) 
@@ -34,4 +34,4 @@ public:
 */
     }
 };
-```
+// ```

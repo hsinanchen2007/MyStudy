@@ -1,7 +1,7 @@
 
-核心一点a[i][j] += n[i]*n2[j]，不过i,j是从右侧为0开始
-最后在统一处理进位的情况
-```
+// 核心一点a[i][j] += n[i]*n2[j]，不过i,j是从右侧为0开始
+// 最后在统一处理进位的情况
+// ```
 string multiply(string num1, string num2) {
         if (num1 == "0" || num2 == "0")
 			return "0";
@@ -30,4 +30,4 @@ string multiply(string num1, string num2) {
 		
 		return res;
 	}
-```
+// ```

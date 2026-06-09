@@ -1,9 +1,9 @@
-### 解题思路
-分四种情况，分别做dfs， memo保存重复结果
+# ### 解题思路
+# 分四种情况，分别做dfs， memo保存重复结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def tictactoe(self, board: List[str]) -> str:
         N = len(board)
@@ -130,4 +130,4 @@ class Solution:
 
 
 
-```
+# ```

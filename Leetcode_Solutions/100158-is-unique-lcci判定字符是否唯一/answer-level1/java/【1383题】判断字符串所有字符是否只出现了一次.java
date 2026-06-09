@@ -1,5 +1,5 @@
-**方法一：使用字符串方法replace()**
-```
+// **方法一：使用字符串方法replace()**
+// ```
 class Solution {
     /**
     * 思路：
@@ -16,10 +16,10 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-**方法二：使用字符串方法indexOf()**
-```
+// **方法二：使用字符串方法indexOf()**
+// ```
 class Solution {
     /**
     * 思路：
@@ -36,10 +36,10 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-**方法三：双重循环遍历比较**
-```
+// **方法三：双重循环遍历比较**
+// ```
 class Solution {
     /**
     * 思路：
@@ -56,4 +56,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

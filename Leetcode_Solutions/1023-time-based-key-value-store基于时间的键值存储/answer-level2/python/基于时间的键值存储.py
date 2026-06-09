@@ -1,12 +1,12 @@
-#### 方法一：HashMap + 二分查找
+# #### 方法一：HashMap + 二分查找
 
-**思路与算法**
+# **思路与算法**
 
-对于每一个键值 `key` 的两种操作，我们只关注键值的时间戳与值信息。我们可以将这些信息存储在一个 `HashMap` 中。
+# 对于每一个键值 `key` 的两种操作，我们只关注键值的时间戳与值信息。我们可以将这些信息存储在一个 `HashMap` 中。
 
-对于每一个键值 `key`，我们可以在已经按照时间戳排序好的序列中进行二分检索，从而找到对应 `key` 相关的 `value`。
+# 对于每一个键值 `key`，我们可以在已经按照时间戳排序好的序列中进行二分检索，从而找到对应 `key` 相关的 `value`。
 
-```java [orMEF9kM-Java]
+# ```java [orMEF9kM-Java]
 import javafx.util.Pair;
 
 class TimeMap {
@@ -38,8 +38,8 @@ class TimeMap {
             return A.get(-i-2).getValue();
     }
 }
-```
-```python [orMEF9kM-Python]
+# ```
+# ```python [orMEF9kM-Python]
 class TimeMap(object):
     def __init__(self):
         self.M = collections.defaultdict(list)
@@ -52,29 +52,29 @@ class TimeMap(object):
         if A is None: return ""
         i = bisect.bisect(A, (timestamp, chr(127)))
         return A[i-1][1] if i else ""
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：对于 `set` 操作，$O(1)$ 。对于 `get` 操作，$O(\log N)$。 其中，$N$ 是 `TimeMap` 中元素的数量。
+# * 时间复杂度：对于 `set` 操作，$O(1)$ 。对于 `get` 操作，$O(\log N)$。 其中，$N$ 是 `TimeMap` 中元素的数量。
 
-* 空间复杂度：$O(N)$。
-
-
+# * 空间复杂度：$O(N)$。
 
 
 
----
-#### 方法二：TreeMap
 
-**思路与算法**
 
-对于 `Java` 语言，我们可以使用 `TreeMap.floorKey(timestamp)` 来找到小于等于给定时间戳 `timestamp` 的最大时间戳。
+# ---
+# #### 方法二：TreeMap
 
-我们使用与 *方法一* 相同的方法构建解法，仅仅替换这部分的功能。
+# **思路与算法**
 
-```java [4bgysnDB-Java]
+# 对于 `Java` 语言，我们可以使用 `TreeMap.floorKey(timestamp)` 来找到小于等于给定时间戳 `timestamp` 的最大时间戳。
+
+# 我们使用与 *方法一* 相同的方法构建解法，仅仅替换这部分的功能。
+
+# ```java [4bgysnDB-Java]
 class TimeMap {
     Map<String, TreeMap<Integer, String>> M;
 
@@ -97,14 +97,14 @@ class TimeMap {
         return t != null ? tree.get(t) : "";
     }
 }
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：对于 `set` 操作，$O(1)$。对于 `get` 操作，$O(\log N)$。其中，$N​$ 是 `TimeMap` 中元素的数量。
+# * 时间复杂度：对于 `set` 操作，$O(1)$。对于 `get` 操作，$O(\log N)$。其中，$N​$ 是 `TimeMap` 中元素的数量。
 
-* 空间复杂度：$O(N)$。
+# * 空间复杂度：$O(N)$。
 
 
 

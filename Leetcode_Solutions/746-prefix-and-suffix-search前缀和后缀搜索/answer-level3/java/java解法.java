@@ -1,6 +1,6 @@
-执行用时 :786 ms, 击败了62.96%的用户。
-内存消耗 :149.1 MB,击败了80.00%的用户。
-```
+// 执行用时 :786 ms, 击败了62.96%的用户。
+// 内存消耗 :149.1 MB,击败了80.00%的用户。
+// ```
 class WordFilter {
     String[] words;
     Map<Character, List<String>> map = new HashMap<>();
@@ -48,4 +48,4 @@ class WordFilter {
         return -1;
     }
 }
-```
+// ```

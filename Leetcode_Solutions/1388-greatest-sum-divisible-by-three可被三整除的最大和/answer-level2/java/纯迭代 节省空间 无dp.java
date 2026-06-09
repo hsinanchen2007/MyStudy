@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxSumDivThree(int[] nums) {
         //累计所有的值 找到最小的且多出来的一部分
@@ -34,4 +34,4 @@ class Solution {
     return 0;
     }
 }
-```
+// ```

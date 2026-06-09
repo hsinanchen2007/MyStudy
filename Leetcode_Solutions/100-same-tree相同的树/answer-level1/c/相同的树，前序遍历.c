@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q)
 {
     return PreOrder(p, q);
 }
-```
+// ```

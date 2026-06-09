@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         //定义两个指针
@@ -28,5 +28,5 @@ public class Solution {
         return reverseNode(head.next, last);
     }
 }
-```
-可能不是效率最高的方法，只是一种尝试，欢迎大家提出意见及改进
+// ```
+// 可能不是效率最高的方法，只是一种尝试，欢迎大家提出意见及改进

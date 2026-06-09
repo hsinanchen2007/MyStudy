@@ -1,9 +1,9 @@
-### 解题思路
-换了一种方式 
+# ### 解题思路
+# 换了一种方式 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             del nums1[i]
         nums1.extend(nums2)
         nums1.sort()
-```
+# ```

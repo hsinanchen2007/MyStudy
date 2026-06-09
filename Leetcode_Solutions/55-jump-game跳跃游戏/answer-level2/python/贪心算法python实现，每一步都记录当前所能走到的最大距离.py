@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-也不是啥算法大佬，巨佬勿笑。就是从nums[0]到nums[lenth-2]，每一步都记录当前能走到的最大距离.
-nums[length-1]这一步其实就不用管了，具体值是多少对结果也没影响。时间复杂度O（n）
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 也不是啥算法大佬，巨佬勿笑。就是从nums[0]到nums[lenth-2]，每一步都记录当前能走到的最大距离.
+# nums[length-1]这一步其实就不用管了，具体值是多少对结果也没影响。时间复杂度O（n）
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if not nums:
@@ -22,4 +22,4 @@ class Solution:
      
 
 
-```
+# ```

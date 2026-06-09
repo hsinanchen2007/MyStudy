@@ -1,9 +1,9 @@
-### 解题思路
-遍历每个格子，计算周围八个格子的累加数字，即可计算出下一轮存活
+// ### 解题思路
+// 遍历每个格子，计算周围八个格子的累加数字，即可计算出下一轮存活
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         int row = board.length;
@@ -77,4 +77,4 @@ class Solution {
 
     }
 }
-```
+// ```

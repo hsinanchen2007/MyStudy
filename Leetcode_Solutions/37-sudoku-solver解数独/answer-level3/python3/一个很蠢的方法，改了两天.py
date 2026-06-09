@@ -1,5 +1,5 @@
-非递归回溯，改了两天都心态快崩了，还是递归的方法好
-```
+# 非递归回溯，改了两天都心态快崩了，还是递归的方法好
+# ```
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
@@ -82,4 +82,4 @@ class Solution:
                     if j==9:
                         i = i+1
                         j = 0
-```
+# ```

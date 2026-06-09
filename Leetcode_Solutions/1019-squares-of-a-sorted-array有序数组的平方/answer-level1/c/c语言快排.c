@@ -1,9 +1,9 @@
-### 解题思路
-利用快排函数解决不会写快排的烦恼，哈哈。
+// ### 解题思路
+// 利用快排函数解决不会写快排的烦恼，哈哈。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -19,4 +19,4 @@ int* sortedSquares(int* A, int ASize, int* returnSize){
     *returnSize=ASize;
     return num;
 }
-```
+// ```

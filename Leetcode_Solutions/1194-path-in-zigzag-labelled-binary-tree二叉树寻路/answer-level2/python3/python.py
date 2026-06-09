@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def pathInZigZagTree(self, label: int) -> List[int]:
         
@@ -20,4 +20,4 @@ class Solution:
             layer -= 1
         res.append(label)
         return res[::-1]
-```
+# ```

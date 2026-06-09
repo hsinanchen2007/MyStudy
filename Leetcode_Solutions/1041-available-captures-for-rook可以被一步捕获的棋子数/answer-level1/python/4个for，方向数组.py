@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         R_x = [x for x in range(8) if 'R' in board[x]][0]
@@ -51,4 +51,4 @@ class Solution:
                     break
         return res
                 
-```
+# ```

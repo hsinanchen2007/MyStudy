@@ -1,9 +1,9 @@
-### 解题思路
-模仿一个生产者，一个消费者的情形
+// ### 解题思路
+// 模仿一个生产者，一个消费者的情形
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FooBar {
     private int n;
     private Lock lock=new ReentrantLock();
@@ -56,4 +56,4 @@ class FooBar {
 
     }
 }
-```
+// ```

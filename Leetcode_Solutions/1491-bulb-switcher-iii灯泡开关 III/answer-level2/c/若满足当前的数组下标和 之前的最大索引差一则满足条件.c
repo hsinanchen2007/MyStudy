@@ -1,9 +1,9 @@
-### 解题思路
-若满足当前的数组下标和 之前的最大索引差一则满足条件。
+// ### 解题思路
+// 若满足当前的数组下标和 之前的最大索引差一则满足条件。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numTimesAllBlue(int* light, int lightSize){
     if (light == NULL || lightSize == 0) {
         return 0;
@@ -22,4 +22,4 @@ int numTimesAllBlue(int* light, int lightSize){
     }
     return ans;
 }
-```
+// ```

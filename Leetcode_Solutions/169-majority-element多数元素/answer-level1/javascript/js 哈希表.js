@@ -1,4 +1,4 @@
-```
+// ```
 var majorityElement = function(nums) {
     const tar = nums.length / 2;
     let i = tar * 2;
@@ -9,4 +9,4 @@ var majorityElement = function(nums) {
     }
     return 0;
 };
-```
+// ```

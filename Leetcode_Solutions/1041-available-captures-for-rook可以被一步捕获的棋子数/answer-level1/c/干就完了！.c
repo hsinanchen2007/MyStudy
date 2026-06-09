@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int x,y;
     for(int i=0;i<boardSize;i++){
@@ -69,4 +69,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     
     
 }
-```
+// ```

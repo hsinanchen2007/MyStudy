@@ -1,11 +1,11 @@
-我用的比较笨的方法，但代码容易理解:
-void root_in(TreeNode* root,int sum)函数的作用是中序遍历每个结点，
-void dfs(TreeNode* root,int count,int sum)函数的作用是以传入结点为根结点
-中序遍历该结点余下二叉树。
-这样就能找到所有满足要求的路径啦。
-很笨，但是比较难的方法以后再慢慢理解吧，😭
+// 我用的比较笨的方法，但代码容易理解:
+// void root_in(TreeNode* root,int sum)函数的作用是中序遍历每个结点，
+// void dfs(TreeNode* root,int count,int sum)函数的作用是以传入结点为根结点
+// 中序遍历该结点余下二叉树。
+// 这样就能找到所有满足要求的路径啦。
+// 很笨，但是比较难的方法以后再慢慢理解吧，😭
 
-```
+// ```
 class Solution {
 public:int paths;
 	   void dfs(TreeNode* root,int count,int sum){
@@ -31,4 +31,4 @@ public:int paths;
 
     }
 };
-```
+// ```

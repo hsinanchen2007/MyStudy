@@ -1,10 +1,10 @@
-### 解题思路
-1、初始化前3个
-2、然后循环计算
+// ### 解题思路
+// 1、初始化前3个
+// 2、然后循环计算
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func tribonacci(n int) int {
     tribonacciVal := make([]int, 38)
     tribonacciVal[0] = 0
@@ -15,4 +15,4 @@ func tribonacci(n int) int {
     }
     return tribonacciVal[n]
 }
-```
+// ```

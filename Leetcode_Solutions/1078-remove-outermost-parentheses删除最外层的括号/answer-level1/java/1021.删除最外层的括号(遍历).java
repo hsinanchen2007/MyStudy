@@ -1,5 +1,5 @@
-思路来源于：遍历法
-```
+// 思路来源于：遍历法
+// ```
 class Solution {
     public String removeOuterParentheses(String S) {
                int count=0,index=0;         //count左括号次数, index单独括号数
@@ -19,4 +19,4 @@ class Solution {
 		return sb.toString(); 
     }
 }
-```
+// ```

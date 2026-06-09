@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ae80c9e221a46eb13a38e384f4222ba001210d91470d402f763d02677dc07d9f-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/ae80c9e221a46eb13a38e384f4222ba001210d91470d402f763d02677dc07d9f-image.png)
 
-参考大佬的
+# 参考大佬的
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxSubArray(self, nums):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             res = max(nums[i], res + nums[i])
             max_ = max(max_, res)
         return max_
-```
+# ```

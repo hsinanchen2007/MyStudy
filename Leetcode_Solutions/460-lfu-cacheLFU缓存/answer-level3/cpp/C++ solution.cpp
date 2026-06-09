@@ -1,8 +1,8 @@
-### 解题思路
-写的复杂了
-### 代码
+// ### 解题思路
+// 写的复杂了
+// ### 代码
 
-```cpp
+// ```cpp
 class LFUCache {
 public:
     LFUCache(int capacity) {
@@ -79,4 +79,4 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

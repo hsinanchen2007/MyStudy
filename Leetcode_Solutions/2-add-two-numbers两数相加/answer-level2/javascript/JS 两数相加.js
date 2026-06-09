@@ -1,4 +1,4 @@
-```
+// ```
 var addTwoNumbers = function(l1, l2) {
     var nowNode = new ListNode();
     var carry=0,sum=0;
@@ -12,4 +12,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return result.next
 };
-```
+// ```

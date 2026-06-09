@@ -1,9 +1,9 @@
-# 思路：
-1，先对数组进行从小到大排序，保证任何数的因子若存在则一定出现在其左边
-2，`dp[i]`代表以第`i`个数为根结点的树的数目
-3，状态转移方程为：
-`dp[i] = 1 + sum{dp[a] * dp[b] | for all (a, b) if (A[a] * A[b] == A[i])} `
-```C++ []
+// # 思路：
+// 1，先对数组进行从小到大排序，保证任何数的因子若存在则一定出现在其左边
+// 2，`dp[i]`代表以第`i`个数为根结点的树的数目
+// 3，状态转移方程为：
+// `dp[i] = 1 + sum{dp[a] * dp[b] | for all (a, b) if (A[a] * A[b] == A[i])} `
+// ```C++ []
 class Solution {
 public:
     const long M = 1e9 + 7;
@@ -28,6 +28,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/af34e7a97539c39e05cba1f2b50d669b88b1c3a739a5610204fe64f258e0a461-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/af34e7a97539c39e05cba1f2b50d669b88b1c3a739a5610204fe64f258e0a461-image.png)
 

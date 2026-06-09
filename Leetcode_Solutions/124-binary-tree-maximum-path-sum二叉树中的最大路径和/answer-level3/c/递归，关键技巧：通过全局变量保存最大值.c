@@ -1,9 +1,9 @@
-### 解题思路
-三种情况，归到lmr和ret
-不断比较最大值
+// ### 解题思路
+// 三种情况，归到lmr和ret
+// 不断比较最大值
 
-### 代码
-```c
+// ### 代码
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ int maxPathSum(struct TreeNode* root){
 
     return val;
 }
-```
+// ```

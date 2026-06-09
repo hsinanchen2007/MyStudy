@@ -1,12 +1,12 @@
-### 解题思路
-1. 两个矩形没有相交，返回两个面积和
-2. ABCD完全包含EFGH，返回ABCD面积
-3. EFGH完全包含ABCD，返回EFGH面积
-4. 求出相交部分的高、宽，减去相交面积
+// ### 解题思路
+// 1. 两个矩形没有相交，返回两个面积和
+// 2. ABCD完全包含EFGH，返回ABCD面积
+// 3. EFGH完全包含ABCD，返回EFGH面积
+// 4. 求出相交部分的高、宽，减去相交面积
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int computeArea(int A, int B, int C, int D, int E, int F, int G, int H){
     int area1=(C-A)*(D-B);
     int area2=(E-G)*(F-H);
@@ -48,4 +48,4 @@ int computeArea(int A, int B, int C, int D, int E, int F, int G, int H){
     return area1+area2-h*w;
 
 }
-```
+// ```

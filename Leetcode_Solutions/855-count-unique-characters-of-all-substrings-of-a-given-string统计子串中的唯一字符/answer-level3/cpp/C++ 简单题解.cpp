@@ -1,5 +1,5 @@
-记录每一个字符最后出现的两次对应的位置即可
-```cpp
+// 记录每一个字符最后出现的两次对应的位置即可
+// ```cpp
 class Solution {
 public:
     int uniqueLetterString(string S) {
@@ -15,5 +15,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e8f3a71b707190c4c631b95b102ceeb7b93ccc1f2254ccd41d630e8c1bb06a1d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e8f3a71b707190c4c631b95b102ceeb7b93ccc1f2254ccd41d630e8c1bb06a1d-image.png)

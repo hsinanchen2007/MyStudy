@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_TREE_NODE_SIZE 100
 #define MAX_TREE_SUB_NODES 10
 
@@ -112,4 +112,4 @@ void testPathSum()
     int size = sizeof(arr) / sizeof(int);
     printf("%d, ret:44\n", pathSum(arr, size));
 }
-```
+// ```

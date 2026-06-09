@@ -1,6 +1,6 @@
 
-### 简单的小题
-```C++
+// ### 简单的小题
+// ```C++
 class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return result;
     }
 };
-```
+// ```

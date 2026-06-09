@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-看的题解的解题思路，直接学习别人优秀的方法。
-![image.png](https://pic.leetcode-cn.com/cb05b81df00e4ea66b8083a59fc72410a6f0bf7e6c2f6793457dc31abac76031-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 看的题解的解题思路，直接学习别人优秀的方法。
+// ![image.png](https://pic.leetcode-cn.com/cb05b81df00e4ea66b8083a59fc72410a6f0bf7e6c2f6793457dc31abac76031-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int m, int n)
 {
     int r = m % n;
@@ -47,4 +47,4 @@ char * gcdOfStrings(char * str1, char * str2){
 
     return res;
 }
-```
+// ```

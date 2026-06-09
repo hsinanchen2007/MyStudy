@@ -1,9 +1,9 @@
-### 解题思路
-参考morries算法
+// ### 解题思路
+// 参考morries算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ private:
         return pre;
     }
 };
-```
+// ```

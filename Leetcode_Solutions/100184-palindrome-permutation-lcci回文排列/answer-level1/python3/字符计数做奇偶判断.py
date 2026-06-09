@@ -1,9 +1,9 @@
-### 解题思路
-对字符计数，只能出现一个奇数次的字符，其余是偶数次或全部是偶数次，还有一个另外就是字符串都是同一个字母
+# ### 解题思路
+# 对字符计数，只能出现一个奇数次的字符，其余是偶数次或全部是偶数次，还有一个另外就是字符串都是同一个字母
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         counter_dict = {}
@@ -29,4 +29,4 @@ class Solution:
         if len(l) == 0:
             return True
 
-```
+# ```

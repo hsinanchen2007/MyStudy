@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口，找出相比不使用技能最大满意人数的提升。
+// ### 解题思路
+// 滑动窗口，找出相比不使用技能最大满意人数的提升。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int X) {
@@ -31,4 +31,4 @@ public:
         return profit+max_improvement;
     }
 };
-```
+// ```

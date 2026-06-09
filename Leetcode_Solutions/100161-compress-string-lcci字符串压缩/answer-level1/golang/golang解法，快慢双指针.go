@@ -1,8 +1,8 @@
-golang解法，快慢指针
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// golang解法，快慢指针
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 双指针取连续字符
 // 时间复杂度：O(n)  空间复杂度：O(1)
 
@@ -34,4 +34,4 @@ func compressString(S string) string {
 
 	return S	
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+-- ```
 select 
     s.month,
     t.country ,
@@ -10,4 +10,4 @@ from (select date_format(trans_date,'%Y-%m')  as month,id ,if(state='approved',1
 left join Transactions  t on t.id=s.id
 group by s.month, t.country 
 having approved_amount >0  or   chargeback_amount >0;
-```
+-- ```

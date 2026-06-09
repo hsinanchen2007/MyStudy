@@ -1,8 +1,8 @@
-重要步骤 容易忽略，一定要记得
+// 重要步骤 容易忽略，一定要记得
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addStrings(char * num1, char * num2){
     int length1=strlen(num1),length2=strlen(num2),length;
     int i=length1-1, j=length2-1 ,num, tmp=0;  //tmp作用是 记录进一
@@ -31,4 +31,4 @@ char * addStrings(char * num1, char * num2){
     return new_string;
 
 }
-```
+// ```

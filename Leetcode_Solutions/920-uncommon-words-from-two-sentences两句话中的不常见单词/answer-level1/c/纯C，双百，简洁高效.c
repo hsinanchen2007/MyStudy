@@ -1,13 +1,13 @@
-![1.png](https://pic.leetcode-cn.com/c4a2cbfd7db8807d3662becbd3060c83fd8c3ff96f2d61529a3381f19e72bdcf-1.png)
+// ![1.png](https://pic.leetcode-cn.com/c4a2cbfd7db8807d3662becbd3060c83fd8c3ff96f2d61529a3381f19e72bdcf-1.png)
 
-### 解题思路
-1、先将A、B合并到res中；
-2、将res排序；
-3、列出只出现一次的单词。
+// ### 解题思路
+// 1、先将A、B合并到res中；
+// 2、将res排序；
+// 3、列出只出现一次的单词。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -43,4 +43,4 @@ char ** uncommonFromSentences(char * A, char * B, int* returnSize){
 	*returnSize = k;
 	return res;
 }
-```
+// ```

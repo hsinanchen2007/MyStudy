@@ -1,9 +1,9 @@
-### 解题思路
-python3堆的典型应用
+# ### 解题思路
+# python3堆的典型应用
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         import heapq
@@ -22,4 +22,4 @@ class Solution:
 
         return -heapq.heappop(nums) if is_opposite else heapq.heappop(nums)
 
-```
+# ```

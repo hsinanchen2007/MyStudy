@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -12,9 +12,9 @@ public:
         return res;
     }
 };
-```
-方法二
-```
+// ```
+// 方法二
+// ```
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -30,5 +30,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

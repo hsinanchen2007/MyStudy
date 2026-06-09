@@ -1,6 +1,6 @@
-所有的思路在注释里。
+// 所有的思路在注释里。
 
-```
+// ```
 
 /*
  * @Website: https://ntutn.top
@@ -100,9 +100,9 @@ class Solution {
 // @lc code=end
 
 
-```
+// ```
 
-Accepted
-- 27/27 cases passed (1 ms)
-- Your runtime beats 96.78 % of java submissions
-- Your memory usage beats 32.47 % of java submissions (35.1 MB)
+// Accepted
+// - 27/27 cases passed (1 ms)
+// - Your runtime beats 96.78 % of java submissions
+// - Your memory usage beats 32.47 % of java submissions (35.1 MB)

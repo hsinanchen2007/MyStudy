@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numberOfLines(self, widths: List[int], S: str) -> List[int]:
         ans = 0
@@ -9,4 +9,4 @@ class Solution:
             else:
                 ans+=t
         return [ans//100+1, ans%100]
-```
+# ```

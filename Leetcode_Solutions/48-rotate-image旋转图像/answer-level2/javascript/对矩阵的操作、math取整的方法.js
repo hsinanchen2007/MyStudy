@@ -1,7 +1,7 @@
-### 从外向内遍历矩阵
-[运用了js数学函数向上、向下取整等方法](https://www.cnblogs.com/Marydon20170307/p/8831055.html)
+// ### 从外向内遍历矩阵
+// [运用了js数学函数向上、向下取整等方法](https://www.cnblogs.com/Marydon20170307/p/8831055.html)
 
-```
+// ```
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -22,9 +22,9 @@ var rotate = function(matrix) {
     }   
     return matrix;
 };
-```
-### 先矩阵转置再按行反转
-```
+// ```
+// ### 先矩阵转置再按行反转
+// ```
 var rotate = function(matrix) {
     // 矩阵的大小
     let len = matrix[0].length;
@@ -46,4 +46,4 @@ var rotate = function(matrix) {
     
     return matrix;
 };
-```
+// ```

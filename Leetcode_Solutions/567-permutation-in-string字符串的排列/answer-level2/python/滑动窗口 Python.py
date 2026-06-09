@@ -1,6 +1,6 @@
-滑动窗口
+# 滑动窗口
 
-```
+# ```
 from collections import Counter
 class Solution(object):
     def checkInclusion(self, s1, s2):
@@ -33,4 +33,4 @@ class Solution(object):
                 start = start + 1
                 count -= 1
         return False
-```
+# ```

@@ -1,5 +1,5 @@
-# 202. 快乐数
-```
+// # 202. 快乐数
+// ```
 class Solution {
 private:
 	set<int> m_set;	//用于保存已经出现过数的集合
@@ -27,4 +27,4 @@ public:
 		return isHappy(dst);
     }
 };
-```
+// ```

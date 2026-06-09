@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法
+# ### 解题思路
+# 回溯算法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def subsets(self, nums):
         """
@@ -21,4 +21,4 @@ class Solution(object):
         helper(0, [])
         return res  
 
-```
+# ```

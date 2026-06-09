@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         if (numRows == 0) {
@@ -34,4 +34,4 @@ class Solution {
 // 1 1
 // 1 2 1
 // 1 3 3 1
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     vector<int> v;
 public:
@@ -24,4 +24,4 @@ public:
  * Solution* obj = new Solution(w);
  * int param_1 = obj->pickIndex();
  */
-```
+// ```

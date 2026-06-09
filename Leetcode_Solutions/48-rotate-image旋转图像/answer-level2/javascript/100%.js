@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/2e86b59c097ff64babae7619e582ff3a20986eb9155910fea273d4483bee5924-1.png)
-![2.png](https://pic.leetcode-cn.com/016e5a3cc89569d7655c102d3c4977797cce5969e84b422cb0de8d45984f9340-2.png)
+// ![1.png](https://pic.leetcode-cn.com/2e86b59c097ff64babae7619e582ff3a20986eb9155910fea273d4483bee5924-1.png)
+// ![2.png](https://pic.leetcode-cn.com/016e5a3cc89569d7655c102d3c4977797cce5969e84b422cb0de8d45984f9340-2.png)
 
-```javascript []
+// ```javascript []
 var rotate = function(nums) {
 	//huan代表矩阵的环数
 	for (var i = 0, huan = (nums.length + 1) >> 1; i < huan; i++) {
@@ -19,8 +19,8 @@ var rotate = function(nums) {
 		}
 	}
 }
-```
-```java []
+// ```
+// ```java []
 public void rotate(int[][] nums) {
 	//huan代表矩阵的环数
 	for (int i = 0, huan = (nums.length + 1) >> 1; i < huan; i++) {
@@ -38,4 +38,4 @@ public void rotate(int[][] nums) {
 		}
 	}
 }
-```
+// ```

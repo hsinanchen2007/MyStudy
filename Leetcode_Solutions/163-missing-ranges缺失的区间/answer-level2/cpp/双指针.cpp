@@ -1,10 +1,10 @@
-### 解题思路
-lower, upper的处理：加入vector两端
-vector为空的处理：lower->upper || lower
+// ### 解题思路
+// lower, upper的处理：加入vector两端
+// vector为空的处理：lower->upper || lower
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 fun numJewelsInStones(J: String, S: String): Int {
     var count:Int = 0
     for (i in J) {
@@ -10,5 +10,5 @@ fun numJewelsInStones(J: String, S: String): Int {
     }
     return count
 }
-```
-暴力双层for循环
+// ```
+// 暴力双层for循环

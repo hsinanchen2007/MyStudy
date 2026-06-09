@@ -1,12 +1,12 @@
-# 解法一：
-二维动态规划
-1，`dp[i][j]`代表从`[i, j]`出发到达终点需要的最小初始血量
-状态转移方程为：
-2，`dp[i][j] = max(1, min(dp[i + 1][j], dp[i][j + 1]) - dungeon[i][j])`
-3，注意边界情况特殊处理即可，右下角单独计算
-时间复杂度O(n^2)
-空间复杂度O(n^2)
-```C++ []
+// # 解法一：
+// 二维动态规划
+// 1，`dp[i][j]`代表从`[i, j]`出发到达终点需要的最小初始血量
+// 状态转移方程为：
+// 2，`dp[i][j] = max(1, min(dp[i + 1][j], dp[i][j + 1]) - dungeon[i][j])`
+// 3，注意边界情况特殊处理即可，右下角单独计算
+// 时间复杂度O(n^2)
+// 空间复杂度O(n^2)
+// ```C++ []
 class Solution {
 public:
     using ll = long long;
@@ -29,15 +29,15 @@ public:
         return dp[0][0];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/650ea784e973d200fed0fa16da66c9b1616cdfbd4d4e555f5f431bc8df722654-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/650ea784e973d200fed0fa16da66c9b1616cdfbd4d4e555f5f431bc8df722654-image.png)
 
 
-# 解法二：
-状态压缩动态规划
-时间复杂度O(n^2)
-空间复杂度O(n)
-```C++ []
+// # 解法二：
+// 状态压缩动态规划
+// 时间复杂度O(n^2)
+// 空间复杂度O(n)
+// ```C++ []
 class Solution {
 public:
     using ll = long long;
@@ -59,6 +59,6 @@ public:
         return dp[0];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e3f9c52a652218a9e5bf3f41c8fd2614b165073b2b551c37e5d2bb098505773b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e3f9c52a652218a9e5bf3f41c8fd2614b165073b2b551c37e5d2bb098505773b-image.png)

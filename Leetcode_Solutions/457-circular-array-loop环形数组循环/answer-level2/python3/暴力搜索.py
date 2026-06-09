@@ -1,9 +1,9 @@
-### 解题思路
-方向不同直接跳出！
+# ### 解题思路
+# 方向不同直接跳出！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def circularArrayLoop(self, nums: List[int]) -> bool:
         size=len(nums)
@@ -30,4 +30,4 @@ class Solution:
                 return True
             
         return False
-```
+# ```

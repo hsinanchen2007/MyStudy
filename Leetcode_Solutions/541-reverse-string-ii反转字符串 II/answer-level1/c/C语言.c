@@ -1,9 +1,9 @@
-### 解题思路
-读题2小时，代码5分钟
+// ### 解题思路
+// 读题2小时，代码5分钟
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(char *s, int start, int end) {
     while(start < end) {
         char tmp = s[start];
@@ -23,4 +23,4 @@ char * reverseStr(char * s, int k){
     }
     return s;
 }
-```
+// ```

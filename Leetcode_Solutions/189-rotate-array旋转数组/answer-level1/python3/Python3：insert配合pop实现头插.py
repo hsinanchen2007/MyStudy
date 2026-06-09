@@ -1,5 +1,5 @@
-# **inser()配合pop()实现头插**
-```python
+# # **inser()配合pop()实现头插**
+# ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -7,5 +7,5 @@ class Solution:
         """
         for _ in range(k):
             nums.insert(0,nums.pop())
-```
-$时间复杂度为O(n)$
+# ```
+# $时间复杂度为O(n)$

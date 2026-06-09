@@ -1,9 +1,9 @@
-### 解题思路
-逐个元素进行移动，执行用时长。
+# ### 解题思路
+# 逐个元素进行移动，执行用时长。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
                 i+=2
             else:
                 i+=1
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e3e5f669f4b6858959690a368990f2a96c709635434cc2d1570504c20e53eeea-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e3e5f669f4b6858959690a368990f2a96c709635434cc2d1570504c20e53eeea-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -16,4 +16,4 @@ var fib = function(n) {
     }
     return fibonacci[n];
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-日常学习[@jyd](/u/jyd/)大佬
-[大佬详细地址传送门](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/solution/mian-shi-ti-39-shu-zu-zhong-chu-xian-ci-shu-chao-3/)
+// ### 解题思路
+// 日常学习[@jyd](/u/jyd/)大佬
+// [大佬详细地址传送门](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/solution/mian-shi-ti-39-shu-zu-zhong-chu-xian-ci-shu-chao-3/)
 
-### 知识点：摩尔投票法：正负相消
+// ### 知识点：摩尔投票法：正负相消
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     x, votes := nums[0], 1 // x 为假设的众数，votes为票数
 	for i := 1; i < len(nums); i++ {
@@ -23,4 +23,4 @@ func majorityElement(nums []int) int {
 
 	return x
 }
-```
+// ```

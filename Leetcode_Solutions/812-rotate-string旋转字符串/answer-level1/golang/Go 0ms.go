@@ -1,4 +1,4 @@
-```
+// ```
 func rotateString(A string, B string) bool {
     lenA := len(A)
     lenB := len(B)
@@ -23,4 +23,4 @@ func rotateString(A string, B string) bool {
     }
     return false    
 }
-```
+// ```

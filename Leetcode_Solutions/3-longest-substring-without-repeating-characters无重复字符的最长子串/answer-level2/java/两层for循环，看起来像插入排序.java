@@ -1,4 +1,4 @@
-两个指针p1，p2，用来记录不连续子串的首末位置，但是为什么内存消耗值击败了13%？
+// 两个指针p1，p2，用来记录不连续子串的首末位置，但是为什么内存消耗值击败了13%？
 
 public int lengthOfLongestSubstring(String s) {
         if((s==null)|(s.length()==0))return 0;

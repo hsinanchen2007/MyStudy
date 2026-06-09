@@ -1,12 +1,12 @@
-### 解题思路
-1、定义一个守卫节点为当前输入的head的前置节点
-2、移动指针到需要倒置的位置
-3、头插法即可完成旋转链表
-![image.png](https://pic.leetcode-cn.com/7d1fb911045f366cb6a1916a97600f689f1bb20900dbf193046f1837451b635c-image.png)
+// ### 解题思路
+// 1、定义一个守卫节点为当前输入的head的前置节点
+// 2、移动指针到需要倒置的位置
+// 3、头插法即可完成旋转链表
+// ![image.png](https://pic.leetcode-cn.com/7d1fb911045f366cb6a1916a97600f689f1bb20900dbf193046f1837451b635c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n)
     }
     return reverHead.next;
 }
-```
+// ```

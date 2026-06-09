@@ -1,9 +1,9 @@
-### 解题思路
-方法一：参照题解，正反两次遍历找出最大值
+// ### 解题思路
+// 方法一：参照题解，正反两次遍历找出最大值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestValidParentheses(char * s){
     int     i       = 0;
     int     j       = 0;
@@ -65,4 +65,4 @@ int longestValidParentheses(char * s){
 
     return iMaxLen;
 }
-```
+// ```

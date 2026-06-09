@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 自己写的是暴利破解法，更新用双指针法
 func maxArea(height []int) int {
     res := 0
@@ -29,4 +29,4 @@ func maxArea(height []int) int {
     }
     return res
 }
-```
+// ```

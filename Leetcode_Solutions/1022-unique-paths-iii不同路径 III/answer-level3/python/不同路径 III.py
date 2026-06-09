@@ -1,12 +1,12 @@
-#### 方法一：回溯深度优先搜索
+# #### 方法一：回溯深度优先搜索
 
-**思路与算法**
+# **思路与算法**
 
-让我们尝试遍历每一个 `0` 方格，并在走过的方格里留下一个障碍。回溯的时候，我们要删除那些自己留下的障碍。
+# 让我们尝试遍历每一个 `0` 方格，并在走过的方格里留下一个障碍。回溯的时候，我们要删除那些自己留下的障碍。
 
-介于输入数据的限制，这个方法是可以通过的，因为一个不好的路径很快就会因没有无障碍的方格可以走而被卡住。 
+# 介于输入数据的限制，这个方法是可以通过的，因为一个不好的路径很快就会因没有无障碍的方格可以走而被卡住。 
 
-```java [2RULHstn-Java]
+# ```java [2RULHstn-Java]
 class Solution {
     int ans;
     int[][] grid;
@@ -62,8 +62,8 @@ class Solution {
         grid[r][c] = 0;
     }
 }
-```
-```python [2RULHstn-Python]
+# ```
+# ```python [2RULHstn-Python]
 class Solution:
     def uniquePathsIII(self, grid):
         R, C = len(grid), len(grid[0])
@@ -96,29 +96,29 @@ class Solution:
 
         dfs(sr, sc, todo)
         return self.ans
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(4^{R*C})$，其中 $R, C$ 是这个二维网格行与列的大小。（我们可以找到一个更加精确的界限，但是这个界限已经超越了本文的范围）
+# * 时间复杂度：$O(4^{R*C})$，其中 $R, C$ 是这个二维网格行与列的大小。（我们可以找到一个更加精确的界限，但是这个界限已经超越了本文的范围）
 
-* 空间复杂度：$O(R*C)$。
-
-
+# * 空间复杂度：$O(R*C)$。
 
 
 
----
-#### 方法二：动态规划
 
-**思路与算法**
 
-让我们定义 `dp(r, c, todo)` 为从  `(r, c)` 开始行走，还没有遍历的无障碍方格集合为 `todo` 的好路径的数量。
+# ---
+# #### 方法二：动态规划
 
-我们可以使用一个与 *方法一* 类似的方法，并通过记忆化状态 `(r, c, todo)` 的答案来避免重复搜索。
+# **思路与算法**
 
-```java [pRtnUqNa-Java]
+# 让我们定义 `dp(r, c, todo)` 为从  `(r, c)` 开始行走，还没有遍历的无障碍方格集合为 `todo` 的好路径的数量。
+
+# 我们可以使用一个与 *方法一* 类似的方法，并通过记忆化状态 `(r, c, todo)` 的答案来避免重复搜索。
+
+# ```java [pRtnUqNa-Java]
 class Solution {
     int ans;
     int[][] grid;
@@ -178,8 +178,8 @@ class Solution {
         return ans;
     }
 }
-```
-```python [pRtnUqNa-Python]
+# ```
+# ```python [pRtnUqNa-Python]
 from functools import lru_cache
 class Solution:
     def uniquePathsIII(self, grid):
@@ -216,13 +216,13 @@ class Solution:
             return ans
 
         return dp(sr, sc, target)
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(R * C * 2^{R*C})$，其中 $R, C$ 是给定二维网格行与列的大小。
-* 空间复杂度：$O(R * C * 2^{R*C})$。
+# * 时间复杂度：$O(R * C * 2^{R*C})$，其中 $R, C$ 是给定二维网格行与列的大小。
+# * 空间复杂度：$O(R * C * 2^{R*C})$。
   
 
   

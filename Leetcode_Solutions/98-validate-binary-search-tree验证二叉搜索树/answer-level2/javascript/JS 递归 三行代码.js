@@ -1,9 +1,9 @@
-### 解题思路
-JS 递归 三行代码
+// ### 解题思路
+// JS 递归 三行代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -20,4 +20,4 @@ var isValidBST = function(root, min = -Infinity, max = Infinity) {
     if (root.val <= min || root.val >= max) return false;
     return isValidBST(root.left, min, root.val) && isValidBST(root.right, root.val, max);
 };
-```
+// ```

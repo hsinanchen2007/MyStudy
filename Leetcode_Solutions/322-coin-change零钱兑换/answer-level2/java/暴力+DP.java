@@ -1,11 +1,11 @@
-面试栽过
-### 状态定义
-dp[n]: 表示使用给定的coins加到n所需要的最少个数
-### 状态转移
-`dp[n] = min{dp[c]} + 1` 
-c满足: **coin + c = n, coin为coins中的一个硬币**
-# 代码
-```
+// 面试栽过
+// ### 状态定义
+// dp[n]: 表示使用给定的coins加到n所需要的最少个数
+// ### 状态转移
+// `dp[n] = min{dp[c]} + 1` 
+// c满足: **coin + c = n, coin为coins中的一个硬币**
+// # 代码
+// ```
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if (coins == null) return -1;
@@ -22,9 +22,9 @@ class Solution {
         return dp[amount] == Integer.MAX_VALUE ? -1 : (int)dp[amount];
     }
 }
-```
-时间复杂度: O(k·n), n为amout, k为coins个数
-空间复杂度: O(n), n为amount
+// ```
+// 时间复杂度: O(k·n), n为amout, k为coins个数
+// 空间复杂度: O(n), n为amount
 
 
 

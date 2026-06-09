@@ -1,5 +1,5 @@
 
-```c++
+// ```c++
 class Solution {
 public:
  int binaryFindKthLargest(vector<int>& nums,int begin,int end, int k)
@@ -43,4 +43,4 @@ int findKthLargest(vector<int>& nums, int k) {
 	return binaryFindKthLargest(nums,0,nums.size()-1, k);
 }
 };
-```
+// ```

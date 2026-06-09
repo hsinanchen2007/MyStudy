@@ -1,4 +1,4 @@
-```
+// ```
 func constructArr(a []int) []int {
 	var (
 		i      int
@@ -22,4 +22,4 @@ func constructArr(a []int) []int {
 
 	return rst1
 }
-```
+// ```

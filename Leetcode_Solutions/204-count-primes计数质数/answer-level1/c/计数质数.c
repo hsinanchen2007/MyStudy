@@ -1,5 +1,5 @@
-**筛就完事了**
-```
+// **筛就完事了**
+// ```
 int countPrimes(int n)
 {
     if(n == 0 || n == 1)
@@ -17,4 +17,4 @@ int countPrimes(int n)
     }
     return cnt;
 }
-```
+// ```

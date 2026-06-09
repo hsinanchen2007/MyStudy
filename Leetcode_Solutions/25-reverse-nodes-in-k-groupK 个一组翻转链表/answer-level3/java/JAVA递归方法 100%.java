@@ -1,8 +1,8 @@
-思路如下：
-1.依据k找到即将要翻转的k个节点的起点和终点（不满k个不翻转）
-2.利用双指针方法对起点和终点区间内的节点进行翻转
-3.递归调用处理后续节点
-```
+// 思路如下：
+// 1.依据k找到即将要翻转的k个节点的起点和终点（不满k个不翻转）
+// 2.利用双指针方法对起点和终点区间内的节点进行翻转
+// 3.递归调用处理后续节点
+// ```
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if(k==0) return head;
@@ -32,4 +32,4 @@ class Solution {
         return  pre;
     }
 }
-```
+// ```

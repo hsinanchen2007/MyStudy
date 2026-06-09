@@ -1,4 +1,4 @@
-```
+// ```
 function plusOne($digits) {
     $n = count($digits);
     if($digits[$n-1]<9){
@@ -19,10 +19,10 @@ function plusOne($digits) {
     }
     return $digits;
 }
-```
-解法二换了另一个思路
-代码减少了一些
-```
+// ```
+// 解法二换了另一个思路
+// 代码减少了一些
+// ```
 function plusOne($digits) {
     $n = count($digits);
     for($i=$n-1;$i>=0;$i--){
@@ -33,5 +33,5 @@ function plusOne($digits) {
     array_unshift($digits,1);
     return $digits;
 }
-```
+// ```
 

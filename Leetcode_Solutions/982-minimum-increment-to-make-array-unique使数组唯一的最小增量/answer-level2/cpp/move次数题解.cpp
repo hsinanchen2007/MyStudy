@@ -1,10 +1,10 @@
-### 解题思路
-1、先排序
-2、让后面一个元素比前一个大1就是最少的增加次数
+// ### 解题思路
+// 1、先排序
+// 2、让后面一个元素比前一个大1就是最少的增加次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -30,4 +30,4 @@ public:
          return movenum;
     }
 };
-```
+// ```

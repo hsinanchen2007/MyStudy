@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-运用了递归
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 运用了递归
+// ### 代码
 
-```c
+// ```c
 bool matchStar(int i,int j, char * s, char * p);
 
 bool isMatch(char * s, char * p){
@@ -60,4 +60,4 @@ else {
 
 
 
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3d4aa63dfa2b59957690e614432b792ef47be3818feb84ff4afd67224774fdd9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3d4aa63dfa2b59957690e614432b792ef47be3818feb84ff4afd67224774fdd9-image.png)
 
 
-```
+# ```
 '''
 先计算需要删除的左括号和右括号数量
 然后用组合方式枚举所有可能的删除位置, 判断剩下的字符串是否合法
@@ -41,4 +41,4 @@ class Solution:
                 if ret == [0, 0]:
                     ans.add(new_str)
         return list(ans)
-```
+# ```

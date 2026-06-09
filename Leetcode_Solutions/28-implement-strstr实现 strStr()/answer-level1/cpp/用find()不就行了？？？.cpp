@@ -1,13 +1,13 @@
-### 解题思路
-find()
+// ### 解题思路
+// find()
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
 return haystack.find(needle);
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-# 第一种解法：常规做法 
-1. 字符串全小写
-2. 去除不必要的字符
-3. 遍历验证索引0 ~ s/2 与 s/2 + 1 ~ s.length -1 所在的字符串是否相等
-```java
+// # 第一种解法：常规做法 
+// 1. 字符串全小写
+// 2. 去除不必要的字符
+// 3. 遍历验证索引0 ~ s/2 与 s/2 + 1 ~ s.length -1 所在的字符串是否相等
+// ```java
 public boolean isPalindrome(String s) {
         StringBuilder content = new StringBuilder();
         String lowerCase = s.toLowerCase(); // 全小写
@@ -23,10 +23,10 @@ public boolean isPalindrome(String s) {
         return true;
 
     }
-```
-# 第二种解法：双指针
-1. 思路就是 一个指针指向字符串头部，一个指针指向字符串尾，遇见不必要字符串跳过
-```java
+// ```
+// # 第二种解法：双指针
+// 1. 思路就是 一个指针指向字符串头部，一个指针指向字符串尾，遇见不必要字符串跳过
+// ```java
     public boolean isPalindrome2(String s) {
         int length = s.length(); // 遍历的长度
         String lowerCase = s.toLowerCase(); // 统一小写
@@ -51,5 +51,5 @@ public boolean isPalindrome(String s) {
     private boolean validChar(char temp) {
         return (temp >= 'a' && temp <= 'z') || (temp >= '0' && temp <= '9');
     }
-```
+// ```
 

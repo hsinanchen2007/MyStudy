@@ -1,8 +1,8 @@
-可以利用dfs求得，dfs需要进行剪枝
-这个分成4分，dfs的工作就是要知道每一个数字放在哪一部分呢？
+// 可以利用dfs求得，dfs需要进行剪枝
+// 这个分成4分，dfs的工作就是要知道每一个数字放在哪一部分呢？
 
-![image.png](https://pic.leetcode-cn.com/d98c4428ce861bfc110f44dab1c5e958cca994c20adfcb62e12abab84618e8f9-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/d98c4428ce861bfc110f44dab1c5e958cca994c20adfcb62e12abab84618e8f9-image.png)
+// ```
 class Solution {
     vector<int> partition;
     int target;
@@ -40,4 +40,4 @@ public:
         return dfs(0);
     }
 };
-```
+// ```

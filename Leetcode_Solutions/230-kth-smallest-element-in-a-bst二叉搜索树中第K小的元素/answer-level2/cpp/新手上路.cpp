@@ -1,5 +1,5 @@
-额，没啥想法只能用笨方法解题
-```
+// 额，没啥想法只能用笨方法解题
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-转换成字符串再bfs，还有很大优化空间
+# ### 解题思路
+# 转换成字符串再bfs，还有很大优化空间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def slidingPuzzle(self, board: List[List[int]]) -> int:
         def tostring(board):
@@ -56,4 +56,4 @@ class Solution:
                     if s == '123450':
                         return visited[s]
         return -1
-```
+# ```

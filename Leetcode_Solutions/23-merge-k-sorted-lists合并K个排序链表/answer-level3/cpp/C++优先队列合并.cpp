@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct cmp{bool operator()(ListNode* l1, ListNode* l2){return l1->val > l2->val;}};
@@ -14,4 +14,4 @@ public:
         return phead->next;
     }   
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     typedef pair<int, int> coor;
@@ -50,4 +50,4 @@ public:
         board[CurCoor.first][CurCoor.second] = word[CurId];
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-map记录字符串出现以及出现次数，sort对长度进行排序。
-根据题意，只需要把符合要求的子串找出来并排除掉就好。
+// ### 解题思路
+// map记录字符串出现以及出现次数，sort对长度进行排序。
+// 根据题意，只需要把符合要求的子串找出来并排除掉就好。
 
-具体看代码：
+// 具体看代码：
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minimumLengthEncoding(words []string) int {
     //记录初始的字符串个数
     count := len(words)
@@ -64,4 +64,4 @@ func minimumLengthEncoding(words []string) int {
 
     return res+count
 }
-```
+// ```

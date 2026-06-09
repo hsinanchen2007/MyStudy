@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def permuteUnique(nums: Array[Int]): List[List[Int]] = {
     solver(List((List[Int](), nums.sorted.toList))) map (x => x._1)
@@ -21,4 +21,4 @@ object Solution {
     case h :: t => g(x)(xs1 :+ h, t, (h :: x, xs1 ++ t) :: acc)
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用栈中的pop来模拟$..$操作
+// ### 解题思路
+// 用栈中的pop来模拟$..$操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String simplifyPath(String path) {
         Stack stack = new Stack();
@@ -31,4 +31,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

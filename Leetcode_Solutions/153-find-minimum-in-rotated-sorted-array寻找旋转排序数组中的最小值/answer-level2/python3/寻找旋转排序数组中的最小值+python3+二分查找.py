@@ -1,16 +1,16 @@
-####  方法1：二分查找
+# ####  方法1：二分查找
 
-| 时间复杂度 | 空间复杂度 |
-| :--------: | :--------: |
-|  O(logn)   |    O(l)    |
+# | 时间复杂度 | 空间复杂度 |
+# | :--------: | :--------: |
+# |  O(logn)   |    O(l)    |
 
-**基本思路：**
+# **基本思路：**
 
-> 如代码注释，根据旋转数组的特点进行二分查找。
+# > 如代码注释，根据旋转数组的特点进行二分查找。
 
-**代码：**
+# **代码：**
 
-```python []
+# ```python []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         l, r = 0, len(nums) - 1
@@ -30,4 +30,4 @@ class Solution:
             else:  # 完全有序(nums[l] < nums[mid] < nums[r])
                 return nums[l]
         return nums[l]
-```
+# ```

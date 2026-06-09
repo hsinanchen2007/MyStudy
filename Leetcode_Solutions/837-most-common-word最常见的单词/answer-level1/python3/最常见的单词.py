@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         # 1：去标点符号
@@ -29,4 +29,4 @@ class Solution:
                 continue
             else:
                 return key
-```
+# ```

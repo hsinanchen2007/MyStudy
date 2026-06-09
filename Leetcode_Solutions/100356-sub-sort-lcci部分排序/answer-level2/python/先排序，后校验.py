@@ -1,9 +1,9 @@
-### 解题思路
-总感觉这个题好像在leetcode正题里出现过了
+# ### 解题思路
+# 总感觉这个题好像在leetcode正题里出现过了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def subSort(self, array):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             while array[r]==sortarray[r]:
                 r-=1
         return [l,r]
-```
+# ```

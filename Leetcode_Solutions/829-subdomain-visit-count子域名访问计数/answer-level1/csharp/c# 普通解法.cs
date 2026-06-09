@@ -1,10 +1,10 @@
-### 解题思路
-拆分，遍历，累加
-因为含有“.”的域名信息里是后面的信息可以拆开而前面的信息无法拆开，所以采用倒序遍历
+// ### 解题思路
+// 拆分，遍历，累加
+// 因为含有“.”的域名信息里是后面的信息可以拆开而前面的信息无法拆开，所以采用倒序遍历
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<string> SubdomainVisits(string[] cpdomains) {
         Dictionary<string,int> temp=new Dictionary<string,int>();
@@ -46,4 +46,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-有几个注意的点
+// ### 解题思路
+// 有几个注意的点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -47,4 +47,4 @@ public:
         return (nums[lo-1]==target ? lo-1 : -1);
     }
 };
-```
+// ```

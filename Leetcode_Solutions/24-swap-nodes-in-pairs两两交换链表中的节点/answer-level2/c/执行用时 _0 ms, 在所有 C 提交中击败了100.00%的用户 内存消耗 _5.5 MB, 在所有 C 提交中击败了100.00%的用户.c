@@ -1,8 +1,8 @@
-### 解题思路
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户 内存消耗 :5.5 MB, 在所有 C 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户 内存消耗 :5.5 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode* swapPairs(struct ListNode* head){
 
     return result;
 }
-```
+// ```

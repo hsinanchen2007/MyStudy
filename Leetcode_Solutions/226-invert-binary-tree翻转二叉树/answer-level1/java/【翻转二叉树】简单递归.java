@@ -1,6 +1,6 @@
-递归，不断交换左右子树，直到子树为空
+// 递归，不断交换左右子树，直到子树为空
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -20,4 +20,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

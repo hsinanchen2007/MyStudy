@@ -1,10 +1,10 @@
-### 解题思路
-暴力法，使用set来存之前的节点，如果发现重复，则有环
-![image.png](https://pic.leetcode-cn.com/9f9f2a4ad911bd091489dd10025f7db71322acdfec21e1142c6f59f4b842a532-image.png)
+// ### 解题思路
+// 暴力法，使用set来存之前的节点，如果发现重复，则有环
+// ![image.png](https://pic.leetcode-cn.com/9f9f2a4ad911bd091489dd10025f7db71322acdfec21e1142c6f59f4b842a532-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
         return head;
     }
 };
-```
+// ```

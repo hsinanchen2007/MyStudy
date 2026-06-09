@@ -1,6 +1,6 @@
-## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
 
-```
+// ```
 public List<Double> averageOfLevels(TreeNode root) {
 
         List<Double> list = new ArrayList<>();
@@ -34,4 +34,4 @@ public List<Double> averageOfLevels(TreeNode root) {
 
         return list;
     }
-```
+// ```

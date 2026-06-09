@@ -1,9 +1,9 @@
-### 解题思路
-构建一个后缀字典树并通过dfs统计每条路径的长度
+# ### 解题思路
+# 构建一个后缀字典树并通过dfs统计每条路径的长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         #构建trie树
@@ -31,4 +31,4 @@ class Solution:
                     dfs(cur[i])
         dfs(root)
         return res
-```
+# ```

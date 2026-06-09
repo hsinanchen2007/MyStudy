@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历写入数组逐个比较
+// ### 解题思路
+// 中序遍历写入数组逐个比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ void mid_order(struct TreeNode* root){
     }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 思路一：记忆化搜索
+// ### 思路一：记忆化搜索
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -27,12 +27,12 @@ public:
         return memo[i][j] = res;
     }
 };
-```
+// ```
 
-### 思路二：DP
+// ### 思路二：DP
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -52,4 +52,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

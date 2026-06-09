@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         Arrays.sort(nums);
@@ -19,4 +19,4 @@ class Solution {
 
     }
 }
-```
+// ```

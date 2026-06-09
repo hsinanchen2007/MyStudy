@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/867789de1b5f1266ab19c9818da38059fe75c5e7593e91989ca7162302026cf3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/867789de1b5f1266ab19c9818da38059fe75c5e7593e91989ca7162302026cf3-image.png)
 
-如果计算出结果是1，说明是快乐数；同时，如果出现了循环说明不是快乐数。
+// 如果计算出结果是1，说明是快乐数；同时，如果出现了循环说明不是快乐数。
 
-```
+// ```
 func isHappy(n int) bool {
     hash := make(map[int]bool)      // 开一个 map 判断是否循环
     for n!=1 {
@@ -20,4 +20,4 @@ func isHappy(n int) bool {
     }
     return true
 }
-```
+// ```

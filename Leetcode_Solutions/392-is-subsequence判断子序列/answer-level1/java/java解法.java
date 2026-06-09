@@ -1,6 +1,6 @@
-执行用时 : 6 ms, 击败了75.22% 的用户.
-内存消耗 : 49.2 MB, 击败了95.23% 的用户.
-```
+// 执行用时 : 6 ms, 击败了75.22% 的用户.
+// 内存消耗 : 49.2 MB, 击败了95.23% 的用户.
+// ```
 class Solution {
     public boolean isSubsequence(String s, String t) {
         char[] chars = s.toCharArray();
@@ -15,4 +15,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

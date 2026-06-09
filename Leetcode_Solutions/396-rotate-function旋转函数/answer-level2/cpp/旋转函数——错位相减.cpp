@@ -1,14 +1,14 @@
-### 解题思路
-错位相减
-sum = A[0] + A[1] + A[2] + ... + A[n -2] + A[n - 1]
-weightsum0 = 0 * A[0] + 1 * A[1] + 2 * A[2] + ... + (n - 2)A[n -2] + (n - 1)A[n - 1]
-weightsum1 = 1 * A[0] + 2 * A[1] + 3 * A[2] + ... + (n - 1)A[n -2] + 0 * A[n - 1]
-weightsum1 = weightsum0 + sum - n * A[n - 1]
-两个循环，找最大值就是结果
+// ### 解题思路
+// 错位相减
+// sum = A[0] + A[1] + A[2] + ... + A[n -2] + A[n - 1]
+// weightsum0 = 0 * A[0] + 1 * A[1] + 2 * A[2] + ... + (n - 2)A[n -2] + (n - 1)A[n - 1]
+// weightsum1 = 1 * A[0] + 2 * A[1] + 3 * A[2] + ... + (n - 1)A[n -2] + 0 * A[n - 1]
+// weightsum1 = weightsum0 + sum - n * A[n - 1]
+// 两个循环，找最大值就是结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxRotateFunction(vector<int>& A) {
@@ -30,4 +30,4 @@ public:
         return result;
     }
 };
-```
+// ```

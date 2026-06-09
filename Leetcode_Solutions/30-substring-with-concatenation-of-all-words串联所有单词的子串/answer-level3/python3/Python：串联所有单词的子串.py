@@ -1,10 +1,10 @@
-### 解题思路
-字典+滑动窗口
-效率并不高
+# ### 解题思路
+# 字典+滑动窗口
+# 效率并不高
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
@@ -17,13 +17,13 @@ class Solution:
             cur=[s[i+j*wLen:i+(j+1)*wLen] for j in range(wsLen)]
             if Counter(cur)==pattern: res.append(i)
         return res
-```
+# ```
 
-### 问题
-看到字符串就想用正则表达式
-但是不知道出了什么问题，求指教
+# ### 问题
+# 看到字符串就想用正则表达式
+# 但是不知道出了什么问题，求指教
 
-```python3
+# ```python3
 from collections import Counter
 import re
 class Solution:
@@ -39,4 +39,4 @@ class Solution:
             cur=s[i:i+length-1]
             if Counter(re.findall(pattern2,cur))==pattern1: res.append(i)
         return res
-```
+# ```

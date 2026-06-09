@@ -1,9 +1,9 @@
-### 解题思路
-利用辅助双端队列维持一个单调队列，思路类似滑窗中的最大值那道题
+// ### 解题思路
+// 利用辅助双端队列维持一个单调队列，思路类似滑窗中的最大值那道题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 private:
     queue<int> q;
@@ -49,4 +49,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

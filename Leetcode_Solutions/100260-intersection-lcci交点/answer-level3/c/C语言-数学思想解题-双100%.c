@@ -1,27 +1,27 @@
-结果：
-![Snipaste_2020-03-21_15-08-50.png](https://pic.leetcode-cn.com/8c6a130fe9f3c32996df3c5fba3e1b768aabe253b3064ad744ac8f1caee0a153-Snipaste_2020-03-21_15-08-50.png)
+// 结果：
+// ![Snipaste_2020-03-21_15-08-50.png](https://pic.leetcode-cn.com/8c6a130fe9f3c32996df3c5fba3e1b768aabe253b3064ad744ac8f1caee0a153-Snipaste_2020-03-21_15-08-50.png)
 
-### 解题思路
-- 公式：Ax + By + C = 0
-A是x1-x2
-B是y2-y1
-C是x2*y1-x1*y2
+// ### 解题思路
+// - 公式：Ax + By + C = 0
+// A是x1-x2
+// B是y2-y1
+// C是x2*y1-x1*y2
 
-- 判断平行或共线的公式：A1*B2 == A2*B1 (有可能都是0！暗含陷阱)
+// - 判断平行或共线的公式：A1*B2 == A2*B1 (有可能都是0！暗含陷阱)
 
-- 求交点坐标的公式
-    1. x = (C2*A1-C1*A2) / (A2*B1-A1*B2)
-    2. y = (C1*B2-C2*B1) / (A2*B1-A1*B2)
+// - 求交点坐标的公式
+//     1. x = (C2*A1-C1*A2) / (A2*B1-A1*B2)
+//     2. y = (C1*B2-C2*B1) / (A2*B1-A1*B2)
 
-- 因为有两条线段，所以要求两次ABC作为基础
+// - 因为有两条线段，所以要求两次ABC作为基础
 
-- 后面的细节判断太痛苦了，不提交几次都不知道还有这些鬼特殊情况
+// - 后面的细节判断太痛苦了，不提交几次都不知道还有这些鬼特殊情况
 
-- 算法很可能不够精简，应该还能修短一些，但本人实在看吐了，就这样吧，反正再怎么改也是最快的了，毕竟0ms
+// - 算法很可能不够精简，应该还能修短一些，但本人实在看吐了，就这样吧，反正再怎么改也是最快的了，毕竟0ms
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -78,4 +78,4 @@ double* intersection(int* start1, int start1Size, int* end1, int end1Size, int* 
     *returnSize = 0;
     return 0;
 }
-```
+// ```

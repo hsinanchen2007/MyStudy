@@ -1,5 +1,5 @@
-全部转成负数防止溢出
-```
+// 全部转成负数防止溢出
+// ```
 function divide($dividend, $divisor) {
     $max = pow(2,31) - 1;
     $min = 0-pow(2,31);
@@ -29,4 +29,4 @@ function divide($dividend, $divisor) {
     }
     return ($flag>0)?$s:-$s;
 }
-```
+// ```

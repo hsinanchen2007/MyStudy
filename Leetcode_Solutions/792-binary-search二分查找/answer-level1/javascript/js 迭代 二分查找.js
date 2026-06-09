@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/7d80e8d665bc3f1a06348e0f1309d9cac51a288a98bd23b0280de8b78b89e413-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7d80e8d665bc3f1a06348e0f1309d9cac51a288a98bd23b0280de8b78b89e413-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-```js
+// ### 代码
+// ```js
 迭代二分查找
-```
+// ```
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -37,4 +37,4 @@ var search = function(nums, target) {
   
   return ans;
 };
-```
+// ```

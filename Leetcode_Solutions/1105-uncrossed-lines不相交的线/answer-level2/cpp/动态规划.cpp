@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-设dp[i][j]为：数组A中0到i的部分和数组B中0到j的部分的最多连线次数。状态转移的开始和结束在代码中标注。
-```cpp
+// ### 代码
+// 设dp[i][j]为：数组A中0到i的部分和数组B中0到j的部分的最多连线次数。状态转移的开始和结束在代码中标注。
+// ```cpp
 class Solution {
 public:
     int maxUncrossedLines(vector<int>& A, vector<int>& B) {
@@ -40,4 +40,4 @@ public:
     return dp[a_size - 1][b_size - 1];
     }
 };
-```
+// ```

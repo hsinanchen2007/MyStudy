@@ -1,9 +1,9 @@
-### 解题思路
-两种解法，迭代更优
+# ### 解题思路
+# 两种解法，迭代更优
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         head.next.next = head
         head.next = None
         return end
-```
+# ```

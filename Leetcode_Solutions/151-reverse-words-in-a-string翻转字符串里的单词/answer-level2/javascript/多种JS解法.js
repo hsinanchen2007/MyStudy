@@ -1,11 +1,11 @@
-### 解题思路
-其实多种解法的本质是一样的，就是trim() 传入的 string，然后split成一个个单词，然后reverse，再合并起来。
+// ### 解题思路
+// 其实多种解法的本质是一样的，就是trim() 传入的 string，然后split成一个个单词，然后reverse，再合并起来。
 
-p.s. 本题和[剑指 offer](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)的一道题基本一致，我直接搬运自己的答案了，希望能帮助到需要的人。。。
+// p.s. 本题和[剑指 offer](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)的一道题基本一致，我直接搬运自己的答案了，希望能帮助到需要的人。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 执行用时: 96 ms, 在所有 JavaScript 提交中击败了 9.07% 的用户
  * 内存消耗: 34.3 MB, 在所有 JavaScript 提交中击败了 100.00% 的用户
@@ -84,4 +84,4 @@ var reverseWordsWithFilter = function (s) {
     .join(" ");
 };
 
-```
+// ```

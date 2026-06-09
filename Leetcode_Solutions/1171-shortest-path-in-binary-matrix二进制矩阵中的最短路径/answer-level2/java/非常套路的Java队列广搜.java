@@ -1,8 +1,8 @@
-队列+状态判重，很典型的套路。
+// 队列+状态判重，很典型的套路。
 
-就是需要首先判断初始状态可不可达
+// 就是需要首先判断初始状态可不可达
 
-```
+// ```
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         
@@ -53,4 +53,4 @@ class Solution {
         
     }
 }
-```
+// ```

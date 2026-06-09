@@ -1,19 +1,19 @@
-题目要用O(1)空间复杂度，直接想有点困难。
-我们先写O(n)的版本，然后再优化为O(1)。
+// 题目要用O(1)空间复杂度，直接想有点困难。
+// 我们先写O(n)的版本，然后再优化为O(1)。
 
-比如head链表是1 2 3 4 5 null
-我们建立奇偶两个链表
-odd -1
-even -1
-按照用index变量区分奇偶，遍历head链表分别连到两个链表
-odd -1 1 3 5
-even -1 2 4 5
-注意如果是奇数个，even最后会带着一个node，这时候用pEven.next = null去掉5，even -1 2 4
-之后用pOdd指针链接even.next
-odd -1 1 3 5 2 4 null
-返回odd.next 1 3 5 2 4 null 满足题意
+// 比如head链表是1 2 3 4 5 null
+// 我们建立奇偶两个链表
+// odd -1
+// even -1
+// 按照用index变量区分奇偶，遍历head链表分别连到两个链表
+// odd -1 1 3 5
+// even -1 2 4 5
+// 注意如果是奇数个，even最后会带着一个node，这时候用pEven.next = null去掉5，even -1 2 4
+// 之后用pOdd指针链接even.next
+// odd -1 1 3 5 2 4 null
+// 返回odd.next 1 3 5 2 4 null 满足题意
 
-```
+// ```
 var oddEvenList = function(head) {
   if (!head) {
     return null
@@ -41,22 +41,22 @@ var oddEvenList = function(head) {
   
   return odd.next
 };
-```
+// ```
 
-下面我们优化为O(1)的空间复杂度。
-把新建两个奇偶链表，改为由第一个元素为odd起点，第二个元素为even起点，
-然后遍历剩余元素
-odd 1
-even 2
-剩余 3 4 5 null
-遍历后则为
-odd 1 3 5
-even 2 4 5
-同样去掉even的5，pEven.next = null，even 2 4 null
-链接odd even， 1 2 5 2 4 null
-返回odd
+// 下面我们优化为O(1)的空间复杂度。
+// 把新建两个奇偶链表，改为由第一个元素为odd起点，第二个元素为even起点，
+// 然后遍历剩余元素
+// odd 1
+// even 2
+// 剩余 3 4 5 null
+// 遍历后则为
+// odd 1 3 5
+// even 2 4 5
+// 同样去掉even的5，pEven.next = null，even 2 4 null
+// 链接odd even， 1 2 5 2 4 null
+// 返回odd
 
-```
+// ```
 var oddEvenList = function(head) {
   if (!head) {
     return null
@@ -88,4 +88,4 @@ var oddEvenList = function(head) {
   
   return odd
 };
-```
+// ```

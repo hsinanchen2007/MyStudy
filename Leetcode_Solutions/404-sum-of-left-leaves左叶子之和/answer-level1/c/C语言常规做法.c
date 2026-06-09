@@ -1,5 +1,5 @@
-用递归即可解决。迭代法待更。
-```c
+// 用递归即可解决。迭代法待更。
+// ```c
 int sumOfLeftLeaves(struct TreeNode* root){
     int sum=0;
     if(root==0) return 0;
@@ -11,4 +11,4 @@ int sumOfLeftLeaves(struct TreeNode* root){
     sum=sum+sumOfLeftLeaves(root->right);
     return sum;
 }
-```
+// ```

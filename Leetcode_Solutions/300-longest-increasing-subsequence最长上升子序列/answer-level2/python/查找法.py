@@ -1,9 +1,9 @@
-### 解题思路
-开辟新的列表存储合格列表，对原列表进行扫描，如果当前元素大于所有元素就加入到结果列表中，如果小于等于某个元素就用它替换。
+# ### 解题思路
+# 开辟新的列表存储合格列表，对原列表进行扫描，如果当前元素大于所有元素就加入到结果列表中，如果小于等于某个元素就用它替换。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if len(nums) == 0:
@@ -18,4 +18,4 @@ class Solution:
             else:
                 res.append(var)
         return len(res)
-```
+# ```

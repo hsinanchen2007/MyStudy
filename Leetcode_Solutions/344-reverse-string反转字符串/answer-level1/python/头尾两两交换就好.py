@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-   头尾两两交换就好了
+# ### 解题思路
+# 此处撰写解题思路
+#    头尾两两交换就好了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
             s[i],s[l-1-i]=s[l-1-i],s[i]
 
         
-```
+# ```

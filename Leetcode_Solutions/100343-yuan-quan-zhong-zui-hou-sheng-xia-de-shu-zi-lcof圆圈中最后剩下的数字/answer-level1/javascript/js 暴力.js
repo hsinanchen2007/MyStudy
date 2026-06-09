@@ -1,5 +1,5 @@
-也没想打什么其他的方法
-```js
+// 也没想打什么其他的方法
+// ```js
 var lastRemaining = function(n, m) {
     const arr = [];
     for(let i = 0; i < n; i++) arr.push(i);
@@ -10,4 +10,4 @@ var lastRemaining = function(n, m) {
     }
     return arr[0];
 };
-```
+// ```

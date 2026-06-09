@@ -1,9 +1,9 @@
-### 解题思路
-思路如下，初学者思维
+// ### 解题思路
+// 思路如下，初学者思维
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
     	int[]map=new int[26];                     //设置一个数组存放chars的字母频率
@@ -31,4 +31,4 @@ class Solution {
 		return ans;
     }
 }                                                                     
-```
+// ```

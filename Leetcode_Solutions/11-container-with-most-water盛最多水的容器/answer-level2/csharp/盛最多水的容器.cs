@@ -1,9 +1,9 @@
-### 解题思路
-双指针法
+// ### 解题思路
+// 双指针法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MaxArea(int[] height)
         {
@@ -28,4 +28,4 @@ public class Solution {
             return result;
         }
 }
-```
+// ```

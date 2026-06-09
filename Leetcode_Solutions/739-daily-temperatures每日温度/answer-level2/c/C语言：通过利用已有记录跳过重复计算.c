@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5a37cf77251ef901127844f74d1d1dd8011f134399724e0663a84574a96783f6-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5a37cf77251ef901127844f74d1d1dd8011f134399724e0663a84574a96783f6-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     *returnSize = TSize;
     return ans;
 }
-```
+// ```

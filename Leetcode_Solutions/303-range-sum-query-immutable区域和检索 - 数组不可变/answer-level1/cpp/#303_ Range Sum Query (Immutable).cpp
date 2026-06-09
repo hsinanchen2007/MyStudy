@@ -1,8 +1,8 @@
-# $O(NK)$
+// # $O(NK)$
 
-## Brute-force
+// ## Brute-force
 
-```cpp
+// ```cpp
 class NumArray {
 private:
     vector<int> array;
@@ -25,15 +25,15 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
-### Complexity
-- Time: $O(NK)$
-- Space: $O(N)$
+// ```
+// ### Complexity
+// - Time: $O(NK)$
+// - Space: $O(N)$
 
-# $O(N)$
-## Store another array sum[] accordingly
+// # $O(N)$
+// ## Store another array sum[] accordingly
 
-```cpp
+// ```cpp
 class NumArray {
 private:
     vector<int> sum;
@@ -62,7 +62,7 @@ public:
  */
 
 
-```
-### Complexity
-- Time: $O(N)$
-- Space: $O(N)$
+// ```
+// ### Complexity
+// - Time: $O(N)$
+// - Space: $O(N)$

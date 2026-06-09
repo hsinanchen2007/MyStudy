@@ -1,7 +1,7 @@
-翻了一下没有Go实现的dfs解法，我来补上。
-*性能较低，一定没有数学方法来的高喽*
+// 翻了一下没有Go实现的dfs解法，我来补上。
+// *性能较低，一定没有数学方法来的高喽*
 
-```
+// ```
 var X, Y, Z int
 
 func canMeasureWater(x int, y int, z int) bool {
@@ -36,4 +36,4 @@ func min(i, j int) int {
 		return j
 	}
 }
-```
+// ```

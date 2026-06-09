@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> ans=new ArrayList<>();
@@ -22,4 +22,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

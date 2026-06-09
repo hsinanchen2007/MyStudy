@@ -1,5 +1,5 @@
-开辟26的数组用来存字母出现的次数，此时有两个选择，存第一个会比较好(因为会有第一个很短，第二个很长的情况)。
-```
+// 开辟26的数组用来存字母出现的次数，此时有两个选择，存第一个会比较好(因为会有第一个很短，第二个很长的情况)。
+// ```
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -27,4 +27,4 @@ public:
         return false;
     }
 };
-```
+// ```

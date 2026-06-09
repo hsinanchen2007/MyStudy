@@ -1,9 +1,9 @@
-### 解题思路
-UTHASH记录质因数和root，并查集处理。C语言。
+// ### 解题思路
+// UTHASH记录质因数和root，并查集处理。C语言。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
 	int prime;
 	int root;
@@ -124,4 +124,4 @@ int largestComponentSize(int* A, int ASize){
 	return ret;
 }
 
-```
+// ```

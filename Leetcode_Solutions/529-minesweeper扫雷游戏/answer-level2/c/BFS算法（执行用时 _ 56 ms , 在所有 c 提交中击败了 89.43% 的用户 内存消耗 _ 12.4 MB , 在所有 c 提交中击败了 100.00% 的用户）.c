@@ -1,4 +1,4 @@
-```
+// ```
 #define QUEUE_SIZE 1000
 
 typedef struct {
@@ -103,4 +103,4 @@ char** updateBoard(char** board, int boardSize, int* boardColSize, int* click, i
     
     return board;
 }
-```
+// ```

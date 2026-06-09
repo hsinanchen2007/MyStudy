@@ -1,9 +1,9 @@
-### 解题思路
-需要删除n-1次
+# ### 解题思路
+# 需要删除n-1次
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         ans = [i for i in range(n)]
@@ -18,4 +18,4 @@ class Solution:
             
             
         
-```
+# ```

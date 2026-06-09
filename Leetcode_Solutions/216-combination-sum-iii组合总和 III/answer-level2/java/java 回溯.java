@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public List<List<Integer>> lists = new ArrayList<>();
     public List<List<Integer>> combinationSum3(int k, int n) {
@@ -24,6 +24,6 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-绕了好一会儿
+// 绕了好一会儿

@@ -1,9 +1,9 @@
-### 解题思路
-- 使用哨兵节点，不断迭代实现链表的反转
-- 需要常数空间，O(n)的时间复杂度。
-### 代码
+// ### 解题思路
+// - 使用哨兵节点，不断迭代实现链表的反转
+// - 需要常数空间，O(n)的时间复杂度。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return sentinel->next;
     }
 };
-```
+// ```

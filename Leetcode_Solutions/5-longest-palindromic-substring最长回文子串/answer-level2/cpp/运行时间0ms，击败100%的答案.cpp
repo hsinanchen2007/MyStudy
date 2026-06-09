@@ -1,6 +1,6 @@
-假设s[i : j]为连续的相同字符，则以s[i : j]为中心向两侧扩展，直到s[i - k] != s[j + k]，则这时的最长回文子串为s[i - k + 1 : j + k - 1]，最长回文子串的长度为longest[i] = j - i + 2k - 1，全局的最长回文子串长度为max(longest[i])。
+// 假设s[i : j]为连续的相同字符，则以s[i : j]为中心向两侧扩展，直到s[i - k] != s[j + k]，则这时的最长回文子串为s[i - k + 1 : j + k - 1]，最长回文子串的长度为longest[i] = j - i + 2k - 1，全局的最长回文子串长度为max(longest[i])。
 
-```
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -30,4 +30,4 @@ public:
         return s.substr(begin, longest);
     }
 };
-```
+// ```

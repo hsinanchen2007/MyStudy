@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-我太南了，
-![image.png](https://pic.leetcode-cn.com/f5aca8472dce8c7f27e666b0b0cdc225434fc1b8f3b5b41aa01ec51b4b11ca45-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// 我太南了，
+// ![image.png](https://pic.leetcode-cn.com/f5aca8472dce8c7f27e666b0b0cdc225434fc1b8f3b5b41aa01ec51b4b11ca45-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> printVertically(String s) {
 
@@ -63,4 +63,4 @@ class Solution {
 
     }
 }
-```
+// ```

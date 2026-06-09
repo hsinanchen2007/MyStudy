@@ -1,9 +1,9 @@
-### 解题思路
-记得p-a/b/c那里加绝对值！否则有个用例会出来复数的面积。。内存消耗好多哦，难顶。
+# ### 解题思路
+# 记得p-a/b/c那里加绝对值！否则有个用例会出来复数的面积。。内存消耗好多哦，难顶。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largestTriangleArea(self, points: List[List[int]]) -> float:
         points = list(map(lambda x:list(map(lambda x:x/1, x)) ,points))
@@ -21,4 +21,4 @@ class Solution:
         res = max(size)
 
         return res
-```
+# ```

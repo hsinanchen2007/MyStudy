@@ -1,10 +1,10 @@
-### 解题思路
-1.暴力法：遍历所有”容器壁“
-2.双指针：指针位于两端，为追求最大的体积，不断向内移动短板。
+# ### 解题思路
+# 1.暴力法：遍历所有”容器壁“
+# 2.双指针：指针位于两端，为追求最大的体积，不断向内移动短板。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
 
@@ -37,4 +37,4 @@ class Solution:
                     ms = s if s>ms else ms
         return ms
         """
-```
+# ```

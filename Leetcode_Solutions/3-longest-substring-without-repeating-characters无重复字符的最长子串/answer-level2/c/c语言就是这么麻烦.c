@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct hashData{
 	int key;
 	struct hashData *next;
@@ -139,4 +139,4 @@ int lengthOfLongestSubstring(char * s){
 
 	return maxlen;
 }
-```
+// ```

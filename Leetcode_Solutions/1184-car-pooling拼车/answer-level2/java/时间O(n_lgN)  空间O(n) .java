@@ -1,5 +1,5 @@
-个人觉得比较好的方法，建立一个2倍大小的数组并存储上下车的时间节点，然后对所有节点进行计算是否越界
-```
+// 个人觉得比较好的方法，建立一个2倍大小的数组并存储上下车的时间节点，然后对所有节点进行计算是否越界
+// ```
 public boolean carPooling(int[][] trips, int capacity) {
         int len = trips.length;
         int[] location = new int[2 * len];
@@ -19,4 +19,4 @@ public boolean carPooling(int[][] trips, int capacity) {
                 return false;
         }
         return true;
-```
+// ```

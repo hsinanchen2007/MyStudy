@@ -1,9 +1,9 @@
-### 解题思路
-参考二叉树的后序遍历递归
+// ### 解题思路
+// 参考二叉树的后序遍历递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -38,4 +38,4 @@ class Solution {
         list.add(root.val);
     }
 }
-```
+// ```

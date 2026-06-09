@@ -1,9 +1,9 @@
-### 解题思路
-把python写成c
+# ### 解题思路
+# 把python写成c
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         re = []
@@ -16,4 +16,4 @@ class Solution:
                 re.extend([i]*count)
             tmp = (tmp+1) % 2
         return re
-```
+# ```

@@ -1,6 +1,6 @@
-#### 方法1 
-文件和目录分别使用不同的2份Dict，方便独立处理文件元素以及文件夹元素
-```py
+# #### 方法1 
+# 文件和目录分别使用不同的2份Dict，方便独立处理文件元素以及文件夹元素
+# ```py
 # leetcode time     cost : 112 ms
 # leetcode memory   cost : 13.7 MB
 # solution 1, dir struct contains sub element of dict files and dirs.
@@ -83,11 +83,11 @@ def main():
     
 if __name__ =='__main__':
     main()
-```
+# ```
 
-#### 方法2 
-文件和目录使用同一份Dict，方便遍历文件夹下所有子元素
-```py
+# #### 方法2 
+# 文件和目录使用同一份Dict，方便遍历文件夹下所有子元素
+# ```py
 # leetcode time     cost : 72 ms
 # leetcode memory   cost : 13.7 MB
 # solution 2, dir struct contains sub element iterm, iterm type is specified by the attribute isFile(similar as trie isEnd).
@@ -172,4 +172,4 @@ def main():
     
 if __name__ =='__main__':
     main()  
-```
+# ```

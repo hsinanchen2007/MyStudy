@@ -1,10 +1,10 @@
 
-### 思路一：暴力
-逐行减
+// ### 思路一：暴力
+// 逐行减
 
-### 代码
-时间复杂度：O(n)
-```c++
+// ### 代码
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     int arrangeCoins(int n) {
@@ -16,14 +16,14 @@ public:
         return n == 0 ? 0 : cur;
     }
 };
-```
+// ```
 
-### 思路二：二分
-**注意**：中间乘积超出整数范围
+// ### 思路二：二分
+// **注意**：中间乘积超出整数范围
 
-### 代码
-时间复杂度：O(logn)
-```cpp
+// ### 代码
+// 时间复杂度：O(logn)
+// ```cpp
 class Solution {
 public:
     int arrangeCoins(int n) {
@@ -39,6 +39,6 @@ public:
         return right; 
     }
 };
-```
+// ```
 
 

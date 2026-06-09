@@ -1,9 +1,9 @@
-### 解题思路
-递归+递归
+// ### 解题思路
+// 递归+递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ int pathSum(struct TreeNode* root, int sum){
     return path(root,0,sum)+pathSum(root->left,sum)+pathSum(root->right,sum);
 }
 
-```
+// ```

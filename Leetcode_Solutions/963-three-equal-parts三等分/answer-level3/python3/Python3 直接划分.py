@@ -1,5 +1,5 @@
-直接按照1的个数三等分，注意一些特殊情况和第三组最后的0
-```
+# 直接按照1的个数三等分，注意一些特殊情况和第三组最后的0
+# ```
 class Solution:
     def threeEqualParts(self, A: List[int]) -> List[int]:
         n1 = A.count(1)
@@ -29,4 +29,4 @@ class Solution:
         if not(s2[0]-s1[1] > zero_num and s3[0]-s2[1] > zero_num):
             return [-1, -1]
         return [s1[1]+zero_num, s2[1]+zero_num+1]
-```
+# ```

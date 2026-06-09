@@ -1,4 +1,4 @@
-```
+// ```
 func game(guess []int, answer []int) int {
 	var count int
 	for i, v := range guess {
@@ -8,4 +8,4 @@ func game(guess []int, answer []int) int {
 	}
 	return count
 }
-```
+// ```

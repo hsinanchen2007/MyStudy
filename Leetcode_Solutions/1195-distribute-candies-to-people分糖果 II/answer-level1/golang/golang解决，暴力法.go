@@ -1,9 +1,9 @@
-golang解决，暴力法
+// golang解决，暴力法
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 暴力法
 // 时间复杂度：O(sqr(G))  空间复杂度：O(1)  其中，G为糖果数目，s<=sqr(2G)
 
@@ -24,4 +24,4 @@ func distributeCandies(candies int, num_people int) []int {
 
 	return people
 }
-```
+// ```

@@ -1,6 +1,6 @@
-明确[循环不变量](https://baike.baidu.com/item/循环不变量/8353186?fr=aladdin)：变量的值可能在变化，但是它的含义是不变的
+// 明确[循环不变量](https://baike.baidu.com/item/循环不变量/8353186?fr=aladdin)：变量的值可能在变化，但是它的含义是不变的
 
-```
+// ```
 // 二分查找法,在有序数组arr中,查找target
 // 如果找到target,返回相应的索引index
 // 如果没有找到target,返回-1
@@ -26,10 +26,10 @@ class Solution {
         return -1;
     }
 }
-```
-***
-修改循环不变量
-```
+// ```
+// ***
+// 修改循环不变量
+// ```
 // 二分查找法,在有序数组arr中,查找target
 // 如果找到target,返回相应的索引index
 // 如果没有找到target,返回-1
@@ -54,10 +54,10 @@ class Solution {
         return -1;
     }
 }
-```
-***
-使用递归地方式实现二分查找法 
-```
+// ```
+// ***
+// 使用递归地方式实现二分查找法 
+// ```
 class Solution {
     // 二分查找法,在有序数组arr中,查找target
     // 如果找到target,返回相应的索引index
@@ -79,4 +79,4 @@ class Solution {
         }
     }
 }
-```
+// ```

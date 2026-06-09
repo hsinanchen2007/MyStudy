@@ -1,11 +1,11 @@
-![图片.png](https://pic.leetcode-cn.com/9218afb6becfff5a6408c7a831c80239fd33f4cc1a8348fafe0017cb30d85c8b-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/9218afb6becfff5a6408c7a831c80239fd33f4cc1a8348fafe0017cb30d85c8b-%E5%9B%BE%E7%89%87.png)
 
-### 解题思路
-从中间将原来的链表切成连段，左边已经是反转好的，右边待反转。用`newHead`表示反转好的链表头，`curHead`是右边待反转的链表的当前位置，只需要`curHead`结点指向`newHead`即可完成反转，同时两个节点都向后移动。
+// ### 解题思路
+// 从中间将原来的链表切成连段，左边已经是反转好的，右边待反转。用`newHead`表示反转好的链表头，`curHead`是右边待反转的链表的当前位置，只需要`curHead`结点指向`newHead`即可完成反转，同时两个节点都向后移动。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return newHead;
     }
 }
-```
+// ```

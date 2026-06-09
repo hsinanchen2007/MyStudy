@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //计数法
@@ -53,4 +53,4 @@ public:
         return doublePtr(S);
     }
 };
-```
+// ```

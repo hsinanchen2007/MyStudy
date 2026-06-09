@@ -1,6 +1,6 @@
-## 思路一：层次遍历
-### 代码
-```c++
+// ## 思路一：层次遍历
+// ### 代码
+// ```c++
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -32,9 +32,9 @@ public:
         return root;
     }
 };
-```
-### 另一种写法
-```c++
+// ```
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -57,11 +57,11 @@ public:
         return root;
     }
 };
-```
+// ```
 
-## 思路二：递归（击败99.94%）
-### 代码
-```c++
+// ## 思路二：递归（击败99.94%）
+// ### 代码
+// ```c++
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -78,5 +78,5 @@ public:
         return root;
     }
 };
-```
+// ```
 

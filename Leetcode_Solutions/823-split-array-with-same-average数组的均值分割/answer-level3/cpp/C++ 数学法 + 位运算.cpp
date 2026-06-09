@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool splitArraySameAverage(vector<int>& A) {
@@ -30,6 +30,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/19cb19d379a377dcffc2c1535c7f04ab3875764667774f76abaabb804a17563d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/19cb19d379a377dcffc2c1535c7f04ab3875764667774f76abaabb804a17563d-image.png)

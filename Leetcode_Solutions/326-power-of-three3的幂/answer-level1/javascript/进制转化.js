@@ -1,9 +1,9 @@
-### 解题思路
-先转化为3进制字符串，只有第一位是1，其余为均为0
+// ### 解题思路
+// 先转化为3进制字符串，只有第一位是1，其余为均为0
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {boolean}
@@ -24,4 +24,4 @@ var isPowerOfThree = function(n) {
     }
     return false;
 };
-```
+// ```

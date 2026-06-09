@@ -1,9 +1,9 @@
-### 解题思路
-1. 对非空字符判断并入栈, 出栈后即逆序
-2. `strip()` `trim()`, `reversed()`, `join()`等API的调用
-### 代码
+# ### 解题思路
+# 1. 对非空字符判断并入栈, 出栈后即逆序
+# 2. `strip()` `trim()`, `reversed()`, `join()`等API的调用
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     string reverseWords(string s) {
@@ -37,16 +37,16 @@ public:
 private:
     stack<string> st;
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def reverseWords(self, s: str) -> str:
         # split()根据空格拆分单词
         # reversed()逆序单词
         # join()拼接单词
         return ' '.join(reversed(s.split()))
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public String reverseWords(String s) {
         s = s.trim();
@@ -55,4 +55,4 @@ class Solution {
         return String.join(" ", wordLst);
     }
 }
-```
+# ```

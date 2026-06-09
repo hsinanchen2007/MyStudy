@@ -1,9 +1,9 @@
-### 解题思路
-定义一个全局遍历self.res
+# ### 解题思路
+# 定义一个全局遍历self.res
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
         if root and root.right:
             self.inorderTraversal(root.right)
         return self.res
-```
+# ```

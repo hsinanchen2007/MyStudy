@@ -1,4 +1,4 @@
-```
+// ```
 public static string[] BaseNumbers = Enumerable.Range(0, 10)
     .Select(number => number.ToString())
     .ToArray();
@@ -28,4 +28,4 @@ public static void PrintNumbersCore(string currentNumber, int n)
         PrintNumbersCore($"{currentNumber}{baseNumber}", n - 1);
     }
 }
-```
+// ```

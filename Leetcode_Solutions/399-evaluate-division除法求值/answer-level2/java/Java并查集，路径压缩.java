@@ -1,6 +1,6 @@
-首先来一版不带路径压缩的
+// 首先来一版不带路径压缩的
 
-```java
+// ```java
 private HashMap<String,String> parent=new HashMap<>();
 
 private HashMap<String,Double> quotient=new HashMap<>();
@@ -62,13 +62,13 @@ public double cal(String index){
     }
     return res;
 }
-```
+// ```
 
-其实这题我开始想到就是建图然后BFS，并查集我是真没想到，看来还是不够敏锐，不过有一说一并查集的方法确实比较麻烦。
+// 其实这题我开始想到就是建图然后BFS，并查集我是真没想到，看来还是不够敏锐，不过有一说一并查集的方法确实比较麻烦。
 
-这里我的并查集的方向是
+// 这里我的并查集的方向是
 
-```java
+// ```java
 a/b=2 , b/c=3
     
         c  1
@@ -78,11 +78,11 @@ a/b=2 , b/c=3
         ^
         |
         a  2
-```
+// ```
 
-`val`代表的是**当前节点**是**直接父节点**的多少倍，也就是 `A/fatherA`  ，重点就是合并两个集合的时候需要注意：
+// `val`代表的是**当前节点**是**直接父节点**的多少倍，也就是 `A/fatherA`  ，重点就是合并两个集合的时候需要注意：
 
-```java
+// ```java
 已知
 a / fa = val[a]
 b / fb = val[b]
@@ -90,11 +90,11 @@ b / fb = val[b]
 所以我们需要设置 parent[fa]=fb
 由于fa父节点发生了变化所以它的值也需要变化,也就是要求 fa/fb的值
 val[fa] = fa/fb = a/b * b/fb * fa/a = value * (val[b] / val[a])
-```
+// ```
 
-**解法二**
+// **解法二**
 
-```java
+// ```java
 private HashMap<String,String> parent=new HashMap<>();
 
 private HashMap<String,Double> quotient=new HashMap<>();
@@ -149,10 +149,10 @@ public double[] calcEquation(List<List<String>> equations, double[] values, List
     }
     return res;
 }
-```
+// ```
 
-这里可以看到已经省略了`cal` 函数计算从当前节点到根节点的总权值积，因为这里路径压缩已经将树压缩到只有两层了，所以并不需要了，既然要压缩到只有两层，这里就只能使用递归来压缩，循环的版本没办法压到只有两层，这里需要注意压缩中值的变化。
+// 这里可以看到已经省略了`cal` 函数计算从当前节点到根节点的总权值积，因为这里路径压缩已经将树压缩到只有两层了，所以并不需要了，既然要压缩到只有两层，这里就只能使用递归来压缩，循环的版本没办法压到只有两层，这里需要注意压缩中值的变化。
 
-**解法三**
+// **解法三**
 
-图的解法放到了 [栈和队列专题](http://imlgw.top/2019/10/01/leetcode-zhan-dui-lie/) 中了
+// 图的解法放到了 [栈和队列专题](http://imlgw.top/2019/10/01/leetcode-zhan-dui-lie/) 中了

@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 1000
 int g_array[MAXSIZE];
 int g_arrayNum = 0;
@@ -52,4 +52,4 @@ int largestRectangleArea(int* heights, int heightsSize)
 
     return returnMaxVal;
 }
-```
+// ```

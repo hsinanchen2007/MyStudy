@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-通过 地板除 和 取余 来 确定本位值 和 是否进一。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 通过 地板除 和 取余 来 确定本位值 和 是否进一。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         if carry != 0:                       # 验证最后一位相加是否需 进一
             node.next = ListNode(1)
         return head.next                     # 返回头结点的下一个结点，即链表的第一个结点
-```
+# ```

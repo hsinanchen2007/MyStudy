@@ -1,11 +1,11 @@
-### 解题思路
-先產生分群的組數 再依照順序放入list
-當發生 放入的元素與之前相差不等於1 
-或是 到最後一組都不法放入 表示 失敗
+# ### 解题思路
+# 先產生分群的組數 再依照順序放入list
+# 當發生 放入的元素與之前相差不等於1 
+# 或是 到最後一組都不法放入 表示 失敗
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
     
@@ -37,4 +37,4 @@ class Solution:
         return True    
 
 
-```
+# ```

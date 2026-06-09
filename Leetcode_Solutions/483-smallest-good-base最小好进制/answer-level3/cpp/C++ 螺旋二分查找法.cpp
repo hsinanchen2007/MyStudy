@@ -1,9 +1,9 @@
-有点类似于梯度下降
-假设有两个变量`x, y`，求解方程 `f(x, y) = z`
-当`f(x, y)`相对于x和y都是单调的时候
-则可以先固定`x`，求下一个满足条件的`y`边界，然后固定y求下一个满足条件的`x`边界，
-这样不断逼近最终解
-```
+// 有点类似于梯度下降
+// 假设有两个变量`x, y`，求解方程 `f(x, y) = z`
+// 当`f(x, y)`相对于x和y都是单调的时候
+// 则可以先固定`x`，求下一个满足条件的`y`边界，然后固定y求下一个满足条件的`x`边界，
+// 这样不断逼近最终解
+// ```
 class Solution {
 public:
     using ll = long long;
@@ -67,5 +67,5 @@ public:
         return to_string(k);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c393dc6e43dc96712d9c0f3cd453ea1b6e7aa64711ccc24a2d1076a6fcd21a31-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c393dc6e43dc96712d9c0f3cd453ea1b6e7aa64711ccc24a2d1076a6fcd21a31-image.png)

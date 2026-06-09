@@ -1,4 +1,4 @@
-#递归
+# #递归
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if root is None:

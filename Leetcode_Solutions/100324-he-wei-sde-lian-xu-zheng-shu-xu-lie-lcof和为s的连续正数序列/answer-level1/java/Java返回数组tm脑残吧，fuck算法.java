@@ -1,9 +1,9 @@
-### 解题思路
-同向双指针
+// ### 解题思路
+// 同向双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //返回数组tm脑残吧，fuck算法
     public int[][] findContinuousSequence(int target) {
@@ -46,4 +46,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/55573fec81ea6781854aab7e7652be05eaa2b9dc253599eb83df28b0485f7e89-image.png)
+// ![image.png](https://pic.leetcode-cn.com/55573fec81ea6781854aab7e7652be05eaa2b9dc253599eb83df28b0485f7e89-image.png)
 
 
-```c
+// ```c
 #define SIZE 105
 #define HASH_SIZE 1003
 #define INF 0x7fffffff
@@ -187,4 +187,4 @@ char ** findItinerary(char *** tickets, int ticketsSize, int* ticketsColSize, in
     return ret;
 }
 
-```
+// ```

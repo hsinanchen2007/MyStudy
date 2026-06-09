@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：双指针
@@ -46,4 +46,4 @@ bool isSubsequence(char * s, char * t){
     return true;
 
 }
-```
+// ```

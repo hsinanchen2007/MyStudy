@@ -1,5 +1,5 @@
-**方法一：转为字符串**
-```
+// **方法一：转为字符串**
+// ```
 class Solution {
     /**
     * 思路：
@@ -11,10 +11,10 @@ class Solution {
         return (x + "").equals(reversedStr);
     }
 }
-```
+// ```
 
-**方法二：反转整数**
-```
+// **方法二：反转整数**
+// ```
 class Solution {
     /**
     * 思路：
@@ -42,10 +42,10 @@ class Solution {
         return rev == x;
     }
 }
-```
+// ```
 
-**方法三：反转整数优化**
-```
+// **方法三：反转整数优化**
+// ```
 class Solution {
     /**
     * 思路：
@@ -67,4 +67,4 @@ class Solution {
         return x == rev || x == rev / 10;
     }
 }
-```
+// ```

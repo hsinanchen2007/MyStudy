@@ -1,13 +1,13 @@
-### 解题思路
-注意区分m, n的取值
-m=1 and n=length return 翻转后的头
-m=1 and n!=length
-m!=1 and n=length 
-见程序注释
+# ### 解题思路
+# 注意区分m, n的取值
+# m=1 and n=length return 翻转后的头
+# m=1 and n!=length
+# m!=1 and n=length 
+# 见程序注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -62,4 +62,4 @@ class Solution:
 
         
 
-```
+# ```

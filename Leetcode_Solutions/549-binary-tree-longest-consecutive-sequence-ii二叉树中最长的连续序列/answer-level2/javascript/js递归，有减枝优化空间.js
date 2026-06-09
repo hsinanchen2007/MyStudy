@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -40,4 +40,4 @@ var longestConsecutive = function(root) {
     dfs(root);
     return res;
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
 
-使用qsort对数据进行排序```
-代码块
+// 使用qsort对数据进行排序```
+// 代码块
 
 int cmp(const void* a, const void *b){
    if (**(int**)a != **(int**)b){

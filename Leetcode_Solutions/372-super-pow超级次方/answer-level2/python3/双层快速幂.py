@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def superPow(self, a: int, b: List[int]) -> int:
         def quick(n, x):
@@ -17,4 +17,4 @@ class Solution:
             a = quick(10, a)
         return result
 
-```
+# ```

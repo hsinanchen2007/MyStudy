@@ -1,9 +1,9 @@
-### 解题思路
-思路与官方差不多，感觉自己写复杂了。
+// ### 解题思路
+// 思路与官方差不多，感觉自己写复杂了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isArmstrong(int N) {
@@ -25,4 +25,4 @@ public:
         return len;
     }
 };
-```
+// ```

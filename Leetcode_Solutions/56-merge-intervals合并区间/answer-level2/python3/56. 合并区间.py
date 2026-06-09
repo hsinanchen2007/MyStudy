@@ -1,9 +1,9 @@
-### 解题思路
-官方代码，优雅简洁，这里给二维数组排序的技巧，学到了。
+# ### 解题思路
+# 官方代码，优雅简洁，这里给二维数组排序的技巧，学到了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals):
         # 按每个区间的左端点升序
@@ -19,4 +19,4 @@ class Solution:
                 merged[-1][1] = max(merged[-1][1], interval[1])
 
         return merged
-```
+# ```

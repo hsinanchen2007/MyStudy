@@ -1,12 +1,12 @@
-![l.png](https://pic.leetcode-cn.com/b045a6c41b369875f3ad66bae566a226ef6a0b055fe8cb2047fb440c1b13245d-l.png)
+// ![l.png](https://pic.leetcode-cn.com/b045a6c41b369875f3ad66bae566a226ef6a0b055fe8cb2047fb440c1b13245d-l.png)
 
 
-### 解题思路
-递归，每到一层更新深度
+// ### 解题思路
+// 递归，每到一层更新深度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         search(root.right,depth+1);
     }
 }
-```
+// ```

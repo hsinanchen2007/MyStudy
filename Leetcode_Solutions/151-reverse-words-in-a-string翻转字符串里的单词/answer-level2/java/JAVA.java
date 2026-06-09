@@ -1,9 +1,9 @@
-### 解题思路
-很简单的翻转，主要把特殊情况都卡掉
+// ### 解题思路
+// 很简单的翻转，主要把特殊情况都卡掉
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         //去空格后的串长度小于1的，直接返回空串
@@ -23,4 +23,4 @@ class Solution {
         return str;
     }
 }
-```
+// ```

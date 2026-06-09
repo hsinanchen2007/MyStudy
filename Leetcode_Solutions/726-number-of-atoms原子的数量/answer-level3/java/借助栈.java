@@ -1,5 +1,5 @@
-栈放数字
-```
+// 栈放数字
+// ```
 class Solution {
     public String countOfAtoms(String formula) {
         Map<String, Integer> map = new TreeMap<>();
@@ -60,5 +60,5 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```
 

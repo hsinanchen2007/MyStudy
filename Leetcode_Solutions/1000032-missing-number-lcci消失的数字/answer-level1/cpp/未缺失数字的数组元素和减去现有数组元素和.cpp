@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -11,4 +11,4 @@ public:
         return sum;
     }
 };
-```
+// ```

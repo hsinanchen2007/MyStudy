@@ -1,10 +1,10 @@
-### 解题思路
-两次循环判断
-N*logN
+// ### 解题思路
+// 两次循环判断
+// N*logN
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdint.h>
 uint64_t abso(uint64_t a, uint64_t b)
 {
@@ -20,4 +20,4 @@ bool containsNearbyAlmostDuplicate(int* nums, int numsSize, int k, int t){
     }
     return false;
 }
-```
+// ```

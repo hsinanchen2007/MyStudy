@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM     10001
 #define MAX_TMP     20
 
@@ -106,4 +106,4 @@ void stringIteratorFree(StringIterator* obj) {
  
  * stringIteratorFree(obj);
 */
-```
+// ```

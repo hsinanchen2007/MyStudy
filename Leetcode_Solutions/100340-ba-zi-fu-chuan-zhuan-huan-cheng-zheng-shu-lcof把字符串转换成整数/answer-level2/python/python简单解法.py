@@ -1,11 +1,11 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-注意下细节即可。
+# ### 解题思路
+# 注意下细节即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strToInt(self, s):
         s = s.strip()
@@ -24,4 +24,4 @@ class Solution:
                 break
         return min(2147483647, max(res * flag, -2147483648))
 
-```
+# ```

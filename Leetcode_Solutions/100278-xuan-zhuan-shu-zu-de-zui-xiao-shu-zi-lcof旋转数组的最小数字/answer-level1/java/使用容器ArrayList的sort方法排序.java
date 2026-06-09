@@ -1,10 +1,10 @@
-### 解题思路
-遍历 numbers中的数据，添加到ArrayList中，sort方法排序
-return arr中第一个数，即为最小数
+// ### 解题思路
+// 遍历 numbers中的数据，添加到ArrayList中，sort方法排序
+// return arr中第一个数，即为最小数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int minArray(int[] numbers) {
         int min =0;
@@ -18,4 +18,4 @@ class Solution {
 	return  arr.get(0);
     }
 }
-```
+// ```

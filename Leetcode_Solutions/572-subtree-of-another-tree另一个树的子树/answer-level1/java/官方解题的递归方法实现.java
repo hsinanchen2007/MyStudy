@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if(s == null && t == null){
@@ -39,4 +39,4 @@ class Solution {
         return s.val == t.val && isSameTree(s.left, t.left) && isSameTree(s.right, t.right);
     }
 }
-```
+// ```

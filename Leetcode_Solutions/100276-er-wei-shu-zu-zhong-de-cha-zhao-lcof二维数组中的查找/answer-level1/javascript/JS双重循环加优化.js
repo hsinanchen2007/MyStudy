@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/802aeba8a3081bf23567bbc6372814a89846302f648dcdedf010c129780f8562-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/802aeba8a3081bf23567bbc6372814a89846302f648dcdedf010c129780f8562-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -29,4 +29,4 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false;
 };
-```
+// ```

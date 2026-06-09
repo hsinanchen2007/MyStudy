@@ -1,9 +1,9 @@
-### 解题思路
-没有思路
+// ### 解题思路
+// 没有思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numberOfSteps (int num){
     int temp=0;
     while(num!=0){
@@ -18,4 +18,4 @@ int numberOfSteps (int num){
     }
     return temp;
 }
-```
+// ```

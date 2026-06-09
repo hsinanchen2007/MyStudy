@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-利用双指针l 和 r进行窗口滑动,当窗口区间[l, r]的和大于目标值 target 时, l++; 小于目标值时, r++; 等于目标值时, 保存当前窗口元素.
-循环终止条件是 l >= r.
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 利用双指针l 和 r进行窗口滑动,当窗口区间[l, r]的和大于目标值 target 时, l++; 小于目标值时, r++; 等于目标值时, 保存当前窗口元素.
+// 循环终止条件是 l >= r.
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

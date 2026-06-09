@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    public static String countAndSay(int n) {
         StringBuilder ans = new StringBuilder();
@@ -28,4 +28,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

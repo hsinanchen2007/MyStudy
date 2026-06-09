@@ -1,4 +1,4 @@
-```
+// ```
 //用栈实现DFS
 
 int maxDepth(TreeNode* root) {
@@ -23,9 +23,9 @@ int maxDepth(TreeNode* root) {
     }
     return MaxDeep;
 }
-```
+// ```
 
-```
+// ```
 //用递归实现DFS
 
 int maxDepth(TreeNode* root) {
@@ -34,9 +34,9 @@ int maxDepth(TreeNode* root) {
         int R = maxDepth(root->right);
         return L>R?L+1:R+1;
 }
-```
+// ```
 
-```
+// ```
 //用队列实现BFS
 
 int maxDepth(TreeNode* root) {
@@ -60,6 +60,6 @@ int maxDepth(TreeNode* root) {
     }
     return deep;
 }
-```
+// ```
 
-如有改进地方欢迎指正
+// 如有改进地方欢迎指正

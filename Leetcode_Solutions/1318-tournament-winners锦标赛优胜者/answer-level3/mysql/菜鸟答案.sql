@@ -1,4 +1,4 @@
-```
+-- ```
 select
 	a.group_id as group_id,
 	min(b.player) as player_id  
@@ -55,4 +55,4 @@ group  by t.player) c join Players p on c.player=p.player_id) b on a.max_score=b
 group by a.group_id
 
 
-```
+-- ```

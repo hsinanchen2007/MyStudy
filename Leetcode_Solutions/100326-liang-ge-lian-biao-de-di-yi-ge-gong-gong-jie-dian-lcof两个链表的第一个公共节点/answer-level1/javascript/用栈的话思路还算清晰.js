@@ -1,7 +1,7 @@
 
-两个链表的每个节点全部入栈，然后同时出栈，第一个相同的节点就是要求的结果。
+// 两个链表的每个节点全部入栈，然后同时出栈，第一个相同的节点就是要求的结果。
 
-``` js
+// ``` js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -41,4 +41,4 @@ var getIntersectionNode = function(headA, headB) {
         }else res = a;
     }
 };
-```
+// ```

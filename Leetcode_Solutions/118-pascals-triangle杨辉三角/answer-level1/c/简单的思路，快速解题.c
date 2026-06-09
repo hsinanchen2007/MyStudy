@@ -1,4 +1,4 @@
-```
+// ```
 int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     *returnSize=numRows;
     *returnColumnSizes=(int*)malloc(numRows * sizeof(int));
@@ -29,12 +29,12 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return res;
 }
-```
-010
-0120
-01230
-012340
-0123450
-可以想象成这样↑
-res[i][j]=res[i-1][j-1]+res[i-1][j];
-避免越界，直接将最左最右赋0
+// ```
+// 010
+// 0120
+// 01230
+// 012340
+// 0123450
+// 可以想象成这样↑
+// res[i][j]=res[i-1][j-1]+res[i-1][j];
+// 避免越界，直接将最左最右赋0

@@ -1,7 +1,7 @@
-解一：
-> 数组拼接。
+// 解一：
+// > 数组拼接。
 
-```js
+// ```js
 var len = nums.length;
     k = k%len;
     var newNums = nums.concat(nums);
@@ -10,12 +10,12 @@ var len = nums.length;
         nums[i]=newNums[i];
     }
     return nums
-```
+// ```
 
-解二：
-> 每次右移1位，移k次。
+// 解二：
+// > 每次右移1位，移k次。
 
-```js
+// ```js
 var rotate = function(nums, k) {
     for(var i=0;i<k;i++){
         var temp = nums[nums.length-1];
@@ -27,12 +27,12 @@ var rotate = function(nums, k) {
     }
     return nums
 };
-```
+// ```
 
-解三：
-> 从位置0开始移，每次移动k个位置，移动后计算下一个位置。
+// 解三：
+// > 从位置0开始移，每次移动k个位置，移动后计算下一个位置。
 
-```js
+// ```js
 var rotate = function (nums, k) {
     k %= nums.length;
     if (k) {
@@ -56,12 +56,12 @@ var rotate = function (nums, k) {
     }
     return nums
 };
-```
+// ```
 
-解四：
-> 数组反转。第一次整体反转，第二次反转左边k个元素，第三次反转右边剩余元素。
+// 解四：
+// > 数组反转。第一次整体反转，第二次反转左边k个元素，第三次反转右边剩余元素。
 
-```js
+// ```js
 var rotate = function (nums, k) {
     var len = nums.length;
     k %= len;
@@ -79,4 +79,4 @@ var rotate = function (nums, k) {
 
     return nums;
 };
-```
+// ```

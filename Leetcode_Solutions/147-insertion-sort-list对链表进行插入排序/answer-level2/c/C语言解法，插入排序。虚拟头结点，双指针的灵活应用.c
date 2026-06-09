@@ -1,7 +1,7 @@
-所有的关键点都写在代码注释上了，大家可以自取。
+// 所有的关键点都写在代码注释上了，大家可以自取。
 
-代码部分
-```
+// 代码部分
+// ```
 struct ListNode* insertionSortList(struct ListNode* head){
     //注明：第一个节点已经排好序了我们从第二个节点开始排序，我们先构造一个链表。
     if(head==NULL||head->next==NULL)

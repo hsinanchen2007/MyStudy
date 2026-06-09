@@ -1,11 +1,11 @@
-### 解题思路
-1. 把树的节点存到list里面
-2. 把新的节点添加到list里面，根据新节点的索引整除2找到要插入的父节点，根据索引 % 2 来确定插入左右哪个节点。
-3. 返回list的第一位，即根节点。
+# ### 解题思路
+# 1. 把树的节点存到list里面
+# 2. 把新的节点添加到list里面，根据新节点的索引整除2找到要插入的父节点，根据索引 % 2 来确定插入左右哪个节点。
+# 3. 返回list的第一位，即根节点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -47,4 +47,4 @@ class CBTInserter:
 # obj = CBTInserter(root)
 # param_1 = obj.insert(v)
 # param_2 = obj.get_root()
-```
+# ```

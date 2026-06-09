@@ -1,8 +1,8 @@
-### 解题思路
-把不重复的都往前移 返回不重复的length
-### 代码
+// ### 解题思路
+// 把不重复的都往前移 返回不重复的length
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var removeDuplicates = function(nums) {
     }
     return len;
 };
-```
+// ```

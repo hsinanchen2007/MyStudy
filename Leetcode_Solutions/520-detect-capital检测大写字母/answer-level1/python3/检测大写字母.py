@@ -1,9 +1,9 @@
-### 解题思路
-调用库函数
+# ### 解题思路
+# 调用库函数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         if word.islower() or word.isupper():
@@ -12,4 +12,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

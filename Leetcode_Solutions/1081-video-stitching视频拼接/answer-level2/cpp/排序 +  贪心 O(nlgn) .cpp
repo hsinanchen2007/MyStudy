@@ -1,5 +1,5 @@
-&emsp;&emsp;先按起点排序区间，然后设初始位置cur=0，之后找在**起点在cur之前**的所有区间的最远的终点，然后将该终点设置为cur，直到cur大于等于T返回答案或者最远终点没超过cur时返回-1。
-```c++
+// &emsp;&emsp;先按起点排序区间，然后设初始位置cur=0，之后找在**起点在cur之前**的所有区间的最远的终点，然后将该终点设置为cur，直到cur大于等于T返回答案或者最远终点没超过cur时返回-1。
+// ```c++
 class Solution {
 public:
     int videoStitching(vector<vector<int>>& clips, int T) {
@@ -14,4 +14,4 @@ public:
         return -1;
     }
 };
-```
+// ```

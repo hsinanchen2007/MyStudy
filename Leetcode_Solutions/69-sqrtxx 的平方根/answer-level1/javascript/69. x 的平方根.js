@@ -1,7 +1,7 @@
-#### 解法一：二分查找
-+ 话不多说直接上简便二分法模板，公式不多说
-    + java
-      ```java
+// #### 解法一：二分查找
+// + 话不多说直接上简便二分法模板，公式不多说
+//     + java
+//       ```java
       public int bsearch(int[] a, int n, int value) {
         int low = 0;
         int high = n - 1;
@@ -19,9 +19,9 @@
 
         return -1;
       }
-      ```  
-    + python
-      ```python
+//       ```  
+//     + python
+//       ```python
       left, right = 0, len(array) - 1 
       while left <= right: 
           mid = (left + right) / 2 
@@ -32,12 +32,12 @@
               left = mid + 1 
           else: 
               right = mid - 1
-      ```     
-+ 注意
-  + 此处代码没有用“/2”而是“>>1”
-    + 属于位运算，且更加精确
-    + [可参考我的总结](https://github.com/Alex660/Algorithms-and-data-structures/tree/master/theoreticalKnowledge)  
-```javascript
+//       ```     
+// + 注意
+//   + 此处代码没有用“/2”而是“>>1”
+//     + 属于位运算，且更加精确
+//     + [可参考我的总结](https://github.com/Alex660/Algorithms-and-data-structures/tree/master/theoreticalKnowledge)  
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -60,11 +60,11 @@ var mySqrt = function(x) {
     }
     return right;
 };
-```
-#### 解法二：牛顿迭代法
-+ 公式：x= (x+tmp_x/x)/2
-+ [戳看公式参考文献](https://www.zhihu.com/question/20690553)
-```javascript
+// ```
+// #### 解法二：牛顿迭代法
+// + 公式：x= (x+tmp_x/x)/2
+// + [戳看公式参考文献](https://www.zhihu.com/question/20690553)
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -84,9 +84,9 @@ var mySqrt = function(x) {
     }
     return sqrt(x);
 };
-```
-+ 还有这样写
-    ```javascript
+// ```
+// + 还有这样写
+//     ```javascript
     /**
      * @param {number} x
      * @return {number}
@@ -97,10 +97,10 @@ var mySqrt = function(x) {
             x = ((x + tmp/x) / 2) | 0;
         return x;  
     };
-    ```
-+ 当然也可以这样写
-  + 不过这个会超时！ 
-  ```javascript
+//     ```
+// + 当然也可以这样写
+//   + 不过这个会超时！ 
+//   ```javascript
     /**
      * @param {number} x
     * @return {number}
@@ -115,4 +115,4 @@ var mySqrt = function(x) {
         }
         return x;
     };
-  ``` 
+//   ``` 

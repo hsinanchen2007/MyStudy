@@ -1,4 +1,4 @@
-```
+// ```
 class SummaryRanges {
 
 	List<Integer> list;
@@ -34,4 +34,4 @@ class SummaryRanges {
         return res;
     }
 }
-```
+// ```

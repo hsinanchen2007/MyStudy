@@ -1,9 +1,9 @@
-### 解题思路
-求大佬指点一下我的代码
+// ### 解题思路
+// 求大佬指点一下我的代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
         return max(a(root->left)+a(root->right),max(diameterOfBinaryTree(root->left),diameterOfBinaryTree(root->right))) ;
     }
 };
-```
+// ```

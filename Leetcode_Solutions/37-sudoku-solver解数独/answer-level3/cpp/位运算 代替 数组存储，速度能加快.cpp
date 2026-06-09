@@ -1,6 +1,6 @@
 
 
-```
+// ```
 #define cz(x, p) (((x) & (1 << (p))) >> (p)) == 0
 
 class Solution {
@@ -48,4 +48,4 @@ public:
         dfs(board, 0, 0);
     }
 };
-```
+// ```

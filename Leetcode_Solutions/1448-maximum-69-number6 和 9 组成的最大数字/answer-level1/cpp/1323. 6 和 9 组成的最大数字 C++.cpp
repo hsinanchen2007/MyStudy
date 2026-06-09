@@ -1,9 +1,9 @@
-### 解题思路
-找到高位第一个6，将其变为9即可
+// ### 解题思路
+// 找到高位第一个6，将其变为9即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -33,4 +33,4 @@ public:
         return num;
     }
 };
-```
+// ```

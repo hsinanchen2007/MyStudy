@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int getDecimalValue(ListNode head) {
         int res = 0;
@@ -9,4 +9,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

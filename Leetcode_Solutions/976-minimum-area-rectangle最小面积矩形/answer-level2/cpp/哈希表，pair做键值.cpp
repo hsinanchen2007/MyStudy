@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     // 要使pair能作为unordered_map的键值，需加这个
@@ -30,4 +30,4 @@ public:
         return res==INT_MAX?0:res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-运用广度优先的思想，本题非常容易想出题解。加上数据结构是树，可以不用考虑visited。
+// 运用广度优先的思想，本题非常容易想出题解。加上数据结构是树，可以不用考虑visited。
 
-```go
+// ```go
 func levelOrder(root *TreeNode) [][]int {
     var res [][]int
     if root == nil{
@@ -25,4 +25,4 @@ func levelOrder(root *TreeNode) [][]int {
     }
     return res
 }
-```
+// ```

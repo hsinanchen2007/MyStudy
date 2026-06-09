@@ -1,11 +1,11 @@
-### 解题思路
-情况1：重新以当前root为跟节点，作为最大值。---》newPath = root->val + leftgain + rightgain;
-情况2：以root之前的节点，作为最大值。----》maxVal；
-最后，加入当前的节点以供自己作为左子树或者右子树时，获得leftgain或者rightgain。
+// ### 解题思路
+// 情况1：重新以当前root为跟节点，作为最大值。---》newPath = root->val + leftgain + rightgain;
+// 情况2：以root之前的节点，作为最大值。----》maxVal；
+// 最后，加入当前的节点以供自己作为左子树或者右子树时，获得leftgain或者rightgain。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return maxVal;
     }
 };
-```
+// ```

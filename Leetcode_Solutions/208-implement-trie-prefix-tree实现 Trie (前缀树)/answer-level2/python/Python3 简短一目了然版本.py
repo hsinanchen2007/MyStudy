@@ -1,10 +1,10 @@
-### 解题思路
-Python3 简洁，并且合乎Trie定义上形式的版本。
-很好理解啦！
+# ### 解题思路
+# Python3 简洁，并且合乎Trie定义上形式的版本。
+# 很好理解啦！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TrieNode(dict):
     def __init__(self):
         self.end = False
@@ -43,4 +43,4 @@ class Trie:
                 return False
         return True
 
-```
+# ```

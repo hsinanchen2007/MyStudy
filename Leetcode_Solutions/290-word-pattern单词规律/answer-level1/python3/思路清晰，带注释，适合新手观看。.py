@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def wordPattern(self, pattern: str, str: str) -> bool:
         words = str.split(" ")
@@ -20,4 +20,4 @@ class Solution:
                 mapVal[words[i]] = True
         return True
         
-```
+# ```

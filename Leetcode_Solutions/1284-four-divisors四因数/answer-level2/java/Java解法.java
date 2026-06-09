@@ -1,5 +1,5 @@
-主要是注意完全平方数肯定不能分解成4个因子的，比如16这个数字，这个判断不能放在获取因子的循环里，而是在求和的地方，我也是在这里卡住了10几分钟
-```
+// 主要是注意完全平方数肯定不能分解成4个因子的，比如16这个数字，这个判断不能放在获取因子的循环里，而是在求和的地方，我也是在这里卡住了10几分钟
+// ```
 public int sumFourDivisors(int[] nums) {
         int sum=0;
         for (int i=0;i<nums.length;i++) {
@@ -22,4 +22,4 @@ public int sumFourDivisors(int[] nums) {
         }
         return sum;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         result = []
@@ -18,4 +18,4 @@ class Solution:
         
         back_track(parenthesis, "", n*2, 0, result)
         return result
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-这个简单而言是一个计数的问题，在解题过程中，要注意当给定数字不在列表中的情况，
+# ### 解题思路
+# 这个简单而言是一个计数的问题，在解题过程中，要注意当给定数字不在列表中的情况，
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         i=0
@@ -28,4 +28,4 @@ class Solution:
                     
                 
             
-```
+# ```

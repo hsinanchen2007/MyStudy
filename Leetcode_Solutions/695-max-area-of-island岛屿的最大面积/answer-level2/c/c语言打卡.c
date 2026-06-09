@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct stack{
     int (*coordinate)[2];
     int top;
@@ -79,4 +79,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
         }
     return maxArea;
 }
-```
+// ```

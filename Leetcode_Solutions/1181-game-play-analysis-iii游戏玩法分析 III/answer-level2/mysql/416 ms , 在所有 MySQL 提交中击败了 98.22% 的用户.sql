@@ -1,4 +1,4 @@
-```mysql
+-- ```mysql
 select
     a.player_id as player_id,
     a.event_date as event_date,
@@ -8,4 +8,4 @@ select
     end as games_played_so_far
 from Activity a, ( select @preId := null, @count := 0 ) ignored
 order by a.player_id, a.event_date asc
-```
+-- ```

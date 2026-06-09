@@ -1,6 +1,6 @@
-思路很简单，把所有近义词保存在一个列表里，当递归到近义词时，遍历近义词列表算出所有可能。
+# 思路很简单，把所有近义词保存在一个列表里，当递归到近义词时，遍历近义词列表算出所有可能。
 
-```python []
+# ```python []
 class Solution:
     def generateSentences(self, synonyms, text: str):
         self.km={}
@@ -34,5 +34,5 @@ class Solution:
         res=list(res)
         res.sort()
         return res
-```
+# ```
 

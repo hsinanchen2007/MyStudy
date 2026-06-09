@@ -1,9 +1,9 @@
-### 解题思路
-采用贪心算法来解，用到两个和，一个当前和，一个最大和
+# ### 解题思路
+# 采用贪心算法来解，用到两个和，一个当前和，一个最大和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         n = len(nums)
@@ -17,4 +17,4 @@ class Solution:
              maxSum = max(maxSum, currentSum, currentSum+nums[i], nums[i])
              currentSum = nums[i] 
         return maxSum
-```
+# ```

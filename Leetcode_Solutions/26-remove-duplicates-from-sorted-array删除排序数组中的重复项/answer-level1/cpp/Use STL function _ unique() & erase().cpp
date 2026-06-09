@@ -1,10 +1,10 @@
-### 解题思路
-iterator unique(itr1,itr2) //数组大小不变
-iterator erase(itr1,itr2)  //数组大小改变
+// ### 解题思路
+// iterator unique(itr1,itr2) //数组大小不变
+// iterator erase(itr1,itr2)  //数组大小改变
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

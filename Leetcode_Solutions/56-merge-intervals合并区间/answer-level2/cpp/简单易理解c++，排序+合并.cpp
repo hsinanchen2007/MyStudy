@@ -1,6 +1,6 @@
-对所给区间集合进行排序，可以合并区间的条件是右边区间的下限小于等于左边区间的上限。
-时间复杂度：排序O(nlogn),遍历合并O(n),总体O(nlogn)
-```
+// 对所给区间集合进行排序，可以合并区间的条件是右边区间的下限小于等于左边区间的上限。
+// 时间复杂度：排序O(nlogn),遍历合并O(n),总体O(nlogn)
+// ```
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals){
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

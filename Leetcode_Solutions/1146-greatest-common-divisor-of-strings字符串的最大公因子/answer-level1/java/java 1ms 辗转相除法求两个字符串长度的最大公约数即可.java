@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         //如果str1+str2与str2+str1不等，说明不包含公共的子串
@@ -11,4 +11,4 @@ class Solution {
         return b == 0? a: gcd(b, a % b);
     }
 }
-```
+// ```

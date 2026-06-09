@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var getRow = function(numRows) {
     if (numRows < 0) {
         return []
@@ -27,4 +27,4 @@ var getRow = function(numRows) {
     }
     return dp[numRows]
 };
-```
+// ```

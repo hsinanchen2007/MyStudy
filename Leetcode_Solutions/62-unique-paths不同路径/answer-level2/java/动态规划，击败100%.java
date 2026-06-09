@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9145c8e5d19c575a22b23709ba6706e5b03c3597a031f2395195a3a74436a1fe-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/9145c8e5d19c575a22b23709ba6706e5b03c3597a031f2395195a3a74436a1fe-image.png)
 
-容易想到回溯法，每一步可选向下或者向右，但是超时
-换个思路自顶向下分析，最后一步有两种方式到达，即dp[i][j]=dp[i-1][j]+dp[i][j-1]，因此有了自底向上的动态规划求解
+// 容易想到回溯法，每一步可选向下或者向右，但是超时
+// 换个思路自顶向下分析，最后一步有两种方式到达，即dp[i][j]=dp[i-1][j]+dp[i][j-1]，因此有了自底向上的动态规划求解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     long count;
     public int uniquePaths(int m, int n) {
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

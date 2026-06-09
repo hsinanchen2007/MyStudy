@@ -1,9 +1,9 @@
-思路：模拟棋盘，时间复杂度 O(n^2)
-1. 将 moves 填入虚拟棋盘， a 为 -1 ， b 为 1
-2. 对角线 和 横纵向 分别判断胜利条件
-3. 无胜者情况
+// 思路：模拟棋盘，时间复杂度 O(n^2)
+// 1. 将 moves 填入虚拟棋盘， a 为 -1 ， b 为 1
+// 2. 对角线 和 横纵向 分别判断胜利条件
+// 3. 无胜者情况
 
-```C
+// ```C
 char * tictactoe(int** moves, int movesSize, int* movesColSize){
     // 将 moves 填入虚拟棋盘， a 为 -1 ， b 为 1
     int s[3][3] = {0};
@@ -27,4 +27,4 @@ char * tictactoe(int** moves, int movesSize, int* movesColSize){
     // 无胜者情况
     return movesSize < 9 ? "Pending" : "Draw";
 }
-```
+// ```

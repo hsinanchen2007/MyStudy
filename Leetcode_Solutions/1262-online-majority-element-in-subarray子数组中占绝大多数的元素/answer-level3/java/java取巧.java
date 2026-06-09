@@ -1,5 +1,5 @@
-因为数据在1~20000
-```
+// 因为数据在1~20000
+// ```
 class MajorityChecker {
 
         private int[] data;
@@ -21,5 +21,5 @@ class MajorityChecker {
             return -1;
         }
 }
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先先求出数字相同位置相同的个数。
-2. 求数字相同但位置不同的个数之前要把之前的位置相同的删除掉再统计。
-3. 求出数字相同但位置不同的个数。
+# ### 解题思路
+# 1. 首先先求出数字相同位置相同的个数。
+# 2. 求数字相同但位置不同的个数之前要把之前的位置相同的删除掉再统计。
+# 3. 求出数字相同但位置不同的个数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         count_s = collections.Counter(secret)
@@ -25,4 +25,4 @@ class Solution:
             b_count += min(count_s[k], count_g[k])
         
         return str(a_count)+'A'+ str(b_count)+'B'
-```
+# ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -10,4 +10,4 @@ var isRectangleOverlap = function (rec1, rec2) {
         rec1[0] >= rec2[2] ||
         rec1[1] >= rec2[3]);
 };
-```
+// ```

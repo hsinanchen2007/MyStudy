@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -9,4 +9,4 @@
 var hammingDistance = function(x, y) {
     return (x ^ y).toString(2).replace(/0/g,'').length;
 };
-```
+// ```

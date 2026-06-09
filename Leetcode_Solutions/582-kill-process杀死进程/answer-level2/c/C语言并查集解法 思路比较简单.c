@@ -1,5 +1,5 @@
-注意一下找祖先的时候，不是找根祖先，找到要被杀死的进程就停，其他和普通并查集一样
-```
+// 注意一下找祖先的时候，不是找根祖先，找到要被杀死的进程就停，其他和普通并查集一样
+// ```
 #define MAX_SIZE 1000000
 int g_father[MAX_SIZE] = {0};
 int g_kill = 0;
@@ -34,4 +34,4 @@ int* killProcess(int* pid, int pidSize, int* ppid, int ppidSize, int kill, int* 
     *returnSize = k;
     return result;
 }
-```
+// ```

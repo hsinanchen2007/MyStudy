@@ -1,7 +1,7 @@
-递归构造即可
+// 递归构造即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
@@ -15,4 +15,4 @@ public:
             return t1 ? t1 : t2;
     }
 };
-```
+// ```

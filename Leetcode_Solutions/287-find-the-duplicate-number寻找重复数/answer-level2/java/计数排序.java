@@ -1,4 +1,4 @@
-```
+// ```
     public int findDuplicate(int[] nums) {
         if(nums == null || nums.length <2){
             return Integer.MIN_VALUE;
@@ -17,4 +17,4 @@
 		}
         return Integer.MIN_VALUE;
     }
-```
+// ```

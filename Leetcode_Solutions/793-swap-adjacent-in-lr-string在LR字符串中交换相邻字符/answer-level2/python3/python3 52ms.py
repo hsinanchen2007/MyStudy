@@ -1,5 +1,5 @@
-> 一种类似于贪心的思路。每次不满足时，找到最近的交换使其满足，然后继续判断
-```python
+# > 一种类似于贪心的思路。每次不满足时，找到最近的交换使其满足，然后继续判断
+# ```python
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
         
@@ -34,4 +34,4 @@ class Solution:
                 i += 1
             #print(start,end)
         return True
-```
+# ```

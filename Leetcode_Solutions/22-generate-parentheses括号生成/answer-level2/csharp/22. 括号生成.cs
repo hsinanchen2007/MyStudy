@@ -1,9 +1,9 @@
-### 解题思路
-求全路径的就往回溯法代码模板上套吧
+// ### 解题思路
+// 求全路径的就往回溯法代码模板上套吧
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<string> GenerateParenthesis(int n)
     {
@@ -35,4 +35,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

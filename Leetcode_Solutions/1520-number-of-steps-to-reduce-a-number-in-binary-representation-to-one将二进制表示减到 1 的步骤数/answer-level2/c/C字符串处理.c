@@ -1,5 +1,5 @@
-模拟二进制进位，特殊情况直接返回即可，思路较清晰
-```
+// 模拟二进制进位，特殊情况直接返回即可，思路较清晰
+// ```
 int numSteps(char * s){
     int len=strlen(s);
     int step=0;
@@ -33,4 +33,4 @@ int numSteps(char * s){
     }
     return step;
 }
-```
+// ```

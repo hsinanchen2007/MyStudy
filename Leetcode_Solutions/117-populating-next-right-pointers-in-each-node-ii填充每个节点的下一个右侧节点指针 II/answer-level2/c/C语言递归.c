@@ -1,4 +1,4 @@
-```
+// ```
 struct Node *GetNextNoNullNode(struct Node *root)
 {
     while (root->next != NULL) {
@@ -35,4 +35,4 @@ struct Node *connect(struct Node *root)
 
     return root;
 }
-```
+// ```

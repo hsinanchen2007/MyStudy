@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     #受到统计数组中的数的次数的启发
     def firstMissingPositive(self, nums):
@@ -33,4 +33,4 @@ class Solution:
         
 
 
-```
+# ```

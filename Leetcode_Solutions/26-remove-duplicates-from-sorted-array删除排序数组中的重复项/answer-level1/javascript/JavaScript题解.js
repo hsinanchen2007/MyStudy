@@ -1,9 +1,9 @@
-### 解题思路
-双指针，写完发现用for其实更舒服
+// ### 解题思路
+// 双指针，写完发现用for其实更舒服
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -25,4 +25,4 @@ var removeDuplicates = function(nums) {
     }
     return len;
 };
-```
+// ```

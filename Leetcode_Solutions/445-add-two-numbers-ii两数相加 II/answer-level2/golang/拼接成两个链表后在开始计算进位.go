@@ -1,4 +1,4 @@
-```go
+// ```go
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	l1count := 0
 	l2count := 0
@@ -112,4 +112,4 @@ func checkList(l *ListNode) bool {
 
 	return carry
 }
-```
+// ```

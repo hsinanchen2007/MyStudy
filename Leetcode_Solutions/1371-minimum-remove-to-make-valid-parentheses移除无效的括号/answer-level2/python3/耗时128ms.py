@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
         zuo = 0
@@ -29,4 +29,4 @@ class Solution:
                 str3 += k
             return(str3)
                 
-```
+# ```

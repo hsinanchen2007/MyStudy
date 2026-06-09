@@ -1,6 +1,6 @@
-双指针解决
+# 双指针解决
 
-```
+# ```
 def sortArrayByParityII(A):
   # i 偶数位置, j 奇数位置
   i = 0
@@ -15,4 +15,4 @@ def sortArrayByParityII(A):
       j += 2
     else: 
       return A
-```
+# ```

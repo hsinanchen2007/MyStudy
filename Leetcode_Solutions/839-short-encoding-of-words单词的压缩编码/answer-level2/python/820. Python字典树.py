@@ -1,9 +1,9 @@
-### 解题思路
-这道题很明显是要找相同后缀的问题，而找后缀我们可以看成是逆序的找前缀，自然也就想到用字典树。
+# ### 解题思路
+# 这道题很明显是要找相同后缀的问题，而找后缀我们可以看成是逆序的找前缀，自然也就想到用字典树。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Node:
     def __init__(self, flag=0):
         self.flag = flag
@@ -38,4 +38,4 @@ class Solution(object):
                 get_res(root.next[ch], num + 1)
         get_res(root, 0)
         return cnt
-```
+# ```

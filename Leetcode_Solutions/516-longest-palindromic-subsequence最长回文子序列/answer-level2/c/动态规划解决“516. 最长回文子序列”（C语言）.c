@@ -1,20 +1,20 @@
-### 解题思路
-经典的字符串DP，这里给出C语言的解法。
+// ### 解题思路
+// 经典的字符串DP，这里给出C语言的解法。
 
-dp[i][j]表示从i到j子串中，回文长度。
+// dp[i][j]表示从i到j子串中，回文长度。
 
-如果s[i] == s[j]则dp[i][j] = dp[i + 1][j - 1] + 2;
+// 如果s[i] == s[j]则dp[i][j] = dp[i + 1][j - 1] + 2;
 
-否则，dp[i][j] = MMAX(dp[i][j - 1], dp[i + 1][j])。
+// 否则，dp[i][j] = MMAX(dp[i][j - 1], dp[i + 1][j])。
 
-注意，自底向上的动态规划，dp数组无需初始化。
+// 注意，自底向上的动态规划，dp数组无需初始化。
 
-![image.png](https://pic.leetcode-cn.com/d50c8668a1ff014b403c8961efc8e40914d35ac4dea77b12538b2206ba49377d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d50c8668a1ff014b403c8961efc8e40914d35ac4dea77b12538b2206ba49377d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -73,4 +73,4 @@ int longestPalindromeSubseq(char * s){
 */
     return max;
 }
-```
+// ```

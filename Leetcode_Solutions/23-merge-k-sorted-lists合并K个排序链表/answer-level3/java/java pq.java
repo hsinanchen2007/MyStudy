@@ -1,9 +1,9 @@
-### 解题思路
-很简单的调包。我调包我开心。
+// ### 解题思路
+// 很简单的调包。我调包我开心。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return list.stream();
     }
 }
-```
+// ```

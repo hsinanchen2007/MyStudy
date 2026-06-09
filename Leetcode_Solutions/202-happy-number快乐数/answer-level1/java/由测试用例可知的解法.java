@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isHappy(int n) {
         if(n==1){
@@ -19,4 +19,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

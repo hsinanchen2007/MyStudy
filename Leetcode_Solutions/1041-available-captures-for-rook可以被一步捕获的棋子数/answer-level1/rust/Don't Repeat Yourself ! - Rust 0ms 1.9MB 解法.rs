@@ -1,9 +1,9 @@
-这道题并不难，只是需要写一些重复的模板代码。
-利用 Rust 的 `Iterator` 抽象，可以避免写重复代码。
+// 这道题并不难，只是需要写一些重复的模板代码。
+// 利用 Rust 的 `Iterator` 抽象，可以避免写重复代码。
 
-> Don't Repeat Yourself!
+// > Don't Repeat Yourself!
 
-```Rust
+// ```Rust
 pub fn num_rook_captures(board: Vec<Vec<char>>) -> i32 {
     let (r, c) = find_rook(&board);
     let row = &board[r];
@@ -34,4 +34,4 @@ fn judge<'a>(mut itr: impl Iterator<Item = &'a char>) -> i32 {
     }
     0
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接转换可能会超出类型的限制，所以转换思想对每个位上的指数进行操作
+// ### 解题思路
+// 直接转换可能会超出类型的限制，所以转换思想对每个位上的指数进行操作
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func numSteps(_ s: String) -> Int {
     guard s.count >  1 else { return 0}
@@ -48,4 +48,4 @@ func numSteps(_ s: String) -> Int {
     return count
 }
 }
-```
+// ```

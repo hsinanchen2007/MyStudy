@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -18,5 +18,5 @@ public:
         return nums[i];
     }
 };
-```
-看了异或感觉数电白学了。。
+// ```
+// 看了异或感觉数电白学了。。

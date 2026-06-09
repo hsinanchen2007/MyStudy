@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/3672ad92eb9eddb46bd8e296cbded5c7b9124a267e1621bfee4ccf7b6e9a0621-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3672ad92eb9eddb46bd8e296cbded5c7b9124a267e1621bfee4ccf7b6e9a0621-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func insert(intervals [][]int, newInterval []int) [][]int {
     r := [][]int{}
     s := [][]int{}
@@ -68,4 +68,4 @@ func max(a, b int) int {
 
     return b
 }
-```
+// ```

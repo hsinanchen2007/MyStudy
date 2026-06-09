@@ -1,9 +1,9 @@
-### 解题思路
-从上至下层序遍历取反
+# ### 解题思路
+# 从上至下层序遍历取反
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
                         queue.append(r.right)
                 res.append(temp)
             return res[::-1]
-```
+# ```

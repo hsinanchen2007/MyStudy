@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+# ### 解题思路
+# 打卡
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         ans = []
@@ -16,4 +16,4 @@ class Solution:
             if sum == target:
                 ans.append(list(range(i,j)))
         return ans
-```
+# ```

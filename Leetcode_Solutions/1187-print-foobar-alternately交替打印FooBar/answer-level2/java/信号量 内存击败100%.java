@@ -1,9 +1,9 @@
-使用信号量
-acquire  就是 值+1
-release  就是 值-1
-_简单理解就是当值是0，就可以继续执行，不为零就等待变为0后再执行_
+// 使用信号量
+// acquire  就是 值+1
+// release  就是 值-1
+// _简单理解就是当值是0，就可以继续执行，不为零就等待变为0后再执行_
 
-``` java
+// ``` java
 public class FooBar {
     private int n;
     //here is the full path, or maybe cann't compile in leetcode.
@@ -36,4 +36,4 @@ public class FooBar {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize)
 {
     int res = 0, left = 0, right = heightSize - 1, i;
@@ -34,4 +34,4 @@ int trap(int* height, int heightSize)
     }
     return res;
 }
-```
+// ```

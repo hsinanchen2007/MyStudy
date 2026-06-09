@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-知识点：前缀树
+# 知识点：前缀树
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class TrieNode(object):
 
     def __init__(self):
@@ -55,4 +55,4 @@ class WordDictionary(object):
         :rtype: bool
         """
         return self.search_helper(word, 0, self.root)
-```
+# ```

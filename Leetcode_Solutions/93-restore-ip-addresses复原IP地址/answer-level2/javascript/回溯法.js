@@ -1,6 +1,6 @@
-> 思路: ip 分为4段，最长位数为3位，且小于等于 255，如果每位长度大于1，则不会以0开头
+// > 思路: ip 分为4段，最长位数为3位，且小于等于 255，如果每位长度大于1，则不会以0开头
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string[]}
@@ -27,4 +27,4 @@ function handler(s, result, tmp, idx, curr) {
     if (n === "0") break;
   }
 }
-```
+// ```

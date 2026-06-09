@@ -1,4 +1,4 @@
-```
+# ```
 def balancedStringSplit(self, s: str) -> int:
         #从头开始循环，遇到一个和自己不一样的开始寻找，直到匹配，然后再重新开始
         num=0
@@ -19,4 +19,4 @@ def balancedStringSplit(self, s: str) -> int:
                         num+=1
                     continue
         return num
-```
+# ```

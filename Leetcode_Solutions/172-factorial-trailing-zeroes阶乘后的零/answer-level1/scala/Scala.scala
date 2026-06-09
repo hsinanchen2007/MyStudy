@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-```scala
+// ### 代码
+// ```scala
 object Solution {
     def trailingZeroes(n: Int): Int = {
          var i: Int = n
@@ -14,4 +14,4 @@ object Solution {
     count
     }
 }
-```
+// ```

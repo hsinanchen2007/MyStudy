@@ -1,5 +1,5 @@
-题解有很多下面的解法
-```cpp
+// 题解有很多下面的解法
+// ```cpp
 int search(vector<int>& nums, int target) {
     int left = 0;
     int right = (int)nums.size() - 1;
@@ -28,15 +28,15 @@ int search(vector<int>& nums, int target) {
     }
     return -1;
 }
-```
+// ```
 
-但是很多不明白nums[mid] >= nums[left] 而不是nums[mid] > nums[left]
-上面的代码注释我也给出了解释
+// 但是很多不明白nums[mid] >= nums[left] 而不是nums[mid] > nums[left]
+// 上面的代码注释我也给出了解释
 
-如果还是看不懂
-换一种方法
+// 如果还是看不懂
+// 换一种方法
 
-```cpp
+// ```cpp
 int search(vector<int>& nums, int target) {
     int left = 0;
     int right = (int)nums.size() - 1;
@@ -66,15 +66,15 @@ int search(vector<int>& nums, int target) {
     }
     return -1;
 }
-```
+// ```
 
-我们可以在最后的else里面判断nums[mid] == nums[left]的情况 也就是[3,1] target = 1
-这时候nums[mid] = 3 不是我们需要的，且left = mid = 0，所以left也不是，所以过滤left,让left++
+// 我们可以在最后的else里面判断nums[mid] == nums[left]的情况 也就是[3,1] target = 1
+// 这时候nums[mid] = 3 不是我们需要的，且left = mid = 0，所以left也不是，所以过滤left,让left++
 
-同时方法二 [通过第81题 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+// 同时方法二 [通过第81题 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 
-最后补充一下方法二的递归解法
-```cpp
+// 最后补充一下方法二的递归解法
+// ```cpp
 int search1_(vector<int>& nums,int start,int end,int target){
     if(end < start)  return -1;
 
@@ -113,4 +113,4 @@ int search1(vector<int>& nums, int target) {
     return search1_(nums, 0, (int)nums.size() - 1, target);
 }
     
-```
+// ```

@@ -1,6 +1,6 @@
-先将数组排序，然后进行一次遍历，若遇到与前一个数相同则直接跳过，遍历的过程中使用双指针往中间逼近，寻找最接近的和
+// 先将数组排序，然后进行一次遍历，若遇到与前一个数相同则直接跳过，遍历的过程中使用双指针往中间逼近，寻找最接近的和
 
-```
+// ```
 func threeSumClosest(nums []int, target int) int {
     sort.Ints(nums)
     res := nums[0] + nums[1] + nums[2]
@@ -31,4 +31,4 @@ func threeSumClosest(nums []int, target int) int {
     }
     return res
 }
-```
+// ```

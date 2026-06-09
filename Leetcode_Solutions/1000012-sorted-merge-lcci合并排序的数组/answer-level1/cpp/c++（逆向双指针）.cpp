@@ -1,7 +1,7 @@
-逆向双指针：
-- 时间复杂度：o(m+n),遍历一遍
-- 空间复杂度：o(1),原地
-```cpp []
+// 逆向双指针：
+// - 时间复杂度：o(m+n),遍历一遍
+// - 空间复杂度：o(1),原地
+// ```cpp []
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -14,5 +14,5 @@ public:
         while(b>=0) A[p--]=B[b--];
     }
 };
-```
+// ```
 

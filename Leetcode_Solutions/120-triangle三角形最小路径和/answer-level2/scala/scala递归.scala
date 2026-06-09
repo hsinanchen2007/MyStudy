@@ -1,4 +1,4 @@
-```
+// ```
   @scala.annotation.tailrec
   def minimumTotal(triangle: List[List[Int]]): Int = triangle match {
     case first :: Nil => first.min
@@ -10,4 +10,4 @@
       }
       minimumTotal(newHead +: rest)
 }
-```
+// ```

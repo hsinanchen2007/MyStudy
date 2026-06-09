@@ -1,9 +1,9 @@
-### 解题思路
-求树的高度时可用层次遍历，这里稍微改一下，遇到叶子节点就直接返回。
+# ### 解题思路
+# 求树的高度时可用层次遍历，这里稍微改一下，遇到叶子节点就直接返回。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
                 if queue:#这里需要判断队列是否为空，否则会报错
                     pre = queue[-1]
         return depth+1
-```
+# ```

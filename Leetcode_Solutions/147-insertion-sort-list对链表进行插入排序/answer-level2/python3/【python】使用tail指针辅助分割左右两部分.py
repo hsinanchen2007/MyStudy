@@ -1,14 +1,14 @@
-解题思路：
-1、用cur指针来遍历整个链表，tail为cur的前一个，head为左边排好序的链表，pre为head~tail的指针
-2、每次移动cur指针，从head开始对比cur所指向的值，到合适的位置，插入，并更新head，tail
+# 解题思路：
+# 1、用cur指针来遍历整个链表，tail为cur的前一个，head为左边排好序的链表，pre为head~tail的指针
+# 2、每次移动cur指针，从head开始对比cur所指向的值，到合适的位置，插入，并更新head，tail
 
-时间复杂度：
-1、cur需要遍历n-1个元素
-2、pre最坏的情况在第n-1次的插入要遍历n-2次
-因此，需要O(n^2)
+# 时间复杂度：
+# 1、cur需要遍历n-1个元素
+# 2、pre最坏的情况在第n-1次的插入要遍历n-2次
+# 因此，需要O(n^2)
 
 
-```
+# ```
 # class ListNode:
 #     def __init__(self, x):
 #         self.val = x
@@ -47,4 +47,4 @@ class Solution:
                     pre.next = cur
             cur = tail.next  # 下一个元素在tail的右边，准备插入
         return head
-```
+# ```

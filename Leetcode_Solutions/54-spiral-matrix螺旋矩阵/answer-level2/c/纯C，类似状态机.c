@@ -1,10 +1,10 @@
-### 解题思路
-方法一：
-设置一个锚点，循环遍历一次，每一步判定锚点的位置
+// ### 解题思路
+// 方法一：
+// 设置一个锚点，循环遍历一次，每一步判定锚点的位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -123,4 +123,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     *returnSize = iNum;
     return pRet;
 }
-```
+// ```

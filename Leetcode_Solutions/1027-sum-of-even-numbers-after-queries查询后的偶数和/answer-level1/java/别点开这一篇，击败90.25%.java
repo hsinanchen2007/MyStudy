@@ -1,8 +1,8 @@
-### 解题思路
-总的思路就是要尽可能减少计算
-### 代码
+// ### 解题思路
+// 总的思路就是要尽可能减少计算
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
  
@@ -29,4 +29,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

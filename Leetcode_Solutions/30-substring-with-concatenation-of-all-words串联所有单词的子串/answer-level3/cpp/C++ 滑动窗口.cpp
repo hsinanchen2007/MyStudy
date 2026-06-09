@@ -1,6 +1,6 @@
-看到题解并没有c++的写法，就仿写了一个powcai的写法。52ms。
+// 看到题解并没有c++的写法，就仿写了一个powcai的写法。52ms。
 
-```
+// ```
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
@@ -54,6 +54,6 @@ public:
         return result;
     }
 };
-```
+// ```
 
 

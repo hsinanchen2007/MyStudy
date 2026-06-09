@@ -1,7 +1,7 @@
 
-记录当前元素，找到相同元素就删除
+// 记录当前元素，找到相同元素就删除
 
-```
+// ```
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return i;
     }
 };
-```
+// ```

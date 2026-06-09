@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```js
+// ```js
 如: test.email+alex@leetcode.com
 以 @ 分隔 得到 list = ['test.email+alex', 'leetcode.com']
 
@@ -8,12 +8,12 @@
 
 此时 list = ['testemail','leetcode.com'] ,再以 @ 拼接回去 => testemail@leetcode.com
 
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} emails
  * @return {number}
@@ -25,4 +25,4 @@ var numUniqueEmails = function(emails) {
       return list.join('@')
     }))].length
 };
-```
+// ```

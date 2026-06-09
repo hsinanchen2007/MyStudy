@@ -1,19 +1,19 @@
-### 解题思路
+// ### 解题思路
 
-l, r, u, d 分别代表left, right, up, down边界。每一次循环都是一个正方形的最外四个边界值，循环一次后
+// l, r, u, d 分别代表left, right, up, down边界。每一次循环都是一个正方形的最外四个边界值，循环一次后
 
-l + 1
-r - 1
-u + 1
-d + 1
+// l + 1
+// r - 1
+// u + 1
+// d + 1
 
-直到
-l > r 
-u > d 
-说明内部已经没有正方形了
-### 代码
+// 直到
+// l > r 
+// u > d 
+// 说明内部已经没有正方形了
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -32,4 +32,4 @@ public:
         return matrix;
     }
 };
-```
+// ```

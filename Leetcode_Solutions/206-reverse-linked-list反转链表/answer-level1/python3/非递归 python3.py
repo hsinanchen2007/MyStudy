@@ -1,9 +1,9 @@
-### 解题思路
-还是非递归方便hhh
+# ### 解题思路
+# 还是非递归方便hhh
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             head = head.next
             ans.next = tmp
         return ans
-```
+# ```

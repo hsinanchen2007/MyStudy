@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int integerReplacement(int n) {
@@ -20,4 +20,4 @@ public:
         return res+n-1;
     }
 };
-```
+// ```

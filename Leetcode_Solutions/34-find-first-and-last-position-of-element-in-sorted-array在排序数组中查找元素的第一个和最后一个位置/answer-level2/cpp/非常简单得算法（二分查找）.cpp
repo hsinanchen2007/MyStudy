@@ -1,11 +1,11 @@
-### 解题思路
-先用二分查找目标是否在数组中，若在，同时获得所在得一个位置
+// ### 解题思路
+// 先用二分查找目标是否在数组中，若在，同时获得所在得一个位置
 
-从当前位置向两边查找，确定上下界
+// 从当前位置向两边查找，确定上下界
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -44,4 +44,4 @@ public:
         return false;
     }
 };
-```
+// ```

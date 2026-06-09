@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isAdditiveNumber(num string) bool {
     nums := make([]int, len(num))
 
@@ -62,4 +62,4 @@ func transfer(data []int) int {
     }
     return count
 }
-```
+// ```

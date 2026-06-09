@@ -1,5 +1,5 @@
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -15,4 +15,4 @@ public:
         return *min_element(res.begin(), res.end());
     }
 };
-```
+// ```

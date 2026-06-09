@@ -1,5 +1,5 @@
-# 优先队列 4ms 3.2MB
-```rust
+// # 优先队列 4ms 3.2MB
+// ```rust
 use std::collections::BinaryHeap;
 impl PartialOrd for ListNode {
     fn partial_cmp(&self, other: &ListNode) -> Option<std::cmp::Ordering> {
@@ -37,9 +37,9 @@ pub fn merge_k_lists(lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNode>>
     }
     dummy.next
 }
-```
-# 分治 4ms 3.1MB
-```rust
+// ```
+// # 分治 4ms 3.1MB
+// ```rust
 pub fn merge_two_lists(mut l1: Option<Box<ListNode>>, mut l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     let mut dummy = ListNode::new(0);
     let mut p = &mut dummy;
@@ -70,9 +70,9 @@ pub fn merge_k_lists(mut lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNo
     }
     lists[0].take()
 }
-```
-# 逐一比较 56ms 3MB
-```rust
+// ```
+// # 逐一比较 56ms 3MB
+// ```rust
 pub fn merge_k_lists(mut lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNode>> {
     if lists.is_empty() { return None }
     let mut dummy = ListNode::new(0);
@@ -109,4 +109,4 @@ pub fn merge_k_lists(mut lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNo
     }
     dummy.next
 }
-```
+// ```

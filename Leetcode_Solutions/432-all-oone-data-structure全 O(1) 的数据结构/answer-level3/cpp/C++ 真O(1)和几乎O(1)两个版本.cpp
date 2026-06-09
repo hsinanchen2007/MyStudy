@@ -1,8 +1,8 @@
-两个版本效率基本上差不多 几乎O(1)这个看起来会简单很多
+// 两个版本效率基本上差不多 几乎O(1)这个看起来会简单很多
 
-几乎O(1)版本为了找到最大和最小的出现次数，用了一个自排序的map，如果输入数据比较均匀，这个map基本上不需要重排，可以看成O(1)
+// 几乎O(1)版本为了找到最大和最小的出现次数，用了一个自排序的map，如果输入数据比较均匀，这个map基本上不需要重排，可以看成O(1)
 
-```cpp
+// ```cpp
 class AllOne {
 public:
     unordered_map<string, int> val;
@@ -40,11 +40,11 @@ public:
         return data.empty() ? "" : *data.begin()->second.begin();
     }
 };
-```
+// ```
 
-然后是真O(1)版本，哈希表加上双向链表，利用空间相连性。
+// 然后是真O(1)版本，哈希表加上双向链表，利用空间相连性。
 
-```cpp
+// ```cpp
 class AllOne {
 public:
     list<pair<int, unordered_set<string>>> data;
@@ -133,4 +133,4 @@ public:
         return data.empty() ? "" : *data.front().second.begin();
     }
 };
-```
+// ```

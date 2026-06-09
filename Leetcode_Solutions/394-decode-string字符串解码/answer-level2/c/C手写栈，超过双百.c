@@ -1,9 +1,9 @@
-### 解题思路
-C手写栈，超过双百
+// ### 解题思路
+// C手写栈，超过双百
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct SNode* PtrToSNode;
 struct SNode {
     char* str;
@@ -110,4 +110,4 @@ char * decodeString(char * s){
 
 
 
-```
+// ```

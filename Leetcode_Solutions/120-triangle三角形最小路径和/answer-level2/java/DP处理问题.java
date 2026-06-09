@@ -1,9 +1,9 @@
-### 解题思路
-看代码说话：)
+// ### 解题思路
+// 看代码说话：)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         //1. 初始化最后一层数据
@@ -24,4 +24,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

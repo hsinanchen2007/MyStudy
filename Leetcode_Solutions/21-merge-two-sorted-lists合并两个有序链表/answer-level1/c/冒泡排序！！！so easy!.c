@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     if(l1==NULL)
       return l2;
@@ -35,4 +35,4 @@ for(p=l1;p;p=p->next)
 }
 return l1;
 }
-```
+// ```

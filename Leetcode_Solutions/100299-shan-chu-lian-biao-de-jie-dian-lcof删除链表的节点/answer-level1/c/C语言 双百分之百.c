@@ -1,9 +1,9 @@
-### 解题思路
-单链表的运用。
+// ### 解题思路
+// 单链表的运用。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* deleteNode(struct ListNode* head, int val)
     }
     return head;
 }
-```
+// ```

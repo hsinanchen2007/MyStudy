@@ -1,5 +1,5 @@
-python简单实现
-```python
+# python简单实现
+# ```python
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         s = ''
@@ -8,4 +8,4 @@ class Solution:
             if iterm + '#' not in s:
                 s = s + iterm + '#'
         return len(s)
-```
+# ```

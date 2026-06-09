@@ -1,5 +1,5 @@
-思路：利用php关联数组，3遍循环搞定
-```php
+// 思路：利用php关联数组，3遍循环搞定
+// ```php
 class Solution {
 
     /**
@@ -38,4 +38,4 @@ class Solution {
         return $ret;
     }
 }
-```
+// ```

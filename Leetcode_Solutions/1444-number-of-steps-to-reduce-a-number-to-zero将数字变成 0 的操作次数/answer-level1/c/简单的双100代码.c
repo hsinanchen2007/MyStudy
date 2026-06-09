@@ -1,9 +1,9 @@
-### 解题思路
-运用了三目运算符
+// ### 解题思路
+// 运用了三目运算符
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numberOfSteps (int num){
     int ans=0;
     while(num){
@@ -12,4 +12,4 @@ int numberOfSteps (int num){
     }
     return ans;
 }
-```
+// ```

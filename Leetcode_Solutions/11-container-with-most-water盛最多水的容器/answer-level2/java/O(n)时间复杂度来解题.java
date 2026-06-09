@@ -1,11 +1,11 @@
-### 解题思路
-1. 设立两个变量，分别存储左右遍历的位置
-2. 计算出当前的面积并与当前的max相比较
-3. 为了寻求最大的面积，我们比较height[i]和height[j]，如果height[i]>height[j],那么j--，反之，i++.
+// ### 解题思路
+// 1. 设立两个变量，分别存储左右遍历的位置
+// 2. 计算出当前的面积并与当前的max相比较
+// 3. 为了寻求最大的面积，我们比较height[i]和height[j]，如果height[i]>height[j],那么j--，反之，i++.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int max = 0;
@@ -23,4 +23,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

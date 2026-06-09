@@ -1,10 +1,10 @@
-### 解题思路
-都是用组合，三种解法。
+# ### 解题思路
+# 都是用组合，三种解法。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from itertools import combinations
 from functools import reduce
 class Solution:
@@ -23,4 +23,4 @@ class Solution:
 
 
 
-```
+# ```

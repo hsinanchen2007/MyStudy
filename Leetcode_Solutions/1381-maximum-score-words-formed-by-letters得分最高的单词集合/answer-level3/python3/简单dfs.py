@@ -1,9 +1,9 @@
-### 解题思路
-直接使用dfs，针对每一个单词，都有两种，用当前单词，不用当前单词，遍历到最后更新即可
+# ### 解题思路
+# 直接使用dfs，针对每一个单词，都有两种，用当前单词，不用当前单词，遍历到最后更新即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 
 
@@ -31,4 +31,4 @@ class Solution:
         dfs(letter_count, 0)
 
         return ans
-```
+# ```

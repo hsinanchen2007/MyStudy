@@ -1,9 +1,9 @@
-### 解题思路
-官方解答【JAVA】详细中文注释，想了很久，看来以后要加强数学了。
+// ### 解题思路
+// 官方解答【JAVA】详细中文注释，想了很久，看来以后要加强数学了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int n = num_people;
@@ -28,4 +28,4 @@ class Solution {
         return d;
     }
 }
-```
+// ```

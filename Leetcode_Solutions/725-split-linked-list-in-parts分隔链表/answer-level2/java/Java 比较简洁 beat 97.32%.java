@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode[] result = new ListNode[k];
@@ -33,7 +33,7 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
 
 

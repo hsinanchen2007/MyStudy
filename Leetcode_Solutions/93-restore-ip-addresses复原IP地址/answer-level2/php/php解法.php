@@ -1,5 +1,5 @@
-暴力解法
-```
+// 暴力解法
+// ```
 class Solution {
 
     /**
@@ -38,4 +38,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

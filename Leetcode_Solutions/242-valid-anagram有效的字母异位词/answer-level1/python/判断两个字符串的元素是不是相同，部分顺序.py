@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n）
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（n）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         from collections import defaultdict
@@ -16,4 +16,4 @@ class Solution:
             d2[i] += 1
         return d1 == d2
 
-```
+# ```

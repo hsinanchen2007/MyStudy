@@ -1,9 +1,9 @@
-### 解题思路
-数组排序再保留前k个数字
+// ### 解题思路
+// 数组排序再保留前k个数字
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -14,4 +14,4 @@ var getLeastNumbers = function(arr, k) {
     arr.length = k;
     return arr;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define TRUE (1)
 #define FALSE (0)
 #define MAX_SIZE (10010)
@@ -49,4 +49,4 @@ bool isNStraightHand(int* hand, int handSize, int W)
     }   
     return TRUE;
 }
-```
+// ```

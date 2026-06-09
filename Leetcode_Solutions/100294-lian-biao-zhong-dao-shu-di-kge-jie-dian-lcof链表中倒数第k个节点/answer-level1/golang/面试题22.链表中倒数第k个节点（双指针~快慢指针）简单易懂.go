@@ -1,12 +1,12 @@
-### 解题思路
-学习[@jyd](/u/jyd/)大佬 
-[大佬详细分析](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/mian-shi-ti-22-lian-biao-zhong-dao-shu-di-kge-j-11/)
+// ### 解题思路
+// 学习[@jyd](/u/jyd/)大佬 
+// [大佬详细分析](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/mian-shi-ti-22-lian-biao-zhong-dao-shu-di-kge-j-11/)
 
-### 知识点：双指针（快慢指针）
+// ### 知识点：双指针（快慢指针）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -29,4 +29,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
 
 	return latter
 }
-```
+// ```

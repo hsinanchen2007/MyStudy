@@ -1,6 +1,6 @@
-Java 耗时32ms，内存37.6MB
-(PS:我个人觉得这个解法并没有达到我心理要求，还存在很大的优化空间，之后有时间我会再优化)
-```
+// Java 耗时32ms，内存37.6MB
+// (PS:我个人觉得这个解法并没有达到我心理要求，还存在很大的优化空间，之后有时间我会再优化)
+// ```
 /**
  * Problem
  *     106.Construct Binary Tree from Inorder and Postorder Traversal
@@ -53,6 +53,6 @@ class Solution {
         return root;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路*斜体*
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路*斜体*

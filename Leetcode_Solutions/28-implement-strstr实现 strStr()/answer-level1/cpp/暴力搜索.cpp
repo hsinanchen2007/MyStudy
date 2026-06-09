@@ -1,5 +1,5 @@
-两个指针便遍历
-```
+// 两个指针便遍历
+// ```
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

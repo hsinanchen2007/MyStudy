@@ -1,6 +1,6 @@
-好多例子都是倒序的dp,看起来很不舒服。我来写个从前往后的动态规划。
-tb[i][j]表示p[:i]与s[:j]是否匹配
-```python []
+# 好多例子都是倒序的dp,看起来很不舒服。我来写个从前往后的动态规划。
+# tb[i][j]表示p[:i]与s[:j]是否匹配
+# ```python []
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         n = len(s)+1                                         #在字符串开头添加“@”，即s=“@”+s,"@"表示一个s和p都不存在的字符
@@ -16,5 +16,5 @@ class Solution:
                     matched = j>0 and (p[i-1]==s[j-1] or p[i-1]=='.')   #比较当前模式串字符p[i-1]
                     tb[i][j] = matched and tb[i-1][j-1]                 #单个字符匹配
         return tb[m-1][n-1]
-```
+# ```
 

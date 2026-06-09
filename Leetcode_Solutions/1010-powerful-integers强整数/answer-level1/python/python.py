@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def powerfulIntegers(self, x, y, bound):
         """
@@ -27,5 +27,5 @@ class Solution(object):
                     r_list.append(xy)
         return sorted(r_list)
 
-```
+# ```
 

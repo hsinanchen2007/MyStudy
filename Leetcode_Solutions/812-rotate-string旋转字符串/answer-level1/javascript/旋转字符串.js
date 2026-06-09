@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var rotateString = function(A, B) {
     if (A === '' && B === '') {
         return true
@@ -17,18 +17,18 @@ var rotateString = function(A, B) {
     }
     return false
 };
-```
+// ```
 
-*法二*
+// *法二*
 
-思路：只需比较一下两个字符串的长度，然后判断A + A中是否存在B就ok，因为A + A中已经包含了所有可能的移动情况
+// 思路：只需比较一下两个字符串的长度，然后判断A + A中是否存在B就ok，因为A + A中已经包含了所有可能的移动情况
 
-```js
+// ```js
 var rotateString = function(A, B) {
     if (A.length === B.length && (A + A).includes(B)) {
         return true
     }
     return false
 };
-```
+// ```
 

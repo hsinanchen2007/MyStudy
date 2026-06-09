@@ -1,9 +1,9 @@
-### 解题思路
-细节比较多，需要仔细考虑
+// ### 解题思路
+// 细节比较多，需要仔细考虑
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -61,4 +61,4 @@ char ** reorderLogFiles(char ** logs, int logsSize, int* returnSize){
     qsort(logs, logsSize, sizeof(char **), cmp);
     return logs;
 }
-```
+// ```

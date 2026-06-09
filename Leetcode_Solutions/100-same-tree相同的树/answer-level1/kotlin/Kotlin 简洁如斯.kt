@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     var result = true
     fun isSameTree(p: TreeNode?, q: TreeNode?): Boolean {
@@ -17,8 +17,8 @@ class Solution {
         }
     }
 }
-```
-DFS， 说一下 when 里的判断：
-* 结果已经是 false 了，无需再查 return
-* p, q 值不同，结果置为 false
-* p, q 不为空，继续查左右子树
+// ```
+// DFS， 说一下 when 里的判断：
+// * 结果已经是 false 了，无需再查 return
+// * p, q 值不同，结果置为 false
+// * p, q 不为空，继续查左右子树

@@ -1,6 +1,6 @@
-## 思路一：动态规划
-### 代码
-```c++
+// ## 思路一：动态规划
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -16,11 +16,11 @@ public:
         return sold[size - 1];
     }
 };
-```
+// ```
 
-## 思路二：贪心
-### 代码
-```c++
+// ## 思路二：贪心
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -35,5 +35,5 @@ public:
         return res;        
     }
 };
-```
+// ```
 

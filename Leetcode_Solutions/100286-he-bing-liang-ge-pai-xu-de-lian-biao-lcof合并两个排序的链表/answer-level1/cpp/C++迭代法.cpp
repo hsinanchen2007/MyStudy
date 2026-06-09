@@ -1,9 +1,9 @@
-### 解题思路
-注意两点：1、sum不能为空指针 要初始化
-2、sum->next=l1;不能写sum=l1 要不无法连成
-### 代码
+// ### 解题思路
+// 注意两点：1、sum不能为空指针 要初始化
+// 2、sum->next=l1;不能写sum=l1 要不无法连成
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -50,4 +50,4 @@ public:
 
     }
 };
-```
+// ```

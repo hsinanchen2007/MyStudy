@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn dfs(&self,ans:&mut Vec<String>,cur:&mut String, open:i32,close:i32,n:i32){
         if cur.len()==2*n as usize {
@@ -30,4 +30,4 @@ impl Solution {
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-求最大值，就从最大开始迭代，只要找到一组值，就直接返回，此时就是最大子串
+# 求最大值，就从最大开始迭代，只要找到一组值，就直接返回，此时就是最大子串
 class Solution(object):
     def longestPalindrome(self, s):
         """

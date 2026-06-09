@@ -1,6 +1,6 @@
-第一次遍历使用output数组存储，output[i]表示nums中i左侧位置乘积；
-第二次遍历使用rightMulti存储i位置右侧的乘积
-```java
+// 第一次遍历使用output数组存储，output[i]表示nums中i左侧位置乘积；
+// 第二次遍历使用rightMulti存储i位置右侧的乘积
+// ```java
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int len = nums.length;
@@ -20,4 +20,4 @@ class Solution {
         return outputs;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-方法一：哈希映射map
+// ### 解题思路
+// 方法一：哈希映射map
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -31,4 +31,4 @@ public:
         return true;
     }
 };
-```
+// ```

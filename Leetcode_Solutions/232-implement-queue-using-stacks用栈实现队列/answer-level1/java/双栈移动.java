@@ -1,4 +1,4 @@
-```java
+// ```java
 class MyQueue {
     
     private Stack<Integer> stack ;
@@ -45,4 +45,4 @@ class MyQueue {
         return this.stack.isEmpty();
     }
 }
-```
+// ```

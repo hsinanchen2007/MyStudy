@@ -1,6 +1,6 @@
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -15,4 +15,4 @@ public:
 	return i;
     }
 };
-```
+// ```

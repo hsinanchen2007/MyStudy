@@ -1,5 +1,5 @@
-思路：首先利用数组求和遍历处理进位解题，然后大脑展开思路后，优化为同官方解题方法。
-```
+// 思路：首先利用数组求和遍历处理进位解题，然后大脑展开思路后，优化为同官方解题方法。
+// ```
 private class Solution1 {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
@@ -42,9 +42,9 @@ private class Solution1 {
         return dummyHead.next
     }
 }
-```
-优化代码结构：
-```
+// ```
+// 优化代码结构：
+// ```
 private class Solution2 {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
@@ -101,4 +101,4 @@ private class Solution2 {
     }
 }
 
-```
+// ```

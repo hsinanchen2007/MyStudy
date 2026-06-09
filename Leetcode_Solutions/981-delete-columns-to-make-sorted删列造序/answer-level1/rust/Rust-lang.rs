@@ -1,10 +1,10 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/e71b47c1333a38e219533706f131d035490b83d772276e3362cc4cc7d18d3b21-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e71b47c1333a38e219533706f131d035490b83d772276e3362cc4cc7d18d3b21-image.png)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn min_deletion_size(a: Vec<String>) -> i32 {
         let str_len = a[0].len();
@@ -34,11 +34,11 @@ impl Solution {
         (count)
     }
 }
-```
+// ```
 
-### 算法复杂度
+// ### 算法复杂度
 
-**空间复杂度：O(n*length)**
+// **空间复杂度：O(n*length)**
 
-**时间复杂度：O(n*length)**
-(length为单个字符串长度)
+// **时间复杂度：O(n*length)**
+// (length为单个字符串长度)

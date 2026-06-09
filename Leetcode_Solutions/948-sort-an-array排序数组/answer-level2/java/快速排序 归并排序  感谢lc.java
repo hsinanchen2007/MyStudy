@@ -1,9 +1,9 @@
-### 解题思路
-学习了  感谢lc   
+// ### 解题思路
+// 学习了  感谢lc   
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArray(int[] nums) {
         mergeSort(nums, 0, nums.length - 1);
@@ -65,4 +65,4 @@ class Solution {
         nums[j] = t;
     }
 }
-```
+// ```

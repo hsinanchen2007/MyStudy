@@ -1,10 +1,10 @@
-### 解题思路
-采用双指针算法中的快慢指针进行求解：
-  快慢指针：第一：fast走到链表末，返回null；第二：fast=slow，两指针第一次相遇，slow指针同时从相遇的位置和最开始的位置出发，相遇的位置即为环入口。
+# ### 解题思路
+# 采用双指针算法中的快慢指针进行求解：
+#   快慢指针：第一：fast走到链表末，返回null；第二：fast=slow，两指针第一次相遇，slow指针同时从相遇的位置和最开始的位置出发，相遇的位置即为环入口。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution(object):
             P1=P1.next
             P2=P2.next
         return P1
-```
+# ```

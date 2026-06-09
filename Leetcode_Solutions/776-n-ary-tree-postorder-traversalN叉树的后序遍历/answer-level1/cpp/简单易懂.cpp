@@ -1,9 +1,9 @@
-### 解题思路
-创建函数void f(Node* root,vector<int>& v)对n叉树进行后序遍历。
+// ### 解题思路
+// 创建函数void f(Node* root,vector<int>& v)对n叉树进行后序遍历。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -51,4 +51,4 @@ public:
         v.push_back(root->val);
     }
 };
-```
+// ```

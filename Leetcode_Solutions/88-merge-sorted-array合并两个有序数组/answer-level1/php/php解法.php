@@ -1,5 +1,5 @@
-从后往前比较，不需要额外空间。
-```
+// 从后往前比较，不需要额外空间。
+// ```
 function merge(&$nums1, $m, $nums2, $n) {
     $p1 = $m - 1;
     $p2 = $n - 1;
@@ -9,4 +9,4 @@ function merge(&$nums1, $m, $nums2, $n) {
     while($p1 < 0 && $p2 >= 0)
         $nums1[$p--] = $nums2[$p2--];
 }
-```
+// ```

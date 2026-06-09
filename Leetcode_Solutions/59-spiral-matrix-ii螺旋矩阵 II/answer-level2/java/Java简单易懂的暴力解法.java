@@ -1,5 +1,5 @@
-思路：一圈一圈打印 从外向里，每一行或每一列打印时候 注意留下一个，具体看代码
-```java
+// 思路：一圈一圈打印 从外向里，每一行或每一列打印时候 注意留下一个，具体看代码
+// ```java
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] matrix = new int[n][n];
@@ -25,4 +25,4 @@ class Solution {
         return matrix;
     }
 }
-```
+// ```

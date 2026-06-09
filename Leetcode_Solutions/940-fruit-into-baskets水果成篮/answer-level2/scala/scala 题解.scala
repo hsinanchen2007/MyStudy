@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def totalFruit(tree: Array[Int]): Int = {
     var res = 0
@@ -18,4 +18,4 @@ object Solution {
     res
   }
 }
-```
+// ```

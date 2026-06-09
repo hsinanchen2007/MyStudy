@@ -1,9 +1,9 @@
-### 解题思路
-纯C 二分法
+// ### 解题思路
+// 纯C 二分法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mySqrt(int x){
     int low = 0;
     int high = x;
@@ -35,4 +35,4 @@ int mySqrt(int x){
     
     return low;    
 }
-```
+// ```

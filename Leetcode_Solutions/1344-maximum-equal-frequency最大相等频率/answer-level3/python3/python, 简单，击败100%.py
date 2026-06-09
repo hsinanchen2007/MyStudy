@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/90c7adedcfafba6e9a10350a8791ef12ac4b59003c6a2b097dab9aab6d7595e5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/90c7adedcfafba6e9a10350a8791ef12ac4b59003c6a2b097dab9aab6d7595e5-image.png)
 
-```
+# ```
 class Solution:
     def maxEqualFreq(self, nums: List[int]) -> int:
         if len(nums) == 1:
@@ -33,6 +33,6 @@ class Solution:
             else:
                 cout_dict[nums[i-1]] = cout_dict[nums[i - 1]] - 1
         return 0
-```
+# ```
 
-```
+# ```

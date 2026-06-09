@@ -1,9 +1,9 @@
-### 解题思路
-逐个向后扫描，如果下一个节点的值和当前想等，跳过
+# ### 解题思路
+# 逐个向后扫描，如果下一个节点的值和当前想等，跳过
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             
         
     
-```
+# ```

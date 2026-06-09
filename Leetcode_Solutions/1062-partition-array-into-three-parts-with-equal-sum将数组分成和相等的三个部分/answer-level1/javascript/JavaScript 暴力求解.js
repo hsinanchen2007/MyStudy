@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3929d4fad9e80fdd5add15e0be5319620287edbfd53a01223023b28afa941cf8-image.png)
-- 通过 Reduce 叠加器得到总和
-- 通过遍历判断 对 flag 进行验证是否是分成三段，如果flag是 3 说明数组分成三段
-- 
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/3929d4fad9e80fdd5add15e0be5319620287edbfd53a01223023b28afa941cf8-image.png)
+// - 通过 Reduce 叠加器得到总和
+// - 通过遍历判断 对 flag 进行验证是否是分成三段，如果flag是 3 说明数组分成三段
+// - 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -34,4 +34,4 @@ var canThreePartsEqualSum = function(A) {
     }
     return flag === 3 ? true : false
 };
-```
+// ```

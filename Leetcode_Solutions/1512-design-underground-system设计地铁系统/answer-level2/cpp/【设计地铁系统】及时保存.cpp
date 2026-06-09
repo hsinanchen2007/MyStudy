@@ -1,10 +1,10 @@
-### 思路
-1. 使用 `checkRecord` 根据 `id` 来保存上车 **车站名字** 和 **时间**
-2. 在下车车站，把乘车时间计算出来，按两个 **车站名字** 保存起来，同时还要保存 **乘车次数**
-3. 取得平均时间时，只需要查询两个车站，得到总时间，和总次数
+// ### 思路
+// 1. 使用 `checkRecord` 根据 `id` 来保存上车 **车站名字** 和 **时间**
+// 2. 在下车车站，把乘车时间计算出来，按两个 **车站名字** 保存起来，同时还要保存 **乘车次数**
+// 3. 取得平均时间时，只需要查询两个车站，得到总时间，和总次数
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 class UndergroundSystem {
 public:
     UndergroundSystem() {}
@@ -35,13 +35,13 @@ private:
     unordered_map<int, pair<string, int>> checkRecord;
     unordered_map<string, pair<double, int>> count;
 };
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用二叉排序树，倒着插入结点，可以插入结点的同时记录比其小的数量
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用二叉排序树，倒着插入结点，可以插入结点的同时记录比其小的数量
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
         Integer[] ret = new Integer[nums.length];
@@ -46,4 +46,4 @@ class TreeNode {
         count = 0;
     }
 }
-```
+// ```

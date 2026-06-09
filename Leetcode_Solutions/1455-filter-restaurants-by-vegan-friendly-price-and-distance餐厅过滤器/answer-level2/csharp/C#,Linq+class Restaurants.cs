@@ -1,9 +1,9 @@
-### 解题思路
-Linq语法自解释……
+// ### 解题思路
+// Linq语法自解释……
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<int> FilterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
         List<Restaurants> listRest = new List<Restaurants>();
@@ -38,4 +38,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

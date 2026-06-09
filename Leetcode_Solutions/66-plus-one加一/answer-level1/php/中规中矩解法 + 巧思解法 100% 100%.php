@@ -1,9 +1,9 @@
-### 解题思路
-基本的数学解法 + 巧思解法
+// ### 解题思路
+// 基本的数学解法 + 巧思解法
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -36,10 +36,10 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
-高级解法
-```php
+// 高级解法
+// ```php
 class Solution {
 
     /**
@@ -71,4 +71,4 @@ class Solution {
         return $digits;
     }
 }
-```
+// ```

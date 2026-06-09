@@ -1,9 +1,9 @@
-### 解题思路
-KMP算法中最重要的一个环节是求next数组。而next其实代表当前字符之前的字符串中，有多大长度的相同前缀后缀。我们只有能够拿到字符串s的next数组，就能够轻易得到该题的答案了
+// ### 解题思路
+// KMP算法中最重要的一个环节是求next数组。而next其实代表当前字符之前的字符串中，有多大长度的相同前缀后缀。我们只有能够拿到字符串s的next数组，就能够轻易得到该题的答案了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPrefix(string s) {
@@ -25,4 +25,4 @@ public:
         return s.substr(0,next[n]);      
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-感谢官方题解 回溯算法
+# ### 解题思路
+# 感谢官方题解 回溯算法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def restoreIpAddresses(self, s):
         self.ans = []
@@ -43,4 +43,4 @@ class Solution(object):
 
 
 
-```
+# ```

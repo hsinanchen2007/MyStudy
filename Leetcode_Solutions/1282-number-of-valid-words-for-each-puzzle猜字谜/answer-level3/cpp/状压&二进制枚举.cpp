@@ -1,5 +1,5 @@
-并没有想到原地枚举子集，写一个蠢蠢的二进制枚举，复杂度主要在STL上了QAQ
-```c++
+// 并没有想到原地枚举子集，写一个蠢蠢的二进制枚举，复杂度主要在STL上了QAQ
+// ```c++
 class Solution {
 public:
   vector<int> findNumOfValidWords(vector<string>& words, vector<string>& puzzles) {
@@ -34,4 +34,4 @@ public:
     return ret;
   }
 };
-```
+// ```

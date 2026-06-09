@@ -1,5 +1,5 @@
 
-```
+// ```
 var removeNthFromEnd = function(head, n) {
     var c = head, l = 0;
     while (c) { // 计算链表length
@@ -10,4 +10,4 @@ var removeNthFromEnd = function(head, n) {
     eval(`head${'["next"]'.repeat(l - n)}=head${'["next"]'.repeat(l - n + 1)}`)
     return head;
 };
-```
+// ```

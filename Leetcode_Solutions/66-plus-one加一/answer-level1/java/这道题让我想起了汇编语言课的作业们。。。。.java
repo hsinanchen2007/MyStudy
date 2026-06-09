@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] plusOne(int[] digits) {
         //int[] res = new int [digits.length];
@@ -38,5 +38,5 @@ class Solution {
             }
     }
 }
-```
-哈哈显然不是最好的答案啦，但是我选择发一个po纪念我以为学了毫无用处的x86 assembly language。。。感觉就是在玩弄register，当时32位的数字相加也差不多是这种感觉。果然学校安排的课还是要好好学的hhh。。。。
+// ```
+// 哈哈显然不是最好的答案啦，但是我选择发一个po纪念我以为学了毫无用处的x86 assembly language。。。感觉就是在玩弄register，当时32位的数字相加也差不多是这种感觉。果然学校安排的课还是要好好学的hhh。。。。

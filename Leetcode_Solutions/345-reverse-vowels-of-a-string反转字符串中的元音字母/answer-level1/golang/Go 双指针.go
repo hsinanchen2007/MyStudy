@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //Go语言的单引号一般用来表示rune literal
 func reverseVowels(s string) string {
     m := map[byte]bool{
@@ -40,4 +40,4 @@ func reverseVowels(s string) string {
     }
     return string(res)
 }
-```
+// ```

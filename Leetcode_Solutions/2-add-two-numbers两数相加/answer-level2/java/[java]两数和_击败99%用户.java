@@ -1,11 +1,11 @@
-### 解题思路
-see more in the video;
-![两数之和.jpg](https://pic.leetcode-cn.com/d50bb97c88bbd5ea2a5cb1249b6e6b14b77ac3b3f8696ea016e1a9c92ac3c6c5-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.jpg)
-![...ecode_2_improved.mp4](5f1a8baa-bb83-456d-bf39-769e892a69ba)
+// ### 解题思路
+// see more in the video;
+// ![两数之和.jpg](https://pic.leetcode-cn.com/d50bb97c88bbd5ea2a5cb1249b6e6b14b77ac3b3f8696ea016e1a9c92ac3c6c5-%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.jpg)
+// ![...ecode_2_improved.mp4](5f1a8baa-bb83-456d-bf39-769e892a69ba)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
  class Solution
 {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) 
@@ -123,4 +123,4 @@ see more in the video;
 		
 	}	
 }
-```
+// ```

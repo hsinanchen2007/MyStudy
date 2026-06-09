@@ -1,11 +1,11 @@
-### 解题思路
-每次将数段的最后一个数作为mid，设置left和right两个指针（指示位置的针）分别从头和尾开始移动，
-left遇到比mid大或等于的数就停下，right遇到小于mid的数就停下，期间要保证left<right,将两个位置的数的值进行交换，以保证left经过的数比mid小，right经过的数不比mid小，
-直到left和right相遇，此时右边的值都是大于等于mid的，左边的值都是小于mid的，再分别处理start到left和left+1到end这两段的数据
+// ### 解题思路
+// 每次将数段的最后一个数作为mid，设置left和right两个指针（指示位置的针）分别从头和尾开始移动，
+// left遇到比mid大或等于的数就停下，right遇到小于mid的数就停下，期间要保证left<right,将两个位置的数的值进行交换，以保证left经过的数比mid小，right经过的数不比mid小，
+// 直到left和right相遇，此时右边的值都是大于等于mid的，左边的值都是小于mid的，再分别处理start到left和left+1到end这两段的数据
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,4 +59,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     *returnSize=k;
     return ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 int maxDepth(TreeNode* root) {
@@ -14,4 +14,4 @@ if(a>=b){return a+1;}//判断左右子结点返回值的大小，取大数加一
 else{return b+1;}
 }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func numMusicPlaylists(N int, L int, K int) int {
     mod := 1000000007
     dp := make([][]int, N + 1)
@@ -25,4 +25,4 @@ func factorial(x int) int {
     }
     return ret 
 }
-```
+// ```

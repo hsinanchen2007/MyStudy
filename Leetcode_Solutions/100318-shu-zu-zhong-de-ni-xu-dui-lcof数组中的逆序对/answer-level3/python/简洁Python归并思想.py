@@ -1,9 +1,9 @@
-### 解题思路
-归并排序思想（从大到小）
+# ### 解题思路
+# 归并排序思想（从大到小）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         if not nums or len(nums) < 2:
@@ -49,4 +49,4 @@ class Solution:
         for i in range(len(helper)):
             arr[L + i] = helper[i]
         return res
-```
+# ```

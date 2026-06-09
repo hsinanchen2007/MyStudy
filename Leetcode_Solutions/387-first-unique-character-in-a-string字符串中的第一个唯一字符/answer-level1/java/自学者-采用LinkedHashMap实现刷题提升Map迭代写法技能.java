@@ -1,15 +1,15 @@
-### 解题思路
-* 利用LinkedHashMap顺序存储的功能
-* 纯属脑袋直接想出来的。
+// ### 解题思路
+// * 利用LinkedHashMap顺序存储的功能
+// * 纯属脑袋直接想出来的。
 
-### 刷题进阶
-* IDE用久了，Entry写成了EntrySet
-* map的迭代需要用entrySet()函数来实现
-* 不要直接使用Entry，要用Map.Entry来定义
+// ### 刷题进阶
+// * IDE用久了，Entry写成了EntrySet
+// * map的迭代需要用entrySet()函数来实现
+// * 不要直接使用Entry，要用Map.Entry来定义
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     static class Node {
         Integer count;
@@ -55,4 +55,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-**分为三部分**
+// **分为三部分**
 
-**1. 翻转字符数组**
-**2. 翻转每个单词**
-**3. 去除前后空格**
+// **1. 翻转字符数组**
+// **2. 翻转每个单词**
+// **3. 去除前后空格**
 
 
-```
+// ```
 class Solution {
     public String reverseWords(String s) {
         if(s == null) return null;
@@ -61,7 +61,7 @@ class Solution {
         return new String(arr_s).substring(0,i);
     }
 }
-```
+// ```
 
-时间复杂度：若数组长度为k,单词长度为N --> O(Nk) -->O(n)
-空间复杂度：需要一个长度为n的字符数组 --> O(n)
+// 时间复杂度：若数组长度为k,单词长度为N --> O(Nk) -->O(n)
+// 空间复杂度：需要一个长度为n的字符数组 --> O(n)

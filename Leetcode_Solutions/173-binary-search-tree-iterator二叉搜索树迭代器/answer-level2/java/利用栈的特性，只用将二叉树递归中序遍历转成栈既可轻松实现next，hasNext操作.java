@@ -1,4 +1,4 @@
-```
+// ```
 private Stack<TreeNode> stack;
 
     public BSTIterator(TreeNode root) {
@@ -34,5 +34,5 @@ private Stack<TreeNode> stack;
     public boolean hasNext() {
         return !stack.isEmpty();
     }
-```
+// ```
 

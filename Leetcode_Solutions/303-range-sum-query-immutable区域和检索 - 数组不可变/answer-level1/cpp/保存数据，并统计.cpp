@@ -1,4 +1,4 @@
-```
+// ```
 class NumArray {
 public:
     vector<int> data;
@@ -15,4 +15,4 @@ public:
         return sum;
     }
 };
-```
+// ```

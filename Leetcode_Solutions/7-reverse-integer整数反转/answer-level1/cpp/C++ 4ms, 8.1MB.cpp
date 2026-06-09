@@ -1,13 +1,13 @@
-### 解题思路
-跟着题目要求走就行，因为输入数据范围在int以内，因此反序后不会超过long long的范围。（如果未给定具体范围，可以使用string来完成反序）
-需要注意的是 1 << 31 的值是 - 2147483648 ，而 (1 << 31) - 1 的值是 2147483647 ，这是由计算机内部对数据的存储决定的。
+// ### 解题思路
+// 跟着题目要求走就行，因为输入数据范围在int以内，因此反序后不会超过long long的范围。（如果未给定具体范围，可以使用string来完成反序）
+// 需要注意的是 1 << 31 的值是 - 2147483648 ，而 (1 << 31) - 1 的值是 2147483647 ，这是由计算机内部对数据的存储决定的。
 
-![image.png](https://pic.leetcode-cn.com/78978c71a0dd42c4064507a6fe1e9c65a93366321ccef34f85b66c7e9d4c7d97-image.png)
+// ![image.png](https://pic.leetcode-cn.com/78978c71a0dd42c4064507a6fe1e9c65a93366321ccef34f85b66c7e9d4c7d97-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -30,4 +30,4 @@ public:
         return flag * y;
     }
 };
-```
+// ```

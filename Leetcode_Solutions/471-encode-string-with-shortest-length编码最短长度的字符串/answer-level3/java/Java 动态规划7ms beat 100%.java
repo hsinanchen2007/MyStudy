@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/2c450b000f009a96f7489e705e35bb4f93e798993e6e537988b5a02fc2318d07-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2c450b000f009a96f7489e705e35bb4f93e798993e6e537988b5a02fc2318d07-image.png)
 
-断断续续想了一天，代码有点长，为了性能，中间数组不保存字符串，保存的是切割的位置：
+// 断断续续想了一天，代码有点长，为了性能，中间数组不保存字符串，保存的是切割的位置：
 
-```java
+// ```java
 class Solution {
     public String encode(String s) {
         char[] cs=s.toCharArray();
@@ -97,5 +97,5 @@ class Solution {
         return 3;
     }
 }
-```
+// ```
 

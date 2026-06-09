@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func generateParenthesis(n int) []string {
 	if n == 0 {
 		return []string{}
@@ -29,4 +29,4 @@ func generateParenthesis(n int) []string {
 
 	return dp[n]
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int* getRow(int rowIndex, int* returnSize) {
     int* dp = (int*)malloc(sizeof(int) * (rowIndex+1));
     *returnSize = rowIndex + 1;
@@ -10,4 +10,4 @@ int* getRow(int rowIndex, int* returnSize) {
     }
     return dp;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-解法1：从后往前遍历数组，遇到0则把0后面的非0 数字向前移动，通过count值来定位后面要移动的非0数字的个数
-```
+// 解法1：从后往前遍历数组，遇到0则把0后面的非0 数字向前移动，通过count值来定位后面要移动的非0数字的个数
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -16,9 +16,9 @@ public:
         
     }
 };
-```
-解法2：快慢指针,快指针遍历数组，慢指针记录非0数字
-```
+// ```
+// 解法2：快慢指针,快指针遍历数组，慢指针记录非0数字
+// ```
 class Solution {
 public:
    void moveZeroes(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
 
 //作者：LeetCode
 //链接：https://leetcode-cn.com/problems/move-zeroes/solution/yi-dong-ling-by-leetcode/
-```
+// ```

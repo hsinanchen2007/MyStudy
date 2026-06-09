@@ -1,4 +1,4 @@
-```
+// ```
 int* luckyNumbers(int** matrix, int matrixSize, int* matrixColSize, int* returnSize)
 {
     int* ret = (int*)malloc(sizeof(int*) * matrixSize);
@@ -29,4 +29,4 @@ int* luckyNumbers(int** matrix, int matrixSize, int* matrixColSize, int* returnS
     *returnSize = index;
     return ret;
 }
-```
+// ```

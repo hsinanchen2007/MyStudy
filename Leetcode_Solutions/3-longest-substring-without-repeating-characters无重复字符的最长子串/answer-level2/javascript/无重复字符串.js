@@ -1,6 +1,6 @@
-1、暴力法
-遍历所有结果，会超时
-```javascript
+// 1、暴力法
+// 遍历所有结果，会超时
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -23,12 +23,12 @@ const allUnique = function(s,i, j) { // 利用哈希表存储字符串，有重�
     }
     return true;
 }
-```
-时间复杂度: O(n^3);
-空间复杂度: O(n)
+// ```
+// 时间复杂度: O(n^3);
+// 空间复杂度: O(n)
 
-2、滑动窗口
-```javascript
+// 2、滑动窗口
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -47,6 +47,6 @@ var lengthOfLongestSubstring = function(s) {
     }
     return ans;
 };
-```
-时间复杂度: O(n)
-空间复杂度: O(n)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(n)

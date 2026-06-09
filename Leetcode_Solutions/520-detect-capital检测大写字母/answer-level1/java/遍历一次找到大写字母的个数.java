@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/c0fc258ce89a3600bac1bf13ec4778d1343dcc65bc9cfaf8a2e6b49c28dbd553-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/c0fc258ce89a3600bac1bf13ec4778d1343dcc65bc9cfaf8a2e6b49c28dbd553-image.png)
+// ```
 class Solution {
         public boolean detectCapitalUse(String word) {
             if (word==null)
@@ -18,4 +18,4 @@ class Solution {
             else return false;
         }
     }
-```
+// ```

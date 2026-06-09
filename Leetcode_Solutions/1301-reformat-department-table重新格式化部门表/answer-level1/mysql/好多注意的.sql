@@ -1,11 +1,11 @@
-### 解题思路
-1.case ... when ... then ... **end** !!!
-2.when 注意观察是否要加' '
-3.group by分组后才能进行相加、计数等工作
+-- ### 解题思路
+-- 1.case ... when ... then ... **end** !!!
+-- 2.when 注意观察是否要加' '
+-- 3.group by分组后才能进行相加、计数等工作
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select id,
 sum(case month when 'Jan' then revenue end) as Jan_Revenue,
@@ -22,4 +22,4 @@ sum(case month when 'Nov' then revenue end) as Nov_Revenue,
 sum(case month when 'Dec' then revenue end) as Dec_Revenue
 from Department
 group by id;
-```
+-- ```

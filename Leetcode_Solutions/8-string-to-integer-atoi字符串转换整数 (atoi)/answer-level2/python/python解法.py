@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 def myAtoi(str):
     """
     :type str: str
@@ -31,7 +31,7 @@ def myAtoi(str):
     return num
 
 
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-47 ms
-, 在所有 Java 提交中击败了
-80.33%
-的用户
-内存消耗 :
-38.6 MB
-, 在所有 Java 提交中击败了
-89.26%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 47 ms
+// , 在所有 Java 提交中击败了
+// 80.33%
+// 的用户
+// 内存消耗 :
+// 38.6 MB
+// , 在所有 Java 提交中击败了
+// 89.26%
+// 的用户
+// ```
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -70,4 +70,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

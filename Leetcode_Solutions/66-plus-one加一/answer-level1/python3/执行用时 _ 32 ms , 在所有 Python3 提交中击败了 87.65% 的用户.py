@@ -1,10 +1,10 @@
-### 解题思路
-1:digits变int
-2:digits+1
-3.digits变列表
-### 代码
+# ### 解题思路
+# 1:digits变int
+# 2:digits+1
+# 3.digits变列表
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         num=''
@@ -17,4 +17,4 @@ class Solution:
             the_return.append(i)
         return the_return
         
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-设置一个队列
-维护一个辅助-单调递减队列
+// ### 解题思路
+// 设置一个队列
+// 维护一个辅助-单调递减队列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
   
     //队列值
@@ -49,4 +49,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

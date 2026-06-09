@@ -1,4 +1,4 @@
-```java
+// ```java
 public int maximumSwap(int num) {
     char[] ch = String.valueOf(num).toCharArray();
     boolean isSwap = false;
@@ -21,5 +21,5 @@ public int maximumSwap(int num) {
     }
     return Integer.parseInt(new String(ch));
 }
-```
+// ```
 

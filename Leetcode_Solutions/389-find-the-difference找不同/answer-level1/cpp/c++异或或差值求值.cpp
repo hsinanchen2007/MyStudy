@@ -1,5 +1,5 @@
 
-```
+// ```
 
 //得两string的总值做差即为多出来的那个值
 class Solution {
@@ -30,4 +30,4 @@ class Solution
         return (char)res; 
     } 
 };
-```
+// ```

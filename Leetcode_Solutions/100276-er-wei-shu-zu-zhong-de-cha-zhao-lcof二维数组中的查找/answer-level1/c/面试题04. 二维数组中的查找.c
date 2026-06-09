@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/f44be7315cd31602a4c623a635ba0ad3a171e0e2ea667e501d27db300a113dc5-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/f44be7315cd31602a4c623a635ba0ad3a171e0e2ea667e501d27db300a113dc5-%E6%8D%95%E8%8E%B7.PNG)
 
-从右上方的元素开始对比target和矩阵，如果相等则返回true；如果traget大，则行加1，target小则列加1
+// 从右上方的元素开始对比target和矩阵，如果相等则返回true；如果traget大，则行加1，target小则列加1
 
 bool findNumberIn2DArray(int** matrix, int matrixSize, int *matrixColSize, int target){
     int i,j;

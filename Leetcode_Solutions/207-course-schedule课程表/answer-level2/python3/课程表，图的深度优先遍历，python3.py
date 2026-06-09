@@ -1,14 +1,14 @@
-### 解题思路
-用son记录每个节点的孩子节点
-用flag数组记录每个节点的访问状态
-如果第i个节点访问过程中没有出现环，使flag[i] = -1
-当前遍历过程中的每个节点都标记的flag标为1
-如果遍历到flag为-1的节点直接返回true，遍历到1说明存在环，返回False
-递归调用
+# ### 解题思路
+# 用son记录每个节点的孩子节点
+# 用flag数组记录每个节点的访问状态
+# 如果第i个节点访问过程中没有出现环，使flag[i] = -1
+# 当前遍历过程中的每个节点都标记的flag标为1
+# 如果遍历到flag为-1的节点直接返回true，遍历到1说明存在环，返回False
+# 递归调用
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         son = {i:[] for i in range(numCourses)}
@@ -30,4 +30,4 @@ class Solution:
         for i in range(numCourses):
             if not dfs(i, flag): return False
         return True
-```
+# ```

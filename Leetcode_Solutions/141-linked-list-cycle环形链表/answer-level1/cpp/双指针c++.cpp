@@ -1,9 +1,9 @@
-### 解题思路
-双指针，快的每次走两步，若是有环，快指针会追上慢指针
+// ### 解题思路
+// 双指针，快的每次走两步，若是有环，快指针会追上慢指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         return flag;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从末尾开始判断，如果为9，则末尾=0，上一位+1，循环判断
+// ### 解题思路
+// 从末尾开始判断，如果为9，则末尾=0，上一位+1，循环判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -28,4 +28,4 @@ return digits;
  }
     
  };
-```
+// ```

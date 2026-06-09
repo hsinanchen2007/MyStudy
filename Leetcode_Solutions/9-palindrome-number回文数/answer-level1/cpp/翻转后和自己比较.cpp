@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isPalindrome(int x) {// 反转后与原先的数比较，一样的话就是回文数
@@ -15,4 +15,4 @@ public:
         return xx == reverse;
     }
 };
-```
+// ```

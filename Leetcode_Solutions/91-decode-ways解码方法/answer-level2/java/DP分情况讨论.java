@@ -1,9 +1,9 @@
-### 解题思路
-分情况讨论
+// ### 解题思路
+// 分情况讨论
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numDecodings(String s) {
         Set<Integer> hash = new HashSet<>();
@@ -56,4 +56,4 @@ class Solution {
         return n;
     }
 }
-```
+// ```

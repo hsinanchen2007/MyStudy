@@ -1,5 +1,5 @@
-思路在代码中体现
-```java
+// 思路在代码中体现
+// ```java
 class Solution {
     public int numDistinct(String s, String t) {
         int[][] dp = new int[t.length() + 1][s.length() + 1];
@@ -29,4 +29,4 @@ class Solution {
         return dp[dp.length - 1][dp[0].length - 1];
     }
 }
-```
+// ```

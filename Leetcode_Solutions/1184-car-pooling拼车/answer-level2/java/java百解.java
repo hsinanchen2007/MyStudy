@@ -1,9 +1,9 @@
-### 解题思路
-直接创建数组缓存每个车站的人数变动，检索时判断和值是否超限即可
+// ### 解题思路
+// 直接创建数组缓存每个车站的人数变动，检索时判断和值是否超限即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         int[] nums = new int[1001];
@@ -22,4 +22,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

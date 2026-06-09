@@ -1,40 +1,40 @@
-#### 题目：
-Given two arrays of length m and n with digits 0-9 representing two numbers. Create the maximum number of length k <= m + n from digits of the two. The relative order of the digits from the same array must be preserved. Return an array of the k digits.
-***
-#### 错误解法：动态规划
-题目可以表述为从m+n个数中选k个数使组合数最大。很容易联想到01背包问题，以k的“背包容量”从数列中选数，使得组合成的数最大。  
-但实际上这个问题不具备最优子结构，和01背包问题的价值累加最大不同，01背包问题中使得前k个物品价值最大的方案，一定也使得前k-1个物品价值最大，而在保持数字原顺序组成最大数的这个标准上，小规模的问题的最优解不能作为大规模问题最优解的基础，因此这题不能用动态规划（仅个人认为，欢迎大神来讨论一下）。
+// #### 题目：
+// Given two arrays of length m and n with digits 0-9 representing two numbers. Create the maximum number of length k <= m + n from digits of the two. The relative order of the digits from the same array must be preserved. Return an array of the k digits.
+// ***
+// #### 错误解法：动态规划
+// 题目可以表述为从m+n个数中选k个数使组合数最大。很容易联想到01背包问题，以k的“背包容量”从数列中选数，使得组合成的数最大。  
+// 但实际上这个问题不具备最优子结构，和01背包问题的价值累加最大不同，01背包问题中使得前k个物品价值最大的方案，一定也使得前k-1个物品价值最大，而在保持数字原顺序组成最大数的这个标准上，小规模的问题的最优解不能作为大规模问题最优解的基础，因此这题不能用动态规划（仅个人认为，欢迎大神来讨论一下）。
 
-以下是我踩过的坑，不能ac。  
+// 以下是我踩过的坑，不能ac。  
 
-```nums1``` 长度```len1```，```nums2```长度```len2```，```len=len1+len2```  
+// ```nums1``` 长度```len1```，```nums2```长度```len2```，```len=len1+len2```  
 用一个结构体来表示选数方案：
-```cpp
-struct selection{
-        vector<int> n1, n2;
-    };
-```
+// ```cpp
+// struct selection{
+//         vector<int> n1, n2;
+//     };
+// ```
 - 选择状态  
-```selection dp[i][x],0<=i<=len,0<=x<=k``` 表示从```nums```的前i个数(0~i-1)中取x个数的方案，使这x个数按规则```create()```生成的数最大。
-- 状态转移方程  
-    - 如果选nums[i-1]，临时方案temp1
-        - 0<=i-1<len1  
-        临时方案为:  
-        ```temp1 = dp[i-1][x-1]```  
-        ```temp1.n1.emplace_back(nums[i-1])```
-        - len1<=i<len
-        临时方案为:  
-        ```temp1 = dp[i-1][x-1]```  
-        ```temp1.n2.emplace_back(nums[i-1])```
-    - 如果不选nums[i]，临时方案temp2  
-    ```temp2 = dp[i-1][x]```
+// ```selection dp[i][x],0<=i<=len,0<=x<=k``` 表示从```nums```的前i个数(0~i-1)中取x个数的方案，使这x个数按规则```create()```生成的数最大。
+// - 状态转移方程  
+//     - 如果选nums[i-1]，临时方案temp1
+//         - 0<=i-1<len1  
+//         临时方案为:  
+//         ```temp1 = dp[i-1][x-1]```  
+//         ```temp1.n1.emplace_back(nums[i-1])```
+//         - len1<=i<len
+//         临时方案为:  
+//         ```temp1 = dp[i-1][x-1]```  
+//         ```temp1.n2.emplace_back(nums[i-1])```
+//     - 如果不选nums[i]，临时方案temp2  
+//     ```temp2 = dp[i-1][x]```
 
-```dp[i][x] = judge(temp1, temp2) ? temp1 : temp2;```
-- 边界  
-保证```i,x>=1```，需要初始化第0行，第0列为空方案  
-- 处理顺序  
-涉及左上方、上方，处理顺序为从上到下，从左到右。
-```cpp
+// ```dp[i][x] = judge(temp1, temp2) ? temp1 : temp2;```
+// - 边界  
+// 保证```i,x>=1```，需要初始化第0行，第0列为空方案  
+// - 处理顺序  
+// 涉及左上方、上方，处理顺序为从上到下，从左到右。
+// ```cpp
 class Solution {
 public:
     struct selection{
@@ -103,12 +103,12 @@ public:
         return;
     }
 };
-```
-#### 正确解法：选数是有策略的
-组成最大数的方案，其各自在nums1和nums2中也一定是同等条件下的最大数。  
-列举nums1，2各取几个数。  
-ac代码：
-```cpp
+// ```
+// #### 正确解法：选数是有策略的
+// 组成最大数的方案，其各自在nums1和nums2中也一定是同等条件下的最大数。  
+// 列举nums1，2各取几个数。  
+// ac代码：
+// ```cpp
 class Solution {
 public:
     vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
@@ -174,4 +174,4 @@ public:
         }
     }
 };
-```
+// ```

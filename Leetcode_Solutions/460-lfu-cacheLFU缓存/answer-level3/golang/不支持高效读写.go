@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type LFUCache struct {
 key,val,freq int
 }
@@ -119,4 +119,4 @@ func (this *LFUCache) Put(key int, value int)  {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

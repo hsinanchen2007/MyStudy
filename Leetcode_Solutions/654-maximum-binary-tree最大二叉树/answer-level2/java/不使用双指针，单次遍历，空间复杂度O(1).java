@@ -1,7 +1,7 @@
-模仿谬先生的题解，使用Java。
-在数组为有序（从大到小）的情况下，时间复杂度为O(n2)。
+// 模仿谬先生的题解，使用Java。
+// 在数组为有序（从大到小）的情况下，时间复杂度为O(n2)。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
         return curMax;
     }
 }
-```
+// ```

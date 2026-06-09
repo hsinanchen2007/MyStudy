@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1. path-value使用map[string]path 存储
+// 1. path-value使用map[string]path 存储
 
-2. 对于 父路径的判断 采用strings.Split(path,"/")得到一个[]string切片
+// 2. 对于 父路径的判断 采用strings.Split(path,"/")得到一个[]string切片
 
-3. 然后for遍历 判断各个父路径是否存在
+// 3. 然后for遍历 判断各个父路径是否存在
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type FileSystem struct {
     m map[string]int
 }
@@ -72,4 +72,4 @@ func (this *FileSystem) Get(path string) int {
  * param_1 := obj.CreatePath(path,value);
  * param_2 := obj.Get(path);
  */
-```
+// ```

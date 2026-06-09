@@ -1,13 +1,13 @@
-数组大小为3 * stackSize
-维护一个size数组，记录三个栈的大小
-维护一个栈顶指针数组，记录三个栈的栈顶位置
+// 数组大小为3 * stackSize
+// 维护一个size数组，记录三个栈的大小
+// 维护一个栈顶指针数组，记录三个栈的栈顶位置
 
-初始化时，另栈顶都指向数组中该栈所占区域的最右端
-push时，先入栈，栈顶指针左移一位，size加一个
-pop时，由于栈顶指针指向栈顶元素左边一位，所以出站时要取topIndex+1位置的元素
-push和pop都要注意先检查size。
-peek和isEmpty很简单，就不说了
-```
+// 初始化时，另栈顶都指向数组中该栈所占区域的最右端
+// push时，先入栈，栈顶指针左移一位，size加一个
+// pop时，由于栈顶指针指向栈顶元素左边一位，所以出站时要取topIndex+1位置的元素
+// push和pop都要注意先检查size。
+// peek和isEmpty很简单，就不说了
+// ```
 class TripleInOne {
 	private int[] stack;
 	private int[] size;
@@ -53,4 +53,4 @@ class TripleInOne {
 		return size[stackNum] == 0;
 	}
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-start:=0
-	end:= len(nums)-1
-	mid:=(start+end)/2
+// ### 解题思路
+// 此处撰写解题思路
+// start:=0
+// 	end:= len(nums)-1
+// 	mid:=(start+end)/2
 
-start=mid+1
+// start=mid+1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
 	start:=0
 	end:= len(nums)-1
@@ -29,4 +29,4 @@ func search(nums []int, target int) int {
 	return -1
 }
 
-```
+// ```

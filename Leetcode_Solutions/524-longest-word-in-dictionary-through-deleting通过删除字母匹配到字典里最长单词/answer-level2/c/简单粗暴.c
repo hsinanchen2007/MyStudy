@@ -1,9 +1,9 @@
-### 解题思路
-快乐小白  注意 不是字典序号的大小 相同长度字典顺序最小是 按asc表字母对于的值的大小
+// ### 解题思路
+// 快乐小白  注意 不是字典序号的大小 相同长度字典顺序最小是 按asc表字母对于的值的大小
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * findLongestWord(char * s, char ** d, int dSize){
     int j,k,jilu=-1;
     int len,len1=strlen(s),len2=0;
@@ -44,4 +44,4 @@ char * findLongestWord(char * s, char ** d, int dSize){
     return "";
     return d[jilu];
 }
-```
+// ```

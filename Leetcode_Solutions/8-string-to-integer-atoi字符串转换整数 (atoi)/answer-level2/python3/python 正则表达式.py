@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def myAtoi(self, s: str) -> int:
         return max(min(int(*re.findall('^[\+\-]?\d+', s.lstrip())), 2**31 - 1), -2**31)
@@ -14,7 +14,7 @@ class Solution:
 # +：前面一个字符的一个或多个
 # \D：一个非数字字符
 # *：前面一个字符的0个或多个
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

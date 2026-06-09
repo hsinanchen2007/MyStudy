@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-要理解dp的思想，i 的问题基于 i-1 的问题
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 要理解dp的思想，i 的问题基于 i-1 的问题
+// ### 代码
 
-```c
+// ```c
 int massage(int* nums, int numsSize){
     if (numsSize == 0) {
         return 0;
@@ -22,4 +22,4 @@ int massage(int* nums, int numsSize){
 
     return dp0 > dp1 ? dp0 : dp1;
 }
-```
+// ```

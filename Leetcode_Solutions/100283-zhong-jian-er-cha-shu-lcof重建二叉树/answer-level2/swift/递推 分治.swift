@@ -1,4 +1,4 @@
-``` swift
+// ``` swift
 
 public class TreeNode {
     public var val: Int
@@ -52,4 +52,4 @@ class Solution {
 let s = Solution()
 s.buildTree([3,9,20,15,7], [9,3,15,20,7])
 
-```
+// ```

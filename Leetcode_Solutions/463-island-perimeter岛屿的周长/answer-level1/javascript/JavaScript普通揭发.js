@@ -1,7 +1,7 @@
-解法一：
-    核心思想： 查看每一个为1的格子的上下左右四个面， 如果遭遇边界或者遭遇为0的格子，则周长加一
+// 解法一：
+//     核心思想： 查看每一个为1的格子的上下左右四个面， 如果遭遇边界或者遭遇为0的格子，则周长加一
 
-```javascript
+// ```javascript
 var islandPerimeter = function(grid) {
     let row = grid.length;
     let col = grid[0].length;
@@ -29,4 +29,4 @@ var islandPerimeter = function(grid) {
     }
     return len;
 };
-```
+// ```

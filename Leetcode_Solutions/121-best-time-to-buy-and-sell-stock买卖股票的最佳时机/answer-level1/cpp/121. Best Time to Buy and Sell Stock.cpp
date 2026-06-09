@@ -1,11 +1,11 @@
-### 解题思路
-又是一维动态规划体型，感觉不太好确立状态表达式：
-dp[i]: 前面i天能够获取的最大利润
-dp[i] = max(dp[i-1],prices[i] - min) 
+// ### 解题思路
+// 又是一维动态规划体型，感觉不太好确立状态表达式：
+// dp[i]: 前面i天能够获取的最大利润
+// dp[i] = max(dp[i-1],prices[i] - min) 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //dp[i]: 在第i天卖出能获取到的最大利润???
@@ -30,6 +30,6 @@ public:
         return dp[prices.size()-1];
     }
 };
-```
-参考：
-https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/gu-piao-wen-ti-python3-c-by-z1m/
+// ```
+// 参考：
+// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/gu-piao-wen-ti-python3-c-by-z1m/

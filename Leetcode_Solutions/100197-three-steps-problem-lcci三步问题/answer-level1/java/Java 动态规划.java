@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int waysToStep(int n) {
         if(n==0)return 0;
@@ -14,4 +14,4 @@ class Solution {
     	return (int)dp[n];
     }
 }
-```
+// ```

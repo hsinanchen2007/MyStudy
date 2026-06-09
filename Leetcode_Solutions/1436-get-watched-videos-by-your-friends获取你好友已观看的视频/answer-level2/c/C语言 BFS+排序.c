@@ -1,5 +1,5 @@
-![竞赛.png](https://pic.leetcode-cn.com/62235da458b05a8fc6318847667a7c64bd8ce1ebfa4e875904790e514cdd7b8a-%E7%AB%9E%E8%B5%9B.png)
-主要是将题目意图看清楚，朋友的朋友不能包含level前面的朋友，不理解该语句的直接看代码。
+// ![竞赛.png](https://pic.leetcode-cn.com/62235da458b05a8fc6318847667a7c64bd8ce1ebfa4e875904790e514cdd7b8a-%E7%AB%9E%E8%B5%9B.png)
+// 主要是将题目意图看清楚，朋友的朋友不能包含level前面的朋友，不理解该语句的直接看代码。
 typedef struct tagRecord {
     int num;
     char* tmp;

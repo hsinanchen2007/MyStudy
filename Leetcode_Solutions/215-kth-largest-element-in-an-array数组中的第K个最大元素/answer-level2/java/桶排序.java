@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
         class Solution {
             public int findKthLargest(int[] nums, int k) {
                   int min = Integer.MAX_VALUE;
@@ -32,7 +32,7 @@
             return min + index;
             }
         }
-```
-建桶，逐个放入，从最大桶找起，找到第K个出来
-Space O(N)
-Time O(N)
+// ```
+// 建桶，逐个放入，从最大桶找起，找到第K个出来
+// Space O(N)
+// Time O(N)

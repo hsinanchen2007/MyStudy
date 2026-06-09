@@ -1,10 +1,10 @@
-### 解题思路
-首先，使用快排进行排序 时间复杂度 O(nlogn)
-一次遍历，O(n)
+// ### 解题思路
+// 首先，使用快排进行排序 时间复杂度 O(nlogn)
+// 一次遍历，O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         if (A.length == 0) {
@@ -80,4 +80,4 @@ class Solution {
     }
 
 }
-```
+// ```

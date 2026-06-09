@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-思路清晰，叫我第一☝️（dfs专练）
+// 思路清晰，叫我第一☝️（dfs专练）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -37,4 +37,4 @@ function canMove(i,j,k){
     if((Number(vali) + Number(valj)) <= k) return true
     return false
 }
-```
+// ```

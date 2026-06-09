@@ -1,33 +1,33 @@
-## 10-I.斐波那契数列
+// ## 10-I.斐波那契数列
 
-### Information
+// ### Information
 
-* TIME: 2020/02/27
-* LINK: [Click Here](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
-* TAG: `dp`
+// * TIME: 2020/02/27
+// * LINK: [Click Here](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
+// * TAG: `dp`
 
-### Description
+// ### Description
 
-> 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项。斐波那契数列的定义如下：
->
-> F(0) = 0,   F(1) = 1
-> F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
-> 斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。
->
-> 答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1
+// > 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项。斐波那契数列的定义如下：
+// >
+// > F(0) = 0,   F(1) = 1
+// > F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
+// > 斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。
+// >
+// > 答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入：n = 2
 输出：1
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> Input my Idea
+// > Input my Idea
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         if(n == 0 || n == 1){
@@ -46,23 +46,23 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/46bdacca8acf841ea712a0d92d0f7d3a9e11f5e1d08ad653c9c2fc0ffcef479b-file_1582780201264)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/46bdacca8acf841ea712a0d92d0f7d3a9e11f5e1d08ad653c9c2fc0ffcef479b-file_1582780201264)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

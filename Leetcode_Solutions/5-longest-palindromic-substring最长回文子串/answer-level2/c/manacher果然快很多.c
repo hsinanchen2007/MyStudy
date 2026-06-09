@@ -1,9 +1,9 @@
-### 解题思路
-理解manacher的原理
+// ### 解题思路
+// 理解manacher的原理
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //manacher in c
 char * longestPalindrome(char * s){
     int len;
@@ -82,4 +82,4 @@ char * longestPalindrome(char * s){
 }
 
 
-```
+// ```

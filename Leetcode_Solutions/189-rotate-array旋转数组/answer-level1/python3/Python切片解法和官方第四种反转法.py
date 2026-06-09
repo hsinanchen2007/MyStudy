@@ -1,5 +1,5 @@
-1. 切片解法
-```
+# 1. 切片解法
+# ```
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -7,10 +7,10 @@ class Solution:
         """
         n = len(nums)
         nums[:] = nums[n-k:] + nums[:n-k]
-```
+# ```
 
-2. 官方第四种反转法
-```
+# 2. 官方第四种反转法
+# ```
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -26,4 +26,4 @@ class Solution:
             nums[start], nums[end] = nums[end], nums[start]
             start += 1
             end -= 1
-```
+# ```

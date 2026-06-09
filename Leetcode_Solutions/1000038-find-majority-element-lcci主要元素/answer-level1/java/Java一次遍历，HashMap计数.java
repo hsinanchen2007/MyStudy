@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int majorityElement(int[] nums) {
         Map<Integer,Integer> map=new HashMap<>();
@@ -11,4 +11,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-这是我目前写过最长的方案（希望你有心理准备，写的不是很好，直接看代码更好，注释的部分也是可以运行的。。。。。。。）
+# 这是我目前写过最长的方案（希望你有心理准备，写的不是很好，直接看代码更好，注释的部分也是可以运行的。。。。。。。）
 
-intervals和newInterval是排序好的list，如果intervals为空，return intervals+[newInterval]
+# intervals和newInterval是排序好的list，如果intervals为空，return intervals+[newInterval]
 
-intervals不为空，利用双指针去寻找newInterval两个元素在intervals中的的区间位置（就是寻找他们是否在interval中某一完整的区间内，并记录位置，找不到就为-1）
+# intervals不为空，利用双指针去寻找newInterval两个元素在intervals中的的区间位置（就是寻找他们是否在interval中某一完整的区间内，并记录位置，找不到就为-1）
 
 if temp1==-1 and temp2==-1:
 

@@ -1,5 +1,5 @@
-# 普通版
-```c
+// # 普通版
+// ```c
 #define SIZE 20005
 char cash[SIZE];
 
@@ -31,10 +31,10 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     return strlen(cash);
 }
 
-```
+// ```
 
-# 优化加速版
-```c
+// # 优化加速版
+// ```c
 #define SIZE 20005
 char cash[SIZE];
 
@@ -75,4 +75,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     return ret;
 }
 
-```
+// ```

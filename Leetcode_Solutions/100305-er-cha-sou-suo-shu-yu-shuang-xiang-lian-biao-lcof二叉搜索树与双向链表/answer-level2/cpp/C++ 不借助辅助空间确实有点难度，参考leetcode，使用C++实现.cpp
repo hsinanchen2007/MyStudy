@@ -1,5 +1,5 @@
-难点在于如何保存当前节点的前一个节点，这里使用二级指针pLast实现
-```
+// 难点在于如何保存当前节点的前一个节点，这里使用二级指针pLast实现
+// ```
 /*
 // Definition for a Node.
 class Node {
@@ -58,4 +58,4 @@ public:
             helper(pCurrent->right, pLast);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-转字符串
+// ### 解题思路
+// 转字符串
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,4 +17,4 @@ var findNumbers = function (nums) {
     }
     return count
 };
-```
+// ```

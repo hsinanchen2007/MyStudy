@@ -1,14 +1,14 @@
-### 解题思路
-此题同题 [面试题40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
-[215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+# ### 解题思路
+# 此题同题 [面试题40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+# [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 
-可以进一步看题解 [gelthin-快排-partition-这题需要反复做](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/solution/gelthin-kuai-pai-partition-by-gelthin/)
+# 可以进一步看题解 [gelthin-快排-partition-这题需要反复做](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/solution/gelthin-kuai-pai-partition-by-gelthin/)
 
-这里分析了最坏情况的时间复杂度 O(k*n), 当所有元素的值都相同时，每次 partition 只能排除一个元素。
+# 这里分析了最坏情况的时间复杂度 O(k*n), 当所有元素的值都相同时，每次 partition 只能排除一个元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def partition(self, arr, left, right):
@@ -39,4 +39,4 @@ class Solution:
             else:
                 left = ind + 1
         return arr[:k]
-```
+# ```

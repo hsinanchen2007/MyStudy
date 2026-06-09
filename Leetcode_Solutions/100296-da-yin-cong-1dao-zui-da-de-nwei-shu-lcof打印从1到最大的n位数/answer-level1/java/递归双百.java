@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] printNumbers(int n) {
         int max = getMax(n);
@@ -11,4 +11,4 @@ class Solution {
         return 10*getMax(n-1)+9;
     }
 }
-```
+// ```

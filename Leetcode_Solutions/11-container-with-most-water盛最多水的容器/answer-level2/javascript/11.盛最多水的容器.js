@@ -1,9 +1,9 @@
-### 解题思路
-遍历，如果比当前值大，即更新最大值
+// ### 解题思路
+// 遍历，如果比当前值大，即更新最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -20,4 +20,4 @@ var maxArea = function(height) {
     }
     return curMaxArea;
 };
-```
+// ```

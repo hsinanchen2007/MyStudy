@@ -1,5 +1,5 @@
-主要依据 “Zhen Song” 和 “Inzone” 两位的代码，加了一些详细的解释。
-```
+# 主要依据 “Zhen Song” 和 “Inzone” 两位的代码，加了一些详细的解释。
+# ```
 class Solution(object):
     def removeKdigits(self, num, k):
         """
@@ -30,4 +30,4 @@ class Solution(object):
         
         if len(Stack)==0: return '0' #k太大了，全部pop完了，所以就是0
         else: return "".join(Stack)
-```
+# ```

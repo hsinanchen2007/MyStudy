@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/43d4a0c03be9992d705885de0d41627703fad1518653333beb64a0f9087fdfc1-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/43d4a0c03be9992d705885de0d41627703fad1518653333beb64a0f9087fdfc1-image.png)
+// ```
 class Solution {
 public:
     int numDecodings(string s) {
@@ -43,4 +43,4 @@ public:
         return front;
     }
 };
-```
+// ```

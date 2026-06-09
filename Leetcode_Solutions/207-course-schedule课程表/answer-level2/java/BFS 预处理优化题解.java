@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         // 预处理
@@ -34,4 +34,4 @@ class Solution {
         return numCourses == 0;
     }
 }
-```
+// ```

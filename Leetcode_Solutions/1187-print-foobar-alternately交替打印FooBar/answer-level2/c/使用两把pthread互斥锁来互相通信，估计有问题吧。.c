@@ -1,6 +1,6 @@
-创建两把互斥锁，两个线程互相加锁和解锁。
+// 创建两把互斥锁，两个线程互相加锁和解锁。
 
-```
+// ```
 
 typedef struct {
     int n;
@@ -46,4 +46,4 @@ void fooBarFree(FooBar* obj) {
         obj = NULL;
     }
 }
-```
+// ```

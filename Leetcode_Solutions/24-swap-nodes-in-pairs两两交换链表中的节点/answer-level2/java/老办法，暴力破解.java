@@ -1,8 +1,8 @@
-先把值加入链表、重新构建
+// 先把值加入链表、重新构建
 
-![image.png](https://pic.leetcode-cn.com/d4d97b03aa4fd23e8caa182f7d2350629b9394e6bf0ac136c04954e53583d509-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d4d97b03aa4fd23e8caa182f7d2350629b9394e6bf0ac136c04954e53583d509-image.png)
 
-```
+// ```
 class Solution {
     public ListNode swapPairs(ListNode head) {
         if(head == null)return null;
@@ -29,4 +29,4 @@ class Solution {
         return q;
     }
 }
-```
+// ```

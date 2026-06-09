@@ -1,9 +1,9 @@
-### 解题思路
-给一个自己写的贪心算法的思路，每移动一个字符都找到最大长度
+// ### 解题思路
+// 给一个自己写的贪心算法的思路，每移动一个字符都找到最大长度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    	public int lengthOfLongestSubstring(String s) { 
         if (s == null || s.length() == 0) {
@@ -25,4 +25,4 @@ class Solution {
     }
 
 }
-```
+// ```

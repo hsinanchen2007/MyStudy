@@ -1,9 +1,9 @@
-### 解题思路
-这道题主要考察构造矩阵知识
+# ### 解题思路
+# 这道题主要考察构造矩阵知识
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:
         if len(A) == 0 or len(A[0]) == 0:
@@ -16,4 +16,4 @@ class Solution:
                     count += 1
                     break
         return count
-```
+# ```

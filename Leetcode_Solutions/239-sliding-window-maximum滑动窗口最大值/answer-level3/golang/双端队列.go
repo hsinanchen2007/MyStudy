@@ -1,5 +1,5 @@
 
-```
+// ```
 func maxSlidingWindow(nums []int, k int) []int {
     if nums == nil || len(nums) == 0 || k <= 0 {
         return nil
@@ -27,4 +27,4 @@ func maxSlidingWindow(nums []int, k int) []int {
     }
     return res
 }
-```
+// ```

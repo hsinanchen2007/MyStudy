@@ -1,9 +1,9 @@
-### 解题思路
-观察题目，我们知道这是左右子树交换。
+// ### 解题思路
+// 观察题目，我们知道这是左右子树交换。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return $root;
     }
 }
-```
+// ```

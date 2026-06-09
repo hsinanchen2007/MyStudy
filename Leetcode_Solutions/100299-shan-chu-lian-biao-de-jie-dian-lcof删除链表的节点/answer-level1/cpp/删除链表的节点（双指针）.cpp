@@ -1,10 +1,10 @@
-### 解题思路
-日常参考 @Krahets 思路。
-双指针，一个指上一个节点，一个指向当前节点。C++实现一哈。
+// ### 解题思路
+// 日常参考 @Krahets 思路。
+// 双指针，一个指上一个节点，一个指向当前节点。C++实现一哈。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         return head;
     }
 };
-```
+// ```

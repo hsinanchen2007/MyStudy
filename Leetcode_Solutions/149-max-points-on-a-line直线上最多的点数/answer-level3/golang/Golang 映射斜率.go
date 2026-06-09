@@ -1,4 +1,4 @@
-```
+// ```
 type Slope struct{
     x, y int
 }
@@ -42,5 +42,5 @@ func maxPoints(points [][]int) int {
     }
     return ans 
 }
-```
-练习Golang，随便找到Hard试试手，结果是个傻逼题，两分钟A了。
+// ```
+// 练习Golang，随便找到Hard试试手，结果是个傻逼题，两分钟A了。

@@ -1,11 +1,11 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
 
 
-## 解法一 - 暴力法
-找最小的 K 个数就是寻找数组中的有序性，因此我们可以将数组先排序然后再输出。
+// ## 解法一 - 暴力法
+// 找最小的 K 个数就是寻找数组中的有序性，因此我们可以将数组先排序然后再输出。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -21,19 +21,19 @@ var getLeastNumbers = function(arr, k) {
 
     return ans;
 };
-```
-**复杂度分析**:
-- 时间复杂度：$O(NlogN)$
-- 空间复杂度：看库函数实际实现
+// ```
+// **复杂度分析**:
+// - 时间复杂度：$O(NlogN)$
+// - 空间复杂度：看库函数实际实现
 
-## 解法二 - 堆
-1. 先将数组前 k 个数建立大顶堆
-2. 从第 k+1 个元素开始遍历，设为 elem
-   - 如果 elem 大于等于堆顶元素，跳过该元素
-   - 否则，抛出堆顶元素，然后将 elem 加入到堆中
-3. 遍历结束后，大顶堆中的所有元素即是答案
+// ## 解法二 - 堆
+// 1. 先将数组前 k 个数建立大顶堆
+// 2. 从第 k+1 个元素开始遍历，设为 elem
+//    - 如果 elem 大于等于堆顶元素，跳过该元素
+//    - 否则，抛出堆顶元素，然后将 elem 加入到堆中
+// 3. 遍历结束后，大顶堆中的所有元素即是答案
 
-```python
+// ```python
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         # heapq 内部实现是最小堆，因此我们将数组乘以-1，由最小 k 个变成求最大 k 个
@@ -47,14 +47,14 @@ class Solution:
                 heapq.heappush(heap, -arr[i])
         
         return [-heap[i] for i in range(k)]
-```
+// ```
 
-## 解法三 - 快速选择
-使用 hoare quick select 算法，在实际中性能非常好。使用 quick select 算法获得第 k+1 小元素的位置，该位置的右边就是答案。
+// ## 解法三 - 快速选择
+// 使用 hoare quick select 算法，在实际中性能非常好。使用 quick select 算法获得第 k+1 小元素的位置，该位置的右边就是答案。
 
-partition 子过程：
-1. lomuto partition
-```javascript
+// partition 子过程：
+// 1. lomuto partition
+// ```javascript
 function randomRange(min, max) {
     return Math.floor(Math.random()*(max-min)) + min;
 }
@@ -74,9 +74,9 @@ function partition(arr, lo, hi) {
     [arr[i], arr[hi]] = [arr[hi], arr[i]];
     return i;
 }
-```
+// ```
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -114,10 +114,10 @@ var getLeastNumbers = function(arr, k) {
     }
 };
 
-```
+// ```
 
-这里的 lomuto partition 可以换成 hoare partition，性能更好：
-```javascript
+// 这里的 lomuto partition 可以换成 hoare partition，性能更好：
+// ```javascript
     function partition(arr, lo, hi) {
         randomPos = randomRange(lo, hi+1);
         pivot = arr[randomPos];
@@ -138,7 +138,7 @@ var getLeastNumbers = function(arr, k) {
         [arr[lo], arr[j]] = [arr[j], arr[lo]];
         return j;
     }
-```
-**复杂度分析**:
-- 时间复杂度：最好情况为 $O(N)$，最坏情况为 $O(N^2)$
-- 空间复杂度：最好是 $O(logN)$，最坏是 $O(N)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度：最好情况为 $O(N)$，最坏情况为 $O(N^2)$
+// - 空间复杂度：最好是 $O(logN)$，最坏是 $O(N)$

@@ -1,8 +1,8 @@
-### 解题思路
-我来写个最简洁的版本。
-### 代码
+// ### 解题思路
+// 我来写个最简洁的版本。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMatch(String str, String pattern) {
         char[] s = str.toCharArray();
@@ -31,4 +31,4 @@ class Solution {
         return (a == b || b == '.');
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用map计数
+// ### 解题思路
+// 使用map计数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     md := make(map[int]int)
     for _, v := range nums {
@@ -17,4 +17,4 @@ func findRepeatNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

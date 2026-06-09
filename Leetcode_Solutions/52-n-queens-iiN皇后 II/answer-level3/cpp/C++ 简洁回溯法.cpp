@@ -1,6 +1,6 @@
-回溯算法最经典的问题之一
-思路简单，代码如下：
-```
+// 回溯算法最经典的问题之一
+// 思路简单，代码如下：
+// ```
 class Solution {
 public:
     bool valid(int n, vector<int>& cols) {
@@ -34,5 +34,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/a038a5331ee35c070be0d8cc7e8d2e0d834661384c4e2bad397800d4fca82254-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a038a5331ee35c070be0d8cc7e8d2e0d834661384c4e2bad397800d4fca82254-image.png)

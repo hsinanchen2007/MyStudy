@@ -1,5 +1,5 @@
-明天好好看看
-```
+// 明天好好看看
+// ```
 var diameterOfBinaryTree = function(root) {
     // 默认为1是因为默认了根节点自身的路径长度
     let ans = 1;
@@ -36,4 +36,4 @@ var diameterOfBinaryTree = function(root) {
     return ans - 1;
 }; 
 
-```
+// ```

@@ -1,10 +1,10 @@
-三次二分法，写的比较乱，但是更容易理解：
-第一次，寻找数字位置`mid`和上一次左边的节点`preLeft`
-第二次，以`[ preLeft, mid ]`尽量往左边寻找第一个`target`
-第三次，以`[ mid, right ]`尽量向右边寻找最后一个`target`
-最后结果为二者差值并+1
+// 三次二分法，写的比较乱，但是更容易理解：
+// 第一次，寻找数字位置`mid`和上一次左边的节点`preLeft`
+// 第二次，以`[ preLeft, mid ]`尽量往左边寻找第一个`target`
+// 第三次，以`[ mid, right ]`尽量向右边寻找最后一个`target`
+// 最后结果为二者差值并+1
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -52,4 +52,4 @@ var search = function(nums, target) {
     if (nums[ rangeRight[ 0 ] ] !== target) rangeRight[ 0 ]--;
     return rangeRight[ 0 ] - rangeLeft[ 0 ] + 1;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-就当消遣一下吧！
+// 就当消遣一下吧！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         int right  = s.length-1;
@@ -16,4 +16,4 @@ class Solution {
         }
     }
 }
-```
+// ```

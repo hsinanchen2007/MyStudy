@@ -1,4 +1,4 @@
-```go
+// ```go
 func oneEditAway(first string, second string) bool {
     minDistance := minDistance(first, second)
     if minDistance > 1 {
@@ -40,4 +40,4 @@ func min(a int, b int) int {
     }
     return a
 }
-```
+// ```

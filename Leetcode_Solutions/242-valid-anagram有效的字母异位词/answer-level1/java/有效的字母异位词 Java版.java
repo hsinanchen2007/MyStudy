@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
     /*
 	 * 先将两个字符串转为字符数组
@@ -63,4 +63,4 @@ public class Solution{
 		return true;
 	}
 }
-```
+// ```

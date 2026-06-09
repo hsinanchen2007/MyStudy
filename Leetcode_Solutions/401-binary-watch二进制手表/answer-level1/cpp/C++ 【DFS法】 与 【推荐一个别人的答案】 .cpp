@@ -1,8 +1,8 @@
-**下面先介绍一个我自己的“DFS+回溯+剪枝“算法，然后再推荐一个我很喜欢的答案，希望对大家有帮助！”**
+// **下面先介绍一个我自己的“DFS+回溯+剪枝“算法，然后再推荐一个我很喜欢的答案，希望对大家有帮助！”**
 
-# DFS
+// # DFS
 
-```
+// ```
 vector<string> ans;
 vector<string> readBinaryWatch(int num) {
     DFS(num, 0, vector<int>(10));
@@ -25,9 +25,9 @@ void DFS(int num, int pos, vector<int>time) {
         time[i]--;
     }
 }
-```
+// ```
 
-# 解题推荐：
+// # 解题推荐：
 
-https://leetcode-cn.com/problems/binary-watch/solution/cjian-jian-dan-dan-de-ji-xing-dai-ma-jie-jue-wen-t
-这个哥们的算法很美妙，希望大家也喜欢。（这才是暴力美学！）
+// https://leetcode-cn.com/problems/binary-watch/solution/cjian-jian-dan-dan-de-ji-xing-dai-ma-jie-jue-wen-t
+// 这个哥们的算法很美妙，希望大家也喜欢。（这才是暴力美学！）

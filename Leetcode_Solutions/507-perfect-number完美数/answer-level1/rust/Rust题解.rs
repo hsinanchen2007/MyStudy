@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn check_perfect_number(num: i32) -> bool {
         if num <= 1 {
@@ -22,5 +22,5 @@ impl Solution {
         sum == num
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

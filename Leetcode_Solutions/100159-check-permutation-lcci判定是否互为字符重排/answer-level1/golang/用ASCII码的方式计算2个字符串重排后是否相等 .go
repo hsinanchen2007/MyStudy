@@ -1,9 +1,9 @@
-### 解题思路
-计算2个字符串的ascii码总和， 如果总和相等，字符串必定相等。
+// ### 解题思路
+// 计算2个字符串的ascii码总和， 如果总和相等，字符串必定相等。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func CheckPermutation(s1 string, s2 string) bool {
 if s1 == s2 {
 		return true
@@ -18,4 +18,4 @@ if s1 == s2 {
 	}
 	return s1AscNum == s2AscNum
 }
-```
+// ```

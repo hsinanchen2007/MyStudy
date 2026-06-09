@@ -1,11 +1,11 @@
-空间不足以装下所有的座位状态来判断，但是如果每行只是维护一个状态变量是够的。
+// 空间不足以装下所有的座位状态来判断，但是如果每行只是维护一个状态变量是够的。
 
-默认每排可以安排 2 个，维护一个状态机，当状态发生改变时调整总体的 count
+// 默认每排可以安排 2 个，维护一个状态机，当状态发生改变时调整总体的 count
 
-例如当某一排状态为 STATE_LEFT_OR_CENTER（安排左边的连坐或者中间） 时，这排可以安排一个家庭。
-此时 4 或者 5 位被占，则意味着从 1 个变成了 0 个，状态变成 STATE_ZERO，总 count - 1
+// 例如当某一排状态为 STATE_LEFT_OR_CENTER（安排左边的连坐或者中间） 时，这排可以安排一个家庭。
+// 此时 4 或者 5 位被占，则意味着从 1 个变成了 0 个，状态变成 STATE_ZERO，总 count - 1
 
-```js
+// ```js
 /**
  * @param {number} n
  * @param {number[][]} reservedSeats
@@ -87,4 +87,4 @@ var maxNumberOfFamilies = function(n, reservedSeats) {
     
     return count;
 };
-```
+// ```

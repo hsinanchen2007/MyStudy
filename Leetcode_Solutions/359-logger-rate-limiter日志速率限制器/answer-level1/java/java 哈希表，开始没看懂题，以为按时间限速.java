@@ -1,4 +1,4 @@
-```java
+// ```java
 class Logger {
 
     private final Map<String, Integer> map = new HashMap<>();
@@ -18,4 +18,4 @@ class Logger {
         return print;
     }
 }
-```
+// ```

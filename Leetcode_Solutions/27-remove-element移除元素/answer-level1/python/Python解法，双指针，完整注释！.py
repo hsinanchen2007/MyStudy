@@ -1,9 +1,9 @@
-### 解题思路
-左右下标移动，原地交换值，空间复杂度O(1)，时间复杂度O(n)。
+# ### 解题思路
+# 左右下标移动，原地交换值，空间复杂度O(1)，时间复杂度O(n)。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -35,4 +35,4 @@ class Solution(object):
                 new_len -= 1
 
         return new_len
-```
+# ```

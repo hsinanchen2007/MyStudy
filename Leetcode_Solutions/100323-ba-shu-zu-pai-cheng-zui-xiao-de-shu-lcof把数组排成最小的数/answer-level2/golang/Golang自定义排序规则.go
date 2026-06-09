@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
 	"sort"
 	"strconv"
@@ -37,4 +37,4 @@ func minNumber(nums []int) string {
 	}
 	return res
 }
-```
+// ```

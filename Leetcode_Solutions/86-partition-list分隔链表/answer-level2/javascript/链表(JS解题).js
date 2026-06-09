@@ -1,10 +1,10 @@
-### Analyze
+// ### Analyze
 
-思路: 遍历访问链表 head, 将链表中小于 x 与大于等于 x 的值作拆分成两个链表, 最后再将它们给链接起来。
+// 思路: 遍历访问链表 head, 将链表中小于 x 与大于等于 x 的值作拆分成两个链表, 最后再将它们给链接起来。
 
-* 易漏点: 大于等于 x 的链表的末尾的 next 应该指向 null。
+// * 易漏点: 大于等于 x 的链表的末尾的 next 应该指向 null。
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -44,6 +44,6 @@ var partition = function(head, x) {
 
   return smallerThanX.next
 }
-```
+// ```
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

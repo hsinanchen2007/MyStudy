@@ -1,13 +1,13 @@
-### 解题思路
-将数组[0, index)维护为无重复元素的集合；
+// ### 解题思路
+// 将数组[0, index)维护为无重复元素的集合；
 
-因为是排序好的数组，所以遇到与index-1位置上不同的元素时，就覆盖index位置的值，即无重复元素集合的元素+1，并移动index。
+// 因为是排序好的数组，所以遇到与index-1位置上不同的元素时，就覆盖index位置的值，即无重复元素集合的元素+1，并移动index。
 
-遍历结束后，返回无重复元素集合的大小（即index的位置下标）。
+// 遍历结束后，返回无重复元素集合的大小（即index的位置下标）。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null) {
@@ -26,4 +26,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

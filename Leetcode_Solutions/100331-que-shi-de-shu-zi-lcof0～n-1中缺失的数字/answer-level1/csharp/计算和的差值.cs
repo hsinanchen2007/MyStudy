@@ -1,9 +1,9 @@
-### 解题思路
-不缺失情况下的总和 - 当前数组的总和
+// ### 解题思路
+// 不缺失情况下的总和 - 当前数组的总和
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MissingNumber(int[] nums) {
         int sum = 0;
@@ -17,4 +17,4 @@ public class Solution {
         return originalSum - sum;
     }
 }
-```
+// ```

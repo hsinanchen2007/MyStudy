@@ -1,8 +1,8 @@
-## 解析
-分两步 第一步：将数据放到他本来应该在的位置，即nums[i]=i+1,
-第二步：遍历数组，如果哪个位置nums[i]!=i+1,则他就是缺失的数。
-## 代码
-```java
+// ## 解析
+// 分两步 第一步：将数据放到他本来应该在的位置，即nums[i]=i+1,
+// 第二步：遍历数组，如果哪个位置nums[i]!=i+1,则他就是缺失的数。
+// ## 代码
+// ```java
 public int firstMissingPositive(int[] nums) {
         if(nums == null || nums.length == 0){
             return 1;
@@ -29,4 +29,4 @@ public int firstMissingPositive(int[] nums) {
         nums[i] = nums[j];
         nums[j] = tmp;
     }
-```
+// ```

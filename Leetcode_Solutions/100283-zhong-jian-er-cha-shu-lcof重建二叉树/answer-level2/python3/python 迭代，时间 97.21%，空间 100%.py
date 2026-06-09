@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         """
@@ -39,4 +39,4 @@ class Solution:
             cur += 1
 
         return root
-```
+# ```

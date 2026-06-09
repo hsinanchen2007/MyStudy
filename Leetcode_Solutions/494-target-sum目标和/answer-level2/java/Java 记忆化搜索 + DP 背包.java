@@ -1,20 +1,20 @@
-虽然有点慢(274ms，击败46.2%)，没有其它方法优，但是这是最直接的思路，也就是暴力递归，再加上记忆化操作，也能AC。
-别管他黑猫白猫，能抓老鼠的就是好喵。
+// 虽然有点慢(274ms，击败46.2%)，没有其它方法优，但是这是最直接的思路，也就是暴力递归，再加上记忆化操作，也能AC。
+// 别管他黑猫白猫，能抓老鼠的就是好喵。
 
-思路就是 画个树形图呀，这类递归就是个树形问题。对于nums数组的每一个数字，要么是`+`，要是是`-`, 所以递归，树的深度是nums数组的长度。是一棵满二叉树。
-示例：
-```
+// 思路就是 画个树形图呀，这类递归就是个树形问题。对于nums数组的每一个数字，要么是`+`，要是是`-`, 所以递归，树的深度是nums数组的长度。是一棵满二叉树。
+// 示例：
+// ```
 输入: nums: [1, 1, 1], S: 1
 输出: 3
-```
+// ```
 
-关于设置为-S,是因为 S 等于nums数组加上正负符号后的和，记为sum,S==sum,移项，-S+sum == 0, 递归终止条件是用完nums数组中每个数字，满足条件的为最终值等于0的。（讲的好乱....）
+// 关于设置为-S,是因为 S 等于nums数组加上正负符号后的和，记为sum,S==sum,移项，-S+sum == 0, 递归终止条件是用完nums数组中每个数字，满足条件的为最终值等于0的。（讲的好乱....）
 
-![image.png](https://pic.leetcode-cn.com/5fb96e7ecfdfb440dbcc9f0e65deb52b78adcfefba53714aa618ba90874183fb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5fb96e7ecfdfb440dbcc9f0e65deb52b78adcfefba53714aa618ba90874183fb-image.png)
 
-# 记忆化搜索
+// # 记忆化搜索
 
-```java
+// ```java
 import javafx.util.Pair;
 class Solution {
     HashMap<Pair<Integer,Integer>, Integer> memo;
@@ -37,13 +37,13 @@ class Solution {
         return res;
     } 
 }
-```
+// ```
 
 
-# 动态规划
-01背包问题
-动态规划这里dp的取值范围可能为负数，所以难点在于需要将区间平移一下，[-sum,sum] ==> [0,2*sum]
-```java
+// # 动态规划
+// 01背包问题
+// 动态规划这里dp的取值范围可能为负数，所以难点在于需要将区间平移一下，[-sum,sum] ==> [0,2*sum]
+// ```java
 //dp[i][j]表示前i个数和为j的方法数为dp[i][j]
 //dp[i][j]=dp[i-1][i-nums[i-1]] + dp[i-1][i+nums[i-1]];
 public int findTargetSumWays(int[] nums, int S) {
@@ -64,4 +64,4 @@ public int findTargetSumWays(int[] nums, int S) {
     }
     return dp[nums.length][sum+S];
 }
-```
+// ```

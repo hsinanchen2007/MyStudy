@@ -1,4 +1,4 @@
-```js
+// ```js
 var commonChars = function(A) {
     let res = []
     for (let i = 0; i < A[0].length; i++) {
@@ -18,4 +18,4 @@ var commonChars = function(A) {
     }
     return res
 };
-```
+// ```

@@ -1,5 +1,5 @@
-# 方法一：sort()  耗时40ms
-```
+# # 方法一：sort()  耗时40ms
+# ```
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -23,10 +23,10 @@ class Solution:
                 for j in range(len(x)):
                     nums[i+j] = x[j]
                 break
-```
-# 方法二：冒泡 耗时56ms
+# ```
+# # 方法二：冒泡 耗时56ms
 
-```
+# ```
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -57,5 +57,5 @@ class Solution:
                          break
                 break
 
-```
+# ```
 

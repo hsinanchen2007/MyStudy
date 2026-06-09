@@ -1,6 +1,6 @@
- 执行用时 : 11 ms , 在所有 Java 提交中击败了 93.57% 的用户 内存消耗 : 36.2 MB , 在所有 Java 提交中击败了 91.21% 的用户
+//  执行用时 : 11 ms , 在所有 Java 提交中击败了 93.57% 的用户 内存消耗 : 36.2 MB , 在所有 Java 提交中击败了 91.21% 的用户
 
-```
+// ```
 class Solution {
     //center_c 为是否以char（一个字符）为中心，为0表示两个字符间为中心（中心为i+0.5） 为1表示以某一个字符为中心
     private int center_length(String s,int i,int center_c) {
@@ -76,4 +76,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-38 ms
-, 在所有 Java 提交中击败了
-13.38%
-的用户
-内存消耗 :
-41.4 MB
-, 在所有 Java 提交中击败了
-16.95%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 38 ms
+// , 在所有 Java 提交中击败了
+// 13.38%
+// 的用户
+// 内存消耗 :
+// 41.4 MB
+// , 在所有 Java 提交中击败了
+// 16.95%
+// 的用户
+// ```
 class Solution {
    	public int longestConsecutive(int[] nums) {
         int len = nums.length;
@@ -78,4 +78,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int x_p, y_p, x_d, y_d;
@@ -75,4 +75,4 @@ public:
         return temp;
     }
 };
-```
+// ```

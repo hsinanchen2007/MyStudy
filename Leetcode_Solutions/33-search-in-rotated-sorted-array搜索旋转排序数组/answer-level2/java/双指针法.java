@@ -1,4 +1,4 @@
-```
+// ```
  public int search(int[] nums, int target) {
         int ind = -1;
         int left = 0, right = nums.length - 1;
@@ -23,4 +23,4 @@
         }
         return ind;
     }
-```
+// ```

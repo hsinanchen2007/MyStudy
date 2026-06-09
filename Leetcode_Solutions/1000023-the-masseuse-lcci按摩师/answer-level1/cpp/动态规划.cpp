@@ -1,10 +1,10 @@
-### 解题思路
-看看就好：）
-![image.png](https://pic.leetcode-cn.com/e5b734e16bb850debd5036b55269f02c12b34c8458c75f379bacb4752cbe4498-image.png)
+// ### 解题思路
+// 看看就好：）
+// ![image.png](https://pic.leetcode-cn.com/e5b734e16bb850debd5036b55269f02c12b34c8458c75f379bacb4752cbe4498-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return dp[n-1];
     }
 };
-```
+// ```

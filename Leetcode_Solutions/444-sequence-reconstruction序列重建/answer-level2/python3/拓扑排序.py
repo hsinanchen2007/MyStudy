@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sequenceReconstruction(self, org: List[int], seqs: List[List[int]]) -> bool:
         from collections import defaultdict
@@ -47,4 +47,4 @@ class Solution:
             return True
         
         return False
-```
+# ```

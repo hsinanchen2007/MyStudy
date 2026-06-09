@@ -1,4 +1,4 @@
-```rust
+// ```rust
 use std::collections::{HashMap};
 impl Solution {
     pub fn find_restaurant(list1: Vec<String>, list2: Vec<String>) -> Vec<String> {
@@ -8,4 +8,4 @@ impl Solution {
         cons.iter().filter(|e|e.0 == minIdxSum).map(|e| e.1.clone()).collect::<Vec<_>>()
     }
 }
-```
+// ```

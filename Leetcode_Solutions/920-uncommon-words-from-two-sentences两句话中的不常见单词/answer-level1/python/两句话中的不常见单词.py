@@ -1,10 +1,10 @@
-#### 方法：计数
+# #### 方法：计数
 
-**思路和算法**
+# **思路和算法**
 
-每个不常见的单词总共只出现一次。我们可以统计每个单词的出现次数，然后返回恰好出现一次的单词。
+# 每个不常见的单词总共只出现一次。我们可以统计每个单词的出现次数，然后返回恰好出现一次的单词。
 
-```java [xehjDBgG-Java]
+# ```java [xehjDBgG-Java]
 class Solution {
     public String[] uncommonFromSentences(String A, String B) {
         Map<String, Integer> count = new HashMap();
@@ -21,8 +21,8 @@ class Solution {
         return ans.toArray(new String[ans.size()]);
     }
 }
-```
-```python [xehjDBgG-Python]
+# ```
+# ```python [xehjDBgG-Python]
 class Solution(object):
     def uncommonFromSentences(self, A, B):
         count = {}
@@ -36,11 +36,11 @@ class Solution(object):
         #count += collections.Counter(B.split())
 
         return [word for word in count if count[word] == 1]
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(M + N)$，其中 $M, N$ 分别是 `A` 和 `B` 的长度。
+# * 时间复杂度：$O(M + N)$，其中 $M, N$ 分别是 `A` 和 `B` 的长度。
 
-* 空间复杂度：$O(M + N)$，`count` 所用去的空间。
+# * 空间复杂度：$O(M + N)$，`count` 所用去的空间。

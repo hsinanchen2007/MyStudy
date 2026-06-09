@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a870735564b4b1a6e452785283a1ddeefa809ea7d7ca98df58e13f7677a6722f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a870735564b4b1a6e452785283a1ddeefa809ea7d7ca98df58e13f7677a6722f-image.png)
 
-就是得注意临时字典必须要用.copy()来复制，否则会一直修改原字典
-```
+# 就是得注意临时字典必须要用.copy()来复制，否则会一直修改原字典
+# ```
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
         words.sort(key=len)
@@ -19,4 +19,4 @@ class Solution:
                         t.pop(c)
             if not t:
                 return s
-```
+# ```

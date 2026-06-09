@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-【快排】
-```
+// 【快排】
+// ```
 struct TNode {
     int val;
     int sub;
@@ -42,12 +42,12 @@ int* findClosestElements(int* arr, int arrSize, int k, int x, int* returnSize)
 }
 
 
-```
+// ```
 
-【二分】
-### 代码
+// 【二分】
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 static int FindBegin(int* arr, int arrSize, int x)
 {
@@ -121,4 +121,4 @@ int* findClosestElements(int* arr, int arrSize, int k, int x, int* returnSize){
 }
 
 
-```
+// ```

@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/23d9fb5030ca5a8e9145ab65a632ea015f5ff785f44526e378faa89f640eeb8d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/23d9fb5030ca5a8e9145ab65a632ea015f5ff785f44526e378faa89f640eeb8d-image.png)
 
-```c++ []
+// ```c++ []
 Node *connect(Node *root)
     {
         //117. Populating Next Right Pointers in Each Node II
@@ -27,6 +27,6 @@ Node *connect(Node *root)
         }
         return root;
     }
-```
+// ```
 
 

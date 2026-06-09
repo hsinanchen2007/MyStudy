@@ -1,10 +1,10 @@
-### 解题思路
-先用qosrt排序数组，之后一个接一个合并即可
-![捕获.PNG](https://pic.leetcode-cn.com/15ef566b91c6f932f215eba1a32aeea6cd50be2c92fe24e6dda15e0b5703b173-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 先用qosrt排序数组，之后一个接一个合并即可
+// ![捕获.PNG](https://pic.leetcode-cn.com/15ef566b91c6f932f215eba1a32aeea6cd50be2c92fe24e6dda15e0b5703b173-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -45,4 +45,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     *returnColumnSizes=intervalsColSize;
     return result;
 }
-```
+// ```

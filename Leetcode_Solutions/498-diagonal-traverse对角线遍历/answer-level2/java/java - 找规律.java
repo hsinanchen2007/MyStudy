@@ -1,4 +1,4 @@
-```
+// ```
 public int[] findDiagonalOrder(int[][] matrix) {
 	List<Integer> list = new ArrayList<Integer>();
 	int m = matrix.length;
@@ -31,7 +31,7 @@ public int[] findDiagonalOrder(int[][] matrix) {
 	
 	return nums;
 }
-```
+// ```
 
-这个是  【对角线遍历】 分析题目-找准规律-代码清晰易读-不要让自己迷失在随意的ifelse中  题解的思路，将其转换成Java代码。
-实现思路查看上面题解，感觉按他的思路来写比较清晰，但耗时比较长，我提交执行用了7ms。
+// 这个是  【对角线遍历】 分析题目-找准规律-代码清晰易读-不要让自己迷失在随意的ifelse中  题解的思路，将其转换成Java代码。
+// 实现思路查看上面题解，感觉按他的思路来写比较清晰，但耗时比较长，我提交执行用了7ms。

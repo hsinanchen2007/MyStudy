@@ -1,5 +1,5 @@
-思路都是中序遍历
-非递归版本：
+// 思路都是中序遍历
+// 非递归版本：
 
     int kthSmallest(TreeNode* root, int k) {
         TreeNode* current=root;

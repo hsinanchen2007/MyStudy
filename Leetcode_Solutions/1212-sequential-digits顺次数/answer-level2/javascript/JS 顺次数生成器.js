@@ -1,9 +1,9 @@
-### 解题思路
-创建一个生成器函数用于生成处于 low 和 high 位数之间的顺次数（菜鸟一只，欢迎各位提意见）
+// ### 解题思路
+// 创建一个生成器函数用于生成处于 low 和 high 位数之间的顺次数（菜鸟一只，欢迎各位提意见）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} low
  * @param {number} high
@@ -46,4 +46,4 @@ var sequentialDigits = function(low, high) {
         return parseInt(temp)
     }
 };
-```
+// ```

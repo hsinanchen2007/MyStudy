@@ -1,6 +1,6 @@
-看到很多用乘法做的，虽然能通过，但是存在一个bug，如果三点成水平和垂直的直角（L型），那么乘法是会出错的。用除法，存在除以0的问题，这里我们让除以0变成无穷大就可以了。
+# 看到很多用乘法做的，虽然能通过，但是存在一个bug，如果三点成水平和垂直的直角（L型），那么乘法是会出错的。用除法，存在除以0的问题，这里我们让除以0变成无穷大就可以了。
 
-```
+# ```
 class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
         n = len(coordinates)
@@ -12,4 +12,4 @@ class Solution:
             except: cur = float('inf')
             if cur != slope: return False
         return True
-```
+# ```

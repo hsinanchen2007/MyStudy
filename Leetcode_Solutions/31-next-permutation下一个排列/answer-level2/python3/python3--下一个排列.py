@@ -1,9 +1,9 @@
-一开始想的也不是很明白，参考了网友的解法而豁然开朗。可以分为这么几步：
-1.边界情况过滤（已经有序；数组长度<=1）
-2.从后向前遍历，如果发现nums[i-1] < nums[i]，即存在升序的情况，记录此时位置为 k = i - 1
-3.从后向前遍历(nums[-1] --> nums[i])，找到比 nums[k] 大的情况，记录位置为 j，并break
-4.交换 nums[k] 和 nums[j]，最后将 nums[k+1] 到 nums[-1] 部分从小到大排序即可。
-```
+# 一开始想的也不是很明白，参考了网友的解法而豁然开朗。可以分为这么几步：
+# 1.边界情况过滤（已经有序；数组长度<=1）
+# 2.从后向前遍历，如果发现nums[i-1] < nums[i]，即存在升序的情况，记录此时位置为 k = i - 1
+# 3.从后向前遍历(nums[-1] --> nums[i])，找到比 nums[k] 大的情况，记录位置为 j，并break
+# 4.交换 nums[k] 和 nums[j]，最后将 nums[k+1] 到 nums[-1] 部分从小到大排序即可。
+# ```
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -41,4 +41,4 @@ class Solution:
             nums[i] = tmp[i - k -1]
         
         return
-```
+# ```

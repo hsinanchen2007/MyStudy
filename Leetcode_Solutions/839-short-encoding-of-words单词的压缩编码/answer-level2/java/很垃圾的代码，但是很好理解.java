@@ -1,10 +1,10 @@
-### 解题思路
-1.代码虽然很垃圾，留个脚印
-2.distinct很重要。
+// ### 解题思路
+// 1.代码虽然很垃圾，留个脚印
+// 2.distinct很重要。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         int len = words.length;
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

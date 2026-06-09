@@ -1,13 +1,13 @@
-### 解题思路
-　　按照字符串顺序，依次存入字符和数量（用两个数组分别保存）
-　　最后我们只需要比较存字符的数组对应的字符是否相等，并且存数量的数组的后者数量是否大于前者。
-　　方法很笨，也只能想到这些啦。
+// ### 解题思路
+// 　　按照字符串顺序，依次存入字符和数量（用两个数组分别保存）
+// 　　最后我们只需要比较存字符的数组对应的字符是否相等，并且存数量的数组的后者数量是否大于前者。
+// 　　方法很笨，也只能想到这些啦。
     
-![QQ截图20200130211711.png](https://pic.leetcode-cn.com/4931417d5aaa040b28de67a3e899f8af0da81db699b9e62412caeef93c567a58-QQ%E6%88%AA%E5%9B%BE20200130211711.png)
+// ![QQ截图20200130211711.png](https://pic.leetcode-cn.com/4931417d5aaa040b28de67a3e899f8af0da81db699b9e62412caeef93c567a58-QQ%E6%88%AA%E5%9B%BE20200130211711.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isLongPressedName(char * name, char * typed){
 
     int len1 = strlen(name);
@@ -91,4 +91,4 @@ bool isLongPressedName(char * name, char * typed){
 	return true;
 
 }
-```
+// ```

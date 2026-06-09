@@ -1,8 +1,8 @@
-### 解题思路
-思路在代码注释里
-### 代码
+// ### 解题思路
+// 思路在代码注释里
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Reverse(int x) {
         int y = 0, tem = 0;
@@ -24,4 +24,4 @@ public class Solution {
         return y;
     }
 }
-```
+// ```

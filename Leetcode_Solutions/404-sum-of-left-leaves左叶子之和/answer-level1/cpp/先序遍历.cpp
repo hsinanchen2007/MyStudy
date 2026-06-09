@@ -1,9 +1,9 @@
-### 解题思路
-使用先序遍历和标识符操作
+// ### 解题思路
+// 使用先序遍历和标识符操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         zuo(root->right,2);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考 100.相同的树 不同点：对称二叉树判断子树相同时，判断条件为 
-left == right  right == left 
-### 代码
+# ### 解题思路
+# 参考 100.相同的树 不同点：对称二叉树判断子树相同时，判断条件为 
+# left == right  right == left 
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             else:
                 return False
         return isSameTree(root,root)
-```
+# ```

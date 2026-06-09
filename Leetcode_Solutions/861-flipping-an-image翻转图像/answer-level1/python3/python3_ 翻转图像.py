@@ -1,4 +1,4 @@
-```python
+# ```python
 def flipAndInvertImage(A):
     m, n = len(A), len(A[0])
     for i in range(m):
@@ -17,4 +17,4 @@ def flipAndInvertImage(A):
     return A
 
 print(flipAndInvertImage([[1,1,0],[1,0,1],[0,0,0]]))
-```
+# ```

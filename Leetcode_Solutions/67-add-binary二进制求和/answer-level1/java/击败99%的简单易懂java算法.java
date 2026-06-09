@@ -1,10 +1,10 @@
-![TIM截图20190922183222.png](https://pic.leetcode-cn.com/1c51bbf9242d18e5344405cc77dec6dcd36dbd1cb27bbf277bf1cff0ca09fef5-TIM%E6%88%AA%E5%9B%BE20190922183222.png)
+// ![TIM截图20190922183222.png](https://pic.leetcode-cn.com/1c51bbf9242d18e5344405cc77dec6dcd36dbd1cb27bbf277bf1cff0ca09fef5-TIM%E6%88%AA%E5%9B%BE20190922183222.png)
 
-算法速度上还行，就是转化成数组其实感觉是有点多余的，不过为了方便明了，就不要太在意了。
+// 算法速度上还行，就是转化成数组其实感觉是有点多余的，不过为了方便明了，就不要太在意了。
 
-思路就是先将字符串转化成数组，然后数组运算的进位是反着进，最后转化为字符串的时候再反过来就行了。
+// 思路就是先将字符串转化成数组，然后数组运算的进位是反着进，最后转化为字符串的时候再反过来就行了。
 
-```java
+// ```java
 
 class Solution {
     public String addBinary(String a, String b) {
@@ -41,4 +41,4 @@ class Solution {
         return builder.toString();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         # 自己的方法，有点傻，一旦出现连续n个的1，会把这个连续的数量从1到n都加入到列表里
@@ -34,4 +34,4 @@ class Solution:
         return max(max_count, count)
 
 
-```
+# ```

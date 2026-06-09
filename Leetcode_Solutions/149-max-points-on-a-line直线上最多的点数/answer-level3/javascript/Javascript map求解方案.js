@@ -1,9 +1,9 @@
-### 解题思路
-使用map来存储和每个点共直线的点最多有多少个，注意计算直线斜率时的越界问题
+// ### 解题思路
+// 使用map来存储和每个点共直线的点最多有多少个，注意计算直线斜率时的越界问题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -65,4 +65,4 @@ function getLinerfunction (p1, p2) {
 function isSamePoint (p1, p2) {
     return (p1[0] === p2[0]) && (p1[1] === p2[1])
 }
-```
+// ```

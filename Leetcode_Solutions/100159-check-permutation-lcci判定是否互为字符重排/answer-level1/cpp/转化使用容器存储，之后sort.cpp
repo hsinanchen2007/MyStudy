@@ -1,6 +1,6 @@
-先比较两字符串长度
-再将字符串分别使用容器存储，利用sort排序之后比较容器是否相等
-```
+// 先比较两字符串长度
+// 再将字符串分别使用容器存储，利用sort排序之后比较容器是否相等
+// ```
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2) {
@@ -18,4 +18,4 @@ public:
         return A==B;
     }
 };
-```
+// ```

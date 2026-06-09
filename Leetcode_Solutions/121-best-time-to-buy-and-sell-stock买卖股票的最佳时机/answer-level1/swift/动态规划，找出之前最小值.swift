@@ -1,12 +1,12 @@
-### 解题思路
-动态规划
-1. 设置为i，找出i前部分的最小值，并算出差值做比较
-2. 若大于之前值，则保留
-时间复杂度O(n)
+// ### 解题思路
+// 动态规划
+// 1. 设置为i，找出i前部分的最小值，并算出差值做比较
+// 2. 若大于之前值，则保留
+// 时间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func maxProfit(_ prices: [Int]) -> Int {
         if prices.count == 0 {
@@ -30,4 +30,4 @@ class Solution {
         return maxPrice
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-$O(N^2)$暴力求解
+// ### 解题思路
+// $O(N^2)$暴力求解
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<int> luckyNumbers (vector<vector<int>>& matrix) {
@@ -36,4 +36,4 @@ private:
     int a[60], b[60];
     vector<int> res;
 };
-```
+// ```

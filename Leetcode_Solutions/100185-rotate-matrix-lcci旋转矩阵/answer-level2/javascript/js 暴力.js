@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/9605d681b28c0dd28f63a1375312302feb2fe8b4d6ea0894bdffbb4946456457-image.png)
-```js
+// ![image.png](https://pic.leetcode-cn.com/9605d681b28c0dd28f63a1375312302feb2fe8b4d6ea0894bdffbb4946456457-image.png)
+// ```js
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -14,4 +14,4 @@ var rotate = function(matrix) {
     }
     return matrix;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 import queue
 
 class FizzBuzz:
@@ -53,4 +53,4 @@ class FizzBuzz:
                 printNumber()
                 self.fb.put(0)
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-空间复杂度可降至O(1)
+# ### 解题思路
+# 空间复杂度可降至O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
         i=0
@@ -22,4 +22,4 @@ class Solution:
             if typed[r]!=name[-1]:
                 return False
         return True
-```
+# ```

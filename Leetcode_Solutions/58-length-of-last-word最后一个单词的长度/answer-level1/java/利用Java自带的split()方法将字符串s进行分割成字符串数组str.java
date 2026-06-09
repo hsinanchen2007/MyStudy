@@ -1,9 +1,9 @@
-### 解题思路
-可以参考注释理解
+// ### 解题思路
+// 可以参考注释理解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         if(s.length() == 0){
@@ -23,4 +23,4 @@ class Solution {
 		}*/
     }
 }
-```
+// ```

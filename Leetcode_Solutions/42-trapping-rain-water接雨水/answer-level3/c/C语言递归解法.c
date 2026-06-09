@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先找到最高点，然后分别找到最高点左边和右边的次高点，计算出面积后继续递归的向左右两个方向找
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先找到最高点，然后分别找到最高点左边和右边的次高点，计算出面积后继续递归的向左右两个方向找
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int indexMax = -1;
     int max = 0;
@@ -69,4 +69,4 @@ int trap(int* height, int heightSize){
         return area + trap(height, indexSecLeft + 1) + trap(height
             + indexSecRight,heightSize - indexSecRight);
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-深度递归， C语言2个100%，越低级效率果然越高
+// ### 解题思路
+// 深度递归， C语言2个100%，越低级效率果然越高
 
-开始理解错了，以为1个字符块只能砌一次，原来是可以重复使用的，导致我代码加了记忆过程反而复杂了。
-既然可以重复，那么就轻松了很多。
+// 开始理解错了，以为1个字符块只能砌一次，原来是可以重复使用的，导致我代码加了记忆过程反而复杂了。
+// 既然可以重复，那么就轻松了很多。
 
-看注释即可。
+// 看注释即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //#define __DEBUG
 #ifdef __DEBUG
 #define DEBUG(format, ...) printf (format, ##__VA_ARGS__)
@@ -108,4 +108,4 @@ bool pyramidTransition(char * bottom, char ** allowed, int allowedSize){
 
     return pyramidBuildProc(bottom, allowed, allowedSize);
 }
-```
+// ```

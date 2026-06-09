@@ -1,4 +1,4 @@
-```
+// ```
 public boolean isScramble(String s1, String s2) {
             if (s1.length() != s2.length()) {
                 return false;
@@ -29,5 +29,5 @@ public boolean isScramble(String s1, String s2) {
             }
             return res == 0;
         }
-```
-解法常规，即是brute force+ pruning,相对其他解法，本题解pruning效率更高
+// ```
+// 解法常规，即是brute force+ pruning,相对其他解法，本题解pruning效率更高

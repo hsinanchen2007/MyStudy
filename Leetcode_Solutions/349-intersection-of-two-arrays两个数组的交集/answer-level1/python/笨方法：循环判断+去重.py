@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def intersection(self, nums1, nums2):
         """
@@ -12,4 +12,4 @@ class Solution(object):
                 if nums2[j] == nums1[i]:
                     a.append(nums2[j])
         return list(set(a))
-```
+# ```

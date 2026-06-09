@@ -1,9 +1,9 @@
-### 解题思路
-关键是 Int32 溢出判断
+// ### 解题思路
+// 关键是 Int32 溢出判断
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func strToInt(str string) int {
     symbol := ' ' // symbol 正负号
     var arr []rune
@@ -42,4 +42,4 @@ func strToInt(str string) int {
     }
     return res
 }
-```
+// ```

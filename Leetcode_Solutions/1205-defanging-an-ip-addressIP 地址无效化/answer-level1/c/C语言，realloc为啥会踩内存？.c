@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 不懂 realloc会踩内存 */
 // char * defangIPaddr(char * address){
 //     int len = strlen(address);
@@ -47,4 +47,4 @@ char * defangIPaddr(char * address)
     return result;
 }
 
-```
+// ```

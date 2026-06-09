@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def massage(self, nums: List[int]) -> int:
         n = len(nums)
@@ -23,4 +23,4 @@ class Solution:
             dp0 = max(dp0+nums[i],dp1)
             dp1,dp0 = dp0,dp1
         return dp1
-```
+# ```

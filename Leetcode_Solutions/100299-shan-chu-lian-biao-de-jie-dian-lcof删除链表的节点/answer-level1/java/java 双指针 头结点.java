@@ -1,11 +1,11 @@
-### 解题思路
-1.双指针，使得链表所有的结点相同操作
-2.定义头结点，方便返回
-3.链表中的数值无相同的，找到立刻break
+// ### 解题思路
+// 1.双指针，使得链表所有的结点相同操作
+// 2.定义头结点，方便返回
+// 3.链表中的数值无相同的，找到立刻break
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

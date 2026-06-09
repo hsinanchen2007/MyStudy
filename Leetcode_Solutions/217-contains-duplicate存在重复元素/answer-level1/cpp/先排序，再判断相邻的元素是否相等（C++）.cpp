@@ -1,9 +1,9 @@
-### 解题思路
-【注意】：先判断该vector是否为空，因为测试用例中有一个"{}"vector。
+// ### 解题思路
+// 【注意】：先判断该vector是否为空，因为测试用例中有一个"{}"vector。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -24,4 +24,4 @@ public:
         return false;
     }
 };
-```
+// ```

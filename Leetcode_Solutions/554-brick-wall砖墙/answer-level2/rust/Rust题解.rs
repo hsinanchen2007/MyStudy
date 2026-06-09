@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 use std::collections::HashMap;
 
 impl Solution {
@@ -16,5 +16,5 @@ impl Solution {
         wall.len() as i32 - map.values().max().unwrap_or(&0)
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

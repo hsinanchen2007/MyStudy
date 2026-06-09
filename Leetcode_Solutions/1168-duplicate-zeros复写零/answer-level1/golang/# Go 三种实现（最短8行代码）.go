@@ -1,9 +1,9 @@
-> [1089. 复写零 - 简单](https://leetcode-cn.com/problems/duplicate-zeros/)
+// > [1089. 复写零 - 简单](https://leetcode-cn.com/problems/duplicate-zeros/)
 
-> [完整代码实现](https://github.com/bingohuang/go-codes/blob/master/leetcode/editor/cn/p1089_d1_DuplicateZeros_test.go)
+// > [完整代码实现](https://github.com/bingohuang/go-codes/blob/master/leetcode/editor/cn/p1089_d1_DuplicateZeros_test.go)
 
-## 1. 暴力破解法
-```go
+// ## 1. 暴力破解法
+// ```go
 // 开辟一个新的slice，复制
 func duplicateZeros(arr []int) {
 	t := make([]int, len(arr))
@@ -28,13 +28,13 @@ func duplicateZeros(arr []int) {
 	fmt.Printf("t=%v\narr=%v\n", t, arr)
 	copy(arr, t)
 }
-```
-### 复杂度分析
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(N)$
+// ```
+// ### 复杂度分析
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(N)$
 
-## 2. 两次遍历法
-```go
+// ## 2. 两次遍历法
+// ```go
 // 算法2：两次遍历法
 func duplicateZeros(arr []int) {
 	// 1. 计算需要复写0的数量
@@ -64,12 +64,12 @@ func duplicateZeros(arr []int) {
 		}
 	}
 }
-```
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(1)$
+// ```
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(1)$
 
-## 3. append复制法(借用Slice特性，只需8行代码)
-```go
+// ## 3. append复制法(借用Slice特性，只需8行代码)
+// ```go
 // 算法3： append复制转移法
 func duplicateZeros(arr []int) {
 	for i := 0; i < len(arr)-1; i++ {
@@ -79,6 +79,6 @@ func duplicateZeros(arr []int) {
 		}
 	}
 }
-```
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(1)$
+// ```
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(1)$

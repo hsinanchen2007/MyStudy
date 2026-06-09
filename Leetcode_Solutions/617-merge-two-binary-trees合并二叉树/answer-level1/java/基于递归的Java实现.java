@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution {
     private class TreeNode{
         int val;
@@ -21,5 +21,5 @@ public class Solution {
     }
 
 }
-```
+// ```
 

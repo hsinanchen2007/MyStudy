@@ -1,6 +1,6 @@
-开始想着暴力法，但是又觉得太简单了。尝试了下栈，具体思路和官方题解大同小异。
+# 开始想着暴力法，但是又觉得太简单了。尝试了下栈，具体思路和官方题解大同小异。
 
-```
+# ```
 from typing import List
 
 class Solution:
@@ -30,4 +30,4 @@ class Solution:
 so = Solution()
 print(so.nextGreaterElement([2,4],[1,2,3,4]))
 
-```
+# ```

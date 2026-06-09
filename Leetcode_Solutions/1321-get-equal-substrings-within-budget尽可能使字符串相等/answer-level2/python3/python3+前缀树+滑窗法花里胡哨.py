@@ -1,8 +1,8 @@
-### 解题思路
-越是花哨，越是慢
-### 代码
+# ### 解题思路
+# 越是花哨，越是慢
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def equalSubstring(self, s: str, t: str, maxCost: int) -> int:
         res = [0]
@@ -22,4 +22,4 @@ class Solution:
             else:
                 ans = max(ans,len(window))
         return ans
-```
+# ```

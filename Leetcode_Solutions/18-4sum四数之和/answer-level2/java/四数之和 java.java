@@ -1,9 +1,9 @@
-### 解题思路
-仿照三数之和的思路，并剪枝
+// ### 解题思路
+// 仿照三数之和的思路，并剪枝
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();
@@ -41,4 +41,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

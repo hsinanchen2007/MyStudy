@@ -1,4 +1,4 @@
-```
+// ```
 int longestPalindrome(char *s) {
     int length = strlen(s);
 
@@ -25,4 +25,4 @@ int longestPalindrome(char *s) {
 
     return maxLength + flag;
 }
-```
+// ```

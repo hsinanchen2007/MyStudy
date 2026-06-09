@@ -1,9 +1,9 @@
-### 解题思路
-存在型动态规划
+// ### 解题思路
+// 存在型动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         boolean[] dp = new boolean[nums.length];
@@ -18,4 +18,4 @@ class Solution {
         return dp[nums.length - 1];
     }
 }
-```
+// ```

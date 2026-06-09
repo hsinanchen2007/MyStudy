@@ -1,9 +1,9 @@
-### 解题思路
-用的是数学的方法，求最大公约数
+// ### 解题思路
+// 用的是数学的方法，求最大公约数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if(z == 0)return true;
@@ -30,4 +30,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

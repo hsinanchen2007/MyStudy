@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 	int v;
 	queue<int> q;
@@ -35,4 +35,4 @@ public:
     	return v;
     }
 };
-```
+// ```

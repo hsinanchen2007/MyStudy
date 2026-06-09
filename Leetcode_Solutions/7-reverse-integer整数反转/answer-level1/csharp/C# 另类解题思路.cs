@@ -1,5 +1,5 @@
-直接亮代码
-```
+// 直接亮代码
+// ```
 public class Solution {
     public int Reverse(int x) {
         try{
@@ -17,5 +17,5 @@ public class Solution {
         }
     }
 }
-```
-利用取模和除法运算反转，再利用内置checked语法检测是否有内存溢出，若有，则返回0。
+// ```
+// 利用取模和除法运算反转，再利用内置checked语法检测是否有内存溢出，若有，则返回0。

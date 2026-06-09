@@ -1,16 +1,16 @@
-### 解题思路
+-- ### 解题思路
 
-此题目是 [分数排名](https://leetcode-cn.com/problems/rank-scores/) 与 [部门工资最高的员工](https://leetcode-cn.com/problems/department-highest-salary/) 两者的解法结合运用。
-简单的思路如下
-1. 统计工资排名
-2. 选取工资前 3 
-3. 关联 `Department` 与 `Employee` 获得最终结果
+-- 此题目是 [分数排名](https://leetcode-cn.com/problems/rank-scores/) 与 [部门工资最高的员工](https://leetcode-cn.com/problems/department-highest-salary/) 两者的解法结合运用。
+-- 简单的思路如下
+-- 1. 统计工资排名
+-- 2. 选取工资前 3 
+-- 3. 关联 `Department` 与 `Employee` 获得最终结果
 
-### 代码
+-- ### 代码
 
-比较容易理解的写法是照搬前述【分数排名】，将工资排名作为临时表，后关联 `Department` 与 `Employee` 得到结果
+-- 比较容易理解的写法是照搬前述【分数排名】，将工资排名作为临时表，后关联 `Department` 与 `Employee` 得到结果
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT d.Name `Department`, e1.Name `Employee`, e1.Salary `Salary`
@@ -29,11 +29,11 @@ WHERE tmp.Id = e1.Id
   AND tmp.salary_rank <= 3
   AND e1.DepartmentId = d.Id
 ORDER BY d.Id, e1.Salary DESC;
-```
+-- ```
 
-上述写法有明显的多余嵌套，临时表存在的意义仅为了查询工资前 3 ，稍作优化
+-- 上述写法有明显的多余嵌套，临时表存在的意义仅为了查询工资前 3 ，稍作优化
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT d.Name `Department`, e1.Name `Employee`, e1.Salary `Salary`
@@ -46,5 +46,5 @@ WHERE e1.DepartmentId = d.Id
     WHERE e1.Salary <= e2.Salary
       AND e1.DepartmentId = e2.DepartmentId)
 ORDER BY d.Id, e1.Salary DESC;
-```
+-- ```
 

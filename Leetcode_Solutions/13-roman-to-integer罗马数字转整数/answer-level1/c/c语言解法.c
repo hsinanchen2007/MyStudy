@@ -1,8 +1,8 @@
-### 解题思路
-利用了大量的if语句。
-### 代码
+// ### 解题思路
+// 利用了大量的if语句。
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char* s){
     int cnt=0;
     int* p=(int*)calloc(sizeof(int),strlen(s)+1);
@@ -69,4 +69,4 @@ int romanToInt(char* s){
     }
     return cnt;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public int reverse(int x) {
         String s;
         if (x < 0) {
@@ -14,6 +14,6 @@ public int reverse(int x) {
         }
         return k;
     }
-```
+// ```
 
-看到反转第一个想法就是转换字符串，事实证明字符串转换后非常的简单
+// 看到反转第一个想法就是转换字符串，事实证明字符串转换后非常的简单

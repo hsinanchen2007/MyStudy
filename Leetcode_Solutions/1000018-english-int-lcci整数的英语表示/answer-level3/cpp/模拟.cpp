@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200326204453.png](https://pic.leetcode-cn.com/a10c824b5518baf5380a49ec6e663ff49a8b932c114e586c298e90b41834fd46-QQ%E6%88%AA%E5%9B%BE20200326204453.png)
+// ### 解题思路
+// ![QQ截图20200326204453.png](https://pic.leetcode-cn.com/a10c824b5518baf5380a49ec6e663ff49a8b932c114e586c298e90b41834fd46-QQ%E6%88%AA%E5%9B%BE20200326204453.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string numberToWords(int num) {
@@ -41,4 +41,4 @@ private:
         return ans;
     }
 };
-```
+// ```

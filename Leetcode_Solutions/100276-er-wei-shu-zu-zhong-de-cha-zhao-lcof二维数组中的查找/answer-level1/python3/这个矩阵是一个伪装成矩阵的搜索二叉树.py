@@ -1,9 +1,9 @@
-### 解题思路
-这个矩阵可以看成一个子女有部分重叠的搜索二叉树（右上角为根）
+# ### 解题思路
+# 这个矩阵可以看成一个子女有部分重叠的搜索二叉树（右上角为根）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #这个矩阵可以看成一个子女有部分重叠的搜索二叉树（右上角为根）
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
@@ -23,4 +23,4 @@ class Solution:
                 i=i+1
         return False
 
-```
+# ```

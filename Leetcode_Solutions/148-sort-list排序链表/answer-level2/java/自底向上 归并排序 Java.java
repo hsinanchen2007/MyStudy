@@ -1,6 +1,6 @@
-搬运
-感觉不优雅
-```
+// 搬运
+// 感觉不优雅
+// ```
 class Solution {
     public ListNode sortList(ListNode head) {
         ListNode dummy = new ListNode(0);
@@ -49,4 +49,4 @@ class Solution {
         return cur;
     }
 }
-```
+// ```

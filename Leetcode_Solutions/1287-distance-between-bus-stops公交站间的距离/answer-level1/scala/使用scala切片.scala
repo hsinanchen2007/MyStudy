@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def distanceBetweenBusStops(distance: Array[Int], start: Int, destination: Int): Int = {
         var l1 = start
@@ -15,4 +15,4 @@ object Solution {
         scala.math.min(postive.sum,negtive.sum)
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-定义一个新的链表头，用一个curHead指向当前剩下的链表，每次新链表先连上curHead的下一个，再连上curHead本身，再让curHead移动到后面即可。
+// ### 解题思路
+// 定义一个新的链表头，用一个curHead指向当前剩下的链表，每次新链表先连上curHead的下一个，再连上curHead本身，再让curHead移动到后面即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
     }
  
 };
-```
+// ```

@@ -1,5 +1,5 @@
-方块数乘以6减（上下左右）相交数
-```
+# 方块数乘以6减（上下左右）相交数
+# ```
 class Solution:
     def surfaceArea(self, grid) -> int:
         c,k,n=0,0,len(grid)
@@ -14,4 +14,4 @@ class Solution:
                             k+=min(grid[i][j],grid[ii][jj])
 
         return c*6-k
-```
+# ```

@@ -1,5 +1,5 @@
-golang里面没有直接提供queue，可以通过一个slice来模拟，遍历完每一层统计结果
-```
+// golang里面没有直接提供queue，可以通过一个slice来模拟，遍历完每一层统计结果
+// ```
 func averageOfLevels(root *TreeNode) []float64 {
 	queue := make([]*TreeNode, 0)
 	queue = append(queue, root)
@@ -28,4 +28,4 @@ func averageOfLevels(root *TreeNode) []float64 {
 	}
 	return res
 }
-```
+// ```

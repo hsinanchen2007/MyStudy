@@ -1,9 +1,9 @@
-### 解题思路
-搞懂二进制是怎么相加的原理，就简单了，1+1结果是0并且进位1
+// ### 解题思路
+// 搞懂二进制是怎么相加的原理，就简单了，1+1结果是0并且进位1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) 
@@ -64,4 +64,4 @@ public:
         return result;
     }
 };
-```
+// ```

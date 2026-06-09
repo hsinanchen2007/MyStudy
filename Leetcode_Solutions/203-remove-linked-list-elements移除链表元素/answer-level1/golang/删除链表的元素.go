@@ -1,9 +1,9 @@
-### 解题思路
-给当前链表加一个头节点，这样子便于修改前后指针的引用。
+// ### 解题思路
+// 给当前链表加一个头节点，这样子便于修改前后指针的引用。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func removeElements(head *ListNode, val int) *ListNode {
 
     return listNode.Next
 }
-```
+// ```

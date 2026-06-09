@@ -1,9 +1,9 @@
-### 解题思路
-1.根据k的数字，从数组后截取数组内容，若k值大于数组大小则取余在做截取。
+// ### 解题思路
+// 1.根据k的数字，从数组后截取数组内容，若k值大于数组大小则取余在做截取。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -15,4 +15,4 @@ public:
         nums.insert(nums.begin(),temp.begin(),temp.end());
     }
 };
-```
+// ```

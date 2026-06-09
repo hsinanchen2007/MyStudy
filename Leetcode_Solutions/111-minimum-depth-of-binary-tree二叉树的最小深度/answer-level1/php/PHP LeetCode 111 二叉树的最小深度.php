@@ -1,9 +1,9 @@
-### 解题思路
-迭代算法，采用层次遍历算最小深度
+// ### 解题思路
+// 迭代算法，采用层次遍历算最小深度
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -40,14 +40,14 @@ class Solution {
         return $min;
     }
 }
-```
+// ```
 
-### 解题思路
-递归算法算法
+// ### 解题思路
+// 递归算法算法
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -70,4 +70,4 @@ class Solution {
         return min($this->minDepth($root->left),$this->minDepth($root->right))+1;
     }
 }
-```
+// ```

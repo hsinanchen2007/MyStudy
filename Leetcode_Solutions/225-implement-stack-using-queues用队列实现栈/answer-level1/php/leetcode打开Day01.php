@@ -1,9 +1,9 @@
-### 解题思路
-php中array_push, array_pop可以模拟栈操作。
+// ### 解题思路
+// php中array_push, array_pop可以模拟栈操作。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyStack {
     /**
      * Initialize your data structure here.
@@ -55,4 +55,4 @@ class MyStack {
  * $ret_3 = $obj->top();
  * $ret_4 = $obj->empty();
  */
-```
+// ```

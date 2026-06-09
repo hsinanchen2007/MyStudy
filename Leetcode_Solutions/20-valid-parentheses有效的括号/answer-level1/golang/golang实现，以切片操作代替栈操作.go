@@ -1,9 +1,9 @@
-### 解题思路
-如果为括号的左半部分进栈，如果栈顶元素与右半部分匹配，出栈。否则报错
+// ### 解题思路
+// 如果为括号的左半部分进栈，如果栈顶元素与右半部分匹配，出栈。否则报错
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //这个是栈的结构，但是golang本身没有栈结构，利用切片来模拟栈结构
 func isValid(s string) bool {
     var stack []byte
@@ -31,4 +31,4 @@ func isValid(s string) bool {
     }
     return true
 }
-```
+// ```

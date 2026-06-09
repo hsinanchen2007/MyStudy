@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-滑动窗口枚举符合的前缀
+// 滑动窗口枚举符合的前缀
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfSubstrings(string s) {
@@ -32,4 +32,4 @@ public:
         return w.count('a') > 0 && w.count('b') > 0 && w.count('c') > 0;
     }
 };
-```
+// ```

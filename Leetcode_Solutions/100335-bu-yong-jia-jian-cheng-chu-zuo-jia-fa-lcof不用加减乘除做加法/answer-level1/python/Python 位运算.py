@@ -1,6 +1,6 @@
-需要处理一下py的无线长整型..
+# 需要处理一下py的无线长整型..
 
-```python
+# ```python
 class Solution:
     def add(self, a: int, b: int) -> int:
         a &= 0xFFFFFFFF
@@ -10,4 +10,4 @@ class Solution:
             a ^= b
             b = ((carry) << 1) & 0xFFFFFFFF
         return a if a < 0x80000000 else ~(a^0xFFFFFFFF)
-```
+# ```

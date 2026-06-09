@@ -1,4 +1,4 @@
-```
+// ```
 public int[] Intersect(int[] nums1, int[] nums2)
 {
     if (nums1==null || nums2==null || nums1.Length==0 || nums2.Length==0)
@@ -43,4 +43,4 @@ public int[] Intersect(int[] nums1, int[] nums2)
     }
     return result;
 }
-```
+// ```

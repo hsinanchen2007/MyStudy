@@ -1,4 +1,4 @@
-```
+// ```
 int add(int a, int b) {
         int ans = a ^ b;
         unsigned int bit = (unsigned int)(a & b) << 1;
@@ -10,4 +10,4 @@ int add(int a, int b) {
         }
         return ans;
     }
-```
+// ```

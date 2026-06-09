@@ -1,9 +1,9 @@
-### 解题思路
-设置函数计算当前右侧最大值，当某处值与之相等时（右侧最大值有有可能变动时）重新计算右侧最大值。
+// ### 解题思路
+// 设置函数计算当前右侧最大值，当某处值与之相等时（右侧最大值有有可能变动时）重新计算右侧最大值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* replaceElements(int* arr, int arrSize, int* returnSize){
     *returnSize = arrSize;
     return arr;
 }
-```
+// ```

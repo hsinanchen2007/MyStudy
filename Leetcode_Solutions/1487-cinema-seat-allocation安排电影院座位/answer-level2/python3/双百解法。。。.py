@@ -1,16 +1,16 @@
 
-注意这两条提示：
+# 注意这两条提示：
 
-提示：
+# 提示：
 
-1 <= n <= 10^9
-1 <= reservedSeats.length <= min(10*n, 10^4)
-
-
-所以有人站住的位子远小于n。这样的话，只要只loop有人站住的行，没人站住的行*2 在求和就行了。。。
+# 1 <= n <= 10^9
+# 1 <= reservedSeats.length <= min(10*n, 10^4)
 
 
-```
+# 所以有人站住的位子远小于n。这样的话，只要只loop有人站住的行，没人站住的行*2 在求和就行了。。。
+
+
+# ```
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
         reservedSet = set((i[0],i[1]) for i in reservedSeats if i[1] not in {1,10})
@@ -39,4 +39,4 @@ class Solution:
 
         re += (n - len(reserveddict.keys()))*2
         return re
-```
+# ```

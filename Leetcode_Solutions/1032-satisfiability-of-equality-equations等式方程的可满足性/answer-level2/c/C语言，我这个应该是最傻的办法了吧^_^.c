@@ -1,9 +1,9 @@
-### 解题思路   先对所有相等的组合“染色”，然后再用不等去验证！
-此处撰写解题思路
+// ### 解题思路   先对所有相等的组合“染色”，然后再用不等去验证！
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int ranse[26];
 int temp1 = 0;
@@ -56,4 +56,4 @@ bool equationsPossible(char ** equations, int equationsSize){
     
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-脚写的代码
+# ### 解题思路
+# 脚写的代码
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 def count_characters(words, chars)
 	h, hSize = s2p(chars), chars.size
 	n = i = 0
@@ -23,4 +23,4 @@ def s2h(s)
 end
 def s2p(s) ->(c){ h ||= {}; h[c] ||= s.count(c) } end
 def cmp(h1, h2) h1.all?{|k, v| v <= h2[k] } end
-```
+# ```

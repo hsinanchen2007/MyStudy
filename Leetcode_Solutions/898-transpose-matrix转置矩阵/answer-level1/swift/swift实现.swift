@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func transpose(_ A: [[Int]]) -> [[Int]] {
         var result = [[Int]](repeating: [Int](repeating: 0, count: A.count), count: A[0].count)
@@ -10,4 +10,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

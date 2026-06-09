@@ -1,4 +1,4 @@
-首先:将host与guest分别提取用onion all连接（x允许有重复值）
+-- 首先:将host与guest分别提取用onion all连接（x允许有重复值）
 SELECT host_team as team_id ,host_goals as goals1,guest_goals as goals2
 FROM Matches
 UNION ALL

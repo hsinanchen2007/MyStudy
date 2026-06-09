@@ -1,9 +1,9 @@
-### 解题思路
-见注释。
+// ### 解题思路
+// 见注释。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     static int ToMinutes(ReadOnlySpan<char> time) {
         return ((time[0] - '0') * 10 + (time[1] - '0')) * 60 + ((time[3] - '0') * 10 + (time[4] - '0'));
@@ -45,4 +45,4 @@ public class Solution {
         return Math.Min(result, p + 1440 - p1);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-跟双指针类似 增加统计长度的len
+// ### 解题思路
+// 跟双指针类似 增加统计长度的len
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -43,4 +43,4 @@ public:
         return len;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-代码如下
+// ### 解题思路
+// 代码如下
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -26,4 +26,4 @@ var mirrorTree = function(root) {
     return root;
 
 };
-```
+// ```

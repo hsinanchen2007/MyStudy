@@ -1,5 +1,5 @@
-循环从链表取出每一个二进制位，计算出十进制值。
-```
+// 循环从链表取出每一个二进制位，计算出十进制值。
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -20,4 +20,4 @@ public:
         return ans;
     }
 };
-```
+// ```

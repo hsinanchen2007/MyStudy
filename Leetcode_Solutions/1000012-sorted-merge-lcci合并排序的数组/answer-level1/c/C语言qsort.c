@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(int* a,int* b){
     return *a - *b;
 }
@@ -15,4 +15,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     }
     qsort(A,(m+n),sizeof(int),cmp);
 }
-```
+// ```

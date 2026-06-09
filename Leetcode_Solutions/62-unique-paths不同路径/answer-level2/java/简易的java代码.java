@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
 	public int uniquePaths(int m,int n){
 		/*
@@ -35,13 +35,13 @@ public class Solution {
 		*/
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/d8558d2c0aa5c2945217cc9ac090eb2d6bfa3dc032939d1c68fae86bf7609835-1.png)
+// ![1.png](https://pic.leetcode-cn.com/d8558d2c0aa5c2945217cc9ac090eb2d6bfa3dc032939d1c68fae86bf7609835-1.png)
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/ae961e8f05ca61de8cc8972db5cc8062519131d7bb6a1cfdee05e289b92b7ca9-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/ae961e8f05ca61de8cc8972db5cc8062519131d7bb6a1cfdee05e289b92b7ca9-wechat.png)
 

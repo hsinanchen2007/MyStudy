@@ -1,9 +1,9 @@
-### 解题思路
-大体思路就是先找出所有big中各个字母的下标 然后对smalls进行遍历 根据下标在map中进行切片比较 如果有 则加入 想不到这方法也能100%...
+// ### 解题思路
+// 大体思路就是先找出所有big中各个字母的下标 然后对smalls进行遍历 根据下标在map中进行切片比较 如果有 则加入 想不到这方法也能100%...
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func multiSearch(big string, smalls []string) (ret [][]int) {
     if smalls == nil {
         return
@@ -32,4 +32,4 @@ func multiSearch(big string, smalls []string) (ret [][]int) {
     }
     return
 }
-```
+// ```

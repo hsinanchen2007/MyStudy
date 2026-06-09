@@ -1,6 +1,6 @@
-直接上代码，需要导入Breaks类
-import scala.util.control.Breaks
-```
+// 直接上代码，需要导入Breaks类
+// import scala.util.control.Breaks
+// ```
 def minDeletionSize(A: Array[String]): Int = {
     var result = 0
     val loop=new Breaks
@@ -17,4 +17,4 @@ def minDeletionSize(A: Array[String]): Int = {
     }
     return result
   }
-```
+// ```

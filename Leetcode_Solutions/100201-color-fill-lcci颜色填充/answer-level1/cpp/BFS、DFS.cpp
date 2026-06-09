@@ -1,8 +1,8 @@
-- 标准的广度和深度优先搜索，模板题
+// - 标准的广度和深度优先搜索，模板题
 
-### 2.1 BFS
+// ### 2.1 BFS
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
@@ -34,11 +34,11 @@ public:
         return image;
     }
 };
-```
-![在这里插入图片描述](https://pic.leetcode-cn.com/7d0751753306fa1c72dfc5bd9a2e70d0d4314395e355126b21686d2192d0ee26.png)
-### 2.2 DFS
+// ```
+// ![在这里插入图片描述](https://pic.leetcode-cn.com/7d0751753306fa1c72dfc5bd9a2e70d0d4314395e355126b21686d2192d0ee26.png)
+// ### 2.2 DFS
 
-```cpp
+// ```cpp
 class Solution {
 	vector<vector<int>> dir = {{1,0},{0,1},{0,-1},{-1,0}};
 	int m, n, original;
@@ -71,5 +71,5 @@ public:
     	}
     }
 };
-```
-![在这里插入图片描述](https://pic.leetcode-cn.com/9978f4c6782b26534cacc8c78bf8468ca5e407cfdbed088d905d1b0e54e4a401.png)
+// ```
+// ![在这里插入图片描述](https://pic.leetcode-cn.com/9978f4c6782b26534cacc8c78bf8468ca5e407cfdbed088d905d1b0e54e4a401.png)

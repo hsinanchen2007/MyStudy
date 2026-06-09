@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int insertBits(int N, int M, int i, int j) {
@@ -11,4 +11,4 @@ public:
         return (N & (~mask)) + ((M << i) & mask);
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-核心：数组nums中每个元素有：选 和 不选 两种情况！
-### 代码
+// ### 解题思路
+// 核心：数组nums中每个元素有：选 和 不选 两种情况！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void dfs(vector<int>& nums,int pos,vector<int>& tmp,vector<vector<int>>& res){
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

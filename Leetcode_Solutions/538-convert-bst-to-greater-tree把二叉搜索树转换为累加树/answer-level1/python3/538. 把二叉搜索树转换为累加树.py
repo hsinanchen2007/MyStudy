@@ -1,5 +1,5 @@
-分析：先遍历右节点，再存储根节点，最后遍历左节点
-```
+# 分析：先遍历右节点，再存储根节点，最后遍历左节点
+# ```
 class Solution(object):
     def convertBST(self, root):
         """
@@ -16,5 +16,5 @@ class Solution(object):
             dfs(root.left)
         dfs(root)
 
-```
+# ```
 

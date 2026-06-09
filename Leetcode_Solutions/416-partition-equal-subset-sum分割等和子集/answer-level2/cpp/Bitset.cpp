@@ -1,6 +1,6 @@
-这个就是01背包问题，但是可以用bitset来巧妙解决
+// 这个就是01背包问题，但是可以用bitset来巧妙解决
 
-```
+// ```
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return bitSet[sum/2] == 1;
     }
 };
-```
+// ```

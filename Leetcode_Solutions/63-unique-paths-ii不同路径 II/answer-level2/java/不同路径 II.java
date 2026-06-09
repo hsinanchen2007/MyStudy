@@ -1,9 +1,9 @@
-### 解题思路
-走到第(i, j)格的方法为走到第(i - 1, j)格的方法 + 走到第(i, j - 1)格的方法。某一格是障碍怎么办？那么走到这一格的方法就为0.
+// ### 解题思路
+// 走到第(i, j)格的方法为走到第(i - 1, j)格的方法 + 走到第(i, j - 1)格的方法。某一格是障碍怎么办？那么走到这一格的方法就为0.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int n = obstacleGrid.length;
@@ -33,4 +33,4 @@ class Solution {
         return dp[n - 1][m - 1];
     }
 }
-```
+// ```

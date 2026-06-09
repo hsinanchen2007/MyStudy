@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -20,7 +20,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-* 执行用时 :16 ms, 在所有 C++ 提交中击败了47.21%的用户
-* 内存消耗 :9.3 MB, 在所有 C++ 提交中击败了48.64%的用户
+// * 执行用时 :16 ms, 在所有 C++ 提交中击败了47.21%的用户
+// * 内存消耗 :9.3 MB, 在所有 C++ 提交中击败了48.64%的用户

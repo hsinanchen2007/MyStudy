@@ -1,7 +1,7 @@
-第一次做出竞赛最后一题，可能这次的太简单了吧。。
-经典的BFS题，用一个队列存放箱子编号，每次从中取出一个进行判断，当队列为空或者所有箱子都上锁且没有钥匙时返回结果。
+# 第一次做出竞赛最后一题，可能这次的太简单了吧。。
+# 经典的BFS题，用一个队列存放箱子编号，每次从中取出一个进行判断，当队列为空或者所有箱子都上锁且没有钥匙时返回结果。
 
-```
+# ```
 class Solution:
     def maxCandies(self, status, candies, keys, containedBoxes, initialBoxes):
         #list01列表中存放剩余的箱子，每次从中取一个出来
@@ -37,4 +37,4 @@ class Solution:
                 list01.append(box)
         return res
 
-```
+# ```

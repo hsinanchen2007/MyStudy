@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isHappy(int n){
 int i,s=n;
 while(s!=1&&s!=4){            //变成4就会进入不快乐的循环
@@ -17,4 +17,4 @@ while(n){
 if(s==1) return true;
 else return false;
 }
-```
+// ```

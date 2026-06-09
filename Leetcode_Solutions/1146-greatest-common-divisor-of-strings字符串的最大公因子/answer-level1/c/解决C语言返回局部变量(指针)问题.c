@@ -1,10 +1,10 @@
-### 解题思路
-使用static修饰，分配在静态内存区
-还有一种方法使用malloc分配内存（堆中）需要手动free，麻烦.
+// ### 解题思路
+// 使用static修饰，分配在静态内存区
+// 还有一种方法使用malloc分配内存（堆中）需要手动free，麻烦.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a,int b){
     return b == 0 ? a : gcd(b,a % b);
 }
@@ -34,4 +34,4 @@ char * gcdOfStrings(char * str1, char * str2){
     }
     return str;
 }
-```
+// ```

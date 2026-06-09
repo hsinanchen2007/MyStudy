@@ -1,9 +1,9 @@
-### 解题思路
-只比我153题的题解多判断了一个 nums[mid] = nums[right] 的情况而已。
+// ### 解题思路
+// 只比我153题的题解多判断了一个 nums[mid] = nums[right] 的情况而已。
 
-### 法1 - 二分
+// ### 法1 - 二分
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -33,11 +33,11 @@ public:
         return nums[left];
     }
 };
-```
+// ```
 
-### 法2 - 分治
+// ### 法2 - 分治
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -57,4 +57,4 @@ private:
         return min(findMin(nums, left, mid - 1), findMin(nums, mid, right));
     }
 };
-```
+// ```

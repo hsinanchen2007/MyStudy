@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def countArrangement(N: Int): Int = {
     val res = Array.fill(1 << N)(0)
@@ -14,4 +14,4 @@ object Solution {
     res((1 << N) - 1)
   }
 }
-```
+// ```

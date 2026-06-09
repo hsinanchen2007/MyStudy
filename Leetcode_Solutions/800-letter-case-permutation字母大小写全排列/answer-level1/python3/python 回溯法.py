@@ -1,9 +1,9 @@
-### 解题思路
-进行简单的回溯就好，如果是字母，进行大小写回溯，不是字母的话，在递归中只传入字符本身
+# ### 解题思路
+# 进行简单的回溯就好，如果是字母，进行大小写回溯，不是字母的话，在递归中只传入字符本身
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         ans=[]
@@ -20,4 +20,4 @@ class Solution:
         print(ans)
         return ans
 
-```
+# ```

@@ -1,6 +1,6 @@
-一、递归
-99% 90% 递归做法 回溯相加
-```java
+// 一、递归
+// 99% 90% 递归做法 回溯相加
+// ```java
 class Solution{
 //	public class ListNode{
 //		int val;
@@ -72,11 +72,11 @@ class Solution{
         return curr;
     }
 }
-```
+// ```
 
-二、正常思路
-先反转两个链表，再相加，加完之后再把新链表反转
-```java
+// 二、正常思路
+// 先反转两个链表，再相加，加完之后再把新链表反转
+// ```java
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     	return reverse(add(reverse(l1), reverse(l2)));
@@ -115,4 +115,4 @@ class Solution {
         return curr;
     }
 }
-```
+// ```

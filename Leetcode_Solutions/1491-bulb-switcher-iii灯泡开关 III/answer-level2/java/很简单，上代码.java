@@ -1,4 +1,4 @@
-```
+// ```
 public int numTimesAllBlue(int[] light) {
         int max = 0;
         int n = light.length;
@@ -11,4 +11,4 @@ public int numTimesAllBlue(int[] light) {
         }
         return res;
     }
-```
+// ```

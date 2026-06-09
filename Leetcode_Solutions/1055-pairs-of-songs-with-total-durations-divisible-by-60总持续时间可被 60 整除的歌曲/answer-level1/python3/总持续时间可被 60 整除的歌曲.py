@@ -1,9 +1,9 @@
-### 解题思路
-不知道是从谁那抄的作业了。。。不知道为什么大佬们总是能解决超时问题。。。
+# ### 解题思路
+# 不知道是从谁那抄的作业了。。。不知道为什么大佬们总是能解决超时问题。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
         pos = [0] * 60
@@ -32,4 +32,4 @@ class Solution:
                 
 
 
-```
+# ```

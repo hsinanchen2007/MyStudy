@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxRepOpt1(self, text):
         """
@@ -38,4 +38,4 @@ class Solution(object):
             res = max(res, i - j + 1)
         return res
 
-```
+# ```

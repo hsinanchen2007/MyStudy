@@ -1,10 +1,10 @@
-### 解题思路
-倒排加速策略
-使用mValue判断某个值是否被访问过，从后向前判断，并把到达过的值从mValue中删掉。
+// ### 解题思路
+// 倒排加速策略
+// 使用mValue判断某个值是否被访问过，从后向前判断，并把到达过的值从mValue中删掉。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int minJumps(vector<int>& arr) {
@@ -53,4 +53,4 @@ public:
 		return  dist[0];
 	}
 };
-```
+// ```

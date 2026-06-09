@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 数字对应的新索引号就是小于等于该数值的不包含9的数值的个数
 索引号肯定和数值本身是同增同减的，所以可以用二分法搜索正确
@@ -36,6 +36,6 @@ class Solution:
                 l = m + 1
             else:
                 r = m - 1
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/6a9fb5886b1ef9c12d000ce730185be1cdfd390e5d54a874f02c17419a995d7e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6a9fb5886b1ef9c12d000ce730185be1cdfd390e5d54a874f02c17419a995d7e-image.png)

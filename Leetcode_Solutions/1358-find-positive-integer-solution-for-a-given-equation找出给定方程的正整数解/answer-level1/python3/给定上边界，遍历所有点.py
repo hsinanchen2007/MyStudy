@@ -1,10 +1,10 @@
-### 解题思路
-1. 给定函数的两个输入的上界，因为是单调递增函数，上界设为z即可
-2. 遍历 (1,1)~(z+1,z+1) 之内所有的点(横纵坐标分别按1递增)。
+# ### 解题思路
+# 1. 给定函数的两个输入的上界，因为是单调递增函数，上界设为z即可
+# 2. 遍历 (1,1)~(z+1,z+1) 之内所有的点(横纵坐标分别按1递增)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
    This is the custom function interface.
    You should not implement it, or speculate about its implementation
@@ -25,4 +25,4 @@ class Solution:
                     all_list.append([i,j])
         
         return all_list
-```
+# ```

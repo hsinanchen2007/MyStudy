@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-两两比较，但是时间复杂度是（k-1）* n
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 两两比较，但是时间复杂度是（k-1）* n
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -59,4 +59,4 @@ class Solution {
 
 
 }
-```
+// ```

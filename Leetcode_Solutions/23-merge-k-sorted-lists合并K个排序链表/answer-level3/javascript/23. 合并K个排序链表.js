@@ -1,6 +1,6 @@
-# 链表转数组
-遍历所有节点将节点值提取到数组中，然后对数组排序，遍历数组将数组内容重新转化为链表
-```
+// # 链表转数组
+// 遍历所有节点将节点值提取到数组中，然后对数组排序，遍历数组将数组内容重新转化为链表
+// ```
 var mergeKLists = function(lists) {
     let len  = lists.length;
     if(len == 0) return null;
@@ -23,13 +23,13 @@ var mergeKLists = function(lists) {
     }
     return heap.next;
 };
-```
-- 遍历所有节点时间复杂度O(n),申请数组空间，空间复杂度O(n)
-- 对数组进行排序，JS中sort算法喂快排，时间复杂度为O(logn)
-- 数组转化为链表，时间复杂度为O(n)，空间复杂度为O(n)
+// ```
+// - 遍历所有节点时间复杂度O(n),申请数组空间，空间复杂度O(n)
+// - 对数组进行排序，JS中sort算法喂快排，时间复杂度为O(logn)
+// - 数组转化为链表，时间复杂度为O(n)，空间复杂度为O(n)
 
-# 链表逐一进行合并
-```
+// # 链表逐一进行合并
+// ```
 var mergeKLists = function(lists) {
     let len  = lists.length;
     if(len == 0) return null;
@@ -55,5 +55,5 @@ var mergeKLists = function(lists) {
     }
     return heap.next;
 };
-```
-- 需要遍历整个数组k趟，每趟遍历n<=N个链表节点，时间复杂度为O(kN)，所有操作基于原链表节点，空间复杂度为O(1)
+// ```
+// - 需要遍历整个数组k趟，每趟遍历n<=N个链表节点，时间复杂度为O(kN)，所有操作基于原链表节点，空间复杂度为O(1)

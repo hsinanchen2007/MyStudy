@@ -1,11 +1,11 @@
-### 解题思路
-没啥好说的
+// ### 解题思路
+// 没啥好说的
 
-空树返回0，非空树就返回左右子树最大深度+1（root也是1层）.
+// 空树返回0，非空树就返回左右子树最大深度+1（root也是1层）.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ int maxDepth(struct TreeNode* root)
         return 1+Max(maxDepth(root->left),maxDepth(root->right));
     }
 }
-```
+// ```

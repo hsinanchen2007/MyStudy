@@ -1,10 +1,10 @@
-### 解题思路
-1.冒泡排序
-2.注意特殊情况，当nums[0]==0的时候，直接返回字符串"0",比如[0,0,0],结果返回"0"
+# ### 解题思路
+# 1.冒泡排序
+# 2.注意特殊情况，当nums[0]==0的时候，直接返回字符串"0",比如[0,0,0],结果返回"0"
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     # 冒泡排序：
     def largestNumber(self, nums):
@@ -26,4 +26,4 @@ class Solution(object):
         return res
 
 
-```
+# ```

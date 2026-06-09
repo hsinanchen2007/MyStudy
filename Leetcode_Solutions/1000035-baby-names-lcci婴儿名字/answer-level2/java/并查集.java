@@ -1,11 +1,11 @@
-### 解题思路
-使用两个Map
-1. 一个存储婴儿的名字与出现的次数
-2. 另一个存储相同婴儿名字的映射关系
+// ### 解题思路
+// 使用两个Map
+// 1. 一个存储婴儿的名字与出现的次数
+// 2. 另一个存储相同婴儿名字的映射关系
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] trulyMostPopular(String[] names, String[] synonyms) {
         Map<String,String> parents = new HashMap<>();
@@ -67,4 +67,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 if head==None or head.next==None:
             return head
         q=ListNode(-1)
@@ -26,4 +26,4 @@ if head==None or head.next==None:
             p.next=None
         # 返回头节点
         return q.next
-```
+# ```

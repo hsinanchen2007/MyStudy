@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -104,4 +104,4 @@ private:
         return head;
     }
 };
-```
+// ```

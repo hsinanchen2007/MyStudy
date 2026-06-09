@@ -1,5 +1,5 @@
-go版分治
-```golang
+// go版分治
+// ```golang
 func diffWaysToCompute(s string) []int {
 	var optis []int
 	for i := 0; i < len(s); i++ {
@@ -63,4 +63,4 @@ func conv(s string) int {
 	return total
 }
 
-```
+// ```

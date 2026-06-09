@@ -1,4 +1,4 @@
-按字典序生成
+# 按字典序生成
 class Solution(object):
     def lexicalOrder(self, n):
         """

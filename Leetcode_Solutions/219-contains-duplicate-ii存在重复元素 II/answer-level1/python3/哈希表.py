@@ -1,4 +1,4 @@
-```
+# ```
 def containsNearbyDuplicate(nums, k):
     num_dic={}
     j=0
@@ -12,4 +12,4 @@ def containsNearbyDuplicate(nums, k):
             num_dic[i]=j
             j+=1
         return False
-```
+# ```

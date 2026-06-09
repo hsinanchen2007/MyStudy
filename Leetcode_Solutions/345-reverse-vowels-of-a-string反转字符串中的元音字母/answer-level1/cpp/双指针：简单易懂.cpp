@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isVowel(char c){
@@ -32,4 +32,4 @@ public:
         return s;
     }
 };
-```
+// ```

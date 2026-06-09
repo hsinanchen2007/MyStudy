@@ -1,9 +1,9 @@
-### 解题思路
-非零元素的移动位数就是他前面的零元素的个数
+# ### 解题思路
+# 非零元素的移动位数就是他前面的零元素的个数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -15,4 +15,4 @@ class Solution:
             nums[j-i] = nums[j]
         for j in range ((len(nums)-i),len(nums)):
             nums[j] = 0
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历时当出现不一致时，标记位flag置为false，注意NULL点的判断。
+// ### 解题思路
+// 遍历时当出现不一致时，标记位flag置为false，注意NULL点的判断。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return flag;
     }
 };
-```
+// ```

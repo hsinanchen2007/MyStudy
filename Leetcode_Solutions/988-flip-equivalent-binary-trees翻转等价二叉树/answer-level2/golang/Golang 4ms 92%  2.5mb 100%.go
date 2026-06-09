@@ -1,4 +1,4 @@
-```
+// ```
 func flipEquiv(root1 *TreeNode, root2 *TreeNode) bool {
 	if root1 == nil && root2 == nil {
 		return true
@@ -14,4 +14,4 @@ func flipEquiv(root1 *TreeNode, root2 *TreeNode) bool {
 		}
 	}
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
  void reverse(vector<int>& nums,int l,int r)
     {
         int temp;
@@ -19,4 +19,4 @@
         reverse(nums,0,k-1);
         reverse(nums,k,size-1);
     }
-```
+// ```

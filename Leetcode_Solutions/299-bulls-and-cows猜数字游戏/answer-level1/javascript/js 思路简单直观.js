@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/58e50a5f859f09c5206f45c048a95695dc5194b6437c3327a0473c37db48de35-image.png)
+// ![image.png](https://pic.leetcode-cn.com/58e50a5f859f09c5206f45c048a95695dc5194b6437c3327a0473c37db48de35-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 思路：
 遍历一遍找出位置和数字都对的数字，
 将 secret 中未被猜中的数字放到 map 中，
 将 guess 中未猜到正确位置和数字的字符放到集合里
 判断集合里有几个和 map 中相等的字符，这个数量即为数字对，但位置不对的字符数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} secret
  * @param {string} guess
@@ -45,4 +45,4 @@ var getHint = function(secret, guess) {
   
   return bull + 'A' + cow + 'B';
 };
-```
+// ```

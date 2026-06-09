@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     ListNode* cur; //cur记录的值是为这棵子树的根节点的值
@@ -61,5 +61,5 @@ public:
         }
     }
 };
-```
+// ```
 

@@ -1,8 +1,8 @@
-### 解题思路快速排序
+// ### 解题思路快速排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -37,4 +37,4 @@ public:
     nums[j] = t;
 }
 };
-```
+// ```

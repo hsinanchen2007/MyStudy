@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-递归求解每个节点的最长路径
+# 递归求解每个节点的最长路径
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
@@ -23,4 +23,4 @@ class Solution:
         
         test(root)
         return self.rev - 1
-```
+# ```

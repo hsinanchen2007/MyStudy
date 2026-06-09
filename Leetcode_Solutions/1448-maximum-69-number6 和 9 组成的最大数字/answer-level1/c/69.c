@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-从低位到高位入栈
-出栈，找出第一个6，改成9
+// 从低位到高位入栈
+// 出栈，找出第一个6，改成9
 
-num改造完成
+// num改造完成
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maximum69Number (int num){
     int stack[4];
     int top=-1;
@@ -34,4 +34,4 @@ int maximum69Number (int num){
 
     return num;
 }
-```
+// ```

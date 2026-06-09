@@ -1,11 +1,11 @@
-### 解题思路
-1. 即使某节点没有子节点，需要初始化为一个空队列。否则会报空指针异常。
-2. 递归编码为：[1[3[5][6][8]][2][4][7]]
-3. 由于最外层有一个[]。所以解码时需要取根节点的子节点。
+// ### 解题思路
+// 1. 即使某节点没有子节点，需要初始化为一个空队列。否则会报空指针异常。
+// 2. 递归编码为：[1[3[5][6][8]][2][4][7]]
+// 3. 由于最外层有一个[]。所以解码时需要取根节点的子节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -89,4 +89,4 @@ class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```

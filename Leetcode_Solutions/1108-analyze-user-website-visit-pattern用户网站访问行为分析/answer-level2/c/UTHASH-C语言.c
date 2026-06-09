@@ -1,4 +1,4 @@
-```
+// ```
 写的代码乱七八糟，仅供参考！
 看不懂就算了，这题没有想到好思路，吐了！！！
 
@@ -308,4 +308,4 @@ char ** mostVisitedPattern(char ** username, int usernameSize, int* timestamp, i
     *returnSize = 3;
     return g_res;
 }
-```
+// ```

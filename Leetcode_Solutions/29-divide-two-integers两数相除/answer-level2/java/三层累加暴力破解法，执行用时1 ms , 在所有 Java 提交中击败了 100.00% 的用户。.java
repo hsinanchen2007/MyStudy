@@ -1,9 +1,9 @@
-### 解题思路
-本质就是返回被除数能被除数分成多少份的个数。
-然而被除数太大且除数太小循环时间必然过长，所以采用了三层累加的算法大大降低了循环次数。
-### 代码
+// ### 解题思路
+// 本质就是返回被除数能被除数分成多少份的个数。
+// 然而被除数太大且除数太小循环时间必然过长，所以采用了三层累加的算法大大降低了循环次数。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int divide(int dividend, int divisor) {
        if(dividend==Integer.MIN_VALUE&&divisor==-1)
@@ -42,4 +42,4 @@ class Solution {
        return(flat<0)?-i:i;
     }
 }
-```
+// ```

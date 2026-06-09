@@ -1,9 +1,9 @@
-### 解题思路
-这题思路并不难，关键在于超时的问题，如果你的for循环足够多，他就会出这种问题，包括排序，尽量使用时间短的排序方法。
+// ### 解题思路
+// 这题思路并不难，关键在于超时的问题，如果你的for循环足够多，他就会出这种问题，包括排序，尽量使用时间短的排序方法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         List<List<Integer>> sum = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

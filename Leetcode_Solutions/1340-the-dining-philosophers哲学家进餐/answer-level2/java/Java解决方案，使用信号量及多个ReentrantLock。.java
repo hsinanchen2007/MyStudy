@@ -1,8 +1,8 @@
-解决方案简单描述：
-- 每个叉子对应一个ReentrantLock，拿起叉子对应获取该锁。
-- 使用信号量，资源个数初始化为哲学家个数减1。每个哲学家在尝试拿起叉子前需要先获取该信号量，这样能够保证至少有一个哲学家能同时拿到左右两个叉子，以便进餐。
-- 哲学家进餐后放下叉子，释放ReentrantLock及信号量。
-```
+// 解决方案简单描述：
+// - 每个叉子对应一个ReentrantLock，拿起叉子对应获取该锁。
+// - 使用信号量，资源个数初始化为哲学家个数减1。每个哲学家在尝试拿起叉子前需要先获取该信号量，这样能够保证至少有一个哲学家能同时拿到左右两个叉子，以便进餐。
+// - 哲学家进餐后放下叉子，释放ReentrantLock及信号量。
+// ```
 class DiningPhilosophers {
     private static final int PHILOSOPHER_COUNT = 5;
 
@@ -48,4 +48,4 @@ class DiningPhilosophers {
         this.semaphore.release(1);
     }
 }
-```
+// ```

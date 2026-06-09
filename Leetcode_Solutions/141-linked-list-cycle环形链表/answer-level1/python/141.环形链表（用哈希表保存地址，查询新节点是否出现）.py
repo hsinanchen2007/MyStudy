@@ -1,9 +1,9 @@
-### 解题思路
-依次遍历链表，每次的地址存在哈希表中（使用set集合），然后在查询新节点是否出现过
+# ### 解题思路
+# 依次遍历链表，每次的地址存在哈希表中（使用set集合），然后在查询新节点是否出现过
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution(object):
                 return True
             cur = cur.next
         return False
-```
+# ```

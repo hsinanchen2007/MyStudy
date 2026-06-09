@@ -1,9 +1,9 @@
-### 解题思路
-有重合的话，重合部分距离小于两个边长分别相加
+# ### 解题思路
+# 有重合的话，重合部分距离小于两个边长分别相加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         x_range1=abs(rec1[2]-rec1[0])
@@ -19,4 +19,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

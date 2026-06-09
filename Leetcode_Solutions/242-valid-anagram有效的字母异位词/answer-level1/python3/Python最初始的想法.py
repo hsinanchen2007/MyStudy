@@ -1,9 +1,9 @@
-### 解题思路
-两个字典分布统计两个字符串里的字母和对应的出现次数，然后进行比较。
+# ### 解题思路
+# 两个字典分布统计两个字符串里的字母和对应的出现次数，然后进行比较。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         ls = len(s)
@@ -22,4 +22,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

@@ -1,7 +1,7 @@
-[原文](https://codeplot.top/2019/10/09/leetcode-%E5%8A%9B%E6%89%A3-32-%E6%9C%80%E9%95%BF%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7-python/)
+# [原文](https://codeplot.top/2019/10/09/leetcode-%E5%8A%9B%E6%89%A3-32-%E6%9C%80%E9%95%BF%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7-python/)
 
-# 两次遍历
-```python
+# # 两次遍历
+# ```python
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         def fun(s, t):
@@ -17,11 +17,11 @@ class Solution:
                     right = 0
             return max_length
         return max(fun(s, '('), fun(s[::-1], ')'))
-```
+# ```
 
-# DP
+# # DP
 
-```python
+# ```python
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         dp = [0] * len(s)
@@ -39,11 +39,11 @@ class Solution:
                         if j - 1 >= 0: dp[i] += dp[j - 1]
                         ans = max(ans, dp[i])
         return ans
-```
+# ```
 
-# 栈
+# # 栈
 
-```python
+# ```python
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         l = [-1]
@@ -59,4 +59,4 @@ class Solution:
                 else:
                     max_length = max(max_length, i - l[-1])
         return max_length
-```
+# ```

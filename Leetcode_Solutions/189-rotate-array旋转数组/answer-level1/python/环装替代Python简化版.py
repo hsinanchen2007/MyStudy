@@ -1,9 +1,9 @@
-### 解题思路
-换装替代法的JAVA版可在官方题解中发现，此为Python简化版
+# ### 解题思路
+# 换装替代法的JAVA版可在官方题解中发现，此为Python简化版
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, nums, k):
         """
@@ -27,4 +27,4 @@ class Solution(object):
 
             nums[start], nums[i] = nums[i], nums[start]
         
-```
+# ```

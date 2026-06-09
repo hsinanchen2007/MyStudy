@@ -1,5 +1,5 @@
-手动实现一下整个过程，就会明白这个流程。
-```
+// 手动实现一下整个过程，就会明白这个流程。
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
 
     }
 }
-```
+// ```

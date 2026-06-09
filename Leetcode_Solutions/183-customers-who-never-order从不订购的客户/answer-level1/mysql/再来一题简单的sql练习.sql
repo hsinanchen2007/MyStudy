@@ -1,7 +1,7 @@
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select a.Name as Customers 
 from(
@@ -11,4 +11,4 @@ from(
     on Customers.Id = Orders.CustomerId
     ) a
 where a.CustomerId is NULL
-```
+-- ```

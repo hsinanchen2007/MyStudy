@@ -1,9 +1,9 @@
-### 解题思路
-C语言实现
+// ### 解题思路
+// C语言实现
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -22,4 +22,4 @@ int getDecimalValue(struct ListNode* head){
     }
     return sum * 2 + p->val;
 }
-```
+// ```

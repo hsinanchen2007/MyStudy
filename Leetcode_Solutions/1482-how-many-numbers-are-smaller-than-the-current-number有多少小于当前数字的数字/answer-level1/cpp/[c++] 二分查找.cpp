@@ -1,5 +1,5 @@
-**排序数组二分查找第一次出现的数**
-```
+// **排序数组二分查找第一次出现的数**
+// ```
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int> &nums) {
@@ -32,4 +32,4 @@ public:
         return -1;
     }
 };
-```
+// ```

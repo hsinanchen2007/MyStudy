@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int reversePairs(int[] nums) {
         return mergeSortedAndCount(nums,0,nums.length - 1) ;
@@ -47,4 +47,4 @@ class Solution {
             return 0 ;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用一个vector记录原字符串每个节点是否要更改(存入更改映射的index)
+// ### 解题思路
+// 用一个vector记录原字符串每个节点是否要更改(存入更改映射的index)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

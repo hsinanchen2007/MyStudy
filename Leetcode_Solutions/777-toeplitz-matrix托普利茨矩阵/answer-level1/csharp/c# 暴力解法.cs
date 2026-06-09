@@ -1,11 +1,11 @@
-### 解题思路
-几个事项：
-1.左下角和右上角的值不用判断，因为只有一个值。
-2.所有对角线的开始在第一行或第一列内。
+// ### 解题思路
+// 几个事项：
+// 1.左下角和右上角的值不用判断，因为只有一个值。
+// 2.所有对角线的开始在第一行或第一列内。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsToeplitzMatrix(int[][] matrix) {
         int x=matrix.Length;
@@ -48,4 +48,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

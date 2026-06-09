@@ -1,4 +1,4 @@
-利用volatile关键字的特性，简单暴力解决问题
+// 利用volatile关键字的特性，简单暴力解决问题
 class Foo {
 
     private volatile int nums = 0;

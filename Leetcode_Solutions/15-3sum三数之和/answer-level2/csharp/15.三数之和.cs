@@ -1,5 +1,5 @@
-# 排序+双指针
-```
+// # 排序+双指针
+// ```
 public IList<IList<int>> ThreeSum(int[] nums)
 {
     // 排序
@@ -34,10 +34,10 @@ public IList<IList<int>> ThreeSum(int[] nums)
     }
     return result;
 }
-```
+// ```
 
-# 回溯法（超时）
-```
+// # 回溯法（超时）
+// ```
 public IList<IList<int>> ThreeSum(int[] nums)
 {
     // 排序后用于避免重复
@@ -70,4 +70,4 @@ public void Backtrack(int start, int[] nums, List<int> current, List<IList<int>>
         current.RemoveAt(current.Count - 1);
     }
 }
-```
+// ```

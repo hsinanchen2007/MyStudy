@@ -1,15 +1,15 @@
-### 解题思路
-将功能分成3个函数实现：
-（1）数位和计算函数；
-（2）深度优先搜索函数；
-（3）主函数。
-【注意】：因为从右上角开始搜索，所以搜索方向只需要向右和向下就可以。
+// ### 解题思路
+// 将功能分成3个函数实现：
+// （1）数位和计算函数；
+// （2）深度优先搜索函数；
+// （3）主函数。
+// 【注意】：因为从右上角开始搜索，所以搜索方向只需要向右和向下就可以。
 
-![image.png](https://pic.leetcode-cn.com/3665a53e3d7fb5cb4e7f9c2ebf6d82176be60bb034bfbf9d761937a946073fe4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3665a53e3d7fb5cb4e7f9c2ebf6d82176be60bb034bfbf9d761937a946073fe4-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -44,4 +44,4 @@ public:
         return count;
     }
 };
-```
+// ```

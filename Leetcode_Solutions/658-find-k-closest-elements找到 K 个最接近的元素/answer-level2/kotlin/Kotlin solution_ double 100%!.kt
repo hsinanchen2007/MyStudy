@@ -1,8 +1,8 @@
-执行用时 :492 ms, 在所有 Kotlin 提交中击败了100.00%的用户
-内存消耗 :39.4 MB, 在所有 Kotlin 提交中击败了100.00%的用户
+// 执行用时 :492 ms, 在所有 Kotlin 提交中击败了100.00%的用户
+// 内存消耗 :39.4 MB, 在所有 Kotlin 提交中击败了100.00%的用户
 
 
-```
+// ```
     fun findClosestElements(arr: IntArray, k: Int, x: Int): List<Int> {
         val res = ArrayList<Int>(k)
         if (x < arr.first()) {
@@ -74,4 +74,4 @@
         }
         return res
     }
-```
+// ```

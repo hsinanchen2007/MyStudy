@@ -1,11 +1,11 @@
-### 解题思路
-DP就完事了
+// ### 解题思路
+// DP就完事了
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
      int res=nums[0];
@@ -16,4 +16,4 @@ class Solution {
      return res;
     }
 }
-```
+// ```

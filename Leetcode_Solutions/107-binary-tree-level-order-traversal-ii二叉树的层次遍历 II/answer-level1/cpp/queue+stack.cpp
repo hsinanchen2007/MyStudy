@@ -1,11 +1,11 @@
-### 解题思路
-1. 层级遍历二叉树,将每层节点放入stack
-2. 遍历结束,弹出stack,放入vector
-3. 返回vector
+// ### 解题思路
+// 1. 层级遍历二叉树,将每层节点放入stack
+// 2. 遍历结束,弹出stack,放入vector
+// 3. 返回vector
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -51,4 +51,4 @@ public:
         return result;
     }
 };
-```
+// ```

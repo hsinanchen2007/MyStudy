@@ -1,20 +1,20 @@
-### 解题思路
-典型的二分查找题目。题目给了约束条件（数据和边界），保证结果的存在。这里给出C语言的解法。
+// ### 解题思路
+// 典型的二分查找题目。题目给了约束条件（数据和边界），保证结果的存在。这里给出C语言的解法。
 
-注意理解使用的二分代码模板，即：
+// 注意理解使用的二分代码模板，即：
 
-mid = （ll + rr）/ 2;       //中值向下取整
+// mid = （ll + rr）/ 2;       //中值向下取整
 
-移动：ll = mid + 1；rr = mid，意味着边界发生移动，不会锁死在边界上。
+// 移动：ll = mid + 1；rr = mid，意味着边界发生移动，不会锁死在边界上。
 
-本题的判定条件为nums[mid] 和 nums[mid + 1]的关系
+// 本题的判定条件为nums[mid] 和 nums[mid + 1]的关系
 
-![image.png](https://pic.leetcode-cn.com/367efaf92f1b5a017b0bca26ddf74cf5470490cd50f0759536cbd03e55a7fd4f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/367efaf92f1b5a017b0bca26ddf74cf5470490cd50f0759536cbd03e55a7fd4f-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -48,4 +48,4 @@ int findPeakElement(int* nums, int numsSize){
 
     return ll;
 }
-```
+// ```

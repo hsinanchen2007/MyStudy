@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var singleNumbers = function(nums) {
     const obj = nums.reduce((prev, next) => {
         if(next in prev){
@@ -18,4 +18,4 @@ var singleNumbers = function(nums) {
     }
     return res
 };
-```
+// ```

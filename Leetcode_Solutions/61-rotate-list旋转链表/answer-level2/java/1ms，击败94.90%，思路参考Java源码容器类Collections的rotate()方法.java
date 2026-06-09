@@ -1,8 +1,8 @@
-### 解题思路
-根据k找到分割点，分为A、B两个子列表，翻转A，翻转B，连接AB，再翻转整个链表，经过三次翻转可获得答案
-### 代码
+// ### 解题思路
+// 根据k找到分割点，分为A、B两个子列表，翻转A，翻转B，连接AB，再翻转整个链表，经过三次翻转可获得答案
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -63,4 +63,4 @@ class Solution {
         return prev;
     }
 }
-```
+// ```

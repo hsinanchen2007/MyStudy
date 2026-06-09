@@ -1,13 +1,13 @@
-### 解题思路
-四种情况：
-newInterval 插入空列
-newInterval 插入序列前
-newInterval 插入序列后
-newInterval 插在序列中，计算iou
+# ### 解题思路
+# 四种情况：
+# newInterval 插入空列
+# newInterval 插入序列前
+# newInterval 插入序列后
+# newInterval 插在序列中，计算iou
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 def intersection(a,b):
     left=max(a[0],b[0])
@@ -56,4 +56,4 @@ class Solution:
         if(newInterval[0]>intervals[-1][1]):
             new_intervals.append(newInterval)
         return new_intervals
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canPermutePalindrome(char* s){
     int hash[128] = {0};
     int nums = 0;// 出现次数为奇数的字母个数
@@ -24,4 +24,4 @@ bool canPermutePalindrome(char* s){
 
     return (nums > 1) ? false : true;
 }
-```
+// ```

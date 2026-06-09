@@ -1,9 +1,9 @@
-[@labuladong](/u/labuladong/) 的「[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/)」写的很好了，但我看完后，总感觉可以思考的再深入一点。
+// [@labuladong](/u/labuladong/) 的「[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/)」写的很好了，但我看完后，总感觉可以思考的再深入一点。
 
-动态规划，我大体上分成这么三板斧。
+// 动态规划，我大体上分成这么三板斧。
 
-**第一板斧** —— 找思路，看如何自底部向上。
-```
+// **第一板斧** —— 找思路，看如何自底部向上。
+// ```
     F[n]的定义
         有些题目需要做一些变形，直接用题目的定义根本推不出来。
         416，413就是一个很好的例子。
@@ -31,11 +31,11 @@
     labuladong是把状态分成了出售和保留
     但事实上，还有的分成了三种状态，也就是题目中描述的三种状态。
         
-```
-三种状态的参考这个回答：[动态规划求解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-qiu-jie-by-tangzixia/)
+// ```
+// 三种状态的参考这个回答：[动态规划求解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/dong-tai-gui-hua-qiu-jie-by-tangzixia/)
 
-**第二板斧** —— 确认公式
-```
+// **第二板斧** —— 确认公式
+// ```
     这一步反而基本上没什么难度了
     第一，当前持有股票
         a,昨天如果持有股票，那么今天就保留 hold[n - 1]
@@ -47,10 +47,10 @@
         b，昨天没有持有股票，今天也没有 unhold[n - 1]
         unhold[n] = max(a,b)
     最后 max(hold[n], unhold[n])
-```
+// ```
 
-**第三板斧** —— 确认需要存储的上1/N步信息是否找对了
-```
+// **第三板斧** —— 确认需要存储的上1/N步信息是否找对了
+// ```
     这一步有三个作用。
     第一，double check下公式。
     第二，部分情况下，如果只考虑前一步，前两步的话，我们没必要用数组来存储，几个临时变量就OK
@@ -58,12 +58,12 @@
     第三，边界条件的确认
         这道题的边界条件，是需要n-2，所以在0，1的初始化需要注意
     这三点考虑完，基本上代码很快就写完了
-```
+// ```
 
-不用变量，而用数组存储的代码
-只用临时变量的话，这个要怎么写？但我就不贴出来了，代码还是自己写一下比较好。。
-好多人抄的代码，看的思路，以为自己懂了，其实有些细节点真的不一定懂。
-```
+// 不用变量，而用数组存储的代码
+// 只用临时变量的话，这个要怎么写？但我就不贴出来了，代码还是自己写一下比较好。。
+// 好多人抄的代码，看的思路，以为自己懂了，其实有些细节点真的不一定懂。
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -94,5 +94,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

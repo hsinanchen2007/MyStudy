@@ -1,11 +1,11 @@
-按行依次读
+// 按行依次读
 
-按一个小勾为一个单元
+// 按一个小勾为一个单元
 
-规律：
-![图片.png](https://pic.leetcode-cn.com/83c533f9401309d6b7c8786fb224acdfbf33eeb135f1827a4553190c451b2880-%E5%9B%BE%E7%89%87.png)
+// 规律：
+// ![图片.png](https://pic.leetcode-cn.com/83c533f9401309d6b7c8786fb224acdfbf33eeb135f1827a4553190c451b2880-%E5%9B%BE%E7%89%87.png)
 
-```c++
+// ```c++
 class Solution
 {
 public:
@@ -28,5 +28,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

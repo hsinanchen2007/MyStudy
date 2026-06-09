@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 static final int LIVE = 1;
     static final int DEAD = 0;
@@ -81,4 +81,4 @@ static final int LIVE = 1;
 
     }
 }
-```
+// ```

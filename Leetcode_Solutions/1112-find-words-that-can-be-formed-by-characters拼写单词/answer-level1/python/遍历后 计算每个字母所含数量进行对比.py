@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-遍历word 再遍历每个字符串，统计字符串中的字母个数与chars中个数对比，如果大于则不行，小于等于则可拼写
+# ### 解题思路
+# 此处撰写解题思路
+# 遍历word 再遍历每个字符串，统计字符串中的字母个数与chars中个数对比，如果大于则不行，小于等于则可拼写
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
@@ -42,4 +42,4 @@ class Solution:
         #         sum = sum+len(i)
         # return(sum)        
 
-```
+# ```

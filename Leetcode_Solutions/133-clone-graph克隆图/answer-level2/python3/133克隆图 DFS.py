@@ -1,15 +1,15 @@
-### 解题思路
-1.使用递归函数隐式的调用栈
-2.注意visited={}放在递归函数之外
-3.递归基：
-1).若无Vertex，则直接返回；
-2)若出现在visited中返回visited[node]
-4.递归：对每个邻居进行搜索，克隆加到现在node的neighbors上
+# ### 解题思路
+# 1.使用递归函数隐式的调用栈
+# 2.注意visited={}放在递归函数之外
+# 3.递归基：
+# 1).若无Vertex，则直接返回；
+# 2)若出现在visited中返回visited[node]
+# 4.递归：对每个邻居进行搜索，克隆加到现在node的neighbors上
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -32,4 +32,4 @@ class Solution:
                 curNode.neighbors.append(dfs(nbr))#对每个邻居进行深入
             return curNode
         return dfs(node)
-```
+# ```

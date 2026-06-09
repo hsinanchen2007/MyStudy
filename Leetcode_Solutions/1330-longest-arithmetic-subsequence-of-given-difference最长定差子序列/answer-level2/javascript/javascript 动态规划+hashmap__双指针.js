@@ -1,5 +1,5 @@
-方法一：双指针
-```
+// 方法一：双指针
+// ```
 var longestSubsequence = function(arr, difference) {
  let max_len=1
  let isFind=false
@@ -22,10 +22,10 @@ var longestSubsequence = function(arr, difference) {
    
  return max_len
 };
-```
+// ```
 
-方法二：动态规划+hashmap
-```
+// 方法二：动态规划+hashmap
+// ```
 var longestSubsequence = function(arr, difference) {
     if(arr.length===0)return 0
     let hashmap=new Map()
@@ -41,4 +41,4 @@ var longestSubsequence = function(arr, difference) {
     }
     return ans
 };
-```
+// ```

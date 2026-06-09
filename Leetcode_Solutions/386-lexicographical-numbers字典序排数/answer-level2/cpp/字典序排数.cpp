@@ -1,7 +1,7 @@
-根据定义求解，对一条路径向下求解，当超出n的范围时，开始下一条路径，同时注意含有多种0的情况，如下：
+// 根据定义求解，对一条路径向下求解，当超出n的范围时，开始下一条路径，同时注意含有多种0的情况，如下：
 
-1）迭代求解：
-```
+// 1）迭代求解：
+// ```
 class Solution {
 public:
     vector<int> lexicalOrder(int n) {
@@ -20,11 +20,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-2）递归求解
-```
+// 2）递归求解
+// ```
 class Solution {
 public:
     vector<int> lexicalOrder(int n) {
@@ -44,4 +44,4 @@ public:
         }
     }
 };
-```
+// ```

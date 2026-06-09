@@ -1,9 +1,9 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
-## 解法一 - 模拟二进制运算
+// ## 解法一 - 模拟二进制运算
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -31,7 +31,7 @@ var numSteps = function(s) {
     if(s[j] === '1' && carry === 1) steps += 1;
     return steps;
 };
-```
-**复杂度分析**:
-- 时间复杂度： $O(N)$，$N$ 是字符串长度
-- 空间复杂度： $O(1)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度： $O(N)$，$N$ 是字符串长度
+// - 空间复杂度： $O(1)$

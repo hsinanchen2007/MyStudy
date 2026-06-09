@@ -1,7 +1,7 @@
 
 
-java
-```java
+// java
+// ```java
 class Solution {
     public boolean judgeCircle(String moves) {
         int o = 0;
@@ -27,10 +27,10 @@ class Solution {
         return o == 0 && v == 0;
     }
 }
-```
+// ```
 
-js
-```js
+// js
+// ```js
 /**
  * @param {string} moves
  * @return {boolean}
@@ -58,4 +58,4 @@ var judgeCircle = function(moves) {
     
     return !o && !v;
 };
-```
+// ```

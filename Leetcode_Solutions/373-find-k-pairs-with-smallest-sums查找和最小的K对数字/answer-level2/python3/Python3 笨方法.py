@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def kSmallestPairs(self, nums1, nums2, k: int):
         a = []
@@ -7,4 +7,4 @@ class Solution:
                 a.append([i, j])
         a.sort(key=sum)
         return a[:k]
-```
+# ```

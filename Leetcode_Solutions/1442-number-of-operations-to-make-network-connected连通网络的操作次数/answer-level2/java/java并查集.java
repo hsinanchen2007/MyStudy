@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int fa[] = new int[100001];
 
@@ -40,4 +40,4 @@ class Solution {
         return re-1;
     }
 }
-```
+// ```

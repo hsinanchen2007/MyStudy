@@ -1,9 +1,9 @@
-### 解题思路
-既然数学功底不好，很难找规律，那就暴利解法吧
+// ### 解题思路
+// 既然数学功底不好，很难找规律，那就暴利解法吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         //m*n是m行n列
@@ -23,4 +23,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

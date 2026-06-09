@@ -1,6 +1,6 @@
-按照自己思路写完，再看别人的答案，才知道那个操作叫剪枝
+# 按照自己思路写完，再看别人的答案，才知道那个操作叫剪枝
 
-```
+# ```
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -19,4 +19,4 @@ class Solution:
                     v[i] = False
         bf([])
         return res
-```
+# ```

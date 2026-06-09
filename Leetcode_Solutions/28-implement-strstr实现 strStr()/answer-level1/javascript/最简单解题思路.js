@@ -1,7 +1,7 @@
-方法一：
-依次遍历haystack的第i~i+n个字符，与needle比较，相同返回i；
-最后不存在返回-1；
-去除几种特殊情况，needle长度为0，haystack长度为0，两者相等
+// 方法一：
+// 依次遍历haystack的第i~i+n个字符，与needle比较，相同返回i；
+// 最后不存在返回-1；
+// 去除几种特殊情况，needle长度为0，haystack长度为0，两者相等
 var strStr = function(haystack, needle) {
     //方法一：
     if (needle.length==0 || haystack==needle) return 0;

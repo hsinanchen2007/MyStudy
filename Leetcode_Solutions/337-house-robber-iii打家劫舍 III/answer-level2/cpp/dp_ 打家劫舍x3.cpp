@@ -1,17 +1,17 @@
-## [I](https://leetcode-cn.com/problems/house-robber/)
-### 解题思路
-`f[i][0]`表示前i个预约，其中第i个预约不接的最大值
-`f[i][0]`表示前i个预约，其中第i个预约接的最大值
-```
+// ## [I](https://leetcode-cn.com/problems/house-robber/)
+// ### 解题思路
+// `f[i][0]`表示前i个预约，其中第i个预约不接的最大值
+// `f[i][0]`表示前i个预约，其中第i个预约接的最大值
+// ```
 f[i][0] = max(f[i - 1][0], f[i - 1][1]);
 f[i][1] = f[i - 1][0] + nums[i - 1];
-```
+// ```
 
 
-注意到`f[i]`只依赖与前一个状态`f[i-1]`，所以我们可以不用数组，只用两个变量存储前一个状态
-### 代码
+// 注意到`f[i]`只依赖与前一个状态`f[i-1]`，所以我们可以不用数组，只用两个变量存储前一个状态
+// ### 代码
 
-```cpp
+// ```cpp
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -40,16 +40,16 @@ public:
 };
 
 
-```
-## [II](https://leetcode-cn.com/problems/house-robber-ii/)
-环形：第一个房子和最后一个不能同时取
+// ```
+// ## [II](https://leetcode-cn.com/problems/house-robber-ii/)
+// 环形：第一个房子和最后一个不能同时取
 
-所以有两种情况：
-+ 不取第一个
-+ 不取最后一个  
+// 所以有两种情况：
+// + 不取第一个
+// + 不取最后一个  
 
-最后取两种情况的最大值即可
-```cpp
+// 最后取两种情况的最大值即可
+// ```cpp
 class Solution
 {
 public:
@@ -86,16 +86,16 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-## [III](https://leetcode-cn.com/problems/house-robber-iii/)
-树形：孩子和父亲不能同时取
+// ## [III](https://leetcode-cn.com/problems/house-robber-iii/)
+// 树形：孩子和父亲不能同时取
 
-思路是类似的，注意`preWork`不一样，有三种情况：
-+ 左右都取
-+ 取左不取右
-+ 取右不取左
-```cpp
+// 思路是类似的，注意`preWork`不一样，有三种情况：
+// + 左右都取
+// + 取左不取右
+// + 取右不取左
+// ```cpp
 class Solution
 {
 public:
@@ -117,4 +117,4 @@ public:
         return max(ans.first, ans.second);
     }
 };
-```
+// ```

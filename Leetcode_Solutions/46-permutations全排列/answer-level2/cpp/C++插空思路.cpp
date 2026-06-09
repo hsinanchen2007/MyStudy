@@ -1,5 +1,5 @@
-思路为遍历nums数组，数字后向之前每个结果vector进行插空，有vector.size()+1个空可以选择，将其他数再填入数组更新结果vector。
-```
+// 思路为遍历nums数组，数字后向之前每个结果vector进行插空，有vector.size()+1个空可以选择，将其他数再填入数组更新结果vector。
+// ```
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return per;
     }
 };
-```
+// ```

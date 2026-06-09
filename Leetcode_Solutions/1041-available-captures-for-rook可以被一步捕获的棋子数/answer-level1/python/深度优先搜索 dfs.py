@@ -1,11 +1,11 @@
-1、寻找R的位置
-2、从R的位置出发，上下左右，如果遇见B就停止搜索，如果遇见p，则结果+1，并停止搜索
+# 1、寻找R的位置
+# 2、从R的位置出发，上下左右，如果遇见B就停止搜索，如果遇见p，则结果+1，并停止搜索
 
-最终返回结果
+# 最终返回结果
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numRookCaptures(self, board):
         """
@@ -31,4 +31,4 @@ class Solution(object):
                     dfs(i,j+1,0,1)
                     dfs(i,j-1,0,-1)
         return self.ans
-```
+# ```

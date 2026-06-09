@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def letterCasePermutation(S: String): List[String] = {
     import scala.collection.mutable.ArrayBuffer
@@ -19,4 +19,4 @@ object Solution {
   }
 }
 
-```
+// ```

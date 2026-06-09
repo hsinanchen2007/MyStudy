@@ -1,5 +1,5 @@
-JS解这题属实快
-```js
+// JS解这题属实快
+// ```js
 var strToInt = function(str) {
   str = str.trim();
   let res = parseInt(str);
@@ -10,4 +10,4 @@ var strToInt = function(str) {
   if(res > maxValue) return maxValue; 
   return res
 };
-```
+// ```

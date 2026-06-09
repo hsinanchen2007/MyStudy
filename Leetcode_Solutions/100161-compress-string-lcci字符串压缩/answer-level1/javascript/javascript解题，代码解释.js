@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var compressString = function(S) {
   // 初始化一个最终的字符串结果
   let endString = ''
@@ -31,4 +31,4 @@ var compressString = function(S) {
 
 };
 
-```
+// ```

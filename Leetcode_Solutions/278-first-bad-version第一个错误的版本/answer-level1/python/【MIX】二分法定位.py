@@ -1,9 +1,9 @@
-### 解题思路
-直接二分
+# ### 解题思路
+# 直接二分
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
         long start = 1L;
@@ -19,8 +19,8 @@ public class Solution extends VersionControl {
         return (int)end;
     }
 }
-```
-```python []
+# ```
+# ```python []
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -44,8 +44,8 @@ class Solution:
 
         return start        
 
-```
-```c++ []
+# ```
+# ```c++ []
 typedef long long LL;
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
@@ -64,4 +64,4 @@ public:
         return (int)end;
     }
 };
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxArea(height []int) int {
     // 计算以ai结尾最大的一个量
     res := 0
@@ -25,4 +25,4 @@ func min(a, b int) int {
     }
     return b
 }
-```
+// ```

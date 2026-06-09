@@ -1,10 +1,10 @@
-### 解题思路
-采用了官方的方法二的思路
-![微信图片_20200312235323.png](https://pic.leetcode-cn.com/3ca95360f680d1ee76b0af1de81df70c84c62b6c3c6188f348a1e9ac4cce6bd3-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200312235323.png)
+// ### 解题思路
+// 采用了官方的方法二的思路
+// ![微信图片_20200312235323.png](https://pic.leetcode-cn.com/3ca95360f680d1ee76b0af1de81df70c84c62b6c3c6188f348a1e9ac4cce6bd3-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200312235323.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool check(string t, string str)
@@ -46,4 +46,4 @@ public:
         return "";
     }
 };
-```
+// ```

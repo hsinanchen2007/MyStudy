@@ -1,9 +1,9 @@
-### 解题思路  要思考返回值是什么，是遍历到叶节点时，总和sum是否减小到零了。
+// ### 解题思路  要思考返回值是什么，是遍历到叶节点时，总和sum是否减小到零了。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

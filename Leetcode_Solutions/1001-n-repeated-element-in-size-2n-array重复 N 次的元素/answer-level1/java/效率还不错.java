@@ -1,9 +1,9 @@
-### 解题思路
-题目写的很清楚，总共2N个，N+1个不同，也就是说只要有一个重复的就是满足题目的结果，所以用了Set判重复
+// ### 解题思路
+// 题目写的很清楚，总共2N个，N+1个不同，也就是说只要有一个重复的就是满足题目的结果，所以用了Set判重复
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int repeatedNTimes(int[] A) {
         Set<Integer> set = new HashSet<>();
@@ -17,4 +17,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-很好想的方法，但效率略低，应该可以优化成一次遍历解决
-```python
+# 很好想的方法，但效率略低，应该可以优化成一次遍历解决
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         dfs(root)
         return int(self.cnt)
 
-```
+# ```

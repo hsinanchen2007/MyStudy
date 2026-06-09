@@ -1,6 +1,6 @@
-![2019-09-30_18-55.png](https://pic.leetcode-cn.com/ec3185e4b90580e83ebdc862abe960e8f274f7a273b8438398cd4718f2e96ac7-2019-09-30_18-55.png)
+// ![2019-09-30_18-55.png](https://pic.leetcode-cn.com/ec3185e4b90580e83ebdc862abe960e8f274f7a273b8438398cd4718f2e96ac7-2019-09-30_18-55.png)
 
-```c
+// ```c
 // 归并
 void merge(int * nums, int * tmp, int leftStart, int rightStart, int rightEnd) {
     int cur = leftStart;
@@ -80,4 +80,4 @@ int threeSumClosest(int* nums, int numsSize, int target) {
 
     return ret;
 }
-```
+// ```

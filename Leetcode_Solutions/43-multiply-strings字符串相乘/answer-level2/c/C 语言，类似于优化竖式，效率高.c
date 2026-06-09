@@ -1,6 +1,6 @@
 
-![图片.png](https://pic.leetcode-cn.com/7fb347b25432d75b2d02145499e36da7ba2de158e509b599b5d8603ab5fd1e09-%E5%9B%BE%E7%89%87.png)
-```
+// ![图片.png](https://pic.leetcode-cn.com/7fb347b25432d75b2d02145499e36da7ba2de158e509b599b5d8603ab5fd1e09-%E5%9B%BE%E7%89%87.png)
+// ```
 char *
 multiply( char *num1, char *num2 )
 {
@@ -61,4 +61,4 @@ multiply( char *num1, char *num2 )
 
 	return ans;
 }
-```
+// ```

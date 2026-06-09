@@ -1,9 +1,9 @@
-### 解题思路
-正则匹配最后一位，递归
+// ### 解题思路
+// 正则匹配最后一位，递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -22,4 +22,4 @@ var reverse = function(x,num='') {
   return num;
 };
 
-```
+// ```

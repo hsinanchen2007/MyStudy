@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         int[] bloom = new int[80000];
@@ -28,4 +28,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

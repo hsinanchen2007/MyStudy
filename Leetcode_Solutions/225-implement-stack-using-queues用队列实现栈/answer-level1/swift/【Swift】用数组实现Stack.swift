@@ -1,9 +1,9 @@
-### Stack的关键点是先进后出(LIFO)
-Stack就像一个桶，先放入的后出去，后放入的先出去，所以可以直接使用数组来实现
+// ### Stack的关键点是先进后出(LIFO)
+// Stack就像一个桶，先放入的后出去，后放入的先出去，所以可以直接使用数组来实现
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class MyStack {
     // 初始化一个数组
     var list = [Int]()
@@ -50,4 +50,4 @@ class MyStack {
  * let ret_3: Int = obj.top()
  * let ret_4: Bool = obj.empty()
  */
-```
+// ```

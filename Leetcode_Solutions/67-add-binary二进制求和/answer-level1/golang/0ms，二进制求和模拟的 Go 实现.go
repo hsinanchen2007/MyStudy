@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/adca8db36fde98786af5f1f143500504ecdcf14a292383520fd6ad081fed680e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/adca8db36fde98786af5f1f143500504ecdcf14a292383520fd6ad081fed680e-image.png)
 
-模拟题，二进制求和，字符串从尾部向前遍历相加，存储进位，累加到下一次计算。
+// 模拟题，二进制求和，字符串从尾部向前遍历相加，存储进位，累加到下一次计算。
 
-Go 语言中注意类型的强制类型转换，容易报错。
+// Go 语言中注意类型的强制类型转换，容易报错。
 
-代码：
-```
+// 代码：
+// ```
 func addBinary(a string, b string) string {
     result := ""
     flag := 0       // 存储进位
@@ -34,4 +34,4 @@ func addBinary(a string, b string) string {
     }
     return result
 }
-```
+// ```

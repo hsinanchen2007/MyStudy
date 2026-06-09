@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/3f7bc790797c046a745e7ff277c2e3adf3ab84348d8bf8642a68b8c69139337c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3f7bc790797c046a745e7ff277c2e3adf3ab84348d8bf8642a68b8c69139337c-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 哈希：利用 Set 结构保存最大 k 个数，超过 k 个数，删除最早存进来的数，
 一旦发现即将存入的数在 Set 中有相等的值，直接结束遍历，返回 true
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -51,4 +51,4 @@ var containsNearbyDuplicate = function(nums, k) {
   
 //   return ans;
 // };
-```
+// ```

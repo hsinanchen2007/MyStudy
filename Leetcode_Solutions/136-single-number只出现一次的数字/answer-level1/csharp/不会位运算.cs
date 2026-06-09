@@ -1,9 +1,9 @@
-### 解题思路
-真的不会位运算，但是这么写似乎没毛病，欢迎大神指正
+// ### 解题思路
+// 真的不会位运算，但是这么写似乎没毛病，欢迎大神指正
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int SingleNumber(int[] nums) {
         int result=0;
@@ -27,4 +27,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

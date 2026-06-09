@@ -1,5 +1,5 @@
-二分创建节点，左边的始终是左节点，右边的始终是右节点
-```
+// 二分创建节点，左边的始终是左节点，右边的始终是右节点
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -39,4 +39,4 @@ func halfSearch(left, right int, nums []int) *TreeNode {
 	}
 	return midNode
 }
-```
+// ```

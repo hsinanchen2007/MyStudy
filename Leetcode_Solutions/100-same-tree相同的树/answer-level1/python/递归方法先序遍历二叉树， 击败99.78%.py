@@ -1,9 +1,9 @@
 
-直接使用递归的方法，判断是否有root，没有就返回，有的话就放入之前准备好的数组当中，我觉得我的代码写的问题还挺多的，期待大佬们的纠正！
+# 直接使用递归的方法，判断是否有root，没有就返回，有的话就放入之前准备好的数组当中，我觉得我的代码写的问题还挺多的，期待大佬们的纠正！
 
-![WeChatad5d6fa0ad92f3e554d61b43b5fbb8a0.png](https://pic.leetcode-cn.com/21606046d6d57247e0ff1f54cf032217c9436f03d23e88a8f39b046470453518-WeChatad5d6fa0ad92f3e554d61b43b5fbb8a0.png)
+# ![WeChatad5d6fa0ad92f3e554d61b43b5fbb8a0.png](https://pic.leetcode-cn.com/21606046d6d57247e0ff1f54cf032217c9436f03d23e88a8f39b046470453518-WeChatad5d6fa0ad92f3e554d61b43b5fbb8a0.png)
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
         self.a.append(root.val)
         self.PreOrder(root.left)
         self.PreOrder(root.right)
-```
+# ```

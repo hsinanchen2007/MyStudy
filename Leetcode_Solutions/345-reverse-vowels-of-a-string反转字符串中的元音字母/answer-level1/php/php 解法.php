@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     private $ch = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
@@ -23,4 +23,4 @@ class Solution {
         $ch[$j] = $tmp;
     }
 }
-```
+// ```

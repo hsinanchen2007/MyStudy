@@ -1,9 +1,9 @@
-### 解题思路
-先对数组进行排序，再控制一个数进行遍历，其余两个数依靠双指针进行寻找，注意重复解。
+# ### 解题思路
+# 先对数组进行排序，再控制一个数进行遍历，其余两个数依靠双指针进行寻找，注意重复解。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -39,4 +39,4 @@ class Solution:
                     
                 
             
-```
+# ```

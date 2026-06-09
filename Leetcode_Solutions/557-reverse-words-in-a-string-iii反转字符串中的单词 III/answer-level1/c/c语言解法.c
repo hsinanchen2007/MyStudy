@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针法。
+// ### 解题思路
+// 快慢指针法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void swap(char* a,char *b)
 {
     char temp=*a;
@@ -28,4 +28,4 @@ char * reverseWords(char * s){
     }
     return s;
 }
-```
+// ```

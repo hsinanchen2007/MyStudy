@@ -1,11 +1,11 @@
-[参考这位的题解](https://leetcode-cn.com/problems/target-sum/solution/js-dong-tai-gui-hua-by-stack_pop-3/)
+// [参考这位的题解](https://leetcode-cn.com/problems/target-sum/solution/js-dong-tai-gui-hua-by-stack_pop-3/)
 
-主要是js中对象的属性名是string，我们可以用双非转化为string为number。
-**题目中：保证返回的最终结果能被32位整数存下**。是我们使用的条件，不然会超限
+// 主要是js中对象的属性名是string，我们可以用双非转化为string为number。
+// **题目中：保证返回的最终结果能被32位整数存下**。是我们使用的条件，不然会超限
 
 
 
-```javascript []
+// ```javascript []
 /**
  * @param {number[]} nums
  * @param {number} S
@@ -27,4 +27,4 @@ var findTargetSumWays = function(nums, S) {
   }
   return dp[nums.length - 1][S] || 0
 }
-```
+// ```

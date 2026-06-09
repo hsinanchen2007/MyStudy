@@ -1,5 +1,5 @@
-我看了其他的用DFS的题解，我的解法区别主要在于对Node(val,null)的场景进行了兼容，其他的题解都会报空指针，还有就是保存Map时使用HashCode节省空间。
-```
+// 我看了其他的用DFS的题解，我的解法区别主要在于对Node(val,null)的场景进行了兼容，其他的题解都会报空指针，还有就是保存Map时使用HashCode节省空间。
+// ```
 class Solution {
     public Node cloneGraph(Node node) {
         if (node == null) {
@@ -25,4 +25,4 @@ class Solution {
         return clonedNode;
     }
 }
-```
+// ```

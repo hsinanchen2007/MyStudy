@@ -1,6 +1,6 @@
-参考这位大神的代码和思路, 我修改了一部分
+// 参考这位大神的代码和思路, 我修改了一部分
 
-```
+// ```
 class Solution {
     public int uniquePaths(int m, int n) {
 
@@ -16,4 +16,4 @@ class Solution {
         return (int)(dom/dedom);
     }
 }
-```
+// ```

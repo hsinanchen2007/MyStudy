@@ -1,7 +1,7 @@
-失败的代码，源自尝试自己构造递归行为。没能实现重复动作的具体code，直接导致内部处理困难重重。
-我觉得需要想办法学会如何提炼递归的repeat行为，这才是最重要的。
+// 失败的代码，源自尝试自己构造递归行为。没能实现重复动作的具体code，直接导致内部处理困难重重。
+// 我觉得需要想办法学会如何提炼递归的repeat行为，这才是最重要的。
 
-```
+// ```
 public class Solution {
         public TreeNode SortedArrayToBST(int[] nums)
         {
@@ -94,4 +94,4 @@ public class Solution {
         //     }
         // }
 }
-```
+// ```

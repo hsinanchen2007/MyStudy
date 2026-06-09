@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，状态转移方程直接比较当前值，最大值和当前值乘积以及最小值和当前值乘积谁大谁小
+// ### 解题思路
+// 动态规划，状态转移方程直接比较当前值，最大值和当前值乘积以及最小值和当前值乘积谁大谁小
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define GETMAX(a,b,c) (a)>(b) ? ( (a)>(c)? (a) : (c)) : ( (b)>(c) ? (b) :(c) )
 #define GETMIN(a,b,c) (a)<(b) ? ( (a)<(c)? (a) : (c)) : ( (b)<(c) ? (b) :(c) )
 int maxProduct(int* nums, int numsSize){
@@ -24,4 +24,4 @@ int maxProduct(int* nums, int numsSize){
     free(min);
     return result;
 }
-```
+// ```

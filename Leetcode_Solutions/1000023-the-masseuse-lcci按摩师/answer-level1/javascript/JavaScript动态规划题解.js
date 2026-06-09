@@ -1,9 +1,9 @@
-### 解题思路
-当前第n个数的最优解`f(n)`，一定是第n-2个数的最优解加当前数`f(n-2)+nums[n]`，和第n-1个数的最优解`f(n-1)`中较大的那个。
+// ### 解题思路
+// 当前第n个数的最优解`f(n)`，一定是第n-2个数的最优解加当前数`f(n-2)+nums[n]`，和第n-1个数的最优解`f(n-1)`中较大的那个。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var massage = function(nums) {
     }
     return now;
 };
-```
+// ```

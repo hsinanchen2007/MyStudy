@@ -1,8 +1,8 @@
-### 解题思路
-定义数组value记录接受每位预约服务时总预约时间的最大值，状态转移方程为：value[i] = Math.max(value[i-2], value[i-3]) + nums[i];
+# ### 解题思路
+# 定义数组value记录接受每位预约服务时总预约时间的最大值，状态转移方程为：value[i] = Math.max(value[i-2], value[i-3]) + nums[i];
 
-### 代码
-```java []
+# ### 代码
+# ```java []
 class Solution {
     public int massage(int[] nums) {
         int length = nums.length;
@@ -21,8 +21,8 @@ class Solution {
         return max;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def massage(self, nums: List[int]) -> int:
         value = []
@@ -37,8 +37,8 @@ class Solution:
                 value.append(tmp + nums[i])
             max = value[i] if value[i] > max else max 
         return max   
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -58,6 +58,6 @@ public:
         return max;
     }
 };
-```
+# ```
 
 

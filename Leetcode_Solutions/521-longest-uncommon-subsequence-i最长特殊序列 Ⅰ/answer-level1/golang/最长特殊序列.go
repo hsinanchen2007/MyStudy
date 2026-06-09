@@ -1,6 +1,6 @@
-理了半天题目，原来是这意思
+// 理了半天题目，原来是这意思
 
-```
+// ```
 func findLUSlength(a string, b string) int {
     if a == b {
         return -1
@@ -19,4 +19,4 @@ func findLUSlength(a string, b string) int {
     }
     return len(b)
 }
-```
+// ```

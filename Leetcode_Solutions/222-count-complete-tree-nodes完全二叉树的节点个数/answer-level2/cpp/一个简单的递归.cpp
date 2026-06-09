@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int sum=1;
@@ -11,4 +11,4 @@ public:
         return sum;
     }
 };
-```
+// ```

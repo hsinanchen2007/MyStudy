@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool canTransform(string start, string end) {
@@ -24,6 +24,6 @@ public:
         return true;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/40c418a065b7ff66f8f4671130a37a6a8a867e79650040f301133ea819d639d7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/40c418a065b7ff66f8f4671130a37a6a8a867e79650040f301133ea819d639d7-image.png)

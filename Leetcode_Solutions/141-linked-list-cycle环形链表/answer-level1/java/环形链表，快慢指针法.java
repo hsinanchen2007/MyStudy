@@ -1,9 +1,9 @@
-### 解题思路
-通过快慢指针循环查找是否存在相同节点
+// ### 解题思路
+// 通过快慢指针循环查找是否存在相同节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -29,4 +29,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/5bfac30f8535870b6f3408e4b8d796ab515f753e766b8b4ed154344019f15691-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/5bfac30f8535870b6f3408e4b8d796ab515f753e766b8b4ed154344019f15691-image.png)
+// ```
 import java.util.HashSet;
 import java.util.Set;
 
@@ -48,4 +48,4 @@ public class toGoatLatin {
         }
     }
 }
-```
+// ```

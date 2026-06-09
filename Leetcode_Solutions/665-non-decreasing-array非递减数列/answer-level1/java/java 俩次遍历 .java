@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-java 俩次遍历 
-第一次纠正一次逆序
-再出现 逆序就不是非递减数列
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// java 俩次遍历 
+// 第一次纠正一次逆序
+// 再出现 逆序就不是非递减数列
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkPossibility(int[] nums) {
         for ( int i = 0; i < nums.length-1; i++ ) {
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

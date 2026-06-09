@@ -1,9 +1,9 @@
-### 解题思路
-与操作
+// ### 解题思路
+// 与操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hammingDistance(int x, int y)
 {
     int i;
@@ -21,4 +21,4 @@ int hammingDistance(int x, int y)
     }
     return s;
 }
-```
+// ```

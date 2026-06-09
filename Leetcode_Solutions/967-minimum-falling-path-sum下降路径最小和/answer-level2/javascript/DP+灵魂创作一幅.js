@@ -1,7 +1,7 @@
-不拐弯抹角的DP，灵魂创作一幅：
-![IMG_8B4B7FF5E7A2-1.jpeg](https://pic.leetcode-cn.com/44f777fa7afa47444aa1e995ed96706af2d3d4c0053fa02298a95d13e04aa4ea-IMG_8B4B7FF5E7A2-1.jpeg)
+// 不拐弯抹角的DP，灵魂创作一幅：
+// ![IMG_8B4B7FF5E7A2-1.jpeg](https://pic.leetcode-cn.com/44f777fa7afa47444aa1e995ed96706af2d3d4c0053fa02298a95d13e04aa4ea-IMG_8B4B7FF5E7A2-1.jpeg)
 
-```js
+// ```js
 /**
  * @param {number[][]} A
  * @return {number}
@@ -31,5 +31,5 @@ var minFallingPathSum = function(A) {
     }
     return Math.min(...A[rows - 1])
 };
-```
-我这里在空间上是直接复用了`A`, 本来应该新建一个`dp`数组, 但是为了空间复杂度...
+// ```
+// 我这里在空间上是直接复用了`A`, 本来应该新建一个`dp`数组, 但是为了空间复杂度...

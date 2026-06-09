@@ -1,4 +1,4 @@
-```
+// ```
 int longestPalindrome(char * s){
 
   int map[128] = {0};
@@ -24,4 +24,4 @@ int longestPalindrome(char * s){
 
   return ret + hasOddNum;
 }
-```
+// ```

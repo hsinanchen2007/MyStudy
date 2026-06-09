@@ -1,9 +1,9 @@
-### 解题思路
-保证每行每列的最大值不变即可
-每个值变成行列最大值中较小的一个
-### 代码
+// ### 解题思路
+// 保证每行每列的最大值不变即可
+// 每个值变成行列最大值中较小的一个
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxIncreaseKeepingSkyline(vector<vector<int>>& grid) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-map记录每个元素个数
-![image.png](https://pic.leetcode-cn.com/b1fdb26a1fad672409e53122406094685ae8d3213c10f4052931a2cb1a36323d-image.png)
+// ### 解题思路
+// map记录每个元素个数
+// ![image.png](https://pic.leetcode-cn.com/b1fdb26a1fad672409e53122406094685ae8d3213c10f4052931a2cb1a36323d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return 0;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
  public static int LengthOfLastWord(string s)
         {
             s = s.Trim();
@@ -13,4 +13,4 @@
             return  s.Length - s.LastIndexOf(' ')-1;
             //s.Substring(s.LastIndexOf(' '),s.Length);
         }
-```
+// ```

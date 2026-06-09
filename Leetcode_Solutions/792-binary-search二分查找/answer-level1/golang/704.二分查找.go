@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-真的只是二分查找而已...
+// 真的只是二分查找而已...
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
 	l,r,mid := 0,len(nums) - 1,(len(nums) - 1) / 2
 	for r >= l {
@@ -19,4 +19,4 @@ func search(nums []int, target int) int {
 	}
 	return -1
 }
-```
+// ```

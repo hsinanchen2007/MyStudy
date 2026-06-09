@@ -1,5 +1,5 @@
-单Map, 一遍循环
-```
+// 单Map, 一遍循环
+// ```
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         String[] words = str.split(" ");
@@ -10,12 +10,12 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
 
-再放一个可读版本吧, 思路一样
+// 再放一个可读版本吧, 思路一样
 
-```
+// ```
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         if (pattern == null && str == null) {
@@ -40,4 +40,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

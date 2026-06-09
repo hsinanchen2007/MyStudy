@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -9,13 +9,13 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-```
-```
+// ```
+// ```
 //1、右子树的空括号是无效括号。
 //2、左子树的空括号需要保留。
 //3、左子树叶子节点之后的左节点也不用加括号。
-```
- ```
+// ```
+//  ```
 string DFS(TreeNode* root){
      if(!root) return "";
      string str=to_string(root->val);
@@ -33,4 +33,4 @@ public:
         return DFS(t);
     }
 };
-```
+// ```

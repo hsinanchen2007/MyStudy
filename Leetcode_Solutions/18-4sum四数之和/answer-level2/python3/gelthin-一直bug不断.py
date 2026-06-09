@@ -1,34 +1,34 @@
-### 解题思路
-参照题解 [双指针解法。参照三数之和，嗝。](https://leetcode-cn.com/problems/4sum/solution/shuang-zhi-zhen-jie-fa-can-zhao-san-shu-zhi-he-ge-/), 首先固定两个指针在开头，然后只遍历两个指针
+# ### 解题思路
+# 参照题解 [双指针解法。参照三数之和，嗝。](https://leetcode-cn.com/problems/4sum/solution/shuang-zhi-zhen-jie-fa-can-zhao-san-shu-zhi-he-ge-/), 首先固定两个指针在开头，然后只遍历两个指针
 
->使用四个指针(a<b<c<d)。固定最小的a和b在左边，c=b+1,d=_size-1 移动两个指针包夹求解。
->保存使得nums[a]+nums[b]+nums[c]+nums[d]==target的解。偏大时d左移，偏小时c右移。c和d相
->遇时，表示以当前的a和b为最小值的解已经全部求得。b++,进入下一轮循环b循环，当b循环结束后。
->a++，进入下一轮a循环。 即(a在最外层循环，里面嵌套b循环，再嵌套双指针c,d包夹求解)。
+# >使用四个指针(a<b<c<d)。固定最小的a和b在左边，c=b+1,d=_size-1 移动两个指针包夹求解。
+# >保存使得nums[a]+nums[b]+nums[c]+nums[d]==target的解。偏大时d左移，偏小时c右移。c和d相
+# >遇时，表示以当前的a和b为最小值的解已经全部求得。b++,进入下一轮循环b循环，当b循环结束后。
+# >a++，进入下一轮a循环。 即(a在最外层循环，里面嵌套b循环，再嵌套双指针c,d包夹求解)。
 
-这里就是调节 i,j 指针去重， 写代码要细致小心。
+# 这里就是调节 i,j 指针去重， 写代码要细致小心。
 
-if (i>0) and (nums[i]==nums[i-1]):
-    continue
+# if (i>0) and (nums[i]==nums[i-1]):
+#     continue
 
-if j>i+1 and (nums[j]==nums[j-1]): # bug 对 j>0 [0,0,0,0] 出错 j>1 [-4,-1,-1,0,1,2] 出错
-    continue
+# if j>i+1 and (nums[j]==nums[j-1]): # bug 对 j>0 [0,0,0,0] 出错 j>1 [-4,-1,-1,0,1,2] 出错
+#     continue
 
-准备工作：
+# 准备工作：
 
- 因为要使用双指针的方法，排序是必须要做der~。 时间复杂度O(NlogN).
+#  因为要使用双指针的方法，排序是必须要做der~。 时间复杂度O(NlogN).
 
-解决重复解：
+# 解决重复解：
 
- 上面的解法存在重复解的原因是因为移动指针时可能出现重复数字的情况。所以我们要确保移动指针后，
- 对应的数字要发生改变才行哦。
+#  上面的解法存在重复解的原因是因为移动指针时可能出现重复数字的情况。所以我们要确保移动指针后，
+#  对应的数字要发生改变才行哦。
 
-看了下别人的代码，[更加紧凑](https://leetcode-cn.com/problems/4sum/solution/shuang-zhi-zhen-jie-fa-can-zhao-san-shu-zhi-he-ge-/189146)
+# 看了下别人的代码，[更加紧凑](https://leetcode-cn.com/problems/4sum/solution/shuang-zhi-zhen-jie-fa-can-zhao-san-shu-zhi-he-ge-/189146)
 
-参照另一个题解 [击败99.94%的用户，有代码，有注释](https://leetcode-cn.com/problems/4sum/solution/ji-bai-9994de-yong-hu-you-dai-ma-you-zhu-shi-by-yo/) 可以加入一些计算 min, max 的代码，直接跳过，一部分计算，节省时间。
+# 参照另一个题解 [击败99.94%的用户，有代码，有注释](https://leetcode-cn.com/problems/4sum/solution/ji-bai-9994de-yong-hu-you-dai-ma-you-zhu-shi-by-yo/) 可以加入一些计算 min, max 的代码，直接跳过，一部分计算，节省时间。
 
 
-``` java
+# ``` java
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -60,11 +60,11 @@ public:
         return result;
     }
 };
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
 
@@ -116,4 +116,4 @@ class Solution:
                             m -= 1
 
         return result
-```
+# ```

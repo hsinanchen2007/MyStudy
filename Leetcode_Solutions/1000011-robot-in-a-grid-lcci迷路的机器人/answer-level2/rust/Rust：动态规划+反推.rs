@@ -1,7 +1,7 @@
-用一个`dp`数组存储一个数对，记录上和左节点是否有路径通往原点。
-最后可用一个循环获取其中一条路径，也可以用循环/递归得到所有的路径。
+// 用一个`dp`数组存储一个数对，记录上和左节点是否有路径通往原点。
+// 最后可用一个循环获取其中一条路径，也可以用循环/递归得到所有的路径。
 
-```rust
+// ```rust
 impl Solution {
    pub fn path_with_obstacles(obstacle_grid: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         if obstacle_grid[0][0] == 1 {
@@ -45,4 +45,4 @@ impl Solution {
         return ans;
     }
 }
-```
+// ```

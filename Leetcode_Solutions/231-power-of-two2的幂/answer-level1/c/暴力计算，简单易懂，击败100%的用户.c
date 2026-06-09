@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPowerOfTwo(int n){
     if(n==1)
     return true;
@@ -14,4 +14,4 @@ bool isPowerOfTwo(int n){
     return true;
     return false;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-> 思路:如果(i,j)能组成块，则数组i到j的元素是(i,i+1,...,j)的一个排列。所以依次统计累加和即可。
-```python
+# > 思路:如果(i,j)能组成块，则数组i到j的元素是(i,i+1,...,j)的一个排列。所以依次统计累加和即可。
+# ```python
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
         
@@ -12,4 +12,4 @@ class Solution:
                 res += 1
                 #print('yes')
         return res
-```
+# ```

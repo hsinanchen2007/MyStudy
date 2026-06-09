@@ -1,10 +1,10 @@
-### 解题思路1
-分治法，分别两两合并，最终组成一个链表。
-时间复杂度o（Nlogk），其中N为所有元素个数，k为链表个数。分治法共合并了logk轮，每轮比较了N次。
+# ### 解题思路1
+# 分治法，分别两两合并，最终组成一个链表。
+# 时间复杂度o（Nlogk），其中N为所有元素个数，k为链表个数。分治法共合并了logk轮，每轮比较了N次。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def mergeKLists(self, lists):
         """
@@ -35,12 +35,12 @@ class Solution(object):
         else:
             point.next=l1
         return head.next
-```
-### 解题思路2
-依次比较，找到最小的开头（超时）
+# ```
+# ### 解题思路2
+# 依次比较，找到最小的开头（超时）
 
-### 代码
-```
+# ### 代码
+# ```
 from queue import PriorityQueue
 class Solution(object):
     def mergeKLists(self, lists):
@@ -57,14 +57,14 @@ class Solution(object):
             if node:
                 q.put((node.val, node))
         return head.next
-```
+# ```
 
 
-### 解题思路3
-依次比较，找到最小的开头（超时）
+# ### 解题思路3
+# 依次比较，找到最小的开头（超时）
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution(object):
     def mergeKLists(self, lists):
         minnum=None
@@ -86,4 +86,4 @@ class Solution(object):
             index=-1
             minnum=None
         return linked1.next
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-假设要添加的元素分别为：5 3 2 4
-1. queue：5 ; deque：5
-2. queue：5 3 ; deque：5 3
-3. queue：5 3 2; deque：5 3 2
-4. queue：5 3 2 4; deque：5 4
-当添加的元素小于deque队尾元素时，把该元素同时添加至queue和deque
-当添加的元素大于deque队尾元素时，以此从deque队尾取出元素，直至deque的队尾元素大于待添加的元素
+// ### 解题思路
+// 假设要添加的元素分别为：5 3 2 4
+// 1. queue：5 ; deque：5
+// 2. queue：5 3 ; deque：5 3
+// 3. queue：5 3 2; deque：5 3 2
+// 4. queue：5 3 2 4; deque：5 4
+// 当添加的元素小于deque队尾元素时，把该元素同时添加至queue和deque
+// 当添加的元素大于deque队尾元素时，以此从deque队尾取出元素，直至deque的队尾元素大于待添加的元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
     public Deque<Integer> deque;//双端队列
@@ -60,4 +60,4 @@ class MaxQueue {
         return queue.poll();    
     }
 }
-```
+// ```

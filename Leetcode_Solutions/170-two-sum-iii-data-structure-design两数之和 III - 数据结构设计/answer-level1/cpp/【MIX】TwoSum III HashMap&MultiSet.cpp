@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用哈希表
-2. 使用multiset
+// ### 解题思路
+// 1. 使用哈希表
+// 2. 使用multiset
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 class TwoSum {
 public:
     /** Initialize your data structure here. */
@@ -48,8 +48,8 @@ private:
  * obj->add(number);
  * bool param_2 = obj->find(value);
  */
-```
-```c++ []
+// ```
+// ```c++ []
 class TwoSum {
 public:
     /** Initialize your data structure here. */
@@ -92,8 +92,8 @@ static int x = []() {
     cin.tie(NULL);
     return 0;
 }();
-```
-```java []
+// ```
+// ```java []
 class TwoSum {
 
     /** Initialize your data structure here. */
@@ -126,8 +126,8 @@ class TwoSum {
     private List<Integer> rec;
     private HashMap<Integer, Integer> map;
 }
-```
-```python []
+// ```
+// ```python []
 class TwoSum:
 
     def __init__(self):
@@ -161,4 +161,4 @@ class TwoSum:
                 else:
                     continue
         return False
-```
+// ```

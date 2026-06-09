@@ -1,10 +1,10 @@
-### 解题思路
-* 创造一个哑巴节点，用来挂载排序的列表
-* 要记录前一个节点做删除用
+// ### 解题思路
+// * 创造一个哑巴节点，用来挂载排序的列表
+// * 要记录前一个节点做删除用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,4 +48,4 @@ class Solution {
         return dummyNode.next;
     }
 }
-```
+// ```

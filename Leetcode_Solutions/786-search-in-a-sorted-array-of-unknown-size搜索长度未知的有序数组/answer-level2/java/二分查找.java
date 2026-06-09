@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(ArrayReader reader, int target) {
         //找数组长度
@@ -27,4 +27,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

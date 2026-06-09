@@ -1,6 +1,6 @@
-### 解题思路
-深度优先搜索基本思路
-```
+// ### 解题思路
+// 深度优先搜索基本思路
+// ```
 int check(参数)
 {
     if(满足条件)
@@ -22,12 +22,12 @@ void dfs(int step)
                恢复初始状态（回溯的时候要用到）
         }
 }  
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -51,4 +51,4 @@ function Area(grid,i,j){
     count = 1 + Area(grid,i-1,j) + Area(grid,i+1,j) + Area(grid,i,j-1) + Area(grid,i,j+1);
     return count;
 }
-```
+// ```

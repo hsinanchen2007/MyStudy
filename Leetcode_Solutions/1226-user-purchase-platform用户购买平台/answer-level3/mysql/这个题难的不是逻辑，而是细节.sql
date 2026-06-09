@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 
 #每天仅使用手机端用户
 select d.spend_date, d.platform, ifnull(c.total_amount,0) as total_amount, ifnull(c.total_users,0) as total_users
@@ -53,4 +53,4 @@ from Spending, (select 'desktop' as platform union select 'mobile' as platform u
 
 
 
-```
+-- ```

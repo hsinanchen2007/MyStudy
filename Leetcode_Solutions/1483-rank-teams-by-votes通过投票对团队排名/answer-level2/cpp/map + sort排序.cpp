@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-[@liouzhou_101](/u/liouzhou_101/)的方法
-map<char, map<int, int>> f; 将每个字母和他的排名信息储存
-f[s[i]][i]++; 统计每个名词的个数
-然后利用sort进行排序
-### 代码
+// [@liouzhou_101](/u/liouzhou_101/)的方法
+// map<char, map<int, int>> f; 将每个字母和他的排名信息储存
+// f[s[i]][i]++; 统计每个名词的个数
+// 然后利用sort进行排序
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     
@@ -29,4 +29,4 @@ public:
     }
 };
 
-```
+// ```

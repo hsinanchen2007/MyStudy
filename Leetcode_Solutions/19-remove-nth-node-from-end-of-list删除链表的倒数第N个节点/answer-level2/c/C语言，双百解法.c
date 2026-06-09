@@ -1,11 +1,11 @@
-### 解题思路
-两个点：双指针；头部添加空的头指针。
-![image.png](https://pic.leetcode-cn.com/bda2eae2a21f1cb2e021b72b5200ac62a55822354c2a3ff2270458012caa5c1f-image.png)
+// ### 解题思路
+// 两个点：双指针；头部添加空的头指针。
+// ![image.png](https://pic.leetcode-cn.com/bda2eae2a21f1cb2e021b72b5200ac62a55822354c2a3ff2270458012caa5c1f-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -51,4 +51,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     //printf("delete node is %d\n", val);
     return p;
 }
-```
+// ```

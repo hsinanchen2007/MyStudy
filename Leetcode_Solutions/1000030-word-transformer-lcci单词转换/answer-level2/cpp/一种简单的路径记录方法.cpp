@@ -1,12 +1,12 @@
-该题与【127.单词接龙】唯一区别在于如何将路径给记录下来，我采用的结构是queue<pair<string, string>>，first是下一个结点单词，后面是一个字符串路径，单词之间使用“-”连接，这样通过转换找到了目标单词后，second就是该路径的字符串，如例子：
-begword = "hit"
-endword = "cog"
-wodlist = ["hot","dot","dog","lot","log","cog"]
+// 该题与【127.单词接龙】唯一区别在于如何将路径给记录下来，我采用的结构是queue<pair<string, string>>，first是下一个结点单词，后面是一个字符串路径，单词之间使用“-”连接，这样通过转换找到了目标单词后，second就是该路径的字符串，如例子：
+// begword = "hit"
+// endword = "cog"
+// wodlist = ["hot","dot","dog","lot","log","cog"]
 
-最后路径字符串为：hit-hot-dot-dog-cog
+// 最后路径字符串为：hit-hot-dot-dog-cog
 
-然后进行字符串分割即可
-```
+// 然后进行字符串分割即可
+// ```
 vector<string> testSplit11(const string& in, const string& delim)
 {
 	vector<string> ret;
@@ -84,6 +84,6 @@ vector<string> findLadders(string beginWord, string endWord, vector<string>& wor
 	}
 	return vec;
 }
-```
+// ```
 
 

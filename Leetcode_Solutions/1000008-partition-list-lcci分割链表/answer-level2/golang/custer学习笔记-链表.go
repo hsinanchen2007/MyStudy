@@ -1,14 +1,14 @@
-### 解题思路
-大体思路：
-- 先创建两个头结点分别用于连接小于部分和大于等于部分
-- 遍历该链表，若当前结点小于x,将其插到小于的链表上否则插到大于链表上。
-- 遍历完毕后，将大于等于部分链表的连到小于部分的后面即可.
+// ### 解题思路
+// 大体思路：
+// - 先创建两个头结点分别用于连接小于部分和大于等于部分
+// - 遍历该链表，若当前结点小于x,将其插到小于的链表上否则插到大于链表上。
+// - 遍历完毕后，将大于等于部分链表的连到小于部分的后面即可.
 
-学习自[分割链表(java双百)](https://leetcode-cn.com/problems/partition-list-lcci/solution/fen-ge-lian-biao-javashuang-bai-by-bu-xiu-gang-pen/)
+// 学习自[分割链表(java双百)](https://leetcode-cn.com/problems/partition-list-lcci/solution/fen-ge-lian-biao-javashuang-bai-by-bu-xiu-gang-pen/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -39,4 +39,4 @@ func partition(head *ListNode, x int) *ListNode {
   // 返回构建新的链表的头节点即可
   return preHead.Next
 }
-```
+// ```

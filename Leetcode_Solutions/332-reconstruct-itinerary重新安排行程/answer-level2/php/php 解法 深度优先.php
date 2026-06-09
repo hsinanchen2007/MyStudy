@@ -1,4 +1,4 @@
-```
+// ```
 function findItinerary($tickets) {
     $maps = [];
     foreach($tickets as $ticket) $maps[$ticket[0]][] = $ticket[1];
@@ -12,4 +12,4 @@ function dfs(&$maps, $from, &$ans){
     while(!empty($maps[$from])) $this->dfs($maps, array_shift($maps[$from]), $ans);
     array_push($ans,$from);
 }
-```
+// ```

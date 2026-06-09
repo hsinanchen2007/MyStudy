@@ -1,9 +1,9 @@
-### 解题思路
-与普通BFS不一样的是，路径是有权值的，最先到达终点的点，不一定是最短距离
+// ### 解题思路
+// 与普通BFS不一样的是，路径是有权值的，最先到达终点的点，不一定是最短距离
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <limits.h>
 
@@ -102,4 +102,4 @@ int shortestDistance(int** maze, int mazeSize, int* mazeColSize,
 
 	return Bfs(start[0], start[1], destination[0], destination[1]);
 }
-```
+// ```

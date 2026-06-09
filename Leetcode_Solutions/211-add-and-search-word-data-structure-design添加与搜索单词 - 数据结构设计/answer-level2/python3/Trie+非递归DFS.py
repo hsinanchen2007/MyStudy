@@ -1,6 +1,6 @@
-1.用字典存储树，采用$符号表示该节点是一个word的末尾字符；
-2.采用非递归DFS实现匹配搜索；
-```python
+# 1.用字典存储树，采用$符号表示该节点是一个word的末尾字符；
+# 2.采用非递归DFS实现匹配搜索；
+# ```python
 class WordDictionary:
 
     def __init__(self):
@@ -42,4 +42,4 @@ class WordDictionary:
                 elif any('$' in new_tree for new_tree in new_trees):
                     return True
         return False
-```
+# ```

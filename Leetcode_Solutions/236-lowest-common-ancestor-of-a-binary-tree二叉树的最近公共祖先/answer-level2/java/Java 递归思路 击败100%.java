@@ -1,11 +1,11 @@
-### 解题思路
-当root是null或者找到p，q的时候直接返回
+// ### 解题思路
+// 当root是null或者找到p，q的时候直接返回
 
-否则对左右子树再次进行递归，递归返回的条件是左右子树得返回值都不为null，说明找到了公共节点
+// 否则对左右子树再次进行递归，递归返回的条件是左右子树得返回值都不为null，说明找到了公共节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return left != null ? left : right;
     }
 }
-```
+// ```

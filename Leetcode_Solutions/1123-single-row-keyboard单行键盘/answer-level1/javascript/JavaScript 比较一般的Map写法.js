@@ -1,4 +1,4 @@
-```
+// ```
 var calculateTime = function(keyboard, word) {
     let map = new Map();
     keyboard.split('').map( (v,i)=>{
@@ -11,4 +11,4 @@ var calculateTime = function(keyboard, word) {
     } )
     return result
 };
-```
+// ```

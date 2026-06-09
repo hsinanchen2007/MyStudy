@@ -1,9 +1,9 @@
-### 解题思路
-代码自注释
+# ### 解题思路
+# 代码自注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TweetCounts:
 
     def __init__(self):
@@ -29,4 +29,4 @@ class TweetCounts:
         return ans
 
 
-```
+# ```

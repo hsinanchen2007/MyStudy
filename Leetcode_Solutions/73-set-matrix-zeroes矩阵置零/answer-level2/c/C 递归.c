@@ -1,5 +1,5 @@
-大体思路是通过递归的方式滞后置0操作，代码如下：
-```
+// 大体思路是通过递归的方式滞后置0操作，代码如下：
+// ```
 void searchZero(int** matrix, int id, int jd, int matrixSize, int matrixColSize)
 {
     int index;
@@ -34,4 +34,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize)
 
     searchZero(matrix, 0, 0, matrixSize, matrixColSize[0]);
 }
-```
+// ```

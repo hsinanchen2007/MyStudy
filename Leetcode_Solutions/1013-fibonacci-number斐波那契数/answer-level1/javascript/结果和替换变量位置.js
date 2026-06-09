@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} N
  * @return {number}
@@ -15,4 +15,4 @@ var fib = function(N) {
     }
     return l;
 };
-```
+// ```

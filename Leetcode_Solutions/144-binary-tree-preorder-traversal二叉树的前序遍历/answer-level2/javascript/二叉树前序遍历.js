@@ -1,4 +1,4 @@
-```
+// ```
 //node结构
 node = {
     val: 1,
@@ -30,6 +30,6 @@ var preorderTraversal = function(root) {
         r = root.right;
     return ret.concat(arguments.callee(l)).concat(arguments.callee(r))
 };
-```
+// ```
 
 

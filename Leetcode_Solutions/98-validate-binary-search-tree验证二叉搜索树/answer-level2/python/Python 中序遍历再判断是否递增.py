@@ -1,9 +1,9 @@
-### 解题思路
-也可将判断大小的过程放到遍历时候，节省空间
+# ### 解题思路
+# 也可将判断大小的过程放到遍历时候，节省空间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         return True
 
 
-```
+# ```

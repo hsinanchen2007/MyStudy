@@ -1,10 +1,10 @@
-### 解题思路
-c语言
-执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :5.7 MB, 在所有 C 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// c语言
+// 执行用时 :0 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :5.7 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -36,4 +36,4 @@ int* createTargetArray(int* nums, int numsSize, int* index, int indexSize, int* 
     *returnSize = (numsSize);
     return result;
 }
-```
+// ```

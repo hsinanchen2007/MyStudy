@@ -1,13 +1,13 @@
-这道题应该分为两种情况来考虑
-第一种：
-![image.png](https://pic.leetcode-cn.com/042062084998b0fdda34a0a064a42ecad28d403120be4c6e77ff918f52732702-image.png)
-**此时s1中的字符串与s2是一一对应的**
-第二种：
-![image.png](https://pic.leetcode-cn.com/04035f4dd4a3087845b453dcfddb2b9d866aa00476f67f7c4c1e63a6f72e2183-image.png)
-**此时s1中的前半段对应s2的后半段，s1的后半段对应s2的前半段**
-所以在这里我们只需要遍历s1的所有的切割点，判断这两种情况中的一种满足就可以返回true，当然这里要加一个记忆化，因为对s1和s2的子字符串会有重复的计算，将它们保存到一个map中，遇到重复的情况直接返回对应的结果，省去了一部分的计算
-<br>
-```java
+// 这道题应该分为两种情况来考虑
+// 第一种：
+// ![image.png](https://pic.leetcode-cn.com/042062084998b0fdda34a0a064a42ecad28d403120be4c6e77ff918f52732702-image.png)
+// **此时s1中的字符串与s2是一一对应的**
+// 第二种：
+// ![image.png](https://pic.leetcode-cn.com/04035f4dd4a3087845b453dcfddb2b9d866aa00476f67f7c4c1e63a6f72e2183-image.png)
+// **此时s1中的前半段对应s2的后半段，s1的后半段对应s2的前半段**
+// 所以在这里我们只需要遍历s1的所有的切割点，判断这两种情况中的一种满足就可以返回true，当然这里要加一个记忆化，因为对s1和s2的子字符串会有重复的计算，将它们保存到一个map中，遇到重复的情况直接返回对应的结果，省去了一部分的计算
+// <br>
+// ```java
 class Solution {
    private Map<String,Boolean> map=new HashMap<String,Boolean>();
 	
@@ -50,4 +50,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

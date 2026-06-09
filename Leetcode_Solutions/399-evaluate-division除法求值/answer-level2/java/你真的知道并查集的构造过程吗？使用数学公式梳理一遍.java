@@ -1,15 +1,15 @@
-### 解题思路
-相信看过网上的解析，大家都知道使用DFS或者并查集进行求解，但是对于数据结构和算法不是很敏感的小伙伴而言，看半天还是云里雾里，尤其是元素关系的数值关系为什么那样建立？求解公式为什么可以一直递归或者循环乘除？至少对我来讲，确实花费了我很多时间，那么今天我就准备把这两个核心过程通过数学公式进行梳理一下。
-![image.png](https://pic.leetcode-cn.com/cbc4685835f3df949bd139310a260a8b20a562c857c4eabed0695f96f4ef7b59-image.png)
-![image.png](https://pic.leetcode-cn.com/4dda1b463cd1b47e74f7b4f06ddb07c39b6159f8bc1fe2e825cd959d2ac36707-image.png)
-![image.png](https://pic.leetcode-cn.com/e898ea26a811fe7b20a0c632f774423acb33eeee0918e9f0402441d66eef9855-image.png)
-![image.png](https://pic.leetcode-cn.com/5add5458c0d99f96667a9c551862deb62555e1a18f2ed98c6f053ce45e93cb03-image.png)
+// ### 解题思路
+// 相信看过网上的解析，大家都知道使用DFS或者并查集进行求解，但是对于数据结构和算法不是很敏感的小伙伴而言，看半天还是云里雾里，尤其是元素关系的数值关系为什么那样建立？求解公式为什么可以一直递归或者循环乘除？至少对我来讲，确实花费了我很多时间，那么今天我就准备把这两个核心过程通过数学公式进行梳理一下。
+// ![image.png](https://pic.leetcode-cn.com/cbc4685835f3df949bd139310a260a8b20a562c857c4eabed0695f96f4ef7b59-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4dda1b463cd1b47e74f7b4f06ddb07c39b6159f8bc1fe2e825cd959d2ac36707-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e898ea26a811fe7b20a0c632f774423acb33eeee0918e9f0402441d66eef9855-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5add5458c0d99f96667a9c551862deb62555e1a18f2ed98c6f053ce45e93cb03-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   /**
      * key : 当前节点
@@ -102,4 +102,4 @@ class Solution {
 //    }
 
 }
-```
+// ```

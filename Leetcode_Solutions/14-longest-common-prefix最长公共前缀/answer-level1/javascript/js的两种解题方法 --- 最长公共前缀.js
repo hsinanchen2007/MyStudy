@@ -1,5 +1,5 @@
-1. 第一种
-```
+// 1. 第一种
+// ```
 var longestCommonPrefix = function(strs) {
     let r = ""
     let i = 1 //初始化参数
@@ -30,10 +30,10 @@ var longestCommonPrefix = function(strs) {
     return r
 };
 
-```
+// ```
 
-第二种：
-```
+// 第二种：
+// ```
 var longestCommonPrefix = function(strs) {
      let result = ""; // 初始化结果
     if(strs.length === 0) {
@@ -58,4 +58,4 @@ var longestCommonPrefix = function(strs) {
     return result;
 };
 
-```
+// ```

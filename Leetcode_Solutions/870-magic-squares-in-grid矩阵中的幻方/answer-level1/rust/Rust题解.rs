@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn num_magic_squares_inside(grid: Vec<Vec<i32>>) -> i32 {
         let mut ret = 0;
@@ -29,5 +29,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

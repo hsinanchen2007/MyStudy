@@ -1,9 +1,9 @@
-### 解题思路
-有点Kruskal算法的意思
+// ### 解题思路
+// 有点Kruskal算法的意思
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int find(int n,int *dis){
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

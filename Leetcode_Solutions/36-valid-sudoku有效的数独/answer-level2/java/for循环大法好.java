@@ -1,9 +1,9 @@
-### 解题思路
-写了好多个for循环
+// ### 解题思路
+// 写了好多个for循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValidSudoku(char[][] board) {
     for (int i = 0; i < board.length; i++) {
@@ -62,4 +62,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

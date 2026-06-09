@@ -1,7 +1,7 @@
-> 参考[这个方法](https://blog.csdn.net/noahzuo/article/details/52037151)
+# > 参考[这个方法](https://blog.csdn.net/noahzuo/article/details/52037151)
 
-我感觉这方法很秀
-```python
+# 我感觉这方法很秀
+# ```python
 class Solution:
     def checkOverlap(self, radius: int, x_center: int, y_center: int, x1: int, y1: int, x2: int, y2: int) -> bool:
         # 计算矩形中心点, 宽和高
@@ -25,4 +25,4 @@ class Solution:
         AC = [max(0, AB[0]), max(0, AB[1])]
         return AC[0] ** 2 + AC[1] ** 2 <= radius ** 2
 
-```
+# ```

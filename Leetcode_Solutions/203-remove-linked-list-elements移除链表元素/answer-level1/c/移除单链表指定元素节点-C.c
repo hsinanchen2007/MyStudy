@@ -1,4 +1,4 @@
-```c
+// ```c
 struct ListNode* removeElements(struct ListNode* head, int val){
     if(head == NULL) return head;
     
@@ -23,4 +23,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
     
     return head;
 }
-```
+// ```

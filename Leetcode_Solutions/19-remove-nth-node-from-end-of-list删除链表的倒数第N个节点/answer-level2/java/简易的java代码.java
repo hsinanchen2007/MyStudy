@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode removeNthFromEnd(ListNode head,int n){
 		// 1.5趟扫描实现
@@ -26,13 +26,13 @@ class Solution {
 		return head;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/7348f182d9a0816f3105f08ff75b6a2a14de0c6916fbb566c529ec0ba38f1ec1-1.png)
+// ![1.png](https://pic.leetcode-cn.com/7348f182d9a0816f3105f08ff75b6a2a14de0c6916fbb566c529ec0ba38f1ec1-1.png)
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/1c63c9dbb9c3a8e65067906031a06ecf96ecc8b13e9c68b46eb3121f4a68b27f-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/1c63c9dbb9c3a8e65067906031a06ecf96ecc8b13e9c68b46eb3121f4a68b27f-wechat.png)
 

@@ -1,10 +1,10 @@
-### 解题思路
-![屏幕快照 2020-03-21 11.29.56.png](https://pic.leetcode-cn.com/b874dbefeb7031fce436cefd0c696f294c6702a8664342d2ae5b227a26c521a8-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-21%2011.29.56.png)
+# ### 解题思路
+# ![屏幕快照 2020-03-21 11.29.56.png](https://pic.leetcode-cn.com/b874dbefeb7031fce436cefd0c696f294c6702a8664342d2ae5b227a26c521a8-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-21%2011.29.56.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         i, j, sum, res = 1, 1, 0, []    # 左右指针，部分和，结果列表
@@ -17,4 +17,4 @@ class Solution:
                 i += 1
             j += 1
         return res
-```
+# ```

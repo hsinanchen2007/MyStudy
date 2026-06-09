@@ -1,12 +1,12 @@
-### 解题思路
-1. 函数dfsForRoot是在A中搜索B的根节点.
-2. 一旦发现根节点则进入dfsForResult, 遍历两棵树是否相同, 注意出口的判断条件.
-TIPS: 设置一个全局的状态earlyStop, 一旦发现结果就直接停止所有搜索, 同时该状态也是答案.
+// ### 解题思路
+// 1. 函数dfsForRoot是在A中搜索B的根节点.
+// 2. 一旦发现根节点则进入dfsForResult, 遍历两棵树是否相同, 注意出口的判断条件.
+// TIPS: 设置一个全局的状态earlyStop, 一旦发现结果就直接停止所有搜索, 同时该状态也是答案.
 
-### 代码
-![1.png](https://pic.leetcode-cn.com/356f01edc083a2c1c00f948d585063faf72e35e03eca0899cab57fe83310ea43-1.png)
+// ### 代码
+// ![1.png](https://pic.leetcode-cn.com/356f01edc083a2c1c00f948d585063faf72e35e03eca0899cab57fe83310ea43-1.png)
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-采用s.erase(i, 1)除去空格，s.insert(i, "%20")插入“%20” 
+// ### 解题思路
+// 采用s.erase(i, 1)除去空格，s.insert(i, "%20")插入“%20” 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -16,4 +16,4 @@ public:
         return s;
     }
 };
-```
+// ```

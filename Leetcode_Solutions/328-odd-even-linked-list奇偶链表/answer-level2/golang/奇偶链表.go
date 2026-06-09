@@ -1,9 +1,9 @@
-### 解题思路
-先构造奇偶链表,在首尾相接.
+// ### 解题思路
+// 先构造奇偶链表,在首尾相接.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -32,4 +32,4 @@ func oddEvenList(head *ListNode) *ListNode {
 	odd.Next = evenHead.Next
 	return oddHead.Next
 }
-```
+// ```

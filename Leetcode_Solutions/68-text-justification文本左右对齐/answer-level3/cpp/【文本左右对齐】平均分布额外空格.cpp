@@ -1,28 +1,28 @@
-### 思路
-1. 先数出一行能够容纳的单词，将这些单词根据规则填入一行
+// ### 思路
+// 1. 先数出一行能够容纳的单词，将这些单词根据规则填入一行
 
-2. 计算出额外的空格数量 `spaceCount`
-    21. 由总长度算起
-    22. 除去每个单词末尾必须的空格
-    23. 除去所有单词字母的长度
-    24. 得到额外的空格数量
+// 2. 计算出额外的空格数量 `spaceCount`
+//     21. 由总长度算起
+//     22. 除去每个单词末尾必须的空格
+//     23. 除去所有单词字母的长度
+//     24. 得到额外的空格数量
 
-3. 按照单词的间隙数量 `wordCount - 1` ，对额外空格**平均分布**
-    31. **平均分布**可查看 [另一篇题解](https://leetcode-cn.com/circle/discuss/eXOcnD/view/SecVmv/) 的配图，就是商和余数的计算
-    32. 对于每个词填充之后，需要填充的空格数量等于 `spaceCount + 1 + ((i - bg) < t)`
-        即：【额外空格的平均值】，【单词尾部固定的空格】，【额外空格的余数，前 t 个需要多 1 个空格】
-    33. 注意一行只有一个单词的特殊处理
+// 3. 按照单词的间隙数量 `wordCount - 1` ，对额外空格**平均分布**
+//     31. **平均分布**可查看 [另一篇题解](https://leetcode-cn.com/circle/discuss/eXOcnD/view/SecVmv/) 的配图，就是商和余数的计算
+//     32. 对于每个词填充之后，需要填充的空格数量等于 `spaceCount + 1 + ((i - bg) < t)`
+//         即：【额外空格的平均值】，【单词尾部固定的空格】，【额外空格的余数，前 t 个需要多 1 个空格】
+//     33. 注意一行只有一个单词的特殊处理
 
-4. 因为会有最后一行或者一行只有一个单词的特殊情况，需要在最后将不足的位置补充成空格
+// 4. 因为会有最后一行或者一行只有一个单词的特殊情况，需要在最后将不足的位置补充成空格
 
-### 图解
-![图片.png](https://pic.leetcode-cn.com/75b02584132980cf62dcb07e60d3c531b157320445cf8713e45cda3f4e169663-%E5%9B%BE%E7%89%87.png)
+// ### 图解
+// ![图片.png](https://pic.leetcode-cn.com/75b02584132980cf62dcb07e60d3c531b157320445cf8713e45cda3f4e169663-%E5%9B%BE%E7%89%87.png)
 
-![图片.png](https://pic.leetcode-cn.com/5c7cc09c9d43ba5cf351a419a1d3a699e55a62af438b510283109282ecf58a1c-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/5c7cc09c9d43ba5cf351a419a1d3a699e55a62af438b510283109282ecf58a1c-%E5%9B%BE%E7%89%87.png)
 
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 string fillWords(vector<string>& words, int bg, int ed, int maxWidth, bool lastLine = false)
 {
     string ans;
@@ -71,8 +71,8 @@ vector<string> fullJustify(vector<string>& words, int maxWidth)
     }
     return ans;
 }
-```
-```C++ []
+// ```
+// ```C++ []
 string fillWords(vector<string>& words, int bg, int ed, int maxWidth, bool lastLine = false)
 {
     string ans;
@@ -119,15 +119,15 @@ vector<string> fullJustify(vector<string>& words, int maxWidth)
     }
     return ans;
 }
-```
+// ```
 
-### 执行时间
-![图片.png](https://pic.leetcode-cn.com/6e384d6a79d0173c9cc2d2e0a7af64e401307726076f87f4c7dfdf00d873d646-%E5%9B%BE%E7%89%87.png)
+// ### 执行时间
+// ![图片.png](https://pic.leetcode-cn.com/6e384d6a79d0173c9cc2d2e0a7af64e401307726076f87f4c7dfdf00d873d646-%E5%9B%BE%E7%89%87.png)
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

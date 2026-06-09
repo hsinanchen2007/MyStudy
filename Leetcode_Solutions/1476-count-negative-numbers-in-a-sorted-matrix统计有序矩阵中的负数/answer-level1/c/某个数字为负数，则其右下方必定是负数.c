@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/815903090dd7a2fa2d8cf55e871c8abb899ee937e8b7198cb6f192db5fba0342-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/815903090dd7a2fa2d8cf55e871c8abb899ee937e8b7198cb6f192db5fba0342-image.png)
 
-从右上角开始，找到每一列的负数起始位置；
-如果当前为正数，往下移动；如果为负数，累加，并往左移动
+// 从右上角开始，找到每一列的负数起始位置；
+// 如果当前为正数，往下移动；如果为负数，累加，并往左移动
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int countNegatives(int** grid, int gridSize, int* gridColSize){
     int sum = 0;
@@ -28,4 +28,4 @@ int countNegatives(int** grid, int gridSize, int* gridColSize){
     }
     return sum;
 }
-```
+// ```

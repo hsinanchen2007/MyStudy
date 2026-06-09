@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/81dbe20ce1637d0a56fb196785459fe92c3748d89bff28cc5fd48e3bbf67de34-image.png)
+# ![image.png](https://pic.leetcode-cn.com/81dbe20ce1637d0a56fb196785459fe92c3748d89bff28cc5fd48e3bbf67de34-image.png)
 
-2分钟内应该能够完成
-```python []
+# 2分钟内应该能够完成
+# ```python []
 class Solution:
     def sortedListToBST(self, head: ListNode) -> TreeNode:
         a = []
@@ -16,4 +16,4 @@ class Solution:
                 r.right = f(k + 1, j)
                 return r
         return f(0, len(a) - 1)
-```
+# ```

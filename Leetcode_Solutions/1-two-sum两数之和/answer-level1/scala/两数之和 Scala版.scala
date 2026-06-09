@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
     def twoSum(nums: Array[Int], target: Int): Array[Int] = {
         for (i <- 0 until nums.length){
@@ -11,9 +11,9 @@ object Solution {
         Array()
     }
 }
-```
+// ```
 
-```scala
+// ```scala
 object Solution {
     def twoSum(nums: Array[Int], target: Int): Array[Int] = {
         for {
@@ -24,4 +24,4 @@ object Solution {
         Array()
         }  
 }
-```
+// ```

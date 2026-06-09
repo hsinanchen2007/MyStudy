@@ -1,9 +1,9 @@
-### 解题思路
-记录括号的层次深度
+// ### 解题思路
+// 记录括号的层次深度
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Comp struct {
 	str   string
 	cnt   int
@@ -71,4 +71,4 @@ func decodeString(s string) string {
 	return result
 }
 
-```
+// ```

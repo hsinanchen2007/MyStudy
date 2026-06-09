@@ -1,9 +1,9 @@
-### 解题思路
-根据开始区间 如果开始区间一样，根据结束区间拍完顺序后，下一组开始和上一组结束比较，确认是合并还是新生成一组。
+// ### 解题思路
+// 根据开始区间 如果开始区间一样，根据结束区间拍完顺序后，下一组开始和上一组结束比较，确认是合并还是新生成一组。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -53,4 +53,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     *returnSize = index;
     return ret;
 }
-```
+// ```

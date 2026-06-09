@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b0eb61a1b4526d0fcc762f1786a21a2fa46480cfb7dea12a43cc615a69f2e72d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b0eb61a1b4526d0fcc762f1786a21a2fa46480cfb7dea12a43cc615a69f2e72d-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 看了别人的题解，其实我理解的也不是很透彻 O(∩_∩)O 抛砖引玉 抛砖引玉 !!
 动态规划：
 分析：
@@ -11,11 +11,11 @@
 - space 代表区间内的长度，从 1 开始，直到 n - 1 停止，因为原数组的长度就是 n - 1
 - 最终返回 dp[0][n - 1] 因为 0 和 (n - 1) 中间就是代表原数组 nums 所有元素的区间
   第一条已经解释过了，这个区间不包含 0 和 (n - 1) 这两个元素
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -79,4 +79,4 @@ var maxCoins = function(nums) {
   
 //   return ans;
 // };
-```
+// ```

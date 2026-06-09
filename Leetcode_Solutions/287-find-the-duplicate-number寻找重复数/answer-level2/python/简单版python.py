@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findDuplicate(self,nums):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         for i in range(1, len(nums)):
             if (nums[i]==nums[i-1]):
                 return nums[i]
-```
+# ```

@@ -1,6 +1,6 @@
-参考：https://leetcode.com/problems/insert-interval/discuss/21602/Short-and-straight-forward-Java-solution
+# 参考：https://leetcode.com/problems/insert-interval/discuss/21602/Short-and-straight-forward-Java-solution
 
-```python
+# ```python
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         result = []
         index = 0
@@ -23,4 +23,4 @@
             index += 1
 
         return result
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func defangIPaddr(address string) string {
     n := len(address)
     ans := make([]byte,n+6)
@@ -23,4 +23,4 @@ func defangIPaddr(address string) string {
     return string(ans)
 
 }
-```
+// ```

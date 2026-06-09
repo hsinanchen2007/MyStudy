@@ -1,5 +1,5 @@
-纯C 余数法
-```
+// 纯C 余数法
+// ```
 char * convert(char * s, int numRows){
     if(1 >= numRows)
     {
@@ -34,5 +34,5 @@ char * convert(char * s, int numRows){
 
     return cConvertStr;
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-两个指针，他们之间相隔n节点，一个节点到尾部了，那么另一个节点的下一个节点就是要被删除的节点。
+// ### 解题思路
+// 两个指针，他们之间相隔n节点，一个节点到尾部了，那么另一个节点的下一个节点就是要被删除的节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

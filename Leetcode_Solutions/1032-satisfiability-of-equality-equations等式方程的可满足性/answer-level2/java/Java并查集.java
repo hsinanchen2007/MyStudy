@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     
     static class DSU {
@@ -48,4 +48,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 
 
 typedef struct {
@@ -78,4 +78,4 @@ void myCircularQueueFree(MyCircularQueue* obj) {
  
  * myCircularQueueFree(obj);
 */
-```
+// ```

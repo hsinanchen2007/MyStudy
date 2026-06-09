@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/c515410b90b133aba24b28aa245977064cc9c3d4fa0d16041ce6c22c769668f4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c515410b90b133aba24b28aa245977064cc9c3d4fa0d16041ce6c22c769668f4-image.png)
 
-```py
+# ```py
 class Solution:
     def partitionLabels(self, S: str) -> List[int]:
         d = {c: i for i, c in enumerate(S)} #记录字母最后出现的坐标
@@ -12,4 +12,4 @@ class Solution:
                 ans += [r - l + 1]
                 l = i + 1           #更新区间左侧坐标
         return ans
-```
+# ```

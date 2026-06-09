@@ -1,9 +1,9 @@
-### 解题思路
-主要是评论区大佬给的sort函数排序思路，谢谢！
+// ### 解题思路
+// 主要是评论区大佬给的sort函数排序思路，谢谢！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -17,4 +17,4 @@ public:
         std::sort(A.begin(),A.end());
     }
 };
-```
+// ```

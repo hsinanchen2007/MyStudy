@@ -1,9 +1,9 @@
-### 解题思路
-用到了辅助vector进行排序
+// ### 解题思路
+// 用到了辅助vector进行排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return head;
     }
 };
-```
+// ```

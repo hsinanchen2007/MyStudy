@@ -1,10 +1,10 @@
 
 
-` return strrev($x) == $x;`
+// ` return strrev($x) == $x;`
 
-当然你也可以用下面这种方法
+// 当然你也可以用下面这种方法
 
-```
+// ```
         $n = $x;       
         $reverse = 0;
         while ($n > 0) {
@@ -14,5 +14,5 @@
         }
         
         return ($x === $reverse);
-```
+// ```
 

@@ -1,8 +1,8 @@
- //字符串数组赋值如下char s[][] = {"",""}；
- //二维数组的如何malloc
+//  //字符串数组赋值如下char s[][] = {"",""}；
+//  //二维数组的如何malloc
 
-方法一：举个例子说明吧，比如输入“27”，result答案有3*4个字符串，对于第一个字符‘2’直接写四个a四个b四个c，对于字符‘7’就pqrs pqrs pqrs，这个规律画一个树就比较好看出。
-```
+// 方法一：举个例子说明吧，比如输入“27”，result答案有3*4个字符串，对于第一个字符‘2’直接写四个a四个b四个c，对于字符‘7’就pqrs pqrs pqrs，这个规律画一个树就比较好看出。
+// ```
 char ** letterCombinations(char * digits, int* returnSize){
     char *s[] = {"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz",};
     int a[] = {3,3,3,3,3,4,3,4,};
@@ -34,11 +34,11 @@ char ** letterCombinations(char * digits, int* returnSize){
     }
     return result;
 }
-```
+// ```
 
-方法二：利用递归实现。
+// 方法二：利用递归实现。
 
-```
+// ```
 void letterCombination(int* a,char **s,char *digits,char **result,char *temp,int i,int* returnSize){                
     if(temp[i] == '\0'){
         for(int j=0;j<i;j++){
@@ -80,5 +80,5 @@ char ** letterCombinations(char * digits, int* returnSize){
     letterCombination(a,s,digits,result,temp,0,returnSize);
     return result;
 }
-```
+// ```
 

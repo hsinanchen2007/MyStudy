@@ -1,9 +1,9 @@
-### 解题思路
-主要是指针操作和链表概念。题很简单我很笨。
+// ### 解题思路
+// 主要是指针操作和链表概念。题很简单我很笨。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -72,4 +72,4 @@ public:
         return res;
     }
 };
-```
+// ```

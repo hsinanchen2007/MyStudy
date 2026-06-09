@@ -1,10 +1,10 @@
-### 解题思路
-简单遍历即可
-不过需要注意r * c溢出的问题
+// ### 解题思路
+// 简单遍历即可
+// 不过需要注意r * c溢出的问题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c) {
@@ -20,6 +20,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/50aefbdad8a4578c44df800f293be15985933973a3ed0db1ca89ac95a59c48b0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/50aefbdad8a4578c44df800f293be15985933973a3ed0db1ca89ac95a59c48b0-image.png)

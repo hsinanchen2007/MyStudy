@@ -1,9 +1,9 @@
-### 解题思路
-判断正向列表值与翻转后的列表值是否相等
+# ### 解题思路
+# 判断正向列表值与翻转后的列表值是否相等
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
 
         
 
-```
+# ```

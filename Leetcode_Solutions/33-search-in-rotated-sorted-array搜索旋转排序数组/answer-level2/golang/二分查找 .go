@@ -1,6 +1,6 @@
-当对着正中央，对这个有序数组来一刀时
+// 当对着正中央，对这个有序数组来一刀时
 
-```
+// ```
   start     mid      end
   * * * *   |   * * *
   [   有序 ]   [有序  ]
@@ -10,10 +10,10 @@
 如果target == nums[mid]，返回
 如果target 在有序一侧， nums[start] <= target < nums[mid]，就把搜索范围缩小，此时就是普通的二分查找了
 如果在无序一侧，就继续一刀切，继续上两行的判断。
-```
+// ```
 
 
-```
+// ```
 func search(nums []int, target int) int {
     s := 0
     e := len(nums) - 1
@@ -40,4 +40,4 @@ func search(nums []int, target int) int {
     }
     return -1
 }
-```
+// ```

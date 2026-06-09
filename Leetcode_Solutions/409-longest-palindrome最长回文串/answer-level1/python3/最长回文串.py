@@ -1,4 +1,4 @@
-```
+# ```
     def longestPalindrome(self, s: str) -> int:
         """
         给定语料库,构造一个最长回文字符串,区分大小写
@@ -22,4 +22,4 @@
         if num<len(s) :
             return num+1
         return num
-```
+# ```

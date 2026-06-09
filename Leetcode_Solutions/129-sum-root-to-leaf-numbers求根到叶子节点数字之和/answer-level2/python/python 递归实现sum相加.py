@@ -1,12 +1,12 @@
-### 解题思路
-每次递归，传入node节点和上次递归的node的值作为father
-这样每次递归的时候，当前的father是上个递归节点的father*10再加当前node的值
-递归结束的标志是传入的node无left和right节点，这时就将当前节点的father(一条链路的总和)和全局变量sum相加
+# ### 解题思路
+# 每次递归，传入node节点和上次递归的node的值作为father
+# 这样每次递归的时候，当前的father是上个递归节点的father*10再加当前node的值
+# 递归结束的标志是传入的node无left和right节点，这时就将当前节点的father(一条链路的总和)和全局变量sum相加
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
                 return
             self.get_node_values(node.left, father)
             self.get_node_values(node.right, father)
-```
+# ```

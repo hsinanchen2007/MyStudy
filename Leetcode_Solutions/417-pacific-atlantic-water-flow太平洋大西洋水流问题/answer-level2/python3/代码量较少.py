@@ -1,6 +1,6 @@
 
-![图片.png](https://pic.leetcode-cn.com/69a2f81e47ecefde2f0203dd9bac9e8e28b42eb22f5cb23b63d24f3885a41629-%E5%9B%BE%E7%89%87.png)
-```
+# ![图片.png](https://pic.leetcode-cn.com/69a2f81e47ecefde2f0203dd9bac9e8e28b42eb22f5cb23b63d24f3885a41629-%E5%9B%BE%E7%89%87.png)
+# ```
 class Solution:
     def __init__(self):
         self.res = []
@@ -36,4 +36,4 @@ class Solution:
                     self.res.append((i,j))
         return self.res 
 
-```
+# ```

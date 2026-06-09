@@ -1,9 +1,9 @@
-### 解题思路
-此题就是一个深度优先的遍历，因此只需要后序遍历二叉树，可用一个栈存储访问路径，访问到叶子结点时输出栈中内容即可。
+# ### 解题思路
+# 此题就是一个深度优先的遍历，因此只需要后序遍历二叉树，可用一个栈存储访问路径，访问到叶子结点时输出栈中内容即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution(object):
         self.stack.pop()
         
 
-```
+# ```

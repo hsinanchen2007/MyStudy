@@ -1,7 +1,7 @@
-类似 [5337. 每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
-计负数出现奇数次状态为1，出现偶数次为0，最大乘积就是两次相同状态之间的元素之积
+# 类似 [5337. 每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
+# 计负数出现奇数次状态为1，出现偶数次为0，最大乘积就是两次相同状态之间的元素之积
 
-```
+# ```
 class Solution(object):
     def maxProduct(self, nums):
         def reset():
@@ -20,4 +20,4 @@ class Solution(object):
             else:
                 ans = max(ans, res / count[state])
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
 
@@ -20,4 +20,4 @@ class Solution:
                 num=0   #记得归零
         return w==len(word) and a==len(abbr)    #保证到尾，没有剩余
 
-```
+# ```

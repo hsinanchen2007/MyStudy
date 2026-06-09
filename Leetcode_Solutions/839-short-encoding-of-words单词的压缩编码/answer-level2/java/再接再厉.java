@@ -1,9 +1,9 @@
-### 解题思路
-这个。。。。。。
+// ### 解题思路
+// 这个。。。。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         int len = 0;
@@ -50,4 +50,4 @@ class TrieNode {
 
     public TrieNode() {}
 }
-```
+// ```

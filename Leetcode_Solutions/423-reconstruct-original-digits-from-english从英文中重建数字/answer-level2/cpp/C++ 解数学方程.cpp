@@ -1,5 +1,5 @@
-根据字符个数复原字符串个数的方程
-```
+// 根据字符个数复原字符串个数的方程
+// ```
 class Solution {
 public:
     map<string, int> M = {
@@ -35,5 +35,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d61425ed12583eb916ebd307fd44c4608f51a727562d8e38a6a087ec76b2050c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d61425ed12583eb916ebd307fd44c4608f51a727562d8e38a6a087ec76b2050c-image.png)

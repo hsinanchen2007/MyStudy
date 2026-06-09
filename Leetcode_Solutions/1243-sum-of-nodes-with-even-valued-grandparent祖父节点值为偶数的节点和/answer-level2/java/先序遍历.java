@@ -1,9 +1,9 @@
-### 解题思路
-先序遍历，标记父节点和祖父节点，祖父节点为true时候，当前节点值累加
+// ### 解题思路
+// 先序遍历，标记父节点和祖父节点，祖父节点为true时候，当前节点值累加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

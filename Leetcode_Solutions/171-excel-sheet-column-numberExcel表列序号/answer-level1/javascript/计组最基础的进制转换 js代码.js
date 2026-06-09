@@ -1,4 +1,4 @@
-```
+// ```
 var titleToNumber = function(s) {
     //其实就是26进制
     let res=0;
@@ -7,4 +7,4 @@ var titleToNumber = function(s) {
     }
     return res;
 };
-```
+// ```

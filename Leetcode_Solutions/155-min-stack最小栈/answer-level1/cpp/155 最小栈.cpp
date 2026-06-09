@@ -1,9 +1,9 @@
-### 解题思路
-底层用deque实现，不需要来回拷贝，但是相比于stack，没快多少
+// ### 解题思路
+// 底层用deque实现，不需要来回拷贝，但是相比于stack，没快多少
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -46,4 +46,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

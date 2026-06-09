@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> constructArray(int n, int k) {
@@ -22,6 +22,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/61aa118bb63566146f0351f141e6f481d65063da5bf100c841537d332af4cd06-image.png)
+// ![image.png](https://pic.leetcode-cn.com/61aa118bb63566146f0351f141e6f481d65063da5bf100c841537d332af4cd06-image.png)

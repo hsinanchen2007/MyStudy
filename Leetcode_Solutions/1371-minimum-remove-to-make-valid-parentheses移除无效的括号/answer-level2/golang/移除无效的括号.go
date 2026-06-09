@@ -1,9 +1,9 @@
-### 解题思路
-先从左往右移除多余的')', 再从右往左移除多余的'('.
+// ### 解题思路
+// 先从左往右移除多余的')', 再从右往左移除多余的'('.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minRemoveToMakeValid(s string) string {
 	runes := make([]rune, 0, len(s))
 	left := 0
@@ -33,4 +33,4 @@ func minRemoveToMakeValid(s string) string {
 	}
 	return string(runes[i:])
 }
-```
+// ```

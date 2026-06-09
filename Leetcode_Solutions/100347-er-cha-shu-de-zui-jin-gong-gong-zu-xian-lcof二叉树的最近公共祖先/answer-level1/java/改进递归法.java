@@ -1,9 +1,9 @@
-### 解题思路
-如果找到left!=null,并且和p、q都不相等，则返回left即最近公共祖先
+// ### 解题思路
+// 如果找到left!=null,并且和p、q都不相等，则返回left即最近公共祖先
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return left!=null?left:right;
     }
 }
-```
+// ```

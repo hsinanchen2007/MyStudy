@@ -1,9 +1,9 @@
-### 解题思路
-自定义TrieNode, 通过trieNode的递归操作, 实现trie树操作。
+// ### 解题思路
+// 自定义TrieNode, 通过trieNode的递归操作, 实现trie树操作。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
     TrieNode head;
 
@@ -85,4 +85,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

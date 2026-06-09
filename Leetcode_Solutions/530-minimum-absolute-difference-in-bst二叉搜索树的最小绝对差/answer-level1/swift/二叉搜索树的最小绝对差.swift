@@ -1,8 +1,8 @@
 
-迭代法：
-中序遍历出自增的数组，然后对比相邻的两个数字，求出最小值
+// 迭代法：
+// 中序遍历出自增的数组，然后对比相邻的两个数字，求出最小值
 
-```swift []
+// ```swift []
 class Solution {
     func getMinimumDifference(_ root: TreeNode?) -> Int {
         
@@ -34,4 +34,4 @@ class Solution {
         return min
     }
 }
-```
+// ```

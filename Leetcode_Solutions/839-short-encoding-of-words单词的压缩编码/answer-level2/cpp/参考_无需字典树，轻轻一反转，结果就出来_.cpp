@@ -1,9 +1,9 @@
-### 解题思路
-参考"https://leetcode-cn.com/problems/short-encoding-of-words/solution/wu-xu-zi-dian-shu-qing-qing-yi-fan-zhuan-jie-guo-j/"
+// ### 解题思路
+// 参考"https://leetcode-cn.com/problems/short-encoding-of-words/solution/wu-xu-zi-dian-shu-qing-qing-yi-fan-zhuan-jie-guo-j/"
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -31,4 +31,4 @@ public:
         return result;
     }
 };
-```
+// ```

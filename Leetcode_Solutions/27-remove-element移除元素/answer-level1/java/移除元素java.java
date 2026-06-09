@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int removeElement(int[] nums, int val) {
         int target = 0;
@@ -12,4 +12,4 @@ class Solution {
         return target;
     }
 }
-```
+// ```

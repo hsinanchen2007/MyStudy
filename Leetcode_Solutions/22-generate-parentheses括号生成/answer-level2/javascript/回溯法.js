@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 问题的本质即是怎样将 n 个左括号和 n 个右括号填充到 2n 个空间中 
  * @param {number} n
@@ -29,4 +29,4 @@ var generateParenthesis = function(n) {
         }
     }
 };
-```
+// ```

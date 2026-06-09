@@ -1,4 +1,4 @@
-```
+// ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,8 +17,8 @@ class Solution:
             fir = fir.next
             sec = sec.next
         return sec.next.val
-```
-```
+// ```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         return sec.next.val;
     }
 }
-```
+// ```

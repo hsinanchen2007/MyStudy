@@ -1,7 +1,7 @@
-借鉴160相交链表双指针所采用的交叉遍历的办法进行数字的对齐。
-代码还是非常简单的。
+# 借鉴160相交链表双指针所采用的交叉遍历的办法进行数字的对齐。
+# 代码还是非常简单的。
 
-```
+# ```
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         node1, node2, flag1, flag2 = l1, l2, 0, 0
@@ -32,4 +32,4 @@ class Solution:
         # 再把前面的0去掉，注意结果为0的情况。
         while not sumhead.val and sumhead.next: sumhead = sumhead.next
         return sumhead
-```
+# ```

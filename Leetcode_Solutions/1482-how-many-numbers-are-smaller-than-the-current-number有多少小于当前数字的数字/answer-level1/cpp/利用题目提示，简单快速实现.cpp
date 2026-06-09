@@ -1,13 +1,13 @@
-### 解题思路
-![12.JPG](https://pic.leetcode-cn.com/53fc0339ac0a1aab96dffe22f9f17d41a80d772ffadb062c05f15efad4b25165-12.JPG)
+// ### 解题思路
+// ![12.JPG](https://pic.leetcode-cn.com/53fc0339ac0a1aab96dffe22f9f17d41a80d772ffadb062c05f15efad4b25165-12.JPG)
 
 
-由于题目给出nums数组最大值不超过100，因此可以设置一个标记数组来记录输入数组里面每个数的个数，
-然后利用一个类似动态规划的方式将小于某个数的个数记录下来，复杂度和内存消耗勉强可以接受。
+// 由于题目给出nums数组最大值不超过100，因此可以设置一个标记数组来记录输入数组里面每个数的个数，
+// 然后利用一个类似动态规划的方式将小于某个数的个数记录下来，复杂度和内存消耗勉强可以接受。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -39,4 +39,4 @@ public:
         // return num;
     }
 };
-```
+// ```

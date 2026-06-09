@@ -1,4 +1,4 @@
-```
+// ```
 int strStr(char * haystack, char * needle)
 {
     if(haystack== NULL||needle== NULL||strlen(haystack)<strlen(needle))      return -1;
@@ -27,4 +27,4 @@ int strStr(char * haystack, char * needle)
     }
     return -1;
 }
-```
+// ```

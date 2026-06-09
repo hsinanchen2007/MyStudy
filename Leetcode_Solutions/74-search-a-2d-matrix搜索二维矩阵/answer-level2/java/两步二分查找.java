@@ -1,10 +1,10 @@
-### 解题思路
-分两步求解
-1 使用二分查找先确定target在矩阵中所处的行
-2 使用二分查找在target所在的行中查找target
-### 代码
+// ### 解题思路
+// 分两步求解
+// 1 使用二分查找先确定target在矩阵中所处的行
+// 2 使用二分查找在target所在的行中查找target
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int index = matrix.length - 1;
@@ -47,4 +47,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

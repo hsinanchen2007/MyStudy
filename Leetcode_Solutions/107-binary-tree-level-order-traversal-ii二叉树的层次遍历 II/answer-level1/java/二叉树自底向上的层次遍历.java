@@ -1,6 +1,6 @@
-## 循环迭代
-树+队列思想：队列记录遍历路径
-```java
+// ## 循环迭代
+// 树+队列思想：队列记录遍历路径
+// ```java
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>>  result= new LinkedList<>();
@@ -22,4 +22,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-重新排序后，只看当前的和前一个数值差只有1的数组，并计算两个数值总共的长度。
+// ### 解题思路
+// 重新排序后，只看当前的和前一个数值差只有1的数组，并计算两个数值总共的长度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findLHS(int[] nums) {
         if (nums.length == 1){
@@ -32,4 +32,4 @@ class Solution {
         return maxLength;
     }
 }
-```
+// ```

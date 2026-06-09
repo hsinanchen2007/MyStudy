@@ -1,6 +1,6 @@
-![QQ图片20190729205258.png](https://pic.leetcode-cn.com/9ae168f94dd1624046ee43629a3dc103898a41e16bba87cba717f2ff4c6c13cc-QQ%E5%9B%BE%E7%89%8720190729205258.png)
+// ![QQ图片20190729205258.png](https://pic.leetcode-cn.com/9ae168f94dd1624046ee43629a3dc103898a41e16bba87cba717f2ff4c6c13cc-QQ%E5%9B%BE%E7%89%8720190729205258.png)
 
-```
+// ```
 class UF {
   // 并查集类
 private:
@@ -109,4 +109,4 @@ public:
     return res;
   }
 };
-```
+// ```

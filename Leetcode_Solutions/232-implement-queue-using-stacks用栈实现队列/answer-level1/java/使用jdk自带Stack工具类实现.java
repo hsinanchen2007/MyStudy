@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-两个栈来回倒腾，懒得用数组或者链接去弄了，直接jdk自带的stack搞了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 两个栈来回倒腾，懒得用数组或者链接去弄了，直接jdk自带的stack搞了
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     /**
@@ -63,4 +63,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

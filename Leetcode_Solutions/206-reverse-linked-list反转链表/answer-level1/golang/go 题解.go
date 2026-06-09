@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseList(head *ListNode) *ListNode {
 	if head != nil && head.Next != nil {
 		ptr := head.Next
@@ -18,4 +18,4 @@ func reverseList(head *ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```

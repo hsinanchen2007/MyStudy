@@ -1,6 +1,6 @@
-![4U@GC5RI_LDF4M$2PWFUD}2.png](https://pic.leetcode-cn.com/a6f9f57ef0355cca43ac1f154aa1d8c6a55d0ee0a90080e172affc03fdf9f9a0-4U@GC5RI_LDF4M$2PWFUD%7D2.png)
-**方法1**
-```scala
+// ![4U@GC5RI_LDF4M$2PWFUD}2.png](https://pic.leetcode-cn.com/a6f9f57ef0355cca43ac1f154aa1d8c6a55d0ee0a90080e172affc03fdf9f9a0-4U@GC5RI_LDF4M$2PWFUD%7D2.png)
+// **方法1**
+// ```scala
 import scala.collection.mutable
 
 object Solution {
@@ -38,9 +38,9 @@ object Solution {
     res
   }
 }
-```
-**方法2**
-```scala
+// ```
+// **方法2**
+// ```scala
 object Solution {
   def orderOfLargestPlusSign(N: Int, mines: Array[Array[Int]]): Int = {
     var res = 0
@@ -71,9 +71,9 @@ object Solution {
     res
   }
 }
-```
-**方法3**
-```
+// ```
+// **方法3**
+// ```
 object Solution {
   def orderOfLargestPlusSign(N: Int, mines: Array[Array[Int]]): Int = {
     var res = 0
@@ -92,4 +92,4 @@ object Solution {
     else arr(x - k)(y) > 0 && arr(x)(y + k) > 0 && arr(x + k)(y) > 0 && arr(x)(y - k) > 0
   }
 }
-```
+// ```

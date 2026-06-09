@@ -1,8 +1,8 @@
-### 解题思路
-emm,首先，比较考验理解题目的能力，理解题目之后解题思路不难。我从这道题中就是学到vector[]这种形式效率低，重复使用的部分可以赋值给一个变量！
-### 代码
+// ### 解题思路
+// emm,首先，比较考验理解题目的能力，理解题目之后解题思路不难。我从这道题中就是学到vector[]这种形式效率低，重复使用的部分可以赋值给一个变量！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -28,4 +28,4 @@ public:
         return count*6-CoincidenceCount;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-引入轮数作为变量，每次判断是否糖果数为0，与标答相比，轮数值显得多余
+// ### 解题思路
+// 引入轮数作为变量，每次判断是否糖果数为0，与标答相比，轮数值显得多余
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public int[] distributeCandies(int candies, int num_people){
         int[] ans = new int[num_people];
@@ -31,4 +31,4 @@ public int[] distributeCandies(int candies, int num_people){
         return ans;
     }
 }
-```
+// ```

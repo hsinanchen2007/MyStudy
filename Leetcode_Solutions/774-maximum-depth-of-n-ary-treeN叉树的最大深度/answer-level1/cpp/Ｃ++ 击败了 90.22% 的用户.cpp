@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxDepth(Node* root) {
@@ -13,4 +13,4 @@ public:
         return ++res;
     }
 };
-```
+// ```

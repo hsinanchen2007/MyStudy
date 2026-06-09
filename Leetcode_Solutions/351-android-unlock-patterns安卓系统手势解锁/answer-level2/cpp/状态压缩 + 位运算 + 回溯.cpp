@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-参考了 [@amchor](/u/amchor/) 的题解，改写为 C++ 版。
+// 参考了 [@amchor](/u/amchor/) 的题解，改写为 C++ 版。
 
-state变量表示已占用的数字，使用值传递可以方便的回溯。
+// state变量表示已占用的数字，使用值传递可以方便的回溯。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     unordered_map<int, unordered_map<int, int>> dict = {
@@ -50,4 +50,4 @@ public:
     }
 };
 
-```
+// ```

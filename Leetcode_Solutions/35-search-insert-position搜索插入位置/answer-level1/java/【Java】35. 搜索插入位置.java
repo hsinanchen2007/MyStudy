@@ -1,9 +1,9 @@
-### 解题思路
-看了题解以后。。。我佛了。。。
+// ### 解题思路
+// 看了题解以后。。。我佛了。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++){
@@ -14,4 +14,4 @@ class Solution {
         return nums.length;
     }
 }
-```
+// ```

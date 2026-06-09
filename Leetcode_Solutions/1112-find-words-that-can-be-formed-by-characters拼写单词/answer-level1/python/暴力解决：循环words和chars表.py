@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度：o(m*n)
-空间复杂度：o(n)
-### 代码
+# ### 解题思路
+# 时间复杂度：o(m*n)
+# 空间复杂度：o(n)
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countCharacters(self, words, chars):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                 
 
                 
-```
+# ```

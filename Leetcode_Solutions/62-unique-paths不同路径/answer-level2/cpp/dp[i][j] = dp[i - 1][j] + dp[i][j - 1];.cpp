@@ -1,9 +1,9 @@
-### 解题思路
-注意边界要初始化就好
+// ### 解题思路
+// 注意边界要初始化就好
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -25,4 +25,4 @@ public:
         return dp[n][m];
     }
 };
-```
+// ```

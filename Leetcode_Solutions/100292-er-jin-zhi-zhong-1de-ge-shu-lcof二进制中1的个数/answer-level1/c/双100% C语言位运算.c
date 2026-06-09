@@ -1,9 +1,9 @@
-### 解题思路
-判断个位用&1 并不断右移
+// ### 解题思路
+// 判断个位用&1 并不断右移
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hammingWeight(uint32_t n)
 {
     int cnt = 0;
@@ -14,4 +14,4 @@ int hammingWeight(uint32_t n)
     }
     return cnt;
 }
-```
+// ```

@@ -1,22 +1,22 @@
-这个问题可以泛化为
+// 这个问题可以泛化为
 
-**在长度至少为 N（N >= 1）的有序数组（由小到大排序）`nums` 中，找出 N 个元素，它们的和最接近目标数 target，返回这 N 个数的和 sum**。
+// **在长度至少为 N（N >= 1）的有序数组（由小到大排序）`nums` 中，找出 N 个元素，它们的和最接近目标数 target，返回这 N 个数的和 sum**。
 
-我们把这个问题记为 `closest_n_sum(nums, target, N)`。
+// 我们把这个问题记为 `closest_n_sum(nums, target, N)`。
 
-算法：
+// 算法：
 
-1. 当 `N = 1` 时，通过二分法找到最接近的数，返回它；
+// 1. 当 `N = 1` 时，通过二分法找到最接近的数，返回它；
 
-2. 当 `N > 1` 时，从前到后遍历这个数组，对于在 `i` 处的元素 `num`：
+// 2. 当 `N > 1` 时，从前到后遍历这个数组，对于在 `i` 处的元素 `num`：
 
-    1. 计算 `num + closest_n_sum(nums[i+1:], target - num, n - 1)`，记为 `sums[i]`；
+//     1. 计算 `num + closest_n_sum(nums[i+1:], target - num, n - 1)`，记为 `sums[i]`；
 
-    2. 取 `sums` 的最小值，即为需要的结果 `sum`。
+//     2. 取 `sums` 的最小值，即为需要的结果 `sum`。
 
-代码：
+// 代码：
 
-```Rust
+// ```Rust
 pub fn three_sum_closest(mut nums: Vec<i32>, target: i32) -> i32 {
     nums.sort_unstable();
     closest_n_sum(&nums, target, 3)
@@ -68,4 +68,4 @@ fn closest_num(nums: &[i32], target: i32) -> i32 {
         nums[i]
     }
 }
-```
+// ```

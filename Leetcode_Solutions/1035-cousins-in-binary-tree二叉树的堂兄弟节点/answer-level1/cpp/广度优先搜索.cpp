@@ -1,8 +1,8 @@
-### 解题思路
-初始化nowlevel为-1，nowNode为NULL，使用广度优先搜索，当前节点的左节点的值等于x或y时，若此时nowlevel为-1，更新nowlevel和nowNode；若nowlevel不为-1，比较当前节点的level和nowlevel是否相等，当前节点和nowNode是否相等，若层数相等且父节点不同，为堂兄弟节点。
-### 代码
+// ### 解题思路
+// 初始化nowlevel为-1，nowNode为NULL，使用广度优先搜索，当前节点的左节点的值等于x或y时，若此时nowlevel为-1，更新nowlevel和nowNode；若nowlevel不为-1，比较当前节点的level和nowlevel是否相等，当前节点和nowNode是否相等，若层数相等且父节点不同，为堂兄弟节点。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -69,4 +69,4 @@ public:
         return ans;
     }
 };
-```
+// ```

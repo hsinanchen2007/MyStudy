@@ -1,10 +1,10 @@
-### 解题思路
-核心是找出 [1,数组长度] 中第一个没在原数组中出现的值。
-这里初始化一个boolean辅助数组进行实现。
+// ### 解题思路
+// 核心是找出 [1,数组长度] 中第一个没在原数组中出现的值。
+// 这里初始化一个boolean辅助数组进行实现。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         if (nums.length <= 0) {
@@ -31,4 +31,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

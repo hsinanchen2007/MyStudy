@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/679e059f0d192536954f33cd371853ca68255f5d8a8ef9548d8b17733660d82e-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/679e059f0d192536954f33cd371853ca68255f5d8a8ef9548d8b17733660d82e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -62,4 +62,4 @@ int** combinationSum2(int* candidates, int candidatesSize,
               target,returnSize,returnColumnSizes);
 	return res;	
 }
-```
+// ```

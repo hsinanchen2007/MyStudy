@@ -1,9 +1,9 @@
-### 解题思路
-巧用XXX.push(XXX.front()),将FIFO变成LIFO。
+// ### 解题思路
+// 巧用XXX.push(XXX.front()),将FIFO变成LIFO。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -50,4 +50,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

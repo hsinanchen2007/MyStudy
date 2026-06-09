@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int find(vector<int>& uf,int x){
@@ -34,4 +34,4 @@ public:
         return count;
     }
 };
-```
+// ```

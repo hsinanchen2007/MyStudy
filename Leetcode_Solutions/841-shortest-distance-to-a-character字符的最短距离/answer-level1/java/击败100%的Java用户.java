@@ -1,7 +1,7 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :36.4 MB, 在所有 Java 提交中击败了83.19%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :36.4 MB, 在所有 Java 提交中击败了83.19%的用户
 
-```
+// ```
 class Solution {
     public int[] shortestToChar(String S, char C) {
         int len = S.length();
@@ -22,4 +22,4 @@ class Solution {
         
     }
 }
-```
+// ```

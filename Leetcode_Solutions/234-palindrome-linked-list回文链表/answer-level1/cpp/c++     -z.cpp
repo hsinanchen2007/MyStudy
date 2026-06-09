@@ -1,7 +1,7 @@
-### 直接法
-将链表的值复制到数组中，再使用双指针进行比较
+// ### 直接法
+// 将链表的值复制到数组中，再使用双指针进行比较
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -21,4 +21,4 @@ public:
         return true;
     }
 };
-```
+// ```

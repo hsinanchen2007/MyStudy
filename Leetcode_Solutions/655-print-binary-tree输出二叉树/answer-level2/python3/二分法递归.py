@@ -1,6 +1,6 @@
 
-先得到高度，再得到宽度（满二叉树），再二分法遍历，每次填充中间的节点
-```
+# 先得到高度，再得到宽度（满二叉树），再二分法遍历，每次填充中间的节点
+# ```
 class Solution:
     def printTree(self, root: TreeNode) -> List[List[str]]:
         depth = self.getDepth(root)  # one - based
@@ -21,4 +21,4 @@ class Solution:
         if not root:
             return 0
         return max([self.getDepth(root.left), self.getDepth(root.right)]) + 1
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-遍历，实时计数行和宽度
+// ### 解题思路
+// 遍历，实时计数行和宽度
 
-### 性能
-执行用时 :8 ms, 在所有 PHP 提交中击败了42.86%的用户
-内存消耗 :15 MB, 在所有 PHP 提交中击败了75.00%的用户
+// ### 性能
+// 执行用时 :8 ms, 在所有 PHP 提交中击败了42.86%的用户
+// 内存消耗 :15 MB, 在所有 PHP 提交中击败了75.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -29,12 +29,12 @@ class Solution {
         return [$line, $width];
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度: O(N)
-- 空间复杂度: O(N)
+// ### 算法复杂度
+// - 时间复杂度: O(N)
+// - 空间复杂度: O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/number-of-lines-to-write-string/solution/xie-zi-fu-chuan-xu-yao-de-xing-shu-by-leetcode/
-](https://leetcode-cn.com/problems/number-of-lines-to-write-string/solution/xie-zi-fu-chuan-xu-yao-de-xing-shu-by-leetcode/)
+// ### 参考
+// [https://leetcode-cn.com/problems/number-of-lines-to-write-string/solution/xie-zi-fu-chuan-xu-yao-de-xing-shu-by-leetcode/
+// ](https://leetcode-cn.com/problems/number-of-lines-to-write-string/solution/xie-zi-fu-chuan-xu-yao-de-xing-shu-by-leetcode/)

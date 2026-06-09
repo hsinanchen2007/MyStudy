@@ -1,9 +1,9 @@
-### 解题思路
-减少了io操作
+// ### 解题思路
+// 减少了io操作
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 static const auto _ = []()
 {
     ios::sync_with_stdio(false);
@@ -36,4 +36,4 @@ public:
         return str1.substr(0,com);
     }
 };
-```
+// ```

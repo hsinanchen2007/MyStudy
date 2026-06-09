@@ -1,4 +1,4 @@
-```
+// ```
 // Forward declaration of the read4 API.
 int read4(char *buf);
 
@@ -63,4 +63,4 @@ public:
   int m_left;
   int m_buf_pos;
 };
-```
+// ```

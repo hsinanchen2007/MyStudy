@@ -1,4 +1,4 @@
-```
+// ```
 class MyCircularDeque {
     private int capacity = 0;
     private int size = 0;
@@ -102,6 +102,6 @@ class MyCircularDeque {
     }
 }
 
-```
-## 说明
-链表结点使用一个前趋指针和一个后继指针，并维护了首尾：first和tail两个结点，这两个结点不存储值，就是首尾一个标记。
+// ```
+// ## 说明
+// 链表结点使用一个前趋指针和一个后继指针，并维护了首尾：first和tail两个结点，这两个结点不存储值，就是首尾一个标记。

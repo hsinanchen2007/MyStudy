@@ -1,8 +1,8 @@
-# 相关题目
-[149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
+// # 相关题目
+// [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     int[][] points;
     HashMap<Double, Integer> lines = new HashMap<>();
@@ -63,4 +63,4 @@ class Solution {
         }
     }
 }
-```
+// ```

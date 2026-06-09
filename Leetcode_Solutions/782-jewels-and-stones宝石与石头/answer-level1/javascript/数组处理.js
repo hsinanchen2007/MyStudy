@@ -1,9 +1,9 @@
-### 解题思路
-先把字符串转换为数组，再进行处理
+// ### 解题思路
+// 先把字符串转换为数组，再进行处理
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -29,4 +29,4 @@ var numJewelsInStones = function(J, S){
 
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def pathSum(self, root, sum):
         """
@@ -33,4 +33,4 @@ class Solution(object):
             cur_sum += tmp.val 
             cur = tmp 
             stk.append(cur)
-```
+# ```

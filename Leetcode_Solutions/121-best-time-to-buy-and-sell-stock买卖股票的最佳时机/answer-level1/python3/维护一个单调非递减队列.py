@@ -1,9 +1,9 @@
-### 解题思路
-维护一个单调非递减队列，队列中的第一个元素即为最低价
+# ### 解题思路
+# 维护一个单调非递减队列，队列中的第一个元素即为最低价
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         q=[]
@@ -17,4 +17,4 @@ class Solution:
         if len(q)>=2:
             res=max(res,q[-1]-q[0])
         return res
-```
+# ```

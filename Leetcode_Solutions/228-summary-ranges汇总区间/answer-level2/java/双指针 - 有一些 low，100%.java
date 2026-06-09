@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<String> summaryRanges(int[] nums) {
         List<String> ans = new ArrayList<>();
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

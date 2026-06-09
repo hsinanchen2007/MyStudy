@@ -1,10 +1,10 @@
-## 思路：
+# ## 思路：
 
-质数就是除了 `1` 和本身找不到其他能除尽的数，思路请看题目的提示！
+# 质数就是除了 `1` 和本身找不到其他能除尽的数，思路请看题目的提示！
 
-思路一：暴力法（超时）（大家可以学习一下 `for ... else` 的用法， 一般配合 `break` 使用）
+# 思路一：暴力法（超时）（大家可以学习一下 `for ... else` 的用法， 一般配合 `break` 使用）
 
-```python
+# ```python
 class Solution:
     def countPrimes(self, n: int) -> int:
         res = 0
@@ -16,11 +16,11 @@ class Solution:
                 #print(i)
                 res += 1
         return res
-```
+# ```
 
-思路二：优化暴力（超时），我们验证质数可以不需要小于它的数都验证
+# 思路二：优化暴力（超时），我们验证质数可以不需要小于它的数都验证
 
-```python
+# ```python
 class Solution:
     def countPrimes(self, n: int) -> int:
         res = 0
@@ -32,14 +32,14 @@ class Solution:
                 # print(i)
                 res += 1
         return res
-```
+# ```
 
-思路三：**厄拉多塞筛法**（好像能过）
+# 思路三：**厄拉多塞筛法**（好像能过）
 
-![Sieve_of_Eratosthenes_animation.gif](https://pic.leetcode-cn.com/88746df426ec615529615ef5d9c7d10b9453cfe7c4e8bdb09219b8ba99abf9f1-Sieve_of_Eratosthenes_animation.gif)
+# ![Sieve_of_Eratosthenes_animation.gif](https://pic.leetcode-cn.com/88746df426ec615529615ef5d9c7d10b9453cfe7c4e8bdb09219b8ba99abf9f1-Sieve_of_Eratosthenes_animation.gif)
 
 
-```python
+# ```python
 class Solution:
     def countPrimes(self, n: int) -> int:
         isPrimes = [1] * n
@@ -51,11 +51,11 @@ class Solution:
                 isPrimes[i * j] = 0
                 j += 1
         return res
-```
+# ```
 
-思路四：综上一起优化（超过90%）
+# 思路四：综上一起优化（超过90%）
 
-```python
+# ```python
 class Solution:
     def countPrimes(self, n: int) -> int:
         if n < 2: return 0
@@ -65,7 +65,7 @@ class Solution:
             if isPrimes[i] == 1:
                 isPrimes[i * i: n: i] = [0] * len(isPrimes[i * i: n: i])
         return sum(isPrimes)
-```
+# ```
 
 
 

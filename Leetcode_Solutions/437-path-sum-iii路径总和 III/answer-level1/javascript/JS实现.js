@@ -1,5 +1,5 @@
-[用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
-```js
+// [用JS刷Leetcode](https://github.com/careteenL/data-structure_algorithm/blob/0816-leetcode/src/leetcode)
+// ```js
 /**
  * @desc 路径总和 III
  *      给定一个二叉树，它的每个结点都存放着一个整数值。
@@ -60,4 +60,4 @@ node5.right = node8
 
 console.log(pathSum(root, 13)) // 11->2 / 5->8 / 13 / 8->4->1   => 4
 
-```
+// ```

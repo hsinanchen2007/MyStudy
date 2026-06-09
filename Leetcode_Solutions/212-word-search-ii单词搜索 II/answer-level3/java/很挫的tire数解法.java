@@ -1,8 +1,8 @@
-### 解题思路
-tire数解决问题的，就是时间也太挫了
-### 代码
+// ### 解题思路
+// tire数解决问题的，就是时间也太挫了
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> findWords(char[][] board, String[] words) {
         int[][] visited=new int[board.length][board[0].length];
@@ -48,4 +48,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

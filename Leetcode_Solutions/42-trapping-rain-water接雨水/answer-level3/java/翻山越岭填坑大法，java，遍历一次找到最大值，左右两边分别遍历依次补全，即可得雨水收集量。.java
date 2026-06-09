@@ -1,8 +1,8 @@
 
-![test.png](https://pic.leetcode-cn.com/6610045f1bfa3a095e8b8bed285b20e4d8321217e2a94e337cae6e8a7054c16e-test.png)
+// ![test.png](https://pic.leetcode-cn.com/6610045f1bfa3a095e8b8bed285b20e4d8321217e2a94e337cae6e8a7054c16e-test.png)
 
-假设，最高为A，将整个模型对半切，一半为left-A,一半为A-right。
-```
+// 假设，最高为A，将整个模型对半切，一半为left-A,一半为A-right。
+// ```
 class Solution {
     public int trap(int[] height) {
         int max = 0;
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-解释见注释，这道题还是有两个坑的。想明白了其实很简单，四个因数就是能够分解成两个质数乘积或者是立方数。
+# 解释见注释，这道题还是有两个坑的。想明白了其实很简单，四个因数就是能够分解成两个质数乘积或者是立方数。
 
-比如：
+# 比如：
 
-21 = 3 * 7
-8 = 2 * 4
+# 21 = 3 * 7
+# 8 = 2 * 4
 
-容易忽略的地方是两个质数相等的时候和立方数的情况。如果不用素数筛子可能有超时的问题，不过我没试了。
+# 容易忽略的地方是两个质数相等的时候和立方数的情况。如果不用素数筛子可能有超时的问题，不过我没试了。
 
-```py
+# ```py
 class Solution:
 
     def sumFourDivisors(self, nums) -> int:
@@ -44,6 +44,6 @@ class Solution:
                     ans += (1 + num + prim + num // prim)
                     break
         return ans
-```
+# ```
 
-已同步到我的 GitHub：https://github.com/yifeikong/oj_solutions
+# 已同步到我的 GitHub：https://github.com/yifeikong/oj_solutions

@@ -1,5 +1,5 @@
-思路：分别对words和queries计算其最小字符出现的次数，保存在forQueries和forWords数组中，然后两个for循环将forQueries中的与forWords中的一一比较即可。
-package 字符串;
+// 思路：分别对words和queries计算其最小字符出现的次数，保存在forQueries和forWords数组中，然后两个for循环将forQueries中的与forWords中的一一比较即可。
+// package 字符串;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-过程清晰，用list存储每一位数字，求和判断
+// 过程清晰，用list存储每一位数字，求和判断
 class Solution 
 {
     public int sumOfDigits(int[] A)

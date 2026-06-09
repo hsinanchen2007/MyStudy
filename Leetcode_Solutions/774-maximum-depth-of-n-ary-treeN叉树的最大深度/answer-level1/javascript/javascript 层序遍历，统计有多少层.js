@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历
+// ### 解题思路
+// 层序遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,children) {
@@ -34,4 +34,4 @@ var maxDepth = function(root) {
     }
     return max
 };
-```
+// ```

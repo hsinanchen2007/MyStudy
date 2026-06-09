@@ -1,6 +1,6 @@
-遍历，用 odd,even 去维持奇数索引、偶数索引链表；最后，连接起来。
+// 遍历，用 odd,even 去维持奇数索引、偶数索引链表；最后，连接起来。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return oddDummy.next;
     }
 }
-```
+// ```

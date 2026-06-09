@@ -1,4 +1,4 @@
-#可能我个人问题：一个是列表复制（不是同一地址的） 一个是注意循环中的列表的改变
+# #可能我个人问题：一个是列表复制（不是同一地址的） 一个是注意循环中的列表的改变
 class Solution:
     def orangesRotting(self, grid) -> int:
         count=0

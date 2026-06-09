@@ -1,28 +1,28 @@
-# 连通块问题的大总结请参考我的博客https://blog.csdn.net/qq_21515253/article/details/99703065
-# 本人根据leetcode刷题经验做了x分享，欢迎大家指教
-### Problem 
+// # 连通块问题的大总结请参考我的博客https://blog.csdn.net/qq_21515253/article/details/99703065
+// # 本人根据leetcode刷题经验做了x分享，欢迎大家指教
+// ### Problem 
 
-There are N students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a direct friend of B, and B is a direct friend of C, then A is an indirect friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.
+// There are N students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a direct friend of B, and B is a direct friend of C, then A is an indirect friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.
 
-Given a N*N matrix M representing the friend relationship between students in the class. If M[i][j] = 1, then the ith and jth students are direct friends with each other, otherwise not. And you have to output the total number of friend circles among all the students.
+// Given a N*N matrix M representing the friend relationship between students in the class. If M[i][j] = 1, then the ith and jth students are direct friends with each other, otherwise not. And you have to output the total number of friend circles among all the students.
 
-Example 1:
-		Input: 
-			[[1,1,0],
- 			[1,1,0],
-			 [0,0,1]]
-		Output: 2
-		Explanation:The 0th and 1st students are direct friends, so they are in a friend circle. The 2nd student himself is in a friend circle. So return 2.
+// Example 1:
+// 		Input: 
+// 			[[1,1,0],
+//  			[1,1,0],
+// 			 [0,0,1]]
+// 		Output: 2
+// 		Explanation:The 0th and 1st students are direct friends, so they are in a friend circle. The 2nd student himself is in a friend circle. So return 2.
 
-这次题目直接给的是邻接矩阵，无论是点构造，还是边构造都已经提前完成了。
+// 这次题目直接给的是邻接矩阵，无论是点构造，还是边构造都已经提前完成了。
 
-本题变成了已知邻接矩阵判断连通块数量。
+// 本题变成了已知邻接矩阵判断连通块数量。
 
-#### 策略一：并查集
+// #### 策略一：并查集
 
-对于此问题，使用并查集非常简单，这里直接上代码
+// 对于此问题，使用并查集非常简单，这里直接上代码
 
-```java
+// ```java
 class Solution {
     public int findCircleNum(int[][] M) {
         if (M == null || M.length == 0) {
@@ -103,16 +103,16 @@ class UnionFind {
         return top.size();
     }
 }
-```
+// ```
 
-#### 策略二：DFS
+// #### 策略二：DFS
 
-仍然考虑**格式化**的策略
+// 仍然考虑**格式化**的策略
 
-**格式化node，就是把grid\[node][another]从1变为0，然后进一步格式化another **
+// **格式化node，就是把grid\[node][another]从1变为0，然后进一步格式化another **
 		
 
-```java
+// ```java
 class Solution {
    
    /* 
@@ -147,13 +147,13 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-当然，上述代码虽然清晰，但累赘。
+// 当然，上述代码虽然清晰，但累赘。
 
-### **我们可以考虑dfs常用的visited数组的策略去保证对每个node进行dfs，降低时间复杂度。**
+// ### **我们可以考虑dfs常用的visited数组的策略去保证对每个node进行dfs，降低时间复杂度。**
 
-```java
+// ```java
 class Solution {
    private boolean[] visited;
     private int[][] visitMa;
@@ -187,5 +187,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

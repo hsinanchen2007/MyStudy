@@ -1,4 +1,4 @@
-```
+// ```
 private int res = 0;
     int[][] dirs = new int[][] {{0, -1}, {-1, 0}, {0, 1}, {1, 0}};
     public int movingCount(int m, int n, int k) {
@@ -40,4 +40,4 @@ private int res = 0;
 
         return sum <= k;
     }
-```
+// ```

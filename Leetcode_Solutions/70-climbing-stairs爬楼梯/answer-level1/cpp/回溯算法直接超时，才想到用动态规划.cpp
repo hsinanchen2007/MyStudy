@@ -1,5 +1,5 @@
-### 回溯超时算法
-```
+// ### 回溯超时算法
+// ```
 class Solution {
 public:
     vector<int> setp = {1,2};//爬楼梯步数，只能爬1或者2
@@ -26,11 +26,11 @@ public:
         return res.size();
     }
 };
-```
+// ```
 
-### 动态规划代码
+// ### 动态规划代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -43,4 +43,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

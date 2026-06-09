@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-因为是二叉搜索树
-所以中序遍历肯定是有序的
-直接判断是否在【L,R】，然后ans+=root->val;
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 因为是二叉搜索树
+// 所以中序遍历肯定是有序的
+// 直接判断是否在【L,R】，然后ans+=root->val;
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

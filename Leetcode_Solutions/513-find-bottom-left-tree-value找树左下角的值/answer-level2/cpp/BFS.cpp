@@ -1,5 +1,5 @@
-既然要找最左边的，从右向左BFS就完事了，记录队列最后一个元素。
-```c++
+// 既然要找最左边的，从右向左BFS就完事了，记录队列最后一个元素。
+// ```c++
 class Solution {
 public:
     int findBottomLeftValue(TreeNode* root) {
@@ -17,4 +17,4 @@ public:
         return t->val;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-时间复杂度： O(n), 遍历一次left2right数组和一次right2left数组
-空间复杂度： O(n), left2right和right2left各n维的数组
-合并时取两个数组中元素最大的
-详情参考java版本的官方题解
-```
+// 时间复杂度： O(n), 遍历一次left2right数组和一次right2left数组
+// 空间复杂度： O(n), left2right和right2left各n维的数组
+// 合并时取两个数组中元素最大的
+// 详情参考java版本的官方题解
+// ```
 class Solution {
 public:
     int candy(vector<int>& ratings) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

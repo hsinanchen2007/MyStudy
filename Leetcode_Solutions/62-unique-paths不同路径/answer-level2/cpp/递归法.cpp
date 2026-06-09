@@ -1,13 +1,13 @@
-### 解题思路
-对于方法二，思路就是：
-对于m*n的矩阵，即m行，n列，设定一个数组来存放，到了第n列时候的所有排列，例如dp[1]表示到了第二列时所能产生的所有排列手段
-![帆帆帆帆.png](https://pic.leetcode-cn.com/fdba6fee509df7c595d7748dec87b58aef4907242f81c5132594c474f32177dc-%E5%B8%86%E5%B8%86%E5%B8%86%E5%B8%86.png)
+// ### 解题思路
+// 对于方法二，思路就是：
+// 对于m*n的矩阵，即m行，n列，设定一个数组来存放，到了第n列时候的所有排列，例如dp[1]表示到了第二列时所能产生的所有排列手段
+// ![帆帆帆帆.png](https://pic.leetcode-cn.com/fdba6fee509df7c595d7748dec87b58aef4907242f81c5132594c474f32177dc-%E5%B8%86%E5%B8%86%E5%B8%86%E5%B8%86.png)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -34,4 +34,4 @@ public:
         return dp[n-1];
     }
 };
-```
+// ```

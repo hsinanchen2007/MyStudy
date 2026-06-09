@@ -1,4 +1,4 @@
-```
+// ```
 function lengthOfLongestSubstringTwoDistinct($s) {
     $n = strlen($s);
     if($n<=2) return $n;
@@ -18,4 +18,4 @@ function lengthOfLongestSubstringTwoDistinct($s) {
     }
     return $len;
 }
-```
+// ```

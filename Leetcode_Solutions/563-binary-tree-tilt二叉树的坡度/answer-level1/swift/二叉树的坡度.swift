@@ -1,8 +1,8 @@
 
-递归法
+// 递归法
 
 
-```swift []
+// ```swift []
 class Solution {
     func findTilt(_ root: TreeNode?) -> Int {
         guard let root = root else {
@@ -34,4 +34,4 @@ class Solution {
         preOrder(root.right, excute)
     }
 }
-```
+// ```

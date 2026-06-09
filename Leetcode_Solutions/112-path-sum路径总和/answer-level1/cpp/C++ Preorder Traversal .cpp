@@ -1,7 +1,7 @@
-And using a stack called nodes to record the single branch nodes which are from root to one leaf 
+// And using a stack called nodes to record the single branch nodes which are from root to one leaf 
 
 
-```
+// ```
 if(!root) return false;
         stack<TreeNode*> stc;//right sub tree 
         stack<TreeNode*> nodes;// current treenodes of a branch
@@ -36,4 +36,4 @@ if(!root) return false;
         }
         
         return false;
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-左右两边同时遍历，左边开始记录小于当前最大值的开始位置和结束位置；右边记录大于当前最小值的最开始和最结束位置，输出为四个位置的最小值和最大值
+# ### 解题思路
+# 左右两边同时遍历，左边开始记录小于当前最大值的开始位置和结束位置；右边记录大于当前最小值的最开始和最结束位置，输出为四个位置的最小值和最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subSort(self, array: List[int]) -> List[int]:
         if not array:
@@ -31,4 +31,4 @@ class Solution:
         return [min(left_start, left_end, right_start, right_end), max(left_start, left_end, right_start, right_end)]
 
 
-```
+# ```

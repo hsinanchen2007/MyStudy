@@ -1,11 +1,11 @@
-### 解题思路
-队列存放下标
-当前数大于队尾则队尾出队，小于等于则入队尾
-检查队头是否滑出去了
+// ### 解题思路
+// 队列存放下标
+// 当前数大于队尾则队尾出队，小于等于则入队尾
+// 检查队头是否滑出去了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

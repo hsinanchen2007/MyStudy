@@ -1,9 +1,9 @@
-### 解题思路
-若s2是由s1翻转得到的，则s2必是s1+s1的子串，故先看s1+s1的长度是否是s2的两倍，再用模式匹配
+// ### 解题思路
+// 若s2是由s1翻转得到的，则s2必是s1+s1的子串，故先看s1+s1的长度是否是s2的两倍，再用模式匹配
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <string.h>
 bool pattern(char* s1,char*s2){
     int i=0,j=0;
@@ -35,4 +35,4 @@ bool isFlipedString(char* s1, char* s2){
     }
     return pattern(s,s2);
 }
-```
+// ```

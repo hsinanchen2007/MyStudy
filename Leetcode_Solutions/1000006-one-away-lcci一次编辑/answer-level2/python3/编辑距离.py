@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         size1 = len(first)
@@ -19,4 +19,4 @@ class Solution:
                 n = 0 if first[i-1] == second[j-1] else 1
                 ls[i][j] = min(ls[i-1][j-1]+n,ls[i][j-1]+1,ls[i-1][j]+1)
         return ls[-1][-1] <= 1
-```
+# ```

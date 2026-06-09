@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn compute_area(a: i32, b: i32, c: i32, d: i32, e: i32, f: i32, g: i32, h: i32) -> i32 {
         let area0 = (c - a) * (d - b);
@@ -9,5 +9,5 @@ impl Solution {
         area0 + area1 - area2
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

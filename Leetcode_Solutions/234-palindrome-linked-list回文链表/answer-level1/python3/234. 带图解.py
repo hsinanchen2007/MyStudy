@@ -1,10 +1,10 @@
-### 解题思路
-![SharedScreenshot.jpg](https://pic.leetcode-cn.com/4db777a5d58c18668acbef665b3b8ed8a66d6ce7a57eedbfddda4b300b10bc5c-SharedScreenshot.jpg)
+# ### 解题思路
+# ![SharedScreenshot.jpg](https://pic.leetcode-cn.com/4db777a5d58c18668acbef665b3b8ed8a66d6ce7a57eedbfddda4b300b10bc5c-SharedScreenshot.jpg)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
     
 
         return forward_num == backward_num
-```
+# ```

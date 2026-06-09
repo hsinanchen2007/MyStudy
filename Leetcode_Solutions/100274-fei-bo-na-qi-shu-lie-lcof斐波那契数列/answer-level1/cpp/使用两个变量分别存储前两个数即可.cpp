@@ -1,11 +1,11 @@
-### 解题思路
-c=(a+b)%1000000007;
-a=b;
-b=c;
+// ### 解题思路
+// c=(a+b)%1000000007;
+// a=b;
+// b=c;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n) {
@@ -22,4 +22,4 @@ public:
         return c;
     }
 };
-```
+// ```

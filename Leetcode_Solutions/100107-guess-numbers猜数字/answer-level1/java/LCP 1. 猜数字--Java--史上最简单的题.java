@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_1_game.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 最简单的循环比较是否相等即可
@@ -18,4 +18,4 @@
         }
         return ret;
     }
-```
+// ```

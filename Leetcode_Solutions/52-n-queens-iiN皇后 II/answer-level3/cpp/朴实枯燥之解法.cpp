@@ -1,20 +1,20 @@
-## N皇后
-### 问题描述
-n 皇后问题研究的是如何将n 个皇后放置在 n×n 的棋盘上，并且使皇后彼此之间不能相互攻击。
-[![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)
-上图为 8 皇后问题的一种解法
+// ## N皇后
+// ### 问题描述
+// n 皇后问题研究的是如何将n 个皇后放置在 n×n 的棋盘上，并且使皇后彼此之间不能相互攻击。
+// [![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)
+// 上图为 8 皇后问题的一种解法
 
-给定一个整数 n，返回所有不同的 n 皇后问题的解决方案。
+// 给定一个整数 n，返回所有不同的 n 皇后问题的解决方案。
 
-每一种解法包含一个明确的 n 皇后问题的棋子放置方案，该方案中 'Q' 和 '.' 分别代表了皇后和空位。
-![](https://pic.leetcode-cn.com/883a9bf9d5effefb4f4147e88a625ce83abf7cee9d648d1affd70e856fb4eed5.png)
-[Ｎ皇后](https://leetcode-cn.com/problems/n-queens/ "Ｎ皇后")
-### 解决方法
-#### 回溯法
+// 每一种解法包含一个明确的 n 皇后问题的棋子放置方案，该方案中 'Q' 和 '.' 分别代表了皇后和空位。
+// ![](https://pic.leetcode-cn.com/883a9bf9d5effefb4f4147e88a625ce83abf7cee9d648d1affd70e856fb4eed5.png)
+// [Ｎ皇后](https://leetcode-cn.com/problems/n-queens/ "Ｎ皇后")
+// ### 解决方法
+// #### 回溯法
 
-注释写的比较多，代码就可以看的懂
+// 注释写的比较多，代码就可以看的懂
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> res;
@@ -66,24 +66,24 @@ public:
         
     }
 };
-```
+// ```
 
 
-## N皇后II
-### 问题描述
-n 皇后问题研究的是如何将 n 个皇后放置在 n×n 的棋盘上，并且使皇后彼此之间不能相互攻击。
-[![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)
-上图为 8 皇后问题的一种解法
+// ## N皇后II
+// ### 问题描述
+// n 皇后问题研究的是如何将 n 个皇后放置在 n×n 的棋盘上，并且使皇后彼此之间不能相互攻击。
+// [![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/8-queens.png)
+// 上图为 8 皇后问题的一种解法
 
-给定一个整数 n，返回所有不同的 n 皇后问题的解决方案。
+// 给定一个整数 n，返回所有不同的 n 皇后问题的解决方案。
 
-![](https://pic.leetcode-cn.com/c23ad351454988e33ba36181e71e60c8669cef79345d52195b240eaa68fd92f9.png)
-[Ｎ皇后II](https://leetcode-cn.com/problems/n-queens-ii/ "Ｎ皇后II")
-### 解决方法
-####　回溯
-与Ｎ皇后基本一样
+// ![](https://pic.leetcode-cn.com/c23ad351454988e33ba36181e71e60c8669cef79345d52195b240eaa68fd92f9.png)
+// [Ｎ皇后II](https://leetcode-cn.com/problems/n-queens-ii/ "Ｎ皇后II")
+// ### 解决方法
+// ####　回溯
+// 与Ｎ皇后基本一样
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int res=0;
@@ -134,6 +134,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-个人小站：[https://liyiping.cn](https://liyiping.cn)
+// 个人小站：[https://liyiping.cn](https://liyiping.cn)

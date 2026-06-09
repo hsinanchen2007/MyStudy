@@ -1,7 +1,7 @@
-1.先按start从小到大排序
-2.排序完成之后，两个for循环判断a[i],a[j]是否重叠
-    如果重叠，更新a[i]，(并记录有重叠的位置，之后a[i]遍历可以跳过；)继续遍历a[j],判断a[j]是否会跟最新的a[i]重叠；
-    不重叠，则继续遍历a[i]
+// 1.先按start从小到大排序
+// 2.排序完成之后，两个for循环判断a[i],a[j]是否重叠
+//     如果重叠，更新a[i]，(并记录有重叠的位置，之后a[i]遍历可以跳过；)继续遍历a[j],判断a[j]是否会跟最新的a[i]重叠；
+//     不重叠，则继续遍历a[i]
 
 
 int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* returnSize, int** returnColumnSizes){

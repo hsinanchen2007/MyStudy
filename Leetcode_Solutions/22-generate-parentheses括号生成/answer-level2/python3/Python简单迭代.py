@@ -1,9 +1,9 @@
-### 解题思路
-观察可以看到，第n对括号的结果是n-1对括号在每个位置插入一对括号得到
+# ### 解题思路
+# 观察可以看到，第n对括号的结果是n-1对括号在每个位置插入一对括号得到
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
@@ -18,4 +18,4 @@ class Solution:
                 temp.add(item + "()")
             res = list(temp)[:]
         return res
-```
+# ```

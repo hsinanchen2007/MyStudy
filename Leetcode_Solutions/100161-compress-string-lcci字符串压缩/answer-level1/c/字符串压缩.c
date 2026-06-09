@@ -1,11 +1,11 @@
-### 解题思路
-1. 字符串下标j-1 与 j比较，相同cnt+1;
-2. 不相同将记录j-1，并且输出计数；
-3. 用sprintf实现数字转字符串
-注意：当字符串长度为1时，直接返回，否则会出现访问越界。
-### 代码
+// ### 解题思路
+// 1. 字符串下标j-1 与 j比较，相同cnt+1;
+// 2. 不相同将记录j-1，并且输出计数；
+// 3. 用sprintf实现数字转字符串
+// 注意：当字符串长度为1时，直接返回，否则会出现访问越界。
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
 	int len = strlen(S);
 	char* res = (char*)malloc(sizeof(char) * len * 2);
@@ -36,4 +36,4 @@ char* compressString(char* S){
 		return S;
 	}
 }
-```
+// ```

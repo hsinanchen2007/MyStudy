@@ -1,4 +1,4 @@
-```
+# ```
 class UndergroundSystem:
 
     def __init__(self):
@@ -42,4 +42,4 @@ class UndergroundSystem:
 # obj.checkIn(id,stationName,t)
 # obj.checkOut(id,stationName,t)
 # param_3 = obj.getAverageTime(startStation,endStation)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-知识面太浅，只能想到暴力法
+// ### 解题思路
+// 知识面太浅，只能想到暴力法
 
-### 代码
-第一遍写概念，使用等不是很清晰，很多冗余。
-```java
+// ### 代码
+// 第一遍写概念，使用等不是很清晰，很多冗余。
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int len=nums.length;
@@ -19,9 +19,9 @@ class Solution {
 throw new IllegalArgumentException("No two sum solution");//不可或缺
     }
 }
-```
-暴力法改进
-```Java
+// ```
+// 暴力法改进
+// ```Java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int len=nums.length;
@@ -34,4 +34,4 @@ class Solution {
 throw new IllegalArgumentException("No two sum solution");
     }
 }
-```
+// ```

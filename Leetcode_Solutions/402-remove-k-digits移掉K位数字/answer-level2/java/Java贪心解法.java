@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String removeKdigits(String num, int k) {
         //每次都移除峰值，共移除k次，返回结果值即可
@@ -17,4 +17,4 @@ class Solution {
         return ("".equals(num))?"0":num;
     }
 }
-```
+// ```

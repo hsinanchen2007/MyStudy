@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         # 反转链表的头节点
@@ -12,4 +12,4 @@ class Solution:
             result = head
             head = temp
         return result
-```
+# ```

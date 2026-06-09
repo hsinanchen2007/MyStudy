@@ -1,9 +1,9 @@
-### 解题思路
-一次循环，解决！
+// ### 解题思路
+// 一次循环，解决！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
     }
     return rs.next;
 }
-```
+// ```

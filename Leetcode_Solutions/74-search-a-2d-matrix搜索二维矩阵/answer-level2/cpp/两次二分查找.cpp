@@ -1,10 +1,10 @@
-### 解题思路
-1、第一次二分查找最后一列，定位目标所在的行，即最后返回的行mid；若该数值小于目标，则在下一行mid + 1，或者不在矩阵范围。
-2、第二次二分查找mid行，判断目标值是否存在。
+// ### 解题思路
+// 1、第一次二分查找最后一列，定位目标所在的行，即最后返回的行mid；若该数值小于目标，则在下一行mid + 1，或者不在矩阵范围。
+// 2、第二次二分查找mid行，判断目标值是否存在。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -45,4 +45,4 @@ bool searchMatrix(vector<vector<int>>& matrix, int target) {
     return false;
 }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         flag=None
@@ -22,4 +22,4 @@ class Solution:
             return 0
         res=(flag if flag else 1)*int(''.join(res))
         return res if -2**31<=res<=2**31-1 else (2**31-1 if res>0 else -2**31)
-```
+# ```

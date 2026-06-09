@@ -1,14 +1,14 @@
-### 解题思路
-三种思路
-3. 自底向上，右-左-中 的 循环后序遍历
-2. 自顶向下，存储左右节点的循环前序遍历
-1. 不断将左子树接到右子树的地方，然后将右子树接到左子树的最右节点
+// ### 解题思路
+// 三种思路
+// 3. 自底向上，右-左-中 的 循环后序遍历
+// 2. 自顶向下，存储左右节点的循环前序遍历
+// 1. 不断将左子树接到右子树的地方，然后将右子树接到左子树的最右节点
 
-[参考](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/)
+// [参考](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -102,4 +102,4 @@ public:
         }
     }
 };
-```
+// ```

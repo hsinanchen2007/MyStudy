@@ -1,7 +1,7 @@
 
-思路：在深度优先遍历有向图时，一旦我们找到了一条有向边v->w且w已经存在于栈中，就找到了一个环，因为栈表示的是一条由w到v的有向路径，而v->w正好补全了这个环。我们用数组onStack标记已经在栈中的顶点。
+// 思路：在深度优先遍历有向图时，一旦我们找到了一条有向边v->w且w已经存在于栈中，就找到了一个环，因为栈表示的是一条由w到v的有向路径，而v->w正好补全了这个环。我们用数组onStack标记已经在栈中的顶点。
 
-```
+// ```
 class Solution 
 {
 	private boolean[] marked;
@@ -47,5 +47,5 @@ class Solution
 		onStack[s] = false;
 	}
 }
-```
-![未命名图片.png](https://pic.leetcode-cn.com/1313595ca484988ca8b2ee030d5d5134601ab09491831a485573b921ee591d63-%E6%9C%AA%E5%91%BD%E5%90%8D%E5%9B%BE%E7%89%87.png)
+// ```
+// ![未命名图片.png](https://pic.leetcode-cn.com/1313595ca484988ca8b2ee030d5d5134601ab09491831a485573b921ee591d63-%E6%9C%AA%E5%91%BD%E5%90%8D%E5%9B%BE%E7%89%87.png)

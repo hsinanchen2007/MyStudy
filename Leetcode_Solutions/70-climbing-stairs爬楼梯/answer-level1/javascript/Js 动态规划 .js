@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 简单直接
+// ### 解题思路
+// 动态规划 简单直接
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -17,4 +17,4 @@ var climbStairs = function(n) {
 
   return arr[n-1]
 };
-```
+// ```

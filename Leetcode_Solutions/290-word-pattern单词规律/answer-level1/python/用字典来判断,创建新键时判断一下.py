@@ -1,12 +1,12 @@
-### 解题思路
-进行列表化处理后可以慢慢进行判断是否一一对应
+# ### 解题思路
+# 进行列表化处理后可以慢慢进行判断是否一一对应
 
-### 代码
-执行用时 :
-20 ms
-内存消耗 :
-12.6 MB
-```python
+# ### 代码
+# 执行用时 :
+# 20 ms
+# 内存消耗 :
+# 12.6 MB
+# ```python
 class Solution(object):
     def wordPattern(self, pattern, str):
 
@@ -33,4 +33,4 @@ class Solution(object):
 
 
 
-```
+# ```

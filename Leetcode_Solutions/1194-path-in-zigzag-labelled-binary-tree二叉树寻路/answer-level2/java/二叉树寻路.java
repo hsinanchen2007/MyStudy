@@ -1,7 +1,7 @@
-根据节点所在层的奇偶性来计算父节点，执行用时和内存消耗均击败100%的用户
+// 根据节点所在层的奇偶性来计算父节点，执行用时和内存消耗均击败100%的用户
 
 
-``` java
+// ``` java
 public class Contest1103 {
 
     public List<Integer> pathInZigZagTree(int label) {
@@ -29,4 +29,4 @@ public class Contest1103 {
         return list;
     }
 }
-```
+// ```

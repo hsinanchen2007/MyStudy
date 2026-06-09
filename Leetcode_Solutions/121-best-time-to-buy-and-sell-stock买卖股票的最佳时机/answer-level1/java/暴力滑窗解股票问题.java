@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
       public int maxProfit(int[] prices) {
         /*滑动窗口解股票问题*/
@@ -16,4 +16,4 @@ class Solution {
         return difference;
     }
 }
-```
+// ```

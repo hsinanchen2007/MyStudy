@@ -1,10 +1,10 @@
-### 解题思路
-贪心策略：每次选的区间的终点最小，后面就能有越多的区间
+# ### 解题思路
+# 贪心策略：每次选的区间的终点最小，后面就能有越多的区间
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def eraseOverlapIntervals(self, intervals):
         """
@@ -28,4 +28,4 @@ class Solution(object):
                 
         return count
 
-```
+# ```

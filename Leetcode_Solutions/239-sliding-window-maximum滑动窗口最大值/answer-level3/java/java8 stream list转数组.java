@@ -1,9 +1,9 @@
-### 解题思路
-java8 stream list转数组
+// ### 解题思路
+// java8 stream list转数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int[] res = new int[nums.length - k +1];
@@ -28,4 +28,4 @@ class Solution {
         return ee;
     }
 }
-```
+// ```

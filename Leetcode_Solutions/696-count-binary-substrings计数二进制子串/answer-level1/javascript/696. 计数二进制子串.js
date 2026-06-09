@@ -1,4 +1,4 @@
-```js
+// ```js
 var countBinarySubstrings = function(s) {
     //res存储相邻连续字符串的个数
     let res = [];
@@ -19,4 +19,4 @@ var countBinarySubstrings = function(s) {
     }
     return total;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-减治法
+// ### 解题思路
+// 减治法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -38,4 +38,4 @@ public:
         return left;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/24f13eab38f632175e64c7ef6f082d773213fc2e0ae2efd2c1d132f4b9ebc746-image.png)
+// ![image.png](https://pic.leetcode-cn.com/24f13eab38f632175e64c7ef6f082d773213fc2e0ae2efd2c1d132f4b9ebc746-image.png)
 
-只要满足执行一次后方向改变（好比左拐，左拐，左拐，左拐），或互道原点，则多次执行一定会回到原点
-```
+// 只要满足执行一次后方向改变（好比左拐，左拐，左拐，左拐），或互道原点，则多次执行一定会回到原点
+// ```
 public boolean isRobotBounded(String instructions) {
     char D = 'R';
     int[] result = new int[]{0, 0};
@@ -40,4 +40,4 @@ public boolean isRobotBounded(String instructions) {
     }
     return D != 'R' || (result[0] == 0 && result[1] == 0);
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-发现一个哈希表还有点不够
-又生生加了个数组..
+# ### 解题思路
+# 发现一个哈希表还有点不够
+# 又生生加了个数组..
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
             xww+=[res[v]/gs[v]]
         return xww
             
-```
+# ```

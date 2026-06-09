@@ -1,13 +1,13 @@
-### 解题思路
-字母最多26个，因此我们用一个矩阵记录每个单词的字母出现次数
+// ### 解题思路
+// 字母最多26个，因此我们用一个矩阵记录每个单词的字母出现次数
 
-然后比较每一列 的单词次数是否>0，有>0 则说明 这是三个共同拥有的字母，放到结果集中即可。
+// 然后比较每一列 的单词次数是否>0，有>0 则说明 这是三个共同拥有的字母，放到结果集中即可。
 
-思路很简单
+// 思路很简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -51,4 +51,4 @@ char ** commonChars(char ** A, int ASize, int* returnSize){
     *returnSize = num;
     return result;
 }
-```
+// ```

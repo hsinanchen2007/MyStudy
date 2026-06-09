@@ -1,5 +1,5 @@
-使用两位二进制：第一位代表下一状态，第二位代表原数组细胞的状态
-```
+// 使用两位二进制：第一位代表下一状态，第二位代表原数组细胞的状态
+// ```
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -47,4 +47,4 @@ var gameOfLife = function(board) {
         return count;
     }
 };
-```
+// ```

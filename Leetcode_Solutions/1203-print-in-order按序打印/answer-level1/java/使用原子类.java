@@ -1,4 +1,4 @@
-```
+// ```
 import java.util.concurrent.atomic.AtomicInteger;
 
 class Foo {
@@ -33,4 +33,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

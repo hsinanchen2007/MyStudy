@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/e2de295e1ade589576f35ef3a5e53902836e41c1f05448f05d6e7e5a10a34556-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e2de295e1ade589576f35ef3a5e53902836e41c1f05448f05d6e7e5a10a34556-image.png)
 
-```
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -37,4 +37,4 @@ public:
     }
 };
 
-```
+// ```

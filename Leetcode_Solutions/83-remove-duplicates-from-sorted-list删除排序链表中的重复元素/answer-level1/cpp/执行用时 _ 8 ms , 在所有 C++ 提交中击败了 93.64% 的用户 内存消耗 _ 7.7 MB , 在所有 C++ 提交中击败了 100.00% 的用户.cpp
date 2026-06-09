@@ -1,9 +1,9 @@
-### 解题思路
-声明两个指针，用来移动，边移动边比较，边删除
+// ### 解题思路
+// 声明两个指针，用来移动，边移动边比较，边删除
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ public:
         return L;
     }
 };
-```
+// ```

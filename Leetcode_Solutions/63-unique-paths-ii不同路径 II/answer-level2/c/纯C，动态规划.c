@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bdd87889da30c080c7bfae87deb6867f97c705aef5c9e60de215b58aad5038de-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bdd87889da30c080c7bfae87deb6867f97c705aef5c9e60de215b58aad5038de-image.png)
 
-基于62题的思路，稍作修改：
-在第0行和第0列遇到障碍后的所有格子均不能到达；
-然后每次遇到障碍，则将此位置置0
+// 基于62题的思路，稍作修改：
+// 在第0行和第0列遇到障碍后的所有格子均不能到达；
+// 然后每次遇到障碍，则将此位置置0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleGridColSize){
     if(obstacleGrid[obstacleGridSize-1][*obstacleGridColSize-1]==1)
         return 0;
@@ -40,4 +40,4 @@ int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obst
     }
     return route_amount[obstacleGridSize-1][*obstacleGridColSize-1];
 }
-```
+// ```

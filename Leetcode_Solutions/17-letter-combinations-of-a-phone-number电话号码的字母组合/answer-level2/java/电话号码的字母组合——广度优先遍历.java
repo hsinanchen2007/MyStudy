@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-可以把字符串组strs想象成一颗树，然后用广度优先遍历得出答案
+// ### 解题思路
+// 此处撰写解题思路
+// 可以把字符串组strs想象成一颗树，然后用广度优先遍历得出答案
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int len;
     List<String> list = new ArrayList<>();
@@ -54,4 +54,4 @@ class Solution {
 
     }
 }
-```
+// ```

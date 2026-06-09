@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a47ff146a52d40c20953de256ba4a6f6e09eab6dabf2b4dbed7f01161461918e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a47ff146a52d40c20953de256ba4a6f6e09eab6dabf2b4dbed7f01161461918e-image.png)
 
 
-```
+# ```
 from typing import List
 class Solution:
 
@@ -28,4 +28,4 @@ class Solution:
         ans = set()
         self.solve(startUrl, htmlParser, domain, all_url, ans)
         return sorted(list(ans))
-```
+# ```

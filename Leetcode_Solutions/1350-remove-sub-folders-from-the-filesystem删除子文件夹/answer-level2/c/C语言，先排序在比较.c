@@ -1,4 +1,4 @@
-```
+// ```
 #define min(a,b) ((a) < (b)) ? (a) : (b)
 int cmp(const void *arg1, const void *arg2)
 {
@@ -44,4 +44,4 @@ char ** removeSubfolders(char ** folder, int folderSize, int* returnSize){
     *returnSize = cnt;
     return res;
 }
-```
+// ```

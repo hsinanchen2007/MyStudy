@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeDuplicates(String S) {
         Stack<Character> stack = new Stack<Character>();//定义一个存放字符的栈
@@ -27,4 +27,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-[Pow(x,n)](https://leetcode-cn.com/problems/powx-n/) 的升级版，主要用到了以下公式：
+// [Pow(x,n)](https://leetcode-cn.com/problems/powx-n/) 的升级版，主要用到了以下公式：
 
-```
+// ```
 (a * b) % p = (a % p * b % p) % p
 a ^ b % p = ((a % p) ^ b) % p
-```
+// ```
 
-以 `3 ^ 1234` 为例，`3 ^ 1234 = 3 ^ 1000 * 3 ^ 200 * 3 ^ 30 * 3 ^ 4`，分解完成后每一部分使用快速幂求解。
+// 以 `3 ^ 1234` 为例，`3 ^ 1234 = 3 ^ 1000 * 3 ^ 200 * 3 ^ 30 * 3 ^ 4`，分解完成后每一部分使用快速幂求解。
 
-```swift
+// ```swift
 class Solution {
     func superPow(_ a: Int, _ b: [Int]) -> Int {
         let mod = 1337
@@ -37,4 +37,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

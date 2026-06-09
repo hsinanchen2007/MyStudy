@@ -1,5 +1,5 @@
-1. **链表拼接法:**从head链表依次遍历，把小于x的值依次用链表l1存储起来，大于或等于x的值用l2链接起来，然后链表l1的尾指针指向l2链表的头结点，即可。
-```
+// 1. **链表拼接法:**从head链表依次遍历，把小于x的值依次用链表l1存储起来，大于或等于x的值用l2链接起来，然后链表l1的尾指针指向l2链表的头结点，即可。
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,11 +33,11 @@ struct ListNode* partition(struct ListNode* head, int x) {
     pl->next = l2->next;
     return l1->next;
 }
-```
+// ```
 
  
-2. **原链表排序法：**取其链表数据域中第一个>=x的指针作为断点，然后把断点后的指针一次遍历按顺序依次进行插入，这种方法时间复杂度为o(n)运行速度快,但占用内存较多。
-```
+// 2. **原链表排序法：**取其链表数据域中第一个>=x的指针作为断点，然后把断点后的指针一次遍历按顺序依次进行插入，这种方法时间复杂度为o(n)运行速度快,但占用内存较多。
+// ```
 struct ListNode* partition(struct ListNode* head, int x){
 
 if (NULL == head)//边界条件
@@ -84,9 +84,9 @@ while(rear)
 return L->next;
 }
 
-```
-//一个新链表一个原链表法
-```
+// ```
+// //一个新链表一个原链表法
+// ```
 
 struct ListNode* partition(struct ListNode* head, int x){
 
@@ -132,4 +132,4 @@ while(p)
 pre1->next=L->next;
 return L1->next;
 }
-```
+// ```

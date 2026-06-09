@@ -1,10 +1,10 @@
-### 解题思路 物品从少到多，指标从大到小 好好体会一下
-1. 一个一个物品加
-1. 大的要用到**上一轮**的小的，因此从大到小，确保上一轮的解不在用到时被本轮解覆盖掉，keke
+# ### 解题思路 物品从少到多，指标从大到小 好好体会一下
+# 1. 一个一个物品加
+# 1. 大的要用到**上一轮**的小的，因此从大到小，确保上一轮的解不在用到时被本轮解覆盖掉，keke
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         ans,N = 0,len(strs)
@@ -20,4 +20,4 @@ class Solution:
                     ans = max(ans,dp[i][j])
         return ans
 
-```
+# ```

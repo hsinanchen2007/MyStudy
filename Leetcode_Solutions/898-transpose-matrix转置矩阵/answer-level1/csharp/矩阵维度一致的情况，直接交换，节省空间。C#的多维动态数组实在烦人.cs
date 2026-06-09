@@ -1,9 +1,9 @@
-### 解题思路
-矩阵维度一致的情况，直接交换，节省空间。C#的多维动态数组实在烦人
+// ### 解题思路
+// 矩阵维度一致的情况，直接交换，节省空间。C#的多维动态数组实在烦人
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] Transpose(int[][] A) {  
         int width = A[0].Length;
@@ -33,4 +33,4 @@ public class Solution {
         }           
     }
 }
-```
+// ```

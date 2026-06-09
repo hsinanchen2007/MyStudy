@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -62,11 +62,11 @@ int twoCitySchedCost( int ** costs , int costsSize , int * costsColSize ){
     return sum;
 
 }
-```
+// ```
 
-快速排序第二种写法
+// 快速排序第二种写法
 
-```
+// ```
 /**
 *
 *整体思路：
@@ -105,5 +105,5 @@ int twoCitySchedCost( int ** costs , int costsSize , int * costsColSize ){
     return sum;
 
 }
-```
+// ```
 

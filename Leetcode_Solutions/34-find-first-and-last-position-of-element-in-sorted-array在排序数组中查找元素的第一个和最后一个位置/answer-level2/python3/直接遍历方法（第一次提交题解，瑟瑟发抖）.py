@@ -1,11 +1,11 @@
-方法一： 
-先判断列表中是否存在target
+# 方法一： 
+# 先判断列表中是否存在target
 
-存在则进行遍历，遍历过程中，将获取到了下标存入一个列表，当前大于target直接跳出，最后取下标列表的第一个和最后一个
+# 存在则进行遍历，遍历过程中，将获取到了下标存入一个列表，当前大于target直接跳出，最后取下标列表的第一个和最后一个
 
-不存在则直接返回[-1,-1]
+# 不存在则直接返回[-1,-1]
 
-```python []
+# ```python []
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         res = []
@@ -23,13 +23,13 @@ class Solution:
             result = [-1,-1]
             
         return result
-```
+# ```
 
-方法二：
-使用index()函数,index()函数返回子字符串在原字符串中开始的索引值
-这里先对正序的nums使用index，获取第一个位置，再对逆序的nums使用index获取最后一个位置，不过要注意逆序获取的index要转化一下，因为逆序遍历时，index也是逆序的。
+# 方法二：
+# 使用index()函数,index()函数返回子字符串在原字符串中开始的索引值
+# 这里先对正序的nums使用index，获取第一个位置，再对逆序的nums使用index获取最后一个位置，不过要注意逆序获取的index要转化一下，因为逆序遍历时，index也是逆序的。
 
-```python []
+# ```python []
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
 
@@ -42,4 +42,4 @@ class Solution:
             res = [-1, -1]
 
         return res
-```
+# ```

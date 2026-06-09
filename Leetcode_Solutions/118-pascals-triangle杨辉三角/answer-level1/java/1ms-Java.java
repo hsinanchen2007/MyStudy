@@ -1,9 +1,9 @@
-### 解题思路
-杨辉三角形的特点，后面一行依赖上面一行。
+// ### 解题思路
+// 杨辉三角形的特点，后面一行依赖上面一行。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> results = new ArrayList<>();
@@ -32,4 +32,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

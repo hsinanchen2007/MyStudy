@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class treeNode  //前缀树节点
 {
 public:
@@ -82,8 +82,8 @@ public:
         
     }
 };
-```
-```python []
+// ```
+// ```python []
 class treeNode:
     def __init__(self):
         self.isWord = False;
@@ -132,6 +132,6 @@ class Solution:
                 return "";
             self.tree.insert(ins);
         return self.tree.find();
-```
+// ```
 
 

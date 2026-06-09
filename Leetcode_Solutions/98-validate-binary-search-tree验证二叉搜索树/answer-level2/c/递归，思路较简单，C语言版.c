@@ -1,12 +1,12 @@
-### 解题思路
-对于每一颗子树，把根结点的值记为**target**。
-我们可以设计一个函数以遍历该子树的左右子树的所有结点，若左子树的所有结点的值都小于target且右子树的所有结点的值
-都大于target，则返回true，一旦途中有不符合条件的，返回false。
-然后利用**递归**的思路判断该子树的左子树和右子树，具体实现看代码（附注释）
+// ### 解题思路
+// 对于每一颗子树，把根结点的值记为**target**。
+// 我们可以设计一个函数以遍历该子树的左右子树的所有结点，若左子树的所有结点的值都小于target且右子树的所有结点的值
+// 都大于target，则返回true，一旦途中有不符合条件的，返回false。
+// 然后利用**递归**的思路判断该子树的左子树和右子树，具体实现看代码（附注释）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ bool isValidBST(struct TreeNode* root){
     return DFS(root->left, root->val, 0) && DFS(root->right, root->val, 1) && 
             isValidBST(root->left) && isValidBST(root->right);
 }
-```
+// ```

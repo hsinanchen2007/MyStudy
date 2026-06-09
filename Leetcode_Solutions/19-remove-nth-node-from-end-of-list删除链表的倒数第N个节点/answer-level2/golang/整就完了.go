@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1、主要是你返回的是一个头结点，你如果直接拿head一把梭操作以后，head的节点就变了
-2、所以第一步把冰箱门打开，哦不，建立一个空头结点res，让一个pre指针指向这个空头结点，之后再操作pre
-3、一顿操作以后，注意返回res.Next，而不是res
+// 1、主要是你返回的是一个头结点，你如果直接拿head一把梭操作以后，head的节点就变了
+// 2、所以第一步把冰箱门打开，哦不，建立一个空头结点res，让一个pre指针指向这个空头结点，之后再操作pre
+// 3、一顿操作以后，注意返回res.Next，而不是res
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -39,4 +39,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
     fmt.Println("pre == ", pre.Val)
     return res.Next
 }
-```
+// ```

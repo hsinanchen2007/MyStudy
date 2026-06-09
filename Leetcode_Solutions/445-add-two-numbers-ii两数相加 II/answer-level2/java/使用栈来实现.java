@@ -1,9 +1,9 @@
-### 解题思路
-因为这个链表不能进行翻转，所以就用栈来解决； 
+// ### 解题思路
+// 因为这个链表不能进行翻转，所以就用栈来解决； 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -98,4 +98,4 @@ class Solution {
         return rev;
     }
 }
-```
+// ```

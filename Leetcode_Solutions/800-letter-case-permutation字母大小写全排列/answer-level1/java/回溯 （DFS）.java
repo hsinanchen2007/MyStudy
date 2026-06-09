@@ -1,6 +1,6 @@
-##### DFS递归遍历过程
+// ##### DFS递归遍历过程
 
-```
+// ```
 示例: "a1b2"
                   起始
 第一次        a           A
@@ -9,9 +9,9 @@
 第四次     2     2      2    2
 
 PS：第四次遍历到达递归终止条件
-```
-##### 根据上述示例写出代码
-```
+// ```
+// ##### 根据上述示例写出代码
+// ```
     public List<String> letterCasePermutation(String S) {
         List<String> result = new ArrayList<>();
         dfs(S, 0, new char[S.length()], result);
@@ -39,4 +39,4 @@ PS：第四次遍历到达递归终止条件
             dfs(S, start + 1, chars, result);
         }
     }
-```
+// ```

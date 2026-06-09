@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f0a379f6b1177f341b90179db5dd5462e8ce501818363a2db3befc6870b22c4a-image.png)
-### 因为是从今天开始算的，所以有点麻烦。毕竟不查资料的话只知道这个。。
-```cpp
+// ![image.png](https://pic.leetcode-cn.com/f0a379f6b1177f341b90179db5dd5462e8ce501818363a2db3befc6870b22c4a-image.png)
+// ### 因为是从今天开始算的，所以有点麻烦。毕竟不查资料的话只知道这个。。
+// ```cpp
 class Solution {
 private:
     int month_days[13][2]={ {0, 0}, {31, 31}, {28, 29}, {31, 31}, {30, 30}, {31, 31}, {30, 30}, {31, 31}, {31, 31}, {30, 30}, {31, 31}, {30, 30}, {31, 31} };
@@ -75,4 +75,4 @@ public:
         }
     }
 };
-```
+// ```

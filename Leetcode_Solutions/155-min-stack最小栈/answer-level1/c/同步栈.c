@@ -1,9 +1,9 @@
-### 解题思路
-用两个数组栈，同一个栈顶指针，一个栈用来保存数据，另一个栈用来指定当前的min值
+// ### 解题思路
+// 用两个数组栈，同一个栈顶指针，一个栈用来保存数据，另一个栈用来指定当前的min值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b)  ((a<b) ? a : b)
 #define MAXSTACK 10000
 
@@ -74,4 +74,4 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，先找到车的位置，并完成车所在行的遍历，记录车的左右黑旗数量，然后根据记录的车的位置，遍历车上下的黑旗数量
+// ### 解题思路
+// 遍历数组，先找到车的位置，并完成车所在行的遍历，记录车的左右黑旗数量，然后根据记录的车的位置，遍历车上下的黑旗数量
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -74,4 +74,4 @@ var numRookCaptures = function(board) {
 
     return result;
 };
-```
+// ```

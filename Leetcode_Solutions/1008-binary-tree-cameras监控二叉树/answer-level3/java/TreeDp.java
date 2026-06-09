@@ -1,6 +1,6 @@
-脑子转不动了，想不了贪心，写了个treeDp 感觉麻烦得要死
-具体也是分三种状态，然后根据状态直接min
-```java []
+// 脑子转不动了，想不了贪心，写了个treeDp 感觉麻烦得要死
+// 具体也是分三种状态，然后根据状态直接min
+// ```java []
 public class leetcode968 {
     public class TreeNode {
       int val;
@@ -54,4 +54,4 @@ public class leetcode968 {
         }
     }
 }
-```
+// ```

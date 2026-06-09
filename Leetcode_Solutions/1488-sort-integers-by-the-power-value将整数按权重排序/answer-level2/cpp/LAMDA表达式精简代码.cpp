@@ -1,9 +1,9 @@
-### 解题思路
-递归+lamda表达式排序
+// ### 解题思路
+// 递归+lamda表达式排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getKth(int lo, int hi, int k) {
@@ -23,4 +23,4 @@ public:
         else return 1+bushu(3*a + 1);
     }
 };
-```
+// ```

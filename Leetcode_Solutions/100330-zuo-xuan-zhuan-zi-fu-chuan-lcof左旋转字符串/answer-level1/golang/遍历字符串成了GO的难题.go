@@ -1,9 +1,9 @@
-### 解题思路
-GO认为string是不可以修改的，采用byte转成可写的数组才可以操作
+// ### 解题思路
+// GO认为string是不可以修改的，采用byte转成可写的数组才可以操作
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseLeftWords(s string, n int) string {
     r := []byte(s)
     l := len(s)
@@ -19,4 +19,4 @@ func reverseLeftWords(s string, n int) string {
     }
     return string(r)
 }
-```
+// ```

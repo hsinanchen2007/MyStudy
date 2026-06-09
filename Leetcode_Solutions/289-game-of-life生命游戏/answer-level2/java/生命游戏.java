@@ -1,11 +1,11 @@
-### 解题思路
-直接用方向数组遍历八个方向的细胞，然后统计个数即可。
-Time O(n^2)
-Space O(n^2)
+// ### 解题思路
+// 直接用方向数组遍历八个方向的细胞，然后统计个数即可。
+// Time O(n^2)
+// Space O(n^2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         int[][] d = {
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

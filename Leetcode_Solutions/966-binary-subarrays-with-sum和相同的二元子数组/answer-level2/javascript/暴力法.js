@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，加到和为S的时候停止
+// ### 解题思路
+// 遍历数组，加到和为S的时候停止
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} S
@@ -36,4 +36,4 @@ var numSubarraysWithSum = function(A, S) {
      }
      return result
 };
-```
+// ```

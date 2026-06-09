@@ -1,9 +1,9 @@
-### 解题思路
-1. 思路是每个元素都应该生成一个小于它的数组项的集合，然后方法所有数组的长度的集合
+// ### 解题思路
+// 1. 思路是每个元素都应该生成一个小于它的数组项的集合，然后方法所有数组的长度的集合
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -18,4 +18,4 @@ var smallerNumbersThanCurrent = function(nums) {
 
     return res;
 };
-```
+// ```

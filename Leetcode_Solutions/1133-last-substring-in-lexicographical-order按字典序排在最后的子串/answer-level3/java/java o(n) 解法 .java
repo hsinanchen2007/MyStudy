@@ -1,9 +1,9 @@
-##### 解题思路：
->
-> 擂台挑战者场景，记录擂主和新的挑战者（如有），如果挑战成功，则更换擂主。
-> 
+// ##### 解题思路：
+// >
+// > 擂台挑战者场景，记录擂主和新的挑战者（如有），如果挑战成功，则更换擂主。
+// > 
 
-```java []
+// ```java []
     public String getLastSubString(String s) {
         if (s.length() == 1) {
             return s;
@@ -34,5 +34,5 @@
         }
         return s.substring(currentMaxIndex);
     }
-```
+// ```
 

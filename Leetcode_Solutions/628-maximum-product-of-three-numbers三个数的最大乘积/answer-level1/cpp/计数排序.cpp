@@ -1,9 +1,9 @@
-### 解题思路
-将原有的sort排序，替换为计数排序，效率提高
+// ### 解题思路
+// 将原有的sort排序，替换为计数排序，效率提高
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -39,4 +39,4 @@ public:
         return max(val1, val2);
     }
 };
-```
+// ```

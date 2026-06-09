@@ -1,8 +1,8 @@
-### 层次遍历
-**(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
+# ### 层次遍历
+# **(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
 
-因为堂兄弟节点必须要在同一深度，因此可以用层次遍历。但是还要保证是不是同一父节点，因此还要判断一下。代码如下：
-```
+# 因为堂兄弟节点必须要在同一深度，因此可以用层次遍历。但是还要保证是不是同一父节点，因此还要判断一下。代码如下：
+# ```
 class Solution:
     def isCousins(self, root: TreeNode, x: int, y: int) -> bool:
         ans = [root]
@@ -27,4 +27,4 @@ class Solution:
             if x in tmp or y in tmp:
                 return False
         return False
-```
+# ```

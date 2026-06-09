@@ -1,15 +1,15 @@
-# 定义
-+ 前序
-  + 根-左-右
-+ 中序
-  + 左-根-右
-+ 后序
-  + 左-右-根
-## 例题
-+ [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-+ [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-+ [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
-## 图解
+// # 定义
+// + 前序
+//   + 根-左-右
+// + 中序
+//   + 左-根-右
+// + 后序
+//   + 左-右-根
+// ## 例题
+// + [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+// + [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+// + [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+// ## 图解
 + ![](https://pic.leetcode-cn.com/7890901c4f3d3ab07cb5768c31e2a1dad41ceb61c65801f8bc72cad506a52eac-file_1577461135774) 
 ## 三序遍历解法
 + 递归

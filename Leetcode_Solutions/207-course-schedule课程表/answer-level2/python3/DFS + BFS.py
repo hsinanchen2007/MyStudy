@@ -1,22 +1,22 @@
-## 思路：
+# ## 思路：
 
-这道题 就是**找图中是否有环。**
+# 这道题 就是**找图中是否有环。**
 
-思路一：深度优先遍历
+# 思路一：深度优先遍历
 
-时间复杂度：$O(N + E)$ $N$ 为顶点个数，$E$为边的个数
+# 时间复杂度：$O(N + E)$ $N$ 为顶点个数，$E$为边的个数
 
-思路二：广度优先遍历
+# 思路二：广度优先遍历
 
-通过顶点的入度的个数，每次消除入度为`0`顶点，看是否每一个节点都能被消除
+# 通过顶点的入度的个数，每次消除入度为`0`顶点，看是否每一个节点都能被消除
 
-时间复杂度 ： $O(N + E)$ $N$ 为顶点个数，$E$为边的个数
+# 时间复杂度 ： $O(N + E)$ $N$ 为顶点个数，$E$为边的个数
 
-## 代码：
+# ## 代码：
 
-DFS
+# DFS
 
-```python
+# ```python
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         from collections import defaultdict
@@ -43,11 +43,11 @@ class Solution:
             if i in visited: continue
             if not dfs(i, set()): return False
         return True
-```
+# ```
 
-BFS
+# BFS
 
-```python
+# ```python
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         from collections import defaultdict, deque
@@ -68,5 +68,5 @@ class Solution:
                 if degree[j] == 0:
                     queue.appendleft(j)
         return cnt == numCourses
-```
+# ```
 

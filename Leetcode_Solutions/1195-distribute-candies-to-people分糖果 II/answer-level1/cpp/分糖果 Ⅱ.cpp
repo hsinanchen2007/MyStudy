@@ -1,11 +1,11 @@
-### 解题思路
-用count%num_people表示每一个孩子的下标
-比较candies剩余糖果数和step每次应该给的糖果数，谁小加谁。
-利用vector（n，0）进行存储
-描述很复杂，代码很简单。
-### 代码
+// ### 解题思路
+// 用count%num_people表示每一个孩子的下标
+// 比较candies剩余糖果数和step每次应该给的糖果数，谁小加谁。
+// 利用vector（n，0）进行存储
+// 描述很复杂，代码很简单。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -25,4 +25,4 @@ public:
         return a;
     }
 };
-```
+// ```

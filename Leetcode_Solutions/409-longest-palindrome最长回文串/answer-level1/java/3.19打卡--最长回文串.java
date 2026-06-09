@@ -1,9 +1,9 @@
-### 解题思路
-应该算是数学逻辑题
+// ### 解题思路
+// 应该算是数学逻辑题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         int[] count = new int[128];
@@ -19,4 +19,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

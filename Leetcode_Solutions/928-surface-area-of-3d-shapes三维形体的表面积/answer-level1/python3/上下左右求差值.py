@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         n=len(grid)
@@ -19,4 +19,4 @@ class Solution:
                             gap=0
                         ans+=max(grid[r][c]-gap,0)
         return ans
-```
+# ```

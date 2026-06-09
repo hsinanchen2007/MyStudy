@@ -1,4 +1,4 @@
-```
+// ```
 var ascend=function(x,y){
     return x[1]-y[1]
 }
@@ -16,6 +16,6 @@ var findMinArrowShots = function(points) {
     }
     return ans
 };
-```
-按照每一个区间的最大值进行排序之后，画图，看哪种能扎破
-![txsf.png](https://pic.leetcode-cn.com/ff31796d9db90891bfe5396abd8b07433f58a311e2cb33c4bd52d18d05801e1d-txsf.png)
+// ```
+// 按照每一个区间的最大值进行排序之后，画图，看哪种能扎破
+// ![txsf.png](https://pic.leetcode-cn.com/ff31796d9db90891bfe5396abd8b07433f58a311e2cb33c4bd52d18d05801e1d-txsf.png)

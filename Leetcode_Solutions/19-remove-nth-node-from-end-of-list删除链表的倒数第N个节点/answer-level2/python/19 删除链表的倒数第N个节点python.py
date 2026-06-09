@@ -1,11 +1,11 @@
-### 解题思路
-两次遍历：
-第一次遍历记录链表的长度，第二次遍历直接删除节点。
+# ### 解题思路
+# 两次遍历：
+# 第一次遍历记录链表的长度，第二次遍历直接删除节点。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -36,21 +36,21 @@ class Solution(object):
 
         return dummy.next
 
-```
+# ```
 
 
 
-### 解题思路
-一次遍历：
-使用快慢指针，快指针先移 n 个节点。
-接下来，快慢指针一起移动，两指针之间一直保持 n 个节点，当快指针到链表底了，操作慢指针，删除要删除的元素！
-时间复杂度：O(n)
+# ### 解题思路
+# 一次遍历：
+# 使用快慢指针，快指针先移 n 个节点。
+# 接下来，快慢指针一起移动，两指针之间一直保持 n 个节点，当快指针到链表底了，操作慢指针，删除要删除的元素！
+# 时间复杂度：O(n)
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         """
@@ -75,4 +75,4 @@ class Solution(object):
         slow.next = slow.next.next
 
         return dummy.next
-```
+# ```

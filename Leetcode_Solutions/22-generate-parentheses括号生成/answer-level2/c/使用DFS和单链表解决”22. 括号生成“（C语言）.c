@@ -1,20 +1,20 @@
-### 解题思路
-典型的卡塔兰数问题。也是一个需要返回动态长度结果的DFS问题，可以作为该类问题的模板，这里给出C语言的解法。
+// ### 解题思路
+// 典型的卡塔兰数问题。也是一个需要返回动态长度结果的DFS问题，可以作为该类问题的模板，这里给出C语言的解法。
 
-**C语言通过单链表，解决这类返回动态长度结果的问题**。
+// **C语言通过单链表，解决这类返回动态长度结果的问题**。
 
-1.对于卡塔兰数问题，题解可以分为以一个括号分割的两个子问题。
+// 1.对于卡塔兰数问题，题解可以分为以一个括号分割的两个子问题。
 
-2.用单链表分别记录两个子问题的解。
+// 2.用单链表分别记录两个子问题的解。
 
-3.生成本问题的解。
+// 3.生成本问题的解。
 
-![image.png](https://pic.leetcode-cn.com/fb7a0c2637ea9675a187339404cc0fe0e1b1abddeb1d33b89fb3b819bb38ea1d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fb7a0c2637ea9675a187339404cc0fe0e1b1abddeb1d33b89fb3b819bb38ea1d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -89,4 +89,4 @@ char ** generateParenthesis(int n, int* returnSize){
     *returnSize = rsize;
     return ret;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
     def pushDominoes(self, dominoes: str) -> str:
         pre, res = (-1, 'L'), ''  # 首部的虚拟哨兵
         for i, s in enumerate(dominoes+'R'):  # 尾部的哨兵
@@ -16,4 +16,4 @@
                     res += 'R'*(i-pre[0])
                 pre = (i, s)
         return res[:-1]  # 去掉尾部的哨兵
-```
+# ```

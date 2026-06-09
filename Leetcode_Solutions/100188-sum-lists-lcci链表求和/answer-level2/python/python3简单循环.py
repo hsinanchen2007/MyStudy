@@ -1,13 +1,13 @@
-### 解题思路
-这个结果不知道算不算好
-![image.png](https://pic.leetcode-cn.com/1e2d2a28753fe8e216aa76089405982d51414c56c5a58218fbfb02af3aab1637-image.png)
+# ### 解题思路
+# 这个结果不知道算不算好
+# ![image.png](https://pic.leetcode-cn.com/1e2d2a28753fe8e216aa76089405982d51414c56c5a58218fbfb02af3aab1637-image.png)
 
-看到链表其实第一印象是用递归的, 后面想了一下还是直接写循环好了.
-因为他本来第一位就是从个位开始的, 正好符合加法的运算规则, 所以直接每一位运算完就插入链表
+# 看到链表其实第一印象是用递归的, 后面想了一下还是直接写循环好了.
+# 因为他本来第一位就是从个位开始的, 正好符合加法的运算规则, 所以直接每一位运算完就插入链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
 
 
 
-```
+# ```

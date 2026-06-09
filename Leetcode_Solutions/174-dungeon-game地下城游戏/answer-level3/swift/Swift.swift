@@ -1,8 +1,8 @@
-1. 采用了动态规划: 地推公式为f(0,0) = const[0,0]+min(f(1,0),f(0,1))
-    1. f(0,0) 表示救出公主需要的健康值；
-    2. const[0,0]表示在该关卡不死需要的健康值
-2. 添加了记忆优化
-```
+// 1. 采用了动态规划: 地推公式为f(0,0) = const[0,0]+min(f(1,0),f(0,1))
+//     1. f(0,0) 表示救出公主需要的健康值；
+//     2. const[0,0]表示在该关卡不死需要的健康值
+// 2. 添加了记忆优化
+// ```
 class Solution {
     var dicCalculateMinimumHP:[String:Int] = [:]
     func calculateMinimumHP(_ dungeon: [[Int]]) -> Int {
@@ -47,4 +47,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先把链表值存入StringBuilder，然后遍历StringBuilder，转换成十进制。
+// ### 解题思路
+// 先把链表值存入StringBuilder，然后遍历StringBuilder，转换成十进制。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

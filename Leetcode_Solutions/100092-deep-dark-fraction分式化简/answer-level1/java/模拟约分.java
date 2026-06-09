@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] fraction(int[] cont) {
         int denominator=cont[cont.length-1], numerator=1;
@@ -11,4 +11,4 @@ class Solution {
         return new int[]{denominator, numerator};
     }
 }
-```
+// ```

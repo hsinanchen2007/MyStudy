@@ -1,6 +1,6 @@
-### 递归代码
+// ### 递归代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -34,21 +34,21 @@ class Solution {
         $this->helper($root->right, $result);
     }
 }
-```
+// ```
 
-注意， LeetCode 不支持 PHP7 的变量类型声明，以下代码会报错
+// 注意， LeetCode 不支持 PHP7 的变量类型声明，以下代码会报错
 
-```php
+// ```php
 private function helper(TreeNode $root, array &$result)
 {
     // code
 }
-```
+// ```
 
-### 迭代代码
+// ### 迭代代码
 
-不太好理解 (左根右)
-```
+// 不太好理解 (左根右)
+// ```
 //  用p当做指针
 //  p = root
 //  while p or stack:
@@ -63,9 +63,9 @@ private function helper(TreeNode $root, array &$result)
 //      # 看右子树
 //      p = p.right
 //  return res
-```
+// ```
 
-```php
+// ```php
 $stack = new SplStack();
 $res = [];
 $p = $root;
@@ -82,5 +82,5 @@ while ($p !== null || $stack->count()) {
     }
 }
 return $res;
-```
+// ```
 

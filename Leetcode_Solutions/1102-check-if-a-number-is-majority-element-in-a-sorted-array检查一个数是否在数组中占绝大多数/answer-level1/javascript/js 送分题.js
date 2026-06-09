@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -7,4 +7,4 @@
 var isMajorityElement = function(nums, target) {
     return nums.filter(item => item === target).length > nums.length / 2
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-正则替换很方便
+// 正则替换很方便
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -19,7 +19,7 @@ var compressString = function(S) {
     if(s.length >= S.length) return S;
     
 };
-```
+// ```
 
-> 执行用时 :80 ms 在所有 JavaScript 提交中击败了35.00%的用户
-> 内存消耗 :42.9 MB, 在所有 JavaScript 提交中击败了100.00%的用户
+// > 执行用时 :80 ms 在所有 JavaScript 提交中击败了35.00%的用户
+// > 内存消耗 :42.9 MB, 在所有 JavaScript 提交中击败了100.00%的用户

@@ -1,9 +1,9 @@
-### 解题思路
-二分法
+# ### 解题思路
+# 二分法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         start, last = 0, num
@@ -18,4 +18,4 @@ class Solution:
 
 
         
-```
+# ```

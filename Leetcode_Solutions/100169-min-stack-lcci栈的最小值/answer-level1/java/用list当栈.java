@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     //长度可变栈
@@ -51,4 +51,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-思路跟[102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)一样
-```
+// 思路跟[102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)一样
+// ```
 class Solution {
     void reverse_vector(vector<int>& v){
         int n = v.size();
@@ -50,4 +50,4 @@ public:
         return res;
     }
 };
-```
+// ```

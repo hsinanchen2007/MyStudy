@@ -1,8 +1,8 @@
-逆置链表法：将首节点next置为nullptr；每遍历一个节点，将其next置为pre；当遇到next为nullptr退出循环。
-对数据结构进行了可逆的破坏，最坏需遍历2n个节点。
-![image.png](https://pic.leetcode-cn.com/18aa2b02c1cca97fa0b8a0f3dd120117c6f94b4913d8aee9ef8e96268fae4468-image.png)
+// 逆置链表法：将首节点next置为nullptr；每遍历一个节点，将其next置为pre；当遇到next为nullptr退出循环。
+// 对数据结构进行了可逆的破坏，最坏需遍历2n个节点。
+// ![image.png](https://pic.leetcode-cn.com/18aa2b02c1cca97fa0b8a0f3dd120117c6f94b4913d8aee9ef8e96268fae4468-image.png)
 
-```c++
+// ```c++
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -18,4 +18,4 @@ public:
         return now==head;
     }
 };
-```
+// ```

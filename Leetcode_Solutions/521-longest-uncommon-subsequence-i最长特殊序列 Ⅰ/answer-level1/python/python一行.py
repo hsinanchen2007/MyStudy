@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findLUSlength(self, a, b):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         :rtype: int
         """
         return -1 if a==b else max(len(a),len(b))
-```
+# ```

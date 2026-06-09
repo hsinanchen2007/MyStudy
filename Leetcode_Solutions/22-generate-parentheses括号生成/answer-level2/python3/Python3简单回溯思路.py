@@ -1,9 +1,9 @@
-### 解题思路
-没有剪枝，有些多余路径...
+# ### 解题思路
+# 没有剪枝，有些多余路径...
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         if n == 0: return ['']
@@ -22,4 +22,4 @@ class Solution:
             return
         self.parenthesis(s+'(', n, result)
         self.parenthesis(s+')', n, result)
-```
+# ```

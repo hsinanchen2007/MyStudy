@@ -1,9 +1,9 @@
-### 解题思路
-    反向思考比较好求解。
+// ### 解题思路
+//     反向思考比较好求解。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 inline bool HasIntersection(int a1, int a2, int b1, int b2)
 {
     if (b1 >= a2) {
@@ -24,4 +24,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     }
     return true;
 }
-```
+// ```

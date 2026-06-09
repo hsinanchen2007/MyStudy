@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/eb58a24bdc7af1624787b7053890c0e1bc0063ae368b5ea39d549b7204d6eacd-image.png)
-![image.png](https://pic.leetcode-cn.com/b5032d346fd5f91216689e75ae0e0af163de463328b9c393a3a52f0ca3a7f8fa-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/eb58a24bdc7af1624787b7053890c0e1bc0063ae368b5ea39d549b7204d6eacd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b5032d346fd5f91216689e75ae0e0af163de463328b9c393a3a52f0ca3a7f8fa-image.png)
 
--本质上是一个 Z字 轮换
+// -本质上是一个 Z字 轮换
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @param {number} k
@@ -28,4 +28,4 @@ var shiftGrid = function(grid, k) {
     return grid;
 };
 
-```
+// ```

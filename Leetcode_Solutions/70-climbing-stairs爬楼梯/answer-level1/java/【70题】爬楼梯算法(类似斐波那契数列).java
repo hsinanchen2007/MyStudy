@@ -1,5 +1,5 @@
-**方法一：代码实现类似斐波那契数列**
-```
+// **方法一：代码实现类似斐波那契数列**
+// ```
 class Solution {
     /**
     * 思路：
@@ -27,12 +27,12 @@ class Solution {
         return temp;
     }
 }
-```
+// ```
 
 
-**方法二：带入斐波那契数列公式**
-![fbnq.jpg](https://pic.leetcode-cn.com/da856c2b220e5491aa21c259da34543bfd892fc710835967c1681d9b099a300b-fbnq.jpg)
-```
+// **方法二：带入斐波那契数列公式**
+// ![fbnq.jpg](https://pic.leetcode-cn.com/da856c2b220e5491aa21c259da34543bfd892fc710835967c1681d9b099a300b-fbnq.jpg)
+// ```
 public class Solution {
     /**
     * 思路：
@@ -44,4 +44,4 @@ public class Solution {
         return (int)(fibn/sqrt5);
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-开始做成了成段增减。。做完返现原来题目里的正方形是不能打散的。
+# 开始做成了成段增减。。做完返现原来题目里的正方形是不能打散的。
 
-所以改成了成段替换。思路大概是：
+# 所以改成了成段替换。思路大概是：
 
-1. 先取出填放位置的高度 `current_height`;
-2. 增加当前方块的高度 `hope_height = current_height + height`
-3. 成段更新 `update(l, r, hope_height, 1, N, 1)`;
-4. 全量查询最大值 `query(1, N, 1, N, 1)`;
+# 1. 先取出填放位置的高度 `current_height`;
+# 2. 增加当前方块的高度 `hope_height = current_height + height`
+# 3. 成段更新 `update(l, r, hope_height, 1, N, 1)`;
+# 4. 全量查询最大值 `query(1, N, 1, N, 1)`;
 
-```python
+# ```python
 #
 # @lc app=leetcode.cn id=699 lang=python3
 #
@@ -80,4 +80,4 @@ class Solution:
             self.update(l, r, hop_height, 1, ind, 1)
             ret.append(self.query(1, ind, 1, ind, 1))
         return ret    
-```
+# ```

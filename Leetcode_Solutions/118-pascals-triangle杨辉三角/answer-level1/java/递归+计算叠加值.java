@@ -1,9 +1,9 @@
-### 解题思路
-代码和注释写的很清楚了，直接参考即可
+// ### 解题思路
+// 代码和注释写的很清楚了，直接参考即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 解题思路，递归+组合计算
     public List<List<Integer>> generate(int numRows) {
@@ -49,4 +49,4 @@ class Solution {
         return values;
     }
 }
-```
+// ```

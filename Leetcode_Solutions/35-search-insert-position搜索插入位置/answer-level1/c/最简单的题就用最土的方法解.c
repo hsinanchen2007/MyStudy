@@ -1,4 +1,4 @@
-```
+// ```
 int searchInsert(int* nums, int numsSize, int target){
     if(target <= 0) return 0;
     /*
@@ -15,4 +15,4 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return numsSize;
 }
-```
+// ```

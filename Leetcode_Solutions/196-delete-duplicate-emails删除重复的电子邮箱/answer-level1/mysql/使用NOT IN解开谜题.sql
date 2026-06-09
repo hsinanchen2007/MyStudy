@@ -1,5 +1,5 @@
-简单难度也花了不少时间😨
-```
+-- 简单难度也花了不少时间😨
+-- ```
 DELETE FROM Person
 WHERE Id NOT IN (
     SELECT id FROM (
@@ -7,4 +7,4 @@ WHERE Id NOT IN (
         GROUP BY Email
     ) t
 )
-```
+-- ```

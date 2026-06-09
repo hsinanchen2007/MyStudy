@@ -1,11 +1,11 @@
-### 解题思路
-主要练习了并查集算法，顺带BFS和DFS
-并查集算法用来进行集合间的操作比较方便，比如判断两个元素是否属于同一集合，进行集合的合并等。
+// ### 解题思路
+// 主要练习了并查集算法，顺带BFS和DFS
+// 并查集算法用来进行集合间的操作比较方便，比如判断两个元素是否属于同一集合，进行集合的合并等。
 
-（其实代码还应该进行路径压缩简化根节点的查找）
-### 代码
+// （其实代码还应该进行路径压缩简化根节点的查找）
+// ### 代码
 
-```c
+// ```c
 #define DIR 2
 #define ROW 0
 #define COL 1
@@ -82,15 +82,15 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     return ans;
 }
 
-```
+// ```
 
 
 
 
-DFS
+// DFS
 
 
-```c
+// ```c
 #define Dir 4
 #define Left 0
 #define Right 1
@@ -132,11 +132,11 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
 }
 
 
-```
+// ```
 
-BFS
+// BFS
 
-```c
+// ```c
 #define Dir 4
 #define Left 0
 #define Right 1
@@ -189,4 +189,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     return ans;
 }
 
-```
+// ```

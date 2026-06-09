@@ -1,11 +1,11 @@
-### 解题思路
-1、计算个数（**注意：可能超过int长度，需要使用long**）
-2、递归回溯
-![image.png](https://pic.leetcode-cn.com/78bd02cf23e85155a30e91ac685620930c761132370e7e9b9062a31a751cd09e-image.png)
+// ### 解题思路
+// 1、计算个数（**注意：可能超过int长度，需要使用long**）
+// 2、递归回溯
+// ![image.png](https://pic.leetcode-cn.com/78bd02cf23e85155a30e91ac685620930c761132370e7e9b9062a31a751cd09e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int *g_hash = NULL;
 static int g_resCnt = 0;
 static int g_n = 0;
@@ -135,4 +135,4 @@ int** combine(int n, int k, int* returnSize, int** returnColumnSizes)
     Release();
     return res;
 }
-```
+// ```

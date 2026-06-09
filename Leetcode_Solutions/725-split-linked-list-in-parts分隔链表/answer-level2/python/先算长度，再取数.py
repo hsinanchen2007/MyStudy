@@ -1,9 +1,9 @@
-### 解题思路
-先算每一部分的长度，然后对应取长度
+# ### 解题思路
+# 先算每一部分的长度，然后对应取长度
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -55,4 +55,4 @@ class Solution(object):
         return result
                 
             
-```
+# ```

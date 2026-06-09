@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String dayOfTheWeek(int day, int month, int year) {
         String week=null;
@@ -78,4 +78,4 @@ class Solution {
         return dayNum;
     }
 }
-```
+// ```

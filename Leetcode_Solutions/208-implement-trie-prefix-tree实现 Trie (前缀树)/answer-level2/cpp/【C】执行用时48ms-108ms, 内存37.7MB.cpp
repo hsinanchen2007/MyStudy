@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-48ms是一个错误示范，会导致内存泄漏，没有释放子节点申请的内存。
+// 48ms是一个错误示范，会导致内存泄漏，没有释放子节点申请的内存。
 
-```c
+// ```c
 void trieFree(Trie* obj) {
     free(obj);
 }
-```
+// ```
 
-108 ms是正确的内存释放方法
+// 108 ms是正确的内存释放方法
 
-```c
+// ```c
 void trieFree(Trie* obj) {
     if (obj == NULL ) return;
     for (int i = 0; i < 26; i++){
@@ -20,12 +20,12 @@ void trieFree(Trie* obj) {
     }
     free(obj);
 }
-```
+// ```
 
-其余看代码即可，非常简洁（其实是简陋）。
+// 其余看代码即可，非常简洁（其实是简陋）。
 
 
-```c
+// ```c
 
 typedef struct trie{
     int isEnd;
@@ -95,11 +95,11 @@ void trieFree(Trie* obj) {
     free(obj);
 }
 
-```
+// ```
 
-另外附上Cpp的代码, 和 C语言其实差不多。
+// 另外附上Cpp的代码, 和 C语言其实差不多。
 
-```cpp
+// ```cpp
 class Trie {
     struct Node{
         int isEnd;
@@ -152,4 +152,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-先遍历一遍计算总数，然后遍历到中间
-### 代码
+// ### 解题思路
+// 先遍历一遍计算总数，然后遍历到中间
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> pathInZigZagTree(int label) {
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

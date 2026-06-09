@@ -1,7 +1,7 @@
-1、树的最大直径实际上实际只可能有两种情况，要么为子树的最大直径，要么从根节点到叶子节点的最大的非重复的两条边之和。
-2、可以用递归来完成该题,递归每次返回两个值，一个值为该树的最大直径，另一个值为该树从根节点到叶子节点的最长距离。
+// 1、树的最大直径实际上实际只可能有两种情况，要么为子树的最大直径，要么从根节点到叶子节点的最大的非重复的两条边之和。
+// 2、可以用递归来完成该题,递归每次返回两个值，一个值为该树的最大直径，另一个值为该树从根节点到叶子节点的最长距离。
 
-```
+// ```
 int g_treeDiameter;
 void printf_Matrices(int** pMatrices, int matricesSize)
 {
@@ -77,4 +77,4 @@ int treeDiameter(int** edges, int edgesSize, int* edgesColSize){
     dfs(pMatrices, max_flag+1, 0, visited);
     return g_treeDiameter;
 }
-```
+// ```

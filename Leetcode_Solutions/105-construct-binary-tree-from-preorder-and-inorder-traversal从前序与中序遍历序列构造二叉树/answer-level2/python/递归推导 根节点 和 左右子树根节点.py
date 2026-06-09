@@ -1,11 +1,11 @@
-### 解题思路
-# input: 前序遍历, 中序遍历
-# ouput: 根节点，左树的 前序遍历 和 中序遍历， 右树的 前序遍历 和 中序遍历
-==》 将根节点与左右子树根节点连接，递归左右子树
+# ### 解题思路
+# # input: 前序遍历, 中序遍历
+# # ouput: 根节点，左树的 前序遍历 和 中序遍历， 右树的 前序遍历 和 中序遍历
+# ==》 将根节点与左右子树根节点连接，递归左右子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -48,6 +48,6 @@ class Solution:
 
         return helper(0, len(preorder)-1, 0, len(inorder)-1)
 
-```
-已知【后序遍历】和【中序遍历】 构造二叉树 同理。
+# ```
+# 已知【后序遍历】和【中序遍历】 构造二叉树 同理。
 

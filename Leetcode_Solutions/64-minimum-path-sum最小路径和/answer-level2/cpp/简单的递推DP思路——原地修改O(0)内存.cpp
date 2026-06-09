@@ -1,8 +1,8 @@
-时间：87.89%
-空间：100.00%
-具体递推式为：dp[i][j] += min(dp[i-1][j], dp[i][j-1]);//从上或从左来
-其余思路注释里呈现：
-```
+// 时间：87.89%
+// 空间：100.00%
+// 具体递推式为：dp[i][j] += min(dp[i-1][j], dp[i][j-1]);//从上或从左来
+// 其余思路注释里呈现：
+// ```
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -23,4 +23,4 @@ public:
         return grid[n-1][m-1];
     }
 };
-```
+// ```

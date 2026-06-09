@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/0e17a8111baa3be96bc0efbff174fe6ea1d46cb03cef368b52f1b34d8ad8a1c8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0e17a8111baa3be96bc0efbff174fe6ea1d46cb03cef368b52f1b34d8ad8a1c8-image.png)
 
 
-```
+# ```
 '''
 动态规划
 dp(i, j) 表示前i行中，最后一行选择位置j时候的最小路径和，如果只是这么单纯的
@@ -45,4 +45,4 @@ class Solution:
             first_min_val, first_min_pos, second_min_val = first_min, first_pos, second_min
         return first_min_val
 
-```
+# ```

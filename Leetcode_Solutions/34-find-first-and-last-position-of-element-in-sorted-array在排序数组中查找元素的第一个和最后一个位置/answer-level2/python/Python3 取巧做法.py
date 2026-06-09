@@ -1,4 +1,4 @@
-```python []
+# ```python []
 def searchRange(self, nums: List[int], target: int) -> List[int]:
 	def findnum(nums, t):
 		mid, left, right = -1, 0, len(nums) - 1
@@ -15,4 +15,4 @@ def searchRange(self, nums: List[int], target: int) -> List[int]:
 		return [-1, -1]
 	nums = sorted(nums + [target + 0.5, target - 0.5])
 	return [findnum(nums, target - 0.5), findnum(nums, target + 0.5) - 2]
-```
+# ```

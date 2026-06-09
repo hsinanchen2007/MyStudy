@@ -1,8 +1,8 @@
-1. 链表题记得判空
-2. 双指针，记录上一个位置，与当前位置
+# 1. 链表题记得判空
+# 2. 双指针，记录上一个位置，与当前位置
 
-题目比较简单,直观感觉即可求解 
-```
+# 题目比较简单,直观感觉即可求解 
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
                 pre=cur
                 cur=cur.next
         return dummy.next
-```
+# ```

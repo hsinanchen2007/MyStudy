@@ -1,6 +1,6 @@
-先算六个筛子点数和，即出现的每一种结果，最后在计算出现该结果的概率。
+// 先算六个筛子点数和，即出现的每一种结果，最后在计算出现该结果的概率。
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -32,4 +32,4 @@ double* twoSum(int n, int* returnSize){
         return res;
     
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int s(vector<int>& nums,int l,int r,int target)
@@ -33,4 +33,4 @@ public:
         return s(nums,0,nums.size()-1,target);
     }
 };
-```
+// ```

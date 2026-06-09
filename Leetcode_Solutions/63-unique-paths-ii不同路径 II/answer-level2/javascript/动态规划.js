@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-与 unique-paths 的不同点在于，本题多了一些障碍物,
+// 与 unique-paths 的不同点在于，本题多了一些障碍物,
 
-用 dp[i][j] 表示从 (i, j) 到 (n-1, m-1) 的路径数,
+// 用 dp[i][j] 表示从 (i, j) 到 (n-1, m-1) 的路径数,
 
-- obstacleGrid[i][j] == 1，即当前格子有障碍，那么 dp[i][j] := 0
-- obstacleGrid[i][j] == 0，那么 dp[i][j] := dp[i+1][j] + dp[i][j+1]
+// - obstacleGrid[i][j] == 1，即当前格子有障碍，那么 dp[i][j] := 0
+// - obstacleGrid[i][j] == 0，那么 dp[i][j] := dp[i+1][j] + dp[i][j+1]
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -41,8 +41,8 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     }
     return dp[0][0];
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度：O(M*N)
-- 空间复杂度：O(M*N)
+// ### 复杂度
+// - 时间复杂度：O(M*N)
+// - 空间复杂度：O(M*N)

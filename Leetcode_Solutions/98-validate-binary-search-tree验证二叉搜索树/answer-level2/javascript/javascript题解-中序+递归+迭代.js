@@ -1,16 +1,16 @@
-[98.验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/submissions/)   
+// [98.验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/submissions/)   
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)    
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)    
 
-## 方法一 中序遍历
+// ## 方法一 中序遍历
 
-利用二叉搜索树的特性，保证中序遍历二叉搜索树，得到的是一个升序序列即可。
+// 利用二叉搜索树的特性，保证中序遍历二叉搜索树，得到的是一个升序序列即可。
 
-**时间复杂度**：`最坏O(n)`   
+// **时间复杂度**：`最坏O(n)`   
 
-**空间复杂度**：用到了stack，所以是`O(n)`
+// **空间复杂度**：用到了stack，所以是`O(n)`
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -40,19 +40,19 @@ var isValidBST = function(root) {
     }
     return true;
 };
-```
+// ```
 
-## 方法二 递归   
+// ## 方法二 递归   
 
-递归要保证每一个节点的左子树的所有值不能大于当前值，右子树的所有值不能大于当前值。   
+// 递归要保证每一个节点的左子树的所有值不能大于当前值，右子树的所有值不能大于当前值。   
 
-因此要设置一个上边界和下边界。 
+// 因此要设置一个上边界和下边界。 
 
-**时间复杂度**：`O(n)`   
+// **时间复杂度**：`O(n)`   
 
-**空间复杂度**：`O(n)`
+// **空间复杂度**：`O(n)`
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -83,16 +83,16 @@ function help(node, low, high) {
     if (!help(node.right, val, high)) return false;
     return true
 }
-```
+// ```
 
 
-## 方法三 递归转成迭代  
+// ## 方法三 递归转成迭代  
 
-**时间复杂度**：`O(n)`   
+// **时间复杂度**：`O(n)`   
 
-**空间复杂度**：`O(n)`
+// **空间复杂度**：`O(n)`
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -132,4 +132,4 @@ var isValidBST = function(root) {
     }
     return true;
 };
-```
+// ```

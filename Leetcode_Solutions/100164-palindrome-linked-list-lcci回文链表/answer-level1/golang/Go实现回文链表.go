@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -43,4 +43,4 @@ func reverse(head *ListNode)*ListNode{
     }
     return pre
 }
-```
+// ```

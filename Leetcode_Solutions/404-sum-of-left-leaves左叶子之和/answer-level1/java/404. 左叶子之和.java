@@ -1,15 +1,15 @@
-/**
- * @Project
- * @Author zhaozhen
- * @Email 
- * @Date 2019/9/7
- *
- * 解题思路：深度便利 然后叶子节点判断 然后加到全局变量
- * 
- * sumOfLeftLeaves_exe(TreeNode root , int l) 中l标识位 ： 0-右支 1：左支 开始默认右支
- */
+// /**
+//  * @Project
+//  * @Author zhaozhen
+//  * @Email 
+//  * @Date 2019/9/7
+//  *
+//  * 解题思路：深度便利 然后叶子节点判断 然后加到全局变量
+//  * 
+//  * sumOfLeftLeaves_exe(TreeNode root , int l) 中l标识位 ： 0-右支 1：左支 开始默认右支
+//  */
 
-```
+// ```
 
     int val_sum = 0;
 
@@ -51,4 +51,4 @@
         int debug = 0;
     }
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/bac67baf258f8884c46c8b324a36ade7f4c6eeed04855e8095d3d3465beca4fc-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bac67baf258f8884c46c8b324a36ade7f4c6eeed04855e8095d3d3465beca4fc-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findKthLargest(self, nums, k):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         :rtype: int
         """
         return sorted(nums)[len(nums)-k]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意字符串全相同时的边界检查
+// ### 解题思路
+// 注意字符串全相同时的边界检查
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -39,4 +39,4 @@ public:
         
     }
 };
-```
+// ```

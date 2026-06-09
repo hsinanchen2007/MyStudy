@@ -1,10 +1,10 @@
-### 解题思路
-没有任何技校，一项一项的求吧。
-击败99.85%
+// ### 解题思路
+// 没有任何技校，一项一项的求吧。
+// 击败99.85%
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -32,4 +32,4 @@ var countAndSay = function(n) {
     }
     return arr[n];
 };
-```
+// ```

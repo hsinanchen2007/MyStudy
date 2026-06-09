@@ -1,12 +1,12 @@
-### 解题思路
-1. 先递归查找每行的士兵数，存入temp数组
-2. 复制一个sort数组对temp排序
-3. 查找sort数组的前k个的值在temp数组中的位置，temp数组的下标即为答案，存入list，因为每行可能存在相同的士兵数，所以要进行一个判断，排除重复存入同一个temp下标
-4. 最后从list中存入ans数组，输出。
+// ### 解题思路
+// 1. 先递归查找每行的士兵数，存入temp数组
+// 2. 复制一个sort数组对temp排序
+// 3. 查找sort数组的前k个的值在temp数组中的位置，temp数组的下标即为答案，存入list，因为每行可能存在相同的士兵数，所以要进行一个判断，排除重复存入同一个temp下标
+// 4. 最后从list中存入ans数组，输出。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
         int[] temp = new int[mat.length]; //存放每一行的士兵数
@@ -40,4 +40,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

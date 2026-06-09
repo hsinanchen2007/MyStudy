@@ -1,9 +1,9 @@
-### 解题思路
-设定上下限，左右递归求解。
+# ### 解题思路
+# 设定上下限，左右递归求解。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         
 
         return check(root, -float('inf'), float('inf'))
-```
+# ```

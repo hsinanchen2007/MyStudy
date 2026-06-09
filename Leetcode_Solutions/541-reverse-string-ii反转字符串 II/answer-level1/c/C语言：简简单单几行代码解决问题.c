@@ -1,6 +1,6 @@
 
 
-```
+// ```
 char * reverseStr(char * s, int k){
     int len = strlen(s);
     for (int i = 0; i < len; i+=k*2) { 
@@ -20,4 +20,4 @@ void overturn(char * str, int fast, int last)
         str[i++] ^= str[j--];
     }
 }
-```
+// ```

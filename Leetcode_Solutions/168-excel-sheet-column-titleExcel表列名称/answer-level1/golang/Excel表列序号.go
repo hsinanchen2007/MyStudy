@@ -1,9 +1,9 @@
-### 解题思路
-十进制转二十六进制
+// ### 解题思路
+// 十进制转二十六进制
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convertToTitle(n int) string {
     result := ""
 	for n > 0 {
@@ -17,4 +17,4 @@ func convertToTitle(n int) string {
 	}
 	return result
 }
-```
+// ```

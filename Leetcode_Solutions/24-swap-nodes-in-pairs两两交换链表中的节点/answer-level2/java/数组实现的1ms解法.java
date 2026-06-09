@@ -1,4 +1,4 @@
-![QQ图片20200226181457.png](https://pic.leetcode-cn.com/4b1143d5552cb584b54cc17fd2d6e8ba536b162c81cb3ba65960ed1e335b43c5-QQ%E5%9B%BE%E7%89%8720200226181457.png)
+// ![QQ图片20200226181457.png](https://pic.leetcode-cn.com/4b1143d5552cb584b54cc17fd2d6e8ba536b162c81cb3ba65960ed1e335b43c5-QQ%E5%9B%BE%E7%89%8720200226181457.png)
 
 public static ListNode swapPairs(ListNode head) {
         if(head == null) return null;

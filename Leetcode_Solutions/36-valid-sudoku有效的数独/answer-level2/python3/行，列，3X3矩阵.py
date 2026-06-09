@@ -1,9 +1,9 @@
-### 解题思路
-就是按照正常思路来判断的，也没什么巧
+# ### 解题思路
+# 就是按照正常思路来判断的，也没什么巧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidSudoku(self, board):
         length = 9
@@ -34,4 +34,4 @@ class Solution:
                                                     # print("3:" + str(k) + "," + str(l))
                                                     return False
         return True
-```
+# ```

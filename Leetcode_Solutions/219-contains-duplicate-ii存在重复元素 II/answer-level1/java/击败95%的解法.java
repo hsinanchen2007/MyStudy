@@ -1,9 +1,9 @@
-### 解题思路
-哈希表存索引
+// ### 解题思路
+// 哈希表存索引
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> pos = new HashMap<>();
@@ -18,4 +18,4 @@ class Solution {
 
     }
 }
-```
+// ```

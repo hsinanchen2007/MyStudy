@@ -1,4 +1,4 @@
-```python
+# ```python
     def isBipartite(self, graph: List[List[int]]) -> bool:
         graph = {i: set(v) for i, v in enumerate(graph)}  # 通过set构造图
         parts = [set(), set()]  # 储存两部分所包含的当前结点
@@ -15,4 +15,4 @@
                     if next not in parts[not part]:  # 将还未属于另一部分的结点加入队列
                         q.append((next, not part))
         return True
-```
+# ```

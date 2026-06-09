@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findClosest(String[] words, String word1, String word2) {
         Map<String, List<Integer>> map=new HashMap<>();
@@ -36,4 +36,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

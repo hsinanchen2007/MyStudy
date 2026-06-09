@@ -1,11 +1,11 @@
-### 解题思路
-具体参考：
-https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-zhu-xing-jie-shi-python3-by/
-https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-dan-ni-er-xue-bi/
+// ### 解题思路
+// 具体参考：
+// https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-zhu-xing-jie-shi-python3-by/
+// https://leetcode-cn.com/problems/3sum/solution/san-shu-zhi-he-by-dan-ni-er-xue-bi/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -56,4 +56,4 @@ public:
         return result;  
     }
 };
-```
+// ```

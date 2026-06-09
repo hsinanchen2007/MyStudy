@@ -1,6 +1,6 @@
 
-下面这个:680ms
-```
+// 下面这个:680ms
+// ```
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -20,10 +20,10 @@ public:
     return num;
     }
 };
-```
+// ```
 
-如果不用erase这种函数,改成下面这个,44ms
-```
+// 如果不用erase这种函数,改成下面这个,44ms
+// ```
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -44,6 +44,6 @@ public:
     return num;
     }
 };
-```
-简单就是美
+// ```
+// 简单就是美
 

@@ -1,9 +1,9 @@
-### 解题思路
-爬下一层台阶有两种方法，当前+1,或者之前+2，也即dp[i] = dp[i-1] + dp[i-2]
+// ### 解题思路
+// 爬下一层台阶有两种方法，当前+1,或者之前+2，也即dp[i] = dp[i-1] + dp[i-2]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         if(n < 0) return -1;
@@ -18,4 +18,4 @@ class Solution {
         return (int)dp[n-1];
     }
 }
-```
+// ```

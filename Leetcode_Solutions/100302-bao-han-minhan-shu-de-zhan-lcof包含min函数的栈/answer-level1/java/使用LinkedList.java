@@ -1,9 +1,9 @@
-### 解题思路
-在添加或者删除时将最小值找出来
+// ### 解题思路
+// 在添加或者删除时将最小值找出来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     LinkedList<Integer> linkedList = null;
 	int tem = Integer.MAX_VALUE;
@@ -52,4 +52,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```

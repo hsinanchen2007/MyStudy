@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdio.h>
 #include <stdlib.h>
 int indexa = 0;
@@ -31,4 +31,4 @@ int** combine(int n, int k, int* returnSize, int** returnColumnSizes) {
     result = combineRecur(n, k, returnSize, *returnColumnSizes, result,arry, 1);
     return result;
 }
-```
+// ```

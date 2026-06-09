@@ -1,11 +1,11 @@
-### 解题思路
-先使用二分法，找到target的一个大概位置。
+// ### 解题思路
+// 先使用二分法，找到target的一个大概位置。
 
-找到中心后，然后由中心向两边扩展，探索两个边界的索引。
+// 找到中心后，然后由中心向两边扩展，探索两个边界的索引。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int left = 0 ; 
@@ -55,4 +55,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

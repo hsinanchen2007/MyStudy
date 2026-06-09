@@ -1,5 +1,5 @@
-思路1：暴力哈希表
-```
+# 思路1：暴力哈希表
+# ```
 class Solution:
     def isMajorityElement(self, nums: List[int], target: int) -> bool:
         dic = {}
@@ -10,9 +10,9 @@ class Solution:
         else:
             if dic[target]>len(nums)//2: return True
             else: return False
-```
-思路2：既然是有序的就要利用起来，双指针
-```
+# ```
+# 思路2：既然是有序的就要利用起来，双指针
+# ```
 class Solution:
     def isMajorityElement(self, nums: List[int], target: int) -> bool:
         left,right = 0, len(nums)-1
@@ -24,4 +24,4 @@ class Solution:
             if nums[right]<target: return False
             if nums[left]==nums[right]==target: break
         return right-left+1>len(nums)//2
-```
+# ```

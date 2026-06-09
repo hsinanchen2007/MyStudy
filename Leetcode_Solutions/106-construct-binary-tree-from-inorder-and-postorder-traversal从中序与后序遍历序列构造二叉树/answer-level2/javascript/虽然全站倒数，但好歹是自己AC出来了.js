@@ -1,18 +1,18 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/76fb85fc3f6f090a2eb444d544ad3e1ec26e93311c9e42730f41d6e5f6063ce8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/76fb85fc3f6f090a2eb444d544ad3e1ec26e93311c9e42730f41d6e5f6063ce8-image.png)
 
-思路不难，就是根据“后序数组确定根，由根把中序数组一劈二，左边是左子树，右边是右子树，再分别用中序劈开后的左右两段去后序数组中截取左右子树的后序数组（一定要保持原来的顺序截取出来），然后递归构建左右子树。
+// 思路不难，就是根据“后序数组确定根，由根把中序数组一劈二，左边是左子树，右边是右子树，再分别用中序劈开后的左右两段去后序数组中截取左右子树的后序数组（一定要保持原来的顺序截取出来），然后递归构建左右子树。
 
-踩了个坑，array.sort()默认的话，会把10，11，12排在8，9前面，一定要写完整！
-`array.sort(function (a, b) { return a - b; });`
+// 踩了个坑，array.sort()默认的话，会把10，11，12排在8，9前面，一定要写完整！
+// `array.sort(function (a, b) { return a - b; });`
 
-最后附上test case中的一棵参天大树，哈哈！
-![image.png](https://pic.leetcode-cn.com/14505c9a3d85e97f595e4be365243692c5131030f37896d09a105ccc79c4a704-image.png)
+// 最后附上test case中的一棵参天大树，哈哈！
+// ![image.png](https://pic.leetcode-cn.com/14505c9a3d85e97f595e4be365243692c5131030f37896d09a105ccc79c4a704-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -61,4 +61,4 @@ var buildTree = function (inorder, postorder) {
     return root;
 };
 
-```
+// ```

@@ -1,5 +1,5 @@
-Py3双百，用一个list去模拟栈的真实情况，和poped对比去挨个消除，看能不能清空poped
-```python
+# Py3双百，用一个list去模拟栈的真实情况，和poped对比去挨个消除，看能不能清空poped
+# ```python
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         tmp_stack = list()
@@ -17,4 +17,4 @@ class Solution:
                     break
         return len(popped) == pointer
 
-```
+# ```

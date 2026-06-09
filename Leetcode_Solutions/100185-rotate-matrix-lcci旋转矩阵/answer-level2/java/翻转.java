@@ -1,12 +1,12 @@
-### 解题思路
-关键点：最后的结果中matrix[row][col] = matrix[col][n-row-1];
-那么(1)先水平翻转：matrix[row][col] = matrix[n-row-1][col];
-然后(2)主对角线翻转：matrix[n-row-1][col] = matrix[col][n-row-1]
-一二两步合起来就等价于原来的旋转90度.并且是在原来矩阵上做的
+// ### 解题思路
+// 关键点：最后的结果中matrix[row][col] = matrix[col][n-row-1];
+// 那么(1)先水平翻转：matrix[row][col] = matrix[n-row-1][col];
+// 然后(2)主对角线翻转：matrix[n-row-1][col] = matrix[col][n-row-1]
+// 一二两步合起来就等价于原来的旋转90度.并且是在原来矩阵上做的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int row = matrix.length, col = matrix[0].length;
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

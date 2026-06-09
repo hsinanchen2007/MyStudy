@@ -1,5 +1,5 @@
-采用递进式的筛选，从右上角开始比对，主要思想在代码中写出来了
-```
+// 采用递进式的筛选，从右上角开始比对，主要思想在代码中写出来了
+// ```
 public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0){
             return false;
@@ -21,4 +21,4 @@ public boolean searchMatrix(int[][] matrix, int target) {
         }
         return false;
     }
-```
+// ```

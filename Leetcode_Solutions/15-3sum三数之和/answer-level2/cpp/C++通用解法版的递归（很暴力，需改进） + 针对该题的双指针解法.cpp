@@ -1,14 +1,14 @@
-# 1.递归
-### 递归的主要任务是把大问题分解成同类型的子问题，待每个子问题解决时，大问题也解决了
+// # 1.递归
+// ### 递归的主要任务是把大问题分解成同类型的子问题，待每个子问题解决时，大问题也解决了
 
-#### 在这题中，大问题是：从数组中找到3个元素，使它们之和等于target（题目中规定为0）
-#### 那么子问题可以是这样 ： 从数组中选定一个数num1，在剩余数中找到两个元素，使它们之和等于tagget1 = target - num（题目中即为-num1）
-#### 那么再将子问题问题分解：再从数组中选定一个数num2,在剩余数中找出一个元素，使它等于target2 = target1 - num2
+// #### 在这题中，大问题是：从数组中找到3个元素，使它们之和等于target（题目中规定为0）
+// #### 那么子问题可以是这样 ： 从数组中选定一个数num1，在剩余数中找到两个元素，使它们之和等于tagget1 = target - num（题目中即为-num1）
+// #### 那么再将子问题问题分解：再从数组中选定一个数num2,在剩余数中找出一个元素，使它等于target2 = target1 - num2
 
-###### 考虑到题目指出，同样的结果不做存储，那么我们还需先对原始数组排序。在取好num1之后，一般num2即取num1后面的数，但是当num1 == num2时，我们即可跳过该num2继续往后去num2,同时适用于num3的选择
+// ###### 考虑到题目指出，同样的结果不做存储，那么我们还需先对原始数组排序。在取好num1之后，一般num2即取num1后面的数，但是当num1 == num2时，我们即可跳过该num2继续往后去num2,同时适用于num3的选择
 
 
-```
+// ```
 <!-- 伪代码 -->
 function 递归函数(给定数组nums, 几个数n， 数的目标和target):
     递归结束条件判断;
@@ -21,10 +21,10 @@ function main :
 
 
 
-```
+// ```
 
 
-```
+// ```
     void getResult(vector<int>& nums, vector<vector<int>>& result, vector<int>&arr, int numCount, int target, int begin) {
         // 1.递归结束条件
         if (numCount == 1) {
@@ -87,15 +87,15 @@ function main :
         return result;
 
     }
-```
-![image.png](https://pic.leetcode-cn.com/3727208cb6ecb04179208954c2fcb55f8249cce09de5931c2c5a9a55c62f4528-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3727208cb6ecb04179208954c2fcb55f8249cce09de5931c2c5a9a55c62f4528-image.png)
 
-# 2.循环 + 双指针
-### 思路来源于[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu-by-leetco/)
+// # 2.循环 + 双指针
+// ### 思路来源于[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu-by-leetco/)
 
-##### 结合递归中分割子问题的思路，将问题分解成***子问题两数相加***时，即可用双指针来解题
+// ##### 结合递归中分割子问题的思路，将问题分解成***子问题两数相加***时，即可用双指针来解题
 
-```
+// ```
     bool twoNumSum(vector<int>& nums, int begin, int& sec, int& thr, int target, vector<vector<int>>& result) {
         sec = begin;
         thr = nums.size() - 1;
@@ -137,9 +137,9 @@ function main :
          return result;
 
     }
-```
-![image.png](https://pic.leetcode-cn.com/0ea9b1f1e99d334f5bbd09e1a8992c872caea9bc64b3e517131bfc42cbaa4668-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0ea9b1f1e99d334f5bbd09e1a8992c872caea9bc64b3e517131bfc42cbaa4668-image.png)
 
-# 3.待更新, 看一下大佬们的代码，把递归优化一下，或者转换为动态规划
+// # 3.待更新, 看一下大佬们的代码，把递归优化一下，或者转换为动态规划
  
 

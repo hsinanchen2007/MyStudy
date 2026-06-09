@@ -1,9 +1,9 @@
-### 解题思路
-不复杂，直接看代码吧
+// ### 解题思路
+// 不复杂，直接看代码吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calPoints(String[] ops) {
         int[] score = new int[ops.length]; // 有效的分数（非0）
@@ -43,4 +43,4 @@ class Solution {
 }
 
 
-```
+// ```

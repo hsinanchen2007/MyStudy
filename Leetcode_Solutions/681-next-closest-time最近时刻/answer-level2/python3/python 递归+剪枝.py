@@ -1,22 +1,22 @@
 
-更多Leetcode题解以及算法面试经验：[Mereder博客](https://mereder.github.io/archives/)
+# 更多Leetcode题解以及算法面试经验：[Mereder博客](https://mereder.github.io/archives/)
 
-递归思路：就是枚举四个数字出现在每一个位置时候的情况，四个位置，4个数字，最差就是 4！
-剪枝策略：对于小时位置不满足[0,24)，对于分钟位置不满足[0,60)
+# 递归思路：就是枚举四个数字出现在每一个位置时候的情况，四个位置，4个数字，最差就是 4！
+# 剪枝策略：对于小时位置不满足[0,24)，对于分钟位置不满足[0,60)
 
-!!!注意一个问题：对于'00:00' '11:11'的处理。
-原有逻辑遇到 其本身会直接return 返回空结果，这样导致上面出现的case不能很好的覆盖
-我们可以先将其赋值到`self.result`上，如果最后没有找到最小的时间，那么说明出现了上面这样的情况（全是重复数字）
-最后直接返回`self.result`
+# !!!注意一个问题：对于'00:00' '11:11'的处理。
+# 原有逻辑遇到 其本身会直接return 返回空结果，这样导致上面出现的case不能很好的覆盖
+# 我们可以先将其赋值到`self.result`上，如果最后没有找到最小的时间，那么说明出现了上面这样的情况（全是重复数字）
+# 最后直接返回`self.result`
 
- 如何计算时间差？ 可参考官方题解给的计算方法
-（minutes_new_time - minutes_origin_time） % (24\*60)
-举例：12；01对应  12\*60+1 = 720
-那么‘11：02’时间对应  11\*60+2 = 662
-（662-720） % 1440 = -58 % 1440 = 1382 是一个很大的值
-主要就是这个思想来判断新生成的时间是否是距离最近的。
+#  如何计算时间差？ 可参考官方题解给的计算方法
+# （minutes_new_time - minutes_origin_time） % (24\*60)
+# 举例：12；01对应  12\*60+1 = 720
+# 那么‘11：02’时间对应  11\*60+2 = 662
+# （662-720） % 1440 = -58 % 1440 = 1382 是一个很大的值
+# 主要就是这个思想来判断新生成的时间是否是距离最近的。
 
-```python
+# ```python
 class Solution:
     def __init__(self):
         self.result = ''
@@ -58,6 +58,6 @@ class Solution:
         minutes = int(new_time[2:])
         time = hour*60+minutes
         return (time-self.time)%(24*60)   #  小trick  -1 % 100 的结果是 99
-```
+# ```
 
-更多Leetcode题解以及面试经验：[Mereder博客](https://mereder.github.io/archives/)
+# 更多Leetcode题解以及面试经验：[Mereder博客](https://mereder.github.io/archives/)

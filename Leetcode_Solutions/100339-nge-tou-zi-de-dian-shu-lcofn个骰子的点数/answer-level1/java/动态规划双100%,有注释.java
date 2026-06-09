@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public double[] twoSum(int n) {
         // n个骰子的表面值之和 (组合)
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 } 
-```
+// ```

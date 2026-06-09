@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用数组模拟栈，如果遇到'#'， 则栈顶位置后退一格， 最后比较两个数组
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用数组模拟栈，如果遇到'#'， 则栈顶位置后退一格， 最后比较两个数组
+// ### 代码
 
-```c
+// ```c
 bool backspaceCompare(char * S, char * T){
     int arrS[100] = {0}, arrT[100] = {0};
     int posS = 0, posT = 0;
@@ -38,4 +38,4 @@ bool backspaceCompare(char * S, char * T){
         return true;
     }
 }
-```
+// ```

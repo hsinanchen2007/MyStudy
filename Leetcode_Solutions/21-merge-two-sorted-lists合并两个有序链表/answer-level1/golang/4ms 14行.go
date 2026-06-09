@@ -1,6 +1,6 @@
-方案1: 递归做法
+// 方案1: 递归做法
 
-````
+// ````
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
@@ -16,11 +16,11 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		return l2
 	}
 }
-````
+// ````
 
-方案2: 迭代做法
+// 方案2: 迭代做法
 
-````
+// ````
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	preHead := ListNode{}
 	prev := &preHead
@@ -43,4 +43,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return preHead.Next
 }
-````
+// ````

@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用哨兵可以省去首尾空指针的判断
-2. unordered map用的是散列表，查找插入都是O(1)
+// ### 解题思路
+// 1. 使用哨兵可以省去首尾空指针的判断
+// 2. unordered map用的是散列表，查找插入都是O(1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 public:
     struct Node {
@@ -83,4 +83,4 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

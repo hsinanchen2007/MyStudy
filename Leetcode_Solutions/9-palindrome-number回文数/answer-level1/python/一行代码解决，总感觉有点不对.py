@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -13,4 +13,4 @@ class Solution(object):
 
         return (True if str(x) == str(x)[::-1] else False)
         
-```
+# ```

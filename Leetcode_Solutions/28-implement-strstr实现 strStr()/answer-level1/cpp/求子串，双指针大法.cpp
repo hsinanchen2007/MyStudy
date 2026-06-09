@@ -1,9 +1,9 @@
-### 解题思路
-求字串问题，双指针大法
+// ### 解题思路
+// 求字串问题，双指针大法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -28,4 +28,4 @@ public:
         return -1;
     }
 };
-```
+// ```

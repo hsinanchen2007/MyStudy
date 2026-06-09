@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -50,5 +50,5 @@ public:
         return i;
     }
 };
-```
+// ```
 

@@ -1,6 +1,6 @@
-分治法思想递归实现.
+// 分治法思想递归实现.
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
     }
 }
-```
+// ```

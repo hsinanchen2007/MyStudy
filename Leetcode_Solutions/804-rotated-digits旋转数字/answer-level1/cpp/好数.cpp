@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool isHave(int a){
@@ -22,4 +22,4 @@ public:
         
     }
 };
-```
+// ```

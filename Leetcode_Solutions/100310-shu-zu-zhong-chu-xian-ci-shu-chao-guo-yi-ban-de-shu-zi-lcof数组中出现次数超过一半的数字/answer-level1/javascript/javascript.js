@@ -1,4 +1,4 @@
-```
+// ```
 var majorityElement = function(nums) {
    let count=0;
    let candidate=null;
@@ -10,4 +10,4 @@ var majorityElement = function(nums) {
    }) 
    return candidate
 };
-```
+// ```

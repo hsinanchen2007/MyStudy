@@ -1,9 +1,9 @@
-### 解题思路
-从最大子串依次搜索！
+// ### 解题思路
+// 从最大子串依次搜索！
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string LongestPalindrome(string s) {
         if (s.Length < 2) return s;
@@ -13,4 +13,4 @@ public class Solution {
                     if (m++ + 3 > n--) return s.Substring(k, ++i);
     }
 }
-```
+// ```

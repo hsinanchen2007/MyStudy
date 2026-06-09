@@ -1,13 +1,13 @@
-### 解题思路
-一共想了两种方法
+// ### 解题思路
+// 一共想了两种方法
 
-方法一：先将nums变成int[]的数组（row=1），然后再根据r*c来填充
+// 方法一：先将nums变成int[]的数组（row=1），然后再根据r*c来填充
 
-方法二：就是下面这个，耗时2ms，尝试了很多遍都没有到1ms
+// 方法二：就是下面这个，耗时2ms，尝试了很多遍都没有到1ms
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         if(r*c!= nums.length * nums[0].length) return nums;
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

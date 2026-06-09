@@ -1,8 +1,8 @@
-curr 当前行遍历
-dummy 下一行的开头
-tail 下一行的游标
+// curr 当前行遍历
+// dummy 下一行的开头
+// tail 下一行的游标
 
-```
+// ```
 /*
 // Definition for a Node.
 class Node {
@@ -50,4 +50,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

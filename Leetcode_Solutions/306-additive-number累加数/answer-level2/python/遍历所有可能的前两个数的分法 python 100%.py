@@ -1,6 +1,6 @@
-√ 在长度范围内随机两个数(过滤掉不满足条件的)作为前两个数的末尾，如i,j表示nums[:i+1],nums[i+1:j]
+# √ 在长度范围内随机两个数(过滤掉不满足条件的)作为前两个数的末尾，如i,j表示nums[:i+1],nums[i+1:j]
 
-```
+# ```
 class Solution:
     def isAdditiveNumber(self, nums: str) -> bool:
         def str2int(s):  
@@ -32,7 +32,7 @@ class Solution:
                     else:
                         break
         return False
-```
+# ```
                     
                         
                 

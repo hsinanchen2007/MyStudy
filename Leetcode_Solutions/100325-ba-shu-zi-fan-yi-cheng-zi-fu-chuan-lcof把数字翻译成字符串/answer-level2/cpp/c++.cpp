@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int translateNum(int num) {
@@ -21,4 +21,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

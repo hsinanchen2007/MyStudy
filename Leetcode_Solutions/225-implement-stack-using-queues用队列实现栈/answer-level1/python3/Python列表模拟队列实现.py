@@ -1,10 +1,10 @@
-### 解题思路
-使用python中的列表来代表队列，实现栈的存取功能
-栈的push()对应列表的append()
-栈的pop()对应列表的pop()
-列表的两个操作不指定index的情况下默认末尾
-### 代码
-```python3
+# ### 解题思路
+# 使用python中的列表来代表队列，实现栈的存取功能
+# 栈的push()对应列表的append()
+# 栈的pop()对应列表的pop()
+# 列表的两个操作不指定index的情况下默认末尾
+# ### 代码
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -29,4 +29,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

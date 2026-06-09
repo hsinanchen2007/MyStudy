@@ -1,10 +1,10 @@
-### 思路
-1. 贪心
-2. 越往后乘积越大，越大的数应该放在最后，所以先排个序
-3. 从后面一个一个加入，每新加一个数，之前加过的所有数都会多加一遍
+// ### 思路
+// 1. 贪心
+// 2. 越往后乘积越大，越大的数应该放在最后，所以先排个序
+// 3. 从后面一个一个加入，每新加一个数，之前加过的所有数都会多加一遍
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
     int maxSatisfaction(vector<int>& satisfaction)
     {
         sort(satisfaction.rbegin(), satisfaction.rend());
@@ -18,15 +18,15 @@
         }
         return ans;
     }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-**如果感觉还不错就点个赞吧~**
+// **如果感觉还不错就点个赞吧~**
 
-这是 [我的leetcode](https://github.com/AhJo53589/leetcode-cn) ，帮助我收集整理题目，可以方便的 `visual studio` 调试，欢迎关注，star
+// 这是 [我的leetcode](https://github.com/AhJo53589/leetcode-cn) ，帮助我收集整理题目，可以方便的 `visual studio` 调试，欢迎关注，star
 

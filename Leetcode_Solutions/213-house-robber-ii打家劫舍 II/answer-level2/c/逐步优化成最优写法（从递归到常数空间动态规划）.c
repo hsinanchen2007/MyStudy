@@ -1,7 +1,7 @@
-解题优化：递归->记忆化搜索->一维数组dp->常数级dp
-动态转移方程：dp[i]=max(dp[i-1],dp[i-2]+nums[i]);
-# 递归
-```c
+// 解题优化：递归->记忆化搜索->一维数组dp->常数级dp
+// 动态转移方程：dp[i]=max(dp[i-1],dp[i-2]+nums[i]);
+// # 递归
+// ```c
 int robs(int *nums,int begin,int i)
 {
     if(i<begin)
@@ -13,11 +13,11 @@ int rob(int* nums, int numsSize){
     if(numsSize==1)return nums[0];
     return fmax(robs(nums,0,numsSize-2),robs(nums,1,numsSize-1));
 }
-```
-递归方法肯定超时
+// ```
+// 递归方法肯定超时
 
-# 记忆化搜索
-```c
+// # 记忆化搜索
+// ```c
 int robs(int *nums,int begin,int i,int *memo)
 {
     if(i<begin)
@@ -36,10 +36,10 @@ int rob(int* nums, int numsSize){
     memset(memo2,-1,sizeof(int)*numsSize);
     return fmax(robs(nums,0,numsSize-2,memo1),robs(nums,1,numsSize-1,memo2));
 }
-```
+// ```
 
-# 动态规划一维空间
-```c
+// # 动态规划一维空间
+// ```c
 int rob(int* nums, int numsSize){
     if(numsSize==1)return nums[0];
     int *dp1=(int *)malloc(sizeof(int)*(numsSize+1));
@@ -53,9 +53,9 @@ int rob(int* nums, int numsSize){
     }
     return fmax(dp1[numsSize],dp2[numsSize]);
 }
-```
-# 动态规划常数级空间
-```c
+// ```
+// # 动态规划常数级空间
+// ```c
 int rob(int* nums, int numsSize){
     if(numsSize==1)return nums[0];
     int cur_max1=0,cur_max2=0;//dp[-1]=0;
@@ -71,4 +71,4 @@ int rob(int* nums, int numsSize){
     }
     return fmax(cur_max1,cur_max2);
 }
-```
+// ```

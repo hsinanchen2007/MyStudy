@@ -1,8 +1,8 @@
-思路就是一般的BFS，从出发点拓展去找下一步可以到达的点
+// 思路就是一般的BFS，从出发点拓展去找下一步可以到达的点
 
-需要注意的是，在构建图的时候，可以只保存路线（下标），而不是保存每个点，这样可以加快检索效率
+// 需要注意的是，在构建图的时候，可以只保存路线（下标），而不是保存每个点，这样可以加快检索效率
 
-```
+// ```
 public int numBusesToDestination(int[][] routes, int S, int T) {
         if(S==T) return 0;
         Map<Integer,List<Integer>> map = new HashMap<>();
@@ -42,4 +42,4 @@ public int numBusesToDestination(int[][] routes, int S, int T) {
         }       
         return -1;
     } 
-```
+// ```

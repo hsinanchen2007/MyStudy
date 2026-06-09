@@ -1,9 +1,9 @@
-### 解题思路
-利用两个串，不能转化为int，因为会超时
+// ### 解题思路
+// 利用两个串，不能转化为int，因为会超时
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -37,4 +37,4 @@ public:
 		return "";
     }
 };
-```
+// ```

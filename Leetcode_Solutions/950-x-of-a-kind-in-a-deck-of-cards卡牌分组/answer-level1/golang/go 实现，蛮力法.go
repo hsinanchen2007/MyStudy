@@ -1,8 +1,8 @@
 
 
-![image.png](https://pic.leetcode-cn.com/49faad25f28c393c3f0e74a46edd4e2067952520cc3b1f34c55f2367270f1b64-image.png)
+// ![image.png](https://pic.leetcode-cn.com/49faad25f28c393c3f0e74a46edd4e2067952520cc3b1f34c55f2367270f1b64-image.png)
 
-```go []
+// ```go []
 func hasGroupsSizeX(deck []int) bool {
 	deckLen := len(deck)
 	count := make([]int, 10000)

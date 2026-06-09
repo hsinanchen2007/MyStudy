@@ -1,6 +1,6 @@
-### 代码（递归版）：
+// ### 代码（递归版）：
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         if (n == 1) {
@@ -14,4 +14,4 @@ class Solution {
         return (lastRemaining(n - 1, m) + m) % n;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-当前坐标周围进行求和，判断是否需要改变。
+// 当前坐标周围进行求和，判断是否需要改变。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -82,4 +82,4 @@ function deepClone(obj) {
   return _obj_copy;
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class MedianFinder {
 public:
     priority_queue<int,vector<double>,less<int>> max;
@@ -32,4 +32,4 @@ public:
         return max.size() == min.size() ? (max.top() + min.top())/2 : max.top();
     }
 };
-```
+// ```

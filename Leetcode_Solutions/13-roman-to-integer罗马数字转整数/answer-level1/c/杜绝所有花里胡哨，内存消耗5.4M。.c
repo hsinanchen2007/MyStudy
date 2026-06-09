@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int i=0,j=1;
     int count=0;
@@ -76,4 +76,4 @@ int romanToInt(char * s){
     }
     return count;
 }
-```
+// ```

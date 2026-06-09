@@ -1,12 +1,12 @@
-### 解题思路
-1.切割空格产生单词，可参考434.字符串"单词数"，也就是strseq函数
-2.统计两个字符串中单词出现次数为1次的单词，使用hash表解决
-3.解决hash冲突（菜鸡，链表法）
+// ### 解题思路
+// 1.切割空格产生单词，可参考434.字符串"单词数"，也就是strseq函数
+// 2.统计两个字符串中单词出现次数为1次的单词，使用hash表解决
+// 3.解决hash冲突（菜鸡，链表法）
 
-### 代码
-也是参考字符串作为hash键的设计方法，多项式相乘，选的质数31(不知道，搬运工)。然后用链表解决冲突问题
-因为本题测试用例不多，手写hash考虑下冲突一般解决办法就行。
-```c
+// ### 代码
+// 也是参考字符串作为hash键的设计方法，多项式相乘，选的质数31(不知道，搬运工)。然后用链表解决冲突问题
+// 因为本题测试用例不多，手写hash考虑下冲突一般解决办法就行。
+// ```c
 struct hash{
 	char *key;  // 单词键 
 	int value;  // 单词出现次数
@@ -67,10 +67,10 @@ char ** uncommonFromSentences(char * A, char * B, int* returnSize){
 	}
 	return res;
 }
-```
+// ```
 
-##有uthash.h，用不着手写
-```c []
+// ##有uthash.h，用不着手写
+// ```c []
 struct hash{
     char *key;
     int value;
@@ -104,11 +104,11 @@ char ** uncommonFromSentences(char * A, char * B, int* returnSize){
     }
     return res;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution(object):
     def uncommonFromSentences(self, A, B):
 		from collections import Counter
 		count = collections.Counter(A.split()) + collections.Counter(B.split())
 		return [word for word in count if count[word] == 1]
-```
+// ```

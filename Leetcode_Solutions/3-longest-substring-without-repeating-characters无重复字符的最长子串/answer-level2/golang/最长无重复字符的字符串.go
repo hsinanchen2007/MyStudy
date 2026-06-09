@@ -1,8 +1,8 @@
-### 解题思路
-双指针+哈希查找
-### 代码
+// ### 解题思路
+// 双指针+哈希查找
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
     a:=make(map[byte]int)
     length:=len(s)
@@ -46,4 +46,4 @@ func lengthOfLongestSubstring(s string) int {
     }
     return res
 }
-```
+// ```

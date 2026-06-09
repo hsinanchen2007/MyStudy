@@ -1,10 +1,10 @@
-### 解题思路
-1、找规律：实例1、2、3都是可以看出是单词反转，而且单词之间都是用空格分开，多余的空格不需要
-2、找方式：String类型里面就有现成的方法，去空格trim、根据空格分隔split
+// ### 解题思路
+// 1、找规律：实例1、2、3都是可以看出是单词反转，而且单词之间都是用空格分开，多余的空格不需要
+// 2、找方式：String类型里面就有现成的方法，去空格trim、根据空格分隔split
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         if (s == null) return s;
@@ -17,4 +17,4 @@ class Solution {
         return sb.toString().trim();
     }
 }
-```
+// ```

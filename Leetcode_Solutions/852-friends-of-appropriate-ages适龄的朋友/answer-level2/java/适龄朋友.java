@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-先统计出各个年龄的人的个数，再进行遍历条件
-### 代码
+// 先统计出各个年龄的人的个数，再进行遍历条件
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numFriendRequests(int[] ages) {
         int[] count=new int[121];
@@ -30,4 +30,4 @@ class Solution {
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /*
  * @lc app=leetcode.cn id=1162 lang=c
  *
@@ -139,4 +139,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize)
 
 
 
-```
+// ```

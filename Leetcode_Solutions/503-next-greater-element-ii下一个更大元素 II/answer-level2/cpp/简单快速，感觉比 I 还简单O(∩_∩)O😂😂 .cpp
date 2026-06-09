@@ -1,11 +1,11 @@
-#### 主要思想：
-将vector复制一份到尾部，然后使用单调栈一次遍历，返回前半部分的vector就解决了。
-#### 战果：
-96ms 98.72%,14.3MB 29.92%
+// #### 主要思想：
+// 将vector复制一份到尾部，然后使用单调栈一次遍历，返回前半部分的vector就解决了。
+// #### 战果：
+// 96ms 98.72%,14.3MB 29.92%
 
-主要用了单调栈，如果不懂单调栈，建议看看[下一个更大元素 I 的置顶题解](https://leetcode-cn.com/problems/next-greater-element-i/solution/dan-diao-zhan-jie-jue-next-greater-number-yi-lei-w/)，很详细。
+// 主要用了单调栈，如果不懂单调栈，建议看看[下一个更大元素 I 的置顶题解](https://leetcode-cn.com/problems/next-greater-element-i/solution/dan-diao-zhan-jie-jue-next-greater-number-yi-lei-w/)，很详细。
 
-```C++
+// ```C++
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int> &nums) {
@@ -26,4 +26,4 @@ public:
         return rtPart;
     }
 };
-```
+// ```

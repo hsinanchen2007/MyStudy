@@ -1,9 +1,9 @@
-### 解题思路
-虽然我代码写得长写的繁琐，但是效率就是高呀：）
+// ### 解题思路
+// 虽然我代码写得长写的繁琐，但是效率就是高呀：）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int l; 
@@ -59,4 +59,4 @@ public:
         return root->left==NULL&&root->right==NULL;
     }
 };
-```
+// ```

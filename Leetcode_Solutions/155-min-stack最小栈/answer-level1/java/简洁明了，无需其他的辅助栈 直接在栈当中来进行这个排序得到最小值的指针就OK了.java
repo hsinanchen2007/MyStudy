@@ -1,10 +1,10 @@
-### 解题思路
-简洁明了，无需其他的辅助栈
-直接在栈当中来进行这个排序得到最小值的指针就OK了
+// ### 解题思路
+// 简洁明了，无需其他的辅助栈
+// 直接在栈当中来进行这个排序得到最小值的指针就OK了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
    private int maxSize;        //这个是代表这个是一个最大的长度。
     private int top;            //这个是代表这个top的指针
@@ -65,4 +65,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

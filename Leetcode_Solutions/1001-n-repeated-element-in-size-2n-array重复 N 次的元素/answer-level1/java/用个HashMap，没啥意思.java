@@ -1,9 +1,9 @@
-### 解题思路
-HashMap计数。
+// ### 解题思路
+// HashMap计数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int repeatedNTimes(int[] A) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

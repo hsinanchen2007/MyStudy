@@ -1,4 +1,4 @@
-```
+// ```
 int romanToInt(char * s){
 	
 	if( s == NULL)
@@ -82,5 +82,5 @@ int romanToInt(char * s){
 	}
 	return result;
 }
-```
-对于特殊 I、X、C 多加一个switch判断
+// ```
+// 对于特殊 I、X、C 多加一个switch判断

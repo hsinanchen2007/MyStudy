@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdio.h>
 
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
@@ -60,4 +60,4 @@ int maximalRectangle(char** matrix, int matrixSize, int* matrixColSize)
 
 	return ans;
 }
-```
+// ```

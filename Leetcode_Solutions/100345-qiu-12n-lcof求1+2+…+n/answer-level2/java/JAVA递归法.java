@@ -1,9 +1,9 @@
-### 解题思路
-定义变量sum，通过递归调用sum += n + sumNums(n-1)
+// ### 解题思路
+// 定义变量sum，通过递归调用sum += n + sumNums(n-1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int sum = 0;;
     public int sumNums(int n) {
@@ -12,4 +12,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

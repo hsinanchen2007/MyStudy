@@ -1,5 +1,5 @@
 
-```
+// ```
 public int[] sumZero(int n) {
         int res[] = new int[n];
         ArrayList<Integer> list = new ArrayList<>();
@@ -15,4 +15,4 @@ public int[] sumZero(int n) {
         return res;
     }
 
-```
+// ```

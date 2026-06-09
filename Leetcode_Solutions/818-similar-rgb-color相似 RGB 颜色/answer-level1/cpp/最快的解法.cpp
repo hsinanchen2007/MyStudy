@@ -1,4 +1,4 @@
-```
+// ```
     string similarRGB(string color) {
         return "#" + func(color.substr(1,2)) + func(color.substr(3,2)) + func(color.substr(5,2));
     }
@@ -69,4 +69,4 @@
         else
             return "ff";
     }
-```
+// ```

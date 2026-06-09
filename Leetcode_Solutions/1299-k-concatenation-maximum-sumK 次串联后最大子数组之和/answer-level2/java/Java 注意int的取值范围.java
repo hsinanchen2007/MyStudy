@@ -1,6 +1,6 @@
-一开始没有注意int的取值范围在[2147483647,-2147483648]，大约是21亿，所以只通过前35个用例，最后两个死活过不去！
+// 一开始没有注意int的取值范围在[2147483647,-2147483648]，大约是21亿，所以只通过前35个用例，最后两个死活过不去！
 
-```
+// ```
 public int kConcatenationMaxSum(int[] arr, int k) {
         int len=arr.length;
         int[] sum=new int[len+1];//一定要多一位0，计算最大后缀和需要一个0
@@ -24,4 +24,4 @@ public int kConcatenationMaxSum(int[] arr, int k) {
         answer=Math.max(answer,(long)(k-2)*iterAdd+pre+post);//一定要用long
         return (int)(answer%1000000007);
     }
-```
+// ```

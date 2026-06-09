@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 
 select 
         Name as Employee 
@@ -18,4 +18,4 @@ from
                 e1.Id=e2.ManagerId) as A 
 on 
     A.id1=e3.Id and A.Salary1<e3.Salary
-```
+-- ```

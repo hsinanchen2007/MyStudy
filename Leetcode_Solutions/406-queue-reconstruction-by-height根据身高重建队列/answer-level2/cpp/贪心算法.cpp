@@ -1,9 +1,9 @@
-### 解题思路
-先考虑高的人，矮的人可以认为对高的人不可见。
+// ### 解题思路
+// 先考虑高的人，矮的人可以认为对高的人不可见。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
@@ -56,4 +56,4 @@ public:
         return result;
     }
 };
-```
+// ```

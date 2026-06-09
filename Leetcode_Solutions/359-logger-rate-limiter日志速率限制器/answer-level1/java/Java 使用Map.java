@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-使用Map保存日志内容和最新一次到达系统的时间戳就行，调用打印方法时判断当前message是否存在于map，且判断上次到达系统的时间是否和此次时间间隔了10s以上。
+// 使用Map保存日志内容和最新一次到达系统的时间戳就行，调用打印方法时判断当前message是否存在于map，且判断上次到达系统的时间是否和此次时间间隔了10s以上。
 
-```
+// ```
 class Logger {
     //使用Map保存日志内容和最新一次到达系统的时间戳
     Map<String, Integer> map;
@@ -31,4 +31,4 @@ class Logger {
         return true;
     }
 }
-```
+// ```

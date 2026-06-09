@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-这题是一个典型的动态规划题目：
-以a结尾的长度为i+1的数量为`cnt['a'][i + 1] = cnt['b'][i] + cnt['i'][i] + cnt['u'][i]`, 同理可以得出长度为i+1的以'e', 'i', 'o', 'u'结尾的结果计算方式。这道题要注意数据类型的选用，Integer的最大值为2147483647, 3个模10^9+7的值相加可能会超过最大值。
+// 这题是一个典型的动态规划题目：
+// 以a结尾的长度为i+1的数量为`cnt['a'][i + 1] = cnt['b'][i] + cnt['i'][i] + cnt['u'][i]`, 同理可以得出长度为i+1的以'e', 'i', 'o', 'u'结尾的结果计算方式。这道题要注意数据类型的选用，Integer的最大值为2147483647, 3个模10^9+7的值相加可能会超过最大值。
 
-![图片.png](https://pic.leetcode-cn.com/17443ce84f543fccc761c42714415d2a0c2515131f2f90152b772bb9856323c1-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/17443ce84f543fccc761c42714415d2a0c2515131f2f90152b772bb9856323c1-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countVowelPermutation(int n) {
         long[] cnt = new long[5];
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

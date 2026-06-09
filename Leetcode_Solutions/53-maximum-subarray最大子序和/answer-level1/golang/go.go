@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSubArray(nums []int) int {
     
     dp:=make([]int,len(nums)+1)
@@ -23,4 +23,4 @@ func max(i, j int)int{
     }
     return j
 }
-```
+// ```

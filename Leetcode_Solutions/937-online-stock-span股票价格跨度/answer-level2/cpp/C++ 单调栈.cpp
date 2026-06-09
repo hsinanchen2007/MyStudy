@@ -1,4 +1,4 @@
-```
+// ```
 class StockSpanner {
 public:
     stack<vector<int>> s;
@@ -20,4 +20,4 @@ public:
         return scale;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-so eazy
+// so eazy
 
-```
+// ```
 public class Solution {
     public int FindRepeatNumber(int[] nums) {
             int result = 0;
@@ -19,4 +19,4 @@ public class Solution {
             return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-结构清晰Java——递归回溯算法
-```reasonml
+// 结构清晰Java——递归回溯算法
+// ```reasonml
 class Solution {
 
     //count用于在遍历可走格子时进行计数;
@@ -33,4 +33,4 @@ class Solution {
         return getnum(i/10) + i%10;
     }
 }
-```
+// ```

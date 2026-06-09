@@ -1,18 +1,18 @@
-### 解题思路
+// ### 解题思路
 
-本题的关键点在于求**两个站点**的平均时间消耗，那么自然，要进站是startStation，出站是endStation的才满足条件。所以，记录下人员进出站路径，就非常重要了。
+// 本题的关键点在于求**两个站点**的平均时间消耗，那么自然，要进站是startStation，出站是endStation的才满足条件。所以，记录下人员进出站路径，就非常重要了。
 
-于是，在出站的时候，就统计消耗的时间差，同时乘车记录+1，然后记录到startStation->endStation这条路径的统计中。
+// 于是，在出站的时候，就统计消耗的时间差，同时乘车记录+1，然后记录到startStation->endStation这条路径的统计中。
 
-人员入站的时候，记录下当前人员的进站地点和进站时间，在人员出站的时候取出，出站时间-进站时间为时间消耗。
+// 人员入站的时候，记录下当前人员的进站地点和进站时间，在人员出站的时候取出，出站时间-进站时间为时间消耗。
 
-最终统计平均耗时的时候，只要把startStation->endStation路径中累计的**耗时/次数**即可。
+// 最终统计平均耗时的时候，只要把startStation->endStation路径中累计的**耗时/次数**即可。
 
-时间复杂度O(1)，空间复杂度3个Map,为O(N)。
+// 时间复杂度O(1)，空间复杂度3个Map,为O(N)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class UndergroundSystem {
 
     // 人员的进站地点
@@ -62,4 +62,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-    本人前一题解用深搜C实现的，换了Java写了遍并查集。
+// ### 解题思路
+//     本人前一题解用深搜C实现的，换了Java写了遍并查集。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[] root;
     private int[] rank;
@@ -70,4 +70,4 @@ class Solution {
     }
 
 }
-```
+// ```

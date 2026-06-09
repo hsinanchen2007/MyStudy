@@ -1,12 +1,12 @@
-### 解题思路
-动态规划，dp就是最低的买入点， 【7，1，1，1，1，1，】
-pr就是每天的利润
-max_p 是最大的利润
-除去边界，完美解决
+# ### 解题思路
+# 动态规划，dp就是最低的买入点， 【7，1，1，1，1，1，】
+# pr就是每天的利润
+# max_p 是最大的利润
+# 除去边界，完美解决
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             pr[i] = prices[i] - dp[i]
             max_p = max(max_p, pr[i])
         return max_p
-```
+# ```

@@ -1,6 +1,6 @@
-竖式计算, 同[第2题][两数相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers/)
+// 竖式计算, 同[第2题][两数相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers/)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -19,4 +19,4 @@ public:
         return ret;
     }
 };
-```
+// ```

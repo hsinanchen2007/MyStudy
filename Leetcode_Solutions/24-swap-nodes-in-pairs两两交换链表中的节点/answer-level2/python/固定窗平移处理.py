@@ -1,6 +1,6 @@
-链表节点的交换主要有三个步骤：前驱->右节点，右节点->左节点，左节点->后继。
-设置x，y分别保存前驱和后继，交换left和right。
-```
+# 链表节点的交换主要有三个步骤：前驱->右节点，右节点->左节点，左节点->后继。
+# 设置x，y分别保存前驱和后继，交换left和right。
+# ```
  def swapPairs(self, head):
         """
         :type head: ListNode
@@ -37,4 +37,4 @@
             left.next = None
 
         return pre.next
-```
+# ```

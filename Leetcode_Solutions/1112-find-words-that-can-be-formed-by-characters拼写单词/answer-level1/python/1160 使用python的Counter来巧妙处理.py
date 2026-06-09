@@ -1,8 +1,8 @@
-### 解题思路
-使用了python的counter 和counter 与counter的减法
-### 代码
+# ### 解题思路
+# 使用了python的counter 和counter 与counter的减法
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countCharacters(self, words, chars):
         ans = 0
@@ -12,4 +12,4 @@ class Solution(object):
             if wordCounter-charsCounter == {}:
                 ans += len(word)
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-单队列实现栈，重点实现push，将队列的先入先出，循环遍历先入的变成后出；
+// ### 解题思路
+// 单队列实现栈，重点实现push，将队列的先入先出，循环遍历先入的变成后出；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -49,4 +49,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

@@ -1,6 +1,6 @@
-思路：自己不会，参照别人的思路做的。
-代码：
-```php
+// 思路：自己不会，参照别人的思路做的。
+// 代码：
+// ```php
 class Solution {
 
     /**
@@ -43,4 +43,4 @@ class Solution {
         return sizeof($ret);
     }
 }
-```
+// ```

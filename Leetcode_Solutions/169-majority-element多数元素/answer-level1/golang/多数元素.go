@@ -1,9 +1,9 @@
-### 解题思路
-计数, 投票
+// ### 解题思路
+// 计数, 投票
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
 	var pre = nums[0]
 	var count = 1
@@ -21,4 +21,4 @@ func majorityElement(nums []int) int {
 	}
 	return pre
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-就是不断的去和2，4，5进行相除，如果最终是1，那么就是true，如果中间无法整除，就是false
+// 就是不断的去和2，4，5进行相除，如果最终是1，那么就是true，如果中间无法整除，就是false
 
-### 代码
+// ### 代码
 
-原来是
+// 原来是
 
-```c
+// ```c
 bool isUgly(int num){
     if (num == 1) return true;
     while (true){
@@ -21,11 +21,11 @@ bool isUgly(int num){
 
 
 }
-```
+// ```
 
-后来修改成
+// 后来修改成
 
-```c
+// ```c
 bool isUgly(int num){
     if (num <= 0) return false;
     if (num == 1) return true;
@@ -42,4 +42,4 @@ bool isUgly(int num){
     }
     return true;
 }
-```
+// ```

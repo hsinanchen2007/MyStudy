@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func exchange(nums []int) []int {
     if len(nums) == 0{
         return []int{}
@@ -13,4 +13,4 @@ func exchange(nums []int) []int {
     }
     return nums
 }
-```
+// ```

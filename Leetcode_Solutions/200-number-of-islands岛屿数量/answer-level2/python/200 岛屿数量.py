@@ -1,10 +1,10 @@
-### 解题思路
-通过dfs来找到所有岛屿的数量。
+# ### 解题思路
+# 通过dfs来找到所有岛屿的数量。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def dfs(self, grid, i, j):
         if i < 0 or j < 0 or i >= len(grid) or j >= len(grid[0]) or grid[i][j] != '1':
@@ -34,4 +34,4 @@ class Solution(object):
         return count
 
         
-```
+# ```

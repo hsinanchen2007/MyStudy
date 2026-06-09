@@ -1,5 +1,5 @@
-js 巧用循环； 
-forEach在遍历前会读取固定长度，动态的改变数组本身不会受影响
+// js 巧用循环； 
+// forEach在遍历前会读取固定长度，动态的改变数组本身不会受影响
 
 var subsets = function(nums) {
     let res = [[]];

@@ -1,5 +1,5 @@
-利用set对匹配的去重
-空间复杂度有点高
+// 利用set对匹配的去重
+// 空间复杂度有点高
 public static boolean wordPattern(String pattern, String str) {
         /**
          * 只有两种情况为false:

@@ -1,7 +1,7 @@
-直接计数就行了不用算浪费时间，遇到坑点的会卡时间，再坑点给你大数。
-![拼速.png](https://pic.leetcode-cn.com/b79932eb8430de057377204e9ff165f123c3bc947b5c0ecd2715060f50374243-%E6%8B%BC%E9%80%9F.png)
+// 直接计数就行了不用算浪费时间，遇到坑点的会卡时间，再坑点给你大数。
+// ![拼速.png](https://pic.leetcode-cn.com/b79932eb8430de057377204e9ff165f123c3bc947b5c0ecd2715060f50374243-%E6%8B%BC%E9%80%9F.png)
 
-```
+// ```
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

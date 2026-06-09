@@ -1,4 +1,4 @@
-```
+// ```
 func maxJumps(arr []int, d int) int {
 	var (
 		i, j   int
@@ -55,4 +55,4 @@ func maxJumpsI(arr, dp []int, set []bool, x, d int) int {
 	return dp[x]
 }
 
-```
+// ```

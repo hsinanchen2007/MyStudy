@@ -1,9 +1,9 @@
-### 解题思路
-统计词频，使用词频分组‘’
+// ### 解题思路
+// 统计词频，使用词频分组‘’
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<string>> GroupAnagrams(string[] strs) {
         var result = new Dictionary<string, IList<string>>();
@@ -33,4 +33,4 @@ public class Solution {
         return string.Join(",", map);
     }
 }
-```
+// ```

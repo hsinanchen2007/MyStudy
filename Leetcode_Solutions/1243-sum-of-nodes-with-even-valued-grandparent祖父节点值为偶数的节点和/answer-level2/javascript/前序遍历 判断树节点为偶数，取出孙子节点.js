@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-> 前序遍历，判断目标节点存在？入栈，判断当前节点的val是否为偶数，判断当前节点的左子树，右子树存在？，把左子树的子节点，右子树的子节点存入oddResult中，oddResult求和
+// > 前序遍历，判断目标节点存在？入栈，判断当前节点的val是否为偶数，判断当前节点的左子树，右子树存在？，把左子树的子节点，右子树的子节点存入oddResult中，oddResult求和
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -53,4 +53,4 @@ var sumEvenGrandparent = function(root) {
     }
     return count
 };
-```
+// ```

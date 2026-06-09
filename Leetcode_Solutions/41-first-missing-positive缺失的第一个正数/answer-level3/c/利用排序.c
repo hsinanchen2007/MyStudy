@@ -1,4 +1,4 @@
-```
+// ```
 //#define INT_MAX 2^31
 //有符号整形变量的范围是INT_MAX - 1 (-2147483648    2147483647)
 int cmp(const void *a, const void *b) {
@@ -46,4 +46,4 @@ int firstMissingPositive(int* nums, int numsSize){
 
     return nums[cnt - 1] + 1;
 }
-```
+// ```

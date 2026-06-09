@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O(n)
-空间复杂度：O(n)
+# ### 解题思路
+# 时间复杂度：O(n)
+# 空间复杂度：O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         # 特殊情况处理
@@ -34,4 +34,4 @@ class Solution:
 
         # 返回压缩后的字符串
         return S if len(pres_str)>=length else pres_str
-```
+# ```

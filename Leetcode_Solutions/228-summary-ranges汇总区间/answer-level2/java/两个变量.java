@@ -1,8 +1,8 @@
-### 解题思路
-两个变量star，end分别记录区间起始，开始时start=end，往后遍历，如果后一个元素 = end + 1，更新end；否则，找到一个区间，然后start和end分别指向下一个数，注意最后要把最后一个区间加上。
-### 代码
+// ### 解题思路
+// 两个变量star，end分别记录区间起始，开始时start=end，往后遍历，如果后一个元素 = end + 1，更新end；否则，找到一个区间，然后start和end分别指向下一个数，注意最后要把最后一个区间加上。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> summaryRanges(int[] nums) {
         List<String> res = new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isAlienSorted(words []string, order string) bool {
 	orderRune:=[]rune(order)
 	orderMap:=make(map[rune]int)
@@ -40,4 +40,4 @@ func helpIsAlienSorted(a,b string,orderMap map[rune]int)bool{
 	return true
 }
 
-```
+// ```

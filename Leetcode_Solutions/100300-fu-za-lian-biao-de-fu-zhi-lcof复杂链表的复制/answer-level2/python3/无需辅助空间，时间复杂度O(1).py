@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         
@@ -26,4 +26,4 @@ class Solution:
             cur.next = cur1.next 
             cur = cur.next 
         return copy_head 
-```
+# ```

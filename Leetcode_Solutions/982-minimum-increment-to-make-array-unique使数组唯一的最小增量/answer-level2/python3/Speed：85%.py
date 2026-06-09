@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/265a87b7275b8fbea326f89b39c28a32e33a3cb5b72ef31243e76be29dbcc9d3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/265a87b7275b8fbea326f89b39c28a32e33a3cb5b72ef31243e76be29dbcc9d3-image.png)
 
-# 
-##### 解题思路
-# 
-*此处写解题思路*
-# 
-# 
-##### 完整代码
-```python
+# # 
+# ##### 解题思路
+# # 
+# *此处写解题思路*
+# # 
+# # 
+# ##### 完整代码
+# ```python
 def min_increment_for_unique(arr):
         nums = [0] * 80001  # 申请一个全是0的数组
         dup_count = 0  # 原始数组中重复的个数
@@ -31,5 +31,5 @@ def min_increment_for_unique(arr):
                 point += 1
             if pro_count == dup_count:  # 如果已经处理的重复数 = 原始数组的重复数，节省时间，直接return
                 return output
-```
+# ```
 

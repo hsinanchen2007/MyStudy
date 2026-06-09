@@ -1,13 +1,13 @@
-### 解题思路
-将图切分为多个岛屿
-每个岛屿的所有边界 存储下来
+// ### 解题思路
+// 将图切分为多个岛屿
+// 每个岛屿的所有边界 存储下来
 
-统计每个边界点连接了哪些岛屿
-则修改某个边界点后 连接的岛屿大小 = 所有连接岛屿大小之和+1
+// 统计每个边界点连接了哪些岛屿
+// 则修改某个边界点后 连接的岛屿大小 = 所有连接岛屿大小之和+1
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class Island{
     public HashSet<VT> nodes = new HashSet<VT>();
@@ -112,4 +112,4 @@ public class Solution {
         return bi.LargestIsland(grid);
     }
 }
-```
+// ```

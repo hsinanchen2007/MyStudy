@@ -1,9 +1,9 @@
-### 解题思路
-先用快慢指针找到中间点， 然后把后半段链表反转， 再和原链表从头比较值
+// ### 解题思路
+// 先用快慢指针找到中间点， 然后把后半段链表反转， 再和原链表从头比较值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -37,4 +37,4 @@ func isPalindrome(head *ListNode) bool {
     }
     return true                //总共O(2n）/ O(2)
 }
-```
+// ```

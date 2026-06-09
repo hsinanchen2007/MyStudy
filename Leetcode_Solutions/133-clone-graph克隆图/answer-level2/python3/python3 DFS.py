@@ -1,10 +1,10 @@
-### 解题思路
-dfs: 创建节点的复制节点，遍历子节点，递归执行拷贝工作，将拷贝了的子节点加入neighbors。
+# ### 解题思路
+# dfs: 创建节点的复制节点，遍历子节点，递归执行拷贝工作，将拷贝了的子节点加入neighbors。
 
-用dict保存已经复制了的节点，在递归调用时首先判断是否已经在dict中（被复制过了），是，则直接返回节点；否，则递归调用拷贝函数。
-### 代码
+# 用dict保存已经复制了的节点，在递归调用时首先判断是否已经在dict中（被复制过了），是，则直接返回节点；否，则递归调用拷贝函数。
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -24,4 +24,4 @@ class Solution:
                     newNode.neighbors.append(cg(nd,md))
             return newNode
         return cg(node,dict())
-```
+# ```

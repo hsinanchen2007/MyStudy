@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/51173ab8c5e726c07fa1c944c91eb8e839cb20634fb28e3c8c0a0b4a3bf8182e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/51173ab8c5e726c07fa1c944c91eb8e839cb20634fb28e3c8c0a0b4a3bf8182e-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void Quick_Sort(int* arr,int low, int high);
 int findidx(int *arr, int l, int r);
 int hIndex(int* citations, int citationsSize){
@@ -42,4 +42,4 @@ int findidx(int *arr, int l, int r){
     arr[l] = t;
     return l;
 }
-```
+// ```

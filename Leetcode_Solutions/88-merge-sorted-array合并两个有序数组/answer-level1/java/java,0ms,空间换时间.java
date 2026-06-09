@@ -1,9 +1,9 @@
-### 解题思路
-另找个数组copy一下2就行
+// ### 解题思路
+// 另找个数组copy一下2就行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int r1=0,r2=0;//两个指针分别指向两个数组的头
@@ -24,4 +24,4 @@ class Solution {
          nums1[j]=ans[j];
     }
 }
-```
+// ```

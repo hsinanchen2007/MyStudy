@@ -1,4 +1,4 @@
-```
+// ```
         StringBuffer resultSB = new StringBuffer("");
         String reveNum1 = new StringBuffer(num1).reverse().toString();
         String reveNum2 = new StringBuffer(num2).reverse().toString();
@@ -36,4 +36,4 @@
             i++;
         }
         return resultSB.reverse().toString();
-```
+// ```

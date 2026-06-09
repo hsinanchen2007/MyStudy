@@ -1,6 +1,6 @@
-图的 BFS。
+// 图的 BFS。
 
-```
+// ```
 /*
  * @lc app=leetcode.cn id=1162 lang=csharp
  *
@@ -69,4 +69,4 @@ class Coordinate
     public int X { set; get; }
     public int Y { set; get; }
 }
-```
+// ```

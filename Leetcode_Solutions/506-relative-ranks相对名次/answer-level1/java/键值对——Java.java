@@ -1,7 +1,7 @@
-思路：建立键值对，排序，倒着塞入answer即可。
-<br/><br/>
-代码：
-```
+// 思路：建立键值对，排序，倒着塞入answer即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public String[] findRelativeRanks(int[] nums) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -36,4 +36,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :2 ms, 在所有 Java 提交中击败了99.73%的用户
-内存消耗 :34.2 MB, 在所有 Java 提交中击败了89.52%的用户
-```
+// 执行用时 :2 ms, 在所有 Java 提交中击败了99.73%的用户
+// 内存消耗 :34.2 MB, 在所有 Java 提交中击败了89.52%的用户
+// ```
 public String getPermutation(int n, int k) {
         int[] help = new int[n];
         help[0] = 1;
@@ -39,4 +39,4 @@ public String getPermutation(int n, int k) {
         }
         return -1;
     }
-```
+// ```

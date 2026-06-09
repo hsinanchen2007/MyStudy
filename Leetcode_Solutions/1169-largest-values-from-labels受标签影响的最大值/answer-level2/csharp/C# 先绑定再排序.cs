@@ -1,10 +1,10 @@
-1、将value与label绑定并按value降序排列
-2、使用int[]{ values[i], labels[i] } 即可绑定value与label，无需新建类或结构体
-3、从新队列头开始遍历，如果该value对应的label使用次数小于use_limit就加入结果，否则继续下一个value
-4、因为题目限定了 0 <= labels[i] <= 20000，所以最好用int[20001]记录每个label被使用的次数
-5、当加入结果的value数量达到num_wanted时提前跳出循环返回结果
+// 1、将value与label绑定并按value降序排列
+// 2、使用int[]{ values[i], labels[i] } 即可绑定value与label，无需新建类或结构体
+// 3、从新队列头开始遍历，如果该value对应的label使用次数小于use_limit就加入结果，否则继续下一个value
+// 4、因为题目限定了 0 <= labels[i] <= 20000，所以最好用int[20001]记录每个label被使用的次数
+// 5、当加入结果的value数量达到num_wanted时提前跳出循环返回结果
 
-```csharp
+// ```csharp
 public int LargestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit)
 {
     List<int[]> list = new List<int[]>();
@@ -31,4 +31,4 @@ public int LargestValsFromLabels(int[] values, int[] labels, int num_wanted, int
     }
     return ans;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-1. 后来者使用前继的统计信息为基础，不需要统计所有过去每一天的数据；
-2. 前一天的股票价格与今天股票比较，如果小于或等于今天股票，那么累加前一天的spanner，然后跳跃过前一天的spanner，这个区间前一天已经都统计过；
-2. 使用数组保存每一天股票价格和spanner，方便后继统计时进行跳跃过不需要再统计的区间；
+// 1. 后来者使用前继的统计信息为基础，不需要统计所有过去每一天的数据；
+// 2. 前一天的股票价格与今天股票比较，如果小于或等于今天股票，那么累加前一天的spanner，然后跳跃过前一天的spanner，这个区间前一天已经都统计过；
+// 2. 使用数组保存每一天股票价格和spanner，方便后继统计时进行跳跃过不需要再统计的区间；
 
-```golang
+// ```golang
 type StockSpanner struct {
     prices []*Spanner
     count int
@@ -44,4 +44,4 @@ func (this *StockSpanner) Next(price int) int {
  * obj := Constructor();
  * param_1 := obj.Next(price);
  */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，使用字典的数组作为DP表；
-dp[number][distance]=th; 表示number是以distance为步长的第th个等差数字；
+// ### 解题思路
+// 动态规划，使用字典的数组作为DP表；
+// dp[number][distance]=th; 表示number是以distance为步长的第th个等差数字；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int LongestArithSeqLength(int[] A) {
         if (A.Length <= 2) return A.Length;
@@ -37,4 +37,4 @@ public class Solution {
         return max;
     }
 }
-```
+// ```

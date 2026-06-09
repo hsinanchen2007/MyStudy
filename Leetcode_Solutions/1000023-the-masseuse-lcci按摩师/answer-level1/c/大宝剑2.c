@@ -1,9 +1,9 @@
-### 解题思路
-贪心动态规划
+// ### 解题思路
+// 贪心动态规划
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
     动态规划
     dp[i] = max(dp[i - 1], dp[i - 2] + nums[i])
@@ -39,4 +39,4 @@ int massage(int* nums, int numsSize){
 
     return dp[0];
 }
-```
+// ```

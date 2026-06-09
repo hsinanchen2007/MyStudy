@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -11,9 +11,9 @@ public:
         return res;
     }
 };
-```
-方法二 
-```
+// ```
+// 方法二 
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -25,11 +25,11 @@ public:
         return res;
     }
 };
-```
-方法三 
-n-1将n的二进制最右边的1变为0，最右边1右边0变为1
-n&(n-1)消除n的二进制最右边的1
-```
+// ```
+// 方法三 
+// n-1将n的二进制最右边的1变为0，最右边1右边0变为1
+// n&(n-1)消除n的二进制最右边的1
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -41,5 +41,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

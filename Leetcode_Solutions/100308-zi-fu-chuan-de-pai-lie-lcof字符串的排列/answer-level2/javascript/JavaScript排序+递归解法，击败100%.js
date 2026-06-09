@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string[]}
@@ -27,4 +27,4 @@ var bfs = function(n, item){
         this.checked[i] = 0;
     }
 }
-```
+// ```

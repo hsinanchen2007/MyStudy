@@ -1,4 +1,4 @@
-```
+// ```
 static struct TreeNode *NewTree(void)
 {
     struct TreeNode *tree = NULL;
@@ -66,4 +66,4 @@ struct TreeNode* sortedListToBST(struct ListNode* head){
     result = GetBstFrmArray(listArray, listLen);
     return result;
 }
-```
+// ```

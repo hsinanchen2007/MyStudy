@@ -1,13 +1,13 @@
-第一步：
-    indices的第一列是行变换，取出后保存到row
-    indices的第二列是列变换，取出后保存到col
-第二步：
-    遍历row执行行变换
-    遍历col执行列变换
-第三步：
-    遍历变换后的二维矩阵，统计矩阵中奇数的个数
+// 第一步：
+//     indices的第一列是行变换，取出后保存到row
+//     indices的第二列是列变换，取出后保存到col
+// 第二步：
+//     遍历row执行行变换
+//     遍历col执行列变换
+// 第三步：
+//     遍历变换后的二维矩阵，统计矩阵中奇数的个数
 
-```
+// ```
     public int oddCells(int n, int m, int[][] indices) {
         int num = 0;//用于记录最终矩阵的奇数个数
         int[][] source = new int[n][m];
@@ -49,4 +49,4 @@
         }
         return num;
     }
-```
+// ```

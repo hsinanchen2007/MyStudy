@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool zichushu(int x){
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

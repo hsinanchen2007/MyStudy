@@ -1,5 +1,5 @@
-**思路：** 没啥说的都在代码里，多用测试用例修正自己的代码。
-```
+// **思路：** 没啥说的都在代码里，多用测试用例修正自己的代码。
+// ```
 public IList<IList<int>> Generate(int numRows)
         {
             IList<IList<int>> result = new List<IList<int>>();
@@ -27,4 +27,4 @@ public IList<IList<int>> Generate(int numRows)
 
             return result;
         }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String replaceSpace(String s) {
         //就是考一个string的不可变性，找个StringBuffer或者StringBulider来拼接。
@@ -14,4 +14,4 @@ class Solution {
         return String.valueOf(sb) ;
     }
 }
-```
+// ```

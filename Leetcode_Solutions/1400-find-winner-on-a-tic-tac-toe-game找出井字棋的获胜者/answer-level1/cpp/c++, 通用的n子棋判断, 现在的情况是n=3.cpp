@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     //Runtime: 4 ms, faster than 59.70% of C++ online submissions for Find Winner on a Tic Tac Toe Game.
@@ -62,4 +62,4 @@ public:
 		return res > 2;
 	}
 };
-```
+// ```

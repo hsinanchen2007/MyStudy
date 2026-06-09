@@ -1,12 +1,12 @@
-### 解题思路
-1.遍历，得到表长，将k对表长取余；
-2.取相隔k个节点的两个指针，同时移动直到后者到达表尾，此时前者即为断点，外加pre辅助指针；
-3.原表首尾相接，定义新表头，pre处断开。
-![捕获.PNG](https://pic.leetcode-cn.com/1662dc052bb27bd2057f555b9840ad2a0835d2956bee080204a23f089fc5ae20-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 1.遍历，得到表长，将k对表长取余；
+// 2.取相隔k个节点的两个指针，同时移动直到后者到达表尾，此时前者即为断点，外加pre辅助指针；
+// 3.原表首尾相接，定义新表头，pre处断开。
+// ![捕获.PNG](https://pic.leetcode-cn.com/1662dc052bb27bd2057f555b9840ad2a0835d2956bee080204a23f089fc5ae20-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
         return head;
     }
 };
-```
+// ```

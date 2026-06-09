@@ -1,6 +1,6 @@
-用一个for循环来当一个数字的遍历，另外一个while循环来遍历另外两个指针。
-由于max应该为INT_MAX,可是编译错误，就设置成了200，编译通过。
-```
+// 用一个for循环来当一个数字的遍历，另外一个while循环来遍历另外两个指针。
+// 由于max应该为INT_MAX,可是编译错误，就设置成了200，编译通过。
+// ```
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -52,6 +52,6 @@ public:
         return sum;
     }
 };
-```
+// ```
 
 

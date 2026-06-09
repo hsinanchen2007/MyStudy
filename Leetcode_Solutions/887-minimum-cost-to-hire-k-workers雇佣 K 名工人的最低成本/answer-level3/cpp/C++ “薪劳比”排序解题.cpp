@@ -1,9 +1,9 @@
-**解题关键**：假定某位工人拿到最低期望工资，其“薪劳比”为WQ，那么该工作组中，只能存在（薪劳比[i] < WQ）的工人，且工人“质量”尽量低
+// **解题关键**：假定某位工人拿到最低期望工资，其“薪劳比”为WQ，那么该工作组中，只能存在（薪劳比[i] < WQ）的工人，且工人“质量”尽量低
 
-**解题工具**：二维向量、Sort函数、优先队列
+// **解题工具**：二维向量、Sort函数、优先队列
 
-**源码**
-```c++ []
+// **源码**
+// ```c++ []
 double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int K) {
 
     vector<vector<double>>workers(quality.size(), { 0.0,0.0 });
@@ -26,5 +26,5 @@ double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int K) {
     }
     return res;
 }
-```
+// ```
 

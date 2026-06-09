@@ -1,10 +1,10 @@
-### 解题思路
-存储最小丑数，依次向上取，o(n)复杂度
-暴力的话 会超时
+# ### 解题思路
+# 存储最小丑数，依次向上取，o(n)复杂度
+# 暴力的话 会超时
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         if n <= 1:
@@ -21,4 +21,4 @@ class Solution:
                 i5 += 1
         return res[-1]
         
-```
+# ```

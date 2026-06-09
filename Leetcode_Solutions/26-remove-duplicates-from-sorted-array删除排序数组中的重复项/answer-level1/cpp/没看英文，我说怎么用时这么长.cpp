@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/34659154e9df169dbd177d20ffe520c717c483dc6613509de7e494774aedcb05-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/34659154e9df169dbd177d20ffe520c717c483dc6613509de7e494774aedcb05-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution
 {
 public:
@@ -30,4 +30,4 @@ public:
         return pos1+1;
     }
 };
-```
+// ```

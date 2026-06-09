@@ -1,10 +1,10 @@
-### 解题思路
-记录每天之前最小的价格，这样就可以遍历一次找到最佳收益
-双层遍历 由于是python写的会超时
+# ### 解题思路
+# 记录每天之前最小的价格，这样就可以遍历一次找到最佳收益
+# 双层遍历 由于是python写的会超时
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             
         return profit
 
-```
+# ```

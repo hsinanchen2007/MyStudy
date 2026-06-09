@@ -1,11 +1,11 @@
-### 解题思路
-1、设置全局变量，最大深度
-2、递归，返回左右节点的高度
-3、左右节点的高度与全局最大深度比较，取最大赋值全局变量
+# ### 解题思路
+# 1、设置全局变量，最大深度
+# 2、递归，返回左右节点的高度
+# 3、左右节点的高度与全局最大深度比较，取最大赋值全局变量
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution(object):
         add(root)
         
         return self.dep
-```
+# ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -28,4 +28,4 @@ public:
         return (flag&2)==2?-ans:ans;
     }
 };
-```
+// ```

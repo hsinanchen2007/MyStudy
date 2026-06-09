@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-非递归，用语法糖让cur, cur.Next, prev三者交换即可。
+// 非递归，用语法糖让cur, cur.Next, prev三者交换即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -34,4 +34,4 @@ func reverseList(head *ListNode) *ListNode {
     // recursive
     // return reverseListHelper(nil, head)
 }
-```
+// ```

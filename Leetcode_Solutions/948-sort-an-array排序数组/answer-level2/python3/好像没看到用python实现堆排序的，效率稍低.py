@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         def swap(l,a,b):
@@ -26,4 +26,4 @@ class Solution:
             del nums[-1]
             adjust(nums,0)
         return r
-```
+# ```

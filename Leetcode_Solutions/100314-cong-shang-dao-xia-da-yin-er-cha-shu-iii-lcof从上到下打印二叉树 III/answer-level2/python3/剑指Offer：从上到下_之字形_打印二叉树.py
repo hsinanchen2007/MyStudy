@@ -1,11 +1,11 @@
-### 解题思路
-本质上还是二叉树的层次遍历
-关键在于对奇、偶层做一个处理，奇数则正序即可，偶数则需要倒序
-这里用到python的倒序处理：a[::-1]即为a数组的倒序
+# ### 解题思路
+# 本质上还是二叉树的层次遍历
+# 关键在于对奇、偶层做一个处理，奇数则正序即可，偶数则需要倒序
+# 这里用到python的倒序处理：a[::-1]即为a数组的倒序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -44,4 +44,4 @@ class Solution:
                 result.append(res[::-1])
 
         return result
-```
+# ```

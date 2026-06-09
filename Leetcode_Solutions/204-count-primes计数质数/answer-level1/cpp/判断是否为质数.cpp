@@ -1,4 +1,4 @@
-``` C++ 
+// ``` C++ 
 class Solution {
 public:
     int countPrimes(int n) {
@@ -25,4 +25,4 @@ public:
         return true;
     }
 };
-```
+// ```

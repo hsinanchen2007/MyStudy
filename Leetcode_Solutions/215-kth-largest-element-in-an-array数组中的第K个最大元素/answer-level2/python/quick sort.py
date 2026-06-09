@@ -1,9 +1,9 @@
-### 解题思路
-虽然自己的做法就是快排，但就是一些边界没弄清晰，搞得心烦意乱！
+# ### 解题思路
+# 虽然自己的做法就是快排，但就是一些边界没弄清晰，搞得心烦意乱！
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findKthLargest(self, nums, k):
         """
@@ -39,4 +39,4 @@ class Solution(object):
                 idx += 1
         nums[idx], nums[right] = nums[right], nums[idx]
         return idx
-```
+# ```

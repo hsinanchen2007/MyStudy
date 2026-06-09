@@ -1,9 +1,9 @@
-### 解题思路
-同子集，使用回溯算法，不过每一次需要跳过重复的元素。
+// ### 解题思路
+// 同子集，使用回溯算法，不过每一次需要跳过重复的元素。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -23,8 +23,8 @@ var subsetsWithDup = function(nums) {
     backTrace(temp, 0);
     return res;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(2^N)
-- 空间复杂度 O(2^N)
+// ### 复杂度
+// - 时间复杂度 O(2^N)
+// - 空间复杂度 O(2^N)

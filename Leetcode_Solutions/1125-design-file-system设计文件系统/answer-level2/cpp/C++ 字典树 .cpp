@@ -1,4 +1,4 @@
-```
+// ```
 class FileSystem {
 public:
     struct TrieNode {
@@ -55,4 +55,4 @@ public:
         return node->next[words.back()]->val;
     }
 };
-```
+// ```

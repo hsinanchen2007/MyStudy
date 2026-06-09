@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/5d8fb7ea1c93a39972dee4f1806bc9b9d8ef9538e2d86a79e3f9da3cd5f2b75f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5d8fb7ea1c93a39972dee4f1806bc9b9d8ef9538e2d86a79e3f9da3cd5f2b75f-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
 
@@ -16,4 +16,4 @@ class Solution:
                 return i
                 break
 
-```
+# ```

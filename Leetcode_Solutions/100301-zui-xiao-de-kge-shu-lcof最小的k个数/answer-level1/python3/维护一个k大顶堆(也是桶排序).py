@@ -1,9 +1,9 @@
-### 解题思路
-堆顶为最大值，不断用更小的值代替堆顶，最后该堆就是最小k个数
+# ### 解题思路
+# 堆顶为最大值，不断用更小的值代替堆顶，最后该堆就是最小k个数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         # if k==0: return []
@@ -27,4 +27,4 @@ class Solution:
                 heapq.heappop(opposite)
                 heapq.heappush(opposite, -arr[i])
         return [-x for x in opposite]
-```
+# ```

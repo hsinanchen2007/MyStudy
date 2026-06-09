@@ -1,4 +1,4 @@
-```
+// ```
 代码块
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
@@ -23,4 +23,4 @@ class Solution {
                 return false;
     }
 }
-```
+// ```

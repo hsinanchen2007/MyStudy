@@ -1,17 +1,17 @@
-欢迎大家关注我的LeetCode代码仓：https://github.com/617076674/LeetCode
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：https://github.com/617076674/LeetCode
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：哈希表
+// # 解法一：哈希表
 
-本题的关键是如何实现getNewsFeed(userId)方法。
+// 本题的关键是如何实现getNewsFeed(userId)方法。
 
-第一种解法的思路是不对推特进行分类，将所有推特按时间顺序排列在一个数组中，实现getNewsFeed(userId)方法时，遍历该数组，获取符合条件的前10条信息即可。
+// 第一种解法的思路是不对推特进行分类，将所有推特按时间顺序排列在一个数组中，实现getNewsFeed(userId)方法时，遍历该数组，获取符合条件的前10条信息即可。
 
-getNewsFeed(userId)方法的时间复杂度是O(n)，其中n为推特总数。
+// getNewsFeed(userId)方法的时间复杂度是O(n)，其中n为推特总数。
 
-执行用时：179ms，击败12.78%。消耗内存：59.8MB，击败5.29%。
+// 执行用时：179ms，击败12.78%。消耗内存：59.8MB，击败5.29%。
 
-```java
+// ```java
 public class Twitter {
     private Map<Integer, Set<Integer>> followeeMap;
 
@@ -54,19 +54,19 @@ public class Twitter {
         }
     }
 }
-```
+// ```
 
-# 解法二：哈希表+链表
+// # 解法二：哈希表+链表
 
-将推特根据用户ID进行分类，用哈希表+链表的形式保存每个用户各自的推特信息。
+// 将推特根据用户ID进行分类，用哈希表+链表的形式保存每个用户各自的推特信息。
 
-实现getNewsFeed(userId)方法时，只需根据满足条件的用户ID信息设置多个指针遍历相应的推特链表即可。
+// 实现getNewsFeed(userId)方法时，只需根据满足条件的用户ID信息设置多个指针遍历相应的推特链表即可。
 
-getNewsFeed(userId)方法的时间复杂度是O(m)，其中m是满足条件的用户数，即userId及其关注的人的数量。
+// getNewsFeed(userId)方法的时间复杂度是O(m)，其中m是满足条件的用户数，即userId及其关注的人的数量。
 
-执行用时：30ms，击败85.62%。消耗内存：45.1MB，击败45.04%。
+// 执行用时：30ms，击败85.62%。消耗内存：45.1MB，击败45.04%。
 
-```java
+// ```java
 public class Twitter {
     private Map<Integer, Set<Integer>> followeeMap; //键：用户ID；值：该用户关注的人的ID集合
 
@@ -133,4 +133,4 @@ public class Twitter {
         }
     }
 }
-```
+// ```

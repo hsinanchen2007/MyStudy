@@ -1,10 +1,10 @@
-### 贪心算法
-有一种痛苦是知道思路是啥，就是编程一直出错。。。
-难过ing
+// ### 贪心算法
+// 有一种痛苦是知道思路是啥，就是编程一直出错。。。
+// 难过ing
 
-### 代码
+// ### 代码
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,4 +17,4 @@ var maxSubArray = function (nums) {
     }
     return maxCount
 };
-```
+// ```

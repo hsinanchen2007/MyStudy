@@ -1,5 +1,5 @@
-php遍历解题 仅供参考
-```
+// php遍历解题 仅供参考
+// ```
 class Solution {
 
     /**
@@ -49,5 +49,5 @@ class Solution {
         return $str;
     }
 }
-```
+// ```
 

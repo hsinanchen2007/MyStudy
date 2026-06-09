@@ -1,6 +1,6 @@
-非递归和递归两种写法，
-更多链表相关的题[参考这里](https://blog.csdn.net/reed1991/article/details/98884225)
-```
+// 非递归和递归两种写法，
+// 更多链表相关的题[参考这里](https://blog.csdn.net/reed1991/article/details/98884225)
+// ```
 public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
@@ -50,4 +50,4 @@ public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
             return l2;
         }
     }
-```
+// ```

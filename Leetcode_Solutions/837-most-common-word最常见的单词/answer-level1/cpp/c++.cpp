@@ -1,6 +1,6 @@
-执行用时 :8 ms, 在所有 C++ 提交中击败了78.95% 的用户
-内存消耗 :9.7 MB, 在所有 C++ 提交中击败了13.30%的用户
-```cpp
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了78.95% 的用户
+// 内存消耗 :9.7 MB, 在所有 C++ 提交中击败了13.30%的用户
+// ```cpp
 class Solution {
 public:
 	string mostCommonWord(string paragraph, vector<string>& banned) {
@@ -24,4 +24,4 @@ public:
 			})->first;
 	}
 };
-```
+// ```

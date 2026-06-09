@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法
+// ### 解题思路
+// 贪心算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int integerBreak(int n) {
@@ -26,4 +26,4 @@ public:
         return pow(3, a) * 2;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f2e6eebea20420b2c63cafdd8f4f3b2f4a2c1dbd87de929a71b7eedbee4522fb-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f2e6eebea20420b2c63cafdd8f4f3b2f4a2c1dbd87de929a71b7eedbee4522fb-image.png)
 
 
-```
+# ```
 '''
 前缀树应用，前缀树每个节点保存三个字典序最小的单词
 '''
@@ -67,4 +67,4 @@ class Solution:
             ans.append([])
 
         return ans
-```
+# ```

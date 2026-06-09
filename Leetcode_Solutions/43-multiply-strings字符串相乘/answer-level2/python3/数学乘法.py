@@ -1,6 +1,6 @@
-就一个点，将两个数组都反向后，然后顺序乘加到一个数组里面；最后再将该数组反转回来即可。
+# 就一个点，将两个数组都反向后，然后顺序乘加到一个数组里面；最后再将该数组反转回来即可。
 
-```
+# ```
 class Solution(object):
     def multiply(self, num1, num2):
         """
@@ -32,4 +32,4 @@ class Solution(object):
 
 x = Solution()
 print(x.multiply("0", "0"))
-```
+# ```

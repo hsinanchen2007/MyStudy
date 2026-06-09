@@ -1,9 +1,9 @@
-### 解题思路
-子函数是真的好用
+// ### 解题思路
+// 子函数是真的好用
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool is_string(char a){
     if(a>='a'&&a<='z'||a>='A'&&a<='Z'){
         return true;
@@ -40,4 +40,4 @@ char * reverseOnlyLetters(char * S){
     }
     return S;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-1，字典树加速匹配速度
-2，记忆化搜索减少重复计算
-```
+// 1，字典树加速匹配速度
+// 2，记忆化搜索减少重复计算
+// ```
 class Solution {
 public:
     struct TrieNode {
@@ -44,5 +44,5 @@ public:
         return func(s, 0, s.size());
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/b8af9a7e7e711195e833ec167d4b68c985c41744a60fab27f3b921ad0e3da91d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b8af9a7e7e711195e833ec167d4b68c985c41744a60fab27f3b921ad0e3da91d-image.png)

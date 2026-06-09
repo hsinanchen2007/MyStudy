@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-先写一个比较器，将people数组按h递减，k递增排序，然后开一个list数组，按照k值将其存入数组中。
-然后存到二维数组中即可。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先写一个比较器，将people数组按h递减，k递增排序，然后开一个list数组，按照k值将其存入数组中。
+// 然后存到二维数组中即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] reconstructQueue(int[][] people) {
         if(people==null||people.length==0||people[0].length==0) return new int[0][0]; 
@@ -30,4 +30,4 @@ class Solution {
 
     }
 }
-```
+// ```

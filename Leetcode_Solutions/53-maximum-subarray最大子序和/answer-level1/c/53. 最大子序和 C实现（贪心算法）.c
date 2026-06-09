@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 inline int Max(int a, int b)
 {
     return a > b ? a : b;
@@ -27,4 +27,4 @@ int maxSubArray(int* nums, int numsSize){
 
 
 
-```
+// ```

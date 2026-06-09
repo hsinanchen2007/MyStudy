@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/56cb038383a3372f97d07cdf1a58097cfd1b2054b6622891ac20841f5bff71e4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/56cb038383a3372f97d07cdf1a58097cfd1b2054b6622891ac20841f5bff71e4-image.png)
 
-```rs
+// ```rs
 use std::collections::VecDeque;
 
 impl Solution {
@@ -30,4 +30,4 @@ impl Solution {
         result
     }
 }
-```
+// ```

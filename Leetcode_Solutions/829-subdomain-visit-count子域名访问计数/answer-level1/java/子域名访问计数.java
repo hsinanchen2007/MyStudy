@@ -1,8 +1,8 @@
-#### 哈希映射：
+// #### 哈希映射：
 
-对于包含一个 `.` 的域名 `x.y`，我们需要统计的是 `x.y` 和 `y`；对于包含两个 `.` 的域名 `a.b.c`，我们需要统计的是 `a.b.c`，`b.c` 和 `c`。在统计这些字符串时，我们可以使用哈希映射（HashMap）。统计结束之后，我们遍历哈希映射并输出结果。
+// 对于包含一个 `.` 的域名 `x.y`，我们需要统计的是 `x.y` 和 `y`；对于包含两个 `.` 的域名 `a.b.c`，我们需要统计的是 `a.b.c`，`b.c` 和 `c`。在统计这些字符串时，我们可以使用哈希映射（HashMap）。统计结束之后，我们遍历哈希映射并输出结果。
 
-```Java [sol1]
+// ```Java [sol1]
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> counts = new HashMap();
@@ -23,9 +23,9 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-```Python [sol1]
+// ```Python [sol1]
 class Solution(object):
     def subdomainVisits(self, cpdomains):
         ans = collections.Counter()
@@ -37,10 +37,10 @@ class Solution(object):
                 ans[".".join(frags[i:])] += count
 
         return ["{} {}".format(ct, dom) for dom, ct in ans.items()]
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 $N$ 是数组 `cpdomains` 的长度，这里假设 `cpdomains` 中每个元素的长度都是常数级别的。
+// * 时间复杂度：$O(N)$，其中 $N$ 是数组 `cpdomains` 的长度，这里假设 `cpdomains` 中每个元素的长度都是常数级别的。
 
-* 空间复杂度：$O(N)$，用于存储哈希映射。
+// * 空间复杂度：$O(N)$，用于存储哈希映射。

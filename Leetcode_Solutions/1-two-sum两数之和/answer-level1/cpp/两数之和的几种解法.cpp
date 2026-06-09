@@ -1,22 +1,22 @@
 
-# solution 1
+// # solution 1
 
-首先想到的是暴力的双重循环, 时间复杂度为o(n^2), 不能接受.
+// 首先想到的是暴力的双重循环, 时间复杂度为o(n^2), 不能接受.
 
-# solution 2
+// # solution 2
 
-接着是对数组进行排序, 排序后从两端开始查找.
-初始状态为left=0, right=n-1
-num[left]+num[right] , if > target, right--
-                     , if < target, left++
-                     , if == target, return [left,right]
+// 接着是对数组进行排序, 排序后从两端开始查找.
+// 初始状态为left=0, right=n-1
+// num[left]+num[right] , if > target, right--
+//                      , if < target, left++
+//                      , if == target, return [left,right]
 
-综合时间复杂度为o(nlogn), 可以接受.
+// 综合时间复杂度为o(nlogn), 可以接受.
 
-但仔细一想, 这个算法似乎有点问题, 不过先实现了试试看. 没问题, 排序后这样肯定能找到结果的.
+// 但仔细一想, 这个算法似乎有点问题, 不过先实现了试试看. 没问题, 排序后这样肯定能找到结果的.
 
-看了眼评论区, 这种方法可以叫做首尾递进查找.
-```
+// 看了眼评论区, 这种方法可以叫做首尾递进查找.
+// ```
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -47,19 +47,19 @@ public:
         return result;
     }
 };
-```
+// ```
 
-# solution 3
+// # solution 3
 
-这是受评论区启发的.
-利用hashmap来做.
+// 这是受评论区启发的.
+// 利用hashmap来做.
 
-当确定一个数之后a之后, 他的另一半一定是target-a, 所以可以去查找这个数是否存在, 如果存在就是答案.
-那查看是否存在最好的方法就是hashmap.
+// 当确定一个数之后a之后, 他的另一半一定是target-a, 所以可以去查找这个数是否存在, 如果存在就是答案.
+// 那查看是否存在最好的方法就是hashmap.
 
-首先把数组转存到hashmap中去, 那这里有一个问题就是index怎么保存, 有重复数据时又怎么保存.
-那我这里考虑在hashmap中不保存index, 只保存出现次数.
-```
+// 首先把数组转存到hashmap中去, 那这里有一个问题就是index怎么保存, 有重复数据时又怎么保存.
+// 那我这里考虑在hashmap中不保存index, 只保存出现次数.
+// ```
 // solution 3: O(n)
 class Solution {
 public:
@@ -92,14 +92,14 @@ public:
         return result;
     }
 };
-```
+// ```
 
-# solution 4
+// # solution 4
 
-对于上面solution可以进行优化.
-很明显的一点, 就是可以在将num转存为hashmap时, 可以一边转存, 一边查找. 这样也不用考虑是否存在相同数字的问题了.
-那这时候转存可以保存index了, 随之而来的一个问题就是map中index那一项的默认值不能为0. 解决也很简单, 声明一个包含默认值的struct即可.
-```
+// 对于上面solution可以进行优化.
+// 很明显的一点, 就是可以在将num转存为hashmap时, 可以一边转存, 一边查找. 这样也不用考虑是否存在相同数字的问题了.
+// 那这时候转存可以保存index了, 随之而来的一个问题就是map中index那一项的默认值不能为0. 解决也很简单, 声明一个包含默认值的struct即可.
+// ```
 // solution 4: O(n)
 class Solution {
 public:
@@ -120,4 +120,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-暴力法，while循环发糖果，直到发完
-公式法，先算出一共能发多少次，然后利用等差数列公式直接求得每个小孩得到的糖果
+// ### 解题思路
+// 暴力法，while循环发糖果，直到发完
+// 公式法，先算出一共能发多少次，然后利用等差数列公式直接求得每个小孩得到的糖果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-执行用时 :268 ms, 在所有Python3提交中击败了98.49%的用户；内存消耗 :21.3 MB, 在所有Python3提交中击败了100.00%的用户
+# 执行用时 :268 ms, 在所有Python3提交中击败了98.49%的用户；内存消耗 :21.3 MB, 在所有Python3提交中击败了100.00%的用户
 
-### 递归
-跟其他用python的答案比较了一下，发现时间复杂度要好一点，主要是因为利用到了二叉搜索树的特性（代码中略有提及或者自行百度~），思路比较简单，就是递归。此外，题目应该是默认L<R。代码如下：
-```
+# ### 递归
+# 跟其他用python的答案比较了一下，发现时间复杂度要好一点，主要是因为利用到了二叉搜索树的特性（代码中略有提及或者自行百度~），思路比较简单，就是递归。此外，题目应该是默认L<R。代码如下：
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
                 return self.rangeSumBST(root.right,L,R)
             else:
                 return root.val+self.rangeSumBST(root.left,L,R)+self.rangeSumBST(root.right,L,R)
-```
+# ```

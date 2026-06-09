@@ -1,12 +1,12 @@
-### 解题思路
-方法一：回溯法
-1，以选取的字符数 iCurPos 为索引，进行回溯
-2，下一层选取数字的规则，只能选取剩下没有使用过的数字
-3，结束条件，数字填完了
-4，在上一题的基础上增加 判断是否是重复数字，避免除重
-### 代码
+// ### 解题思路
+// 方法一：回溯法
+// 1，以选取的字符数 iCurPos 为索引，进行回溯
+// 2，下一层选取数字的规则，只能选取剩下没有使用过的数字
+// 3，结束条件，数字填完了
+// 4，在上一题的基础上增加 判断是否是重复数字，避免除重
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -122,4 +122,4 @@ int** permuteUnique(int* nums, int numsSize, int* returnSize, int** returnColumn
     *returnColumnSizes = pRetCol;
     return pRet;
 }
-```
+// ```

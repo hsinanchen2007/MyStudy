@@ -1,10 +1,10 @@
-### 解题思路
-1.一般对于二叉树的广度优先遍历我们采用队列的方式（深度优先遍历一般采用栈的方式）
-2.有子节点就添加到队列中
+// ### 解题思路
+// 1.一般对于二叉树的广度优先遍历我们采用队列的方式（深度优先遍历一般采用栈的方式）
+// 2.有子节点就添加到队列中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -59,4 +59,4 @@ int** levelOrderBottom(struct TreeNode* root, int* returnSize, int** returnColum
     *returnColumnSizes = q;
     return ans;
 }
-```
+// ```

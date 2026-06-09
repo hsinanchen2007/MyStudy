@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -24,9 +24,9 @@ var findTilt = function(root) {
         return root.val + dfs(root.left)+dfs(root.right);
     }
 };
-```
-方法二：
-```
+// ```
+// 方法二：
+// ```
 var findTilt = function(root) {
     if(!root)return 0;
     return findTilt(root.left)+findTilt(root.right)+rootTilt(root);
@@ -43,4 +43,4 @@ function sum(root){
     return root.val+sum(root.left)+sum(root.right);
 }
 
-```
+// ```

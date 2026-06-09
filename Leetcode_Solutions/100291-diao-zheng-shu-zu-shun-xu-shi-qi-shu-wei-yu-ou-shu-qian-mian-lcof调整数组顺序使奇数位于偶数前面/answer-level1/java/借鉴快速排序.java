@@ -1,8 +1,8 @@
-### 解题思路
-借鉴快速排序的首尾双指针
-### 代码
+// ### 解题思路
+// 借鉴快速排序的首尾双指针
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         if(nums==null||nums.length==0){
@@ -21,4 +21,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

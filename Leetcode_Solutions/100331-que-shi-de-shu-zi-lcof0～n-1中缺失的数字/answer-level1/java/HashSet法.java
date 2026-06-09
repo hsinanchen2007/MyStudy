@@ -1,8 +1,8 @@
-### 解题思路
-利用HashSet
-### 代码
+// ### 解题思路
+// 利用HashSet
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         Set<Integer> resSet = new HashSet<>();
@@ -22,4 +22,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

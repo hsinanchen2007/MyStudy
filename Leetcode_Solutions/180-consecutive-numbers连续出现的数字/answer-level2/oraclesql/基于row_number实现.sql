@@ -1,5 +1,5 @@
 
-``` ORACLE
+-- ``` ORACLE
 /* Write your PL/SQL query statement below */
 
 --查询语句
@@ -12,5 +12,5 @@ group by rank_,num
 having count(rank_)>=3;
 
 
-```
+-- ```
 

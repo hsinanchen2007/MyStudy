@@ -1,6 +1,6 @@
-看见这种旋转，自然而然地想到了矩阵的转置（行列互换）
-![QQ截图20200128215202.png](https://pic.leetcode-cn.com/bc90fa2572d7d0fbe7120e00afe7376feb934c90266b81b88a5d547205f7f1e8-QQ%E6%88%AA%E5%9B%BE20200128215202.png)
-```
+// 看见这种旋转，自然而然地想到了矩阵的转置（行列互换）
+// ![QQ截图20200128215202.png](https://pic.leetcode-cn.com/bc90fa2572d7d0fbe7120e00afe7376feb934c90266b81b88a5d547205f7f1e8-QQ%E6%88%AA%E5%9B%BE20200128215202.png)
+// ```
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int temp;
     int i,j;
@@ -26,4 +26,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

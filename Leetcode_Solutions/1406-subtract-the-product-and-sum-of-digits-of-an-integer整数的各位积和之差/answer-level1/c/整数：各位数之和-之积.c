@@ -1,9 +1,9 @@
-### 解题思路
-加法、乘法有交换律，所以先从低位到高位和高位到低位都可以。
+// ### 解题思路
+// 加法、乘法有交换律，所以先从低位到高位和高位到低位都可以。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int subtractProductAndSum(int n){
     int sum=0,mul=1;
     while(n!=0)
@@ -15,4 +15,4 @@ int subtractProductAndSum(int n){
     }
     return mul-sum;
 }
-```
+// ```

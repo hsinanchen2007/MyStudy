@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f0d55681c1ee370999e76123c82e1f60655e54b2fd537b593c44cebf664bd9c9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f0d55681c1ee370999e76123c82e1f60655e54b2fd537b593c44cebf664bd9c9-image.png)
 
-```rust
+// ```rust
 impl Solution {
     pub fn find_words(words: Vec<String>) -> Vec<String> {
         let alphabets = vec![2,3,3,2,1,2,2,2,1,2,2,2,3,3,1,1,1,1,2,1,1,3,1,3,1,3];
@@ -20,4 +20,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

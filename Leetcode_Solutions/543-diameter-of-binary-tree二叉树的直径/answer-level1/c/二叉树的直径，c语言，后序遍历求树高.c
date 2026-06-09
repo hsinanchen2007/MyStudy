@@ -1,9 +1,9 @@
-### 解题思路
-其实就是后序遍历求树高，在求每一颗树高的过程中在看看其左右子树之和是否为更大的直径长度。
+// ### 解题思路
+// 其实就是后序遍历求树高，在求每一颗树高的过程中在看看其左右子树之和是否为更大的直径长度。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int TreeHigh(struct TreeNode* root,int* result){
     if(!root){
         return 0;
@@ -21,4 +21,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     TreeHigh(root,&result);
     return result;
 }
-```
+// ```

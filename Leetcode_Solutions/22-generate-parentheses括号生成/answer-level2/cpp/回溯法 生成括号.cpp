@@ -1,10 +1,10 @@
-### 解题思路
-利用回溯法
+// ### 解题思路
+// 利用回溯法
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -25,4 +25,4 @@ public:
         }
     }
 };
-```
+// ```

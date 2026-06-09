@@ -1,8 +1,8 @@
-golang解法，双指针之对撞指针
+// golang解法，双指针之对撞指针
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
-```
+// ```
 // 双指针之对撞指针
 // 时间复杂度：O(n)  空间复杂度：O(1)
 
@@ -27,5 +27,5 @@ func maxArea(height []int) int {
 
 	return max_area
 }
-```
+// ```
 

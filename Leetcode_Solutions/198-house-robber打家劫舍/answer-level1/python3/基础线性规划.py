@@ -1,9 +1,9 @@
-### 解题思路
-思路还是分解成一个个子问题，先帮它“解决”前面几个小问题，然后它就会了。
+# ### 解题思路
+# 思路还是分解成一个个子问题，先帮它“解决”前面几个小问题，然后它就会了。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rob(self, nums):
         """
@@ -31,4 +31,4 @@ class Solution(object):
         return max(maxAmount)
 
 
-```
+# ```

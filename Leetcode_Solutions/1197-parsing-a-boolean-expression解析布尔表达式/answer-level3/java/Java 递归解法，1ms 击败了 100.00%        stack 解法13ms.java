@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean parseBoolExpr(String expression) {
         // base case: t/f
@@ -38,13 +38,13 @@ class Solution {
         return opt == '&';
     }
 }
-```
+// ```
 
 
-附上stack的写法 13ms
-### 代码
+// 附上stack的写法 13ms
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean parseBoolExpr(String expression) {
         Deque<Character> stack = new ArrayDeque<>();
@@ -86,4 +86,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

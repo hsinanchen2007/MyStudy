@@ -1,11 +1,11 @@
 
-有三个细节非常重要
-1. k取到什么时候返回结果
-2. 在calc函数中while loop的循环条件
-3. 在calc函数中while loop的steps每次增加多少
-### 代码
+// 有三个细节非常重要
+// 1. k取到什么时候返回结果
+// 2. 在calc函数中while loop的循环条件
+// 3. 在calc函数中while loop的steps每次增加多少
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findKthNumber(int n, int k) {
         int cur = 1;
@@ -33,4 +33,4 @@ class Solution {
         return steps;
     }
 }
-```
+// ```

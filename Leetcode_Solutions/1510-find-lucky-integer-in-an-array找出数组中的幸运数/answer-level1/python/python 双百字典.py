@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLucky(self, arr: List[int]) -> int:
         arr = sorted(arr,reverse = True)
@@ -17,4 +17,4 @@ class Solution:
             if i == adi[i]:
                 return i
         return -1
-```
+# ```

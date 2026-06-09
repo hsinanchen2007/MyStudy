@@ -1,9 +1,9 @@
-### 解题思路
-使用map加set解决，比较难实现的是删除的方法，详见注释
+// ### 解题思路
+// 使用map加set解决，比较难实现的是删除的方法，详见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -79,4 +79,4 @@ RandomizedCollection.prototype.getRandom = function() {
  * var param_2 = obj.remove(val)
  * var param_3 = obj.getRandom()
  */
-```
+// ```

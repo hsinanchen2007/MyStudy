@@ -1,5 +1,5 @@
-![Screenshot from 2019-11-21 22-44-37.png](https://pic.leetcode-cn.com/3bcfbf5cd3839887e7cfa10889387e132e9e991cd55cd7d492e8f5e8ea44125e-Screenshot%20from%202019-11-21%2022-44-37.png)
-```c++
+// ![Screenshot from 2019-11-21 22-44-37.png](https://pic.leetcode-cn.com/3bcfbf5cd3839887e7cfa10889387e132e9e991cd55cd7d492e8f5e8ea44125e-Screenshot%20from%202019-11-21%2022-44-37.png)
+// ```c++
 class Solution {
 public:
     bool isCompleteTree(TreeNode* root) {
@@ -32,4 +32,4 @@ public:
         return true;
     }
 };
-```
+// ```

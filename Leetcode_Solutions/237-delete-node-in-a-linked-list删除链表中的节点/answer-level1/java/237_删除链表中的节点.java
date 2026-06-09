@@ -1,17 +1,17 @@
-### 解题思路
-讲要删除节点的下一个节点值赋予给要删除节点，即：
-```java
+// ### 解题思路
+// 讲要删除节点的下一个节点值赋予给要删除节点，即：
+// ```java
 node.val = node.next.val; 
-```
-要删除节点的next，设置为要删除节点的下一个next
-```java
+// ```
+// 要删除节点的next，设置为要删除节点的下一个next
+// ```java
 node.next = node.next.next;
-```
-即把要删除节点的下一个元素移动到要删除节点的位置。
+// ```
+// 即把要删除节点的下一个元素移动到要删除节点的位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
 		node.next = node.next.next;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![旋转数组.png](https://pic.leetcode-cn.com/a9bd0522141f8f93eb12812b93a1119f6556ceb9dd369f7861522f2f916fefc0-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.png)
-注释有解释
+// ### 解题思路
+// ![旋转数组.png](https://pic.leetcode-cn.com/a9bd0522141f8f93eb12812b93a1119f6556ceb9dd369f7861522f2f916fefc0-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.png)
+// 注释有解释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 void swap(int* a,int* b){//交换
@@ -29,4 +29,4 @@ void rotate(int* nums, int numsSize, int k){
 }
 
 
-```
+// ```

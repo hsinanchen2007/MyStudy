@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
 #遍历每个格子，如果这个格子的值与右侧格子不相等，则海岸线长度+1，如果该格子在地图边缘，则自动+1     
@@ -27,4 +27,4 @@ class Solution:
 
 
 
-```
+# ```

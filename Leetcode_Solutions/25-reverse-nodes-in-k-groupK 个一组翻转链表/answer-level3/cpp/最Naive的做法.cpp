@@ -1,4 +1,4 @@
-每k个翻转一组，使用一个结点指针数组保存翻转过后的头节点，再遍历指针数组将指针数组里的头节点串联起来。
+// 每k个翻转一组，使用一个结点指针数组保存翻转过后的头节点，再遍历指针数组将指针数组里的头节点串联起来。
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {

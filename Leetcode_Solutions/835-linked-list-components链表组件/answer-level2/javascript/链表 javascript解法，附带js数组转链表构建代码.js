@@ -1,6 +1,6 @@
-思路很简单，直接判断当前值和前一个值是否都在G中，当前值在，前一个值不在则count++。
-题解：
-```javascript
+// 思路很简单，直接判断当前值和前一个值是否都在G中，当前值在，前一个值不在则count++。
+// 题解：
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -32,11 +32,11 @@ var numComponents = function(head, G) {
 };
 // const buildListNode = require('./util/buildListNode');
 // console.log(numComponents(buildListNode([0, 1, 2, 3, 4]), [0, 3, 1, 4]));
-```
+// ```
 
-福利：数组转链表
+// 福利：数组转链表
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -58,5 +58,5 @@ module.exports = function buildBinaryTree(array) {
   return head;
 };
 
-```
+// ```
 

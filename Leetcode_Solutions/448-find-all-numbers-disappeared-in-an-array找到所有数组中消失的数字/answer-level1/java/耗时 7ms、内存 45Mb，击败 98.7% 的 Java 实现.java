@@ -1,5 +1,5 @@
-原理是遍历数组中所有元素，将元素值 - 1对应下标处的值减去数组大小作为标记，最后数组中依然大于0的即为未出现的元素
-```Java []
+// 原理是遍历数组中所有元素，将元素值 - 1对应下标处的值减去数组大小作为标记，最后数组中依然大于0的即为未出现的元素
+// ```Java []
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         int elem;
@@ -19,4 +19,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

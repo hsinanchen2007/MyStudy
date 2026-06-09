@@ -1,21 +1,21 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 使用三个临时变量
-        2.1.1 cur，记录当前油缸量
-        2.1.2 total，记录总的消耗以及加油数的运算和
-        2.1.3 start，符合条件的起点
-    2.2 循环遍历数组
-        2.2.1 用cur和total加上当前gas减掉cost
-        2.2.2 如果cur<0，表示当前起点无法满足要求，重置cur以及start
-    2.3 如果total<0，表示没有可用起点，返回-1，否则的话，返回start
-3. 提交记录
-    3.1 力扣中耗时1ms,消耗38.4MB内存
-    3.2 leetcode中耗时0ms,消耗36.8MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 使用三个临时变量
+//         2.1.1 cur，记录当前油缸量
+//         2.1.2 total，记录总的消耗以及加油数的运算和
+//         2.1.3 start，符合条件的起点
+//     2.2 循环遍历数组
+//         2.2.1 用cur和total加上当前gas减掉cost
+//         2.2.2 如果cur<0，表示当前起点无法满足要求，重置cur以及start
+//     2.3 如果total<0，表示没有可用起点，返回-1，否则的话，返回start
+// 3. 提交记录
+//     3.1 力扣中耗时1ms,消耗38.4MB内存
+//     3.2 leetcode中耗时0ms,消耗36.8MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     134.Gas Station
@@ -65,6 +65,6 @@ class Solution {
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

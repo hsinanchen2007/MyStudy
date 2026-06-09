@@ -1,18 +1,18 @@
-### 解题思路
-经典的BFS题型。采用左上到右下，右下到左上两遍BFS解决，这里给出C语言的解法。
+// ### 解题思路
+// 经典的BFS题型。采用左上到右下，右下到左上两遍BFS解决，这里给出C语言的解法。
 
-这里flags要设置两个值，从左上出发，设置为1
+// 这里flags要设置两个值，从左上出发，设置为1
 
-从右下出发，设置为2。过程中如果碰到1，则存入结果。
+// 从右下出发，设置为2。过程中如果碰到1，则存入结果。
 
-注意，如果使用DFS，由于相等高度可以回流，因此无法使用记忆化加速，会超时。
+// 注意，如果使用DFS，由于相等高度可以回流，因此无法使用记忆化加速，会超时。
 
-![image.png](https://pic.leetcode-cn.com/e8aa8ade2814f19f3ff4775b2fb691228f610fd412d189057e3369c8d97536b7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e8aa8ade2814f19f3ff4775b2fb691228f610fd412d189057e3369c8d97536b7-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -284,4 +284,4 @@ int** pacificAtlantic(int** matrix, int matrixSize, int* matrixColSize, int* ret
     *returnColumnSizes = ret_col;
     return ret;
 }
-```
+// ```

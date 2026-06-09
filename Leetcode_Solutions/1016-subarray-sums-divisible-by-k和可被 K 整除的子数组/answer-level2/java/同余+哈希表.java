@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
         int sum = 0;
@@ -16,4 +16,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

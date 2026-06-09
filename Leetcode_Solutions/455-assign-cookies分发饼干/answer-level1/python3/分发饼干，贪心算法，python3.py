@@ -1,9 +1,9 @@
-### 解题思路
-总是把最小的饼干喂食量最小的小朋友
+# ### 解题思路
+# 总是把最小的饼干喂食量最小的小朋友
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
         res = 0
@@ -24,4 +24,4 @@ class Solution:
                 j += 1
                 
         return res
-```
+# ```

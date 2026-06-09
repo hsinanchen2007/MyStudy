@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :28 ms, 在所有 Python3 提交中击败了93.97%的用户
-内存消耗 :13.8 MB, 在所有 Python3 提交中击败了5.78%的用户
+# ### 解题思路
+# 执行用时 :28 ms, 在所有 Python3 提交中击败了93.97%的用户
+# 内存消耗 :13.8 MB, 在所有 Python3 提交中击败了5.78%的用户
 
-这个比前序和中序难一些，注意比较
+# 这个比前序和中序难一些，注意比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
                 root = None
                 
         return res
-```
+# ```

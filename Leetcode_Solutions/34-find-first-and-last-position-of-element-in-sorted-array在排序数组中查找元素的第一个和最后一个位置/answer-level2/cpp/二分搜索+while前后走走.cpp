@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-二分查找到了target后，while前后走，直到找到前后index。但这样的话，如果中间全是相等的值，可能也要很久 O(n)。没有达到二分O(logn) 的效果。其实找到target后，在前后都还可以再进行二分。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 二分查找到了target后，while前后走，直到找到前后index。但这样的话，如果中间全是相等的值，可能也要很久 O(n)。没有达到二分O(logn) 的效果。其实找到target后，在前后都还可以再进行二分。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target){
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

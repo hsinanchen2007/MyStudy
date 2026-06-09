@@ -1,4 +1,4 @@
-递归编程就是这样，逻辑很清晰，就是不知道咋回事。
+# 递归编程就是这样，逻辑很清晰，就是不知道咋回事。
 
     def generateTrees(self, n: int) -> List[TreeNode]:
         def generate_trees(start,end):

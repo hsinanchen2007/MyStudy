@@ -1,9 +1,9 @@
-### 解题思路
-找两个例子模拟一遍就能得解题思路，和删除节点一样
+// ### 解题思路
+// 找两个例子模拟一遍就能得解题思路，和删除节点一样
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
 
     }
 }
-```
+// ```

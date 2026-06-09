@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/dc0a7f892ed9742cfe572ef77af81eeabb9a9cfacd59f88a07aac1a917533576-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/dc0a7f892ed9742cfe572ef77af81eeabb9a9cfacd59f88a07aac1a917533576-image.png)
 
-这个题解的意义是我终于真正的理解了动态规划。纪念一下，嘿嘿！
+// 这个题解的意义是我终于真正的理解了动态规划。纪念一下，嘿嘿！
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -29,4 +29,4 @@ var maxValue = function(grid) {
     // console.log(dp)
     return dp[xLen][yLen];
 };
-```
+// ```

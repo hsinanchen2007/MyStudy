@@ -1,10 +1,10 @@
-[876.链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/submissions/)
+// [876.链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## 双指针
+// ## 双指针
 
-```javascipt
+// ```javascipt
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var middleNode = function(head) {
     }
     return slow;
 };
-```
+// ```

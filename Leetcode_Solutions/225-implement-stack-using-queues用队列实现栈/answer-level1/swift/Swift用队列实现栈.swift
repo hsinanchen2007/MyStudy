@@ -1,9 +1,9 @@
-### 解题思路
-限于编译器不支持范型, 故只能认为栈元素为整型.
+// ### 解题思路
+// 限于编译器不支持范型, 故只能认为栈元素为整型.
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class MyStack {
 
     var innerQueue = [Int]()
@@ -39,4 +39,4 @@ class MyStack {
  * let ret_3: Int = obj.top()
  * let ret_4: Bool = obj.empty()
  */
-```
+// ```

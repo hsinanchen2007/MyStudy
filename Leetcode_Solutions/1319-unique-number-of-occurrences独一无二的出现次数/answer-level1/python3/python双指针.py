@@ -1,9 +1,9 @@
-### 解题思路
-python双指针方法
+# ### 解题思路
+# python双指针方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         arr.sort()
@@ -24,4 +24,4 @@ class Solution:
                     else:
                         return False
             return True
-```
+# ```

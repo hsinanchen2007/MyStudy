@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
 
   case class tmp(cnt: Int, min: Int, max: Int)
@@ -28,4 +28,4 @@ object Solution {
   }
 }
 
-```
+// ```

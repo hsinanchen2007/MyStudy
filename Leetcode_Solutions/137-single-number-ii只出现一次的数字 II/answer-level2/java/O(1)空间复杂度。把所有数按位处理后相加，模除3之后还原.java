@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-8 ms
-, 在所有 Java 提交中击败了
-34.91%
-的用户
-内存消耗 :
-36.9 MB
-, 在所有 Java 提交中击败了
-95.94%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 8 ms
+// , 在所有 Java 提交中击败了
+// 34.91%
+// 的用户
+// 内存消耗 :
+// 36.9 MB
+// , 在所有 Java 提交中击败了
+// 95.94%
+// 的用户
+// ```
 class Solution {
     public int singleNumber(int[] nums) {
         if(nums.length==1)return nums[0];
@@ -49,4 +49,4 @@ class Solution {
         return z;
     }
 }
-```
+// ```

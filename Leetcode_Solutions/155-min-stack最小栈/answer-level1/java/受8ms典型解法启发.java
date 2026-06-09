@@ -1,9 +1,9 @@
-### 解题思路
-单一栈+最小值变量（min）的方法：用Deque接口创建LinkedList类型的栈的方法，比直接使用Stack类型实现的方法节省了一半的时间，在这里备忘一下。
+// ### 解题思路
+// 单一栈+最小值变量（min）的方法：用Deque接口创建LinkedList类型的栈的方法，比直接使用Stack类型实现的方法节省了一半的时间，在这里备忘一下。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     /** initialize your data structure here. */
@@ -49,4 +49,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

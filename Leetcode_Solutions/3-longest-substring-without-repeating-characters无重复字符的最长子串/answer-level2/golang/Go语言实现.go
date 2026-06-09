@@ -1,12 +1,12 @@
-step1: 参数检查
+// step1: 参数检查
 
-step2: 遍历字符串
+// step2: 遍历字符串
 
-step2.1: 判断当前位置和下一个位置是否相等
+// step2.1: 判断当前位置和下一个位置是否相等
 
 
-step2.2: 判断下一个位置是否已经在set集合中
-```
+// step2.2: 判断下一个位置是否已经在set集合中
+// ```
 type void struct{}
 
 var member void
@@ -37,4 +37,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return longest
 }
-```
+// ```

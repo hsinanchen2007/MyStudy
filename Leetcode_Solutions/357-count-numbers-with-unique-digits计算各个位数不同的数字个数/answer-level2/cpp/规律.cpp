@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-规律；
-
-
+// 规律；
 
 
-### 代码
 
-```cpp
+
+// ### 代码
+
+// ```cpp
 class Solution {
 public:
     int countNumbersWithUniqueDigits(int n) {
@@ -27,4 +27,4 @@ public:
          return ans;
     }
 };
-```
+// ```

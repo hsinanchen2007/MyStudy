@@ -1,16 +1,16 @@
-# 思考
+// # 思考
 
-递归方式：辅助函数findPorQ(root, p, q)以root为根的树，寻找p或q，找到哪个返回哪个。如果root==p或者root==q，直接return root，否则分别对左子树findPorQ(root.left, p, q)和右子树进行递归findPorQ(root.right, p, q)。
+// 递归方式：辅助函数findPorQ(root, p, q)以root为根的树，寻找p或q，找到哪个返回哪个。如果root==p或者root==q，直接return root，否则分别对左子树findPorQ(root.left, p, q)和右子树进行递归findPorQ(root.right, p, q)。
 
-## 二叉搜索树的最近公共祖先
+// ## 二叉搜索树的最近公共祖先
 
-因为是二叉搜索树，二叉搜索树的特性是 **左节点<= 当前结点<= 右节点**。
+// 因为是二叉搜索树，二叉搜索树的特性是 **左节点<= 当前结点<= 右节点**。
 
-所以如果满足二叉搜索树的这个特性即 p.Val <= root.Val <= q.Val，那么说明该节点就是p和q的公共祖先。
+// 所以如果满足二叉搜索树的这个特性即 p.Val <= root.Val <= q.Val，那么说明该节点就是p和q的公共祖先。
 
-如果不符合，那就根据p和q的值判断去左子树找还是右子树找。
+// 如果不符合，那就根据p和q的值判断去左子树找还是右子树找。
 
-```go
+// ```go
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -32,11 +32,11 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
         return lowestCommonAncestor(root.Right, p, q)
     }
 }
-```
+// ```
 
-## 二叉树的最近公共祖先-通用解法
+// ## 二叉树的最近公共祖先-通用解法
 
-```go
+// ```go
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -62,6 +62,6 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     }
     return nil  
 }
-```
+// ```
 
-学习自大佬[@elliotxx](/u/elliotxx)
+// 学习自大佬[@elliotxx](/u/elliotxx)

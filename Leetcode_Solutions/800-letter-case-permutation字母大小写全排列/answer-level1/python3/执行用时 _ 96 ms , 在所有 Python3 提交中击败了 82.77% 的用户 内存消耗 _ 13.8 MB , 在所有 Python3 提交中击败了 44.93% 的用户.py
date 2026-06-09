@@ -1,4 +1,4 @@
-```
+# ```
 import string
 
 class Solution:
@@ -16,7 +16,7 @@ class Solution:
                     temp.append(j + i)
             res = temp
         return res
-```
+# ```
 
 
 

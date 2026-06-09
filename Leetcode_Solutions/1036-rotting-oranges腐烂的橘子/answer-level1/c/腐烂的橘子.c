@@ -1,13 +1,13 @@
-### 解题思路
-grid 是橘子框
-gridsize 是行数
-gridColSize 是个数组，每个元素就是每行的列数 gridColSize[i] 就是grid第i行的列数
+// ### 解题思路
+// grid 是橘子框
+// gridsize 是行数
+// gridColSize 是个数组，每个元素就是每行的列数 gridColSize[i] 就是grid第i行的列数
 
-简单广度优先遍历，不明白gridColSize的用法+测试用例比较恶心=提交了很多次。
+// 简单广度优先遍历，不明白gridColSize的用法+测试用例比较恶心=提交了很多次。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int orangesRotting(int** grid, int gridSize, int* gridColSize){
 
 	//申请时间记录矩阵
@@ -103,4 +103,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
 	return max;
 }
 
-```
+// ```

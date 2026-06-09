@@ -1,5 +1,5 @@
-`内联代码`
-```
+// `内联代码`
+// ```
 void huisu(vector<vector<int>>& ret,vector<int>& candidates,int nowsum,int target)
 {
 	static vector<int> temp;
@@ -36,4 +36,4 @@ vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
 	huisu(ret, candidates, 0, target);
 	return ret;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define KEY_LENTH 4
 #define QUEUE_LENTH 10000
 
@@ -225,4 +225,4 @@ int openLock(char** deadends, int deadendsSize, char* target)
 
     return -1;
 }
-```
+// ```

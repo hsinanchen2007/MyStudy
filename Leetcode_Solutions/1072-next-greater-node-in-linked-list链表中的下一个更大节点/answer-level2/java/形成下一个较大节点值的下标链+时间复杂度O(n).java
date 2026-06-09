@@ -1,10 +1,10 @@
-# 思路
-1. indexList 若是下一个元素比它大则存储下一个元素下标值，否则存0；在后续再次遍历填充结果数组时，会对于所存下标为0的位置进行更新；
-2. headList 按顺序存储原链表的val值
-3. 比如indexList.get(6)值为8，表示headList(6)的下一个更大节点值为headList(8)。
+// # 思路
+// 1. indexList 若是下一个元素比它大则存储下一个元素下标值，否则存0；在后续再次遍历填充结果数组时，会对于所存下标为0的位置进行更新；
+// 2. headList 按顺序存储原链表的val值
+// 3. 比如indexList.get(6)值为8，表示headList(6)的下一个更大节点值为headList(8)。
 
-# 代码
-```
+// # 代码
+// ```
 public static int[] nextLargerNodes(ListNode head) {
 
     List<Integer> indexList = new ArrayList<>();
@@ -43,11 +43,11 @@ public static int[] nextLargerNodes(ListNode head) {
     headList.clear();
     return rstArray;
 }
-```
+// ```
 
-# 总结
-1. 时间复杂度 O(n)
-- 对链表遍历一次;
-- 对indexList遍历一次,遍历indexList时可能会触发对下标链的查找。考虑极端情况，链表为[n,1,2,3,...,n-1]，遍历到i=0时，查找下标链长度n-1,其余查找长度1，总查找长度2n-2,时间复杂度O(n).
-2. 空间复杂度 O(n)
-- 两个大小为n的列表，一个大小为n的数组。
+// # 总结
+// 1. 时间复杂度 O(n)
+// - 对链表遍历一次;
+// - 对indexList遍历一次,遍历indexList时可能会触发对下标链的查找。考虑极端情况，链表为[n,1,2,3,...,n-1]，遍历到i=0时，查找下标链长度n-1,其余查找长度1，总查找长度2n-2,时间复杂度O(n).
+// 2. 空间复杂度 O(n)
+// - 两个大小为n的列表，一个大小为n的数组。

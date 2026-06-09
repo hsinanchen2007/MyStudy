@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXNUM 1001 
 bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize) {
 	int que[MAXNUM] = { 0 };
@@ -33,4 +33,4 @@ bool canVisitAllRooms(int** rooms, int roomsSize, int* roomsColSize) {
 	}
 	return true;
 }
-```
+// ```

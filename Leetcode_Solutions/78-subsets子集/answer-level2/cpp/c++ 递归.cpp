@@ -1,9 +1,9 @@
-### 解题思路
-对nums数组的每个节点有取和不取两种选择， 对两种选择分别做递归处理
+// ### 解题思路
+// 对nums数组的每个节点有取和不取两种选择， 对两种选择分别做递归处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> result;
@@ -23,4 +23,4 @@ public:
         subsets(nums, tmp, pos + 1, t_pos);    // 不取nums[pos]
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-32ms
+# 32ms
 
-```python []
+# ```python []
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         ans = []
@@ -10,8 +10,8 @@ class Solution:
             r < l and f(l, r + 1, s + ')')
         f(0, 0, '')
         return ans
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def f(l, r, s):
@@ -19,8 +19,8 @@ class Solution:
             l < n and (yield from f(l + 1, r, s + '('))
             r < l and (yield from f(l, r + 1, s + ')'))
         return [*f(0, 0, '')]
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def generateParenthesis(self, n: int, l=0, r=0, s='') -> List[str]:
         return [
@@ -28,4 +28,4 @@ class Solution:
             *(l < n and self.generateParenthesis(n, l + 1, r, s + '(') or ()),
             *(r < l and self.generateParenthesis(n, l, r + 1, s + ')') or ())
         ]
-```
+# ```

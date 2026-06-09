@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                     A[j],A[j+1]=A[j+1],A[j]
         return A
 
-```
+# ```

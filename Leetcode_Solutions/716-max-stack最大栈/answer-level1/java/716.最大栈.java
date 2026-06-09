@@ -1,4 +1,4 @@
-```
+// ```
 class MaxStack {
 
     private Queue<Integer> inQueue;
@@ -78,4 +78,4 @@ class MaxStack {
  * int param_4 = obj.peekMax();
  * int param_5 = obj.popMax();
  */
-```
+// ```

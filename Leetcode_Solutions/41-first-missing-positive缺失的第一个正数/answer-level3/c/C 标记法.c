@@ -1,8 +1,8 @@
-一开始想一次遍历解决问题，结果反而复杂了。
-因为数组元素中存在负数，如果直接使用负数标记，那么会引起混乱。
-因此一开始想的是，维护一个队列暂时存放不能标记的索引。
-而题目要求常数级别的空间，所以这个队列只能在原数组中暂存。
-```
+// 一开始想一次遍历解决问题，结果反而复杂了。
+// 因为数组元素中存在负数，如果直接使用负数标记，那么会引起混乱。
+// 因此一开始想的是，维护一个队列暂时存放不能标记的索引。
+// 而题目要求常数级别的空间，所以这个队列只能在原数组中暂存。
+// ```
 int firstMissingPositive(int* nums, int numsSize){
 	
 	int top = 0, tail = 0;
@@ -51,9 +51,9 @@ int firstMissingPositive(int* nums, int numsSize){
 
     return numsSize + 1;
 }
-```
-看完题解，先把负数去除，再标记
-```
+// ```
+// 看完题解，先把负数去除，再标记
+// ```
 int firstMissingPositive(int* nums, int numsSize){
 	
 	for(int i = 0; i < numsSize; i++)
@@ -83,5 +83,5 @@ int firstMissingPositive(int* nums, int numsSize){
 	
 	return numsSize + 1;
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-嵌套循环就完事了，O(n^2)
+// ### 解题思路
+// 嵌套循环就完事了，O(n^2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
          String item=new String();
@@ -19,4 +19,4 @@ class Solution {
          return flag;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 /*
   思路，如果存在对角线上的点A和B，那么看是否同时存在C和D；若是那么求这个矩形的面积
   C(x1,y2)     B(x2,y2)
@@ -46,4 +46,4 @@ int minAreaRect(int** points, int pointsSize, int* pointsColSize) { // 最后一
     }
     return haveRect == false ? 0 : min;
 }
-```
+// ```

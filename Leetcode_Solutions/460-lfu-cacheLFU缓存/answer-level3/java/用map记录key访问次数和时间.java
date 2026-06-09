@@ -1,11 +1,11 @@
-### 解题思路
-1. 用map记录key访问次数和时间
-2. 考虑要获取最小访问次数和最远时间的key（LFU），用的JDK api中的Collections.min效率不太高。要么在加一个排序数据结构记录顺序
+// ### 解题思路
+// 1. 用map记录key访问次数和时间
+// 2. 考虑要获取最小访问次数和最远时间的key（LFU），用的JDK api中的Collections.min效率不太高。要么在加一个排序数据结构记录顺序
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     private Map<Integer, Integer> map = new HashMap<>();
     private Map<Integer, AccessHistory> freqMap = new HashMap<>();
@@ -131,4 +131,4 @@ class LFUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

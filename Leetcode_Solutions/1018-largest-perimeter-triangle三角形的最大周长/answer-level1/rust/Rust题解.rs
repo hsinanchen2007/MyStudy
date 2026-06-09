@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn largest_perimeter(a: Vec<i32>) -> i32 {
         let mut a = a;
@@ -13,5 +13,5 @@ impl Solution {
         0
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

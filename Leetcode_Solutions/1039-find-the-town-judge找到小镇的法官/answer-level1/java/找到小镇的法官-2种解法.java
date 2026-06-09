@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度和空间复杂度均是O(N ^ 2)。
+// 时间复杂度和空间复杂度均是O(N ^ 2)。
 
-执行用时：9ms，击败27.83%。消耗内存：69.9MB，击败5.20%。
+// 执行用时：9ms，击败27.83%。消耗内存：69.9MB，击败5.20%。
 
-```java
+// ```java
 public class Solution {
     public int findJudge(int N, int[][] trust) {
         boolean[][] graph = new boolean[N + 1][N + 1];  //graph[i][j]表示第i个人信任第j个人
@@ -41,17 +41,17 @@ public class Solution {
         return result;
     }
 }
-```
+// ```
 
-# 解法二：记录每个节点的入度和出度
+// # 解法二：记录每个节点的入度和出度
 
-法官是入度为N-1，出度为0的节点。
+// 法官是入度为N-1，出度为0的节点。
 
-时间复杂度和空间复杂度均是O(N)。
+// 时间复杂度和空间复杂度均是O(N)。
 
-执行用时：4ms，击败48.11%。消耗内存：60.2MB，击败22.58%。
+// 执行用时：4ms，击败48.11%。消耗内存：60.2MB，击败22.58%。
 
-```java
+// ```java
 public class Solution {
     public int findJudge(int N, int[][] trust) {
         int[] outDegrees = new int[N + 1], inDegrees = new int[N + 1];
@@ -71,4 +71,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

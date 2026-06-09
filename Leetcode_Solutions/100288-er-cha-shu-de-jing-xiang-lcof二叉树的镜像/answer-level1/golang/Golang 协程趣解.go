@@ -1,7 +1,7 @@
-### 以一个线程前序遍历二叉树，另一个线程创按照相反的顺序建新的树 <br><br><br>
-利用golang中的channel阻塞线程，实现消费者生产者的效果<br><br>
+// ### 以一个线程前序遍历二叉树，另一个线程创按照相反的顺序建新的树 <br><br><br>
+// 利用golang中的channel阻塞线程，实现消费者生产者的效果<br><br>
 
-```golang []
+// ```golang []
 var res *TreeNode
 var wg sync.WaitGroup
 var c chan *TreeNode
@@ -45,4 +45,4 @@ func build(first bool) *TreeNode {  //新建树
 	res = root
 	return root
 }
-```
+// ```

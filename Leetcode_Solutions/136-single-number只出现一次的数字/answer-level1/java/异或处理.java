@@ -1,8 +1,8 @@
-### 解题思路
-一看就是异或，哈哈哈哈
-### 代码
+// ### 解题思路
+// 一看就是异或，哈哈哈哈
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         for(int i=1;i<nums.length;i++){
@@ -11,4 +11,4 @@ class Solution {
         return nums[0];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-深度遍历思想：注意访问过的节点需要将1改为0.这样不需要记录visit状态，而且不会重复记录
+# ### 解题思路
+# 深度遍历思想：注意访问过的节点需要将1改为0.这样不需要记录visit状态，而且不会重复记录
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             for j in range(n):
                 ans = max(ans, dfs(i, j))
         return ans
-```
+# ```

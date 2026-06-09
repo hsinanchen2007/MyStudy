@@ -1,9 +1,9 @@
-### 解题思路
-在笛卡尔坐标系中，点(x,y)顺时针旋转90°后坐标点为(y,-x)。点(x,y)可以通过对角线翻转(-y,-x)，再水平翻转(y,-x)即可
+// ### 解题思路
+// 在笛卡尔坐标系中，点(x,y)顺时针旋转90°后坐标点为(y,-x)。点(x,y)可以通过对角线翻转(-y,-x)，再水平翻转(y,-x)即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define SWAP(a,b) do{a^=b;b^=a;a^=b;}while(0)
 
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
@@ -21,4 +21,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
 }
 
 
-```
+// ```

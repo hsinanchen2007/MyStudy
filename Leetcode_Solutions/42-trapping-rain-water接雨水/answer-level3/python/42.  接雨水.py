@@ -1,9 +1,9 @@
-### 解题思路
-先找出最高等点，从最左边和最右边向最高的点遍历
+# ### 解题思路
+# 先找出最高等点，从最左边和最右边向最高的点遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         if len(height) <= 1:
@@ -35,14 +35,14 @@ class Solution:
 
 
 
-```
+# ```
 
-第二种解题思路，双指针法就是将上边的一个下标 i，变为两个下标 left，right，分别位于输入数组的两端。向中间移动时，边移动边计算。
+# 第二种解题思路，双指针法就是将上边的一个下标 i，变为两个下标 left，right，分别位于输入数组的两端。向中间移动时，边移动边计算。
 
-除此之外，我们使用 maxleft 作为 0...left 的最大值，maxright 作为 right...结尾 的最大值。 (原搬Pumpkin题解，仅供个人记录)
+# 除此之外，我们使用 maxleft 作为 0...left 的最大值，maxright 作为 right...结尾 的最大值。 (原搬Pumpkin题解，仅供个人记录)
 
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         # 边界条件
@@ -65,4 +65,4 @@ class Solution:
 
         return ans
 
-```
+# ```

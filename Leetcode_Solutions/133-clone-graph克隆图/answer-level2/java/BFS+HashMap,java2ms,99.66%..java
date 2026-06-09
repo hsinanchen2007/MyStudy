@@ -1,5 +1,5 @@
-![搜狗截图20191111233704.png](https://pic.leetcode-cn.com/26cf37fa58fdb0c985ea2b57026d2e51bc68e10113c54f49adcf5817299e78f7-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191111233704.png)
-```
+// ![搜狗截图20191111233704.png](https://pic.leetcode-cn.com/26cf37fa58fdb0c985ea2b57026d2e51bc68e10113c54f49adcf5817299e78f7-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191111233704.png)
+// ```
 /*首先，深复制指的是完完全全复制一遍，所有内容都和原先的无关，复制后两者完全独立。
 使用HashMap<Integer,Node>存储new过的新结点，通过val映射。
 使用广度优先搜索，队列里存放还没有处理好(处理好指结点的neighbors已全部复制好)的原图中的结点的引用。
@@ -36,4 +36,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

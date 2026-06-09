@@ -1,4 +1,4 @@
-```go
+// ```go
 // Time: O(n), Space: O(1)
 func canJump(nums []int) bool {
     if nums == nil || len(nums) == 0 {
@@ -17,4 +17,4 @@ func canJump(nums []int) bool {
     return false // 循环结束后还没有提前返回就返回false
 }
 
-```
+// ```

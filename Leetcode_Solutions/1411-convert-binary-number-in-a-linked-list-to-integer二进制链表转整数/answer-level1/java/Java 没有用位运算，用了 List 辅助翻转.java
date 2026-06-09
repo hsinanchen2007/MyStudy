@@ -1,5 +1,5 @@
-最直观的想法，将链表中的元素放入 List 中，然后每一位乘上 2 的幂，即可
-```
+// 最直观的想法，将链表中的元素放入 List 中，然后每一位乘上 2 的幂，即可
+// ```
 class Solution {
     public int getDecimalValue(ListNode head) {
         int res = 0;
@@ -17,4 +17,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

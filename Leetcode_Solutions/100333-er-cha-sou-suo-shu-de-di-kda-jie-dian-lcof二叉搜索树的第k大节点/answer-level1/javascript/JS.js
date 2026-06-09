@@ -1,8 +1,8 @@
-### 解题思路
-逆中序遍历
-### 代码
+// ### 解题思路
+// 逆中序遍历
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -27,4 +27,4 @@ var kthLargest = function(root, k) {
     dp(root);
     return res[k-1];
 };
-```
+// ```

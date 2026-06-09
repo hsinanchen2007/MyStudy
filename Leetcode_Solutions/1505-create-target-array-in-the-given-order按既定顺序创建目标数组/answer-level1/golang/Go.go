@@ -1,4 +1,4 @@
-```go
+// ```go
 func createTargetArray(nums []int, index []int) []int {
     var target []int
 
@@ -12,4 +12,4 @@ func createTargetArray(nums []int, index []int) []int {
 
     return target
 }
-```
+// ```

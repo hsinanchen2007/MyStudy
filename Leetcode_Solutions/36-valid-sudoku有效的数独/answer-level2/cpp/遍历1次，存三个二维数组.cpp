@@ -1,13 +1,13 @@
-store three arrays:
-rows[row][num]
-cols[col][num]
-boxes[idx][num]
+// store three arrays:
+// rows[row][num]
+// cols[col][num]
+// boxes[idx][num]
 
-```
+// ```
 when meet a number in position (i,j), arrays will plus 1.
-```
-code 
-```
+// ```
+// code 
+// ```
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board)
@@ -37,4 +37,4 @@ public:
     }
         
 };
-```
+// ```

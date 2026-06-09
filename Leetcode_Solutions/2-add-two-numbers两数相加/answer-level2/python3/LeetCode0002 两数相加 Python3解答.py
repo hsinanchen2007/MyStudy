@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/19da37dcf1ada7a31ecde81830088f2628d98bd8c0ee5b9b6d55feba2f2c3a49-image.png)
-```python
+# ![image.png](https://pic.leetcode-cn.com/19da37dcf1ada7a31ecde81830088f2628d98bd8c0ee5b9b6d55feba2f2c3a49-image.png)
+# ```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         flag = 0
@@ -43,4 +43,4 @@ class Solution:
             r.next = ListNode(1)
         out = out.next
         return out
-```
+# ```

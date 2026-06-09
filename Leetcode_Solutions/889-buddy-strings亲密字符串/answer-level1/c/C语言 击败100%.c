@@ -1,10 +1,10 @@
-### 解题思路
-硬碰出来的...
-![image.png](https://pic.leetcode-cn.com/3b19fb8122cc9203bc799a752feff54b023dbd6b9d5c392c945c41e109c44c08-image.png)
+// ### 解题思路
+// 硬碰出来的...
+// ![image.png](https://pic.leetcode-cn.com/3b19fb8122cc9203bc799a752feff54b023dbd6b9d5c392c945c41e109c44c08-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool buddyStrings(char * A, char * B){
 	int ALen, BLen;
 	int l, r, i;
@@ -50,4 +50,4 @@ bool buddyStrings(char * A, char * B){
 	}
 	return true;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int count(int n)
 {
     int c = 0;
@@ -19,4 +19,4 @@ public:
     	return arr;
     }
 };
-```
+// ```

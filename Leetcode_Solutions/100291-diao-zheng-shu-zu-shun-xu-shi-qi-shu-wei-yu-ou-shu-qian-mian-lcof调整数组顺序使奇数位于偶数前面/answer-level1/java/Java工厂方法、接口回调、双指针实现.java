@@ -1,9 +1,9 @@
-如果不能把简单代码复杂化，那么Java将毫无意义。
-![image.png](https://pic.leetcode-cn.com/6f043f45fe97127f22a7a19454a95258e672cfe646098a4ed6f85db512a09b77-image.png)
+// 如果不能把简单代码复杂化，那么Java将毫无意义。
+// ![image.png](https://pic.leetcode-cn.com/6f043f45fe97127f22a7a19454a95258e672cfe646098a4ed6f85db512a09b77-image.png)
 
-# 代码
+// # 代码
 
-```java
+// ```java
 class Solution {
     /**
      * 题目地址：https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/
@@ -74,4 +74,4 @@ class Solution {
         System.out.println(Arrays.toString(new Solution().exchange(nums)));
     }
 }
-```
+// ```

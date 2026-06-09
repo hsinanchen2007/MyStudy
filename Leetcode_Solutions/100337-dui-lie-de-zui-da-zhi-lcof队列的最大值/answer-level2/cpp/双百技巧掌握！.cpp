@@ -1,13 +1,13 @@
-### 解题思路
-<!-- 在c++中之所以cin，cout效率低，是因为先把要输出的东西存入缓冲区，再输出，导致效率降低，
-而这段语句可以来打消iostream的输入和输出缓存，可节省时间，使效率与scanf与printf相差无几。 -->
-std::ios::sync_with_stdio(false);
-<!-- 来解除cin与cout的绑定 -->
-std::cin.tie(0);
+// ### 解题思路
+// <!-- 在c++中之所以cin，cout效率低，是因为先把要输出的东西存入缓冲区，再输出，导致效率降低，
+// 而这段语句可以来打消iostream的输入和输出缓存，可节省时间，使效率与scanf与printf相差无几。 -->
+// std::ios::sync_with_stdio(false);
+// <!-- 来解除cin与cout的绑定 -->
+// std::cin.tie(0);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 private:
     queue<int> q;
@@ -51,4 +51,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

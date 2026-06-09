@@ -1,9 +1,9 @@
-### 解题思路
-就是依次靠变量控制即可
+// ### 解题思路
+// 就是依次靠变量控制即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
 
     boolean isMethod1Executed = false;
@@ -45,4 +45,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

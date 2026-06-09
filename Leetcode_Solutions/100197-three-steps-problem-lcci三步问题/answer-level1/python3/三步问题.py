@@ -1,9 +1,9 @@
-### 解题思路
-动态方程：dp[i] = dp[i-1] + dp[i-2] + dp[i-3]
+# ### 解题思路
+# 动态方程：dp[i] = dp[i-1] + dp[i-2] + dp[i-3]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def waysToStep(self, n: int) -> int:
         if n < 3:
@@ -16,4 +16,4 @@ class Solution:
         return dp[n-1] 
 
 
-```
+# ```

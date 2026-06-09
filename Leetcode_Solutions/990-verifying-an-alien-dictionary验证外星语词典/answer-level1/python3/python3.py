@@ -1,8 +1,8 @@
-### 解题思路
-逐个比较就行，注意处理一下长度
-### 代码
+# ### 解题思路
+# 逐个比较就行，注意处理一下长度
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         def compare(word1,word2):
@@ -25,4 +25,4 @@ class Solution:
         
 
 
-```
+# ```

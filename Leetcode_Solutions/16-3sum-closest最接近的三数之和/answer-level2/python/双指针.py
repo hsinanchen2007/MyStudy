@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -39,4 +39,4 @@ class Solution:
             l += 1
 
         return res
-```
+# ```

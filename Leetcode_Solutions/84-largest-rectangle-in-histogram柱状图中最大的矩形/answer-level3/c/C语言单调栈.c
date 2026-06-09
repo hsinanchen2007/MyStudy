@@ -1,15 +1,15 @@
-### 解题思路
-维护递增单调栈，从小到大遍历数组，看到比当前值小的，即可得到右向最大长度；
-从大到小再遍历一次，可以得到左向最大长度；
-加起来，即为当前高度下长方形长度最大值；
-然后计算乘积最大值。
-![image.png](https://pic.leetcode-cn.com/87e2f160b0f0957157711029abfb8b1e49cd953a4cca8652a1de1f40211764a7-image.png)
+// ### 解题思路
+// 维护递增单调栈，从小到大遍历数组，看到比当前值小的，即可得到右向最大长度；
+// 从大到小再遍历一次，可以得到左向最大长度；
+// 加起来，即为当前高度下长方形长度最大值；
+// 然后计算乘积最大值。
+// ![image.png](https://pic.leetcode-cn.com/87e2f160b0f0957157711029abfb8b1e49cd953a4cca8652a1de1f40211764a7-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct
 {
     int index;
@@ -63,4 +63,4 @@ int largestRectangleArea(int* heights, int heightsSize){
     }
     return max;
 }
-```
+// ```

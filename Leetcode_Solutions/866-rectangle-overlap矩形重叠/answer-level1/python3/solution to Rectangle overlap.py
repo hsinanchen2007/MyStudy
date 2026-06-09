@@ -1,10 +1,10 @@
-### 解题思路
-here just consider the distance between the center point of the two Rectangle
-and compare they  with side lenth. if a<0 so return True it means that there is overlap ,otherwise return false. I think that by this way we can reduce the time to caculate but need more room to store the var 
+# ### 解题思路
+# here just consider the distance between the center point of the two Rectangle
+# and compare they  with side lenth. if a<0 so return True it means that there is overlap ,otherwise return false. I think that by this way we can reduce the time to caculate but need more room to store the var 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isRectangleOverlap(self, rect1, rect2):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         else:
          return False
 
-```
+# ```

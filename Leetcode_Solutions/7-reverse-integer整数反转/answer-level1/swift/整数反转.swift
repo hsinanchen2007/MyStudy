@@ -1,6 +1,6 @@
-官方解法:
+// 官方解法:
 
-```Swift
+// ```Swift
 func reverse(_ x: Int) -> Int {
     var rev: Int = 0
     var helpX = x
@@ -20,6 +20,6 @@ func reverse(_ x: Int) -> Int {
     
     return rev
 }
-```
+// ```
 
-    其中对应的 32位 Int 最大和最小值用 math 库中 Int32.max 和 Int32.min 表示.
+//     其中对应的 32位 Int 最大和最小值用 math 库中 Int32.max 和 Int32.min 表示.

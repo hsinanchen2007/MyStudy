@@ -1,9 +1,9 @@
-### 解题思路
-* 每次循环中，判断两者的值，最后用三元判断进行对max重新赋值
+// ### 解题思路
+// * 每次循环中，判断两者的值，最后用三元判断进行对max重新赋值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var findLengthOfLCIS = function(nums) {
     }
     return max
 };
-```
+// ```

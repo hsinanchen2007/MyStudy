@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-74.54%
-的用户
-内存消耗 :
-34.2 MB
-, 在所有 Java 提交中击败了
-22.20%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 74.54%
+// 的用户
+// 内存消耗 :
+// 34.2 MB
+// , 在所有 Java 提交中击败了
+// 22.20%
+// 的用户
+// ```
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         rowIndex++;
@@ -39,4 +39,4 @@ class Solution {
         return Arrays.asList(arr);
     }
 }
-```
+// ```

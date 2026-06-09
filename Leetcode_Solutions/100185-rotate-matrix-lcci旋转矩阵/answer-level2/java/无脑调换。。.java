@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class Solution {
      public void rotate(int[][] matrix) {
         //从下往上第1列变为新数组的第1行，以此类推。
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

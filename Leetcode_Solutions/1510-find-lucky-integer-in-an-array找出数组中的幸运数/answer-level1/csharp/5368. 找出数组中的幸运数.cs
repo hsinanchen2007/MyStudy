@@ -1,9 +1,9 @@
-提示：
+// 提示：
 
-1 <= arr.length <= 500
-1 <= arr[i] <= 500
+// 1 <= arr.length <= 500
+// 1 <= arr[i] <= 500
 
-```
+// ```
 代码块
 public class Solution {
     public int FindLucky(int[] arr) {
@@ -16,5 +16,5 @@ public class Solution {
     }
 }
 
-```
+// ```
 

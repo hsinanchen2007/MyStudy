@@ -1,10 +1,10 @@
-### 解题思路
-1. 单指针法
-2. 快慢指针法
+# ### 解题思路
+# 1. 单指针法
+# 2. 快慢指针法
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,8 +43,8 @@ class Solution {
         return n;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def middleNode(self, head: ListNode) -> ListNode:
         # 双指针法
@@ -54,8 +54,8 @@ class Solution:
             pSlow = pSlow.next
 
         return pSlow
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -71,4 +71,4 @@ public:
         return pSlow;
     }
 };
-```
+# ```

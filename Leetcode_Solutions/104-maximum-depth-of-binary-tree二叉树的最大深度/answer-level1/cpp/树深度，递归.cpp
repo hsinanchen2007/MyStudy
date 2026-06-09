@@ -1,9 +1,9 @@
-### 解题思路
-递归，树的深度 = 树的高度； 树的高度 = max(左子树高度， 右子树高度)+1
+// ### 解题思路
+// 递归，树的深度 = 树的高度； 树的高度 = max(左子树高度， 右子树高度)+1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
         return (ld>rd ? ld+1 : rd+1);
     }
 };
-```
+// ```

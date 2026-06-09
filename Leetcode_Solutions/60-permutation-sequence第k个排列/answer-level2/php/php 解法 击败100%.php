@@ -1,6 +1,6 @@
-![微信截图_20190829200040.png](https://pic.leetcode-cn.com/9607ea00b9f981681153bbbd5aa259b257032ded19ac882ccc8f3521dc55b647-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190829200040.png)
+// ![微信截图_20190829200040.png](https://pic.leetcode-cn.com/9607ea00b9f981681153bbbd5aa259b257032ded19ac882ccc8f3521dc55b647-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190829200040.png)
 
-```
+// ```
 class Solution {
 
     /**
@@ -38,4 +38,4 @@ class Solution {
         return $n*$this->factorial($n-1);
     }
 }
-```
+// ```

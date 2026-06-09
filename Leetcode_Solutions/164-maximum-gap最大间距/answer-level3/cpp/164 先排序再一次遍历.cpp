@@ -1,10 +1,10 @@
-### 解题思路
-使用自带的sort函数（时间复杂度O(nlogn)）进行排序后，再进行一次遍历获得最大间距。
-时间复杂度为O(nlogn)
+// ### 解题思路
+// 使用自带的sort函数（时间复杂度O(nlogn)）进行排序后，再进行一次遍历获得最大间距。
+// 时间复杂度为O(nlogn)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <vector>
 #include <algorithm>
 
@@ -26,4 +26,4 @@ public:
         return ans;
     }  
 };
-```
+// ```

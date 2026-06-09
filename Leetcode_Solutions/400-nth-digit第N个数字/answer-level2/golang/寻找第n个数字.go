@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNthDigit(n int) int {
 	x:=1//假设 第n个数字所对应的数是个x位数
 	//已知1位数 有9个，2位数有90个，三位数有900个
@@ -29,4 +29,4 @@ func findNthDigit(n int) int {
 		return num%10
 	}
 }
-```
+// ```

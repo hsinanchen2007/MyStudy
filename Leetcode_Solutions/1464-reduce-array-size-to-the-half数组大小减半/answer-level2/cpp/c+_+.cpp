@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :236 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :41.5 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :236 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :41.5 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct cmp{
     bool operator() (const pair<int, int>& p1, const pair<int, int>& p2){
         return p1.second > p2.second;
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

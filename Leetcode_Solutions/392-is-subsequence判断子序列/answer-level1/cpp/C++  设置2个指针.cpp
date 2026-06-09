@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -12,6 +12,6 @@ public:
     }
 };
 
-```
+// ```
 
-**后续的问题好像没什么思路😂**
+// **后续的问题好像没什么思路😂**

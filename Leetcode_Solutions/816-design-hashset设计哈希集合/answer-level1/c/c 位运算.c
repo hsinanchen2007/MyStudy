@@ -1,4 +1,4 @@
-```
+// ```
 
 typedef struct MyHashSet{
 
@@ -94,4 +94,4 @@ void myHashSetFree( MyHashSet * obj ) {
  
  * myHashSetFree(obj);
 */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用了假quicksort
+// ### 解题思路
+// 用了假quicksort
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
 		if(i > 1) quicksort(a,i); 
 		if(n-i-1 > 1) quicksort(a+i+1,n-i-1);
 } 
-```
+// ```

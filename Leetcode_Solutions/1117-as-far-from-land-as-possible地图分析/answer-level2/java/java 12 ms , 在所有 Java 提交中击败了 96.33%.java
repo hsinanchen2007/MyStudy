@@ -1,9 +1,9 @@
-### 解题思路
-以岛为中心，遍历向外扩展。
+// ### 解题思路
+// 以岛为中心，遍历向外扩展。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDistance(int[][] grid) {
         int row = grid.length;
@@ -50,4 +50,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

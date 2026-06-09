@@ -1,4 +1,4 @@
-```
+// ```
 //总体思路：下一个丑数即已经确定的丑数与质因数乘积的最小值
 #define MIN(x,y) (x < y ? x : y)
 int nthSuperUglyNumber(int n, int* primes, int primesSize) {
@@ -32,4 +32,4 @@ int nthSuperUglyNumber(int n, int* primes, int primesSize) {
 	}
 	return stack[count - 1];
 }
-```
+// ```

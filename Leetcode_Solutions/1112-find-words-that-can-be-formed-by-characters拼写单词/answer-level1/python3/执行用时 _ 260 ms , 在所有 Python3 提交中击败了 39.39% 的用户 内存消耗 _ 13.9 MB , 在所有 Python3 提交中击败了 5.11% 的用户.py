@@ -1,9 +1,9 @@
-### 解题思路
-运用哈希表分别存储chrs和word中字母出现的次数
+# ### 解题思路
+# 运用哈希表分别存储chrs和word中字母出现的次数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         ans = 0
@@ -15,4 +15,4 @@ class Solution:
         return ans
 
 
-```
+# ```

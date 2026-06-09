@@ -1,6 +1,6 @@
-空格自己去掉的, 其实应该用trim的
-用`i32::overflowing_add()`可能会少一点match
-```rust
+// 空格自己去掉的, 其实应该用trim的
+// 用`i32::overflowing_add()`可能会少一点match
+// ```rust
 impl Solution {
     pub fn my_atoi(a: String) -> i32 {
         let mut num:i32 = 0;
@@ -52,4 +52,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

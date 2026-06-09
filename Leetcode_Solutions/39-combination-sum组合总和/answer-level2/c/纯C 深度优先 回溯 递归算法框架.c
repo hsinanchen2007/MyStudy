@@ -1,10 +1,10 @@
-### 解题思路
-纯C 深度优先 递归算法框架
-整天碰到回溯题，没有C语言版本的，自己总结一个
+// ### 解题思路
+// 纯C 深度优先 递归算法框架
+// 整天碰到回溯题，没有C语言版本的，自己总结一个
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -67,4 +67,4 @@ int** combinationSum(PARAM_IN int* candidates, PARAM_IN int candidatesSize, PARA
     
     return ppRes;
 }
-```
+// ```

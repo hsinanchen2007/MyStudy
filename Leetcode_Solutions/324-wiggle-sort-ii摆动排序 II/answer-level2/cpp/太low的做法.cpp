@@ -1,8 +1,8 @@
-太low的做法
+// 太low的做法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void wiggleSort(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         nums = nums2;
     }
 };
-```
+// ```

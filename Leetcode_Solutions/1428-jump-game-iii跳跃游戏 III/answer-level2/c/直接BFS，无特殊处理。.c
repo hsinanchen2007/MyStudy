@@ -1,4 +1,4 @@
-```
+// ```
 int que[50000] = {0};
 int cnt, head, tail;
 void enQue(int a)
@@ -48,4 +48,4 @@ bool canReach(int* arr, int arrSize, int start){
     }
     return false;
 }
-```
+// ```

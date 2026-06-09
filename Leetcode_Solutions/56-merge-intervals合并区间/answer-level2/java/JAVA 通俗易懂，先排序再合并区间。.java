@@ -1,4 +1,4 @@
-```
+// ```
 public class Soluation{
 	private List<SortArray> sortArrays;
 	private int[][]         intervals;
@@ -74,4 +74,4 @@ class SortArray implements Comparable<SortArray>{
 	public boolean canMerge(SortArray array){
 		return this.end >= array.start;
 	}	
-```
+// ```

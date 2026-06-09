@@ -1,9 +1,9 @@
-### 解题思路
-在大神的指点下，只需小计算北边和西边的边长就可以，但是看成绩，感觉还有更好的方法
+# ### 解题思路
+# 在大神的指点下，只需小计算北边和西边的边长就可以，但是看成绩，感觉还有更好的方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         length=len(grid)
@@ -17,4 +17,4 @@ class Solution:
                 if grid[i][j]==1 and  (grid[i][j-1]!=1 if j>0 else True):
                     x=x+1
         return 2*(b+x)
-```
+# ```

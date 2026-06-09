@@ -1,14 +1,14 @@
-### 解题思路
-参考Dijkstra's算法的实现，优化算法结构:
-1. 使用graph[K]替代了Dist数组
-2. 将松弛和寻找最近节点合并在一个循环中
+// ### 解题思路
+// 参考Dijkstra's算法的实现，优化算法结构:
+// 1. 使用graph[K]替代了Dist数组
+// 2. 将松弛和寻找最近节点合并在一个循环中
 
-![微信截图_20200226205537.png](https://pic.leetcode-cn.com/48d225d51e03d5e31429a251bfc53c193085e3a0ae0752a8d1d78a561addf41d-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200226205537.png)
+// ![微信截图_20200226205537.png](https://pic.leetcode-cn.com/48d225d51e03d5e31429a251bfc53c193085e3a0ae0752a8d1d78a561addf41d-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200226205537.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private final int INF=0X3F3F3F3F;
     public int networkDelayTime(int[][] times, int N, int K) {
@@ -45,4 +45,4 @@ class Solution {
 
 
 
-```
+// ```

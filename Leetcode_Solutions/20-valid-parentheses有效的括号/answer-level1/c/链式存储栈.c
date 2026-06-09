@@ -1,7 +1,7 @@
-- 最后要判断栈是否为空
-- 出栈的时候需要指针是否为空
-- switch case 需要break
-```
+// - 最后要判断栈是否为空
+// - 出栈的时候需要指针是否为空
+// - switch case 需要break
+// ```
 typedef struct Stack{
     char data;
     struct Stack* next;
@@ -69,4 +69,4 @@ bool isValid(char * s){
     }
     return true;
 }
-```
+// ```

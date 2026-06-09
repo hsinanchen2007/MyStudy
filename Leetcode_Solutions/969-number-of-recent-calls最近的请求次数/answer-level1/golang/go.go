@@ -1,4 +1,4 @@
-```
+// ```
 type RecentCounter struct {
     queue []int
 }
@@ -32,4 +32,4 @@ func (this *RecentCounter) Ping(t int) int {
  * obj := Constructor();
  * param_1 := obj.Ping(t);
  */
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b1a55af5b758d6b5a68d2809042e2000dcacf5dc782cb67bbd4ccc80354d1fa9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b1a55af5b758d6b5a68d2809042e2000dcacf5dc782cb67bbd4ccc80354d1fa9-image.png)
 
-```
+// ```
     int[][] dir = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
     boolean[][] flag;
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
@@ -24,4 +24,4 @@
             dfs(image, sr + i[0], sc + i[1], oldColor, newColor);
         }
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution{
 	Node connect(Node root) {
 	    if(root!=null){
@@ -33,4 +33,4 @@ class Solution{
 	    return root;
 	}
 }
-```
+// ```

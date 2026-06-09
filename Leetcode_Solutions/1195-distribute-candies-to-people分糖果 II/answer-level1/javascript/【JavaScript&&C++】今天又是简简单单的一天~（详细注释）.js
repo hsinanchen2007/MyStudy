@@ -1,7 +1,7 @@
-**没有那么多花里胡哨的技巧，今天又是简单单的一天~**
+// **没有那么多花里胡哨的技巧，今天又是简单单的一天~**
 
 
-```javascript []
+// ```javascript []
 var distributeCandies = function(candies, num_people) {
     //保存答案的数组
     let res = [];
@@ -33,8 +33,8 @@ var distributeCandies = function(candies, num_people) {
     //返回最终答案
     return res;
 };
-```
-```C++ []
+// ```
+// ```C++ []
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -63,4 +63,4 @@ public:
             return res;
     }
 };
-```
+// ```

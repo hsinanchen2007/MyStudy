@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-数组是有序的，并且二叉搜索树是平衡的，想到二分
+// 数组是有序的，并且二叉搜索树是平衡的，想到二分
 
-- mid为root
-- [left: mid-1]为左子树
-- [mid+1: right]为右子树
+// - mid为root
+// - [left: mid-1]为左子树
+// - [mid+1: right]为右子树
 
-### 代码
+// ### 代码
 
-cpp
+// cpp
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode *sortedArrayToBST(vector<int> &nums) {
@@ -26,11 +26,11 @@ public:
         return root;
     }
 };
-```
+// ```
 
-go
+// go
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -53,4 +53,4 @@ func dfs(nums []int) *TreeNode {
 	root.Right = dfs(nums[mid+1:])
 	return root
 }
-```
+// ```

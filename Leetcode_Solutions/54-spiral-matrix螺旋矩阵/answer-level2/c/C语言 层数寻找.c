@@ -1,5 +1,5 @@
-额，对于[ ]输入试了好几次才成功，matrix是**，我还想着要是空我得返回一个*啊，绞尽脑汁，其实是空的时候matrix就是[],直接返回即可。至于解题方法，最开始我想用取模，但是感觉好麻烦，就没细想，直接分层取就ok。
-```
+// 额，对于[ ]输入试了好几次才成功，matrix是**，我还想着要是空我得返回一个*啊，绞尽脑汁，其实是空的时候matrix就是[],直接返回即可。至于解题方法，最开始我想用取模，但是感觉好麻烦，就没细想，直接分层取就ok。
+// ```
 int min(int a,int b) {
 	if(a>=b) return b;
 	else return a;
@@ -38,4 +38,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
 	return ret;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-BFS常规思路
+# ### 解题思路
+# BFS常规思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
@@ -21,4 +21,4 @@ class Solution:
                     visited.add(key)
         return len(visited) == len(rooms)
 
-```
+# ```

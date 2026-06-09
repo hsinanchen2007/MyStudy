@@ -1,5 +1,5 @@
-# 搞清楚条件即可，存在A > 1 or 三个联系的L即为false。掉到理解题的坑里了，认为LLALL也是false。
-```
+// # 搞清楚条件即可，存在A > 1 or 三个联系的L即为false。掉到理解题的坑里了，认为LLALL也是false。
+// ```
 /*bool checkRecord(char * s){
     int absent = 0;
     int late = 0;
@@ -36,4 +36,4 @@ bool checkRecord(char * s){
     return true;
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```python3
+# ```python3
 class Solution:
     def dayOfYear(self, date: str) -> int:
         year, month, day = map(int, date.split('-'))
@@ -8,4 +8,4 @@ class Solution:
         if year%4==0 and year%100!=0 or year%400==0:
             days[1] = 29
         return sum(days[:month-1], day)
-```
+# ```

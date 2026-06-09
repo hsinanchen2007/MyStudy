@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class ListNode(object):
     def __init__(self, x):
         self.val = x
@@ -26,4 +26,4 @@ class Solution(object):
         else: 
             cur.next = l2
         return root.next
-```
+# ```

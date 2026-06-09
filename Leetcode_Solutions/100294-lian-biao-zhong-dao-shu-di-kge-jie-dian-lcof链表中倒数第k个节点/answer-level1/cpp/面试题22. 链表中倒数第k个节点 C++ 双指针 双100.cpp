@@ -1,8 +1,8 @@
-### 解题思路
-由于本题从1开始计数，即链表的尾节点是倒数第1个节点。因此，快指针`rp`只需先走`k-1`步。较常规双指针少走一步。
-### 代码
+// ### 解题思路
+// 由于本题从1开始计数，即链表的尾节点是倒数第1个节点。因此，快指针`rp`只需先走`k-1`步。较常规双指针少走一步。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,10 +27,10 @@ public:
         
     }
 };
-```
+// ```
 
-常规的，`rp`先走`k`，最终`rp`指向`NULL`
-```cpp
+// 常规的，`rp`先走`k`，最终`rp`指向`NULL`
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,6 +55,6 @@ public:
         
     }
 };
-```
+// ```
 
-![qcode.png](https://pic.leetcode-cn.com/ed39a6a544a01e32305e1316da9921f2288a0822501da45abee0a76ea24dd4dd-qcode.png)
+// ![qcode.png](https://pic.leetcode-cn.com/ed39a6a544a01e32305e1316da9921f2288a0822501da45abee0a76ea24dd4dd-qcode.png)

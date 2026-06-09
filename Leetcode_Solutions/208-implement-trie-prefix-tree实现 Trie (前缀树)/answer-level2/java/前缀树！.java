@@ -1,7 +1,7 @@
-### 解题思路
-前缀树的节点的定义，可以想象成n叉链表
-isEnd是用来标记，该字母是否为一个单词的结尾。
-```
+// ### 解题思路
+// 前缀树的节点的定义，可以想象成n叉链表
+// isEnd是用来标记，该字母是否为一个单词的结尾。
+// ```
 class TrieNode{
         char val;
         TrieNode[] children;
@@ -17,12 +17,12 @@ class TrieNode{
             }
         }
     }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
     
     private TrieNode root;
@@ -113,4 +113,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

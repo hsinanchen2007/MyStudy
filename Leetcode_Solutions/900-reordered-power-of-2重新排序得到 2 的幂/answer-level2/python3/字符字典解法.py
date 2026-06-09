@@ -1,8 +1,8 @@
-### 解题思路
-把N当字符字典对待，构造与N同长度的范围内所有2的幂的字符字典，判断字典是否相等即可
-### 代码
+# ### 解题思路
+# 把N当字符字典对待，构造与N同长度的范围内所有2的幂的字符字典，判断字典是否相等即可
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
 	def reorderedPowerOf2(self, N):
 		if N == 1:
@@ -27,4 +27,4 @@ class Solution(object):
 			x = x*2
 
 		return False
-```
+# ```

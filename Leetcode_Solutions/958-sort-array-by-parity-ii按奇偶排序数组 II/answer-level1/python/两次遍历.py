@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         
@@ -22,5 +22,5 @@ class Solution:
 
         return ans  
 
-```
-2次遍历，先放偶数，再放奇数
+# ```
+# 2次遍历，先放偶数，再放奇数

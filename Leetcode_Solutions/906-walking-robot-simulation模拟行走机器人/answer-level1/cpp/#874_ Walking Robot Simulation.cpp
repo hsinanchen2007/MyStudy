@@ -1,8 +1,8 @@
-# $O(N^2)$
+// # $O(N^2)$
 
-## Brute-force
+// ## Brute-force
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char findDirection (char curr_dir, int command) {
@@ -107,20 +107,20 @@ public:
         return max_dist;
     }
 };
-```
-### Complexity
-- Time: $(N^2)$
-- Space: $O(1)$
+// ```
+// ### Complexity
+// - Time: $(N^2)$
+// - Space: $O(1)$
 
-// 这大概就是，有多少“人工”， 就有多少“智能”...
+// // 这大概就是，有多少“人工”， 就有多少“智能”...
 
-# $O(N+K)$
-此题关键的两步为即时改变direction和检索是否遇到obstacle。
-direction的改变可以使用题解的巧用坐标模拟法，亦可以使用我的暴力枚举法。时间复杂度每一次都是O（1）， 只是我的代码长些，他的代码短小精妙些。
-但对于obstacle的检索，我使用的嵌套for循环检索就会达到O（NK），而使用set只需O（N），值得注意。
-(Mind: 使用unordered_set无法使用pair<int, int>， 但set可以)
+// # $O(N+K)$
+// 此题关键的两步为即时改变direction和检索是否遇到obstacle。
+// direction的改变可以使用题解的巧用坐标模拟法，亦可以使用我的暴力枚举法。时间复杂度每一次都是O（1）， 只是我的代码长些，他的代码短小精妙些。
+// 但对于obstacle的检索，我使用的嵌套for循环检索就会达到O（NK），而使用set只需O（N），值得注意。
+// (Mind: 使用unordered_set无法使用pair<int, int>， 但set可以)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
@@ -158,8 +158,8 @@ public:
     }
 };
 
-```
+// ```
 
-### Complexity
-- Time: $O(N+K)$
-- Space: $O(K)$ 
+// ### Complexity
+// - Time: $O(N+K)$
+// - Space: $O(K)$ 

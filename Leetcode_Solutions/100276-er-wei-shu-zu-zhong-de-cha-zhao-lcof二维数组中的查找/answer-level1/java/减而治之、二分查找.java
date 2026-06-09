@@ -1,14 +1,14 @@
-相同问题：[240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)。
+// 相同问题：[240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)。
 
-### 方法一：减而治之
+// ### 方法一：减而治之
 
-![4-1.jpg](https://pic.leetcode-cn.com/39135ce30976f053a8f3b4db7b3756b1f77fd8be91341bbdd1ffc7d2403d137f-4-1.jpg)
+// ![4-1.jpg](https://pic.leetcode-cn.com/39135ce30976f053a8f3b4db7b3756b1f77fd8be91341bbdd1ffc7d2403d137f-4-1.jpg)
 
-**参考代码 1**：
+// **参考代码 1**：
 
-说明：Java 代码展示了从左下角开始查找，Python 代码展示了从右上角开始查找。
+// 说明：Java 代码展示了从左下角开始查找，Python 代码展示了从右上角开始查找。
 
-```Java []
+// ```Java []
 public class Solution {
 
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
@@ -41,8 +41,8 @@ public class Solution {
         return false;
     }
 }
-```
-```Python []
+// ```
+// ```Python []
 from typing import List
 
 
@@ -68,22 +68,22 @@ class Solution:
             else:
                 x += 1
         return False
-```
+// ```
 
 
-### 方法二：二分查找（不推荐）
+// ### 方法二：二分查找（不推荐）
 
-一个一个比较慢，可以利用二维矩阵的有序性，使用二分查找的办法。以从右上角开始查找为例，二分法查找的思路是：
+// 一个一个比较慢，可以利用二维矩阵的有序性，使用二分查找的办法。以从右上角开始查找为例，二分法查找的思路是：
 
-1、从右到左，找第 1 个小于或者等于 `target` 的数；
-2、从上到下，找第 1 个大于或者等于 `target` 的数。
+// 1、从右到左，找第 1 个小于或者等于 `target` 的数；
+// 2、从上到下，找第 1 个大于或者等于 `target` 的数。
 
-这样写出来的代码相对是晦涩难懂，不易维护的，只是作为练习，在工程中不建议这样写。
+// 这样写出来的代码相对是晦涩难懂，不易维护的，只是作为练习，在工程中不建议这样写。
 
 
-**参考代码 2**：
+// **参考代码 2**：
 
-```Python []
+// ```Python []
 from typing import List
 
 
@@ -137,4 +137,4 @@ class Solution:
                 return True
 
         return False
-```
+// ```

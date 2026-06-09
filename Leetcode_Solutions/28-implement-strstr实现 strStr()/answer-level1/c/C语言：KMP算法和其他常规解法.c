@@ -1,6 +1,6 @@
-方法1：4ms
+// 方法1：4ms
 
-```
+// ```
 int strStr(char * haystack, char * needle){
     int len1 = 0, len2 = 0;
     char *p = haystack;
@@ -14,10 +14,10 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```
 
-4ms ~ 8ms
-```
+// 4ms ~ 8ms
+// ```
 int strStr(char * haystack, char * needle){
     int len2 = strlen(needle);
     if (!len2)
@@ -37,11 +37,11 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```
 
 
-方法2：4ms ~ 8ms
-```
+// 方法2：4ms ~ 8ms
+// ```
 int strStr(char * haystack, char * needle){
     int len1 = strlen(haystack);
 	int len2 = strlen(needle);
@@ -56,10 +56,10 @@ int strStr(char * haystack, char * needle){
 	return j == len2 ? i - j : -1;
 }
 
-```
+// ```
 
-方法3：我的这个方法竟然执行0ms,超过100%
-```
+// 方法3：我的这个方法竟然执行0ms,超过100%
+// ```
 int strStr(char * haystack, char * needle){
     int len2 = strlen(needle);
     if (!len2)
@@ -80,10 +80,10 @@ int strStr(char * haystack, char * needle){
     return -1;
 }
 
-```
+// ```
 
-方法4：大佬的KMP算法,4ms ~ 8ms
-```
+// 方法4：大佬的KMP算法,4ms ~ 8ms
+// ```
 int *getNext(char *str){
     int len = strlen(str);
     int *next = (int*)malloc(sizeof(int) * len);
@@ -119,7 +119,7 @@ int strStr(char * haystack, char * needle){
     return (j == len2) ? i - j : -1;
 }
 
-```
+// ```
 
 
 

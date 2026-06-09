@@ -1,9 +1,9 @@
-### 解题思路
-清晰
+// ### 解题思路
+// 清晰
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} n
@@ -19,4 +19,4 @@ var reverseLeftWords = function(s, n) {
     //数组转字符串
     return newStrArr.join("")
 };
-```
+// ```

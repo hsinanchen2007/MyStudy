@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/24b392b9ca6259ce9cb66a51f17fc4c71bfc1fbb24b9630488c8898cd5fd462f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/24b392b9ca6259ce9cb66a51f17fc4c71bfc1fbb24b9630488c8898cd5fd462f-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 从根节点开始，BFS，层层遍历，一旦遇到没有左右子节点都为 null 的时候
 计算该路径的二进制的值
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -49,4 +49,4 @@ var sumRootToLeaf = function(root) {
   
   return sum % DIVISOR;
 };
-```
+// ```

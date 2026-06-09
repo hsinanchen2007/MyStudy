@@ -1,4 +1,4 @@
-```python
+# ```python
 def canPlaceFlowers(flowerbed, n):
     N = len(flowerbed)
     for i in range(N):
@@ -25,4 +25,4 @@ def canPlaceFlowers(flowerbed, n):
 
 print(canPlaceFlowers([1,0,0,0,1], 1))
 print(canPlaceFlowers([1,0,0,0,1], 2))
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-1、计算s[i]与t[i]的差值绝对值，构造一个新的int数组
-2、滑窗来判断满足条件的最大连续子串长度
+// ### 解题思路
+// 此处撰写解题思路
+// 1、计算s[i]与t[i]的差值绝对值，构造一个新的int数组
+// 2、滑窗来判断满足条件的最大连续子串长度
 
-![image.png](https://pic.leetcode-cn.com/944149b8ab59881127695fce5c8e9519628cd433a2ca1c489c6ae4ac9e1376d9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/944149b8ab59881127695fce5c8e9519628cd433a2ca1c489c6ae4ac9e1376d9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int *g_nums = NULL;
 static bool InitNums(int n)
 {
@@ -72,4 +72,4 @@ int equalSubstring(char *s, char *t, int maxCost)
     FreeNums();
     return res;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 备份head->next
-2. 修改head->next
-3. 移动head和newhead
-### 代码
+// ### 解题思路
+// 1. 备份head->next
+// 2. 修改head->next
+// 3. 移动head和newhead
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return newhead;
     }
 };
-```
+// ```

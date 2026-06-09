@@ -1,9 +1,9 @@
-### 解题思路
-首先计算出完整的分发了多少轮，然后进行第一轮赋值，然后算出剩下的糖果数量，分发一轮
+// ### 解题思路
+// 首先计算出完整的分发了多少轮，然后进行第一轮赋值，然后算出剩下的糖果数量，分发一轮
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] people = new int[num_people];
@@ -43,4 +43,4 @@ class Solution {
         return people;
     }
 }
-```
+// ```

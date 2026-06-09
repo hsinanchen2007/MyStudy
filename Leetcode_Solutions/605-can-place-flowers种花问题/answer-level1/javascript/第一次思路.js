@@ -1,12 +1,12 @@
-### 解题思路
-首先判断n是否大于理论最大值，大于直接返回false，
-本题本质是寻找数组中两个1之间连续的0，连续的0中能放置花的数量为 Math.floor((seriesZero - 1)/2)
-特殊情况为 开头和结尾为0的情况
-可以通过数组开始补0和结尾补0的方式，将这种特殊情况变成通常的情况。
+// ### 解题思路
+// 首先判断n是否大于理论最大值，大于直接返回false，
+// 本题本质是寻找数组中两个1之间连续的0，连续的0中能放置花的数量为 Math.floor((seriesZero - 1)/2)
+// 特殊情况为 开头和结尾为0的情况
+// 可以通过数组开始补0和结尾补0的方式，将这种特殊情况变成通常的情况。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} flowerbed
  * @param {number} n
@@ -39,4 +39,4 @@ var canPlaceFlowers = function(flowerbed, n) {
     return actualCount >= n;
 
 };
-```
+// ```

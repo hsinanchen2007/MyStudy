@@ -1,6 +1,6 @@
-时间复杂度O(n)
-空间复杂度O(n)
-`
+# 时间复杂度O(n)
+# 空间复杂度O(n)
+# `
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -25,4 +25,4 @@ class Solution:
         
         a[-n-1].next = a[-n+1]
         return a[0]
-`
+# `

@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 int hammingDistance(int x, int y){
     int res = x ^ y;
     res = (res & 0x55555555) + ((res >> 1) & 0x55555555);
@@ -9,4 +9,4 @@ int hammingDistance(int x, int y){
     res = (res & 0x0000ffff) + ((res >> 16) & 0x0000ffff);
     return res;
 }
-```
+// ```

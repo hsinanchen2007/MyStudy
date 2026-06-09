@@ -1,7 +1,7 @@
-思路：首先这道题可以通过构造字典树得到题解，由所给的dict构造trie字典树，然后
-通过istringstream库函数将整句话分割成一个个字符串word，
-将字符串与字典树进行匹配，如果完全符合其前缀，则得到其dict的词根，否则则是word字符串。
-```
+// 思路：首先这道题可以通过构造字典树得到题解，由所给的dict构造trie字典树，然后
+// 通过istringstream库函数将整句话分割成一个个字符串word，
+// 将字符串与字典树进行匹配，如果完全符合其前缀，则得到其dict的词根，否则则是word字符串。
+// ```
 class Solution {
     struct Trie{//Trie 树构造
         bool isEnd;
@@ -67,4 +67,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![2020021501.PNG](https://pic.leetcode-cn.com/2e701d5473630b07c2fa2c6bfaa69cf26a52a59723fc71b34913d9e42d23c0b8-2020021501.PNG)
+// ![2020021501.PNG](https://pic.leetcode-cn.com/2e701d5473630b07c2fa2c6bfaa69cf26a52a59723fc71b34913d9e42d23c0b8-2020021501.PNG)
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         //使用subString(begin , end)内置方法
@@ -27,4 +27,4 @@ class Solution {
         // return st.toString();
     }
 }
-```
+// ```

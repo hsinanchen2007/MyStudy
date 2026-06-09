@@ -1,9 +1,9 @@
-### 解题思路
-一个list存偶数，一个list存奇数，然后遍历修改原数组，效率比较低。
+// ### 解题思路
+// 一个list存偶数，一个list存奇数，然后遍历修改原数组，效率比较低。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         List<Integer> jishu = new ArrayList<>();
@@ -28,4 +28,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

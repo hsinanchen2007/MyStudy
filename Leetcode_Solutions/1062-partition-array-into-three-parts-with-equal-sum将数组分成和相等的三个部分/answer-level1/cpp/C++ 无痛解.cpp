@@ -1,11 +1,11 @@
-### 解题思路
-求和，计算1/3是多少。
-然后遍历，同时计算局部和，一旦遇到和是上述的1/3，就停下来，把局部和归零。
-这样如果统计到最后刚好3次的话,就返回true。
+// ### 解题思路
+// 求和，计算1/3是多少。
+// 然后遍历，同时计算局部和，一旦遇到和是上述的1/3，就停下来，把局部和归零。
+// 这样如果统计到最后刚好3次的话,就返回true。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -28,11 +28,11 @@ public:
 
     }
 };
-```
+// ```
 
 
-# 双指针做法
-```
+// # 双指针做法
+// ```
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -70,4 +70,4 @@ public:
 
     }
 };
-```
+// ```

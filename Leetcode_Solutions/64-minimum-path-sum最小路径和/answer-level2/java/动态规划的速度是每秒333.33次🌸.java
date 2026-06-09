@@ -1,10 +1,10 @@
-### 解题思路
-1.使用dp数组来记录到此格子的最小路径和；
-2.公式: dp[i][j] =  min(dp[i-1][j], dp[i][j-1]) + grid[i][j]
+// ### 解题思路
+// 1.使用dp数组来记录到此格子的最小路径和；
+// 2.公式: dp[i][j] =  min(dp[i-1][j], dp[i][j-1]) + grid[i][j]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -24,4 +24,4 @@ class Solution {
         return dp[m-1][n-1];
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 package test;
 
 /*
@@ -71,10 +71,10 @@ public class SwardOffer59_I_MaxSlidingWindow {
         return max;
     }
 }
-```
+// ```
 
-其中SwardOffer59_II_MaxQueue的定义如下，其是59-MaxQueue的解答。
-```java
+// 其中SwardOffer59_II_MaxQueue的定义如下，其是59-MaxQueue的解答。
+// ```java
 package test;
 
 import java.util.Deque;
@@ -164,6 +164,6 @@ public class SwardOffer59_II_MaxQueue {
         System.out.println("  current max queue:" + maxQ + "  max:" + max_value());
     }
 }
-```
+// ```
 
-59-最大队列可以同原站的155. Min Stack一起看，有些相似的解题思路，典型的空间换时间。
+// 59-最大队列可以同原站的155. Min Stack一起看，有些相似的解题思路，典型的空间换时间。

@@ -1,9 +1,9 @@
-### 解题思路
-使用了dfs的思想设置标志位，通过递归来实现子集的选择和加入结果数组
+// ### 解题思路
+// 使用了dfs的思想设置标志位，通过递归来实现子集的选择和加入结果数组
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) { //定义初始数组nums
@@ -27,4 +27,4 @@ private:
         }
     }
 };
-```
+// ```

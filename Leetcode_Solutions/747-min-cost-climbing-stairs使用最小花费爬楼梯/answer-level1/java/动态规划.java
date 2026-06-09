@@ -1,18 +1,18 @@
-1. 关于复杂度
-  1.1 时间复杂度为 O(n)
-  1.2 空间负责度为 O(1)
-2. 我的解题思路
-  2.1 根据题意，当传入数组长度小于2直接比较返回
-  2.2 当攀爬时，存在两种情况，判断最小的情况
-       2.2.1 爬1步，当前结果会是 result[index-1]+cost[index]
-       2.2.2 爬2步，当前结果会是 result[index-2]+cost[index]
-  2.3 判断最后两步发生的情况，返回较小的结果
-3. 提交记录
-  3.1 力扣中耗时2ms,消耗37.5MB内存
-  3.2 leetcode中耗时1ms,消耗36.8MB内存
-4. Q&A
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(n)
+//   1.2 空间负责度为 O(1)
+// 2. 我的解题思路
+//   2.1 根据题意，当传入数组长度小于2直接比较返回
+//   2.2 当攀爬时，存在两种情况，判断最小的情况
+//        2.2.1 爬1步，当前结果会是 result[index-1]+cost[index]
+//        2.2.2 爬2步，当前结果会是 result[index-2]+cost[index]
+//   2.3 判断最后两步发生的情况，返回较小的结果
+// 3. 提交记录
+//   3.1 力扣中耗时2ms,消耗37.5MB内存
+//   3.2 leetcode中耗时1ms,消耗36.8MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     746.Min Cost Climbing Stairs
@@ -60,6 +60,6 @@ public class Solution746 {
         return Math.min(sum[length-1],sum[length-2]);
     }
 }
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

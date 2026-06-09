@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/203bc97552d7d6446a68724a20ca01bfa179c4a61c39bdc1e8bd4369185c0085-image.png)
+// ![image.png](https://pic.leetcode-cn.com/203bc97552d7d6446a68724a20ca01bfa179c4a61c39bdc1e8bd4369185c0085-image.png)
 
-```
+// ```
 /**
  * @param {string} S
  * @param {string[]} words
@@ -46,5 +46,5 @@ var expressiveWords = function(S, words) {
     }
     return count
 };
-```
+// ```
 

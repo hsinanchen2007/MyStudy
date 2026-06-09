@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(n ^ 2)，其中n为nums的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n ^ 2)，其中n为nums的长度。空间复杂度是O(1)。
 
-执行用时：149ms，击败9.64%。消耗内存：49.5MB，击败16.08%。
+// 执行用时：149ms，击败9.64%。消耗内存：49.5MB，击败16.08%。
 
-```java
+// ```java
 public class Solution {
     public int findMaximumXOR(int[] nums) {
         int n;
@@ -23,15 +23,15 @@ public class Solution {
         return result;
     }
 }
-```
+// ```
 
-# 解法二：Trie
+// # 解法二：Trie
 
-时间复杂度是O(n)。空间复杂度是O(1)。
+// 时间复杂度是O(n)。空间复杂度是O(1)。
 
-执行用时：12ms，击败98.80%。消耗内存：57.1MB，击败5.59%。
+// 执行用时：12ms，击败98.80%。消耗内存：57.1MB，击败5.59%。
 
-```java
+// ```java
 public class Solution {
     private class TrieNode {
         private int val;
@@ -102,4 +102,4 @@ public class Solution {
         return Math.max(findMaximumXOR(one.one, zero.zero), findMaximumXOR(one.zero, zero.one));
     }
 }
-```
+// ```

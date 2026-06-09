@@ -1,9 +1,9 @@
-### 解题思路
-遍历每个位置 与前后左右比较判断加多少面积即可
+// ### 解题思路
+// 遍历每个位置 与前后左右比较判断加多少面积即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int sum=0;
     for(int i=0;i<gridSize;i++) // 遍历每一行
@@ -55,4 +55,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     return sum;
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/baa473fa10823236c62a7ed9198e861392e28cd7310ddb64ffbef6e237e59846-image.png)
+# ![image.png](https://pic.leetcode-cn.com/baa473fa10823236c62a7ed9198e861392e28cd7310ddb64ffbef6e237e59846-image.png)
 
-```python
+# ```python
 class Solution(object):
     def cuttingRope(self, n):
         """
@@ -31,4 +31,4 @@ class Solution(object):
 
 
 
-```
+# ```

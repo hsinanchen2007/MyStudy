@@ -1,6 +1,6 @@
-其实此题和这题一样：https://leetcode-cn.com/problems/path-sum-iii/solution/
+# 其实此题和这题一样：https://leetcode-cn.com/problems/path-sum-iii/solution/
 
-```cpp []
+# ```cpp []
 class Solution {
 public:
     int ans = 0;
@@ -22,8 +22,8 @@ public:
         }
     }
 };
-```
-```python3 []
+# ```
+# ```python3 []
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         self.ans = 0
@@ -37,5 +37,5 @@ class Solution:
                 f(node.right, vs)
         f(root, [])
         return self.ans
-```
+# ```
 

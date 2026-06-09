@@ -1,9 +1,9 @@
-### 解题思路
-：）
+# ### 解题思路
+# ：）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         row, col = m - 1, n - 1
@@ -31,4 +31,4 @@ class Solution:
             ans += yy % 10
             yy //= 10
         return ans
-```
+# ```

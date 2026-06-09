@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var isBalanced = function(root) {
     return judge(root) !== -1
 };
@@ -19,4 +19,4 @@ const judge = (root) => {
     }
     return Math.abs(left - right) > 1 ? -1 : Math.max(left, right) + 1
 }
-```
+// ```

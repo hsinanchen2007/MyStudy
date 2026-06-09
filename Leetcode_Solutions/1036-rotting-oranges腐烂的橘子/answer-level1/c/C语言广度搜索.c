@@ -1,9 +1,9 @@
-### 解题思路
-模板题
+// ### 解题思路
+// 模板题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*使用广度优先搜索，遍历完后在再进行检查*/
 #define EnQueue(x, q)  (q[rear++] = x)
 #define DeQueue(q)     (q[front++])
@@ -73,4 +73,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
         return -1;
     }
 }
-```
+// ```

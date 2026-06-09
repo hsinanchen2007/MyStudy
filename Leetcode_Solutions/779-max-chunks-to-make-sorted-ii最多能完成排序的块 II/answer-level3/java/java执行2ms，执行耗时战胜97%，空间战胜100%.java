@@ -1,5 +1,5 @@
-从右往左记录累计最小值，从左往右取最大值和累计最小值进行比较
-```
+// 从右往左记录累计最小值，从左往右取最大值和累计最小值进行比较
+// ```
 class Solution {
     public int maxChunksToSorted(int[] arr) {
          int len = arr.length;
@@ -31,5 +31,5 @@ class Solution {
         return chunks;
     }
 }
-```
-更多题解请关注[这里](https://github.com/JessenPan/leetcode)，题解持续关注，请关注！
+// ```
+// 更多题解请关注[这里](https://github.com/JessenPan/leetcode)，题解持续关注，请关注！

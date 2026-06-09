@@ -1,9 +1,9 @@
-### 解题思路
-c#递归
+// ### 解题思路
+// c#递归
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     int[][] minCountBackup;
     public int MinDistance(string word1, string word2) {
@@ -66,4 +66,4 @@ public class Solution {
         return minCountBackup[startIndex1][startIndex2];
     }
 }
-```
+// ```

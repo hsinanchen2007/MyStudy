@@ -1,15 +1,15 @@
-### 解题思路
-主要是栈匹配的问题，如果是左括号：(,{,[,则压栈，如果是右括号：),},],则将栈顶元素出栈，如果不匹配，则返回false，然后继续匹配下一个字符。循环结束，如果栈为空，则返回真，否则为假。
+// ### 解题思路
+// 主要是栈匹配的问题，如果是左括号：(,{,[,则压栈，如果是右括号：),},],则将栈顶元素出栈，如果不匹配，则返回false，然后继续匹配下一个字符。循环结束，如果栈为空，则返回真，否则为假。
 
-注意点：
+// 注意点：
 
-- stack创建方法：`Stack<Character> stk = new Stack<>();`
-- 出栈之前要检查栈是否为空：stk.empty()
-- str.charAt(index):取得字符串下标为index的字符
+// - stack创建方法：`Stack<Character> stk = new Stack<>();`
+// - 出栈之前要检查栈是否为空：stk.empty()
+// - str.charAt(index):取得字符串下标为index的字符
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
 
@@ -76,4 +76,4 @@ class Solution {
             return false;
     }
 }
-```
+// ```

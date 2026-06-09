@@ -1,5 +1,5 @@
-实时将mod5所得的余数转为十进制
-```
+// 实时将mod5所得的余数转为十进制
+// ```
 class Solution {
 public:
     vector<bool> prefixesDivBy5(vector<int>& A) {
@@ -13,4 +13,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-- 令棋盘默认值为0
-- 玩家1 令该点加一
-- 玩家2 令该点减一
+# ### 解题思路
+# - 令棋盘默认值为0
+# - 玩家1 令该点加一
+# - 玩家2 令该点减一
 
-记录行，列与对角线的和值
-每次只需判断是否出现 n,-n即可
-- n: 表示玩家1获胜
-- -n: 表示玩家2获胜
+# 记录行，列与对角线的和值
+# 每次只需判断是否出现 n,-n即可
+# - n: 表示玩家1获胜
+# - -n: 表示玩家2获胜
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class TicTacToe:
 
     def __init__(self, n: int):
@@ -58,4 +58,4 @@ class TicTacToe:
 # Your TicTacToe object will be instantiated and called as such:
 # obj = TicTacToe(n)
 # param_1 = obj.move(row,col,player)
-```
+# ```

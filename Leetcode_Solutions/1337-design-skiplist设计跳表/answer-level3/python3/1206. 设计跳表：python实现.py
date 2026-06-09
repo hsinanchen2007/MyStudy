@@ -1,12 +1,12 @@
-概率分层直接进行了一个随机数的对数计算，其他的跟传统跳表实现起来大同小异。
+# 概率分层直接进行了一个随机数的对数计算，其他的跟传统跳表实现起来大同小异。
 
-用的是纯跳表单元，只有值、向右、向下三个属性，没有使用数组存表，`add`的时候用一个`prev`数组记录前一个跳跃点，所以不需要在结构体里用超过两个方向的形式存储，空间上比数组存表略优一点吧。
+# 用的是纯跳表单元，只有值、向右、向下三个属性，没有使用数组存表，`add`的时候用一个`prev`数组记录前一个跳跃点，所以不需要在结构体里用超过两个方向的形式存储，空间上比数组存表略优一点吧。
 
-用统计字典`collections.defaultdict(int)`或者桶数组`[0] * 20000`来提交这题当然很快，大约100ms+这样，这些数据结构的底层都是封装在c扩展里的，纯python写的跳表比前者慢这么多很正常，我这个代码也不例外，大约300ms+这样，最多不超过500ms，其他python代码超时肯定是哪里写错了，大概率是跳跃的时候没有跳出循环。
+# 用统计字典`collections.defaultdict(int)`或者桶数组`[0] * 20000`来提交这题当然很快，大约100ms+这样，这些数据结构的底层都是封装在c扩展里的，纯python写的跳表比前者慢这么多很正常，我这个代码也不例外，大约300ms+这样，最多不超过500ms，其他python代码超时肯定是哪里写错了，大概率是跳跃的时候没有跳出循环。
 
-（注：标签2有注释版本）
+# （注：标签2有注释版本）
 
-```python []
+# ```python []
 maxLevel = 16
 power = 2
 maxRand = power ** maxLevel - 1
@@ -69,8 +69,8 @@ class Skiplist:
                 node.right = node.right.right
                 node = node.down
         return ans
-```
-```python []
+# ```
+# ```python []
 # 最大级深maxLevl=16，power=2分链表，随机数的上限maxRand
 maxLevel = 16
 power = 2
@@ -149,8 +149,8 @@ class Skiplist:
                 node.right = node.right.right
                 node = node.down
         return ans
-```
-```python []
+# ```
+# ```python []
 # 可以快速AC的方法，不要学
 class Skiplist:
     def __init__(self):
@@ -167,4 +167,4 @@ class Skiplist:
         if self.d[num]:
             self.d[num] -= 1
             return True
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-用通项公式双百
-### 代码
+// ### 解题思路
+// 用通项公式双百
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n)
@@ -11,4 +11,4 @@ public:
         return (pow((1+sqrt(5))/2,n+1)-pow((1-sqrt(5))/2,n+1))/sqrt(5);
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-递归解法
-构造了俩函数用字符串做中介 十分好理解
+# ### 解题思路
+# 递归解法
+# 构造了俩函数用字符串做中介 十分好理解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution(object):
 
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-没什么可写的...（刚开始capacity是100没过，从100变为10000就过了）
+// ### 解题思路
+// 没什么可写的...（刚开始capacity是100没过，从100变为10000就过了）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     int* stack;
@@ -55,4 +55,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

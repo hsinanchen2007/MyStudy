@@ -1,4 +1,4 @@
-直接递归（很慢 ，一般情况下不行，这题可以直接过）
+// 直接递归（很慢 ，一般情况下不行，这题可以直接过）
 ~~~
     public boolean PredictTheWinner(int[] nums) {
         return getScore(nums, 0, nums.length - 1) >= 0;

@@ -1,14 +1,14 @@
-### 解题思路
-参考了这个大佬的代码
-https://leetcode-cn.com/problems/word-search-ii/solution/pythonzi-dian-shu-dfs-by-mai-mai-mai-mai-zi/
+# ### 解题思路
+# 参考了这个大佬的代码
+# https://leetcode-cn.com/problems/word-search-ii/solution/pythonzi-dian-shu-dfs-by-mai-mai-mai-mai-zi/
 
-核心是对words建立tire树! 然后对board进行dfs搜索, 直到遇见满足条件的字符串('#'标记代表isEnd)
-而不是对board去建立tire树,
-下面的代码也很简洁, 写的很好值得学习
+# 核心是对words建立tire树! 然后对board进行dfs搜索, 直到遇见满足条件的字符串('#'标记代表isEnd)
+# 而不是对board去建立tire树,
+# 下面的代码也很简洁, 写的很好值得学习
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         tire = {}
@@ -34,4 +34,4 @@ class Solution:
                 if board[i][j] in tire:
                     search(i, j, tire[board[i][j]], board[i][j], {(i,j)})
         return list(res)
-```
+# ```

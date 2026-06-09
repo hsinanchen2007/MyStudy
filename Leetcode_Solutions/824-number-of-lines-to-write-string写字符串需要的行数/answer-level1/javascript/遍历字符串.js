@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} widths
  * @param {string} S
@@ -27,6 +27,6 @@ var numberOfLines = function(widths, S) {
   }
   return [deep, rowSize];
 };
-```
->执行用时 : 64 ms, 在所有 JavaScript 提交中击败了100.00%的用户
->内存消耗 : 34.4 MB, 在所有 JavaScript 提交中击败了92.31%的用户
+// ```
+// >执行用时 : 64 ms, 在所有 JavaScript 提交中击败了100.00%的用户
+// >内存消耗 : 34.4 MB, 在所有 JavaScript 提交中击败了92.31%的用户

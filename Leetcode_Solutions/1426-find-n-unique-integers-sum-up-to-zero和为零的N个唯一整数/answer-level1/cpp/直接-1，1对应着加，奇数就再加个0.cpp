@@ -1,9 +1,9 @@
-### 解题思路
-直接-1，1对应着加，奇数就再加个0
+// ### 解题思路
+// 直接-1，1对应着加，奇数就再加个0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sumZero(int n) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

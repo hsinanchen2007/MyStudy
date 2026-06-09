@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-学习了一个函数  counter的用法
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 学习了一个函数  counter的用法
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
@@ -25,4 +25,4 @@ class Solution:
             
 
 
-```
+# ```

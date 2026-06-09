@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findBlackPixel(vector<vector<char>>& picture, int N) {
@@ -41,6 +41,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0b3ea73d6c9bb08bbc23b0b2759f3a2d2212eb9e798a2767dd19b095cac32d10-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0b3ea73d6c9bb08bbc23b0b2759f3a2d2212eb9e798a2767dd19b095cac32d10-image.png)

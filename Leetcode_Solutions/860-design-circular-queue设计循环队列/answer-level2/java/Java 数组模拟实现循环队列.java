@@ -1,4 +1,4 @@
-```
+// ```
 class MyCircularQueue {
     private int maxSize;
     private int front = 0;
@@ -59,4 +59,4 @@ class MyCircularQueue {
         return (rear+1) % maxSize == front;
     }
 }
-```
+// ```

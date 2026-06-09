@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.取后一个字符，在之前不重复字符数组中检查是否存在
-2.存在，则计算之前原无重复字符数组长度，first置为重复字段的位置，last++
-3.不存在，则last++
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.取后一个字符，在之前不重复字符数组中检查是否存在
+// 2.存在，则计算之前原无重复字符数组长度，first置为重复字段的位置，last++
+// 3.不存在，则last++
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.equals("")) {
@@ -46,4 +46,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

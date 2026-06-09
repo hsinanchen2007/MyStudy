@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define START 0
 #define SIGNED 1
 #define NUMBER 2
@@ -67,4 +67,4 @@ int myAtoi(char * str){
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         stack = ['(']
@@ -14,4 +14,4 @@ class Solution:
         for i in range(len(l)-1):
             ans += S[l[i]+2:l[i+1]]
         return ans
-```
+# ```

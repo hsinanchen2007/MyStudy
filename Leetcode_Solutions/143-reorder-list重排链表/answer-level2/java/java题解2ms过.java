@@ -1,5 +1,5 @@
-思路比较简单，直接贴代码了，应该都能读懂
-```
+// 思路比较简单，直接贴代码了，应该都能读懂
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,4 +51,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

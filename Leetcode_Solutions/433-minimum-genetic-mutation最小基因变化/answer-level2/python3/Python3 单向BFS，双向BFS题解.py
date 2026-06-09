@@ -1,5 +1,5 @@
-#单向BFS，标准BFS写法，一层一层扫描
-```python
+# #单向BFS，标准BFS写法，一层一层扫描
+# ```python
 class Solution:
     def minMutation(self, start, end, bank):
         if end not in bank:
@@ -18,10 +18,10 @@ class Solution:
                         q.append((new, length+1))
                         bank.remove(new)
         return -1
-```
+# ```
 
-#双向BFS
-```python
+# #双向BFS
+# ```python
 class Solution:
     def minMutationTwo_end_bfs(self, start, end, bank):
         if end not in bank:
@@ -49,15 +49,15 @@ class Solution:
             if len(end) < len(begin):
                 end, begin = begin, end
         return -1
-```
-# 测试
-```python
+# ```
+# # 测试
+# ```python
 if __name__ == "__main__":
     start = "AACCTTGG"
     end =   "AATTCCGG"
     bank =  ["AATTCCGG","AACCTGGG","AACCCCGG","AACCTACC"]
     res = Solution().minMutationTwo_end_bfs(start, end, bank)
     print(res)
-```
+# ```
 
-这套写法可以套用不少题，比如[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)等
+# 这套写法可以套用不少题，比如[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)等

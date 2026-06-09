@@ -1,5 +1,5 @@
-写两个函数一个用来求该节点到任意子节点的和，另一个遍历所有节点求和
-```
+# 写两个函数一个用来求该节点到任意子节点的和，另一个遍历所有节点求和
+# ```
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         def he(root,a,l):
@@ -29,5 +29,5 @@ class Solution:
             return 0
         a = he_all(root,[])
         return a.count(sum)
-```
+# ```
 

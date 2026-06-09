@@ -1,9 +1,9 @@
-### 解题思路
-头插法变形
+// ### 解题思路
+// 头插法变形
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -60,4 +60,4 @@ class Solution {
     }
 }
 
-```
+// ```

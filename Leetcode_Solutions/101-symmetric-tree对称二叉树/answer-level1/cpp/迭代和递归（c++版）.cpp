@@ -1,7 +1,7 @@
-**原理请看官方题解**
+// **原理请看官方题解**
 
-递归：
-```
+// 递归：
+// ```
     bool isSymmetric(TreeNode* root) {
         return _isMirror(root, root);
     }
@@ -13,10 +13,10 @@
 
         return _isMirror(t1->left, t2->right) && _isMirror(t1->right, t2->left);
     }
-```
+// ```
 
-迭代：
-```
+// 迭代：
+// ```
 bool isSymmetric(TreeNode* root) {
         if (!root) return true;
 
@@ -41,5 +41,5 @@ bool isSymmetric(TreeNode* root) {
 
         return true;
     }
-```
+// ```
 

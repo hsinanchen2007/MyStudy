@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-题目的意思是使用G中的元素可以组成最长子链表的个数，其中G中的元素是可以重复使用的，如链表为0->1->1->3，G = {0,1,3}，组件的个数是1。这里使用Set来保存G中的元素，然后遍历链表，使用set判断当前节点是否存在于G中，如果存在则表示该节点可以作为子链表，继续判断当前子链表是否结束，判断依据为：无子节点或下个子节点不在G中。
+// 题目的意思是使用G中的元素可以组成最长子链表的个数，其中G中的元素是可以重复使用的，如链表为0->1->1->3，G = {0,1,3}，组件的个数是1。这里使用Set来保存G中的元素，然后遍历链表，使用set判断当前节点是否存在于G中，如果存在则表示该节点可以作为子链表，继续判断当前子链表是否结束，判断依据为：无子节点或下个子节点不在G中。
 
-```
+// ```
 public int numComponents(ListNode head, int[] G) {
     if (G.length == 0) return 0;
     //1.使用Set储存数组G
@@ -28,4 +28,4 @@ public int numComponents(ListNode head, int[] G) {
     return res;
 
 }
-```
+// ```

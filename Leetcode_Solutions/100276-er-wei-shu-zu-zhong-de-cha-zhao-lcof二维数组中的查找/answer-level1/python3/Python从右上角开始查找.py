@@ -1,10 +1,10 @@
-### 解题思路
-首先去除特殊情况。
-然后从右上角开始查找，如当前值大于target，列数-1.如当前值小于target，行数+1。
+# ### 解题思路
+# 首先去除特殊情况。
+# 然后从右上角开始查找，如当前值大于target，列数-1.如当前值小于target，行数+1。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if matrix == [[]] or matrix == []:
@@ -25,4 +25,4 @@ class Solution:
                 elif target < matrix[i][j]:
                     j -= 1
         return False
-```
+# ```

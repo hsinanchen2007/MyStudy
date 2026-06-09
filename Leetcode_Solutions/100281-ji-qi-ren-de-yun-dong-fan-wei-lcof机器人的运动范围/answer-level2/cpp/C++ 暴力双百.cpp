@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     bool checkfunction(int i,int j,int k)
     {   //计算坐标是否符合要求
@@ -45,4 +45,4 @@ public:
         return num;
     }
 };
-```
+// ```

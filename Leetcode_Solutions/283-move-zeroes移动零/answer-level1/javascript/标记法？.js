@@ -1,7 +1,7 @@
 
-申明一个变量count，然后依次遍历数组，在遍历过程中，count的值表示当前位置之前（不包括当前位置）**出现过的0**的次数，即当前位置需要前移的位数
+// 申明一个变量count，然后依次遍历数组，在遍历过程中，count的值表示当前位置之前（不包括当前位置）**出现过的0**的次数，即当前位置需要前移的位数
 
-```javascript
+// ```javascript
 var moveZeroes = function (nums) {
     let count = 0
     for (let i = 0; i < nums.length; i++) {
@@ -13,4 +13,4 @@ var moveZeroes = function (nums) {
         }
     }
 };
-```
+// ```

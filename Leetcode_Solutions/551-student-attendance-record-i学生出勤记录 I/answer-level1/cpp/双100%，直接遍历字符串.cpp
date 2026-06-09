@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，代码如下
+// ### 解题思路
+// 思路很简单，代码如下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkRecord(string s) {
@@ -24,4 +24,4 @@ public:
         return !(count>=3||A>1);
     }
 };
-```
+// ```

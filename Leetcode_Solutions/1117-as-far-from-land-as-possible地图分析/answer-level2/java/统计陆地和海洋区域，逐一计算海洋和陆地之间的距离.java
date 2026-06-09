@@ -1,14 +1,14 @@
-![l.png](https://pic.leetcode-cn.com/1ee19aaf3fe6fe6b583a5c4eef8e31c2df21dde32203fbbd35b4890362705434-l.png)
+// ![l.png](https://pic.leetcode-cn.com/1ee19aaf3fe6fe6b583a5c4eef8e31c2df21dde32203fbbd35b4890362705434-l.png)
 
 
-### 解题思路
-1、先统计所有的陆地和海洋区域
-2、对于每一个海洋区域，计算它和所有陆地区域之间的距离，保留最小值
-3、所有海洋区域对应的最小值取最大值即为题目所求
+// ### 解题思路
+// 1、先统计所有的陆地和海洋区域
+// 2、对于每一个海洋区域，计算它和所有陆地区域之间的距离，保留最小值
+// 3、所有海洋区域对应的最小值取最大值即为题目所求
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDistance(int[][] grid) {
         List<Integer[]> lands=new ArrayList();
@@ -43,4 +43,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

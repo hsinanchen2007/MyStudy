@@ -1,6 +1,6 @@
-拜读了labuladong大佬总结的[滑动窗口通用思想解决字串问题](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)，用Java重写了本题，用两个数组代替哈希表，将时间效率提高到99.03%
+// 拜读了labuladong大佬总结的[滑动窗口通用思想解决字串问题](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)，用Java重写了本题，用两个数组代替哈希表，将时间效率提高到99.03%
 
-```
+// ```
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         if(s == null || s.length() == 0) return new ArrayList<>();
@@ -37,6 +37,6 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
 

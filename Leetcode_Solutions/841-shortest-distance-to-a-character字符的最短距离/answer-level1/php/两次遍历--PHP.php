@@ -1,9 +1,9 @@
-### 解题思路
-先从左往右遍历一次，记录一次位置。在从右往左遍历一次，记录位置，取小的。
+// ### 解题思路
+// 先从左往右遍历一次，记录一次位置。在从右往左遍历一次，记录位置，取小的。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -28,11 +28,11 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度：O(n)
-- 空间复杂度：O(n)
+// ### 算法复杂度
+// - 时间复杂度：O(n)
+// - 空间复杂度：O(n)
 
-### 参考
-[https://leetcode-cn.com/problems/shortest-distance-to-a-character/solution/zi-fu-de-zui-duan-ju-chi-by-leetcode/](https://leetcode-cn.com/problems/shortest-distance-to-a-character/solution/zi-fu-de-zui-duan-ju-chi-by-leetcode/)
+// ### 参考
+// [https://leetcode-cn.com/problems/shortest-distance-to-a-character/solution/zi-fu-de-zui-duan-ju-chi-by-leetcode/](https://leetcode-cn.com/problems/shortest-distance-to-a-character/solution/zi-fu-de-zui-duan-ju-chi-by-leetcode/)

@@ -1,9 +1,9 @@
-### 解题思路
-此法类似官方解题思路方案一，两个队列，压入 -O(1)， 弹出 -O(n)
+# ### 解题思路
+# 此法类似官方解题思路方案一，两个队列，压入 -O(1)， 弹出 -O(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -55,13 +55,13 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```
 
-### 解题思路
-此法类似官方解题思路方案二，两个队列， 压入 - O(n)， 弹出 - O(1)
+# ### 解题思路
+# 此法类似官方解题思路方案二，两个队列， 压入 - O(n)， 弹出 - O(1)
 
-### 代码
-```
+# ### 代码
+# ```
 class MyStack:
 
     def __init__(self):
@@ -101,4 +101,4 @@ class MyStack:
         Returns whether the stack is empty.
         """
         return len(self.q1) == 0
-```
+# ```

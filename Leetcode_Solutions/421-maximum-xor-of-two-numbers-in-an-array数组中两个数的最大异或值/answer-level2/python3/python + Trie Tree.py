@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
         # [3, 10, 5, 25, 2, 8]
@@ -38,4 +38,4 @@ class Solution:
         for i in range(len(nums)):
             res = max(res, calculate(nums[i], bit_nums[i], trie))
         return res
-```
+# ```

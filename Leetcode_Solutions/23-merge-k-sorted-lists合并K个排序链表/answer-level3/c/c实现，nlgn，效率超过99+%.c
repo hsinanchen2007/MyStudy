@@ -1,12 +1,12 @@
 
-如果对快速排序或者归并排序有了解的同学代码也许一眼就能看明白，有点参考他们的思想
-程序主题思想还是递归，归并或者快速排序的思想复杂度为nlgn级别，
-因为是递归，如果嵌套十分深入的话，还是需要一点堆栈的空间的
+// 如果对快速排序或者归并排序有了解的同学代码也许一眼就能看明白，有点参考他们的思想
+// 程序主题思想还是递归，归并或者快速排序的思想复杂度为nlgn级别，
+// 因为是递归，如果嵌套十分深入的话，还是需要一点堆栈的空间的
 
-mergeTwoLists 这个函数可以不看，是之前做题已经实现的程序，。直接拿来用就可以了
-核心代码不过 _mergeKLists(...) 函数里面的十行有余
-如果有bug,请指正
-```
+// mergeTwoLists 这个函数可以不看，是之前做题已经实现的程序，。直接拿来用就可以了
+// 核心代码不过 _mergeKLists(...) 函数里面的十行有余
+// 如果有bug,请指正
+// ```
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2)
 {
 	struct ListNode head;
@@ -69,4 +69,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize)
 {  
 	return _mergeKLists(lists, listsSize);
 }
-```
+// ```

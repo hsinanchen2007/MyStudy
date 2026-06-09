@@ -1,9 +1,9 @@
-### 解题思路
-    不要用uint8即char做map元素类型来记录元素个数，会溢出，本来想节省空间，发现长字符串用例会溢出。
+// ### 解题思路
+//     不要用uint8即char做map元素类型来记录元素个数，会溢出，本来想节省空间，发现长字符串用例会溢出。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHARACTERNUMS 26
 
 int longestPalindrome(char * s){
@@ -38,4 +38,4 @@ int longestPalindrome(char * s){
     free(map);
     return ret;
 }
-```
+// ```

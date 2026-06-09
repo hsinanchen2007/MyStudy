@@ -1,5 +1,5 @@
-方法1：递归
-```
+// 方法1：递归
+// ```
     int MaxDepth(TreeNode* root){
         if(root==NULL){
             return 0;
@@ -8,10 +8,10 @@
         int right_depth = MaxDepth(root->right);
         return left_depth>right_depth ? left_depth+1 : right_depth+1;
     }
-```
+// ```
 
-方法２：队列遍历
-```
+// 方法２：队列遍历
+// ```
     int MaxDepth(TreeNode* root){
         std::queue<std::pair<TreeNode*, int> > node_queue;
         if(root!=NULL){
@@ -37,4 +37,4 @@
 
         return depth;
     }
-```
+// ```

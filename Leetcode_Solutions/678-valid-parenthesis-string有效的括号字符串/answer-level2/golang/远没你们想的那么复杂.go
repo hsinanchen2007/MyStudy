@@ -1,9 +1,9 @@
-### 解题思路
-主需要遍历正序倒序遍历两次即可，第一次把星号当左括号看，第二次把星号当右括号看，只要不符合就中断。
+// ### 解题思路
+// 主需要遍历正序倒序遍历两次即可，第一次把星号当左括号看，第二次把星号当右括号看，只要不符合就中断。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func checkValidString(s string) bool {
 	leftCount, rightCount := 0, 0
@@ -33,4 +33,4 @@ func checkValidString(s string) bool {
 	return true
 }
 
-```
+// ```

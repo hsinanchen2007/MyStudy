@@ -1,9 +1,9 @@
-### 解题思路
-不知道为什么他们都用队列，用堆不好吗？
+// ### 解题思路
+// 不知道为什么他们都用队列，用堆不好吗？
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
  * int param_1 = obj->insert(v);
  * TreeNode* param_2 = obj->get_root();
  */
-```
+// ```

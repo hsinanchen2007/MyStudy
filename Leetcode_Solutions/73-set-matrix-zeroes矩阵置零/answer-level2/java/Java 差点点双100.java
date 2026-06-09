@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/a5d92edb12f63e946e676d24d09fb9ef87fa513e412c1da093699d4712ed327c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a5d92edb12f63e946e676d24d09fb9ef87fa513e412c1da093699d4712ed327c-image.png)
 
-是的我就是投机取巧了用奇怪的数来当第二标签了略略略
+// 是的我就是投机取巧了用奇怪的数来当第二标签了略略略
 
-```
+// ```
     public void setZeroes(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
@@ -28,4 +28,4 @@
             }
         }
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-我们仅仅需要三个最大，两个最小的数字。所以我们可以线性扫描。
+// ### 解题思路
+// 我们仅仅需要三个最大，两个最小的数字。所以我们可以线性扫描。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximumProduct(int[] nums) {
         // 我们仅仅需要三个最大，两个最小的数字
@@ -32,4 +32,4 @@ class Solution {
         return Math.max(min2 * min1 * max1, max1 * max2 * max3);
     }
 }
-```
+// ```

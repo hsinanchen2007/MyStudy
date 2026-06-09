@@ -1,7 +1,7 @@
 
-算法参考 https://zhuanlan.zhihu.com/p/20611132
+// 算法参考 https://zhuanlan.zhihu.com/p/20611132
 
-```c++
+// ```c++
 class Solution {
 public:
     bool canWin(string s) {
@@ -76,4 +76,4 @@ private:
     }
 };
 
-```
+// ```

@@ -1,9 +1,9 @@
-1. 按照普通二分找到target的下标问mid
-2. 分别处理当前left～mid-1   mid+1～right这两部分
-3. 左边的继续二分，但是当找到target的时候不要停止寻找，继续向左边查找
-4. 右边的继续二分，但是当找到target的时候不要停止寻找，继续向右边查找
+// 1. 按照普通二分找到target的下标问mid
+// 2. 分别处理当前left～mid-1   mid+1～right这两部分
+// 3. 左边的继续二分，但是当找到target的时候不要停止寻找，继续向左边查找
+// 4. 右边的继续二分，但是当找到target的时候不要停止寻找，继续向右边查找
 
-```Java
+// ```Java
 class Solution {
     private void searchOnther(int[] nums,int[] result,int left,int right,int mid,int target){
         // left ~ mid-1
@@ -68,5 +68,5 @@ class Solution {
 
     }
 }
-```
+// ```
 

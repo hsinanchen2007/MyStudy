@@ -1,9 +1,9 @@
-### 解题思路
-48ms,93%击败
+// ### 解题思路
+// 48ms,93%击败
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class KthLargest {
 public:
     vector<int> hap = vector<int>(100000,INT_MIN);
@@ -48,4 +48,4 @@ public:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```

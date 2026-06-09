@@ -1,10 +1,10 @@
-### 解题思路
-1. 获取中序遍历的结果
-2. 根据中序遍历结果构造出最终结果
+// ### 解题思路
+// 1. 获取中序遍历的结果
+// 2. 根据中序遍历结果构造出最终结果
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ public class Solution {
             GetList(root.right, list);
         }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-官方答案的java版本，自己写了一个Pair的数据结构，重写了equals和hashCode方法。
-```
+// 官方答案的java版本，自己写了一个Pair的数据结构，重写了equals和hashCode方法。
+// ```
 class Solution {
     //深度优先遍历两个水壶所有可能的状态
     public boolean canMeasureWater(int x, int y, int z) {
@@ -73,4 +73,4 @@ class Pair{
         return Objects.hash(first)+Objects.hash(second);
     }
 }
-```
+// ```

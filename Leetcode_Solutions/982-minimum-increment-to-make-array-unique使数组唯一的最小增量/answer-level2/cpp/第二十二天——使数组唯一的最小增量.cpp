@@ -1,9 +1,9 @@
-### 解题思路
-效率极其低下的算法
+// ### 解题思路
+// 效率极其低下的算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

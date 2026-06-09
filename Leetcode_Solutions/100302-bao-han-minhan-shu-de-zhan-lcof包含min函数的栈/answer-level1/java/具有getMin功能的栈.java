@@ -1,9 +1,9 @@
-### 解题思路
-找到具有getMin功能的栈，采用集合替换对应的功能即可；
+// ### 解题思路
+// 找到具有getMin功能的栈，采用集合替换对应的功能即可；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     //采用集合假扮栈的功能即可
@@ -42,4 +42,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.min();
  */
-```
+// ```

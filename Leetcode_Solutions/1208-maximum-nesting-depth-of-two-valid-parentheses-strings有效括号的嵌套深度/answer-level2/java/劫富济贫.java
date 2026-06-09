@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-谁少就给谁，谁多就抢谁
+// 谁少就给谁，谁多就抢谁
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int [] ret = new int[seq.length()];
@@ -33,4 +33,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

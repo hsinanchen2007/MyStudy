@@ -1,8 +1,8 @@
-* 栈空，入栈
-* 栈顶为’)'，入栈
-* 栈顶为'('，当前为'('，入栈，当前为')'，出栈
+// * 栈空，入栈
+// * 栈顶为’)'，入栈
+// * 栈顶为'('，当前为'('，入栈，当前为')'，出栈
 
-```
+// ```
 class Solution {
     public int minAddToMakeValid(String S) {
         Stack<Character> s = new Stack<>();
@@ -16,4 +16,4 @@ class Solution {
         return s.size();
     }
 }
-```
+// ```

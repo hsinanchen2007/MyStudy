@@ -1,9 +1,9 @@
-### 解题思路
-利用java的工具库Arrays的数组复制和排序功能
+// ### 解题思路
+// 利用java的工具库Arrays的数组复制和排序功能
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
 
     private int[] nums;
@@ -35,4 +35,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

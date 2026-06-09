@@ -1,5 +1,5 @@
-每个单词都比较一次，然后把符合的地方标记一下，最后更新字符串。
-```
+# 每个单词都比较一次，然后把符合的地方标记一下，最后更新字符串。
+# ```
 class Solution:
     def boldWords(self, words: List[str], S: str) -> str:
         S_result = [0 for x in range(len(S)+2)]
@@ -18,4 +18,4 @@ class Solution:
             if S_result[i]> S_result[i+1]:
                 result = result[:i]+'</b>'+result[i:]
         return result
-```
+# ```

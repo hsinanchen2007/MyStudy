@@ -1,11 +1,11 @@
 
-`left` 指 **未使用的左括号数量**，`right` 指 **未使用的右括号数量**
+// `left` 指 **未使用的左括号数量**，`right` 指 **未使用的右括号数量**
 
-约束条件：
-**从左向右构建，已使用的右括号的数量必须小于左括号**
+// 约束条件：
+// **从左向右构建，已使用的右括号的数量必须小于左括号**
 
 
-```go
+// ```go
 func generateParenthesis(n int) []string{
 	var ans []string
 	var dfs func(s string, left, right int)
@@ -30,4 +30,4 @@ func generateParenthesis(n int) []string{
 	dfs("", n, n) //画一颗二叉树很容易理解
 	return ans
 }
-```
+// ```

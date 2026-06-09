@@ -1,14 +1,14 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d4461e9e8702041d2228652e41feb40adaf8a9dd15c42fc7a27926f1cf8edc1b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d4461e9e8702041d2228652e41feb40adaf8a9dd15c42fc7a27926f1cf8edc1b-image.png)
 
-不是很熟悉C语言，看到其他人的都好现象没这么长，有时间看看其他人的解法应该是很好的。
-就是如题目所述的思路，a是S的一个副本，b用来保存重复信息，int类型的length和b_length分别是他们的长度，a_length是重复的字符的长度
-遍历S之后得到a的长度，再次一个个寻找a中的重复并将信息存储到b中
-代码长是因为不知道比如Z出现了830次该怎么表示，采用了很笨的方法把他表示为8，3，0，然后用字符的形式表示出来，所以那一段很重复并且很难看。
+// 不是很熟悉C语言，看到其他人的都好现象没这么长，有时间看看其他人的解法应该是很好的。
+// 就是如题目所述的思路，a是S的一个副本，b用来保存重复信息，int类型的length和b_length分别是他们的长度，a_length是重复的字符的长度
+// 遍历S之后得到a的长度，再次一个个寻找a中的重复并将信息存储到b中
+// 代码长是因为不知道比如Z出现了830次该怎么表示，采用了很笨的方法把他表示为8，3，0，然后用字符的形式表示出来，所以那一段很重复并且很难看。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<math.h>
 char* compressString(char* S){
     int length = 0;
@@ -98,4 +98,4 @@ char* compressString(char* S){
     if(b_length >= length)return S;     //判断b还是原字符长
     else return b - b_length;
 }
-```
+// ```

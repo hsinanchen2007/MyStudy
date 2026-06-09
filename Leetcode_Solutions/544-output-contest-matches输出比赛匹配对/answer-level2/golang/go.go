@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"fmt"
 	"strconv"
@@ -17,4 +17,4 @@ func findContestMatch(n int) string {
 	}
 	return ss[0]
 }
-```
+// ```

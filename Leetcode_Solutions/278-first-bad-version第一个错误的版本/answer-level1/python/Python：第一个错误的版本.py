@@ -1,9 +1,9 @@
-### 解题思路
-用Python刷题，第一次完完整整老老实实写二分算法，必须写这个题解，记录一下
+# ### 解题思路
+# 用Python刷题，第一次完完整整老老实实写二分算法，必须写这个题解，记录一下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -23,4 +23,4 @@ class Solution:
             else:
                 l=m+1
         return l
-```
+# ```

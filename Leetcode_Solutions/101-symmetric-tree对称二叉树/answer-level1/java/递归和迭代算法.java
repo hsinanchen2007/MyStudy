@@ -1,4 +1,4 @@
-要复制该树，镜像对比两树是否相等。
+// 要复制该树，镜像对比两树是否相等。
 
 /**
  * Definition for a binary tree node.

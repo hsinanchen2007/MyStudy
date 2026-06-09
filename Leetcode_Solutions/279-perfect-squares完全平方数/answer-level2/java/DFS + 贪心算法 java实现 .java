@@ -1,7 +1,7 @@
-![QQ图片20200405100631.png](https://pic.leetcode-cn.com/5513ea525ec828ca9585515494c3bba1bd201e5713f594f227fd56b0f83d3cab-QQ%E5%9B%BE%E7%89%8720200405100631.png)
+// ![QQ图片20200405100631.png](https://pic.leetcode-cn.com/5513ea525ec828ca9585515494c3bba1bd201e5713f594f227fd56b0f83d3cab-QQ%E5%9B%BE%E7%89%8720200405100631.png)
 
 
-```
+// ```
     //dfs + 贪心算法
     int res = Integer.MAX_VALUE;
     public int numSquares(int n) {
@@ -27,4 +27,4 @@
             numChange(index - 1, num, count + i, n - i * num[index] * num[index]);
         }
     }
-```
+// ```

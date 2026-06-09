@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         # 题目解析：
@@ -22,4 +22,4 @@ class Solution:
             res[i] = res[i]*r
             r = r*nums[i]
         return res
-```
+# ```

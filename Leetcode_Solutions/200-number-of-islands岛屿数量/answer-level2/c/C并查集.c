@@ -1,9 +1,9 @@
-### 解题思路
-将相邻的'1'放入同一个集合，最后统计集合数即为岛屿数，用并查集实现。
+// ### 解题思路
+// 将相邻的'1'放入同一个集合，最后统计集合数即为岛屿数，用并查集实现。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 struct union_find_set {
     uint64_t **parent; // bit32~bit63:row bit0~bit31:col
@@ -107,4 +107,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
 
     return num;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def longestPalindrome(s: String): Int = {
     val cnt = new Array[Int](128)
@@ -11,4 +11,4 @@ object Solution {
     res
   }
 }
-```
+// ```

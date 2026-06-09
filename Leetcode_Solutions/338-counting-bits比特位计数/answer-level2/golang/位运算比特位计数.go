@@ -1,9 +1,9 @@
-### 解题思路
-位运算
+// ### 解题思路
+// 位运算
 
-### 代码
-//位运算，从0开始算，不用循环又重复算之前的 //TODO加个过程更易理解
-```golang
+// ### 代码
+// //位运算，从0开始算，不用循环又重复算之前的 //TODO加个过程更易理解
+// ```golang
 func countBits(num int) []int {
     res := make([]int,num+1)
     res[0] = 0
@@ -12,10 +12,10 @@ func countBits(num int) []int {
     }
     return res
 }
-```
+// ```
 
-//暴力直接求每个数的
-```
+// //暴力直接求每个数的
+// ```
 func countBits(num int) []int {
     res := make([]int,num+1)
     for i:=0;i <= num;i++{
@@ -29,5 +29,5 @@ func countBits(num int) []int {
     }
     return res
 }
-```
+// ```
 

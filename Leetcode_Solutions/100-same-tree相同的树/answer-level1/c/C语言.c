@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5ba6ab18bb1965ccb0022619a9f60dfb48566df367f41981a8754eae14aa2fa2-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5ba6ab18bb1965ccb0022619a9f60dfb48566df367f41981a8754eae14aa2fa2-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -22,4 +22,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     return (p->val == q->val) && isSameTree(p->left,q->left) && isSameTree(p->right,q->right);
     
 }
-```
+// ```

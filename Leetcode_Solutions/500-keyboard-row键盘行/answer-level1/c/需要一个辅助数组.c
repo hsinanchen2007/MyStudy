@@ -1,9 +1,9 @@
-### 解题思路
-代码将近有百行，amazing，代码这么多行的原因是分类讨论了大小写的情况，占了很多行代码，看了有其他人的解答，发现用tolower()这个函数能省很多事。。。学到了，还是这些基本函数运用不够熟练。
+// ### 解题思路
+// 代码将近有百行，amazing，代码这么多行的原因是分类讨论了大小写的情况，占了很多行代码，看了有其他人的解答，发现用tolower()这个函数能省很多事。。。学到了，还是这些基本函数运用不够熟练。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -107,4 +107,4 @@ char ** findWords(char ** words, int wordsSize, int* returnSize){
     *returnSize=count;
     return res;
 }
-```
+// ```

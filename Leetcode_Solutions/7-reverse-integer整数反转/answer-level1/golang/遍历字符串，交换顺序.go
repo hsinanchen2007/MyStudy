@@ -1,9 +1,9 @@
-### 解题思路
-先转为字符串，遍历字符串，交换顺序
+// ### 解题思路
+// 先转为字符串，遍历字符串，交换顺序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "strconv"
 
 func reverse(x int) int {
@@ -42,4 +42,4 @@ func reverse(x int) int {
 	}
 	return intRes
 }
-```
+// ```

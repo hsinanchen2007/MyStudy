@@ -1,5 +1,5 @@
-解法一：双端队列
-```java
+// 解法一：双端队列
+// ```java
 class Solution {
     public String simplifyPath(String path) {
         Deque<String> q = new ArrayDeque<>();
@@ -15,9 +15,9 @@ class Solution {
         return sb.length() == 0 ?"/":sb.toString();
     }
 }
-```
-解法二：栈
-```java
+// ```
+// 解法二：栈
+// ```java
 class Solution {
     public String simplifyPath(String path) {
         Stack<String> s = new Stack<>();
@@ -33,4 +33,4 @@ class Solution {
         return sb.length() == 0 ?"/":sb.toString();
     }
 }
-```
+// ```

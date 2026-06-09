@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bc9b8de8f29f8e751638a3d0161d5a57cbc6f4cd2af62b660a17ce350c62218a-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bc9b8de8f29f8e751638a3d0161d5a57cbc6f4cd2af62b660a17ce350c62218a-image.png)
 
-一正一反两个栈，还有一个临时栈。
+// 一正一反两个栈，还有一个临时栈。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -60,4 +60,4 @@ MyQueue.prototype.peek = function () {
 MyQueue.prototype.empty = function () {
     return this.st.length === 0;
 };
-```
+// ```

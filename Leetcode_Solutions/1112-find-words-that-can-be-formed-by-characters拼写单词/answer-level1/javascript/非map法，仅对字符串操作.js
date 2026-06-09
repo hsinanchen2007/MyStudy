@@ -1,10 +1,10 @@
-### 解题思路
-基本思路就是在 tmpStr 中寻找每个字母的位置
-如果有就增加计数，并且在 tmpStr 中删除该字母
+// ### 解题思路
+// 基本思路就是在 tmpStr 中寻找每个字母的位置
+// 如果有就增加计数，并且在 tmpStr 中删除该字母
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -29,4 +29,4 @@ var countCharacters = function(words, chars) {
     }
     return count
 };
-```
+// ```

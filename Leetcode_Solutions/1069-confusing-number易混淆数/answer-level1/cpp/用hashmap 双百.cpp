@@ -1,11 +1,11 @@
-### 解题思路
-用hashmap做缓存，快速查找
-![WX20200322-183330.png](https://pic.leetcode-cn.com/dbdc07af70c77d74083a299cdf39eee8e28ac13ee53e3e6a98028facfb7196f1-WX20200322-183330.png)
+// ### 解题思路
+// 用hashmap做缓存，快速查找
+// ![WX20200322-183330.png](https://pic.leetcode-cn.com/dbdc07af70c77d74083a299cdf39eee8e28ac13ee53e3e6a98028facfb7196f1-WX20200322-183330.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool confusingNumber(int N) {
@@ -22,4 +22,4 @@ public:
         return reverse != old;
     }
 };
-```
+// ```

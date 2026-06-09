@@ -1,9 +1,9 @@
-### 解题思路
-比较所有string的第一个字符，如果它们相等则提出这个字符；再比较所有string的第二个字符...直到所有string第N个字符不相同时结束。
+// ### 解题思路
+// 比较所有string的第一个字符，如果它们相等则提出这个字符；再比较所有string的第二个字符...直到所有string第N个字符不相同时结束。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

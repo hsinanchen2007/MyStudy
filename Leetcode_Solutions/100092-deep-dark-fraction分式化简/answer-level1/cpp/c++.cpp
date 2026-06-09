@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-a[0]分子  a[1]分母 
+// ### 解题思路
+// 此处撰写解题思路
+// a[0]分子  a[1]分母 
 
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<int> fraction(vector<int>& cont) {
@@ -24,4 +24,4 @@ public:
         
     }
 };
-```
+// ```

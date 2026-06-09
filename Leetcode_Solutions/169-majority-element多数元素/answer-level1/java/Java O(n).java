@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int num = nums[0];
@@ -17,4 +17,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

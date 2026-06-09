@@ -1,7 +1,7 @@
-![QQ图片20190926115321.png](https://pic.leetcode-cn.com/190126dbe620459bd759bdb5a66d1a1fb60e31c75672d15addfc7db33e7b4c53-QQ%E5%9B%BE%E7%89%8720190926115321.png)
-找到通项公式即可
+// ![QQ图片20190926115321.png](https://pic.leetcode-cn.com/190126dbe620459bd759bdb5a66d1a1fb60e31c75672d15addfc7db33e7b4c53-QQ%E5%9B%BE%E7%89%8720190926115321.png)
+// 找到通项公式即可
 
-```
+// ```
 class Solution {
 public:
     vector<int> pathInZigZagTree(int label) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

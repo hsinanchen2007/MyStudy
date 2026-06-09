@@ -1,9 +1,9 @@
-### 解题思路
-没啥好思路，直接遍历就好了。
+// ### 解题思路
+// 没啥好思路，直接遍历就好了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if(S == null || S.length() == 0 || S.length() == 1) {
@@ -27,4 +27,4 @@ class Solution {
         return sb.length() < S.length() ? sb.toString() : S;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-当后面的和前面的数相等时，将后面的数放到index所指向的位置。然后更新index指向下一个位置。
-### 代码
+// ### 解题思路
+// 当后面的和前面的数相等时，将后面的数放到index所指向的位置。然后更新index指向下一个位置。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums){
@@ -37,4 +37,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

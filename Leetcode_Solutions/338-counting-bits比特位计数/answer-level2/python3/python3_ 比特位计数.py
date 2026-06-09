@@ -1,4 +1,4 @@
-```python
+# ```python
 def countBits(num):
     """
         1. dp问题: dp[i] = dp[i>>1] + (i&1).
@@ -12,4 +12,4 @@ def countBits(num):
     return dp
 
 print(countBits(5))
-```
+# ```

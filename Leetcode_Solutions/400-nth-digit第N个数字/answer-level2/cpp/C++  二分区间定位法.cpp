@@ -1,6 +1,6 @@
-lower_bound就是利用的二分法来定位的，这里利用c++自带的lower_bound来实现区间定位
+// lower_bound就是利用的二分法来定位的，这里利用c++自带的lower_bound来实现区间定位
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     const int N = 1e8;
@@ -18,6 +18,6 @@ public:
         return (u / (int)pow(10, k - 1 - v)) % 10;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/ba9ef65023b9b475c5fadf39a64a566125dd9fc582447bbeab37f7a27aea5b22-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ba9ef65023b9b475c5fadf39a64a566125dd9fc582447bbeab37f7a27aea5b22-image.png)

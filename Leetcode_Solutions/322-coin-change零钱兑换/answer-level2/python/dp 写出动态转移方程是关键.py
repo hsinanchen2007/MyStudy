@@ -1,9 +1,9 @@
-1.写出动态转移方程
-dp(i)=min(dp(i-c))+1是关键
+# 1.写出动态转移方程
+# dp(i)=min(dp(i-c))+1是关键
 
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
           
@@ -18,4 +18,4 @@ class Solution:
         
 
 
-```
+# ```

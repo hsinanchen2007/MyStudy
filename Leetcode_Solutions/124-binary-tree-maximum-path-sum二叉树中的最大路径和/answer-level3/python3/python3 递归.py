@@ -1,7 +1,7 @@
-当前节点最大值 = max(左侧子数最大值+当前节点值，右侧子树最大值+当前节点值，当前节点值）
-若左右侧都大于0，则闭环最大路径为左侧开环最大+右侧开环最大+当前节点值
+# 当前节点最大值 = max(左侧子数最大值+当前节点值，右侧子树最大值+当前节点值，当前节点值）
+# 若左右侧都大于0，则闭环最大路径为左侧开环最大+右侧开环最大+当前节点值
 
-```
+# ```
 class Solution:
     def maxPathSum(self, root: TreeNode) -> int:
         global max_sum
@@ -24,4 +24,4 @@ class Solution:
         get_max(root)
         return max_sum
 
-```
+# ```

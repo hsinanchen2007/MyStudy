@@ -1,7 +1,7 @@
-好像还没有rust的并查集解法，来补充一个。
+// 好像还没有rust的并查集解法，来补充一个。
 
 
-```rust
+// ```rust
 use std::cmp::max;
 use std::collections::HashMap;
 impl Solution {
@@ -83,4 +83,4 @@ impl Solution {
 
     }
 }
-```
+// ```

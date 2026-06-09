@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     /**
@@ -10,4 +10,4 @@ class Solution {
         return count_chars($s, 1) == count_chars($t, 1);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-此题想到使用递推的方法
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 此题想到使用递推的方法
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         word = {
@@ -25,4 +25,4 @@ class Solution:
         return ans
 
 
-```
+# ```

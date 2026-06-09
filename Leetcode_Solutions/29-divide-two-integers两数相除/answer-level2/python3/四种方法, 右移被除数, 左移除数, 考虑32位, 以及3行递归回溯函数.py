@@ -1,4 +1,4 @@
-```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -55,9 +55,9 @@ class Solution:
 s = Solution()
 print(s.divide(10, 3))
 
-```
+# ```
 
-```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -99,8 +99,8 @@ class Solution:
 s = Solution()
 print(s.divide(10, 3))
 
-```
-```
+# ```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -161,8 +161,8 @@ class Solution:
 
 s = Solution()
 print(s.divide(-2147483648, -1))
-```
-```
+# ```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -207,8 +207,8 @@ print(s.divide(7, 3))
 
 
 
-```
-```
+# ```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -265,8 +265,8 @@ class Solution:
 s = Solution()
 print(s.divide(100, 3))
 
-```
-```
+# ```
+# ```
 # -*- coding: utf-8 -*-
 
 # Author: Cynthia
@@ -299,7 +299,7 @@ class Solution:
 s = Solution()
 print(s.divide(1, 1))
 
-```
+# ```
 
 
 

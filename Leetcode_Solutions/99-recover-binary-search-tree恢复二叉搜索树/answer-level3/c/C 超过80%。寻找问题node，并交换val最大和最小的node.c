@@ -1,6 +1,6 @@
-记录所有和父节点大小关系不对的节点(data)，对data排序，交换最大最小的节点。
+// 记录所有和父节点大小关系不对的节点(data)，对data排序，交换最大最小的节点。
 
-```
+// ```
 int cmp(const void *a, const void *b) {
     return ((*(struct TreeNode **)a)->val - (*(struct TreeNode **)b)->val);
 }
@@ -32,4 +32,4 @@ void recoverTree(struct TreeNode *root) {
     data[0]->val = data[dataSize - 1]->val;
     data[dataSize - 1]->val = tmp;
 }
-```
+// ```

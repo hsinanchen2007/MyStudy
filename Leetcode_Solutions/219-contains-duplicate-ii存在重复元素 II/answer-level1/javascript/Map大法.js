@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c231bff66c070398508968262eed433c68c1e8d0bba236e1e680f299395c4122-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c231bff66c070398508968262eed433c68c1e8d0bba236e1e680f299395c4122-image.png)
 
-没啥说的，map大法，为了凑每天三题的积分而刷。
+// 没啥说的，map大法，为了凑每天三题的积分而刷。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -35,4 +35,4 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return false;
 };
-```
+// ```

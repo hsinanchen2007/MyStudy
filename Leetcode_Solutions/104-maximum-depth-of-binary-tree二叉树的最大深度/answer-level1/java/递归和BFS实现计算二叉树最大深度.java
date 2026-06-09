@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -51,6 +51,6 @@ class Solution {
     return depth;
   }
 }
-```
+// ```
 
-> 可看本人博客[天天説](https://tiantianshuo.github.io/2020/02/06/leetcode/104/)
+// > 可看本人博客[天天説](https://tiantianshuo.github.io/2020/02/06/leetcode/104/)

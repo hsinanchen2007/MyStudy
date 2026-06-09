@@ -1,9 +1,9 @@
-### 解题思路
-面向测试用例，来来回回改了一个多小时，终于过了
+// ### 解题思路
+// 面向测试用例，来来回回改了一个多小时，终于过了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNumberOfLIS(vector<int>& nums) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/8f1f6780f0a234e06190a6410c389eff885f6ccd67a40c12cd70abe8d744f640-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8f1f6780f0a234e06190a6410c389eff885f6ccd67a40c12cd70abe8d744f640-image.png)
 
-### 解题思路
-这种类似森林（多组关系，可无环）的题目，是典型的并查集（Union Search Set）类题。
-先初始化集合，再合并集合（Union），再通过寻根（Search）进行相应操作，得到答案。
+// ### 解题思路
+// 这种类似森林（多组关系，可无环）的题目，是典型的并查集（Union Search Set）类题。
+// 先初始化集合，再合并集合（Union），再通过寻根（Search）进行相应操作，得到答案。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int findFather(int UFS[], int idx)
     {
@@ -33,4 +33,4 @@ public:
         return fathers.size();
     }
 };
-```
+// ```

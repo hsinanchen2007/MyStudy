@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -15,4 +15,4 @@ class Solution {
         return $n+$this->sumNums($n-1);
     }
 }
-```
+// ```

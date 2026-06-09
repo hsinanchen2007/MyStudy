@@ -1,7 +1,7 @@
-执行用时 :4 ms, 在所有 C++ 提交中击败了84.63%的用户
-内存消耗 :8.2 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了84.63%的用户
+// 内存消耗 :8.2 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-```
+// ```
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -33,4 +33,4 @@ public:
         return stones.back();
     }
 };
-```
+// ```

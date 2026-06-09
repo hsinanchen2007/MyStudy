@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     public int strToInt(String str) {
@@ -49,4 +49,4 @@ class Solution {
         return result;  
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- * 
- * 解题思路: 线性遍历 记录连续相同字符长度 并左大于等于3判断 加入lists
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  * 
+//  * 解题思路: 线性遍历 记录连续相同字符长度 并左大于等于3判断 加入lists
+//  * 
+//  */
+// ```
 public List<List<Integer>> largeGroupPositions(String S) {
     List<List<Integer>> lists = new ArrayList<>();
 
@@ -41,4 +41,4 @@ public List<List<Integer>> largeGroupPositions(String S) {
 
 }
 
-```
+// ```

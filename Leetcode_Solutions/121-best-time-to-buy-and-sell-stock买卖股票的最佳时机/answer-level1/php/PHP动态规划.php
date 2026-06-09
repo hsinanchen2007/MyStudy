@@ -1,4 +1,4 @@
-```php
+// ```php
  /**
      * @param Integer[] $prices
      * @return Integer
@@ -16,4 +16,4 @@
         return $res;
     }
 
-```
+// ```

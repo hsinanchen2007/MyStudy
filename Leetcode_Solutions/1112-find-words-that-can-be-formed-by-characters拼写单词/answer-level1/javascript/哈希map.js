@@ -1,12 +1,12 @@
-### 解题思路
-1.将chars 存到map中
-2.将words中的每一个字符串都存到一个map中
-3.比较每个单词的个数是否满足条件
-4.使用flag 标志符，为true是加上单词长度
+// ### 解题思路
+// 1.将chars 存到map中
+// 2.将words中的每一个字符串都存到一个map中
+// 3.比较每个单词的个数是否满足条件
+// 4.使用flag 标志符，为true是加上单词长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -25,4 +25,4 @@ public:
         return false;
     }
 };
-```
+// ```

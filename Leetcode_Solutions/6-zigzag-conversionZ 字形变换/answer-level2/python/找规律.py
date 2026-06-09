@@ -1,9 +1,9 @@
-### 解题思路
-就是找规律，对着numRows=4的看就是了
+# ### 解题思路
+# 就是找规律，对着numRows=4的看就是了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if len(s) <= numRows or numRows == 1:
@@ -23,4 +23,4 @@ class Solution:
                     else:
                         index += 2 + 2 * (i - 1)
         return result
-```
+# ```

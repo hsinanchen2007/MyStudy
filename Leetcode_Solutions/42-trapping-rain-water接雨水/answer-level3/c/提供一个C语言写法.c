@@ -1,5 +1,5 @@
 
-```
+// ```
 int trap(int* height, int heightSize)
 {
     int left = 0;
@@ -63,4 +63,4 @@ int trap(int* height, int heightSize)
     }
     return res;
 }
-```
+// ```

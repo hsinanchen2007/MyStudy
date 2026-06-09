@@ -1,9 +1,9 @@
-### 解题思路
-以第一个字符串为基字符串，从第二个字符串开始遍历，如果某个字符出现的次数为数组的长度，则把这个字符存到字符串中
+// ### 解题思路
+// 以第一个字符串为基字符串，从第二个字符串开始遍历，如果某个字符出现的次数为数组的长度，则把这个字符存到字符串中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
      String num="";
@@ -35,4 +35,4 @@ class Solution {
      return num;
     }
 }
-```
+// ```

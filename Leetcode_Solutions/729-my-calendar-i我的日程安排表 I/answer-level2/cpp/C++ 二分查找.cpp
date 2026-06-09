@@ -1,6 +1,6 @@
-思路：建立一个数组，维护着可以使用的区间范围。这种区间也是start可用，end不能用的。每当插入一个日程，就将可用区间进行割裂。割裂的时候注意新加入区间保持有序。这样查找可用区间的时候可以使用二分法。
+// 思路：建立一个数组，维护着可以使用的区间范围。这种区间也是start可用，end不能用的。每当插入一个日程，就将可用区间进行割裂。割裂的时候注意新加入区间保持有序。这样查找可用区间的时候可以使用二分法。
 
-```
+// ```
 class MyCalendar {
     typedef pair<int, int> Item;
 public:
@@ -47,4 +47,4 @@ public:
  * MyCalendar* obj = new MyCalendar();
  * bool param_1 = obj->book(start,end);
  */
-```
+// ```

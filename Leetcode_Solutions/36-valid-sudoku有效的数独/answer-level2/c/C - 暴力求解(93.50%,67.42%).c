@@ -1,6 +1,6 @@
-循环多次，先横，后竖，再九宫。
-手动存储九宫格，（先九宫格因该可以提升效率）
-```
+// 循环多次，先横，后竖，再九宫。
+// 手动存储九宫格，（先九宫格因该可以提升效率）
+// ```
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     char temp[9];
     int i,j,k,m,n;
@@ -58,4 +58,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
             }
     return true;
 }
-```
+// ```

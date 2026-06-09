@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/5ef7955d5f8357f96ab9fa54ea15ad4052eab7a31c9a37385d4d1cb74cb67ddf-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5ef7955d5f8357f96ab9fa54ea15ad4052eab7a31c9a37385d4d1cb74cb67ddf-image.png)
 
 
 
-```
+# ```
 class Solution:
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
         item_number = len(price)
@@ -35,4 +35,4 @@ class Solution:
             dp[tuple(needs)] = min_cost
         back(needs,special)
         return dp[tuple(needs)]
-```
+# ```

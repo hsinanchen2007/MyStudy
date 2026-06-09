@@ -1,8 +1,8 @@
-利用2个已知条件：
-- 所有元素在n - 1以内；
-- 数组自带的索引属性。
+// 利用2个已知条件：
+// - 所有元素在n - 1以内；
+// - 数组自带的索引属性。
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int cur = 0;
@@ -22,4 +22,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

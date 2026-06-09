@@ -1,5 +1,5 @@
-解法一：DFS
-```
+// 解法一：DFS
+// ```
 class Solution {
 public:
     int sumEvenGrandparent(TreeNode* root) {
@@ -19,9 +19,9 @@ public:
         return sum;
     }
 };
-```
-解法二：BFS
-```
+// ```
+// 解法二：BFS
+// ```
 class Solution {
 public:
     int sumEvenGrandparent(TreeNode* root) {
@@ -57,4 +57,4 @@ public:
         return res;
     }
 };
-```
+// ```

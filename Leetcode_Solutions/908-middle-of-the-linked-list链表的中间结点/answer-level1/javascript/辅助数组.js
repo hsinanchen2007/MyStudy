@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
- * 创建一个数组
- * 遍历链表
- * 保存所有node的引用，返回length / 2的
+//  * 创建一个数组
+//  * 遍历链表
+//  * 保存所有node的引用，返回length / 2的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -27,4 +27,4 @@ var middleNode = function (head) {
     }
     return list[Math.floor(list.length / 2)];
 };
-```
+// ```

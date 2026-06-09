@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return tmp<=i;
     }
 };
-```
+// ```

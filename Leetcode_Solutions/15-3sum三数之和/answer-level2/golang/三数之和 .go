@@ -1,9 +1,9 @@
-### 解题思路
-该解法性能不咋样
+// ### 解题思路
+// 该解法性能不咋样
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "sort"
 
 func threeSum(nums []int) [][]int {
@@ -51,4 +51,4 @@ func sortResult(arr []int) (string, []int) {
     }
     return key, arr
 }
-```
+// ```

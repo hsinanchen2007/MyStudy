@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-这次并没有创建移动方向的数组，直接找到R所在位置，然后在这一行一列里直接找p和B即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 这次并没有创建移动方向的数组，直接找到R所在位置，然后在这一行一列里直接找p和B即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int r = 0, c = 0;
@@ -48,4 +48,4 @@ class Solution {
         return temp;
     }
 }
-```
+// ```

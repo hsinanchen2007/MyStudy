@@ -1,4 +1,4 @@
-```
+// ```
 int singleNumber(int* nums, int numsSize){
     if ((nums == NULL) || (numsSize == 0)) {
         return 0;
@@ -16,4 +16,4 @@ int singleNumber(int* nums, int numsSize){
     
     return returnValue;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-# 最简单的方法是中序遍历一次然后排序再按照原来结构中序把数填回去
+// # 最简单的方法是中序遍历一次然后排序再按照原来结构中序把数填回去
 
-```go
+// ```go
 
     //方法一：直接中序
     func inorderAppend(root *TreeNode,array *[]int){
@@ -29,23 +29,23 @@
         iterator := 0
         inorderFill(root,array,&iterator)
     }
-```
-# 可以优化到O(1)的空间复杂度，使用Morris方法中序遍历二叉树，找到前后顺序出现问题的地方，进行交换即可
+// ```
+// # 可以优化到O(1)的空间复杂度，使用Morris方法中序遍历二叉树，找到前后顺序出现问题的地方，进行交换即可
 
-Morris遍历方法：
+// Morris遍历方法：
 
-1. 根节点初始化为`current`
-2. 如果`current`的左节点为空，输出该节点，同时`current = current.Right`
-3. 如果`current`的左节点不为空，那么先去找到这个节点左子树的最右边节点`leftRight`
-    - 首先`leftRight = current.Left`如果`leftRight`的右节点不为空且不为`current`，则循环`leftRight = leftRight.Right`
-        - 如果`leftRight`的右节点为空（也就是没有指向current），则`leftRight.Right = current  current = current.Left`（`leftRight`右节点指向当前`current`，`current`进入左子树）
-        - 如果pre的右节点为`current`，意味着这个`current`的左子树是完全遍历过了,那么恢复这个右节点`leftRight.Right = nil`，输出当前节点，`current`进入右子树，`current = current.right`
+// 1. 根节点初始化为`current`
+// 2. 如果`current`的左节点为空，输出该节点，同时`current = current.Right`
+// 3. 如果`current`的左节点不为空，那么先去找到这个节点左子树的最右边节点`leftRight`
+//     - 首先`leftRight = current.Left`如果`leftRight`的右节点不为空且不为`current`，则循环`leftRight = leftRight.Right`
+//         - 如果`leftRight`的右节点为空（也就是没有指向current），则`leftRight.Right = current  current = current.Left`（`leftRight`右节点指向当前`current`，`current`进入左子树）
+//         - 如果pre的右节点为`current`，意味着这个`current`的左子树是完全遍历过了,那么恢复这个右节点`leftRight.Right = nil`，输出当前节点，`current`进入右子树，`current = current.right`
 
-4. 重复2、3直到current为`nil`
+// 4. 重复2、3直到current为`nil`
 
-这里在遍历的时候可以加入一个prevent变量来记录上一个current，这样就能揪出中序遍历中那对错误的节点
+// 这里在遍历的时候可以加入一个prevent变量来记录上一个current，这样就能揪出中序遍历中那对错误的节点
 
-```go
+// ```go
 //方法二：Morris方法中序遍历+冒泡
 func recoverTree(root *TreeNode) {
     current := root
@@ -92,4 +92,4 @@ func recoverTree(root *TreeNode) {
     }
     firstNode.Val, secondNode.Val = secondNode.Val, firstNode.Val
 }
-```
+// ```

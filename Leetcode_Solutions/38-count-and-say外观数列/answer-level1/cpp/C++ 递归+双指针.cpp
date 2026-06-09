@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d51bd9e557c9465485db2e516161d0c4d9d6ed873efc6833b126d3085c1ff014-image.png)
-思路并不难，就是找出某一个值被重复了几次，这一块儿需要一个双指针，而依次往下找需要一个递归。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d51bd9e557c9465485db2e516161d0c4d9d6ed873efc6833b126d3085c1ff014-image.png)
+// 思路并不难，就是找出某一个值被重复了几次，这一块儿需要一个双指针，而依次往下找需要一个递归。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n)
@@ -45,4 +45,4 @@ public:
         return s;
     }
 };
-```
+// ```

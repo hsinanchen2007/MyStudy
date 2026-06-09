@@ -1,10 +1,10 @@
-### 解题思路
-题解参考
-[https://leetcode-cn.com/problems/linked-list-random-node/solution/xu-shui-chi-chou-yang-by-ccdmw/](类似的题目)
+// ### 解题思路
+// 题解参考
+// [https://leetcode-cn.com/problems/linked-list-random-node/solution/xu-shui-chi-chou-yang-by-ccdmw/](类似的题目)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private final int[] data;
@@ -34,4 +34,4 @@ class Solution {
  * Solution obj = new Solution(nums);
  * int param_1 = obj.pick(target);
  */
-```
+// ```

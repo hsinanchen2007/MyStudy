@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minCameraCover(TreeNode* root) {
@@ -44,4 +44,4 @@ public:
         return tmp;
     }
 };
-```
+// ```

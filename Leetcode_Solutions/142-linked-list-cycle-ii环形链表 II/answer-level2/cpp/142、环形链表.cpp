@@ -1,11 +1,11 @@
-### 解题思路
-快慢指针法
+// ### 解题思路
+// 快慢指针法
 
-1.只需要知道是否有环
-设置快慢指针，slow、fast各走一步，判断链表是否有环，没有的话fast再走一步
-快慢指针相等时即为有环
+// 1.只需要知道是否有环
+// 设置快慢指针，slow、fast各走一步，判断链表是否有环，没有的话fast再走一步
+// 快慢指针相等时即为有环
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -30,14 +30,14 @@ public:
         return false;
     }
 };
-```
+// ```
 
-2.需要知道环的入口节点
-设置快慢指针和相遇节点，slow、fast各走一步，判断链表是否有环，没有的话fast再走一步
-快慢指针相等时设置相遇节点
-head和meet同时遍历到一个点时即为环入口
+// 2.需要知道环的入口节点
+// 设置快慢指针和相遇节点，slow、fast各走一步，判断链表是否有环，没有的话fast再走一步
+// 快慢指针相等时设置相遇节点
+// head和meet同时遍历到一个点时即为环入口
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -85,4 +85,4 @@ public:
 
     }
 };
-```
+// ```

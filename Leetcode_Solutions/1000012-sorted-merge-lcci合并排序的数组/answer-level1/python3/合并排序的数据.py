@@ -1,9 +1,9 @@
-### 解题思路
-最笨的方法，A,B中加索引，按照索引位置进行比较，将B中元素插入A中正确的位置
+# ### 解题思路
+# 最笨的方法，A,B中加索引，按照索引位置进行比较，将B中元素插入A中正确的位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -33,4 +33,4 @@ class Solution:
                 j+=1
                 i+=1
                 continue  #若A当前元素不小于B当前元素，则将B当前元素插入A当前位置，然后pop掉A末尾的一个0，保持A长度不变，B向后移动一个位置，A也向后移动一个位置，但是k不变，因为A插入一个元素
-```
+# ```

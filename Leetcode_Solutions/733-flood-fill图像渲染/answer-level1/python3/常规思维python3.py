@@ -1,9 +1,9 @@
-### 解题思路
-思路：直接想到深度优先遍历，保存指定下标的值temp。2.遍历 判断条件 是否已经访问和是否等于第一个指定下标值。
+# ### 解题思路
+# 思路：直接想到深度优先遍历，保存指定下标的值temp。2.遍历 判断条件 是否已经访问和是否等于第一个指定下标值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
         #行
@@ -24,4 +24,4 @@ class Solution:
                     DFS(wi,wj)
         DFS(sr,sc)
         return image
-```
+# ```

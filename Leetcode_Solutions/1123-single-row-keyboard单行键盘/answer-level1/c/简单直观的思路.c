@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int calculateTime(char * keyboard, char * word){
     int i;
     int j;
@@ -22,4 +22,4 @@ int calculateTime(char * keyboard, char * word){
     }
     return sum;
 }
-```
+// ```

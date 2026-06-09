@@ -1,10 +1,10 @@
-### 解题思路
-1.
-排序+双指针
+# ### 解题思路
+# 1.
+# 排序+双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         # 特判：n=3，返回sum(nums)
@@ -51,4 +51,4 @@ class Solution:
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 '''
-```
+# ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def judgeSquareSum(c: Int): Boolean = {
     (0 to math.sqrt(c).toInt).foreach(i => {
@@ -8,4 +8,4 @@ object Solution {
     false
   }
 }
-```
+// ```

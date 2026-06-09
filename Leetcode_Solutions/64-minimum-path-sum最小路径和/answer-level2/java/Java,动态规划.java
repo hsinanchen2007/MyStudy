@@ -1,10 +1,10 @@
 
-状态转移公式: S(i,j)=min(S(i-1,j),S(i,j-1))+grid[i,j]
-其中：
-S(i,j)表示到达坐标i,j时，最小路径和。
-[此处](https://github.com/JessenPan/leetcode)有更多题解，欢迎关注
+// 状态转移公式: S(i,j)=min(S(i-1,j),S(i,j-1))+grid[i,j]
+// 其中：
+// S(i,j)表示到达坐标i,j时，最小路径和。
+// [此处](https://github.com/JessenPan/leetcode)有更多题解，欢迎关注
 
-```java
+// ```java
 public class Solution {
 
     private int[][] record;
@@ -37,5 +37,5 @@ public class Solution {
     }
 
 }
-```
+// ```
 

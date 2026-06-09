@@ -1,11 +1,11 @@
-### 解题思路和注意点
-因为涉及前后互换，所以自然想到双指针
-操作双指针要用好while
-while里面有index下标，操作的时候一定注意不要数组越界，加好判断
+// ### 解题思路和注意点
+// 因为涉及前后互换，所以自然想到双指针
+// 操作双指针要用好while
+// while里面有index下标，操作的时候一定注意不要数组越界，加好判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     static Set<Character> set = new HashSet<>();
 
@@ -40,4 +40,4 @@ class Solution {
         return String.valueOf(chars);
     }
 }
-```
+// ```

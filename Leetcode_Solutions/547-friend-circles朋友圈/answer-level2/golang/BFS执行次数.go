@@ -1,4 +1,4 @@
-```
+// ```
 // 对每个人执行BFS，如果已经执行过BFS，则跳过
 // 朋友圈的数量就是BFS的次数
 func findCircleNum(M [][]int) int {    
@@ -30,4 +30,4 @@ func findCircleNum(M [][]int) int {
 	return count
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
-Rust 使用快排方式找到元素
+// Rust 使用快排方式找到元素
 
-```rust
+// ```rust
 impl Solution {
   	fn par(nums: &mut [i32], k: i32) -> i32 {
 		let p = nums[0];
@@ -32,4 +32,4 @@ impl Solution {
 		Self::par(&mut nums[..], k)
 	}
 }
-```
+// ```

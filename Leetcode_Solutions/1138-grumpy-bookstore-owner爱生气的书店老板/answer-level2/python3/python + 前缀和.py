@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
 	def maxSatisfied(self, customers: List[int], grumpy: List[int], X:int) -> int:
 		# use sum_prefix
@@ -23,4 +23,4 @@ class Solution:
 			val = no_angry[i] - no_angry[i - X] + angry[i - X] + (angry[l] - angry[i])
 			res = max(res, val)
 		return res
-```
+# ```

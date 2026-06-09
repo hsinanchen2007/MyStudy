@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def treeToDoublyList0(self, root: 'Node') -> 'Node':
         if not root: return 
@@ -58,4 +58,4 @@ class Solution:
             pre, cur = cur, cur.right
         pre.right = dummy.right
         return dummy.right
-```
+# ```

@@ -1,16 +1,16 @@
-#### 方法一： 并查集
+# #### 方法一： 并查集
 
-**思路**
+# **思路**
 
-设 $W = \max(A[i])$，$R = \sqrt{W}$。对于数组 $A$ 中的每个数，最多只有一个非本身的质因数 $p$ 满足 $p \geq R$。
+# 设 $W = \max(A[i])$，$R = \sqrt{W}$。对于数组 $A$ 中的每个数，最多只有一个非本身的质因数 $p$ 满足 $p \geq R$。
 
-这就意味着最多只有 $R + A\text{.length}$ 个不同的质因数： 为本身的质因数最多有 $A\text{.length}$ 个，非本身的质因数一定比 $R$ 小，最多有 $R$ 个。 
+# 这就意味着最多只有 $R + A\text{.length}$ 个不同的质因数： 为本身的质因数最多有 $A\text{.length}$ 个，非本身的质因数一定比 $R$ 小，最多有 $R$ 个。 
 
-**算法**
+# **算法**
 
-提取数组 $A$ 中每个数的质因数，对每个质因数建立索引。接着，用并查集把 $A$ 中的质因数合并起来。最后计算每个集合的大小。
+# 提取数组 $A$ 中每个数的质因数，对每个质因数建立索引。接着，用并查集把 $A$ 中的质因数合并起来。最后计算每个集合的大小。
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public int largestComponentSize(int[] A) {
         int N = A.length;
@@ -82,9 +82,9 @@ class DSU {
         parent[find(x)] = find(y);
     }
 }
-```
+# ```
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class DSU:
     def __init__(self, N):
         self.p = range(N)
@@ -126,10 +126,10 @@ class Solution(object):
 
         count = collections.Counter(dsu.find(prime_to_index[facs[0]]) for facs in B)
         return max(count.values())
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度： $O(N\sqrt{W})$，其中 $N$ 是 `A` 的长度，$W = \max(A[i])$。
+# * 时间复杂度： $O(N\sqrt{W})$，其中 $N$ 是 `A` 的长度，$W = \max(A[i])$。
 
-* 空间复杂度： $O(N)$。
+# * 空间复杂度： $O(N)$。

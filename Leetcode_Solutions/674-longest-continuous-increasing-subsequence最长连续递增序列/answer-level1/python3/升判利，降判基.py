@@ -1,9 +1,9 @@
-### 解题思路
-升判利，降判基
+# ### 解题思路
+# 升判利，降判基
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
         n = len(nums)
@@ -22,4 +22,4 @@ class Solution:
                 a = i 
             pre = nums[i]
         return max_len
-```
+# ```

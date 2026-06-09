@@ -1,5 +1,5 @@
-1.DP 时间复杂度O(n²) 空间复杂度O(n)
-```
+# 1.DP 时间复杂度O(n²) 空间复杂度O(n)
+# ```
 def leetcode_678(s):
 	if not s or s[0]==")":
 		return not s
@@ -28,9 +28,9 @@ def leetcode_678(s):
 				if i:
 					situ[i-1]=True
 	return situ[0]
-```
-2.贪心算法 时间复杂度O(n) 空间复杂度O(1)
-```
+# ```
+# 2.贪心算法 时间复杂度O(n) 空间复杂度O(1)
+# ```
 def leetcode_678(s):
 	legt=len(s)
 	le,ri=0,0 #le表示→遍历 "*"+"("的个数   ri表示←遍历 "*"+")"的个数
@@ -47,4 +47,4 @@ def leetcode_678(s):
 		if ri*2<(legt-i):
 			return False #"("太多了 直接就是False
 	return True
-```
+# ```

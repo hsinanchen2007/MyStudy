@@ -1,6 +1,6 @@
-执行用时 :9 ms, 在所有 java 提交中击败了92.53% 的用户
-内存消耗 :39.2 MB, 在所有 java 提交中击败了100.00%的用户
-```
+// 执行用时 :9 ms, 在所有 java 提交中击败了92.53% 的用户
+// 内存消耗 :39.2 MB, 在所有 java 提交中击败了100.00%的用户
+// ```
 class Solution {
     class peopleCompare implements Comparator<int[]>{
         public int compare(int[] o1, int[] o2){
@@ -18,4 +18,4 @@ class Solution {
         return list.toArray(new int[list.size()][2]);
     }
 }
-```
+// ```

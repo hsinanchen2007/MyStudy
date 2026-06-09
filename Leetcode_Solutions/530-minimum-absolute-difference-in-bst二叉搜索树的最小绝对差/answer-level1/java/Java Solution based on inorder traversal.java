@@ -1,6 +1,6 @@
-As we know, inorder traversal of binary tree is sorted in asending order, which means we can use every contineous two elements to compute the min difference val.
+// As we know, inorder traversal of binary tree is sorted in asending order, which means we can use every contineous two elements to compute the min difference val.
 
-```
+// ```
     public int getMinimumDifference(TreeNode root) {
         int minDiff = Integer.MAX_VALUE;
         if (root != null) {
@@ -25,4 +25,4 @@ As we know, inorder traversal of binary tree is sorted in asending order, which 
         }
         return minDiff;
     }
-```
+// ```

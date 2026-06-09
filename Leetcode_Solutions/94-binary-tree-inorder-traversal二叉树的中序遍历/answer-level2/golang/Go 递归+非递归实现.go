@@ -1,5 +1,5 @@
-# **递归实现**
-```
+// # **递归实现**
+// ```
 func inorderTraversal(root *TreeNode) []int {
     if root == nil{
         return nil
@@ -12,10 +12,10 @@ func inorderTraversal(root *TreeNode) []int {
     res = append(res,tmp2...)
     return res
 }
-```
+// ```
 
-# **非递归实现**
-```
+// # **非递归实现**
+// ```
 func inorderTraversal(root *TreeNode) []int {
     if root == nil{
         return nil
@@ -34,5 +34,5 @@ func inorderTraversal(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```
 

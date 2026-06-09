@@ -1,9 +1,9 @@
-### 解题思路
-中心扩展法更快，主要是因为能够更早地截断遍历（即：一旦有首尾字符不一致立刻return）。
+// ### 解题思路
+// 中心扩展法更快，主要是因为能够更早地截断遍历（即：一旦有首尾字符不一致立刻return）。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // dp
 func countSubstrings(s string) int {
     length := len(s)
@@ -44,4 +44,4 @@ func countPalindrome(s string, start, end int) int {
     return count
 }
 
-```
+// ```

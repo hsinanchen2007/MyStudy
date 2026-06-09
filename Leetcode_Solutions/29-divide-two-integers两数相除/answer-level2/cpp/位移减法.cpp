@@ -1,6 +1,6 @@
-位移，然后做减法求解
+// 位移，然后做减法求解
 
-```
+// ```
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

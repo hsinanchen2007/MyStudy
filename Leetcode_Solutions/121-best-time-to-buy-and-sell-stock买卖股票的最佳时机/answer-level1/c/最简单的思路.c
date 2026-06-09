@@ -1,10 +1,10 @@
-### 解题思路
-2层循环，为了防止先卖后买的情况，内层循环的开始值>外层循环值。
+// ### 解题思路
+// 2层循环，为了防止先卖后买的情况，内层循环的开始值>外层循环值。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
 
     int minBuy = 0;
@@ -31,4 +31,4 @@ int maxProfit(int* prices, int pricesSize){
     return maxPro;
 }
 
-```
+// ```

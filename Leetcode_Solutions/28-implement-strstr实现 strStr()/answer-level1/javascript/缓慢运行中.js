@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-前两个if语句很容易理解，接着找第一个匹配的字符，在第一匹配字符的索引开始，匹配needle长度减一个字符进行比较看是否匹配
-needle.length == count 匹配 否则j++继续进行寻找，最终找不到返回-1
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 前两个if语句很容易理解，接着找第一个匹配的字符，在第一匹配字符的索引开始，匹配needle长度减一个字符进行比较看是否匹配
+// needle.length == count 匹配 否则j++继续进行寻找，最终找不到返回-1
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -30,4 +30,4 @@ var strStr = function(haystack, needle) {
     }
     return -1;
 };
-```
+// ```

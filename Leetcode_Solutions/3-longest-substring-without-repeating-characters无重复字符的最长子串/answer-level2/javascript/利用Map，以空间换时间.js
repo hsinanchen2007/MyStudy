@@ -1,12 +1,12 @@
-### 解题思路
-两个指针，一个指向上次最近重复的字符，一个用于遍历。
-遍历时利用Map来判断是否含有重复元素
-每次发现重复letter时存下当前最大的子串长度。
-时间复杂度O(n)，空间复杂度O(n)
+// ### 解题思路
+// 两个指针，一个指向上次最近重复的字符，一个用于遍历。
+// 遍历时利用Map来判断是否含有重复元素
+// 每次发现重复letter时存下当前最大的子串长度。
+// 时间复杂度O(n)，空间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -28,4 +28,4 @@ var lengthOfLongestSubstring = function(s) {
     tempMaxLength = Math.max(right - left , tempMaxLength);
     return tempMaxLength;
 };
-```
+// ```

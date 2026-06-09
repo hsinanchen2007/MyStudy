@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @param {string[]} wordDict
@@ -31,4 +31,4 @@ var wordBreak = function(s, wordDict) {
     }
     return false;
 };
-```
+// ```

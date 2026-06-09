@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-正则
-
-### 代码
 // 正则
-```javascript
+
+// ### 代码
+// // 正则
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -12,9 +12,9 @@
 var freqAlphabets = function(s) {
     return s.replace(/(\d{2}(?=#)\#)|(\d{1})/g, a => String.fromCharCode(parseInt(a) + 96));
 };
-```
+// ```
 
-````javascript
+// ````javascript
 // 遍历比较
 /**
  * @param {string} s
@@ -35,4 +35,4 @@ var freqAlphabets = function(s) {
     }
     return result;
 };
-````
+// ````

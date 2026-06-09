@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         res = 0
@@ -18,6 +18,6 @@ class Solution:
         self.dfs(grid,i-1,j)
         self.dfs(grid,i,j+1)
         self.dfs(grid,i,j-1)
-```
-执行用时 :148 ms, 在所有 Python3 提交中击败了90.93% 的用户
-内存消耗 :13.7 MB, 在所有 Python3 提交中击败了90.23%的用户
+# ```
+# 执行用时 :148 ms, 在所有 Python3 提交中击败了90.93% 的用户
+# 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了90.23%的用户

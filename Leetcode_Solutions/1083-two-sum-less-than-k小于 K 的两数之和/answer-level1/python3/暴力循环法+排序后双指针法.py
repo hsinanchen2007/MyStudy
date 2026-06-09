@@ -1,6 +1,6 @@
-- 暴力循环的时间复杂度是O(n^2)
-- 先排序再使用双指正的时间复杂度是O(n\*logN + N), 也就是O(n\*logN)
-```
+# - 暴力循环的时间复杂度是O(n^2)
+# - 先排序再使用双指正的时间复杂度是O(n\*logN + N), 也就是O(n\*logN)
+# ```
 class Solution:
     def twoSumLessThanK(self, A: List[int], K: int) -> int:
         # 1. 暴力for循环
@@ -23,4 +23,4 @@ class Solution:
             else:
                 right -= 1
         return ans 
-```
+# ```

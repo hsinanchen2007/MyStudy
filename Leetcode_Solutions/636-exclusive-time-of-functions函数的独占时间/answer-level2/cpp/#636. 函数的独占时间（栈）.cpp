@@ -1,5 +1,5 @@
-***Talk is cheap. Show me the code.***
-``` cpp
+// ***Talk is cheap. Show me the code.***
+// ``` cpp
 class Solution {
 public:
     vector<int> exclusiveTime(int n, vector<string>& logs) {
@@ -25,7 +25,7 @@ public:
         return result;
     }
 };
-```
-![1112.png](https://pic.leetcode-cn.com/dc2269d7a70ec17397d80715f3266df779361a6741a45ff4fe6ccb095a40afbf-1112.png)
+// ```
+// ![1112.png](https://pic.leetcode-cn.com/dc2269d7a70ec17397d80715f3266df779361a6741a45ff4fe6ccb095a40afbf-1112.png)
 
-发现：从字符串log 中提取 id，action，time，尝试过 istringstream::getline 和 string::substr 两种方式，后者速度更快。
+// 发现：从字符串log 中提取 id，action，time，尝试过 istringstream::getline 和 string::substr 两种方式，后者速度更快。

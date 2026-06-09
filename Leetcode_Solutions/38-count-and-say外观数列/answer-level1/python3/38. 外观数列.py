@@ -1,9 +1,9 @@
-### 解题思路
-根据题目逻辑
+# ### 解题思路
+# 根据题目逻辑
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         # 建立动规数组，分别保存1到n的结果
@@ -28,4 +28,4 @@ class Solution:
 
 
 
-```
+# ```

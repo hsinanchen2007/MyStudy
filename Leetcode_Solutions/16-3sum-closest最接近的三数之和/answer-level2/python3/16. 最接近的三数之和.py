@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         if len(nums) < 3:
@@ -25,4 +25,4 @@ class Solution:
                 else:
                     return res
         return res
-```
+# ```

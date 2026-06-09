@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def carPooling(self, trips, capacity):
         """
@@ -17,6 +17,6 @@ class Solution(object):
                 return False
         return True
     
-```
-范围0-1000
-上车为正，下车为负，遍历。
+# ```
+# 范围0-1000
+# 上车为正，下车为负，遍历。

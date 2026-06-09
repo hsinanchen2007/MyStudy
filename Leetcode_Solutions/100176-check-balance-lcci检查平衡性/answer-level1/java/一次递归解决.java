@@ -1,4 +1,4 @@
-```
+// ```
 private int getHeight(TreeNode root) {
         if (root == null) {
             return 0;
@@ -23,4 +23,4 @@ private int getHeight(TreeNode root) {
     public boolean isBalanced(TreeNode root) {
         return getHeight(root) != -1;
     }
-```
+// ```

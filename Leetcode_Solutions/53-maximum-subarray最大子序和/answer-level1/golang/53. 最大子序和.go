@@ -1,4 +1,4 @@
-```
+// ```
 //暴力找到所有子数组，
 func maxSubArray(nums []int) int {
     var max,tmpSiz int 
@@ -38,4 +38,4 @@ func maxSubArray(nums []int) int {
     }
     return ans
 }
-```
+// ```

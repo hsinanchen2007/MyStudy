@@ -1,5 +1,5 @@
-暴力匹配+字典，写得一手烂代码 crying....
-```python
+# 暴力匹配+字典，写得一手烂代码 crying....
+# ```python
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         if not s or not words: return None
@@ -37,4 +37,4 @@ class Solution:
             
         return res
                 
-```
+# ```

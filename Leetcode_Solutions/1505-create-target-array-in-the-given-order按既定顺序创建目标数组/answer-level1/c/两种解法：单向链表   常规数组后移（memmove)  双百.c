@@ -1,17 +1,17 @@
-## 介绍
-两种解法：单向链表   常规数组后移（memmove)  双百
+// ## 介绍
+// 两种解法：单向链表   常规数组后移（memmove)  双百
 
-## 1.单向链表
-### 解题思路
-插入操作，第一种想到的就是链表。耗时和内存和常规解法没有差别，但是手写还是有点耗时，建议面试的时候用常规解法。
-1. 创建链表基本操作：创建和插入
-2. 把nums根据index插入链表，要注意三个点
-	(1) 头节点记录
-	(2) 第一个节点的创建
-	(3) 把节点插入到第一个位置时，需要注意插入顺序和判空
-3. 根据节点输出返回结果
-show code
-```c
+// ## 1.单向链表
+// ### 解题思路
+// 插入操作，第一种想到的就是链表。耗时和内存和常规解法没有差别，但是手写还是有点耗时，建议面试的时候用常规解法。
+// 1. 创建链表基本操作：创建和插入
+// 2. 把nums根据index插入链表，要注意三个点
+// 	(1) 头节点记录
+// 	(2) 第一个节点的创建
+// 	(3) 把节点插入到第一个位置时，需要注意插入顺序和判空
+// 3. 根据节点输出返回结果
+// show code
+// ```c
 //单向链表
  struct list {
 	int val;
@@ -85,16 +85,16 @@ int* createTargetArray(int* nums, int numsSize, int* index, int indexSize, int* 
 	return retArr;
 }
 
-```
+// ```
 
-## 2.常规解法
-### 解题思路
-不赘述了，使用memmove操作，避免了一个个数字的后移。
-一开始memmove操作用错了，dst和src弄反了，原型是memmove(dst,src,size)，注意size是字节数,后移长度注意要修改，避免越界
-memmove比较好用的是，不用在意内存地址重叠。
+// ## 2.常规解法
+// ### 解题思路
+// 不赘述了，使用memmove操作，避免了一个个数字的后移。
+// 一开始memmove操作用错了，dst和src弄反了，原型是memmove(dst,src,size)，注意size是字节数,后移长度注意要修改，避免越界
+// memmove比较好用的是，不用在意内存地址重叠。
 
-show code
-```c
+// show code
+// ```c
 int* createTargetArray(int* nums, int numsSize, int* index, int indexSize, int* returnSize) {
 	int* retArr = calloc(sizeof(int),indexSize);
 	*returnSize = indexSize;
@@ -108,4 +108,4 @@ int* createTargetArray(int* nums, int numsSize, int* index, int indexSize, int* 
     return retArr;
 }
 
-```
+// ```

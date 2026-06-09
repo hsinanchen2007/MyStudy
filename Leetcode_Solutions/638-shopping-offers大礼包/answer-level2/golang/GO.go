@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
-内存消耗 :5.7 MB, 在所有 Go 提交中击败了90.00%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
+// 内存消耗 :5.7 MB, 在所有 Go 提交中击败了90.00%的用户
+// ### 代码
 
-```golang
+// ```golang
 func shoppingOffers(price []int, special [][]int, needs []int) int {
     maps := make(map[string]int)
     return shopping(price, special, needs, maps)
@@ -52,4 +52,4 @@ func Min(a, b int) int {
     }
     return a
 }
-```
+// ```

@@ -1,7 +1,7 @@
-# 解法一：暴力递归模拟
-每一步可以选择是否copy_all，如果不选择copy_all，那么就只能粘贴上一次复制的结果。
+# # 解法一：暴力递归模拟
+# 每一步可以选择是否copy_all，如果不选择copy_all，那么就只能粘贴上一次复制的结果。
 
-```
+# ```
 class Solution1:
     def minSteps(self, n: int) -> int:
         if n == 1:
@@ -21,20 +21,20 @@ class Solution1:
         
         dfs(1, 1, 1)
         return self.minmun
-```
+# ```
 
-# 解法二：动态规划 （类素数筛法的思想）
-注意到递归的过程中，本质上就是不同的clipboard_len递增后的结果，而dp[i]会取决于dp[j] (j < i)的最小值，也就符合动态规划中最优子结构的特性。
+# # 解法二：动态规划 （类素数筛法的思想）
+# 注意到递归的过程中，本质上就是不同的clipboard_len递增后的结果，而dp[i]会取决于dp[j] (j < i)的最小值，也就符合动态规划中最优子结构的特性。
 
-dp[i] = min(dp[i-clipboard_len] + 1) + 1  --> clipboard_len < i && i % clipboard_len == 0  
+# dp[i] = min(dp[i-clipboard_len] + 1) + 1  --> clipboard_len < i && i % clipboard_len == 0  
 
-解释：min(dp[i-clipboard_len] + 1 <粘贴操作>) + 1 <初始的复制操作>
+# 解释：min(dp[i-clipboard_len] + 1 <粘贴操作>) + 1 <初始的复制操作>
 
-i % clipboard_len == 0 的要求是因为一旦选定clipboard_len，那么每次粘贴都会增加clipboard_len的长度，即 clipboard_len * n = i
+# i % clipboard_len == 0 的要求是因为一旦选定clipboard_len，那么每次粘贴都会增加clipboard_len的长度，即 clipboard_len * n = i
 
-时间复杂度O(n²)，空间复杂度O(n)
+# 时间复杂度O(n²)，空间复杂度O(n)
 
-```
+# ```
 class Solution:
     def minSteps(self, n: int) -> int:
         if n == 1:
@@ -52,4 +52,4 @@ class Solution:
 
         # print(dp)
         return dp[-1]
-```
+# ```

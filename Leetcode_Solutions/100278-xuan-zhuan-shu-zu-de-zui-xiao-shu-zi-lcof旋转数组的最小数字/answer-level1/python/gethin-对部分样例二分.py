@@ -1,27 +1,27 @@
-同主站习题 [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+# 同主站习题 [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
 
-### 解题思路
-这一题实际上只能对部分样例二分，对有一些样例二分法是无法使用的。
+# ### 解题思路
+# 这一题实际上只能对部分样例二分，对有一些样例二分法是无法使用的。
 
 
 
 
-#### 这里使用二分，一定要弄清楚其代表的含义, 从左到右还是从右到左也要清楚
-+ 搜索从左到右第一个严格小于 nums[0] 的元素
-+ 也可以搜索从左到右 （或从右到左， 由于只有一个）第一个比其左边数严格小的数。
-见 [gelthin-线性递减数-二分查找bug](https://leetcode-cn.com/problems/construct-the-rectangle/solution/gelthin-xian-xing-di-jian-shu-by-gelthin/)
-从左边和从右边搜索的不同。
+# #### 这里使用二分，一定要弄清楚其代表的含义, 从左到右还是从右到左也要清楚
+# + 搜索从左到右第一个严格小于 nums[0] 的元素
+# + 也可以搜索从左到右 （或从右到左， 由于只有一个）第一个比其左边数严格小的数。
+# 见 [gelthin-线性递减数-二分查找bug](https://leetcode-cn.com/problems/construct-the-rectangle/solution/gelthin-xian-xing-di-jian-shu-by-gelthin/)
+# 从左边和从右边搜索的不同。
 
 
-#### 但是单纯二分并不对。 
-例如，[10,1,10,10,10] 过不了，只取得了 numbers[mid] 值，没有任何规律判断该修改 left 还是 right
-#### 还是得同时和两边判断， 需要引入两边值 numbers[left], numbers[right] 的大小关系 
+# #### 但是单纯二分并不对。 
+# 例如，[10,1,10,10,10] 过不了，只取得了 numbers[mid] 值，没有任何规律判断该修改 left 还是 right
+# #### 还是得同时和两边判断， 需要引入两边值 numbers[left], numbers[right] 的大小关系 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         n = len(numbers)
@@ -60,4 +60,4 @@ class Solution:
                     right = mid
 
         return numbers[left]
-```
+# ```

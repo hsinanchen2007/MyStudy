@@ -1,13 +1,13 @@
-### 解题思路
-在数独I的基础上，采用递归+回溯的方式进行探测求解，用三个字典列表对填充数字进行标记。处理好尝试失败后的状态回溯即可。
-因为最多也就只有81个空位，所以递归深度不会溢出。
+# ### 解题思路
+# 在数独I的基础上，采用递归+回溯的方式进行探测求解，用三个字典列表对填充数字进行标记。处理好尝试失败后的状态回溯即可。
+# 因为最多也就只有81个空位，所以递归深度不会溢出。
 
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/1fbc4b4c94840e5abe656d02f8b30155ae9ae8651f00408e38376f5db114e8cf-image.png)
+# ### 执行结果
+# ![image.png](https://pic.leetcode-cn.com/1fbc4b4c94840e5abe656d02f8b30155ae9ae8651f00408e38376f5db114e8cf-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
@@ -64,5 +64,5 @@ class Solution:
         locs = getLocs(board)
         fillBoard(board, locs)
 
-```
-最后，低调推荐个人公众号：[小数志](https://pic.leetcode-cn.com/962ebbb357f15acd99bfcc5dc74188fc9f2a3492e73bca90b673428d5c1c7559-image.png)
+# ```
+# 最后，低调推荐个人公众号：[小数志](https://pic.leetcode-cn.com/962ebbb357f15acd99bfcc5dc74188fc9f2a3492e73bca90b673428d5c1c7559-image.png)

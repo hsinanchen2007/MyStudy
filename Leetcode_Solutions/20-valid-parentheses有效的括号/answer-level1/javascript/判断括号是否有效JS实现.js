@@ -1,9 +1,9 @@
-### 解题思路
-经典的栈问题，通过数组简单实现。最后栈为空即为合法。效率高。
+// ### 解题思路
+// 经典的栈问题，通过数组简单实现。最后栈为空即为合法。效率高。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -29,4 +29,4 @@ var isValid = function(s) {
     }
     return stack.length === 0
 };
-```
+// ```

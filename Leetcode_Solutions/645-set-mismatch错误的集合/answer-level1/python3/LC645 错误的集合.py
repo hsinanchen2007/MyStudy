@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         '''
@@ -16,4 +16,4 @@ class Solution:
         drop_num = sum_n - numsum + dup_num # 计算缺失数字
         return [dup_num,drop_num]
         
-```
+# ```

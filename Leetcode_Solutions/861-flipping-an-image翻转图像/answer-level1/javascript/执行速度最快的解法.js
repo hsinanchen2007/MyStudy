@@ -1,4 +1,4 @@
-```
+// ```
 var flipAndInvertImage = function (A) {
 
     for (let i = 0; i < A.length; i++) {
@@ -15,4 +15,4 @@ var flipAndInvertImage = function (A) {
     }
     return A
 };
-```
+// ```

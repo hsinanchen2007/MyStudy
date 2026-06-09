@@ -1,6 +1,6 @@
-递归和迭代两种方法都能做
-递归：
-```
+// 递归和迭代两种方法都能做
+// 递归：
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -19,9 +19,9 @@ public:
         }
     }
 };
-```
-迭代：
-```
+// ```
+// 迭代：
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -43,4 +43,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-![leetcode.jpg](https://pic.leetcode-cn.com/e4027084ad82d1c3ae1e05ab1ab5b4ff2d23bbf5404833091aa8e76fc9990f64-leetcode.jpg)
+// ![leetcode.jpg](https://pic.leetcode-cn.com/e4027084ad82d1c3ae1e05ab1ab5b4ff2d23bbf5404833091aa8e76fc9990f64-leetcode.jpg)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return last == 0;
     }
 };
-```
+// ```

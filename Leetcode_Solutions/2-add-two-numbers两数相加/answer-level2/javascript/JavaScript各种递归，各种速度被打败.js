@@ -1,6 +1,6 @@
-链表递归作和，和为数组，数组进位处理，最终转链表。
+// 链表递归作和，和为数组，数组进位处理，最终转链表。
 
-```
+// ```
 // 定义节点
 class Node {
   constructor(val) {
@@ -54,4 +54,4 @@ var addTwoNumbers = function(l1, l2) {
   // 转链表
   return new NodeList(result);
 };
-```
+// ```

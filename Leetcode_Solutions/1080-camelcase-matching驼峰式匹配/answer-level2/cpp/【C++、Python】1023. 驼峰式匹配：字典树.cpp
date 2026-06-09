@@ -1,14 +1,14 @@
-### 字典树 ###
-- 感觉本题使用字典树有些不划算，不过既然带着这个标签，姑且贴一种解法
-- 思路比较简单，很方便改成其他方法
-#### 思路 ####
-- 将 $pattern$ 插入字典树，标记出末尾字符
-- 对 $queries$ 中的每个字符串，逐个字符进行匹配
-  - 若小写字母不能匹配，直接忽略
-  - 若大写字母不能匹配，返回 $false$
-  - 最后检查是否到达末尾
-#### 代码 ####
-```cpp []
+// ### 字典树 ###
+// - 感觉本题使用字典树有些不划算，不过既然带着这个标签，姑且贴一种解法
+// - 思路比较简单，很方便改成其他方法
+// #### 思路 ####
+// - 将 $pattern$ 插入字典树，标记出末尾字符
+// - 对 $queries$ 中的每个字符串，逐个字符进行匹配
+//   - 若小写字母不能匹配，直接忽略
+//   - 若大写字母不能匹配，返回 $false$
+//   - 最后检查是否到达末尾
+// #### 代码 ####
+// ```cpp []
 class Solution {
 public:
     struct TreeNode {
@@ -47,8 +47,8 @@ public:
         return res;
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class TreeNode:
     def __init__(self):
         self.end = False
@@ -74,4 +74,4 @@ class Solution:
         Trie = TreeNode()
         Trie.add(pattern)
         return tuple(Trie.find(q) for q in queries)
-```
+// ```

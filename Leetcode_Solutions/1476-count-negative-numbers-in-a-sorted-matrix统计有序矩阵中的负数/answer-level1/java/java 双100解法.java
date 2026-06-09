@@ -1,9 +1,9 @@
-### 解题思路
-嵌套循环，碰到负数就跳过之后的
+// ### 解题思路
+// 嵌套循环，碰到负数就跳过之后的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         int m = grid.length;
@@ -24,4 +24,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

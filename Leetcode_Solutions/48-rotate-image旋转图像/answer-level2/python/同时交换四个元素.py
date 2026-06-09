@@ -1,9 +1,9 @@
-### 解题思路
-同时交换四个元素
+# ### 解题思路
+# 同时交换四个元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
                     matrix[i][j],matrix[j][x-1-i]=matrix[j][x-1-i],matrix[i][j]
                     matrix[i][j],matrix[x-1-i][x-1-j]=matrix[x-1-i][x-1-j],matrix[i][j]
                     matrix[i][j],matrix[x-1-j][i]=matrix[x-1-j][i],matrix[i][j]
-```
+# ```

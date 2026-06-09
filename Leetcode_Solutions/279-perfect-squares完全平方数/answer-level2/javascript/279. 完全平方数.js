@@ -1,12 +1,12 @@
-#### 各类算法模板
-+ [BFS](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
-#### 解法一：动态规划
-+ 时间复杂度：O(n$\sqrt{n}$)
-+ 空间复杂度：O(n)
-+ 思路
-  + 状态定义：```dp[i]```：表示当前数字```i```最少有几个平方数构成
-  + 转移方程：```dp[i] = min(dp[i],dp[i - j*j] + 1)```
-```javascript
+// #### 各类算法模板
+// + [BFS](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
+// #### 解法一：动态规划
+// + 时间复杂度：O(n$\sqrt{n}$)
+// + 空间复杂度：O(n)
+// + 思路
+//   + 状态定义：```dp[i]```：表示当前数字```i```最少有几个平方数构成
+//   + 转移方程：```dp[i] = min(dp[i],dp[i - j*j] + 1)```
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -21,9 +21,9 @@ var numSquares = function(n) {
     }
     return dp[n];
 };
-```
-#### 解法二：BFS
-```javascript
+// ```
+// #### 解法二：BFS
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -53,14 +53,14 @@ var numSquares = function(n) {
     }
     return level;
 };
-```
-#### 解法三：拉格朗日四平方和定理
-+ 定义
-  + 每个正整数均可表示为4个整数的平方和。
-  + 它是费马多边形数定理和华林问题的特例。
-+ 参考文献
-  + [拉格朗日四平方和定理证明](https://zhuanlan.zhihu.com/p/104030654)
-```javascript
+// ```
+// #### 解法三：拉格朗日四平方和定理
+// + 定义
+//   + 每个正整数均可表示为4个整数的平方和。
+//   + 它是费马多边形数定理和华林问题的特例。
+// + 参考文献
+//   + [拉格朗日四平方和定理证明](https://zhuanlan.zhihu.com/p/104030654)
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -79,9 +79,9 @@ var numSquares = function(n) {
     }
     return 3;
 };
-```
-+ 位运算进阶版
-```javascript
+// ```
+// + 位运算进阶版
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -100,4 +100,4 @@ var numSquares = function(n) {
     }
     return 3;
 };
-```
+// ```

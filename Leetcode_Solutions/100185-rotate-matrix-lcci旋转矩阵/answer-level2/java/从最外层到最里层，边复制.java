@@ -1,17 +1,17 @@
-### 解题思路
-上面
-tmp=top;top = left
-右边
-tmp2=right;right=tmp;
-下面
-tmp=bottom;bottom=tmp2;
-左边
-left=tmp
+// ### 解题思路
+// 上面
+// tmp=top;top = left
+// 右边
+// tmp2=right;right=tmp;
+// 下面
+// tmp=bottom;bottom=tmp2;
+// 左边
+// left=tmp
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -43,4 +43,4 @@ class Solution {
 
     }
 }
-```
+// ```

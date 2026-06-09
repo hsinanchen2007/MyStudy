@@ -1,10 +1,10 @@
-### 解题思路
-申请10001个int空间比较浪费，但是能提高速度。
+// ### 解题思路
+// 申请10001个int空间比较浪费，但是能提高速度。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gongYueShu(int A,int B)
 {
     return A%B==0?B:gongYueShu(B,A%B);
@@ -31,4 +31,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 }
 
 
-```
+// ```

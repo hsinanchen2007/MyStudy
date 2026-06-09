@@ -1,9 +1,9 @@
-### 解题思路
-在回溯中，若在某一条件下有多种可能，用for循环实现即可
+// ### 解题思路
+// 在回溯中，若在某一条件下有多种可能，用for循环实现即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> list = new ArrayList();
     
@@ -49,4 +49,4 @@ class Solution {
         
     }
 }
-```
+// ```

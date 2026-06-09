@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinimumLengthEncoding(string[] words) {
 
@@ -28,13 +28,13 @@ public class Solution {
             return res;
     }
 }
-```
+// ```
 
-学到的字典树
+// 学到的字典树
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
       private class LetterTree
         {
@@ -76,4 +76,4 @@ public class Solution {
             return min;
     }
 }
-```
+// ```

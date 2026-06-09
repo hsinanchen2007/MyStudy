@@ -1,10 +1,10 @@
-### 解题思路
-来自评论区的方法做改动；
-zip/set/map/list，都用上了
+# ### 解题思路
+# 来自评论区的方法做改动；
+# zip/set/map/list，都用上了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             else:
                 break
         return "".join(result_chars)
-```
+# ```

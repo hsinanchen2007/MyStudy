@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
 
 if(!head||!(head->next)||(m==n)) return head;
@@ -44,8 +44,8 @@ head=dummy->next;
 free(dummy);//释放空间
 return head;
 }
-```
-```
+// ```
+// ```
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n) {
 	if (!head ||!(head->next)|| (m==n)) 
 		return head;
@@ -98,4 +98,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n) {
 
 	return head;
 }
-```
+// ```

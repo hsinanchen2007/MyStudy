@@ -1,4 +1,4 @@
-```go
+// ```go
 package t0029
 
 import (
@@ -94,4 +94,4 @@ func find(s int, d int) (left, count int) {
 	return
 }
 
-```
+// ```

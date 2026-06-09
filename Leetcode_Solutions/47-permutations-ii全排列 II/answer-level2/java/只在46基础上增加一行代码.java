@@ -1,7 +1,7 @@
 
-#只在46题基础上修改一行代码
+// #只在46题基础上修改一行代码
 
-```python
+// ```python
 from copy import deepcopy
 
 class Solution:
@@ -25,4 +25,4 @@ class Solution:
             self._permuteUnique(nums, record, result)
             nums.append(x)
             record.pop(-1)
-```
+// ```

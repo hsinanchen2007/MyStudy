@@ -1,14 +1,14 @@
-### 解题思路
-    首先就是要找到needle首字母再haystack出现的地方；
-    然后从当前出现首字母位置i出发，用两个下标j和k分别在原字符串和目标字符串中对比；
-    如果对比出现不一样，那就再在haystack中找下一个与needle首字母匹配的位置；
-    如果匹配完成，则返回当前i的位置；
-    如果i已经超出两字符串长度差数，那就不可能匹配的到了，于是返回-1；
-    如果needle是空，则返回原字符串首字母位置0；
+// ### 解题思路
+//     首先就是要找到needle首字母再haystack出现的地方；
+//     然后从当前出现首字母位置i出发，用两个下标j和k分别在原字符串和目标字符串中对比；
+//     如果对比出现不一样，那就再在haystack中找下一个与needle首字母匹配的位置；
+//     如果匹配完成，则返回当前i的位置；
+//     如果i已经超出两字符串长度差数，那就不可能匹配的到了，于是返回-1；
+//     如果needle是空，则返回原字符串首字母位置0；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         char[] source = haystack.toCharArray();
@@ -35,4 +35,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-我的时间复杂度应该是O（max(len(a)、len(b)）吧，也没有辅助空间。为什么用时228ms 内存28.5MB？
+# ### 解题思路
+# 我的时间复杂度应该是O（max(len(a)、len(b)）吧，也没有辅助空间。为什么用时228ms 内存28.5MB？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
                 q=q.next
         return None
 
-```
+# ```

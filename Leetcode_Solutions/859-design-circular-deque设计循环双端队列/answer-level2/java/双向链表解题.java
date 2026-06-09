@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用双向链表实现
-2. 借助守卫节点头（head）、尾（tail)实现，快速获取真实头尾数据
+// ### 解题思路
+// 1. 使用双向链表实现
+// 2. 借助守卫节点头（head）、尾（tail)实现，快速获取真实头尾数据
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCircularDeque {
 
     private int totalCapacity;
@@ -179,4 +179,4 @@ class MyCircularDeque {
  * boolean param_7 = obj.isEmpty();
  * boolean param_8 = obj.isFull();
  */
-```
+// ```

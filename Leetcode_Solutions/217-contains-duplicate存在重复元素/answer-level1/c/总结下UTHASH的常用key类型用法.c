@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用UTHASH。
-2. leetcode给的例子只有整形。附一个更全的例子。
+// ### 解题思路
+// 1. 使用UTHASH。
+// 2. leetcode给的例子只有整形。附一个更全的例子。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef struct hashNode {
     int val;
@@ -32,10 +32,10 @@ bool containsDuplicate(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```
 
 
-```c
+// ```c
 struct node {
     int userid; /* int type key */
     char name[10]; /* string type key */
@@ -65,4 +65,4 @@ HASH_FIND_STR(table, "aaa", elem);
 HASH_ADD_PTR(htable, ptr, elem);
 HASH_FIND_PTR(htable, &someaddr, elem);
 
-```
+// ```

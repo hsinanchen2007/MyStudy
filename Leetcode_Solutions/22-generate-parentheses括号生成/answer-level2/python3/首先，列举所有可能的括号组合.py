@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         source = ['(',')']
@@ -29,4 +29,4 @@ class Solution:
         res = []
         trackBack('',2*n)
         return res
-```
+# ```

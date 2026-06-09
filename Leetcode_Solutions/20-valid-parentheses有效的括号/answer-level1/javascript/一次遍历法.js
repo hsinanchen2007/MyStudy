@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -17,5 +17,5 @@ var isValid = function(s) {
     }
     return !leftArr.length
 };
-```
-左半边括号存入数组，第一个出现的右半边括号必须匹配存入数组的最后一项
+// ```
+// 左半边括号存入数组，第一个出现的右半边括号必须匹配存入数组的最后一项

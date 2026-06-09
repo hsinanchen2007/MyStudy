@@ -1,9 +1,9 @@
-### 解题思路
-防止内存溢出即可
+// ### 解题思路
+// 防止内存溢出即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(char *s){
     if(s=="") return 1;
     int str_len = strlen(s);
@@ -21,4 +21,4 @@ bool isPalindrome(char *s){
     }
     return 1;
 }
-```
+// ```

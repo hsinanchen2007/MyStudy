@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-典型的空间换时间
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 典型的空间换时间
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int[] arr = new int[nums.length];
@@ -27,4 +27,4 @@ class Solution {
 
     }
 }
-```
+// ```

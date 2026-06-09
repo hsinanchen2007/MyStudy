@@ -1,9 +1,9 @@
-### 解题思路
-#### 思路 1：
-根据题意，模拟，不断删除叶子节点
-#### 代码
+// ### 解题思路
+// #### 思路 1：
+// 根据题意，模拟，不断删除叶子节点
+// #### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> findLeaves(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -41,13 +41,13 @@ class Solution {
     }
 
 }
-```
+// ```
 
-#### 思路二：
-后序遍历：
-1. 对于叶子节点来说，它的高度为 0
-2. 对于非叶子节点来说，它的高度为 max(left, right) + 1
-```
+// #### 思路二：
+// 后序遍历：
+// 1. 对于叶子节点来说，它的高度为 0
+// 2. 对于非叶子节点来说，它的高度为 max(left, right) + 1
+// ```
 private int deletedLeafNode(TreeNode root, List<List<Integer>> res) {
     if (root == null) {
         return -1;
@@ -61,4 +61,4 @@ private int deletedLeafNode(TreeNode root, List<List<Integer>> res) {
     res.get(currentLevel).add(root.val);
     return currentLevel;
 }
-```
+// ```

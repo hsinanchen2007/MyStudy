@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，同时保留最大积和最小积，因为乘法会翻转。
-另外，切忌用宏的时候，要有完备的括号。
+// ### 解题思路
+// 动态规划，同时保留最大积和最小积，因为乘法会翻转。
+// 另外，切忌用宏的时候，要有完备的括号。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(A, B) ((A) > (B) ? (A) : (B))
 #define MIN(A, B) ((A) < (B) ? (A) : (B))
 int maxProduct(int* nums, int numsSize){
@@ -23,4 +23,4 @@ int maxProduct(int* nums, int numsSize){
 
     return pro;
 }
-```
+// ```

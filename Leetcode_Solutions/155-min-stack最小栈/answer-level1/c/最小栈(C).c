@@ -1,9 +1,9 @@
-### 解题思路
-用单链表实现链栈，用一个变量min_val保存栈中元素的最小值，每次入栈出栈时比较更新min_val即可。
+// ### 解题思路
+// 用单链表实现链栈，用一个变量min_val保存栈中元素的最小值，每次入栈出栈时比较更新min_val即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct tagNode{
     int val;
     struct tagNode *next;

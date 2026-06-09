@@ -1,10 +1,10 @@
-### 解题思路
-方法一、
-要想能够均匀分成三部分，则每一部分都应该为和的三分之一
-如果还没遍历完整个数组就找到了三个等于和的三分之一的数组，说明后面的值的和为零
-### 代码
+// ### 解题思路
+// 方法一、
+// 要想能够均匀分成三部分，则每一部分都应该为和的三分之一
+// 如果还没遍历完整个数组就找到了三个等于和的三分之一的数组，说明后面的值的和为零
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -26,9 +26,9 @@ var canThreePartsEqualSum = function(A) {
     }
     return count >=3;
 };
-```
-方法二、双指针
-```
+// ```
+// 方法二、双指针
+// ```
 var canThreePartsEqualSum = function(A) {
     var left=0,right= A.length-1;
     var leftsum=A[left],rightsum=A[right];
@@ -53,4 +53,4 @@ var canThreePartsEqualSum = function(A) {
     }
     return false;
 };
-```
+// ```

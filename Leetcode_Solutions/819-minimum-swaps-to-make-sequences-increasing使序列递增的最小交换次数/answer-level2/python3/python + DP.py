@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minSwap(self, A: List[int], B: List[int]) -> int:
         # non-zero length
@@ -20,4 +20,4 @@ class Solution:
             pre_ori = a
             pre_rev = b
         return min(pre_ori, pre_rev)
-```
+# ```

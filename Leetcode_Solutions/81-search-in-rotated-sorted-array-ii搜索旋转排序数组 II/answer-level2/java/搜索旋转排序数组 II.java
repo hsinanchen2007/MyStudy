@@ -1,5 +1,5 @@
-循坏、递归都可以做，递归更清晰些；
-```
+// 循坏、递归都可以做，递归更清晰些；
+// ```
 import java.util.*;
 class Solution {
     public boolean search(int[] nums, int target) {
@@ -37,6 +37,6 @@ class Solution {
         }
     }
 }
-```
-![截屏2020-01-19下午2.39.42.png](https://pic.leetcode-cn.com/971889d53ab3a01398af5f90009ebfc919f29121f4342340f3f0fdd5b6429051-%E6%88%AA%E5%B1%8F2020-01-19%E4%B8%8B%E5%8D%882.39.42.png)
+// ```
+// ![截屏2020-01-19下午2.39.42.png](https://pic.leetcode-cn.com/971889d53ab3a01398af5f90009ebfc919f29121f4342340f3f0fdd5b6429051-%E6%88%AA%E5%B1%8F2020-01-19%E4%B8%8B%E5%8D%882.39.42.png)
 

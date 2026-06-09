@@ -1,9 +1,9 @@
-### 解题思路
-原地修改,不过大家都是0s耗时,做下记录
+// ### 解题思路
+// 原地修改,不过大家都是0s耗时,做下记录
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -50,4 +50,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -19,4 +19,4 @@ public:
         return getTargetCopy(original->right,cloned->right,target);
     }
 };
-```
+// ```

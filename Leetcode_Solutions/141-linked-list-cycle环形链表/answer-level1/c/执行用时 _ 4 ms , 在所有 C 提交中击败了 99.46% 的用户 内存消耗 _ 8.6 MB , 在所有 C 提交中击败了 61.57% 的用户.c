@@ -1,9 +1,9 @@
-### 解题思路
-利用快慢指针，实现对环路的判断
+// ### 解题思路
+// 利用快慢指针，实现对环路的判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ bool hasCycle(struct ListNode *head) {
 
     
 }
-```
+// ```

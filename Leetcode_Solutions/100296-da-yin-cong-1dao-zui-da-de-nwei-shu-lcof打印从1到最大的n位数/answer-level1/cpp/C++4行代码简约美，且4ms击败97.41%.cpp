@@ -1,10 +1,10 @@
-### 解题思路
-代码思路很简单，一看就懂。
-![image.png](https://pic.leetcode-cn.com/07e352e245887155b376504f6545d6bb4111039024a8574b7db44a0ec27cef5d-image.png)
+// ### 解题思路
+// 代码思路很简单，一看就懂。
+// ![image.png](https://pic.leetcode-cn.com/07e352e245887155b376504f6545d6bb4111039024a8574b7db44a0ec27cef5d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <string>
 class Solution {
 public:
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

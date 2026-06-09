@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNumberIn2DArray(matrix [][]int, target int) bool {
    var re bool
    for _,v := range matrix{
@@ -30,4 +30,4 @@ func two(a []int,m int)bool{
     }
     return false
 }
-```
+// ```

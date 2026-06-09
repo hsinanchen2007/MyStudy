@@ -1,10 +1,10 @@
-## 解题思路
-push了就肯定能pop
-pop了就肯定能push
-维护当前用了多少空间nowused = 栈个数 * capacity ——来O1反应出能不能push、pop
-利用TreeSet的自动排序，增删 logn, 比遍历On好得多
-因为只删除顶（可以理解为链尾）用链表删除O1，数组都行，这题不影响
-```
+// ## 解题思路
+// push了就肯定能pop
+// pop了就肯定能push
+// 维护当前用了多少空间nowused = 栈个数 * capacity ——来O1反应出能不能push、pop
+// 利用TreeSet的自动排序，增删 logn, 比遍历On好得多
+// 因为只删除顶（可以理解为链尾）用链表删除O1，数组都行，这题不影响
+// ```
 import java.util.*;
 
 /**
@@ -159,4 +159,4 @@ class DinnerPlates {
  * int param_2 = obj.pop();
  * int param_3 = obj.popAtStack(index);
  */
-```
+// ```

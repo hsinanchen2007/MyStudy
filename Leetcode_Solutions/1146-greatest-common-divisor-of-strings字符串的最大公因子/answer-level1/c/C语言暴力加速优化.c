@@ -1,7 +1,7 @@
-C语言暴力加速优化
-![image.png](https://pic.leetcode-cn.com/265302dac8f799467cdbc5d61aa33b6a12e6ef3642b017b1bc37204ce46a04a8-image.png)
+// C语言暴力加速优化
+// ![image.png](https://pic.leetcode-cn.com/265302dac8f799467cdbc5d61aa33b6a12e6ef3642b017b1bc37204ce46a04a8-image.png)
 
-```c
+// ```c
 #define MAX_SIZE 1005
 int g_arr[MAX_SIZE];
 int g_index;
@@ -76,4 +76,4 @@ char * gcdOfStrings(char * str1, char * str2){
     }
     return ret;
 }
-```
+// ```

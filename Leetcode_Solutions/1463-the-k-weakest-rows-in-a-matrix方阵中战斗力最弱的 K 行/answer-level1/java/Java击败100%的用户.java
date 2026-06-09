@@ -1,5 +1,5 @@
-其实，就是一列一列的遍历数据，遇到0就将当前所在行号压入结果。最后，再补齐不够的部分。其中，需要一个flag数组来标记某行是否已经加入结果。代码如下：
-```java
+// 其实，就是一列一列的遍历数据，遇到0就将当前所在行号压入结果。最后，再补齐不够的部分。其中，需要一个flag数组来标记某行是否已经加入结果。代码如下：
+// ```java
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
         int[] res=new int[k];
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

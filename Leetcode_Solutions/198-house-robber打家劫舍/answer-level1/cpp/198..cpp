@@ -1,7 +1,7 @@
-# dp[0][i]:1~i且第i个不选的最大和
-# dp[1][i]:1~i且第i个选上的最大和
-# ans=max(dp[0][n-1],dp[1][n-1])
-```
+// # dp[0][i]:1~i且第i个不选的最大和
+// # dp[1][i]:1~i且第i个选上的最大和
+// # ans=max(dp[0][n-1],dp[1][n-1])
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return max(dp[0][n-1],dp[1][n-1]);
     }
 };
-```
+// ```

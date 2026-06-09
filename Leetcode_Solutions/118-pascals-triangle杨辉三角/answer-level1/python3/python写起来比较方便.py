@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         res = []
@@ -21,4 +21,4 @@ class Solution:
                     tmp.append(1)
             res.append(tmp)
         return res
-```
+# ```

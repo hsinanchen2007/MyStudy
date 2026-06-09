@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestSubstring(self, s: str, k: int) -> int:
         if not s:
@@ -42,4 +42,4 @@ class Solution:
                 mi += 1
         Max = max(Max,mi)
         return Max
-```
+# ```

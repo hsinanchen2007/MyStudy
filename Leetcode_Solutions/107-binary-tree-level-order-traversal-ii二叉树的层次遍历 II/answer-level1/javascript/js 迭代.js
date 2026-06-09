@@ -1,6 +1,6 @@
-感觉比较low 用了一点js特性，和reverse。
-但是代码量 应该是算少的了。
-```js
+// 感觉比较low 用了一点js特性，和reverse。
+// 但是代码量 应该是算少的了。
+// ```js
 var levelOrderBottom = function(root) {
     if (!root) return [];
     let arr = [];
@@ -17,4 +17,4 @@ var levelOrderBottom = function(root) {
     work(root, 0);
     return arr.reverse();
 };
-```
+// ```

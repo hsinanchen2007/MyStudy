@@ -1,9 +1,9 @@
-### 解题思路
-1.使用string数组存储十六进制对应字符串，迭代遍历将字符串加入答案中。
+// ### 解题思路
+// 1.使用string数组存储十六进制对应字符串，迭代遍历将字符串加入答案中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string toHex(int num1) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

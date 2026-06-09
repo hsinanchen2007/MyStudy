@@ -1,6 +1,6 @@
-每当我们在找到n.Next.Val=n.Val的时候，就发现重复的元素了，这时让一个指针去往下走，一直走到重复元素结束为止，然后更改链表。
+// 每当我们在找到n.Next.Val=n.Val的时候，就发现重复的元素了，这时让一个指针去往下走，一直走到重复元素结束为止，然后更改链表。
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -39,4 +39,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	}
 	return node
 }
-```
+// ```

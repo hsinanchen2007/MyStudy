@@ -1,4 +1,4 @@
-采用了long long型变量，因为计算过程中int有溢出的情况。
+// 采用了long long型变量，因为计算过程中int有溢出的情况。
 
 class Solution {
 public:

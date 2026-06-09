@@ -1,6 +1,6 @@
-思路：遍历节点，算出每个节点的出度和入度。如果一个节点是法官，那么该节点的入度为 N-1,出度为 0，如果没有这种节点，返回 -1。
-C++ 版代码：
-```
+// 思路：遍历节点，算出每个节点的出度和入度。如果一个节点是法官，那么该节点的入度为 N-1,出度为 0，如果没有这种节点，返回 -1。
+// C++ 版代码：
+// ```
 class Solution {
 public:
     int findJudge(int N, vector<vector<int>>& trust) {
@@ -21,12 +21,12 @@ public:
         return -1;
     }
 };
-```
+// ```
 
 
-Java 版代码：
+// Java 版代码：
 
-```
+// ```
 class Solution {
     public int findJudge(int N, int[][] trust) {
         int inDegree[]  = new int[1001];       // 定义两个数组分别存储每一个节点的入度和出度
@@ -46,4 +46,4 @@ class Solution {
 		return -1;  
     }
 }
-```
+// ```

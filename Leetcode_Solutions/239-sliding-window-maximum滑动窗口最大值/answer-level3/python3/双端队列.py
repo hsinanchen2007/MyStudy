@@ -1,5 +1,5 @@
 
-```
+# ```
 from collections import deque
 class Solution:
     def maxSlidingWindow(self, nums, k):
@@ -39,4 +39,4 @@ if __name__ == "__main__":
     nums = [6,2,-1,0]
     k=3
     print(s.maxSlidingWindow(nums, k))
-```
+# ```

@@ -1,6 +1,6 @@
-click here
+// click here
 
-```
+// ```
 typedef enum
 {
     NONE = 0,
@@ -74,4 +74,4 @@ int myAtoi(char * str){
 
     return (int)num;
 }
-```
+// ```

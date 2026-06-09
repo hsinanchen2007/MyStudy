@@ -1,4 +1,4 @@
-```
+// ```
 int removeDuplicates(int *nums, int numsSize)
 {
     if (numsSize == 0)
@@ -12,4 +12,4 @@ int removeDuplicates(int *nums, int numsSize)
         }
     return i + 1;
 }
-```
+// ```

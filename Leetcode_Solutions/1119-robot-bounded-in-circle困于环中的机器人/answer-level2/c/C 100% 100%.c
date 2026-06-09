@@ -1,10 +1,10 @@
-### 解题思路
-走一遍才知道！
+// ### 解题思路
+// 走一遍才知道！
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isRobotBounded(char *instructions)
 {
     if (instructions == NULL) {
@@ -75,4 +75,4 @@ bool isRobotBounded(char *instructions)
     }
     return false;
 }
-```
+// ```

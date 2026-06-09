@@ -1,4 +1,4 @@
-```
+// ```
 // Ref: https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/solution/0he-shui-yu-du-shi-0-by-powcai/
 func rangeBitwiseAnd(m int, n int) int {
 	var (
@@ -13,4 +13,4 @@ func rangeBitwiseAnd(m int, n int) int {
 	}
 	return m << i
 }
-```
+// ```

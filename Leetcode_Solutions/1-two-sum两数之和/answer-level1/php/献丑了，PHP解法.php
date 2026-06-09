@@ -1,6 +1,6 @@
-执行用时 12 ms
-内存消耗 20.4 MB
-```
+// 执行用时 12 ms
+// 内存消耗 20.4 MB
+// ```
 class Solution {
 
     /**
@@ -29,13 +29,13 @@ class Solution {
         return [];
     }
 }
-```
+// ```
 
-看其他大神的解答才想起来有个array_flip函数可用，array_flip可以覆盖前面的键，所以可以更精简
+// 看其他大神的解答才想起来有个array_flip函数可用，array_flip可以覆盖前面的键，所以可以更精简
 
-执行用时 12 ms
-内存消耗 16.8 MB
-```
+// 执行用时 12 ms
+// 内存消耗 16.8 MB
+// ```
 class Solution {
 
     /**
@@ -55,5 +55,5 @@ class Solution {
         return [];
     }
 }
-```
+// ```
 

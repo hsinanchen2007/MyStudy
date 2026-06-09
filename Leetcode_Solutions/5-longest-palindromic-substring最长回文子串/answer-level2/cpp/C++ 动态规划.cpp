@@ -1,9 +1,9 @@
-### 解题思路
-设dp[j][i](写成j,i跟代码统一)是Sj...Si回文串的长度，如果不是回文串，则为0。
+// ### 解题思路
+// 设dp[j][i](写成j,i跟代码统一)是Sj...Si回文串的长度，如果不是回文串，则为0。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -28,4 +28,4 @@ public:
         return s.substr(result.first, result.second - result.first + 1);
     }
 };
-```
+// ```

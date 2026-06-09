@@ -1,5 +1,5 @@
-思路和官方一致，dict[key]=value,value为set（）
-```
+# 思路和官方一致，dict[key]=value,value为set（）
+# ```
     def canCross(self, stones: List[int]) -> bool:
         if not stones:return False
         stones_set = set(stones)
@@ -16,4 +16,4 @@
                 if key - 1 > 0 and (stoneKey - 1) in stones_set:
                     stones_dict[stoneKey - 1].add(key - 1)
         return not(not (stones_dict[stones[-1]]))
-```
+# ```

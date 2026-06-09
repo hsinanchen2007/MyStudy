@@ -1,5 +1,5 @@
-- 头插法，不需要额外的空间
-```
+// - 头插法，不需要额外的空间
+// ```
 struct ListNode* reverseList(struct ListNode* head){
     struct ListNode* p = head;
     struct ListNode* q = NULL;
@@ -16,4 +16,4 @@ struct ListNode* reverseList(struct ListNode* head){
     q = p;
     return q;
 }
-```
+// ```

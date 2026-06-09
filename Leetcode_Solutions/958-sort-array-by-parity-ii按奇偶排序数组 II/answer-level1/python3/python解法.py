@@ -1,10 +1,10 @@
-### 解题思路
-先把基数偶数分别分到新建的两个列表里，再将他们填入A列表
-执行用时 :252 ms, 在所有 Python 提交中击败了19.14%的用户
-内存消耗 :13.8 MB, 在所有 Python 提交中击败了78.00%的用户
-### 代码
+# ### 解题思路
+# 先把基数偶数分别分到新建的两个列表里，再将他们填入A列表
+# 执行用时 :252 ms, 在所有 Python 提交中击败了19.14%的用户
+# 内存消耗 :13.8 MB, 在所有 Python 提交中击败了78.00%的用户
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortArrayByParityII(self, A):
         """
@@ -29,4 +29,4 @@ class Solution(object):
         return A
 
 
-```
+# ```

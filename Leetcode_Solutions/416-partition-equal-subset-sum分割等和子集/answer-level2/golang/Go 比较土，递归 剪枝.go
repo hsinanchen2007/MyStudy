@@ -1,9 +1,9 @@
-### 解题思路
-比较土，递归 剪枝
+// ### 解题思路
+// 比较土，递归 剪枝
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func helpfind(id, sum, avg int, nums []int) bool {
 	if id >= len(nums) {
@@ -37,4 +37,4 @@ func canPartition(nums []int) bool {
 	return helpfind(0, 0, avg, nums)
 
 }
-```
+// ```

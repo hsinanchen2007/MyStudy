@@ -1,10 +1,10 @@
 
-top() : 利用top记录栈顶的元素
-push() : 在尾部加上元素，标记top
-pop() : 将队列首部 移动 size()-1个到尾部，并删除队首（此时队首就是队尾，也就是栈顶）
-empty() ： 不用多说
+// top() : 利用top记录栈顶的元素
+// push() : 在尾部加上元素，标记top
+// pop() : 将队列首部 移动 size()-1个到尾部，并删除队首（此时队首就是队尾，也就是栈顶）
+// empty() ： 不用多说
 
-```java
+// ```java
 class MyStack {
     Queue<Integer> q = null;
     private int top = 0;
@@ -39,4 +39,4 @@ class MyStack {
         return q.isEmpty();
     }
 }
-```
+// ```

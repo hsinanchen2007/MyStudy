@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int kConcatenationMaxSum(int* arr, int arrSize, int k){
 //如果arr全为正数
 //如果arr全为负数 
@@ -34,4 +34,4 @@ int kConcatenationMaxSum(int* arr, int arrSize, int k){
     }
     return max;
 }
-```
+// ```

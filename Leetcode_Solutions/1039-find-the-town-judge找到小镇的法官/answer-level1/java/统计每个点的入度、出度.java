@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组trust，统计出每个人的入度和出度。法官满足条件入度为N-1，出度为0。
+// ### 解题思路
+// 遍历数组trust，统计出每个人的入度和出度。法官满足条件入度为N-1，出度为0。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findJudge(int N, int[][] trust) {
       int[] indegree=new int[N+1];
@@ -22,4 +22,4 @@ class Solution {
       return -1;
     }
 }
-```
+// ```

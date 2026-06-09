@@ -1,26 +1,26 @@
-### 解题思路
-我用字符串的方式记录并判断是否是障碍的时候，系统提示超时。
-//我的方法
-ArrayList<String> allobstacles = new ArrayList<>();
-for (int[] obstacle: obstacles) 
-{
-        String str = String.valueOf(obstacle[0]) + "," +  String.valueOf(obstacle[1])+ ",";
-        allobstacles.add(str);
-}
+// ### 解题思路
+// 我用字符串的方式记录并判断是否是障碍的时候，系统提示超时。
+// //我的方法
+// ArrayList<String> allobstacles = new ArrayList<>();
+// for (int[] obstacle: obstacles) 
+// {
+//         String str = String.valueOf(obstacle[0]) + "," +  String.valueOf(obstacle[1])+ ",";
+//         allobstacles.add(str);
+// }
 
-看了官方文档，用下面的方式替代
-Set<Long> obstacleSet = new HashSet();
-for (int[] obstacle: obstacles) 
-{
-    long ox = (long) obstacle[0] + 30000;
-    long oy = (long) obstacle[1] + 30000;
-    obstacleSet.add((ox << 16) + oy);
-}
+// 看了官方文档，用下面的方式替代
+// Set<Long> obstacleSet = new HashSet();
+// for (int[] obstacle: obstacles) 
+// {
+//     long ox = (long) obstacle[0] + 30000;
+//     long oy = (long) obstacle[1] + 30000;
+//     obstacleSet.add((ox << 16) + oy);
+// }
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
         int[] dx = new int[]{0, 1, 0, -1};
@@ -59,4 +59,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-注意先按rating降序再按id降序排序。
-```
+# 注意先按rating降序再按id降序排序。
+# ```
 class Solution:
     def filterRestaurants(self, restaurants: List[List[int]], veganFriendly: int, maxPrice: int, maxDistance: int) -> List[int]:
         for rest in restaurants:
@@ -13,4 +13,4 @@ class Solution:
             if rest[1]:
                 a.append(rest[0])
         return a
-```
+# ```

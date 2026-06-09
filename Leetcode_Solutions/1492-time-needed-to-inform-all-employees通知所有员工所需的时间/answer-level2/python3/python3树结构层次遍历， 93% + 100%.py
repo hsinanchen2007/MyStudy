@@ -1,11 +1,11 @@
-### 解题思路
-注意几个点：
-1. n == 1的时候的特殊情况
-2. 最耗时的未必在最后一层
-这题比较类似于代价最长的路径
-### 代码
+# ### 解题思路
+# 注意几个点：
+# 1. n == 1的时候的特殊情况
+# 2. 最耗时的未必在最后一层
+# 这题比较类似于代价最长的路径
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
         if n == 1:
@@ -36,4 +36,4 @@ class Solution:
                     next_level.append((sub, informTime[item] + pre_time))
             temp_level = next_level
         return total_time
-```
+# ```

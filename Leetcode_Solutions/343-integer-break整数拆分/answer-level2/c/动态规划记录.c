@@ -1,11 +1,11 @@
-### 解题思路
-先用递归，一直能分割到1，当分割到i的时候，就在下面三个值中，选取一个最大值：之前存放的dp[i]，i*(n-i)和i*（n-i）继续分割后的最大值。
-![1.JPG](https://pic.leetcode-cn.com/43120364d06bb369b43e537e1d9f8bb8b104d36185f33d63fb928fa77e16cc54-1.JPG)
+// ### 解题思路
+// 先用递归，一直能分割到1，当分割到i的时候，就在下面三个值中，选取一个最大值：之前存放的dp[i]，i*(n-i)和i*（n-i）继续分割后的最大值。
+// ![1.JPG](https://pic.leetcode-cn.com/43120364d06bb369b43e537e1d9f8bb8b104d36185f33d63fb928fa77e16cc54-1.JPG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max(int a, int b)
 {
     if (a > b)
@@ -45,4 +45,4 @@ int integerBreak(int n){
 
     return dp[n];
 }
-```
+// ```

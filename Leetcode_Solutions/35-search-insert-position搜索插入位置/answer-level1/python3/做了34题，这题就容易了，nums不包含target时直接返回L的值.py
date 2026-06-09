@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         l, r = 0, len(nums)-1
@@ -11,4 +11,4 @@ class Solution:
             elif nums[mid] > target:
                 r = mid - 1
         return l
-```
+# ```

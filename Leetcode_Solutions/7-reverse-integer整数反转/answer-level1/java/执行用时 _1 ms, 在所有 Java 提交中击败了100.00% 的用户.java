@@ -1,9 +1,9 @@
-### 解题思路
-很普通的思路，似乎遇到了bug，，，1ms(＠_＠; )
+// ### 解题思路
+// 很普通的思路，似乎遇到了bug，，，1ms(＠_＠; )
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
      
@@ -17,4 +17,4 @@ class Solution {
             return (int)temp;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-即维护两个指针，leftmost_unfull和rightmost_noempty,每次操作的时候都更新这两个指针。
+// ### 解题思路
+// 即维护两个指针，leftmost_unfull和rightmost_noempty,每次操作的时候都更新这两个指针。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class DinnerPlates {
 private:
     vector<stack<int>> stk;
@@ -65,4 +65,4 @@ public:
         return val;
     }
 };
-```
+// ```

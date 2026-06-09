@@ -1,8 +1,8 @@
-先排序，利用排序后数组的有序性，当三数之和大于目标值时让右指针左移，当三数之和小于目标值时让左指针右移
+// 先排序，利用排序后数组的有序性，当三数之和大于目标值时让右指针左移，当三数之和小于目标值时让左指针右移
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution 
 {
     public int ThreeSumClosest(int[] nums, int target) 
@@ -34,4 +34,4 @@ public class Solution
         //}
     }
 }
-```
+// ```

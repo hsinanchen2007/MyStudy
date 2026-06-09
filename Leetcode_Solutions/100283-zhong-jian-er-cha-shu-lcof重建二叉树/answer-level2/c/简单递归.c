@@ -1,11 +1,11 @@
-### 解题思路
-前序只用来取根节点。中序被根节点分拆左右子树。
-i表示根在中序中的索引，理论上用二分查找更快。
-![image.png](https://pic.leetcode-cn.com/cabe9f3f6560ea2c775e9956329c3b4cc373e0babf67d37ae9ef6f7aa8d91b45-image.png)
+// ### 解题思路
+// 前序只用来取根节点。中序被根节点分拆左右子树。
+// i表示根在中序中的索引，理论上用二分查找更快。
+// ![image.png](https://pic.leetcode-cn.com/cabe9f3f6560ea2c775e9956329c3b4cc373e0babf67d37ae9ef6f7aa8d91b45-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct TreeNode *buildTree(int *preorder, int preorderSize, int *inorder, int inorderSize)
 {
 	if (!preorderSize)
@@ -24,4 +24,4 @@ struct TreeNode *buildTree(int *preorder, int preorderSize, int *inorder, int in
 
 	return root;
 }
-```
+// ```

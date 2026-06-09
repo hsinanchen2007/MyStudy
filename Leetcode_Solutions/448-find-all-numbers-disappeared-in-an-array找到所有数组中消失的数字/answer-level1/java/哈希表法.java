@@ -1,10 +1,10 @@
-### 解题思路
-用一个数组存储从1到n每个数字是否出现，出现为1，未出现为0。
-将未出现的数字保存到List集合。
+// ### 解题思路
+// 用一个数组存储从1到n每个数字是否出现，出现为1，未出现为0。
+// 将未出现的数字保存到List集合。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List res = new ArrayList();
@@ -24,4 +24,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

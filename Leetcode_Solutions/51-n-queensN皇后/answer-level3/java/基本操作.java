@@ -1,4 +1,4 @@
-```
+// ```
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> res = new ArrayList<>();
         backTrack(res, new int[n][n], 0, n);
@@ -44,4 +44,4 @@
         }
         return res;
     }
-```
+// ```

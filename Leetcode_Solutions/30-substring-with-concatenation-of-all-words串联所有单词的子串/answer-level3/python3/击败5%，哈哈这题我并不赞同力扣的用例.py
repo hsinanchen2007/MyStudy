@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         try:
@@ -46,4 +46,4 @@ class Solution:
                 list1 = words[:]
             if i > leng2:
                 return(list2)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-/* 遍历全部节点，并将每一个节点的next指向前一节点 */
+// ### 解题思路
+// /* 遍历全部节点，并将每一个节点的next指向前一节点 */
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,4 +24,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return res;                 //当前节点为空，前一节点res即原链表的最后一个节点
 }
-```
+// ```

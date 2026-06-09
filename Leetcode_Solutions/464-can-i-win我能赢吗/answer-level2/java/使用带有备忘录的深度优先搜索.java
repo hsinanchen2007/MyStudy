@@ -1,7 +1,7 @@
 
-重点在于使用bit保存当前使用过的数字
+// 重点在于使用bit保存当前使用过的数字
 
-```java
+// ```java
 class Solution {
     public boolean canIWin(int maxChoosableInteger, int desiredTotal) {
         int canReachTotal = (1 + maxChoosableInteger) * maxChoosableInteger / 2;
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

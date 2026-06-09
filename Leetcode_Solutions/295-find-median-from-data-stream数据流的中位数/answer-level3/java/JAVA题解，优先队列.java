@@ -1,6 +1,6 @@
-使用两个优先队列。
+// 使用两个优先队列。
 
-```java
+// ```java
 class MedianFinder {
 
     PriorityQueue<Integer> up = new PriorityQueue();
@@ -68,4 +68,4 @@ class MedianFinder {
     }
 }
 
-```
+// ```

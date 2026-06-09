@@ -1,5 +1,5 @@
-把上一题稍微改了一下
-```
+# 把上一题稍微改了一下
+# ```
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         if (not candidates):
@@ -18,4 +18,4 @@ class Solution:
         helper(0, [], target)
         return res
 
-```
+# ```

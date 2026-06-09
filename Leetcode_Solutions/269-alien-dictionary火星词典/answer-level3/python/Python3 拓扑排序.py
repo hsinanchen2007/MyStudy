@@ -1,9 +1,9 @@
-拓扑排序并不难，只要之前做过一次类似的题。
-其实前面获得字典序的过程，还是稍微有点麻烦的，同样做过类似题最好。
-按照列遍历单词获得字典序，存入dict，key是前序，value是后序。
-只需要遍历删除掉不在 value 里的 key 就可以了。
+# 拓扑排序并不难，只要之前做过一次类似的题。
+# 其实前面获得字典序的过程，还是稍微有点麻烦的，同样做过类似题最好。
+# 按照列遍历单词获得字典序，存入dict，key是前序，value是后序。
+# 只需要遍历删除掉不在 value 里的 key 就可以了。
 
-```python
+# ```python
 import collections
 import itertools
 # from pprint import pprint
@@ -34,4 +34,4 @@ class Solution:
         if alphabet:
             return ''
         return res
-```
+# ```

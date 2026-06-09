@@ -1,9 +1,9 @@
-### 解题思路
-中心扩散法，分别探索目标串为奇数长度和偶数长度，以及偶数长度时左侧长和右侧长的情况。
+# ### 解题思路
+# 中心扩散法，分别探索目标串为奇数长度和偶数长度，以及偶数长度时左侧长和右侧长的情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         count, max_, ret, now = 0, 0, "", ""
@@ -35,4 +35,4 @@ class Solution:
             if count > max_:
                 max_, ret = count, now
         return ret
-```
+# ```

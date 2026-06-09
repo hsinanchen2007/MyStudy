@@ -1,8 +1,8 @@
-- 版本一：双候选模板
+// - 版本一：双候选模板
 
-先找到和 x 最接近的两个数，再向两边扩展。不过这个方法在 k 值较大的时候会退化，因此比较傻。
+// 先找到和 x 最接近的两个数，再向两边扩展。不过这个方法在 k 值较大的时候会退化，因此比较傻。
 
-```cpp
+// ```cpp
 vector<int> findClosestElements(vector<int>& arr, int k, int x) {
     if (arr.size() == 1) return arr; 
     // 双候选
@@ -26,15 +26,15 @@ vector<int> findClosestElements(vector<int>& arr, int k, int x) {
     }
     return vector<int>(res.begin(), res.end());
 }
-```
+// ```
 
-- 版本二：lowerbound 模板
+// - 版本二：lowerbound 模板
 
-这才是最优解法：只寻找左边界即可。
+// 这才是最优解法：只寻找左边界即可。
 
-思路：假设 mid 是左边界，则当前区间覆盖的范围是 [mid, mid + k -1]. 如果发现 a[mid] 与 x 距离比 a[mid + k] 与 x 的距离要大，说明解一定在右侧。
+// 思路：假设 mid 是左边界，则当前区间覆盖的范围是 [mid, mid + k -1]. 如果发现 a[mid] 与 x 距离比 a[mid + k] 与 x 的距离要大，说明解一定在右侧。
 
-```
+// ```
 vector<int> findClosestElements(vector<int>& arr, int k, int x) {
     int lo = 0, hi = arr.size() - k;
     while (lo < hi) {
@@ -47,5 +47,5 @@ vector<int> findClosestElements(vector<int>& arr, int k, int x) {
     }
     return vector<int>(arr.begin() + lo, arr.begin() + lo + k);
 }
-```
+// ```
 

@@ -1,8 +1,8 @@
-### 解题思路
-使用string庫裏面的find_last_not_of（）和erase函數來消除末尾空格，之後數出最後幾個單詞的數目就可以了
-### 代码
+// ### 解题思路
+// 使用string庫裏面的find_last_not_of（）和erase函數來消除末尾空格，之後數出最後幾個單詞的數目就可以了
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -28,4 +28,4 @@ public:
     s.erase(s.find_last_not_of(" ") + 1);
     return s;
 }*/
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
                 #深度优先搜索
@@ -43,4 +43,4 @@ class Solution:
                     s_max=max(s_max,num[0])
                     num[0]=0
         return s_max
-```
+# ```

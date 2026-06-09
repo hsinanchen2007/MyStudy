@@ -1,4 +1,4 @@
-```Python
+# ```Python
 # -*- coding:utf-8 -*-
 
 class TreeNode(object):
@@ -84,4 +84,4 @@ if __name__ == "__main__":
 
     new = Solution().lowestCommonAncestor(t1,q,p)
     print new.val
-```
+# ```

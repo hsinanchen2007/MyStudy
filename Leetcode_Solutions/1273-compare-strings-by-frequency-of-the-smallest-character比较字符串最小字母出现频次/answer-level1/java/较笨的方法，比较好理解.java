@@ -1,5 +1,5 @@
-由于循环较多，比较耗时
-方法：将字符串数组queries中的每一字符串分别与另一字符串数组words中的所有字符串依次比较，输出结果。
+// 由于循环较多，比较耗时
+// 方法：将字符串数组queries中的每一字符串分别与另一字符串数组words中的所有字符串依次比较，输出结果。
 
 class Solution {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {

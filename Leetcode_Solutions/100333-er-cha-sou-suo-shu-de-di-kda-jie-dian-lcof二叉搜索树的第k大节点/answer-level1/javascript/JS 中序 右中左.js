@@ -1,4 +1,4 @@
-```js
+// ```js
 var kthLargest = function(root, k) {
     let res = []//从大到小排序的数组
     treeToSortedArr(root)//右中左递归
@@ -11,4 +11,4 @@ var kthLargest = function(root, k) {
         treeToSortedArr(root.left,res)
     }
 };
-```
+// ```

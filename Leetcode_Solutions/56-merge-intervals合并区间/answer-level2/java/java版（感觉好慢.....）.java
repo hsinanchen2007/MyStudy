@@ -1,4 +1,4 @@
-```
+// ```
 public int[][] merge(int[][] intervals) {
         if (intervals == null || intervals.length <=1) return intervals;
         List<int[]> list = new ArrayList<>();
@@ -21,9 +21,9 @@ public int[][] merge(int[][] intervals) {
         }
         return list.toArray(new int[0][]);
     }
-```
+// ```
     
     
    
-![TIM截图20191217223818.png](https://pic.leetcode-cn.com/6743554661dc578a80d1d59db7d90ff92eaf350ef4f048f013adf2d83a21cca5-TIM%E6%88%AA%E5%9B%BE20191217223818.png)
+// ![TIM截图20191217223818.png](https://pic.leetcode-cn.com/6743554661dc578a80d1d59db7d90ff92eaf350ef4f048f013adf2d83a21cca5-TIM%E6%88%AA%E5%9B%BE20191217223818.png)
 

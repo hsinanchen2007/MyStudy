@@ -1,13 +1,13 @@
-### 解题思路
-1、判断边界条件。
-1）root为NULL，直接返回。
-2）root左右子树为空，并且sum满足条件，存放结果。
-2、递归左右子树。
-注意点：每次cur在push_back的之后都应该对应一个pop_back().
+// ### 解题思路
+// 1、判断边界条件。
+// 1）root为NULL，直接返回。
+// 2）root左右子树为空，并且sum满足条件，存放结果。
+// 2、递归左右子树。
+// 注意点：每次cur在push_back的之后都应该对应一个pop_back().
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     
     HashMap<Integer,Integer> cache=new HashMap<>();
@@ -22,8 +22,8 @@ class Solution {
 
     }
 }
-```
-```
+// ```
+// ```
 class Solution {
     public int combinationSum4(int[] nums, int target) {
         int []dp=new int[target+1];
@@ -39,4 +39,4 @@ class Solution {
 
     }
 }
-```
+// ```

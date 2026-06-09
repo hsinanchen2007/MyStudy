@@ -1,4 +1,4 @@
-```
+// ```
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int *mergeArray = (int *)malloc((m + n) * sizeof(int)); // 分配`(m+n)`个int空间存储排序后的数组
     int APtr = 0, BPtr = 0, mPtr = 0;
@@ -31,4 +31,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
 
     return A;
 }
-```
+// ```

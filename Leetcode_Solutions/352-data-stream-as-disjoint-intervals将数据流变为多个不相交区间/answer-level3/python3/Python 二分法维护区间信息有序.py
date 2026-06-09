@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/5d9f8fcb9aeae16ccd6def36f3a85eef7d70d340c195b3f2adfd36b87dfc969f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5d9f8fcb9aeae16ccd6def36f3a85eef7d70d340c195b3f2adfd36b87dfc969f-image.png)
 
 
 
-```
+# ```
 
 '''
 把区间信息按照区间起点有序维护
@@ -50,4 +50,4 @@ class SummaryRanges:
 
     def getIntervals(self) -> List[List[int]]:
         return [[k, v] for k, v in self.m.items()]
-```
+# ```

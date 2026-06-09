@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用递归遍历树，所有left换成right，所有right换成left
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 使用递归遍历树，所有left换成right，所有right换成left
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
             return
         root.left, root.right = self.invertTree(root.right),self.invertTree(root.left)
         return root
-```
+# ```

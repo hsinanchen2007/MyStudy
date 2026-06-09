@@ -1,6 +1,6 @@
-![42746669-7056-42BE-95E1-836D6C2A3912.jpeg](https://pic.leetcode-cn.com/27f66be511d733f2d363fa0119225a247146bf8d663f8309607ac4c74367105c-42746669-7056-42BE-95E1-836D6C2A3912.jpeg)
+// ![42746669-7056-42BE-95E1-836D6C2A3912.jpeg](https://pic.leetcode-cn.com/27f66be511d733f2d363fa0119225a247146bf8d663f8309607ac4c74367105c-42746669-7056-42BE-95E1-836D6C2A3912.jpeg)
 
-```
+// ```
 int longestOnes(int* A, int ASize, int K)
 {
     int start = 0;
@@ -33,4 +33,4 @@ int longestOnes(int* A, int ASize, int K)
 
     return returnVal;
 }
-```
+// ```

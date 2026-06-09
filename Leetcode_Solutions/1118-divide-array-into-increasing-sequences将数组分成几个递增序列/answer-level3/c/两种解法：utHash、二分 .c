@@ -1,7 +1,7 @@
 
-### 代码
-【二分】
-```
+// ### 代码
+// 【二分】
+// ```
 int LowBound(int* nums, int numsSize, int tar)
 {
     int left, right, mid;
@@ -40,10 +40,10 @@ bool canDivideIntoSubsequences(int* nums, int numsSize, int K){
     }
     return true;
 }
-```
+// ```
 
-【uthahs】
-```c
+// 【uthahs】
+// ```c
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 struct HashEntry {
@@ -87,4 +87,4 @@ bool canDivideIntoSubsequences(int* nums, int numsSize, int K){
     }
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void maxHeapify(int num[], int start, int end) {
     //建立父节点指标和子节点指标
@@ -46,4 +46,4 @@ int majorityElement(int* nums, int numsSize)
     return nums[numsSize/2];
 
 }
-```
+// ```

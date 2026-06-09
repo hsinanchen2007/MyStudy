@@ -1,10 +1,10 @@
-### 解题思路
-宽度优先搜索
-值得注意的是，用Set来记录遍历过的下标。
+// ### 解题思路
+// 宽度优先搜索
+// 值得注意的是，用Set来记录遍历过的下标。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canReach(int[] arr, int start) {
         if(arr[start] == 0)
@@ -36,4 +36,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

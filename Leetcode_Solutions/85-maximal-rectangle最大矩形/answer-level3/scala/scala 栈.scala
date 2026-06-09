@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def maximalRectangle(matrix: Array[Array[Char]]): Int = {
     if (matrix.isEmpty || matrix(0).isEmpty) return 0
@@ -19,4 +19,4 @@ object Solution {
     res
   }
 }
-```
+// ```

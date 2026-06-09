@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
 
-```c
+// ```c
 
 bool canPermutePalindrome(char* s){
     int k=strlen(s);
@@ -27,10 +27,10 @@ bool canPermutePalindrome(char* s){
 
 }
 
-```
+// ```
 
 
-```c
+// ```c
 bool canPermutePalindrome(char* s){
     int k=strlen(s);
     if(k<=1) return true;
@@ -49,7 +49,7 @@ bool canPermutePalindrome(char* s){
     if(num>1) return false;//出现次数为奇数的字母不止一个
     return true;
 }
-```
+// ```
 
 
 

@@ -1,13 +1,13 @@
 
-## 思路:
+# ## 思路:
 
-刚看这题，有点像[1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/)
+# 刚看这题，有点像[1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/)
 
-思路一：动态规划
+# 思路一：动态规划
 
-用自顶向下方法好做
+# 用自顶向下方法好做
 
-```python
+# ```python
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
         from functools import lru_cache
@@ -28,12 +28,12 @@ class Solution:
             return res
 
         return dfs(0, m)
-```
+# ```
 
 
-思路二：二分法
+# 思路二：二分法
 
-```python
+# ```python
 class Solution:
     def splitArray(self, nums: List[int], m: int) -> int:
         left = max(nums)
@@ -56,8 +56,8 @@ class Solution:
             else:
                 right = mid
         return left
-```
+# ```
 
-当然还可以优化！
-顺便上面那个题也做一下，一样的
+# 当然还可以优化！
+# 顺便上面那个题也做一下，一样的
 

@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(mn)，其中m是矩阵grid的行数，n是矩阵grid的列数。空间复杂度是O(1)。
+// 时间复杂度是O(mn)，其中m是矩阵grid的行数，n是矩阵grid的列数。空间复杂度是O(1)。
 
-执行用时：1ms，击败64.54%。消耗内存：41.8MB，击败100.00%。
+// 执行用时：1ms，击败64.54%。消耗内存：41.8MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public int countNegatives(int[][] grid) {
         int m;
@@ -27,15 +27,15 @@ public class Solution {
         return result;
     }
 }
-```
+// ```
 
-# 解法二：反向ceil()函数的实现
+// # 解法二：反向ceil()函数的实现
 
-时间复杂度是O(mlogn)，其中m是矩阵grid的行数，n是矩阵grid的列数。空间复杂度是O(1)。
+// 时间复杂度是O(mlogn)，其中m是矩阵grid的行数，n是矩阵grid的列数。空间复杂度是O(1)。
 
-执行用时：0ms，击败100.00%。消耗内存：41.9MB，击败100.00%。
+// 执行用时：0ms，击败100.00%。消耗内存：41.9MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public int countNegatives(int[][] grid) {
         int m;
@@ -75,15 +75,15 @@ public class Solution {
         return left;
     }
 }
-```
+// ```
 
-# 解法三：从矩阵左下角开始遍历
+// # 解法三：从矩阵左下角开始遍历
 
-时间复杂度是O(m + n)，其中m是矩阵grid的行数，n是矩阵grid的列数。空间复杂度是O(1)。
+// 时间复杂度是O(m + n)，其中m是矩阵grid的行数，n是矩阵grid的列数。空间复杂度是O(1)。
 
-执行用时：0ms，击败100.00%。消耗内存：41.7MB，击败100.00%。
+// 执行用时：0ms，击败100.00%。消耗内存：41.7MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public int countNegatives(int[][] grid) {
         int m;
@@ -105,4 +105,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

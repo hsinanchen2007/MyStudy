@@ -1,9 +1,9 @@
-### 解题思路
-python区间排序后， 一次遍历即可
+# ### 解题思路
+# python区间排序后， 一次遍历即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         i = 1
@@ -26,4 +26,4 @@ class Solution:
         res.append([headN, tail])
         return res
         
-```
+# ```

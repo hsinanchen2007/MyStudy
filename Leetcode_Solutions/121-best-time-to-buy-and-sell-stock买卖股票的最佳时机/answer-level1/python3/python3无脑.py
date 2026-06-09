@@ -1,9 +1,9 @@
-### 解题思路
-就遍历一遍，取剩下里面最大的，算差值。再比较取差值最大的。
+# ### 解题思路
+# 就遍历一遍，取剩下里面最大的，算差值。再比较取差值最大的。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         max_profit = 0
@@ -15,4 +15,4 @@ class Solution:
         return max_profit
 
 
-```
+# ```

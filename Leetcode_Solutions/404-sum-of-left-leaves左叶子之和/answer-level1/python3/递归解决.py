@@ -1,9 +1,9 @@
-### 解题思路
-不断递归,判断左子树为叶子节点时res加上这个叶子节点的值
+# ### 解题思路
+# 不断递归,判断左子树为叶子节点时res加上这个叶子节点的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
         self.sumOfLeftLeaves(root.right)
         return self.res
 
-```
+# ```

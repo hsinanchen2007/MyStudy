@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 扑克牌中的顺子 */
 int cmp(const void *n1, const void *n2)
 {
@@ -40,4 +40,4 @@ bool isStraight(int* nums, int numsSize){
 
     return true;
 }
-```
+// ```

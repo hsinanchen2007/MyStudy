@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         res = []
@@ -33,4 +33,4 @@ class Solution:
         dfs(0, len(s), [])
 
         return res
-```
+# ```

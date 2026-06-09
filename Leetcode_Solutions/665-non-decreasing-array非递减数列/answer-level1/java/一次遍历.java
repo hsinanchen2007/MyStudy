@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkPossibility(int[] nums) {
         // 思路：如果nums[i] > nums[i+1],那么这对数影响了序列为非递减。
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

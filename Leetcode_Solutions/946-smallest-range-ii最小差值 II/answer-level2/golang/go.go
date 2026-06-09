@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func smallestRangeII(A []int, K int) int {
@@ -38,4 +38,4 @@ func smallestRangeII(A []int, K int) int {
 	}
 	return d
 }
-```
+// ```

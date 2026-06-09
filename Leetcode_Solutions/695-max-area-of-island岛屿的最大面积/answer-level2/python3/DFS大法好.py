@@ -1,9 +1,9 @@
-### 解题思路
-DFS
+# ### 解题思路
+# DFS
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -28,4 +28,4 @@ class Solution:
                 if grid[i][j]==1:
                     max_s = max(dfs(i, j, grid, m, n,flag), max_s)
         return max_s
-```
+# ```

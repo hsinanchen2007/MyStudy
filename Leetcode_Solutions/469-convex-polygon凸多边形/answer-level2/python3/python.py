@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isConvex(self, points: List[List[int]]) -> bool:
         n = len(points)
@@ -20,4 +20,4 @@ class Solution:
             elif ( dx1 * dy2 - dy1 * dx2 ) * zcrossproduct < 0:
                 return False
         return True
-```
+# ```

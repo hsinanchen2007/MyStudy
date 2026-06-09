@@ -1,13 +1,13 @@
-## 解题思路一
-dfs时，制作通过路径矩阵path, 每通过(x, y)则path[x][y]=1；
+// ## 解题思路一
+// dfs时，制作通过路径矩阵path, 每通过(x, y)则path[x][y]=1；
 
-```
+// ```
 执行用时 :16 ms, 在所有 C++ 提交中击败了81.43%的用户
 内存消耗 :24.4 MB, 在所有 C++ 提交中击败了5.71%的用户
-```
-### 代码
+// ```
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -35,19 +35,19 @@ private:
         return 1 + dfs(grid, path, x+1, y) + dfs(grid, path, x-1, y) + dfs(grid, path, x, y+1) + dfs(grid, path, x, y-1);
     }
 };
-```
+// ```
 
-## 解题思路二
-dfs时，直接将grid[x][y]=0
-省去了path矩阵
+// ## 解题思路二
+// dfs时，直接将grid[x][y]=0
+// 省去了path矩阵
 
-```
+// ```
 执行用时 :12 ms, 在所有 C++ 提交中击败了95.81%的用户
 内存消耗 :24 MB, 在所有 C++ 提交中击败了5.71%的用户
-```
+// ```
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -74,6 +74,6 @@ private:
         return 1 + dfs(grid, x+1, y) + dfs(grid, x-1, y) + dfs(grid, x, y+1) + dfs(grid, x, y-1);
     }
 };
-```
+// ```
 
-但是为什么内存消耗没有明显降低呢？请问是不是leetcode的BUG???
+// 但是为什么内存消耗没有明显降低呢？请问是不是leetcode的BUG???

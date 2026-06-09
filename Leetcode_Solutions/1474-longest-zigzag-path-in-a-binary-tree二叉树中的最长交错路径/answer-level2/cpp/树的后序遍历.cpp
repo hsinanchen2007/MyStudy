@@ -1,6 +1,6 @@
-无非是考虑后序遍历树的时候要返回一个什么样的值，这里使用了flag来标志了
-父节点与子节点之间的关系，并按照flag的值返回。
-```
+// 无非是考虑后序遍历树的时候要返回一个什么样的值，这里使用了flag来标志了
+// 父节点与子节点之间的关系，并按照flag的值返回。
+// ```
 int maxCross=0;
     int postorder(TreeNode *root,int flag){
         if(root){
@@ -19,4 +19,4 @@ int maxCross=0;
         postorder(root,1);
         return maxCross;
     }
-```
+// ```

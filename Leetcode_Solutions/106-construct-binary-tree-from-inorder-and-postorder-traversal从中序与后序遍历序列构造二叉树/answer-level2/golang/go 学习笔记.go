@@ -1,4 +1,4 @@
-```
+// ```
 func buildTree(inorder []int, postorder []int) *TreeNode {
 	l := len(postorder) - 1
 	for k, v := range inorder {
@@ -12,4 +12,4 @@ func buildTree(inorder []int, postorder []int) *TreeNode {
 	}
 	return nil
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int guess(int num);
 
 class Solution {
@@ -28,4 +28,4 @@ public:
         return l;
     }
 };
-```
+// ```

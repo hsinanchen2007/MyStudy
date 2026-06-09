@@ -1,7 +1,7 @@
-记录各对角线地址，排序后再存入各地址
-![image.png](https://pic.leetcode-cn.com/48683b0e3976977527d54d05a0237ace6a527005941aa257a7333dba86bc727b-image.png)
+// 记录各对角线地址，排序后再存入各地址
+// ![image.png](https://pic.leetcode-cn.com/48683b0e3976977527d54d05a0237ace6a527005941aa257a7333dba86bc727b-image.png)
 
-```
+// ```
 class Solution {
 public:
     void helper(vector<int*>&addres){
@@ -46,4 +46,4 @@ public:
         return mat;
     }
 };
-```
+// ```

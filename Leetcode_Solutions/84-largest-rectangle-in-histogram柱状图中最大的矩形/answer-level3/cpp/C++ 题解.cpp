@@ -1,9 +1,9 @@
-思路和方法：
-思路：取最大值的矩形的左右边界，如果不在边缘，那么边界两侧相邻柱子柱高一定小于边界的柱高
-方法
-1，从右往左遍历：
-2，一单碰到右侧的柱高低于当前柱高，则从当前位置往左回溯，并更新结果
-```
+// 思路和方法：
+// 思路：取最大值的矩形的左右边界，如果不在边缘，那么边界两侧相邻柱子柱高一定小于边界的柱高
+// 方法
+// 1，从右往左遍历：
+// 2，一单碰到右侧的柱高低于当前柱高，则从当前位置往左回溯，并更新结果
+// ```
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -30,5 +30,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d66eb88bfdc6aaba39c8dd635bab4fc2116f7b11ae395bfad32fc21b89a90fb7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d66eb88bfdc6aaba39c8dd635bab4fc2116f7b11ae395bfad32fc21b89a90fb7-image.png)

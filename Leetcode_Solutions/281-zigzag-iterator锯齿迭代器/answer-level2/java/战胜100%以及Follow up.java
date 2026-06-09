@@ -1,6 +1,6 @@
-3ms beat 100%
+// 3ms beat 100%
 
-```
+// ```
 public class ZigzagIterator {
     List<Integer> l1;
     List<Integer> l2;
@@ -37,14 +37,14 @@ public class ZigzagIterator {
         return i < l1.size() || j < l2.size();
     }
 }
-```
+// ```
 
 
 
 
-Follow up: 2ms beat 100%.
+// Follow up: 2ms beat 100%.
 
-```
+// ```
 public class ZigzagIterator {
     List<Integer>[] list;
     int    num = 0;
@@ -92,4 +92,4 @@ public class ZigzagIterator {
 
 
 
-```
+// ```

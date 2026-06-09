@@ -1,10 +1,10 @@
-### 解题思路
-1. 调用python内置的split函数
-2. 遍历去判断i-1为空，i不为空，统计
+# ### 解题思路
+# 1. 调用python内置的split函数
+# 2. 遍历去判断i-1为空，i不为空，统计
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countSegments(self, s: str) -> int:
         # return len(s.split())
@@ -14,4 +14,4 @@ class Solution:
             if (i == 0 or s[i-1] == ' ') and s[i] != ' ':
                 seg_count += 1
         return seg_count 
-```
+# ```

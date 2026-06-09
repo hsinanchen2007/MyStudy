@@ -1,9 +1,9 @@
-### 解题思路
-二维数组按顺序转为一维即可，然后用队列存储，输出即可，睿智难度。
+// ### 解题思路
+// 二维数组按顺序转为一维即可，然后用队列存储，输出即可，睿智难度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Vector2D {
 
     private Queue<Integer> queue = new LinkedList<>();
@@ -31,4 +31,4 @@ class Vector2D {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

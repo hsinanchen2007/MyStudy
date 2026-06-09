@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct LNode
@@ -77,4 +77,4 @@ bool isValid(char * s)
         return 0;
 }
 
-```
+// ```

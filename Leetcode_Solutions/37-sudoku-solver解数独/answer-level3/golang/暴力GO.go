@@ -1,9 +1,9 @@
-### 解题思路
-这题好难，用最简单的暴力破解 DFS+回溯 待优化
-go这么直接的解法少，抛砖引玉一下
-### 代码
+// ### 解题思路
+// 这题好难，用最简单的暴力破解 DFS+回溯 待优化
+// go这么直接的解法少，抛砖引玉一下
+// ### 代码
 
-```golang
+// ```golang
 func solveSudoku(board [][]byte)  {
     if board == nil || len(board) == 0{
         return 
@@ -50,4 +50,4 @@ func isValid(board [][]byte ,row int,col int,v byte) bool{
     }
     return true
 }
-```
+// ```

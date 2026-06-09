@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def rotateString(A: String, B: String): Boolean = {
     if(A.length != B.length) return false
@@ -16,4 +16,4 @@ object Solution {
     mymap.forall(x => x._2 == 0)
   }
 }
-```
+// ```

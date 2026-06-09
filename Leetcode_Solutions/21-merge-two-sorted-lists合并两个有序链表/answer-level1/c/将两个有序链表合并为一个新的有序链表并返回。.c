@@ -1,11 +1,11 @@
-### 解题思路
-1.首先创建一个头结点merge，以之作为合并链表的头；
-2.依次取有序链表l1、l2中的较小值加入到merge中,直到取完一个链表的全部值
-3.把余下的l1/l2拼接到merge尾部
+// ### 解题思路
+// 1.首先创建一个头结点merge，以之作为合并链表的头；
+// 2.依次取有序链表l1、l2中的较小值加入到merge中,直到取完一个链表的全部值
+// 3.把余下的l1/l2拼接到merge尾部
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
         pre->next = l2;
     return merge->next;         //merge指向的是头结点，第一个结点不包含有效数据，因此，返回时取merge->next
 }
-```
+// ```

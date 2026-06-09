@@ -1,10 +1,10 @@
-### 解题思路
-经过我做了一些leetcode，我发现在链表与树的题中，递归的方法几乎都适用，这一点令我很惊奇，开始拿到一道题，看到官方解递归，我
-疯了，这都能用递归。
+// ### 解题思路
+// 经过我做了一些leetcode，我发现在链表与树的题中，递归的方法几乎都适用，这一点令我很惊奇，开始拿到一道题，看到官方解递归，我
+// 疯了，这都能用递归。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
         return deleteDuplicates(head);
     return head;
 }
-```
+// ```

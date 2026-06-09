@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     int findBottomLeftValue(TreeNode* root) {
@@ -17,4 +17,4 @@ public:
         return now[0]->val;//跳出循环代表now所存的是最后一层，去第一个就是最左边元素
     }
 };
-```
+// ```

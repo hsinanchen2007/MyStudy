@@ -1,19 +1,19 @@
-### 解题思路
-1、把动态数组dp长度定为n+1
-2、dp取dp(上一次i循环留下来的dp)、i*dp[j-i]、i*(j-i)的最大值
+// ### 解题思路
+// 1、把动态数组dp长度定为n+1
+// 2、dp取dp(上一次i循环留下来的dp)、i*dp[j-i]、i*(j-i)的最大值
 
-看到其他解法
-for (int i=1;i<=(n+1)/2;i++)
-for (int j=i;j<=n;j++)
-{
-    dp[j]=max(dp[j],dp[j-i]*i);
-}
+// 看到其他解法
+// for (int i=1;i<=(n+1)/2;i++)
+// for (int j=i;j<=n;j++)
+// {
+//     dp[j]=max(dp[j],dp[j-i]*i);
+// }
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -36,4 +36,4 @@ public:
 
     }
 };
-```
+// ```

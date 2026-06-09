@@ -1,5 +1,5 @@
-话不多说，看代码
-```
+// 话不多说，看代码
+// ```
 func CheckPermutation(s1 string, s2 string) bool {
 	if len(s1) != len(s2) {
 		return false
@@ -20,4 +20,4 @@ func CheckPermutation(s1 string, s2 string) bool {
 	}
 	return true
 }
-```
+// ```

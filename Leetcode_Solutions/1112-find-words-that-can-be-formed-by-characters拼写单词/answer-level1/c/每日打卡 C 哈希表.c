@@ -1,9 +1,9 @@
-### 解题思路
-将可以利用的字符串映射到哈希表记数，遍历每一个单词查看是否可以拼成。
+// ### 解题思路
+// 将可以利用的字符串映射到哈希表记数，遍历每一个单词查看是否可以拼成。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars)
 {
     int count = 0;
@@ -33,4 +33,4 @@ int countCharacters(char ** words, int wordsSize, char * chars)
 
     return count;
 }
-```
+// ```

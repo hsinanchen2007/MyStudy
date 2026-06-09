@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func grayCode(n int) []int {
     var res []int
     // 默认只有一个0
@@ -39,4 +39,4 @@ func power(n, k int) int {
         return power(n * n, k - 1 / 2) * n
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-这道题其实利用了“找出倒数第n个节点”这道题的思路，每次让n加一，直到n等于链表长度为止。
+# 这道题其实利用了“找出倒数第n个节点”这道题的思路，每次让n加一，直到n等于链表长度为止。
 
-我们引入 `fast_begin` 变量，开始时指向 `head` 的下一个节点，作为每次迭代时快指针 `fast` 开始的位置，慢指针 `slow` 每次都指向 `head` 节点。让 `fast` 和 `slow` 每次各走一步，当 `fast` 走到链表尽头时，慢指针 `slow` 指向的节点就是我们要找的节点。打印 `slow` 之后，即可让 `fast_begin` 前进一步，然后重复以上步骤，直到 `fast_begin` 也走到尽头。
+# 我们引入 `fast_begin` 变量，开始时指向 `head` 的下一个节点，作为每次迭代时快指针 `fast` 开始的位置，慢指针 `slow` 每次都指向 `head` 节点。让 `fast` 和 `slow` 每次各走一步，当 `fast` 走到链表尽头时，慢指针 `slow` 指向的节点就是我们要找的节点。打印 `slow` 之后，即可让 `fast_begin` 前进一步，然后重复以上步骤，直到 `fast_begin` 也走到尽头。
 
-迭代完毕时会发现我们漏掉了 `head` ，打印之即可。
+# 迭代完毕时会发现我们漏掉了 `head` ，打印之即可。
 
-代码如下：
-```c++ []
+# 代码如下：
+# ```c++ []
 class Solution {
 public:
     void printLinkedListInReverse(ImmutableListNode* head) {
@@ -25,8 +25,8 @@ public:
         head->printValue();
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public void printLinkedListInReverse(ImmutableListNode head) {
         if (head == null)
@@ -45,8 +45,8 @@ class Solution {
         head.printValue();
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def printLinkedListInReverse(self, head: 'ImmutableListNode') -> None:
         if head is None:
@@ -61,8 +61,8 @@ class Solution:
             slow.printValue()
             fast_begin = fast_begin.getNext()
         head.printValue()
-```
-```javascript []
+# ```
+# ```javascript []
 var printLinkedListInReverse = function(head) {
     if (head === null)
         return;
@@ -79,7 +79,7 @@ var printLinkedListInReverse = function(head) {
     }
     head.printValue();
 };
-```
+# ```
 
-这个方法只额外引入了三个指针（引用）变量，未使用额外的数据结构，也未使用递归，所以空间复杂度为 O(1)，但是每打印完一个节点，都需要重新遍历一遍链表，所以时间复杂度为 O(n^2)，典型的时间换空间思路。
+# 这个方法只额外引入了三个指针（引用）变量，未使用额外的数据结构，也未使用递归，所以空间复杂度为 O(1)，但是每打印完一个节点，都需要重新遍历一遍链表，所以时间复杂度为 O(n^2)，典型的时间换空间思路。
 

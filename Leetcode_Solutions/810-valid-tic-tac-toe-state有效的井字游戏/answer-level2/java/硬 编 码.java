@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private char[][] ch_board;
 
@@ -33,4 +33,4 @@ class Solution {
                 || (ch_board[0][2] == ch && ch_board[1][1] == ch && ch_board[2][0] == ch);
     }
 }
-```
+// ```

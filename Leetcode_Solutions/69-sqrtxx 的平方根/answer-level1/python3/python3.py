@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
         # brute force
@@ -26,4 +26,4 @@ class Solution:
         while x_i*x_i - x > epsilon:
             x_i = (x_i+x//x_i)//2 # 整除，损失一点
         return x_i
-```
+# ```

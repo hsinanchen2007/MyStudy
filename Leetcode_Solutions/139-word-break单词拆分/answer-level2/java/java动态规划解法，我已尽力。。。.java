@@ -1,11 +1,11 @@
-### 解题思路
-一维dp，dp[i]标识字符下标从0到i，是否可以被拆分。如果dp[i]=true，可以将i+1作为一个拆分点，拆分点表示0~i是可以被拆分的，0为第一个拆分点。
-比如当前dp[] = {t,f,t,t},拆分点应该是{0,1,3},判断dp[5]的时候只需要判断s.subString(3,i+2),s.subString(1,i+2),s.subString(0,i+2)有任一个在dict中，dp[5]就位true。
-提示：官方给出的测试用例从后向前判会更快
+// ### 解题思路
+// 一维dp，dp[i]标识字符下标从0到i，是否可以被拆分。如果dp[i]=true，可以将i+1作为一个拆分点，拆分点表示0~i是可以被拆分的，0为第一个拆分点。
+// 比如当前dp[] = {t,f,t,t},拆分点应该是{0,1,3},判断dp[5]的时候只需要判断s.subString(3,i+2),s.subString(1,i+2),s.subString(0,i+2)有任一个在dict中，dp[5]就位true。
+// 提示：官方给出的测试用例从后向前判会更快
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         Set<String> dict = new HashSet<>(wordDict);
@@ -41,4 +41,4 @@ class Solution {
         return dp[dp.length - 1];
     }
 }
-```
+// ```

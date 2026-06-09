@@ -1,7 +1,7 @@
-用vector.resize()，不用划很大的数组
-![QQ截图20200315124549.png](https://pic.leetcode-cn.com/c0dd0106d73a499605f9625189991756dbe2c87b209d59fb2ec60dbe52fc9125-QQ%E6%88%AA%E5%9B%BE20200315124549.png)
+// 用vector.resize()，不用划很大的数组
+// ![QQ截图20200315124549.png](https://pic.leetcode-cn.com/c0dd0106d73a499605f9625189991756dbe2c87b209d59fb2ec60dbe52fc9125-QQ%E6%88%AA%E5%9B%BE20200315124549.png)
 
-``` c++ []
+// ``` c++ []
 class CustomStack {
     vector<int> custack; //使用vector是因为他能重载，定义一个超大的数组当然也行
     int max_;
@@ -38,4 +38,4 @@ public:
  * int param_2 = obj->pop();
  * obj->increment(k,val);
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     struct DSU {
@@ -34,6 +34,6 @@ public:
         return *max_element(dsu.S.begin(), dsu.S.end());
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d116f761f38cb5ac4faabcee95ccf22fd2a42153e5342d1f276f1bb98e3b9e8b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d116f761f38cb5ac4faabcee95ccf22fd2a42153e5342d1f276f1bb98e3b9e8b-image.png)

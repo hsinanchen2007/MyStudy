@@ -1,10 +1,10 @@
-### 解题思路
-数值优化+二分。超简单
-![image.png](https://pic.leetcode-cn.com/191feb2f4a5233f8c11c0f29f9722f2dfaff1dc885b6ec4ddc71ae952adaea37-image.png)
+// ### 解题思路
+// 数值优化+二分。超简单
+// ![image.png](https://pic.leetcode-cn.com/191feb2f4a5233f8c11c0f29f9722f2dfaff1dc885b6ec4ddc71ae952adaea37-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) {
@@ -23,4 +23,4 @@ public:
         return 0;
     }
 };
-```
+// ```

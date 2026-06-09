@@ -1,8 +1,8 @@
 
-# 1.回溯法
-![image.png](https://pic.leetcode-cn.com/457e7638032c8bcfd4baa46a38b7af83ea3ef05c0d0464d205a07902547c21cf-image.png)
+# # 1.回溯法
+# ![image.png](https://pic.leetcode-cn.com/457e7638032c8bcfd4baa46a38b7af83ea3ef05c0d0464d205a07902547c21cf-image.png)
 
-```py
+# ```py
 class Solution:
     def totalNQueens(self, n: int) -> int:
         chessboard=[0]*(n+1) #建立棋盘,index代表列,值代表行数
@@ -24,11 +24,11 @@ class Solution:
                 chessboard[layer]=i
                 if (self.check(chessboard,layer)): #如果满足条件,那么进入下一层
                     self.backtrace(layer+1,n,chessboard,counts)
-```
-# 2.改进的回溯法
-采用集合`used_layers`储存使用过的行数,从而减少`check`函数判断的时间
-![image.png](https://pic.leetcode-cn.com/bf497154e526662679b8b18841f4484fbb8f7f3c62ff138e7cdd9d05f64d655c-image.png)
-```py
+# ```
+# # 2.改进的回溯法
+# 采用集合`used_layers`储存使用过的行数,从而减少`check`函数判断的时间
+# ![image.png](https://pic.leetcode-cn.com/bf497154e526662679b8b18841f4484fbb8f7f3c62ff138e7cdd9d05f64d655c-image.png)
+# ```py
 class Solution:
     def __init__(self):
         #回溯中使用全局变量记录结果
@@ -61,4 +61,4 @@ class Solution:
         backtrace(chessboard,n,0,used_layers)
         return self.res
                 
-```
+# ```

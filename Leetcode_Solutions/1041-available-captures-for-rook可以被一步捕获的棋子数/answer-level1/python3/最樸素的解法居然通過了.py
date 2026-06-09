@@ -1,9 +1,9 @@
-### 解题思路
-1.找到車的位置
-2.四個方向遇到象break,遇到兵就+1,break
-### 代码
+# ### 解题思路
+# 1.找到車的位置
+# 2.四個方向遇到象break,遇到兵就+1,break
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, g: List[List[str]]) -> int:        
         y,x=0,0
@@ -42,4 +42,4 @@ class Solution:
         
         return ans
 
-```
+# ```

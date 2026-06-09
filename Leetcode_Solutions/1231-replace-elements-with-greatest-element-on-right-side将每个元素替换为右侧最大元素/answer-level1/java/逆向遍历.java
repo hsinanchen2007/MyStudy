@@ -1,5 +1,5 @@
-从右往左遍历确实是个非常好的思路，这样只需 O(n) 的时间复杂度和 O(1) 的空间复杂度即可得到结果，Java 代码：
-```
+// 从右往左遍历确实是个非常好的思路，这样只需 O(n) 的时间复杂度和 O(1) 的空间复杂度即可得到结果，Java 代码：
+// ```
 public int[] replaceElements(int[] arr) {
         //待遍历元素的右侧(值)最大元素，初始值为 -1
         int rightMax = -1;
@@ -14,4 +14,4 @@ public int[] replaceElements(int[] arr) {
         }
         return arr;
     }
-```
+// ```

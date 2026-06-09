@@ -1,4 +1,4 @@
-```c
+// ```c
 #define DIR_ROW 4
 #define DIR_COL 2
 const int dir[DIR_ROW][DIR_COL] = {
@@ -32,4 +32,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return area;
 }
-```
+// ```

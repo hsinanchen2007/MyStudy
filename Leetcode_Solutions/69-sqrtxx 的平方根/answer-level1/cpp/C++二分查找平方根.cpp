@@ -1,5 +1,5 @@
-***Talk is cheap. Show me the code.***
-```cpp
+// ***Talk is cheap. Show me the code.***
+// ```cpp
 /*
 二分查找需要注意：
 1、循环退出条件
@@ -29,4 +29,4 @@ public:
     }
 };
 
-```
+// ```

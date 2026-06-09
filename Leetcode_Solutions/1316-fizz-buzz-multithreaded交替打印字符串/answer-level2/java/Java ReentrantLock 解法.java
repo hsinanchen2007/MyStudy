@@ -1,9 +1,9 @@
-### 解题思路
-使用ReentrantLock求解
+// ### 解题思路
+// 使用ReentrantLock求解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FizzBuzz {
     private int n;
 
@@ -149,4 +149,4 @@ class FizzBuzz {
     }
 
 }
-```
+// ```

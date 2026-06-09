@@ -1,9 +1,9 @@
-### 解题思路
-只需要遍历一次，就是记录最小值的时候要更新最大值
+# ### 解题思路
+# 只需要遍历一次，就是记录最小值的时候要更新最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices):
         if prices == []:
@@ -18,4 +18,4 @@ class Solution:
                 max_num = prices[i + 1]
                 res = max(max_num - min_num, res)
         return res
-```
+# ```

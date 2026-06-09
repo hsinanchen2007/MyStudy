@@ -1,7 +1,7 @@
-先遍历求出两链表长度，之后两指针指向两链表头结点，利用长度差将两指针对齐，最后挪动指针，直至两指针相等，即为相交结点
+// 先遍历求出两链表长度，之后两指针指向两链表头结点，利用长度差将两指针对齐，最后挪动指针，直至两指针相等，即为相交结点
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -33,4 +33,4 @@ public:
         return p;
     }
 };
-```
+// ```

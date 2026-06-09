@@ -1,9 +1,9 @@
-### 解题思路
-动态规划    dp[i][j]=min(dp[i-1][j],dp[i][j-1])+grid[i][j];
+// ### 解题思路
+// 动态规划    dp[i][j]=min(dp[i-1][j],dp[i][j-1])+grid[i][j];
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -26,4 +26,4 @@ public:
         return dp[m-1][n-1];
     }
 };
-```
+// ```

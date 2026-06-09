@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* killProcess(int* pid, int pidSize, int* ppid, int ppidSize, int kill, int* 
 	*returnSize = top;
 	return res;
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-展开的链表为前序
-即root-left-right
-递归地把每个子树都展开成链表,并通过辅助函数返回了每个子树的结尾(方便相连)
-默认把原二叉树结构的right当做链表的next
+# ### 解题思路
+# 展开的链表为前序
+# 即root-left-right
+# 递归地把每个子树都展开成链表,并通过辅助函数返回了每个子树的结尾(方便相连)
+# 默认把原二叉树结构的right当做链表的next
 
-执行用时 :36 ms, 在所有 python3 提交中击败了96.84% 的用户
-内存消耗 :12.8 MB, 在所有 python3 提交中击败了100.00%的用户
-### 代码
+# 执行用时 :36 ms, 在所有 python3 提交中击败了96.84% 的用户
+# 内存消耗 :12.8 MB, 在所有 python3 提交中击败了100.00%的用户
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         root.right = root.left
         root.left = None
         return res
-```
+# ```

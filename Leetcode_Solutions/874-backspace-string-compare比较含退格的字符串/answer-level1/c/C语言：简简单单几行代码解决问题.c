@@ -1,6 +1,6 @@
-利用双指针，如果遇到#，前面的指针就往前移
+// 利用双指针，如果遇到#，前面的指针就往前移
 
-```
+// ```
 bool backspaceCompare(char * s_str, char * t_str)
 {
     if (s_str == NULL && t_str == NULL) return true;
@@ -27,4 +27,4 @@ bool backspaceCompare(char * s_str, char * t_str)
     t_str[i] = 0;
     return !strcmp(s_str ,t_str);
 }
-```
+// ```

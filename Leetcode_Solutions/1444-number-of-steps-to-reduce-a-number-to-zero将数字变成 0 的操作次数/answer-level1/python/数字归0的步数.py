@@ -1,10 +1,10 @@
-### 解题思路
-如果num为偶数，则num/2；
-如果num为奇数，则mun-1。
+# ### 解题思路
+# 如果num为偶数，则num/2；
+# 如果num为奇数，则mun-1。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numberOfSteps (self, num):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 num=num-1
                 i+=1
         return i
-```
+# ```

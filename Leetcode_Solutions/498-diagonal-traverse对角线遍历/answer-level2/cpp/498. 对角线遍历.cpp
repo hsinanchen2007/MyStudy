@@ -1,9 +1,9 @@
-### 解题思路
-顺着题目所写的即可……
+// ### 解题思路
+// 顺着题目所写的即可……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDiagonalOrder(vector<vector<int>>& matrix) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

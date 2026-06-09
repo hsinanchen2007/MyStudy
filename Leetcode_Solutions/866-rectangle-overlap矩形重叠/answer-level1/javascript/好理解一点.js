@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -13,4 +13,4 @@ var isRectangleOverlap = function (rec1, rec2) {
     let y = (rec1[3] <= rec2[1] || rec1[1] >= rec2[3]); // y轴坐标不相交
     return !(x || y); // !(不相交) === 香蕉
 };
-```
+// ```

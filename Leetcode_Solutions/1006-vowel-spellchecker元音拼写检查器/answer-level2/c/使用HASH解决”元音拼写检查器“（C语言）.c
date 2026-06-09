@@ -1,22 +1,22 @@
-### 解题思路
-典型单词查找问题，关键在于key的构建。由于是模糊查找，因此key也构建为模糊形式（统一），实际单词放到info结构体中进行二次查找
+// ### 解题思路
+// 典型单词查找问题，关键在于key的构建。由于是模糊查找，因此key也构建为模糊形式（统一），实际单词放到info结构体中进行二次查找
 
-1.将单词表转为模糊形式，都变为大写，且元音归为A
+// 1.将单词表转为模糊形式，都变为大写，且元音归为A
 
-2.将转换后单词表作为key，实际单词指针和个数作为val构建hash表
+// 2.将转换后单词表作为key，实际单词指针和个数作为val构建hash表
 
-3.将待查询单词转为模糊形式
+// 3.将待查询单词转为模糊形式
 
-4.如果查到key，则进一步查询
+// 4.如果查到key，则进一步查询
 
-5.进一步查询的难点在于优先级，设置3个指针，找到完全匹配则返回；否则记录第一个大小写差异和元音差异的单词
+// 5.进一步查询的难点在于优先级，设置3个指针，找到完全匹配则返回；否则记录第一个大小写差异和元音差异的单词
 
-![image.png](https://pic.leetcode-cn.com/48312bf517fe51b71d5faa04842884fa11bf7c635ebb48eb87320eac5b312450-image.png)
+// ![image.png](https://pic.leetcode-cn.com/48312bf517fe51b71d5faa04842884fa11bf7c635ebb48eb87320eac5b312450-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -177,4 +177,4 @@ char ** spellchecker(char ** wordlist, int wordlistSize, char ** queries, int qu
     *returnSize = queriesSize;
     return res;
 }
-```
+// ```

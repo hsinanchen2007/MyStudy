@@ -1,19 +1,19 @@
 
 
-## 思路
+# ## 思路
 
-这是一道典型的适合使用动态规划解决的题目，它和爬楼梯等都属于动态规划中最简单的题目，因此也经常会被用于面试之中。
+# 这是一道典型的适合使用动态规划解决的题目，它和爬楼梯等都属于动态规划中最简单的题目，因此也经常会被用于面试之中。
 
-读完题目你就能想到动态规划的话，建立模型并解决恐怕不是难事。其实我们很容易看出，由于机器人只能右移动和下移动，
-因此第[i, j]个格子的总数应该等于[i - 1, j] + [i, j -1]， 因为第[i,j]个格子一定是从左边或者上面移动过来的。
+# 读完题目你就能想到动态规划的话，建立模型并解决恐怕不是难事。其实我们很容易看出，由于机器人只能右移动和下移动，
+# 因此第[i, j]个格子的总数应该等于[i - 1, j] + [i, j -1]， 因为第[i,j]个格子一定是从左边或者上面移动过来的。
 
-![](https://pic.leetcode-cn.com/26900f6e1ab3ca7a9b4354953752e37ad666aa2b7a4db286a881c583383b8b78.jpg)
+# ![](https://pic.leetcode-cn.com/26900f6e1ab3ca7a9b4354953752e37ad666aa2b7a4db286a881c583383b8b78.jpg)
 
-代码大概是：
+# 代码大概是：
 
-JS Code:
+# JS Code:
 
-```js
+# ```js
  const dp = [];
   for (let i = 0; i < m + 1; i++) {
     dp[i] = [];
@@ -30,11 +30,11 @@ JS Code:
 
   return dp[m][n];
 
-```
+# ```
 
-Python Code:
+# Python Code:
 
-```python
+# ```python
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         d = [[1] * n for _ in range(m)]
@@ -44,26 +44,26 @@ class Solution:
                 d[col][row] = d[col - 1][row] + d[col][row - 1]
 
         return d[m - 1][n - 1]
- ```
+#  ```
  
- **复杂度分析**
+#  **复杂度分析**
  
- - 时间复杂度：$O(M * N)$
- - 空间复杂度：$O(M * N)$
+#  - 时间复杂度：$O(M * N)$
+#  - 空间复杂度：$O(M * N)$
 
-由于dp[i][j] 只依赖于左边的元素和上面的元素，因此空间复杂度可以进一步优化， 优化到O(n).
+# 由于dp[i][j] 只依赖于左边的元素和上面的元素，因此空间复杂度可以进一步优化， 优化到O(n).
 
-![](https://pic.leetcode-cn.com/13fd9e5881ff8088491ce881712a274e94c667f2b38c44d55e8f941d46332fec.jpg)
+# ![](https://pic.leetcode-cn.com/13fd9e5881ff8088491ce881712a274e94c667f2b38c44d55e8f941d46332fec.jpg)
 
-具体代码请查看代码区。
+# 具体代码请查看代码区。
 
 
-当然你也可以使用记忆化递归的方式来进行，由于递归深度的原因，性能比上面的方法差不少：
+# 当然你也可以使用记忆化递归的方式来进行，由于递归深度的原因，性能比上面的方法差不少：
 
-> 直接暴力递归的话会超时。
+# > 直接暴力递归的话会超时。
 
-Python3 Code:
-```python
+# Python3 Code:
+# ```python
 class Solution:
     visited = dict()
 
@@ -75,20 +75,20 @@ class Solution:
         cnt = self.uniquePaths(m - 1, n) + self.uniquePaths(m, n - 1)
         self.visited[(m, n)] = cnt
         return cnt
- ```
+#  ```
 
-## 关键点
+# ## 关键点
 
-- 记忆化递归
-- 基本动态规划问题
-- 空间复杂度可以进一步优化到O(n), 这会是一个考点
-## 代码
+# - 记忆化递归
+# - 基本动态规划问题
+# - 空间复杂度可以进一步优化到O(n), 这会是一个考点
+# ## 代码
 
-代码支持JavaScript，Python3
+# 代码支持JavaScript，Python3
 
-JavaScript Code:
+# JavaScript Code:
 
-```js
+# ```js
 /*
  * @lc app=leetcode id=62 lang=javascript
  *
@@ -112,11 +112,11 @@ var uniquePaths = function(m, n) {
 
   return dp[n - 1];
 };
-```
+# ```
 
-Python3 Code:
+# Python3 Code:
 
-```python
+# ```python
 class Solution:
 
     def uniquePaths(self, m: int, n: int) -> int:
@@ -125,19 +125,19 @@ class Solution:
             for j in range(1, n):
                 dp[j] += dp[j - 1]
         return dp[n - 1]
-```
+# ```
 
- **复杂度分析**
+#  **复杂度分析**
  
- - 时间复杂度：$O(M * N)$
- - 空间复杂度：$O(N)$
+#  - 时间复杂度：$O(M * N)$
+#  - 空间复杂度：$O(N)$
  
- ## 扩展
+#  ## 扩展
  
- 你可以做到比$O(M * N)$更快，比$O(N)$更省内存的算法么？这里有一份[资料](https://leetcode.com/articles/unique-paths/)可供参考。
- > 提示： 考虑数学
+#  你可以做到比$O(M * N)$更快，比$O(N)$更省内存的算法么？这里有一份[资料](https://leetcode.com/articles/unique-paths/)可供参考。
+#  > 提示： 考虑数学
 
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

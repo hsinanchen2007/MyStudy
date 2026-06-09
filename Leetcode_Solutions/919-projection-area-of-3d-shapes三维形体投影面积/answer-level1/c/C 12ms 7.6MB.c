@@ -1,6 +1,6 @@
-![$QTABMP8HRV54_$FHC`DK\]7.png](https://pic.leetcode-cn.com/f5e7630019dc3adc2c7f644ea850deed5e115aa68a20d3879ce8cc2e94f10851-$QTABMP8HRV54_$FHC%60DK%5D7.png)
+// ![$QTABMP8HRV54_$FHC`DK\]7.png](https://pic.leetcode-cn.com/f5e7630019dc3adc2c7f644ea850deed5e115aa68a20d3879ce8cc2e94f10851-$QTABMP8HRV54_$FHC%60DK%5D7.png)
 
-```
+// ```
 /**
 *时间复杂度O(N*(M+2)),空间复杂度O(M)
 *数学规律：
@@ -85,4 +85,4 @@ int projectionArea(int** grid, int gridSize, int* gridColSize){
     return sum;
 
 }
-```
+// ```

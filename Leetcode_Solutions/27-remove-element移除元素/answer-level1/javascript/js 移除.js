@@ -1,4 +1,4 @@
-```
+// ```
 var removeElement = function(nums, val) {
     let index = 0
     for (let i=0; i<nums.length; i++) {
@@ -9,5 +9,5 @@ var removeElement = function(nums, val) {
     }
     return index
 };
-```
-同上一题
+// ```
+// 同上一题

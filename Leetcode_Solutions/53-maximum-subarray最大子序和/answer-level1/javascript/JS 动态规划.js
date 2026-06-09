@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，dp[i]记录每一个状态，dp[i]=dp[i-1]+nums[i],,dp[i] = nums[i]
+// ### 解题思路
+// 动态规划，dp[i]记录每一个状态，dp[i]=dp[i-1]+nums[i],,dp[i] = nums[i]
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 动态规划，dp[i]记录每一个状态，dp[i]=dp[i-1]+nums[i],,dp[i] = nums[i]
  */
@@ -41,4 +41,4 @@ var maxSubArray = function(nums) {
 
 
 
-```
+// ```

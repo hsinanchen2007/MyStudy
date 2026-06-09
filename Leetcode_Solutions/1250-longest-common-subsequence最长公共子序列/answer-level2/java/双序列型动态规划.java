@@ -1,9 +1,9 @@
-### 解题思路
-双序列型动态规划
+// ### 解题思路
+// 双序列型动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         if (text1 == null || text1.length() == 0 || text2 == null || text2.length() == 0) {
@@ -27,4 +27,4 @@ class Solution {
         return dp[m][n];
     }
 }
-```
+// ```

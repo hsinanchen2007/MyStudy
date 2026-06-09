@@ -1,4 +1,4 @@
-```php
+// ```php
 function maxProfit($k, $prices)
     {
         $len = count($prices);
@@ -39,4 +39,4 @@ function maxProfit($k, $prices)
 
         return $dp[$len - 1][$k - 1][0];
     }
-```
+// ```

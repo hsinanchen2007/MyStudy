@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：31 - 4 3 2 1 
@@ -61,4 +61,4 @@ int * smallerNumbersThanCurrent( int * nums , int numsSize , int * returnSize){
     return buffer;
 
 }
-```
+// ```

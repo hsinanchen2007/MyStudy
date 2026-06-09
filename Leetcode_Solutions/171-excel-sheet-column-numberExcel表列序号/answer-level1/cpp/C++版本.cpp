@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-参考 字符串变成整数
+// 参考 字符串变成整数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //AB =1*26+2  
@@ -21,5 +21,5 @@ public:
        return sum; 
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6e3e8c34408ad5f4f5b27be6633895f232fc7b9308abb21bddab9d2b7ae196d9-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6e3e8c34408ad5f4f5b27be6633895f232fc7b9308abb21bddab9d2b7ae196d9-image.png)

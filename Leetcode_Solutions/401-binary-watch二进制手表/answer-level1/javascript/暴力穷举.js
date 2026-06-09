@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 const map = new Map()
 for (let i = 0; i < 12; i++) {
   for (let j = 0; j < 60; j++) {
@@ -25,4 +25,4 @@ function bitCount(n) {
   }
   return result
 }
-```
+// ```

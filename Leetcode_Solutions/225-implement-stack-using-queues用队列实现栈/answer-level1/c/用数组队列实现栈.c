@@ -1,11 +1,11 @@
-### 解题思路
-定义了一个数组和top作为当前的栈顶的位置， top 为0 即为空；栈顶元素为数组中 top - 1；
-入栈 top++,出栈 top--
+// ### 解题思路
+// 定义了一个数组和top作为当前的栈顶的位置， top 为0 即为空；栈顶元素为数组中 top - 1；
+// 入栈 top++,出栈 top--
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define     MAX_DEPTH       100000
 typedef struct {
     int     stack[MAX_DEPTH];
@@ -69,4 +69,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

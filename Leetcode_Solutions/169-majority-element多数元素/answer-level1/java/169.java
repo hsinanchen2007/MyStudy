@@ -1,9 +1,9 @@
-### 解题思路
-排序之后的中位数就是众数
+// ### 解题思路
+// 排序之后的中位数就是众数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
@@ -11,4 +11,4 @@ class Solution {
 
     }
 }
-```
+// ```

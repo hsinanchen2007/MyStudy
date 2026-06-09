@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class UndergroundSystem {
 
     Map<Integer, String> idAndStation = new HashMap<Integer, String>();
@@ -50,4 +50,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

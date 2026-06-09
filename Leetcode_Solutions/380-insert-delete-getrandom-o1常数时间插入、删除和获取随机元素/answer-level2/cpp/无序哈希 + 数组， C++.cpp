@@ -1,7 +1,7 @@
 
-删除的时候，把待删除元素和数组最后的元素交换，避免移动N个元素，同时 hashmap 只需要更新一个 key。
+// 删除的时候，把待删除元素和数组最后的元素交换，避免移动N个元素，同时 hashmap 只需要更新一个 key。
 
-```cpp
+// ```cpp
 class RandomizedSet {
 private:
     unordered_map<int, int> dict;
@@ -45,14 +45,14 @@ public:
         return v[n];
     }
 };
-```
-52 ms, 击败 98.39 %
+// ```
+// 52 ms, 击败 98.39 %
 
-或者：
+// 或者：
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class RandomizedSet {
 private:
     unordered_map<int, int> dict;
@@ -92,4 +92,4 @@ public:
     }
 };
 
-```
+// ```

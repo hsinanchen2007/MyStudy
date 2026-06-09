@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int fixedPoint(int[] A) {
         if (A == null || A.length == 0) {
@@ -12,4 +12,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-XOR 可以实现无进位的加法；
-AND 可以求出进位；
+// ### 解题思路
+// XOR 可以实现无进位的加法；
+// AND 可以求出进位；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int add(int a, int b){
     unsigned int ans = a^b;
     unsigned int up = a&b;
@@ -15,4 +15,4 @@ int add(int a, int b){
     }
     return ans;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后将每排已预订作为摘出来判断是否影响就坐，影响的话就从可能的总数中减去。
+# ### 解题思路
+# 先排序，然后将每排已预订作为摘出来判断是否影响就坐，影响的话就从可能的总数中减去。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxNumberOfFamilies(self, n, reservedSeats):
         """
@@ -34,4 +34,4 @@ class Solution(object):
                 ana = []
             i += 1
         return ans
-```
+# ```

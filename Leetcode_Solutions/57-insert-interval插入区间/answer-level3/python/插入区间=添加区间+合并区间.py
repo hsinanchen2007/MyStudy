@@ -1,9 +1,9 @@
-### 解题思路
-与合并区间那个题目类似，只需要先把新区间加入进来，然后按照区间起始端点排序，最后再合并即可以
+# ### 解题思路
+# 与合并区间那个题目类似，只需要先把新区间加入进来，然后按照区间起始端点排序，最后再合并即可以
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         intervals.append(newInterval)
@@ -15,4 +15,4 @@ class Solution:
             else:
                 ans[-1][1] = max(intervals[i][1], ans[-1][1])
         return ans
-```
+# ```

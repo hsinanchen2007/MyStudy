@@ -1,9 +1,9 @@
-### 解题思路
-思路和别人的基本一样 分3个情况讨论
+// ### 解题思路
+// 思路和别人的基本一样 分3个情况讨论
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool oneEditAway(char* first, char* second){
     int len1=strlen(first);
     int len2=strlen(second);
@@ -31,4 +31,4 @@ bool oneEditAway(char* first, char* second){
 
     return true;
 }
-```
+// ```

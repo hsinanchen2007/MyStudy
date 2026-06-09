@@ -1,4 +1,4 @@
-```
+// ```
 class NumArray {
 public:
     NumArray(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
 public:
     int dp[10000] = {0};
 };
-```
+// ```

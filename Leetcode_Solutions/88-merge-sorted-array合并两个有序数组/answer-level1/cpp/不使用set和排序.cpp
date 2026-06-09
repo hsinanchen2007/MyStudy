@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a21358c43cf30b15977c5043b12f0d322d00ff2d33d64e8d7ff80e433f849346-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a21358c43cf30b15977c5043b12f0d322d00ff2d33d64e8d7ff80e433f849346-image.png)
 
-代码如下：
-```
+// 代码如下：
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -33,5 +33,5 @@ public:
         }
     }
 };
-```
+// ```
 

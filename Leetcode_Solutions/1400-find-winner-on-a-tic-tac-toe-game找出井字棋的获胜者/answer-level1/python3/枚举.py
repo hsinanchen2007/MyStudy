@@ -1,9 +1,9 @@
-### 解题思路
-一共就这么几种情况，直接枚举就是了，字典来加快查询速度
+# ### 解题思路
+# 一共就这么几种情况，直接枚举就是了，字典来加快查询速度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def tictactoe(self, moves: List[List[int]]) -> str:
         length = len(moves)
@@ -43,4 +43,4 @@ class Solution:
 
 
 
-```
+# ```

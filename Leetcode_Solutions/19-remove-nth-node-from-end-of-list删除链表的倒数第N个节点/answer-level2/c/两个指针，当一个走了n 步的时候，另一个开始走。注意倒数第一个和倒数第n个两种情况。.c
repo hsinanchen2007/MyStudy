@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     struct ListNode* fst = head;
     struct ListNode* sec = head;
@@ -16,4 +16,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     sec -> next = sec -> next -> next;
     return head;
 }
-```
+// ```

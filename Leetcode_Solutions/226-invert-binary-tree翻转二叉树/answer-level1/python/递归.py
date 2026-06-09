@@ -1,4 +1,4 @@
-```
+# ```
 def invertTree(self, root):
         """
         :type root: TreeNode
@@ -17,4 +17,4 @@ def invertTree(self, root):
                 queue.append(node.right)
                 node.left, node.right = node.right, node.left
         return root
-```
+# ```

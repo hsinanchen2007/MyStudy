@@ -1,9 +1,9 @@
-### 解题思路
-用快速排序，结束一次排序后，比较k和当前位置的大小，如果当前位置为k或k-1，说明0到k-1位就是最小的k个数
+// ### 解题思路
+// 用快速排序，结束一次排序后，比较k和当前位置的大小，如果当前位置为k或k-1，说明0到k-1位就是最小的k个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -31,4 +31,4 @@ int QuickSort(int *arr,int low,int high){
     arr[low]=store;
     return low;
 }
-```
+// ```

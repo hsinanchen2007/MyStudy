@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean divisorGame(int N) {
         //如果初始数字N小于3，直接得结果，1和3爱丽丝输，2爱丽丝赢
@@ -35,4 +35,4 @@ class Solution {
 		return dp[N];
     }
 }
-```
+// ```

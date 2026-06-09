@@ -1,11 +1,11 @@
-####  方法一：深度优先搜索 [Accepted]
-让我们记录信号到达节点的时间，若有的信号提前达到，则我们不需要广播这个信号，否则我们将广播这个信号。
+// ####  方法一：深度优先搜索 [Accepted]
+// 让我们记录信号到达节点的时间，若有的信号提前达到，则我们不需要广播这个信号，否则我们将广播这个信号。
 
-**算法：**
-- `dist[node]` 记录的是信号最早到达 `node` 的时间。当我们访问 `node` 时，若经过了传递时间这个信号是最早到达该节点的，则我们广播这个信号
-- 为了加快速度，在访问每个节点时，若传递该信号的时间比已有信号到达的时间长，则我们退出该信号。
+// **算法：**
+// - `dist[node]` 记录的是信号最早到达 `node` 的时间。当我们访问 `node` 时，若经过了传递时间这个信号是最早到达该节点的，则我们广播这个信号
+// - 为了加快速度，在访问每个节点时，若传递该信号的时间比已有信号到达的时间长，则我们退出该信号。
 
-```Python [ ]
+// ```Python [ ]
 class Solution(object):
     def networkDelayTime(self, times, N, K):
         graph = collections.defaultdict(list)
@@ -23,9 +23,9 @@ class Solution(object):
         dfs(K, 0)
         ans = max(dist.values())
         return ans if ans < float('inf') else -1
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class Solution {
     Map<Integer, Integer> dist;
     public int networkDelayTime(int[][] times, int N, int K) {
@@ -59,24 +59,24 @@ class Solution {
                 dfs(graph, info[1], elapsed + info[0]);
     }
 }
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N^N + E \log E)$。其中 $E$ 是 `times` 的长度。
-* 空间复杂度：$O(N + E)$，图的大小是 $O(E)$ 加上 DFS 中隐式调用堆栈的大小 $O(N)$。
+// * 时间复杂度：$O(N^N + E \log E)$。其中 $E$ 是 `times` 的长度。
+// * 空间复杂度：$O(N + E)$，图的大小是 $O(E)$ 加上 DFS 中隐式调用堆栈的大小 $O(N)$。
 
 
-####  方法二：迪杰斯特拉最短路径算法（Dijkstra's）[Accepted]
-**算法：**
-- 我们使用 `Dijkstra's` 算法找到从源节点到所有节点的最短路径，可以点击这个[链接](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)了解更多详细信息。
-- `Dijkstra's` 算法是每次扩展一个距离最短的点，更新与其相邻点的距离。
-- 在下面的代码中，我们展示了 $O(N^2)$ 的基本实现方法 和 $O(N \log N)$ 用堆实现的方法。
+// ####  方法二：迪杰斯特拉最短路径算法（Dijkstra's）[Accepted]
+// **算法：**
+// - 我们使用 `Dijkstra's` 算法找到从源节点到所有节点的最短路径，可以点击这个[链接](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)了解更多详细信息。
+// - `Dijkstra's` 算法是每次扩展一个距离最短的点，更新与其相邻点的距离。
+// - 在下面的代码中，我们展示了 $O(N^2)$ 的基本实现方法 和 $O(N \log N)$ 用堆实现的方法。
 
-**基本实现方式：**
+// **基本实现方式：**
 
-```Python [ ]
+// ```Python [ ]
 class Solution(object):
     def networkDelayTime(self, times, N, K):
         graph = collections.defaultdict(list)
@@ -102,9 +102,9 @@ class Solution(object):
 
         ans = max(dist.values())
         return ans if ans < float('inf') else -1
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class Solution {
     Map<Integer, Integer> dist;
     public int networkDelayTime(int[][] times, int N, int K) {
@@ -147,11 +147,11 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-**堆实现的方式：**
+// **堆实现的方式：**
 
-```Python [ ]
+// ```Python [ ]
 class Solution(object):
     def networkDelayTime(self, times, N, K):
         graph = collections.defaultdict(list)
@@ -169,9 +169,9 @@ class Solution(object):
                     heapq.heappush(pq, (d+d2, nei))
 
         return max(dist.values()) if len(dist) == N else -1
-```
+// ```
 
-```Java [ ]
+// ```Java [ ]
 class Solution {
     public int networkDelayTime(int[][] times, int N, int K) {
         Map<Integer, List<int[]>> graph = new HashMap();
@@ -205,9 +205,9 @@ class Solution {
             ans = Math.max(ans, cand);
         return ans;
     }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $E$ 是 `times` 的长度。基础实现方式为 $O(N^2 + E)$。堆实现方式为 $O(E \log E)$，因为每个边都可能添加到堆中。
-* 空间复杂度：$O(N + E)$，图的大小是 $O(E)$ 加上其他对象的大小 $O(N)$。
+// * 时间复杂度： $E$ 是 `times` 的长度。基础实现方式为 $O(N^2 + E)$。堆实现方式为 $O(E \log E)$，因为每个边都可能添加到堆中。
+// * 空间复杂度：$O(N + E)$，图的大小是 $O(E)$ 加上其他对象的大小 $O(N)$。

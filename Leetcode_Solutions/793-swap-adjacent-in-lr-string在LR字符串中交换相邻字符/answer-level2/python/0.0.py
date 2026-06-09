@@ -1,9 +1,9 @@
-### 解题思路
-统计‘L’和'R'的序列，start中的L只允许左移，R只允许右移，判断一下idx就可以了
+# ### 解题思路
+# 统计‘L’和'R'的序列，start中的L只允许左移，R只允许右移，判断一下idx就可以了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
@@ -35,4 +35,4 @@ class Solution:
                 if st_itm =='L' and start_array[st_idx]<end_array[st_idx]:
                     return False
         return True 
-```
+# ```

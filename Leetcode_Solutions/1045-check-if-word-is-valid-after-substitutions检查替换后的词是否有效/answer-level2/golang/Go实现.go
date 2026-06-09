@@ -1,6 +1,6 @@
-使用了栈，其实就是括号匹配的进阶版
+// 使用了栈，其实就是括号匹配的进阶版
 
-```golang
+// ```golang
 func isValid(S string) bool {
 	var res []byte
 	if len(S)%3!=0{
@@ -28,4 +28,4 @@ func isValid(S string) bool {
 	}
 	return false
 }
-```
+// ```

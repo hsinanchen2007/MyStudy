@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/f541a3b009192a82fb0a47b8f4a02b601a19cb06bb4c8ae2fd088ea6c1432e67-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f541a3b009192a82fb0a47b8f4a02b601a19cb06bb4c8ae2fd088ea6c1432e67-image.png)
 
-```
+// ```
 class Solution {
 public:
     int matrixScore(vector<vector<int>>& A) {
@@ -57,4 +57,4 @@ public:
         return result;
     }
 };
-```
+// ```

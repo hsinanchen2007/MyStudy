@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numUniqueEmails(emails []string) int {
 	mailMap:=make(map[string]bool)
 	for _,v:=range emails{
@@ -26,4 +26,4 @@ func numUniqueEmails(emails []string) int {
 	}
 	return len(mailMap)
 }
-```
+// ```

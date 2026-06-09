@@ -1,10 +1,10 @@
-## 1、公共前缀追加（类似官方方法2）
+// ## 1、公共前缀追加（类似官方方法2）
 
-暴破是一定可以做的，用首个字符串的第一个字符开始，逐个去比较是公共的就追加上去。当第m个字符不是公共时，则返回之前的部分。很容易想到，时间复杂度O(m*n).
+// 暴破是一定可以做的，用首个字符串的第一个字符开始，逐个去比较是公共的就追加上去。当第m个字符不是公共时，则返回之前的部分。很容易想到，时间复杂度O(m*n).
 
-代码：
+// 代码：
 
-```java
+// ```java
 public String longestCommonPrefix(String[] strs) {
     StringBuilder cp = new StringBuilder();
     cp.append("");
@@ -23,20 +23,20 @@ public String longestCommonPrefix(String[] strs) {
     }
     return cp.toString();
 }
-```
+// ```
 
 
 
-- ## 2、公共前缀裁剪（官方题解方法1）
+// - ## 2、公共前缀裁剪（官方题解方法1）
 
-与第一种解法相反，直接将首个字符串拿去与每个字符相比，裁剪掉不同的部分。时间复杂度最坏也是O(m*n)，但是多数情况下与第2个字符串相比时，就可以裁剪掉非公共前缀的大部分字符。
+// 与第一种解法相反，直接将首个字符串拿去与每个字符相比，裁剪掉不同的部分。时间复杂度最坏也是O(m*n)，但是多数情况下与第2个字符串相比时，就可以裁剪掉非公共前缀的大部分字符。
 
-注意这里使用的strs [i].indexOf(prefix)方法，当str中不能完整匹配prefix时这里返回-1，而完全匹配时返回首个匹配字符的下标，又是前缀所以会返回0。反之，当一直不返回0时则没有前缀匹配上就继续裁剪prefix.
+// 注意这里使用的strs [i].indexOf(prefix)方法，当str中不能完整匹配prefix时这里返回-1，而完全匹配时返回首个匹配字符的下标，又是前缀所以会返回0。反之，当一直不返回0时则没有前缀匹配上就继续裁剪prefix.
 
 
-代码：
+// 代码：
 
-```java
+// ```java
 public String longestCommonPrefix(String[] strs){
     if (strs.length==0) return "";
     String prefix = strs[0];
@@ -48,5 +48,5 @@ public String longestCommonPrefix(String[] strs){
     }
     return prefix;
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-利用set的元素唯一性，作为false的判定条件
-至于无限不循环的可能性不存在，建议看官方题解，非常厉害的解释
+# ### 解题思路
+# 利用set的元素唯一性，作为false的判定条件
+# 至于无限不循环的可能性不存在，建议看官方题解，非常厉害的解释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isHappy(self, n: int) -> bool:
         ans=set()
@@ -17,4 +17,4 @@ class Solution:
             else:
                 ans.add(n)
         return True
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
  public int uniquePathsWithObstacles(int[][] map) {
         // 从最后一个点开始思考
         // map[i][j] 可能是从从上往下到达， dp[i][j]=dp[i-1][j-1]
@@ -40,12 +40,12 @@
         }
         return dp[row-1][col-1];
     }
-```
-动态规划+特殊情况处理
-空间o(m*n),空间优化可以考虑滚动数组 
-时间：o(m*n）;//遍历一遍
-滚动数组优化一下空间：
-```
+// ```
+// 动态规划+特殊情况处理
+// 空间o(m*n),空间优化可以考虑滚动数组 
+// 时间：o(m*n）;//遍历一遍
+// 滚动数组优化一下空间：
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] map) {
         // 从最后一个点开始思考
@@ -89,6 +89,6 @@ class Solution {
         return dp[row-1 &1][col-1];
     }
 }
-```
+// ```
 
 

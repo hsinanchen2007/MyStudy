@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-![34.png](https://pic.leetcode-cn.com/523c7f76a65373856cba5f97ac453b5ebf67c9858ec5dd31ca4b1edd0a36f85d-34.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![34.png](https://pic.leetcode-cn.com/523c7f76a65373856cba5f97ac453b5ebf67c9858ec5dd31ca4b1edd0a36f85d-34.png)
 
-本题是练习**分治算法**的经典练习题，使用**两遍二分查找**实现：
-（1）**初始化**vector<int>res(2,-1)即初始化为两个-1；
-（2）第一遍二分查找：找出目标索引**上界**，确定res[1];
-（3）第二遍二分查找：找出目标索引**下界**, 确定res[0];
-具体过程及注意事项详见代码注释部分！
-### 代码
+// 本题是练习**分治算法**的经典练习题，使用**两遍二分查找**实现：
+// （1）**初始化**vector<int>res(2,-1)即初始化为两个-1；
+// （2）第一遍二分查找：找出目标索引**上界**，确定res[1];
+// （3）第二遍二分查找：找出目标索引**下界**, 确定res[0];
+// 具体过程及注意事项详见代码注释部分！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<int> searchRange(vector<int>& nums, int target) {
@@ -47,4 +47,4 @@ vector<int> searchRange(vector<int>& nums, int target) {
 	return res;
 }
 };
-```
+// ```

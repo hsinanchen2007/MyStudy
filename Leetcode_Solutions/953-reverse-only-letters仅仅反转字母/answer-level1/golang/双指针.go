@@ -1,9 +1,9 @@
-### 解题思路
-依然是双指针
+// ### 解题思路
+// 依然是双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseOnlyLetters(S string) string {
    msgs := []rune(S)
 	for i, j := 0, len(msgs) - 1; i < j ;  {
@@ -22,4 +22,4 @@ func reverseOnlyLetters(S string) string {
 	return string(msgs)
 }
 
-```
+// ```

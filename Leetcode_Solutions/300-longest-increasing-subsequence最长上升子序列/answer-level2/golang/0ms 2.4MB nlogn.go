@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-参考 //https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/
-加提前判断
+// 参考 //https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/
+// 加提前判断
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /*
 n*logn  dp【i】记录的是 长度为i+1的上升字串的最后一个数字，使用贪心算法，维护最后一个数字要最小的
 */
@@ -68,4 +68,4 @@ func biFind(dp []int, num int, value int) int {
 
 }
 
-```
+// ```

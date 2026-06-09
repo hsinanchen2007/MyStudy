@@ -1,9 +1,9 @@
-### 解题思路
-从左到右扫一遍 如果当前字母与上一个字母不一样则更新计数器
+// ### 解题思路
+// 从左到右扫一遍 如果当前字母与上一个字母不一样则更新计数器
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -28,4 +28,4 @@ public:
             return S;
     }
 };
-```
+// ```

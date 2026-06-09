@@ -1,10 +1,10 @@
-### 解题思路
-原理在[102题](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/ceng-ci-bian-li-bfs-by-user2511z/)二叉树的层次遍历中已经阐述, 本题属于同类型题。
-下面给出深度优先搜索的实现
+// ### 解题思路
+// 原理在[102题](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/ceng-ci-bian-li-bfs-by-user2511z/)二叉树的层次遍历中已经阐述, 本题属于同类型题。
+// 下面给出深度优先搜索的实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -44,4 +44,4 @@ public:
 };
 
 
-```
+// ```

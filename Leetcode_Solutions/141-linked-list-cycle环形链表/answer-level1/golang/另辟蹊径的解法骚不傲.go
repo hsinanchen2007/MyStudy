@@ -1,10 +1,10 @@
-### 解题思路
-要不看代码把，这种写法纯属为了leetcode。
-> [更多](https://github.com/googege/GOFamily)
+// ### 解题思路
+// 要不看代码把，这种写法纯属为了leetcode。
+// > [更多](https://github.com/googege/GOFamily)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -29,4 +29,4 @@ func hasCycle(head *ListNode) bool {
     }
     return true
 }
-```
+// ```

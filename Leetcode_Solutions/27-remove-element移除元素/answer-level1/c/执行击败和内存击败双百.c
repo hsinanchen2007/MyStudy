@@ -1,9 +1,9 @@
-### 解题思路
-较简单的原地移除元素
+// ### 解题思路
+// 较简单的原地移除元素
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int len=numsSize;//当前长度
     int i,j;
@@ -22,4 +22,4 @@ int removeElement(int* nums, int numsSize, int val){
     }
     return len;
 }
-```
+// ```

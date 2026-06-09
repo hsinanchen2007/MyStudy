@@ -1,9 +1,9 @@
-### 解题思路
-n为正整数时，acquire才会放行n = n-1。release会让n变成 n++
+// ### 解题思路
+// n为正整数时，acquire才会放行n = n-1。release会让n变成 n++
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private Semaphore s1 = new Semaphore(0);
     private Semaphore s2 = new Semaphore(0);
@@ -31,4 +31,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

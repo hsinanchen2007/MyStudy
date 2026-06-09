@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func gameOfLife(_ board: inout [[Int]]) {
         
@@ -45,4 +45,4 @@ class Solution {
         }
     }
 }
-```
+// ```

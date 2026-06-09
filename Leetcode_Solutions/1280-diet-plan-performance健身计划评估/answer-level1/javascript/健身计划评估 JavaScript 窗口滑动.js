@@ -1,4 +1,4 @@
-``` javascript
+// ``` javascript
 /*
  * @lc app=leetcode.cn id=1176 lang=javascript
  *
@@ -36,4 +36,4 @@ var dietPlanPerformance = function(calories, k, lower, upper) {
 //   ✔ 27/27 cases passed (72 ms)
 //   ✔ Your runtime beats 100 % of javascript submissions
 //   ✔ Your memory usage beats 100 % of javascript submissions (39.7 MB)
-```
+// ```

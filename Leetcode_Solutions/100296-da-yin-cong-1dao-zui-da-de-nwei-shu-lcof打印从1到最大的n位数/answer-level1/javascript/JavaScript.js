@@ -1,9 +1,9 @@
-### 解题思路
-首先确定最大值即为10^n-1;循环将从1到最大值的数加入到数组中
+// ### 解题思路
+// 首先确定最大值即为10^n-1;循环将从1到最大值的数加入到数组中
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -16,4 +16,4 @@ var printNumbers = function(n) {
 		    }
 		return arr;
 };
-```
+// ```

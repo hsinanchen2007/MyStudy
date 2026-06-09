@@ -1,9 +1,9 @@
-### 解题思路
-先求出seq的最大的嵌套深度depth，再遍历seq，遇到深度大于depth/2的括号就将其移除
+// ### 解题思路
+// 先求出seq的最大的嵌套深度depth，再遍历seq，遇到深度大于depth/2的括号就将其移除
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int depth(const string& seq) {//求嵌套深度
@@ -49,5 +49,5 @@ public:
 		return res;
 	}
 };
-```
-![捕获.PNG](https://pic.leetcode-cn.com/bc9d17905a9412194004306112143bae777a240117e440d9b859286d2143c893-%E6%8D%95%E8%8E%B7.PNG)
+// ```
+// ![捕获.PNG](https://pic.leetcode-cn.com/bc9d17905a9412194004306112143bae777a240117e440d9b859286d2143c893-%E6%8D%95%E8%8E%B7.PNG)

@@ -1,9 +1,9 @@
-### 解题思路
-这不就是一个从大到小排序问题么，不知道为啥会设定为中等难度
+// ### 解题思路
+// 这不就是一个从大到小排序问题么，不知道为啥会设定为中等难度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int hIndex(vector<int>& citations) {
@@ -14,4 +14,4 @@ public:
 		return citations.size();
 	}
 };
-```
+// ```

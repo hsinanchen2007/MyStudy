@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int deleteAndEarn(int[] nums) {
         int n = nums.length;
@@ -19,4 +19,4 @@ class Solution {
         return dp[n - 1];
     }
 }
-```
+// ```

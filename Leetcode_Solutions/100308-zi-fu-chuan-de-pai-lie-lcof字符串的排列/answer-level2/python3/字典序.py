@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permutation(self, s: str) -> List[str]:
         def arr2str(s):
@@ -30,4 +30,4 @@ class Solution:
             swap(s, i+1, len(s)-1)
             ans.append(arr2str(s))
         return ans
-```
+# ```

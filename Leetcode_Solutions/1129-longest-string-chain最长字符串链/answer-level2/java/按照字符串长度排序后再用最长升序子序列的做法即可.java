@@ -1,5 +1,5 @@
-这道题不用按照顺序取字符串。所以我们可以按照字符串长度升序排列整个数组后按照熟悉的方法做。相对以前的最长升序子序列，我们把升序这个条件换成是否为前身即可。
-```
+// 这道题不用按照顺序取字符串。所以我们可以按照字符串长度升序排列整个数组后按照熟悉的方法做。相对以前的最长升序子序列，我们把升序这个条件换成是否为前身即可。
+// ```
 class Solution {
     public int longestStrChain(String[] words) {
         Arrays.sort(words,new Comparator<String>(){
@@ -37,4 +37,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

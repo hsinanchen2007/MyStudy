@@ -1,5 +1,5 @@
-map做set 结合官方题解1
-```
+// map做set 结合官方题解1
+// ```
 func minimumLengthEncoding(words []string) int {
     m := make(map[string]bool)
     for i := range words{
@@ -21,5 +21,5 @@ func minimumLengthEncoding(words []string) int {
 
     return count 
 }
-```
+// ```
 

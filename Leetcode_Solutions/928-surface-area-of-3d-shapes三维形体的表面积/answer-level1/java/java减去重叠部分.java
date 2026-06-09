@@ -1,14 +1,14 @@
-### 解题思路
-grid[i][j]=value;
-每一个立方体的面积是6*value-2*(value-1)化简等于4*value+2,
-把grid[i][j]看成整体出现重叠面只能是上下左右四个方向即grid[i-1][j],grid[i+1][j],grid[i][j-1],grid[i][j+1]
-其中i-1>=0;i+1<grid.length,j-1>=0;j+1<grid[0].length 这是四个边界情况.
-但是我们可以直接判断上和左,省略掉下与右
-例如如果grid[i-1][j]>0说明有重叠部分,重叠的面积Math.min(grid[i][j], grid[i-1][j]),这个重叠面积相是在grid[i][j]的上方,但也相当于在grid[i-1][j]的下方,所以重叠面积**Math.min(grid[i][j], grid[i-1][j])*2**上下面都计算了,所以只需要计算grid[i][j]上方省略下方,即可,同理只计算左方,省略右方
-当然也可以不省略,只是不需要乘以2,变成**Math.min(grid[i][j], grid[i-1][j])**
-### 代码
+// ### 解题思路
+// grid[i][j]=value;
+// 每一个立方体的面积是6*value-2*(value-1)化简等于4*value+2,
+// 把grid[i][j]看成整体出现重叠面只能是上下左右四个方向即grid[i-1][j],grid[i+1][j],grid[i][j-1],grid[i][j+1]
+// 其中i-1>=0;i+1<grid.length,j-1>=0;j+1<grid[0].length 这是四个边界情况.
+// 但是我们可以直接判断上和左,省略掉下与右
+// 例如如果grid[i-1][j]>0说明有重叠部分,重叠的面积Math.min(grid[i][j], grid[i-1][j]),这个重叠面积相是在grid[i][j]的上方,但也相当于在grid[i-1][j]的下方,所以重叠面积**Math.min(grid[i][j], grid[i-1][j])*2**上下面都计算了,所以只需要计算grid[i][j]上方省略下方,即可,同理只计算左方,省略右方
+// 当然也可以不省略,只是不需要乘以2,变成**Math.min(grid[i][j], grid[i-1][j])**
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     //第一种方法
@@ -55,10 +55,10 @@ class Solution {
         return result;
     }
 }
-```
-### 解题思路
-其实不需要借助队列,也可以完成,直接在循环中进行判断
-```java
+// ```
+// ### 解题思路
+// 其实不需要借助队列,也可以完成,直接在循环中进行判断
+// ```java
 class Solution {
      public int surfaceArea(int[][] grid){
          //记录面积
@@ -88,4 +88,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

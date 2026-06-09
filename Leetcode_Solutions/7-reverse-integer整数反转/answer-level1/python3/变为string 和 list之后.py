@@ -1,9 +1,9 @@
-### 解题思路
-变为string 和 list之后
+# ### 解题思路
+# 变为string 和 list之后
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         b = list(str(x))
@@ -23,4 +23,4 @@ class Solution:
                 return(0) 
             else:
                 return(d)
-```
+# ```

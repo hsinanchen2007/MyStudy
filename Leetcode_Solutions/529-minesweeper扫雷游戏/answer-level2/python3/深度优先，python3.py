@@ -1,13 +1,13 @@
-### 解题思路
-# 代码很乱各路大神谅解
-来说下我的思路：
-1. 遍历board列表找到其中“M”所在位置
-2. 给"M"周围的格累加1
-3. 剩下其他前辈解答的思路差不多啦
+# ### 解题思路
+# # 代码很乱各路大神谅解
+# 来说下我的思路：
+# 1. 遍历board列表找到其中“M”所在位置
+# 2. 给"M"周围的格累加1
+# 3. 剩下其他前辈解答的思路差不多啦
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
         r = [1, 1, 0, 0, -1, -1, -1, 1]
@@ -54,4 +54,4 @@ class Solution:
                     self.dfs(board, board1, click1)
                 elif board1[nr][nc] == 'E':
                     board1[nr][nc] = board[nr][nc]
-```
+# ```

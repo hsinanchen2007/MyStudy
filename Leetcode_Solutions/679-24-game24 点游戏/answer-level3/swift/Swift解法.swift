@@ -1,5 +1,5 @@
-先上代码
-```Swift
+// 先上代码
+// ```Swift
 class Solution {
     func judgePoint24(_ nums: [Int]) -> Bool {
         let result = nums.map { (item) -> Double in
@@ -50,6 +50,6 @@ class Solution {
         return false
     }
 }
-```
+// ```
 
-这里思路就是排列组合，先取前两个遍历做4则运算，然后使得数组长度减少一位，然后再对新数组进行同样的操作，直到数组数量变为2或更少。
+// 这里思路就是排列组合，先取前两个遍历做4则运算，然后使得数组长度减少一位，然后再对新数组进行同样的操作，直到数组数量变为2或更少。

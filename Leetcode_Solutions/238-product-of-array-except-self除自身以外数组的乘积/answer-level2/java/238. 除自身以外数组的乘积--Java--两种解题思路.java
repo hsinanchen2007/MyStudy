@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java)
+// [Leetcode-Java(更多题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_238_productExceptSelf.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 1.遍历数组，将所有的数进行乘积，得到最大的乘积
@@ -75,4 +75,4 @@
         }
         return res;
     }
-```
+// ```

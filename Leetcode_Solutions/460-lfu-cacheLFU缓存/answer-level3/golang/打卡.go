@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type LFUCache struct {
     Table map[int]*Node
     Freq map[int]*List
@@ -126,4 +126,4 @@ func (l *List) Front() *Node {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

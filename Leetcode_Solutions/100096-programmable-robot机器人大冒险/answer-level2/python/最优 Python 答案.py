@@ -1,6 +1,6 @@
-解题不难，难的是写的优雅。
+# 解题不难，难的是写的优雅。
 
-```python
+# ```python
 class Solution(object):
     def robot(self, command, obstacles, x, y):
         """
@@ -53,4 +53,4 @@ class Solution(object):
             return False
         
         return True
-```
+# ```

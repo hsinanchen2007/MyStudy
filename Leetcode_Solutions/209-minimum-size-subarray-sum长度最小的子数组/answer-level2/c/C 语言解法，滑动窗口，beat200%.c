@@ -1,10 +1,10 @@
-### 解题思路
-双指针2.0--滑动窗口的应用
+// ### 解题思路
+// 双指针2.0--滑动窗口的应用
 
-![image.png](https://pic.leetcode-cn.com/f87698103b070b416ade08cb6d168d86282c5c65c74072c01732fbe604117f7d-image.png)
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/f87698103b070b416ade08cb6d168d86282c5c65c74072c01732fbe604117f7d-image.png)
+// ### 代码
 
-```c
+// ```c
 int minSubArrayLen(int s, int* nums, int n){
 	int sum=0,start=0,end=0,minLen=INT_MAX,curLen=0;
     if(n==0)return 0;
@@ -23,4 +23,4 @@ int minSubArrayLen(int s, int* nums, int n){
 	}
 	return minLen == INT_MAX? 0 : minLen;
 }
-```
+// ```

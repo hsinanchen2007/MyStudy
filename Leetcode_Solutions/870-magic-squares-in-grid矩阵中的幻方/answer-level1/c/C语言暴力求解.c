@@ -1,4 +1,4 @@
-```
+// ```
 //判断数字是否为1~9，且不能有重复，使用一个int A[10]数组记录出现次数，大于1或者等于0则不满足
 bool Full(int **grid,int i,int j)
 {
@@ -67,4 +67,4 @@ int numMagicSquaresInside(int** grid, int gridSize, int* gridColSize){
 }
 
 
-```
+// ```

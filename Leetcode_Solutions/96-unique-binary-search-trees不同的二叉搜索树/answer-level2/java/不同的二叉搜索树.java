@@ -1,9 +1,9 @@
-### 解题思路
-   动态规划法，官方题解上写的非常好
+// ### 解题思路
+//    动态规划法，官方题解上写的非常好
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numTrees(int n) {
         //本题采用的方法：动态规划
@@ -20,4 +20,4 @@ class Solution {
         return G[n];
     }
 }
-```
+// ```

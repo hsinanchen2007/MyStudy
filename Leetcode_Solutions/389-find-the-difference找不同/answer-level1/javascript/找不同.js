@@ -1,5 +1,5 @@
-法一： 一遍循环一遍删除存在的字符串，最后留下不同的。
-```js
+// 法一： 一遍循环一遍删除存在的字符串，最后留下不同的。
+// ```js
 var findTheDifference = function(s, t) {
     for (let i = 0; i < s.length; i++) {
         let index = t.indexOf(s[i])
@@ -10,10 +10,10 @@ var findTheDifference = function(s, t) {
     }
     return t
 };
-```
+// ```
 
-法二：借助map对象
-```js
+// 法二：借助map对象
+// ```js
 var findTheDifference2 = function(s, t) {
     let map = new Map();
     for ( let i = 0; i < s.length; i++) {
@@ -29,5 +29,5 @@ var findTheDifference2 = function(s, t) {
         }
     }
 };
-```
+// ```
 

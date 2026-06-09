@@ -1,9 +1,9 @@
-### 解题思路
-循环之前先预判断，充分利用数学关系
+# ### 解题思路
+# 循环之前先预判断，充分利用数学关系
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         n = len(A)
@@ -21,4 +21,4 @@ class Solution:
                     continue
                 return True 
         return False
-```
+# ```

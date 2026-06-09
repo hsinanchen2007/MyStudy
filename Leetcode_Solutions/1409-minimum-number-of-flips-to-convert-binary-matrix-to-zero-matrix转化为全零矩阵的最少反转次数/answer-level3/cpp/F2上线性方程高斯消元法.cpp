@@ -1,7 +1,7 @@
-唉，竞赛时候没写完，一直在犹豫到底要不要暴力穷举。
+// 唉，竞赛时候没写完，一直在犹豫到底要不要暴力穷举。
 
-暴力穷举是O(2^(mn))，线性方程是O(m^3n^3)。
-```
+// 暴力穷举是O(2^(mn))，线性方程是O(m^3n^3)。
+// ```
 class Solution {
 public:
     void solve(vector<vector<int>>& board,vector<int>&pivot){
@@ -47,4 +47,4 @@ public:
         return ans;
     }
 };
-```
+// ```

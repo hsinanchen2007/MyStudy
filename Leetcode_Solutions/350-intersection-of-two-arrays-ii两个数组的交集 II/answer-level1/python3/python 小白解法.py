@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         len_nums1 = len(nums1)
@@ -22,4 +22,4 @@ class Solution:
             return list1
 
     
-```
+# ```

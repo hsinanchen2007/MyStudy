@@ -1,9 +1,9 @@
-### 解题思路
-**head**指向的结点是带数据的，我说结果怎么一直不对
+// ### 解题思路
+// **head**指向的结点是带数据的，我说结果怎么一直不对
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ struct ListNode* middleNode(struct ListNode* head){
 }
 
 
-```
+// ```

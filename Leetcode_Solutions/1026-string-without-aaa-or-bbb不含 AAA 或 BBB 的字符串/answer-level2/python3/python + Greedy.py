@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def strWithout3a3b(self, A: int, B: int) -> str:
         # Greedy
@@ -25,4 +25,4 @@ class Solution:
         if A > B: res = process(A, B, 'a', 'b')
         else: res = process(B, A, 'b', 'a')
         return res
-```
+# ```

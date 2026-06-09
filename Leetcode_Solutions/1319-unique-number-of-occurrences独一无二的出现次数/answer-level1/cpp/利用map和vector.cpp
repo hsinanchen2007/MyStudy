@@ -1,4 +1,4 @@
-```
+// ```
 		map<int, int>mp;
 		vector<int>v;
 		for (auto i : arr) mp[i]++;
@@ -8,4 +8,4 @@
 			if (v[i] == v[i + 1]) return false;
 		}
 		return true;
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-将s3分解成s1和s2  转化为 由s1,s2组合成s3  
-思路转变后然后使用二维数组
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 将s3分解成s1和s2  转化为 由s1,s2组合成s3  
+# 思路转变后然后使用二维数组
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
         if len(s1) + len(s2) != len(s3):
@@ -22,4 +22,4 @@ class Solution:
                     dp[i][j] = dp[i][j-1] and s2[j-1] == s3[i+j-1] or \
                             dp[i - 1][j] and s1[i - 1] == s3[i + j - 1]
         return dp[len(s1)][len(s2)]
-```
+# ```

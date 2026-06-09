@@ -1,4 +1,4 @@
-```
+// ```
 func connect(root *Node) *Node {
 	if root == nil {
 		return root
@@ -23,8 +23,8 @@ func connect(root *Node) *Node {
 	}
 	return root
 }
-```
-```
+// ```
+// ```
 //bfs
 func connect(root *Node) *Node {
 	if root == nil {
@@ -44,9 +44,9 @@ func connect(root *Node) *Node {
 	}
 	return root
 }
-```
+// ```
 
-```
+// ```
 //dfs
 func connect(root *Node) *Node {
 	if root == nil {
@@ -71,6 +71,6 @@ func DFSconnect(root *Node) {
 	DFSconnect(root.Left)
 	DFSconnect(root.Right)
 }
-```
+// ```
 
 

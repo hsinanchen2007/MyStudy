@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-通过学习B站的视频学到的方法
-参考 [一分钟教你链表反转](https://www.bilibili.com/video/av24376909)
+// 通过学习B站的视频学到的方法
+// 参考 [一分钟教你链表反转](https://www.bilibili.com/video/av24376909)
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return $pre;
     }
 }
-```
+// ```

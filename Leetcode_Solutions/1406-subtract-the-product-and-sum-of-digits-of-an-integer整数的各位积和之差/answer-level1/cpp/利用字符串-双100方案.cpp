@@ -1,5 +1,5 @@
-##### 利用字符串保存数字，然后分别处理各个字符
-```
+// ##### 利用字符串保存数字，然后分别处理各个字符
+// ```
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -13,4 +13,4 @@ public:
     }
 };
 
-```
+// ```

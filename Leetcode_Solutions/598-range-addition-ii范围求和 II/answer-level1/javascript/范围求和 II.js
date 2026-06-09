@@ -1,4 +1,4 @@
-```js
+// ```js
 var maxCount = function(m, n, ops) {
     for (let i = 0; i < ops.length; i++) {
         m = Math.min(m, ops[i][0])
@@ -6,4 +6,4 @@ var maxCount = function(m, n, ops) {
     }
     return m * n
 };
-```
+// ```

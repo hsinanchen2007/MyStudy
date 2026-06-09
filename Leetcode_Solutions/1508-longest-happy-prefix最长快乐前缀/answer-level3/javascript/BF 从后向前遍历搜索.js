@@ -1,6 +1,6 @@
-从末尾字符开始，逐一比对是否为后缀。
+// 从末尾字符开始，逐一比对是否为后缀。
 
-```js
+// ```js
 var longestPrefix = function(s) {
   let ans = null
   for (let i = s.length - 2; i >= 0; i--) {
@@ -18,4 +18,4 @@ var longestPrefix = function(s) {
   }
   return ans || ''
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-递归实现简单,但是很容易就超时了
-dp过了,但是用时内存其实还是很高
+# ### 解题思路
+# 递归实现简单,但是很容易就超时了
+# dp过了,但是用时内存其实还是很高
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def change(self, amount, coins):
         """
@@ -66,4 +66,4 @@ class Solution(object):
         
                 
             
-```
+# ```

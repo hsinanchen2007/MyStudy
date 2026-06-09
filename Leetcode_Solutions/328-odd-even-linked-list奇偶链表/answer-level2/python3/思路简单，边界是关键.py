@@ -1,5 +1,5 @@
-将奇节点放在一个链表里，偶链表放在另一个链表里，然后将奇数链表的尾指针指向偶数链表的头指
-```python3
+# 将奇节点放在一个链表里，偶链表放在另一个链表里，然后将奇数链表的尾指针指向偶数链表的头指
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             
         
             
-```
+# ```

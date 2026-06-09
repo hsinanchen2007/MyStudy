@@ -1,6 +1,6 @@
-题目已经很清楚地暗示使用前缀和了
+// 题目已经很清楚地暗示使用前缀和了
 
-```cpp
+// ```cpp
 class NumArray 
 {
 private:
@@ -30,4 +30,4 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

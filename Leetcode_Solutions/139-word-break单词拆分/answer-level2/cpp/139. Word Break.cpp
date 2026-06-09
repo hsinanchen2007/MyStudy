@@ -1,14 +1,14 @@
-### 解题思路
-1.递归+记忆化搜索
-2.递归其实就是穷举，但是这道题不太好想出来穷举的方式。
+// ### 解题思路
+// 1.递归+记忆化搜索
+// 2.递归其实就是穷举，但是这道题不太好想出来穷举的方式。
 
-参考与链接（侵删）：[https://zxi.mytechroad.com/blog/leetcode/leetcode-139-word-break/](https://zxi.mytechroad.com/blog/leetcode/leetcode-139-word-break/)
-![image.png](https://pic.leetcode-cn.com/d020b9adb96cd3de5d2d32ad55e2f01e39fad40f71c9e9bc2db16aa3861c2639-image.png)
+// 参考与链接（侵删）：[https://zxi.mytechroad.com/blog/leetcode/leetcode-139-word-break/](https://zxi.mytechroad.com/blog/leetcode/leetcode-139-word-break/)
+// ![image.png](https://pic.leetcode-cn.com/d020b9adb96cd3de5d2d32ad55e2f01e39fad40f71c9e9bc2db16aa3861c2639-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -31,15 +31,15 @@ private:
     }
     unordered_map<string, bool> mem;
 };
-```
+// ```
 
-### 解题思路
-1.动态规划
-2.状态表达式和转移方程比上面递归好想一些
-3.求解状态表达式同样的不是常亮时间，与状态表达式的规模成正比。
-### 代码
+// ### 解题思路
+// 1.动态规划
+// 2.状态表达式和转移方程比上面递归好想一些
+// 3.求解状态表达式同样的不是常亮时间，与状态表达式的规模成正比。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //dp[i]: 表示s的前i个字符组成的子串是否可以拆解分成字典中的单词
@@ -61,13 +61,13 @@ public:
         return dp[s.size()];
     }
 };
-```
+// ```
 
-### 解题思路
-宽度有限搜索？
+// ### 解题思路
+// 宽度有限搜索？
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
-```
+// ```

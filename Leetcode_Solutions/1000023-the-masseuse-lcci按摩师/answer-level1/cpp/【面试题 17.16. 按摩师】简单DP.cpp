@@ -1,10 +1,10 @@
-## 思路
-dp[i]表示[0,i]范围内最大值，遍历每个数，在dp[i - 2] +  nums[i] 和 dp[i - 1]两者取最大值即表示当前位置时最大值。
+// ## 思路
+// dp[i]表示[0,i]范围内最大值，遍历每个数，在dp[i - 2] +  nums[i] 和 dp[i - 1]两者取最大值即表示当前位置时最大值。
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return dp[size - 1];
     }
 };
-```
+// ```

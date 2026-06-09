@@ -1,9 +1,9 @@
-### 解题思路
-之前腾讯面试遇到过，纪念一下
+// ### 解题思路
+// 之前腾讯面试遇到过，纪念一下
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -38,4 +38,4 @@ class Solution {
 
     }
 }
-```
+// ```

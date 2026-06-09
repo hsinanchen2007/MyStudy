@@ -1,9 +1,9 @@
-### 解题思路
-先定位查找元素的行信息，再定位列信息。
+# ### 解题思路
+# 先定位查找元素的行信息，再定位列信息。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or not matrix[0]:
@@ -43,4 +43,4 @@ class Solution:
 
              
 
-```
+# ```

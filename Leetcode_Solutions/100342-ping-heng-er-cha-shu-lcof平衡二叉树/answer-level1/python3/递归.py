@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         self.ans = True
@@ -14,4 +14,4 @@ class Solution:
             return 1 + max(left, right)
         judge(root)
         return self.ans
-```
+# ```

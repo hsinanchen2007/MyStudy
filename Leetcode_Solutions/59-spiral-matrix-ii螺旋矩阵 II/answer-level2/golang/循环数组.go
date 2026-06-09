@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func generateMatrix(n int) [][]int {
     help:=[][]int{{0,1},{1,0},{0,-1},{-1,0}}
     res:=make([][]int,n)
@@ -23,4 +23,4 @@ func generateMatrix(n int) [][]int {
     }
     return res
 }
-```
+// ```

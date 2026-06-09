@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int[][] dp;
     public boolean splitArraySameAverage(int[] A) {
@@ -30,4 +30,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

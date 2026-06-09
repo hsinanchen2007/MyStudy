@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路 用三个参数循环的加
+// ### 解题思路
+// 此处撰写解题思路 用三个参数循环的加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
          if (n == 0) return 0;
@@ -21,4 +21,4 @@ class Solution {
         return c;
     }
 }
-```
+// ```

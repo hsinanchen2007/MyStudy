@@ -1,6 +1,6 @@
-执行用时 : 2 ms, 在Pascal's Triangle II的Java提交中击败了73.43% 的用户
-内存消耗 : 32.7 MB, 在Pascal's Triangle II的Java提交中击败了83.65% 的用户
-```Java []
+// 执行用时 : 2 ms, 在Pascal's Triangle II的Java提交中击败了73.43% 的用户
+// 内存消耗 : 32.7 MB, 在Pascal's Triangle II的Java提交中击败了83.65% 的用户
+// ```Java []
     public List<Integer> getRow(int rowIndex) {
         List<Integer> result = new ArrayList<>();
         if (rowIndex == 0) {
@@ -30,4 +30,4 @@
 
 
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度O(N)
+# ### 解题思路
+# 时间复杂度O(N)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestSeq(self, big, small):
         from collections import Counter
@@ -25,4 +25,4 @@ class Solution:
                 left += 1
 
         return result if result[0] != float("inf") else []
-```
+# ```

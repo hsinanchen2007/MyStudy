@@ -1,8 +1,8 @@
-- 整体还是回溯
-- 路径 `Integer[] curr` 替代了 `Stack` 或 `Deque` 或 `List<Integer>`
-- 选了谁 `int occupy` 替代了 `boolean[] used`
-- `int ci` 表示 `curr` 当前的 `index`
-```java
+// - 整体还是回溯
+// - 路径 `Integer[] curr` 替代了 `Stack` 或 `Deque` 或 `List<Integer>`
+// - 选了谁 `int occupy` 替代了 `boolean[] used`
+// - `int ci` 表示 `curr` 当前的 `index`
+// ```java
 public List<List<Integer>> permute(int[] nums) {
     int len = nums.length;
     if (len == 0) return Collections.emptyList();
@@ -26,4 +26,4 @@ private void bt(int[] nums, Integer[] curr, int ci, int occupy, List<List<Intege
         occupy &= (~(1 << i)); // 去选
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-顺序遍历更新最大值即可
+// 顺序遍历更新最大值即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return ans > temp ? ans : temp;
     }
 };
-```
+// ```

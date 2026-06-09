@@ -1,9 +1,9 @@
-### 解题思路
-DFS求出所有路径、然后二进制转十进制，求和即可
+// ### 解题思路
+// DFS求出所有路径、然后二进制转十进制，求和即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     List<String> list = new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

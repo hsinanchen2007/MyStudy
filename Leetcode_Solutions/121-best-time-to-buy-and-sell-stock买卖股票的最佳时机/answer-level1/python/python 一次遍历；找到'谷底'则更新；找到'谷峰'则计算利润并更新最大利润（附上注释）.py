@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 res=max(res,prices[n-1]-prices[tmp])
         return res
 
-```
+# ```

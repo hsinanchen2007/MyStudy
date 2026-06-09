@@ -1,10 +1,10 @@
-### 解题思路
-知乎大佬写的题解，简单易懂
-https://zhuanlan.zhihu.com/p/105940783
+// ### 解题思路
+// 知乎大佬写的题解，简单易懂
+// https://zhuanlan.zhihu.com/p/105940783
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -53,4 +53,4 @@ public class Solution {
         return headA;
     }
 }
-```
+// ```

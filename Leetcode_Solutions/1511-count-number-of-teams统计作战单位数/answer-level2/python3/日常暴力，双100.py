@@ -1,5 +1,5 @@
-依次循环选择i，j，k，满足条件时计数
-```
+# 依次循环选择i，j，k，满足条件时计数
+# ```
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
         s = 0
@@ -12,4 +12,4 @@ class Solution:
                         if rating[i]>rating[j] and rating[i]>rating[k] and rating[j]>rating[k]:
                             s+=1
         return s
-```
+# ```

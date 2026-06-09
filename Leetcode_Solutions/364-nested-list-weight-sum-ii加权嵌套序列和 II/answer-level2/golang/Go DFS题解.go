@@ -1,4 +1,4 @@
-只有获取到最大深度后，才能知道其余元素的深度，故先遍历一次用DFS求出最大深度，然后再遍历一次计算sum，每次递归的时候深度减一即可。
+// 只有获取到最大深度后，才能知道其余元素的深度，故先遍历一次用DFS求出最大深度，然后再遍历一次计算sum，每次递归的时候深度减一即可。
 func depthSumInverse(nestedList []*NestedInteger) int {
     depth:=getDepth(nestedList)
     return getSum(nestedList,depth)

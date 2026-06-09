@@ -1,4 +1,4 @@
-```
+# ```
 class Solution {
     public ListNode reverseList(ListNode head) {
 		if(head==null)
@@ -13,8 +13,8 @@ class Solution {
         return l;
     }
 }
-```
-```
+# ```
+# ```
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if head == None or head.next == None:
@@ -27,7 +27,7 @@ class Solution:
             ln = temp
             head = head.next
         return ln
-```
+# ```
 
 
 

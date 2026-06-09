@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *方法1:时间复杂度O(N)，空间复杂度O(N)，N为额外空间
 *整体思路：先序遍历
@@ -133,4 +133,4 @@ struct TreeNode * invertTree( struct TreeNode * root ){
     return t;
 
 }
-```
+// ```

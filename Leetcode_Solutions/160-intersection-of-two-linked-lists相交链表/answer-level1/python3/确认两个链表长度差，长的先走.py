@@ -1,11 +1,11 @@
-### 解题思路
-总共走两轮：第一轮两个指针一起走，其中一个先到None，记录另一个位置，第二轮判断先走的指针和先走的距离，然后两个链表指针一起走（不相交则同时到达None）。
-虽然没有官方方法三有灵性，但是复杂度上是差不多的。
-![image.png](https://pic.leetcode-cn.com/28f464166414b8fb177e5ba71f1100fe105b52edcb77df1a470d4ddda3ec1ce1-image.png)
+# ### 解题思路
+# 总共走两轮：第一轮两个指针一起走，其中一个先到None，记录另一个位置，第二轮判断先走的指针和先走的距离，然后两个链表指针一起走（不相交则同时到达None）。
+# 虽然没有官方方法三有灵性，但是复杂度上是差不多的。
+# ![image.png](https://pic.leetcode-cn.com/28f464166414b8fb177e5ba71f1100fe105b52edcb77df1a470d4ddda3ec1ce1-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -46,4 +46,4 @@ class Solution(object):
                 if pA == None:
                     return None
             return pA
-```
+# ```

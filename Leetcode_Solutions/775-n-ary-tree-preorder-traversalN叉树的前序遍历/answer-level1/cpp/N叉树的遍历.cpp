@@ -1,6 +1,6 @@
-### 解题思路
-前序遍历：
-```
+// ### 解题思路
+// 前序遍历：
+// ```
 vector V;
 void fun(tree){
     if(!tree) return V;
@@ -10,9 +10,9 @@ void fun(tree){
     }
     return V;
 }
-```
-后序遍历
-```
+// ```
+// 后序遍历
+// ```
 vector V;
 void fun(tree){
     if(!tree) return V;
@@ -23,14 +23,14 @@ void fun(tree){
     V.push_back(tree->val);
     return V;
 }
-```
+// ```
 
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -62,4 +62,4 @@ public:
         return res;
     }
 };
-```
+// ```

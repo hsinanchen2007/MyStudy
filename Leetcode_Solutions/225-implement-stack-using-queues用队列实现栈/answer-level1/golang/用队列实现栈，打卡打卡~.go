@@ -1,9 +1,9 @@
-### 解题思路
-入队列后循环出列直至新入队列的元素在队首
+// ### 解题思路
+// 入队列后循环出列直至新入队列的元素在队首
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
 	queue []int
 }
@@ -46,4 +46,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

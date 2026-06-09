@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-函数next_num用来计算下一个数字，调用这个函数n-1次，就能计算出第n个数
+# 函数next_num用来计算下一个数字，调用这个函数n-1次，就能计算出第n个数
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def next_num(self, n:str):
@@ -37,4 +37,4 @@ class Solution:
 
 
 
-```
+# ```

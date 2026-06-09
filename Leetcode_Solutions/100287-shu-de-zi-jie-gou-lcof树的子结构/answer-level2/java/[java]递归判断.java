@@ -1,4 +1,4 @@
-//递归判断A和A的左节点和右节点包不包含B
+// //递归判断A和A的左节点和右节点包不包含B
 class Solution {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
         if(A == null || B == null){return false;}

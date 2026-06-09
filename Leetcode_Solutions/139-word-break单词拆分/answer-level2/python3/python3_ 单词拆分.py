@@ -1,4 +1,4 @@
-```python
+# ```python
 def wordBreak(s, wordDict):
     # 暴力解法(超时--问题在于重复计算)
     r = False
@@ -34,4 +34,4 @@ print(wordBreak1("leetcode", ["leet", "code"]))
 print(wordBreak1("applepenapple", ["apple", "pen"]))
 print(wordBreak1("catsandog", ["cats", "dog", "sand"]))
 print(wordBreak1("cars", ["car", "ca", "rs"]))
-```
+# ```

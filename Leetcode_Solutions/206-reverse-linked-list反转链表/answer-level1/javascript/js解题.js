@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-翻转链表，即后继节点变前驱节点，
+// 翻转链表，即后继节点变前驱节点，
 
-所以先定义一个pre = null,cur = head  
-然后在while循坏(当cur为null退出)中依次改变他们的next即可完成
+// 所以先定义一个pre = null,cur = head  
+// 然后在while循坏(当cur为null退出)中依次改变他们的next即可完成
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -35,4 +35,4 @@ var reverseList = function(head) {
   }
    return pre
 };
-```
+// ```

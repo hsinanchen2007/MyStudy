@@ -1,9 +1,9 @@
-### 解题思路
-思路见注释，此处仅做为C代码写法参考
+// ### 解题思路
+// 思路见注释，此处仅做为C代码写法参考
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* singleNumber(int* nums, int numsSize, int* returnSize){
     resArr[1] = res ^ xorRes;
     return resArr;
 }
-```
+// ```

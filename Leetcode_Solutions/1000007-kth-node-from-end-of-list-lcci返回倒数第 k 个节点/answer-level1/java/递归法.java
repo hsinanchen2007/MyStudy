@@ -1,9 +1,9 @@
-### 解题思路
-先根据k的大小，找出右边最大能到的位置。以这个步长通过递归的方式获取结果。
+// ### 解题思路
+// 先根据k的大小，找出右边最大能到的位置。以这个步长通过递归的方式获取结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return findResult(left.next,right.next);
     }
 }
-```
+// ```

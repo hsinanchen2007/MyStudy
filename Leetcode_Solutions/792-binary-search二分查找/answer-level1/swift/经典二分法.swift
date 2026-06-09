@@ -1,9 +1,9 @@
-### 解题思路
-二分查找
+// ### 解题思路
+// 二分查找
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func search(_ nums: [Int], _ target: Int) -> Int {
         
@@ -34,4 +34,4 @@ class Solution {
         
     }
 }
-```
+// ```

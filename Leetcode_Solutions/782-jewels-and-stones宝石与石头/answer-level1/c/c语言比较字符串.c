@@ -1,10 +1,10 @@
-###思路
-题不难，就是时间长不做有点忘了；
-注意while(*p);
+// ###思路
+// 题不难，就是时间长不做有点忘了；
+// 注意while(*p);
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numJewelsInStones(char * J, char * S){
     char *p=J;
     char *q=S;
@@ -34,4 +34,4 @@ int numJewelsInStones(char * J, char * S){
     }
     return cnt;
 }
-```
+// ```

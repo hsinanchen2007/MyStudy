@@ -1,7 +1,7 @@
-送分题，二分查找
+// 送分题，二分查找
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -24,4 +24,4 @@ public:
             return -1;
     }
 };
-```
+// ```

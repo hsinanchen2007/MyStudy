@@ -1,37 +1,37 @@
-#### 解法一：滑动窗口
+# #### 解法一：滑动窗口
 
-**直觉**
+# **直觉**
 
-本问题要求我们返回字符串$S$ 中包含字符串$T$的全部字符的最小窗口。我们称包含$T$的全部字母的窗口为`可行`窗口。
+# 本问题要求我们返回字符串$S$ 中包含字符串$T$的全部字符的最小窗口。我们称包含$T$的全部字母的窗口为`可行`窗口。
 
-可以用简单的滑动窗口法来解决本问题。
+# 可以用简单的滑动窗口法来解决本问题。
 
-在滑动窗口类型的问题中都会有两个指针。一个用于延伸现有窗口的 $right$指针，和一个用于收缩窗口的$left$ 指针。在任意时刻，只有一个指针运动，而另一个保持静止。
+# 在滑动窗口类型的问题中都会有两个指针。一个用于延伸现有窗口的 $right$指针，和一个用于收缩窗口的$left$ 指针。在任意时刻，只有一个指针运动，而另一个保持静止。
 
-本题的解法很符合直觉。我们通过移动right指针不断扩张窗口。当窗口包含全部所需的字符后，如果能收缩，我们就收缩窗口直到得到最小窗口。
+# 本题的解法很符合直觉。我们通过移动right指针不断扩张窗口。当窗口包含全部所需的字符后，如果能收缩，我们就收缩窗口直到得到最小窗口。
 
-答案是最小的可行窗口。
+# 答案是最小的可行窗口。
 
-举个例子，` S = "ABAACBAB"，T = "ABC"`。则问题答案是 `"ACB"` ，下图是可行窗口中的一个。
+# 举个例子，` S = "ABAACBAB"，T = "ABC"`。则问题答案是 `"ACB"` ，下图是可行窗口中的一个。
 
-![image.png](https://pic.leetcode-cn.com/5171b6699007904e71719eca2a0dcbc5f80cf8242a96c2c86f98ea906a07fc60-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5171b6699007904e71719eca2a0dcbc5f80cf8242a96c2c86f98ea906a07fc60-image.png)
 
-**算法**
+# **算法**
 
-1. 初始，$left$指针和$right$指针都指向$S$的第一个元素.
+# 1. 初始，$left$指针和$right$指针都指向$S$的第一个元素.
 
-2. 将 $right$ 指针右移，扩张窗口，直到得到一个可行窗口，亦即包含$T$的全部字母的窗口。
+# 2. 将 $right$ 指针右移，扩张窗口，直到得到一个可行窗口，亦即包含$T$的全部字母的窗口。
 
-3. 得到可行的窗口后，将$leftt$指针逐个右移，若得到的窗口依然可行，则更新最小窗口大小。
-4. 若窗口不再可行，则跳转至 $2$。
+# 3. 得到可行的窗口后，将$leftt$指针逐个右移，若得到的窗口依然可行，则更新最小窗口大小。
+# 4. 若窗口不再可行，则跳转至 $2$。
 
-![image.png](https://pic.leetcode-cn.com/d3d70a1281ae22ade274cefdccd9226b3d9d4686412978e7e38a100099effeef-image.png)
-重复以上步骤，直到遍历完全部窗口。返回最小的窗口。
+# ![image.png](https://pic.leetcode-cn.com/d3d70a1281ae22ade274cefdccd9226b3d9d4686412978e7e38a100099effeef-image.png)
+# 重复以上步骤，直到遍历完全部窗口。返回最小的窗口。
 
 
-![image.png](https://pic.leetcode-cn.com/b04f46bdbdc6104acaf22eb73a65c45440fb5babf77dca0103c800f092a1bbec-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b04f46bdbdc6104acaf22eb73a65c45440fb5babf77dca0103c800f092a1bbec-image.png)
 
-```Java [solution1]
+# ```Java [solution1]
 class Solution {
   public String minWindow(String s, String t) {
 
@@ -104,9 +104,9 @@ class Solution {
       return ans[0] == -1 ? "" : s.substring(ans[1], ans[2] + 1);
   }
 }
-```
+# ```
 
-```Python [solution1]
+# ```Python [solution1]
 def minWindow(self, s, t):
     """
     :type s: str
@@ -165,39 +165,39 @@ def minWindow(self, s, t):
         # Keep expanding the window once we are done co***acting.
         r += 1    
     return "" if ans[0] == float("inf") else s[ans[1] : ans[2] + 1]
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度: $O(|S| + |T|)$，其中 $|S|$ 和 $|T|$ 代表字符串 $S$ 和 $T$的长度。在最坏的情况下，可能会对$S$ 中的每个元素遍历两遍，左指针和右指针各一遍。
+# * 时间复杂度: $O(|S| + |T|)$，其中 $|S|$ 和 $|T|$ 代表字符串 $S$ 和 $T$的长度。在最坏的情况下，可能会对$S$ 中的每个元素遍历两遍，左指针和右指针各一遍。
 
-* 空间复杂度: $O(|S| + |T|)$。当窗口大小等于$|S|$时为 $S$。当 $|T|$ 包括全部唯一字符时为 $T$ 。
-<br/>
-<br/>
+# * 空间复杂度: $O(|S| + |T|)$。当窗口大小等于$|S|$时为 $S$。当 $|T|$ 包括全部唯一字符时为 $T$ 。
+# <br/>
+# <br/>
 
----
+# ---
 
-#### 解法二：优化滑动窗口
+# #### 解法二：优化滑动窗口
 
-**直觉**
+# **直觉**
 
-对上一方法进行改进，可以将时间复杂度下降到 $O(2*|filtered\_S| + |S| + |T|)$，其中 $filtered\_S$ 是从$S$中去除所有在$T$中不存在的元素后，得到的字符串。
+# 对上一方法进行改进，可以将时间复杂度下降到 $O(2*|filtered\_S| + |S| + |T|)$，其中 $filtered\_S$ 是从$S$中去除所有在$T$中不存在的元素后，得到的字符串。
 
-当 $|filtered\_S| <<< |S|$时，优化效果显著。这种情况可能是由于$T$ 的长度远远小于$S$，因此$S$ 中包括大量$T$中不存在的自负。
+# 当 $|filtered\_S| <<< |S|$时，优化效果显著。这种情况可能是由于$T$ 的长度远远小于$S$，因此$S$ 中包括大量$T$中不存在的自负。
 
-**算法**
+# **算法**
 
-我们建立一个 $filtered\_S$列表，其中包括 $S$ 中的全部字符以及它们在$S$的下标，但这些字符必须在 $T$中出现。
+# 我们建立一个 $filtered\_S$列表，其中包括 $S$ 中的全部字符以及它们在$S$的下标，但这些字符必须在 $T$中出现。
 
-`S = "ABCDDDDDDEEAFFBC" T = "ABC"
-`
-`filtered_S = [(0, 'A'), (1, 'B'), (2, 'C'), (11, 'A'), (14, 'B'), (15, 'C')]`
+# `S = "ABCDDDDDDEEAFFBC" T = "ABC"
+# `
+# `filtered_S = [(0, 'A'), (1, 'B'), (2, 'C'), (11, 'A'), (14, 'B'), (15, 'C')]`
 
-此处的(0, 'A')表示字符'A' 在字符串$S$的下表为0。
+# 此处的(0, 'A')表示字符'A' 在字符串$S$的下表为0。
 
-现在我们可以在更短的字符串$filtered\_S$中使用滑动窗口法。
+# 现在我们可以在更短的字符串$filtered\_S$中使用滑动窗口法。
 
-```java [solution2]
+# ```java [solution2]
 import javafx.util.Pair;
 
 class Solution {
@@ -266,9 +266,9 @@ class Solution {
         return ans[0] == -1 ? "" : s.substring(ans[1], ans[2] + 1);
     }
 }
-```
+# ```
 
-```python [solution2]
+# ```python [solution2]
 def minWindow(self, s, t):
     """
     :type s: str
@@ -321,9 +321,9 @@ def minWindow(self, s, t):
 
         r += 1    
     return "" if ans[0] == float("inf") else s[ans[1] : ans[2] + 1]
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度 : $O(|S| + |T|)$， 其中 $|S|$ 和 $|T|$ 分别代表字符串$S$ 和 $T$的长度。 本方法时间复杂度与方法一相同，但当$|filtered\_S|$<<<$|S|$时，复杂度会下降，因为此时迭代次数是 $2*|filtered\_S| + |S| + |T|$。
-* 空间复杂度 : $O(|S| + |T|)$。
+# * 时间复杂度 : $O(|S| + |T|)$， 其中 $|S|$ 和 $|T|$ 分别代表字符串$S$ 和 $T$的长度。 本方法时间复杂度与方法一相同，但当$|filtered\_S|$<<<$|S|$时，复杂度会下降，因为此时迭代次数是 $2*|filtered\_S| + |S| + |T|$。
+# * 空间复杂度 : $O(|S| + |T|)$。

@@ -1,12 +1,12 @@
-### 解题思路
-1、找到边界上的O和他们邻接的O(使用递归)
-2、将这些O标记为Y
-3、将其他O置为X
-4、将Y复原为O
+# ### 解题思路
+# 1、找到边界上的O和他们邻接的O(使用递归)
+# 2、将这些O标记为Y
+# 3、将其他O置为X
+# 4、将Y复原为O
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -60,4 +60,4 @@ class Solution:
 
 
 
-```
+# ```

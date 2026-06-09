@@ -1,6 +1,6 @@
-o(n^2)解法
+// o(n^2)解法
 
-`
+// `
 var maxArea_hard= function(height) {
     var maxarea = 0
     for(var i = 0;i<height.length;i++){
@@ -12,9 +12,9 @@ var maxArea_hard= function(height) {
     return maxarea
 };
 
-`
+// `
 o(n)解法
-`
+// `
 var maxArea = function(height) {
     var maxarea = 0,l = 0,r = height.length-1;
     while(l<r){
@@ -24,4 +24,4 @@ var maxArea = function(height) {
     return maxarea
 };
 
-`
+// `

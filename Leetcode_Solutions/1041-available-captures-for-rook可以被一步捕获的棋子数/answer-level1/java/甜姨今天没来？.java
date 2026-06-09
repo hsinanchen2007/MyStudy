@@ -1,9 +1,9 @@
-### 解题思路
-等我再仔细看看
+// ### 解题思路
+// 等我再仔细看看
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         // 因为题目已经明确给出 board.length == board[i].length == 8，所以不做输入检查
@@ -66,4 +66,4 @@ class Solution {
         System.out.println(res);
     }
 }
-```
+// ```

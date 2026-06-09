@@ -1,5 +1,5 @@
-解题思路 先开个数组用来记录二维数组每个位置周围的活细胞数目，然后遍历二维数组，只对该位置的上一行、本行和下一行遍历（最多遍历3个数），记录活细胞数目，二维数组遍历完后，在遍历一次根据活细胞数目判断该细胞是死是活。
-```
+// 解题思路 先开个数组用来记录二维数组每个位置周围的活细胞数目，然后遍历二维数组，只对该位置的上一行、本行和下一行遍历（最多遍历3个数），记录活细胞数目，二维数组遍历完后，在遍历一次根据活细胞数目判断该细胞是死是活。
+// ```
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     int i, j, count = 0, x, y;
     int *s = (int *)malloc(sizeof(int) * (boardSize * boardColSize[0] + 1));
@@ -71,5 +71,5 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```
 

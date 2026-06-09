@@ -1,9 +1,9 @@
-### 解题思路 
+# ### 解题思路 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         new_tail.next = None
         return new_head
             
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-不断将节点进行头插
+// ### 解题思路
+// 不断将节点进行头插
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ struct ListNode* reverseList(struct ListNode* head){
     return res;
 
 }
-```
+// ```

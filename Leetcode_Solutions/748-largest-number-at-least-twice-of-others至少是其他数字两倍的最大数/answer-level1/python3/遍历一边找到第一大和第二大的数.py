@@ -1,9 +1,9 @@
-### 解题思路
-如果第一大的数大于２×第二大的数，返回Ｔｒｕｅ
+# ### 解题思路
+# 如果第一大的数大于２×第二大的数，返回Ｔｒｕｅ
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         max_first = max_second = float("-inf")
@@ -20,4 +20,4 @@ class Solution:
         return max_index if max_first >= 2 * max_second else -1
 
         
-```
+# ```

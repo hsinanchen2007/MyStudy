@@ -1,9 +1,9 @@
-### 解题思路
-直接返回合并两个链表
+// ### 解题思路
+// 直接返回合并两个链表
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
    } 
     return ret;
 }
-```
+// ```

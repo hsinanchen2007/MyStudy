@@ -1,9 +1,9 @@
-### 解题思路
-A*B 等于B个A相加
+# ### 解题思路
+# A*B 等于B个A相加
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def multiply(self, A, B):
         """
@@ -16,4 +16,4 @@ class Solution(object):
         if B==1:
             return A
         return A + self.multiply(A, B-1)
-```
+# ```

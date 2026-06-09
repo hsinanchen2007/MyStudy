@@ -1,9 +1,9 @@
-### 解题思路
-遍历某一分支直至该节点为NULL，保存迄今为止差值最小的节点的值。
+// ### 解题思路
+// 遍历某一分支直至该节点为NULL，保存迄今为止差值最小的节点的值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ int closestValue(struct TreeNode* root, double target){
     }
     return minNum;
 }
-```
+// ```

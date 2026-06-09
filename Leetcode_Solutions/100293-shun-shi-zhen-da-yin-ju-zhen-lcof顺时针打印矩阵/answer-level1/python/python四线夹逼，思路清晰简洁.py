@@ -1,9 +1,9 @@
-### 解题思路
-用四个变量框定每次打印的界限，相当于每次删掉一行或一列缩小范围
+# ### 解题思路
+# 用四个变量框定每次打印的界限，相当于每次删掉一行或一列缩小范围
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         m=len(matrix)
@@ -32,4 +32,4 @@ class Solution:
                 left+=1
         return res
 
-```
+# ```

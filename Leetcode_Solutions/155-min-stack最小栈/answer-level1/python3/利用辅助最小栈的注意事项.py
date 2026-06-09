@@ -1,7 +1,7 @@
-1、在pop前或取列表中元素前要注意判断非空；
-2、最小栈push时的条件应该是‘<=’，因为重复添加最小值是被允许的，且属于两个不同的元素；
+# 1、在pop前或取列表中元素前要注意判断非空；
+# 2、最小栈push时的条件应该是‘<=’，因为重复添加最小值是被允许的，且属于两个不同的元素；
 
-``` Python3
+# ``` Python3
 class MinStack:
 
     def __init__(self):
@@ -31,4 +31,4 @@ class MinStack:
             return self.min_stack[-1]
         else:
             return None
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-因为至少含有两个数，所以判断序列一定在`target/2+1`以内。
-初始化右浮标为`target/2+1`，左浮标为右浮标-1，之后开始循环判断。
-* 如果区间内序列和等于`target`，则把序列加入结果集中，右浮标减一
-* 如果区间内序列和小于`target`，则右浮标减一
-* 如果区间内序列和大于`target`，则左浮标减一
-* 当左浮标减到0时结束循环
-### 代码
+// ### 解题思路
+// 因为至少含有两个数，所以判断序列一定在`target/2+1`以内。
+// 初始化右浮标为`target/2+1`，左浮标为右浮标-1，之后开始循环判断。
+// * 如果区间内序列和等于`target`，则把序列加入结果集中，右浮标减一
+// * 如果区间内序列和小于`target`，则右浮标减一
+// * 如果区间内序列和大于`target`，则左浮标减一
+// * 当左浮标减到0时结束循环
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] FindContinuousSequence(int target) {
             List<int[]> ans = new List<int[]>();
@@ -38,4 +38,4 @@ public class Solution {
             return ans.ToArray();
     }
 }
-```
+// ```

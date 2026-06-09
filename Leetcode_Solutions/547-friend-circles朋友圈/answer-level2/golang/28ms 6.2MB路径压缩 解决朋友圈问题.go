@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-参考最小生成树里面的链接方法
+// 参考最小生成树里面的链接方法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func findFatherZip(father []int, i int) int {
 
@@ -56,4 +56,4 @@ func findCircleNum(M [][]int) int {
 
 }
 
-```
+// ```

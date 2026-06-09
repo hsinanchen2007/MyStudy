@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public string GcdOfStrings(string str1, string str2)
         {
             /*
@@ -63,4 +63,4 @@
 
             return newList.All(i => i == subStr);
         }
-```
+// ```

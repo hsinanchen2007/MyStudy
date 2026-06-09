@@ -1,10 +1,10 @@
-### 解题思路
-思路还是利用两个指针，第一个指针指向头结点，第二个指针指向第n个结点，当第二个结点到达尾部时，将第一个结点的next指向.next.next。
-需要注意的是要处理好空，和n为尾结点的边界情况。
+// ### 解题思路
+// 思路还是利用两个指针，第一个指针指向头结点，第二个指针指向第n个结点，当第二个结点到达尾部时，将第一个结点的next指向.next.next。
+// 需要注意的是要处理好空，和n为尾结点的边界情况。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -38,4 +38,4 @@ var removeNthFromEnd = function(head, n) {
     node1.next = node1.next.next;
     return head;
 };
-```
+// ```

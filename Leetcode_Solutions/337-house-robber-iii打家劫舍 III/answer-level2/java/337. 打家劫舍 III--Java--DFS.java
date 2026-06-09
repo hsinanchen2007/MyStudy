@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_337_rob.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_337_rob.java)
 
-```java
+// ```java
 /**
      * 按题意，不能相连=根节点和左右子树选择只能二选一，每个节点都有选和不选，总共组合个数2^n次，全部循环明显不合适
      * 按经验，树的解题思路就是DFS递归
@@ -34,4 +34,4 @@
         res[1] = left[0] + right[0] + root.val;
         return res;
     }
-```
+// ```

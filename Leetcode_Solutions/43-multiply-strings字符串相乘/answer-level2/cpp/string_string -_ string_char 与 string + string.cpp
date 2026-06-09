@@ -1,12 +1,12 @@
-### 解题思路
-这道题告诉我们一定要学会将一个复杂问题拆成多个简单的小问题去做
-string* string -> string *char 与 string + string
-string *char -> char * char
-此外，需要注意边界条件num1 = "0" 与num2 = "0"
+// ### 解题思路
+// 这道题告诉我们一定要学会将一个复杂问题拆成多个简单的小问题去做
+// string* string -> string *char 与 string + string
+// string *char -> char * char
+// 此外，需要注意边界条件num1 = "0" 与num2 = "0"
 
-### 方法一(硬核的算)
+// ### 方法一(硬核的算)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -58,20 +58,20 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 结果
-执行用时 : 588 ms , 在所有 C++ 提交中击败了 5.04% 的用户 
-内存消耗 : 60.5 MB , 在所有 C++ 提交中击败了 8.75% 的用户
+// ### 结果
+// 执行用时 : 588 ms , 在所有 C++ 提交中击败了 5.04% 的用户 
+// 内存消耗 : 60.5 MB , 在所有 C++ 提交中击败了 8.75% 的用户
 
-### 方法二(借助vector)
-1. 创建一个长度为a.size() + b.size()，并且元素全部为0的数组
-2. 然后把所有部分和算到vector中
-3. 进行进位的运算，将vector每一位变成单个digit
-4. 将vector转为string
-5. 去掉前面多余的0
+// ### 方法二(借助vector)
+// 1. 创建一个长度为a.size() + b.size()，并且元素全部为0的数组
+// 2. 然后把所有部分和算到vector中
+// 3. 进行进位的运算，将vector每一位变成单个digit
+// 4. 将vector转为string
+// 5. 去掉前面多余的0
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string a, string b) {
@@ -104,8 +104,8 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 结果
-执行用时 : 12 ms , 在所有 C++ 提交中击败了 47.82% 的用户 
-内存消耗 : 60.5 MB , 在所有 C++ 提交中击败了 100% 的用户
+// ### 结果
+// 执行用时 : 12 ms , 在所有 C++ 提交中击败了 47.82% 的用户 
+// 内存消耗 : 60.5 MB , 在所有 C++ 提交中击败了 100% 的用户

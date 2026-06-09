@@ -1,4 +1,4 @@
-```
+// ```
 class ProductOfNumbers {
     public:
     int mult[40010],isZeroPos,n;//前缀连乘积(且把0视为1)
@@ -26,4 +26,4 @@ class ProductOfNumbers {
  * obj->add(num);
  * int param_2 = obj->getProduct(k);
  */
-```
+// ```

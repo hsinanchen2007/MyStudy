@@ -1,4 +1,4 @@
-```Java []
+// ```Java []
 class Solution {
     public int reverseBits(int num) {
         int[] binary = new int[32];
@@ -20,8 +20,8 @@ class Solution {
         return ans;
     }
 }
-```
-```Python3 []
+// ```
+// ```Python3 []
 class Solution:
     def reverseBits(self, num: int) -> int:
         chars = bin(num)[2:]
@@ -35,5 +35,5 @@ class Solution:
                 pre = i
             ans = max(ans, sums)
         return ans
-```
+// ```
 

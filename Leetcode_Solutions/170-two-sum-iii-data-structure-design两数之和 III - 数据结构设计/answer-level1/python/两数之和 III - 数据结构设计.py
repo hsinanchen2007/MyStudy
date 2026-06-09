@@ -1,33 +1,33 @@
-####  方法一：
-这是第一题两数之和的后续问题之一，两数之和要求一个返回列表中两个数字的索引，这两个数字的和等于目标值。
+# ####  方法一：
+# 这是第一题两数之和的后续问题之一，两数之和要求一个返回列表中两个数字的索引，这两个数字的和等于目标值。
 
-我们可以从两数之和中汲取灵感，把所有的输入数字保存在一个列表中。
+# 我们可以从两数之和中汲取灵感，把所有的输入数字保存在一个列表中。
 
-两数之和的一个解决方法是双指针法，指针从两个方向迭代，互相逼近。
+# 两数之和的一个解决方法是双指针法，指针从两个方向迭代，互相逼近。
 
-![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvMTcwLzE3MF90d29fcG9pbnRlcnMucG5n?x-oss-process=image/format,png)
+# ![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvMTcwLzE3MF90d29fcG9pbnRlcnMucG5n?x-oss-process=image/format,png)
 
-但是，双指针法的前提条件之一是输入列表有序。
+# 但是，双指针法的前提条件之一是输入列表有序。
 
-现在有几个问题：
-- 函数 `add(number)` 在列表中插入新数字时，是否应该保证列表有序。
-- 或者在调回 `find(value)` 时按需进行排序？
+# 现在有几个问题：
+# - 函数 `add(number)` 在列表中插入新数字时，是否应该保证列表有序。
+# - 或者在调回 `find(value)` 时按需进行排序？
 
-我们将在后面的算法部分讨论上述两个问题。
+# 我们将在后面的算法部分讨论上述两个问题。
 
-**算法：**
-先给出双指针在有序列表中找到两数之和的算法。
-- 初始化两个指针 `low` 和 `high` 分别指向列表的头尾。
-- 从两个方向同时进行迭代，要么找到两数之和的解，要么两个指针相遇。
-- 在每个步骤中，我们将根据不同的条件移动指针：
-	- 如果当前指针指向元素的和小于目标值，则应该增加总和来满足目标值，即将 `low` 指针向前移动获得更大的值。
-	- 如果当前指针指向元素的和大于目标值，则应该减少总和来满足目标值，即将 `high` 向 `low` 靠近来减少总和。
-	- 如果当前指针指向元素的和等于目标值，则直接返回结果。
-	- 如果两个指针相交，说明当前列表不存在组合成目标值的两个数。
+# **算法：**
+# 先给出双指针在有序列表中找到两数之和的算法。
+# - 初始化两个指针 `low` 和 `high` 分别指向列表的头尾。
+# - 从两个方向同时进行迭代，要么找到两数之和的解，要么两个指针相遇。
+# - 在每个步骤中，我们将根据不同的条件移动指针：
+# 	- 如果当前指针指向元素的和小于目标值，则应该增加总和来满足目标值，即将 `low` 指针向前移动获得更大的值。
+# 	- 如果当前指针指向元素的和大于目标值，则应该减少总和来满足目标值，即将 `high` 向 `low` 靠近来减少总和。
+# 	- 如果当前指针指向元素的和等于目标值，则直接返回结果。
+# 	- 如果两个指针相交，说明当前列表不存在组合成目标值的两个数。
 
 
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class TwoSum(object):
 
     def __init__(self):
@@ -76,9 +76,9 @@ class TwoSum(object):
                 return True
         
         return False
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 import java.util.Collections;
 
 class TwoSum {
@@ -115,40 +115,40 @@ class TwoSum {
     return false;
   }
 }
-```
-我们会发现，`add(number)` 函数将被频繁调用，而 `find(value)` 将不被那么频繁调用。
+# ```
+# 我们会发现，`add(number)` 函数将被频繁调用，而 `find(value)` 将不被那么频繁调用。
 
-这样的使用模式下，意味着我们应该减少 `add(number)` 函数的时间消耗，因而我们是在 `find(value)` 对列表进行排序，而不是在 `add(number)`。
+# 这样的使用模式下，意味着我们应该减少 `add(number)` 函数的时间消耗，因而我们是在 `find(value)` 对列表进行排序，而不是在 `add(number)`。
 
-在哪个函数进行排序，都是可行的，只是对应该使用模式下在 `add(number)` 下进行排序就不是最佳的方案了。
+# 在哪个函数进行排序，都是可行的，只是对应该使用模式下在 `add(number)` 下进行排序就不是最佳的方案了。
 
-并且，我们在 `find(value)` 中是按需排序，也就是当列表更新时，才进行排序。
+# 并且，我们在 `find(value)` 中是按需排序，也就是当列表更新时，才进行排序。
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：
-	* `add(number)`： $\mathcal{O}(1)$
-	* `find(value)`：$\mathcal{O}(N \cdot \log(N))$，在最坏的情况下，我们需要对列表进行排序和遍历整个列表，这需要 $\mathcal{O}(N \cdot \log(N))$ 和 $\mathcal{O}(N)$ 的时间。因此总的时间复杂度为 $\mathcal{O}(N \cdot \log(N))$。
-* 空间复杂度：$\mathcal{O}(N)$，其中 $N$ 指的是列表中的元素个数。
+# * 时间复杂度：
+# 	* `add(number)`： $\mathcal{O}(1)$
+# 	* `find(value)`：$\mathcal{O}(N \cdot \log(N))$，在最坏的情况下，我们需要对列表进行排序和遍历整个列表，这需要 $\mathcal{O}(N \cdot \log(N))$ 和 $\mathcal{O}(N)$ 的时间。因此总的时间复杂度为 $\mathcal{O}(N \cdot \log(N))$。
+# * 空间复杂度：$\mathcal{O}(N)$，其中 $N$ 指的是列表中的元素个数。
 
 
-####  方法二：哈希表
-两数之和的另一个解决方案是用哈希表存储值到索引的映射关系。
+# ####  方法二：哈希表
+# 两数之和的另一个解决方案是用哈希表存储值到索引的映射关系。
 
-给定一个目标值 `S`，对于每个数字 `a`，我们只需要验证哈希表中是否存在 `S - a`。
+# 给定一个目标值 `S`，对于每个数字 `a`，我们只需要验证哈希表中是否存在 `S - a`。
 
-众所周知，哈希表可以提供快速的查找和插入操作，非常适合上述要求。
+# 众所周知，哈希表可以提供快速的查找和插入操作，非常适合上述要求。
 
-**算法：**
-- 首先初始化一个哈希表。
-- 在 `add(number)` 函数中：在哈希表中添加 `number` 到 `number` 频数之间的映射关系。
-- 在 `find(value)` 函数中：遍历哈希表，对于每个键值（`number`），我们检查哈希表中是否存在 `value - number`。如果存在，我们终止循环并返回结果。
-- 当 `number = value - number` 时，在哈希表中 `number` 对应的值应大于 `2`。
+# **算法：**
+# - 首先初始化一个哈希表。
+# - 在 `add(number)` 函数中：在哈希表中添加 `number` 到 `number` 频数之间的映射关系。
+# - 在 `find(value)` 函数中：遍历哈希表，对于每个键值（`number`），我们检查哈希表中是否存在 `value - number`。如果存在，我们终止循环并返回结果。
+# - 当 `number = value - number` 时，在哈希表中 `number` 对应的值应大于 `2`。
 
-我们在下图中演示了算法：
+# 我们在下图中演示了算法：
 
-![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvMTcwLzE3MF9oYXNodGFibGUucG5n?x-oss-process=image/format,png)
-```python [solution2-Python]
+# ![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvMTcwLzE3MF9oYXNodGFibGUucG5n?x-oss-process=image/format,png)
+# ```python [solution2-Python]
 class TwoSum(object):
 
     def __init__(self):
@@ -184,9 +184,9 @@ class TwoSum(object):
                 return True
         
         return False
-```
+# ```
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 import java.util.HashMap;
 
 class TwoSum {
@@ -220,11 +220,11 @@ class TwoSum {
     return false;
   }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：
-	* 在 `add(number)` 中： $\mathcal{O}(1)$，只进行了哈希表的更新。
-	* 在 `find(value)` 中：$\mathcal{O}(N)$，其中 $N$ 指的是哈希表中键值对的数量。在最坏的情况下，会遍历整个表。
-* 空间复杂度：$\mathcal{O}(N)$，哈希表所使用的空间大小。
+# * 时间复杂度：
+# 	* 在 `add(number)` 中： $\mathcal{O}(1)$，只进行了哈希表的更新。
+# 	* 在 `find(value)` 中：$\mathcal{O}(N)$，其中 $N$ 指的是哈希表中键值对的数量。在最坏的情况下，会遍历整个表。
+# * 空间复杂度：$\mathcal{O}(N)$，哈希表所使用的空间大小。

@@ -1,10 +1,10 @@
-### 解题思路
-三角形边长分别为：a b c
-则满足 a + b > c , a - b < c
+// ### 解题思路
+// 三角形边长分别为：a b c
+// 则满足 a + b > c , a - b < c
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func largestPerimeter(A []int) int {
     sort.Ints(A)
     for i := len(A) -1 ; i >= 2 ; i-- {
@@ -14,4 +14,4 @@ func largestPerimeter(A []int) int {
     }
     return 0
 }
-```
+// ```

@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/3275cadd5ed28f0f22cdd9bd972a2df0a438e14137d0f31a7207aece7e005e5b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3275cadd5ed28f0f22cdd9bd972a2df0a438e14137d0f31a7207aece7e005e5b-image.png)
 
-### 解题思路
-- 窗口收缩条件，窗口长度减去段内出现次数最多字母个数小于给定的k
-- 哈希表作为窗口记录串内元素个数
-- 当不满足窗口扩大条件，左指针右移，还要比较一下ans是不是历史最大
+// ### 解题思路
+// - 窗口收缩条件，窗口长度减去段内出现次数最多字母个数小于给定的k
+// - 哈希表作为窗口记录串内元素个数
+// - 当不满足窗口扩大条件，左指针右移，还要比较一下ans是不是历史最大
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} k
@@ -29,4 +29,4 @@ var characterReplacement = function(s, k) {
     }
     return ans
 };
-```
+// ```

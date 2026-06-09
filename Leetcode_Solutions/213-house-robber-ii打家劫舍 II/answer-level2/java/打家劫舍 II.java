@@ -1,9 +1,9 @@
-### 解题思路
-思路与“打家劫舍”这题还是一样的，只是要维护两个数据：一是包含第一家的最大收益，二是不包含第一家的最大收益。
+// ### 解题思路
+// 思路与“打家劫舍”这题还是一样的，只是要维护两个数据：一是包含第一家的最大收益，二是不包含第一家的最大收益。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
@@ -28,4 +28,4 @@ class Solution {
         return Math.max(profitFromFirst, profitWithoutFirst);
     }
 }
-```
+// ```

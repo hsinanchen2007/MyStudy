@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numWays(n int) int {
 	if n == 0 {
 		return 1
@@ -18,4 +18,4 @@ func numWays(n int) int {
 	}
 	return int(b)
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 
 void mergeTwoNums(int* nums1, int len1, int* nums2, int len2) {    
     int *result = (int *)malloc(sizeof(int) * (len1 + len2));
@@ -72,4 +72,4 @@ bool containsDuplicate(int* nums, int numsSize){
 }
 
 
-```
+// ```

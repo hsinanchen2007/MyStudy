@@ -1,9 +1,9 @@
-### 解题思路
-map 去重
+// ### 解题思路
+// map 去重
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canConstruct(ransomNote string, magazine string) bool {
     hm := map[rune]int{}
     for _,r :=range magazine{
@@ -28,4 +28,4 @@ func canConstruct(ransomNote string, magazine string) bool {
     }
     return true
 }
-```
+// ```

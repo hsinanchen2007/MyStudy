@@ -1,17 +1,17 @@
-### 解题思路
-哇 我的第一个困难题目 而且一次过了  开心！！！！！！！！！！！！
-我们先找到一个最大值的位置（不管有几个最大值，只需要找到一个就好）
-找到最大值位置之后，从两边向找到的最大值进行遍历
-从左边遍历：
-    1 记录一个当前碰到的最大值last，初始为0
-    2 height[i]大于这个值，覆盖last的值；小于或等于这个值，那么结果ans就加上last - height[i]
-右边遍历是一样的逻辑
+// ### 解题思路
+// 哇 我的第一个困难题目 而且一次过了  开心！！！！！！！！！！！！
+// 我们先找到一个最大值的位置（不管有几个最大值，只需要找到一个就好）
+// 找到最大值位置之后，从两边向找到的最大值进行遍历
+// 从左边遍历：
+//     1 记录一个当前碰到的最大值last，初始为0
+//     2 height[i]大于这个值，覆盖last的值；小于或等于这个值，那么结果ans就加上last - height[i]
+// 右边遍历是一样的逻辑
 
-![image.png](https://pic.leetcode-cn.com/602e528d505418619743e2996ac71feddf93f0647f551035050d665ba78eaba2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/602e528d505418619743e2996ac71feddf93f0647f551035050d665ba78eaba2-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int max = Integer.MIN_VALUE;
@@ -45,4 +45,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
    public int[] intersection(int[] nums1, int[] nums2) {
 		Arrays.sort(nums1);
@@ -24,4 +24,4 @@ class Solution {
 		return result;
 	}
 }
-```
+// ```

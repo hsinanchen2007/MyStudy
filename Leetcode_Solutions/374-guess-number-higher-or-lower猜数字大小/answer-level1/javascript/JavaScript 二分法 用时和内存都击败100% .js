@@ -1,9 +1,9 @@
-### 解题思路
-利用二分法解决
+// ### 解题思路
+// 利用二分法解决
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /** 
  * Forward declaration of guess API.
  * @param {number} num   your guess
@@ -35,4 +35,4 @@ var guessNumber = function(n) {
     return left;
     
 };
-```
+// ```

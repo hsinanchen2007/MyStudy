@@ -1,4 +1,4 @@
-```
+// ```
 // 官方思路改为正常代码，立刻通俗易懂
 var minKBitFlips = function(A, K) {
   // 用 flip 表示当前翻转状态，负负得正，所以用布尔值即可
@@ -23,4 +23,4 @@ var minKBitFlips = function(A, K) {
   }
   return count
 };
-```
+// ```

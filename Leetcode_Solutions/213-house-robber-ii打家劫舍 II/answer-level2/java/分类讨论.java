@@ -1,9 +1,9 @@
-### 解题思路
-考虑两种情况，不抢第一家和不抢最后一家
+// ### 解题思路
+// 考虑两种情况，不抢第一家和不抢最后一家
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         int len = nums.length;
@@ -27,4 +27,4 @@ class Solution {
         return Math.max(res1, res2);
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/9f093ba7985835df262ad773d927c831e81810a297808204ed5a1367c4fbc48e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9f093ba7985835df262ad773d927c831e81810a297808204ed5a1367c4fbc48e-image.png)
 
-遍历一次树，怎么遍历都行，然后只用记录最小的两个变量就可以了，可以用堆。
+# 遍历一次树，怎么遍历都行，然后只用记录最小的两个变量就可以了，可以用堆。
 
-```python []
+# ```python []
 class Solution:
     def findSecondMinimumValue(self, root: TreeNode) -> int:
         h = [-float('inf'), -float('inf')]
@@ -13,9 +13,9 @@ class Solution:
                 f(r.right)
         f(root)
         return h[0] == -float('inf') and -1 or -h[0]
-```
+# ```
 
-```python []
+# ```python []
 #刚开始刷题时候写的，可以AC现在已经看不懂了。（不想看了）
 class Solution:
     def findSecondMinimumValue(self, root: TreeNode) -> int:
@@ -37,4 +37,4 @@ class Solution:
             return min2
         else:
             return -1
-```
+# ```

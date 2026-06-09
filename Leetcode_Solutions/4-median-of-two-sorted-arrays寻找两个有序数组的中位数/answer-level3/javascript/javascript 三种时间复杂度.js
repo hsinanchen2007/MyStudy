@@ -1,5 +1,5 @@
-### 1.代码最少的方法，时间复杂度为O((m + n)log(m + n))。(因为sort在数据量少的时候采用的是冒泡排序，数据量大的时候采用的是插排)
-```
+// ### 1.代码最少的方法，时间复杂度为O((m + n)log(m + n))。(因为sort在数据量少的时候采用的是冒泡排序，数据量大的时候采用的是插排)
+// ```
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -10,10 +10,10 @@ var findMedianSortedArrays = function(nums1, nums2) {
     const { length } = arr;
     return length % 2 ? arr[Math.floor(length / 2)] : (arr[length / 2] + arr[length / 2 - 1]) / 2;
 };
-```
+// ```
 
-### 2.双指针排序法，时间复杂度为O(m + n)。
-```
+// ### 2.双指针排序法，时间复杂度为O(m + n)。
+// ```
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -31,10 +31,10 @@ var findMedianSortedArrays = function(nums1, nums2) {
     const { length } = arr;
     return length % 2 ? arr[Math.floor(length / 2)] : (arr[length / 2] + arr[length / 2 - 1]) / 2;
 };
-```
+// ```
 
-### 3.二分查找法（官方推荐），时间复杂度O(log(min(m, n)))。
-```
+// ### 3.二分查找法（官方推荐），时间复杂度O(log(min(m, n)))。
+// ```
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -70,7 +70,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
     }
     return 0;
 };
-```
+// ```
 
 
 

@@ -1,14 +1,14 @@
 
--   从目标点开始层次遍历
--   关键在于判断当前点是否需要着色：
-    -   在边界
-    -   周围有不同与目标颜色的点
+# -   从目标点开始层次遍历
+# -   关键在于判断当前点是否需要着色：
+#     -   在边界
+#     -   周围有不同与目标颜色的点
 
-满足上面两个条件的就进行着色
+# 满足上面两个条件的就进行着色
 
 
 
-```python
+# ```python
 class Solution:
     def colorBorder(self, grid: List[List[int]], r0: int, c0: int, color: int) -> List[List[int]]:
         row, col = len(grid), len(grid[0])
@@ -39,6 +39,6 @@ class Solution:
             d = next_d
 
         return grid
-```
+# ```
 
 

@@ -1,9 +1,9 @@
-先遍历字符串S记录字符C的所在位置
+// 先遍历字符串S记录字符C的所在位置
 
-之后再遍历字符串S，由于已经记录了C的位置因此只要寻找最近位置差值即可
+// 之后再遍历字符串S，由于已经记录了C的位置因此只要寻找最近位置差值即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<int> shortestToChar(string S, char C) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

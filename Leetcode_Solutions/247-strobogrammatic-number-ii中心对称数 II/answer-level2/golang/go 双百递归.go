@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findStrobogrammatic(n int) []string {
     if n == 1{
         return []string{"0","1","8"}
@@ -40,4 +40,4 @@ func helper(n int) []string{
     } 
     return result
 }
-```
+// ```

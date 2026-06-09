@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-其实就是填充位置，每次填充都可以允许你有两步
+// 其实就是填充位置，每次填充都可以允许你有两步
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    
     public void gener(List<String> ans,String str,int le,int re,int n){
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-思路借鉴了George大佬的
-```
+# 思路借鉴了George大佬的
+# ```
 class Solution(object):
     def fraction(self, cont):
         """
@@ -16,4 +16,4 @@ class Solution(object):
         for c in cont[:-1][::-1]:
             a,b=b,(c*b+a)
         return [b,a]
-```
+# ```

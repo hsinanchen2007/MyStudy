@@ -1,9 +1,9 @@
-### 解题思路
-递归--当除到0时退出
+# ### 解题思路
+# 递归--当除到0时退出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n < 0:
@@ -21,4 +21,4 @@ class Solution:
         else:
             half = self.dp(xx, (nn - 1) // 2)
             return half * half * xx
-```
+# ```

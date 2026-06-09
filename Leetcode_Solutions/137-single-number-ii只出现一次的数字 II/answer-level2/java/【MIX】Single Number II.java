@@ -1,10 +1,10 @@
-### 解题思路
-1. 位运算解法, 出现三次的低位和必然为3的倍数, 计算所有数字的低位和, 对3取`mod`即是single number的低位, 在通过左移恢复即可, `n<<b`.
-2. 状态机
+// ### 解题思路
+// 1. 位运算解法, 出现三次的低位和必然为3的倍数, 计算所有数字的低位和, 对3取`mod`即是single number的低位, 在通过左移恢复即可, `n<<b`.
+// 2. 状态机
 
-### 代码
-**位运算**
-```c++ []
+// ### 代码
+// **位运算**
+// ```c++ []
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -20,8 +20,8 @@ public:
         return res;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int singleNumber(int[] nums) {
         int res = 0;
@@ -36,9 +36,9 @@ class Solution {
     }
     
 }
-```
-**自动机**
-```c++ []
+// ```
+// **自动机**
+// ```c++ []
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -58,4 +58,4 @@ public:
         return Ones;
     }
 };
-```
+// ```

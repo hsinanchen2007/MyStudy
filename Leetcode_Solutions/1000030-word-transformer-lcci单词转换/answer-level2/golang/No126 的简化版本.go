@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
 	"container/list"
 )
@@ -117,4 +117,4 @@ func isTransform(a, b string) bool {
 	return notEqual
 }
 
-```
+// ```

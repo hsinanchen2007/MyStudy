@@ -1,9 +1,9 @@
-### 解题思路
-双指针 唯一语言可以执行的 不给抛出时间超时
+// ### 解题思路
+// 双指针 唯一语言可以执行的 不给抛出时间超时
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
         //  result = []
@@ -29,4 +29,4 @@ class Solution {
         return Arrays.stream(res).boxed().collect(Collectors.toList());
     }
 }
-```
+// ```

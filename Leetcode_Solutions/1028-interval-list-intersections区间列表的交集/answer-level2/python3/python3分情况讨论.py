@@ -1,8 +1,8 @@
-### 解题思路
-分情况讨论
-### 代码
+# ### 解题思路
+# 分情况讨论
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intervalIntersection(self, A: List[List[int]], B: List[List[int]]) -> List[List[int]]:
         ans = []
@@ -32,4 +32,4 @@ class Solution:
             elif b[0] > a[1]:
                 A.pop(0)
         return ans
-```
+# ```

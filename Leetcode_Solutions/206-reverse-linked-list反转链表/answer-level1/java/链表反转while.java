@@ -1,9 +1,9 @@
-### 解题思路
-反转上一题陷入误区了，之前一直写链表都有存储size，使用for循环，其实这里可以直接用while迭代
+// ### 解题思路
+// 反转上一题陷入误区了，之前一直写链表都有存储size，使用for循环，其实这里可以直接用while迭代
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
     }
 
 }
-```
+// ```

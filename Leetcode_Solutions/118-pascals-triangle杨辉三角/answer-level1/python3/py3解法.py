@@ -1,4 +1,4 @@
-```
+# ```
 	def generate(self, numRows: int) -> List[List[int]]:
 		r = [[]]*numRows
 		for i in range(numRows):
@@ -12,4 +12,4 @@
 					else:					
 						r[i][j] = r[i-1][j-1] + r[i-1][j]
 		return r
-```
+# ```

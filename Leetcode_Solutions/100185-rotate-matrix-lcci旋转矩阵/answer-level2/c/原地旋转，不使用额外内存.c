@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/4d01bb4a9f047f8c1994de2f1208002068a8757e3a809a6feb0536fad67a333f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4d01bb4a9f047f8c1994de2f1208002068a8757e3a809a6feb0536fad67a333f-image.png)
 
-### 解题思路
+// ### 解题思路
 
-对于每一圈数字，进行顺时针旋转，
-比如：
-a b
-d c 
-->
-d a
-c b
-### 代码
+// 对于每一圈数字，进行顺时针旋转，
+// 比如：
+// a b
+// d c 
+// ->
+// d a
+// c b
+// ### 代码
 
-```c
+// ```c
 void rotate(int **matrix, int matrixSize, int *matrixColSize)
 {
     int i, j, starti, startj, m, prev;
@@ -47,4 +47,4 @@ void rotate(int **matrix, int matrixSize, int *matrixColSize)
         }
     }
 }
-```
+// ```

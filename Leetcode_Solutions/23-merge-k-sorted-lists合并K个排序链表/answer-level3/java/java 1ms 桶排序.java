@@ -1,8 +1,8 @@
-如果已知取值范围，可以使用桶排序，会有一个接近 O(n) 的复杂度。
+// 如果已知取值范围，可以使用桶排序，会有一个接近 O(n) 的复杂度。
 
-示例代码如下：
+// 示例代码如下：
 
-```
+// ```
 private static int[] array = new int[1_0000];
 
 public ListNode mergeKLists(ListNode[] lists) {
@@ -40,5 +40,5 @@ public ListNode mergeKLists(ListNode[] lists) {
     }
     return head.next;
 }
-```
+// ```
 

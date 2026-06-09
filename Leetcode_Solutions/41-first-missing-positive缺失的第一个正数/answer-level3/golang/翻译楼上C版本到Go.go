@@ -1,9 +1,9 @@
-### 解题思路
-翻译楼上C版本到Go
+// ### 解题思路
+// 翻译楼上C版本到Go
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func firstMissingPositive(nums []int) int {
     if nums == nil || len(nums) == 0 {
         return 1
@@ -23,4 +23,4 @@ func firstMissingPositive(nums []int) int {
 
 	return is
 }
-```
+// ```

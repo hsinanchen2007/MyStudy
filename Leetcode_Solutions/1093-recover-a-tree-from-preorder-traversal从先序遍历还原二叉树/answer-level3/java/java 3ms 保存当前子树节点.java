@@ -1,5 +1,5 @@
-按照先序遍历法，规则：深度递增或相等说明在同一颗子树上面，一旦深度减小说明在某个父节点上产生了新的右子树；
-```
+// 按照先序遍历法，规则：深度递增或相等说明在同一颗子树上面，一旦深度减小说明在某个父节点上产生了新的右子树；
+// ```
 public class RecoverFromPreorder {
     public class TreeNode {
         int val;
@@ -67,4 +67,4 @@ public class RecoverFromPreorder {
         return true;
     }
 }
-```
+// ```

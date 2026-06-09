@@ -1,28 +1,28 @@
-### 位运算
-1. 关于复杂度
-  1.1 时间复杂度为O(log n)
-  1.2 空间负责度为O(1)
-2. 我的解题思路
-  2.1 利用n与n-1的位与运算去除最后一个1，result自增
-3. 提交记录
-  3.1 力扣中耗时1ms,消耗33.5MB内存
-  3.2 leetcode中耗时1ms,消耗33.6MB内存
-4. Q&A
+// ### 位运算
+// 1. 关于复杂度
+//   1.1 时间复杂度为O(log n)
+//   1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//   2.1 利用n与n-1的位与运算去除最后一个1，result自增
+// 3. 提交记录
+//   3.1 力扣中耗时1ms,消耗33.5MB内存
+//   3.2 leetcode中耗时1ms,消耗33.6MB内存
+// 4. Q&A
 
-### 字符串操作
-1. 关于复杂度
-  1.1 时间复杂度为O(n)
-  1.2 空间负责度为O(n)
-2. 我的解题思路
-  2.1 转换源数字成为二进制字符串
-  2.2 遍历字符串，统计1的个数
-3. 提交记录
-  3.1 力扣中耗时1ms,消耗33.3MB内存
-  3.2 leetcode中耗时1ms,消耗33.5MB内存
-4. Q&A
+// ### 字符串操作
+// 1. 关于复杂度
+//   1.1 时间复杂度为O(n)
+//   1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//   2.1 转换源数字成为二进制字符串
+//   2.2 遍历字符串，统计1的个数
+// 3. 提交记录
+//   3.1 力扣中耗时1ms,消耗33.3MB内存
+//   3.2 leetcode中耗时1ms,消耗33.5MB内存
+// 4. Q&A
 
 
-```
+// ```
 /**
  * Problem
  *     191.Number of 1 Bits
@@ -88,6 +88,6 @@ public class Solution191 {
         return res;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

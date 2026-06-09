@@ -1,8 +1,8 @@
-根据格雷码的规律先生成格雷码
-res[i]=i^(i>>1);
-同时找到start的位置
-在通过reverse反转
-```
+// 根据格雷码的规律先生成格雷码
+// res[i]=i^(i>>1);
+// 同时找到start的位置
+// 在通过reverse反转
+// ```
 class Solution {
 public:
     vector<int> circularPermutation(int n, int start) {
@@ -22,4 +22,4 @@ public:
     return res;
     }
 };
-```
+// ```

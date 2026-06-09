@@ -1,5 +1,5 @@
-类型链表翻转的写法，但此题可以直接交换结点的值即可。
-```
+// 类型链表翻转的写法，但此题可以直接交换结点的值即可。
+// ```
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -17,4 +17,4 @@ public:
         return head;
     }
 };
-```
+// ```

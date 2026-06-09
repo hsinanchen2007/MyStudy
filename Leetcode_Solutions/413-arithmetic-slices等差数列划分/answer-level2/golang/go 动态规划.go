@@ -1,11 +1,11 @@
-### 解题思路
-- dp[i] = nums[i] - nums[i-1] == nums[i-1] - nums[i-2] ? dp[i-1] + 1 : 0
-- return sum(dp)
+// ### 解题思路
+// - dp[i] = nums[i] - nums[i-1] == nums[i-1] - nums[i-2] ? dp[i-1] + 1 : 0
+// - return sum(dp)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numberOfArithmeticSlices(A []int) int {
     return method_dp(A)
 }
@@ -42,4 +42,4 @@ func method_dp(nums []int) int {
     }
     return sum
 }
-```
+// ```

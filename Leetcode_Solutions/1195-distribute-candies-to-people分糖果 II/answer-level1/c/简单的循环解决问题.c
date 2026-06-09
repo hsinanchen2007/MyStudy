@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b0ef1dd95c43f660e9b8e08669e2318007ef577d04afec684885d2ef3aaeafc2-image.png)
-* 对特殊情况做一个分享（candies==0||num_people==0）
-* 定义一个num_people长度的动态数组，然后赋初值
-* 然后进入循环（candies>0），如果candies大于等于将要分配的糖果数，就按规律分配，否则就把剩余全部糖果直接分配
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b0ef1dd95c43f660e9b8e08669e2318007ef577d04afec684885d2ef3aaeafc2-image.png)
+// * 对特殊情况做一个分享（candies==0||num_people==0）
+// * 定义一个num_people长度的动态数组，然后赋初值
+// * 然后进入循环（candies>0），如果candies大于等于将要分配的糖果数，就按规律分配，否则就把剩余全部糖果直接分配
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -42,4 +42,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
        return ans;
 
 }
-```
+// ```

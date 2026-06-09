@@ -1,7 +1,7 @@
-没什么好说的把，杨辉三角中每个数是它左上方和右上方的数的和。
+// 没什么好说的把，杨辉三角中每个数是它左上方和右上方的数的和。
 
-AC代码：
-```
+// AC代码：
+// ```
 class Solution {
 public:
     vector<vector<int> > generate(int numRows) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

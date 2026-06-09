@@ -1,4 +1,4 @@
-```
+// ```
 public static int[] deckRevealedIncreasing(int[] deck){
         int[] res = new int[deck.length];
 //       用-1标记未确定的数；
@@ -55,4 +55,4 @@ public static int[] deckRevealedIncreasing(int[] deck){
 
     }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 const maxint = int(^uint32(0) >> 1)
 const minint = ^maxint
 
@@ -26,6 +26,6 @@ func reverse(x int) int {
     
     return result
 }
-```
+// ```
 
-对负数取余的结果还是负数
+// 对负数取余的结果还是负数

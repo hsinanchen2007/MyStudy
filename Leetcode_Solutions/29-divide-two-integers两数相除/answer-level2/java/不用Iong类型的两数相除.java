@@ -1,9 +1,9 @@
-思路可以参考其他大佬的，主要是对long类型改进为int类型，符合题目条件。
-首先，我们把两个数准换为负数，这样就不会产生使用Math.abs()函数导致的溢出问题。
-然后在返回值res（最后结果）和自增变量tmp（每次对除数倍数增长）中添加溢出条件判断。
+// 思路可以参考其他大佬的，主要是对long类型改进为int类型，符合题目条件。
+// 首先，我们把两个数准换为负数，这样就不会产生使用Math.abs()函数导致的溢出问题。
+// 然后在返回值res（最后结果）和自增变量tmp（每次对除数倍数增长）中添加溢出条件判断。
 
 
-```Java[]
+// ```Java[]
 public int divide(int dividend, int divisor) {
         //把两个数都转为负数
         int sign = 1;
@@ -41,5 +41,5 @@ public int divide(int dividend, int divisor) {
         }
         return sign==1?res:-res;
     }
-```
+// ```
 

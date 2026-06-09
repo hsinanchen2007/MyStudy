@@ -1,6 +1,6 @@
-![AKF扩展立方体.jpg](https://pic.leetcode-cn.com/e72e3c0842a19eda472dd4569a041801f0e7c26d01fc1b54c726ad85b1ef6ef7-AKF%E6%89%A9%E5%B1%95%E7%AB%8B%E6%96%B9%E4%BD%93.jpg)
+// ![AKF扩展立方体.jpg](https://pic.leetcode-cn.com/e72e3c0842a19eda472dd4569a041801f0e7c26d01fc1b54c726ad85b1ef6ef7-AKF%E6%89%A9%E5%B1%95%E7%AB%8B%E6%96%B9%E4%BD%93.jpg)
 
-```
+// ```
 class Solution {
     public boolean isNumber(String s) {
         //初始状态
@@ -113,4 +113,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int majorityElement(int[] nums) {
         int vote = 0;
@@ -17,4 +17,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

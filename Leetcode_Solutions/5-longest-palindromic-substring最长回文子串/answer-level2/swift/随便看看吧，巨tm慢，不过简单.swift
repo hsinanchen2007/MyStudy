@@ -1,4 +1,4 @@
-```swift []
+// ```swift []
 func longestPalindrome(_ s:String) ->String {
     let unreverseString = s
     let reversedString = s.reversed()
@@ -39,4 +39,4 @@ func longestPalindrome(_ s:String) ->String {
 
 longestPalindrome("abac")
 
-```
+// ```

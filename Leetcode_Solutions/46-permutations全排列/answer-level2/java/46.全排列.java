@@ -1,4 +1,4 @@
-```
+// ```
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         if (nums == null || nums.length == 0) {
@@ -34,4 +34,4 @@
             temp.remove(temp.size() - 1);
         }
     }
-```
+// ```

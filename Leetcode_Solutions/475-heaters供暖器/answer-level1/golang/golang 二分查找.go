@@ -1,8 +1,8 @@
-二分查找最短半径得解。当前半径可以覆盖所有房子， high = mid， else low = mid + 1
+// 二分查找最短半径得解。当前半径可以覆盖所有房子， high = mid， else low = mid + 1
 
-注意
-- houses和heaters需要自己排序
-```
+// 注意
+// - houses和heaters需要自己排序
+// ```
 func findRadius(houses []int, heaters []int) int {
 	sort.Ints(houses)
 	sort.Ints(heaters)
@@ -33,4 +33,4 @@ func findRadius(houses []int, heaters []int) int {
 	}
 	return low
 }
-```
+// ```

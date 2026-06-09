@@ -1,5 +1,5 @@
-```js
+// ```js
 var defangIPaddr = function(address) {
     return address.replace(/\./g, '[.]')
 };
-```
+// ```

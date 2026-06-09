@@ -1,20 +1,20 @@
-#### 方法一：深度优先搜索
+# #### 方法一：深度优先搜索
 
-**直觉**
+# **直觉**
 
-给定树中的一个结点，若其满足下面条件中的一个，则子树同值:
+# 给定树中的一个结点，若其满足下面条件中的一个，则子树同值:
 
-   1. 该节点没有子结点 （基本情况）
-   2. 该节点的所有子结点都为同值子树，且结点与其子结点值相同。
+#    1. 该节点没有子结点 （基本情况）
+#    2. 该节点的所有子结点都为同值子树，且结点与其子结点值相同。
 
-这样我们可以在树中使用深度优先搜索，自底向上的判断每个子树是否为同值子树。
+# 这样我们可以在树中使用深度优先搜索，自底向上的判断每个子树是否为同值子树。
 
-<![image.png](https://pic.leetcode-cn.com/0938545f946dd2ca65595bacebb32c69a68db6e58f3187ec339da68cf0801d76-image.png),![image.png](https://pic.leetcode-cn.com/a5538c324ce05c201d0558196936d03de237ff7a8d6fd29f548b50bd18887f4a-image.png),![image.png](https://pic.leetcode-cn.com/1957ca2808b9fff0f0eee3f6a5462d792ebf9e1eeac60f0a9874066b37cd437f-image.png),![image.png](https://pic.leetcode-cn.com/4956024c2e4848286ae837d55573cc6f38bda0dae611fdfae5f982b5af741df8-image.png),![image.png](https://pic.leetcode-cn.com/bc7f358f20bb514d8409240774551aba6bbaa4cc4b0312a78ed816d831ca76de-image.png),![image.png](https://pic.leetcode-cn.com/89b922355f4bdecce7eb41e6f123c6cfaf28dc3f86bcec9cc673e87c34731297-image.png),![image.png](https://pic.leetcode-cn.com/e64ebb63584737d21608b9a3181d5fd9187c5852ab3b8fa16d351bb855b88836-image.png)>
+# <![image.png](https://pic.leetcode-cn.com/0938545f946dd2ca65595bacebb32c69a68db6e58f3187ec339da68cf0801d76-image.png),![image.png](https://pic.leetcode-cn.com/a5538c324ce05c201d0558196936d03de237ff7a8d6fd29f548b50bd18887f4a-image.png),![image.png](https://pic.leetcode-cn.com/1957ca2808b9fff0f0eee3f6a5462d792ebf9e1eeac60f0a9874066b37cd437f-image.png),![image.png](https://pic.leetcode-cn.com/4956024c2e4848286ae837d55573cc6f38bda0dae611fdfae5f982b5af741df8-image.png),![image.png](https://pic.leetcode-cn.com/bc7f358f20bb514d8409240774551aba6bbaa4cc4b0312a78ed816d831ca76de-image.png),![image.png](https://pic.leetcode-cn.com/89b922355f4bdecce7eb41e6f123c6cfaf28dc3f86bcec9cc673e87c34731297-image.png),![image.png](https://pic.leetcode-cn.com/e64ebb63584737d21608b9a3181d5fd9187c5852ab3b8fa16d351bb855b88836-image.png)>
 
 
-**算法**
+# **算法**
 
-```Python [solution 1]
+# ```Python [solution 1]
 class Solution:
     def countUnivalSubtrees(self, root):
         if root is None: return 0
@@ -44,9 +44,9 @@ class Solution:
         # increment self.res and return whether a univalue tree exists here
         self.count += is_uni
         return is_uni
-```
+# ```
 
-```Java [solution 1]
+# ```Java [solution 1]
 public class Solution {
     int count = 0;
     boolean is_uni(TreeNode node) {
@@ -82,30 +82,30 @@ public class Solution {
         return count;
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度 : $O(N)$。由于算法的深度优先特性，每个结点的 `is_uni` 状态是自底向上计算的。给定子结点的`is_uni` ，计算结点自身的 `is_uni` 只需要 $O(1)$ 的时间。故每个结点需要 $O(1)$ 时间，总复杂度为 $O(N)$。
+# * 时间复杂度 : $O(N)$。由于算法的深度优先特性，每个结点的 `is_uni` 状态是自底向上计算的。给定子结点的`is_uni` ，计算结点自身的 `is_uni` 只需要 $O(1)$ 的时间。故每个结点需要 $O(1)$ 时间，总复杂度为 $O(N)$。
 
-* 空间复杂度 : $O(H)$， 其中 `H` 为树的高度。每次 `is_uni` 递归调用都需要栈空间。由于我们在调用 `is_uni(node.right)` 前会先处理完 `is_uni(node.left)`，递归栈的大小由从根到叶的最长路径决定 - 换而言之，是树的高度。
-<br />
-<br />
+# * 空间复杂度 : $O(H)$， 其中 `H` 为树的高度。每次 `is_uni` 递归调用都需要栈空间。由于我们在调用 `is_uni(node.right)` 前会先处理完 `is_uni(node.left)`，递归栈的大小由从根到叶的最长路径决定 - 换而言之，是树的高度。
+# <br />
+# <br />
 
----
+# ---
 
-#### 方法二：传父值的深度优先搜索
+# #### 方法二：传父值的深度优先搜索
 
-**算法**
+# **算法**
 
-我们可以利用方法一的思路进一步简化算法。我们不检查结点是否有子结点，而是将 `null` 值看做同值子树，只是不计数。
+# 我们可以利用方法一的思路进一步简化算法。我们不检查结点是否有子结点，而是将 `null` 值看做同值子树，只是不计数。
 
-这样，如果一个结点有 `null` 子结点，该子结点被自动判定为有效的子树，这样算法就只检查其他子结点是否有效。
+# 这样，如果一个结点有 `null` 子结点，该子结点被自动判定为有效的子树，这样算法就只检查其他子结点是否有效。
 
-最后，辅助函数检查当前节点是否是有效的子树，它返回一个布尔值，指示该节点是否为其父节点的有效组成。这可以通过传入父节点的值来完成。
+# 最后，辅助函数检查当前节点是否是有效的子树，它返回一个布尔值，指示该节点是否为其父节点的有效组成。这可以通过传入父节点的值来完成。
 
 
-```Python [solution 2]
+# ```Python [solution 2]
 class Solution:
     def countUnivalSubtrees(self, root):
         self.count = 0
@@ -129,9 +129,9 @@ class Solution:
         # at this point we know that this node is a univalue subtree of value node.val
         # pass a boolean indicating if this is a valid subtree for the parent node
         return node.val == val
-```
+# ```
 
-```Java [solution 2]
+# ```Java [solution 2]
 public class Solution {
     int count = 0;
     boolean is_valid_part(TreeNode node, int val) {
@@ -155,12 +155,12 @@ public class Solution {
         return count;
     }
 }
-```
+# ```
 
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度 : $O(N)$。 与上个方法相同。
+# * 时间复杂度 : $O(N)$。 与上个方法相同。
 
-* 空间复杂度 : $O(H)$。 与上个方法相同。
+# * 空间复杂度 : $O(H)$。 与上个方法相同。

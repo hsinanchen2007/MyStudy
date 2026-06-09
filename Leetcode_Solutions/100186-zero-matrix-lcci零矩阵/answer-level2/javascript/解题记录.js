@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var setZeroes = function(matrix) {
   let clr = false, clc = false
   matrix.map((v, m) => {
@@ -27,4 +27,4 @@ var setZeroes = function(matrix) {
   if(clr) matrix[0] = new Array(matrix[0].length).fill(0)
   return matrix
 };
-```
+// ```

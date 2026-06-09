@@ -1,5 +1,5 @@
-### 利用两次循环找到每个位置需要等待的天数
-```js
+// ### 利用两次循环找到每个位置需要等待的天数
+// ```js
 var dailyTemperatures = function(T) {
     for(var i=0,len = T.length;i<len;i++){
         var temp = T[i]
@@ -14,10 +14,10 @@ var dailyTemperatures = function(T) {
     }
     return T
 };
-```
- ### 利用栈
+// ```
+//  ### 利用栈
 
-```js
+// ```js
 function dailyTemperatures(T) {
     var stack = []
     for(var i=0,len = T.length;i<len;i++){
@@ -33,4 +33,4 @@ function dailyTemperatures(T) {
     }
     return T
 }
-```
+// ```

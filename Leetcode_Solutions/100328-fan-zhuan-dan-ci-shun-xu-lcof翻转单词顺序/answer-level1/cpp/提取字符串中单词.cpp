@@ -1,10 +1,10 @@
-### 解题思路
-1.可以正向遍历：ans=temp+" "+ans;
-2.可以反向遍历：ans=ans+" "+temp;
+// ### 解题思路
+// 1.可以正向遍历：ans=temp+" "+ans;
+// 2.可以反向遍历：ans=ans+" "+temp;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -30,4 +30,4 @@ public:
 
     }
 };
-```
+// ```

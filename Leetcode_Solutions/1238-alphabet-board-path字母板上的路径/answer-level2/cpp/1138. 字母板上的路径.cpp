@@ -1,7 +1,7 @@
-思路很简单，细节是处理好最后一行。
-不是很简洁，凑合看吧
+// 思路很简单，细节是处理好最后一行。
+// 不是很简洁，凑合看吧
 
-```
+// ```
 class Solution {
 public:
     string alphabetBoardPath(string target) {
@@ -53,4 +53,4 @@ public:
         return ans;
     }
 };
-```
+// ```

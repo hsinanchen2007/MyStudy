@@ -1,4 +1,4 @@
-```class Solution:
+# ```class Solution:
     def singleNumber(self, nums: List[int]) -> int:
        
 
@@ -14,4 +14,4 @@
             two = one & item | two & ~item
             one = tmp & item | one & ~item
         return one
-```
+# ```

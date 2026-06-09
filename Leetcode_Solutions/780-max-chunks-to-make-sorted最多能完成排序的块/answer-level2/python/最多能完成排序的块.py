@@ -1,11 +1,11 @@
-### 解题思路
-v:1 0 2 3 4
-i:0 1 2 3 4
-遍历到第i个位置时，如果可以分为块，那么前i个位置的最大值一定等于i
+# ### 解题思路
+# v:1 0 2 3 4
+# i:0 1 2 3 4
+# 遍历到第i个位置时，如果可以分为块，那么前i个位置的最大值一定等于i
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxChunksToSorted(self, arr):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 res = res + 1
         return res
 
-```
+# ```

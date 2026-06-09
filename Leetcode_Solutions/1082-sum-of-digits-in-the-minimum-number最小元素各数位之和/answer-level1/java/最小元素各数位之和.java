@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int sumOfDigits(int[] A) {
         //注意：找最小值并不需要排序
@@ -18,4 +18,4 @@ class Solution {
         return sum%2==0? 1:0;
     }
 }
-```
+// ```

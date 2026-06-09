@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
         car = [0]*1000
@@ -6,4 +6,4 @@ class Solution:
             for k in range(i,j):
                 car[k] += num
         return max(car)<=capacity
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int)  {
     if n != 0 {
        i:=n-1
@@ -31,4 +31,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
     }
     
 }
-```
+// ```

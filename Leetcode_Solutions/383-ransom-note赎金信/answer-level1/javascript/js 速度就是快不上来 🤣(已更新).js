@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/2d89a713b60b00e35e7522bbfebf0f06f8a40fd358bd83aa04612537672ac3d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2d89a713b60b00e35e7522bbfebf0f06f8a40fd358bd83aa04612537672ac3d6-image.png)
 
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 O(n^2) 原地操作
 遍历赎金信，在杂志中找是否有对应的字符串，有就删掉，没有就返回 false
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} ransomNote
  * @param {string} magazine
@@ -97,4 +97,4 @@ var canConstruct = function(ransomNote, magazine) {
   
 //   return ans;
 // };
-```
+// ```

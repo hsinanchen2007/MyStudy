@@ -1,5 +1,5 @@
-构建一个26叉树，分别表示字母a-z.当遇到'.'时，表示任何一个字母，遍历26个子树。
-```
+// 构建一个26叉树，分别表示字母a-z.当遇到'.'时，表示任何一个字母，遍历26个子树。
+// ```
 class WordDictionary {
     static const int SIZE = 26;
     bool isEnd;
@@ -46,4 +46,4 @@ public:
  * obj->addWord(word);
  * bool param_2 = obj->search(word);
  */
-```
+// ```

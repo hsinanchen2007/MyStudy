@@ -1,6 +1,6 @@
-执行用时 :104 ms, 在所有 Python3 提交中击败了56.63%的用户
-内存消耗 :13.5 MB, 在所有 Python3 提交中击败了8.35%的用户
-```
+# 执行用时 :104 ms, 在所有 Python3 提交中击败了56.63%的用户
+# 内存消耗 :13.5 MB, 在所有 Python3 提交中击败了8.35%的用户
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         length = len(s)
@@ -36,4 +36,4 @@ class Solution:
             for col in Outdict[row].keys():
                 Output = Output + Outdict[row][col]
         return Output
-```
+# ```

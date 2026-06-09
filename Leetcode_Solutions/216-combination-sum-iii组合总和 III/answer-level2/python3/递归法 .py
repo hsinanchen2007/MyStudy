@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def combinationSum3(self, k: int, n: int):
         """
@@ -34,4 +34,4 @@ class Solution:
 s = Solution()
 print(s.combinationSum3(2, 18))
 
-```
+# ```

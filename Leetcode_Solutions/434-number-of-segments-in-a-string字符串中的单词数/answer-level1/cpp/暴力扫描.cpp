@@ -1,9 +1,9 @@
-### 解题思路
-读第一个非空，然后本单词结尾+1，作为下一次输入开始
+// ### 解题思路
+// 读第一个非空，然后本单词结尾+1，作为下一次输入开始
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSegments(string s) {
@@ -32,4 +32,4 @@ public:
         return pos;
     }
 };
-```
+// ```

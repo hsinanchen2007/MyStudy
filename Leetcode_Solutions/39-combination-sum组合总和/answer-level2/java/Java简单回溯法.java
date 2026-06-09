@@ -1,7 +1,7 @@
-# Thinking
-- 采用最简单的递归回溯思路。废话不多说，直接看代码结合注释，很简单都能看懂
-# Code
-```
+// # Thinking
+// - 采用最简单的递归回溯思路。废话不多说，直接看代码结合注释，很简单都能看懂
+// # Code
+// ```
 public class Solution
 {
     private int[] candidates;
@@ -44,4 +44,4 @@ public class Solution
         return ans;
     }
 }
-```
+// ```

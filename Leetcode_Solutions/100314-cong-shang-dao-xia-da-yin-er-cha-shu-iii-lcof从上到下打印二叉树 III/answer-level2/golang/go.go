@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-增加一个level变量，指明是否翻转
+// 增加一个level变量，指明是否翻转
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
  func levelOrder(root *TreeNode) [][]int {
 	if nil == root {
@@ -47,4 +47,4 @@ func reverse(qRes []int) {
 		r--
 	}
 }
-```
+// ```

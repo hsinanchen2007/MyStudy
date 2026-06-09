@@ -1,9 +1,9 @@
-### 解题思路
-没想到慢的一匹，才击败了百分之6点多
+# ### 解题思路
+# 没想到慢的一匹，才击败了百分之6点多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num):
         # 这个比那个罗马数字转整数确实难些，在这用贪心算法
@@ -27,4 +27,4 @@ class Solution:
                 if i == length_value - 1 and diffrences > 0:
                     res += roman_list[i]
                     diffrences = diffrences1
-```
+# ```

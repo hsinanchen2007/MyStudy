@@ -1,17 +1,17 @@
-基本思路是深度优先，剪枝，回溯过程记得还原
-感谢评论区 
-[@powcai](/u/powcai)这位兄台的
-```
+// 基本思路是深度优先，剪枝，回溯过程记得还原
+// 感谢评论区 
+// [@powcai](/u/powcai)这位兄台的
+// ```
     char[] s = new char[n];
     Arrays.fill(s, '.');
     s[i] = 'Q';
-```
-这段逻辑，非常巧妙！
+// ```
+// 这段逻辑，非常巧妙！
 
 
 
 
-```
+// ```
 class Solution {
     
     Set<Integer> colSet = new HashSet();
@@ -68,4 +68,4 @@ class Solution {
         }
     }
 }
-```
+// ```

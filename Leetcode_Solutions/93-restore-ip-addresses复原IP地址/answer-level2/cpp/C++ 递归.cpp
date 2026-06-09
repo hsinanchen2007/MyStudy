@@ -1,8 +1,8 @@
-1.获取合理第分割子串， 0 - 255 逐步填充分割符‘.’，
-2.递归计算剩余子串，
-3.当填充到第3个分割符后，递归结束。判断合理子串并保存结果。 
+// 1.获取合理第分割子串， 0 - 255 逐步填充分割符‘.’，
+// 2.递归计算剩余子串，
+// 3.当填充到第3个分割符后，递归结束。判断合理子串并保存结果。 
 
-```
+// ```
 void getIpAddr(string ip, string s, vector<string> &ipAddrs) {
     int num = count(ip.begin(), ip.end(), '.');
     if (num == 3) {
@@ -43,4 +43,4 @@ vector<string> restoreIpAddresses(string s) {
     return ipAdrrs;
 }
 
-```
+// ```

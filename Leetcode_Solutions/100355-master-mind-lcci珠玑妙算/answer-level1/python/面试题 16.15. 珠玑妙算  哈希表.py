@@ -1,9 +1,9 @@
-### 解题思路
-先记录相同次数 将不同的颜色记录到两个字典中，最后进行比较取值
+# ### 解题思路
+# 先记录相同次数 将不同的颜色记录到两个字典中，最后进行比较取值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def masterMind(self, solution, guess):
         G,g = 0,0
@@ -25,4 +25,4 @@ class Solution(object):
             if c in dic1:
                 g += min(dic1[c],dic2[c])
         return [G,g]
-```
+# ```

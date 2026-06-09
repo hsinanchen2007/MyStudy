@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -28,7 +28,7 @@ var searchInsert = function(nums, target) {
         }        
     }    
 };
-```
-- 执行用时 :68 ms, 在所有 javascript 提交中击败了77.73%的用户
-- 内存消耗 :33.7 MB, 在所有 javascript 提交中击败了73.57%的用户
-- 按照提议分别讨论集中情况
+// ```
+// - 执行用时 :68 ms, 在所有 javascript 提交中击败了77.73%的用户
+// - 内存消耗 :33.7 MB, 在所有 javascript 提交中击败了73.57%的用户
+// - 按照提议分别讨论集中情况

@@ -1,4 +1,4 @@
-```
+// ```
 import "strconv"
 
 func diffWaysToCompute(s string) []int {
@@ -28,4 +28,4 @@ func diffWaysToCompute(s string) []int {
 	}
 	return out
 }
-```
+// ```

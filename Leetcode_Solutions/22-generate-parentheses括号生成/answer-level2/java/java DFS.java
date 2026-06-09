@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     List<String> res = new ArrayList<>();
     public List<String> generateParenthesis(int n) {
@@ -20,4 +20,4 @@ class Solution {
             dfs(s + ")", left, right + 1, n);
     }
 }
-```
+// ```

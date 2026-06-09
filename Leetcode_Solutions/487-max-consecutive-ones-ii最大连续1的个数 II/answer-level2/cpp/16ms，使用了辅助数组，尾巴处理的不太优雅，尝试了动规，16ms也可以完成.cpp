@@ -1,5 +1,5 @@
-1、辅助数组
-```cpp
+// 1、辅助数组
+// ```cpp
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -43,9 +43,9 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
-2、动归
-```cpp
+// ```
+// 2、动归
+// ```cpp
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -71,4 +71,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

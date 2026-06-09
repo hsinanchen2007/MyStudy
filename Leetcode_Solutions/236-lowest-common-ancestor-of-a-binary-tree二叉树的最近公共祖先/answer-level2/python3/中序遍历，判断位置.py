@@ -1,5 +1,5 @@
-直接看代码，有注释：
-```
+# 直接看代码，有注释：
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
                 node = node.right
             else:
                 return node
-```
+# ```

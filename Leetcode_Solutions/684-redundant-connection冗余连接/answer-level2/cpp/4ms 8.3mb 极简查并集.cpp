@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct UFTree{
     vector<int> tr;
     UFTree(int n):tr(n+1){
@@ -27,4 +27,4 @@ public:
         return {};
     }
 };
-```
+// ```

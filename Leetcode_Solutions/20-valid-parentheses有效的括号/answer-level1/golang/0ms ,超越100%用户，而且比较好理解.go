@@ -1,4 +1,4 @@
-````go []
+// ````go []
 
 //有效的括号
 func IsValid(s string) bool {
@@ -46,5 +46,5 @@ func IsValid(s string) bool {
 	return true
 }
 
-```
+// ```
 

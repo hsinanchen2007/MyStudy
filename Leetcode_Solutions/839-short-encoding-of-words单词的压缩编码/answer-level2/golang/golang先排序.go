@@ -1,11 +1,11 @@
-### 解题思路
-golang版本 
-先排序
-再遍历
+// ### 解题思路
+// golang版本 
+// 先排序
+// 再遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type ByLength []string
 
 func (p ByLength) Len() int {
@@ -65,4 +65,4 @@ func minimumLengthEncoding(words []string) int {
 
 	return res
 }
-```
+// ```

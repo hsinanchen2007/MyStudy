@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isSubsequence(s string, t string) bool {
     // 找到s的每个字符在t中出现的最小位置，更新位置，后面的字符不能早于这个值
     ls := len(s)
@@ -25,4 +25,4 @@ func isSubsequence(s string, t string) bool {
     }
     return i == ls
 }
-```
+// ```

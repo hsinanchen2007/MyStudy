@@ -1,9 +1,9 @@
-### 解题思路
-自己的思路是先找出最大值的最小值的分割点，之后再根据二分查找去做，这个是cp的
+// ### 解题思路
+// 自己的思路是先找出最大值的最小值的分割点，之后再根据二分查找去做，这个是cp的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -36,4 +36,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-多数在计数过程中的count在加减之后肯定是大于0的
-```
+// 多数在计数过程中的count在加减之后肯定是大于0的
+// ```
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-寻找规律，如下图所示
-![image.png](https://pic.leetcode-cn.com/95cd2e0a314c12bf809e5ee47b8228dfcbb3b524375b66d3cc8f07c13655b1d1-image.png)
+// 寻找规律，如下图所示
+// ![image.png](https://pic.leetcode-cn.com/95cd2e0a314c12bf809e5ee47b8228dfcbb3b524375b66d3cc8f07c13655b1d1-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -62,11 +62,11 @@ var findDiagonalOrder = function(matrix) {
     }
     return ans;
 };
-```
+// ```
 
-### typescript 代码
+// ### typescript 代码
 
-```typescript
+// ```typescript
 const arrOperation = <T>(
   arr1: any[] | T,
   arr2: any[] | T,
@@ -123,4 +123,4 @@ const findDiagonalOrder = function(matrix: number[][]): number[] {
   return ans
 }
 
-```
+// ```

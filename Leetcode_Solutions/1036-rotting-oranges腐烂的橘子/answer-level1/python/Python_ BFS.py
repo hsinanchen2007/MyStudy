@@ -1,9 +1,9 @@
-### 解题思路
-很典型的BFS。
+# ### 解题思路
+# 很典型的BFS。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -21,4 +21,4 @@ class Solution:
             q, s = s, q
             
         return -1 if any([grid[i][j] == 1 for i in range(m) for j in range(n)]) else time
-```
+# ```

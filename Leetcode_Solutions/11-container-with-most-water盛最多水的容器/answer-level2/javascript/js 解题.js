@@ -1,4 +1,4 @@
-路过，水，另外测试波动好大，一次100ms，一次52ms
+// 路过，水，另外测试波动好大，一次100ms，一次52ms
 var maxArea = function(height) {
     let start=0,end=height.length-1,max=0
     while(end>start){

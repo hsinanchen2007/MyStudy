@@ -1,7 +1,7 @@
-执行用时 : 204 ms, 在所有 Kotlin 提交中击败了60.00%的用户
-内存消耗 : 33.6 MB, 在所有 Kotlin 提交中击败了100.00%的用户
+// 执行用时 : 204 ms, 在所有 Kotlin 提交中击败了60.00%的用户
+// 内存消耗 : 33.6 MB, 在所有 Kotlin 提交中击败了100.00%的用户
 
-```
+// ```
     fun gcdOfStrings(str1: String, str2: String): String {
         val l1 = str1.length
         val l2 = str2.length
@@ -35,4 +35,4 @@
         }
         return j
     }
-```
+// ```

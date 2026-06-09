@@ -1,4 +1,4 @@
-```
+// ```
 func max(a, b int) int {
 	if a < b {
 		return b
@@ -36,4 +36,4 @@ func maxDistance(arrays [][]int) int {
 	}
 	return max(r1-l2, r2-l1)
 }
-```
+// ```

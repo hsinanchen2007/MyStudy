@@ -1,9 +1,9 @@
-### 解题思路
-简单回溯
+// ### 解题思路
+// 简单回溯
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int n;
@@ -50,4 +50,4 @@ public:
         return res;
     }
 };
-```
+// ```

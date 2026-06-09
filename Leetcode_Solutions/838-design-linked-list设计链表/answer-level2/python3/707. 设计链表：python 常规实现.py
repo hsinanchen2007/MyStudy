@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/8adf355daf3b87a4f435f80b3bf7f5aad4d5b9d5c40bc3a0f836288f785428fd-image.png)
+# ![image.png](https://pic.leetcode-cn.com/8adf355daf3b87a4f435f80b3bf7f5aad4d5b9d5c40bc3a0f836288f785428fd-image.png)
 
-`del` 关键字似乎比 `pop()` 更快点。
+# `del` 关键字似乎比 `pop()` 更快点。
 
-```python []
+# ```python []
 class MyLinkedList:
 
     def __init__(self):
@@ -22,4 +22,4 @@ class MyLinkedList:
 
     def deleteAtIndex(self, index: int) -> None:
         if 0 <= index < len(self.h): del self.h[index]
-```
+# ```

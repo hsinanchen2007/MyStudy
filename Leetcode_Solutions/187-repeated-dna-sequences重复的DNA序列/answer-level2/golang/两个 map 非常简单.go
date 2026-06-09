@@ -1,4 +1,4 @@
-```
+// ```
 func findRepeatedDnaSequences(s string) (rst []string) {
 	var (
 		subMap   = map[string]bool{}
@@ -15,4 +15,4 @@ func findRepeatedDnaSequences(s string) (rst []string) {
 	}
 	return rst
 }
-```
+// ```

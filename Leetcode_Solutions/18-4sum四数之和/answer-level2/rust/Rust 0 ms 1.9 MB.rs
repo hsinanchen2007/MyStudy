@@ -1,5 +1,5 @@
-尽量写得很清晰，给大家参考一下
-```rust
+// 尽量写得很清晰，给大家参考一下
+// ```rust
 pub fn four_sum(mut nums: Vec<i32>, target: i32) -> Vec<Vec<i32>> {
     let mut res = Vec::new();
     let len = nums.len();
@@ -50,4 +50,4 @@ pub fn four_sum(mut nums: Vec<i32>, target: i32) -> Vec<Vec<i32>> {
     }
     res
 }
-```
+// ```

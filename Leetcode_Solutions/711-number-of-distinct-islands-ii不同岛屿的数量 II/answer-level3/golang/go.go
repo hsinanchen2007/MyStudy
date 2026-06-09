@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func getKey(ars []*[]int) string {
@@ -60,4 +60,4 @@ func numDistinctIslands2(grid [][]int) int {
 	}
 	return len(ms)
 }
-```
+// ```

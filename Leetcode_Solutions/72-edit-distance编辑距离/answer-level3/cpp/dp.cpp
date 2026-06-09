@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-cpp二维数组的new 
-int **dp = new int*[len1+1];
-for(int i=0; i<=len1; ++i) dp[i] = new int[len2+1];
-还可以用数组指针 char (*pa)[4]; pa是指向char[4]，pa+1，意味移动四个char，数组指针常用作函数传二维数组的参数。
-string []没有out-range检查，at(i)有。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// cpp二维数组的new 
+// int **dp = new int*[len1+1];
+// for(int i=0; i<=len1; ++i) dp[i] = new int[len2+1];
+// 还可以用数组指针 char (*pa)[4]; pa是指向char[4]，pa+1，意味移动四个char，数组指针常用作函数传二维数组的参数。
+// string []没有out-range检查，at(i)有。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -29,4 +29,4 @@ public:
         return dp[len1][len2];
     }
 };
-```
+// ```

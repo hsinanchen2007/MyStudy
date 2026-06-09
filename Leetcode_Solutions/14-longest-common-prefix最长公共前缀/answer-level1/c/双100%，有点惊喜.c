@@ -1,4 +1,4 @@
-```
+// ```
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strs == NULL) {
         return NULL;
@@ -20,4 +20,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
 
     return strs[0];
 }
-```
+// ```

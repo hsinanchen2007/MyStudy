@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         p->right = right;//平了的右子树接到平了的左子树的最右节点上
     }
 };
-```
+// ```

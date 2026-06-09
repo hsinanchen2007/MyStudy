@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     List<List<Integer>> lists = new ArrayList<>();
     boolean isUsed[]; //标记当前位置的元素是否被使用过，初始化为false
@@ -34,4 +34,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

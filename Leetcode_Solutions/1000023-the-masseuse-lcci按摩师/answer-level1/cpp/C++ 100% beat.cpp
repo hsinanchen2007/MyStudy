@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return sum;
     }
 };
-```
+// ```

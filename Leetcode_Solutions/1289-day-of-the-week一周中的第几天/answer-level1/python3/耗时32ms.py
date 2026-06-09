@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
         from datetime import datetime
@@ -16,4 +16,4 @@ class Solution:
         riqi = ["Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"]
         taday = datetime.strptime(str1,"%Y%m%d").weekday()
         return(riqi[taday])
-```
+# ```

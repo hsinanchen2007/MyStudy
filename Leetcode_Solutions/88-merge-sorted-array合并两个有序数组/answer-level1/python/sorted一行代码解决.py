@@ -1,9 +1,9 @@
-### 解题思路
-sort只是对对象本身进行排序，没有返回值，要注意，sorted()会返回一个副本，对象本身不会发生改变
+# ### 解题思路
+# sort只是对对象本身进行排序，没有返回值，要注意，sorted()会返回一个副本，对象本身不会发生改变
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -36,4 +36,4 @@ class Solution:
 '''
 
 
-```
+# ```

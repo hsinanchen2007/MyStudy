@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-主要是自定义比较函数, 一开始设计的cmp太复杂了!
+# 主要是自定义比较函数, 一开始设计的cmp太复杂了!
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
         from functools import cmp_to_key
@@ -23,10 +23,10 @@ class Solution:
 
         # return ''.join(nums) # 因为有[0,0]]
         return str(int(''.join(nums)))
-```
+# ```
 
-这个代码只要20ms,学一下
-```
+# 这个代码只要20ms,学一下
+# ```
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
         # 题目采用了一种比较6的方式，采用判断a+b是否比b+a大的方式
@@ -39,4 +39,4 @@ class Solution:
 class compare(str): # 定义成类更快?
     def __lt__(x, y):
         return x+y>y+x
-```
+# ```

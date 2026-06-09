@@ -1,9 +1,9 @@
-### 解题思路
-被最后的模运算坑了一波，原因是模运算前后两者都应该是整数类型。
+# ### 解题思路
+# 被最后的模运算坑了一波，原因是模运算前后两者都应该是整数类型。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, n: int) -> int:
         a, b = 0, 1
@@ -13,4 +13,4 @@ class Solution:
             a = a + b
             a, b = b, a
         return int(b % int(1e9+7))
-```
+# ```

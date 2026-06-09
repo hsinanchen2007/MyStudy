@@ -1,4 +1,4 @@
-```go
+// ```go
 //暴力破解法 时间复杂度是O(n*m) 空间复杂度O(1)
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
     hb := headB  //这里需要初始化一个临时变量
@@ -32,4 +32,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
     }
     return ha
 }
-```
+// ```

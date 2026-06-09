@@ -1,4 +1,4 @@
-```
+// ```
 func groupAnagrams(strs []string) (rst [][]string) {
 	var alphaMap = map[string][]string{}
 
@@ -32,4 +32,4 @@ func getAlpha(str string) (rst string) {
 
 	return string(rstBytes)
 }
-```
+// ```

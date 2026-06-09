@@ -1,8 +1,8 @@
-### 思路
-构建头部 dummy 节点，后面的操作就可以转化为一般化得链表节点移除问题
+// ### 思路
+// 构建头部 dummy 节点，后面的操作就可以转化为一般化得链表节点移除问题
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     ListNode* deleteNode(ListNode* head, int val) {
@@ -19,4 +19,4 @@ public:
         return dummy -> next;
     }
 };
-```
+// ```

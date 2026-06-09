@@ -1,9 +1,9 @@
-### 解题思路
-看代码，不会dp
+// ### 解题思路
+// 看代码，不会dp
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} coins
  * @param {number} amount
@@ -46,4 +46,4 @@ var coinChange = function(coins, amount) {
 
     return -1
 };
-```
+// ```

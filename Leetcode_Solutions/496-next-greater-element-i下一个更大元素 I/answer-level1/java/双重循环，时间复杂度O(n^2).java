@@ -1,9 +1,9 @@
-### 解题思路
-双重循环，时间复杂度O(n^2)
+// ### 解题思路
+// 双重循环，时间复杂度O(n^2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
                 int [] res=new int[nums1.length];
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-环一圈，计算出两段的距离，取小的即可
+// ### 解题思路
+// 环一圈，计算出两段的距离，取小的即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int distanceBetweenBusStops(int* distance, int distanceSize, int start, int destination){
 	int dis1 = 0, dis2 = 0;;
 	int s;
@@ -18,4 +18,4 @@ int distanceBetweenBusStops(int* distance, int distanceSize, int start, int dest
 	}
 	return dis1 < dis2 ? dis1 : dis2;
 }
-```
+// ```

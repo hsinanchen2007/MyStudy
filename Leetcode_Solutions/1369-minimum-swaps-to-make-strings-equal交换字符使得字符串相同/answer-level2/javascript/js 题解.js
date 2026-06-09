@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s1
  * @param {string} s2
@@ -28,4 +28,4 @@ var minimumSwap = function(s1, s2) {
         return -1;
     }
 };
-```
+// ```

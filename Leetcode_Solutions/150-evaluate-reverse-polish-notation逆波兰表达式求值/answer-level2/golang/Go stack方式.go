@@ -1,5 +1,5 @@
-栈stack方式：
-```
+// 栈stack方式：
+// ```
 func evalRPN(tokens []string) int {
     tlen := len(tokens)
     stack := []int{}
@@ -29,4 +29,4 @@ func evalRPN(tokens []string) int {
     }
     return stack[len(stack)-1]
 }
-```
+// ```

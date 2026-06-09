@@ -1,11 +1,11 @@
-### 解题思路
-使用hash表记录每个数值出现的个数
-当新加入的数小于hash中的最大值时，新数对应的hash计数加一，最大数对应hash值减一，
-当最大数个数为0时，从hash中删除
+// ### 解题思路
+// 使用hash表记录每个数值出现的个数
+// 当新加入的数小于hash中的最大值时，新数对应的hash计数加一，最大数对应hash值减一，
+// 当最大数个数为0时，从hash中删除
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallestK(vector<int>& arr, int k) {
@@ -43,4 +43,4 @@ public:
         return res;
     }
 };
-```
+// ```

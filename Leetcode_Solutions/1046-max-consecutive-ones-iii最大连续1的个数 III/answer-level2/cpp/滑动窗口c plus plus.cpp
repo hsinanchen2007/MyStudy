@@ -1,10 +1,10 @@
-### 解题思路
-[start,end]
-start初始为0，end从0遍历到A.size()
-左窗口移动条件 当end-start+1-(此窗口1的个数)>k 
-### 代码
+// ### 解题思路
+// [start,end]
+// start初始为0，end从0遍历到A.size()
+// 左窗口移动条件 当end-start+1-(此窗口1的个数)>k 
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestOnes(vector<int>& A, int K) {
@@ -25,4 +25,4 @@ public:
         return result;
     }
 };
-```
+// ```

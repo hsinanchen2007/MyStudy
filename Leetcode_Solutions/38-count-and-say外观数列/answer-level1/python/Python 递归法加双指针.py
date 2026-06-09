@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -20,4 +20,4 @@ class Solution(object):
         ret = ret + str(end-start) + s[start]
         
         return ret
-```
+# ```

@@ -1,5 +1,5 @@
-利用层次遍历序列化。需要注意的是只有当遍历到最后一层时，不再将null节点序列化。
-```
+// 利用层次遍历序列化。需要注意的是只有当遍历到最后一层时，不再将null节点序列化。
+// ```
 代码块
 public class Codec {
     // Encodes a tree to a single string.
@@ -64,4 +64,4 @@ public class Codec {
         return tds[0];
     }
 }
-```
+// ```

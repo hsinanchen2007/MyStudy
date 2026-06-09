@@ -1,4 +1,4 @@
-/*公约数*/
+// /*公约数*/
 int divisorCal(int a, int b)
 {
     return b == 0 ? a : divisorCal(b, a % b);

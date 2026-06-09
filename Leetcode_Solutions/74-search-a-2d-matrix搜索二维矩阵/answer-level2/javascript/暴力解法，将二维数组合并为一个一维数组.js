@@ -1,8 +1,8 @@
-### 解题思路
-直接莽
-### 代码
+// ### 解题思路
+// 直接莽
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -18,4 +18,4 @@ var searchMatrix = function(matrix, target) {
     }
     return false
 };
-```
+// ```

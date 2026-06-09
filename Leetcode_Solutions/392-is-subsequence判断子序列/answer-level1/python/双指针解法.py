@@ -1,11 +1,11 @@
-双指针。
+# 双指针。
 
-指针 `i` 指向 `s` 第一个字符，指针 `j` 指向 `t` 第一个字符。逐一判断 `i` 所指向的字符是否在 `t` 中存在。
+# 指针 `i` 指向 `s` 第一个字符，指针 `j` 指向 `t` 第一个字符。逐一判断 `i` 所指向的字符是否在 `t` 中存在。
 
-- 如果 `s[i] != t[j]`：`j = j + 1`，继续比对下一个字符
-- 如果 `s[i] == t[j]`：`i = i + 1`，`j = j + 1`，继续进行下一个 `s[i]` 的查找
+# - 如果 `s[i] != t[j]`：`j = j + 1`，继续比对下一个字符
+# - 如果 `s[i] == t[j]`：`i = i + 1`，`j = j + 1`，继续进行下一个 `s[i]` 的查找
 
-```python []
+# ```python []
 class Solution(object):
     def isSubsequence(self, s, t):
         """
@@ -25,8 +25,8 @@ class Solution(object):
             j += 1
             
         return i == s_length
-```
-```swift []
+# ```
+# ```swift []
 class Solution {
     func isSubsequence(_ s: String, _ t: String) -> Bool {
         var sLength = s.count
@@ -51,4 +51,4 @@ class Solution {
         return i == sLength
     }
 }
-```
+# ```

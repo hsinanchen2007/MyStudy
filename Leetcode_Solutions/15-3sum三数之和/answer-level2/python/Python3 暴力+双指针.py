@@ -1,6 +1,6 @@
-#### 理解题目
+# #### 理解题目
 
-```
+# ```
 # 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有满足条件且不重复
 # 的三元组。 
 # 
@@ -20,15 +20,15 @@
 #  
 #  Related Topics 数组 双指针
 
-```
-理解：a+b+c=0,且 返回的结果中不能包含重复的三元组
+# ```
+# 理解：a+b+c=0,且 返回的结果中不能包含重复的三元组
 
-#### 解题思路
-* 法1：暴力破解
-* 法2：排序+双指针
+# #### 解题思路
+# * 法1：暴力破解
+# * 法2：排序+双指针
 
-#### 法1
-```Python
+# #### 法1
+# ```Python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         # 法1 暴力破解 a + b + c
@@ -39,14 +39,14 @@ class Solution:
                     if nums[i] + nums[j] + nums[k] == 0:
                         res.append(tuple(sorted((nums[i], nums[j], nums[k]))))
         return list(set(res))
-```
-##### 复杂度分析
-* 时间复杂度:O(n^3)
-* 空间复杂度:O(1)
+# ```
+# ##### 复杂度分析
+# * 时间复杂度:O(n^3)
+# * 空间复杂度:O(1)
 
-#### 法2
+# #### 法2
 
-```Python
+# ```Python
 # 法2：排序+ 双指针遍历 a,b,c  对应指针 --> i, j ,k
         nums.sort()
         res = []
@@ -69,7 +69,7 @@ class Solution:
                     while j < k and nums[j] == nums[j - 1]: j += 1  # 跳过连续一样的数
                     while j < k and nums[k] == nums[k + 1]: k -= 1  # 跳过连续一样的数
         return res
-```
-##### 复杂度分析
-* 时间复杂度:O(n^2)
-* 空间复杂度:O(1)
+# ```
+# ##### 复杂度分析
+# * 时间复杂度:O(n^2)
+# * 空间复杂度:O(1)

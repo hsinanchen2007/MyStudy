@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * 首先利用二分法来寻找问题的答案,
  * 结合以前几道做过的题目进行过的总结可以知道：
@@ -53,4 +53,4 @@ const mySqrt0=x=>{
     return (Math.floor(x));
 };
 
-```
+// ```

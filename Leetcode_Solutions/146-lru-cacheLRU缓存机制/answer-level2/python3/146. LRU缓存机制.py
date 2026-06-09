@@ -1,9 +1,9 @@
-### 解题思路
-LRU（最久未使用淘汰算法）是操作系统内存管理中页面比较有名的淘汰算法。下面是官方提供的第一份代码，用到了有序字典，实现了查找与置换O(1)的时间复杂度。其中要注意的一点是，get操作对于已存在字典中的key来说，会让其重新排序FIFO的顺序，为置换做准备，但若不在字典中，返回的是-1，并不是去put改值；置换操作只发生在put操作，且当前数量>capacity。
+# ### 解题思路
+# LRU（最久未使用淘汰算法）是操作系统内存管理中页面比较有名的淘汰算法。下面是官方提供的第一份代码，用到了有序字典，实现了查找与置换O(1)的时间复杂度。其中要注意的一点是，get操作对于已存在字典中的key来说，会让其重新排序FIFO的顺序，为置换做准备，但若不在字典中，返回的是-1，并不是去put改值；置换操作只发生在put操作，且当前数量>capacity。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import OrderedDict
 
 class LRUCache(OrderedDict):
@@ -36,4 +36,4 @@ class LRUCache(OrderedDict):
         self[key] = value
         if len(self) > self.capacity:
             self.popitem(last=False)
-```
+# ```

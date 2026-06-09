@@ -1,6 +1,6 @@
-执行用时 : 208 ms , 在所有 C 提交中击败了 64.29% 的用户 内存消耗 : 42.9 MB , 在所有 C 提交中击败了 100.00% 的用户
+// 执行用时 : 208 ms , 在所有 C 提交中击败了 64.29% 的用户 内存消耗 : 42.9 MB , 在所有 C 提交中击败了 100.00% 的用户
 
-```
+// ```
 typedef struct {
     int value;
     struct Node *next;
@@ -77,4 +77,4 @@ void maxQueueFree(MaxQueue* obj)
     }
     free(g_maxQ);
 }
-```
+// ```

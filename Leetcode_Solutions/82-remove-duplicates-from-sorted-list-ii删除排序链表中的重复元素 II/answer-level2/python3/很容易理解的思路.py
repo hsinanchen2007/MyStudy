@@ -1,9 +1,9 @@
-这段话只是表达了我对解法的赞美，没有干货，可以直接跳过看代码。
+# 这段话只是表达了我对解法的赞美，没有干货，可以直接跳过看代码。
 
-这道题我挣扎了四天一直，有想法，觉得很简单，但总是写不对。
-下面的解法是参考大神的版本，原本我的思路其实也是如此，只是代码表达有些问题。归根到底只想说提高算法只能靠多练习，多思考啊。
+# 这道题我挣扎了四天一直，有想法，觉得很简单，但总是写不对。
+# 下面的解法是参考大神的版本，原本我的思路其实也是如此，只是代码表达有些问题。归根到底只想说提高算法只能靠多练习，多思考啊。
 
-```swift []
+# ```swift []
 class Solution {
     func deleteDuplicates(_ head: ListNode?) -> ListNode? {
         let head_ = ListNode.init(-1)
@@ -27,8 +27,8 @@ class Solution {
         return head_.next
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         head_ = ListNode(-1)
@@ -46,4 +46,4 @@ class Solution:
                     fast = fast.next
                 slow.next = fast
         return head_.next
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-java用hashmap求解 在比赛的时候的想法是先将arr深拷贝到数组a，然后将a排序，接着遍历arr，找到arr[i]在排
+// ### 解题思路
+// java用hashmap求解 在比赛的时候的想法是先将arr深拷贝到数组a，然后将a排序，接着遍历arr，找到arr[i]在排
 
-序数组a中的位置，其大小为下标加一，但是这种方法时间复杂度为n方，所以会超出时间限制。
+// 序数组a中的位置，其大小为下标加一，但是这种方法时间复杂度为n方，所以会超出时间限制。
 
-因此通过hashmap提高存取速度，key为数组元素，value为元素对应的rank
+// 因此通过hashmap提高存取速度，key为数组元素，value为元素对应的rank
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -34,4 +34,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class MyCircularDeque {
     int[] myqueue ;
     int front;//队头指针
@@ -94,5 +94,5 @@ class MyCircularDeque {
 
     }
 }
-```
+// ```
 

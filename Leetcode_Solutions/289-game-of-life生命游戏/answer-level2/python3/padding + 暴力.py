@@ -1,9 +1,9 @@
-### 解题思路
-暴力
+# ### 解题思路
+# 暴力
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -48,6 +48,6 @@ class Solution:
         for i in range(row_cnt):
             for j in range(colum_cnt):
                 board[i][j] = result_board[i][j]
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/42039b657873b368268a1f79e692e44265da37423017f2c5d7845ef67f6f6440-image.png)
+# ![image.png](https://pic.leetcode-cn.com/42039b657873b368268a1f79e692e44265da37423017f2c5d7845ef67f6f6440-image.png)

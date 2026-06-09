@@ -1,8 +1,8 @@
-### 解题思路
-桶排序
-### 代码
+# ### 解题思路
+# 桶排序
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         max_times = 0
@@ -21,4 +21,4 @@ class Solution:
                 if len(result)==k:
                     return result
 
-```
+# ```

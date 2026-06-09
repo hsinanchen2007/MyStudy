@@ -1,10 +1,10 @@
-### 解题思路
-没搞懂题解一个个写的好难懂，不能说点能听懂的吗？
-我很菜，我就是用队列接收中序遍历的结果，然后复用队列的poll 和 isEmpty方法。
+// ### 解题思路
+// 没搞懂题解一个个写的好难懂，不能说点能听懂的吗？
+// 我很菜，我就是用队列接收中序遍历的结果，然后复用队列的poll 和 isEmpty方法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,4 +53,4 @@ class BSTIterator {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

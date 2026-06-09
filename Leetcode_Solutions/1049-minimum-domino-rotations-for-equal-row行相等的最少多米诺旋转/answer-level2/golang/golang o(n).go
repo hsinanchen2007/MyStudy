@@ -1,7 +1,7 @@
-计算1-6的个数，如果A[i] == B[i] 只要记录一次
+// 计算1-6的个数，如果A[i] == B[i] 只要记录一次
 
-如果某个num的个数等于len(A),说明可以达到目的。然后判断是旋转A还是旋转B就行。
-```
+// 如果某个num的个数等于len(A),说明可以达到目的。然后判断是旋转A还是旋转B就行。
+// ```
 func minDominoRotations(A []int, B []int) int {
 	nums := [7]int{}
 	as := [7]int{}
@@ -32,4 +32,4 @@ func min(x, y int) int {
 }
 
 
-```
+// ```

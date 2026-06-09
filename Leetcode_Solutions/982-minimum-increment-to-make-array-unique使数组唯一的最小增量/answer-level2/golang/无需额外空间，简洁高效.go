@@ -1,5 +1,5 @@
-思路比较简单，话不多说，直接看代码
-```
+// 思路比较简单，话不多说，直接看代码
+// ```
 func minIncrementForUnique(A []int) int {
     if len(A) == 0 {
         return 0
@@ -18,4 +18,4 @@ func minIncrementForUnique(A []int) int {
     }
     return res
 }
-```
+// ```

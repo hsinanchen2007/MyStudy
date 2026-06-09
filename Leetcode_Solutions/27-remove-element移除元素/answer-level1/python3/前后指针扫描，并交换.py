@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -19,10 +19,10 @@ class Solution(object):
         return j+1
             
             
-```
+# ```
 
-优化
-```
+# 优化
+# ```
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -40,5 +40,5 @@ class Solution(object):
                 i += 1
         print(i,j, nums)
         return i
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，二维。dp[i][j]表示已经完成了i个字符并且此时ring[j]指向12点，ring[j]一定等于最后完成的字符。dp[i][j]=min(dp[i-1][j],j的取值满足：令ring[j]等于第i-1个被完成的字符)，其余都是不可能的状态。
+# ### 解题思路
+# 动态规划，二维。dp[i][j]表示已经完成了i个字符并且此时ring[j]指向12点，ring[j]一定等于最后完成的字符。dp[i][j]=min(dp[i-1][j],j的取值满足：令ring[j]等于第i-1个被完成的字符)，其余都是不可能的状态。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:    
     def findRotateSteps(self, ring: str, key: str) -> int:
         '''
@@ -35,4 +35,4 @@ class Solution:
             res=min(res,dp[i][j]) #完成最后字符可能停在多个位置，选择最少的一个，再加上按下中心按钮len(key)次
         return res+len(key)
 
-```
+# ```

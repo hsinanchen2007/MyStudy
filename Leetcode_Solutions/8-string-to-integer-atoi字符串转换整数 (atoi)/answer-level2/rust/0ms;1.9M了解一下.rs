@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/65a4c6ffac7609e192a7abe7de89d5b88ed2a4f88a6e5d1d65c0f34a74ae90ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/65a4c6ffac7609e192a7abe7de89d5b88ed2a4f88a6e5d1d65c0f34a74ae90ac-image.png)
 
-```Rust
+// ```Rust
 impl Solution {
     pub fn my_atoi(str: String) -> i32 {
         let mut negative = false;
@@ -18,4 +18,4 @@ impl Solution {
         else { res as i32 }
     }
 }
-```
+// ```

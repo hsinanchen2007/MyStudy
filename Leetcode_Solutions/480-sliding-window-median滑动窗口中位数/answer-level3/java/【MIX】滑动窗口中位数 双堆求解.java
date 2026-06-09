@@ -1,11 +1,11 @@
-### 解题思路
-1. 需要底层为支持删除操作`remove`的堆(平衡二叉树实现), 维护一个大顶堆和一个小顶堆(Java)
-2. `multiset`和中位数迭代器实现(C++)
-3. 自定义堆`HashHeap`结构(Python)
+// ### 解题思路
+// 1. 需要底层为支持删除操作`remove`的堆(平衡二叉树实现), 维护一个大顶堆和一个小顶堆(Java)
+// 2. `multiset`和中位数迭代器实现(C++)
+// 3. 自定义堆`HashHeap`结构(Python)
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public double[] medianSlidingWindow(int[] nums, int k) {
         int N = nums.length;
@@ -50,8 +50,8 @@ class Solution {
     private PriorityQueue<Integer> pqMax; // 大顶堆
     private PriorityQueue<Integer> pqMin; // 小顶堆
 }
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<double> medianSlidingWindow(vector<int>& nums, int k) {
@@ -83,8 +83,8 @@ public:
         return res;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class HashHeap:
     def __init__(self, desc=False):
         self.hash = dict()
@@ -209,4 +209,4 @@ class Solution:
         else:
             return (self.maxheap.top()[0]+self.minheap.top()[0])/2
 
-```
+// ```

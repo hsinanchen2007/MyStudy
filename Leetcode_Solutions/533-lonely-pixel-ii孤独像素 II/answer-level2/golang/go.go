@@ -1,4 +1,4 @@
-```
+// ```
 func findBlackPixel(picture [][]byte, N int) int {
 	if 0 == len(picture) || 0 == len(picture[0]) {
 		return 0
@@ -30,4 +30,4 @@ func findBlackPixel(picture [][]byte, N int) int {
 	}
 	return out
 }
-```
+// ```

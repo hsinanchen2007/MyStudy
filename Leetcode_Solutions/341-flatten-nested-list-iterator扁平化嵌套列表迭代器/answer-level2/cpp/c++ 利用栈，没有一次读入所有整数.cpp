@@ -1,9 +1,9 @@
-没有在构造函数就把所有整数读出来，应该更符合迭代器要求。
+// 没有在构造函数就把所有整数读出来，应该更符合迭代器要求。
 
-利用两个栈，记录最新的一对[]的begin和end。
+// 利用两个栈，记录最新的一对[]的begin和end。
 
 
-```cpp
+// ```cpp
 class NestedIterator {
 public:
     stack<vector<NestedInteger>::iterator> nests, layer_end;  
@@ -49,4 +49,4 @@ public:
     }
     
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums_hash = {}  # 用于记录原数组中每个数出现的次数
@@ -22,4 +22,4 @@ class Solution:
                     result.append([num, j, dif])
         
         return result
-```
+# ```

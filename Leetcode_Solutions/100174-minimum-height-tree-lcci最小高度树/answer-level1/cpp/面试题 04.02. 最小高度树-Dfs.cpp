@@ -1,5 +1,5 @@
-数组有序，构造平衡二叉树，每个节点的位置与数组之间有明确的对应关系。
-```
+// 数组有序，构造平衡二叉树，每个节点的位置与数组之间有明确的对应关系。
+// ```
 class Solution {
 private:
     void Dfs(TreeNode* &node, int begin, int len, vector<int>& nums)
@@ -19,4 +19,4 @@ public:
         return root;
     }
 };
-```
+// ```

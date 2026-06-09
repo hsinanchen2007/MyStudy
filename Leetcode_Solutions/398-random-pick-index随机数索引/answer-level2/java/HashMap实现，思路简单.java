@@ -1,7 +1,7 @@
-### 解题思路
-利用HashMap实现
-### 代码
-```java
+// ### 解题思路
+// 利用HashMap实现
+// ### 代码
+// ```java
 class Solution {
     HashMap<Integer,List<Integer>> mp = new HashMap<Integer,List<Integer> >();
     public Solution(int[] nums) {

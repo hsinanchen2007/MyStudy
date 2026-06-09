@@ -1,6 +1,6 @@
-左右两个指针初始时在两端，互相逼近，逼近的过程中算出端点处积水量并累加
+// 左右两个指针初始时在两端，互相逼近，逼近的过程中算出端点处积水量并累加
 
-```python []
+// ```python []
 class Solution:
     # 双指针法
     def trap(self, height: List[int]) -> int:
@@ -21,8 +21,8 @@ class Solution:
                 ans += maxright - height[r]
                 r -= 1
         return ans
-```
-```go []
+// ```
+// ```go []
 func trap(height []int) int {
 	ans := 0
 	if height == nil || len(height) <= 0 {
@@ -58,4 +58,4 @@ func min(a int, b int) int {
 		return b
 	}
 }
-```
+// ```

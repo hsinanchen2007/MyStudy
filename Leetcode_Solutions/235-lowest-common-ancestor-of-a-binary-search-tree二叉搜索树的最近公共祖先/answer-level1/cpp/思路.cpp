@@ -1,9 +1,9 @@
-### 解题思路
-利用二叉搜索树的特性来做，dfs也可以做
+// ### 解题思路
+// 利用二叉搜索树的特性来做，dfs也可以做
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ public:
       return cur;
     }
 };
-```
+// ```

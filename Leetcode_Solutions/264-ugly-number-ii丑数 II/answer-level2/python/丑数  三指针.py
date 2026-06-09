@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解
+# ### 解题思路
+# 参考官方题解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Ugly:
     def __init__(self):
         self.nums = dp = [0 for i in range(1691)] #题干说n不超过1690
@@ -23,4 +23,4 @@ class Solution:
     def nthUglyNumber(self, n):
         return self.u.nums[n-1]
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-直接是遍历每个字符，只要在chars中出现了，就替换，于是乎，时间复杂度和空间复杂度暴增。
+// 直接是遍历每个字符，只要在chars中出现了，就替换，于是乎，时间复杂度和空间复杂度暴增。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int len = 0;
@@ -24,4 +24,4 @@ class Solution {
         return word.length();
     }
 }
-```
+// ```

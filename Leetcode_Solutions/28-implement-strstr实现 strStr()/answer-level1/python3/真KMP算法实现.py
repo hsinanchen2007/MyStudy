@@ -1,5 +1,5 @@
-暴力法就不写了，以下是KMP算法的实现，附上一个细致讲解KMP算法的博客(https://www.cnblogs.com/ZuoAndFutureGirl/p/9028287.html)
-```
+# 暴力法就不写了，以下是KMP算法的实现，附上一个细致讲解KMP算法的博客(https://www.cnblogs.com/ZuoAndFutureGirl/p/9028287.html)
+# ```
 class Solution:
     def strStr(self, s: str, p: str) -> int:
         if not p:
@@ -29,4 +29,4 @@ class Solution:
             return i-j
         else:
             return -1
-```
+# ```

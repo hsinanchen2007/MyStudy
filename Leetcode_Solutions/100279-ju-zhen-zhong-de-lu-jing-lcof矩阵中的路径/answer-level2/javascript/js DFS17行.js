@@ -1,5 +1,5 @@
-DFS17行解决战斗
-```js
+// DFS17行解决战斗
+// ```js
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -24,4 +24,4 @@ var exist = function(board, word) {
     }
     return false;
 };
-```
+// ```

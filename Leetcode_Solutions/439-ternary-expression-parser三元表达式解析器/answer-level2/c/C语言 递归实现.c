@@ -1,4 +1,4 @@
-```
+// ```
 char * parseTernary(char * expression){
     char *a = strstr(expression, "?");
     char *b = strstr(expression, ":");
@@ -28,4 +28,4 @@ char * parseTernary(char * expression){
 
     return NULL;    
 }
-```
+// ```

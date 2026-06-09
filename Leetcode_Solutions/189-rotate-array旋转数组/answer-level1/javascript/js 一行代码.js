@@ -1,10 +1,10 @@
-### 解题思路
-1. 从末尾取值
-2. 利用...和unshift拆并入数组
+// ### 解题思路
+// 1. 从末尾取值
+// 2. 利用...和unshift拆并入数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -15,4 +15,4 @@ var rotate = function(nums, k) {
   return nums
 };
 
-```
+// ```

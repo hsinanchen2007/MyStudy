@@ -1,6 +1,6 @@
-动态规划
-思路：初始化第一行和第一列为1,由于第dp[i][j]只能是从左或者上面得到，得到递推公式dp[i][j] = dp[i-1][j]+dp[i][j-1];
-```javascript
+// 动态规划
+// 思路：初始化第一行和第一列为1,由于第dp[i][j]只能是从左或者上面得到，得到递推公式dp[i][j] = dp[i-1][j]+dp[i][j-1];
+// ```javascript
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
@@ -19,4 +19,4 @@ class Solution {
     }
     
 }
-```
+// ```

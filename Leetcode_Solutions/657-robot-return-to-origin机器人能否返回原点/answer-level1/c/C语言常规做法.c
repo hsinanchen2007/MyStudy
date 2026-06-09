@@ -1,4 +1,4 @@
-```c
+// ```c
 bool judgeCircle(char * moves){
     int vertical=0,horizonal=0,i=0;
     while(moves[i]!=0){
@@ -12,4 +12,4 @@ bool judgeCircle(char * moves){
     }
     return (horizonal==0&&vertical==0);
 }
-```
+// ```

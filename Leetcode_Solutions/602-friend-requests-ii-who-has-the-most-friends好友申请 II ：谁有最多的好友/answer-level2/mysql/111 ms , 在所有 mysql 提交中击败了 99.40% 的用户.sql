@@ -1,4 +1,4 @@
-```
+-- ```
 # 直接使用别名, 比官方少了一次包装.
 select requester_id id, count(*) num from (
     select requester_id from request_accepted
@@ -9,4 +9,4 @@ select requester_id id, count(*) num from (
 group by requester_id 
 order by num desc 
 limit 1;
-```
+-- ```

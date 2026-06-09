@@ -1,7 +1,7 @@
 
-![QQ图片20200129165810.png](https://pic.leetcode-cn.com/caea20997a3d0bf310864c53ba8808c26592f3fe02b1ac5d7f2821e3ac8392bd-QQ%E5%9B%BE%E7%89%8720200129165810.png)
+// ![QQ图片20200129165810.png](https://pic.leetcode-cn.com/caea20997a3d0bf310864c53ba8808c26592f3fe02b1ac5d7f2821e3ac8392bd-QQ%E5%9B%BE%E7%89%8720200129165810.png)
 
-```js
+// ```js
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -29,4 +29,4 @@ var strStr = function (haystack, needle) {
     }
     return -1;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1 建立了两个集合，一个map用来统计牌的类型和数量，集合set用来确保map的关键字key不会重复
-2 获得map后，再获取map的值中最小的那个数，作为未知量X的循环的上限（X即题目中的X）
-3 通过遍历X，寻找是否满足题目要求的方式。
-### 代码
+// ### 解题思路
+// 1 建立了两个集合，一个map用来统计牌的类型和数量，集合set用来确保map的关键字key不会重复
+// 2 获得map后，再获取map的值中最小的那个数，作为未知量X的循环的上限（X即题目中的X）
+// 3 通过遍历X，寻找是否满足题目要求的方式。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         Map<Integer,Integer> map=new HashMap<>();
@@ -38,4 +38,4 @@ class Solution {
         //System.out.println(map);
     }
 }
-```
+// ```

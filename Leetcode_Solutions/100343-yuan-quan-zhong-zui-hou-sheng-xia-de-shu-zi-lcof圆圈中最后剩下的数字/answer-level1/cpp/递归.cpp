@@ -1,8 +1,8 @@
-### 解题思路
-    数学大法好呀 ~ ~ ~
-### 代码
+// ### 解题思路
+//     数学大法好呀 ~ ~ ~
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {  
 public:  
     int lastRemaining(int n, int m) {  
@@ -13,4 +13,4 @@ public:
         return (lastRemaining(n-1,m) + m) % n;  
     }  
 };   
-```
+// ```

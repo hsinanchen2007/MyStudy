@@ -1,6 +1,6 @@
-- n = i>>1 不改变i的值    i>>=1 i的值变为原来的1/2
-- n&(n-1)操作会使得n最右边的1变为0
-```
+# - n = i>>1 不改变i的值    i>>=1 i的值变为原来的1/2
+# - n&(n-1)操作会使得n最右边的1变为0
+# ```
 class Solution:
     def hammingWeight(self, n: int) -> int:
         # res = 0
@@ -16,4 +16,4 @@ class Solution:
             n = n&(n-1)
             res+=1
         return res
-```
+# ```

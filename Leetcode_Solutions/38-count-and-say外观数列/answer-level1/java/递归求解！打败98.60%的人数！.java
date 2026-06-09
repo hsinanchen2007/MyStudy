@@ -1,11 +1,11 @@
-### 解题思路
-使用StringBuilder来操作字符串，效率提高了将近9倍！附上图片说明！
+// ### 解题思路
+// 使用StringBuilder来操作字符串，效率提高了将近9倍！附上图片说明！
 
-![image.png](https://pic.leetcode-cn.com/85ce06e628eef48e8ebaa33b27c9653762b28cd63505da41668af9877a0f337c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/85ce06e628eef48e8ebaa33b27c9653762b28cd63505da41668af9877a0f337c-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
                 StringBuilder s = new StringBuilder();
@@ -28,11 +28,11 @@ class Solution {
         return s.toString();
     }
 }
-```
-使用String操作的代码
-![1.png](https://pic.leetcode-cn.com/4475d23193296c3490ad688e7c42f2dd701872d004eacbdfba9f40034301120f-1.png)
+// ```
+// 使用String操作的代码
+// ![1.png](https://pic.leetcode-cn.com/4475d23193296c3490ad688e7c42f2dd701872d004eacbdfba9f40034301120f-1.png)
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         String s = "";
@@ -55,4 +55,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

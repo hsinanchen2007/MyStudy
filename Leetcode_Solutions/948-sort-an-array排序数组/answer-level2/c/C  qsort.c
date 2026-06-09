@@ -1,9 +1,9 @@
-### 解题思路
-1. C语言qsort解决
+// ### 解题思路
+// 1. C语言qsort解决
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -32,4 +32,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize)
     *returnSize = numsSize;
     return newNums;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-先解析成树，然后递归求解。
+// 先解析成树，然后递归求解。
 
-```
+// ```
 struct Node {
     Node(char type) : type(type) {}
     char type;
@@ -63,4 +63,4 @@ public:
         return s;
     }
 };
-```
+// ```

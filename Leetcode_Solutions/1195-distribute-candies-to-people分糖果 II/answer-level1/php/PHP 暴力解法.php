@@ -1,6 +1,6 @@
-数学解法看着脑壳疼
+// 数学解法看着脑壳疼
 
-```php
+// ```php
 class Solution
 {
     /**
@@ -34,4 +34,4 @@ class Solution
         return $result;
     }
 }
-```
+// ```

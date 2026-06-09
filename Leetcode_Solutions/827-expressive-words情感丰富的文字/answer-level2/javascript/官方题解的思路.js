@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} S
  * @param {string[]} words
@@ -37,4 +37,4 @@ function getCode(str) {
     }
     return {code, counts}
 }
-```
+// ```

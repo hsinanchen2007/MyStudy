@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     minimun = None
     def minCut(self, s):
@@ -45,4 +45,4 @@ class Solution(object):
             for candidate in now_pos:
                 next_pos.update(splitable_pos[candidate])
             now_pos = next_pos
-```
+# ```

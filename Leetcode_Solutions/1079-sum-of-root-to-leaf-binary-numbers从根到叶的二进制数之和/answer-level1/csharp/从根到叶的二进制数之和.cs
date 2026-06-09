@@ -1,9 +1,9 @@
-### 解题思路
-结合257题获取所有路径进行求解。
+// ### 解题思路
+// 结合257题获取所有路径进行求解。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -69,4 +69,4 @@ public class Solution {
             return result;
         }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划：dp(x)为从字符串子串为结果的最大索引，所以最后只需要判断最大索引是否==字符串长度-1即可。
+// ### 解题思路
+// 动态规划：dp(x)为从字符串子串为结果的最大索引，所以最后只需要判断最大索引是否==字符串长度-1即可。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool WordBreak(string s, IList<string> wordDict)
         {
@@ -50,4 +50,4 @@ public class Solution {
             }
         }
 }
-```
+// ```

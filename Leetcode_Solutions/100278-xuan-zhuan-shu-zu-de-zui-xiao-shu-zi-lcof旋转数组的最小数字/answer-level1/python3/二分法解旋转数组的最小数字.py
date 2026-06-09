@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minArray(self, numbers):
         if not numbers:
@@ -27,4 +27,4 @@ class Solution:
                 right = mid 
         return numbers[right]
 
-```
+# ```

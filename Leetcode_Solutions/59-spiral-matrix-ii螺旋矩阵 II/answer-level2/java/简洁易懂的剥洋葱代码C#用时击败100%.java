@@ -1,7 +1,7 @@
-参考评论区的大佬https://leetcode-cn.com/problems/spiral-matrix-ii/solution/yang-cong-bian-li-tian-chong-fa-by-mei-de-gan-qing/
+// 参考评论区的大佬https://leetcode-cn.com/problems/spiral-matrix-ii/solution/yang-cong-bian-li-tian-chong-fa-by-mei-de-gan-qing/
 
-优化后的代码如下，主体代码会短一些，总代码偏长是因为前面是C#的交错数组的初始化多的代码。
-```
+// 优化后的代码如下，主体代码会短一些，总代码偏长是因为前面是C#的交错数组的初始化多的代码。
+// ```
 逐个填充，像剥洋葱一样，一圈一圈地去遍历(填充)矩阵
 比如第一圈以（0,0）为起点，以（1,0）为终点，逐圈遍历
 (0,0)-------------------->(0,n)
@@ -11,8 +11,8 @@
   |      |            ↓    |
   |   (n-1,1)<---(n-1,n-1)  ↓
 (n,0)<-------------------(n,n)
-```
-```
+// ```
+// ```
 public class Solution 
 {
     public int[][] GenerateMatrix(int n) 
@@ -36,6 +36,6 @@ public class Solution
         return result;
     }
 }
-```
+// ```
 
-![Snipaste_2019-09-30_10-28-03.png](https://pic.leetcode-cn.com/65dca967409512e3fed873ee01a443c30604fe84ed5a920f3645c1c8ff102ceb-Snipaste_2019-09-30_10-28-03.png)
+// ![Snipaste_2019-09-30_10-28-03.png](https://pic.leetcode-cn.com/65dca967409512e3fed873ee01a443c30604fe84ed5a920f3645c1c8ff102ceb-Snipaste_2019-09-30_10-28-03.png)

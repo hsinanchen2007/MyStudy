@@ -1,4 +1,4 @@
-```
+// ```
 bool isOneBitCharacter(int* bits, int bitsSize){
 if(bits[bitsSize-1]==1)
     return 0;
@@ -14,4 +14,4 @@ if(bits[bitsSize-1]==1)
         return 1;
 }
 
-```
+// ```

@@ -1,7 +1,7 @@
 
-执行用时 : 128 ms, 在Longest Substring Without Repeating Characters的C#提交中击败了96.18% 的用户
-内存消耗 : 23.6 MB, 在Longest Substring Without Repeating Characters的C#提交中击败了39.86% 的用户
-```
+// 执行用时 : 128 ms, 在Longest Substring Without Repeating Characters的C#提交中击败了96.18% 的用户
+// 内存消耗 : 23.6 MB, 在Longest Substring Without Repeating Characters的C#提交中击败了39.86% 的用户
+// ```
 public int LengthOfLongestSubstring(string s)
     {
         int length = 0;//计算结果
@@ -29,4 +29,4 @@ public int LengthOfLongestSubstring(string s)
         }
         return length;
     }
-```
+// ```

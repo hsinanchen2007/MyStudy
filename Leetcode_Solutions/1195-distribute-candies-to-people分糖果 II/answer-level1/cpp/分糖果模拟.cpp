@@ -1,5 +1,5 @@
-很简单的模拟就行了
-```
+// 很简单的模拟就行了
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -20,4 +20,4 @@ public:
         return ans;
     }
 };
-```
+// ```

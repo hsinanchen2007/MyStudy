@@ -1,5 +1,5 @@
-方法1:
-```
+// 方法1:
+// ```
  public int lengthOfLastWord(String s) {
         if (s == null || s.length() == 0) {
             return 0;
@@ -15,10 +15,10 @@
         }
         return length; 
     }
-```
+// ```
 
-方法2: 相对更简洁一些
-```
+// 方法2: 相对更简洁一些
+// ```
 public int lengthOfLastWord(String s) {
        if (s == null || s.length() == 0) {
             return 0;
@@ -29,5 +29,5 @@ public int lengthOfLastWord(String s) {
         String[] split = trim.split(" ");
         return split[split.length - 1].length();
     }
-```
+// ```
 

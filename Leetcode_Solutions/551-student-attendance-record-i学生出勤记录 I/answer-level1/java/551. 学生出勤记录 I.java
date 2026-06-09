@@ -1,14 +1,14 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/23
- *
- * 解题思路: 当 a 大于1 且 连续的l大于2 就不奖励 用参数记录就行 每一步进行判断一次
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/23
+//  *
+//  * 解题思路: 当 a 大于1 且 连续的l大于2 就不奖励 用参数记录就行 每一步进行判断一次
+//  *
+//  */
+// ```
 
 public boolean checkRecord(String s) {
     char[] s_arr = s.toCharArray();
@@ -38,4 +38,4 @@ public boolean checkRecord(String s) {
     }
     return true;
 }
-```
+// ```

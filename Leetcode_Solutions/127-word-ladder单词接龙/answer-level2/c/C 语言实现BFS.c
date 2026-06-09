@@ -1,4 +1,4 @@
-C 语言实现BFS, 判断单词只否符合要求借鉴了前面同学的写法，BFS可以当作模板了
+// C 语言实现BFS, 判断单词只否符合要求借鉴了前面同学的写法，BFS可以当作模板了
 #define MAXLIST 10000
 #include <stdlib.h>
 #include <stdio.h>

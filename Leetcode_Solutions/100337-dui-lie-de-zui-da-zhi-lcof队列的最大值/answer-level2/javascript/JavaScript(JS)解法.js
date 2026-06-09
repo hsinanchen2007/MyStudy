@@ -1,9 +1,9 @@
-### 解题思路
-出队时要判断一下队列是否为空
+// ### 解题思路
+// 出队时要判断一下队列是否为空
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MaxQueue = function () {
     this.queue = [];
     this.maxValue = -1;
@@ -50,4 +50,4 @@ MaxQueue.prototype.pop_front = function () {
  * obj.push_back(value)
  * var param_3 = obj.pop_front()
  */
-```
+// ```

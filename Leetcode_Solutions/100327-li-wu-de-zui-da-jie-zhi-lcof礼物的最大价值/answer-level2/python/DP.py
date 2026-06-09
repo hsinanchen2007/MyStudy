@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxValue(self, grid: List[List[int]]) -> int:
         if not grid:return 0
@@ -13,4 +13,4 @@ class Solution:
             for j in range(1,col+1):
                 dp[i][j] = max(dp[i-1][j],dp[i][j-1])+grid[i-1][j-1]
         return dp[row][col]
-```
+# ```

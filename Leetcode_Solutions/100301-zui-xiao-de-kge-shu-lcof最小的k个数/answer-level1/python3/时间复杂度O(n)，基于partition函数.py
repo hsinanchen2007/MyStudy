@@ -1,9 +1,9 @@
-### 解题思路
-基于partition函数，实现时间复杂度为O(N)，改变了原始数组的顺序
+# ### 解题思路
+# 基于partition函数，实现时间复杂度为O(N)，改变了原始数组的顺序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         if not arr or k<0: return False
@@ -36,4 +36,4 @@ class Solution:
         return small
 
         
-```
+# ```

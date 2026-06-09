@@ -1,9 +1,9 @@
-### 解题思路
-借鉴[@hoorayeah](/u/hoorayeah/) 同学的py3完成的C++版解法。具体思路见注释。
+// ### 解题思路
+// 借鉴[@hoorayeah](/u/hoorayeah/) 同学的py3完成的C++版解法。具体思路见注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countSquares(vector<vector<int>>& mat) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

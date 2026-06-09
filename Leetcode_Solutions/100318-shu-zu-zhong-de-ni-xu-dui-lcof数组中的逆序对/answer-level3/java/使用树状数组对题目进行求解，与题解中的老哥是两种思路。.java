@@ -1,9 +1,9 @@
-    1.使用HashMap记录下每一个数在原来数组的位置，利用LinkedList作为value值，因为一个数可能有多个值，并且保证链表是从大到小的，后面有用
-    2.排序nums数组
-    3.从大到小放入数据
-    4.放入同时query检查前面的数量，用于求解键值对，在这里因为之前的链表是从大到小的，所以后一个拿出的值一定在上一个的前面，所以上一个与他相同的值，并不会影响到键值对从而导致结果错误
+//     1.使用HashMap记录下每一个数在原来数组的位置，利用LinkedList作为value值，因为一个数可能有多个值，并且保证链表是从大到小的，后面有用
+//     2.排序nums数组
+//     3.从大到小放入数据
+//     4.放入同时query检查前面的数量，用于求解键值对，在这里因为之前的链表是从大到小的，所以后一个拿出的值一定在上一个的前面，所以上一个与他相同的值，并不会影响到键值对从而导致结果错误
 
-```
+// ```
 public int reversePairs(int[] nums) {
         HashMap<Integer, LinkedList<Integer>> map = new HashMap<>(nums.length);
         for (int i = 0; i < nums.length; i++) {
@@ -61,4 +61,4 @@ public int reversePairs(int[] nums) {
             return this.sum(index)-this.sum(index-1);
         }
     }
-```
+// ```

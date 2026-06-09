@@ -1,8 +1,8 @@
-####  方法1：DFS + 回溯
+# ####  方法1：DFS + 回溯
 
-**代码：**
+# **代码：**
 
-```python []
+# ```python []
 class Solution:
     def readBinaryWatch(self, num: int) -> List[str]:
         # 范围0:00 ~ 11:59，因此上面最多三个亮，下面最多5个亮。 
@@ -41,4 +41,4 @@ class Solution:
                 minute = set()
 
         return final
-```
+# ```

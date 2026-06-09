@@ -1,6 +1,6 @@
-![DB705703-0E1D-48D2-984B-7AED2FF74843.jpeg](https://pic.leetcode-cn.com/cf8a6a7a184c5aec433912a1c5315ed279906d188cc715c527843e3b293f6dfa-DB705703-0E1D-48D2-984B-7AED2FF74843.jpeg)
+// ![DB705703-0E1D-48D2-984B-7AED2FF74843.jpeg](https://pic.leetcode-cn.com/cf8a6a7a184c5aec433912a1c5315ed279906d188cc715c527843e3b293f6dfa-DB705703-0E1D-48D2-984B-7AED2FF74843.jpeg)
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* middleNode(struct ListNode* head){
     
     return head;
 }
-```
+// ```

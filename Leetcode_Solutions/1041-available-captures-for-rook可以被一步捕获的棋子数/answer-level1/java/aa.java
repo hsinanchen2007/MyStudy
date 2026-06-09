@@ -1,9 +1,9 @@
-### 解题思路
-aa
+// ### 解题思路
+// aa
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int row = board.length,col = board[0].length;
@@ -46,4 +46,4 @@ class Solution {
 
     }
 }
-```
+// ```

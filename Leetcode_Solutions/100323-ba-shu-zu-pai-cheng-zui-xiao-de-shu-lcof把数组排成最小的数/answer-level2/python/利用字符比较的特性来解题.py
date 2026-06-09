@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 from functools import cmp_to_key
 
@@ -29,4 +29,4 @@ class Solution:
         num_strs = list(map(str, nums))
         num_strs = sorted(num_strs, key=cmp_to_key(cmp))
         return ''.join(num_strs)
-```
+# ```

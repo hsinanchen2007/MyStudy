@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-精妙的算法
+// ### 解题思路
+// 此处撰写解题思路
+// 精妙的算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return Max;
     }
 };
-```
+// ```

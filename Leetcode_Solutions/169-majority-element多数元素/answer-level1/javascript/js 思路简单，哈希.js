@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/c58ce3f8b0c349b9c45925b800a594be61155503466da27e22266019c339a4e1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c58ce3f8b0c349b9c45925b800a594be61155503466da27e22266019c339a4e1-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   哈希记录：如果统计到某个数的出现次数大于 n/2，直接返回
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -32,4 +32,4 @@ var majorityElement = function(nums) {
   
   return ans;
 };
-```
+// ```

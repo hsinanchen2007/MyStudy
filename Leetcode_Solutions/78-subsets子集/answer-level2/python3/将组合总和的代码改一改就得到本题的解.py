@@ -1,9 +1,9 @@
-### 解题思路
-类似组合总和的解法
+# ### 解题思路
+# 类似组合总和的解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
@@ -20,4 +20,4 @@ class Solution:
         return res
         
         
-```
+# ```

@@ -1,6 +1,6 @@
-执行用时 :4 ms, 击败了100.00%的用户.
-内存消耗 :34.3 MB, 击败了100.00%的用户.
-```
+// 执行用时 :4 ms, 击败了100.00%的用户.
+// 内存消耗 :34.3 MB, 击败了100.00%的用户.
+// ```
 class Solution {
     public boolean isValid(String code) {
         if(!(code.startsWith("<") && code.endsWith(">"))){
@@ -84,4 +84,4 @@ class Solution {
        return stack.isEmpty();
     }
 }
-```
+// ```

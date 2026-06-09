@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/43f8a8c80c0abe5d8c9657300a9701d903dec412eda61566ea1b2b1641f5752e-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/43f8a8c80c0abe5d8c9657300a9701d903dec412eda61566ea1b2b1641f5752e-image.png)
+// ```
 /**
      * 比较难确定的是最后一个0复制的次数。采用flag进行标记，如果是只复制了一次就满了，则flag=1；如果是复制了两次，则flag=0
      * @param arr
@@ -37,4 +37,4 @@ public  void duplicateZeros(int[] arr) {
                 }
             }
         }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-判断元素出现频数的奇偶性，并作出相应的处理。
+# ### 解题思路
+# 判断元素出现频数的奇偶性，并作出相应的处理。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         dico = collections.Counter(s)
@@ -16,4 +16,4 @@ class Solution:
                 ans += j-1
                 judge = 1
         return ans + judge
-```
+# ```

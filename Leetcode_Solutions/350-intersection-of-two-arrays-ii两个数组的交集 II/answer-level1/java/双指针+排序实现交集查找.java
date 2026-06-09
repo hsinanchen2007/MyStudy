@@ -1,9 +1,9 @@
-### 解题思路
-双指针+排序实现交集查找
+// ### 解题思路
+// 双指针+排序实现交集查找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         //两个数组进行从小到大排序
@@ -29,4 +29,4 @@ class Solution {
     }
 
 }
-```
+// ```

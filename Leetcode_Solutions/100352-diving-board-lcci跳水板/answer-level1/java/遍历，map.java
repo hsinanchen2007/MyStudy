@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍
+// ### 解题思路
+// 遍历一遍
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int[] divingBoard(int shorter, int longer, int k) {
@@ -26,4 +26,4 @@ class Solution {
         return re;
     }
 }
-```
+// ```

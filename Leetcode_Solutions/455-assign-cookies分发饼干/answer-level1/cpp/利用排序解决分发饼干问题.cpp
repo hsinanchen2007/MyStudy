@@ -1,6 +1,6 @@
 
-将s和g按从小到大排序，然后分发饼干
-```cpp
+// 将s和g按从小到大排序，然后分发饼干
+// ```cpp
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -21,4 +21,4 @@ public:
     }
 };
 
-```
+// ```

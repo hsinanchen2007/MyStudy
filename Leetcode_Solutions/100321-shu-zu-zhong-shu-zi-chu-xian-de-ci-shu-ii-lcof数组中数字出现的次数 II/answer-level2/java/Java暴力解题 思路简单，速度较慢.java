@@ -1,9 +1,9 @@
-### 解题思路
-找到次数为1那个便可以输出
+// ### 解题思路
+// 找到次数为1那个便可以输出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         int i,j;
@@ -22,4 +22,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

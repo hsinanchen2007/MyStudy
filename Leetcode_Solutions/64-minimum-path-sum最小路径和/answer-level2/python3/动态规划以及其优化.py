@@ -1,9 +1,9 @@
-### 解题思路
-动态规划的优化方法,空间复杂度O(m+n)
+# ### 解题思路
+# 动态规划的优化方法,空间复杂度O(m+n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         m = len(grid)
@@ -22,4 +22,4 @@ class Solution:
                 dp[j] = min(dp[j-1], dp[j]) + grid[i][j]
         return dp[-1]
 
-```
+# ```

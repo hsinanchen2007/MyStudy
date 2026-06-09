@@ -1,4 +1,4 @@
-```
+// ```
 func averageOfLevels(root *TreeNode) []float64 {
 	var (
 		queue []*TreeNode
@@ -27,10 +27,10 @@ func averageOfLevels(root *TreeNode) []float64 {
 	}
 	return ans
 }
-```
+// ```
 
 
-```
+// ```
 //闭包
 func averageOfLevels(root *TreeNode) []float64 {
 	var (
@@ -69,9 +69,9 @@ func averageOfLevels(root *TreeNode) []float64 {
 	}
 	return ans
 }
-```
+// ```
 
-```
+// ```
 func averageOfLevels(root *TreeNode) []float64 {
 	var (
 		curl, nextl []*TreeNode
@@ -95,5 +95,5 @@ func averageOfLevels(root *TreeNode) []float64 {
 	}
 	return ans
 }
-```
+// ```
 

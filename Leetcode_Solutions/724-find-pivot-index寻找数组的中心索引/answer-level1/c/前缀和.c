@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int pivotIndex(int* nums, int numsSize){
     
     if(numsSize == 0) {
@@ -22,4 +22,4 @@ int pivotIndex(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```

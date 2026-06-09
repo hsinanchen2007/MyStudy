@@ -1,5 +1,5 @@
 
-```js
+// ```js
 var buildTree = function(inorder, postorder) {
     if(inorder.length == 0  || postorder.length == 0) return null
     let root = {
@@ -17,4 +17,4 @@ var buildTree = function(inorder, postorder) {
 
     return root
 };
-```
+// ```

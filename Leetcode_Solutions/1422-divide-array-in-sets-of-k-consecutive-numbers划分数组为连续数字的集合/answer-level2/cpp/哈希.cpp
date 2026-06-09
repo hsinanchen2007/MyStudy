@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:               //思路是一样的，可是解题方面，换位思考不如别人
     bool isPossibleDivide(vector<int>& nums, int k) {
@@ -37,4 +37,4 @@ public:               //思路是一样的，可是解题方面，换位思考�
         return true;
     }
 };
-```
+// ```

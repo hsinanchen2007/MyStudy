@@ -1,5 +1,5 @@
-借鉴楼上的逆向思维法
-```
+# 借鉴楼上的逆向思维法
+# ```
 class Solution:
     def hitBricks(self, grid: List[List[int]], hits: List[List[int]]) -> List[int]:
         m,n = len(grid),len(grid[0])
@@ -42,4 +42,4 @@ class Solution:
                                 queue.append((a,b))
             res.insert(0,remain)
         return res
-```
+# ```

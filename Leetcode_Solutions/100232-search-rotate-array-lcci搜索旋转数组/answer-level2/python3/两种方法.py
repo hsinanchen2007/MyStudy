@@ -1,11 +1,11 @@
-### 解题思路
-方法1: 分成两段有序数组进行二分, 查找分割点也采用二分查找
-方法2: 直接二分查找, 需要判断哪部分有序, 注意如果和某端点相等的话只能确保端点不是结果, 只能端点往里移动1, 因为和端点相等时不能确定左边或右边有序
+# ### 解题思路
+# 方法1: 分成两段有序数组进行二分, 查找分割点也采用二分查找
+# 方法2: 直接二分查找, 需要判断哪部分有序, 注意如果和某端点相等的话只能确保端点不是结果, 只能端点往里移动1, 因为和端点相等时不能确定左边或右边有序
 
-### 代码
+# ### 代码
 
-方法1:
-```python
+# 方法1:
+# ```python
 class Solution:
     def search(self, arr: List[int], target: int) -> int:
         split = -1
@@ -65,10 +65,10 @@ class Solution:
         else:
             res = min(bsearch(0, split), bsearch(split + 1, n - 1))
         return -1 if res == float('inf') else res
-```
+# ```
 
-方法2:
-```python
+# 方法2:
+# ```python
 class Solution:
     def search(self, arr: List[int], target: int) -> int:
         s, e = 0, len(arr) - 1
@@ -117,4 +117,4 @@ class Solution:
                 else:
                     s += 1
         return -1 if res == float('inf') else res
-```
+# ```

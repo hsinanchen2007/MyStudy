@@ -1,5 +1,5 @@
 
-```
+// ```
 class MaxQueue {
     
     private int[] data;
@@ -41,4 +41,4 @@ class MaxQueue {
     }
     
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![1153.png](https://pic.leetcode-cn.com/e2051a8651270e36563539f283b21e31ce23923653f88d1a24e1504c94cf74b5-1153.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![1153.png](https://pic.leetcode-cn.com/e2051a8651270e36563539f283b21e31ce23923653f88d1a24e1504c94cf74b5-1153.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRollsToTarget(int d, int f, int target) {
@@ -58,4 +58,4 @@ public:
         return LLRes;
     }
 };
-```
+// ```

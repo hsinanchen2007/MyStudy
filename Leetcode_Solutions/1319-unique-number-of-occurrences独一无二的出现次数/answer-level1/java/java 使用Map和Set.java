@@ -1,9 +1,9 @@
-### 解题思路
-map记录元素的次数，set判断是否相同。
+// ### 解题思路
+// map记录元素的次数，set判断是否相同。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

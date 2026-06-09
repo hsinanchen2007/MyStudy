@@ -1,9 +1,9 @@
-### 解题思路
-先对源数组进行排序，然后定义两个数组，一个数组记录新集合的第一个值，第二个数组记录模拟值
+// ### 解题思路
+// 先对源数组进行排序，然后定义两个数组，一个数组记录新集合的第一个值，第二个数组记录模拟值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
         if(nums.length%k!=0){
@@ -35,4 +35,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

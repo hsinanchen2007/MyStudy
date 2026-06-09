@@ -1,17 +1,17 @@
-#### 算法流程：
+# #### 算法流程：
 
-1. 特判，对于数组长度 $n$ ，如果 $n == 3$ ，返回 $sum(nums)$ 。
-2. 对数组进行排序。
-3. 遍历排序后数组：
-   - 对于重复元素：跳过，优化执行时间；
-   - 令左指针 $L = i + 1$，右指针 $R = n - 1$，当 $L < R$ 时，执行循环：
-     - 计算 $nums[i] + nums[L] + nums[R]$  三数和，以及与 $target$ 的差 $diff$
-     - 如果 $diff$ 的绝对值比 $minDiff$ 小，那么更新 $minDiff$ 和 $closestSum$
-     - 如果 $diff == 0$，说明已经找到最接近 $target$ 的和，直接返回
-     - 如果 $diff < 0$，说明 $threeSum < target$，$ L$ 右移
-     - 如果 $diff > 0$，说明 $threeSum > target$，$R$ 左移
+# 1. 特判，对于数组长度 $n$ ，如果 $n == 3$ ，返回 $sum(nums)$ 。
+# 2. 对数组进行排序。
+# 3. 遍历排序后数组：
+#    - 对于重复元素：跳过，优化执行时间；
+#    - 令左指针 $L = i + 1$，右指针 $R = n - 1$，当 $L < R$ 时，执行循环：
+#      - 计算 $nums[i] + nums[L] + nums[R]$  三数和，以及与 $target$ 的差 $diff$
+#      - 如果 $diff$ 的绝对值比 $minDiff$ 小，那么更新 $minDiff$ 和 $closestSum$
+#      - 如果 $diff == 0$，说明已经找到最接近 $target$ 的和，直接返回
+#      - 如果 $diff < 0$，说明 $threeSum < target$，$ L$ 右移
+#      - 如果 $diff > 0$，说明 $threeSum > target$，$R$ 左移
 
-```
+# ```
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         # 特判：n=3，返回sum(nums)
@@ -51,4 +51,4 @@ class Solution:
                     while(L<R and nums[R]==nums[R+1]):
                         R -= 1
         return closestSum
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针，一个在前面，一个在后面。
+// ### 解题思路
+// 双指针，一个在前面，一个在后面。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result=new int[2];
@@ -23,4 +23,4 @@ class Solution {
         
     }
 }
-```
+// ```

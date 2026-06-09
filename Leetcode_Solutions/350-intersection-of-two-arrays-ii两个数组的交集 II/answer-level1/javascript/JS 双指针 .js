@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var intersect = function(nums1, nums2) {
     nums1.sort((a, b) => a - b)
     nums2.sort((a, b) => a - b)
@@ -20,6 +20,6 @@ var intersect = function(nums1, nums2) {
     }
     return res
 };
-```
-时间复杂度：O(nlogn)
-空间复杂度：O(Min(n, m))
+// ```
+// 时间复杂度：O(nlogn)
+// 空间复杂度：O(Min(n, m))

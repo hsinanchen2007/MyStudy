@@ -1,9 +1,9 @@
-### 解题思路
-1.用m数组来计数出现过的元素，并且发现相对应的数字时增加b值并消除计数。
+// ### 解题思路
+// 1.用m数组来计数出现过的元素，并且发现相对应的数字时增加b值并消除计数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -18,4 +18,4 @@ public:
         return to_string(a) + "A" + to_string(b) + "B";
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 字符数组传入HahMap
-2. 若Map中无此字符，先进行初始化，次数置1
-3. 若有此字符，则修改对应键的值，对次数加1
+// ### 解题思路
+// 1. 字符数组传入HahMap
+// 2. 若Map中无此字符，先进行初始化，次数置1
+// 3. 若有此字符，则修改对应键的值，对次数加1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class WordsFrequency {
     HashMap<String,Integer> map = new HashMap<>();
     public WordsFrequency(String[] book) {
@@ -27,4 +27,4 @@ class WordsFrequency {
  * WordsFrequency obj = new WordsFrequency(book);
  * int param_1 = obj.get(word);
  */
-```
+// ```

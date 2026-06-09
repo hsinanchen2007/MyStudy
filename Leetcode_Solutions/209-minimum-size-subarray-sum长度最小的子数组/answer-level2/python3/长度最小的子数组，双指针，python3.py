@@ -1,13 +1,13 @@
-### 解题思路
-start = 0
-end从1开始
-索引start到end的nums累加和记为temp
-如果temp<target: end += 1
-否则累加start，更新temp，直到temp小于target
-更新res
-### 代码
+# ### 解题思路
+# start = 0
+# end从1开始
+# 索引start到end的nums累加和记为temp
+# 如果temp<target: end += 1
+# 否则累加start，更新temp，直到temp小于target
+# 更新res
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         if not nums:
@@ -33,4 +33,4 @@ class Solution:
             return 0
         return res
                 
-```
+# ```

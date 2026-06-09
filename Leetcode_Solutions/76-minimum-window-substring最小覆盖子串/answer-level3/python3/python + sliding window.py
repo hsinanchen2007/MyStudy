@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if len(t) > len(s): return ""
@@ -24,4 +24,4 @@ class Solution:
                     length = i - pre + 1
                     end = i
         return s[end - length + 1: end + 1] if length != float('inf') else ''
-```
+# ```

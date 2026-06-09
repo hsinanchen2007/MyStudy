@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int
 cmpint(const void *p1, const void *p2)
 {
@@ -23,4 +23,4 @@ int minIncrementForUnique(int *A, int ASize)
         }
         return rc;
 }
-```
+// ```

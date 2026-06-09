@@ -1,6 +1,6 @@
-用了内置库，不用内置库用纯数组也可以实现，就是`insert(0, value) pop(0)`比`appendleft(value) popleft()`略慢点，其他基本差不多。
+# 用了内置库，不用内置库用纯数组也可以实现，就是`insert(0, value) pop(0)`比`appendleft(value) popleft()`略慢点，其他基本差不多。
 
-```python []
+# ```python []
 class MyCircularDeque:
 
     def __init__(self, k: int):
@@ -29,7 +29,7 @@ class MyCircularDeque:
 
     def isFull(self) -> bool:
         return len(self.q) == self.q.maxlen
-```
+# ```
 
 
-![image.png](https://pic.leetcode-cn.com/3fbae6e689da6f4006e2a0cee11de69b87054c4de1150a563b902c4c02b8b794-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3fbae6e689da6f4006e2a0cee11de69b87054c4de1150a563b902c4c02b8b794-image.png)

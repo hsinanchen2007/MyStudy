@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先造一个空的结点，后续比较好理解一些，代码简单，不多说。
+// 先造一个空的结点，后续比较好理解一些，代码简单，不多说。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
 
     }
 }
-```
+// ```

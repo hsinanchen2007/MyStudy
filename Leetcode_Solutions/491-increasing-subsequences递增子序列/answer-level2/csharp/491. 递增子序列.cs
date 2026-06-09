@@ -1,10 +1,10 @@
-### 解题思路
-深度优先算法/回溯法
-每一层回溯记录追加的最后一个数字到Set，避免这一层发生重复；
+// ### 解题思路
+// 深度优先算法/回溯法
+// 每一层回溯记录追加的最后一个数字到Set，避免这一层发生重复；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> FindSubsequences(int[] nums) {
         var current = new List<int>();
@@ -32,4 +32,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

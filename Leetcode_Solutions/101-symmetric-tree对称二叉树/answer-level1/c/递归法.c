@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-递归，判断两节点是否对称，注意：左节点的左侧和右节点的右侧比较是否相等，左节点的右侧和右节点的左侧比较是否相等
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 递归，判断两节点是否对称，注意：左节点的左侧和右节点的右侧比较是否相等，左节点的右侧和右节点的左侧比较是否相等
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ bool isSymmetric(struct TreeNode* root){
         return isEqual(root->left, root->right);
     }
 }
-```
+// ```

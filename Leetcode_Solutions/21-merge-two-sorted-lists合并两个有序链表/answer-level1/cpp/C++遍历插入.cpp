@@ -1,11 +1,11 @@
-### 解题思路
-//刚看完数据结构的链表部分，做这个题做的心态崩了。
-//谁在跟我说C++指针特别有趣我就跟谁急
-![图片2.jpg](https://pic.leetcode-cn.com/31ae6a864adcfefdf8e31925ca066a4dbe7913b8bf5a392126dee80f3192a0b1-%E5%9B%BE%E7%89%872.jpg)
+// ### 解题思路
+// //刚看完数据结构的链表部分，做这个题做的心态崩了。
+// //谁在跟我说C++指针特别有趣我就跟谁急
+// ![图片2.jpg](https://pic.leetcode-cn.com/31ae6a864adcfefdf8e31925ca066a4dbe7913b8bf5a392126dee80f3192a0b1-%E5%9B%BE%E7%89%872.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ public:
         return rec;   //返回l1链表
     }
 };
-```
+// ```

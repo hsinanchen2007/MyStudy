@@ -1,9 +1,9 @@
-### 解题思路
-头插法建立单链表
+// ### 解题思路
+// 头插法建立单链表
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

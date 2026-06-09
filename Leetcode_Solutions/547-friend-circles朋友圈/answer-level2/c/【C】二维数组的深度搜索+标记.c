@@ -1,7 +1,7 @@
-思路如标题。
-![image.png](https://pic.leetcode-cn.com/9dab698a5981ede5fc8ff4792565a262898d4a9e8f040d38ba65d0311b59f330-image.png)
+// 思路如标题。
+// ![image.png](https://pic.leetcode-cn.com/9dab698a5981ede5fc8ff4792565a262898d4a9e8f040d38ba65d0311b59f330-image.png)
 
-```
+// ```
 void DepthSearch(int **M, int row, int col, int *flag, int Size)
 {
     if (M[row][col] == 1 && flag[col] == 0) {
@@ -36,4 +36,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     free(flag);
  return ret;
 }
-```
+// ```

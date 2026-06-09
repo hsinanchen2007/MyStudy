@@ -1,7 +1,7 @@
-**层次遍历的思想：**
-**1.每次从两个树中各取一个节点（记为node1, node2）入队;**
-**2.出队时将两个节点值相加，并判断node1和node2的左子树是否为空，若两个左子树都不空，直接入队；若有一个为空，新建一个val为0的节点，然后入队；若两个的左子树都为空，pass。右子树的判断同理。**
-```
+// **层次遍历的思想：**
+// **1.每次从两个树中各取一个节点（记为node1, node2）入队;**
+// **2.出队时将两个节点值相加，并判断node1和node2的左子树是否为空，若两个左子树都不空，直接入队；若有一个为空，新建一个val为0的节点，然后入队；若两个的左子树都为空，pass。右子树的判断同理。**
+// ```
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2)
@@ -44,9 +44,9 @@ public:
         return t1;
     }
 };
-```
-**递归**
-```
+// ```
+// **递归**
+// ```
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2)
@@ -61,4 +61,4 @@ public:
         return t1;
     }
 };
-```
+// ```

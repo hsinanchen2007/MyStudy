@@ -1,9 +1,9 @@
-### 解题思路
-参考了官网的思路和甜姨的解答
+// ### 解题思路
+// 参考了官网的思路和甜姨的解答
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         //初始状态
@@ -79,4 +79,4 @@ class Solution {
         public abstract StateEnum next(char c);
     }
 }
-```
+// ```

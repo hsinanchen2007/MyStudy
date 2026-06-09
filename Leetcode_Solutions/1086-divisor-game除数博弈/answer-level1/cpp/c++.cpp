@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int isRight(int x,int y){
@@ -24,4 +24,4 @@ public:
 		return false;
     }
 };
-```
+// ```

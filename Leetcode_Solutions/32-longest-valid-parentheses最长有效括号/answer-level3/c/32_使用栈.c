@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
 	typedef struct {
@@ -45,4 +45,4 @@ public :
 		return max;
 	}
 };
-```
+// ```

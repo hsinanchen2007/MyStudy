@@ -1,9 +1,9 @@
-### 解题思路
-Keep iterating until no more candies available.
+// ### 解题思路
+// Keep iterating until no more candies available.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DistributeCandies(int candies, int num_people) {
         int[] candiesDistribution = new int[num_people];
@@ -24,4 +24,4 @@ public class Solution {
         return candiesDistribution;
     }
 }
-```
+// ```

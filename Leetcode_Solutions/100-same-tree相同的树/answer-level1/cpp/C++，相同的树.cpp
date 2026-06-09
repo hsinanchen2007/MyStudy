@@ -1,10 +1,10 @@
-### 解题思路
-相同的树：根节点相同，左右子树分别相同
-tips: 两个空树是same trees
+// ### 解题思路
+// 相同的树：根节点相同，左右子树分别相同
+// tips: 两个空树是same trees
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -20,4 +20,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     if (p == NULL || q == NULL || (p->val != q->val)) return false;
     return (isSameTree(p->left, q->left) & isSameTree(p->right, q->right));
 }
-```
+// ```

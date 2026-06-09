@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> sequentialDigits(int low, int high) {
@@ -19,5 +19,5 @@ public:
         return res;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/63487b5832c60ac274d9399c5bec57f500e32952d418356c397ad7ec71b6be0f-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/63487b5832c60ac274d9399c5bec57f500e32952d418356c397ad7ec71b6be0f-1.png)

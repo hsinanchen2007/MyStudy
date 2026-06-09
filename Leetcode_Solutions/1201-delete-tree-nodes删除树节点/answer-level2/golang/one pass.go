@@ -1,4 +1,4 @@
-```
+// ```
 func deleteTreeNodes(nodes int, parent []int, value []int) int {
 	t := make([]int, nodes)
 	for i := nodes - 1; i > 0; i-- {
@@ -13,4 +13,4 @@ func deleteTreeNodes(nodes int, parent []int, value []int) int {
 	}
 	return 0
 }
-```
+// ```

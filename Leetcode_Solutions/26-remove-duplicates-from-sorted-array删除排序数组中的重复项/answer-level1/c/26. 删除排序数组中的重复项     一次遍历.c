@@ -1,10 +1,10 @@
-### 解题思路
-利用是排序数组，遇到不同肯定是新的元素
-遍历一遍所有不同即可
+// ### 解题思路
+// 利用是排序数组，遇到不同肯定是新的元素
+// 遍历一遍所有不同即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int removeDuplicates(int* nums, int numsSize){
 
@@ -20,4 +20,4 @@ int removeDuplicates(int* nums, int numsSize){
     }
     return k;
 }
-```
+// ```

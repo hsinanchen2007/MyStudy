@@ -1,4 +1,4 @@
-```
+// ```
 var findLengthOfLCIS = function(nums) {
   let max = 0;
   let temp = 1;
@@ -12,4 +12,4 @@ var findLengthOfLCIS = function(nums) {
   }
     return max
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-引用2个哨兵结点 一个为奇结点服务 一个为偶结点服务 
-遍历   奇结点连接奇结点(oddNext = odd.next.next) 偶结点连接偶结点 当奇结点或偶结点有一方的next为null时退出
-然后 将它们连接起来 odd.next = dummyHead2.next;
+// ### 解题思路
+// 引用2个哨兵结点 一个为奇结点服务 一个为偶结点服务 
+// 遍历   奇结点连接奇结点(oddNext = odd.next.next) 偶结点连接偶结点 当奇结点或偶结点有一方的next为null时退出
+// 然后 将它们连接起来 odd.next = dummyHead2.next;
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -40,4 +40,4 @@ var oddEvenList = function(head) {
   odd.next = dummyHead2.next;
   return dummyHead1.next;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-每次确保下一次能走的步数最大，贪心算法。
+// ### 解题思路
+// 每次确保下一次能走的步数最大，贪心算法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int jump(int* nums, int numsSize){
     if (numsSize < 2) {
         return 0;
@@ -23,4 +23,4 @@ int jump(int* nums, int numsSize){
     }
     return res;
 }
-```
+// ```

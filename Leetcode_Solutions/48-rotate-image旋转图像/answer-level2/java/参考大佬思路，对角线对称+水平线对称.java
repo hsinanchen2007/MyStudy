@@ -1,28 +1,28 @@
-# 旋转图像
+// # 旋转图像
 
-> 给定一个 n × n 的二维矩阵表示一个图像。
-> 将图像顺时针旋转 90 度。
-> 说明：
-> 你必须在原地旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要使用另一个矩阵来旋转图像。
+// > 给定一个 n × n 的二维矩阵表示一个图像。
+// > 将图像顺时针旋转 90 度。
+// > 说明：
+// > 你必须在原地旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要使用另一个矩阵来旋转图像。
 
-> 示例 1:
-> 给定 matrix =  [  
->  [1,2,3],   
-> 	[4,5,6],  
-> 	[7,8,9] ],
-> 原地旋转输入矩阵，使其变为: [  
->  [7,4,1],  
-> [8,5,2],  
-> 	[9,6,3] ]
-> 
-> 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/rotate-image
+// > 示例 1:
+// > 给定 matrix =  [  
+// >  [1,2,3],   
+// > 	[4,5,6],  
+// > 	[7,8,9] ],
+// > 原地旋转输入矩阵，使其变为: [  
+// >  [7,4,1],  
+// > [8,5,2],  
+// > 	[9,6,3] ]
+// > 
+// > 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/rotate-image
 
-参考 [大佬的思路](https://leetcode-cn.com/problems/rotate-image/solution/zi-wai-xiang-nei-shun-shi-zhen-xun-huan-jiao-huan-/)  可以将 90度 翻转分为两个部分：对角线对称翻转、水平线对称翻转。
-![流程](https://pic.leetcode-cn.com/3278a9f8fd5180167a0876d3033043733568574db2a094bb2c0d6819699f0120.png)
-注意对角线翻转坐标的规律：（ row, col ）——> ( n-col-1, n-row-1 )
+// 参考 [大佬的思路](https://leetcode-cn.com/problems/rotate-image/solution/zi-wai-xiang-nei-shun-shi-zhen-xun-huan-jiao-huan-/)  可以将 90度 翻转分为两个部分：对角线对称翻转、水平线对称翻转。
+// ![流程](https://pic.leetcode-cn.com/3278a9f8fd5180167a0876d3033043733568574db2a094bb2c0d6819699f0120.png)
+// 注意对角线翻转坐标的规律：（ row, col ）——> ( n-col-1, n-row-1 )
 
-水平翻转坐标规律：( row,col ) ——> (n-row-1,col)
-```java
+// 水平翻转坐标规律：( row,col ) ——> (n-row-1,col)
+// ```java
  public void rotate(int[][] matrix) {
         if (matrix == null) {
             return;
@@ -47,4 +47,4 @@
         matrix[row1][col1] = matrix[row2][col2];
         matrix[row2][col2] = temp;
     }
-```
+// ```

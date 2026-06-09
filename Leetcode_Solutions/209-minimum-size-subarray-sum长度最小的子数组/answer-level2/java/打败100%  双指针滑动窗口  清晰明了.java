@@ -1,10 +1,10 @@
-### 解题思路
-![1585840966(1).png](https://pic.leetcode-cn.com/ef46e45d0c85b3d00caa625fb665279a82127fcf8add4c3b51fb5170e844b7fb-1585840966\(1\).png)
+// ### 解题思路
+// ![1585840966(1).png](https://pic.leetcode-cn.com/ef46e45d0c85b3d00caa625fb665279a82127fcf8add4c3b51fb5170e844b7fb-1585840966\(1\).png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
     	int len=nums.length;
@@ -27,4 +27,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

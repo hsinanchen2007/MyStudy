@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3aaf57476334be09da3276ecc2b159f07e3265db9494cc0ac836bbfe169766e9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3aaf57476334be09da3276ecc2b159f07e3265db9494cc0ac836bbfe169766e9-image.png)
 
 
-```
+# ```
 '''
 利用KMP算法求解
 
@@ -45,4 +45,4 @@ class Solution:
         return s[match_len:][::-1] + s
 
 print(Solution().shortestPalindrome('aacecaaa'))
-```
+# ```

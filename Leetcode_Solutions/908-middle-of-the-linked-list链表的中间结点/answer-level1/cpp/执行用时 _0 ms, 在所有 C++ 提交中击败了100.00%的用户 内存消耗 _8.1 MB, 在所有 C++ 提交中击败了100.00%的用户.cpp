@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -23,4 +23,4 @@ public:
         return temp;
     }
 };
-```
+// ```

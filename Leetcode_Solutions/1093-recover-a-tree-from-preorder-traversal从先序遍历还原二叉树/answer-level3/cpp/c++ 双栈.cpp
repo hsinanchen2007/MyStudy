@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/99cf2986d4e4c197e385586f5bb47a0331598acc28e1d463b85931923bd7b2d7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/99cf2986d4e4c197e385586f5bb47a0331598acc28e1d463b85931923bd7b2d7-image.png)
 
 
-```c++
+// ```c++
 class Solution {
 private:
     vector<int> data, level;
@@ -66,4 +66,4 @@ public:
         return sum;
     }
 };
-```
+// ```

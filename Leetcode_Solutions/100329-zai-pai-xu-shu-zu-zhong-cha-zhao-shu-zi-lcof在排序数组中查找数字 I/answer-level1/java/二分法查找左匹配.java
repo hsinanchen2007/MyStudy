@@ -1,12 +1,12 @@
-### 解题思路
-题目四排序数组，首先想到的就是二分法；找到左匹配位置，向后挨个匹配，直到不一致结束。
+// ### 解题思路
+// 题目四排序数组，首先想到的就是二分法；找到左匹配位置，向后挨个匹配，直到不一致结束。
 
-![image.png](https://pic.leetcode-cn.com/ff020ccc0bb3dedc481a3b780231bddce893968d168ae599f54f8e27f35ef607-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ff020ccc0bb3dedc481a3b780231bddce893968d168ae599f54f8e27f35ef607-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         // 异常情况
@@ -40,4 +40,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

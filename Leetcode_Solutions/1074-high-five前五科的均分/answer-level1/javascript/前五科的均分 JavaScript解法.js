@@ -1,9 +1,9 @@
-### 解题思路
-直接利用数组API暴力解题。。。
+// ### 解题思路
+// 直接利用数组API暴力解题。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} items
  * @return {number[][]}
@@ -23,4 +23,4 @@ var highFive = function(items) {
     const result = scores.map((s, i) => [i + 1, s]);
 	return result;
 };
-```
+// ```

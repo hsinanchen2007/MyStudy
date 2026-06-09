@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-还是空间换时间吧
+// 还是空间换时间吧
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -39,4 +39,4 @@ var longestPalindrome = function(s) {
     }
     return allEven + maxOdd
 };
-```
+// ```

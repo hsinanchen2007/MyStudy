@@ -1,11 +1,11 @@
-### 解题思路
-priority queue里存的是pair
-1、将string导到map中实现统计次数；
-2、将map导到优先队列(最大堆)中实现从大到小排序； 队列是push()和pop()
-3、将优先队列导到string中存储结果
-### 代码
+// ### 解题思路
+// priority queue里存的是pair
+// 1、将string导到map中实现统计次数；
+// 2、将map导到优先队列(最大堆)中实现从大到小排序； 队列是push()和pop()
+// 3、将优先队列导到string中存储结果
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 #include <string>
 #include <vector>
@@ -54,4 +54,4 @@ int main()
     return 0;
 }
 */
-```
+// ```

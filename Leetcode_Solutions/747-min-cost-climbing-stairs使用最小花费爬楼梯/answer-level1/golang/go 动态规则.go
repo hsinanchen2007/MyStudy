@@ -1,5 +1,5 @@
-go 动态规划，介绍为什么要数组末尾要补0
-``` golang
+// go 动态规划，介绍为什么要数组末尾要补0
+// ``` golang
 func minCostClimbingStairs(cost []int) int {
     return method_dp(cost)
 }
@@ -33,4 +33,4 @@ func getMin(a, b int) int {
     return b
 }
 
-```
+// ```

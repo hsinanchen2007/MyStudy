@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n == 1:return 1
@@ -11,4 +11,4 @@ class Solution:
             res.append(num1)
             res.append(num3)
         return res[-1]
-```
+# ```

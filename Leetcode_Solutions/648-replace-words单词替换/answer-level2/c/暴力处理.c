@@ -1,9 +1,9 @@
-### 解题思路
-暴力处理
+// ### 解题思路
+// 暴力处理
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * findWordEnd(char * sentence) {
     int sentenceLen = strlen(sentence);
     for (int i = 0; i < sentenceLen + 1; i++) {
@@ -41,4 +41,4 @@ char * replaceWords(char ** dict, int dictSize, char * sentence){
 
     return sentence;
 }
-```
+// ```

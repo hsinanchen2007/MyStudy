@@ -1,4 +1,4 @@
-```
+// ```
 #define NULL_PTR (0)
 #define TRUE (1)
 #define FALSE (0)
@@ -72,4 +72,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize)
     }
     return perimter;
 }
-```
+// ```

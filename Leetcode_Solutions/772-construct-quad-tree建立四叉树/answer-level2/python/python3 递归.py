@@ -1,7 +1,7 @@
-相对简单的写法
+# 相对简单的写法
 
 
-```python
+# ```python
 from itertools import chain
 
 class Solution:
@@ -33,4 +33,4 @@ class Solution:
             return node
 
         return helper(grid)
-```
+# ```

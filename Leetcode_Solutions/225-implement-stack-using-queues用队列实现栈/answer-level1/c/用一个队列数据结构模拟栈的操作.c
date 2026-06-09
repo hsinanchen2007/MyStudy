@@ -1,6 +1,6 @@
-### 解题思路
-比较栈和队列数据结构的区别
-```c
+// ### 解题思路
+// 比较栈和队列数据结构的区别
+// ```c
 typedef struct {
 
 	int *base;
@@ -15,11 +15,11 @@ typedef struct {
 	int front;
 	int rear;
 } QueueStructure;
-```c
-栈的 *base一直指向栈底，而队列的front和rear均是变化值，*base只作为存储数据使用
-### 代码
+// ```c
+// 栈的 *base一直指向栈底，而队列的front和rear均是变化值，*base只作为存储数据使用
+// ### 代码
 
-```c
+// ```c
 #define MAXQSIZE 1000
 
 typedef struct {
@@ -82,4 +82,4 @@ void myStackFree(MyStack* obj) {
     free(obj);
 }
 
-```
+// ```

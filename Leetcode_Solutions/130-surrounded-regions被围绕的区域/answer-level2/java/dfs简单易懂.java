@@ -1,10 +1,10 @@
-### 解题思路
-这个题目要把被X包围的O变成X，我们可以换个思路，把不需要改变的O的位置找出来
-得到位置后，把一个全部是X的数组中的这些位置变成O就可以了
+// ### 解题思路
+// 这个题目要把被X包围的O变成X，我们可以换个思路，把不需要改变的O的位置找出来
+// 得到位置后，把一个全部是X的数组中的这些位置变成O就可以了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void solve(char[][] board) {
         if (board == null || board.length == 0 || board[0].length == 0) {
@@ -55,4 +55,4 @@ class Solution {
         return x * length + y;
     }
 }
-```
+// ```

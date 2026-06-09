@@ -1,10 +1,10 @@
-### 解题思路
-从后往前同时遍历两数组，从nums1中两数组元素数量和的位置开始填入遍历时较大的元素；
-若nums1先遍历完毕，则代表nums2中还剩余一些小数字，直接放入nums1的开头位置。
+// ### 解题思路
+// 从后往前同时遍历两数组，从nums1中两数组元素数量和的位置开始填入遍历时较大的元素；
+// 若nums1先遍历完毕，则代表nums2中还剩余一些小数字，直接放入nums1的开头位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int pos1 = m - 1;
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

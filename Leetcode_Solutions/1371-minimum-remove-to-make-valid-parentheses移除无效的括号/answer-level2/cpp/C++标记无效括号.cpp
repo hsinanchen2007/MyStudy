@@ -1,5 +1,5 @@
-***Talk is cheap. Show me the code.***
-```
+// ***Talk is cheap. Show me the code.***
+// ```
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -22,4 +22,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} nums
  */
@@ -31,5 +31,5 @@ var j = 2;
 var obj = new NumArray(nums);
 var param_1 = obj.sumRange(i,j)
 console.log(param_1);
-```
+// ```
 

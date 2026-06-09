@@ -1,5 +1,5 @@
 
-```java []
+// ```java []
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         if(s == 0 && nums.length == 0){
@@ -27,6 +27,6 @@ class Solution {
         return ans;
     }
 }
-```
-时间复杂度O（n）
+// ```
+// 时间复杂度O（n）
 

@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/ad6e1c89c96378494f216ef8fd9df16116a3b6994e64e8cf5525899011424784-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ad6e1c89c96378494f216ef8fd9df16116a3b6994e64e8cf5525899011424784-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   树的动态规划，爷爷偷了，儿子就不能偷。。。，爷爷没偷，儿子就可以选择偷或不偷
   node[5, 10]
   node[0]：当前点没有偷的最大值
   node[1]：当前点偷了的最大值
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -43,4 +43,4 @@ var rob = function(root) {
   let ans = bst(root);
   return Math.max(ans[0], ans[1]);
 };
-```
+// ```

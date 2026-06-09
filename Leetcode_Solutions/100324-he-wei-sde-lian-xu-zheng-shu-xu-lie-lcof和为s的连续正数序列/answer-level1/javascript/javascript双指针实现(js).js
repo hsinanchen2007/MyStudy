@@ -1,6 +1,6 @@
-javascript双指针实现
+// javascript双指针实现
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -27,4 +27,4 @@ var findContinuousSequence = function(target) {
     }
     return arr;
 };
-```
+// ```

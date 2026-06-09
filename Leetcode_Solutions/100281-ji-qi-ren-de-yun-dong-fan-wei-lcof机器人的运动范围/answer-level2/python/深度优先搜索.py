@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def movingCount(self, m, n, ma):
         res=1
@@ -27,4 +27,4 @@ class Solution(object):
             p.append(i%10)
             i=i//10
         return sum(p)
-```
+# ```

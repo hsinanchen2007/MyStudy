@@ -1,8 +1,8 @@
-### 解题思路
-记录下常见的四种解法：
-1. 先排序，再遍历，时间复杂度较高
+// ### 解题思路
+// 记录下常见的四种解法：
+// 1. 先排序，再遍历，时间复杂度较高
 
-```c
+// ```c
 int comp(const void *p1,const void *p2)
 {
     return strcmp(p1, p2);
@@ -24,9 +24,9 @@ char findTheDifference(char * s, char * t){
     }
     return t[lent - 1];
 }
-```
-2. 数组模拟hash表：
- ```c
+// ```
+// 2. 数组模拟hash表：
+//  ```c
 char findTheDifference(char * s, char * t){
     int i, lens = strlen(s), lent = strlen(t);
     int *hash = calloc(26, sizeof(int));
@@ -42,9 +42,9 @@ char findTheDifference(char * s, char * t){
     
     return "";
 }
-```
-3. 异或
-```c
+// ```
+// 3. 异或
+// ```c
 char findTheDifference(char * s, char * t){
     int sum = 0;
     while(*s != '\0'){
@@ -55,11 +55,11 @@ char findTheDifference(char * s, char * t){
     return sum ^ *t;
 }
 
-```
-4. 先求和再相减 
-### 代码
+// ```
+// 4. 先求和再相减 
+// ### 代码
 
-```c
+// ```c
 char findTheDifference(char * s, char * t){
     int sumS = 0, sumT = 0;
     while(*s != '\0'){
@@ -73,4 +73,4 @@ char findTheDifference(char * s, char * t){
 }
 
 
-```
+// ```

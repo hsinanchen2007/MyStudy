@@ -1,7 +1,7 @@
-双指针，一0一n，遇到I或者D对应赋值，同时移动指针
+// 双指针，一0一n，遇到I或者D对应赋值，同时移动指针
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<int> diStringMatch(string S) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

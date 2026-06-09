@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def solveNQueens(self, n: int):
         #不能使得他们在同一直线上或者对角线上
@@ -32,4 +32,4 @@ class Solution:
         back("")
         return printQueen(res)
 #
-```
+# ```

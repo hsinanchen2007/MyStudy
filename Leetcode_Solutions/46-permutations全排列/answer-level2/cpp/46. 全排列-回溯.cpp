@@ -1,21 +1,21 @@
-### 解题思路
-1、框架
-result = []
-def backtrack(路径, 选择列表):
-    if 满足结束条件:
-        result.add(路径)
-        return
+// ### 解题思路
+// 1、框架
+// result = []
+// def backtrack(路径, 选择列表):
+//     if 满足结束条件:
+//         result.add(路径)
+//         return
     
-    for 选择 in 选择列表:
-        做选择
-        backtrack(路径, 选择列表)
-        撤销选择
+//     for 选择 in 选择列表:
+//         做选择
+//         backtrack(路径, 选择列表)
+//         撤销选择
 
-2、track值传递、find函数、pop_back()
+// 2、track值传递、find函数、pop_back()
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

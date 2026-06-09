@@ -1,21 +1,21 @@
-### 复杂度
+// ### 复杂度
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。
+// 时间复杂度 $O(n)$，空间复杂度 $O(n)$。
 
-### 简单说明
+// ### 简单说明
 
-似乎 KMP 算法的代码并不比暴力算法的长嘛 (大雾)
-其实没有在规定时间内解完此题，早知道 Python 能暴力求解 T.T
+// 似乎 KMP 算法的代码并不比暴力算法的长嘛 (大雾)
+// 其实没有在规定时间内解完此题，早知道 Python 能暴力求解 T.T
 
-关于 KMP 算法的实现，我参考的是 [BTech Smart Class](http://www.btechsmartclass.com/data_structures/knuth-morris-pratt-algorithm.html) 的图文解释。LeetCode 上的经典 KMP 算法题可以是 [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)。其说明会放在代码部分之后。
+// 关于 KMP 算法的实现，我参考的是 [BTech Smart Class](http://www.btechsmartclass.com/data_structures/knuth-morris-pratt-algorithm.html) 的图文解释。LeetCode 上的经典 KMP 算法题可以是 [28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)。其说明会放在代码部分之后。
 
-事实上，解这道题并没有用到所有 KMP 算法的过程，只利用了其中的 LPS Table (Longest proper Prefix which is also Suffix，最长相同的前缀与后缀长度表，实际上这个 Table 是向量)。
+// 事实上，解这道题并没有用到所有 KMP 算法的过程，只利用了其中的 LPS Table (Longest proper Prefix which is also Suffix，最长相同的前缀与后缀长度表，实际上这个 Table 是向量)。
 
-### 代码
+// ### 代码
 
-耗时大约 30-60 ms。关于代码中出现的三种 situation 的讨论，放在代码之后的文段中。
+// 耗时大约 30-60 ms。关于代码中出现的三种 situation 的讨论，放在代码之后的文段中。
 
-```c++
+// ```c++
 class Solution {
 public:
     string longestPrefix(string s) {
@@ -29,31 +29,31 @@ public:
         return s.substr(0, lps.back());
     }
 };
-```
+// ```
 
-### KMP 算法中 LPS Table 的构造
+// ### KMP 算法中 LPS Table 的构造
 
-**例子**
+// **例子**
 
-- 例 1：`abcdabd`
-  ```
+// - 例 1：`abcdabd`
+//   ```
   s    a b c d a b d
   lps  0 0 0 0 1 2 0
-  ```
-  譬如 `lps[5] = 2`，代表以 `s[5] = 'b'` 为末尾的情况下，长度为 `2` 的前缀 `s[0:2]` 与后缀 `s[4:6]` 都是 `ab`。
-- 例 2：`aabaaac`
-  ```
+//   ```
+//   譬如 `lps[5] = 2`，代表以 `s[5] = 'b'` 为末尾的情况下，长度为 `2` 的前缀 `s[0:2]` 与后缀 `s[4:6]` 都是 `ab`。
+// - 例 2：`aabaaac`
+//   ```
   s    a a b a a a c
   lps  0 1 0 1 2 2 0
-  ```
-  譬如 `lps[5] = 2`，代表以 `s[5] = 'a'` 为末尾的情况下，长度为 `2` 的前缀 `s[0:2]` 与后缀 `s[4:6]` 都是 `aa`。
-  而 `lps[4] = 2`，亦代表以 `s[4] = 'a'` 为末尾的情况下，长度为 `2` 的前缀 `s[0:2]` 与后缀 `s[3:5]` 都是 `aa`。
+//   ```
+//   譬如 `lps[5] = 2`，代表以 `s[5] = 'a'` 为末尾的情况下，长度为 `2` 的前缀 `s[0:2]` 与后缀 `s[4:6]` 都是 `aa`。
+//   而 `lps[4] = 2`，亦代表以 `s[4] = 'a'` 为末尾的情况下，长度为 `2` 的前缀 `s[0:2]` 与后缀 `s[3:5]` 都是 `aa`。
 
-**具体构造过程**
+// **具体构造过程**
 
-在程序中，要实现 LPS Table，需要构建左指针 `i` (前缀指针) 与右指针 `j` (后缀指针)；并对下述三种情况作分类讨论：
-1. 若 `s[i] = s[j]`，即前缀指针与后缀指针所指字符相等，则两者都加一；譬如
-   ```
+// 在程序中，要实现 LPS Table，需要构建左指针 `i` (前缀指针) 与右指针 `j` (后缀指针)；并对下述三种情况作分类讨论：
+// 1. 若 `s[i] = s[j]`，即前缀指针与后缀指针所指字符相等，则两者都加一；譬如
+//    ```
    s        a a b a a a c    action
    lps      0 1 0
    pointer  i     j          situ.1 => lps[j] = lps[i] + 1, ++i, ++j
@@ -61,9 +61,9 @@ public:
    pointer    i     j        situ.1 => lps[j] = lps[i] + 1, ++i, ++j
    lps      0 1 0 1 2
    pointer      i     j
-   ```
-2. 若 `s[i] != s[j]` 但指针 `i != 0` 即不处在头字符上，那么更新前缀指针 `i = lps[i - 1]`；譬如
-   ```
+//    ```
+// 2. 若 `s[i] != s[j]` 但指针 `i != 0` 即不处在头字符上，那么更新前缀指针 `i = lps[i - 1]`；譬如
+//    ```
    s        a a b a a a c    action
    lps      0 1 0 1 2
    pointer      i     j      situ.2 => i = lps[i - 1] = 1
@@ -73,24 +73,24 @@ public:
    pointer      i       j    situ.2 => i = lps[i - 1] = 0
    lps      0 1 0 1 2 2
    pointer  i           j
-   ```
-3. 若 `s[i] != s[j]` 且指针 `i == 0` 即处在头字符上，那么令更新 `lps[j] = 0` 并且前移后缀指针 `j`；譬如
-   ```
+//    ```
+// 3. 若 `s[i] != s[j]` 且指针 `i == 0` 即处在头字符上，那么令更新 `lps[j] = 0` 并且前移后缀指针 `j`；譬如
+//    ```
    s        a a b a a a c    action
    lps      0 1 0 1 2 2
    pointer  i           j    situ.3 => lps[j] = 0; ++j
    lps      0 1 0 1 2 2 0
    pointer  i             j  pointer j approach end, exit loop
-   ```
+//    ```
 
-**返回结果**
+// **返回结果**
 
-这个程序的返回结果即 LPS Table `lps` 的最后一个值。
+// 这个程序的返回结果即 LPS Table `lps` 的最后一个值。
 
 
-### 附：完成 LeetCode 28 题的代码
+// ### 附：完成 LeetCode 28 题的代码
 
-```c++
+// ```c++
 // KMP Algorithm: http://www.btechsmartclass.com/data_structures/knuth-morris-pratt-algorithm.html
 
 class Solution {
@@ -131,4 +131,4 @@ public:
         return -1;
     }
 };
-```
+// ```

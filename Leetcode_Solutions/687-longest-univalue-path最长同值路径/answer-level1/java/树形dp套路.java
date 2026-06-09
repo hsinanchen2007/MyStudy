@@ -1,9 +1,9 @@
-### 解题思路
-这类题目后序遍历就得了，利用树形dp套路
+// ### 解题思路
+// 这类题目后序遍历就得了，利用树形dp套路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ class Solution {
         return Math.max(Math.max(maxL, maxR), 1);
     }
 }
-```
+// ```

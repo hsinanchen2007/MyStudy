@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 struct MyHashSet {
     buckets: Vec<Vec<i32>>,
 }
@@ -46,5 +46,5 @@ impl MyHashSet {
  * obj.remove(key);
  * let ret_3: bool = obj.contains(key);
  */
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

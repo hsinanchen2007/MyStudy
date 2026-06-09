@@ -1,4 +1,4 @@
-```
+// ```
 class UndergroundSystem {
     HashMap<Integer,String> check;
     HashMap<String,int[]> average;
@@ -30,4 +30,4 @@ class UndergroundSystem {
     }
 }
 
-```
+// ```

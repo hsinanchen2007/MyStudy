@@ -1,9 +1,9 @@
 
-// 首先是通过双向链表来存放数据，插入和删除实现O(1)。分别记录链表的header tail指针
-// 对于查找链表是无法实现O(1)，需要借助于map来实现
-// 为了在链表操作过程中更少的判断头尾节点是否为null，采用哨兵机制，头尾都添加哨兵.
-// 这里只是实现一个线程不安全的版本
-```
+// // 首先是通过双向链表来存放数据，插入和删除实现O(1)。分别记录链表的header tail指针
+// // 对于查找链表是无法实现O(1)，需要借助于map来实现
+// // 为了在链表操作过程中更少的判断头尾节点是否为null，采用哨兵机制，头尾都添加哨兵.
+// // 这里只是实现一个线程不安全的版本
+// ```
 type LRUCache struct {
 	cap    int
 	header *Node
@@ -75,5 +75,5 @@ func (this *LRUCache) putHead(node *Node) {
 	originNext.pre = node
 	node.pre = this.header
 }
-```
+// ```
 

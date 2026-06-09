@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,13 +26,13 @@ class Solution {
 		preorder(list,root.right);
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/32ad869cc620c78a089d18f5e5f26cdfb46da7fe8ec84261d4a5e22b1db71e81-1.png)
+// ![1.png](https://pic.leetcode-cn.com/32ad869cc620c78a089d18f5e5f26cdfb46da7fe8ec84261d4a5e22b1db71e81-1.png)
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/3e0c6917383c565a7887f329a2cadda0f6b9339176b6db44a3c32eeaa2252f5d-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/3e0c6917383c565a7887f329a2cadda0f6b9339176b6db44a3c32eeaa2252f5d-wechat.png)
 

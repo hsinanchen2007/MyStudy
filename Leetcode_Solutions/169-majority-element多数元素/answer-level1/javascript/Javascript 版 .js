@@ -1,8 +1,8 @@
-> 执行用时 :80 ms, 在所有 JavaScript 提交中击败了98.19%的用户
+// > 执行用时 :80 ms, 在所有 JavaScript 提交中击败了98.19%的用户
 
-这里使用了 `Map` 来存储遍历时的数字，以数字作为`key`，以重复次数为`value`，当我们`map.get(key)`存在时，便将其值加1，否则插入新的数字，并将其值设为1。
+// 这里使用了 `Map` 来存储遍历时的数字，以数字作为`key`，以重复次数为`value`，当我们`map.get(key)`存在时，便将其值加1，否则插入新的数字，并将其值设为1。
 
-```Javascript
+// ```Javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var majorityElement = function (nums) {
         }
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-超出返回捕获异常
-### 代码
+// ### 解题思路
+// 超出返回捕获异常
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         boolean flag = x >= 0 ? true : false;
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

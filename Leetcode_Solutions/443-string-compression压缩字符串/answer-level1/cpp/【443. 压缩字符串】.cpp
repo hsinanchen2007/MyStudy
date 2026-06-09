@@ -1,7 +1,7 @@
-## 思路：双指针
-**注意：重复字符个数大于10，转为字符串处理**
-### 代码
-```c++
+// ## 思路：双指针
+// **注意：重复字符个数大于10，转为字符串处理**
+// ### 代码
+// ```c++
 class Solution {
 public:
     int compress(vector<char>& chars) {
@@ -29,9 +29,9 @@ public:
         return k;
     }
 };
-```
-#### 另一种代码
-```c++
+// ```
+// #### 另一种代码
+// ```c++
 class Solution {
 public:
     int compress(vector<char>& chars) {
@@ -52,5 +52,5 @@ public:
         return k;
     }
 };
-```
+// ```
 

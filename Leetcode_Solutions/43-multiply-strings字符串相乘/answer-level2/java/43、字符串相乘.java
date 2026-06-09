@@ -1,9 +1,9 @@
-## 解题思路
-参考https://leetcode-cn.com/problems/multiply-strings/solution/you-hua-ban-shu-shi-da-bai-994-by-breezean/优化竖式版解法
+// ## 解题思路
+// 参考https://leetcode-cn.com/problems/multiply-strings/solution/you-hua-ban-shu-shi-da-bai-994-by-breezean/优化竖式版解法
 
-## 代码
+// ## 代码
 
-```java
+// ```java
 class Solution {
     public String multiply(String num1, String num2) {
         if(num1.equals("0") || num2.equals("0")){
@@ -41,4 +41,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

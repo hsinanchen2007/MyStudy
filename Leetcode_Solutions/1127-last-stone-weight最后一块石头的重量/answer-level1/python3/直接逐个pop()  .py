@@ -1,4 +1,4 @@
-```
+# ```
 代码块
 class Solution(objects):
     def lastStoneWeight(self,stones):
@@ -21,4 +21,4 @@ class Solution(objects):
         else:
             return stones[0]
 
-```
+# ```

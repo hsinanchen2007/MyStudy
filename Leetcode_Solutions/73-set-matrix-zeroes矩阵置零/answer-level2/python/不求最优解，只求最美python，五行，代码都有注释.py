@@ -1,5 +1,5 @@
-时间复杂度击败97%， 空间复杂度击败38%，作者：lebhoryi@gmail.com
-```python
+# 时间复杂度击败97%， 空间复杂度击败38%，作者：lebhoryi@gmail.com
+# ```python
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -20,4 +20,4 @@ class Solution:
             # if row[i] == [0] * len(matrix[0]):
             #     matrix[i] = row[i]
             matrix[i] = col2row[i] if row[i] != [0] * len(matrix[0]) else row[i]
-```
+# ```

@@ -1,8 +1,8 @@
-遍历text，如果头尾相同，递归计算去头去尾后的字符串，再比较最大值即可。
+// 遍历text，如果头尾相同，递归计算去头去尾后的字符串，再比较最大值即可。
 
 
-注意，头尾相同 长度需要+2
-```
+// 注意，头尾相同 长度需要+2
+// ```
 func longestDecomposition(text string) int {
     if text == "" {
         return 0
@@ -23,4 +23,4 @@ func Max(x, y int) int {
 	return y
 }
 
-```
+// ```

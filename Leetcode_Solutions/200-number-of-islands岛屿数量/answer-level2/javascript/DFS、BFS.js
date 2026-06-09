@@ -1,5 +1,5 @@
-方法一、DFS
-```
+// 方法一、DFS
+// ```
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -29,9 +29,9 @@ function dfs(grid,i,j){
         dfs(grid,i,j-1);
     }
 }
-```
-方法二、BFS
-```
+// ```
+// 方法二、BFS
+// ```
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -67,5 +67,5 @@ var numIslands = function(grid) {
     }
     return count;
 };
-```
+// ```
 

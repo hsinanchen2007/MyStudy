@@ -1,7 +1,7 @@
-1) 简化为几个基本cases
-2) 位运算求奇偶（注意：位运算优先级低于关系运算符）
+// 1) 简化为几个基本cases
+// 2) 位运算求奇偶（注意：位运算优先级低于关系运算符）
 
-```
+// ```
 class Solution {
 public:
     int minimumSwap(string s1, string s2) {
@@ -21,4 +21,4 @@ public:
         else return (x + y -1) / 2 + 2;
     }
 };
-```
+// ```

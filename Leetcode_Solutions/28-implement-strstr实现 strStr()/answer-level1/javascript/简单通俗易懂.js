@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
-1.把needle在haystack循环过一遍
+// 1.把needle在haystack循环过一遍
 
-循环长度就是 haystack - needle + 1
+// 循环长度就是 haystack - needle + 1
 
-2.把满足needle长度的每个字符串轮流取出比较
+// 2.把满足needle长度的每个字符串轮流取出比较
 
-满足即返回指针
+// 满足即返回指针
 
-3.最后啥也没匹配到
+// 3.最后啥也没匹配到
 
-返回-1
+// 返回-1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -30,4 +30,4 @@ var strStr = function(haystack, needle) {
     }
     return -1;
 };
-```
+// ```

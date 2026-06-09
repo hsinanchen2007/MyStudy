@@ -1,9 +1,9 @@
-### 解题思路
-关键是保存临时的子节点，root->left=invertTree(root->right);这个过程会把root->left更改。
+// ### 解题思路
+// 关键是保存临时的子节点，root->left=invertTree(root->right);这个过程会把root->left更改。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ public:
         return root;
     }
 };
-```
+// ```

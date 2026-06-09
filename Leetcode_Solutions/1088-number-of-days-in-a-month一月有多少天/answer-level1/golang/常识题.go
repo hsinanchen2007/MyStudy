@@ -1,4 +1,4 @@
-```
+// ```
 var m = [12]int{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
 
 func numberOfDays(Y int, M int) int {
@@ -7,4 +7,4 @@ func numberOfDays(Y int, M int) int {
 	}
 	return 29
 }
-```
+// ```

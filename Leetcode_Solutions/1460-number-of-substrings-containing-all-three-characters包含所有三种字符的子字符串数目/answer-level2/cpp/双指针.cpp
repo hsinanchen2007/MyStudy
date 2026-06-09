@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int bucket[4];
@@ -25,4 +25,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

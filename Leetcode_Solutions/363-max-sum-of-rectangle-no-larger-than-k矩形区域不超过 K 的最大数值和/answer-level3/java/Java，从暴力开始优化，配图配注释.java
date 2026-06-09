@@ -1,18 +1,18 @@
-### 一、暴力 + 动态规划
+// ### 一、暴力 + 动态规划
 
-- 枚举矩形的 左上角、右下角，从 `(i1, j1)` 到 `(i2, j2)`
-- 从左上角、到右下角的矩形区域数值和：黄色 = 绿色 + 橙色 - 蓝色 + `(i2, j2)`
+// - 枚举矩形的 左上角、右下角，从 `(i1, j1)` 到 `(i2, j2)`
+// - 从左上角、到右下角的矩形区域数值和：黄色 = 绿色 + 橙色 - 蓝色 + `(i2, j2)`
 
-<![image.png](https://pic.leetcode-cn.com/e30beaa5cf393c2d2968cbc098adb89c55868462a334fb39a9fb595cf481bceb-image.png), ![image.png](https://pic.leetcode-cn.com/e4f08d44af88d18cffb52384b8c23b8081fda1be7671fd31852773e7641a7040-image.png), ![image.png](https://pic.leetcode-cn.com/0f04f68d2a37bfe2db360a637f44eed3d5d2e0cbb84e4cb657d8cd543c3d0a99-image.png), ![image.png](https://pic.leetcode-cn.com/1efb0472e4ed6dc8b5b253048bb33b3a17d01204b096e9daefe94199ab4b13d6-image.png)>
+// <![image.png](https://pic.leetcode-cn.com/e30beaa5cf393c2d2968cbc098adb89c55868462a334fb39a9fb595cf481bceb-image.png), ![image.png](https://pic.leetcode-cn.com/e4f08d44af88d18cffb52384b8c23b8081fda1be7671fd31852773e7641a7040-image.png), ![image.png](https://pic.leetcode-cn.com/0f04f68d2a37bfe2db360a637f44eed3d5d2e0cbb84e4cb657d8cd543c3d0a99-image.png), ![image.png](https://pic.leetcode-cn.com/1efb0472e4ed6dc8b5b253048bb33b3a17d01204b096e9daefe94199ab4b13d6-image.png)>
 
-- 状态转移方程为 `dp(i1,j1,i2,j2) = dp(i1,j1,i2 - 1,j2) + dp(i1,j1,i2,j2 - 1) - dp(i1,j1,i2 - 1,j2 - 1) + matrix[i2 - 1][j2 - 1];`
-- 四层遍历，时间复杂度 $O(m^2n^2)$，空间复杂度 $O(m^2n^2)$
-- 超出内存限制
-  - 思路有戏，进一步压缩状态试试
+// - 状态转移方程为 `dp(i1,j1,i2,j2) = dp(i1,j1,i2 - 1,j2) + dp(i1,j1,i2,j2 - 1) - dp(i1,j1,i2 - 1,j2 - 1) + matrix[i2 - 1][j2 - 1];`
+// - 四层遍历，时间复杂度 $O(m^2n^2)$，空间复杂度 $O(m^2n^2)$
+// - 超出内存限制
+//   - 思路有戏，进一步压缩状态试试
 
-![image.png](https://pic.leetcode-cn.com/f6989b0b71efae4dadc72702636f58b1d2eaab0194f56e088b921abd9c1afac1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f6989b0b71efae4dadc72702636f58b1d2eaab0194f56e088b921abd9c1afac1-image.png)
 
-```java
+// ```java
 public int maxSumSubmatrix(int[][] matrix, int k) {
     int rows = matrix.length, cols = matrix[0].length, max = Integer.MIN_VALUE;
     int[][][][] dp = new int[rows + 1][cols + 1][rows + 1][cols + 1]; // from (i1,j1) to (i2,j2)
@@ -29,17 +29,17 @@ public int maxSumSubmatrix(int[][] matrix, int k) {
     }
     return max;
 }
-```
+// ```
 
-### 二、暴力 + 动态规划 + 状态压缩
+// ### 二、暴力 + 动态规划 + 状态压缩
 
-- 从上述代码发现，每次更换左上角 `(i, j)` 之后，之前记录的值都没用过了
-- 尝试每次更换左上角时就重复利用 `dp`，故只需记录右下角即可
-- 依然四层遍历，时间复杂度 $O(m^2n^2)$，空间复杂度 $O(mn)$
+// - 从上述代码发现，每次更换左上角 `(i, j)` 之后，之前记录的值都没用过了
+// - 尝试每次更换左上角时就重复利用 `dp`，故只需记录右下角即可
+// - 依然四层遍历，时间复杂度 $O(m^2n^2)$，空间复杂度 $O(mn)$
 
-![image.png](https://pic.leetcode-cn.com/1cb736edac67f952ca8887e486d9f932fa23cdc047a83545b74e01e392bd778d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1cb736edac67f952ca8887e486d9f932fa23cdc047a83545b74e01e392bd778d-image.png)
 
-```java
+// ```java
 public int maxSumSubmatrix(int[][] matrix, int k) {
     int rows = matrix.length, cols = matrix[0].length, max = Integer.MIN_VALUE;
     for (int i1 = 1; i1 <= rows; i1++) {
@@ -56,17 +56,17 @@ public int maxSumSubmatrix(int[][] matrix, int k) {
     }
     return max;
 }
-```
+// ```
 
-### 三、数组滚动
+// ### 三、数组滚动
 
-- 看过大神的思路 [@powcai 固定左右边界，前缀和+二分](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/solution/gu-ding-zuo-you-bian-jie-qian-zhui-he-er-fen-by-po/)
-  - **固定左右边界** ……这句一下就把思路打开了
-  - 虽然看不懂 python..但还是不能放弃呀
+// - 看过大神的思路 [@powcai 固定左右边界，前缀和+二分](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/solution/gu-ding-zuo-you-bian-jie-qian-zhui-he-er-fen-by-po/)
+//   - **固定左右边界** ……这句一下就把思路打开了
+//   - 虽然看不懂 python..但还是不能放弃呀
 
-#### 先固定左右边界，不断压入 行累计数组
+// #### 先固定左右边界，不断压入 行累计数组
 
-```java
+// ```java
 public int maxSumSubmatrix(int[][] matrix, int k) {
     int rows = matrix.length, cols = matrix[0].length, max = Integer.MIN_VALUE;
     // O(cols ^ 2 * rows)
@@ -82,39 +82,39 @@ public int maxSumSubmatrix(int[][] matrix, int k) {
     }
     return max;
 }
-```
+// ```
 
-#### 画图感受一下
+// #### 画图感受一下
 
-- 左边界 从 `0` 开始
-- 右边界从左边界开始（即同一列）
-- `rowSum` 数组，记录两个边界中间的 **每一行** 的 **和**
+// - 左边界 从 `0` 开始
+// - 右边界从左边界开始（即同一列）
+// - `rowSum` 数组，记录两个边界中间的 **每一行** 的 **和**
 
-![image.png](https://pic.leetcode-cn.com/92b88d11be72bf893dded578bc378dde6a3d0c6c50502449695f3085af12562c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/92b88d11be72bf893dded578bc378dde6a3d0c6c50502449695f3085af12562c-image.png)
 
-- 表演开始了
-- 右边界 `r` 向右移动
-- `rowSum` 数组，记录两个边界中间的 **每一行** 的 **和**
-  - 累加新来的
+// - 表演开始了
+// - 右边界 `r` 向右移动
+// - `rowSum` 数组，记录两个边界中间的 **每一行** 的 **和**
+//   - 累加新来的
 
-![image.png](https://pic.leetcode-cn.com/16015427e257c5409f413fe9d4bb846c72455b6aa35d5ba0f7033260eac5517c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/16015427e257c5409f413fe9d4bb846c72455b6aa35d5ba0f7033260eac5517c-image.png)
 
-- 这张过后你也豁然开朗了吗
-- 右边界 `r` 继续向右移动
-- `rowSum` 数组，仍然记录两个边界中间的 **每一行** 的 **和**
-  - 继续累加新来的即可
+// - 这张过后你也豁然开朗了吗
+// - 右边界 `r` 继续向右移动
+// - `rowSum` 数组，仍然记录两个边界中间的 **每一行** 的 **和**
+//   - 继续累加新来的即可
 
-![image.png](https://pic.leetcode-cn.com/7cfe03442beab8e7e4ef0e967176256671c871d1160f75da8bdda2e9c24779ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7cfe03442beab8e7e4ef0e967176256671c871d1160f75da8bdda2e9c24779ac-image.png)
 
-#### rowSum 有何用
+// #### rowSum 有何用
 
-- 以 `l`、`r` 为左右界的，任意矩形的面积，即 **rowSum 连续子数组 的 和**
+// - 以 `l`、`r` 为左右界的，任意矩形的面积，即 **rowSum 连续子数组 的 和**
 
-![image.png](https://pic.leetcode-cn.com/a62839d6826ffdd40969da9815e299e9b9fb6175c40f8fd4cef13e9eea0fc98b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a62839d6826ffdd40969da9815e299e9b9fb6175c40f8fd4cef13e9eea0fc98b-image.png)
 
-- 再让我们回到代码
+// - 再让我们回到代码
 
-```java
+// ```java
 public int maxSumSubmatrix(int[][] matrix, int k) {
     int rows = matrix.length, cols = matrix[0].length, max = Integer.MIN_VALUE;
     // O(cols ^ 2 * rows)
@@ -137,19 +137,19 @@ public int maxSumSubmatrix(int[][] matrix, int k) {
 private int dpmax(int[] arr, int k) {
     // TODO
 }
-```
+// ```
 
-- 问题进入到最后一个环节，完善 `dpmax()`
+// - 问题进入到最后一个环节，完善 `dpmax()`
 
-#### 暴力求最大值
+// #### 暴力求最大值
 
-- 枚举子数组起点、终点，累计中间元素
-- 此时的运行时间已经起飞很多了
+// - 枚举子数组起点、终点，累计中间元素
+// - 此时的运行时间已经起飞很多了
 
-![image.png](https://pic.leetcode-cn.com/d825aa5247c91af30be8ab547932a3b0c5ce45a8c40b48df09bf918d90243c42-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d825aa5247c91af30be8ab547932a3b0c5ce45a8c40b48df09bf918d90243c42-image.png)
 
 
-```java
+// ```java
 // 在数组 arr 中，求不超过 k 的最大值
 private int dpmax(int[] arr, int k) {
     // O(rows ^ 2)
@@ -163,15 +163,15 @@ private int dpmax(int[] arr, int k) {
     }
     return max;
 }
-```
+// ```
 
-- 可是我们就是要完美一下呢
+// - 可是我们就是要完美一下呢
 
-#### 并不是所有时候都值得遍历找 k
+// #### 并不是所有时候都值得遍历找 k
 
-- 先来这题：[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)，有一种解法是
+// - 先来这题：[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)，有一种解法是
 
-```java
+// ```java
 public int maxSubArray(int[] nums) {
     int len = nums.length, max, dp;
     if (len == 0) return 0;
@@ -184,40 +184,40 @@ public int maxSubArray(int[] nums) {
     }
     return max;
 }
-```
+// ```
 
-#### 先画图感受一下
+// #### 先画图感受一下
 
-- 开始遍历数组 `[4, 3, -1, -7, -9, 6, 2, -7]`
+// - 开始遍历数组 `[4, 3, -1, -7, -9, 6, 2, -7]`
 
-![image.png](https://pic.leetcode-cn.com/7480205f1b633d671e975c30d13645efecef60645c41e834854bb520ee54fdd1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7480205f1b633d671e975c30d13645efecef60645c41e834854bb520ee54fdd1-image.png)
 
-- 此时出现了 **之前的和小于0** 的情况
-- 那下一个数开始，咱就不要之前的了，另起炉灶（还是连续两次另立炉灶）
+// - 此时出现了 **之前的和小于0** 的情况
+// - 那下一个数开始，咱就不要之前的了，另起炉灶（还是连续两次另立炉灶）
 
-![image.png](https://pic.leetcode-cn.com/cc6336209faef9c86bc7ba062f3bfeeaefa040f69b925c0e3407bb86bb352411-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cc6336209faef9c86bc7ba062f3bfeeaefa040f69b925c0e3407bb86bb352411-image.png)
 
-- 最终得到 `[6, 2]` 这个区间的子数组和最大，最大值 `8`
-- 这里复杂的是还要 **不大于 `k`** 怎么办？
+// - 最终得到 `[6, 2]` 这个区间的子数组和最大，最大值 `8`
+// - 这里复杂的是还要 **不大于 `k`** 怎么办？
 
-#### 继续深入细究 k
+// #### 继续深入细究 k
 
-- 假设 `k = Integer.MAX_VALUE` ，那么上述数组不小于 `k` 的最大子数组和为 `8`
-- 假设 `k = 100` ，那么上述数组不小于 `k` 的最大子数组和 **仍然** 为 `8`
-- 你也许注意到了，要是 `k` 很大，大过上述滚动玩法的最大值，那结果就是上述的 `8`
-- 那如果 `k == 8` 呢？太棒了，就是 `8` 咯，最好的最大值
-- 那如果 `k < 8` 呢，假设 `k = 5`
-- 回顾我们 `dp` 一路滚过来的值 `[4, 7, 6, -1, -9, 6, 8, 1]` 
-  - 难道不大于 `k = 5` 的子数组的最大值就是 `4` 吗？是的，这里看起来是
-  - 注意这是 `dp` 一路滚来的值，不是数组原值
-    - 原数组是 `[4, 3, -1, -7, -9, 6, 2, -7]`
-- 如果我们再在原数组后增加 `14` 形成 `[4, 3, -1, -7, -9, 6, 2, -7, 14]`
-- 则结果应该是 **整个数组** 的和 `5`，而不是 **因为前面的 `-9` 而断开累计**
-- 怎么办？——暴力就好了
+// - 假设 `k = Integer.MAX_VALUE` ，那么上述数组不小于 `k` 的最大子数组和为 `8`
+// - 假设 `k = 100` ，那么上述数组不小于 `k` 的最大子数组和 **仍然** 为 `8`
+// - 你也许注意到了，要是 `k` 很大，大过上述滚动玩法的最大值，那结果就是上述的 `8`
+// - 那如果 `k == 8` 呢？太棒了，就是 `8` 咯，最好的最大值
+// - 那如果 `k < 8` 呢，假设 `k = 5`
+// - 回顾我们 `dp` 一路滚过来的值 `[4, 7, 6, -1, -9, 6, 8, 1]` 
+//   - 难道不大于 `k = 5` 的子数组的最大值就是 `4` 吗？是的，这里看起来是
+//   - 注意这是 `dp` 一路滚来的值，不是数组原值
+//     - 原数组是 `[4, 3, -1, -7, -9, 6, 2, -7]`
+// - 如果我们再在原数组后增加 `14` 形成 `[4, 3, -1, -7, -9, 6, 2, -7, 14]`
+// - 则结果应该是 **整个数组** 的和 `5`，而不是 **因为前面的 `-9` 而断开累计**
+// - 怎么办？——暴力就好了
 
-![image.png](https://pic.leetcode-cn.com/93bd34046930e871cac428b93e470ec4e8387a6d54ae0357a0b3721490eb6e3d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/93bd34046930e871cac428b93e470ec4e8387a6d54ae0357a0b3721490eb6e3d-image.png)
 
-```java []
+// ```java []
 // 隔壁有完整代码
 // 在数组 arr 中，求不超过 k 的最大值
 private int dpmax(int[] arr, int k) {
@@ -241,8 +241,8 @@ private int dpmax(int[] arr, int k) {
     }
     return max;
 }
-```
-```java []
+// ```
+// ```java []
 // 附上完整代码
 public int maxSumSubmatrix(int[][] matrix, int k) {
     int rows = matrix.length, cols = matrix[0].length, max = Integer.MIN_VALUE;
@@ -281,6 +281,6 @@ private int dpmax(int[] arr, int k) {
     }
     return max;
 }
-```
+// ```
 
-- 得，愉快的大半天又没了，可是你能看到这儿，笔者还是很开心，值了：）
+// - 得，愉快的大半天又没了，可是你能看到这儿，笔者还是很开心，值了：）

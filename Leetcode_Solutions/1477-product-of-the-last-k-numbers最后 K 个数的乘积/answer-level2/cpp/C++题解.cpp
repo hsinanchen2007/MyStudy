@@ -1,11 +1,11 @@
-### [5341. 最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/)
+// ### [5341. 最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/)
 
-### 题解
-   + 存储数并从后向前遍历累乘即可
-   + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+// ### 题解
+//    + 存储数并从后向前遍历累乘即可
+//    + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
    
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class ProductOfNumbers {
 public:
     vector<int> vs;
@@ -31,4 +31,4 @@ public:
  * obj->add(num);
  * int param_2 = obj->getProduct(k);
  */
-```
+// ```

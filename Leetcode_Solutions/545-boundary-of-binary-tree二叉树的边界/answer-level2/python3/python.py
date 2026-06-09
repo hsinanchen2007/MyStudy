@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             if len(right_b) > 0: right_b.pop()
         get_leaves(root)
         return [root.val] + left_b + leaves + right_b[::-1]
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-`push`操作直接压到队列尾；
-`top`操作去队列尾的值；
-`pop`操作需求队列尾前的值先移出，然后追加，最终将目标值出队列即可；
+// ### 解题思路
+// `push`操作直接压到队列尾；
+// `top`操作去队列尾的值；
+// `pop`操作需求队列尾前的值先移出，然后追加，最终将目标值出队列即可；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -56,4 +56,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

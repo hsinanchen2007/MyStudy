@@ -1,11 +1,11 @@
-### 解题思路
-先按序号由小到大分组，如果超过了小组的最大容量，重新建一组。
-消除掉其中人数为0的组。
+# ### 解题思路
+# 先按序号由小到大分组，如果超过了小组的最大容量，重新建一组。
+# 消除掉其中人数为0的组。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         res = []
@@ -22,4 +22,4 @@ class Solution:
             if l != []:
                 res1.append(l)
         return res1
-```
+# ```

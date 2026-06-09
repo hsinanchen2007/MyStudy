@@ -1,14 +1,14 @@
-### 解题思路
-如果root为None，返回True
-为root建立一个合理的取值开区间(lower, upper）
-如果root.val不在合理区间内，返回False
-如果root.left不在合理区间内返回False
-如果root.right不在合理开区间内返回False
-如果root，和左孩子右孩子都在合理区间内，返回True
+# ### 解题思路
+# 如果root为None，返回True
+# 为root建立一个合理的取值开区间(lower, upper）
+# 如果root.val不在合理区间内，返回False
+# 如果root.left不在合理区间内返回False
+# 如果root.right不在合理开区间内返回False
+# 如果root，和左孩子右孩子都在合理区间内，返回True
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ def method(root, lower=float("-inf"), upper=float("inf")):
     return True
         
            
-```
+# ```

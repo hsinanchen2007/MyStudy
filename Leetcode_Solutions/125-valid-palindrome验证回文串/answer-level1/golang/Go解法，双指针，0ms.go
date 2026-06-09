@@ -1,4 +1,4 @@
-```go
+// ```go
 func isPalindrome(s string) bool {
 	n := len(s)
 	if n <= 1 {
@@ -51,4 +51,4 @@ func isNumber(c byte) bool {
 func charEqual(a, b int) bool {
 	return a-b == 0 || a-b == 32 || a-b == -32
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} A
  * @param {number} B
@@ -17,4 +17,4 @@ var computeArea = function (A, B, C, D, E, F, G, H) {
         - (coverRecXLen > 0 && coverRecYLen > 0 ? coverRecXLen * coverRecYLen : 0)  //有重合则减去重合面积
 };
 
-```
+// ```

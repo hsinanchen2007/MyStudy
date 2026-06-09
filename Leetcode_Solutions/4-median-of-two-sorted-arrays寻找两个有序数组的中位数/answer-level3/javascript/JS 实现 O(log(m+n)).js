@@ -1,19 +1,19 @@
-# 原理展示：
-两个数组 **A [1,2,3,4,5,6,7,8]**, **B [3,4,5,6,7,8,9,10]**
-![image.png](https://pic.leetcode-cn.com/c56c8f1aacc982d30bed4f6cf5e31d100d98ec0e3305a1fe053c366111a0f6a7-image.png)
-1. 两个数组二分 i=4, j=4, beforeI=0
-![image.png](https://pic.leetcode-cn.com/1cd5d35641128d2347d2227282bd19cd5af2f539d8b8f9f9b8646140b5ed68fa-image.png)
-**比较: A[3] <= B[4] 成立，B[3] <= A[4] 不成立**
-2. i 右移两位(*(i-beforeI)/2*), j 同样左移两位  i=6,j=2,beforeI=4
-![image.png](https://pic.leetcode-cn.com/59e1004e516e7d7fed5c3778cc606d0c36b5e789c8d77a00bc77b0417fc45751-image.png)
-**比较: A[5] <= B[2] 不成立，B[1] <= A[6] 成立**
-3. i 左移1位(*(i-beforeI)/2*), j 同样左移1位    i=5,j=3, beforeI=6
-![image.png](https://pic.leetcode-cn.com/1492f029a2104805569f5de7d992b8c527fb27a4d8962a15fe223f6c4b33d61d-image.png)
-**比较: A[5] <= B[2] 成立，B[1] <= A[6] 成立**
-中间值 (Max(A[4],B[2]) + Min(A[5],B[3])) / 2 = 5.5
+// # 原理展示：
+// 两个数组 **A [1,2,3,4,5,6,7,8]**, **B [3,4,5,6,7,8,9,10]**
+// ![image.png](https://pic.leetcode-cn.com/c56c8f1aacc982d30bed4f6cf5e31d100d98ec0e3305a1fe053c366111a0f6a7-image.png)
+// 1. 两个数组二分 i=4, j=4, beforeI=0
+// ![image.png](https://pic.leetcode-cn.com/1cd5d35641128d2347d2227282bd19cd5af2f539d8b8f9f9b8646140b5ed68fa-image.png)
+// **比较: A[3] <= B[4] 成立，B[3] <= A[4] 不成立**
+// 2. i 右移两位(*(i-beforeI)/2*), j 同样左移两位  i=6,j=2,beforeI=4
+// ![image.png](https://pic.leetcode-cn.com/59e1004e516e7d7fed5c3778cc606d0c36b5e789c8d77a00bc77b0417fc45751-image.png)
+// **比较: A[5] <= B[2] 不成立，B[1] <= A[6] 成立**
+// 3. i 左移1位(*(i-beforeI)/2*), j 同样左移1位    i=5,j=3, beforeI=6
+// ![image.png](https://pic.leetcode-cn.com/1492f029a2104805569f5de7d992b8c527fb27a4d8962a15fe223f6c4b33d61d-image.png)
+// **比较: A[5] <= B[2] 成立，B[1] <= A[6] 成立**
+// 中间值 (Max(A[4],B[2]) + Min(A[5],B[3])) / 2 = 5.5
 
-# O(log(m+n))
-```javascript
+// # O(log(m+n))
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -80,9 +80,9 @@ var findMedianSortedArrays = function (nums1, nums2) {
         }
     }
 };
-```
-# O((m+n)/2) => O(n)
-```javascript
+// ```
+// # O((m+n)/2) => O(n)
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -122,4 +122,4 @@ var findMedianSortedArrays = function (nums1, nums2) {
         }
     }
 };
-```
+// ```

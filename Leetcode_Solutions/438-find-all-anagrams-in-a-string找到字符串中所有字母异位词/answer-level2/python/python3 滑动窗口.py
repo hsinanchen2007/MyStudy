@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
@@ -18,4 +18,4 @@ class Solution:
             if sCounter[s[i-len(p)+1]] == 0:
                 del sCounter[s[i-len(p)+1]]
         return res
-```
+# ```

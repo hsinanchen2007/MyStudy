@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int repeatedNTimes(int* A, int ASize){
     int i,j;
     for(i=0;i<ASize;i++){
@@ -15,4 +15,4 @@ int repeatedNTimes(int* A, int ASize){
     }
     return 0;
 }
-```
+// ```

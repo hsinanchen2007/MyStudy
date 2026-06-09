@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/02dc941f861a4c2f302b67a877a24bed7f0a977757724f9c87e21a2d68709666-image.png)
+# ![image.png](https://pic.leetcode-cn.com/02dc941f861a4c2f302b67a877a24bed7f0a977757724f9c87e21a2d68709666-image.png)
 
 
-```
+# ```
 
 '''
 有序结构维护扫描过的前缀和，用二分法查找合适的前缀和
@@ -32,4 +32,4 @@ class Solution:
             buf.add(dp[i])
 
         return ans
-```
+# ```

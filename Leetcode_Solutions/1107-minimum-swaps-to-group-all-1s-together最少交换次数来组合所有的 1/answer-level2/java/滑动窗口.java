@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int minSwaps(int[] data) {
         // 1. 统计数组中元素值等于 1 的个数
@@ -32,4 +32,4 @@ class Solution {
         return k - maxOneCounts;
     }
 }
-```
+// ```

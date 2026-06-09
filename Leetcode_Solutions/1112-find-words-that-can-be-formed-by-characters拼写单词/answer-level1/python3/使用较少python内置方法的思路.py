@@ -1,9 +1,9 @@
-### 解题思路
-使用较少的内置方法，体现思考过程而非pythonic
+# ### 解题思路
+# 使用较少的内置方法，体现思考过程而非pythonic
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         letter_dict_origin={}
@@ -31,4 +31,4 @@ class Solution:
                 sum+=len(w)
         return sum
 
-```
+# ```

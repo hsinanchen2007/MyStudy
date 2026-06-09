@@ -1,8 +1,8 @@
-还没进行优化，时间效率80左右。
-在滑动窗口的基础上，多了一个middle指针来记录left指针如何跳转。
-### 代码
+# 还没进行优化，时间效率80左右。
+# 在滑动窗口的基础上，多了一个middle指针来记录left指针如何跳转。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
         if len(tree) <= 2:
@@ -30,4 +30,4 @@ class Solution:
                 left = middle
                 middle = right
         return r
-```
+# ```

@@ -1,5 +1,5 @@
-**思路: 依次对每行进行遍历, 对每一个空位尝试填入1-9, 若1-9均无效则无解, 若便利完9x9表格则成果**
-```
+// **思路: 依次对每行进行遍历, 对每一个空位尝试填入1-9, 若1-9均无效则无解, 若便利完9x9表格则成果**
+// ```
 class Solution {
         public void solveSudoku(char[][] board) {
         Set<Character>[] rowSet = (Set<Character>[])new HashSet[board.length];
@@ -43,4 +43,4 @@ class Solution {
     }
 
 }
-```
+// ```

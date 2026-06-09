@@ -1,9 +1,9 @@
-### 解题思路
-数据分为有序段和无序段进行二分查找
+# ### 解题思路
+# 数据分为有序段和无序段进行二分查找
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int findMin(int[] nums) {
         // 二分法查找
@@ -34,8 +34,8 @@ class Solution {
         return minV;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         N = len(nums)
@@ -56,8 +56,8 @@ class Solution:
                 end = mid
 
         return minV
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -88,4 +88,4 @@ public:
         return minV;
     }
 };
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-题目缺少一种测试用列 导致 我这里用if也能通过，其实应该用while
-例如对于[2, 3, 1, 0, 1, 5, 6] ，下面这个代码用if就有问题。
+# ### 解题思路
+# 题目缺少一种测试用列 导致 我这里用if也能通过，其实应该用while
+# 例如对于[2, 3, 1, 0, 1, 5, 6] ，下面这个代码用if就有问题。
 
 
-```python
+# ```python
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         for i in range(len(nums)):
@@ -15,4 +15,4 @@ class Solution:
                 nums[i],nums[tmp]=nums[tmp],nums[i]
             
 
-```
+# ```

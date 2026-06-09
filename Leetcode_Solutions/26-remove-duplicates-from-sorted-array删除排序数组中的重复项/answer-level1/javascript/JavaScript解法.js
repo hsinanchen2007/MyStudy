@@ -1,7 +1,7 @@
-思路：
-双指针解法。快指针遍历数组，当遇到满足条件的项则更新慢指针所在项，并更新慢指针。
+// 思路：
+// 双指针解法。快指针遍历数组，当遇到满足条件的项则更新慢指针所在项，并更新慢指针。
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var removeDuplicates = function(nums) {
     }
     return slowPointer
 };
-```
+// ```

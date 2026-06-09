@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/0a7d86a04175ee7814b453f972dc883114d0346cea32f743c490e9706ed1060c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0a7d86a04175ee7814b453f972dc883114d0346cea32f743c490e9706ed1060c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool detectCapitalUse(char * word){
     int head = isupper(word[0]) ? 1 : 0;
     if (strlen(word) == 1) {
@@ -25,4 +25,4 @@ bool detectCapitalUse(char * word){
 
     return true;
 }
-```
+// ```

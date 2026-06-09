@@ -1,6 +1,6 @@
-1.用了unordered_map来记录元素的个数
-2.判断每个元素个数是否大于2，是的话，就删除该元素。同时指针i要-1，判断当前的新元素
-```
+// 1.用了unordered_map来记录元素的个数
+// 2.判断每个元素个数是否大于2，是的话，就删除该元素。同时指针i要-1，判断当前的新元素
+// ```
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

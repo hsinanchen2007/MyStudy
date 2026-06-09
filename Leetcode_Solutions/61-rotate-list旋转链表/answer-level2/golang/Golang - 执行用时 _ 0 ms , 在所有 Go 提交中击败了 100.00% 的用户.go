@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历一遍linkedlist得出length和tail
-2. length - k % length 找到需要截断linkedlist的位置，截成前半段list1和后半段list2
-3. 重新拼接链表 -> list2+list1，return newHead
-### 代码
+// ### 解题思路
+// 1. 遍历一遍linkedlist得出length和tail
+// 2. length - k % length 找到需要截断linkedlist的位置，截成前半段list1和后半段list2
+// 3. 重新拼接链表 -> list2+list1，return newHead
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -41,8 +41,8 @@ func rotateRight(head *ListNode, k int) *ListNode {
     current.Next = nil
     return newHead
 }
-```
+// ```
 
-### 复杂度分析
-时间复杂度：O(n) linkedlist的node数量
-空间复杂度：O(1) 只需要常数数量的临时变量
+// ### 复杂度分析
+// 时间复杂度：O(n) linkedlist的node数量
+// 空间复杂度：O(1) 只需要常数数量的临时变量

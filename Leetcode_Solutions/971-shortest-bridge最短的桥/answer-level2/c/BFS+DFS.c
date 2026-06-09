@@ -1,4 +1,4 @@
-```
+// ```
 struct node{
     int x;
     int y;
@@ -95,4 +95,4 @@ int shortestBridge(int** A, int ASize, int* AColSize){
     BFS(A);
     return count;
 }
-```
+// ```

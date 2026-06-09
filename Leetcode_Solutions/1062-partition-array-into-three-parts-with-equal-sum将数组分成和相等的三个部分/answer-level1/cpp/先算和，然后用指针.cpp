@@ -1,9 +1,9 @@
-### 解题思路
-主要先算和是多少，然后注意一下分三段即可
-（本来想用前缀和，但是太菜了。。）
-### 代码
+// ### 解题思路
+// 主要先算和是多少，然后注意一下分三段即可
+// （本来想用前缀和，但是太菜了。。）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -36,4 +36,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-标准DFS模板，盒子放扑克，book为0表示扑克在手中，为1表示放到盒子中，index表示第几个盒子
-切记==别写成=，开内存保证大小别越界，数组维数为个数的阶乘n！，参数有点多，没想好如何优化？谁给个建议
-```
+// 标准DFS模板，盒子放扑克，book为0表示扑克在手中，为1表示放到盒子中，index表示第几个盒子
+// 切记==别写成=，开内存保证大小别越界，数组维数为个数的阶乘n！，参数有点多，没想好如何优化？谁给个建议
+// ```
 int Getnum(int num) {
     if (num == 0) {
         return 0;
@@ -52,4 +52,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     free(temp);
     return ret;
 }
-```
+// ```

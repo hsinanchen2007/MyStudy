@@ -1,17 +1,17 @@
-### 解题思路
-1. 合并n个有序链表
-注意点：
-    - 合并两个有序链表的时候要避免原地修改造成原链表的改变；
-    - 其他注意设计特点。
-2. 构建最大堆
-注意点：
-    - 比较值为``time``的大小；
-    - 其他注意设计特点。
-**由于js中均没有现成的链表或者堆数据结构，代码会看起来比较长，欢迎review**
-### 代码
-> =====> 合并n个有序链表
+// ### 解题思路
+// 1. 合并n个有序链表
+// 注意点：
+//     - 合并两个有序链表的时候要避免原地修改造成原链表的改变；
+//     - 其他注意设计特点。
+// 2. 构建最大堆
+// 注意点：
+//     - 比较值为``time``的大小；
+//     - 其他注意设计特点。
+// **由于js中均没有现成的链表或者堆数据结构，代码会看起来比较长，欢迎review**
+// ### 代码
+// > =====> 合并n个有序链表
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -151,10 +151,10 @@ Twitter.prototype.unfollow = function(followerId, followeeId) {
 };
 
 
-```
+// ```
 
-> =====> 堆的insert和pop
-```javascript
+// > =====> 堆的insert和pop
+// ```javascript
 /**
  * 大根堆构建
  * @constructor
@@ -348,4 +348,4 @@ Twitter.prototype.unfollow = function(followerId, followeeId) {
     }
 };
 
-```
+// ```

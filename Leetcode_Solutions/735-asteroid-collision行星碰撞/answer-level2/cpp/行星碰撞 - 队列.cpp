@@ -1,9 +1,9 @@
-### 解题思路
-队列，但注意入队和出队的条件，另外注意队列是先进后出，后进先出
+// ### 解题思路
+// 队列，但注意入队和出队的条件，另外注意队列是先进后出，后进先出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
@@ -43,4 +43,4 @@ public:
         return res ;
     }
 };
-```
+// ```

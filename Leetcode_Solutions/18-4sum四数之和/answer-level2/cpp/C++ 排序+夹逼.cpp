@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再左右夹逼
+// ### 解题思路
+// 先排序，再左右夹逼
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -33,4 +33,4 @@ public:
         return result;
     }
 };
-```
+// ```

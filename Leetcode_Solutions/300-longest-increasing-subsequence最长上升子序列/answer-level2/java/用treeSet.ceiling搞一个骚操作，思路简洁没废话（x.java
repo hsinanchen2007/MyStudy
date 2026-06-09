@@ -1,7 +1,7 @@
 
-### 方法一：暴力dp
-直接看代码，很好懂
-```java
+// ### 方法一：暴力dp
+// 直接看代码，很好懂
+// ```java
 public int lengthOfLIS(int[] nums) {
     if (nums == null || nums.length == 0) {
         return 0;
@@ -26,10 +26,10 @@ public int lengthOfLIS(int[] nums) {
     return res;
 }
 
-```
+// ```
 
-### 方法二：二分法
-```java
+// ### 方法二：二分法
+// ```java
 //使用二分优化
 //优化：一旦前面有两个dp值一样了，比如dp[i] = dp[j],并缺nums[i] > nums[j] ，那就只要考虑第j个就可以了
 //启示：同样的dp值，存一个坐标，这个坐标对应的nums[index]值最小。
@@ -53,10 +53,10 @@ public int lengthOfLIS(int[] nums) {
     }
     return res;
 }
-```
+// ```
 
-### 方法三：TreeSet
-```java
+// ### 方法三：TreeSet
+// ```java
 //利用更简单的API TreeSet的Ceiling方法，应该是logN？？但是最坏情况下会退化的把
 //TreeSet.ceiling(x)方法可以直接找出set中大于x的最小数字，如果不存在则返回null。
 //1、如果这个数字存在，则删除这个数字，然后把x插入set中，相当于代替该数字。
@@ -79,5 +79,5 @@ public int lengthOfLIS(int[] nums) {
     }
     return set.size();
 }
-```
-![image.png](https://pic.leetcode-cn.com/fb3d795c5e840363af2e6142e2c836732b080017c666b386d6cbeeb3826140da-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/fb3d795c5e840363af2e6142e2c836732b080017c666b386d6cbeeb3826140da-image.png)

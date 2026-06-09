@@ -1,9 +1,9 @@
-### 解题思路
-思路如下。
+// ### 解题思路
+// 思路如下。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minArray(int[] numbers) {
         if (numbers == null || numbers.length == 0) {
@@ -30,4 +30,4 @@ class Solution {
         return numbers[left];
     }
 }
-```
+// ```

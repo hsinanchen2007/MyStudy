@@ -1,5 +1,5 @@
-想法就是用Hash表存映射、再出现就去比对，需要注意的地方是只能一对一，那再加个Set去重Value。
-```
+// 想法就是用Hash表存映射、再出现就去比对，需要注意的地方是只能一对一，那再加个Set去重Value。
+// ```
 public boolean wordPattern(String pattern, String str) {
         if (pattern == null || str == null || str.length() == 0) return false;
         String[] strings = str.split(" ");
@@ -20,5 +20,5 @@ public boolean wordPattern(String pattern, String str) {
             }
         }
         return true;
-```
-![图片.png](https://pic.leetcode-cn.com/aff1406edcabfbda528dac12b8d137f0a90bb5b70f57c3a377133d4738c371ea-%E5%9B%BE%E7%89%87.png)
+// ```
+// ![图片.png](https://pic.leetcode-cn.com/aff1406edcabfbda528dac12b8d137f0a90bb5b70f57c3a377133d4738c371ea-%E5%9B%BE%E7%89%87.png)

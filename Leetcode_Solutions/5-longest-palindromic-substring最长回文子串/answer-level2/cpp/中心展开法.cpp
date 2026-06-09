@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-从中心展开判断两边是否对称，中心有可能是某个点（奇数长度），或者是两点之间（偶数长度）
+// 从中心展开判断两边是否对称，中心有可能是某个点（奇数长度），或者是两点之间（偶数长度）
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int expand(string s, int left, int right) {
@@ -33,4 +33,4 @@ public:
         return s.substr(start, maxLen);
     }
 };
-```
+// ```

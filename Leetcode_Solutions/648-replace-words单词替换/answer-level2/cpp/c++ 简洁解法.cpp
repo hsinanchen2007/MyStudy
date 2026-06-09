@@ -1,4 +1,4 @@
-```
+// ```
 struct Trie{
     bool isEnd;
     Trie* next[26];
@@ -43,4 +43,4 @@ public:
         return move(res);
     }
 };
-```
+// ```

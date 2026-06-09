@@ -1,8 +1,8 @@
-**本题乍一看比较复杂，需要统计每个字母出现的次数（双指针题目的惯性）**
-**但实际上只需要检查typed中是否存在name即可**
+# **本题乍一看比较复杂，需要统计每个字母出现的次数（双指针题目的惯性）**
+# **但实际上只需要检查typed中是否存在name即可**
 
 
-        ```
+#         ```
     class Solution(object):
         def isLongPressedName(self, name, typed):
         """
@@ -18,5 +18,5 @@
                 if left==len(name):
                     return True
             return False
-        ```
+#         ```
 

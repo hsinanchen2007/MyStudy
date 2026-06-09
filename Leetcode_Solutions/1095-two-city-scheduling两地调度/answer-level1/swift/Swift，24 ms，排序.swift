@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func twoCitySchedCost(_ costs: [[Int]]) -> Int {
         let costsCountHalf = costs.count / 2
@@ -26,4 +26,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

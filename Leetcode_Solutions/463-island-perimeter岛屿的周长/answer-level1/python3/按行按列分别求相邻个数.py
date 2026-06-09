@@ -1,12 +1,12 @@
-### 解题思路
-    #第一步，由于所有1相连，所以直接求1的个数作为有效1的个数
-    #第二步，按行求相邻1的个数
-    #第三步。按列求相邻1的个数
-    #第四步，周长=4*有效1-2*（行相邻+列相邻）
+# ### 解题思路
+#     #第一步，由于所有1相连，所以直接求1的个数作为有效1的个数
+#     #第二步，按行求相邻1的个数
+#     #第三步。按列求相邻1的个数
+#     #第四步，周长=4*有效1-2*（行相邻+列相邻）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
     #第一步，由于所有1相连，所以直接求1的个数作为有效1的个数
@@ -34,4 +34,4 @@ class Solution:
                     count_col=count_col+1
         zhouchang=count_useable*4-2*(count_col+count_row)
         return zhouchang
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1、反转字符串
-2、排序
-3、比较
+// ### 解题思路
+// 1、反转字符串
+// 2、排序
+// 3、比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

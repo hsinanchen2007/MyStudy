@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 int numUniqueEmails(vector<string>& emails)
@@ -26,4 +26,4 @@ return ans.size();//set<string>ans;容器会自动去重
 };
 
 
-```
+// ```

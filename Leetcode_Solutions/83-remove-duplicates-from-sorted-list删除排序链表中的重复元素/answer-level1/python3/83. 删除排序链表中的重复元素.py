@@ -1,4 +1,4 @@
-这里用了python的多元变换
+# 这里用了python的多元变换
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         if not head or not head.next: return head

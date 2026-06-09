@@ -1,4 +1,4 @@
-单纯的if语句写成的
+// 单纯的if语句写成的
 int kthGrammar(int N, int K){
     if(N==1)
     {

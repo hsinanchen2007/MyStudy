@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 确认当前位置的另外一位
-2. 找到情侣另外一个人，交换次数+1
-3. 复杂度 O(n^2)，数据量大的话可以使用hash来存储情侣号码和座位号 复杂度降为O(n)
+// 1. 确认当前位置的另外一位
+// 2. 找到情侣另外一个人，交换次数+1
+// 3. 复杂度 O(n^2)，数据量大的话可以使用hash来存储情侣号码和座位号 复杂度降为O(n)
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func minSwapsCouples(_ row: [Int]) -> Int {
         var rowMut = row
@@ -46,9 +46,9 @@ class Solution {
 	return exCount;
     }
 }
-```
-<br>
-![sf (1).png](https://pic.leetcode-cn.com/9cdd986d3a7b712c6267600049a70e81c5eca53ddffaf4318e8621d560dd3081-sf%20\(1\).png)
-# [更多题解见github 关注我 带你领略更多解法 欢迎start](https://github.com/ifgyong/SF#765-%E6%83%85%E4%BE%A3%E7%89%B5%E6%89%8B)
-# [更多题解见github 关注我 带你领略更多解法 欢迎start](https://github.com/ifgyong/SF)
-# [更多题解见github 关注我 带你领略更多解法 欢迎start](https://github.com/ifgyong/SF)
+// ```
+// <br>
+// ![sf (1).png](https://pic.leetcode-cn.com/9cdd986d3a7b712c6267600049a70e81c5eca53ddffaf4318e8621d560dd3081-sf%20\(1\).png)
+// # [更多题解见github 关注我 带你领略更多解法 欢迎start](https://github.com/ifgyong/SF#765-%E6%83%85%E4%BE%A3%E7%89%B5%E6%89%8B)
+// # [更多题解见github 关注我 带你领略更多解法 欢迎start](https://github.com/ifgyong/SF)
+// # [更多题解见github 关注我 带你领略更多解法 欢迎start](https://github.com/ifgyong/SF)

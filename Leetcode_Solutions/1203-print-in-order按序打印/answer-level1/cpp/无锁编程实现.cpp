@@ -1,9 +1,9 @@
-### 解题思路
-使用atomic<int>,循环检测是否满足条件。
+// ### 解题思路
+// 使用atomic<int>,循环检测是否满足条件。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Foo {
 public:
     Foo() {
@@ -33,4 +33,4 @@ public:
 private:
     std::atomic<int> counter;
 };
-```
+// ```

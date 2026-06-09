@@ -1,10 +1,10 @@
-### 解题思路
-递归调用代码，比较简单，就是把逻辑写出来就好。CountAndSay 
-时间复杂度不太会算应该是O（N ^ 2）
-空间复杂度使用了n个系统栈为O(N)
-### 代码
+// ### 解题思路
+// 递归调用代码，比较简单，就是把逻辑写出来就好。CountAndSay 
+// 时间复杂度不太会算应该是O（N ^ 2）
+// 空间复杂度使用了n个系统栈为O(N)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
     if(n == 1) return "1";
@@ -23,4 +23,4 @@ class Solution {
     return a;
     }
 }
-```
+// ```

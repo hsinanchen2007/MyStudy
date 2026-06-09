@@ -1,8 +1,8 @@
-定义 long long int 不用考虑整数溢出的问题，详情看代码     
-思路： 利用二分查找思想判断：1.况如果一个版本是坏就去判断它的前一个版本是好的，如果是好的那么它就是第一个坏的版本， 如果它的前一个是坏的，那么向左找；2. 如果一个版本是好的，直接向右找。     
-C++ 版代码：    
+// 定义 long long int 不用考虑整数溢出的问题，详情看代码     
+// 思路： 利用二分查找思想判断：1.况如果一个版本是坏就去判断它的前一个版本是好的，如果是好的那么它就是第一个坏的版本， 如果它的前一个是坏的，那么向左找；2. 如果一个版本是好的，直接向右找。     
+// C++ 版代码：    
 
-```angelscript
+// ```angelscript
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
@@ -30,10 +30,10 @@ public:
         // return  (int)medium;   强制转换一下也可以
     }
 };
-```
-Java版代码：
+// ```
+// Java版代码：
   
-```angelscript
+// ```angelscript
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
@@ -61,5 +61,5 @@ public class Solution extends VersionControl {
 		return  medium;
     }
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-字符串，就是对字符的处理，记录字符出现的次数，很多算法都是围绕着字符次数而设计的
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 字符串，就是对字符的处理，记录字符出现的次数，很多算法都是围绕着字符次数而设计的
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         int[] charCounts = new int[256];
@@ -20,4 +20,4 @@ class Solution {
         return returnPlain;
     }
 }
-```
+// ```

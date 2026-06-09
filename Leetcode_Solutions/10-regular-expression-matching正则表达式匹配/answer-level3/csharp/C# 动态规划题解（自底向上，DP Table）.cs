@@ -1,6 +1,6 @@
-关键在于在两个字符串首部加入'$'字符，优化DP Table初始化以及边际条件的判断。
+// 关键在于在两个字符串首部加入'$'字符，优化DP Table初始化以及边际条件的判断。
 
-```
+// ```
 public class Solution {
     public bool IsMatch(string s_1, string p_1) {
         string s = "$" + s_1;
@@ -39,4 +39,4 @@ public class Solution {
         return DPTable[count_s-1, count_p-1];
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-1. 题目中的波浪数组即为数组中的奇数位比相邻的偶数位的数字小，或者数组中的所有偶数位的数字比相邻的奇数位的数字小；
-2. 我们只需要求出这两种变动方式下，数组的数需要变动的最小值；
-3. 只需要求出，如果使得数组中的对应位的数变为比相邻的数都小的最小变动的值；
+// 1. 题目中的波浪数组即为数组中的奇数位比相邻的偶数位的数字小，或者数组中的所有偶数位的数字比相邻的奇数位的数字小；
+// 2. 我们只需要求出这两种变动方式下，数组的数需要变动的最小值；
+// 3. 只需要求出，如果使得数组中的对应位的数变为比相邻的数都小的最小变动的值；
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int movesToMakeZigzag(vector<int>& nums) {
@@ -33,8 +33,8 @@ public:
         return min(ans1,ans2);
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def movesToMakeZigzag(self, nums: List[int]) -> int:
         ans1 = 0
@@ -62,8 +62,8 @@ class Solution:
             idx  += 2
             
         return min(ans1,ans2)
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int movesToMakeZigzag(int[] nums) {
         int ans1 = 0;
@@ -94,4 +94,4 @@ class Solution {
         return Math.min(ans1,ans2);
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-多使用了一个队列，两个数组一起遍历，谁小放谁进queue。最后dequeue，赋值给nums1.
+// 多使用了一个队列，两个数组一起遍历，谁小放谁进queue。最后dequeue，赋值给nums1.
 
-实现也许不够nice，但也提供一种思路。队列本身也是一种数组嘛。。
+// 实现也许不够nice，但也提供一种思路。队列本身也是一种数组嘛。。
 
-```
+// ```
 /*
  * @lc app=leetcode.cn id=88 lang=csharp
  *
@@ -84,6 +84,6 @@ public class Solution {
 }
 
 
-```
+// ```
 
 

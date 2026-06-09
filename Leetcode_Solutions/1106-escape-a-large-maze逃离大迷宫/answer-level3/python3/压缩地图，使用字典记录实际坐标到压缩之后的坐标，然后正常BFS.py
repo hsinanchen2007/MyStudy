@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def isEscapePossible(self, blocked, source, target) -> bool:
         tmp = blocked+[source]+[target]
@@ -33,6 +33,6 @@ class Solution:
                         blocked.add((row,col))
             q=s
         return False
-```
+# ```
 
 

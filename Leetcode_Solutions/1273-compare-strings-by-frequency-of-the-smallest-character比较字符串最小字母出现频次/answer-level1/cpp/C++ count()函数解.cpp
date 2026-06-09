@@ -1,6 +1,6 @@
-## 思路
-因为题目给出了字符范围，所以我们可以用一个循环加count统计第一个出现的字符的个数，然后进行对比即可
-```
+// ## 思路
+// 因为题目给出了字符范围，所以我们可以用一个循环加count统计第一个出现的字符的个数，然后进行对比即可
+// ```
 class Solution {
 public:
 	vector<int > getCount(vector<string >& v) {
@@ -40,4 +40,4 @@ public:
 		return result;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func good(n int ,flag bool) bool {
 	if n == 0 {
 		return  flag
@@ -25,4 +25,4 @@ func rotatedDigits(N int) int {
 	}
 	return ans
 }
-```
+// ```

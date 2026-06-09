@@ -1,7 +1,7 @@
 
-毋宁说，直接上代码，官方优化了一下，这个看着更直观。
-Java
-```java
+// 毋宁说，直接上代码，官方优化了一下，这个看着更直观。
+// Java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ class Solution {
     }
     
 }
-```
+// ```

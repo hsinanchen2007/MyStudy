@@ -1,8 +1,8 @@
-### 解题思路
-一开始是没有头绪的，翻了不少题解，弄明白了其实就是找()括号里面的东西，包了一层的里面算做原语。两层的不算。
-### 代码
+// ### 解题思路
+// 一开始是没有头绪的，翻了不少题解，弄明白了其实就是找()括号里面的东西，包了一层的里面算做原语。两层的不算。
+// ### 代码
 
-```golang
+// ```golang
 func removeOuterParentheses(S string) string {
     var stack []string
     result:=""
@@ -23,11 +23,11 @@ func removeOuterParentheses(S string) string {
     }
     return result
 }
-```
-上面用go实现的版本，用时和内存消耗着实太低。主要在于slice的位移操作，复杂度都达到0(n2)了。
+// ```
+// 上面用go实现的版本，用时和内存消耗着实太低。主要在于slice的位移操作，复杂度都达到0(n2)了。
 
-看下别人大佬运行0ms的答案确实牛逼。
-```go
+// 看下别人大佬运行0ms的答案确实牛逼。
+// ```go
 
 func removeOuterParentheses(S string) string {
 	level := 0
@@ -45,4 +45,4 @@ func removeOuterParentheses(S string) string {
 	}
     return string(res)
 }
-```
+// ```

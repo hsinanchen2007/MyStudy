@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] xorQueries(int[] arr, int[][] queries) {
         for (int i=1;i<arr.length;i++)
@@ -18,4 +18,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

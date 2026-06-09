@@ -1,5 +1,5 @@
-通过将s翻转，然后比对翻转前和翻转后的结果来判断。108ms，7.8M
-```
+// 通过将s翻转，然后比对翻转前和翻转后的结果来判断。108ms，7.8M
+// ```
 char * longestPalindrome(char * s){
     int i, j, k;
     int startIdx = 0;
@@ -25,5 +25,5 @@ char * longestPalindrome(char * s){
     *(out + outLen) = '\0';
     return out;
 }
-```
+// ```
 

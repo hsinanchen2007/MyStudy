@@ -1,7 +1,7 @@
-中序遍历树,挨个比较值的大小.
-python yield真方便...
+# 中序遍历树,挨个比较值的大小.
+# python yield真方便...
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
                 return False
             num = i
         return True
-```
+# ```

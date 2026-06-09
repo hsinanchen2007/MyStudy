@@ -1,9 +1,9 @@
-### 解题思路
-将B中元素逐个加到A列表末尾，然后用sort函数迅速得出结果
+# ### 解题思路
+# 将B中元素逐个加到A列表末尾，然后用sort函数迅速得出结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -12,4 +12,4 @@ class Solution:
         for i in range(n):
             A[m + i] = B[i] 
         return A.sort()
-```
+# ```

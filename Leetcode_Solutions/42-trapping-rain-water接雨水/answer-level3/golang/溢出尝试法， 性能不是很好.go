@@ -1,11 +1,11 @@
-当前位置 寻找左边的位置 最大值(leftMax)
-当前位置 寻找右边的位置 最大值(rigtMax)
+// 当前位置 寻找左边的位置 最大值(leftMax)
+// 当前位置 寻找右边的位置 最大值(rigtMax)
 
-获取最小的值min(leftMax, rightMax)
-和当前的值比较出算出该位置应该需要存的量
+// 获取最小的值min(leftMax, rightMax)
+// 和当前的值比较出算出该位置应该需要存的量
 
 
-```go
+// ```go
 func trap(height []int) int {
     var start, total int
     for i, v := range height {
@@ -48,4 +48,4 @@ func rightMax(i int,  s []int) int{
     if tmpMax > current { return tmpMax}
     return 0
 }
-```
+// ```

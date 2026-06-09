@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4801aef1055cbf3ff1a4c960e37d5b8a98776e245dd95ef211784026dbcfc53a-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4801aef1055cbf3ff1a4c960e37d5b8a98776e245dd95ef211784026dbcfc53a-image.png)
 
-用数组垂死挣扎，勉强没超时。orz
+// 用数组垂死挣扎，勉强没超时。orz
 
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class LFUCache {
     /**
      * @param Integer $capacity
@@ -68,4 +68,4 @@ class LFUCache {
  * $ret_1 = $obj->get($key);
  * $obj->put($key, $value);
  */
-```
+// ```

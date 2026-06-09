@@ -1,10 +1,10 @@
-### 解题思路
-二分查找
-* 二分查找标准解法，中间调用一次guess API比大小即可
+# ### 解题思路
+# 二分查找
+# * 二分查找标准解法，中间调用一次guess API比大小即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The guess API is already defined for you.
 # @param num, your guess
 # @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -22,4 +22,4 @@ class Solution:
                 r = med - 1
             else:
                 return med
-```
+# ```

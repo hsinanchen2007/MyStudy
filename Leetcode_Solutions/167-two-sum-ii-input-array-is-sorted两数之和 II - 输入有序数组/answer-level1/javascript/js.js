@@ -1,6 +1,6 @@
-### 一遍哈希表
+// ### 一遍哈希表
 
-```js
+// ```js
 const twoSum = function (nums, target) {
   if (Object.prototype.toString.call(nums) !== '[object Array]' || typeof target !== 'number') {
     alert("input type incorrect");
@@ -16,12 +16,12 @@ const twoSum = function (nums, target) {
       arrMap.set(nums[i], i)
   }
 };
-```
-> 124 ms	34.8 MB
+// ```
+// > 124 ms	34.8 MB
 
 
-### 双指针
-```js
+// ### 双指针
+// ```js
 const twoSum = function (nums, target) {
   if (Object.prototype.toString.call(nums) !== '[object Array]' || typeof target !== 'number') return;
 
@@ -38,5 +38,5 @@ const twoSum = function (nums, target) {
     }
   }
 };
-```
-> 84 ms	35.4 MB
+// ```
+// > 84 ms	35.4 MB

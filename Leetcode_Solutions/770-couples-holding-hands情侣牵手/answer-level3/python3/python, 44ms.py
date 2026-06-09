@@ -1,5 +1,5 @@
-将原数组各元素值和索引记录在字典中，遍历靠左的人，右边不是他的对象则调换位置，再更新字典中人的索引即可。
-```
+# 将原数组各元素值和索引记录在字典中，遍历靠左的人，右边不是他的对象则调换位置，再更新字典中人的索引即可。
+# ```
 class Solution:
     def minSwapsCouples(self, row: List[int]) -> int:
         def find(n):
@@ -21,4 +21,4 @@ class Solution:
                 hashMap[t], hashMap[p2] = hashMap[p2], hashMap[t]
                 ans += 1
         return ans
-```
+# ```

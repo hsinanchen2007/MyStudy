@@ -1,12 +1,12 @@
-### 解题思路
-简单遍历即可
+# ### 解题思路
+# 简单遍历即可
 
-这一题避免冗余判断，官方题解值得深思。
+# 这一题避免冗余判断，官方题解值得深思。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         i, j = 0, 0
@@ -26,4 +26,4 @@ class Solution:
             else:
                 result.append(str(k))
         return result
-```
+# ```

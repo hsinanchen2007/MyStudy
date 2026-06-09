@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxSubArray(self, nums):
         """
@@ -24,4 +24,4 @@ class Solution(object):
         return max_res
 
 
-```
+# ```

@@ -1,6 +1,6 @@
-**将26进制转为10进制即可**
+// **将26进制转为10进制即可**
 
-```c
+// ```c
 int titleToNumber(char * s){
     if(!s || s == "")
         return 0;
@@ -10,4 +10,4 @@ int titleToNumber(char * s){
     }
     return ans;
 }
-```
+// ```

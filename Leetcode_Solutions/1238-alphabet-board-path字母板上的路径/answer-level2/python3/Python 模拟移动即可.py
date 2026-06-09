@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/69bb47f641f64cd179c4c3c4961cc7e303c3bbe2bd0ca476ce194a60da4a0fc6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/69bb47f641f64cd179c4c3c4961cc7e303c3bbe2bd0ca476ce194a60da4a0fc6-image.png)
 
 
-```
+# ```
 class Solution:
     def alphabetBoardPath(self, target: str) -> str:
         m = {}      # 字符到位置的映射
@@ -36,4 +36,4 @@ class Solution:
             pos_i, pos_j = t_i, t_j
 
         return ''.join(path)
-```
+# ```

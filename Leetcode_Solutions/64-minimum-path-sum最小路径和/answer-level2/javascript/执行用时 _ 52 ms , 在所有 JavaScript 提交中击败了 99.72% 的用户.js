@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，此题与上一题 leetcode63 不同路径（二） 思路几乎一致，同样创建一个dp数组，里面每个值代表着到这一点的最短路径和，例如dp[2][2]，就代表到达grid[2][2]的最短路径和，推出dp方程为：
-#### dp[i][j] = Math.min(dp[i - 1][j] + grid[i][j], dp[i][j - 1] + grid[i][j])
+// ### 解题思路
+// 动态规划，此题与上一题 leetcode63 不同路径（二） 思路几乎一致，同样创建一个dp数组，里面每个值代表着到这一点的最短路径和，例如dp[2][2]，就代表到达grid[2][2]的最短路径和，推出dp方程为：
+// #### dp[i][j] = Math.min(dp[i - 1][j] + grid[i][j], dp[i][j - 1] + grid[i][j])
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var minPathSum = function(grid) {
   // 行
   const row = grid.length;
@@ -37,4 +37,4 @@ var minPathSum = function(grid) {
 
   return dp[row - 1][col - 1];
 };
-```
+// ```

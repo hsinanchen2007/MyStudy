@@ -1,12 +1,12 @@
-### 解题思路
-直线斜率 k = (y1 - y0) / (x1 - x0) = (y2 - y1) / (x2 - x1) 
-为了避免除法，所以转化为乘法
-(y1 - y0) * (x2 - x1) = (y2 - y1) * (x1 - x0)
-只要两者不相等，即为三点不在一条直线上
+// ### 解题思路
+// 直线斜率 k = (y1 - y0) / (x1 - x0) = (y2 - y1) / (x2 - x1) 
+// 为了避免除法，所以转化为乘法
+// (y1 - y0) * (x2 - x1) = (y2 - y1) * (x1 - x0)
+// 只要两者不相等，即为三点不在一条直线上
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
         for(int i = 2; i < coordinates.length ; i++)
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

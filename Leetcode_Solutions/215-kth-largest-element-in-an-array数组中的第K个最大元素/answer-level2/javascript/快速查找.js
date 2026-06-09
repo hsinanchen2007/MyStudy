@@ -1,4 +1,4 @@
-```js
+// ```js
 // 参考快排序的快速查找
 var findKthLargest = function (nums, k) {
     
@@ -42,4 +42,4 @@ var findKthLargest = function (nums, k) {
     return findLocation(0, nums.length - 1)
 
 };
-```
+// ```

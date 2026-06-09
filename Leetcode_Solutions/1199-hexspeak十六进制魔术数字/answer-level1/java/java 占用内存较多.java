@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String toHexspeak(String num) {
         String numStr1 = Long.toHexString(Long.parseLong(num));
@@ -25,4 +25,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-把传入的迭代器内容存到列表中
-用个数字记录当前的index
-peek只返回列表\[index\]
-next就把index+1后返回列表\[index - 1\]
-进阶要求在这个解法面前真是太弟弟了（逃
-```python
+# 把传入的迭代器内容存到列表中
+# 用个数字记录当前的index
+# peek只返回列表\[index\]
+# next就把index+1后返回列表\[index - 1\]
+# 进阶要求在这个解法面前真是太弟弟了（逃
+# ```python
 class PeekingIterator:
     def __init__(self, iterator):
         """
@@ -38,4 +38,4 @@ class PeekingIterator:
         :rtype: bool
         """
         return not self.cur == len(self.container)
-```
+# ```

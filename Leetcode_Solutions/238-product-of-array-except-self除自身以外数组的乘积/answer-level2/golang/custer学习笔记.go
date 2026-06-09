@@ -1,10 +1,10 @@
-除法解法
+// 除法解法
 
-1. 有序列表求所有数的乘积
-2. 对于有序列表每个数，结果为乘积除以当前数
-3. 注意有序列表0的情况，标记0的位置，如果有两个0就都是0，如果只有一个0，除了0之外都是0。
+// 1. 有序列表求所有数的乘积
+// 2. 对于有序列表每个数，结果为乘积除以当前数
+// 3. 注意有序列表0的情况，标记0的位置，如果有两个0就都是0，如果只有一个0，除了0之外都是0。
 
-```go
+// ```go
 func productExceptSelf(nums []int) []int {
 	var result []int // 输出数组
 	tmp := 1         // 保存乘积的变量
@@ -36,19 +36,19 @@ func productExceptSelf(nums []int) []int {
 	}
 	return result
 }
-```
+// ```
 
-不用除法解法
+// 不用除法解法
 
-1. 换一个角度，乘法满足结合律，a*b*(c)*d*e => [a*b]*[d*e]
-2. (暴力解)对于每个数，算其左边和右边所有数乘积O(N^2)
-3. 思考冗余
-4. 维护两个乘积数组，O(N)
+// 1. 换一个角度，乘法满足结合律，a*b*(c)*d*e => [a*b]*[d*e]
+// 2. (暴力解)对于每个数，算其左边和右边所有数乘积O(N^2)
+// 3. 思考冗余
+// 4. 维护两个乘积数组，O(N)
 
 
-![1559884014644-bf2b6a66-a2f1-4bf2-9aa7-3d4dec64160d.png](https://pic.leetcode-cn.com/981871c2570719c373e584b01cda90db2161e9b9752326712d820a1f89dc933d-1559884014644-bf2b6a66-a2f1-4bf2-9aa7-3d4dec64160d.png)
+// ![1559884014644-bf2b6a66-a2f1-4bf2-9aa7-3d4dec64160d.png](https://pic.leetcode-cn.com/981871c2570719c373e584b01cda90db2161e9b9752326712d820a1f89dc933d-1559884014644-bf2b6a66-a2f1-4bf2-9aa7-3d4dec64160d.png)
 
-```go
+// ```go
 func productExceptSelf(nums []int) []int {
 	left := 1
 	right := 1
@@ -65,4 +65,4 @@ func productExceptSelf(nums []int) []int {
 	}
     return output
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func thirdMax(nums []int) int {
     dict := make(map[int]int, 3)
 	dict[0] = math.MinInt64
@@ -40,4 +40,4 @@ func thirdMax(nums []int) int {
 		return dict[0]
 	}
 }
-```
+// ```

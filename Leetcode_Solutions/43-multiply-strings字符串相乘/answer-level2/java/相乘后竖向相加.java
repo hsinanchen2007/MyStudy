@@ -1,4 +1,4 @@
-```java
+// ```java
 package com.skjilygao.test;
 
 /**
@@ -118,4 +118,4 @@ class MultiplyStrings {
         System.out.println(sumStr);
     }
 }
-```
+// ```

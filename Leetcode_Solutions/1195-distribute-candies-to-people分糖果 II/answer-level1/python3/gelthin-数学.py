@@ -1,14 +1,14 @@
-### 解题思路
-这道题可以采用多种解法，
-+ 1. 模拟分配的过程，逐个遍历，while candies>0: ...
-+ 2. 先计算出 left, 使得， (left+1)*left/2 <= candies < (right+1)*right/2, tmp = candies - (left+1)*left/2, 然后枚举 range(1, left+1), 这个每个小孩分糖果数
-+ 3. 直接全部计算出来， 对于每个 ans[i] 来说，都是一个等差数列，公差为 +people, 只是项数需要仔细计算。
+# ### 解题思路
+# 这道题可以采用多种解法，
+# + 1. 模拟分配的过程，逐个遍历，while candies>0: ...
+# + 2. 先计算出 left, 使得， (left+1)*left/2 <= candies < (right+1)*right/2, tmp = candies - (left+1)*left/2, 然后枚举 range(1, left+1), 这个每个小孩分糖果数
+# + 3. 直接全部计算出来， 对于每个 ans[i] 来说，都是一个等差数列，公差为 +people, 只是项数需要仔细计算。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         # 二分搜索
@@ -67,4 +67,4 @@ class Solution:
 
 
 
-```
+# ```

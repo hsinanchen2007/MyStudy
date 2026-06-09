@@ -1,12 +1,12 @@
-# 思路
-理解题目意思后就明白，是要寻找比当前数更大的下一个数，直接使用单调栈即可。
+// # 思路
+// 理解题目意思后就明白，是要寻找比当前数更大的下一个数，直接使用单调栈即可。
 
-ps：关于单调栈，可以参考之前写过的题解
-1、[https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-di-jian-zhan-by-huangyt/]()
-2、[https://leetcode-cn.com/problems/maximum-width-ramp/solution/dan-diao-di-jian-zhan-on-by-huangyt/]()
+// ps：关于单调栈，可以参考之前写过的题解
+// 1、[https://leetcode-cn.com/problems/sliding-window-maximum/solution/dan-diao-di-jian-zhan-by-huangyt/]()
+// 2、[https://leetcode-cn.com/problems/maximum-width-ramp/solution/dan-diao-di-jian-zhan-on-by-huangyt/]()
 
-# 实现
-```
+// # 实现
+// ```
 class Solution {
     public int[] nextLargerNodes(ListNode head) {
         int[] arr = new int[10000];
@@ -31,6 +31,6 @@ class Solution {
         return result;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/65387635444098645c86f826935edf618c1cfc9b5ab6f92ed091ea50f391a6b7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/65387635444098645c86f826935edf618c1cfc9b5ab6f92ed091ea50f391a6b7-image.png)
 

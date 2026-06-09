@@ -1,6 +1,6 @@
- 是做出来了，但是感觉非常不优雅，难受
+//  是做出来了，但是感觉非常不优雅，难受
 
-```php
+// ```php
 class MyStack
 {
     protected $queue1;
@@ -59,4 +59,4 @@ class MyStack
         return $this->queue1->isEmpty() && $this->queue2->isEmpty();
     }
 }
-```
+// ```

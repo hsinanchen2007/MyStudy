@@ -1,8 +1,8 @@
-题很简单
-1. 找到车
-2. 横竖遍历
-3. 碰到白象、边界停止，碰到卒 result++
-```
+// 题很简单
+// 1. 找到车
+// 2. 横竖遍历
+// 3. 碰到白象、边界停止，碰到卒 result++
+// ```
     public int numRookCaptures(char[][] board) {
         int top = 0;
         int bottom = 0;
@@ -69,4 +69,4 @@
         }
         return top + bottom + left + right;
     }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1、dp定义以i为结尾的最大升序子序列长度
-2、nums[i] > nums[j]的时候才能更新长度
-3、dp[i] = maxValue + 1
+// ### 解题思路
+// 1、dp定义以i为结尾的最大升序子序列长度
+// 2、nums[i] > nums[j]的时候才能更新长度
+// 3、dp[i] = maxValue + 1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -27,4 +27,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

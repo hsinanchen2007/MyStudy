@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/69a674e6d44d9577c52959d0ab79d4e0725d98b775aa135f4a9b9fe8f461f534-image.png)
+// ![image.png](https://pic.leetcode-cn.com/69a674e6d44d9577c52959d0ab79d4e0725d98b775aa135f4a9b9fe8f461f534-image.png)
 
 
-```
+// ```
 char *convert(char *s, int numRows) {
 	if (numRows <= 1)
 		return s;
@@ -30,4 +30,4 @@ char *convert(char *s, int numRows) {
 	res[pres] = '\0';
 	return res;
 }
-```
+// ```

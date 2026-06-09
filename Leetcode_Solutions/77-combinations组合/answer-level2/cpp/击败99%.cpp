@@ -1,9 +1,9 @@
-如图：
-![image.png](https://pic.leetcode-cn.com/7088a52afccab704984e4bb223160150226d08aa8d0ef41da343ac651bd01688-image.png)
+// 如图：
+// ![image.png](https://pic.leetcode-cn.com/7088a52afccab704984e4bb223160150226d08aa8d0ef41da343ac651bd01688-image.png)
 
-注意剪枝！剪枝时考虑，当前cur中元素个数与递归到的位置，如果k>cur.size()+(n+1-i),就算把当前位置i以及之后所有元素都加到cur中，也凑不齐k个元素，所以可以不考虑这个部分。
+// 注意剪枝！剪枝时考虑，当前cur中元素个数与递归到的位置，如果k>cur.size()+(n+1-i),就算把当前位置i以及之后所有元素都加到cur中，也凑不齐k个元素，所以可以不考虑这个部分。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> combine(int n, int k) {
@@ -24,7 +24,7 @@ public:
         }
     }
 };
-```
+// ```
 
 
 

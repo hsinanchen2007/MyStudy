@@ -1,5 +1,5 @@
-参考高手写的，自己复制一个
-```
+// 参考高手写的，自己复制一个
+// ```
 理想的方法执行用时 :40 ms, 在所有 csharp 提交中击败了98.36%的用户
 内存消耗 :13.6 MB, 在所有 csharp 提交中击败了16.28%的用户
 public class Solution {
@@ -13,9 +13,9 @@ public class Solution {
         return num;
     }
 }
-```
+// ```
 
-```
+// ```
 容易理解的方法
 public class Solution {
     public int AddDigits(int num) {
@@ -32,4 +32,4 @@ public class Solution {
         return num;
     }
 }
-```
+// ```

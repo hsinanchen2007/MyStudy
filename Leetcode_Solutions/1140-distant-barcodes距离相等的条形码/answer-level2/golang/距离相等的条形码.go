@@ -1,9 +1,9 @@
-### 解题思路
-计数, 最大堆
+// ### 解题思路
+// 计数, 最大堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //	1054
 func rearrangeBarcodes(barcodes []int) []int {
 	res := make([]int, 0, len(barcodes))
@@ -69,4 +69,4 @@ func (pq *CodeCntMaxHeap) Peek() CodeCnt {
 	return (*pq)[0]
 }
 
-```
+// ```

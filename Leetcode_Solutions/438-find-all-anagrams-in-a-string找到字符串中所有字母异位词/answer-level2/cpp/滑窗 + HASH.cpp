@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-滑窗法求解，思路类似 [76.最小覆盖字串](https://leetcode-cn.com/problems/minimum-window-substring/)
+// 滑窗法求解，思路类似 [76.最小覆盖字串](https://leetcode-cn.com/problems/minimum-window-substring/)
 
-[思路](https://leetcode-cn.com/problems/minimum-window-substring/solution/shuang-zhi-zhen-hash-by-hw_wt/)
+// [思路](https://leetcode-cn.com/problems/minimum-window-substring/solution/shuang-zhi-zhen-hash-by-hw_wt/)
 
-滑窗 + HASH
-52ms 11.1M
---- wangtao HW-2020/3/8
+// 滑窗 + HASH
+// 52ms 11.1M
+// --- wangtao HW-2020/3/8
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
@@ -49,4 +49,4 @@ public:
         return ans;
     }
 };
-```
+// ```

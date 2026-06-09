@@ -1,9 +1,9 @@
-### 解题思路
-遇到判断合法括号的题，第一反应一定不是想到栈，而是想到遇到左括号++，右括号--
+// ### 解题思路
+// 遇到判断合法括号的题，第一反应一定不是想到栈，而是想到遇到左括号++，右括号--
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -22,4 +22,4 @@ public:
         return ret;
     }
 };
-```
+// ```

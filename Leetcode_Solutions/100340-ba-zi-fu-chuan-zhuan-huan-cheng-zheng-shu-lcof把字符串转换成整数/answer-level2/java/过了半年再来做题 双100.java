@@ -1,7 +1,7 @@
 
-半年前，我以为  负负正正 是正数  今天才知道是负数
+// 半年前，我以为  负负正正 是正数  今天才知道是负数
 
-```
+// ```
 class Solution {
     public int strToInt(String str) {
         if(str==null) {
@@ -49,4 +49,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

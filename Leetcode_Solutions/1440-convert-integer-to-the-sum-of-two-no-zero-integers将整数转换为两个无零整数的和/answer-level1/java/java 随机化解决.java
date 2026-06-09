@@ -1,5 +1,5 @@
-用了随机化的思想，以 n 为范围随机出一个数 a，b = n - a，判断 a 和 b 中是否含 0，含 0 的话继续随机。
-```
+// 用了随机化的思想，以 n 为范围随机出一个数 a，b = n - a，判断 a 和 b 中是否含 0，含 0 的话继续随机。
+// ```
 class Solution {
     public int[] getNoZeroIntegers(int n) {
         Random random = new Random();
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

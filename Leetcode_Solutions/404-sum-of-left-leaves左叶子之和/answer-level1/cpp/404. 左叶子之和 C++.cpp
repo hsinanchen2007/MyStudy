@@ -1,9 +1,9 @@
-### 解题思路
-1.找到叶子节点返回该节点的数值，若是非叶子节点就用于取叶子节点之和并向上返回。
+// ### 解题思路
+// 1.找到叶子节点返回该节点的数值，若是非叶子节点就用于取叶子节点之和并向上返回。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
         return sumOfLeftLeavesHelper(root,false);
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/edfa39ea0765b1f79a0c436c0e206ac3cb0b7483ac09ecf5bba165666dcd3a8c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/edfa39ea0765b1f79a0c436c0e206ac3cb0b7483ac09ecf5bba165666dcd3a8c-image.png)
 
 
-```
+# ```
 '''
 统计单词计数，用大顶堆维护当频数最多的字符，题目要求的
 目标字符串是连续k个不出现重复的字符，所以每次从大顶堆取
@@ -38,4 +38,4 @@ class Solution:
                 max_heap.put(pair)
 
         return ''.join(ans)
-```
+# ```

@@ -1,12 +1,12 @@
-并查集的初始化就是每个点只属于自己标记的集合，即p[x]=x。
+# 并查集的初始化就是每个点只属于自己标记的集合，即p[x]=x。
 
-遍历边，如果两个点集合不同，那就合并进同一个集合，这里用了递归修改集合。
+# 遍历边，如果两个点集合不同，那就合并进同一个集合，这里用了递归修改集合。
 
-如果遍历边的过程中，发现两个点已经加进过之前的集合了，那就说明成环了，这时就可以输出了。
+# 如果遍历边的过程中，发现两个点已经加进过之前的集合了，那就说明成环了，这时就可以输出了。
 
-这就是传统并查集的做法。
+# 这就是传统并查集的做法。
 
-```python []
+# ```python []
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         p = [*range(len(edges) + 1)]      #并查集元素初始化
@@ -20,11 +20,11 @@ class Solution:
                 p[py] = px
             else:
                 return [x, y]   #集合相同就返回答案
-```
+# ```
 
-原创的，非递归的并查集方法，比传统方法更短更快，空间复杂度依旧是$O(N)$。
+# 原创的，非递归的并查集方法，比传统方法更短更快，空间复杂度依旧是$O(N)$。
 
-```python []
+# ```python []
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         p = [[i] for i in range(len(edges) + 1)]  #并查集初始化 
@@ -35,9 +35,9 @@ class Solution:
                     p[z] = p[x]     #修改元素集合标记的指针地址
             else:
                 return [x, y]
-```
+# ```
 
-```python []
+# ```python []
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         p = {i: {i} for i in range(1, len(edges) + 1)}  #并查集初始化 
@@ -48,15 +48,15 @@ class Solution:
                     p[z] = p[x]     #修改元素集合标记的指针地址
             else:
                 return [x, y]
-```
+# ```
 
-新方法拿到的100%
+# 新方法拿到的100%
 
-![image.png](https://pic.leetcode-cn.com/57f25997d01e64acfba06fb01ba46fddb8359651364ab6f8a97ccc8f66863c15-image.png)
+# ![image.png](https://pic.leetcode-cn.com/57f25997d01e64acfba06fb01ba46fddb8359651364ab6f8a97ccc8f66863c15-image.png)
 
-优化了权重以后可以达到24ms，再快一倍。
+# 优化了权重以后可以达到24ms，再快一倍。
 
-```python []
+# ```python []
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         p = [[i] for i in range(len(edges) + 1)]  #并查集初始化 
@@ -69,6 +69,6 @@ class Solution:
                     p[z] = p[x]             #修改元素集合标记的指针地址
             else:
                 return [x, y]
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/2b00a3f1d58c9df9e758f7d153e73b70c7ac6738d8e79bbb355340bdcf1756b5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2b00a3f1d58c9df9e758f7d153e73b70c7ac6738d8e79bbb355340bdcf1756b5-image.png)

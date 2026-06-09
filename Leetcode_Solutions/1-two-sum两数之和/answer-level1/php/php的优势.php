@@ -1,9 +1,9 @@
-### 解题思路
-array_key_exists实在是非常妙
+// ### 解题思路
+// array_key_exists实在是非常妙
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minFlips(int a, int b, int c) {
@@ -22,4 +22,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

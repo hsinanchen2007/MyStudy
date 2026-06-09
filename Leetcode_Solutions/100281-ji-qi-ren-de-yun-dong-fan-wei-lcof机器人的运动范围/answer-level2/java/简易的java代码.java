@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int count = 0;
 	public int movingCount(int m,int n,int k){
@@ -43,8 +43,8 @@ class Solution {
 		return false;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/c3e71a150e6db96b702948ccda69ef0e8311cafdae0e5f5772964e9f8c90c7a5-1.png)
+// ![1.png](https://pic.leetcode-cn.com/c3e71a150e6db96b702948ccda69ef0e8311cafdae0e5f5772964e9f8c90c7a5-1.png)

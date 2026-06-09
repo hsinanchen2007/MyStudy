@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法：1.可直接暴力; 2.剪枝:引入a,b分别对应'('和')'的个数, 当a>n//2 返回,当b>a返回.
+# ### 解题思路
+# 回溯算法：1.可直接暴力; 2.剪枝:引入a,b分别对应'('和')'的个数, 当a>n//2 返回,当b>a返回.
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         result = []
@@ -36,4 +36,4 @@ class Solution:
             return k
         backtrack([], 2*n, 0, 0)
         return result
-```
+# ```

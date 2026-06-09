@@ -1,9 +1,9 @@
-### 解题思路
-1.统计数组中每个元素出现的次数
-2.求出现次数的最大公约数，如果最大公约数 > 1 则为真
-### 代码
+// ### 解题思路
+// 1.统计数组中每个元素出现的次数
+// 2.求出现次数的最大公约数，如果最大公约数 > 1 则为真
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func hasGroupsSizeX(_ deck: [Int]) -> Bool {
     if deck.count < 2 {
@@ -43,4 +43,4 @@ func gcd(a:Int ,b:Int) -> Int {
     return ax
 }
 }
-```
+// ```

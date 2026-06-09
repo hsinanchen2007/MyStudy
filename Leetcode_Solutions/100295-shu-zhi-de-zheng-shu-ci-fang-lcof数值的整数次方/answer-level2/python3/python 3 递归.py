@@ -1,9 +1,9 @@
-### 解题思路
-递归提高效率
+# ### 解题思路
+# 递归提高效率
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if x==0 and n<=0:return -1#异常输入
@@ -23,4 +23,4 @@ class Solution:
 
 
 
-```
+# ```

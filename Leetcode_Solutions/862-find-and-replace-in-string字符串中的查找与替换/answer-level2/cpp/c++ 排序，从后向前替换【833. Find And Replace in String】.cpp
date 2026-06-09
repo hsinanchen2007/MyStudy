@@ -1,10 +1,10 @@
-### 解题思路
-indexes，sources，targets都根据indexes的值从大到小排序，然后就可以从后往前替换S。
-从后向前替换是确保未替换的index不变。
+// ### 解题思路
+// indexes，sources，targets都根据indexes的值从大到小排序，然后就可以从后往前替换S。
+// 从后向前替换是确保未替换的index不变。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets) {
@@ -40,4 +40,4 @@ public:
         return pos;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 代码块
 class Solution(object):
     def longestCommonPrefix(self, strs):
@@ -31,11 +31,11 @@ class Solution(object):
         else:
             return ""
         
-```
+# ```
 
 
 
 
-所有的字符串只遍历了两遍
-我真是个鬼才
-虽然慢了点， 也可能是字符串太少了
+# 所有的字符串只遍历了两遍
+# 我真是个鬼才
+# 虽然慢了点， 也可能是字符串太少了

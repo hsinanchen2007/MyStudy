@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-暴力循环
+// 暴力循环
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -31,4 +31,4 @@ var findContinuousSequence = function(target) {
     }
     return result
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public String countAndSay(int n) {
         String result = "1";
         // 执行n-1次循环（因为n=1时直接可返回结果1）
@@ -24,4 +24,4 @@ public String countAndSay(int n) {
         }
         return result;
     }
-```
+// ```

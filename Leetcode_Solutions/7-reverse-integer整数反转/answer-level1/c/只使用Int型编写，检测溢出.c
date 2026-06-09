@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverse(int x)
 {
     int a, b;
@@ -23,4 +23,4 @@ int reverse(int x)
 	}
 	return y;
 }
-```
+// ```

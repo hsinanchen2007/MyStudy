@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1. 遇到有关字母的问题要想到Ascii码直接创建数组的方法来存储相应的值
-2. 除以一个数再乘以一个数，对偶数来说没变化，对奇数来说，会减一
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 遇到有关字母的问题要想到Ascii码直接创建数组的方法来存储相应的值
+// 2. 除以一个数再乘以一个数，对偶数来说没变化，对奇数来说，会减一
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
     //     Map<Character,Integer> map=new HashMap<>();
@@ -59,4 +59,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

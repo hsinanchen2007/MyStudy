@@ -1,9 +1,9 @@
-### 解题思路
-比较最小值和最大值，如果其一的最小值大于另一个的最大值，则不相交
+// ### 解题思路
+// 比较最小值和最大值，如果其一的最小值大于另一个的最大值，则不相交
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -16,4 +16,4 @@ public:
         return true;
     }
 };
-```
+// ```

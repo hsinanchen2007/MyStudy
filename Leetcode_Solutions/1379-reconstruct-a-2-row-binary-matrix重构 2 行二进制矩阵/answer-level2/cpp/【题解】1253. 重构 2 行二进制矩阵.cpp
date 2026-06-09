@@ -1,12 +1,12 @@
-**方法一：构造**
+// **方法一：构造**
 
-设数组的第零行为 `A`，第一行为 `B`。当 `colsum[i]` 的值为 `0` 或 `2` 时，我们将对应的 `A[i]` 和 `B[i]` 置为 `0` 或 `1` 即可，这也是唯一的重构方法。但当 `colsum[i]` 的值为 `1` 时，我们既可以设置 `A[i]` 为 `1`，也可以设置 `B[i]` 为 `1`，此时我们就需要考虑给出的每行元素之和 `upper` 和 `lower` 了。
+// 设数组的第零行为 `A`，第一行为 `B`。当 `colsum[i]` 的值为 `0` 或 `2` 时，我们将对应的 `A[i]` 和 `B[i]` 置为 `0` 或 `1` 即可，这也是唯一的重构方法。但当 `colsum[i]` 的值为 `1` 时，我们既可以设置 `A[i]` 为 `1`，也可以设置 `B[i]` 为 `1`，此时我们就需要考虑给出的每行元素之和 `upper` 和 `lower` 了。
 
-假设数组 `colsum` 中有 `j` 个 `1` 和 `k` 个 `2`，那么在处理完所有的 `2` 之后，每行的元素之和分别还剩下 `upper - k` 和 `lower - k`。因此我们可以在遇到 `colsum` 中前 `upper - k` 个 `1` 时，将 `A[i]` 设置为 `1`，其余情况将 `B[i]` 设置为 `1`。
+// 假设数组 `colsum` 中有 `j` 个 `1` 和 `k` 个 `2`，那么在处理完所有的 `2` 之后，每行的元素之和分别还剩下 `upper - k` 和 `lower - k`。因此我们可以在遇到 `colsum` 中前 `upper - k` 个 `1` 时，将 `A[i]` 设置为 `1`，其余情况将 `B[i]` 设置为 `1`。
 
-我们还需要知道什么时候不存在符合要求的答案。第一种情况就是当 `(upper - k) + (lower - k) != j` 时，此时 `colsum` 之和不等于 `upper` 与 `lower` 之和，因此一定不存在答案。第二种情况是当 `upper - k < 0` 或 `lower - k < 0` 时，由于 `colsum` 中 `2` 的个数比较多，因此没有办法将这些列都设置为 `1`。
+// 我们还需要知道什么时候不存在符合要求的答案。第一种情况就是当 `(upper - k) + (lower - k) != j` 时，此时 `colsum` 之和不等于 `upper` 与 `lower` 之和，因此一定不存在答案。第二种情况是当 `upper - k < 0` 或 `lower - k < 0` 时，由于 `colsum` 中 `2` 的个数比较多，因此没有办法将这些列都设置为 `1`。
 
-```C++ [sol1]
+// ```C++ [sol1]
 class Solution {
 public:
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) {
@@ -42,9 +42,9 @@ public:
         return matrix;
     }
 };
-```
+// ```
 
-```Python [sol1]
+// ```Python [sol1]
 class Solution:
     def reconstructMatrix(self, upper: int, lower: int, colsum: List[int]) -> List[List[int]]:
         if upper + lower != sum(colsum):
@@ -67,10 +67,10 @@ class Solution:
                 else:
                     matrix[1][i] = 1
         return matrix
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 时间复杂度：$O(N)$，其中 $N$ 是数组 `colsum` 的长度。
+// - 时间复杂度：$O(N)$，其中 $N$ 是数组 `colsum` 的长度。
 
-- 空间复杂度：$O(1)$，这里不计入作为返回值的答案数组的空间。
+// - 空间复杂度：$O(1)$，这里不计入作为返回值的答案数组的空间。

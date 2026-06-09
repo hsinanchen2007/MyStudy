@@ -1,6 +1,6 @@
-此题目就是用背包中的dict 内容填满整个 字符串即可  
+# 此题目就是用背包中的dict 内容填满整个 字符串即可  
 
-```
+# ```
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         
@@ -17,4 +17,4 @@ class Solution:
         
         return dp[-1]
         
-```
+# ```

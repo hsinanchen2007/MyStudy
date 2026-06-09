@@ -1,9 +1,9 @@
-### 解题思路
-循环合并
+# ### 解题思路
+# 循环合并
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);
@@ -28,8 +28,8 @@ class Solution {
         return dummy.next;
     }
 }
-```
-```python []
+# ```
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -65,8 +65,8 @@ class Solution:
         return res.next
             
                 
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -95,4 +95,4 @@ public:
         return res->next;
     }
 };
-```
+# ```

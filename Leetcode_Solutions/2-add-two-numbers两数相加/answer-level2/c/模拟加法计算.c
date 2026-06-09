@@ -1,11 +1,11 @@
-### 解题思路
-模拟计算器，从低位开始两两相加，遇到10则进1
-每次相加时需要考虑上一次计算的进位
-在链表指向下个链时，一定要注意当前链表不能为空
+// ### 解题思路
+// 模拟计算器，从低位开始两两相加，遇到10则进1
+// 每次相加时需要考虑上一次计算的进位
+// 在链表指向下个链时，一定要注意当前链表不能为空
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -69,4 +69,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2)
     return pRes;
 
 }
-```
+// ```

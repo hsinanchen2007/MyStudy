@@ -1,7 +1,7 @@
-大家可以去参考国际版的leetcode.
+// 大家可以去参考国际版的leetcode.
 
-1. 暴力破解
-```
+// 1. 暴力破解
+// ```
 class Solution {
 public:
     int longestWPI(vector<int>& hours) {
@@ -21,10 +21,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-2. 二分查找
-```
+// 2. 二分查找
+// ```
 class Solution {
 public:
     int longestWPI(vector<int>& hours) {
@@ -60,9 +60,9 @@ public:
         return res;
     }
 };
-```
-3. 最快解法
-```
+// ```
+// 3. 最快解法
+// ```
 class Solution {
 public:
     int longestWPI(vector<int>& hours) {
@@ -89,4 +89,4 @@ public:
         return res;
     }
 };
-```
+// ```

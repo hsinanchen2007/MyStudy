@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def dis(x, y):
@@ -30,4 +30,4 @@ class Solution:
                     queue.append((tx,ty))
                     ans =ans+1
         return ans
-```
+# ```

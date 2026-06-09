@@ -1,10 +1,10 @@
-### 解题思路
-左右两边同时开始向中间走
-估计用双线程或者双指针的方式会走得更快一点
+# ### 解题思路
+# 左右两边同时开始向中间走
+# 估计用双线程或者双指针的方式会走得更快一点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         size = len(nums)
@@ -31,4 +31,4 @@ class Solution:
              
 
 
-```
+# ```

@@ -1,7 +1,7 @@
-划分成三个相同的部分，首先可以求出数组和s，进行一个判断。
-之后寻找数组是否存在三块，每一块的和都为s/3;
+// 划分成三个相同的部分，首先可以求出数组和s，进行一个判断。
+// 之后寻找数组是否存在三块，每一块的和都为s/3;
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -27,12 +27,12 @@ public:
         return res[0] && res[1] && res[2];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3b3107bb892729f5eb49fa159ba4c7e36bc177006e70e005d68b9eae8038c647-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3b3107bb892729f5eb49fa159ba4c7e36bc177006e70e005d68b9eae8038c647-image.png)
 
-可以小改一下
-```cpp
+// 可以小改一下
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -58,4 +58,4 @@ public:
         return count==3;
     }
 };
-```
+// ```

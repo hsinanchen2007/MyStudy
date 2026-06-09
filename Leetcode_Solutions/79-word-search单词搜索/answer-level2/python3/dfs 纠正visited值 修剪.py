@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         m,n = len(board),len(board[0])
@@ -24,4 +24,4 @@ class Solution:
                     if f:
                         return True
         return False
-```
+# ```

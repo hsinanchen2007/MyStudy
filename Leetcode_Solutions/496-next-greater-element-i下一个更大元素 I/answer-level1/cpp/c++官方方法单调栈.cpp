@@ -1,5 +1,5 @@
-运行下来效率一般，甚至不如单独的对nums2建立一个map方便nums1查找，不过单调栈的思路很优秀。
-```
+// 运行下来效率一般，甚至不如单独的对nums2建立一个map方便nums1查找，不过单调栈的思路很优秀。
+// ```
 class Solution {
 public:
 	vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -25,4 +25,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

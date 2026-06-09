@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/bd67338d0db7ab150dc6b1f40ba36b4411bf162d190634e1a91b23cef6070a0c-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/bd67338d0db7ab150dc6b1f40ba36b4411bf162d190634e1a91b23cef6070a0c-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // 全排列
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```c#
+// ```c#
 using System.Threading;
 
 public class FizzBuzz {
@@ -51,4 +51,4 @@ public class FizzBuzz {
         }
     }
 }
-```
+// ```

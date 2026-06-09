@@ -1,9 +1,9 @@
-### 解题思路
-只需要先构建环，再根据长度推算出需要移动多少次
+// ### 解题思路
+// 只需要先构建环，再根据长度推算出需要移动多少次
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,4 +58,4 @@ public:
         return h;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1、化繁为简
-2、对K的取值，当超过数组本身长度时，需要对其求余。
-### 代码
+# ### 解题思路
+# 1、化繁为简
+# 2、对K的取值，当超过数组本身长度时，需要对其求余。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
         n,m=len(grid),len(grid[0])
@@ -18,4 +18,4 @@ class Solution:
                 grid[i][j]=Temp[i*m+j]
         return grid
 
-```
+# ```

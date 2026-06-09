@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     struct Node{
@@ -75,5 +75,5 @@ public:
         return matching_step;
     }
 };
-```
-![TIM图片20200324005441.png](https://pic.leetcode-cn.com/eba2446f7f078d40771eee49a1cd94eefe1e0d8f8196fd093b00a287952fd544-TIM%E5%9B%BE%E7%89%8720200324005441.png)
+// ```
+// ![TIM图片20200324005441.png](https://pic.leetcode-cn.com/eba2446f7f078d40771eee49a1cd94eefe1e0d8f8196fd093b00a287952fd544-TIM%E5%9B%BE%E7%89%8720200324005441.png)

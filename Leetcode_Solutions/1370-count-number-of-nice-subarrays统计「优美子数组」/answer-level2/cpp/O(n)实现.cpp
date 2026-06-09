@@ -1,6 +1,6 @@
-`188ms` `20.6MB`
-记录每个奇数与前一个奇数位置的差值，计算`a[i]*a[i+k]`乘积的和。
-```
+// `188ms` `20.6MB`
+// 记录每个奇数与前一个奇数位置的差值，计算`a[i]*a[i+k]`乘积的和。
+// ```
 #include "Solution1248.h"
 #include<vector>
 using namespace std;
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

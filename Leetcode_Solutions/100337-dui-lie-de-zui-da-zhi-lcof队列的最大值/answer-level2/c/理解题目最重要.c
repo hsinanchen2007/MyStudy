@@ -1,13 +1,13 @@
-### 解题思路
-["MaxQueue","push_back","push_back","max_value","pop_front","max_value"]
-[[],[1],[2],[],[],[]]
+// ### 解题思路
+// ["MaxQueue","push_back","push_back","max_value","pop_front","max_value"]
+// [[],[1],[2],[],[],[]]
 
-两个输入的含义，第一个组：外层函数调用的动作，第二组：等待操作的数据内容；
-输出是每次调用我们函数的返回值。
+// 两个输入的含义，第一个组：外层函数调用的动作，第二组：等待操作的数据内容；
+// 输出是每次调用我们函数的返回值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int que[10000];
     int begin;
@@ -75,4 +75,4 @@ void maxQueueFree(MaxQueue* obj) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

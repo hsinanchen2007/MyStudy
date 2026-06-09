@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         dp = [[] for i in range(n+1)]
@@ -15,4 +15,4 @@ class Solution:
                     for k in dp[i-p-1]:
                         dp[i].append('(' +j+ ')' +k)
         return dp[-1]
-```
+# ```

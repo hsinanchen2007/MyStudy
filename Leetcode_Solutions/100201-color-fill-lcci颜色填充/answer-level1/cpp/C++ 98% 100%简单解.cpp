@@ -1,11 +1,11 @@
-### 解题思路
-经典的漫水填充法题目，题目给出了起点和要染的颜色，注意下原颜色和要染的颜色相同的情况即可。
-![image.png](https://pic.leetcode-cn.com/190bb05b7bb160aa5b8b312f3829c05f4ba239051d4f39ff604d9b164d5185fd-image.png)
+// ### 解题思路
+// 经典的漫水填充法题目，题目给出了起点和要染的颜色，注意下原颜色和要染的颜色相同的情况即可。
+// ![image.png](https://pic.leetcode-cn.com/190bb05b7bb160aa5b8b312f3829c05f4ba239051d4f39ff604d9b164d5185fd-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int> > result;
@@ -42,4 +42,4 @@ public:
 		return result;
     }
 }; 
-```
+// ```

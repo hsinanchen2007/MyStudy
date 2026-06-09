@@ -1,9 +1,9 @@
-### 解题思路
-维护两个队列和一个TOP值
-需要pop的时候将队列一的前n-1个数转移到队列2（n为队列长度），剩余那个数即为所需的数。
-### 代码
+// ### 解题思路
+// 维护两个队列和一个TOP值
+// 需要pop的时候将队列一的前n-1个数转移到队列2（n为队列长度），剩余那个数即为所需的数。
+// ### 代码
 
-```csharp
+// ```csharp
 public class MyStack {
     Queue<int> queue1,queue2;
     int top;
@@ -57,4 +57,4 @@ public class MyStack {
  * int param_3 = obj.Top();
  * bool param_4 = obj.Empty();
  */
-```
+// ```

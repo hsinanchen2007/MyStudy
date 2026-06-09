@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口
+// ### 解题思路
+// 滑动窗口
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMaxAverage(int* nums, int numsSize, int k){
     if(numsSize<k) return 0;
     double sum=0,maxsum;
@@ -21,4 +21,4 @@ double findMaxAverage(int* nums, int numsSize, int k){
     return ave;    
 
 }
-```
+// ```

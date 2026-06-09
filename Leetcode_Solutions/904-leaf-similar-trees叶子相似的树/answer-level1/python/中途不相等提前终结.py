@@ -1,4 +1,4 @@
-```
+# ```
         def traverse(root):
             stack = []
             while stack or root:
@@ -17,9 +17,9 @@
             a, b = next(iter1, None), next(iter2, None)
 
         return a == b
-```
+# ```
 
 
-然鹅并没有多快。
+# 然鹅并没有多快。
 
-![image.png](https://pic.leetcode-cn.com/20714c702b655adfab15a31597c359e1a8d94bdcd578e788b9f977e086990c39-image.png)
+# ![image.png](https://pic.leetcode-cn.com/20714c702b655adfab15a31597c359e1a8d94bdcd578e788b9f977e086990c39-image.png)

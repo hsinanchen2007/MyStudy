@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -48,4 +48,4 @@ MyStack.prototype.top = function() {
 MyStack.prototype.empty = function() {
     return this.stack.length == 0; // 判断数组的长度是否为 0，代栈是否为空
 };
-```
+// ```

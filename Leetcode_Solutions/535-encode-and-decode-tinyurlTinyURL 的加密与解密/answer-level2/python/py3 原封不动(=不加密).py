@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Codec:
 
     def encode(self, longUrl: str) -> str:
@@ -16,4 +16,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.decode(codec.encode(url))
-```
+# ```

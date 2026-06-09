@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def helper(self, root):
         if root is None:
@@ -37,4 +37,4 @@ class Solution(object):
         :rtype: TreeNode
         """
         return self.helper(root)[0]
-```
+# ```

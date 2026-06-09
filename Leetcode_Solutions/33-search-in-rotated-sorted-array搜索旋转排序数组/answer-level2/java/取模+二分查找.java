@@ -1,9 +1,9 @@
-### 解题思路
-用取模让数组下标循环，二分找到pivot后， 搜索pivot+1到pivot+nums.length范围。
-找到的下标再取模即可
-### 代码
+// ### 解题思路
+// 用取模让数组下标循环，二分找到pivot后， 搜索pivot+1到pivot+nums.length范围。
+// 找到的下标再取模即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int len = nums.length;
@@ -54,4 +54,4 @@ class Solution {
     }
 
 }
-```
+// ```

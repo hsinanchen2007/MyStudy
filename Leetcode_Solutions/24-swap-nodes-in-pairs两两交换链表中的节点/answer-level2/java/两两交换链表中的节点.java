@@ -1,18 +1,18 @@
-欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
-几乎所有题目都会提供多种解法，真诚求star！
+// 欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// 几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：三指针
+// # 解法一：三指针
 
-以题给示例1->2->3->4为例，三指针遍历过程如下图。
+// 以题给示例1->2->3->4为例，三指针遍历过程如下图。
 
-![question0024-1.png](https://pic.leetcode-cn.com/6072c90f462fd9c88f7849665d60ab278557e6ece6821121fabb2d0e807b1c74-question0024-1.png)
+// ![question0024-1.png](https://pic.leetcode-cn.com/6072c90f462fd9c88f7849665d60ab278557e6ece6821121fabb2d0e807b1c74-question0024-1.png)
 
-时间复杂度是O(n)，其中n为链表的长度。
-空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n为链表的长度。
+// 空间复杂度是O(1)。
 
-执行用时：0ms，击败100.00%。消耗内存：35.1MB，击败63.60%。
+// 执行用时：0ms，击败100.00%。消耗内存：35.1MB，击败63.60%。
 
-```java
+// ```java
 public class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode dummyHead = new ListNode(-1);
@@ -36,17 +36,17 @@ public class Solution {
         }
     }
 }
-```
+// ```
 
-# 解法二：递归
+// # 解法二：递归
 
-递归的终止条件：链表中只有0个或1个节点。
+// 递归的终止条件：链表中只有0个或1个节点。
 
-时间复杂度和空间复杂度均是O(n)，其中n为链表的长度。
+// 时间复杂度和空间复杂度均是O(n)，其中n为链表的长度。
 
-执行用时：1ms，击败100.00%。消耗内存：35.1MB，击败63.14%。
+// 执行用时：1ms，击败100.00%。消耗内存：35.1MB，击败63.14%。
 
-```java
+// ```java
 public class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode dummyHead = new ListNode(-1);
@@ -62,4 +62,4 @@ public class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

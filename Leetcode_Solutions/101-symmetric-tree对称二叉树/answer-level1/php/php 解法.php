@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     /**
@@ -15,4 +15,4 @@ class Solution {
         return $t1->val===$t2->val && $this->isMirror($t1->left,$t2->right) && $this->isMirror($t1->right,$t2->left);
     }
 }
-```
+// ```

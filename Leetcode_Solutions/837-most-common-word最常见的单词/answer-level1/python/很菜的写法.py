@@ -1,9 +1,9 @@
-### 解题思路
-很菜的写法，写的很长，优点是超过了78.51%的用户
+# ### 解题思路
+# 很菜的写法，写的很长，优点是超过了78.51%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         paragraph = paragraph.replace('!', ' ')
@@ -28,4 +28,4 @@ class Solution:
                     ret = i
         return ret
         
-```
+# ```

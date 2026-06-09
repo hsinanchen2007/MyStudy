@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} K
  * @param {number} N
@@ -42,4 +42,4 @@ function dpf(k, n) {
     dp[k][n] = ans
     return ans
 }
-```
+// ```

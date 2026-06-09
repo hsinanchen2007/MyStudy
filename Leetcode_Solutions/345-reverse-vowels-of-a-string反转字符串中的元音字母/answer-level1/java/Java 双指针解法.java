@@ -1,12 +1,12 @@
-### 解题思路
-左右双指针遍历字符串，非元音字母跳过；左右都是元音字母则交换。
-    注意：
-        1. String不可修改，故用StringBuilder。
-        2. 识别出隐藏的“坑”，比如这里题目没说大小写，我们要考虑全面。
+// ### 解题思路
+// 左右双指针遍历字符串，非元音字母跳过；左右都是元音字母则交换。
+//     注意：
+//         1. String不可修改，故用StringBuilder。
+//         2. 识别出隐藏的“坑”，比如这里题目没说大小写，我们要考虑全面。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         StringBuilder sb = new StringBuilder(s);    // 因String无法修改，转化为StringBuilder
@@ -43,4 +43,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

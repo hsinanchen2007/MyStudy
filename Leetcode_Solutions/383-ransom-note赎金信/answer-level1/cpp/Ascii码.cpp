@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-开始想成了KMP，写了一会发现想错题意了。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 开始想成了KMP，写了一会发现想错题意了。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -31,4 +31,4 @@ public:
         
     }
 };
-```
+// ```

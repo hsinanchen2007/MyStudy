@@ -1,11 +1,11 @@
-整体思路和八皇后类似，就是填格子游戏。
+// 整体思路和八皇后类似，就是填格子游戏。
 
-- Step.1 在当前格子n填一个数 k，验证是否合理：
-- Step.2 如果合理，就填写下一个格子
-- Step.3 如果不合理，k = k + 1，进入 Step.1
+// - Step.1 在当前格子n填一个数 k，验证是否合理：
+// - Step.2 如果合理，就填写下一个格子
+// - Step.3 如果不合理，k = k + 1，进入 Step.1
 
 
-```c++
+// ```c++
 class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board) {
@@ -34,11 +34,11 @@ public:
         return true;
     }
 };
-```
+// ```
 
-下面是展开的代码：
+// 下面是展开的代码：
 
-```c++
+// ```c++
 class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board) {
@@ -86,4 +86,4 @@ public:
         return true;
     }
 };
-```
+// ```

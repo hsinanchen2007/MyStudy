@@ -1,7 +1,7 @@
-# 思路
-队列＋广度优先搜索
+// # 思路
+// 队列＋广度优先搜索
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -67,4 +67,4 @@ public:
         return ans;
     }
 };
-```
+// ```

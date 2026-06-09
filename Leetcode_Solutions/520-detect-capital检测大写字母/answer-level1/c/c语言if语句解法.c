@@ -1,8 +1,8 @@
-### 解题思路
-各种判断，很笨。
-### 代码
+// ### 解题思路
+// 各种判断，很笨。
+// ### 代码
 
-```c
+// ```c
 bool detectCapitalUse(char * word){
     if(word[0]>=65&&word[0]<=90)
     {
@@ -35,4 +35,4 @@ bool detectCapitalUse(char * word){
         return true;
     }
 }
-```
+// ```

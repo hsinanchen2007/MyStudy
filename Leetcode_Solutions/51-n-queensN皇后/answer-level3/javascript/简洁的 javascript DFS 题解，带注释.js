@@ -1,7 +1,7 @@
 
-简洁的 javascript 题解。
+// 简洁的 javascript 题解。
 
-```javascript
+// ```javascript
 var solveNQueens = function(n) {
   let res = []
   dfs(n, [], res)
@@ -51,5 +51,5 @@ function isValid(tmp, j) {
   }
   return true
 }
-```
+// ```
 

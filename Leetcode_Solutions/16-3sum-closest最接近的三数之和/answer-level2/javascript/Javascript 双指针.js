@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-大家好，我是 17
+// 大家好，我是 17
 
-先排序
+// 先排序
 
-1. 先确认第一个数
-2. 用双指针法找出第二，第三个数
+// 1. 先确认第一个数
+// 2. 用双指针法找出第二，第三个数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -42,4 +42,4 @@ var threeSumClosest = function (nums, target) {
   return result
 
 };
-```
+// ```

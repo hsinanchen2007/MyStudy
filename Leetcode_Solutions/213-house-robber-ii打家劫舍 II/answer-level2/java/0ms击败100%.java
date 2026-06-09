@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int rob(int[] nums) {
         if(nums.length==0)return 0;
@@ -16,4 +16,4 @@ class Solution {
         return Math.max(Math.max(use,notUse)+nums[0],Math.max(use2,notUse2));
     }
 }
-```
+// ```

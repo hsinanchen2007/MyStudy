@@ -1,14 +1,14 @@
 
 
-##### 解题思路
-在链表中删除某一个元素，往往是跳过这个元素，使指针指向下一个元素。所以，本题的解题思路也是如此。我们还需要考虑给定值`val`可能出现的位置：
-1. `val`出现在链表的第一个位置
-2. `val`出现在链表其它位置
+# ##### 解题思路
+# 在链表中删除某一个元素，往往是跳过这个元素，使指针指向下一个元素。所以，本题的解题思路也是如此。我们还需要考虑给定值`val`可能出现的位置：
+# 1. `val`出现在链表的第一个位置
+# 2. `val`出现在链表其它位置
 
-由于`val`可能出现在第一个位置，所以我们需要设置一个哨兵节点`start_head`，否则无法删除第一个元素。
+# 由于`val`可能出现在第一个位置，所以我们需要设置一个哨兵节点`start_head`，否则无法删除第一个元素。
 
-##### 代码如下
-```
+# ##### 代码如下
+# ```
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -36,11 +36,11 @@ class Solution:
             cur = cur.next
 
         return start_head.next
-```
+# ```
 
-上述代码使用了两个指针解决这道题目，而使用一个指针同样可以完成。两者思路是一样的，代码如下：
+# 上述代码使用了两个指针解决这道题目，而使用一个指针同样可以完成。两者思路是一样的，代码如下：
 
-```
+# ```
 class Solution:
     def removeElements(self, head: ListNode, val: int) -> ListNode:
         start_head = ListNode(0)
@@ -57,7 +57,7 @@ class Solution:
                 cur = cur.next
 
         return start_head.next
-```
-![公众号二维码.jpg](https://pic.leetcode-cn.com/53df5d51bc15be66598900624e7f34c81d79651108c3271ca209d9a529839e8a-%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
-记录自己学习的过程，欢迎关注，大家一起进步！
+# ```
+# ![公众号二维码.jpg](https://pic.leetcode-cn.com/53df5d51bc15be66598900624e7f34c81d79651108c3271ca209d9a529839e8a-%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
+# 记录自己学习的过程，欢迎关注，大家一起进步！
 

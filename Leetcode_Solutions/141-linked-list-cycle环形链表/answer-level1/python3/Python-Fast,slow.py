@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         fast,slow = head,head
@@ -8,4 +8,4 @@ class Solution:
             if fast==slow:
                 return True
         return False
-```
+# ```

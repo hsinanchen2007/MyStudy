@@ -1,15 +1,15 @@
-### 解题思路
-for
-    找到新的组
-    判断元素数量
-    添加到结果中
-    更新每个组的起始索引
+// ### 解题思路
+// for
+//     找到新的组
+//     判断元素数量
+//     添加到结果中
+//     更新每个组的起始索引
 
-详细过程见注释。
+// 详细过程见注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> largeGroupPositions(string S) {
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

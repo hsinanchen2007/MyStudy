@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         def gcd(a,b):
@@ -17,5 +17,5 @@ class Solution:
             return z%gcd(y,x)==0
         return z%gcd(x,y)==0
 
-```
+# ```
 

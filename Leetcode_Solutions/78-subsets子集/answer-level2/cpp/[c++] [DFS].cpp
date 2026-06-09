@@ -1,9 +1,9 @@
-### 解题思路
-模板题
+// ### 解题思路
+// 模板题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int> > subsets(vector<int>& S) {
@@ -23,4 +23,4 @@ public:
 private:
 	vector<vector<int> > res;
 };
-```
+// ```

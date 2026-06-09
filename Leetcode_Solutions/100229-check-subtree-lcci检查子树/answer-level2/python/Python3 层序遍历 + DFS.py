@@ -1,9 +1,9 @@
-整体思路：先是边界输入判断，然后使用层序遍历所有节点，并将每个节点传入辅助函数 `check()`，以 DFS 的方式递归判断结果。
+# 整体思路：先是边界输入判断，然后使用层序遍历所有节点，并将每个节点传入辅助函数 `check()`，以 DFS 的方式递归判断结果。
 
-![批注 2020-03-23 214551.png](https://pic.leetcode-cn.com/6e837f4592b0c85d3a84a9a5429a7eb3a3ff9863f539cce253e6449f6dbf935f-%E6%89%B9%E6%B3%A8%202020-03-23%20214551.png)
+# ![批注 2020-03-23 214551.png](https://pic.leetcode-cn.com/6e837f4592b0c85d3a84a9a5429a7eb3a3ff9863f539cce253e6449f6dbf935f-%E6%89%B9%E6%B3%A8%202020-03-23%20214551.png)
 
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
             queue = next_queue
         
         return False
-```
+# ```

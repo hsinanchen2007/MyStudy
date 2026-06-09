@@ -1,6 +1,6 @@
-思路是将数组复制一份，然后使用维护一个递减栈，也就是栈中元素都比栈顶小，向栈低依次递减
-可以看一下循环的做法
-```
+// 思路是将数组复制一份，然后使用维护一个递减栈，也就是栈中元素都比栈顶小，向栈低依次递减
+// 可以看一下循环的做法
+// ```
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return vector<int>(res.begin(),res.begin()+n);
     }
 };
-```
+// ```

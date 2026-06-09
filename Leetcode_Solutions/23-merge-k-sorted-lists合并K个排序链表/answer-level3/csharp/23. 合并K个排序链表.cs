@@ -1,9 +1,9 @@
-### 解题思路
-使用 HashSet 缓存非空链表的索引
+// ### 解题思路
+// 使用 HashSet 缓存非空链表的索引
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -56,4 +56,4 @@ public class Solution {
         return dummy.next;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果以两个字符串长度的最大公约数为长度的子串作为T, 不能满足要求的话, 更短的T也不可能, 直接返回""
+# ### 解题思路
+# 如果以两个字符串长度的最大公约数为长度的子串作为T, 不能满足要求的话, 更短的T也不可能, 直接返回""
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         def gcd(a, b):
@@ -19,4 +19,4 @@ class Solution:
             return str1[:l]
         else:
             return ""
-```
+# ```

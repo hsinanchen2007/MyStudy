@@ -1,5 +1,5 @@
-借助栈原语化分解后删除最外层括号
-```js
+// 借助栈原语化分解后删除最外层括号
+// ```js
 var removeOuterParentheses = function(S) {
     let arr = [];
     let k = 0;
@@ -17,4 +17,4 @@ var removeOuterParentheses = function(S) {
     }
     return primitives.map((item) => item.slice(1,item.length - 1)).join('')
 };
-```
+// ```

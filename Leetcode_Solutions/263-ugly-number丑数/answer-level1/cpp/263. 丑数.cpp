@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isUgly(int num) {
@@ -18,4 +18,4 @@ public:
         return num==1;
     }
 };
-```
+// ```

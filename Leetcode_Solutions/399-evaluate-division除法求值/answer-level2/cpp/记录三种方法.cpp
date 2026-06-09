@@ -1,10 +1,10 @@
-这里记录目前看到的三种比较优雅通用的解法，全部来源于评论区和题解区。
+// 这里记录目前看到的三种比较优雅通用的解法，全部来源于评论区和题解区。
 
-### 方法一：Floyd
+// ### 方法一：Floyd
 
-取自 [@onesilverbullet](/u/onesilverbullet/) 的[题解](https://leetcode-cn.com/problems/evaluate-division/solution/floydde-yi-ge-jian-dan-bian-chong-by-onesilverbull/)，我按照自己的理解：
+// 取自 [@onesilverbullet](/u/onesilverbullet/) 的[题解](https://leetcode-cn.com/problems/evaluate-division/solution/floydde-yi-ge-jian-dan-bian-chong-by-onesilverbull/)，我按照自己的理解：
 
-```
+// ```
 struct Value {
     int status;
     double val;
@@ -56,16 +56,16 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 方法二：dfs 和 bfs
+// ### 方法二：dfs 和 bfs
 
-主要分为两步：
-1. build 构造初始化图
-1. dfs 或者 bfs 进行遍历
+// 主要分为两步：
+// 1. build 构造初始化图
+// 1. dfs 或者 bfs 进行遍历
 
 
-```
+// ```
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
@@ -162,13 +162,13 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-### 方法三：并查集
+// ### 方法三：并查集
 
-参考 [@musa_geek](/u/musa_geek/) 的 [题解](https://leetcode-cn.com/problems/evaluate-division/solution/c-can-kao-xiao-xu-da-ge-de-xie-fa-bing-qie-zuo-lia/)：
+// 参考 [@musa_geek](/u/musa_geek/) 的 [题解](https://leetcode-cn.com/problems/evaluate-division/solution/c-can-kao-xiao-xu-da-ge-de-xie-fa-bing-qie-zuo-lia/)：
 
-```
+// ```
 struct Node {
     double value;
     Node* parent;
@@ -217,8 +217,8 @@ public:
         return res;
     }
 };
-```
+// ```
 
-上面3种方法都很优雅，并且都是很通用的方法，都需要理解、掌握。
+// 上面3种方法都很优雅，并且都是很通用的方法，都需要理解、掌握。
 
-再次感谢文中提到的同学，受益匪浅，谢谢。
+// 再次感谢文中提到的同学，受益匪浅，谢谢。

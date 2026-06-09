@@ -1,9 +1,9 @@
-### 解题思路
-比较简单的方法
+// ### 解题思路
+// 比较简单的方法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ public class Solution {
         return head;
     }
 }
-```
+// ```

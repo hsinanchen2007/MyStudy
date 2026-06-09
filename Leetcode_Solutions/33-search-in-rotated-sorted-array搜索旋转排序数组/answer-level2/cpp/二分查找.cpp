@@ -1,11 +1,11 @@
-算法可以分为两部分：若未旋转，则二分查找；若旋转，则处理边界。
+// 算法可以分为两部分：若未旋转，则二分查找；若旋转，则处理边界。
 
-未旋转时，target 必定位于 [left, ..., right] 之间，依据 nums[middle] 与 target 的值二分即可。
+// 未旋转时，target 必定位于 [left, ..., right] 之间，依据 nums[middle] 与 target 的值二分即可。
 
-旋转时，可能存在两种情况：左侧 [left, ... middle] 发生旋转、右侧 [middle, right] 发生旋转。通过检查 target 与三个端点处的大小关系，进行区间选择。
+// 旋转时，可能存在两种情况：左侧 [left, ... middle] 发生旋转、右侧 [middle, right] 发生旋转。通过检查 target 与三个端点处的大小关系，进行区间选择。
 
-代码：
-```cpp
+// 代码：
+// ```cpp
 class Solution {
 public:
     //算法复杂度限制在对数时间
@@ -43,4 +43,4 @@ public:
         return -1;
     }
 };
-```
+// ```

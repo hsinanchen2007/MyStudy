@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先中序遍历 然后 双指针
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先中序遍历 然后 双指针
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
                 l+=1
         return False
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 int calPoints(char ** ops, int opsSize){
     int *VGPR = (int *)malloc(1000 * sizeof(int)); // VGPR(Valid Game Point Records)，使用数组作为栈记录每回合的分数
     int top = -1; // 栈顶
@@ -25,4 +25,4 @@ int calPoints(char ** ops, int opsSize){
 
     return sum;
 }
-```
+// ```

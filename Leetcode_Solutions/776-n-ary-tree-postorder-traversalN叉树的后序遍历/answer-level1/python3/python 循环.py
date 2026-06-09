@@ -1,9 +1,9 @@
-### 解题思路
-父节点先出栈，然后子节点从右到左出栈，返回res倒序
+# ### 解题思路
+# 父节点先出栈，然后子节点从右到左出栈，返回res倒序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -35,4 +35,4 @@ class Solution:
         #     res.append(root.val)
         # postorder(root)
         # return res
-```
+# ```

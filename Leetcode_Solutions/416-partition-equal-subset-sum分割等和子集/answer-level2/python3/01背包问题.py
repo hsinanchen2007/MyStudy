@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-转化为01背包问题
+# 转化为01背包问题
 
-考察是否能够选择一些物品，使其和为`sum / 2`
+# 考察是否能够选择一些物品，使其和为`sum / 2`
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         s = sum(nums)
@@ -20,4 +20,4 @@ class Solution:
                     dp[i] = dp[i] or dp[i - x]
         return dp[-1]
         
-```
+# ```

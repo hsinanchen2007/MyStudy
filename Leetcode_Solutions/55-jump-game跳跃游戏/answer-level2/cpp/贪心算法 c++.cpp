@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e3f1b45ef29ac8df1f0996dd21083aff9184418be104bc877d1f0f1850407031-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e3f1b45ef29ac8df1f0996dd21083aff9184418be104bc877d1f0f1850407031-image.png)
 
-思路：每一次在上一次的最大值和这次的最大值之间填true值 最后看看能不能到达最后一个
-```
+// 思路：每一次在上一次的最大值和这次的最大值之间填true值 最后看看能不能到达最后一个
+// ```
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         
     }
 };
-```
+// ```

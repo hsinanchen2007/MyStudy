@@ -1,6 +1,6 @@
 
-全部塞入队列，然后取出pq里的第k个元素
-```c++
+// 全部塞入队列，然后取出pq里的第k个元素
+// ```c++
 struct cmp{
     bool operator()(const int& a, const int& b){
         return a>b;
@@ -25,4 +25,4 @@ public:
         
     }
 };
-```
+// ```

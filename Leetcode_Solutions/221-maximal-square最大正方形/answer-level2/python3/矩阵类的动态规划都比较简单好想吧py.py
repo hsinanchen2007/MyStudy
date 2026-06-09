@@ -1,4 +1,4 @@
-```
+# ```
 矩阵类的动态规划都很简单，因为dp本来就是一个矩阵，具体看注解
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
@@ -22,4 +22,4 @@ class Solution:
                         dp[i][j] = min(dp[i-1][j], dp[i][j-1],dp[i-1][j-1]) + 1
                     max_len = max(dp[i][j], max_len)
         return max_len * max_len
-```
+# ```

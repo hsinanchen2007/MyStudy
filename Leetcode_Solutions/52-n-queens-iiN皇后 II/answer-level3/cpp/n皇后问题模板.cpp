@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<bool>col,d,ud;
@@ -27,4 +27,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路一
+// ### 解题思路一
 
-单向BFS，把合法的节点及转移预先构图。
+// 单向BFS，把合法的节点及转移预先构图。
 
-执行用时 :1436 ms, 在所有 C++ 提交中击败了5.14% 的用户
-内存消耗 :416.6 MB, 在所有 C++ 提交中击败了5.03%的用户
+// 执行用时 :1436 ms, 在所有 C++ 提交中击败了5.14% 的用户
+// 内存消耗 :416.6 MB, 在所有 C++ 提交中击败了5.03%的用户
 
-实际上，可以一边BFS一边构图，无序预先 buildGraph()，可以提高计算和内存效率。
+// 实际上，可以一边BFS一边构图，无序预先 buildGraph()，可以提高计算和内存效率。
 
-### 代码一
+// ### 代码一
 
-```cpp
+// ```cpp
 class Solution {
 private:
     unordered_map<string, vector<string>> graph;
@@ -77,15 +77,15 @@ public:
         return to_string(x);
     }
 };
-```
+// ```
 
-### 解题思路二
+// ### 解题思路二
 
-双向BFS，从“0000“ 和 target这两端相向搜索。
+// 双向BFS，从“0000“ 和 target这两端相向搜索。
 
-### 代码二
+// ### 代码二
 
-```cpp
+// ```cpp
 class Solution {
 private:
     unordered_map<string, vector<string>> graph;
@@ -179,4 +179,4 @@ public:
         return to_string(x);
     }
 };
-```
+// ```

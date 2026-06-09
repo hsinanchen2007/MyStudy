@@ -1,9 +1,9 @@
-### 解题思路
-直接求链表长度，取len/2+1位置的元素
+// ### 解题思路
+// 直接求链表长度，取len/2+1位置的元素
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ struct ListNode* middleNode(struct ListNode* head){
 
     return getEle(head,length/2+1);
 }
-```
+// ```

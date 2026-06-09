@@ -1,4 +1,4 @@
-```
+// ```
 var findJudge = function(N, trust) {
     const record = trust.reduce((t, i) => {
         t[i[1]] = 1;
@@ -14,4 +14,4 @@ var findJudge = function(N, trust) {
     while(i--) if(trust[i][1] === +res[0]) people[trust[i][0]] = 1;
     return Object.keys(people).length === N - 1 ? res[0] : -1;
 };
-```
+// ```

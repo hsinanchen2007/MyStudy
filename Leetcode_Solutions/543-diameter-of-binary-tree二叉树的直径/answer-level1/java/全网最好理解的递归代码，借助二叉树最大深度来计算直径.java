@@ -1,5 +1,5 @@
-左子树最大深度+右子树最大深度=二叉树的直径
-```java
+// 左子树最大深度+右子树最大深度=二叉树的直径
+// ```java
 public class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
         if (root == null) {
@@ -16,4 +16,4 @@ public class Solution {
     }
 }
 
-```
+// ```

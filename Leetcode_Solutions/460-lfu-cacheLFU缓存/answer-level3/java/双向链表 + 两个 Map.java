@@ -1,10 +1,10 @@
-### 解题思路
-参考甜姨题解 1，使用 Java LinkedHashSet
-对 addNode 和 removeNode 进一步封装
+// ### 解题思路
+// 参考甜姨题解 1，使用 Java LinkedHashSet
+// 对 addNode 和 removeNode 进一步封装
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     Map<Integer, Node> cache;
     Map<Integer, LinkedHashSet<Node>> freqMap;
@@ -111,4 +111,4 @@ class Node{
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

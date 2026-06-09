@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -34,4 +34,4 @@ public:
         else return false;
     }
 };
-```
+// ```

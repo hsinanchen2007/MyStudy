@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_26 26
 #define MAX_500 500
 
@@ -61,4 +61,4 @@ char *reorganizeString(char *S)
 	}
 	return ans;
 }
-```
+// ```

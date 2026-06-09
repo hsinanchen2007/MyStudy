@@ -1,6 +1,6 @@
-解题思路 逆序可以考虑一下栈，不是空格就入栈，是空格就出栈，判断好首尾空格，很简单的
+// 解题思路 逆序可以考虑一下栈，不是空格就入栈，是空格就出栈，判断好首尾空格，很简单的
 
-```
+// ```
 char * reverseWords(char * s){
     int len = strlen(s);
     if(len == 0)
@@ -34,4 +34,4 @@ char * reverseWords(char * s){
     res[count] = '\0';
     return res;
 }
-```
+// ```

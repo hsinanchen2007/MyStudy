@@ -1,6 +1,6 @@
-花了好长时间排错,其实是自己对题目理解有误,只需要爬取到和startUrl不同域名的链接就会返回,不管这个链接里面是否有和startURL相同的链接.
+// 花了好长时间排错,其实是自己对题目理解有误,只需要爬取到和startUrl不同域名的链接就会返回,不管这个链接里面是否有和startURL相同的链接.
 
-```
+// ```
     vector<string> crawl(string startUrl, HtmlParser htmlParser) {
         vector<string> ret;
         set<string> visit;
@@ -27,4 +27,4 @@
         }
     }
 };
-```
+// ```

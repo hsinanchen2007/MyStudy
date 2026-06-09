@@ -1,14 +1,14 @@
-# 解题思路
-为什么我一直坚持先写记忆化递归呢？这对我来说算是兜底的存在了吧，优雅之前得先找出个答案吧。
+// # 解题思路
+// 为什么我一直坚持先写记忆化递归呢？这对我来说算是兜底的存在了吧，优雅之前得先找出个答案吧。
 
-1.每次递归都有2个选择，copyAll or Paste，但是copy==0，即剪贴板没有一个 'A' 时，得先copyAll
+// 1.每次递归都有2个选择，copyAll or Paste，但是copy==0，即剪贴板没有一个 'A' 时，得先copyAll
 
-2.如果copy>0，剪贴板里面有 'A' 的时候，可以继续copyAll，但是**一直copy会导致溢出**，所以需要**让它及时停止**：`if copyRecord==n`，这里**copyRecord是累计的copyAll的次数**
+// 2.如果copy>0，剪贴板里面有 'A' 的时候，可以继续copyAll，但是**一直copy会导致溢出**，所以需要**让它及时停止**：`if copyRecord==n`，这里**copyRecord是累计的copyAll的次数**
 
-3.当然，剪贴板有 'A' 的时候，也可以paste，但是**paste有条件：保证paste粘贴之后 'A' 的个数不大于n**，转变成代码表达就是：`count+copy<=n`，其中，count是累计的 'A' 的个数，copy是当前剪贴板里面 'A' 的个数。
+// 3.当然，剪贴板有 'A' 的时候，也可以paste，但是**paste有条件：保证paste粘贴之后 'A' 的个数不大于n**，转变成代码表达就是：`count+copy<=n`，其中，count是累计的 'A' 的个数，copy是当前剪贴板里面 'A' 的个数。
 
-# 记忆化递归代码
-```
+// # 记忆化递归代码
+// ```
     int n;
     int[][] memo;//memo[i][j],i是当前'A'的个数,j是当前剪贴板copy中的容量
     public int minSteps(int n) {
@@ -40,5 +40,5 @@
         memo[count][copy]=ans;
         return ans;
     }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-题解双100.00%，链表a长度la,链表b长度lb,比如链表a长于链表b，那么先遍历b-a的长度，剩下a,b长度相同，就可以同时遍历a和b，直到找到相同的节点。
+// ### 解题思路
+// 题解双100.00%，链表a长度la,链表b长度lb,比如链表a长于链表b，那么先遍历b-a的长度，剩下a,b长度相同，就可以同时遍历a和b，直到找到相同的节点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
         
 return NULL;
 }
-```
+// ```

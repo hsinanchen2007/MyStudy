@@ -1,5 +1,5 @@
-从后向前遍历，当遍历到第i个元素出现逆序时（nums[i]>nums[i-1]），选择后面最小的大于nums[i-1]的元素，交换；接下来将nums[i:]从小到大排序，得到的数组就是符合条件的按字典序最小的数组。
-```
+// 从后向前遍历，当遍历到第i个元素出现逆序时（nums[i]>nums[i-1]），选择后面最小的大于nums[i-1]的元素，交换；接下来将nums[i:]从小到大排序，得到的数组就是符合条件的按字典序最小的数组。
+// ```
 class Solution {
     public void nextPermutation(int[] nums) {
         boolean flag=true;
@@ -39,4 +39,4 @@ class Solution {
         }
     }
 }
-```
+// ```

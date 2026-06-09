@@ -1,4 +1,4 @@
-```
+// ```
 func checkInclusion(s1 string, s2 string) bool {
     if len(s1)==0{
         return true
@@ -30,4 +30,4 @@ func checkInclusion(s1 string, s2 string) bool {
     
     return false
 }
-```
+// ```

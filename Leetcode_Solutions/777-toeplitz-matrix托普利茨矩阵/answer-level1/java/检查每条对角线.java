@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从第一行和第一列开始，检查每个对角线元素是否相等即可
+// 从第一行和第一列开始，检查每个对角线元素是否相等即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     boolean isToeplitzMatrixLine(int[][] matrix, int i, int j) {
         int a = matrix[i][j];
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

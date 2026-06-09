@@ -1,4 +1,4 @@
-```
+// ```
 //第一次写题解有点不会写QAQ
 //dp[i][ii]为1时表示p的前i个字符与s的前ii个字符相匹配
 class Solution {
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

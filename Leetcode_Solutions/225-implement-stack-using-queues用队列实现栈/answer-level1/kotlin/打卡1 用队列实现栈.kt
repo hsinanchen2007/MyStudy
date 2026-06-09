@@ -1,4 +1,4 @@
-```
+// ```
 class MyStack() {
 
     private var a = mutableListOf<Int>()
@@ -20,4 +20,4 @@ class MyStack() {
     fun empty(): Boolean = b.isEmpty()
 
 }
-```
+// ```

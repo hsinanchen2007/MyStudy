@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/6e1b41b56a3e8031593c569ec05b79d33e65409996b5178752f0f45d5d253efa-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6e1b41b56a3e8031593c569ec05b79d33e65409996b5178752f0f45d5d253efa-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int dp[50009];
@@ -76,4 +76,4 @@ int lower(int*s, int cnt, int val)
 	return dp[cnt - 1];
     }
 };
-```
+// ```

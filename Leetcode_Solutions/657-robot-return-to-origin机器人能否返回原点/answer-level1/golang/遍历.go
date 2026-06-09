@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func judgeCircle(moves string) bool {
 	x:=0
 	y:=0
@@ -28,4 +28,4 @@ func judgeCircle(moves string) bool {
 	}
 	return false
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-和不同路径1一样的解法，注意跳过障碍
-```
+// 和不同路径1一样的解法，注意跳过障碍
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         
@@ -34,4 +34,4 @@ class Solution {
         return dp[n-1][m-1];  
     }
 }
-```
+// ```

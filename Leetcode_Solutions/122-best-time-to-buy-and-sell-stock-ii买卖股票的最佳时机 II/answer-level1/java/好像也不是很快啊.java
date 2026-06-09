@@ -1,5 +1,5 @@
-这是我的算法
-```
+// 这是我的算法
+// ```
  int result = 0;
          //持有金额
         int flag = 0;
@@ -25,4 +25,4 @@
             hold = false;
         }
         return result;
-```
+// ```

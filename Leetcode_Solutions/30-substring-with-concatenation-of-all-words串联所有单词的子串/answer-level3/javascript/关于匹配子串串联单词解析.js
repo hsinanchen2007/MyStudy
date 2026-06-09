@@ -1,7 +1,7 @@
-其实刚开始可以做发散，有关子串不规定长度，结果如其他解法一样，当遇到 s="ababaab",words=["ab","ba","ba"]的情况时就会出现重复单词查找，导致结果不匹配，“babaab”这个串被解析为“b,ab,a,ab”,这又涉及到words组合排序的问题，所以为了简化难度，将words的单位长度固定，“babaab”被解析为“ba，ba，ab”，由此可得基础算法；
+// 其实刚开始可以做发散，有关子串不规定长度，结果如其他解法一样，当遇到 s="ababaab",words=["ab","ba","ba"]的情况时就会出现重复单词查找，导致结果不匹配，“babaab”这个串被解析为“b,ab,a,ab”,这又涉及到words组合排序的问题，所以为了简化难度，将words的单位长度固定，“babaab”被解析为“ba，ba，ab”，由此可得基础算法；
 
 
-```javascript []
+// ```javascript []
 function findSubstring(s,words){
 	let len=0;
 	let le=0;
@@ -45,10 +45,10 @@ function findSubstring(s,words){
 	}
 	return rst;
 }
-```
-上面的代码由于js对象创建较多，导致在大量数据运算时，消耗内存严重，由此可简化对象创建的次数，用属性初始化指针代替：
+// ```
+// 上面的代码由于js对象创建较多，导致在大量数据运算时，消耗内存严重，由此可简化对象创建的次数，用属性初始化指针代替：
 
-```javascript []
+// ```javascript []
 var findSubstring = function(s, words) {
     let len;
     if(words.length>0){
@@ -98,5 +98,5 @@ function existsStr(str,list,len){
 	}
 	return rst;
 }
-```
-变化在于map在重复调用的时候重置属性，并没有重复创建大量的相似对象，极大降低对内存的消耗，其实操作由于其重复性可简化为递归算法，但是大数据可能导致栈溢出，在此不做推荐
+// ```
+// 变化在于map在重复调用的时候重置属性，并没有重复创建大量的相似对象，极大降低对内存的消耗，其实操作由于其重复性可简化为递归算法，但是大数据可能导致栈溢出，在此不做推荐

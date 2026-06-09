@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSwapValues(self, array1: List[int], array2: List[int]) -> List[int]:
         if array1 == [] or array2 == []:
@@ -23,4 +23,4 @@ class Solution:
                             return [i, i+int(diff)]
                     return []
         
-```
+# ```

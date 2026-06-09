@@ -1,12 +1,12 @@
-## 思路:
+# ## 思路:
 
-其实就是左右节点指向改变，右节点指向下一个比它大的数，左节点指向比它小的数。又是二叉搜索树，自然想到中序遍历。
+# 其实就是左右节点指向改变，右节点指向下一个比它大的数，左节点指向比它小的数。又是二叉搜索树，自然想到中序遍历。
 
-思路一：中序遍历（非递归和递归）
+# 思路一：中序遍历（非递归和递归）
 
-写法一：用栈(非递归)
+# 写法一：用栈(非递归)
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -40,11 +40,11 @@ class Solution:
         head.right.left = prev
         prev.right = head.right
         return head.right
-```
+# ```
 
-写法二：递归
+# 写法二：递归
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -77,11 +77,11 @@ class Solution:
         head.right.left = prev
         prev.right = head.right
         return head.right
-```
+# ```
 
-思路二：分治
+# 思路二：分治
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -108,5 +108,5 @@ class Solution:
         tail2.right = node1
         node1.left = tail2
         return node1
-```
+# ```
 

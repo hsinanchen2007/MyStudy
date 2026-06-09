@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostToMoveChips(vector<int>& chips) {
@@ -15,4 +15,4 @@ public:
         return min(odd,even);
     }
 };
-```
+// ```

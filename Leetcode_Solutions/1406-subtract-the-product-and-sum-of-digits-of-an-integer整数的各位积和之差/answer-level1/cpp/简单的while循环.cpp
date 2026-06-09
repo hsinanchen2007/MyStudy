@@ -1,10 +1,10 @@
-### 解题思路
-注意：
-    取余操作要放在前面
+// ### 解题思路
+// 注意：
+//     取余操作要放在前面
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -20,4 +20,4 @@ public:
         return product-sum;
     }
 };
-```
+// ```

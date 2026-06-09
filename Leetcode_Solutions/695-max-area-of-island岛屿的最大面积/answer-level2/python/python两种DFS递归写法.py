@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         """
@@ -37,4 +37,4 @@ class Solution(object):
                     res=infect(grid,i,j)#开始感染
                     max_area=max(res,max_area)
         return max_area
-```
+# ```

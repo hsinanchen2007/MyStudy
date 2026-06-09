@@ -1,12 +1,12 @@
-### 解题思路
-建立哈希映射，Key为字符串中的字母按照字母表顺序重新排列所得的anagram，value为List,包含所有key的异位词。
-1. 首先，遍历字符串数组，对每个字符串s，调用sortChars(s)，得到哈希映射里的key
-2. 将该字符串s加入Key所映射到的List中
-3. 最后，遍历哈希映射的关键字集合，将得到的List<>依次加入要返回的结果数组List<List<>>中
+// ### 解题思路
+// 建立哈希映射，Key为字符串中的字母按照字母表顺序重新排列所得的anagram，value为List,包含所有key的异位词。
+// 1. 首先，遍历字符串数组，对每个字符串s，调用sortChars(s)，得到哈希映射里的key
+// 2. 将该字符串s加入Key所映射到的List中
+// 3. 最后，遍历哈希映射的关键字集合，将得到的List<>依次加入要返回的结果数组List<List<>>中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String,List<String>> map=new HashMap<>();
@@ -29,4 +29,4 @@ class Solution {
         return new String(content);
     }
 }
-```
+// ```

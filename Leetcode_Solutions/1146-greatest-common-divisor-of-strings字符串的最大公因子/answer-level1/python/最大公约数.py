@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import math
 class Solution(object):
     def gcdOfStrings(self, str1, str2):
@@ -33,4 +33,4 @@ class Solution(object):
             res = str_mod(str1, str2)
         return str2
 
-```
+# ```

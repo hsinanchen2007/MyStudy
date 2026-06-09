@@ -1,9 +1,9 @@
 
 
-用key的每一位表示每把钥匙的状态，数组`vis[x][y][keys]`表示已到达的位置和钥匙状态。
+// 用key的每一位表示每把钥匙的状态，数组`vis[x][y][keys]`表示已到达的位置和钥匙状态。
 
 
-```c++
+// ```c++
 class Solution {
 public:
     int shortestPathAllKeys(vector<string>& grid) {
@@ -80,4 +80,4 @@ private:
 
     int dir[4][2] = {{0,1},{-1,0},{0,-1},{1,0}};
 };
-```
+// ```

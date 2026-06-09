@@ -1,10 +1,10 @@
-1.   使用栈来保存运算符号，左右括号，数字
-2.   去掉空格
-3.   符号中间的是数字
-4.   遇到）符号计算（之前的数。
-5.   处理原先存在连续数字
+// 1.   使用栈来保存运算符号，左右括号，数字
+// 2.   去掉空格
+// 3.   符号中间的是数字
+// 4.   遇到）符号计算（之前的数。
+// 5.   处理原先存在连续数字
 
-```
+// ```
 private  static List<String> mathMap=new ArrayList<>();
 
     static {
@@ -93,5 +93,5 @@ private  static List<String> mathMap=new ArrayList<>();
         return sum;
     }
 
-```
+// ```
 

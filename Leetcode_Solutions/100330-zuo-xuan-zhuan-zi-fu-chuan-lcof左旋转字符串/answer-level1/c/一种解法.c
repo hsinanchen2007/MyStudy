@@ -1,10 +1,10 @@
-### 解题思路
-1、注意接收数组需要多一位空间；
-2、使用求余实现移位；
+// ### 解题思路
+// 1、注意接收数组需要多一位空间；
+// 2、使用求余实现移位；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* reverseLeftWords(char* s, int n){
     
     int len=strlen(s);
@@ -18,4 +18,4 @@ char* reverseLeftWords(char* s, int n){
     return str;
 
 }
-```
+// ```

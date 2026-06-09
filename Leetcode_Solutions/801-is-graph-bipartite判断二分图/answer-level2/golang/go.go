@@ -1,4 +1,4 @@
-```
+// ```
 func isBipartite(graph [][]int) bool {
 	cs := make([]int, len(graph))
 	var cal func(int, int) bool
@@ -21,4 +21,4 @@ func isBipartite(graph [][]int) bool {
 	}
 	return true
 }
-```
+// ```

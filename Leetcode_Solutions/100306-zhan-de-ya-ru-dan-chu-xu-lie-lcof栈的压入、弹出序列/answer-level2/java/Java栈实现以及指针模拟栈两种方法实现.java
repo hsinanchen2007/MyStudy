@@ -1,5 +1,5 @@
-第一种方法，容易想到的就是用新创建一个栈模拟进行入栈和出栈。
-```
+// 第一种方法，容易想到的就是用新创建一个栈模拟进行入栈和出栈。
+// ```
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> stack = new Stack<>();
@@ -22,9 +22,9 @@ class Solution {
         return true;
     }
 }
-```
-第二种方法就是直接使用原pushed数组以及自己维护一个stack直接来模拟一个栈。其实栈不过也是数组实现的，会维护一个指针，指针所指的元素即为栈顶元素。
-```
+// ```
+// 第二种方法就是直接使用原pushed数组以及自己维护一个stack直接来模拟一个栈。其实栈不过也是数组实现的，会维护一个指针，指针所指的元素即为栈顶元素。
+// ```
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {   
         //用stack指针和原pushed数组模拟一个栈，指针所指即为栈顶元素，其他与上一种解法一致
@@ -48,5 +48,5 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 

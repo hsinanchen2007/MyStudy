@@ -1,4 +1,4 @@
-```
+// ```
 func robotSim(commands []int, obstacles [][]int) int {
 	var bad = map[int]bool{}
 	var bad2 = map[int]map[int]bool{}
@@ -58,4 +58,4 @@ func (p *point) length() int {
 var DIRECT_POINTS = []*point{
 	{0, 1}, {1, 0}, {0, -1}, {-1, 0},
 }
-```
+// ```

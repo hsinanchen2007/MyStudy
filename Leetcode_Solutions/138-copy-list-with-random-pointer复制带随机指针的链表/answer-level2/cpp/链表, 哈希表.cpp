@@ -1,5 +1,5 @@
-哈希表
-```
+// 哈希表
+// ```
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -23,9 +23,9 @@ public:
         return ump[head];
     }
 };
-```
-原地复制链表法
-```
+// ```
+// 原地复制链表法
+// ```
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -73,4 +73,4 @@ public:
     }   
 };
 
-```
+// ```

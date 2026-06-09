@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public static String countAndSay(int n) {
         String str,res;// res 存放最终返回的结果，str存放中间结果，也就是上一轮的结果
@@ -19,5 +19,5 @@ public static String countAndSay(int n) {
         return res;
     }
 }
-```
+// ```
 

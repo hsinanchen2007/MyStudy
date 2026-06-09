@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def singleNumber(self, nums):
         # numa = 0
@@ -36,5 +36,5 @@ class Solution:
                 elif mid%2 !=0:
                     right = mid
 
-```
-思路：先排序；排序后二分法开始异或运算，根据异或结果对应处理；
+# ```
+# 思路：先排序；排序后二分法开始异或运算，根据异或结果对应处理；

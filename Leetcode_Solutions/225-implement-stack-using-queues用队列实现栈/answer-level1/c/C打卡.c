@@ -1,9 +1,9 @@
-### 解题思路
-打卡加油
+// ### 解题思路
+// 打卡加油
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define STACK_SIZE (200)
 
 typedef struct {
@@ -78,4 +78,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

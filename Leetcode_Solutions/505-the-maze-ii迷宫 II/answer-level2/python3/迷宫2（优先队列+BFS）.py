@@ -1,5 +1,5 @@
-> 类似于单源最短路径
-```python
+# > 类似于单源最短路径
+# ```python
 import heapq
 
 class Solution(object):
@@ -32,4 +32,4 @@ class Solution(object):
                     heapq.heappush(stack,(path+length,(x,y)))
         
         return -1
-```
+# ```

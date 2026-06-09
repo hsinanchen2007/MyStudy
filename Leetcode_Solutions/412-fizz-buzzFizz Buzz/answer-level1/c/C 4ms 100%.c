@@ -1,4 +1,4 @@
-```
+// ```
 char** fizzBuzz(int n, int* returnSize)
 {
     char* fizz = malloc(5);
@@ -20,5 +20,5 @@ char** fizzBuzz(int n, int* returnSize)
     }
     return res;
 }
-```
-由于fizz，buzz，fizzbuzz可以重复利用，所以可以事先构造好，然后直接将地址赋给res即可。这样可以省去利用sprintf重复复制的工作。
+// ```
+// 由于fizz，buzz，fizzbuzz可以重复利用，所以可以事先构造好，然后直接将地址赋给res即可。这样可以省去利用sprintf重复复制的工作。

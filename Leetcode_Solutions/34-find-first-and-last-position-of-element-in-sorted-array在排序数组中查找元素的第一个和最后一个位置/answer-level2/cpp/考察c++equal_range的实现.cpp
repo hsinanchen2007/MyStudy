@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度O（log2n）
-空间复杂度O(1)
+// ### 解题思路
+// 时间复杂度O（log2n）
+// 空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -17,4 +17,4 @@ public:
         return {start-nums.begin(), finsh-nums.begin()-1};
     }
 };
-```
+// ```

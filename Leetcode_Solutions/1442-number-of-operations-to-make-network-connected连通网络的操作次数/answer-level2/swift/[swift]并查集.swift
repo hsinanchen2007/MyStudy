@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     class DSU {
         private var parent: [Int]
@@ -46,4 +46,4 @@ class Solution {
         return dsu.getCompomentsCount() - 1
     }
  }
-```
+// ```

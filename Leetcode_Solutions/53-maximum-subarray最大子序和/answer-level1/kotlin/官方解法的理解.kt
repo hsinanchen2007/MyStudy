@@ -1,9 +1,9 @@
-### 分治法解题思路
-最大子数组无非三种情况：1、在整个数组的左边，2、在整个数组的右边，3、经过数组的中间，横穿这个数组
+// ### 分治法解题思路
+// 最大子数组无非三种情况：1、在整个数组的左边，2、在整个数组的右边，3、经过数组的中间，横穿这个数组
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun maxSubArray(nums: IntArray): Int {
         return maxSubArray(nums, 0, nums.size - 1)
@@ -46,14 +46,14 @@ class Solution {
         return leftSubsum + rightSubsum
     }
 }
-```
-### 贪心法解题思路
-贪心法，至当前位置的最佳答案。
-但当前元素为负数仍需累加，一是因为如果不累加就与前面一个位置时的最佳答案一样；二是因为方便后面位置的最佳答案计算。
+// ```
+// ### 贪心法解题思路
+// 贪心法，至当前位置的最佳答案。
+// 但当前元素为负数仍需累加，一是因为如果不累加就与前面一个位置时的最佳答案一样；二是因为方便后面位置的最佳答案计算。
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun maxSubArray(nums: IntArray): Int {
         var curMax = 0
@@ -72,4 +72,4 @@ class Solution {
         return max
     }
 }
-```
+// ```

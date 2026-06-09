@@ -1,7 +1,7 @@
-暴力破解，遍历数组计算平均灰度，需要注意边界情况
+// 暴力破解，遍历数组计算平均灰度，需要注意边界情况
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {
@@ -50,4 +50,4 @@ public:
         return ans;
     }
 };
-```
+// ```

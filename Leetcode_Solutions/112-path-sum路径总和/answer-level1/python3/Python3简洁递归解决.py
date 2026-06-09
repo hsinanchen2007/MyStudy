@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/b8fdb5fc64edad78f1f8565e5c63bd1f***baffd2f0bbbda521e105e1ea4b870-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b8fdb5fc64edad78f1f8565e5c63bd1f***baffd2f0bbbda521e105e1ea4b870-image.png)
 
 
-代码如下：
-```
+# 代码如下：
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             return root.val == sum
         
         return self.hasPathSum(root.left, sum-root.val) or self.hasPathSum(root.right, sum-root.val)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-子树抢不抢构成了父节点抢不抢
+// ### 解题思路
+// 子树抢不抢构成了父节点抢不抢
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -39,4 +39,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

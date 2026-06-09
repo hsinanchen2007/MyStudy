@@ -1,5 +1,5 @@
-利用两个hash分别记录两个字符串的元素的个数，这道题的本质其实就是第一个字符串中的元素的个数都要小于或者等于第二个元素的个数，根据这一点，得到第一个字符串中的每个元素的个数，然后和第二个元素的个数去比较即可。
-```
+// 利用两个hash分别记录两个字符串的元素的个数，这道题的本质其实就是第一个字符串中的元素的个数都要小于或者等于第二个元素的个数，根据这一点，得到第一个字符串中的每个元素的个数，然后和第二个元素的个数去比较即可。
+// ```
 
 bool canConstruct(char * ransomNote, char * magazine){
     int mark1[26]={0},mark2[26]={0};//模拟HASH
@@ -27,9 +27,9 @@ bool canConstruct(char * ransomNote, char * magazine){
     }
     return true;
 }
-```
-优化一下，利用一个hash表来保存，只记录第二个字符串的元素个数。时间效率再提升！
-```
+// ```
+// 优化一下，利用一个hash表来保存，只记录第二个字符串的元素个数。时间效率再提升！
+// ```
 
 bool canConstruct(char * ransomNote, char * magazine){
     int mark1[26]={0};//模拟HASH
@@ -52,5 +52,5 @@ bool canConstruct(char * ransomNote, char * magazine){
     }
     return true;
 }
-```
+// ```
 

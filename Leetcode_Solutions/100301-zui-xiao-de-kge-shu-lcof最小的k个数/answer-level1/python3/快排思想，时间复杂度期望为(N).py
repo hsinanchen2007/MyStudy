@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 import random
 class Solution1:
@@ -67,4 +67,4 @@ class Solution:
         k = k - 1
         select(0, n - 1)
         return arr[:k+1]
-```
+# ```

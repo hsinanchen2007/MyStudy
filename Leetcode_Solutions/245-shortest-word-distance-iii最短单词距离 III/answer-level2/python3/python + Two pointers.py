@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def shortestWordDistance(self, words: List[str], word1: str, word2: str) -> int:
         word1_arr, word2_arr = [], []
@@ -28,4 +28,4 @@ class Solution:
         return res
 
 
-```
+# ```

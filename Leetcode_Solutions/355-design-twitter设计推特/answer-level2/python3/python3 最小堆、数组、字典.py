@@ -1,26 +1,26 @@
-### 解题思路
-此处主要在于对于获取自身和关注的人按照时间发送的 tweet 的获取有疑惑，一开始想的是通过链表，后来没想出来...
-后来考虑用数组，想到其实只要把每一个人发送的 tweetId 存在一个数组中，数组尾端则为最新发送的数组，同时把数组的索引记录到对应的 user 身上，即可获取到每一个 user 发送的 tweetId。
+# ### 解题思路
+# 此处主要在于对于获取自身和关注的人按照时间发送的 tweet 的获取有疑惑，一开始想的是通过链表，后来没想出来...
+# 后来考虑用数组，想到其实只要把每一个人发送的 tweetId 存在一个数组中，数组尾端则为最新发送的数组，同时把数组的索引记录到对应的 user 身上，即可获取到每一个 user 发送的 tweetId。
 
-共用到 2个dict，1个list。
-list：tweet_id 存储每一个发送的 tweetId
-      举例：[5, 6]
-dict：user_info 存储用户 id 和发送的 tweetId 在 list 中的索引
-      举例：{
-          '1' : [0],
-          '2' : [1]
-      }
-      follow_info 存储用户 id 和关注的人的 id
-       举例：{
-           '1': (2,)
-      }
+# 共用到 2个dict，1个list。
+# list：tweet_id 存储每一个发送的 tweetId
+#       举例：[5, 6]
+# dict：user_info 存储用户 id 和发送的 tweetId 在 list 中的索引
+#       举例：{
+#           '1' : [0],
+#           '2' : [1]
+#       }
+#       follow_info 存储用户 id 和关注的人的 id
+#        举例：{
+#            '1': (2,)
+#       }
 
-如何按发送 tweet 的时间顺序获取 tweet？因为在 user_info 中每个userId对应存储的是发送的 tweet 在 list 中的索引，索引越大代表越晚添加到 list 中，即为越新的 tweet。
-将需要获取的 user 的全部关注的人和自身在 user_info 中的对应存储的 list 索引，取负数存入最小堆中，前10个索引对应在 list 中的结果即为所需。
+# 如何按发送 tweet 的时间顺序获取 tweet？因为在 user_info 中每个userId对应存储的是发送的 tweet 在 list 中的索引，索引越大代表越晚添加到 list 中，即为越新的 tweet。
+# 将需要获取的 user 的全部关注的人和自身在 user_info 中的对应存储的 list 索引，取负数存入最小堆中，前10个索引对应在 list 中的结果即为所需。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 class Twitter:
 
@@ -82,4 +82,4 @@ class Twitter:
 # param_2 = obj.getNewsFeed(userId)
 # obj.follow(followerId,followeeId)
 # obj.unfollow(followerId,followeeId)1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isbalance = true;
@@ -17,5 +17,5 @@ public:
         return max(l,r)+1;
     }
 };
-```
-效率不高，最近迷上递归解题，权当提供一个思路吧，欢迎交流
+// ```
+// 效率不高，最近迷上递归解题，权当提供一个思路吧，欢迎交流

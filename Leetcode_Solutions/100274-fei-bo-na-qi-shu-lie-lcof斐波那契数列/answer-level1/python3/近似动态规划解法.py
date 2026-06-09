@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def fib(self, n: int) -> int:
         if (n==0):
@@ -14,6 +14,6 @@ class Solution:
                 pre1,pre2 = pre2 ,cur
             return cur  
 
-```
-时间复杂度：O(n)
-空间复杂度:O(1)
+# ```
+# 时间复杂度：O(n)
+# 空间复杂度:O(1)

@@ -1,5 +1,5 @@
-模仿栈的实现
-```
+// 模仿栈的实现
+// ```
 class TripleInOne {
 
     int stack[];
@@ -57,4 +57,4 @@ class TripleInOne {
  * int param_3 = obj.peek(stackNum);
  * boolean param_4 = obj.isEmpty(stackNum);
  */
-```
+// ```

@@ -1,5 +1,5 @@
-第一次写的代码：
-```
+# 第一次写的代码：
+# ```
  if not root:
             return []
         stack = [[root]]
@@ -17,9 +17,9 @@
                 ans.append(s)
             stack.append(l)
         return ans
-```
-参考了一位评论区的大佬的代码后，做了一些修改：
-```
+# ```
+# 参考了一位评论区的大佬的代码后，做了一些修改：
+# ```
 stack = [root]
         ans = []
         while stack:
@@ -35,5 +35,5 @@ stack = [root]
             ans.append(s/n)
         return ans
     
-```
+# ```
 

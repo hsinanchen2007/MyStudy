@@ -1,19 +1,19 @@
-### 解题思路
-                     i            j
-    下标：      0  1  2   3  4  5  6  7  j
-    原数组：    -2，1，-3，4，-1，2，1，-5，4
-    下标：  0  1  2   3   4  5  6  7   8  9
-    前缀和：0，-2，-1，-4，0，-1，1， 2，-3，1
+// ### 解题思路
+//                      i            j
+//     下标：      0  1  2   3  4  5  6  7  j
+//     原数组：    -2，1，-3，4，-1，2，1，-5，4
+//     下标：  0  1  2   3   4  5  6  7   8  9
+//     前缀和：0，-2，-1，-4，0，-1，1， 2，-3，1
   
-    公式： sum[i,j]=prefixsum[j+1]-prefixsum[i]
-          sum[2,6]=prefixsum[7]-prefixsum[2]=2-(-1)=3
-    以j结尾的连续子数组和最大=prefixsum[j+1]-minsum(prefixsum[i],i->(0,j))
+//     公式： sum[i,j]=prefixsum[j+1]-prefixsum[i]
+//           sum[2,6]=prefixsum[7]-prefixsum[2]=2-(-1)=3
+//     以j结尾的连续子数组和最大=prefixsum[j+1]-minsum(prefixsum[i],i->(0,j))
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //前缀和
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -38,4 +38,4 @@ class Solution {
         return max;       
     }
 }
-```
+// ```

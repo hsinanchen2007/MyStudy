@@ -1,9 +1,9 @@
-### 解题思路
-比较每两两元素的组合，组合得到的数越小，越是将其放在前面
+// ### 解题思路
+// 比较每两两元素的组合，组合得到的数越小，越是将其放在前面
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minNumber(int[] nums) {
     //得到一个String类型数组，形似nums
@@ -26,4 +26,4 @@ class Solution {
 	return sb.toString();
     }
 }
-```
+// ```

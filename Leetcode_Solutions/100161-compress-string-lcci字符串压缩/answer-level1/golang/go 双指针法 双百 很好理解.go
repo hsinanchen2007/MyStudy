@@ -1,14 +1,14 @@
-### 解题思路
-双指针思路
-指针i指向第一个要检测的字符, 用strings.Builder记录新字符串
-指针j=i+1, if S[i]!=S[j], 写入字符串S[i],数量等于j-i，然后下次检测从j开始，也即i=j
-如果j到达字符串尾部, 那么只需要再次 写入字符串S[i],数量等于j-i
-最后比较一下新旧长度，如果新的短就返回新的，否则返回旧的
+// ### 解题思路
+// 双指针思路
+// 指针i指向第一个要检测的字符, 用strings.Builder记录新字符串
+// 指针j=i+1, if S[i]!=S[j], 写入字符串S[i],数量等于j-i，然后下次检测从j开始，也即i=j
+// 如果j到达字符串尾部, 那么只需要再次 写入字符串S[i],数量等于j-i
+// 最后比较一下新旧长度，如果新的短就返回新的，否则返回旧的
  
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
     var res strings.Builder
     for i := 0; i < len(S); {
@@ -32,4 +32,4 @@ func compressString(S string) string {
     }
     return res.String()
 }
-```
+// ```

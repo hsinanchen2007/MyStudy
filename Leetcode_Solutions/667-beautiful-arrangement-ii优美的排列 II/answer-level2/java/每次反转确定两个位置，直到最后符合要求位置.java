@@ -1,5 +1,5 @@
-这题直接生成很简单，自己做的方法太傻了，但是既然写了还是贴出来吧，每一次过程生成符合k和k-1的的位置，并令k = k -2，不断循环到k = 0为止。
-```
+// 这题直接生成很简单，自己做的方法太傻了，但是既然写了还是贴出来吧，每一次过程生成符合k和k-1的的位置，并令k = k -2，不断循环到k = 0为止。
+// ```
 class Solution {
     public int[] constructArray(int n, int k) {
         int[] ans = new int[n];
@@ -30,4 +30,4 @@ class Solution {
         nums[i] = nums[i]^nums[j];
     }
 }
-```
+// ```

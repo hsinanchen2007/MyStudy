@@ -1,9 +1,9 @@
-### 解题思路
-这个题目关键是用左右子树深度更高的作为递归返回值，想到这一点就没什么难度了
+// ### 解题思路
+// 这个题目关键是用左右子树深度更高的作为递归返回值，想到这一点就没什么难度了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return  left > right ? ++left : ++right;    
     }
 };
-```
+// ```

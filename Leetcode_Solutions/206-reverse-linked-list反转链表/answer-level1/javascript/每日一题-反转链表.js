@@ -1,9 +1,9 @@
-### 解题思路
-按照反转逻辑 缕清楚next指向即可
+// ### 解题思路
+// 按照反转逻辑 缕清楚next指向即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -30,4 +30,4 @@ var reverseList = function(head) {
 
     return pre;
 };
-```
+// ```

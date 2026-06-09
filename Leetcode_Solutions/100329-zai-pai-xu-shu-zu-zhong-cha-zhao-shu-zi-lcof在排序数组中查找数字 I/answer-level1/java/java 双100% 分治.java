@@ -1,9 +1,9 @@
-### 解题思路
-首先二分找到第一个target，索引为i,之后在两边分别寻找左边界以及右边界
+// ### 解题思路
+// 首先二分找到第一个target，索引为i,之后在两边分别寻找左边界以及右边界
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int l=0,r=nums.length-1,mid;
@@ -44,4 +44,4 @@ class Solution {
         return l-1;
     }
 }
-```
+// ```

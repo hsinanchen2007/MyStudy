@@ -1,4 +1,4 @@
-```
+// ```
 //线段树节点
 class Node{ 
 public: 
@@ -70,4 +70,4 @@ public:
         return ans;
     }
 };
-```
+// ```

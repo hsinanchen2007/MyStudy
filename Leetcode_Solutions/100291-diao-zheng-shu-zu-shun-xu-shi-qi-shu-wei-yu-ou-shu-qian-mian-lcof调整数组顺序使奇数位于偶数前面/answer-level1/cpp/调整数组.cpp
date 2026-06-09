@@ -1,4 +1,4 @@
-```
+// ```
 vector<int> exchange(vector<int>& nums) {
         int i = 0, j = nums.size() - 1;
         while(i < j)
@@ -12,4 +12,4 @@ vector<int> exchange(vector<int>& nums) {
         }
         return nums;
     }
-```
+// ```

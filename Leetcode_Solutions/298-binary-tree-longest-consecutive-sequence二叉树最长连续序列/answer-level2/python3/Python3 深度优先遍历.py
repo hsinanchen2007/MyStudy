@@ -1,6 +1,6 @@
-打败100%....
+# 打败100%....
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
         if root:
             dfs(root, root.val, 1)
         return res
-```
+# ```

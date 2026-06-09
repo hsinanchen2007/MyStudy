@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public int numRookCaptures(char[][] board) {
         int ans = 0;
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

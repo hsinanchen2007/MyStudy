@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return Math.max(0,Math.max(node.val + left, node.val + right)); //当前节点不是最高节点，返回父结点
     }
 }
-```
+// ```

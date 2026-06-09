@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} num1
  * @param {string} num2
@@ -31,4 +31,4 @@ var addStrings = function(num1, num2) {
     }
     return carry > 0 ? `${carry}${res}` : `${res}`
 };
-```
+// ```

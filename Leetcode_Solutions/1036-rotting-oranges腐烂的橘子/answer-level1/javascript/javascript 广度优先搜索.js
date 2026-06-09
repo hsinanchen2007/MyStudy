@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+// ### 解题思路
+// 见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -51,4 +51,4 @@ var orangesRotting = function(grid) {
         function shouldInfect (grid, x, y) {
             return grid[x] && grid[x][y] && grid[x][y] === 1
         }
-```
+// ```

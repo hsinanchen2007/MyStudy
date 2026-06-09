@@ -1,9 +1,9 @@
-### 解题思路
-先把所有的面都加上，然后在减去被遮掩的面
+// ### 解题思路
+// 先把所有的面都加上，然后在减去被遮掩的面
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -27,4 +27,4 @@ public:
     	return ans;
     }
 };
-```
+// ```

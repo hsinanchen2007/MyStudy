@@ -1,6 +1,6 @@
-定义一个双向链表，用双向链表分别定义排序队列和最大值队列
+// 定义一个双向链表，用双向链表分别定义排序队列和最大值队列
 
-```
+// ```
 class Node {
     Node prev;
     Node next;
@@ -12,9 +12,9 @@ class Node {
         this.value = value;
     }
 }
-```
+// ```
 
-```
+// ```
 class Dequeue {
     Node head;
     Node tail;
@@ -97,9 +97,9 @@ class Dequeue {
         }
     }
 }
-```
+// ```
 
-```
+// ```
 class MaxQueue {
     Dequeue order;
     Dequeue max;
@@ -141,4 +141,4 @@ class MaxQueue {
         return pop;
     }
 }
-```
+// ```

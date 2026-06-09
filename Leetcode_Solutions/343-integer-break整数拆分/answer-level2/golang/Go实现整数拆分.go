@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func integerBreak(n int) int {
     if n ==2{
         return 1
@@ -16,4 +16,4 @@ func integerBreak(n int) int {
     result := int(math.Pow(float64(3),float64(timesOf3))*math.Pow(float64(2),float64(timesOf2)))
     return result
 }
-```
+// ```

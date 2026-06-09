@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-    dp[n] = Max(dp[n - 1], dp[n - 2] + nums[n], dp[n - 3] + nums[i])
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+//     dp[n] = Max(dp[n - 1], dp[n - 2] + nums[n], dp[n - 3] + nums[i])
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int rob(int[] nums) {
         int[] dp = new int[nums.length + 1];
@@ -28,6 +28,6 @@ class Solution {
         return dp[nums.length];
     }
 }
-```
-这边空间复杂度可以继续优化下 不需要使用O(N)的空间复杂度 可以使用O(1)的辅助空间 然后if else的分支可以优化下少跑一点
+// ```
+// 这边空间复杂度可以继续优化下 不需要使用O(N)的空间复杂度 可以使用O(1)的辅助空间 然后if else的分支可以优化下少跑一点
  

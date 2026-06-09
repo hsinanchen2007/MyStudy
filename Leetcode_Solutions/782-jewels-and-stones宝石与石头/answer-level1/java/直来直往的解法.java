@@ -1,9 +1,9 @@
-### 解题思路
-不重复用set,判断有无用contains。
+// ### 解题思路
+// 不重复用set,判断有无用contains。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numJewelsInStones(String J, String S) {
         Set<Character> set = new HashSet<>();
@@ -20,4 +20,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

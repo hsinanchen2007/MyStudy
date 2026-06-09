@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-递归
-### 代码
+// 递归
+// ### 代码
 
-```golang
+// ```golang
 func sumNums(n int) int {
     if n == 1 {
         return 1
     }
     return n + sumNums(n-1)
 }
-```
+// ```

@@ -1,5 +1,5 @@
-class Solution:
-```
+# class Solution:
+# ```
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         res = [0 for _ in range(num_people)]
         if not candies:
@@ -18,5 +18,5 @@ class Solution:
             if candies <= 0:
                 candies = 0
         return res
-```
+# ```
     

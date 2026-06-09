@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，第一次出错是因为忘记添加return{}这种情况，属实不该。
+// ### 解题思路
+// 暴力解法，第一次出错是因为忘记添加return{}这种情况，属实不该。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -18,4 +18,4 @@ public:
     return {};
     }
 };
-```
+// ```

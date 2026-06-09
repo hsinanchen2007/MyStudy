@@ -1,33 +1,33 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 深度优先搜索
+// # 深度优先搜索
 
-分两种情况深度优先搜索：
+// 分两种情况深度优先搜索：
 
-（1）插入一个或两个颜色相同的球引发连锁反响。
+// （1）插入一个或两个颜色相同的球引发连锁反响。
 
-（2）往两个颜色相同的球中间插入一个颜色不同的球（为什么要这么做呢？见特殊测试用例二）。
+// （2）往两个颜色相同的球中间插入一个颜色不同的球（为什么要这么做呢？见特殊测试用例二）。
 
-注意两个特殊的测试用例：
+// 注意两个特殊的测试用例：
 
-测试用例一：
+// 测试用例一：
 
-"WWRRGGRRWWRRGGRRWW", "GG"
+// "WWRRGGRRWWRRGGRRWW", "GG"
 
-无论怎么插入，都无法完全消除，结果应是-1。
+// 无论怎么插入，都无法完全消除，结果应是-1。
 
-测试用例二：
+// 测试用例二：
 
-"RRWWRRBBRR", "WB"
+// "RRWWRRBBRR", "WB"
 
-"R(B)RWWRRBBRR" -> "R(B)RWW(W)RRBBRR" -> ""
+// "R(B)RWWRRBBRR" -> "R(B)RWW(W)RRBBRR" -> ""
 
-结果应是2。
+// 结果应是2。
 
-执行用时：8ms，击败35.87%。消耗内存：37.8MB，击败29.17%。
+// 执行用时：8ms，击败35.87%。消耗内存：37.8MB，击败29.17%。
 
-```java
+// ```java
 public class Solution {
     private int result = Integer.MAX_VALUE;
 
@@ -105,4 +105,4 @@ public class Solution {
         return sb;
     }
 }
-```
+// ```

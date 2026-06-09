@@ -1,9 +1,9 @@
-### 解题思路
-核心是使用不满足个数的字符串对字符串进行切分，然后再对各个分割后的字符串进行判断，是否满足条件。
+# ### 解题思路
+# 核心是使用不满足个数的字符串对字符串进行切分，然后再对各个分割后的字符串进行判断，是否满足条件。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestSubstring(self, s: str, k: int) -> int:
         len_list = []
@@ -40,4 +40,4 @@ class Solution:
                     max_len = x
 
         return max_len
-```
+# ```

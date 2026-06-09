@@ -1,13 +1,13 @@
-### 解题思路
-比第39题，多了一个去重；
-if (i > index && candidates[i] == candidates[i - 1]) {
-    continue;
-}
-![image.png](https://pic.leetcode-cn.com/863cb2de8011ba0d4fe91569865ad6377215f83db957ffd5e390c37061307c7b-image.png)
+// ### 解题思路
+// 比第39题，多了一个去重；
+// if (i > index && candidates[i] == candidates[i - 1]) {
+//     continue;
+// }
+// ![image.png](https://pic.leetcode-cn.com/863cb2de8011ba0d4fe91569865ad6377215f83db957ffd5e390c37061307c7b-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -135,4 +135,4 @@ void dfs(int* candidates, int candidatesSize, int target, int* returnSize, int**
         Pop(s);
     }
 }
-```
+// ```

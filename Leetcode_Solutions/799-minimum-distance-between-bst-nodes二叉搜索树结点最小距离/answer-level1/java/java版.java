@@ -1,9 +1,9 @@
-### 解题思路
-因为二叉树为搜索二叉树，只需要中序遍历，两两相减取最小值即可。
+// ### 解题思路
+// 因为二叉树为搜索二叉树，只需要中序遍历，两两相减取最小值即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         dfs(root.right);
     }
 }
-```
+// ```

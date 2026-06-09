@@ -1,9 +1,9 @@
-### 解题思路
-顺着题目干就完事了.
+// ### 解题思路
+// 顺着题目干就完事了.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public String compressString(String S) {
         int len = S.length();
@@ -27,4 +27,4 @@ class Solution {
         return sb.length()<len?sb.toString():S;
     }
 }
-```
+// ```

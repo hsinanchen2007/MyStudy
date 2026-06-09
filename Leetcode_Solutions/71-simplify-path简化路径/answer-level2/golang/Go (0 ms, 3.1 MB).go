@@ -1,13 +1,13 @@
-### 解题思路
-获取两个/间的字符串, 判断以下可能：
-"..", 出栈
-"." 或 "", 不做操作
-其他字符串, 入栈
-最后将数组用"/"拼接
+// ### 解题思路
+// 获取两个/间的字符串, 判断以下可能：
+// "..", 出栈
+// "." 或 "", 不做操作
+// 其他字符串, 入栈
+// 最后将数组用"/"拼接
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func simplifyPath(path string) string {
 	var arr []string
 	// node为两个/间的字符串
@@ -31,4 +31,4 @@ func simplifyPath(path string) string {
 	}
 	return "/" + strings.Join(arr, "/")
 }
-```
+// ```

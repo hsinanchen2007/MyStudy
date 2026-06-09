@@ -1,13 +1,13 @@
-### 解题思路
-对于给定字符串text1的位置i和字符串text2的位置j，定义f(i,j)表示text[:i-1]和text[:j-1]的最长公共子序列。如果此时text1[i-1] == text2[j-1]，那么
-f(i,j)=f(i−1,j−1)+1
-如果不相等，那么此时的最大值应该来自两部分：text[:i]和text[:j-1]、text[:i-1]和text[:j]。
-f(i,j)=max(f(i,j−1),f(i−1,j))
+// ### 解题思路
+// 对于给定字符串text1的位置i和字符串text2的位置j，定义f(i,j)表示text[:i-1]和text[:j-1]的最长公共子序列。如果此时text1[i-1] == text2[j-1]，那么
+// f(i,j)=f(i−1,j−1)+1
+// 如果不相等，那么此时的最大值应该来自两部分：text[:i]和text[:j-1]、text[:i-1]和text[:j]。
+// f(i,j)=max(f(i,j−1),f(i−1,j))
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -39,4 +39,4 @@ public:
         return dp[lenA][lenB];
     }
 };
-```
+// ```

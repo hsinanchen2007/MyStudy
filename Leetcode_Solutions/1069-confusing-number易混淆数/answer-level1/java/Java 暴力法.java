@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean confusingNumber(int N) {
         String n = N + "";
@@ -30,4 +30,4 @@ class Solution {
         return false;    
     }
 }
-```
+// ```

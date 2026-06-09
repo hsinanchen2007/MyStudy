@@ -1,6 +1,6 @@
-# 1. BFS广度优先搜索：
+# # 1. BFS广度优先搜索：
 
-```
+# ```
 def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int]) -> bool:
     directions = [(0,1),(1,0),(-1,0),(0,-1)]    # 定义上下左右四个方向
     m = len(maze)                               # 获取矩阵大小
@@ -26,13 +26,13 @@ def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int
         
                                                 # 如果遍历所有可能性都无法达到目的地
     return False                                # 返回False
-```
+# ```
 
 
-# 2. DFS深度优先搜索：
+# # 2. DFS深度优先搜索：
 
 
-```
+# ```
 def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int]) -> bool:
     directions = [(0,1),(1,0),(-1,0),(0,-1)]    # 定义上下左右四个方向
     m = len(maze)                               # 获取矩阵大小
@@ -61,6 +61,6 @@ def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int
         return res                              # 返回res
     
     return dfs(m, n, maze, start[0], start[1], directions, destination)
-```
+# ```
 
-![100.png](https://pic.leetcode-cn.com/a37279a52995742642d62246d0b6863fc1bab2f9cecdc2c37cfb48d48b55b14c-100.png)
+# ![100.png](https://pic.leetcode-cn.com/a37279a52995742642d62246d0b6863fc1bab2f9cecdc2c37cfb48d48b55b14c-100.png)

@@ -1,5 +1,5 @@
-普通遍历方法：
-```cpp
+// 普通遍历方法：
+// ```cpp
 class Solution
 {
 public:
@@ -49,8 +49,8 @@ public:
 		return head->next;
 	}
 };
-```
-```cpp
+// ```
+// ```cpp
 递归方法：
 class Solution
 {

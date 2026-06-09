@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -11,5 +11,5 @@ public:
         return sum;
     }
 };
-```
-解题思路：先求从1到n的总和，减去nums剩下的就是缺失的数字，同268.缺失的数字一个思路
+// ```
+// 解题思路：先求从1到n的总和，减去nums剩下的就是缺失的数字，同268.缺失的数字一个思路

@@ -1,7 +1,7 @@
-### 解题思路
-第一种使用循环配合 `indexOf` 解决，复杂度应该在 `O(n)` 到 `O(n^2)` 之间
+// ### 解题思路
+// 第一种使用循环配合 `indexOf` 解决，复杂度应该在 `O(n)` 到 `O(n^2)` 之间
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -20,11 +20,11 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```
 
-第二种使用 `map` 解法，复杂度是 `O(n)`
+// 第二种使用 `map` 解法，复杂度是 `O(n)`
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -43,4 +43,4 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```

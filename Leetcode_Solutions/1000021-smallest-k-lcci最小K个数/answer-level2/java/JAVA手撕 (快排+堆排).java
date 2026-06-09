@@ -1,6 +1,6 @@
-- 使用快排。
+// - 使用快排。
 
-```java
+// ```java
     public int[] smallestK(int[] arr, int k) {
         if (k >= arr.length) {
             return arr;
@@ -40,12 +40,12 @@
         arr[low] = pivot;
         return low;
     }
-```
+// ```
 
 
-- 构建小顶堆。
+// - 构建小顶堆。
 
-```java
+// ```java
     public int[] smallestK(int[] arr, int k) {
         int len = arr.length;
         if (k >= len) {
@@ -96,4 +96,4 @@
         arr[i] = arr[j];
         arr[j] = tmp;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[]} ops
  * @return {number}
@@ -32,4 +32,4 @@ var calPoints = function(ops) {
     })
     return arr.length > 0 ? arr.reduce((total, num) => { return total + num}) : 0
 };
-```
+// ```

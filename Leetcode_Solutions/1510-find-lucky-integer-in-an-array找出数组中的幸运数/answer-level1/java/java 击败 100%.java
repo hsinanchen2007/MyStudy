@@ -1,6 +1,6 @@
-java 击败 100%
+// java 击败 100%
 
-```
+// ```
 class Solution {
     public int findLucky(int[] arr) {
         int[] aa = new int[500];
@@ -20,4 +20,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

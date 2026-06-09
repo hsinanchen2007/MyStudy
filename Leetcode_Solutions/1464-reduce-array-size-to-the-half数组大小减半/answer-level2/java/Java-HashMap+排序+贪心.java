@@ -1,11 +1,11 @@
-# 思路
-利用`HashMap`统计`arr`数组中各个**数值**出现的**次数**，其中`key = 数值`, `value = 出现次数`。
-统计结束后将`HashMap`中所有`value(即出现次数)`添加到`ArrayList`中。
-随后根据**出现次数**，将利用`Collections.sort()`根据`value(即出现次数)`**降序排序**。
-将数组原始长度的一半记为`limit`，将数组原始长度记为`len`，用其减去**当前最大**的**出现次数**，判断`len`是否`< limit`。
+// # 思路
+// 利用`HashMap`统计`arr`数组中各个**数值**出现的**次数**，其中`key = 数值`, `value = 出现次数`。
+// 统计结束后将`HashMap`中所有`value(即出现次数)`添加到`ArrayList`中。
+// 随后根据**出现次数**，将利用`Collections.sort()`根据`value(即出现次数)`**降序排序**。
+// 将数组原始长度的一半记为`limit`，将数组原始长度记为`len`，用其减去**当前最大**的**出现次数**，判断`len`是否`< limit`。
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public int minSetSize(int[] arr) {
         int len = arr.length, res = 0, limit = len >> 1;
@@ -22,11 +22,11 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
-# 代码(stream写法)
-PS:对于小数据量而言，使用stream会很慢
-```java
+// # 代码(stream写法)
+// PS:对于小数据量而言，使用stream会很慢
+// ```java
 class Solution {
     public int minSetSize(int[] arr) {
         int len = arr.length, res = 0, limit = len >> 1;
@@ -41,4 +41,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

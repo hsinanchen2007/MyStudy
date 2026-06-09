@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
@@ -30,6 +30,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4e06000e121e215e7ea43ebdf0d0809ca4e5c6e6452cacf6eb4906982a9991be-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4e06000e121e215e7ea43ebdf0d0809ca4e5c6e6452cacf6eb4906982a9991be-image.png)
 

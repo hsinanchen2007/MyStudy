@@ -1,5 +1,5 @@
-## 构建hashMap，遍历求解
-```
+// ## 构建hashMap，遍历求解
+// ```
 /**
  * @description
  * 首次将答案设置为首个字母的全部结果
@@ -55,10 +55,10 @@ function backtrack(combinations, digit) {
   return ans;
 }
 
-```
+// ```
 
-## 递归求解，还不是很理解
-```
+// ## 递归求解，还不是很理解
+// ```
 /**
  * @description
  * 递归思想  
@@ -98,4 +98,4 @@ var letterCombinations = function (digits) {
   _generate(0, '');
   return result;
 };
-```
+// ```

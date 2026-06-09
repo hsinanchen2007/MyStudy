@@ -1,5 +1,5 @@
-和题意不符合，思路提供参考
-```
+# 和题意不符合，思路提供参考
+# ```
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
@@ -17,4 +17,4 @@ class Solution:
                 print('nums',nums)
         return len(nums)
 
-```
+# ```

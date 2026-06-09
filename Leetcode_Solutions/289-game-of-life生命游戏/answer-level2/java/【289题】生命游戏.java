@@ -1,8 +1,8 @@
-**方法一：推演结果**
+// **方法一：推演结果**
 
-思路：
-在"沙盘"中推演每个位置在一次更新后的结果然后记录，直至推演完所有位置。
-```
+// 思路：
+// 在"沙盘"中推演每个位置在一次更新后的结果然后记录，直至推演完所有位置。
+// ```
 class Solution {
     public void gameOfLife(int[][] board) {
         int lenX = board.length, lenY = board[0].length;
@@ -43,4 +43,4 @@ class Solution {
         }
     }
 }
-```
+// ```

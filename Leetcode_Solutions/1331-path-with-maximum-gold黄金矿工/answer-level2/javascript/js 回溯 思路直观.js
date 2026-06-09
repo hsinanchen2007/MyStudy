@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/8bd4cc04f934dd780c8edb9973fed0b1a8224dcbe91aa12538c74c516ecda875-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8bd4cc04f934dd780c8edb9973fed0b1a8224dcbe91aa12538c74c516ecda875-image.png)
 
-### 解题思路
-思路：深度优先搜索
-1. 注意终止递归的条件：
-  - 遇到没有黄金的格子，也就是值为 0 的格子
-  - 无效格子，超出了格子边界
-2. 使用 0 标记使用过的格子
+// ### 解题思路
+// 思路：深度优先搜索
+// 1. 注意终止递归的条件：
+//   - 遇到没有黄金的格子，也就是值为 0 的格子
+//   - 无效格子，超出了格子边界
+// 2. 使用 0 标记使用过的格子
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -58,4 +58,4 @@ var getMaximumGold = function(grid) {
   
   return ans;
 };
-```
+// ```

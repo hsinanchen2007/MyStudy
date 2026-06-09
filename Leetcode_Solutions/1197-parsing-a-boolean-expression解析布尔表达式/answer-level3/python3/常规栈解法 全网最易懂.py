@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def parseBoolExpr(self, expression: str) -> bool:
         arr=[]
@@ -34,4 +34,4 @@ class Solution:
                 x=res                   # res覆盖x，因为x覆盖前=运算结束后多余的‘)’符号，要除掉
             b.append(x)                 # 将运算结果或者还没遇到op的布尔变量和分隔符‘)’入栈b
         return b.pop()                  # 当栈b只剩一个变量时，就是最终答案
-```
+# ```

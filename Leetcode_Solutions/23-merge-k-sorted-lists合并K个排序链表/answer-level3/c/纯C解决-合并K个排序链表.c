@@ -1,9 +1,9 @@
-### 解题思路
-这道题的思路我认为还是很简单的，就是对每两个链表进行合并，依次合并直到结束。然后我在这里采用了不加头节点和加头节点的方式来做这道题，大家也可以稍微对比一下，很多人可能会毫不犹豫的觉得不加头节点肯定没有加了头节点的方便。
-答案确实如此，我就是想锻炼一下自己的考虑问题是否周全的能力。不喜勿喷~
-### 代码
+// ### 解题思路
+// 这道题的思路我认为还是很简单的，就是对每两个链表进行合并，依次合并直到结束。然后我在这里采用了不加头节点和加头节点的方式来做这道题，大家也可以稍微对比一下，很多人可能会毫不犹豫的觉得不加头节点肯定没有加了头节点的方便。
+// 答案确实如此，我就是想锻炼一下自己的考虑问题是否周全的能力。不喜勿喷~
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,8 +60,8 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     head=Merge(head,lists[i]);
     return head;
 }
-```
-```c
+// ```
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -107,4 +107,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     head=Merge(head,lists[i]);
     return head;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     private int[] weight;
@@ -25,4 +25,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

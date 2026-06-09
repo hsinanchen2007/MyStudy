@@ -1,9 +1,9 @@
-### 解题思路
-> “当一个元素进入队列的时候，它前面所有比它小的元素就不会再对答案产生影响。”
+// ### 解题思路
+// > “当一个元素进入队列的时候，它前面所有比它小的元素就不会再对答案产生影响。”
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     queue<int> *head = nullptr;         //用于存放队列元素
@@ -45,7 +45,7 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```
 
 
 

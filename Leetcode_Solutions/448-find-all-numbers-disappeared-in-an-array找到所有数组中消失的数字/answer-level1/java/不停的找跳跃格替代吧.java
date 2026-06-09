@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1. 取走的目标值先置-1，便于发现是否是空位
-2. 找到不匹配的位置的数时，不停的跳跃，直至找到的数是当前循环位置 或者 目标值为-1 就结束循环
-### 代码
+// 1. 取走的目标值先置-1，便于发现是否是空位
+// 2. 找到不匹配的位置的数时，不停的跳跃，直至找到的数是当前循环位置 或者 目标值为-1 就结束循环
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> result = new ArrayList<>();
@@ -48,4 +48,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

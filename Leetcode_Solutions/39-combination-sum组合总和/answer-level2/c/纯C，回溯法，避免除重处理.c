@@ -1,16 +1,16 @@
-### 解题思路
-方法一：回溯法
-1,以target为目标，依次填入数组中元素，画出树形图，总结回溯条件
-2,每一个节点，数组中的元素都需要尝试
-3,当前节点的 target < 0 则该分支无效，直接剪枝，返回到上一层，进行下一个分支处理
-4,当前节点的 target == 0 则保存当前结果，然后剪枝，返回到上一层，进行下一个分支处理
-5,当前节点的 target > 0 则target - candidates[i] ; iRetPos + 1  进行下一层
-优化：
-当前进入下一层时，从数组中当前位置带入元素，可以避免结果中产生相同的结果，就避免了除重的处理
+// ### 解题思路
+// 方法一：回溯法
+// 1,以target为目标，依次填入数组中元素，画出树形图，总结回溯条件
+// 2,每一个节点，数组中的元素都需要尝试
+// 3,当前节点的 target < 0 则该分支无效，直接剪枝，返回到上一层，进行下一个分支处理
+// 4,当前节点的 target == 0 则保存当前结果，然后剪枝，返回到上一层，进行下一个分支处理
+// 5,当前节点的 target > 0 则target - candidates[i] ; iRetPos + 1  进行下一层
+// 优化：
+// 当前进入下一层时，从数组中当前位置带入元素，可以避免结果中产生相同的结果，就避免了除重的处理
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -123,4 +123,4 @@ int** combinationSum(int* candidates, int candidatesSize, int target, int* retur
     return pRet;
 
 }
-```
+// ```

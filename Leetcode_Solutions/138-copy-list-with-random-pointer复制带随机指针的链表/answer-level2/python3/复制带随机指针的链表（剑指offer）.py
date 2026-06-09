@@ -1,9 +1,9 @@
-### 解题思路
-·剑·指· 原题，本题采用的解法见代码
+# ### 解题思路
+# ·剑·指· 原题，本题采用的解法见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -50,4 +50,4 @@ class Solution:
             head1, head2 = head1.next, head2.next
         
         return head
-```
+# ```

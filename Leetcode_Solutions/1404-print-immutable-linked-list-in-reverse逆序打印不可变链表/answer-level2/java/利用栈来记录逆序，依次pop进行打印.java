@@ -1,9 +1,9 @@
-### 解题思路
-利用栈来记录逆序，依次pop进行打印
+// ### 解题思路
+// 利用栈来记录逆序，依次pop进行打印
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * // This is the ImmutableListNode's API interface.
  * // You should not implement it, or speculate about its implementation.
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isPerfectSquare(int num) {
         if(num==Integer.MAX_VALUE)
@@ -10,4 +10,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

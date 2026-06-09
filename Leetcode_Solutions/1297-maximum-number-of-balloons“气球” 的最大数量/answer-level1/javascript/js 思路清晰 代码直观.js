@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/0eb7f79ec0d604bb305f4e08e66810db350bc2553af64dbc141b34d86c51dedd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0eb7f79ec0d604bb305f4e08e66810db350bc2553af64dbc141b34d86c51dedd-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 思路：本质就是看 balloon 出现了几次，注意有字母出现了两次，要除以2
 即：
 Math.min( num['b'], nums['a'], num['l'] / 2, nums['o'] / 2, num['n'] )
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} text
  * @return {number}
@@ -35,4 +35,4 @@ var maxNumberOfBalloons = function(text) {
   
   return min === Infinity ? 0 : min;
 };
-```
+// ```

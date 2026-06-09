@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -9,4 +9,4 @@ public:
         return A;
     }
 };
-```
+// ```

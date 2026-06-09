@@ -1,13 +1,13 @@
-### 解题思路
-解题规则：
-假设i=len-1，数组从后到前走：
-1. 发现后一位大于前一位，既nums[i]>nums[i-1];
-2. 重排后一位到最后,即数组nums [i,len-1]；
-3. 从当前位置向后找刚好大于nums[i-1]的数，然后交换位置；
+// ### 解题思路
+// 解题规则：
+// 假设i=len-1，数组从后到前走：
+// 1. 发现后一位大于前一位，既nums[i]>nums[i-1];
+// 2. 重排后一位到最后,即数组nums [i,len-1]；
+// 3. 从当前位置向后找刚好大于nums[i-1]的数，然后交换位置；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void nextPermutation(int[] nums) {
         int len = nums.length;
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

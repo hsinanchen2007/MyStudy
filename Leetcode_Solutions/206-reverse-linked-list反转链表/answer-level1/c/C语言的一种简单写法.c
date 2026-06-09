@@ -1,8 +1,8 @@
-### 解题思路
-用三个指针进行翻转
-### 代码
+// ### 解题思路
+// 用三个指针进行翻转
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* reverseList(struct ListNode* head){
 
   
 }
-```
+// ```

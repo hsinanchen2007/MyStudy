@@ -1,5 +1,5 @@
-使用索引法
-```
+// 使用索引法
+// ```
 func lengthOfLongestSubstring(s string) int {
     if len(s) == 0 {
         return 0
@@ -23,4 +23,4 @@ func If(condition bool, truevalue, falsevalue int) interface{}{
         return falsevalue
     }
 }
-```
+// ```

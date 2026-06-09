@@ -1,7 +1,7 @@
-str1是所遍历字符前面所有的字符集合
-str2是后面所有字符的集合
-若两个都没有就return该字符
-```
+// str1是所遍历字符前面所有的字符集合
+// str2是后面所有字符的集合
+// 若两个都没有就return该字符
+// ```
 var firstUniqChar = function(s) {
   for(let i=0;i<s.length;i++){
     let str1=s.substr(0,i);
@@ -10,4 +10,4 @@ var firstUniqChar = function(s) {
   }
   return ' '
 };
-```
+// ```

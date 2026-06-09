@@ -1,9 +1,9 @@
-### 解题思路
-维护长度为k的窗口，保存最大值即可
+// ### 解题思路
+// 维护长度为k的窗口，保存最大值即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findMaxAverage = function(nums, k) {
     // 维护一个长度为k的滑动窗口即可
     let left = 0, right = 1, n = nums.length, sum = nums[0];
@@ -28,4 +28,4 @@ var findMaxAverage = function(nums, k) {
     }
     return max / k;
 };
-```
+// ```

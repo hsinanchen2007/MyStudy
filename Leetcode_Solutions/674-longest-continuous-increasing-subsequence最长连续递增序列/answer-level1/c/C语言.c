@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findLengthOfLCIS(int* nums, int numsSize){
     int count = 1,maxcount = 0;
     if(numsSize < 1)
@@ -22,4 +22,4 @@ int findLengthOfLCIS(int* nums, int numsSize){
     }
     return (maxcount< count)? count:maxcount;
 }
-```
+// ```

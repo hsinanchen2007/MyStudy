@@ -1,4 +1,4 @@
-1. 如何字符串转数字
+// 1. 如何字符串转数字
 atoi(char*), return int
 2. 如何数字转字符串
 sprintf(str,"%d",value)

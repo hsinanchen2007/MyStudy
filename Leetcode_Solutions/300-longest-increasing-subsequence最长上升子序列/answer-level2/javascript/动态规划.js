@@ -1,12 +1,12 @@
-### 解题思路
-动态规划，用 dp[i] 表示以 nums[i] 为结尾的最长上升子序列的长度（必须包含 nums[i]）。
+// ### 解题思路
+// 动态规划，用 dp[i] 表示以 nums[i] 为结尾的最长上升子序列的长度（必须包含 nums[i]）。
 
-对于 j < i，如果 nums[j] < nums[i]，则更新 dp[i] 为 Math.max(dp[i], dp[j]+1);
+// 对于 j < i，如果 nums[j] < nums[i]，则更新 dp[i] 为 Math.max(dp[i], dp[j]+1);
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -25,8 +25,8 @@ var lengthOfLIS = function(nums) {
     }
     return res;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N^2)
-- 空间复杂度 O(N)
+// ### 复杂度
+// - 时间复杂度 O(N^2)
+// - 空间复杂度 O(N)

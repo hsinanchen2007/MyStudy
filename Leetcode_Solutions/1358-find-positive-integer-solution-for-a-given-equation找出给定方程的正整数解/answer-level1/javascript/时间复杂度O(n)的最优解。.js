@@ -1,18 +1,18 @@
-利用双指针法，使x从小到大，y从大到小循环。
+// 利用双指针法，使x从小到大，y从大到小循环。
 
-对于任意xi, yi来讲，分为以下三种情况：
-1. f(xi, yi) > z
-对于任意y >= yi，有f(xi, y) > z，故只需要减小y的值即可；
-2. f(xi, yi) == z
-对于任意x > xi，有f(x, yi) > z；
-对于任意y > yi，有f(xi, y) > z；
-故增大x并减小y；
-3. f(xi, yi) < z：增大x；
-对于任意x <= xi，有f(x, yi) < z，故只需要增大x的值即可；
+// 对于任意xi, yi来讲，分为以下三种情况：
+// 1. f(xi, yi) > z
+// 对于任意y >= yi，有f(xi, y) > z，故只需要减小y的值即可；
+// 2. f(xi, yi) == z
+// 对于任意x > xi，有f(x, yi) > z；
+// 对于任意y > yi，有f(xi, y) > z；
+// 故增大x并减小y；
+// 3. f(xi, yi) < z：增大x；
+// 对于任意x <= xi，有f(x, yi) < z，故只需要增大x的值即可；
 
-因为最差情况也只需要2n的时间，复杂度O(n)。
+// 因为最差情况也只需要2n的时间，复杂度O(n)。
 
-```js
+// ```js
 var findSolution = function(customfunction, z) {
     var r = new Array();
     var my = 1000; // 记录当前y可取的最大值
@@ -44,4 +44,4 @@ var findSolution = function(customfunction, z) {
     }
     return r;
 };
-```
+// ```

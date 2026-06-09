@@ -1,5 +1,5 @@
-不用 stream 就是 1ms，用了 stream 就变成了 5ms 以上......
-```
+// 不用 stream 就是 1ms，用了 stream 就变成了 5ms 以上......
+// ```
 class Solution {
     private LinkedList<TreeNode> queue = new LinkedList<>();
 
@@ -21,4 +21,4 @@ class Solution {
         // return list.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
-```
+// ```

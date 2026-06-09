@@ -1,9 +1,9 @@
-![canvas.png](https://pic.leetcode-cn.com/00c9b417f41a947bce7313cde90d5564ac8e0c2cf2825fb0734535f9843a5119-canvas.png)
+// ![canvas.png](https://pic.leetcode-cn.com/00c9b417f41a947bce7313cde90d5564ac8e0c2cf2825fb0734535f9843a5119-canvas.png)
 
 
-**数组模拟栈**
+// **数组模拟栈**
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
 
@@ -47,10 +47,10 @@ class Solution {
         return index == 0; // 判断栈是否为空
     }
 }
-```
+// ```
 
-**栈的写法**
-```java
+// **栈的写法**
+// ```java
 class Solution {
     public boolean isValid(String s) {
         if (s.length() == 0)
@@ -82,7 +82,7 @@ class Solution {
         return stack.isEmpty();
     }
 }
-```
+// ```
 
 
 

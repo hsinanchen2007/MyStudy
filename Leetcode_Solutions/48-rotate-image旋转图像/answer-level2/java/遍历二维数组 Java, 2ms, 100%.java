@@ -1,10 +1,10 @@
-### 解题思路
-1. 二维数组 遍历方式 改成 圆圈式的遍历，从最外圈遍历到最内圈
-2. 每次遍历只往前推进一个数字，总共推进round次以及需要循环cycle次。 round = end - start, cycle = n / 2;
+// ### 解题思路
+// 1. 二维数组 遍历方式 改成 圆圈式的遍历，从最外圈遍历到最内圈
+// 2. 每次遍历只往前推进一个数字，总共推进round次以及需要循环cycle次。 round = end - start, cycle = n / 2;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

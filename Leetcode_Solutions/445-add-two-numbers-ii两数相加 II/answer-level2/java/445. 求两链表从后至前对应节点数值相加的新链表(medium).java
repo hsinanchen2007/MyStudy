@@ -1,10 +1,10 @@
-### 解题思路
-不能翻转，可以借用栈，压入栈中，按栈顶元素相加
-栈“先进后出”
+// ### 解题思路
+// 不能翻转，可以借用栈，压入栈中，按栈顶元素相加
+// 栈“先进后出”
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -47,4 +47,4 @@ class Solution {
 }
 
 
-```
+// ```

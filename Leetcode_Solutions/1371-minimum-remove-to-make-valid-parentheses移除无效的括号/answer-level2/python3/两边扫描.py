@@ -1,10 +1,10 @@
--   两边扫描
--   从左到右扫描，去除多余的右括号
--   从右到左扫描，去除多余的左括号
+# -   两边扫描
+# -   从左到右扫描，去除多余的右括号
+# -   从右到左扫描，去除多余的左括号
 
 
 
-```python
+# ```python
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
         left_num = 0
@@ -30,6 +30,6 @@ class Solution:
                 elif ans[i] == ")":
                     right_num += 1
         return "".join(ans)
-```
+# ```
 
 

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 /**
  * Definition for singly-linked list.
  * class ListNode(var _x: Int = 0) {
@@ -15,4 +15,4 @@ object Solution {
     cur
   }
 }
-```
+// ```

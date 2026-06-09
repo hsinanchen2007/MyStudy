@@ -1,9 +1,9 @@
-### 解题思路
-CPP算法笔记模板
+// ### 解题思路
+// CPP算法笔记模板
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -45,4 +45,4 @@ public:
         return num==numCourses;
     }
 };
-```
+// ```

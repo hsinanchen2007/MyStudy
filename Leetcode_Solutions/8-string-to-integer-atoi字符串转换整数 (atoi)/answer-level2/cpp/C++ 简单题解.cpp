@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int myAtoi(string str) {
@@ -25,5 +25,5 @@ public:
         return sign * res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8d73c01055698a7b14e1a05a565a3eb13641cd64f11066b05d29d4daeae556cd-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8d73c01055698a7b14e1a05a565a3eb13641cd64f11066b05d29d4daeae556cd-image.png)

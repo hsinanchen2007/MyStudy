@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int countCornerRectangles(int[][] grid) {
         int rs = 0;
@@ -24,4 +24,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-求count[i]的最大公约数
-Time O(N*logC)N为卡牌个数，logC为求两个数的最大公约数的时间复杂度
-Space O(N + C)
+// ### 解题思路
+// 求count[i]的最大公约数
+// Time O(N*logC)N为卡牌个数，logC为求两个数的最大公约数的时间复杂度
+// Space O(N + C)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int len = deck.length;
@@ -32,4 +32,4 @@ class Solution {
         return m == 0 ? n : gcd(m, n % m);
     }
 }
-```
+// ```

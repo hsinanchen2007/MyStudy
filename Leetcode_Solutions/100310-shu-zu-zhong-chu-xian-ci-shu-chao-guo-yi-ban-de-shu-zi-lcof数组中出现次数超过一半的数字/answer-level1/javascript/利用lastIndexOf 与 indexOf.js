@@ -1,6 +1,6 @@
-利用lastIndexOf 和indexOf 获取排序后数组 两个相同值的差别 得到出现次数 再进行数组判断
+// 利用lastIndexOf 和indexOf 获取排序后数组 两个相同值的差别 得到出现次数 再进行数组判断
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var majorityElement = function(nums) {
         }
     }
 };
-```
+// ```

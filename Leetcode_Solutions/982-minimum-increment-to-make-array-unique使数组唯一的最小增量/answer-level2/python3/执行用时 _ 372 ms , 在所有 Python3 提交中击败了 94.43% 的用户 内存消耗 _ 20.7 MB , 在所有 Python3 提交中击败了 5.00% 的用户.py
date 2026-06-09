@@ -1,5 +1,5 @@
 
-```
+# ```
 import collections
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
@@ -30,4 +30,4 @@ class Solution:
                 # 更新last为当前位置的最大值
                 last = each + dic[each] - 1 + dis
         return count
-```
+# ```

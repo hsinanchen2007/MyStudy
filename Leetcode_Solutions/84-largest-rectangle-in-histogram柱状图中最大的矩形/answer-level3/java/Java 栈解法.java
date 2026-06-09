@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int largestRectangleArea(int[] heights) {
         int res = 0;
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

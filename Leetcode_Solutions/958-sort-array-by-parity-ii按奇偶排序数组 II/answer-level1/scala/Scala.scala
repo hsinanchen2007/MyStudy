@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def sortArrayByParityII(A: Array[Int]): Array[Int] = {
     val B = new Array[Int](A.length)
@@ -24,4 +24,4 @@ object Solution {
       B 
     }
 }
-```
+// ```

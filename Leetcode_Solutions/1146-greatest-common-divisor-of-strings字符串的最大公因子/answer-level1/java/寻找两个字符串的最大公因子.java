@@ -1,10 +1,10 @@
-### 解题思路
-以两个字符串的长度为参数，寻找他们的最大公约数。
-将最大公约数作为substring的终端长度，从0开始搜索。
+// ### 解题思路
+// 以两个字符串的长度为参数，寻找他们的最大公约数。
+// 将最大公约数作为substring的终端长度，从0开始搜索。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if(!(str1+str2).equals(str2+str1))
@@ -25,4 +25,4 @@ class Solution {
         //return b == 0? a: gcd(b,a%b);
     }
 }
-```
+// ```

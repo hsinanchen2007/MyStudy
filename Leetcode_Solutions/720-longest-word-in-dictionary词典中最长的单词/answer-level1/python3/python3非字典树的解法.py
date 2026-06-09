@@ -1,9 +1,9 @@
-### 解题思路
-python3非字典树的解法，为提高效率，尽早跳出循环
+# ### 解题思路
+# python3非字典树的解法，为提高效率，尽早跳出循环
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestWord(self, words: List[str]) -> str:
         count_dict = {}
@@ -40,4 +40,4 @@ class Solution:
         return ''
 
 
-```
+# ```

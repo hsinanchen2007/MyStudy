@@ -1,14 +1,14 @@
-### 解题思路
-用for和if 组合成while循环  期待dalao有更骚的操作  go萌新一枚
+// ### 解题思路
+// 用for和if 组合成while循环  期待dalao有更骚的操作  go萌新一枚
 
-先从第一行最后一列判断
-+ 恰好等于target 直接返回
-+ 大于target，则在这行中， col 列减少
-+ 小于target，则在下面几行中
+// 先从第一行最后一列判断
+// + 恰好等于target 直接返回
+// + 大于target，则在这行中， col 列减少
+// + 小于target，则在下面几行中
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNumberIn2DArray(matrix [][]int, target int) bool {
     if matrix == nil || len(matrix) == 0 {
         return false
@@ -31,4 +31,4 @@ func findNumberIn2DArray(matrix [][]int, target int) bool {
 
     
 }
-```
+// ```

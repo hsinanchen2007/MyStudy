@@ -1,11 +1,11 @@
-### 解题思路
-1. 用递归的方法求解，当l1 == null时返回l2，当l2 == null时返回l1。
-2. 依次比较当前节点value的大小，取小
-3. 将剩余的listnode进行递归构建
+// ### 解题思路
+// 1. 用递归的方法求解，当l1 == null时返回l2，当l2 == null时返回l1。
+// 2. 依次比较当前节点value的大小，取小
+// 3. 将剩余的listnode进行递归构建
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 /**
  * Example:
  * var li = ListNode(5)
@@ -34,4 +34,4 @@ class Solution {
         return newListNode
     }
 }
-```
+// ```

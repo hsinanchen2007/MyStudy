@@ -1,6 +1,6 @@
-找到相同的数字，数的个数加这个数的字符串作为下一个数
+// 找到相同的数字，数的个数加这个数的字符串作为下一个数
 
-```
+// ```
 function countAndSay(n) {
     var str = '1';
     var count = 0;
@@ -34,4 +34,4 @@ function countAndSay(n) {
     }
     return str;
 }
-```
+// ```

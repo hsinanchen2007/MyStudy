@@ -1,9 +1,9 @@
-### 解题思路
-新手应该都是像我这样的8
+// ### 解题思路
+// 新手应该都是像我这样的8
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hammingWeight(uint32_t n) {
     int sum=0;
     while(n>0){
@@ -14,4 +14,4 @@ int hammingWeight(uint32_t n) {
     }
     return sum;
 }
-```
+// ```

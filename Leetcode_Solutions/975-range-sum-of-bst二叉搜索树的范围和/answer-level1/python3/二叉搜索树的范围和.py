@@ -1,15 +1,15 @@
-### 解题思路
-我的思路：考察的是二叉搜索树中序遍历，是一个递增序列。
+# ### 解题思路
+# 我的思路：考察的是二叉搜索树中序遍历，是一个递增序列。
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
                 sums += x
         return sums
 
-```
+# ```

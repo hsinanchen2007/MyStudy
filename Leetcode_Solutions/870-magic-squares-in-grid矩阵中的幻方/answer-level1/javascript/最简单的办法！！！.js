@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -39,4 +39,4 @@ const isMagic = (grid, i, j) => {
         grid[i][j + 2] + grid[i + 1][j + 1] + grid[i + 2][j] === 15
     );
 };
-```
+// ```

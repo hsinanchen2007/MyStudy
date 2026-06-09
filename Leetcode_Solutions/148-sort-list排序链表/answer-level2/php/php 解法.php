@@ -1,4 +1,4 @@
-```
+// ```
 function sortList($head) {
     if($head == null || $head->next == null) return $head;
     $fast = $head->next;
@@ -26,4 +26,4 @@ function sortList($head) {
     $h->next = ($left != null)?$left:$right;
     return $dummy->next;
 }
-```
+// ```

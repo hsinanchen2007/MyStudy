@@ -1,7 +1,7 @@
-## 思路 二分查找
-使用C++自带的二分查找库
-## 代码
-```cpp
+// ## 思路 二分查找
+// 使用C++自带的二分查找库
+// ## 代码
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -15,4 +15,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def pathSum(self, root, sum):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             if val[2] ==1:
                 ans.append(findParent(key))
         return ans 
-```
+# ```

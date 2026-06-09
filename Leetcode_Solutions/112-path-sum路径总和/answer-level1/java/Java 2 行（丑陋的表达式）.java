@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
     // 反例！项目中千万别这么写代码
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) return false; // 没有子节点直接返回 false
@@ -14,4 +14,4 @@
         if (sum == 0 && root.right == null && root.left == null) return true;
         return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
     }    
-```
+// ```

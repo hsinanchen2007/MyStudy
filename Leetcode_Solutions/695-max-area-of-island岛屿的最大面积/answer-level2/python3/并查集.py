@@ -1,5 +1,5 @@
-合并相连区域
-```
+# 合并相连区域
+# ```
 from collections import Counter
 class Solution:
 
@@ -29,4 +29,4 @@ class Solution:
                     A.append(find(i*m+j))
        # print(parent,A)
         return max(list(Counter(A).values())+[0])
-```
+# ```

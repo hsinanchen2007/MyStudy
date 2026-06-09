@@ -1,11 +1,11 @@
-1. 将各区间按照起始点从小到大排序；
-2. 从头遍历各区间：
-   (1) 如果当前区间和上一个区间有重叠，count++;
-   (2) 如果当前区间和上一个区间无重叠，pre = current;
-3. 返回count;
+// 1. 将各区间按照起始点从小到大排序；
+// 2. 从头遍历各区间：
+//    (1) 如果当前区间和上一个区间有重叠，count++;
+//    (2) 如果当前区间和上一个区间无重叠，pre = current;
+// 3. 返回count;
 
 
-```
+// ```
 int SelfCompare(const void *p, const void *q)
 {
     int **m = (int **)p;
@@ -58,5 +58,5 @@ int eraseOverlapIntervals(int** intervals, int intervalsSize, int* intervalsColS
     }
     return ret;
 }
-```
+// ```
 

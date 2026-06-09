@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/b018cad4673c54ef1ea00ae27830c119ae5b6a4fc88bda82df7527cd507f79c9-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/b018cad4673c54ef1ea00ae27830c119ae5b6a4fc88bda82df7527cd507f79c9-image.png)
+// ```
 #define MAX_VALUE 2147483647
 #define MAX_LEN 200
 #define min(a, b) ((a) < (b) ? (a) : (b))
@@ -52,4 +52,4 @@ int* splitIntoFibonacci(char* S, int* returnSize)
     *returnSize = 0;
     return 0;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         # 只用输出他们的个数
@@ -22,4 +22,4 @@ class Solution:
                 count += 2 * (item[1] // 2)
                 odd += 1
         return count + 1 if odd > 0 else count
-```
+# ```

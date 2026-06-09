@@ -1,9 +1,9 @@
-### 解题思路
-将数组转成numpy矩阵，使用numpy的广播机制进行运算，再进行展开，不过只是提供一种思路，不知道为什么速度和内存都占的很大
+# ### 解题思路
+# 将数组转成numpy矩阵，使用numpy的广播机制进行运算，再进行展开，不过只是提供一种思路，不知道为什么速度和内存都占的很大
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
@@ -25,4 +25,4 @@ class Solution:
             tmp = tmp.reshape(len(tmp),1)
             res = (res + tmp).T.flatten()
         return res.tolist()
-```
+# ```

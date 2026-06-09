@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/a1750b0bd757d7531b6428cdfc23bd3c03ace90c7008bdfd5a5f623cf42afbcc-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a1750b0bd757d7531b6428cdfc23bd3c03ace90c7008bdfd5a5f623cf42afbcc-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMin(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             else:
                 left=mid+1
         return nums[left]
-```
+# ```

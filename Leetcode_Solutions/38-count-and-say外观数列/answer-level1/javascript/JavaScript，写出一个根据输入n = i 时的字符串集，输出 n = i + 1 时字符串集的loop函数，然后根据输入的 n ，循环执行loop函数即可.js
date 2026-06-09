@@ -1,9 +1,9 @@
-### 解题思路
-> 首先写出一个根据输入的n = i 时的字符串集，输出 n = i + 1 时的字符串集的loop函数，例如假如输入的是'1211'，那么loop函数输出的即为'111221',然后根据输入的 n ，循环执行loop函数即可
+// ### 解题思路
+// > 首先写出一个根据输入的n = i 时的字符串集，输出 n = i + 1 时的字符串集的loop函数，例如假如输入的是'1211'，那么loop函数输出的即为'111221',然后根据输入的 n ，循环执行loop函数即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var countAndSay = function(n) {
   function loop(strs) {
     const strs_split = strs.split("");
@@ -33,4 +33,4 @@ var countAndSay = function(n) {
   }
   return result;
 };
-```
+// ```

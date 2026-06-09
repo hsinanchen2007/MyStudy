@@ -1,6 +1,6 @@
-# 递归解法
+// # 递归解法
 
-```go []
+// ```go []
 // 根节点下的左右子树互换
 // 对左右子树做同样的操作 Time: O(n) Space: O(n)
 func invertTree(root *TreeNode) *TreeNode {
@@ -14,8 +14,8 @@ func invert(root *TreeNode) {
         invert(root.Right)
     }
 }
-```
-```go []
+// ```
+// ```go []
 // 递归方法二
 func invertTreeRecursive(root *TreeNode) *TreeNode {
     if root == nil {
@@ -27,11 +27,11 @@ func invertTreeRecursive(root *TreeNode) *TreeNode {
     invertTreeRecursive(root.Right) // 翻转左右子树
     return root                     // 返回翻转后的二叉树
 }
-```
+// ```
 
-# 迭代实现
+// # 迭代实现
 
-```go
+// ```go
 // 迭代
 func invertTree(root *TreeNode) *TreeNode {
     if root == nil {
@@ -53,4 +53,4 @@ func invertTree(root *TreeNode) *TreeNode {
     }
     return root // 循环结束后返回翻转后的树
 }
-```
+// ```

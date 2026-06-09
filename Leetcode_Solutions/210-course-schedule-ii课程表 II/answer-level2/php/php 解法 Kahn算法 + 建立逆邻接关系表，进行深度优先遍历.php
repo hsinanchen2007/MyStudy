@@ -1,5 +1,5 @@
-Kahn算法
-```
+// Kahn算法
+// ```
 function findOrder($numCourses, $prerequisites) {
     $adj = array_fill(0,$numCourses,[]); // 邻接关系表
     $inDegree = array_fill(0,$numCourses,0); // 统计每个顶点的引入次数
@@ -22,11 +22,11 @@ function findOrder($numCourses, $prerequisites) {
     }
     return count($ans)==$numCourses?$ans:[];
 }
-```
+// ```
 
 
-建立逆邻接关系表，进行深度优先遍历
-```
+// 建立逆邻接关系表，进行深度优先遍历
+// ```
 class Solution {
 
     /**
@@ -62,4 +62,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-    //时间复杂度O(n),空间复杂度O(n)
-    //先统计空格数量
-    //建立新char数组
-    //按照位置加入String每一个字符
-    //遇见空格加入%20
+//     //时间复杂度O(n),空间复杂度O(n)
+//     //先统计空格数量
+//     //建立新char数组
+//     //按照位置加入String每一个字符
+//     //遇见空格加入%20
 
     class Solution {
         public String replaceSpace(String s) {

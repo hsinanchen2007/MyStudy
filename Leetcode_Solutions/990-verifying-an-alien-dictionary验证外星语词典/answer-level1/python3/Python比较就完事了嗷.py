@@ -1,9 +1,9 @@
-### 解题思路
-legal函数用于返回比较的两个字符串是否符合order的要求，再在words列表中两两比较。
+# ### 解题思路
+# legal函数用于返回比较的两个字符串是否符合order的要求，再在words列表中两两比较。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def legal(self, s1: str, s2: str, order: str) -> bool:
         i, j = 0, 0
@@ -29,4 +29,4 @@ class Solution:
             if not self.legal(words[i - 1], words[i], order):
                 return False
         return True
-```
+# ```

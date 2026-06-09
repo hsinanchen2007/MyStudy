@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn is_valid(s: String) -> bool {
         let mut v = vec!['0']; //确保pop出有效值, 防止 ")"
@@ -14,4 +14,4 @@ impl Solution {
         v.len() == 1
     }
 }
-```
+// ```

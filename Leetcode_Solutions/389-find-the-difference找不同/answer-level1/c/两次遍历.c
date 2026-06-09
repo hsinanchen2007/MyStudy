@@ -1,4 +1,4 @@
-```
+// ```
 char findTheDifference(char * s, char * t){
     int map[26] = {0};
     int i;
@@ -11,4 +11,4 @@ char findTheDifference(char * s, char * t){
     }
     return ;
 }
-```
+// ```

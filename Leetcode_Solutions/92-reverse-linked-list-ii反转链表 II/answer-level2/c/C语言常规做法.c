@@ -1,5 +1,5 @@
-先把要反转的部分提出来，反转完成再接回去。
-```c
+// 先把要反转的部分提出来，反转完成再接回去。
+// ```c
 struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     struct ListNode header;
     header.next=head;
@@ -25,4 +25,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
     sign->next=head;
     return header.next;
 }
-```
+// ```

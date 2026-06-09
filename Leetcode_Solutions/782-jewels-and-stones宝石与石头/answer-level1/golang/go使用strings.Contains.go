@@ -1,4 +1,4 @@
-内存为2M，执行0s
+// 内存为2M，执行0s
 func numJewelsInStones(J string, S string) int {
     var sum int
     for i:=0;i<len(S);i++{

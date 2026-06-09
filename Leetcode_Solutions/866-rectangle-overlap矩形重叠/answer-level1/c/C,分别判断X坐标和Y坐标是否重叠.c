@@ -1,9 +1,9 @@
-### 解题思路
-如果重叠那么X和Y都重叠
+// ### 解题思路
+// 如果重叠那么X和Y都重叠
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*扫描线，从左到右扫描一个矩阵如果，扫描的数目为2那么没有相交，否则相交*/
 #define Get_Edge(rec, xFlag)  (abs(rec[0 + xFlag] - rec[1 + xFlag]))
 bool CheckEdgeOverLag(int* rec1, int* rec2, int xFlag){
@@ -32,4 +32,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     }
     return true;
 }
-```
+// ```

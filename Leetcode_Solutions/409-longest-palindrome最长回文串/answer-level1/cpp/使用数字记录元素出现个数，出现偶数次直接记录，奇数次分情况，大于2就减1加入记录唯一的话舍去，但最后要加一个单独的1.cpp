@@ -1,4 +1,4 @@
-```
+// ```
     class Solution {
     public:
         int longestPalindrome(string s) {
@@ -28,5 +28,5 @@
         return flag==1?cnt+1:cnt;
         }
     };
-```
+// ```
 

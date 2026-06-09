@@ -1,6 +1,6 @@
 
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string[]} words
@@ -28,4 +28,4 @@ var findSubstring = function(s, words) {
     }
     return ans
 };
-```
+// ```

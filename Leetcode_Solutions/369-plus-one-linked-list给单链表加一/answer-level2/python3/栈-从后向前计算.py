@@ -1,10 +1,10 @@
-### 解题思路
-借助栈，从后向前进行进位加法，如果没有进位，可直接退出
-如果最前面有进位，增加一个元素即可
+# ### 解题思路
+# 借助栈，从后向前进行进位加法，如果没有进位，可直接退出
+# 如果最前面有进位，增加一个元素即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             return pre
         else:
             return pre.next
-```
+# ```

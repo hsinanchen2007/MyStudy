@@ -1,11 +1,11 @@
-- 核心想法：将环展开成链。即将问题转化为我们熟悉的情形，```from rob() to line_rob()```
-- 主要思路：既然要展开成链的形式，那```rob()```问题等价于4个种情形下的```line_rob()```问题。其实就是给```line_rob()```加上一些提前的设定。即为：
-```
+# - 核心想法：将环展开成链。即将问题转化为我们熟悉的情形，```from rob() to line_rob()```
+# - 主要思路：既然要展开成链的形式，那```rob()```问题等价于4个种情形下的```line_rob()```问题。其实就是给```line_rob()```加上一些提前的设定。即为：
+# ```
 [rob, ... , rob](非法), [rob, ... , not rob], [not rob, ... , rob], [not rob, ... , not rob]
-```
-- 唯一的trick：```[not rob, ... , rob], [not rob, ... , not rob]``` 这两种情况等价于```line_rob(nums[1:])```
-- 剩下的看代码大家肯定能懂了
-```
+# ```
+# - 唯一的trick：```[not rob, ... , rob], [not rob, ... , not rob]``` 这两种情况等价于```line_rob(nums[1:])```
+# - 剩下的看代码大家肯定能懂了
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if not nums:
@@ -35,4 +35,4 @@ class Solution:
                 return rob_last
             else: # 此时，我们可以确认 rob_start_rob_last = rob_last，即rob_last的值是头尾都偷的，所以要被舍弃
                 return max(not_rob_last, not_rob_start_not_rob_last, not_rob_start_rob_last)
-```
+# ```

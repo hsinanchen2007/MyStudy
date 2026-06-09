@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-长链+短链中非相交部分 = 短链+长链中非相交部分
+// 长链+短链中非相交部分 = 短链+长链中非相交部分
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,4 +26,4 @@ public:
         return pA;
     }
 };
-```
+// ```

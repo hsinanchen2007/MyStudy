@@ -1,5 +1,5 @@
-我也不晓得我这是什么解法，只晓得解决问题了。
-```javascript
+// 我也不晓得我这是什么解法，只晓得解决问题了。
+// ```javascript
 function getSymmetricStr(str) {
   const strArr = str.split(''); // 字符串拆分成数组
   let result = []; // 结果数组
@@ -36,4 +36,4 @@ function getSymmetricStr(str) {
   }
   return result;
 }
-```
+// ```

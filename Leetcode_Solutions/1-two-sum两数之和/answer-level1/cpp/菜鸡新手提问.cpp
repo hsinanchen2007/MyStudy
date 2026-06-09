@@ -1,9 +1,9 @@
-### 解题思路
-第一次用letcode,为什么我还要加个return{}才能过
+// ### 解题思路
+// 第一次用letcode,为什么我还要加个return{}才能过
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -19,4 +19,4 @@ public:
         return {};
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/899526cd205602b456fa623922ebf700f37fc131d776b1367e4eceb32abaf7ed-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![捕获.PNG](https://pic.leetcode-cn.com/899526cd205602b456fa623922ebf700f37fc131d776b1367e4eceb32abaf7ed-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -30,4 +30,4 @@ public:
 
     }
 };
-```
+// ```

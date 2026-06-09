@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def game(self, guess: List[int], answer: List[int]) -> int:
         j = 0
@@ -11,4 +11,4 @@ class Solution:
             if guess[i]==answer[i]:
                 j += 1
         return j
-```
+# ```

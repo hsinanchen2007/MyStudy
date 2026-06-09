@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-创建新的空间提高代码的执行效率。。缺点：浪费空间
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 创建新的空间提高代码的执行效率。。缺点：浪费空间
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
             if(arr1==null || arr1.length==0 || arr2==null || arr2.length==0){
@@ -44,4 +44,4 @@ class Solution {
             return arr_;
     }
 }
-```
+// ```

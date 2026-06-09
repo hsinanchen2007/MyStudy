@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-垃圾暴力法，先用的二维数组sum来保存中间结果，时间不超，但是内存超了，后来改一维数组，速度慢，占内存多。不过好歹ac了。
-中间有无数坑，k为负数啦，k为0啦这些都没考虑到，提交一次改一次。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 垃圾暴力法，先用的二维数组sum来保存中间结果，时间不超，但是内存超了，后来改一维数组，速度慢，占内存多。不过好歹ac了。
+// 中间有无数坑，k为负数啦，k为0啦这些都没考虑到，提交一次改一次。
+// ### 代码
 
-```c
+// ```c
 bool checkSubarraySum(int* nums, int numsSize, int k){
     if (nums == NULL || numsSize == 0 || numsSize == 1) {
         return false;
@@ -53,4 +53,4 @@ bool checkSubarraySum(int* nums, int numsSize, int k){
 
     return false;
 }
-```
+// ```

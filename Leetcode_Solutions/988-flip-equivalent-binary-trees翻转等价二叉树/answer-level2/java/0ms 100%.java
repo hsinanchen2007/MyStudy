@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
                 (flipEquiv(root1.left,root2.right) && flipEquiv(root1.right,root2.left));
     }
 }
-```
+// ```

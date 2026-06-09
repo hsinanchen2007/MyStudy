@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isConvex(vector<vector<int>>& points) {
@@ -16,4 +16,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-熟悉了string的函数
-首尾空格挺费劲。。
+// ### 解题思路
+// 熟悉了string的函数
+// 首尾空格挺费劲。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -53,4 +53,4 @@ public:
         return ss;
     }
 };
-```
+// ```

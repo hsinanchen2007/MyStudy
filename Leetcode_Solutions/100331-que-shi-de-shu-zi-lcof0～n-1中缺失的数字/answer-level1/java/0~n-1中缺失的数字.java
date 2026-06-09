@@ -1,8 +1,8 @@
-### 解题思路
-采用二分查找，如果nums[mid]!=mid,说明0-mid之间缺失正数，反之mid~end之间缺失正数
-### 代码
+// ### 解题思路
+// 采用二分查找，如果nums[mid]!=mid,说明0-mid之间缺失正数，反之mid~end之间缺失正数
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         if(nums==null||nums.length==0)return 0;
@@ -18,4 +18,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

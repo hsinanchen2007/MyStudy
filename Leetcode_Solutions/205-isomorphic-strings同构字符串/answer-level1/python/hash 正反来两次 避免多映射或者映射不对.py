@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isIsomorphic(self, s, t):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             elif str_dic2[i]!=s[j]:
                 return False
         return True
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
     int n;//n皇后时
     vector<vector<string>> ans;
     void dfs(int u, auto &g, auto &col,auto &gd, auto &rgd){
@@ -23,4 +23,4 @@
         dfs(0,g,col,gd,rgd);//从第0行开始搜索
         return ans;
     }
-```
+// ```

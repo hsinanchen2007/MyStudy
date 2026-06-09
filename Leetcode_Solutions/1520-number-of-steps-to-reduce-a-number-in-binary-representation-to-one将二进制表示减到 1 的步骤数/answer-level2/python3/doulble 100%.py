@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-I do not understand why I have to use // but not /??
+# ### 解题思路
+# 此处撰写解题思路
+# I do not understand why I have to use // but not /??
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def numSteps(self, s: str) -> int:
@@ -32,4 +32,4 @@ class Solution:
                 sum=sum+1
                 count=count+1
         return count
-```
+# ```

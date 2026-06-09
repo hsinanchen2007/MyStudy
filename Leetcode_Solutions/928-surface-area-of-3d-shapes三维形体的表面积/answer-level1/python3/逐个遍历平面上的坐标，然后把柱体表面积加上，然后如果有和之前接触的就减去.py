@@ -1,9 +1,9 @@
-### 解题思路
-逐个遍历平面上的坐标，然后把柱体表面积加上，然后如果有和之前接触的就减去
+# ### 解题思路
+# 逐个遍历平面上的坐标，然后把柱体表面积加上，然后如果有和之前接触的就减去
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         r = 0
@@ -28,4 +28,4 @@ class Solution:
         return r
     
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-1. DP
+// ### 解题思路
+// 1. DP
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
     dp := make([][]int, len(obstacleGrid))
     for i := 0;i < len(obstacleGrid);i++ {
@@ -35,4 +35,4 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
     }
     return dp[len(dp)-1][len(dp[0])-1]
 }
-```
+// ```

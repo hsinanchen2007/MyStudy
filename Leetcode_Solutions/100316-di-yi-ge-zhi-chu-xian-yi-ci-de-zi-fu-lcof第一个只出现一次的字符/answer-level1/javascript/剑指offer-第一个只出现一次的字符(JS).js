@@ -1,4 +1,4 @@
-```js
+// ```js
 var firstUniqChar = function(s) {
     if(s.length === 1) return s;
     
@@ -9,4 +9,4 @@ var firstUniqChar = function(s) {
     }
     return ' ';
 };
-```
+// ```

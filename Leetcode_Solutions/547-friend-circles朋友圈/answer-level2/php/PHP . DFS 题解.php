@@ -1,4 +1,4 @@
-```
+// ```
 
 function findCircleNum($M) {
         $visited = [];   
@@ -20,4 +20,4 @@ function findCircleNum($M) {
         }
     }
 
-```
+// ```

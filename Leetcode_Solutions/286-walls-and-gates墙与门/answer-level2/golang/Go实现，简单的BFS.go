@@ -1,6 +1,6 @@
-我们使用go语言的channel发挥队列的作用。
+// 我们使用go语言的channel发挥队列的作用。
 
-```go
+// ```go
 func wallsAndGates(rooms [][]int)  {
 	maxInt := math.MaxInt32
 	rowLen := len(rooms)
@@ -46,4 +46,4 @@ func wallsAndGates(rooms [][]int)  {
 		}
 	}
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -22,8 +22,8 @@ public:
         return ret;
     }
 };
-```
-时间: 6ms 98% 
-空间: 100%
-每次拿id和mx去更新i
+// ```
+// 时间: 6ms 98% 
+// 空间: 100%
+// 每次拿id和mx去更新i
 

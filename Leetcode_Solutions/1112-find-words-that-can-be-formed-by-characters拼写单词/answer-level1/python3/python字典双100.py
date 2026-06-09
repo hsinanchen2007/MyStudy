@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         dic={}
@@ -20,4 +20,4 @@ class Solution:
                 res+=a
         
         return res
-```
+# ```

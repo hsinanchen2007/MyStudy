@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/dd3d626bd682c9fd2f28f33605501a453d14b16f199773a78d002986739b0957-image.png)
+# ![image.png](https://pic.leetcode-cn.com/dd3d626bd682c9fd2f28f33605501a453d14b16f199773a78d002986739b0957-image.png)
 
 
-```
+# ```
 
 '''
 两个坐标轴维度上的开销是互相不会影响的，
@@ -34,4 +34,4 @@ class Solution:
                     col_list.append(j)
 
         return self.getMinSum(row_list) + self.getMinSum(col_list)
-```
+# ```

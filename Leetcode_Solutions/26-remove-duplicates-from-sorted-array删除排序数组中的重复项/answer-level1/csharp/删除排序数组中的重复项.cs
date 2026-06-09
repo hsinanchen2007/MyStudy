@@ -1,12 +1,12 @@
-## 双指针法
+// ## 双指针法
 
-+ 一个用来保存当前遍历索引
+// + 一个用来保存当前遍历索引
 
-+ 一个用来保存当前最大值的索引
+// + 一个用来保存当前最大值的索引
 
-代码如下：
+// 代码如下：
 
-```C#
+// ```C#
 public class Solution {
     public int RemoveDuplicates(int[] nums) {
         var len = nums.Length;
@@ -22,4 +22,4 @@ public class Solution {
         return curr + 1;
     }
 }
- ```
+//  ```

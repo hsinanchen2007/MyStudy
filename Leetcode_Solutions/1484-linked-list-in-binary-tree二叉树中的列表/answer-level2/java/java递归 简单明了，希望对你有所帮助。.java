@@ -1,9 +1,9 @@
-这道题和剑指offer第26题十分相似，都是判断一个结构是不是另一个的子结构。
-那么就会有3种情况：
-1链表是当前树的子结构
-2链表是当前树左子树的子结构
-3链表是当前树右子树的子结构。
-```
+// 这道题和剑指offer第26题十分相似，都是判断一个结构是不是另一个的子结构。
+// 那么就会有3种情况：
+// 1链表是当前树的子结构
+// 2链表是当前树左子树的子结构
+// 3链表是当前树右子树的子结构。
+// ```
     public boolean isSubPath(ListNode head, TreeNode root) {
         if(root == null) return false;
         return isSame(head, root) || isSubPath(head, root.left) || isSubPath(head, root.right); 
@@ -18,4 +18,4 @@
         if(head.val != root.val) return false;
         return isSame(head.next, root.left) || isSame(head.next, root.right);
     }
-```
+// ```

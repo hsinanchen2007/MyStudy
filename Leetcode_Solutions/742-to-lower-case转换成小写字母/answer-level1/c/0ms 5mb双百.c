@@ -1,9 +1,9 @@
-### 解题思路
-做个日志大佬们无视我
+// ### 解题思路
+// 做个日志大佬们无视我
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * toLowerCase(char * s){
     int i=0;
     while(s[i]!=0){
@@ -14,4 +14,4 @@ char * toLowerCase(char * s){
     }
     return s;
 }
-```
+// ```

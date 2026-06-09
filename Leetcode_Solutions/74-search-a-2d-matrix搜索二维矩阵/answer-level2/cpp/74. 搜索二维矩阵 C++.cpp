@@ -1,14 +1,14 @@
-### 解题思路
-矩阵二分搜索： 因为矩阵按Z字形是升序排列，可以使用二分搜索  时间复杂度O(log(M * N)) = O(logM + logN)
+// ### 解题思路
+// 矩阵二分搜索： 因为矩阵按Z字形是升序排列，可以使用二分搜索  时间复杂度O(log(M * N)) = O(logM + logN)
 
-m x n 矩阵
-一维索引index 转 二维坐标(row, col)
-row = index / n   
-col = index % n
+// m x n 矩阵
+// 一维索引index 转 二维坐标(row, col)
+// row = index / n   
+// col = index % n
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -44,4 +44,4 @@ public:
         return false;
     }
 };
-```
+// ```

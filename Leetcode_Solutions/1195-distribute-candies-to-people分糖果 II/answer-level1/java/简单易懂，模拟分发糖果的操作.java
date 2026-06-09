@@ -1,11 +1,11 @@
-**注释有些多，但只要能把代码和注释看一遍，肯定能看得懂~整体的过程还是比较清晰的❤**
+// **注释有些多，但只要能把代码和注释看一遍，肯定能看得懂~整体的过程还是比较清晰的❤**
 
-在这里我提供了两个段代码，代码都是一样的，区别在于：
-- 代码段 1：**不带注释的版本**，便于查看代码；
-- 代码段 2：**带有详细注释的版本**，便于理解分发糖果的过程。
+// 在这里我提供了两个段代码，代码都是一样的，区别在于：
+// - 代码段 1：**不带注释的版本**，便于查看代码；
+// - 代码段 2：**带有详细注释的版本**，便于理解分发糖果的过程。
 
-**代码段 1**：
-```java
+// **代码段 1**：
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int people) {
         if (candies <= 0 || people <= 0) {
@@ -30,10 +30,10 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-**代码段 2**：
-```java
+// **代码段 2**：
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int people) {
         if (candies <= 0 || people <= 0) {
@@ -75,8 +75,8 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-### 全部题解
-《剑指Offer》的全部题解与 LeetCode 的部分题解在此下方，其中还包含**基础算法**与**进阶算法**，欢迎查看~
-[LeetCode、SwordToOffer and other algorithms in Java.](https://github.com/dyfloveslife/LeetCodeAndSwordToOffer)
+// ### 全部题解
+// 《剑指Offer》的全部题解与 LeetCode 的部分题解在此下方，其中还包含**基础算法**与**进阶算法**，欢迎查看~
+// [LeetCode、SwordToOffer and other algorithms in Java.](https://github.com/dyfloveslife/LeetCodeAndSwordToOffer)

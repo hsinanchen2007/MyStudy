@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/82a6d61399281ebd33972524e8aec88b8297542d3afbda7a92fd183a44fec12b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/82a6d61399281ebd33972524e8aec88b8297542d3afbda7a92fd183a44fec12b-image.png)
 
-```
+// ```
 class Solution {
 private:
     enum {
@@ -62,4 +62,4 @@ public:
         return rc;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/8942648ef76b2bf34bcb7cf8bc1c888a2cb57fb96467a43ff7a7292201bf865e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/8942648ef76b2bf34bcb7cf8bc1c888a2cb57fb96467a43ff7a7292201bf865e-image.png)
 
 
 
-```
+# ```
 
 '''
 上了一堂数学课
@@ -29,4 +29,4 @@ class Solution:
             x += 1
             sum *= (n+1)
         return x
-```
+# ```

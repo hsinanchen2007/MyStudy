@@ -1,15 +1,15 @@
-### 解题思路
-1. 以1x2b为例，看下图
-           1x2b
-    1x2b           1X2b
-1x2b    1x2B   1X2b    1X2B
+// ### 解题思路
+// 1. 以1x2b为例，看下图
+//            1x2b
+//     1x2b           1X2b
+// 1x2b    1x2B   1X2b    1X2B
 
-2. 可见最后一排的叶子即为最终所有的组合
-3. 所以可以使用二叉树的BFS算法获取   
+// 2. 可见最后一排的叶子即为最终所有的组合
+// 3. 所以可以使用二叉树的BFS算法获取   
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string[]}
@@ -32,4 +32,4 @@ var letterCasePermutation = function(S) {
     const result = collect(S, 0);
     return result;
 };
-```
+// ```

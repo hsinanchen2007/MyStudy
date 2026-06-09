@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private int ans = 0;
     private int tmp = 0;
@@ -25,4 +25,4 @@ class Solution {
         tmp /= 10;
     }
 }
-```
+// ```

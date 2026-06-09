@@ -1,9 +1,9 @@
-### 解题思路
-除2，递归，但是我干什么了内存消耗那么多？？？？？
+// ### 解题思路
+// 除2，递归，但是我干什么了内存消耗那么多？？？？？
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {boolean}
@@ -15,4 +15,4 @@ var isPowerOfTwo = function(n) {
 
     return isPowerOfTwo(n/2) 
 };
-```
+// ```

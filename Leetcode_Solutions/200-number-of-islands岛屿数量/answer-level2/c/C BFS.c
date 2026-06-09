@@ -1,9 +1,9 @@
-### 解题思路
-经典广度搜索，需注意这里的每个是字符，不是数字
+// ### 解题思路
+// 经典广度搜索，需注意这里的每个是字符，不是数字
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct str {
     int x;
     int y;
@@ -58,4 +58,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
 }
 
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-设置指针，从头向后遍历
-若遇到相同的值，删除后一个节点
-否则指针向后移动一个
+// ### 解题思路
+// 设置指针，从头向后遍历
+// 若遇到相同的值，删除后一个节点
+// 否则指针向后移动一个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

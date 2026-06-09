@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/566979033d2846d973c98f8db6015ea38df7625b5add36ba3e716fb60dade17f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/566979033d2846d973c98f8db6015ea38df7625b5add36ba3e716fb60dade17f-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 回溯法(DFS)：
 
 看给出的 n 个左括号和右括号能组成多少种有效且不重复的子集
@@ -9,11 +9,11 @@
 关键点：当前尝试的子集中 「右括号数量」必须 <= 「左括号数量」
 
 dfs(此时的子集，当前左括号数量，当前右括号数量，剩余左括号数量，剩余右括号数量)
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -51,4 +51,4 @@ var generateParenthesis = function(n) {
 
 
 
-```
+// ```

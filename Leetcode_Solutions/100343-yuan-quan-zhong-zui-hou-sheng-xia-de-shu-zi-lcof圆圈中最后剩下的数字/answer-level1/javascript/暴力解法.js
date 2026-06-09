@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法
+// ### 解题思路
+// 暴力解法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -19,4 +19,4 @@ var lastRemaining = function(n, m) {
     }
     return arr[0]
 };
-```
+// ```

@@ -1,29 +1,29 @@
-## 40.最小的k个数
+// ## 40.最小的k个数
 
-### Information
+// ### Information
 
-* TIME: 2020/02/18
-* LINK: [Click Here](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
-* TAG: `heap`
+// * TIME: 2020/02/18
+// * LINK: [Click Here](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+// * TAG: `heap`
 
-### Description
+// ### Description
 
-> 输入整数数组 `arr` ，找出其中最小的 `k` 个数。例如，输入4、5、1、6、2、7、3、8这8个数字，则最小的4个数字是1、2、3、4。
+// > 输入整数数组 `arr` ，找出其中最小的 `k` 个数。例如，输入4、5、1、6、2、7、3、8这8个数字，则最小的4个数字是1、2、3、4。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入：arr = [3,2,1], k = 2
 输出：[1,2] 或者 [2,1]
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 维护一个大小为`k+1`的最大堆，遍历`arr`，当`size > k` 时，丢弃堆的顶端（也就是最大值）
->
-> 这样就能保证大的值逐步被丢弃，剩下的就是k+1个最小值
+// > 维护一个大小为`k+1`的最大堆，遍历`arr`，当`size > k` 时，丢弃堆的顶端（也就是最大值）
+// >
+// > 这样就能保证大的值逐步被丢弃，剩下的就是k+1个最小值
 
-```java
+// ```java
 class Solution {
     private int[] data;
     private int size;
@@ -79,23 +79,23 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/d464857f113fb2508745beec8fda5f82feaa61b0e823f23ad92b1b15d405db90-file_1582019104679)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/d464857f113fb2508745beec8fda5f82feaa61b0e823f23ad92b1b15d405db90-file_1582019104679)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

@@ -1,9 +1,9 @@
-### 解题思路
-直接用个队列往里面塞每次节点的左右子节点就行。。。
+// ### 解题思路
+// 直接用个队列往里面塞每次节点的左右子节点就行。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

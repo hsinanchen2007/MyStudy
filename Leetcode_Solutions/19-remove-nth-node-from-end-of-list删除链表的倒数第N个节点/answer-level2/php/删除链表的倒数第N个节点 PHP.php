@@ -1,10 +1,10 @@
-### 解题思路
-设置一个默认的节点
-双
+// ### 解题思路
+// 设置一个默认的节点
+// 双
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -65,17 +65,17 @@ function removeNthFromEnd($head, $n) {
         return $dumb->next;
     }
 
-```
+// ```
 
-### 解题思路
-设置默认头结点
-先遍历获取链表长度
-然后根据n和length的差
-指针指到要删除节点前节点，并删除
+// ### 解题思路
+// 设置默认头结点
+// 先遍历获取链表长度
+// 然后根据n和length的差
+// 指针指到要删除节点前节点，并删除
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -114,4 +114,4 @@ class Solution {
 }
 
 
-```
+// ```

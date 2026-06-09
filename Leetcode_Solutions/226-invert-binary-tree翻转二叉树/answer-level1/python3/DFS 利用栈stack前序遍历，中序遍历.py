@@ -1,5 +1,5 @@
-DFS 栈stack前序遍历：
-```
+# DFS 栈stack前序遍历：
+# ```
 class Solution(object):
     def invertTree(self, root):
         stack=[]
@@ -12,9 +12,9 @@ class Solution(object):
             cur=stack.pop()
             cur=cur.right
         return root
-```
-中序遍历时要把第一层循环的cur=cur.right改成cur=cur.left。
-```
+# ```
+# 中序遍历时要把第一层循环的cur=cur.right改成cur=cur.left。
+# ```
 class Solution(object):
     def invertTree(self, root):
         stack=[]
@@ -27,4 +27,4 @@ class Solution(object):
             cur.left,cur.right=cur.right,cur.left
             cur=cur.left
         return root
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-go 快慢指针法
-### 代码
+// ### 解题思路
+// go 快慢指针法
+// ### 代码
 
-```golang
+// ```golang
 func detectCycle(head *ListNode) *ListNode {
 	fastP, slowP := head, head
 
@@ -23,4 +23,4 @@ func detectCycle(head *ListNode) *ListNode {
 	return nil
 }
 
-```
+// ```

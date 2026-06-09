@@ -1,12 +1,12 @@
-### 思路一：DP
-类似[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/solution/62-bu-tong-lu-jing-jian-dan-dong-tai-gui-hua-ji-yo/)
-添加障碍物判断，如果有障碍物则设置为0.
-**注意**：使用long int防止溢出
+// ### 思路一：DP
+// 类似[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/solution/62-bu-tong-lu-jing-jian-dan-dong-tai-gui-hua-ji-yo/)
+// 添加障碍物判断，如果有障碍物则设置为0.
+// **注意**：使用long int防止溢出
 
-### 代码
-时间复杂度：O(mn)
-空间复杂度：O(mn)
-```cpp
+// ### 代码
+// 时间复杂度：O(mn)
+// 空间复杂度：O(mn)
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -48,10 +48,10 @@ public:
         return dp[m - 1][n - 1];
     }
 };
-```
+// ```
 
-### 简化代码
-```c++
+// ### 简化代码
+// ```c++
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -71,4 +71,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

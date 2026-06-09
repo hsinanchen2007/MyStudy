@@ -1,10 +1,10 @@
-### 解题思路
-第一种暴力求解
-第二种巧妙利用list的replace方法：评论区参考的，记录一下
+# ### 解题思路
+# 第一种暴力求解
+# 第二种巧妙利用list的replace方法：评论区参考的，记录一下
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     # def isValid1(self, s):
     #     """
@@ -48,4 +48,4 @@ class Solution(object):
             s=s.replace('{}','')
         return s==''
             
-```
+# ```

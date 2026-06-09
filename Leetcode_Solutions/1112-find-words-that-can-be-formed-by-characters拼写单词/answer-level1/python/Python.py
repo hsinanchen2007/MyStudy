@@ -1,8 +1,8 @@
-### 解题思路
-count的妙用
-### 代码
+# ### 解题思路
+# count的妙用
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         ans = 0
@@ -17,4 +17,4 @@ class Solution:
                 ans +=len(word)
         return ans
         
-```
+# ```

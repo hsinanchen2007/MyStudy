@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numJewelsInStones(char * J, char * S)
 {
     int hash[58] = {0};                                           //a - A + 1 = 58
@@ -25,4 +25,4 @@ int numJewelsInStones(char * J, char * S)
     }
     return result;
 }
-```
+// ```

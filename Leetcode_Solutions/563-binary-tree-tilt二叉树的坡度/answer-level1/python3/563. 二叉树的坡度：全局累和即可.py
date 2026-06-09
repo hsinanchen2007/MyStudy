@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/7267c1bc0f18cecf8c938afc41d527359d3344a2cb8797ef1bbcff7273abdc92-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7267c1bc0f18cecf8c938afc41d527359d3344a2cb8797ef1bbcff7273abdc92-image.png)
 
-用nonlocal记录全局信息
+# 用nonlocal记录全局信息
 
-```python []
+# ```python []
 class Solution:
     def findTilt(self, root: TreeNode) -> int:
         ans = 0
@@ -15,4 +15,4 @@ class Solution:
             return sumleft + sumright + r.val
         f(root)
         return ans
-```
+# ```

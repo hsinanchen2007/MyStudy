@@ -1,9 +1,9 @@
-### 解题思路
-最后一个用例居然是1
+// ### 解题思路
+// 最后一个用例居然是1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkPerfectNumber(int num){
     if(num<2){
         return false;
@@ -21,4 +21,4 @@ bool checkPerfectNumber(int num){
     }
     return num==sum;
 }
-```
+// ```

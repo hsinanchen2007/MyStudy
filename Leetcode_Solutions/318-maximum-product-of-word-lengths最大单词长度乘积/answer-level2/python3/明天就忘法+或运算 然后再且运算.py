@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
         n=len(words)
@@ -20,4 +20,4 @@ class Solution:
                 if val[i]&val[j]==0:
                     maxs=max(maxs,len(words[i])*len(words[j]))
         return maxs
-```
+# ```

@@ -1,5 +1,5 @@
-厄拉多塞筛法
-```
+// 厄拉多塞筛法
+// ```
 function countPrimes($n) {
     $count = 0;
     $isPrim = array_fill(0,$n,true);
@@ -13,4 +13,4 @@ function countPrimes($n) {
     }
     return $count;
 }
-```
+// ```

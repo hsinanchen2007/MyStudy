@@ -1,9 +1,9 @@
-### 解题思路
-二分法，递归算法
+# ### 解题思路
+# 二分法，递归算法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1, nums2):
         m = len(nums1)
@@ -29,4 +29,4 @@ class Solution:
         else:
             return self.findekth(num1, i, num2, j + k // 2, k - k // 2)
 
-```
+# ```

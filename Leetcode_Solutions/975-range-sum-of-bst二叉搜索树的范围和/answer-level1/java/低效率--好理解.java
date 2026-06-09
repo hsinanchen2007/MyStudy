@@ -1,9 +1,9 @@
-### 解题思路
-借助了平衡二叉树的特性，先中序输出是有序的列表，然后再求和，效率比较低。
+// ### 解题思路
+// 借助了平衡二叉树的特性，先中序输出是有序的列表，然后再求和，效率比较低。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         preOrderSearch(root.right);
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/e950eb5e661bb06407e1bbb8933f46e9ac3c8311866a4ee552d1ff826a6cfc66-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e950eb5e661bb06407e1bbb8933f46e9ac3c8311866a4ee552d1ff826a6cfc66-image.png)
 
-```
+# ```
 '''
 贪心策略，把value全部按照数值降序排，从大到小
 选数据，只要这个数据对应的label计数值不超过use_limit
@@ -29,4 +29,4 @@ class Solution:
                 cnt += 1
 
         return sum
-```
+# ```

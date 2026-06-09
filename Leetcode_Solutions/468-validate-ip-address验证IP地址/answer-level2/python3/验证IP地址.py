@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validIPAddress(self, IP: str) -> str:
         IPlist = IP.split('.')
@@ -30,4 +30,4 @@ class Solution:
             return 'IPv6'
         
         return 'Neither'
-```
+# ```

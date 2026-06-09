@@ -1,17 +1,17 @@
-### 解题思路
-包含 .的字符用深度优先搜索
+// ### 解题思路
+// 包含 .的字符用深度优先搜索
 
-即把当前节点的所有children都遍历一遍，这里用深度优先搜索，同时搜索字母的字符位置右移
+// 即把当前节点的所有children都遍历一遍，这里用深度优先搜索，同时搜索字母的字符位置右移
 
-注意DFS的结束条件
-- word到头之后  判断node是否是isend
-- word没到头，判断 node是否是 . 分别进行DFS
-	- 如果是. 则对所有的children进行DFS，
-	- 如果是普通字符，则对children[byte]进行DFS 
+// 注意DFS的结束条件
+// - word到头之后  判断node是否是isend
+// - word没到头，判断 node是否是 . 分别进行DFS
+// 	- 如果是. 则对所有的children进行DFS，
+// 	- 如果是普通字符，则对children[byte]进行DFS 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 type WordDictionary struct {
 	isEnd    bool
@@ -73,4 +73,4 @@ func Search_trie(node *WordDictionary, word string, i int) bool {
 	return false
 }
 
-```
+// ```

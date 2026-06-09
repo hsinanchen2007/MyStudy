@@ -1,6 +1,6 @@
-golang 实现
+// golang 实现
 
-```go
+// ```go
 type Trie struct {
 	end  bool
 	next *[26]*Trie
@@ -64,4 +64,4 @@ func (this *Trie) StartsWith(prefix string) bool {
  * param_3 := obj.StartsWith(prefix);
  */
 
-```
+// ```

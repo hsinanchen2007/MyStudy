@@ -1,9 +1,9 @@
-### 解题思路
-哈希表解决重复元素问题，写的比较长，为了思路展示地更清晰
+# ### 解题思路
+# 哈希表解决重复元素问题，写的比较长，为了思路展示地更清晰
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         hash_, temp = {}, 0
@@ -18,4 +18,4 @@ class Solution:
                 hash_[i] = temp
                 temp += 1
         return False
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双指针遍历
+// 双指针遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validWordAbbreviation(string word, string abbr) {
@@ -34,6 +34,6 @@ public:
         return j == abbr.size() && i == word.size();
     }
 };
-```
+// ```
 
-![408.ac.valid-word-abbreviation](https://pic.leetcode-cn.com/b5b1697e966a54380fc56270ee0ed776d455b71960ca808ef7b9e0710e5e9e75-file_1578383503257)
+// ![408.ac.valid-word-abbreviation](https://pic.leetcode-cn.com/b5b1697e966a54380fc56270ee0ed776d455b71960ca808ef7b9e0710e5e9e75-file_1578383503257)

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-最笨的办法，三重循环。。。每个单词的每个字母和字母表中每个词比较
+// ### 解题思路
+// 此处撰写解题思路
+// 最笨的办法，三重循环。。。每个单词的每个字母和字母表中每个词比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -53,4 +53,4 @@ public:
     else return 0;
     }
 };
-```
+// ```

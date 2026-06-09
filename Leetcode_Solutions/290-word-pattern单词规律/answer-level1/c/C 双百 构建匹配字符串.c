@@ -1,4 +1,4 @@
-```
+// ```
 bool wordPattern(char * pattern, char * str){
     if(strcmp(str,"")==0||strcmp(pattern,"")==NULL)
         return 0;
@@ -52,4 +52,4 @@ bool wordPattern(char * pattern, char * str){
 
     return 1;
 }
-```
+// ```

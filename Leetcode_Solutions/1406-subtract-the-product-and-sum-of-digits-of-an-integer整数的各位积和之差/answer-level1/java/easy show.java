@@ -1,9 +1,9 @@
-### 解题思路
-一次计算每位的aliquant的数字即可，思路简单
+// ### 解题思路
+// 一次计算每位的aliquant的数字即可，思路简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int productResult=1;
@@ -18,4 +18,4 @@ class Solution {
         
     }
 }
-```
+// ```

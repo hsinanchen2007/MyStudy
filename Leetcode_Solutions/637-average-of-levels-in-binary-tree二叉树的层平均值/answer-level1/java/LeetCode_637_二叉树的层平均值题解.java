@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-BFS（广度遍历），主要注意每一次循环的时候，要记录queue本次的size，然后循环把等于size大小的个数拿出来，在循环里面存入每个节点的左节点和右节点。
+// BFS（广度遍历），主要注意每一次循环的时候，要记录queue本次的size，然后循环把等于size大小的个数拿出来，在循环里面存入每个节点的左节点和右节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return avgs;
     }
 }
-```
+// ```

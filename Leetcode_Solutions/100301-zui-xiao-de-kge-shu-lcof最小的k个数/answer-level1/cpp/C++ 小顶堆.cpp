@@ -1,9 +1,9 @@
-### 解题思路
-利用小顶堆保存所有元素 然后依次弹出k个元素即可
-不清楚官方的解答为啥那么麻烦
-### 代码
+// ### 解题思路
+// 利用小顶堆保存所有元素 然后依次弹出k个元素即可
+// 不清楚官方的解答为啥那么麻烦
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -22,4 +22,4 @@ public:
         return vec;
     }
 };
-```
+// ```

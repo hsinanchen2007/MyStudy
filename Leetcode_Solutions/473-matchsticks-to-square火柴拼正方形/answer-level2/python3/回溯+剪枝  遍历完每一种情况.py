@@ -1,6 +1,6 @@
 
-首先定义一个vis数组来记录访问情况，pan函数是判断是否数组每一个元素都用到了，core函数则是用来递归。在每访问一个数组元素i时，则vis[i]=1，再次调用core函数实现深度优先搜索，调用完毕后，vis[i]置0。如果现在的和等于边长，则把现在的和now置零，让函数继续搜索。
-```python []
+# 首先定义一个vis数组来记录访问情况，pan函数是判断是否数组每一个元素都用到了，core函数则是用来递归。在每访问一个数组元素i时，则vis[i]=1，再次调用core函数实现深度优先搜索，调用完毕后，vis[i]置0。如果现在的和等于边长，则把现在的和now置零，让函数继续搜索。
+# ```python []
 class Solution:
     def makesquare(self, nums: List[int]) -> bool:
         s=0
@@ -46,5 +46,5 @@ class Solution:
         if self.p==1:
             return True
         return False
-```
+# ```
 

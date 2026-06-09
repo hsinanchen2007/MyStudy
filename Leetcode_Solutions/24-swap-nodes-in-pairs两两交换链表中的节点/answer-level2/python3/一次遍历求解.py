@@ -1,8 +1,8 @@
-1. 定义两个子函数
-    1.1 切割函数，取出两个节点
-    1.2 反转函数， 反转链表
-2. 伪代码
-```
+# 1. 定义两个子函数
+#     1.1 切割函数，取出两个节点
+#     1.2 反转函数， 反转链表
+# 2. 伪代码
+# ```
     dummy = ListNode(0)
     tail = dummy  tail用来串起来切割后并排序的链表
     while pre：(pre切割后的链表的头节点)
@@ -10,10 +10,10 @@
         反转
         tail串起
     return dummy.next
-```
+# ```
 
-3. 具体实现
-```
+# 3. 具体实现
+# ```
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
 
@@ -57,4 +57,4 @@ class Solution:
             i = i + 1
         pre.next = None
         return head
-```
+# ```

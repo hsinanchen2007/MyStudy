@@ -1,9 +1,9 @@
-### 解题思路
-利用快慢指针，慢指针每次走一步，快指针每次走两步，当快指针的走到尾的时候，慢指针刚好走到中间。
+// ### 解题思路
+// 利用快慢指针，慢指针每次走一步，快指针每次走两步，当快指针的走到尾的时候，慢指针刚好走到中间。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,4 +28,4 @@ var middleNode = function(head) {
 
     return node1;
 };
-```
+// ```

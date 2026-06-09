@@ -1,13 +1,13 @@
-解这道题用广度优先遍历需要注意的点：
+// 解这道题用广度优先遍历需要注意的点：
 
-- 构造一个 map 用于存储`deadends`和`旋转过的字符串`，map 的 value 为旋转的步数
-- 初始状态`"0000"`如果在`deadends`中，直接返回-1
-- `target`在`deadends`中，直接返回-1
-- 初始化一个队列用于存储滚动一次转轮对应的字符串的可能结果（在 map 中的，即**忽略**在`deadends`和`旋转过的字符串`的结果）
-- 更新可能结果的步数
-- 循环判断队列长度，直到为空
+// - 构造一个 map 用于存储`deadends`和`旋转过的字符串`，map 的 value 为旋转的步数
+// - 初始状态`"0000"`如果在`deadends`中，直接返回-1
+// - `target`在`deadends`中，直接返回-1
+// - 初始化一个队列用于存储滚动一次转轮对应的字符串的可能结果（在 map 中的，即**忽略**在`deadends`和`旋转过的字符串`的结果）
+// - 更新可能结果的步数
+// - 循环判断队列长度，直到为空
 
-```golang
+// ```golang
 func openLock(deadends []string, target string) int {
 	dMap := make(map[string]int)
 	for _, v := range deadends {
@@ -51,4 +51,4 @@ func openLock(deadends []string, target string) int {
 	return -1
 }
 
-```
+// ```

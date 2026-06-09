@@ -1,8 +1,8 @@
-### 解题思路
-Python中for和else的一种特殊搭配用法，如果学到了请点个赞O(∩_∩)O
-### 代码
+# ### 解题思路
+# Python中for和else的一种特殊搭配用法，如果学到了请点个赞O(∩_∩)O
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         #如果nums中存在target，返回target的索引
@@ -17,4 +17,4 @@ class Solution:
             else:
                 return len(nums)
 
-```
+# ```

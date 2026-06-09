@@ -1,13 +1,13 @@
-### 解题思路
-LeetCode官方的递归写的相对比较简洁和迷惑，所以稍微修改一下写了个，个人感觉较为清晰的版本。
+# ### 解题思路
+# LeetCode官方的递归写的相对比较简洁和迷惑，所以稍微修改一下写了个，个人感觉较为清晰的版本。
 
-1. 建立新的ListNode作为head。
-2. 递归的反转当前节点之后的所有节点。
-3. 递归外注意相应的修改指针。
+# 1. 建立新的ListNode作为head。
+# 2. 递归的反转当前节点之后的所有节点。
+# 3. 递归外注意相应的修改指针。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
 
         return new_head.next
 
-```
+# ```

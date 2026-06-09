@@ -1,4 +1,4 @@
-```
+// ```
     i s s i p  <- needle 
    
     m i s s i s s i p p i  <- haystack
@@ -11,19 +11,19 @@
           ^(×)              
     m i s s i s s i p p i
             ^ ^ ^ ^ ^      ✅
-```
+// ```
 
-### 思路
+// ### 思路
 
-- 标签：`双指针`
-- 将 needle（目标字符串） 依次与字符串 haystack 长度为 needle 的子串比较，完全相同则返回子串的数组下标。
-- 一个指针用于遍历，遍历次数为 haystack 多余长度 + 1；一个指针用于依次比较是否与 needle 每一个字符相同
-- 时间复杂度：O(M) = O(M-N) + O(N)？
-- 空间复杂度：O(1)
+// - 标签：`双指针`
+// - 将 needle（目标字符串） 依次与字符串 haystack 长度为 needle 的子串比较，完全相同则返回子串的数组下标。
+// - 一个指针用于遍历，遍历次数为 haystack 多余长度 + 1；一个指针用于依次比较是否与 needle 每一个字符相同
+// - 时间复杂度：O(M) = O(M-N) + O(N)？
+// - 空间复杂度：O(1)
 
-### 代码
+// ### 代码
 
-```Java []
+// ```Java []
 // Java
 class Solution {
     public int strStr(String haystack, String needle) {
@@ -42,6 +42,6 @@ class Solution {
         return -1;
     }
 };
-```
+// ```
 
 

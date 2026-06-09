@@ -1,16 +1,16 @@
-[198.打家劫舍。](https://leetcode-cn.com/problems/house-robber/submissions/)   
+// [198.打家劫舍。](https://leetcode-cn.com/problems/house-robber/submissions/)   
 
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
 
-## 方法一 动态规划   
+// ## 方法一 动态规划   
 
-动态规划。
+// 动态规划。
 
-状态转移方程是：`dp[i] = Math.max(dp[i-2] + nums[i], dp[i-1])`，对于i为0和i为1时单独处理。
+// 状态转移方程是：`dp[i] = Math.max(dp[i-2] + nums[i], dp[i-1])`，对于i为0和i为1时单独处理。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -29,19 +29,19 @@ var rob = function(nums) {
     }
     return dp[nums.length-1];
 };
-```
+// ```
 
-## 方法二   
+// ## 方法二   
 
-利用上述动态规划思想，对题目进行简化。    
+// 利用上述动态规划思想，对题目进行简化。    
 
-cur表示当前位置的最大值，每一个地方的最大值都是两个位置前的最大值和当前值的和与上一个最大值之间的较大者。
+// cur表示当前位置的最大值，每一个地方的最大值都是两个位置前的最大值和当前值的和与上一个最大值之间的较大者。
 
-一次遍历即可得到结果。     
+// 一次遍历即可得到结果。     
 
-文字比较啰嗦，代码如下：
+// 文字比较啰嗦，代码如下：
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -57,4 +57,4 @@ var rob = function(nums) {
     }
     return pre1
 };
-```
+// ```

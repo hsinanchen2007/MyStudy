@@ -1,8 +1,8 @@
-解题思路：
-1. 从前到后数k个元素
-2. 对子链表进行反转
-3. 继续对后续子链进行递归操作
-```
+// 解题思路：
+// 1. 从前到后数k个元素
+// 2. 对子链表进行反转
+// 3. 继续对后续子链进行递归操作
+// ```
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	pFast:=head
 	pSlow:=head
@@ -33,4 +33,4 @@ func rollingList(head *ListNode,tail *ListNode,k int)(*ListNode,*ListNode){
 	}
 	return tail,head
 }
-```
+// ```

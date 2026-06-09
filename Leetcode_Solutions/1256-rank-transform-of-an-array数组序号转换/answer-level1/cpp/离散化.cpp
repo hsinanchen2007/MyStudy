@@ -1,5 +1,5 @@
-离散化的板子
-```cpp
+// 离散化的板子
+// ```cpp
 class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& arr) {
@@ -12,4 +12,4 @@ public:
         return nums;
     }
 };
-```
+// ```

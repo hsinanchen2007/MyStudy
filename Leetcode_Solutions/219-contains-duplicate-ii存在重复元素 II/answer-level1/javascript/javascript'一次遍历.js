@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -18,5 +18,5 @@ var containsNearbyDuplicate = function(nums, k) {
     }
     return distance <= k
 };
-```
-`distance`是两个相同数距离的最小值，初始化为最大，然后遍历数组，如果在`set`里面找到数，就将`Math.min(distance, i - set.get(current))`存入`distance`，并将`set`中的下标更换。
+// ```
+// `distance`是两个相同数距离的最小值，初始化为最大，然后遍历数组，如果在`set`里面找到数，就将`Math.min(distance, i - set.get(current))`存入`distance`，并将`set`中的下标更换。

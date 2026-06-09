@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/6f75c38bd598dbf1bb449c0d9560c4aebc478dfc1a103e78d04adea38eaaacd0-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/6f75c38bd598dbf1bb449c0d9560c4aebc478dfc1a103e78d04adea38eaaacd0-image.png)
+// ```
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
@@ -39,4 +39,4 @@ public:
         return max*max;
     }
 };
-```
+// ```

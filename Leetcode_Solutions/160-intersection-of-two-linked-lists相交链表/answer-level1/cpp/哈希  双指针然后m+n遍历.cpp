@@ -1,10 +1,10 @@
-### 解题思路
-**交叉**链表：
-双指针然后m+n遍历 
+// ### 解题思路
+// **交叉**链表：
+// 双指针然后m+n遍历 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
         // return pa;
     }
 };
-```
+// ```

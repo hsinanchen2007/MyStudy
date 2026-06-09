@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseWords(self, s: str) -> str:
         s1 = s.strip()
@@ -9,4 +9,4 @@ class Solution:
             str1 = str1 +" " + i
         str1 = str1.strip()
         return(str1)
-```
+# ```

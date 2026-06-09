@@ -1,5 +1,5 @@
-给我20块钱，有十块的可以找，就不用三张五块的。这算不算贪心？
-```
+// 给我20块钱，有十块的可以找，就不用三张五块的。这算不算贪心？
+// ```
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

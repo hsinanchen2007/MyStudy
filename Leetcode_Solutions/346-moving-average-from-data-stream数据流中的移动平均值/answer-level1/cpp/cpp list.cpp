@@ -1,4 +1,4 @@
-```
+// ```
 class MovingAverage {
 public:
     /** Initialize your data structure here. */
@@ -21,4 +21,4 @@ private:
     int sum = 0;
     list<int> cache;
 };
-```
+// ```

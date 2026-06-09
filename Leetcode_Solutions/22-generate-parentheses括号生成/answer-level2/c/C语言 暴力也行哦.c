@@ -1,10 +1,10 @@
-### 解题思路
-穷举，中间使用了curSum进行快速排出不可能解
-![image.png](https://pic.leetcode-cn.com/ef1dd1ebe521cc7e59b15eadba97a6822335c31e66320bca788ffa1ceeb0ca5d-image.png)
+// ### 解题思路
+// 穷举，中间使用了curSum进行快速排出不可能解
+// ![image.png](https://pic.leetcode-cn.com/ef1dd1ebe521cc7e59b15eadba97a6822335c31e66320bca788ffa1ceeb0ca5d-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MY_OK 0
 #define MY_FAIL (-1)
@@ -145,4 +145,4 @@ char ** generateParenthesis(int n, int* returnSize){
 	*returnSize = r.rltCnt;
 	return r.rlt;
 }
-```
+// ```

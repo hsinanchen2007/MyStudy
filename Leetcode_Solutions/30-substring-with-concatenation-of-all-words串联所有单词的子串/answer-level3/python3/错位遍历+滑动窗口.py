@@ -1,4 +1,4 @@
-```
+# ```
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         if len(words) == 0 or len(words[0]) == 0: return []
         len_word, count = len(words[0]), len(words)
@@ -52,4 +52,4 @@
                     j += 1
                     k = len(words) - 1
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
  class MaxPathSum {
     int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
@@ -28,4 +28,4 @@
         return root.val + Math.max(leftMax, rightMax);
     }
 }
-```
+// ```

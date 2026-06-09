@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :
-160 ms, 在所有 python3 提交中击败了98.41%的用户
-内存消耗 :
-19.2 MB, 在所有 python3 提交中击败了6.56%的用户
+# ### 解题思路
+# 执行用时 :
+# 160 ms, 在所有 python3 提交中击败了98.41%的用户
+# 内存消耗 :
+# 19.2 MB, 在所有 python3 提交中击败了6.56%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # https://leetcode-cn.com/problems/h-index-ii/
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
@@ -30,4 +30,4 @@ class Solution:
             else:
                 left = current
 
-```
+# ```

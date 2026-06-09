@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def fixedPoint(self, A: List[int]) -> int:
         """
@@ -22,4 +22,4 @@ class Solution:
 
 
         return -1 if min_index == size else min_index
-```
+# ```

@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/28
- *
- * 解题思路: 贪心法比较
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/28
+//  *
+//  * 解题思路: 贪心法比较
+//  *
+//  */
+// ```
 public int findLengthOfLCIS(int[] nums) {
     if(nums.length == 1 || nums.length == 0){
         return nums.length;
@@ -29,4 +29,4 @@ public int findLengthOfLCIS(int[] nums) {
     }
     return max_LCIS;
 }
-```
+// ```

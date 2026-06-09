@@ -1,9 +1,9 @@
-### 解题思路
-O(n),因为是升序的数组，所以可以利用头尾相加与target比较来确定index值
+// ### 解题思路
+// O(n),因为是升序的数组，所以可以利用头尾相加与target比较来确定index值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int low = 0;
@@ -21,4 +21,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

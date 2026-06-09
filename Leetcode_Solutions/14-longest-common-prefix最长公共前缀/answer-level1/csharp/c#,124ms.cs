@@ -1,9 +1,9 @@
-### 解题思路
-偷懒使用try...catch解决最短字符串的情况。嘛，其实有个优化的点，就是foreach的部分，strs[0]其实和自己比了一次（完全木有意义……只是因为foreach看起来易懂……嘛
+// ### 解题思路
+// 偷懒使用try...catch解决最短字符串的情况。嘛，其实有个优化的点，就是foreach的部分，strs[0]其实和自己比了一次（完全木有意义……只是因为foreach看起来易懂……嘛
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
             int longnum = -1;
@@ -26,4 +26,4 @@ public class Solution {
             catch { return longnum == -1 ? "" : strs[0].Substring(0, longnum + 1); }
     }
 }
-```
+// ```

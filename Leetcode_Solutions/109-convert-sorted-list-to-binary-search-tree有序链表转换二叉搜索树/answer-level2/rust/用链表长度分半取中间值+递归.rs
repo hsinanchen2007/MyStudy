@@ -1,6 +1,6 @@
-先计算链表长度，然后除以2，取中间值作为root节点，两边递归运算作为left、right子树
-众所周知，rust不用unsafe无法同时写出mut借用和ref借用，所以用长度代替快慢指针
-```rust
+// 先计算链表长度，然后除以2，取中间值作为root节点，两边递归运算作为left、right子树
+// 众所周知，rust不用unsafe无法同时写出mut借用和ref借用，所以用长度代替快慢指针
+// ```rust
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -36,4 +36,4 @@ impl Solution {
         root
     }
 }
-```
+// ```

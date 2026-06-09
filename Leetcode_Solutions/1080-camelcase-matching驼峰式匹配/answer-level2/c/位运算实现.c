@@ -1,14 +1,14 @@
-### 解题思路
-1.使用位运算先筛选出大写字母不匹配的情况。此处需要注意AAB与AB匹配的情况，通过异或可解决
-2.逐步匹配pattern
+// ### 解题思路
+// 1.使用位运算先筛选出大写字母不匹配的情况。此处需要注意AAB与AB匹配的情况，通过异或可解决
+// 2.逐步匹配pattern
 
-![image.png](https://pic.leetcode-cn.com/61b08d96a7c403da5f96dc96c3ac33d763ca71a58e6019a1fd925a24f780ebaf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/61b08d96a7c403da5f96dc96c3ac33d763ca71a58e6019a1fd925a24f780ebaf-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 /* 初步不考虑重复的情况 */
 unsigned int get_str_upper(char *str, int len)
@@ -89,4 +89,4 @@ bool *camelMatch(char **queries, int queriesSize, char *pattern, int *returnSize
     return result;
 }
 
-```
+// ```

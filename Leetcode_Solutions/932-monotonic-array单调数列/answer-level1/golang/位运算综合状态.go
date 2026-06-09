@@ -1,11 +1,11 @@
-### 解题思路
-> 2
-= 2|4
-< 4
+// ### 解题思路
+// > 2
+// = 2|4
+// < 4
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isMonotonic(A []int) bool {
     al := len(A)
     if al ==1 {
@@ -44,4 +44,4 @@ func isMonotonic(A []int) bool {
     return flag >0
 
 }
-```
+// ```

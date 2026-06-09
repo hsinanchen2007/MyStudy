@@ -1,13 +1,13 @@
-### 解题思路
-简单合并两个有序链表
-1、比较l1、l2初结点的val值，小于等于的为基链，设为p（使用另一个指针res保存），q=p->next
-2、若r大于等于p，且r小于等于q，也把r加入p后面，r往后移，
-3、若r大于q，则，p、q往后移，
-4、之后再将r后面剩下的结点接入p后方
+// ### 解题思路
+// 简单合并两个有序链表
+// 1、比较l1、l2初结点的val值，小于等于的为基链，设为p（使用另一个指针res保存），q=p->next
+// 2、若r大于等于p，且r小于等于q，也把r加入p后面，r往后移，
+// 3、若r大于q，则，p、q往后移，
+// 4、之后再将r后面剩下的结点接入p后方
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     
     return res;
 }
-```
+// ```

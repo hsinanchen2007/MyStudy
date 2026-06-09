@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-这道题使用js 直接调用原生即可 注意 top() 不影响栈 只读值
+// 这道题使用js 直接调用原生即可 注意 top() 不影响栈 只读值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -53,4 +53,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

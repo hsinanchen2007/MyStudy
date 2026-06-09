@@ -1,9 +1,9 @@
-一开始没理解题目
-- "krrgw" , "zjxss" , 19
-怎么看都是3 结果悲剧了 !
+// 一开始没理解题目
+// - "krrgw" , "zjxss" , 19
+// 怎么看都是3 结果悲剧了 !
 
-就是一道简单滑动窗口
-```
+// 就是一道简单滑动窗口
+// ```
 class Solution {
     public int equalSubstring(String s, String t, int maxCost) {
         int length = s.length();
@@ -46,5 +46,5 @@ class Solution {
         return l == -Integer.MAX_VALUE ? 0 : l + 1;
     }
 }
-```
+// ```
 

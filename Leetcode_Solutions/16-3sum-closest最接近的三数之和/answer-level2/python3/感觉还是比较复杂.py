@@ -1,12 +1,12 @@
-### 解题思路
-三种情况：
-1、序列中三数和最大的如果小于target，则整个序列任意三个数的和都小于target，那么和最大的距离target最近
-2、序列中三数和最小的如果大于target，则整个序列任意三个数的和都大于target，那么和最小的距离target最近
-3、将序列中所有三数之和求出，放在list中，然后排序，如果位置i的数-target <0并且位置i+1的数-target>0,那么判断他们俩谁距离target近即可
+# ### 解题思路
+# 三种情况：
+# 1、序列中三数和最大的如果小于target，则整个序列任意三个数的和都小于target，那么和最大的距离target最近
+# 2、序列中三数和最小的如果大于target，则整个序列任意三个数的和都大于target，那么和最小的距离target最近
+# 3、将序列中所有三数之和求出，放在list中，然后排序，如果位置i的数-target <0并且位置i+1的数-target>0,那么判断他们俩谁距离target近即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums.sort()
@@ -33,4 +33,4 @@ class Solution:
                     return co_list[i]
                 else:
                     return co_list[i+1]
-```
+# ```

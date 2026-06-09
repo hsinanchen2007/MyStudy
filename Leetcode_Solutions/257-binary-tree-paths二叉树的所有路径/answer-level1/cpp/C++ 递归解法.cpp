@@ -1,8 +1,8 @@
-思路比较简单：主要的想法就是得到所有子树的路径，然后和根组合在一起。
-1. 如果是根节点，就`root->val`加入`vector<string>`并返回.
-2. 如果不是根结点，那就对左右子树递归，得到以他们为根的路径。 
+// 思路比较简单：主要的想法就是得到所有子树的路径，然后和根组合在一起。
+// 1. 如果是根节点，就`root->val`加入`vector<string>`并返回.
+// 2. 如果不是根结点，那就对左右子树递归，得到以他们为根的路径。 
 
-```
+// ```
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) { //递归
@@ -29,4 +29,4 @@ public:
         return re;
     }
 };
-```
+// ```

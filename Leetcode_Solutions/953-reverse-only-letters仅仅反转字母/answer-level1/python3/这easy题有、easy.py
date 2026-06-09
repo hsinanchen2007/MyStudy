@@ -1,17 +1,17 @@
-### 解题思路
-执行用时 :
-36 ms
-, 在所有 Python3 提交中击败了
-69.42%
-的用户
-内存消耗 :
-13.2 MB
-, 在所有 Python3 提交中击败了
-25.20%
-的用户
-### 代码
+# ### 解题思路
+# 执行用时 :
+# 36 ms
+# , 在所有 Python3 提交中击败了
+# 69.42%
+# 的用户
+# 内存消耗 :
+# 13.2 MB
+# , 在所有 Python3 提交中击败了
+# 25.20%
+# 的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseOnlyLetters(self, S: str) -> str:
         other_char={}
@@ -29,4 +29,4 @@ class Solution:
             res+=s
         return res
 
-```
+# ```

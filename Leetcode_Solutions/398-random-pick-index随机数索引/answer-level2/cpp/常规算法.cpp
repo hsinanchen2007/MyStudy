@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nums;
@@ -24,4 +24,4 @@ public:
  * Solution* obj = new Solution(nums);
  * int param_1 = obj->pick(target);
  */
-```
+// ```

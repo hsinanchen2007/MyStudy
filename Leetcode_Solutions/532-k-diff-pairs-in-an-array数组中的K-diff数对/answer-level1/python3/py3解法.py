@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
         if k<0:
@@ -18,4 +18,4 @@ class Solution:
             if (j+k) in d:
                 r += 1
         return r
-```
+# ```

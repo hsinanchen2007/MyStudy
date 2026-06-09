@@ -1,4 +1,4 @@
-```
+// ```
 func areSentencesSimilar(words1 []string, words2 []string, pairs [][]string) bool {
     if len(words1)!=len(words2) {
         return false
@@ -28,4 +28,4 @@ func areSentencesSimilar(words1 []string, words2 []string, pairs [][]string) boo
     }
     return true
 }
-```
+// ```

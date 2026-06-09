@@ -1,14 +1,14 @@
-花了半天, 用类似滑动窗口的思想地解决了该题。思路如下:
+// 花了半天, 用类似滑动窗口的思想地解决了该题。思路如下:
 
-1. 首先将 p 字符串中各字母出现的频率统计在 `targetObj`;
-2. 针对 s 字符创声明双指针 left、right
-   1. 如若当前 right 的位置在 targetObj `有对应字段且其不大于` targetObj 对应字段的值, 则向右偏移 right 指针的位置;
-   2. 如若当前 right 指针的位置在 targetObj `无对应字段`, 则将 left 的位置移到 right 字段的位置;
-   3. 如若当前 right 指针的位置在 targetObj `有对应字段且大于` targetObj 对应字段的值, 则向右偏移 left 指针的位置;
+// 1. 首先将 p 字符串中各字母出现的频率统计在 `targetObj`;
+// 2. 针对 s 字符创声明双指针 left、right
+//    1. 如若当前 right 的位置在 targetObj `有对应字段且其不大于` targetObj 对应字段的值, 则向右偏移 right 指针的位置;
+//    2. 如若当前 right 指针的位置在 targetObj `无对应字段`, 则将 left 的位置移到 right 字段的位置;
+//    3. 如若当前 right 指针的位置在 targetObj `有对应字段且大于` targetObj 对应字段的值, 则向右偏移 left 指针的位置;
 
-> 需要考虑的点, `字符串是否会重复`。比如 s 为 'baa', p 为 'aa'。
+// > 需要考虑的点, `字符串是否会重复`。比如 s 为 'baa', p 为 'aa'。
 
-```js
+// ```js
 /**
  * @param {string} s
  * @param {string} p
@@ -46,10 +46,10 @@ var findAnagrams = function(s, p) {
 
   return result
 };
-```
+// ```
 
-### 相似题目
+// ### 相似题目
 
-76
+// 76
 
-> [JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > [JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

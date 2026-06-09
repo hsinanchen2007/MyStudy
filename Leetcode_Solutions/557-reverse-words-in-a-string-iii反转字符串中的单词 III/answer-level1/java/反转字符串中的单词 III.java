@@ -1,12 +1,12 @@
-### 解题思路
-    将单词倒序输出，很容易想到栈这种数据结构，在Java语言中，有栈的包，可以调用。
-当我们新建一个字符串时，可以用StringBuilder 类中的函数。向StringBuilder对象中添加元素使用
-append函数即可。最后将StringBuilder类对象转化为String时需要使用.toString()函数。
-    当然，用栈这种数据结构解题的时间复杂度和空间复杂度都比较高。
+// ### 解题思路
+//     将单词倒序输出，很容易想到栈这种数据结构，在Java语言中，有栈的包，可以调用。
+// 当我们新建一个字符串时，可以用StringBuilder 类中的函数。向StringBuilder对象中添加元素使用
+// append函数即可。最后将StringBuilder类对象转化为String时需要使用.toString()函数。
+//     当然，用栈这种数据结构解题的时间复杂度和空间复杂度都比较高。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         Stack <Character> stack=new Stack<Character>();
@@ -29,4 +29,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-jump如果大于目前最大的范围，或者到达最远的是最后的一个元素
+# ### 解题思路
+# jump如果大于目前最大的范围，或者到达最远的是最后的一个元素
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canJump(self, nums):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             return True
         return False
 
-```
+# ```

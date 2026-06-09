@@ -1,9 +1,9 @@
-### 解题思路
-回溯，start，甚至只要判断temp的数组的大小是否达到了K即可
+// ### 解题思路
+// 回溯，start，甚至只要判断temp的数组的大小是否达到了K即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> res=new ArrayList<>();
     public List<List<Integer>> combine(int n, int k) {
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

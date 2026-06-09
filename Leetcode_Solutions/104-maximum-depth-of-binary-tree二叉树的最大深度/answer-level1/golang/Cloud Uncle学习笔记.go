@@ -1,5 +1,5 @@
-左子树的高度和右子树高度的较大值
-```
+// 左子树的高度和右子树高度的较大值
+// ```
 func maxDepth(root *TreeNode) int {
     //terminator
     if root == nil {
@@ -19,4 +19,4 @@ func maxDepth(root *TreeNode) int {
 
     return right + 1    
 }
-```
+// ```

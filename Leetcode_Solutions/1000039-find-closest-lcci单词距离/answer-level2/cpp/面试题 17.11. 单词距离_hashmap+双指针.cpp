@@ -1,5 +1,5 @@
-首先利用hashmap快速找到两个word的所有位置，然后问题转变为“求两个数组中元素之差的最小值”，此时利用双指针求解。
-```
+// 首先利用hashmap快速找到两个word的所有位置，然后问题转变为“求两个数组中元素之差的最小值”，此时利用双指针求解。
+// ```
 class Solution {
 public:
     int findClosest(vector<string>& words, string word1, string word2) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

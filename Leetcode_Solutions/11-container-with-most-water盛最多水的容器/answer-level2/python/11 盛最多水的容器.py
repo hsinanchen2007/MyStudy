@@ -1,10 +1,10 @@
-### 解题思路
-所有消去的状态的面积都 < S(i, j)。通俗的讲，我们每次向内移动短板，所有的消去状态都不会导致丢失面积最大值 。
+# ### 解题思路
+# 所有消去的状态的面积都 < S(i, j)。通俗的讲，我们每次向内移动短板，所有的消去状态都不会导致丢失面积最大值 。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxArea(self, height):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 j -= 1
 
         return maxval
-```
+# ```

@@ -1,6 +1,6 @@
-# 自顶向下
+// # 自顶向下
 
-```golang
+// ```golang
 func isBalanced(node *TreeNode) bool {
 	return node == nil || isBalanced(node.Left) &&
 		math.Abs(height(node.Left)-height(node.Right)) < 2 && //两边最大深度差  大于2
@@ -16,17 +16,17 @@ func height(node *TreeNode) float64 {
 }
 
 // 计算深度->对比深度
-```
+// ```
 
 
 
 
-# 自底向上
+// # 自底向上
 
-**模板**：`后序遍历` 左右根
+// **模板**：`后序遍历` 左右根
 
 
-```golang
+// ```golang
 func isBalanced(node *TreeNode) bool {
 	return find(node) != -1
 }
@@ -52,6 +52,6 @@ func find(node *TreeNode) float64 {
 
 	return math.Max(l, r) + 1 //计算深度 !根节点
 }
-```
+// ```
 
-[Go版本的一题多解 Github](https://github.com/temporaries/leetcode)
+// [Go版本的一题多解 Github](https://github.com/temporaries/leetcode)

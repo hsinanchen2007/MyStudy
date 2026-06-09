@@ -1,4 +1,4 @@
-```
+// ```
 public static String convertToTitle(int n) {
         StringBuffer sb = new StringBuffer();
         while(n>26){
@@ -14,5 +14,5 @@ public static String convertToTitle(int n) {
         sb.append((char)(n+64));
         return sb.reverse().toString();
     }
-```
-好刺激 100% 80%
+// ```
+// 好刺激 100% 80%

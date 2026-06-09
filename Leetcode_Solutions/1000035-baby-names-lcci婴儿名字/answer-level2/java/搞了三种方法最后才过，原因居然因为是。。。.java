@@ -1,11 +1,11 @@
-一开始超时，然后内存超限。参考了大家的思路改进了下。。总结为，自己对List的使用还是不熟练。
-一开始用的List<List<String>>来进行手动合并，每次判断都要全部扫描一遍，合并的时候还重新生成一个大的List赋值进去；（超时）
-然后用两个map相互指，想要节约扫描的时间，然而超出了内存的限制；（超内存）
-没想到去用List的地址，多个名字可以指向同一个List的地址，就不用自己去合并两个list了，空间和时间就节约下来了。
-写完这个题对List的使用有点收获
-![image.png](https://pic.leetcode-cn.com/6bd21228a76c2ddeeccf4fca664a457a397c4b9488ed06db96e791b27561d128-image.png)
+// 一开始超时，然后内存超限。参考了大家的思路改进了下。。总结为，自己对List的使用还是不熟练。
+// 一开始用的List<List<String>>来进行手动合并，每次判断都要全部扫描一遍，合并的时候还重新生成一个大的List赋值进去；（超时）
+// 然后用两个map相互指，想要节约扫描的时间，然而超出了内存的限制；（超内存）
+// 没想到去用List的地址，多个名字可以指向同一个List的地址，就不用自己去合并两个list了，空间和时间就节约下来了。
+// 写完这个题对List的使用有点收获
+// ![image.png](https://pic.leetcode-cn.com/6bd21228a76c2ddeeccf4fca664a457a397c4b9488ed06db96e791b27561d128-image.png)
 
-```
+// ```
 class Solution {
    public static String[] trulyMostPopular(String[] names, String[] synonyms) {
         HashMap<String,Integer> map = new HashMap<>();
@@ -68,4 +68,4 @@ class Solution {
 
   }
 }
-```
+// ```

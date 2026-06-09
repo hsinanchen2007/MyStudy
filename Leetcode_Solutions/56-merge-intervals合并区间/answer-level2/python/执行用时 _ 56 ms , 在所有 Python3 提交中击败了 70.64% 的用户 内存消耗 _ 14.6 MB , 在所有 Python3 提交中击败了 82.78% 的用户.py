@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals=sorted(intervals,key=lambda x:x[0])
@@ -26,4 +26,4 @@ class Solution:
         return intervals
 
 
-```
+# ```

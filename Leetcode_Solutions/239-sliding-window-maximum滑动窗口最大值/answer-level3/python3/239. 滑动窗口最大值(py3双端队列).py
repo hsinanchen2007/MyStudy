@@ -1,5 +1,5 @@
-循环四步
-```python []
+# 循环四步
+# ```python []
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         queue, output = collections.deque([]), []

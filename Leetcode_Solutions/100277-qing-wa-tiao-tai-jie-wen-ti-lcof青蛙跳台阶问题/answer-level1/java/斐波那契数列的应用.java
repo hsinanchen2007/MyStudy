@@ -1,12 +1,12 @@
-### 执行结果
-执行用时0ms,在java中击败了100.0%的用户
-内存消耗36.8MB，在java中击败了100%的用户
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/01798c1015bd6f485881f4c71912c40618683ee214ed9fcf87405c170f2a6be3-image.png)
+// ### 执行结果
+// 执行用时0ms,在java中击败了100.0%的用户
+// 内存消耗36.8MB，在java中击败了100%的用户
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/01798c1015bd6f485881f4c71912c40618683ee214ed9fcf87405c170f2a6be3-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n) {
         n=n%1000000007;
@@ -25,4 +25,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

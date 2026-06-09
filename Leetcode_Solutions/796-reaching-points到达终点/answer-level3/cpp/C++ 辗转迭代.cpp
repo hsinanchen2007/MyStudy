@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool reachingPoints(int sx, int sy, int tx, int ty) {
@@ -16,5 +16,5 @@ public:
         return reachingPoints(sx, sy, nx, ny);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/36ea46c90dd3c45af6b6c97f33c00a89ede75d80f17d86015514ec316b7e0d56-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/36ea46c90dd3c45af6b6c97f33c00a89ede75d80f17d86015514ec316b7e0d56-image.png)

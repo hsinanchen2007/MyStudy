@@ -1,6 +1,6 @@
 
-![WechatIMG38.jpeg](https://pic.leetcode-cn.com/dca64d9a42dd536d08086eb51f07013e58a4eb53691f70316b2f9ba984c94c01-WechatIMG38.jpeg)
-```
+// ![WechatIMG38.jpeg](https://pic.leetcode-cn.com/dca64d9a42dd536d08086eb51f07013e58a4eb53691f70316b2f9ba984c94c01-WechatIMG38.jpeg)
+// ```
 代码块
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
@@ -18,4 +18,4 @@ class Solution {
     }
 }
 
-```
+// ```

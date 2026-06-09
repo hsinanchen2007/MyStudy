@@ -1,6 +1,6 @@
-因为上下界要超过 [INT_MIN, INT_MAX] 的范围，所以必须使用 `long` 数据类型。但是我们可以猜测数据中一定没有 $10^9+7$ 这种大素数，所以用它来代替初始上下界就行了。
+// 因为上下界要超过 [INT_MIN, INT_MAX] 的范围，所以必须使用 `long` 数据类型。但是我们可以猜测数据中一定没有 $10^9+7$ 这种大素数，所以用它来代替初始上下界就行了。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const int SYMBOL = 1e9+7; 
@@ -17,4 +17,4 @@ public:
         return isValid(root, SYMBOL, SYMBOL);
     }
 };
-```
+// ```

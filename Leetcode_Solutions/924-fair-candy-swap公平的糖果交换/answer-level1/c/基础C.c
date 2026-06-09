@@ -1,9 +1,9 @@
-### 解题思路
-先将爱丽丝与鲍勃的糖果总量求出，再对比爱丽丝的每个糖与鲍勃的每个糖交换后的结果，若存在一对糖交换后两人糖果总数相同，则立即输出二人交换的糖果棒的大小。
+// ### 解题思路
+// 先将爱丽丝与鲍勃的糖果总量求出，再对比爱丽丝的每个糖与鲍勃的每个糖交换后的结果，若存在一对糖交换后两人糖果总数相同，则立即输出二人交换的糖果棒的大小。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -25,4 +25,4 @@ int* fairCandySwap(int* A, int ASize, int* B, int BSize, int* returnSize){
           }
     return 0;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**1.用快慢指针遍历的同时翻转前半部分，然后与后半部分比较即可。**
-```cpp
+// **1.用快慢指针遍历的同时翻转前半部分，然后与后半部分比较即可。**
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -27,9 +27,9 @@ public:
         return 1;
     }
 };
-```
-**2.将所有节点值入栈，然后一一出栈并比较。**
-```
+// ```
+// **2.将所有节点值入栈，然后一一出栈并比较。**
+// ```
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -50,4 +50,4 @@ public:
         return 1;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-先计算出最大位移次数 也就是 shifts[0]到shifts[n]的和 sum
-S[i] 需要位移的次数则是 sum - (shifts[0]到shifts[i-1]的和)
-因为数值过大会溢出，所以在计算的时候每次都进行取余计算。
+// 先计算出最大位移次数 也就是 shifts[0]到shifts[n]的和 sum
+// S[i] 需要位移的次数则是 sum - (shifts[0]到shifts[i-1]的和)
+// 因为数值过大会溢出，所以在计算的时候每次都进行取余计算。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String shiftingLetters(String S, int[] shifts) {
         char[] letters = new char[26];
@@ -33,4 +33,4 @@ class Solution {
         return String.valueOf(newLetters);
     }
 }
-```
+// ```

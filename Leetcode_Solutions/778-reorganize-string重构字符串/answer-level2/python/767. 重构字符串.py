@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reorganizeString(self, S):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             if count < -1:
                 heapq.heappush(heap, (count + 1, alpha))
         return res[1:]
-```
+# ```

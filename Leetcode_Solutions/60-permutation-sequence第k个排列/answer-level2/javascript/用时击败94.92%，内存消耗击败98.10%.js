@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/0854c1151aa9c5ef613e44458dd1948d4f46672b020c2a1fe2c382ad5a870512-1.png)
-### 代码
+// ![1.png](https://pic.leetcode-cn.com/0854c1151aa9c5ef613e44458dd1948d4f46672b020c2a1fe2c382ad5a870512-1.png)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} k
@@ -38,4 +38,4 @@ var getPermutation = function(n, k) {
     foo(n, k);
     return res;
 };
-```
+// ```

@@ -1,20 +1,20 @@
-### 解题思路
-方程：dp[i][j] = dp[i-1][j] + dp[i][j-1] - dp[i-1][j-1] + matrix[i][j]
+# ### 解题思路
+# 方程：dp[i][j] = dp[i-1][j] + dp[i][j-1] - dp[i-1][j-1] + matrix[i][j]
 
-dp[i][j]表示以[i][j]位置作为矩形的右下角，[0][0]位置作为矩形的左上角，
+# dp[i][j]表示以[i][j]位置作为矩形的右下角，[0][0]位置作为矩形的左上角，
 
-这两个位置所确定的唯一矩形内元素之和
+# 这两个位置所确定的唯一矩形内元素之和
 
-调用sumRegion函数计算时，使用dp提供的缓存表辅助计算
+# 调用sumRegion函数计算时，使用dp提供的缓存表辅助计算
 
-本质上就是大|小矩形之间的加加减减，但是需要注意边界情况
+# 本质上就是大|小矩形之间的加加减减，但是需要注意边界情况
 
-![捕获.PNG](https://pic.leetcode-cn.com/9b48bbadfdf9a534ee11e442decb443cf6726f1fbdb4cff01cc41cd1b20a6201-%E6%8D%95%E8%8E%B7.PNG)
+# ![捕获.PNG](https://pic.leetcode-cn.com/9b48bbadfdf9a534ee11e442decb443cf6726f1fbdb4cff01cc41cd1b20a6201-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class NumMatrix:
     # 动态规划
     # dp[i][j]表示以[i][j]位置作为矩形的右下角，二维矩阵左上角作为矩形的左上角形成的矩形范围内元素和
@@ -59,4 +59,4 @@ class NumMatrix:
 # Your NumMatrix object will be instantiated and called as such:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
-```
+# ```

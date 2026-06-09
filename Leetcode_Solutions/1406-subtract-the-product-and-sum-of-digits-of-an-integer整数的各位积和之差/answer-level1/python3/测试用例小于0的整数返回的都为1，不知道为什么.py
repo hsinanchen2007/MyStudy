@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         if n <= 0:
@@ -14,4 +14,4 @@ class Solution:
             a *= x
             b += x
         return a-b
-```
+# ```

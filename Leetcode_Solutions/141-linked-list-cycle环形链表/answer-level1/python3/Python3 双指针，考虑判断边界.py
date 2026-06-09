@@ -1,11 +1,11 @@
-类似于“链表中环的入口结点”一题
+# 类似于“链表中环的入口结点”一题
 
-双指针，一快一慢，一个指针p每次走一步，一个指针q每次走两步
-如果链表中有环，那么它们必定会相遇
-如果中途其中一个指针为None，说明链表没有环
+# 双指针，一快一慢，一个指针p每次走一步，一个指针q每次走两步
+# 如果链表中有环，那么它们必定会相遇
+# 如果中途其中一个指针为None，说明链表没有环
 
 
-```
+# ```
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         if not head or not head.next:
@@ -25,4 +25,4 @@ class Solution:
                 return False
         
         return True
-```
+# ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/aea71e8b6edcf5bd70eb7a3719c6fe2dc8198a5c35e947f2321be9db87d23040-image.png)
-动态规划方程：dp[n] = MAX( dp[n-1], dp[n-2] + num )
-```
+// ![image.png](https://pic.leetcode-cn.com/aea71e8b6edcf5bd70eb7a3719c6fe2dc8198a5c35e947f2321be9db87d23040-image.png)
+// 动态规划方程：dp[n] = MAX( dp[n-1], dp[n-2] + num )
+// ```
 #define MAX(A, B) (A) > (B) ? (A) : (B)
 int rob(int* nums, int numsSize){
     if (numsSize == 0) return 0;
@@ -17,4 +17,4 @@ int rob(int* nums, int numsSize){
     return dp[numsSize];
 }
 
-```
+// ```

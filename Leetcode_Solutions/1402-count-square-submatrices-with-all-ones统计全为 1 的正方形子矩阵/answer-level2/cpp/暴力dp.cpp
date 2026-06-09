@@ -1,7 +1,7 @@
-我真的服了，O(n^3)算法，一模一样，python就TLE，c++就能过，下次出题能不能给python时间长点？
-好点的OJ上都会给python放宽时限
+// 我真的服了，O(n^3)算法，一模一样，python就TLE，c++就能过，下次出题能不能给python时间长点？
+// 好点的OJ上都会给python放宽时限
 
-```c++
+// ```c++
 //272 ms
 class Solution {
 public:
@@ -30,9 +30,9 @@ public:
         return Ans;
     }
 };
-```
+// ```
 
-```python
+// ```python
     # 一模一样，TLE了
 class Solution(object):
     def countSquares(self, matrix):
@@ -62,4 +62,4 @@ class Solution(object):
                     if last > i:
                         Ans += 1
         return Ans
-```
+// ```

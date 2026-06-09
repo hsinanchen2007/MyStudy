@@ -1,7 +1,7 @@
-###思路：
-尝试了递归，可行，但是会超时，说明计算量太大
-###代码：
-```javaScript
+// ###思路：
+// 尝试了递归，可行，但是会超时，说明计算量太大
+// ###代码：
+// ```javaScript
 var coinChange = function(coins, amount) {
     if(amount===0){
         return 0;
@@ -21,4 +21,4 @@ var coinChange = function(coins, amount) {
         }
     }
 };
-```
+// ```

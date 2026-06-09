@@ -1,9 +1,9 @@
-### 解题思路
-在四周补0，方便判断，但效率不高
+// ### 解题思路
+// 在四周补0，方便判断，但效率不高
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -40,4 +40,4 @@ public:
         return length;
     }
 };
-```
+// ```

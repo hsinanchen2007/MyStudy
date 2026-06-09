@@ -1,9 +1,9 @@
-### 解题思路
-python3用数组标记每一种数字的末尾index
+# ### 解题思路
+# python3用数组标记每一种数字的末尾index
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -36,4 +36,4 @@ class Solution:
         return nums
 
 
-```
+# ```

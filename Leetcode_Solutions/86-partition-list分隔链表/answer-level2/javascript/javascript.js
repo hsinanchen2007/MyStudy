@@ -1,4 +1,4 @@
-```
+// ```
 var partition = function(head, x) {
     const small = new ListNode();
     let smallNode = small;
@@ -19,4 +19,4 @@ var partition = function(head, x) {
     smallNode.next = head;
     return small.next;
 };
-```
+// ```

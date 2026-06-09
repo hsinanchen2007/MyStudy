@@ -1,6 +1,6 @@
-用字典统计数字的出现次数，然后再按需减数或删除输出，这里利用了字典的默认遍历序等于定义序的性质，所以只排一次序O(nlogn)就行，剩下的遍历是O(n)时间。
+# 用字典统计数字的出现次数，然后再按需减数或删除输出，这里利用了字典的默认遍历序等于定义序的性质，所以只排一次序O(nlogn)就行，剩下的遍历是O(n)时间。
 
-```
+# ```
 class Solution:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
         hand.sort()
@@ -17,4 +17,4 @@ class Solution:
                         d.pop(i + j)
                 break
         return True
-```
+# ```

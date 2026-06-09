@@ -1,19 +1,19 @@
-![Snipaste_2020-04-10_11-06-25.png](https://pic.leetcode-cn.com/b0a47f4965fde95e0192a2cb5d1e85acd68abe0b75b8edc78b80f17568b05c87-Snipaste_2020-04-10_11-06-25.png)
+// ![Snipaste_2020-04-10_11-06-25.png](https://pic.leetcode-cn.com/b0a47f4965fde95e0192a2cb5d1e85acd68abe0b75b8edc78b80f17568b05c87-Snipaste_2020-04-10_11-06-25.png)
 
 
-### 解题思路
-1. `i` **从后往前**遍历 `s` ，每次遇到**第一个非空格字符**（word的最后一位），`i` 赋予 `rear` ，每次遇到**第一个word后的空格字符**， `i + 1` 赋予 `front` ；
+// ### 解题思路
+// 1. `i` **从后往前**遍历 `s` ，每次遇到**第一个非空格字符**（word的最后一位），`i` 赋予 `rear` ，每次遇到**第一个word后的空格字符**， `i + 1` 赋予 `front` ；
 
-2. `front` 可以不重置，但 **`rear` 必须置零**，以便判断是否为第一个空格；
+// 2. `front` 可以不重置，但 **`rear` 必须置零**，以便判断是否为第一个空格；
 
-3. 插入空格：**先插入空格再复制word**。因此一开始需要判断， new_s 是否有word了，如果没有，不能插入空格。
+// 3. 插入空格：**先插入空格再复制word**。因此一开始需要判断， new_s 是否有word了，如果没有，不能插入空格。
 
-4. 特殊情况：`s` 前面没有空格，如“an example   ”，因为我的步骤是遇到空格才回头复制word，如果没有对这种情况的考虑，会导致 `s` 的第一个word会漏掉。解决办法就是**遇到 `i == 0` 且 `s[0]` 非空格时，同样回头遍历复制这个word**。当然 `i` 回增时不能超过 `size` ，因为有特例如“aaaa”，完全没有空格的 `s` 存在。
+// 4. 特殊情况：`s` 前面没有空格，如“an example   ”，因为我的步骤是遇到空格才回头复制word，如果没有对这种情况的考虑，会导致 `s` 的第一个word会漏掉。解决办法就是**遇到 `i == 0` 且 `s[0]` 非空格时，同样回头遍历复制这个word**。当然 `i` 回增时不能超过 `size` ，因为有特例如“aaaa”，完全没有空格的 `s` 存在。
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     int size = strlen(s);
     char* new_s = (char*)malloc(sizeof(int) * (size + 1));
@@ -46,4 +46,4 @@ char * reverseWords(char * s){
     }
     return new_s;
 }
-```
+// ```

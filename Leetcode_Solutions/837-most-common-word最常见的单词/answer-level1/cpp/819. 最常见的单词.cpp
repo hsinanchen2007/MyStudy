@@ -1,12 +1,12 @@
-### 解题思路
-字符串的题就是麻烦
-用map记录禁用单词和paragraph里出现过的单词
-最好先处理一下标点符号和字母大小写问题
-可以先在paragraph最后加个空格统一情况
+// ### 解题思路
+// 字符串的题就是麻烦
+// 用map记录禁用单词和paragraph里出现过的单词
+// 最好先处理一下标点符号和字母大小写问题
+// 可以先在paragraph最后加个空格统一情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string>& banned) {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

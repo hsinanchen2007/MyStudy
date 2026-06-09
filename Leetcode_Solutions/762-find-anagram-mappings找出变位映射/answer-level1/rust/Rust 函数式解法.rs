@@ -1,4 +1,4 @@
-```rust
+// ```rust
 use std::collections::{HashMap};
 impl Solution {
     pub fn anagram_mappings(a: Vec<i32>, b: Vec<i32>) -> Vec<i32> {
@@ -23,4 +23,4 @@ impl Solution {
     
     }
 }
-```
+// ```

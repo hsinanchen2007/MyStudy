@@ -1,15 +1,15 @@
-### 解题思路
-我的思路：将a、b先反转, a、b长度短的末位补0；然后分情况进行讨论即可：
+# ### 解题思路
+# 我的思路：将a、b先反转, a、b长度短的末位补0；然后分情况进行讨论即可：
 
-![image.png](https://pic.leetcode-cn.com/8494fd85ac33ba04c7c6d9c9c4573bca27c3ef8667c4e6dc65f99c88083223c6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/8494fd85ac33ba04c7c6d9c9c4573bca27c3ef8667c4e6dc65f99c88083223c6-image.png)
 
-最后需要判断一下进位若为1，则结果多一位1，最后反转结果输出。
-时间复杂度：o(N)
-空间复杂度：o(N)
+# 最后需要判断一下进位若为1，则结果多一位1，最后反转结果输出。
+# 时间复杂度：o(N)
+# 空间复杂度：o(N)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         jinwei = 0
@@ -42,4 +42,4 @@ class Solution:
         result = "".join(reversed(result))
         return result
 
-```
+# ```

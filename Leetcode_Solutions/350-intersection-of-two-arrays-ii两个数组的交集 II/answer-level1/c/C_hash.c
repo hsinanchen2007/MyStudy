@@ -1,10 +1,10 @@
-### 解题思路
-冒泡排序与hash查找
+// ### 解题思路
+// 冒泡排序与hash查找
 
-### 代码
-## 一、排序
+// ### 代码
+// ## 一、排序
 
-```python []
+// ```python []
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
@@ -20,8 +20,8 @@ class Solution:
                 i -= 1
                 j -= 1
         return res
-```
-```c []
+// ```
+// ```c []
 void buble_sort(int *arr, int len){
 	int temp,i,j,flag=1;
 	for(i=0;i<len-1&&flag;i++){
@@ -54,20 +54,20 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
 	}
 	return res;
 }
-```
+// ```
 
-# python,collections.Counter字典交集，骚的不得行
-结果击败6.03% ??
+// # python,collections.Counter字典交集，骚的不得行
+// 结果击败6.03% ??
 
-```python3 []
+// ```python3 []
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         from collections import Counter
         return list((Counter(nums1) & Counter(nums2)).elements())
-```
+// ```
 
-# hash,内存占用大
-```python []
+// # hash,内存占用大
+// ```python []
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         size1, size2 = len(nums1), len(nums2)
@@ -83,8 +83,8 @@ class Solution:
                 res.append(i)
                 c1[i] -= 1
         return res
-```
-```c []
+// ```
+// ```c []
 struct hash{
     int key;
     int value;
@@ -114,4 +114,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
     }
     return res;
 }
-```
+// ```

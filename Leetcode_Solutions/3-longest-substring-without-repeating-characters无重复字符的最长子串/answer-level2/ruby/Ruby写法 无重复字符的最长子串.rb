@@ -1,5 +1,5 @@
 
-```ruby []
+# ```ruby []
 def length_of_longest_substring(s)
     max = 0
     curr_arr = []
@@ -13,4 +13,4 @@ def length_of_longest_substring(s)
     end
     return max  
 end
-```
+# ```

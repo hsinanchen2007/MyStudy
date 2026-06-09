@@ -1,27 +1,27 @@
-## 01.02.判定是否互为字符重排
+// ## 01.02.判定是否互为字符重排
 
-### Information
+// ### Information
 
-* TIME: 2020/02/28
-* LINK: [Click Here](https://leetcode-cn.com/problems/check-permutation-lcci/)
-* TAG: 
+// * TIME: 2020/02/28
+// * LINK: [Click Here](https://leetcode-cn.com/problems/check-permutation-lcci/)
+// * TAG: 
 
-### Description
+// ### Description
 
-> 给定两个字符串 `s1` 和 `s2`，请编写一个程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。
+// > 给定两个字符串 `s1` 和 `s2`，请编写一个程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: s1 = "abc", s2 = "bca"
 输出: true 
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> Input my Idea
+// > Input my Idea
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         if(s1 == null || s2 == null) return false;
@@ -40,23 +40,23 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/34acb31a0a6e56f52254ad888dd0aebe4b058d902b80360dc039a3b46264877f-file_1582896994923)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/34acb31a0a6e56f52254ad888dd0aebe4b058d902b80360dc039a3b46264877f-file_1582896994923)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

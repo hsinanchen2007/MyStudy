@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-很简单，跟循环解法逻辑一致。递归接收两个景象节点，如果镜像节点值都为null，返回true，如果只有一个值，或者两个节点的val 不一致，返回false
+// 很简单，跟循环解法逻辑一致。递归接收两个景象节点，如果镜像节点值都为null，返回true，如果只有一个值，或者两个节点的val 不一致，返回false
 
-判断景象节点的逻辑：node1.left & node2.right | node1.right & node2.left
+// 判断景象节点的逻辑：node1.left & node2.right | node1.right & node2.left
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -29,4 +29,4 @@ var isSymmetric = function(root) {
 
     return loop(root.left, root.right)
 };
-```
+// ```

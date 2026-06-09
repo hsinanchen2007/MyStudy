@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-统计，验证。
+# 统计，验证。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def isPossibleDivide(self, nums: List[int], k: int) -> bool:
         d = collections.Counter(sorted(nums, reverse=True))
@@ -18,8 +18,8 @@ class Solution:
                 else:
                     d[i] -= n
         return True
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def isPossibleDivide(self, nums: List[int], k: int) -> bool:
         d = collections.defaultdict(int)
@@ -35,7 +35,7 @@ class Solution:
                 else:
                     d[i] -= n
         return True
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/b29a70f417343a897398463295a01327790058de0479036f4a440d5069ef8c88-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b29a70f417343a897398463295a01327790058de0479036f4a440d5069ef8c88-image.png)
 

@@ -1,8 +1,8 @@
-- peek：直接返回头指针的元素
-- next：头指针后移,返回头指针的元素
-- hasNext：头指针是否和尾指针重叠
-- grow函数中每次容量扩大两倍,同时判断扩容时是否移除
-```
+// - peek：直接返回头指针的元素
+// - next：头指针后移,返回头指针的元素
+// - hasNext：头指针是否和尾指针重叠
+// - grow函数中每次容量扩大两倍,同时判断扩容时是否移除
+// ```
 class PeekingIterator implements Iterator<Integer> {
 
     private int size = 8;
@@ -43,6 +43,6 @@ class PeekingIterator implements Iterator<Integer> {
         elements = objects;
     }
 }
-```
----------------------------------------------------------
-这道题是简单难度才对
+// ```
+// ---------------------------------------------------------
+// 这道题是简单难度才对

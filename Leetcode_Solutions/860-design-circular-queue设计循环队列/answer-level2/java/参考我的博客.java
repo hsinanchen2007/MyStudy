@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/974ab44e0955acbde533424a148d52a5cde10d57a582345c385d529ddbb3569e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/974ab44e0955acbde533424a148d52a5cde10d57a582345c385d529ddbb3569e-image.png)
 
-https://www.cnblogs.com/DarrenChan/p/9535557.html
-### 代码
+// https://www.cnblogs.com/DarrenChan/p/9535557.html
+// ### 代码
 
-```java
+// ```java
 class MyCircularQueue {
 
     int[] arr;
@@ -88,4 +88,4 @@ class MyCircularQueue {
  * boolean param_5 = obj.isEmpty();
  * boolean param_6 = obj.isFull();
  */
-```
+// ```

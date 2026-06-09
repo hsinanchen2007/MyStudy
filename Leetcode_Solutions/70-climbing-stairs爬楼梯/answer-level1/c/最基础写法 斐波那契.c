@@ -1,5 +1,5 @@
 
-```
+// ```
 int climbStairs(int n){
     int floor[1000];
     int j;
@@ -11,5 +11,5 @@ int climbStairs(int n){
    return floor[n];
 }
 
-```
+// ```
 

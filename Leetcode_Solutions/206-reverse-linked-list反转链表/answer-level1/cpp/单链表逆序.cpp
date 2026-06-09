@@ -1,9 +1,9 @@
-### 解题思路
-采用链表的前插法进行链表的构建
+// ### 解题思路
+// 采用链表的前插法进行链表的构建
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return current;
     }
 };
-```
+// ```

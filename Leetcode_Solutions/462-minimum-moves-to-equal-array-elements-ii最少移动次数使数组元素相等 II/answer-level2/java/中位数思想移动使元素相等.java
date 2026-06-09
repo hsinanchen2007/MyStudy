@@ -1,13 +1,13 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(nlogn/n^2)(因jdk版本与底层选择的排序算法不同而不同)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 这个解法基于中位数实现
-    2.2 将数组进行排序，左右指针遍历数组彼此相减逐步靠近中位数
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(nlogn/n^2)(因jdk版本与底层选择的排序算法不同而不同)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 这个解法基于中位数实现
+//     2.2 将数组进行排序，左右指针遍历数组彼此相减逐步靠近中位数
 
-<br />
-### java实现
-```
+// <br />
+// ### java实现
+// ```
 /**
  * Problem
  *     462.Minimum Moves to Equal Array Elements II
@@ -47,11 +47,11 @@ class Solution{
         return res;
     }
 }
-```
-<br />
+// ```
+// <br />
 
-### php实现
-```
+// ### php实现
+// ```
 class Solution462{
 
     /**
@@ -83,6 +83,6 @@ class Solution462{
         return $res;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

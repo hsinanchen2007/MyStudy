@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/375a255d3917bb4713e3c8132d32a10e9b17e82105cf6e6c42d3a148c4a91a7a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/375a255d3917bb4713e3c8132d32a10e9b17e82105cf6e6c42d3a148c4a91a7a-image.png)
 
-状态机的思路解，画出图之后思路比较清晰，代码简单
+// 状态机的思路解，画出图之后思路比较清晰，代码简单
 
-```
+// ```
 class Solution {
 public:
     vector<string> removeComments(vector<string>& source) {
@@ -52,6 +52,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

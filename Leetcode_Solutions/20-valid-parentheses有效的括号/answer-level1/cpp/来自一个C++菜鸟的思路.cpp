@@ -1,12 +1,12 @@
-### 解题思路
-    解题方法就是辅助栈
-    若第一个为左括号则入栈,若第一个不是左括号直接返回false
-    接下来就是出栈入栈操作啦!
-![QQ图片20200409011817.png](https://pic.leetcode-cn.com/f9bef559fbb026bcb3949ad3d1b09f9e2fecaa52b876c2b2032814bd784f2a99-QQ%E5%9B%BE%E7%89%8720200409011817.png)
+// ### 解题思路
+//     解题方法就是辅助栈
+//     若第一个为左括号则入栈,若第一个不是左括号直接返回false
+//     接下来就是出栈入栈操作啦!
+// ![QQ图片20200409011817.png](https://pic.leetcode-cn.com/f9bef559fbb026bcb3949ad3d1b09f9e2fecaa52b876c2b2032814bd784f2a99-QQ%E5%9B%BE%E7%89%8720200409011817.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -38,4 +38,4 @@ public:
         else return false;
     }
 };
-```
+// ```

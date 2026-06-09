@@ -1,12 +1,12 @@
-### 解题思路
-没有想到其他办法，就使用了最直接的办法，遍历每个斜行把元素拿过来，然后sort一下，再把元素赋值回去
-getValues就是取当前斜行的所有元素，sort排序，然后setValues把拍好序的元素赋值。
+// ### 解题思路
+// 没有想到其他办法，就使用了最直接的办法，遍历每个斜行把元素拿过来，然后sort一下，再把元素赋值回去
+// getValues就是取当前斜行的所有元素，sort排序，然后setValues把拍好序的元素赋值。
 
-详细的分析可以看参考一下博客[1329.将矩阵按对角线排序](http://www.iaccepted.net/algorithm/leetcode/241.html)
+// 详细的分析可以看参考一下博客[1329.将矩阵按对角线排序](http://www.iaccepted.net/algorithm/leetcode/241.html)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
@@ -55,4 +55,4 @@ private:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-回溯法，每一遍传一个list，感觉代码可以优化
+// ### 解题思路
+// 回溯法，每一遍传一个list，感觉代码可以优化
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> list=new ArrayList<List<Integer>>();
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

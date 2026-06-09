@@ -1,8 +1,8 @@
-- 用multimap（底层是红黑树，平衡二叉搜索树）
-- `key` 是单词，`value` 是 序号
-- 该结构有序
+// - 用multimap（底层是红黑树，平衡二叉搜索树）
+// - `key` 是单词，`value` 是 序号
+// - 该结构有序
 
-```
+// ```
 class Solution {
 	multimap<string,int> m;
 public:
@@ -40,5 +40,5 @@ public:
         return dis;
     }
 };
-```
-[我的博客](https://michael.blog.csdn.net/article/details/104315448)
+// ```
+// [我的博客](https://michael.blog.csdn.net/article/details/104315448)

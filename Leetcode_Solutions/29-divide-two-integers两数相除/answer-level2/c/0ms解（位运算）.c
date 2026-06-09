@@ -1,4 +1,4 @@
-```
+// ```
 int divide(int dividend, int divisor){
     //都转换成正数用long long存储，用整型t表示结果正负
     long long a=dividend,b=divisor;
@@ -35,4 +35,4 @@ int divide(int dividend, int divisor){
     return sum;
     //属实学渣题解
 }
-```
+// ```

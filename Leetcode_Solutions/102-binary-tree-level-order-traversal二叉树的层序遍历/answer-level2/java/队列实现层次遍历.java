@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历，前中后序遍历都是解题的基础一定要信手拈来的。
+// ### 解题思路
+// 层次遍历，前中后序遍历都是解题的基础一定要信手拈来的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

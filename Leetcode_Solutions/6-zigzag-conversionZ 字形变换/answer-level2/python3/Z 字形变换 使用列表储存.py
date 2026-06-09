@@ -1,6 +1,6 @@
-开辟numRows个（记为n）列表，按照1，2，…………n-1,n,n-1…………2的顺序依次将字符串中的数据添加到对应列表，全部添加完毕后依次读出列表中的字符串即可
+# 开辟numRows个（记为n）列表，按照1，2，…………n-1,n,n-1…………2的顺序依次将字符串中的数据添加到对应列表，全部添加完毕后依次读出列表中的字符串即可
 
-```
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows<2:                       #行数为1时很特殊，直接输出即可
@@ -23,4 +23,4 @@ class Solution:
         for i in range(numRows):
             s += ''.join(Datas[i])          #列表元素转化为字符串
         return s
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-找到与子树相同的节点则根据节点进行递归判断
+// ### 解题思路
+// 找到与子树相同的节点则根据节点进行递归判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -54,4 +54,4 @@ class Solution {
     }
 
 }
-```
+// ```

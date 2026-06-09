@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
   class GraphByList {
       constructor(isDirected = false) {
         this.isDirected = isDirected;
@@ -101,4 +101,4 @@
       
       return list.length === numCourses
     };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
  bool isSameTree(TreeNode* p, TreeNode* q) {
 TreeNode* pt = p;
 	TreeNode* qt = q;
@@ -22,4 +22,4 @@ TreeNode* pt = p;
 	}
 	return true;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 深度优先搜索(DFS)
-1. 首先，通过`parent`建立一棵树`treeNodes`；
-2. 然后，使用深度优先搜索(DFS)计算各个子树的值`treeValue`；
-3. 最后，再DFS遍历整棵树，计算还剩下的节点的数目。
-4. 第3步可以直接在第2步时就做好，这样就不用再多一个`treeValue`，可以节省O(N)的空间复杂度。
-```
+// ### 深度优先搜索(DFS)
+// 1. 首先，通过`parent`建立一棵树`treeNodes`；
+// 2. 然后，使用深度优先搜索(DFS)计算各个子树的值`treeValue`；
+// 3. 最后，再DFS遍历整棵树，计算还剩下的节点的数目。
+// 4. 第3步可以直接在第2步时就做好，这样就不用再多一个`treeValue`，可以节省O(N)的空间复杂度。
+// ```
 class Solution {
 public:
 	int deleteTreeNodes(int nodes, vector<int>& parent, vector<int>& value) {
@@ -48,4 +48,4 @@ public:
 		return nCount;
 	}
 };
-```
+// ```

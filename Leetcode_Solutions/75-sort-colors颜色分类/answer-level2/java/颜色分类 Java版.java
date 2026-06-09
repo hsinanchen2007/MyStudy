@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{	
 	/*
 	 * 一次遍历：荷兰国旗问题
@@ -34,4 +34,4 @@ public class Solution{
 		}
 	}
 }
-```
+// ```

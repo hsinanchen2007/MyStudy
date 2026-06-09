@@ -1,11 +1,11 @@
-### 解题思路
-找到敵人的位置 並向上下左右的路線+1
-最後累加所有的結果
-找到最大值 即可
+# ### 解题思路
+# 找到敵人的位置 並向上下左右的路線+1
+# 最後累加所有的結果
+# 找到最大值 即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxKilledEnemies(self, grid: List[List[str]]) -> int:
 
@@ -67,4 +67,4 @@ class Solution:
 
 
 
-```
+# ```

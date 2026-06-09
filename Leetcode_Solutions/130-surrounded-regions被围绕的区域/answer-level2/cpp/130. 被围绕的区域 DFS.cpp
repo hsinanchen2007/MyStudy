@@ -1,27 +1,27 @@
-中心思想就是：边界上的O，肯定是不会被填充为X的，那么跟边界上的O连接的O也不会被填充为X，所以我们只需要把边界上的O以及与边界上的O连接的O先填充成其他字符，最后再遍历整个二维数组，将其中的O填充成X，填充成其他字符的填充回O
+// 中心思想就是：边界上的O，肯定是不会被填充为X的，那么跟边界上的O连接的O也不会被填充为X，所以我们只需要把边界上的O以及与边界上的O连接的O先填充成其他字符，最后再遍历整个二维数组，将其中的O填充成X，填充成其他字符的填充回O
 
-被围绕的区间不会存在于边界上，换句话说，任何边界上的 'O' 都不会被填充为 'X'。 任何不在边界上，或不与边界上的 'O' 相连的 'O' 最终都会被填充为 'X'。如果两个元素在水平或垂直方向相邻，则称它们是“相连”的。
+// 被围绕的区间不会存在于边界上，换句话说，任何边界上的 'O' 都不会被填充为 'X'。 任何不在边界上，或不与边界上的 'O' 相连的 'O' 最终都会被填充为 'X'。如果两个元素在水平或垂直方向相邻，则称它们是“相连”的。
 
-/*
-First, check the four border of the matrix. If there is a element is
-'O', alter it and all its nei***or 'O' elements to '1'.
+// /*
+// First, check the four border of the matrix. If there is a element is
+// 'O', alter it and all its nei***or 'O' elements to '1'.
 
-Then ,alter all the 'O' to 'X'
+// Then ,alter all the 'O' to 'X'
 
-At last,alter all the '1' to 'O'
+// At last,alter all the '1' to 'O'
 
-For example:
+// For example:
 
-         X X X X           X X X X             X X X X
-         X X O X  ->       X X O X    ->       X X X X
-         X O X X           X 1 X X             X O X X
-         X O X X           X 1 X X             X O X X
-*/
+//          X X X X           X X X X             X X X X
+//          X X O X  ->       X X O X    ->       X X X X
+//          X O X X           X 1 X X             X O X X
+//          X O X X           X 1 X X             X O X X
+// */
 
-链接：https://leetcode-cn.com/problems/surrounded-regions/solution/cbeats-9465easy-to-understand-by-zzyuting/
+// 链接：https://leetcode-cn.com/problems/surrounded-regions/solution/cbeats-9465easy-to-understand-by-zzyuting/
 
 
-```
+// ```
 class Solution {
 public:
     void backTrace(vector<vector<char>>& board, int i, int j)
@@ -72,4 +72,4 @@ public:
         return;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双链表+map
+// ### 解题思路
+// 双链表+map
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Node struct {
     Key, Value int
     Pre, Next *Node
@@ -158,4 +158,4 @@ func (this *LRUCache) Put(key int, value int)  {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

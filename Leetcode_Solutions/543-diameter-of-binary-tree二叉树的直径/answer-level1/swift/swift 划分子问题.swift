@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-二叉树直径 = max(左子树直径,右子树直径,过根节点的直径)
-过根节点的直径 = 左子树深度 + 右子树深度
+// 二叉树直径 = max(左子树直径,右子树直径,过根节点的直径)
+// 过根节点的直径 = 左子树深度 + 右子树深度
 
-一个节点的深度 = max(左子树深度,右子树深度)
+// 一个节点的深度 = max(左子树深度,右子树深度)
 
-求节点深度的同时可以记录一下当前最长直径, 初始化为0 
+// 求节点深度的同时可以记录一下当前最长直径, 初始化为0 
 
-current = max(current,左子树+右子树深度)
+// current = max(current,左子树+右子树深度)
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -50,4 +50,4 @@ class Solution {
         return max(leftDeepth,rightDeepth) + 1
     }
 }
-```
+// ```

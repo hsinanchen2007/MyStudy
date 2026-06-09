@@ -1,13 +1,13 @@
-### 解题思路
-K个工人中，肯定是选择成本最高的工人（即(wage/quality)最大的工人）作为基准
-在保证单位成本wage/quality的前提下，使用的quality越少，总成本就越少
+// ### 解题思路
+// K个工人中，肯定是选择成本最高的工人（即(wage/quality)最大的工人）作为基准
+// 在保证单位成本wage/quality的前提下，使用的quality越少，总成本就越少
 
-所以，先对各个工人的单位成本进行排序，然后从前到后遍历，则当前的工人成本就是最大成本
-使用大顶堆保存此前K个最小的quality值，如果使用当前工人，总成本最小是 单位成本*sum(堆)，更新堆顶
+// 所以，先对各个工人的单位成本进行排序，然后从前到后遍历，则当前的工人成本就是最大成本
+// 使用大顶堆保存此前K个最小的quality值，如果使用当前工人，总成本最小是 单位成本*sum(堆)，更新堆顶
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double mincostToHireWorkers(int[] quality, int[] wage, int K) {
         int len = wage.length;
@@ -51,4 +51,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

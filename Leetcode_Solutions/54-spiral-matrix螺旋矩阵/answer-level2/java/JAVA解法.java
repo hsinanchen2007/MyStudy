@@ -1,14 +1,14 @@
-### 解题思路
-找准四个参考点做顺时针运动(minX,minY)->(maxX,minY)->(maxX,maxY)->(minX,maxY)
-然后计算出每一圈的点个数，调整minX,minY,maxX,maxY
+// ### 解题思路
+// 找准四个参考点做顺时针运动(minX,minY)->(maxX,minY)->(maxX,maxY)->(minX,maxY)
+// 然后计算出每一圈的点个数，调整minX,minY,maxX,maxY
 
 
-![Snipaste_2020-03-28_17-05-44.png](https://pic.leetcode-cn.com/06142746fc674a025e5605d7d5ab38403cfeb69b924050c555ab7414ab8e34e5-Snipaste_2020-03-28_17-05-44.png)
+// ![Snipaste_2020-03-28_17-05-44.png](https://pic.leetcode-cn.com/06142746fc674a025e5605d7d5ab38403cfeb69b924050c555ab7414ab8e34e5-Snipaste_2020-03-28_17-05-44.png)
 
-供参考
-### 代码
+// 供参考
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         int y = matrix.length;
@@ -88,4 +88,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

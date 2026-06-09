@@ -1,4 +1,4 @@
-```
+// ```
 int strtoint(char *s){
     int res, i;
     for(i = 0, res = 0; i < 4; i++){
@@ -52,4 +52,4 @@ int openLock(char ** deadends, int deadendsSize, char * target){
     }
     return -1;
 }
-```
+// ```

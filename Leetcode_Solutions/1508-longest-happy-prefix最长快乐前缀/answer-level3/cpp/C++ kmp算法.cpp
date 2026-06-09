@@ -1,5 +1,5 @@
-与kmp算法求子串位置类似，从s[i=0] 和s[j=1]位置开始进行匹配，直到j到达串尾。
-```
+// 与kmp算法求子串位置类似，从s[i=0] 和s[j=1]位置开始进行匹配，直到j到达串尾。
+// ```
 class Solution {
 public:
     string longestPrefix(string s) {
@@ -26,4 +26,4 @@ public:
         return s.substr(0,i);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先调用Arrays类的sort方法排序，依次比较数组中相邻的两个数；如果相等就直接返回，循环结束没有相等的就返回-1。
+// ### 解题思路
+// 先调用Arrays类的sort方法排序，依次比较数组中相邻的两个数；如果相等就直接返回，循环结束没有相等的就返回-1。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         Arrays.sort(nums);
@@ -15,4 +15,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

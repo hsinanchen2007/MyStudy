@@ -1,12 +1,12 @@
-### 解题思路
-使用一个arr来存放当前结果，a_end来标识arr当前使用的最大下标
-arr[a_end] = num;
-combinationSum3(num+1, arr, a_end+1, k, n-num); 结果集中选择当前num
-combinationSum3(num+1, arr, a_end, k, n); 结果集中不选择当前num
+// ### 解题思路
+// 使用一个arr来存放当前结果，a_end来标识arr当前使用的最大下标
+// arr[a_end] = num;
+// combinationSum3(num+1, arr, a_end+1, k, n-num); 结果集中选择当前num
+// combinationSum3(num+1, arr, a_end, k, n); 结果集中不选择当前num
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> result;
@@ -27,4 +27,4 @@ public:
         combinationSum3(num+1, arr, a_end, k, n);          // 不选择当前数字
     }
 };
-```
+// ```

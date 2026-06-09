@@ -1,8 +1,8 @@
-**1、按列求解，**
-这种方法比较直观和容易理解，比按行求解思路要清晰；只是时间复杂度为O(N2)
-不太明白的是，内存消耗为啥这么搞，这种方法没有额外申请空间，空间复杂度应该是O(1)啊
+// **1、按列求解，**
+// 这种方法比较直观和容易理解，比按行求解思路要清晰；只是时间复杂度为O(N2)
+// 不太明白的是，内存消耗为啥这么搞，这种方法没有额外申请空间，空间复杂度应该是O(1)啊
 
-```golang
+// ```golang
 func trap(height []int) int {
 	if len(height) <= 2 {
 		return 0
@@ -35,10 +35,10 @@ func trap(height []int) int {
 
 	return result
 }
-```
+// ```
 
-**2、动态规划**
-```golang
+// **2、动态规划**
+// ```golang
 func trap(height []int) int {
 	if len(height) <= 2 {
 		return 0
@@ -78,10 +78,10 @@ func trap(height []int) int {
 
 	return result
 }
-```
+// ```
 
-**3、改进动态规划**
-```golang
+// **3、改进动态规划**
+// ```golang
 func trap(height []int) int {
 	if len(height) <= 2 {
 		return 0
@@ -114,12 +114,12 @@ func trap(height []int) int {
 
 	return result
 }
-```
+// ```
 
-不断改进的效果如下：
-![image.png](https://pic.leetcode-cn.com/7a2e1237de2e73f9847264259115a841d0f3231be6a19eeec662acefec0a8516-image.png)
+// 不断改进的效果如下：
+// ![image.png](https://pic.leetcode-cn.com/7a2e1237de2e73f9847264259115a841d0f3231be6a19eeec662acefec0a8516-image.png)
 
-但空间占用一直显示很高，不知道怎么优化；对于最开始的按列求解来说，只需要两个额外的int变量，为啥也占用那么多空间呢
-![image.png](https://pic.leetcode-cn.com/850a53bed460c587a5f6ca32f674df5e3daa537a36926a526ca9b1658a7425ec-image.png)
+// 但空间占用一直显示很高，不知道怎么优化；对于最开始的按列求解来说，只需要两个额外的int变量，为啥也占用那么多空间呢
+// ![image.png](https://pic.leetcode-cn.com/850a53bed460c587a5f6ca32f674df5e3daa537a36926a526ca9b1658a7425ec-image.png)
 
 

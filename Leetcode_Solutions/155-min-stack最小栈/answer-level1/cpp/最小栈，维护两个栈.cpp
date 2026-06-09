@@ -1,12 +1,12 @@
-### 解题思路
-一个栈维护最小值
-一个栈维护传值
-如 2 0 -3
-最小栈则为 2 0 -3
-类似前缀和
-### 代码
+// ### 解题思路
+// 一个栈维护最小值
+// 一个栈维护传值
+// 如 2 0 -3
+// 最小栈则为 2 0 -3
+// 类似前缀和
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -48,4 +48,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

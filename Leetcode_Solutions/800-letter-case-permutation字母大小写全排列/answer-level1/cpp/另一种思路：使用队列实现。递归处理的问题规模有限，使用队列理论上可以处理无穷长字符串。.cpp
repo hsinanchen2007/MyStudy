@@ -1,5 +1,5 @@
-每次从队列中取出长度小于当前遍历长度的所有字符串，加上当前遍历字符，再加入到队列中。
-```
+// 每次从队列中取出长度小于当前遍历长度的所有字符串，加上当前遍历字符，再加入到队列中。
+// ```
 class Solution {
 public:
     vector<string> letterCasePermutation(string S) {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

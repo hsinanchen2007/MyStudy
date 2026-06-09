@@ -1,7 +1,7 @@
-DFS一般用栈实现，此处用vector来代替栈，代码中使用数据类型为vector<pair<TreeNode*, int>>， 方便将某条符合条件的路径加入到返回的总集合results中
-pair<TreeNode*, int>中，TreeNode*表示当前节点；int值，分别取值0,1,2 ，分别表示左右孩子未被访问，左孩子已被访问，右孩子已被访问。
-类似于遍历图的时候会使用一个bool型的visited数组记录节点是否被访问过。
-```
+// DFS一般用栈实现，此处用vector来代替栈，代码中使用数据类型为vector<pair<TreeNode*, int>>， 方便将某条符合条件的路径加入到返回的总集合results中
+// pair<TreeNode*, int>中，TreeNode*表示当前节点；int值，分别取值0,1,2 ，分别表示左右孩子未被访问，左孩子已被访问，右孩子已被访问。
+// 类似于遍历图的时候会使用一个bool型的visited数组记录节点是否被访问过。
+// ```
 class Solution {
 public:
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
@@ -56,4 +56,4 @@ public:
         return results;
     }
 };
-```
+// ```

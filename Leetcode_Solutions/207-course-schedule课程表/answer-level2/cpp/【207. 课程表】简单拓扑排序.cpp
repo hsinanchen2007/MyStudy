@@ -1,7 +1,7 @@
-## 思路：拓扑排序
-### 代码
-时间复杂度：O(N+M)，N和M为节点数量和临边数量
-```
+// ## 思路：拓扑排序
+// ### 代码
+// 时间复杂度：O(N+M)，N和M为节点数量和临边数量
+// ```
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -33,4 +33,4 @@ public:
         return numCourses == 0;
     }
 };
-```
+// ```

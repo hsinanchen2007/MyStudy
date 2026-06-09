@@ -1,9 +1,9 @@
-### 解题思路
-因为是排序的一次遍历 只要找到增量不为1的前后变量即可
+// ### 解题思路
+// 因为是排序的一次遍历 只要找到增量不为1的前后变量即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
 		  public int missingNumber(int[] nums) {
 			  int n=0;
@@ -27,4 +27,4 @@ public class Solution {
 		    }
 	}
 
-```
+// ```

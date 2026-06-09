@@ -1,8 +1,8 @@
-直接用前缀函数判断前缀，两重循环，实际上函数里面还得加一重。
+# 直接用前缀函数判断前缀，两重循环，实际上函数里面还得加一重。
 
-![image.png](https://pic.leetcode-cn.com/0ee78b610ea2e9abf3dfb6d753d6296d36a0bd8dae8dcbd7ab38468f8f952716-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0ee78b610ea2e9abf3dfb6d753d6296d36a0bd8dae8dcbd7ab38468f8f952716-image.png)
 
-```python []
+# ```python []
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
         dict.sort()
@@ -13,13 +13,13 @@ class Solution:
                     s[i] = j
                     break
         return ' '.join(s)
-```
+# ```
 
-生成前缀树，判断是否存在前缀，单词迭代。
+# 生成前缀树，判断是否存在前缀，单词迭代。
 
-![image.png](https://pic.leetcode-cn.com/1a494bd836b1d0a4ad38f6b7495d0d85572339798d79151c4ac1ed537b00bc43-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1a494bd836b1d0a4ad38f6b7495d0d85572339798d79151c4ac1ed537b00bc43-image.png)
 
-```python []
+# ```python []
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
         d = {}              #字典树初始化
@@ -40,5 +40,5 @@ class Solution:
                 t = t[c]
             return word
         return ' '.join(map(f, sentence.split(' ')))
-```
+# ```
 

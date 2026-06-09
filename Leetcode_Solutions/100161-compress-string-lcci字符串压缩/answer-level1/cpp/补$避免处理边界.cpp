@@ -1,4 +1,4 @@
-![图片.png](https://pic.leetcode-cn.com/cadc1407ab4e38a49d9d883b669fd8ad24003a9e2ec4eacc75e9f09d7363b233-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/cadc1407ab4e38a49d9d883b669fd8ad24003a9e2ec4eacc75e9f09d7363b233-%E5%9B%BE%E7%89%87.png)
 class Solution {
 public:
     string compressString(string S) {

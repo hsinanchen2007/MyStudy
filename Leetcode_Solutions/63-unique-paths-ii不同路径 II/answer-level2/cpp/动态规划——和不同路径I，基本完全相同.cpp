@@ -1,8 +1,8 @@
-和62题基本完全相同，只是在做选择时，需要对障碍物处理下即可。
-状态转移方程大体上仍为 dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
-只不过如果当前位置是障碍物，就直接将dp[i][j] = 0即可。
-唯一要注意的就是int类型会上溢出，所以需要用long long 或者 unsigned int。
-```
+// 和62题基本完全相同，只是在做选择时，需要对障碍物处理下即可。
+// 状态转移方程大体上仍为 dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+// 只不过如果当前位置是障碍物，就直接将dp[i][j] = 0即可。
+// 唯一要注意的就是int类型会上溢出，所以需要用long long 或者 unsigned int。
+// ```
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -35,10 +35,10 @@ public:
         return dp[n - 1][m - 1];
     }
 };
-```
+// ```
 
-优化的思路和之前62题一样
-```
+// 优化的思路和之前62题一样
+// ```
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -75,6 +75,6 @@ public:
         return dp[m - 1];
     }
 };
-```
+// ```
 
 

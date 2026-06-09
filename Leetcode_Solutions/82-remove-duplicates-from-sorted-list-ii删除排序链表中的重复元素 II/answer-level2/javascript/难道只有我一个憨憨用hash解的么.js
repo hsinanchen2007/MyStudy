@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
 
-第一遍用的hash，后来看了大家的快慢节点，顿觉我是个憨憨
+// 第一遍用的hash，后来看了大家的快慢节点，顿觉我是个憨憨
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -67,4 +67,4 @@ var deleteDuplicates = function(head) {
 //     }
 //     return newHead
 // };
-```
+// ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 var maxDepth = function(root) {
     if(!root) {
         return 0;
@@ -8,4 +8,4 @@ var maxDepth = function(root) {
         return Math.max(left, right) + 1;
     }
 };
-```
+// ```

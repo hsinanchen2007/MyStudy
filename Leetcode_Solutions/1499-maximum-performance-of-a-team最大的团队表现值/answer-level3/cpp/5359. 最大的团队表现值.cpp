@@ -1,8 +1,8 @@
-### 解题思路
-Multiset 存前k大的speed值然后和枚举的efficiency相乘取最大值，注意这里的取模是算完所有了对答案取模而不是中间步骤取模，这样会出错
-### 代码
+// ### 解题思路
+// Multiset 存前k大的speed值然后和枚举的efficiency相乘取最大值，注意这里的取模是算完所有了对答案取模而不是中间步骤取模，这样会出错
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     #define ll long long
     #define rg ll
@@ -35,4 +35,4 @@ public:
         return ans%mod;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-一次遍历解决，不断更新最近路径。
-遇到路径为1直接返回，提升效率。
+// ### 解题思路
+// 一次遍历解决，不断更新最近路径。
+// 遇到路径为1直接返回，提升效率。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findClosest(char** words, int wordsSize, char* word1, char* word2){
     int ans = 100000;
     int m = -1;
@@ -28,4 +28,4 @@ int findClosest(char** words, int wordsSize, char* word1, char* word2){
     return ans;
 
 }
-```
+// ```

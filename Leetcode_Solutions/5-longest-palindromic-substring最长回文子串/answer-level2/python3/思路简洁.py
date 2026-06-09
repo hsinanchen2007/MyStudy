@@ -1,9 +1,9 @@
-### 解题思路
-从单个字符开始，向右匹配与之相等的字符，然后比对左右两边的字符是否相等，从字符串的第一个字符开始，比对到最后一个字符即可
+# ### 解题思路
+# 从单个字符开始，向右匹配与之相等的字符，然后比对左右两边的字符是否相等，从字符串的第一个字符开始，比对到最后一个字符即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.maxLength = 1;
@@ -39,4 +39,4 @@ class Solution:
         for i,v in enumerate(s):
             self.checkLength(s, i)
         return self.maxStr
-```
+# ```

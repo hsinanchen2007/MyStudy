@@ -1,10 +1,10 @@
-### 解题思路
-1. 建立一个数字stack和一个字符stack, 迭代解析
-2. 利用java的Object类型机制, 可以使用一个栈完成
+// ### 解题思路
+// 1. 建立一个数字stack和一个字符stack, 迭代解析
+// 2. 利用java的Object类型机制, 可以使用一个栈完成
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     string decodeString(string s) {
@@ -42,8 +42,8 @@ private:
     stack<char> cst;
     stack<int> nst;
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public String decodeString(String s) {
         int N = 0; // 记录字符串中的数字
@@ -78,8 +78,8 @@ class Solution {
 
     private Stack<Object> st;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def decodeString(self, s: str) -> str:
         st = []
@@ -99,4 +99,4 @@ class Solution:
                 st.append(''.join(reversed(infos))*N)
 
         return ''.join(st)
-```
+// ```

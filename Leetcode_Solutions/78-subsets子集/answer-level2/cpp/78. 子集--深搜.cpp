@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
 
 
-跳过当前： subsets(nums, height+1, cur);
-遍历当前： cur.push_back(nums[height]); subsets(nums, height+1, cur);
+// 跳过当前： subsets(nums, height+1, cur);
+// 遍历当前： cur.push_back(nums[height]); subsets(nums, height+1, cur);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> rt;
@@ -27,4 +27,4 @@ public:
         return rt;
     }
 };
-```
+// ```

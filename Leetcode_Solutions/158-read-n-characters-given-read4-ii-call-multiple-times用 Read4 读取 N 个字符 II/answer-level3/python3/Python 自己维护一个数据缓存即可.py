@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c9fa384371fd3a4a29df864b2b6e62399d7ffcefe3775a86a59a7b6b134e3d2c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c9fa384371fd3a4a29df864b2b6e62399d7ffcefe3775a86a59a7b6b134e3d2c-image.png)
 
 
-```
+# ```
 '''
 自己维护一个数据缓存即可
 '''
@@ -37,4 +37,4 @@ class Solution:
             self.data_buf = []
             return ret
 
-```
+# ```

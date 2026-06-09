@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/9819684921623ddc18d4d4e520fab7f4479441b9c81fc5431c4eed075935fb46-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9819684921623ddc18d4d4e520fab7f4479441b9c81fc5431c4eed075935fb46-image.png)
 
 
-```
+# ```
 from typing import List
 from queue import Queue
 class Solution:
@@ -48,4 +48,4 @@ class Solution:
 
         return ans
 
-```
+# ```

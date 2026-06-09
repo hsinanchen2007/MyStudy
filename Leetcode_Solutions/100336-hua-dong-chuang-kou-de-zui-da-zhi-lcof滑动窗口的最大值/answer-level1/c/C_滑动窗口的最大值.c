@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
+// ### 解题思路
+// 暴力法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
     }
     return result;
 }
-```
+// ```

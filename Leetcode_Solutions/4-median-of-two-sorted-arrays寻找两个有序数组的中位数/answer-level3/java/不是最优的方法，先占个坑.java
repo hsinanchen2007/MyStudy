@@ -1,9 +1,9 @@
-### 解题思路
-不符合题意，这个方法是（m + n）时间复杂度，要用二分法，接下来更新。
+// ### 解题思路
+// 不符合题意，这个方法是（m + n）时间复杂度，要用二分法，接下来更新。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length, n = nums2.length;
@@ -29,4 +29,4 @@ class Solution {
         return (m + n) % 2 == 1 ? temp[(m + n) / 2] : (temp[(m + n) / 2 - 1] + temp[(m + n) / 2]) * 1.0 / 2;
     }
 }
-```
+// ```

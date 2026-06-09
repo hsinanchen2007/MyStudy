@@ -1,5 +1,5 @@
-看了很多题解和评论，有的要么没有解释和注释，有的解答的很模糊，一个也看不懂。我自己想了两种方法，注释的也很清晰易懂，都一次性题解成功，发上来跟大家分享。
-```
+# 看了很多题解和评论，有的要么没有解释和注释，有的解答的很模糊，一个也看不懂。我自己想了两种方法，注释的也很清晰易懂，都一次性题解成功，发上来跟大家分享。
+# ```
 class Solution:
     def jump(self, nums):
         n = len(nums)
@@ -36,9 +36,9 @@ class Solution:
             jump_num += 1
 
         return jump_num
-```
+# ```
 
-```
+# ```
 class Solution:
     def jump(self, nums):
         n = len(nums)
@@ -61,5 +61,5 @@ class Solution:
                 jump_num += 1
 
         return jump_num
-```
+# ```
 

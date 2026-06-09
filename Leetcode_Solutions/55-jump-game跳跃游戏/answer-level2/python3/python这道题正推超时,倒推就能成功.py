@@ -1,10 +1,10 @@
-### 解题思路
-这题采用动态规划,思路看这里https://www.bilibili.com/video/av47420469?from=search&seid=7335933815712595819
+# ### 解题思路
+# 这题采用动态规划,思路看这里https://www.bilibili.com/video/av47420469?from=search&seid=7335933815712595819
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import functools
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
@@ -23,4 +23,4 @@ class Solution:
 
         return f(sizeM1)
 
-```
+# ```

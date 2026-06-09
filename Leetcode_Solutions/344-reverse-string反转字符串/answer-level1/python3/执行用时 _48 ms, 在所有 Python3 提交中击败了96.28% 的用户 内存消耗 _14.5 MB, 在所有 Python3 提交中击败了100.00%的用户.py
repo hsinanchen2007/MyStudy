@@ -1,9 +1,9 @@
-### 解题思路
-逐个对调前后对应位置的元素。
+# ### 解题思路
+# 逐个对调前后对应位置的元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -15,4 +15,4 @@ class Solution:
             s[i], s[j] = s[j], s[i]
             i += 1
             j -= 1
-```
+# ```

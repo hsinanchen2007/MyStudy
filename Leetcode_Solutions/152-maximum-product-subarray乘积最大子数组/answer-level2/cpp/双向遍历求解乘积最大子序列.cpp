@@ -1,10 +1,10 @@
-### 解题思路
-双向遍历
-![捕获1.JPG](https://pic.leetcode-cn.com/3464cb1a260cd7556c3c42e12910ad1875ab7cdd7a04f5336753e190d447b703-%E6%8D%95%E8%8E%B71.JPG)
+// ### 解题思路
+// 双向遍历
+// ![捕获1.JPG](https://pic.leetcode-cn.com/3464cb1a260cd7556c3c42e12910ad1875ab7cdd7a04f5336753e190d447b703-%E6%8D%95%E8%8E%B71.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return result;
     }
 };
-```
+// ```

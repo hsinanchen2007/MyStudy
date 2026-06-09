@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/eebd045abf84cf97b4a03ccc07b2d49412e3d3eea481fff3cedc07146e75054c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/eebd045abf84cf97b4a03ccc07b2d49412e3d3eea481fff3cedc07146e75054c-image.png)
 
-**两种方案**
+# **两种方案**
 
-```python []
+# ```python []
 def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         if head.next == None and n == 1:
             return None
@@ -19,8 +19,8 @@ def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
                 else:
                     c = c.next
             res = res.next
-```
-```python []
+# ```
+# ```python []
 def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         if head.next == None and n == 1:
             return None
@@ -36,5 +36,5 @@ def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
                 return head
             res = res.next
         return head.next
-```
+# ```
 

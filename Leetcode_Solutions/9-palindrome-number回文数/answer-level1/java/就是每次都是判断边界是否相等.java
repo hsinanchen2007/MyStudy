@@ -1,9 +1,9 @@
-### 解题思路
-复制代码。
-就是每次都是判断边界是否相等
-### 代码
+// ### 解题思路
+// 复制代码。
+// 就是每次都是判断边界是否相等
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
          //边界判断
@@ -21,4 +21,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

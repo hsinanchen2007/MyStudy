@@ -1,10 +1,10 @@
 
-字符串方式：
+// 字符串方式：
 
-![image.png](https://pic.leetcode-cn.com/12350bc1b0882b0f1e3270d68bc3d4df318027a7f68dc301261727f74231ff1e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/12350bc1b0882b0f1e3270d68bc3d4df318027a7f68dc301261727f74231ff1e-image.png)
 
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -19,15 +19,15 @@ class Solution {
         return (int)$numString;
     }
 }
-```
+// ```
 
 
-除法方式
+// 除法方式
 
-![image.png](https://pic.leetcode-cn.com/57bd3bcf3bcc9b05e3cac001f47eadce58b082b89e043c79187d2ceb3255c79a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/57bd3bcf3bcc9b05e3cac001f47eadce58b082b89e043c79187d2ceb3255c79a-image.png)
 
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -49,5 +49,5 @@ class Solution {
         return $numorg;
     }
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-把已腐烂的先找出来, 然后放入Q, 进行BFS
-最后比较一下, 如果新腐烂的好果子数目 < 原本总的好果子数, 那么有存在从没感染的好果子, 返回-1. 否则就返回用来计算距离的time.
-注意一般处理grid, matrix这种矩阵的, 不用x, y坐标, 而用row, col更直观.
-### 代码
+# ### 解题思路
+# 把已腐烂的先找出来, 然后放入Q, 进行BFS
+# 最后比较一下, 如果新腐烂的好果子数目 < 原本总的好果子数, 那么有存在从没感染的好果子, 返回-1. 否则就返回用来计算距离的time.
+# 注意一般处理grid, matrix这种矩阵的, 不用x, y坐标, 而用row, col更直观.
+# ### 代码
 
-```python3
+# ```python3
 # bfs
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
@@ -44,4 +44,4 @@ class Solution:
             return -1
         return time
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
--   使用字典记住每个`level`的和值，最后使用最深的`level`减去`level`并乘以和值
+# ### 解题思路
+# -   使用字典记住每个`level`的和值，最后使用最深的`level`减去`level`并乘以和值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # """
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation
@@ -68,4 +68,4 @@ class Solution:
         for k, v in d.items():
             ans += (max_level - k) * v
         return ans
-```
+# ```

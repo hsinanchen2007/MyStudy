@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findRadius(self, houses, heaters):
         """
@@ -31,6 +31,6 @@ class Solution(object):
                             break
                     r += 1
         return m
-```
+# ```
 
-执行用时 :276 ms, 在所有 python 提交中击败了95.89%的用户
+# 执行用时 :276 ms, 在所有 python 提交中击败了95.89%的用户

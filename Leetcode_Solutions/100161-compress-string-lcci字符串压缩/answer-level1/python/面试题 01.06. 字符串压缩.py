@@ -1,11 +1,11 @@
-### 解题思路
-入门题，直接写就可以了。
-还有一种思路是利用双指针，看起来会更加工整。
+# ### 解题思路
+# 入门题，直接写就可以了。
+# 还有一种思路是利用双指针，看起来会更加工整。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if len(S) == 0:
@@ -26,4 +26,4 @@ class Solution:
             return ret
         else:
             return S 
-```
+# ```

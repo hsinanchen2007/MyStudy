@@ -1,9 +1,9 @@
-### 解题思路
-这是一个典型的线程间通信的。第一种使用AutoResetEvent实现，第二种方式通过自旋锁实现。
+// ### 解题思路
+// 这是一个典型的线程间通信的。第一种使用AutoResetEvent实现，第二种方式通过自旋锁实现。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using System.Threading;
 public class Foo
     {
@@ -73,4 +73,4 @@ public class Foo
             Thread.VolatileWrite(ref _continueCondition, 1);//写栅栏
         }
     }
-```
+// ```

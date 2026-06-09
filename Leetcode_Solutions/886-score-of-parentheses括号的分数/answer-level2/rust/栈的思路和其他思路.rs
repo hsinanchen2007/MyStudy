@@ -1,5 +1,5 @@
-刚开始用了栈的思路，模仿四则运算的方式设置了数字栈和操作符栈，不断解析
-```rust
+// 刚开始用了栈的思路，模仿四则运算的方式设置了数字栈和操作符栈，不断解析
+// ```rust
     pub fn eval_op(digit: &mut Vec<i32>, op:&mut Vec<char>) {
         loop {
             match op.pop() {
@@ -66,10 +66,10 @@
         Solution::eval_op(&mut digit, &mut op);
         digit.pop().unwrap()
     }
-```
-后来看了大神的解答，一下子就有了简单的解法，就是设置一个深度项，记录未匹配的左括号的数目i，然后碰到()时结算,为sum += 2^i,代码如下
+// ```
+// 后来看了大神的解答，一下子就有了简单的解法，就是设置一个深度项，记录未匹配的左括号的数目i，然后碰到()时结算,为sum += 2^i,代码如下
 
-```rust
+// ```rust
  pub fn score_of_parentheses1(s:String) -> i32{
         let mut sum = 0;
         let mut magn = 1;
@@ -87,4 +87,4 @@
         }
         sum
     }
-```
+// ```

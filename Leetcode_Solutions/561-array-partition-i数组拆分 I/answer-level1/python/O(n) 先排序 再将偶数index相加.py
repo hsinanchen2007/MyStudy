@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def arrayPairSum(self, nums):
         """
@@ -16,10 +16,10 @@ class Solution(object):
             sum += nums[i]
             i += 2
         return sum
-```
+# ```
 
-# Java
-```
+# # Java
+# ```
 class Solution {
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+# ```

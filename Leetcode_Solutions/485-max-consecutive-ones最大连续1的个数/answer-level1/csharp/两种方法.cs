@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int FindMaxConsecutiveOnes(int[] nums) {
         // string str = String.Join("",nums);
@@ -28,4 +28,4 @@ public class Solution {
         return num;
     }
 }
-```
+// ```

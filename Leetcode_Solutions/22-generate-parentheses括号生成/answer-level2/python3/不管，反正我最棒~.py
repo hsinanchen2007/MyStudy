@@ -1,4 +1,4 @@
-```
+# ```
 # -*- coding: utf-8 -*-
 def dfs(res, left, right, tmp, n):
     if left == n and right == n:
@@ -17,4 +17,4 @@ class Solution:
         tmp = ""
         dfs(res, left, right, tmp, n)
         return res
-```
+# ```

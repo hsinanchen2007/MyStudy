@@ -1,4 +1,4 @@
-```go
+// ```go
 // Time: O(2^n), Space: O(n)
 func subsets(nums []int) [][]int {
     if nums == nil || len(nums) == 0 {
@@ -26,4 +26,4 @@ func subsetsRec(nums []int, start int, elem []int, result *[][]int) {
     }
 }
 
-```
+// ```

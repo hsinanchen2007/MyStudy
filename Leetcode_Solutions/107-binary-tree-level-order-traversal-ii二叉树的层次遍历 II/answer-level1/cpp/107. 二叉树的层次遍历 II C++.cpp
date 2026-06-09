@@ -1,10 +1,10 @@
-### 解题思路
-1.类似深度遍历，将自己的元素的内容存入自己对应的层数。
-2.根据题目要求逆序返回层序遍历的结果。
+// ### 解题思路
+// 1.类似深度遍历，将自己的元素的内容存入自己对应的层数。
+// 2.根据题目要求逆序返回层序遍历的结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return vector<vector<int> >(res.rbegin(),res.rend());
     }
 };
-```
+// ```

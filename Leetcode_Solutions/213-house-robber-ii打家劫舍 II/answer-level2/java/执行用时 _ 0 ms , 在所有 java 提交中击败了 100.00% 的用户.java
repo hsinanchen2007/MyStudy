@@ -1,4 +1,4 @@
-```
+// ```
     public int rob(int[] nums) {
         if(nums.length<1)return 0;
         int length = nums.length;
@@ -27,4 +27,4 @@
         max2 = Math.max(temp2[length-1],temp2[length-2]);
         return Math.max(max1,max2);
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-类似先序迭代；多余一个栈用数组模拟tmp保存上一级path
+// ### 解题思路
+// 类似先序迭代；多余一个栈用数组模拟tmp保存上一级path
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -45,14 +45,14 @@ class Solution {
        return $res;
     }
 }
-```
+// ```
 
-### 解题思路
-递归：核心传一个path字符串过去
+// ### 解题思路
+// 递归：核心传一个path字符串过去
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -84,4 +84,4 @@ class Solution {
         $this->getPaths($root->right,$path.'->',$res);
     }
 }
-```
+// ```

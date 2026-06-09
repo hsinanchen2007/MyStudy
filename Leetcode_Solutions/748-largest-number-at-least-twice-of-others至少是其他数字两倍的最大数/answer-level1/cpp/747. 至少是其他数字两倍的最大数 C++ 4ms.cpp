@@ -1,10 +1,10 @@
-### 解题思路
-新手解题 **4ms **
+// ### 解题思路
+// 新手解题 **4ms **
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
        return index;
     }
 };
-```
+// ```

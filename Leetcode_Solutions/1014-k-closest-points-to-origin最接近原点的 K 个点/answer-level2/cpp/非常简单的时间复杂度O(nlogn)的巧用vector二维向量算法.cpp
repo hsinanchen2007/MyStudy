@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![1.png](https://pic.leetcode-cn.com/9c46e85c505ba9284126e8681af0d3b29aaac46c66a81fe5f583a36a4b89a7d6-1.png)
+// ![1.png](https://pic.leetcode-cn.com/9c46e85c505ba9284126e8681af0d3b29aaac46c66a81fe5f583a36a4b89a7d6-1.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution
 {
 public:
@@ -35,6 +35,6 @@ public:
         return vec;
     }
 };
-```
-最近疫情期间闲得无聊来刷题，纯粹为了玩，写完的题我会post到我的博客上，欢迎大家赏光~
-[https://mrsuncodes.github.io/](https://mrsuncodes.github.io/)
+// ```
+// 最近疫情期间闲得无聊来刷题，纯粹为了玩，写完的题我会post到我的博客上，欢迎大家赏光~
+// [https://mrsuncodes.github.io/](https://mrsuncodes.github.io/)

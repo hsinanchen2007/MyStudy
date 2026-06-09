@@ -1,5 +1,5 @@
-从后往前贪心
-```
+// 从后往前贪心
+// ```
 func canJump(nums []int) bool {
     if len(nums) == 0 {
         return false
@@ -14,4 +14,4 @@ func canJump(nums []int) bool {
 
     return endReachable == 0
 }
-```
+// ```

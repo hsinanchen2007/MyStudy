@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         result = [False]
@@ -38,4 +38,4 @@ class Solution:
             if result[0] == True:
                     break
         return result[0]
-```
+# ```

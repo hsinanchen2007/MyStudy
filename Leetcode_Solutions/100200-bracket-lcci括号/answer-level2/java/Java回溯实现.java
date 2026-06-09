@@ -1,6 +1,6 @@
 
-回溯算法实现：
-```
+// 回溯算法实现：
+// ```
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

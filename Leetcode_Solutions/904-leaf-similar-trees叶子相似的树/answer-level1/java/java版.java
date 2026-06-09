@@ -1,9 +1,9 @@
-### 解题思路
-遍历两个树，把两个树的叶子结点放入数组中，然后比较这两个数组中的元素是否相等即可。
+// ### 解题思路
+// 遍历两个树，把两个树的叶子结点放入数组中，然后比较这两个数组中的元素是否相等即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
        if(root!=null) helper(root.right,list);
     }
 }
-```
+// ```

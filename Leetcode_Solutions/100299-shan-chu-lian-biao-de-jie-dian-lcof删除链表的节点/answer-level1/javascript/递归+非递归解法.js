@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -42,4 +42,4 @@ const deleteNode = (head, val) => { // 递归算法
     head.next = deleteNode(head.next, val)
     return head.val === val ? head.next : head
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-if (A[i] == B[j]) dp[i+1][j+1] = 1+dp[i][j];
+// ### 解题思路
+// if (A[i] == B[j]) dp[i+1][j+1] = 1+dp[i][j];
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLength(vector<int>& A, vector<int>& B) {
@@ -36,4 +36,4 @@ public:
         return res;
     }   
 };
-```
+// ```

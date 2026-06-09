@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public TreeNode convertBiNode(TreeNode root){
 		if(root == null){
@@ -33,13 +33,13 @@ class Solution {
 		return root;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/76d62d054794b98b30fe298b90e7726a7d944e7b80d652f40b18127855ce3d11-1.png)
+// ![1.png](https://pic.leetcode-cn.com/76d62d054794b98b30fe298b90e7726a7d944e7b80d652f40b18127855ce3d11-1.png)
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/f44cce2af15174179f3574d1c774f483ad1b27d64426ca83fd4d0012f8116596-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/f44cce2af15174179f3574d1c774f483ad1b27d64426ca83fd4d0012f8116596-wechat.png)
 

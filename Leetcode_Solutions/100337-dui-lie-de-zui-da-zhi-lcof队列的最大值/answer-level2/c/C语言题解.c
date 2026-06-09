@@ -1,8 +1,8 @@
-### 解题思路
-队列的基本操作，算是个模板操作了，注意分配的MAXLEN，一开始分配1000给小了，leetcode的题目数组长度最多不会超过10000。
-### 代码
+// ### 解题思路
+// 队列的基本操作，算是个模板操作了，注意分配的MAXLEN，一开始分配1000给小了，leetcode的题目数组长度最多不会超过10000。
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 100000
 typedef struct {
     int front;
@@ -62,4 +62,4 @@ void maxQueueFree(MaxQueue* obj) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

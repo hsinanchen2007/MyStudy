@@ -1,6 +1,6 @@
-![1111111111.JPG](https://pic.leetcode-cn.com/456e2107d7ad0f2d0d21a7b7c9d8794e6a870dc39ef5f9289b2e8b6c578cc287-1111111111.JPG)
-第一次写题解
-```
+// ![1111111111.JPG](https://pic.leetcode-cn.com/456e2107d7ad0f2d0d21a7b7c9d8794e6a870dc39ef5f9289b2e8b6c578cc287-1111111111.JPG)
+// 第一次写题解
+// ```
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -21,5 +21,5 @@ public:
     }
 };
 
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-多提交几次，可能减少执行用时
+// ### 解题思路
+// 多提交几次，可能减少执行用时
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int itos(int x,char* str,int fp,int* c){
 
     char index[]="0123456789";
@@ -57,4 +57,4 @@ char* compressString(char* S){
     return counts <= countd ? S : F;
 }
 
-```
+// ```

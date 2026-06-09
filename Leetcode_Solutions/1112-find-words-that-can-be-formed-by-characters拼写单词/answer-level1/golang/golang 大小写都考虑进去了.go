@@ -1,17 +1,17 @@
-1. 解题思路：
-    哈希表；
-2. 数组的长度
-    注意数组的长度，如果只考虑小写字母就 26 了，考虑大写字母的话，z - A + 1;
-3. 切片初始化的两种方式：
-```
+// 1. 解题思路：
+//     哈希表；
+// 2. 数组的长度
+//     注意数组的长度，如果只考虑小写字母就 26 了，考虑大写字母的话，z - A + 1;
+// 3. 切片初始化的两种方式：
+// ```
 chs := make([]byte, 1, 1)
 
 var chs [1]byte
 
-```
-4. 代码实现
+// ```
+// 4. 代码实现
 
-```
+// ```
 func countCharacters(words []string, chars string) int {
     if len(words) == 0 {
         return 0
@@ -52,4 +52,4 @@ func isContained(str string, chs []byte) bool {
     }
     return true
 }
-```
+// ```

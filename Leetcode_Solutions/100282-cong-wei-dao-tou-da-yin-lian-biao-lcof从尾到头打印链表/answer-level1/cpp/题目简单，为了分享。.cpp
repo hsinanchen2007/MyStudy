@@ -1,8 +1,8 @@
-### 解题思路
- 首先读取链表的数值到vector，然后对vector反序。
-### 代码
+// ### 解题思路
+//  首先读取链表的数值到vector，然后对vector反序。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

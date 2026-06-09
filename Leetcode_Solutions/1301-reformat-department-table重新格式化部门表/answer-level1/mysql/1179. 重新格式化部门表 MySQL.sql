@@ -1,9 +1,9 @@
-### 解题思路
-1.根据id分类，在使用sum函数对每个月份进行利润合计。在sum中使用swith-case函数对各个月份进行分类。
+-- ### 解题思路
+-- 1.根据id分类，在使用sum函数对每个月份进行利润合计。在sum中使用swith-case函数对各个月份进行分类。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT id,
@@ -21,4 +21,4 @@ SUM(CASE `month` WHEN 'Nov' THEN revenue END) Nov_Revenue,
 SUM(CASE `month` WHEN 'Dec' THEN revenue END) Dec_Revenue
 FROM Department
 GROUP BY id;
-```
+-- ```

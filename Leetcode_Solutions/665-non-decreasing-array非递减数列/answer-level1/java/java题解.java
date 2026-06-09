@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/32f2da368e19e5b4c77ff869ba3562603b71223fed13dbfeb5a6058149f6eccb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/32f2da368e19e5b4c77ff869ba3562603b71223fed13dbfeb5a6058149f6eccb-image.png)
 
 
 
 
-```
+// ```
 class Solution {
     public boolean checkPossibility(int[] nums) {
         int count = 0;
@@ -23,5 +23,5 @@ class Solution {
         return count <= 1;
     }
 }
-```
+// ```
 

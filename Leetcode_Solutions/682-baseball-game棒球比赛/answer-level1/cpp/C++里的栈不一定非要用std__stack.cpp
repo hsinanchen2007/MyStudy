@@ -1,6 +1,6 @@
-很多C++的答案里用了std::stack，由于stack接口的限制，在实现'+'操作时出现了先pop再repush的情况，实际这是不必要的操作。可以用vector或deque，这样可以直接访问最后两条记录。
+// 很多C++的答案里用了std::stack，由于stack接口的限制，在实现'+'操作时出现了先pop再repush的情况，实际这是不必要的操作。可以用vector或deque，这样可以直接访问最后两条记录。
 
-```
+// ```
 class Solution {
 public:
     int calPoints(vector<string>& ops) {
@@ -46,4 +46,4 @@ private:
     }
     
 };
-```
+// ```

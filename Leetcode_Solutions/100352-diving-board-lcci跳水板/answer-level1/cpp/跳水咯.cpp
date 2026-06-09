@@ -1,4 +1,4 @@
-```
+// ```
 vector<int> divingBoard(int shorter, int longer, int k) {
         if(k <= 0) return {};
         if(shorter == longer) return vector<int>(1,k * shorter);
@@ -9,4 +9,4 @@ vector<int> divingBoard(int shorter, int longer, int k) {
         }
         return ans;
     }
-```
+// ```

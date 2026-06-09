@@ -1,10 +1,10 @@
-### 解题思路
-DFS，去重，剪枝
-![image.png](https://pic.leetcode-cn.com/19e9f5174acde7caa8505bd63ca1b6e3b7d82a2acf373bd026ae3fc3db2851ec-image.png)
+// ### 解题思路
+// DFS，去重，剪枝
+// ![image.png](https://pic.leetcode-cn.com/19e9f5174acde7caa8505bd63ca1b6e3b7d82a2acf373bd026ae3fc3db2851ec-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

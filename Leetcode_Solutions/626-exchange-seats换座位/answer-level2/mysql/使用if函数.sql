@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select 
     if(id%2=0,id-1,
@@ -12,6 +12,6 @@ select
     student
     from seat
     order by id;
-```
+-- ```
 
-卧槽,第一次在数据库中使用 if 函数.....
+-- 卧槽,第一次在数据库中使用 if 函数.....

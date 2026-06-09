@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int guessNumber(int n) {
@@ -29,4 +29,4 @@ public:
         return high;
     }
 };
-```
+// ```

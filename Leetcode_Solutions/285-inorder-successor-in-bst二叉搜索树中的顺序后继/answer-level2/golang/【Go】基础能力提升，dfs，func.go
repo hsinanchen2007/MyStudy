@@ -1,6 +1,6 @@
-1.标记出p点，
-2.使用中序遍历下一个节点就是目标
-```
+// 1.标记出p点，
+// 2.使用中序遍历下一个节点就是目标
+// ```
 func inorderSuccessor(root *TreeNode, p *TreeNode) *TreeNode {
 	if root == nil || p == nil {
 		return nil
@@ -38,4 +38,4 @@ func nextNode(root *TreeNode, p *TreeNode) *TreeNode {
 	dfs(root)
 	return result
 }
-```
+// ```

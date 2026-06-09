@@ -1,9 +1,9 @@
-### 解题思路
-回文串，因为回文串字符顺序可以打乱，只要统计单数的字符数量即可，
+# ### 解题思路
+# 回文串，因为回文串字符顺序可以打乱，只要统计单数的字符数量即可，
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canConstruct(self, s: str, k: int) -> bool:
         """
@@ -24,4 +24,4 @@ class Solution:
             if v % 2 == 1:
                 res += 1
         return res <= k
-```
+# ```

@@ -1,7 +1,7 @@
-动态规划
-有意思 奇数 = 偶数 + 1
-偶数 = 偶数 * 2  （左移1）
-```
+// 动态规划
+// 有意思 奇数 = 偶数 + 1
+// 偶数 = 偶数 * 2  （左移1）
+// ```
 class Solution {
 public:
     vector<int> countBits(int num) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

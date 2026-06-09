@@ -1,10 +1,10 @@
-### 解题思路
-c语言写起来好麻烦
-疯狂溢出 我可太菜了
+// ### 解题思路
+// c语言写起来好麻烦
+// 疯狂溢出 我可太菜了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     if (strsSize == 0) {
         return "";
@@ -26,4 +26,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     ret[i] = '\0';
     return ret;
 }
-```
+// ```

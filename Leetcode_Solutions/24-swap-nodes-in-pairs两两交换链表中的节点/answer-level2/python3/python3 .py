@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-建一个dummy头节点，开始交换，三个指针来操作。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 建一个dummy头节点，开始交换，三个指针来操作。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
 
 
 
-```
+# ```

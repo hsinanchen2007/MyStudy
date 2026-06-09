@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countPrimeSetBits(self, L: int, R: int) -> int:
         res = 0
@@ -8,4 +8,4 @@ class Solution:
                 res+=1
         return res
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-模拟数字乘法，得出一个大于10的数字就进位，先存在一个为L1+L2的数组中(因为这是可能最大符长),然后转换为String即可
+// ### 解题思路
+// 模拟数字乘法，得出一个大于10的数字就进位，先存在一个为L1+L2的数组中(因为这是可能最大符长),然后转换为String即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public String multiply(String num1, String num2) {
         if (num1.equals("0") || num2.equals("0")) return "0";
@@ -32,4 +32,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

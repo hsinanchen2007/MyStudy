@@ -1,11 +1,11 @@
-### 解题思路
-如果当前节点深度等于最大深度，相加
-如果当前节点深度大于最大深度，重置sum
-如果当前节点深度小于最大深度，继续向下
+// ### 解题思路
+// 如果当前节点深度等于最大深度，相加
+// 如果当前节点深度大于最大深度，重置sum
+// 如果当前节点深度小于最大深度，继续向下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         helper(node.right,index+1);
     }
 }
-```
+// ```

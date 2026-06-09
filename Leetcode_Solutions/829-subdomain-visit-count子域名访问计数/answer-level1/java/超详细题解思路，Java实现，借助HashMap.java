@@ -1,6 +1,6 @@
-思路：借助HashMap，域名为键，访问次数为值，先按空格分隔原始字符串，得到原始域名和访问次数，然后对原始域名按'逗号分割，得到域名分组，拼接域名分组，得到所有域名和相应的访问次数，将所有域名和访问次数都put到HashMap中，最后遍历HashMap，拼接出答案字符串即可。
+// 思路：借助HashMap，域名为键，访问次数为值，先按空格分隔原始字符串，得到原始域名和访问次数，然后对原始域名按'逗号分割，得到域名分组，拼接域名分组，得到所有域名和相应的访问次数，将所有域名和访问次数都put到HashMap中，最后遍历HashMap，拼接出答案字符串即可。
 
-```processing
+// ```processing
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
         List<String> ans = new ArrayList<>();
@@ -52,4 +52,4 @@ class Solution {
         }
     }
 }
-```
+// ```

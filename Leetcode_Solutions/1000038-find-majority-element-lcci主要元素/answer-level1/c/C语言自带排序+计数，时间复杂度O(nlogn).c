@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int compare(int *a,int *b){
     return *a-*b;
@@ -20,4 +20,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```

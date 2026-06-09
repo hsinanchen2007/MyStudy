@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/97a8bf95ce9096ceeb6bfd836a975baf9a79ba45386b290cac91ca8ac1383f36-image.png)
+// ![image.png](https://pic.leetcode-cn.com/97a8bf95ce9096ceeb6bfd836a975baf9a79ba45386b290cac91ca8ac1383f36-image.png)
 
-- 新建一个二维数组，将 moves 的地方填充进去
-- 通过if判断 行 列 对角线 得知
+// - 新建一个二维数组，将 moves 的地方填充进去
+// - 通过if判断 行 列 对角线 得知
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} moves
  * @return {string}
@@ -41,4 +41,4 @@ var tictactoe = function(moves) {
     return "Pending"
     
 };
-```
+// ```

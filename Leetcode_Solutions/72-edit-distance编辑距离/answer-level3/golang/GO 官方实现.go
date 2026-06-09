@@ -1,10 +1,10 @@
-### 解题思路
-go实现
-![image.png](https://pic.leetcode-cn.com/f3bf4db0400459b12e4b60e75f9c28074418517b543441db52ce010c6a84cfac-image.png)
+// ### 解题思路
+// go实现
+// ![image.png](https://pic.leetcode-cn.com/f3bf4db0400459b12e4b60e75f9c28074418517b543441db52ce010c6a84cfac-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func min(a,b,c int) int {
     minNum := a
     if minNum > b {
@@ -47,4 +47,4 @@ func minDistance(word1 string, word2 string) int {
     }
     return dp[len1][len2]
 }
-```
+// ```

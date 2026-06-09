@@ -1,4 +1,4 @@
-```
+// ```
 bool Check(int a, int b)
 {
     int nums1[10] = {0};
@@ -38,4 +38,4 @@ bool reorderedPowerOf2(int N)
     }
     return false;
 }
-```
+// ```

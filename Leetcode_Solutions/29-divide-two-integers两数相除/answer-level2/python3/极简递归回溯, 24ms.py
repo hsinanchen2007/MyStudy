@@ -1,5 +1,5 @@
-另一个答案里有解释原理
-```
+# 另一个答案里有解释原理
+# ```
 class Solution:
 
     def divide(self, dividend: int, divisor: int) -> int:
@@ -13,4 +13,4 @@ class Solution:
 
         left, ans = rf(dd, dr)
         return -ans if f else 2**31-1 if ans > 2**31-1 else ans
-```
+# ```

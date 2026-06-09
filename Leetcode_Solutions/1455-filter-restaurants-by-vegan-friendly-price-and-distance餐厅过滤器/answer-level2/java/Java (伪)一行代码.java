@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
   public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice,
       int maxDistance) {
@@ -13,4 +13,4 @@ class Solution {
         }).mapToInt(x -> x[0]).boxed().collect(Collectors.toList());
   }
 }
-```
+// ```

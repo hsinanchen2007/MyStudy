@@ -1,5 +1,5 @@
-***Talk is cheap. Show me the code.***
-```
+// ***Talk is cheap. Show me the code.***
+// ```
 class Solution {
 public:
     vector<string> letterCasePermutation(string S) {
@@ -29,5 +29,5 @@ private:
 	vector<string> result;
 };
 
-```
-执行用时还行，内存消耗也就那样了，回溯模板，刷就对了。
+// ```
+// 执行用时还行，内存消耗也就那样了，回溯模板，刷就对了。

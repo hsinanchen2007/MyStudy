@@ -1,10 +1,10 @@
-## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
+// ## [更多leetcode分类题解](https://github.com/reedfan/leetcode/tree/master/src/main/java/leetcode)
 
 
 
-由于nums[-1] = nums[n] = -∞,则峰值一定存在，所以用二分的话，if(nums[mid] > nums[mid + 1])表示左侧存在，否则去右侧找
+// 由于nums[-1] = nums[n] = -∞,则峰值一定存在，所以用二分的话，if(nums[mid] > nums[mid + 1])表示左侧存在，否则去右侧找
 
-```
+// ```
 public int findPeakElement(int[] nums) {
         if(nums.length == 1){
             return nums[0];
@@ -31,4 +31,4 @@ public int findPeakElement(int[] nums) {
         return start;
 
     }
-```
+// ```

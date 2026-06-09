@@ -1,4 +1,4 @@
-```python
+# ```python
 class Node:
     def __init__(self, v, p=None, n=None):
         self.val = v
@@ -70,5 +70,5 @@ class MyLinkedList:
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
-```
-- 本题构建了一个双向的环形链表，记录 key 节点，key.next 指向链表的 head，key.prev 指向链表的 tail
+# ```
+# - 本题构建了一个双向的环形链表，记录 key 节点，key.next 指向链表的 head，key.prev 指向链表的 tail

@@ -1,9 +1,9 @@
-### 解题思路
-递归，注意是利用数组构建构建二叉树，利用数组下标构建
+// ### 解题思路
+// 递归，注意是利用数组构建构建二叉树，利用数组下标构建
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ class Solution {
 
     }
 }
-```
+// ```

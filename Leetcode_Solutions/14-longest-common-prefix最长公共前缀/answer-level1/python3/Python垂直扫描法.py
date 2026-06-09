@@ -1,9 +1,9 @@
-### 解题思路
-依次判断所有字符串的每一列是否相同。
+# ### 解题思路
+# 依次判断所有字符串的每一列是否相同。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                     return strs[0][0:i]
         return strs[0]
 
-```
+# ```

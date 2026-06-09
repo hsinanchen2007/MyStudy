@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -22,4 +22,4 @@ public:
         return q.top() >= 2;
     }
 };
-```
+// ```

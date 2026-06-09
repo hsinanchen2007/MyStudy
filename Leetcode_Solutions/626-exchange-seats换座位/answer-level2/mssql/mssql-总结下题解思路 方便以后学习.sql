@@ -1,4 +1,4 @@
-1.思路是交换student列
+-- 1.思路是交换student列
 select id, 
 case when id=c.count and id%2=1 then (select student from seat where id =c.count) 
 when id%2=1 then (select student from seat where id = a.id+1)

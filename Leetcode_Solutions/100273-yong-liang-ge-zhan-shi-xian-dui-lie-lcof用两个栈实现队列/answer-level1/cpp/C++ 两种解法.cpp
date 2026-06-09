@@ -1,5 +1,5 @@
-### O(1)进队, O(n)出队
-```cpp
+// ### O(1)进队, O(n)出队
+// ```cpp
 class CQueue {
 public:
     CQueue() {
@@ -27,10 +27,10 @@ private:
     stack<int> in;
     stack<int> out;
 };
-```
+// ```
 
-### O(n)进队, O(1)出队
-```cpp
+// ### O(n)进队, O(1)出队
+// ```cpp
 class CQueue {
 public:
     CQueue() {
@@ -60,4 +60,4 @@ private:
     stack<int> main_stk;
     stack<int> sup_stk;
 };
-```
+// ```

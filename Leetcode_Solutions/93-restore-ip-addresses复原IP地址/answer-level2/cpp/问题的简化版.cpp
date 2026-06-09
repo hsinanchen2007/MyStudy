@@ -1,4 +1,4 @@
-因为是只有四段，也就是递归深度也是确定的。这里直接采用四重循环的形式，用continue进行剪枝。
+// 因为是只有四段，也就是递归深度也是确定的。这里直接采用四重循环的形式，用continue进行剪枝。
 class Solution {
 public:
     vector<string> restoreIpAddresses(string s) {

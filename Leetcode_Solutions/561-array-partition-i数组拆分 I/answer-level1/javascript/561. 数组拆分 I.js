@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 将 ``数组`` 按从小到大的顺序排序
-- 累加奇数个的和即为结果
+// - 将 ``数组`` 按从小到大的顺序排序
+// - 累加奇数个的和即为结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var arrayPairSum = function(nums) {
     }
     return sum
 };
-```
+// ```

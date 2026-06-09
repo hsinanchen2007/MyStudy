@@ -1,4 +1,4 @@
-```mysql
+-- ```mysql
 SELECT
 	d. NAME AS department,
 	t. NAME AS employee,
@@ -20,4 +20,4 @@ JOIN department d ON t.departmentid = d.id
 ORDER BY
 	t.departmentid ASC,
 	salary DESC;
-```
+-- ```

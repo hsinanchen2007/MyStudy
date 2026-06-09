@@ -1,6 +1,6 @@
-想法很简单，就是最终看有多少个奇数个数的字母。
+# 想法很简单，就是最终看有多少个奇数个数的字母。
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         odd = set()
@@ -17,4 +17,4 @@ class Solution(object):
         if not odd:
             return len(s)
         return len(s) - (len(odd) - 1)
-```
+# ```

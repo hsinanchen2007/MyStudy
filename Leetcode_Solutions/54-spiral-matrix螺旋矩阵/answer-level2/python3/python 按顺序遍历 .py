@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a8ce62fcce83378f98beb9d0b0d9a218a7d7532bcb6207e338fd2c1f036f5dc9-image.png)
-检测边界条件，不满足就跳出，比不上大佬的[::-1]和zip方法求转置牛逼，但是好像这样快一点
-```
+# ![image.png](https://pic.leetcode-cn.com/a8ce62fcce83378f98beb9d0b0d9a218a7d7532bcb6207e338fd2c1f036f5dc9-image.png)
+# 检测边界条件，不满足就跳出，比不上大佬的[::-1]和zip方法求转置牛逼，但是好像这样快一点
+# ```
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:
@@ -36,4 +36,4 @@ class Solution:
             if is_boundry():
                 break
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 """
 时间复杂度为O(n)， 空间复杂度为O(1)
 思路：left、right游标分别从列表左右两端向中间靠拢
@@ -24,4 +24,4 @@ class Solution:
             tmp = h * (r - l)  #计算当前容器的容量
             max = tmp if tmp > max else max
         return max
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int longestPalindrome(string str) {
@@ -8,4 +8,4 @@ public:
         return ret == str.size() ? ret : ret + 1;
     }
 };
-```
+// ```

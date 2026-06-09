@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         # 典型的动态规划问题
@@ -18,4 +18,4 @@ class Solution:
                     dpTable[i][j] = min(dpTable[i - 1][j], dpTable[i][j - 1], 
                     dpTable[i - 1][j - 1]) + 1
         return dpTable[-1][-1]
-```
+# ```

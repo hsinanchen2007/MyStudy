@@ -1,5 +1,5 @@
-用比较自然的想法，先统计（和）的最小值作为limit,第二次遍历中如果先出现），看剩下的够不够填充。足够的话，limit不变，不够则limit-1..
-```
+# 用比较自然的想法，先统计（和）的最小值作为limit,第二次遍历中如果先出现），看剩下的够不够填充。足够的话，limit不变，不够则limit-1..
+# ```
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
         ret=''
@@ -25,4 +25,4 @@ class Solution:
         return ret
                 
                 
-```
+# ```

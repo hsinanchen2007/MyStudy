@@ -1,5 +1,5 @@
-判断边界条件有点恶心 =。=
-```
+# 判断边界条件有点恶心 =。=
+# ```
 class Solution(object):
     def rotateRight(self, head, k):
         """
@@ -26,4 +26,4 @@ class Solution(object):
         return newHead.next
             
         
-```
+# ```

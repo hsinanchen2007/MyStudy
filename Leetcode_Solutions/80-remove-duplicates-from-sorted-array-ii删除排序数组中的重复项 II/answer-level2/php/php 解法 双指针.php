@@ -1,4 +1,4 @@
-```
+// ```
 function removeDuplicates(&$nums) {
     $m = 0;
     for($i=0;$i<count($nums);$i++){
@@ -9,4 +9,4 @@ function removeDuplicates(&$nums) {
     }
     return $m;
 }
-```
+// ```

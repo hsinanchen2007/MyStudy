@@ -1,10 +1,10 @@
-### 解题思路
-//动态规划问题，寻找状态，连续子数组和最大
-//当前数组位i：dpmax = max(dpmax+num[i], num[i])
+// ### 解题思路
+// //动态规划问题，寻找状态，连续子数组和最大
+// //当前数组位i：dpmax = max(dpmax+num[i], num[i])
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 int maxSubArray(int* nums, int numsSize){
    int dpmax = 0;
@@ -15,4 +15,4 @@ int maxSubArray(int* nums, int numsSize){
    }
     return max;
 }
-```
+// ```

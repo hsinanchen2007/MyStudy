@@ -1,8 +1,8 @@
-### 解题思路
-自己先实现了一个Fifo 之后使用自己实现的fifo来完成要求
-### 代码
+// ### 解题思路
+// 自己先实现了一个Fifo 之后使用自己实现的fifo来完成要求
+// ### 代码
 
-```golang
+// ```golang
 import "fmt"
 type Fifo struct{
 	array []int
@@ -141,4 +141,4 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
     return this.FifoPair[0].FifoSize() == 0 && this.FifoPair[1].FifoSize() == 0
 }
-```
+// ```

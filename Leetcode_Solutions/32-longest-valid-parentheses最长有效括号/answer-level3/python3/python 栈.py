@@ -1,9 +1,9 @@
-### 解题思路
-类似")))))"永远记录最右侧")"的index,遍历字符串，当为”("入栈，为“)"出栈，记录res=max(res,index-stack[-1])
+# ### 解题思路
+# 类似")))))"永远记录最右侧")"的index,遍历字符串，当为”("入栈，为“)"出栈，记录res=max(res,index-stack[-1])
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         stack=[-1]
@@ -18,4 +18,4 @@ class Solution:
                 else:
                     res=max(res,index-stack[-1])
         return res
-```
+# ```

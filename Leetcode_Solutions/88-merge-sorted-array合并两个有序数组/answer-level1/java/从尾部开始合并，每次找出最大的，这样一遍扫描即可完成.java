@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         //先归并大的，这样一遍扫面即可。
@@ -22,4 +22,4 @@ class Solution {
        }
     }
 }
-```
+// ```

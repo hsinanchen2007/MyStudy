@@ -1,12 +1,12 @@
-![1.png](https://pic.leetcode-cn.com/04b94e3dac4c27135d9916521d14e24815f761add91ae28278767cdc0cc02a41-1.png)
+// ![1.png](https://pic.leetcode-cn.com/04b94e3dac4c27135d9916521d14e24815f761add91ae28278767cdc0cc02a41-1.png)
 
-1、先在 a 空间中，将3行键盘的下标分别记为1，2，3；
-2、遍历数组，如果不在同一行就退出；
-3、如果是正常退出的，将单词记录。
+// 1、先在 a 空间中，将3行键盘的下标分别记为1，2，3；
+// 2、遍历数组，如果不在同一行就退出；
+// 3、如果是正常退出的，将单词记录。
 
-写的好累，幸好最后的分值还好。
+// 写的好累，幸好最后的分值还好。
 
-```
+// ```
     *returnSize=0;
     char **res=(char**)malloc(sizeof(char*)*wordsSize);
     char *a=(char*)calloc(59,sizeof(char));
@@ -32,5 +32,5 @@
         }
     }
     return res;
-```
+// ```
 

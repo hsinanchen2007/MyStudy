@@ -1,4 +1,4 @@
-```c++
+// ```c++
 struct Node{
     int key;
     int val;
@@ -74,4 +74,4 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

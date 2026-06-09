@@ -1,9 +1,9 @@
-### 解题思路
-dp[i]表示最后一个元素为nums[i]时的最长长度
+# ### 解题思路
+# dp[i]表示最后一个元素为nums[i]时的最长长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if not nums:
@@ -15,4 +15,4 @@ class Solution:
                 if nums[j]<nums[i]:
                     dp[i]=max(dp[i],dp[j]+1)
         return max(dp)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-利用动态规划的思想来进行解答，状态表示为dp[i][j]，代表了s的前i个字符是否匹配p的前j个字符
-状态转移分为当p[j] 是否等于'*'
+# ### 解题思路
+# 利用动态规划的思想来进行解答，状态表示为dp[i][j]，代表了s的前i个字符是否匹配p的前j个字符
+# 状态转移分为当p[j] 是否等于'*'
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         n = len(s)
@@ -30,4 +30,4 @@ class Solution:
                                 dp[i][j] = True
         return dp[n][m]
 
-```
+# ```

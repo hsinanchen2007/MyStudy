@@ -1,9 +1,9 @@
-### 解题思路
-看注释
+// ### 解题思路
+// 看注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isInt(string& s, int& index) {		// 判断是不是带有正负号的整数
@@ -37,4 +37,4 @@ public:
         return ans && index == s.size();
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-排序后，间隔一个取数。
+# ### 解题思路
+# 排序后，间隔一个取数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         nums.sort()
@@ -12,4 +12,4 @@ class Solution:
             sum += nums[i]
         return sum
 
-```
+# ```

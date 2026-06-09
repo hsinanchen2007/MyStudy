@@ -1,4 +1,4 @@
-```
+// ```
 func max(a, b string) string {
 	if a < b {
 		return b
@@ -43,4 +43,4 @@ func splitLoopedString(strs []string) string {
 	}
 	return out
 }
-```
+// ```

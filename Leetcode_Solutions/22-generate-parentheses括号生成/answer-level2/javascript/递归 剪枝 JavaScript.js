@@ -1,8 +1,8 @@
-### 解题思路
-递归出所有可能，删除不符合条件的字符串
-### 代码
+// ### 解题思路
+// 递归出所有可能，删除不符合条件的字符串
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -30,4 +30,4 @@ var generateParenthesis = function(n) {
     }
     return recusion(2*n);
 };
-```
+// ```

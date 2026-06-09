@@ -1,10 +1,10 @@
-### 解题思路
-1. 回溯算法模版 https://leetcode-cn.com/problems/n-queens/solution/hui-su-suan-fa-xiang-jie-by-labuladong/
-2. 官方题解的冲突判断方法
+# ### 解题思路
+# 1. 回溯算法模版 https://leetcode-cn.com/problems/n-queens/solution/hui-su-suan-fa-xiang-jie-by-labuladong/
+# 2. 官方题解的冲突判断方法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def solveNQueens(self, n):
         """
@@ -86,4 +86,4 @@ class Solution(object):
         # print(board)
         backtrack(board, 0)
         return res
-```
+# ```

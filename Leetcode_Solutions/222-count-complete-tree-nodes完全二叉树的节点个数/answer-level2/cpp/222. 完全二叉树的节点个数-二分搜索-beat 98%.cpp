@@ -1,6 +1,6 @@
-找出最下层的范围，然后使用基于 upperbound 的二分搜索。
+// 找出最下层的范围，然后使用基于 upperbound 的二分搜索。
 
-```
+// ```
 int countNodes(TreeNode* root) {
     int h = 0, lo = 0, hi = 0;
     if (!root) return 0;
@@ -43,4 +43,4 @@ int countNodes(TreeNode* root) {
 
     return lo;
 }
-```
+// ```

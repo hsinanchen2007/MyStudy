@@ -1,4 +1,4 @@
-`````
+// `````
 class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

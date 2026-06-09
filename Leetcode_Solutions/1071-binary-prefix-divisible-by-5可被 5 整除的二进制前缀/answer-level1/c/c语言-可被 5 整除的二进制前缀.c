@@ -1,10 +1,10 @@
-### 解题思路
-看了前排大佬的解题思路，按正常思维会出现越位，long long int 也不行
-num=num*2+A[i]换成num=num%10*2+A[i];
+// ### 解题思路
+// 看了前排大佬的解题思路，按正常思维会出现越位，long long int 也不行
+// num=num*2+A[i]换成num=num%10*2+A[i];
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -20,4 +20,4 @@ bool* prefixesDivBy5(int* A, int ASize, int* returnSize){
     }
     return returnA;
 }
-```
+// ```

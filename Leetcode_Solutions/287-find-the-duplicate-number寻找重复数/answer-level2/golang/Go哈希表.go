@@ -1,4 +1,4 @@
-```
+// ```
 func findDuplicate(nums []int) int {
     group:=make(map[int]int)
     for _,v := range nums{
@@ -9,4 +9,4 @@ func findDuplicate(nums []int) int {
     }
     return 0
 }
-```
+// ```

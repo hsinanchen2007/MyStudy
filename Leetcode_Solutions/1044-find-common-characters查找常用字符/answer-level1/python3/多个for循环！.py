@@ -1,10 +1,10 @@
-### 解题思路
-值得注意的是：
-count = [a.count(c) for a in A]比原来的for+if慢了约500ms！！！
+# ### 解题思路
+# 值得注意的是：
+# count = [a.count(c) for a in A]比原来的for+if慢了约500ms！！！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         res = []
@@ -19,4 +19,4 @@ class Solution:
                 res.append(c)
 
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int * count_next(char *s){
     int *next = (int *)malloc(sizeof(int)*(strlen(s)+1));
     next[0]=-1;
@@ -25,4 +25,4 @@ bool repeatedSubstringPattern(char * s){
         return true;
     return false;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-## 直接动态规划
-时间复杂度：O(MN)
-空间复杂度: O(MN)
-```cpp
+// ## 直接动态规划
+// 时间复杂度：O(MN)
+// 空间复杂度: O(MN)
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -36,14 +36,14 @@ public:
         return dp[rows - 1][cols - 1];
     }
 };
-```
+// ```
 
-## 状态压缩后
-时间复杂度：O(MN)
-空间复杂度: O(N)
-因为状态转移至涉及左、上、左上三个点，所以可以压缩成一维数组
+// ## 状态压缩后
+// 时间复杂度：O(MN)
+// 空间复杂度: O(N)
+// 因为状态转移至涉及左、上、左上三个点，所以可以压缩成一维数组
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -71,4 +71,4 @@ public:
         return dp[cols - 1];
     }
 };
-```
+// ```

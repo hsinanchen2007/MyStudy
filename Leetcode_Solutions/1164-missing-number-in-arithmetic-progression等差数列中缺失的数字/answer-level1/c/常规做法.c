@@ -1,4 +1,4 @@
-```
+// ```
 int missingNumber(int* arr, int arrSize){
     if(arr == NULL || arrSize == 0) {
         return 0;
@@ -12,4 +12,4 @@ int missingNumber(int* arr, int arrSize){
     }
     return 0;
 }
-```
+// ```

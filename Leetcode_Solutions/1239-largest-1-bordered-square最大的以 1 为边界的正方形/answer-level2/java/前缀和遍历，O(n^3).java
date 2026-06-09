@@ -1,10 +1,10 @@
-### 解题思路
-![1584862615(1).png](https://pic.leetcode-cn.com/03d5b2591af9b4341829a0912bca3fdebc9cda9735af06400f0d46495a4a1818-1584862615\(1\).png)
-此处撰写解题思路
+// ### 解题思路
+// ![1584862615(1).png](https://pic.leetcode-cn.com/03d5b2591af9b4341829a0912bca3fdebc9cda9735af06400f0d46495a4a1818-1584862615\(1\).png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largest1BorderedSquare(int[][] grid) {
         int maxLen=0,col=grid[0].length,row=grid.length;
@@ -53,4 +53,4 @@ class Solution {
         return maxLen*maxLen;
     }
 }
-```
+// ```

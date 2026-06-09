@@ -1,11 +1,11 @@
-### 解题思路
-对于两个有序数组而言，每次干掉一个最小值，干掉一个最大值，循环(nums1.length + nums2.length - 1) / 2次，如果有一个数组为空，则跳出循环。
-如果有一个数组为空，则可以直接计算另一个数组的中位数即可；
-如果两个数组都不为空，此时每个数组正好各剩一个数，求这两个数的平均数即可。
+// ### 解题思路
+// 对于两个有序数组而言，每次干掉一个最小值，干掉一个最大值，循环(nums1.length + nums2.length - 1) / 2次，如果有一个数组为空，则跳出循环。
+// 如果有一个数组为空，则可以直接计算另一个数组的中位数即可；
+// 如果两个数组都不为空，此时每个数组正好各剩一个数，求这两个数的平均数即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int times = (nums1.length + nums2.length - 1) / 2;
@@ -42,4 +42,4 @@ class Solution {
         return (nums1[start1] + nums2[start2]) * 0.5;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-begin记录上次灌溉结束位置，farthest记录本次可灌溉最远位置
+// ### 解题思路
+// begin记录上次灌溉结束位置，farthest记录本次可灌溉最远位置
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minTaps(int n, vector<int>& ranges) {
@@ -21,4 +21,4 @@ public:
         return count;
     }
 };
-```
+// ```

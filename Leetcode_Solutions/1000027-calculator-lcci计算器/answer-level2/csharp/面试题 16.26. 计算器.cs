@@ -1,11 +1,11 @@
-### 解题思路
-使用Stack处理运算符优先级；
-Stack只存储+和-运算符的数据；
-遇到*和/运算符时直接取Stack顶数字计算后再放回Stack；
+// ### 解题思路
+// 使用Stack处理运算符优先级；
+// Stack只存储+和-运算符的数据；
+// 遇到*和/运算符时直接取Stack顶数字计算后再放回Stack；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Calculate(string s) {
         if (string.IsNullOrWhiteSpace(s)) return 0;
@@ -80,4 +80,4 @@ public class Solution {
         numberBuilder.Clear();
     }
 }
-```
+// ```

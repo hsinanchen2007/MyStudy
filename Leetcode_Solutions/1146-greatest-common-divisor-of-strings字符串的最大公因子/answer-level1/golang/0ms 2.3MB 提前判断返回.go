@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-先查找最大前缀 然后判断
+// 先查找最大前缀 然后判断
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func gcdOfStrings(str1 string, str2 string) string {
 
@@ -75,4 +75,4 @@ func help(str1 string, str2 string, len1, len2 int, subStr string, subLen int) b
 
 }
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-查找从第一天到倒数第二天，每天买入能赚取的最大值，再在每天赚取的最大值中挑选赚取最多的值。
-这样做空间复杂度 n，时间复杂度 n方
+// ### 解题思路
+// 查找从第一天到倒数第二天，每天买入能赚取的最大值，再在每天赚取的最大值中挑选赚取最多的值。
+// 这样做空间复杂度 n，时间复杂度 n方
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     result := 0
     for i, v := range prices {
@@ -19,4 +19,4 @@ func maxProfit(prices []int) int {
     }
     return result
 }
-```
+// ```

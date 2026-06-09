@@ -1,9 +1,9 @@
-### 解题思路
-记得考虑空树的情况,前面是我自己写的队列
+// ### 解题思路
+// 记得考虑空树的情况,前面是我自己写的队列
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -134,4 +134,4 @@ int* rightSideView(struct TreeNode* root, int* returnSize)
     return arr;
 }
 
-```
+// ```

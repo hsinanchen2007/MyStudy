@@ -1,9 +1,9 @@
-### 解题思路
-在一个新数组中记录nums[i]元素的最大自序和,如果nums[i]与nums[i-1]的自序和相加小于nums[i]本身,则放弃加上之前的序列,新数组中记录nums[i]的值(相当于最大序列和从当前值重新开始统计序列和)...
+// ### 解题思路
+// 在一个新数组中记录nums[i]元素的最大自序和,如果nums[i]与nums[i-1]的自序和相加小于nums[i]本身,则放弃加上之前的序列,新数组中记录nums[i]的值(相当于最大序列和从当前值重新开始统计序列和)...
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return themax;
     }
 };
-```
+// ```

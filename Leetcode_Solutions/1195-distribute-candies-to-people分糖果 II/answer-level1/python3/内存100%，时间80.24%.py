@@ -1,9 +1,9 @@
-### 解题思路
-while循环，求模
+# ### 解题思路
+# while循环，求模
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         ans = [0]*num_people
@@ -18,4 +18,4 @@ class Solution:
         return ans
 
 
-```
+# ```

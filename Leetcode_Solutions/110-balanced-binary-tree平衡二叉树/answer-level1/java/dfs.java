@@ -1,9 +1,9 @@
-### 解题思路
--1做特殊值，避免无用遍历。
+// ### 解题思路
+// -1做特殊值，避免无用遍历。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return Math.max(l, r) + 1;
     }
 }
-```
+// ```

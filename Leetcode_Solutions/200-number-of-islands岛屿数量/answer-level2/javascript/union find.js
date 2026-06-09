@@ -1,9 +1,9 @@
-### 解题思路
-并查集
+// ### 解题思路
+// 并查集
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -56,4 +56,4 @@ var numIslands = function(grid) {
     }
     return count;
 };
-```
+// ```

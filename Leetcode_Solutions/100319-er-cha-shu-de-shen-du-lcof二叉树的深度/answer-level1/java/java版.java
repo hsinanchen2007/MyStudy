@@ -1,9 +1,9 @@
-### 解题思路
-1 树的高度为左右子树高度的最大值加上根节点。
+// ### 解题思路
+// 1 树的高度为左右子树高度的最大值加上根节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -18,4 +18,4 @@ class Solution {
         return root==null?0:Math.max(maxDepth(root.left),maxDepth(root.right))+1;
     }
 }
-```
+// ```

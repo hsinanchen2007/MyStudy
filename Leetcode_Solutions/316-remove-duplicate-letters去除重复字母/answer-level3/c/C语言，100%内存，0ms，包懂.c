@@ -1,6 +1,6 @@
-详见注释，无需多言
+// 详见注释，无需多言
 
-```
+// ```
 char *removeDuplicateLetters(char *s)
 {
     char *iter = s;
@@ -51,4 +51,4 @@ char *removeDuplicateLetters(char *s)
 
     return s;
 }
-```
+// ```

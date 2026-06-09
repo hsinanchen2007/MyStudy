@@ -1,9 +1,9 @@
-### 解题思路
-双指针遍历比较大小
+// ### 解题思路
+// 双指针遍历比较大小
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -18,4 +18,4 @@ public:
         return len;
     }
 };
-```
+// ```

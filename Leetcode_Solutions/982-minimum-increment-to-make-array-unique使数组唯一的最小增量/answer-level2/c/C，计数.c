@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minIncrementForUnique(int* A, int ASize){
     int* hash = (int *)malloc(sizeof(int) * 80000);
     memset(hash, 0, sizeof(int) * 80000);
@@ -25,4 +25,4 @@ int minIncrementForUnique(int* A, int ASize){
     free(hash);
     return ret;
 }
-```
+// ```

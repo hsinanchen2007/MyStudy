@@ -1,5 +1,5 @@
-后一个比前一个大就要操作买入卖出
-```
+// 后一个比前一个大就要操作买入卖出
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -15,4 +15,4 @@ public:
         return val[prices.size() - 1];
     }
 };
-```
+// ```

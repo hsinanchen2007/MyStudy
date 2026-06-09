@@ -1,4 +1,4 @@
-```
+// ```
 func maximumAverageSubtree(root *TreeNode) float64 {
 	var o float64
 	var cal func(*TreeNode) (int, int)
@@ -17,4 +17,4 @@ func maximumAverageSubtree(root *TreeNode) float64 {
 	cal(root)
 	return o
 }
-```
+// ```

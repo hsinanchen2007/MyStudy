@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         n1 = 0
@@ -23,4 +23,4 @@ class Solution:
                 result.pop(0)
         return(result)	
 
-```
+# ```

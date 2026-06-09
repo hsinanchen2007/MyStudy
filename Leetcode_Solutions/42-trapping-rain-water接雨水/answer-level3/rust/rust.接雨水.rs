@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn trap(height: Vec<i32>) -> i32 {
         if (height.len()==0){
@@ -27,4 +27,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

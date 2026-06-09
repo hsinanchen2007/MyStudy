@@ -1,12 +1,12 @@
-### 解题思路
-注意：
-1、斐波那契数列
-2、递归会超时
-3、用循环计算，同时注意result=result%1000000007
+# ### 解题思路
+# 注意：
+# 1、斐波那契数列
+# 2、递归会超时
+# 3、用循环计算，同时注意result=result%1000000007
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numWays(self, n: int) -> int:
         if n == 0:
@@ -18,4 +18,4 @@ class Solution:
             result = a + b
             a, b = b, result
         return result % 1000000007
-```
+# ```

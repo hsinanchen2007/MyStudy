@@ -1,7 +1,7 @@
 
 
-## 一个略愚蠢的解法
-```java
+// ## 一个略愚蠢的解法
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         if(numRows == 1) return s;
@@ -26,4 +26,4 @@ class Solution {
         
     }
 }
-```
+// ```

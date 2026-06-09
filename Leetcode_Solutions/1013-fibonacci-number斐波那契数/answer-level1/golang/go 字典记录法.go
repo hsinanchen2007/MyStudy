@@ -1,8 +1,8 @@
-### 解题思路
-使用字典记录计算过的值 下次就不用重复计算了
-### 代码
+// ### 解题思路
+// 使用字典记录计算过的值 下次就不用重复计算了
+// ### 代码
 
-```golang
+// ```golang
 func fib(N int) int {
 	recoder := make(map[int]int)
     return fibHelper(N, recoder)
@@ -21,4 +21,4 @@ func fibHelper(N int, recorder map[int]int) int {
 	    return res
 	}
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn longest_palindrome(s: String) -> String {
         let mut max_sub_str = "".to_string();
@@ -38,4 +38,4 @@ impl Solution {
 		max_sub_str
     }
 }
-```
+// ```

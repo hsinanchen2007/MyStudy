@@ -1,5 +1,5 @@
-方法一 暴力，超时
-```
+// 方法一 暴力，超时
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -10,8 +10,8 @@ public:
         }
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -22,10 +22,10 @@ public:
         rotate(nums,k-1);
     }
 };
-```
-方法二 需要额外的vector
- 1.大小和nums一样
-```
+// ```
+// 方法二 需要额外的vector
+//  1.大小和nums一样
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -34,9 +34,9 @@ public:
         for(int i=0;i<nums.size();i++) nums[i] = newvec[i];
     }
 };
-```
- 2.大小为k
-```
+// ```
+//  2.大小为k
+// ```
 class Solution {
 public:
      void rotate(vector<int>& nums, int k) {
@@ -50,9 +50,9 @@ public:
         for(int j=tmp.size()-1;j>=0;j--) it=nums.insert(it,tmp[j]);    
     }
 };
-```
-方法三 反转
-```
+// ```
+// 方法三 反转
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -61,6 +61,6 @@ public:
         reverse(nums.begin()+k%nums.size(),nums.end());
     }
 };
-```
+// ```
 
 

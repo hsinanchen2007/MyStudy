@@ -1,5 +1,5 @@
-思路：统计字符串中各字符出现次数，奇数出现次数<2的能构成回文串，反之，不行
-```
+# 思路：统计字符串中各字符出现次数，奇数出现次数<2的能构成回文串，反之，不行
+# ```
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         dic = {}
@@ -10,4 +10,4 @@ class Solution:
             if i%2==1:
                 count+=1
         return count<2
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-- 双端队列和流处理
+// - 双端队列和流处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 package com.company.simple;
 
 import java.util.ArrayDeque;
@@ -114,4 +114,4 @@ public class LeetCode_59_LCOF {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

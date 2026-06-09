@@ -1,6 +1,6 @@
-个人喜欢 左右互动，有的喜欢上下互动
-个人喜欢吧，heihei
-```
+// 个人喜欢 左右互动，有的喜欢上下互动
+// 个人喜欢吧，heihei
+// ```
 public int peakIndexInMountainArray(int[] A) {
 	int left = 0;// 左边界
 	int right = A.length - 1;// 右边界
@@ -28,4 +28,4 @@ public int peakIndexInMountainArray(int[] A) {
 	}
 	return middle;//返回下标
 }
-```
+// ```

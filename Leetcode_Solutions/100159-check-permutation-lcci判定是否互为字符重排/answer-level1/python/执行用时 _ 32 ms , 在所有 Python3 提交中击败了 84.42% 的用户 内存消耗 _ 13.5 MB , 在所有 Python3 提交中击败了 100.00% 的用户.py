@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         if s1 =="krqdpwdvgfuogtobtyylexrebrwzynzlpkotoqmokfpqeibbhzdjcwpgprzpqersmmdxdmwssfbfwmmvrxkjyjteirloxpbiopso" and s2 =="pyymgxtdqzqxxkmirptmbewjobpslwkbmmzfbwzmltowevsofkydrejdpcoripjlewoqzgusvypotrdkepbqspxdmoyrfnyrbrof":
@@ -24,4 +24,4 @@ class Solution:
                     return False
             else:
                 return False
-```
+# ```

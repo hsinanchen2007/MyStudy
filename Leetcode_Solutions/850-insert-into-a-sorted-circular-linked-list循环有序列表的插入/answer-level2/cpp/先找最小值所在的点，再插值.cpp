@@ -1,5 +1,5 @@
-先找最小值所在的点，再插值
-```
+// 先找最小值所在的点，再插值
+// ```
 class Solution {
 public:
     Node* insert(Node* head, int insertVal) {
@@ -42,4 +42,4 @@ public:
         return head;
     }
 };
-```
+// ```

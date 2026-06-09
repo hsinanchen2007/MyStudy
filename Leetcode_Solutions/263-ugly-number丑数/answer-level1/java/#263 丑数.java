@@ -1,12 +1,12 @@
-### 解题思路
-因吹斯听...
-![微信截图_20200323195352.png](https://pic.leetcode-cn.com/c1a0e47cba78f5139aa6b91824286715d35ca67167fda61da36923891ed89599-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200323195352.png)
+// ### 解题思路
+// 因吹斯听...
+// ![微信截图_20200323195352.png](https://pic.leetcode-cn.com/c1a0e47cba78f5139aa6b91824286715d35ca67167fda61da36923891ed89599-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200323195352.png)
 
-递归
+// 递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUgly(int num) {
         if(num<=0){
@@ -18,4 +18,4 @@ class Solution {
         }
     }
 }
-```
+// ```

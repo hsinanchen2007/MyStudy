@@ -1,5 +1,5 @@
-字符串最后一个字符是'\0', 不是'#', 要特别处理一下
-```
+// 字符串最后一个字符是'\0', 不是'#', 要特别处理一下
+// ```
 class Solution {
 public:
     bool isValidSerialization(string preorder) {
@@ -18,4 +18,4 @@ public:
         return count == 0;
     }
 };
-```
+// ```

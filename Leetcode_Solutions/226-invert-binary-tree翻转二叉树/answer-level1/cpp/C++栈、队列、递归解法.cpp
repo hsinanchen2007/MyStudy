@@ -1,5 +1,5 @@
-给出C++语言栈、队列、递归的解法
-```
+// 给出C++语言栈、队列、递归的解法
+// ```
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) 
@@ -51,4 +51,4 @@ public:
 */      
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public class ListNode {
   public var val: Int
   public var next: ListNode?
@@ -24,4 +24,4 @@ func haveCicleOfListNode(list: ListNode?) -> Bool {
     }
     return false;
 }
-```
+// ```

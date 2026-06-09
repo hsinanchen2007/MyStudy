@@ -1,9 +1,9 @@
-### 解题思路
-...
+# ### 解题思路
+# ...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countSegments(self, s):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: int
         """
         return len(s.split())
-```
+# ```

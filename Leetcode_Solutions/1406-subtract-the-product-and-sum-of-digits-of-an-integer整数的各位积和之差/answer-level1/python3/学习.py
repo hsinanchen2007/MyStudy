@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         he = 0
@@ -7,4 +7,4 @@ class Solution:
             he += int(i)
             ji *= int(i)
         return ji-he
-```
+# ```

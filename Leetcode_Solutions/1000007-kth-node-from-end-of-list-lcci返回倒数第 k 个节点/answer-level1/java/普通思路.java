@@ -1,10 +1,10 @@
-### 解题思路
-- 1.循环先找最大值。
-- 2.循环找到最大值递减至k的位置。返回
+// ### 解题思路
+// - 1.循环先找最大值。
+// - 2.循环找到最大值递减至k的位置。返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return r;
     }
 }
-```
+// ```

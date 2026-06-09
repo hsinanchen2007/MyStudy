@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :48 ms
-内存消耗 :12.7 MB
+# ### 解题思路
+# 执行用时 :48 ms
+# 内存消耗 :12.7 MB
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         num = 0
@@ -18,4 +18,4 @@ class Solution:
             n = s.count(i)
             num = num + n*dict2[i]
         return num
-```
+# ```

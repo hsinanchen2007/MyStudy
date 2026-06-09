@@ -1,4 +1,4 @@
-```c
+// ```c
 int* sumZero(int n, int* returnSize){
     short i;
     int *a=(int*)malloc(n*sizeof(n));
@@ -8,4 +8,4 @@ int* sumZero(int n, int* returnSize){
     *returnSize=n;
     return a;
 }
-```
+// ```

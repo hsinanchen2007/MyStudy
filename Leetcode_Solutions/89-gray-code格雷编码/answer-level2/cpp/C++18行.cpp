@@ -1,5 +1,5 @@
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> grayCode(int n) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

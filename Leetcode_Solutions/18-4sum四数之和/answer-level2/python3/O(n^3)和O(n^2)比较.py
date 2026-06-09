@@ -1,6 +1,6 @@
-python3,O(n^3)算法是900ms左右，O(n^2)算法164ms，n方算法就是开个两数的hash（n*(n-1)/2），然后再双指针匹配（n*(n-1)/2），但可能判断操作太多了，所以最后只有84%左右
+# python3,O(n^3)算法是900ms左右，O(n^2)算法164ms，n方算法就是开个两数的hash（n*(n-1)/2），然后再双指针匹配（n*(n-1)/2），但可能判断操作太多了，所以最后只有84%左右
 
-```stata
+# ```stata
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -24,6 +24,6 @@ class Solution:
                                 r+=[e]
                             
         return r
-```
+# ```
 
 

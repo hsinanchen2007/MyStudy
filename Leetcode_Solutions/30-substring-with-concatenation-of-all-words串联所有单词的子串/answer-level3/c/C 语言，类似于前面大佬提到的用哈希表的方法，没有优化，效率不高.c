@@ -1,7 +1,7 @@
-![图片.png](https://pic.leetcode-cn.com/452852cd2497c30f2ed662b1d36cb6c5ca5a96a15efbd6893a9ef739750fa62c-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/452852cd2497c30f2ed662b1d36cb6c5ca5a96a15efbd6893a9ef739750fa62c-%E5%9B%BE%E7%89%87.png)
 
 
-```
+// ```
 struct Word
 {
 	char *str;
@@ -128,6 +128,6 @@ findSubstring( char *s, char **words, int wordsSize, int *returnSize )
 
 	return returnPos;
 }
-```
-写得也是非常痛苦，一天的学习时间都栽在这上面了。
-如果有同学想要知道算法是怎么样的，请在下面留言，我来日补上算法描述。
+// ```
+// 写得也是非常痛苦，一天的学习时间都栽在这上面了。
+// 如果有同学想要知道算法是怎么样的，请在下面留言，我来日补上算法描述。

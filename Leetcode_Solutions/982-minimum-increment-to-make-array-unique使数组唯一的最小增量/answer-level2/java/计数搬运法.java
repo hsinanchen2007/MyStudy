@@ -1,11 +1,11 @@
-### 解题思路
-一开始采用HashMap记录出现字符 统计频率 在遍历字符数组 将cnt大于1的key累加 到新的hash位置 
-但是会超时 
-采用线性探测和路径压缩 时间复杂度 是o(n) 但是 比计数搬运耗时多
+// ### 解题思路
+// 一开始采用HashMap记录出现字符 统计频率 在遍历字符数组 将cnt大于1的key累加 到新的hash位置 
+// 但是会超时 
+// 采用线性探测和路径压缩 时间复杂度 是o(n) 但是 比计数搬运耗时多
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int minIncrementForUnique(int[] A){
 	    int arr[]=initCountArray(A);
@@ -52,4 +52,4 @@ class Solution {
 		return cnt;
 	}
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def partitionLabels(self, S):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         return count
             
         
-```
+# ```

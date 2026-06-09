@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/03df8572083f9f2f45892c0f256f0342c952629073954cd691941afe6b3a0c16-image.png)
+// ![image.png](https://pic.leetcode-cn.com/03df8572083f9f2f45892c0f256f0342c952629073954cd691941afe6b3a0c16-image.png)
 
-这题没什么意思，找了个 KMP 代码，改了改交上去了，代码懒得优化了，看看就好
+// 这题没什么意思，找了个 KMP 代码，改了改交上去了，代码懒得优化了，看看就好
 
-代码：
-```
+// 代码：
+// ```
 //传统next数组
 func getNext(p string) []int {
  
@@ -94,6 +94,6 @@ func strStr(haystack string, needle string) int {
     
     return KmpSearch(haystack, needle)
 }
-```
+// ```
 
-参考资料：[KMP算法golang实现](https://blog.csdn.net/anliayx/article/details/86495826)
+// 参考资料：[KMP算法golang实现](https://blog.csdn.net/anliayx/article/details/86495826)

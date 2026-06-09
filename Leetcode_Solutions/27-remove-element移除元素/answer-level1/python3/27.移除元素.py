@@ -1,4 +1,4 @@
-# 思路：把不等于val的元素替换到前边，记录下不等于val的元素个数
+# # 思路：把不等于val的元素替换到前边，记录下不等于val的元素个数
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:

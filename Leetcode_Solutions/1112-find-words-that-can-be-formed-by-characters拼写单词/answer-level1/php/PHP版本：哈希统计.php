@@ -1,11 +1,11 @@
-### 解题思路
-1.构建数组hashChars：字符串中每个字符的个数
-2.循环数组words: 通过判断每个word中的字母是否在hashChars中
-3.返回count
+// ### 解题思路
+// 1.构建数组hashChars：字符串中每个字符的个数
+// 2.循环数组words: 通过判断每个word中的字母是否在hashChars中
+// 3.返回count
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -46,4 +46,4 @@ class Solution {
 
     }
 }
-```
+// ```

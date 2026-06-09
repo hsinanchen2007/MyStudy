@@ -1,13 +1,13 @@
-### 解题思路
-1.需要借助字符串来表示二进制，将字符串转化为int类型，存到res。
-2.visited数组：以二进制转化为十进制的数字作为数组index 标识这个十进制数是否已经生成过了
-dfs函数的书写：走的每一步都要存到res里
+// ### 解题思路
+// 1.需要借助字符串来表示二进制，将字符串转化为int类型，存到res。
+// 2.visited数组：以二进制转化为十进制的数字作为数组index 标识这个十进制数是否已经生成过了
+// dfs函数的书写：走的每一步都要存到res里
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  int* grayCode(int n, int* returnSize) {
@@ -63,4 +63,4 @@ int* grayCode(int n, int* returnSize){
     dfs(n, num, returnSize, res, str, visited);
     return res;    
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/592232d48a25bd025859ffcf654196f1cf17061f10c93be4e4bfaba0bc1e9876-image.png)
-- 从底部向上更新，向上返回当前树的和值与节点数
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/592232d48a25bd025859ffcf654196f1cf17061f10c93be4e4bfaba0bc1e9876-image.png)
+# - 从底部向上更新，向上返回当前树的和值与节点数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
 
         dfs(root)
         return ans
-```
+# ```

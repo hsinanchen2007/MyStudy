@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-进站时，将用户相关信息存到 map 中，出站时，找到对应的用户，将 出站+进站名作为 key，时间差作为 value 存到第二个 map 中。
+// 进站时，将用户相关信息存到 map 中，出站时，找到对应的用户，将 出站+进站名作为 key，时间差作为 value 存到第二个 map 中。
 
-查询平均时间时，从第二个 map 中查找就可。
+// 查询平均时间时，从第二个 map 中查找就可。
 
 
-```
+// ```
 type StateIn struct {
 	stationName string
 	t           int
@@ -49,4 +49,4 @@ func (this *UndergroundSystem) GetAverageTime(startStation string, endStation st
 	res := float64(sum) / float64(len(arr))
 	return res
 }
-```
+// ```

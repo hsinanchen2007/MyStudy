@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-具体思路见注释
-### 代码
+// 具体思路见注释
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> result;
@@ -34,4 +34,4 @@ public:
         return result[n];
     }
 };
-```
+// ```

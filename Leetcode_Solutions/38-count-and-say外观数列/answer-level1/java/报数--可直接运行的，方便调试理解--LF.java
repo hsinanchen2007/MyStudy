@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_38_报数;
 
 public class Main {
@@ -59,4 +59,4 @@ class Solution {
  * 由此，得到原理，可以写出相对应的函数
  */
 
-```
+// ```

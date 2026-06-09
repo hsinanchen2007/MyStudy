@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-循环, 每次翻转k个节点
+// 循环, 每次翻转k个节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,4 +58,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

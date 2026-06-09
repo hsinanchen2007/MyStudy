@@ -1,10 +1,10 @@
-### 解题思路
-1.先判断是否单元素数组和空数组避免死循环。
-2.为了避免start，mid和end三个数字相同而无法判断最小数字位于左右部分，加入了顺序查找法。
+// ### 解题思路
+// 1.先判断是否单元素数组和空数组避免死循环。
+// 2.为了避免start，mid和end三个数字相同而无法判断最小数字位于左右部分，加入了顺序查找法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     public int minArray(int[] numbers) {
@@ -38,4 +38,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1，DFS记录岛屿的轮廓
-2，排序去重计算数目
+// ### 解题思路
+// 1，DFS记录岛屿的轮廓
+// 2，排序去重计算数目
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dirs[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
@@ -46,5 +46,5 @@ public:
         return unique(profiles.begin(), profiles.end()) - profiles.begin();
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/711818d56a5dae4ad71a13475a1a251c4fd2df7045e7c37ddc478669e30a117d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/711818d56a5dae4ad71a13475a1a251c4fd2df7045e7c37ddc478669e30a117d-image.png)

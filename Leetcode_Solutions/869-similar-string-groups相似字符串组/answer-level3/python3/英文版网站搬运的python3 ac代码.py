@@ -1,6 +1,6 @@
-思路：如果单词短就生成所有可能新词然后看在不在A里，如果单词长就把每个新单词和所有没有比过的逐个比较。
-————by kleedy
-```
+# 思路：如果单词短就生成所有可能新词然后看在不在A里，如果单词长就把每个新单词和所有没有比过的逐个比较。
+# ————by kleedy
+# ```
 class Solution:
     def numSimilarGroups(self, A):
         visited = set()
@@ -46,4 +46,4 @@ class Solution:
                                 stack.append(newword)
                                 
         return count
-```
+# ```

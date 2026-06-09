@@ -1,9 +1,9 @@
-### 解题思路
-用并查集去union每一对边的两个节点，如果一条边两个端点的父节点相同，那么这条边就可以删掉
+# ### 解题思路
+# 用并查集去union每一对边的两个节点，如果一条边两个端点的父节点相同，那么这条边就可以删掉
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         N = max([max(i) for i in edges])
@@ -34,4 +34,4 @@ class Solution:
                     union(line[0], line[1])
         
         return union_find()
-```
+# ```

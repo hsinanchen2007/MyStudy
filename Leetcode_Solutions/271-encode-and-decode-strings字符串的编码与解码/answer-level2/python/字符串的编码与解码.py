@@ -1,7 +1,7 @@
-# 思路
-以非ascii字符作为分割符
-# 代码
-```
+# # 思路
+# 以非ascii字符作为分割符
+# # 代码
+# ```
 class Codec:
 
     def encode(self, strs):
@@ -23,4 +23,4 @@ class Codec:
         :rtype: List[str]
         """
         return s.split("\n")[:-1]
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * initialize your data structure here.
  * 空间换时间
@@ -41,4 +41,4 @@ MinStack.prototype.top = function() {
 MinStack.prototype.getMin = function() {
     return this.helper[this.helper.length - 1];
 };
-```
+// ```

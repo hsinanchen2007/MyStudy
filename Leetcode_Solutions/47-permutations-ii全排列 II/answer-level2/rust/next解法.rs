@@ -1,6 +1,6 @@
-思路比较简单，用next函数获取下一个vec
+// 思路比较简单，用next函数获取下一个vec
 
-```rust
+// ```rust
 impl Solution {
     pub fn next(nums:&Vec<i32>) -> Option<Vec<i32>> {
         let mut num1 = nums.clone();
@@ -30,4 +30,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

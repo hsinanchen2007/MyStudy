@@ -1,6 +1,6 @@
-1.排序
-2.筛选
-```
+// 1.排序
+// 2.筛选
+// ```
 
 bool containsNearbyDuplicate(int* nums, int numsSize, int k){
 
@@ -47,4 +47,4 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
 }
 
 
-```
+// ```

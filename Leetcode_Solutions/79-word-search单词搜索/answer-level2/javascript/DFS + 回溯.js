@@ -1,14 +1,14 @@
-### 解题思路
-深度优先搜索 + 回溯
+// ### 解题思路
+// 深度优先搜索 + 回溯
 
-从每一个点出发，进行 DFS，如果不行则回溯
+// 从每一个点出发，进行 DFS，如果不行则回溯
 
-注意：
-- 二维平面的移动可以定义一个 offsetArr 数组
+// 注意：
+// - 二维平面的移动可以定义一个 offsetArr 数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -41,8 +41,8 @@ var exist = function(board, word) {
     }
     return false;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(M*N^2)
-- 空间复杂度 O(M*N)
+// ### 复杂度
+// - 时间复杂度 O(M*N^2)
+// - 空间复杂度 O(M*N)

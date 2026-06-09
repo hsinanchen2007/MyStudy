@@ -1,4 +1,4 @@
-```
+// ```
 // 给定长度=行数numRows
 List<List<Integer>> oa = new ArrayList<>(numRows);
 for(int i = 1; i < numRows + 1; i++){
@@ -16,5 +16,5 @@ for(int i = 1; i < numRows + 1; i++){
     }
     oa.add(ia);
 }
-```
+// ```
 

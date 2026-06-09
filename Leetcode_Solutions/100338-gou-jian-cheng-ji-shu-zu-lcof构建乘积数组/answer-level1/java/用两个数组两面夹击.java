@@ -1,9 +1,9 @@
-### 解题思路
-用两个数组两面夹击
+// ### 解题思路
+// 用两个数组两面夹击
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] constructArr(int[] a) {
         if(a==null||a.length<=0){
@@ -26,4 +26,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

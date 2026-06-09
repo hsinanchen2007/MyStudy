@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/ce2f6b98b6673998d74bea6bc20ce88fe65a5f5286bff9ee58b8f37d0d4d3cff-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/ce2f6b98b6673998d74bea6bc20ce88fe65a5f5286bff9ee58b8f37d0d4d3cff-image.png)
+// ```
 int UnionFindSetsFind(int *pre, int x)
 {
     int r = x;
@@ -42,4 +42,4 @@ int countComponents(int n, int** edges, int edgesSize, int* edgesColSize){
     free(pre);
     return rst;
 }
-```
+// ```

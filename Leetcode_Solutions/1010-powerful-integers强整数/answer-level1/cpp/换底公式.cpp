@@ -1,4 +1,4 @@
-```
+// ```
     vector<int> powerfulIntegers(int x, int y, int bound) {
         
         int Min=min(x,y);
@@ -15,4 +15,4 @@
         vec.erase(unique(vec.begin(),vec.end()), vec.end());
         return vec;
     }
-```
+// ```

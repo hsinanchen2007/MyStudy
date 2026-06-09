@@ -1,9 +1,9 @@
-### 解题思路
-使用栈来解决
+// ### 解题思路
+// 使用栈来解决
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeDuplicates(string S) 
@@ -23,4 +23,4 @@ public:
         return ans_str; 
     }
 };
-```
+// ```

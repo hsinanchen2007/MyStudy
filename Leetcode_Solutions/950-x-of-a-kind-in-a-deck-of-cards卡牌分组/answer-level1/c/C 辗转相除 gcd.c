@@ -1,7 +1,7 @@
 
-click here
+// click here
 
-```
+// ```
 // continous divid method to calculate gcd
 int gcd(int small, int big)
 {  
@@ -26,4 +26,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 
   return gcd_val > 1;
 }
-```
+// ```

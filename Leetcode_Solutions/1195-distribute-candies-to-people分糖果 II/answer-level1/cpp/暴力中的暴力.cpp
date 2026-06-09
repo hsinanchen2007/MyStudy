@@ -1,11 +1,11 @@
-### 解题思路
-![1583393704(1).jpg](https://pic.leetcode-cn.com/0bb1117fc31eb8f2f0735e410cc45254d8013957788934e4486551b7296b29a2-1583393704\(1\).jpg)
-执行用时纯属偶然
+// ### 解题思路
+// ![1583393704(1).jpg](https://pic.leetcode-cn.com/0bb1117fc31eb8f2f0735e410cc45254d8013957788934e4486551b7296b29a2-1583393704\(1\).jpg)
+// 执行用时纯属偶然
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {       
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

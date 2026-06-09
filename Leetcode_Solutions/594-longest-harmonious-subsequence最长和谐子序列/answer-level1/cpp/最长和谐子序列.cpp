@@ -1,7 +1,7 @@
 
-哈希表
------------
-```cpp
+// 哈希表
+// -----------
+// ```cpp
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
 
 
 
-```
+// ```

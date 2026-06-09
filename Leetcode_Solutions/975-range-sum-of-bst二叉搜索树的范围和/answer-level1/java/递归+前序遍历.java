@@ -1,10 +1,10 @@
-### 解题思路
-1.先使用递归遍历把元素添加到一个数组中
-2.遍历数组,满足条件的加到一起.
+// ### 解题思路
+// 1.先使用递归遍历把元素添加到一个数组中
+// 2.遍历数组,满足条件的加到一起.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

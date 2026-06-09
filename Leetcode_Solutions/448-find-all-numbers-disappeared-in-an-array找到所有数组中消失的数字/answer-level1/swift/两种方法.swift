@@ -1,10 +1,10 @@
-### 解题思路 1
+// ### 解题思路 1
 
-原地修改
+// 原地修改
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findDisappearedNumbers(_ nums: [Int]) -> [Int] {
         
@@ -33,15 +33,15 @@ class Solution {
     }
 }
 
-```
+// ```
 
-### 解题思路 2
+// ### 解题思路 2
 
-哈希表
+// 哈希表
 
-### 代码 2
+// ### 代码 2
 
-```swift
+// ```swift
 
 class Solution {
     func findDisappearedNumbers(_ nums: [Int]) -> [Int] {
@@ -69,4 +69,4 @@ class Solution {
         
     }
 }
-```
+// ```

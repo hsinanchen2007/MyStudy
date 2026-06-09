@@ -1,11 +1,11 @@
-### 组合数求解
-#### 算法
-1. 两个台阶的个数x
-2. 1个台阶的格式n-2x
-3. 总的步数n-2x+x=n-x
-4. 组合数C(n-2x,n-x)
+# ### 组合数求解
+# #### 算法
+# 1. 两个台阶的个数x
+# 2. 1个台阶的格式n-2x
+# 3. 总的步数n-2x+x=n-x
+# 4. 组合数C(n-2x,n-x)
 
-```python []
+# ```python []
 class Solution:
     def climbStairs(self, n: int) -> int:
         def combination(m:int, n:int) -> int:
@@ -31,7 +31,7 @@ class Solution:
             ans = ans + temp
             x = x + 1
         return ans
-```
-#### 复杂度分析
-- 时间复杂度：O(n^2)，包含了解组合数的时间
-- 空间复杂度：O(2)
+# ```
+# #### 复杂度分析
+# - 时间复杂度：O(n^2)，包含了解组合数的时间
+# - 空间复杂度：O(2)

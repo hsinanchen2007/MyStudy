@@ -1,10 +1,10 @@
-### 解题思路
-先排序数组，然后依次遍历元素i(从0开始)，取左指针=i+1，右指针为numsSize-1,判断此三元素之和是否为0.
-借鉴优秀题解@吴彦祖和@画家王铁男的实现。
+// ### 解题思路
+// 先排序数组，然后依次遍历元素i(从0开始)，取左指针=i+1，右指针为numsSize-1,判断此三元素之和是否为0.
+// 借鉴优秀题解@吴彦祖和@画家王铁男的实现。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -83,4 +83,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
     
     return returnArray;
 }
-```
+// ```

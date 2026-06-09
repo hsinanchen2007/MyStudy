@@ -1,11 +1,11 @@
-### 解题思路
-解题思路：
-1. 形成环
-2. 找到新head
-3. 断开环
-### 代码
+# ### 解题思路
+# 解题思路：
+# 1. 形成环
+# 2. 找到新head
+# 3. 断开环
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         slow.next = None
         
         return fast
-```
+# ```

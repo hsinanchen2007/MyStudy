@@ -1,9 +1,9 @@
-### 解题思路
-一种简单明了的实现方式。使用list的append，pop模拟两个栈，但这种方法时空间成本都比较高。下一步尝试Node栈解法
+# ### 解题思路
+# 一种简单明了的实现方式。使用list的append，pop模拟两个栈，但这种方法时空间成本都比较高。下一步尝试Node栈解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -53,4 +53,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

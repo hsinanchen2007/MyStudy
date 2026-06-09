@@ -1,16 +1,16 @@
-**思路**：
-依次遍历数组，迭代当前值<栈顶，则依次将栈顶小于当前值数值出栈，否则入栈，
-当栈大小==1时，记为bottom，
-当栈大小>2时，获取top-bottom，并计算到目前为止的最小值。
+// **思路**：
+// 依次遍历数组，迭代当前值<栈顶，则依次将栈顶小于当前值数值出栈，否则入栈，
+// 当栈大小==1时，记为bottom，
+// 当栈大小>2时，获取top-bottom，并计算到目前为止的最小值。
 
-![image.png](https://pic.leetcode-cn.com/7d07076f358cee655f881ff06c4c98a5512a654e2b0629e6c7bbc6b9ba29f6ca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7d07076f358cee655f881ff06c4c98a5512a654e2b0629e6c7bbc6b9ba29f6ca-image.png)
 
-时间复杂度还不错，毕竟只用遍历一次数组；
-空间复杂度勉强吧
+// 时间复杂度还不错，毕竟只用遍历一次数组；
+// 空间复杂度勉强吧
 
 
 
-```cpp []
+// ```cpp []
     int maxProfit(vector<int>& prices) {
         // 方法2: 使用栈
         stack<int> stackStock;
@@ -42,4 +42,4 @@
         }
         return max;
     }
-```
+// ```

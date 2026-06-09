@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-螺旋相当于每次都取最外层的所有数据，不断去绕着圈去找，直到没有数据。
+// 螺旋相当于每次都取最外层的所有数据，不断去绕着圈去找，直到没有数据。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -35,4 +35,4 @@ var spiralOrder = function(matrix) {
         // 递归
        return getAllNum(matrix);
 };
-```
+// ```

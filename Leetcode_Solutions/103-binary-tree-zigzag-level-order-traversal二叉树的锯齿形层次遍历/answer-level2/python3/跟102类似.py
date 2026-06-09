@@ -1,4 +1,4 @@
-跟102解法差不多，只是在插数的时候，会判断一下是插入到最后面还是最前面
+# 跟102解法差不多，只是在插数的时候，会判断一下是插入到最后面还是最前面
 
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:

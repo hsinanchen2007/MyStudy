@@ -1,5 +1,5 @@
-Java 耗时17ms，内存32.4MB
-```
+// Java 耗时17ms，内存32.4MB
+// ```
 /**
  * Problem
  *      278.First Bad Version
@@ -44,4 +44,4 @@ class Solution {
 
 }
 
-```
+// ```

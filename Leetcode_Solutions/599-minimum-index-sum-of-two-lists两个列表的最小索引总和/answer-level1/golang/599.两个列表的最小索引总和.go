@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双循环，遇到索引和相同的就加进结果数组，若当前两个索引比之前的和小，则把结果数组清空，再添加当前字符串。
+// 双循环，遇到索引和相同的就加进结果数组，若当前两个索引比之前的和小，则把结果数组清空，再添加当前字符串。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRestaurant(list1 []string, list2 []string) []string {
 	sum := len(list1) + len(list2)
 	res := []string{}
@@ -23,4 +23,4 @@ func findRestaurant(list1 []string, list2 []string) []string {
 	}
 	return res
 }
-```
+// ```

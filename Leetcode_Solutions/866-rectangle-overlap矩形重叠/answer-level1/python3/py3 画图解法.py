@@ -1,9 +1,9 @@
-### 解题思路
-排除掉三种不相交的可能性即可
+# ### 解题思路
+# 排除掉三种不相交的可能性即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         #rec1:(rec1[0],rec1[1])左下 (rec1[0],rec1[3])左上
@@ -26,4 +26,4 @@ class Solution:
                 return True
         
 
-```
+# ```

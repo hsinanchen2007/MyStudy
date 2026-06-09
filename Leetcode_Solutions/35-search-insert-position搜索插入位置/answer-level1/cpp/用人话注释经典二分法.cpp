@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/406548448c64b015f8faebe266c8685a52e75a37cdf5933ff5e0478e6b47190e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/406548448c64b015f8faebe266c8685a52e75a37cdf5933ff5e0478e6b47190e-image.png)
 
-### 解题思路
-二分法就是不断缩小可能区间，也就是排除法，把不可能的排除，留下可能的。当可能的区间被排除到长度为1的时候，就可以单独讨论了。
-比如说本题最后为什么返回left？为什么不是left-1？为什么不是left+1？说实话最开始我是结合具体例子一个一个讨论的，最后发现不管nums[left]和target什么关系，都是应该返回left。于是得到了比较简洁的代码。
-### 代码
+// ### 解题思路
+// 二分法就是不断缩小可能区间，也就是排除法，把不可能的排除，留下可能的。当可能的区间被排除到长度为1的时候，就可以单独讨论了。
+// 比如说本题最后为什么返回left？为什么不是left-1？为什么不是left+1？说实话最开始我是结合具体例子一个一个讨论的，最后发现不管nums[left]和target什么关系，都是应该返回left。于是得到了比较简洁的代码。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -26,5 +26,5 @@ public:
         return left;
     }
 };
-```
-（有收获的话，求个赞行吗）
+// ```
+// （有收获的话，求个赞行吗）

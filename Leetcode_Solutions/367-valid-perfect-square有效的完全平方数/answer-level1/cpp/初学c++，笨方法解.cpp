@@ -1,4 +1,4 @@
-```
+// ```
 bool isPerfectSquare(int num){
     bool flag = false;
     for(int i = 1; i<=num/i; i++){
@@ -9,4 +9,4 @@ bool isPerfectSquare(int num){
     }
     return flag;
 }
-```
+// ```

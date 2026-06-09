@@ -1,5 +1,5 @@
-在小数部分如果出现两次除数相同的情况即说明是循环小数，话不多说，代码如下：
-```
+// 在小数部分如果出现两次除数相同的情况即说明是循环小数，话不多说，代码如下：
+// ```
 class Solution {
 public:
     string fractionToDecimal(int numerator, int denominator) {
@@ -40,4 +40,4 @@ public:
         return result;
     }
 };
-```
+// ```

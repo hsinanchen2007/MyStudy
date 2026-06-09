@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private List<List<Integer>> res = new LinkedList<>();
     private LinkedList<Integer> list = new LinkedList<>();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

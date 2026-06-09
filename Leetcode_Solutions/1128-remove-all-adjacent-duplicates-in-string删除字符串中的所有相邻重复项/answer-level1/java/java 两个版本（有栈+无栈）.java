@@ -1,9 +1,9 @@
-### 方法一：有栈
-有栈：通过栈压栈出栈放入sb中
+// ### 方法一：有栈
+// 有栈：通过栈压栈出栈放入sb中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeDuplicates(String S) {
         Stack<Character> sta = new Stack<Character>();
@@ -17,13 +17,13 @@ class Solution {
         return sb.toString();
     }
 }
-```
-### 方法二：无栈
-无栈：直接使用sb进行加入删除操作
+// ```
+// ### 方法二：无栈
+// 无栈：直接使用sb进行加入删除操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeDuplicates(String S) {
         StringBuilder sb = new StringBuilder();
@@ -39,4 +39,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

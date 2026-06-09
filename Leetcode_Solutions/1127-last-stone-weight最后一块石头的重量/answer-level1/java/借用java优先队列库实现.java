@@ -1,9 +1,9 @@
-### 解题思路
-重写优先队列的比较器，将最小堆变成最大堆，然后按照题意即可实现
+// ### 解题思路
+// 重写优先队列的比较器，将最小堆变成最大堆，然后按照题意即可实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastStoneWeight(int[] stones) {
         
@@ -29,4 +29,4 @@ class Solution {
         return p.poll();
     }
 }
-```
+// ```

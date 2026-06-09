@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-题目中最小路劲为K的friends，当在level = k的时候，访问到节点的最小路径<= k,使用一个辅助变量visit控制的k-1之前有没有访问到。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 题目中最小路劲为K的friends，当在level = k的时候，访问到节点的最小路径<= k,使用一个辅助变量visit控制的k-1之前有没有访问到。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     typedef struct 
@@ -76,4 +76,4 @@ public:
         return ans;
     }
 };
-```
+// ```

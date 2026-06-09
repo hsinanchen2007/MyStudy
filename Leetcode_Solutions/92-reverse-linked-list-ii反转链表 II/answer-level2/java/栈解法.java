@@ -1,6 +1,6 @@
-创建一个栈，将要连接的部分压入栈，然后弹出，连接前后，即得解。
-（解法可能慢了点，但也是一种思路）
-```
+// 创建一个栈，将要连接的部分压入栈，然后弹出，连接前后，即得解。
+// （解法可能慢了点，但也是一种思路）
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -47,4 +47,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

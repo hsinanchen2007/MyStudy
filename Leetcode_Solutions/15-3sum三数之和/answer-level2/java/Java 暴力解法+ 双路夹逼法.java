@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         // 暴力解题法 三层 for 循环 但是超时
@@ -45,4 +45,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

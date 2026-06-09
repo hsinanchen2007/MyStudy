@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-动态规划   状态转移   A[i]满足条件   那么dp[i] = dp[i-1]+1， 分两种情况讨论，取两种情况最大值
+// 动态规划   状态转移   A[i]满足条件   那么dp[i] = dp[i-1]+1， 分两种情况讨论，取两种情况最大值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxTurbulenceSize(A []int) int {
     if len(A) == 1 {
         return 1
@@ -71,4 +71,4 @@ func max(i,j int)int {
     return j
 }
 
-```
+// ```

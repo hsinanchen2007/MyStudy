@@ -1,5 +1,5 @@
-使用斜率进行解题 $\frac{y_1-y_0}{x_1-x_0} = \frac{y_i-y_{i-1}}{x_i-x_{i-1}}$ 转换后成为 $(y_1-y_0) * (x_i-x_{i-1})=(x_1-x_0) * (y_i-y_{i-1})$  
-```
+// 使用斜率进行解题 $\frac{y_1-y_0}{x_1-x_0} = \frac{y_i-y_{i-1}}{x_i-x_{i-1}}$ 转换后成为 $(y_1-y_0) * (x_i-x_{i-1})=(x_1-x_0) * (y_i-y_{i-1})$  
+// ```
 class Solution {
 
     /**
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

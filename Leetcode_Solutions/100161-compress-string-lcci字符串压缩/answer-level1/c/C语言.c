@@ -1,12 +1,12 @@
-### 解题思路
-1）构建新字符串，维护所构建字符串最新的index
-2）遍历原字符串，遍历形式为 char + char_count
-3）对count进行处理转为字符
-4）比较新串和原串长度
+// ### 解题思路
+// 1）构建新字符串，维护所构建字符串最新的index
+// 2）遍历原字符串，遍历形式为 char + char_count
+// 3）对count进行处理转为字符
+// 4）比较新串和原串长度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     int len = strlen(S);
 	int S_index = 0;
@@ -58,4 +58,4 @@ char* compressString(char* S){
 	}
 	return res;
 }
-```
+// ```

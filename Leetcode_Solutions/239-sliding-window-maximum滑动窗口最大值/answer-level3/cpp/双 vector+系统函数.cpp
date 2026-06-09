@@ -1,9 +1,9 @@
-### 解题思路
-本来想着试试大顶堆，结果在删除最后一个元素时卡了，改成了vector 效率感人，稍后试试双队列的
+// ### 解题思路
+// 本来想着试试大顶堆，结果在删除最后一个元素时卡了，改成了vector 效率感人，稍后试试双队列的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -28,4 +28,4 @@ public:
         return result;
     }
 };
-```
+// ```

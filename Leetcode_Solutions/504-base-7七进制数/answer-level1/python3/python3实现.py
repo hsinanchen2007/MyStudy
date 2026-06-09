@@ -1,8 +1,8 @@
-执行用时 :44 ms, 在所有 Python3 提交中击败了91.02%的用户
+# 执行用时 :44 ms, 在所有 Python3 提交中击败了91.02%的用户
 
-算法一般，除7乘10，感觉代码写得很啰嗦，Python没人发我发一个
+# 算法一般，除7乘10，感觉代码写得很啰嗦，Python没人发我发一个
 
-```class Solution:
+# ```class Solution:
     def convertToBase7(self, num: int) -> str:
         negative = False    # 标记，是否为负
         if num < 0:
@@ -19,4 +19,4 @@
         res += 10**bit*num
         if negative: res = -res
         return str(res)
-```
+# ```

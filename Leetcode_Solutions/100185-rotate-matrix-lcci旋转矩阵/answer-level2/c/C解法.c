@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     for (int i = 0; i< matrixSize / 2; i++) {
         for (int j = i; j < matrixSize - 1 - i; j++) {
@@ -15,4 +15,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 from collections import Counter
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -8,4 +8,4 @@ class Solution:
             ss = Counter(s)
             tt = Counter(t)
             return ss == tt
-```
+# ```

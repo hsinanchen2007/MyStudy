@@ -1,8 +1,8 @@
-C#无论使用字典（Dictionary）还是哈希表（HashTable），都需要通过遍历所有键来选出符合的键，Java的HashTable有特定的get方法可以获取键，如果一定要用哈希表来解决的话，而你用数组的值来作为键，当数组元素重复时，是无法添加的，会报出异常
+// C#无论使用字典（Dictionary）还是哈希表（HashTable），都需要通过遍历所有键来选出符合的键，Java的HashTable有特定的get方法可以获取键，如果一定要用哈希表来解决的话，而你用数组的值来作为键，当数组元素重复时，是无法添加的，会报出异常
 
-__使用字典来解决，这会超出时限__
+// __使用字典来解决，这会超出时限__
 
-```C# []
+// ```C# []
    public int[] TwoSum(int[] nums, int target)
     {
         int[] result = new int[2];
@@ -28,12 +28,12 @@ __使用字典来解决，这会超出时限__
         return result;
         
     }
-```
+// ```
 
-__不使用字典__
+// __不使用字典__
 
 
-``` C# []
+// ``` C# []
    public int[] TwoSum(int[] nums, int target)
     {
         int[] result = new int[2];
@@ -52,5 +52,5 @@ __不使用字典__
         }
         return result;
     }
-```
-第二种方法利用了Array.IndexOf来找出符合的索引，而一旦返回-1说明数组无此元素
+// ```
+// 第二种方法利用了Array.IndexOf来找出符合的索引，而一旦返回-1说明数组无此元素

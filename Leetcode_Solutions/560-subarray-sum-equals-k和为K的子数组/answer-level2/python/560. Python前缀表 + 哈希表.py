@@ -1,9 +1,9 @@
-### 解题思路
-用一个哈希表记录之前出现过的数的和以及对应的下标，遍历所有的数，直接查找k - nums[i]是否在哈希表中。
+# ### 解题思路
+# 用一个哈希表记录之前出现过的数的和以及对应的下标，遍历所有的数，直接查找k - nums[i]是否在哈希表中。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def subarraySum(self, nums, k):
         """
@@ -53,4 +53,4 @@ class Solution(object):
                 if temp + k in sum_dict:
                     cnt += len(list(filter(lambda x: x - ind > 0, sum_dict[temp + k])))
         return cnt
-```
+# ```

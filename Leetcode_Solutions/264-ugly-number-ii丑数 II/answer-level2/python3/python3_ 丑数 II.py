@@ -1,4 +1,4 @@
-```python
+# ```python
 """
 1. dp问题, 答案来自:
 https://leetcode.com/problems/ugly-number-ii/discuss/69373/Short-and-O(n)-Python-and-C%2B%2B
@@ -23,4 +23,4 @@ def nthUglyNumber1(n):
 
 print(nthUglyNumber(100))
 print(nthUglyNumber1(100))
-```
+# ```

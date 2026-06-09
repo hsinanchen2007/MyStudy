@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # O(N)+O(N) -> O(N)+O(1)
@@ -13,4 +13,4 @@ class Solution:
         for i in range(2,len(nums)):
             dp_0,dp_1 = dp_1,max(dp_1,dp_0+nums[i])
         return dp_1
-```
+# ```

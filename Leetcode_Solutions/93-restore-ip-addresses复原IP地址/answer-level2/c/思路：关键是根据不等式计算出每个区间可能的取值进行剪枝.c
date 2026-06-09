@@ -1,10 +1,10 @@
-### 解题思路
-主要是dfs深度搜索遍历，遍历的时候计算每个区间可能的长度进行校验。
+// ### 解题思路
+// 主要是dfs深度搜索遍历，遍历的时候计算每个区间可能的长度进行校验。
 
-### 代码
-![image.png](https://pic.leetcode-cn.com/e5542b0683afbe1664ae5baec4b4f1aaf3bfd41a8edd4fe946e8949ddad9ceec-image.png)
+// ### 代码
+// ![image.png](https://pic.leetcode-cn.com/e5542b0683afbe1664ae5baec4b4f1aaf3bfd41a8edd4fe946e8949ddad9ceec-image.png)
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -85,4 +85,4 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     *returnSize = g_returnSize;
     return ipSeqArray;
 }
-```
+// ```

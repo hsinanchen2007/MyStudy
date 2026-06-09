@@ -1,11 +1,11 @@
-### 解题思路
-![QQ截图20200306151834.png](https://pic.leetcode-cn.com/295eaedbbe4fda0cfe298ff25bea9130451657d4cc564fe70a4241df6b464f81-QQ%E6%88%AA%E5%9B%BE20200306151834.png)
+// ### 解题思路
+// ![QQ截图20200306151834.png](https://pic.leetcode-cn.com/295eaedbbe4fda0cfe298ff25bea9130451657d4cc564fe70a4241df6b464f81-QQ%E6%88%AA%E5%9B%BE20200306151834.png)
 
-哈希都用上了，爷尽力了
+// 哈希都用上了，爷尽力了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean buddyStrings(String A, String B) {
         int length_A=A.length();
@@ -58,4 +58,4 @@ class Solution {
 
     }
 }
-```
+// ```

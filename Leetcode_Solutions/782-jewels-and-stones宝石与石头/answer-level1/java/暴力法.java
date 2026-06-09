@@ -1,5 +1,5 @@
-遍历每块石头
-```
+// 遍历每块石头
+// ```
 public int numJewelsInStones(String J, String S) {
         int flag=0; //标记位
         for(int i=0;i<J.length();i++){
@@ -14,4 +14,4 @@ public int numJewelsInStones(String J, String S) {
         return flag;
         
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-map记录不同元素和每个元素出现的次数，再遍历map找到出现次数超过数组大小一半的元素并返回；
+// ### 解题思路
+// map记录不同元素和每个元素出现的次数，再遍历map找到出现次数超过数组大小一半的元素并返回；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return -1;
     }
 };
-```
+// ```

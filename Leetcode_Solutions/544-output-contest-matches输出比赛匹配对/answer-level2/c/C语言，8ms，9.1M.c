@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/ebe021cc9e8d8783e5e834b096b0ba9ae5aded37be75210c5a95d89f7f6fffbf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ebe021cc9e8d8783e5e834b096b0ba9ae5aded37be75210c5a95d89f7f6fffbf-image.png)
 
-**按照题意每一轮合并最前面和最后面的数据，然后添加括号即可，用到了sprintf函数来输出每次的合并。每次迭代N/2个数据，直到N=0时输出。
-注：
-1.最大球队数4096
-2.尝试用itoa函数转换数字到字符串失败，手写了4位数的转换**
+// **按照题意每一轮合并最前面和最后面的数据，然后添加括号即可，用到了sprintf函数来输出每次的合并。每次迭代N/2个数据，直到N=0时输出。
+// 注：
+// 1.最大球队数4096
+// 2.尝试用itoa函数转换数字到字符串失败，手写了4位数的转换**
 
-```
+// ```
 char *Itr(int n,int len, char **r) {
     char **x = NULL;
 
@@ -55,5 +55,5 @@ char * findContestMatch(int n){
 
     return Itr(n, 5, x);
 }
-```
+// ```
 

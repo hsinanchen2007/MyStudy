@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public char[][] updateBoard(char[][] board, int[] click) {
         int m = board.length;
@@ -51,4 +51,4 @@ class Solution {
         return board;
     }
 }
-```
+// ```

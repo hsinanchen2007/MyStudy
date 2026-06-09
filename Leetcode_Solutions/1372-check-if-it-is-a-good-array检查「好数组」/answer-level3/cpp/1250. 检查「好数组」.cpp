@@ -1,9 +1,9 @@
-### 解题思路
-判断所有数的最大公约数是否为1
+// ### 解题思路
+// 判断所有数的最大公约数是否为1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isGoodArray(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return false;
     }
 };
-```
+// ```

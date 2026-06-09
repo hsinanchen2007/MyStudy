@@ -1,9 +1,9 @@
 
-**中心扩散解法**: 
-遍历每一个索引，以这个索引为中心，利用“回文串”中心对称的特点，往两边扩散，看最多能扩散多远。
-备注：回文串的长度可能是奇数，也可能是偶数。
+// **中心扩散解法**: 
+// 遍历每一个索引，以这个索引为中心，利用“回文串”中心对称的特点，往两边扩散，看最多能扩散多远。
+// 备注：回文串的长度可能是奇数，也可能是偶数。
 
-```
+// ```
 class Solution {
 public:
     
@@ -32,6 +32,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-参考：[最长回文子串]( https://leetcode-cn.com/problems/longest-palindromic-substring/)
+// 参考：[最长回文子串]( https://leetcode-cn.com/problems/longest-palindromic-substring/)

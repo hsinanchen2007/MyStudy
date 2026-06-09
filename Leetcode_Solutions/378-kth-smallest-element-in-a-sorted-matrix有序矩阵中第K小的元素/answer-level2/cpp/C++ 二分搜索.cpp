@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int bisearch(vector<int>& v, int t) {
@@ -39,5 +39,5 @@ public:
         return high;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/3eb1d9bf4734effca3d376dad303cce80462c16fb79db214a6fbca68aa53ca02-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3eb1d9bf4734effca3d376dad303cce80462c16fb79db214a6fbca68aa53ca02-image.png)

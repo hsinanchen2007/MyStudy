@@ -1,6 +1,6 @@
-解题思路:反转链表的同时,快指针往后跳.快指针指向末尾或空的时候,刚好反转了一半.
+// 解题思路:反转链表的同时,快指针往后跳.快指针指向末尾或空的时候,刚好反转了一半.
 
-```
+// ```
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -33,4 +33,4 @@ public:
         return true;
     }
 };
-```
+// ```

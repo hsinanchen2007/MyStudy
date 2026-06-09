@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-很容易想到暴力乘积来取最后k 项乘积的问题
-但是有个问题就是，查询次数要是特别多的话，会造成超时
-缓存之前的乘积结果会是一个不错的方法
+// 很容易想到暴力乘积来取最后k 项乘积的问题
+// 但是有个问题就是，查询次数要是特别多的话，会造成超时
+// 缓存之前的乘积结果会是一个不错的方法
 
-当然，还有更好的实现，然而我不会，o(╥﹏╥)o
+// 当然，还有更好的实现，然而我不会，o(╥﹏╥)o
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class ProductOfNumbers: NSObject {
     var values = [1]
     override init() {
@@ -36,4 +36,4 @@ class ProductOfNumbers: NSObject {
  * obj.add(num)
  * let ret_2: Int = obj.getProduct(k)
  */
-```
+// ```

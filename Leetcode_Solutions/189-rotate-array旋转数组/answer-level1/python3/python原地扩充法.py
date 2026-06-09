@@ -1,9 +1,9 @@
-#### 思路
-把原本在前面，旋转后在后面的几个元素增加在数组最后
-然后原本剩下的部分加上新增的一起向前移动到顶
-最后删除最后面多余的元素
-#### 代码
-```
+# #### 思路
+# 把原本在前面，旋转后在后面的几个元素增加在数组最后
+# 然后原本剩下的部分加上新增的一起向前移动到顶
+# 最后删除最后面多余的元素
+# #### 代码
+# ```
 class Solution(object):
     def rotate(self, nums, k):
         lens = len(nums)
@@ -15,5 +15,5 @@ class Solution(object):
         lenss = len(nums)        #删掉多余的项
         for i in range(lens,lenss):
             nums.pop(lens)
-```
+# ```
 

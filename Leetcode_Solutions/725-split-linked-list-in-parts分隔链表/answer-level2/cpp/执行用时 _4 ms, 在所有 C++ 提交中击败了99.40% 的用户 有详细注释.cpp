@@ -1,5 +1,5 @@
-先遍历链表,找出个数,算出每组的数量,然后利用计数器来实现分组操作
-```cpp
+// 先遍历链表,找出个数,算出每组的数量,然后利用计数器来实现分组操作
+// ```cpp
 public:
     vector<ListNode*> splitListToParts(ListNode* root, int k) {
         vector<ListNode*> result={root};
@@ -38,4 +38,4 @@ public:
         }
         return result;
     }
-```
+// ```

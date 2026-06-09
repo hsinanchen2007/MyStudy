@@ -1,9 +1,9 @@
-### 解题思路
-go  语言中没有queue类型  用切片实现stack即可 stack的本质是 先进后出
+// ### 解题思路
+// go  语言中没有queue类型  用切片实现stack即可 stack的本质是 先进后出
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
      queue []int 
 }
@@ -50,4 +50,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

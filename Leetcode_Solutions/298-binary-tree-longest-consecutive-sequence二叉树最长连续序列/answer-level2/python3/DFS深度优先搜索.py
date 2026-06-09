@@ -1,14 +1,14 @@
-### 解题思路
--   DFS深度优先搜索
+# ### 解题思路
+# -   DFS深度优先搜索
 
--   每次向下传递当前的值，路径长度，并更新最大路径值
-
-
+# -   每次向下传递当前的值，路径长度，并更新最大路径值
 
 
-### 代码
 
-```python
+
+# ### 代码
+
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
 
         dfs(root, root.val + 1, 0)
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var deleteDuplicates = function(head) {
     pre.next = null;
     return head;
 };
-```
+// ```

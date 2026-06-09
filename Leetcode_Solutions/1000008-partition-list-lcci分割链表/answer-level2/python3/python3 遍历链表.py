@@ -1,9 +1,9 @@
-### 解题思路
-保存第一个大于等于x的节点的位置，遍历链表，将后面出现小于x的节点连接到刚刚保存的那个节点
+# ### 解题思路
+# 保存第一个大于等于x的节点的位置，遍历链表，将后面出现小于x的节点连接到刚刚保存的那个节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
                 right = right.next
         return pre_head.next
         
-```
+# ```

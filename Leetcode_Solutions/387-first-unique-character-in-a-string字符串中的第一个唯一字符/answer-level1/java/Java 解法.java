@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public static void main(String[] args) {
         firstUniqChar("leetcode");
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+// ```

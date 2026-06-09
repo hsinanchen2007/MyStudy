@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         zidian1 = {}
@@ -20,4 +20,4 @@ class Solution:
             if  flg == "tr":
                 num1 += len(j)
         return(num1)
-```
+# ```

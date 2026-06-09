@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int sum = 0;
@@ -33,4 +33,4 @@ class Solution {
         return target;
     }
 }
-```
+// ```

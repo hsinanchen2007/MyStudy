@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 count=1
         return B
                 
-```
+# ```

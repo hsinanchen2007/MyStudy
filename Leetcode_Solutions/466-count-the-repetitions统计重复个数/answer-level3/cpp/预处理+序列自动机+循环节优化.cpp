@@ -1,4 +1,4 @@
-```
+// ```
 int nxt[20001][130];
 pair<int, int> arr[101];
 int vis[101];
@@ -66,4 +66,4 @@ public:
         return sum / n2;
     }
 };
-```
+// ```

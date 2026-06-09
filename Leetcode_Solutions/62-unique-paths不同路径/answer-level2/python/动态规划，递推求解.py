@@ -1,11 +1,11 @@
-### 解题思路
-每一个数字的路径和为左边加上上边的数字的路径之和，需注意第一行和第一列必定都是1，这个可以先初始化
-递推转移方程为：
-dp[i][j] = dp[i][j-1] + dp[i-1][j]
+# ### 解题思路
+# 每一个数字的路径和为左边加上上边的数字的路径之和，需注意第一行和第一列必定都是1，这个可以先初始化
+# 递推转移方程为：
+# dp[i][j] = dp[i][j-1] + dp[i-1][j]
 
-### 代码
-Python
-```python
+# ### 代码
+# Python
+# ```python
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -23,9 +23,9 @@ class Solution(object):
                 else:
                     dp[i][j] = dp[i][j-1] + dp[i-1][j]
         return dp[-1][-1]
-```
-golang
-```golang
+# ```
+# golang
+# ```golang
 func uniquePaths(m int, n int) int {
 	if n==1|| m==1{
 		return 1
@@ -46,9 +46,9 @@ func uniquePaths(m int, n int) int {
 	}
 	return dp[n-1][m-1]
 }
-```
-java
-```java
+# ```
+# java
+# ```java
 	public int uniquePaths(int m, int n) {
 		 if (m==1 || n==1){
 			 return 1;
@@ -66,4 +66,4 @@ java
 		 
 		 return dp[n-1][m-1];
 	 }
-```
+# ```

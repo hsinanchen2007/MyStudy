@@ -1,9 +1,9 @@
-## 快慢指针
+// ## 快慢指针
 
-- 时间复杂度：O(n), one pass
-- 空间复杂度：O(1), 一共用了3个临时变量 
+// - 时间复杂度：O(n), one pass
+// - 空间复杂度：O(1), 一共用了3个临时变量 
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -21,4 +21,4 @@ var removeDuplicates = function (nums) {
     }
     return slow;
 };
-```
+// ```

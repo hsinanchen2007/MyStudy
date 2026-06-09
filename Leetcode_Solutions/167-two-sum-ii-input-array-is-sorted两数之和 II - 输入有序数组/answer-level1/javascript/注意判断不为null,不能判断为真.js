@@ -1,9 +1,9 @@
-### 解题思路
-注意判断不为null,不能判断为真，因为有0的时候
+// ### 解题思路
+// 注意判断不为null,不能判断为真，因为有0的时候
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -21,4 +21,4 @@ var twoSum = function(numbers, target) {
 
    return [0,0]
 };
-```
+// ```

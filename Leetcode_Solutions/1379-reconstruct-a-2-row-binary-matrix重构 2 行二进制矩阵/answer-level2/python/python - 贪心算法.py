@@ -1,15 +1,15 @@
-**1. 解题思路**
+# **1. 解题思路**
 
-- 贪心算法  
-    1. 遍历colsum的长度
-    2. 当值为2时，upper和lower都应该是1
-    3. 当值为0时，upper和lower都应该是0
-    4. 当值为1时，需要对比剩下的upper和lower的总和, 较大的应该是1，较小的是0(这样才能避免在后面出现2时，无法放值) 
-    5. 判断剩下的upper的总和和lower的总和， 都为0时， 则证明有解
+# - 贪心算法  
+#     1. 遍历colsum的长度
+#     2. 当值为2时，upper和lower都应该是1
+#     3. 当值为0时，upper和lower都应该是0
+#     4. 当值为1时，需要对比剩下的upper和lower的总和, 较大的应该是1，较小的是0(这样才能避免在后面出现2时，无法放值) 
+#     5. 判断剩下的upper的总和和lower的总和， 都为0时， 则证明有解
 
-**2. 代码**
+# **2. 代码**
 
-```
+# ```
 class Solution(object):
     def reconstructMatrix(self, upper, lower, colsum):
         """
@@ -45,4 +45,4 @@ class Solution(object):
             return []
 
         return ans
-```
+# ```

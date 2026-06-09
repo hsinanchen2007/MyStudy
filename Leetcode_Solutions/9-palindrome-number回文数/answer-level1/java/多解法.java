@@ -1,6 +1,6 @@
-大学生的入门练手题。很多解法。
-1.将int转换为String类型，之后进行匹配。
-```
+// 大学生的入门练手题。很多解法。
+// 1.将int转换为String类型，之后进行匹配。
+// ```
 class Solution {
     public boolean isPalindrome(int x) {
         String str=String.valueOf(x);
@@ -17,9 +17,9 @@ class Solution {
         return true;
     }
 }
-```
-2.参考上一题，将整数反转。如果反转后与原数相等，为回文串。
-```
+// ```
+// 2.参考上一题，将整数反转。如果反转后与原数相等，为回文串。
+// ```
 class Solution {
     public boolean isPalindrome(int x) {
         if(x<0)
@@ -35,4 +35,4 @@ class Solution {
         return temp==y;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-kick in the card. 
-Again, I will give you the code. 
+// kick in the card. 
+// Again, I will give you the code. 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return nums;
     }
 };
-```
+// ```

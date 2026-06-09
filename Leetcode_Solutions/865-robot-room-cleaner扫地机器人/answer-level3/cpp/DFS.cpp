@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * // This is the robot's co***ol interface.
  * // You should not implement it, or speculate about its implementation
@@ -48,4 +48,4 @@ public:
 private:
     set<string> vis;
 };
-```
+// ```

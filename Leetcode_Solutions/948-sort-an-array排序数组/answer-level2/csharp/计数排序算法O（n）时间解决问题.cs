@@ -1,9 +1,9 @@
-### 解题思路
-由于给出数据范围在-50000到50000，因而申请十万零一个数组空间来存储。把每一个nums数据的值当做索引来存储。
+// ### 解题思路
+// 由于给出数据范围在-50000到50000，因而申请十万零一个数组空间来存储。把每一个nums数据的值当做索引来存储。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] SortArray(int[] nums) {
         int[] arr  = new int[100001];
@@ -21,4 +21,4 @@ public class Solution {
         return nums;
     }
 }
-```
+// ```

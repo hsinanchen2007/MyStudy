@@ -1,5 +1,5 @@
-动态规划，一次遍历，不用max函数，全程使用基本数组和数组下标。借用两个动态规划的数组
-```
+# 动态规划，一次遍历，不用max函数，全程使用基本数组和数组下标。借用两个动态规划的数组
+# ```
 L = len(nums)
 dp = [float("-inf") for i in range(L)] #储存每个位置被影响到的最大值
 pos_dp = [float("inf") for i in range(L)] #储存dp中对应位置的值的影响范围，pos_dp[i]表示dp[i]的值影响到dp[pos_dp[i]]之前
@@ -26,4 +26,4 @@ for i in range(L):
             dp[start:] = [nums[i]] * (L - start)
             pos_dp[start:] = [i + k] * (L - start)
 return dp[k-1:]
-```
+# ```

@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m = len(obstacleGrid)
@@ -13,4 +13,4 @@ class Solution:
                 a[j] += a[j-1]
 
         return a[-1]
-```
+# ```

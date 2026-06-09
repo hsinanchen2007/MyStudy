@@ -1,4 +1,4 @@
-```
+// ```
 var lengthOfLastWord = function(s) {
     var ret = 0;
     
@@ -11,6 +11,6 @@ var lengthOfLastWord = function(s) {
     }
     return ret;
 };
-```
+// ```
 
-从后向前遍历，ret哨兵
+// 从后向前遍历，ret哨兵

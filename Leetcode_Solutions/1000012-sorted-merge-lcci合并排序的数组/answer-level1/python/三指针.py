@@ -1,6 +1,6 @@
-解题思路：
-从尾部倒序归并，只需要一次扫描。
-```
+# 解题思路：
+# 从尾部倒序归并，只需要一次扫描。
+# ```
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         for i in range(r+1):
             A[i] = B[i]
         
-```
+# ```

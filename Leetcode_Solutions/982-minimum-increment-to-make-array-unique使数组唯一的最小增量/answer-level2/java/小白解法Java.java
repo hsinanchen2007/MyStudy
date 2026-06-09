@@ -1,10 +1,10 @@
-### 解题思路
-知乎：god-jiang
-CSDN：god-jiang
+// ### 解题思路
+// 知乎：god-jiang
+// CSDN：god-jiang
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         Arrays.sort(A);
@@ -19,4 +19,4 @@ class Solution {
         return move;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number} n
  * @return {string[][]}
@@ -79,8 +79,8 @@ function T51_doStar(nums, i, j, num) {
 	//右上角到左下角的对角线数字+1
 	while (x < n && y >= 0) {nums[x][y]+=num;x++;y--;}
 }
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> res = new ArrayList<>();
@@ -154,4 +154,4 @@ class Solution {
 	}
 
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![TIM图片20200312091855.png](https://pic.leetcode-cn.com/c0b7030e501ac3c3d93c8a30bff72c428c9d1a5f906c080060c2c08eff19278e-TIM%E5%9B%BE%E7%89%8720200312091855.png)
+// ### 解题思路
+// ![TIM图片20200312091855.png](https://pic.leetcode-cn.com/c0b7030e501ac3c3d93c8a30bff72c428c9d1a5f906c080060c2c08eff19278e-TIM%E5%9B%BE%E7%89%8720200312091855.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -39,4 +39,4 @@ public:
         return true;
     }
 };
-```
+// ```

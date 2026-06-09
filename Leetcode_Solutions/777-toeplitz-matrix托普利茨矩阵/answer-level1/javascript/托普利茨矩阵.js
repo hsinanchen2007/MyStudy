@@ -1,6 +1,6 @@
-判断每个元素 arr[i][j] 【i>=1&&j>=1】是否和这个元素左上角的元素 arr[i-1][j-1] 相等
+// 判断每个元素 arr[i][j] 【i>=1&&j>=1】是否和这个元素左上角的元素 arr[i-1][j-1] 相等
 
-```js
+// ```js
 var isToeplitzMatrix = function(matrix) {
     let row = matrix.length; 
     let col = matrix[0].length;
@@ -14,4 +14,4 @@ var isToeplitzMatrix = function(matrix) {
     return true
 };
 
-```
+// ```

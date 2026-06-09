@@ -1,9 +1,9 @@
-注意的点：
-1、若两链表不等长，要判断哪个链表先结束。
-2、考虑从低位进位和向高位进位，且前者要在后者之前判断
-3、注意当前尾结点的位置别指错了
-4、注意循环遍历链表节点别漏了
-```
+// 注意的点：
+// 1、若两链表不等长，要判断哪个链表先结束。
+// 2、考虑从低位进位和向高位进位，且前者要在后者之前判断
+// 3、注意当前尾结点的位置别指错了
+// 4、注意循环遍历链表节点别漏了
+// ```
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode i1 = l1;
         ListNode i2 = l2;
@@ -68,4 +68,4 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         }
         return l3;
     }
-```
+// ```

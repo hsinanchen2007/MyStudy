@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/6dcbb4a1bacc7636254d8cd462ec410f5ba715f29b7ccd49476f96e085c44775-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6dcbb4a1bacc7636254d8cd462ec410f5ba715f29b7ccd49476f96e085c44775-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 /*
   bfs
   思路：
@@ -9,11 +9,11 @@
   2.对腐烂橘子队列进行 bfs，直到队列为空
   3.判断此时是否还有新鲜橘子，如果有那么返回 -1，否则返回分钟数
 */
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -62,4 +62,4 @@ var orangesRotting = function(grid) {
 
 
 
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0) return 0;
@@ -15,4 +15,4 @@ class Solution {
         return index + 1;
     }
 }
-```
+// ```

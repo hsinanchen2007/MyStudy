@@ -1,9 +1,9 @@
-### 解题思路
-1.使用vector的insert在尾后迭代器前插入n个元素
+// ### 解题思路
+// 1.使用vector的insert在尾后迭代器前插入n个元素
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

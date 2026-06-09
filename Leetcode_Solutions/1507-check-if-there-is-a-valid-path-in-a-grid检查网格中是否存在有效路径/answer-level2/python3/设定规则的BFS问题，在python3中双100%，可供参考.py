@@ -1,9 +1,9 @@
-### 解题思路
-这题就是加规则的BFS问题，这里的6条路代表着下一步怎么走，换句话说就是当前在A种street的时候下一步是哪种street类型才合理，我的走路方向是上下左右，rule定义的规则也是如此。
+# ### 解题思路
+# 这题就是加规则的BFS问题，这里的6条路代表着下一步怎么走，换句话说就是当前在A种street的时候下一步是哪种street类型才合理，我的走路方向是上下左右，rule定义的规则也是如此。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 import queue
 class Solution:
@@ -38,4 +38,4 @@ class Solution:
                     q.put([cur_x, cur_y])
                     path[cur_x][cur_y] = 1
         return False
-```
+# ```

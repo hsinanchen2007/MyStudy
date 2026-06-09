@@ -1,9 +1,9 @@
-### 解题思路
-分三种情况讨论
+// ### 解题思路
+// 分三种情况讨论
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -56,4 +56,4 @@ function plusOne($digits)
     return $digits;
 }
 }
-```
+// ```

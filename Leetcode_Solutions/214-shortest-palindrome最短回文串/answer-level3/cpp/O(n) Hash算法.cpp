@@ -1,5 +1,5 @@
-思路：寻找最长的回文前缀。
-```
+// 思路：寻找最长的回文前缀。
+// ```
 class Solution {
 public:
     string shortestPalindrome(string s) {
@@ -17,4 +17,4 @@ public:
         return t + s;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-map+带头节点和尾节点的双向链表
+// ### 解题思路
+// map+带头节点和尾节点的双向链表
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type LRUCacheNode struct {
 	key   int
 	value int
@@ -108,4 +108,4 @@ func (this *LRUCache) RemoveNode(node *LRUCacheNode) {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

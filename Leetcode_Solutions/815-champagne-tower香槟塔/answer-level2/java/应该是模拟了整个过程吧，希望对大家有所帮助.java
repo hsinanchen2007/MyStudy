@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 	public double champagneTower(int poured, int query_row, int query_glass) {
 		int len = query_row + 1;
@@ -15,4 +15,4 @@ class Solution {
 		return now[query_glass] > 1 ? 1 : now[query_glass];
 	}
 }
-```
+// ```

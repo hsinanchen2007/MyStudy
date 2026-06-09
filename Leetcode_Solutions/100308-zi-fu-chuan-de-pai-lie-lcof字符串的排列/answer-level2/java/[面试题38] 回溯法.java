@@ -1,9 +1,9 @@
-### 解题思路
-交换法
+// ### 解题思路
+// 交换法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private ArrayList<String> ans = new ArrayList<String>();
     public String[] permutation(String s) {
@@ -39,4 +39,4 @@ class Solution {
         arrs[j] = t;
     }
 }
-```
+// ```

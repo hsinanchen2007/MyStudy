@@ -1,9 +1,9 @@
-### 解题思路
-双指针从后向前, 不需要额外的分配空间
+// ### 解题思路
+// 双指针从后向前, 不需要额外的分配空间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -20,4 +20,4 @@ public:
         }
     }
 };
-```
+// ```

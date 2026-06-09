@@ -1,13 +1,13 @@
-### 解题思路
-萌新的代码。
-执行用时 :32 ms
-内存消耗 :8.2 MB
-自己建一个简易哈希表，使用时-1，错误时还原。
-确定一个词就加上长度。
+// ### 解题思路
+// 萌新的代码。
+// 执行用时 :32 ms
+// 内存消耗 :8.2 MB
+// 自己建一个简易哈希表，使用时-1，错误时还原。
+// 确定一个词就加上长度。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int len=strlen(words);
     int i,j,k,x,cnt,sum=0;
@@ -50,4 +50,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return sum;
 }
-```
+// ```

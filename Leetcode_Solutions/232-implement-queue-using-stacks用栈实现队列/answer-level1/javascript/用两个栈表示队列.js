@@ -1,9 +1,9 @@
-### 解题思路
-方法一、定义两个数组表示栈
+// ### 解题思路
+// 方法一、定义两个数组表示栈
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -74,4 +74,4 @@ MyQueue.prototype.empty = function() {
  * var param_3 = obj.peek()
  * var param_4 = obj.empty()
  */
-```
+// ```

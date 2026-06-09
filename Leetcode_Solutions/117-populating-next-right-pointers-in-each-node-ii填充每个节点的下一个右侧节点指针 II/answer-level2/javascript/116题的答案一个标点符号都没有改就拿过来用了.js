@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/871fd1f2490e1afbcfa9ada3104528467a43add27fa04af3a1c1288f2e7e36d6-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/871fd1f2490e1afbcfa9ada3104528467a43add27fa04af3a1c1288f2e7e36d6-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val, left, right, next) {
@@ -40,4 +40,4 @@ var connect = function(root) {
 
     return root;
 };
-```
+// ```

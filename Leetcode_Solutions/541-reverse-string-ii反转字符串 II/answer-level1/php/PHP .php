@@ -1,4 +1,4 @@
-```
+// ```
 function reverseStr($s, $k)
     {
         $total = $single = '';
@@ -20,4 +20,4 @@ function reverseStr($s, $k)
 
         return $total;
     }
-```
+// ```

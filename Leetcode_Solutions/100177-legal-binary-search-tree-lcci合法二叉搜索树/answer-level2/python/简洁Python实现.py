@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
         return self.valid(root, float('-inf'), float('inf'))
@@ -11,4 +11,4 @@ class Solution:
         if root.val >= ma or root.val <= mi:
             return False
         return self.valid(root.left, mi, root.val) and self.valid(root.right, root.val, ma)
-```
+# ```

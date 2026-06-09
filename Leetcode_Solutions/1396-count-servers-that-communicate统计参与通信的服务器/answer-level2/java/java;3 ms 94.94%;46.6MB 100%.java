@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countServers(int[][] grid) {
         int[] a=new int[grid.length];//记录每行的服务器数量
@@ -28,4 +28,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

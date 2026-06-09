@@ -1,10 +1,10 @@
-### 递归法
-执行用时 :72 ms, 在所有 Python3 提交中击败了68.22%的用户
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.07%的用户
+# ### 递归法
+# 执行用时 :72 ms, 在所有 Python3 提交中击败了68.22%的用户
+# 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.07%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -39,14 +39,14 @@ class Solution:
         return res
         
             
-```
-### 指针
-执行用时 :72 ms, 在所有 Python3 提交中击败了68.22%的用户
-内存消耗 :13.5 MB, 在所有 Python3 提交中击败了5.07%的用户
+# ```
+# ### 指针
+# 执行用时 :72 ms, 在所有 Python3 提交中击败了68.22%的用户
+# 内存消耗 :13.5 MB, 在所有 Python3 提交中击败了5.07%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -82,4 +82,4 @@ class Solution:
         
         return res.next
            
-```
+# ```

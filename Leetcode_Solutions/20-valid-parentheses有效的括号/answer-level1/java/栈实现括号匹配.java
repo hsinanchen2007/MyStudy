@@ -1,13 +1,13 @@
-### 解题思路
-跟着bobo老师做的，用栈解决的。具体思路是：
-遍历所有元素
-遇到左括号存入栈
-遇到右括号就和栈顶元素比较，如果不匹配返回flase，匹配就继续循环。
-注意：即使循环结束也不能返回true，应该返回isEmpty()的Boolean值
+// ### 解题思路
+// 跟着bobo老师做的，用栈解决的。具体思路是：
+// 遍历所有元素
+// 遇到左括号存入栈
+// 遇到右括号就和栈顶元素比较，如果不匹配返回flase，匹配就继续循环。
+// 注意：即使循环结束也不能返回true，应该返回isEmpty()的Boolean值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Stack;
 
 class Solution {
@@ -33,4 +33,4 @@ class Solution {
 		return stack.isEmpty();//返回isEmpty()是怕栈有其他未匹配元素
     }
 }
-```
+// ```

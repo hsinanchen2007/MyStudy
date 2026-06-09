@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0bbb59089614ee9300017fe61433d98b9e59e7d5d7df07b69b4bab525fdcf413-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0bbb59089614ee9300017fe61433d98b9e59e7d5d7df07b69b4bab525fdcf413-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -17,4 +17,4 @@ public:
         return 1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
 
-- 思路： 
-- 从后向前，找到第一个不为9的数，该位+1，该位后的数均变为0；
-- 未找到的话，说明该数全为9，则返回 1 加 digits.size()个0
+// - 思路： 
+// - 从后向前，找到第一个不为9的数，该位+1，该位后的数均变为0；
+// - 未找到的话，说明该数全为9，则返回 1 加 digits.size()个0
 
-```
+// ```
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

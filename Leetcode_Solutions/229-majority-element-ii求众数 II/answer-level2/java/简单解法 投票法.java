@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         int n = nums.length;
@@ -65,9 +65,9 @@ class Solution {
         
     }
 }
-```
-优化写法: 
-```
+// ```
+// 优化写法: 
+// ```
 for(int i : nums) {
     if((c1 == 0 || res1 == i) && i != res2) {
         c1++;
@@ -80,4 +80,4 @@ for(int i : nums) {
         c2--;
     }
 }
-```
+// ```

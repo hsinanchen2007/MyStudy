@@ -1,10 +1,10 @@
-### 解题思路
-双百分百
-![image.png](https://pic.leetcode-cn.com/4662e3441e03ae1d53c050d510747a44b99d712825b3302ffedf4126d2473811-image.png)
+// ### 解题思路
+// 双百分百
+// ![image.png](https://pic.leetcode-cn.com/4662e3441e03ae1d53c050d510747a44b99d712825b3302ffedf4126d2473811-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         if(grid.length==0||grid[0].length==0){
@@ -43,4 +43,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-比较容易想到的解法，现在诸位相加，记得保存需要进位的那个数字，最后判断末尾情况。
+# ### 解题思路
+# 比较容易想到的解法，现在诸位相加，记得保存需要进位的那个数字，最后判断末尾情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
@@ -79,4 +79,4 @@ class Solution:
                 s = ListNode(count)
                 flag.next = s
         return sum_node.next
-```
+# ```

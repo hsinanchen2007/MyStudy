@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int shortestWordDistance(vector<string>& words, string word1, string word2) {
@@ -33,6 +33,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c81c028d55627326a1682c6eab2fc5945290f04ff55c6fc574b1c5494bae6ad6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c81c028d55627326a1682c6eab2fc5945290f04ff55c6fc574b1c5494bae6ad6-image.png)

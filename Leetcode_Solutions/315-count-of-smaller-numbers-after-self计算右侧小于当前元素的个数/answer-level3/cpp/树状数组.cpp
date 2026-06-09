@@ -1,10 +1,10 @@
-### 解题思路
-还是按照之前的思路，给原数组排序，因为是右边的所有数据，所有从后往前遍历，就是获取sum[rank]即可。
-树状数组，两个函数Read和ADD，熟练lowBit操作，代码相比于线段树更加简单。
+// ### 解题思路
+// 还是按照之前的思路，给原数组排序，因为是右边的所有数据，所有从后往前遍历，就是获取sum[rank]即可。
+// 树状数组，两个函数Read和ADD，熟练lowBit操作，代码相比于线段树更加简单。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -57,4 +57,4 @@ vector<int> countSmaller(vector<int>& nums) {
 	return results;
 }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_105_buildTree.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_105_buildTree.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 1.确定根节点，前序的首位就是根节点
@@ -84,4 +84,4 @@
 
         return root;
     }
-```
+// ```

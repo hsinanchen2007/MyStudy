@@ -1,9 +1,9 @@
-### 解题思路
-三个指针, 分别操作pre, cur, next, 不丢节点.
+// ### 解题思路
+// 三个指针, 分别操作pre, cur, next, 不丢节点.
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -36,4 +36,4 @@ class Solution {
         return pre
     }
 }
-```
+// ```

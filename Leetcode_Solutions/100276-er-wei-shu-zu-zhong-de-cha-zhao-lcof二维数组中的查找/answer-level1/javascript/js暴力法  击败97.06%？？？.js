@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力法竟然还能击败这么多  很好奇将别人是怎么做的
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 暴力法竟然还能击败这么多  很好奇将别人是怎么做的
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -19,5 +19,5 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false
 };
-```![image.png](https://pic.leetcode-cn.com/e1c29285a84bc780b934929af457b297b36fd233768cd3cc5c0dd679ab9f579b-image.png)
+// ```![image.png](https://pic.leetcode-cn.com/e1c29285a84bc780b934929af457b297b36fd233768cd3cc5c0dd679ab9f579b-image.png)
 

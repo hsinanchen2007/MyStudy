@@ -1,6 +1,6 @@
-### 解题思路
-用数组dp[i]记录以nums[i]结尾的最大上升子序列
-```
+// ### 解题思路
+// 用数组dp[i]记录以nums[i]结尾的最大上升子序列
+// ```
 int lengthOfLIS(int* nums, int numsSize) {
 	if (numsSize <= 1) return numsSize;
 	int* dp = (int*)malloc(sizeof(int)*numsSize);
@@ -18,11 +18,11 @@ int lengthOfLIS(int* nums, int numsSize) {
 	}
 	return maxLen;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize) {
 	if (numsSize <= 1) return numsSize;
 	int* dp = (int*)malloc(sizeof(int)*numsSize);
@@ -40,4 +40,4 @@ int lengthOfLIS(int* nums, int numsSize) {
 	}
 	return maxLen;
 }
-```
+// ```

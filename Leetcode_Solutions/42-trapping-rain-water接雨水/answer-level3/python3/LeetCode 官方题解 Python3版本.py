@@ -1,8 +1,8 @@
-参考官方题解，写了对应了四种方法的python3版本。
+# 参考官方题解，写了对应了四种方法的python3版本。
 
-- 方法一：暴力破解法的实现：
+# - 方法一：暴力破解法的实现：
 
-```python
+# ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
         ans = 0
@@ -21,16 +21,16 @@ class Solution:
             ans += min(max_left, max_right) - height[i]
             i += 1
         return ans
-```
-时间复杂度： $O(n^2)$。数组中的每个元素都需要向左向右扫描。
-空间复杂度 $O(1)$ 的额外空间。
-通过测试用例314 / 315 个，最后一个用例，长度为10732，未能通过。
+# ```
+# 时间复杂度： $O(n^2)$。数组中的每个元素都需要向左向右扫描。
+# 空间复杂度 $O(1)$ 的额外空间。
+# 通过测试用例314 / 315 个，最后一个用例，长度为10732，未能通过。
 
 
 
-- 方法二：动态规划法的实现
+# - 方法二：动态规划法的实现
 
-```python
+# ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
         length = len(height)
@@ -63,18 +63,18 @@ class Solution:
 
         return ans
 
-```
+# ```
 
-时间复杂度：$O(n)$，存储最大高度数组，需要两次遍历，每次 $O(n)$ 。最终使用存储的数据更新$\text{ans}$ ，$O(n)$。
-空间复杂度：$O(n)$ ，额外空间。和方法 1 相比使用了额外的 $O(n)$ 空间用来放置$\text{left_max}$ 和 $\text{right_max}$ 数组。
-执行用时 :80 ms, 在所有 Python3 提交中击败了26.42%的用户
-内存消耗 :13.9 MB, 在所有 Python3 提交中击败了28.11%的用户
+# 时间复杂度：$O(n)$，存储最大高度数组，需要两次遍历，每次 $O(n)$ 。最终使用存储的数据更新$\text{ans}$ ，$O(n)$。
+# 空间复杂度：$O(n)$ ，额外空间。和方法 1 相比使用了额外的 $O(n)$ 空间用来放置$\text{left_max}$ 和 $\text{right_max}$ 数组。
+# 执行用时 :80 ms, 在所有 Python3 提交中击败了26.42%的用户
+# 内存消耗 :13.9 MB, 在所有 Python3 提交中击败了28.11%的用户
 
 
 
-- 方法三：基于栈的方法实现
+# - 方法三：基于栈的方法实现
 
-```python
+# ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
         ans, current = 0, 0  # 声明ans、current变量来保存结果和游标位置
@@ -93,18 +93,18 @@ class Solution:
             current += 1  # 先保存再自增
 
         return ans
-```
+# ```
 
-时间复杂度：$O(n)$。单次遍历 $O(n)$ ，每个条形块最多访问两次（由于栈的弹入和弹出），并且弹入和弹出栈都是 $O(1)$ 的。
-空间复杂度：$O(n)$。 栈最多在阶梯型或平坦型条形块结构中占用 $O(n)$ 的空间。
-执行用时 :64 ms, 在所有 Python3 提交中击败了52.06%的用户
-内存消耗 :14 MB, 在所有 Python3 提交中击败了28.11%的用户
+# 时间复杂度：$O(n)$。单次遍历 $O(n)$ ，每个条形块最多访问两次（由于栈的弹入和弹出），并且弹入和弹出栈都是 $O(1)$ 的。
+# 空间复杂度：$O(n)$。 栈最多在阶梯型或平坦型条形块结构中占用 $O(n)$ 的空间。
+# 执行用时 :64 ms, 在所有 Python3 提交中击败了52.06%的用户
+# 内存消耗 :14 MB, 在所有 Python3 提交中击败了28.11%的用户
 
 
 
-- 方法四：基于双指针方法的实现
+# - 方法四：基于双指针方法的实现
 
-```python
+# ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
         ans, left, right = 0, 0, len(height) - 1
@@ -123,8 +123,8 @@ class Solution:
                     ans += (right_max - height[right])  # 同样，只用计算一个位置对应能够积累的水珠数量。
                 right -= 1
         return ans
-```
-时间复杂度：$O(n)$，单次遍历的时间O(n)。
-空间复杂度：$O(1)$ ，`left, right,  left_max 和 ight_max` 只需要常数的空间。
-执行用时 :32 ms, 在所有 Python3 提交中击败了99.55%的用户
-内存消耗 :13.8 MB, 在所有 Python3 提交中击败了28.30%的用户
+# ```
+# 时间复杂度：$O(n)$，单次遍历的时间O(n)。
+# 空间复杂度：$O(1)$ ，`left, right,  left_max 和 ight_max` 只需要常数的空间。
+# 执行用时 :32 ms, 在所有 Python3 提交中击败了99.55%的用户
+# 内存消耗 :13.8 MB, 在所有 Python3 提交中击败了28.30%的用户

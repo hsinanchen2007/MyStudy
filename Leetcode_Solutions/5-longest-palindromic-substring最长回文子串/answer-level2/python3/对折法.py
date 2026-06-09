@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         length = len(s)
@@ -36,4 +36,4 @@ class Solution:
             return s[location - Max0//2 +1 : location + Max0//2+1]
         else :
             return s[location - Max0//2 : location + Max0//2+1]        
-```
+# ```

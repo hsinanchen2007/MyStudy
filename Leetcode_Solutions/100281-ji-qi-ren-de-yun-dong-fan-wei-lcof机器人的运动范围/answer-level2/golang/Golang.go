@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
     moved,count:=make([]bool,m*n),0
     var move func(i,j int)
@@ -17,4 +17,4 @@ func movingCount(m int, n int, k int) int {
     move(0,0)
     return count
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def splitArray(self, nums, m):
         # binary search for min_max
@@ -30,4 +30,4 @@ class Solution(object):
         # note that we have to ensure sum <= max
         return (sum <= max) and (div <= k)
   
-```
+# ```

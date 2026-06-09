@@ -1,4 +1,4 @@
-```
+# ```
 超时
 class Solution:
     def countPrimes(self, n: int) -> int:
@@ -18,8 +18,8 @@ class Solution:
                 prim.append(i)
         return len(prim)
 
-```
-```
+# ```
+# ```
 代码块
 class Solution:
     def countPrimes(self, n: int) -> int:
@@ -35,8 +35,8 @@ class Solution:
             i += 1
         return len(m)
     
-```
-```
+# ```
+# ```
 class Solution:
     def countPrimes(self, n: int) -> int:
         m = [1] * n
@@ -53,4 +53,4 @@ class Solution:
                 c += 1
         #print(m)
         return c
-```
+# ```

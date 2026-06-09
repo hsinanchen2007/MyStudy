@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-思路一：排序（超时）暴力方法，每次选取和 `p`等长的字符串比较。
+# 思路一：排序（超时）暴力方法，每次选取和 `p`等长的字符串比较。
 
-思路二：前缀和 + 哈希，我们按前缀统计字母的个数，这样便可方便求出和`p`等长的字符串是否一致。
+# 思路二：前缀和 + 哈希，我们按前缀统计字母的个数，这样便可方便求出和`p`等长的字符串是否一致。
 
-思路三：滑动窗口，与前缀和思路差不多，只不过用数组比较是否相等。
+# 思路三：滑动窗口，与前缀和思路差不多，只不过用数组比较是否相等。
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:  
         n = len(p)
@@ -20,11 +20,11 @@ class Solution:
             if "".join(sorted(s[i:i + n])) == p:
                 res.append(i)
         return res
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         from collections import Counter
@@ -39,11 +39,11 @@ class Solution:
             if i >= n and dp[i] - dp[i - n] == p:
                 res.append(i - n)
         return res
-```
+# ```
 
-思路三：
+# 思路三：
 
-```python
+# ```python
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         # 记录p, s字母个数
@@ -65,5 +65,5 @@ class Solution:
             s_count[ord(s[left]) - 97] -= 1
             left += 1
         return res
-```
+# ```
 

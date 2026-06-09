@@ -1,14 +1,14 @@
-### 解题思路
-这里采用官方题解的思路，先用一次二分查找来找出 pivot 旋转点
-利用此旋转点把数组分为两段，然后确定需要在哪一段搜索，最终返回搜索结果。
+# ### 解题思路
+# 这里采用官方题解的思路，先用一次二分查找来找出 pivot 旋转点
+# 利用此旋转点把数组分为两段，然后确定需要在哪一段搜索，最终返回搜索结果。
 
-注意到，查找pivot 使用排除法，这里 if 的条件其实很精细，一定要仔细考虑，连续碰到两次 bug。
+# 注意到，查找pivot 使用排除法，这里 if 的条件其实很精细，一定要仔细考虑，连续碰到两次 bug。
 
-if 条件判断最好改为 if nums[mid]>=nums[0], 否则容易遭遇 mid=0 时的bug.
-其实 > 变为 >= 有时候更好，更鲁棒
+# if 条件判断最好改为 if nums[mid]>=nums[0], 否则容易遭遇 mid=0 时的bug.
+# 其实 > 变为 >= 有时候更好，更鲁棒
 
 
-``` python3
+# ``` python3
 a, b = 0, n-1
 while a<b:
     mid = a + (b-a)//2
@@ -19,12 +19,12 @@ while a<b:
     else:
         b = mid
 pivot = a
-```
+# ```
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         n = len(nums)
@@ -67,4 +67,4 @@ class Solution:
         else:
             return -1
 
-```
+# ```

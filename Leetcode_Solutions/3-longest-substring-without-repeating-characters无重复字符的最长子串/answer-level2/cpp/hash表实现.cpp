@@ -1,9 +1,9 @@
-### 解题思路
-cnt维护动态hash范围
+// ### 解题思路
+// cnt维护动态hash范围
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hash[256]={false};
@@ -29,4 +29,4 @@ public:
         return maxn;
     }
 };
-```
+// ```

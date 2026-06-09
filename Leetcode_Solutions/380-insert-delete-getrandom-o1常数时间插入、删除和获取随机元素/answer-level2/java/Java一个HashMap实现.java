@@ -1,6 +1,6 @@
-插入和删除O1很好实现，但是getRandom要O1可能有点问题，这里我直接取出map的键集合，然后直接对其求random取出key来实现。
+// 插入和删除O1很好实现，但是getRandom要O1可能有点问题，这里我直接取出map的键集合，然后直接对其求random取出key来实现。
 
-```java
+// ```java
 class RandomizedSet {
 
     private HashMap<Integer, Object> map;
@@ -32,4 +32,4 @@ class RandomizedSet {
         return keys[new Random().nextInt(keys.length)];
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-- 前后指针迭代
-- 时间O(n)，空间O(1)
-```
+// - 前后指针迭代
+// - 时间O(n)，空间O(1)
+// ```
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -17,4 +17,4 @@ public:
         return pre;
     }
 };
-```
+// ```

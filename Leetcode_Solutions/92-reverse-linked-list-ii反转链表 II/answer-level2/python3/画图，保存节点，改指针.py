@@ -1,4 +1,4 @@
-```
+# ```
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -30,4 +30,4 @@ class Solution:
             p = p_next
             count += 1
         return head_pre.next
-```
+# ```

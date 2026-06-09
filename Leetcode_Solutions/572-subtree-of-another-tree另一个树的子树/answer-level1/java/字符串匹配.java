@@ -1,9 +1,9 @@
-### 解题思路
-如果将大树的先序遍历结果认为是s1，小树的先序遍历是s2，这个问题等价于s2是否为s1的子串
+// ### 解题思路
+// 如果将大树的先序遍历结果认为是s1，小树的先序遍历是s2，这个问题等价于s2是否为s1的子串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -72,4 +72,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

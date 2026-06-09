@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         # 3. 堆排
@@ -78,4 +78,4 @@ class Solution:
 #         return quickSort(nums, 0, len(nums)-1)
             
             
-```
+# ```

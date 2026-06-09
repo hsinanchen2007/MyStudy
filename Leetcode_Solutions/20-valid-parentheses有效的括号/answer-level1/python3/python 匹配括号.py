@@ -1,10 +1,10 @@
-### 解题思路
-将左括号压入list中，遇见右括号进行pop比较。
-注：不要遗忘左括号多的情况：最后判断list是否为空
-   不要遗忘右括号多的情况：pop前判断list是否为空
-### 代码
+# ### 解题思路
+# 将左括号压入list中，遇见右括号进行pop比较。
+# 注：不要遗忘左括号多的情况：最后判断list是否为空
+#    不要遗忘右括号多的情况：pop前判断list是否为空
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -37,4 +37,4 @@ class Solution(object):
             return True
         else:
             return False 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-这要怎么短哈哈哈哈哈
+# ### 解题思路
+# 这要怎么短哈哈哈哈哈
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def toHexspeak(self, num):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 res += i.upper()
         return res
 
-```
+# ```

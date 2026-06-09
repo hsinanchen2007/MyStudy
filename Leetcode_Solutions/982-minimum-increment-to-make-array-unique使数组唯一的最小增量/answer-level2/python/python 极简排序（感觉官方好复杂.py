@@ -1,7 +1,7 @@
 
-记录上一步的值pre，当前值至少为pre+1
+# 记录上一步的值pre，当前值至少为pre+1
 
-```python
+# ```python
 class Solution:
 
     def minIncrementForUnique(self, A: List[int]) -> int:
@@ -18,5 +18,5 @@ class Solution:
 
         return moves
 
-```
+# ```
 

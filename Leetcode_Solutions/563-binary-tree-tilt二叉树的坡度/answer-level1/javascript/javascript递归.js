@@ -1,10 +1,10 @@
-### 解题思路
-递归
-坡度 = sum（左子树.val） - sum（右子树.val） 
+// ### 解题思路
+// 递归
+// 坡度 = sum（左子树.val） - sum（右子树.val） 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ var findTilt = function(root) {
     sumTreeVal(root);
     return result
 };
-```
+// ```

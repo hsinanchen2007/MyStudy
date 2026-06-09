@@ -1,4 +1,4 @@
-```
+// ```
 void InitDsu(int *dsu, int num)
 {
     for (int i = 0; i < num; i++) {
@@ -72,4 +72,4 @@ bool hasValidPath(int** grid, int gridSize, int* gridColSize){
 
     return fs == fe;
 }
-```
+// ```

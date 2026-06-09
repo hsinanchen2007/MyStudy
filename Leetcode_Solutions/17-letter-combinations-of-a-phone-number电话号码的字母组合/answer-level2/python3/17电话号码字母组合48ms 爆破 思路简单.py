@@ -1,7 +1,7 @@
-1. 建立dict表
-2. 循环digits，查字典，做拼接
+# 1. 建立dict表
+# 2. 循环digits，查字典，做拼接
 
-```python []
+# ```python []
 def letterCombinations(digits: str) -> [str]:
     dict = {
         '2': 'abc',
@@ -45,5 +45,5 @@ def letterCombinations(digits: str) -> [str]:
             # print(res)
         return res
 
-```
+# ```
 

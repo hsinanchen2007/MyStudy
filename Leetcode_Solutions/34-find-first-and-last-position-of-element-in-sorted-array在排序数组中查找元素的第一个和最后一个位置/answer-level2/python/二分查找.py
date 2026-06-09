@@ -1,4 +1,4 @@
-```
+# ```
  def searchRange(self, nums, target):
         """
         :type nums: List[int]
@@ -34,4 +34,4 @@
             j += 1
 
         return [i + 1, j - 1]
-```
+# ```

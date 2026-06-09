@@ -1,6 +1,6 @@
-***尝试不同解法----------YYM***
+// ***尝试不同解法----------YYM***
 
-```
+// ```
 class Solution {
 public:
     bool isRobotBounded(string instructions) {
@@ -49,4 +49,4 @@ public:
         return true;
     }
 };
-```
+// ```

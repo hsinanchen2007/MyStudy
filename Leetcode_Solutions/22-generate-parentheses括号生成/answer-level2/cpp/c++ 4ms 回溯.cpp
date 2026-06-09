@@ -1,9 +1,9 @@
-### 解题思路
-每一步选择'('和')'做判断
+// ### 解题思路
+// 每一步选择'('和')'做判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> result;
@@ -23,4 +23,4 @@ public:
         generateParenthesis(str + ")", left, n);
     }
 };
-```
+// ```

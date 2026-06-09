@@ -1,6 +1,6 @@
-Java中int有32bit,可以分别比较AB每一位是否一样。
+// Java中int有32bit,可以分别比较AB每一位是否一样。
 
-```java
+// ```java
     public int convertInteger(int A, int B) {
         int count = 0;
         for(int i = 0;i < 32;i++){
@@ -10,4 +10,4 @@ Java中int有32bit,可以分别比较AB每一位是否一样。
         }
         return count;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-把字符串每个字符出现的数量放入一个对象中，然后按照大到小的顺序来输出排列~
+// ### 解题思路
+// 把字符串每个字符出现的数量放入一个对象中，然后按照大到小的顺序来输出排列~
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -33,4 +33,4 @@ var frequencySort = function(s) {
     });
     return str;
 };
-```
+// ```

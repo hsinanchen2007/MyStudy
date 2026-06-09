@@ -1,10 +1,10 @@
-### 解题思路
-一个总数，找到对应的n，等差数列求和；
-需要特别注意的是，会有int溢出的情况，GetNum接口需要使用long
+// ### 解题思路
+// 一个总数，找到对应的n，等差数列求和；
+// 需要特别注意的是，会有int溢出的情况，GetNum接口需要使用long
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 long GetNum(int n)
 {
     long tmp = n;
@@ -54,4 +54,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     *returnSize = num_people;
     return ans;
 }
-```
+// ```

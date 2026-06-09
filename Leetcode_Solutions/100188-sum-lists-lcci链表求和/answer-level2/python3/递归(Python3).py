@@ -1,9 +1,9 @@
-### 解题思路
-设置进位，逐步相加
+# ### 解题思路
+# 设置进位，逐步相加
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         return self.addLists(l1, l2, 0)
@@ -20,4 +20,4 @@ class Solution:
             more = self.addLists(l1.next if l1 else None, l2.next if l2 else None, 1 if value >= 10 else 0)
             result.next = more
         return result
-```
+# ```

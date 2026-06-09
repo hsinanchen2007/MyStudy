@@ -1,10 +1,10 @@
-### 解题思路
-1. 记录每一行的1的位置
-2. 求交集的长度
+# ### 解题思路
+# 1. 记录每一行的1的位置
+# 2. 求交集的长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCornerRectangles(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -26,4 +26,4 @@ class Solution:
                 ans += s * (s - 1) // 2
 
         return ans
-```
+# ```

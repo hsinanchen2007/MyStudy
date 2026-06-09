@@ -1,23 +1,23 @@
 
-![image.png](https://pic.leetcode-cn.com/28886324ed6c100d72d926956d66c20a1538729abb40f184b33c35f8d8f10754-image.png)
+# ![image.png](https://pic.leetcode-cn.com/28886324ed6c100d72d926956d66c20a1538729abb40f184b33c35f8d8f10754-image.png)
 
-LeetCode的编辑器不习惯，在CSDN上写了一份，这里偷懒截图了，想看原地址请戳[CSDN地址](https://blog.csdn.net/LoveHYZH/article/details/92760709)
+# LeetCode的编辑器不习惯，在CSDN上写了一份，这里偷懒截图了，想看原地址请戳[CSDN地址](https://blog.csdn.net/LoveHYZH/article/details/92760709)
 
-基本思路就是官方解答那个，我想了好久其他解法没搞定0.0，总是有一种特殊情况很难解决。
+# 基本思路就是官方解答那个，我想了好久其他解法没搞定0.0，总是有一种特殊情况很难解决。
 
-![image.png](https://pic.leetcode-cn.com/ec0f123a52e140c06a1f97eca536251a6f9e28342f745540f06c3a5c49854bb6-image.png)
--------------------------------------下面开始具体算法-------------------------------------
+# ![image.png](https://pic.leetcode-cn.com/ec0f123a52e140c06a1f97eca536251a6f9e28342f745540f06c3a5c49854bb6-image.png)
+# -------------------------------------下面开始具体算法-------------------------------------
 
-![image.png](https://pic.leetcode-cn.com/48da1f498aa4309dad7fc7366688757f6924426a37ae4b92688c78b4b18d97b5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/48da1f498aa4309dad7fc7366688757f6924426a37ae4b92688c78b4b18d97b5-image.png)
 
-![image.png](https://pic.leetcode-cn.com/bcf894d422ebbf9f8aee750b581f0a5d872dd1c544ed43a0e3f39ace2a4ee864-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bcf894d422ebbf9f8aee750b581f0a5d872dd1c544ed43a0e3f39ace2a4ee864-image.png)
 
-![image.png](https://pic.leetcode-cn.com/0d04e3d635614c82bd2bec0cfd030792c5df32da3b76f454921b1c67e2c4439f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0d04e3d635614c82bd2bec0cfd030792c5df32da3b76f454921b1c67e2c4439f-image.png)
 
 
-![image.png](https://pic.leetcode-cn.com/65e04c5157948694376cf28e57c66d9bdf68654c72354a13e946b2fc31dba2b3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/65e04c5157948694376cf28e57c66d9bdf68654c72354a13e946b2fc31dba2b3-image.png)
 
-```python
+# ```python
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         m, n = len(nums1), len(nums2)
@@ -61,4 +61,4 @@ class Solution:
                     min_of_right = min(nums1[i], nums2[j])
 
                 return (max_of_left + min_of_right) / 2.0	# 结果为浮点数
-```
+# ```

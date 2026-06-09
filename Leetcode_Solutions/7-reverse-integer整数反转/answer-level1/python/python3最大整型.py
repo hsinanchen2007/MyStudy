@@ -1,9 +1,9 @@
-### 解题思路
-python3最大整型是2^63,所以还能简化下
+# ### 解题思路
+# python3最大整型是2^63,所以还能简化下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         int_max = 2**31-1
@@ -25,4 +25,4 @@ class Solution:
                 return 0
 
         return rev
-```
+# ```

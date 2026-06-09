@@ -1,9 +1,9 @@
-### 解题思路
-[[13,15],[1,13]]这个用例预期结果是1，允许end == start
+// ### 解题思路
+// [[13,15],[1,13]]这个用例预期结果是1，允许end == start
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct cmp {
     bool operator()(const vector<int>& a, const vector<int>& b) const {
         if (a.front() < b.front()) {
@@ -37,4 +37,4 @@ public:
         return result;
     }
 };
-```
+// ```

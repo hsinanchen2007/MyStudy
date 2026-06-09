@@ -1,5 +1,5 @@
-有点菜
-```python []
+# 有点菜
+# ```python []
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
         
@@ -35,4 +35,4 @@ class Solution:
         res = list(endpoint)
         res.sort()
         return res
-```
+# ```

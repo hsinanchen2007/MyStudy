@@ -1,9 +1,9 @@
-### 解题思路
-深度优先 回溯 东南西北
+// ### 解题思路
+// 深度优先 回溯 东南西北
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static bool dfs(char** board, int boardSize, int* boardColSize, char* word,
                 bool** ppbUsed, int row, int col)
 {
@@ -73,4 +73,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char * word){
     return false;
 }
 
-```
+// ```

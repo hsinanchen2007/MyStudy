@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历取数组最右边值
+// ### 解题思路
+// 层序遍历取数组最右边值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void DFS(struct TreeNode* root,int *path,int deep, int* row)
 {
@@ -24,4 +24,4 @@ int* rightSideView(struct TreeNode* root, int* returnSize) {
 	*returnSize = row;
 	return path;
 }
-```
+// ```

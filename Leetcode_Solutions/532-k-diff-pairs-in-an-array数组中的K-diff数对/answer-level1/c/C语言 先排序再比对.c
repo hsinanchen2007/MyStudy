@@ -1,10 +1,10 @@
-### 解题思路
-先排序，然后逐个比对
-![image.png](https://pic.leetcode-cn.com/f604f3c1e196c6a0f75d49c24c0e0489df95b866d849516de50cfdf1b6d2cb87-image.png)
+// ### 解题思路
+// 先排序，然后逐个比对
+// ![image.png](https://pic.leetcode-cn.com/f604f3c1e196c6a0f75d49c24c0e0489df95b866d849516de50cfdf1b6d2cb87-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
 	return *(int*)a > *(int*)b;
@@ -31,4 +31,4 @@ int findPairs(int* nums, int numsSize, int k){
 	}
 	return cnt;
 }
-```
+// ```

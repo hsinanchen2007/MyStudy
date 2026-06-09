@@ -1,17 +1,17 @@
-执行用时 :44 ms, 在所有 Python 提交中击败了99.39%的用户。
+# 执行用时 :44 ms, 在所有 Python 提交中击败了99.39%的用户。
 
-**核心点：使用双哈希和双指针**
+# **核心点：使用双哈希和双指针**
 
-hash1存储s1的字符及其数量；hash2存储s2在索引head和tail的字符及其数量，其中：
-`tail - head = len(s1), tail < len(s2) - 1;`
-比较hash1和hash2，如果不同，则在保证tail合法的情况下，将tail加1，接下来：
-1. 如果tail所对应的值在s1中，则修hash1，将s1[tail]对应的字符数加1，同时将s1[head]对应的字符数减1，并将head加1
-2. 如果tail所对应的值不在s1中，那么说明，我们需要从tail + 1开始，重新构建hash2，这里需要考虑tail + 1 + len(s1)是否合法：
-- 如果合法，则继续
-- 如果不合法，遍历结束
+# hash1存储s1的字符及其数量；hash2存储s2在索引head和tail的字符及其数量，其中：
+# `tail - head = len(s1), tail < len(s2) - 1;`
+# 比较hash1和hash2，如果不同，则在保证tail合法的情况下，将tail加1，接下来：
+# 1. 如果tail所对应的值在s1中，则修hash1，将s1[tail]对应的字符数加1，同时将s1[head]对应的字符数减1，并将head加1
+# 2. 如果tail所对应的值不在s1中，那么说明，我们需要从tail + 1开始，重新构建hash2，这里需要考虑tail + 1 + len(s1)是否合法：
+# - 如果合法，则继续
+# - 如果不合法，遍历结束
 
-最后需要注意的是，对于tail值的判断，这里我是直接选取的是索引，所以需要考虑加减1的问题。虽然是小问题，但是很容易错。
-```
+# 最后需要注意的是，对于tail值的判断，这里我是直接选取的是索引，所以需要考虑加减1的问题。虽然是小问题，但是很容易错。
+# ```
 class Solution(object):
     def checkInclusion(self, s1, s2):
         """
@@ -60,4 +60,4 @@ class Solution(object):
                 head += 1
 
         return False
-```
+# ```

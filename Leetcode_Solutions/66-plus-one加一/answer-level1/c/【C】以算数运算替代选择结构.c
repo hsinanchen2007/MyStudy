@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+// ### 解题思路
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -18,4 +18,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     memcpy(res + (digits[0] == 0), digits, digitsSize * sizeof(int)); // 复制digits到res的后digitsSize位中
     return res;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用迭代利用next属性实现
-2. 使用栈来实现bfs
+# ### 解题思路
+# 1. 使用迭代利用next属性实现
+# 2. 使用栈来实现bfs
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -50,4 +50,4 @@ class Solution:
             
 
 
-```
+# ```

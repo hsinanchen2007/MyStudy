@@ -1,5 +1,5 @@
-参考 ：https://blog.csdn.net/start_lie/article/details/84448182
-```
+// 参考 ：https://blog.csdn.net/start_lie/article/details/84448182
+// ```
 class Solution {
     public int checkRecord(int n) {
         if(n==0)
@@ -33,4 +33,4 @@ class Solution {
         return (int)((dp[n][0][0]+dp[n][1][0]+dp[n][0][1]+dp[n][1][1]+dp[n][0][2]+ dp[n][1][2])%max);
     }
 }
-```
+// ```

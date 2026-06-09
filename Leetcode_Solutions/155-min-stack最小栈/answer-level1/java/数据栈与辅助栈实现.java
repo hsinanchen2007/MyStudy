@@ -1,18 +1,18 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(1)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 定义两个栈存储入栈元素以及最小元素
-    2.2 push函数，它涉及一个关于当前插入元素是否小于最小栈的栈顶元素的判断
-    2.3 pop函数，对比最小栈的栈顶元素以及主栈栈顶元素决定出栈的元素
-    2.4 top函数，直接返回主栈的栈顶元素
-    2.5 getMin函数，返回最小栈的栈顶元素
-3. 提交记录
-    3.1 力扣中耗时104ms,消耗71.6MB内存
-    3.2 leetcode中耗时46ms,消耗40.5MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(1)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 定义两个栈存储入栈元素以及最小元素
+//     2.2 push函数，它涉及一个关于当前插入元素是否小于最小栈的栈顶元素的判断
+//     2.3 pop函数，对比最小栈的栈顶元素以及主栈栈顶元素决定出栈的元素
+//     2.4 top函数，直接返回主栈的栈顶元素
+//     2.5 getMin函数，返回最小栈的栈顶元素
+// 3. 提交记录
+//     3.1 力扣中耗时104ms,消耗71.6MB内存
+//     3.2 leetcode中耗时46ms,消耗40.5MB内存
+// 4. Q&A
 
-```
+// ```
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -80,6 +80,6 @@ class Solution {
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

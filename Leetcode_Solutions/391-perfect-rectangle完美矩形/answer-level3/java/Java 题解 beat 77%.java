@@ -1,4 +1,4 @@
-``` java
+// ``` java
 class Solution {
    public boolean isRectangleCover(int[][] rectangles) {
 
@@ -36,4 +36,4 @@ class Solution {
         return area == (x2-x1) * (y2-y1);
     }
 }
-```
+// ```

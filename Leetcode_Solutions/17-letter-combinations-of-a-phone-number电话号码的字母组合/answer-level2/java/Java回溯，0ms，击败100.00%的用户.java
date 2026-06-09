@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-用一个StringBuilder存储当前的字符串
-用curLen记录当前长度
-当curLen == digits.length()时，加入res列表
+// 用一个StringBuilder存储当前的字符串
+// 用curLen记录当前长度
+// 当curLen == digits.length()时，加入res列表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private String digits;
     private List<String> res;
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

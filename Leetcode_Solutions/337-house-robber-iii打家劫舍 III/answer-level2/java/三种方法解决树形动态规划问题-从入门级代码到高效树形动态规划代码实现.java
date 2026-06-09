@@ -1,46 +1,46 @@
-#### 说明
-本题目本身就是动态规划的树形版本，通过此题解，可以了解一下树形问题在动态规划问题解法
-我们通过三个方法不断递进解决问题
+// #### 说明
+// 本题目本身就是动态规划的树形版本，通过此题解，可以了解一下树形问题在动态规划问题解法
+// 我们通过三个方法不断递进解决问题
 
-- 解法一通过递归实现，虽然解决了问题，但是复杂度太高
-- 解法二通过解决方法一中的重复子问题，实现了性能的百倍提升
-- 解法三直接省去了重复子问题，性能又提升了一步
+// - 解法一通过递归实现，虽然解决了问题，但是复杂度太高
+// - 解法二通过解决方法一中的重复子问题，实现了性能的百倍提升
+// - 解法三直接省去了重复子问题，性能又提升了一步
 
-#### 解法一、暴力递归 - 最优子结构
-在解法一和解法二中，我们使用爷爷、两个孩子、4 个孙子来说明问题
-首先来定义这个问题的状态
-爷爷节点获取到最大的偷取的钱数呢
-1. 首先要明确相邻的节点不能偷，也就是爷爷选择偷，儿子就不能偷了，但是孙子可以偷
-2. 二叉树只有左右两个孩子，一个爷爷最多 2 个儿子，4 个孙子
+// #### 解法一、暴力递归 - 最优子结构
+// 在解法一和解法二中，我们使用爷爷、两个孩子、4 个孙子来说明问题
+// 首先来定义这个问题的状态
+// 爷爷节点获取到最大的偷取的钱数呢
+// 1. 首先要明确相邻的节点不能偷，也就是爷爷选择偷，儿子就不能偷了，但是孙子可以偷
+// 2. 二叉树只有左右两个孩子，一个爷爷最多 2 个儿子，4 个孙子
 
-根据以上条件，我们可以得出单个节点的钱该怎么算
-**4 个孙子偷的钱 + 爷爷的钱 VS 两个儿子偷的钱 哪个组合钱多，就当做当前节点能偷的最大钱数。这就是动态规划里面的最优子结构**
+// 根据以上条件，我们可以得出单个节点的钱该怎么算
+// **4 个孙子偷的钱 + 爷爷的钱 VS 两个儿子偷的钱 哪个组合钱多，就当做当前节点能偷的最大钱数。这就是动态规划里面的最优子结构**
 
-由于是二叉树，这里可以选择计算所有子节点
+// 由于是二叉树，这里可以选择计算所有子节点
 
-4 个孙子投的钱加上爷爷的钱如下
-```int method1 = root.val + rob(root.left.left) + rob(root.left.right) + rob(root.right.left) + rob(root.right.right)```
+// 4 个孙子投的钱加上爷爷的钱如下
+// ```int method1 = root.val + rob(root.left.left) + rob(root.left.right) + rob(root.right.left) + rob(root.right.right)```
 两个儿子偷的钱如下
-```int method2 = rob(root.left) + rob(root.right);```
-挑选一个钱数多的方案则 
-```int result = Math.max(method1, method2);```
+// ```int method2 = rob(root.left) + rob(root.right);```
+// 挑选一个钱数多的方案则 
+// ```int result = Math.max(method1, method2);```
 将上述方案写成代码如下
-```Java []
-public int rob(TreeNode root) {
-    if (root == null) return 0;
+// ```Java []
+// public int rob(TreeNode root) {
+//     if (root == null) return 0;
 
-    int money = root.val;
-    if (root.left != null) {
-        money += (rob(root.left.left) + rob(root.left.right));
-    }
+//     int money = root.val;
+//     if (root.left != null) {
+//         money += (rob(root.left.left) + rob(root.left.right));
+//     }
 
-    if (root.right != null) {
-        money += (rob(root.right.left) + rob(root.right.right));
-    }
+//     if (root.right != null) {
+//         money += (rob(root.right.left) + rob(root.right.right));
+//     }
 
-    return Math.max(money, rob(root.left) + rob(root.right));
-}
-```
+//     return Math.max(money, rob(root.left) + rob(root.right));
+// }
+// ```
 信心满满的提交，一次通过，然而 **执行用时:837 ms,在所有 java 提交中击败了24.49%的用户** 这个结果太没面子了，下个解法进行优化
 
 #### 解法二、记忆化 - 解决重复子问题
@@ -54,28 +54,28 @@ public int rob(TreeNode root) {
 由于二叉树不适合拿数组当缓存，我们这次使用哈希表来存储结果，TreeNode 当做 key，能偷的钱当做 value
 
 解法一加上记忆化优化后代码如下：
-```Java []
-public int rob(TreeNode root) {
-    HashMap<TreeNode, Integer> memo = new HashMap<>();
-    return robInternal(root, memo);
-}
+// ```Java []
+// public int rob(TreeNode root) {
+//     HashMap<TreeNode, Integer> memo = new HashMap<>();
+//     return robInternal(root, memo);
+// }
 
-public int robInternal(TreeNode root, HashMap<TreeNode, Integer> memo) {
-    if (root == null) return 0;
-    if (memo.containsKey(root)) return memo.get(root);
-    int money = root.val;
+// public int robInternal(TreeNode root, HashMap<TreeNode, Integer> memo) {
+//     if (root == null) return 0;
+//     if (memo.containsKey(root)) return memo.get(root);
+//     int money = root.val;
 
-    if (root.left != null) {
-        money += (robInternal(root.left.left, memo) + robInternal(root.left.right, memo));
-    }
-    if (root.right != null) {
-        money += (robInternal(root.right.left, memo) + robInternal(root.right.right, memo));
-    }
-    int result = Math.max(money, robInternal(root.left, memo) + robInternal(root.right, memo));
-    memo.put(root, result);
-    return result;
-}
-```
+//     if (root.left != null) {
+//         money += (robInternal(root.left.left, memo) + robInternal(root.left.right, memo));
+//     }
+//     if (root.right != null) {
+//         money += (robInternal(root.right.left, memo) + robInternal(root.right.right, memo));
+//     }
+//     int result = Math.max(money, robInternal(root.left, memo) + robInternal(root.right, memo));
+//     memo.put(root, result);
+//     return result;
+// }
+// ```
 提交代码，```执行用时：4 ms, 在所有 java 提交中击败了 54.92% 的用户```，速度提高了 200  倍。太开心了。别着急，还有一个终极方案呢，连记忆化消耗的时间都省了，能省则省么。
 
 #### 解法三、终极解法
@@ -93,32 +93,32 @@ public int robInternal(TreeNode root, HashMap<TreeNode, Integer> memo) {
 2. 当前节点选择偷：当前节点能偷到的最大钱数 = 左孩子选择自己不偷时能得到的钱 + 右孩子选择不偷时能得到的钱 + 当前节点的钱数
 
 表示为公式如下
-```
-root[0] = Math.max(rob(root.left)[0], rob(root.left)[1]) + Math.max(rob(root.right)[0], rob(root.right)[1])
-root[1] = rob(root.left)[0] + rob(root.right)[0] + root.val;
-```
+// ```
+// root[0] = Math.max(rob(root.left)[0], rob(root.left)[1]) + Math.max(rob(root.right)[0], rob(root.right)[1])
+// root[1] = rob(root.left)[0] + rob(root.right)[0] + root.val;
+// ```
 
 将公式做个变换就是代码啦
 
-```Java []
-public int rob(TreeNode root) {
-    int[] result = robInternal(root);
-    return Math.max(result[0], result[1]);
-}
+// ```Java []
+// public int rob(TreeNode root) {
+//     int[] result = robInternal(root);
+//     return Math.max(result[0], result[1]);
+// }
 
-public int[] robInternal(TreeNode root) {
-    if (root == null) return new int[2];
-    int[] result = new int[2];
+// public int[] robInternal(TreeNode root) {
+//     if (root == null) return new int[2];
+//     int[] result = new int[2];
 
-    int[] left = robInternal(root.left);
-    int[] right = robInternal(root.right);
+//     int[] left = robInternal(root.left);
+//     int[] right = robInternal(root.right);
 
-    result[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
-    result[1] = left[0] + right[0] + root.val;
+//     result[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+//     result[1] = left[0] + right[0] + root.val;
 
-    return result;
-}
-```
+//     return result;
+// }
+// ```
 再提交一次：
 **执行用时 1 ms, 在所有 java 提交中击败了 99.87% 的用户**，这样的结果，我觉得可以了。
 <br>

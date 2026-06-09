@@ -1,5 +1,5 @@
-双指针奇偶判断
-```
+// 双指针奇偶判断
+// ```
 struct ListNode* middleNode(struct ListNode* head)
 {
     if (head == NULL) {
@@ -16,4 +16,4 @@ struct ListNode* middleNode(struct ListNode* head)
     }
     return mid;
 }
-```
+// ```

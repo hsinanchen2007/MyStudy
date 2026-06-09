@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func numRollsToTarget(d int, f int, target int) int {
     mod := int((1e9)+7)
     dp := make([]int, target+1)
@@ -15,8 +15,8 @@ func numRollsToTarget(d int, f int, target int) int {
     }
     return dp[target]
 }
-```
-```go []
+// ```
+// ```go []
 func numRollsToTarget(d int, f int, target int) int {
     m := make(map[int]int)
     for j := 1; j <= f; j++ {
@@ -37,4 +37,4 @@ func numRollsToTarget(d int, f int, target int) int {
     }
     return m[target]
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d560ecb974e8822ed223805a48d9e7da865f6815ecd56df23eedb30737af41ae-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d560ecb974e8822ed223805a48d9e7da865f6815ecd56df23eedb30737af41ae-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MaxQueue = function() {
     this.queue = [];
     this.maxValue = -1;
@@ -48,4 +48,4 @@ MaxQueue.prototype.pop_front = function() {
  * obj.push_back(value)
  * var param_3 = obj.pop_front()
  */
-```
+// ```

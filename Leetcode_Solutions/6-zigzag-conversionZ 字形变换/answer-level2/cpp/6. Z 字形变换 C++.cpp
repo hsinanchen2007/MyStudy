@@ -1,17 +1,17 @@
-### 解题思路
-1.string矩阵
-自己写的方法不是很好，但是也是for循环反复迭代，迭代时采用数学规律
-维护了一个string矩阵，通过摄者string的值来实现Z字形遍历，这种方法不是很好
+// ### 解题思路
+// 1.string矩阵
+// 自己写的方法不是很好，但是也是for循环反复迭代，迭代时采用数学规律
+// 维护了一个string矩阵，通过摄者string的值来实现Z字形遍历，这种方法不是很好
 
-2.直接遍历法
-
-
+// 2.直接遍历法
 
 
-string矩阵
-### 代码
 
-```cpp
+
+// string矩阵
+// ### 代码
+
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -64,10 +64,10 @@ public:
 
     }
 };
-```
+// ```
 
-直接遍历法
-```
+// 直接遍历法
+// ```
 
 class Solution {
 public:
@@ -92,4 +92,4 @@ public:
 };
 
 
-```
+// ```

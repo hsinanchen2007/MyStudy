@@ -1,9 +1,9 @@
-### 解题思路
-调用一下str.strip, str.isalnum, ''.join这些API走流程而已!
+# ### 解题思路
+# 调用一下str.strip, str.isalnum, ''.join这些API走流程而已!
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         L = []
@@ -15,4 +15,4 @@ class Solution:
             if ss[i] != ss[len(ss) - 1 - i]:
                 return False
         return True
-```
+# ```

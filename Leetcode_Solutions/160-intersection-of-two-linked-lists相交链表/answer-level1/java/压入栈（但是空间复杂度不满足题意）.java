@@ -1,6 +1,6 @@
-# 压入栈（但是空间复杂度不满足题意）
+// # 压入栈（但是空间复杂度不满足题意）
 
-```
+// ```
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) return null;
         Stack<ListNode> stackA = new Stack<>();
@@ -23,4 +23,4 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         }
         return res;
     }
-```
+// ```

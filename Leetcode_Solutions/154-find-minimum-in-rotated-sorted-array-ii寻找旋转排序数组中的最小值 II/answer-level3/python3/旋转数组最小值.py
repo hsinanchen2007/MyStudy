@@ -1,9 +1,9 @@
-### 解题思路
-关键点：二分查找，最左边和最右边和中间都相等的情况
+# ### 解题思路
+# 关键点：二分查找，最左边和最右边和中间都相等的情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         if nums[0] < nums[-1]:
@@ -20,4 +20,4 @@ class Solution:
             else:
                 l = m + 1
         return nums[l]
-```
+# ```

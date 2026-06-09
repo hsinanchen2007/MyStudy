@@ -1,9 +1,9 @@
-### 解题思路
-数组从左到右依次遍历做为中心索引，注意左右两侧不能在每次遍历反复求和，只进行一个数的增减。
+// ### 解题思路
+// 数组从左到右依次遍历做为中心索引，注意左右两侧不能在每次遍历反复求和，只进行一个数的增减。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func pivotIndex(_ nums: [Int]) -> Int {
         let length = nums.count
@@ -23,4 +23,4 @@ class Solution {
         return middle
     }
 }
-```
+// ```

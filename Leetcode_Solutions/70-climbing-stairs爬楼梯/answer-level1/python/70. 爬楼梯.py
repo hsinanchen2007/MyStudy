@@ -1,5 +1,5 @@
-1. 暴力迭代解决 - 超时了
-```
+# 1. 暴力迭代解决 - 超时了
+# ```
 # -*- coding: utf-8 -*
 
 # 暴力解决问题
@@ -18,11 +18,11 @@ class Solution(object):
             return self.climbStairs(n-1) + self.climbStairs(n-2)
 
 print Solution().climbStairs(4)
-```
+# ```
 
-2. dictionary 优化 
-- 执行用时: 16 ms, 在所有 Python 提交中击败了93.82%的用户
-```
+# 2. dictionary 优化 
+# - 执行用时: 16 ms, 在所有 Python 提交中击败了93.82%的用户
+# ```
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -39,11 +39,11 @@ class Solution(object):
         
 
 print Solution().climbStairs(4)
-```
+# ```
 
-3. 动态规划 斐波那契数
-- 执行用时 : 12 ms, 在所有 Python 提交中击败了98.74%的用户
-```
+# 3. 动态规划 斐波那契数
+# - 执行用时 : 12 ms, 在所有 Python 提交中击败了98.74%的用户
+# ```
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -57,4 +57,4 @@ class Solution(object):
             for __ in range(3, n + 1):
                 p, q = q, p + q
             return q
-```
+# ```

@@ -1,5 +1,5 @@
-C++归并排序，非递归，bottom-to-up。按1-2-4-8的长度从头逐一切割链表并归并到已归并好的链表后面，直至merge_len大于链表长度
-```c++
+// C++归并排序，非递归，bottom-to-up。按1-2-4-8的长度从头逐一切割链表并归并到已归并好的链表后面，直至merge_len大于链表长度
+// ```c++
 class Solution {
  public:
      ListNode* sortList(ListNode* head) {
@@ -83,4 +83,4 @@ class Solution {
          return p;  //返回的是归并完成链表的末尾
      }
  };
-```
+// ```

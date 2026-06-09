@@ -1,6 +1,6 @@
-![微信截图_20200314124229.png](https://pic.leetcode-cn.com/eef86dc0e3385e6b55c755d0809ca7532e4c0db8f2b6bcd947808bb1b1964457-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200314124229.png)
+// ![微信截图_20200314124229.png](https://pic.leetcode-cn.com/eef86dc0e3385e6b55c755d0809ca7532e4c0db8f2b6bcd947808bb1b1964457-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200314124229.png)
 
-```
+// ```
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -29,6 +29,6 @@ public:
         return adj.empty();
     }
 };
-```
+// ```
 
 

@@ -1,26 +1,26 @@
-## 二叉树递归套路解法：
+# ## 二叉树递归套路解法：
 
-对于需要向左右子节点索取信息的问题，可以使用如下递归套路。
+# 对于需要向左右子节点索取信息的问题，可以使用如下递归套路。
 
-1、对每个节点进行可能性分析，判断是return false 还是return true。
+# 1、对每个节点进行可能性分析，判断是return false 还是return true。
 
-2、递归实现功能。
+# 2、递归实现功能。
 
-if 根节点满足某种条件
+# if 根节点满足某种条件
 
-+ return 递归(左子树) && 递归(右子树) 
+# + return 递归(左子树) && 递归(右子树) 
 
-+ return (递归(左子树) || 递归右子树) （其中一个满足条件即可）
+# + return (递归(左子树) || 递归右子树) （其中一个满足条件即可）
 
-return false
+# return false
 
-```python []
+# ```python []
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root == None: return 0
         return max(self.maxDepth(root.left) + 1, self.maxDepth(root.right) + 1)
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -28,15 +28,15 @@ public:
         return max(maxDepth(root->left)+1, maxDepth(root->right)+1); 
     }
 };
-```
-## DFS 深度优先遍历
+# ```
+# ## DFS 深度优先遍历
 
-递归实际上就是系统使用栈进行遍历操作，任何递归都可以使用栈写成迭代的形式，其中前序遍历、
-中序遍历和后续遍历都属于深度优先变量，这里C++代码在中序遍历的基础上加入了位置信息，实现
-了深度计算
+# 递归实际上就是系统使用栈进行遍历操作，任何递归都可以使用栈写成迭代的形式，其中前序遍历、
+# 中序遍历和后续遍历都属于深度优先变量，这里C++代码在中序遍历的基础上加入了位置信息，实现
+# 了深度计算
 
 
-```python []
+# ```python []
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root is None:return 0
@@ -51,9 +51,9 @@ class Solution:
             if node.left:
                 stack.append((node.left, deep+1))
         return Maxdeep
-```
+# ```
  
-```C++ []
+# ```C++ []
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -77,13 +77,13 @@ public:
         return Maxdeep;
     }
 };
-```
+# ```
 
-## BFS 广度优先遍历
+# ## BFS 广度优先遍历
 
-广度优先遍历实际上就是层次遍历，一般采用队列实现
+# 广度优先遍历实际上就是层次遍历，一般采用队列实现
 
-```python []
+# ```python []
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root is None:
@@ -96,8 +96,8 @@ class Solution:
             if node.right:
                 queue.append((node.right, deep+1,))
         return deep
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -119,6 +119,6 @@ public:
          return deep;         
     }
 };
-```
+# ```
 
-本题递归最慢，因为递归内部使用栈访问叶结点三次，而迭代的方法使用栈的次数会少一些
+# 本题递归最慢，因为递归内部使用栈访问叶结点三次，而迭代的方法使用栈的次数会少一些

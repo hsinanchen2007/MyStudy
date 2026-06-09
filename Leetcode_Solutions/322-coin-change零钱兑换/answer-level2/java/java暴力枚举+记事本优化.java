@@ -1,9 +1,9 @@
-### 解题思路
-没啥好说的，就是个二叉树暴力枚举,细节都在注释里写明白了
+// ### 解题思路
+// 没啥好说的，就是个二叉树暴力枚举,细节都在注释里写明白了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public int coinChange(int[] coins, int amount) {
         /*之所以记事本用amount个长度的数组，请考虑如下输入情况amount =100;coins=[1]，每一层递归都产生一个新的参考值,100个长度刚够*/
@@ -36,4 +36,4 @@ public int coinChange(int[] coins, int amount) {
         return  min==Integer.MAX_VALUE?-1:min ;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5281ede62f89517d39db614c5ddb27d7a6725cf7031f867c12bfd1436ee66b72-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5281ede62f89517d39db614c5ddb27d7a6725cf7031f867c12bfd1436ee66b72-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   参考作者「icecrea」太巧妙了
   动态规划
   从每个字符开始，向前遍历，从当前字符串之前的每个位置截取到这个字符串如果为回文字符，
@@ -10,11 +10,11 @@
   动态转移方程：
   比如：'abcba' 来说，只要 开头的 'a' === 结尾的 'a' 并且中间的 'bcb' 是回文子串，
   那么 'abcba' 就是回文子串
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -42,4 +42,4 @@ var countSubstrings = function(s) {
   
   return count;
 };
-```
+// ```

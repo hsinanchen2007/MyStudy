@@ -1,6 +1,6 @@
-运用递归枚举
+// 运用递归枚举
 
-```golang []
+// ```golang []
 func findTargetSumWays(nums []int, S int) int {
     if len(nums) == 0 {
 		return 0
@@ -17,4 +17,4 @@ func findTargetSumWays(nums []int, S int) int {
 	nums = nums[1:]
 	return findTargetSumWays(nums, S - num) + findTargetSumWays(nums, S + num)
 }
-```
+// ```

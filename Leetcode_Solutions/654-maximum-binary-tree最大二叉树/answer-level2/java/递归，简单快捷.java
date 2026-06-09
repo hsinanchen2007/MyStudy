@@ -1,7 +1,7 @@
-每次在指定范围（left，right）内找最大值的index，然后new一个TreeNode后递归让它的左孩子为（left,inde-1）内的最大值，右孩子为（index+1，right）内的最大值，当left>right时返回null
+// 每次在指定范围（left，right）内找最大值的index，然后new一个TreeNode后递归让它的左孩子为（left,inde-1）内的最大值，右孩子为（index+1，right）内的最大值，当left>right时返回null
 
-java代码:
-```
+// java代码:
+// ```
 class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         return createMaxTree(nums,0,nums.length-1);
@@ -27,4 +27,4 @@ class Solution {
         return maxIndex;
     }
 }
-```
+// ```

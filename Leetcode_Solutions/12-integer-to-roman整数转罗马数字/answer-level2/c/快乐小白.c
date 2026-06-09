@@ -1,9 +1,9 @@
-### 解题思路
-简单粗暴 暴力if
+// ### 解题思路
+// 简单粗暴 暴力if
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 char * intToRoman(int num){
@@ -95,4 +95,4 @@ char * intToRoman(int num){
 
     return a;
 }
-```
+// ```

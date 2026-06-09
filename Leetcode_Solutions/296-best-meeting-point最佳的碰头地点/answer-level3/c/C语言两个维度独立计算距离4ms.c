@@ -1,4 +1,4 @@
-```
+// ```
 static int get_distance(int arr[], int n);
 int minTotalDistance(int **grid, int row, int *col)
 {
@@ -41,4 +41,4 @@ static int get_distance(int arr[], int n)
 
     return min;
 }
-```
+// ```

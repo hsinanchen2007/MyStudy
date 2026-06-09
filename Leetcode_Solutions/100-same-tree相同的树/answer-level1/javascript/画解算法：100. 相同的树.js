@@ -1,19 +1,19 @@
-### 思路
+// ### 思路
 
-- 标签：深度优先遍历
-- 终止条件与返回值：
+// - 标签：深度优先遍历
+// - 终止条件与返回值：
 
-  当两棵树的当前节点都为 `null` 时返回 `true` 
+//   当两棵树的当前节点都为 `null` 时返回 `true` 
 
-  当其中一个为 `null` 另一个不为 `null` 时返回 `false` 
+//   当其中一个为 `null` 另一个不为 `null` 时返回 `false` 
 
-  当两个都不为空但是值不相等时，返回 `false`
-- 执行过程：当满足终止条件时进行返回，不满足时分别判断左子树和右子树是否相同，其中要注意代码中的短路效应
-- 时间复杂度：$O(n)$，$n$ 为树的节点个数
+//   当两个都不为空但是值不相等时，返回 `false`
+// - 执行过程：当满足终止条件时进行返回，不满足时分别判断左子树和右子树是否相同，其中要注意代码中的短路效应
+// - 时间复杂度：$O(n)$，$n$ 为树的节点个数
 
-### 代码
+// ### 代码
 
-```Java []
+// ```Java []
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,9 +34,9 @@ class Solution {
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
-```
+// ```
 
-```JavaScript []
+// ```JavaScript []
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -58,11 +58,11 @@ var isSameTree = function(p, q) {
         return false;
     return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 };
-```
+// ```
 
 
-### 画解
+// ### 画解
 
 
-<![0.png](https://pic.leetcode-cn.com/47679c38f45abce7f77f0661ffc4d371abf4df3355402b3838b54e428e5895c3-0.png),![1.png](https://pic.leetcode-cn.com/0610a5dab9bd2056c4b510874fe2bfa0648ef047a18174f2bd3dc175c1352312-1.png),![2.png](https://pic.leetcode-cn.com/eb05de89f2a70f25944e36220f815f1253026f6988488e8fb4ecfc0884f4cd7a-2.png),![3.png](https://pic.leetcode-cn.com/aadcd5978f19ffae876a80c923824c2f50f0ab5ef7953255d253b963a0123d19-3.png)>
+// <![0.png](https://pic.leetcode-cn.com/47679c38f45abce7f77f0661ffc4d371abf4df3355402b3838b54e428e5895c3-0.png),![1.png](https://pic.leetcode-cn.com/0610a5dab9bd2056c4b510874fe2bfa0648ef047a18174f2bd3dc175c1352312-1.png),![2.png](https://pic.leetcode-cn.com/eb05de89f2a70f25944e36220f815f1253026f6988488e8fb4ecfc0884f4cd7a-2.png),![3.png](https://pic.leetcode-cn.com/aadcd5978f19ffae876a80c923824c2f50f0ab5ef7953255d253b963a0123d19-3.png)>
 

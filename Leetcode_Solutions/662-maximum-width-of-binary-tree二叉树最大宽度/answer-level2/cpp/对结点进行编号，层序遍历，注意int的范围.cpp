@@ -1,5 +1,5 @@
-[@ekulelu](/u/ekulelu/)，在楼主的启发下，遇见了同样问题的我，终于可以做出解答。[楼主的思路](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/solution/yi-ceng-ceng-bian-ma-hou-bian-li-zhu-yi-bian-hao-y/) 我照着实现了一下。
-```
+// [@ekulelu](/u/ekulelu/)，在楼主的启发下，遇见了同样问题的我，终于可以做出解答。[楼主的思路](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/solution/yi-ceng-ceng-bian-ma-hou-bian-li-zhu-yi-bian-hao-y/) 我照着实现了一下。
+// ```
 typedef pair<TreeNode*, int> MyNode;
 int widthOfBinaryTree(TreeNode* root) {
 	int width = 0;
@@ -18,5 +18,5 @@ int widthOfBinaryTree(TreeNode* root) {
 	}
 	return width;
 }
-```
-![image.png](https://pic.leetcode-cn.com/48a9f4f92dc1809ea5c66d23407836a940635c4a0e186efa21eb004c6d4de1c8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/48a9f4f92dc1809ea5c66d23407836a940635c4a0e186efa21eb004c6d4de1c8-image.png)

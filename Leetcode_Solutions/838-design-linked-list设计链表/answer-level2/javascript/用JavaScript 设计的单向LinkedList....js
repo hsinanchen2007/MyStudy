@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -120,4 +120,4 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
  * obj.addAtIndex(index,val)
  * obj.deleteAtIndex(index)
  */
-```
+// ```

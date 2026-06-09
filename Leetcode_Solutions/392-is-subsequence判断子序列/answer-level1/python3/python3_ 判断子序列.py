@@ -1,4 +1,4 @@
-```python
+# ```python
 def isSubsequence(s, t):
     s = list(s)
     for _t in t:
@@ -11,4 +11,4 @@ def isSubsequence(s, t):
 
 print(isSubsequence("abc", "ahbgdc"))
 print(isSubsequence("axc", "ahbgdc"))
-```
+# ```

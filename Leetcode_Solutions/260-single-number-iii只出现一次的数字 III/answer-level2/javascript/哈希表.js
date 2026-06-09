@@ -1,4 +1,4 @@
-```js
+// ```js
 var singleNumber = function(nums) {
     var res = [];
     var map = new Map();
@@ -6,4 +6,4 @@ var singleNumber = function(nums) {
     map.forEach((v, k)=>v===1?res.push(k):'');
     return res;
 };
-```
+// ```

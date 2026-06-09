@@ -1,10 +1,10 @@
-### 解题思路
-递归求树的高度，当出现左右子树高度差值大于1，则表示不是平衡的。
-需要设置全局变量，默认值为true。
+// ### 解题思路
+// 递归求树的高度，当出现左右子树高度差值大于1，则表示不是平衡的。
+// 需要设置全局变量，默认值为true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return Math.max(left, right) + 1;
     }
 }
-```
+// ```

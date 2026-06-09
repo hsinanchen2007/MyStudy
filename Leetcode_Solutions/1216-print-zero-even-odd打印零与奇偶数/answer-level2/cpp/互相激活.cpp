@@ -1,9 +1,9 @@
-典型的线程同步, zero  odd even 三者互相激活.
-偶数时 zero 激活 even,奇数时 zero 激活 odd
-odd 会激活zero
-even会激活zero
+// 典型的线程同步, zero  odd even 三者互相激活.
+// 偶数时 zero 激活 even,奇数时 zero 激活 odd
+// odd 会激活zero
+// even会激活zero
 
-```
+// ```
 class ZeroEvenOdd {
 private:
     int n;
@@ -52,5 +52,5 @@ public:
     }
 
 };
-```
-```
+// ```
+// ```

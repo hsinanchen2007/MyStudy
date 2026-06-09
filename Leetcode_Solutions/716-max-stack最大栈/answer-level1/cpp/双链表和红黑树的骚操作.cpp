@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-平衡树的key是值，value是双链表指针的列表，切记列表为空的时候在map中抹去该key。
+// 平衡树的key是值，value是双链表指针的列表，切记列表为空的时候在map中抹去该key。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxStack {
 private:
     typedef list<int>::iterator Iter;
@@ -49,6 +49,6 @@ public:
     }
 };
 
-```
+// ```
 
-执行用时 :100 ms
+// 执行用时 :100 ms

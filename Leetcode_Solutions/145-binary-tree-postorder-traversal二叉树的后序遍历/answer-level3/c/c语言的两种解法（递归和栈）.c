@@ -1,8 +1,8 @@
 
 
-（非递归）使用栈
+// （非递归）使用栈
 
-```
+// ```
 
 int* postorderTraversal(struct TreeNode* root, int* returnSize){
      struct TreeNode **a=(struct TreeNode**)malloc(sizeof(struct TreeNode*)*100);
@@ -25,9 +25,9 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize=i;
     return b;
 }
-```
-递归
-```
+// ```
+// 递归
+// ```
 void postorder(struct TreeNode* root, int* returnSize,int *a){
      if(!root) return;
      postorder(root->left,returnSize,a);
@@ -41,4 +41,4 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
      postorder(root,returnSize,a);
      return a;
 }
-```
+// ```

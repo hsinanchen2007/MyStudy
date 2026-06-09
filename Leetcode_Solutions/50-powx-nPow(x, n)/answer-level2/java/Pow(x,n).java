@@ -1,5 +1,5 @@
-# 代码
-```java []
+// # 代码
+// ```java []
 class Solution {
     public double myPow(double x, int n) {
         long N = n;
@@ -16,4 +16,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

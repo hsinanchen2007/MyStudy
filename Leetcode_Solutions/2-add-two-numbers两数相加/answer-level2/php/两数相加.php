@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -42,4 +42,4 @@ class Solution
         return $head->next;//因为有个头指针head是0，需要去掉
     }
 }
-```
+// ```

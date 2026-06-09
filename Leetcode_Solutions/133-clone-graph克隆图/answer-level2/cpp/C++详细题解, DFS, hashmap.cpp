@@ -1,6 +1,6 @@
-### 思路
-本题用map来做就非常容易。
-```
+// ### 思路
+// 本题用map来做就非常容易。
+// ```
 class Solution {
 public:
     map<Node*,Node*> mp;
@@ -15,4 +15,4 @@ public:
         return c;
     }
 };
-```
+// ```

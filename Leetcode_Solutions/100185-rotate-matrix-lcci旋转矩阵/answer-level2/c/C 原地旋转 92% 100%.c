@@ -1,14 +1,14 @@
-### 解题思路
-核心旋转公式：
-matrix[i][j]<->matrix[n-j+i][i]
-matrix[n-j+i][i]<->matrix[n][n-j+i]
-matrix[n][n-j+i]<->matrix[j][n]
-![222.jpg](https://pic.leetcode-cn.com/251d4fcdc30ce24ce1fef83c3bdea8f26ca833b2dffd2e29667f60c876ad49e1-222.jpg)
+// ### 解题思路
+// 核心旋转公式：
+// matrix[i][j]<->matrix[n-j+i][i]
+// matrix[n-j+i][i]<->matrix[n][n-j+i]
+// matrix[n][n-j+i]<->matrix[j][n]
+// ![222.jpg](https://pic.leetcode-cn.com/251d4fcdc30ce24ce1fef83c3bdea8f26ca833b2dffd2e29667f60c876ad49e1-222.jpg)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void swap(int *a,int *b){
     int temp=0;
     temp=*a;
@@ -29,4 +29,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         n--;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-对于每一个b，如果有a比它大，找到满足条件的最小的a然后pop出A，放在结果数列的与b在B中index一致的位置。
-全部对应之后，没有对应到A中任何数字的位置从剩余的A中的元素里随便分配。
+# ### 解题思路
+# 对于每一个b，如果有a比它大，找到满足条件的最小的a然后pop出A，放在结果数列的与b在B中index一致的位置。
+# 全部对应之后，没有对应到A中任何数字的位置从剩余的A中的元素里随便分配。
 
-为了避免超时，也就是O（n^2）复杂度，将A、B按程序排序并使用dict记录B原来的元素与位置。
+# 为了避免超时，也就是O（n^2）复杂度，将A、B按程序排序并使用dict记录B原来的元素与位置。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class Solution:
     def advantageCount(self, A: List[int], B: List[int]) -> List[int]:
@@ -33,4 +33,4 @@ class Solution:
                 res[i] = A.pop()
         return res
                 
-```
+# ```

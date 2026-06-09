@@ -1,13 +1,13 @@
-![1.png](https://pic.leetcode-cn.com/6442090f016c3cd8d536273e03dc63c9618861f1af51484ffbd0a1ead6ffa5a3-1.png)
+// ![1.png](https://pic.leetcode-cn.com/6442090f016c3cd8d536273e03dc63c9618861f1af51484ffbd0a1ead6ffa5a3-1.png)
 
-### 解题思路
-一、将arr1映射到map中；
-二、将map中的arr2，按arr1的数量、arr2的顺序，依次放入arr1;
-三、将map中剩余的arr1，按升序放入arr1。
+// ### 解题思路
+// 一、将arr1映射到map中；
+// 二、将map中的arr2，按arr1的数量、arr2的顺序，依次放入arr1;
+// 三、将map中剩余的arr1，按升序放入arr1。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -32,4 +32,4 @@ int* relativeSortArray(int* arr1, int arr1Size, int* arr2, int arr2Size, int* re
 	}
 	return arr1;
 }
-```
+// ```

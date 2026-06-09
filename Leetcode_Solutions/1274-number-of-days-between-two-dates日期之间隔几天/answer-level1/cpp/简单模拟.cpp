@@ -1,9 +1,9 @@
-### 解题思路
-模拟日期添加
+// ### 解题思路
+// 模拟日期添加
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int daysBetweenDates(string date1, string date2) {
@@ -30,4 +30,4 @@ public:
         return ret + day;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-解题思路：
-1.储存对应的值，使用map
-2.使用长度进行判断。
+// 解题思路：
+// 1.储存对应的值，使用map
+// 2.使用长度进行判断。
 
-```
+// ```
 func romanToInt(s string) int {
     //分别利用两个map储存罗马数字对应的整数
     specialRomeDigital := map[string]int{"IV":4,"IX":9,"XL":40,"XC":90,"CD":400,"CM":900}
@@ -31,4 +31,4 @@ func romanToInt(s string) int {
     }
     return result
 }
-```
+// ```

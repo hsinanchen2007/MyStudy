@@ -1,9 +1,9 @@
-### 解题思路
-对[lo, hi)区间递归二分查找，始终保持左闭右开区间，递归地在[lo, mid)和[mid+1, hi)查找目标值，若存在返回1，否则返回0
+// ### 解题思路
+// 对[lo, hi)区间递归二分查找，始终保持左闭右开区间，递归地在[lo, mid)和[mid+1, hi)查找目标值，若存在返回1，否则返回0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int binarysearch(vector<int> &nums, int lo, int hi, int &target)
@@ -29,4 +29,4 @@ public:
         return binarysearch(nums, low, high, target);
     }
 };
-```
+// ```

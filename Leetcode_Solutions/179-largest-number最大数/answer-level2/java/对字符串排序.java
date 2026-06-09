@@ -1,5 +1,5 @@
-重写Comparator接口的compare方法，实现2个字符串的比较大小，Arrays类中sort()方法支持Comparator组合运用，底层基于归并排序实现。
-```
+// 重写Comparator接口的compare方法，实现2个字符串的比较大小，Arrays类中sort()方法支持Comparator组合运用，底层基于归并排序实现。
+// ```
 class Solution {
     
     private class LargerNumberComparator implements Comparator<String>{
@@ -29,4 +29,4 @@ class Solution {
         return largestNumberStr;
     }
 }
-```
+// ```

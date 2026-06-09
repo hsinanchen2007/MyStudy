@@ -1,9 +1,9 @@
-### 解题思路
-懒得写文字了，先凑合着看吧
+# ### 解题思路
+# 懒得写文字了，先凑合着看吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         # way1: 动态规划，dp表示以xx为结尾的最长子序列
@@ -118,4 +118,4 @@ class Solution:
 #             return 
         
 #         return solver(0,len(nums)-1)
-```
+# ```

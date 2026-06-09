@@ -1,5 +1,5 @@
-记录一个前指针，当前指针和下一个指针进行交换位置，具体看代码，注释写得很详细。
-```python []
+# 记录一个前指针，当前指针和下一个指针进行交换位置，具体看代码，注释写得很详细。
+# ```python []
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         result = ListNode(0)
@@ -15,8 +15,8 @@ class Solution:
             p = p.next    # 移动当前位置
         pre.next = p   # 接上最后剩下的单个节点
         return result.next
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
@@ -36,4 +36,4 @@ public:
         return result->next;
     }
 };
-```
+# ```

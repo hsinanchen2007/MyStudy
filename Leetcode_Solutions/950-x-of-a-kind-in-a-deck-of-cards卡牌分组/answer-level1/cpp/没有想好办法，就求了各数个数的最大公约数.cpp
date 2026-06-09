@@ -1,7 +1,7 @@
-如题
+// 如题
 
-**代码**
-```C++ []
+// **代码**
+// ```C++ []
 class Solution {
 public:
 	int gcd(int x, int y)
@@ -35,4 +35,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

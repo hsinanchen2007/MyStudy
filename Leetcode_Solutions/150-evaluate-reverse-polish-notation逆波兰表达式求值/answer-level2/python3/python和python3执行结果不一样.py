@@ -1,8 +1,8 @@
-该段代码在本地是使用python3运行的，提交时选择python和python3结果不一致。
-测试用例：["10","6","9","3","+","-11","*","/","*","17","+","5","+"]
-python 版本评测结果：12（错误）
-python3 版本评测结果：22（正确）
-```
+# 该段代码在本地是使用python3运行的，提交时选择python和python3结果不一致。
+# 测试用例：["10","6","9","3","+","-11","*","/","*","17","+","5","+"]
+# python 版本评测结果：12（错误）
+# python3 版本评测结果：22（正确）
+# ```
 
 class Stack(object):
     def __init__(self):
@@ -59,4 +59,4 @@ class Solution(object):
 
     def divide(self, a, b):
         return int(int(a) / int(b))
-```
+# ```

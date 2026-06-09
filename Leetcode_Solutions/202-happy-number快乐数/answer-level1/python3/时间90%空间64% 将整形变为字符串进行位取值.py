@@ -1,9 +1,9 @@
-### 解题思路
-将整形变为字符串进行位取值
+# ### 解题思路
+# 将整形变为字符串进行位取值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isHappy(self, n):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 return False
         return True
 
-```
+# ```

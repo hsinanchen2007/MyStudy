@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct trie {
     bool hasVisited;
     bool hasChildren;
@@ -83,4 +83,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
 
     return count;
 }
-```
+// ```

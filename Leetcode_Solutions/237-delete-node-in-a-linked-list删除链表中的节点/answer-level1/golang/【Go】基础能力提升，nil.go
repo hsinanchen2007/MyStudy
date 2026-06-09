@@ -1,4 +1,4 @@
-```
+// ```
 func deleteNode(node *ListNode) {
 	if node == nil {
 		return
@@ -10,4 +10,4 @@ func deleteNode(node *ListNode) {
 		node.Val = next.Val
 	}
 }
-```
+// ```

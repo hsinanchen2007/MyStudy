@@ -1,10 +1,10 @@
-### 解题思路
-官方思路中的滑窗思路。
-（实现不够优雅。实现时边界移动的操作总是容易漏掉。）
+// ### 解题思路
+// 官方思路中的滑窗思路。
+// （实现不够优雅。实现时边界移动的操作总是容易漏掉。）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -39,5 +39,5 @@ public:
         return ans;
     }
 };
-```
-![12.png](https://pic.leetcode-cn.com/ab0455636ae10ea52ac70d395475b12ab04c06a6c0d41765d619570b10b1e899-12.png)
+// ```
+// ![12.png](https://pic.leetcode-cn.com/ab0455636ae10ea52ac70d395475b12ab04c06a6c0d41765d619570b10b1e899-12.png)

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int n = nums.length;
@@ -13,4 +13,4 @@ class Solution {
         return sumN - sumNums;
     }
 }
-```
+// ```

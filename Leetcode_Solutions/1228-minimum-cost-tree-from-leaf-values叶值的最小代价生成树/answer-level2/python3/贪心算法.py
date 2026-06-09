@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def min_idx(self, ls):
         idx = 0
@@ -15,4 +15,4 @@ class Solution:
             ans += mutil[idx]
             arr[idx:idx+2] = [max(arr[idx:idx+2])]
         return ans
-```
+# ```

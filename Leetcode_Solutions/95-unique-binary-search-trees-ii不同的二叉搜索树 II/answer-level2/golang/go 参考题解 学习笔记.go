@@ -1,4 +1,4 @@
-```
+// ```
 func generateTrees(n int) []*TreeNode {
 	if n == 0 {
 		return nil
@@ -27,4 +27,4 @@ func dfsgenerateTrees(start, end int) []*TreeNode {
 	}
 	return helper
 }
-```
+// ```

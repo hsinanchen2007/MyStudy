@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-2 ms
-, 在所有 java 提交中击败了
-62.39%
-的用户
-内存消耗 :
-34.5 MB
-, 在所有 java 提交中击败了
-100.00%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 2 ms
+// , 在所有 java 提交中击败了
+// 62.39%
+// 的用户
+// 内存消耗 :
+// 34.5 MB
+// , 在所有 java 提交中击败了
+// 100.00%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String defangIPaddr(String address) {
         String [] ipsplit=address.split("\\.");
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

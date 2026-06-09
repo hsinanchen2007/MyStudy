@@ -1,8 +1,8 @@
-# 思路
-1. 逐行计算累加和，进而计算一行中各区间的和
-2. dp[p][q]记录列位于[p, q]内的子数组最大和
-3. 复杂度为N * M * M, 当N < M时，转置matrix
-```
+# # 思路
+# 1. 逐行计算累加和，进而计算一行中各区间的和
+# 2. dp[p][q]记录列位于[p, q]内的子数组最大和
+# 3. 复杂度为N * M * M, 当N < M时，转置matrix
+# ```
 class Solution:
     def getMaxMatrix(self, matrix: List[List[int]]) -> List[int]:
         N, M = len(matrix), len(matrix[0])
@@ -29,4 +29,4 @@ class Solution:
                     if dp[p][q][0] <= 0:
                         dp[p][q] = [0, i + 1]
         return [r1, c1, r2, c2] if not transposed else [c1, r1, c2, r2]
-```
+# ```

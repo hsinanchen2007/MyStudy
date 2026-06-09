@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
         # 没有出度的点，或者减去通往出度为0的点的那些边后，出度为0的点
@@ -34,4 +34,4 @@ class Solution:
         return sorted(res)
 
         
-```
+# ```

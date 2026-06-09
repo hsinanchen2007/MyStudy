@@ -1,7 +1,7 @@
-![批注 2020-01-13 154455.png](https://pic.leetcode-cn.com/bf21361e542eaf856e39762694859d9e8be6af8482ea2348f47fdd2114993fcd-%E6%89%B9%E6%B3%A8%202020-01-13%20154455.png)
+# ![批注 2020-01-13 154455.png](https://pic.leetcode-cn.com/bf21361e542eaf856e39762694859d9e8be6af8482ea2348f47fdd2114993fcd-%E6%89%B9%E6%B3%A8%202020-01-13%20154455.png)
 
 
-```python
+# ```python
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
@@ -38,4 +38,4 @@ class NumMatrix:
 # obj = NumMatrix(matrix)
 # obj.update(row,col,val)
 # param_2 = obj.sumRegion(row1,col1,row2,col2)
-```
+# ```

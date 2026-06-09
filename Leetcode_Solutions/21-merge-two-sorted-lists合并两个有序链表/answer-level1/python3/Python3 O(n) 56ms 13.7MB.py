@@ -1,7 +1,7 @@
-语言：Python3
-效果：O(n) 56ms 13.7MB
-代码
-```python []
+# 语言：Python3
+# 效果：O(n) 56ms 13.7MB
+# 代码
+# ```python []
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         result = ListNode(0)
         temp = result
@@ -20,4 +20,4 @@
         # 将剩余的链表直接接上
         temp.next = l1 if l1 else l2
         return result.next
-```
+# ```

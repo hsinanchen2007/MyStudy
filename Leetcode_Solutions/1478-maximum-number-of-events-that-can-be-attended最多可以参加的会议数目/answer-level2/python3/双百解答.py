@@ -1,9 +1,9 @@
-### 解题思路
-贪心，每次选择已经开始的最先结束的会议参加
+# ### 解题思路
+# 贪心，每次选择已经开始的最先结束的会议参加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import heapq
 
 class Solution:
@@ -30,4 +30,4 @@ class Solution:
                     break
                     
         return rlt       
-```
+# ```

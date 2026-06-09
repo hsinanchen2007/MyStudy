@@ -1,6 +1,6 @@
-https://leetcode.com/problems/valid-permutations-for-di-sequence/discuss/168278/C%2B%2BJavaPython-DP-Solution-O(N2)
+// https://leetcode.com/problems/valid-permutations-for-di-sequence/discuss/168278/C%2B%2BJavaPython-DP-Solution-O(N2)
 
-```
+// ```
  int numPermsDISequence(string S) {
         int n = S.length(), mod = 1e9 + 7;
         vector<vector<int>> dp(n + 1, vector<int>(n + 1));
@@ -14,9 +14,9 @@ https://leetcode.com/problems/valid-permutations-for-di-sequence/discuss/168278/
                     dp[i + 1][j] = cur = (cur + dp[i][j + 1]) % mod;
         return dp[n][0];
     }
-```
+// ```
 
-```
+// ```
  int numPermsDISequence(string S) {
         int n = S.length(), mod = 1e9 + 7;
         vector<int> dp(n + 1, 1), dp2(n);
@@ -30,4 +30,4 @@ https://leetcode.com/problems/valid-permutations-for-di-sequence/discuss/168278/
         }
         return dp[0];
     }
-```
+// ```

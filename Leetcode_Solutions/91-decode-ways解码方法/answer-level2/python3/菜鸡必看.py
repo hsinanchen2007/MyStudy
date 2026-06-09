@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numDecodings(self, s: str) -> int:
         n=len(s)
@@ -16,4 +16,4 @@ class Solution:
                 else :
                     dp[i]+=1
         return dp[-1]
-```
+# ```

@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def judgeCircle(self, moves: str) -> bool:
         dp = [0, 0]
@@ -10,4 +10,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-构造一维数组记录高度
+// ### 解题思路
+// 构造一维数组记录高度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 调用84题
 static int LargestRectangleArea(int* pHeights, int heightsSize)
 {
@@ -63,4 +63,4 @@ int maximalRectangle(char** matrix, int matrixSize, int* matrixColSize){
 }
 
 
-```
+// ```

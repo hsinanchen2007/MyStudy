@@ -1,8 +1,8 @@
-思路是像冒泡一样把最大的数往后边移动
-可以先把最大的数交换到首部，再对整个序列反转
-需要做n次递归，每次调用递归查找最大值，时间复杂度o(n2)
+# 思路是像冒泡一样把最大的数往后边移动
+# 可以先把最大的数交换到首部，再对整个序列反转
+# 需要做n次递归，每次调用递归查找最大值，时间复杂度o(n2)
 
-```
+# ```
 import numpy
 class Solution:
     def pancakeSort(self, A: List[int]) -> List[int]:
@@ -25,4 +25,4 @@ class Solution:
             max_last(a_list[0:len(a_list)-1])
         max_last(A)
         return res
-```
+# ```

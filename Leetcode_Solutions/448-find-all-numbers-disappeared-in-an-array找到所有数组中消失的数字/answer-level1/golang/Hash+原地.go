@@ -1,5 +1,5 @@
-# Hash
-```
+// # Hash
+// ```
 func findDisappearedNumbers(nums []int) []int {
 	var hash = map[int]int{}
 	var result = []int{}
@@ -13,9 +13,9 @@ func findDisappearedNumbers(nums []int) []int {
 	}
 	return result
 }
-```
-# 原地
-```
+// ```
+// # 原地
+// ```
 func findDisappearedNumbers(nums []int) []int {
 	for i := 0;i<len(nums) ;i++  {
 		var newIndex int
@@ -38,4 +38,4 @@ func findDisappearedNumbers(nums []int) []int {
 	}
 	return result
 }
-```
+// ```

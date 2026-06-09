@@ -1,12 +1,12 @@
-### 解题思路
-效率稍低，原因是将max记在了队列本身，而且只有一个最大值
-在pop和push操作需要更新max值时，采用了O(N)性能的算法
+// ### 解题思路
+// 效率稍低，原因是将max记在了队列本身，而且只有一个最大值
+// 在pop和push操作需要更新max值时，采用了O(N)性能的算法
 
-![image.png](https://pic.leetcode-cn.com/51a24029c3c3514ab54b38a1b28be4ebfa9d2cc9e7e2f92d37a64abccffdf187-image.png)
+// ![image.png](https://pic.leetcode-cn.com/51a24029c3c3514ab54b38a1b28be4ebfa9d2cc9e7e2f92d37a64abccffdf187-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_BASE_SIZE 10000
 
 typedef struct MyQ {
@@ -141,4 +141,4 @@ void maxQueueFree(MaxQueue* obj) {
  
  * maxQueueFree(obj);
 */
-```
+// ```

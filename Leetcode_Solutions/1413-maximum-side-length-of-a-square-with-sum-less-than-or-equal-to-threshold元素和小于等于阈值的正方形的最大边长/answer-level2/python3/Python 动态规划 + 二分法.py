@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/9bb98100db2ddb6c1fca9887c957fc231f207450faf94d8bddf2d690fb2c70f9-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9bb98100db2ddb6c1fca9887c957fc231f207450faf94d8bddf2d690fb2c70f9-image.png)
 
 
-```
+# ```
 '''
 dp(i, j)表示右下角为(i, j) 左上角为(0, 0)的矩形区域和，二维动态规划计算
 然后迭代正方形的左上角和边长，求最大边长
@@ -53,4 +53,4 @@ class Solution:
                         r = edge_len - 1
 
         return ans
-```
+# ```

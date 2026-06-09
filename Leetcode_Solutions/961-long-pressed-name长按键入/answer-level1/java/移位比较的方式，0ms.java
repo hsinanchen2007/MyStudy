@@ -1,9 +1,9 @@
-### 解题思路
-- 没有思路，凑出来的
+// ### 解题思路
+// - 没有思路，凑出来的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
          char[] names = name.toCharArray();
@@ -24,4 +24,4 @@ class Solution {
         return indexName == name.length();
     }
 }
-```
+// ```

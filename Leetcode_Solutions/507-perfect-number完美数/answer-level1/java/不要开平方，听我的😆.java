@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/26a6c42c4c75dc866bde2f89b0e188504ab6b2f17c5f281a199533a29c134a57-image.png)
+// ![image.png](https://pic.leetcode-cn.com/26a6c42c4c75dc866bde2f89b0e188504ab6b2f17c5f281a199533a29c134a57-image.png)
 
-```java
+// ```java
 class Solution {
     public boolean checkPerfectNumber(int num) {
         /*
@@ -23,5 +23,5 @@ class Solution {
         return tmp == num;
     }
 }
-```
-我不要你觉得，我要我觉得：这代码真的短🐶
+// ```
+// 我不要你觉得，我要我觉得：这代码真的短🐶

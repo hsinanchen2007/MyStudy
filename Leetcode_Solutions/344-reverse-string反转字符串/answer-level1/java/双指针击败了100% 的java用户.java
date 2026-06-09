@@ -1,7 +1,7 @@
-## [更多双指针请参考](https://blog.csdn.net/reed1991/article/details/55096982)
+// ## [更多双指针请参考](https://blog.csdn.net/reed1991/article/details/55096982)
 
 
-```
+// ```
 public void reverseString(char[] s) {
         if (s == null || s.length < 2) {
             return;
@@ -16,5 +16,5 @@ public void reverseString(char[] s) {
 
         return;
     }
-```
-### [更多leetcode题解点击此处](https://github.com/reedfan/leetcode/blob/master/leetcode.md)
+// ```
+// ### [更多leetcode题解点击此处](https://github.com/reedfan/leetcode/blob/master/leetcode.md)

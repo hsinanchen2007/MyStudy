@@ -1,9 +1,9 @@
-### 解题思路
-BFS 与 DFS 简单易懂
+// ### 解题思路
+// BFS 与 DFS 简单易懂
 
-### DFS
+// ### DFS
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,11 +28,11 @@ function dfs (ans, root, layer) {
     if(root.left) dfs (ans, root.left, layer + 1);
     if(root.right) dfs (ans, root.right, layer + 1);
 }
-```
+// ```
 
-### BFS
+// ### BFS
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -61,4 +61,4 @@ var largestValues = function(root) {
   }
   return ans;
 };
-```
+// ```

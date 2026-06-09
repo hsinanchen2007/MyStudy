@@ -1,9 +1,9 @@
-### 解题思路
-small初始化为1,big初始化为2,如果从small到big的序列和大于target，则可以从序列和中减去较小值，`sequenceSum -= small`,`small`加一。如果small到big的序列和小于target，则可以从序列和中加上较大值`sequenceSum += big`,`big`加一。如果`sequenceSum == target`那么将当前序列加到结果中。
+// ### 解题思路
+// small初始化为1,big初始化为2,如果从small到big的序列和大于target，则可以从序列和中减去较小值，`sequenceSum -= small`,`small`加一。如果small到big的序列和小于target，则可以从序列和中加上较大值`sequenceSum += big`,`big`加一。如果`sequenceSum == target`那么将当前序列加到结果中。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -47,4 +47,4 @@ public:
         return s;
     }
 };
-```
+// ```

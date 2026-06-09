@@ -1,12 +1,12 @@
-### 解题思路
-1 找到第i天前最低的股票价格，设为min_priinces
-2 计算第i天的最大利润，max_pro=第i天价格-min_prices[i]
-3 返回最大利润
+# ### 解题思路
+# 1 找到第i天前最低的股票价格，设为min_priinces
+# 2 计算第i天的最大利润，max_pro=第i天价格-min_prices[i]
+# 3 返回最大利润
 
-#注意边界问题
-### 代码
+# #注意边界问题
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices)<=1:
@@ -20,4 +20,4 @@ class Solution:
             max_pro=max(max_pro,prices[i]-min_princes)
 
         return max_pro
-```
+# ```

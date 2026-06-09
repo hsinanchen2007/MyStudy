@@ -1,10 +1,10 @@
-###请问这是什么Bug? 
-我的pop_front函数，为什么if判断改成if(queue1.peek()==queue2.peekFirst())就无法判断？？
+// ###请问这是什么Bug? 
+// 我的pop_front函数，为什么if判断改成if(queue1.peek()==queue2.peekFirst())就无法判断？？
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     Queue<Integer> queue1;
     Deque<Integer> queue2;
@@ -48,4 +48,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

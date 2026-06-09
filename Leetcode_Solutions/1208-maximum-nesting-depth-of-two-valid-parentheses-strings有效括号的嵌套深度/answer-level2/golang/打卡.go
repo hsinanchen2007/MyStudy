@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDepthAfterSplit(seq string) []int {
     res := make([]int, 0)
     depth := 0
@@ -18,4 +18,4 @@ func maxDepthAfterSplit(seq string) []int {
     }
     return res
 }
-```
+// ```

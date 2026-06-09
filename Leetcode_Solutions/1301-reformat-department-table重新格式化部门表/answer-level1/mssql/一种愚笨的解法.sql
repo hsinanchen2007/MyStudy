@@ -1,5 +1,5 @@
-一：我的愚笨解法
-```
+-- 一：我的愚笨解法
+-- ```
 SELECT d.id
     ,max(d1.revenue) as Jan_Revenue
     ,max(d2.revenue) as Feb_Revenue
@@ -27,13 +27,13 @@ LEFT JOIN Department d10 ON d.id=d10.id and d10.month='Oct'
 LEFT JOIN Department d11 ON d.id=d11.id and d11.month='Nov'
 LEFT JOIN Department d12 ON d.id=d12.id and d12.month='Dec'
 GROUP BY d.id
-```
+-- ```
 
-执行用时 :2449 ms, 内存消耗 :0B 
+-- 执行用时 :2449 ms, 内存消耗 :0B 
 
 
-二：参考其他大神的解法做个记录
-```
+-- 二：参考其他大神的解法做个记录
+-- ```
 SELECT id
     ,sum(CASE month WHEN 'Jan' THEN revenue END) as Jan_Revenue
     ,sum(CASE month WHEN 'Feb' THEN revenue END) as Feb_Revenue
@@ -49,5 +49,5 @@ SELECT id
     ,sum(CASE month WHEN 'Dec' THEN revenue END) as Dec_Revenue
 FROM Department 
 GROUP BY id
-```
-执行用时 :1804 ms, 内存消耗 :0B
+-- ```
+-- 执行用时 :1804 ms, 内存消耗 :0B

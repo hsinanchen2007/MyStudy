@@ -1,12 +1,12 @@
-### 解题思路
-1. 将原链表拆分成两个链表 left 和 right
-2. left 为 [0, m - 1] 部分，尾插
-3. right 为 [m, n] 部分，头插
-4. 最后将 left、right 和链表剩下部分拼接返回
+// ### 解题思路
+// 1. 将原链表拆分成两个链表 left 和 right
+// 2. left 为 [0, m - 1] 部分，尾插
+// 3. right 为 [m, n] 部分，头插
+// 4. 最后将 left、right 和链表剩下部分拼接返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -47,4 +47,4 @@ class Solution {
         return left.next;
     }
 }
-```
+// ```

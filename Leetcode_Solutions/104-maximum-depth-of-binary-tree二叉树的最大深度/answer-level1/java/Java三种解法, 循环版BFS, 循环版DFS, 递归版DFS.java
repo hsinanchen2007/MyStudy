@@ -1,5 +1,5 @@
-#### 一.广度优先遍历, 循环版, 借助队列实现; 自定义数据结构Record, 记录节点和其对所在的层数
-```java
+// #### 一.广度优先遍历, 循环版, 借助队列实现; 自定义数据结构Record, 记录节点和其对所在的层数
+// ```java
 import java.util.LinkedList;
 
 class Solution {
@@ -30,10 +30,10 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-#### 二.深度优先遍历, 循环版, 借助栈实现; 自定义数据结构Record, 记录节点和其对所在的层数
-```java
+// #### 二.深度优先遍历, 循环版, 借助栈实现; 自定义数据结构Record, 记录节点和其对所在的层数
+// ```java
 /*
 深度优先遍历, 借助栈实现; 自定义数据结构: 记录节点和其对应的层数
 */
@@ -81,9 +81,9 @@ class Solution {
         }
     }
 }
-```
-#### 三.深度优先遍历, 递归版
-```java
+// ```
+// #### 三.深度优先遍历, 递归版
+// ```java
 class Solution {
     //递归函数逻辑: 以root为根的二叉树的深度
     public int maxDepth(TreeNode root) {
@@ -92,4 +92,4 @@ class Solution {
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;        
     }
 }
-```
+// ```

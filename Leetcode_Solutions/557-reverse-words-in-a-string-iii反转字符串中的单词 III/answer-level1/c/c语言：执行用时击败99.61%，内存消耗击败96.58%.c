@@ -1,11 +1,11 @@
-### 解题思路
-分别找到每个单词的起点和终点，将每个单词逆置
-![1.png](https://pic.leetcode-cn.com/ab31108f6ff940359957df5de3f14895b1dd577b644df746d4d7ad8a9b59f615-1.png)
+// ### 解题思路
+// 分别找到每个单词的起点和终点，将每个单词逆置
+// ![1.png](https://pic.leetcode-cn.com/ab31108f6ff940359957df5de3f14895b1dd577b644df746d4d7ad8a9b59f615-1.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     int l=0,r=0;
     int len=strlen(s);
@@ -30,4 +30,4 @@ char * reverseWords(char * s){
     }
     return s;
 }
-```
+// ```

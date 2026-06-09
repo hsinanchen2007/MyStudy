@@ -1,5 +1,5 @@
-js 纯数学7行
-```js
+// js 纯数学7行
+// ```js
 var findNthDigit = function(n) {
     if (n < 10) return n;
     let sum = 10, i = 1;
@@ -9,4 +9,4 @@ var findNthDigit = function(n) {
     }
     return (sum / 9 / i + parseInt(n / i) + '')[n % i];
 }
-```
+// ```

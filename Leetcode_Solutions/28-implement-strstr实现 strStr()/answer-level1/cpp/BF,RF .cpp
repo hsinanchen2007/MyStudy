@@ -1,4 +1,4 @@
-```
+// ```
 //Brute Force: BF Algorithm
 class Solution {
 public:
@@ -21,9 +21,9 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-```
+// ```
 //Rabin Krap: RF Algorithm
 class Solution {
     int BASE = 1000000;
@@ -67,7 +67,7 @@ public:
         return -1;
     }    
 };
-```
-分别利用双指针进行暴力解算Brute Force 和利用Hash Function的Rabin Krap算法进行结算.
+// ```
+// 分别利用双指针进行暴力解算Brute Force 和利用Hash Function的Rabin Krap算法进行结算.
 
-欢迎留言讨论 to Bill
+// 欢迎留言讨论 to Bill

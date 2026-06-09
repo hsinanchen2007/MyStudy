@@ -1,9 +1,9 @@
-### 解题思路
-根据测试数据一步一步改出来。。。
+// ### 解题思路
+// 根据测试数据一步一步改出来。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getNumber(int& pos,string s){
@@ -36,4 +36,4 @@ public:
         return true;
     }
 };
-```
+// ```

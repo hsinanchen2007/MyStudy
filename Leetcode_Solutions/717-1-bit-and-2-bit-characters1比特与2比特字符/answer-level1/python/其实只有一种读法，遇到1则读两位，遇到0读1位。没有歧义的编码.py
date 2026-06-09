@@ -1,9 +1,9 @@
-### 解题思路
-哈夫曼编码无歧义，直接从左往右读即可，根据最后游标所在的位置，判断最后一位是否是0
+# ### 解题思路
+# 哈夫曼编码无歧义，直接从左往右读即可，根据最后游标所在的位置，判断最后一位是否是0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isOneBitCharacter(self, bits: List[int]) -> bool:
         length = len(bits)
@@ -18,4 +18,4 @@ class Solution:
         return False
         
             
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int game(int[] guess, int[] answer) {
         int times=0;/*这个用于计次我们的猜对记录*/
@@ -12,4 +12,4 @@ class Solution {
         return times;
     }
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-设置一个头结点，指向head；
-先设置三个移动的点：
-1. pre：从头结点开始移动；
-2. cur：从head开始移动；
-3. pos：从head开始移动。
-先让pos移动N步，然后pre和cur同时和pos一起向前移动。
-当pos到达链表的结尾并且为null时，cur正好在要删除的节点上，pre在前一个节点；
-此时只要将pre指向cur的下一个节点，这样便删除了cur节点
+// ### 解题思路
+// 设置一个头结点，指向head；
+// 先设置三个移动的点：
+// 1. pre：从头结点开始移动；
+// 2. cur：从head开始移动；
+// 3. pos：从head开始移动。
+// 先让pos移动N步，然后pre和cur同时和pos一起向前移动。
+// 当pos到达链表的结尾并且为null时，cur正好在要删除的节点上，pre在前一个节点；
+// 此时只要将pre指向cur的下一个节点，这样便删除了cur节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return res.next;
     }   
 }
-```
+// ```

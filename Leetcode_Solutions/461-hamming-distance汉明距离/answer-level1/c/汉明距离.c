@@ -1,9 +1,9 @@
-### 解题思路
-仔细研究位运算
+// ### 解题思路
+// 仔细研究位运算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hammingDistance(int x, int y){
     int sum=0;
     x=x^y;
@@ -17,4 +17,4 @@ int hammingDistance(int x, int y){
     }
     return sum;
 }
-```
+// ```

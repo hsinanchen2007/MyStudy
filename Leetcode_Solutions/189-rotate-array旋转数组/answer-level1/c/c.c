@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-保留后面k个值，然后进行平移
+// ### 解题思路
+// 此处撰写解题思路
+// 保留后面k个值，然后进行平移
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int* nums, int numsSize, int k){
     k = k % numsSize;
     
@@ -26,4 +26,4 @@ void rotate(int* nums, int numsSize, int k){
         nums[i] = tmp[i];
     }
 }
-```
+// ```

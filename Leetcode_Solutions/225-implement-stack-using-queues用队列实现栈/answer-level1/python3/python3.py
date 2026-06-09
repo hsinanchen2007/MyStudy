@@ -1,15 +1,15 @@
-### 解题思路
-通过两个队列来实现栈
-push操作可以直接由queue.put完成
-同时保存最后一个Push的元素就是栈顶top
-而进行pop操作时需要把push队列中的元素都先取出来（FIFO）
-留下最后一个元素就是真正需要pop出来的元素
-完成后要把push队列和pop队列重置一下 保证pop是空队列
-top 和 empty就很简单了
+# ### 解题思路
+# 通过两个队列来实现栈
+# push操作可以直接由queue.put完成
+# 同时保存最后一个Push的元素就是栈顶top
+# 而进行pop操作时需要把push队列中的元素都先取出来（FIFO）
+# 留下最后一个元素就是真正需要pop出来的元素
+# 完成后要把push队列和pop队列重置一下 保证pop是空队列
+# top 和 empty就很简单了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from queue import Queue
 
 class MyStack:
@@ -50,4 +50,4 @@ class MyStack:
         Returns whether the stack is empty.
         """
         return self.queue_push.empty() and self.queue_pop.empty()
-```
+# ```

@@ -1,8 +1,8 @@
-思路如下：
+# 思路如下：
 
-排序，开始时间从小往大，结束时间从小往大，如果这个范围内的时间都在集合里，就说明不能参加这个会议。否则，将这个时间点加入集合。
+# 排序，开始时间从小往大，结束时间从小往大，如果这个范围内的时间都在集合里，就说明不能参加这个会议。否则，将这个时间点加入集合。
 
-```python
+# ```python
 class Solution(object):
     def maxEvents(self, events):
         n = len(events)
@@ -22,4 +22,4 @@ class Solution(object):
                     else:
                         continue
         return min(length, n)
-```
+# ```

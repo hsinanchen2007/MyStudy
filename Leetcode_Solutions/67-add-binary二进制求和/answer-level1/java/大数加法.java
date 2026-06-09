@@ -1,9 +1,9 @@
-### 解题思路
-用时2ms,还是大数加法的思路，逐位相加
+// ### 解题思路
+// 用时2ms,还是大数加法的思路，逐位相加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
        int i = a.length() - 1;
@@ -39,4 +39,4 @@ class Solution {
        return stringBuilder.toString();
     }
 }
-```
+// ```

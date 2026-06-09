@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func threeSumSmaller(nums []int, target int) int {
@@ -19,4 +19,4 @@ func threeSumSmaller(nums []int, target int) int {
 	}
 	return c
 }
-```
+// ```

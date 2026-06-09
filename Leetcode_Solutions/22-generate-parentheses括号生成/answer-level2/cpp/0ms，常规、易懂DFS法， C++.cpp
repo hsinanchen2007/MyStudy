@@ -1,8 +1,8 @@
-欢迎交流，感谢批评指正
+// 欢迎交流，感谢批评指正
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void DFS(vector<string>& v_str,string& str, int n, int L, int R)   //L表示左左括号数
@@ -59,4 +59,4 @@ public:
         return v_str;
     }
 };
-```
+// ```

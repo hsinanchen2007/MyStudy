@@ -1,12 +1,12 @@
-### 解题思路
-dp数组没有js直接Math.pow来的快
+// ### 解题思路
+// dp数组没有js直接Math.pow来的快
 
-（第一个是直接 Math.pow的）
-![image.png](https://pic.leetcode-cn.com/a939d0425d4173142addf184ed77e27f993e127d6414f40e5c666434fcb89812-image.png)
+// （第一个是直接 Math.pow的）
+// ![image.png](https://pic.leetcode-cn.com/a939d0425d4173142addf184ed77e27f993e127d6414f40e5c666434fcb89812-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} n
@@ -46,4 +46,4 @@ var myPow = function (x, n) {
     return dp[n];
 };
 
-```
+// ```

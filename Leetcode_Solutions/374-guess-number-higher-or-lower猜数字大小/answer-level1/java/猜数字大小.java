@@ -1,4 +1,4 @@
-```
+// ```
     public int guessNumber(int n) {
         int left = 1;
         int right = n;
@@ -15,4 +15,4 @@
         }
         return left;
     }
-```
+// ```

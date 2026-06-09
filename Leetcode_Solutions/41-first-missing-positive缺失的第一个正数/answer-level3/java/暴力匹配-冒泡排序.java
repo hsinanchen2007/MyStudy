@@ -1,12 +1,12 @@
-冒泡排序 
-对排序后的数组
-1，注意首个索引和尾个索引的值
-2，正负交替值的特殊处理
-击败14%的用户 
+// 冒泡排序 
+// 对排序后的数组
+// 1，注意首个索引和尾个索引的值
+// 2，正负交替值的特殊处理
+// 击败14%的用户 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         if (nums.length < 1) {
@@ -52,4 +52,4 @@ class Solution {
         return minValue;
     }
 }
-```
+// ```

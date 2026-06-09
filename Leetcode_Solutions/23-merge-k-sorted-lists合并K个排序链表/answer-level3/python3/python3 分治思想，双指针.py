@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/fde7886fee0623291ea0cabab685e87e6e433957637266ccf67ca0437a071423-image.png)
-时间长的，内存消耗高的那个是新建节点的合并方式，时间短的，内存消耗低的是原地修改链表的。
-归并排序的分治思想，以及双指针合并两个排序的链表的思路，这里只是多提供了原地修改的和创建新节点的两个方式。
-不知道自己的时间复杂度和空间复杂度分析的正确么
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# ![image.png](https://pic.leetcode-cn.com/fde7886fee0623291ea0cabab685e87e6e433957637266ccf67ca0437a071423-image.png)
+# 时间长的，内存消耗高的那个是新建节点的合并方式，时间短的，内存消耗低的是原地修改链表的。
+# 归并排序的分治思想，以及双指针合并两个排序的链表的思路，这里只是多提供了原地修改的和创建新节点的两个方式。
+# 不知道自己的时间复杂度和空间复杂度分析的正确么
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -53,4 +53,4 @@ class Solution:
         
         return helper(lists) if lists else None
 
-```
+# ```

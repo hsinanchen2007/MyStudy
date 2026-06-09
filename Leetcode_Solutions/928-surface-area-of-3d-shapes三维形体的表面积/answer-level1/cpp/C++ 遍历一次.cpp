@@ -1,8 +1,8 @@
-### 解题思路
-逐行扫描，扫描一遍，时间复杂度O(N*2),空间复杂度O(1).
-### 代码
+// ### 解题思路
+// 逐行扫描，扫描一遍，时间复杂度O(N*2),空间复杂度O(1).
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -22,4 +22,4 @@ public:
         return 6*count-over;
     }
 };
-```
+// ```

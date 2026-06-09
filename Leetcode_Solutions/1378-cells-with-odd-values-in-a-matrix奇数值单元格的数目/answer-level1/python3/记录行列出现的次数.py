@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def oddCells(self, n: int, m: int, indices: List[List[int]]) -> int:
         colums = [False]*m
@@ -13,4 +13,4 @@ class Solution:
         c = colums.count(True)
         r = rows.count(True)
         return r*m + c*n - r*c*2
-```
+# ```

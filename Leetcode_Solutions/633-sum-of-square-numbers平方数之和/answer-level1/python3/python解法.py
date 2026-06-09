@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
         j=int(math.sqrt(c))
@@ -10,4 +10,4 @@ class Solution:
                 j=j-1
             else:
                 i=i+1
-```
+# ```

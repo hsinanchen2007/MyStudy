@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def heightChecker(self, heights):
         """
@@ -11,4 +11,4 @@ class Solution(object):
             if a[i] != heights[i]:
                 b += 1
         return b
-```
+# ```

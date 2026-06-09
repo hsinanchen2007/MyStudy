@@ -1,9 +1,9 @@
-### 解题思路
-golang 超慢解法，用时500ms+ 反例中的反例
-每次寻找k个链表中最小的那个，加入新的链表
-### 代码
+// ### 解题思路
+// golang 超慢解法，用时500ms+ 反例中的反例
+// 每次寻找k个链表中最小的那个，加入新的链表
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -47,4 +47,4 @@ func mergeKLists(lists []*ListNode) *ListNode {
 }
 
 
-```
+// ```

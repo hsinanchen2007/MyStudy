@@ -1,15 +1,15 @@
 
-### 解题思路
+// ### 解题思路
 
-单源最短路问题，求从K点出发，到达所有点的最短路
+// 单源最短路问题，求从K点出发，到达所有点的最短路
 
-本题 N 的范围在 [1, 100] 之间，times 的长度在 [1, 6000] 之间，属于稠密图
+// 本题 N 的范围在 [1, 100] 之间，times 的长度在 [1, 6000] 之间，属于稠密图
 
-选择，朴素的dijkstra算法
+// 选择，朴素的dijkstra算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -45,6 +45,6 @@ public:
         return dist[last];
     }
 };
-```
+// ```
 
-[从零开始学算法](https://muyids.github.io/simple-algorithm/)
+// [从零开始学算法](https://muyids.github.io/simple-algorithm/)

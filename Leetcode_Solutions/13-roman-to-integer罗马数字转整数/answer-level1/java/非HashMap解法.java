@@ -1,11 +1,11 @@
-### 解题思路
-可能水平有限，我不知道如何用HashMap,Map<char, Integer>不合法，不知道用什么类包装char基本数据类型，自己琢磨出另一种方法。
-1.getValue(char c)得到字符c的值
-2.字符串转换成字符数组，如果字符小于后一位字符值，两次一并计算（i++），防止越界加上i < nums.length-1
+// ### 解题思路
+// 可能水平有限，我不知道如何用HashMap,Map<char, Integer>不合法，不知道用什么类包装char基本数据类型，自己琢磨出另一种方法。
+// 1.getValue(char c)得到字符c的值
+// 2.字符串转换成字符数组，如果字符小于后一位字符值，两次一并计算（i++），防止越界加上i < nums.length-1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int romanToInt(String s) {
         char[] nums = s.toCharArray();   //字符串转换成字符数组
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

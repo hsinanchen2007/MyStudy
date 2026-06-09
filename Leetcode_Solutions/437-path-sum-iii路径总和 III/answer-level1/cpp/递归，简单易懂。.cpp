@@ -1,10 +1,10 @@
-### 解题思路
-递归时保存每一层的前缀和，每次弹出前判断和是否为目标值
-![捕获.PNG](https://pic.leetcode-cn.com/c3ad7bb278358b10d7422356d4c3543454f42cd579f8ac117c4d02b86e35a417-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 递归时保存每一层的前缀和，每次弹出前判断和是否为目标值
+// ![捕获.PNG](https://pic.leetcode-cn.com/c3ad7bb278358b10d7422356d4c3543454f42cd579f8ac117c4d02b86e35a417-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int pathSum(TreeNode* root, int sum) {
@@ -26,4 +26,4 @@ public:
         prefixSum.pop_back();
     }
 };
-```
+// ```

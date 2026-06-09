@@ -1,21 +1,21 @@
-## 思路
-这个就是常规操作了，使用一个变量记录前驱pre，一个变量记录后继next.
+# ## 思路
+# 这个就是常规操作了，使用一个变量记录前驱pre，一个变量记录后继next.
 
-不断更新`current.next = pre` 就好了
-## 关键点解析
+# 不断更新`current.next = pre` 就好了
+# ## 关键点解析
 
-- 链表的基本操作（交换）
-- 虚拟节点dummy 简化操作
-- 注意更新current和pre的位置， 否则有可能出现溢出
+# - 链表的基本操作（交换）
+# - 虚拟节点dummy 简化操作
+# - 注意更新current和pre的位置， 否则有可能出现溢出
 
 
-## 代码
+# ## 代码
 
-语言支持：JS, C++, Python
+# 语言支持：JS, C++, Python
 
-JavaScript Code：
+# JavaScript Code：
 
-```js
+# ```js
 /*
  * @lc app=leetcode id=206 lang=javascript
  *
@@ -48,11 +48,11 @@ var reverseList = function(head) {
     return pre;
 };
 
-```
+# ```
 
-C++ Code：
+# C++ Code：
 
-```c++
+# ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -76,11 +76,11 @@ public:
         return prev;
     }
 };
-```
+# ```
 
-Python Code:
+# Python Code:
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -95,22 +95,22 @@ class Solution:
         while cur:
             cur.next, prev, cur = prev, cur, cur.next
         return prev
-```
+# ```
 
-## 拓展
+# ## 拓展
 
-通过单链表的定义可以得知，单链表也是递归结构，因此，也可以使用递归的方式来进行reverse操作。
-> 由于单链表是线性的，使用递归方式将导致栈的使用也是线性的，当链表长度达到一定程度时，递归会导致爆栈，因此，现实中并不推荐使用递归方式来操作链表。
+# 通过单链表的定义可以得知，单链表也是递归结构，因此，也可以使用递归的方式来进行reverse操作。
+# > 由于单链表是线性的，使用递归方式将导致栈的使用也是线性的，当链表长度达到一定程度时，递归会导致爆栈，因此，现实中并不推荐使用递归方式来操作链表。
 
-### 描述
+# ### 描述
 
-1. 除第一个节点外，递归将链表reverse
-2. 将第一个节点添加到已reverse的链表之后
+# 1. 除第一个节点外，递归将链表reverse
+# 2. 将第一个节点添加到已reverse的链表之后
 
-> 这里需要注意的是，每次需要保存已经reverse的链表的头节点和尾节点
+# > 这里需要注意的是，每次需要保存已经reverse的链表的头节点和尾节点
 
-###  C++实现
-```c++
+# ###  C++实现
+# ```c++
 // 普通递归
 class Solution {
 public:
@@ -155,10 +155,10 @@ public:
         return reverseRecursive(head, next, n);
     }
 };
-```
+# ```
 
-### JavaScript实现
-```javascript
+# ### JavaScript实现
+# ```javascript
 var reverseList = function(head) {
   // 递归结束条件
   if (head === null || head.next === null) {
@@ -176,7 +176,7 @@ var reverseList = function(head) {
   // 将调整后的链表返回
   return newReverseList
 }
-```
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# ```
+# 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

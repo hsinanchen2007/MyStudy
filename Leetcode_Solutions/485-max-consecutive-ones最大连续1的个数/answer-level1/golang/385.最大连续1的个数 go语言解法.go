@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-太简单，不啰嗦直接上代码了。
+// 太简单，不啰嗦直接上代码了。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findMaxConsecutiveOnes(nums []int) int {
 		max := 0
 		tmp := 0
@@ -23,4 +23,4 @@ func findMaxConsecutiveOnes(nums []int) int {
 		}
 		return max
 }
-```
+// ```

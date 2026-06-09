@@ -1,7 +1,7 @@
-基于摩尔投票，根据题目规定，存在众数，
-通过尝试变换mj的值计算出次数
+// 基于摩尔投票，根据题目规定，存在众数，
+// 通过尝试变换mj的值计算出次数
 
-```
+// ```
 public static int majorityElement(int[] nums)
 	 {
 	     int count=0;//计算当前的数字出现的次数
@@ -21,4 +21,4 @@ public static int majorityElement(int[] nums)
 		}
 	     return mj;
 	 }
-```
+// ```

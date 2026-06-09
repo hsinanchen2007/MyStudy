@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 func createTargetArray(nums []int, index []int) []int {
@@ -11,6 +11,6 @@ func createTargetArray(nums []int, index []int) []int {
 	}
 	return res
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
+// [Go版本 Github](https://github.com/temporaries/leetcode)

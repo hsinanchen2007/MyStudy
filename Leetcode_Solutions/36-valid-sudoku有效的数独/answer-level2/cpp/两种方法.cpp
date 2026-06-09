@@ -1,4 +1,4 @@
-用hash表的方法内存消耗较大
+// 用hash表的方法内存消耗较大
 
     vector<unordered_map<int,int>> cols(9),rows(9),blocks(9);
         for(int i=0;i<board.size();i++){

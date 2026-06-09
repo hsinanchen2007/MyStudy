@@ -1,9 +1,9 @@
-### 解题思路
-和杨辉三角1解题思路一样，就是构建杨辉三角，返回最后一行就行
+// ### 解题思路
+// 和杨辉三角1解题思路一样，就是构建杨辉三角，返回最后一行就行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -21,4 +21,4 @@ public:
         return a[rowIndex];
     }
 };
-```
+// ```

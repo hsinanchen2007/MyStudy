@@ -1,10 +1,10 @@
-### 解题思路
-1. 设置两个HashMap,mapP的用途是获得p中每个字符对应的次数；mapS的用途是在该滑动窗口时，对应于mapP还剩多少字符没有匹配上，如果完全匹配上，那么mapS应该为空，所以当mapS为空时说明该滑动窗口满足条件；
-2. 当字符存在于mapP时，先将mapS中的字符次数减1，弱国字符次数为0，则删除该字符；当i>=p.length时，遍历每一个i时，需要进行添加操作，添加i-p.length位置处的字符。
+// ### 解题思路
+// 1. 设置两个HashMap,mapP的用途是获得p中每个字符对应的次数；mapS的用途是在该滑动窗口时，对应于mapP还剩多少字符没有匹配上，如果完全匹配上，那么mapS应该为空，所以当mapS为空时说明该滑动窗口满足条件；
+// 2. 当字符存在于mapP时，先将mapS中的字符次数减1，弱国字符次数为0，则删除该字符；当i>=p.length时，遍历每一个i时，需要进行添加操作，添加i-p.length位置处的字符。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -62,4 +62,4 @@ public class Solution {
     }
 }
 
-```
+// ```

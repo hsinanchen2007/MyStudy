@@ -1,15 +1,15 @@
-考察数据结构设计
+# 考察数据结构设计
 
-[380. 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
+# [380. 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
 
-动态数组+字典
+# 动态数组+字典
 
-动态数组存储值，执行`append()`和`pop()`，移至最数组末尾O(1)处理
+# 动态数组存储值，执行`append()`和`pop()`，移至最数组末尾O(1)处理
 
-字典存储值及其索引，维护值和索引的动态变化
+# 字典存储值及其索引，维护值和索引的动态变化
 
-时间复杂度O(1)，空间复杂度O(N)，Python完整代码如下所示。
-```python3
+# 时间复杂度O(1)，空间复杂度O(N)，Python完整代码如下所示。
+# ```python3
 import random
 class RandomizedSet:
 
@@ -50,15 +50,15 @@ class RandomizedSet:
         Get a random element from the set.
         """
         return random.choice(self.lst)
-```
+# ```
 
-<br/>
-字典+字典
+# <br/>
+# 字典+字典
 
-一个存储索引及其值，，另一个字典存储值及其索引，共同维护值和索引的动态变化
+# 一个存储索引及其值，，另一个字典存储值及其索引，共同维护值和索引的动态变化
 
-时间复杂度O(1)，空间复杂度O(N)，老代码了，变量名未做修改，运行比上述代码稍快。
-```python3
+# 时间复杂度O(1)，空间复杂度O(N)，老代码了，变量名未做修改，运行比上述代码稍快。
+# ```python3
 import random
 class RandomizedSet:
 
@@ -104,22 +104,22 @@ class RandomizedSet:
         Get a random element from the set.
         """
         return self.num_key_map[random.randrange(0, self.count)]
-```
+# ```
 
 
 
-<br/>
-[381. O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
+# <br/>
+# [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
 
-动态数组+字典，
+# 动态数组+字典，
 
-动态数组依旧存储值，执行`append()`和`pop()`，移至最数组末尾O(1)处理
+# 动态数组依旧存储值，执行`append()`和`pop()`，移至最数组末尾O(1)处理
 
-字典存储值及其索引集合，维护值和索引集合的动态变化
+# 字典存储值及其索引集合，维护值和索引集合的动态变化
 
-参照[380. 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) 动态数组+字典版代码进阶，此时字典由存储值及索引变成值及其索引集合
+# 参照[380. 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) 动态数组+字典版代码进阶，此时字典由存储值及索引变成值及其索引集合
 
-```python3
+# ```python3
 import random
 class RandomizedCollection:
 
@@ -159,4 +159,4 @@ class RandomizedCollection:
         Get a random element from the collection.
         """
         return random.choice(self.lst)
-```
+# ```

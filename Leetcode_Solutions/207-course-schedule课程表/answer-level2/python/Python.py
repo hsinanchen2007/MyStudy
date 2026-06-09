@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canFinish(self, numCourses, prerequisites):
         innode=[0 for _ in range(numCourses)]
@@ -25,4 +25,4 @@ class Solution(object):
             if x!=0:
                 return False
         return True
-```
+# ```

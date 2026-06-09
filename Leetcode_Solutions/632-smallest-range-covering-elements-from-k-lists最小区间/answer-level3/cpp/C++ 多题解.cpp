@@ -1,6 +1,6 @@
-解法一：
-排序数组，并记录数的来源，然后滑动窗口求解。
-```
+// 解法一：
+// 排序数组，并记录数的来源，然后滑动窗口求解。
+// ```
 class Solution {
 public:
     struct Cmp {
@@ -42,11 +42,11 @@ public:
         return {res_l, res_r};
     }
 };
-```
+// ```
 
-解法二：
-最小堆，逐渐更新区间
-```
+// 解法二：
+// 最小堆，逐渐更新区间
+// ```
 
 class Solution {
 public:
@@ -90,12 +90,12 @@ public:
         return {res_l, res_r};
     }
 };
-```
+// ```
 
-解法三：
-多指针
+// 解法三：
+// 多指针
 
-```
+// ```
 class Solution {
 public:
     vector<int> smallestRange(vector<vector<int>>& nums) {
@@ -127,5 +127,5 @@ public:
         return {res_l, res_r};
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/2e3a1a74368d1c3394144145859df11daccd99b021e58a2cfefe27fc68070d61-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2e3a1a74368d1c3394144145859df11daccd99b021e58a2cfefe27fc68070d61-image.png)

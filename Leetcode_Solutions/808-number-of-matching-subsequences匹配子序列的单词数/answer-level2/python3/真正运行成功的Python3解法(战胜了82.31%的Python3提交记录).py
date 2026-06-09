@@ -1,4 +1,4 @@
-大部分的python3解法都是双重for循环，很容易超时：
+# 大部分的python3解法都是双重for循环，很容易超时：
 
                 def numMatchingSubseq(self, S: str, words: List[str]) -> int:
                     count = 0

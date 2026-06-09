@@ -1,6 +1,6 @@
-非递归先序遍历，遍历过程中维护一个父节点，边遍历边原地修改
+# 非递归先序遍历，遍历过程中维护一个父节点，边遍历边原地修改
 
-```python
+# ```python
 class Solution:
     def flatten(self, root: TreeNode) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
                 stack.append(node.right)
                 stack.append(node.left)
                 prev = node
-```
+# ```

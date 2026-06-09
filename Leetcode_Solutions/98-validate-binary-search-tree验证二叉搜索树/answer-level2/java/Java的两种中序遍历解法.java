@@ -1,5 +1,5 @@
-### 解法1： 基于递归的中序遍历
-```
+// ### 解法1： 基于递归的中序遍历
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         if(root==null) return true;
@@ -22,11 +22,11 @@ class Solution {
         traversalBST(list,node.right);
     }
 }
-```
+// ```
 
 
-### 解法2：基于栈的中序遍历
-```
+// ### 解法2：基于栈的中序遍历
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         if(root==null) return true;
@@ -50,4 +50,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

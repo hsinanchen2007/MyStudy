@@ -1,9 +1,9 @@
-## 思路一：利用数组
-稳定。构建两个vector分别存储奇数和偶数，然后在偶数vector后追加奇数。
-## 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ## 思路一：利用数组
+// 稳定。构建两个vector分别存储奇数和偶数，然后在偶数vector后追加奇数。
+// ## 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 vector<int> sortArrayByParity(vector<int>& A) {
     vector<int> odd;
     vector<int> even;        
@@ -19,14 +19,14 @@ vector<int> sortArrayByParity(vector<int>& A) {
     }
     return even;
 }
-```
+// ```
 
-## 思路二：基于冒泡排序
-稳定
-## 代码
-时间复杂度：O(n^2)
-空间复杂度：O(1)
-```
+// ## 思路二：基于冒泡排序
+// 稳定
+// ## 代码
+// 时间复杂度：O(n^2)
+// 空间复杂度：O(1)
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -41,14 +41,14 @@ public:
         return A;
     }
 };
-```
+// ```
 
-## 思路三：双指针
-不稳定
-## 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```
+// ## 思路三：双指针
+// 不稳定
+// ## 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -66,6 +66,6 @@ public:
         return A;
     }
 };
-```
+// ```
 
 

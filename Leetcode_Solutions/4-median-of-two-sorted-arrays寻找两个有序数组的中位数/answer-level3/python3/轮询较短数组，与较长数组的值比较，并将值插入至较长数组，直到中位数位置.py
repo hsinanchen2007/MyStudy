@@ -1,16 +1,16 @@
-如标题，轮询较短的数组的元素A，与较长数组maxnums的元素进行比较，若A小则在maxnums元素位置上插入A，若A较大则找到那个元素比A大，在那个位置插入A，直到中位数位置就停止。
-nums1: [-1,2,3]
-nums2: [-2,0]
-nums1较长,所以maxnums=nums1,minnums=nums2
-轮询nums2的内容：
-1.如果nums2的元素B比nums1的元素A小，如-2比-1小，就将-2插入到nums1中，此时nums1:[-2,-1,2,3]  
-2.如果B比A大，如0比-1大，则轮询-1以后的元素,找比0大的元素,找到比0大的2,就在这个位置上插入0，此时nums1:[-2,-1,0,2,3]
+# 如标题，轮询较短的数组的元素A，与较长数组maxnums的元素进行比较，若A小则在maxnums元素位置上插入A，若A较大则找到那个元素比A大，在那个位置插入A，直到中位数位置就停止。
+# nums1: [-1,2,3]
+# nums2: [-2,0]
+# nums1较长,所以maxnums=nums1,minnums=nums2
+# 轮询nums2的内容：
+# 1.如果nums2的元素B比nums1的元素A小，如-2比-1小，就将-2插入到nums1中，此时nums1:[-2,-1,2,3]  
+# 2.如果B比A大，如0比-1大，则轮询-1以后的元素,找比0大的元素,找到比0大的2,就在这个位置上插入0，此时nums1:[-2,-1,0,2,3]
 
-轮询完毕后，计算nums1的中位数，结果是0
-此外还要考虑其中一个是空数组的情况，所以在轮询前有一个判断，minnums长度是否为0
-以下是python3的上述结果的答案。
+# 轮询完毕后，计算nums1的中位数，结果是0
+# 此外还要考虑其中一个是空数组的情况，所以在轮询前有一个判断，minnums长度是否为0
+# 以下是python3的上述结果的答案。
 
-```python []
+# ```python []
     def findMedianSortedArrays(self, nums1: [int], nums2: [int]) -> float:
         len1 = len(nums1)
         len2 = len(nums2)
@@ -50,4 +50,4 @@ nums1较长,所以maxnums=nums1,minnums=nums2
             medienNum = oddEven[1] == 1 and maxnums[midlen] or (maxnums[midlen] + maxnums[midlen - 1]) / 2
 
         return medienNum
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
         s = s.trim();
         String[] words = s.split(" {1,}");
         StringBuffer ret = new StringBuffer();
@@ -9,4 +9,4 @@
             }
         }
         return ret.toString();
-```
+// ```

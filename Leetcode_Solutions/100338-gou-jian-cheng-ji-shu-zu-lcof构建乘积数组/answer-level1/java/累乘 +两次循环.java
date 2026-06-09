@@ -1,11 +1,11 @@
-### 解题思路
-累乘
-两次循环，第一次循环将i左边的元素累乘和
-第二次循环将i右边的元素累乘
+// ### 解题思路
+// 累乘
+// 两次循环，第一次循环将i左边的元素累乘和
+// 第二次循环将i右边的元素累乘
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	    public static int[] constructArr(int[] a) {
 	    	int [] b=new int[a.length];
@@ -24,4 +24,4 @@ class Solution {
 	    	return b;
 	    }
 }
-```
+// ```

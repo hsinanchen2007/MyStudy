@@ -1,6 +1,6 @@
-1. 方法一：暴力法:两层for循环依次将两个及以上的子串取出来，判断每一个子串中是否有重复字符(时间复杂度O(n^3))
-        因为时间复杂度太高，会超时。
-```
+// 1. 方法一：暴力法:两层for循环依次将两个及以上的子串取出来，判断每一个子串中是否有重复字符(时间复杂度O(n^3))
+//         因为时间复杂度太高，会超时。
+// ```
 class Solution {
 public:
     bool allunique(string s, int begin, int end)//判断子串中是否有重复字符
@@ -40,13 +40,13 @@ public:
 		return result;
     }
 };
-```
+// ```
 
 
-2. 方法二：滑动窗口
+// 2. 方法二：滑动窗口
 
 
-```
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -73,4 +73,4 @@ public:
         return result;
     }
 };
-```
+// ```

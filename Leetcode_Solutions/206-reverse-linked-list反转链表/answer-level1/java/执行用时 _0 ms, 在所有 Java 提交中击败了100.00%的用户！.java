@@ -1,10 +1,10 @@
-### 解题思路
-至今未明白为何可以
-“执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户”
-？？？
-### 代码
+// ### 解题思路
+// 至今未明白为何可以
+// “执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户”
+// ？？？
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

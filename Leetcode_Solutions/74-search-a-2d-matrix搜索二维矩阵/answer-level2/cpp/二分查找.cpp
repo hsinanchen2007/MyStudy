@@ -1,5 +1,5 @@
-首先二分查找找到当前行,然后对当前行再二分查找.4ms解决
-```
+// 首先二分查找找到当前行,然后对当前行再二分查找.4ms解决
+// ```
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -14,4 +14,4 @@ public:
         return begin==m?false:binary_search(matrix[begin].begin(),matrix[begin].end(),target);
     }
 };
-```
+// ```

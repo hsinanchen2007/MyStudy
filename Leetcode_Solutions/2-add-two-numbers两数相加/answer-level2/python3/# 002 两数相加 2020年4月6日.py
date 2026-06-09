@@ -1,10 +1,10 @@
-### 解题思路
-1.链表要记得设置指针
-2.若有一个链表的指针已经指到末尾，则一直输出0，直至两个链表都指到末尾
+# ### 解题思路
+# 1.链表要记得设置指针
+# 2.若有一个链表的指针已经指到末尾，则一直输出0，直至两个链表都指到末尾
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             t3.next = ListNode(1)
         return l3.next
 
-```
+# ```

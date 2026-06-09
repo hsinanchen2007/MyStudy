@@ -1,9 +1,9 @@
-### 解题思路
-直接调用heapq的nsmallest进行计算
+# ### 解题思路
+# 直接调用heapq的nsmallest进行计算
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import heapq
 class Solution(object):
     def smallestK(self, arr, k):
@@ -13,4 +13,4 @@ class Solution(object):
         :rtype: List[int]
         """
         return heapq.nsmallest(k,arr)
-```
+# ```

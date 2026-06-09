@@ -1,18 +1,18 @@
-### 解题思路
-1.思路比较简单：思路其实很简单，就照着生命游戏的规则往下写就行。
-2.corner condition：
-（1）.在用if else实现时，第三条定律的优先级优于第二条；
-（2）.对二维数组的i,j操作时，对边界条件的检查；
-3.知识点总结：
-无。
-4.耗时：40mins，有点长。主要耗时点：
-（1）live计算时，对i和j的边界的计算，编码时比较小心谨慎，花的时间比较长-----编码熟练度；
-![image.png](https://pic.leetcode-cn.com/62b44b124494691ade81f2c47e58875626bea59deb290eb0b44e246003c45fe4-image.png)
+// ### 解题思路
+// 1.思路比较简单：思路其实很简单，就照着生命游戏的规则往下写就行。
+// 2.corner condition：
+// （1）.在用if else实现时，第三条定律的优先级优于第二条；
+// （2）.对二维数组的i,j操作时，对边界条件的检查；
+// 3.知识点总结：
+// 无。
+// 4.耗时：40mins，有点长。主要耗时点：
+// （1）live计算时，对i和j的边界的计算，编码时比较小心谨慎，花的时间比较长-----编码熟练度；
+// ![image.png](https://pic.leetcode-cn.com/62b44b124494691ade81f2c47e58875626bea59deb290eb0b44e246003c45fe4-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     int i = 0;
     int j = 0;
@@ -79,4 +79,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
     free(temp);
     return;
 }
-```
+// ```

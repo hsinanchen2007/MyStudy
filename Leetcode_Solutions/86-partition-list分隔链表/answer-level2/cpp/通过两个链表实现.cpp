@@ -1,6 +1,6 @@
-通过两个链表实现
-![呜呜.jpg](https://pic.leetcode-cn.com/3bdfb7b4edb695028f91af5f15fb38a286189a3fe6c1fc78175991b9ed9c282d-%E5%91%9C%E5%91%9C.jpg)
-```
+// 通过两个链表实现
+// ![呜呜.jpg](https://pic.leetcode-cn.com/3bdfb7b4edb695028f91af5f15fb38a286189a3fe6c1fc78175991b9ed9c282d-%E5%91%9C%E5%91%9C.jpg)
+// ```
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -34,6 +34,6 @@ public:
         return before->next;
     }
 };
-```
+// ```
 
 

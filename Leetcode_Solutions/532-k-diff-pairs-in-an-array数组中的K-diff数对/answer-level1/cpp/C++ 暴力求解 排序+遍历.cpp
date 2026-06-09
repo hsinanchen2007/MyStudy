@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解:排序+遍历
-时间复杂度最坏o(n^2)
-### 代码
+// ### 解题思路
+// 暴力求解:排序+遍历
+// 时间复杂度最坏o(n^2)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int findPairs(vector<int>& nums, int k) {
@@ -25,4 +25,4 @@ public:
 		return count;
 	}
 };
-```
+// ```

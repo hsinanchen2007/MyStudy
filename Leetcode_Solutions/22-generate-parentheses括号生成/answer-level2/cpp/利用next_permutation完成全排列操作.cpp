@@ -1,9 +1,9 @@
-### 解题思路
-利用next_permutation完成全排列操作，对每一个字符进行判断是否符合条件，只有左括号数目大于等于右括号数目的时候满足条件
+// ### 解题思路
+// 利用next_permutation完成全排列操作，对每一个字符进行判断是否符合条件，只有左括号数目大于等于右括号数目的时候满足条件
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-抛砖引玉，提供一个快速幂的思路，由于维度太大，时间复杂度太高
+# 抛砖引玉，提供一个快速幂的思路，由于维度太大，时间复杂度太高
 
-**不建议用，会超时的**
+# **不建议用，会超时的**
 
-```python
+# ```python
 class Solution:
     def numWays(self, steps: int, arrLen: int) -> int:
         import numpy as np
@@ -19,4 +19,4 @@ class Solution:
         c = np.mat(arr, dtype=np.dtype('O'))
         c = c ** (steps)
         return c.A1[0] % (10**9+7)
-```
+# ```

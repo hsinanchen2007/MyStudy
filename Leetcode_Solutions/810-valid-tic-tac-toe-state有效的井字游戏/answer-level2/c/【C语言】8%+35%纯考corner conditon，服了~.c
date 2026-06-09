@@ -1,11 +1,11 @@
-### 解题思路
-纯考corner contidon的典范~
-![image.png](https://pic.leetcode-cn.com/ff5fcdf9815694c2ac8f1a392a285669ccb442fb65dff6ace91f4669cc6779fa-image.png)
+// ### 解题思路
+// 纯考corner contidon的典范~
+// ![image.png](https://pic.leetcode-cn.com/ff5fcdf9815694c2ac8f1a392a285669ccb442fb65dff6ace91f4669cc6779fa-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool validTicTacToe(char ** board, int boardSize){
     int i = 0;
     int j = 0;
@@ -107,4 +107,4 @@ bool validTicTacToe(char ** board, int boardSize){
 
     return true;
 }
-```
+// ```

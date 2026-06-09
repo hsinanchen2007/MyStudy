@@ -1,11 +1,11 @@
-### 解题思路
-emmm
+// ### 解题思路
+// emmm
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
     sort.Ints(arr)
 	return arr[:k]
 }   
-```
+// ```

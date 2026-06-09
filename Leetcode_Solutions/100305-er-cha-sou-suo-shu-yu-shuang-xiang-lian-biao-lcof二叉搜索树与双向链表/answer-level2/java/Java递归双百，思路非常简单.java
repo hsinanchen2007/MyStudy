@@ -1,9 +1,9 @@
-![WechatIMG4.png](https://pic.leetcode-cn.com/cd562f22fc8bce07ed97a22d80da0e0e746832a197b225270cd47ed45d6f6f34-WechatIMG4.png)
-### 解题思路
-思路就是中序遍历，在中序遍历的时候需要记住前一个节点，不然没法连起来，并且也要记住尾结点，然后头尾链接一下即可。
-### 代码
+// ![WechatIMG4.png](https://pic.leetcode-cn.com/cd562f22fc8bce07ed97a22d80da0e0e746832a197b225270cd47ed45d6f6f34-WechatIMG4.png)
+// ### 解题思路
+// 思路就是中序遍历，在中序遍历的时候需要记住前一个节点，不然没法连起来，并且也要记住尾结点，然后头尾链接一下即可。
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -49,4 +49,4 @@ class Solution {
         inOrder(root.right);
     }
 }
-```
+// ```

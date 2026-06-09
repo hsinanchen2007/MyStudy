@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isPowerOfTwo(n int) bool {
     if n == 0 {
         return false
@@ -24,4 +24,4 @@ func isPowerOfTwo(n int) bool {
 }
 
 
-```
+// ```

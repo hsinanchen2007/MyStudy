@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 private:
     TreeNode* trim(TreeNode*& root, int L, int R) {
@@ -14,4 +14,4 @@ public:
         return trim(root, L, R);
     }
 };
-```
+// ```

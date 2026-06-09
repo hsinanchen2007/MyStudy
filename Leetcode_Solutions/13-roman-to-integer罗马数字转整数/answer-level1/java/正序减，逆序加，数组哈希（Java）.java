@@ -1,9 +1,9 @@
-### 顺序遍历
+// ### 顺序遍历
 
-- 顺序遍历字符数组，升序则减少，降序则增加
-- 数组哈希还可空间为 `new int['X' - 'C']`
+// - 顺序遍历字符数组，升序则减少，降序则增加
+// - 数组哈希还可空间为 `new int['X' - 'C']`
 
-```java
+// ```java
 public int romanToInt(String s) {
     int[] map = init();
     char[] arr = s.toCharArray();
@@ -25,4 +25,4 @@ private int[] init() {
     }
     return map;
 }
-```
+// ```

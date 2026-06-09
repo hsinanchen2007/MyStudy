@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
         display = sorted(deck,reverse=True)
@@ -9,4 +9,4 @@ class Solution:
                 res.append(res.pop(0))
         res.reverse()
         return res
-```
+# ```

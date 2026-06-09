@@ -1,9 +1,9 @@
-### 解题思路
-迭代版本1：数组模拟队列（先入先出）
+// ### 解题思路
+// 迭代版本1：数组模拟队列（先入先出）
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -38,14 +38,14 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
-### 解题思路2
-迭代版本2：使用php  SqlQueue
+// ### 解题思路2
+// 迭代版本2：使用php  SqlQueue
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -81,15 +81,15 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
 
-### 解题思路3
-递归版本
+// ### 解题思路3
+// 递归版本
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -125,4 +125,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-```和自己的代码比较
+// ### 代码
+// ```和自己的代码比较
 class Solution {
 public:
     string compressString(string S) {
@@ -27,10 +27,10 @@ public:
         return ans.size() >= S.size() ? S : ans;
     }
 };
-```
+// ```
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -55,4 +55,4 @@ string a;
     return a.size()<S.size() ? a:S;
     }
 };
-```
+// ```

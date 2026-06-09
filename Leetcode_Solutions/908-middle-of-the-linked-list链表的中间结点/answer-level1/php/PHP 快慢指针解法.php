@@ -1,5 +1,5 @@
 
-```php
+// ```php
 function middleNode($head)
 {
     // 快慢指针
@@ -11,4 +11,4 @@ function middleNode($head)
 
     return $slow;
 }
-```
+// ```

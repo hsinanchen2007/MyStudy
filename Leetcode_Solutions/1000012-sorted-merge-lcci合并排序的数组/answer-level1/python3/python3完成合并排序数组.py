@@ -1,6 +1,6 @@
 
-第一种：python语言的特性，简洁清晰
-```python3
+# 第一种：python语言的特性，简洁清晰
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -8,12 +8,12 @@ class Solution:
         """
         A[m:] = B[:n]
         A.sort()
-```
+# ```
 
-第二种：
-从m-1，n-1的位置，分别从A（从后往前第一个不为0的），B列表往前依次比较，较大的数字在A列表后边往前依次插入
+# 第二种：
+# 从m-1，n-1的位置，分别从A（从后往前第一个不为0的），B列表往前依次比较，较大的数字在A列表后边往前依次插入
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -28,12 +28,12 @@ class Solution:
                 n -= 1
         if n > 0:
             A[:n] = B[:n]
-```
+# ```
 
-当出现 A = [7,8,9,0,0,0] , m = 3, B = [1,2,3] , n = 3 的测试用例时，
-终止while循环后，A = [7,8,9,7,8,9],
-所以需要 A[:n] = B[:n]
-```python3
+# 当出现 A = [7,8,9,0,0,0] , m = 3, B = [1,2,3] , n = 3 的测试用例时，
+# 终止while循环后，A = [7,8,9,7,8,9],
+# 所以需要 A[:n] = B[:n]
+# ```python3
         if n > 0:
             A[:n] = B[:n]
-```
+# ```

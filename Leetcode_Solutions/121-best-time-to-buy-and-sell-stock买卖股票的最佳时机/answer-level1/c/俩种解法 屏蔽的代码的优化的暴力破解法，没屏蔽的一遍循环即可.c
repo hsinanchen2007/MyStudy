@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     /*int i,j;
     int sum = 0;
@@ -51,4 +51,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return sum;
 }
-```
+// ```

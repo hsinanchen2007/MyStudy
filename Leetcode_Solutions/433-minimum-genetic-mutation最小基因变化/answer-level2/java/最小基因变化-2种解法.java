@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：深度优先遍历
+// # 解法一：深度优先遍历
 
-时间复杂度和空间复杂度均是O(n ^ 2)，其中n为基因库中的基因数。
+// 时间复杂度和空间复杂度均是O(n ^ 2)，其中n为基因库中的基因数。
 
-执行用时：0ms，击败100.00%。消耗内存：37.3MB，击败5.19%。
+// 执行用时：0ms，击败100.00%。消耗内存：37.3MB，击败5.19%。
 
-```java
+// ```java
 public class Solution {
     private Map<String, Integer> stringToInteger = new HashMap<>();
 
@@ -72,15 +72,15 @@ public class Solution {
         return diff == 1;
     }
 }
-```
+// ```
 
-# 解法二：广度优先遍历
+// # 解法二：广度优先遍历
 
-时间复杂度和空间复杂度均是O(n ^ 2)，其中n为基因库中的基因数。
+// 时间复杂度和空间复杂度均是O(n ^ 2)，其中n为基因库中的基因数。
 
-执行用时：0ms，击败100.00%。消耗内存：37.3MB，击败5.19%。
+// 执行用时：0ms，击败100.00%。消耗内存：37.3MB，击败5.19%。
 
-```java
+// ```java
 public class Solution {
     private Map<String, Integer> stringToInteger = new HashMap<>();
 
@@ -147,4 +147,4 @@ public class Solution {
         return diff == 1;
     }
 }
-```
+// ```

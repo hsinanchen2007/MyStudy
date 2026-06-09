@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize) {
 	int *res = (int *)malloc(sizeof(int)*numsSize);
 	for (int i = 0; i < numsSize; i++) {
@@ -28,4 +28,4 @@ int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize) {
 	*returnSize = num;
 	return res;
 }
-```
+// ```

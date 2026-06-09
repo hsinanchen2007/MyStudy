@@ -1,13 +1,13 @@
-### 解题思路
-1. 所有 满意度 >= 0 的菜全做，从满意度低的做到满意度高的
-2. 每做一个 满意度 <0 的菜，总满意度结果为：当前总满意度+（所有需要做的菜的满意度的和）
-3. 对与每个 满意度 <0 的菜，总满意度升则做，降低则不做
+// ### 解题思路
+// 1. 所有 满意度 >= 0 的菜全做，从满意度低的做到满意度高的
+// 2. 每做一个 满意度 <0 的菜，总满意度结果为：当前总满意度+（所有需要做的菜的满意度的和）
+// 3. 对与每个 满意度 <0 的菜，总满意度升则做，降低则不做
 
 
-### 代码
+// ### 代码
 
 
-```java []
+// ```java []
 public int maxSatisfaction(int[] satisfaction) {
 
         Arrays.sort(satisfaction);
@@ -40,8 +40,8 @@ public int maxSatisfaction(int[] satisfaction) {
 
         return result;
     }
-```
-```java []
+// ```
+// ```java []
 public int maxSatisfaction(int[] satisfaction) {
 
         Arrays.sort(satisfaction);
@@ -62,4 +62,4 @@ public int maxSatisfaction(int[] satisfaction) {
 
         return result;
     }
-```
+// ```

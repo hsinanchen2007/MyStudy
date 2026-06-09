@@ -1,9 +1,9 @@
-### 解题思路
-自己看吧 65ms左右
+# ### 解题思路
+# 自己看吧 65ms左右
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
         else:
             nums[:]  = nums
         # return temp
-```
+# ```

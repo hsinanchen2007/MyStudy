@@ -1,9 +1,9 @@
-### 解题思路
-left、right指针卡两头，由于是顺序数组，和小了left+1，和大了right-1.
+# ### 解题思路
+# left、right指针卡两头，由于是顺序数组，和小了left+1，和大了right-1.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if not target or len(nums) == 1:
@@ -21,4 +21,4 @@ class Solution:
             else:
                 return [nums[l], nums[r]]
         return []
-```
+# ```

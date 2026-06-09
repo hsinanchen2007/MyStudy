@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number} n
  * @return {number}
@@ -20,4 +20,4 @@ var climbStairs = function(n) {
   }
   return result
 };
-```
+// ```

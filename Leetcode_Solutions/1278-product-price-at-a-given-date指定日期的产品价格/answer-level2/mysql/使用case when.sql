@@ -1,4 +1,4 @@
-min,max change_date ,case when 语句，不过非常的慢
+-- min,max change_date ,case when 语句，不过非常的慢
 
 
 select a.product_id,

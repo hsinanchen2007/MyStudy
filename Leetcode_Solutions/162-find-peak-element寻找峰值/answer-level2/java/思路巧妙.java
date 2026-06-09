@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-小白努力呀~
+// ### 解题思路
+// 此处撰写解题思路
+// 小白努力呀~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findPeakElement(int[] nums) {
         if(nums.length == 1)
@@ -19,5 +19,5 @@ class Solution {
 		return nums.length - 1;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/ec6f259d17108c87fe717649f03927ef85040e0054b81b055f5777db9ecad1e1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ec6f259d17108c87fe717649f03927ef85040e0054b81b055f5777db9ecad1e1-image.png)

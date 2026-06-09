@@ -1,8 +1,8 @@
-### 解题思路
-//TODO
-### 代码
+// ### 解题思路
+// //TODO
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     //想到滑动窗口求最大值，维护一个队列和一个双端递减队列
     Queue<Integer> queue;
@@ -38,4 +38,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

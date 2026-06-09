@@ -1,9 +1,9 @@
-### 解题思路
-思路代码都很简单，但是这看起来更像dfs。。。
+# ### 解题思路
+# 思路代码都很简单，但是这看起来更像dfs。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -26,4 +26,4 @@ class Solution:
         con(root, root)
         return root
             
-```
+# ```

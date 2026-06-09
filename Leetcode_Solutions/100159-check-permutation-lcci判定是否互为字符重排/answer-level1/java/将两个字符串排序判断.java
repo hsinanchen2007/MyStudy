@@ -1,4 +1,4 @@
-```
+// ```
 
 public boolean CheckPermutation(String s1, String s2) {
         if(s1.length() != s2.length()){
@@ -16,4 +16,4 @@ public boolean CheckPermutation(String s1, String s2) {
         return true;
     }
 
-```
+// ```

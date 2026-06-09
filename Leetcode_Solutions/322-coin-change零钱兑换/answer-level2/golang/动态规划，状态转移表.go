@@ -1,7 +1,7 @@
-##### 可以画出状态转移表，辅助思考一下，得出状态转移方程，然后翻译成代码。如图，状态转移表，表中数据代表最少的硬币个数，具体可以看算法图解第九章
-![image.png](https://pic.leetcode-cn.com/da8ca088bb51a0fa6fb910c3211ac0853d42ce8f1e203c4b7827b58d4498ceb8-image.png)
-<br>
-```
+// ##### 可以画出状态转移表，辅助思考一下，得出状态转移方程，然后翻译成代码。如图，状态转移表，表中数据代表最少的硬币个数，具体可以看算法图解第九章
+// ![image.png](https://pic.leetcode-cn.com/da8ca088bb51a0fa6fb910c3211ac0853d42ce8f1e203c4b7827b58d4498ceb8-image.png)
+// <br>
+// ```
 func coinChange(coins []int, amount int) int {
 	dp := make([]int, amount+1)
 	for i := 0; i < len(dp); i++ {
@@ -22,4 +22,4 @@ func coinChange(coins []int, amount int) int {
 		return dp[amount]
 	}
 }
-```
+// ```

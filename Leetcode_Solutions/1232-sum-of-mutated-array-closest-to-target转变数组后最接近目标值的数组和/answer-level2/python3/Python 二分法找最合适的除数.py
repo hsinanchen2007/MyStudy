@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c162a387d173b27d954ea08233523ba5004b75bd725c0dd03958327272461d04-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c162a387d173b27d954ea08233523ba5004b75bd725c0dd03958327272461d04-image.png)
 
 
-```
+# ```
 '''
 二分法找最佳的除数，先找第一个让剩余和大于target的除数，
 候选只可能是这个除数和这个除数减1
@@ -37,4 +37,4 @@ class Solution:
             bound = bound - 1
 
         return bound
-```
+# ```

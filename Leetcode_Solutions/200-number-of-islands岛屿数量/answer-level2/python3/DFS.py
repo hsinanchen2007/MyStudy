@@ -1,5 +1,5 @@
-解题思路，DFS即可，遍历所有岛屿并用一个visited标注是否访问。有访问返回1即可。
-```
+# 解题思路，DFS即可，遍历所有岛屿并用一个visited标注是否访问。有访问返回1即可。
+# ```
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         num = 0
@@ -26,4 +26,4 @@ class Solution:
             return 1
         return 0
             
-```
+# ```

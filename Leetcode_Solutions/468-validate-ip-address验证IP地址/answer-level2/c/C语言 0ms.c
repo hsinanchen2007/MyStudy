@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/02193392c6e9c90846cb7a4f6a2786dda9baa60ca67f81c61591ce8bdb5b9d41-image.png)
+// ![image.png](https://pic.leetcode-cn.com/02193392c6e9c90846cb7a4f6a2786dda9baa60ca67f81c61591ce8bdb5b9d41-image.png)
 
 
 
-# **代码**
+// # **代码**
 
-```
+// ```
 #define MIN_IPV4_LEN 7
 #define MAX_IPV4_LEN 15
 #define MIN_IPV6_LEN 15
@@ -170,7 +170,7 @@ char* validIPAddress(char* IP){
     // 既不是ipv4 也不是ipv6
     return NEITHER_STR;
 }
-```
+// ```
 
 
 

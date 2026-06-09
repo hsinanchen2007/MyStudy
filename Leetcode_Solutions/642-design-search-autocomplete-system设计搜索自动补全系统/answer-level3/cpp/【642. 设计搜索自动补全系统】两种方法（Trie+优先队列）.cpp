@@ -1,6 +1,6 @@
-## 思路一：Trie
-### 代码
-```c++
+// ## 思路一：Trie
+// ### 代码
+// ```c++
 struct TrieNode {
     unordered_map<char, TrieNode*> children;
     int count;    
@@ -64,10 +64,10 @@ private:
     TrieNode *cur;
     string res = "";
 };
-```
-## 思路二：map+优先级队列
-### 代码
-```c++
+// ```
+// ## 思路二：map+优先级队列
+// ### 代码
+// ```c++
 class AutocompleteSystem {
     map<string, int> freq;
     string data;
@@ -111,10 +111,10 @@ public:
         return res;
     }
 };
-```
-### 另一种写法
-优先级队列为小顶堆。
-```c++
+// ```
+// ### 另一种写法
+// 优先级队列为小顶堆。
+// ```c++
 class AutocompleteSystem {
     unordered_map<string, int> freq;
     string data;
@@ -161,6 +161,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

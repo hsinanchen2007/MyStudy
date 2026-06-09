@@ -1,6 +1,6 @@
-先排序，按照每一个区间的较小值。
-接下来遍历，只需要跟最后一个比较即可。
-```
+# 先排序，按照每一个区间的较小值。
+# 接下来遍历，只需要跟最后一个比较即可。
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if not intervals:
@@ -13,5 +13,5 @@ class Solution:
             else:
                 r.append(intervals[i])
         return r
-```
+# ```
 

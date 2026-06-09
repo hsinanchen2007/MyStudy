@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口
+// ### 解题思路
+// 滑动窗口
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int shortestSubarray(vector<int>& A, int K) {
@@ -32,4 +32,4 @@ public:
         return ans <= N ? ans : -1;
     }
 };
-```
+// ```

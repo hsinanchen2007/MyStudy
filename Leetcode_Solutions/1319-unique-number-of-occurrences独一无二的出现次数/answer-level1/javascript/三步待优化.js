@@ -1,4 +1,4 @@
-```
+// ```
 var arr = [-3,0,1,-3,1,1,1,-3,10,0]
 var arr1 = [] // 非重复数组
 var arr2 = [] // 存计数数组
@@ -32,6 +32,6 @@ if(arr3.length !== arr2.length){
 }else{
     console.log(true)
 }
-```
-执行用时 :80 ms, 在所有 javascript 提交中击败了13.93%的用户
-内存消耗 :34.7 MB, 在所有 javascript 提交中击败了100.00%的用户
+// ```
+// 执行用时 :80 ms, 在所有 javascript 提交中击败了13.93%的用户
+// 内存消耗 :34.7 MB, 在所有 javascript 提交中击败了100.00%的用户

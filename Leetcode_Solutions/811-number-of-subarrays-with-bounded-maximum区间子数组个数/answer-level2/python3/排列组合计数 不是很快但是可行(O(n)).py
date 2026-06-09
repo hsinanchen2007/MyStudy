@@ -1,14 +1,14 @@
-### 解题思路
-先按照比R大的把A分成几段，每一段长度为$len_i$符合条件的数组数$n_i$为$\frac{len_{i}*(len_{i}+1)}{2}$
-符合这个条件的总数是$large=\sum{n_i}$
+# ### 解题思路
+# 先按照比R大的把A分成几段，每一段长度为$len_i$符合条件的数组数$n_i$为$\frac{len_{i}*(len_{i}+1)}{2}$
+# 符合这个条件的总数是$large=\sum{n_i}$
 
-先按照比L大的把A分成几段，每一段长度为$len_j$符合条件的数组数$n_j$为$\frac{len_{j}*(len_{j}+1)}{2}$
-符合这个条件的总数是$small=\sum{n_j}$
-于是总数就是$n_i - n_J$
+# 先按照比L大的把A分成几段，每一段长度为$len_j$符合条件的数组数$n_j$为$\frac{len_{j}*(len_{j}+1)}{2}$
+# 符合这个条件的总数是$small=\sum{n_j}$
+# 于是总数就是$n_i - n_J$
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def numSubarrayBoundedMax(self, A: List[int], L: int, R: int) -> int:
@@ -34,4 +34,4 @@ class Solution:
         return int(ret-ret2)
         
                  
-```
+# ```

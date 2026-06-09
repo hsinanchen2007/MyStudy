@@ -1,6 +1,6 @@
-具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/404.sum_of_left_leaves)  
+// 具体[见此](https://newdee.gitbook.io/leetcode/leetcode-index/404.sum_of_left_leaves)  
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,7 +25,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-> 执行用时 : 8 ms, 在Sum of Left Leaves的C++提交中击败了93.86% 的用户  
-内存消耗 : 13.6 MB, 在Sum of Left Leaves的C++提交中击败了78.97% 的用户
+// > 执行用时 : 8 ms, 在Sum of Left Leaves的C++提交中击败了93.86% 的用户  
+// 内存消耗 : 13.6 MB, 在Sum of Left Leaves的C++提交中击败了78.97% 的用户

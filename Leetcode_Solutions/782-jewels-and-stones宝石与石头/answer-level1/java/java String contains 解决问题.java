@@ -1,6 +1,6 @@
-java String contains 解决问题
+// java String contains 解决问题
 
-```
+// ```
 class Solution {
     public int numJewelsInStones(String J, String S) {
         int count = 0;
@@ -12,4 +12,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-第一个循环先把val值排到后面，第二个循环计数非val值
-```
+# 第一个循环先把val值排到后面，第二个循环计数非val值
+# ```
 class Solution:
     def removeElement(self, nums: list, val: int) -> int:
         my_count = 0
@@ -12,4 +12,4 @@ class Solution:
                 my_count += 1
 
         return my_count
-```
+# ```

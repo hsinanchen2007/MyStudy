@@ -1,13 +1,13 @@
-### 解题思路
-简单的递归求和，分别求出左子树和右子树的和，然后再加上节点本身的值。求出sum后，用一个map保存全局的sum对应的出现频率。并且用一个maxFrequency保存最大频率。
+// ### 解题思路
+// 简单的递归求和，分别求出左子树和右子树的和，然后再加上节点本身的值。求出sum后，用一个map保存全局的sum对应的出现频率。并且用一个maxFrequency保存最大频率。
 
-求完所有节点的sum值后。遍历map将所有频率与maxFrequency的sum输出(这里使用的是stream的方式，会影响执行时间，可以用普通遍历的方式)。
+// 求完所有节点的sum值后。遍历map将所有频率与maxFrequency的sum输出(这里使用的是stream的方式，会影响执行时间，可以用普通遍历的方式)。
 
-时间复杂度：$O(lgn) + O(n) = O(n)$, 空间复杂度: $O(n)$
+// 时间复杂度：$O(lgn) + O(n) = O(n)$, 空间复杂度: $O(n)$
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return sum;
     }   
 }
-```
+// ```

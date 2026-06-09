@@ -1,6 +1,6 @@
-对大小为k的滑动窗口元素，使用set排序，寻找当前num在集合中的上界upper和下界lower,判断绝对差是否小于等于t。
-注意，C++使用multiset可以保存重复元素，lower_bound仅返回不小于给定key值的最小下标low,其上界为low,下界为low-1。
-```
+// 对大小为k的滑动窗口元素，使用set排序，寻找当前num在集合中的上界upper和下界lower,判断绝对差是否小于等于t。
+// 注意，C++使用multiset可以保存重复元素，lower_bound仅返回不小于给定key值的最小下标low,其上界为low,下界为low-1。
+// ```
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
@@ -14,4 +14,4 @@ public:
         return false;
     }
 };
-```
+// ```

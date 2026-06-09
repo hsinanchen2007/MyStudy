@@ -1,8 +1,8 @@
-### 思路
+// ### 思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -13,10 +13,10 @@ public:
         return cnt;
     }
 };
-```
+// ```
 
-### 另一种写法
-```c++
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -28,4 +28,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

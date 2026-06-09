@@ -1,9 +1,9 @@
-### 解题思路
-递归 记录每个节点的序号，孩子的序号等于父节点序号*2
+// ### 解题思路
+// 递归 记录每个节点的序号，孩子的序号等于父节点序号*2
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ public class Solution {
         return maxWidth;
     }
 }
-```
+// ```

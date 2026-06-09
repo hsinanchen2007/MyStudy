@@ -1,8 +1,8 @@
-定义一个深度优先函数dfs, 返回值是一个元祖（node_count, ancestor)，包括子节点包含的目标节点数量
-如果左右两个子节点中，有一个包括了两个目标节点，返回node_count的值就是2，可以直接返回它对应的ancestor
-否则检查左右包含的节点相加，以及当前节点是否是目标节点之一，然后返回对应的节点统计。
+# 定义一个深度优先函数dfs, 返回值是一个元祖（node_count, ancestor)，包括子节点包含的目标节点数量
+# 如果左右两个子节点中，有一个包括了两个目标节点，返回node_count的值就是2，可以直接返回它对应的ancestor
+# 否则检查左右包含的节点相加，以及当前节点是否是目标节点之一，然后返回对应的节点统计。
 
-```python
+# ```python
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         def dfs(node):
@@ -20,4 +20,4 @@ class Solution:
                 return 2, node
             return cur_count, None
         return dfs(root)[1]
-```
+# ```

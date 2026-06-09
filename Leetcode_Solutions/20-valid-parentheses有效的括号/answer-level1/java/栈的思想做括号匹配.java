@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
         //若字符串为空，则返回true
@@ -32,4 +32,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

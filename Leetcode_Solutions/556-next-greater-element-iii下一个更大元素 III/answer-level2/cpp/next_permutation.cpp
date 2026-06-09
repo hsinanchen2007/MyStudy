@@ -1,8 +1,8 @@
-为什么我自己写的next_permutation比STL的要快。。。
-STL permutation: 4ms
-我的: 0ms 击败了100%
-下面还给了pre_permutation的代码，区别就是有些比较反向了。
-```cpp
+// 为什么我自己写的next_permutation比STL的要快。。。
+// STL permutation: 4ms
+// 我的: 0ms 击败了100%
+// 下面还给了pre_permutation的代码，区别就是有些比较反向了。
+// ```cpp
 class Solution {
 private:
     bool next_permutation1(string& s) {

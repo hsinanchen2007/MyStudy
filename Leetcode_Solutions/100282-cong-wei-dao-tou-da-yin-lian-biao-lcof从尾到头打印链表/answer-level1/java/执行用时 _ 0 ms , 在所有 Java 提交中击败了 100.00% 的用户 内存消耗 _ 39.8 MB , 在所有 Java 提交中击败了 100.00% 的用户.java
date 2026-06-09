@@ -1,5 +1,5 @@
-# 最简单的想法可能是最有效的。。。
-```
+// # 最简单的想法可能是最有效的。。。
+// ```
     public int[] reversePrint(ListNode head) {
 		int listNodeSize = 0;
 		ListNode listNode = head;
@@ -15,4 +15,4 @@
 		}
 		return result;
 	}
-```
+// ```

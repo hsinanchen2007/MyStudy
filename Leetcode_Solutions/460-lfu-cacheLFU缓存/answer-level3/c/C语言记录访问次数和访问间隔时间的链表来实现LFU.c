@@ -1,24 +1,24 @@
-### 解题思路
+// ### 解题思路
 
-花了3个小时。感觉思路不难呀，只是写起来怎么这么费劲。。。  
+// 花了3个小时。感觉思路不难呀，只是写起来怎么这么费劲。。。  
 
-在头节点obj中，key存储缓存中的元素个数，value存储当前缓存的容量。obj后面的才是缓存中的内容。  
-每个链表节点除了key，value分别存储键和值外，还有记录访问次数的freq，记录间隔上一次访问时长的time。next指针指向下一个链表节点。  
-（操作的时候注意freq和time的值更新即可）  
+// 在头节点obj中，key存储缓存中的元素个数，value存储当前缓存的容量。obj后面的才是缓存中的内容。  
+// 每个链表节点除了key，value分别存储键和值外，还有记录访问次数的freq，记录间隔上一次访问时长的time。next指针指向下一个链表节点。  
+// （操作的时候注意freq和time的值更新即可）  
 
-- lFUCacheCreate()函数中，使用循环将分配capacity个链表节点。
+// - lFUCacheCreate()函数中，使用循环将分配capacity个链表节点。
 
-- lFUCacheGet()函数中，循环遍历整个链表，遍历过程中每个节点的time都加1。如果有key则取出值，此时将这个节点的time设置为0，freq加1。
+// - lFUCacheGet()函数中，循环遍历整个链表，遍历过程中每个节点的time都加1。如果有key则取出值，此时将这个节点的time设置为0，freq加1。
 
-- lFUCachePut()函数中，先遍历一遍链表判断key是否在链表中，如果在则更新值value即可（freq和time的更新策略和Get函数中一样）。如果链表中没有key，则下面分两种情况
-    1. 缓存空间未满，需要在缓存空间的末尾加上新的(key, value)。  
-    2. 缓存空间满了，需要找出链表中freq最小的那个元素的位置，如果freq相同，则再比较一下time。找到了则将新的key, value赋给这个链表节点。
+// - lFUCachePut()函数中，先遍历一遍链表判断key是否在链表中，如果在则更新值value即可（freq和time的更新策略和Get函数中一样）。如果链表中没有key，则下面分两种情况
+//     1. 缓存空间未满，需要在缓存空间的末尾加上新的(key, value)。  
+//     2. 缓存空间满了，需要找出链表中freq最小的那个元素的位置，如果freq相同，则再比较一下time。找到了则将新的key, value赋给这个链表节点。
 
-- lFUCacheFree()函数，循环遍历链表，每个节点都要释放空间。
+// - lFUCacheFree()函数，循环遍历链表，每个节点都要释放空间。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct MyLFUCache{
     int key;
     int value;
@@ -107,4 +107,4 @@ void lFUCacheFree(LFUCache* obj) {
     free(obj);
 }
 
-```
+// ```

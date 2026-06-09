@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sumNums(self, n: int) -> int:
         # 递归解法，但是不能if
@@ -15,4 +15,4 @@ class Solution:
         # return n and n + self.sumNums(n-1)
 
         return (pow(n,2)+n)>>1
-```
+# ```

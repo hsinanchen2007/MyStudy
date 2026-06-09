@@ -1,9 +1,9 @@
-### 解题思路
-注意：循环 + 双端，双端则需要防止一开始front和rear就是重叠的
+# ### 解题思路
+# 注意：循环 + 双端，双端则需要防止一开始front和rear就是重叠的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyCircularDeque:
 
     def __init__(self, k: int):
@@ -102,4 +102,4 @@ class MyCircularDeque:
 # param_6 = obj.getRear()
 # param_7 = obj.isEmpty()
 # param_8 = obj.isFull()
-```
+# ```

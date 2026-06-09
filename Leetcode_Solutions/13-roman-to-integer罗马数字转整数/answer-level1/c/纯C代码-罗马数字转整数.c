@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int sum = 0;
     int cur;
@@ -96,4 +96,4 @@ int romanToInt(char * s){
 
     return sum;
 }
-```
+// ```

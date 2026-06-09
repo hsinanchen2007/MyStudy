@@ -1,6 +1,6 @@
-初学算法，经典的双指针问题，让一个指针先走k步，之后快慢指针一起向前，直到链表尾部。
+// 初学算法，经典的双指针问题，让一个指针先走k步，之后快慢指针一起向前，直到链表尾部。
 
-``` java
+// ``` java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
         return slow.next.val;
     }
 }
-```
+// ```

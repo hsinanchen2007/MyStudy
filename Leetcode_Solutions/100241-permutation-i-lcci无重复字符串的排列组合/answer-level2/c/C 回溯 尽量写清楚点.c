@@ -1,4 +1,4 @@
-```
+// ```
 void backTrace(char *S, char *path, char *visited, int len, int depth, char **ret, int *returnSize)
 {
   if(depth == len)
@@ -49,4 +49,4 @@ char** permutation(char* S, int* returnSize)
   return ret;
 }
 
-```
+// ```

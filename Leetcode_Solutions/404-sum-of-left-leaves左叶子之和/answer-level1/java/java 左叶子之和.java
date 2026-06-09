@@ -1,9 +1,9 @@
-### 解题思路
-遍历二叉树的非叶子节点，当左叶子存在时，求和。
+// ### 解题思路
+// 遍历二叉树的非叶子节点，当左叶子存在时，求和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

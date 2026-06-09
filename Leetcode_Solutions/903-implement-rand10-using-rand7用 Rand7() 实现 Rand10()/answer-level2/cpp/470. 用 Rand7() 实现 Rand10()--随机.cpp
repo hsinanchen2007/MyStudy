@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // The rand7() API is already defined for you.
 // int rand7();
 // @return a random integer in the range 1 to 7
@@ -20,4 +20,4 @@ public:
         return 1+(x-1)%10;
     }
 };
-```
+// ```

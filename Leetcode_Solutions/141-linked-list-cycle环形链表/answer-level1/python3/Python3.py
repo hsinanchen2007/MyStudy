@@ -1,4 +1,4 @@
-```
+# ```
 def hasCycle(head):
 	if not head:
 		return False
@@ -9,4 +9,4 @@ def hasCycle(head):
 		if f == s:
 			return True
 	return False
-```
+# ```

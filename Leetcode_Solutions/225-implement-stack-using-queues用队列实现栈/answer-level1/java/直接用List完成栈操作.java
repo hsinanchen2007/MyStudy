@@ -1,9 +1,9 @@
-### 解题思路
- 本地因为考虑到如果用索引记录栈顶,不及时清理掉List可能会导致List越来越大,因此直接用List的操作来完成
+// ### 解题思路
+//  本地因为考虑到如果用索引记录栈顶,不及时清理掉List可能会导致List越来越大,因此直接用List的操作来完成
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     private List<Integer>data; 
@@ -44,4 +44,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

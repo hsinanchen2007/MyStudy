@@ -1,5 +1,5 @@
-C语言实现循环版
-```
+// C语言实现循环版
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
     struct ListNode* cur;
     cur = head;
@@ -12,10 +12,10 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```
 
-递归版
-```
+// 递归版
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
     if(head == NULL || head->next == NULL)
         return head;    
@@ -27,4 +27,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
         return head;
     }
 }
-```
+// ```

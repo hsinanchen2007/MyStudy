@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-  0 = 0, 1 = 1 , 2= 1 + 0
-  利用数组存储计算过的内容   
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+//   0 = 0, 1 = 1 , 2= 1 + 0
+//   利用数组存储计算过的内容   
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         int[] depth = new int[n+1];
@@ -19,4 +19,4 @@ class Solution {
         return depth[n];
     }
 }
-```
+// ```

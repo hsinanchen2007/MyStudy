@@ -1,11 +1,11 @@
 
-> 草图
+// > 草图
 
-![image.png](https://pic.leetcode-cn.com/d0e3528b2a15069e9c2c6b82875152de32d7d91c2baa178508921c9b34b58280-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d0e3528b2a15069e9c2c6b82875152de32d7d91c2baa178508921c9b34b58280-image.png)
 
 
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -60,4 +60,4 @@ class Solution {
         return first.next;
     }
 }
-```
+// ```

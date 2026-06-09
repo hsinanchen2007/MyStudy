@@ -1,9 +1,9 @@
-c语言
-排序+动态规划+二分查找，惊险过关。
-![image.png](https://pic.leetcode-cn.com/c256d6002b8c1c6a192a416bfed3c79703e7d22452689609946ec2e6b82240b7-image.png)
+// c语言
+// 排序+动态规划+二分查找，惊险过关。
+// ![image.png](https://pic.leetcode-cn.com/c256d6002b8c1c6a192a416bfed3c79703e7d22452689609946ec2e6b82240b7-image.png)
 
 
-```
+// ```
 #define MIN(a, b) (a) < (b) ? (a) : (b)
 
 int Cmp(void *a, void *b)
@@ -62,5 +62,5 @@ int respace(char** dictionary, int dictionarySize, char* sentence)
     free(dp);
     return ans;
 }
-```
+// ```
 

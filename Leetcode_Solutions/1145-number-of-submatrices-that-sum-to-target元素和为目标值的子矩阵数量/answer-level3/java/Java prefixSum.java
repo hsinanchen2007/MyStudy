@@ -1,11 +1,11 @@
-### 解题思路
-思路是对于每行，计算prefixSum
+// ### 解题思路
+// 思路是对于每行，计算prefixSum
 
-然后两个for循环遍历所有列，然后计算这两列之间的数量和是否等于target
+// 然后两个for循环遍历所有列，然后计算这两列之间的数量和是否等于target
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numSubmatrixSumTarget(int[][] matrix, int target) {
         int n = matrix.length;
@@ -31,4 +31,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

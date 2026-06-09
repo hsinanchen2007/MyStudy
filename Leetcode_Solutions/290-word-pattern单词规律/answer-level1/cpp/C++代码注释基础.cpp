@@ -1,6 +1,6 @@
-萌新弱鸡，这道题卡了很久，做个易懂的注释提醒自己一下。
+// 萌新弱鸡，这道题卡了很久，做个易懂的注释提醒自己一下。
 
-```
+// ```
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -37,4 +37,4 @@ public:
         return true;
     }
 };
-```
+// ```

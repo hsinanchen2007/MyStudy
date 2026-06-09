@@ -1,8 +1,8 @@
-### 解题思路
-先按气球位置的第一个值对所有气球排序，然后从第二个气球遍历整个vector。具体见下面for循环。
+// ### 解题思路
+// 先按气球位置的第一个值对所有气球排序，然后从第二个气球遍历整个vector。具体见下面for循环。
 
-### 代码
-```
+// ### 代码
+// ```
 bool cmp(const vector<int>& a, const vector<int>& b){
     return a[0]<b[0];
 }
@@ -32,4 +32,4 @@ public:
         return shoot_num;
     }
 };
-```
+// ```

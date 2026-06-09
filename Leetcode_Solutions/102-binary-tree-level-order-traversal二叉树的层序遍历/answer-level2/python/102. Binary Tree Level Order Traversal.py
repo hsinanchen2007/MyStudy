@@ -1,4 +1,4 @@
-```
+# ```
 思路: 
 L = [] # 栈的层级代表该数的层级
 level = 0 # 初始化该level为0
@@ -7,9 +7,9 @@ level = 0 # 初始化该level为0
 - 2. 数据: L[level].append(node.val)
 - 3. 处理左子树, 和1,2步骤一样 唯一不同的是level + 1
 -    处理右子树, 和1,2步骤一样 唯一不同的是level + 1
-```
+# ```
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         traverse(root, 0)
         return L
         
-```
+# ```

@@ -1,16 +1,16 @@
-### 解题思路
-Python的heapq的文档：https://docs.python.org/3.0/library/heapq.html
+# ### 解题思路
+# Python的heapq的文档：https://docs.python.org/3.0/library/heapq.html
 
-1、heapq.heapify可以原地把一个list调整成堆
-2、heapq.heappop可以弹出堆顶，并重新调整
-3、heapq.heappush可以新增元素到堆中
-4、heapq.heapreplace可以替换堆顶元素，并调整下
-5、为了维持为K的大小，初始化的时候可能需要删减，后面需要做处理就是如果不满K个就新增，否则做替换；
-6、heapq其实是对一个list做原地的处理，第一个元素就是最小的，直接返回就是最小的值
+# 1、heapq.heapify可以原地把一个list调整成堆
+# 2、heapq.heappop可以弹出堆顶，并重新调整
+# 3、heapq.heappush可以新增元素到堆中
+# 4、heapq.heapreplace可以替换堆顶元素，并调整下
+# 5、为了维持为K的大小，初始化的时候可能需要删减，后面需要做处理就是如果不满K个就新增，否则做替换；
+# 6、heapq其实是对一个list做原地的处理，第一个元素就是最小的，直接返回就是最小的值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import heapq
 
 
@@ -43,4 +43,4 @@ class KthLargest(object):
             heapq.heapreplace(self.heap, val)
 
         return self.heap[0]
-```
+# ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number[][]} intervals
  * @param {number[]} newInterval
@@ -22,5 +22,5 @@ var insert = function(intervals, newInterval) {
     intervals.splice(i,0,[left,right]);
     return intervals
 };
-```
+// ```
 

@@ -1,6 +1,6 @@
-//一种JS版本的广度优先搜索解法，和官方推荐的思路基本一致。
+// //一种JS版本的广度优先搜索解法，和官方推荐的思路基本一致。
 
-```
+// ```
 var openLock = function (deadends, target) {
     //注意ES5不支持Set、Map等ES6中新增的数据结构。
     let deadSet = new Set(deadends);
@@ -39,10 +39,10 @@ var openLock = function (deadends, target) {
     return -1;
 };
 
-```
+// ```
 
-另外附上TypeScript的版本，TS的可读性我很喜欢：
-```
+// 另外附上TypeScript的版本，TS的可读性我很喜欢：
+// ```
 /**
  * @param {string[]} deadends
  * @param {string} target
@@ -83,6 +83,6 @@ var openLock = function(deadends:string[], target:string) {
     }
     return -1;
 };
-```
+// ```
 
 

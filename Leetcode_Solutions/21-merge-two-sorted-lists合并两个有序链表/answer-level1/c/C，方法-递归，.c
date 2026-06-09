@@ -1,11 +1,11 @@
-### 解题思路
-方法二：递归
-终止条件：当两个链表中有一个链表为NULL则直接返回另外一个链表
-递归方法:判断l1,l2头节点的大小，然后将较小的next指向其余节点的合并结果
+// ### 解题思路
+// 方法二：递归
+// 终止条件：当两个链表中有一个链表为NULL则直接返回另外一个链表
+// 递归方法:判断l1,l2头节点的大小，然后将较小的next指向其余节点的合并结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -126,4 +126,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     return pHeadNode->next;
 }
 */
-```
+// ```

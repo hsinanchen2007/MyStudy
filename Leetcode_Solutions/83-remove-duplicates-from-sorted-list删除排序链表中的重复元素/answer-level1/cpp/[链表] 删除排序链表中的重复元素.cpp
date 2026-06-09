@@ -1,5 +1,5 @@
-见代码
-```
+// 见代码
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -14,4 +14,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```c
+// ```c
 int maxChunksToSorted(int* arr, int arrSize){
     int *arrOrder = malloc(arrSize * sizeof(arr));
     int cal = 0;
@@ -27,4 +27,4 @@ int maxChunksToSorted(int* arr, int arrSize){
     free(arrOrder);
     return cal;
 }
-```
+// ```

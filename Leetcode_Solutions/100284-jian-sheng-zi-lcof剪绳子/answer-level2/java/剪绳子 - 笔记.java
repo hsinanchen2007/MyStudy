@@ -1,9 +1,9 @@
-### 解题思路
-取自大佬：Krahets 的贪心算法，我这里就用java来实现
+// ### 解题思路
+// 取自大佬：Krahets 的贪心算法，我这里就用java来实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     /**
@@ -22,4 +22,4 @@ class Solution {
         else return (int) Math.pow(3, a) * 2;
     }
 }
-```
+// ```

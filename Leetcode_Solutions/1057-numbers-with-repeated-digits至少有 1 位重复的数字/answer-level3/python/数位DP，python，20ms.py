@@ -1,9 +1,9 @@
-### 解题思路
-[@woodnote](/u/woodnote/)借鉴该思路用python完成
+# ### 解题思路
+# [@woodnote](/u/woodnote/)借鉴该思路用python完成
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numDupDigitsAtMostN(self, N):
         """
@@ -49,4 +49,4 @@ class Solution(object):
         return N - count
 
 
-```
+# ```

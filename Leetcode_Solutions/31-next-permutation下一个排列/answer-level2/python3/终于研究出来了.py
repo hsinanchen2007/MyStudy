@@ -1,8 +1,8 @@
 
-题目确实比较难读懂，研究了好久。
+# 题目确实比较难读懂，研究了好久。
 
 
-```python3
+# ```python3
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -34,7 +34,7 @@ class Solution:
             fn_change(nums,n,pos)
             fn_rev(nums,n,pos = pos+1)
         return
-```
+# ```
 
-即便找到了pos，对后面的也要做反转，达到最小的目的。
-另外 如果pos 不返回-1如果为空的话，在写if条件的时候pos为0 和为fale就会混在一起。
+# 即便找到了pos，对后面的也要做反转，达到最小的目的。
+# 另外 如果pos 不返回-1如果为空的话，在写if条件的时候pos为0 和为fale就会混在一起。

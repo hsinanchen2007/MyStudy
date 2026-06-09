@@ -1,5 +1,5 @@
-虽然讲本题最快最优秀的方法是打表，不过反正我们是来练习的，上牛刀也无所谓。
-```
+# 虽然讲本题最快最优秀的方法是打表，不过反正我们是来练习的，上牛刀也无所谓。
+# ```
 class Solution:
     def fib(self, N: int) -> int:
         n = N
@@ -21,4 +21,4 @@ class Solution:
             n = n//2
             fib = multi(fib,fib)
         return a[0][0]
-```
+# ```

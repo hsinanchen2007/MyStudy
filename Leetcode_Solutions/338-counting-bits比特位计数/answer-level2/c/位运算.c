@@ -1,9 +1,9 @@
-### 解题思路
-前面的代码有些冗余，整体的思路是，找出规律，直接套用，比较简单。
+// ### 解题思路
+// 前面的代码有些冗余，整体的思路是，找出规律，直接套用，比较简单。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -42,4 +42,4 @@ int* countBits(int num, int* returnSize){
     *returnSize = i;
     return res;
 }
-```
+// ```

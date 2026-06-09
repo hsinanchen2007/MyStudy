@@ -1,4 +1,4 @@
-```php
+// ```php
 function maxProfit($prices)
     {
         // dp
@@ -25,4 +25,4 @@ function maxProfit($prices)
 
         return $dp_i_0;
     }
-```
+// ```

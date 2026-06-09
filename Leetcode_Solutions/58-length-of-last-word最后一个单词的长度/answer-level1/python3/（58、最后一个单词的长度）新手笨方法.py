@@ -1,6 +1,6 @@
-执行用时 :36 ms, 在所有 Python3 提交中击败了65.20%的用户
-内存消耗 :13.7 M, 在所有 Python3 提交中击败了5.15%的用户
-```
+# 执行用时 :36 ms, 在所有 Python3 提交中击败了65.20%的用户
+# 内存消耗 :13.7 M, 在所有 Python3 提交中击败了5.15%的用户
+# ```
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         if len(s) == 0:
@@ -12,4 +12,4 @@ class Solution:
                 break
             j += 1
         return j
-```
+# ```

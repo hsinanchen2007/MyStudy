@@ -1,5 +1,5 @@
-1. 优先级队列
-```
+// 1. 优先级队列
+// ```
 type PriorityQueue []*ListNode 
 func (p PriorityQueue) Len() int { return len(p) }
 func (p PriorityQueue) Swap(i, j int) { p[i], p[j] = p[j], p[i]}
@@ -38,11 +38,11 @@ func mergeKLists(lists []*ListNode) *ListNode {
     }
     return h.Next
 }
-```
+// ```
 
-1. 递归
+// 1. 递归
 
-```
+// ```
 func mergeKLists(lists []*ListNode) *ListNode {
     for i := 0 ; i < len(lists); i++ {
         if  nil == lists[i] {
@@ -66,4 +66,4 @@ func mergeKLists(lists []*ListNode) *ListNode {
     res.Next = mergeKLists(lists)
     return res
 }
-```
+// ```

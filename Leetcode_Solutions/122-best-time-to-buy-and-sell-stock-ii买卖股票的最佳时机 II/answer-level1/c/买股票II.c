@@ -1,9 +1,9 @@
-### 解题思路
-关键在于最后一天 如果还持有，则要卖；
+// ### 解题思路
+// 关键在于最后一天 如果还持有，则要卖；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     //I中用了历史最低点的方法
     //II中则分成了多个子数组
@@ -34,4 +34,4 @@ int maxProfit(int* prices, int pricesSize){
     return prosum;
 
 }
-```
+// ```

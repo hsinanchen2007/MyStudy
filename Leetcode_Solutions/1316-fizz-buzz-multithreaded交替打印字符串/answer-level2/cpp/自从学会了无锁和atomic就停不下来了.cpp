@@ -1,4 +1,4 @@
-```
+// ```
 class FizzBuzz {
 private:
     enum class Status {
@@ -78,4 +78,4 @@ public:
         }
     }
 };
-```
+// ```

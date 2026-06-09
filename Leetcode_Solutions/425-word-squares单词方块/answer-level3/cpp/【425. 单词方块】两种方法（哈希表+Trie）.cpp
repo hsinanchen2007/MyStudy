@@ -1,6 +1,6 @@
-## 思路一：哈希表
-### 代码
-```c++
+// ## 思路一：哈希表
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<vector<string>> wordSquares(vector<string>& words) {
@@ -40,11 +40,11 @@ public:
         }
     }
 };
-```
+// ```
 
-## 思路二：Trie
-### 代码
-```c++
+// ## 思路二：Trie
+// ### 代码
+// ```c++
 class Solution {
 public:
     struct TrieNode {
@@ -101,5 +101,5 @@ public:
         }
     }
 };
-```
+// ```
 

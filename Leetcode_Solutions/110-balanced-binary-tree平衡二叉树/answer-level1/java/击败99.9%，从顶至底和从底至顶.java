@@ -1,9 +1,9 @@
-### 解题思路
-从顶至底和从底至顶两种解法。从顶至底相对来讲很直观，每个node判断一遍就可以了。从底至顶需要创建一个计算最大高度的方法，如果left和right相差大于1就返回-1。
+// ### 解题思路
+// 从顶至底和从底至顶两种解法。从顶至底相对来讲很直观，每个node判断一遍就可以了。从底至顶需要创建一个计算最大高度的方法，如果left和right相差大于1就返回-1。
 
-### 代码
-从顶至底
-```
+// ### 代码
+// 从顶至底
+// ```
 public boolean isBalanced(TreeNode root) {
     if(root == null) return true;
     if(Math.abs(check(root.left)-check(root.right))>1) return false; //判断关键
@@ -15,13 +15,13 @@ public int check(TreeNode root){
     int longest = Math.max(check(root.left),check(root.right))+1;
     return longest;
 }
-```
+// ```
 
 
 
 
-从底至顶
-```
+// 从底至顶
+// ```
 public boolean isBalanced(TreeNode root) {
     return recur(root) != -1;
 }
@@ -38,4 +38,4 @@ private int recur(TreeNode root) {
     if(Math.abs(left_value-right_value)>1) return -1;
     return Math.max(left_value,right_value)+1;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         result = []
@@ -17,4 +17,4 @@ class Solution:
         back(nums,result,path,0)
         return result
             
-```
+# ```

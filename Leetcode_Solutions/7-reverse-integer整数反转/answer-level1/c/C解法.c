@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![abc.jpg](https://pic.leetcode-cn.com/a1196a322e83f03ddf88fa2d04a9bdb4d71fa80e63fe7ddcd95e2244ea021bb9-abc.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![abc.jpg](https://pic.leetcode-cn.com/a1196a322e83f03ddf88fa2d04a9bdb4d71fa80e63fe7ddcd95e2244ea021bb9-abc.jpg)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdio.h>
 
 #define INT_MAX 2147483647  //2147483647
@@ -31,4 +31,4 @@ int reverse(int x)
     return temp;
 }
 
-```
+// ```

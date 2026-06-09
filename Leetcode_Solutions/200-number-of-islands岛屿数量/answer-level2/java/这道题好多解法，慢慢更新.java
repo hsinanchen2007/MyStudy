@@ -1,9 +1,9 @@
-### 解题思路
-BFS，DFS，并查集。
+// ### 解题思路
+// BFS，DFS，并查集。
 
-### 代码
-BFS版本：
-```java
+// ### 代码
+// BFS版本：
+// ```java
 class NodeIndex {
     int x, y;
 
@@ -59,10 +59,10 @@ class Solution {
         return nextX >= 0 && nextX < n && nextY >= 0 && nextY < m;
     }
 }
-```
+// ```
 
-DFS版本：
-```java
+// DFS版本：
+// ```java
 class Solution {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
@@ -107,11 +107,11 @@ class Solution {
         return nextX >= 0 && nextX < n && nextY >= 0 && nextY < m;
     }
 }
-```
+// ```
 
 
-并查集版本：
-```java
+// 并查集版本：
+// ```java
 class UF{
 
     private int[] parent;
@@ -184,4 +184,4 @@ class Solution {
         return set.size();
     }
 }
-```
+// ```

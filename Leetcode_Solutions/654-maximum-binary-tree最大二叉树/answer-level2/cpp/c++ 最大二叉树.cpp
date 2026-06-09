@@ -1,9 +1,9 @@
-### 解题思路
-利用max_element()函数找到指向最大值的迭代器，将原数组分为左右两边，递归。
+// ### 解题思路
+// 利用max_element()函数找到指向最大值的迭代器，将原数组分为左右两边，递归。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return node;
     }
 };
-```
+// ```

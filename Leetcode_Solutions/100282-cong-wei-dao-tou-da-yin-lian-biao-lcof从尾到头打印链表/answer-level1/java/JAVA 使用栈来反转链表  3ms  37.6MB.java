@@ -1,6 +1,6 @@
-因为给出得链表是单向得，所以我就使用了栈来暂存一下取出来得节点，这样就可以保证反序了
+// 因为给出得链表是单向得，所以我就使用了栈来暂存一下取出来得节点，这样就可以保证反序了
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,4 +24,4 @@ class Solution {
         return res;    
     }
 }
-```
+// ```

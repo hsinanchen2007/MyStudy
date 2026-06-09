@@ -1,5 +1,5 @@
-执行用时36ms，内存消耗13.9MB
-```
+# 执行用时36ms，内存消耗13.9MB
+# ```
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         n = len(nums)
@@ -12,4 +12,4 @@ class Solution:
                 i += 1
         return n
 
-```
+# ```

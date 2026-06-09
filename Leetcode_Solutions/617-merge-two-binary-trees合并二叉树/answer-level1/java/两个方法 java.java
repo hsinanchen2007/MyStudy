@@ -1,4 +1,4 @@
-```java
+// ```java
 // 617. 合并二叉树
 /**
  * Definition for a binary tree node.
@@ -37,4 +37,4 @@ class Solution {
         return t1;
     }
 }
-```java
+// ```java

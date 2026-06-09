@@ -1,8 +1,8 @@
-### 解题思路
-    打卡学习 ~ ~ ~
-### 代码
+// ### 解题思路
+//     打卡学习 ~ ~ ~
+// ### 代码
 
-```cpp
+// ```cpp
 /*暴力做法*/
 class Solution {
 public:
@@ -41,4 +41,4 @@ public:
         return minlen == INT_MAX ? 0 : minlen;
     }
 };
-```
+// ```

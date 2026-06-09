@@ -1,7 +1,7 @@
-####  方法1：DFS + 回溯
-**代码：**
+# ####  方法1：DFS + 回溯
+# **代码：**
 
-```python []
+# ```python []
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:
         # 对于任意一个字母都有选和不选两个选项；
@@ -26,4 +26,4 @@ class Solution:
 
         find(set())
         return self.count
-```
+# ```

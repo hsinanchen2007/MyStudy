@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     //递归求解
@@ -10,4 +10,4 @@ public:
         return left_depth>right_depth ? left_depth:right_depth; //最后比较 取较大的那个
     }
 };
-```
+// ```

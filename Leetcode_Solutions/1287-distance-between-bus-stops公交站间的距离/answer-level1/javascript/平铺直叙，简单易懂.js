@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-因为是个环，所以需要考虑正向和逆向。
+// 因为是个环，所以需要考虑正向和逆向。
 
-1.算出总距离
-2. 调整参数，先算正向
-3. 总距离减正向得逆向
-4. 取正逆最小者，即为解
+// 1.算出总距离
+// 2. 调整参数，先算正向
+// 3. 总距离减正向得逆向
+// 4. 取正逆最小者，即为解
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var distanceBetweenBusStops = function (distance, start, destination) {
    //算出总数
   let total = distance.reduce((sum, cur) => sum + cur, 0)
@@ -28,4 +28,4 @@ var distanceBetweenBusStops = function (distance, start, destination) {
   return Math.min(forward,backword)
 };
 
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2562fd26bdb001bc7d47871e12bc5e0a17cb6199c77e06ac75e826e605d873e8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2562fd26bdb001bc7d47871e12bc5e0a17cb6199c77e06ac75e826e605d873e8-image.png)
 
 
-```
+# ```
 from typing import List
 from collections import Counter
 
@@ -69,4 +69,4 @@ print(Solution().maxScoreWords(
 words = ["dog","cat","dad","good"], letters = ["a","a","c","d","d","d","g","o","o"], score = [1,0,9,5,0,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]
 
 ))
-```
+# ```

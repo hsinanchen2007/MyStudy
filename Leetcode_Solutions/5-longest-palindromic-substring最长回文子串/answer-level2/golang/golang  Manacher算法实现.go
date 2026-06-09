@@ -1,7 +1,7 @@
-【转】Manacher算法的详细讲解 - 简书 https://www.jianshu.com/p/116aa58b7d81
-相似的Golang实现
+// 【转】Manacher算法的详细讲解 - 简书 https://www.jianshu.com/p/116aa58b7d81
+// 相似的Golang实现
 
-```
+// ```
 import "fmt"
 func longestPalindrome(s string) string {
     n:=len(s)
@@ -70,4 +70,4 @@ func Min(x, y int) int {
     }
     return y
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //就是将数值的数位分割后单独相乘
     public String multiply(String num1, String num2) {
@@ -51,11 +51,11 @@ class Solution {
     
    
 }
-```
+// ```
 
 
-另外一种使用list来求解
-```
+// 另外一种使用list来求解
+// ```
 class Solution {
     //就是将数值的数位分割后单独相乘
     public String multiply(String num1, String num2) {
@@ -96,4 +96,4 @@ class Solution {
     }
 
 }
-```
+// ```

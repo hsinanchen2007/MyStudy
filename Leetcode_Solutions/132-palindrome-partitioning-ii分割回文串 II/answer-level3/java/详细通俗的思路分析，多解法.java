@@ -1,18 +1,18 @@
-# 题目描述（困难难度）
+// # 题目描述（困难难度）
 
-![](https://pic.leetcode-cn.com/5ec72c62a7f3f9f68d3fb33c67859c196bffe81f520b860537f81dd3db2fb59d.jpg)
+// ![](https://pic.leetcode-cn.com/5ec72c62a7f3f9f68d3fb33c67859c196bffe81f520b860537f81dd3db2fb59d.jpg)
 
-和 [131 题](<https://leetcode.wang/leetcode-131-Palindrome-Partitioning.html>) 一样，可以在任意位置切割字符串，需要保证切割后的每个子串都是回文串。问最少需要切割几次。
+// 和 [131 题](<https://leetcode.wang/leetcode-131-Palindrome-Partitioning.html>) 一样，可以在任意位置切割字符串，需要保证切割后的每个子串都是回文串。问最少需要切割几次。
 
-和 [131 题](<https://leetcode.wang/leetcode-131-Palindrome-Partitioning.html>)  用相同的分析方法即可。
+// 和 [131 题](<https://leetcode.wang/leetcode-131-Palindrome-Partitioning.html>)  用相同的分析方法即可。
 
-# 解法一 分治
+// # 解法一 分治
 
-大问题化小问题，利用小问题的结果，解决当前大问题。
+// 大问题化小问题，利用小问题的结果，解决当前大问题。
 
-举个例子。
+// 举个例子。
 
-```java
+// ```java
 aabb
 先考虑在第 1 个位置切割，a | abb
 这样我们只需要知道 abb 的最小切割次数，然后加 1，记为 m1
@@ -31,13 +31,13 @@ aabb
 因为 aabb 不是回文串，所有直接跳过
 
 此时只需要比较 m1 和 m2 的大小，选一个较小的即可。
-```
+// ```
 
-然后中间的过程求 `abb` 的最小切割次数，求 `aab` 的最小切割次数等等，就可以递归的去求。递归出口的话，如果字符串的长度为 `1`,那么它就是回文串了，最小切割次数就是 `0` 。
+// 然后中间的过程求 `abb` 的最小切割次数，求 `aab` 的最小切割次数等等，就可以递归的去求。递归出口的话，如果字符串的长度为 `1`,那么它就是回文串了，最小切割次数就是 `0` 。
 
-此外，和 [131 题](<https://leetcode.wang/leetcode-131-Palindrome-Partitioning.html>) 一样，我们用一个 `dp` 把每个子串是否是回文串，提前存起来。
+// 此外，和 [131 题](<https://leetcode.wang/leetcode-131-Palindrome-Partitioning.html>) 一样，我们用一个 `dp` 把每个子串是否是回文串，提前存起来。
 
-```java
+// ```java
 public int minCut(String s) {
     boolean[][] dp = new boolean[s.length()][s.length()];
     int length = s.length();
@@ -66,15 +66,15 @@ private int minCutHelper(String s, int start, boolean[][] dp) {
     }
     return min;
 }
-```
+// ```
 
-意料之中，超时了。
+// 意料之中，超时了。
 
-![](https://pic.leetcode-cn.com/50646f1f3d72374071697502bef4e256de778fecb40a2ebda126c27a5b2cd08e.jpg)
+// ![](https://pic.leetcode-cn.com/50646f1f3d72374071697502bef4e256de778fecb40a2ebda126c27a5b2cd08e.jpg)
 
-优化方法的话，`memoization` 技术，前边很多题都用到了，比如 [87 题](<https://leetcode.wang/leetCode-87-Scramble-String.html?h=memoization>)，[91 题](<https://leetcode.wang/leetcode-91-Decode-Ways.html?h=memoization>) 等等。就是为了解决递归过程中重复解的计算，典型例子比如斐波那契数列。用一个 `map` ，把递归过程中的结果存储起来。
+// 优化方法的话，`memoization` 技术，前边很多题都用到了，比如 [87 题](<https://leetcode.wang/leetCode-87-Scramble-String.html?h=memoization>)，[91 题](<https://leetcode.wang/leetcode-91-Decode-Ways.html?h=memoization>) 等等。就是为了解决递归过程中重复解的计算，典型例子比如斐波那契数列。用一个 `map` ，把递归过程中的结果存储起来。
 
-```java
+// ```java
 public int minCut(String s) {
     boolean[][] dp = new boolean[s.length()][s.length()];
     int length = s.length();
@@ -106,62 +106,62 @@ private int minCutHelper(String s, int start, boolean[][] dp, HashMap<Integer, I
     map.put(start, min);
     return min;
 }
-```
+// ```
 
-接下来还是一样的讨论，既然用到了 `memoization` 技术，一定就可以把它改写为动态规划，让我们理一下递归的思路。
+// 接下来还是一样的讨论，既然用到了 `memoization` 技术，一定就可以把它改写为动态规划，让我们理一下递归的思路。
 
-![](https://pic.leetcode-cn.com/4d579417cae326bd4c45a2db507a09fcb630abce38bbb5723af0bbb0ef2f6af1.jpg)
+// ![](https://pic.leetcode-cn.com/4d579417cae326bd4c45a2db507a09fcb630abce38bbb5723af0bbb0ef2f6af1.jpg)
 
-如上图，图中 `a,b,c,d` 表示括起来的字符串的最小切割次数。此时需要求问号处括起来的字符串的最小切割次数。
+// 如上图，图中 `a,b,c,d` 表示括起来的字符串的最小切割次数。此时需要求问号处括起来的字符串的最小切割次数。
 
-对应于代码中的下边这一部分了。
+// 对应于代码中的下边这一部分了。
 
-```java
+// ```java
 int min = Integer.MAX_VALUE;
 for (int i = start; i < s.length(); i++) {
     if (dp[start][i]) {
         min = Math.min(min, 1 + minCutHelper(s, i + 1, dp, map));
     }
 }
-```
+// ```
 
-如下图，先判断 `start` 到 `i` 是否是回文串，如果是的话，就用 `1 + d` 和之前的 `min` 比较。
+// 如下图，先判断 `start` 到 `i` 是否是回文串，如果是的话，就用 `1 + d` 和之前的 `min` 比较。
 
-![](https://pic.leetcode-cn.com/556aa350322b1b23dbe49d339d4cf5f9c9745baf757559315ec2ee74cb418d6b.jpg)
+// ![](https://pic.leetcode-cn.com/556aa350322b1b23dbe49d339d4cf5f9c9745baf757559315ec2ee74cb418d6b.jpg)
 
-如下图，`i` 后移，继续判断 `start` 到 `i` 是否是回文串，如果是的话，就用 `1 + c` 和之前的 `min` 比较。
+// 如下图，`i` 后移，继续判断 `start` 到 `i` 是否是回文串，如果是的话，就用 `1 + c` 和之前的 `min` 比较。
 
-![](https://pic.leetcode-cn.com/a7dbfc3cd0d37d0fdf2b55a32033d8669a8d98c86ce49ae1eaa7c90fc3d4046a.jpg)
+// ![](https://pic.leetcode-cn.com/a7dbfc3cd0d37d0fdf2b55a32033d8669a8d98c86ce49ae1eaa7c90fc3d4046a.jpg)
 
-然后 `i` 继续后移重复上边的过程。每次选一个较小的切割次数，最后问号处就求出来了。
+// 然后 `i` 继续后移重复上边的过程。每次选一个较小的切割次数，最后问号处就求出来了。
 
-接着 `start` 继续前移，重复上边的过程，直到求出 `start` 等于 `0` 的最小切割次数就是我们要找的了。
+// 接着 `start` 继续前移，重复上边的过程，直到求出 `start` 等于 `0` 的最小切割次数就是我们要找的了。
 
-仔细考虑下上边的状态，其实状态转移方程也就出来了。
+// 仔细考虑下上边的状态，其实状态转移方程也就出来了。
 
-用 `dp[i]` 表示字符串 `s[i,s.lenght-1]`，也就是从 `i` 开始到末尾的字符串的最小切割次数。
+// 用 `dp[i]` 表示字符串 `s[i,s.lenght-1]`，也就是从 `i` 开始到末尾的字符串的最小切割次数。
 
-求 `dp[i]` 的话，假设 `s[i,j]` 是回文串。
+// 求 `dp[i]` 的话，假设 `s[i,j]` 是回文串。
 
-那么 `dp[i] = Min(min,dp[j + 1])`.
+// 那么 `dp[i] = Min(min,dp[j + 1])`.
 
-然后考虑所有的 `j`，其中 `j > i` ，找出最小的即可。
+// 然后考虑所有的 `j`，其中 `j > i` ，找出最小的即可。
 
-当然上边的动态规划和递归的方向是一样的，也没什么毛病。不过我们也可以逆过来，从左往右求。
+// 当然上边的动态规划和递归的方向是一样的，也没什么毛病。不过我们也可以逆过来，从左往右求。
 
-![](https://pic.leetcode-cn.com/791ad9985bbc51360630d408a046eb5bd7ef981094ab3bccb4654eae3b7ef189.jpg)
+// ![](https://pic.leetcode-cn.com/791ad9985bbc51360630d408a046eb5bd7ef981094ab3bccb4654eae3b7ef189.jpg)
 
-这样的话，用 `dp[i]` 表示字符串 `s[0,i]`，也就是从开头到 `i` 的字符串的最小切割次数。
+// 这样的话，用 `dp[i]` 表示字符串 `s[0,i]`，也就是从开头到 `i` 的字符串的最小切割次数。
 
-求 `dp[i]` 的话，假设 `s[j,i]` 是回文串。
+// 求 `dp[i]` 的话，假设 `s[j,i]` 是回文串。
 
-那么 `dp[i] = Min(min,dp[j - 1])`.
+// 那么 `dp[i] = Min(min,dp[j - 1])`.
 
-然后考虑所有的 `j`，也就是 `j = i, j = i - 1, j =  i - 2, j = i - 3....` ，其中 `j < i` ，找出最小的即可。
+// 然后考虑所有的 `j`，也就是 `j = i, j = i - 1, j =  i - 2, j = i - 3....` ，其中 `j < i` ，找出最小的即可。
 
-之前代码用过 `dp` 变量了，所以用 `min` 变量表示上边的 `dp`。
+// 之前代码用过 `dp` 变量了，所以用 `min` 变量表示上边的 `dp`。
 
-```java
+// ```java
 public int minCut(String s) {
     boolean[][] dp = new boolean[s.length()][s.length()];
     int length = s.length();
@@ -192,11 +192,11 @@ public int minCut(String s) {
     }
     return min[s.length() - 1];
 }
-```
+// ```
 
-当然我们可以优化一下，注意到求 `dp` 和 求 `min` 的时候都用到了两个 `for` 循环，同样都是根据前边的状态更新当前的状态，所以我们可以把他们糅合在一起。
+// 当然我们可以优化一下，注意到求 `dp` 和 求 `min` 的时候都用到了两个 `for` 循环，同样都是根据前边的状态更新当前的状态，所以我们可以把他们糅合在一起。
 
-```java
+// ```java
 public int minCut(String s) {
     boolean[][] dp = new boolean[s.length()][s.length()];
     int[] min = new int[s.length()];
@@ -219,15 +219,15 @@ public int minCut(String s) {
     return min[s.length() - 1];
 
 }
-```
+// ```
 
-# 解法二 回溯
+// # 解法二 回溯
 
-回溯法其实就是一个 `dfs` 的过程。在当前字符串找到第一个回文串的位置，然后切割。剩余的字符串进入递归，继续找回文串的位置，然后切割。直到剩余的字符串本身已经是一个回文串了，就记录已经切过的次数。
+// 回溯法其实就是一个 `dfs` 的过程。在当前字符串找到第一个回文串的位置，然后切割。剩余的字符串进入递归，继续找回文串的位置，然后切割。直到剩余的字符串本身已经是一个回文串了，就记录已经切过的次数。
 
-可以用一个全局变量，保存已经切过的次数，然后到最后更新。
+// 可以用一个全局变量，保存已经切过的次数，然后到最后更新。
 
-```java
+// ```java
 public int minCut(String s) {
     boolean[][] dp = new boolean[s.length()][s.length()];
     int length = s.length();
@@ -258,27 +258,27 @@ private void minCutHelper(String s, int start, boolean[][] dp, int num) {
     }
 }
 
-```
+// ```
 
-同样出现了超时的问题。
+// 同样出现了超时的问题。
 
-![](https://pic.leetcode-cn.com/50646f1f3d72374071697502bef4e256de778fecb40a2ebda126c27a5b2cd08e.jpg)
+// ![](https://pic.leetcode-cn.com/50646f1f3d72374071697502bef4e256de778fecb40a2ebda126c27a5b2cd08e.jpg)
 
-我们可以像解法一一样优化一下，用一个 `map` 存一下递归过程的中的解。那么问题来了，解法一是把返回值存了起来，但是这个解法并没有返回值，那么我们存什么呢？和 [115 题](<https://leetcode.wang/leetcode-115-Distinct-Subsequences.html>) 一样，存增量。什么意思呢？
+// 我们可以像解法一一样优化一下，用一个 `map` 存一下递归过程的中的解。那么问题来了，解法一是把返回值存了起来，但是这个解法并没有返回值，那么我们存什么呢？和 [115 题](<https://leetcode.wang/leetcode-115-Distinct-Subsequences.html>) 一样，存增量。什么意思呢？
 
-我们知道 `minCutHelper`函数是计算了从 `start` 开始的字符串，全部切割完成后还需要切割的次数，并且当前已经切割了 `num` 次。也就是执行完下边的 `for` 循环后，如果全局变量`min` 更新了，那么多切割的次数就是 `min - num`，我们把它存起来就可以了。如果 `min` 没更新，那就不用管了。
+// 我们知道 `minCutHelper`函数是计算了从 `start` 开始的字符串，全部切割完成后还需要切割的次数，并且当前已经切割了 `num` 次。也就是执行完下边的 `for` 循环后，如果全局变量`min` 更新了，那么多切割的次数就是 `min - num`，我们把它存起来就可以了。如果 `min` 没更新，那就不用管了。
 
-```java
+// ```java
 for (int i = start; i < s.length() - 1; i++) {
     if (dp[start][i]) {
         minCutHelper(s, i + 1, dp, num + 1);
     }
 }
-```
+// ```
 
-这样只需要在进入递归前，判断之前有没有算过从 `start` 开始的字符串所带来的增量即可。
+// 这样只需要在进入递归前，判断之前有没有算过从 `start` 开始的字符串所带来的增量即可。
 
-```java
+// ```java
 public int minCut(String s) {
     boolean[][] dp = new boolean[s.length()][s.length()];
     int length = s.length();
@@ -319,17 +319,17 @@ private void minCutHelper(String s, int start, boolean[][] dp, int num, HashMap<
         map.put(start, min - num);
     }
 }
-```
+// ```
 
-# 解法三
+// # 解法三
 
-上边的解法是一些通用的思考方式，针对这道题还有一种解法，在 [这里](<https://leetcode.com/problems/palindrome-partitioning-ii/discuss/42198/My-solution-does-not-need-a-table-for-palindrome-is-it-right-It-uses-only-O(n)-space.>) 看到的，也分享一下吧。
+// 上边的解法是一些通用的思考方式，针对这道题还有一种解法，在 [这里](<https://leetcode.com/problems/palindrome-partitioning-ii/discuss/42198/My-solution-does-not-need-a-table-for-palindrome-is-it-right-It-uses-only-O(n)-space.>) 看到的，也分享一下吧。
 
-同样也是动态规划的思路，用 `dp[i]` 表示字符串 `s[0,i]`，也就是从开头到 `i` 的字符串的最小切割次数。相比于之前更新 `dp` 的方式，这里的话把之前存储每个子串是否是回文串的空间省去了。
+// 同样也是动态规划的思路，用 `dp[i]` 表示字符串 `s[0,i]`，也就是从开头到 `i` 的字符串的最小切割次数。相比于之前更新 `dp` 的方式，这里的话把之前存储每个子串是否是回文串的空间省去了。
 
-基本思想就是遍历每个字符，以当前字符为中心向两边扩展，判断扩展出来的是否回文串，比如下边的例子。
+// 基本思想就是遍历每个字符，以当前字符为中心向两边扩展，判断扩展出来的是否回文串，比如下边的例子。
 
-```java
+// ```java
 0 1 2 3 4 5 6
 c f d a d f e
       ^
@@ -343,13 +343,13 @@ dp[5] = Min(dp[5],dp[0] + 1);
 也就是在当前回文串前边切一刀
 
 然后继续扩展，直到当前不再是回文串，把中心往后移动，考虑以 d 为中心，继续更新 dp
-```
+// ```
 
-当然上边是回文串为奇数的情况，我们还需要考虑以当前字符为中心的偶数的情况，是一样的道理。
+// 当然上边是回文串为奇数的情况，我们还需要考虑以当前字符为中心的偶数的情况，是一样的道理。
 
-可以参考下边的代码。
+// 可以参考下边的代码。
 
-```java
+// ```java
 public int minCut(String s) {
     int[] dp = new int[s.length()];
     int n = s.length();
@@ -403,10 +403,10 @@ public int minCut(String s) {
     }
     return dp[n - 1];
 }
-```
+// ```
 
-# 总
+// # 总
 
-前边的解法还是很常规，从递归到动态规划，利用分治或者回溯，以及 `memoization` 技术，经常用到了。最后一个解法，边找回文串边更新 `dp` ，从而降低了空间复杂度，也是很妙了。
+// 前边的解法还是很常规，从递归到动态规划，利用分治或者回溯，以及 `memoization` 技术，经常用到了。最后一个解法，边找回文串边更新 `dp` ，从而降低了空间复杂度，也是很妙了。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

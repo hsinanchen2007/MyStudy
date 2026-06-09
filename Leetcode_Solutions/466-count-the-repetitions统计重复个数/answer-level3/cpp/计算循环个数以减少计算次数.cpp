@@ -1,10 +1,10 @@
-### 解题思路
-首先认识到,最后的结果肯定是由n1个s1组成的字符串中存在的最多的s2子串组成,然后题目就是计算[s1,n1]中s2最多的个数
-，总个数 nums=[head]+[loop]+[tail]
+// ### 解题思路
+// 首先认识到,最后的结果肯定是由n1个s1组成的字符串中存在的最多的s2子串组成,然后题目就是计算[s1,n1]中s2最多的个数
+// ，总个数 nums=[head]+[loop]+[tail]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int getMaxRepetitions(std::string s1, int n1, std::string s2, int n2) {
@@ -62,4 +62,4 @@ int getMaxRepetitions(std::string s1, int n1, std::string s2, int n2) {
 	return sum / n2;
 }
 };
-```
+// ```

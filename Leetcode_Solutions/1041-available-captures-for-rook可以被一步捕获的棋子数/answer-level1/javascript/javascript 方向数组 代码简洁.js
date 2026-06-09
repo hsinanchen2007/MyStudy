@@ -1,6 +1,6 @@
-此题就是考察大家的编程基本功的，根据题意，以 R 为起点进行四连通遍历检索，注意这里使用了 dx, dy 来限制每次只能向单一方向递进
+// 此题就是考察大家的编程基本功的，根据题意，以 R 为起点进行四连通遍历检索，注意这里使用了 dx, dy 来限制每次只能向单一方向递进
 
-```javascript
+// ```javascript
 /**
  * 999. Available Captures for Rook
  * https://leetcode-cn.com/problems/available-captures-for-rook/
@@ -27,4 +27,4 @@ const numRookCaptures = (board) => {
 
   return count
 }
-```
+// ```

@@ -1,8 +1,8 @@
-$n=rowIndex+1$
+// $n=rowIndex+1$
 
-$S_{r=1}^{n/2}|C_{n-1}^{r}= \frac{A_{n-1}^{r}}{r!}=\frac{(n-1)!}{r!(n-1-r)!}=\prod_{r=1}^{n/2}\frac{n-r}{r}$
+// $S_{r=1}^{n/2}|C_{n-1}^{r}= \frac{A_{n-1}^{r}}{r!}=\frac{(n-1)!}{r!(n-1-r)!}=\prod_{r=1}^{n/2}\frac{n-r}{r}$
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -31,4 +31,4 @@ int* getRow(int rowIndex, int* returnSize) {
     }
     return result;
 }
-```
+// ```

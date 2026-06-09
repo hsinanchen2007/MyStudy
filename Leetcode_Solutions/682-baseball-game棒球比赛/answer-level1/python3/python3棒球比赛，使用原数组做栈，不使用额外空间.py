@@ -1,5 +1,5 @@
-用pre1指向当前位置，pre2指向栈顶。
-```
+# 用pre1指向当前位置，pre2指向栈顶。
+# ```
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
         pre1=0
@@ -24,5 +24,5 @@ class Solution:
                 total+=ops[pre2]
             pre1+=1
         return total
-```
-![image.png](https://pic.leetcode-cn.com/5d7eb64c1b6fd37d364523e67442fe0865dae229a9c5f8a20180a78d8ad1ee25-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/5d7eb64c1b6fd37d364523e67442fe0865dae229a9c5f8a20180a78d8ad1ee25-image.png)

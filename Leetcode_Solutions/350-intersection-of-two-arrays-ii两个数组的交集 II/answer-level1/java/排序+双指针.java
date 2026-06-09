@@ -1,9 +1,9 @@
-### 解题思路
-数组问题：排序+其他算法（双指针、二分法等）基本解决运行速度都比较可观
+// ### 解题思路
+// 数组问题：排序+其他算法（双指针、二分法等）基本解决运行速度都比较可观
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
@@ -28,4 +28,4 @@ class Solution {
         return  Arrays.copyOf(result,i);       
     }
 }
-```
+// ```

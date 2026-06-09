@@ -1,9 +1,9 @@
-### 解题思路
-位运算
+// ### 解题思路
+// 位运算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         int mark = 0;
@@ -18,4 +18,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

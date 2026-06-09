@@ -1,10 +1,10 @@
-### 解题思路
-主要存储需要翻转链表的前一个节点以及后一个节点。
-将链表翻转之后，对链表进行连接
+// ### 解题思路
+// 主要存储需要翻转链表的前一个节点以及后一个节点。
+// 将链表翻转之后，对链表进行连接
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
@@ -49,4 +49,4 @@ class Solution {
 
     }
 }
-```
+// ```

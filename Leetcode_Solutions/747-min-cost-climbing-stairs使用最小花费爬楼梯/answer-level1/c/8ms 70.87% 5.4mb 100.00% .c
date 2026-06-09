@@ -1,9 +1,9 @@
-### 解题思路
-为什么我这个代码用了malloc反而是在时间上比较慢，空间上省内存？
+// ### 解题思路
+// 为什么我这个代码用了malloc反而是在时间上比较慢，空间上省内存？
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minCostClimbingStairs(int* cost, int costSize){
     int *stages=(int*)malloc(costSize*sizeof(int));
     stages[0]=cost[0];
@@ -17,4 +17,4 @@ int minCostClimbingStairs(int* cost, int costSize){
     free(stages);
     return ans;
 }
-```
+// ```

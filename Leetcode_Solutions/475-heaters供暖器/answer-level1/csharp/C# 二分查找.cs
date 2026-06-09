@@ -1,9 +1,9 @@
-### 解题思路
-C# 二分查找
+// ### 解题思路
+// C# 二分查找
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 //二分查找法，根据求每一个屋子的离加热器的最近的位置,然后取最大值
         public int FindRadius(int[] houses, int[] heaters)
         {
@@ -56,4 +56,4 @@ C# 二分查找
 
             return result;
         }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 * 1 暴力法
 * 比较当前元素和前一个元素是否相等，如果相等则后面向前都挪动一个坐标。
@@ -30,9 +30,9 @@ func RemoveDuplicates1(nums []int) int {
 	}
 	return l
 }
-```
+// ```
 
-```
+// ```
 /**
  * 解法2 ：双指针法
  * 思路
@@ -56,5 +56,5 @@ func RemoveDuplicates2(nums []int) int {
 	}
 	return p2 + 1
 }
-```
+// ```
 

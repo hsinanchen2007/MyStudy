@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-没什么算法，就是开始时靠if保证j是最大
+// 没什么算法，就是开始时靠if保证j是最大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numJewelsInStones(String J, String S) {
             	if(J.length() < S.length()) return numJewelsInStones(S,J);
@@ -23,4 +23,4 @@ class Solution {
 		return gens;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-执行用时 : 109 ms, 在所有 java 提交中击败了94.44%的用户
-内存消耗 : 62.7 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 : 109 ms, 在所有 java 提交中击败了94.44%的用户
+// 内存消耗 : 62.7 MB, 在所有 java 提交中击败了100.00%的用户
 
-```
+// ```
 class Solution {
     public int[] gridIllumination(int N, int[][] lamps, int[][] queries) {
         int[] result = new int[queries.length];
@@ -51,4 +51,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

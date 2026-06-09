@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
 	if ((t1 == NULL) && (t2 == NULL)) {
 		return NULL;
@@ -17,4 +17,4 @@ struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
 	return (t1 == NULL) ? t2 : t1;
 }
 
-```
+// ```

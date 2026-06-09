@@ -1,7 +1,7 @@
-#### 解法一：Trie + DFS + 26叉树
-+ [参考208. 实现 Trie (前缀树)-解法一](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/208-shi-xian-trie-qian-zhui-shu-by-alexer-660/)
-+ 判断是否重复访问，通过动态更改走过的网格点来判断，就不需要再定义一个visited数组了
-```javascript
+// #### 解法一：Trie + DFS + 26叉树
+// + [参考208. 实现 Trie (前缀树)-解法一](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/208-shi-xian-trie-qian-zhui-shu-by-alexer-660/)
+// + 判断是否重复访问，通过动态更改走过的网格点来判断，就不需要再定义一个visited数组了
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string[]} words
@@ -108,10 +108,10 @@ var findWords = function(board, words) {
     }
     return result;
 };
-```
-#### 解法二：简化Trie + DFS
-+ [参考208. 实现 Trie (前缀树)-解法二](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/208-shi-xian-trie-qian-zhui-shu-by-alexer-660/)
-```javascript
+// ```
+// #### 解法二：简化Trie + DFS
+// + [参考208. 实现 Trie (前缀树)-解法二](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/208-shi-xian-trie-qian-zhui-shu-by-alexer-660/)
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string[]} words
@@ -202,9 +202,9 @@ var findWords = function(board, words) {
     }
     return result;
 };
-```
-+ 优化版+1
-```javascript
+// ```
+// + 优化版+1
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string[]} words
@@ -296,11 +296,11 @@ var findWords = function(board, words) {
     }
     return result;
 };
-```
-+ 优化版+2
-  + 判断是否找到了，通过传递节点的END来判断，就不需要用Trie树的判断函数了，
-  + 性能优化不错，是这几种解法里最快的一种
-```javascript
+// ```
+// + 优化版+2
+//   + 判断是否找到了，通过传递节点的END来判断，就不需要用Trie树的判断函数了，
+//   + 性能优化不错，是这几种解法里最快的一种
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string[]} words
@@ -369,4 +369,4 @@ var findWords = function(board, words) {
     }
     return result;
 };
-```
+// ```

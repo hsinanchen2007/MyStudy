@@ -1,5 +1,5 @@
-思路比较简单，找到上一个房子粉刷的最小值，和第二最小值，更新下一个房子就可以了
-```
+// 思路比较简单，找到上一个房子粉刷的最小值，和第二最小值，更新下一个房子就可以了
+// ```
 class Solution {
 public:
     int minCostII(vector<vector<int>>& costs) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

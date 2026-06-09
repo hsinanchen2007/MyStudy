@@ -1,8 +1,8 @@
-### 解题思路
-把k对链表长度l取余，并取出链表后n-k个元素放在链表头。
-### 代码
+// ### 解题思路
+// 把k对链表长度l取余，并取出链表后n-k个元素放在链表头。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

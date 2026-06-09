@@ -1,6 +1,6 @@
-![二分查找算法1困难题目结果.png](https://pic.leetcode-cn.com/c8b04f11f008c8d7381f00eb864877b96b65aeda10b9708f7eed5b0323e142a5-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%951%E5%9B%B0%E9%9A%BE%E9%A2%98%E7%9B%AE%E7%BB%93%E6%9E%9C.png)
+# ![二分查找算法1困难题目结果.png](https://pic.leetcode-cn.com/c8b04f11f008c8d7381f00eb864877b96b65aeda10b9708f7eed5b0323e142a5-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%951%E5%9B%B0%E9%9A%BE%E9%A2%98%E7%9B%AE%E7%BB%93%E6%9E%9C.png)
 
-```
+# ```
 class Solution(object):
     def findMin(self, nums):
         """
@@ -20,8 +20,8 @@ class Solution(object):
             else:
                 left = mid + 1
         return nums[left]
-```
-题目思考题讨论：
-允许重复有可能会对时间复杂度造成影响。
-- 在最坏情况下，即所有元素都是同一个数时，该算法的时间复杂度是O(N/2)，N是nums的元素个数。
-- 在最好情况下，即所有元素都不重复时，该算法的时间复杂度是O(logN)。
+# ```
+# 题目思考题讨论：
+# 允许重复有可能会对时间复杂度造成影响。
+# - 在最坏情况下，即所有元素都是同一个数时，该算法的时间复杂度是O(N/2)，N是nums的元素个数。
+# - 在最好情况下，即所有元素都不重复时，该算法的时间复杂度是O(logN)。

@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口找到连续数的两个顶点，生成数组push进结果
+// ### 解题思路
+// 滑动窗口找到连续数的两个顶点，生成数组push进结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -24,4 +24,4 @@ var findContinuousSequence = function(target) {
     }
     return res
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-先将链表转为list，再将list转为链表。
-另外要考虑初始链表为空的情况
+# ### 解题思路
+# 先将链表转为list，再将list转为链表。
+# 另外要考虑初始链表为空的情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
                 x.next = ListNode(ll_val[i+1])
                 x = x.next
         return merged_node
-```
+# ```

@@ -1,8 +1,8 @@
-### 1.哈希，判断key值是否大于1
+// ### 1.哈希，判断key值是否大于1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -18,15 +18,15 @@ public:
         return false;
     }
 };
-```
+// ```
 
 
-### 2.利用集合，与原数组比较大小
-ps：挺巧妙
+// ### 2.利用集合，与原数组比较大小
+// ps：挺巧妙
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -37,13 +37,13 @@ public:
 };
 
 
-```
+// ```
 
-### 3.排序，比较前后两个元素是否相等，来判断是否存在重复元素
+// ### 3.排序，比较前后两个元素是否相等，来判断是否存在重复元素
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -57,4 +57,4 @@ public:
         return false;
     }
 };
-```
+// ```

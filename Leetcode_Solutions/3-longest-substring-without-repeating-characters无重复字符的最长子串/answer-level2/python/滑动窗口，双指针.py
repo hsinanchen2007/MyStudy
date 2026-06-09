@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if s == '':
@@ -16,6 +16,6 @@ class Solution:
                 让左指针偏移(s[left:right].index(s[right])+1)'''
                 left += s[left:right].index(s[right])+1     
         return longest
-```
+# ```
 
-![Snipaste_2020-03-27_13-53-09.png](https://pic.leetcode-cn.com/e44b94e427dcf743fc03ae393b574826a4e64bfa5e0292eee8336184826a095b-Snipaste_2020-03-27_13-53-09.png)
+# ![Snipaste_2020-03-27_13-53-09.png](https://pic.leetcode-cn.com/e44b94e427dcf743fc03ae393b574826a4e64bfa5e0292eee8336184826a095b-Snipaste_2020-03-27_13-53-09.png)

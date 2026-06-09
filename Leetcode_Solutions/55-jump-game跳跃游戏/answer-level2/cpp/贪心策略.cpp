@@ -1,11 +1,11 @@
-### 解题思路
-1. 判断当前位置是否能跳到末尾。若能返回true，若不能，下一步；
-2. 当前位置pos下允许的最远位置为 pos+nums[pos]， 在pos+1 -> pos+nms[pos]中寻找这样一个位置next， 使得从next出发能达到最远；
-3. 以next作为新的pos,重复1、 2.
+// ### 解题思路
+// 1. 判断当前位置是否能跳到末尾。若能返回true，若不能，下一步；
+// 2. 当前位置pos下允许的最远位置为 pos+nums[pos]， 在pos+1 -> pos+nms[pos]中寻找这样一个位置next， 使得从next出发能达到最远；
+// 3. 以next作为新的pos,重复1、 2.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return true;
     }
 };
-```
+// ```

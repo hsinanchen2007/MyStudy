@@ -1,9 +1,9 @@
-### 解题思路
-采用一个HashMap，建立起每个字符和下标的对应关系；
-比如abbca,第一个a的位置是0，第二次出现a的位置是4；
-### 代码
+// ### 解题思路
+// 采用一个HashMap，建立起每个字符和下标的对应关系；
+// 比如abbca,第一个a的位置是0，第二次出现a的位置是4；
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         char[] ch = s.toCharArray();
@@ -19,4 +19,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

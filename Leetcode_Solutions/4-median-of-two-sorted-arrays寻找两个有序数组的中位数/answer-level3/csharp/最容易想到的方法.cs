@@ -1,8 +1,8 @@
-将两个数组合并成一个数组，然后对新合成的数组进行排序。
-再判断新数组的长度是奇数还是偶数，进行结果的输出整理。
+// 将两个数组合并成一个数组，然后对新合成的数组进行排序。
+// 再判断新数组的长度是奇数还是偶数，进行结果的输出整理。
 
 
-代码如下：
+// 代码如下：
 
 public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
     int[] nums = new int[nums1.Length + nums2.Length];

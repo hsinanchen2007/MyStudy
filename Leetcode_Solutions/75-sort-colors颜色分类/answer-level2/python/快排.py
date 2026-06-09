@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortColors(self, nums):
         self.sort(nums,0,len(nums)-1)
@@ -25,4 +25,4 @@ class Solution(object):
         m=self.quick(l,i,j)
         self.sort(l,i,m-1)
         self.sort(l,m+1,j)
-```
+# ```

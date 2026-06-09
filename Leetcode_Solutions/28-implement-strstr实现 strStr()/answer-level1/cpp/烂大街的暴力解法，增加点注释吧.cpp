@@ -1,6 +1,6 @@
-从头到尾扫描，不放过每一个匹配成功的机会。
-### 代码
-```
+// 从头到尾扫描，不放过每一个匹配成功的机会。
+// ### 代码
+// ```
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -17,4 +17,4 @@ public:
         return -1;// 前面这么多步骤都没有成功return，走到这一步就只剩下return -1 了。
     }
 };
-```
+// ```

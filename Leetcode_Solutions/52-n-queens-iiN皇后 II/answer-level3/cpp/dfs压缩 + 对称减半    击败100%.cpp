@@ -1,10 +1,10 @@
-### 解题思路
-1. dfs压缩，用flag表示column的选择情况
-2. 发现第一行完成一半或过半的时候停止，偶数则halfcnt*2,奇数则过半前和过半后相加。
+// ### 解题思路
+// 1. dfs压缩，用flag表示column的选择情况
+// 2. 发现第一行完成一半或过半的时候停止，偶数则halfcnt*2,奇数则过半前和过半后相加。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cnt = 0;
@@ -48,4 +48,4 @@ public:
         return halfcnt;
     }
 };
-```
+// ```

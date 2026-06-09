@@ -1,4 +1,4 @@
-```
+// ```
 插头法
 class Solution {
     public int[] reversePrint(ListNode head) {
@@ -34,4 +34,4 @@ class Solution {
         return ret ;
     }
 }
-```
+// ```

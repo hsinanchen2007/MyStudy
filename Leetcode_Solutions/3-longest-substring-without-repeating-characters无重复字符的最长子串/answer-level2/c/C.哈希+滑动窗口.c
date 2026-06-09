@@ -1,11 +1,11 @@
-### 解题思路
-1.设置一个表示128个字符的Hash数组,初始值均为-1，设置begin为窗口起始位置，
-2.每次用所给S数组的符号ASCII码值作为Hash数组的下标，若Hash数组的值为-1或begin值大于Hash数组存放的值，则加大窗口，否则，就把窗口大小缩小，改变begin值
-3.每次都要进行是否有连续两个相同字符放在一起的判断，若有，则重置Hash表重新进行（相当于从头开始）
+// ### 解题思路
+// 1.设置一个表示128个字符的Hash数组,初始值均为-1，设置begin为窗口起始位置，
+// 2.每次用所给S数组的符号ASCII码值作为Hash数组的下标，若Hash数组的值为-1或begin值大于Hash数组存放的值，则加大窗口，否则，就把窗口大小缩小，改变begin值
+// 3.每次都要进行是否有连续两个相同字符放在一起的判断，若有，则重置Hash表重新进行（相当于从头开始）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){ 
     int maxl=1,clen=0;int begin=0;
     int len=strlen(s);int flag=0;
@@ -39,4 +39,4 @@ int lengthOfLongestSubstring(char * s){
     
     return maxl;
 }
-```
+// ```

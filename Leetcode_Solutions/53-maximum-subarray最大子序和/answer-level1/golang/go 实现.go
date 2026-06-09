@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-// 不能直白的把结果求出来  
-//本质的原因  dp[i] 标识按照i  相邻的
+// // 不能直白的把结果求出来  
+// //本质的原因  dp[i] 标识按照i  相邻的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 import "math"
@@ -32,4 +32,4 @@ func maxSubArray(nums []int) int {
 	return res
 }
 
-```
+// ```

@@ -1,25 +1,25 @@
-### 解题思路
-也可以：
-固定非0，最后清0数组
-    for (int j = 0; j < nums.length; j++) {
-        if (nums[j] != 0) {
-            nums[fixed] = nums[j];
-            fixed++;
-        }
-    }
-    for (; fixed < nums.length; fixed++) {
-        nums[fixed] = 0;
-    }
-}
+// ### 解题思路
+// 也可以：
+// 固定非0，最后清0数组
+//     for (int j = 0; j < nums.length; j++) {
+//         if (nums[j] != 0) {
+//             nums[fixed] = nums[j];
+//             fixed++;
+//         }
+//     }
+//     for (; fixed < nums.length; fixed++) {
+//         nums[fixed] = 0;
+//     }
+// }
 
-作者：wang-zi-hao-zain
-链接：https://leetcode-cn.com/problems/move-zeroes/solution/yi-dong-ling-javajian-ji-ti-jie-bao-li-shuang-zhi-/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+// 作者：wang-zi-hao-zain
+// 链接：https://leetcode-cn.com/problems/move-zeroes/solution/yi-dong-ling-javajian-ji-ti-jie-bao-li-shuang-zhi-/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -43,4 +43,4 @@ public:
         }
     }
 };
-```
+// ```

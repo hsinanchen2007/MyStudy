@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int peakIndexInMountainArray(int[] A) {
         int mid = A.length / 2;
@@ -11,4 +11,4 @@ class Solution {
         return mid;
     }
 }
-```
+// ```

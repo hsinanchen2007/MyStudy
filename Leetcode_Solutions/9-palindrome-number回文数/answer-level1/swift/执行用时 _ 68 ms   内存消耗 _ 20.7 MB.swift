@@ -1,10 +1,10 @@
-### 解题思路
-1. 负数不符合要求
-2. 反转数组生成新的数字
+// ### 解题思路
+// 1. 负数不符合要求
+// 2. 反转数组生成新的数字
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isPalindrome(_ x: Int) -> Bool {
         if x < 0 {
@@ -20,4 +20,4 @@ class Solution {
         return x == reverse
     }
 }
-```
+// ```

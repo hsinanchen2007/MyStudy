@@ -1,9 +1,9 @@
-### 解题思路
-利用栈，先进后出的特性，进行翻转。
+// ### 解题思路
+// 利用栈，先进后出的特性，进行翻转。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         Stack<String> stack = new Stack<>();
@@ -20,4 +20,4 @@ class Solution {
         return sb.toString().trim();
     }
 }
-```
+// ```

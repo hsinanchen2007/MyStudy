@@ -1,6 +1,6 @@
 
-# 递归
-```
+// # 递归
+// ```
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -14,9 +14,9 @@ public:
         return root;
     }
 };
-```
-# 错误的示范
-```
+// ```
+// # 错误的示范
+// ```
 TreeNode* invertTree(TreeNode* root) {
 	if (root == NULL) return NULL;
 		else {
@@ -25,4 +25,4 @@ TreeNode* invertTree(TreeNode* root) {
 		}
 		return root;
 }
-```
+// ```

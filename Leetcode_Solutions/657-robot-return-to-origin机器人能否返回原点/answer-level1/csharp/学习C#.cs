@@ -1,8 +1,8 @@
-### 解题思路
-`ToCharArray()`挺好用的
-### 代码
+// ### 解题思路
+// `ToCharArray()`挺好用的
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool JudgeCircle(string moves) {
         char[] tmp  = moves.ToCharArray();
@@ -17,4 +17,4 @@ public class Solution {
             return (lr==0)&&(ud==0);
     }
 }
-```
+// ```

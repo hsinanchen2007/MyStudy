@@ -1,9 +1,9 @@
-### 解题思路
-由于非降数组允许有重复元素，当 nums[low] == nums[mid] 时不一定为 low 与 high 重合的情况，targe 可能在 [low, mid-1] 或者 [mid+1, high]。此时可以 low++，也可以选择在 [left, high] 进行顺序查找。
+// ### 解题思路
+// 由于非降数组允许有重复元素，当 nums[low] == nums[mid] 时不一定为 low 与 high 重合的情况，targe 可能在 [low, mid-1] 或者 [mid+1, high]。此时可以 low++，也可以选择在 [left, high] 进行顺序查找。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
@@ -31,4 +31,4 @@ public:
         return false;
     }
 };
-```
+// ```

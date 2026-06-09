@@ -1,9 +1,9 @@
-### 解题思路
-最小栈
+// ### 解题思路
+// 最小栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type RepMin struct {
 	val int
 	cnt int
@@ -33,4 +33,4 @@ func sumSubarrayMins(A []int) int {
 	}
 	return sum
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先求出同行和同列旗子`sameX`和`sameY`，再缩小范围求解
+// ### 解题思路
+// 先求出同行和同列旗子`sameX`和`sameY`，再缩小范围求解
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -27,4 +27,4 @@ var numRookCaptures = function(board) {
     })
     return sameX.slice(xMin,xMax + 1).filter(key=>key==='p').length + sameY.slice(yMin,yMax + 1).filter(key=>key==='p').length
 };
-```
+// ```

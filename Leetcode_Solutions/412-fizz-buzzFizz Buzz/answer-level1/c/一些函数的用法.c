@@ -1,9 +1,9 @@
-### 解题思路
-逻辑很简单，但是要知道strcpy(),sprintf()这两个函数的用法
+// ### 解题思路
+// 逻辑很简单，但是要知道strcpy(),sprintf()这两个函数的用法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -40,4 +40,4 @@ char ** fizzBuzz(int n, int* returnSize){
 
 
 }
-```
+// ```

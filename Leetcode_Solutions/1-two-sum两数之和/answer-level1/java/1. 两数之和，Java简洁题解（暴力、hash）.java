@@ -1,24 +1,24 @@
-# 审题
-1. 都是整数，有可能有复数
-2. 返回数组下标，下标不相同
-3. 列表无序
+// # 审题
+// 1. 都是整数，有可能有复数
+// 2. 返回数组下标，下标不相同
+// 3. 列表无序
 
-# 思路
-1. 暴力：两层循环求解
-2. hash表：key为目标数与当前数之差
-3. 双指针：夹逼找到是否有目标数
+// # 思路
+// 1. 暴力：两层循环求解
+// 2. hash表：key为目标数与当前数之差
+// 3. 双指针：夹逼找到是否有目标数
 
-# 反馈：
-1. 国际站有(log n)方法，一个数据排序双指针找，单独复制出来的数组用于找回下标
+// # 反馈：
+// 1. 国际站有(log n)方法，一个数据排序双指针找，单独复制出来的数组用于找回下标
 
-# 代码实现
-1. 暴力法
-2. hash方式
-3. （不可用）双指针，除非列表有序
+// # 代码实现
+// 1. 暴力法
+// 2. hash方式
+// 3. （不可用）双指针，除非列表有序
 
-## 1.暴力法
+// ## 1.暴力法
 
-```java
+// ```java
 /**
     * 暴力法
     *
@@ -42,11 +42,11 @@ private int[] directlySolution(int[] nums, int target) {
     }
     return null;
 }
-```
+// ```
 
-## 2.hash方式
+// ## 2.hash方式
 
-```java
+// ```java
 /**
     * hash方式
     *
@@ -73,11 +73,11 @@ private int[] hashSolution(int[] nums, int target) {
 
     return null;
 }
-```
+// ```
 
-## 3.（不可用）双指针，除非列表有序
+// ## 3.（不可用）双指针，除非列表有序
 
-```java
+// ```java
 private int[] squeezeSolution(int[] nums, int target) {
     if (nums == null || nums.length <= 1) {
         return null;
@@ -96,4 +96,4 @@ private int[] squeezeSolution(int[] nums, int target) {
     }
     return null;
 }
-```
+// ```

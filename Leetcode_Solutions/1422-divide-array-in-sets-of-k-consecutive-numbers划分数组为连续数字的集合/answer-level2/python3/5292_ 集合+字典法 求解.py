@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-![搜狗截图20191222130438.png](https://pic.leetcode-cn.com/6205d999252e5c5436c3578e104621d38b2349f0f59417c202810bffe9b5b8a6-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191222130438.png)
+# ![搜狗截图20191222130438.png](https://pic.leetcode-cn.com/6205d999252e5c5436c3578e104621d38b2349f0f59417c202810bffe9b5b8a6-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191222130438.png)
 
-集合+字典法
-用集合记录可能的数字
-用字典存储每个数字出现的次数
+# 集合+字典法
+# 用集合记录可能的数字
+# 用字典存储每个数字出现的次数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPossibleDivide(self, nums, k):
         """
@@ -59,4 +59,4 @@ class Solution(object):
                 start = tmpstart
 
         return True
-```
+# ```

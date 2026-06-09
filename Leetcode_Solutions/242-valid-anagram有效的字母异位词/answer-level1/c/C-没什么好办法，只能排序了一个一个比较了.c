@@ -1,13 +1,13 @@
-### 解题思路
-哭泣，C有字典吗
+// ### 解题思路
+// 哭泣，C有字典吗
 
-当然了排序是可以剪枝的。
-这种特殊情况，size不等的话可以直接return false。
-后面只能一个一个对比了
+// 当然了排序是可以剪枝的。
+// 这种特殊情况，size不等的话可以直接return false。
+// 后面只能一个一个对比了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(const void *a, const void *b) {
     return (*(char *)a - *(char *)b);
 }
@@ -39,4 +39,4 @@ bool isAnagram(char * s, char * t){
     return true;
 }
 
-```
+// ```

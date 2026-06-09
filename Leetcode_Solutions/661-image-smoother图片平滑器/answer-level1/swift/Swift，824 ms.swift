@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func imageSmoother(_ M: [[Int]]) -> [[Int]] {
         let width = M.count, height = M[0].count
@@ -42,4 +42,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

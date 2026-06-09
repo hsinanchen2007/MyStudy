@@ -1,16 +1,16 @@
-本题也是典型的滑动窗口，
+// 本题也是典型的滑动窗口，
 
-之前在做**最小覆盖子串**和**找到字符串中所有字母异位词**两道题的时候，总结了一些方法，
+// 之前在做**最小覆盖子串**和**找到字符串中所有字母异位词**两道题的时候，总结了一些方法，
 
-和本题的套路是一模一样的，可以参考一下噢，
+// 和本题的套路是一模一样的，可以参考一下噢，
 
-只是学习笔记，有什么不对的地方还希望各路大佬指出。
+// 只是学习笔记，有什么不对的地方还希望各路大佬指出。
 
-如果看懂这个套路，这道题就迎刃而解了。
+// 如果看懂这个套路，这道题就迎刃而解了。
 
-[LeetCode学习笔记——最小覆盖串/字母异位词（Sliding Window)](https://blog.csdn.net/wangerxiao121223/article/details/105370705)
+// [LeetCode学习笔记——最小覆盖串/字母异位词（Sliding Window)](https://blog.csdn.net/wangerxiao121223/article/details/105370705)
 
-```
+// ```
 class Solution {
     public int[] shortestSeq(int[] big, int[] small) {
         int []res = new int[2];
@@ -49,4 +49,4 @@ class Solution {
         return minlen == Integer.MAX_VALUE ? nores : res;
     }
 }
-```
+// ```

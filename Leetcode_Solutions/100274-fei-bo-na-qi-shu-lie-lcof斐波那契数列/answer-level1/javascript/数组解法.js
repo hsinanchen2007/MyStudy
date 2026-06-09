@@ -1,6 +1,6 @@
-### 解题思路
-1.递归超时
-```
+// ### 解题思路
+// 1.递归超时
+// ```
 var fib = function(n) {
     if(n<=1){
       return n
@@ -8,13 +8,13 @@ var fib = function(n) {
       return (fib(n-1) + fib(n-2))%1000000007
     }
 };
-```
-2.数组解法，需要迭代n次，空间也需要开辟n个
+// ```
+// 2.数组解法，需要迭代n次，空间也需要开辟n个
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -28,4 +28,4 @@ var fib = function(n) {
     }
     return arr[n]
 };
-```
+// ```

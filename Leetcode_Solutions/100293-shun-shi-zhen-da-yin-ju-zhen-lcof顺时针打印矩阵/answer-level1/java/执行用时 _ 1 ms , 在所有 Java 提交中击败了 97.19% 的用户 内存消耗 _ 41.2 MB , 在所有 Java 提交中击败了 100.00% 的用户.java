@@ -1,9 +1,9 @@
-### 解题思路
-说实话很讨厌做这种考验逻辑思维的题目，脑子转不过来就完了
+// ### 解题思路
+// 说实话很讨厌做这种考验逻辑思维的题目，脑子转不过来就完了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] spiralOrder(int[][] matrix) {
         if(matrix.length==0) return new int[0];
@@ -25,4 +25,4 @@ class Solution {
 }
 
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用字典存储每个数字的最长上升序列.
-2. 使用tail数组, 其中tail[i]保存所以长度为i的上升子序列中其末尾元素的最小值
+# ### 解题思路
+# 1. 使用字典存储每个数字的最长上升序列.
+# 2. 使用tail数组, 其中tail[i]保存所以长度为i的上升子序列中其末尾元素的最小值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         # res = 0
@@ -43,4 +43,4 @@ class Solution:
                 index = binarySearch(tail, i)
                 tail[index] = i
         return len(tail)
-```
+# ```

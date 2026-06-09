@@ -1,9 +1,9 @@
-### 解题思路
-从king开始向八个可能的方向出发，分别为上下左右，左上，左下，右上，右下八个方向， 每个方向最先遇到的queen就是能攻击king的， 把这个queen加入列表并停止该方向遍历。
+// ### 解题思路
+// 从king开始向八个可能的方向出发，分别为上下左右，左上，左下，右上，右下八个方向， 每个方向最先遇到的queen就是能攻击king的， 把这个queen加入列表并停止该方向遍历。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

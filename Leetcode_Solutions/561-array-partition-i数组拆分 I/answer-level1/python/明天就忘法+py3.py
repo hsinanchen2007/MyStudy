@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
    
@@ -16,4 +16,4 @@ class Solution:
             if i&1==0:
                res+=nums[i]
         return res
-```
+# ```

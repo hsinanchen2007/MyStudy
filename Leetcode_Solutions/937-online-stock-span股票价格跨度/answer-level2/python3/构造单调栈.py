@@ -1,4 +1,4 @@
-```
+# ```
 class StockSpanner(object):
 
     def __init__(self):
@@ -18,4 +18,4 @@ class StockSpanner(object):
             self.stack.pop()
         self.stack.append([price, num])
         return num       
-```
+# ```

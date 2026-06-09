@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/298c6e1cff0bb271a723dfc3532e52db9159218de886d5c8b195d7bfb0e7941f-%E6%8D%95%E8%8E%B7.PNG)
-个人觉得比官方答案好理解。
-```
+// ![捕获.PNG](https://pic.leetcode-cn.com/298c6e1cff0bb271a723dfc3532e52db9159218de886d5c8b195d7bfb0e7941f-%E6%8D%95%E8%8E%B7.PNG)
+// 个人觉得比官方答案好理解。
+// ```
 class Solution {
     boolean[] visited;
     List<List<Integer>> res;
@@ -29,4 +29,4 @@ class Solution {
         path.remove(path.size()-1);
     }
 }
-```
+// ```

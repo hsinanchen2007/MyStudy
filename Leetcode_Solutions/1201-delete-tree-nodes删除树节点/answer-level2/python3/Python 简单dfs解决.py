@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 构建树形结构
 然后遍历树，找和为0子树，把子树节点全部打标记，最后
@@ -42,4 +42,4 @@ class Solution:
 
         self.dfs(-1, child_map, value, flag)
         return sum(flag)
-```
+# ```

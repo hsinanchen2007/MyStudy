@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def compressString(self, S: str) -> str:
         if not S:
@@ -16,4 +16,4 @@ class Solution:
             return res
         else:
             return S
-```
+# ```

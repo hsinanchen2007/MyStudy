@@ -1,14 +1,14 @@
-### 解题思路
-1
-11
-121
-1331
-.....
-从后向前计算数组，两头为1，其余的a[i]=a[i]+a[i-1]
-注意：审题要仔细，第n行输出的是n+1个数，否则会出现溢出
-### 代码
+// ### 解题思路
+// 1
+// 11
+// 121
+// 1331
+// .....
+// 从后向前计算数组，两头为1，其余的a[i]=a[i]+a[i-1]
+// 注意：审题要仔细，第n行输出的是n+1个数，否则会出现溢出
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* getRow(int rowIndex, int* returnSize){
         }
         return returnarray;
 }
-```
+// ```

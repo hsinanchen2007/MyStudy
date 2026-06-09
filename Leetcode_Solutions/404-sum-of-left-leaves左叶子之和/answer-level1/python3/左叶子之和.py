@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
                 return self.sumOfLeftLeaves(root.left) + self.sumOfLeftLeaves(root.right) # 对左右孩子递归，直到出现某个节点的左孩子是叶子节点
             
 
-```
+# ```

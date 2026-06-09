@@ -1,4 +1,4 @@
-//始终保证前面序列和为正才继续往后面加，否则前面的置为0，从新计算
+// //始终保证前面序列和为正才继续往后面加，否则前面的置为0，从新计算
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {

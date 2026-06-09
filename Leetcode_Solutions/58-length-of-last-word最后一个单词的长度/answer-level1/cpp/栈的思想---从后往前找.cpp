@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/64ba9b791fec4d9d6c0152f6fff88927498b1c166ca83ed1079f233245f9e81d-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/64ba9b791fec4d9d6c0152f6fff88927498b1c166ca83ed1079f233245f9e81d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include<string>
 
 using namespace std;
@@ -30,4 +30,4 @@ public:
         return sum-s.length();// 找到单词
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn third_max(nums: Vec<i32>) -> i32 {
         let mut max_nums = Vec::new();
@@ -45,5 +45,5 @@ impl Solution {
         }
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

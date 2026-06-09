@@ -1,8 +1,8 @@
-- solve(root)  方法表示以root 为起始点，路径最大值 root.val + Math.max(Math.max(lMax, 0), Math.max(rMax, 0))
-- max 维护整个的最大值
+// - solve(root)  方法表示以root 为起始点，路径最大值 root.val + Math.max(Math.max(lMax, 0), Math.max(rMax, 0))
+// - max 维护整个的最大值
 
 
-```
+// ```
     private int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
         if(root == null) return 0;
@@ -23,4 +23,4 @@
                        
         return val + Math.max(Math.max(lMax, 0), Math.max(rMax, 0));
     }
-```
+// ```

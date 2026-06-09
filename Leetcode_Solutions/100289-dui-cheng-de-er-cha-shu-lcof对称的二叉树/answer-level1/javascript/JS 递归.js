@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var isSymmetric = function(root) {
     return root == null || judge(root.left, root.right) 
 };
@@ -17,4 +17,4 @@ const judge = (node1, node2) => {
         return judge(node1.left, node2.right) && judge(node1.right, node2.left)
     }
 }
-```
+// ```

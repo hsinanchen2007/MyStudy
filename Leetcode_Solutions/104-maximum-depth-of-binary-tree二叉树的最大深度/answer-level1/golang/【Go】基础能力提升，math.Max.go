@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func maxDepth(root *TreeNode) int {
@@ -8,4 +8,4 @@ func maxDepth(root *TreeNode) int {
 
 	return int(math.Max(float64(maxDepth(root.Left)), float64(maxDepth(root.Right))) + 1)
 }
-```
+// ```

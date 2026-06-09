@@ -1,4 +1,4 @@
-```java
+// ```java
 /*
  * @lc app=leetcode.cn id=70 lang=java
  *
@@ -12,9 +12,9 @@
  * 6. 爬楼梯模型符合 斐波那契数列，只是在初值设置上有细微的区别
  * 7. 感兴趣的话，可以推一下a5，一定等于 a3+a4=8
  */
-```
-### 递归实现
-```java
+// ```
+// ### 递归实现
+// ```java
 // 递归实现，缺点是运行效率慢，n=43时运行就超时了
    public int climbStairs(int n) {
         if (n == 0)
@@ -25,10 +25,10 @@
             return 2;
         return climbStairs(n - 1) + climbStairs(n - 2);
     }
-```
+// ```
 
-### 循环实现
-```java
+// ### 循环实现
+// ```java
 public int climbStairs(int n) {
         if ((n == 1) || (n == 2))
             return n;
@@ -41,4 +41,4 @@ public int climbStairs(int n) {
         }
         return current;
 }
-```
+// ```

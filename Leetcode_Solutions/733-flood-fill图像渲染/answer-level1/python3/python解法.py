@@ -1,9 +1,9 @@
-### 解题思路
-注意判断原颜色和现有颜色相同的时候可以直接返回，不然会一直递归从而报错
+# ### 解题思路
+# 注意判断原颜色和现有颜色相同的时候可以直接返回，不然会一直递归从而报错
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
         if not image or image[sr][sc] == newColor:
@@ -24,4 +24,4 @@ class Solution:
         oldColor = image[sr][sc]
         search(image, sr, sc, newColor, oldColor)
         return image
-```
+# ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<String> letterCasePermutation(String S) {
         ArrayList<String> list = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-思路是一样的，但是官方的归纳能力和写法真心比不了
-1. 自己的代码
-```
+# 思路是一样的，但是官方的归纳能力和写法真心比不了
+# 1. 自己的代码
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         if n == 1: return "1"
@@ -27,4 +27,4 @@ class Solution:
         res += str(nums[0])
 
         return res
-```
+# ```

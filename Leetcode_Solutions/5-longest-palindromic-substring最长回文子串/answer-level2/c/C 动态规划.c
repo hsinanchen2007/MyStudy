@@ -1,12 +1,12 @@
 
-怎么没有中心扩散法快呢
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1e37f73052359c83f41346602ee9e18205fcbba308008fe1e3e404729ac64618-image.png)
-此处撰写解题思路
+// 怎么没有中心扩散法快呢
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1e37f73052359c83f41346602ee9e18205fcbba308008fe1e3e404729ac64618-image.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 动态规划 dynamic programming
 char * longestPalindrome(char * s){  
     int n = strlen(s);
@@ -47,4 +47,4 @@ char * longestPalindrome(char * s){
     
 
 
-```
+// ```

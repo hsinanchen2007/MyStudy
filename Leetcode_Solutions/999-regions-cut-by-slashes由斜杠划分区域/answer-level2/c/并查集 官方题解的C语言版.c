@@ -1,4 +1,4 @@
-```
+// ```
 int find(int x, int* pre) {
     int r=x;
     while(pre[r]!=r) {
@@ -54,4 +54,4 @@ int regionsBySlashes(char ** grid, int gridSize){
     free(pre);
     return sum;
 }
-```
+// ```

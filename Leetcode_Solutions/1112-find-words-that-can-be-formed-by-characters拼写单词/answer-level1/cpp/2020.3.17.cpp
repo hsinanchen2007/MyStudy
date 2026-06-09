@@ -1,9 +1,9 @@
-### 解题思路
-c++真香！unordered_map是hash表实现的，适合这题
+// ### 解题思路
+// c++真香！unordered_map是hash表实现的，适合这题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -34,4 +34,4 @@ public:
     }
     
 };
-```
+// ```

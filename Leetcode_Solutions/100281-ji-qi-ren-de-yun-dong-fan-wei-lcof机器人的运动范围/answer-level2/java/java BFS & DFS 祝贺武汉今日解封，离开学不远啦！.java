@@ -1,6 +1,6 @@
-BFS解法：时间5ms
+// BFS解法：时间5ms
 
-```
+// ```
 class Solution {
     public int movingCount(int m, int n, int k) {
         int[] dx = {-1, 1, 0, 0};
@@ -37,11 +37,11 @@ class Solution {
         return sum;
     }
 }
-```
+// ```
 
-DFS解法：时间1ms
+// DFS解法：时间1ms
 
-```
+// ```
 class Solution {
     public int movingCount(int m, int n, int k) {
         boolean[][] seen = new boolean[m][n];
@@ -67,6 +67,6 @@ class Solution {
         return sum;
     }
 }
-```
+// ```
 
 

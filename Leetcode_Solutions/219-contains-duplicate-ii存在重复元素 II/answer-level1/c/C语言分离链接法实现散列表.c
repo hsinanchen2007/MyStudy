@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+// ### 解题思路
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct node {
     int idx;                    /* 存放数组下标 */
     int val;                    /* 存放数值 */
@@ -38,4 +38,4 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     
     return false;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```rust
+// ```rust
 use std::collections::HashMap;
 
 impl Solution {
@@ -20,4 +20,4 @@ impl Solution {
         panic!()
     }
 }
-```
+// ```

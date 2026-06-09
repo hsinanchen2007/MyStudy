@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int thirdMax(int[] nums) {
        long first=Long.MIN_VALUE,second=Long.MIN_VALUE,third=Long.MIN_VALUE;
@@ -17,4 +17,4 @@ class Solution {
 		return (third==Long.MIN_VALUE||third==second)?(int)first:(int)third;
     }
 }
-```
+// ```

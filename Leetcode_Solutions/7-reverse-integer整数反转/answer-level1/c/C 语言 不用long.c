@@ -1,9 +1,9 @@
-### 解题思路
-C 语言 不用long
+// ### 解题思路
+// C 语言 不用long
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverse(int x){
 
     int num = 0;
@@ -30,4 +30,4 @@ int reverse(int x){
         return -num;
 
 }
-```
+// ```

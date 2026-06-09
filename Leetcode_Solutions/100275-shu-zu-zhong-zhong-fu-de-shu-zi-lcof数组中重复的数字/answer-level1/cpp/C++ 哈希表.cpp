@@ -1,9 +1,9 @@
-### 解题思路
-利用unordered_map建立哈希表，当数组中某个元素的个数大于1时立即返回
+// ### 解题思路
+// 利用unordered_map建立哈希表，当数组中某个元素的个数大于1时立即返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return 0;
     }
 };
-```
+// ```

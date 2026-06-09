@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def cuttingRope(self, n: int) -> int:
         dp = [0] * (n+1)
@@ -11,4 +11,4 @@ class Solution:
         for i in range(5, n+1):
             dp[i] = dp[i-3]*3
         return dp[-1]
-```
+# ```

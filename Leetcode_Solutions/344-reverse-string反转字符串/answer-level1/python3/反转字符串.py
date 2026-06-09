@@ -1,9 +1,9 @@
-### 解题思路
-直接交换了，空间满足是o(1)的要求
+# ### 解题思路
+# 直接交换了，空间满足是o(1)的要求
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
                 s[i],s[len_s-1-i] = s[len_s-1-i],s[i]
 
 
-```
+# ```

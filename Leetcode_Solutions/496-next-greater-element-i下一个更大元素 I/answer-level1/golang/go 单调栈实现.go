@@ -1,8 +1,8 @@
-### 解题思路
-go 单调栈实现
-### 代码
+// ### 解题思路
+// go 单调栈实现
+// ### 代码
 
-```golang
+// ```golang
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	var mSt Stack
 	hashMap := make(map[int]int)
@@ -78,4 +78,4 @@ func (this *Stack) Push(value interface{}) {
 }
 
 
-```
+// ```

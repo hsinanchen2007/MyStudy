@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         int a = searchLowerBound(nums,target,0,nums.length-1);
@@ -46,4 +46,4 @@ class Solution {
         } //不满足，如果这个数等于 target，那么就得往左边继续查找。
     }
 }
-```
+// ```

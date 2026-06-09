@@ -1,16 +1,16 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-使用dp，dp[i][j]表示到达i行j列元素的下降路径最小和，最后比较最后一排元素的最小值即可
+// 使用dp，dp[i][j]表示到达i行j列元素的下降路径最小和，最后比较最后一排元素的最小值即可
 
- 对于i行j列元素的上一层元素，只能往下走，且不能超过一列，则可以从`[i-1,j]`、`[i-1,j-1]`、`[i-1,j+1]`到达`[i,j]`
+//  对于i行j列元素的上一层元素，只能往下走，且不能超过一列，则可以从`[i-1,j]`、`[i-1,j-1]`、`[i-1,j+1]`到达`[i,j]`
 
- 所以`dp[i][j] = Math.min(Math.min(dp[i-1][j]`,`dp[i-1][j-1])`,`dp[i-1][j+1])+nums[i][j]`，注意边界
+//  所以`dp[i][j] = Math.min(Math.min(dp[i-1][j]`,`dp[i-1][j-1])`,`dp[i-1][j+1])+nums[i][j]`，注意边界
 
- * 这里在原数组上进行DP，节省空间
+//  * 这里在原数组上进行DP，节省空间
 
-```
+// ```
 class Solution {
     public int minFallingPathSum(int[][] A) {
         int row = A.length;
@@ -38,4 +38,4 @@ class Solution {
     }
 }
 
-```
+// ```

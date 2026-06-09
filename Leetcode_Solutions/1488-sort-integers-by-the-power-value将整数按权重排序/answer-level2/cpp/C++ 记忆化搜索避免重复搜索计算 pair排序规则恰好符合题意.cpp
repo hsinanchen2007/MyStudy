@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
     int w[1000010];//记忆化数组
     int get(int x){//求数x的权重
         if(x==1) return 0;
@@ -11,4 +11,4 @@
         sort(a.begin(),a.end());
         return a[k-1].second;
     }
-```
+// ```

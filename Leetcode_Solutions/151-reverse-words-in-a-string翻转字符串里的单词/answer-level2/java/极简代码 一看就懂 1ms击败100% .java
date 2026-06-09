@@ -1,11 +1,11 @@
-### 解题思路
-字符串用“ ”分割得到字符串数组
-反向遍历 这时数组里有""判断下，不为空时拼接该字符串再加一个空格
-最后会多一个空格 用trim去掉
+// ### 解题思路
+// 字符串用“ ”分割得到字符串数组
+// 反向遍历 这时数组里有""判断下，不为空时拼接该字符串再加一个空格
+// 最后会多一个空格 用trim去掉
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
 		String[] sArr = s.split(" ");
@@ -16,4 +16,4 @@ class Solution {
 		return sb.toString().trim();
     }
 }
-```
+// ```

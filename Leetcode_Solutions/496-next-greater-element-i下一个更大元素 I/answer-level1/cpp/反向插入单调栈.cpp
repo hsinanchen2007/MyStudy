@@ -1,8 +1,8 @@
-执行用时 :16 ms, 在所有 C++ 提交中击败了87.59%的用户
-内存消耗 :9.5 MB, 在所有 C++ 提交中击败了27.13%的用户
+// 执行用时 :16 ms, 在所有 C++ 提交中击败了87.59%的用户
+// 内存消耗 :9.5 MB, 在所有 C++ 提交中击败了27.13%的用户
 
 
-```
+// ```
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -35,4 +35,4 @@ public:
         return output;
     }
 };
-```
+// ```

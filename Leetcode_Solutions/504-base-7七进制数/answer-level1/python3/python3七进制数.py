@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def convertToBase7(self, num: int) -> str:
         s=0
@@ -13,4 +13,4 @@ class Solution:
             num//=7
             i+=1
         return h+str(s)
-```
+# ```

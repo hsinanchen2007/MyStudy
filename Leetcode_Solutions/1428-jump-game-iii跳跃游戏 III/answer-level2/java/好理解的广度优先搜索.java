@@ -1,9 +1,9 @@
-### 解题思路
-从起始状态start开始广度优先搜索，并标记已经访问过的状态，避免重复访问。
+// ### 解题思路
+// 从起始状态start开始广度优先搜索，并标记已经访问过的状态，避免重复访问。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canReach(int[] arr, int start) {
         LinkedList<Integer> queue = new LinkedList<>();
@@ -35,4 +35,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

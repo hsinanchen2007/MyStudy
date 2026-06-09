@@ -1,8 +1,8 @@
-*法一：正则匹配*
+// *法一：正则匹配*
 
-缺点： 速度优点太慢了
+// 缺点： 速度优点太慢了
 
-```js
+// ```js
 var removeDuplicates = function(S) {
     let pat = /([a-z])\1/
     while(pat.test(S)) {
@@ -10,11 +10,11 @@ var removeDuplicates = function(S) {
     }
     return S
 };
-```
+// ```
 
-*法二：借用顺序栈*
+// *法二：借用顺序栈*
 
-```js
+// ```js
 var removeDuplicates = function(S) {
     let arr = []
     for (let i = 0; i < S.length; i++) {
@@ -27,5 +27,5 @@ var removeDuplicates = function(S) {
     }
     return arr.join('')
 };
-```
+// ```
 

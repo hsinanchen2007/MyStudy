@@ -1,9 +1,9 @@
-### 解题思路
-1.当遍历指针所指的元素值变换时，赋值指针移动并修改数组中的值，就这么简单
-2.过滤条件：当输入为空数组时，直接return0
-### 代码
+// ### 解题思路
+// 1.当遍历指针所指的元素值变换时，赋值指针移动并修改数组中的值，就这么简单
+// 2.过滤条件：当输入为空数组时，直接return0
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length==0){
@@ -19,4 +19,4 @@ class Solution {
         return ++count;
     }
 }
-```
+// ```

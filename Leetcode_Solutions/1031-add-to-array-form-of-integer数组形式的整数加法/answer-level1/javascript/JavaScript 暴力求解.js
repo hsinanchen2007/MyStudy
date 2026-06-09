@@ -1,10 +1,10 @@
-### 解题思路
-- BigInt 是 JavaScript 最新的支持的数据类型
-- 通过 添加 '' 自动转换成 string 数据格式
+// ### 解题思路
+// - BigInt 是 JavaScript 最新的支持的数据类型
+// - 通过 添加 '' 自动转换成 string 数据格式
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} K
@@ -16,4 +16,4 @@ var addToArrayForm = function(A, K) {
 };
 
 
-```
+// ```

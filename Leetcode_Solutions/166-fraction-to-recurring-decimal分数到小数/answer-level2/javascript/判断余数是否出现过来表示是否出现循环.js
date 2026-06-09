@@ -1,6 +1,6 @@
 
-- 思路见题解
-```
+// - 思路见题解
+// ```
 var fractionToDecimal = function(numerator, denominator) {
   let str = '';
   // 处理正负号
@@ -38,4 +38,4 @@ var fractionToDecimal = function(numerator, denominator) {
   let _index = chche.indexOf(numerator)
   return str.slice(0, index+_index) + '(' + str.slice(index+_index) + ')'
 };
-```
+// ```

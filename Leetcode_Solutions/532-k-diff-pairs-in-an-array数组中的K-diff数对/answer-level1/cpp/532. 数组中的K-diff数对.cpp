@@ -1,9 +1,9 @@
-### 解题思路
-简单的map或set使用
+// ### 解题思路
+// 简单的map或set使用
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

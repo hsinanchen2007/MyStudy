@@ -1,6 +1,6 @@
-建立前缀和数组，每次计算区域和的时候只做一次减法即可。
+// 建立前缀和数组，每次计算区域和的时候只做一次减法即可。
 
-```java
+// ```java
 class NumArray {
     private int[] preSum;
     public NumArray(int[] nums) {
@@ -22,4 +22,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

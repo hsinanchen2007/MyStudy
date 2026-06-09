@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/04d6a4759339c47b633044808c7310ef4aa2ae494520ffc5241f40b4904e21e6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/04d6a4759339c47b633044808c7310ef4aa2ae494520ffc5241f40b4904e21e6-image.png)
 
 
-```
+# ```
 class Solution:
 
     def getNodeNum(self, root: TreeNode):
@@ -29,4 +29,4 @@ class Solution:
             if self.getNodeNum(node1) < n // 2 + 1:
                 return True
             return max(self.getNodeNum(node1.left), self.getNodeNum(node1.right)) +1 >= n // 2 + 1
-```
+# ```

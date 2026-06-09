@@ -1,9 +1,9 @@
-### 解题思路
-置顶大佬请收下我的膝盖
+// ### 解题思路
+// 置顶大佬请收下我的膝盖
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         //从倒数第二个位置开始 如果这个位置的值大于space，说明能到你的最近目标
@@ -30,4 +30,4 @@ class Solution {
     }
 
 }
-```
+// ```

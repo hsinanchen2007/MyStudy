@@ -1,10 +1,10 @@
-### 解题思路
-构造一个hash函数，计算每个字符的值
-判断两个字符是否相同
-可能取巧，可能hash 值会冲突
-### 代码
+// ### 解题思路
+// 构造一个hash函数，计算每个字符的值
+// 判断两个字符是否相同
+// 可能取巧，可能hash 值会冲突
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2) {
@@ -22,4 +22,4 @@ public:
         return a/2+4+a;
     }
 };
-```
+// ```

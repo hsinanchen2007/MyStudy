@@ -1,6 +1,6 @@
-思路：假设找寻距离目标节点为K，那么对应他的父节点就需要找寻K-1，父节点的父节点就是K-1-1，依次往上层推直到root节点，标记已经遍历的点为1，防止重复遍历。
+// 思路：假设找寻距离目标节点为K，那么对应他的父节点就需要找寻K-1，父节点的父节点就是K-1-1，依次往上层推直到root节点，标记已经遍历的点为1，防止重复遍历。
 
-```
+// ```
 struct RetNode {
 	int val;
 	struct RetNode *next;
@@ -157,19 +157,19 @@ int* distanceK(struct TreeNode* root, struct TreeNode* target, int K, int* retur
 	freeRet(ret);
 	return a;
 }
-```
-上述代码将返回值ret使用vector替代可以通过，但是使用自建链表返回就会报错。
-后来使用如下代码测试也报了同样的错误，不知为何？
-```
+// ```
+// 上述代码将返回值ret使用vector替代可以通过，但是使用自建链表返回就会报错。
+// 后来使用如下代码测试也报了同样的错误，不知为何？
+// ```
 int* distanceK(struct TreeNode* root, struct TreeNode* target, int K, int* returnSize) {
     *returnSize = 3;
 	int* a = (int *)malloc(sizeof(int) * 3);
 	return a;
 }
-```
+// ```
 
-附录使用vector返回的C++版本（逻辑与C的完全相同，已经通过）：
-```
+// 附录使用vector返回的C++版本（逻辑与C的完全相同，已经通过）：
+// ```
 int rec[501] = { 0 };
 
 struct TreeNode * findRet(struct TreeNode *pHead, int val)
@@ -283,4 +283,4 @@ vector<int> distanceK(TreeNode* root, TreeNode* target, int K) {
 	return ret;
 }
 
-```
+// ```

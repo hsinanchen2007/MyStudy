@@ -1,11 +1,11 @@
-[121.买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/)
+// [121.买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
 
-题目很简单，只需要记录最小值，同时记录收益最大值即可。
+// 题目很简单，只需要记录最小值，同时记录收益最大值即可。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -22,4 +22,4 @@ var maxProfit = function(prices) {
     }
     return max;
 };
-```
+// ```

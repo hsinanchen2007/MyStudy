@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         s=list(s)
@@ -14,4 +14,4 @@ class Solution:
             if s[i]!=t[i]:
                 return t[i]
         return t[-1] 
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-1. solution和guess分别用数组记录他们R、Y、G、B的次数
-2. 可能正确f_right = 两数组的相同颜色的较小值 之和
-3. 正确right = 字符串对应位置相同的个数
-4. 伪正确 = f_right - right
+// ### 解题思路
+// 1. solution和guess分别用数组记录他们R、Y、G、B的次数
+// 2. 可能正确f_right = 两数组的相同颜色的较小值 之和
+// 3. 正确right = 字符串对应位置相同的个数
+// 4. 伪正确 = f_right - right
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] masterMind(String solution, String guess) {
         int[] s = check(solution);
@@ -47,5 +47,5 @@ class Solution {
         return color;
     }
 }
-```
+// ```
 

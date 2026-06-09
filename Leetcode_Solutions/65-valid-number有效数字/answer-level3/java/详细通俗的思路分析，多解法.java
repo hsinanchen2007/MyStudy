@@ -1,10 +1,10 @@
-# 题目描述（困难难度）
+// # 题目描述（困难难度）
 
-![image.png](https://pic.leetcode-cn.com/3cfbdccdbd3d59f4b7d0ba4bf0d47f18451b9a3361ea1b8ae88df79f014ad990-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3cfbdccdbd3d59f4b7d0ba4bf0d47f18451b9a3361ea1b8ae88df79f014ad990-image.png)
 
-给定一个字符串，判断它是否代表合法数字，当然题目描述的样例不够多，会使得设计算法中出现很多遗漏的地方，这里直接参考[评论区](https://leetcode.com/problems/valid-number/discuss/23741/The-worst-problem-i-have-ever-met-in-this-oj)@[yeelan0319](https://leetcode.com/yeelan0319)给出的更多测试样例。
+// 给定一个字符串，判断它是否代表合法数字，当然题目描述的样例不够多，会使得设计算法中出现很多遗漏的地方，这里直接参考[评论区](https://leetcode.com/problems/valid-number/discuss/23741/The-worst-problem-i-have-ever-met-in-this-oj)@[yeelan0319](https://leetcode.com/yeelan0319)给出的更多测试样例。
 
-```java
+// ```java
 test(1, "123", true);
 test(2, " 123 ", true);
 test(3, "0", true);
@@ -34,17 +34,17 @@ test(26, ".", false);
 test(27, "2e0", true);  //Really?!
 test(28, "+.8", true);  
 test(29, " 005047e+6", true);  //Damn = =|||
-```
+// ```
 
-# 解法一 直接法
+// # 解法一 直接法
 
-什么叫直接法呢，就是没有什么通用的方法，直接分析题目，然后写代码，直接贴两个 leetcode Disscuss 的代码吧，供参考。
+// 什么叫直接法呢，就是没有什么通用的方法，直接分析题目，然后写代码，直接贴两个 leetcode Disscuss 的代码吧，供参考。
 
-[想法一](https://leetcode.com/problems/valid-number/discuss/23738/Clear-Java-solution-with-ifs)。
+// [想法一](https://leetcode.com/problems/valid-number/discuss/23738/Clear-Java-solution-with-ifs)。
 
-把当前的输入分成几类，再用几个标志位来判断当前是否合法。
+// 把当前的输入分成几类，再用几个标志位来判断当前是否合法。
 
-```java
+// ```java
 public boolean isNumber(String s) {
     s = s.trim();
 
@@ -78,15 +78,15 @@ public boolean isNumber(String s) {
 
     return numberSeen && numberAfterE;
 }
-```
+// ```
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-[想法二](https://leetcode.com/problems/valid-number/discuss/23762/A-simple-solution-in-cpp)，遍历过程中，把遇到不符合的都返回 false，到最后成功到达末尾就返回 true。C++ 的代码，可以参考一下思想。
+// [想法二](https://leetcode.com/problems/valid-number/discuss/23762/A-simple-solution-in-cpp)，遍历过程中，把遇到不符合的都返回 false，到最后成功到达末尾就返回 true。C++ 的代码，可以参考一下思想。
 
-```c++
+// ```c++
 bool isNumber(const char *s) 
 {
     int i = 0;
@@ -119,21 +119,21 @@ bool isNumber(const char *s)
 
     return s[i]==0;  // must reach the ending 0 of the string
 }
-```
+// ```
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-# 解法二 自动机
+// # 解法二 自动机
 
-自己最开始想到的就是这个，编译原理时候在学到的自动机，就是一些状态转移。这一块内容很多，自己也很多东西都忘了，但不影响我们写算法，主要参考[这里](https://leetcode.com/problems/valid-number/discuss/23725/C%2B%2B-My-thought-with-DFA)。
+// 自己最开始想到的就是这个，编译原理时候在学到的自动机，就是一些状态转移。这一块内容很多，自己也很多东西都忘了，但不影响我们写算法，主要参考[这里](https://leetcode.com/problems/valid-number/discuss/23725/C%2B%2B-My-thought-with-DFA)。
 
-![image.png](https://pic.leetcode-cn.com/76e2e607a9a9ea2f10b21da715ac09ea7a3c7ca6a571e75b0fab71deb204bef4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/76e2e607a9a9ea2f10b21da715ac09ea7a3c7ca6a571e75b0fab71deb204bef4-image.png)
 
-如上图，从 0 开始总共有 9 个状态，橙色代表可接受状态，也就是表示此时是合法数字。总共有四大类输入，数字，小数点，e 和 正负号。我们只需要将这个图实现就够了。
+// 如上图，从 0 开始总共有 9 个状态，橙色代表可接受状态，也就是表示此时是合法数字。总共有四大类输入，数字，小数点，e 和 正负号。我们只需要将这个图实现就够了。
 
-```java
+// ```java
 public boolean isNumber(String s) {
     int state = 0; 
     s = s.trim();//去除头尾的空格
@@ -221,19 +221,19 @@ public boolean isNumber(String s) {
     //橙色部分的状态代表合法数字
     return state == 2 || state == 3 || state == 5 || state == 8;
 }
-```
+// ```
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度：O（1）。
+// 空间复杂度：O（1）。
 
-# 解法三 责任链模式
+// # 解法三 责任链模式
 
-解法二看起来已经很清晰明了了，只需要把状态图画出来，然后实现代码就很简单了。但是缺点是，如果状态图少考虑了东西，再改起来就会很麻烦。
+// 解法二看起来已经很清晰明了了，只需要把状态图画出来，然后实现代码就很简单了。但是缺点是，如果状态图少考虑了东西，再改起来就会很麻烦。
 
-[这里](https://leetcode.com/problems/valid-number/discuss/23977/A-clean-design-solution-By-using-design-pattern)作者提出来，利用责任链的设计模式，会使得写出的算法扩展性以及维护性更高。这里用到的思想就是，每个类只判断一种类型。比如判断是否是正数的类，判断是否是小数的类，判断是否是科学计数法的类，这样每个类只关心自己的部分，出了问题很好排查，而且互不影响。
+// [这里](https://leetcode.com/problems/valid-number/discuss/23977/A-clean-design-solution-By-using-design-pattern)作者提出来，利用责任链的设计模式，会使得写出的算法扩展性以及维护性更高。这里用到的思想就是，每个类只判断一种类型。比如判断是否是正数的类，判断是否是小数的类，判断是否是科学计数法的类，这样每个类只关心自己的部分，出了问题很好排查，而且互不影响。
 
-```java
+// ```java
 //每个类都实现这个接口
 interface NumberValidate { 
     boolean validate(String s);
@@ -489,14 +489,14 @@ public boolean isNumber(String s) {
     return nv.validate(s);
 }
 
-```
+// ```
 
-时间复杂度：
+// 时间复杂度：
 
-空间复杂度：
+// 空间复杂度：
 
-# 总
+// # 总
 
-解法二中自动机的应用，会使得自己的思路更清晰。而解法三中，作者提出的对设计模式的应用，使自己眼前一亮，虽然代码变多了，但是维护性，扩展性变的很强了。比如，题目新增了一种情况，"0x123" 16 进制也算是合法数字。这样的话，解法一和解法二就没什么用了，完全得重新设计。但对于解法三，我们只需要新增一个类，专门判断这种情况，然后加到执行者的数组里就够了，很棒！
+// 解法二中自动机的应用，会使得自己的思路更清晰。而解法三中，作者提出的对设计模式的应用，使自己眼前一亮，虽然代码变多了，但是维护性，扩展性变的很强了。比如，题目新增了一种情况，"0x123" 16 进制也算是合法数字。这样的话，解法一和解法二就没什么用了，完全得重新设计。但对于解法三，我们只需要新增一个类，专门判断这种情况，然后加到执行者的数组里就够了，很棒！
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

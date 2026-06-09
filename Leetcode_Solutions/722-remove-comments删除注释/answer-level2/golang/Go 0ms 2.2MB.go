@@ -1,8 +1,8 @@
-1、只有当前不在注释块（注释行不算）内，才有必要往结果数组中添加；
-2、非注释内容应该是有效位置到注释前的拼接；
-这两点理解之后就比较简单了，其他无非就是对不同注释的处理操作。
+// 1、只有当前不在注释块（注释行不算）内，才有必要往结果数组中添加；
+// 2、非注释内容应该是有效位置到注释前的拼接；
+// 这两点理解之后就比较简单了，其他无非就是对不同注释的处理操作。
 
-```
+// ```
 func removeComments(source []string) []string {
 	var strArr []string
 	isBlock, str :=  false, ""
@@ -51,4 +51,4 @@ func removeComments(source []string) []string {
 	}
 	return strArr
 }
-```
+// ```

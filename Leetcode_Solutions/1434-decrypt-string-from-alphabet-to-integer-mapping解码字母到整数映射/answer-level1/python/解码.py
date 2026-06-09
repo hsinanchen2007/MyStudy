@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-先创建字典，最后根据字典查看，关键点在于最后三个字符的处理
+# 先创建字典，最后根据字典查看，关键点在于最后三个字符的处理
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def freqAlphabets(self, s):
         """
@@ -40,5 +40,5 @@ class Solution(object):
         return re
 
 
-```
-![1.png](https://pic.leetcode-cn.com/9f06c44c9b9211c868e1db5f4ee4466b1f984e145bc809174bad4f129a115b09-1.png)
+# ```
+# ![1.png](https://pic.leetcode-cn.com/9f06c44c9b9211c868e1db5f4ee4466b1f984e145bc809174bad4f129a115b09-1.png)

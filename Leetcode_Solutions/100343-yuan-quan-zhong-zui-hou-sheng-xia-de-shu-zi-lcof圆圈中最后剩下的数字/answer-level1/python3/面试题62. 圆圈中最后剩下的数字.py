@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         ans = [i for i in range(0, n)]
@@ -16,4 +16,4 @@ class Solution:
             n -= 1
         return ans[0]
 
-```
+# ```

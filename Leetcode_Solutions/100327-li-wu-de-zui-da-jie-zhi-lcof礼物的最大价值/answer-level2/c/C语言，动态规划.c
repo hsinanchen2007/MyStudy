@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_HTL(a, b) ((a) > (b) ? (a) : (b))
 
 int maxValue(int** grid, int gridSize, int* gridColSize){
@@ -28,4 +28,4 @@ int maxValue(int** grid, int gridSize, int* gridColSize){
 
     return grid[row - 1][col - 1];
 }
-```
+// ```

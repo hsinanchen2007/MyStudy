@@ -1,8 +1,8 @@
-### 解题思路
-代码十分详细，四个边界每次走完一行，边界缩短一部分，样例里有个[]的数组，要小心
-### 代码
+// ### 解题思路
+// 代码十分详细，四个边界每次走完一行，边界缩短一部分，样例里有个[]的数组，要小心
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] spiralOrder(int[][] matrix) {
         if(matrix.length==0){
@@ -53,4 +53,4 @@ class Solution {
         return k;
     }
 }
-```
+// ```

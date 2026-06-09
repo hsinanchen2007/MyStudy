@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var reverseWords = function (s) {
     let Result = ''
     let arr = s.split(' ')
@@ -41,4 +41,4 @@ console.log(reverseWords("Let's take LeetCode contest"))
  * 3. 先将字符串分割，转化成数组，在拿到数组中的 每一项进行反转
  * 4. 再将字符串按格式拼接起来
  */
-```
+// ```

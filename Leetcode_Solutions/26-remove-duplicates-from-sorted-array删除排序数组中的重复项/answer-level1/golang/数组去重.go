@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeDuplicates(nums []int) int {
     var k,index int
     if len(nums)==0{
@@ -16,4 +16,4 @@ func removeDuplicates(nums []int) int {
     }
     return index
 }
-```
+// ```

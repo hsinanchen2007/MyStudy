@@ -1,9 +1,9 @@
-### 解题思路
-考虑到字典键值不能为列表，因此将列表内的元素组合成字符串进行存储
+# ### 解题思路
+# 考虑到字典键值不能为列表，因此将列表内的元素组合成字符串进行存储
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numEquivDominoPairs(self, dominoes):
         dic = {}
@@ -20,4 +20,4 @@ class Solution(object):
         for c in dic:
             count += 1.0*dic[c]*(dic[c]-1)/2
         return int(count)
-```
+# ```

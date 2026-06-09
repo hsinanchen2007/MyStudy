@@ -1,5 +1,5 @@
-# 429. N叉树的层序遍历 - 递归BFS
-```
+# # 429. N叉树的层序遍历 - 递归BFS
+# ```
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         res = []
@@ -12,9 +12,9 @@ class Solution:
                 helper(node, depth+1)
         helper(root, 0)
         return res
-```
-# 429. N叉树的层序遍历 - 迭代BFS
-```
+# ```
+# # 429. N叉树的层序遍历 - 迭代BFS
+# ```
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         if not root: return
@@ -30,4 +30,4 @@ class Solution:
             res.append(tmp)
             cur_level = next_level
         return res
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-我这个算法就是O(n)的算法
-### 代码
+// ### 解题思路
+// 我这个算法就是O(n)的算法
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] countBits(int num) {
         if(num==0)
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

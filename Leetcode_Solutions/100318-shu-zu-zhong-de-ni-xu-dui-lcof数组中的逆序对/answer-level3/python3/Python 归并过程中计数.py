@@ -1,6 +1,6 @@
-稍微修改一下归并排序, 让归并排序输出的结果除了排序数组外加逆序对个数
+# 稍微修改一下归并排序, 让归并排序输出的结果除了排序数组外加逆序对个数
 
-```python3
+# ```python3
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         def merge_count(nums):
@@ -28,4 +28,4 @@ class Solution:
 
         res, tmp = merge_count(nums)
         return res
-```
+# ```

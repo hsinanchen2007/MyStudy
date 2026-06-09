@@ -1,4 +1,4 @@
-```
+// ```
  public static boolean canJump(int[] nums) {
         int max = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -17,4 +17,4 @@
         //能到达这一步，说明max>=nums.length.
         return true;
     }
-```
+// ```

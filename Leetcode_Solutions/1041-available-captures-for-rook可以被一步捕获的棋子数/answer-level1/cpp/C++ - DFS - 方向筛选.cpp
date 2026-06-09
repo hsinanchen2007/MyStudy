@@ -1,10 +1,10 @@
-### 解题思路
-DFS方法
-加一个flag限制运动方向
+// ### 解题思路
+// DFS方法
+// 加一个flag限制运动方向
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -35,4 +35,4 @@ public:
         else return move(board, i, j + 1, 4);
     }
 };
-```
+// ```

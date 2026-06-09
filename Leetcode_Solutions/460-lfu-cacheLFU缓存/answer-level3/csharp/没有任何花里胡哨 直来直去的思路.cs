@@ -1,4 +1,4 @@
-```
+// ```
 public class LFUCache {
     //键 值 频率      元组写法
     Dictionary<int, (int, int)> dic;
@@ -81,4 +81,4 @@ public class LFUCache {
     }
 }
 
-```
+// ```

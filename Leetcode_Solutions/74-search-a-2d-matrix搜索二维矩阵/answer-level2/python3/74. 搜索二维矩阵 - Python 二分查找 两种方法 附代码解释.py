@@ -1,21 +1,21 @@
-## 方法一：对列与行分别进行二分查找
-#### 思路：
- - 第一次二分查找，找出目标值可能的所在行，判断条件：
-   - 如果该行最小值大于 target，那么target不可能在较大的另一半区间内，可能在较小的另一半区间内
-   - 如果该行最大值小于 target，那么target不可能在较小的另一半区间内，可能在较大的另一半区间内
-   - 否则，target可能在当前行内
- - 第二次二分查找**参考了[@liweiwei1419](https://leetcode-cn.com/u/liweiwei1419)分享的[二分法模板](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)**，该模板在解决大多数二分问题时简洁实用；
- - 找出目标值是否在所在行，判断条件：
-   - 如果中间值大于目标值，那么目标值一定不在右半区间
-#### 效率：
-> Runtime: 80 ms, faster than 52.50% of Python3 online submissions for Search a 2D Matrix.
-> Memory Usage: 16 MB, less than 5.88% of Python3 online submissions for Search a 2D Matrix.
-#### 复杂度分析：
- - 时间复杂度：$O(\log m + \log n) = O(\log (mn))$
- 第一次查找最多运行 $\log m$ 次，第二次查找最多运行 $\log n$ 次
- - 空间复杂度：$O(1)$
-#### 代码：
-```Python
+# ## 方法一：对列与行分别进行二分查找
+# #### 思路：
+#  - 第一次二分查找，找出目标值可能的所在行，判断条件：
+#    - 如果该行最小值大于 target，那么target不可能在较大的另一半区间内，可能在较小的另一半区间内
+#    - 如果该行最大值小于 target，那么target不可能在较小的另一半区间内，可能在较大的另一半区间内
+#    - 否则，target可能在当前行内
+#  - 第二次二分查找**参考了[@liweiwei1419](https://leetcode-cn.com/u/liweiwei1419)分享的[二分法模板](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)**，该模板在解决大多数二分问题时简洁实用；
+#  - 找出目标值是否在所在行，判断条件：
+#    - 如果中间值大于目标值，那么目标值一定不在右半区间
+# #### 效率：
+# > Runtime: 80 ms, faster than 52.50% of Python3 online submissions for Search a 2D Matrix.
+# > Memory Usage: 16 MB, less than 5.88% of Python3 online submissions for Search a 2D Matrix.
+# #### 复杂度分析：
+#  - 时间复杂度：$O(\log m + \log n) = O(\log (mn))$
+#  第一次查找最多运行 $\log m$ 次，第二次查找最多运行 $\log n$ 次
+#  - 空间复杂度：$O(1)$
+# #### 代码：
+# ```Python
 from typing import List
 
 
@@ -70,22 +70,22 @@ class Solution:
 
         # 对最终结果值进行判断
         return matrix[r][c] == target
-```
-## 方法二： 对二维数组进行降维
-#### 思路：
- - 与[官方题解](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/sou-suo-er-wei-ju-zhen-by-leetcode/)类似，建议参考官方题解的图例
- - 参考了[@liweiwei1419](https://leetcode-cn.com/u/liweiwei1419)分享的[二分法模板](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)，该模板在解决大多数二分问题时可减少判断条件
- - 二分查找的判断条件：
-   - 如果中间值小于目标值，那么目标值一定不在左半区间
-#### 效率：
-> Runtime: 72 ms, faster than 94.31% of Python3 online submissions for Search a 2D Matrix.
-> Memory Usage: 15.9 MB, less than 5.88% of Python3 online submissions for Search a 2D Matrix.
-#### 复杂度分析：
- - 时间复杂度：$O(\log (mn))$
- 在大小为 $m*n$ 的一维数组中进行二分查找
- - 空间复杂度：$O(1)$
-#### 代码：
-```Python
+# ```
+# ## 方法二： 对二维数组进行降维
+# #### 思路：
+#  - 与[官方题解](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/sou-suo-er-wei-ju-zhen-by-leetcode/)类似，建议参考官方题解的图例
+#  - 参考了[@liweiwei1419](https://leetcode-cn.com/u/liweiwei1419)分享的[二分法模板](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)，该模板在解决大多数二分问题时可减少判断条件
+#  - 二分查找的判断条件：
+#    - 如果中间值小于目标值，那么目标值一定不在左半区间
+# #### 效率：
+# > Runtime: 72 ms, faster than 94.31% of Python3 online submissions for Search a 2D Matrix.
+# > Memory Usage: 15.9 MB, less than 5.88% of Python3 online submissions for Search a 2D Matrix.
+# #### 复杂度分析：
+#  - 时间复杂度：$O(\log (mn))$
+#  在大小为 $m*n$ 的一维数组中进行二分查找
+#  - 空间复杂度：$O(1)$
+# #### 代码：
+# ```Python
 from typing import List
 
 
@@ -117,4 +117,4 @@ class Solution:
 
         # 对最终结果值进行判断
         return matrix[left // C][left % C] == target
-```
+# ```

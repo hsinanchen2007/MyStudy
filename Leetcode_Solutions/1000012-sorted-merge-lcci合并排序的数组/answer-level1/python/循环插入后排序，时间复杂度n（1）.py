@@ -1,9 +1,9 @@
-### 解题思路
-基本用法，两列表合并后排序即可
+# ### 解题思路
+# 基本用法，两列表合并后排序即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             k+=1
         A.sort()
         return A
-```
+# ```

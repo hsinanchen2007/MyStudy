@@ -1,6 +1,6 @@
-这种方法用来解210 不太合适，所以我又看了别人的Topology sorting
+// 这种方法用来解210 不太合适，所以我又看了别人的Topology sorting
 
-```
+// ```
 func canFinish(numCourses int, prerequisites [][]int) bool {
     preMap := map[int][]int{}
     for _, p := range prerequisites {
@@ -41,4 +41,4 @@ func getAnyKey(preMap map[int][]int) int {
     }
     return result    
 }
-```
+// ```

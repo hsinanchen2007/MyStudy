@@ -1,6 +1,6 @@
-原以为很难，后来想到是属于dp的知识就很简单了.
-思路：dp[i][j]记录区间[i,j]内先出手者的最大得分
-```
+# 原以为很难，后来想到是属于dp的知识就很简单了.
+# 思路：dp[i][j]记录区间[i,j]内先出手者的最大得分
+# ```
 class Solution:
     def stoneGame(self, piles: List[int]) -> bool:
         n =len(piles)
@@ -14,4 +14,4 @@ class Solution:
             return a[i][j]
         return 2*dp(0,n-1)>sum(piles)
 
-```
+# ```

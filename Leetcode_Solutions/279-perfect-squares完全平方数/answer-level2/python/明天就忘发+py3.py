@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numSquares(self, n: int) -> int:
         # 每个数字最多的数量数 比如都是1  然后 3=3
@@ -19,4 +19,4 @@ class Solution:
                 #相当于 dp[5]=dp[4]+dp[1]
                 dp[i]=min(dp[i],dp[i-num]+1)
         return dp[n]
-```
+# ```

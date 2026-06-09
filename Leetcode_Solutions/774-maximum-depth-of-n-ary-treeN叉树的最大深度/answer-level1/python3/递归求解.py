@@ -1,4 +1,4 @@
-```python3 []
+# ```python3 []
 class Solution:
     def maxDepth(self, root: 'Node') -> int:
         if root is None:
@@ -10,5 +10,5 @@ class Solution:
         
         # 存在多个子树，则对每个子树递归求最大深度
         return 1 + max(map(self.maxDepth, root.children))
-```
+# ```
 

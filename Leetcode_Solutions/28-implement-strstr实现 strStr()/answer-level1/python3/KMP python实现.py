@@ -1,5 +1,5 @@
-主要就是求next的思路，一个是在next[0]处加入哨兵，另一个是根据字符串的长度遍历，最后一个是模式串与模式串错开一位匹配即可求next数组，精简一下，就是只需要在不相等的情况下做特殊处理即可，不相等的情况在循环里判断，熟悉KMP有助于熟悉AC自动机，因为AC自动机=trie+KMP
-```
+# 主要就是求next的思路，一个是在next[0]处加入哨兵，另一个是根据字符串的长度遍历，最后一个是模式串与模式串错开一位匹配即可求next数组，精简一下，就是只需要在不相等的情况下做特殊处理即可，不相等的情况在循环里判断，熟悉KMP有助于熟悉AC自动机，因为AC自动机=trie+KMP
+# ```
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if len(needle) == 0:
@@ -25,4 +25,4 @@ class Solution:
                 return i-len(needle) + 1
 
         return -1
-```
+# ```

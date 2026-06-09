@@ -1,9 +1,9 @@
-### 解题思路
-简单的事情简单做
+// ### 解题思路
+// 简单的事情简单做
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private boolean LockA = false;
     private boolean LockB = false;
@@ -39,4 +39,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-大佬们暴力打表实属牛逼，C++递归祭出
-```
+// 大佬们暴力打表实属牛逼，C++递归祭出
+// ```
 class Solution {
 public:
     string countAndSay(int n) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

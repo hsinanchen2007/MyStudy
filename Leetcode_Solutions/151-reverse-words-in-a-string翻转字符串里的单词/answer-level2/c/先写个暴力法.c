@@ -1,4 +1,4 @@
-```
+// ```
 char * reverseWords(char * s){
     if (s == NULL) {
         return NULL;
@@ -30,4 +30,4 @@ char * reverseWords(char * s){
     }
     return result;
 }
-```
+// ```

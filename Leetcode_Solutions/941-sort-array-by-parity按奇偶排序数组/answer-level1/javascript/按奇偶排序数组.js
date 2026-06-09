@@ -1,4 +1,4 @@
-```js
+// ```js
 var sortArrayByParity = function(A) {
     let oddArr = []
     let evenArr = []
@@ -11,4 +11,4 @@ var sortArrayByParity = function(A) {
     }
     return evenArr.concat(oddArr)
 };
-```
+// ```

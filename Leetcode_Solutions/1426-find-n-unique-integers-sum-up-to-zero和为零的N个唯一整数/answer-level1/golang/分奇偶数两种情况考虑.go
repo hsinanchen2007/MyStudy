@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-分两种情况考虑  
+// 分两种情况考虑  
 
-- 第一种，n为偶数时，前一半数为正整数，从1开始`append`进`result`数组，后一半为负数`append`进数组；
-- 第二种，n为奇数时，前一半数为正整数，从1开始`append`进`result`数组，后一半为负数，但是注意，要从0开始`append`进数组；最后返回数组即可。
+// - 第一种，n为偶数时，前一半数为正整数，从1开始`append`进`result`数组，后一半为负数`append`进数组；
+// - 第二种，n为奇数时，前一半数为正整数，从1开始`append`进`result`数组，后一半为负数，但是注意，要从0开始`append`进数组；最后返回数组即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sumZero(n int) []int {
 
 	var result []int
@@ -33,4 +33,4 @@ func sumZero(n int) []int {
 		return result
 	}
 }
-```
+// ```

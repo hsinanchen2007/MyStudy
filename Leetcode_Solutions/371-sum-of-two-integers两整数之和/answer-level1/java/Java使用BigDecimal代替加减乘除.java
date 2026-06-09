@@ -1,9 +1,9 @@
-### 解题思路
-Java使用BigDecimal代替加减乘除
+// ### 解题思路
+// Java使用BigDecimal代替加减乘除
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.math.BigDecimal;
 class Solution {
     public int getSum(int a, int b) {
@@ -12,4 +12,4 @@ class Solution {
         return a1.add(b1).intValue();
     }
 }
-```
+// ```

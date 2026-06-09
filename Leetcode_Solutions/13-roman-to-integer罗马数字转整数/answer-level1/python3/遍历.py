@@ -1,5 +1,5 @@
-将所有可能结果放到一个字典中，然后遍历一遍字符串即可~
-```
+# 将所有可能结果放到一个字典中，然后遍历一遍字符串即可~
+# ```
 class Solution:
     def romanToInt(self, s: str) -> int:
         dic={
@@ -18,4 +18,4 @@ class Solution:
                 i+=1
         return num
 
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-整体的思路和动态规划相同吧 主要多用了几个变量来判断 用空间换时间
+// ### 解题思路
+// 此处撰写解题思路
+// 整体的思路和动态规划相同吧 主要多用了几个变量来判断 用空间换时间
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         int min = Integer.MAX_VALUE;
@@ -44,4 +44,4 @@ class Solution {
 
     }
 }
-```
+// ```

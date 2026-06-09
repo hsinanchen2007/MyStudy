@@ -1,5 +1,5 @@
-只要能除得的尽就除，不然就判断
-```
+# 只要能除得的尽就除，不然就判断
+# ```
 while True:
             if num == 0:
                 return False
@@ -13,4 +13,4 @@ while True:
                 num /= 5
             else :
                 return False
-```
+# ```

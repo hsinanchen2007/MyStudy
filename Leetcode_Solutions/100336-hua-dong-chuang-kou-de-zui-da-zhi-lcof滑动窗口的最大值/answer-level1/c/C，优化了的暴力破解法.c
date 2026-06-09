@@ -1,5 +1,5 @@
-暴力破解法的小小优化：如果新进来的比最大值要大，直接取新值，否则看旧窗口出去的那个值：1.比旧最大值小，则最大值不变；2.若相等，则在新窗口下暴力findmax。
-```
+// 暴力破解法的小小优化：如果新进来的比最大值要大，直接取新值，否则看旧窗口出去的那个值：1.比旧最大值小，则最大值不变；2.若相等，则在新窗口下暴力findmax。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -44,4 +44,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
         }
     return dp;
 }
-```
+// ```

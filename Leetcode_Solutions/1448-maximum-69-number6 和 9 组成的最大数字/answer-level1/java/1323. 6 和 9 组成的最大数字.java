@@ -1,9 +1,9 @@
-### 解题思路
-先把num转成string，定义一个flag，把string转入StringBuilder，把6转成9.
+// ### 解题思路
+// 先把num转成string，定义一个flag，把string转入StringBuilder，把6转成9.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         StringBuilder sb = new StringBuilder();
@@ -21,4 +21,4 @@ class Solution {
         return Integer.valueOf(sb.toString());
     }
 }
-```
+// ```

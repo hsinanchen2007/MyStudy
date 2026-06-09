@@ -1,10 +1,10 @@
-### 解题思路
-如果target == nums[mid]，更新左右端的值，因为可能存在重复，继续搜索两侧。
-否则只搜一侧即可。
+// ### 解题思路
+// 如果target == nums[mid]，更新左右端的值，因为可能存在重复，继续搜索两侧。
+// 否则只搜一侧即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int begin = Integer.MAX_VALUE;
     int end = Integer.MIN_VALUE;
@@ -34,4 +34,4 @@ class Solution {
         if(pos > end) end = pos;
     }
 }
-```
+// ```

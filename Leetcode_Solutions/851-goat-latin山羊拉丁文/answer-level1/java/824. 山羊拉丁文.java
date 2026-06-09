@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/12
- *
- * 解题思路:通过空格切分成单词然后的进行判断处理
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/12
+//  *
+//  * 解题思路:通过空格切分成单词然后的进行判断处理
+//  *
+//  */
+// ```
 public String toGoatLatin(String S) {
     String[] s_arr = S.split(" ");
 
@@ -32,4 +32,4 @@ public String toGoatLatin(String S) {
 
     return sb.toString();
 }
-```
+// ```

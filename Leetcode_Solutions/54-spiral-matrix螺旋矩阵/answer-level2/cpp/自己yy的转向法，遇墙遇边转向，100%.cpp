@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/b5ddf94dd7f4db880b0adb018f30906dddf08d2e7eb0ab1fb0ef7473efc83949-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b5ddf94dd7f4db880b0adb018f30906dddf08d2e7eb0ab1fb0ef7473efc83949-image.png)
 
-主要思路再建一个同样的矩阵，走过标记1，没走过标记0；
-设4个方向，每次沿着一个方向走，走到不能走(包括走到边界或者前方是‘1’墙)，转向
-一直到最后连着转两次都不能继续走，退出
-```
+// 主要思路再建一个同样的矩阵，走过标记1，没走过标记0；
+// 设4个方向，每次沿着一个方向走，走到不能走(包括走到边界或者前方是‘1’墙)，转向
+// 一直到最后连着转两次都不能继续走，退出
+// ```
 class Solution {
 public:
     // 换下一个方向走
@@ -72,4 +72,4 @@ public:
         return res;
     }
 };
-```
+// ```

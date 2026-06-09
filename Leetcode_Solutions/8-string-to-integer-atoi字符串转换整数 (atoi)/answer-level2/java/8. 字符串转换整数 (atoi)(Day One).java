@@ -1,19 +1,19 @@
-### 解题思路
-### 关键是判断溢出：
-### 一、上溢
-    考虑两种情况：
-        1）result > Integer.MAX_VALUE / 10，此时肯定溢出。
-        2）result == Integer.MAX_VALUE / 10 && ch - '0' > 7，后面的7是因为Integer.MAX_VALUE为2147483647，
-        末位为7。
-### 二、下溢
-    考虑两种情况：
-        1）-result < Integer.MIN_VALUE / 10，此时肯定溢出。
-        2）-result == Integer.MIN_VALUE / 10 && ch - '0' > 8，后面的8是因为Integer.MIN_VALUE为-2147483648，
-        末位为8.
+// ### 解题思路
+// ### 关键是判断溢出：
+// ### 一、上溢
+//     考虑两种情况：
+//         1）result > Integer.MAX_VALUE / 10，此时肯定溢出。
+//         2）result == Integer.MAX_VALUE / 10 && ch - '0' > 7，后面的7是因为Integer.MAX_VALUE为2147483647，
+//         末位为7。
+// ### 二、下溢
+//     考虑两种情况：
+//         1）-result < Integer.MIN_VALUE / 10，此时肯定溢出。
+//         2）-result == Integer.MIN_VALUE / 10 && ch - '0' > 8，后面的8是因为Integer.MIN_VALUE为-2147483648，
+//         末位为8.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         int result = 0;
@@ -64,4 +64,4 @@ class Solution {
         return sign ? -result : result;
     }
 }
-```
+// ```

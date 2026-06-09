@@ -1,9 +1,9 @@
-### 解题思路
-创建字符数组模拟栈
+// ### 解题思路
+// 创建字符数组模拟栈
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     int len=strlen(s);
     char *a=malloc(sizeof(char)*len);
@@ -33,4 +33,4 @@ bool isValid(char * s){
     }
 
 }
-```
+// ```

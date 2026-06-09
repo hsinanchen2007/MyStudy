@@ -1,4 +1,4 @@
-```
+// ```
 bool cmp(vector<int>& a,vector<int>& b) {
     int n = a.size();
     for (int i = 1; i < n; i++) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

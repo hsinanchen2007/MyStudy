@@ -1,4 +1,4 @@
-![微信图片_20200303180834.png](https://pic.leetcode-cn.com/a4d3d7b80b6bf4b719e01318d026db862657c99429f45f29811c14e88910856c-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200303180834.png)
+// ![微信图片_20200303180834.png](https://pic.leetcode-cn.com/a4d3d7b80b6bf4b719e01318d026db862657c99429f45f29811c14e88910856c-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200303180834.png)
 
 
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){

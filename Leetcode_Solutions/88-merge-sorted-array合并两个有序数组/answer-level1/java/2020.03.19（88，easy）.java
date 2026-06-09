@@ -1,13 +1,13 @@
-### 解题思路
-本题使用**双索引尾指针**，从每个数组的最后一个元素开始比较
+// ### 解题思路
+// 本题使用**双索引尾指针**，从每个数组的最后一个元素开始比较
 
-通过while循环，依次对两个数组的**最尾元素**进行比较，将大的元素放入合并后的nums1的**最尾处**
+// 通过while循环，依次对两个数组的**最尾元素**进行比较，将大的元素放入合并后的nums1的**最尾处**
 
-最后通过System.arraycopy(nums2, 0, nums1, 0, l2 + 1);将nums2数组剩下的元素放到nums1的最前面去即可完成合并。
+// 最后通过System.arraycopy(nums2, 0, nums1, 0, l2 + 1);将nums2数组剩下的元素放到nums1的最前面去即可完成合并。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int l1 = m - 1;
@@ -20,4 +20,4 @@ class Solution {
         System.arraycopy(nums2, 0, nums1, 0, l2 + 1);
     }
 }
-```
+// ```

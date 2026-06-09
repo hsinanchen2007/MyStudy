@@ -1,6 +1,6 @@
-首先将二进制字符串转换为列表，其次依次求和，需要考虑进位的情况，将结果直接在较长的列表中修改。
+# 首先将二进制字符串转换为列表，其次依次求和，需要考虑进位的情况，将结果直接在较长的列表中修改。
 
-```python []
+# ```python []
 class Solution:
     def addBinary(self, a: str, b: str) -> str:()
         inta = list(int(aii) for aii in a)
@@ -28,6 +28,6 @@ class Solution:
         for ii in inta:
             str1+=str(ii)
         return str1
-```
+# ```
 
 

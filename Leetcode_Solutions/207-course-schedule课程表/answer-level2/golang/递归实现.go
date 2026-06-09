@@ -1,4 +1,4 @@
-```
+// ```
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	var (
 		i          int
@@ -42,4 +42,4 @@ func learnCourse(i int, visitedMap, reqingMap map[int]bool, reqMap map[int][]int
 	return true
 }
 
-```
+// ```

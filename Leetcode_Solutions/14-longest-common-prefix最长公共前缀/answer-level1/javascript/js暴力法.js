@@ -1,4 +1,4 @@
-```
+// ```
 var longestCommonPrefix = function(strs) {
     const {length} = strs
     let prefix = ''
@@ -16,4 +16,4 @@ var longestCommonPrefix = function(strs) {
     }
     return prefix
 };
-```
+// ```

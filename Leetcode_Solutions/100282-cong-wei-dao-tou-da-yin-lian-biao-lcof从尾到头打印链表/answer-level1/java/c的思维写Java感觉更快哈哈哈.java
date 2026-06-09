@@ -1,9 +1,9 @@
-### 解题思路
-首先遍历一遍求出链表长度，然后建立数组，再遍历一遍链表把元素逆序放入数组中。
+// ### 解题思路
+// 首先遍历一遍求出链表长度，然后建立数组，再遍历一遍链表把元素逆序放入数组中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

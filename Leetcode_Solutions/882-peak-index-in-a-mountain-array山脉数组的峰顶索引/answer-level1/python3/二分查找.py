@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-二分查找
+# 二分查找
 
-时间复杂度`O(log n)`
+# 时间复杂度`O(log n)`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def peakIndexInMountainArray(self, A: List[int]) -> int:
         l = 0
@@ -20,4 +20,4 @@ class Solution:
             else:
                 r = mid - 1
         return l
-```
+# ```

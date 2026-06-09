@@ -1,8 +1,8 @@
-深度优先搜索，避免重复计算：
-1、先判断左子树，右子树是不是二叉搜索树；
-2、如果左右子树都是二叉搜索树，那么再判断根结点组成的树是否是二叉搜索树；
-注：不能仅root->val跟root->left->val、root->right->val判断，还需要跟左子树的最大值以及右子树的最小值比较
-```
+// 深度优先搜索，避免重复计算：
+// 1、先判断左子树，右子树是不是二叉搜索树；
+// 2、如果左右子树都是二叉搜索树，那么再判断根结点组成的树是否是二叉搜索树；
+// 注：不能仅root->val跟root->left->val、root->right->val判断，还需要跟左子树的最大值以及右子树的最小值比较
+// ```
 #define MAX_VALUE 40001
 int Max(int a, int b)
 {
@@ -73,4 +73,4 @@ int maxSumBST(struct TreeNode* root){
     CalculateMaxSumBST(root, &sum, &maxValue, &minValue);
     return g_maxSum;
 }
-```
+// ```

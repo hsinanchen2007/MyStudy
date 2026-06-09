@@ -1,8 +1,8 @@
-1. 我们知道如何最终结果为sum(i,j)为从i到j的子序列和，则sum(i,j) = sum(0,j) - sum(0,i-1);
-2.按照第一条的规则，假设sum(i,j) = k,则  sum(0,j) = k + sum(0,i-1),因此我们利用hash查找是否存在前N项和的值为sum(0,n) - k,如果找到，则输出结果。
-3.代码如下所示：
+// 1. 我们知道如何最终结果为sum(i,j)为从i到j的子序列和，则sum(i,j) = sum(0,j) - sum(0,i-1);
+// 2.按照第一条的规则，假设sum(i,j) = k,则  sum(0,j) = k + sum(0,i-1),因此我们利用hash查找是否存在前N项和的值为sum(0,n) - k,如果找到，则输出结果。
+// 3.代码如下所示：
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int maxSubArrayLen(vector<int>& nums, int k) {
@@ -25,8 +25,8 @@ public:
         return ans;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def maxSubArrayLen(self, nums: List[int], k: int) -> int:
         s = 0
@@ -42,4 +42,4 @@ class Solution:
                 ans = max(ans,i+1-prefix[s-k])
                 
         return ans
-```
+// ```

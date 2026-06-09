@@ -1,9 +1,9 @@
-### 解题思路
-C# 分别查询两个边界
+// ### 解题思路
+// C# 分别查询两个边界
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Search(int[] nums, int target) {
         int start = 0, end = nums.Length - 1;
@@ -40,4 +40,4 @@ public class Solution {
         return right - left - 1;
     }
 }
-```
+// ```

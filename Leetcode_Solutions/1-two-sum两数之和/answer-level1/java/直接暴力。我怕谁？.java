@@ -1,9 +1,9 @@
-### 解题思路
-随机取两个不同下标的值。知道成功找到为止~~~~~看运气了
+// ### 解题思路
+// 随机取两个不同下标的值。知道成功找到为止~~~~~看运气了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int back[] = new int[2] ;
@@ -21,4 +21,4 @@ class Solution {
         return back;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-利用``strtok``函数分割，``strcmp``比较字符串。c代码也可以写得简单一些。
-建立一个栈，遇到..弹栈，遇到.跳过， 否则压栈。
-```
+// 利用``strtok``函数分割，``strcmp``比较字符串。c代码也可以写得简单一些。
+// 建立一个栈，遇到..弹栈，遇到.跳过， 否则压栈。
+// ```
 #include <stdio.h>
 
 #define MAXLEN 1024
@@ -70,4 +70,4 @@ char * simplifyPath(char * path)
     return ret;
 
 }
-```
+// ```

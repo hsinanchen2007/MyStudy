@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -23,4 +23,4 @@ public:
         return g >=2 ? true:false;
     }
 };
-```
+// ```

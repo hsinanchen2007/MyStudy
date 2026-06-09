@@ -1,5 +1,5 @@
-具体如何建树可以[看这里，里面还有前缀树的建树方法](https://github.com/Streetlight-bookstand/Algorithm/blob/master/Trie%20Tree.md)
-```c++
+// 具体如何建树可以[看这里，里面还有前缀树的建树方法](https://github.com/Streetlight-bookstand/Algorithm/blob/master/Trie%20Tree.md)
+// ```c++
 struct TrieNode {
     TrieNode* next[26];
     TrieNode() {
@@ -49,4 +49,4 @@ int minimumLengthEncoding(vector<string>& words) {
     }
     return CountLeaveHeight(root, 1);
 }
-```
+// ```

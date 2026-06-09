@@ -1,6 +1,6 @@
 
 
-```javascript
+// ```javascript
 var balancedStringSplit = function(s) {
     let num = 0
     let res = 0;
@@ -16,4 +16,4 @@ var balancedStringSplit = function(s) {
     }
     return res;
 };
-```
+// ```

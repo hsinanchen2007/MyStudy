@@ -1,10 +1,10 @@
-### 解题思路
-没啥思路，遍历。
-一个变量坑了我一下，这种分支较多的方法，写代码要注意。
+// ### 解题思路
+// 没啥思路，遍历。
+// 一个变量坑了我一下，这种分支较多的方法，写代码要注意。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestLine(int** M, int MSize, int* MColSize){
     int max = 0;
     int tmp = 0;
@@ -99,4 +99,4 @@ int longestLine(int** M, int MSize, int* MColSize){
     if(debug) printf("4 max %d\n",max);
     return max;
 }
-```
+// ```

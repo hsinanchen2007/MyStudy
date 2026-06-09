@@ -1,4 +1,4 @@
-```
+// ```
 class MaxQueue {
     
     private Queue<Integer> queue;
@@ -30,4 +30,4 @@ class MaxQueue {
         return res;
     }
 }
-```
+// ```

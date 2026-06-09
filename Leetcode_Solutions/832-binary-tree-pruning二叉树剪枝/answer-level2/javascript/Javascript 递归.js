@@ -1,9 +1,9 @@
-### 解题思路
-后序遍历，通过左右子节点判断该节点是否保留。
-确定root是否为叶子结点，如果是并且val == 0，则返回null。
-### 代码
+// ### 解题思路
+// 后序遍历，通过左右子节点判断该节点是否保留。
+// 确定root是否为叶子结点，如果是并且val == 0，则返回null。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var pruneTree = function(root) {
 
     
 };
-```
+// ```

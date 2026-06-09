@@ -1,4 +1,4 @@
-```
+// ```
 var findErrorNums = function(nums) {
     //有一个元素重复  nums是无序的
     //新建一个数组
@@ -15,4 +15,4 @@ var findErrorNums = function(nums) {
     }
     return [];
 };
-```
+// ```

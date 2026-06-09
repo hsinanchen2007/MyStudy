@@ -1,9 +1,9 @@
-### 解题思路
-C语言题解， 处理字符串很麻烦
+// ### 解题思路
+// C语言题解， 处理字符串很麻烦
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static char*** S;
 static int SLen;
 
@@ -73,4 +73,4 @@ char * findContestMatch(int n){
         
     return res;
 }
-```
+// ```

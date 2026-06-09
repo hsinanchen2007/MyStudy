@@ -1,9 +1,9 @@
-### 解题思路
-分类讨论，注意特殊情况
+// ### 解题思路
+// 分类讨论，注意特殊情况
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool detectCapitalUse(char * word){
     if(word==""||word[1]=='\0')return true;
     
@@ -18,4 +18,4 @@ bool detectCapitalUse(char * word){
                 return false;
     return true;
 }
-```
+// ```

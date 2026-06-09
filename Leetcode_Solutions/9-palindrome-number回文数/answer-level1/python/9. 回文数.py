@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -16,4 +16,4 @@ class Solution(object):
             rev = rev * 10 + num % 10
             num /= 10
         return rev == x
-```
+# ```

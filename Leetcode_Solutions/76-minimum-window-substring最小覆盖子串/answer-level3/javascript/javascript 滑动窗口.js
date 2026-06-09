@@ -1,29 +1,29 @@
-[76.最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/submissions/)    
+// [76.最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/submissions/)    
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
 
-对于子串问题，可以优先想到使用滑动窗口来解决，本题也不例外，可以使用滑动窗口来进行处理。   
+// 对于子串问题，可以优先想到使用滑动窗口来解决，本题也不例外，可以使用滑动窗口来进行处理。   
 
-处理过程分为以下几步：   
+// 处理过程分为以下几步：   
 
-1. 在字符串s中设置双指针left和right，left和right初始化为0，`[left, right]`为一个滑动窗口。   
-2. 不断增大right的值，直到滑动窗口能够匹配到给定的t字符串。   
-3. 移动left指针对滑动窗口进行优化，移动left过程中需要记录最新的能够匹配t的left和right的值；当滑动窗口匹配不到t时，停止优化。   
-4. 重复第2步和第3步，直到字符串s遍历结束。   
+// 1. 在字符串s中设置双指针left和right，left和right初始化为0，`[left, right]`为一个滑动窗口。   
+// 2. 不断增大right的值，直到滑动窗口能够匹配到给定的t字符串。   
+// 3. 移动left指针对滑动窗口进行优化，移动left过程中需要记录最新的能够匹配t的left和right的值；当滑动窗口匹配不到t时，停止优化。   
+// 4. 重复第2步和第3步，直到字符串s遍历结束。   
 
-思路不难，但难在处理，有了思路之后，本题中核心问题就变成了怎么判断滑动窗口能否匹配到t字符串的问题。   
+// 思路不难，但难在处理，有了思路之后，本题中核心问题就变成了怎么判断滑动窗口能否匹配到t字符串的问题。   
 
-为了解决是否匹配的问题，可以设置两个辅助map：  
-- 一个tMap用于记录字符串t中每一个字符出现的次数；
-- 一个windowMap用于记录当前滑动窗口中每一个字符出现的次数；
-- 同时设置一个辅助变量matchNum表示已经成功匹配到的字符的个数，当matchNum等于tMap.size时，就表示当前滑动窗口能够成功匹配到t字符串。  
+// 为了解决是否匹配的问题，可以设置两个辅助map：  
+// - 一个tMap用于记录字符串t中每一个字符出现的次数；
+// - 一个windowMap用于记录当前滑动窗口中每一个字符出现的次数；
+// - 同时设置一个辅助变量matchNum表示已经成功匹配到的字符的个数，当matchNum等于tMap.size时，就表示当前滑动窗口能够成功匹配到t字符串。  
 
-方法一就是以上思路，滑动窗口系列问题可以前往[力扣JS题解](https://github.com/GuYueJiaJie/blog/tree/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)进行查看。   
+// 方法一就是以上思路，滑动窗口系列问题可以前往[力扣JS题解](https://github.com/GuYueJiaJie/blog/tree/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)进行查看。   
 
-## 方法一
+// ## 方法一
 
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -90,10 +90,10 @@ var minWindow = function(s, t) {
     }
     return miniLength === -1 ? "" : s.substring(miniLeft, miniRight+1);
 };
-```
+// ```
 
-## 方法二   
+// ## 方法二   
 
-优化方法是先对字符串s进行遍历，然后只记录字符串t中出现的字符及其下标，在进行双指针遍历时，只遍历t中存在的有效字符。   
+// 优化方法是先对字符串s进行遍历，然后只记录字符串t中出现的字符及其下标，在进行双指针遍历时，只遍历t中存在的有效字符。   
 
-只有在s长度远大于有效字符个数时，有明显效果。
+// 只有在s长度远大于有效字符个数时，有明显效果。

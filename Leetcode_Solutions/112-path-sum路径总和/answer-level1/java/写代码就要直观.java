@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) return false;
@@ -15,4 +15,4 @@ class Solution {
         return back(root.left, sum-root.val) || back(root.right, sum - root.val);
     }
 }
-```
+// ```

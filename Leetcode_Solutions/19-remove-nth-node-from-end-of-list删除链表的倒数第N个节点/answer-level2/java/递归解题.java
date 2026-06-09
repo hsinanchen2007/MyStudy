@@ -1,7 +1,7 @@
     
-直接上代码：
+// 直接上代码：
 
-```
+// ```
 public static ListNode listNodeTmp;
 
 public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -28,4 +28,4 @@ public int nodeNum(ListNode head,int n){
     }
     return tmp;
 }
-```
+// ```

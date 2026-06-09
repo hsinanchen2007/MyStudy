@@ -1,8 +1,8 @@
-### 解题思路
-递归
-### 代码
+# ### 解题思路
+# 递归
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -16,4 +16,4 @@ class Solution:
             return []
         else:
             return [root.val] + self.preorderTraversal(root.left) + self.preorderTraversal(root.right)
-```
+# ```

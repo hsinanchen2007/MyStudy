@@ -1,19 +1,19 @@
-# 动态规划：
+// # 动态规划：
 
-1. 状态：dp[i, j] => i 代表房屋，j 代表状态：0 不偷、1 偷， dp[i,j]
-2. 状态转移方程：
-    选择不偷： 那么最高金额有两种情况, 昨天也没偷 或者 昨天偷了
-    dp[i, 0] = Math.Max(dp[i - 1, 0], dp[i - 1, 1]);
-    选择偷：那么只能来自 昨天不偷
-    dp[i, 1] = dp[i - 1, 0] + nums[i];
-3. 初始化
-    初始化第一天偷 或者 不偷 的情况
-    dp[0, 0] = 0;
-    dp[0, 1] = nums[0];
+// 1. 状态：dp[i, j] => i 代表房屋，j 代表状态：0 不偷、1 偷， dp[i,j]
+// 2. 状态转移方程：
+//     选择不偷： 那么最高金额有两种情况, 昨天也没偷 或者 昨天偷了
+//     dp[i, 0] = Math.Max(dp[i - 1, 0], dp[i - 1, 1]);
+//     选择偷：那么只能来自 昨天不偷
+//     dp[i, 1] = dp[i - 1, 0] + nums[i];
+// 3. 初始化
+//     初始化第一天偷 或者 不偷 的情况
+//     dp[0, 0] = 0;
+//     dp[0, 1] = nums[0];
 
-# C#代码
+// # C#代码
 
-```csharp
+// ```csharp
 public int Rob(int[] nums)
 {
     int n = nums.Length;
@@ -34,11 +34,11 @@ public int Rob(int[] nums)
 
     return Math.Max(dp[n - 1, 0], dp[n - 1, 1]);
 }
-```
+// ```
 
-# 优化空间复杂度
+// # 优化空间复杂度
 
-```csharp
+// ```csharp
 public int Rob_O(int[] nums)
 {
     int n = nums.Length;
@@ -59,4 +59,4 @@ public int Rob_O(int[] nums)
 
     return Math.Max(dp_0, dp_1);
 }
-```
+// ```

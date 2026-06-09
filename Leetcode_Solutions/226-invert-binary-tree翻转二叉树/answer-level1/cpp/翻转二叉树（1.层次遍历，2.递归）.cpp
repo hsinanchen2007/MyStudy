@@ -1,5 +1,5 @@
-**递归**
-```
+// **递归**
+// ```
 typedef struct TreeNode* ptr;
 struct TreeNode* invertTree(struct TreeNode* root){
     if(!root || (!root->left && !root->right))
@@ -10,9 +10,9 @@ struct TreeNode* invertTree(struct TreeNode* root){
     root->right = l;
     return root;
 }
-```
-**层次遍历，遍历到每一个节点时交换其左右孩子即可。**
-```
+// ```
+// **层次遍历，遍历到每一个节点时交换其左右孩子即可。**
+// ```
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -35,4 +35,4 @@ public:
         return root;
     }
 };
-```
+// ```

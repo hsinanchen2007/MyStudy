@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-我是按一列一列放置来计算的，然后再减去每次放置后重叠的面积
+# 我是按一列一列放置来计算的，然后再减去每次放置后重叠的面积
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def surfaceArea(self, grid):
         """
@@ -31,4 +31,4 @@ class Solution(object):
             area -= sum([min(grid[rowIndex - 1][cloIndex], grid[rowIndex][cloIndex]) * 2 for cloIndex in
                  range(len(grid[rowIndex]))])
         return area
-```
+# ```

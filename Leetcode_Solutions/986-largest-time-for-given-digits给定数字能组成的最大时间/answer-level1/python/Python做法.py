@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def largestTimeFromDigits(self, A):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             return str(res[0])+str(res[1])+":"+str(res[2])+str(res[3])
         else:
             return ""
-```
+# ```

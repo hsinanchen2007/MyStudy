@@ -1,5 +1,5 @@
-### 1.使用队列(其实队列就是堆实现的)
-```java []
+// ### 1.使用队列(其实队列就是堆实现的)
+// ```java []
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         Queue q=new PriorityQueue<Integer>((a,b)->{return b-a;});
@@ -15,8 +15,8 @@ class Solution {
         return res;
     }
 }
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -33,9 +33,9 @@ public:
         return res;
     }
 };
-```
-### 2.手写堆
-```cpp
+// ```
+// ### 2.手写堆
+// ```cpp
 const int maxn=10005;
 class Solution {
 public:
@@ -74,10 +74,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 3.快速排序思想
-```cpp
+// ### 3.快速排序思想
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -100,4 +100,4 @@ public:
         if(i==k)arr.resize(k);
     }
 };
-```
+// ```

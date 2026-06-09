@@ -1,8 +1,8 @@
-### 解题思路
-遍历数组，找到第一个不是递增的元素即可。
-### 代码
+// ### 解题思路
+// 遍历数组，找到第一个不是递增的元素即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMin(int[] nums) {
         if(nums==null||nums.length<=0){
@@ -16,4 +16,4 @@ class Solution {
         return nums[0];
     }
 }
-```
+// ```

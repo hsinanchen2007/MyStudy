@@ -1,9 +1,9 @@
-### 解题思路
-i先转置，再x以列中心对称旋转
+// ### 解题思路
+// i先转置，再x以列中心对称旋转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int n = matrixSize;
     int i,j;
@@ -44,4 +44,4 @@ class Solution:
         for i in range(n):
             for j in range(i):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-```
+// ```

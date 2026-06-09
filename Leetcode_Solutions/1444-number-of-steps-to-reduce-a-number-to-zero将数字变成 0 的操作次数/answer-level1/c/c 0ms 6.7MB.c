@@ -1,4 +1,4 @@
-```
+// ```
 int numberOfSteps (int num){
 
     int count = 0;
@@ -21,4 +21,4 @@ int numberOfSteps (int num){
     return count;
 
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :140 ms, 在所有 Python 提交中击败了46.50%的用户
-内存消耗 :12.7 MB, 在所有 Python 提交中击败了77.14%的用户
+# ### 解题思路
+# 执行用时 :140 ms, 在所有 Python 提交中击败了46.50%的用户
+# 内存消耗 :12.7 MB, 在所有 Python 提交中击败了77.14%的用户
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                     maxarea.append(area)
         # print(maxarea)
         return max(maxarea) if maxarea else 0       
-```
+# ```

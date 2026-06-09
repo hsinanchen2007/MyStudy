@@ -1,8 +1,8 @@
-count记录奇偶下表，奇数偶数各一个节点一起遍历，最后拼接。
-需要注意的是后半部分需要在便利结束后让指针归null
+// count记录奇偶下表，奇数偶数各一个节点一起遍历，最后拼接。
+// 需要注意的是后半部分需要在便利结束后让指针归null
 
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return oddDummy.next;
     }
 }
-```
+// ```

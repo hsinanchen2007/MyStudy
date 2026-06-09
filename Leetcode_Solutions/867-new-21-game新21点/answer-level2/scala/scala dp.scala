@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def new21Game(N: Int, K: Int, W: Int): Double = {
     if (K == 0 || N >= K + W) return 1.0
@@ -14,4 +14,4 @@ object Solution {
     res
   }
 }
-```
+// ```

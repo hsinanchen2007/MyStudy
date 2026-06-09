@@ -1,5 +1,5 @@
-118. 杨辉三角I
-```
+# 118. 杨辉三角I
+# ```
 class Solution:
 	def generate(self, numRows: int) -> List[List[int]]:
 		res = []
@@ -10,10 +10,10 @@ class Solution:
 				tmp[i] = tmp[i] + tmp[i+1]
 			res.append(tmp[:])
 		return res
-```
+# ```
 
-119.杨辉三角II
-```
+# 119.杨辉三角II
+# ```
 class Solution:
 	def getRow(self, rowIndex: int) -> List[int]:
 		res = []
@@ -24,4 +24,4 @@ class Solution:
 				tmp[i] = tmp[i] + tmp[i+1]
 			res.append(tmp[:])
 		return tmp[:]
-```
+# ```

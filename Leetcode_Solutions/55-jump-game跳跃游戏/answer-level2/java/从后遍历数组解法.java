@@ -1,9 +1,9 @@
-### 解题思路
-数组从后向前遍历求解
+// ### 解题思路
+// 数组从后向前遍历求解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         
@@ -26,4 +26,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

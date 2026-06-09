@@ -1,9 +1,9 @@
-### 解题思路
-直接使用join和split
+# ### 解题思路
+# 直接使用join和split
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def replaceSpace(self, s: str) -> str:
         # res=""
@@ -14,4 +14,4 @@ class Solution:
         #         res+=ss
         # return res
         return '%20'.join(s.split(' '))
-```
+# ```

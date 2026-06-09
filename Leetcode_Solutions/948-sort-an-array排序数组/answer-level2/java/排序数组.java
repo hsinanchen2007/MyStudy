@@ -1,9 +1,9 @@
-### 解题思路
-此题最好的就是用Arrays sort一下就完事了，可明显不符合出题用意。排序的方法很多，这里简单用堆排序来实现。
+// ### 解题思路
+// 此题最好的就是用Arrays sort一下就完事了，可明显不符合出题用意。排序的方法很多，这里简单用堆排序来实现。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private void swap(int[] arr, int i, int j) {
         int temp = arr[i];
@@ -40,4 +40,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

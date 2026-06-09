@@ -1,9 +1,9 @@
 
-   遍历S中每个字符，分成和前一个相同或不相同两种情况，然后还有一种当前字符为最后字符的处理
+#    遍历S中每个字符，分成和前一个相同或不相同两种情况，然后还有一种当前字符为最后字符的处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         l=len(S)
@@ -33,5 +33,5 @@ class Solution:
                 return S
             else:
                 return st_str
-```
-![image.png](https://pic.leetcode-cn.com/f7e0530f32e5e8acf130085b342102e2882bcdb98b293abc6aa034c163b53b81-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/f7e0530f32e5e8acf130085b342102e2882bcdb98b293abc6aa034c163b53b81-image.png)

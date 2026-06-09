@@ -1,9 +1,9 @@
-### 解题思路
-主要问题是题目判定的board引向的内存空间，而在回溯过程中，找到答案后，可能还会thread继续更改board；
+# ### 解题思路
+# 主要问题是题目判定的board引向的内存空间，而在回溯过程中，找到答案后，可能还会thread继续更改board；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
@@ -75,4 +75,4 @@ class Solution:
         make_a_board_copy(self.res, self.board)
         
 
-```
+# ```

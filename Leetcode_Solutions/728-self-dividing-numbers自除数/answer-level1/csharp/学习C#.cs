@@ -1,8 +1,8 @@
-### 解题思路
-跟语法没关，注意不包含自除数0代表一旦有0那么就不是自除数
-### 代码
+// ### 解题思路
+// 跟语法没关，注意不包含自除数0代表一旦有0那么就不是自除数
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<int> SelfDividingNumbers(int left, int right) {
         var res = new List<int>(0);
@@ -25,4 +25,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

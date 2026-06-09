@@ -1,9 +1,9 @@
-### 解题思路
-需要注意res += 这样的写法比较节约内存
+// ### 解题思路
+// 需要注意res += 这样的写法比较节约内存
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -27,4 +27,4 @@ public:
       return res.size() >= S.size() ? S : res;
     }
 };
-```
+// ```

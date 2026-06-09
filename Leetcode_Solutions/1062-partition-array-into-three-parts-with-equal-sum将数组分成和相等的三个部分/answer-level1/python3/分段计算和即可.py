@@ -1,4 +1,4 @@
-```
+# ```
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         s = sum(A)
         
@@ -20,4 +20,4 @@
             #大于是为了处理和为 0 的情况
             return True
         return False
-```
+# ```

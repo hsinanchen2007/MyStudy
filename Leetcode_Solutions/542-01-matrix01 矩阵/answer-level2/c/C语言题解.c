@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //申请返回值的数组 **ans，将返回值的数组的所有值设置为0
 //1.遍历所有节点，将数值为0的x,y push到队列中,非零的值根据x,y将返回值中置为最大值 ans[x][y] = INT_MAX
 //队列中取头部x,y; 然后dequeue
@@ -127,4 +127,4 @@ int** updateMatrix(int** matrix, int matrixSize, int* matrixColSize, int* return
     }
     return ans;
 }
-```
+// ```

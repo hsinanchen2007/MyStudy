@@ -1,12 +1,12 @@
-其实我觉得这个题是个0-1背包问题，我们可以将问题抽象为：
-```java
+// 其实我觉得这个题是个0-1背包问题，我们可以将问题抽象为：
+// ```java
 f(i,target)：抛掷前i+1个硬币，正面朝上的硬币数等于target的概率
 当前投出target可以是（1）当前没投出正面，前i个投出target（2）当前投出正面，前i个投出target-1
 f(i,target) = f(i-1,target-1)*prob[i]+f(i-1,target)*(1-prob[i])
-```
-首先使用记忆化搜索。
-老规矩，先写自顶向下，这里格外要注意的就是不能出现dfs（1,3），因为现在prob中就两枚硬币（i=0,1），肯定不能出现3个正面向上的硬币。
-```java
+// ```
+// 首先使用记忆化搜索。
+// 老规矩，先写自顶向下，这里格外要注意的就是不能出现dfs（1,3），因为现在prob中就两枚硬币（i=0,1），肯定不能出现3个正面向上的硬币。
+// ```java
 class Solution {
     double[][]memo;
     public double probabilityOfHeads(double[] prob, int target) {
@@ -40,9 +40,9 @@ class Solution {
         return memo[index][target];
     }
 }
-```
-写出自顶向下的代码，就可以知道哪些条件应该是初始条件了，将初始条件赋值到dp数组中
-```java
+// ```
+// 写出自顶向下的代码，就可以知道哪些条件应该是初始条件了，将初始条件赋值到dp数组中
+// ```java
 class Solution {
     public double probabilityOfHeads(double[] prob, int target) {
         /*
@@ -76,15 +76,15 @@ class Solution {
         return dp[N-1][target];
     }
 }
-```
-大家都知道背包问题可以优化空间，将二维数组优化为一维数组，只不过要注意在从后向前遍历。
-可以看出转移方程为：
-```java
+// ```
+// 大家都知道背包问题可以优化空间，将二维数组优化为一维数组，只不过要注意在从后向前遍历。
+// 可以看出转移方程为：
+// ```java
  dp[i,target] = dp[i-1,target-1]*prob[i]+dp[i-1,target]*(1-prob[i])
-```
-第i行的结果只与第i-1行的数值有关系，因此可以只使用一维的数组来存储数值。
+// ```
+// 第i行的结果只与第i-1行的数值有关系，因此可以只使用一维的数组来存储数值。
 
-```java
+// ```java
 class Solution {
     public double probabilityOfHeads(double[] prob, int target) {
         /*
@@ -117,4 +117,4 @@ class Solution {
         return dp[target];
     }
 }
-```
+// ```

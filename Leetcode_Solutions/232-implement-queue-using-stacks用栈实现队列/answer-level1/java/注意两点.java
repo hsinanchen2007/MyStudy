@@ -1,10 +1,10 @@
-### 解题思路
-1)要把stack1中的元素一股脑全部放到stack2。
-2)如果stack2不为空，必须等元素弹出完，才能接着放stack2。
+// ### 解题思路
+// 1)要把stack1中的元素一股脑全部放到stack2。
+// 2)如果stack2不为空，必须等元素弹出完，才能接着放stack2。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     Stack<Integer> stack1;
@@ -56,4 +56,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-基本采用栈的思想，不过时间有点慢。。。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 基本采用栈的思想，不过时间有点慢。。。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -64,4 +64,4 @@ public:
         return newHead;
     }
 };
-```
+// ```

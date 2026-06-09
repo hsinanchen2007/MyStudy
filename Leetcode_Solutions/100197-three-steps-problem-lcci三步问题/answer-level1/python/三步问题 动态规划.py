@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def waysToStep(self, n):
         dp = [0]*n
@@ -19,4 +19,4 @@ class Solution(object):
             for i in range(3,n):
                 dp[i] = (dp[i-1] + dp[i-2] + dp[i-3])% 1000000007
         return dp[n-1] 
-```
+# ```

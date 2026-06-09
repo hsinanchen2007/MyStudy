@@ -1,10 +1,10 @@
-### 解题思路
-使用栈实现二叉树的先序遍历
-将以各个节点为终点对应的前n项和(起点为从根节点至当前节点)作为列表保存，在遍历过程中需要不断更新
+# ### 解题思路
+# 使用栈实现二叉树的先序遍历
+# 将以各个节点为终点对应的前n项和(起点为从根节点至当前节点)作为列表保存，在遍历过程中需要不断更新
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
                 stack.append((node.left,[i+node.left.val for i in value]))
         return res
 
-```
+# ```

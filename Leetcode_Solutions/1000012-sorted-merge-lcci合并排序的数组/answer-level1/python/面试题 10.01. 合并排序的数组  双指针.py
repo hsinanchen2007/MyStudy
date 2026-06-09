@@ -1,9 +1,9 @@
-### 解题思路
-从后面开始遍历 双指针
+# ### 解题思路
+# 从后面开始遍历 双指针
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         p1 = m - 1
@@ -19,4 +19,4 @@ class Solution(object):
             p -= 1
         A[:p2 + 1] = B[:p2 + 1]
         return 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针找到链表中点，递归调用左右子树。
+// ### 解题思路
+// 快慢指针找到链表中点，递归调用左右子树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ public:
         return r;
     }
 };
-```
+// ```

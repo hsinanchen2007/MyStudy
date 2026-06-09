@@ -1,8 +1,8 @@
-DFS遍历全部情况，结束条件：
-1、left表示已用左括号数，left不能大于n；
-2、right表示已用右括号数，right必须小于等于已用左括号数；
-3、全部括号都使用，则找到一个正确解
-```
+// DFS遍历全部情况，结束条件：
+// 1、left表示已用左括号数，left不能大于n；
+// 2、right表示已用右括号数，right必须小于等于已用左括号数；
+// 3、全部括号都使用，则找到一个正确解
+// ```
 func generateParenthesis(n int) []string {
     if n <= 0 {
         return []string{}
@@ -32,4 +32,4 @@ func generateParenthesis(n int) []string {
 }
 
 
-```
+// ```

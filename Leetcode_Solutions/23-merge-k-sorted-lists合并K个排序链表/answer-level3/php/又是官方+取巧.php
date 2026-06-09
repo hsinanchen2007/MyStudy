@@ -1,9 +1,9 @@
-### 解题思路
-取巧虽然是O(n)但是速度比官方的O(nlog n)快得多得多，有点疑惑
+// ### 解题思路
+// 取巧虽然是O(n)但是速度比官方的O(nlog n)快得多得多，有点疑惑
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -71,4 +71,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-# 解法一：遍历两次head
+// # 解法一：遍历两次head
 
-**第一次记录链表的数量,第二次进行将链表中的值取出并逆序摆放进数组**
+// **第一次记录链表的数量,第二次进行将链表中的值取出并逆序摆放进数组**
 
-**--执行用时：0 ms --内存消耗：2.8 MB**
+// **--执行用时：0 ms --内存消耗：2.8 MB**
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -32,13 +32,13 @@ func reversePrint(head *ListNode) []int {
     }
     return nums
 }
-```
+// ```
 
-# 解法二：反转链表后再按序加入数组
+// # 解法二：反转链表后再按序加入数组
 
-**--执行用时：4 ms --内存消耗：3.1 MB**
+// **--执行用时：4 ms --内存消耗：3.1 MB**
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -60,15 +60,15 @@ func reversePrint(head *ListNode) []int {
     }
     return nums
 }
-```
+// ```
 
-# 解法三：递归解法
+// # 解法三：递归解法
 
-**--执行时间：4 ms--消耗内存：4.6 MB**
+// **--执行时间：4 ms--消耗内存：4.6 MB**
 
-**（代码简洁，但相对于执行时间和内存消耗，都要比“代码量最多的解法一”多）**
+// **（代码简洁，但相对于执行时间和内存消耗，都要比“代码量最多的解法一”多）**
 
-```go
+// ```go
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -82,5 +82,5 @@ func reversePrint(head *ListNode) []int {
     }
     return append(reversePrint(head.Next), head.Val)
 }
-```
+// ```
 

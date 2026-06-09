@@ -1,4 +1,4 @@
-```
+// ```
 /*
     解题思路：
             1. 全是大写，利用toUpperCase函数，将原字符串转换为大写，再与原字符串比较，相同则true
@@ -27,4 +27,4 @@ var detectCapitalUse = function(word) {
     }
     return false;
 };
-```
+// ```

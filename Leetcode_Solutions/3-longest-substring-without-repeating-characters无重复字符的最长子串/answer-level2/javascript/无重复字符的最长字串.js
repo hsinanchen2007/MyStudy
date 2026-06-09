@@ -1,12 +1,12 @@
-### 解题思路
-需要返回的是：最长字串的长度，设置一个默认值：maxLen = 0；
-设置一个中间变量：maxStr,用来记录每个循环能得到的最长的字串
+// ### 解题思路
+// 需要返回的是：最长字串的长度，设置一个默认值：maxLen = 0；
+// 设置一个中间变量：maxStr,用来记录每个循环能得到的最长的字串
 
-如果当前的字符在maxStr中已经出现了，那么需要重置一个maxStr
+// 如果当前的字符在maxStr中已经出现了，那么需要重置一个maxStr
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -29,4 +29,4 @@ var lengthOfLongestSubstring = function(s) {
 
     return maxLen;
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-遍历字符串s,累加各字符的个数到map,
-再遍历t,从map中累减，过程中遇到map中不存在的字符，直接判false;
-最后map为空则true，否则false
+// ### 解题思路
+// 遍历字符串s,累加各字符的个数到map,
+// 再遍历t,从map中累减，过程中遇到map中不存在的字符，直接判false;
+// 最后map为空则true，否则false
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -34,4 +34,4 @@ public:
         return false;
     }
 };
-```
+// ```

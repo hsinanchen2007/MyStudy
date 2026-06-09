@@ -1,4 +1,4 @@
-```
+// ```
 type MyCircularQueue struct {
     Head int
     Tail int
@@ -82,4 +82,4 @@ func (this *MyCircularQueue) IsFull() bool {
     }
     return false
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canMeasureWater(x int, y int, z int) bool {
 	if x > y {
 		x ,y = y,x
@@ -45,4 +45,4 @@ func getMap(nums map[int]int,x,y,k int)  {
 		getMap(nums,x,y,y-k)
 	}
 }
-```
+// ```

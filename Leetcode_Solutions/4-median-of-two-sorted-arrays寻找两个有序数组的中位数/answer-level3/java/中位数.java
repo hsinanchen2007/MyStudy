@@ -1,8 +1,8 @@
-### 解题思路
-二分的非递归版本
-### 代码
+// ### 解题思路
+// 二分的非递归版本
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
@@ -31,4 +31,4 @@ class Solution {
         return -1;
     }     
 }
-```
+// ```

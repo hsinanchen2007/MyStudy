@@ -1,9 +1,9 @@
-### 解题思路
-d
+# ### 解题思路
+# d
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countBits(self, num: int) -> List[int]:
         if num==0:
@@ -25,4 +25,4 @@ class Solution:
                 curr = curr+1
             i+=1  #层数+1
         return res
-```
+# ```

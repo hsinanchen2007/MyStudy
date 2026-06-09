@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```python
+// ```python
 class Solution(object):
     def eraseOverlapIntervals(self, intervals):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 end=i[1]
                 ans=ans+1
         return len(intervals)-ans
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-整理出所有字符串里面字母从小到大的排列顺序 并创建对应的哈希表
+// ### 解题思路
+// 整理出所有字符串里面字母从小到大的排列顺序 并创建对应的哈希表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
          List<List<String>> result=new ArrayList<>();
@@ -41,4 +41,4 @@ class Solution {
 
 }
 
-```
+// ```

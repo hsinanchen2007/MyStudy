@@ -1,10 +1,10 @@
-### 解题思路
-基于62题思路：
-每次只能从上、从左来，每次将这两个方向中最小的，赋给新位置
+// ### 解题思路
+// 基于62题思路：
+// 每次只能从上、从左来，每次将这两个方向中最小的，赋给新位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minPathSum(int** grid, int gridSize, int* gridColSize){
     int **route_amount=(int**)malloc(sizeof(int*)*gridSize);
     for(int i=0; i<gridSize; i++)
@@ -24,4 +24,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
     }
     return route_amount[gridSize-1][*gridColSize-1];
 }
-```
+// ```

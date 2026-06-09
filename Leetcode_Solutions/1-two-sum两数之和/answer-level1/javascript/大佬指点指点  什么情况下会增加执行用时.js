@@ -1,9 +1,9 @@
-### 解题思路
-* 利用shift() 每次取出一个值 和数组进行对比
+// ### 解题思路
+// * 利用shift() 每次取出一个值 和数组进行对比
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -19,4 +19,4 @@ const twoSum = (nums, target) => {
         }
     }
 };
-```
+// ```

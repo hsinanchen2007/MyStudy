@@ -1,9 +1,9 @@
-### 解题思路
-采用双端队列的方式，头存放最大值（降序），当窗口移动的时候首先需要判断，deque中坐标对应的nums是否还在窗口中，不在removeFirst，在的话，对新添加到窗口中的值和deque中的值进行比较，deque小的话removeLast，如果新进入的窗口小的话，addLast即可，maxnums=deque.getFirst;
-时间复杂度为O(n);空间复杂度为O(n)：
-### 代码
+// ### 解题思路
+// 采用双端队列的方式，头存放最大值（降序），当窗口移动的时候首先需要判断，deque中坐标对应的nums是否还在窗口中，不在removeFirst，在的话，对新添加到窗口中的值和deque中的值进行比较，deque小的话removeLast，如果新进入的窗口小的话，addLast即可，maxnums=deque.getFirst;
+// 时间复杂度为O(n);空间复杂度为O(n)：
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
        //采用双向队列Deque，可以将窗口中最大值储存在队列最左端
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法
+// ### 解题思路
+// 回溯算法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numTilePossibilities(char * tiles){
     int result = 0;
     int *box = (int *)calloc(sizeof(int), 26);
@@ -25,4 +25,4 @@ int numTilePossibilities(char * tiles){
         box[i]++;
      }
  }
-```
+// ```

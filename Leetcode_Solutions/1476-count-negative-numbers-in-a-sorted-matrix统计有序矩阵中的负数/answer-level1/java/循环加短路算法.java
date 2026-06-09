@@ -1,8 +1,8 @@
-### 解题思路
-在最左端的负数处“短路”break;
-### 代码
+// ### 解题思路
+// 在最左端的负数处“短路”break;
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         int m = grid.length;
@@ -21,4 +21,4 @@ class Solution {
 		return r;
     }
 }
-```
+// ```

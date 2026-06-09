@@ -1,13 +1,13 @@
 
-![image.png](https://pic.leetcode-cn.com/334a74748b316552c8ee6a061984bb0d2583c46bd573e61bb25c0020bbaa1595-image.png)
+// ![image.png](https://pic.leetcode-cn.com/334a74748b316552c8ee6a061984bb0d2583c46bd573e61bb25c0020bbaa1595-image.png)
 
-动态根据树的节点数创建队列；
-中序遍历入队；
-对队列的升序特性进行校验；
+// 动态根据树的节点数创建队列；
+// 中序遍历入队；
+// 对队列的升序特性进行校验；
 
-需要注意的点是用例中存在正负LONG_MAX的边界值，所以校验升序特性的最大值变量要初始化为 -LONG_MAX，这一点挺恶心的。
+// 需要注意的点是用例中存在正负LONG_MAX的边界值，所以校验升序特性的最大值变量要初始化为 -LONG_MAX，这一点挺恶心的。
 
-```
+// ```
 typedef struct {
     int* data;
     int size;
@@ -109,7 +109,7 @@ bool isValidBST(struct TreeNode* root){
     myQueueFree(obj);
     return true;
 }
-```
+// ```
 
 
 

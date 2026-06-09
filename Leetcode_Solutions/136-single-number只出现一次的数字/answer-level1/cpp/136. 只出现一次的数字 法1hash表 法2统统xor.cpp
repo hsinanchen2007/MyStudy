@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 //线性时间复杂度下，找出只出现一次的元素
 //解法1：采用额外空间，扫描两次
 //     额外空间：一个unordered_map
@@ -33,10 +33,10 @@ public:
         return 0;
     }
 };
-```
+// ```
 
 
-```cpp
+// ```cpp
 //解法2：xor的方法
 //相同数xor之后为0，所有数xor之后即可得到结果
 
@@ -52,5 +52,5 @@ public:
         return resNum;
     }
 };
-```
-![136_xor.jpg](https://pic.leetcode-cn.com/495de860e0d7c1c86a238428bd5e5ce968e4292893b999d02204c172a8770109-136_xor.jpg)
+// ```
+// ![136_xor.jpg](https://pic.leetcode-cn.com/495de860e0d7c1c86a238428bd5e5ce968e4292893b999d02204c172a8770109-136_xor.jpg)

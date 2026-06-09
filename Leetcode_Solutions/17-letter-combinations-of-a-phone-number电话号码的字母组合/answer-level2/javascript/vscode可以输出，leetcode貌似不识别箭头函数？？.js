@@ -1,6 +1,6 @@
-虽然这里通不过，但是一定是正确的，各位JS大佬看看
+// 虽然这里通不过，但是一定是正确的，各位JS大佬看看
 
-```js
+// ```js
 var letterCombinations = function(digits) {
     // 建立map和num两个数组，用来一一对应
     let map=["",1,"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"]
@@ -30,4 +30,4 @@ var letterCombinations = function(digits) {
     return comb(code)
 };
 letterCombinations("789")
-```
+// ```

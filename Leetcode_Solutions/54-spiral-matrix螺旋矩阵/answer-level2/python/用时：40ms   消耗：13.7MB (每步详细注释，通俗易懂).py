@@ -1,9 +1,9 @@
-### 解题思路
-循环遍历矩阵并在 **适当** 的位置改变方向
+# ### 解题思路
+# 循环遍历矩阵并在 **适当** 的位置改变方向
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:return []
@@ -28,5 +28,5 @@ class Solution:
         return res
 
 
-```
-# 觉得写的还凑合，望少侠点个赞支持一下！
+# ```
+# # 觉得写的还凑合，望少侠点个赞支持一下！

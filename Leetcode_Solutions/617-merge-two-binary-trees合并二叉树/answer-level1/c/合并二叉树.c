@@ -1,9 +1,9 @@
-### 解题思路
-理解二叉树最简单的方法就是递归
+// ### 解题思路
+// 理解二叉树最简单的方法就是递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ struct TreeNode* mergeTrees(struct TreeNode* t1, struct TreeNode* t2){
     else 
         return t1;
 }
-```
+// ```

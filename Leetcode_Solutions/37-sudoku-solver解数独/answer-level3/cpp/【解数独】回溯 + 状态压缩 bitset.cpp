@@ -1,18 +1,18 @@
-### 思路
-1. 回溯
-    11. 选择可能性最少的数字开始填，填错了回溯
+// ### 思路
+// 1. 回溯
+//     11. 选择可能性最少的数字开始填，填错了回溯
 
-2. 状态压缩
-    21. 使用 `bitset<9>` 来压缩存储每一行、每一列、每一个 `3x3` 宫格中 `1-9` 是否出现
-    22. 这样每一个格子就可以计算出所有能填的数字
-    23. 填入数字和回溯时，只需要更新存储信息，各个格子会重新计算其各自的能填数字
+// 2. 状态压缩
+//     21. 使用 `bitset<9>` 来压缩存储每一行、每一列、每一个 `3x3` 宫格中 `1-9` 是否出现
+//     22. 这样每一个格子就可以计算出所有能填的数字
+//     23. 填入数字和回溯时，只需要更新存储信息，各个格子会重新计算其各自的能填数字
 
-### 图解
-![图片.png](https://pic.leetcode-cn.com/1fb1c64cfddb5c66b61bd769224724a05027172d6486feb19b3a16d9473372ee-%E5%9B%BE%E7%89%87.png)
+// ### 图解
+// ![图片.png](https://pic.leetcode-cn.com/1fb1c64cfddb5c66b61bd769224724a05027172d6486feb19b3a16d9473372ee-%E5%9B%BE%E7%89%87.png)
 
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 class Solution {
 public:
     bitset<9> getPossibleStatus(int x, int y)
@@ -91,15 +91,15 @@ private:
     vector<bitset<9>> cols;
     vector<vector<bitset<9>>> cells;
 };
-```
+// ```
 
-### 执行时间
-![图片.png](https://pic.leetcode-cn.com/966e84833b639c749bf0f62d51d49959ed848393a62b69567008c491dbf3037e-%E5%9B%BE%E7%89%87.png)
+// ### 执行时间
+// ![图片.png](https://pic.leetcode-cn.com/966e84833b639c749bf0f62d51d49959ed848393a62b69567008c491dbf3037e-%E5%9B%BE%E7%89%87.png)
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

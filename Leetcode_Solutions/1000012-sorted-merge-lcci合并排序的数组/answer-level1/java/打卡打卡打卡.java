@@ -1,9 +1,9 @@
-### 解题思路
-把数组A , B合并，然后对整个数组进行排序
+// ### 解题思路
+// 把数组A , B合并，然后对整个数组进行排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Arrays;
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
@@ -13,4 +13,4 @@ class Solution {
         Arrays.sort(A);
     }
 }
-```
+// ```

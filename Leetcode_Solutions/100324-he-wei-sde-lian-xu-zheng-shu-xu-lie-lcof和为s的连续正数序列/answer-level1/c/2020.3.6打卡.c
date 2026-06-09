@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-用球根公式暴力找根，结果遇到很大的数据就overflow了
-还有就是int** returnColumnSizes这个参数是真的搞不懂到底什么意思
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用球根公式暴力找根，结果遇到很大的数据就overflow了
+// 还有就是int** returnColumnSizes这个参数是真的搞不懂到底什么意思
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -136,4 +136,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     }
     return res;
 }
-```
+// ```

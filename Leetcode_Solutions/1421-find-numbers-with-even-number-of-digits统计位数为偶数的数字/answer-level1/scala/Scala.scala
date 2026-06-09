@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def findNumbers(nums: Array[Int]): Int = {
       var count = 0
@@ -14,4 +14,4 @@ object Solution {
     count  
     }
 }
-```
+// ```

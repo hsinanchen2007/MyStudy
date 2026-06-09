@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int num1, int num2) {
     int mod = num1 % num2;
     if (mod == 0) {
@@ -37,4 +37,4 @@ char * gcdOfStrings(char * str1, char * str2){
 	ret[length] = '\0';
 	return ret;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 
 import "strings"
 
@@ -25,4 +25,4 @@ func reverseWords(s string) string {
 	return strings.Join(ss[:j], " ")
 }
 
-```
+// ```

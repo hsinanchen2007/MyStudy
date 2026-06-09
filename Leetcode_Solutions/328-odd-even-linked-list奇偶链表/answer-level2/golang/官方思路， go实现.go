@@ -1,10 +1,10 @@
-### 解题思路
-官方思路， go实现
-同时赋值的语法类似python
+// ### 解题思路
+// 官方思路， go实现
+// 同时赋值的语法类似python
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,4 +26,4 @@ func oddEvenList(head *ListNode) *ListNode {
     odd.Next = evenHead
     return head
 }
-```
+// ```

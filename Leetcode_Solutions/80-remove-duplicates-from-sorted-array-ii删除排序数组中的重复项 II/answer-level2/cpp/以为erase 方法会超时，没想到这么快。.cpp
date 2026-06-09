@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/55f64738444bf9b7700658b2307212397a1cb4bc1dc40a61f0683188e385a33e-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/55f64738444bf9b7700658b2307212397a1cb4bc1dc40a61f0683188e385a33e-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-`方法一：`
-```
+// `方法一：`
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -11,9 +11,9 @@ public:
         return res;
     }
 };
-```
-`方法二：`
-```
+// ```
+// `方法二：`
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -26,5 +26,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

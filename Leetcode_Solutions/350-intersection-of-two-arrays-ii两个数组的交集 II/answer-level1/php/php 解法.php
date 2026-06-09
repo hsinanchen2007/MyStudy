@@ -1,4 +1,4 @@
-```
+// ```
 function intersect($nums1, $nums2) {
     sort($nums1);
     sort($nums2);
@@ -16,4 +16,4 @@ function intersect($nums1, $nums2) {
     }
     return $ans;
 }
-```
+// ```

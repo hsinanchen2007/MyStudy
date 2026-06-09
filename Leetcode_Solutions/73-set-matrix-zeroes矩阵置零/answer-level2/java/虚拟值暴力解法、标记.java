@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-解法一：虚拟值暴力解法（不好，负虚拟值难以确定）
-```java
+// 解法一：虚拟值暴力解法（不好，负虚拟值难以确定）
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
@@ -26,9 +26,9 @@ class Solution {
         }
     }
 }
-```
-解法二：标记
-```java
+// ```
+// 解法二：标记
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
@@ -62,4 +62,4 @@ class Solution {
                 matrix[i][0] = 0;
     }
 }
-```
+// ```

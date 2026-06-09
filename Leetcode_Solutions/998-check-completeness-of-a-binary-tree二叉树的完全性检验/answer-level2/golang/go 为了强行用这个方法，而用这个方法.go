@@ -1,9 +1,9 @@
-### 解题思路
-为了使用这个思路（如果出现空节点后还有数字那么肯定是错的）而强行写代码！
+// ### 解题思路
+// 为了使用这个思路（如果出现空节点后还有数字那么肯定是错的）而强行写代码！
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var res [][]int
 // 入口
 func isCompleteTree(root *TreeNode) bool {
@@ -57,4 +57,4 @@ func pow(a, b int) int {
 	}
 	return a / 2
 }
-```
+// ```

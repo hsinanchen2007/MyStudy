@@ -1,9 +1,9 @@
-### 解题思路
-条件判断一定要仔细
+// ### 解题思路
+// 条件判断一定要仔细
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func romanToInt(s string) int {
     var res int
     for i := 0; i <len(s); i++{
@@ -65,4 +65,4 @@ func romanToInt(s string) int {
     }
     return res
 }
-```
+// ```

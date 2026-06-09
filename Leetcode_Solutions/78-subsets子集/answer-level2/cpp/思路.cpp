@@ -1,10 +1,10 @@
-### 解题思路
-比较常规的，但是很难做到一次pass，有些细节还是需要debug一下
-模板比较固定
+// ### 解题思路
+// 比较常规的，但是很难做到一次pass，有些细节还是需要debug一下
+// 模板比较固定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -40,4 +40,4 @@ public:
       return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def cuttingRope(self, n: int) -> int:
         if n <= 3:
@@ -17,8 +17,8 @@ class Solution:
         else:
             return int(math.pow(3,a)*2)
 
-```
+# ```
 
 
 
-the python method for this problem
+# the python method for this problem

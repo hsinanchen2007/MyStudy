@@ -1,5 +1,5 @@
-用递归会超时，动态规划速度上超过50%
-```
+# 用递归会超时，动态规划速度上超过50%
+# ```
     def numTrees(self, n: int) -> int:  
         def dfs(n):#递归
             if n==0 or n==1:
@@ -26,4 +26,4 @@
                 a[i]=num
             return a[n]
         return dfs(n)
-```
+# ```

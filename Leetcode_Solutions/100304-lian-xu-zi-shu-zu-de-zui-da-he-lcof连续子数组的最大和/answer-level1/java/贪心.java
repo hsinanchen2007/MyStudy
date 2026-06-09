@@ -1,11 +1,11 @@
-### 解题思路
-记录子数组的和，与当前最大值比较，如果子数组为负，将和归0
-![QQ截图20200218235307.png](https://pic.leetcode-cn.com/ab858dea7d502b61b5add75dc7af69af768ef881653b5f1efafaed93a48b475d-QQ%E6%88%AA%E5%9B%BE20200218235307.png)
+// ### 解题思路
+// 记录子数组的和，与当前最大值比较，如果子数组为负，将和归0
+// ![QQ截图20200218235307.png](https://pic.leetcode-cn.com/ab858dea7d502b61b5add75dc7af69af768ef881653b5f1efafaed93a48b475d-QQ%E6%88%AA%E5%9B%BE20200218235307.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
        int sum = 0;
@@ -21,4 +21,4 @@ class Solution {
         return max; 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minAreaRect(vector<vector<int>>& points) {
@@ -40,6 +40,6 @@ public:
         return res == INT_MAX ? 0 : res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/03795f1508d8022123d5d52a18751791f6ddad90e872961c720188783bdb4703-image.png)
+// ![image.png](https://pic.leetcode-cn.com/03795f1508d8022123d5d52a18751791f6ddad90e872961c720188783bdb4703-image.png)

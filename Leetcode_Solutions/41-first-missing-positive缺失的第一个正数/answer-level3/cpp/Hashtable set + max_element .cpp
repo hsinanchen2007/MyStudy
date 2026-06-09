@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -26,10 +26,10 @@ public:
         return max_value > 0 ? max_value + 1 : 1;
     }
 };
-```
+// ```
 
 
-165 / 165 个通过测试用例
-状态：通过
-执行用时：4 ms
-内存消耗：11.7 MB
+// 165 / 165 个通过测试用例
+// 状态：通过
+// 执行用时：4 ms
+// 内存消耗：11.7 MB

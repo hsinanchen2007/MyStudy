@@ -1,8 +1,8 @@
-[@liouliooo](/u/liouliooo/)感谢贡献
+// [@liouliooo](/u/liouliooo/)感谢贡献
 
-	暴力求解，将当前节点作为最长路径的根节点，然后依次向下搜索,是自顶向下的搜索方法，
-	但是会有很多节点被重复搜索，所以时间复杂度很高。用count记录搜索过程中的最长路径。
-```
+// 	暴力求解，将当前节点作为最长路径的根节点，然后依次向下搜索,是自顶向下的搜索方法，
+// 	但是会有很多节点被重复搜索，所以时间复杂度很高。用count记录搜索过程中的最长路径。
+// ```
 代码块
 <!-- Definition for a binary tree node.
  public class TreeNode {
@@ -66,6 +66,6 @@ public class Solution  {
 		    }
 		};
 
-```
+// ```
 
 			

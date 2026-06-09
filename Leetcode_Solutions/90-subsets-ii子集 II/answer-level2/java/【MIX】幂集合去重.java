@@ -1,9 +1,9 @@
-### 解题思路
-思路和全排列II类似, 加入去重的操作
+// ### 解题思路
+// 思路和全排列II类似, 加入去重的操作
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         // 从Subsets I的角度开始考虑
@@ -35,8 +35,8 @@ class Solution {
 
     private List<List<Integer>> res;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def __init__(self):
         self.res = []
@@ -60,8 +60,8 @@ class Solution:
                 subset.append(E)
                 self.subSetHelper(nums, i+1, subset)
                 subset.pop(-1)
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -93,4 +93,4 @@ private:
 private:
     vector<vector<int>> res;
 };
-```
+// ```

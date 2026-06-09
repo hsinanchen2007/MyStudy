@@ -1,10 +1,10 @@
-### 解题思路
-1. 获取关系：日期 - 总订单数
-2. 获取关系：日期 - 取消订单数
-3. 使用日期做自然连接，计算比例
+-- ### 解题思路
+-- 1. 获取关系：日期 - 总订单数
+-- 2. 获取关系：日期 - 取消订单数
+-- 3. 使用日期做自然连接，计算比例
 
-### 代码
-```oraclesql
+-- ### 代码
+-- ```oraclesql
 /* Write your PL/SQL query statement below */
 select s.Request_at Day, nvl(round(c.count/s.count,2),0) "Cancellation Rate"
 from
@@ -24,8 +24,8 @@ where t.Client_Id = c.Users_Id and c.Banned = 'No'-- 关联乘客
 group by t.Request_at) c--取消订单
 on c.Request_at = s.Request_at
 order by Day
-```
+-- ```
 
-### 备注
-1. 使用 nvl 来处理没有记录的日期（原理还不清楚）
-2. 带空格的列别名需要使用双引号包围
+-- ### 备注
+-- 1. 使用 nvl 来处理没有记录的日期（原理还不清楚）
+-- 2. 带空格的列别名需要使用双引号包围

@@ -1,9 +1,9 @@
-### 解题思路
-递归回溯法，100%时间
+// ### 解题思路
+// 递归回溯法，100%时间
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> res=new ArrayList<>();
@@ -47,4 +47,4 @@ class Solution {
         }
     }
 }
-```
+// ```

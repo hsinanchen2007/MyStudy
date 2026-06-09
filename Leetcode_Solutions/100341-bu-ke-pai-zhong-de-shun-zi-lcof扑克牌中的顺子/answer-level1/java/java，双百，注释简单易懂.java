@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     fun isStraight(nums: IntArray): Boolean {
         /** 排除存在重复数字的情况，因为除了0以外的重复，就不可能是顺子 */
@@ -27,4 +27,4 @@ class Solution {
         return max - min <= 4
     }
 }
-```
+// ```

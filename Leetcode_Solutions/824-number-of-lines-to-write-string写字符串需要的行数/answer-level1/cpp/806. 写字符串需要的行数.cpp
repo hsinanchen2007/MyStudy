@@ -1,4 +1,4 @@
-```
+// ```
 vector<int> numberOfLines(vector<int>& widths, string S) {
         vector<int>res(2,0);
         res[0] = 1;
@@ -11,4 +11,4 @@ vector<int> numberOfLines(vector<int>& widths, string S) {
         }
         return res;
     }
-```
+// ```

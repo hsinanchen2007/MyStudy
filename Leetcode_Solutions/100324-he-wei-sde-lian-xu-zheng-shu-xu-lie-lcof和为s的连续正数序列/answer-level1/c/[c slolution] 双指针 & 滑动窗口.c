@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int** findContinuousSequence(int target, int* returnSize, int** returnColumnSizes){
     if(target <= 0 ){
         return NULL;
@@ -38,4 +38,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
 
     return res;
 }
-```
+// ```

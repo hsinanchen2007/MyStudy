@@ -1,6 +1,6 @@
-思路一：DFS
+# 思路一：DFS
 
-```python
+# ```python
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
 
@@ -16,11 +16,11 @@ class Solution:
         
         dfs(root, 0)
         return res
-```
+# ```
 
-思路二：BFS
+# 思路二：BFS
 
-```python
+# ```python
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         if not root:return []
@@ -40,5 +40,5 @@ class Solution:
         
         bfs(root)
         return res
-```
+# ```
 

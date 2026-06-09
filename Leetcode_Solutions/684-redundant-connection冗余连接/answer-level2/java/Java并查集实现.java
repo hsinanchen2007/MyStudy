@@ -1,5 +1,5 @@
-学习了大佬的并查集博客之后，终于知道并查集是什么了 https://blog.csdn.net/niushuai666/article/details/6662911
-```
+// 学习了大佬的并查集博客之后，终于知道并查集是什么了 https://blog.csdn.net/niushuai666/article/details/6662911
+// ```
 class Solution {
     int[] pre;
     public int[] findRedundantConnection(int[][] edges) {
@@ -34,4 +34,4 @@ class Solution {
         return pre[x];
     }
 }
-```
+// ```

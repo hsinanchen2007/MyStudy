@@ -1,10 +1,10 @@
-### 解题思路
-元素两两抵消，因出现最多的元素次数大于一半，最后剩下的就是它。
-时间复杂度为O(n)
+// ### 解题思路
+// 元素两两抵消，因出现最多的元素次数大于一半，最后剩下的就是它。
+// 时间复杂度为O(n)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int majorityElement(int* nums, int numsSize){
     int candi = nums[0];
     int cnt = 1;
@@ -28,4 +28,4 @@ int majorityElement(int* nums, int numsSize){
 }
 
 
-```
+// ```

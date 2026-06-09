@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void sortColors(int[] nums) {
         //遇见0和前面的交换，遇见1不动
@@ -29,4 +29,4 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
+// ```

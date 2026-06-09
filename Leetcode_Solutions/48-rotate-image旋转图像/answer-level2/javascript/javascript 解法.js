@@ -1,9 +1,9 @@
-### 解题思路
-旋转后位置为matrix[i][j]的元素，旋转前对应的位置为matrix[n - 1 - j][i]
+// ### 解题思路
+// 旋转后位置为matrix[i][j]的元素，旋转前对应的位置为matrix[n - 1 - j][i]
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -21,4 +21,4 @@ var rotate = function(matrix) {
         matrix.splice(0, n)
     }
 };
-```
+// ```

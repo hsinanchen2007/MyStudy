@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-注意点：x==y情况需要特殊处理
+// 注意点：x==y情况需要特殊处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numEquivDominoPairs(int[][] dominoes) {
        int[][] array = new int[10][10];
@@ -21,4 +21,4 @@ class Solution {
        return count/2;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func climbStairs(n int) int {
     if n == 0 {return 0}
     if n == 1 {return 1}
@@ -29,4 +29,4 @@ func pow(a [][]int, b [][]int) [][]int {
     }
     return c
 }
-```
+// ```

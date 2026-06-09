@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 	
 	public boolean canReach(int[] arr, int start) {
@@ -23,6 +23,6 @@ class Solution {
     return false;
     }
 }
-```
-速度好像还挺快的，，，
-刚开始接触编程，还望勿喷。。。
+// ```
+// 速度好像还挺快的，，，
+// 刚开始接触编程，还望勿喷。。。

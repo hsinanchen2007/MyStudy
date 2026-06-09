@@ -1,13 +1,13 @@
-### 解题思路
-先遍历一遍，找到转折点spot
-然后判断target是否大于start
-如果是，则二分查找(start，spot) 
-如果不是，则二分查找(spot+1, end).
-还可以优化一下，如果数值大于spot，或者小于spot+1说明找不到.
+// ### 解题思路
+// 先遍历一遍，找到转折点spot
+// 然后判断target是否大于start
+// 如果是，则二分查找(start，spot) 
+// 如果不是，则二分查找(spot+1, end).
+// 还可以优化一下，如果数值大于spot，或者小于spot+1说明找不到.
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -49,4 +49,4 @@ var biSearch = function (arr, target, start, end){
     }
     return -1;
 }
-```
+// ```

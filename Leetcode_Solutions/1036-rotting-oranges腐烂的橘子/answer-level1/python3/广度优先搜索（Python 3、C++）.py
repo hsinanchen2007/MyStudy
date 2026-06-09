@@ -1,26 +1,26 @@
-### 解题思路：广度优先搜索（BFS）
+# ### 解题思路：广度优先搜索（BFS）
 
-1. 首先分别将腐烂的橘子和新鲜的橘子保存在两个集合中；
+# 1. 首先分别将腐烂的橘子和新鲜的橘子保存在两个集合中；
 
-2. 模拟广度优先搜索的过程，方法是判断在每个腐烂橘子的四个方向上是否有新鲜橘子，如果有就腐烂它。每腐烂一次时间加 $1$，并剔除新鲜集合里腐烂的橘子；
+# 2. 模拟广度优先搜索的过程，方法是判断在每个腐烂橘子的四个方向上是否有新鲜橘子，如果有就腐烂它。每腐烂一次时间加 $1$，并剔除新鲜集合里腐烂的橘子；
 
-3. 当橘子全部腐烂时结束循环。
+# 3. 当橘子全部腐烂时结束循环。
 
-![0994.gif](https://pic.leetcode-cn.com/aec044437ac27b8e23ba0d8f07daac230e6e0c0671fcd6a68f8884b991b4e1cf-0994.gif)
+# ![0994.gif](https://pic.leetcode-cn.com/aec044437ac27b8e23ba0d8f07daac230e6e0c0671fcd6a68f8884b991b4e1cf-0994.gif)
 
 
-注：一般使用如下方法实现四个方向的移动：
+# 注：一般使用如下方法实现四个方向的移动：
 
-```python
+# ```python
 # 设初始点为 (i, j)
 for di, dj in [(0, 1), (0, -1), (1, 0), (-1, 0)]: # 上、下、左、右
     i + di, j + dj
-```
+# ```
 
 
-### 代码
+# ### 代码
 
-```python [-Python]
+# ```python [-Python]
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         row = len(grid)
@@ -34,9 +34,9 @@ class Solution:
             fresh -= rotten # 剔除腐烂的
             time += 1
         return time
-```
+# ```
 
-```cpp [-C++]
+# ```cpp [-C++]
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -70,28 +70,28 @@ public:
         return fresh ? -1 : min;
     }
 };
-```
+# ```
 
 
-### 复杂度分析
-- 时间复杂度：$O(mn)$。
-- 空间复杂度：$O(mn)$。
+# ### 复杂度分析
+# - 时间复杂度：$O(mn)$。
+# - 空间复杂度：$O(mn)$。
 
 
-### 思路二：队列实现
+# ### 思路二：队列实现
 
-前面的实现方法不是很普遍，BFS 的标准实现还是用队列。
+# 前面的实现方法不是很普遍，BFS 的标准实现还是用队列。
 
-队列实现 BFS 的方法相对固定，大致分三步：
+# 队列实现 BFS 的方法相对固定，大致分三步：
 
-1. 初始化队列；
+# 1. 初始化队列；
 
-2. 最开始的坏橘子全部入队，具体是橘子的坐标和 $time$；
+# 2. 最开始的坏橘子全部入队，具体是橘子的坐标和 $time$；
 
-3. 循环：**当队列不为空时**，先弹出队首元素，然后将这个元素能够腐烂的橘子全部入队。
+# 3. 循环：**当队列不为空时**，先弹出队首元素，然后将这个元素能够腐烂的橘子全部入队。
 
-### 代码
-```python [-Python]
+# ### 代码
+# ```python [-Python]
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         row, col, time = len(grid), len(grid[0]), 0
@@ -114,10 +114,10 @@ class Solution:
             if 1 in row: return -1
 
         return time
-```
-### 复杂度分析：
-- 时间复杂度：$O(mn)$。
-- 空间复杂度：$O(mn)$。
+# ```
+# ### 复杂度分析：
+# - 时间复杂度：$O(mn)$。
+# - 空间复杂度：$O(mn)$。
 
-求 C++ 代码学习~
-如有问题，欢迎讨论~
+# 求 C++ 代码学习~
+# 如有问题，欢迎讨论~

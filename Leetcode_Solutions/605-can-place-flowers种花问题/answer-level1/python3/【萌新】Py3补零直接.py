@@ -1,9 +1,9 @@
-### 解题思路
-类似于之前写的烟囱题目。 在首尾补充0后，步长为2遍历列表，满足没有3位都是0就可以种花
+# ### 解题思路
+# 类似于之前写的烟囱题目。 在首尾补充0后，步长为2遍历列表，满足没有3位都是0就可以种花
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         nums = [0] + flowerbed + [0]
@@ -16,4 +16,4 @@ class Solution:
             else:
                 i += 1
         return count >= n
-```
+# ```

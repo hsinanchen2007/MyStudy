@@ -1,9 +1,9 @@
-### 解题思路
-使用数组实现
+// ### 解题思路
+// 使用数组实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     Val []int
 }
@@ -48,14 +48,14 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```
 
-### 解题思路
-使用队列实现
+// ### 解题思路
+// 使用队列实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // MyStack是利用Queue实现的栈
 type MyStack struct {
    a, b *Queue
@@ -143,4 +143,4 @@ func (q *Queue) Len() int {
 func (q *Queue) IsEmpty() bool {
    return q.Len() == 0
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从后遍历，count记录字母个数，初值为0，读到空格判断下，count不大于零就继续遍历，count大于零就返回count
+// ### 解题思路
+// 从后遍历，count记录字母个数，初值为0，读到空格判断下，count不大于零就继续遍历，count大于零就返回count
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLastWord(char * s){
     if(strlen(s)==0)
     {
@@ -37,4 +37,4 @@ int lengthOfLastWord(char * s){
     }
     return count;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-区间求和问题
+// 区间求和问题
 
-只需要关心区间两端值的变化
+// 只需要关心区间两端值的变化
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getModifiedArray(int length, vector<vector<int>>& updates) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

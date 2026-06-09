@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func shortestToChar(S string, C byte) []int {
 	str:=[]byte(S)
 	res:=make([]int,0)
@@ -30,4 +30,4 @@ func shortestToChar(S string, C byte) []int {
 	}
 	return res
 }
-```
+// ```

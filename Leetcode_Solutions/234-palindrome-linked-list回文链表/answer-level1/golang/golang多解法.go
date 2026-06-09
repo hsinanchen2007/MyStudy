@@ -1,5 +1,5 @@
-## 方法1：反转后半段
-```golang
+// ## 方法1：反转后半段
+// ```golang
 func isPalindrome(head *ListNode) bool {
     if head == nil || head.Next == nil {
         return true
@@ -53,10 +53,10 @@ func reverse(head *ListNode) *ListNode {
     }
     return pre
 }
-```
+// ```
 
-## 方法2：反转前半段
-```golang
+// ## 方法2：反转前半段
+// ```golang
 func isPalindrome(head *ListNode) bool {
     if head == nil || head.Next == nil {
         return true
@@ -126,10 +126,10 @@ func isPalindrome(head *ListNode) bool {
 
     return res
 }
-```
+// ```
 
-## 方法3: 用defer函数对方法2优化
-```golang
+// ## 方法3: 用defer函数对方法2优化
+// ```golang
 func isPalindrome(head *ListNode) bool {
     if head == nil || head.Next == nil {
         return true
@@ -181,5 +181,5 @@ func isPalindrome(head *ListNode) bool {
     return true
 }
 
-```
+// ```
 

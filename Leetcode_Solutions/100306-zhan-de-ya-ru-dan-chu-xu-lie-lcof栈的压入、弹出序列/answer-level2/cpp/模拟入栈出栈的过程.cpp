@@ -1,9 +1,9 @@
-### 解题思路
-模拟入栈出栈过程
+// ### 解题思路
+// 模拟入栈出栈过程
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -42,4 +42,4 @@ public:
         return true;
     }
 };
-```
+// ```

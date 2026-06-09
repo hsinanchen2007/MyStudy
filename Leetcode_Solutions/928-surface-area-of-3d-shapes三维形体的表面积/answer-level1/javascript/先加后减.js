@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先把每一个格子上所有的面相加，再减去每一个格子之间重叠的面积
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先把每一个格子上所有的面相加，再减去每一个格子之间重叠的面积
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -32,4 +32,4 @@ var surfaceArea = function(grid) {
     }
     return sum;
 };
-```
+// ```

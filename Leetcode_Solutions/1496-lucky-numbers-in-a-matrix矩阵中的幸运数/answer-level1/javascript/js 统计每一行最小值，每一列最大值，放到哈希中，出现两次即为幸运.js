@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/b283219733bd5043797c2785a3f9eeb925b6c810920ba25758d3094d5b590e0c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b283219733bd5043797c2785a3f9eeb925b6c810920ba25758d3094d5b590e0c-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   思路：
   把每一行的最小值，和每一列的最大值存到一个 map 中，记录 2 次的就是幸运数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -53,4 +53,4 @@ var luckyNumbers  = function(matrix) {
   
   return ans;
 };
-```
+// ```

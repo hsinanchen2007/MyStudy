@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-将[]中的字符串作为递归的单位，没有[]则直接添加。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 将[]中的字符串作为递归的单位，没有[]则直接添加。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String decodeString(String s) {
         return decodeItem(s,0,s.length());
@@ -53,6 +53,6 @@ class Solution {
         return i;
     }
 }
-```
+// ```
 
-时间复杂度为 O(n), 空间复杂度O(n)
+// 时间复杂度为 O(n), 空间复杂度O(n)

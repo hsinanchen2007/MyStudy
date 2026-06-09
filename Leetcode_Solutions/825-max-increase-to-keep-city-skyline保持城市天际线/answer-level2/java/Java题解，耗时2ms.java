@@ -1,5 +1,5 @@
-#### *`java`*获得从上往下看的最大天际线和从下左往右看的最大天际线，然后计算差的和就行了
-```
+// #### *`java`*获得从上往下看的最大天际线和从下左往右看的最大天际线，然后计算差的和就行了
+// ```
 class Solution {
     public int maxIncreaseKeepingSkyline(int[][] grid) {
         int size = grid.length;
@@ -28,4 +28,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

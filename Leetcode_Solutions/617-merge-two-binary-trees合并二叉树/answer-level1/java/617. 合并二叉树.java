@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/27
- *
- * 解题思路: 在判断的过程中构造新的二叉树 创建一个新的当前节点然后把他的左右节点赋值在 left right 最后返回node
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/27
+//  *
+//  * 解题思路: 在判断的过程中构造新的二叉树 创建一个新的当前节点然后把他的左右节点赋值在 left right 最后返回node
+//  *
+//  */
+// ```
 public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
 
     TreeNode new_node = null;
@@ -37,4 +37,4 @@ public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
     new_node.right = r;
     return new_node;
 }
-```
+// ```

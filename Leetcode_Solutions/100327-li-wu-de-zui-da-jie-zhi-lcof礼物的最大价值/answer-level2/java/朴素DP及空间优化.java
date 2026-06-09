@@ -1,18 +1,18 @@
-## 47.礼物的最大价值
+// ## 47.礼物的最大价值
 
-### Information
+// ### Information
 
-* TIME: 2020/02/20
-* LINK: [Click Here](http://)
-* TAG: `DP`
+// * TIME: 2020/02/20
+// * LINK: [Click Here](http://)
+// * TAG: `DP`
 
-### Description
+// ### Description
 
-> 在一个 m*n 的棋盘的每一格都放有一个礼物，每个礼物都有一定的价值（价值大于 0）。你可以从棋盘的左上角开始拿格子里的礼物，并每次向右或者向下移动一格、直到到达棋盘的右下角。给定一个棋盘及其上面的礼物的价值，请计算你最多能拿到多少价值的礼物？
+// > 在一个 m*n 的棋盘的每一格都放有一个礼物，每个礼物都有一定的价值（价值大于 0）。你可以从棋盘的左上角开始拿格子里的礼物，并每次向右或者向下移动一格、直到到达棋盘的右下角。给定一个棋盘及其上面的礼物的价值，请计算你最多能拿到多少价值的礼物？
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: 
 [
   [1,3,1],
@@ -21,18 +21,18 @@
 ]
 输出: 12
 解释: 路径 1→3→5→2→1 可以拿到最多价值的礼物
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 只能**下或右**走
->
-> 可得状态转移方程
+// > 只能**下或右**走
+// >
+// > 可得状态转移方程
 
-> * `dp[i][j] = grid[i][j] + Math.max(dp[i][j - 1], dp[i - 1][j])`
->   * 当前的最大值等于向下走的路径或向右走的路径的获取最大价值路径 + 该位置的价值
+// > * `dp[i][j] = grid[i][j] + Math.max(dp[i][j - 1], dp[i - 1][j])`
+// >   * 当前的最大值等于向下走的路径或向右走的路径的获取最大价值路径 + 该位置的价值
 
-```java
+// ```java
 class Solution {
     public int maxValue(int[][] grid) {
         int m = grid.length;
@@ -54,20 +54,20 @@ class Solution {
         return dp[m - 1][n - 1];
     }
 }
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> 空间优化，只用到了`dp[i][j - 1]`和`dp[i - 1][j]`，可以压缩成一维数组
->
-> * `dp[i][j - 1]`就是`dp[j - 1]`
-> * `dp[i - 1][j]`是没更新前的`dp[j]`
->
-> 注意处理边界‘
->
-> * `(j > 0? dp[j - 1] : 0)`，走不通的地方填`0`就可以了，这样就能用`dp[j]`来计算
+// > 空间优化，只用到了`dp[i][j - 1]`和`dp[i - 1][j]`，可以压缩成一维数组
+// >
+// > * `dp[i][j - 1]`就是`dp[j - 1]`
+// > * `dp[i - 1][j]`是没更新前的`dp[j]`
+// >
+// > 注意处理边界‘
+// >
+// > * `(j > 0? dp[j - 1] : 0)`，走不通的地方填`0`就可以了，这样就能用`dp[j]`来计算
 
-```java
+// ```java
 class Solution {
     public int maxValue(int[][] grid) {
         int m = grid.length;
@@ -82,23 +82,23 @@ class Solution {
         return dp[n - 1];
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

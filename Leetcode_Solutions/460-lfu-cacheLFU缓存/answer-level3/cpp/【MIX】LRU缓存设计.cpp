@@ -1,10 +1,10 @@
-### 解题思路
-1. BST, 时间复杂度$O(lgN)$, 空间复杂度$O(N)$
-2. HashMap
+// ### 解题思路
+// 1. BST, 时间复杂度$O(lgN)$, 空间复杂度$O(N)$
+// 2. HashMap
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 typedef struct _Node{
     int freq = 0; // 缓存块使用的频率    
     int time = 0; // 最近使用该缓存的时间
@@ -83,8 +83,8 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
-```java []
+// ```
+// ```java []
 class Node{
     int freq=1; //缓存块的使用频率
     int key;    
@@ -184,8 +184,8 @@ class LFUCache {
     private int minFreq;  // 使用频率最小的缓存块的使用次数
     private int size;     // 当前缓存的大小
 }
-```
-```python []
+// ```
+// ```python []
 # 双向链表<参照题解实现>
 class Node:
     def __init__(self, key, value, pre=None, nex=None, freq=0):
@@ -268,4 +268,4 @@ class LFUCache:
                 self.FREQ.pop(node.freq)
         return node.key
 
-```
+// ```

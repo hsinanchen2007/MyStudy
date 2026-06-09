@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dic = [Int:Int]()
@@ -12,4 +12,4 @@ class Solution {
         return []
     }
 }
-```
+// ```

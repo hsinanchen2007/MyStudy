@@ -1,9 +1,9 @@
-### 解题思路
-二维数组映射为一维数组处理，注意控制越界访问
+// ### 解题思路
+// 二维数组映射为一维数组处理，注意控制越界访问
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int m , n;
     int[] cellList = null;
@@ -68,4 +68,4 @@ class Solution {
         return cellList[index] == 1;
     }
 }
-```
+// ```

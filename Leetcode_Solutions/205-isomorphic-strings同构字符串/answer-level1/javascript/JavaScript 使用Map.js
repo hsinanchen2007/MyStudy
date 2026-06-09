@@ -1,9 +1,9 @@
-### 解题思路
-使用了两个map,检验s,t互相映射
+// ### 解题思路
+// 使用了两个map,检验s,t互相映射
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -40,4 +40,4 @@ var isIsomorphic = function(s, t) {
     }
     return true
 };
-```
+// ```

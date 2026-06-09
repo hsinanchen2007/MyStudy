@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct HashEntry
 {
     char key[1000];
@@ -94,4 +94,4 @@ char ***groupAnagrams(char **strs, int strsSize, int *returnSize, int **returnCo
     AddToHash(strs, strsSize, returnSize);
     return GetRes(strs, strsSize, returnSize, returnColumnSizes);
 }
-```
+// ```

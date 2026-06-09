@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-示例：“23”
-round     resutls:
-2          ['a','b','c']
-3            ['ae','be','ce','ad','bd','cd','af','bf','cf']
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 示例：“23”
+# round     resutls:
+# 2          ['a','b','c']
+# 3            ['ae','be','ce','ad','bd','cd','af','bf','cf']
+# ### 代码
 
-```python3
+# ```python3
 import copy
 class Solution:
     def letterCombinations(self, digits):
@@ -24,4 +24,4 @@ class Solution:
                         results.append(w+w1)
         return results
 
-```
+# ```

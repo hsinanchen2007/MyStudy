@@ -1,9 +1,9 @@
-### 解题思路
-需要注意的一点是不要连成环了，相同root的边不能连接。
+// ### 解题思路
+// 需要注意的一点是不要连成环了，相同root的边不能连接。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class DisjointSet {
 private:
     vector<int> par;
@@ -75,4 +75,4 @@ public:
         return e == 1 ? sum : -1;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode rspHead=new ListNode(0);
         ListNode rsp=rspHead;
@@ -19,4 +19,4 @@ public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         }
         return rsp.next;
     }
-```
+// ```

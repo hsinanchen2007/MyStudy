@@ -1,9 +1,9 @@
-### 解题思路
-直接使用已有的字符串处理方法
+// ### 解题思路
+// 直接使用已有的字符串处理方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         if(s != null && s != ""){
@@ -18,4 +18,4 @@ class Solution {
         }
     }
 }
-```
+// ```

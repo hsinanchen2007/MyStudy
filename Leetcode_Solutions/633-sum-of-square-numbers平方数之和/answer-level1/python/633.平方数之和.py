@@ -1,11 +1,11 @@
-### 解题思路
-int():函数返回整数
-math.sqrt():返回平方根
-其他和T167.Two Sum一样
+# ### 解题思路
+# int():函数返回整数
+# math.sqrt():返回平方根
+# 其他和T167.Two Sum一样
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def judgeSquareSum(self, c):
         i = 0
@@ -19,4 +19,4 @@ class Solution(object):
             else:
                 i += 1
         return False
-```
+# ```

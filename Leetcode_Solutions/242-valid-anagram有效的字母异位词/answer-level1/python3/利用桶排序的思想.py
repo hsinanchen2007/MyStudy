@@ -1,9 +1,9 @@
-### 解题思路
-使用两个计数数组分别统计s和t中的字符的个数，当两个数组相等时，那么s与t是字母异位词
+# ### 解题思路
+# 使用两个计数数组分别统计s和t中的字符的个数，当两个数组相等时，那么s与t是字母异位词
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         #创建两个计数数组
@@ -19,4 +19,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

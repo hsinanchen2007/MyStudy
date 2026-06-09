@@ -1,9 +1,9 @@
-### 解题思路
-见代码～存就完事了。
+// ### 解题思路
+// 见代码～存就完事了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -17,4 +17,4 @@ public:
        return ans[n]; 
     }
 };
-```
+// ```

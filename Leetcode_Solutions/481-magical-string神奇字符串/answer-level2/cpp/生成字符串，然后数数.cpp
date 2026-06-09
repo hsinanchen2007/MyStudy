@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/a77b81d0dd8d479dbf738de1b081d1362821aab9720820024d55e9bd17fffebe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a77b81d0dd8d479dbf738de1b081d1362821aab9720820024d55e9bd17fffebe-image.png)
 
 
-```
+// ```
 class Solution {
 public:
     int magicalString(int n) {
@@ -26,4 +26,4 @@ public:
         return countOnes;
     }
 };
-```
+// ```

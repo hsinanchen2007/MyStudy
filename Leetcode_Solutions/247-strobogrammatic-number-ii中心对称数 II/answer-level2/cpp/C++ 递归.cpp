@@ -1,6 +1,6 @@
-思路简单：N可由N-2的结果两端加对称字符直接得到
-代码如下：
-```
+// 思路简单：N可由N-2的结果两端加对称字符直接得到
+// 代码如下：
+// ```
 class Solution {
 public:
     vector<char> A{'1', '0', '8'};
@@ -26,5 +26,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d7898bb8b2a5739499f39caf53b81d3b805600a66bf8ac2933b78f51751964d1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d7898bb8b2a5739499f39caf53b81d3b805600a66bf8ac2933b78f51751964d1-image.png)

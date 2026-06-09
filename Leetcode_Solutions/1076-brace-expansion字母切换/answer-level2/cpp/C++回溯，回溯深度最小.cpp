@@ -1,9 +1,9 @@
-***Talk is cheap. Show me the code.***
+// ***Talk is cheap. Show me the code.***
 
-复用同样的内存空间去得到每个单词，回溯深度和花括号的对数一样！
+// 复用同样的内存空间去得到每个单词，回溯深度和花括号的对数一样！
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> expand(string S) {
@@ -47,4 +47,4 @@ private:
     vector<string> results;     
 };
 
-```
+// ```

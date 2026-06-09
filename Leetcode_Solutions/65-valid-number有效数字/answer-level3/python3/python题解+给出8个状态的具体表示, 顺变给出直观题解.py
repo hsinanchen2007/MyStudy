@@ -1,16 +1,16 @@
-"+.e8" 	false
-"1e" 	false
-"0."	true
-"-." 	false
-".e1"	false
-"+.8"	true
-"."	false
-给出上述几个具体的例子
+# "+.e8" 	false
+# "1e" 	false
+# "0."	true
+# "-." 	false
+# ".e1"	false
+# "+.8"	true
+# "."	false
+# 给出上述几个具体的例子
 
 
-下面是具体的代码, 主要是整理出这几种状态出来, 说实话, 有点不太容易整理出来
+# 下面是具体的代码, 主要是整理出这几种状态出来, 说实话, 有点不太容易整理出来
 
-```python
+# ```python
 class Solution:
     def isNumber(self, s: str) -> bool:
         # 0. 普通整数
@@ -116,7 +116,7 @@ class Solution:
                 return False
             else:
                 return self.is_integer(s) or self.is_decimal(s)
-```
+# ```
 
 
-虽然这种直观上的题解(`isNumber2`)觉着看起来挺复杂, 但是实际上写起来还挺快的.好好体会`is_decimal`的return判断.
+# 虽然这种直观上的题解(`isNumber2`)觉着看起来挺复杂, 但是实际上写起来还挺快的.好好体会`is_decimal`的return判断.

@@ -1,4 +1,4 @@
-```
+// ```
 func canMakePaliQueries(s string, queries [][]int) []bool {
 	bitValues := make([]int, len(s))
 	ans := make([]bool, len(queries))
@@ -31,4 +31,4 @@ func canMakePaliQueries(s string, queries [][]int) []bool {
 	}
 	return ans
 }
-```
+// ```

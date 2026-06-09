@@ -1,9 +1,9 @@
-### 解题思路
-在当前递归过程中，拆成left和right两个有序序列，用i，j来指向这左右两个序列，只考虑用right的来统计逆序，若right[j]<left[i]，right[j]就与left的left[i:]部分构成逆序对了，在这里就可以统计增加逆序对数量。
+# ### 解题思路
+# 在当前递归过程中，拆成left和right两个有序序列，用i，j来指向这左右两个序列，只考虑用right的来统计逆序，若right[j]<left[i]，right[j]就与left的left[i:]部分构成逆序对了，在这里就可以统计增加逆序对数量。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         self.res = 0
@@ -39,4 +39,4 @@ class Solution:
         s = digui(nums)
         # print(s)
         return self.res
-```
+# ```

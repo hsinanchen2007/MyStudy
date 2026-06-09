@@ -1,9 +1,9 @@
-### 解题思路
-果然还是这种类似dp table的执行效率高。
+// ### 解题思路
+// 果然还是这种类似dp table的执行效率高。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     long climbStairs(int n) {
@@ -22,4 +22,4 @@ public:
         else return b;
     }
 };
-```
+// ```

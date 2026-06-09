@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8ccbb608f7b610747ddbf5c973d3ecdf794883b8760f10f2d38106639e7935fe-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8ccbb608f7b610747ddbf5c973d3ecdf794883b8760f10f2d38106639e7935fe-image.png)
 
-“当前行”上面的三角 = generate(numRows - 1)。
+// “当前行”上面的三角 = generate(numRows - 1)。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} numRows
  * @return {number[][]}
@@ -28,4 +28,4 @@ var generate = function(numRows) {
 
     return prevTri;
 };
-```
+// ```

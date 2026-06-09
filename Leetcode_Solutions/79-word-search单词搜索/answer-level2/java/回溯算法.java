@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :4 ms, 在所有 Java 提交中击败了99.47%的用户
-内存消耗 :42.8 MB, 在所有 Java 提交中击败了17.18%的用户
+// ### 解题思路
+// 执行用时 :4 ms, 在所有 Java 提交中击败了99.47%的用户
+// 内存消耗 :42.8 MB, 在所有 Java 提交中击败了17.18%的用户
 
-从找到的第一位开始，用回溯算法遍历所有的可能。
+// 从找到的第一位开始，用回溯算法遍历所有的可能。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
 		int h = board.length;
@@ -92,4 +92,4 @@ class Solution {
 		return false;
 	}
 }
-```
+// ```

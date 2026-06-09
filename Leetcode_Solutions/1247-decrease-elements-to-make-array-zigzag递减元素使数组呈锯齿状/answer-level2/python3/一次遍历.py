@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movesToMakeZigzag(self, nums: List[int]) -> int:
         e_count=o_count=0
@@ -13,4 +13,4 @@ class Solution:
             if i%2==0:o_count+=add
             else: e_count+=add
         return min(e_count,o_count)
-```
+# ```

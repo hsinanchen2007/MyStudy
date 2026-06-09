@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def countBattleships(self, board):
         """
@@ -12,4 +12,4 @@ class Solution(object):
                     if (j == 0 or board[i][j-1] != 'X') and (i == 0 or board[i-1][j] != 'X'):
                         count += 1
         return count
-```
+# ```

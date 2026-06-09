@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canConstruct(char * ransomNote, char * magazine)
 {
     char arr[10] = {0};
@@ -30,4 +30,4 @@ bool canConstruct(char * ransomNote, char * magazine)
     return false;
 
 }
-```
+// ```

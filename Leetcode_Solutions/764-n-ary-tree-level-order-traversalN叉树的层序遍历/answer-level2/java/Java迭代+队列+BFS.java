@@ -1,10 +1,10 @@
-N树的层次遍历可以看作是图的广度优先搜索
-可以使用队列实现
+// N树的层次遍历可以看作是图的广度优先搜索
+// 可以使用队列实现
 
-本题难点在于要分割出每一层的节点，而BFS中访问节点和加入新节点是同时进行的，
-解决方法就是用一个counter记录数量
+// 本题难点在于要分割出每一层的节点，而BFS中访问节点和加入新节点是同时进行的，
+// 解决方法就是用一个counter记录数量
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> result = new ArrayList<>();
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

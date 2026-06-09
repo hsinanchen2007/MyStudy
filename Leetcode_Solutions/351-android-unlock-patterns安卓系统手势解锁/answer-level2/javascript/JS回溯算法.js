@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} m
  * @param {number} n
@@ -31,4 +31,4 @@ var numberOfPatterns = function(m, n) {
     }
   }
 };
-```
+// ```

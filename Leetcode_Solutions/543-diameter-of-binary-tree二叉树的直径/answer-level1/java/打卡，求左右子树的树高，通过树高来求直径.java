@@ -1,4 +1,4 @@
-    // 后序遍历 + 求左右子树的树高
+//     // 后序遍历 + 求左右子树的树高
     class Solution {
         public int diameterOfBinaryTree(TreeNode root) {
             int[] max = {1};

@@ -1,9 +1,9 @@
-### 解题思路
-**字符串的最大公因子的长度必为字符串长度的最大公约数**
-注：C++使用`__gcd(a, b)`计算最大公约数
-### 代码
+// ### 解题思路
+// **字符串的最大公因子的长度必为字符串长度的最大公约数**
+// 注：C++使用`__gcd(a, b)`计算最大公约数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     // 方法：求最大公约数，遍历
     // 子串检查
@@ -28,12 +28,12 @@ public:
             return "";
     } 
 };
-```
+// ```
 
-### 解法二：数学方法
-**可以证明：`str1 + str2 == str2 + str1`是存在最大公因子的充要条件；
-最大公因子即`str1.substr(0, __gcd(len1(), len2()))`**
-```
+// ### 解法二：数学方法
+// **可以证明：`str1 + str2 == str2 + str1`是存在最大公因子的充要条件；
+// 最大公因子即`str1.substr(0, __gcd(len1(), len2()))`**
+// ```
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -41,4 +41,4 @@ public:
         return str1.substr(0, __gcd((int)str1.length(), (int)str2.length())); 
     }
 };
-```
+// ```

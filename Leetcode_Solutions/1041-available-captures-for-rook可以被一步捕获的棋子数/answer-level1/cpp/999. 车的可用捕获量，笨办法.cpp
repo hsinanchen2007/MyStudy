@@ -1,9 +1,9 @@
-### 解题思路
-找到车再向上下左右找，找到自己的就跳出，找到对方的就记录再跳出
+// ### 解题思路
+// 找到车再向上下左右找，找到自己的就跳出，找到对方的就记录再跳出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -53,4 +53,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-暂无
+// ### 解题思路
+// 暂无
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
     b := ""
     j:=1
@@ -24,4 +24,4 @@ func compressString(S string) string {
     }
     return b
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numSmallerByFrequency(self, queries: List[str], words: List[str]) -> List[int]:
         if not queries and not words:
@@ -26,6 +26,6 @@ class Solution:
                 # queResult.append(quesort.count(quesort[0]))  # 统计第一个字母出现的字数
             answer[i] = sum([1 if c > quenum else 0 for c in wordResult])
         return answer
-```
-改用二分查找模块bisect，效率显著提升
-            answer[i] = wordlen - bisect.bisect(wordResult, quenum)
+# ```
+# 改用二分查找模块bisect，效率显著提升
+#             answer[i] = wordlen - bisect.bisect(wordResult, quenum)

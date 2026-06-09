@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
-使用一个栈模拟popped的行为
-首先在pushed的入栈顺序里寻找popped出栈顺序的位置
-比如 pushed:   1 2 3 4 5 6 7
-     popped:   3 2 6 7 5 4 1
-st中  1 2 3 以入栈
-按顺序出 3
-      出 2
-当popped 为 6时,栈顶元素与6不相同
-在从pushed中入4 5 6
-此时栈中元素为 1 4 5 6按此顺序出栈
+// 使用一个栈模拟popped的行为
+// 首先在pushed的入栈顺序里寻找popped出栈顺序的位置
+// 比如 pushed:   1 2 3 4 5 6 7
+//      popped:   3 2 6 7 5 4 1
+// st中  1 2 3 以入栈
+// 按顺序出 3
+//       出 2
+// 当popped 为 6时,栈顶元素与6不相同
+// 在从pushed中入4 5 6
+// 此时栈中元素为 1 4 5 6按此顺序出栈
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -55,4 +55,4 @@ public:
 
     }
 };
-```
+// ```

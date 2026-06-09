@@ -1,6 +1,6 @@
-只有两个线程之间的同步用AutoResetEvent或者ManualResetEvent很方便
+// 只有两个线程之间的同步用AutoResetEvent或者ManualResetEvent很方便
 
-```
+// ```
 using System.Threading;
 
 public class FooBar {
@@ -33,4 +33,4 @@ public class FooBar {
         }
     }
 }
-```
+// ```

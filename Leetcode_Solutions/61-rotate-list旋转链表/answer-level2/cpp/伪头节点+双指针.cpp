@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/d14173f78ed18006a9019591df918baaac666ff29d770f9033ed09dbb24eb155-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/d14173f78ed18006a9019591df918baaac666ff29d770f9033ed09dbb24eb155-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -41,4 +41,4 @@ public:
     }
 };
 
-```
+// ```

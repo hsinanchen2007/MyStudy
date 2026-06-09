@@ -1,6 +1,6 @@
-- 操作次数范围是10000，最多有10000次push操作，数组大小开成10000
+// - 操作次数范围是10000，最多有10000次push操作，数组大小开成10000
 
-```
+// ```
 class MaxQueue {
 public:
     int q[10010], hh = 0, tt = -1;
@@ -36,4 +36,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

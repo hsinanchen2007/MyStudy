@@ -1,9 +1,9 @@
-### 解题思路
-和循环队列类似，唯一不同的是在队头插入数据时，先移动head指针，再赋值。
+// ### 解题思路
+// 和循环队列类似，唯一不同的是在队头插入数据时，先移动head指针，再赋值。
 
-### 代码
+// ### 代码
 
-```python
+// ```python
 class MyCircularDeque(object):
 
     def __init__(self, k):
@@ -108,4 +108,4 @@ class MyCircularDeque(object):
 # param_6 = obj.getRear()
 # param_7 = obj.isEmpty()
 # param_8 = obj.isFull()
-```
+// ```

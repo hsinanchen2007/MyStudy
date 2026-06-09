@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def isPossible(self, target: List[int]) -> bool:
         # [1,1,1] => [9, 3, 5]
@@ -28,4 +28,4 @@ class Solution:
         return True
 
 
-```
+# ```

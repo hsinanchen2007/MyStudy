@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int reachNumber(int target) {
@@ -28,5 +28,5 @@ public:
         return -1;
     }
 };
-```
-![Screen Shot 2020-01-04 at 4.34.04 PM.png](https://pic.leetcode-cn.com/6700fc5c774e848ce75fd3ae85891831aa9541cf5934af38ad847afee3f1adc7-Screen%20Shot%202020-01-04%20at%204.34.04%20PM.png)
+// ```
+// ![Screen Shot 2020-01-04 at 4.34.04 PM.png](https://pic.leetcode-cn.com/6700fc5c774e848ce75fd3ae85891831aa9541cf5934af38ad847afee3f1adc7-Screen%20Shot%202020-01-04%20at%204.34.04%20PM.png)

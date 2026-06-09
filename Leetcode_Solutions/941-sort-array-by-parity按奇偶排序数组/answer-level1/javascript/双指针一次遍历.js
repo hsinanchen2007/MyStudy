@@ -1,11 +1,11 @@
-### 解题思路
-双指针start从头到尾遍历，end从尾到头
-每当start找到奇数，end找到偶数二者交换
-任意时刻start<end循环结束，返回数组A
+// ### 解题思路
+// 双指针start从头到尾遍历，end从尾到头
+// 每当start找到奇数，end找到偶数二者交换
+// 任意时刻start<end循环结束，返回数组A
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number[]}
@@ -28,4 +28,4 @@ var sortArrayByParity = function(A) {
     }
     return A
 };
-```
+// ```

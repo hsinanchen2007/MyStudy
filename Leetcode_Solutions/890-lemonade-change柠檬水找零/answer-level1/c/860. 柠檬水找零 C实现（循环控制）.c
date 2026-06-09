@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define FIVEDOLLAR 0
 #define TENDOLLAR 1
 #define TWENTYDOLLAR 2
@@ -46,4 +46,4 @@ bool lemonadeChange(int* bills, int billsSize)
     }
     return true;
 }
-```
+// ```

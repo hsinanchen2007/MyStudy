@@ -1,9 +1,9 @@
-### 解题思路
-此题于岛啊船啊等题类似：核心在于找到岛之后用深度优先搜索把整个岛替换成湖。这题要注意的是只有当岛不在 matrix boundary 上的时候才increase count。用一个 flag 标注岛是否靠边。在 Python 函数里面，如果要更新variable，需要用`self.xxx`。也可以直接用list，比如 `flag[0]`。
+# ### 解题思路
+# 此题于岛啊船啊等题类似：核心在于找到岛之后用深度优先搜索把整个岛替换成湖。这题要注意的是只有当岛不在 matrix boundary 上的时候才increase count。用一个 flag 标注岛是否靠边。在 Python 函数里面，如果要更新variable，需要用`self.xxx`。也可以直接用list，比如 `flag[0]`。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def closedIsland(self, grid: List[List[int]]) -> int:
         if not grid: return 0
@@ -23,4 +23,4 @@ class Solution:
                     if not self.flag: 
                         cnt +=1        
         return cnt 
-```
+# ```

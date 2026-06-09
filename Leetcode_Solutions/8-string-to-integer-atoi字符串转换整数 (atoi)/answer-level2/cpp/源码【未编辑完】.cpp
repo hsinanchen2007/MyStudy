@@ -1,4 +1,4 @@
-```
+// ```
 /* 
  * atoi.c --
  *
@@ -85,6 +85,6 @@ atoi(string)
     }
     return result;
 }
-```
+// ```
 
-还有一段源码过长，只贴个网址。[https://code.woboq.org/userspace/glibc/stdlib/strtol_l.c.html#23](https://code.woboq.org/userspace/glibc/stdlib/strtol_l.c.html#23)
+// 还有一段源码过长，只贴个网址。[https://code.woboq.org/userspace/glibc/stdlib/strtol_l.c.html#23](https://code.woboq.org/userspace/glibc/stdlib/strtol_l.c.html#23)

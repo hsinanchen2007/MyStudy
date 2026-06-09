@@ -1,10 +1,10 @@
-### 解题思路
-递归
-如果当前节点与target一致而且为叶子节点，则返回null，否则返回此节点
+// ### 解题思路
+// 递归
+// 如果当前节点与target一致而且为叶子节点，则返回null，否则返回此节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
             return node;
     }
 }
-```
+// ```

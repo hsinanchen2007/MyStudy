@@ -1,12 +1,12 @@
-### 解题思路
-初始化字符串cur='(',left=1表示当前的左括号的数量,right=0当前的右括号的数量;执行df函数遍历
-如果left>right 不符合条件退出
-如果left===n 并且n===right表示当前字符串符合条件，将它push进res
-选择在字符串后面添加左括号或者右括号，相应的left或者right加1，继续执行dfs
+// ### 解题思路
+// 初始化字符串cur='(',left=1表示当前的左括号的数量,right=0当前的右括号的数量;执行df函数遍历
+// 如果left>right 不符合条件退出
+// 如果left===n 并且n===right表示当前字符串符合条件，将它push进res
+// 选择在字符串后面添加左括号或者右括号，相应的left或者right加1，继续执行dfs
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -25,4 +25,4 @@ var generateParenthesis = function(n) {
     dfs('(', 1, 0); 
     return res;
 };
-```
+// ```

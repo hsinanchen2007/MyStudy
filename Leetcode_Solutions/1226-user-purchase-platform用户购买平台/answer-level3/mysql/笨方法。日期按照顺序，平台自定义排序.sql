@@ -1,10 +1,10 @@
-### 解题思路
-t2：日期和平台排序
-t3:计算用户数量和amount
-592 ms,效率不是很高
-### 代码
+-- ### 解题思路
+-- t2：日期和平台排序
+-- t3:计算用户数量和amount
+-- 592 ms,效率不是很高
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 #日期排序要按照给定的日期顺序
 #平台自定义排序
@@ -35,4 +35,4 @@ on t2.spend_date = t3.spend_date and t2.platform = t3.platform
 
 
 
-```
+-- ```

@@ -1,9 +1,9 @@
-### 解题思路
-先按照桶排序走一遍，然后用桶排序后的结果逐个和原数组比较
+// ### 解题思路
+// 先按照桶排序走一遍，然后用桶排序后的结果逐个和原数组比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int heightChecker(int[] heights) {
         int[] hs = new int[101];
@@ -23,4 +23,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

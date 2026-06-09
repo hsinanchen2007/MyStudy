@@ -1,6 +1,6 @@
-写完以后才知道go也有快速排序...
+// 写完以后才知道go也有快速排序...
 
-```
+// ```
 func lastStoneWeight(stones []int) int {
 	if(len(stones)==1){
 		return stones[0]
@@ -30,4 +30,4 @@ func BubbleSort(arr []int) {
 		}
 	}
 }
-```
+// ```

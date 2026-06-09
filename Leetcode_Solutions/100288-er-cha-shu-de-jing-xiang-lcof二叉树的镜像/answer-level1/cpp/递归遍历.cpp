@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,5 +26,5 @@ public:
         return root;
     }
 };
-```
-//递归遍历，从root往下依次交换左右子树内容
+// ```
+// //递归遍历，从root往下依次交换左右子树内容

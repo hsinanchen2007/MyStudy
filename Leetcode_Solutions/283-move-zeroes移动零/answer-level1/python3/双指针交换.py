@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -23,4 +23,4 @@ class Solution:
                     i += 1
             else:
                 i += 1
-```
+# ```

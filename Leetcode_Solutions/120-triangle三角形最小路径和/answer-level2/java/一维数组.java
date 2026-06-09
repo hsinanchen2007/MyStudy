@@ -1,5 +1,5 @@
-其实，每次我们在计算当前行的时候，只会用到下一行而已，再往下的就用不到了。所以每次用新的覆盖旧的就好了。
-```
+// 其实，每次我们在计算当前行的时候，只会用到下一行而已，再往下的就用不到了。所以每次用新的覆盖旧的就好了。
+// ```
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int length = triangle.size();
@@ -12,4 +12,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

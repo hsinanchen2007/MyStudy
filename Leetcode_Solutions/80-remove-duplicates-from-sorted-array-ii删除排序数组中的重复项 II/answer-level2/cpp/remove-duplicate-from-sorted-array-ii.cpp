@@ -1,8 +1,8 @@
-和26解法类似
+// 和26解法类似
 
-解法一
-重复元素多余2个的使用覆盖的方法
-```
+// 解法一
+// 重复元素多余2个的使用覆盖的方法
+// ```
 vector<int> remElement(vector<int>& arr,int index) {
         for (int i = index + 1; i < arr.size(); ++i) {
             arr[i - 1] = arr[i];
@@ -26,12 +26,12 @@ vector<int> remElement(vector<int>& arr,int index) {
         }
         return length;
     }
-```
+// ```
 
 
-解法二
+// 解法二
 
-```
+// ```
 int removeDuplicates(vector<int>& nums) {
         //有序、原地修改
         if (nums.size() == 0)
@@ -51,4 +51,4 @@ int removeDuplicates(vector<int>& nums) {
         }
         return k + 1;
     }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-1、升序排列
-2、排除intervals为null、长度为0、长度为1的情况
-3、本题分为三种情况：第一种是intervals[i][1] < intervals[i+1][0]，直接把数对加入list
-                   第二种是intervals[i][1] > intervals[i+1][1]，将intervals[i+1][0]的值改为intervals[i][1]，intervals[i + 1][1]改为intervals[i][1];
-                   第三种是intervals[i][1] <= intervals[i+1][1] 并且intervals[i][1] >= intervals[i+1][0]，将intervals[i + 1][0]的值改为intervals[i][0];
+// ### 解题思路
+// 1、升序排列
+// 2、排除intervals为null、长度为0、长度为1的情况
+// 3、本题分为三种情况：第一种是intervals[i][1] < intervals[i+1][0]，直接把数对加入list
+//                    第二种是intervals[i][1] > intervals[i+1][1]，将intervals[i+1][0]的值改为intervals[i][1]，intervals[i + 1][1]改为intervals[i][1];
+//                    第三种是intervals[i][1] <= intervals[i+1][1] 并且intervals[i][1] >= intervals[i+1][0]，将intervals[i + 1][0]的值改为intervals[i][0];
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         List<int[]> list= new ArrayList<>();
@@ -42,4 +42,4 @@ class Solution {
         return list.toArray(new int[0][]);
     }
 }
-```
+// ```

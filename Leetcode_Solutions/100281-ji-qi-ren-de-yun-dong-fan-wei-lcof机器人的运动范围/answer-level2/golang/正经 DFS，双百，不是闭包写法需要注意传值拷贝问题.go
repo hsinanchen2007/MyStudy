@@ -1,4 +1,4 @@
-``` go
+// ``` go
 func movingCount(m int, n int, k int) int {
 	if m > 100 || n > 100 || k > 20 {
 		return 0
@@ -14,4 +14,4 @@ func dfs(x, y, m, n, k int, visited *[100][100]bool) int {
 	visited[x][y] = true
 	return dfs(x+1, y, m, n, k, visited) + dfs(x, y+1, m, n, k, visited) + 1
 }
-```
+// ```

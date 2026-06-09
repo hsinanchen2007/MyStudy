@@ -1,4 +1,4 @@
-记录每个人被信任和信任的次数
+// 记录每个人被信任和信任的次数
 int findJudge(int N, int** trust, int trustSize, int* trustColSize){
     int numTrust[1000] = {0};
     int numTrusted[1000] = {0};

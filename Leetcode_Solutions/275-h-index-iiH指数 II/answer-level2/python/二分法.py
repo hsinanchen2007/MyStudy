@@ -1,10 +1,10 @@
-### 解题思路
-使用二分法找到满足citations[i] >= len(citations)-i的最小i值，如果i为len(citations) - 1，通过判断citations[i]是否为0，返回0或者len(citations)-i。
-![image.png](https://pic.leetcode-cn.com/29da53097eae0f6da91e3d044a38272bb409b3f7f7b46c946b49452f1b6a0e75-image.png)
+# ### 解题思路
+# 使用二分法找到满足citations[i] >= len(citations)-i的最小i值，如果i为len(citations) - 1，通过判断citations[i]是否为0，返回0或者len(citations)-i。
+# ![image.png](https://pic.leetcode-cn.com/29da53097eae0f6da91e3d044a38272bb409b3f7f7b46c946b49452f1b6a0e75-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def hIndex(self, citations):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         if citations[low] == 0:
             return 0
         return n - low
-```
+# ```

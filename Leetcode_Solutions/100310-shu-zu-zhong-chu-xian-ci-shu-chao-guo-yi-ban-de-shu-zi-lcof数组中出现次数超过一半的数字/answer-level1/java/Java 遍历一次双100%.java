@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         int majority = nums[0], count = 1;
@@ -17,4 +17,4 @@ class Solution {
         return majority;
     }
 }
-```
+// ```

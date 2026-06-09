@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+// ### 解题思路
+// 见代码
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -30,4 +30,4 @@ class Solution {
         return $nums[$left]-1;
     }
 }
-```
+// ```

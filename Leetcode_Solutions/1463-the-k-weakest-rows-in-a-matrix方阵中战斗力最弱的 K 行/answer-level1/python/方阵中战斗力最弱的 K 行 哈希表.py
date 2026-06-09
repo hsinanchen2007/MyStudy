@@ -1,9 +1,9 @@
-### 解题思路
-利用哈希表计数，键为索引值，键值为1的个数
+# ### 解题思路
+# 利用哈希表计数，键为索引值，键值为1的个数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def kWeakestRows(self, mat, k):
         dic = {}
@@ -16,4 +16,4 @@ class Solution(object):
                 ans += [c[0]]
                 k -= 1
         return ans
-```
+# ```

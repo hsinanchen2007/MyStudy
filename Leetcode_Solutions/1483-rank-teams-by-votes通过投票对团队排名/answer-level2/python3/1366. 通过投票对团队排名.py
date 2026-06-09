@@ -1,9 +1,9 @@
-### 解题思路
-官方代码，这里用到的collections.defaultdict与list.sort(key=lambda...,reverse=x)都是我平时很少用到的技巧，值得好好学习。
+# ### 解题思路
+# 官方代码，这里用到的collections.defaultdict与list.sort(key=lambda...,reverse=x)都是我平时很少用到的技巧，值得好好学习。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
         n = len(votes[0])
@@ -20,4 +20,4 @@ class Solution:
         result.sort(key=lambda x: (x[1], -ord(x[0])), reverse=True)
         return "".join([vid for vid, rank in result])
 
-```
+# ```

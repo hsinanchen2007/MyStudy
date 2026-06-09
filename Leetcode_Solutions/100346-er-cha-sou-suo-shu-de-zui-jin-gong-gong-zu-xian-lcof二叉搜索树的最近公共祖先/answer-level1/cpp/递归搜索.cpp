@@ -1,9 +1,9 @@
-### 解题思路
-代码可以写一行就一定要写一行！！！！！！！！
+// ### 解题思路
+// 代码可以写一行就一定要写一行！！！！！！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -19,4 +19,4 @@ public:
        return (p->val<=root->val&&q->val>=root->val) || (p->val>=root->val&&q->val<=root->val) ?root :p->val<root->val ?lowestCommonAncestor(root->left,p,q):lowestCommonAncestor(root->right,p,q);
     }
 };
-```
+// ```

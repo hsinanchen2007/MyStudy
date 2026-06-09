@@ -1,9 +1,9 @@
-### 解题思路
-从后往前比较，后面比较过的数可以被覆盖，时间复杂度是O(m+n)
+# ### 解题思路
+# 从后往前比较，后面比较过的数可以被覆盖，时间复杂度是O(m+n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
 
         
             
-```
+# ```

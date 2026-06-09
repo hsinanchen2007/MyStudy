@@ -1,5 +1,5 @@
-思路一：把两个链表放入两个栈里，找到最后一个相同的结点。注意公共结点可能在某一个链表的开始。
-```
+# 思路一：把两个链表放入两个栈里，找到最后一个相同的结点。注意公共结点可能在某一个链表的开始。
+# ```
 class Solution(object):
     def getIntersectionNode(self, headA, headB):
         """
@@ -35,10 +35,10 @@ class Solution(object):
         else:
             return node1[-2]
             
-```
+# ```
 
-思路二：遍历链表的长度，长度差为k，长链表从k位置开始走，找到第一个公共结点
-```
+# 思路二：遍历链表的长度，长度差为k，长链表从k位置开始走，找到第一个公共结点
+# ```
 class Solution(object):
     def getIntersectionNode(self, headA, headB):
         """
@@ -71,4 +71,4 @@ class Solution(object):
             headA = headA.next
             headB = headB.next
         return headB
-```
+# ```

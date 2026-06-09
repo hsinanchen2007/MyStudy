@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/68db6647cb60c586bb199cd551a518b31a31cf0ab201c4497b8603f0acb3ddfc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/68db6647cb60c586bb199cd551a518b31a31cf0ab201c4497b8603f0acb3ddfc-image.png)
 
-同时返回当前树的深度和是否为平衡二叉树，一遍递归得到结果。
+// 同时返回当前树的深度和是否为平衡二叉树，一遍递归得到结果。
 
-代码
-```
+// 代码
+// ```
 func Abs(x int) int {   // 绝对值函数
     if x<0 {
         return -x
@@ -28,4 +28,4 @@ func isBalanced(root *TreeNode) bool {
     _,result := Balanced(root)
     return result
 }
-```
+// ```

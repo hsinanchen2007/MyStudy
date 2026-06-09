@@ -1,11 +1,11 @@
-### 解题思路
-1.从str1 ,str2 中短的为基准搜索；
-2.用公约数排除错误解；
-3.基本判断
+// ### 解题思路
+// 1.从str1 ,str2 中短的为基准搜索；
+// 2.用公约数排除错误解；
+// 3.基本判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string gcdOfStrings(string str1, string str2) 
@@ -65,4 +65,4 @@ public:
 
 	}
 };
-```
+// ```

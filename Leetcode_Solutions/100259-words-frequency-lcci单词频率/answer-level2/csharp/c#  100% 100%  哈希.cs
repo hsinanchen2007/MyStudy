@@ -1,7 +1,7 @@
 
-应该是最简单的一道题了~
-可以关注c# 刷题：https://blog.csdn.net/us2019/article/details/104867660
-```
+// 应该是最简单的一道题了~
+// 可以关注c# 刷题：https://blog.csdn.net/us2019/article/details/104867660
+// ```
 public class WordsFrequency {
         Dictionary<string, int> dic = new Dictionary<string, int>();
 
@@ -29,4 +29,4 @@ for (int i = 0; i < book.Length; i++)
 }
 
  
-```
+// ```

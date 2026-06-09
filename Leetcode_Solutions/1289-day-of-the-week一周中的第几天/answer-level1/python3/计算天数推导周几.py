@@ -1,11 +1,11 @@
-### 解题思路
-首先编写两个函数，一个用于判断是否是闰年，另一个用公共尺度衡量天数。
-然后在主函数中进行日期推导。
-最后得到目标天数是周几。
+# ### 解题思路
+# 首先编写两个函数，一个用于判断是否是闰年，另一个用公共尺度衡量天数。
+# 然后在主函数中进行日期推导。
+# 最后得到目标天数是周几。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
         def isRunYear(year):
@@ -22,4 +22,4 @@ class Solution:
         else:
             ret = ((temp2 - temp1) % 7 + 7 + 1) % 7
         return days[ret]
-```
+# ```

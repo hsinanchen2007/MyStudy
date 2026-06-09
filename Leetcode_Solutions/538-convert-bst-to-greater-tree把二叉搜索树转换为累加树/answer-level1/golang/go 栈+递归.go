@@ -1,4 +1,4 @@
-```
+// ```
 //go 栈解法
 type Node struct {
 	Tree *TreeNode
@@ -48,9 +48,9 @@ func convertBST(root *TreeNode) *TreeNode {
 	}
 	return root
 }
-```
+// ```
 
-```
+// ```
 //递归解法
 func dfs(root *TreeNode, nums *int) *TreeNode {
 	if root != nil {
@@ -67,5 +67,5 @@ func convertBST(root *TreeNode) *TreeNode {
 	dfs(root, &nums)
 	return root
 }
-```
+// ```
 

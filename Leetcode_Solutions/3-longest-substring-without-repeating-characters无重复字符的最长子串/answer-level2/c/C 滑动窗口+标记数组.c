@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int g_max = 0;
 int g_cnt = 0;
 #define MAX_SIZE 128
@@ -64,4 +64,4 @@ int lengthOfLongestSubstring(char * s){
 
 
 
-```
+// ```

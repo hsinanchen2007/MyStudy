@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-关键在于：if (i > index && nums[i] == nums[i - 1]) continue;
+// ### 解题思路
+// 此处撰写解题思路
+// 关键在于：if (i > index && nums[i] == nums[i - 1]) continue;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> result = new ArrayList<>();
     List<Integer> list = new ArrayList<>();
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

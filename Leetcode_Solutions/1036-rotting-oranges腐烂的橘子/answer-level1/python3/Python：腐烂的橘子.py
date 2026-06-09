@@ -1,11 +1,11 @@
-### 解题思路
-BFS
-copy，完成任务
-原作者写的真好
+# ### 解题思路
+# BFS
+# copy，完成任务
+# 原作者写的真好
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         from collections import deque
@@ -27,4 +27,4 @@ class Solution:
             if 1 in row:
                 return -1
         return time 
-```
+# ```

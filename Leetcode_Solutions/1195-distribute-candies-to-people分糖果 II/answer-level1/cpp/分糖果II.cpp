@@ -1,5 +1,5 @@
-直接模拟分糖果的过程
-```
+// 直接模拟分糖果的过程
+// ```
 vector<int> distributeCandies(int candies, int num_people) {
         int cnt = 1;
         vector<int> ans(num_people,0);
@@ -15,6 +15,6 @@ vector<int> distributeCandies(int candies, int num_people) {
         if(candies) ans[i] += candies; 
         return ans;
     }
-```
-时间复杂度：O(N)
-空间复杂度：O(1) 除去答案数组
+// ```
+// 时间复杂度：O(N)
+// 空间复杂度：O(1) 除去答案数组

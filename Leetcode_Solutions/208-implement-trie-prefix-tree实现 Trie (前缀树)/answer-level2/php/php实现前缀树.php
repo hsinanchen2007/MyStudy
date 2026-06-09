@@ -1,11 +1,11 @@
-### 解题思路
-前缀树的结构：
-![14371562-68cdefd534da6b50.webp](https://pic.leetcode-cn.com/a5d3f8e610c12785b6bcd69030fe2309d049d3a0f6d81883a0e2ed678e69ed75-14371562-68cdefd534da6b50.webp)
+// ### 解题思路
+// 前缀树的结构：
+// ![14371562-68cdefd534da6b50.webp](https://pic.leetcode-cn.com/a5d3f8e610c12785b6bcd69030fe2309d049d3a0f6d81883a0e2ed678e69ed75-14371562-68cdefd534da6b50.webp)
 
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class TireNode{
     public $letter; // 当前节点中存的字母
     public $children = []; // 当前节点的子节点
@@ -118,4 +118,4 @@ class Trie {
     }
 
 }
-```
+// ```

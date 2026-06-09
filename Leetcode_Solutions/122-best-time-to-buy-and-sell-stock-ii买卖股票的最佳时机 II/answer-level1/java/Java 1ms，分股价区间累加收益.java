@@ -1,7 +1,7 @@
-方法：阶段性的计算区间的最小值和最大值，累加这些区间的和。
-具体的见代码注释：
+// 方法：阶段性的计算区间的最小值和最大值，累加这些区间的和。
+// 具体的见代码注释：
 
-```java
+// ```java
 class Solution {
     public static int maxProfit(int[] prices) {
         if (prices==null || prices.length == 0) return 0;
@@ -32,4 +32,4 @@ class Solution {
         return max + maxPrice-minPrice;
     }
 }
-```
+// ```

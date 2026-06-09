@@ -1,6 +1,6 @@
-先剔除掉活动开始时间最近的且这个人活动数超过1的
-然后再选出活动开始时间第二近的
-```
+-- 先剔除掉活动开始时间最近的且这个人活动数超过1的
+-- 然后再选出活动开始时间第二近的
+-- ```
 select u.*
 from UserActivity u
 where (u.username, u.startDate) in 
@@ -15,5 +15,5 @@ where (u.username, u.startDate) in
     ) 
     group by a.username
 ) 
-```
+-- ```
 

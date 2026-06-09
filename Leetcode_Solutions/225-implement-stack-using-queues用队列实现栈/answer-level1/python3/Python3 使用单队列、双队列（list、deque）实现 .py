@@ -1,11 +1,11 @@
-### 解题思路
-使用单队列（list）实现
-方法一：使用一个队列，队列添加元素后，反转前n-1个元素，栈顶元素始终保留在队首
-![截屏2020-03-01下午12.57.34.png](https://pic.leetcode-cn.com/235b588ff825ce0d2d9c5d7691e7dff5fce4be806d8b2581aee1978a3ef9f729-%E6%88%AA%E5%B1%8F2020-03-01%E4%B8%8B%E5%8D%8812.57.34.png)
+# ### 解题思路
+# 使用单队列（list）实现
+# 方法一：使用一个队列，队列添加元素后，反转前n-1个元素，栈顶元素始终保留在队首
+# ![截屏2020-03-01下午12.57.34.png](https://pic.leetcode-cn.com/235b588ff825ce0d2d9c5d7691e7dff5fce4be806d8b2581aee1978a3ef9f729-%E6%88%AA%E5%B1%8F2020-03-01%E4%B8%8B%E5%8D%8812.57.34.png)
 
-### 代码
+# ### 代码
 
-```
+# ```
 class MyStack:
 
     def __init__(self):
@@ -54,11 +54,11 @@ class MyStack:
 # param_3 = obj.top()
 # param_4 = obj.empty()
 
-```
-方法二 使用双队列（deque）实现
-![截屏2020-03-01下午12.47.15.png](https://pic.leetcode-cn.com/25fe53067fc48f3f9a93d6cd28d410d9a24d44042b5f23c6201530e642e7e040-%E6%88%AA%E5%B1%8F2020-03-01%E4%B8%8B%E5%8D%8812.47.15.png)
+# ```
+# 方法二 使用双队列（deque）实现
+# ![截屏2020-03-01下午12.47.15.png](https://pic.leetcode-cn.com/25fe53067fc48f3f9a93d6cd28d410d9a24d44042b5f23c6201530e642e7e040-%E6%88%AA%E5%B1%8F2020-03-01%E4%B8%8B%E5%8D%8812.47.15.png)
 
-```
+# ```
 from collections import deque
 class MyStack:
     def __init__(self):
@@ -97,6 +97,6 @@ class MyStack:
         """
         return not bool(self.data)
 
-```
-更多内容：
-[欢迎关注简书](https://www.jianshu.com/p/5e10004e53bc)
+# ```
+# 更多内容：
+# [欢迎关注简书](https://www.jianshu.com/p/5e10004e53bc)

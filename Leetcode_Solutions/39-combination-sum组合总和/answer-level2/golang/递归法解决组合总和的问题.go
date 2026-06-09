@@ -1,9 +1,9 @@
-### 解题思路
-这里是用递归法解决组合总和的问题，方法有待改进，可以考虑动态规划的方法
+// ### 解题思路
+// 这里是用递归法解决组合总和的问题，方法有待改进，可以考虑动态规划的方法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func GetCombine(candidates, thisRes []int, lastChoise, left int, outResult *[][]int)  {
 	if left == 0 {
 		*outResult = append(*outResult, thisRes)
@@ -31,4 +31,4 @@ func combinationSum(candidates []int, target int) [][]int {
 	GetCombine(candidates, nil, 0, target, &outResult)
 	return outResult
 }
-```
+// ```

@@ -1,22 +1,22 @@
-* 第一种解法：中序遍历，得到的是有序的结果，时间复杂度O（N），空间复杂度O（N）
+// * 第一种解法：中序遍历，得到的是有序的结果，时间复杂度O（N），空间复杂度O（N）
 
-	* 优化1:不使用数组，只保留上一个节点，比较两个节点
+// 	* 优化1:不使用数组，只保留上一个节点，比较两个节点
 
-* 第二种解法：们需要在遍历树的同时保留结点的上界与下界，在比较时不仅比较子结点的值，也要与上下界比较。
+// * 第二种解法：们需要在遍历树的同时保留结点的上界与下界，在比较时不仅比较子结点的值，也要与上下界比较。
 
-	* 直接递归：时间复杂度O（N），空间复杂度O（N）
+// 	* 直接递归：时间复杂度O（N），空间复杂度O（N）
 
-* 第三种解法：手动维护栈，使用迭代模拟递归方式中序遍历，时间复杂度O（N），空间复杂度O（N）
+// * 第三种解法：手动维护栈，使用迭代模拟递归方式中序遍历，时间复杂度O（N），空间复杂度O（N）
 
 
-### 中序遍历
+// ### 中序遍历
 
-```
+// ```
 执行用时 :8 ms, 在所有 golang 提交中击败了93.24%的用户
 内存消耗 :5.9 MB, 在所有 golang 提交中击败了24.27%的用户
-```
+// ```
 
-```go
+// ```go
 
 var arr []int
 func isValidBST(root *TreeNode) bool {
@@ -41,16 +41,16 @@ func inorder(root *TreeNode) {
 	inorder(root.Right)
 }
 
-```
+// ```
 
-优化。不使用数组，只保留上一个节点
+// 优化。不使用数组，只保留上一个节点
 
-```
+// ```
 执行用时 :4 ms, 在所有 golang 提交中击败了99.73%的用户
 内存消耗 :5.4 MB, 在所有 golang 提交中击败了81.55%的用户
-```
+// ```
 
-```go
+// ```go
 var lastNode *TreeNode
 func isValidBST(root *TreeNode) bool {
 	lastNode = nil
@@ -70,18 +70,18 @@ func helper(root *TreeNode) bool {
 	lastNode = root
 	return helper(root.Right)
 }
-```
+// ```
 
 
 
-### 直接递归
+// ### 直接递归
 
-```
+// ```
 执行用时 :8 ms, 在所有 golang 提交中击败了93.24%的用户
 内存消耗 :5.3 MB, 在所有 golang 提交中击败了100.00%的用户
-```
+// ```
 
-```go
+// ```go
 func isValidBST(root *TreeNode) bool {
 	return helper2(root, math.MinInt64, math.MaxInt64)
 }
@@ -96,18 +96,18 @@ func helper2(root *TreeNode, min int, max int) bool {
 	}
 	return helper2(root.Left, min, root.Val) && helper2(root.Right, root.Val, max)
 }
-```
+// ```
 
 
 
-优化
+// 优化
 
-```
+// ```
 执行用时 :4 ms, 在所有 golang 提交中击败了99.73%的用户
 内存消耗 :5.3 MB, 在所有 golang 提交中击败了99.03%的用户
-```
+// ```
 
-```go
+// ```go
 // 验证二叉搜索树
 func isValidBST(root *TreeNode) bool {
 	return check(-1<<63, 1<<63-1, root)
@@ -122,11 +122,11 @@ func check(min, max int, node *TreeNode) bool {
 		check(min, node.Val, node.Left) &&
 		check(node.Val, max, node.Right)
 }
-```
+// ```
 
 
 
-```go
+// ```go
 // 验证二叉搜索树
 func isValidBST(root *TreeNode) bool {
 	return check(root, -1 << 63, 1 << 63 - 1)
@@ -138,10 +138,10 @@ func check(root *TreeNode, min int, max int) bool {
 	}
 	return root.Val > min && root.Val < max && check(root.Left, min, root.Val) && check(root.Right, root.Val, max)
 }
-```
+// ```
 
-### 迭代，模拟递归栈
-```go
+// ### 迭代，模拟递归栈
+// ```go
 
 type Stack []*TreeNode
 
@@ -200,4 +200,4 @@ func isValidBST bool {
 	}
 	return true
 }
-```
+// ```

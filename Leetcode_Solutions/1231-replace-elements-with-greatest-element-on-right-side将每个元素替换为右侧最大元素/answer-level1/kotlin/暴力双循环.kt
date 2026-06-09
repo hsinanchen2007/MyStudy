@@ -1,14 +1,14 @@
-### 解题思路
-暴力双循环。
+// ### 解题思路
+// 暴力双循环。
 
-最后一个元素单列。
+// 最后一个元素单列。
 
-其他就挨个扫最右的，相当于冒泡了。
+// 其他就挨个扫最右的，相当于冒泡了。
 
-### 代码
+// ### 代码
 
-* Kotlin
-```kotlin
+// * Kotlin
+// ```kotlin
 class Solution {
     fun replaceElements(arr: IntArray): IntArray {
         for (i in 0 until arr.size) {
@@ -27,9 +27,9 @@ class Solution {
         return arr
     }
 }
-```
-* Swift
-```swift
+// ```
+// * Swift
+// ```swift
 class Solution {
     func replaceElements(_ arr: [Int]) -> [Int] {
         var array = arr
@@ -50,4 +50,4 @@ class Solution {
         return array
     }
 }
-```
+// ```

@@ -1,18 +1,18 @@
-[139.单词拆分](https://leetcode-cn.com/problems/word-break/solution/dan-ci-chai-fen-by-leetcode/)    
+// [139.单词拆分](https://leetcode-cn.com/problems/word-break/solution/dan-ci-chai-fen-by-leetcode/)    
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)   
 
-详细解析可参考[优质题解](https://leetcode-cn.com/problems/word-break/solution/dong-tai-gui-hua-python-dai-ma-by-liweiwei1419-2/)。
+// 详细解析可参考[优质题解](https://leetcode-cn.com/problems/word-break/solution/dong-tai-gui-hua-python-dai-ma-by-liweiwei1419-2/)。
 
-## 方法一 动态规划
+// ## 方法一 动态规划
 
-dp[i]表示0-i之间的字符串是否可以被拆分并满足题设条件存在于wordDict中。
+// dp[i]表示0-i之间的字符串是否可以被拆分并满足题设条件存在于wordDict中。
 
-假设拆分点为j，那么状态转移方程为：   
+// 假设拆分点为j，那么状态转移方程为：   
 
-`dp[i] = dp[j] && s.substring(j+1, i+1)存在于wordDict`
+// `dp[i] = dp[j] && s.substring(j+1, i+1)存在于wordDict`
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string[]} wordDict
@@ -39,14 +39,14 @@ var wordBreak = function(s, wordDict) {
     }
     return dp[s.length-1]
 };
-```
+// ```
 
 
-## 方法二 动态规划   
+// ## 方法二 动态规划   
 
-与上面方法类似，但是此处dp[i]表示从下标0开始长度为i的的字符串是否满足题意要求，可以被拆分并存在与wordDict中。
+// 与上面方法类似，但是此处dp[i]表示从下标0开始长度为i的的字符串是否满足题意要求，可以被拆分并存在与wordDict中。
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string[]} wordDict
@@ -72,4 +72,4 @@ var wordBreak = function(s, wordDict) {
     }
     return dp[s.length];
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-std::to_string()
+// ### 解题思路
+// std::to_string()
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isPalindrome(int x) {
@@ -17,4 +17,4 @@ public:
 
 	}
 };
-```
+// ```

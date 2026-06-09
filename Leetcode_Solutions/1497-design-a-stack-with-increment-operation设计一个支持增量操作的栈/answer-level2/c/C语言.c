@@ -1,8 +1,8 @@
-### 解题思路哈哈哈
+// ### 解题思路哈哈哈
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct 
 {
 	int num_val;
@@ -63,4 +63,4 @@ void customStackFree(CustomStack* obj)
 	free(obj);
 }
 
-```
+// ```

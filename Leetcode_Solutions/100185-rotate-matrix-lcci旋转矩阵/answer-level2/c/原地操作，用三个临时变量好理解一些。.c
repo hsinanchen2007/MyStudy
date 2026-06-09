@@ -1,9 +1,9 @@
-### 解题思路
-首先确定要转几圈，从外圈到内圈来处理。
+// ### 解题思路
+// 首先确定要转几圈，从外圈到内圈来处理。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int cycle = matrixSize / 2;   
     
@@ -23,4 +23,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
     }
 
 }
-```
+// ```

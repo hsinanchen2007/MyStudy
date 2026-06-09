@@ -1,7 +1,7 @@
-1.初始化所有没有打开的房间
-2.BFS获取钥匙
-3.开锁房间获取新钥匙
-```
+// 1.初始化所有没有打开的房间
+// 2.BFS获取钥匙
+// 3.开锁房间获取新钥匙
+// ```
 /*
  * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
  * Description: i love leetcode
@@ -60,4 +60,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> F;
@@ -35,6 +35,6 @@ public:
         return g - 1;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f4b4a1f204b89c279bcd1973cada425fea0cffa91fc33d717d6d2d0bcdb11d11-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f4b4a1f204b89c279bcd1973cada425fea0cffa91fc33d717d6d2d0bcdb11d11-image.png)

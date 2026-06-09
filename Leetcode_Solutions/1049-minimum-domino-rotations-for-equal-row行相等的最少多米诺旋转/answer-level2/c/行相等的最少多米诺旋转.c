@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minDominoRotations(int* A, int ASize, int* B, int BSize){
     //C语言法：哈希表的思想
     int hash[7]={0};
@@ -40,4 +40,4 @@ int minDominoRotations(int* A, int ASize, int* B, int BSize){
     }
     return cnt1>cnt2? cnt2:cnt1;
 }
-```
+// ```

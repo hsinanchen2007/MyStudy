@@ -1,8 +1,8 @@
-### 解题思路
-保持两个结果集深度尽量同步上涨
-### 代码
+// ### 解题思路
+// 保持两个结果集深度尽量同步上涨
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-记录一下问题：
-1.一遍代码写下来处理编译错误，大概是"malloc vs delete"，这里释放内存用的是delete，而我用的是malloc,于是我改用了new, 
-```
+// ### 解题思路
+// 记录一下问题：
+// 1.一遍代码写下来处理编译错误，大概是"malloc vs delete"，这里释放内存用的是delete，而我用的是malloc,于是我改用了new, 
+// ```
 ListNode *head = new ListNode(0);
 ListNode *p = new ListNode(visit[i]);
-```
-第一行我觉得可以用
-```
+// ```
+// 第一行我觉得可以用
+// ```
 ListNode *head = new ListNode();
-```
-但是编译错误，不知道为什么。
-### 代码
+// ```
+// 但是编译错误，不知道为什么。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

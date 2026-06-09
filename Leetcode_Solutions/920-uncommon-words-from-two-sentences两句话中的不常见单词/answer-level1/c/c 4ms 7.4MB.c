@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -173,4 +173,4 @@ char ** uncommonFromSentences( char * A , char * B , int * returnSize ){
     return buffer;
 
 }
-```
+// ```

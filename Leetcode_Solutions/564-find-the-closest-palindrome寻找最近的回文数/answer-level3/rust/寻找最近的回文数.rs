@@ -1,11 +1,11 @@
-### 解题思路
-awsl
-感觉rust的String操作太难了
-方法都懂,...太难表达了， 写出来的代码都是火星语
-还好过了
-### 代码
+// ### 解题思路
+// awsl
+// 感觉rust的String操作太难了
+// 方法都懂,...太难表达了， 写出来的代码都是火星语
+// 还好过了
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn nearest_palindromic(n: String) -> String {
         let len = n.len();
@@ -74,4 +74,4 @@ impl Solution {
         s.parse().unwrap()
     }
 }
-```
+// ```

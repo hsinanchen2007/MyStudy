@@ -1,9 +1,9 @@
-### 解题思路
-从小到大排序，取前k位
+// ### 解题思路
+// 从小到大排序，取前k位
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -50,4 +50,4 @@ function quickSort(arr) {
 //     arr = arr.sort( (a,b)=> a-b )
 //     return arr.splice(0,k)
 // };
-```
+// ```

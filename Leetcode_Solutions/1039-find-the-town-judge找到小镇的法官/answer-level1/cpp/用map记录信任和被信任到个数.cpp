@@ -1,4 +1,4 @@
-```
+// ```
 public:
     int findJudge(int N, vector<vector<int>>& trust) {
         map<int, int> mp1;
@@ -20,4 +20,4 @@ public:
         return -1;
     }
 };
-```
+// ```

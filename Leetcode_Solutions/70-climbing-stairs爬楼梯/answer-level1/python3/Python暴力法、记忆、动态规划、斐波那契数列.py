@@ -1,4 +1,4 @@
-```python
+# ```python
 # 暴力递归，超时！O(2^n), O(2^n)
 class Solution(object):
     def climbStairs(self, n):
@@ -65,4 +65,4 @@ class Solution(object):
             first = second
             second = third
         return third
-```
+# ```

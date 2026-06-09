@@ -1,11 +1,11 @@
-### 解题思路
-贪心
-遍历连续3个0中间位置即可插花
-注意处理边界的方法，亦可两端补零
+# ### 解题思路
+# 贪心
+# 遍历连续3个0中间位置即可插花
+# 注意处理边界的方法，亦可两端补零
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         count = 0
@@ -16,4 +16,4 @@ class Solution:
                     return True
                 flowerbed[i] = 1
         return count >= n
-```
+# ```

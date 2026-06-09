@@ -1,9 +1,9 @@
-### 解题思路
-取两数组最小长度，循环匹配相同值个数；
+// ### 解题思路
+// 取两数组最小长度，循环匹配相同值个数；
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} guess
  * @param {number[]} answer
@@ -18,4 +18,4 @@ var game = function(guess, answer) {
     }
     return out
 };
-```
+// ```

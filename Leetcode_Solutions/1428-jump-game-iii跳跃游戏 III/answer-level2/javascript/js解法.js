@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} arr
  * @param {number} start
@@ -29,4 +29,4 @@ var canReach = function(arr, start) {
   return false;
 };
 
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-直接使用生成全排列的方式解决本题。
+// 直接使用生成全排列的方式解决本题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         if (nums.length == 0) return Collections.emptyList();
@@ -37,4 +37,4 @@ class Solution {
         nums[j] = t;
     }
 }
-```
+// ```

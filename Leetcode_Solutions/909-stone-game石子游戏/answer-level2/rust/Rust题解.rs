@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn stone_game(piles: Vec<i32>) -> bool {
         let mut dp = vec![vec![0; piles.len()]; piles.len()];
@@ -15,5 +15,5 @@ impl Solution {
         dp[0].last().unwrap() * 2 > piles.iter().sum()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

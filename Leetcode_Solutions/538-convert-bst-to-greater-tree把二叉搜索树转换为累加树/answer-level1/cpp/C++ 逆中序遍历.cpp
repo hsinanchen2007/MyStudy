@@ -1,6 +1,6 @@
-先右后中再左，每次从栈中弹出节点，其值累加到后面弹出的节点上即可，
-C++代码如下：
-```c++
+// 先右后中再左，每次从栈中弹出节点，其值累加到后面弹出的节点上即可，
+// C++代码如下：
+// ```c++
 class Solution {
 public:
     TreeNode* convertBST(TreeNode* root) {

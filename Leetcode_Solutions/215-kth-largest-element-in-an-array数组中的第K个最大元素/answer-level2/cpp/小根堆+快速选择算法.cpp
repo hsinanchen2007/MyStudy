@@ -1,6 +1,6 @@
-Top K问题，用堆自然是最简单的想法
-事件复杂度O(n*log k)
-```cpp
+// Top K问题，用堆自然是最简单的想法
+// 事件复杂度O(n*log k)
+// ```cpp
 class Solution 
 {
 public:
@@ -25,10 +25,10 @@ public:
         return pq.top();
     }
 };
-```
-类似于快速排序的快速选择法，实际上主要是利用了划分时每次可以确定一个下标在排好序之后的位置
-时间复杂度O(n)
-```cpp
+// ```
+// 类似于快速排序的快速选择法，实际上主要是利用了划分时每次可以确定一个下标在排好序之后的位置
+// 时间复杂度O(n)
+// ```cpp
 class Solution
 {
 public:
@@ -75,4 +75,4 @@ public:
 		return quickChoose(nums, 0, nums.size() - 1, index);
 	}
 };
-```
+// ```

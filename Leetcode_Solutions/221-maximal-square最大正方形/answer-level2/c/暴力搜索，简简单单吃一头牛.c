@@ -1,4 +1,4 @@
-```
+// ```
 void UpdateMax(int *max, int sum)
 {
     if (sum > *max) {
@@ -84,4 +84,4 @@ int maximalSquare(char** matrix, int matrixSize, int* matrixColSize)
     }
     return res;
 }
-```
+// ```

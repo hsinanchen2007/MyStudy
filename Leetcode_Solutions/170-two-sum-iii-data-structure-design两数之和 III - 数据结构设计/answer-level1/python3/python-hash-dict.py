@@ -1,4 +1,4 @@
-```
+# ```
 class TwoSum:
 
     def __init__(self):
@@ -27,4 +27,4 @@ class TwoSum:
             if tar in self.dict and self.dict[tar]!=i:
                 return True
         return False
-```
+# ```

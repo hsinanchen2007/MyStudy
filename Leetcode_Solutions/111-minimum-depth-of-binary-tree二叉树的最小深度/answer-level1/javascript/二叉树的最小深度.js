@@ -1,7 +1,7 @@
 
-1、DFS
+// 1、DFS
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -27,10 +27,10 @@ var minDepth = function(root) {
     }
     return min_depth + 1;
 };
-```
-2、BFS
+// ```
+// 2、BFS
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -61,4 +61,4 @@ var minDepth = function(root) {
    }
    return count;
 };
-```
+// ```

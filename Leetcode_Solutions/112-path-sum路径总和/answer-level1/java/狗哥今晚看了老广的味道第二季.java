@@ -1,9 +1,9 @@
-### 解题思路
-递归产生疑惑美
+// ### 解题思路
+// 递归产生疑惑美
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
 				||dohasPathSum(parent.right, sum, curSum+parent.val);
 	}
 }
-```
+// ```

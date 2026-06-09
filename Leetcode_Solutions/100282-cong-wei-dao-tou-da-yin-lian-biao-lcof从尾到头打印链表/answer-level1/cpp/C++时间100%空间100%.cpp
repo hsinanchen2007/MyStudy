@@ -1,5 +1,5 @@
-先全压进栈，再把vector前后倒过来
-```
+// 先全压进栈，再把vector前后倒过来
+// ```
 #include<algorithm>
 class Solution {
 public:
@@ -14,4 +14,4 @@ public:
         return res;
     }
 };
-```
+// ```

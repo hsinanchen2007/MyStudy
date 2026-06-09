@@ -1,11 +1,11 @@
-### 解题思路
-对所有元音做异或，hashmap保存每个异或值val的位置,countmap[0] = -1;
-对s中每个位置i都判断当前val值，如果当前位置val在hashmap中存在result = max(result, i - countmap[val]);
-如果当前字符是元音且val在hashmap中不存在，填到hashmap中
+// ### 解题思路
+// 对所有元音做异或，hashmap保存每个异或值val的位置,countmap[0] = -1;
+// 对s中每个位置i都判断当前val值，如果当前位置val在hashmap中存在result = max(result, i - countmap[val]);
+// 如果当前字符是元音且val在hashmap中不存在，填到hashmap中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findTheLongestSubstring(string s) {
@@ -28,4 +28,4 @@ public:
         return result;
     }
 };
-```
+// ```

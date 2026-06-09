@@ -1,11 +1,11 @@
-### 解题思路
-1，利用2个bit存储基因的一个位点
-2，利用位运算快速判断两个基因序列是否只有一个点突变
-3，构建图并计算两点的最短距离
+// ### 解题思路
+// 1，利用2个bit存储基因的一个位点
+// 2，利用位运算快速判断两个基因序列是否只有一个点突变
+// 3，构建图并计算两点的最短距离
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const int M1 = 0xCCCCCCCC; // 1100110011001100...
@@ -64,6 +64,6 @@ public:
         return dfn[ne] == INF ? -1 : dfn[ne];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/21ccf29bc992a5e0343be44b14274922cd9f912bfad5f11ceaabfa5fec600eb2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/21ccf29bc992a5e0343be44b14274922cd9f912bfad5f11ceaabfa5fec600eb2-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-和其他人思路差不多，提供一个python版本
+# ### 解题思路
+# 和其他人思路差不多，提供一个python版本
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def matrixScore(self, A: List[List[int]]) -> int:
         # 行移动
@@ -40,4 +40,4 @@ class Solution:
             result += temp
         return result
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findRadius(self, houses, heaters):
         """
@@ -23,10 +23,10 @@ class Solution(object):
             max_dist = max(max_dist, curr_dist) # 更新当前最大值
                 
         return max_dist
-```
+# ```
 
-在heaters中添加一个float("inf")之后可以保证最终所有的house都会停在index=len(heaters)处，避免了繁琐的越界检查。
+# 在heaters中添加一个float("inf")之后可以保证最终所有的house都会停在index=len(heaters)处，避免了繁琐的越界检查。
 
-P.S. 理论上来讲，此算法的时间复杂度为O(M+N)，但是速度却并不比二分查找快多少，大概还是数据量太小吧。
+# P.S. 理论上来讲，此算法的时间复杂度为O(M+N)，但是速度却并不比二分查找快多少，大概还是数据量太小吧。
 
-P.P.S. 感觉测试用例还需要更新一下，这样一来某些人写得二分查找可能会陷入死循环。
+# P.P.S. 感觉测试用例还需要更新一下，这样一来某些人写得二分查找可能会陷入死循环。

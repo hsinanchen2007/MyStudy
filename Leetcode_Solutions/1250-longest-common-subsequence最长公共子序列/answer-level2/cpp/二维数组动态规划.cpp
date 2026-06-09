@@ -1,11 +1,11 @@
-### 解题思路
-二维数组动态规划，一个求了边界，用dp[m-1][n-1] 返回
+// ### 解题思路
+// 二维数组动态规划，一个求了边界，用dp[m-1][n-1] 返回
 
-二是不求边界，直接dp[m][n]返回
+// 二是不求边界，直接dp[m][n]返回
 
-### 代码1： 求边界
+// ### 代码1： 求边界
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -40,10 +40,10 @@ public:
         return dp[rows - 1][cols - 1];
     }
 };
-```
+// ```
 
-### 代码2：直接
-```cpp
+// ### 代码2：直接
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -60,4 +60,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

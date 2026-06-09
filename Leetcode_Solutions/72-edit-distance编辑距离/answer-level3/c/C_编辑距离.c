@@ -1,9 +1,9 @@
-### 解题思路
-动态规划的题，看看官方题解，记一记就好了，不要自己乱分析。加强学习。
+// ### 解题思路
+// 动态规划的题，看看官方题解，记一记就好了，不要自己乱分析。加强学习。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int del(int**G,int Size,int ColsSize)
 {
     int result=G[Size-1][ColsSize-1];
@@ -35,4 +35,4 @@ int minDistance(char * word1, char * word2){
     
     return del(grid,rowNum_1+1,colNum_2+1);
 }
-```
+// ```

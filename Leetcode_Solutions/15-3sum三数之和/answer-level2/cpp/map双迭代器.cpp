@@ -1,5 +1,5 @@
-使用map维护一个有序数组及元素数量，使用双层循环遍历map，找到三数之和为0的情况保存下来，位避免重复，可保证num1 <= num2 <= num3，还需判断其元素数量是否可以满足需求。
-```
+// 使用map维护一个有序数组及元素数量，使用双层循环遍历map，找到三数之和为0的情况保存下来，位避免重复，可保证num1 <= num2 <= num3，还需判断其元素数量是否可以满足需求。
+// ```
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return result;
     }
 };
-```
+// ```

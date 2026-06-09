@@ -1,9 +1,9 @@
-### 解题思路
-python hash + 堆排序
-注意要将Dictionary类型转化为list类型，并且比较的是list中每个元素的第二位
-### 代码
+# ### 解题思路
+# python hash + 堆排序
+# 注意要将Dictionary类型转化为list类型，并且比较的是list中每个元素的第二位
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def topKFrequent(self, nums, k):
         """
@@ -47,4 +47,4 @@ class Solution(object):
 
 
 
-```
+# ```

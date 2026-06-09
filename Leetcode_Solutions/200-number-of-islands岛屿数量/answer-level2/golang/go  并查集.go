@@ -1,9 +1,9 @@
-### 解题思路
-并查集
+// ### 解题思路
+// 并查集
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var temp []int
 
 func find(x int) int {
@@ -62,4 +62,4 @@ func numIslands(grid [][]byte) int {
 		return res
 
 }
-```
+// ```

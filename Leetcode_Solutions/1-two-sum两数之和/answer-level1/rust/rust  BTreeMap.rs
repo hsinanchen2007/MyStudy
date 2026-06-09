@@ -1,8 +1,8 @@
-0 毫秒的 rust 解答
+// 0 毫秒的 rust 解答
 
-BTreeMap 比 HashMap 省内存
+// BTreeMap 比 HashMap 省内存
 
-```rust
+// ```rust
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         use std::collections::BTreeMap;
         let mut map: BTreeMap<i32, usize> = BTreeMap::new();
@@ -20,4 +20,4 @@ BTreeMap 比 HashMap 省内存
         result
     }
 
-```
+// ```

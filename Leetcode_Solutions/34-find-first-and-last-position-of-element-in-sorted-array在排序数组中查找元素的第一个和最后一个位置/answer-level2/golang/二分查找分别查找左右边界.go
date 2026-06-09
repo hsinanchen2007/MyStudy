@@ -1,17 +1,17 @@
-### 解题思路
-二分查找分别查找左右边界  时间复杂度 2(log2N)依然是log2N
+// ### 解题思路
+// 二分查找分别查找左右边界  时间复杂度 2(log2N)依然是log2N
 
-注意细节
-```go
+// 注意细节
+// ```go
 if mid == 0 || nums[mid-1] < target {
 				res = mid
 				return res //注意要提前退出
 			}
 	right = mid-1		//如果mid是边界会在上面返回的，所以这里不是边界，即左边还有相同的target元素，所以这里是mid-1
-```
-### 代码
+// ```
+// ### 代码
 
-```golang
+// ```golang
 
 func searchRange(nums []int, target int) []int {
 	left := left_bound(nums, target)
@@ -59,4 +59,4 @@ func right_bound(nums []int, target int) int {
 	return res
 }
 
-```
+// ```

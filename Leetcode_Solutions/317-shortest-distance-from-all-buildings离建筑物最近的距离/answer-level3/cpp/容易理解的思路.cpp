@@ -1,11 +1,11 @@
-### 解题思路
-1.先找出所有的0
-2.遍历每个0，计算与建筑的距离
-3.取距离和最小值
+// ### 解题思路
+// 1.先找出所有的0
+// 2.遍历每个0，计算与建筑的距离
+// 3.取距离和最小值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int bfs(const vector<vector<int>>& grid,int x, int y,int building){
@@ -70,4 +70,4 @@ public:
         return minSum == INT_MAX?-1:minSum;
     }
 };
-```
+// ```

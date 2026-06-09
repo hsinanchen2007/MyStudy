@@ -1,9 +1,9 @@
-### 解题思路
-先排序再将前k个元素返回
+// ### 解题思路
+// 先排序再将前k个元素返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         Arrays.sort(arr);
@@ -14,4 +14,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

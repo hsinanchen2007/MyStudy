@@ -1,4 +1,4 @@
-```
+// ```
 // DFS 递归
 var isBalanced = function(root) {
     let res = true;
@@ -13,4 +13,4 @@ var isBalanced = function(root) {
     getDeep(root);
     return res;
 };
-```
+// ```

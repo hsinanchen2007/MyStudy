@@ -1,8 +1,8 @@
 
-#代码主体和思路学习于以下链接，做了部分代码顺序修改便于个人理解，以及添加了更多个人注释
-https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/
+# #代码主体和思路学习于以下链接，做了部分代码顺序修改便于个人理解，以及添加了更多个人注释
+# https://leetcode-cn.com/problems/permutation-sequence/solution/hui-su-jian-zhi-python-dai-ma-java-dai-ma-by-liwei/
 
-```python []
+# ```python []
 class Solution:
 
     def getPermutation(self, n: int, k: int) -> str:
@@ -51,4 +51,4 @@ class Solution:
             return self.dfs(nums, used, n, k, res)
 
             # 因为直接走到叶子结点，因此状态不用恢复为False
-```
+# ```

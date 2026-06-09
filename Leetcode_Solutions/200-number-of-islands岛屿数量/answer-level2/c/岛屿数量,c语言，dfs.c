@@ -1,10 +1,10 @@
-### 解题思路
-用一个标记数组（其实可以用原数组当标记数组），遇见没访问过的1就dfs将跟他连着的1都访问了。
-我没仔细看题，我以为矩阵是int，做了半天一直错误，最后看到是char，我人都傻了，motherf***
+// ### 解题思路
+// 用一个标记数组（其实可以用原数组当标记数组），遇见没访问过的1就dfs将跟他连着的1都访问了。
+// 我没仔细看题，我以为矩阵是int，做了半天一直错误，最后看到是char，我人都傻了，motherf***
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void DFS(int i,int j,char** grid,int m,int n,int sign[][n]){
     sign[i][j] = 1;
     if(i-1>=0 && sign[i-1][j]==0 && grid[i-1][j]=='1'){
@@ -42,4 +42,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return result;
 }
-```
+// ```

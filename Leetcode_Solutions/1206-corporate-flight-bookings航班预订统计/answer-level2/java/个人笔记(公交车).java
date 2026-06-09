@@ -1,8 +1,8 @@
-### 解题思路
-一开始，是这样的。。。
-### 代码
+// ### 解题思路
+// 一开始，是这样的。。。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] res = new int[n];
@@ -15,15 +15,15 @@ class Solution {
         return res;
     }
 }
-```
-结果。。。
-![image.png](https://pic.leetcode-cn.com/47a642cef681115642f762e6bc27f6ea6231d3c4e83e5c8f76c07418171b1bfc-image.png)
+// ```
+// 结果。。。
+// ![image.png](https://pic.leetcode-cn.com/47a642cef681115642f762e6bc27f6ea6231d3c4e83e5c8f76c07418171b1bfc-image.png)
 
-后面看了大佬的思路，可以看做是公交车到站上车下车问题。。。结果。。
+// 后面看了大佬的思路，可以看做是公交车到站上车下车问题。。。结果。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         //count[0]用来存放初始车上人数，后面的用来存放车上人数的变化
@@ -41,7 +41,7 @@ class Solution {
         return count;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/3421cd78103a1edbc67f32c85978aaff79c1a7ea005f4df9119ac7135002f90b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3421cd78103a1edbc67f32c85978aaff79c1a7ea005f4df9119ac7135002f90b-image.png)
 
-果然是大佬强啊。。。
+// 果然是大佬强啊。。。

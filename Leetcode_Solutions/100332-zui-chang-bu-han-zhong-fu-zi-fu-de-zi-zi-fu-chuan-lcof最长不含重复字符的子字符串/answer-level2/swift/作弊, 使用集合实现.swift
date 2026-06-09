@@ -1,9 +1,9 @@
-### 解题思路
-要把字符串转成数组在直接索引访问, 否则直接用String的index访问的话, 会超时...
+// ### 解题思路
+// 要把字符串转成数组在直接索引访问, 否则直接用String的index访问的话, 会超时...
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         // 用滑动的窗口, 窗口里面都是不重复的子串, 最后窗口最大长度, 就是无重复子串的长度
@@ -28,4 +28,4 @@ class Solution {
         return ret
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-时间复杂度： O(1)
-空间复杂度： O(1)
+// 时间复杂度： O(1)
+// 空间复杂度： O(1)
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -12,4 +12,4 @@ class Solution {
         return $num > 0 && ($num & ($num - 1)) == 0 && $num % 3 == 1;
     }
 }
-```
+// ```

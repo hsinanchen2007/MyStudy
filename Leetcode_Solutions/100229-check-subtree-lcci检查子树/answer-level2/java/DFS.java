@@ -1,11 +1,11 @@
-### 解题思路
-树A是树B的子树
-当且仅当，在树B中存在某节点X，其中X的节点值与A的根节点值相同，并且X的左子树与A的左子树 && X的右子树与A的右子树相同
-递归的思想
+// ### 解题思路
+// 树A是树B的子树
+// 当且仅当，在树B中存在某节点X，其中X的节点值与A的根节点值相同，并且X的左子树与A的左子树 && X的右子树与A的右子树相同
+// 递归的思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return isSubTree(t1.left,t2.left) && isSubTree(t1.right,t2.right);
     }
 }
-```
+// ```

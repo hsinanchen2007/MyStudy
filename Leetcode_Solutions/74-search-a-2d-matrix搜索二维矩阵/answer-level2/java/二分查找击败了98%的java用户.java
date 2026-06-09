@@ -1,7 +1,7 @@
-## 分析
-典型的二分查找
-## 代码
-```java
+// ## 分析
+// 典型的二分查找
+// ## 代码
+// ```java
 public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0) {
             return false;
@@ -24,4 +24,4 @@ public boolean searchMatrix(int[][] matrix, int target) {
         return false;
 
     }
-```
+// ```

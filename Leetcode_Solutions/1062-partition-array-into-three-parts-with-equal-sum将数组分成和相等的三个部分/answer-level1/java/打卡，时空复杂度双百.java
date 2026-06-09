@@ -1,5 +1,5 @@
-    // 如果返回true，必定有 x + x + x = sum，能被三整除
-    // 求出左边和为x的序列后，再看右边是否有两个和为x的序列
+//     // 如果返回true，必定有 x + x + x = sum，能被三整除
+//     // 求出左边和为x的序列后，再看右边是否有两个和为x的序列
     class Solution {
         public boolean canThreePartsEqualSum(int[] A) {
             int sum = 0;

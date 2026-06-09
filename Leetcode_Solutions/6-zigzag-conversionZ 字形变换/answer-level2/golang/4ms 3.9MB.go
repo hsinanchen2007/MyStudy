@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-第i行的第z个 是字符串中第 i+ z(2*numRows - 2) ,i+ z(2*numRows - 2)+2*numRows - 2 - i*2 个字符构成
+// 第i行的第z个 是字符串中第 i+ z(2*numRows - 2) ,i+ z(2*numRows - 2)+2*numRows - 2 - i*2 个字符构成
 
-golang中生成新的字符串不能使用 append，会分配失败
+// golang中生成新的字符串不能使用 append，会分配失败
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convert(s string, numRows int) string {
 	if numRows ==1{
 		return s
@@ -41,4 +41,4 @@ func convert(s string, numRows int) string {
 
 	return string(sb)
 }
-```
+// ```

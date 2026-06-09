@@ -1,5 +1,5 @@
-关键：是找到倒数第N + 1个节点， 即倒数第N个节点的prev节点
-然后就是一般的删除节点代码了：
+// 关键：是找到倒数第N + 1个节点， 即倒数第N个节点的prev节点
+// 然后就是一般的删除节点代码了：
 ListNode* tmp = prev->next;
 prev->next = prev->next->next;
 delete tmp;

@@ -1,4 +1,4 @@
-使用c++自带排序
+// 使用c++自带排序
 
 
 bool cmp(int a, int b){

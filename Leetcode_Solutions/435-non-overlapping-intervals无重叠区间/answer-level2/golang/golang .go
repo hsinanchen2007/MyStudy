@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2528a0ff8122d00916661ecd64b1fcaf26d80088d4ad43d1563c051875782732-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2528a0ff8122d00916661ecd64b1fcaf26d80088d4ad43d1563c051875782732-image.png)
 
-```go
+// ```go
 
 // 注意这里只需要计数即可, 不需要返回移除后的数组结果
 func eraseOverlapIntervals(intervals [][]int) int {
@@ -32,4 +32,4 @@ func eraseOverlapIntervals(intervals [][]int) int {
 
     return n 
 }
-```
+// ```

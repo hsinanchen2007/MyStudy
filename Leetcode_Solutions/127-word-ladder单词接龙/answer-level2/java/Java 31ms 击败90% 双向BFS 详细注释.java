@@ -1,5 +1,5 @@
-#### 模仿了[力扣题解](https://leetcode-cn.com/problems/word-ladder/solution/dan-ci-jie-long-by-leetcode/)的通用状态哈希表以及[LeetCode题解](https://leetcode.com/problems/word-ladder/discuss/40711/Two-end-BFS-in-Java-31ms.)的双向bfs; 核心: 双向bfs并不是同时双向, 实际上差不多是这次从beginWord方向bfs,下次从endWord方向bfs; 代码中实现双向遍历的方式是while循环中的第一个if语句
-```java
+// #### 模仿了[力扣题解](https://leetcode-cn.com/problems/word-ladder/solution/dan-ci-jie-long-by-leetcode/)的通用状态哈希表以及[LeetCode题解](https://leetcode.com/problems/word-ladder/discuss/40711/Two-end-BFS-in-Java-31ms.)的双向bfs; 核心: 双向bfs并不是同时双向, 实际上差不多是这次从beginWord方向bfs,下次从endWord方向bfs; 代码中实现双向遍历的方式是while循环中的第一个if语句
+// ```java
 /*
 双向bfs并不是从两端同时bfs, 实际上是这次从begin进行bfs, 下次从end进行bfs, 像这样循环操作
 */
@@ -69,4 +69,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

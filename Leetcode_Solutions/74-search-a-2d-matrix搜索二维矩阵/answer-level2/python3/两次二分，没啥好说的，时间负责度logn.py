@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先从第一列开始 纵向二分查找，注意不能有等于号。第二次横向二分查找。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先从第一列开始 纵向二分查找，注意不能有等于号。第二次横向二分查找。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix or not matrix[0]:
@@ -45,4 +45,4 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```

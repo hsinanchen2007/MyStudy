@@ -1,14 +1,14 @@
-![1.png](https://pic.leetcode-cn.com/7c68e7d2ba2cf661b21cc7d496cf6cad94533bbb33897dc0967ce636667a9745-1.png)
+// ![1.png](https://pic.leetcode-cn.com/7c68e7d2ba2cf661b21cc7d496cf6cad94533bbb33897dc0967ce636667a9745-1.png)
 
-### 解题思路
-map映射  licensePlate
-t  映射  words[i]
-num记录符合条件的words[i]的长度
-最后取num中的非0最小下标
+// ### 解题思路
+// map映射  licensePlate
+// t  映射  words[i]
+// num记录符合条件的words[i]的长度
+// 最后取num中的非0最小下标
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * shortestCompletingWord(char * licensePlate, char ** words, int wordsSize){
     int *map=(int*)calloc(26,sizeof(int)),*t=(int*)calloc(26,sizeof(int));
     int *num=(int*)calloc(wordsSize,sizeof(int)),j,k=0;
@@ -39,4 +39,4 @@ char * shortestCompletingWord(char * licensePlate, char ** words, int wordsSize)
     free(map);free(t);free(num);
     return words[k];
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![webwxgetmsgimg.jpeg](https://pic.leetcode-cn.com/c7a431e35007ed954e5c391c97488b7d38825e1ba6f566ecd7f8352d3e25f703-webwxgetmsgimg.jpeg)
-看了大佬的思路写出来的，回过头来看觉得是对已有结论的推导，重点还是每一次得出这个点上两个串可不可以匹配的结论要准确可证明，对我来说不看答案想出这个解法还是太难了，希望下次能更有思路一些把
-```
+// ![webwxgetmsgimg.jpeg](https://pic.leetcode-cn.com/c7a431e35007ed954e5c391c97488b7d38825e1ba6f566ecd7f8352d3e25f703-webwxgetmsgimg.jpeg)
+// 看了大佬的思路写出来的，回过头来看觉得是对已有结论的推导，重点还是每一次得出这个点上两个串可不可以匹配的结论要准确可证明，对我来说不看答案想出这个解法还是太难了，希望下次能更有思路一些把
+// ```
 func isMatch(s string, p string) bool {
     dp := make([][]bool, 0, len(s)+1)
     for i:=0; i<len(s)+1; i++ {
@@ -38,4 +38,4 @@ func isMatch(s string, p string) bool {
     }
     return dp[len(s)][len(p)]
 }
-```
+// ```

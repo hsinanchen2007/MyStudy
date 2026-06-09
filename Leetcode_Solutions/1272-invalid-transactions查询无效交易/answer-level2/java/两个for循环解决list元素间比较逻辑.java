@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public List<String> invalidTransactions(String[] transactions) {
 
@@ -27,4 +27,4 @@ class Solution {
         return new ArrayList(list);//set转为list返回
     }
 }
-```
+// ```

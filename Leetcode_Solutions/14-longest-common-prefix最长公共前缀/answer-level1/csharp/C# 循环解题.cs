@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-我的思路是从第一条开始对比，一旦对比失败，就返回
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 我的思路是从第一条开始对比，一旦对比失败，就返回
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
         //基础条件
@@ -41,4 +41,4 @@ public class Solution {
         return res;
     }
 }
-```
+// ```

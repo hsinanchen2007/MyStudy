@@ -1,7 +1,7 @@
 
-第一种方法，具体解读在官解和其他大佬的题解那里，非常巧妙的路径查找法，从某个角开始扫描，时间复杂度$O(M+N)$。
+# 第一种方法，具体解读在官解和其他大佬的题解那里，非常巧妙的路径查找法，从某个角开始扫描，时间复杂度$O(M+N)$。
 
-```py
+# ```py
 class Solution:
     def searchMatrix(self, matrix, target):
         if not matrix or not matrix[0]:
@@ -16,11 +16,11 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```
 
-第二种方法，收缩区间的二分查找法。
+# 第二种方法，收缩区间的二分查找法。
 
-```py
+# ```py
 class Solution:
     def searchMatrix(self, matrix, target):
         if not matrix or not matrix[0]:
@@ -36,5 +36,5 @@ class Solution:
                 return True
             p = m                   #区间收缩
         return False
-```
-![image.png](https://pic.leetcode-cn.com/6dac2229b7094daa8d92a065f9a27c6fad8e06deaad603248c0f70e437b4afed-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/6dac2229b7094daa8d92a065f9a27c6fad8e06deaad603248c0f70e437b4afed-image.png)

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var arrayPairSum = function(nums) {
     nums.sort((a, b) => a - b)
     let sum = 0
@@ -9,6 +9,6 @@ var arrayPairSum = function(nums) {
     }
     return sum
 };
-```
-时间复杂度：O(n log n)
-空间复杂度：O(1)
+// ```
+// 时间复杂度：O(n log n)
+// 空间复杂度：O(1)

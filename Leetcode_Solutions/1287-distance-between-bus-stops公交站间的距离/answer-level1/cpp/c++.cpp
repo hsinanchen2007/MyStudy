@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
@@ -23,8 +23,8 @@ public:
         return min(left[destination] - left[start],sum-(left[destination] - left[start]));
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
         int n = distance.length;
@@ -49,8 +49,8 @@ class Solution {
         return Math.min(rest,sum-rest);
     }
 }
-```
-```python []
+// ```
+// ```python []
 python:
 
 class Solution:
@@ -68,4 +68,4 @@ class Solution:
             rest = sum(distance[0:destination]) - sum(distance[0:start])
     
         return min(sum(distance[0:n])-rest,rest)
-```
+// ```

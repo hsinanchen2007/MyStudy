@@ -1,6 +1,6 @@
-这个应该是全网最简单的解法:
+// 这个应该是全网最简单的解法:
 
-```
+// ```
 class Solution {
     public boolean divisorGame(int N) {
         /**
@@ -11,4 +11,4 @@ class Solution {
         return N % 2 == 0;
     }
 }
-```
+// ```

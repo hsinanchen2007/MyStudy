@@ -1,9 +1,9 @@
-### 解题思路
-不回溯，双指针
+# ### 解题思路
+# 不回溯，双指针
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isSubsequence(self, s, t):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             j += 1
             # print("over: i={} j={}".format(i, j))
         return i == m
-```
+# ```

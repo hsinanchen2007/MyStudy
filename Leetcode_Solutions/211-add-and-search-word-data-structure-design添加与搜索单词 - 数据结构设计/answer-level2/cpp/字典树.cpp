@@ -1,10 +1,10 @@
-### 解题思路
-- 关键是如何处理.
-- 暴力搜索所有子串
+// ### 解题思路
+// - 关键是如何处理.
+// - 暴力搜索所有子串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class WordDictionary {
 struct Trie{
     bool is_end = false;
@@ -57,4 +57,4 @@ public:
  * obj->addWord(word);
  * bool param_2 = obj->search(word);
  */
-```
+// ```

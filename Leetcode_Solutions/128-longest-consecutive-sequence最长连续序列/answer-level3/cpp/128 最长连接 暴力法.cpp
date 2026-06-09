@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d97630411b6818cb59f985e69dcd1f390aa0a87c70605e31c97dff1654e6934c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d97630411b6818cb59f985e69dcd1f390aa0a87c70605e31c97dff1654e6934c-image.png)
 
-对每一个元素，以其为开始，不断加1，看是否在数组里
-直到发现不再，那么其最长连续为next - i
-同时缓存之前的计算过的结果
-### 代码
+// 对每一个元素，以其为开始，不断加1，看是否在数组里
+// 直到发现不再，那么其最长连续为next - i
+// 同时缓存之前的计算过的结果
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

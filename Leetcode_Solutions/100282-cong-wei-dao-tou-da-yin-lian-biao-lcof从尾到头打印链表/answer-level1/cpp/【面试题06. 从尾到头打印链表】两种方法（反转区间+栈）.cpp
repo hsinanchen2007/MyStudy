@@ -1,9 +1,9 @@
-## 思路一：反转数组
+// ## 思路一：反转数组
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```cpp
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -17,14 +17,14 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：栈
+// ## 思路二：栈
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define INDEX_NUM 26
 
 typedef struct tagWordDictory{
@@ -105,4 +105,4 @@ void wordDictionaryFree(WordDictionary* obj) {
  
  * wordDictionaryFree(obj);
 */
-```
+// ```

@@ -1,8 +1,8 @@
-- 只要有一个`false`整个函数就false
-- 边界：空结点`return true`
-- 构建当前解`root->val == val && 左子树单值 && 有子树单值`
+// - 只要有一个`false`整个函数就false
+// - 边界：空结点`return true`
+// - 构建当前解`root->val == val && 左子树单值 && 有子树单值`
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnivalTree(TreeNode* root) {
@@ -16,4 +16,4 @@ private:
         return root->val == val && isUni(root->left) && isUni(root->right);
     }
 };
-```
+// ```

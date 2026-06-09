@@ -1,5 +1,5 @@
-由于头节点也可能是要被删除的节点，因此需要设置虚拟头节点，然后从头节点开始进行逐个判断。
-```
+// 由于头节点也可能是要被删除的节点，因此需要设置虚拟头节点，然后从头节点开始进行逐个判断。
+// ```
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         ListNode dummyHead = new ListNode(-1);
@@ -16,4 +16,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

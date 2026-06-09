@@ -1,4 +1,4 @@
-```
+// ```
 type ArrayUnion struct {
 	arr []int
 }
@@ -42,4 +42,4 @@ func smallestEquivalentString(A string, B string, S string) string {
 	}
 	return string(bs)
 }
-```
+// ```

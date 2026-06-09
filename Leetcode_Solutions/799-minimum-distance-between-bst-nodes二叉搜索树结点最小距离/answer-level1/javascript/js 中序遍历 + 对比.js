@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/57f3c45bf8477b254b30c978acf36e4c5c6bff573abcfe03ee908583323f7625-image.png)
+// ![image.png](https://pic.leetcode-cn.com/57f3c45bf8477b254b30c978acf36e4c5c6bff573abcfe03ee908583323f7625-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 中序遍历二叉搜索树，不断比较两个相邻节点的差，更新最小差
 需要的额外变量：
 - 上一个按照遍历顺序的相邻节点值
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -38,4 +38,4 @@ var minDiffInBST = function(root) {
   
   return ans;
 };
-```
+// ```

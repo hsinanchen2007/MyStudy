@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/db64d3f59ae09d26fa525d42f132e8235d565a1370d9de09d9f33e851d9340e5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/db64d3f59ae09d26fa525d42f132e8235d565a1370d9de09d9f33e851d9340e5-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   核心原则：浪费剩余多的，节约剩余少的
   贪心思路：
   1. 建立一个数组，每一项存储 a b c 的剩余数量以及字符串的值
@@ -13,11 +13,11 @@
      - 如果字符串不是剩余最多的字符，那么如果它剩余大于 1 就拼 1 个，否则不拼
      
   重复过程 2 。。。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} a
  * @param {number} b
@@ -70,4 +70,4 @@ var longestDiverseString = function(a, b, c) {
   
   return ans;
 };
-```
+// ```

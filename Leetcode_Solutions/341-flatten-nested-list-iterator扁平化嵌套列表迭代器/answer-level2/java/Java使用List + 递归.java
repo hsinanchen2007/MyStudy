@@ -1,8 +1,8 @@
-执行时间：4ms，98%；内存：36.7MB，93.59%。
+// 执行时间：4ms，98%；内存：36.7MB，93.59%。
 
-简单粗暴，在初始化迭代器的时候就直接把结果遍历出来，递归遍历列表中的数据，是整数就放入List，不是则再递归遍历，代码结构简单。
+// 简单粗暴，在初始化迭代器的时候就直接把结果遍历出来，递归遍历列表中的数据，是整数就放入List，不是则再递归遍历，代码结构简单。
 
-```java
+// ```java
 public class NestedIterator implements Iterator<Integer> {
 
     private List<Integer> list;
@@ -36,4 +36,4 @@ public class NestedIterator implements Iterator<Integer> {
         return list;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-直接扫描一遍过， O(N)
-```c
+// 直接扫描一遍过， O(N)
+// ```c
 int lengthOfLastWord(char * str){
     char *s = str;
 
@@ -18,4 +18,4 @@ int lengthOfLastWord(char * str){
     
     return length? length: lastL; 
 }
-```
+// ```

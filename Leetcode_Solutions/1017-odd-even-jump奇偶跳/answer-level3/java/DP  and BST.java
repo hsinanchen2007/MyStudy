@@ -1,10 +1,10 @@
-DP用来存每个数组index处当前步数奇数/偶数的情况下能不能到达目的地
-最后一个数字当然可以，从右往左扫码，当前数字的下一步如果可以就可以
+// DP用来存每个数组index处当前步数奇数/偶数的情况下能不能到达目的地
+// 最后一个数字当然可以，从右往左扫码，当前数字的下一步如果可以就可以
 
-BST(<code>TreeSet<code>)用来辅助找比当前位置大于等于或小于等于关系的最近数组index
-考虑到不管找大找小都是较小index优先，我用了两个BST
+// BST(<code>TreeSet<code>)用来辅助找比当前位置大于等于或小于等于关系的最近数组index
+// 考虑到不管找大找小都是较小index优先，我用了两个BST
 
-```
+// ```
 class Solution {
     /************************************
       Do not forget values not distinct
@@ -67,4 +67,4 @@ class Solution {
         return (int)Arrays.stream(dp).filter(arr -> arr[1] == 1).count();
     }
 }
-```
+// ```

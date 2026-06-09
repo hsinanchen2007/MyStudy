@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         q = collections.deque([(0,0)])
@@ -18,4 +18,4 @@ class Solution:
     
     def is_valid(self,nx,ny,m,n,k,visited):
         return 0<=nx<m and 0<=ny<n and nx//10+nx%10+ny//10+ny%10<=k and (nx,ny) not in visited   
-```
+# ```

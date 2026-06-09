@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int minCost(vector<vector<int>>& costs) {
@@ -16,4 +16,4 @@ public:
         return std::min(std::min(costs[m][0], costs[m][1]), costs[m][2]);
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-参考了一下 ideng7 的List实现，发现他的代码更清晰一点。
-```go
+// 参考了一下 ideng7 的List实现，发现他的代码更清晰一点。
+// ```go
 type AllOne struct {
     data map[string]*LinkedListNode
     list *LinkedList
@@ -201,4 +201,4 @@ func (l *LinkedList) InsertAfter(pos, n *LinkedListNode) {
 
     l.size++
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 建立Trie, 使用贪心策略求解
-2. 建立哈希集合, 正向求解
+# ### 解题思路
+# 1. 建立Trie, 使用贪心策略求解
+# 2. 建立哈希集合, 正向求解
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 /*
 贪心策略
 Trie树 & 位运算
@@ -49,8 +49,8 @@ public:
         return res;
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int findMaximumXOR(int[] nums) {
         // 根据官方题解整理
@@ -80,8 +80,8 @@ class Solution {
         return mXOR;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
         L = len(bin(max(nums)))-2
@@ -96,4 +96,4 @@ class Solution:
                     break
 
         return mXOR
-```
+# ```

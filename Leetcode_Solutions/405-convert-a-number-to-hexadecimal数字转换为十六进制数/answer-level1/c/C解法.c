@@ -1,4 +1,4 @@
-```
+// ```
 char * toHex(int num){
     int index = 0;
     char *ret = calloc(9, sizeof(char));
@@ -15,4 +15,4 @@ char * toHex(int num){
 
     return ret;
 }
-```
+// ```

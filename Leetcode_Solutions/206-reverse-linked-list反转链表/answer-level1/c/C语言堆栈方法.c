@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用堆栈，先入后出，O（n）
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用堆栈，先入后出，O（n）
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -78,4 +78,4 @@ struct ListNode* reverseList(struct ListNode* head){
     
     return head;
 }
-```
+// ```

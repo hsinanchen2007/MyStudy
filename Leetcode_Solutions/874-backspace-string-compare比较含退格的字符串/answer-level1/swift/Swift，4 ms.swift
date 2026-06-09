@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func backspaceCompare(_ S: String, _ T: String) -> Bool {
         var newS = [Character](), newT = [Character]()
@@ -23,4 +23,4 @@ class Solution {
         return newS == newT
     }
 }
-```
+// ```

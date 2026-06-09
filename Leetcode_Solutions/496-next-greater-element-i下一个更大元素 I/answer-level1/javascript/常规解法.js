@@ -1,8 +1,8 @@
-## 解题思路
-- 遍历nums1
-- 在nums2中获取当前nums1元素的位置，然后从下一位置开始遍历对比，有则返回，无责返回-1.
+// ## 解题思路
+// - 遍历nums1
+// - 在nums2中获取当前nums1元素的位置，然后从下一位置开始遍历对比，有则返回，无责返回-1.
 
-```javascript
+// ```javascript
 var nextGreaterElement = function(nums1, nums2) {
   let result = [];
 
@@ -26,4 +26,4 @@ var nextGreaterElement = function(nums1, nums2) {
     return -1;
   }
 };
-```
+// ```

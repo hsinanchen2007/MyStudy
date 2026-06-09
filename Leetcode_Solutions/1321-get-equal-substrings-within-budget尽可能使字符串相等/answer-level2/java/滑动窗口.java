@@ -1,7 +1,7 @@
-首先再maxCost 大于全部距离和的情况下，可以直接返回字符串长度
+// 首先再maxCost 大于全部距离和的情况下，可以直接返回字符串长度
 
-快慢指针维护一个距离窗口，每次添加距离前检查距离是否超过maxCost
-```
+// 快慢指针维护一个距离窗口，每次添加距离前检查距离是否超过maxCost
+// ```
 class Solution {
     public int equalSubstring(String s, String t, int maxCost) {
         int len = s.length();
@@ -52,4 +52,4 @@ class Solution {
         // return ret;
     }
 }
-```
+// ```

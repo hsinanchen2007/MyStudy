@@ -1,5 +1,5 @@
 
-```
+// ```
 import "math"
 func longestCommonSubsequence(text1 string, text2 string) int {
     c1 := []byte(text1)
@@ -26,4 +26,4 @@ func longestCommonSubsequence(text1 string, text2 string) int {
     }
     return dp[m][n]
 }
-```
+// ```

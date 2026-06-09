@@ -1,7 +1,7 @@
-并查集python实现，使用路径压缩和rank合并。
-给想用py实现并查集的同学提供个思路吧
+# 并查集python实现，使用路径压缩和rank合并。
+# 给想用py实现并查集的同学提供个思路吧
 
-```
+# ```
 from typing import List
 
 class UnionFind:
@@ -63,4 +63,4 @@ class Solution:
                         if 0 <= x_new < row and 0 <= y_new <col and grid[x_new][y_new] == '1':
                             uf.union(get_index(i, j), get_index(x_new, y_new))
         return uf.get_count()
-```
+# ```

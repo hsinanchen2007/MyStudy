@@ -1,9 +1,9 @@
-### 解题思路
-根节点一定是最小值，所以只需要在左右子树中查看是否存在第二大的节点就好。详情看代码及注释。
+// ### 解题思路
+// 根节点一定是最小值，所以只需要在左右子树中查看是否存在第二大的节点就好。详情看代码及注释。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -51,6 +51,6 @@ public class Solution {
             SearchSecondValue(root.right, firstMinValue);
         }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/9eba02552a9966e6562e151a2e85b42adc2bb6f6ae41d3cc84d2f031e75eac24-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9eba02552a9966e6562e151a2e85b42adc2bb6f6ae41d3cc84d2f031e75eac24-image.png)

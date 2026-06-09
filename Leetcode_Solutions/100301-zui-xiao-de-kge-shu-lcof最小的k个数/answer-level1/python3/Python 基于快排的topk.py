@@ -1,9 +1,9 @@
-### 解题思路
-注意下标的处理
+# ### 解题思路
+# 注意下标的处理
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getLeastNumbers(self, arr, k):
         """
@@ -38,4 +38,4 @@ class Solution(object):
             elif k == index:
                 break
         return arr[:k]
-```
+# ```

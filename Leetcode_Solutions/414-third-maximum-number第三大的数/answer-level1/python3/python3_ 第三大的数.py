@@ -1,4 +1,4 @@
-```python
+# ```python
 import math
 def thirdMax(nums):
     # 因为时间复杂度为O(N), 所以只能一一判断
@@ -22,4 +22,4 @@ def thirdMax(nums):
 print(thirdMax([3,2,1]))
 print(thirdMax([1,2]))
 print(thirdMax([2,2,3,1]))
-```
+# ```

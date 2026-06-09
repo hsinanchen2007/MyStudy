@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-![14.png](https://pic.leetcode-cn.com/3bfb11b34cecc8805de0b141e76e115cbfd482a822f8acf2b6e28dbc528712b3-14.png)
-buff[0] 存字母数量
-buff[1] 存数字数量
-每一位存 0到j 的字母数量与数字数量的差值
-差值为0即为字母数字数量相同
-0~j 位差值减去 0~i 位差值 即为 i~j位的差值
+# ### 解题思路
+# 此处撰写解题思路
+# ![14.png](https://pic.leetcode-cn.com/3bfb11b34cecc8805de0b141e76e115cbfd482a822f8acf2b6e28dbc528712b3-14.png)
+# buff[0] 存字母数量
+# buff[1] 存数字数量
+# 每一位存 0到j 的字母数量与数字数量的差值
+# 差值为0即为字母数字数量相同
+# 0~j 位差值减去 0~i 位差值 即为 i~j位的差值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import bisect
 class Solution:
     def findLongestSubarray(self, array: List[str]) -> List[str]:
@@ -40,4 +40,4 @@ class Solution:
                 mxlen = ijlen
             buff[iarr[j]] -= 1
         return array[pos:pos+mxlen]
-```
+# ```

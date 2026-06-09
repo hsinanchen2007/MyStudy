@@ -1,5 +1,5 @@
-复制一个列表，删除最大值，对比新旧的最大值
-```python []
+# 复制一个列表，删除最大值，对比新旧的最大值
+# ```python []
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         a = max(nums)
@@ -11,5 +11,5 @@ class Solution:
             return nums.index(a)
         else:
             return -1
-```
+# ```
 

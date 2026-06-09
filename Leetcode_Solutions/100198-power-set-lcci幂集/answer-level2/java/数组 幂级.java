@@ -1,8 +1,8 @@
-### 解题思路
-大佬的回溯法，我太菜了
-### 代码
+// ### 解题思路
+// 大佬的回溯法，我太菜了
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public List<List<Integer>> subsets(int[] nums) {
         //结果集合
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

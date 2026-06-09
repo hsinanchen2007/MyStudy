@@ -1,5 +1,5 @@
-队列是先进先出，在每次添加元素后将该数添加到队头即可
-```
+// 队列是先进先出，在每次添加元素后将该数添加到队头即可
+// ```
 typedef struct {
     int* queue;
     int rear;
@@ -49,5 +49,5 @@ void myStackFree(MyStack* obj) {
     obj=NULL;
 }
 
-```
-同类题目，232题，栈实现队列[https://leetcode-cn.com/problems/implement-queue-using-stacks/]()
+// ```
+// 同类题目，232题，栈实现队列[https://leetcode-cn.com/problems/implement-queue-using-stacks/]()

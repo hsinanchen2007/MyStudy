@@ -1,9 +1,9 @@
-### 解题思路
-满屏的if else ，看着确实头疼。主要就是分情况讨论，先判断是IPv4还是IPv6
+// ### 解题思路
+// 满屏的if else ，看着确实头疼。主要就是分情况讨论，先判断是IPv4还是IPv6
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string validIPAddress(string IP) {
@@ -101,4 +101,4 @@ public:
         }
     }
 };
-```
+// ```

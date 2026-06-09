@@ -1,8 +1,8 @@
-# 思路
-先在A中找到值为B.val的节点(记为B_node)，再判断以B为根节点的树 是否是 以B_node为根节点的树 的子树。
+// # 思路
+// 先在A中找到值为B.val的节点(记为B_node)，再判断以B为根节点的树 是否是 以B_node为根节点的树 的子树。
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private TreeNode global_B;
     private int target;
@@ -51,4 +51,4 @@ class Solution {
         return b == null || a != null;
     }
 }
-```
+// ```

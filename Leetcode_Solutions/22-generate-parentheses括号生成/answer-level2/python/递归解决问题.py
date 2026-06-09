@@ -1,9 +1,9 @@
-### 解题思路
-利用递归的方法：找到截止条件；当前层逻辑；到下一层
+# ### 解题思路
+# 利用递归的方法：找到截止条件；当前层逻辑；到下一层
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def generateParenthesis(self, n):
         """
@@ -23,4 +23,4 @@ class Solution(object):
         _generate(0,0,n,'')
         return result
 
-```
+# ```

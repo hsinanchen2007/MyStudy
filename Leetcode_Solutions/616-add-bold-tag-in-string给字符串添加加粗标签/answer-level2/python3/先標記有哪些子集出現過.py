@@ -1,12 +1,12 @@
-### 解题思路
-先產生一組跟s一樣長的 List
-再觀察有哪些 子集出現在s 當中
-出現的位置在 List中+1
-最後觀察 有哪些位置大於1 那些小於 1
+# ### 解题思路
+# 先產生一組跟s一樣長的 List
+# 再觀察有哪些 子集出現在s 當中
+# 出現的位置在 List中+1
+# 最後觀察 有哪些位置大於1 那些小於 1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBoldTag(self, s: str, dict: List[str]) -> str:
         record = []
@@ -41,4 +41,4 @@ class Solution:
             res +=  "</b>"
 
         return res
-```
+# ```

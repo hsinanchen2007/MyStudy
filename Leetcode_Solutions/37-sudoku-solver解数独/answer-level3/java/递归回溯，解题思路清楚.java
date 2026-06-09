@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-三个数组来标记每行、每列及每个区域内数字是否被使用。
-empty列表来记录没有数字的坐标。
-backtrack递归回溯。（iter表示当前判断的是empty的坐标。如果empty.size()等于iter表示已经递归结束，返回结果。）
-for (int i = 0; i < 9; i++) 选出当前行、当前列及区域内都未被使用的坐标。
-backtrack(iter+1)寻找下一个坐标。如果下次查找中i都不能满足行、列及区域内都未被使用，则回溯到上一次查找。
+// ### 解题思路
+// 此处撰写解题思路
+// 三个数组来标记每行、每列及每个区域内数字是否被使用。
+// empty列表来记录没有数字的坐标。
+// backtrack递归回溯。（iter表示当前判断的是empty的坐标。如果empty.size()等于iter表示已经递归结束，返回结果。）
+// for (int i = 0; i < 9; i++) 选出当前行、当前列及区域内都未被使用的坐标。
+// backtrack(iter+1)寻找下一个坐标。如果下次查找中i都不能满足行、列及区域内都未被使用，则回溯到上一次查找。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private boolean[][] rowNums = new boolean[9][9];
     private boolean[][] colNums = new boolean[9][9];
@@ -59,4 +59,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

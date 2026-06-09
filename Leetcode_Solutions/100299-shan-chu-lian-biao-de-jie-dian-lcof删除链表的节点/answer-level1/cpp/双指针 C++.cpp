@@ -1,11 +1,11 @@
-### 解题思路
-关注微信公众号'码农黑板报' 获取更多题解
-![image.png](https://pic.leetcode-cn.com/c27059ecf1446d2d2a330c63d14871a7dba4b2f62fb63619bafb6d27668dcc60-image.png)
+// ### 解题思路
+// 关注微信公众号'码农黑板报' 获取更多题解
+// ![image.png](https://pic.leetcode-cn.com/c27059ecf1446d2d2a330c63d14871a7dba4b2f62fb63619bafb6d27668dcc60-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         return q->next;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-algorithm: 
-```
+// algorithm: 
+// ```
 0. using 3 2-nd arrays to record the state of sudoko. 
 rows[10][10]; cols[10][10]; boxs[10][10]. 
   if rows[i][num] = true, means num has been used in ith-rows. 
@@ -31,10 +31,10 @@ if board[i][j] is empty, fill this grid with number (try number from 1 to 9)
               backtrack:
                   rows[] = cols[] = boxs[] = false
                   board[i][j] = '.'
-```
+// ```
 
-code 
-```
+// code 
+// ```
 class Solution {
 public:
     bool solved=false;
@@ -111,4 +111,4 @@ public:
     }
 };
 
-```
+// ```

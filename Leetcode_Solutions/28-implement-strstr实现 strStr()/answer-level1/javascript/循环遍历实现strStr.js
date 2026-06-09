@@ -1,10 +1,10 @@
-### 解题思路
-遍历循环hasstack,如果hasstack的第i项等于needle的第一项，就截取hasstack的i-needle.length长度的字符串，看是否与needle相等，如果相等，就返回i;如果不相等就继续循环，知道找到相等时的i；
-如果循环到最后还是找不到匹配的字符串，则返回-1。
+// ### 解题思路
+// 遍历循环hasstack,如果hasstack的第i项等于needle的第一项，就截取hasstack的i-needle.length长度的字符串，看是否与needle相等，如果相等，就返回i;如果不相等就继续循环，知道找到相等时的i；
+// 如果循环到最后还是找不到匹配的字符串，则返回-1。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -20,4 +20,4 @@ var strStr = function (haystack, needle) {
     }
     return -1;
 };
-```
+// ```

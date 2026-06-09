@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-快慢指针，一次遍历
+// 快慢指针，一次遍历
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return slow
     }
 }
-```
+// ```

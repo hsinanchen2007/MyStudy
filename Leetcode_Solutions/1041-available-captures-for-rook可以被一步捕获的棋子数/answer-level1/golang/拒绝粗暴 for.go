@@ -1,4 +1,4 @@
-```go
+// ```go
 func numRookCaptures(board [][]byte) int {
 	var (
 		i, j, curr, currX, currY, rst, rX, rY int
@@ -30,4 +30,4 @@ func numRookCaptures(board [][]byte) int {
 	return rst
 }
 
-```
+// ```

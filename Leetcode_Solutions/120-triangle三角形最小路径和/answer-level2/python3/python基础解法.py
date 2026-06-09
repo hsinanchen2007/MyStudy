@@ -1,9 +1,9 @@
-### 解题思路
-使用动态规划的思想来完成这道题，主要的状态计算方程是dp[i][j] = min(dp[i - 1][j - 1], dp[i - 1][j]) + triangle[i][j]，初始状态dp[0][0] = triangle[0][0]
+# ### 解题思路
+# 使用动态规划的思想来完成这道题，主要的状态计算方程是dp[i][j] = min(dp[i - 1][j - 1], dp[i - 1][j]) + triangle[i][j]，初始状态dp[0][0] = triangle[0][0]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         n = len(triangle)
@@ -31,4 +31,4 @@ class Solution:
         #     for j in range(i + 1):
         #         dp[j] = min(dp[j], dp[j + 1]) + triangle[i][j]
         # return dp[0]
-```
+# ```

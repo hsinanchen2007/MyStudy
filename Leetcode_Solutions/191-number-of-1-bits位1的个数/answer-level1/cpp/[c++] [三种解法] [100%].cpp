@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/013ca52c9abdcb39a8a01d91dd4274080205a63067341c5c5776bf09ec95d6ad-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/013ca52c9abdcb39a8a01d91dd4274080205a63067341c5c5776bf09ec95d6ad-image.png)
 
-### 代码
-解法一：
-```cpp
+// ### 代码
+// 解法一：
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -18,9 +18,9 @@ public:
     }
 };
 
-```
-解法二：[100%]
-```cpp
+// ```
+// 解法二：[100%]
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -35,10 +35,10 @@ public:
         return cnt;
     }
 };
-```
+// ```
 
-解法三：
-```cpp
+// 解法三：
+// ```cpp
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -50,4 +50,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

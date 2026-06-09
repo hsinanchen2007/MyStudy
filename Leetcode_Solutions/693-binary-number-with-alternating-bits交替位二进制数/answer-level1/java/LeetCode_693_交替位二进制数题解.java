@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasAlternatingBits(int n) {
         while (n != 0) {
@@ -14,4 +14,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

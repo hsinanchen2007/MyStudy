@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-看到从最后一个返回到第一个 最先想到的就是循环链表
-循环顺序链表用数组实现，用取余操作返回第一个
+// 看到从最后一个返回到第一个 最先想到的就是循环链表
+// 循环顺序链表用数组实现，用取余操作返回第一个
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -32,4 +32,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
 	return ans;
 
 }
-```
+// ```

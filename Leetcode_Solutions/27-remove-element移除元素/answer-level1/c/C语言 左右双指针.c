@@ -1,11 +1,11 @@
-### 解题思路
-去掉getValCnt，在proc获取cnt可以更快，不过分开看着清楚些
+// ### 解题思路
+// 去掉getValCnt，在proc获取cnt可以更快，不过分开看着清楚些
 
-![image.png](https://pic.leetcode-cn.com/affaf8fbec2fe4c591f7c28d9f18faa940d99d6d837c8c7953e032a928d946bc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/affaf8fbec2fe4c591f7c28d9f18faa940d99d6d837c8c7953e032a928d946bc-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int getValCnt(int* nums, int numsSize, int val)
 {
     int i;
@@ -49,4 +49,4 @@ int removeElement(int* nums, int numsSize, int val){
     proc(nums, numsSize, val);
     return numsSize - cnt;
 }
-```
+// ```

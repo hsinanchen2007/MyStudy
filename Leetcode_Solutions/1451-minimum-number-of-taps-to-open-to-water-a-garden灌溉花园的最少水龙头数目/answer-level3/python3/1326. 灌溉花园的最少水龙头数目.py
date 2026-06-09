@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
         ans, r, d = 0, 0, [(i - ranges[i], i + ranges[i]) for i in range(n + 1)]
@@ -9,4 +9,4 @@ class Solution:
                 return -1
             ans, r = ans + 1, l
         return ans
-```
+# ```

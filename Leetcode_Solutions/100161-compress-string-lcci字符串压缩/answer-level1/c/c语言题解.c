@@ -1,4 +1,4 @@
-申请一个buffer,如果当前的字符串和下一个字符串不相等则保存字符和count,注意sprintf的使用
+// 申请一个buffer,如果当前的字符串和下一个字符串不相等则保存字符和count,注意sprintf的使用
 char* compressString(char* S){
     if(S == NULL)
         return "";

@@ -1,4 +1,4 @@
-```
+// ```
 var maximumGap = function(nums) {
     if (nums.length < 2) return 0
 
@@ -16,4 +16,4 @@ var maximumGap = function(nums) {
 
     return compose(sort, getDeffs, sort)(nums)[0]
   }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-先将所有的链表里的数，通过循环方式取出来，push_back到一个新的vector里，利用sort函数
-进行sort(newvector.begin(),newvector.end())进行排序，然后自定义一个返回类型的链表，头指针为 s，指向头节点，再定义一个辅助循环的指针t，不断进行链表赋值和遍历
+// ### 解题思路
+// 先将所有的链表里的数，通过循环方式取出来，push_back到一个新的vector里，利用sort函数
+// 进行sort(newvector.begin(),newvector.end())进行排序，然后自定义一个返回类型的链表，头指针为 s，指向头节点，再定义一个辅助循环的指针t，不断进行链表赋值和遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
         return s;    //返回类型
     }
 };
-```
+// ```

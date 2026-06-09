@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct huiwen{
@@ -58,4 +58,4 @@ huiwen len(int num,string s)
         return str;
     }
 };
-```
+// ```

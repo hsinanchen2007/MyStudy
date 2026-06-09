@@ -1,9 +1,9 @@
-### 解题思路
-借助Java标准库解法
+// ### 解题思路
+// 借助Java标准库解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     //
@@ -21,4 +21,4 @@ class Solution {
         return sb1.toString().trim();
     }
 }
-```
+// ```

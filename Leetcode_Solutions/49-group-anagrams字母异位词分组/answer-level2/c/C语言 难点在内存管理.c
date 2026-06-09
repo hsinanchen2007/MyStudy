@@ -1,14 +1,14 @@
-### 解题思路
-思路就是hash
-对于c语言，高级数据结构需要自己构造，是此题难点
-如果申请最大内存，虽然逻辑没问题，但是会超出内存限制，
-如果采用qsort，O(nlogn)，现在的算法不考虑uthash本身的开销，是O(n)
+// ### 解题思路
+// 思路就是hash
+// 对于c语言，高级数据结构需要自己构造，是此题难点
+// 如果申请最大内存，虽然逻辑没问题，但是会超出内存限制，
+// 如果采用qsort，O(nlogn)，现在的算法不考虑uthash本身的开销，是O(n)
 
-![image.png](https://pic.leetcode-cn.com/8fd5d69fcb1323bf09e9e4a80bd3e7958675a3b1f7c9408fccc8025d0f7322a8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8fd5d69fcb1323bf09e9e4a80bd3e7958675a3b1f7c9408fccc8025d0f7322a8-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -165,4 +165,4 @@ char *** groupAnagrams(char ** strs, int strsSize, int* returnSize, int** return
     *returnColumnSizes = r.returnColumnSizes;
     return r.rlt;
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 #include <stdio.h>
 #include <limits.h>
 
@@ -14,5 +14,5 @@ int myAtoi(char * str){
     }
     return (int)i;
 }
-```
+// ```
 

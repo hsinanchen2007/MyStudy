@@ -1,10 +1,10 @@
-### 解题思路
-- 暴力解答, 直接逐个选取能被整除的子串, 判定扩增后是否与长字符串一致;
-- 优化算法: 假设两个字符串满足short==MT, long==NT, M<N, T为目标, 则满足条件: T==gcd(MT, (N-M)T);
+# ### 解题思路
+# - 暴力解答, 直接逐个选取能被整除的子串, 判定扩增后是否与长字符串一致;
+# - 优化算法: 假设两个字符串满足short==MT, long==NT, M<N, T为目标, 则满足条件: T==gcd(MT, (N-M)T);
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         """
@@ -87,4 +87,4 @@ class Solution:
                 continue
             gcd = tmp
         return gcd
-```
+# ```

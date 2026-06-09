@@ -1,5 +1,5 @@
-标准的滑窗算法，[i,j)区间标记，i向右移动，总和变小，j向右移动总和变大
-```python
+# 标准的滑窗算法，[i,j)区间标记，i向右移动，总和变小，j向右移动总和变大
+# ```python
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         i, j = 0, 0
@@ -18,4 +18,4 @@ class Solution:
         if res == len(nums) + 1:
             return 0
         return res
-```
+# ```

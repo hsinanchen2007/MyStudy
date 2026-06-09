@@ -1,9 +1,9 @@
-### 解题思路
-使用二叉搜索树特性优化搜索效率
+// ### 解题思路
+// 使用二叉搜索树特性优化搜索效率
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
             return LowestCommonAncestor(root.right, max, min);
     }
 }
-```
+// ```

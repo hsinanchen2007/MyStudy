@@ -1,6 +1,6 @@
-堆栈思路 go 版本。
+// 堆栈思路 go 版本。
 
-```go [go]
+// ```go [go]
 
 type Stack struct{
 	sli []string
@@ -47,4 +47,4 @@ func isValid(s string) bool {
 		}
 		 return len(stack.sli) == 0
 }
-```
+// ```

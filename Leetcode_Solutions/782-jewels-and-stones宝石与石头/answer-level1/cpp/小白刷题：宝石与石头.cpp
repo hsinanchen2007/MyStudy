@@ -1,7 +1,7 @@
-设一长度52的bool数组表示对应字母是否为宝石，两字符串各遍历一遍即可
+// 设一长度52的bool数组表示对应字母是否为宝石，两字符串各遍历一遍即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

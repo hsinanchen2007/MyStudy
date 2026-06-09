@@ -1,16 +1,16 @@
-### 解题思路
- */
-1.find diatance用法
-2.注意边界
-            vector<int> rightPreorder(preorder.begin() + leftLength + 1, preorder.end());
-            vector<int> rightInorder(inorder.begin() + leftLength + 1, inorder.end());
-3.迭代器赋值 没有=的形式
-            vector<int> rightPreorder(preorder.begin() + leftLength + 1, preorder.end());
-            vector<int> rightInorder(inorder.begin() + leftLength + 1, inorder.end());     
+// ### 解题思路
+//  */
+// 1.find diatance用法
+// 2.注意边界
+//             vector<int> rightPreorder(preorder.begin() + leftLength + 1, preorder.end());
+//             vector<int> rightInorder(inorder.begin() + leftLength + 1, inorder.end());
+// 3.迭代器赋值 没有=的形式
+//             vector<int> rightPreorder(preorder.begin() + leftLength + 1, preorder.end());
+//             vector<int> rightInorder(inorder.begin() + leftLength + 1, inorder.end());     
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -61,4 +61,4 @@ public:
         return index;
     }
 };
-```
+// ```

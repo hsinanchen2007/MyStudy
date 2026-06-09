@@ -1,13 +1,13 @@
-根据题意，output[i]的值为前面的乘积乘以后面的乘积，因此可以使用动态规划来求解。
-以输入[1,2,3,4]为例
-dpStart = [24, 24, 12, 4]
-dpEnd = [1, 2, 6, 24]
-ans = [24, 12, 8, 6]
-不难发现 ans[i] = dpEnd[i-1] * dpStart[i+1]
-注意处理头尾两个元素的情况。
+// 根据题意，output[i]的值为前面的乘积乘以后面的乘积，因此可以使用动态规划来求解。
+// 以输入[1,2,3,4]为例
+// dpStart = [24, 24, 12, 4]
+// dpEnd = [1, 2, 6, 24]
+// ans = [24, 12, 8, 6]
+// 不难发现 ans[i] = dpEnd[i-1] * dpStart[i+1]
+// 注意处理头尾两个元素的情况。
 
-三次遍历，满足O(n)的要求，并且没有使用除法。
-```
+// 三次遍历，满足O(n)的要求，并且没有使用除法。
+// ```
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int[] dpStart = new int[nums.length]; //以i作为起点的乘积
@@ -33,4 +33,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

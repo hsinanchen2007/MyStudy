@@ -1,10 +1,10 @@
--   一遍深度优先搜索
+# -   一遍深度优先搜索
 
--   由于是路径上面的和值，需要同时向下传递当前路径的值才能判断子路径是否需要删除
+# -   由于是路径上面的和值，需要同时向下传递当前路径的值才能判断子路径是否需要删除
 
 
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,6 +42,6 @@ class Solution:
         dfs(head, 0)
 
         return head.left
-```
+# ```
 
 

@@ -1,7 +1,7 @@
-每次排序，取最大相减即可。
-原地算法，空间复杂度O(1);时间复杂度较高
+// 每次排序，取最大相减即可。
+// 原地算法，空间复杂度O(1);时间复杂度较高
 
-```
+// ```
 class Solution {
     public int lastStoneWeight(int[] stones) {   
         int length = stones.length;
@@ -23,4 +23,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-数组倒着遍历，过程中记录销售的最大额和售价最高的值
+// ### 解题思路
+// 数组倒着遍历，过程中记录销售的最大额和售价最高的值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int max = 0;
     int pMax = 0;
@@ -16,4 +16,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return max;
 }
-```
+// ```

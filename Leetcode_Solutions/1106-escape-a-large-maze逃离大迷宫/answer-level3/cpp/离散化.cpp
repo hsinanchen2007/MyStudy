@@ -1,6 +1,6 @@
-离散化后变为中等难度的题
-离散化需要注意边界问题，即是否可以在边界外活动。
-```
+// 离散化后变为中等难度的题
+// 离散化需要注意边界问题，即是否可以在边界外活动。
+// ```
 class Solution {
 public:
     bool isEscapePossible(vector<vector<int>>& blocked, vector<int>& source, vector<int>& target) {
@@ -89,4 +89,4 @@ public:
         return log.count({target[0],target[1]});
     }
 };
-```
+// ```

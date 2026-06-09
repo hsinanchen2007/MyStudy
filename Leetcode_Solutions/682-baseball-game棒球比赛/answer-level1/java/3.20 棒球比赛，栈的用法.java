@@ -1,10 +1,10 @@
-### 解题思路
-1.因为tag是栈，自然而然就想到了要用栈来解决这个问题
-2.循环遍历这个栈，如果遇到+，那么push入栈。栈的三个基本操作push peek pop
+// ### 解题思路
+// 1.因为tag是栈，自然而然就想到了要用栈来解决这个问题
+// 2.循环遍历这个栈，如果遇到+，那么push入栈。栈的三个基本操作push peek pop
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calPoints(String[] ops) {
            Stack <Integer> stack=new Stack();
@@ -34,4 +34,4 @@ class Solution {
            return ans;
     }
 }
-```
+// ```

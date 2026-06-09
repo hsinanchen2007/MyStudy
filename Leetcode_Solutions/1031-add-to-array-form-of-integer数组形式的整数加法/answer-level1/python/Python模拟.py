@@ -1,9 +1,9 @@
-### 解题思路
-把给定的整数转化成列表，两个列表都反过来，从个位数开始加呗，到这一步已经变成了大整形计算的模板题。
+# ### 解题思路
+# 把给定的整数转化成列表，两个列表都反过来，从个位数开始加呗，到这一步已经变成了大整形计算的模板题。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
         k = []
@@ -23,4 +23,4 @@ class Solution:
         if r:
             k.append(r)
         return k[::-1]
-```
+# ```

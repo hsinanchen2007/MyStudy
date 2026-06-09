@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/c7f3ca63f35654bca2837ef565e73ccc6521e1f23a0140cae6c5a80f7166ac6f-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/c7f3ca63f35654bca2837ef565e73ccc6521e1f23a0140cae6c5a80f7166ac6f-%E6%8D%95%E8%8E%B7.PNG)
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
@@ -28,4 +28,4 @@ private:
     vector<vector<int>> res;
     vector<int> path;
 };
-```
+// ```

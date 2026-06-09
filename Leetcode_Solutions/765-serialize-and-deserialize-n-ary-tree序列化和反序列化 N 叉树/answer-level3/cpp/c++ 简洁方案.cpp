@@ -1,5 +1,5 @@
-前序遍历生成字符串，栈迭代生成树
-```
+// 前序遍历生成字符串，栈迭代生成树
+// ```
 class Codec {
 public:
     // Encodes a tree to a single string.
@@ -44,5 +44,5 @@ public:
         return head;
     }
 };
-```
- ![image.png](https://pic.leetcode-cn.com/87ae117480e61ce7c383385f7c3a33a06c5a3efd88dabd2dfa424170c9844521-image.png)
+// ```
+//  ![image.png](https://pic.leetcode-cn.com/87ae117480e61ce7c383385f7c3a33a06c5a3efd88dabd2dfa424170c9844521-image.png)

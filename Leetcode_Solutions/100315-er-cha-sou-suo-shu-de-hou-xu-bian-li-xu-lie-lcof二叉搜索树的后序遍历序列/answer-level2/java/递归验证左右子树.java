@@ -1,9 +1,9 @@
-### 解题思路
-核心： left < root < right
+// ### 解题思路
+// 核心： left < root < right
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         int size = postorder.length;
@@ -25,4 +25,4 @@ class Solution {
         return check(start, i - 1, postorder) && check(i, end - 1, postorder);
     }
 }
-```
+// ```

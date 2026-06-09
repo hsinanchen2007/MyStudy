@@ -1,9 +1,9 @@
-### 解题思路
-dp问题
+# ### 解题思路
+# dp问题
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -24,16 +24,16 @@ class Solution(object):
 
         return dp[n-1]
 
-```
+# ```
 
 
-### 解题思路
-一次for循环
-dp[i] = max(dp[i-1], p[i]-min(p))
+# ### 解题思路
+# 一次for循环
+# dp[i] = max(dp[i-1], p[i]-min(p))
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -51,15 +51,15 @@ class Solution(object):
                 minprices = prices[i]
             maxmoney = max(maxmoney, prices[i]-minprices)
         return maxmoney
-```
+# ```
 
-### 解题思路
-两次for循环
+# ### 解题思路
+# 两次for循环
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -77,4 +77,4 @@ class Solution(object):
                     if curprice > maxprice:
                         maxprice = curprice
         return maxprice
-```
+# ```

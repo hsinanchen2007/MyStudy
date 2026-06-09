@@ -1,5 +1,5 @@
-比较简单，直接看代码吧。
-```
+// 比较简单，直接看代码吧。
+// ```
 import java.lang.*;
 class Solution {
     public int[] replaceElements(int[] arr) {
@@ -13,4 +13,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

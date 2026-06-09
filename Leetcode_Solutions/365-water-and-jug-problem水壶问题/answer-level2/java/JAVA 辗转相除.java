@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int gcd(int x, int y){
         int r;
@@ -22,4 +22,4 @@ class Solution {
         return z % gcd(x, y) == 0;
     }
 }
-```
+// ```

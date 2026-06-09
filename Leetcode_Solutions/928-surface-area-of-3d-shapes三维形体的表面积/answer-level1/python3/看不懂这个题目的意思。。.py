@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def surfaceArea(self, grid):
         N = len(grid)
@@ -21,4 +21,4 @@ class Solution(object):
                         ans += max(grid[r][c] - nval, 0)
 
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用康托编码求解
+// ### 解题思路
+// 使用康托编码求解
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public String getPermutation(int n, int k) {
         // 记录阶乘值
@@ -32,8 +32,8 @@ class Solution {
         return sb.toString();
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         # 得到阶乘数组和排列数组
@@ -55,8 +55,8 @@ class Solution:
             nums.remove(nums[index])
 
         return ''.join(res)
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     string getPermutation(int n, int k) {
@@ -95,4 +95,4 @@ private:
         return result;
     }
 };
-```
+// ```

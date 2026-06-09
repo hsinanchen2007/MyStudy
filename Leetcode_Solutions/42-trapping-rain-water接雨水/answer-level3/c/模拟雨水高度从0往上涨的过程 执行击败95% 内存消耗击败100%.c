@@ -1,9 +1,9 @@
-### 解题思路
-模拟雨水高度从0往上涨的过程
+// ### 解题思路
+// 模拟雨水高度从0往上涨的过程
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int maxh=0,maxhi;
     if(heightSize==0||heightSize==1)
@@ -31,4 +31,4 @@ int trap(int* height, int heightSize){
     }
     return rain;
 }
-```
+// ```

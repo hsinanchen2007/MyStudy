@@ -1,19 +1,19 @@
-**反转**
+// **反转**
 
-- 1. 将每个链表都进行反转
-- 2. 将链表各个节点进行相加
--    - a. 遍历两个链表，分别计算每个节点的和，并把计算的和 sum % 10 插入到一个新的链表中
-     - b. 如果相加的和 >10 需要进位的，则把 sum/10 存储下来加入到下个节点的和中
-     - c. 如果最后一位相加还需要进位的情况，则直接把余数 post 插入到新链表的末尾即可
-     - d. 最后只需要返回虚拟头节点的 dummyHead.next 即可
-     - 注意 ：要小心链表大小不一的情况，获取空链表的变量可能会出现 NullPointerException
-- 3. 相加之后在进行反转一次即可
+// - 1. 将每个链表都进行反转
+// - 2. 将链表各个节点进行相加
+// -    - a. 遍历两个链表，分别计算每个节点的和，并把计算的和 sum % 10 插入到一个新的链表中
+//      - b. 如果相加的和 >10 需要进位的，则把 sum/10 存储下来加入到下个节点的和中
+//      - c. 如果最后一位相加还需要进位的情况，则直接把余数 post 插入到新链表的末尾即可
+//      - d. 最后只需要返回虚拟头节点的 dummyHead.next 即可
+//      - 注意 ：要小心链表大小不一的情况，获取空链表的变量可能会出现 NullPointerException
+// - 3. 相加之后在进行反转一次即可
 
-- 复杂度分析：
-- 时间复杂度：O(max(m , n))， m 和 n 表示两个链表的长度
-- 空间复杂度：O(max(m, n) + （(m + n）+ max(m, n)）), 空间复杂度需要将递归的复杂度加上新的节点占用的空间
+// - 复杂度分析：
+// - 时间复杂度：O(max(m , n))， m 和 n 表示两个链表的长度
+// - 空间复杂度：O(max(m, n) + （(m + n）+ max(m, n)）), 空间复杂度需要将递归的复杂度加上新的节点占用的空间
 
-```
+// ```
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode reverseL1 = reverse(l1);
         ListNode reverseL2 = reverse(l2);
@@ -38,18 +38,18 @@
         return node;
     }
 
-```
+// ```
 
-**入栈+反转**
+// **入栈+反转**
 
-- 1. 新建两个栈，并将两个链表的元素一次入栈
-  2. 每次出栈栈顶元素相加，步骤同上方法
-  3. 最后将新的链表反转一次即可
+// - 1. 新建两个栈，并将两个链表的元素一次入栈
+//   2. 每次出栈栈顶元素相加，步骤同上方法
+//   3. 最后将新的链表反转一次即可
 
-- 时间复杂度：O(max(m , n))， m 和 n 表示两个链表的长度
-- 空间复杂度：O(max(m, n) + (m + n) + max(m, n))
+// - 时间复杂度：O(max(m , n))， m 和 n 表示两个链表的长度
+// - 空间复杂度：O(max(m, n) + (m + n) + max(m, n))
 
-```
+// ```
 public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         Stack<ListNode> stack1 = new Stack<>();
         Stack<ListNode> stack2 = new Stack<>();
@@ -84,4 +84,4 @@ public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         head.next = null;
         return node;
     }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-用next_i记录以i结尾的子串的前缀后缀匹配情况，  
-比如说a a b a a,对于最后一个a，最长的可匹配前缀是a a，  
-我们想记录的是这个可匹配前缀的下一个位置即b所在的位置
+# ### 解题思路
+# 用next_i记录以i结尾的子串的前缀后缀匹配情况，  
+# 比如说a a b a a,对于最后一个a，最长的可匹配前缀是a a，  
+# 我们想记录的是这个可匹配前缀的下一个位置即b所在的位置
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -63,4 +63,4 @@ class Solution(object):
 
         
 
-```
+# ```

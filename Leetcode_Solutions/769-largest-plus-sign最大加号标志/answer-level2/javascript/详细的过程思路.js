@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var orderOfLargestPlusSign = function(n, mines) {
   // 创建 N * N 的网格，每个格子表示最大的阶数，初始化时都为 n（n 是必然不可达到的阶数）
   const t = new Array(n).fill(0).map(() => new Array(n).fill(n));
@@ -39,4 +39,4 @@ var orderOfLargestPlusSign = function(n, mines) {
   // 求得所有格子所存的最大值
 	return Math.max(...t.map(v => Math.max(...v)));
 }
-```
+// ```

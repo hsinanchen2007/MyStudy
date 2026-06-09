@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-构造一个mao，来解决。如果map中有此key，则表示重复，如果没有此key，则表示没有此重复。
+// ### 解题思路
+// 此处撰写解题思路
+// 构造一个mao，来解决。如果map中有此key，则表示重复，如果没有此key，则表示没有此重复。
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
 	repMap := make(map[int]int)
 	for _, i := range nums {
@@ -19,4 +19,4 @@ func findRepeatNumber(nums []int) int {
 	}
 	return 0
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-排列问题，要么选，要么不选；
-没选择一次，就不用再考虑了。
-递归的时候，尽量不要删除；题目给了哈希表，最好用数组代替。
+// ### 解题思路
+// 排列问题，要么选，要么不选；
+// 没选择一次，就不用再考虑了。
+// 递归的时候，尽量不要删除；题目给了哈希表，最好用数组代替。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int DFSGetMaxStr(int cur, vector<string>& arr, vector<int>& hash) {
@@ -45,4 +45,4 @@ int DFSGetMaxStr(int cur, vector<string>& arr, vector<int>& hash) {
         return DFSGetMaxStr(0, arr, hash); 
     }
 };
-```
+// ```

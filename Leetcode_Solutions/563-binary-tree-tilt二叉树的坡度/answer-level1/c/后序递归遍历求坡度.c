@@ -1,4 +1,4 @@
-```c
+// ```c
 /**
  * 后序递归遍历二叉树，每个结点的坡度等于左子树的结点之和和右子树结点之和的差的绝对值
  * 通过遍历累加所有结点的坡度
@@ -22,4 +22,4 @@ int findTilt(struct TreeNode *root)
     traverse(root, &tilt);
     return tilt;
 }
-```
+// ```

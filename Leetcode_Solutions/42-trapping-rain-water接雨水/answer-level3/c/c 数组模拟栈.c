@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：利用模拟栈
@@ -57,4 +57,4 @@ int trap( int * height , int heightSize ){
     return sum;
 
 }
-```
+// ```

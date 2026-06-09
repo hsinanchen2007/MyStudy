@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/d95069da5d8fb99417da103fb47398d3a5c1a0447b3787e3c109197593fc7d07-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d95069da5d8fb99417da103fb47398d3a5c1a0447b3787e3c109197593fc7d07-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 滑动窗口
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -64,4 +64,4 @@ var findContinuousSequence = function(target) {
   
 //   return ans;
 // };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ int diameterOfBinaryTree(struct TreeNode *root)
 }
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-归并排序的思想
+// ### 解题思路
+// 归并排序的思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -54,4 +54,4 @@ class Solution {
         return _head.next;
     }
 }
-```
+// ```

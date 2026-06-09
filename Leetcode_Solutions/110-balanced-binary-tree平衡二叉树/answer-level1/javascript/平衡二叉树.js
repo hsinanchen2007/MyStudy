@@ -1,6 +1,6 @@
 
-1、 自顶向下递归
-```javascript
+// 1、 自顶向下递归
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -21,13 +21,13 @@ const height = function(node) {
     return 1+ Math.max(height(node.left),height(node.right));
 }
 
-```
-时间复杂度: O(nlogn),深度为n的节点，height会被调n次。
-空间复杂度: O(n)如果树完全倾斜，递归栈可能包含所有节点。
+// ```
+// 时间复杂度: O(nlogn),深度为n的节点，height会被调n次。
+// 空间复杂度: O(n)如果树完全倾斜，递归栈可能包含所有节点。
 
-2、自底向上递归
-方法一计算height 存在大量冗余。每次调用height 时，要同时计算其子树高度。但是自底向上计算，每个子树的高度只会计算一次。可以递归先计算当前节点的子节点高度，然后再通过子节点高度判断当前节点是否平衡，从而消除冗余。
-```javascript
+// 2、自底向上递归
+// 方法一计算height 存在大量冗余。每次调用height 时，要同时计算其子树高度。但是自底向上计算，每个子树的高度只会计算一次。可以递归先计算当前节点的子节点高度，然后再通过子节点高度判断当前节点是否平衡，从而消除冗余。
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -67,6 +67,6 @@ var isBalanced = function(root) {
     return isBalancedTreeHelper(root).balanced;
 };
 
-```
-时间复杂度: O(n),计算每棵子树的高度和判断平衡操作都在恒定时间内完成。
-空间复杂度: O(n)如果树完全倾斜，递归栈可能包含所有节点。
+// ```
+// 时间复杂度: O(n),计算每棵子树的高度和判断平衡操作都在恒定时间内完成。
+// 空间复杂度: O(n)如果树完全倾斜，递归栈可能包含所有节点。

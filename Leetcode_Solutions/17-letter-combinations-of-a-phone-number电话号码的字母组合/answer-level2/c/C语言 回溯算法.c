@@ -1,8 +1,8 @@
-**解题思路**
-     回溯算法+哈希表索引
+// **解题思路**
+//      回溯算法+哈希表索引
 
-**代码如下**
-```
+// **代码如下**
+// ```
 typedef struct hash{
     char  Num;
     int   Len;
@@ -56,5 +56,5 @@ char** letterCombinations(char* digits, int* returnSize){
     free(path);
     return res;
 }
-```
-![image.png](https://pic.leetcode-cn.com/0ad9e83835bca2f9ecd90e62cdbbc10c62f8350827494a46cd1597f5184fe211-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0ad9e83835bca2f9ecd90e62cdbbc10c62f8350827494a46cd1597f5184fe211-image.png)

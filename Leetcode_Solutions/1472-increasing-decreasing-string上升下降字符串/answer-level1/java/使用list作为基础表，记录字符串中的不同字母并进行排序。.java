@@ -1,5 +1,5 @@
-将字符串中出现的不同字符存储到list中并进行排序，然后根据list中元素的顺序分别上升下降的存储到stringbuffer中。
-```
+// 将字符串中出现的不同字符存储到list中并进行排序，然后根据list中元素的顺序分别上升下降的存储到stringbuffer中。
+// ```
 public static String sortString(String s) {
 	List<Character> list=new ArrayList<>();
 	List<Character> letter=new ArrayList<>();
@@ -35,4 +35,4 @@ public static String sortString(String s) {
 	}
 	return sb.toString();
 }
-```
+// ```

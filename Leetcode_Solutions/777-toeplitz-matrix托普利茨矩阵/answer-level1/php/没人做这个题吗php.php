@@ -1,5 +1,5 @@
-![5HTN7AMWTYLE\[_NL4(OBVRG.png](https://pic.leetcode-cn.com/880186de91bc26759132b3309ac61903451c47c298c3656a01098f634e5895ce-5HTN7AMWTYLE%5B_NL4\(OBVRG.png)
-```
+// ![5HTN7AMWTYLE\[_NL4(OBVRG.png](https://pic.leetcode-cn.com/880186de91bc26759132b3309ac61903451c47c298c3656a01098f634e5895ce-5HTN7AMWTYLE%5B_NL4\(OBVRG.png)
+// ```
 class Solution {
 
     /**
@@ -18,4 +18,4 @@ class Solution {
         return ture;
     }
 }
-```
+// ```

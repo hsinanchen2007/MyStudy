@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-二分插排
+# 二分插排
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class StreamRank:
 
     def __init__(self):
@@ -15,4 +15,4 @@ class StreamRank:
 
     def getRankOfNumber(self, x: int) -> int:
         return bisect.bisect(self.arr, x)
-```
+# ```

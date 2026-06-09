@@ -1,9 +1,9 @@
-### 解题思路
-借助于HashMap实现，存储每一个数字出现的次数。
+// ### 解题思路
+// 借助于HashMap实现，存储每一个数字出现的次数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -27,4 +27,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

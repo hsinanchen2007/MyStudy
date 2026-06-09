@@ -1,14 +1,14 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/11/8
- * 
- * 解题思路: 回溯算法解决问题 剪枝1:判断重复去重复(同一个父节点的子节点必须是不同的值 方法:排序+hash判断) 剪枝2:找到目标,后面的不会存在最优解
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/11/8
+//  * 
+//  * 解题思路: 回溯算法解决问题 剪枝1:判断重复去重复(同一个父节点的子节点必须是不同的值 方法:排序+hash判断) 剪枝2:找到目标,后面的不会存在最优解
+//  * 
+//  */
+// ```
 public class leetcode040 {
 
     List<List<Integer>> res = new ArrayList<>();
@@ -54,4 +54,4 @@ public class leetcode040 {
 
 }
 
-```
+// ```

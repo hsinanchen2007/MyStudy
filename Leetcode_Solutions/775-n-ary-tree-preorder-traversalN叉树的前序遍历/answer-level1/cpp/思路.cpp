@@ -1,9 +1,9 @@
-### 解题思路
-相对毕竟简单
+// ### 解题思路
+// 相对毕竟简单
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -45,4 +45,4 @@ public:
       return res;      
     }
 };
-```
+// ```

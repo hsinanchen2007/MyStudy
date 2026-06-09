@@ -1,14 +1,14 @@
-# 自己44ms的题解思路
-- 巧妙利用 ```dict.removeAll(beginSet)``` 来避开重复访问问题 ，有的测试样例跑不过——做了调整。**最后附上外站14ms的解法**
-- 关键思路: **预处理, 双端广度优先, 避免重复访问, 递归, 总是从少找向多**
-- **双端广度优先**: 你来找我，我也来找你，每回合都由少的找多的 （```beginSet``` 和 ```endSet```）
-- **由少的找多的**: 你来找我的下一回合有五个路口，我来找你下一回合可能有十个路口，那你来找我更快（下一递归回合之前，决定谁是 ```beginSet``` ，谁是 ```endset```）
-- 不算快，贡献给有相同思路但未找到完整代码的同学们
-- 再优化思考
-    - 是否一定要预处理，如外站那样直接全字符逐个换26个字母来匹配是否也高效？
-    - 是否可如外站 ```dict.removeAll(beginSet)``` 来避开重复访问问题—— ```dict```
+// # 自己44ms的题解思路
+// - 巧妙利用 ```dict.removeAll(beginSet)``` 来避开重复访问问题 ，有的测试样例跑不过——做了调整。**最后附上外站14ms的解法**
+// - 关键思路: **预处理, 双端广度优先, 避免重复访问, 递归, 总是从少找向多**
+// - **双端广度优先**: 你来找我，我也来找你，每回合都由少的找多的 （```beginSet``` 和 ```endSet```）
+// - **由少的找多的**: 你来找我的下一回合有五个路口，我来找你下一回合可能有十个路口，那你来找我更快（下一递归回合之前，决定谁是 ```beginSet``` ，谁是 ```endset```）
+// - 不算快，贡献给有相同思路但未找到完整代码的同学们
+// - 再优化思考
+//     - 是否一定要预处理，如外站那样直接全字符逐个换26个字母来匹配是否也高效？
+//     - 是否可如外站 ```dict.removeAll(beginSet)``` 来避开重复访问问题—— ```dict```
 
-```java
+// ```java
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (!wordList.contains(endWord)) return 0; // O(n)，可先放入HashSet--O(1)
         if (beginWord.equals(endWord)) return 2;
@@ -103,11 +103,11 @@
         return res;
     }
 
-```
+// ```
 
-# 外站14ms题解
-- 为便于理解，补充了注释，优化了变量命名（如 ```dict``` 改为 ```meets```）
-```java
+// # 外站14ms题解
+// - 为便于理解，补充了注释，优化了变量命名（如 ```dict``` 改为 ```meets```）
+// ```java
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         if (!wordList.contains(endWord)) return 0;
         if (beginWord.equals(endWord)) return 2;
@@ -159,4 +159,4 @@
 
         return this._search(level, beginSet, endSet, meets);
     }
-```
+// ```

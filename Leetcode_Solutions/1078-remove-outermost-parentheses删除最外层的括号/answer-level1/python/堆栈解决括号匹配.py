@@ -1,9 +1,9 @@
-### 解题思路
-堆栈解决括号匹配
+# ### 解题思路
+# 堆栈解决括号匹配
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         stack, flag, count = [], 0, 0
@@ -18,4 +18,4 @@ class Solution:
             count = count + 1 if S[i] == '(' else count - 1
         return ''.join(stack)
 
-```
+# ```

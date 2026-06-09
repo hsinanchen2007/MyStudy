@@ -1,5 +1,5 @@
-方法一 转字符串
-```
+// 方法一 转字符串
+// ```
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -13,9 +13,9 @@ public:
         // return true;
     }
 };
-```
-方法二 利用vector，直接比较首尾
-```
+// ```
+// 方法二 利用vector，直接比较首尾
+// ```
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -31,9 +31,9 @@ public:
         return true;
     }
 };
-```
-方法三 将数倒转
-```
+// ```
+// 方法三 将数倒转
+// ```
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -48,6 +48,6 @@ public:
         return cur == x;   
     }
 };
-```
+// ```
 
 

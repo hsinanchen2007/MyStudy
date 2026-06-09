@@ -1,9 +1,9 @@
-### 解题思路
-一边扫描，新建两个链表，分别存储两种要求的结点，最后拼在一起，时间复杂度线性，空间复杂度线性，没有原地分割。按照官方思路原地做更简单。
+// ### 解题思路
+// 一边扫描，新建两个链表，分别存储两种要求的结点，最后拼在一起，时间复杂度线性，空间复杂度线性，没有原地分割。按照官方思路原地做更简单。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ struct ListNode* partition(struct ListNode* head, int x) {
 	free(big);
 	return s;
 }
-```
+// ```

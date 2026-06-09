@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void flatten(TreeNode root) {
         while(root != null){
@@ -19,4 +19,4 @@ class Solution {
     }
 }
 ![LeetCode114.jpg](https://pic.leetcode-cn.com/9af8e854719a695262392de1547f11df171206e3a28290108826fc9605220c25-LeetCode114.jpg)
-```
+// ```

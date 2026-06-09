@@ -1,11 +1,11 @@
-dp[i][j]表示以arr[i]结尾的，已经删除j次的子数组最大值
-- 递推关系：
-dp[i][j] = Math.max(dp[i - 1][j] + arr[i],dp[i - 1][j - 1]);
-- 面临两种情况：
-1. 不删除arr[i]， dp[i - 1][j]
-2. 删除arr[i]，dp[i - 1][j - 1]
+// dp[i][j]表示以arr[i]结尾的，已经删除j次的子数组最大值
+// - 递推关系：
+// dp[i][j] = Math.max(dp[i - 1][j] + arr[i],dp[i - 1][j - 1]);
+// - 面临两种情况：
+// 1. 不删除arr[i]， dp[i - 1][j]
+// 2. 删除arr[i]，dp[i - 1][j - 1]
 
-```
+// ```
 class Solution {
     public int maximumSum(int[] arr) {
         int n = arr.length;
@@ -29,4 +29,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

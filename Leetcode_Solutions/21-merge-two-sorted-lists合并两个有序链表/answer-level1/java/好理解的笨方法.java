@@ -1,11 +1,11 @@
-### 解题思路
-1.构建一个list保存所有的节点值
-2.list排序
-3.构建新的链表
+// ### 解题思路
+// 1.构建一个list保存所有的节点值
+// 2.list排序
+// 3.构建新的链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

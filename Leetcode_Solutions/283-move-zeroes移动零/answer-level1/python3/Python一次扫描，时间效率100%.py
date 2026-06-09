@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/ba96e7ff8761ca2c7e9e5b4a4cef45efb074c23cf9bdf3b8957d2961bf426ba0-image.png)
-```
+# ![image.png](https://pic.leetcode-cn.com/ba96e7ff8761ca2c7e9e5b4a4cef45efb074c23cf9bdf3b8957d2961bf426ba0-image.png)
+# ```
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
                 num +=1
             else:
                 i +=1
-```
+# ```

@@ -1,6 +1,6 @@
-学习中，比c++难写好多啊
+// 学习中，比c++难写好多啊
 
-```
+// ```
 impl Solution {
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
         let mut result = String::new();
@@ -31,4 +31,4 @@ impl Solution {
         result
     }
 }
-```
+// ```

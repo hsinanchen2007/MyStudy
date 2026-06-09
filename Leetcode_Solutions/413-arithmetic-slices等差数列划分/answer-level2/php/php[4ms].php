@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e6366baff746dea5ec3030b2bddba1b6440bcef2f6d6d4f9ba221d86407920ac-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e6366baff746dea5ec3030b2bddba1b6440bcef2f6d6d4f9ba221d86407920ac-image.png)
 
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -34,4 +34,4 @@ class Solution {
         return $total_arr_num;
     }
 }
-```
+// ```

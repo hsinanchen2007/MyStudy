@@ -1,5 +1,5 @@
-1. ![QQ图片20200325100331.png](https://pic.leetcode-cn.com/e3223d484e1cd17f8a6be931dff4ecb0281b81b5027044e748cb5768b5fb72b1-QQ%E5%9B%BE%E7%89%8720200325100331.png)
-```
+// 1. ![QQ图片20200325100331.png](https://pic.leetcode-cn.com/e3223d484e1cd17f8a6be931dff4ecb0281b81b5027044e748cb5768b5fb72b1-QQ%E5%9B%BE%E7%89%8720200325100331.png)
+// ```
 class Solution {
     public int surfaceArea(int[][] grid) {
         int len=grid.length;
@@ -30,4 +30,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

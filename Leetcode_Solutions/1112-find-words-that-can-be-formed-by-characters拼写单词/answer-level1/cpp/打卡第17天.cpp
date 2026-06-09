@@ -1,5 +1,5 @@
-检查字符个数是否都在chars里字符数目之内
-```
+// 检查字符个数是否都在chars里字符数目之内
+// ```
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -31,4 +31,4 @@ public:
         return true;
     }
 };
-```
+// ```

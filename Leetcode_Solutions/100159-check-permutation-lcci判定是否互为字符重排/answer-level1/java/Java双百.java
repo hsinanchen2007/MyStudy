@@ -1,4 +1,4 @@
-若两个字符串长度相等，只需排序后后调用Arrays的equals方法即可
+// 若两个字符串长度相等，只需排序后后调用Arrays的equals方法即可
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         if(s1.length()==s2.length()){

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class TrieNode {
 public:
     int child[26];
@@ -81,4 +81,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

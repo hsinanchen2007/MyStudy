@@ -1,5 +1,5 @@
-- 由于题目告知不删除头和尾，可以通过arr[1]-arr[0]  与 arr[arr.size()-1]-arr[arr.size()-2] 的大小比较来求出等差数列的值
-```
+// - 由于题目告知不删除头和尾，可以通过arr[1]-arr[0]  与 arr[arr.size()-1]-arr[arr.size()-2] 的大小比较来求出等差数列的值
+// ```
 - class Solution {
 public:
     int missingNumber(vector<int>& arr) {
@@ -22,4 +22,4 @@ public:
         return 0;
     }
 };
-```
+// ```

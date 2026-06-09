@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-![image.png](https://pic.leetcode-cn.com/84f68f5c984da5fd39852b5b85c5032d7e3090ea1a53f0851c12eb193260541a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/84f68f5c984da5fd39852b5b85c5032d7e3090ea1a53f0851c12eb193260541a-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GetRowBlackCnt(char** picture, int pictureSize, int pictureColSize, int row) {
     int Cnt = 0;
     for (int i = 0; i < pictureColSize; ++i) {
@@ -54,4 +54,4 @@ int findLonelyPixel(char** picture, int pictureSize, int* pictureColSize){
     return cnt;
 }
 
-```
+// ```

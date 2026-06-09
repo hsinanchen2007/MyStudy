@@ -1,10 +1,10 @@
-### 解题思路
-类似题目：105. 从前序与中序遍历序列构造二叉树
-主要还是用分治算法不断获得中序和后序的左右子树，然后依据后序来获得根节点
+// ### 解题思路
+// 类似题目：105. 从前序与中序遍历序列构造二叉树
+// 主要还是用分治算法不断获得中序和后序的左右子树，然后依据后序来获得根节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         return dfs(inorder, 0, inorder.size() - 1, postorder, 0, postorder.size() - 1);
     }
 };
-```
+// ```

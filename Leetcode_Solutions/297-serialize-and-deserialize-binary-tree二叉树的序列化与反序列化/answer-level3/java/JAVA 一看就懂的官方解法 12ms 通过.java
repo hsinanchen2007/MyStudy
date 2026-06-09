@@ -1,8 +1,8 @@
-序列化：求二叉树的先序遍历序列
-反序列化：通过序列化得到的先序遍历序列 构建原二叉树  
-![IMG_20200224_142914.jpg](https://pic.leetcode-cn.com/611919e6b2284b54a5f87d374a9bfcaa1cafb7c22c869147808fa4853b095153-IMG_20200224_142914.jpg)
+// 序列化：求二叉树的先序遍历序列
+// 反序列化：通过序列化得到的先序遍历序列 构建原二叉树  
+// ![IMG_20200224_142914.jpg](https://pic.leetcode-cn.com/611919e6b2284b54a5f87d374a9bfcaa1cafb7c22c869147808fa4853b095153-IMG_20200224_142914.jpg)
 
-```
+// ```
 public class Codec {
 
     // Encodes a tree to a single string.
@@ -47,5 +47,5 @@ public class Codec {
         return root;
     }
 }
-```
+// ```
 

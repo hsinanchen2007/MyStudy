@@ -1,9 +1,9 @@
-### 解题思路
-双指针pre_node和tail_node，跨度为n，保持窗口宽度，右移tail_node，当tail_node为尾结点时，pre_node为要删除的目标结点前驱，删除目标结点，应注意处理目标结点为head的情况。
+# ### 解题思路
+# 双指针pre_node和tail_node，跨度为n，保持窗口宽度，右移tail_node，当tail_node为尾结点时，pre_node为要删除的目标结点前驱，删除目标结点，应注意处理目标结点为head的情况。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -64,4 +64,4 @@ class Solution(object):
         else:
             pre_node.next = pre_node.next.next
             return head
-```
+# ```

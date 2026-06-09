@@ -1,10 +1,10 @@
 
-解法1 使用方向偏移
+// 解法1 使用方向偏移
 
-You should use an array of direction offsets if you want to be a game developer. And you don't need to check the border because rows and cols always decrease. Here is my C++ code
-以上是复制的美版leetcode某位用户的评论，借鉴他的思想，我对他的解法做了一些修改，提高了代码的可读性。
-[https://leetcode.com/problems/spiral-matrix/discuss/20599/Super-Simple-and-Easy-to-Understand-Solution]()
-```
+// You should use an array of direction offsets if you want to be a game developer. And you don't need to check the border because rows and cols always decrease. Here is my C++ code
+// 以上是复制的美版leetcode某位用户的评论，借鉴他的思想，我对他的解法做了一些修改，提高了代码的可读性。
+// [https://leetcode.com/problems/spiral-matrix/discuss/20599/Super-Simple-and-Easy-to-Understand-Solution]()
+// ```
 vector<int> spiralOrder(vector<vector<int>>& matrix) {
         if(matrix.size()==0)
             return {};
@@ -46,9 +46,9 @@ vector<int> spiralOrder(vector<vector<int>>& matrix) {
         return res;
         
     }
-```
-解法2  更新边界值 官方解法二
-```
+// ```
+// 解法2  更新边界值 官方解法二
+// ```
 vector<int> spiralOrder(vector<vector<int>>& matrix) {
         if(matrix.size()==0)
             return {};
@@ -84,4 +84,4 @@ vector<int> spiralOrder(vector<vector<int>>& matrix) {
         }
         return res;
     }
-```
+// ```

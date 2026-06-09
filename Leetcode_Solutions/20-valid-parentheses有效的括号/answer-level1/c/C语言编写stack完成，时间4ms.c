@@ -1,10 +1,10 @@
 
 
 
-//每当插入一个元素的时候
-//先看下它的元素和之前的元素是否配对
-//如果配对,移除元素，否则加入元素
-```
+// //每当插入一个元素的时候
+// //先看下它的元素和之前的元素是否配对
+// //如果配对,移除元素，否则加入元素
+// ```
 //定义
 typedef struct {
     char *bracket;
@@ -12,9 +12,9 @@ typedef struct {
     int size; //数据大小
 
 } Bracket;
-```
+// ```
 
-```
+// ```
 //创建栈
 Bracket *CreateBracket( int n)
 {
@@ -25,8 +25,8 @@ Bracket *CreateBracket( int n)
     b->size = n;
     return b;
 }
-```
-```
+// ```
+// ```
 // 看一眼
 char peek(Bracket *b)
 {
@@ -35,9 +35,9 @@ char peek(Bracket *b)
     return out;
 
 }
-```
+// ```
 
-```
+// ```
 //移除
 char pop(Bracket *b)
 {
@@ -46,9 +46,9 @@ char pop(Bracket *b)
     return out;
 
 }
-```
+// ```
 
-```
+// ```
 //增加
 bool add( Bracket *b, char ele )
 {
@@ -57,9 +57,9 @@ bool add( Bracket *b, char ele )
     b->count+=1;
     return true;
 }
-```
-检查是否配对
-```
+// ```
+// 检查是否配对
+// ```
 bool checkMate( char a, char b){
     if ( a == '(' && b == ')') return true;
     if ( a == '{' && b == '}') return true;
@@ -68,8 +68,8 @@ bool checkMate( char a, char b){
     return false;
 
 }
-```
-```
+// ```
+// ```
 bool isValid(char * s){
 
     int slen = strlen(s);
@@ -92,4 +92,4 @@ bool isValid(char * s){
     return true;
 
 }
-```
+// ```

@@ -1,5 +1,5 @@
-# 解法1 直观计数法
-```
+// # 解法1 直观计数法
+// ```
     public String countAndSay(int n) {
         String ans = "1";
         for (int i = 2; i <= n; i++) {
@@ -21,10 +21,10 @@
         }
         return ans;
     }
-```
+// ```
 
-# 解法2 递归解法
-```
+// # 解法2 递归解法
+// ```
  public String countAndSay(int n) {
         if (n == 1) {
             return "1";
@@ -48,4 +48,4 @@
         ans.append(preCharCount).append(preChar);
         return ans.toString();
     }
-```
+// ```

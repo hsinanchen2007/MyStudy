@@ -1,5 +1,5 @@
-当出现两个字符数量相等，此时则可以分割出子字符串
-``` c
+// 当出现两个字符数量相等，此时则可以分割出子字符串
+// ``` c
 int balancedStringSplit(char * s){
     int L_num=0, R_num=0, RL_num=0;
     int i=0;
@@ -26,4 +26,4 @@ int balancedStringSplit(char * s){
     
     return RL_num;
 }
-```
+// ```

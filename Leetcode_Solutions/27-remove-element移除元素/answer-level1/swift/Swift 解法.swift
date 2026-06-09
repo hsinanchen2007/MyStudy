@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
          if nums == nil || nums.count == 0 {
@@ -18,4 +18,4 @@ class Solution {
          return j;
     }
 }
-```
+// ```

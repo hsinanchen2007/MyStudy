@@ -1,10 +1,10 @@
-### 解题思路
-注意 Python 的数组拷贝方式。
-此类题要学会推导出坐标关系。
+# ### 解题思路
+# 注意 Python 的数组拷贝方式。
+# 此类题要学会推导出坐标关系。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -19,4 +19,4 @@ class Solution:
         matrix[:] = matrix_new
         
             
-```
+# ```

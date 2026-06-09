@@ -1,14 +1,14 @@
-### 解题思路
-这道题是非常经典的广度和深度的题目，值得好好的品读，为了深刻的理解DFS和BFS遍历，我从递归DFS到递归BFS，再把队列的形式转换为非递归的BFS。
+// ### 解题思路
+// 这道题是非常经典的广度和深度的题目，值得好好的品读，为了深刻的理解DFS和BFS遍历，我从递归DFS到递归BFS，再把队列的形式转换为非递归的BFS。
 
-基本思路就是把一整块相连的区域的1全部遍历，全部置0，这样就算一块岛屿。
+// 基本思路就是把一整块相连的区域的1全部遍历，全部置0，这样就算一块岛屿。
 
-三种思路，代码写的还算很清爽的，如有疑问，欢迎提问~
-这里留一个小问题，为什么把1置0要在入队的时候置0，而不是或者说能不能在出队的时候置0？
+// 三种思路，代码写的还算很清爽的，如有疑问，欢迎提问~
+// 这里留一个小问题，为什么把1置0要在入队的时候置0，而不是或者说能不能在出队的时候置0？
 
-### 代码
+// ### 代码
 
-```
+// ```
 //递归DFS
 void DFS(char** grid, int gridSize, int* gridColSize,int x,int y)
 {
@@ -45,9 +45,9 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
         }
     return count;
 }
-```
+// ```
 
-```c
+// ```c
 //递归BFS遍历
 #define MaxSize 500
 void BFS(char** grid, int gridSize, int* gridColSize,int x,int y,int *Queue_x,int *Queue_y,int *front,int *rear)
@@ -109,9 +109,9 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
 }
 
 
-```
+// ```
 
-```
+// ```
 //非递归BFS遍历
 #define MaxSize 500
 void BFS(char** grid, int gridSize, int* gridColSize,int x,int y)
@@ -175,4 +175,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
 }
 
 
-```
+// ```

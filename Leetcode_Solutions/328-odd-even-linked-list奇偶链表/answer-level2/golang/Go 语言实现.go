@@ -1,4 +1,4 @@
-```go
+// ```go
 /* 思路：
 用两个指针，oddLastNode 指向最后一个奇数节点，evenLastNode 指向最后一个偶数节点
 从偶数节点开始处理，将它后面的奇数节点移掉，插入到 oddLastNode 的后面
@@ -43,4 +43,4 @@ func oddEvenList(head *ListNode) *ListNode {
     return newList
 }
 
-```
+// ```

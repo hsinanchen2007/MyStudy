@@ -1,10 +1,10 @@
-### 解题思路 ： 经典回溯算法
+// ### 解题思路 ： 经典回溯算法
 
-### 代码
+// ### 代码
 
-#### 普通解法
+// #### 普通解法
 
-```golang
+// ```golang
 func totalNQueens(n int) int {
     return process (n, 0, make([]int, n))
 }
@@ -43,10 +43,10 @@ func abs(x int) int {
     }
     return x
 }
-```
+// ```
 
-#### 优化
-```golang
+// #### 优化
+// ```golang
 func totalNQueens(n int) int {
     limit := (1 << n) - 1
     return process(limit, 0, 0, 0)
@@ -80,4 +80,4 @@ func process(limit, colLimit, leftLimit, rightLimit int) int {
     return res
 }
 
-```
+// ```

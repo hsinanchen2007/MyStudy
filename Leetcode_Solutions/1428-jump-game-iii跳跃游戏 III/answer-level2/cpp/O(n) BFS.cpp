@@ -1,11 +1,11 @@
-### 解题思路
-queue记录当前所能到达的所有点
-arrived[]记录该点是否到过
-若某点已访问过，则该点+-arr[]必然已在队列中，无需再次添加计算，若扫描到queue队尾任未找到arr=0的点，则失败
+// ### 解题思路
+// queue记录当前所能到达的所有点
+// arrived[]记录该点是否到过
+// 若某点已访问过，则该点+-arr[]必然已在队列中，无需再次添加计算，若扫描到queue队尾任未找到arr=0的点，则失败
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:e
     bool canReach(vector<int>& arr, int start) {
@@ -29,4 +29,4 @@ public:e
         return false;
     }
 };
-```
+// ```

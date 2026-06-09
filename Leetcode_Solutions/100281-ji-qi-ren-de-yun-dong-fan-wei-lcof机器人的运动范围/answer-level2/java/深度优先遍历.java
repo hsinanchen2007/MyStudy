@@ -1,11 +1,11 @@
-### 解题思路
-- 深度优先遍历，判断终止条件
-- 将遍历过的进行标记，符合条件的标记为true
-- 可以达到的+1，然后再选择四个方向进行遍历
+// ### 解题思路
+// - 深度优先遍历，判断终止条件
+// - 将遍历过的进行标记，符合条件的标记为true
+// - 可以达到的+1，然后再选择四个方向进行遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         boolean[][] matrix = new boolean[m][n];// 移动的矩阵
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseVowels(self, s: str) -> str:
         str_=list(s)
@@ -19,6 +19,6 @@ class Solution:
                 p1+=1
                 p2-=1
         return "".join(str_)
-```
+# ```
 
 

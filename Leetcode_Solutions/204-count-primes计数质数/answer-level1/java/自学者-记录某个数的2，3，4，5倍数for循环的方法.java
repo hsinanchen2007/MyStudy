@@ -1,9 +1,9 @@
-### 解题思路
-* 很精妙的布尔数组变量用法，一开始初始化为true，把每个数的倍数赋值为false，剩下的就是个数
-* for (int j = 2 * i; j < n; j += i) {}
-### 代码
+// ### 解题思路
+// * 很精妙的布尔数组变量用法，一开始初始化为true，把每个数的倍数赋值为false，剩下的就是个数
+// * for (int j = 2 * i; j < n; j += i) {}
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countPrimes(int n) {
        boolean[] isPrim = new boolean[n];
@@ -30,4 +30,4 @@ class Solution {
     }
     
 }
-```
+// ```

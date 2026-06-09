@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -10,4 +10,4 @@ public:
         return nodeA;
     }
 };
-```
+// ```

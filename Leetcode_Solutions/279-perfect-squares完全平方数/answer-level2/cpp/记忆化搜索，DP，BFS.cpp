@@ -1,9 +1,9 @@
-### 解题思路
-记忆化搜索
+// ### 解题思路
+// 记忆化搜索
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int findNum(int n, vector<int> &memo)
@@ -31,13 +31,13 @@ public:
 
     }
 };
-```
-### 解题思路
-DP
+// ```
+// ### 解题思路
+// DP
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 
 public:
@@ -58,15 +58,15 @@ public:
 
     }
 };
-```
+// ```
 
 
-### 解题思路
-BFS
+// ### 解题思路
+// BFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
         
@@ -100,4 +100,4 @@ public:
         return 0;
     }
 };
-```
+// ```

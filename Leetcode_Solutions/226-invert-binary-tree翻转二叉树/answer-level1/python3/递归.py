@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,5 +20,5 @@ class Solution:
         return root
         
         
-```
-交换左右子节点，如果节点为空，则返回
+# ```
+# 交换左右子节点，如果节点为空，则返回

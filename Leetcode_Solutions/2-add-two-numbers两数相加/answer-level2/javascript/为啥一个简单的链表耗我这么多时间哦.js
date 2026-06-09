@@ -1,11 +1,11 @@
-### 解题思路
-1. 提交代码中不要包含console 严重影响效率，比其他的优化影响的多。
-2. 需要注意的一步：将链表的指针作为一个独立变量存储，好处是链表本身的指向不会改变
-3. 活用取余等现有方法
+// ### 解题思路
+// 1. 提交代码中不要包含console 严重影响效率，比其他的优化影响的多。
+// 2. 需要注意的一步：将链表的指针作为一个独立变量存储，好处是链表本身的指向不会改变
+// 3. 活用取余等现有方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -40,4 +40,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return lastNode.next
 };
-```
+// ```

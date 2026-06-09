@@ -1,12 +1,12 @@
-### 解题思路
-1、使用两个栈，第一个就是最终的队列形式，第二个用于倒腾；
-2、入队为ON，出队为O1；
-3、python的list，pop会删除最后一个元素即栈顶，但注意判断有值才可以Pop；
-4、python的append就是往尾部添加元素；
+# ### 解题思路
+# 1、使用两个栈，第一个就是最终的队列形式，第二个用于倒腾；
+# 2、入队为ON，出队为O1；
+# 3、python的list，pop会删除最后一个元素即栈顶，但注意判断有值才可以Pop；
+# 4、python的append就是往尾部添加元素；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -65,4 +65,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

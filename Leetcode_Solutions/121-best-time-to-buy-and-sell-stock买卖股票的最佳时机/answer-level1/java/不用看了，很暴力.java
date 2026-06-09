@@ -1,8 +1,8 @@
-### 解题思路
-这还要啥思路
-### 代码
+// ### 解题思路
+// 这还要啥思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int profit=0;
@@ -18,4 +18,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

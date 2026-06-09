@@ -1,6 +1,6 @@
-首先把二叉搜索树的值都存储起来，才能做到o(1)访问下个节点。
-存储起来可以用数组，队列，都可以。
-```
+// 首先把二叉搜索树的值都存储起来，才能做到o(1)访问下个节点。
+// 存储起来可以用数组，队列，都可以。
+// ```
 class BSTIterator {
 
         List<Integer> arr = new ArrayList<>();
@@ -29,4 +29,4 @@ class BSTIterator {
             return arr.size() > 0;
         }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-其实同三数之和类似，只是多了一个数，所以多了一个需要固定的位置
-直接上代码，并添加了详细注释：
-```
+// 其实同三数之和类似，只是多了一个数，所以多了一个需要固定的位置
+// 直接上代码，并添加了详细注释：
+// ```
 var fourSum = function (nums, target) {
   let len = nums.length
   // 因为要找4个数，nums<4当然就不可能有结果了
@@ -61,4 +61,4 @@ var fourSum = function (nums, target) {
   return res
 };
 
-```
+// ```

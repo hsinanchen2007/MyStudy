@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-贪心：按字符出现频率降序排序
+// 贪心：按字符出现频率降序排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reorganizeString(string S) {
@@ -43,4 +43,4 @@ public:
         return res;
     }
 };
-```
+// ```

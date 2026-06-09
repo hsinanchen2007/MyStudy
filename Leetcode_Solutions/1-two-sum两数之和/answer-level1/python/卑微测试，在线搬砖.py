@@ -1,9 +1,9 @@
-### 解题思路
-遍历所有的积合，如果相等则返回
+# ### 解题思路
+# 遍历所有的积合，如果相等则返回
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         lists = []
@@ -13,4 +13,4 @@ class Solution:
                     lists.append(i)
                     lists.append(j)
         return lists
-```
+# ```

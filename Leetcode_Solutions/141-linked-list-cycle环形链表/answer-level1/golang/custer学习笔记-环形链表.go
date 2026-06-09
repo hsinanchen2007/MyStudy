@@ -1,5 +1,5 @@
-# 快慢指针
-```go
+// # 快慢指针
+// ```go
 func hasCycle(head *ListNode) bool {
     fast := head // 快指针
     slow := head // 慢指针
@@ -12,10 +12,10 @@ func hasCycle(head *ListNode) bool {
     }
     return false
 }
-```
+// ```
 
-优化实现
-```go
+// 优化实现
+// ```go
 func hasCycle(head *ListNode) bool {
     if head == nil {
         return false
@@ -26,12 +26,12 @@ func hasCycle(head *ListNode) bool {
     }
     return slow == fast
 }
-```
+// ```
 
-# hash表
-将遍历过的节点记录下来，如果又遍历到了，表示链表有环，时间复杂度O(1)，空间复杂度O(n)。
+// # hash表
+// 将遍历过的节点记录下来，如果又遍历到了，表示链表有环，时间复杂度O(1)，空间复杂度O(n)。
 
-```go
+// ```go
 func hasCycle(head *ListNode) bool {
     hash := make(map[*ListNode]int) // 哈希表记录该节点是否已遍历过，值记录节点索引
     for head != nil {
@@ -43,4 +43,4 @@ func hasCycle(head *ListNode) bool {
     }
     return false
 }
-```
+// ```

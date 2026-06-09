@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} gas
  * @param {number[]} cost
@@ -28,4 +28,4 @@ var canCompleteCircuit = function(gas, cost) {
 
     return start;
 };
-```
+// ```

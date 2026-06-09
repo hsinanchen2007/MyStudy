@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-此题关键还是character的运用，还要考虑当插入的字符串长度为技术时需要添加特殊字符代替，空栈判断
+// ### 解题思路
+// 此处撰写解题思路
+// 此题关键还是character的运用，还要考虑当插入的字符串长度为技术时需要添加特殊字符代替，空栈判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static boolean isValid(String s) {
         Map<Character,Character> map = new HashMap<Character,Character>();
@@ -26,4 +26,4 @@ class Solution {
         return stack.isEmpty();
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-全局变量max不能在外赋值，会引起答案错误，在diameterOfBinaryTree函数内赋值
-解体基本思路是：
-    对于二叉树的每一个结点进行遍历，以此计算出该结点左右子树深度，相加可得以该结点为拐点得最大路径
-    比较以每个结点为拐点的最大路径，取最大值就是结果
+// ### 解题思路
+// 全局变量max不能在外赋值，会引起答案错误，在diameterOfBinaryTree函数内赋值
+// 解体基本思路是：
+//     对于二叉树的每一个结点进行遍历，以此计算出该结点左右子树深度，相加可得以该结点为拐点得最大路径
+//     比较以每个结点为拐点的最大路径，取最大值就是结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -71,4 +71,4 @@ int counthigh(struct TreeNode* root)
     int height=(left>right?left:right)+1;
     return height;
 }
-```
+// ```

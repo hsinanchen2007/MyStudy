@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findBlackPixel(self, picture: List[List[str]], N: int) -> int:
         w,h = len(picture),len(picture[0])
@@ -27,4 +27,4 @@ class Solution:
                         if cols[y]==N:
                             ans+=1
         return ans
-```
+# ```

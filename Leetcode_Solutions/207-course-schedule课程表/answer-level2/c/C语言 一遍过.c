@@ -1,11 +1,11 @@
-### 解题思路
-图拓扑排序
+// ### 解题思路
+// 图拓扑排序
 
-![image.png](https://pic.leetcode-cn.com/cc1f82149e22f8f6719913c2d501510ae3ec577cde215d52400a7a747da53c63-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cc1f82149e22f8f6719913c2d501510ae3ec577cde215d52400a7a747da53c63-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -154,4 +154,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
     mapFree(&map);
     return rlt;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-两个排序是$O(MlogM+NlogN)$，双指针滑动算法是$O(M+N)$，二分查找是$O(MlogN)$，我这里实际运行起来差不多，最快都是$400ms+$，二分查找快个几毫秒而已，都不算快。
+# 两个排序是$O(MlogM+NlogN)$，双指针滑动算法是$O(M+N)$，二分查找是$O(MlogN)$，我这里实际运行起来差不多，最快都是$400ms+$，二分查找快个几毫秒而已，都不算快。
 
-$O(M+N)$：
+# $O(M+N)$：
 
-```py
+# ```py
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
         houses.sort(); heaters.sort()
@@ -24,11 +24,11 @@ class Solution:
                 i += 1
             ans = max(ans, r)
         return ans
-```
+# ```
 
-$O(MlogN)$:
+# $O(MlogN)$:
 
-```py
+# ```py
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
         houses.sort(); heaters.sort()
@@ -43,4 +43,4 @@ class Solution:
             ans = max(ans, r)
         return ans
             
-```
+# ```

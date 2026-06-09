@@ -1,4 +1,4 @@
-方法一 dictionary
+// 方法一 dictionary
 `public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         Dictionary<int, int> dic = new Dictionary<int, int>();

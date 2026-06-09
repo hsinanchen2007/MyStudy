@@ -1,9 +1,9 @@
-### 解题思路
-比较浪费空间的解法，使用map记录每个元素是否存在，存在则返回true，不存在则插入；
+// ### 解题思路
+// 比较浪费空间的解法，使用map记录每个元素是否存在，存在则返回true，不存在则插入；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

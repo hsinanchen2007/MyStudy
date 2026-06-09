@@ -1,10 +1,10 @@
-### 解题思路
-先入栈右子树，再入栈左子树
-完成先序遍历根 -> 左  -> 右
+// ### 解题思路
+// 先入栈右子树，再入栈左子树
+// 完成先序遍历根 -> 左  -> 右
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

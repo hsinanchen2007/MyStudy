@@ -1,9 +1,9 @@
-### 解题思路
-先求前缀和，然后滑动窗口
+// ### 解题思路
+// 先求前缀和，然后滑动窗口
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -37,4 +37,4 @@ var findContinuousSequence = function(target) {
     }
     return res
 };
-```
+// ```

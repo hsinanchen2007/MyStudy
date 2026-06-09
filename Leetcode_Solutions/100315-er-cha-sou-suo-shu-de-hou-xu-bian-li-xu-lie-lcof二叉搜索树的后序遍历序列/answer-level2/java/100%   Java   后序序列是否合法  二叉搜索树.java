@@ -1,9 +1,9 @@
-### 解题思路
-递归处理：后序的特点，最右边为根，前面的序列均小于最右边，之后数据均大于最右！！！！
+// ### 解题思路
+// 递归处理：后序的特点，最右边为根，前面的序列均小于最右边，之后数据均大于最右！！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         if (postorder == null || postorder.length == 0) {
@@ -36,4 +36,4 @@ class Solution {
         return func(postorder, left, i - 1) && func(postorder, i, right - 1);
     }
 }
-```
+// ```

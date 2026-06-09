@@ -1,4 +1,4 @@
-DFS算法简单易懂，直接上代码：
+// DFS算法简单易懂，直接上代码：
 
 #define MAX_DIRCTION    4
 #define MAX_GRID        50

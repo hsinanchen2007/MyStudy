@@ -1,11 +1,11 @@
-### 解题思路
-1、用list记录数据
-2、翻转（如果在记录的时候是从前插入的，就不需要翻转）
-3、转成数组返回
+// ### 解题思路
+// 1、用list记录数据
+// 2、翻转（如果在记录的时候是从前插入的，就不需要翻转）
+// 3、转成数组返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,4 +25,4 @@ class Solution {
         return list.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-## 解题思路
-回溯：定义used[]，用于记录nums[]中的某个数是否已经使用过
+// ## 解题思路
+// 回溯：定义used[]，用于记录nums[]中的某个数是否已经使用过
 
-## 代码
+// ## 代码
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>> res = new LinkedList<>();
     public List<List<Integer>> permute(int[] nums) {
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

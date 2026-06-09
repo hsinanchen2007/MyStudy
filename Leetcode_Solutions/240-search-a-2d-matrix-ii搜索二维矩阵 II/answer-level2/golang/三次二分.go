@@ -1,5 +1,5 @@
-找最后一列，第一个大于target的行，再找第一列最后一个小于target的行，target一定在这两个行之间的行中（包含找到的两行），在每一行中不停的二分查找
-```
+// 找最后一列，第一个大于target的行，再找第一列最后一个小于target的行，target一定在这两个行之间的行中（包含找到的两行），在每一行中不停的二分查找
+// ```
 func searchMatrix(matrix [][]int, target int) bool {
 	if len(matrix) == 0 {
 		return false
@@ -56,4 +56,4 @@ func searchMatrix(matrix [][]int, target int) bool {
 	}
 	return false
 }
-```
+// ```

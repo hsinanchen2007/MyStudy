@@ -1,10 +1,10 @@
-### 解题思路
-先求出每种数有多少个，放进字典，然后求这些数的最大公因数是不是大于2就可以了。
-利用reduce函数和辗转相除法求出所有数的最大公约数
+# ### 解题思路
+# 先求出每种数有多少个，放进字典，然后求这些数的最大公因数是不是大于2就可以了。
+# 利用reduce函数和辗转相除法求出所有数的最大公约数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         d = {}
@@ -24,4 +24,4 @@ class Solution:
             return self.MaxGcd(remain,small)
         else:
             return self.MaxGcd(small,remain)
-```
+# ```

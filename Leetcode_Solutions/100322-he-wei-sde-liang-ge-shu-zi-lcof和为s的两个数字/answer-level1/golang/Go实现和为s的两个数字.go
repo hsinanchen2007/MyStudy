@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
     if nums == nil || len(nums)<2{
         return nil
@@ -17,4 +17,4 @@ func twoSum(nums []int, target int) []int {
     }
     return []int{}
 }
-```
+// ```

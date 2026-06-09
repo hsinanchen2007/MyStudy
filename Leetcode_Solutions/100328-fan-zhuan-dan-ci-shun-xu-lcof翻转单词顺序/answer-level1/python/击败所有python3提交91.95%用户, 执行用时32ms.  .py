@@ -1,10 +1,10 @@
-### 解题思路
-![bc0d422ed299681f512224cf06a763b.png](https://pic.leetcode-cn.com/68f902df79a10dfbd283e9066a858e887f812fd73bbe1b8c36d0c73e14ece0b0-bc0d422ed299681f512224cf06a763b.png)
+# ### 解题思路
+# ![bc0d422ed299681f512224cf06a763b.png](https://pic.leetcode-cn.com/68f902df79a10dfbd283e9066a858e887f812fd73bbe1b8c36d0c73e14ece0b0-bc0d422ed299681f512224cf06a763b.png)
 
-(小白朴素法) 去掉两边的" ", 再逆序遍历, 遍历遇到""直接跳过, 详见如下代码。
-### 代码
+# (小白朴素法) 去掉两边的" ", 再逆序遍历, 遍历遇到""直接跳过, 详见如下代码。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str: # 例如 s = "k  a good example  "
         res, stack = [], []
@@ -30,12 +30,12 @@ class Solution:
         for i in range(len(stack)-1, -1, -1):
             res.append(stack[i])          
         return(' '.join(res))
-```
+# ```
 
-```
-
-
+# ```
 
 
 
-```
+
+
+# ```

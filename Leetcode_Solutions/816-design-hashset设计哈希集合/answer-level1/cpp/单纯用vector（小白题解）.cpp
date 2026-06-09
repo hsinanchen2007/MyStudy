@@ -1,8 +1,8 @@
-### 解题思路
-虽然这样的解法有些慢~
-### 代码
+// ### 解题思路
+// 虽然这样的解法有些慢~
+// ### 代码
 
-```cpp
+// ```cpp
 class MyHashSet {
 public:
     /** Initialize your data structure here. */
@@ -36,4 +36,4 @@ public:
  * obj->remove(key);
  * bool param_3 = obj->contains(key);
  */
-```
+// ```

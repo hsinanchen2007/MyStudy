@@ -1,5 +1,5 @@
-直接记一下行数和列数出现的次数即可。
-```
+// 直接记一下行数和列数出现的次数即可。
+// ```
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int[] row=new int[n];
@@ -19,4 +19,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

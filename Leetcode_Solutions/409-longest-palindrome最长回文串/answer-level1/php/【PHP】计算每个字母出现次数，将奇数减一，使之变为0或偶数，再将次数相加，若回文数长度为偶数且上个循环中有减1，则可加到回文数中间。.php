@@ -1,9 +1,9 @@
-### 解题思路
-计算每个字母出现次数，将奇数减一，使之变为0或偶数，再将次数相加，若回文数长度为偶数且上个循环中有减1，则可加到回文数中间。
+// ### 解题思路
+// 计算每个字母出现次数，将奇数减一，使之变为0或偶数，再将次数相加，若回文数长度为偶数且上个循环中有减1，则可加到回文数中间。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -32,5 +32,5 @@ class Solution {
         return $length;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/816c45c1becd9084316861f3dad7a932441a88086453264bd3d04b542c1731cb-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/816c45c1becd9084316861f3dad7a932441a88086453264bd3d04b542c1731cb-image.png)

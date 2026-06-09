@@ -1,9 +1,9 @@
-### 解题思路
-递归做的
-感觉比较好理解吧
-### 代码
+// ### 解题思路
+// 递归做的
+// 感觉比较好理解吧
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean parseBoolExpr(String expression) {
         return work(expression.replace(",",""));//发现逗号没啥用就去掉了
@@ -67,4 +67,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于mxn或者nxn，遍历的行和列的总和都是有规律的，根据这个总和来确定每一步的变换。
+// ### 解题思路
+// 对于mxn或者nxn，遍历的行和列的总和都是有规律的，根据这个总和来确定每一步的变换。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -48,4 +48,4 @@ public:
         return res;
     }
 };
-```
+// ```

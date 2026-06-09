@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def addBinary(self, a, b):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             strs.append(str(carray%2))
             carray/=2
         return ''.join(strs[::-1])
-```
+# ```

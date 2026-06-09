@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![c.png](https://pic.leetcode-cn.com/75ed31ba84a35875d222c7fbe326e24133e147f4d335109837c17fa20220669a-c.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![c.png](https://pic.leetcode-cn.com/75ed31ba84a35875d222c7fbe326e24133e147f4d335109837c17fa20220669a-c.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* constructArr(int* a, int aSize, int* returnSize){
 
     return arr;
 }
-```
+// ```

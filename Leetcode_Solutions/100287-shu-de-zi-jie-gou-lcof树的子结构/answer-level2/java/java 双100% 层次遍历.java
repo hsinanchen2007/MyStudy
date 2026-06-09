@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
         if(B == null || A == null) return false;
@@ -15,4 +15,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

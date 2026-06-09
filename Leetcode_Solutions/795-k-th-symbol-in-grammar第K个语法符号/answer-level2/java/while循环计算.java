@@ -1,4 +1,4 @@
-```
+// ```
 public class KthGrammar {
     public int kthGrammar(int n, int k) {
         int kth = k - 1;
@@ -11,4 +11,4 @@ public class KthGrammar {
     }
 }
 
-```
+// ```

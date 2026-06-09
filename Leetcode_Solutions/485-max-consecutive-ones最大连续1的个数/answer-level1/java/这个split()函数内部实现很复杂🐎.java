@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-908 ms
-, 在所有 java 提交中击败了
-5.07%
-的用户
-内存消耗 :
-41.1 MB
-, 在所有 java 提交中击败了
-81.78%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 908 ms
+// , 在所有 java 提交中击败了
+// 5.07%
+// 的用户
+// 内存消耗 :
+// 41.1 MB
+// , 在所有 java 提交中击败了
+// 81.78%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int res=0;
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

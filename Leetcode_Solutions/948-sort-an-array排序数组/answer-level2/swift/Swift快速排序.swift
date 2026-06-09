@@ -1,6 +1,6 @@
-   执行用时 :228 ms，在所有 Swift 提交中击败了100.00%的用户。内存消耗 :23.6 MB, 在所有 Swift 提交中击败了100.00%的用户。
+//    执行用时 :228 ms，在所有 Swift 提交中击败了100.00%的用户。内存消耗 :23.6 MB, 在所有 Swift 提交中击败了100.00%的用户。
  
-    //快速排序
+//     //快速排序
     func sortArray(_ nums: [Int]) -> [Int] {
         var arr = nums
         quickSort(&arr, 0, arr.count - 1)

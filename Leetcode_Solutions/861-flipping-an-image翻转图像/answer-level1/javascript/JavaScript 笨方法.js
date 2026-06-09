@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var flipAndInvertImage = function(A) {
     for (i = 0; i < A.length; i++) {
         A[i] = A[i].reverse();
@@ -7,6 +7,6 @@ var flipAndInvertImage = function(A) {
         }
     }
     return A;
-```
-翻转用异或^或者三目运算符都可以，但位运算的性能更优。
+// ```
+// 翻转用异或^或者三目运算符都可以，但位运算的性能更优。
 

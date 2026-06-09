@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         lists = S.split()
@@ -16,4 +16,4 @@ class Solution:
                 news.append(new)
                 n += 1
         return ' '.join(news)
-```
+# ```

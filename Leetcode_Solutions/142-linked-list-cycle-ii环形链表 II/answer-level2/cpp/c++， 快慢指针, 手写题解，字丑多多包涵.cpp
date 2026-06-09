@@ -1,7 +1,7 @@
-![QQ图片20200326225647.png](https://pic.leetcode-cn.com/30d85f5760211420f17fe03e3554743b453fe5488118de49a1868027f5ada79f-QQ%E5%9B%BE%E7%89%8720200326225647.png)
-![IMG_20200326_223323_wps图片.jpg](https://pic.leetcode-cn.com/f730c0670f488775589beaf28196d5717068b111898ce6bb061641be5ff64fa5-IMG_20200326_223323_wps%E5%9B%BE%E7%89%87.jpg)
+// ![QQ图片20200326225647.png](https://pic.leetcode-cn.com/30d85f5760211420f17fe03e3554743b453fe5488118de49a1868027f5ada79f-QQ%E5%9B%BE%E7%89%8720200326225647.png)
+// ![IMG_20200326_223323_wps图片.jpg](https://pic.leetcode-cn.com/f730c0670f488775589beaf28196d5717068b111898ce6bb061641be5ff64fa5-IMG_20200326_223323_wps%E5%9B%BE%E7%89%87.jpg)
 
-```
+// ```
 class Solution {
 public:
 	ListNode* detectCycle(ListNode* head) {
@@ -29,4 +29,4 @@ public:
 		return point;
 	}
 };
-```
+// ```

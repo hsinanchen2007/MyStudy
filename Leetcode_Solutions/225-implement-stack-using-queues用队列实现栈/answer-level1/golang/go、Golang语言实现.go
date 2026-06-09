@@ -1,9 +1,9 @@
-### 解题思路
-go、Golang语言实现
+// ### 解题思路
+// go、Golang语言实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 import "fmt"
@@ -59,4 +59,4 @@ func main() {
 	fmt.Println(param_2, "==", param_3, "==", param_4)
 
 }
-```
+// ```

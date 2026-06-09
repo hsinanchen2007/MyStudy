@@ -1,5 +1,5 @@
-参考[滑动窗口中的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)，这里只需要稍微的改写一下边界检查代码即可
-```
+// 参考[滑动窗口中的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)，这里只需要稍微的改写一下边界检查代码即可
+// ```
 class MaxQueue {
 public:
     //双向队列加一个普通队列
@@ -39,4 +39,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

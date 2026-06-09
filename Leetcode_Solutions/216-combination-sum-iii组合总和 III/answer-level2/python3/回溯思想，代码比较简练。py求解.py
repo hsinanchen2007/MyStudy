@@ -1,9 +1,9 @@
-### 解题思路
-回溯思想，从1开始，每次往后推，可以画一个树图构思一下。注意回溯的结束条件。这道题不用剪枝，挺友好。
+# ### 解题思路
+# 回溯思想，从1开始，每次往后推，可以画一个树图构思一下。注意回溯的结束条件。这道题不用剪枝，挺友好。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         def backtrack(i, tmp_sum, tmp):
@@ -19,4 +19,4 @@ class Solution:
         return res
 
 
-```
+# ```

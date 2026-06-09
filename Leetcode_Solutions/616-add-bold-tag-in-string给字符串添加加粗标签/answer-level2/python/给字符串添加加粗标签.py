@@ -1,10 +1,10 @@
-#### 枚举：
+# #### 枚举：
 
-我们枚举 `dict` 中的每一个单词 `word`，并枚举 `s` 中的位置 `i`，如果 `s[i]` 以 `word` 为前缀，那么我们就在 `s` 中找到了一个 `word` 出现的位置。我们把 `word` 占有的所有位置都打上标记，`mask[i] == true` 表示 `s` 的位置 `i` 被打上标记。
+# 我们枚举 `dict` 中的每一个单词 `word`，并枚举 `s` 中的位置 `i`，如果 `s[i]` 以 `word` 为前缀，那么我们就在 `s` 中找到了一个 `word` 出现的位置。我们把 `word` 占有的所有位置都打上标记，`mask[i] == true` 表示 `s` 的位置 `i` 被打上标记。
 
-在打完所有的标记后，我们得到了 `mask` 数组，接下来我们要用这个数组得到加粗的字符串。对于 `s` 中的位置 `i`，如果 `i == 0`（字符串的起始位置）或者 `mask[i] == true && mask[i - 1] == false`，那么 `i` 就是加粗标签的开始位置；如果 `i == N - 1` 或者 `mask[i] == true && mask[i + 1] == false`，那么 `i` 就是加粗标签的结束位置。在我们找到了所有的开始和结束位置之后，在这些位置插入 `<b>` 和 `</b>` 标签，就得到了加粗的字符串。
+# 在打完所有的标记后，我们得到了 `mask` 数组，接下来我们要用这个数组得到加粗的字符串。对于 `s` 中的位置 `i`，如果 `i == 0`（字符串的起始位置）或者 `mask[i] == true && mask[i - 1] == false`，那么 `i` 就是加粗标签的开始位置；如果 `i == N - 1` 或者 `mask[i] == true && mask[i + 1] == false`，那么 `i` 就是加粗标签的结束位置。在我们找到了所有的开始和结束位置之后，在这些位置插入 `<b>` 和 `</b>` 标签，就得到了加粗的字符串。
 
-```Python [sol1]
+# ```Python [sol1]
 class Solution(object):
     def boldWords(self, S, words):
         N = len(S)
@@ -22,9 +22,9 @@ class Solution(object):
             ans.append("".join(z[0] for z in grp))
             if incl: ans.append("</b>")
         return "".join(ans)
-```
+# ```
 
-```Java [sol1]
+# ```Java [sol1]
 class Solution {
     public String boldWords(String S, String[] words) {
         int N = S.length();
@@ -58,10 +58,10 @@ class Solution {
         return true;
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N * \sum w_i)$，其中 $N$ 是字符串 `S` 的长度，$\sum w_i$ 是 `dict` 中所有单词的长度之和。
+# * 时间复杂度：$O(N * \sum w_i)$，其中 $N$ 是字符串 `S` 的长度，$\sum w_i$ 是 `dict` 中所有单词的长度之和。
 
-* 空间复杂度：$O(N)$。
+# * 空间复杂度：$O(N)$。

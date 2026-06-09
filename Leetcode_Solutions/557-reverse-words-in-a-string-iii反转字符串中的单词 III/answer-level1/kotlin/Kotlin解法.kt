@@ -1,9 +1,9 @@
-### 解题思路
-思路挺简单的，就是先将字符串分解成字符串数组，然后针对每个字符串数组，再进行翻转。难度主要在于初学Kotlin不知道有哪些函数可以用
+// ### 解题思路
+// 思路挺简单的，就是先将字符串分解成字符串数组，然后针对每个字符串数组，再进行翻转。难度主要在于初学Kotlin不知道有哪些函数可以用
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun reverseWords(s: String): String {
         var array = s.split(" ")
@@ -16,4 +16,4 @@ class Solution {
         return sb.toString().trim()
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-方法一 根据位运算
-```
+// 方法一 根据位运算
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -32,9 +32,9 @@ public:
         return res;
     }
 };
-```
-方法二
-```
+// ```
+// 方法二
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -63,9 +63,9 @@ public:
         return res;
     }
 };
-```
-方法三、补零
-```
+// ```
+// 方法三、补零
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -83,4 +83,4 @@ public:
         return res;
     }
 };
-```
+// ```

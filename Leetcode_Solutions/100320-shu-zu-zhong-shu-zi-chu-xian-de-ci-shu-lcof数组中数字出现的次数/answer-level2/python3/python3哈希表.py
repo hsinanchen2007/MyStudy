@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def singleNumbers(self, nums: List[int]) -> List[int]:
         res=[]
@@ -9,4 +9,4 @@ class Solution:
             if hash[num]==1:
                 res.append(num)
         return res
-```
+# ```

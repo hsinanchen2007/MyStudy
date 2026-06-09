@@ -1,15 +1,15 @@
-### 解题思路
-#### 1. 3次遍历
+# ### 解题思路
+# #### 1. 3次遍历
 
-**min(当前节点左侧最大值, 当前节点右侧最大值) - 当前节点值**，即为当前节点可以存贮的水量。
+# **min(当前节点左侧最大值, 当前节点右侧最大值) - 当前节点值**，即为当前节点可以存贮的水量。
 
-**木桶效应：** 等同于 将 “当前节点的左侧最大值” 移到当前节点的左侧， “当前节点的右侧最大值” 移到当前节点的右侧，看成 “两边夹” 结构。
+# **木桶效应：** 等同于 将 “当前节点的左侧最大值” 移到当前节点的左侧， “当前节点的右侧最大值” 移到当前节点的右侧，看成 “两边夹” 结构。
 
-![image.png](https://pic.leetcode-cn.com/8465139331955e2ea2ab5c043805b788d745f68a727b059ca0d4dec75fb464d4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/8465139331955e2ea2ab5c043805b788d745f68a727b059ca0d4dec75fb464d4-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # -*- coding: utf-8 -*-
 
 class Solution:
@@ -42,11 +42,11 @@ class Solution:
             sum_value += max(0, min(maxleft[i], maxright[i])-v)
 
         return sum_value
-```
+# ```
 
-#### 2. 动态规划，1次遍历
+# #### 2. 动态规划，1次遍历
 
-```python3
+# ```python3
 # -*- coding: utf-8 -*-
 
 class Solution:
@@ -77,4 +77,4 @@ if __name__ == '__main__':
     a = Solution()
     height = [0,1,0,2,1,0,1,3,2,1,2,1]
     print(a.permute(height))
-```
+# ```

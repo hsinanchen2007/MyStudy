@@ -1,6 +1,6 @@
-使用两个队列存放猫狗，根据动物类别分别入队。
+// 使用两个队列存放猫狗，根据动物类别分别入队。
 
-```java
+// ```java
 class AnimalShelf {
     
     Queue<int[]> catQueue;

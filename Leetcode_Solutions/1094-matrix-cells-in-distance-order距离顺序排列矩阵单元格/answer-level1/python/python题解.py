@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/07dd0556eedbbf75bb51dcff5eb4427ca18464c1191c29a28668fae653c58919-image.png)
+# ![image.png](https://pic.leetcode-cn.com/07dd0556eedbbf75bb51dcff5eb4427ca18464c1191c29a28668fae653c58919-image.png)
 
-### 解题思路
-首先定义一个数组result存每个距离的坐标，距离为0时将下标存在result[0]中，便利整个数组存下所有下标
-将全部下标按顺序取出来即可
+# ### 解题思路
+# 首先定义一个数组result存每个距离的坐标，距离为0时将下标存在result[0]中，便利整个数组存下所有下标
+# 将全部下标按顺序取出来即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def allCellsDistOrder(self, R, C, r0, c0):
         """
@@ -41,4 +41,4 @@ class Solution(object):
 
 
         
-```
+# ```

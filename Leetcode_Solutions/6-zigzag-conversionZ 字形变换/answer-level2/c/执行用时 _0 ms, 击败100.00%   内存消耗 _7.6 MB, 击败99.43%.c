@@ -1,8 +1,8 @@
-### 解题思路
-    用含numRows式子表示每一行的s下标，一行一行输入ans中
-### 代码
+// ### 解题思路
+//     用含numRows式子表示每一行的s下标，一行一行输入ans中
+// ### 代码
 
-```c
+// ```c
 
 
 char * convert(char * s, int numRows){
@@ -37,4 +37,4 @@ char * convert(char * s, int numRows){
 }
 
 
-```
+// ```

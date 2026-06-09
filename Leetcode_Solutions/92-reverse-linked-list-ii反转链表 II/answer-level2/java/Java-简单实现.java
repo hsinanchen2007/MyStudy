@@ -1,7 +1,7 @@
-简单的通过指针移动 找到 待翻转的 区域，然后对该区域做翻转，最后将 pre/next 与之连起来 就可以了。
+// 简单的通过指针移动 找到 待翻转的 区域，然后对该区域做翻转，最后将 pre/next 与之连起来 就可以了。
 
 
-```
+// ```
 class Solution {
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
@@ -45,7 +45,7 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 
-提交结果：
-![image.png](https://pic.leetcode-cn.com/3b123c2b1b93eb3bcb46d9fe0668c840c47ab222eb6663e131716fd887282e74-image.png)
+// 提交结果：
+// ![image.png](https://pic.leetcode-cn.com/3b123c2b1b93eb3bcb46d9fe0668c840c47ab222eb6663e131716fd887282e74-image.png)

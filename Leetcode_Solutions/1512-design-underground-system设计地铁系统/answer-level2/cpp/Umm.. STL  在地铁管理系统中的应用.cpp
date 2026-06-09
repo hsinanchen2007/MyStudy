@@ -1,8 +1,8 @@
-# 5370. 设计地铁系统
-可以使用 STL 来存储数据，高效实现地铁管理系统🐶。
-数据容器的设计可以参见注释。
+// # 5370. 设计地铁系统
+// 可以使用 STL 来存储数据，高效实现地铁管理系统🐶。
+// 数据容器的设计可以参见注释。
 
-```cpp
+// ```cpp
 class UndergroundSystem {
 public:
     UndergroundSystem() {
@@ -33,6 +33,6 @@ public:
         return double(it->second.first)/(it->second.second);
     }
 };
-```
- # 扫码关注 快乐加倍
-![qrcode_for_gh_6e5f8557b1f8_258.jpg](https://pic.leetcode-cn.com/c76daf1deeba4b94c92858e4d52e2f6b0b5b151a2e6d09e0c237357a07210aa2-qrcode_for_gh_6e5f8557b1f8_258.jpg)
+// ```
+//  # 扫码关注 快乐加倍
+// ![qrcode_for_gh_6e5f8557b1f8_258.jpg](https://pic.leetcode-cn.com/c76daf1deeba4b94c92858e4d52e2f6b0b5b151a2e6d09e0c237357a07210aa2-qrcode_for_gh_6e5f8557b1f8_258.jpg)

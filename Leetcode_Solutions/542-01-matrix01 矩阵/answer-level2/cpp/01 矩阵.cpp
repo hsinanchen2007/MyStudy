@@ -1,17 +1,17 @@
-### 算法分析
-1. 使用广度优先搜索，定义队列que用于存储待遍历的节点<i,j>，定义二维数组result用于存储结果并初始化为0
-2. 遍历matrix，i = 0 : matrix.size()-1, j = 0 : matrix[i].size()-1
-3. 如果matrix[i][j]==0，将<i,j>入队
-4. 否则result[i][j]赋值为IntMax
-5. 遍历队列直到为空，出队队首元素<i,j>
-6. 遍历<i,j>的四周元素<next_i,next_j>，如果result<new_i,next_j> > result<i,j> + 1
-   ，则result<next_i,next_j> =  result<i,j> + 1，并将<next_i,next_>入队
-7. 最后返回result
-### 复杂度分析
-+ 时间复杂度：O(n), n=i*j
-+ 空间复杂度：O(n)，队列使用的空间
-### 源码
-```C++ []
+// ### 算法分析
+// 1. 使用广度优先搜索，定义队列que用于存储待遍历的节点<i,j>，定义二维数组result用于存储结果并初始化为0
+// 2. 遍历matrix，i = 0 : matrix.size()-1, j = 0 : matrix[i].size()-1
+// 3. 如果matrix[i][j]==0，将<i,j>入队
+// 4. 否则result[i][j]赋值为IntMax
+// 5. 遍历队列直到为空，出队队首元素<i,j>
+// 6. 遍历<i,j>的四周元素<next_i,next_j>，如果result<new_i,next_j> > result<i,j> + 1
+//    ，则result<next_i,next_j> =  result<i,j> + 1，并将<next_i,next_>入队
+// 7. 最后返回result
+// ### 复杂度分析
+// + 时间复杂度：O(n), n=i*j
+// + 空间复杂度：O(n)，队列使用的空间
+// ### 源码
+// ```C++ []
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {

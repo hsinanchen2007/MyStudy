@@ -1,6 +1,6 @@
-二叉树遍历中最简单的一个遍历方式
+// 二叉树遍历中最简单的一个遍历方式
 
-```
+// ```
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> ans;
         if(root == NULL) return ans;
@@ -15,5 +15,5 @@
         }
         return ans;
     }
-```
-![image.png](https://pic.leetcode-cn.com/1ac3d88193508d0a49a702f0f3eeeb99025d1ed51b01022f9fa3060baac8751e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/1ac3d88193508d0a49a702f0f3eeeb99025d1ed51b01022f9fa3060baac8751e-image.png)

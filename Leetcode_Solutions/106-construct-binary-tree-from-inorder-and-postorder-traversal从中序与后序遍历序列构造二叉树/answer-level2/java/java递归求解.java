@@ -1,4 +1,4 @@
-```
+// ```
 public TreeNode buildTree(int[] inorder, int[] postorder) {
         if (inorder.length == 0 && postorder.length == 0) return null;
         
@@ -21,4 +21,4 @@ public TreeNode buildTree(int[] inorder, int[] postorder) {
         System.arraycopy(src, start, tar, 0, length);
         return tar;
     }
-```
+// ```

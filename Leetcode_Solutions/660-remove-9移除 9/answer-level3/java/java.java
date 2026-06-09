@@ -1,4 +1,4 @@
-```
+// ```
    public int newInteger(int n) {
 	        String a="";
 	       int b =0;
@@ -9,4 +9,4 @@
 	       }
 	       return Integer.parseInt(a);
 	    }
-```
+// ```

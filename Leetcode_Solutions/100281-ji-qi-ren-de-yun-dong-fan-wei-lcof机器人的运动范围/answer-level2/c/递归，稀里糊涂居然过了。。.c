@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/ca40f3000ca50450a4b0acfa27c9d27fdbf95b3b549d8c18908223741209d01a-image.png)
-递归，判断四周是否有已到达节点，居然过了。。。
-更懵逼的是不判断居然也是对的。。。
-然后看[官解](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/solution/ji-qi-ren-de-yun-dong-fan-wei-by-leetcode-solution/)确实有证明，sigh
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/ca40f3000ca50450a4b0acfa27c9d27fdbf95b3b549d8c18908223741209d01a-image.png)
+// 递归，判断四周是否有已到达节点，居然过了。。。
+// 更懵逼的是不判断居然也是对的。。。
+// 然后看[官解](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/solution/ji-qi-ren-de-yun-dong-fan-wei-by-leetcode-solution/)确实有证明，sigh
+// ### 代码
 
-```c
+// ```c
 
 int moveOne(int m, int n, int k, int i, int j, int *arrived){
     int sum = 0;
@@ -42,4 +42,4 @@ int movingCount(int m, int n, int k){
 
 
 
-```
+// ```

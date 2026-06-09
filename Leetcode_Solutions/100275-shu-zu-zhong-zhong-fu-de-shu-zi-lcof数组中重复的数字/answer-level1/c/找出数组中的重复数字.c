@@ -1,10 +1,10 @@
-### 解题思路
-数组nums中有numsize个数字，申请一个长度为numsize的数组hashmap，初始值全部为0。
-逐个去取nums中数字nums[i],并置hashmap中的nums[i]的位置+1，如果hashmap[nums[i]]>1,则该数字重复。
+// ### 解题思路
+// 数组nums中有numsize个数字，申请一个长度为numsize的数组hashmap，初始值全部为0。
+// 逐个去取nums中数字nums[i],并置hashmap中的nums[i]的位置+1，如果hashmap[nums[i]]>1,则该数字重复。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findRepeatNumber(int *nums, int numsize)
 {
     int hashMap[numsize];
@@ -20,4 +20,4 @@ int findRepeatNumber(int *nums, int numsize)
     }
     return 0;
 }
-```
+// ```

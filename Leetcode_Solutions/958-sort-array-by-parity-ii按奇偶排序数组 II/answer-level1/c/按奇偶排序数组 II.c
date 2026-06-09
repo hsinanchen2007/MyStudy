@@ -1,4 +1,4 @@
-```
+// ```
 int* sortArrayByParityII(int* A, int ASize, int* returnSize){
     //生成一个大小为ASize的数组
     int *ret = (int *)malloc(sizeof(int)* ASize);
@@ -16,4 +16,4 @@ int* sortArrayByParityII(int* A, int ASize, int* returnSize){
     }
     return ret;
 }
-```
+// ```

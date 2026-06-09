@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minCameraCover(root: TreeNode): Int = dp(root).tail.min
 
@@ -10,4 +10,4 @@ object Solution {
       (l(1) + r(1)) :: (l(2) + r.tail.min).min(r(2) + l.tail.min) :: (1 + l.min + r.min) :: Nil
   }
 }
-```
+// ```

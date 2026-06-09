@@ -1,5 +1,5 @@
-hash判断字母个数，奇数个第二次出现时需减一
-```
+// hash判断字母个数，奇数个第二次出现时需减一
+// ```
 #define HASHSIZE 128
 int comp (const void *a, const void *b) {
     return *(int *)b - *(int *)a;
@@ -34,4 +34,4 @@ int longestPalindrome(char * s){
     }
     return longestcnt;
 }
-```
+// ```

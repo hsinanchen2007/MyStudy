@@ -1,6 +1,6 @@
-java 递归迭代0ms 击败100%
+// java 递归迭代0ms 击败100%
 
-```
+// ```
 class Solution {
     public int numberOfSteps (int num) {
         int count = 0;
@@ -15,4 +15,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

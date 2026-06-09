@@ -1,4 +1,4 @@
-```
+// ```
 class SnakeGame {
 public:
     struct Point{
@@ -92,4 +92,4 @@ public:
         return score;
     }
 };
-```
+// ```

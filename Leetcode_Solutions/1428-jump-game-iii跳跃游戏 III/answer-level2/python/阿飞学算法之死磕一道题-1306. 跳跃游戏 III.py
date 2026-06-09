@@ -1,15 +1,15 @@
- > **最近刷跳跃游戏数题，做个记录**
-##### 方法1：`DFS`
-- 准备一个函数：`dfs(int[] arr, int curPos, boolean[] visited)`
-  - 其中`curPos`表示当前访问的位置
-  - `visited`表示当前的`curPos`位置有无被访问过
-- 出口条件：
-  - 当前`curPos`越界了，也就是不在`[0,len-1]`范围内时，返回`false`
-  - 当前`curPos`的访问过，返回`false`
-  - 当`arr[curPos]==0`时，表示找到了，返回`true`
-- 探索左边和右边位置  
+#  > **最近刷跳跃游戏数题，做个记录**
+# ##### 方法1：`DFS`
+# - 准备一个函数：`dfs(int[] arr, int curPos, boolean[] visited)`
+#   - 其中`curPos`表示当前访问的位置
+#   - `visited`表示当前的`curPos`位置有无被访问过
+# - 出口条件：
+#   - 当前`curPos`越界了，也就是不在`[0,len-1]`范围内时，返回`false`
+#   - 当前`curPos`的访问过，返回`false`
+#   - 当`arr[curPos]==0`时，表示找到了，返回`true`
+# - 探索左边和右边位置  
 
-```java []
+# ```java []
      public boolean canReach1st(int[] arr, int start) {
         boolean[] visited = new boolean[arr.length];
         return dfs(arr, start, visited);
@@ -21,8 +21,8 @@
         visited[curPos] = true;
         return dfs(arr, curPos - arr[curPos], visited) || dfs(arr, curPos + arr[curPos], visited);
     }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
 
@@ -37,20 +37,20 @@ class Solution:
             return dfs(arr, curPos + arr[curPos]) or dfs(arr, curPos - arr[curPos])
 
         return dfs(arr,start)
-```
+# ```
 
 
 
 
-##### 方法2：`BFS`
-- 准备一个`bool`类型的数组`visited`表示当前的下标有无被访问过
-- 准备一个`queue`，转这个`queue`
-  - 取到这一轮的总的`size`大小，进行`for loop`
-  - 弹出当前的`curPos`,如果`arr[curPos]== 0`说明找到了，返回`true`
-  - 分别渠道左右两边去找，`curPos`的位置不越界并且`leftPos`和`rightPos`未被访问过
-  - 访问后要设置下`visited`的属性，并且将位置放置于`queue`中
+# ##### 方法2：`BFS`
+# - 准备一个`bool`类型的数组`visited`表示当前的下标有无被访问过
+# - 准备一个`queue`，转这个`queue`
+#   - 取到这一轮的总的`size`大小，进行`for loop`
+#   - 弹出当前的`curPos`,如果`arr[curPos]== 0`说明找到了，返回`true`
+#   - 分别渠道左右两边去找，`curPos`的位置不越界并且`leftPos`和`rightPos`未被访问过
+#   - 访问后要设置下`visited`的属性，并且将位置放置于`queue`中
 
-```java []
+# ```java []
 public boolean canReach2nd(int[] arr, int start) {
         LinkedList<Integer> queue = new LinkedList<>();
         int n = arr.length;
@@ -76,8 +76,8 @@ public boolean canReach2nd(int[] arr, int start) {
         }
         return false;
     }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         from collections import deque
@@ -97,5 +97,5 @@ class Solution:
                     visited.add(index)
                     queue.append(index)
         return False
-```
+# ```
 

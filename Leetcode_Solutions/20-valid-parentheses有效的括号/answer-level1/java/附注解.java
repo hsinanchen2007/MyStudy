@@ -1,9 +1,9 @@
-### 解题思路
-如下描述
+// ### 解题思路
+// 如下描述
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValid(String s) {
         if(s.isEmpty())
@@ -23,4 +23,4 @@ class Solution {
 	    return stack.empty();
     }
 }
-```
+// ```

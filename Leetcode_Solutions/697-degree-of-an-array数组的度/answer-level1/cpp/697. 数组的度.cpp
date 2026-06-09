@@ -1,6 +1,6 @@
-## 三个哈希表存储每个数的个数和起始索引
-*搬运大佬的*
-```cpp
+// ## 三个哈希表存储每个数的个数和起始索引
+// *搬运大佬的*
+// ```cpp
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {
@@ -25,9 +25,9 @@ public:
         return end[max_num] - start[max_num] + 1;
     }
 };
-```
-## unordered_map和vector存储每个数的所有索引
-```cpp
+// ```
+// ## unordered_map和vector存储每个数的所有索引
+// ```cpp
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {
@@ -46,4 +46,4 @@ public:
         return minlen;
     }
 };
-```
+// ```

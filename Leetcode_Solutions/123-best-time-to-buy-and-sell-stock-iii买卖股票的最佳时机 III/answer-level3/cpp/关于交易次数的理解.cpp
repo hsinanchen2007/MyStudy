@@ -1,9 +1,9 @@
-### 解题思路
-如代码中注释所示
+// ### 解题思路
+// 如代码中注释所示
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -23,4 +23,4 @@ public:
     }
 };
 
-```
+// ```

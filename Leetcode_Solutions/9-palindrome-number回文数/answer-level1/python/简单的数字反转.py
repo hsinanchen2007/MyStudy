@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -18,5 +18,5 @@ class Solution(object):
             y = y * 10 + x % 10
             x = x / 10
         return z == y
-```
-很简单的数字反转
+# ```
+# 很简单的数字反转

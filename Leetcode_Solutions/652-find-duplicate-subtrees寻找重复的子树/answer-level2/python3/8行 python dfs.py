@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -16,5 +16,5 @@ class Solution:
             return s
         dfs(root)
         return [l[0] for l in d.values() if len(l) > 1]
-```
-- 使用字典 d 记录｛子树结构：[root1，root2，……]｝
+# ```
+# - 使用字典 d 记录｛子树结构：[root1，root2，……]｝

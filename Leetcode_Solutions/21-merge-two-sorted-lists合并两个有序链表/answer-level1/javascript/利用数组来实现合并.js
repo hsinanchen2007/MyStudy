@@ -1,6 +1,6 @@
 ![21.png](https://pic.leetcode-cn.com/57782ae615533238296a5adbb489f16ad6e5e756c387341ae053daa82029f837-21.png)  
 
-`
+// `
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -40,4 +40,4 @@ var mergeTwoLists = function(l1, l2) {
     }
     return temp[0];
 };
-`
+// `

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var reverseWords = function(s) {
     let res = s.split(' ')
@@ -11,4 +11,4 @@ var reverseWords = function(s) {
     return res
 };
 
-```
+// ```

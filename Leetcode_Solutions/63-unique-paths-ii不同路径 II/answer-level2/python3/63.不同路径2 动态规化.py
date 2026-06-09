@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         n = len(obstacleGrid) # 行数
@@ -41,4 +41,4 @@ class Solution:
                     dp[i][j] = dp[i-1][j] + dp[i][j-1]
 
         return dp[-1][-1]
-```
+# ```

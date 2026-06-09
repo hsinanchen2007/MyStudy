@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bd6658a24508aab2523f4f9839073dce8a29990c03a41b291e3337030928b0e8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bd6658a24508aab2523f4f9839073dce8a29990c03a41b291e3337030928b0e8-image.png)
 
-用一个map放每一个数字的前一位和后一位，用一个set放已遍历的四位数，好像并没有快多少-_-!!
+// 用一个map放每一个数字的前一位和后一位，用一个set放已遍历的四位数，好像并没有快多少-_-!!
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} deadends
  * @param {string} target
@@ -74,4 +74,4 @@ var openLock = function(deadends, target) {
     }
     return -1;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-一个指针指向当前节点，一个指向原来链表指针的下一个节点
+// 一个指针指向当前节点，一个指向原来链表指针的下一个节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,4 +25,4 @@ class Solution {
         return former;
     }
 }
-```
+// ```

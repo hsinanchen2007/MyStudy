@@ -1,10 +1,10 @@
-### 解题思路
-见注释
-执行用时24ms，内存消耗7.2MB
+// ### 解题思路
+// 见注释
+// 执行用时24ms，内存消耗7.2MB
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getMaximumGold(vector<vector<int>>& grid) {
@@ -58,4 +58,4 @@ public:
         return max_gold;
     }
 };
-```
+// ```

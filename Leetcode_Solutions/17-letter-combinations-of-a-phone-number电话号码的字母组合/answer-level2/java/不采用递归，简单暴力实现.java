@@ -1,7 +1,7 @@
-通过临时list赋值直到最终结果
-刚开始采用switch catch，时间为1ms，不过比较啰嗦。后改用map后，时间成了2ms。本以为内存占用较多，提交后发现并不算多，30多M，正常水平。
+// 通过临时list赋值直到最终结果
+// 刚开始采用switch catch，时间为1ms，不过比较啰嗦。后改用map后，时间成了2ms。本以为内存占用较多，提交后发现并不算多，30多M，正常水平。
 
-```
+// ```
 class Solution {
     public List<String> letterCombinations(String digits) {
         List<String> result = new ArrayList<>();
@@ -36,5 +36,5 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 

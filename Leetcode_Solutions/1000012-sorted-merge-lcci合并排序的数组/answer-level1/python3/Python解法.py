@@ -1,9 +1,9 @@
-### 解题思路
-直接切片操作即可。
+# ### 解题思路
+# 直接切片操作即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -11,4 +11,4 @@ class Solution:
         """
         A[m: ] = B
         A.sort()
-```
+# ```

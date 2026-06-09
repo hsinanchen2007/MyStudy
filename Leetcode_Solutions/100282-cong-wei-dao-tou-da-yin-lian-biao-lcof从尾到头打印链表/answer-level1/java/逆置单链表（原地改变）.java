@@ -1,6 +1,6 @@
-![逆置单链表.png](https://pic.leetcode-cn.com/e2120e03408d8bf399840a770329d8821705a2e995a2d12439d344f7aca9f535-%E9%80%86%E7%BD%AE%E5%8D%95%E9%93%BE%E8%A1%A8.png)
+// ![逆置单链表.png](https://pic.leetcode-cn.com/e2120e03408d8bf399840a770329d8821705a2e995a2d12439d344f7aca9f535-%E9%80%86%E7%BD%AE%E5%8D%95%E9%93%BE%E8%A1%A8.png)
 
-```
+// ```
 public static int[] reversePrint3(ListNode head) {
         ListNode cur = head;
         ListNode pre = null;
@@ -26,5 +26,5 @@ public static int[] reversePrint3(ListNode head) {
         }
         return res;
     }
-```
+// ```
 

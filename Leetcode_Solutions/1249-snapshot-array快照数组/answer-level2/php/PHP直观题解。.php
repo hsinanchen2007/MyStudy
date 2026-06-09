@@ -1,7 +1,7 @@
-![aaa.png](https://pic.leetcode-cn.com/1b21bb009b524b011961ab038ac13871499be4c29f1564d287cf6c029fa0d468-aaa.png)
+// ![aaa.png](https://pic.leetcode-cn.com/1b21bb009b524b011961ab038ac13871499be4c29f1564d287cf6c029fa0d468-aaa.png)
 
-直观方法，比较简单。速度一般般，内存有点大。PHP语言数组问题还是比较费的。大家可以优化一下。
-```
+// 直观方法，比较简单。速度一般般，内存有点大。PHP语言数组问题还是比较费的。大家可以优化一下。
+// ```
 class SnapshotArray {
     var $snap=[];
     var $arr=[];
@@ -22,4 +22,4 @@ class SnapshotArray {
         return $res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-贪婪思维，找出长度最小的字段。然后一一对比，再然后剪短字符
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 贪婪思维，找出长度最小的字段。然后一一对比，再然后剪短字符
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length < 1) {
@@ -29,4 +29,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

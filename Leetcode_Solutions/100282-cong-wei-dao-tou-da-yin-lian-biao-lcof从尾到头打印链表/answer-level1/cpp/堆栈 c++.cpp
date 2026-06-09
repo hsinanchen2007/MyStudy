@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-堆栈的数据结构，可以很好的利用堆栈后进先出的规则。
+// 堆栈的数据结构，可以很好的利用堆栈后进先出的规则。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

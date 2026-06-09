@@ -1,5 +1,5 @@
-这个题要考虑几个情况：
-第一种为正常情况，所有工资不相等
+-- 这个题要考虑几个情况：
+-- 第一种为正常情况，所有工资不相等
 select Salary as SecondHighestSalary from Employee  Order by Salary Desc limit 1,1;
 
 第二种为无第二高工资情况，也就是只有一条记录

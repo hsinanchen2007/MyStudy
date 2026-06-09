@@ -1,10 +1,10 @@
-### 解题思路
-首先统计A中的独特的数字的个数，然后用回溯的方法：
-选取一个数字num，如果num和之前选的数字加起来是一个数的平方，那么就减去num的个数，递归回溯剩下的数字。
+# ### 解题思路
+# 首先统计A中的独特的数字的个数，然后用回溯的方法：
+# 选取一个数字num，如果num和之前选的数字加起来是一个数的平方，那么就减去num的个数，递归回溯剩下的数字。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numSquarefulPerms(self, A: List[int]) -> int:
         def backtrace(remain, cur_arr):
@@ -32,4 +32,4 @@ class Solution:
 
 
 
-```
+# ```

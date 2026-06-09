@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- lengthOfLIS 动态规划 + 二分查找 O(nlogn)
-- lengthOfLISNew 动态规划 O(n*n)
+// - lengthOfLIS 动态规划 + 二分查找 O(nlogn)
+// - lengthOfLISNew 动态规划 O(n*n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int lengthOfLIS(int[] nums) {
@@ -61,4 +61,4 @@ class Solution {
         return maxLen;
     }
 }
-```
+// ```

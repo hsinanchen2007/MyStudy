@@ -1,9 +1,9 @@
-### 解题思路
-一个快指针一个慢指针，速度为2倍，快指针到末尾，满指针则在终点
+# ### 解题思路
+# 一个快指针一个慢指针，速度为2倍，快指针到末尾，满指针则在终点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
             else: 
                 pre=pre.next
         return pre
-```
+# ```

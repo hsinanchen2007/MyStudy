@@ -1,5 +1,5 @@
-### 最少代码解决, 缺点是这种递归写法会导致leetcode的栈溢出,
-```javascript
+// ### 最少代码解决, 缺点是这种递归写法会导致leetcode的栈溢出,
+// ```javascript
 function f(n) {
     if (n === 1) {
         return [[1]];
@@ -17,4 +17,4 @@ function f(n) {
         return [...f(n-1), temp];
     }
 }
-```
+// ```

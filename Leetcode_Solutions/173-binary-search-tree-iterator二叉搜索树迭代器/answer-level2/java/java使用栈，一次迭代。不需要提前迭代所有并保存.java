@@ -1,9 +1,9 @@
 
-- 这个题，其实就是把BST中序遍历的迭代方法拆成了一个迭代器类。
-- BST中序遍历结果有序
+// - 这个题，其实就是把BST中序遍历的迭代方法拆成了一个迭代器类。
+// - BST中序遍历结果有序
 
-- 代码
-```java
+// - 代码
+// ```java
     class BSTIterator {
 
         Stack<TreeNode> stack = new Stack<>();
@@ -39,4 +39,4 @@
             return !stack.isEmpty();
         }
     }
-```
+// ```

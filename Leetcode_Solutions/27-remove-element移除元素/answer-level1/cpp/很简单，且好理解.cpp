@@ -1,7 +1,7 @@
-**仅供参考**
-![image.png](https://pic.leetcode-cn.com/f9514adc18d6c236335f4c14167aeb96c0f14703fbed007c9834bec28e39a5a1-image.png)
+// **仅供参考**
+// ![image.png](https://pic.leetcode-cn.com/f9514adc18d6c236335f4c14167aeb96c0f14703fbed007c9834bec28e39a5a1-image.png)
 
-```
+// ```
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -14,5 +14,5 @@ public:
         return nums.size()-k;
     }
 };
-```
+// ```
 

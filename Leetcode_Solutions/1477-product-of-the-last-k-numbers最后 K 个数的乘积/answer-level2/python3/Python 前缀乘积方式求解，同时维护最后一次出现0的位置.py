@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/bb6a74da54f8cf75677c232a67627880f4fb2084021f2aa42e2c3db181a48110-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bb6a74da54f8cf75677c232a67627880f4fb2084021f2aa42e2c3db181a48110-image.png)
 
 
 
-```
+# ```
 '''
 利用前缀累积的方式维护从第一个数值到最后一个数值的乘积，
 查询时候利用除法快速求区间中的数值的乘积，遇到0时候替换
@@ -35,4 +35,4 @@ class ProductOfNumbers:
             return self.mul_list[-1]
         return self.mul_list[-1] // self.mul_list[-k-1]
 
-```
+# ```

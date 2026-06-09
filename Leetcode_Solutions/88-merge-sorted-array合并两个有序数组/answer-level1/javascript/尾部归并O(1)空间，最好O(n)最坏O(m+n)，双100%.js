@@ -1,16 +1,16 @@
-### 解题思路
-题目比较简单，这里只提几个关键地方
-+ 最后一个索引位置是 `m+n-1`
-+ nums2 并入完成后，合并已经结束（官方题解中还继续对nums1进行赋值）
+// ### 解题思路
+// 题目比较简单，这里只提几个关键地方
+// + 最后一个索引位置是 `m+n-1`
+// + nums2 并入完成后，合并已经结束（官方题解中还继续对nums1进行赋值）
 
 
-### 提交结果
-![image.png](https://pic.leetcode-cn.com/a195f1dbdc9c3af8437e96eb9ff0502bd94f6e46f4cc0b3a5484252e92c4616c-image.png)
+// ### 提交结果
+// ![image.png](https://pic.leetcode-cn.com/a195f1dbdc9c3af8437e96eb9ff0502bd94f6e46f4cc0b3a5484252e92c4616c-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number} m
@@ -33,4 +33,4 @@ var merge = function(nums1, m, nums2, n) {
     }
     return nums1;
 };
-```
+// ```

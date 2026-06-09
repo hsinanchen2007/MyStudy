@@ -1,8 +1,8 @@
-思路比较简单：
-1，排序数组
-2，从左侧开始翻牌得分
-3，一旦能量不够了，就消耗一个积分从最右侧获取能量补给，继续从左侧翻牌得分
-```
+// 思路比较简单：
+// 1，排序数组
+// 2，从左侧开始翻牌得分
+// 3，一旦能量不够了，就消耗一个积分从最右侧获取能量补给，继续从左侧翻牌得分
+// ```
 class Solution {
 public:
     int bagOfTokensScore(vector<int>& tokens, int P) {
@@ -30,5 +30,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4124b626132411ec47f9a3bc22b7389b4edc46349bbc86ea5b09bbcbf7241e60-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4124b626132411ec47f9a3bc22b7389b4edc46349bbc86ea5b09bbcbf7241e60-image.png)

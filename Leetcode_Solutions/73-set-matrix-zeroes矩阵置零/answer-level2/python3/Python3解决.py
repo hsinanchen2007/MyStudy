@@ -1,9 +1,9 @@
-### 解题思路
-暴力法模拟
+# ### 解题思路
+# 暴力法模拟
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
                 matrix[i][n] = 0
         # print(matrix)
         return matrix
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool isBadVersion(int version);
 
 class Solution {
@@ -20,4 +20,4 @@ public:
         return low;
     }
 };
-```
+// ```

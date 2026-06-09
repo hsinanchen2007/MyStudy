@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     int N;
     double[][] mem;
@@ -22,4 +22,4 @@ class Solution {
         return mem[A][B];
     }   
 }
-```
+// ```

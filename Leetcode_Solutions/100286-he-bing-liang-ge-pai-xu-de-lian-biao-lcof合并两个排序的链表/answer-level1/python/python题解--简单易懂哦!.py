@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/466f817adababcdb8fa9dc97228d316df777798f2890eb53e9c24c660dbd069a-image.png)
-- 相信大家对这个题应该很熟悉了,数据结构书中也有类似题目的出现
-- 思路是: 比较两个链表当前节点的值,选择小的取下来连接到我们的最终结果链表上,如果相等就都取下来
-- 重点在于将指针的顺序理清楚即可,别的无论是循环还是递归的写法都无可厚非
-- 时间复杂度`O(n+m)`,空间复杂度`O(1)`
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/466f817adababcdb8fa9dc97228d316df777798f2890eb53e9c24c660dbd069a-image.png)
+# - 相信大家对这个题应该很熟悉了,数据结构书中也有类似题目的出现
+# - 思路是: 比较两个链表当前节点的值,选择小的取下来连接到我们的最终结果链表上,如果相等就都取下来
+# - 重点在于将指针的顺序理清楚即可,别的无论是循环还是递归的写法都无可厚非
+# - 时间复杂度`O(n+m)`,空间复杂度`O(1)`
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -58,4 +58,4 @@ class Solution(object):
 
 
 
-```
+# ```

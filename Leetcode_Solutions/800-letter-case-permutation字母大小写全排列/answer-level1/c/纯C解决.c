@@ -1,5 +1,5 @@
-题目很简单，我们直接从后往前遍历字符串，遇到字母直接分两种情况，分成大小写字母，其他的字符直接保存。
-```
+// 题目很简单，我们直接从后往前遍历字符串，遇到字母直接分两种情况，分成大小写字母，其他的字符直接保存。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -43,4 +43,4 @@ char ** letterCasePermutation(char * S, int* returnSize){
     *returnSize=count+1;
     return matrix;
 }
-```
+// ```

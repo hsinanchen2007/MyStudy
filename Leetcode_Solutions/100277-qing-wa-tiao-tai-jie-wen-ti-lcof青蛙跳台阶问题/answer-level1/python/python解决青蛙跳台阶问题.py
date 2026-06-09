@@ -1,9 +1,9 @@
-### 解题思路
-同爬楼梯问题类似
+# ### 解题思路
+# 同爬楼梯问题类似
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numWays(self, n):
         """
@@ -17,4 +17,4 @@ class Solution(object):
         for i in range(3,n+1):
             climb[i] = climb[i-1] + climb[i-2]
         return climb[n] % 1000000007
-```
+# ```

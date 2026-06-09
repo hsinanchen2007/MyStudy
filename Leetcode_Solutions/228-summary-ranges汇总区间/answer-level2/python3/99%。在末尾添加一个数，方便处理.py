@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         res=[]
@@ -18,4 +18,4 @@ class Solution:
                     res.append(str(start)+"->"+str(end))
                 start=end=nums[i]
         return res
-```
+# ```

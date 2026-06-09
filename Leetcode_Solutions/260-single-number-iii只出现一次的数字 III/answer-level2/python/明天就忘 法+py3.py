@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumber(self, nums: List[int]) -> List[int]:
         # 先异或 相同为0 不同为1  
@@ -25,4 +25,4 @@ class Solution:
                 res[1]^=num
         return res
 
-```
+# ```

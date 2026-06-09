@@ -1,14 +1,14 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0a773839576a506b5c6d6368236b45cf9b212843d7e1ff08705e33e6f1f478f6-image.png)
-双指针还得多做一点，好好理解什么条件下：
-1.右指针移动
-2.右指针停止
-3.左指针移动
-3.左指针停止
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0a773839576a506b5c6d6368236b45cf9b212843d7e1ff08705e33e6f1f478f6-image.png)
+// 双指针还得多做一点，好好理解什么条件下：
+// 1.右指针移动
+// 2.右指针停止
+// 3.左指针移动
+// 3.左指针停止
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) (a) > (b) ? (a) : (b)
 int lengthOfLongestSubstringTwoDistinct(char * s){
     int sLen = strlen(s);
@@ -53,4 +53,4 @@ int lengthOfLongestSubstringTwoDistinct(char * s){
     }
     return maxLen;
 }
-```
+// ```

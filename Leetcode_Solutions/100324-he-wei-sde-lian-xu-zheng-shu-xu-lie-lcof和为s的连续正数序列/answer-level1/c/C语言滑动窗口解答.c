@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :12 ms, 在所有 C 提交中击败了71.43%的用户
-内存消耗 :8.6 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :12 ms, 在所有 C 提交中击败了71.43%的用户
+// 内存消耗 :8.6 MB, 在所有 C 提交中击败了100.00%的用户
 
-滑动窗口的经典题目
-### 代码
+// 滑动窗口的经典题目
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -47,4 +47,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     }
     return result;
 }
-```
+// ```

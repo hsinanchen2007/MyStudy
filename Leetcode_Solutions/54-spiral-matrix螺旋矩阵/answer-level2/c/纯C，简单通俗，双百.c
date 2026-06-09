@@ -1,12 +1,12 @@
-![1.png](https://pic.leetcode-cn.com/5e6673ec82e4e76ce1cbc629570382a8dd63be7eb863cda11f5a8d04fae7d442-1.png)
+// ![1.png](https://pic.leetcode-cn.com/5e6673ec82e4e76ce1cbc629570382a8dd63be7eb863cda11f5a8d04fae7d442-1.png)
 
-### 解题思路
-设置a,b,c,d作为四个顶点，和四个方向，初始向右，a初始为1；
-每到达一个顶点，相应的向内收缩一点，并且改变一次方向。
+// ### 解题思路
+// 设置a,b,c,d作为四个顶点，和四个方向，初始向右，a初始为1；
+// 每到达一个顶点，相应的向内收缩一点，并且改变一次方向。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -66,4 +66,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
 	*returnSize = in;
 	return res;
 }
-```
+// ```

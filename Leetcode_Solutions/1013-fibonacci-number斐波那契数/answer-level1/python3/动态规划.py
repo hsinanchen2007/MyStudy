@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, N: int) -> int:
         if N <= 1:
@@ -15,4 +15,4 @@ class Solution:
             dp[x] = dp[x-1] + dp[x-2]
             x += 1
         return dp[-1] 
-```
+# ```

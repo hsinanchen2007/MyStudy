@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-BFS广度优先搜索，看注释比较容易理解。
+// BFS广度优先搜索，看注释比较容易理解。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func orangesRotting(grid [][]int) int {
 	row := len(grid)       //行
 	col := len(grid[0])    //列
@@ -48,4 +48,4 @@ func orangesRotting(grid [][]int) int {
 	}
 	return -1
 }
-```
+// ```

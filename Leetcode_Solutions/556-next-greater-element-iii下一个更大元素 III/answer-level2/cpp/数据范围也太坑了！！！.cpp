@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-对于大于INT_MAX的数
-需要返回-1！！！
+// 对于大于INT_MAX的数
+// 需要返回-1！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int nextGreaterElement(int n) {
@@ -36,4 +36,4 @@ public:
         return stoll(temp);
     }
 };
-```
+// ```

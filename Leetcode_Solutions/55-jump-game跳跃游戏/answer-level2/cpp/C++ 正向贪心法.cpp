@@ -1,5 +1,5 @@
-每次都从可遍历的位置中找能向前跳远到最远位置的点来更新状态。
-```
+// 每次都从可遍历的位置中找能向前跳远到最远位置的点来更新状态。
+// ```
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -19,6 +19,6 @@ public:
         return true;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a68c24d8e7bbef9a160e8dd57ad481e02622106409bca0e2c5f50621ce2bec82-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a68c24d8e7bbef9a160e8dd57ad481e02622106409bca0e2c5f50621ce2bec82-image.png)

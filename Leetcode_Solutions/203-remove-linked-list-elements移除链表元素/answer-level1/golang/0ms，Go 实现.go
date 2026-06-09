@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/8c35fac3a48aa8a14b5c93eb6cdb254ff52478d2b37a414abc9c7834eaaa6a2c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8c35fac3a48aa8a14b5c93eb6cdb254ff52478d2b37a414abc9c7834eaaa6a2c-image.png)
 
-```
+// ```
 func removeElements(head *ListNode, val int) *ListNode {
     var cur,pre *ListNode = head,nil
     for cur != nil {
@@ -21,4 +21,4 @@ func removeElements(head *ListNode, val int) *ListNode {
     }
     return head
 }
-```
+// ```

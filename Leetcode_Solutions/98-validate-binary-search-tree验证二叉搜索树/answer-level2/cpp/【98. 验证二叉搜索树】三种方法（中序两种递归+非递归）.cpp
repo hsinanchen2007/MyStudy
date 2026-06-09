@@ -1,6 +1,6 @@
-## 思路：中序遍历递归
-### 代码
-```c++
+// ## 思路：中序遍历递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -23,9 +23,9 @@ public:
         }
     }
 };
-```
-### 另一种写法
-```c++
+// ```
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -51,11 +51,11 @@ public:
         return true; 
     }
 };
-```
+// ```
 
-## 思路二：中序遍历迭代
-### 代码
-```c++
+// ## 思路二：中序遍历迭代
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -79,5 +79,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

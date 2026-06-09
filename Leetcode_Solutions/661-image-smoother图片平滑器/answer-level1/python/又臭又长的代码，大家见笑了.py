@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def imageSmoother(self, M):
         #又臭又长的代码大家见笑了
@@ -67,4 +67,4 @@ class Solution(object):
                 left = False
                 right = False
         return newM2
-```
+# ```

@@ -1,5 +1,5 @@
-求出最大公约数作为长度， 然后求出子串
-```
+// 求出最大公约数作为长度， 然后求出子串
+// ```
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -31,4 +31,4 @@ public:
 
     }
 };
-```
+// ```

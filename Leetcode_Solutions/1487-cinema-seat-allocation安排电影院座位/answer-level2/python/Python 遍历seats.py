@@ -1,14 +1,14 @@
-影响每一排结果的只有4块位置
-```
+# 影响每一排结果的只有4块位置
+# ```
 l     ml    mr    r
 2 3 | 4 5   6 7 | 8 9
-```
-遍历`seats`统计一下收到影响的行数.
-没有被影响的行, 直接安排2个家庭就可以
-受到影响的判断一下改行应该安排几个家庭
+# ```
+# 遍历`seats`统计一下收到影响的行数.
+# 没有被影响的行, 直接安排2个家庭就可以
+# 受到影响的判断一下改行应该安排几个家庭
 
 
-```python
+# ```python
 from typing import List
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
@@ -40,4 +40,4 @@ class Solution:
                 # 对 0 1 1 0 特判, 中间放一个家庭
                 res += (ml & mr)
         return res
-```
+# ```

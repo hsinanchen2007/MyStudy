@@ -1,9 +1,9 @@
-### 解题思路
-n & (n - 1)代表去掉末位的1
+// ### 解题思路
+// n & (n - 1)代表去掉末位的1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -15,4 +15,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

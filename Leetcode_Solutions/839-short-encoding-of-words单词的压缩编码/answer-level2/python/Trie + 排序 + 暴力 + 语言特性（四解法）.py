@@ -1,10 +1,10 @@
-## 简介
-- [题目简介](https://leetcode-cn.com/problems/short-encoding-of-words/)
+# ## 简介
+# - [题目简介](https://leetcode-cn.com/problems/short-encoding-of-words/)
 
-## 暴力模拟
-从题意来看，如果给定的单词列表中的单词 $word$ 是列表中另一个单词的后缀，那么索引字符串可以不用存储 $word$。按照这种算法统计出最后需要存储的单词。
+# ## 暴力模拟
+# 从题意来看，如果给定的单词列表中的单词 $word$ 是列表中另一个单词的后缀，那么索引字符串可以不用存储 $word$。按照这种算法统计出最后需要存储的单词。
 
-```javascript
+# ```javascript
 var minimumLengthEncoding = function(words) {
     let ans = [];
     let count = 0;
@@ -43,18 +43,18 @@ var minimumLengthEncoding = function(words) {
         arr.push(word);
     }
 };
-```
+# ```
 
-**复杂度分析**:
-- 时间复杂度： $O(N^2)$，$N$ 是字符串列表总长度
-- 空间复杂度： $O(N)$
+# **复杂度分析**:
+# - 时间复杂度： $O(N^2)$，$N$ 是字符串列表总长度
+# - 空间复杂度： $O(N)$
 
-## 解法二 - trie 的应用
-由解法一我们可以看出是字符串列表的倒序后生成的 trie 。而答案是到达叶子结点的路径个数加上这些路径总的结点数。
+# ## 解法二 - trie 的应用
+# 由解法一我们可以看出是字符串列表的倒序后生成的 trie 。而答案是到达叶子结点的路径个数加上这些路径总的结点数。
 
-由于题目限定为小写字母，因此我们可以通过 $new Array(26)$ 来表示每个结点中的 $next$。
+# 由于题目限定为小写字母，因此我们可以通过 $new Array(26)$ 来表示每个结点中的 $next$。
 
-```javascript
+# ```javascript
 var minimumLengthEncoding = function(words) {
     
     let ans = 0;
@@ -92,10 +92,10 @@ var minimumLengthEncoding = function(words) {
         this.next = new Array(26);
     }
 };
-```
-**上面的代码为了避免排序，因此代码的易懂性会下降，下面给出排序预处理的写法**
+# ```
+# **上面的代码为了避免排序，因此代码的易懂性会下降，下面给出排序预处理的写法**
 
-```javascript
+# ```javascript
 var minimumLengthEncoding = function(words) {
     
     let ans = 0;
@@ -126,16 +126,16 @@ var minimumLengthEncoding = function(words) {
         this.next = new Array(26);
     }
 };
-```
+# ```
 
-**具体哪种复杂度更优，看实际的测试数据集，目前看本题，第二种更加优秀一些**
+# **具体哪种复杂度更优，看实际的测试数据集，目前看本题，第二种更加优秀一些**
 
-**复杂度分析**:
-- 时间复杂度： $O(N)$，$N$ 是字符串列表总长度
-- 空间复杂度： $O(N)$
+# **复杂度分析**:
+# - 时间复杂度： $O(N)$，$N$ 是字符串列表总长度
+# - 空间复杂度： $O(N)$
 
-## 解法三-利用语言特性
-```javascript
+# ## 解法三-利用语言特性
+# ```javascript
 var minimumLengthEncoding = function(words) {
     let wordsSet = new Set(words);
     let i;
@@ -151,14 +151,14 @@ var minimumLengthEncoding = function(words) {
     }
     return res;
 };
-```
-**复杂度分析**:
-- 时间复杂度： $O(N)$，$N$ 是字符串列表总长度
-- 空间复杂度： $O(N)$
+# ```
+# **复杂度分析**:
+# - 时间复杂度： $O(N)$，$N$ 是字符串列表总长度
+# - 空间复杂度： $O(N)$
 
 
-## 解法四 - 排序
-```python
+# ## 解法四 - 排序
+# ```python
 def minimumLengthEncoding(self, words: List[str]) -> int:
     N = len(words)
     # 逆序字典序排序    
@@ -173,8 +173,8 @@ def minimumLengthEncoding(self, words: List[str]) -> int:
             res += len(words[i]) + 1 # 单词加上一个 '#' 的长度
     
     return res
-```
+# ```
 
-**复杂度分析**:
-- 时间复杂度：$O(WlogW + N)$，$N$ 是字符串总长度， $W$ 是字符串列表长度
-- 空间复杂度： $O(1)$
+# **复杂度分析**:
+# - 时间复杂度：$O(WlogW + N)$，$N$ 是字符串总长度， $W$ 是字符串列表长度
+# - 空间复杂度： $O(1)$

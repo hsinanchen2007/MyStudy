@@ -1,8 +1,8 @@
 
-多提交几遍刷出了24ms，虽然好像没什么意义orz，但是开心！
-![image.png](https://pic.leetcode-cn.com/0e3ac41fbf0636375e2dd469a361f0abec2312736a3a46c7128d4e6e9d22ecdb-image.png)
-方法是利用python直接强制转换
-```
+# 多提交几遍刷出了24ms，虽然好像没什么意义orz，但是开心！
+# ![image.png](https://pic.leetcode-cn.com/0e3ac41fbf0636375e2dd469a361f0abec2312736a3a46c7128d4e6e9d22ecdb-image.png)
+# 方法是利用python直接强制转换
+# ```
 class Solution(object):
     def myAtoi(self, str):
         """
@@ -32,4 +32,4 @@ class Solution(object):
             return 2147483647
         return last
         
-```
+# ```

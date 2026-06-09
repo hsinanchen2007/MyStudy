@@ -1,4 +1,4 @@
-```
+// ```
 void Merge(int A[],int low,int mid,int high,int *B){
     int i,j,k;
     printf("low=%d,high=%d\n",low,high);
@@ -34,4 +34,4 @@ bool containsDuplicate(int* nums, int numsSize){
     return false;
 
 }
-```
+// ```

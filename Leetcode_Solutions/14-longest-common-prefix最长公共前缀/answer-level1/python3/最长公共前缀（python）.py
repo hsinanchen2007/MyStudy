@@ -1,9 +1,9 @@
-### 解题思路
-首先排除了空列表空字符串的情况，按照最小字符串的长度确定了遍历深度，依次对各字符串进行遍历，prefix是公共比较对象，当所有字符串比较通过后交给prefix2，一旦比较失败返回prefix2
+# ### 解题思路
+# 首先排除了空列表空字符串的情况，按照最小字符串的长度确定了遍历深度，依次对各字符串进行遍历，prefix是公共比较对象，当所有字符串比较通过后交给prefix2，一旦比较失败返回prefix2
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         prefix=""                          #公共比较对象
@@ -24,4 +24,4 @@ class Solution:
         return ""                                     #当存在空字符串的情况返回结果
 
 
-```
+# ```

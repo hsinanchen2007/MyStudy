@@ -1,9 +1,9 @@
-### 解题思路
-使用dummpy节点，本身为空，这个节点简化思路
+# ### 解题思路
+# 使用dummpy节点，本身为空，这个节点简化思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeElements(self, head, val):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         return dummpy_node.next
 
 
-```
+# ```

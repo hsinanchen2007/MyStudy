@@ -1,4 +1,4 @@
-```
+# ```
         res = ""
         strs = [str(i) for i in range(1,n+1)]
         def jc(n):
@@ -21,4 +21,4 @@
                 strs = strs[0:sub] + strs[sub + 1:]
             n -= 1
         return res
-```
+# ```

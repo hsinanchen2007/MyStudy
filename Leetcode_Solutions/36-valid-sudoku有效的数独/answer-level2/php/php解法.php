@@ -1,4 +1,4 @@
-```
+// ```
 function isValidSudoku($board) {
     $row = [];
     $col = [];
@@ -19,4 +19,4 @@ function isValidSudoku($board) {
     }
     return true;
 }
-```
+// ```

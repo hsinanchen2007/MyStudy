@@ -1,5 +1,5 @@
-数组值作为索引。
-```
+// 数组值作为索引。
+// ```
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -28,4 +28,4 @@ int* findDuplicates(int* nums, int numsSize, int* returnSize){
     free(tmp);
     return output;
 }
-```
+// ```

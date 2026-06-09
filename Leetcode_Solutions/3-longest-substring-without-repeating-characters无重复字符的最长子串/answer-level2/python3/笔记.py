@@ -1,6 +1,6 @@
-模拟的窗口模式
+# 模拟的窗口模式
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
 
@@ -14,4 +14,4 @@ class Solution:
             else:
                 x+=1
         return win_size-1
-```
+# ```

@@ -1,4 +1,4 @@
-```c []
+// ```c []
 #define RESULT_UNIQUE_NUM 300000
 
 int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
@@ -42,4 +42,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     *returnSize = rowNum;
     return resultData;
 }
-```
+// ```

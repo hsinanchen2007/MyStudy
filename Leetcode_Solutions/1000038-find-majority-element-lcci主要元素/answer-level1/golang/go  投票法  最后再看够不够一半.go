@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-投票法  最后再看够不够一半
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 投票法  最后再看够不够一半
+// ### 代码
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     if (len(nums) == 0) {
         return -1
@@ -33,4 +33,4 @@ func majorityElement(nums []int) int {
     }
     return -1;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1、动态规划的思想 
-2、dp 从下开始往上面计算
+// ### 解题思路
+// 1、动态规划的思想 
+// 2、dp 从下开始往上面计算
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 import "fmt"
@@ -40,4 +40,4 @@ func minimumTotal(triangle [][]int) int {
 	}
 	return dp[0][0]
 }
-```
+// ```

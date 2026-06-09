@@ -1,5 +1,5 @@
-用string各种内存超标，换成char*就ok了
-```
+// 用string各种内存超标，换成char*就ok了
+// ```
 class Solution {
 public:
     string longestPrefix(string s) {
@@ -17,5 +17,5 @@ public:
         return "";
     }
 };
-```
+// ```
 

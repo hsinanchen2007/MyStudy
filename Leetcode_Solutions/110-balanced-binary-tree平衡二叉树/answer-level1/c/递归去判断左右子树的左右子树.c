@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ bool isBalanced(struct TreeNode* root)
     
     return abs(left-right) < 2 && isBalanced(root->left) && isBalanced(root->right);  //递归判左右子树的左右子树
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-思路不清晰，写了一堆错误，接连错误 10 次。
+# ### 解题思路
+# 思路不清晰，写了一堆错误，接连错误 10 次。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
@@ -24,8 +24,8 @@ class Solution:
                     ans += (right_max - height[right])
                 right -= 1
         return ans
-```
-``` python
+# ```
+# ``` python
 # 解法完全错误, # BUG 选 right 的方式不对啊，[5,2,1,2,5] 选中了 2
 class Solution: 
     def trap(self, height: List[int]) -> int:
@@ -87,4 +87,4 @@ class Solution:  # 这个自己写的代码也不对，有 BUG.
             ans += max(min(left_max, right_max) - height[left], 0)
         return ans
 
-```
+# ```

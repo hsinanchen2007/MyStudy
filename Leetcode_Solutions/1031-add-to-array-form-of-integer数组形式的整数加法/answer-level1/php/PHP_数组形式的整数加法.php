@@ -1,4 +1,4 @@
-```
+// ```
 function addToArrayForm($A, $K) {
     $len = count($A) - 1;
     $res = [];
@@ -21,4 +21,4 @@ function addToArrayForm($A, $K) {
  }
 
 我这样在本地运行是可以的，但leetcode提交不了，也不知道怎么回事
-```
+// ```

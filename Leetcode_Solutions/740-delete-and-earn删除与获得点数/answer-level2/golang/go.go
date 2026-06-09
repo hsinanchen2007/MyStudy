@@ -1,4 +1,4 @@
-```
+// ```
 func deleteAndEarn(nums []int) int {
 	ss := make([]int, 10001)
 	for _, n := range nums {
@@ -13,4 +13,4 @@ func deleteAndEarn(nums []int) int {
 	}
 	return ss[10000]
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-哈希表来存储已经分配的电话，队列来保存未分配的电话，未分配的电话，都从队头出队。
+// ### 解题思路
+// 哈希表来存储已经分配的电话，队列来保存未分配的电话，未分配的电话，都从队头出队。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class PhoneDirectory {
 
     private Set<Integer> existPhone;// 存在的电话
@@ -52,4 +52,4 @@ class PhoneDirectory {
  * boolean param_2 = obj.check(number);
  * obj.release(number);
  */
-```
+// ```

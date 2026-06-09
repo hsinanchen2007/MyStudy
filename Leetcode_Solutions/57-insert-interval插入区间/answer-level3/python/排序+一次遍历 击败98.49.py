@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.扩充插入集合
-2.排序，按照集合的第一元素大小排序
-3.遍历，判断每一个区间最小和最大的边界
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1.扩充插入集合
+# 2.排序，按照集合的第一元素大小排序
+# 3.遍历，判断每一个区间最小和最大的边界
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         intervals.append(newInterval)
@@ -29,4 +29,4 @@ class Solution:
             i+=1
         res.append([min_num,max_num])
         return res
-```
+# ```

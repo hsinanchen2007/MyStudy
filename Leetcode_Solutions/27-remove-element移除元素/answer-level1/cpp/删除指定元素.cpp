@@ -1,9 +1,9 @@
-### 解题思路
-这道题一开始走进了误区,想着继续用双指针,但是观测对象搞错了,不应该再去看i而是看j
+// ### 解题思路
+// 这道题一开始走进了误区,想着继续用双指针,但是观测对象搞错了,不应该再去看i而是看j
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -20,4 +20,4 @@ public:
         return i;
     }
 };
-```
+// ```

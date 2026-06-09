@@ -1,14 +1,14 @@
-![返回倒数第 k 个节点.png](https://pic.leetcode-cn.com/cc5064cb10d498647ed5ae63c278b31ce87cec2d8b502ee0b0e67cce8e39f727-%E8%BF%94%E5%9B%9E%E5%80%92%E6%95%B0%E7%AC%AC%20k%20%E4%B8%AA%E8%8A%82%E7%82%B9.png)
+// ![返回倒数第 k 个节点.png](https://pic.leetcode-cn.com/cc5064cb10d498647ed5ae63c278b31ce87cec2d8b502ee0b0e67cce8e39f727-%E8%BF%94%E5%9B%9E%E5%80%92%E6%95%B0%E7%AC%AC%20k%20%E4%B8%AA%E8%8A%82%E7%82%B9.png)
 
-### 解题思路
-充分利用条件“给定的 k 保证是有效的”。
-递归，访问到最后的节点，再往前找之前的状态。
-双指针，k既是倒数的节点，也是该节点与最末尾节点的距离。
-详细思路都在注释中了。朋友们可以看看行数能不能再压缩，欢迎指点。
+// ### 解题思路
+// 充分利用条件“给定的 k 保证是有效的”。
+// 递归，访问到最后的节点，再往前找之前的状态。
+// 双指针，k既是倒数的节点，也是该节点与最末尾节点的距离。
+// 详细思路都在注释中了。朋友们可以看看行数能不能再压缩，欢迎指点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 // 递归
 class Solution {
     // 开始全局变量 K 保持不变
@@ -28,9 +28,9 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-```java
+// ```java
 // 双指针
 class Solution {
     public int kthToLast(ListNode head, int k) {
@@ -45,4 +45,4 @@ class Solution {
         return left.val;
     }
 }
-```
+// ```

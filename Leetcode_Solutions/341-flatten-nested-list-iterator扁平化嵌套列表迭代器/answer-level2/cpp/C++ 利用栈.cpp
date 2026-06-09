@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-关键词是“嵌套”，利用栈来模拟深入退出的过程。
+// 关键词是“嵌套”，利用栈来模拟深入退出的过程。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -66,4 +66,4 @@ public:
  * NestedIterator i(nestedList);
  * while (i.hasNext()) cout << i.next();
  */
-```
+// ```

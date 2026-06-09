@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -24,4 +24,4 @@ func removeElements(head *ListNode, val int) *ListNode {
     }
     return dummnyhead.Next
 }
-```
+// ```

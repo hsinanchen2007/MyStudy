@@ -1,5 +1,5 @@
-1. 使用dense_rank()方法对组内员工工资降序排序
-2. 然后取出rank<=3的所有员工
+-- 1. 使用dense_rank()方法对组内员工工资降序排序
+-- 2. 然后取出rank<=3的所有员工
 
 select
     t1.D Department,

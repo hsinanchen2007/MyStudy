@@ -1,5 +1,5 @@
-![001.PNG](https://pic.leetcode-cn.com/66fc69942afa8bfce1c50326c11765b0bc27495a57e38c74a80caf7f1ffb522b-001.PNG)
-```
+// ![001.PNG](https://pic.leetcode-cn.com/66fc69942afa8bfce1c50326c11765b0bc27495a57e38c74a80caf7f1ffb522b-001.PNG)
+// ```
 public static void setZeroes(int[][] matrix) {
 
     int[][] copy = new int[matrix.length][matrix[0].length];
@@ -30,4 +30,4 @@ public static void becomeZero(int[][] nums, int row, int col)
         nums[i][col]=0;
     }
 }
-```
+// ```

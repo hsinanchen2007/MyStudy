@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int) {
 
 	// nums1的当前索引
@@ -27,4 +27,4 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
 	}
 }
 
-```
+// ```

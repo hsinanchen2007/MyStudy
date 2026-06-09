@@ -1,7 +1,7 @@
 
-记录每一层遍历的结构，然后判断是否是回文字符。
-注意标记null的情况
-```
+// 记录每一层遍历的结构，然后判断是否是回文字符。
+// 注意标记null的情况
+// ```
 var isSymmetric = function(root) {
     let arr = [root]
     let memoArr = []
@@ -38,4 +38,4 @@ var isSymmetric = function(root) {
     })
 
 };
-```
+// ```

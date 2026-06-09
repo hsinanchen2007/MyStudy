@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
-第一种普通思路，双指针同时遍历
-```java
+// ### 代码
+// 第一种普通思路，双指针同时遍历
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,26 +37,26 @@ class Solution {
         return result.next;
         }
 }
-```
-第二种，递归处理。
-class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+// ```
+// 第二种，递归处理。
+// class Solution {
+//     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
-        if(l1 ==null){
-            return l2;
-        }
-        if(l2 ==null){
-            return l1;
-        }
-        ListNode newNode;
-        if(l1.val<=l2.val){
-            newNode = l1;
-            newNode.next = mergeTwoLists(l1.next,l2);
-        }else{
-            newNode = l2;
-            newNode.next = mergeTwoLists(l1,l2.next);
-        }
-        return newNode;
+//         if(l1 ==null){
+//             return l2;
+//         }
+//         if(l2 ==null){
+//             return l1;
+//         }
+//         ListNode newNode;
+//         if(l1.val<=l2.val){
+//             newNode = l1;
+//             newNode.next = mergeTwoLists(l1.next,l2);
+//         }else{
+//             newNode = l2;
+//             newNode.next = mergeTwoLists(l1,l2.next);
+//         }
+//         return newNode;
 
-        }
-}
+//         }
+// }

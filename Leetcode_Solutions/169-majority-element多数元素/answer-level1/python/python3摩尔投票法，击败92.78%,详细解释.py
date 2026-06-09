@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
          # major为当前还无法删除的元素，count为其个数。
@@ -21,4 +21,4 @@ class Solution:
             # 最后将能抵消的不同元素都抵消完了，剩下的major就一定是众数
         return  major
 
-```
+# ```

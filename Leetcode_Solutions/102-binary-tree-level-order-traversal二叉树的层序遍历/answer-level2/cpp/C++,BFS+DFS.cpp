@@ -1,7 +1,7 @@
 
-# BFS
+// # BFS
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -34,9 +34,9 @@ public:
     }
 };
 
-```
-# DFS
-```
+// ```
+// # DFS
+// ```
 class Solution {
 public:
     void dfs(TreeNode* root,int depth,vector<vector<int>>&res){
@@ -52,4 +52,4 @@ public:
         return res;
     }
 };
-```
+// ```

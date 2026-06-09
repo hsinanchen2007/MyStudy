@@ -1,5 +1,5 @@
-写一个辅助函数得到当前节点下一层的最左侧节点可以简化代码
-```
+// 写一个辅助函数得到当前节点下一层的最左侧节点可以简化代码
+// ```
 class Solution {
 public:
     Node* getNextLeftMost(Node* root) {
@@ -28,4 +28,4 @@ public:
         return rootCopy;
     }
 };
-```
+// ```

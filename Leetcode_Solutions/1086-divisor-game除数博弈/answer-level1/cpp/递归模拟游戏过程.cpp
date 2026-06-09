@@ -1,9 +1,9 @@
-### 解题思路
-按照规则模拟游戏，根据找到x的次数count来判断最终谁输谁赢：count为奇数则true，为偶数则false
+// ### 解题思路
+// 按照规则模拟游戏，根据找到x的次数count来判断最终谁输谁赢：count为奇数则true，为偶数则false
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -29,4 +29,4 @@ public:
 		}
 	}
 };
-```
+// ```

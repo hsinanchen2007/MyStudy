@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findBlackPixel(vector<vector<char>>& picture, int N) {
@@ -44,4 +44,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

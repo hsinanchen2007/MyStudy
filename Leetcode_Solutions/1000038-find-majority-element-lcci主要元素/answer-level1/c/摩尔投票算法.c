@@ -1,9 +1,9 @@
-### 解题思路
-没有思路，干就完事儿了
+// ### 解题思路
+// 没有思路，干就完事儿了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 //新技能get摩尔投票算法
 int majorityElement(int* nums, int numsSize){
@@ -26,4 +26,4 @@ for(i;i<numsSize;i++){
 return mar;
 
 }
-```
+// ```

@@ -1,5 +1,5 @@
-不管咋说，我感觉这个题转换为最长公共子序列我是没有想到的。哎
-```
+// 不管咋说，我感觉这个题转换为最长公共子序列我是没有想到的。哎
+// ```
 class Solution {
 public:
     int maxUncrossedLines(vector<int>& A, vector<int>& B) {
@@ -19,4 +19,4 @@ public:
         
     }
 };
-```
+// ```

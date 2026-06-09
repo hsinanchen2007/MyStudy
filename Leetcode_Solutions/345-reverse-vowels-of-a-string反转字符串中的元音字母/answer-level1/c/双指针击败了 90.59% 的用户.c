@@ -1,8 +1,8 @@
-### 解题思路
-双指针
-### 代码
+// ### 解题思路
+// 双指针
+// ### 代码
 
-```c
+// ```c
 char * reverseVowels(char * s){
     char *ps = s, *pe = s + strlen(s) - 1;
     char temp;
@@ -32,4 +32,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

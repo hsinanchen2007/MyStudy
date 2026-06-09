@@ -1,10 +1,10 @@
-### 解题思路
-![62.mp4](e8fef310-82ca-4b0d-a2ba-a64fe9045e86)
+// ### 解题思路
+// ![62.mp4](e8fef310-82ca-4b0d-a2ba-a64fe9045e86)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // class Solution {
 // public:
 //     int uniquePaths(int m, int n) {
@@ -30,4 +30,4 @@ public:
         return dp[n-1];
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-1. 关于复杂度
-   1.1 时间复杂度为O(n log n)
-   1.2 空间负责度为O(1)
-2. 我的解题思路
-   2.1 升序排列两个数组
-   2.2 判断当前cookie是否能满足孩子的需要
+// 1. 关于复杂度
+//    1.1 时间复杂度为O(n log n)
+//    1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//    2.1 升序排列两个数组
+//    2.2 判断当前cookie是否能满足孩子的需要
 
-<br/>
-### java实现
-```
+// <br/>
+// ### java实现
+// ```
 /**
  * Problem
  *      455. Assign Cookies
@@ -50,10 +50,10 @@ class Solution {
     }
 }
 
-```
-<br />
-### php实现
-```
+// ```
+// <br />
+// ### php实现
+// ```
 class Solution455{
 
     /**
@@ -88,7 +88,7 @@ class Solution455{
         return $i;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
 

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、就是一个移位操作
+// ### 解题思路
+// 此处撰写解题思路
+// 1、就是一个移位操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 uint32_t reverseBits(uint32_t n) {
     int num = 0;
     uint32_t results = 0;
@@ -17,4 +17,4 @@ uint32_t reverseBits(uint32_t n) {
 
     return results;
 }
-```
+// ```

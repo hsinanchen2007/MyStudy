@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+# ### 解题思路
+# 见注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from itertools import groupby
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
@@ -14,4 +14,4 @@ class Solution:
                 zflowerbed[i] = 1               # 中间种花
                 nmax += 1                       # 计数
         return nmax >= n                        # 判断能否种下n株
-```
+# ```

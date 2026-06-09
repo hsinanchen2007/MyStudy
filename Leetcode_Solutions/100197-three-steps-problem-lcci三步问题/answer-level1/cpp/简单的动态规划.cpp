@@ -1,9 +1,9 @@
-### 解题思路
-给大家一个公式应该就能明白了：f(n)=f(n-1)+f(n-2)+f(n-3)
+// ### 解题思路
+// 给大家一个公式应该就能明白了：f(n)=f(n-1)+f(n-2)+f(n-3)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int waysToStep(int n) {
@@ -24,4 +24,4 @@ public:
         return third;
     }
 };
-```
+// ```

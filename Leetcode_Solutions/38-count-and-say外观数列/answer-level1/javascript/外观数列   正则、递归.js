@@ -1,9 +1,9 @@
-### 解题思路
-正则 、 递归
+// ### 解题思路
+// 正则 、 递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -39,4 +39,4 @@ var handleSay = function(str) {
         return `${item.length}${item[0]}`
     }).join('')
 };
-```
+// ```

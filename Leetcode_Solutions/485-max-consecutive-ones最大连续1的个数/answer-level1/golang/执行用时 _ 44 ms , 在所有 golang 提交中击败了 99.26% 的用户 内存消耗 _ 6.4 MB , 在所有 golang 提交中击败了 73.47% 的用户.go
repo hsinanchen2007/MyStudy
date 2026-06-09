@@ -1,8 +1,8 @@
-思路：
-j指针找1，每找到一个1，自加。
-当j碰到非1时候，结算i与maxLen来决定是否更新最长长度。
+// 思路：
+// j指针找1，每找到一个1，自加。
+// 当j碰到非1时候，结算i与maxLen来决定是否更新最长长度。
 
-```
+// ```
 func findMaxConsecutiveOnes(nums []int) int {
 	numLen := len(nums)
 	jLimit := numLen - 1
@@ -26,6 +26,6 @@ func findMaxConsecutiveOnes(nums []int) int {
 	}
 	return maxLen
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/166906d9d5692fab4b7066998ba0045f631a8354a1a212465d9f3cf419648be4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/166906d9d5692fab4b7066998ba0045f631a8354a1a212465d9f3cf419648be4-image.png)

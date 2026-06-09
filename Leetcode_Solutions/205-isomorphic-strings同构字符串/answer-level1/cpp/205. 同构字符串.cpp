@@ -1,7 +1,7 @@
-## 两个哈希表相互映射
-**1. 哈希表as[]的下标代表s的字符，内容代表对应t的字符
-2. 哈希表at[]的下标代表t的字符，内容代表对应s的字符**
-```cpp
+// ## 两个哈希表相互映射
+// **1. 哈希表as[]的下标代表s的字符，内容代表对应t的字符
+// 2. 哈希表at[]的下标代表t的字符，内容代表对应s的字符**
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -24,10 +24,10 @@ public:
         return true;
     }
 };
-```
-## 比较字符第一次出现的索引值
-可能会费时，但不需要额外空间
-```cpp
+// ```
+// ## 比较字符第一次出现的索引值
+// 可能会费时，但不需要额外空间
+// ```cpp
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
@@ -38,4 +38,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-通过分析可以知道最短路径与最高频率的字母有着直接联系
-```
+// 通过分析可以知道最短路径与最高频率的字母有着直接联系
+// ```
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         if(tasks.length==0) return 0;
@@ -21,4 +21,4 @@ class Solution {
         return Math.max((n+1)*(max-1)+count,tasks.length);
     }
 }
-```
+// ```

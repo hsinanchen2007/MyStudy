@@ -1,9 +1,9 @@
-1. 原理不讲了，官方解释很详细
-2. 主要是 ++、-- 的用法
+// 1. 原理不讲了，官方解释很详细
+// 2. 主要是 ++、-- 的用法
 
 
-**简洁版 - 1**
-```java
+// **简洁版 - 1**
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i = 0;
@@ -14,11 +14,11 @@ class Solution {
         return i;
     }
 }
-```
-——————————————————————————————————————————————————
+// ```
+// ——————————————————————————————————————————————————
 
-**简洁版 - 2** *(若有疑惑，请往下看)*
-```java
+// **简洁版 - 2** *(若有疑惑，请往下看)*
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int len = nums.length;
@@ -29,13 +29,13 @@ class Solution {
         return len;
     }
 }
-```
-——————————————————————————————————————————————————
+// ```
+// ——————————————————————————————————————————————————
 
-##### 双指针 - *移除元素较少*
+// ##### 双指针 - *移除元素较少*
 
-- 官方版
-```java
+// - 官方版
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i = 0;
@@ -56,12 +56,12 @@ class Solution {
     // 1. n-1 和 n-- 能否合并？
     // 2. i++ 和 if(nums[i] == val) 能否合并？
 }
-```
+// ```
 
-——————————————————————————
+// ——————————————————————————
 
-- while (合并版)
-```java
+// - while (合并版)
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i = 0;
@@ -75,10 +75,10 @@ class Solution {
     // 思考：
     // 1. 变量i是否有操作的空间
 }
-```
+// ```
 
-- for (合并版)
-```java
+// - for (合并版)
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int len = nums.length;
@@ -89,4 +89,4 @@ class Solution {
         return len;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-力扣第一天第一题第二解 二倍哈希
+// ### 解题思路
+// 力扣第一天第一题第二解 二倍哈希
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -22,4 +22,4 @@ public:
         return {};
     }
 };
-```
+// ```

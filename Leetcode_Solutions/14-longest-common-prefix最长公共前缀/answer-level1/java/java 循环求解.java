@@ -1,10 +1,10 @@
-### 解题思路
-首先拿到最短的一个字符串，然后去匹配，如果有一个不匹配就将要匹配的字符串长度减一，继续匹配
-java小菜鸟，欢迎优化
+// ### 解题思路
+// 首先拿到最短的一个字符串，然后去匹配，如果有一个不匹配就将要匹配的字符串长度减一，继续匹配
+// java小菜鸟，欢迎优化
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

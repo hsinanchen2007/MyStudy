@@ -1,4 +1,4 @@
-```
+// ```
 class Solution 
 {
     public boolean isFlipedString(String s1, String s2) 
@@ -9,9 +9,9 @@ class Solution
         return s1.contains(s2);
     }
 }
-```
-更简洁的写法：
-```
+// ```
+// 更简洁的写法：
+// ```
 class Solution 
 {
     public boolean isFlipedString(String s1, String s2) 
@@ -19,4 +19,4 @@ class Solution
         return s1.equals(s2)||(s1.length()==s2.length()&&(s1+s1).contains(s2));
     }
 }
-```
+// ```

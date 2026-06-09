@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1 if matrix[i][j] == '1' else 0
-其中dp[i][j]表示以matrix[i][j]为右下角形成的正方形的边长
-### 代码
+// ### 解题思路
+// dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1 if matrix[i][j] == '1' else 0
+// 其中dp[i][j]表示以matrix[i][j]为右下角形成的正方形的边长
+// ### 代码
 
-```golang
+// ```golang
 func maximalSquare(matrix [][]byte) int {
     rows := len(matrix)
     if rows == 0{
@@ -62,4 +62,4 @@ func min(a, b, c int) int {
         return tmp
     }
 }
-```
+// ```

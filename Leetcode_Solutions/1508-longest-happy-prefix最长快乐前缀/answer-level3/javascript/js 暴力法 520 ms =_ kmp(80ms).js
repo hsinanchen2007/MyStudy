@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/a8d7c9f297378063379ecd01818d2d3f24a2106f7c2a3484a8a75135991c48bd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a8d7c9f297378063379ecd01818d2d3f24a2106f7c2a3484a8a75135991c48bd-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   KMP算法：就是求 s 的最长公共前后缀
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -59,4 +59,4 @@ var longestPrefix = function(s) {
   
   return ans;
 };
-```
+// ```

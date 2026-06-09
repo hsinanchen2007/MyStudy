@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/fbed4c77ce4098c780843ed279e80f46c8830d8506313f2f16c756c3b7b296e7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fbed4c77ce4098c780843ed279e80f46c8830d8506313f2f16c756c3b7b296e7-image.png)
 
 
 
-# 顺时针打印矩阵，其实可以把这个问题分解。
+// # 顺时针打印矩阵，其实可以把这个问题分解。
 
-1.  顺时针打印当前矩阵最外围的一圈
-2.  打印内部的子矩阵 (将子矩阵作为当前矩阵跳转到(1))
+// 1.  顺时针打印当前矩阵最外围的一圈
+// 2.  打印内部的子矩阵 (将子矩阵作为当前矩阵跳转到(1))
 
 
-所以这个问题可以递归求解，每次打印当前的矩阵最外围一圈的点。
+// 所以这个问题可以递归求解，每次打印当前的矩阵最外围一圈的点。
 
-```
+// ```
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list = new ArrayList<>();
@@ -44,4 +44,4 @@ class Solution {
         return helper(matrix, list, left+1, right-1, up+1, down-1);  // 递归解决子矩阵
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![1104.二叉树寻路.png](https://pic.leetcode-cn.com/67e2543c3480d4096ce9b76ae5441940a70f605dbdc7009e5ab7d079450c786e-1104.%E4%BA%8C%E5%8F%89%E6%A0%91%E5%AF%BB%E8%B7%AF.png)
+// ### 解题思路
+// ![1104.二叉树寻路.png](https://pic.leetcode-cn.com/67e2543c3480d4096ce9b76ae5441940a70f605dbdc7009e5ab7d079450c786e-1104.%E4%BA%8C%E5%8F%89%E6%A0%91%E5%AF%BB%E8%B7%AF.png)
 
-通过数学规律来得到节点的值，时间复杂度还行，代码已经写了注释，直接看代码即可
+// 通过数学规律来得到节点的值，时间复杂度还行，代码已经写了注释，直接看代码即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     //Solution的实例变量，用来动态的存储 当前 想要求得的 节点 的位置，下面注释有对nowLoc的详细解释
@@ -56,4 +56,4 @@ class Solution {
             : (maxNum - (int)Math.pow(2, depth) + nowLoc);
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-因子分解，两个因子分布在根的一左一右。因此从根的floor值往1去遍历
+// 因子分解，两个因子分布在根的一左一右。因此从根的floor值往1去遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> closestDivisors(int num) {
@@ -15,4 +15,4 @@ public:
         return {};
     }
 };
-```
+// ```

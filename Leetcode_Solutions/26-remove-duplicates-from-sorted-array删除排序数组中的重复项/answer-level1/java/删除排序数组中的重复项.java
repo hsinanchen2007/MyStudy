@@ -1,9 +1,9 @@
-### 解题思路
-此处使用两个指针一个指针用来遍历整个数组，一个数组用来将不重复的数组存储起来，最后两者之间间隔个数就是重复的数
+// ### 解题思路
+// 此处使用两个指针一个指针用来遍历整个数组，一个数组用来将不重复的数组存储起来，最后两者之间间隔个数就是重复的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums.length==1){
@@ -22,4 +22,4 @@ class Solution {
         return nums.length-j+i+1;
     }
 }
-```
+// ```

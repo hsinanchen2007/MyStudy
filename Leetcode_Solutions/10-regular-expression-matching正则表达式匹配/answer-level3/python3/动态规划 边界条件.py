@@ -1,10 +1,10 @@
-- 详细程序终止情况
-- p == '' and s == ''  true
-- p == '' and s!= '' false
-- s == '' and p!='': len(p)<2 or p[1] != '*' return false
--                   else: return ismatch(s,p[2:])
-- 注意测试 s='ab' p='.*'   s=a p='.*'   s=a p='c*ab*'等情况
-```
+# - 详细程序终止情况
+# - p == '' and s == ''  true
+# - p == '' and s!= '' false
+# - s == '' and p!='': len(p)<2 or p[1] != '*' return false
+# -                   else: return ismatch(s,p[2:])
+# - 注意测试 s='ab' p='.*'   s=a p='.*'   s=a p='c*ab*'等情况
+# ```
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         #specially s=''&p='.*'    s='a'&p='b*ac*' s='ab'&p='.*'  
@@ -22,4 +22,4 @@ class Solution:
             return self.isMatch(s,p[2:]) or (firstMatch and self.isMatch(s[1:],p))
         else:
             return firstMatch and self.isMatch(s[1:],p[1:])
-```
+# ```

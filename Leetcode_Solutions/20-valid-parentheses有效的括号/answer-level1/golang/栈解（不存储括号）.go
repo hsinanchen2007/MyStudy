@@ -1,6 +1,6 @@
-我看好多同学使用了map存储括号，其实利用括号的ASCII码值，更为便捷
+// 我看好多同学使用了map存储括号，其实利用括号的ASCII码值，更为便捷
 
-```
+// ```
 func isValid(s string) bool {
 	stack := make([]rune, 0)
 	for _, v := range s {
@@ -21,4 +21,4 @@ func isValid(s string) bool {
 	}
 	return false
 }
-```
+// ```

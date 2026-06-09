@@ -1,9 +1,9 @@
-## 思路一：递归
+// ## 思路一：递归
 
-## 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ## 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -17,14 +17,14 @@ public:
         return root;
     }
 }
-```
+// ```
 
-## 思路二：迭代
-类似深度优先。
-## 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ## 思路二：迭代
+// 类似深度优先。
+// ## 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -49,4 +49,4 @@ public:
         return root;
     }
 };
-```
+// ```

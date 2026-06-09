@@ -1,4 +1,4 @@
-其实就是一个简单的python切片的使用，废话少说，看代码：
+# 其实就是一个简单的python切片的使用，废话少说，看代码：
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:

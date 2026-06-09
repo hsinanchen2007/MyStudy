@@ -1,10 +1,10 @@
-### 解题思路
-先补齐位数
-验证a+b+进位除2的商  这里考虑多个相加的情况
+// ### 解题思路
+// 先补齐位数
+// 验证a+b+进位除2的商  这里考虑多个相加的情况
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} a
  * @param {string} b
@@ -37,4 +37,4 @@ var addBinary = function(a, b) {
     }
     return str
 };
-```
+// ```

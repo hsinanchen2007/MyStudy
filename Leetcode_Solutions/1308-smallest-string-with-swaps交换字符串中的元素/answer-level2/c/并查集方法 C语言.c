@@ -1,15 +1,15 @@
-### 解题思路
-1. 可交换的ID用并查集找出来；
-2. 将所有可交换的字符按father ID存到数组中，qsort之；
-3. 维护一组ID，表示输出过程中已经使用到的元素ID；
-3. 填写返回数组过程：遍历s,找到当前字符的father ID对应的qsort之后的数组，从头到尾取元素；
+// ### 解题思路
+// 1. 可交换的ID用并查集找出来；
+// 2. 将所有可交换的字符按father ID存到数组中，qsort之；
+// 3. 维护一组ID，表示输出过程中已经使用到的元素ID；
+// 3. 填写返回数组过程：遍历s,找到当前字符的father ID对应的qsort之后的数组，从头到尾取元素；
 
 
-【这题低空飞过，占用太多内存，时间复杂度是n^2 *logn。。。】
+// 【这题低空飞过，占用太多内存，时间复杂度是n^2 *logn。。。】
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -144,4 +144,4 @@ char * smallestStringWithSwaps(char * s, int** pairs, int pairsSize, int* pairsC
 	free(tmpArray);
 	return result;	
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         # 前缀和思想
@@ -20,4 +20,4 @@ class Solution:
                 res += preSum.get(sum_j)
             preSum[sum_i] = preSum.get(sum_i,0) + 1
         return res
-```
+# ```

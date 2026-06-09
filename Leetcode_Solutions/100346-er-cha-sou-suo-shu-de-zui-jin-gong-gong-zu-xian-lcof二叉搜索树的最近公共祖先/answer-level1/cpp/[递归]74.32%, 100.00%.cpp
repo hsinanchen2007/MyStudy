@@ -1,9 +1,9 @@
-### 解题思路
-当root在两节点之间找到，push到叶子还没找，木有就实锤了
+// ### 解题思路
+// 当root在两节点之间找到，push到叶子还没找，木有就实锤了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         return root;
     }
 };
-```
+// ```

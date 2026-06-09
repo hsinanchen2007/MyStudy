@@ -1,7 +1,7 @@
-思路：同精选题解
-一次遍历，维护最大值，当前最大值，当前最小值
-遇到负数则交换当前最大值和最小值
-```
+// 思路：同精选题解
+// 一次遍历，维护最大值，当前最大值，当前最小值
+// 遇到负数则交换当前最大值和最小值
+// ```
 int maxProduct(int* nums, int numsSize){
     int max = INT_MIN;
     int imax = 1;
@@ -18,4 +18,4 @@ int maxProduct(int* nums, int numsSize){
     }
     return max;
 }
-```
+// ```

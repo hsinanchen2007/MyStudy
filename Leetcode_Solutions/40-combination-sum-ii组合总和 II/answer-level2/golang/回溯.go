@@ -1,8 +1,8 @@
-### 解题思路
-模板题
-### 代码
+// ### 解题思路
+// 模板题
+// ### 代码
 
-```golang
+// ```golang
 func combinationSum2(candidates []int, target int) [][]int {
      sort.Ints(candidates)
      path:=make([]int,0)
@@ -30,4 +30,4 @@ func DFS(candidates []int,target int,path []int,res *[][]int,num int,b []bool){
        
     }
 }
-```
+// ```

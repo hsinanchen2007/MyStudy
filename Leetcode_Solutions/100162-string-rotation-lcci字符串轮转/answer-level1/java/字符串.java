@@ -1,9 +1,9 @@
-### 解题思路
-这一题前面有过类似的思想。添加一份查看是否有就行了。
+// ### 解题思路
+// 这一题前面有过类似的思想。添加一份查看是否有就行了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isFlipedString(String s1, String s2) {
         if(s1.length()!=s2.length())
@@ -16,4 +16,4 @@ class Solution {
         return s1.contains(s2);
     }
 }
-```
+// ```

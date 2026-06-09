@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         self._nums, self._target = nums, target
@@ -22,4 +22,4 @@ class Solution:
 
         self._bisearch(mid+1, right)
         self._bisearch(left, mid - 1)
-```
+# ```

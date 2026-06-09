@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a6c7cd2526c213e0e46ae383b909a847d2b0226c39c10411da3e9c07ef1e2608-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a6c7cd2526c213e0e46ae383b909a847d2b0226c39c10411da3e9c07ef1e2608-image.png)
 
-用了js的sort，桶排序和快速排序，桶排序略快4ms，三个基本差不多。
+// 用了js的sort，桶排序和快速排序，桶排序略快4ms，三个基本差不多。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 //  用JS库函数, 140 ms, 41.8 MB 
 var sortArray_lib = function (nums) {
     return nums.sort((a, b) => a - b);
@@ -44,4 +44,4 @@ const sortArray_quick = nums => {
     });
     return sortArray_quick(l).concat(pivot, sortArray_quick(r));
 }
-```
+// ```

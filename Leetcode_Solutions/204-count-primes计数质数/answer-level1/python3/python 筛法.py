@@ -1,10 +1,10 @@
-### 解题思路
-筛法，每次从i*i开始，因为2到i-1已经全部筛过，所以不从i*2开始筛（2的倍数也被筛过）
+# ### 解题思路
+# 筛法，每次从i*i开始，因为2到i-1已经全部筛过，所以不从i*2开始筛（2的倍数也被筛过）
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def countPrimes(self, n: int) -> int:

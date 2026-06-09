@@ -1,7 +1,7 @@
-***Talk is cheap. Show me the code.***
+// ***Talk is cheap. Show me the code.***
 
-### 1、BFS
-```cpp
+// ### 1、BFS
+// ```cpp
 class Solution {
 public:
     int confusingNumberII(int N) {
@@ -53,10 +53,10 @@ private:
     queue<int> q;
 };
 
-```
+// ```
 
-### DFS
-```cpp
+// ### DFS
+// ```cpp
 class Solution {
 public:
     int confusingNumberII(int N) {
@@ -115,9 +115,9 @@ private:
 	int result = 0;
 };
 
-```
-**题外话**：
-写第一种解法的时候用到了 goto，其实可以改成不用 goto 语句的，只是结构会显得比较难看，用 goto 就清爽多了。一直以来 goto 总是为人所诟病。在网上看到有人是这么评价 goto 的，我觉得很有趣：
+// ```
+// **题外话**：
+// 写第一种解法的时候用到了 goto，其实可以改成不用 goto 语句的，只是结构会显得比较难看，用 goto 就清爽多了。一直以来 goto 总是为人所诟病。在网上看到有人是这么评价 goto 的，我觉得很有趣：
 
-*Don't be afraid to use a goto if that is the best option.
-Two types of programmers use goto: Bad programmers, and pragmatic programmers.*
+// *Don't be afraid to use a goto if that is the best option.
+// Two types of programmers use goto: Bad programmers, and pragmatic programmers.*

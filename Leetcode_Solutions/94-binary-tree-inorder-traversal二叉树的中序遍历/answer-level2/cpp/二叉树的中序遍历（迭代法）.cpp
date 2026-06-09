@@ -1,5 +1,5 @@
-![QQ截图20191108162738.png](https://pic.leetcode-cn.com/862919ebaceadc49543a52a62098fdb16e424169e02b798520935ae64d4039d1-QQ%E6%88%AA%E5%9B%BE20191108162738.png)
-```
+// ![QQ截图20191108162738.png](https://pic.leetcode-cn.com/862919ebaceadc49543a52a62098fdb16e424169e02b798520935ae64d4039d1-QQ%E6%88%AA%E5%9B%BE20191108162738.png)
+// ```
 vector<int> inorderTraversal(TreeNode* root) {
     	/*
         	用cur指向当前遍历到的节点 对每个节点执行相同的操作
@@ -32,4 +32,4 @@ vector<int> inorderTraversal(TreeNode* root) {
 		
 		return vec;
     }
-```
+// ```

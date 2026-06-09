@@ -1,11 +1,11 @@
-### 解题思路
-先删除开头所有val节点
-第一个不等于val的节点固定为头结点
-双指针法删除后续值为val的点
+// ### 解题思路
+// 先删除开头所有val节点
+// 第一个不等于val的节点固定为头结点
+// 双指针法删除后续值为val的点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,4 +51,4 @@ class Solution {
     }
 
 }
-```
+// ```

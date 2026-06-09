@@ -1,6 +1,6 @@
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -17,4 +17,4 @@ public:
         return left;
     }
 };
-```
+// ```

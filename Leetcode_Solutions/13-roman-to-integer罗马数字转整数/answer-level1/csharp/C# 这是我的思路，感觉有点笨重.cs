@@ -1,10 +1,10 @@
-### 解题思路
-将 输入的 字符和自己的字典池比较，获取结果。。 
-![Snipaste_2019-12-13_10-19-27.png](https://pic.leetcode-cn.com/8136d95575fea0dc1e413f38af05ef3106cdcfa76b29e58290c336c79540ef44-Snipaste_2019-12-13_10-19-27.png)
-这是用.net 4.7做的测试。
-### 代码
+// ### 解题思路
+// 将 输入的 字符和自己的字典池比较，获取结果。。 
+// ![Snipaste_2019-12-13_10-19-27.png](https://pic.leetcode-cn.com/8136d95575fea0dc1e413f38af05ef3106cdcfa76b29e58290c336c79540ef44-Snipaste_2019-12-13_10-19-27.png)
+// 这是用.net 4.7做的测试。
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
       Dictionary<string, int> dic = new Dictionary<string, int>   {
             { "I",1 },
@@ -51,4 +51,4 @@ public class Solution {
             return values;
         }
 }
-```
+// ```

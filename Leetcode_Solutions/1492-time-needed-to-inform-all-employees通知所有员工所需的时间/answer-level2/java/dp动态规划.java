@@ -1,6 +1,6 @@
-动态规划，代码没几行。耗时12ms，空间56.8m
+// 动态规划，代码没几行。耗时12ms，空间56.8m
 
-```java
+// ```java
 class Solution {
     
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
@@ -32,4 +32,4 @@ class Solution {
     }
 }
 
-```
+// ```

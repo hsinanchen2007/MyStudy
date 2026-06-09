@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         ArrayList<Integer> res = new ArrayList<>();
@@ -43,5 +43,5 @@ class Solution {
         return n;
     }
 }
-```
-剑指offer 大数题 把保存代码改成打印代码就可以符合大数要求
+// ```
+// 剑指offer 大数题 把保存代码改成打印代码就可以符合大数要求

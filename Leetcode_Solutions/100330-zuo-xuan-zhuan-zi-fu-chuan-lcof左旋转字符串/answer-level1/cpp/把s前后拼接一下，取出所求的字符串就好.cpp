@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	string reverseLeftWords(string s, int n) {
@@ -6,4 +6,4 @@ public:
 		return res.substr(n, s.length());
 	}
 };
-```
+// ```

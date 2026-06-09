@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func binaryGap(N int) int {
     //判断 当前位置的前面 有没有 1，如果没有 就是false，出现过1就是true
 	flag:=false
@@ -31,4 +31,4 @@ func binaryGap(N int) int {
 	}
 	return res
 }
-```
+// ```

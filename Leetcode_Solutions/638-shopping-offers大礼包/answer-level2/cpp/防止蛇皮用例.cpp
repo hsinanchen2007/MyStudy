@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     int min_pay = INT32_MAX;
@@ -61,4 +61,4 @@ public:
         }
     }
 };
-```
+// ```

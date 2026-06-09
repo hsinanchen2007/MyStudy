@@ -1,9 +1,9 @@
-### 解题思路
-同67、989题类似
+// ### 解题思路
+// 同67、989题类似
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -27,4 +27,4 @@ public:
         return str;
     }
 };
-```
+// ```

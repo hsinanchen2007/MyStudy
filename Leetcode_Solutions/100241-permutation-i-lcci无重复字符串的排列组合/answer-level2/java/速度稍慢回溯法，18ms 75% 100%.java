@@ -1,11 +1,11 @@
-### 解题思路
-创建了一个判断矩阵used来判断是否前面用过这个字母了
-回溯法来一步步的找到没用过的字母迭代
-当所有字母都被用了，就可以加入list
+// ### 解题思路
+// 创建了一个判断矩阵used来判断是否前面用过这个字母了
+// 回溯法来一步步的找到没用过的字母迭代
+// 当所有字母都被用了，就可以加入list
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] permutation(String S) {
         if (S.length() == 0)
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

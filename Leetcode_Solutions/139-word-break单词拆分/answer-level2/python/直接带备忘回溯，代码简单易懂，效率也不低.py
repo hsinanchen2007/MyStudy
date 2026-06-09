@@ -1,9 +1,9 @@
-### 解题思路
-步进时按单词列表中出现的单词长度，从小到大进行尝试。
+# ### 解题思路
+# 步进时按单词列表中出现的单词长度，从小到大进行尝试。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import functools
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
@@ -19,4 +19,4 @@ class Solution:
                     if sol(pos+l) : return True
             return False
         return sol(0)
-```
+# ```

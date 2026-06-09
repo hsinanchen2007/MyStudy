@@ -1,9 +1,9 @@
-### 解题思路
-反转链接后相加，具体思路见注释
+// ### 解题思路
+// 反转链接后相加，具体思路见注释
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -73,4 +73,4 @@ public class Solution {
         return pre;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法，从左向右，维护一个最小值low，与每一天的股票价格做差，差最大的为答案
+// ### 解题思路
+// 贪心算法，从左向右，维护一个最小值low，与每一天的股票价格做差，差最大的为答案
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int maxP = 0;
@@ -17,4 +17,4 @@ class Solution {
         return maxP;
     }
 }
-```
+// ```

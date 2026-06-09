@@ -1,8 +1,8 @@
-### 解题思路
-核心思想，用LinkedHashSet的有序性缓存相同频率的时间差异，相同频率时后来的插入到尾部，移动所在频率的列表时候利用O(1)删除特性，移动到新频率列表。
-### 代码
+// ### 解题思路
+// 核心思想，用LinkedHashSet的有序性缓存相同频率的时间差异，相同频率时后来的插入到尾部，移动所在频率的列表时候利用O(1)删除特性，移动到新频率列表。
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     Map<Integer, Node> cache = new HashMap<>();
     //缓存 每个不同频率的节点列表，删除时直接删除最低频率的头节点。
@@ -99,4 +99,4 @@ class LFUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

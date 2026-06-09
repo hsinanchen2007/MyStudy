@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         return maxsum;
     }
 };
-```
+// ```

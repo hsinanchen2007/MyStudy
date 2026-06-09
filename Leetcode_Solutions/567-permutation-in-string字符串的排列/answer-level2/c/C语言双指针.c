@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 27
 
 bool check(int map1[], int map2[])
@@ -50,4 +50,4 @@ bool checkInclusion(char * s1, char * s2)
 }
 
 
-```
+// ```

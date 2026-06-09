@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         length = 0
@@ -19,4 +19,4 @@ class Solution:
         if length>=3:
             r.append([start, end])
         return r
-```
+# ```

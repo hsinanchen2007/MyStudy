@@ -1,9 +1,9 @@
-### 解题思路
-唉   脑子水分太多
+# ### 解题思路
+# 唉   脑子水分太多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
 
@@ -29,4 +29,4 @@ class Solution:
                     else: res = i
 
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-翻转、反转 一个循环
+// ### 解题思路
+// 翻转、反转 一个循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -34,4 +34,4 @@ public:
         return A;
     }
 };
-```
+// ```

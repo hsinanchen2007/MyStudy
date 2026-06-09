@@ -1,5 +1,5 @@
-# 第一思路
-```go
+// # 第一思路
+// ```go
 func isIsomorphic(s string, t string) bool {
   if len(s) != len(t) {
     return false
@@ -29,10 +29,10 @@ func isIsomorphic(s string, t string) bool {
   }
   return true
 }
-```
+// ```
 
-# 实现优化
-```go
+// # 实现优化
+// ```go
 func isIsomorphic(s string, t string) bool {
   if len(s) != len(t) {
     return false
@@ -53,4 +53,4 @@ func isIsomorphic(s string, t string) bool {
   }
   return true
 }
-```
+// ```

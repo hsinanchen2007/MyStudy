@@ -1,9 +1,9 @@
-按照题目意思这个题目应该进行如下操作:
-1. 从拿到手的箱子中看有哪些箱子能打开(这里的能打开分为两种情况一是已经打开二是没打开但是有钥匙)
-2. 从能打开的箱子中获得钥匙和新箱子
-3. 取糖果
-重复进行以上操作直到没有新箱子，同时获得的箱子都打不开
-```cpp
+// 按照题目意思这个题目应该进行如下操作:
+// 1. 从拿到手的箱子中看有哪些箱子能打开(这里的能打开分为两种情况一是已经打开二是没打开但是有钥匙)
+// 2. 从能打开的箱子中获得钥匙和新箱子
+// 3. 取糖果
+// 重复进行以上操作直到没有新箱子，同时获得的箱子都打不开
+// ```cpp
 class Solution {
 public:
     int maxCandies(vector<int>& status, vector<int>& candies, vector<vector<int>>& keys, vector<vector<int>>& containedBoxes, vector<int>& initialBoxes) {
@@ -51,4 +51,4 @@ public:
     }
 };
 
-```
+// ```

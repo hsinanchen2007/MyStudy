@@ -1,4 +1,4 @@
-```
+// ```
 func sumRootToLeaf(root *TreeNode) int {
 	num := 0
 	dfsSumRootToLeaf(root, 0, &num)
@@ -16,4 +16,4 @@ func dfsSumRootToLeaf(root *TreeNode, a int, b *int) {
 	dfsSumRootToLeaf(root.Left, a, b)
 	dfsSumRootToLeaf(root.Right, a, b)
 }
-```
+// ```

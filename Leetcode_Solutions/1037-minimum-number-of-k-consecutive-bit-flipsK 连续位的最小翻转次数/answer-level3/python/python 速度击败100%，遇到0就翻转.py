@@ -1,6 +1,6 @@
 
 
-```
+# ```
 class Solution(object):
     def minKBitFlips(self, A, K):
         """
@@ -25,4 +25,4 @@ class Solution(object):
 
         return ret
                 
-```
+# ```

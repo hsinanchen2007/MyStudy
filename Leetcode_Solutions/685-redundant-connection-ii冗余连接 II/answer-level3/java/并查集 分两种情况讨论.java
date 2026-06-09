@@ -1,5 +1,5 @@
-详见代码
-```
+// 详见代码
+// ```
 class Solution {
     int[] parent;   //各节点父节点
     public int[] findRedundantDirectedConnection(int[][] edges) {
@@ -60,4 +60,4 @@ class Solution {
         return n;
     }
 }
-```
+// ```

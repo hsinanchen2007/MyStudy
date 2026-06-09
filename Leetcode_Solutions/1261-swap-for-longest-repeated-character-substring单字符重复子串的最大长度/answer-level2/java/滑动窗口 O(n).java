@@ -1,7 +1,7 @@
 
-唯一的tip就是,使用了个total数组。
-每次求max的时候，不用再关心，我是用的哪个位置的字符进行的替换，只需要确保，总数是够的就行。
-例子：
+// 唯一的tip就是,使用了个total数组。
+// 每次求max的时候，不用再关心，我是用的哪个位置的字符进行的替换，只需要确保，总数是够的就行。
+// 例子：
 babbbcbbbab
 当index = 2, char c = 'b'的是否。
 遍历到c，需要进行替换，index = 0有个b， cbbbab中也有好多个b。
@@ -10,7 +10,7 @@ babbbcbbbab
 
 废话不多，直接上代码
 
-`
+// `
 public static int maxRepOpt1(String text) {
 
         int[] total = new int[26]; // 关键的地方。先记录下每个字母的出现次数
@@ -49,4 +49,4 @@ public static int maxRepOpt1(String text) {
         max = Math.max(max, Math.min(count, total[c-'a']));
         return max;
     }
-`
+// `

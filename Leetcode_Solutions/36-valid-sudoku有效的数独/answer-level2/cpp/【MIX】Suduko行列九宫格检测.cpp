@@ -1,9 +1,9 @@
-### 解题思路
-按照行列九宫格的次序依次检测
+// ### 解题思路
+// 按照行列九宫格的次序依次检测
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         boolean []used = new boolean[9];
@@ -49,8 +49,8 @@ class Solution {
             return used[ch-'1']=true;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         self.used = [False for _ in range(9)]
@@ -89,8 +89,8 @@ class Solution:
         else:
             self.used[int(ch)-1] = True
             return True
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -139,4 +139,4 @@ private:
         return true;
     }
 };
-```
+// ```

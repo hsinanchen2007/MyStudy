@@ -1,4 +1,4 @@
-```
+// ```
 func productExceptSelf(nums []int) []int {
 	var left = make([]int, len(nums))
 	var right = make([]int, len(nums))
@@ -19,4 +19,4 @@ func productExceptSelf(nums []int) []int {
 	return left
 }
 
-```
+// ```

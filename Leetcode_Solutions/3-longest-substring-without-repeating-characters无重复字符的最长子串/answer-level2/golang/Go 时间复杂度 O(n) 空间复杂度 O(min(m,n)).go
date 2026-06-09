@@ -1,4 +1,4 @@
-```go
+// ```go
 func lengthOfLongestSubstring(s string) int {
 	strTmp := make(map[byte]int)
 
@@ -22,4 +22,4 @@ func lengthOfLongestSubstring(s string) int {
 
 	return max
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var generate = function(numRows) {
     if (numRows < 1) {
         return []
@@ -27,4 +27,4 @@ var generate = function(numRows) {
     }
     return dp
 };
-```
+// ```

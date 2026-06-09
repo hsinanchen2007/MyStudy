@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-要点：当年份为闰年且月份大于2月的时候，天数才 + 1，否则直接返回结果
+// 要点：当年份为闰年且月份大于2月的时候，天数才 + 1，否则直接返回结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private final static int[] daysOfMouth = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
@@ -21,4 +21,4 @@ class Solution {
         return ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) && (mouth > 1) ? days + 1 : days;
     }
 }
-```
+// ```

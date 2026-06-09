@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/9c79d7af73c262286a8fe9f5edec5477fa42bca4a8c36a983d3a03d64776d853-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9c79d7af73c262286a8fe9f5edec5477fa42bca4a8c36a983d3a03d64776d853-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -140,4 +140,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     *returnSize = r.cnt;
     return r.rlt;
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-![image.png](https://pic.leetcode-cn.com/60aa4a4262e251ab0a77d9e1a0a4bf7f78056a8f1c124344e585de06d5fe178a-image.png)
-
-
+// ![image.png](https://pic.leetcode-cn.com/60aa4a4262e251ab0a77d9e1a0a4bf7f78056a8f1c124344e585de06d5fe178a-image.png)
 
 
-### 代码
 
-```cpp
+
+// ### 代码
+
+// ```cpp
 class Solution {
 public:
     //使用双指针交换字符  字符串    左边位置   右边位置
@@ -31,4 +31,4 @@ public:
         return s;
     }
 };
-```
+// ```

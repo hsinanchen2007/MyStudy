@@ -1,6 +1,6 @@
-遍历到某个节点时，能找到之前所有可能的连续路径和即可。
-空间换时间的思路下，用栈和用队列感觉上没啥区别。
-```
+# 遍历到某个节点时，能找到之前所有可能的连续路径和即可。
+# 空间换时间的思路下，用栈和用队列感觉上没啥区别。
+# ```
 from typing import List, Dict, Tuple, Deque
 
 
@@ -96,4 +96,4 @@ class Solution:
                 rtmp.append(node.right.val)
                 stack.append((node.right, rtmp))
         return ans
-```
+# ```

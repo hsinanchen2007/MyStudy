@@ -1,8 +1,8 @@
-其实自己第一手，也是用的dfs + 记忆数组的方式来做的，也是通过的，不过看题目的意思，用dp问题，
-也就是提示里面的 `dp[i] = 1 + max(dp[j])  i - d <= j <= i + d`, 约束条件
-不过要注意需要从最低的柱子往高的柱子，来填充dp数组
+// 其实自己第一手，也是用的dfs + 记忆数组的方式来做的，也是通过的，不过看题目的意思，用dp问题，
+// 也就是提示里面的 `dp[i] = 1 + max(dp[j])  i - d <= j <= i + d`, 约束条件
+// 不过要注意需要从最低的柱子往高的柱子，来填充dp数组
 
-```java
+// ```java
 class Solution {
     public  int maxJumps(int[] arr, int d) {
         int[] dp = new int[arr.length];
@@ -70,4 +70,4 @@ class Solution {
         }
     }
 }
-```
+// ```

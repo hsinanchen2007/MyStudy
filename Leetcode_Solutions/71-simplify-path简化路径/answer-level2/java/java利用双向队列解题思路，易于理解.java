@@ -1,4 +1,4 @@
-```
+// ```
 public String simplifyPath(String path) {
         String[] record = path.split("/");
          Deque<String> dir = new LinkedList<>();
@@ -25,4 +25,4 @@ public String simplifyPath(String path) {
         sb.delete(sb.length()-1,sb.length());
         return sb.toString();
     }
-```
+// ```

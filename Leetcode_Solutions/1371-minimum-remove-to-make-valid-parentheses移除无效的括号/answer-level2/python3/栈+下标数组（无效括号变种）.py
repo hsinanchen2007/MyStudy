@@ -1,10 +1,10 @@
-### 解题思路
-找到无效括号下标
-用有效下标重新组成字符串
+# ### 解题思路
+# 找到无效括号下标
+# 用有效下标重新组成字符串
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
         stack = []
@@ -24,4 +24,4 @@ class Solution:
             if invalid_index[i] == False:
                 res += s[i]
         return res
-```
+# ```

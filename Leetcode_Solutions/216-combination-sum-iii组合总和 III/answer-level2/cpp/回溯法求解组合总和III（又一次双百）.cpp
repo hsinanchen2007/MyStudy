@@ -1,10 +1,10 @@
-### 解题思路
-回溯法
-![捕获.JPG](https://pic.leetcode-cn.com/08a3fe638ee280ca0047241312592d3ab9b9178d868dc72a33b184cec34bcfcc-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 回溯法
+// ![捕获.JPG](https://pic.leetcode-cn.com/08a3fe638ee280ca0047241312592d3ab9b9178d868dc72a33b184cec34bcfcc-%E6%8D%95%E8%8E%B7.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<vector<int>> result;
@@ -28,4 +28,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遇到重复元素就删删删😀
+// ### 解题思路
+// 遇到重复元素就删删删😀
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return i;
     }
 };
-```
+// ```

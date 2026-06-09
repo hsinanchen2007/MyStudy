@@ -1,9 +1,9 @@
-### 解题思路
-python
+# ### 解题思路
+# python
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def floodFill(self, image, sr, sc, newColor):
         """
@@ -23,4 +23,4 @@ class Solution(object):
         if image[sr][sc]!=newColor:
             dfs(image,sr,sc,image[sr][sc],newColor)
         return image
-```
+# ```

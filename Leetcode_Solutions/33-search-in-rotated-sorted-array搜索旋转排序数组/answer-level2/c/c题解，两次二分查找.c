@@ -1,13 +1,13 @@
-```
+// ```
 执行结果：通过
 显示详情执行用时 :4 ms, 在所有 C 提交中击败了91.40%的用户
 内存消耗 :7.2 MB, 在所有 C 提交中击败了69.08%的用户
-```
-## 两次二分查找
-* 第一次，找转折点，即最小值
-* 第二次，看target是在最小值的左边或者右面，无论左边还是右边，都是递增数列
-## 怎么找到最小的值?
-```c
+// ```
+// ## 两次二分查找
+// * 第一次，找转折点，即最小值
+// * 第二次，看target是在最小值的左边或者右面，无论左边还是右边，都是递增数列
+// ## 怎么找到最小的值?
+// ```c
 void findMin(int* nums, int numsSize,int *addr){
   int *left=nums;
   int *right=nums+numsSize-1;
@@ -21,9 +21,9 @@ void findMin(int* nums, int numsSize,int *addr){
   }
   *addr=right-nums;
 }
-```
-## 全部代码如下
-```c
+// ```
+// ## 全部代码如下
+// ```c
 #include <stdio.h>
 void findMin(int* nums, int numsSize,int *addr){
   int *left=nums;
@@ -69,4 +69,4 @@ int search(int* nums, int numsSize, int target){
     return -1;
   }
 }
-```
+// ```

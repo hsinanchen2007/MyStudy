@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func equalSubstring(s string, t string, maxCost int) int {
     if len(s) == 0 {
         return 0
@@ -42,4 +42,4 @@ func abs(a,b byte) int {
     }
     return -result
 }
-```
+// ```

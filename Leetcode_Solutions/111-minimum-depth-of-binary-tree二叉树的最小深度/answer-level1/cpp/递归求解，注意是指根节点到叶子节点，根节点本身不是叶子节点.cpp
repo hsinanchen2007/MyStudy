@@ -1,9 +1,9 @@
-### 解题思路
-递归求解，注意是指根节点到叶子节点，根节点本身不是叶子节点
+// ### 解题思路
+// 递归求解，注意是指根节点到叶子节点，根节点本身不是叶子节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
                     return 1+minDepth(root->right);
     }
 };
-```
+// ```

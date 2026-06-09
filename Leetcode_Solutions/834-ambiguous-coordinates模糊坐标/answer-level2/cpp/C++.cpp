@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-h函数主要分为：split（将字符串分为两部分），valid和dotValid(分别检测不带小数点与带小数点的数是否合法)，addDot（将小数点插入数中）
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// h函数主要分为：split（将字符串分为两部分），valid和dotValid(分别检测不带小数点与带小数点的数是否合法)，addDot（将小数点插入数中）
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> res;
@@ -66,4 +66,4 @@ public:
         return res;
     }
 };
-```
+// ```

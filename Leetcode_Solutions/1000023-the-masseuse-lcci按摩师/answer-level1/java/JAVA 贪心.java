@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int massage(int[] nums) {
         if(nums.length == 0){
@@ -18,4 +18,4 @@ class Solution {
         return Math.max(count[nums.length - 1][0], count[nums.length - 1][1]);
     }
 }
-```
+// ```

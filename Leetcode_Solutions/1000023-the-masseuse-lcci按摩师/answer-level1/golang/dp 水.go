@@ -1,9 +1,9 @@
-### 解题思路
-dp就dp，非要卡个空数组。。
+// ### 解题思路
+// dp就dp，非要卡个空数组。。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func massage(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -29,4 +29,4 @@ func max(a, b int) int {
 	return b
 }
 
-```
+// ```

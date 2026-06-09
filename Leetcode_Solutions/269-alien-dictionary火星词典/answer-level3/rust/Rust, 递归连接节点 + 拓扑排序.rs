@@ -1,17 +1,17 @@
-将原始字符串数组转换为字符二维数组，依次进行：
+// 将原始字符串数组转换为字符二维数组，依次进行：
 
-- 生成空节点
-- 递归的连接节点
-    - 单次过程中的空白只能排在开始，否则非法
-    - 单次过程的前驱字符相同
-- 拓扑排序，若无变化时还有剩余则非法
+// - 生成空节点
+// - 递归的连接节点
+//     - 单次过程中的空白只能排在开始，否则非法
+//     - 单次过程的前驱字符相同
+// - 拓扑排序，若无变化时还有剩余则非法
 
-![图片.png](https://pic.leetcode-cn.com/8a2217aff7da0adc7cd023ba2b90f1efc2991633bd552df3349b5d03c52c2dd1-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/8a2217aff7da0adc7cd023ba2b90f1efc2991633bd552df3349b5d03c52c2dd1-%E5%9B%BE%E7%89%87.png)
 
-均超过 100%，可能是没有人用 rust 的原因？
+// 均超过 100%，可能是没有人用 rust 的原因？
 
 
-```rust
+// ```rust
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::iter::FromIterator;
@@ -121,4 +121,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

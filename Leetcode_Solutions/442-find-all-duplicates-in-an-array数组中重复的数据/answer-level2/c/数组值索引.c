@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 :
-124 ms, 在所有 C 提交中击败了90.12%的用户
-内存消耗 :
-18.2 MB, 在所有 C 提交中击败了100.00%的用户
-这题，貌似应该属于简单类啊。。
-### 代码
+// ### 解题思路
+// 执行用时 :
+// 124 ms, 在所有 C 提交中击败了90.12%的用户
+// 内存消耗 :
+// 18.2 MB, 在所有 C 提交中击败了100.00%的用户
+// 这题，貌似应该属于简单类啊。。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -35,4 +35,4 @@ int* findDuplicates(int* nums, int numsSize, int* returnSize){
     *returnSize = cnt;
     return out;
 }
-```
+// ```

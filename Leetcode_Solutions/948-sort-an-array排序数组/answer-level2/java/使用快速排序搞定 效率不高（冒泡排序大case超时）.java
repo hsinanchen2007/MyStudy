@@ -1,23 +1,23 @@
-### 解题思路
-此处撰写解题思路
-本来偷懒用冒泡排序 发现一个大的case超时 没法搞
-        int temp;        
-        for(int i=0;i<nums.length;i++){
-            for(int j=0;j<nums.length-i-1;j++){
-                if(nums[j]>nums[j+1]){
-                    temp=nums[j];
-                    nums[j]=nums[j+1];
-                    nums[j+1]=temp;
+// ### 解题思路
+// 此处撰写解题思路
+// 本来偷懒用冒泡排序 发现一个大的case超时 没法搞
+//         int temp;        
+//         for(int i=0;i<nums.length;i++){
+//             for(int j=0;j<nums.length-i-1;j++){
+//                 if(nums[j]>nums[j+1]){
+//                     temp=nums[j];
+//                     nums[j]=nums[j+1];
+//                     nums[j+1]=temp;
                    
-                }
-            }
-        }
+//                 }
+//             }
+//         }
 
-放弃了 使用了下面的 快速排序搞定 不过效率还是比较低下
+// 放弃了 使用了下面的 快速排序搞定 不过效率还是比较低下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> sortArray(int[] nums) {        
      quickSort(nums,0,nums.length-1);
@@ -62,4 +62,4 @@ class Solution {
     
 
 }
-```
+// ```

@@ -1,5 +1,5 @@
-随表写了一个，主要是遇到左括号进行递归。
-```
+// 随表写了一个，主要是遇到左括号进行递归。
+// ```
 class Solution {
 public:
     string skipSpae(string s){
@@ -68,4 +68,4 @@ public:
         return helper(s,0,n-1);
     }
 };
-```
+// ```

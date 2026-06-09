@@ -1,9 +1,9 @@
-### 解题思路
-求公约数是否大于1
+# ### 解题思路
+# 求公约数是否大于1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         return reduce(math.gcd, collections.Counter(deck).values()) > 1
@@ -20,4 +20,4 @@ class Solution:
         #     if all([c % i == 0 for c in counter]):
         #         return True
         # return False
-```
+# ```

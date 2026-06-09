@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class MinStack {
 
     var cache: [Int] = []
@@ -42,4 +42,4 @@ class MinStack {
  * let ret_3: Int = obj.top()
  * let ret_4: Int = obj.getMin()
  */
-```
+// ```

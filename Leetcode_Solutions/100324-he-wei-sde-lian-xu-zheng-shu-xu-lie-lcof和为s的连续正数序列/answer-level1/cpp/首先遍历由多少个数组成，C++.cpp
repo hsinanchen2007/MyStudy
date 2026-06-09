@@ -1,6 +1,6 @@
-这就是其它题解说的间隔法。
-！符号优先级更高，被这个bug卡出了一会儿
-```
+// 这就是其它题解说的间隔法。
+// ！符号优先级更高，被这个bug卡出了一会儿
+// ```
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -29,4 +29,4 @@ public:
     return result;
     }
 };
-```
+// ```

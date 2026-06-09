@@ -1,11 +1,11 @@
-### 解题思路
-暴力思路：
-1、先map计数
-2、在遍历values、看最大公约数是否 >= 2
+// ### 解题思路
+// 暴力思路：
+// 1、先map计数
+// 2、在遍历values、看最大公约数是否 >= 2
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if (deck.length < 2){
@@ -40,4 +40,4 @@ class Solution {
         return b == 0? a : gcd(b, a % b);
     }
 }
-```
+// ```

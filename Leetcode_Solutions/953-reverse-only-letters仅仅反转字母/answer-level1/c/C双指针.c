@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseOnlyLetters(char * S){
     int i = 0; 
     int j = strlen(S) - 1;
@@ -21,4 +21,4 @@ char * reverseOnlyLetters(char * S){
     }
     return S;
 }
-```
+// ```

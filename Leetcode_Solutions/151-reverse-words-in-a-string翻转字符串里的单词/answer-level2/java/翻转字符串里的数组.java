@@ -1,9 +1,9 @@
-### 解题思路
-#####注意分割空格的方法（一个或者多个）
+// ### 解题思路
+// #####注意分割空格的方法（一个或者多个）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
 
@@ -38,4 +38,4 @@ class Solution {
 
     }
 }
-```
+// ```

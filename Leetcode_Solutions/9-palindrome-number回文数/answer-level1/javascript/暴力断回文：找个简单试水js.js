@@ -1,7 +1,7 @@
 
-击败了 99.92% 的中文用户,faster than 67.81% of JavaScript online submissions。。。
+// 击败了 99.92% 的中文用户,faster than 67.81% of JavaScript online submissions。。。
 
-```javascript []
+// ```javascript []
 var isPalindrome = function(x) {
     var result =true;
     var str=x+"";
@@ -13,4 +13,4 @@ var isPalindrome = function(x) {
     }
     return result
 };
-```
+// ```

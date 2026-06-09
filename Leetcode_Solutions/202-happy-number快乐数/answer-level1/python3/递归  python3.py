@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-不快乐的数会出现无限循环，定义一个list存下每次计算的结果，如果结果二次出现，就返回false，如果出现结果为1，返回true
+# 不快乐的数会出现无限循环，定义一个list存下每次计算的结果，如果结果二次出现，就返回false，如果出现结果为1，返回true
 
-不过这个解法好像效率并不高
+# 不过这个解法好像效率并不高
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isHappy(self, n: int) -> bool:
         res_list = []
@@ -22,4 +22,4 @@ class Solution:
                 res_list.append(res)    
             return method(res)
         return method(n)
-```
+# ```

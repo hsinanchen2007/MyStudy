@@ -1,5 +1,5 @@
 
-```java
+// ```java
 public static void main(String[] args) {
 
     // 测试用例： [2, 1, 3] 1
@@ -13,9 +13,9 @@ public static void main(String[] args) {
 
     System.out.println(bst.findTarget(bst.root, 1));
 }
-```
-代码
-```java
+// ```
+// 代码
+// ```java
 import java.util.*;
 
 public class BST<E> {
@@ -126,4 +126,4 @@ public class BST<E> {
     }
 }
 
-```
+// ```

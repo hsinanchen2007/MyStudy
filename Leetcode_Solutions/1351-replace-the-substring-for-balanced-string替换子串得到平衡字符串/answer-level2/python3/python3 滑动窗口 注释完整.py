@@ -1,4 +1,4 @@
-```
+# ```
 def min(s) ->int:
     n = len(s)
     average = n //4
@@ -33,6 +33,6 @@ def min(s) ->int:
                 break
     return count
 
-```
+# ```
 
 

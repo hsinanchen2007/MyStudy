@@ -1,4 +1,4 @@
-```
+// ```
 char* compressString(char* S){
     if (!S || !strlen(S)) {
         return "";
@@ -42,4 +42,4 @@ char* compressString(char* S){
     
     return ans;
 }
-```
+// ```

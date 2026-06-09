@@ -1,4 +1,4 @@
-```
+# ```
 #
 # @lc app=leetcode.cn id=1186 lang=python
 #
@@ -40,4 +40,4 @@ if __name__ == '__main__':
     a = Solution()
     a = a.maximumSum([1,-2,0,3])
     print(a)
-```
+# ```

@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-大家好，我是 17
+// 大家好，我是 17
 
-1 先排序
-2 从前向后迭代，遇到交叉的就吃进，否则加到结果。
-3 最后收尾，把当前的区块加进来
+// 1 先排序
+// 2 从前向后迭代，遇到交叉的就吃进，否则加到结果。
+// 3 最后收尾，把当前的区块加进来
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number[][]}
@@ -32,4 +32,4 @@ var merge = function (intervals) {
   result.push(current)
   return result
 };
-```
+// ```

@@ -1,5 +1,5 @@
-方法一
-```
+// 方法一
+// ```
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -12,9 +12,9 @@ public:
         return count;
     }
 };
-```
-方法二 异或
-```
+// ```
+// 方法二 异或
+// ```
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -27,5 +27,5 @@ public:
         return count;
     }
 };
-```
+// ```
 

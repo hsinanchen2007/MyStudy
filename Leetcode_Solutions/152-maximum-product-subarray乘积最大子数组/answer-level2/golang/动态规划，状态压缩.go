@@ -1,9 +1,9 @@
-第一种解法：暴力求解（可能会超时）
+// 第一种解法：暴力求解（可能会超时）
 
-执行用时 :108 ms, 在所有 golang 提交中击败了11.00%的用户
-内存消耗 :2.7 MB, 在所有 golang 提交中击败了65.75%的用户
+// 执行用时 :108 ms, 在所有 golang 提交中击败了11.00%的用户
+// 内存消耗 :2.7 MB, 在所有 golang 提交中击败了65.75%的用户
 
-```
+// ```
 func maxProduct4(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -21,15 +21,15 @@ func maxProduct4(nums []int) int {
 	}
 	return res
 }
-```
+// ```
 
 
-第二种解法：DP
+// 第二种解法：DP
 
-执行用时 :4 ms, 在所有 Go 提交中击败了95.09%的用户
-内存消耗 :2.7 MB, 在所有 Go 提交中击败了63.01%的用户
+// 执行用时 :4 ms, 在所有 Go 提交中击败了95.09%的用户
+// 内存消耗 :2.7 MB, 在所有 Go 提交中击败了63.01%的用户
 
-```
+// ```
 func maxProduct(nums []int) int {
     temp0, temp1, res := nums[0], nums[0], nums[0]
 	for i:=0; i<len(nums)-1; i++ {
@@ -58,4 +58,4 @@ func min(a int, b int) int {
 	}
 	return a
 }
-```
+// ```

@@ -1,6 +1,6 @@
-正则去除本地+后面的所有内容和去掉.
-.replace(/(\+.*)|\./g,"");
-```
+// 正则去除本地+后面的所有内容和去掉.
+// .replace(/(\+.*)|\./g,"");
+// ```
     var numUniqueEmails = function(emails) {
         let res = [];
         let base = [];
@@ -14,4 +14,4 @@
         }
         return res.length;
     };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b7dbd2124504f81e56efff1fb9389e6344042045bfd24520e0b2a0895c8339ff-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b7dbd2124504f81e56efff1fb9389e6344042045bfd24520e0b2a0895c8339ff-image.png)
 
 
-```
+# ```
 '''
 分桶思想
 
@@ -46,4 +46,4 @@ class Solution:
         for i in range(len(buck_list) - 1):
             ans = max(ans, buck_list[i+1][0] - buck_list[i][1])
         return ans
-```
+# ```

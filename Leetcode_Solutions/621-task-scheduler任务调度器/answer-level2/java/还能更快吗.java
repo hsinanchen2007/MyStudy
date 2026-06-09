@@ -1,9 +1,9 @@
-### 解题思路
-牛皮
+// ### 解题思路
+// 牛皮
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int leastInterval(char[] tasks, int n) {
        int[] map = new int[26];
@@ -21,4 +21,4 @@ class Solution {
         return Math.max(res, tasks.length);
     }
 }
-```
+// ```

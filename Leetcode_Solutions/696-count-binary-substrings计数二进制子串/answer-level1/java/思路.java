@@ -1,9 +1,9 @@
-### 解题思路
- cur，pre分别记录当前字符，前一个字符的出现次数,每次分别比较是否可以重复
+// ### 解题思路
+//  cur，pre分别记录当前字符，前一个字符的出现次数,每次分别比较是否可以重复
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countBinarySubstrings(String s) {
         //初始化
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

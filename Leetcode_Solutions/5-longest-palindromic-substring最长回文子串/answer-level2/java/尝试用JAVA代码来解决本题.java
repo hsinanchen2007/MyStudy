@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-1.要返回回文字符串的话，必定要遍历该字符数组
-2.要符合回文字符串的要求，那么从本次遍历的字符往后数，必定会存在一样的字符，否则不符合要求
-3.假定本次遍历到的字符为f，调用getLastCharIndex方法，从后往前数，获取到多个f字符所在的下标
-4.根据本次遍历到的字符f所在的下标：i，和获取到的f字符的下标targetIndex,调用checkStringIsPalindrome方法，从两端往中间一个一个字符进行对比，对于任意的n>0且n<(targetIndex-n)/2都有符合cs[i+n]==cs[targerIndex-n]这个条件，那么该字符串是回文字符串
-5.如果调用了checkStringIsPalindrome方法并且返回为true，说明是回文字符串，并且该字符串比之前遍历到的要更长，就保存起来，进行下次遍历
+// ### 解题思路
+// 此处撰写解题思路
+// 1.要返回回文字符串的话，必定要遍历该字符数组
+// 2.要符合回文字符串的要求，那么从本次遍历的字符往后数，必定会存在一样的字符，否则不符合要求
+// 3.假定本次遍历到的字符为f，调用getLastCharIndex方法，从后往前数，获取到多个f字符所在的下标
+// 4.根据本次遍历到的字符f所在的下标：i，和获取到的f字符的下标targetIndex,调用checkStringIsPalindrome方法，从两端往中间一个一个字符进行对比，对于任意的n>0且n<(targetIndex-n)/2都有符合cs[i+n]==cs[targerIndex-n]这个条件，那么该字符串是回文字符串
+// 5.如果调用了checkStringIsPalindrome方法并且返回为true，说明是回文字符串，并且该字符串比之前遍历到的要更长，就保存起来，进行下次遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if ("".equals(s)){
@@ -80,4 +80,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-不用类库快了9ms 实际项目到底要不要用类库呢
+// 不用类库快了9ms 实际项目到底要不要用类库呢
 
 class Solution {
     public boolean isPalindrome(String s) {

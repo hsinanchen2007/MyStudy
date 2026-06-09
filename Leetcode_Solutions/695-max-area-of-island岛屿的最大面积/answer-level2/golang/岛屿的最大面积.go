@@ -1,9 +1,9 @@
-### 解题思路
-简单易懂暴力递归
+// ### 解题思路
+// 简单易懂暴力递归
 
-### 代码
-cpp
-```cpp
+// ### 代码
+// cpp
+// ```cpp
 class Solution {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -35,10 +35,10 @@ public:
         help(i,j-1,size,grid);
     }
 };
-```
+// ```
 
-go
-```go
+// go
+// ```go
 func maxAreaOfIsland(grid [][]int) int {
     row := len(grid);
     col := len(grid[0]);
@@ -74,4 +74,4 @@ func max(i int,j int) int {
     }
     return j
 }
-```
+// ```

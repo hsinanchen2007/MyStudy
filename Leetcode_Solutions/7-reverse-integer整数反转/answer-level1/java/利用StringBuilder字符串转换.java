@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1.定义一个long型整数
-2.使用StringBuilder前判断正负
-3.执行转换
+// 1.定义一个long型整数
+// 2.使用StringBuilder前判断正负
+// 3.执行转换
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         String tem = "0";
@@ -24,4 +24,4 @@ class Solution {
         return (int)i;
     }
 }
-```
+// ```

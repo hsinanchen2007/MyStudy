@@ -1,5 +1,5 @@
-去重判断条件：` (nums[i] not in nums[first:i])`
-```
+# 去重判断条件：` (nums[i] not in nums[first:i])`
+# ```
 def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         def backtrack(first=0):
             if first == n:
@@ -14,4 +14,4 @@ def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         results = []
         backtrack()
         return results
-```
+# ```

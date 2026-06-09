@@ -1,5 +1,5 @@
-# dfs
-```golang
+// # dfs
+// ```golang
 var res []int
 
 func preorder(root *Node) []int {
@@ -16,10 +16,10 @@ func dfs(root *Node)  {
         }
 	}
 }
-```
+// ```
 
-# dfs 迭代
-```golang
+// # dfs 迭代
+// ```golang
 func preorder(root *Node) []int {
 	var res []int
 	var stack = []*Node{root}
@@ -41,8 +41,8 @@ func preorder(root *Node) []int {
 	}
 	return res
 }
-```
+// ```
 
-#    
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// #    
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

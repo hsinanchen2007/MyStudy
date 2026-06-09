@@ -1,9 +1,9 @@
-### 解题思路
-同习题 [主站 343 题-343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
+# ### 解题思路
+# 同习题 [主站 343 题-343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def cuttingRope(self, n: int) -> int:
         if n ==2:
@@ -18,4 +18,4 @@ class Solution:
             n -= 3
         res *= n
         return res
-```
+# ```

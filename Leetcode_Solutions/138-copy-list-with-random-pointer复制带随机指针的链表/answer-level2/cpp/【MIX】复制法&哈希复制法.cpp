@@ -1,11 +1,11 @@
-### 解题思路
-1. 将new-old映射关系存储在hash map中
-2. 构建临时双链表, 返回备份链表
-3. 调用python内置函数
+// ### 解题思路
+// 1. 将new-old映射关系存储在hash map中
+// 2. 构建临时双链表, 返回备份链表
+// 3. 调用python内置函数
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 /*
 // Definition for a Node.
 class Node {
@@ -64,13 +64,13 @@ class Solution {
         return retHead;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         return copy.deepcopy(head)
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -100,4 +100,4 @@ public:
         return rec[head];
     }
 };
-```
+// ```

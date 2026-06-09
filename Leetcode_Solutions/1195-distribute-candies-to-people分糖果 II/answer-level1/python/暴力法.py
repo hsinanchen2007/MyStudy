@@ -1,11 +1,11 @@
-### 解题思路
-![WCVREYQGO~9FH\[05S)RBP}M.png](https://pic.leetcode-cn.com/e62ce25a6c108981e05b26f0762fb5a45610c7983c8f70e5fbef18c488c4625e-WCVREYQGO~9FH%5B05S\)RBP%7DM.png)
+# ### 解题思路
+# ![WCVREYQGO~9FH\[05S)RBP}M.png](https://pic.leetcode-cn.com/e62ce25a6c108981e05b26f0762fb5a45610c7983c8f70e5fbef18c488c4625e-WCVREYQGO~9FH%5B05S\)RBP%7DM.png)
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -36,4 +36,4 @@ class Solution(object):
         return ans
 
 
-```
+# ```

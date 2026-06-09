@@ -1,9 +1,9 @@
-### 解题思路
-单调栈
+// ### 解题思路
+// 单调栈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         if(height.length < 3) return 0;// 不足以构成V型，直接退出
@@ -22,4 +22,4 @@ class Solution {
         return total;
     }
 }
-```
+// ```

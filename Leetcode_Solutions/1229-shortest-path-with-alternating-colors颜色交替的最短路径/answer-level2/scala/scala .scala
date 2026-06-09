@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 import scala.collection.mutable
 object Solution {
     def shortestAlternatingPaths(n: Int, c1: Array[Array[Int]], c2: Array[Array[Int]]): Array[Int] = {
@@ -43,4 +43,4 @@ object Solution {
         (A zip B) map {case (x, y) => x min y } map {x => if(x == 10000) -1 else x}
     }
 }
-```
+// ```

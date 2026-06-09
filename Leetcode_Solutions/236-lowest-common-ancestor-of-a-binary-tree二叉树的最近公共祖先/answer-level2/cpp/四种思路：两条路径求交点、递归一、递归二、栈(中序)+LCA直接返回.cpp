@@ -1,6 +1,6 @@
-- 思路一：递归，先序遍历，DFS找到两条路径，求公共交点。
+// - 思路一：递归，先序遍历，DFS找到两条路径，求公共交点。
 
-```c++
+// ```c++
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -22,11 +22,11 @@ public:
         return false;
     }
 };
-```
+// ```
 
-- 思路二：递归，对每个节点对应的子树，若该子树不含有p或q，返回nullptr；否则，如果p和q分别位于当前子树根节点两侧，则返回当前节点，否则（p和q在同一侧，或者只有某一侧有p或q）返回来自左边或右边的LCA。
+// - 思路二：递归，对每个节点对应的子树，若该子树不含有p或q，返回nullptr；否则，如果p和q分别位于当前子树根节点两侧，则返回当前节点，否则（p和q在同一侧，或者只有某一侧有p或q）返回来自左边或右边的LCA。
 
-```c++
+// ```c++
 class Solution {
 public:
     //这种思路要求p、q一定要在树里，因为有可能找到一个节点p或q就返回了
@@ -38,11 +38,11 @@ public:
         return left ? left : right;
     }
 };
-```
+// ```
 
-- 思路三：递归，中序遍历，对每个节点，计算其左子树和右子树包含的p或q个数，并返回。第一个包含2个目标值的子树对应的根节点就是最低公共祖先。
+// - 思路三：递归，中序遍历，对每个节点，计算其左子树和右子树包含的p或q个数，并返回。第一个包含2个目标值的子树对应的根节点就是最低公共祖先。
 
-```c++
+// ```c++
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -65,11 +65,11 @@ public:
 private:
     TreeNode* ans = nullptr;
 };
-```
+// ```
 
-- 思路四：使用栈进行中序遍历，用LCA指针避免（找到p和q后）回溯。LCA指针始终指向`当前节点`和`第一个找到的p或q`的最低公共祖先。
+// - 思路四：使用栈进行中序遍历，用LCA指针避免（找到p和q后）回溯。LCA指针始终指向`当前节点`和`第一个找到的p或q`的最低公共祖先。
 
-```c++
+// ```c++
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -99,4 +99,4 @@ public:
         return nullptr;
     }
 };
-```
+// ```

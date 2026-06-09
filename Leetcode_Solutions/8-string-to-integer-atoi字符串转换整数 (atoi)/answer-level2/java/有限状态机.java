@@ -1,7 +1,7 @@
 
 
-模仿官方题解思路，用 java 抄了一遍
-```
+// 模仿官方题解思路，用 java 抄了一遍
+// ```
 class Solution {
     // status
     int START = 0 , SIGNED = 1, IN_NUM = 2, END = 3;
@@ -53,4 +53,4 @@ class Solution {
         return 3;
     }
 }
-```
+// ```

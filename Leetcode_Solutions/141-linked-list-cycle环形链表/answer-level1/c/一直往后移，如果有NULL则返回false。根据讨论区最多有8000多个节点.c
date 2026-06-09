@@ -1,4 +1,4 @@
-```c
+// ```c
 bool hasCycle(struct ListNode *head) {
     int i;
     for(i=0;i<9000;i++){
@@ -7,4 +7,4 @@ bool hasCycle(struct ListNode *head) {
     }
     return true;
 }
-```
+// ```

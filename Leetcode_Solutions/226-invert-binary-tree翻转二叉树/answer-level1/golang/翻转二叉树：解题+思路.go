@@ -1,9 +1,9 @@
-### 解题思路
-方法一：递归
+// ### 解题思路
+// 方法一：递归
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -22,4 +22,4 @@ func invertTree(root *TreeNode) *TreeNode {
     invertTree(root.Right)
     return root
 }
-```
+// ```

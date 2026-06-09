@@ -1,7 +1,7 @@
-核心判断逻辑都是去比较str[n]和str[n+1]的大小
-解法就是不停地比较，然后把剩下的字符串再递归。
+// 核心判断逻辑都是去比较str[n]和str[n+1]的大小
+// 解法就是不停地比较，然后把剩下的字符串再递归。
 
-```
+// ```
     private static HashMap<Character, Integer> map = new HashMap<>();
 
     public static int romanToInt(String s) {
@@ -30,4 +30,4 @@
             return sum + map.get(s.charAt(0)) + counting(s.substring(1), sum);
         }
     }
-```
+// ```

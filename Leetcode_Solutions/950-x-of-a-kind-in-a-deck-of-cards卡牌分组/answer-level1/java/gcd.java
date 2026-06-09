@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public boolean hasGroupsSizeX(int[] deck) {
     int[] count = new int[10000];
     for (int i: deck) {
@@ -22,4 +22,4 @@ public boolean hasGroupsSizeX(int[] deck) {
 int gcd(int a, int b) {
     return b == 0 ? a: gcd(b, a % b);
 }
-```
+// ```

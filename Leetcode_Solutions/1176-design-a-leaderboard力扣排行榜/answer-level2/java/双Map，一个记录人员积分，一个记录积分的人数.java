@@ -1,17 +1,17 @@
-### 解题思路
+// ### 解题思路
 
-1.一个Map作为playId和对应score的映射，找到对应人数的积分
-2.另一个TreeMap实现score的排序，和记录当前score上有多少个用户，然后统计top K
+// 1.一个Map作为playId和对应score的映射，找到对应人数的积分
+// 2.另一个TreeMap实现score的排序，和记录当前score上有多少个用户，然后统计top K
 
-因为TreeMap天生是一个二分有序，查找元素很快，每次从最大的开始，然后找前驱即可。
+// 因为TreeMap天生是一个二分有序，查找元素很快，每次从最大的开始，然后找前驱即可。
 
-效率方面，非常高效，10ms左右
-![1111.png](https://pic.leetcode-cn.com/3114ded9d02764147b2288c4eb8856eca4ab31c0bad0e9b0d5ce97fb05d7be3c-1111.png)
+// 效率方面，非常高效，10ms左右
+// ![1111.png](https://pic.leetcode-cn.com/3114ded9d02764147b2288c4eb8856eca4ab31c0bad0e9b0d5ce97fb05d7be3c-1111.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Leaderboard {
 
     // key 人员 value 分数
@@ -84,4 +84,4 @@ class Leaderboard {
  * int param_2 = obj.top(K);
  * obj.reset(playerId);
  */
-```
+// ```

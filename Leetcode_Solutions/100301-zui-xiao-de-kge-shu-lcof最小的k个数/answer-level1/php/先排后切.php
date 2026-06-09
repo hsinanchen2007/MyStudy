@@ -1,9 +1,9 @@
-### 解题思路
-不知道说些什么
+// ### 解题思路
+// 不知道说些什么
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -16,4 +16,4 @@ class Solution {
         return array_slice($arr,0,$k);
     }
 }
-```
+// ```

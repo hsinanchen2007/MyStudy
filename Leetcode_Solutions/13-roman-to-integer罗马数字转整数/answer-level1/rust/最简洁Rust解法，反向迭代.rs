@@ -1,5 +1,5 @@
-灵机一动想出来的，用byte达到最高效率，反向迭代，若上一数字大于当前数字则减去，反之则加
-```rust
+// 灵机一动想出来的，用byte达到最高效率，反向迭代，若上一数字大于当前数字则减去，反之则加
+// ```rust
 pub fn roman_to_int(s: String) -> i32 {
     let mut res = 0;
     let mut last = 0;
@@ -13,4 +13,4 @@ pub fn roman_to_int(s: String) -> i32 {
     }
     res
 }
-```
+// ```

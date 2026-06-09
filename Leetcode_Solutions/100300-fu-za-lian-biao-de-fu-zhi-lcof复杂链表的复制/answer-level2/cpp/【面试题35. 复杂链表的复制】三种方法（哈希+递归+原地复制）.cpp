@@ -1,10 +1,10 @@
-## 思路一：哈希
-借助哈希保存节点信息。
+// ## 思路一：哈希
+// 借助哈希保存节点信息。
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```cpp
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -27,14 +27,14 @@ public:
         return ump[head];
     }
 };
-```
+// ```
 
-## 思路二：递归
+// ## 思路二：递归
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     Node* copyRandomList(Node* head) {        
@@ -51,17 +51,17 @@ public:
         return ump[head];
     }
 };
-```
+// ```
 
-## 思路三：原地复制
-1. 复制节点，同时将复制节点链接到原节点后面，如A->B->C 变为 A->A'->B->B'->C->C'。
-2. 设置节点random值。
-3. 将复制链表从原链表分离。
+// ## 思路三：原地复制
+// 1. 复制节点，同时将复制节点链接到原节点后面，如A->B->C 变为 A->A'->B->B'->C->C'。
+// 2. 设置节点random值。
+// 3. 将复制链表从原链表分离。
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(1)
-```c++
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     Node* copyRandomList(Node* head) {        
@@ -96,5 +96,5 @@ public:
         return newHead;
     }
 };
-```
+// ```
 

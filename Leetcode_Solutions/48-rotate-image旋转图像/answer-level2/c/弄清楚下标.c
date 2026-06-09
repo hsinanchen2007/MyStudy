@@ -1,9 +1,9 @@
-### 解题思路
-就是一圈一圈的转换，搞明白下标什么都好说。
+// ### 解题思路
+// 就是一圈一圈的转换，搞明白下标什么都好说。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize) {
 	int d = matrixSize - 1 ;
 	for (int i = 0; i <matrixSize/2; ++i)
@@ -19,4 +19,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize) {
 		d -= 2;
 	}
 }
-```
+// ```

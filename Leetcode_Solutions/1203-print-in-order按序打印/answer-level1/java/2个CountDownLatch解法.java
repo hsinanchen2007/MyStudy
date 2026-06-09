@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-使用2个CDL类，分别在2、3线程使用线程等待。
-感觉使用volatile速度要更快一些，毕竟只用了一个变量。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用2个CDL类，分别在2、3线程使用线程等待。
+// 感觉使用volatile速度要更快一些，毕竟只用了一个变量。
+// ### 代码
 
-```java
+// ```java
 class Foo {
     CountDownLatch c = new CountDownLatch(1);
 CountDownLatch c2 = new CountDownLatch(1);
@@ -34,4 +34,4 @@ CountDownLatch c2 = new CountDownLatch(1);
         printThird.run();
     }
 }
-```
+// ```

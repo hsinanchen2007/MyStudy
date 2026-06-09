@@ -1,9 +1,9 @@
-### 解题思路
-利用数字遍历，中心扩展
+// ### 解题思路
+// 利用数字遍历，中心扩展
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String longestPalindrome(String s) {
         if(null == s || s.length()<=1){
@@ -42,4 +42,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

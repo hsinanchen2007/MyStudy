@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         # corner case
@@ -19,4 +19,4 @@ class Solution:
             res = max(res, pos_val)
         return res
 
-```
+# ```

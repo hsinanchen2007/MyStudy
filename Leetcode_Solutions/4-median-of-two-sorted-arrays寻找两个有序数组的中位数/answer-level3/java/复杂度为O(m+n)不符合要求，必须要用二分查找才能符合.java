@@ -1,9 +1,9 @@
-### 解题思路
-归并最后一次排序，两个有序数组
+// ### 解题思路
+// 归并最后一次排序，两个有序数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m=nums1.length;
@@ -44,4 +44,4 @@ class Solution {
         return t;
     }
 }
-```
+// ```

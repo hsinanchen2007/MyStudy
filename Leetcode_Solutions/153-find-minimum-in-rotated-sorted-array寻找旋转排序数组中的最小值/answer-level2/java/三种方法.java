@@ -1,6 +1,6 @@
-三种方法，逐步优化
+// 三种方法，逐步优化
 
-``` java
+// ``` java
 //第一种方法，时间复杂度o(nlogn)
 class Solution {
     public int findMin(int[] nums) {
@@ -43,4 +43,4 @@ class Solution {
     }
 }
 
-```
+// ```

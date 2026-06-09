@@ -1,15 +1,15 @@
-[695.岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/submissions/)
+// [695.岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## DFS
+// ## DFS
 
-岛屿类的问题一般可以直接套用公式，这道题就是岛屿类问题DFS的一道常规解法。用一个`flagArr`来表示当前位置是否被访问过，然后四个方向分别遍历。
+// 岛屿类的问题一般可以直接套用公式，这道题就是岛屿类问题DFS的一道常规解法。用一个`flagArr`来表示当前位置是否被访问过，然后四个方向分别遍历。
 
 
-相同的题目可以参考[200.岛屿数量](https://leetcode-cn.com/problems/number-of-islands/submissions/)。
+// 相同的题目可以参考[200.岛屿数量](https://leetcode-cn.com/problems/number-of-islands/submissions/)。
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -50,13 +50,13 @@ function DFS(grid, flagArr, directionArr, row, col, rows, cols) {
     }
     return area;
 }
-```
+// ```
 
-## 取巧的做法
+// ## 取巧的做法
 
-直接修改原数组。
+// 直接修改原数组。
 
-```
+// ```
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -85,4 +85,4 @@ var maxAreaOfIsland = function(grid) {
                 + DFS(row, col - 1);
     }
 };
-```
+// ```

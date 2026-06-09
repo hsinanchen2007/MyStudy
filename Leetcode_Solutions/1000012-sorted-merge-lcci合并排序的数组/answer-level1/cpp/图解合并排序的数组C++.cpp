@@ -1,10 +1,10 @@
-### 解题思路
-![...题 10.01. 合并排序的数组.mp4](db33f3f6-b537-47a6-b7c4-0fa56a45f306)
+// ### 解题思路
+// ![...题 10.01. 合并排序的数组.mp4](db33f3f6-b537-47a6-b7c4-0fa56a45f306)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -19,4 +19,4 @@ public:
         }
     }
 };
-```
+// ```

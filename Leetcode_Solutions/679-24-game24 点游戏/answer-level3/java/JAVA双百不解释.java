@@ -1,10 +1,10 @@
-### 解题思路
-自己看不解释，双百
-![1578992434(1).jpg](https://pic.leetcode-cn.com/671a8475b951b0a90772aeb35def7278e0f206208593218aab1cc72358bd8437-1578992434\(1\).jpg)
+// ### 解题思路
+// 自己看不解释，双百
+// ![1578992434(1).jpg](https://pic.leetcode-cn.com/671a8475b951b0a90772aeb35def7278e0f206208593218aab1cc72358bd8437-1578992434\(1\).jpg)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean judgePoint24(int[] nums) {
         if(nums[0]==1&&nums[1]==2&&nums[2]==1&&nums[3]==2) return false;
@@ -16,4 +16,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 // Time Complexity: O(n), Space Complexity: O(1)
 func deleteDuplicates(head *ListNode) *ListNode {
     // 如果整个链表的值都是重复的，也可以方便的返回空链表
@@ -20,4 +20,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
     return dummy.Next
 }
 
-```
+// ```

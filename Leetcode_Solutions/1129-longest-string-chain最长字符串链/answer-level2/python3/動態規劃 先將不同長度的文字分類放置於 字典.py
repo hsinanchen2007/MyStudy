@@ -1,12 +1,12 @@
-### 解题思路
-動態規劃 先將不同長度的文字分類放置於 字典
-再將 N長度的文字與 N-1長度的文字 進行比較
-如果發生符合條件的 情況 就將 組成詞鍊的長度加一
-最後取出最長的數值
+# ### 解题思路
+# 動態規劃 先將不同長度的文字分類放置於 字典
+# 再將 N長度的文字與 N-1長度的文字 進行比較
+# 如果發生符合條件的 情況 就將 組成詞鍊的長度加一
+# 最後取出最長的數值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
         content_w = collections.defaultdict(list)
@@ -46,4 +46,4 @@ class Solution:
 
 
 
-```
+# ```

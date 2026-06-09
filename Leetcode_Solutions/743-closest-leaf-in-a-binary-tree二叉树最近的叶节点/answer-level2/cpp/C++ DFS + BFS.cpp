@@ -1,8 +1,8 @@
-# 思路：
-1，先深度优先搜索获取每一个点的父节点
-2，后广度优先搜索获取结果
+// # 思路：
+// 1，先深度优先搜索获取每一个点的父节点
+// 2，后广度优先搜索获取结果
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     map<TreeNode*, TreeNode*> parents;
@@ -53,5 +53,5 @@ public:
         return bfs(src);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/f41736dac3c456fe264828f5241bdaf3be0034cdd0684d84a4be6d0f5be84dff-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/f41736dac3c456fe264828f5241bdaf3be0034cdd0684d84a4be6d0f5be84dff-image.png)

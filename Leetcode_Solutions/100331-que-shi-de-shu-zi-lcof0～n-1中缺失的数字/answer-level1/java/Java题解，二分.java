@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int missingNumber(int[] nums) {
         int low = 0;
@@ -14,4 +14,4 @@ class Solution {
         return low;
     }
 }
-```
+// ```

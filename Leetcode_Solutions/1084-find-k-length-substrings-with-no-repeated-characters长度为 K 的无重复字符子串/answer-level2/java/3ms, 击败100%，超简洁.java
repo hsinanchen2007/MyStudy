@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numKLenSubstrNoRepeats(String s, int k) {
         int[] map = new int[26];
@@ -12,4 +12,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

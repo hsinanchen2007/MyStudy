@@ -1,4 +1,4 @@
-```py
+# ```py
 class MyStack(object):  #  镜像题目 232 225
     # 用队列来是实现　栈
     #　比栈实现实现队列　简单很多。　
@@ -47,4 +47,4 @@ class MyStack(object):  #  镜像题目 232 225
         # return not bool(self._queue)
         return not len(self._queue)  # 非零长度的 就是 empty
  
-```
+# ```

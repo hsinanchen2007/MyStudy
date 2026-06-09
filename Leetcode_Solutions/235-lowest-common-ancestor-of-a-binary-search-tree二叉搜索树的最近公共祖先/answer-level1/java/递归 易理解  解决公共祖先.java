@@ -1,13 +1,13 @@
-### 解题思路
-递归
-若 root的值在 p q之间 即p q 在root的两侧 则root为所求公共祖先
-若 root的值大于 max(p.val,q.val) 所求公共祖先在root的左侧 ->递归求解 ；否则 所求公共祖先在root的右侧 ->递归求解
+// ### 解题思路
+// 递归
+// 若 root的值在 p q之间 即p q 在root的两侧 则root为所求公共祖先
+// 若 root的值大于 max(p.val,q.val) 所求公共祖先在root的左侧 ->递归求解 ；否则 所求公共祖先在root的右侧 ->递归求解
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
         else return lowestCommonAncestor(root.right, p, q);
     }
 }
-```
+// ```

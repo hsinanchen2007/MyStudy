@@ -1,8 +1,8 @@
-编写next函数的时候需要特别注意，先取出栈顶值，再调用迭代函数。否则，在遇到空的嵌套列表时就会出错。
-例如`[[1],[]]`，flatten保证`1`位于栈顶；取出1；
-此时栈内存储了一个空列表，hasNext会返回True，因此进行第二次调用；flatten后栈为空，pop出错。
+# 编写next函数的时候需要特别注意，先取出栈顶值，再调用迭代函数。否则，在遇到空的嵌套列表时就会出错。
+# 例如`[[1],[]]`，flatten保证`1`位于栈顶；取出1；
+# 此时栈内存储了一个空列表，hasNext会返回True，因此进行第二次调用；flatten后栈为空，pop出错。
 
-```
+# ```
 class NestedIterator(object):
     
     def __init__(self, nestedList):
@@ -33,4 +33,4 @@ class NestedIterator(object):
         :rtype: bool
         """
         return len(self.stack) != 0
-```
+# ```

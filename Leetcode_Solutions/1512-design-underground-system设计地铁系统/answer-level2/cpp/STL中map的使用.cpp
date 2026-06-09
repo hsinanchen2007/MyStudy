@@ -1,8 +1,8 @@
-* 两个map
-* map<string, map<int, int>> 保存入栈记录，对应的信息是 map<站名stationName，map<用户id，进站时间t>>
-* map<string, map<int, int>> 保存出栈的记录，对应的信息和上述一样
+// * 两个map
+// * map<string, map<int, int>> 保存入栈记录，对应的信息是 map<站名stationName，map<用户id，进站时间t>>
+// * map<string, map<int, int>> 保存出栈的记录，对应的信息和上述一样
 
-```C++
+// ```C++
 
 class UndergroundSystem {
 public:
@@ -38,4 +38,4 @@ double UndergroundSystem::getAverageTime(string startStation, string endStation)
     return double(total) / (double)cnt;
 }
 
-```
+// ```

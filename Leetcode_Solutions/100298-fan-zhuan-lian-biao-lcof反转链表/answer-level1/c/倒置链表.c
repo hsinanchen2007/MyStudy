@@ -1,9 +1,9 @@
-### 解题思路
-第三次做此题
+// ### 解题思路
+// 第三次做此题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ struct ListNode* reverseList(struct ListNode* head){
     free(newHead);
     return head;
 }
-```
+// ```

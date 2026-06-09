@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         # 查找k时保持不动的p位数字
@@ -26,4 +26,4 @@ class Solution:
                 ans.append(num_list.pop(j))
                 k %= m
         return ''.join(map(str, ans))
-```
+# ```

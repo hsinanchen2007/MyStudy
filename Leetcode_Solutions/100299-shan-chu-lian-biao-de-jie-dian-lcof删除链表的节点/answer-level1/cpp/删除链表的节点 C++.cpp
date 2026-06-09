@@ -1,9 +1,9 @@
-### 解题思路
-参考[C++ 使用 dummy 节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/c-shi-yong-dummy-jie-dian-by-dexin/)
+// ### 解题思路
+// 参考[C++ 使用 dummy 节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/c-shi-yong-dummy-jie-dian-by-dexin/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return dump -> next;
     }
 };
-```
+// ```

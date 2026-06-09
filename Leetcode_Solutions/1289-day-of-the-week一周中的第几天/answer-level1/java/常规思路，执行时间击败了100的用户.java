@@ -1,13 +1,13 @@
-### 解题思路
-1、设置一个num变量计算总天数
-2、计算71年到现在经过的所有年份的天数，闰年366.平年365，加到num中
-3、计算1月到现在每个月的总天数，加到num中
-4、num中加上day
-5、将num转化为星期即可
+// ### 解题思路
+// 1、设置一个num变量计算总天数
+// 2、计算71年到现在经过的所有年份的天数，闰年366.平年365，加到num中
+// 3、计算1月到现在每个月的总天数，加到num中
+// 4、num中加上day
+// 5、将num转化为星期即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String dayOfTheWeek(int day, int month, int year) {
          int num=0;
@@ -31,4 +31,4 @@ class Solution {
 	         return ans_day[(num+4)%7];
     }
 }
-```
+// ```

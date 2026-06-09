@@ -1,5 +1,5 @@
-# 二分
-```cpp
+// # 二分
+// ```cpp
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -11,9 +11,9 @@ public:
         return ans;
     }
 };
-```
-# 倒序
-```cpp
+// ```
+// # 倒序
+// ```cpp
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

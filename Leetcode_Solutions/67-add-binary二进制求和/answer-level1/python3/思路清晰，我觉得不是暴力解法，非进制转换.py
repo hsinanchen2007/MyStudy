@@ -1,7 +1,7 @@
-思路：
-1、先将字符串转为数字求和
-2、在列表里面操作进位，其中留下第0位做拼接判断
-```
+# 思路：
+# 1、先将字符串转为数字求和
+# 2、在列表里面操作进位，其中留下第0位做拼接判断
+# ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         num = int(a) + int(b)  # 先加起来
@@ -26,4 +26,4 @@ class Solution:
         for num in temp:
             s += str(num)
         return s
-```
+# ```

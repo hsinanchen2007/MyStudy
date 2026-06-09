@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func minDistance(word1 string, word2 string) int {
 	l1,l2 := len(word1),len(word2)
@@ -51,4 +51,4 @@ func oneEditAway(first string, second string) bool {
 	return minDistance(first,second)<2
 }
 
-```
+// ```

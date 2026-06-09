@@ -1,6 +1,6 @@
-字符串简单操作。
+// 字符串简单操作。
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         StringBuilder sb = new StringBuilder();
@@ -14,4 +14,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

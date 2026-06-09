@@ -1,9 +1,9 @@
-### 解题思路
-python的any好用
+# ### 解题思路
+# python的any好用
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def tictactoe(self, board: List[str]) -> str:
         n = len(board)
@@ -13,4 +13,4 @@ class Solution:
             if ''.join([board[r][r] for r in range(n)]) == char * n: return char
             if ''.join([board[r][n - r - 1] for r in range(n)]) == char * n: return char
         return 'Pending' if any(' ' in b for b in board) else 'Draw'
-```
+# ```

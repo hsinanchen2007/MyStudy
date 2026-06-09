@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
         return s
             
 
-```
+# ```

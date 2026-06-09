@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func search(reader ArrayReader, target int) int {
@@ -16,4 +16,4 @@ func search(reader ArrayReader, target int) int {
 	}
 	return -1
 }
-```
+// ```

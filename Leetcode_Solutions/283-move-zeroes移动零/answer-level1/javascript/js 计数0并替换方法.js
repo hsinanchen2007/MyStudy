@@ -1,5 +1,5 @@
-统计零的个数，当零的个数大于0且遇上不等于0的将之向前替换；最后替换结束，数组中还缺少count0个0，逆序替换为0
-```
+// 统计零的个数，当零的个数大于0且遇上不等于0的将之向前替换；最后替换结束，数组中还缺少count0个0，逆序替换为0
+// ```
 var moveZeroes0 = function(nums) {
     let len = nums.length
     if(len <= 1) return nums
@@ -20,4 +20,4 @@ var moveZeroes0 = function(nums) {
         }
     }
 };
-```
+// ```

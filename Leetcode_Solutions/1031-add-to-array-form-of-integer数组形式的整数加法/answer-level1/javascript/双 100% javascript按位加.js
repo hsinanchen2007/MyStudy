@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 : 112 ms, 在所有 JavaScript 提交中击败了 100.00% 的用户
-内存消耗 : 38.2 MB , 在所有 JavaScript 提交中击败了 100.00% 的用户
+// ### 解题思路
+// 执行用时 : 112 ms, 在所有 JavaScript 提交中击败了 100.00% 的用户
+// 内存消耗 : 38.2 MB , 在所有 JavaScript 提交中击败了 100.00% 的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} K
@@ -28,4 +28,4 @@ var addToArrayForm = function (A, K) {
   }
 
 };
-```
+// ```

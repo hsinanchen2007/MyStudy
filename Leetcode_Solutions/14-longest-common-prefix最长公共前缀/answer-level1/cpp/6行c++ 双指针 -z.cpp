@@ -1,7 +1,7 @@
 
 
-**ps：i表示每个字符串对应的同一个索引，j表示对应第几个字符串,只有所有元素都是共有的才能执行完循环到最后一步，即可返回任意的字符串**
-```cpp
+// **ps：i表示每个字符串对应的同一个索引，j表示对应第几个字符串,只有所有元素都是共有的才能执行完循环到最后一步，即可返回任意的字符串**
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -15,4 +15,4 @@ public:
             return strs[0];
     }
 };
-```
+// ```

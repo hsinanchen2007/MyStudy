@@ -1,4 +1,4 @@
-```
+// ```
 var longestPalindrome = function(s) {
     let len = s.length;
     if (!len) return 0;
@@ -20,4 +20,4 @@ var longestPalindrome = function(s) {
     }
     return max === len ? max : 1 + max; // 最长长度如果与字符串长度相等，说明都是出现偶数次数，若不相等，则在此基础上加1
 };
-```
+// ```

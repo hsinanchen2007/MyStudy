@@ -1,4 +1,4 @@
-```
+// ```
 //1、dfs解法
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	res := make([][]int, 0)
@@ -27,9 +27,9 @@ func DFs(root *TreeNode, nums *[][]int, n int) {
 		DFs(root.Right, nums, n+1)
 	}
 }
-```
+// ```
 
-```
+// ```
 //参考的bfs
 
 
@@ -64,5 +64,5 @@ func zigzagLevelOrder(root *TreeNode) [][]int {
 	}
 	return res
 }
-```
+// ```
 

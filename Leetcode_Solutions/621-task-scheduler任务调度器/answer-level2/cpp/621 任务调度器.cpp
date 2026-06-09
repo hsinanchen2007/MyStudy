@@ -1,9 +1,9 @@
-### 解题思路
-根据官方解答中的方法三解答
+// ### 解题思路
+// 根据官方解答中的方法三解答
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
@@ -18,4 +18,4 @@ public:
         return max((int)tasks.size(), (maxTimes-1)*(n+1)+maxLetters);
     }
 };
-```
+// ```

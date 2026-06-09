@@ -1,11 +1,11 @@
-### 解题思路
-建议去复习下斐波那契和爬楼梯算法，然后在这 2 个算法的基础上加上楼梯成本的计算就 OK 了！
+// ### 解题思路
+// 建议去复习下斐波那契和爬楼梯算法，然后在这 2 个算法的基础上加上楼梯成本的计算就 OK 了！
 
-详细过程见注释哦 ^ ^
+// 详细过程见注释哦 ^ ^
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -27,4 +27,4 @@ public:
         return min(climb_1, climb_2);
     }
 };
-```
+// ```

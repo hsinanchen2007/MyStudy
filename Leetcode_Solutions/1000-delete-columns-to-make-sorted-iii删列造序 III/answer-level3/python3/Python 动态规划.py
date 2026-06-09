@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/59fc1a63e9379e03fe187479299468d668ffb869f5dbc39cdd14c45b20762798-image.png)
+# ![image.png](https://pic.leetcode-cn.com/59fc1a63e9379e03fe187479299468d668ffb869f5dbc39cdd14c45b20762798-image.png)
 
 
-```
+# ```
 '''
 动态规划
 dp[j] 表示以第j列为开始列的最长递增列的个数
@@ -25,4 +25,4 @@ class Solution:
                     dp[j] = max(dp[j], 1 + dp[jj])
 
         return n - max(dp)
-```
+# ```

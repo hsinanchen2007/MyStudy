@@ -1,5 +1,5 @@
-直接上代码
-```
+# 直接上代码
+# ```
 def maxProfit(self, prices):
         """
         :type prices: List[int]
@@ -14,4 +14,4 @@ def maxProfit(self, prices):
             else:
                 i = j
         return maxBen
-```
+# ```

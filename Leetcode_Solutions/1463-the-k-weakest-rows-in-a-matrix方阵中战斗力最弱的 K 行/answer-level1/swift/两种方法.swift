@@ -1,9 +1,9 @@
-### 解题思路 1
-使用字典
+// ### 解题思路 1
+// 使用字典
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func kWeakestRows(_ mat: [[Int]], _ k: Int) -> [Int] {
         
@@ -35,15 +35,15 @@ class Solution {
         return ans
     }
 }
-```
+// ```
 
-### 解题思路 2
-使用数组
+// ### 解题思路 2
+// 使用数组
 
 
-### 代码
+// ### 代码
 
-```
+// ```
 class Solution {
     func kWeakestRows(_ mat: [[Int]], _ k: Int) -> [Int] {
         
@@ -76,4 +76,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

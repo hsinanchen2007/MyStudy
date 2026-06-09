@@ -1,10 +1,10 @@
-### 解题思路
-`(a+b)*(a-b) = a*a - b*b`
-`a+b = (a*a-b*b) / (a-b)`
+// ### 解题思路
+// `(a+b)*(a-b) = a*a - b*b`
+// `a+b = (a*a-b*b) / (a-b)`
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func add(a int, b int) int {
 	if a == b {
 		return 2 * a
@@ -12,4 +12,4 @@ func add(a int, b int) int {
 	return (a*a - b*b) / (a - b)
 }
 
-```
+// ```

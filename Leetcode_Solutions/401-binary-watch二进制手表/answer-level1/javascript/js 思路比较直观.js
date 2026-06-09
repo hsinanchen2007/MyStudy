@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/f718d0b845e331090271432401800f55d0ccc85e53eaf8868a36ace5360d65f6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f718d0b845e331090271432401800f55d0ccc85e53eaf8868a36ace5360d65f6-image.png)
 
-### 解题思路
-思路：回溯，遍历所有可能亮灯的组合，转为时间输出出来
-建立一个数组长度为 10 代表所有灯
-  - 前 4 个代表上面的灯
-  - 后面 6 个代表下面一排的灯
+// ### 解题思路
+// 思路：回溯，遍历所有可能亮灯的组合，转为时间输出出来
+// 建立一个数组长度为 10 代表所有灯
+//   - 前 4 个代表上面的灯
+//   - 后面 6 个代表下面一排的灯
   
-剪枝：上面一排超过 11，下面一排超过 59
+// 剪枝：上面一排超过 11，下面一排超过 59
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {string[]}
@@ -76,4 +76,4 @@ var readBinaryWatch = function(num) {
 
 
 
-```
+// ```

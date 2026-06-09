@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var oddCells = function(n, m, indices) {
     let arr = []
     let res = 0
@@ -32,4 +32,4 @@ var oddCells = function(n, m, indices) {
     }
     return res
 };
-```
+// ```

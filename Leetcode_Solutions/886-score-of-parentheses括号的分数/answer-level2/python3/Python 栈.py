@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def scoreOfParentheses(self, S: str) -> int:
         stack = []
@@ -15,4 +15,4 @@ class Solution:
                 stack.append(s)
         return sum(stack)
 
-```
+# ```

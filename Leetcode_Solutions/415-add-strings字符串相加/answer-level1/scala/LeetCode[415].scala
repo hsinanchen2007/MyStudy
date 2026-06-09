@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   implicit def char2int(c: Char): Int = {
     c.toInt - 48
@@ -41,4 +41,4 @@ object Solution {
   }
 }
 
-```
+// ```

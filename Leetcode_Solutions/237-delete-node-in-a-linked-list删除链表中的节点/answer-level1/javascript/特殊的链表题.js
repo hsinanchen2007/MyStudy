@@ -1,37 +1,37 @@
-### Delete Node in a Linked List
+// ### Delete Node in a Linked List
 
-Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
+// Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 
-Example 1:
+// Example 1:
 
-```js
+// ```js
 Input: head = [4,5,1,9], node = 5
 Output: [4,1,9]
-```
+// ```
 
-Explanation: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function.
+// Explanation: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function.
 
-Example 2:
+// Example 2:
 
-```js
+// ```js
 Input: head = [4,5,1,9], node = 1
 Output: [4,5,9]
-```
+// ```
 
-Explanation: You are given the third node with value 1, the linked list should become 4 -> 5 -> 9 after calling your function.
+// Explanation: You are given the third node with value 1, the linked list should become 4 -> 5 -> 9 after calling your function.
 
-Note:
+// Note:
 
-* The linked list will have `at least two elements`.
-* All of the nodes' values will be unique.
-* The given node will `not be the tail` and it will always be a valid node of the linked list.
-* `Do not return anything from your function`.
+// * The linked list will have `at least two elements`.
+// * All of the nodes' values will be unique.
+// * The given node will `not be the tail` and it will always be a valid node of the linked list.
+// * `Do not return anything from your function`.
 
-### Analyze
+// ### Analyze
 
-相较于 [203.Remove_Linked_List_Elements](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/203.Remove_Linked_List_Elements/README.md), 此题一个点是在函数中不能返回任何值, 因此不能引入 dummyHead。另外一个点是没有传入 head 指针, 所以没法拿到当前要删除的上个节点。
+// 相较于 [203.Remove_Linked_List_Elements](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/203.Remove_Linked_List_Elements/README.md), 此题一个点是在函数中不能返回任何值, 因此不能引入 dummyHead。另外一个点是没有传入 head 指针, 所以没法拿到当前要删除的上个节点。
 
-```js
+// ```js
 4 -> 5 -> 1 -> 9 -> null
           .
           .
@@ -40,9 +40,9 @@ Note:
           .
           .
 4 -> 5 -> 9 -> null
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -58,10 +58,10 @@ var deleteNode = function(node) {
   node.val = node.next.val
   node.next = node.next.next
 }
-```
+// ```
 
-### 姊妹题
+// ### 姊妹题
 
-203
+// 203
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

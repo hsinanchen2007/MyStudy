@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         a = 0
@@ -34,4 +34,4 @@ class Solution:
         #                 break
         #         b += 1
         # return (str("%dA%dB" % (a, b)))
-```
+# ```

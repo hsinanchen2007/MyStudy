@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void SetZero(int** matrix, int matrixSize, int matrixColSize, int i, int j)
 {
     for (int m = 0; m < matrixColSize; m++) {
@@ -44,4 +44,4 @@ void setZeroes(int** matrix, int matrixSize, int* matrixColSize)
     }
     free(buffer);
 }
-```
+// ```

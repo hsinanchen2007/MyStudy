@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
         # arr.length <= 5 * 1e4
@@ -29,4 +29,4 @@ class Solution:
                 queue.append(top + 1)
 
         return dis[-1]
-```
+# ```

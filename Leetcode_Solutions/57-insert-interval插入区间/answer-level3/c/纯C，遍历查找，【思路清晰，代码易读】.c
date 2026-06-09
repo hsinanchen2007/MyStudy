@@ -1,12 +1,12 @@
-### 解题思路
-方法一：遍历查找
-1,循环遍历区间列表，将和新区间无关的区间直接添加到返回列表中
-2,在循环过程中找到新区间的头位置，尾位置，并且在返回列表中预留空间
-3,将新区间或者合并后的空间插入 返回列表中预留的空间
+// ### 解题思路
+// 方法一：遍历查找
+// 1,循环遍历区间列表，将和新区间无关的区间直接添加到返回列表中
+// 2,在循环过程中找到新区间的头位置，尾位置，并且在返回列表中预留空间
+// 3,将新区间或者合并后的空间插入 返回列表中预留的空间
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -113,4 +113,4 @@ int** insert(int** intervals, int intervalsSize, int* intervalsColSize, int* new
     *returnColumnSizes = pColSize;
     return pRet;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 const int maxn=1e4+10;
 int ans[maxn];
 class Solution {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-将字符串 进行插空 ，  然后 分割，遍历所有字符串
-将左括号 压入栈中， 按照就近原则 匹配右括号。 如果匹配成功，栈中弹出左括号； 如果匹配失败，
-返回false ;
-最后，如果 栈不为空 ，返回false 
+// ### 解题思路
+// 将字符串 进行插空 ，  然后 分割，遍历所有字符串
+// 将左括号 压入栈中， 按照就近原则 匹配右括号。 如果匹配成功，栈中弹出左括号； 如果匹配失败，
+// 返回false ;
+// 最后，如果 栈不为空 ，返回false 
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public boolean isValid(String s) {
         return operatorAnExpression(s);
@@ -72,4 +72,4 @@ class Solution {
             return stack.isEmpty() ? true: false;
     }
 }
-```
+// ```

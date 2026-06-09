@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Trie:
 
     def __init__(self):
@@ -46,4 +46,4 @@ class Solution:
             if trie.isTail(word[::-1]):
                 cnt += len(word) + 1
         return cnt
-```
+# ```

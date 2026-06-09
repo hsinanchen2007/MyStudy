@@ -1,9 +1,9 @@
-### 解题思路
-BFS，使用数组充当队列，每次计算出下次取出的结点数量
+// ### 解题思路
+// BFS，使用数组充当队列，每次计算出下次取出的结点数量
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -43,4 +43,4 @@ func levelOrder(root *TreeNode) [][]int {
 	return results
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-每次遍历到的节点放入一个列表中，最后取中间的节点
+# ### 解题思路
+# 每次遍历到的节点放入一个列表中，最后取中间的节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -17,4 +17,4 @@ class Solution:
             node_list.append(head)
             head=head.next
         return node_list[len(node_list)//2]
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func merge(nums1 []int, m int, nums2 []int, n int)  {
     p1, p2 := m-1, n-1
 
@@ -24,4 +24,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 
 	return
 }
-```
+// ```

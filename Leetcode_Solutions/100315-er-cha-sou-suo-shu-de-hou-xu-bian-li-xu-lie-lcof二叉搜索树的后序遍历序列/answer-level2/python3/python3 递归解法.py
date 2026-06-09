@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         #  空树也属于二叉搜索树
@@ -29,4 +29,4 @@ class Solution:
         return lret and rret
         
 
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-套用BFS模板，常规思路
-       1) BFS bank 相当于是搜索路径
-       2）节点扩展条件，目标节点与源节点只存在一个字符的差异
-       3）目标节点必须要在bank中
+// ### 解题思路
+// 套用BFS模板，常规思路
+//        1) BFS bank 相当于是搜索路径
+//        2）节点扩展条件，目标节点与源节点只存在一个字符的差异
+//        3）目标节点必须要在bank中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 10000
 typedef struct tagMyQueue
 {
@@ -110,4 +110,4 @@ int minMutation(char * start, char * end, char ** bank, int bankSize)
     DelMyQue(que);
     return -1;
 }
-```
+// ```

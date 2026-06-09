@@ -1,4 +1,4 @@
-```
+-- ```
 select avg(Number) as median from(
     select * from(
         select 
@@ -15,4 +15,4 @@ where
        sum1<=@mid and sum2>=@mid,
        (sum1<=floor(@mid) and sum2>=floor(@mid)) or
        (sum1<=ceiling(@mid) and sum2>=ceiling(@mid)))
-```
+-- ```

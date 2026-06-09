@@ -1,10 +1,10 @@
-# bfs
-1. `广度遍历` 使用队列，是为了保存上下文，才可找到 `下层遍历顺序`
-2. 但是因为我们设置了Next,我们可以自然而然的从`父节点`获取到`下层遍历顺序`，所以完全可以抛弃 `Queue`
-3. 只要思路对了，剩下的就是堆业务逻辑了
+// # bfs
+// 1. `广度遍历` 使用队列，是为了保存上下文，才可找到 `下层遍历顺序`
+// 2. 但是因为我们设置了Next,我们可以自然而然的从`父节点`获取到`下层遍历顺序`，所以完全可以抛弃 `Queue`
+// 3. 只要思路对了，剩下的就是堆业务逻辑了
 
 
-```golang
+// ```golang
 func connect(root *Node) *Node {
 	if root == nil {
 		return nil
@@ -38,7 +38,7 @@ func connect(root *Node) *Node {
 	}
 	return root
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree/bfs.go)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree/bfs.go)

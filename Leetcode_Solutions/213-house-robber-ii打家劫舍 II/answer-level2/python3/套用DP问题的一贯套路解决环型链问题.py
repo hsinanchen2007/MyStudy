@@ -1,11 +1,11 @@
-### 解题思路
-打家劫舍1只有两个状态：dp[房间编号][是否打劫]
-这道题在1的基础上添加了一个状态：dp[房间编号][第一间房是否打结][当前房是否打结]
-套用动态规划的base case + iteration框架即可
+# ### 解题思路
+# 打家劫舍1只有两个状态：dp[房间编号][是否打劫]
+# 这道题在1的基础上添加了一个状态：dp[房间编号][第一间房是否打结][当前房是否打结]
+# 套用动态规划的base case + iteration框架即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums) <= 0:
@@ -30,4 +30,4 @@ class Solution:
             dp[-1][0][1] = dp[-1-1][0][0] + nums[-1]
             dp[-1][1][1] = -inf
             return max(max(dp[-1][0]), max(dp[-1][1]))
-```
+# ```

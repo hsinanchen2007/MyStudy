@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
         # 贝尔曼-福特算法
@@ -18,4 +18,4 @@ class Solution:
             res = deepcopy(ans)
         return res[dst] if res[dst] != float("inf") else -1       
 
-```
+# ```

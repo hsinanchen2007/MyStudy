@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def makesquare(self, nums: List[int]) -> bool:
         # dfs => 2 ** 16 => 64 * 1000 => 6.4 * 10 ** 4
@@ -23,4 +23,4 @@ class Solution:
                     edge_arr[i] -= nums[index]
         getMaxSquare(0, edge_arr, edge_length)
         return res 
-```
+# ```

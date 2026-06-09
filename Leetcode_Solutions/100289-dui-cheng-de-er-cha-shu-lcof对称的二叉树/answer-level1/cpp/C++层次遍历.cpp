@@ -1,14 +1,14 @@
-### 解题思路
-执行用时 :4 ms , 在所有 C++ 提交中击败了 94.71% 的用户
-内存消耗 :19 MB, 在所有 C++ 提交中击败了 100.00% 的用户
-特殊情况：
-root == NULL return true;
-root只有一个节点 return true;
-层次遍历：
-对每层的结果放在res；数组中，然后在对每层遍历之后，将结果进行回文判断
-### 代码
+// ### 解题思路
+// 执行用时 :4 ms , 在所有 C++ 提交中击败了 94.71% 的用户
+// 内存消耗 :19 MB, 在所有 C++ 提交中击败了 100.00% 的用户
+// 特殊情况：
+// root == NULL return true;
+// root只有一个节点 return true;
+// 层次遍历：
+// 对每层的结果放在res；数组中，然后在对每层遍历之后，将结果进行回文判断
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -58,4 +58,4 @@ public:
         return true;
     }
 };
-```
+// ```

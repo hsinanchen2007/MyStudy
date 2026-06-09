@@ -1,4 +1,4 @@
-        //依然是滑动窗口解决
+//         //依然是滑动窗口解决
 	public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 		if(nums.length <= 1) {
 			return false;

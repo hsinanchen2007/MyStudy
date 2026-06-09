@@ -1,9 +1,9 @@
-1.使用栈实现
-2.每个字符入一次栈，如果匹配就出栈
-3.最后要求栈为空
+// 1.使用栈实现
+// 2.每个字符入一次栈，如果匹配就出栈
+// 3.最后要求栈为空
 
 
-```
+// ```
 
 func isValid(s string) bool {
 	var lens =strings.Count(s,"")-1
@@ -33,4 +33,4 @@ func PopS(s *[]string) string {
 	*s = (*s)[:lens-1]
 	return v
 }
-```
+// ```

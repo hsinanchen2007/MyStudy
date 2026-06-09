@@ -1,4 +1,4 @@
-```
+// ```
 char * reverseWords(char * str){
     if (str == NULL || str[0] == '\0') return str;
     int fast = 0, last = 0;
@@ -10,4 +10,4 @@ char * reverseWords(char * str){
     }
     return str;
 }
-```
+// ```

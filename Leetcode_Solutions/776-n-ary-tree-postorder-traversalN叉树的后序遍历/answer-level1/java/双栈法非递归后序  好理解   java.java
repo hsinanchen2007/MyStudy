@@ -1,4 +1,4 @@
-```
+// ```
 /*
 // Definition for a Node.
 class Node {
@@ -13,8 +13,8 @@ class Node {
     }
 };
 */
-```
-```
+// ```
+// ```
 class Solution { //双栈法
     public List<Integer> postorder(Node root) {
         List<Integer> list=new ArrayList<>();//建立一个整数列表，一个节点列表，两个栈
@@ -38,4 +38,4 @@ class Solution { //双栈法
     return list;    //返回列表
     }
 }
-```
+// ```

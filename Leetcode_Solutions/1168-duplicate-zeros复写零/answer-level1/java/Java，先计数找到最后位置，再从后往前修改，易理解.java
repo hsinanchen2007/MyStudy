@@ -1,5 +1,5 @@
-先一次遍历，利用count计数，遍历到0，count+2，否则+1，最后count的结果要么为数组长度，要么比数组长度多1（最后元素为0且不应复写），last为找到最后保留数的位置。
-```
+// 先一次遍历，利用count计数，遍历到0，count+2，否则+1，最后count的结果要么为数组长度，要么比数组长度多1（最后元素为0且不应复写），last为找到最后保留数的位置。
+// ```
 public void duplicateZeros(int[] arr) {
         int last = 0, count = 0;// count记录复写0后的元素个数
         // 找到最后一个保留数的位置
@@ -24,4 +24,4 @@ public void duplicateZeros(int[] arr) {
             arr[count--] = arr[last--];
         }
     }
-```
+// ```

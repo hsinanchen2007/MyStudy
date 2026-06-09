@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} flowerbed
  * @param {number} n
@@ -23,4 +23,4 @@ var canPlaceFlowers = function(flowerbed, n) {
             return n <= 0;
         }
 
-```
+// ```

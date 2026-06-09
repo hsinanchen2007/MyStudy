@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :244 ms, 在所有 Go 提交中击败了60.89%的用户
-内存消耗 :8.1 MB, 在所有 Go 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :244 ms, 在所有 Go 提交中击败了60.89%的用户
+// 内存消耗 :8.1 MB, 在所有 Go 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type CQueue struct {
     Queue []int
     Head int
@@ -40,4 +40,4 @@ func (this *CQueue) DeleteHead() int {
  * obj.AppendTail(value);
  * param_2 := obj.DeleteHead();
  */
-```
+// ```

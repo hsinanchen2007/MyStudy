@@ -1,6 +1,6 @@
-**思路**:见标题
-**注意**:本人菜鸡 主要的语句都添加了注释 还请各位多多指教
-```python []
+// **思路**:见标题
+// **注意**:本人菜鸡 主要的语句都添加了注释 还请各位多多指教
+// ```python []
 class Solution:
 	def combinationSum3(self,k,n):
 		def helper(n,situ=[]):
@@ -16,8 +16,8 @@ class Solution:
 				situ.pop()
 			return ans
 		return helper(n)
-```
-```golang []
+// ```
+// ```golang []
 import "math"
 var cnt int
 func combinationSum3(k int, n int) [][]int {
@@ -46,4 +46,4 @@ func helper(ind,nokori int,situ [9]int) [][]int { //ind表示现在的索引(也
 	}
 	return ans
 }
-```
+// ```

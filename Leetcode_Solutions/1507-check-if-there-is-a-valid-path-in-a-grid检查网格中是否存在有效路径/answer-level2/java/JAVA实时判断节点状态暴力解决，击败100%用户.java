@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/843a8b25a429edadf1bedc67c6cbb36a03dd9843ec93c64953eb953996a5bc5e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/843a8b25a429edadf1bedc67c6cbb36a03dd9843ec93c64953eb953996a5bc5e-image.png)
 
 
-```
+// ```
 //往上下左右四个方向走时x和y坐标的变化情况
     private int[][]dirs = new int[][] {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     //每种类型的街道可以走的方向, 从1开始
@@ -67,4 +67,4 @@
 
         return i >= 0 && i < rows && j >= 0 && j < cols;
     }
-```
+// ```

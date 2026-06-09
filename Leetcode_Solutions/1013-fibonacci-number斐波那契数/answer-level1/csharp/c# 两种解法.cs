@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     //黄金比例计算，理论明白了soeasy
     public int Fib(int N) {
@@ -34,4 +34,4 @@ public class Solution {
         return b;
     }
 }
-```
+// ```

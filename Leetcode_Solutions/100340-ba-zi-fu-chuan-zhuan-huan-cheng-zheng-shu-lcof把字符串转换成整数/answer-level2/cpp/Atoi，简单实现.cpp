@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int strToInt(string str) {
@@ -24,4 +24,4 @@ public:
         return flag > 0 ? res : -res;
     }
 };
-```
+// ```

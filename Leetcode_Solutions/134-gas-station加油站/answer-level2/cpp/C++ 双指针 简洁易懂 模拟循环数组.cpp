@@ -1,11 +1,11 @@
-### 解题思路
-看到本题，我的第一反应是循环数组的思想。
-所以，引入了两个指针，指向已考虑的加油站的左边和右边。
-其中，给出两种方法。
+// ### 解题思路
+// 看到本题，我的第一反应是循环数组的思想。
+// 所以，引入了两个指针，指向已考虑的加油站的左边和右边。
+// 其中，给出两种方法。
 
-### 代码
-法一：先不判断总量的相对大小，而是计算两者的差值存到diff数组中，并找出diff中的最大值并开始循环。
-```
+// ### 代码
+// 法一：先不判断总量的相对大小，而是计算两者的差值存到diff数组中，并找出diff中的最大值并开始循环。
+// ```
 int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
 	vector<int> diff;
 	int max = gas[0] - cost[0];
@@ -39,11 +39,11 @@ int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
 	}
 	return temp >= 0?left:-1;
 }
-```
+// ```
 
-法二：优化：先通过计算gas和cost的总量进行判断，如果满足条件才进行后面的运算。
-TIPS： accumulate为std中的累加函数！！
-```cpp
+// 法二：优化：先通过计算gas和cost的总量进行判断，如果满足条件才进行后面的运算。
+// TIPS： accumulate为std中的累加函数！！
+// ```cpp
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
@@ -74,4 +74,4 @@ public:
 }
 };
 
-```
+// ```

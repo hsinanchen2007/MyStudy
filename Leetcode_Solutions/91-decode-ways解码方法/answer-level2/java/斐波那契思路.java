@@ -1,11 +1,11 @@
-斐波那契的公式为：F(n) = F(n - 1) + F(n - 2)。
+// 斐波那契的公式为：F(n) = F(n - 1) + F(n - 2)。
 
-用count(str)来表示字符串str的解码个数，那么有：
+// 用count(str)来表示字符串str的解码个数，那么有：
 
-count(str) = count(str.substring(0, length - 2)) + count(str.substring(0, length - 1))
+// count(str) = count(str.substring(0, length - 2)) + count(str.substring(0, length - 1))
 
-具体的例子如："12321"的解码数 = "1232"的解码数 + "123"的解码数，当然也要考虑后1、2位能否构成合法的字母。
-```
+// 具体的例子如："12321"的解码数 = "1232"的解码数 + "123"的解码数，当然也要考虑后1、2位能否构成合法的字母。
+// ```
 class Solution {
     public int numDecodings(String s) {
         if (s.charAt(0) == '0') return 0;
@@ -26,4 +26,4 @@ class Solution {
         return dp[s.length()];
     }
 }
-```
+// ```

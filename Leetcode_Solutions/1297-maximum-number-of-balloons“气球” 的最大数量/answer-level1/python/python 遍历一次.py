@@ -1,6 +1,6 @@
 
-暴力解法，水桶装水最短板的思路，建个字典，遍历一次计数，取最小值
-```
+# 暴力解法，水桶装水最短板的思路，建个字典，遍历一次计数，取最小值
+# ```
 class Solution(object):
     def maxNumberOfBalloons(self, text):
         """
@@ -15,4 +15,4 @@ class Solution(object):
                 dic[i]+=1
         #返回最小的数
         return min(dic['b'],dic['a'],int(dic['l']/2),int(dic['o']/2),dic['n'])
-```
+# ```

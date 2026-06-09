@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :34.3 MB, 在所有 java 提交中击败了87.44%的用户
-```
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :34.3 MB, 在所有 java 提交中击败了87.44%的用户
+// ```
 class Solution {
     public int rob(int[] nums) {
         if(nums == null || nums.length < 1)
@@ -28,4 +28,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

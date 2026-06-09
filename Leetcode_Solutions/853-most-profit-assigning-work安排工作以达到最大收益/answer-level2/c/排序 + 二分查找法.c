@@ -1,4 +1,4 @@
-```
+// ```
 
 #define MAX_WORK_LENGTH    10001
 
@@ -74,4 +74,4 @@ int maxProfitAssignment(int* difficulty, int difficultySize, int* profit, int pr
 
     return totalPro;
 }
-```
+// ```

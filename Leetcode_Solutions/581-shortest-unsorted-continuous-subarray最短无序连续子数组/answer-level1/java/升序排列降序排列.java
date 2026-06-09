@@ -1,10 +1,10 @@
-### 解题思路
-题目没指明生序排列还是降序排列
-故这种情况都需要考虑
+// ### 解题思路
+// 题目没指明生序排列还是降序排列
+// 故这种情况都需要考虑
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
         if (nums.length == 0) {
@@ -34,4 +34,4 @@ class Solution {
         return left == right ? 0 : Math.abs(right - left) + 1;
     }
 }
-```
+// ```

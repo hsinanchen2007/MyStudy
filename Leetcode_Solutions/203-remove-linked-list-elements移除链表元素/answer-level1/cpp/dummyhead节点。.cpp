@@ -1,7 +1,7 @@
 
-由于删除头结点，导致找不到头结点的情况，使用dummyhead。
+// 由于删除头结点，导致找不到头结点的情况，使用dummyhead。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
 };
 
 
-```
+// ```

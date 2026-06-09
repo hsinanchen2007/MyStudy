@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/725ce9165ad3c306ede72feec7d302e146ade9dad2f07dd92e04e64cdf6c931f-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/725ce9165ad3c306ede72feec7d302e146ade9dad2f07dd92e04e64cdf6c931f-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //左右最大值解法
@@ -75,4 +75,4 @@ public:
         
     }
 };
-```
+// ```

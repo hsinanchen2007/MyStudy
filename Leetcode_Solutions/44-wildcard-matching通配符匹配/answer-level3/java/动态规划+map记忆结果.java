@@ -1,19 +1,19 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-272 ms
-, 在所有 Java 提交中击败了
-5.04%
-的用户
-内存消耗 :
-53.4 MB
-, 在所有 Java 提交中击败了
-17.14%
-的用户
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 272 ms
+// , 在所有 Java 提交中击败了
+// 5.04%
+// 的用户
+// 内存消耗 :
+// 53.4 MB
+// , 在所有 Java 提交中击败了
+// 17.14%
+// 的用户
 
-黑体部分***（）***可以删除
-```
+// 黑体部分***（）***可以删除
+// ```
 class Solution {
     Map<String,Boolean> map = new HashMap<String,Boolean>();
     public boolean isMatch(String s, String p) {
@@ -72,4 +72,4 @@ class Solution {
         
     }
 }
-```
+// ```

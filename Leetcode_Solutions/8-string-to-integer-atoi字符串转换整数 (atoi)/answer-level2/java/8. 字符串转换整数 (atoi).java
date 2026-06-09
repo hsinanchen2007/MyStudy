@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int myAtoi(String str) {
         int index = 0;
@@ -35,4 +35,4 @@ class Solution {
         return positive ? num : -num;
     }
 }
-```
+// ```

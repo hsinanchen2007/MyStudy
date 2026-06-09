@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int minK(vector<int>& nums, int l, int r, int k) {
@@ -27,6 +27,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5477f1a073e9e43c49fdd3db631db52e98eb38c83dec3c26a269281c976ce28d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5477f1a073e9e43c49fdd3db631db52e98eb38c83dec3c26a269281c976ce28d-image.png)

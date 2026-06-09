@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -25,4 +25,4 @@ var canPartition = function(nums) {
   // 背包容量恰好填满时候返回true
   return res[half] === half
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-双指针法，每次比较指针`(i,j)`所在位置后面的两个数值`nums1[i + 1], nums2[j + 1]`，若一边无值则右移另一指针，若两边都有值则右移较小的一边的指针
+# ### 解题思路
+# 双指针法，每次比较指针`(i,j)`所在位置后面的两个数值`nums1[i + 1], nums2[j + 1]`，若一边无值则右移另一指针，若两边都有值则右移较小的一边的指针
 
-![image.png](https://pic.leetcode-cn.com/5e22287b3498b3763217db03aa18207dbe7d38e4f05cc7ffbcab3fa3d861572a-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5e22287b3498b3763217db03aa18207dbe7d38e4f05cc7ffbcab3fa3d861572a-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         i, j = -1, -1
@@ -32,4 +32,4 @@ class Solution:
             return m1
 
 
-```
+# ```

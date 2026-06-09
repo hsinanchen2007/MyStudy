@@ -1,9 +1,9 @@
-### 解题思路
-学会了欧几里得算法的递归写法
+// ### 解题思路
+// 学会了欧几里得算法的递归写法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int[] t = new int[10000];
@@ -24,4 +24,4 @@ class Solution {
         return x == 0 ? y : gcd(y % x, x); 
     }
 }
-```
+// ```

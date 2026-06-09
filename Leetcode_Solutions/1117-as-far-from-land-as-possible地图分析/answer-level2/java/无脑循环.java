@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-在使用了4重循环,简单粗暴
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 在使用了4重循环,简单粗暴
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDistance(int[][] grid) {
 		int re = 0;
@@ -56,4 +56,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

@@ -1,6 +1,6 @@
-利用遍历定义三个两个函数，左和右， 然后根据节点去分别遍历子节点
+// 利用遍历定义三个两个函数，左和右， 然后根据节点去分别遍历子节点
 
-```
+// ```
 /*
  * @lc app=leetcode.cn id=872 lang=javascript
  *
@@ -52,4 +52,4 @@ var helperRight = function (root) {
 // @lc code=end
 
 
-```
+// ```

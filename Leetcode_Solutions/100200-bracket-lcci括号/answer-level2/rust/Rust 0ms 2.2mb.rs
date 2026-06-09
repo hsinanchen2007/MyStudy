@@ -1,4 +1,4 @@
-```rs
+// ```rs
 impl Solution {
     pub fn generate_parenthesis(n: i32) -> Vec<String> {
         // 用一个栈存储任务
@@ -29,4 +29,4 @@ impl Solution {
         result.into_iter().map(|(s, _, _)| s).collect()
     }
 }
-```
+// ```

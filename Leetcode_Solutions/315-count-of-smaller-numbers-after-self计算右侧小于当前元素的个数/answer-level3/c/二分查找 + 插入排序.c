@@ -1,13 +1,13 @@
-### 解题思路
-二分查找 + 插入排序
-1. 二分查找找到第一个小于val值的元素，对应的index就是前面有多少个数比它小；
-2. 类似插入排序的方式确保每次进来元素有序。
+// ### 解题思路
+// 二分查找 + 插入排序
+// 1. 二分查找找到第一个小于val值的元素，对应的index就是前面有多少个数比它小；
+// 2. 类似插入排序的方式确保每次进来元素有序。
 
-代码中在二分查找时就存入了index,后面不用再翻转了。
+// 代码中在二分查找时就存入了index,后面不用再翻转了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -62,4 +62,4 @@ int* countSmaller(int* nums, int numsSize, int* returnSize){
     free(ReturnNums);
     return Count;
 }
-```
+// ```

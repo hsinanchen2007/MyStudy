@@ -1,6 +1,6 @@
-相比烧脑的数组二分搜索，BST上的二分搜索简直太舒服了。
-遍历如果用递归的话无法中途break，我觉得是因为调用栈不是自己维护所以只能一层层返回，于是用stack实现迭代版的dfs。
-```java
+// 相比烧脑的数组二分搜索，BST上的二分搜索简直太舒服了。
+// 遍历如果用递归的话无法中途break，我觉得是因为调用栈不是自己维护所以只能一层层返回，于是用stack实现迭代版的dfs。
+// ```java
 class Solution {
     private boolean search(TreeNode root, TreeNode cur, int y) {
         // binary seach on a BST(root), find node.val == y && node != cur
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

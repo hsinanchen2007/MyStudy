@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-# 和300题最长上升序列一样的思路
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# # 和300题最长上升序列一样的思路
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:
         if not pairs:
@@ -25,4 +25,4 @@ class Solution:
 
                
                    
-```
+# ```

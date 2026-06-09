@@ -1,9 +1,9 @@
-### 解题思路
-递归，查找子接电中最大的
+# ### 解题思路
+# 递归，查找子接电中最大的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -20,4 +20,4 @@ class Solution:
                 return 1
         else:
             return 0
-```
+# ```

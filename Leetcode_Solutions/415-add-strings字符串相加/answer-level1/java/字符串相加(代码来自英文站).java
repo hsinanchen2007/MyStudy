@@ -1,12 +1,12 @@
-> 原解法地址 [Straightforward Java 8 main lines 25ms](https://leetcode.com/problems/add-strings/discuss/90436/Straightforward-Java-8-main-lines-25ms)
+// > 原解法地址 [Straightforward Java 8 main lines 25ms](https://leetcode.com/problems/add-strings/discuss/90436/Straightforward-Java-8-main-lines-25ms)
 
-## 方法一：模拟进位
+// ## 方法一：模拟进位
 
-**算法**
+// **算法**
 
-每次处理最后两个字符数字，进行模拟进位
+// 每次处理最后两个字符数字，进行模拟进位
 
-```java
+// ```java
 public class Solution {
 
     public String addStrings(String num1, String num2) {
@@ -21,5 +21,5 @@ public class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```
 

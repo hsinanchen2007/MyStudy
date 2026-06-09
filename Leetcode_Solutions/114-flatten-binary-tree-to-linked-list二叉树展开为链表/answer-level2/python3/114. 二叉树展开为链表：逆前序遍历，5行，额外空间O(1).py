@@ -1,6 +1,6 @@
-空间$O(N)$
+# 空间$O(N)$
 
-```python []
+# ```python []
 class Solution:
     def flatten(self, root: TreeNode) -> None:
         roots = []
@@ -15,11 +15,11 @@ class Solution:
             r.right = root
             r = r.right
             root.left = None
-```
+# ```
 
-空间$O(1)$
+# 空间$O(1)$
 
-```python []
+# ```python []
 class Solution:
     nextTree = None
     def flatten(self, root: TreeNode) -> None:
@@ -27,6 +27,6 @@ class Solution:
             self.flatten(root.right)
             self.flatten(root.left)
             self.nextTree, root.left, root.right = root, None, self.nextTree
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/43da999ce54405a0777070634c1505a7bed6249fcbeb2683a883a74418ce197b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/43da999ce54405a0777070634c1505a7bed6249fcbeb2683a883a74418ce197b-image.png)

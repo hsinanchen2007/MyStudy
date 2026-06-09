@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/20ef57a4611531071184e441a133fa5f4fceaa2b8b482304afdcc7111156a3c3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/20ef57a4611531071184e441a133fa5f4fceaa2b8b482304afdcc7111156a3c3-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -72,4 +72,4 @@ var reverseList = function(head) {
     return prev
 };
 
-```
+// ```

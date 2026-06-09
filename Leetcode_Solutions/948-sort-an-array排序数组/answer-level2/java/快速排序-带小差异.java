@@ -1,10 +1,10 @@
-### 解题思路
-哨兵节点没有像官网这样一直放在最末端。
-这样容易出bug。还是官方的快排写得好。
+// ### 解题思路
+// 哨兵节点没有像官网这样一直放在最末端。
+// 这样容易出bug。还是官方的快排写得好。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArray(int[] nums) {
         if(nums==null || nums.length<=1){
@@ -61,4 +61,4 @@ class Solution {
         nums[b] = temp;
     }
 }
-```
+// ```

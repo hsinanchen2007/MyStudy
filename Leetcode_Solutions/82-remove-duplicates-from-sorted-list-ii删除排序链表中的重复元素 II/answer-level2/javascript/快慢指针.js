@@ -1,26 +1,26 @@
-### Remove Duplicates from Sorted List II
+// ### Remove Duplicates from Sorted List II
 
-Given a `sorted linked list`, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+// Given a `sorted linked list`, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
 
-Example 1:
+// Example 1:
 
-```js
+// ```js
 Input: 1->2->3->3->4->4->5
 Output: 1->2->5
-```
+// ```
 
-Example 2:
+// Example 2:
 
-```js
+// ```js
 Input: 1->1->1->2->3
 Output: 2->3
-```
+// ```
 
-### Analyze
+// ### Analyze
 
-思路: `快慢指针`, 用快指针跳过有重复值的链表, 慢指针负责和快指针拼接! 思路比较精妙。
+// 思路: `快慢指针`, 用快指针跳过有重复值的链表, 慢指针负责和快指针拼接! 思路比较精妙。
 
-```js
+// ```js
 s cur/q                     // s: slow; q: quick
     1 -> 1 -> 1 -> 2 -> 3
               .
@@ -40,9 +40,9 @@ s --------------->cur/q
               .
                         s
     1 -> 1 -> 1 -> 2 -> 3
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -76,6 +76,6 @@ var deleteDuplicates = function(head) {
 
   return dummyHead.next
 }
-```
+// ```
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

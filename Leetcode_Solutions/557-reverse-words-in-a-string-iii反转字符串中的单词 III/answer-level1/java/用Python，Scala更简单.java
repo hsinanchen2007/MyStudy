@@ -1,5 +1,5 @@
-Java版本：
-```
+// Java版本：
+// ```
 class Solution {
     public String reverseWords(String s) {
         String[] strings = s.split(" ");
@@ -12,10 +12,10 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```
 
-Python版本：
-```
+// Python版本：
+// ```
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -26,10 +26,10 @@ class Solution(object):
         list2 = []
         map(lambda s: list2.append(s[::-1]), list)
         return " ".join(list2)
-```
+// ```
 
-进一步简化：
-```
+// 进一步简化：
+// ```
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -37,16 +37,16 @@ class Solution(object):
         :rtype: str
         """
         return " ".join([i[::-1] for i in s.split(" ")])
-```
+// ```
 
-Scala版本：
-```
+// Scala版本：
+// ```
 object Solution {
     def reverseWords(s: String): String = {
         s.split(" ").map(_.reverse).mkString(" ")
     }
 }
-```
+// ```
 
 
 

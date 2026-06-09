@@ -1,9 +1,9 @@
-### 解题思路
-直接把第二个数组加到第一个数组 再排序
+// ### 解题思路
+// 直接把第二个数组加到第一个数组 再排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
        for(int i=0;i<n;i++) {
@@ -12,4 +12,4 @@ class Solution {
 		Arrays.sort(nums1);
         }
 }
-```
+// ```

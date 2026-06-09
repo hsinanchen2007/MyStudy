@@ -1,9 +1,9 @@
-### 解题思路
-我发现用strlen真的耗时间，换成用'\0'的话快多了，又学一招
+// ### 解题思路
+// 我发现用strlen真的耗时间，换成用'\0'的话快多了，又学一招
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAnagram(char * s, char * t)
 {
     //应该是只要构成两个字符串的字母都是一样且排列顺序不同
@@ -15,4 +15,4 @@ bool isAnagram(char * s, char * t)
     if(ss[i]!=tt[i]) return false;
     return true;
 }
-```
+// ```

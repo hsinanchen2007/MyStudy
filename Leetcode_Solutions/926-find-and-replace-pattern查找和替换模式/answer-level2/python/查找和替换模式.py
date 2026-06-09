@@ -1,8 +1,8 @@
-#### 方法一：双映射表
+# #### 方法一：双映射表
 
-我们可以用两个映射表（map）存储字母到字母的映射关系，第一个映射表保证一个字母不会映射到两个字母，第二个映射表保证不会有两个字母映射到同一个字母。例如 `word` 为 `a`，`pattern` 为 `x`，那么第一个映射表存储 `a -> x`，第二个映射表存储 `x -> a`。
+# 我们可以用两个映射表（map）存储字母到字母的映射关系，第一个映射表保证一个字母不会映射到两个字母，第二个映射表保证不会有两个字母映射到同一个字母。例如 `word` 为 `a`，`pattern` 为 `x`，那么第一个映射表存储 `a -> x`，第二个映射表存储 `x -> a`。
 
-```Java [sol1]
+# ```Java [sol1]
 class Solution {
     public List<String> findAndReplacePattern(String[] words, String pattern) {
         List<String> ans = new ArrayList();
@@ -28,9 +28,9 @@ class Solution {
         return true;
     }
 }
-```
+# ```
 
-```Python [sol1]
+# ```Python [sol1]
 class Solution(object):
     def findAndReplacePattern(self, words, pattern):
         def match(word):
@@ -43,19 +43,19 @@ class Solution(object):
             return True
 
         return filter(match, words)
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N * K)$，其中 $N$ 是数组 `words` 的长度，$K$ 是每个单词的长度。
+# * 时间复杂度：$O(N * K)$，其中 $N$ 是数组 `words` 的长度，$K$ 是每个单词的长度。
 
-* 空间复杂度：$O(N * K)$。
+# * 空间复杂度：$O(N * K)$。
 
-#### 方法二：单映射表
+# #### 方法二：单映射表
 
-我们可以删去方法一中的第二个映射表，改成在添加完所有映射关系后，遍历第一个映射表并使用一个数组记录每个值出现的次数。如果某个值出现了超过一次，就说明有两个字母映射到同一个字母，否则映射就是合法的。
+# 我们可以删去方法一中的第二个映射表，改成在添加完所有映射关系后，遍历第一个映射表并使用一个数组记录每个值出现的次数。如果某个值出现了超过一次，就说明有两个字母映射到同一个字母，否则映射就是合法的。
 
-```Java [sol2]
+# ```Java [sol2]
 class Solution {
     public List<String> findAndReplacePattern(String[] words, String pattern) {
         List<String> ans = new ArrayList();
@@ -82,9 +82,9 @@ class Solution {
         return true;
     }
 }
-```
+# ```
 
-```Python [sol2]
+# ```Python [sol2]
 class Solution(object):
     def findAndReplacePattern(self, words, pattern):
         def match(word):
@@ -95,10 +95,10 @@ class Solution(object):
             return len(set(P.values())) == len(P.values())
 
         return filter(match, words)
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N * K)$，其中 $N$ 是数组 `words` 的长度，$K$ 是每个单词的长度。
+# * 时间复杂度：$O(N * K)$，其中 $N$ 是数组 `words` 的长度，$K$ 是每个单词的长度。
 
-* 空间复杂度：$O(N * K)$。
+# * 空间复杂度：$O(N * K)$。

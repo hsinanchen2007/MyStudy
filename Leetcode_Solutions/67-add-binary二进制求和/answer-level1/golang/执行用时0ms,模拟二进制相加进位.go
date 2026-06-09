@@ -1,9 +1,9 @@
-### 解题思路
-从后向前遍历两个字符串，进行模拟二进制加法.循环结束后需考虑最后的进位问题
+// ### 解题思路
+// 从后向前遍历两个字符串，进行模拟二进制加法.循环结束后需考虑最后的进位问题
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func addBinary(a string, b string) string {
     aMax := len(a)
     bMax := len(b)
@@ -49,4 +49,4 @@ func addBinary(a string, b string) string {
     }
     return result
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7b24ea1011a58b2912684a97a9e5a5312430c50c33d7600e4be01e851a28f529-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7b24ea1011a58b2912684a97a9e5a5312430c50c33d7600e4be01e851a28f529-image.png)
 
 
-```
+# ```
 '''
 贪心策略
 时间轴以1为步长往右移动，遇到开始事件，就把从该位置开始的所有区间的终点加入小顶堆
@@ -38,4 +38,4 @@ class Solution:
             pos += 1
 
         return ans
-```
+# ```

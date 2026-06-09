@@ -1,4 +1,4 @@
-```
+# ```
 from itertools import accumulate
 class Solution:
 	def canThreePartsEqualSum(self,A):
@@ -6,9 +6,9 @@ class Solution:
 		goal=total//3
 		return any(i==goal for i in accu) and any(i==goal*2 for i in accu) or False
 		#可以把后面两行合并成一行
-```
+# ```
 
-```python []
+# ```python []
 #手动实现
 class Solution:
 	def canThreePartsEqualSum(self,A):
@@ -25,8 +25,8 @@ class Solution:
 						if cur_sum==goal:
 							return True
 		return False
-```
-```golang []
+# ```
+# ```golang []
 //手动实现
 func canThreePartsEqualSum(A []int) bool {
 	total:=0
@@ -50,5 +50,5 @@ func canThreePartsEqualSum(A []int) bool {
 	}
 	return false
 }
-```
+# ```
 

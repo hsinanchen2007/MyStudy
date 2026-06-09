@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 function reverseList(head){
 let [prev,curren] = [null,head]
 while(curren){
@@ -6,4 +6,4 @@ while(curren){
 }
     return prev
 }
-```
+// ```

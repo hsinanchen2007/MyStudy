@@ -1,9 +1,9 @@
-### 解题思路
-参考答主[@jyd](/u/jyd/)的解法写的C++代码
+// ### 解题思路
+// 参考答主[@jyd](/u/jyd/)的解法写的C++代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string addStrings(string num1, string num2) {
@@ -33,4 +33,4 @@ public:
 		return s;
 	}
 };
-```
+// ```

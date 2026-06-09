@@ -1,12 +1,12 @@
-刚刚学完可持久化线段树（主席树）再来看这个题目发现这个题目正好就可以用主席树来解。主席树就是包含了各个历史版本的权值线段树，维护了各个版本区间内每一个权值的出现个数，这道题正好就是问你在[left, right]这个范围的权值线段树版本内，**出现次数最多的那个数的次数是不是大于threshold**。
+// 刚刚学完可持久化线段树（主席树）再来看这个题目发现这个题目正好就可以用主席树来解。主席树就是包含了各个历史版本的权值线段树，维护了各个版本区间内每一个权值的出现个数，这道题正好就是问你在[left, right]这个范围的权值线段树版本内，**出现次数最多的那个数的次数是不是大于threshold**。
 
-学习主席树可以看这个[博客](https://blog.csdn.net/ModestCoder_/article/details/90107874)，需要一些前置技能可以自己看看其他博客。
+// 学习主席树可以看这个[博客](https://blog.csdn.net/ModestCoder_/article/details/90107874)，需要一些前置技能可以自己看看其他博客。
 
-总的来说，如果[left,right]区间里有一个数出现次数大于一半，那么区间最中间那个数就是那个数，所以只需要把[left,right]区间中间那个数和那个数的出现次数拿出来，看看它的出现次数是不是大于threshold就完事了。
+// 总的来说，如果[left,right]区间里有一个数出现次数大于一半，那么区间最中间那个数就是那个数，所以只需要把[left,right]区间中间那个数和那个数的出现次数拿出来，看看它的出现次数是不是大于threshold就完事了。
 
-预处理操作用到了离散化和排序，时间复杂度为$O(nlogn)$,每一次询问的时间复杂度为$O(logn)$,所以时间复杂度为$O(nlogn+q*logn)$。
+// 预处理操作用到了离散化和排序，时间复杂度为$O(nlogn)$,每一次询问的时间复杂度为$O(logn)$,所以时间复杂度为$O(nlogn+q*logn)$。
 
-```cpp
+// ```cpp
 const int N = 2e5;
 
 class MajorityChecker {
@@ -74,4 +74,4 @@ public:
  * MajorityChecker* obj = new MajorityChecker(arr);
  * int param_1 = obj->query(left,right,threshold);
  */
-```
+// ```

@@ -1,6 +1,6 @@
-列表解析，集合实现。
+# 列表解析，集合实现。
 
-```python []
+# ```python []
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -19,5 +19,5 @@ class Solution:
             }
             ans += 1
         return any(1 in g for g in grid) and -1 or ans
-```
-![image.png](https://pic.leetcode-cn.com/c7d6be0c3904a6939f69bcf6906ac88815d48d4263782323f1bb06a2342217e3-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/c7d6be0c3904a6939f69bcf6906ac88815d48d4263782323f1bb06a2342217e3-image.png)

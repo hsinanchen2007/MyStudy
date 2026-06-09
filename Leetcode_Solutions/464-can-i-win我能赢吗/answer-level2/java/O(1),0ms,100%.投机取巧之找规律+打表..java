@@ -1,5 +1,5 @@
-![搜狗截图20191124134521.png](https://pic.leetcode-cn.com/9e2dbf83daaeeeb24cac3b29565626bb3d0c0076c6a3c43118cc00c60e9194b7-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191124134521.png)
-```java
+// ![搜狗截图20191124134521.png](https://pic.leetcode-cn.com/9e2dbf83daaeeeb24cac3b29565626bb3d0c0076c6a3c43118cc00c60e9194b7-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20191124134521.png)
+// ```java
 class Solution {
     public boolean canIWin(int maxChoosableInteger, int desiredTotal) {
         //sn为等差数列求和
@@ -16,4 +16,4 @@ class Solution {
         return desiredTotal == 1 || desiredTotal % maxChoosableInteger != 1;
     }
 }
-```
+// ```

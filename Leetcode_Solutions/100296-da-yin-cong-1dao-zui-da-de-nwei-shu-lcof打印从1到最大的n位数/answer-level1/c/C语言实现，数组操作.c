@@ -1,13 +1,13 @@
-### 解题思路
-本题解法比较简单，思路如下：
-1 求出n代表几位数，利用pow函数求解最大数值
-2 数组需返回1~maxnum的数组，赋值时需注意。
+// ### 解题思路
+// 本题解法比较简单，思路如下：
+// 1 求出n代表几位数，利用pow函数求解最大数值
+// 2 数组需返回1~maxnum的数组，赋值时需注意。
 
-Note：该程序中利用了pow，malloc和memset等系统调用函数，导致程序运行时间较长。
+// Note：该程序中利用了pow，malloc和memset等系统调用函数，导致程序运行时间较长。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -31,4 +31,4 @@ int* printNumbers(int n, int* returnSize)
     return result;
 
 }
-```
+// ```

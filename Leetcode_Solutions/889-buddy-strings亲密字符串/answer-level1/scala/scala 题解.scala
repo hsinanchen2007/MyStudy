@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def buddyStrings(A: String, B: String): Boolean = {
     if (A.length != B.length || A.length == 0) return false
@@ -17,4 +17,4 @@ object Solution {
     }
   }
 }
-```
+// ```

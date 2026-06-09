@@ -1,5 +1,5 @@
-看了其他的题解，目前这个应该是比较简洁的做法。欢迎大家指导。
-```
+// 看了其他的题解，目前这个应该是比较简洁的做法。欢迎大家指导。
+// ```
 class Solution {
     public String[] trulyMostPopular(String[] names, String[] synonyms) {
         Map<String, Integer> map = new HashMap<>();
@@ -41,4 +41,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-求得状态转移方程：
-dp[i][j] = grid[i-1][j-1] + min(dp[i+1][j], dp[i][j+1]);
-求得初始状态：
-dp[i][j] = grid[i-1][j-1];
+// ### 解题思路
+// 求得状态转移方程：
+// dp[i][j] = grid[i-1][j-1] + min(dp[i+1][j], dp[i][j+1]);
+// 求得初始状态：
+// dp[i][j] = grid[i-1][j-1];
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -31,4 +31,4 @@ public:
         return dp[1][1];
     }
 };
-```
+// ```

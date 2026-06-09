@@ -1,9 +1,9 @@
-### 解题思路
-解答方法与题目102.level-order-traversal 思路、方法相同，基于广度优先搜索，逐层检查。唯一不同的是如果本node非空，但是缺少child时，应当加入None 占位；而本node 为 None 时，无需考虑。
+# ### 解题思路
+# 解答方法与题目102.level-order-traversal 思路、方法相同，基于广度优先搜索，逐层检查。唯一不同的是如果本node非空，但是缺少child时，应当加入None 占位；而本node 为 None 时，无需考虑。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -73,4 +73,4 @@ class Solution:
             nd_stack2.append(stack_temp2)
         # end while
         return True
-```
+# ```

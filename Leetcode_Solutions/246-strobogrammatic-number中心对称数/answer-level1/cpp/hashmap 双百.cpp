@@ -1,9 +1,9 @@
-### 解题思路
-穷举所有类型
+// ### 解题思路
+// 穷举所有类型
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStrobogrammatic(string num) {
@@ -19,4 +19,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     int i = 1;
     int j = 0;
@@ -22,4 +22,4 @@ int removeDuplicates(int* nums, int numsSize){
 
     return (j + 1);
 }
-```
+// ```

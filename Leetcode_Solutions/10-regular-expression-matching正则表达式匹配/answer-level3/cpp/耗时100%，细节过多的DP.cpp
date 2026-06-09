@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/676b44408482d740b037f5c6ebe284763f4532c6d808797e42fa35ef27031dcf-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/676b44408482d740b037f5c6ebe284763f4532c6d808797e42fa35ef27031dcf-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -101,4 +101,4 @@ public:
 	return dp[h - 1][w - 1]&&vali;
     }
 };
-```
+// ```

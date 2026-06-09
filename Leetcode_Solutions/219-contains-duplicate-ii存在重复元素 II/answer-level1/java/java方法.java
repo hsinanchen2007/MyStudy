@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-bobo老师的思路
+// ### 解题思路
+// 此处撰写解题思路
+// bobo老师的思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
       Set<Integer> record = new HashSet<>();
@@ -23,4 +23,4 @@ class Solution {
         return false;  
     }
 }
-```
+// ```

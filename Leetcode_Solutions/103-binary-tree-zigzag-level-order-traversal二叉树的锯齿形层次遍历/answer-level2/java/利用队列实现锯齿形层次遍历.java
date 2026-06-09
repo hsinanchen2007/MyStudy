@@ -1,20 +1,20 @@
-1. 关于复杂度
-&nbsp;1.1 时间复杂度为O(log n^2)
-&nbsp;1.2 空间负责度为O(log n)
-2. 我的解题思路
-&nbsp;2.1 定义一个队列缓存每层的节点
-&nbsp;2.2 循环遍历树直到队列不为空
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 定义一个变量记录当前队列的长度
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 令当前队列的所有结点出队并添加出队结点到缓存list中
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 将2.2.2出队的结点的左右结点入队
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 根据临时变量flag决定怎么遍历缓存list
-3. 提交记录
-&nbsp;3.1 力扣中耗时3ms,消耗38.4MB内存
-&nbsp;3.2 leetcode中耗时1ms,消耗35.2MB内存
-4. Q&A
+// 1. 关于复杂度
+// &nbsp;1.1 时间复杂度为O(log n^2)
+// &nbsp;1.2 空间负责度为O(log n)
+// 2. 我的解题思路
+// &nbsp;2.1 定义一个队列缓存每层的节点
+// &nbsp;2.2 循环遍历树直到队列不为空
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 定义一个变量记录当前队列的长度
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 令当前队列的所有结点出队并添加出队结点到缓存list中
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 将2.2.2出队的结点的左右结点入队
+// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 根据临时变量flag决定怎么遍历缓存list
+// 3. 提交记录
+// &nbsp;3.1 力扣中耗时3ms,消耗38.4MB内存
+// &nbsp;3.2 leetcode中耗时1ms,消耗35.2MB内存
+// 4. Q&A
 
 
-```
+// ```
 class Solution {
 
     /**
@@ -77,4 +77,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

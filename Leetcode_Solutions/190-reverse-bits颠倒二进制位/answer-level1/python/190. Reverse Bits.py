@@ -1,5 +1,5 @@
-1. 字符串处理
-```
+# 1. 字符串处理
+# ```
 class Solution:
     # @param n, an integer
     # @return an integer
@@ -10,10 +10,10 @@ class Solution:
         for i in binary[::-1]:
             string += i
    
-```
+# ```
 
-2. 位运算
-```
+# 2. 位运算
+# ```
 """
 其实跟上一个差不多, 但是用了位运算
 例如 1010, 我们如果仅补4位的话
@@ -37,4 +37,4 @@ class Solution:
         return int(string, base = 2)
 
 print Solution().reverseBits(12)
-```
+# ```

@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var findRelativeRanks = function(nums) {
     	const arr = nums.map(key => {return key});
 	    const sortArr = arr.sort((a,b) => {return b - a});
@@ -25,4 +25,4 @@ var findRelativeRanks = function(nums) {
 	    return resArr;
 	};
 
-```
+// ```

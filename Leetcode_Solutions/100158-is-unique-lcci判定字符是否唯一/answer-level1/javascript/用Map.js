@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} astr
  * @return {boolean}
@@ -19,4 +19,4 @@ var isUnique = function(astr) {
     for(let o of keys)if(map[o]!=1)return false;
     return true;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历，并将遍历过的1转变为0，防止重复遍历。
+# ### 解题思路
+# 遍历，并将遍历过的1转变为0，防止重复遍历。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         nr = len(grid)
@@ -27,4 +27,4 @@ class Solution:
 
 
     
-```
+# ```

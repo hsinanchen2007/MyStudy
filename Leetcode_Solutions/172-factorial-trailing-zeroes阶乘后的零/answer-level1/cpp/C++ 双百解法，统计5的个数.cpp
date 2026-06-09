@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int trailingZeroes(int n) {
@@ -11,4 +11,4 @@ public:
         return res;
     }
 };
-```
+// ```

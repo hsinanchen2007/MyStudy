@@ -1,9 +1,9 @@
-### 解题思路
-维护一个哈希表，要么符合条件return，要么更新值
+// ### 解题思路
+// 维护一个哈希表，要么符合条件return，要么更新值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -15,4 +15,4 @@ public:
         return false;
     }
 };
-```
+// ```

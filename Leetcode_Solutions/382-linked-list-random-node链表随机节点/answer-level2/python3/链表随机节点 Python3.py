@@ -1,10 +1,10 @@
-### 解题思路
-计算链表的长度，并根据长度生成随机索引。
-进阶：链表长度未知，可以采用[reservior sampling](https://www.***.org/reservoir-sampling/)
+# ### 解题思路
+# 计算链表的长度，并根据长度生成随机索引。
+# 进阶：链表长度未知，可以采用[reservior sampling](https://www.***.org/reservoir-sampling/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution(object):
             node = node.next
             index += 1
         return result.val
-```
+# ```

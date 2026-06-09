@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func removeComments(_ source: [String]) -> [String] {
         //合并成一个 字符串
@@ -36,4 +36,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/de654481e1909a3945c7039b3b56e54bff3fc8e7ea1580fd4785c4a2b89120a7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/de654481e1909a3945c7039b3b56e54bff3fc8e7ea1580fd4785c4a2b89120a7-image.png)
 
-```
+// ```
 class MyCircularQueue {
     private int size;
     private int front;
@@ -47,4 +47,4 @@ class MyCircularQueue {
         return size == data.length - 1;
     }
 }
-```
+// ```

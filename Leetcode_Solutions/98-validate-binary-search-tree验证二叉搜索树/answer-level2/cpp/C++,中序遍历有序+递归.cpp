@@ -1,5 +1,5 @@
-解法一：中序遍历有序
-```
+// 解法一：中序遍历有序
+// ```
 class Solution {
 public:
 //中序遍历递增有序即可
@@ -18,9 +18,9 @@ public:
         return true;
     }
 };
-```
-解法二：递归+后序遍历+结构体：
-```
+// ```
+// 解法二：递归+后序遍历+结构体：
+// ```
 typedef struct Result{
     bool isValid=false;
     long min_num=LONG_MAX;
@@ -55,5 +55,5 @@ public:
         return solve(root).isValid;
     }
 };
-```
+// ```
 

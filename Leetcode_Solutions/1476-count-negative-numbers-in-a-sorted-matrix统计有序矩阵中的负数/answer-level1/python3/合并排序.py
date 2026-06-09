@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         if not grid:return 0
@@ -11,4 +11,4 @@ class Solution:
             if i < 0:res += 1
             else:break
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果包含元音则加入StringBuider，然后再使用StringBuilder原生api来reverse反转。
+// ### 解题思路
+// 如果包含元音则加入StringBuider，然后再使用StringBuilder原生api来reverse反转。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         StringBuilder res=new StringBuilder();
@@ -42,4 +42,4 @@ class Solution {
 
     }
 }
-```
+// ```

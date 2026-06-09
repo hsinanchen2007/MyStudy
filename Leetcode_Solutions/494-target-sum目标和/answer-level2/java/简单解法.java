@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //动态规划：dp[i][j]含义：用nums的[0...i]元素能组成j的个数
     public int findTargetSumWays(int[] nums, int s) {
@@ -35,4 +35,4 @@ class Solution {
         return z + f;
     }
 }
-```
+// ```

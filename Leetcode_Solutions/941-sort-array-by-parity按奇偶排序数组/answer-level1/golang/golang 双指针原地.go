@@ -1,4 +1,4 @@
-```
+// ```
 func sortArrayByParity(A []int) []int {
 	for left, right := 0, len(A) - 1; left < right; {
         //找到左边的奇数
@@ -14,4 +14,4 @@ func sortArrayByParity(A []int) []int {
 	}
 	return A
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution{
 	public String convert(String s,int numRows){
 		StringBuilder[] sb=new StringBuilder[numRows];
@@ -19,4 +19,4 @@ class Solution{
 
 	}
 }
-```
+// ```

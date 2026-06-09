@@ -1,9 +1,9 @@
-### 解题思路
-先写的前置树，再写这个。
+# ### 解题思路
+# 先写的前置树，再写这个。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TrieNode:
     def __init__(self,dep):
         self.depth = dep
@@ -51,4 +51,4 @@ class Solution:
         for k in rs_words:
             root.insert(k)
         return root.count(root.root)
-```
+# ```

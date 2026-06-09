@@ -1,7 +1,7 @@
-方法一 
-定义三个用于翻转链表的辅助指针（分别指向当前节点、当前节点的前一个节点、当前节点的下一个节点）和一个用于表示翻转链表头结点的指针。
-翻转链表时，每次循环翻转一个结点需要判断该节点是否是最后一个结点。如果是最后一个节点，则翻转链表头指针指向该节点。
-```
+// 方法一 
+// 定义三个用于翻转链表的辅助指针（分别指向当前节点、当前节点的前一个节点、当前节点的下一个节点）和一个用于表示翻转链表头结点的指针。
+// 翻转链表时，每次循环翻转一个结点需要判断该节点是否是最后一个结点。如果是最后一个节点，则翻转链表头指针指向该节点。
+// ```
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -19,8 +19,8 @@ public:
         return rev;
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -36,9 +36,9 @@ public:
         return prev;
     }
 };
-```
-方法二 递归
-```
+// ```
+// 方法二 递归
+// ```
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -49,5 +49,5 @@ public:
         return p;
     }
 };
-```
+// ```
 

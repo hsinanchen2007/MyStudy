@@ -1,5 +1,5 @@
-思路：利用递归获取上一列表的值，获取值后，再用for依次对期切片的索引赋值。(ps:空间复杂度还有待优化)
-```
+// 思路：利用递归获取上一列表的值，获取值后，再用for依次对期切片的索引赋值。(ps:空间复杂度还有待优化)
+// ```
 func getRow(rowIndex int) []int {
     //f(i,j) = f(i-1,j-1) + f(i-1,j)
     patr := make([]int,rowIndex+1)
@@ -14,4 +14,4 @@ func getRow(rowIndex int) []int {
     }
     return patr
 }
-```
+// ```

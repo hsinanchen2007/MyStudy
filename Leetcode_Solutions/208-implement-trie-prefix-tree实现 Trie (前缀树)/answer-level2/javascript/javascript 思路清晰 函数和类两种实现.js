@@ -1,6 +1,6 @@
-对比看一下传统function函数和ES6 class两种范式
+// 对比看一下传统function函数和ES6 class两种范式
 
-```javascript
+// ```javascript
 /**
  * 208. Implement Trie (Prefix Tree)
  * https://leetcode.com/problems/implement-trie-prefix-tree/
@@ -85,4 +85,4 @@ class Trie {
  * var param_2 = obj.search(word)
  * var param_3 = obj.startsWith(prefix)
  */
-```
+// ```

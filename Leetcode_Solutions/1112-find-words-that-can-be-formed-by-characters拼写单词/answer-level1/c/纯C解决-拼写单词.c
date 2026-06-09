@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int hash[26];//记录每个元素的个数
     memset(hash,0,sizeof(int)*26);
@@ -35,4 +35,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
         }
     return result;
 }
-```
+// ```

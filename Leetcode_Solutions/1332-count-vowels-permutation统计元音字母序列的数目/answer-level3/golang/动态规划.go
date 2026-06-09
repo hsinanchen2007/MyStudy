@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countVowelPermutation(n int) int {
     mul := make([]int, 5) 
     dp := []int{1,1,1,1,1}
@@ -25,4 +25,4 @@ func countVowelPermutation(n int) int {
     return result % 1000000007
                      
 }
-```
+// ```

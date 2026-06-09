@@ -1,9 +1,9 @@
-### 解题思路
-思路见代码
+# ### 解题思路
+# 思路见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         """
@@ -31,4 +31,4 @@ class Solution:
                 s.popleft() # 从队列头部弹出匹配到的元素
         return not s # 如果队列全部为空，则说明都匹配到了
 
-```
+# ```

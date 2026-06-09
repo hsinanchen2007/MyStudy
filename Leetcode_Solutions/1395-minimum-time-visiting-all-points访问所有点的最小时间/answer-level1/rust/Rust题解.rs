@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn min_time_to_visit_all_points(points: Vec<Vec<i32>>) -> i32 {
         let mut ret = 0;
@@ -12,5 +12,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def twoSum(self, nums, target):
         j=-1
@@ -16,4 +16,4 @@ class Solution:
             for j in range(i+1,n):
                 if nums[i] + nums[j] == target:
                     return [i,j]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-照着大佬的代码写的
+// ### 解题思路
+// 照着大佬的代码写的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
     return *(int*)a - *(int*)b;
@@ -27,4 +27,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
 	}
 	return ans;
 }
-```
+// ```

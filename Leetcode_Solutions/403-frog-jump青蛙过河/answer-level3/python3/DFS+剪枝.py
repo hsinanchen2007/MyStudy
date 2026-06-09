@@ -1,9 +1,9 @@
-思路：设之前跳的步数为pre_step，则青蛙在当前石头上可以跳的步数最多三种：pre_step-1， pre_step， pre_step+1（暂不考虑有无石头）。每跳一次都是如此，画图就能得到一个三叉树：
-![leetcode_qing_wa_tiao_he.png](https://pic.leetcode-cn.com/89f7d63431461e69762c62420449c0e37cab5a6a627ce0636f49614dae1bf99d-leetcode_qing_wa_tiao_he.png)
-如此便可以像二叉树那样，使用DFS搜索。
-**剪枝**：图中有些选择是一样的，比如 路径1：0-1-1-1 此时有一选择(3,2)，即在第3块石头，要跳2步。在路径2：0-1-2，这里也有一个选择(3,2)。如果前面路径1已经证明走不通了，路径2这里也不该再走。
+# 思路：设之前跳的步数为pre_step，则青蛙在当前石头上可以跳的步数最多三种：pre_step-1， pre_step， pre_step+1（暂不考虑有无石头）。每跳一次都是如此，画图就能得到一个三叉树：
+# ![leetcode_qing_wa_tiao_he.png](https://pic.leetcode-cn.com/89f7d63431461e69762c62420449c0e37cab5a6a627ce0636f49614dae1bf99d-leetcode_qing_wa_tiao_he.png)
+# 如此便可以像二叉树那样，使用DFS搜索。
+# **剪枝**：图中有些选择是一样的，比如 路径1：0-1-1-1 此时有一选择(3,2)，即在第3块石头，要跳2步。在路径2：0-1-2，这里也有一个选择(3,2)。如果前面路径1已经证明走不通了，路径2这里也不该再走。
 
-```
+# ```
 class Solution:
     def canCross(self, stones):
         if stones[1] > 1:
@@ -47,11 +47,11 @@ class Solution:
         else:
             # 无石头能跳，该路径走到头了
             return -1 
-```
+# ```
 
----
-看了官方和其他解答，模仿一个动态规划记录一下：
-```
+# ---
+# 看了官方和其他解答，模仿一个动态规划记录一下：
+# ```
 class Solution:
     def canCross(self, stones):
         dp = dict()
@@ -64,7 +64,7 @@ class Solution:
                     if step>0 and (s+step) in dp:
                         dp.get(s+step).add(step)
         return len(dp.get(stones[-1])) > 0
-```
-dp字典：key是石头所在格子数，value是走到key时的步数集合。
-遍历所有石头，对于每一个石头，从此石头对应集合拿出以前走到此石头用的步数来更新它能走到的下一石头的集合。
-如果最后一个石头对应的集合空，也就是没能走到最后。dp真是简洁阿。
+# ```
+# dp字典：key是石头所在格子数，value是走到key时的步数集合。
+# 遍历所有石头，对于每一个石头，从此石头对应集合拿出以前走到此石头用的步数来更新它能走到的下一石头的集合。
+# 如果最后一个石头对应的集合空，也就是没能走到最后。dp真是简洁阿。

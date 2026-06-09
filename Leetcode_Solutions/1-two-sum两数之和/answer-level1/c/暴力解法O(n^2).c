@@ -1,11 +1,11 @@
-### 思路和一些问题
-1.直接遍历数组一一比对，第i个（i为0 ~ n-1）与之后的i+1到n相加与目标比较。
-2.返回的数组需要自己分配空间：int*ret = (int*)malloc(sizeof(int)*2);
-3.题目给出的*returnsize需要赋值为2
+// ### 思路和一些问题
+// 1.直接遍历数组一一比对，第i个（i为0 ~ n-1）与之后的i+1到n相加与目标比较。
+// 2.返回的数组需要自己分配空间：int*ret = (int*)malloc(sizeof(int)*2);
+// 3.题目给出的*returnsize需要赋值为2
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int* twoSum(int* nums, int numsSize, int target, int *returnSize){
     int i,j,sum;
@@ -22,4 +22,4 @@ int* twoSum(int* nums, int numsSize, int target, int *returnSize){
     }//for 遍历每个数组作为第一位数
     return ret;
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-![zchanr.jpg](https://pic.leetcode-cn.com/ddbb0b39a56b7834f685fc9d9ac605d1faa7180c63ede0e6a7ef9d64c86334da-zchanr.jpg)
+// ![zchanr.jpg](https://pic.leetcode-cn.com/ddbb0b39a56b7834f685fc9d9ac605d1faa7180c63ede0e6a7ef9d64c86334da-zchanr.jpg)
 
-```
+// ```
 /**
  * @param {string} s
  * @param {number} numRows
@@ -24,4 +24,4 @@ var convert = function(s, numRows) {
     })
     return array.join('')
 };
-```
+// ```

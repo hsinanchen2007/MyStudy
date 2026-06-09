@@ -1,4 +1,4 @@
-```
+// ```
 func angleClock(hour int, minutes int) float64 {
 
 	var (
@@ -28,4 +28,4 @@ func angleClock(hour int, minutes int) float64 {
 	}
 	return diff
 }
-```
+// ```

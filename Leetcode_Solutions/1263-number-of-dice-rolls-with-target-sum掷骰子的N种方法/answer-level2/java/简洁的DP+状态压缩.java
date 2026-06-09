@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution {
     public int numRollsToTarget(int d, int f, int target) {
         int[] dp = new int[target+1];
@@ -17,4 +17,4 @@ class Solution {
         return dp[target];
     }
 }
-```
+// ```

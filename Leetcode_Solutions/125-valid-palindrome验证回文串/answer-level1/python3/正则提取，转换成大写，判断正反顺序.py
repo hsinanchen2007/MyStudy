@@ -1,9 +1,9 @@
-### 解题思路
-正则提取，转换成大写，判断正反顺序
+# ### 解题思路
+# 正则提取，转换成大写，判断正反顺序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import re
 
 class Solution:
@@ -13,4 +13,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

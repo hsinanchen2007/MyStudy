@@ -1,9 +1,9 @@
-### 解题思路
-https://leetcode-cn.com/problems/integer-break/solution/zheng-shu-chai-fen-shu-xue-fang-fa-han-wan-zheng-t/
+// ### 解题思路
+// https://leetcode-cn.com/problems/integer-break/solution/zheng-shu-chai-fen-shu-xue-fang-fa-han-wan-zheng-t/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int integerBreak(int n) {
@@ -13,4 +13,4 @@ public:
         else return 2*pow(3,n/3);
     }
 };
-```
+// ```

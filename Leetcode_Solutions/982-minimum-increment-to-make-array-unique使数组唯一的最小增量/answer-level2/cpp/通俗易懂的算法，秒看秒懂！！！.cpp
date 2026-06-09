@@ -1,9 +1,9 @@
-### 解题思路
-124ms+26.8ms
-求大佬帮我改进一下
-### 代码
+// ### 解题思路
+// 124ms+26.8ms
+// 求大佬帮我改进一下
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -20,4 +20,4 @@ public:
         return move;
     }
 };
-```
+// ```

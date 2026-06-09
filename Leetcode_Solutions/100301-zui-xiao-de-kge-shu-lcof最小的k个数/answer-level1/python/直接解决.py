@@ -1,9 +1,9 @@
-### 解题思路
-需要注意的是，有可能元素是重复的。
+# ### 解题思路
+# 需要注意的是，有可能元素是重复的。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]: 
         result = []
@@ -23,4 +23,4 @@ class Solution:
                 result.append(i)
                 maxnum = max(result)
         return result
-```
+# ```

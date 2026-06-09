@@ -1,10 +1,10 @@
-### 解题思路
-方案1：利用二分搜索查找离当前房屋最近的电暖气
-方案2：一直找到当前房屋右侧的电暖气，然后取左右两侧最近的，特殊情况特征处理
+# ### 解题思路
+# 方案1：利用二分搜索查找离当前房屋最近的电暖气
+# 方案2：一直找到当前房屋右侧的电暖气，然后取左右两侧最近的，特殊情况特征处理
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findRadius(self, houses, heaters):
         """
@@ -61,4 +61,4 @@ class Solution(object):
             else:
                 radius = max(radius, min(house - heaters[i-1], heaters[i] - house))
         return radius
-```
+# ```

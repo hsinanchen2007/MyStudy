@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def canJump(self, nums: List[int]) -> bool:  #本质上是看0的前面 是否能够越过0
         L=len(nums)
@@ -17,4 +17,4 @@ class Solution:
             elif i==0:
                 return True
         return True 
-```
+# ```

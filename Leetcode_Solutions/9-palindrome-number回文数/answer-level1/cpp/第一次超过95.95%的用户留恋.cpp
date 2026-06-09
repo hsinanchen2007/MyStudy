@@ -1,9 +1,9 @@
-### 解题思路
-先排除一半，然后直接将数反过来比较
+// ### 解题思路
+// 先排除一半，然后直接将数反过来比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

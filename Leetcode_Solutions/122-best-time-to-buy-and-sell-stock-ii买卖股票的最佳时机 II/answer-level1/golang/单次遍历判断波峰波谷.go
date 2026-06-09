@@ -1,9 +1,9 @@
-### 解题思路
-对不起我认为这个题目并不简单。。。。写完我自己都晕乎了，我是逐步判断波谷和波峰，看了取巧的答案实在惭愧
+// ### 解题思路
+// 对不起我认为这个题目并不简单。。。。写完我自己都晕乎了，我是逐步判断波谷和波峰，看了取巧的答案实在惭愧
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     pree := -1
     maxIndex := len(prices) -1
@@ -38,4 +38,4 @@ func maxProfit(prices []int) int {
     }
     return totalMake
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/f442efe8f1554511ba4552dfb08e266f4a089b490d842a4e42fca229c22c0d14-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/f442efe8f1554511ba4552dfb08e266f4a089b490d842a4e42fca229c22c0d14-image.png)
+// ```
 func search(nums []int, target int) int {
     if len(nums)==0{
         return -1
@@ -37,5 +37,5 @@ func search(nums []int, target int) int {
 
     return -1
 }
-```
+// ```
 

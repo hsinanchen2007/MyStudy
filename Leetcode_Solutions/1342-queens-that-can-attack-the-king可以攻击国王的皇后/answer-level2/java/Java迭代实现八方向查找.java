@@ -1,5 +1,5 @@
-思路就是以国王为起点往八个方向迭代，循环结束条件为出界((x < 0 || x >= 8) || (y < 0 || y >= 8))或者在这个方向上找到第一个皇后，那么结束当前这个循环，继续迭代下一个方向。
-```
+// 思路就是以国王为起点往八个方向迭代，循环结束条件为出界((x < 0 || x >= 8) || (y < 0 || y >= 8))或者在这个方向上找到第一个皇后，那么结束当前这个循环，继续迭代下一个方向。
+// ```
 class Solution {
     public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
         List<List<Integer>> res = new LinkedList<>();
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

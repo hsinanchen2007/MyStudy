@@ -1,9 +1,9 @@
-### 解题思路
-BFS
+// ### 解题思路
+// BFS
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type point struct {
     x int
     y int
@@ -54,4 +54,4 @@ func maxDistance(grid [][]int) int {
     }
     return count-1
 }
-```
+// ```

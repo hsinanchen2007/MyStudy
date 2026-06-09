@@ -1,5 +1,5 @@
-先排序， 在求最小值。  然后两两做差相比，输出该二维数组。
-```
+// 先排序， 在求最小值。  然后两两做差相比，输出该二维数组。
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -41,4 +41,4 @@ int** minimumAbsDifference(int* arr, int arrSize, int* returnSize, int** returnC
     }
     return ans;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-## Solution
-###  将开始结束时间拆开来看
-- 本题可以看成车上同时最多有多少个乘客
-- 每次上车(cur++)都看下是否有乘客已经下车了,下车几个,(cur减几个)
-```java
+// ## Solution
+// ###  将开始结束时间拆开来看
+// - 本题可以看成车上同时最多有多少个乘客
+// - 每次上车(cur++)都看下是否有乘客已经下车了,下车几个,(cur减几个)
+// ```java
 ​class Solution {
     public int minMeetingRooms(int[][] intervals) {
     	if(intervals==null||intervals.length==0) return 0;
@@ -30,9 +30,9 @@
     	return res;
     }
 }
-```
-### 优先级队列解法
-```java
+// ```
+// ### 优先级队列解法
+// ```java
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
     	if(intervals==null||intervals.length==0) return 0;
@@ -53,4 +53,4 @@ class Solution {
     	return queue.size();
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-解空间是一个二叉树，每个节点分为选择i和不选i两个分支
+// 解空间是一个二叉树，每个节点分为选择i和不选i两个分支
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> result;
@@ -21,4 +21,4 @@ public:
         combine(n, k, n_pos + 1, k_pos, arr);    // 不选择n_pos的分支
     }
 };
-```
+// ```

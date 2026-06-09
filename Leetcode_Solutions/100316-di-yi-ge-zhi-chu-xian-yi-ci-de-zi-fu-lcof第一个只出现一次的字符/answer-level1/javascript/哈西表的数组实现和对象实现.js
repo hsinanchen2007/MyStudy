@@ -1,11 +1,11 @@
-### 超简单的数组、字符串索引indexof和lastindexof方法
-```
+// ### 超简单的数组、字符串索引indexof和lastindexof方法
+// ```
 代码块
-```
+// ```
 
-### 对象做哈西表
+// ### 对象做哈西表
 
-```
+// ```
 /**
  * @param {string} s
  * @return {character}
@@ -31,10 +31,10 @@ var firstUniqChar = function(s) {
     }
     return " ";
 };
-```
-### 数组做哈西表
-借鉴题解：
-```
+// ```
+// ### 数组做哈西表
+// 借鉴题解：
+// ```
 var firstUniqChar = function(s) {
     let arr = new Array(26).fill(0);
 
@@ -49,4 +49,4 @@ var firstUniqChar = function(s) {
     }
     return ' ';
 };
-```
+// ```

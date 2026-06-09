@@ -1,9 +1,9 @@
-### 解题思路
-先遍历，再counter
+# ### 解题思路
+# 先遍历，再counter
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
             self.addNode(node.left, s)
             self.addNode(node.right, s)
         return s
-```
+# ```

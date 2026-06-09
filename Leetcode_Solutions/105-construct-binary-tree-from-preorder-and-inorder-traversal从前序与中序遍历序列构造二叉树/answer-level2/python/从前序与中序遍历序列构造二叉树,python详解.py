@@ -1,9 +1,9 @@
-### 解题思路
-1、前序遍历：根>左>右，中序遍历:左>根>右
-2、递归的基础操作：前序遍历得到根节点，**中序遍历通过根节点找到左节点与右节点**
-3、递归的返回条件：当preorder和inorder为空时，返回
+# ### 解题思路
+# 1、前序遍历：根>左>右，中序遍历:左>根>右
+# 2、递归的基础操作：前序遍历得到根节点，**中序遍历通过根节点找到左节点与右节点**
+# 3、递归的返回条件：当preorder和inorder为空时，返回
 
-```
+# ```
 前序遍历 preorder = [3,9,20,15,7]
 中序遍历 inorder = [9,3,15,20,7]
 
@@ -32,11 +32,11 @@ inorder [7]
 重复操作....
 
 直到所有 preorder 和 inorder 都为空，返回 null 即可
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -63,4 +63,4 @@ class Solution(object):
         
         return root
 
-```
+# ```

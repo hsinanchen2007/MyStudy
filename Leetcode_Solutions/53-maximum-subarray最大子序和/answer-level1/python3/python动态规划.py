@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         result_sum = nums[0]
@@ -10,4 +10,4 @@ class Solution:
                 sonNum_sum = num
             result_sum = max(sonNum_sum, result_sum)  # 子数组中每添加一个num就要和上一次的结果进行比较
         return result_sum
-```
+# ```

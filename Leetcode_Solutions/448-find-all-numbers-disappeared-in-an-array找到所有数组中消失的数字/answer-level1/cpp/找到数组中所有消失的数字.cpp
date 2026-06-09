@@ -1,6 +1,6 @@
-将数组元素对应为索引，将该索引处的值加n
-遍历加n后的数组，若数组元素值小于等于n，则说明数组下标值不存在，即消失的数字
-```
+// 将数组元素对应为索引，将该索引处的值加n
+// 遍历加n后的数组，若数组元素值小于等于n，则说明数组下标值不存在，即消失的数字
+// ```
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
@@ -20,7 +20,7 @@ public:
         return res;
     }
 };
-```
-作者：haydenmiao
-链接：https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/solution/cyuan-shu-zu-cao-zuo-by-haydenmiao/
-来源：力扣（LeetCode）
+// ```
+// 作者：haydenmiao
+// 链接：https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/solution/cyuan-shu-zu-cao-zuo-by-haydenmiao/
+// 来源：力扣（LeetCode）

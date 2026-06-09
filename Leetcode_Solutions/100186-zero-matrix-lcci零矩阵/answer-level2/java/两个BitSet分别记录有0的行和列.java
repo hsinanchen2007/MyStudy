@@ -1,11 +1,11 @@
-### 解题思路
-用两个BitSet分别存储行和列中为0的数。
-第一次遍历中记录BitSet
-第二次遍历，只要那个数不是0，并且在BitSet的行或者列中存在那就意味着这个数要被消掉，更改为0
+// ### 解题思路
+// 用两个BitSet分别存储行和列中为0的数。
+// 第一次遍历中记录BitSet
+// 第二次遍历，只要那个数不是0，并且在BitSet的行或者列中存在那就意味着这个数要被消掉，更改为0
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

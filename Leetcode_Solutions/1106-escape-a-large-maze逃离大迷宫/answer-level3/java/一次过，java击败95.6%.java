@@ -1,12 +1,12 @@
-一共只有200个障碍，而图的大小的999999，所以广搜肯定是行不通的，可以考虑source和target是否会被block包围住。
+// 一共只有200个障碍，而图的大小的999999，所以广搜肯定是行不通的，可以考虑source和target是否会被block包围住。
 
-如果source和target都不能被包围，那么返回true， 如果一个被包围，一个没有被包围，那么返回false，如果都被包围，就检查他们是否在一个包围圈内，如果是，返回false；
+// 如果source和target都不能被包围，那么返回true， 如果一个被包围，一个没有被包围，那么返回false，如果都被包围，就检查他们是否在一个包围圈内，如果是，返回false；
 
-在检测source和target是否被包围时，有些不够简洁，我的方法是，找到block的上下界，然后在结界内，做广搜，如果能到达边界，则表明无法被包围。
+// 在检测source和target是否被包围时，有些不够简洁，我的方法是，找到block的上下界，然后在结界内，做广搜，如果能到达边界，则表明无法被包围。
 
-140多行代码，一次就通过，让人欣喜，速度也可以。
+// 140多行代码，一次就通过，让人欣喜，速度也可以。
 
-```
+// ```
 private boolean sourceClose;
     private boolean targetClose;
 
@@ -147,4 +147,4 @@ private boolean sourceClose;
         }
         return state;
     }
-```
+// ```

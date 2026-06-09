@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -16,4 +16,4 @@ public:
         return std::move(s);
     }
 };
-```
+// ```

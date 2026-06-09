@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
 
@@ -21,4 +21,4 @@ class Solution:
         for i in range(n-1):
             say = say_str(say) # 利用n的结果 计算 n+1的结果
         return say
-```
+# ```

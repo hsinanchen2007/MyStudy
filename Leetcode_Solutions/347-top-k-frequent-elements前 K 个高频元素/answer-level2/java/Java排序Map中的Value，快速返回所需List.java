@@ -1,9 +1,9 @@
-### 解题思路
-首先将nums中的值都放入map中，其次根据map中value的值对map进行降序排列，最后取出前k个最大值
+// ### 解题思路
+// 首先将nums中的值都放入map中，其次根据map中value的值对map进行降序排列，最后取出前k个最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer> res = new ArrayList<>();
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

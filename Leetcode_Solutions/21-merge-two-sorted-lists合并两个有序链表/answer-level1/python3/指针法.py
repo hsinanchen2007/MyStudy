@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+# ### 解题思路
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         return root.next
 
                  
-```
+# ```

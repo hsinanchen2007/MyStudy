@@ -1,12 +1,12 @@
-### 解题思路
-左边滑动的时候，需要处理3种情况，例如：
-1）cca | b
-2) cac | b
-3) cacc | b
+// ### 解题思路
+// 左边滑动的时候，需要处理3种情况，例如：
+// 1）cca | b
+// 2) cac | b
+// 3) cacc | b
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstringTwoDistinct(s string) int {
 	if len(s) <= 2 {
 		return len(s)
@@ -46,4 +46,4 @@ func lengthOfLongestSubstringTwoDistinct(s string) int {
 	}
 	return maxLen
 }
-```
+// ```

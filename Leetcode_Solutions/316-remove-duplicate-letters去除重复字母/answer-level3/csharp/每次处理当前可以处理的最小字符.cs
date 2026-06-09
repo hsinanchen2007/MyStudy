@@ -1,10 +1,10 @@
-### 解题思路
-若最小字符存在 大于其的 字符 在其前面，则压入堆栈 处理下一个最小字符
-每次处理完当前最小字符， 将堆栈清空到第一层，继续处理
+// ### 解题思路
+// 若最小字符存在 大于其的 字符 在其前面，则压入堆栈 处理下一个最小字符
+// 每次处理完当前最小字符， 将堆栈清空到第一层，继续处理
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class MostSmall2{
     //> baseMax
     private int FindUp(List<int> arr, int v){
@@ -145,4 +145,4 @@ public class Solution {
         return ms.RemoveDuplicateLetters(s);
     }
 }
-```
+// ```

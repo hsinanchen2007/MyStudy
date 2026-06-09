@@ -1,7 +1,7 @@
-方法一：迭代
+// 方法一：迭代
 
-1.1实现
-```
+// 1.1实现
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -27,9 +27,9 @@ public:
         return dummy->next;
     }
 };
-```
-1.2实现
-```
+// ```
+// 1.2实现
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -55,13 +55,13 @@ public:
 
     }
 };
-```
-方法二：递归（切忌一点：用递归一定要先想好中止条件）。
+// ```
+// 方法二：递归（切忌一点：用递归一定要先想好中止条件）。
 
 
 
 
-```
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -86,4 +86,4 @@ public:
         
     }
 };
-```
+// ```

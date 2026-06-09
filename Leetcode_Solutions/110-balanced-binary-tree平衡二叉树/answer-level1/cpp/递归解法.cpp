@@ -1,6 +1,6 @@
-思路：运用递归，左右子树符合平衡二叉树同时左右子树高度差不大于1。
+// 思路：运用递归，左右子树符合平衡二叉树同时左右子树高度差不大于1。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
         return  max(getHight(node->left), getHight(node->right)) + 1;
     }
 };
-```
+// ```

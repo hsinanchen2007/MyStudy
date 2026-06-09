@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String compressString(String S) {
         int n=S.length();
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

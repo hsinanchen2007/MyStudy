@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const void *a, const void *b) {
     const int *l = *(int **)a;
     const int *r = *(int **)b;
@@ -20,4 +20,4 @@ int eraseOverlapIntervals(int** intervals, int intervalsSize, int* intervalsColS
     }
     return count;
 }
-```
+// ```

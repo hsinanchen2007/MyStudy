@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-以每个 operator 为界分割成两个子表达式分治计算。
+// 以每个 operator 为界分割成两个子表达式分治计算。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> diffWaysToCompute(string input) {
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

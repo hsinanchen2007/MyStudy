@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历&建立AVL树
+// ### 解题思路
+// 中序遍历&建立AVL树
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     private List<Integer> res;
 
@@ -34,8 +34,8 @@ class Solution {
         return null;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def balanceBST(self, root: TreeNode) -> TreeNode:
         if root == None:
@@ -64,8 +64,8 @@ class Solution:
             return node
         
         return None
-```
-```c++ []
+// ```
+// ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -114,4 +114,4 @@ private:
     vector<int> ans;
 
 };
-```
+// ```

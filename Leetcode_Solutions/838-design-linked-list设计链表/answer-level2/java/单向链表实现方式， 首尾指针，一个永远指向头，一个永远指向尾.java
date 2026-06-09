@@ -1,10 +1,10 @@
-     采用首尾指针的方法，头尾插入皆为O(1), 越位限定， 没有实现双链表，没有太多意义，都是反复的码代码，直接贴代码了
+//      采用首尾指针的方法，头尾插入皆为O(1), 越位限定， 没有实现双链表，没有太多意义，都是反复的码代码，直接贴代码了
 
-![a.jpg](https://pic.leetcode-cn.com/af69ef38412cec278bd382c6555a8b12d264b37cdf349c65029c28f41958b2aa-a.jpg)
+// ![a.jpg](https://pic.leetcode-cn.com/af69ef38412cec278bd382c6555a8b12d264b37cdf349c65029c28f41958b2aa-a.jpg)
 
      
      
-```
+// ```
 class MyLinkedList 
 {
     
@@ -113,4 +113,4 @@ class MyLinkedList
  * obj.addAtIndex(index,val);
  * obj.deleteAtIndex(index);
  */
-```
+// ```

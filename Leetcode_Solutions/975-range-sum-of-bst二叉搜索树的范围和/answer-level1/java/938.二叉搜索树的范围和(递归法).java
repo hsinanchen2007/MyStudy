@@ -1,4 +1,4 @@
-```
+// ```
 class Solution{
 	int res=0;
 	public int rangeSumBST(TreeNode root,int L,int R){
@@ -11,4 +11,4 @@ class Solution{
 		return res;
 	}
 }
-```
+// ```

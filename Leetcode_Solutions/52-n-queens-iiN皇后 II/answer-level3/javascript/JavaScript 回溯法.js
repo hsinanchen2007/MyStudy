@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法
+// ### 解题思路
+// 回溯算法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -72,4 +72,4 @@ var totalNQueens = function(n) {
     }
     return count
 };
-```
+// ```

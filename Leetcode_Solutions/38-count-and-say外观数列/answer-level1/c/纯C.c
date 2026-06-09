@@ -1,9 +1,9 @@
-### 解题思路
-纯C不可缺少的版本
+// ### 解题思路
+// 纯C不可缺少的版本
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n){
     switch (n) 
     {
@@ -71,4 +71,4 @@ char * countAndSay(int n){
             return "0";
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* partition(struct ListNode* head, int x){
     struct ListNode * preHead = (struct ListNode *)malloc(sizeof(struct ListNode));
     struct ListNode * p       = NULL;
@@ -36,4 +36,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     }
     return preHead->next;
 }
-```
+// ```

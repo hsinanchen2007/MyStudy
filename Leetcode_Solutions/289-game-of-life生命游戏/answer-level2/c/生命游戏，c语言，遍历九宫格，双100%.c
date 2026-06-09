@@ -1,9 +1,9 @@
-### 解题思路
-原地算法，所以用二进制的第二位来存放变化后的状态。如果不会位运算就去百度。
-学到了遍历九宫格的小技巧。
-### 代码
+// ### 解题思路
+// 原地算法，所以用二进制的第二位来存放变化后的状态。如果不会位运算就去百度。
+// 学到了遍历九宫格的小技巧。
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     int neighbors[3] = {-1,0,1};   //遍历九宫格的小技巧
     for(int i=0;i<boardSize;i++){
@@ -37,4 +37,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```

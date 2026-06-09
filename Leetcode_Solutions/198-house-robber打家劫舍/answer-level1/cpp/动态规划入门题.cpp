@@ -1,12 +1,12 @@
-其实这道题和按摩师一样。
+// 其实这道题和按摩师一样。
 
-```cpp
+// ```cpp
 dp[i] = max(dp[i-1], dp[i-2] + prices[i]);
 当前打劫，就不能把相邻的值传送过来。
 当前不打劫，就可以把相邻的值传送过来。
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return max;
     }
 };
-```
+// ```

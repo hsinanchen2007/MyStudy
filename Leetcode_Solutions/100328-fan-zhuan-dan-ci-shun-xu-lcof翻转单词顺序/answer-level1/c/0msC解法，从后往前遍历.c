@@ -1,4 +1,4 @@
-```
+// ```
 #define Max 0xffff
 char* reverseWords(char* s){
     int re = 0,flag = 0,index,i,j;    //flag标记单词的开始或结束
@@ -25,4 +25,4 @@ char* reverseWords(char* s){
     res[--re] = '\0';
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+# ### 解题思路
+# 见代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPowerOfFour(self, num: int) -> bool:
         #判定四的幂次方我就想到2的幂次方 因为4**num == 2**(2*n)
@@ -38,4 +38,4 @@ class Solution:
                     return True
                 #依次循环下去
                 num //= 4
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历返回数组
+# ### 解题思路
+# 中序遍历返回数组
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             return self.helper(root.left) + [root] + self.helper(root.right)
 
 
-```
+# ```

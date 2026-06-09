@@ -1,9 +1,9 @@
-### 解题思路
-总的来说，就是定义一个数组存放每一位上的数字相乘结果，每次相乘只保留个位数，十位数往前进，在纸上算一算123*456就明白了。
+// ### 解题思路
+// 总的来说，就是定义一个数组存放每一位上的数字相乘结果，每次相乘只保留个位数，十位数往前进，在纸上算一算123*456就明白了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String multiply(String num1, String num2) {
         if(num1.equals("0") || num2.equals("0")) return "0";
@@ -35,4 +35,4 @@ class Solution {
         return s.toString();
     }
 }
-```
+// ```

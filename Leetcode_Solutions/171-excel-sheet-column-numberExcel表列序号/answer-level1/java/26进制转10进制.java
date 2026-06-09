@@ -1,9 +1,9 @@
-### 解题思路
-从后向前遍历 每次计算出当前的指数值 可能会好一点
+// ### 解题思路
+// 从后向前遍历 每次计算出当前的指数值 可能会好一点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Map;
 import java.util.HashMap;
 class Solution {
@@ -52,4 +52,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

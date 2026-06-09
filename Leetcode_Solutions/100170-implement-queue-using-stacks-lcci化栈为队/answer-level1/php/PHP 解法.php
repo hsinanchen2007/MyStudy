@@ -1,6 +1,6 @@
-直接上代码
+// 直接上代码
 
-```php
+// ```php
 class MyQueue {
     protected $stackPush;
     protected $stackPop;
@@ -69,4 +69,4 @@ class MyQueue {
  * $ret_3 = $obj->peek();
  * $ret_4 = $obj->empty();
  */
-```
+// ```

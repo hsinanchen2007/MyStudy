@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/f7407527907e92532dabacf004c6680b94cdf8af25db451f4e6d0cd4752b005f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f7407527907e92532dabacf004c6680b94cdf8af25db451f4e6d0cd4752b005f-image.png)
 
-### 解题思路
-???
+// ### 解题思路
+// ???
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} seq
  * @return {number[]}
@@ -33,4 +33,4 @@ var maxDepthAfterSplit = function(seq) {
     }
     return res;
 };
-```
+// ```

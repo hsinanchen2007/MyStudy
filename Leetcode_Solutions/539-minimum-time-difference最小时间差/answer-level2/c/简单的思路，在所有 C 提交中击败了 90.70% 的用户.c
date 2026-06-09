@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/01504fd972ceecc9c9df9e2bbcb0ac4e74ffb5d23bde33dcff761917353d36cb-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/01504fd972ceecc9c9df9e2bbcb0ac4e74ffb5d23bde33dcff761917353d36cb-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findMinDifference(char ** tp, int n){
     int a[1450]={0},i,h,m,min=1500,j;
     for(i=0;i<n;i++){
@@ -28,4 +28,4 @@ int findMinDifference(char ** tp, int n){
 
     return min;
 }
-```
+// ```

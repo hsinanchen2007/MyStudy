@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     if (NULL == height || 0 == heightSize)
     {
@@ -35,4 +35,4 @@ int trap(int* height, int heightSize){
 
     return max;
 }
-```
+// ```

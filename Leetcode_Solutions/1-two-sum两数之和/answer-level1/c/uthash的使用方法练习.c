@@ -1,9 +1,9 @@
-### 解题思路
-初次使用uthash，详细使用介绍见：https://blog.csdn.net/whatday/article/details/95926766
+// ### 解题思路
+// 初次使用uthash，详细使用介绍见：https://blog.csdn.net/whatday/article/details/95926766
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -81,4 +81,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 0;
     return NULL;
 }
-```
+// ```

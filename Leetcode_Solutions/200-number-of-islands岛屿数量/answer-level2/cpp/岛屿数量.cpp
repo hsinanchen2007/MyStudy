@@ -1,12 +1,12 @@
-### 算法分析
-1. 从左到右从上到下遍历grid，设定nums=0
-2. 当grid[i][j]==1时，++nums，将pair<i, j>入队，grid[i][j]置为0
-3. 遍历队列，出队pair<i, j>，判断<i,j>的四周是否存在1，如果存在则入队，并置为0
-### 复杂度分析
-+ 时间复杂度：O(m*n)
-+ 空间复杂度：O(min(m,n))
-### 源码
-```C++ []
+// ### 算法分析
+// 1. 从左到右从上到下遍历grid，设定nums=0
+// 2. 当grid[i][j]==1时，++nums，将pair<i, j>入队，grid[i][j]置为0
+// 3. 遍历队列，出队pair<i, j>，判断<i,j>的四周是否存在1，如果存在则入队，并置为0
+// ### 复杂度分析
+// + 时间复杂度：O(m*n)
+// + 空间复杂度：O(min(m,n))
+// ### 源码
+// ```C++ []
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {

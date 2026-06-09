@@ -1,6 +1,6 @@
-**算法思路：**利用substr函数在haystack中取与needle等长的字段进行比较
+// **算法思路：**利用substr函数在haystack中取与needle等长的字段进行比较
 
-```
+// ```
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -16,4 +16,4 @@ public:
         return -1;
     }
 };
-```
+// ```

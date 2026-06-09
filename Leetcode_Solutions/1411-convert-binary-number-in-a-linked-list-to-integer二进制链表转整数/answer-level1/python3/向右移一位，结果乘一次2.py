@@ -1,13 +1,13 @@
-### 解题思路
-res = (res << 1) | head.val (syntactic sugar)
-<=>
-res *= 2
-res += head.val
-head = head.next
+# ### 解题思路
+# res = (res << 1) | head.val (syntactic sugar)
+# <=>
+# res *= 2
+# res += head.val
+# head = head.next
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             head = head.next
         
         return res
-```
+# ```

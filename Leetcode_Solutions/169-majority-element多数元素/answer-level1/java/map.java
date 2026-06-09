@@ -1,8 +1,8 @@
-### 解题思路
-使用map 计数 找出出现次数最多的
-### 代码
+// ### 解题思路
+// 使用map 计数 找出出现次数最多的
+// ### 代码
 
-```java
+// ```java
 class Solution {
       public static int majorityElement(int[] nums) {
         Map<Integer,Integer> map  = new HashMap<>();
@@ -26,4 +26,4 @@ class Solution {
         return maxKey;
     }
 }
-```
+// ```

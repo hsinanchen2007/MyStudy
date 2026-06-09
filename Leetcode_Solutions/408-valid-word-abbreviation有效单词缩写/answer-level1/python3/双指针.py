@@ -1,8 +1,8 @@
-双指针，两种写法
+# 双指针，两种写法
 
-写法一：
+# 写法一：
 
-```python
+# ```python
 class Solution:
     def validWordAbbreviation1(self, word: str, abbr: str) -> bool:
         i = 0
@@ -23,11 +23,11 @@ class Solution:
                 i += 1
                 j += 1
         return i == m and j == n
-```
+# ```
 
-写法二：
+# 写法二：
 
-```python
+# ```python
 class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
         m = len(word)
@@ -43,7 +43,7 @@ class Solution:
                 num = 0
                 p += 1
         return p + num == m
-```
+# ```
 
 
 

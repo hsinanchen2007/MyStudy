@@ -1,26 +1,26 @@
-### 解题思路
+// ### 解题思路
 
-以数字 21345为例
+// 以数字 21345为例
 
-将数字分解成:
-```
+// 将数字分解成:
+// ```
 0     - 20000 
 20000 - 21000
 21000 - 21300
 21300 - 21340
 21340 - 21345
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d02487875bdf1deb0a4319ac5012acfddbb66033e5d5d65e9c2d428cb2cd2213-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d02487875bdf1deb0a4319ac5012acfddbb66033e5d5d65e9c2d428cb2cd2213-image.png)
 
-从上图观察,可以得知
-当x位不为一时,有明显的规律
-当x位位一时,需要加上低位x位的所有值.
+// 从上图观察,可以得知
+// 当x位不为一时,有明显的规律
+// 当x位位一时,需要加上低位x位的所有值.
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countDigitOne(int n) {
@@ -55,4 +55,4 @@ public:
         return count;
     }
 };
-```
+// ```

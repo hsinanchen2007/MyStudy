@@ -1,17 +1,17 @@
-## 题解思路
-看官方的中文题解有点没看懂，解释的比较晦涩，看到国外论坛的迭代思路的介绍：https://leetcode.com/problems/powx-n/discuss/19563/Iterative-Log(N)-solution-with-Clear-Explanation
-这个比较清晰，用中文解释一下。
-思路就是对n看做二进制数组，比如9可以看做1001，x的9次方就可以x^8 * x^1（分别对应二进制中的第3位和第0位的1），所以迭代对象就是对这个
-二进制进行迭代，N & 1 表示迭代的时候碰到了1，表示需要把当前的乘数乘到result中。可以考虑这是对这个二进制数组从后向前遍历，数组每个
-位置表示一个乘数，乘数就是x的n次方，这个n就是2^(位置)。在遍历的过程中，需要记录乘数，记为currentProduct，currentProduct每次在右移一位
-二进制的时候，currentProduct的值就会进行相乘，currentProduct  = currentProduct * currentProduct;
+// ## 题解思路
+// 看官方的中文题解有点没看懂，解释的比较晦涩，看到国外论坛的迭代思路的介绍：https://leetcode.com/problems/powx-n/discuss/19563/Iterative-Log(N)-solution-with-Clear-Explanation
+// 这个比较清晰，用中文解释一下。
+// 思路就是对n看做二进制数组，比如9可以看做1001，x的9次方就可以x^8 * x^1（分别对应二进制中的第3位和第0位的1），所以迭代对象就是对这个
+// 二进制进行迭代，N & 1 表示迭代的时候碰到了1，表示需要把当前的乘数乘到result中。可以考虑这是对这个二进制数组从后向前遍历，数组每个
+// 位置表示一个乘数，乘数就是x的n次方，这个n就是2^(位置)。在遍历的过程中，需要记录乘数，记为currentProduct，currentProduct每次在右移一位
+// 二进制的时候，currentProduct的值就会进行相乘，currentProduct  = currentProduct * currentProduct;
 
-## 执行结果
-![image.png](https://pic.leetcode-cn.com/2189eaa861e3427783083222e249e369ed276957d26c00616c4062d6550922e7-image.png)
+// ## 执行结果
+// ![image.png](https://pic.leetcode-cn.com/2189eaa861e3427783083222e249e369ed276957d26c00616c4062d6550922e7-image.png)
 
-## 代码
-### 栈代码：
-```
+// ## 代码
+// ### 栈代码：
+// ```
 
 /**
  * @author michael
@@ -59,4 +59,4 @@ class Solution {
         return n > 0 ? result : 1/result;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> sumZero(int n) {
@@ -16,6 +16,6 @@ public:
         return res;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/ad30fe5fd89be492a1238a78a44629d3633c1ff741a591add2db68ce69251d12-1.png)
-没错，又找回了点信心:)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/ad30fe5fd89be492a1238a78a44629d3633c1ff741a591add2db68ce69251d12-1.png)
+// 没错，又找回了点信心:)

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class UnionFindWithCount {
 public:
     int count;
@@ -104,4 +104,4 @@ public:
             dfsUni2(grid, x, y + 1, result);
     }
 };
-```
+// ```

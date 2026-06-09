@@ -1,5 +1,5 @@
-思路很简单
-```
+// 思路很简单
+// ```
    List<Integer> result=new ArrayList<>();
     public List<Integer> rightSideView(TreeNode root) {
         if(root==null){
@@ -29,4 +29,4 @@
         bfs(nextLevel);
 
     }
-```
+// ```

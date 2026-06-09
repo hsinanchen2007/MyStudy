@@ -1,15 +1,15 @@
 
-### 解题思路
+// ### 解题思路
 
-贪心算法 -- 区间调度
+// 贪心算法 -- 区间调度
 
-每次都取结束最早的区间
+// 每次都取结束最早的区间
 
-结束最早，剩下部分的空间最大，可以容纳最多的区间数目
+// 结束最早，剩下部分的空间最大，可以容纳最多的区间数目
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int cmp(vector<int> &n1, vector<int> &n2){
         return n1[1] < n2[1];
 }
@@ -30,6 +30,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-[更多题解...](https://github.com/muyids/leetcode)
+// [更多题解...](https://github.com/muyids/leetcode)

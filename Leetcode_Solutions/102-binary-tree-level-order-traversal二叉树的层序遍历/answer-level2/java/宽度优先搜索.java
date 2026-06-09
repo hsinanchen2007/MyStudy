@@ -1,9 +1,9 @@
-1. 在遍历过程中，使用last记录当前行的最有节点，使用nlast记录下一行的最有节点，初始时，令last等于头节点，令nlast等于null
-2. 从队列弹出一个节点，将左孩子加入队列，令nlast等于左孩子，再将右孩子加入队列，令nlast等于右孩子。
-判断当前弹出节点等不等于last，若相等的话，则换行。
-1. 重复（2），直到队列为空
+// 1. 在遍历过程中，使用last记录当前行的最有节点，使用nlast记录下一行的最有节点，初始时，令last等于头节点，令nlast等于null
+// 2. 从队列弹出一个节点，将左孩子加入队列，令nlast等于左孩子，再将右孩子加入队列，令nlast等于右孩子。
+// 判断当前弹出节点等不等于last，若相等的话，则换行。
+// 1. 重复（2），直到队列为空
 
-```
+// ```
 public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> lists = new ArrayList<>();
         if (root == null)
@@ -38,6 +38,6 @@ public List<List<Integer>> levelOrder(TreeNode root) {
         }
         return lists;
     }
-```
+// ```
 
 

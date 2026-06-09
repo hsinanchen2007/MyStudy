@@ -1,9 +1,9 @@
-## 思路一：二分查找
+// ## 思路一：二分查找
 
-### 代码
-时间复杂度：O(logn)
-空间复杂度：O(1)
-```c++
+// ### 代码
+// 时间复杂度：O(logn)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -49,10 +49,10 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-### 另一种写法
-```c++
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -100,17 +100,17 @@ public:
         return -1;
     }
 };
-```
+// ```
 
 
-## 思路二：STL
-lower_bound：返回一个迭代器，指向键值 >= key的第一个元素
-upper_bound：返回一个迭代器，指向键值 > key的第一个元素
+// ## 思路二：STL
+// lower_bound：返回一个迭代器，指向键值 >= key的第一个元素
+// upper_bound：返回一个迭代器，指向键值 > key的第一个元素
 
-### 代码
-时间复杂度：O(logn)
-空间复杂度：O(1)
-```c++
+// ### 代码
+// 时间复杂度：O(logn)
+// 空间复杂度：O(1)
+// ```c++
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -121,5 +121,5 @@ public:
         return {left - nums.begin(), right - nums.begin() - 1};
     }
 };
-```
+// ```
 

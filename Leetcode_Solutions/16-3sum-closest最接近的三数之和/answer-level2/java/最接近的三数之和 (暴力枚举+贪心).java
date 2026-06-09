@@ -1,5 +1,5 @@
 
-# 最接近的三数之和 (暴力枚举+贪心)
+// # 最接近的三数之和 (暴力枚举+贪心)
     class Solution {
         public int threeSumClosest(int[] nums, int target) {
             int i=0,j=0,k=0;

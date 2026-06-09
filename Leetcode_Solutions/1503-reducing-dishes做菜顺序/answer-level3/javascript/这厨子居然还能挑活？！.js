@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1236ea1498311c7c19a006dde758530f9afc7d51b25ae0ad5f5cfc91a37a66f3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1236ea1498311c7c19a006dde758530f9afc7d51b25ae0ad5f5cfc91a37a66f3-image.png)
 
-先考虑全负数数和全非负数的情况，然后每次加一个负数，看总数变大还是变小。
+// 先考虑全负数数和全非负数的情况，然后每次加一个负数，看总数变大还是变小。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} satisfaction
  * @return {number}
@@ -60,4 +60,4 @@ var maxSatisfaction = function(satisfaction) {
 
     return sum;
 };
-```
+// ```

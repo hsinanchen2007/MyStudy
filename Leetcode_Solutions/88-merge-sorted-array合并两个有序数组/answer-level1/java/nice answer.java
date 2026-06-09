@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用一个i=m+n-1做新的nums1数组的最后一个元素索引 从后往前 遍历nums1 nums2数组 给到新的nums1数组即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用一个i=m+n-1做新的nums1数组的最后一个元素索引 从后往前 遍历nums1 nums2数组 给到新的nums1数组即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         for(int i=m+n-1;i>=0;i--){
@@ -16,4 +16,4 @@ class Solution {
         }
     }
 }
-```
+// ```

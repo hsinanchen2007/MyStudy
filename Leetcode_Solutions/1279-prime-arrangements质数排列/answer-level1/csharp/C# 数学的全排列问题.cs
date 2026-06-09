@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int NumPrimeArrangements(int n)
         {
             /*
@@ -57,4 +57,4 @@
 
             return nPos.Count(i => i == false);
         }
-```
+// ```

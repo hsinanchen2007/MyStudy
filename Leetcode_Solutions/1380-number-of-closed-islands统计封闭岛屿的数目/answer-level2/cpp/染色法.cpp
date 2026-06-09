@@ -1,9 +1,9 @@
-### 解题思路
-从四条边界入手可以染色所有非岛的陆地；之后通过染色遍历小岛数量
+// ### 解题思路
+// 从四条边界入手可以染色所有非岛的陆地；之后通过染色遍历小岛数量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int closedIsland(vector<vector<int>>& grid) {
@@ -37,4 +37,4 @@ void virus(vector<vector<int>>& grid,int i,int j,int color){
     if(j!=0&&grid[i][j-1]==0) virus(grid,i,j-1,color);   
 }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-经典的鸡兔同笼问题，假设大汉堡x个，小汉堡y个，可列方程组
+// 经典的鸡兔同笼问题，假设大汉堡x个，小汉堡y个，可列方程组
 
-4x + 2y = ts
+// 4x + 2y = ts
 
-x + y = bs
+// x + y = bs
 
-对应求解即可
+// 对应求解即可
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> numOfBurgers(int ts, int cs) {
@@ -17,5 +17,5 @@ public:
         return {x, y};
     }
 };
-```
+// ```
 

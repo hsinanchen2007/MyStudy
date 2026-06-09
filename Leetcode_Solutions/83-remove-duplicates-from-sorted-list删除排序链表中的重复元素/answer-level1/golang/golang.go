@@ -1,4 +1,4 @@
-```
+// ```
 func deleteDuplicates(head *ListNode) *ListNode {
 	if head == nil {
 		return head
@@ -23,4 +23,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 
 	return head
 }
-```
+// ```

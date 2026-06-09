@@ -1,11 +1,11 @@
-### 解题思路
-1、先排序
-2、要解决的是元素重复的问题
-3、在哪加1最后效果都相同
+// ### 解题思路
+// 1、先排序
+// 2、要解决的是元素重复的问题
+// 3、在哪加1最后效果都相同
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         int result=0;
@@ -28,4 +28,4 @@ class Solution {
 
     }
 }
-```
+// ```

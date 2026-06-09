@@ -1,6 +1,6 @@
 
 
-```
+// ```
 方法1：循环找最后一个节点
 typedef struct ListNode NODE_S;
 
@@ -90,4 +90,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
 
     return pNewHead;
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         if not s:return 0
@@ -12,4 +12,4 @@ class Solution(object):
             lookup.add(i)
             res=max(len(lookup),res)
         return res
-```
+# ```

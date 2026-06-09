@@ -1,6 +1,6 @@
-双指针法来运算，不用考虑中间数组
+# 双指针法来运算，不用考虑中间数组
 
-```
+# ```
 class Solution(object):
     def canThreePartsEqualSum(self, A):
         """
@@ -38,4 +38,4 @@ class Solution(object):
 
         #如果从前往后的索引值小于从后往前的索引值，并且两个索引值不相邻，则正确
         return True if start_index + 1 < end_index else False
-```
+# ```

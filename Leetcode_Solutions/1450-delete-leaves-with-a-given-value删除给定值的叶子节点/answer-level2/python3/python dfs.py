@@ -1,5 +1,5 @@
-都在代码里了
-```python
+# 都在代码里了
+# ```python
 class Solution:
     def removeLeafNodes(self, root: TreeNode, target: int) -> TreeNode:
         def dfs(node):  #返回一个布尔值，表示这个节点是否需要删除
@@ -15,4 +15,4 @@ class Solution:
         if root and dfs(root):
             root=None #根节点如果符合条件同样需要删除
         return root
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-和Code303相似，当数据会变化时，线段树的复杂度远远低于数组解法
+// ### 解题思路
+// 和Code303相似，当数据会变化时，线段树的复杂度远远低于数组解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
         private int[] data;
         private int[] tree;
@@ -105,4 +105,4 @@ class NumArray {
  * obj.update(i,val);
  * int param_2 = obj.sumRange(i,j);
  */
-```
+// ```

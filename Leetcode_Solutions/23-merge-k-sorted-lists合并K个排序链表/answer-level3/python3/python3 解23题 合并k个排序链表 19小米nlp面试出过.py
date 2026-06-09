@@ -1,5 +1,5 @@
-解题：
-对于多路归并排列，我们可以使用优先队列解决。我们首先想到的解法是，依次将list中的ListNode弹出，然后一次添加到一个优先队列中，最后将优先队列中ListNode依次弹出，并且添加到result中即可。
+# 解题：
+# 对于多路归并排列，我们可以使用优先队列解决。我们首先想到的解法是，依次将list中的ListNode弹出，然后一次添加到一个优先队列中，最后将优先队列中ListNode依次弹出，并且添加到result中即可。
 class Solution(object):
     def mergeKLists(self, lists):
         """

@@ -1,9 +1,9 @@
-### 解题思路
-要多思考循环的截止条件到底是当前为空还是下一个为空
+// ### 解题思路
+// 要多思考循环的截止条件到底是当前为空还是下一个为空
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
 
     }
 }
-```
+// ```

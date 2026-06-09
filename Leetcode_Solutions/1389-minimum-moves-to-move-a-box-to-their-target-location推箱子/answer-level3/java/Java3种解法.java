@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     static Integer[][] dirs = new Integer[][] {
         {-1, 0}, {0, 1}, {1, 0}, {0, -1}
@@ -86,11 +86,11 @@ class Solution {
     }
 }
 
-```
+// ```
 
 
-解法2：箱子A*，玩家BestFirst
-```
+// 解法2：箱子A*，玩家BestFirst
+// ```
 class Solution {
     
     static Vector[] dirs = new Vector[] {
@@ -345,12 +345,12 @@ class Solution {
         return -1;
     }
 }
-```
+// ```
 
 
-解法3：箱子A*，人tarjan
+// 解法3：箱子A*，人tarjan
 
-```
+// ```
 class Solution {
 
     static Vector[] dirs = new Vector[] {
@@ -621,4 +621,4 @@ class Solution {
     }
 
 }
-```
+// ```

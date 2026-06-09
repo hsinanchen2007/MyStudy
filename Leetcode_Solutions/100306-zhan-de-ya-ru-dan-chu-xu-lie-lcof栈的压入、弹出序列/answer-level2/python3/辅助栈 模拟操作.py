@@ -1,4 +1,4 @@
-```
+# ```
 
 # 使用一个辅助stack模拟push 及 pop操作，
 # 每push一个数，检查辅助stack末尾和poped stack开始，如果相同，同时pop
@@ -25,4 +25,4 @@
 print(Solution().valid([8,2,1,4,7,9,0,3,5,6],[1,2,7,3,6,4,0,9,5,8]))
 print(Solution().valid([1,2,3,4,5],[4,5,3,2,1]))
 print(Solution().valid([2,1,0],[1,2,0]))
-```
+# ```

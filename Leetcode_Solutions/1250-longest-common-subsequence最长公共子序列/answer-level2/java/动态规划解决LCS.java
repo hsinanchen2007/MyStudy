@@ -1,18 +1,18 @@
-### 解题思路
- 开始思路：
-    dp[i][j]=max{dp[i-1][j],dp[i][j-1],dp[i-1][j-1]+(s1.charAt(i) == s2.charAt(j) ? 1 : 0)} (i>0&&j>0)
-    dp[0][0]=s1.charAt(i) == s2.charAt(j) ? 1 : 0;  (i==0||j==0)
-    dp[i][j]=max{dp[i][j-1],s1.charAt(i) == s2.charAt(j)}  (i==0,j>0)
-    dp[i][j]=max{dp[i-1][j],s1.charAt(i) == s2.charAt(j)}  (j==0,i>0)
+// ### 解题思路
+//  开始思路：
+//     dp[i][j]=max{dp[i-1][j],dp[i][j-1],dp[i-1][j-1]+(s1.charAt(i) == s2.charAt(j) ? 1 : 0)} (i>0&&j>0)
+//     dp[0][0]=s1.charAt(i) == s2.charAt(j) ? 1 : 0;  (i==0||j==0)
+//     dp[i][j]=max{dp[i][j-1],s1.charAt(i) == s2.charAt(j)}  (i==0,j>0)
+//     dp[i][j]=max{dp[i-1][j],s1.charAt(i) == s2.charAt(j)}  (j==0,i>0)
  
-  优化后的
-   dp[i][j]=0 (i==0||j==0)
-   dp[i][j]=dp[i-1][j-1]+1; (s1[i]==s2[j])
-   dp[i][j]=max{dp[i-1][j],dp[i][j-1]} (s1[i]!=s2[j])
+//   优化后的
+//    dp[i][j]=0 (i==0||j==0)
+//    dp[i][j]=dp[i-1][j-1]+1; (s1[i]==s2[j])
+//    dp[i][j]=max{dp[i-1][j],dp[i][j-1]} (s1[i]!=s2[j])
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 //动态规划 迭代方式
     public int longestCommonSubsequence(String text1, String text2) {
@@ -36,4 +36,4 @@ class Solution {
     }
 }
 
-```
+// ```

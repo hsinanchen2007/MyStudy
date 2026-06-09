@@ -1,8 +1,8 @@
-仅在一遍扫描之内完成任务，无需先行扫描确定rook位置。
-大致思路：分遇到rook前后两种情况，采用不同的记录方案。
-使用了unordered_set便于快速寻找和去除重复。
-双100%通过。
-```c++
+// 仅在一遍扫描之内完成任务，无需先行扫描确定rook位置。
+// 大致思路：分遇到rook前后两种情况，采用不同的记录方案。
+// 使用了unordered_set便于快速寻找和去除重复。
+// 双100%通过。
+// ```c++
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -54,4 +54,4 @@ public:
         return capture;
     }
 };
-```
+// ```

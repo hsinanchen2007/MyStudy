@@ -1,9 +1,9 @@
-### 解题思路
-BFS遍历
+# ### 解题思路
+# BFS遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         #存储网格行列数，设置初始时间为零
@@ -33,4 +33,4 @@ class Solution:
                 return -1
         return time
 
-```
+# ```

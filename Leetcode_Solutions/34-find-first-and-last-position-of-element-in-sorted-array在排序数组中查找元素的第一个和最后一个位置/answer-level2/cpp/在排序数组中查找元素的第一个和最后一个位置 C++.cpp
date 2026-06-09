@@ -1,6 +1,6 @@
-首尾双指针+二分法
-核心思路是先用二分法在mid位置找到target，然后再逐一移动首尾指针扩大范围；
-注意，一定是left, right指向向内移动而不是向外移动，因为如果向外移动的话，上一轮的mid就是left,right的边界，上一轮就已经发现了；
+// 首尾双指针+二分法
+// 核心思路是先用二分法在mid位置找到target，然后再逐一移动首尾指针扩大范围；
+// 注意，一定是left, right指向向内移动而不是向外移动，因为如果向外移动的话，上一轮的mid就是left,right的边界，上一轮就已经发现了；
 vector<int> searchRange(vector<int>& nums, int target) {
 		int left = 0, right = nums.size() - 1;
 		vector<int> result;

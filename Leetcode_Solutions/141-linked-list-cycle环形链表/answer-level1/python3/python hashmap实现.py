@@ -1,9 +1,9 @@
-### 解题思路
-python中可使用set类型实现hashmap
+# ### 解题思路
+# python中可使用set类型实现hashmap
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
         return False
         
 
-```
+# ```

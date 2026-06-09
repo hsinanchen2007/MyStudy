@@ -1,13 +1,13 @@
-### 解题思路
-对height 排序
-从低height 开始 计算最大面积
-低height 可以切割 区域 为多个子区域
-下一个高height 只能在子区域内 求面积
+// ### 解题思路
+// 对height 排序
+// 从低height 开始 计算最大面积
+// 低height 可以切割 区域 为多个子区域
+// 下一个高height 只能在子区域内 求面积
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 
 using VT = System.ValueTuple<int, int>;
 class HisPos{
@@ -169,4 +169,4 @@ public class Solution {
         return hg.LargestRectangleArea(heights);
     }
 }
-```
+// ```

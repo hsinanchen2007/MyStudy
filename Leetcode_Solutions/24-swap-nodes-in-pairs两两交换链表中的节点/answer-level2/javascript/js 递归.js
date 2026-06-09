@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b04701be73de0cd0dfef3139f50338d3cb4fd91ec59596455e2855b5dc59e104-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b04701be73de0cd0dfef3139f50338d3cb4fd91ec59596455e2855b5dc59e104-image.png)
 
-递归反转
+// 递归反转
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -36,4 +36,4 @@ var swapPairs = function(head) {
     swap(head, null);
     return res
 };
-```
+// ```

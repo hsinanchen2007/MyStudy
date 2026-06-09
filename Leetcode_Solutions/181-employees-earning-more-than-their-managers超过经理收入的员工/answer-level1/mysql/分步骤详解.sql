@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT
 	* 
 FROM
@@ -26,4 +26,4 @@ FROM
 WHERE
 	l1.ManagerId = l2.Id 
 	AND l1.Salary > l2.Salary;
-```
+-- ```

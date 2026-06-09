@@ -1,8 +1,8 @@
-### 解题思路
-...就先在前面插个眼。。
-### 代码
+# ### 解题思路
+# ...就先在前面插个眼。。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         pre = -1
@@ -13,4 +13,4 @@ class Solution:
                 return item
         return nums[0]
 
-```
+# ```

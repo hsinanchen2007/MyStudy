@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n2）
-空间复杂度：O（1）
+# ### 解题思路
+# 时间复杂度：O（n2）
+# 空间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gardenNoAdj(self, N: int, paths: List[List[int]]) -> List[int]:
         """
@@ -29,4 +29,4 @@ class Solution:
             if temp_color_list:
                 answer[i] = temp_color_list[0]
         return answer
-```
+# ```

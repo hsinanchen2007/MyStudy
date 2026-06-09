@@ -1,7 +1,7 @@
-### 解题思路
-1. 首先没有好思路，就实现了最暴力的解法。遍历s中每一个p长度串，然后判断是否是异位词。判断方法是使用两个哈希表来存储字母和频次加一点小剪枝。不出意外超时了。
-### 代码
-```java
+// ### 解题思路
+// 1. 首先没有好思路，就实现了最暴力的解法。遍历s中每一个p长度串，然后判断是否是异位词。判断方法是使用两个哈希表来存储字母和频次加一点小剪枝。不出意外超时了。
+// ### 代码
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         if(s == null || s.length() == 0 || p == null || p.length() == 0 || s.length() < p.length())
@@ -31,11 +31,11 @@ class Solution {
         return res;
     }
 }
-```
-### 解题思路
-2. 然后想起用转质数相乘的方法来解决，尝试结果为解答错误。分析原因是乘积数长度越界了。。
-### 代码
-```java
+// ```
+// ### 解题思路
+// 2. 然后想起用转质数相乘的方法来解决，尝试结果为解答错误。分析原因是乘积数长度越界了。。
+// ### 代码
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         if(s == null || s.length() == 0 || p == null || p.length() == 0 || s.length() < p.length())
@@ -66,11 +66,11 @@ class Solution {
         return res;
     }
 }
-```
-### 解题思路
-3. 想到质数相乘的方法是，就有点滑动窗口的意思了。因此就将1,2方法进行了合并，即通过使用两个哈希表存储字母和频次，然后维护p长度大小的窗口，逐个删除，添加。。。。直到最后。结果通过，时间在90ms左右。
-### 代码
-```java
+// ```
+// ### 解题思路
+// 3. 想到质数相乘的方法是，就有点滑动窗口的意思了。因此就将1,2方法进行了合并，即通过使用两个哈希表存储字母和频次，然后维护p长度大小的窗口，逐个删除，添加。。。。直到最后。结果通过，时间在90ms左右。
+// ### 代码
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         if(s == null || s.length() == 0 || p == null || p.length() == 0 || s.length() < p.length())
@@ -97,12 +97,12 @@ class Solution {
         return res;
     }
 }
-```
-### 解题思路
-4. 后来在别人题解中看的使用数组来存储字母和频次，因此替换了哈希表。时间到了7ms。
-5. 大神题解的思路非常好，而且是一个通用的方法，值得借鉴。
-### 代码
-```java
+// ```
+// ### 解题思路
+// 4. 后来在别人题解中看的使用数组来存储字母和频次，因此替换了哈希表。时间到了7ms。
+// 5. 大神题解的思路非常好，而且是一个通用的方法，值得借鉴。
+// ### 代码
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         if(s == null || s.length() == 0 || p == null || p.length() == 0 || s.length() < p.length())
@@ -131,4 +131,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

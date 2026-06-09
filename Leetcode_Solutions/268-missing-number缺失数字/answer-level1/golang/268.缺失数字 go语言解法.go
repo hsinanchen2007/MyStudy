@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先求0-n序列的和，再减去所给序列的和，即为缺失的数
+// 先求0-n序列的和，再减去所给序列的和，即为缺失的数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
 	n := len(nums)
 	sum1 := (n * n + n) / 2
@@ -14,4 +14,4 @@ func missingNumber(nums []int) int {
 	}
 	return sum1 - sum2
 }
-```
+// ```

@@ -1,25 +1,25 @@
-```
+// ```
 //这里掌握了bfs的模板，套用下基本可以解决，但是本题目定位为Easy，其他Medium的题目好像不是很服的样子。
 bfs模板
-```
-visited = set()
-def BFS(graph, start, end):
-    if graph.root is None:
-      return []
+// ```
+// visited = set()
+// def BFS(graph, start, end):
+//     if graph.root is None:
+//       return []
 
-    queue = []
-    queue.append([start])
-    while queue:
-        node = queue.pop()
-        visited.add(node)
+//     queue = []
+//     queue.append([start])
+//     while queue:
+//         node = queue.pop()
+//         visited.add(node)
 
-        process(node)
-        nodeChildren = generateRelatedNodes(node)
-        queue.push(nodeChildren)
+//         process(node)
+//         nodeChildren = generateRelatedNodes(node)
+//         queue.push(nodeChildren)
 
-    //other process work
-    return processedNodes
-```
+//     //other process work
+//     return processedNodes
+// ```
 class Solution3 {
     let dx = [0,1,0,-1]
     let dy = [1,0,-1,0]
@@ -83,4 +83,4 @@ class Solution3 {
         return countOfOne > 0
     }
 }
-```
+// ```

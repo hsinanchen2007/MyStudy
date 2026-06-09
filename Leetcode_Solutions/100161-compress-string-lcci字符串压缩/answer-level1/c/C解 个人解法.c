@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，判断，并与次数拼接后返回。
+// ### 解题思路
+// 遍历字符串，判断，并与次数拼接后返回。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     int len = strlen(S);
     char *str = (char *)malloc(sizeof(char) * (2 * len + 1));
@@ -29,4 +29,4 @@ char* compressString(char* S){
     }
     return str;
 }
-```
+// ```

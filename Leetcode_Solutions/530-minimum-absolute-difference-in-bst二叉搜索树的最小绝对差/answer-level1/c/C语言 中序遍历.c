@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历，记录最小差值
+// ### 解题思路
+// 中序遍历，记录最小差值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ int getMinimumDifference(struct TreeNode* root){
 	midTra(root, &last_val, &min);
 	return min;
 }
-```
+// ```

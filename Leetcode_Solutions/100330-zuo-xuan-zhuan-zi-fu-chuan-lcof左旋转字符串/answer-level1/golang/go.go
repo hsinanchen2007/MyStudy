@@ -1,5 +1,5 @@
-解题思路 将字符转换成数组，然后用切片切割之后再拼接```
-代码块
+// 解题思路 将字符转换成数组，然后用切片切割之后再拼接```
+// 代码块
 func reverseLeftWords1(s string, n int) string {
 	str := strings.Split(s, "")
 	strs1 := str[:n]

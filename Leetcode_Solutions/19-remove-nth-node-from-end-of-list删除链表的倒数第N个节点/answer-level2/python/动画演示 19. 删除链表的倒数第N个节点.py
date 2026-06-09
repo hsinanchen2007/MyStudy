@@ -1,10 +1,10 @@
-# 两次遍历
-两次遍历的方式很好理解，先遍历一次链表，求出链表的总长度。   
-第二次遍历的时候，根据总长度k的值-n，就算出需要再遍历多少个节点，找到要删除的节点的前一个节点x。   
-然后将x节点的next指针指向下下一个节点就可以删除节点了。   
+# # 两次遍历
+# 两次遍历的方式很好理解，先遍历一次链表，求出链表的总长度。   
+# 第二次遍历的时候，根据总长度k的值-n，就算出需要再遍历多少个节点，找到要删除的节点的前一个节点x。   
+# 然后将x节点的next指针指向下下一个节点就可以删除节点了。   
    
-代码实现：
-```java []
+# 代码实现：
+# ```java []
 class Solution {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		if(head==null || n<=0) {
@@ -37,8 +37,8 @@ class Solution {
 		return p.next;
 	}
 }
-```
-```python []
+# ```
+# ```python []
 class Solution(object):
 	def removeNthFromEnd(self, head, n):
 		"""
@@ -65,19 +65,19 @@ class Solution(object):
 		# 删除节点，并返回
 		b.next = b.next.next
 		return p.next
-```
+# ```
    
    
    
-# 一次遍历
-当链表总长度是k时，如果要删除倒数第n个节点(假设n小于k)，那么首先要找到第k-n个节点，k-n这个节点就是要删除的节点的前一个节点。   
-当找到k-n这个节点就好办了，直接将k-n的next指针指向下下一个节点即可。   
-我们需要两个指针a和b。   
-b指针先走n步，接着a和b指针同时往前走，当b指针走到链表末尾时，a指针就正好走到要删除的节点的前一个位置了，最后a节点的next指针指向下下一个节点，就可以完成删除操作了。   
-![19.删除链表倒数n个节点.gif](https://pic.leetcode-cn.com/6ca1b293adce7a473b5bee6b5f0838e20aa773af811373b2974f96e744e46e9d-19.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E5%80%92%E6%95%B0n%E4%B8%AA%E8%8A%82%E7%82%B9.gif)
+# # 一次遍历
+# 当链表总长度是k时，如果要删除倒数第n个节点(假设n小于k)，那么首先要找到第k-n个节点，k-n这个节点就是要删除的节点的前一个节点。   
+# 当找到k-n这个节点就好办了，直接将k-n的next指针指向下下一个节点即可。   
+# 我们需要两个指针a和b。   
+# b指针先走n步，接着a和b指针同时往前走，当b指针走到链表末尾时，a指针就正好走到要删除的节点的前一个位置了，最后a节点的next指针指向下下一个节点，就可以完成删除操作了。   
+# ![19.删除链表倒数n个节点.gif](https://pic.leetcode-cn.com/6ca1b293adce7a473b5bee6b5f0838e20aa773af811373b2974f96e744e46e9d-19.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E5%80%92%E6%95%B0n%E4%B8%AA%E8%8A%82%E7%82%B9.gif)
    
-代码实现：
-```java []
+# 代码实现：
+# ```java []
 class Solution {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		//增加一个特殊节点方便边界判断
@@ -106,8 +106,8 @@ class Solution {
 		return p.next;
 	}
 }
-```
-```python []
+# ```
+# ```python []
 class Solution(object):
 	def removeNthFromEnd(self, head, n):
 		"""
@@ -132,9 +132,9 @@ class Solution(object):
 		# 删除节点并返回	
 		a.next = a.next.next
 		return p.next	
-```
-(全文完)
+# ```
+# (全文完)
    
-**如果你觉得本文对你有帮助，欢迎关注我的公众号。**
+# **如果你觉得本文对你有帮助，欢迎关注我的公众号。**
    
-![ban.png](https://pic.leetcode-cn.com/6b52b8de211ec9b634d7aaf6ccf2d9149160ca3b67ea0742c57f622f1c54e47d-ban.png)
+# ![ban.png](https://pic.leetcode-cn.com/6b52b8de211ec9b634d7aaf6ccf2d9149160ca3b67ea0742c57f622f1c54e47d-ban.png)

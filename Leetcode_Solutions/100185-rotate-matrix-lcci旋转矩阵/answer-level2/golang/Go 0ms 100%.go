@@ -1,9 +1,9 @@
-### 解题思路
-先对matrix转置（只需对主对角线下半区域与主对角线对称位置交换即可）,再对matrix按行逆序
+// ### 解题思路
+// 先对matrix转置（只需对主对角线下半区域与主对角线对称位置交换即可）,再对matrix按行逆序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func rotate(matrix [][]int)  {
 	// matrix 转置
 	for i:=0;i<len(matrix);i++{
@@ -18,4 +18,4 @@ func rotate(matrix [][]int)  {
 		}
 	}
 }
-```
+// ```

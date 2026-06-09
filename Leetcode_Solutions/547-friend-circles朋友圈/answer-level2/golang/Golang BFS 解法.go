@@ -1,7 +1,7 @@
 
-- 基于广度优先搜索依次确认每个人的朋友圈
+// - 基于广度优先搜索依次确认每个人的朋友圈
 
-```
+// ```
 func findCircleNum(M [][]int) int {
     if len(M) <= 1 {
         return len(M)
@@ -39,4 +39,4 @@ func BFS(M [][]int, visited []bool, c int) {
 }
 
 
-```
+// ```

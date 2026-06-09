@@ -1,5 +1,5 @@
-纯C
-```
+// 纯C
+// ```
 int lengthOfLongestSubstring(char * s){
     int maxValue = 0; // the max length of substring, to return
     int tempMaxValue = 0; // temp length 
@@ -39,4 +39,4 @@ int lengthOfLongestSubstring(char * s){
 
     return maxValue;
 }
-```
+// ```

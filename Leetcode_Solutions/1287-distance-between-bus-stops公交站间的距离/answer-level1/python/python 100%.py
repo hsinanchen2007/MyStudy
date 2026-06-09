@@ -1,9 +1,9 @@
-### 解题思路
-反正就是顺时针或者逆时针
+# ### 解题思路
+# 反正就是顺时针或者逆时针
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distanceBetweenBusStops(self, distance, start, destination):
         """
@@ -20,4 +20,4 @@ class Solution(object):
         halfSum = sum(distance[minIdx: maxIdx])
         return min(halfSum, totalDistance-halfSum)
 
-```
+# ```

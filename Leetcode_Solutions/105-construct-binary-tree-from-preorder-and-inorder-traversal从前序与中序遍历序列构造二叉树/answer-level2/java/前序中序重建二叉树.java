@@ -1,8 +1,8 @@
-### 解题思路
-1. 根据前序的数，将中序切分，然后左右递归，详细看代码，注意需要四个指针。
-### 代码
+// ### 解题思路
+// 1. 根据前序的数，将中序切分，然后左右递归，详细看代码，注意需要四个指针。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

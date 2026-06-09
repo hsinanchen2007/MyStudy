@@ -1,4 +1,4 @@
-```
+-- ```
 select 
     Salary as  SecondHighestSalary  
 from (
@@ -9,4 +9,4 @@ from (
     order by Salary desc)t
  where num =2)s 
 
-```
+-- ```

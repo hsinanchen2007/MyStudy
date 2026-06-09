@@ -1,9 +1,9 @@
-### 解题思路
-利用java的hashset不能有重复值这一特点，当发现重复时就说明有环
+// ### 解题思路
+// 利用java的hashset不能有重复值这一特点，当发现重复时就说明有环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -32,4 +32,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

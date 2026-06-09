@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-深度优先遍历，但是需要保证所有时刻右括号的数目要大于等于左括号的数目
+# 深度优先遍历，但是需要保证所有时刻右括号的数目要大于等于左括号的数目
 
-同时能够生成的合法的括号的数目也是卡特兰数$\frac{C_{2n}^{n}}{n+1}$。
+# 同时能够生成的合法的括号的数目也是卡特兰数$\frac{C_{2n}^{n}}{n+1}$。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
     
@@ -32,4 +32,4 @@ class Solution:
         r = []
         dfs(res, n, n)
         return r
-```
+# ```

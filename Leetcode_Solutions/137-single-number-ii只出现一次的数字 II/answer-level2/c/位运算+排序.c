@@ -1,8 +1,8 @@
-### 解题思路
-先用qsort排序，然后异或运算。
-### 代码
+// ### 解题思路
+// 先用qsort排序，然后异或运算。
+// ### 代码
 
-```c
+// ```c
 int comFun(const void *a, const void *b) 
 {
     if( *(int*)a > *(int*)b){
@@ -37,4 +37,4 @@ int singleNumber(int* nums, int numsSize){
     }
     return tmp;
 }
-```
+// ```

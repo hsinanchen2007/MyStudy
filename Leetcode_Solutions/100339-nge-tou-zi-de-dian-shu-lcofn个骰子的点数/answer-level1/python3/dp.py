@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, n: int) -> List[float]:
         dp = [[0]*(6*n+1) for _ in range(n+1)]
@@ -17,4 +17,4 @@ class Solution:
         ans = list(map(lambda x:x/6**n,ans))
         return ans
 
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-遇到（ 就++
-遇到 ）就--
-当遇到（） 就结算一次。
+// ### 解题思路
+// 遇到（ 就++
+// 遇到 ）就--
+// 当遇到（） 就结算一次。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int scoreOfParentheses(String S) {
        int ans=0;
@@ -24,4 +24,4 @@ class Solution {
         
     }
 }
-```
+// ```

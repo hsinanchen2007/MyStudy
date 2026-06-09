@@ -1,9 +1,9 @@
-![捕获.PNG](https://pic.leetcode-cn.com/c1e5fa449fb6021cbf15736b63d89893ed37a02627ac98033f94e31849f6accf-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/c1e5fa449fb6021cbf15736b63d89893ed37a02627ac98033f94e31849f6accf-%E6%8D%95%E8%8E%B7.PNG)
 
 
-思路方法：循环，一个一个字母比较
+// 思路方法：循环，一个一个字母比较
 
-代码如下
+// 代码如下
 
 char * longestCommonPrefix(char ** strs, int strsSize){
     if (strsSize == 1)

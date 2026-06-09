@@ -1,9 +1,9 @@
-### 解题思路
-太晚了，明天再写思路。
+// ### 解题思路
+// 太晚了，明天再写思路。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         String[] dp = new String[n] ;
@@ -28,4 +28,4 @@ class Solution {
         return dp[n-1] ;
     }
 }
-```
+// ```

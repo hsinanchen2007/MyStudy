@@ -1,4 +1,4 @@
-```
+// ```
 public String removeOuterParentheses(String S) {
         StringBuilder result = new StringBuilder();//结果
         StringBuilder sb = new StringBuilder();//原语
@@ -17,4 +17,4 @@ public String removeOuterParentheses(String S) {
         }
         return result.toString();
     }
-```
+// ```

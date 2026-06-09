@@ -1,14 +1,14 @@
-![TIM截图20191222142714.png](https://pic.leetcode-cn.com/ebfeffdc24b2887de0d60ad5cb9a97915beb537adcf92288ae5824d09e17c076-TIM%E6%88%AA%E5%9B%BE20191222142714.png)
+// ![TIM截图20191222142714.png](https://pic.leetcode-cn.com/ebfeffdc24b2887de0d60ad5cb9a97915beb537adcf92288ae5824d09e17c076-TIM%E6%88%AA%E5%9B%BE20191222142714.png)
 
- 基础思路
-1. 利用hashmap统计数组中每个数字出现的次数
-2. 将结果装到一个二维数组mark[][]中,mark[i][0]表示出现的数字，mark[i][1]是其对应出现的次数
-3. 用lambda表达式将mark按第一列升序排序
-4. 变量j遍历数组，每次从mark数组中拿出k个字符
-5. 首先判断拿出来的k个字符是否连续，不连续则false
-6. 将每个字符出现的个数减去mark[j][1],即减去拿出来的字符串的第一个字符出现的次数，也就是从数组中移除了以mark[j][0]开头的、长度为k的所有连续字串
-7. 判断数组中是否全部数字被移除，是则true，否则false
-```
+//  基础思路
+// 1. 利用hashmap统计数组中每个数字出现的次数
+// 2. 将结果装到一个二维数组mark[][]中,mark[i][0]表示出现的数字，mark[i][1]是其对应出现的次数
+// 3. 用lambda表达式将mark按第一列升序排序
+// 4. 变量j遍历数组，每次从mark数组中拿出k个字符
+// 5. 首先判断拿出来的k个字符是否连续，不连续则false
+// 6. 将每个字符出现的个数减去mark[j][1],即减去拿出来的字符串的第一个字符出现的次数，也就是从数组中移除了以mark[j][0]开头的、长度为k的所有连续字串
+// 7. 判断数组中是否全部数字被移除，是则true，否则false
+// ```
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
         //处理极端情况
@@ -54,4 +54,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

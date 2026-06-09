@@ -1,5 +1,5 @@
-思路写注释里了。
-```
+// 思路写注释里了。
+// ```
 class Solution {
     public int search(int[] arr, int target) {
         return binarySearch(arr, target, 0, arr.length-1);
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

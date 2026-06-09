@@ -1,4 +1,4 @@
-```
+// ```
 class Node { // 节点
     let key: Int, value: Int
     var pre: Node?, next: Node?
@@ -8,8 +8,8 @@ class Node { // 节点
         self.value = value
     }
 }
-```
-```
+// ```
+// ```
 class DoubleList { // 双向链表
 
     private let head: Node, tail: Node
@@ -53,8 +53,8 @@ class DoubleList { // 双向链表
     }
 
 }
-```
-```
+// ```
+// ```
 class LRUCache {
 
     private let capacity: Int
@@ -94,4 +94,4 @@ class LRUCache {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn largest_triangle_area(points: Vec<Vec<i32>>) -> f64 {
         let mut max_area = 0_f64;
@@ -22,5 +22,5 @@ impl Solution {
         a[1] * b[0] - b[1] * c[0] - c[1] * a[0]).abs() as f64 / 2.0
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

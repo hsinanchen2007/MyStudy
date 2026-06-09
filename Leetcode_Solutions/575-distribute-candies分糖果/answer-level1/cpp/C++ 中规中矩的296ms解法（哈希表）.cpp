@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
@@ -9,4 +9,4 @@ public:
         return min(cache.size(),candies.size()/2);
     }
 };
-```
+// ```

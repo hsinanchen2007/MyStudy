@@ -1,4 +1,4 @@
-```
+// ```
 
 #define MAX 50
 #define STACK_NODE_MAX  (25 * 25 + 1)
@@ -133,6 +133,6 @@ int numDistinctIslands(int **grid, int gridSize, int* gridColSize){
 
     return GetDiffCnt(&stackList);
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/36b6bd26380f6a4eb9a08f839e4cfb7429d7d6e3f06a27f91439c40c1d5419a6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/36b6bd26380f6a4eb9a08f839e4cfb7429d7d6e3f06a27f91439c40c1d5419a6-image.png)

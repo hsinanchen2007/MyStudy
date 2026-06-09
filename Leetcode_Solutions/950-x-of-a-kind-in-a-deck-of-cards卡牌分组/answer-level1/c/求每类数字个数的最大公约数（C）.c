@@ -1,9 +1,9 @@
-### 解题思路
-把有相同数字的卡牌数量找出来，再求这些数量的最大公约数。
+// ### 解题思路
+// 把有相同数字的卡牌数量找出来，再求这些数量的最大公约数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //更相减损术
 int gcd(int a,int b){
     while(a != b){
@@ -62,4 +62,4 @@ bool hasGroupsSizeX(int* deck,int deckSize){
     if(Greatest_common_divisor(types,0,typesSize - 1) != 1) return true;
     return false;
 }
-```
+// ```

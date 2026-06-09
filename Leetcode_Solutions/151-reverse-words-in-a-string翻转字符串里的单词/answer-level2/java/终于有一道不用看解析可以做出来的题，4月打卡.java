@@ -1,9 +1,9 @@
-### 解题思路
-split+trim，跳过空字符串多试几次
+// ### 解题思路
+// split+trim，跳过空字符串多试几次
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
     	String[]words = s.split(" ");
@@ -17,4 +17,4 @@ class Solution {
     	return ans.trim();
     }
 }
-```
+// ```

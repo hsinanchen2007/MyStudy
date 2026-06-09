@@ -1,9 +1,9 @@
-### 解题思路
-题目要求时间复杂度是logN，所以采取二分查找算法。定义两个全局遍历first = nums.size(), last = -1,然后每次递归时和一般二分查找递归算法一样，不同之处在于：如果找到一个等于target的下标mid时，当mid<first, 则first=mid， 当mid>last, z则last = mid。不停止，继续递归。所有递归结束后返回正确的结果。
+// ### 解题思路
+// 题目要求时间复杂度是logN，所以采取二分查找算法。定义两个全局遍历first = nums.size(), last = -1,然后每次递归时和一般二分查找递归算法一样，不同之处在于：如果找到一个等于target的下标mid时，当mid<first, 则first=mid， 当mid>last, z则last = mid。不停止，继续递归。所有递归结束后返回正确的结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -28,4 +28,4 @@ public:
         binarySearch(nums, mid + 1, right, target);
     }
 };
-```
+// ```

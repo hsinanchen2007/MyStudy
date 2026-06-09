@@ -1,9 +1,9 @@
-### 解题思路
-对k进行求余可以知道从实际第几位开始拼接
+// ### 解题思路
+// 对k进行求余可以知道从实际第几位开始拼接
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

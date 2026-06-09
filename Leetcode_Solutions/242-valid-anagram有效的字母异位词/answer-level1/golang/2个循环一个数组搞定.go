@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
@@ -22,4 +22,4 @@ func isAnagram(s string, t string) bool {
 	return true
 }
 
-```
+// ```

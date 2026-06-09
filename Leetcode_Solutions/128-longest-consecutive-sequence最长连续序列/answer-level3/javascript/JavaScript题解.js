@@ -1,13 +1,13 @@
-[128.最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/solution/zui-chang-lian-xu-xu-lie-by-leetcode/)    
+// [128.最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/solution/zui-chang-lian-xu-xu-lie-by-leetcode/)    
 
-[力扣JS题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)
+// [力扣JS题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)
 
 
-## 方法一   
+// ## 方法一   
 
-在方法三暴力解法之上的优化，采用set记录所有的数组元素，在遍历的过程中，如果set中存在比当前数字小1的数字，则表示当前数字是某一序列中的一个数，则不对该数字进行遍历，只针对作为某一序列起始数字的数字进行遍历。   
+// 在方法三暴力解法之上的优化，采用set记录所有的数组元素，在遍历的过程中，如果set中存在比当前数字小1的数字，则表示当前数字是某一序列中的一个数，则不对该数字进行遍历，只针对作为某一序列起始数字的数字进行遍历。   
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -36,16 +36,16 @@ var longestConsecutive = function(nums) {
     }
     return max;
 };
-```
+// ```
 
 
-## 方法二    
+// ## 方法二    
 
-先对数组进行排序，排序之后查找最长连续序列，查找过程中，遇到当前序列与上一个序列相同则跳过。   
+// 先对数组进行排序，排序之后查找最长连续序列，查找过程中，遇到当前序列与上一个序列相同则跳过。   
 
-时间复杂度为`O(nlogn)`，在力扣能跑过。
+// 时间复杂度为`O(nlogn)`，在力扣能跑过。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -67,13 +67,13 @@ var longestConsecutive = function(nums) {
     }
     return Math.max(times, max);
 };
-```
+// ```
 
-## 方法三    
+// ## 方法三    
 
-暴力解法，判断数组中的每一个数字组成的子序列的长度，取最长。时间复杂度为`O(n的三次方)`，在力扣中跑会超时。
+// 暴力解法，判断数组中的每一个数字组成的子序列的长度，取最长。时间复杂度为`O(n的三次方)`，在力扣中跑会超时。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -98,4 +98,4 @@ function help(nums, key) {
     }
     return false;
 }
-```
+// ```

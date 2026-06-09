@@ -1,8 +1,8 @@
-### 解题思路
-对表里面的每一列，找到是否有一个降序存在，如果存在，res加1，跳出内循环继续执行。
-### 代码
+# ### 解题思路
+# 对表里面的每一列，找到是否有一个降序存在，如果存在，res加1，跳出内循环继续执行。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:
         res = 0
@@ -12,4 +12,4 @@ class Solution:
                     res += 1
                     break
         return res  
-```
+# ```

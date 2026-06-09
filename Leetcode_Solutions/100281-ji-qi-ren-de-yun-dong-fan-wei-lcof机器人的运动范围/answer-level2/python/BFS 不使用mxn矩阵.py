@@ -1,7 +1,7 @@
-感觉不需要初始化一个`mxn`的矩阵, 直接构造一个集合保存能够访问的点就可以
-最后结果就是这个集合中元素的个数
+# 感觉不需要初始化一个`mxn`的矩阵, 直接构造一个集合保存能够访问的点就可以
+# 最后结果就是这个集合中元素的个数
 
-```python
+# ```python
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def getSum(i, j):
@@ -27,4 +27,4 @@ class Solution:
                         que.append((i+di, j+dj))
         return len(visited)
 
-```
+# ```

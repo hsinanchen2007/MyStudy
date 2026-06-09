@@ -1,6 +1,6 @@
-思路和解法和“删除链表中等于给定值 val 的所有节点”这道题一毛一样~
+// 思路和解法和“删除链表中等于给定值 val 的所有节点”这道题一毛一样~
 
-```c
+// ```c
 struct ListNode* deleteDuplicates(struct ListNode* head){
     if(head == NULL)return head;
     struct ListNode *first = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -19,5 +19,5 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head->next;
 }
-```
+// ```
 

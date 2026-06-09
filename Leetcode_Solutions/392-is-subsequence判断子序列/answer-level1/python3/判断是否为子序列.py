@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         m, n, find = 0, 0, 0
@@ -12,4 +12,4 @@ class Solution:
                 m += 1
             n += 1
         return find == len(s)
-```
+# ```

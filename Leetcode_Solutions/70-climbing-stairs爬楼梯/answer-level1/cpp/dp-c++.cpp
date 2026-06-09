@@ -1,20 +1,20 @@
-### 解题思路
-按dp题思路做：
+// ### 解题思路
+// 按dp题思路做：
 
-状态：楼梯数
+// 状态：楼梯数
 
-dp数组含义：dp[i]表示i阶楼梯所需的方法数
+// dp数组含义：dp[i]表示i阶楼梯所需的方法数
 
-方程：$dp[i] = dp[i-1] + dp[i-2],i>=2$
+// 方程：$dp[i] = dp[i-1] + dp[i-2],i>=2$
 
-这不就是斐波那契数列吗？？
+// 这不就是斐波那契数列吗？？
 
-Base case: dp[0] = 0, dp[1] = 1, dp[2] = 2
+// Base case: dp[0] = 0, dp[1] = 1, dp[2] = 2
 
-双一百，done!
-### 代码
+// 双一百，done!
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -30,4 +30,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

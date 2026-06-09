@@ -1,7 +1,7 @@
-148ms  393MB
-完成的第一版结果，回头检查代码，两数组相加后可直接生成链表了，无需存入临时数组在转换为链表，后续再调整。
+// 148ms  393MB
+// 完成的第一版结果，回头检查代码，两数组相加后可直接生成链表了，无需存入临时数组在转换为链表，后续再调整。
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -74,4 +74,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return resList;
 };
-```
+// ```

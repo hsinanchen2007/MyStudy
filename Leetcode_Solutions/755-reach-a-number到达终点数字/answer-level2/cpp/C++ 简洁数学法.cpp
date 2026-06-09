@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool valid(int n, int target) {
@@ -14,5 +14,5 @@ public:
         return n;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/91748328b4711732390dd3f4cf87ff421de0a96ac4f5181525e6a101e27cc4a4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/91748328b4711732390dd3f4cf87ff421de0a96ac4f5181525e6a101e27cc4a4-image.png)

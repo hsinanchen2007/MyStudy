@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         n1 = len(nums)
@@ -14,4 +14,4 @@ class Solution:
                 #num1 = nums[i]
         return(i)
                 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-那就遍历呗，貌似不需要太多花哨的写法
+# ### 解题思路
+# 那就遍历呗，貌似不需要太多花哨的写法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         ans=[]
@@ -13,4 +13,4 @@ class Solution:
             elif i%5==0:ans.append('Buzz')
             else:ans.append(str(i))
         return ans
-```
+# ```

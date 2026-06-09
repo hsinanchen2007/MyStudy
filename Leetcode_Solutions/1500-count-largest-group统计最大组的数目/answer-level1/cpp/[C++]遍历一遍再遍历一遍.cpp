@@ -1,6 +1,6 @@
-第一遍先转存到map里边，然后第二遍从map中统计最大。
+// 第一遍先转存到map里边，然后第二遍从map中统计最大。
 
-```C++ []
+// ```C++ []
 class Solution {
   public:
     int countLargestGroup(int n) {
@@ -28,4 +28,4 @@ class Solution {
         return max_num;
     }
 };
-```
+// ```

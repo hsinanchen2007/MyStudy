@@ -1,6 +1,6 @@
-i和j上同时是1就比不了了，于是在快排中加了打破1-1的处理，刚写的时候没考虑到1-1。
-复杂度可以认为是O(n)吗？
-```
+// i和j上同时是1就比不了了，于是在快排中加了打破1-1的处理，刚写的时候没考虑到1-1。
+// 复杂度可以认为是O(n)吗？
+// ```
 class Solution {
     public void sortColors(int[] nums) {
         if (nums.length < 2) {
@@ -43,4 +43,4 @@ class Solution {
         arr[i] = temp;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int num;
     public int minCameraCover(TreeNode root) {
@@ -28,4 +28,4 @@ class Solution {
         return 3;
     }
 }
-```
+// ```

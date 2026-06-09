@@ -1,9 +1,9 @@
-### 解题思路
-比较简单粗暴的解法
+// ### 解题思路
+// 比较简单粗暴的解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return nodeMap.get(index / 2 + 1);
     }
 }
-```
+// ```

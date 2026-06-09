@@ -1,4 +1,4 @@
-```
+// ```
 /*
  *	struct Iterator {
  *		// Returns true if the iteration has more elements.
@@ -53,4 +53,4 @@ bool hasNext(struct PeekingIterator* obj) {
  * bool param_3 = hasNext(obj);
  * peekingIteratorFree(obj);
 */
-```
+// ```

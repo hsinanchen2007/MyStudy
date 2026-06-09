@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn game_of_life(board: &mut Vec<Vec<i32>>) {
         let m = board.len() as i32;
@@ -34,5 +34,5 @@ impl Solution {
         }
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

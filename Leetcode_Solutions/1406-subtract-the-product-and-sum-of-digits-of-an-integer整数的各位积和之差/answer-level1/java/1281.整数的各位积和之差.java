@@ -1,9 +1,9 @@
-### 解题思路
-分别求出各位的积和和，相减返回即可
+// ### 解题思路
+// 分别求出各位的积和和，相减返回即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int a=1,b=0;
@@ -17,4 +17,4 @@ class Solution {
        return s;
     }
 }
-```
+// ```

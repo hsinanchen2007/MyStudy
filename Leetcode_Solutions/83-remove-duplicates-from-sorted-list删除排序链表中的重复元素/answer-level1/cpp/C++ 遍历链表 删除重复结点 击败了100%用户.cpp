@@ -1,10 +1,10 @@
-### 解题思路
-用p结点存放整个链表，head用于遍历删除重复结点，注意head和head->next是否为NULL的判断，
-注意重复结点有多个，当下一个next结点的val值不再等于head时才移动head结点继续下去。
+// ### 解题思路
+// 用p结点存放整个链表，head用于遍历删除重复结点，注意head和head->next是否为NULL的判断，
+// 注意重复结点有多个，当下一个next结点的val值不再等于head时才移动head结点继续下去。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return p;
     }
 };
-```
+// ```

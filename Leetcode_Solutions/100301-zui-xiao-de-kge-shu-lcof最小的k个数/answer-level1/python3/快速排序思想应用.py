@@ -1,9 +1,9 @@
-### 解题思路
-pivot partition
+# ### 解题思路
+# pivot partition
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         # target index is k
@@ -36,4 +36,4 @@ class Solution:
         arr[left], arr[j] = arr[j], arr[left]
         return j
 
-```
+# ```

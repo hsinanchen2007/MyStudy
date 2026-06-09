@@ -1,9 +1,9 @@
-### 解题思路
-想不到，最后竟然只有一行代码。。。
+// ### 解题思路
+// 想不到，最后竟然只有一行代码。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canWinNim(int n) {
@@ -32,4 +32,4 @@ public:
         return cur.first;
     }
 };
-```
+// ```

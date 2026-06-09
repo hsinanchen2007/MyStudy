@@ -1,11 +1,11 @@
-考虑到负负得正的情况，需要同时保留最大值和最小值，每次对比“最小值\*当前值”和“最大值\*当前值”的大小，再做判断。
-DP方程：
-最大值：
-dpMax[i] = Math.max(nums[i], Math.max(dpMin[i - 1] * nums[i], dpMax[i - 1] * nums[i]))
-最小值：
-dpMin[i] = Math.min(nums[i], Math.min(dpMin[i - 1] * nums[i], dpMax[i - 1] * nums[i]))
+// 考虑到负负得正的情况，需要同时保留最大值和最小值，每次对比“最小值\*当前值”和“最大值\*当前值”的大小，再做判断。
+// DP方程：
+// 最大值：
+// dpMax[i] = Math.max(nums[i], Math.max(dpMin[i - 1] * nums[i], dpMax[i - 1] * nums[i]))
+// 最小值：
+// dpMin[i] = Math.min(nums[i], Math.min(dpMin[i - 1] * nums[i], dpMax[i - 1] * nums[i]))
 
-```java
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         int[] dpMax = new int[nums.length], dpMin = new int[nums.length];
@@ -22,10 +22,10 @@ class Solution {
         return max;
     }
 }
-```
+// ```
 
-简化，不需要定义数组，只需要定义最大值最小值两个变量即可：
-```java
+// 简化，不需要定义数组，只需要定义最大值最小值两个变量即可：
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         int max = nums[0], curMin = nums[0], curMax = nums[0], tmpMin, tmpMax;
@@ -39,10 +39,10 @@ class Solution {
         return max;
     }
 }
-```
+// ```
 
-简化2，通过判断当前值的正负来进行最大值最小值交换：
-```java
+// 简化2，通过判断当前值的正负来进行最大值最小值交换：
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         int max = nums[0], curMin = nums[0], curMax = nums[0];
@@ -59,4 +59,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numWays(int n, int k) {
         if(n==0||k==0)
@@ -21,4 +21,4 @@ class Solution {
         return dp[n-1][0]+dp[n-1][1];
     }
 }
-```
+// ```

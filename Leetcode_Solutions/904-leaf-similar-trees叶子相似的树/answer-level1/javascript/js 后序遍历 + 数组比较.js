@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/9c5653db2a1bff2cc70591bcbe2efd6a3ca0726e613b7a7f1ff2353640175f61-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9c5653db2a1bff2cc70591bcbe2efd6a3ca0726e613b7a7f1ff2353640175f61-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   1. 分别后序遍历出 root1 和 root2 的所有的叶子节点
   2. 比较两个数组是否相等
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -48,4 +48,4 @@ var leafSimilar = function(root1, root2) {
   
   return ans;
 };
-```
+// ```

@@ -1,6 +1,6 @@
-利用双链表，构建两个栈。
-为了简短易读，构建了创建节点和删除结点的函数。
-```c
+// 利用双链表，构建两个栈。
+// 为了简短易读，构建了创建节点和删除结点的函数。
+// ```c
 typedef struct node{
     int val;
     struct node* next;
@@ -72,4 +72,4 @@ void minStackFree(MinStack* obj) {
     free(obj->min);
     free(obj);
 }
-```
+// ```

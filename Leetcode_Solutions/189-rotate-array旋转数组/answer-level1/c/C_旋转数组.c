@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //倒置数组Nums[LOW-HIGH]的数
 void fanZhuan(int* Nums,int Low,int High)
 {
@@ -21,4 +21,4 @@ void rotate(int* nums, int numsSize, int k){
     fanZhuan(nums,0,k-1);
     fanZhuan(nums,k,numsSize-1);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-试着写了个快排
+# ### 解题思路
+# 试着写了个快排
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
 
@@ -35,4 +35,4 @@ class Solution:
         
         quicksort(0, len(nums) - 1)
         return nums
-```
+# ```

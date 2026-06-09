@@ -1,8 +1,8 @@
-# 1.暴力枚举
-for i 0->size
-    for j i->size
-		    isPalindrome
-```
+// # 1.暴力枚举
+// for i 0->size
+//     for j i->size
+// 		    isPalindrome
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -36,12 +36,12 @@ private:
         return true;
     }
 };
-```
-# 2.中心扩展
-for i 1->size
-    Length_centerExpand
+// ```
+// # 2.中心扩展
+// for i 1->size
+//     Length_centerExpand
 		
-```
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -86,10 +86,10 @@ private:
         return ilength;
     }
 };
-```
+// ```
 
-# 3.暴力递归（长度）
-```
+// # 3.暴力递归（长度）
+// ```
 class Solution {
 public:
 	//F(i,j) [i, j]区间字符串是否是回文
@@ -118,9 +118,9 @@ private:
 		}
 	}
 };
-```
-# 4.暴力递归优化（长度）
-```
+// ```
+// # 4.暴力递归优化（长度）
+// ```
 class Solution {
 public:
 	//F(i,j) [i, j]区间字符串是否是回文
@@ -154,9 +154,9 @@ private:
 		}
 	}
 };
-```
-# 5.动态规划(长度？)
-```
+// ```
+// # 5.动态规划(长度？)
+// ```
 class Solution {
 public:
 	//F(i,j) [i, j]区间最大回文子串长度(i <= j)
@@ -176,9 +176,9 @@ public:
 		return dp[0][s.size() - 1];
 	}
 };
-```
-# 5.动态规划(求子串，遍历方式1)
-```
+// ```
+// # 5.动态规划(求子串，遍历方式1)
+// ```
 class Solution {
 public:
 	//dp(i,j), [i, j]是否构成回文字符串
@@ -214,9 +214,9 @@ public:
 		return s.substr(start, maxLength);
 	}
 }; 
-```
-# 5.动态规划(求子串，遍历方式2)
-```
+// ```
+// # 5.动态规划(求子串，遍历方式2)
+// ```
 class Solution {
 public:
 	//dp(i,j), [i, j]是否构成回文字符串
@@ -249,5 +249,5 @@ public:
         return s.substr(start, maxLength);
     }
 }; 
-```
+// ```
 

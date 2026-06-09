@@ -1,13 +1,13 @@
-执行用时 :24 ms, 在所有 C 提交中击败了60.61%的用户
-内存消耗 :13.1 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :24 ms, 在所有 C 提交中击败了60.61%的用户
+// 内存消耗 :13.1 MB, 在所有 C 提交中击败了100.00%的用户
 
-解决思路：分而治之
-1.通过前序遍历判断出根节点后
-2.筛选出根节点左子树和又子树
-3.在前序遍历和中序遍历进行切分三部分，根节点，左子树部分和右子树部分
-4.左子树部分又可以分出来左子树的前序遍历和中序遍历，右子树也同样
-5.依照这种分化思路，将一个大的二叉树，划分成一个小的二叉树，并用递归函数求得二叉树的最终形式
-```
+// 解决思路：分而治之
+// 1.通过前序遍历判断出根节点后
+// 2.筛选出根节点左子树和又子树
+// 3.在前序遍历和中序遍历进行切分三部分，根节点，左子树部分和右子树部分
+// 4.左子树部分又可以分出来左子树的前序遍历和中序遍历，右子树也同样
+// 5.依照这种分化思路，将一个大的二叉树，划分成一个小的二叉树，并用递归函数求得二叉树的最终形式
+// ```
 struct TreeNode* buildBinaryTree(int* preorderStart, int* preorderEnd, int* inorderStart, int* inorderEnd);
 
 struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize){
@@ -59,4 +59,4 @@ struct TreeNode* buildBinaryTree(int* preorderStart, int* preorderEnd, int* inor
     
     return root;
 }
-```
+// ```

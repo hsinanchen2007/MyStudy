@@ -1,17 +1,17 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/15
- *
- * 解题思路: 通过分析发现 进行Z字的扫描中 具有以下规律(如图): 也就是 每一列每次添加的是n-1 正向添加一次(0到numRows-2) 反向添加一次(numRows-1 到 1) 每次缺省一个
- *
- * 
-![EB0A719DC755ACEDAC455BA1BC963DF9.png](https://pic.leetcode-cn.com/55bcf0eebcb647857bb502c0726b38b3628b41bfa2ff04518b9d4e3062cec6dd-EB0A719DC755ACEDAC455BA1BC963DF9.png)
- *
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/15
+//  *
+//  * 解题思路: 通过分析发现 进行Z字的扫描中 具有以下规律(如图): 也就是 每一列每次添加的是n-1 正向添加一次(0到numRows-2) 反向添加一次(numRows-1 到 1) 每次缺省一个
+//  *
+//  * 
+// ![EB0A719DC755ACEDAC455BA1BC963DF9.png](https://pic.leetcode-cn.com/55bcf0eebcb647857bb502c0726b38b3628b41bfa2ff04518b9d4e3062cec6dd-EB0A719DC755ACEDAC455BA1BC963DF9.png)
+//  *
+//  */
 
-```
+// ```
 public String convert(String s, int numRows) {
 
     //边界判断
@@ -49,4 +49,4 @@ public String convert(String s, int numRows) {
 
     return resr.toString();
 }
-```
+// ```

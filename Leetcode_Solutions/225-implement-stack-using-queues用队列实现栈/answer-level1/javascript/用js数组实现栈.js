@@ -1,9 +1,9 @@
-### 解题思路
-js没有队列，所以用数组来实现，利用数组本身的属性push、pop等即可实现。主要的问题在于理解数组的末尾是栈顶。
+// ### 解题思路
+// js没有队列，所以用数组来实现，利用数组本身的属性push、pop等即可实现。主要的问题在于理解数组的末尾是栈顶。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -52,4 +52,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/23826fb58aa665f4da54add5a2ac25657efd2cec8c00d5c9f62f5189a050f7b3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/23826fb58aa665f4da54add5a2ac25657efd2cec8c00d5c9f62f5189a050f7b3-image.png)
+// ```
 #define MAX(a,b) ((a)>(b))?(a):(b)
 #define MIN(a,b) ((a)<(b))?(a):(b)
 int dominantIndex(int* nums, int numsSize)
@@ -26,5 +26,5 @@ int dominantIndex(int* nums, int numsSize)
     }
     return (max-2*sec)>=0?index:-1;//只要用到分母，就要考虑为0的情况！！如果唯一的第一大max-2*sec>=0，说明符合，返回最大值的下标index，否则不满足：返回-1
 }
-```
-借鉴了评论区的一个思路，优化了下都到100%。但有个玄学的地方不懂，想请教一下大家，int定义的时候我分成三行定义，显示4ms，写成一行定义，0ms。。不懂为啥
+// ```
+// 借鉴了评论区的一个思路，优化了下都到100%。但有个玄学的地方不懂，想请教一下大家，int定义的时候我分成三行定义，显示4ms，写成一行定义，0ms。。不懂为啥

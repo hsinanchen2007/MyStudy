@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-投票啦
+// 投票啦
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func majorityElement(_ nums: [Int]) -> Int {
         var m = nums[0]
@@ -23,4 +23,4 @@ class Solution {
         return m
     }
 }
-```
+// ```

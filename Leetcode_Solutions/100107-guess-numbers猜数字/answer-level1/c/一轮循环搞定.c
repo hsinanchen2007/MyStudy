@@ -1,9 +1,9 @@
-### 解题思路
-逐一比较。
+// ### 解题思路
+// 逐一比较。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int game(int* guess, int guessSize, int* answer, int answerSize){
     guessSize=answerSize;
     int sum=0;
@@ -13,4 +13,4 @@ int game(int* guess, int guessSize, int* answer, int answerSize){
     }
     return sum;
 }
-```
+// ```

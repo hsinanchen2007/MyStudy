@@ -1,17 +1,17 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 2399144252@qq.com
- * Date   : 2019/10/10
- * 
- * 解题思路1: 正则处理licensePlate 然后进行hash匹配 (正则很费时间)
- * 
- * 解题思路2: licensePlate 和 单词列表都进行hash 然后进行 暴力26 循环比对  来判断是否一个字符串每一个字符都存在于另一个字符串中
- *
- * 解题思路3：因为words的长度很小 索引可以不进行排序 直接使用一个str 来记录最优值 复杂度可以下降O(n*26)=O(n) 
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 2399144252@qq.com
+//  * Date   : 2019/10/10
+//  * 
+//  * 解题思路1: 正则处理licensePlate 然后进行hash匹配 (正则很费时间)
+//  * 
+//  * 解题思路2: licensePlate 和 单词列表都进行hash 然后进行 暴力26 循环比对  来判断是否一个字符串每一个字符都存在于另一个字符串中
+//  *
+//  * 解题思路3：因为words的长度很小 索引可以不进行排序 直接使用一个str 来记录最优值 复杂度可以下降O(n*26)=O(n) 
+//  * 
+//  */
+// ```
 //14ms
  public String shortestCompletingWord(String licensePlate, String[] words) {
     Arrays.sort(words, new Comparator<String>() {
@@ -131,4 +131,4 @@ public String shortestCompletingWord3(String licensePlate, String[] words) {
         return str;
 
 }
-```
+// ```

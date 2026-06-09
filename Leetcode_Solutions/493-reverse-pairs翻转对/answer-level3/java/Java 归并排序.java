@@ -1,5 +1,5 @@
-归并排序的实现，这里用了【从大到小】排列，感觉计算count的时候会好理解一点，更直观。
-```java
+// 归并排序的实现，这里用了【从大到小】排列，感觉计算count的时候会好理解一点，更直观。
+// ```java
 class Solution {
     public int reversePairs(int[] nums) {
         if (nums == null || nums.length <= 1) return 0;
@@ -37,9 +37,9 @@ class Solution {
         System.arraycopy(tmp, 0, nums, left, k);
     }
 }
-```
-当然【从小到大】也可以
-```java
+// ```
+// 当然【从小到大】也可以
+// ```java
 class Solution {
     public int reversePairs(int[] nums) {
         if (nums == null || nums.length <= 1) return 0;
@@ -77,4 +77,4 @@ class Solution {
         System.arraycopy(tmp, 0, nums, left, k);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-子集在比较前排个序，就不存在[1,4,4]和[4,4,1]不同的问题了
+# ### 解题思路
+# 子集在比较前排个序，就不存在[1,4,4]和[4,4,1]不同的问题了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         count,res={},[]
@@ -22,4 +22,4 @@ class Solution:
                     index+=1
         return res
 
-```
+# ```

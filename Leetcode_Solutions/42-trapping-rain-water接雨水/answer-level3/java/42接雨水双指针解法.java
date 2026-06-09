@@ -1,4 +1,4 @@
-```java
+// ```java
 public class T42_TrappingRainWater {
 
     public static void main(String[] args) {
@@ -65,4 +65,4 @@ public class T42_TrappingRainWater {
         return cnt;
     }
 }
-```
+// ```

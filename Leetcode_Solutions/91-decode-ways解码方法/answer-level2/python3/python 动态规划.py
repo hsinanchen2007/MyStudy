@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numDecodings(self, s: str) -> int:
         if len(s) == 1:
@@ -27,4 +27,4 @@ class Solution:
             last = i
         return b
             
-```
+# ```

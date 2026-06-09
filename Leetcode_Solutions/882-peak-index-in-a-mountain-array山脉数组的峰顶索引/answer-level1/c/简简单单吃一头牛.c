@@ -1,4 +1,4 @@
-```
+// ```
 int peakIndexInMountainArray(int* A, int ASize)
 {
     if (!A || ASize < 3) {
@@ -16,4 +16,4 @@ int peakIndexInMountainArray(int* A, int ASize)
     return maxI;
 }
 
-```
+// ```

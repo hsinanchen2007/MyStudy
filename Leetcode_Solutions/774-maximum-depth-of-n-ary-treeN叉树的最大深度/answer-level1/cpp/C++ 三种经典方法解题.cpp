@@ -1,6 +1,6 @@
-# 方法一 递归算法
+// # 方法一 递归算法
 
-```c++ []
+// ```c++ []
 int maxDepth(Node* root) {
     if (!root) return 0;
     int m = 0;
@@ -8,11 +8,11 @@ int maxDepth(Node* root) {
         m = max(m, maxDepth(it));
     return ++m;
 }
-```
+// ```
 
-# 方法二 DFS迭代
+// # 方法二 DFS迭代
 
-```c++ []
+// ```c++ []
 int maxDepth(Node* root) {
     if (!root) return 0;
     stack<pair<Node*,int>>stack;
@@ -28,11 +28,11 @@ int maxDepth(Node* root) {
     }
     return max_depth;
 }
-```
+// ```
 
-# 方法三 BFS迭代
+// # 方法三 BFS迭代
 
-```c++ []
+// ```c++ []
 int maxDepth(Node* root) {
     if (!root) return 0;
     queue<Node*>queue;
@@ -48,6 +48,6 @@ int maxDepth(Node* root) {
     }
     return max_depth;
 }
-```
+// ```
 
-欢迎优化与交流
+// 欢迎优化与交流

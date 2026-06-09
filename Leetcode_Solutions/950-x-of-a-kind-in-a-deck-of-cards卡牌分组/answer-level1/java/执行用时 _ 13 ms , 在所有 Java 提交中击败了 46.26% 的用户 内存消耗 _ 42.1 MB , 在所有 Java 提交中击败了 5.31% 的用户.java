@@ -1,9 +1,9 @@
-### 解题思路
-参考了官方题解，利用map集合来求解
+// ### 解题思路
+// 参考了官方题解，利用map集合来求解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         if(deck.length<=1) return false;
@@ -28,4 +28,4 @@ class Solution {
         return x==0?y:gcd(y%x,x);
     }
 }
-```
+// ```

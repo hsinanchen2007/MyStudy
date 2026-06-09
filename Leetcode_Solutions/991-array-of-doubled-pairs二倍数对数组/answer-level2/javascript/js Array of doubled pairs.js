@@ -1,5 +1,5 @@
-以暴制暴
-```
+// 以暴制暴
+// ```
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -23,4 +23,4 @@ var canReorderDoubled = function(A) {
     }
     return true
 };
-```
+// ```

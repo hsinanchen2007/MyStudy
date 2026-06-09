@@ -1,10 +1,10 @@
-### 解题思路
-1、利用数据结构和qsort在排序后仍能保留原有数组下标
-2、对有序数组用2个首位指针进行讨论比对，若小，说明小指针需要加大，若大说明大指针需要减小。
+// ### 解题思路
+// 1、利用数据结构和qsort在排序后仍能保留原有数组下标
+// 2、对有序数组用2个首位指针进行讨论比对，若小，说明小指针需要加大，若大说明大指针需要减小。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct tagDataInfoS {
     int num;
     int idx;
@@ -76,4 +76,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 0;
     return NULL;
 }
-```
+// ```

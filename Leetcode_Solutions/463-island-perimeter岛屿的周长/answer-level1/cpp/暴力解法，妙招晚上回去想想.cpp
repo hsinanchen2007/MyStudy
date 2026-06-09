@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
@@ -18,5 +18,5 @@ public:
         return slong;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/77aa62473a35f22379d3f60447a6b2f05bacea561ca0963c7f56846160001a43-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/77aa62473a35f22379d3f60447a6b2f05bacea561ca0963c7f56846160001a43-image.png)

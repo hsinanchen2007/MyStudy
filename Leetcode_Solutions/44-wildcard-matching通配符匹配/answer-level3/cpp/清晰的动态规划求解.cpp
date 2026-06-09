@@ -1,16 +1,16 @@
-### 解题思路
-对于动态规划的基本操作，一般都是要有一个表格去记录我们求解的过程，本题也是这样求解，用一个二维数组dp[i][j]来记录每一步的情况，本题解中的二维数组多初始化一行一列，便于解决边界问题,在比较两个字符的过程中遇到p[i]='*',或p[i]=s[j] 或p[i]='?'的情况时，为了便于理解将在下面的代码中进行分析时。下面给出了两个例子如下：
-1.s="adceb"  p="*a*b"  true
-![image.png](https://pic.leetcode-cn.com/6f20b3a6315d7b3c6970708dcba63d659349e9aab5ddc6a62dcd89900abe0b04-image.png)
+// ### 解题思路
+// 对于动态规划的基本操作，一般都是要有一个表格去记录我们求解的过程，本题也是这样求解，用一个二维数组dp[i][j]来记录每一步的情况，本题解中的二维数组多初始化一行一列，便于解决边界问题,在比较两个字符的过程中遇到p[i]='*',或p[i]=s[j] 或p[i]='?'的情况时，为了便于理解将在下面的代码中进行分析时。下面给出了两个例子如下：
+// 1.s="adceb"  p="*a*b"  true
+// ![image.png](https://pic.leetcode-cn.com/6f20b3a6315d7b3c6970708dcba63d659349e9aab5ddc6a62dcd89900abe0b04-image.png)
 
 
-2.s="bbcdcb" p="a*c?b"  false
-![image.png](https://pic.leetcode-cn.com/8968be1493572f9ebc7f025b4a4d187d6da55cf3555073e5f9fb2f523effafaf-image.png)
+// 2.s="bbcdcb" p="a*c?b"  false
+// ![image.png](https://pic.leetcode-cn.com/8968be1493572f9ebc7f025b4a4d187d6da55cf3555073e5f9fb2f523effafaf-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -79,4 +79,4 @@ public:
         return dp[p.length()][s.length()];
     }
 };
-```
+// ```

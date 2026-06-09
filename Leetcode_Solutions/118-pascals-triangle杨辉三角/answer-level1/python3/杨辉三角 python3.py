@@ -1,12 +1,12 @@
-### 解题思路
-定义存储结果的列表res，然后遍历1-n
-如果i==1，res.append([1])
-如果i==2，res.append([1, 1])
-如果i>2，我们定义一个temp列表作为res中第i个元素，然后遍历res的最后一个元素来确定temp
-temp的首尾都为1
-### 代码
+# ### 解题思路
+# 定义存储结果的列表res，然后遍历1-n
+# 如果i==1，res.append([1])
+# 如果i==2，res.append([1, 1])
+# 如果i>2，我们定义一个temp列表作为res中第i个元素，然后遍历res的最后一个元素来确定temp
+# temp的首尾都为1
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         res = []
@@ -25,4 +25,4 @@ class Solution:
                 res.append(temp)
         return res
 
-```
+# ```

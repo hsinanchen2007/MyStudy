@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canMeasureWater(x int, y int, z int) bool {
     if x == 0 || y == 0 {
         if z == 0 {
@@ -32,4 +32,4 @@ func gcd(x, y int) int {
         return gcd(y, x % y)
     }
 }
-```
+// ```

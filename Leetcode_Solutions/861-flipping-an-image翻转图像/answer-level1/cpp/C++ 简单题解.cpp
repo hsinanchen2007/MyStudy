@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -20,6 +20,6 @@ public:
         return A;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/8aded842a8846d388103617ab2ed47f94e4eb674685915de288adb399e0043ca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8aded842a8846d388103617ab2ed47f94e4eb674685915de288adb399e0043ca-image.png)

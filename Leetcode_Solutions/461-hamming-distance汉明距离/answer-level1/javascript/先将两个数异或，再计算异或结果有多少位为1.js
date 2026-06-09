@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -13,4 +13,4 @@ var hammingDistance = function(x, y) {
   }
   return count;
 };
-```
+// ```

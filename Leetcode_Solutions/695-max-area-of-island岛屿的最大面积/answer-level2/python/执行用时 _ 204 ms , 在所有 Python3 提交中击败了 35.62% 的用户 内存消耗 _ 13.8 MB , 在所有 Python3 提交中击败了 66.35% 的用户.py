@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-不知道什么DFS，用了类似BFS的写法
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 不知道什么DFS，用了类似BFS的写法
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         res,len1 ,len2 ,i  = 0,len(grid),len(grid[0]),0
@@ -21,4 +21,4 @@ class Solution:
                 tmp+=1
             res = max(res,tmp)
         return res
-```
+# ```

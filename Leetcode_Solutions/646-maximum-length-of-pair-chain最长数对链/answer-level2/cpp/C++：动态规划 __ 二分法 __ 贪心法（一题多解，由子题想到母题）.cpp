@@ -1,15 +1,15 @@
-**题解：**
-* 思路1：动态规划，时间复杂度$O(n^2)$，空间复杂度$O(n)$，可使用[300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 的 [常规动态规划解法](https://blog.csdn.net/qq_43152052/article/details/104090137)。
+// **题解：**
+// * 思路1：动态规划，时间复杂度$O(n^2)$，空间复杂度$O(n)$，可使用[300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 的 [常规动态规划解法](https://blog.csdn.net/qq_43152052/article/details/104090137)。
 
-* 思路2：动态规划+二分法，时间复杂度$O(nlogn)$，空间复杂度$O(n)$，同样可使用可使用[300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 的 [常规动态规划解法](https://blog.csdn.net/qq_43152052/article/details/104090137)。
+// * 思路2：动态规划+二分法，时间复杂度$O(nlogn)$，空间复杂度$O(n)$，同样可使用可使用[300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 的 [常规动态规划解法](https://blog.csdn.net/qq_43152052/article/details/104090137)。
 
-* 思路3：贪心算法，时间复杂度$O(nlogn)$（主要是sort的时间复杂度为$O(nlogn)$，贪心的时间复杂度为$O(n)$），空间复杂度$O(1)$，再将区间进行排序之后使用[435. 无重复区间](https://xiaoneng.blog.csdn.net/article/details/103586031)的贪心解法。
+// * 思路3：贪心算法，时间复杂度$O(nlogn)$（主要是sort的时间复杂度为$O(nlogn)$，贪心的时间复杂度为$O(n)$），空间复杂度$O(1)$，再将区间进行排序之后使用[435. 无重复区间](https://xiaoneng.blog.csdn.net/article/details/103586031)的贪心解法。
 
-**补充：**
-* 思路1、2的解法同样适用于[354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)、[673. 最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)。
+// **补充：**
+// * 思路1、2的解法同样适用于[354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)、[673. 最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)。
 
-**代码如下：**
-```cpp
+// **代码如下：**
+// ```cpp
 class Solution {
 public:
     //题解1：动态规划，时间复杂度O(n^2)，空间复杂度O(n)
@@ -73,4 +73,4 @@ public:
         return count;
     }
 };
-```
+// ```

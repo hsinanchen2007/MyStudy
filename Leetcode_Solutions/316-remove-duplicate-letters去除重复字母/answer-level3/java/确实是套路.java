@@ -1,8 +1,8 @@
-### 解题思路
-题目做多了，就能透过现象看套路了，就行数学题一样，所以还得多刷题，没有太速成的办法。
-### 代码
+// ### 解题思路
+// 题目做多了，就能透过现象看套路了，就行数学题一样，所以还得多刷题，没有太速成的办法。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeDuplicateLetters(String s) {
         Stack<Character> stack = new Stack<>();
@@ -23,4 +23,4 @@ class Solution {
         return new String(res);
     }
 }
-```
+// ```

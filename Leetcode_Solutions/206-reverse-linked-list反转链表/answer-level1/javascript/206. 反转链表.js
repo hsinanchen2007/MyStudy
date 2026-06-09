@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-这道题的思路就是：
+// 这道题的思路就是：
 
-- 提供快慢指针，``prev`` 指向上一个节点，``curr`` 指向当前节点
-- 每次都将 ``curr`` 拼接到 ``head`` 上
+// - 提供快慢指针，``prev`` 指向上一个节点，``curr`` 指向当前节点
+// - 每次都将 ``curr`` 拼接到 ``head`` 上
 
-![反转链表.png](https://pic.leetcode-cn.com/7cdab374aabca619a2a3ae79318c0dcc73417783f554816686423b06f35f081e-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.png)
+// ![反转链表.png](https://pic.leetcode-cn.com/7cdab374aabca619a2a3ae79318c0dcc73417783f554816686423b06f35f081e-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -43,7 +43,7 @@ var reverseList = function(head) {
     }
     return head
 };
-```
+// ```
 
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(1)$
+// - 时间复杂度：$O(n)$
+// - 空间复杂度：$O(1)$

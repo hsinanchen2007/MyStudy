@@ -1,9 +1,9 @@
-### 解题思路
-斐波那契数列
+// ### 解题思路
+// 斐波那契数列
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -17,4 +17,4 @@ var fib = function(n) {
   }
   return arr[n] % 1000000007
 };
-```
+// ```

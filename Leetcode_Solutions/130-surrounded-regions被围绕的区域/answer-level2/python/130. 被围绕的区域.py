@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -33,4 +33,4 @@ class Solution:
                     board[i][j] = 'O'
                 else:
                     board[i][j] = 'X'
-```
+# ```

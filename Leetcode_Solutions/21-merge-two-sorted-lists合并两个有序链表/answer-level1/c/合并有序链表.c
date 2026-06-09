@@ -1,10 +1,10 @@
-### 解题思路
-先将为NULL的情况排除，再把极端情况排除（一条链表的末尾大于另一条链表的头），把l2中大于l1头的所有元素与l1合并，再把大于l1头与
-小于l1尾的进行比较插入，再把大于l1尾的l2元素插入l1尾。
+// ### 解题思路
+// 先将为NULL的情况排除，再把极端情况排除（一条链表的末尾大于另一条链表的头），把l2中大于l1头的所有元素与l1合并，再把大于l1头与
+// 小于l1尾的进行比较插入，再把大于l1尾的l2元素插入l1尾。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* struct ListNode {
      int val;
       struct ListNode *next;
@@ -90,4 +90,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
  end:
 	 return l1;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-左括号数大于右括号数，即可添加右括号。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 左括号数大于右括号数，即可添加右括号。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> ans=new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

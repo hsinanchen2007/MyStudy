@@ -1,9 +1,9 @@
-### 解题思路
-就是两个一组，奇数个偶数的值
+// ### 解题思路
+// 就是两个一组，奇数个偶数的值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -17,4 +17,4 @@ var decompressRLElist = function(nums) {
     }
     return arr
 };
-```
+// ```

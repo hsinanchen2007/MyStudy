@@ -1,11 +1,11 @@
-### 解题思路
-1、二分查找，定义两个数，分别为数组的最小和最大索引，然后算出数组索引的中间值mid
-2、在while循环中，用arr[mid]与传入的target值进行对比，然后移动下标。
+# ### 解题思路
+# 1、二分查找，定义两个数，分别为数组的最小和最大索引，然后算出数组索引的中间值mid
+# 2、在while循环中，用arr[mid]与传入的target值进行对比，然后移动下标。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def search(self, nums, target):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             else:
                 return mid
         return -1
-```
+# ```

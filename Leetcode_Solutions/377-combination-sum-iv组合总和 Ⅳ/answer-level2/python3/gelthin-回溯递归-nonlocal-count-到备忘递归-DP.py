@@ -1,13 +1,13 @@
-### 解题思路
-#### 回溯-递归，错误
-这里递归的代码很像之前的一个题目 [39. 组合总和](https://leetcode-cn.com/problems/combination-sum/) 自己写的代码
+# ### 解题思路
+# #### 回溯-递归，错误
+# 这里递归的代码很像之前的一个题目 [39. 组合总和](https://leetcode-cn.com/problems/combination-sum/) 自己写的代码
 
-最开始以为是按照前面的组合题[39. 组合总和](https://leetcode-cn.com/problems/combination-sum/) 根据回溯法进行求解，后来发现回溯法写出来的代码简化后就是蛮力递归。效率极低。
-连 [1,2,4] 32 都算不出来。
+# 最开始以为是按照前面的组合题[39. 组合总和](https://leetcode-cn.com/problems/combination-sum/) 根据回溯法进行求解，后来发现回溯法写出来的代码简化后就是蛮力递归。效率极低。
+# 连 [1,2,4] 32 都算不出来。
 
-#### 无法通过的代码, 知识点： nonlocal count ， count += 1
+# #### 无法通过的代码, 知识点： nonlocal count ， count += 1
 
-``` python3  
+# ``` python3  
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
     ## 回溯的复杂度几乎是指数级别的， [4,1,2] 32 这个例子都过不了
@@ -32,24 +32,24 @@ class Solution:
         # 但 res = 0， 在子函数中直接 res += 1, 就会报错。
         dfs(target)
         return res
-```
+# ```
 
-#### 后来想到应该统计已经计算好的重叠子问题，不应该重复计算。应该使用带备忘录的递归，or 动态规划
-带备忘录的递归在先前的一个题的题解中提到过。
-
-
-这就很像硬币找零题了 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
-
-不过一个是统计最少用的硬币数量，一个是统计所有可能的找零方式，顺序不同的序列也算不同。
+# #### 后来想到应该统计已经计算好的重叠子问题，不应该重复计算。应该使用带备忘录的递归，or 动态规划
+# 带备忘录的递归在先前的一个题的题解中提到过。
 
 
+# 这就很像硬币找零题了 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+
+# 不过一个是统计最少用的硬币数量，一个是统计所有可能的找零方式，顺序不同的序列也算不同。
 
 
 
 
-### 代码
 
-```python3
+
+# ### 代码
+
+# ```python3
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
         ## 和 排列coin题 以及 完全平方数题 很像。
@@ -69,4 +69,4 @@ class Solution:
         
         # nums.sort() 错把这个放后面了，以为还是子函数
         return hash_set[target]
-```
+# ```

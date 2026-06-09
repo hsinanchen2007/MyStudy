@@ -1,4 +1,4 @@
-```
+# ```
 # 优化：//2+1 超时
 class Solution:
     def countPrimes(self, n: int) -> int:
@@ -104,4 +104,4 @@ class Solution(object):
             if isPrime[i]:
                 isPrime[i * i:n:i] = [0] * ((n - 1 - i * i) // i + 1)
         return sum(isPrime)
-```
+# ```

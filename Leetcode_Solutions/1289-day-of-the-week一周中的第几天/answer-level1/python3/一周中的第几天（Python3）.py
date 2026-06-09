@@ -1,7 +1,7 @@
-#### 方法一：调用库函数（不推荐）
-由于输出为数字，故用字典转化为日期。
-#### 参考代码
-```
+# #### 方法一：调用库函数（不推荐）
+# 由于输出为数字，故用字典转化为日期。
+# #### 参考代码
+# ```
 import datetime
 class Solution:
     def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
@@ -9,11 +9,11 @@ class Solution:
                5:'Friday',6:'Saturday',0:'Sunday'}
         week_num = int(datetime.datetime(year,month,day).strftime("%w"))
         return dic[week_num]
-```
-#### 方法二：计算天数
-首先知道1971.1.1是星期五，计算与该日期之间的天数，然后对7取余即可。难点在于闰年的处理，我们可以模块化函数，一次处理一个小问题，把每个小问题独立解决之后，最后一定会出现奇迹，相信自己！
-#### 参考代码
-```
+# ```
+# #### 方法二：计算天数
+# 首先知道1971.1.1是星期五，计算与该日期之间的天数，然后对7取余即可。难点在于闰年的处理，我们可以模块化函数，一次处理一个小问题，把每个小问题独立解决之后，最后一定会出现奇迹，相信自己！
+# #### 参考代码
+# ```
 class Solution:
     def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
 
@@ -75,5 +75,5 @@ class Solution:
         # 1971.1.1是星期五，通过给定日期与该日期的天数确定星期几
         days = daysBetweenDates(1971, 1, 1, year, month, day)
         return dic[(days + 5) % 7]
-```
+# ```
 

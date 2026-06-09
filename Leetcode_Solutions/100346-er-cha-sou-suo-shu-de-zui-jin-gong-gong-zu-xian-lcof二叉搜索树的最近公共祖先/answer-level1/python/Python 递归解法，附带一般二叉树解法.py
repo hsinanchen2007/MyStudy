@@ -1,5 +1,5 @@
-二叉搜索树会让这个题变得很简单
-```python
+# 二叉搜索树会让这个题变得很简单
+# ```python
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
 
@@ -17,10 +17,10 @@ class Solution:
         # 不然pq肯定是在两边，那说明当前的根就是共同祖先
         else:
             return root
-```
-如果是一般的二叉树，就一定要判断到节点为p或者q为止
+# ```
+# 如果是一般的二叉树，就一定要判断到节点为p或者q为止
 
-```python
+# ```python
 class Solution:
     def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
         # 如果当前节点为空，就返回空
@@ -47,5 +47,5 @@ class Solution:
             return right
         
         return None
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-注释处写明了解题思路
+# ### 解题思路
+# 注释处写明了解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largestSumAfterKNegations(self, A: List[int], K: int) -> int:
         neg_num = 0#先将令负数的个数初始化为0
@@ -26,4 +26,4 @@ class Solution:
         return sum(A)
 
 
-```
+# ```

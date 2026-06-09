@@ -1,6 +1,6 @@
-每一次攻击的持续时间可能不会被后一次攻击，则持续时间为 duration;
-每一次攻击的持续时间也可能会被后一次攻击，则将重叠的时间计算到后一次的攻击上，持续时间为 两次攻击间隔;
-```java []
+// 每一次攻击的持续时间可能不会被后一次攻击，则持续时间为 duration;
+// 每一次攻击的持续时间也可能会被后一次攻击，则将重叠的时间计算到后一次的攻击上，持续时间为 两次攻击间隔;
+// ```java []
 class Solution {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         if(timeSeries == null || timeSeries.length == 0) return 0;
@@ -12,4 +12,4 @@ class Solution {
         return count + duration;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var dayOfTheWeek = function(day, month, year) {
     let obj = {
         0: 'Sunday',
@@ -15,4 +15,4 @@ var dayOfTheWeek = function(day, month, year) {
     date.setDate(day);
     return obj[date.getDay()]
 };
-```
+// ```

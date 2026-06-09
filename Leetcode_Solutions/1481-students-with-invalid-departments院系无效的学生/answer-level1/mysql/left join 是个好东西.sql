@@ -1,9 +1,9 @@
-### 解题思路
+-- ### 解题思路
 
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select s.id,s.name
@@ -12,4 +12,4 @@ left join Departments d
 on s.department_id=d.id
 where d.id is null
 
-```
+-- ```

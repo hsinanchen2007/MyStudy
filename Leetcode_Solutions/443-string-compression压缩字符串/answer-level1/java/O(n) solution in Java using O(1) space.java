@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int compress(char[] chars) {
         int i = 0; //index of the uncompressed array
@@ -65,4 +65,4 @@ class Solution {
         return j;
     }
 }
-```
+// ```

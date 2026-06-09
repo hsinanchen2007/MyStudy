@@ -1,9 +1,9 @@
-### 解题思路
-先放入map，在遍历两次map比较。
+// ### 解题思路
+// 先放入map，在遍历两次map比较。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
@@ -39,4 +39,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-多个有序链表，有点类似归并排序的意思
+// ### 解题思路
+// 多个有序链表，有点类似归并排序的意思
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -52,4 +52,4 @@ func merge2List(l1,l2 *ListNode) *ListNode {
     l2.Next = merge2List(l1,l2.Next)
     return l2
 }
-```
+// ```

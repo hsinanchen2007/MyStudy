@@ -1,9 +1,9 @@
-### 解题思路
-主要就是BFS的思想，通过队列的出与入，控制轮数（即时间）。然后注意判断四个方向是否合法就行了。
+// ### 解题思路
+// 主要就是BFS的思想，通过队列的出与入，控制轮数（即时间）。然后注意判断四个方向是否合法就行了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int orangesRotting(int[][] grid) {
         int M = grid.length;
@@ -57,4 +57,4 @@ class Solution {
         }
     }
 }
-```
+// ```

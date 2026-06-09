@@ -1,10 +1,10 @@
-### 解题思路
-用了递归来解决这个问题，代码写的可能不够优雅，但是解决了问题了
-有大牛有更优雅的给我参考一下嘛？
+// ### 解题思路
+// 用了递归来解决这个问题，代码写的可能不够优雅，但是解决了问题了
+// 有大牛有更优雅的给我参考一下嘛？
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         return countSay(n);
@@ -43,4 +43,4 @@ class Solution {
         return result.toString();
     }
 }
-```
+// ```

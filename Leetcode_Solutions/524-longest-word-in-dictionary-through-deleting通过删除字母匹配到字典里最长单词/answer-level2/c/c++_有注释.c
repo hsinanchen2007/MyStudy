@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string findLongestWord(string s, vector<string>& d) {
@@ -31,4 +31,4 @@ public:
         return maxIndex == -1 ? "" : d[maxIndex];
     }
 };
-```
+// ```

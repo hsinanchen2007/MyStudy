@@ -1,4 +1,4 @@
-```
+// ```
 public static ListNode sortList(ListNode head) {
     /*定义当前指针*/
     ListNode cur = head;
@@ -93,4 +93,4 @@ public static ListNode sortList(ListNode head) {
     dumb.next = (l1 == null ? l2 : l1);
     return head.next;
   }
-```
+// ```

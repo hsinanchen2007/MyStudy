@@ -1,9 +1,9 @@
-### 解题思路
-使用一个26个元素的数组，统计每个字符串中字符出现的个数，将该数组转换为一个字符串，即生成了hash key
-key相同，则字符串属于同一组
-### 代码
+// ### 解题思路
+// 使用一个26个元素的数组，统计每个字符串中字符出现的个数，将该数组转换为一个字符串，即生成了hash key
+// key相同，则字符串属于同一组
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

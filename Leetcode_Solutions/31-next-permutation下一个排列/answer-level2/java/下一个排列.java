@@ -1,9 +1,9 @@
-### 解题思路
-画图理解即可
+// ### 解题思路
+// 画图理解即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
@@ -32,4 +32,4 @@ public class Solution {
     }
 }
 
-```
+// ```

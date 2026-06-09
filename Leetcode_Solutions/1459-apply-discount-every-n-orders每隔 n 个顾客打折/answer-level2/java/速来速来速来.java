@@ -1,9 +1,9 @@
-### 解题思路
-offend
+// ### 解题思路
+// offend
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Cashier {
 
  	private int n;
@@ -52,4 +52,4 @@ class Cashier {
  * Cashier obj = new Cashier(n, discount, products, prices);
  * double param_1 = obj.getBill(product,amount);
  */
-```
+// ```

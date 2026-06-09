@@ -1,4 +1,4 @@
-一：用set暴力解，时间复杂度O(nlogn), 空间复杂度O(n)
+// 一：用set暴力解，时间复杂度O(nlogn), 空间复杂度O(n)
 ~~~cpp
 class Solution {
 public:

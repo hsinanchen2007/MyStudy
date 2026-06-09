@@ -1,13 +1,13 @@
-### 解题思路
-![微信图片_20200206165052.png](https://pic.leetcode-cn.com/83caa634683893a6c62728b22ac6d6983f2e00ae0ff330bf83efa242a00d5867-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200206165052.png)
+// ### 解题思路
+// ![微信图片_20200206165052.png](https://pic.leetcode-cn.com/83caa634683893a6c62728b22ac6d6983f2e00ae0ff330bf83efa242a00d5867-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200206165052.png)
 
-1.对每个字符串排序
-2.跟map中对比，一样就把原字符串加入到value中，不一样就建一个新的
-3.把map中的value都加入结果。
+// 1.对每个字符串排序
+// 2.跟map中对比，一样就把原字符串加入到value中，不一样就建一个新的
+// 3.把map中的value都加入结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String,List<String>> map=new HashMap<>();
@@ -29,4 +29,4 @@ class Solution {
         return new ArrayList<>(map.values());
     }
 }
-```
+// ```

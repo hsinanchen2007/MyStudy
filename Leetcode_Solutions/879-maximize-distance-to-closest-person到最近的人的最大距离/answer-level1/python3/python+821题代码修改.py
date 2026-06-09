@@ -1,5 +1,5 @@
-懒得优化了，直接把821题提交的代码，拿过来稍微改了一下就行了。
-```
+# 懒得优化了，直接把821题提交的代码，拿过来稍微改了一下就行了。
+# ```
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:
         l = []
@@ -17,4 +17,4 @@ class Solution:
         for i in range(len(l)//2):
             ans.append(min(l[i],l[-(i+1)]))
         return max(ans)
-```
+# ```

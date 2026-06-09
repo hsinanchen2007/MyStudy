@@ -1,4 +1,4 @@
-```
+// ```
 int longestRepeatingSubstring(char *S)
 {
     char *pos;
@@ -30,4 +30,4 @@ int longestRepeatingSubstring(char *S)
     }
     return result;
 }
-```
+// ```

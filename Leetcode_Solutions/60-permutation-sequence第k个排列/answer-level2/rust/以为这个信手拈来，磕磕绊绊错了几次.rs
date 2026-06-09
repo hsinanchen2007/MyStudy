@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     fn n_factorial(n: usize) -> usize {
        (1..(n + 1)).fold(1, |acc, x| acc * x)
@@ -32,4 +32,4 @@ impl Solution {
         Self::tostr(& ans)
     }
 }
-```
+// ```

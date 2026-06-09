@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针同时访问链表，如果两个指针相遇，则链表存在环
+// ### 解题思路
+// 快慢指针同时访问链表，如果两个指针相遇，则链表存在环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -30,4 +30,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

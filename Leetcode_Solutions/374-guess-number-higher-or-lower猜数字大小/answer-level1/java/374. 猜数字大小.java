@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/4
- * 
- * 解题思路: 有坑 二分法 (start + end)/2 可能会出现整数溢出 改进为 start + (end - start)/2
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/4
+//  * 
+//  * 解题思路: 有坑 二分法 (start + end)/2 可能会出现整数溢出 改进为 start + (end - start)/2
+//  * 
+//  */
+// ```
 public int guessNumber(int n) {
     int mid = 0;
     int start = 0;
@@ -26,4 +26,4 @@ public int guessNumber(int n) {
     }
     return mid;
 }
-```
+// ```

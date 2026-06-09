@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :116 ms, 在所有 C++ 提交中击败了100.00%的用户内存消耗 :68.6 M, 在所有 C++ 提交中击败了100.00%的用户,把vector放public中定义竟然时间会缩短，原来res(2)会报错，发现是由于在声明.h 文件中不能直接调用vector类的析构函数赋值，应先定义后resize。
-### 代码
+// 执行用时 :116 ms, 在所有 C++ 提交中击败了100.00%的用户内存消耗 :68.6 M, 在所有 C++ 提交中击败了100.00%的用户,把vector放public中定义竟然时间会缩短，原来res(2)会报错，发现是由于在声明.h 文件中不能直接调用vector类的析构函数赋值，应先定义后resize。
+// ### 代码
 
-```cpp
+// ```cpp
 class AnimalShelf {
     
     queue<int> cat;
@@ -113,4 +113,4 @@ public:
  * vector<int> param_3 = obj->dequeueDog();
  * vector<int> param_4 = obj->dequeueCat();
  */
-```
+// ```

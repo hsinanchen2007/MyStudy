@@ -1,9 +1,9 @@
-### 解题思路
-菜鸡思路：先把nums排序，遍历nums，检查是否有相邻的两个元素相等，若相等则直接返回。
+# ### 解题思路
+# 菜鸡思路：先把nums排序，遍历nums，检查是否有相邻的两个元素相等，若相等则直接返回。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         nums = sorted(nums)
@@ -17,4 +17,4 @@ class Solution:
                     return nums[i]
                 i += 1
         
-```
+# ```

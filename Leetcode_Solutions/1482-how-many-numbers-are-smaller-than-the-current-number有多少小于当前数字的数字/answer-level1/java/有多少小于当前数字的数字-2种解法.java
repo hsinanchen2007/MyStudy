@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：排序后使用floor()函数二分查找
+// # 解法一：排序后使用floor()函数二分查找
 
-时间复杂度是O(nlogn)，其中n为nums数组的长度。空间复杂度是O(n)。
+// 时间复杂度是O(nlogn)，其中n为nums数组的长度。空间复杂度是O(n)。
 
-执行用时：4ms，击败100.00%。消耗内存：41.9MB，击败100.00%。
+// 执行用时：4ms，击败100.00%。消耗内存：41.9MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int n = nums.length;
@@ -35,15 +35,15 @@ public class Solution {
         return left;
     }
 }
-```
+// ```
 
-# 解法二：哈希表
+// # 解法二：哈希表
 
-时间复杂度和空间复杂度均是O(n)，其中n为字符串expression的长度。
+// 时间复杂度和空间复杂度均是O(n)，其中n为字符串expression的长度。
 
-执行用时：1ms，击败100.00%。消耗内存：41.4MB，击败100.00%。
+// 执行用时：1ms，击败100.00%。消耗内存：41.4MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int n = nums.length;
@@ -61,4 +61,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

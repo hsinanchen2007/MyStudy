@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2b03ff473acb6cec6dc74c1ab242adfd0c9d4b494208a359c478a8587522f51a-image.png)
-利用变量： 遍历增加 substr ，如遇相同字符，则按相同字符下标截取。 并记录最大长度
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2b03ff473acb6cec6dc74c1ab242adfd0c9d4b494208a359c478a8587522f51a-image.png)
+// 利用变量： 遍历增加 substr ，如遇相同字符，则按相同字符下标截取。 并记录最大长度
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -39,4 +39,4 @@ var lengthOfLongestSubstring = function(s) {
 //     }
 //     return str.length
 // };
-```
+// ```

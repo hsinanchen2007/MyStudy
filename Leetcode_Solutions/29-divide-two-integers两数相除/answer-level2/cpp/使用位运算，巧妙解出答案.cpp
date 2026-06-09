@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/b72ee097caadd8e6de3ff53a7e1f17dde7048286787afdcc5bef51283f5b81b3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/b72ee097caadd8e6de3ff53a7e1f17dde7048286787afdcc5bef51283f5b81b3-image.png)
+// ```
 class Solution {
 public:
     long int abs_(long int i)
@@ -51,4 +51,4 @@ public:
         return 0;
     }
 };
-```
+// ```

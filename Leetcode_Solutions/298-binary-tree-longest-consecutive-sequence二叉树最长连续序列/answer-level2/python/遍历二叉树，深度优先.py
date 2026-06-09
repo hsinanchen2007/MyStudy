@@ -1,5 +1,5 @@
-深度优先，遍历二叉树，判断当前节点是否可以和父节点连接，从而更新最长序列长度
-```
+# 深度优先，遍历二叉树，判断当前节点是否可以和父节点连接，从而更新最长序列长度
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
             return cur_len
         helper(root)
         return self.len
-```
+# ```

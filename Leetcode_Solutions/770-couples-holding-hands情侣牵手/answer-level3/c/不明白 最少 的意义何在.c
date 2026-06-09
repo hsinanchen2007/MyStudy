@@ -1,6 +1,6 @@
-假设row[0], row[2], row[4]....都是对的，row[1], row[3]不对的话就去后面查找并交换
+// 假设row[0], row[2], row[4]....都是对的，row[1], row[3]不对的话就去后面查找并交换
 
-```
+// ```
 void change(int* row, int rowSize, int tmp) {
     int i;
 
@@ -34,4 +34,4 @@ int minSwapsCouples(int* row, int rowSize){
 
     return count;
 }
-```
+// ```

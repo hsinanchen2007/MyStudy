@@ -1,9 +1,9 @@
-### 解题思路
-搬运工，和***的测试用例不太一样，要小修改一下
+// ### 解题思路
+// 搬运工，和***的测试用例不太一样，要小修改一下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     unordered_map<int,double> map;
@@ -30,4 +30,4 @@ public:
        return _mypow(x, n);
     }
 };
-```
+// ```

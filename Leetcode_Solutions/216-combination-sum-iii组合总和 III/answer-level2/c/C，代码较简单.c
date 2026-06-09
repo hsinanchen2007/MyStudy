@@ -1,9 +1,9 @@
-### 解题思路
-因为同一组答案不能有重复数字，所以我们人为地控制每组答案是一个递增数组，同时这也避免了出现多组相同的组合。
+// ### 解题思路
+// 因为同一组答案不能有重复数字，所以我们人为地控制每组答案是一个递增数组，同时这也避免了出现多组相同的组合。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -48,4 +48,4 @@ int** combinationSum3(int k, int n, int* returnSize, int** returnColumnSizes){
         (*returnColumnSizes)[i] = k;
     return res;
 }
-```
+// ```

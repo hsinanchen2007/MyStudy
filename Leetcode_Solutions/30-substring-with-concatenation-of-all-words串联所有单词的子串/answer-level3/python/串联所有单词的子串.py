@@ -1,8 +1,8 @@
-### 思路：
+# ### 思路：
 
-一开始，我的想法是，每次从 `s` 截取一定长度（固定）的字符串，看这段字符串出现单词个数是否和要匹配的单词个数相等!如下代码：
+# 一开始，我的想法是，每次从 `s` 截取一定长度（固定）的字符串，看这段字符串出现单词个数是否和要匹配的单词个数相等!如下代码：
 
-```Python []
+# ```Python []
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         from collections import Counter
@@ -20,45 +20,45 @@ class Solution:
                     break
             if flag:res.append(i)
         return res
-```
+# ```
 
-但是比如：`s = "ababaab", words = ["ab","ba","ba"]` 就会报错！
+# 但是比如：`s = "ababaab", words = ["ab","ba","ba"]` 就会报错！
 
-错误原因：因为计算时候我们会从字符串中间计算，也就是说会出现单词截断的问题。
+# 错误原因：因为计算时候我们会从字符串中间计算，也就是说会出现单词截断的问题。
 
-所以我想另一种方法：
+# 所以我想另一种方法：
 
-**思路一：**
+# **思路一：**
 
-因为单词长度固定的，我们可以计算出截取字符串的单词个数是否和 `words` 里相等，所以我们可以借用哈希表。
+# 因为单词长度固定的，我们可以计算出截取字符串的单词个数是否和 `words` 里相等，所以我们可以借用哈希表。
 
-一个是哈希表是 `words`，一个哈希表是截取的字符串，比较两个哈希是否相等！
+# 一个是哈希表是 `words`，一个哈希表是截取的字符串，比较两个哈希是否相等！
 
-因为遍历和比较都是线性的，所以时间复杂度：$O(n^2)$
+# 因为遍历和比较都是线性的，所以时间复杂度：$O(n^2)$
 
-------
+# ------
 
-上面思路每次都要反复遍历 `s`；下面介绍滑动窗口。
+# 上面思路每次都要反复遍历 `s`；下面介绍滑动窗口。
 
-**思路二：**
+# **思路二：**
 
-滑动窗口！
+# 滑动窗口！
 
-我们一直在 `s` 维护着所有单词长度总和的一个长度队列！
+# 我们一直在 `s` 维护着所有单词长度总和的一个长度队列！
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-还可以再优化，只是加一些判断，详细看代码吧！
+# 还可以再优化，只是加一些判断，详细看代码吧！
 
 
 
-------
+# ------
 
-### 代码：
+# ### 代码：
 
-**思路一**：
+# **思路一**：
 
-```Python [solution1]
+# ```Python [solution1]
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         from collections import Counter
@@ -76,8 +76,8 @@ class Solution:
             if Counter(c_tmp) == words:
                 res.append(i)
         return res
-```
-```Java  [solution1]
+# ```
+# ```Java  [solution1]
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<>();
@@ -101,12 +101,12 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-**思路二：**
+# **思路二：**
 
 
-```Python [solution2]
+# ```Python [solution2]
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         from collections import Counter
@@ -134,8 +134,8 @@ class Solution:
                 if cur_cnt == word_num :
                     res.append(left)
         return res
-```
-```Java [solution2]
+# ```
+# ```Java [solution2]
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<>();
@@ -169,11 +169,11 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-**再优化：**
+# **再优化：**
 
-```Python [solution3]
+# ```Python [solution3]
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         from collections import Counter
@@ -207,8 +207,8 @@ class Solution:
                     if cur_cnt == word_num :
                         res.append(left)
         return res
-```
-```Java [solution3]
+# ```
+# ```Java [solution3]
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<>();
@@ -246,4 +246,4 @@ class Solution {
         return res;
     }
 }
-```
+# ```

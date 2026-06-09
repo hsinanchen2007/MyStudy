@@ -1,9 +1,9 @@
-### 解题思路
-明天补充，睡觉啦
+# ### 解题思路
+# 明天补充，睡觉啦
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findTheLongestSubstring(self, s: str) -> int:
         cache={'a':0,'e':0,'i':0,'o':0,'u':0}
@@ -29,4 +29,4 @@ class Solution:
         if num in nums:
             max_=max(len(s)-1-nums[num],max_)
         return max_
-```
+# ```

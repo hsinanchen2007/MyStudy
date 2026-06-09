@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3b1464fd6ba26020f48ff9aca68cc05bd6ac013a38c583cff853e1ce39abbb6d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/3b1464fd6ba26020f48ff9aca68cc05bd6ac013a38c583cff853e1ce39abbb6d-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int dp(int n, int log_10)
@@ -32,4 +32,4 @@ int dp(int n, int log_10)
 	return dp(n, log_10);
     }
 };
-```
+// ```

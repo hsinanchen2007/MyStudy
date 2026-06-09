@@ -1,9 +1,9 @@
-### 解题思路
-遍历
+// ### 解题思路
+// 遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkPerfectNumber(int num){
     if(num==0){
         return false;
@@ -25,4 +25,4 @@ bool checkPerfectNumber(int num){
     }
     return false;
 }
-```
+// ```

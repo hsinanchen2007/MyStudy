@@ -1,5 +1,5 @@
-遍历字符，计数，只要下一个字符与当前的不相同，或者没有下一个，可写入该段结果，计数器归零。
-```c#
+// 遍历字符，计数，只要下一个字符与当前的不相同，或者没有下一个，可写入该段结果，计数器归零。
+// ```c#
 public string CountAndSay(int n)
         {
             string rt = "";
@@ -28,4 +28,4 @@ public string CountAndSay(int n)
             }
             return rt;
         }
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp []
+# ```cpp []
 class Solution {
 public:
     int ans = 0;
@@ -21,8 +21,8 @@ public:
         }
     }
 };
-```
-```python3 []
+# ```
+# ```python3 []
 class Solution:
     def longestZigZag(self, root: TreeNode) -> int:
         self.ans = 0
@@ -38,4 +38,4 @@ class Solution:
         f(root, True, 0)
         f(root, False, 0)
         return self.ans - 1
-```
+# ```

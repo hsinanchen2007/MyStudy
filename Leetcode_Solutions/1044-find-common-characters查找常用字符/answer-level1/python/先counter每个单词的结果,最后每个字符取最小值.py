@@ -1,9 +1,9 @@
-### 解题思路
-如标题所示
+# ### 解题思路
+# 如标题所示
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def commonChars(self, A):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             if value>0:
                 final.extend([key for _ in range(value)])
         return final
-```
+# ```

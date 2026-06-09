@@ -1,11 +1,11 @@
-### 解题思路
-将Node添加至List
-List转数组,交换位置
-修改next指针
+// ### 解题思路
+// 将Node添加至List
+// List转数组,交换位置
+// 修改next指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,4 +40,4 @@ class Solution {
     	return arr[0];
     }
 }
-```
+// ```

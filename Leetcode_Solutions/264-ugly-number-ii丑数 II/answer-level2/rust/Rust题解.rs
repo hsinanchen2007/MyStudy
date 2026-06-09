@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn nth_ugly_number(n: i32) -> i32 {
         let mut uglys = vec![1];
@@ -24,5 +24,5 @@ impl Solution {
         uglys[n as usize - 1]
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

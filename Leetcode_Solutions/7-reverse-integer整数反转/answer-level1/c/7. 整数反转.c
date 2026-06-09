@@ -1,4 +1,4 @@
-```c
+// ```c
 #define MAX 2147483647  // 2^32 - 1
 
 int mabs(int x) // 绝对值
@@ -29,4 +29,4 @@ int reverse(int x){
     return ret;
     
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool isHappy(int n){
     int count = 0, sum = 0, i;
     while(1)
@@ -26,4 +26,4 @@ bool isHappy(int n){
     return false;
 }
 
-```
+// ```

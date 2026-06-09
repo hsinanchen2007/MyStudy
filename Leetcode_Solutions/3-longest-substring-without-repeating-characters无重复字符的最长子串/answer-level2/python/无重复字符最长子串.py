@@ -1,6 +1,6 @@
-应该挺容易理解吧
+# 应该挺容易理解吧
 
-```python []
+# ```python []
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         res = 0;i = 0
@@ -10,8 +10,8 @@ class Solution:
             else:
                 i += s[i:j].index(s[j]) + 1
         return res
-```
-```javascript []
+# ```
+# ```javascript []
 var lengthOfLongestSubstring = function(s) {
     let i=0, res=0, n=0;
     for (let j = 0; j < s.length; j++){
@@ -24,4 +24,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return res;
 };
-```
+# ```

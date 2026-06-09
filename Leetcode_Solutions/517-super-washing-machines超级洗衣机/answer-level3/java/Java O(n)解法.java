@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findMinMoves(int[] machines) {
         int sum  = 0;
@@ -17,4 +17,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

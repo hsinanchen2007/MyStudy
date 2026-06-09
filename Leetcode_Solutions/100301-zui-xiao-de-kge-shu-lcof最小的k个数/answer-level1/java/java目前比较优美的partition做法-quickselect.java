@@ -1,4 +1,4 @@
-```
+// ```
 //最小的k个数
 	public int[] getLeastNumbers(int[] arr, int k) {
 		if(k==0||arr.length==0)return new int[0];
@@ -38,4 +38,4 @@
 		arr[counter]=temp;
 		return counter;
 	}
-```
+// ```

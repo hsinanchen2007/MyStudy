@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
     bool isSubsequence(string s, string t) {
         vector<int> mp[26];
         for(int i = 0; i < t.size(); i++) mp[t[i]-'a'].push_back(i);
@@ -16,4 +16,4 @@
         }
         return true;
     }
-```
+// ```

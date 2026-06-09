@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def addTwoNumbers(self,l1,l2):
         res,l=self.find(l1,l2)
@@ -54,4 +54,4 @@ class Solution(object):
         return res
  
 
-```
+# ```

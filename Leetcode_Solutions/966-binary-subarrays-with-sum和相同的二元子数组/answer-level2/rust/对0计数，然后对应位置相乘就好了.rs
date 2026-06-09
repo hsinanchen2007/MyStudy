@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn num_subarrays_with_sum(a: Vec<i32>, s: i32) -> i32 {
         if a.len() == 0{
@@ -32,4 +32,4 @@ impl Solution {
     }
 }
 
-```
+// ```

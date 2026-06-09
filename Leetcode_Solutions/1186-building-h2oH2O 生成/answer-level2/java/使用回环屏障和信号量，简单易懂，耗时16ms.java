@@ -1,7 +1,7 @@
-### 思路
+// ### 思路
 
-利用回环屏障的特性循环执行一个O线程和2个H线程。
-```java
+// 利用回环屏障的特性循环执行一个O线程和2个H线程。
+// ```java
 class H2O {
     private CyclicBarrier barrier;
     private Semaphore sema_h;
@@ -41,4 +41,4 @@ class H2O {
         
     }
 }
-```
+// ```

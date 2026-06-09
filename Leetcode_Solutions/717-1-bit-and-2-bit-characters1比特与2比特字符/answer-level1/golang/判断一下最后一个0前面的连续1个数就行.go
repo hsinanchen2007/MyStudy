@@ -1,9 +1,9 @@
-### 解题思路
-判断一下最后一个0前面的连续1个数就行
+// ### 解题思路
+// 判断一下最后一个0前面的连续1个数就行
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isOneBitCharacter(bits []int) bool {
 	if len(bits) <= 1 {
 		return true
@@ -18,4 +18,4 @@ func isOneBitCharacter(bits []int) bool {
 	return counter&1 == 0
 }
 
-```
+// ```

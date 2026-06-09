@@ -1,6 +1,6 @@
-找了找规律。
+// 找了找规律。
 
-```
+// ```
 class Solution {
 
     /**
@@ -28,4 +28,4 @@ class Solution {
         return $arr;
     }
 }
-```
+// ```

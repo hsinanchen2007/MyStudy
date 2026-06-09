@@ -1,5 +1,5 @@
-辛辛苦苦写半天的并归排序，根本敌不过人家用列表 sort 再重建链表，我费这劲干嘛？？
-```
+# 辛辛苦苦写半天的并归排序，根本敌不过人家用列表 sort 再重建链表，我费这劲干嘛？？
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution:
             head1.val=i
             head1=head1.next
         return head    
-```
+# ```

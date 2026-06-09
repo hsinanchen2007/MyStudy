@@ -1,14 +1,14 @@
-### [1348. 推文计数](https://leetcode-cn.com/problems/tweet-counts-per-frequency/)
+// ### [1348. 推文计数](https://leetcode-cn.com/problems/tweet-counts-per-frequency/)
 
-#### 题解
+// #### 题解
 
-+ 直接模拟， map映射 + 动态数组统计排序
-+ 注意只统计startTime - endTime， $ 最大区间数 = （endTime - startTime）/ interval $
-+ 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+// + 直接模拟， map映射 + 动态数组统计排序
+// + 注意只统计startTime - endTime， $ 最大区间数 = （endTime - startTime）/ interval $
+// + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
 
-#### 代码
+// #### 代码
 
-```cpp
+// ```cpp
 class TweetCounts {
 public:
     map <string, int> mp;
@@ -56,4 +56,4 @@ public:
  * obj->recordTweet(tweetName,time);
  * vector<int> param_2 = obj->getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
  */
-```
+// ```

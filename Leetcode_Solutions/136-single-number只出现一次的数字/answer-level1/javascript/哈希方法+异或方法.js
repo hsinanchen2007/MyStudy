@@ -1,4 +1,4 @@
-//方法一、创建哈希表，存入每个值时，判断存在相同的值就删除，最后map只留一个值。通过Object.key(map)显示值
+// //方法一、创建哈希表，存入每个值时，判断存在相同的值就删除，最后map只留一个值。通过Object.key(map)显示值
 var singleNumber = function(nums) {
     
     // var map={};

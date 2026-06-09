@@ -1,9 +1,9 @@
-### 解题思路
-将已访问过的标记
+// ### 解题思路
+// 将已访问过的标记
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func exist(board [][]byte, word string) bool {
 	visited := make([][]bool, len(board))
 	for i := 0; i < len(board); i++ {
@@ -41,4 +41,4 @@ func hasPathCore(board [][]byte, i int, j int, word string, length int, visited 
 	}
 	return  hasPath
 }
-```
+// ```

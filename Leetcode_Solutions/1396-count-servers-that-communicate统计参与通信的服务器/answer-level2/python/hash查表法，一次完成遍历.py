@@ -1,19 +1,19 @@
-### 解题思路
+# ### 解题思路
 
-主程序
-1、依次遍历每一个网格
-    如果网格是空节点，跳过
-    该节点的行列处于hashtable中，或者该节点右或下方还有服务器节点（说明该节点可以通信）
-        服务器计数加1，更新hashtable
-2、辅助查找节点
-    向右遍历，找到服务器节点，返回true
-    向下遍历，找到服务器节点，返回true
-    返回false
+# 主程序
+# 1、依次遍历每一个网格
+#     如果网格是空节点，跳过
+#     该节点的行列处于hashtable中，或者该节点右或下方还有服务器节点（说明该节点可以通信）
+#         服务器计数加1，更新hashtable
+# 2、辅助查找节点
+#     向右遍历，找到服务器节点，返回true
+#     向下遍历，找到服务器节点，返回true
+#     返回false
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchRightDown(self, grid, i, j):
         for k in range(j+1, len(grid[0])):
@@ -37,4 +37,4 @@ class Solution(object):
                     tabLine[i] = tabCol[j] = True
         return cnt
 
-```
+# ```

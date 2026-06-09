@@ -1,7 +1,7 @@
-# 思路：
-1，任选三个点，判断是否形成等腰直角三角形
-2，若是，则判断第四个点的位置是否合理
-```
+// # 思路：
+// 1，任选三个点，判断是否形成等腰直角三角形
+// 2，若是，则判断第四个点的位置是否合理
+// ```
 class Solution {
 public:
     using ll = long long;
@@ -34,6 +34,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/ba8096a25014d38bc8185786c2206cb40c4a098be111a0872a6263d87d21d935-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ba8096a25014d38bc8185786c2206cb40c4a098be111a0872a6263d87d21d935-image.png)

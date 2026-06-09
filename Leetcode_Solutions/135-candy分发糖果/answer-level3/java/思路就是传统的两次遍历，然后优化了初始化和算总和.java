@@ -1,4 +1,4 @@
-```
+// ```
     public int candy(int[] ratings) {
         if (ratings.length <= 1) {
             return ratings.length;
@@ -22,4 +22,4 @@
         //每人最少发一个糖 所以要+len
         return sum + len;
     }
-```
+// ```

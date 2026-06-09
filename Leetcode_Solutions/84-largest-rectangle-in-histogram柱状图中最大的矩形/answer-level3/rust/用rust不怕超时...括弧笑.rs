@@ -1,9 +1,9 @@
-执行用时 :
-616 ms
-, 在所有 Rust 提交中击败了
-27.27%
-的用户
-```
+// 执行用时 :
+// 616 ms
+// , 在所有 Rust 提交中击败了
+// 27.27%
+// 的用户
+// ```
 pub fn largest_rectangle_area(heights: Vec<i32>) -> i32 {
         let len = heights.len();
         let mut max = 0;
@@ -17,4 +17,4 @@ pub fn largest_rectangle_area(heights: Vec<i32>) -> i32 {
         }
         max
     }
-```
+// ```

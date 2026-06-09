@@ -1,8 +1,8 @@
-### 解题思路
-@Parsee仿大神写法，不得不说位运算牛逼！
-### 代码
+// ### 解题思路
+// @Parsee仿大神写法，不得不说位运算牛逼！
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {boolean}
@@ -37,4 +37,4 @@ var isValidSudoku = function(board) {
    
     return true
  };
-```
+// ```

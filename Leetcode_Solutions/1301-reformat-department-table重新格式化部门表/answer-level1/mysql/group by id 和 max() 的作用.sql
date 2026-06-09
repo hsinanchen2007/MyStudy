@@ -1,9 +1,9 @@
-### 解题思路
-用 group by id 分组之后，需要用聚合函数进行计算，此处用 max（）即可
+-- ### 解题思路
+-- 用 group by id 分组之后，需要用聚合函数进行计算，此处用 max（）即可
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select
     id,
@@ -22,4 +22,4 @@ select
 from
     Department
 group by id;
-```
+-- ```

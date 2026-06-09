@@ -1,5 +1,5 @@
-1. 用一个map对重复的排列进行过滤
-```
+// 1. 用一个map对重复的排列进行过滤
+// ```
 class Solution {
       private int count;
 
@@ -43,4 +43,4 @@ class Solution {
         return d - (int) d == 0;
     }
 }
-```
+// ```

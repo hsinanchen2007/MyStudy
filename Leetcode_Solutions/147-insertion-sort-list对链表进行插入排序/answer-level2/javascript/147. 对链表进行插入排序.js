@@ -1,9 +1,9 @@
-#### 解法：从左往右插入排序
-+ [经典排序算法讲解 - 插入排序](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
-+ 由上述讲解可知
-  + 如果此题是双链表，那么很容易根据前驱模仿插入排序实现，即从右往左插入实现
-  + 此题是单链表，只能每次从开头开始依次比较
-```javascript
+// #### 解法：从左往右插入排序
+// + [经典排序算法讲解 - 插入排序](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/BitOperation%E4%BD%8D%E8%BF%90%E7%AE%97%E3%80%81Bloom%20Filter%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E3%80%81LRU%20Cache%E7%BC%93%E5%AD%98%E3%80%81Sorting%20algorithm%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.md)
+// + 由上述讲解可知
+//   + 如果此题是双链表，那么很容易根据前驱模仿插入排序实现，即从右往左插入实现
+//   + 此题是单链表，只能每次从开头开始依次比较
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -44,4 +44,4 @@ var insertionSortList = function(head) {
     }
     return preHead.next;
 };
-```
+// ```

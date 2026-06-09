@@ -1,10 +1,10 @@
-### 解题思路
-首先理解题意
-之后很简单
+// ### 解题思路
+// 首先理解题意
+// 之后很简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 comp(const void *a, const void *b) 
 {
     return (*(int *)a - *(int *)b);
@@ -19,4 +19,4 @@ int arrayPairSum(int* nums, int numsSize)
     }
     return sum;
 }
-```
+// ```

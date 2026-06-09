@@ -1,5 +1,5 @@
-先把大的用reduce切分到小的，然后把每个小的转义成相应的字符，Set去重。
-```
+// 先把大的用reduce切分到小的，然后把每个小的转义成相应的字符，Set去重。
+// ```
 function trans(wordArr) {
     const mosArr = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."];
     const passWordArr = transformToPassWord(wordArr);
@@ -17,6 +17,6 @@ function trans(wordArr) {
     }
     return [...new Set(passWordArr)].length;
 }
-```
+// ```
 
 

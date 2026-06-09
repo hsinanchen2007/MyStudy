@@ -1,10 +1,10 @@
-### 解题思路
-深度优先搜索。使用map来记录某个数在某个位置是否已经被使用过，若未使用，则对其进一步判断，若已使用，则跳过。
-![image.png](https://pic.leetcode-cn.com/ffcadecd90c8fbf4f318cfe0edb16641e0c17bbf92069b9a570458863b4d7c10-image.png)
+// ### 解题思路
+// 深度优先搜索。使用map来记录某个数在某个位置是否已经被使用过，若未使用，则对其进一步判断，若已使用，则跳过。
+// ![image.png](https://pic.leetcode-cn.com/ffcadecd90c8fbf4f318cfe0edb16641e0c17bbf92069b9a570458863b4d7c10-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct node
@@ -65,4 +65,4 @@ void dfs(int curr,int pos){
         return res;
     }
 };
-```
+// ```

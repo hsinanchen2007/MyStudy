@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         
@@ -19,4 +19,4 @@ class Solution:
         while q not in ancestor:
             q = dic[q]
         return q
-```
+# ```

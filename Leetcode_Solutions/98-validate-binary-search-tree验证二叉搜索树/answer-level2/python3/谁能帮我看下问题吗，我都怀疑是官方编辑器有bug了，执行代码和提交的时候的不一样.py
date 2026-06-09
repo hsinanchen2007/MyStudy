@@ -1,5 +1,5 @@
-# python 递归中序遍历
-```python []
+# # python 递归中序遍历
+# ```python []
 queen = []
 def midileTraval(root):
     if root.left == root.right == None:
@@ -37,5 +37,5 @@ class Solution(object):
             return True
         return fun(root)
     
-```
+# ```
 

@@ -1,6 +1,6 @@
-先看了下答案，都是用 binary search + rolling hash 的。看了半天没看懂 rolling hash 怎么写，索性抱着试试看的心态，不 roll 了，直接 `unordered_set<string>`，竟然也通过了。40ms.
+// 先看了下答案，都是用 binary search + rolling hash 的。看了半天没看懂 rolling hash 怎么写，索性抱着试试看的心态，不 roll 了，直接 `unordered_set<string>`，竟然也通过了。40ms.
 
-```c++
+// ```c++
 class Solution {
 public:
     int longestRepeatingSubstring(string S) {
@@ -51,4 +51,4 @@ private:
         return false;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-# Definition for a binary tree node.
+# # Definition for a binary tree node.
 
-```python []
+# ```python []
 # class TreeNode:
 #     def __init__(self, x):
 #         self.val = x
@@ -15,4 +15,4 @@ class Solution:
             return True
         return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
 
-```
+# ```

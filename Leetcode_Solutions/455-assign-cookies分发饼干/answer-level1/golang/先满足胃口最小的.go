@@ -1,4 +1,4 @@
-```go
+// ```go
 func findContentChildren(g []int, s []int) int {
 	sort.Ints(g)
 	sort.Ints(s)
@@ -19,4 +19,4 @@ func findContentChildren(g []int, s []int) int {
 	}
 	return count
 }
-```
+// ```

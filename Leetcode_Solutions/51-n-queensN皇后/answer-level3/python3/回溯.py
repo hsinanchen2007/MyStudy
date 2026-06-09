@@ -1,5 +1,5 @@
-逐行放置皇后，记录已经放置皇后的列、主对角线和副对角线。
-```
+# 逐行放置皇后，记录已经放置皇后的列、主对角线和副对角线。
+# ```
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         answer_all = []
@@ -58,4 +58,4 @@ class Solution:
         _generate(0)
 
         return answer_all
-```
+# ```

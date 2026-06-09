@@ -1,6 +1,6 @@
 
 
-```
+// ```
 char * countAndSay(int n){
     char *pre, *num;
     int len = 0;
@@ -31,4 +31,4 @@ char * countAndSay(int n){
     }
     return 0;
 }
-```
+// ```

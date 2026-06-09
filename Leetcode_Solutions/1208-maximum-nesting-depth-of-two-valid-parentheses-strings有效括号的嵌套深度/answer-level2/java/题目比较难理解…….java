@@ -1,9 +1,9 @@
-### 解题思路
-两个栈A B，遍历字符串，哪个栈深度低，将把左括号往那个栈里压。哪个栈深度高，右括号就归哪个栈，同时出栈一个括号。
+// ### 解题思路
+// 两个栈A B，遍历字符串，哪个栈深度低，将把左括号往那个栈里压。哪个栈深度高，右括号就归哪个栈，同时出栈一个括号。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int[] maxDepthAfterSplit(String seq) {
         final char leftSide = '(';
@@ -44,4 +44,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-典型的背包问题，用位图实现，递推公式dp[x|y] = min(dp[x|y],dp[x] + dp[y])
-```
+// 典型的背包问题，用位图实现，递推公式dp[x|y] = min(dp[x|y],dp[x] + dp[y])
+// ```
 class Solution {
 public:
     vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {
@@ -39,4 +39,4 @@ public:
         return team[full-1];
     }
 };
-```
+// ```

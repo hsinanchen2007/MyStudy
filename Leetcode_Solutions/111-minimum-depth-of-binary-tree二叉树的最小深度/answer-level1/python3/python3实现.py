@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
                     queue.append(p.right)
             depth += 1
         return depth
-```
+# ```

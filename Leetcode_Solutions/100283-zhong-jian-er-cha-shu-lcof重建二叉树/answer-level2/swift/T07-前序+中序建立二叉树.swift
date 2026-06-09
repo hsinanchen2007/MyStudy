@@ -1,9 +1,9 @@
-### 解题思路
-对inorder进行一次遍历即可,然后利用递归获取root的左右节点。
+// ### 解题思路
+// 对inorder进行一次遍历即可,然后利用递归获取root的左右节点。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
         if preorder.count == 0 || inorder.count == 0 {
@@ -32,4 +32,4 @@ class Solution {
         
     }
 }
-```
+// ```

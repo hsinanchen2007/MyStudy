@@ -1,5 +1,5 @@
-每次从nums2中取一个元素，插入到nums1中去
-```
+// 每次从nums2中取一个元素，插入到nums1中去
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     for(int i = 0; i < n; i++)
     {
@@ -16,4 +16,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         m++;
     }
 }
-```
+// ```

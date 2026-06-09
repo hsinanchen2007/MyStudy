@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
  func majorityElement(_ nums: [Int]) -> Int {
     return  nums.reduce(into: [:]) { counts, number in
@@ -11,4 +11,4 @@ class Solution {
            }.filter{$0.value > nums.count>>1}.keys.first!
  }
 }
-```
+// ```

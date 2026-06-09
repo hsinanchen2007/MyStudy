@@ -1,12 +1,12 @@
-### 解题思路
-初始节点dummy
-当前节点current
-进位数carry
-逐步相加，出循环条件就是l1没了，l2没了，carry也不等于0了
+// ### 解题思路
+// 初始节点dummy
+// 当前节点current
+// 进位数carry
+// 逐步相加，出循环条件就是l1没了，l2没了，carry也不等于0了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

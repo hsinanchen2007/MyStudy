@@ -1,20 +1,20 @@
-### 解题思路
-如果当前节点root没有左孩子
-`root = root.right`
-否则，我们寻找左孩子最右边的节点left
-把root的右孩子接到left的右边
-`left.right = root.right`
-把root的左孩子接到右边
-`root.right = root.left`
-把root的左孩子置空
-`root.left = None`
+# ### 解题思路
+# 如果当前节点root没有左孩子
+# `root = root.right`
+# 否则，我们寻找左孩子最右边的节点left
+# 把root的右孩子接到left的右边
+# `left.right = root.right`
+# 把root的左孩子接到右边
+# `root.right = root.left`
+# 把root的左孩子置空
+# `root.left = None`
 
-一直循环下去，直到root为空
+# 一直循环下去，直到root为空
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
                 left.right = root.right
                 root.right = root.left
                 root.left = None
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-链表反转，记录前一个节点，将当前节点的next指向pre节点
+// ### 解题思路
+// 链表反转，记录前一个节点，将当前节点的next指向pre节点
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return $pre;
     }
 }
-```
+// ```

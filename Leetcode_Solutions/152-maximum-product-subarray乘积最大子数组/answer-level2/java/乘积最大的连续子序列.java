@@ -1,9 +1,9 @@
-### 解题思路
-乘积最大的连续子序列
+// ### 解题思路
+// 乘积最大的连续子序列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
        int[][] dp = new int[nums.length][2];
@@ -22,4 +22,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

@@ -1,19 +1,19 @@
-## 结果
+// ## 结果
 
-![image.png](https://pic.leetcode-cn.com/9942e35effde1e1da1f5e7911024fd69fcbdc47c9271bfcc3ed73cb2abacd940-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9942e35effde1e1da1f5e7911024fd69fcbdc47c9271bfcc3ed73cb2abacd940-image.png)
 
-## 思路
+// ## 思路
 
-类似螺旋矩阵的题目
+// 类似螺旋矩阵的题目
 
-- 首先构建n*n的矩阵，设需要填入的数K从1到n*n
-- 设定矩阵的四个边界t,r,b,l分别代表top、right、bottom、left，初始为0,n-1,n-1,0
-- 设定变量d代表行走方向，0，1，2，3分别代表向右、下、左、上
-- 开始按照题目约定顺时针方向走，走到边界的同时转向并缩小走过的边界
+// - 首先构建n*n的矩阵，设需要填入的数K从1到n*n
+// - 设定矩阵的四个边界t,r,b,l分别代表top、right、bottom、left，初始为0,n-1,n-1,0
+// - 设定变量d代表行走方向，0，1，2，3分别代表向右、下、左、上
+// - 开始按照题目约定顺时针方向走，走到边界的同时转向并缩小走过的边界
 
-## Code
+// ## Code
 
-```
+// ```
 func generateMatrix(n int) [][]int {
     result := make([][]int, n)
     if n == 0 {
@@ -72,5 +72,5 @@ func generateMatrix(n int) [][]int {
     }
     return result
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-浅显易懂，先按照主对角线交换，再按照纵向的中间轴左右交换即可
+// 浅显易懂，先按照主对角线交换，再按照纵向的中间轴左右交换即可
 
-```c++
+// ```c++
 class Solution {
 public:
     void rotate(vector<vector<int>> &matrix)
@@ -26,4 +26,4 @@ public:
         }
     }
 };
-```
+// ```

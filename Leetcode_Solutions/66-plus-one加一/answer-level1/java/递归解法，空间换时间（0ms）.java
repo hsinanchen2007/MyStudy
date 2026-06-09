@@ -1,5 +1,5 @@
-# 其实递归挺简单的，代码中两个注释就能解释代码了
-```java
+// # 其实递归挺简单的，代码中两个注释就能解释代码了
+// ```java
 class Solution {
     int count = 0; // 记录递归的次数
     public int[] plusOne(int[] digits) {
@@ -18,4 +18,4 @@ class Solution {
         return digits;
     }
 }
-```
+// ```

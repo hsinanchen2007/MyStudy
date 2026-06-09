@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-1 ms
-, 在所有 Java 提交中击败了
-99.62%
-的用户
-内存消耗 :
-34 MB
-, 在所有 Java 提交中击败了
-26.10%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 1 ms
+// , 在所有 Java 提交中击败了
+// 99.62%
+// 的用户
+// 内存消耗 :
+// 34 MB
+// , 在所有 Java 提交中击败了
+// 26.10%
+// 的用户
+// ```
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

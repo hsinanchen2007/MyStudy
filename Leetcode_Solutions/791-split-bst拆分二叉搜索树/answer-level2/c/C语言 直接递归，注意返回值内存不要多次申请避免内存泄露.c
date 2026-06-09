@@ -1,4 +1,4 @@
-```
+// ```
 int splitSubBST(struct TreeNode* root, int V, struct TreeNode** left, struct TreeNode** right){
     *left = NULL;
     *right = NULL;
@@ -28,4 +28,4 @@ struct TreeNode** splitBST(struct TreeNode* root, int V, int* returnSize){
     splitSubBST(root, V, &res[0], &res[1]);    
     return res;
 }
-```
+// ```

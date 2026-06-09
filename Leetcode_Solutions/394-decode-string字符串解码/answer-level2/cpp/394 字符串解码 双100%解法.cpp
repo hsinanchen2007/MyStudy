@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/de190b5c72f2224675e49ddd2dcf40df8440359aa83eb9b78e9d3aed1d06719a-image.png)
-辅助栈方法，用栈存过往元素，遇到]触发拼接，然后重新扔入栈进行迭代
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/de190b5c72f2224675e49ddd2dcf40df8440359aa83eb9b78e9d3aed1d06719a-image.png)
+// 辅助栈方法，用栈存过往元素，遇到]触发拼接，然后重新扔入栈进行迭代
+// ### 代码
 
-```cpp
+// ```cpp
 #include <stdlib.h>
 class Solution {
 public:
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

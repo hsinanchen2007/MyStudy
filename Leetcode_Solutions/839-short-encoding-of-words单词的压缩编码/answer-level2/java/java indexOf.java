@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         int len = words.length;
@@ -15,4 +15,4 @@ class Solution {
         return size;
     }
 }
-```
+// ```

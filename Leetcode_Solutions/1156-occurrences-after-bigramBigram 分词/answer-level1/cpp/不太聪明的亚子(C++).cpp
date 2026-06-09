@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
@@ -25,5 +25,5 @@ public:
         return res;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/fa66babee53f4ff3c90010170e625e42881c7a875d59feaf8521b9249b190a27-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/fa66babee53f4ff3c90010170e625e42881c7a875d59feaf8521b9249b190a27-1.png)

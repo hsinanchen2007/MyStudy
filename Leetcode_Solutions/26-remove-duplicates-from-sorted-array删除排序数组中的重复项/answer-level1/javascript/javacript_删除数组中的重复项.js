@@ -1,6 +1,6 @@
 
-- 最传统的双层循环
-```javascript []
+// - 最传统的双层循环
+// ```javascript []
 
 var A = [1, 1, 2, 3, 3, 33, 4, 4, 5, 6]
 
@@ -17,9 +17,9 @@ var A = [1, 1, 2, 3, 3, 33, 4, 4, 5, 6]
   };
   removeDuplicates(A)
 
-```
--  参照官方解题思路，利用双指针
-```javascript []
+// ```
+// -  参照官方解题思路，利用双指针
+// ```javascript []
 
   var a = [0,2,2]
   var removeDuplicates1 = function (nums) {
@@ -34,10 +34,10 @@ var A = [1, 1, 2, 3, 3, 33, 4, 4, 5, 6]
     return i+1
   };
   removeDuplicates1(a)
-```
+// ```
 
-- 第一种解法的优化，去除了双层嵌套循环
-```javascript []
+// - 第一种解法的优化，去除了双层嵌套循环
+// ```javascript []
  var removeDuplicates2 = function (nums) {
     for (var i = 0; i < nums.length - 1; i++) {
         var j = i+1
@@ -49,5 +49,5 @@ var A = [1, 1, 2, 3, 3, 33, 4, 4, 5, 6]
     return nums
   };
   removeDuplicates2(a) 
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-比较字符串 a + b  和 b + a的大小
+// ### 解题思路
+// 比较字符串 a + b  和 b + a的大小
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN 1000
 #define CHARS_LEN 100
 
@@ -48,4 +48,4 @@ char *minNumber(int *nums, int numsSize)
 
     return ans;
 }
-```
+// ```

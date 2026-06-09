@@ -1,6 +1,6 @@
-用链表维护单调递减数列
-保存每个元素在列表中的位置，删的时候可以更快
-```
+// 用链表维护单调递减数列
+// 保存每个元素在列表中的位置，删的时候可以更快
+// ```
 type MaxQueue struct {
     queue []int
     maxValue *list.List
@@ -50,4 +50,4 @@ func (this *MaxQueue) Pop_front() int {
     this.queue = this.queue[1:]
     return ret
 }
-```
+// ```

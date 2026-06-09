@@ -1,9 +1,9 @@
-### 解题思路
-java递归求解。直径代表的最长路径可能经过跟节点、也有可能不经过根节点只在left或right子树。
+// ### 解题思路
+// java递归求解。直径代表的最长路径可能经过跟节点、也有可能不经过根节点只在left或right子树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

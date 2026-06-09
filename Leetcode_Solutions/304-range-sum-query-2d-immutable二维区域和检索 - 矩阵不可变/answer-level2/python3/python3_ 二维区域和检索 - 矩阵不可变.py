@@ -1,4 +1,4 @@
-```python
+# ```python
 class NumMatrix:
 
     def __init__(self, matrix):
@@ -34,4 +34,4 @@ class NumMatrix:
         if row1 - 1 >= 0: v += self.dp[row1-1][col2]
         if col1 - 1 >= 0 and row1 - 1 >= 0: v -= self.dp[row1-1][col1-1]
         return self.dp[row2][col2] - v
-```
+# ```

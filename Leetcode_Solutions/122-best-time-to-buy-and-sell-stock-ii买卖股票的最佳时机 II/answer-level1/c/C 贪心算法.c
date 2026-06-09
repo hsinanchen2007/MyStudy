@@ -1,9 +1,9 @@
-### 解题思路
-贪心算法思想：当前一步利益最大化
+// ### 解题思路
+// 贪心算法思想：当前一步利益最大化
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int profit = 0;
     // 等价于每日进行买卖交易
@@ -14,4 +14,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return profit;
 }
-```
+// ```

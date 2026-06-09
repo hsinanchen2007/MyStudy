@@ -1,5 +1,5 @@
-### 解题思路
-```
+# ### 解题思路
+# ```
 for i in range(n1-1, -1, -1):
     for j in range(n2-1, -1, -1):
         prod = (ord(num1[i])-ord('0'))*(ord(num2[j])-ord('0'))
@@ -12,10 +12,10 @@ for i in range(n1 + n2 - 1, 0, -1):
     digits[i] = digits[i] % 10
     digits[i - 1] += carry
 
-```
-### 代码
+# ```
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if num1 == '0' or num2 == '0':
@@ -41,4 +41,4 @@ class Solution:
 
                 
 
-```
+# ```

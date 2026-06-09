@@ -1,9 +1,9 @@
-### 解题思路
-利用斜率，为了避免分母为0 全部变为乘法
+# ### 解题思路
+# 利用斜率，为了避免分母为0 全部变为乘法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def checkStraightLine(self, coordinates):
         if len(coordinates) == 2:
@@ -14,4 +14,4 @@ class Solution(object):
             if k*coordinates[i][0] - (coordinates[0][0] - coordinates[1][0])*coordinates[i][1] + b != 0:
                 return False
         return True
-```
+# ```

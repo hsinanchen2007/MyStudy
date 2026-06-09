@@ -1,17 +1,17 @@
-# 模拟LRU 缓存机制
+// # 模拟LRU 缓存机制
 
-## 如何实现LRU的更新：双向链表 Doubly Linked List
-Intuition: 越靠近链表开头的元素，越常用；越靠近链表解位的元素，越不常用；
-1. 为什么是双向？第一，方便删除；第二，方便取链表末端元素并删除。
-2. 当一个Node被加入、更新、修改的时候，都会被放到这个链表的最开头。
-3. 当Cache缓存已经满了，链表末端元素会被删除。
+// ## 如何实现LRU的更新：双向链表 Doubly Linked List
+// Intuition: 越靠近链表开头的元素，越常用；越靠近链表解位的元素，越不常用；
+// 1. 为什么是双向？第一，方便删除；第二，方便取链表末端元素并删除。
+// 2. 当一个Node被加入、更新、修改的时候，都会被放到这个链表的最开头。
+// 3. 当Cache缓存已经满了，链表末端元素会被删除。
 
-## 如何实现HashMap
-源码的大制做法（只是笔者的理解）：位桶+链表/红黑树。
-当链表长度超过8，该链表就会转成红黑树。
+// ## 如何实现HashMap
+// 源码的大制做法（只是笔者的理解）：位桶+链表/红黑树。
+// 当链表长度超过8，该链表就会转成红黑树。
 
-### Node节点，存储key和value，以及双向指针
-```java
+// ### Node节点，存储key和value，以及双向指针
+// ```java
 class Node {
 	public int key;
 	public int value;
@@ -28,10 +28,10 @@ class Node {
 		next = null;
 	}
 }
-```
+// ```
 
-### 自定义双向链表
-```java
+// ### 自定义双向链表
+// ```java
 class DoublyLinkedList {
 	private Node head;
 	private Node tail;
@@ -133,10 +133,10 @@ class DoublyLinkedList {
 		return size;
 	}
 }
-```
+// ```
 
-### 缓存映射图
-```java
+// ### 缓存映射图
+// ```java
 class LRUCache {
        
     private int capacity;
@@ -245,5 +245,5 @@ class LRUCache {
     	return key % table.length;
     }
 }
-```
+// ```
 

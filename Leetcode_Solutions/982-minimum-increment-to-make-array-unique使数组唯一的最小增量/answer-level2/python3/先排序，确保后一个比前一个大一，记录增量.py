@@ -1,9 +1,9 @@
-### 解题思路
-先排序，确保后一个比前一个大一，记录增量
+# ### 解题思路
+# 先排序，确保后一个比前一个大一，记录增量
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -16,4 +16,4 @@ class Solution:
         return ans
 
 
-```
+# ```

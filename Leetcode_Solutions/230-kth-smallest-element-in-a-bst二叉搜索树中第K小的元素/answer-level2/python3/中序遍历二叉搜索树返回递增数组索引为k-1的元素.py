@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历二叉搜索树返回递增数组索引为k-1的元素
+# ### 解题思路
+# 中序遍历二叉搜索树返回递增数组索引为k-1的元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             return []
         else:
             return self.helper(root.left) + [root.val] + self.helper(root.right)
-```
+# ```

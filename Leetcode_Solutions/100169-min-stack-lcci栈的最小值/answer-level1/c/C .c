@@ -1,7 +1,7 @@
 
-use a extra int to record the previous min_val
+// use a extra int to record the previous min_val
 
-```
+// ```
 #define MAX_LEN 1000
 
 typedef struct {
@@ -73,4 +73,4 @@ void minStackFree(MinStack* obj)
   free(obj);
 }
 
-```
+// ```

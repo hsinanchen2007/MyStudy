@@ -1,5 +1,5 @@
-****
-```
+// ****
+// ```
   public int minTimeToVisitAllPoints(int[][] points) {
        int answer = 0;
         for (int i = points.length - 1; i >= 1; i--) {
@@ -7,4 +7,4 @@
         }
         return answer;
     }
-```
+// ```

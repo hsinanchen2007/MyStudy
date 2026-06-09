@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/010cf51c88ef1b9183ac0675d9c1b0340a0a4ce614150d4c76882cb83df6d651-image.png)
+# ![image.png](https://pic.leetcode-cn.com/010cf51c88ef1b9183ac0675d9c1b0340a0a4ce614150d4c76882cb83df6d651-image.png)
 
 
-```
+# ```
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                 idx += len(needle)
                 
         return -1
-```
+# ```

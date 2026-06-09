@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -17,6 +17,6 @@ public:
         return result;
     }
 };
-```
-简单的正序遍历而已
-击败100%和79%
+// ```
+// 简单的正序遍历而已
+// 击败100%和79%

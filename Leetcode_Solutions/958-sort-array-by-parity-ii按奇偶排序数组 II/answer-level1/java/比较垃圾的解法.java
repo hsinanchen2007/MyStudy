@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         int[] res = new int[A.length];
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

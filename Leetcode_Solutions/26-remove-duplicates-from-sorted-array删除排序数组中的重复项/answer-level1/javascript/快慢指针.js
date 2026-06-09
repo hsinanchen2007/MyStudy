@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/af32e2480ad431e8ab468a31a24e7c60966f87be393804a482d6d4c37d000487-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/af32e2480ad431e8ab468a31a24e7c60966f87be393804a482d6d4c37d000487-image.png)
 
-速度空间和set大法差不多啊。
+// 速度空间和set大法差不多啊。
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -26,4 +26,4 @@ var removeDuplicates = function (nums) {
     }
     return j;
 };
-```
+// ```

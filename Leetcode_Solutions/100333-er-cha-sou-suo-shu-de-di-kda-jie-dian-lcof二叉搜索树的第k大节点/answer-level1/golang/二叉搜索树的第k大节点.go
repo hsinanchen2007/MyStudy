@@ -1,9 +1,9 @@
-### 解题思路
-先前序遍历将树转化为数组，然后求第几大的值即转化为求数组下标为len(arr) - k
+// ### 解题思路
+// 先前序遍历将树转化为数组，然后求第几大的值即转化为求数组下标为len(arr) - k
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -31,4 +31,4 @@ func kthLargest(root *TreeNode, k int) int {
     arr := toArray(root)
     return arr[len(arr) - k]
 }
-```
+// ```

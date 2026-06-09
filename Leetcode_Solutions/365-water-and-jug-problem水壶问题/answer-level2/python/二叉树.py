@@ -1,9 +1,9 @@
-### 解题思路
-代码没做优化
+# ### 解题思路
+# 代码没做优化
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         if z== x or z==y:
@@ -42,4 +42,4 @@ class Solution:
         return (z in rs)
             
 
-```
+# ```

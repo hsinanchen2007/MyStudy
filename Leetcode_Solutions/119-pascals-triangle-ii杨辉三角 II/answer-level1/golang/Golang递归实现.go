@@ -1,4 +1,4 @@
-```
+// ```
 func getRow(rowIndex int) []int {
     if rowIndex == 0 {
         return []int{1}
@@ -16,6 +16,6 @@ func getRow(rowIndex int) []int {
     }
     return res
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/76dbaf5a5d97121617704c199491aa38025fa30a16c336a61d4ffacf47020752-image.png)
+// ![image.png](https://pic.leetcode-cn.com/76dbaf5a5d97121617704c199491aa38025fa30a16c336a61d4ffacf47020752-image.png)

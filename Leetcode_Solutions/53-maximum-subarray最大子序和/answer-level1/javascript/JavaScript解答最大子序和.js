@@ -1,4 +1,4 @@
-```
+// ```
   var maxSubArray = function(nums) {
     if(!nums.length) return -1;
     let maxArray = [nums[0]]
@@ -18,4 +18,4 @@
     }
      return max
   }
-```
+// ```

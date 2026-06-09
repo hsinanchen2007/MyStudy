@@ -1,8 +1,8 @@
-### 解题思路
-方法一：递归
-方法二：迭代--使用栈。
-### 代码
-```递归 []
+// ### 解题思路
+// 方法一：递归
+// 方法二：迭代--使用栈。
+// ### 代码
+// ```递归 []
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -13,8 +13,8 @@ public:
         return p->val==q->val && isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
     }
 };
-```
-```迭代 []
+// ```
+// ```迭代 []
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -49,5 +49,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

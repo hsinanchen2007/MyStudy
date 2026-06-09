@@ -1,13 +1,13 @@
-### 解题思路
-三角形面积area = a*b*sin(theta) / 2; 
-A = 平方(a*b*sin(theta)) = (4*b*b*c*c - (a*a - b*b - c*c)的平方) / 4
-故 area = sqrt(A) / 2;
-另在求面积之前需要判断是否可以组成一个三角形；
-判断的标准是找出最小的两个边长，看是否最小的两边长大于最大边，如果是，则可以求面积；
+// ### 解题思路
+// 三角形面积area = a*b*sin(theta) / 2; 
+// A = 平方(a*b*sin(theta)) = (4*b*b*c*c - (a*a - b*b - c*c)的平方) / 4
+// 故 area = sqrt(A) / 2;
+// 另在求面积之前需要判断是否可以组成一个三角形；
+// 判断的标准是找出最小的两个边长，看是否最小的两边长大于最大边，如果是，则可以求面积；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double largestTriangleArea(vector<vector<int>>& points) {
@@ -58,4 +58,4 @@ public:
         return s <= f;
     }
 };
-```
+// ```

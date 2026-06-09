@@ -1,7 +1,7 @@
-#### 思路
-思路挺简单，举个栗子：`word = 'apple'`，`abbr = 'a2e'`，我们把`abbr`中的数字换成相同数量的星号，存在`tmp`中，则`tmp = 'a**e'`，比较`tmp[i]`与`word[i]`是否相同，星号直接跳过即可。
-#### 代码
-```
+# #### 思路
+# 思路挺简单，举个栗子：`word = 'apple'`，`abbr = 'a2e'`，我们把`abbr`中的数字换成相同数量的星号，存在`tmp`中，则`tmp = 'a**e'`，比较`tmp[i]`与`word[i]`是否相同，星号直接跳过即可。
+# #### 代码
+# ```
 class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
         # 维护tmp（过程有些繁琐，能力有限）
@@ -31,7 +31,7 @@ class Solution:
                     return False
         
         return True
-```
-#### 复杂度分析
-- 时间复杂度：O(N)，遍历两次
-- 空间复杂度：O(N)，使用了`tmp`
+# ```
+# #### 复杂度分析
+# - 时间复杂度：O(N)，遍历两次
+# - 空间复杂度：O(N)，使用了`tmp`

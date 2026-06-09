@@ -1,9 +1,9 @@
-### 思路
-1. 使用 bfs 找到起点
-2. 使用 dfs 匹配
+// ### 思路
+// 1. 使用 bfs 找到起点
+// 2. 使用 dfs 匹配
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 bool dfs(ListNode* head, TreeNode* root)
 {
     if (head == nullptr) return true;
@@ -32,13 +32,13 @@ bool isSubPath(ListNode* head, TreeNode* root)
     }
     return false;
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

@@ -1,11 +1,11 @@
-### 解题思路
-第一次自己写出hard题纪念。
-序列化就是层次遍历。
-反序列化建立节点列表，与输入的值列表配合判断。
+# ### 解题思路
+# 第一次自己写出hard题纪念。
+# 序列化就是层次遍历。
+# 反序列化建立节点列表，与输入的值列表配合判断。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -67,4 +67,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.deserialize(codec.serialize(root))
-```
+# ```

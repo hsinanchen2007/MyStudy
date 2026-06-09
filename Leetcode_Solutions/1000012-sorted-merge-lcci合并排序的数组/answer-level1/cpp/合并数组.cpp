@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先将 A 中的元素后移 n 个单位，注意从后往前移动，然后合并即可。
+// 先将 A 中的元素后移 n 个单位，注意从后往前移动，然后合并即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
    public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -24,4 +24,4 @@ class Solution {
         while (j < n) A[idx++] = B[j++];
     }
 };
-```
+// ```

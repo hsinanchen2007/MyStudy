@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         t=-sys.maxsize
@@ -12,4 +12,4 @@ class Solution:
             if s>t:
                 t=s
         return t/k
-```
+# ```

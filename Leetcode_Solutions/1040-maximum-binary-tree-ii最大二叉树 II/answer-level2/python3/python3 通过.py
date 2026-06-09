@@ -1,5 +1,5 @@
-最后还要多return一下 不然一直是空的
-```
+# 最后还要多return一下 不然一直是空的
+# ```
 class Solution:
     def insertIntoMaxTree(self, root: TreeNode, val: int) -> TreeNode:
         add = TreeNode(val)
@@ -17,4 +17,4 @@ class Solution:
             return root
         return leaf(root, val)
         
-```
+# ```

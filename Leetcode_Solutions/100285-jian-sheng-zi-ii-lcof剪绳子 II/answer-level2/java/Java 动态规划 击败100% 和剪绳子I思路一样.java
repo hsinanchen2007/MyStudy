@@ -1,9 +1,9 @@
-思路和上一题完全一样, 不同之处在于
-1) 使用int会溢出, 用long也会溢出, 所以使用java.math.BigInteger
-2) 需要使用BigInteger中的乘法、取最大值操作、取模操作
-2) 最后的返回结果需要按照题目要求取模
+// 思路和上一题完全一样, 不同之处在于
+// 1) 使用int会溢出, 用long也会溢出, 所以使用java.math.BigInteger
+// 2) 需要使用BigInteger中的乘法、取最大值操作、取模操作
+// 2) 最后的返回结果需要按照题目要求取模
 
-```java
+// ```java
 import java.math.BigInteger;
 
 class Solution {
@@ -36,4 +36,4 @@ class Solution {
         return dp[n].mod(new BigInteger("1000000007")).intValue();
     }
 }
-```
+// ```

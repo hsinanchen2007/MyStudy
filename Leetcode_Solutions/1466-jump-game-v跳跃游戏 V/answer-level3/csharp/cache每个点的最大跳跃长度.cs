@@ -1,10 +1,10 @@
-### 解题思路
-对于某个Start，其子问题 即下一个点的最大长度 和 当前所在位置 是独立的
-且整体解 一定是 某个子问题的最优解 构成
+// ### 解题思路
+// 对于某个Start，其子问题 即下一个点的最大长度 和 当前所在位置 是独立的
+// 且整体解 一定是 某个子问题的最优解 构成
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class Jump5{
     private int[] aa;
     private int dd;
@@ -53,4 +53,4 @@ public class Solution {
         return j5.MaxJumps(arr, d);
     }
 }
-```
+// ```

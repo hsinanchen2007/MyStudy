@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def minMoves(self, nums):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         for i in range(len(nums)):
             r += nums[i]-min_value
         return r
-```
+# ```

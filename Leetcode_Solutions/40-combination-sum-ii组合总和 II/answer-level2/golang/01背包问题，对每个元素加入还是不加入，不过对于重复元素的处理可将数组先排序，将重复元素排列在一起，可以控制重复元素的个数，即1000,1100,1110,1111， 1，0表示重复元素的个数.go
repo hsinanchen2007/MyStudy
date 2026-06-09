@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-01背包问题，对每个元素加入还是不加入，不过对于重复元素的处理可将数组先排序，将重复元素排列在一起，可以控制重复元素的个数，即1000,1100,1110,1111， 1，0表示重复元素的个数
-### 代码
+// 01背包问题，对每个元素加入还是不加入，不过对于重复元素的处理可将数组先排序，将重复元素排列在一起，可以控制重复元素的个数，即1000,1100,1110,1111， 1，0表示重复元素的个数
+// ### 代码
 
-```golang
+// ```golang
 func combinationSum2(candidates []int, target int) [][]int {
 	if len(candidates) == 0 {
 		return nil
@@ -35,4 +35,4 @@ func generate(candidates []int, i int, target int, item []int, result *[][]int) 
 	generate(candidates, i+1, target, item, result)
 }
 
-```
+// ```

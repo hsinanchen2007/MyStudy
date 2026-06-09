@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、如果是闭环，那么快跑一定在某个时刻能赶上慢跑
+// ### 解题思路
+// 此处撰写解题思路
+// 1、如果是闭环，那么快跑一定在某个时刻能赶上慢跑
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ bool hasCycle(struct ListNode *head) {
 
     return false;
 }
-```
+// ```

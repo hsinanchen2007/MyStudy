@@ -1,11 +1,11 @@
-### 解题思路
-1.根据公式(a+bi)(c+di)=(ac-bd)+(bc+ad)i
-2.分开输入字符串，分成a,b,c,d
-3.根据公式运算
+# ### 解题思路
+# 1.根据公式(a+bi)(c+di)=(ac-bd)+(bc+ad)i
+# 2.分开输入字符串，分成a,b,c,d
+# 3.根据公式运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def complexNumberMultiply(self, a: str, b: str) -> str:
         #分割字符串
@@ -20,4 +20,4 @@ class Solution:
         numble3.append(str(int(numble[1])*int(numble2[0])+int(numble[0])*int(numble2[1])))
         #合并成字符串输出
         return '+'.join(numble3) + 'i'
-```
+# ```

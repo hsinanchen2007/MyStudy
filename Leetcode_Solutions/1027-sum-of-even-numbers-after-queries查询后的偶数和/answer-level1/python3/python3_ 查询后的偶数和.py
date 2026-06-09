@@ -1,4 +1,4 @@
-```python
+# ```python
 def sumEvenAfterQueries(A, queries):
     r = []
     # 求得偶数和
@@ -26,4 +26,4 @@ def sumEvenAfterQueries(A, queries):
     return r
 
 print(sumEvenAfterQueries([1,2,3,4], [[1,0],[-3,1],[-4,0],[2,3]]))
-```
+# ```

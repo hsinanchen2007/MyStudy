@@ -1,9 +1,9 @@
-### 解题思路
-取字符串第i个字符 并用for遍历i+1之后的字符 进行比较，如果有不同则跳出循环
+// ### 解题思路
+// 取字符串第i个字符 并用for遍历i+1之后的字符 进行比较，如果有不同则跳出循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         boolean flag = true;
@@ -19,4 +19,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

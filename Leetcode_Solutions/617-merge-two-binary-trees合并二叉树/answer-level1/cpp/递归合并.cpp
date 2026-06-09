@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码吧，挺简单的递归题
+// ### 解题思路
+// 直接看代码吧，挺简单的递归题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         
     }
 };
-```
+// ```

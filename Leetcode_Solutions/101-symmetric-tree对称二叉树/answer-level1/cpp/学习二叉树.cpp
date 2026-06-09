@@ -1,9 +1,9 @@
-### 解题思路
-参考官方的递归方法
+// ### 解题思路
+// 参考官方的递归方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ public:
         && isMirror(t1->right, t2->left);
     }
 };
-```
+// ```

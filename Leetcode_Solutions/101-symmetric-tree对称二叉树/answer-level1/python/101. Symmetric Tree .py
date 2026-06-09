@@ -1,11 +1,11 @@
-迭代条件:
-1. root.left.val == root.right.val
-2. (root.left.left.val == root.right.right.val) and (root.left.right.val == root.right.left.val)
-3. ...
-4. 还有个考虑条件是: 为空情况
+# 迭代条件:
+# 1. root.left.val == root.right.val
+# 2. (root.left.left.val == root.right.right.val) and (root.left.right.val == root.right.left.val)
+# 3. ...
+# 4. 还有个考虑条件是: 为空情况
 
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution(object):
 - if left or right 为空 则返回False
 
 """
-```
+# ```

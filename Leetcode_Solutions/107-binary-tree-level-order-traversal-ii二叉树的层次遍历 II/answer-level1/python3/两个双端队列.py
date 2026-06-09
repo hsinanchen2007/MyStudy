@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+# ### 解题思路
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
                 if node.right:queue.append(node.right)
             res.appendleft(level)
         return res
-```
+# ```

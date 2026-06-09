@@ -1,6 +1,6 @@
-解题思路：借鉴并归排序交叉合并两数组构成新的有序数组，然后寻找中位数。
-方法：给定计数变量m和n，依次添加nums1和nums2中小的值构成有序数组，题目要求寻找中位数，所以新数组元素个数超过nums1和nums2长度之和的一半即可，根据nums1和nums2长度和的奇偶性确定返回值，和为奇数返回新数组最后一位，否则返回最后两位平均值。
-```
+# 解题思路：借鉴并归排序交叉合并两数组构成新的有序数组，然后寻找中位数。
+# 方法：给定计数变量m和n，依次添加nums1和nums2中小的值构成有序数组，题目要求寻找中位数，所以新数组元素个数超过nums1和nums2长度之和的一半即可，根据nums1和nums2长度和的奇偶性确定返回值，和为奇数返回新数组最后一位，否则返回最后两位平均值。
+# ```
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             return new_nums[-1]
         else:
             return (new_nums[-1] + new_nums[-2]) / 2.0
-```
+# ```

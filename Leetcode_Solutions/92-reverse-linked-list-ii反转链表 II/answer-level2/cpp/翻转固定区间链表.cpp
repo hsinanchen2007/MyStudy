@@ -1,10 +1,10 @@
-1、创建一个哑结点before，将m之前的链表连接在before之后，并用mm记录开始翻转的位置；
-2、开始翻转m到n之间的链表；
-3、翻转部分翻转后，mm即为翻转链表的结尾，将n之后的链表连接到mm之后；
-4、最后将翻转的链表连接到before之后；
+// 1、创建一个哑结点before，将m之前的链表连接在before之后，并用mm记录开始翻转的位置；
+// 2、开始翻转m到n之间的链表；
+// 3、翻转部分翻转后，mm即为翻转链表的结尾，将n之后的链表连接到mm之后；
+// 4、最后将翻转的链表连接到before之后；
 
-实现：
-```
+// 实现：
+// ```
 ListNode* reserveBetween(ListNode* head, int m, int n) {
 
 	ListNode before(-1);
@@ -38,4 +38,4 @@ ListNode* reserveBetween(ListNode* head, int m, int n) {
 
 	return before.next;
 }
-```
+// ```

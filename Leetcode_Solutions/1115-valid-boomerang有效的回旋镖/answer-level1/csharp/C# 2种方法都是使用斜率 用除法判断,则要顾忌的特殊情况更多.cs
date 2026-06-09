@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public bool IsBoomerang(int[][] points)
         {
             return 1.0 * (points[1][0] - points[0][0]) * (points[2][1] - points[1][1]) !=
@@ -34,4 +34,4 @@
             var oneTwoSide = 1.0 * (points[2][0] - points[1][0]) / (points[2][1] - points[1][1]);
             return zeroOneSide != oneTwoSide;
         }
-```
+// ```

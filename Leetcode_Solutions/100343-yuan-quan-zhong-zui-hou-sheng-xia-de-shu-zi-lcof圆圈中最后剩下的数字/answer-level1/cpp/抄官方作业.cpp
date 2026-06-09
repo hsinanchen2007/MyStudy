@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -14,4 +14,4 @@ public:
 };
 
 
-```
+// ```

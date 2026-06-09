@@ -1,10 +1,10 @@
 
-'''
-平均用时55ms
-执行用时 :36 ms, 在所有 Python3 提交中击败了99.60%的用户
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.37%的用户
-'''
-```
+# '''
+# 平均用时55ms
+# 执行用时 :36 ms, 在所有 Python3 提交中击败了99.60%的用户
+# 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.37%的用户
+# '''
+# ```
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         L = len(nums)
@@ -26,4 +26,4 @@ class Solution:
             nums.pop(cur)
             L-=1
         return L     
-```
+# ```

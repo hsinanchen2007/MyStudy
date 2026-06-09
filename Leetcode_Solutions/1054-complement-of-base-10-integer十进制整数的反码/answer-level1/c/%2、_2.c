@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int bitwiseComplement(int N){
     if(N==0) return 1;
     int a[32],i,s=0;
@@ -15,4 +15,4 @@ int bitwiseComplement(int N){
         s=s*2+a[i];
     return s;
 }
-```
+// ```

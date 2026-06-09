@@ -1,15 +1,15 @@
 
-- 和127题类似。不过这题需要把所有最短的给找出来，难度明显增加了。我们先像127题一样
+// - 和127题类似。不过这题需要把所有最短的给找出来，难度明显增加了。我们先像127题一样
 
-- 使用双向bfs 找到最短的序列，并且引入了一个标志flag。默认是0.一旦找到那个最短序列后赋值为1。
+// - 使用双向bfs 找到最短的序列，并且引入了一个标志flag。默认是0.一旦找到那个最短序列后赋值为1。
 
-- 使用unordered_map<string, vector<string>>来记录单词的记录，string是开始查找的单词，
+// - 使用unordered_map<string, vector<string>>来记录单词的记录，string是开始查找的单词，
   
-- vector<string>是由这个 string改变一个字母且存在与字典中的集合。例如"hit"对应的就是 vector<string>{"hot"} 。
+// - vector<string>是由这个 string改变一个字母且存在与字典中的集合。例如"hit"对应的就是 vector<string>{"hot"} 。
 
-- 其中flag2表示begin方向和end方向是否有交换，每次交换后需要反转flag2。
+// - 其中flag2表示begin方向和end方向是否有交换，每次交换后需要反转flag2。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<string>> res;
@@ -63,4 +63,4 @@ public:
         }
     }
 };
-```
+// ```

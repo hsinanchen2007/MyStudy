@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define RED 0
 #define WHITE 1
 #define BLUE 2
@@ -53,4 +53,4 @@ void sortColors(int* nums, int numsSize){
     
     return;
 }
-```
+// ```

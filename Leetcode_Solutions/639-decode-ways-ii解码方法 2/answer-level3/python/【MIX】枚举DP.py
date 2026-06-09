@@ -1,9 +1,9 @@
-### 解题思路
-枚举法&动态规划
+# ### 解题思路
+# 枚举法&动态规划
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int numDecodings(String ss) {
         // 枚举dp
@@ -66,8 +66,8 @@ class Solution {
         return 0;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def numDecodings(self, s: str) -> int:
         N = len(s)
@@ -117,8 +117,8 @@ class Solution:
 
 
         return 0
-```
-```c++ []
+# ```
+# ```c++ []
 typedef long long ll;
 class Solution {
 public:
@@ -192,4 +192,4 @@ private:
         return 0;
     }
 };
-```
+# ```

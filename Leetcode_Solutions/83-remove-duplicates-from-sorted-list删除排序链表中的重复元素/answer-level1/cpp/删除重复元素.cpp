@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -15,8 +15,8 @@ public:
         return res;
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

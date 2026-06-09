@@ -1,4 +1,4 @@
-```
+// ```
 
 type point struct {
 	x, y int
@@ -55,4 +55,4 @@ func maxDistance(grid [][]int) int {
 	return distance
 }
 
-```
+// ```

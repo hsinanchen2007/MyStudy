@@ -1,48 +1,48 @@
 
 
-#### 解题思路一：常规
+# #### 解题思路一：常规
 
-对于这种括号匹配问题，一般都是使用栈
+# 对于这种括号匹配问题，一般都是使用栈
 
-我们先找到所有可以匹配的索引号，然后找出最长连续数列！
+# 我们先找到所有可以匹配的索引号，然后找出最长连续数列！
 
-例如：`s = )(()())`，我们用栈可以找到，
+# 例如：`s = )(()())`，我们用栈可以找到，
 
-位置 `2` 和位置 `3` 匹配，
+# 位置 `2` 和位置 `3` 匹配，
 
-位置 `4` 和位置 `5` 匹配，
+# 位置 `4` 和位置 `5` 匹配，
 
-位置 `1` 和位置 `6` 匹配，
+# 位置 `1` 和位置 `6` 匹配，
 
-这个数组为：`2,3,4,5,1,6` 这是通过栈找到的，我们按递增排序！`1,2,3,4,5,6`
+# 这个数组为：`2,3,4,5,1,6` 这是通过栈找到的，我们按递增排序！`1,2,3,4,5,6`
 
-找出该数组的最长连续数列的长度就是最长有效括号长度！
+# 找出该数组的最长连续数列的长度就是最长有效括号长度！
 
-所以时间复杂度来自排序：$O(nlogn)$。
+# 所以时间复杂度来自排序：$O(nlogn)$。
 
-接下来我们思考，是否可以省略排序的过程,在弹栈时候进行操作呢?
+# 接下来我们思考，是否可以省略排序的过程,在弹栈时候进行操作呢?
 
-直接看代码理解!所以时间复杂度为：$O(n)$。
+# 直接看代码理解!所以时间复杂度为：$O(n)$。
 
-#### 解题思路二：dp 方法
+# #### 解题思路二：dp 方法
 
-我们用 `dp[i]` 表示以 `i` 结尾的最长有效括号；
+# 我们用 `dp[i]` 表示以 `i` 结尾的最长有效括号；
 
-1. 当 `s[i]` 为 `(`,`dp[i]` 必然等于 `0`，因为不可能组成有效的括号；
+# 1. 当 `s[i]` 为 `(`,`dp[i]` 必然等于 `0`，因为不可能组成有效的括号；
 
-2. 那么 `s[i]` 为 `)`
+# 2. 那么 `s[i]` 为 `)`
 
-   2.1 当 `s[i-1]` 为 `(`，那么 `dp[i] = dp[i-2] + 2`；
+#    2.1 当 `s[i-1]` 为 `(`，那么 `dp[i] = dp[i-2] + 2`；
 
-   2.2 当 `s[i-1]` 为 `)` 并且 `s[i-dp[i-1] - 1]` 为 `(`，那么 `dp[i] = dp[i-1] + 2 + dp[i-dp[i-1]-2]`；
+#    2.2 当 `s[i-1]` 为 `)` 并且 `s[i-dp[i-1] - 1]` 为 `(`，那么 `dp[i] = dp[i-1] + 2 + dp[i-dp[i-1]-2]`；
 
-时间复杂度：$O(n)$。
+# 时间复杂度：$O(n)$。
 
 
 
-#### 代码一：
+# #### 代码一：
 
-```Python [-Python]
+# ```Python [-Python]
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         if not s:
@@ -67,11 +67,11 @@ class Solution:
             ans = max(ans, j - i + 1)
             i = j + 1
         return ans
-```
+# ```
 
-优化:
+# 优化:
 
-```Python [solution1]
+# ```Python [solution1]
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         if not s:
@@ -88,8 +88,8 @@ class Solution:
                 else:
                     res = max(res,i - stack[-1])
         return res
-```
-```Java [solution1]
+# ```
+# ```Java [solution1]
 class Solution {
     public int longestValidParentheses(String s) {
         if (s == null || s.length() == 0) return 0;
@@ -110,11 +110,11 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-#### 代码二：dp
+# #### 代码二：dp
 
-```Python [solution2]
+# ```Python [solution2]
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         n = len(s)
@@ -130,8 +130,8 @@ class Solution:
                 if dp[i] > res:
                     res = dp[i]
         return res
-```
-```Java [solution2]
+# ```
+# ```Java [solution2]
 class Solution {
     public int longestValidParentheses(String s) {
         if (s == null || s.length() == 0) return 0;
@@ -150,5 +150,5 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 

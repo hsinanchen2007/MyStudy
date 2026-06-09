@@ -1,13 +1,13 @@
-### 解题思路
-首先判断两个字符串是否分别为空，根据题意可知，如果needle为空返回0。其次，因为已经判断过needle不为空了，如果这时haystack为空，表明needle在haystack中不可能出现任何匹配情况，故直接返回-1。
-接下来遍历haystack数组，数组遍历次数haystack长度减去needleChar长度，这个长度为有且有可能匹配到的最大下标值，超出无意义，然后遍历判断每个字符是否与needleChar首字符相等，如果不等，继续下次遍历。
-接着判断，如果能走到判断needleCharArray.length长度地方表明，首字母是匹配的，这时如果判断到needleCharArray长度是1的话，表明可以直接返回当前haystackChar的下标了，因为只有一个字符，已经找到了。如果needleCharArray长度不为1，开始遍历needleChar，
-首字母已经判断过相等了，直接从第二个下标开始判断，一旦遇到某个字符不相等，直接跳出needleChar循环，继续外层遍历。如果相等接着判断下标是否到达了needleCharArray的最大长度，是否匹配到了最后一个字符都是相等的，如果是直接返回当前haystackChar数组下标。没有到达needleCharArray的最大长度，则继续遍历。
+// ### 解题思路
+// 首先判断两个字符串是否分别为空，根据题意可知，如果needle为空返回0。其次，因为已经判断过needle不为空了，如果这时haystack为空，表明needle在haystack中不可能出现任何匹配情况，故直接返回-1。
+// 接下来遍历haystack数组，数组遍历次数haystack长度减去needleChar长度，这个长度为有且有可能匹配到的最大下标值，超出无意义，然后遍历判断每个字符是否与needleChar首字符相等，如果不等，继续下次遍历。
+// 接着判断，如果能走到判断needleCharArray.length长度地方表明，首字母是匹配的，这时如果判断到needleCharArray长度是1的话，表明可以直接返回当前haystackChar的下标了，因为只有一个字符，已经找到了。如果needleCharArray长度不为1，开始遍历needleChar，
+// 首字母已经判断过相等了，直接从第二个下标开始判断，一旦遇到某个字符不相等，直接跳出needleChar循环，继续外层遍历。如果相等接着判断下标是否到达了needleCharArray的最大长度，是否匹配到了最后一个字符都是相等的，如果是直接返回当前haystackChar数组下标。没有到达needleCharArray的最大长度，则继续遍历。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         // 首先判断 如果 needle 为空 返回0
@@ -47,4 +47,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

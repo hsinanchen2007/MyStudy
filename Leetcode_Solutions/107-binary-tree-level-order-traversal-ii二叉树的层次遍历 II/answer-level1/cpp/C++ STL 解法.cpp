@@ -1,7 +1,7 @@
-### 简介
-熟悉二叉树遍历方法 配合STL库可快速求解。有问题随时联系我。
+// ### 简介
+// 熟悉二叉树遍历方法 配合STL库可快速求解。有问题随时联系我。
 
-```
+// ```
 class Solution {
 public:
   vector<vector<int>> res;
@@ -28,4 +28,4 @@ public:
     goDeeper(node->right, depth + 1);
   }
 };
-```
+// ```

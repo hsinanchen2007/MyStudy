@@ -1,12 +1,12 @@
-### 解题思路
-1. `way[][]`数组，记录走过的路程;
-2. 递归回溯函数：`searchNext(row,col,rights);`
-- `row,col`:当前开始查找的位置
-- `rights`：与`word`相匹配的字符正确数，也是当前需要匹配的`word`的字符的位置。
-3. 递归函数开始，四个方向依次遍历，如果未走过且字符匹配，就去遍历一次。
-### 代码
+// ### 解题思路
+// 1. `way[][]`数组，记录走过的路程;
+// 2. 递归回溯函数：`searchNext(row,col,rights);`
+// - `row,col`:当前开始查找的位置
+// - `rights`：与`word`相匹配的字符正确数，也是当前需要匹配的`word`的字符的位置。
+// 3. 递归函数开始，四个方向依次遍历，如果未走过且字符匹配，就去遍历一次。
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private String word;
@@ -50,4 +50,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,23 +1,23 @@
-### 解题思路
+// ### 解题思路
 
-思路很简单：
+// 思路很简单：
 
-- 当链表为空的时候，直接返回表头就可以。
+// - 当链表为空的时候，直接返回表头就可以。
 
-- 如果链表不为空，那么可以分两种：
+// - 如果链表不为空，那么可以分两种：
 
-    - 链表第二个结点为空，那么还是返回表头。
-    - 如果不为空，引入一个中间量 `tmp`，作为链表的搬运工，大家一起往前滚。
+//     - 链表第二个结点为空，那么还是返回表头。
+//     - 如果不为空，引入一个中间量 `tmp`，作为链表的搬运工，大家一起往前滚。
 
-有段时间不写 C 了，多少有点手生。:)
+// 有段时间不写 C 了，多少有点手生。:)
 
-Python 这里是用了多元赋值，思想是相近的。
+// Python 这里是用了多元赋值，思想是相近的。
 
-快乐 Rust，没什么好说的。
+// 快乐 Rust，没什么好说的。
 
-### 代码
+// ### 代码
 
-```c []
+// ```c []
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,9 +47,9 @@ struct ListNode* reverseList(struct ListNode* head){
 
     return head;
 }
-```
+// ```
 
-```python3 []
+// ```python3 []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -62,9 +62,9 @@ class Solution:
         while cur:
             cur.next, pre, cur = pre, cur, cur.next
         return pre
-```
+// ```
 
-```rust []
+// ```rust []
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
@@ -94,4 +94,4 @@ impl Solution {
         pre
     }
 }
-```
+// ```

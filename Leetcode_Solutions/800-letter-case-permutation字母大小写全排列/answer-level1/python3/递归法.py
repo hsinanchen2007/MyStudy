@@ -1,5 +1,5 @@
-字母与32异或即可转换大小写，直接递归。
-```
+# 字母与32异或即可转换大小写，直接递归。
+# ```
 def letterCasePermutation(self, S: str) -> List[str]:
         if not S:
             return []
@@ -17,4 +17,4 @@ def letterCasePermutation(self, S: str) -> List[str]:
         
         dfs('', 0, S)
         return res
-```
+# ```

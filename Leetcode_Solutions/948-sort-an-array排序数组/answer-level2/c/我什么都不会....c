@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void quick_sort(int s[], int l, int r)
 {
@@ -40,4 +40,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize)
 	*returnSize = numsSize;
 	return nums;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def findLengthOfLCIS(nums: Array[Int]): Int = {
     if (nums.length == 0) return 0
@@ -29,4 +29,4 @@ object Solution {
   }
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-C#双栈写法
+// ### 解题思路
+// C#双栈写法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -56,4 +56,4 @@ public class Solution {
         return preNode;
     }
 }
-```
+// ```

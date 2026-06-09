@@ -1,5 +1,5 @@
-方法1，利用字典记录每个数字出现的次数
-```
+# 方法1，利用字典记录每个数字出现的次数
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         if len(nums) < 3: #长度小于3，直接返回去重结果
@@ -15,10 +15,10 @@ class Solution:
                 if res[nums[i]] >= length and nums[i] not in result:
                     result.append(nums[i]) 
         return result
-```
+# ```
 
-方法2，利用计数器，遍历一遍。
-```
+# 方法2，利用计数器，遍历一遍。
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         if len(nums) < 3:
@@ -37,4 +37,4 @@ class Solution:
             count = 1 #计数器归位。
             tmp = nums[i] #记下当前值， 
         return result
-```
+# ```

@@ -1,11 +1,11 @@
-**异或**
-```
+// **异或**
+// ```
 1.通过所有数据的异或resultNum--->单个出现异或结果集
 2.设置标志位diff----->用于区分两个单体数据
 3.求出一个单体数据x---->再用x^resultNum求出另一个
-```
-**代码**
-```
+// ```
+// **代码**
+// ```
 func singleNumber(nums []int) []int {
 
 	var resultNum int
@@ -21,4 +21,4 @@ func singleNumber(nums []int) []int {
 	}
 	return []int{x,x^resultNum}
 }
-```
+// ```

@@ -1,7 +1,7 @@
-> 执行用时 :0 ms, 在所有 Java 提交中击败了 100.00% 的用户
-> 内存消耗 : 41.7 MB, 在所有 Java 提交中击败了 100.00% 的用户
+// > 执行用时 :0 ms, 在所有 Java 提交中击败了 100.00% 的用户
+// > 内存消耗 : 41.7 MB, 在所有 Java 提交中击败了 100.00% 的用户
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return tree;
     }
 }
-```
+// ```

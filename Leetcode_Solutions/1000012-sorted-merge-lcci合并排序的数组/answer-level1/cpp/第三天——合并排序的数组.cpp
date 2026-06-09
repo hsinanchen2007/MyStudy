@@ -1,11 +1,11 @@
-### 解题思路
-- 首先判断存在空数组的情况；
-- 在两个数组均非空的情况下，判断最终合并数组的长度m+n，从后往前排入数组；
-![image.png](https://pic.leetcode-cn.com/ff53ca936ec75f7ee30b63488131689d750878dacd76e4810ab295da0ae37722-image.png)
+// ### 解题思路
+// - 首先判断存在空数组的情况；
+// - 在两个数组均非空的情况下，判断最终合并数组的长度m+n，从后往前排入数组；
+// ![image.png](https://pic.leetcode-cn.com/ff53ca936ec75f7ee30b63488131689d750878dacd76e4810ab295da0ae37722-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

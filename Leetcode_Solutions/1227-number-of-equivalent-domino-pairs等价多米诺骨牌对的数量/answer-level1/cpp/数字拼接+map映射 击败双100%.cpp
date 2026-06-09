@@ -1,9 +1,9 @@
-### 解题思路
-要注意的是1 1，2 2这种，应该单独处理，否则mp每轮循环会多计数一次。
+// ### 解题思路
+// 要注意的是1 1，2 2这种，应该单独处理，否则mp每轮循环会多计数一次。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/a17597b52156aa04190ac228f834b53968344a428fca376e293e24e6cffcf060-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/a17597b52156aa04190ac228f834b53968344a428fca376e293e24e6cffcf060-image.png)
 
-不理解这个执行时间怎么算的，这么传统的方法为什么就100%了？
-### 代码
+// 不理解这个执行时间怎么算的，这么传统的方法为什么就100%了？
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUgly(int num) {
@@ -26,4 +26,4 @@ public:
         return true;
     }
 };
-```
+// ```

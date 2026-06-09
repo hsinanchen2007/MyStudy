@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countDigitOne(self, n: int) -> int:
         dp = [[0]*10 for _ in range(10)]
@@ -22,4 +22,4 @@ class Solution:
             if n[i]==1:ans += num+1
             num += n[i]*(10**i)
         return ans
-```
+# ```

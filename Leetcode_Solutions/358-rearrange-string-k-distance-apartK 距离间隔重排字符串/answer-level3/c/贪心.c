@@ -1,9 +1,9 @@
-### 解题思路
-贪心暴力解
+// ### 解题思路
+// 贪心暴力解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #define MAX_N 26
 
@@ -69,4 +69,4 @@ char * rearrangeString(char * s, int k){
 	}
 	return g_ans;
 }
-```
+// ```

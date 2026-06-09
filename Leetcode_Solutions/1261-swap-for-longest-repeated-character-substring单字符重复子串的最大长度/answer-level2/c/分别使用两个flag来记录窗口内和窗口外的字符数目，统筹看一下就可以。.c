@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define C_MAX 26
 
 int UpdateIflag(char *text, int start, int end, int *flag)
@@ -112,4 +112,4 @@ int maxRepOpt1(char * text) {
 	}
 	return ans;
 }
-```
+// ```

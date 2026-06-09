@@ -1,9 +1,9 @@
-### 解题思路
-先排序再进行前后匹配
+// ### 解题思路
+// 先排序再进行前后匹配
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ int* findDuplicates(int* nums, int numsSize, int* returnSize){
   *returnSize=cnt;
   return ans;
 }
-```
+// ```

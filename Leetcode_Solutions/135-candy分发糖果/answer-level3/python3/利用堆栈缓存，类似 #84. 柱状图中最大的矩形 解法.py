@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-![4.png](https://pic.leetcode-cn.com/224117c75566476e8c25e449c29fe82303a82e5e8baed33ac5a1857331aa7bb1-4.png)
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# ![4.png](https://pic.leetcode-cn.com/224117c75566476e8c25e449c29fe82303a82e5e8baed33ac5a1857331aa7bb1-4.png)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         size = len(ratings)
@@ -22,4 +22,4 @@ class Solution:
                     j = stack.pop()
                 stack.append(i)
         return sum(buff[:-1])
-```
+# ```

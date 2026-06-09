@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> anagramMappings(vector<int>& A, vector<int>& B) {
@@ -15,4 +15,4 @@ public:
     }
   ;
 };
-```
+// ```

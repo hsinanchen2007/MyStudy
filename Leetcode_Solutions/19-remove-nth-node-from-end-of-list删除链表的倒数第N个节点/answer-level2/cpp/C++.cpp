@@ -1,11 +1,11 @@
-### 解题思路
-两个指针
-注意删除头的情况，特殊处理下
+// ### 解题思路
+// 两个指针
+// 注意删除头的情况，特殊处理下
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
         return head;
     }
 };
-```
+// ```

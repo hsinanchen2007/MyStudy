@@ -1,9 +1,9 @@
-### 解题思路
-前缀和+单调队列
+// ### 解题思路
+// 前缀和+单调队列
 
-### 代码
+// ### 代码
 
-```golang []
+// ```golang []
 func shortestSubarray(A []int, K int) int {
 	prefixSum := make([]int, len(A)+1)
 	shLen := math.MaxInt32
@@ -31,9 +31,9 @@ func shortestSubarray(A []int, K int) int {
 	return shLen
 }
 
-```
+// ```
 
-```java []
+// ```java []
 class Solution {
     public int shortestSubarray(int[] arr, int k) {
         int[] prefixSum = new int[arr.length + 1];
@@ -57,4 +57,4 @@ class Solution {
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }
-```
+// ```

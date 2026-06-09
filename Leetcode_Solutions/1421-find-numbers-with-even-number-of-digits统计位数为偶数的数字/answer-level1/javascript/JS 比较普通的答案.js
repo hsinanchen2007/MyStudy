@@ -1,9 +1,9 @@
-### 解题思路
-随着官方思路，将数字转换成文字放入数列计算长度后得出是否是偶数位加入计数器
+// ### 解题思路
+// 随着官方思路，将数字转换成文字放入数列计算长度后得出是否是偶数位加入计数器
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var findNumbers = function(nums) {
     }
     return even
 };
-```
+// ```

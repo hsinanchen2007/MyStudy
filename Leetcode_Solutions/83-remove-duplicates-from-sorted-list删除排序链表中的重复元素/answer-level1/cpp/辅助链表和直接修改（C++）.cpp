@@ -1,8 +1,8 @@
-## 辅助链表
+// ## 辅助链表
 
-创建新链表，边去重，边添加
+// 创建新链表，边去重，边添加
 
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -21,12 +21,12 @@ public:
         return dummy.next;
     }
 };
-```
-## 直接修改
+// ```
+// ## 直接修改
 
-遇到重复直接跳过
+// 遇到重复直接跳过
 
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -43,6 +43,6 @@ public:
         return head;
     }
 };
-```
-github pages：https://aiaimuti.github.io/ 里面有很多关于C++的总结
+// ```
+// github pages：https://aiaimuti.github.io/ 里面有很多关于C++的总结
 

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-如果s2是s1的转换，则两个s1拼接起来时，s2肯定是s1的子串；
+// 如果s2是s1的转换，则两个s1拼接起来时，s2肯定是s1的子串；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isFlipedString(char* s1, char* s2){
     int sz1, sz2;
     int i, j;
@@ -30,4 +30,4 @@ bool isFlipedString(char* s1, char* s2){
         return false;
     }
 }
-```
+// ```

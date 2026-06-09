@@ -1,11 +1,11 @@
-### 解题思路
-从x, y倒过来，倒过去，实际在反复取余数，本质是公约数。
-1、判断极端场景，加以剔除；
-2、计算x, y的最大公约数，如果能整除z，则为true。
+// ### 解题思路
+// 从x, y倒过来，倒过去，实际在反复取余数，本质是公约数。
+// 1、判断极端场景，加以剔除；
+// 2、计算x, y的最大公约数，如果能整除z，则为true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if (z == 0 && x == 0 && y == 0) {
@@ -45,4 +45,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

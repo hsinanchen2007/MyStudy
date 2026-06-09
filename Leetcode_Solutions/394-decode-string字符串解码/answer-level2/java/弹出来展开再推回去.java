@@ -1,9 +1,9 @@
-### 解题思路
-弹出来展开再推回去 注意实现细节
+// ### 解题思路
+// 弹出来展开再推回去 注意实现细节
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String decodeString(String s) {
         Stack<Character> stack = new Stack<>();
@@ -35,4 +35,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

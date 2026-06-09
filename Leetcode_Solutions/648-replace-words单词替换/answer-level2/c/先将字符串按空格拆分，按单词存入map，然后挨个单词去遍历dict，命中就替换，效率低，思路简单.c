@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //先存map,然后比对
 #define MAX_NUM 1000
 int cmp(char *key, char *str) {
@@ -72,4 +72,4 @@ char *replaceWords(char **dict, int dictSize, char * sentence){
     free(mapStat);
     return ret;
 }
-```
+// ```

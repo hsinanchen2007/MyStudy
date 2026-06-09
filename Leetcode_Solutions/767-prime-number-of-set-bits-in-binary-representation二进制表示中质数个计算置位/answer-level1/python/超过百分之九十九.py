@@ -1,6 +1,6 @@
-根据数据范围10的六次方，所以直接记录二十以内的质数就可以
+# 根据数据范围10的六次方，所以直接记录二十以内的质数就可以
 
-```python
+# ```python
 class Solution:
     def countPrimeSetBits(self, L: int, R: int) -> int:
         zhi = [0,0,1,1,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1]
@@ -12,4 +12,4 @@ class Solution:
                 n+=1
             
         return n
-```
+# ```

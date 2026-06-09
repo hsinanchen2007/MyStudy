@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-掌握标准的快速排序还是很有必要的
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 掌握标准的快速排序还是很有必要的
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         #快速排序
@@ -27,4 +27,4 @@ class Solution:
         end=len(arr)-1
         quicksort(start,end)
         return arr[:k]
-```
+# ```

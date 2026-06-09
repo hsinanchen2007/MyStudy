@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x==1 or x==0:
@@ -13,4 +13,4 @@ class Solution:
             if x1_int*x1_int<=num:
                 return x1_int
             x0=x1
-```
+# ```

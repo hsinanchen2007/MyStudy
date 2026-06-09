@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-才开始用dfs做了好久，超时了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 才开始用dfs做了好久，超时了
+// ### 代码
 
-```c
+// ```c
 int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
     int min,i,j,dp[triangleSize][triangleSize];
     dp[0][0]=triangle[0][0];
@@ -23,4 +23,4 @@ int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
         if(dp[triangleSize-1][i]<min) min=dp[triangleSize-1][i];
     return min;
 }
-```
+// ```

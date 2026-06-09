@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200121154119.png](https://pic.leetcode-cn.com/a36662f505ccec2363f47de2236d1571164eef74071fc6ae65a27edf34d1d22b-QQ%E6%88%AA%E5%9B%BE20200121154119.png)
+// ### 解题思路
+// ![QQ截图20200121154119.png](https://pic.leetcode-cn.com/a36662f505ccec2363f47de2236d1571164eef74071fc6ae65a27edf34d1d22b-QQ%E6%88%AA%E5%9B%BE20200121154119.png)
 
-我起了，一枪秒了，有什么好说的
-### 代码
+// 我起了，一枪秒了，有什么好说的
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         
     }
 }
-```
+// ```

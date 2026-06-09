@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def permutation(self, s: str) -> List[str]:
         if not s: return []
@@ -17,4 +17,4 @@ class Solution:
         back_tracking(s, [])
 
         return ans 
-```
+# ```

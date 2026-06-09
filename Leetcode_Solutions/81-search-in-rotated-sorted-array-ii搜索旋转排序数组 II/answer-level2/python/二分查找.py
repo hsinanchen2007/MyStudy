@@ -1,11 +1,11 @@
-### 解题思路
-- nums[mid] == target
-- l-mid升序：nums[l] < nums[mid]
-- mid-r升序：nums[l] > nums[mid]
-- nums[l] == nums[mid]的时候就是13112这种情况，l右移一位
-### 代码
+# ### 解题思路
+# - nums[mid] == target
+# - l-mid升序：nums[l] < nums[mid]
+# - mid-r升序：nums[l] > nums[mid]
+# - nums[l] == nums[mid]的时候就是13112这种情况，l右移一位
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         l = 0
@@ -28,4 +28,4 @@ class Solution:
             else:
                 l += 1
         return False
-```
+# ```

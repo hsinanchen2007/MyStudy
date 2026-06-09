@@ -1,9 +1,9 @@
-### 解题思路
-判断剩余字符串长度<maxlen，跳出循环
+// ### 解题思路
+// 判断剩余字符串长度<maxlen，跳出循环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(char* b, char* e) {
     while (b < e && *b == *e) {
         ++b;
@@ -39,4 +39,4 @@ char * longestPalindrome(char * s){
     maxpos[maxlen] = '\0';
     return maxpos;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-大佬们给建议啊
-```
+// 大佬们给建议啊
+// ```
         int j=nums.length-1;
         for (int i = 0; i <= j; i++) {
             if(nums[i]==val && nums[j]!=val){
@@ -14,4 +14,4 @@
             }
         }
         return j+1;
-```
+// ```

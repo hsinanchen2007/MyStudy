@@ -1,11 +1,11 @@
-### 解题思路
-qsort用于获得有效的 j 的数量
-uthash用于是否已有记录
-![image.png](https://pic.leetcode-cn.com/572577c20df8ad9ad5d5cce7a5c60d8e564456e90ee376be1aa8b4dd240b79f9-image.png)
+// ### 解题思路
+// qsort用于获得有效的 j 的数量
+// uthash用于是否已有记录
+// ![image.png](https://pic.leetcode-cn.com/572577c20df8ad9ad5d5cce7a5c60d8e564456e90ee376be1aa8b4dd240b79f9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -99,4 +99,4 @@ int* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize){
     sFree(&s);
     return rlt;
 }
-```
+// ```

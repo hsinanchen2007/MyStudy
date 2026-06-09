@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-采用递归策略，进行计算
+// ### 解题思路
+// 此处撰写解题思路
+// 采用递归策略，进行计算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
  
     return(left | right);
 }
-```
+// ```

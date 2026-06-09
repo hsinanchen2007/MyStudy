@@ -1,6 +1,6 @@
-链表或者树的操作的题目尽量都考虑使用递归和迭代两种方法来做。
-迭代：
-```
+// 链表或者树的操作的题目尽量都考虑使用递归和迭代两种方法来做。
+// 迭代：
+// ```
 class Solution {
 public:
     ListNode* deleteNode(ListNode* head, int val) {
@@ -13,9 +13,9 @@ public:
         return head;
     }
 };
-```
-递归：
-```
+// ```
+// 递归：
+// ```
 class Solution {
 public:
     ListNode* deleteNode(ListNode* head, int val) {
@@ -25,4 +25,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-C++，
-执行用时 :8 ms, 在所有 C++ 提交中击败了98.14%的用户
-内存消耗 :8.5 MB, 在所有 C++ 提交中击败了94.58%的用户
+// C++，
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了98.14%的用户
+// 内存消耗 :8.5 MB, 在所有 C++ 提交中击败了94.58%的用户
 
-![图片1.png](https://pic.leetcode-cn.com/3ba7805abafcd0092b19ce7b5b873e922b7b7ce385eb445e3e9a882719e2cf01-%E5%9B%BE%E7%89%871.png)
+// ![图片1.png](https://pic.leetcode-cn.com/3ba7805abafcd0092b19ce7b5b873e922b7b7ce385eb445e3e9a882719e2cf01-%E5%9B%BE%E7%89%871.png)
 
-```
+// ```
 bool isMax(vector<int>& nums, int i) {	//从i的下一个位置开始，判断是否为最大排列
     if (i + 1 == nums.size() - 1) return 1;
     for (int k = i + 2; k < nums.size(); k++)
@@ -34,5 +34,5 @@ void nextPermutation(vector<int>& nums) {
         }
         break;									  //游戏结束
 }
-```
+// ```
 

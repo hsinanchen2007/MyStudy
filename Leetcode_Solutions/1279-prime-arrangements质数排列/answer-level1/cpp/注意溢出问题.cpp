@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
     bool isPrime(int n){
         if(n <= 1){
@@ -45,8 +45,8 @@ class Solution {
         return ans;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public boolean isPrime(int n){
         if(n <= 1){
@@ -91,4 +91,4 @@ class Solution {
         return (int)ans;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-堆栈是FILO，两个堆栈组合就是FIFO。
-所有的push都是从input栈操作，所有的peek和pop都是从output栈操作。
+# ### 解题思路
+# 堆栈是FILO，两个堆栈组合就是FIFO。
+# 所有的push都是从input栈操作，所有的peek和pop都是从output栈操作。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -53,5 +53,5 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
-![WX20191218-131446.png](https://pic.leetcode-cn.com/2dd928cb6945a3b7a84eb7a69744f70a7a157d05d68037d9eecaa01e15f4fb3a-WX20191218-131446.png)
+# ```
+# ![WX20191218-131446.png](https://pic.leetcode-cn.com/2dd928cb6945a3b7a84eb7a69744f70a7a157d05d68037d9eecaa01e15f4fb3a-WX20191218-131446.png)

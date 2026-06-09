@@ -1,22 +1,22 @@
-#### 方法 1：有序字典
+# #### 方法 1：有序字典
 
-**想法**
+# **想法**
 
-题目要求实现 [LRU 缓存机制](https://baike.baidu.com/item/LRU/1269842?fr=aladdin)，需要在 $O(1)$ 时间内完成如下操作：
+# 题目要求实现 [LRU 缓存机制](https://baike.baidu.com/item/LRU/1269842?fr=aladdin)，需要在 $O(1)$ 时间内完成如下操作：
 
-* 获取键 / 检查键是否存在
-* 设置键
-* 删除最先插入的键
+# * 获取键 / 检查键是否存在
+# * 设置键
+# * 删除最先插入的键
 
-前两个操作可以用标准的哈希表在 $O(1)$ 时间内完成。
+# 前两个操作可以用标准的哈希表在 $O(1)$ 时间内完成。
 
-> 有一种叫做*有序字典*的数据结构，综合了哈希表和链表，在 Python 中为 [*OrderedDict*](https://docs.python.org/3/library/collections.html#collections.OrderedDict)，在 Java 中为 [*LinkedHashMap*](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)。
+# > 有一种叫做*有序字典*的数据结构，综合了哈希表和链表，在 Python 中为 [*OrderedDict*](https://docs.python.org/3/library/collections.html#collections.OrderedDict)，在 Java 中为 [*LinkedHashMap*](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)。
 
-下面用这个数据结构来实现。
+# 下面用这个数据结构来实现。
 
-**实现**
+# **实现**
 
-```python [solution-Python]
+# ```python [solution-Python]
 from collections import OrderedDict
 class LRUCache(OrderedDict):
 
@@ -53,9 +53,9 @@ class LRUCache(OrderedDict):
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```
 
-```java [solution-Java]
+# ```java [solution-Java]
 class LRUCache extends LinkedHashMap<Integer, Integer>{
     private int capacity;
     
@@ -84,34 +84,34 @@ class LRUCache extends LinkedHashMap<Integer, Integer>{
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：对于 `put`  和 `get` 操作复杂度是 $O(1)$，因为有序字典中的所有操作：`get/in/set/move_to_end/popitem`（`get/containsKey/put/remove`）都可以在常数时间内完成。
-* 空间复杂度：$O(capacity)$，因为空间只用于有序字典存储最多 `capacity + 1` 个元素。
+# * 时间复杂度：对于 `put`  和 `get` 操作复杂度是 $O(1)$，因为有序字典中的所有操作：`get/in/set/move_to_end/popitem`（`get/containsKey/put/remove`）都可以在常数时间内完成。
+# * 空间复杂度：$O(capacity)$，因为空间只用于有序字典存储最多 `capacity + 1` 个元素。
 
-#### 方法 2：哈希表 + 双向链表
+# #### 方法 2：哈希表 + 双向链表
 
-**想法**
+# **想法**
 
-这个问题可以用哈希表，辅以双向链表记录键值对的信息。所以可以在 $O(1)$ 时间内完成 `put` 和 `get` 操作，同时也支持 $O(1)$ 删除第一个添加的节点。
+# 这个问题可以用哈希表，辅以双向链表记录键值对的信息。所以可以在 $O(1)$ 时间内完成 `put` 和 `get` 操作，同时也支持 $O(1)$ 删除第一个添加的节点。
 
-![146-1.png](https://pic.leetcode-cn.com/815038bb44b7f15f1f32f31d40e75c250cec3c5c42b95175ec012c00a0243833-146-1.png){:width=550}
-{:align=center}
+# ![146-1.png](https://pic.leetcode-cn.com/815038bb44b7f15f1f32f31d40e75c250cec3c5c42b95175ec012c00a0243833-146-1.png){:width=550}
+# {:align=center}
 
-使用*双向*链表的一个好处是不需要额外信息删除一个节点，同时可以在常数时间内从头部或尾部插入删除节点。
+# 使用*双向*链表的一个好处是不需要额外信息删除一个节点，同时可以在常数时间内从头部或尾部插入删除节点。
 
-一个需要注意的是，在双向链表实现中，这里使用一个*伪*头部和*伪*尾部标记界限，这样在更新的时候就不需要检查是否是 `null` 节点。
+# 一个需要注意的是，在双向链表实现中，这里使用一个*伪*头部和*伪*尾部标记界限，这样在更新的时候就不需要检查是否是 `null` 节点。
 
-![146-2.png](https://pic.leetcode-cn.com/48292c190e50537087ea8c60ed44062675d55a73d1a59035d26e277a36b7b8e2-146-2.png){:width=550}
-{:align=center}
-
-
-**实现**
+# ![146-2.png](https://pic.leetcode-cn.com/48292c190e50537087ea8c60ed44062675d55a73d1a59035d26e277a36b7b8e2-146-2.png){:width=550}
+# {:align=center}
 
 
-```python [solution-Python]
+# **实现**
+
+
+# ```python [solution-Python]
 class DLinkedNode(): 
     def __init__(self):
         self.key = 0
@@ -209,9 +209,9 @@ class LRUCache():
             # update the value.
             node.value = value
             self._move_to_head(node)
-```
+# ```
 
-```java [solution-Java]
+# ```java [solution-Java]
 import java.util.Hashtable;
 public class LRUCache {
 
@@ -324,8 +324,8 @@ public class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+# ```
 
-**复杂度分析**
-* 时间复杂度：对于 `put` 和 `get` 都是 $O(1)$。
-* 空间复杂度：$O(capacity)$，因为哈希表和双向链表最多存储 `capacity + 1` 个元素。
+# **复杂度分析**
+# * 时间复杂度：对于 `put` 和 `get` 都是 $O(1)$。
+# * 空间复杂度：$O(capacity)$，因为哈希表和双向链表最多存储 `capacity + 1` 个元素。

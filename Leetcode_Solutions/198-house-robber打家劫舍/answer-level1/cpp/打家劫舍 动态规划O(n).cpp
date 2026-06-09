@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //动态规划：dp数组储存最大抢劫量，dp[i]表示抢到第i个房间时的最大抢劫量
@@ -23,4 +23,4 @@ public:
         return dp[nums.size()-1];
     }
 };
-```
+// ```

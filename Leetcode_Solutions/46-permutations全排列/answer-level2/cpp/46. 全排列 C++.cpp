@@ -1,9 +1,9 @@
-### 解题思路
-1、递归
+// ### 解题思路
+// 1、递归
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void permute(const vector<int>& nums, int index, vector<int>& v, vector<vector<int>>& res)
@@ -47,4 +47,4 @@ public:
         return res;
     }
 };
-```
+// ```

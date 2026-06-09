@@ -1,14 +1,14 @@
-## 思路:
+# ## 思路:
 
-其实就是**两数之和**的扩展版
+# 其实就是**两数之和**的扩展版
 
-没啥好说的，遍历前两个数组可以相加得到所有值的个数，然后再遍历后两个数组，即可
+# 没啥好说的，遍历前两个数组可以相加得到所有值的个数，然后再遍历后两个数组，即可
 
-时间复杂度$O(n^2)$
+# 时间复杂度$O(n^2)$
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
         lookup = collections.defaultdict(int)
@@ -21,5 +21,5 @@ class Solution:
                 res += lookup[-(c + d)]
         return res
         
-```
+# ```
 

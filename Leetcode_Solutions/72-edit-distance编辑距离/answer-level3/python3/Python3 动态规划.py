@@ -1,9 +1,9 @@
-### 解题思路
-一般来说，处理两个字符串的动态规划问题，都是按本文的思路处理，建立 DP table。为什么呢，因为易于找出状态转移的关系，比如编辑距离的 DP table：
-----labuladong
-### 代码
+# ### 解题思路
+# 一般来说，处理两个字符串的动态规划问题，都是按本文的思路处理，建立 DP table。为什么呢，因为易于找出状态转移的关系，比如编辑距离的 DP table：
+# ----labuladong
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         #参考学习:https://github.com/labuladong/fucking-algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%B3%BB%E5%88%97/%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.md
@@ -87,4 +87,4 @@ class Solution:
 
         return dp[-1][-1]
         
-```
+# ```

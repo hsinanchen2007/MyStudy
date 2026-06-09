@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT
   a.Id
 FROM
@@ -6,4 +6,4 @@ FROM
   JOIN Weather AS we
     ON a.RecordDate = ADDDATE(we.RecordDate, 1)
     AND a.Temperature > we.Temperature
-```
+-- ```

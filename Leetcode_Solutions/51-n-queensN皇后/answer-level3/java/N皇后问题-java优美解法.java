@@ -1,9 +1,9 @@
-### 解题思路
-优乐美
+// ### 解题思路
+// 优乐美
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      /*
      * N皇后问题
@@ -59,4 +59,4 @@ private List<List<String>> generateResult(List<List<String>> res,
 		}
 	}
 }
-```
+// ```

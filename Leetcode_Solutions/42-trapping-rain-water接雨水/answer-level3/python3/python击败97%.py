@@ -1,10 +1,10 @@
-### 解题思路
-思路就是保证最左边的板子是第二高的，最右边板子是最高的（指针往后挪，直到碰到比最左高的板子，计算面积）。这种情况的面积就是sum(height[start] - x for x in height[start:end])。
-循环终止时，说明start挪到了最高点，把剩下的数组翻转过来，按照上面的方法求面积即可。
+# ### 解题思路
+# 思路就是保证最左边的板子是第二高的，最右边板子是最高的（指针往后挪，直到碰到比最左高的板子，计算面积）。这种情况的面积就是sum(height[start] - x for x in height[start:end])。
+# 循环终止时，说明start挪到了最高点，把剩下的数组翻转过来，按照上面的方法求面积即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def trap(self, height):
         """
@@ -32,4 +32,4 @@ class Solution(object):
         return area
 
 
-```
+# ```

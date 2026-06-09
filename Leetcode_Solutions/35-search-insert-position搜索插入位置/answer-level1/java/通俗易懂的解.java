@@ -1,7 +1,7 @@
-正常二分，
-区别在于找到target的时候继续向左边查找
+// 正常二分，
+// 区别在于找到target的时候继续向左边查找
 
-```Java
+// ```Java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
@@ -17,4 +17,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

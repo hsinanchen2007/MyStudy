@@ -1,11 +1,11 @@
-我把我整个代码都放上来。
+// 我把我整个代码都放上来。
 
-2019年8月15日更新：
-- 使用prenode而不需要单独考虑头节点，以简化代码。
-- 增加Python3代码
-- 增加C#代码
+// 2019年8月15日更新：
+// - 使用prenode而不需要单独考虑头节点，以简化代码。
+// - 增加Python3代码
+// - 增加C#代码
 
-```c++ []
+// ```c++ []
 #include <iostream>
 #include <vector>
 
@@ -91,8 +91,8 @@ void printListNode(ListNode* head)
     }
     std::cout << std::endl;
 }
-```
-```python []
+// ```
+// ```python []
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -136,8 +136,8 @@ if __name__ == "__main__":
     sum = s.addTwoNumbers(l1, l2)
     printList(sum)
     
-```
-```c# []
+// ```
+// ```c# []
 using System;
 
 namespace LeetCode_0002
@@ -213,4 +213,4 @@ namespace LeetCode_0002
         }
     }
 }
-```
+// ```

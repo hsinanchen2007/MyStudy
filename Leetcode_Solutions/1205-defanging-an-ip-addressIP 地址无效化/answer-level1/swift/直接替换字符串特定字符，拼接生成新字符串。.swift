@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-很简单，首先遍历出给定的 IP 地址字符串中每一个字符，直接替换 "." 字符！
+// 很简单，首先遍历出给定的 IP 地址字符串中每一个字符，直接替换 "." 字符！
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func defangIPaddr(_ address: String) -> String {
         var myNewIP = ""
@@ -23,4 +23,4 @@ class Solution {
         return myNewIP
     }
 }
-```
+// ```

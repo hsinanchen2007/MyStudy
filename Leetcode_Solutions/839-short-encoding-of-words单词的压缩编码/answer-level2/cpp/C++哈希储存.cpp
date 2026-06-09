@@ -1,10 +1,10 @@
-### 解题思路
-一开始暴力解，超时，于是改用hash。说实话，感觉如果字符串长度和范围很大且离散，如（0<len<1000）还是第一种暴力好些
+// ### 解题思路
+// 一开始暴力解，超时，于是改用hash。说实话，感觉如果字符串长度和范围很大且离散，如（0<len<1000）还是第一种暴力好些
 
-### 代码
+// ### 代码
 
 
-```cpp
+// ```cpp
 //超时超时超时警告
 class Solution {
 public:
@@ -23,9 +23,9 @@ public:
             return num-cnt;
     }
 };
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -46,4 +46,4 @@ public:
        return num;
     }
 };
-```
+// ```

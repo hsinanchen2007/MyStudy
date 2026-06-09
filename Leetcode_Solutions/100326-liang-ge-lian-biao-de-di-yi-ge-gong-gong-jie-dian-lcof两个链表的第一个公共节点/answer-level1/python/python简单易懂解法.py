@@ -1,14 +1,14 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
 
-### 解题思路
-倒序看，p1和p2两个链表的第一个公共结点到尾结点的长度一定相同。因此我们先对齐两个链表，再一起往后走找到第一个公共结点即可。
+# ### 解题思路
+# 倒序看，p1和p2两个链表的第一个公共结点到尾结点的长度一定相同。因此我们先对齐两个链表，再一起往后走找到第一个公共结点即可。
 
-- 1. 找出两个链表长度，n1和n2，长的链表先走n1-n2步。
-- 2. 一起往后走，找到第一个公共结点。
+# - 1. 找出两个链表长度，n1和n2，长的链表先走n1-n2步。
+# - 2. 一起往后走，找到第一个公共结点。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getIntersectionNode(self, pHead1, pHead2):
         p1, n_p1 = pHead1, 0
@@ -32,4 +32,4 @@ class Solution(object):
                 pHead1 = pHead1.next
                 pHead2 = pHead2.next
         return None
-```
+# ```

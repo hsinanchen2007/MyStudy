@@ -1,9 +1,9 @@
-### 解题思路
-主要的逻辑：保存后续节点->变更指针指向->节点替换
+// ### 解题思路
+// 主要的逻辑：保存后续节点->变更指针指向->节点替换
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,4 +26,4 @@ func reverseList(head *ListNode) *ListNode {
 	}
 	return pre
 }
-```
+// ```

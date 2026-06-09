@@ -1,10 +1,10 @@
-### 解题思路
-找出中间值，中间值左边的递归为左子树，中间值右边的递归为右子树。
-递归终止条件为nums.length=0；
+// ### 解题思路
+// 找出中间值，中间值左边的递归为左子树，中间值右边的递归为右子树。
+// 递归终止条件为nums.length=0；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用递归的方法, BFS
+// ### 解题思路
+// 利用递归的方法, BFS
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         int[][] table = new int[m][n];
@@ -33,4 +33,4 @@ class Solution {
         return count <= k;
     }
 }
-```
+// ```

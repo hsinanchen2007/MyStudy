@@ -1,4 +1,4 @@
-```
+// ```
 char * longestPalindrome(char * s){
     int len = strlen(s);
     int maxSubStrLen = 0;
@@ -36,4 +36,4 @@ char * longestPalindrome(char * s){
     s[endIdx + 1] = '\0';
     return &s[startIdx];
 }
-```
+// ```

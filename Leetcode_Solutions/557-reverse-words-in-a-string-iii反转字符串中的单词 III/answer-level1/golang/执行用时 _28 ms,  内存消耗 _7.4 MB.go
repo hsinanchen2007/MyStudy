@@ -1,13 +1,13 @@
-### 解题思路  
+// ### 解题思路  
 
-- 1，先将字符串分解成数组
-- 2，使用`for range`循环取出数组中的元素，并执行反转字符串的操作
-- 3，将反转后的字符串`append`进一个新的`string`类型的数组
-- 4，循环遍历这个新的`string`类型的数组，拼接成一个字符串，返回最终结果
+// - 1，先将字符串分解成数组
+// - 2，使用`for range`循环取出数组中的元素，并执行反转字符串的操作
+// - 3，将反转后的字符串`append`进一个新的`string`类型的数组
+// - 4，循环遍历这个新的`string`类型的数组，拼接成一个字符串，返回最终结果
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseWords(s string) string {
 	ss := strings.Fields(s)
 	var results []string
@@ -30,4 +30,4 @@ func reverseWords(s string) string {
 
 	return re
 }
-```
+// ```

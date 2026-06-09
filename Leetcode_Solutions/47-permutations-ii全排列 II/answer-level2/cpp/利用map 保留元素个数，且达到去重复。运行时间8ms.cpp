@@ -1,10 +1,10 @@
-### 解题思路
-将nums 存入map 中，然后按照map进行遍历。
+// ### 解题思路
+// 将nums 存入map 中，然后按照map进行遍历。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
         
     }
 };
-```
+// ```

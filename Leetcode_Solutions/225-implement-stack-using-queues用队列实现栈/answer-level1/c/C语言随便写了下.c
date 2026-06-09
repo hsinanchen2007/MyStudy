@@ -1,9 +1,9 @@
-### 解题思路
-C语言随便写了下，好像不太符合题目的要求
+// ### 解题思路
+// C语言随便写了下，好像不太符合题目的要求
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int* val;
     int top;
@@ -77,4 +77,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

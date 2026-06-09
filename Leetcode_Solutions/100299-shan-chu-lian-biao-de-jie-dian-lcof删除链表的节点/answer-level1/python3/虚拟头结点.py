@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-虚拟头结点dummy,迭代head，所以不需要额外的空间来记录当前的指针。
-### 代码
+# 虚拟头结点dummy,迭代head，所以不需要额外的空间来记录当前的指针。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
                 head = head.next
         return dummy.next
 
-```
+# ```

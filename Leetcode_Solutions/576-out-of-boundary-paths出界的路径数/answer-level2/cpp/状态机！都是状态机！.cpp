@@ -1,48 +1,48 @@
-### 解题思路
-【先赞后看，养成习惯】
-这道题是标准的`动态规划`题目，属于写出**状态转移方程**，就可以直接**AC**的题目。
+// ### 解题思路
+// 【先赞后看，养成习惯】
+// 这道题是标准的`动态规划`题目，属于写出**状态转移方程**，就可以直接**AC**的题目。
 
-### 状态定义
-`dp[i][j][k]`:表示从`(i,j)`出发第k步出界的路径总数，等价于从外界出发第k步走到`(i,j)`的路径总数
-（可参考题解[LeetCode688 “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/solution/zhuang-tai-ji-de-zai-ci-ying-yong-by-christmas_wan/)）
+// ### 状态定义
+// `dp[i][j][k]`:表示从`(i,j)`出发第k步出界的路径总数，等价于从外界出发第k步走到`(i,j)`的路径总数
+// （可参考题解[LeetCode688 “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/solution/zhuang-tai-ji-de-zai-ci-ying-yong-by-christmas_wan/)）
 
-### 状态转移
-显然我们可以直接获得如下状态转移方程
-$$
-dp[i][j][k] = dp[i-1][j][k-1]+dp[i+1][j][k-1] + dp[i][j-1][k-1]+dp[i][j+1][k-1]
-$$
-初始化：我们需要注意外界的坐标的`初始状态`对应的值为1，即
-$$
-dp[i][j][0] \xlongequal[]{(i,j) Out of bounds}1
-$$
-类似的转移方程在其他题目中也有出现哟~
-（参考相关题目）
+// ### 状态转移
+// 显然我们可以直接获得如下状态转移方程
+// $$
+// dp[i][j][k] = dp[i-1][j][k-1]+dp[i+1][j][k-1] + dp[i][j-1][k-1]+dp[i][j+1][k-1]
+// $$
+// 初始化：我们需要注意外界的坐标的`初始状态`对应的值为1，即
+// $$
+// dp[i][j][0] \xlongequal[]{(i,j) Out of bounds}1
+// $$
+// 类似的转移方程在其他题目中也有出现哟~
+// （参考相关题目）
 
-### 如何求解
-**有了每一个点的每一步对应的值，我们可以说是什么都不怕了**
-题目求的是**最多移动N次，出界的路径数**，因此我们只需要讲每一步对应的值都加起来即可
-$$
-Sum = \sum_{k=1}^Ndp[i][j][k] 
-$$
-### 动图展示
-<![幻灯片1.PNG](https://pic.leetcode-cn.com/68b8de2886020e1562a99cfc0581e9873ab79ed7e82a1f7fbd2950ea8b512972-%E5%B9%BB%E7%81%AF%E7%89%871.PNG),![幻灯片2.PNG](https://pic.leetcode-cn.com/09abfdd317f5a26c7044b4a22acea19afe79bd2542e391edd4e6ccccd0548b6c-%E5%B9%BB%E7%81%AF%E7%89%872.PNG),![幻灯片3.PNG](https://pic.leetcode-cn.com/5cfa6addbec39114c9ae32d7a83ff381d0cdf41cef938dda773a49ee264320a8-%E5%B9%BB%E7%81%AF%E7%89%873.PNG),![幻灯片4.PNG](https://pic.leetcode-cn.com/c70ef292e1b5882339fd9125338877fa1cfea82f68282c483aa79ccb867b5f2e-%E5%B9%BB%E7%81%AF%E7%89%874.PNG),![幻灯片5.PNG](https://pic.leetcode-cn.com/fdb00a5c0eca0a55b8b080e15588203327f8acdfa5f47430d13a1cc91f4f30e7-%E5%B9%BB%E7%81%AF%E7%89%875.PNG)>
+// ### 如何求解
+// **有了每一个点的每一步对应的值，我们可以说是什么都不怕了**
+// 题目求的是**最多移动N次，出界的路径数**，因此我们只需要讲每一步对应的值都加起来即可
+// $$
+// Sum = \sum_{k=1}^Ndp[i][j][k] 
+// $$
+// ### 动图展示
+// <![幻灯片1.PNG](https://pic.leetcode-cn.com/68b8de2886020e1562a99cfc0581e9873ab79ed7e82a1f7fbd2950ea8b512972-%E5%B9%BB%E7%81%AF%E7%89%871.PNG),![幻灯片2.PNG](https://pic.leetcode-cn.com/09abfdd317f5a26c7044b4a22acea19afe79bd2542e391edd4e6ccccd0548b6c-%E5%B9%BB%E7%81%AF%E7%89%872.PNG),![幻灯片3.PNG](https://pic.leetcode-cn.com/5cfa6addbec39114c9ae32d7a83ff381d0cdf41cef938dda773a49ee264320a8-%E5%B9%BB%E7%81%AF%E7%89%873.PNG),![幻灯片4.PNG](https://pic.leetcode-cn.com/c70ef292e1b5882339fd9125338877fa1cfea82f68282c483aa79ccb867b5f2e-%E5%B9%BB%E7%81%AF%E7%89%874.PNG),![幻灯片5.PNG](https://pic.leetcode-cn.com/fdb00a5c0eca0a55b8b080e15588203327f8acdfa5f47430d13a1cc91f4f30e7-%E5%B9%BB%E7%81%AF%E7%89%875.PNG)>
 
 
-### 相关题目
-[LeetCode688 “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)
-[LeetCode935 骑士拨号器](https://leetcode-cn.com/problems/knight-dialer/)
-[LeetCode1220 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/)
+// ### 相关题目
+// [LeetCode688 “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)
+// [LeetCode935 骑士拨号器](https://leetcode-cn.com/problems/knight-dialer/)
+// [LeetCode1220 统计元音字母序列的数目](https://leetcode-cn.com/problems/count-vowels-permutation/)
 
-### 我的题解
-[LeetCode1262 可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/solution/dong-tai-gui-hua-yu-zhuang-tai-zhuan-yi-by-christm/)
-[LeetCode688 “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/solution/zhuang-tai-ji-de-zai-ci-ying-yong-by-christmas_wan/)
-[LeetCode967 连续差相同的数字](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/solution/cun-chu-kong-jian-ke-bian-de-dpshu-zu-by-christmas/)
-[LeetCode873 最长的斐波那契子序列的长度](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/solution/zhuang-tai-ding-yi-hen-shi-zhong-yao-by-christmas_/)
-[LeetCode1218 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/solution/yi-dao-jian-dan-de-dong-tai-gui-hua-de-you-hua-wen/)
-[LeetCode523 连续子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum/solution/qian-zhui-he-yu-intmapde-zai-ci-ying-yong-by-chris/)
-### 代码
+// ### 我的题解
+// [LeetCode1262 可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/solution/dong-tai-gui-hua-yu-zhuang-tai-zhuan-yi-by-christm/)
+// [LeetCode688 “马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard/solution/zhuang-tai-ji-de-zai-ci-ying-yong-by-christmas_wan/)
+// [LeetCode967 连续差相同的数字](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/solution/cun-chu-kong-jian-ke-bian-de-dpshu-zu-by-christmas/)
+// [LeetCode873 最长的斐波那契子序列的长度](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/solution/zhuang-tai-ding-yi-hen-shi-zhong-yao-by-christmas_/)
+// [LeetCode1218 最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/solution/yi-dao-jian-dan-de-dong-tai-gui-hua-de-you-hua-wen/)
+// [LeetCode523 连续子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum/solution/qian-zhui-he-yu-intmapde-zai-ci-ying-yong-by-chris/)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPaths(int m, int n, int N, int i, int j) {
@@ -73,4 +73,4 @@ public:
 	return sum;
     }
 };
-```
+// ```

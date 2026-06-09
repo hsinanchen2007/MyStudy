@@ -1,5 +1,5 @@
-虽然最后时间没有超过很多，但是这是由于结果池已经被很多空间复杂度O(logn)级别的结果污染了，不代表这个方法是不对的
-```
+// 虽然最后时间没有超过很多，但是这是由于结果池已经被很多空间复杂度O(logn)级别的结果污染了，不代表这个方法是不对的
+// ```
 class Solution {
      public ListNode sortList(ListNode head) {
         int n = 0;
@@ -53,4 +53,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-感觉我的想法更容易理解一点，存储每条到叶子节点的路径，和链表路径进行比较即可，路径都用字符串保存，方便使用字符串函数进行快速比较
+// 感觉我的想法更容易理解一点，存储每条到叶子节点的路径，和链表路径进行比较即可，路径都用字符串保存，方便使用字符串函数进行快速比较
 
-```
+// ```
 class Solution {
     List<List<Integer>> list=new ArrayList<>();
     public boolean isSubPath(ListNode head, TreeNode root) {
@@ -39,4 +39,4 @@ class Solution {
         }
     }
 }
-```
+// ```

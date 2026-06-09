@@ -1,12 +1,12 @@
-### 解题思路
-用数组实现，时间复杂度O(n),额外空间O(n)。
-首先计算新数组的长度（s.length()+count*2），
-然后初始化字符数组，从后向前添加元素。
-最后再用String包装数组。
+// ### 解题思路
+// 用数组实现，时间复杂度O(n),额外空间O(n)。
+// 首先计算新数组的长度（s.length()+count*2），
+// 然后初始化字符数组，从后向前添加元素。
+// 最后再用String包装数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         int count = 0;
@@ -34,4 +34,4 @@ class Solution {
         return new String(ch);
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-## 思路一：遍历
-1. 用长的数组依次遍历短的数组
-2. 对结果集排序，然后进行去重
+// ## 思路一：遍历
+// 1. 用长的数组依次遍历短的数组
+// 2. 对结果集排序，然后进行去重
 
-### 代码
-时间复杂度：O(n*m)
-空间复杂度：O(n)
-```c++
+// ### 代码
+// 时间复杂度：O(n*m)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -46,17 +46,17 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-## 思路二：基于set
-1. 构建两个无序set，将其中一个vector添加到set1中（set自动去除重复）。
-2. 遍历另一个vector，查看是否在set1中，如果在，则插入set2中。
-3. 遍历set2即为交集。
+// ## 思路二：基于set
+// 1. 构建两个无序set，将其中一个vector添加到set1中（set自动去除重复）。
+// 2. 遍历另一个vector，查看是否在set1中，如果在，则插入set2中。
+// 3. 遍历set2即为交集。
 
-### 代码
-时间复杂度：O(n+m)
-空间复杂度：O(n)
-```c++
+// ### 代码
+// 时间复杂度：O(n+m)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -79,10 +79,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-#### 代码优化
-```c++
+// #### 代码优化
+// ```c++
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {                
@@ -100,7 +100,7 @@ public:
         return res;        
     }   
 };
-```
+// ```
 
 
 

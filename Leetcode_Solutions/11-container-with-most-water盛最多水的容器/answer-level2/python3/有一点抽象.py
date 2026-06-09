@@ -1,6 +1,6 @@
-记录下我递进写的代码
-版本1：
-```
+# 记录下我递进写的代码
+# 版本1：
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         length = len(height)
@@ -17,12 +17,12 @@ class Solution:
                     V = temp
 
         return V
-```
+# ```
 
 
 
-版本2：
-```
+# 版本2：
+# ```
 import numpy as np
 class Solution:
     def maxArea(self, height) -> int:
@@ -53,11 +53,11 @@ class Solution:
 
         return V
 
-```
+# ```
 
 
-版本3：
-```
+# 版本3：
+# ```
 class Solution:
     def maxArea(self, height) -> int:
         length = len(height)
@@ -95,12 +95,12 @@ class Solution:
                         break
 
         return V
-```
+# ```
 
 
 
-版本4：
-```
+# 版本4：
+# ```
 class Solution:
     def maxArea(self, height) -> int:
         length = len(height)
@@ -132,12 +132,12 @@ class Solution:
                 j = temp
 
         return maxArea
-```
+# ```
 
 
 
-版本5：
-```
+# 版本5：
+# ```
 class Solution:
     def maxArea(self, height) -> int:
         # i指向较短的线段，j指向较长的线段，面积等于height[i]*abs(j-i)
@@ -158,12 +158,12 @@ class Solution:
                 r -= 1
 
         return maxArea
-```
+# ```
 
 
 
-版本6：
-```
+# 版本6：
+# ```
 class Solution:
     def maxArea(self, height) -> int:
         # i指向较短的线段，j指向较长的线段，面积等于height[i]*abs(j-i)
@@ -186,9 +186,9 @@ class Solution:
                 r -= 1
 
         return maxArea
-```
+# ```
 
 
 
-但是呢，尽管写到最后一个版本，在python提交代码中还是只能击败5%的用户，sad。前好几版还都超时了，sad，必须要考虑时间复杂度。
+# 但是呢，尽管写到最后一个版本，在python提交代码中还是只能击败5%的用户，sad。前好几版还都超时了，sad，必须要考虑时间复杂度。
 

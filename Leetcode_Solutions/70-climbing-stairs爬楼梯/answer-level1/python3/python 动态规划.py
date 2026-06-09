@@ -1,9 +1,9 @@
-### 解题思路
-转移方程dp[i]=dp[i-1]+dp[i-2]
+# ### 解题思路
+# 转移方程dp[i]=dp[i-1]+dp[i-2]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         dp=[0]*(n+1)
@@ -13,4 +13,4 @@ class Solution:
             dp[i]=dp[i-1]+dp[i-2]
         return dp[n]
 
-```
+# ```

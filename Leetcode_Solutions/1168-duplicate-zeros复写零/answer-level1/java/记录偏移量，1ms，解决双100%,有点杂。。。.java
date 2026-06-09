@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/ae4ea51dd535e13f819cb05151b7605e286f2deaa3cdadc41b4c1d2780f33dd3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ae4ea51dd535e13f819cb05151b7605e286f2deaa3cdadc41b4c1d2780f33dd3-image.png)
 
 
-```
+// ```
 class Solution {
     public void duplicateZeros(int[] arr) {
     
@@ -32,11 +32,11 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-解法二：插入排序思路，比较慢大概40%
+// 解法二：插入排序思路，比较慢大概40%
 
-```
+// ```
 class Solution {
     public void duplicateZeros(int[] arr) {
     
@@ -51,6 +51,6 @@ class Solution {
         }
     }
 }
-```
+// ```
 
 

@@ -1,8 +1,8 @@
-### 解题思路
-二分之即可
-### 代码
+// ### 解题思路
+// 二分之即可
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -49,4 +49,4 @@ int smallestDivisor(int *nums, int numsSize, int threshold)
 	}
 	return partition(nums, numsSize,0, MAX_DATA, threshold);
 }
-```
+// ```

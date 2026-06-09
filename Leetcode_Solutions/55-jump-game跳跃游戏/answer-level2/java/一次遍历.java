@@ -1,9 +1,9 @@
-### 解题思路
-从头开始遍历，找到能走到的最长距离
+// ### 解题思路
+// 从头开始遍历，找到能走到的最长距离
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         if (nums.length == 0)
@@ -21,4 +21,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-真是固定思维，哈哈
+// ### 解题思路
+// 真是固定思维，哈哈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -18,4 +18,4 @@ class Solution {
         node.next = node.next.next;
     }
 }
-```
+// ```

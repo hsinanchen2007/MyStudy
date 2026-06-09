@@ -1,8 +1,8 @@
-### 解题思路
-利用 max_element 找到最大值的下标然后在进循环判断是否大于其他元素的两倍。
-### 代码
+// ### 解题思路
+// 利用 max_element 找到最大值的下标然后在进循环判断是否大于其他元素的两倍。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return maxPosition;
     }
 };
-```
+// ```

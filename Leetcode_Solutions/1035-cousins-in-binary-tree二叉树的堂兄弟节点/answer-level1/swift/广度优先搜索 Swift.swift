@@ -1,5 +1,5 @@
-水题，直接bfs即可，
-```
+// 水题，直接bfs即可，
+// ```
 func isCousins(_ root: TreeNode?, _ x: Int, _ y: Int) -> Bool {
     guard let r = root else {
         return false
@@ -34,4 +34,4 @@ func isCousins(_ root: TreeNode?, _ x: Int, _ y: Int) -> Bool {
     }
     return false
 }
-```
+// ```

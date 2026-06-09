@@ -1,9 +1,9 @@
-### 解题思路
-注意 删除头节点的情况
-注意 需要找到删除节点的前一个节点
-### 代码
+# ### 解题思路
+# 注意 删除头节点的情况
+# 注意 需要找到删除节点的前一个节点
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,5 +29,5 @@ class Solution:
             # 删除ans的下个节点
             ans.next = ans.next.next
             return head
-```
-双指针删除链表倒数第n个节点
+# ```
+# 双指针删除链表倒数第n个节点

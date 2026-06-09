@@ -1,11 +1,11 @@
-### 解题思路
-做完后才知道考虑公约数就完事了，忘得一塌糊涂
-![捕获.PNG](https://pic.leetcode-cn.com/ecc28a24e7fc0579dd8b3f936d11cf94cf36d9f1d38fa1f718248249ff6b23c1-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 做完后才知道考虑公约数就完事了，忘得一塌糊涂
+// ![捕获.PNG](https://pic.leetcode-cn.com/ecc28a24e7fc0579dd8b3f936d11cf94cf36d9f1d38fa1f718248249ff6b23c1-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -18,4 +18,4 @@ public:
         else return true;
     }
 };
-```
+// ```

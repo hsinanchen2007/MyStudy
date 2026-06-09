@@ -1,9 +1,9 @@
-### 解题思路
-这个题目主要就是UnionFindSet，理解UnionFindSet这个类，当成一个模板。通杀
+// ### 解题思路
+// 这个题目主要就是UnionFindSet，理解UnionFindSet这个类，当成一个模板。通杀
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class UnionFindSet {
 public:
     UnionFindSet(int n) {
@@ -57,4 +57,4 @@ public:
         return {};
     }
 };
-```
+// ```

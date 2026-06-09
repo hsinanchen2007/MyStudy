@@ -1,9 +1,9 @@
-执行用时 :
-224 ms, 在所有 C++ 提交中击败了99.18%的用户
-内存消耗 :
-10.3 MB, 在所有 C++ 提交中击败了96.37%的用户
+// 执行用时 :
+// 224 ms, 在所有 C++ 提交中击败了99.18%的用户
+// 内存消耗 :
+// 10.3 MB, 在所有 C++ 提交中击败了96.37%的用户
 
-```
+// ```
 class Solution {
 public:
     int numberOfBoomerangs(vector<vector<int>>& points) {
@@ -49,4 +49,4 @@ public:
         return group;
     }
 };
-```
+// ```

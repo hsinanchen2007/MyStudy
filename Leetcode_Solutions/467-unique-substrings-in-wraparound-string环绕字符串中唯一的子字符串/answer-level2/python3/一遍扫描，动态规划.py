@@ -1,6 +1,6 @@
-1. 扫描一边序列，利用动态规划记录到每个字符为止的最长子序列长度。
-2. 时间复杂度o(n),空间复杂度o(1)
-```
+# 1. 扫描一边序列，利用动态规划记录到每个字符为止的最长子序列长度。
+# 2. 时间复杂度o(n),空间复杂度o(1)
+# ```
 class Solution:
     def findSubstringInWraproundString(self, p: str) -> int:
         if not p:
@@ -19,4 +19,4 @@ class Solution:
             len_string[ord(p[i])-ord('a')] = max(len_string[ord(p[i])-ord('a')],dp)       
         #根据len_string统计结果
         return sum(len_string)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int myAtoi(string str) {
@@ -41,4 +41,4 @@ public:
         return prefix * res;
     }
 };
-```
+// ```

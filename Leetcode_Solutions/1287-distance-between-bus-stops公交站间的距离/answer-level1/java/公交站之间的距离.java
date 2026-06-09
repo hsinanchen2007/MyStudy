@@ -1,9 +1,9 @@
-### 解题思路
-遍历一次求出环形总距离，两站之间的一个半环距离，总站距离减去半环距离为另一个半环距离，返回两个半环距离较小的即可。
+// ### 解题思路
+// 遍历一次求出环形总距离，两站之间的一个半环距离，总站距离减去半环距离为另一个半环距离，返回两个半环距离较小的即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
         if(distance==null||distance.length==0){
@@ -20,4 +20,4 @@ class Solution {
         return Math.min(dis,sum-dis);
     }
 }
-```
+// ```

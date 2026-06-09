@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         nums.sort()
@@ -14,4 +14,4 @@ class Solution:
                 i += 2
                 j += 2
         return(list1)
-```
+# ```

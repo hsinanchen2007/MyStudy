@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numRookCaptures(self, board):
         """
@@ -67,4 +67,4 @@ class Solution(object):
                     count += 1
                     break            
         return count
-```
+# ```

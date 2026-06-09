@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-筛选不重复节点到新表
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 筛选不重复节点到新表
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return q;
 }
-```
+// ```

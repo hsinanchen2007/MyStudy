@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	static boolean[][]visited;
     public static int movingCount(int m, int n, int k) {
@@ -22,4 +22,4 @@ class Solution {
 		return 1+search(x+1, y, m, n, k)+search(x, y+1, m, n, k);
 	}
 }
-```
+// ```

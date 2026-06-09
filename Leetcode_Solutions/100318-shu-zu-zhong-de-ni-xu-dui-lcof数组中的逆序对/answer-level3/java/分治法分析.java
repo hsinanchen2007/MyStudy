@@ -1,39 +1,39 @@
-## 51.数组中的逆序对
+// ## 51.数组中的逆序对
 
-### Information
+// ### Information
 
-* TIME: 2020/02/21
-* LINK: [Click Here](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
-* TAG: `分治`
+// * TIME: 2020/02/21
+// * LINK: [Click Here](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+// * TAG: `分治`
 
-### Description
+// ### Description
 
-> 在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。输入一个数组，求出这个数组中的逆序对的总数。
+// > 在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。输入一个数组，求出这个数组中的逆序对的总数。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: [7,5,6,4]
 输出: 5
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 归并排序变形
->
-> 主要说下合并部分
->
-> 合并两个有序序列
->
-> 如果左边部分的`i`位置数值较大
->
-> * 很简单，说明从`i - mid`中，`i`值是最大的，因为有序
-> * 同时也说明右边部分序列的`j`位置数值小于`i`位置的数值
-> * 那么`(i ~ mid)(j)`可构成逆序对
->
-> 由此可以求得`left ~ mid`的逆序对的数量，回溯合并过程中，就求出了所有的逆序对
+// > 归并排序变形
+// >
+// > 主要说下合并部分
+// >
+// > 合并两个有序序列
+// >
+// > 如果左边部分的`i`位置数值较大
+// >
+// > * 很简单，说明从`i - mid`中，`i`值是最大的，因为有序
+// > * 同时也说明右边部分序列的`j`位置数值小于`i`位置的数值
+// > * 那么`(i ~ mid)(j)`可构成逆序对
+// >
+// > 由此可以求得`left ~ mid`的逆序对的数量，回溯合并过程中，就求出了所有的逆序对
 
-```java
+// ```java
 class Solution {
     public int reversePairs(int[] nums) {
         if(nums == null) return 0;
@@ -76,23 +76,23 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > [无效的图片地址](https://raw.githubusercontent.com/ZhuoZhuoCrayon/my-Nodes/master/Daily/img/mynode.png)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

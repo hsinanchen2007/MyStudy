@@ -1,4 +1,4 @@
-```
+// ```
 func isSubStructure(A *TreeNode, B *TreeNode) bool {
     if B == nil {
         return false
@@ -24,4 +24,4 @@ func isSame(A, B *TreeNode) bool {
     }
     return false
 }
-```
+// ```

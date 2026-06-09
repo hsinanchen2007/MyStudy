@@ -1,4 +1,4 @@
-比较相同位数的2的幂和当前数的构成字符串的排序后是否相等。
+// 比较相同位数的2的幂和当前数的构成字符串的排序后是否相等。
 class Solution {
     public boolean reorderedPowerOf2(int N) {
         int twoPower;

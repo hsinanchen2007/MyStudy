@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_CNT 5000
 
 void DFS(char *stackStr, int maxLen, int leftLen, int rightLen, char **outStr, int *outCnt)
@@ -57,4 +57,4 @@ char ** generateParenthesis(int n, int* returnSize)
     *returnSize = outCnt;
     return retStr;
 }
-```
+// ```

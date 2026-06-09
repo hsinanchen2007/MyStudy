@@ -1,9 +1,9 @@
-### 解题思路
-简单的堆栈实现
+# ### 解题思路
+# 简单的堆栈实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MinStack:
 
     def __init__(self):
@@ -33,4 +33,4 @@ class MinStack:
 # param_4 = obj.getMin()
 
 
-```
+# ```

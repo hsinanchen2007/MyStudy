@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-利用 ``广度优先搜索``，一层层遍历，之后按层生成 ``链表`` 即可。
+// 利用 ``广度优先搜索``，一层层遍历，之后按层生成 ``链表`` 即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -51,4 +51,4 @@ var listOfDepth = function(tree) {
     }
     return res
 };
-```
+// ```

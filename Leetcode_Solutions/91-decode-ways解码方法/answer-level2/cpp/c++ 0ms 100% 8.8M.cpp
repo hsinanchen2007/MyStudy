@@ -1,10 +1,10 @@
-### 解题思路
-动态规划  dp(n) = dp(n-1) + dp(n-2);
-特殊0的处理 10 20 等能组合的 dp(n) = dp(n-2); else return 0;
+// ### 解题思路
+// 动态规划  dp(n) = dp(n-1) + dp(n-2);
+// 特殊0的处理 10 20 等能组合的 dp(n) = dp(n-2); else return 0;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDecodings(string s) {
@@ -34,4 +34,4 @@ public:
         return cnt[s.size()];
     }
 };
-```
+// ```

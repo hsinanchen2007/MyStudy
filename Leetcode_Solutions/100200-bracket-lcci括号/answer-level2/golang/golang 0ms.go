@@ -1,9 +1,9 @@
-### 解题思路
-bfs && 全局缓存
+// ### 解题思路
+// bfs && 全局缓存
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var ret []string
 func generateParenthesis(n int) []string {
     if n == 0 {return []string{}}
@@ -31,4 +31,4 @@ func bfs(left int, right int, str string){
 	}
 }
 
-```
+// ```

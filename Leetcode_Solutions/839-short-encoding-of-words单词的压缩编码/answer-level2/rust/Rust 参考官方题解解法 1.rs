@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/7ec841a36a171cf16245df4bd30142907dda35880599f88b3a3e245c627c40f3-image.png)
-```rs
+// ![image.png](https://pic.leetcode-cn.com/7ec841a36a171cf16245df4bd30142907dda35880599f88b3a3e245c627c40f3-image.png)
+// ```rs
 use std::collections::HashSet;
 
 impl Solution {
@@ -16,4 +16,4 @@ impl Solution {
         longs.iter().fold(0, |acc, x| { acc + x.len() as i32 + 1 })
     }
 }
-```
+// ```

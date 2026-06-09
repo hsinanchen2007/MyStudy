@@ -1,8 +1,8 @@
-1.全部为大写或小写
-2.如果 第一位是大写，第二位一定是小写```
-代码块
+// 1.全部为大写或小写
+// 2.如果 第一位是大写，第二位一定是小写```
+// 代码块
 
-```
+// ```
 var word = "ffffffffffffffffffffF"
 
     if(word === word.toLowerCase() || word === word.toUpperCase()) {
@@ -21,5 +21,5 @@ var word = "ffffffffffffffffffffF"
       return false
     }
 
-```
+// ```
 

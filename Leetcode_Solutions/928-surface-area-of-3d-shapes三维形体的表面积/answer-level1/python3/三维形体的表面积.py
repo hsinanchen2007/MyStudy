@@ -1,13 +1,13 @@
-### 解题思路
-三步：
-1.所有柱体=上下底面2+侧面积*4
-2.去掉i和i-1重合的2个面积
-3.去掉j和j-1重合的2个面积
-时间复杂度两层循环 O(N*N)   空间复杂度O(1)
+# ### 解题思路
+# 三步：
+# 1.所有柱体=上下底面2+侧面积*4
+# 2.去掉i和i-1重合的2个面积
+# 3.去掉j和j-1重合的2个面积
+# 时间复杂度两层循环 O(N*N)   空间复杂度O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # python版本
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
@@ -23,8 +23,8 @@ class Solution:
                     if j>0:
                         area-=min(grid[i][j],grid[i][j-1])*2
         return area
-```
-```
+# ```
+# ```
 // java版本
 class Solution {
     public int surfaceArea(int[][] grid){
@@ -46,4 +46,4 @@ class Solution {
         return area;
 }
 }
-```
+# ```

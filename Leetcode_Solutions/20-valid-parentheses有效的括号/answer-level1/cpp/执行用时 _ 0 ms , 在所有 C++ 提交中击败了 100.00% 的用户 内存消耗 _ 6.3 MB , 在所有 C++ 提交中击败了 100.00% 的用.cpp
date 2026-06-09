@@ -1,9 +1,9 @@
-### 解题思路
-c++栈包的基本使用，左括号压栈，然后弹出和右括号匹配，如果不匹配返回false，如果最后栈空，返回true
+// ### 解题思路
+// c++栈包的基本使用，左括号压栈，然后弹出和右括号匹配，如果不匹配返回false，如果最后栈空，返回true
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -28,4 +28,4 @@ public:
         return stk.empty();
     }
 };
-```
+// ```

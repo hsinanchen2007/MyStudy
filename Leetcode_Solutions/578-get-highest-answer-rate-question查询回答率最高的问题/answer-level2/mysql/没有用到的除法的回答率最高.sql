@@ -1,10 +1,10 @@
-### 解题思路
-题目真的不好读啊，其实回答率最高就是 answer 次数最多嘛。要注意 count(*) 与 count(列) 的区别是，列会不计 Null
+-- ### 解题思路
+-- 题目真的不好读啊，其实回答率最高就是 answer 次数最多嘛。要注意 count(*) 与 count(列) 的区别是，列会不计 Null
 
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select question_id survey_log
@@ -25,4 +25,4 @@ where tmp1.cnt =(
 
 
 
-```
+-- ```

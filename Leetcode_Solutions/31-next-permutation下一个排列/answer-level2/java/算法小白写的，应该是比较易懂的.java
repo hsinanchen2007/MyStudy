@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/45fa726a925077f3083aee2537ff5237ffa9b396ef77dd24b360ec210990b5ae-image.png)
+// ![image.png](https://pic.leetcode-cn.com/45fa726a925077f3083aee2537ff5237ffa9b396ef77dd24b360ec210990b5ae-image.png)
 
-```
+// ```
 class Solution {
     public void nextPermutation(int[] nums) {
         if(nums == null || nums.length < 2) return; // 特殊情况处理
@@ -42,4 +42,4 @@ class Solution {
     }
 }
 
-```
+// ```

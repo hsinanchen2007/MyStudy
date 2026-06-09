@@ -1,23 +1,23 @@
-![image.png](https://pic.leetcode-cn.com/62a344c0903768724a434eed4c191fa51f83347ef1d96b8f7632a2b9ca9420f7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/62a344c0903768724a434eed4c191fa51f83347ef1d96b8f7632a2b9ca9420f7-image.png)
 
 
-# 思路：
-**对于topk，实际上不需要关注分数对应的playerId**
+// # 思路：
+// **对于topk，实际上不需要关注分数对应的playerId**
 
-1.用一个array作为哈希表保存映射，id和score；
-2.用一个multiset排序当前的分数
+// 1.用一个array作为哈希表保存映射，id和score；
+// 2.用一个multiset排序当前的分数
 
-**addScore：**
-1.array的分数加上score
-2.如果array之前的分数为0，插入score，否则从rank删掉之前的分数重新插入
+// **addScore：**
+// 1.array的分数加上score
+// 2.如果array之前的分数为0，插入score，否则从rank删掉之前的分数重新插入
 
-**top:**
-最后k个求和
+// **top:**
+// 最后k个求和
 
-**reset:**
-rank中删掉当前的score即可
+// **reset:**
+// rank中删掉当前的score即可
 
-```
+// ```
 class Leaderboard {
 public:    
     void addScore(int playerId, int score) {
@@ -50,4 +50,4 @@ private:
     multiset<int> rank;
     array<int, 10001> record{};
 };
-```
+// ```

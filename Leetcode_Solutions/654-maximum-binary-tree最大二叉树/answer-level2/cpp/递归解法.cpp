@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* findmax(vector<int>& nums, int L,int R)
@@ -39,4 +39,4 @@ public:
         return findmax(nums,L,R);
     }
 };
-```
+// ```

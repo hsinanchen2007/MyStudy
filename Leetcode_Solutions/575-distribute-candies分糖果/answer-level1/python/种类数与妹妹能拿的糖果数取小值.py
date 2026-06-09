@@ -1,9 +1,9 @@
-### 解题思路
-种类数与妹妹能拿的糖果数取小值
+# ### 解题思路
+# 种类数与妹妹能拿的糖果数取小值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         """
         return min(len(collections.Counter(candies)), len(candies) / 2)
 
-```
+# ```

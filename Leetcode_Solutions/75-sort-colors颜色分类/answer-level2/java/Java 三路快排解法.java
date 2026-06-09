@@ -1,9 +1,9 @@
-### 解题思路
-利用三路快速排序思路
+// ### 解题思路
+// 利用三路快速排序思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         int zeroPos = -1;   // [0, zeroPos]集合内元素全为0
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

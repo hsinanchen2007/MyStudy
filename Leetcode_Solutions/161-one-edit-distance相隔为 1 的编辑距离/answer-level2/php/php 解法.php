@@ -1,4 +1,4 @@
-```
+// ```
 function isOneEditDistance($s, $t) {
     $sn = strlen($s);
     $tn = strlen($t);
@@ -22,4 +22,4 @@ function isOneEditDistance($s, $t) {
     }
     return $dis == 1;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-两种思路：
-1. 维护有序数组+二分
-2. 维护hash，然后求和；暴力没写，这里写了树状数组优化版
+// ### 解题思路
+// 两种思路：
+// 1. 维护有序数组+二分
+// 2. 维护hash，然后求和；暴力没写，这里写了树状数组优化版
 
-### 代码
-#### 有序数组+二分
-```cpp
+// ### 代码
+// #### 有序数组+二分
+// ```cpp
 class StreamRank {
 public:
     vector<int> nums;
@@ -39,10 +39,10 @@ public:
  * obj->track(x);
  * int param_2 = obj->getRankOfNumber(x);
  */
-```
-#### 树状数组+hash
-题目没说最小值，当成非负数做的
-```cpp
+// ```
+// #### 树状数组+hash
+// 题目没说最小值，当成非负数做的
+// ```cpp
 const int N = 5e4 + 10;
 class StreamRank {
 public:
@@ -73,4 +73,4 @@ public:
  * obj->track(x);
  * int param_2 = obj->getRankOfNumber(x);
  */
-```
+// ```

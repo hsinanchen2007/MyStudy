@@ -1,10 +1,10 @@
-### 解题思路
-当左括号计数为1时说明是最外层的左括号
-当左括号数与右括号数相同时则说明是最外层的右括号
+// ### 解题思路
+// 当左括号计数为1时说明是最外层的左括号
+// 当左括号数与右括号数相同时则说明是最外层的右括号
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeOuterParentheses(String S) {
         char[] c = S.toCharArray();
@@ -32,4 +32,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

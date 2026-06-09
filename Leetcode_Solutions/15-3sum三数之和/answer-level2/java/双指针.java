@@ -1,14 +1,14 @@
-### 解题思路
-刚开始想到的是暴力法，明知道AC不了，还试了一下，最后两个测试用例，过不去。
+// ### 解题思路
+// 刚开始想到的是暴力法，明知道AC不了，还试了一下，最后两个测试用例，过不去。
 
-看别人的双指针法挺好的
-就是遍历一遍数组从k=0,到k=nums.length-3然后两支针i和j
-i=k+1,j=nums.length-1.然后移动i和j向中间遍历。
-在移动的过程中要记得要跳过重复的值，防止重复。
+// 看别人的双指针法挺好的
+// 就是遍历一遍数组从k=0,到k=nums.length-3然后两支针i和j
+// i=k+1,j=nums.length-1.然后移动i和j向中间遍历。
+// 在移动的过程中要记得要跳过重复的值，防止重复。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -44,4 +44,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def tribonacci(self, n: int) -> int:
         def digui(n,a,b,c):
@@ -12,4 +12,4 @@ class Solution:
                 return digui(n-1,b,c,a + b +c)
         ans = digui(n,0,1,1)
         return  ans
-```
+# ```

@@ -1,6 +1,6 @@
-第一种是 非常直观的方法，就是依次看后一位是不是1，如果是就反转为0
+// 第一种是 非常直观的方法，就是依次看后一位是不是1，如果是就反转为0
 
-```c
+// ```c
 int findComplement(int num){
 
     int res = 0;
@@ -13,11 +13,11 @@ int findComplement(int num){
     }
     return res;
 }
-```
+// ```
 
-第二种就是按照定义，对于1011而言，补位就是1111 - 1011 = 0100
+// 第二种就是按照定义，对于1011而言，补位就是1111 - 1011 = 0100
 
-```c
+// ```c
 int findComplement(int num){
     long temp = 1;
     while (num >= temp){
@@ -25,6 +25,6 @@ int findComplement(int num){
     }
     return (temp - 1 - num);
 }
-```
+// ```
 
-第二种方法耗时0ms
+// 第二种方法耗时0ms

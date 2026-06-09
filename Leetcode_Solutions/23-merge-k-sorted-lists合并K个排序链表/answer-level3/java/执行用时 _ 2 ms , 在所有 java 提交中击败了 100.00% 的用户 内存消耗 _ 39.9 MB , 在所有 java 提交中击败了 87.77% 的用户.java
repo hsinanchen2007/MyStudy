@@ -1,6 +1,6 @@
-# **分而治之的思想，参考归并排序**
+// # **分而治之的思想，参考归并排序**
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,6 +38,6 @@ class Solution {
         return l3.next;
     }
 }
-```
+// ```
 
 

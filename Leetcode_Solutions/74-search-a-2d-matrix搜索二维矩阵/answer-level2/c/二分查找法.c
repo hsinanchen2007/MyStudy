@@ -1,9 +1,9 @@
-### 解题思路
-先沿第一列方向竖着找，定位到行再横着找
+// ### 解题思路
+// 先沿第一列方向竖着找，定位到行再横着找
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
     int start, mid, end;
     int row;
@@ -39,4 +39,4 @@ bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
     return false;
 
 }
-```
+// ```

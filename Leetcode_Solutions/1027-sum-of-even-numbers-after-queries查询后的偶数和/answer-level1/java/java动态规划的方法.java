@@ -1,13 +1,13 @@
-### 思路
-可以用动态规划的方法，先求出answer[0]，然后当i >= 1时，且A[index]已经改变：
-1. A[index]为偶数，queries[i][0]为偶数：answer[i] = answer[i-1] + queries[i][0]
-2. A[index]为偶数，queries[i][0]为奇数：answer[i] = answer[i-1] + A[index]
-3. A[index]为奇数，queries[i][0]为偶数：answer[i] = answer[i-1]
-4. A[index]为奇数，queries[i][0]为奇数：answer[i] = answer[i-1] - A[index] + queries[i][0]
+// ### 思路
+// 可以用动态规划的方法，先求出answer[0]，然后当i >= 1时，且A[index]已经改变：
+// 1. A[index]为偶数，queries[i][0]为偶数：answer[i] = answer[i-1] + queries[i][0]
+// 2. A[index]为偶数，queries[i][0]为奇数：answer[i] = answer[i-1] + A[index]
+// 3. A[index]为奇数，queries[i][0]为偶数：answer[i] = answer[i-1]
+// 4. A[index]为奇数，queries[i][0]为奇数：answer[i] = answer[i-1] - A[index] + queries[i][0]
 
 
-### 实现
-```java
+// ### 实现
+// ```java
 class Solution {
     public int[] sumEvenAfterQueries(int[] A, int[][] queries) {
         int[] answer = new int[queries.length];
@@ -34,4 +34,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

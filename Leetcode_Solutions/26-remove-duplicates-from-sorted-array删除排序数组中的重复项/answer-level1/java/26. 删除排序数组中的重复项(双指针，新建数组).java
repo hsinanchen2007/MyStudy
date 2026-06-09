@@ -1,8 +1,8 @@
-# 方法1：双指针
-创造一个慢指针，指向不重复的位置
-快指针正常遍历
+// # 方法1：双指针
+// 创造一个慢指针，指向不重复的位置
+// 快指针正常遍历
 
-```java
+// ```java
 public class Solution {
    public static int removeDuplicates(int[] nums) {
        if (nums.length==0)return 0;
@@ -15,16 +15,16 @@ public class Solution {
        return slow;
    }
 }
-```
-**复杂度分析：**
-    时间复杂度O（n）
-    空间复杂度O（1）
+// ```
+// **复杂度分析：**
+//     时间复杂度O（n）
+//     空间复杂度O（1）
 
-# 方法2：新建数组
-新建一个数组，读到不重复的就放入
-最后把新数组的值放入原数组
+// # 方法2：新建数组
+// 新建一个数组，读到不重复的就放入
+// 最后把新数组的值放入原数组
 
-```java
+// ```java
 public class Solution {
    public static int removeDuplicates(int[] nums) {
        if (nums.length==0)return 0;
@@ -42,9 +42,9 @@ public class Solution {
        return count;
    }
 }
-```
-**复杂度分析：**
-    时间复杂度O（n）
-    空间复杂度O（n）
+// ```
+// **复杂度分析：**
+//     时间复杂度O（n）
+//     空间复杂度O（n）
 
 

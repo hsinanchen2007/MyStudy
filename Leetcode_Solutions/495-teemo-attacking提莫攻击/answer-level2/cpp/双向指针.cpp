@@ -1,10 +1,10 @@
-### 解题思路
-遇到小于duration的直接跳过；
-遇到大于duration的进行计算，并更新beginIndex；
+// ### 解题思路
+// 遇到小于duration的直接跳过；
+// 遇到大于duration的进行计算，并更新beginIndex；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPoisonedDuration(vector<int>& timeSeries, int duration) {
@@ -30,4 +30,4 @@ public:
         return count;
     }
 };
-```
+// ```

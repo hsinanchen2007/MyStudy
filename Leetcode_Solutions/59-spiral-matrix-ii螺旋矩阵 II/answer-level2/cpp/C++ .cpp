@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/05678b59dd6925aedff9ecb08841393674d460c57b317a07667453ba8169e8a0-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/05678b59dd6925aedff9ecb08841393674d460c57b317a07667453ba8169e8a0-image.png)
 
-![image.png](https://pic.leetcode-cn.com/98dc3fc6bfc42e53626e0fba870d08b9be9b751b40eedba653c88a4445c6a2fb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/98dc3fc6bfc42e53626e0fba870d08b9be9b751b40eedba653c88a4445c6a2fb-image.png)
 
-一次循环转一圈
-each_num表示本次循环要铺设的行或列需要多少个新数字
-start表示本次循环从哪里开始
-### 代码
+// 一次循环转一圈
+// each_num表示本次循环要铺设的行或列需要多少个新数字
+// start表示本次循环从哪里开始
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         int counter[] = new int[10000];//count
@@ -30,4 +30,4 @@ class Solution {
         return b == 0? a: gcd(b,a %b);
     }
 }
-```
+// ```

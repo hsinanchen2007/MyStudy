@@ -1,5 +1,5 @@
-看一下方法注释，应该就很好理解了
-```
+// 看一下方法注释，应该就很好理解了
+// ```
 class Solution {
     
     private int max;
@@ -31,4 +31,4 @@ class Solution {
         return new int[]{incre, decre};
     }
 }
-```
+// ```

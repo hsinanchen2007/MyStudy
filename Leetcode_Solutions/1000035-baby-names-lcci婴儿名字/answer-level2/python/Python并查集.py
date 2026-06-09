@@ -1,5 +1,5 @@
-平时做的并查集基本上都是利用列表（数组）的下标和数字，此题转换到字典键值即可。
-```
+# 平时做的并查集基本上都是利用列表（数组）的下标和数字，此题转换到字典键值即可。
+# ```
 class Solution(object):
     def trulyMostPopular(self, names, synonyms):
         # 预处理
@@ -28,4 +28,4 @@ class Solution(object):
             ans[find(v)] += cnt[k]
         
         return [k+'('+str(v)+')' for k, v in ans.iteritems()]
-```
+# ```

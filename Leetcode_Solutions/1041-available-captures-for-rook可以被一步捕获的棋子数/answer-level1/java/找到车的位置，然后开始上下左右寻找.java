@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意坐标变化的书写
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意坐标变化的书写
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int length=board.length;
@@ -30,4 +30,4 @@ class Solution {
         return x>=0&&x<board.length&&y>=0&&y<board[x].length;
     }
 }
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
-采用广度优先搜索法解决这个问题。
+// ### 解题思路
+// 采用广度优先搜索法解决这个问题。
 
-      用数组q模拟队列操作，front为队头指针，rear为队尾指针，初始时front=rear=0。
+//       用数组q模拟队列操作，front为队头指针，rear为队尾指针，初始时front=rear=0。
 
-      入队操作为 q[rear++]=cur;
+//       入队操作为 q[rear++]=cur;
 
-      出队操作为 cur=q[front++]。
-![截屏2020-02-05上午11.28.58.png](https://pic.leetcode-cn.com/89d5f24f989e788851bfcdf44849f4eeb79f35b83a5d87e68d6681311ed92603-%E6%88%AA%E5%B1%8F2020-02-05%E4%B8%8A%E5%8D%8811.28.58.png)
+//       出队操作为 cur=q[front++]。
+// ![截屏2020-02-05上午11.28.58.png](https://pic.leetcode-cn.com/89d5f24f989e788851bfcdf44849f4eeb79f35b83a5d87e68d6681311ed92603-%E6%88%AA%E5%B1%8F2020-02-05%E4%B8%8A%E5%8D%8811.28.58.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define NUM 100
 
 #define DIRECTION_NUM 4
@@ -100,4 +100,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     }
     return -1;
 }
-```
+// ```

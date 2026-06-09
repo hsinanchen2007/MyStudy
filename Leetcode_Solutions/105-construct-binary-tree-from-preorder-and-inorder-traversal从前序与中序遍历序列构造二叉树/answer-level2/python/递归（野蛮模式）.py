@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-    找到中序遍历的点，再构造根结点、构造左子树、构造右子树
+#     找到中序遍历的点，再构造根结点、构造左子树、构造右子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
 
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         return self.buildHelp(preorder, inorder)
-```
+# ```

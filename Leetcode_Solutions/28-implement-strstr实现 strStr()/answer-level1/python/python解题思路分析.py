@@ -1,5 +1,5 @@
-方法1：尝试一种简单暴力
-```
+# 方法1：尝试一种简单暴力
+# ```
 从haystack字符第j个开始遍历
 neddle字符串和haystack第j个元素之后开始是否重合。
 
@@ -22,4 +22,4 @@ class Solution:
                     continue
         
         return -1
-```
+# ```

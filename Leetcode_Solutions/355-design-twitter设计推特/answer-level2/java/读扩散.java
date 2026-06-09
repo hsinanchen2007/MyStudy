@@ -1,9 +1,9 @@
-### 解题思路
-参考23. 合并K个排序链表，使用堆加速获取信息流
+// ### 解题思路
+// 参考23. 合并K个排序链表，使用堆加速获取信息流
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Twitter {
 
     private final Map<Integer, Set<Integer>> followees;
@@ -93,4 +93,4 @@ class Twitter {
  * obj.postTweet(userId,tweetId); List<Integer> param_2 = obj.getNewsFeed(userId); obj.follow(followerId,followeeId);
  * obj.unfollow(followerId,followeeId);
  */
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-第一次用python做题
-很好懂的方法，查找-c-d有没有相等的a+b就行了
-有一说一，python是比java好做。。。
-但还不熟悉，看不懂大佬的两行。。。
-### 代码
+# ### 解题思路
+# 第一次用python做题
+# 很好懂的方法，查找-c-d有没有相等的a+b就行了
+# 有一说一，python是比java好做。。。
+# 但还不熟悉，看不懂大佬的两行。。。
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def fourSumCount(self, A, B, C, D):
         count ={}
@@ -21,4 +21,4 @@ class Solution(object):
                 if(-c-d in count):
                     counter+=count[-c-d]
         return counter
-```
+# ```

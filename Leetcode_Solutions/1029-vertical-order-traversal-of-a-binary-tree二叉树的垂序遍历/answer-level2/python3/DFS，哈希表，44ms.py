@@ -1,5 +1,5 @@
-DFS获取每个元素的深度和列值，保存在哈希表，列作为key，值和深度作为value。排序按深度和值的大小排序，最后按列值顺序输出。
-```
+# DFS获取每个元素的深度和列值，保存在哈希表，列作为key，值和深度作为value。排序按深度和值的大小排序，最后按列值顺序输出。
+# ```
 class Solution:
     def verticalTraversal(self, root: TreeNode) -> List[List[int]]:
         hashMap = {}
@@ -17,4 +17,4 @@ class Solution:
             hashMap[i] = sorted(hashMap[i], key=lambda x: [hashMap[i][x], x])
         keys = sorted(hashMap.keys())
         return [hashMap[i] for i in keys]
-```
+# ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c822546c06e1d4190fe0adb6c8b00a91a2833033a44c182039de31102f4eca0e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c822546c06e1d4190fe0adb6c8b00a91a2833033a44c182039de31102f4eca0e-image.png)
 
 
-```
+// ```
 class Solution {
     public String toGoatLatin(String S) {
         String Ystr1 = "aeiou";
@@ -23,4 +23,4 @@ class Solution {
         return ans.substring(0,ans.length()-1);
     }
 }
-```
+// ```

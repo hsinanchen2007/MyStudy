@@ -1,4 +1,4 @@
-```
+// ```
 // 解题思路 :
 // 刨除没有气球，使用0根箭的情况
 // 将所有气球坐标按从小到大的顺序排列
@@ -32,4 +32,4 @@ func findMinArrowShots(points [][]int) int {
 	return count
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-作为小白，第一次就无脑暴力解题
-```
+// 作为小白，第一次就无脑暴力解题
+// ```
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -15,10 +15,10 @@ public:
         return mymax;
     }
 };
-```
-然后执行时间爆炸
-改用指针移动法之后
-```
+// ```
+// 然后执行时间爆炸
+// 改用指针移动法之后
+// ```
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -34,9 +34,9 @@ public:
         return res;
     }
 };
-```
-时间直接变为
-![QOII_){\[WE)8H@{MO@IBR5H.png](https://pic.leetcode-cn.com/9c73ce55fac515a3d6fe91962cc55b08bc895e412220e99bac6d4893a8e04a9f-QOII_\)%7B%5BWE\)8H@%7BMO@IBR5H.png)
+// ```
+// 时间直接变为
+// ![QOII_){\[WE)8H@{MO@IBR5H.png](https://pic.leetcode-cn.com/9c73ce55fac515a3d6fe91962cc55b08bc895e412220e99bac6d4893a8e04a9f-QOII_\)%7B%5BWE\)8H@%7BMO@IBR5H.png)
 
 
 

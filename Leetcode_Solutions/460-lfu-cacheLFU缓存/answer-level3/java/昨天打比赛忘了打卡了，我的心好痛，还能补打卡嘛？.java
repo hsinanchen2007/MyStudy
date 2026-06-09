@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
 ArrayList<Pair<Integer, Pair<Integer, Integer>>> list;
 	int size;
@@ -91,4 +91,4 @@ ArrayList<Pair<Integer, Pair<Integer, Integer>>> list;
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

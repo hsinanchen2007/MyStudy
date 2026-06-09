@@ -1,12 +1,12 @@
-思路分析:
+// 思路分析:
 
-- 这道题的关键就在于理解扩号字符串组成规律，摸清楚规律之后，编码就不是很么难事
-- 优先括号字符串有几个性质： 左括号的数量必须等于右括号的数量，字符串必须以`(`开头,以`)`结尾。
-![最长有效括号](https://pic.leetcode-cn.com/ec59bee29a01b999fedd5bc9efc661bcdd8a5c45c8ecc39e10cd8b43e7ec09d1.png)
+// - 这道题的关键就在于理解扩号字符串组成规律，摸清楚规律之后，编码就不是很么难事
+// - 优先括号字符串有几个性质： 左括号的数量必须等于右括号的数量，字符串必须以`(`开头,以`)`结尾。
+// ![最长有效括号](https://pic.leetcode-cn.com/ec59bee29a01b999fedd5bc9efc661bcdd8a5c45c8ecc39e10cd8b43e7ec09d1.png)
 
 
-- 根据分析的思路，上暴力递归代码
-```
+// - 根据分析的思路，上暴力递归代码
+// ```
     public int longestValidParentheses2(String s) {
         getRes(s,s.length() - 1);
         return maxLen;
@@ -35,10 +35,10 @@
         maxLen = Math.max(ans,maxLen);           // 每次走到这里都更新maxLen的值
         return ans;
     }
-```
+// ```
 
-- 同样的，老套路，暴力递归改成动态规划。
-```
+// - 同样的，老套路，暴力递归改成动态规划。
+// ```
     // 暴力递归改动态规划
     public int longestValidParentheses2(String s) {
         int maxLen = 0;
@@ -60,4 +60,4 @@
         }
         return maxLen;
     }
-```
+// ```

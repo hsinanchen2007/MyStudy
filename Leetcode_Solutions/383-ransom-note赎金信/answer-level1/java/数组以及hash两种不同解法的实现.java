@@ -1,9 +1,9 @@
-Java
-hash耗时85ms，内存49.3MB
-数组耗时8ms，内存44.6MB
-        耗时6ms，内存45.4MB
-        耗时6ms，内存45.2MB
-```
+// Java
+// hash耗时85ms，内存49.3MB
+// 数组耗时8ms，内存44.6MB
+//         耗时6ms，内存45.4MB
+//         耗时6ms，内存45.2MB
+// ```
 /**
  * Problem
  *      383.Ransom Note
@@ -185,4 +185,4 @@ class Solution{
     }
 }
 
-```
+// ```

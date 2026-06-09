@@ -1,5 +1,5 @@
-每一个字母组合记作n为3或4进制的一个数值.
-```
+// 每一个字母组合记作n为3或4进制的一个数值.
+// ```
 char[][] numChar = {
 		{'a', 'b', 'c'},
 		{'d', 'e', 'f'},
@@ -39,4 +39,4 @@ public List<String> letterCombinations(String digits) {
 		}
 	}
 }
-```
+// ```

@@ -1,7 +1,7 @@
-1. 对数组进行排序
-2. 最小绝对差必然是**相邻两个数的差**，所以需要遍历一边数组把相邻元素对的差的最小值找出来
-3. 再遍历一遍，把与最小差相等的相邻元素对填入列表
-```
+// 1. 对数组进行排序
+// 2. 最小绝对差必然是**相邻两个数的差**，所以需要遍历一边数组把相邻元素对的差的最小值找出来
+// 3. 再遍历一遍，把与最小差相等的相邻元素对填入列表
+// ```
 class Solution {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         List<List<Integer>> ans=new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

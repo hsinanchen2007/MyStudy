@@ -1,4 +1,4 @@
-```
+// ```
 package _2x
 
 var charMap = map[uint8]bool{}
@@ -42,4 +42,4 @@ func isPalindrome(s string) bool {
 	return true
 }
 
-```
+// ```

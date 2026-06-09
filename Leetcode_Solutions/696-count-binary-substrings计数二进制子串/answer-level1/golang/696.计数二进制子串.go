@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-参考了官方题解，具体看注释。
+// 参考了官方题解，具体看注释。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countBinarySubstrings(s string) int {
 	ans,prev,cur := 0,0,1	//prev子串为前半部分长度，cur为当前遍历的子串后一部分可能的长度
 	for i := 1;i <len(s);i++ {
@@ -24,4 +24,4 @@ func min(a int,b int) int {
 	}
 	return b
 }
-```
+// ```

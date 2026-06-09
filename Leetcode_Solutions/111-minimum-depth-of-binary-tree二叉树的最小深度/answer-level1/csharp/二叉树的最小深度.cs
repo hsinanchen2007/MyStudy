@@ -1,5 +1,5 @@
-**思路1：** 递归，详情都在代码里。
-```
+// **思路1：** 递归，详情都在代码里。
+// ```
  public int MinDepth(TreeNode root)
         {
             //递归终止情况1
@@ -23,4 +23,4 @@
             }
             return Math.Min(MinDepth(root.left), MinDepth(root.right)) + 1;
         }
-```
+// ```

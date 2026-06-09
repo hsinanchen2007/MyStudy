@@ -1,11 +1,11 @@
-### 解题思路
-思路完全初学者水平，时间复杂度击败了12.34%，空间复杂度击败了5.06%。。
-感觉这题用python写好容易。。。
-记录一下，再接再厉！
+# ### 解题思路
+# 思路完全初学者水平，时间复杂度击败了12.34%，空间复杂度击败了5.06%。。
+# 感觉这题用python写好容易。。。
+# 记录一下，再接再厉！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         if nums1 == nums2 == None:
@@ -27,4 +27,4 @@ class Solution:
                 return (nums3[int((l3)/2)] + nums3[int((l3)/2) -1]) / 2.0
             else:
                 return nums3[int((l3)/2)]
-```
+# ```

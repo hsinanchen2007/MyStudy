@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         nums=[]
@@ -9,4 +9,4 @@ class Solution:
             loc=(loc+m-1)%len(nums)
             nums.pop(loc)
         return nums[0]
-```
+# ```

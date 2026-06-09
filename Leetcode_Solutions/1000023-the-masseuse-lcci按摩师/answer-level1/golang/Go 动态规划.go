@@ -1,4 +1,4 @@
-```go
+// ```go
 func massage(nums []int) int {
     if len(nums) == 0 {
         return 0
@@ -31,4 +31,4 @@ func max(a, b int) int {
 
     return b
 }
-```
+// ```

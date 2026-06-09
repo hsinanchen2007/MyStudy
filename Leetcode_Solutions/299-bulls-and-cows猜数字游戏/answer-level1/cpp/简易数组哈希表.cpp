@@ -1,9 +1,9 @@
-### 解题思路
-两次遍历，先记录位置正确的，再记录位置不正确的
+// ### 解题思路
+// 两次遍历，先记录位置正确的，再记录位置不正确的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string getHint(string secret, string guess)
@@ -26,4 +26,4 @@ public:
         return to_string(A) + "A" + to_string(B) + "B";
     }
 };
-```
+// ```

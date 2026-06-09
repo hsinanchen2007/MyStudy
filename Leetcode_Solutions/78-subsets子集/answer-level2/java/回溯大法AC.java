@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+// ### 解题思路
+// 见代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> result = new LinkedList<>();
     public List<List<Integer>> subsets(int[] nums) {
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

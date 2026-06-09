@@ -1,27 +1,27 @@
-### 解题思路
-典型的hash表问题，需要两次进行映射，C语言使用uthash.h库解决。
+// ### 解题思路
+// 典型的hash表问题，需要两次进行映射，C语言使用uthash.h库解决。
 
-1.构建内容->文档id的映射map0
+// 1.构建内容->文档id的映射map0
 
-2.遍历每个文档的内容
+// 2.遍历每个文档的内容
 
-3.对于每个文档，将map0中查找到的文档id作为key，重合内容数作为val，构建map1
+// 3.对于每个文档，将map0中查找到的文档id作为key，重合内容数作为val，构建map1
 
-4.遍历map1生成结果
+// 4.遍历map1生成结果
 
-对于C语言来说，这里有两个坑：
+// 对于C语言来说，这里有两个坑：
 
-(1)浮点精度问题，必须要在结果进行补偿 + 1e-9（这点对于编程题目来说是非常的不合理）
-(2)C语言内存申请需要适当。由于C动态添加数据必须构造链表，如果使用数组必须提前申请空间，这里注意不能超出。
+// (1)浮点精度问题，必须要在结果进行补偿 + 1e-9（这点对于编程题目来说是非常的不合理）
+// (2)C语言内存申请需要适当。由于C动态添加数据必须构造链表，如果使用数组必须提前申请空间，这里注意不能超出。
 
-PS：用C盘leetcode，说多了都是泪。。。
+// PS：用C盘leetcode，说多了都是泪。。。
 
-![image.png](https://pic.leetcode-cn.com/f67a0b7e4476a8e1a7d1f503b48e2d4ba761c59122c57d04e82a8626ccd08b6d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f67a0b7e4476a8e1a7d1f503b48e2d4ba761c59122c57d04e82a8626ccd08b6d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -131,4 +131,4 @@ char** computeSimilarities(int** docs, int docsSize, int* docsColSize, int* retu
     *returnSize = rsize;
     return ret;
 }
-```
+// ```

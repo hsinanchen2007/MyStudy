@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         $this->newHead = $this->newHead->next;
     }
 }
-```
+// ```

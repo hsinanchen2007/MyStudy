@@ -1,9 +1,9 @@
-### 解题思路
-跟着套路写就完事了
+# ### 解题思路
+# 跟着套路写就完事了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res_all = []
@@ -18,4 +18,4 @@ class Solution:
         return res_all
 
     
-```
+# ```

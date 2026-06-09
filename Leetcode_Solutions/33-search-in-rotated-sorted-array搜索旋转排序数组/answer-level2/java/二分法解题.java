@@ -1,17 +1,17 @@
-### 解题思路
-用二分法，查找目标值。
-每次用mid分割，用curr=nums[mid]匹配target,相等就是答案。不等，判断分割后选择往左还是往右。需要根据curr的位置判断走向。当前curr所在的区域分两种 【升序】和【夹着旋转点】
-【升序】：必定是start<end ，若curr>target 那target肯定在左边，goleft，反之goright
-【夹着旋转点】：分两种情况mid在【大块】或【小块】(如[4,5,6,0,1,2]，那么【大块】就是[4,5,6],【小块】就是[0,1,2],【大块】一定在【小块】前面，否则就是【升序】)；
-【mid在小块】:若 tartget在 curr-end之间 (target > curr && target <= nums[end]) goright，反之goleft
-【mid在大块】:若 tartget在 start-curr之间（target < curr && target >= nums[start]） goleft，反之goright
+// ### 解题思路
+// 用二分法，查找目标值。
+// 每次用mid分割，用curr=nums[mid]匹配target,相等就是答案。不等，判断分割后选择往左还是往右。需要根据curr的位置判断走向。当前curr所在的区域分两种 【升序】和【夹着旋转点】
+// 【升序】：必定是start<end ，若curr>target 那target肯定在左边，goleft，反之goright
+// 【夹着旋转点】：分两种情况mid在【大块】或【小块】(如[4,5,6,0,1,2]，那么【大块】就是[4,5,6],【小块】就是[0,1,2],【大块】一定在【小块】前面，否则就是【升序】)；
+// 【mid在小块】:若 tartget在 curr-end之间 (target > curr && target <= nums[end]) goright，反之goleft
+// 【mid在大块】:若 tartget在 start-curr之间（target < curr && target >= nums[start]） goleft，反之goright
 
-大体思路就是这样，接下来判断一些异常情况，调试几次就OK了
+// 大体思路就是这样，接下来判断一些异常情况，调试几次就OK了
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
          if (nums.length == 0) return -1;
@@ -51,4 +51,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

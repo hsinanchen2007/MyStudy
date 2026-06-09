@@ -1,11 +1,11 @@
-### 解题思路
-1：找到R的位置
+// ### 解题思路
+// 1：找到R的位置
 
-2：根据R的位置进行上下左右移动，判断是否能一步吃到p
+// 2：根据R的位置进行上下左右移动，判断是否能一步吃到p
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -80,4 +80,4 @@ var numRookCaptures = function(board) {
     }
     return num;
 };
-```
+// ```

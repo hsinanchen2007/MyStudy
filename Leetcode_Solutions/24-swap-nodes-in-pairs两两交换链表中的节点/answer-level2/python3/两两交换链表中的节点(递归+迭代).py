@@ -1,8 +1,8 @@
-### 方法一: 递归
+# ### 方法一: 递归
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
 
@@ -16,10 +16,10 @@ class Solution:
         second_node.next = first_node
 
         return second_node
-```
-### 方法二: 迭代
+# ```
+# ### 方法二: 迭代
 
-```python
+# ```python
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
 
@@ -36,7 +36,7 @@ class Solution:
             pre = first # 此时的 first 扔是第一个 节点, 而 first.next 是 第三个节点.
                         # 那么这样就实现了循环, pre 又指向了剩下的节点里的第一个节点
         return dummy.next
-```    
+# ```    
 
 
 
@@ -46,4 +46,4 @@ class Solution:
 
 
 
-```
+# ```

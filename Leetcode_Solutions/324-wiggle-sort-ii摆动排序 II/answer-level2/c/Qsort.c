@@ -1,9 +1,9 @@
-### 解题思路
-排序以后，从后边往前边取，这个是关键
+// ### 解题思路
+// 排序以后，从后边往前边取，这个是关键
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -39,4 +39,4 @@ void wiggleSort(int *nums, int numsSize)
 	}
 	memcpy(nums, ans, sizeof(int) * numsSize);	
 }
-```
+// ```

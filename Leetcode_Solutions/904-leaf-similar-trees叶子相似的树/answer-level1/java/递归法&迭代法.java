@@ -1,10 +1,10 @@
-#### 方法1：迭代法、DFS、仿先序遍历（区别：只有遇到叶子节点，才加入res中）。
-思路：
-1. 先用仿先序遍历获得root1的叶子序列，再用仿先序遍历依次获得root2的叶子值，
-2. 每获得root2的一个叶子值都与root1的叶子序列的对应索引位置进行比较。
-   - 相同(true)：则继续，
-   - 不同(false)：则直接返回。
-```
+// #### 方法1：迭代法、DFS、仿先序遍历（区别：只有遇到叶子节点，才加入res中）。
+// 思路：
+// 1. 先用仿先序遍历获得root1的叶子序列，再用仿先序遍历依次获得root2的叶子值，
+// 2. 每获得root2的一个叶子值都与root1的叶子序列的对应索引位置进行比较。
+//    - 相同(true)：则继续，
+//    - 不同(false)：则直接返回。
+// ```
 public boolean leafSimilar(TreeNode root1, TreeNode root2) {
     List<Integer> res = new ArrayList<>(); // root1的叶子序列值
     Stack<TreeNode> stack = new Stack<>();
@@ -31,10 +31,10 @@ public boolean leafSimilar(TreeNode root1, TreeNode root2) {
     }
     return true;
 }
-```
+// ```
 
-#### 方法2：递归法、DFS
-```
+// #### 方法2：递归法、DFS
+// ```
 public boolean leafSimilar(TreeNode root1, TreeNode root2) { 
     List<Integer> res1 = new ArrayList<>();
 	List<Integer> res2 = new ArrayList<>();    
@@ -48,5 +48,5 @@ public void dfs(TreeNode node, List<Integer> res) {
     dfs(node.left, res);
     dfs(node.right, res);
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度O(m+n)应该很大了，运行结果有些出人意料
-![截屏2020-03-18下午1.53.18.png](https://pic.leetcode-cn.com/10d18d413f4226e72ae6d5dfcac8a0a5e5f0c6756170b56224e5294fe90bb9ab-%E6%88%AA%E5%B1%8F2020-03-18%E4%B8%8B%E5%8D%881.53.18.png)
+// ### 解题思路
+// 时间复杂度O(m+n)应该很大了，运行结果有些出人意料
+// ![截屏2020-03-18下午1.53.18.png](https://pic.leetcode-cn.com/10d18d413f4226e72ae6d5dfcac8a0a5e5f0c6756170b56224e5294fe90bb9ab-%E6%88%AA%E5%B1%8F2020-03-18%E4%B8%8B%E5%8D%881.53.18.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -56,4 +56,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思 
-使用递归合并两个链表，所需时间较大，慎用。
+// ### 解题思路
+// 此处撰写解题思 
+// 使用递归合并两个链表，所需时间较大，慎用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int len = lists.length;
@@ -39,4 +39,4 @@ class Solution {
        return merNode;
     }
 }
-```
+// ```

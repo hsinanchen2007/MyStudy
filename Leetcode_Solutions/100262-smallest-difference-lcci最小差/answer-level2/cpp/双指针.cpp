@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后设定返回值为最大，用双指针求得结果。
+// ### 解题思路
+// 先排序，然后设定返回值为最大，用双指针求得结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int smallestDifference(vector<int>& a, vector<int>& b) 
@@ -23,4 +23,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-扫描法的GO版本
-方法比较简单
+// 扫描法的GO版本
+// 方法比较简单
 
-```go
+// ```go
 func getSkyline(buildings [][]int) [][]int {
 	type boxing struct {
 		node, pos, height, side int
@@ -50,4 +50,4 @@ func getSkyline(buildings [][]int) [][]int {
 	}
 	return result
 }
-```
+// ```

@@ -1,5 +1,5 @@
-可以找第一个大于等于x的结点，记为firstBig，然后在原地址上改变连接
-```
+// 可以找第一个大于等于x的结点，记为firstBig，然后在原地址上改变连接
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
 		ListNode pre = new ListNode(-1);
@@ -27,6 +27,6 @@ class Solution {
     return head;
   }
 }
-```
+// ```
 
 

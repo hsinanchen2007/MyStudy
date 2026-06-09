@@ -1,4 +1,4 @@
-LinkedHashMap实现
+// LinkedHashMap实现
 
 class LRUCache {
     

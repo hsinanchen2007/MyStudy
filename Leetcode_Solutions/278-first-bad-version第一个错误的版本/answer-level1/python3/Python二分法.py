@@ -1,9 +1,9 @@
-### 解题思路
-类似于二分查找法的思路
+# ### 解题思路
+# 类似于二分查找法的思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -30,4 +30,4 @@ class Solution:
                 
             
             
-```
+# ```

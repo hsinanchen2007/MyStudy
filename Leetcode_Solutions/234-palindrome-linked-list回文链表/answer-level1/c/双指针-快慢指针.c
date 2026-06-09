@@ -1,9 +1,9 @@
-### 解题思路
-使用快慢指针定位到最中间节点，反转后半部分节点，然后开始头尾比较。
+// ### 解题思路
+// 使用快慢指针定位到最中间节点，反转后半部分节点，然后开始头尾比较。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ bool isPalindrome(struct ListNode* head){
       }
       return true;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String removeDuplicates(String S) {
         Stack<Character> st = new Stack<Character>();
@@ -17,4 +17,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

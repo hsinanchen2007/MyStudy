@@ -1,7 +1,7 @@
-## 递归
-递归三套,停止条件,递归加处理
+// ## 递归
+// 递归三套,停止条件,递归加处理
 
-```javascript
+// ```javascript
 var reverseKGroup = function(head, k) {
     //1.停止条件,head的next不足k,取消
     let _tmp = head;
@@ -24,4 +24,4 @@ var reverseKGroup = function(head, k) {
     }
     return  rnode;
 };
-```
+// ```

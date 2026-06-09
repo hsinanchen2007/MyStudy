@@ -1,5 +1,5 @@
-Java
-```
+// Java
+// ```
 class MapSum {
 
     class Node {
@@ -50,9 +50,9 @@ class MapSum {
         return node;
     }
 }
-```
-golang
-```
+// ```
+// golang
+// ```
 // 在插入word时, 把路径上的点的sum累加上当前val
 type Node struct {
 	val int
@@ -116,5 +116,5 @@ func (this *MapSum) Sum(prefix string) int {
 	}
 	return 0
 }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-无敌的题目，不知道如何是好。。。。
+// ### 解题思路
+// 无敌的题目，不知道如何是好。。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string lastSubstring(string s) {
@@ -64,4 +64,4 @@ public:
         return res;
     }
 };
-```
+// ```

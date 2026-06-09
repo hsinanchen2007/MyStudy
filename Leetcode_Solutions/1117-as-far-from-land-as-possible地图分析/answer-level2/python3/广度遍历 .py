@@ -1,5 +1,5 @@
-从陆地开始一层层向外扩散
-```
+# 从陆地开始一层层向外扩散
+# ```
 class Solution:
     def maxDistance(self, grid) -> int:
         n = len(grid)
@@ -18,4 +18,4 @@ class Solution:
                         visited.add((x, y))
                         que.append((x, y))
         return depth
-```
+# ```

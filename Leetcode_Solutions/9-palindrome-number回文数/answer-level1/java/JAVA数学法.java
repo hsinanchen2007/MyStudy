@@ -1,9 +1,9 @@
-### 解题思路
-和第7题整数反转的思路是一样的
-利用数学方式计算出数字的相反数如果和原数相等就返回true
-### 代码
+// ### 解题思路
+// 和第7题整数反转的思路是一样的
+// 利用数学方式计算出数字的相反数如果和原数相等就返回true
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if(x<0){
@@ -22,4 +22,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

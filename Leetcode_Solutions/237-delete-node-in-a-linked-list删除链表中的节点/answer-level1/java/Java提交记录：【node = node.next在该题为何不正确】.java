@@ -1,7 +1,7 @@
-Java提交记录：【node = node.next在该题为何不正确】
-- 删除 (100%,67%)
+// Java提交记录：【node = node.next在该题为何不正确】
+// - 删除 (100%,67%)
 
-```java
+// ```java
 class Solution {
     public void deleteNode(ListNode node) {
         node.val = node.next.val;
@@ -15,7 +15,7 @@ class Solution {
  *  node=node.next
  *  只是把node指向了1这个节点，但是4这个节点的next依旧指向了5，所以5这个要求被删除的节点并没有被覆盖或者删除。
  */
-```
+// ```
 
 
 

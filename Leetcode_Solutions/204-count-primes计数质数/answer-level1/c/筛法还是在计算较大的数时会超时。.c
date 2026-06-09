@@ -1,5 +1,5 @@
-暴力法很容易超时。。。。
-```
+// 暴力法很容易超时。。。。
+// ```
 
 
 int countPrimes(int n){
@@ -21,4 +21,4 @@ int countPrimes(int n){
 }
 
 
-```
+// ```

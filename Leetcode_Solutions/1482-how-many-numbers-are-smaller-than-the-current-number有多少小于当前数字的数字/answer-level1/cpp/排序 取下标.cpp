@@ -1,6 +1,6 @@
-我的解法思路是用空间换时间，首先进行一次排序。根据下标自然就知道了小于元素的个数了。
+// 我的解法思路是用空间换时间，首先进行一次排序。根据下标自然就知道了小于元素的个数了。
 
-```
+// ```
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return ret;
     }
 };
-```
+// ```

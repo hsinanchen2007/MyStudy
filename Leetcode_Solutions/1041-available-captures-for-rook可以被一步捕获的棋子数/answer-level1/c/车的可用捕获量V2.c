@@ -1,9 +1,9 @@
-### 解题思路
-使用方向数组简化四个for的语句写法
+// ### 解题思路
+// 使用方向数组简化四个for的语句写法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize) {
 	int res = 0;  
 	int flag = 0;
@@ -31,4 +31,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize) {
     }
 	return res;
 }
-```
+// ```

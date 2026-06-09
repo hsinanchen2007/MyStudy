@@ -1,4 +1,4 @@
-复用当前内存进行快排即可(436 ms, 35.2 MB)
+// 复用当前内存进行快排即可(436 ms, 35.2 MB)
 
     int Compare(const void *p1, const void *p2)
     {

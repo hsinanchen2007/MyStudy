@@ -1,9 +1,9 @@
-### 解题思路
-针对当前条件的最高效解法，但通用性不好。
+// ### 解题思路
+// 针对当前条件的最高效解法，但通用性不好。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public List<String> fizzBuzz(int n) {
         List<String> result = new ArrayList<>(n);
@@ -19,4 +19,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

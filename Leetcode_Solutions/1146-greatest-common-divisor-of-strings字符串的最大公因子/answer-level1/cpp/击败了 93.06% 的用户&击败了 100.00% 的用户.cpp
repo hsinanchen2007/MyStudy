@@ -1,10 +1,10 @@
-### 解题思路
-先求最大公约数
-然后滑窗比较
+// ### 解题思路
+// 先求最大公约数
+// 然后滑窗比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //18:48
 class Solution {
 public:
@@ -42,4 +42,4 @@ string gcdOfStrings(string str1, string str2) {
 
 
 };
-```
+// ```

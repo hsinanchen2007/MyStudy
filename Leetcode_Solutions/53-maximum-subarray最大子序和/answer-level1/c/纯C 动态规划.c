@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 清清爽爽
+// ### 解题思路
+// 动态规划 清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
     int* dp = (int*)malloc(numsSize * sizeof(int));
     int index = 0;
@@ -26,4 +26,4 @@ int maxSubArray(int* nums, int numsSize){
 
     return max;
 }
-```
+// ```

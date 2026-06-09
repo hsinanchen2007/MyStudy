@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-参考官方迭代法，实现的golang版本
+// 参考官方迭代法，实现的golang版本
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -20,4 +20,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return prev
 }
-```
+// ```

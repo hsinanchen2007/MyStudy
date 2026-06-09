@@ -1,10 +1,10 @@
-### 解题思路
-思路很简单用map把罗马数字和普通数字联系。。。
-然后用for循环遍历。。。。
+// ### 解题思路
+// 思路很简单用map把罗马数字和普通数字联系。。。
+// 然后用for循环遍历。。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int romanToInt(string s) {
@@ -26,4 +26,4 @@ public:
         return sum;
     }
 };
-```
+// ```

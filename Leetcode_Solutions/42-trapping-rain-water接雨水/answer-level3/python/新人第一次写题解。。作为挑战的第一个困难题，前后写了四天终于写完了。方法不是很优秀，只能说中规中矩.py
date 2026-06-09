@@ -1,7 +1,7 @@
-![接雨水Leetcode提交.png](https://pic.leetcode-cn.com/42439a3a9f4a34c37196ce02a1226ee31a95e4bca9d7fb3dbc5d6ea07635517c-%E6%8E%A5%E9%9B%A8%E6%B0%B4Leetcode%E6%8F%90%E4%BA%A4.png)
+# ![接雨水Leetcode提交.png](https://pic.leetcode-cn.com/42439a3a9f4a34c37196ce02a1226ee31a95e4bca9d7fb3dbc5d6ea07635517c-%E6%8E%A5%E9%9B%A8%E6%B0%B4Leetcode%E6%8F%90%E4%BA%A4.png)
 
 
-贴下代码留个纪念
+# 贴下代码留个纪念
 `class Solution(object):
     def QuickSort(self,alist, start, end):
         '''快速排序'''

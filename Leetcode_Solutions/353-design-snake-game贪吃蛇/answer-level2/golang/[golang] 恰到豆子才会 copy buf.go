@@ -1,4 +1,4 @@
-```
+// ```
 type SnakeGame struct {
 	width, height int
 	score, iHead  int
@@ -53,4 +53,4 @@ func (this *SnakeGame) Move(direction string) int {
 	}
 	return this.score
 }
-```
+// ```

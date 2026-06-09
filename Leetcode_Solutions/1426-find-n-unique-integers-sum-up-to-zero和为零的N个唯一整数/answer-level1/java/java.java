@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int[]sumZero(int n){
         //先定义一个返回的数组
@@ -31,4 +31,4 @@ class Solution {
       return ret;
     }
 }
-```
+// ```

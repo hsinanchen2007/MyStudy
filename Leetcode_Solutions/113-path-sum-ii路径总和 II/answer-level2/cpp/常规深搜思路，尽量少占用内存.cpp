@@ -1,11 +1,11 @@
-### 解题思路
-1. 设置两个vector一个存放结果，一个存放当前路径和
-2. 深度优先搜索递归实现，向下遍历时vector才插入当前节点值
-3. 当完成当前节点子树节点的遍历后，从vector中移除当前节点
+// ### 解题思路
+// 1. 设置两个vector一个存放结果，一个存放当前路径和
+// 2. 深度优先搜索递归实现，向下遍历时vector才插入当前节点值
+// 3. 当完成当前节点子树节点的遍历后，从vector中移除当前节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ class Solution {
     return all_path;
   }
 };
-```
+// ```

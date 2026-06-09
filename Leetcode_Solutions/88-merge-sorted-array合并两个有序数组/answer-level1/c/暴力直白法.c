@@ -1,9 +1,9 @@
-### 解题思路
-双指针尝试未果，果断选择暴力直白的方法
+// ### 解题思路
+// 双指针尝试未果，果断选择暴力直白的方法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
@@ -30,4 +30,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
 }
 
 
-```
+// ```

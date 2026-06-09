@@ -1,12 +1,12 @@
-### 解题思路
-1. 遍历words数组，
-2. 求出单行单词个数numOfWords，
-3. 根据题义，单行空格数为maxWidth - wordsLength
-4. 拼接字符串
+// ### 解题思路
+// 1. 遍历words数组，
+// 2. 求出单行单词个数numOfWords，
+// 3. 根据题义，单行空格数为maxWidth - wordsLength
+// 4. 拼接字符串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> list = new ArrayList<>();
@@ -92,4 +92,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

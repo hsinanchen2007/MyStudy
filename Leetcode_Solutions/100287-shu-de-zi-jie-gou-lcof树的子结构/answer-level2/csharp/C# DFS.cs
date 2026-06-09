@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ public class Solution {
         return IsSubTree(a.left,b.left) && IsSubTree(a.right,b.right);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -59,4 +59,4 @@ int maxAncestorDiff(struct TreeNode* root){
 
     return returnValue;
 }
-```
+// ```

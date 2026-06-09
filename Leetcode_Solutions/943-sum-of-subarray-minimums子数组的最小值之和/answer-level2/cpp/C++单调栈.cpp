@@ -1,5 +1,5 @@
-pair<minValue, weight>
-```
+// pair<minValue, weight>
+// ```
 class Solution {
 public:
     int sumSubarrayMins(vector<int>& A) {
@@ -22,4 +22,4 @@ public:
         return sum;
     }
 };
-```
+// ```

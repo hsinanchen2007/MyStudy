@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
         # Use Union find
@@ -23,4 +23,4 @@ class Solution:
         
         return [[email_to_name[value[0]]] + sorted(value) for value in res.values()]
 
-```
+# ```

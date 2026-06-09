@@ -1,4 +1,4 @@
-```
+// ```
 var isHappy = function(n) {
   var mySet=new Set();
   while(1){
@@ -19,5 +19,5 @@ var isHappy = function(n) {
     }
   }
 };
-```
+// ```
 

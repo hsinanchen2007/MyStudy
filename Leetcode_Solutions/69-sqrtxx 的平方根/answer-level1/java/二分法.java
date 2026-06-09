@@ -1,9 +1,9 @@
-### 解题思路
-二分法
+// ### 解题思路
+// 二分法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int mySqrt(int x) {
         if (x == 0 || x == 1) {
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

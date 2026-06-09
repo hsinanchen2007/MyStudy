@@ -1,8 +1,8 @@
-外层递归遍历所有节点，内层递归判断是否为同值子树
+// 外层递归遍历所有节点，内层递归判断是否为同值子树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numDecodings(self, s):
         if s[0] == "0": return 0
@@ -21,4 +21,4 @@ class Solution(object):
                 elif ord("6")<ord(s[i]) and s[i-1] == "*": cur = (cur+pre)%M
             pre = tmp
         return cur % M
-```
+# ```

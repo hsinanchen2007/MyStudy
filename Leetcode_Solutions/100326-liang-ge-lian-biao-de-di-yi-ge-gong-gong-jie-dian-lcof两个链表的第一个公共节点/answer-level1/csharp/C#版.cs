@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public ListNode GetIntersectionNode(ListNode headA, ListNode headB) 
 {
         if (headA == null || headB == null)
@@ -18,4 +18,4 @@ public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
 
         return pA;
 }
-```
+// ```

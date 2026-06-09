@@ -1,5 +1,5 @@
-### 代码
-```cpp []
+// ### 代码
+// ```cpp []
 //方法一：递归
 class Solution {
 public:
@@ -12,8 +12,8 @@ public:
         return hasPathSum(root->left, sum) || hasPathSum(root->right, sum);
     }
 };
-```
-```cpp []
+// ```
+// ```cpp []
 //方法二：迭代
 class Solution {
 public:
@@ -48,4 +48,4 @@ public:
         return false;
     }
 };
-```
+// ```

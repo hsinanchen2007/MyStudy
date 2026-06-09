@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
   public int[] replaceElements(int[] arr) {
         int [] ret = new int[arr.length];
@@ -13,4 +13,4 @@ class Solution {
         return ret ;
     }
 }
-```
+// ```

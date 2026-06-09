@@ -1,4 +1,4 @@
-```
+-- ```
 # 使用子查询
 select 
     c.name as Department ,a.name  as employee ,a.salary as salary
@@ -10,10 +10,10 @@ where
     a.salary = b.salary 
     and a.departmentid = b.departmentid 
     and a.departmentid=c.Id;
-```
+-- ```
     
-# 使用exists
-```
+-- # 使用exists
+-- ```
 select 
     d.name as department,
     c.name as Employee ,
@@ -29,11 +29,11 @@ from
     department d
 where 
     c.departmentid = d.id;
- ```   
+--  ```   
     
-# 使用in
+-- # 使用in
 
-```
+-- ```
 select 
     d.name as department,
     c.name as Employee ,
@@ -49,4 +49,4 @@ from
     department d
 where 
     c.departmentid = d.id;
-```
+-- ```

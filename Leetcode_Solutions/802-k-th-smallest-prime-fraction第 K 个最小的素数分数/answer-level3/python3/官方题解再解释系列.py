@@ -1,4 +1,4 @@
-```
+# ```
 代码块'''
 LeetCode 786 第 K 个最小的素数分数
 A sorted list A contains 1, plus some number of primes.  Then, for every p < q in the list, we consider the fraction p/q.
@@ -133,4 +133,4 @@ if __name__ == "__main__":
     s = Solution()
     p, q = s.kthSmallestPrimeFraction(A, K)
     print(p, q)
-```
+# ```

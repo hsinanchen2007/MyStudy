@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 private:
     set<pair<int, int>> B;
@@ -33,4 +33,4 @@ public:
         B.insert(make_pair(x, y));
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 思路
-其实这个题目相当于找到倒数第 k 个节点，然后拼接即可。
-难点就是 k > len 的时候怎么办，这里我们取余即可。
+// ### 思路
+// 其实这个题目相当于找到倒数第 k 个节点，然后拼接即可。
+// 难点就是 k > len 的时候怎么办，这里我们取余即可。
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

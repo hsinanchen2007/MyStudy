@@ -1,4 +1,4 @@
-```python
+# ```python
 def maxProduct(nums):
     """
         1. dp问题: 定义两个数组max_stack存储当前乘积最大值, min_stack存储当前乘积最小值.
@@ -18,4 +18,4 @@ def maxProduct(nums):
 
 print(maxProduct([2,3,-2,4]))
 print(maxProduct([-2,0,-1]))
-```
+# ```

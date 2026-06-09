@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -21,5 +21,5 @@ public:
       return 0;  
     }
 };
-```
-双百通过；借鉴被人的证明思路![screenshot-leetcode-cn.com-2020.03.20-22_22_28.png](https://pic.leetcode-cn.com/48b480f1fae9732543e4a3aa029991c2006590313961f45d1beb764ca6c600a7-screenshot-leetcode-cn.com-2020.03.20-22_22_28.png)
+// ```
+// 双百通过；借鉴被人的证明思路![screenshot-leetcode-cn.com-2020.03.20-22_22_28.png](https://pic.leetcode-cn.com/48b480f1fae9732543e4a3aa029991c2006590313961f45d1beb764ca6c600a7-screenshot-leetcode-cn.com-2020.03.20-22_22_28.png)

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 先构造dp二维数组,dp[i][j]用于快速判断s[i]到s[j]是不是回文字符串。
  * 从0开始遍历字符串s，假设s[0]到s[i]为回文字符串，则记录位置i，然后递归判断剩下剩余的字符串。
@@ -64,4 +64,4 @@ char*** partition(char* s, int* returnSize, int** returnColumnSizes){
     
     return res;
 }
-```
+// ```

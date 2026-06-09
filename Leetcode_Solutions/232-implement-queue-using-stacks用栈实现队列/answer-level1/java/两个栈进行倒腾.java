@@ -1,10 +1,10 @@
-### 解题思路
-一个目标堆栈，一个源头堆栈。
-堆栈一倒腾就成了队列。
+// ### 解题思路
+// 一个目标堆栈，一个源头堆栈。
+// 堆栈一倒腾就成了队列。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
     private Stack<Integer> srcStack = new Stack<>();
     private Stack<Integer> desStack = new Stack<>();
@@ -75,4 +75,4 @@ class MyQueue {
  * boolean param_4 = obj.empty();
  */
 
-```
+// ```

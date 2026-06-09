@@ -1,5 +1,5 @@
 
-```python []
+// ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -11,10 +11,10 @@ class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if not root: return 0
         return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
-```
----
+// ```
+// ---
 
-```python []
+// ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,9 +33,9 @@ class Solution:
             right_height = self.maxDepth(root.right)
         return max(left_height, right_height) + 1 # 1为根节点
 
-```
+// ```
 
-```python []
+// ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -59,9 +59,9 @@ class Solution:
                 stack.append((current_depth + 1, root.right))
         
         return depth
-```
+// ```
 
-```c++ []
+// ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -79,4 +79,4 @@ public:
 
     }
 };
-```
+// ```

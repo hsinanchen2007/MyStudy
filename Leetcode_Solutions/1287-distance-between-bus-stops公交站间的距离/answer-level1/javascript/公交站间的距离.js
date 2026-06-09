@@ -1,4 +1,4 @@
-```js
+// ```js
 var distanceBetweenBusStops = function(distance, start, destination) {
     if (start > destination) {
         [start, destination] = [destination, start]
@@ -16,4 +16,4 @@ var distanceBetweenBusStops = function(distance, start, destination) {
     
     return Math.min(sum, total-sum)
 };
-```
+// ```

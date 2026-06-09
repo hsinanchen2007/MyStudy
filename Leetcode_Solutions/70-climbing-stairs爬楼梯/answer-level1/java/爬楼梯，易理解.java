@@ -1,4 +1,4 @@
-```
+// ```
 public int climbStairs(int n) {
         if(n == 1 || n == 2) {
             return n;
@@ -13,5 +13,5 @@ public int climbStairs(int n) {
         }
         return temp;
     }
-```
-动态规划，使用一个临时变量，比较好理解
+// ```
+// 动态规划，使用一个临时变量，比较好理解

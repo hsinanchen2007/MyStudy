@@ -1,9 +1,9 @@
-### 解题思路
-答案要么为"",要么是第一个字符串的子串。
+// ### 解题思路
+// 答案要么为"",要么是第一个字符串的子串。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
 	if(!strsSize)return "";
 	int i;
@@ -29,4 +29,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     }
 	return a;
 }
-```
+// ```

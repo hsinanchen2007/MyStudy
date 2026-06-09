@@ -1,5 +1,5 @@
-js 纯暴力
-```
+// js 纯暴力
+// ```
 var computeArea = function(A, B, C, D, E, F, G, H) {
     const sum = (C - A) * (D - B) + (G - E) * (H - F);
     const minX1 = Math.max(A, E);
@@ -10,4 +10,4 @@ var computeArea = function(A, B, C, D, E, F, G, H) {
     if(minY2 <= minY1) return sum;
     return sum - (minX2 - minX1) * (minY2 - minY1);
 };
-```
+// ```

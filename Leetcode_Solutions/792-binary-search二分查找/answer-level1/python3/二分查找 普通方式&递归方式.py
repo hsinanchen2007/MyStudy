@@ -1,5 +1,5 @@
-普通：
-```
+# 普通：
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low=0
@@ -13,9 +13,9 @@ class Solution:
             elif nums[mid]==target:
                 return mid
         return -1
-```
-递归：
-```
+# ```
+# 递归：
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low=0
@@ -31,7 +31,7 @@ class Solution:
             elif lt[mid]==target:
                 return mid
         return bisect(nums,low,high,target)
-```
+# ```
 
 
 

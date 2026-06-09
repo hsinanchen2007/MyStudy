@@ -1,6 +1,6 @@
-// DFS 算法
-// 1. 邻接矩阵代表关系
-// 2. DFS: 一个节点为起点遍历，如果还有unVisited，则再使用一个unVisited节点遍历。直到所有的节点都被遍历到。
+// // DFS 算法
+// // 1. 邻接矩阵代表关系
+// // 2. DFS: 一个节点为起点遍历，如果还有unVisited，则再使用一个unVisited节点遍历。直到所有的节点都被遍历到。
 
 void Dfs(int **M, int i, int MSize, bool *visited)
 {

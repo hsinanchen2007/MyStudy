@@ -1,8 +1,8 @@
-定义奇偶节点指针even和odd，
-起始odd指向为head,even指向head.next
-每一次交换操作后，当前odd和even两个节点的next节点就是下一次要进行操作的两个节点位置
-所以两个指针前进一个单位，就可以迭代操作了，逻辑稍稍有点复杂，但代码思路很清晰
-```
+// 定义奇偶节点指针even和odd，
+// 起始odd指向为head,even指向head.next
+// 每一次交换操作后，当前odd和even两个节点的next节点就是下一次要进行操作的两个节点位置
+// 所以两个指针前进一个单位，就可以迭代操作了，逻辑稍稍有点复杂，但代码思路很清晰
+// ```
 class Solution {
     public ListNode oddEvenList(ListNode node) {
         if(node == null || node.next == null || node.next.next == null) return node;
@@ -24,5 +24,5 @@ class Solution {
 
     }
 }
-```
+// ```
 

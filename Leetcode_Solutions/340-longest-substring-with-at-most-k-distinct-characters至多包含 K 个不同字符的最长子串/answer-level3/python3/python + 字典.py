@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
         dic = collections.defaultdict(int)
@@ -16,4 +16,4 @@ class Solution:
                     break
             ans = max(ans, cnt)
         return ans            
-```
+# ```

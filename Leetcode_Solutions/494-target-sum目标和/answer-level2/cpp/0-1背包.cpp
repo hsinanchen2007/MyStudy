@@ -1,9 +1,9 @@
-### 解题思路
-//留着复盘
+// ### 解题思路
+// //留着复盘
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {
@@ -37,4 +37,4 @@ private:
         return sum;
     }
 };
-```
+// ```

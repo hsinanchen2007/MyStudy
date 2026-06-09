@@ -1,5 +1,5 @@
-解题思路： 让重复出现的结点的前一个和后一个相连，以达到剔除的目的
-```
+// 解题思路： 让重复出现的结点的前一个和后一个相连，以达到剔除的目的
+// ```
 typedef struct ListNode ListNode;
 struct ListNode* removeDuplicateNodes(struct ListNode* head){
     if(head==NULL||head->next==NULL)
@@ -27,4 +27,4 @@ struct ListNode* removeDuplicateNodes(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

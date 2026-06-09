@@ -1,9 +1,9 @@
-### 解题思路
-javascript实现冒泡排序，选择排序，插入排序，希尔排序，归并排序（递归），快速排序（递归），堆排序
+// ### 解题思路
+// javascript实现冒泡排序，选择排序，插入排序，希尔排序，归并排序（递归），快速排序（递归），堆排序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -178,4 +178,4 @@ var adjustHeap = function(arr, i, len){
     }
     arr[i] = temp;
 };
-```
+// ```

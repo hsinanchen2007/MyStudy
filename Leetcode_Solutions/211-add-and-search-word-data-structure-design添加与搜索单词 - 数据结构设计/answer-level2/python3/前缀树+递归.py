@@ -1,4 +1,4 @@
-```
+# ```
 class WordDictionary:
 
     def __init__(self):
@@ -42,4 +42,4 @@ class WordDictionary:
                 return word[0] in tree and help(tree[word[0]], word[1:])
 
         return help(tree, word)
-```
+# ```

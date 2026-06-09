@@ -1,4 +1,4 @@
-从末端点开始，对每个元素进行两次的翻转操作，使之在正确的位置上
+# 从末端点开始，对每个元素进行两次的翻转操作，使之在正确的位置上
 
 class Solution(object):
     def pancakeSort(self, A):

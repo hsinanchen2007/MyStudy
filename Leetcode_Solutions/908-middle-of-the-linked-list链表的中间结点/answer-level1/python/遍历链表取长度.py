@@ -1,9 +1,9 @@
-### 解题思路
-遍历整个链表，计算长度，将链表指针后移长度的一半
+# ### 解题思路
+# 遍历整个链表，计算长度，将链表指针后移长度的一半
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
 
         return tem
 
-```
+# ```

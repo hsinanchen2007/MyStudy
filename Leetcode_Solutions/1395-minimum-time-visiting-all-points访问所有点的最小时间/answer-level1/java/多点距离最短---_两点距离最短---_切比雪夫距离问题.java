@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int sum = 0;
@@ -13,4 +13,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

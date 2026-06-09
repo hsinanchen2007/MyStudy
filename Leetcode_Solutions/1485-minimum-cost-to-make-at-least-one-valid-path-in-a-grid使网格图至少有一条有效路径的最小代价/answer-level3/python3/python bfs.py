@@ -1,10 +1,10 @@
-广度优先搜索，每一步都按照原来格子的方向走完所有的地方。
+# 广度优先搜索，每一步都按照原来格子的方向走完所有的地方。
 
-下一步从上一步的边缘，访问任何相邻但是没有访问过的格子
+# 下一步从上一步的边缘，访问任何相邻但是没有访问过的格子
 
 
 
-```python
+# ```python
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         # 1 ，下一步往右走，也就是你会从 grid[i][j] 走到 grid[i][j + 1]
@@ -50,7 +50,7 @@ class Solution:
             s1 = ss
             d += 1
         return 
-```
+# ```
 
-欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
-我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# 欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
+# 我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

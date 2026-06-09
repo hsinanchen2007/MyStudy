@@ -1,9 +1,9 @@
-### 解题思路
-直接从最后一位开始加,然后进位.
+// ### 解题思路
+// 直接从最后一位开始加,然后进位.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-设置front、back两个索引，遍历一遍给定字符串，对每一段进行字符串翻转。
-```
+// 设置front、back两个索引，遍历一遍给定字符串，对每一段进行字符串翻转。
+// ```
     string reverseWords(string s) {
         if(s.size()==0)
             return s;
@@ -16,4 +16,4 @@
         std::reverse(s.begin()+front, s.end());
         return s;
     }
-```
+// ```

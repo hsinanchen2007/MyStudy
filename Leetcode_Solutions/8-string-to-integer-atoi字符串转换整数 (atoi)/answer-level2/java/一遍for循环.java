@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int myAtoi(String str) {
         char[] cArray = str.toCharArray();
@@ -56,4 +56,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int smallestRangeI(vector<int>& A, int K) {
@@ -7,4 +7,4 @@ public:
         return (a - b < 2 * K) ? 0 : a - b - 2 * K;
     }
 };
-```
+// ```

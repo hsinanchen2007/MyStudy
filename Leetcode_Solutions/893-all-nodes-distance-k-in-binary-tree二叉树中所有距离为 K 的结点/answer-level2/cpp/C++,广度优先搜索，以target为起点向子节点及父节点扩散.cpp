@@ -1,7 +1,7 @@
-参考的一位博主的方法，我觉得很清晰明白！
-利用map存储每个节点及其对应的父节点，在对二叉树进行层序遍历的同时向父节点方向遍历。即以target为中心向四周扩散，直到扩散至第K层，找到所有第K层的节点。
+// 参考的一位博主的方法，我觉得很清晰明白！
+// 利用map存储每个节点及其对应的父节点，在对二叉树进行层序遍历的同时向父节点方向遍历。即以target为中心向四周扩散，直到扩散至第K层，找到所有第K层的节点。
 
-```
+// ```
 class Solution {
 public:
     void setFather(TreeNode* root,TreeNode* father,map<TreeNode*,TreeNode*>& fatherMap){
@@ -48,5 +48,5 @@ public:
         return ans;
     }
 };
-```
+// ```
 

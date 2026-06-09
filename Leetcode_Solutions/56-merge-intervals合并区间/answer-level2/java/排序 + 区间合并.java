@@ -1,17 +1,17 @@
-### 解题思路
-按照 start 对区间集合排序后，合并区间集合
-1. 排序撸了个快排，也可直接实现  Comparator<Integer>
-2. 合并区间集合的过程需要考虑各种 corner case
-```
+// ### 解题思路
+// 按照 start 对区间集合排序后，合并区间集合
+// 1. 排序撸了个快排，也可直接实现  Comparator<Integer>
+// 2. 合并区间集合的过程需要考虑各种 corner case
+// ```
 [1,3][2,4]
 [1,4][2,3]
 [1,3][1,4]
 [1,4][4,5]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         if (intervals == null || intervals.length <= 1) return intervals;
@@ -64,4 +64,4 @@ class Solution {
         quickSort(a, i + 1, end);
     }
 }
-```
+// ```

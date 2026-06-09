@@ -1,9 +1,9 @@
-无限循环
-如果盒子不能打开，下次循环继续
-如果盒子打开，把有钥匙的盒子置为1，把得到的盒子加入循环中，当前盒子 status 置为 2， 下次不再打开
+// 无限循环
+// 如果盒子不能打开，下次循环继续
+// 如果盒子打开，把有钥匙的盒子置为1，把得到的盒子加入循环中，当前盒子 status 置为 2， 下次不再打开
 
-如果本次循环没有盒子被打开，退出循环
-```
+// 如果本次循环没有盒子被打开，退出循环
+// ```
 func maxCandies(status []int, candies []int, keys [][]int, containedBoxes [][]int, initialBoxes []int) int {
 	totalCandies := 0
 	boxes := make(map[int]bool)
@@ -35,4 +35,4 @@ func maxCandies(status []int, candies []int, keys [][]int, containedBoxes [][]in
 	return totalCandies
 }
 
-```
+// ```

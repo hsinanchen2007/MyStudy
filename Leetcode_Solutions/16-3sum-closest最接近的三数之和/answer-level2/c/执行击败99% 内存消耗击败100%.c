@@ -1,9 +1,9 @@
-### 解题思路
-先用qsort排序，再用双指针解题
+// ### 解题思路
+// 先用qsort排序，再用双指针解题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(int *a,int *b){
     return *a-*b;
 }
@@ -43,4 +43,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
     }
     return re;
 }
-```
+// ```

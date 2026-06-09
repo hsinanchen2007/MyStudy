@@ -1,6 +1,6 @@
-采用中心扩展法
+// 采用中心扩展法
 
-```
+// ```
 int countSubstrings(char* s)
 {
     int len = strlen(s), num = 0;
@@ -10,4 +10,4 @@ int countSubstrings(char* s)
     }
     return num;
 }
-```
+// ```

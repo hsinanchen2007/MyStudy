@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/6be06608da572c46d2821f51f2b6e482c5915166570353fd86577601fd598eac-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6be06608da572c46d2821f51f2b6e482c5915166570353fd86577601fd598eac-image.png)
 
 
-```
+# ```
 from typing import List
 
 class Cashier:
@@ -23,4 +23,4 @@ class Cashier:
             sum -= sum * (self.discount/100)
         return sum
 
-```
+# ```

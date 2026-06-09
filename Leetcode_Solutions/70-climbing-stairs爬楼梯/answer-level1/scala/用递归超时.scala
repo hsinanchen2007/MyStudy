@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     // def climbStairs(n: Int): Int = {
     //     if(n == 1 || n == 2) n else climbStairs(n - 1) + climbStairs(n - 2)
@@ -17,4 +17,4 @@ object Solution {
         }
     }
 }
-```
+// ```

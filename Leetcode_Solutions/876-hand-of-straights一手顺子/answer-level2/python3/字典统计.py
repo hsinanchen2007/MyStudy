@@ -1,8 +1,8 @@
-1. 先用Counter统计每张牌的数量
-2. 再对Counter的键排序得到牌的有序集合
-3. 按照从小到大来取牌，每取n张X牌把n串顺子[X,X+1,...X+W-1]取走
-4. 如果其中牌个数不够取返回False，够取返回True
-```
+# 1. 先用Counter统计每张牌的数量
+# 2. 再对Counter的键排序得到牌的有序集合
+# 3. 按照从小到大来取牌，每取n张X牌把n串顺子[X,X+1,...X+W-1]取走
+# 4. 如果其中牌个数不够取返回False，够取返回True
+# ```
 from collections import Counter
 class Solution:
     def isNStraightHand(self, hand: List[int], W: int) -> bool:
@@ -21,4 +21,4 @@ class Solution:
                     else:
                         counter[card+i] -= counter[card]
         return True
-```
+# ```

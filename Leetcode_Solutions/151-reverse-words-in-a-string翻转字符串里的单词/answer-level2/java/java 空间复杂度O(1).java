@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-首先将字符串整体反向，然后将其中每个单词原地旋转，最后删除多余空格。
+// 首先将字符串整体反向，然后将其中每个单词原地旋转，最后删除多余空格。
 
-题目中要求C语言达到空间O(1)的解法原地旋转数组，但java中String为不可变对象，对String的修改将会生成新的String对象，所以将String转化为char[]，在char[]上操作。且本解法中，不使用任何语言相关的api。
+// 题目中要求C语言达到空间O(1)的解法原地旋转数组，但java中String为不可变对象，对String的修改将会生成新的String对象，所以将String转化为char[]，在char[]上操作。且本解法中，不使用任何语言相关的api。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public String reverseWords( String s ){
         char[] chars = new char[s.length()];
@@ -68,5 +68,5 @@ public class Solution {
         return content;
     }
 }
-```
-执行用时 :3 ms, 在所有 Java 提交中击败了70.64%的用户
+// ```
+// 执行用时 :3 ms, 在所有 Java 提交中击败了70.64%的用户

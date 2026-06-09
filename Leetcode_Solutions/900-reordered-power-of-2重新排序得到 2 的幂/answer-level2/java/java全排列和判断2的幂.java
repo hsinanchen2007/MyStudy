@@ -1,9 +1,9 @@
-### 解题思路
-java全排列和判断2的幂
+// ### 解题思路
+// java全排列和判断2的幂
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.LinkedList;
 class Solution {
    
@@ -60,4 +60,4 @@ class Solution {
         return n==1;
     }
 }
-```
+// ```

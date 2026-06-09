@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var x,y,ty []int
 var sum int
 func totalNQueens(n int) int {
@@ -39,4 +39,4 @@ func chack(xx,lie,n int)bool{
     }
     return true
 }
-```
+// ```

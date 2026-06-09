@@ -1,8 +1,8 @@
-### 解题思路
-排序，难点：需要记得ASCII对应的值，如果记不住可以使用 0 <= S[i]-'a' <26或者0 <= S[i]-'A' <26来替换
-### 代码
+// ### 解题思路
+// 排序，难点：需要记得ASCII对应的值，如果记不住可以使用 0 <= S[i]-'a' <26或者0 <= S[i]-'A' <26来替换
+// ### 代码
 
-```c
+// ```c
 char * reverseOnlyLetters(char * S){
     int i = 0;
     int j = strlen(S) -1;
@@ -23,4 +23,4 @@ char * reverseOnlyLetters(char * S){
     }
    return S;
 }
-```
+// ```

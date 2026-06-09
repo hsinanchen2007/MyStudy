@@ -1,7 +1,7 @@
-阶乘后的零，只需看所有因子中5因子的个数
+// 阶乘后的零，只需看所有因子中5因子的个数
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int trailingZeroes(int n) {
@@ -14,4 +14,4 @@ public:
         return ans;
     }
 };
-```
+// ```

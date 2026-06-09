@@ -1,6 +1,6 @@
-溢出问题主要发生在-2^31,把这个情况拎出来考虑，减掉/加上一个除数再调用原函数
-不使用unsigned int ,其他部分参考评论区foxleezh
-```
+// 溢出问题主要发生在-2^31,把这个情况拎出来考虑，减掉/加上一个除数再调用原函数
+// 不使用unsigned int ,其他部分参考评论区foxleezh
+// ```
 #include <iostream>  // includes cin to read from stdin and cout to write to stdout
 #include <vector>
 #include <algorithm>
@@ -36,4 +36,4 @@ public:
         }
     }
 };
-```
+// ```

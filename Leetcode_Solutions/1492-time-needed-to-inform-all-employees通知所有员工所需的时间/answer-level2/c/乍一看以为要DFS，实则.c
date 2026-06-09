@@ -1,9 +1,9 @@
-### 解题思路
-不算快速的方法，但很好理解：informtime为0的员工即使底层员工， 从他们开始一步步找他的上级，直到target==headID。比较这些时间中最长的即可。
+// ### 解题思路
+// 不算快速的方法，但很好理解：informtime为0的员工即使底层员工， 从他们开始一步步找他的上级，直到target==headID。比较这些时间中最长的即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // void MyDfs(int currID, int *manager, int managerSize, int *informTime, int clock,
 //            int *max) {
 //     return;
@@ -28,4 +28,4 @@ int numOfMinutes(int n, int headID, int* manager, int managerSize, int* informTi
     }
     return max;
 }
-```
+// ```

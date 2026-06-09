@@ -1,11 +1,11 @@
-### 解题思路
-1. 暴力排序
-2. 快速排序
-3. 小顶堆优先队列
+// ### 解题思路
+// 1. 暴力排序
+// 2. 快速排序
+// 3. 小顶堆优先队列
 
-### 代码
-**快速排序**
-```c++ []
+// ### 代码
+// **快速排序**
+// ```c++ []
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -40,8 +40,8 @@ public:
         return j;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         int N = nums.length;
@@ -63,13 +63,13 @@ class Solution {
         return pq.poll();
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return heapq.nlargest(k, nums)[-1]
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         q = []
@@ -79,10 +79,10 @@ class Solution:
                 heapq.heappop(q)
 
         return heapq.heappop(q)
-```
+// ```
 
-**暴力排序**
-```c++ []
+// **暴力排序**
+// ```c++ []
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -92,4 +92,4 @@ public:
         return nums[k-1];
     }
 };
-```
+// ```

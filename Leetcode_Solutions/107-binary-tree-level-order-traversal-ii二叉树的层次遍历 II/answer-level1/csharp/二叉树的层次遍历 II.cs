@@ -1,5 +1,5 @@
-**思路1：** 利用队列对二叉树进行逐层遍历，即添加一层节点至队列-->获取一层节点值-->添加下一层节点至队列。
-```
+// **思路1：** 利用队列对二叉树进行逐层遍历，即添加一层节点至队列-->获取一层节点值-->添加下一层节点至队列。
+// ```
 public IList<IList<int>> LevelOrderBottom(TreeNode root)
         {
             IList<IList<int>> result = new List<IList<int>>();
@@ -40,4 +40,4 @@ public IList<IList<int>> LevelOrderBottom(TreeNode root)
 
             return result.Reverse().ToList();
         }
-```
+// ```

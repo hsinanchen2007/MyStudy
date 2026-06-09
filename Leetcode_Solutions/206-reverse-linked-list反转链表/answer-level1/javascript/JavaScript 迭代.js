@@ -1,9 +1,9 @@
-### 解题思路
-这题我用的是迭代的思路做的。创建一个空的指针prev。当head不为空的时候，先存住head.next，然后head.next指向pre，最后pre，head，next三个指针整体往后移动一位。
+// ### 解题思路
+// 这题我用的是迭代的思路做的。创建一个空的指针prev。当head不为空的时候，先存住head.next，然后head.next指向pre，最后pre，head，next三个指针整体往后移动一位。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var reverseList = function(head) {
     }
     return prev;
 };
-```
+// ```

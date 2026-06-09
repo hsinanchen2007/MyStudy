@@ -1,10 +1,10 @@
-### 解题思路
-1 String是对象调用的是方法，substring全小写；
-2 时间复杂度O(n),n为较长的字符串长度；空间复杂度O(1)。
+// ### 解题思路
+// 1 String是对象调用的是方法，substring全小写；
+// 2 时间复杂度O(n),n为较长的字符串长度；空间复杂度O(1)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         int length1 = str1.length();
@@ -32,4 +32,4 @@ class Solution {
         return str2.substring(0, length1);
     }
 }
-```
+// ```

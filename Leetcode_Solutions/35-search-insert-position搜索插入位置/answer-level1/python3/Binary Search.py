@@ -1,9 +1,9 @@
-### 解题思路
-二分查找， 复杂度O（log n）
+# ### 解题思路
+# 二分查找， 复杂度O（log n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if target <= nums[0]: return 0

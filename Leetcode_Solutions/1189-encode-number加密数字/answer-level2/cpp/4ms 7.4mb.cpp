@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-循环呀快活呀
+// 循环呀快活呀
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string encode(int num) {
@@ -24,4 +24,4 @@ public:
         return ret;
     }
 };
-```
+// ```

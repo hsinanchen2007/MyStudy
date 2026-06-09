@@ -1,10 +1,10 @@
-### 解题思路
-ans = max{中间结点的左右子树的高的和}；
-递归中间结点（从根结点开始），递归计算左右子树的高，用ans记录最大左右和。
+// ### 解题思路
+// ans = max{中间结点的左右子树的高的和}；
+// 递归中间结点（从根结点开始），递归计算左右子树的高，用ans记录最大左右和。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,5 +31,5 @@ public:
         return max(L, R) + 1;
     }
 };
-```
-![11.png](https://pic.leetcode-cn.com/20e2cf81423a96837895785bbbb5da95e6aea3e1602e38dc483ab086faff842c-11.png)
+// ```
+// ![11.png](https://pic.leetcode-cn.com/20e2cf81423a96837895785bbbb5da95e6aea3e1602e38dc483ab086faff842c-11.png)

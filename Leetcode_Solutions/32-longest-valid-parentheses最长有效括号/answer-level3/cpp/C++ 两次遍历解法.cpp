@@ -1,7 +1,7 @@
-1，从左往右遍历一次
-2，从右往左遍历一次
-对称者找最大值即可
-```C++ []
+// 1，从左往右遍历一次
+// 2，从右往左遍历一次
+// 对称者找最大值即可
+// ```C++ []
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -35,5 +35,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d52c21e4ede5baaa3a314f7d26d282069423176aded0cd887bd461ed64763b80-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d52c21e4ede5baaa3a314f7d26d282069423176aded0cd887bd461ed64763b80-image.png)

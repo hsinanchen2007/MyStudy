@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5affea9775c0dfb1e6730599c886269c7ae7473af039f1db03f29a8197ffa56e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5affea9775c0dfb1e6730599c886269c7ae7473af039f1db03f29a8197ffa56e-image.png)
 
-通过递归和模式匹配，Rust的链表处理也可以很简洁清晰。注意到递归调用时需要使用 `Self::` 来引用当前结构体的函数。
+// 通过递归和模式匹配，Rust的链表处理也可以很简洁清晰。注意到递归调用时需要使用 `Self::` 来引用当前结构体的函数。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
@@ -40,4 +40,4 @@ impl Solution {
     }
     }
 }
-```
+// ```

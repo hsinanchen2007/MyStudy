@@ -1,5 +1,5 @@
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -19,5 +19,5 @@ class Solution:
             if root==None:return 0
             return f1(root.left,sum)+f2(root.left,sum)+f1(root.right,sum)+f2(root.right,sum)
         return f1(root,sum)+f2(root,sum)
-```
+# ```
 

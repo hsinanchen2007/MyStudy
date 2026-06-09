@@ -1,9 +1,9 @@
-### 解题思路
-查找target，不妨转化为二分查找target-0.5和target+0.5，因为这两个数肯定不存在，所以跳出while循环时，left==right，此时比较nums[left]是否等于target，若相等，即为边界。
-![屏幕快照 2020-03-23 下午10.22.26.png](https://pic.leetcode-cn.com/08625bd3252aacf94b9cbdd10a37a514e7300e70a6e8d0d435701c9cd4038075-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-23%20%E4%B8%8B%E5%8D%8810.22.26.png)
-### 代码
+// ### 解题思路
+// 查找target，不妨转化为二分查找target-0.5和target+0.5，因为这两个数肯定不存在，所以跳出while循环时，left==right，此时比较nums[left]是否等于target，若相等，即为边界。
+// ![屏幕快照 2020-03-23 下午10.22.26.png](https://pic.leetcode-cn.com/08625bd3252aacf94b9cbdd10a37a514e7300e70a6e8d0d435701c9cd4038075-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-23%20%E4%B8%8B%E5%8D%8810.22.26.png)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

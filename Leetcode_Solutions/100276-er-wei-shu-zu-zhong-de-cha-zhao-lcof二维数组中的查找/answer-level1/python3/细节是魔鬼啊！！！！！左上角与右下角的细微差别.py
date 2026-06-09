@@ -1,9 +1,9 @@
-### 解题思路
-简单外衣下比较容易忽略的东西
+# ### 解题思路
+# 简单外衣下比较容易忽略的东西
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     # 左下角
     def findNumberIn2DArray(self, matrix, target):
@@ -37,4 +37,4 @@ class Solution(object):
             elif matrix[i][j] > target: j -= 1
             else: i += 1
         return False
-```
+# ```

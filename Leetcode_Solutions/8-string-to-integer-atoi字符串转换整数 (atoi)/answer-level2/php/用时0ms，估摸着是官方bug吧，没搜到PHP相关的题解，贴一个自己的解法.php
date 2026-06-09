@@ -1,5 +1,5 @@
 
-```
+// ```
     function myAtoi($str) {
         //首先去除str中的左侧空格;
         $str = ltrim($str,' ');
@@ -39,5 +39,5 @@
         }
         return $resStr;
     }
-```
+// ```
 

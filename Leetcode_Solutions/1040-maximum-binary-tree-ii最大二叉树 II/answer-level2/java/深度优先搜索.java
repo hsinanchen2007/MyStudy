@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public TreeNode insertIntoMaxTree(TreeNode root, int val) {
         if (root == null) {
@@ -14,4 +14,4 @@ class Solution {
         } 
     }
 }
-```
+// ```

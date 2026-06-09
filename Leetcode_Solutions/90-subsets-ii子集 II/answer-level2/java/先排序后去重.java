@@ -1,9 +1,9 @@
-### 解题思路
-使用78题的代码，对78题的结果先排序，后去重
+// ### 解题思路
+// 使用78题的代码，对78题的结果先排序，后去重
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import static java.util.Collections.sort;
 
 class Solution {
@@ -54,4 +54,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

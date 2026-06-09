@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void count_next(char *needle,int *next){
     next[0]=-1;
     if(strlen(needle)==1)
@@ -40,4 +40,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

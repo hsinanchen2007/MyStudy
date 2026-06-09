@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {   
     public int longestPalindrome(String s) {
         Set<Character> set = new HashSet<>();
@@ -18,4 +18,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

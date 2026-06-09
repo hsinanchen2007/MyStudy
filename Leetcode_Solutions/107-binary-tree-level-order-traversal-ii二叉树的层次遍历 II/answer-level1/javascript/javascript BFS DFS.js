@@ -1,9 +1,9 @@
-### 解法一
-BFS
+// ### 解法一
+// BFS
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,13 +33,13 @@ var levelOrderBottom = function(root) {
     }
     return res
 };
-```
+// ```
 
-### 解法二
-DFS
+// ### 解法二
+// DFS
 
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 var levelOrderBottom = function(root) {
     let res = []
     let queue = []
@@ -60,4 +60,4 @@ var levelOrderBottom = function(root) {
     }
     return res
 };
-```
+// ```

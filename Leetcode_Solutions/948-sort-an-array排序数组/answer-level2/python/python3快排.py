@@ -1,9 +1,9 @@
-### 解题思路
-快排
+# ### 解题思路
+# 快排
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArray(self, nums):
         return self.quickSort(nums)
@@ -30,4 +30,4 @@ class Solution:
 
 
 
-```
+# ```

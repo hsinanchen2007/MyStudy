@@ -1,9 +1,9 @@
-### 解题思路
-Java-滑动窗口法
+// ### 解题思路
+// Java-滑动窗口法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         char[] haystacks = haystack.toCharArray();
@@ -27,4 +27,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

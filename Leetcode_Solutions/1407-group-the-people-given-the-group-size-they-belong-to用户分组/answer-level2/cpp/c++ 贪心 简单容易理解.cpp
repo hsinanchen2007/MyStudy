@@ -1,6 +1,6 @@
-用户所在分组人数是固定的，使用map维护当前组的人对应放到哪个位置，如果组在map中不存在或者组员满了，就新加一个。
+// 用户所在分组人数是固定的，使用map维护当前组的人对应放到哪个位置，如果组在map中不存在或者组员满了，就新加一个。
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

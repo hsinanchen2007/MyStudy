@@ -1,19 +1,19 @@
-### 解题思路
-一开始没有排序，一直过不了；
-看了题解以后借用了大佬的排序思想...
-```
+// ### 解题思路
+// 一开始没有排序，一直过不了；
+// 看了题解以后借用了大佬的排序思想...
+// ```
         Arrays.sort(intervals,new Comparator<int[]>(){
             public int compare(int[] a, int[] b){
                 return a[0]-b[0];
             }
         });
-```
+// ```
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 import java.util.Arrays;
 class Solution {
@@ -67,4 +67,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

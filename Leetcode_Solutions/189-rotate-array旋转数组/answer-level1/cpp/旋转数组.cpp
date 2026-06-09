@@ -1,5 +1,5 @@
-解法1：一位一位的移动，但是超出了时间限制
-```
+// 解法1：一位一位的移动，但是超出了时间限制
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -15,9 +15,9 @@ public:
         }
     }
 };
-```
-解法2：用一个数组保留后k位数组，将前面的数组向后移动k位，再写入前面的数组
-```
+// ```
+// 解法2：用一个数组保留后k位数组，将前面的数组向后移动k位，再写入前面的数组
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -44,5 +44,5 @@ public:
         
     }
 };
-```
-ps：注意tempIndex的定义，一开始没有定义报错数组越界
+// ```
+// ps：注意tempIndex的定义，一开始没有定义报错数组越界

@@ -1,15 +1,15 @@
-# 解题思路
-首先，我们需要记录2个状态，一个是player的位置，另一个是box的位置。
-用DFS来判断player是否能推动box，用BFS来寻找box到目的地的最短路径。
-具体做法:
-1.先找到初始的box，player，end的位置。
-2.创建一个队列Q, 将box，player的位置信息入队。
-3.队列中的元素出队，并更新当前grid中box和player的位置信息。
-4.用BFS搜索当前box的所有下一步合法位置，并用DFS来判断player能否到达能够推动box到下一步的位置。
-5.将所有合法的状态入队。
-6.重复步骤3-5，直到队列空或者box被推到了终点。
-# 代码
-```python3
+# # 解题思路
+# 首先，我们需要记录2个状态，一个是player的位置，另一个是box的位置。
+# 用DFS来判断player是否能推动box，用BFS来寻找box到目的地的最短路径。
+# 具体做法:
+# 1.先找到初始的box，player，end的位置。
+# 2.创建一个队列Q, 将box，player的位置信息入队。
+# 3.队列中的元素出队，并更新当前grid中box和player的位置信息。
+# 4.用BFS搜索当前box的所有下一步合法位置，并用DFS来判断player能否到达能够推动box到下一步的位置。
+# 5.将所有合法的状态入队。
+# 6.重复步骤3-5，直到队列空或者box被推到了终点。
+# # 代码
+# ```python3
 from collections import deque
 class Solution:
     def minPushBox(self, grid: list) -> int:
@@ -70,4 +70,4 @@ class Solution:
             grid[box[0]][box[1]] = '.'
             grid[player[0]][player[1]] = '.'
         return push_time if box == end else -1
-```
+# ```

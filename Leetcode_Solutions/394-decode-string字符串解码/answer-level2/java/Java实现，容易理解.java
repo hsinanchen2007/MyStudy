@@ -1,8 +1,8 @@
-### 解题思路
-先找到最后的“[”，再找到相应的“]”，接着用正则表达式提取出重复的次数k，进行字符串拼接
-### 代码
+// ### 解题思路
+// 先找到最后的“[”，再找到相应的“]”，接着用正则表达式提取出重复的次数k，进行字符串拼接
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String decodeString(String s) {
         int startIndex, endIndex;
@@ -30,4 +30,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

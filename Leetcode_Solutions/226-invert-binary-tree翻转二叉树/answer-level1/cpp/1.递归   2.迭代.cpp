@@ -1,8 +1,8 @@
 
-**方法一：**
+// **方法一：**
 
 
-```
+// ```
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -17,10 +17,10 @@ public:
     }
 };
 
-```
+// ```
 
-**方法二：**
-```
+// **方法二：**
+// ```
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {
@@ -46,7 +46,7 @@ public:
         
     }
 };
-```
+// ```
 
 
 

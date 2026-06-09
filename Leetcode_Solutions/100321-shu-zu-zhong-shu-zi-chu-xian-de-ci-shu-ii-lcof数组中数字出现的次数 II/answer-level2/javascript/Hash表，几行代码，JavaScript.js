@@ -1,9 +1,9 @@
-### 解题思路
-和上一题基本一样，只是多了个if判断而已
+// ### 解题思路
+// 和上一题基本一样，只是多了个if判断而已
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -24,4 +24,4 @@ var singleNumber = function(nums) {
         return i;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /* 我有点疑惑，对于numsSize我已经试了出来，最大是6，也就是说，申请数组最小得是720个，那我的内存消耗在哪里了？
 为什么内存上我只是超过了百分之五十多？，有没有哪位了解的告诉一下 */
 void swap(int* nums, int a,int b) {
@@ -28,4 +28,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 	backtrack(nums,numsSize,ret,0,returnSize,returnColumnSizes);
 	return ret;
 }
-```
+// ```

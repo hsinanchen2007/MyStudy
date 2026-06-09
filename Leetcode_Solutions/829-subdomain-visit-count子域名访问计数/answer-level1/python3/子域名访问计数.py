@@ -1,9 +1,9 @@
-### 解题思路
-字典统计次数
+# ### 解题思路
+# 字典统计次数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         # 构造一个字典,键为字符串,值为次数
@@ -37,4 +37,4 @@ class Solution:
             result.append(string)
         return result
                 
-```
+# ```

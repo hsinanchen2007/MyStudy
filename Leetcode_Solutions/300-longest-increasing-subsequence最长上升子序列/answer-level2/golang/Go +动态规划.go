@@ -1,13 +1,13 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-dp[i]表示以nums[i]结尾的最长子序列
-dp[i]=max(dp[j],dp[j-1]),j<i&& nums[i]>nums[j]
-即
-// 取前面长度最长并且尾部数字小于nums[i]的
-### 代码
+// dp[i]表示以nums[i]结尾的最长子序列
+// dp[i]=max(dp[j],dp[j-1]),j<i&& nums[i]>nums[j]
+// 即
+// // 取前面长度最长并且尾部数字小于nums[i]的
+// ### 代码
 
-```golang
+// ```golang
 
 func lengthOfLIS(nums []int) int {
 	if len(nums) <= 1 {
@@ -35,4 +35,4 @@ func max(a, b int) int {
 	return b
 }
 
-```
+// ```

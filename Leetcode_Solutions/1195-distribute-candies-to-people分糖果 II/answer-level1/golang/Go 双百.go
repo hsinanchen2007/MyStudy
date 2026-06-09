@@ -1,4 +1,4 @@
-```
+// ```
 func distributeCandies(candies int, num_people int) []int {
     ret := make([]int, num_people)
     start, n := 0, 1
@@ -15,4 +15,4 @@ func distributeCandies(candies int, num_people int) []int {
     }
     return ret
 }
-```
+// ```

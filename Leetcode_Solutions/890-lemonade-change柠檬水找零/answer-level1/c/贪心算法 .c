@@ -1,6 +1,6 @@
-第一个元素数值必须事5,  剩下的元素 如果是10 判断5美元的个数是否大于0   如果是10 判断是否有10 和 5  或者 5 5 5 
+// 第一个元素数值必须事5,  剩下的元素 如果是10 判断5美元的个数是否大于0   如果是10 判断是否有10 和 5  或者 5 5 5 
 
-```
+// ```
 bool lemonadeChange(int* bills, int billsSize){
     if (bills[0] != 5) {
         return false;
@@ -33,4 +33,4 @@ bool lemonadeChange(int* bills, int billsSize){
     }
     return true;
 }
-```
+// ```

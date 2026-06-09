@@ -1,8 +1,8 @@
-### 解题思路
-参考其他大牛的代码和思路，尝试了两种写法的快速排序，两种写法的桶排序，以及基数排序
-### 代码
+// ### 解题思路
+// 参考其他大牛的代码和思路，尝试了两种写法的快速排序，两种写法的桶排序，以及基数排序
+// ### 代码
 
-```golang
+// ```golang
 func sortArray(nums []int) []int {
 	//fastSort(nums,0,len(nums)-1)
 	//return nums
@@ -270,4 +270,4 @@ func partition(nums []int,s,e int) int{
 	nums[i],nums[e] = nums[e],nums[i]
 	return i
 }
-```
+// ```

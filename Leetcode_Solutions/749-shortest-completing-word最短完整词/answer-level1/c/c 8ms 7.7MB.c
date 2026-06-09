@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -87,4 +87,4 @@ char * shortestCompletingWord( char * licensePlate , char ** words , int wordsSi
     return  *( words + min_index );
 
 }
-```
+// ```

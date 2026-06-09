@@ -1,9 +1,9 @@
-### 解题思路
-一看就懂系列之求树高
+// ### 解题思路
+// 一看就懂系列之求树高
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -21,4 +21,4 @@ class Solution {
         return node == null ? 0 : Math.max(getHeight(node.left), getHeight(node.right)) + 1;
     }
 }
-```
+// ```

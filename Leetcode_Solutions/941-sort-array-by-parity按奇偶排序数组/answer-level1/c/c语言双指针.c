@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，遇到偶数放到前面，遇到奇数放到后面。
+// ### 解题思路
+// 遍历数组，遇到偶数放到前面，遇到奇数放到后面。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* sortArrayByParity(int* A, int ASize, int* returnSize){
     *returnSize=ASize;
     return num;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 		return head
 	}
 }
-```
+// ```

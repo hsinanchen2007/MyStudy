@@ -1,9 +1,9 @@
-### 解题思路
-方法一、快慢指针
+// ### 解题思路
+// 方法一、快慢指针
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -23,9 +23,9 @@ var middleNode = function(head) {
     }
     return slow;
 };
-```
-方法二、单指针
-```
+// ```
+// 方法二、单指针
+// ```
 var middleNode = function(head) {
     var n=0;
     var p=head;
@@ -41,5 +41,5 @@ var middleNode = function(head) {
     }
     return p;
 };
-```
+// ```
 

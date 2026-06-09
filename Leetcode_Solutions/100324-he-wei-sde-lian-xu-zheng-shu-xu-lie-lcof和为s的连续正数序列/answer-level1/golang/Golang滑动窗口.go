@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
     res:=[][]int{}
     lo,hi:=1,2
@@ -21,4 +21,4 @@ func findContinuousSequence(target int) [][]int {
     }
     return res
 }
-```
+// ```

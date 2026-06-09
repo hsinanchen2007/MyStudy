@@ -1,9 +1,9 @@
-## 思路一：基于有序set
-利用set有序特性。然后从头开始遍历，寻找最大连续子序列。
-**注意：set插入时间复杂度：O(logn)**
+// ## 思路一：基于有序set
+// 利用set有序特性。然后从头开始遍历，寻找最大连续子序列。
+// **注意：set插入时间复杂度：O(logn)**
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {                
@@ -25,13 +25,13 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：基于无序set
-**注意：unordered_set插入时间复杂度：O(1)**
+// ## 思路二：基于无序set
+// **注意：unordered_set插入时间复杂度：O(1)**
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {        
@@ -48,6 +48,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

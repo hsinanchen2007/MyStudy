@@ -1,4 +1,4 @@
-暴力转数组 128ms，28%
+# 暴力转数组 128ms，28%
 
     class Solution:
         def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:

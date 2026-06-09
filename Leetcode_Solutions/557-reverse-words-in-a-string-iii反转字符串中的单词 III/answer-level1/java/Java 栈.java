@@ -1,8 +1,8 @@
-解题思路，先split获得单词数组
-然后通过栈<Stack>先进后出的特性翻转单词
-拼接字符串
+// 解题思路，先split获得单词数组
+// 然后通过栈<Stack>先进后出的特性翻转单词
+// 拼接字符串
 
-```
+// ```
 public class Main {
 
     public static void main(String[] args) {
@@ -31,4 +31,4 @@ class Solution {
         return builder.deleteCharAt(builder.length() - 1).toString();
     }
 }
-```
+// ```

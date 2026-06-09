@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/9c0f2956d700f3567378036d874a4c9927b7cea8c1681d3af616cacb56e02c7f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9c0f2956d700f3567378036d874a4c9927b7cea8c1681d3af616cacb56e02c7f-image.png)
 
 
-```
+# ```
 class FileSystem:
 
     def __init__(self):
@@ -25,4 +25,4 @@ class FileSystem:
         if path not in self.m:
             return -1
         return self.m[path]
-```
+# ```

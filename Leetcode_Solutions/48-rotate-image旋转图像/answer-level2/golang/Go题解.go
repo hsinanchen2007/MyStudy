@@ -1,9 +1,9 @@
-思路：先水平翻转，再对角线翻转。
-```
+// 思路：先水平翻转，再对角线翻转。
+// ```
 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
 内存消耗 :2.7 MB, 在所有 Go 提交中击败了63.93%的用户
-```
-```Go []
+// ```
+// ```Go []
 func rotate(matrix [][]int) {
 	for i := 0; i < len(matrix)/2; i++ {
 		for j := range matrix[i] {
@@ -16,5 +16,5 @@ func rotate(matrix [][]int) {
 		}
 	}
 }
-```
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// ```
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

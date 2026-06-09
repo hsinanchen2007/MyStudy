@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findMin(int[] nums) {
         int index = 0;
@@ -10,4 +10,4 @@ class Solution {
         return nums[index];
     }
 }
-```
+// ```

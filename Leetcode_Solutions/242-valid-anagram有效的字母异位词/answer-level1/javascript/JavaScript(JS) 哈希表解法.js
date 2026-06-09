@@ -1,9 +1,9 @@
-### 解题思路
-遍历 s 建立哈希表，遍历 t 核验即可
+// ### 解题思路
+// 遍历 s 建立哈希表，遍历 t 核验即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -31,4 +31,4 @@ var isAnagram = function (s, t) {
     }
     return true
 };
-```
+// ```

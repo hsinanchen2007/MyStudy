@@ -1,11 +1,11 @@
-### 解题思路
-冒泡, 快排, 堆排序, partition
-自己写的冒泡O(nlogk)通不过, 然后内置函数快排(O(nlogn)就过了, 打败90%, 内置函数牛批
-然后自己又写了个堆排序过了, 打败73%. 这里要维护一个小顶堆, 即堆顶元素是前K大中最小的
+# ### 解题思路
+# 冒泡, 快排, 堆排序, partition
+# 自己写的冒泡O(nlogk)通不过, 然后内置函数快排(O(nlogn)就过了, 打败90%, 内置函数牛批
+# 然后自己又写了个堆排序过了, 打败73%. 这里要维护一个小顶堆, 即堆顶元素是前K大中最小的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         def add(n):
@@ -43,14 +43,14 @@ class Solution:
         for n in nums:
             add(n)
         return heap[1]
-```
+# ```
 
-又练习了一下partition的写法, beat 83
-每次经过一次partition后, 比pivot大的都在右边, 如果right-pivot_index等于k, 则pivot就是要找的值, 
-否则若右边个数大于k, 则在[pivot_index+1, right)的范围内重复partition去找第k大的数;
-若右边个数right-pivot_index小于k, 则在[left, pivot]的范围内重复partition找第k-(right-pivot_index)大的数
+# 又练习了一下partition的写法, beat 83
+# 每次经过一次partition后, 比pivot大的都在右边, 如果right-pivot_index等于k, 则pivot就是要找的值, 
+# 否则若右边个数大于k, 则在[pivot_index+1, right)的范围内重复partition去找第k大的数;
+# 若右边个数right-pivot_index小于k, 则在[left, pivot]的范围内重复partition找第k-(right-pivot_index)大的数
 
-```
+# ```
 
 class Solution:
     def findKthLargest(self, nums, k: int) -> int:
@@ -79,4 +79,4 @@ class Solution:
                 return select(left, pivot_index, k-(right-pivot_index)) # 这里pivot_index就不用+1了
         l = len(nums)        
         return select(0, l, k)
-```
+# ```

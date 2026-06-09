@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from functools import reduce
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
@@ -27,4 +27,4 @@ class Solution:
                     dp[j] = reduce(min, (dp[j-1], dp[j], temp)) + 1
                 temp = tempNext
         return dp[-1]
-```
+# ```

@@ -1,5 +1,5 @@
-#### 迭代
-```cpp
+// #### 迭代
+// ```cpp
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -13,13 +13,13 @@ public:
         return prev;
     }
 };
-```
+// ```
 
-#### 递归代码1
+// #### 递归代码1
 
-比较好理解
+// 比较好理解
 
-```java
+// ```java
 class Solution {
 public:
     // 返回完成翻转的头结点，和尾结点
@@ -40,13 +40,13 @@ public:
         return dfs(head).first;
     }
 };
-```
+// ```
 
-#### 递归代码2
+// #### 递归代码2
 
-优化递归代码1
+// 优化递归代码1
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -58,4 +58,4 @@ public:
         return root;
     }
 };
-```
+// ```

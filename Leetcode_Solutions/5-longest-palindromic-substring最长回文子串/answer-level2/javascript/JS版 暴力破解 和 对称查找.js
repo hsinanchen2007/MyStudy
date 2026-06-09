@@ -1,6 +1,6 @@
-# 暴力破解
-获取所有可能的子串，判断是否是回文
-```js
+// # 暴力破解
+// 获取所有可能的子串，判断是否是回文
+// ```js
  var longestPalindrome = function(s) {
     var max = '';
     var len = s.length
@@ -19,12 +19,12 @@
     }
     return max;
 };
-```
-# 对称查找
-一核对称:121、12321、1
-双核对称:11、1221、123321
-先枚举每一个字符，再针对该字符进行左右（双核对称时为当前字符和下一个字符）查找相等匹配
-```js
+// ```
+// # 对称查找
+// 一核对称:121、12321、1
+// 双核对称:11、1221、123321
+// 先枚举每一个字符，再针对该字符进行左右（双核对称时为当前字符和下一个字符）查找相等匹配
+// ```js
 var longestPalindrome = function(s) {
     var max = '';
     var len = s.length
@@ -47,4 +47,4 @@ function core(str, str_len, str_i){
         else return str.slice(pre+1, next)
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-见代码，注意要把原来的A序列另存起来，防止干扰
+// ### 解题思路
+// 见代码，注意要把原来的A序列另存起来，防止干扰
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -28,4 +28,4 @@ public:
         }
     }
 };
-```
+// ```

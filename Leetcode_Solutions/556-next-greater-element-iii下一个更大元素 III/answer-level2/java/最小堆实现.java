@@ -1,4 +1,4 @@
-```
+// ```
     public int nextGreaterElement(int n) {
         String str = String.valueOf(n);
         char[] arr = str.toCharArray();
@@ -33,4 +33,4 @@
 
         return -1;
     }
-```
+// ```

@@ -1,7 +1,7 @@
 
-## 实现与整理
+// ## 实现与整理
 
-```go
+// ```go
 package lt36
 
 // 有效的数独
@@ -246,10 +246,10 @@ func Sol_1_4(board [][]byte) bool {
 // 这种策略和Sol_1_4的做法真不好比较谁更快。但很明显如果采取这种做法，我没办法复用m1,m2,m3，必须使用3*9=27个数来记录字符出现状态
 
 // 综上，Sol_1_4接近完美答案
-```
+// ```
 
-## 参考题解
+// ## 参考题解
 
-- <https://leetcode-cn.com/problems/valid-sudoku/solution/you-xiao-de-shu-du-by-leetcode/>
-- <https://leetcode-cn.com/problems/valid-sudoku/solution/java-wei-yun-suan-xiang-jie-miao-dong-zuo-biao-bia/>
-- <https://leetcode-cn.com/problems/valid-sudoku/solution/java-wei-yun-suan-xiang-jie-miao-dong-zuo-biao-bia/>
+// - <https://leetcode-cn.com/problems/valid-sudoku/solution/you-xiao-de-shu-du-by-leetcode/>
+// - <https://leetcode-cn.com/problems/valid-sudoku/solution/java-wei-yun-suan-xiang-jie-miao-dong-zuo-biao-bia/>
+// - <https://leetcode-cn.com/problems/valid-sudoku/solution/java-wei-yun-suan-xiang-jie-miao-dong-zuo-biao-bia/>

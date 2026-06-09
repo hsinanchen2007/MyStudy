@@ -1,14 +1,14 @@
-### 解题思路
-最大值可能出现的地方有三处：
-1、数列左边
-2、数列右边
-3、横跨数列左右两边
+// ### 解题思路
+// 最大值可能出现的地方有三处：
+// 1、数列左边
+// 2、数列右边
+// 3、横跨数列左右两边
 
-利用递归将数列无限分割成左右两边，直至只有一个数字；合并求最大子序列和。
+// 利用递归将数列无限分割成左右两边，直至只有一个数字；合并求最大子序列和。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int subArraySum(vector<int>& nums, int left, int right){
@@ -44,4 +44,4 @@ int maxSubArray(vector<int>& nums) {
     return subArraySum(nums, 0, nums.size() - 1);
 }
 };
-```
+// ```

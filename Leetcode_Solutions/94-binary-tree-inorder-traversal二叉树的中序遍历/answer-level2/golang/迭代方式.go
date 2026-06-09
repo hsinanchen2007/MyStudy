@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -59,4 +59,4 @@ func (this *Stack) Push(treeNode *TreeNode) {
 func (this *Stack) Empty() bool {
 	return this.index == -1
 }
-```
+// ```

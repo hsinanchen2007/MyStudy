@@ -1,5 +1,5 @@
-利用正则表达式的规则与 paseFloat 的特性（当然，这不是最优解）
-```
+// 利用正则表达式的规则与 paseFloat 的特性（当然，这不是最优解）
+// ```
 // 先以任意一个字符拼成字符串
 var strArr = nums.join("@") + "@";
 
@@ -13,4 +13,4 @@ strArr.replace(/(-?\d+@)\1*/g, (whole, part) => {
 });
 
 return nums.length;
-```
+// ```

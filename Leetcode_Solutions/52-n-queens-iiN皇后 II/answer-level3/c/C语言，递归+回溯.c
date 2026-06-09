@@ -1,7 +1,7 @@
-C语言，递归+回溯
+// C语言，递归+回溯
 
 
-```c
+// ```c
 int* pRecord=NULL;
 int sum = 0;
 
@@ -84,4 +84,4 @@ int totalNQueens(int n){
     free(pRecord);
     return sum;
 }
-```
+// ```

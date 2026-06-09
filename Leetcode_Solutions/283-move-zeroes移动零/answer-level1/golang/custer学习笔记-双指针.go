@@ -1,7 +1,7 @@
-# 第一思路
-时间复杂度O(n) 空间复杂度O(n)
+// # 第一思路
+// 时间复杂度O(n) 空间复杂度O(n)
 
-```go
+// ```go
 func moveZeroes(nums []int) {
     arr := make([]int, 0) // 去除0的数组
     cnt := 0              // 记录0的个数
@@ -22,11 +22,11 @@ func moveZeroes(nums []int) {
         nums[i] = arr[i]
     }
 }
-```
+// ```
 
-# 另一种思路
+// # 另一种思路
 
-```go
+// ```go
 func moveZeroes(nums []int) {
   var nonZerosElements []int
 
@@ -47,12 +47,12 @@ func moveZeroes(nums []int) {
     nums[i] = 0
   }
 }
-```
+// ```
 
-# 在数组中原地操作
-时间复杂度O(n),空间复杂度O(1)
+// # 在数组中原地操作
+// 时间复杂度O(n),空间复杂度O(1)
 
-```go
+// ```go
 func moveZeroes(nums []int) {
     tmp:=0
     for i := 0; i < len(nums); i++ {
@@ -66,11 +66,11 @@ func moveZeroes(nums []int) {
         nums[i] = 0
     }
 }
-```
+// ```
 
-# 优化的思路
+// # 优化的思路
 
-```go
+// ```go
 // 时间复杂度O(n),空间复杂度O(1)
 func moveZeroes(nums []int) {
   k := 0 // nums中,[0...k)的元素均为非0元素
@@ -88,10 +88,10 @@ func moveZeroes(nums []int) {
     nums[i] = 0
   }
 }
-```
+// ```
 
 
-```go
+// ```go
 func moveZeroes(nums []int) {
   k := 0 // nums中,[0...k)的元素均为非0元素
   // 遍历到第i个元素后,保证[0...i]中所有非0元素
@@ -108,4 +108,4 @@ func moveZeroes(nums []int) {
     }
   }
 }
-```
+// ```

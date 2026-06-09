@@ -1,9 +1,9 @@
-### 解题思路
-不将整数转为字符串来解决的方法：通过取余、取整逐一取出数字，然后再通过相乘还原，最后判断数字是否相等而得到
+# ### 解题思路
+# 不将整数转为字符串来解决的方法：通过取余、取整逐一取出数字，然后再通过相乘还原，最后判断数字是否相等而得到
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         a = 0
@@ -24,4 +24,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

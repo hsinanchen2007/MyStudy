@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索，递归遍历左右子树
+// ### 解题思路
+// 深度优先搜索，递归遍历左右子树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

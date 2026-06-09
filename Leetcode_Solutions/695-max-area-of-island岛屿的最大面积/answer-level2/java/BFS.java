@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     private int max = 0;
     private int count = 0;
@@ -37,5 +37,5 @@ class Solution {
 
     }
 }
-```
+// ```
 

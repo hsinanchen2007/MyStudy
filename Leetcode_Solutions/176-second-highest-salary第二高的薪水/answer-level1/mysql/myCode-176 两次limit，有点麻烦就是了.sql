@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select case when ct=2 then Salary else null end as SecondHighestSalary
 from
@@ -20,4 +20,4 @@ join
 
 
 
-```
+-- ```

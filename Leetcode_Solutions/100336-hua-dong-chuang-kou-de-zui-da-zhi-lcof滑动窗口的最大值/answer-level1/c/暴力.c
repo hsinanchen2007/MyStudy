@@ -1,9 +1,9 @@
-### 解题思路
-暴力：每一移动一格，取最大值，返回
+// ### 解题思路
+// 暴力：每一移动一格，取最大值，返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -38,4 +38,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
     return returnValue;
 
 }
-```
+// ```

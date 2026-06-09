@@ -1,10 +1,10 @@
-### 解题思路
-    分析题意可用BFS求解
+// ### 解题思路
+//     分析题意可用BFS求解
 
-### 代码
+// ### 代码
 
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -56,4 +56,4 @@ var canMeasureWater = function (x, y, z) {
     }
     return bfs(0, 0);
 };
-```
+// ```

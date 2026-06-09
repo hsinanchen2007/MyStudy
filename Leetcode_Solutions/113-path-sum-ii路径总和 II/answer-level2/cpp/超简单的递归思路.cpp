@@ -1,13 +1,13 @@
-自顶向下遍历，判断当前是否是叶结点并满足总和等于sum，若满足，将vector<int>插入到vector<vector<int>>
-中，若不满足，继续递归，直到节点为空，此时什么都不做，返回
+// 自顶向下遍历，判断当前是否是叶结点并满足总和等于sum，若满足，将vector<int>插入到vector<vector<int>>
+// 中，若不满足，继续递归，直到节点为空，此时什么都不做，返回
 
-注意：只要当前节点不为空，我们便将结点插入到vector<int>中
+// 注意：只要当前节点不为空，我们便将结点插入到vector<int>中
 
-代码是pass-by-value，所以相对比较耗时，用时20ms，消耗内存37.7mb
+// 代码是pass-by-value，所以相对比较耗时，用时20ms，消耗内存37.7mb
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         solve(root->right,total,thisTotal,sum);
     }
 };
-```
+// ```

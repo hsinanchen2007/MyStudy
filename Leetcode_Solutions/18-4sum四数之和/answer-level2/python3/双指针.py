@@ -1,9 +1,9 @@
-### 解题思路
-思路和三数之和类似，首先进行两层循环，再在其中设置头尾指针，并将符合条件的结果加入结果列表。
+# ### 解题思路
+# 思路和三数之和类似，首先进行两层循环，再在其中设置头尾指针，并将符合条件的结果加入结果列表。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -25,4 +25,4 @@ class Solution:
                         n -= 1
         return ans
 
-```
+# ```

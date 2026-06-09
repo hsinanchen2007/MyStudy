@@ -1,9 +1,9 @@
-### 解题思路
-1、先统计两个字符串每种字符出现的次数 2、判断字符种类是否相等  3、每种字符出现次数是否相等
+# ### 解题思路
+# 1、先统计两个字符串每种字符出现的次数 2、判断字符种类是否相等  3、每种字符出现次数是否相等
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         import collections
@@ -17,4 +17,4 @@ class Solution:
                 return False
         return True
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用C语言memset、memcpy和memcmp函数，使程序更简洁，可读性更强。
+// ### 解题思路
+// 利用C语言memset、memcpy和memcmp函数，使程序更简洁，可读性更强。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char s[10000];
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strsSize==0)//处理异常情况 如[]
@@ -38,4 +38,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     
     
 }
-```
+// ```

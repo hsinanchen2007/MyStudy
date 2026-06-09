@@ -1,9 +1,9 @@
-### 解题思路
-理解所谓的对称，最简单的拿张值对折过来
+// ### 解题思路
+// 理解所谓的对称，最简单的拿张值对折过来
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,4 +34,4 @@ var isSymmetric = function(root) {
 
     return isMirror(root,root)
 };
-```
+// ```

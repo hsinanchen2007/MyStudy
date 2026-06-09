@@ -1,9 +1,9 @@
-### 解题思路
-两个数组word_count、chars_count分别计算words中word的每个字母出现次数和chars中每个字母出现的次数。如果word_count中出现比chars_count大的元素，则说明chars中字母无法组成该word。
+// ### 解题思路
+// 两个数组word_count、chars_count分别计算words中word的每个字母出现次数和chars中每个字母出现的次数。如果word_count中出现比chars_count大的元素，则说明chars中字母无法组成该word。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -38,4 +38,4 @@ public:
      return ans.size();
     }
 };
-```
+// ```

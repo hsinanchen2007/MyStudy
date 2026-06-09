@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private TreeNode nRoot = new TreeNode(0);
     private TreeNode node = nRoot;
@@ -15,4 +15,4 @@ class Solution {
         return nRoot.right;
     }
 }
-```
+// ```

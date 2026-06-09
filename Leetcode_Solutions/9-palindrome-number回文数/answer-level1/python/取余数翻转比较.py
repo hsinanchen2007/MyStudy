@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import copy
 
 class Solution(object):
@@ -20,4 +20,4 @@ class Solution(object):
             i //= 10
         return True if result == x else False
 
-```
+# ```

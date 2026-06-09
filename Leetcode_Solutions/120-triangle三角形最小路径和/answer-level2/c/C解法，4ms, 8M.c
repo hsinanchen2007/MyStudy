@@ -1,9 +1,9 @@
-思路：从下往上找，比如给的用例中，第三行和第四行
- 6，5，7
-4，1，8，3
-4和1分别加6为10和7，所以7最小，1和8分别加5为6和13,6最小……
-所以更新第三行为7，6,10。一直往上更新结果，最后第一行的值就是输出的最小结果。
-```
+// 思路：从下往上找，比如给的用例中，第三行和第四行
+//  6，5，7
+// 4，1，8，3
+// 4和1分别加6为10和7，所以7最小，1和8分别加5为6和13,6最小……
+// 所以更新第三行为7，6,10。一直往上更新结果，最后第一行的值就是输出的最小结果。
+// ```
 int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
     int row, col;
     
@@ -17,4 +17,4 @@ int minimumTotal(int** triangle, int triangleSize, int* triangleColSize){
     return triangle[0][0];
 }
 
-```
+// ```

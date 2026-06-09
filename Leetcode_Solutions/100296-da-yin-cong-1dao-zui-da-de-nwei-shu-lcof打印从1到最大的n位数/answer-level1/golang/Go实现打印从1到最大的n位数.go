@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func printNumbers(n int) []int {
     if n<=0{
         return nil
@@ -12,4 +12,4 @@ func printNumbers(n int) []int {
     }
     return res
 }
-```
+// ```

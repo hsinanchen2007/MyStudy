@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct DListNode {
   int key;                         //键
   int value;                       //值
@@ -111,4 +111,4 @@ void lFUCacheFree(LFUCache* obj) {
   }
   free(obj);
 }
-```
+// ```

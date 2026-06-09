@@ -1,9 +1,9 @@
-1、获取Calendar 对象calendar。
-2、设置calendar。注意：月份需减一。
-3、通过Calendar.DAY_OF_WEEK 得到一周的第几天。注意：1->Sunday,2->Monday,...
+// 1、获取Calendar 对象calendar。
+// 2、设置calendar。注意：月份需减一。
+// 3、通过Calendar.DAY_OF_WEEK 得到一周的第几天。注意：1->Sunday,2->Monday,...
 
-代码如下：
-```
+// 代码如下：
+// ```
 import java.util.Calendar;
 public String dayOfTheWeek(int day, int month, int year) {
     Calendar calendar = Calendar.getInstance();
@@ -27,4 +27,4 @@ public String dayOfTheWeek(int day, int month, int year) {
         return null;
     }
 }
-```
+// ```

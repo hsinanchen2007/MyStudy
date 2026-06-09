@@ -1,9 +1,9 @@
-### 解题思路
-只需要实现二进制加法和右移模拟代码即可。
+// ### 解题思路
+// 只需要实现二进制加法和右移模拟代码即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numSteps(string s) {
@@ -49,4 +49,4 @@ public:
         return num.size() == 1 && (*it == 0);
     }
 };
-```
+// ```

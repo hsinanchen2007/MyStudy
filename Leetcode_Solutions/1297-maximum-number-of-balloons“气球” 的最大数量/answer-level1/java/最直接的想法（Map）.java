@@ -1,11 +1,11 @@
-### 解题思路
-先把字符串text转换为Character类型数组，然后foreach循环遍历把每一个字母都放入到map集合计算其数量
-然后求出balloons中单个字母数量最少的字母，即为题目所求
-![image.png](https://pic.leetcode-cn.com/23f77b5316a2d6f5bff84b9af13fabdd99e9ee7e90e35d245873a0911b8d50c3-image.png)
+// ### 解题思路
+// 先把字符串text转换为Character类型数组，然后foreach循环遍历把每一个字母都放入到map集合计算其数量
+// 然后求出balloons中单个字母数量最少的字母，即为题目所求
+// ![image.png](https://pic.leetcode-cn.com/23f77b5316a2d6f5bff84b9af13fabdd99e9ee7e90e35d245873a0911b8d50c3-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxNumberOfBalloons(String text) {
          HashMap<Character, Integer> map = new HashMap<>();
@@ -27,4 +27,4 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -23,4 +23,4 @@ public:
         sort(root->right,vec);
     }
 };
-```
+// ```

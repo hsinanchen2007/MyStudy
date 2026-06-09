@@ -1,5 +1,5 @@
-下面代码里虽然用了两个容器res和tmp存储全排列结果并且还在每加入一个数后将tmp赋给了res，调用了一次拷贝构造函数，产生了巨大的时间代价，但仍然执行用时超过了50%的用户。改进一下直接res和tmp交替使用会更好，改进后的代码附在后面。
-```C++ []
+// 下面代码里虽然用了两个容器res和tmp存储全排列结果并且还在每加入一个数后将tmp赋给了res，调用了一次拷贝构造函数，产生了巨大的时间代价，但仍然执行用时超过了50%的用户。改进一下直接res和tmp交替使用会更好，改进后的代码附在后面。
+// ```C++ []
 class Solution {
 public:
 	vector<vector<int>> permute(vector<int>& nums) {
@@ -20,10 +20,10 @@ public:
 		return res;
 	}
 };
-```
+// ```
 
-下面是交替使用res和tmp的代码，执行用时立马超过了%93.51的用户。
-```C++ []
+// 下面是交替使用res和tmp的代码，执行用时立马超过了%93.51的用户。
+// ```C++ []
 class Solution {
 public:
 	vector<vector<int>> permute(vector<int>& nums) {
@@ -59,4 +59,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

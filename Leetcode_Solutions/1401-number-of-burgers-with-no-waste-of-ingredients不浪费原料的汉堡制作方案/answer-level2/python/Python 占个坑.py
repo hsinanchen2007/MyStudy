@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numOfBurgers(self, tomatoSlices, cheeseSlices):
         max_jumbo = tomatoSlices // 4
@@ -7,4 +7,4 @@ class Solution(object):
             return []
         diff = (tomatoSlices - 2 * cheeseSlices) // 2
         return [diff, cheeseSlices-diff]
-```
+# ```

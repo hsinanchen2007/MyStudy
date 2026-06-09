@@ -1,5 +1,5 @@
-我感觉是最简单的写法
-```
+// 我感觉是最简单的写法
+// ```
 func minCostToMoveChips(chips []int) int {
     var odd,even int =0,0
 	for _,x:=range  chips  {
@@ -16,4 +16,4 @@ func minCostToMoveChips(chips []int) int {
 		return odd
 	}
 }
-```
+// ```

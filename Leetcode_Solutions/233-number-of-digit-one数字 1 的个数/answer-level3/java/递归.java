@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int countDigitOne(int n) {
         if (n <= 0) return 0;
@@ -21,4 +21,4 @@ class Solution {
         return res + m / 10 * (str.length() - 1);
     }
 }
-```
+// ```

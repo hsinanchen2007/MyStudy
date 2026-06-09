@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def longestPalindrome(s: String): String = {
         //遍历s，令s（i）为中心，向两边扩展，分奇数回文子串和偶数回文子串来做
@@ -49,4 +49,4 @@ object Solution {
         res
     }
 }
-```
+// ```

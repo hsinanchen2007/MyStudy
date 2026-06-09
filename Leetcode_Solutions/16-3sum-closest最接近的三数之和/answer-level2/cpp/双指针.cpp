@@ -1,8 +1,8 @@
-k-sum问题的统一解法
-1. 固定 k-2 个数
-2. 双指针遍历求和
+// k-sum问题的统一解法
+// 1. 固定 k-2 个数
+// 2. 双指针遍历求和
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -25,7 +25,7 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-- 时间复杂度 $O(n^2)$ （双指针也是遍历一遍数组），排序 $O(nlog_2^n)$, 总的时间复杂度 $O(nlog_2^n)+O(n^2)=O(n^2)$
-- 空间复杂度$O(1)$
+// - 时间复杂度 $O(n^2)$ （双指针也是遍历一遍数组），排序 $O(nlog_2^n)$, 总的时间复杂度 $O(nlog_2^n)+O(n^2)=O(n^2)$
+// - 空间复杂度$O(1)$

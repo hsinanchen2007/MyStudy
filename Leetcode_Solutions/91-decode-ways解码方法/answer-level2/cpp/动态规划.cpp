@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numDecodings(string s) {
@@ -41,4 +41,4 @@ public:
     }
 };
 ![解码方法.png](https://pic.leetcode-cn.com/087be89b7cbe83aa905d89f6ae62be1693d7f5d3851e5058a70dd8836e627d42-%E8%A7%A3%E7%A0%81%E6%96%B9%E6%B3%95.png)
-```
+// ```

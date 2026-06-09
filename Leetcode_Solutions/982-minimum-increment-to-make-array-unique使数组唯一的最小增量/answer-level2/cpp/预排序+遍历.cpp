@@ -1,9 +1,9 @@
-### 解题思路
-一种比较直观的解法。比较不容易想到的地方在与更新的方式：max(temp+1-(A[i]-A[i-1]),0)
+// ### 解题思路
+// 一种比较直观的解法。比较不容易想到的地方在与更新的方式：max(temp+1-(A[i]-A[i-1]),0)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

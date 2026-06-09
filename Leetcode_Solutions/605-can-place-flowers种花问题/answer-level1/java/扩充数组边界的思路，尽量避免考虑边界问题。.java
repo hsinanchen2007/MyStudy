@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         //扩充数组边界的思路，省去考虑很多边界的问题。
@@ -20,4 +20,4 @@ class Solution {
         return result>=n ;
     }
 }
-```
+// ```

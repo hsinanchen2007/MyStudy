@@ -1,4 +1,4 @@
-```
+// ```
 /*
  * @lc app=leetcode.cn id=820 lang=c
  *
@@ -118,4 +118,4 @@ int minimumLengthEncoding(char ** words, int wordsSize)
 
 
 
-```
+// ```

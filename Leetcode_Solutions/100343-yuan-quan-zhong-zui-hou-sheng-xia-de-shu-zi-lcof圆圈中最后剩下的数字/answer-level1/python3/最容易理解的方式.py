@@ -1,9 +1,9 @@
-### 解题思路
-见每行代码注释。
+# ### 解题思路
+# 见每行代码注释。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         # 初始化一个0到n-1的数组；初始化要删除的元素序号为0
@@ -20,4 +20,4 @@ class Solution:
         
         # 数组中只剩一个元素，返回即可。
         return ans[0]
-```
+# ```

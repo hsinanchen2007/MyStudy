@@ -1,8 +1,8 @@
-### 解题思路
-表头结点的链表操作
-### 代码
+// ### 解题思路
+// 表头结点的链表操作
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
     return head->next;
 }
-```
+// ```

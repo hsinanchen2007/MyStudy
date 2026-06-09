@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     const long M = 1e9 + 7;
@@ -20,6 +20,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/91d7a73c7e8d3784ba6a67927c992096191ba722a014b9d49bb27832d3d6dd91-image.png)
+// ![image.png](https://pic.leetcode-cn.com/91d7a73c7e8d3784ba6a67927c992096191ba722a014b9d49bb27832d3d6dd91-image.png)

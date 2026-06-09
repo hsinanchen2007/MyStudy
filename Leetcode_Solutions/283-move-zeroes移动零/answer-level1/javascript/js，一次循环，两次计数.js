@@ -1,6 +1,6 @@
-一次循环，就两种操作，零操作和循环操作，这两次数量等于数组长度，就是循环结束
+// 一次循环，就两种操作，零操作和循环操作，这两次数量等于数组长度，就是循环结束
 
-```javascript
+// ```javascript
 var moveZeroes = function (nums) {
   let t = 0, i = 0, len = nums.length;
   while(i + t < len){
@@ -13,4 +13,4 @@ var moveZeroes = function (nums) {
     }
   }
 };
-```
+// ```

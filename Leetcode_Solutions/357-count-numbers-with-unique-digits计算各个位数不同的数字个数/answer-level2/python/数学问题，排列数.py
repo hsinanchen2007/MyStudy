@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countNumbersWithUniqueDigits(self, n: int) -> int:
         if n == 0:
@@ -28,4 +28,4 @@ class Solution:
                 dp[i] = dp[10]
         return dp[n]        
 
-```
+# ```

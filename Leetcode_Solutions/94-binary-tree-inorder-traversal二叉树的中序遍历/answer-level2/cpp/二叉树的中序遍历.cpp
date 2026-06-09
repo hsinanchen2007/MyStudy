@@ -1,6 +1,6 @@
-1 递归实现
+// 1 递归实现
 
-```
+// ```
 class Solution {
 public:
 
@@ -23,13 +23,13 @@ public:
        return result;
     }
 };
-```
+// ```
 
 
-2 用辅助栈递归实现
+// 2 用辅助栈递归实现
 
 
-```
+// ```
 class Solution {
 public:
     void helper(TreeNode* root,vector<int>& result)
@@ -64,4 +64,4 @@ public:
         return result;
     }
 };
-```
+// ```

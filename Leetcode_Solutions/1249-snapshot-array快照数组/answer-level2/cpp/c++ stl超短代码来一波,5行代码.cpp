@@ -1,5 +1,5 @@
-同志们，stl赶紧用熟，你看，用熟的话周竞赛一分钟一道题，我日！！！！！！！！！！！！！！！！！
-```
+// 同志们，stl赶紧用熟，你看，用熟的话周竞赛一分钟一道题，我日！！！！！！！！！！！！！！！！！
+// ```
 
 class SnapshotArray {
 public:
@@ -20,4 +20,4 @@ public:
         return record[index].lower_bound(snap_id)->second;
 	}
 };
-```
+// ```

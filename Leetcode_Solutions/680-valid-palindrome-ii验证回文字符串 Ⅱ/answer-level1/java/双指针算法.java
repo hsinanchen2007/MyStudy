@@ -1,5 +1,5 @@
-双指针算法，从两边往中间走，发现不一样的，要么删除左边，要么删除右边。
-```
+// 双指针算法，从两边往中间走，发现不一样的，要么删除左边，要么删除右边。
+// ```
 class Solution {
     public boolean validPalindrome(String s) {
         if(s == null || s.length() == 0){
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

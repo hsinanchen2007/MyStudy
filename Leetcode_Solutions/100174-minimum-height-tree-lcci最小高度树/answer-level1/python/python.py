@@ -1,8 +1,8 @@
-递归，构建一个函数求出，对于一个给定数组返回最小高度的树，每次结点取数组中间的值
+# 递归，构建一个函数求出，对于一个给定数组返回最小高度的树，每次结点取数组中间的值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
         root.right=self.sortedArrayToBST(array_r)
         return root
             
-```
+# ```

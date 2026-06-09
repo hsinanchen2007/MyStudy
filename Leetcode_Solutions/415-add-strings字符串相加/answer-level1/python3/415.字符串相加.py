@@ -1,6 +1,6 @@
 
-逆序后再处理
-```python []
+# 逆序后再处理
+# ```python []
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         if num1=='0' and num2=='0':
@@ -38,5 +38,5 @@ class Solution:
         if flag==1:
             result=str(1)+result
         return result
-```
+# ```
 

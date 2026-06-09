@@ -1,5 +1,5 @@
-#好玩的sql还是没多少
-```
+-- #好玩的sql还是没多少
+-- ```
 # Write your MySQL query statement below
 
 SELECT round(SUM(CASE 
@@ -7,4 +7,4 @@ SELECT round(SUM(CASE
 		ELSE 0
 	END) * 100 / COUNT(*), 2) AS immediate_percentage
 FROM Delivery
-```
+-- ```

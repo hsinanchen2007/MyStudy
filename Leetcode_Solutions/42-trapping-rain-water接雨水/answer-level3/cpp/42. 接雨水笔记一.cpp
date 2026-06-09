@@ -1,12 +1,12 @@
-### 解题思路
-1. 这里使用暴力法来做
-2. 由于最边上的2个位置不能积雨水，遍历除最边上2个位置外的其他位置，计算每个位置能接的雨水量
-3. 每个位置能接的雨水量=min(maxLeft, maxRight) - height
-4. 计算maxLeft和maxRight时需要考虑当前位置
+// ### 解题思路
+// 1. 这里使用暴力法来做
+// 2. 由于最边上的2个位置不能积雨水，遍历除最边上2个位置外的其他位置，计算每个位置能接的雨水量
+// 3. 每个位置能接的雨水量=min(maxLeft, maxRight) - height
+// 4. 计算maxLeft和maxRight时需要考虑当前位置
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从右上角往左下角遍历相当于不均等的二分法
+# ### 解题思路
+# 从右上角往左下角遍历相当于不均等的二分法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if len(matrix)==0:
@@ -18,4 +18,4 @@ class Solution:
             else:
                 j-=1
         return False
-```
+# ```

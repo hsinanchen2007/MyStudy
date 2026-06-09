@@ -1,10 +1,10 @@
-### 解题思路
-遍历，统计 bulls 数目，并使用两个 vector 分别统计secret 和 guess 中每个数字出现的次数；
-统计两个 vector 中字符相同的数目，减去 bulls 的数目 即为 cows 的数目。
+// ### 解题思路
+// 遍历，统计 bulls 数目，并使用两个 vector 分别统计secret 和 guess 中每个数字出现的次数；
+// 统计两个 vector 中字符相同的数目，减去 bulls 的数目 即为 cows 的数目。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -22,4 +22,4 @@ public:
         return to_string(bulls) + "A" + to_string(cows) + "B";
     }
 };
-```
+// ```

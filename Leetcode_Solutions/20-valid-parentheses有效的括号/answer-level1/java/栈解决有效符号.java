@@ -1,11 +1,11 @@
-### 解题思路
-利用hashmap的k-v存储左右符号常量，
-遍历字符串，遇到left符号push到stack中，遇到右符号则从stack中出栈一个符号，
-栈顶元素即left 与 遍历到的字符比较是否相等，不等的话，返回false。
+// ### 解题思路
+// 利用hashmap的k-v存储左右符号常量，
+// 遍历字符串，遇到left符号push到stack中，遇到右符号则从stack中出栈一个符号，
+// 栈顶元素即left 与 遍历到的字符比较是否相等，不等的话，返回false。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static Map<Character, Character> map = new HashMap<>();
 	static {
@@ -39,4 +39,4 @@ class Solution {
 
     }
 }
-```
+// ```

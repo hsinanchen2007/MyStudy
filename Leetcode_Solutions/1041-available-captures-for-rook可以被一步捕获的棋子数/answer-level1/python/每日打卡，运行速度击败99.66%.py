@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
 
@@ -61,4 +61,4 @@ class Solution:
         print('\n'.join(['\t'.join(i) for i in board]))
 
         return(result)
-```
+# ```

@@ -1,8 +1,8 @@
-思路在代码中
+// 思路在代码中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int translateNum(int num) {
         String str = num + "";
@@ -28,4 +28,4 @@ class Solution {
         return dp[len];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-回溯法解决经典全排列问题
+// ### 解题思路
+// 回溯法解决经典全排列问题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -23,4 +23,4 @@ var permute = function(nums) {
     trackback([]);
     return result;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-![QQ截图20200328101910.png](https://pic.leetcode-cn.com/c0e24b039e359bb596e6b3e6b7725f2cc0e042305b97c1b219a543e026806ff0-QQ%E6%88%AA%E5%9B%BE20200328101910.png)
+// ### 解题思路
+// ![QQ截图20200328101910.png](https://pic.leetcode-cn.com/c0e24b039e359bb596e6b3e6b7725f2cc0e042305b97c1b219a543e026806ff0-QQ%E6%88%AA%E5%9B%BE20200328101910.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findClosedNumbers(int num) {
@@ -56,4 +56,4 @@ public:
         return {maxv, minv};
     }
 };
-```
+// ```

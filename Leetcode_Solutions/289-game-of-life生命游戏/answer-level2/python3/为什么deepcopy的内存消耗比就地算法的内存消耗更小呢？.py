@@ -1,10 +1,10 @@
-为什么我用deepcopy的内存消耗比就地算法的内存消耗更小呢？
+# 为什么我用deepcopy的内存消耗比就地算法的内存消耗更小呢？
 
-![image.png](https://pic.leetcode-cn.com/395b1da0946e6eecc7d3276c046a2d548e979625fdb6a0c7c5af79555b73c6fe-image.png)
+# ![image.png](https://pic.leetcode-cn.com/395b1da0946e6eecc7d3276c046a2d548e979625fdb6a0c7c5af79555b73c6fe-image.png)
 
-以下为deepcopy写法
+# 以下为deepcopy写法
 
-```
+# ```
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -39,11 +39,11 @@ class Solution:
             for j, e in enumerate(row):
                 board[i][j] = ans[i][j]
 
-```
+# ```
 
-以下为就地写法，将board中数字的10位数字来保存周围活细胞数量
+# 以下为就地写法，将board中数字的10位数字来保存周围活细胞数量
 
-```
+# ```
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -78,4 +78,4 @@ class Solution:
                         board[i][j] = 1
                     else:
                         board[i][j] = 0
-```
+# ```

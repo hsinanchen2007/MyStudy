@@ -1,18 +1,18 @@
-### 解题思路
-1.**存储符号"&" "|" "^" 的计算方式**存储为dict(dict(list))=>Symbol[sym][res]=(leftRes,rightRes)
-2.**递归基**:判断长度为1的表达式
-3.**遍历**整个字符串**找到所有的symbols**，
-若遇到Symbol，取出使式子结果为result的左结果和右结果`for leftRes,rightRes in Symbol[expression[i]][result]`
-4.**递归**：返回总的表达式在**所有**symbols处的结果：
-`count+=DFS(expression[:i],leftRes,memorydict)*DFS(expression[i+1:],rightRes,memorydict)`
-总的表达式在**每一**symbol处的结果为**左右表达式各自结果相乘（组合数）**
-5.通过记忆化减少重复递归中间计算，（不通过记忆化会超时）
-`memorydict[(expression,result)]=count`
-`if (expression,result) in memorydict:return memorydict[(expression,result)]`
+# ### 解题思路
+# 1.**存储符号"&" "|" "^" 的计算方式**存储为dict(dict(list))=>Symbol[sym][res]=(leftRes,rightRes)
+# 2.**递归基**:判断长度为1的表达式
+# 3.**遍历**整个字符串**找到所有的symbols**，
+# 若遇到Symbol，取出使式子结果为result的左结果和右结果`for leftRes,rightRes in Symbol[expression[i]][result]`
+# 4.**递归**：返回总的表达式在**所有**symbols处的结果：
+# `count+=DFS(expression[:i],leftRes,memorydict)*DFS(expression[i+1:],rightRes,memorydict)`
+# 总的表达式在**每一**symbol处的结果为**左右表达式各自结果相乘（组合数）**
+# 5.通过记忆化减少重复递归中间计算，（不通过记忆化会超时）
+# `memorydict[(expression,result)]=count`
+# `if (expression,result) in memorydict:return memorydict[(expression,result)]`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countEval(self, s: str, result: int) -> int:
         #Symbol: & | ^ 的计算方式存储为dict
@@ -51,4 +51,4 @@ class Solution:
 
 
 
-```
+# ```

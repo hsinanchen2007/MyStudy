@@ -1,9 +1,9 @@
-### 解题思路
-和102的思路一样，可以通过递归和dfs分别实现，就是多加个条件，depth % 2 ==0来判断是否翻转
+# ### 解题思路
+# 和102的思路一样，可以通过递归和dfs分别实现，就是多加个条件，depth % 2 ==0来判断是否翻转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -50,4 +50,4 @@ class Solution:
         dfs(root, 0) 
         return ans   
         
-```
+# ```

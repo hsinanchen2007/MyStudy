@@ -1,9 +1,9 @@
-### 解题思路
-先判断两者是否相等和两者大小是否相等，再模拟旋转
+// ### 解题思路
+// 先判断两者是否相等和两者大小是否相等，再模拟旋转
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isFlipedString(string s1, string s2) {
@@ -21,4 +21,4 @@ public:
         return false;
     }
 };
-```
+// ```

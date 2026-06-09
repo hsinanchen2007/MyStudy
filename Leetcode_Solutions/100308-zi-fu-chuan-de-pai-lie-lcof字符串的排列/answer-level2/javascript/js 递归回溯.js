@@ -1,6 +1,6 @@
-18行，写得还是有点多
-![123.png](https://pic.leetcode-cn.com/b9fb720678d527b5d0737810b7a64c60637df847f3d8993a6aa239255cfc4346-123.png)
-```js
+// 18行，写得还是有点多
+// ![123.png](https://pic.leetcode-cn.com/b9fb720678d527b5d0737810b7a64c60637df847f3d8993a6aa239255cfc4346-123.png)
+// ```js
 /**
  * @param {string} s
  * @return {string[]}
@@ -25,4 +25,4 @@ var permutation = function(s) {
     dfs(s, 0, s.length);
     return Array.from(res);
 };
-```
+// ```

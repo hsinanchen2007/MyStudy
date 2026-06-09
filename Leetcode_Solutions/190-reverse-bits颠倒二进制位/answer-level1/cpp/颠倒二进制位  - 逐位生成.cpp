@@ -1,9 +1,9 @@
-### 解题思路
-逐位生成
+// ### 解题思路
+// 逐位生成
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
@@ -16,4 +16,4 @@ public:
         return ans;
     }
 };
-```
+// ```

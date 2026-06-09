@@ -1,18 +1,18 @@
-### 解题思路
-二分查找的经典题目，这里给出C语言的解法。
+// ### 解题思路
+// 二分查找的经典题目，这里给出C语言的解法。
 
-由于常用的二分查找模式为左边界移动到中值+1的模式，因此在寻找左边界使用了一个技巧。
+// 由于常用的二分查找模式为左边界移动到中值+1的模式，因此在寻找左边界使用了一个技巧。
 
-1.使用典型二分查找模式，定位到带查找数据的右边界
+// 1.使用典型二分查找模式，定位到带查找数据的右边界
 
-2.将target变为target - 1，使用同样的查找模式，直接定位到左边界
+// 2.将target变为target - 1，使用同样的查找模式，直接定位到左边界
 
-![image.png](https://pic.leetcode-cn.com/748a497b175f1d9b55cfadfec2e299590f9bd9e822f5aa0897afed193c45c844-image.png)
+// ![image.png](https://pic.leetcode-cn.com/748a497b175f1d9b55cfadfec2e299590f9bd9e822f5aa0897afed193c45c844-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -95,4 +95,4 @@ FAIL:
     return ret;
 }
 
-```
+// ```

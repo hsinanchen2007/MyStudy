@@ -1,7 +1,7 @@
-想不出来不想了！做个弊！！
+// 想不出来不想了！做个弊！！
 
 
-```c++ []
+// ```c++ []
 class ZeroEvenOdd {
 private:
     int n;
@@ -31,5 +31,5 @@ public:
         fnOdd = printNumber;
     }
 };
-```
+// ```
 

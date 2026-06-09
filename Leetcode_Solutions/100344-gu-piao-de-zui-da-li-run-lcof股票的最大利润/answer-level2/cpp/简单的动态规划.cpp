@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) 
@@ -15,4 +15,4 @@ public:
         return maxprofit;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 234. 回文链表
 Given a singly linked list, determine if it is a palindrome.
@@ -110,4 +110,4 @@ if __name__ == "__main__":
     printList(l1)
     s = Solution()
     print(s.isPalindrome(l1))
-```
+# ```

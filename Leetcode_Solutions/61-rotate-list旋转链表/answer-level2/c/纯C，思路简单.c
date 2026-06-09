@@ -1,11 +1,11 @@
-### 解题思路
-1、将原链表组成一个循环链表
-2、原尾指针的移动次数就是num-(k%num);
-3、移动，然后将尾指针指向NULL
+// ### 解题思路
+// 1、将原链表组成一个循环链表
+// 2、原尾指针的移动次数就是num-(k%num);
+// 3、移动，然后将尾指针指向NULL
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
 
     return res;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-索引搜索+范围搜索
+// 索引搜索+范围搜索
 
-``` cpp
+// ``` cpp
 class Solution {
 public:
     // O(nlogn)
@@ -39,4 +39,4 @@ public:
         return lo;
     }
 };
-```
+// ```

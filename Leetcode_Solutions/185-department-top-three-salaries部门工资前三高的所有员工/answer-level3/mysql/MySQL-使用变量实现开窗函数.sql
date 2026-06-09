@@ -1,8 +1,8 @@
-MySQL8.0之前没有开窗函数，因此实现分组排序要么通过多次join，要么通过变量实现。
+-- MySQL8.0之前没有开窗函数，因此实现分组排序要么通过多次join，要么通过变量实现。
 
-多次join会降低执行效率，这里给出使用变量实现开窗函数的方法。
+-- 多次join会降低执行效率，这里给出使用变量实现开窗函数的方法。
 
-```
+-- ```
 SELECT d.name as Department, t.name as Employee, t.salary 
 FROM (
     SELECT 
@@ -16,6 +16,6 @@ FROM (
 JOIN department as d 
 ON d.id=t.departmentid 
 WHERE t.cnt<=3 order by department,salary desc;
-```
+-- ```
 
 

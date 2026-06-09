@@ -1,9 +1,9 @@
-### 解题思路
-开始报内存溢出，需要考虑数组中只有一个数，没有数的情况，否则越界
+// ### 解题思路
+// 开始报内存溢出，需要考虑数组中只有一个数，没有数的情况，否则越界
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
 int i,j;
 int numsSize2=1;
@@ -23,4 +23,4 @@ for(i=0,j=1;j<numsSize;j++)
 }
 return numsSize2;
 }
-```
+// ```

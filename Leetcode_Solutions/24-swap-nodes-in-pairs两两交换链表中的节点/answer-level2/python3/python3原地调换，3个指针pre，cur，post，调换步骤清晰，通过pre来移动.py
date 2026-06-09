@@ -1,10 +1,10 @@
-### 解题思路
-借助dummy在最前面用于返回相当与res
-建立pre，cur，post三个指针
+# ### 解题思路
+# 借助dummy在最前面用于返回相当与res
+# 建立pre，cur，post三个指针
 
-然后原地调换，
+# 然后原地调换，
 
-```
+# ```
 # 设置两个新指针
 cur = pre.next
 post = pre.next.next
@@ -14,9 +14,9 @@ cur.next = post.next
 post.next = cur
 # pre 跳两次
 pre = pre.next.next
-```
+# ```
 
-```
+# ```
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         if not head or not head.next:
@@ -42,11 +42,11 @@ class Solution:
             pre = pre.next.next
 
         return dummy.next
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -61,4 +61,4 @@ class Solution:
             head, head.next, head.next.next = head.next, head, self.swapPairs(head.next.next)
 
         return head
-```
+# ```

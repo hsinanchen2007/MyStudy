@@ -1,18 +1,18 @@
-![image.png](https://pic.leetcode-cn.com/8863c0f7b6ccdd03c2eef9fb9e1e1ae2a4234a0384ad1f872fa9bd5a337e1802-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8863c0f7b6ccdd03c2eef9fb9e1e1ae2a4234a0384ad1f872fa9bd5a337e1802-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 归并 + 分治
 优化：跟下面方法唯一的区别是两个链表归并地来合并，而不是第一个合并第二个，
 这个再合并第三个，这个再合并第四个
-```
+// ```
 
-### 疑问？
-为什么归并地合并就比相邻的链表依次去合并快这么多呢？哪位大佬能给我指点下？🙏
+// ### 疑问？
+// 为什么归并地合并就比相邻的链表依次去合并快这么多呢？哪位大佬能给我指点下？🙏
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -98,4 +98,4 @@ function merge(l1, l2) {
 
 
 
-```
+// ```

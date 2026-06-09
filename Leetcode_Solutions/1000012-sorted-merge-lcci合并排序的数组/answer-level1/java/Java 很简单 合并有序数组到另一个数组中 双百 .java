@@ -1,9 +1,9 @@
-### 解题思路
-    反着来，从A数组末尾开始往前赋值，比较A、B数组中的值，将大的值放进A的末尾。
+// ### 解题思路
+//     反着来，从A数组末尾开始往前赋值，比较A、B数组中的值，将大的值放进A的末尾。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         if(B==null || A==null){
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

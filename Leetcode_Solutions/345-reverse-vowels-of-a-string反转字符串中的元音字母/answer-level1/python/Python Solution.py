@@ -1,9 +1,9 @@
-### 解题思路
-Two pointers
+# ### 解题思路
+# Two pointers
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseVowels(self, s):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         return "".join(s)
 
 
-```
+# ```

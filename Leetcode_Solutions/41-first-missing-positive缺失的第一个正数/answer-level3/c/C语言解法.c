@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstMissingPositive(int* nums, int numsSize){
     if(numsSize == 0)
         return 1;
@@ -23,4 +23,4 @@ int firstMissingPositive(int* nums, int numsSize){
     }
     return i;
 }
-```
+// ```

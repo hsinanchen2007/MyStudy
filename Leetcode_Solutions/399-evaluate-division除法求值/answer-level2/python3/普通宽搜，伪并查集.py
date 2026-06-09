@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/9241422803c52b362dfe2544daa8f4e234dde0ad5c43b28356e36663d9c29d2b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9241422803c52b362dfe2544daa8f4e234dde0ad5c43b28356e36663d9c29d2b-image.png)
 
-相当于寻找有向图内点和点的距离关系，并输出两个点的距离，两点距离是通过除法计算出来的。
+# 相当于寻找有向图内点和点的距离关系，并输出两个点的距离，两点距离是通过除法计算出来的。
 
-在计算过程中一直保存着计算过的数字，自己的子节点就是自己的父节点，所以路径压缩了很多，宽搜能够相对快的找到最近的计算路径，使之实质具备了并查集的性质。
+# 在计算过程中一直保存着计算过的数字，自己的子节点就是自己的父节点，所以路径压缩了很多，宽搜能够相对快的找到最近的计算路径，使之实质具备了并查集的性质。
 
-```python
+# ```python
 class Solution:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         d = collections.defaultdict(dict)           #图的初始化
@@ -36,4 +36,4 @@ class Solution:
                     q = t
                 return -1.0             #两个数不存在路径
         return [f(a, b) for a, b in queries]
-```
+# ```

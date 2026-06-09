@@ -1,10 +1,10 @@
-### 解题思路
-思路都在注释中
-开始想不出来，看答案才知道是拓扑排序相关知识
+// ### 解题思路
+// 思路都在注释中
+// 开始想不出来，看答案才知道是拓扑排序相关知识
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string alienOrder(vector<string>& words) {
@@ -92,4 +92,4 @@ public:
         return result;
     }
 };
-```
+// ```

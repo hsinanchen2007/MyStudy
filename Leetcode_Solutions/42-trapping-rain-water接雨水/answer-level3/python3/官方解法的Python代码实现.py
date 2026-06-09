@@ -1,5 +1,5 @@
-### 1. 暴力解法
-```py
+# ### 1. 暴力解法
+# ```py
 # solution 1, brute force
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -13,9 +13,9 @@ class Solution:
                 max_right = max(max_right, height[j])            
             ans += min(max_left, max_right) - height[i]        
         return ans
-```
-### 2. 动态编程
-```py
+# ```
+# ### 2. 动态编程
+# ```py
 # solution 2, loop with left_max, right_max memory
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -36,9 +36,9 @@ class Solution:
         for i in range(1,size):
             ans += min(left_max[i], right_max[i]) - height[i]
         return ans
-```
-### 3. 单调栈
-```py
+# ```
+# ### 3. 单调栈
+# ```py
 # solution 3, decreasing stack, refer to No.84,85
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -57,9 +57,9 @@ class Solution:
                 ans += distance * bounded_height           
             stack.append(current)       
         return ans
-```
-### 4. 双指针
-```py
+# ```
+# ### 4. 双指针
+# ```py
 # solution 4, double index pointer
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -80,4 +80,4 @@ class Solution:
                 ans += right_max - height[right]
                 right -=1   
         return ans
-```
+# ```

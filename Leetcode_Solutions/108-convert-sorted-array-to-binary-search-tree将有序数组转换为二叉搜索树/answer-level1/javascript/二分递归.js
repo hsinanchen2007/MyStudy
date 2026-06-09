@@ -1,6 +1,6 @@
-## 第一版，递归构建每个子树。将数组从最中间项分割得到三个部分：子数组1，中间项，子数组2。将中间项作为当前节点的val，对子数组1和子数组2分别递归执行原方法，得到的两个子树分别作为上一个节点的左子树与右子树
-> 96ms,37.8M
-```javascript []
+// ## 第一版，递归构建每个子树。将数组从最中间项分割得到三个部分：子数组1，中间项，子数组2。将中间项作为当前节点的val，对子数组1和子数组2分别递归执行原方法，得到的两个子树分别作为上一个节点的左子树与右子树
+// > 96ms,37.8M
+// ```javascript []
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -21,4 +21,4 @@ var sortedArrayToBST = function(nums) {
   root.right = sortedArrayToBST(nums.splice(1));
   return root;
 };
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-- 初始化最接近target的结果res = float('inf')
-- 数组排序，从头开始遍历，设置start = i+1,end = len(nums)-1
-路
-- 初始化最接近target的结果res = float('inf')
-- 数组排序，从头开始遍历，设置start = i+1,end = len(nums)-1
-- 计算cur_sum = nums[i]+nums[start]+nums[end]
-- 如果cur_sum == target,直接返回cur_sum
-- 如果cur_sum < target,nums[start]需要大一些，start = start +1
-- 如果cur_sum > target,nums[start]需要小一些，end = end  - 1
-- 别忘了更新,res = cur_sum if abs(cur_sum - target) < abs(res-target)
+# ### 解题思路
+# - 初始化最接近target的结果res = float('inf')
+# - 数组排序，从头开始遍历，设置start = i+1,end = len(nums)-1
+# 路
+# - 初始化最接近target的结果res = float('inf')
+# - 数组排序，从头开始遍历，设置start = i+1,end = len(nums)-1
+# - 计算cur_sum = nums[i]+nums[start]+nums[end]
+# - 如果cur_sum == target,直接返回cur_sum
+# - 如果cur_sum < target,nums[start]需要大一些，start = start +1
+# - 如果cur_sum > target,nums[start]需要小一些，end = end  - 1
+# - 别忘了更新,res = cur_sum if abs(cur_sum - target) < abs(res-target)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         L = len(nums)
@@ -34,4 +34,4 @@ class Solution:
                     res = cur_sum
         return res
 
-```
+# ```

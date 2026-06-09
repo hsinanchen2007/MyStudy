@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn min_eating_speed(piles: Vec<i32>, h: i32) -> i32 {
         let sum: u64 = piles.iter().map(|&x| x as u64).sum();
@@ -16,5 +16,5 @@ impl Solution {
         unreachable!()
     }
 }
-```
+// ```
 

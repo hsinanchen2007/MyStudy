@@ -1,4 +1,4 @@
-```python
+# ```python
         dp = {}  # 用来存储nums[i:j]的结果以避免重复计算
         def max_get(i, j) -> (int, int):  # 对nums[i:j]，先手能得到的最大分数，和该情况下后手得到的分数
             if (i, j) not in dp:  # 如果已计算则直接返回
@@ -18,4 +18,4 @@
             return True
         x, y = max_get(0, len(nums))
         return x >= y
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-比较大小
+// ### 解题思路
+// 比较大小
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int n = nums.length;
@@ -15,4 +15,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

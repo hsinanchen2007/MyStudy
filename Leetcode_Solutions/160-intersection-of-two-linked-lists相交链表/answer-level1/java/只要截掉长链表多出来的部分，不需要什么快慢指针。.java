@@ -1,7 +1,7 @@
-执行用时 :2 ms, 在所有 Java 提交中击败了96.72%的用户
-内存消耗 :49 MB, 在所有 Java 提交中击败了5.05%的用户
+// 执行用时 :2 ms, 在所有 Java 提交中击败了96.72%的用户
+// 内存消耗 :49 MB, 在所有 Java 提交中击败了5.05%的用户
 
-```
+// ```
 public class Demo160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA == null || headB == null) return null;
@@ -43,4 +43,4 @@ public class Demo160 {
     }
 }
 
-```
+// ```

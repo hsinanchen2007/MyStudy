@@ -1,4 +1,4 @@
-直接快排，然后比较两个数组，完全一致即可
+// 直接快排，然后比较两个数组，完全一致即可
 int cmp(void *x, void *y)
 {
     return *(char *)x - *(char *)y;

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lastStoneWeight(self, stones: list):
         while len(stones) > 1:
@@ -13,4 +13,4 @@ class Solution:
             return stones[0]
         else:
             return 0
-```
+# ```

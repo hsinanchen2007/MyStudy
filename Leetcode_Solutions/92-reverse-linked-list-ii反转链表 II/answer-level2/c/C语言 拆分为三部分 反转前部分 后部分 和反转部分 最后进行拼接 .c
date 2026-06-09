@@ -1,5 +1,5 @@
-当 m = 1 的情况 用到虚拟头节点
-```
+// 当 m = 1 的情况 用到虚拟头节点
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n)
     
     return head->next;
 }
-```
+// ```

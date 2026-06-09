@@ -1,10 +1,10 @@
-### 解题思路
-$dp[i][j]$表示$s[0...i-1]$与$p[0...j-1]$是否匹配
+# ### 解题思路
+# $dp[i][j]$表示$s[0...i-1]$与$p[0...j-1]$是否匹配
 
-### 代码
+# ### 代码
 
-**双序列dp**
-```java []
+# **双序列dp**
+# ```java []
 class Solution {
     public boolean isMatch(String s, String p) {
         // dp[i][j]表示s[0...i-1]与p[0...j-1]之间的匹配结果
@@ -37,8 +37,8 @@ class Solution {
         return dp[N-1][M-1];
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def isMatch(self, A: str, B: str) -> bool:
     # .*可以匹配任意字符, 因为.* = .........(0个或者多个), 每个.都可以匹配任意字符
@@ -79,8 +79,8 @@ class Solution:
                             f[i][j] = f[i][j] or f[i-1][j]
 
         return f[N][M]
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -116,16 +116,16 @@ public:
         return dp[N-1][M-1];
     }
 };
-```
-**内置正则**
-```java []
+# ```
+# **内置正则**
+# ```java []
 class Solution {
     public boolean isMatch(String s, String p) {
         return s.matches(p);
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         import re
@@ -133,4 +133,4 @@ class Solution:
         if res:
             return res.group() == s
         return False
-```
+# ```

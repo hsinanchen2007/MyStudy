@@ -1,9 +1,9 @@
-### 解题思路
-![批注 2020-03-16 141658.png](https://pic.leetcode-cn.com/c733ae5d59cfbe3ccdd7ae577866a43002f28ee0af13f58307e4f948b8dfb452-%E6%89%B9%E6%B3%A8%202020-03-16%20141658.png)
+// ### 解题思路
+// ![批注 2020-03-16 141658.png](https://pic.leetcode-cn.com/c733ae5d59cfbe3ccdd7ae577866a43002f28ee0af13f58307e4f948b8dfb452-%E6%89%B9%E6%B3%A8%202020-03-16%20141658.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char res[100010];
 char tmp[50010];
 char* compressString(char* S){
@@ -41,4 +41,4 @@ char* compressString(char* S){
     else 
         return S;
 }
-```
+// ```

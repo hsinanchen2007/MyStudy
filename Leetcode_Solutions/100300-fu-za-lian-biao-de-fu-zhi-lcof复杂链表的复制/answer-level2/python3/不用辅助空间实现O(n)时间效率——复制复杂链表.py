@@ -1,13 +1,13 @@
-### 解题思路
-剑指offer上给的第三种方法：
-第一步根据原始链表的每个节点N创建对应的N'；将其连接在N的后面
-第二步设置复制出来的节点N'的random指向，指向N的random的后一个节点
-第三步将长链表分成两个链表，原始链表和复制链表
+# ### 解题思路
+# 剑指offer上给的第三种方法：
+# 第一步根据原始链表的每个节点N创建对应的N'；将其连接在N的后面
+# 第二步设置复制出来的节点N'的random指向，指向N的random的后一个节点
+# 第三步将长链表分成两个链表，原始链表和复制链表
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -46,4 +46,4 @@ class Solution:
                 temp2.next = None
             temp2 = temp2.next
         return new_head
-```
+# ```

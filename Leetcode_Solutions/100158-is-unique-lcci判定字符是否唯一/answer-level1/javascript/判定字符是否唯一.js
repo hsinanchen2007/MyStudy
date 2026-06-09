@@ -1,9 +1,9 @@
-### 解题思路
-字符串转成对象
+// ### 解题思路
+// 字符串转成对象
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} astr
  * @return {boolean}
@@ -18,4 +18,4 @@ var isUnique = function(astr) {
     }
     return true;
 };
-```
+// ```

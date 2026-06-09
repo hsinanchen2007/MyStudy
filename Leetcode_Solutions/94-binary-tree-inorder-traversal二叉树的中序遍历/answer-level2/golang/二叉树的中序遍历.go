@@ -1,9 +1,9 @@
-### 解题思路
-基于栈
+// ### 解题思路
+// 基于栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -29,4 +29,4 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```

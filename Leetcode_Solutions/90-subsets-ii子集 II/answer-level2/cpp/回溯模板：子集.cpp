@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-[子集](https://leetcode-cn.com/problems/subsets/) 的加强版，思路见代码注释。
+// [子集](https://leetcode-cn.com/problems/subsets/) 的加强版，思路见代码注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<vector<int>> res;
@@ -41,11 +41,11 @@ public:
         }
     }
 };
-```
+// ```
 
-对比经典子集模板：
+// 对比经典子集模板：
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<vector<int>> res;
@@ -69,4 +69,4 @@ public:
         }
     }
 };
-```
+// ```

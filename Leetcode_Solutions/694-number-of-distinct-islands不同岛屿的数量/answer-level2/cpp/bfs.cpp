@@ -1,6 +1,6 @@
-这个题比较坑爹，主要是比较形状。
+// 这个题比较坑爹，主要是比较形状。
 
-```
+// ```
 class Solution {
 public:
     int find(vector<int> & f, int x){
@@ -104,4 +104,4 @@ public:
         return count.size();
     }
 };
-```
+// ```

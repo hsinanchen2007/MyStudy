@@ -1,11 +1,11 @@
 
-### 解题思路
+// ### 解题思路
 
-![合并两个排序链表.gif](https://pic.leetcode-cn.com/091b0a27b335fa1e77fd3d4521abe3930ae659c56728a7012e26bad30443faf1-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.gif)
+// ![合并两个排序链表.gif](https://pic.leetcode-cn.com/091b0a27b335fa1e77fd3d4521abe3930ae659c56728a7012e26bad30443faf1-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.gif)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
 		return head.next;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**思路1：** 从两个字符串的尾数开始向前计算，详情在代码注释中（代码有点冗长，思路2优化了下，思路1记录用可以不看...）。
-```
+// **思路1：** 从两个字符串的尾数开始向前计算，详情在代码注释中（代码有点冗长，思路2优化了下，思路1记录用可以不看...）。
+// ```
 public class AddBinary_67
     {
         public string AddBinary(string a, string b)
@@ -86,10 +86,10 @@ public class AddBinary_67
             return carry;
         }
     }
-```
+// ```
 
-**思路2：** 思路1有多个并列的循环看的人有点难受，其实可以直接一遍遍历就可以，具体见如下代码
-```
+// **思路2：** 思路1有多个并列的循环看的人有点难受，其实可以直接一遍遍历就可以，具体见如下代码
+// ```
 public class AddBinary_67
     {
         public string AddBinary(string a, string b)
@@ -149,5 +149,5 @@ public class AddBinary_67
             return carry;
         }
     }
-```
+// ```
 

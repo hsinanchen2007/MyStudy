@@ -1,13 +1,13 @@
-### 解题思路
-两个指针遍历
+// ### 解题思路
+// 两个指针遍历
 
-### 性能
-执行用时 :16 ms, 在所有 PHP 提交中击败了89.79%的用户
-内存消耗 :15.2 MB, 在所有 PHP 提交中击败了6.70%的用户
+// ### 性能
+// 执行用时 :16 ms, 在所有 PHP 提交中击败了89.79%的用户
+// 内存消耗 :15.2 MB, 在所有 PHP 提交中击败了6.70%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -45,7 +45,7 @@ class Solution {
         return $dummy_head->next;
     }
 }
-```
+// ```
 
-参考：
-[官方解题](https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-leetcode/)
+// 参考：
+// [官方解题](https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-leetcode/)

@@ -1,12 +1,12 @@
-### 解题思路
-思路比较简单，用栈存储有效的分数，用代码一步一步模拟计算总分的过程即可。
+// ### 解题思路
+// 思路比较简单，用栈存储有效的分数，用代码一步一步模拟计算总分的过程即可。
 
-时间复杂度：O(n)。
-空间复杂度：O(n)。
+// 时间复杂度：O(n)。
+// 空间复杂度：O(n)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calPoints(String[] ops) {
         Stack<Integer> stack = new Stack<Integer>();
@@ -32,4 +32,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

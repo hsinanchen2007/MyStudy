@@ -1,20 +1,20 @@
-### 解题思路
-此处撰写解题思路
-follow up应该也不难，再加一个同样的bfs在origin上面，比较的时候不能拿.val比较
-不origin的话就不能用 == 因为引用不在一起，equals也不能，因为有多个相同val值的node
-执行用时 :
-6 ms
-, 在所有 Java 提交中击败了
-16.46%
-的用户
-内存消耗 :
-46.9 MB
-, 在所有 Java 提交中击败了
-100.00%
-的用户
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// follow up应该也不难，再加一个同样的bfs在origin上面，比较的时候不能拿.val比较
+// 不origin的话就不能用 == 因为引用不在一起，equals也不能，因为有多个相同val值的node
+// 执行用时 :
+// 6 ms
+// , 在所有 Java 提交中击败了
+// 16.46%
+// 的用户
+// 内存消耗 :
+// 46.9 MB
+// , 在所有 Java 提交中击败了
+// 100.00%
+// 的用户
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return null; 
     }
 }
-```
+// ```

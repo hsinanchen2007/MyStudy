@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-多重赋值，交换两个节点的next指针，重点在于如是剩下只有一个节点，那么就不用交换了
-```golang
+// ### 代码
+// 多重赋值，交换两个节点的next指针，重点在于如是剩下只有一个节点，那么就不用交换了
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,4 +26,4 @@ func swapPairs(head *ListNode) *ListNode {
         }
         return first.Next
 }
-```
+// ```

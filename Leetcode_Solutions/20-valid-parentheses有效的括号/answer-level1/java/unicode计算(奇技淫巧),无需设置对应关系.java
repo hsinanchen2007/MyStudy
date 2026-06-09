@@ -1,12 +1,12 @@
-运用unicode码进行计算
-附上一个码表给大家观察:
-https://unicode-table.com/cn/#control-character
-举例:
-'}' - '{' >=2
-[( 等同理
+// 运用unicode码进行计算
+// 附上一个码表给大家观察:
+// https://unicode-table.com/cn/#control-character
+// 举例:
+// '}' - '{' >=2
+// [( 等同理
 
 
-```
+// ```
 class Solution {
     public boolean isValid(String s) {
 		if (s.length() % 2 != 0)
@@ -29,4 +29,4 @@ class Solution {
 		return stack.isEmpty();   
     }
 }
-```
+// ```

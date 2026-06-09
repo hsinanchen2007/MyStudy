@@ -1,10 +1,10 @@
-### 解题思路
-* 方案一、倒排序
-* 方案二、优先队列法
+// ### 解题思路
+// * 方案一、倒排序
+// * 方案二、优先队列法
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 // 方案一、倒排序，动态减少
 class Solution {
     public int leastInterval(char[] tasks, int n) {
@@ -59,8 +59,8 @@ class Solution {
          return time;
     }
 }
-```
-```java []
+// ```
+// ```java []
 //方案二、优先队列
 class Solution {
     public int leastInterval(char[] tasks, int n) {
@@ -99,4 +99,4 @@ class Solution {
         return time;
     }
 }
-```
+// ```

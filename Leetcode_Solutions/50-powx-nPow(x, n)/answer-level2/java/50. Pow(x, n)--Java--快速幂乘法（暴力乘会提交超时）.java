@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_50_myPow.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_50_myPow.java)
 
-```java
+// ```java
     /**
      * 解析思路：
      * 平方不就是n个数相乘么，n为负数的时候，先将x求倒数，再n次相乘(此方法会提交超时O(n))
@@ -33,4 +33,4 @@
             return half * half * x;
         }
     }
-```
+// ```

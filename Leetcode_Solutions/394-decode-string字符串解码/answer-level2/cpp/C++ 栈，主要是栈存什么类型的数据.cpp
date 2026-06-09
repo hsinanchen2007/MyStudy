@@ -1,6 +1,6 @@
 
-### 栈
-```cpp
+// ### 栈
+// ```cpp
 class Solution {
 public:
     string decodeString(string s) {
@@ -43,10 +43,10 @@ public:
         return repeatres;
     }
 };
-```
+// ```
 
-### 递归
-```
+// ### 递归
+// ```
 class Solution {
 public:
     string decodeString(string s) {
@@ -77,4 +77,4 @@ public:
         return res;
     }
 };
-```
+// ```

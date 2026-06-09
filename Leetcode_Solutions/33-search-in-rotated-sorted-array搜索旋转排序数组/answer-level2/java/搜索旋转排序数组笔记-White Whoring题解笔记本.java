@@ -1,11 +1,11 @@
 
-按照官方给的思路，自己写了一遍，想着容易，写着难，主要是在边界值的处理上会有很多坑
+// 按照官方给的思路，自己写了一遍，想着容易，写着难，主要是在边界值的处理上会有很多坑
 
-先找到旋转点，然后判断target处于那段，最后进行二分查找
+// 先找到旋转点，然后判断target处于那段，最后进行二分查找
 
-1.查找旋转点
-考虑特殊情况，即nums未升序，并未旋转
-```
+// 1.查找旋转点
+// 考虑特殊情况，即nums未升序，并未旋转
+// ```
 private int searchDivIndex(int[] nums, int low, int high) {
             //未旋转的情况，index设为-1
             if(nums[low] < nums[high]) {
@@ -32,11 +32,11 @@ private int searchDivIndex(int[] nums, int low, int high) {
             }
             return 0;
         }
-```
+// ```
 
-2.二分查找target对应的索引
-注意要排除特殊情况，nums未空、nums长度为1等
-```
+// 2.二分查找target对应的索引
+// 注意要排除特殊情况，nums未空、nums长度为1等
+// ```
         public int search(int[] nums, int target) {
             if(nums.length == 0) {
                 return -1;
@@ -57,10 +57,10 @@ private int searchDivIndex(int[] nums, int low, int high) {
             }
             return TwoSearch(nums, 0, dividedIndex+1, target);
         }
-```
+// ```
 
-3.二分查找，找target和找旋转点本质是一样的，区别在于对nums[mid]的判断返回条件有区别
-```
+// 3.二分查找，找target和找旋转点本质是一样的，区别在于对nums[mid]的判断返回条件有区别
+// ```
         private int TwoSearch(int[] nums, int low, int high, int target) {
             while (low <= high) {
                 int mid = (high - low) / 2 + low;
@@ -76,10 +76,10 @@ private int searchDivIndex(int[] nums, int low, int high) {
             }
             return -1;
         }
-```
+// ```
 
-测试
-```
+// 测试
+// ```
     public static void main(String[] args) {
             int[] nums = {15,16,19,20,25,1,3,4,5,7,10,14};
             int target = 25;
@@ -89,4 +89,4 @@ private int searchDivIndex(int[] nums, int low, int high) {
     }
 
 
-```
+// ```

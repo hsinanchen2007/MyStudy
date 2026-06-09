@@ -1,9 +1,9 @@
-### 解题思路
-直接对二叉树进行层次遍历后，对奇数层进行反转即可得到结果。
+// ### 解题思路
+// 直接对二叉树进行层次遍历后，对奇数层进行反转即可得到结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

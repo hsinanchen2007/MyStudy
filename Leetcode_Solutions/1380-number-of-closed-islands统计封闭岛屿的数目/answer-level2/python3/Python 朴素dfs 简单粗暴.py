@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b33e1e4726b82737468f4071887fde1aca0796332214ebaebd17b68473b96f4d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b33e1e4726b82737468f4071887fde1aca0796332214ebaebd17b68473b96f4d-image.png)
 
 
-```
+# ```
 
 from typing import List
 class Solution:
@@ -31,7 +31,7 @@ class Solution:
                     ans += 1
         return ans
 
-```
+# ```
 
 
 

@@ -1,5 +1,5 @@
-没想到怎么dp实现，不过非dp的效率也不错。
-```
+// 没想到怎么dp实现，不过非dp的效率也不错。
+// ```
 class Solution {
     /**
       就题目来说，如果前x个元素中，已知min和max，那么：
@@ -36,4 +36,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-和官方利用一个栈是基本一致的方法，只不过用了队列就是层次遍历，两个队列也可以合并成一个队列
-空间O(m+n)，时间O(max(m, n))
-```
+// 和官方利用一个栈是基本一致的方法，只不过用了队列就是层次遍历，两个队列也可以合并成一个队列
+// 空间O(m+n)，时间O(max(m, n))
+// ```
 	TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
 		if (t1 == nullptr) return t2;
 		if (t2 == nullptr) return t1;
@@ -34,4 +34,4 @@
 		}
 		return t1;
 	}
-```
+// ```

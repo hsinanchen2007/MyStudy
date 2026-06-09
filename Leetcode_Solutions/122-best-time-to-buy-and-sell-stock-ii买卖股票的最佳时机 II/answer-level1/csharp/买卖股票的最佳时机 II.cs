@@ -1,5 +1,5 @@
-**思路**：从第一天到最后一天，不错过每一次隔天的上涨。
-```
+// **思路**：从第一天到最后一天，不错过每一次隔天的上涨。
+// ```
 public int MaxProfit(int[] prices)
 {
     int result = 0;
@@ -15,4 +15,4 @@ public int MaxProfit(int[] prices)
 
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：先序遍历
@@ -93,4 +93,4 @@ int pathSum(struct TreeNode* root, int sum){
     return count;
 
 }
-```
+// ```

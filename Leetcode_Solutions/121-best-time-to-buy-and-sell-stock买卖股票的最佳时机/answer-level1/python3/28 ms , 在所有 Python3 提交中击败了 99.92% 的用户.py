@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
       # 设置一个变量 记录最大利益
@@ -18,4 +18,4 @@ class Solution:
         elif max_benefit < (price - min_price):
             max_benefit = price - min_price
     return max_benefit
-```
+# ```

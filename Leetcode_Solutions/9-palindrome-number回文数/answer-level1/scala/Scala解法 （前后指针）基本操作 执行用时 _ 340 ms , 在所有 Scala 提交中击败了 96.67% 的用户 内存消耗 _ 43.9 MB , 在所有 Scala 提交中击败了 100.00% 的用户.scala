@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def isPalindrome(x: Int): Boolean = {
         val str = x.toString
@@ -16,4 +16,4 @@ object Solution {
         return true
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-只需要纪录每种牌的个数，在对个数求最大公约数，为1则false，不为1则true。
-```
+# 只需要纪录每种牌的个数，在对个数求最大公约数，为1则false，不为1则true。
+# ```
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         D = {}
@@ -14,4 +14,4 @@ class Solution:
         if gcd == 1:
             return False
         return True  
-```
+# ```

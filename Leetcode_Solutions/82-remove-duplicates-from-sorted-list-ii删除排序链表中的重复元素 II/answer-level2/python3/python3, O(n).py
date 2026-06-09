@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         """
@@ -42,4 +42,4 @@ class Solution:
             k.next = i if not t else None
 
         return head
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def dfs(root: TreeNode, buffer: scala.collection.mutable.ArrayBuffer[Int]): Unit = {
     if (root == null) return
@@ -16,4 +16,4 @@ object Solution {
     buf1 == buf2
   }
 }
-```
+// ```

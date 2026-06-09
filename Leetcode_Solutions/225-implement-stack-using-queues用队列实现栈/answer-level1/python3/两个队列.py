@@ -1,9 +1,9 @@
-### 解题思路
-push 时间复杂度O(1)，pop时间复杂度O(n)，top时间复杂度O(1),empty时间复杂度O(1)
+# ### 解题思路
+# push 时间复杂度O(1)，pop时间复杂度O(n)，top时间复杂度O(1),empty时间复杂度O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -63,4 +63,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

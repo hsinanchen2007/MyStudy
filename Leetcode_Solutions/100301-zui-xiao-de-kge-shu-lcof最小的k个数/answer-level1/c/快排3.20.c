@@ -1,9 +1,9 @@
-### 解题思路
-快排真香，topK会了呀
+// ### 解题思路
+// 快排真香，topK会了呀
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -47,4 +47,4 @@ for(int i=0; i<k; i++)
 return pp;
     }
 };
-```
+// ```

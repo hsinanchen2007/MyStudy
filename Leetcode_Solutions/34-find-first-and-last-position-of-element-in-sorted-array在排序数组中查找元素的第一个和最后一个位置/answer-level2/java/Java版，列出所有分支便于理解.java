@@ -1,9 +1,9 @@
-### 解题思路
-两个二分查找分别找到最左和最右的target的值，这里列出了所有的判断，比较好理解
+// ### 解题思路
+// 两个二分查找分别找到最左和最右的target的值，这里列出了所有的判断，比较好理解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] result={-1,-1};
@@ -87,4 +87,4 @@ class Solution {
         return nums[left-1]==target?left-1:-1;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-只要简单记录最大的亮灯编号等于总亮灯数即可
-```
+// 只要简单记录最大的亮灯编号等于总亮灯数即可
+// ```
 class Solution {
 public:
     int numTimesAllBlue(vector<int>& light) {
@@ -12,4 +12,4 @@ public:
         return ans;
     }
 };
-```
+// ```

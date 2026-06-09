@@ -1,10 +1,10 @@
-### 解题思路
-暴力解
-![image.png](https://pic.leetcode-cn.com/8ec0a5159c067db1ee4750901c55d6ff975ac66ae700226bd848cfcde54f54e7-image.png)
+// ### 解题思路
+// 暴力解
+// ![image.png](https://pic.leetcode-cn.com/8ec0a5159c067db1ee4750901c55d6ff975ac66ae700226bd848cfcde54f54e7-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

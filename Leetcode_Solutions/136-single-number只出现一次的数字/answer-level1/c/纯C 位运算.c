@@ -1,9 +1,9 @@
-### 解题思路
-纯C 位运算
+// ### 解题思路
+// 纯C 位运算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int singleNumber(int* nums, int numsSize){
     int res = nums[0];
     int index = 0;
@@ -15,4 +15,4 @@ int singleNumber(int* nums, int numsSize){
 
     return res;
 }
-```
+// ```

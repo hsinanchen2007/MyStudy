@@ -1,4 +1,4 @@
-```
+// ```
 function findMin($nums){
     $left = 0;
     $right = count($nums)-1;
@@ -17,4 +17,4 @@ function findMin($nums){
     }
     return null;
 }
-```
+// ```

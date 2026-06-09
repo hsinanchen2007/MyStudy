@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkPossibility(int[] nums) {
         boolean flag=true;//只有一次修改的机会
@@ -22,4 +22,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

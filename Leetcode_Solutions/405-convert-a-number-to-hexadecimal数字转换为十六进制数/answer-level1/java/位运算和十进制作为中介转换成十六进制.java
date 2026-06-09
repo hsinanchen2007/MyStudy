@@ -1,5 +1,5 @@
-此答案来源于`vscode-leetcode`插件给出的题解，我只是和大家分享我对此解法的理解，希望能帮助到大家
-```
+// 此答案来源于`vscode-leetcode`插件给出的题解，我只是和大家分享我对此解法的理解，希望能帮助到大家
+// ```
 class Solution {
     public String toHex(int num) {
         // 根据十进制的索引获取对应十六进制的表示
@@ -23,4 +23,4 @@ class Solution {
         return sb.length() == 0 ? "0" : sb.toString();
     }
 }
-```
+// ```

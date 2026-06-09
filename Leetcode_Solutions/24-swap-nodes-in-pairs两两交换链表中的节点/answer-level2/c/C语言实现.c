@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     }
     return p2->next;
 }
-```
+// ```

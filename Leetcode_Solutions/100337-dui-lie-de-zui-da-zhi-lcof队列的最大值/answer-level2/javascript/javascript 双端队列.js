@@ -1,4 +1,4 @@
-```
+// ```
 var MaxQueue = function() {
     this.queue1 = [];
     this.queue2 = [];
@@ -39,4 +39,4 @@ MaxQueue.prototype.pop_front = function() {
  * obj.push_back(value)
  * var param_3 = obj.pop_front()
  */
-```
+// ```

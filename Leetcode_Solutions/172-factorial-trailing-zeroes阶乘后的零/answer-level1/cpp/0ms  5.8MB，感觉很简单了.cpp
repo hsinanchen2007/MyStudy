@@ -1,9 +1,9 @@
-### 解题思路
-我感觉写的很简单了
+// ### 解题思路
+// 我感觉写的很简单了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trailingZeroes(int n)
@@ -18,4 +18,4 @@ public:
     }
     
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用c++的string类replace函数替换空格。
+// ### 解题思路
+// 利用c++的string类replace函数替换空格。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -18,4 +18,4 @@ public:
         return s;
     }
 };
-```
+// ```

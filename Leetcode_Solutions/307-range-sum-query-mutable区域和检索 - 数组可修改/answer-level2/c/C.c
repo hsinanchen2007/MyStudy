@@ -1,4 +1,4 @@
-```C
+// ```C
 typedef struct {
     int* nums;
     int numsSize;
@@ -85,4 +85,4 @@ void numArrayFree(NumArray* obj){
     freeTree(obj->tree);
     free(obj);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 char ** fizzBuzz(int n, int* returnSize){
     *returnSize =n;
     char** res = (char**)malloc(sizeof(char*)*n);
@@ -23,4 +23,4 @@ char ** fizzBuzz(int n, int* returnSize){
     return res;
 }
 
-```
+// ```

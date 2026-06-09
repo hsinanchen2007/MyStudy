@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select name as activity  from Activities
 where name not in 
@@ -28,4 +28,4 @@ group by f.activity
 order by count(f.activity) asc
 limit 1)
 )
-```
+-- ```

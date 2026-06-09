@@ -1,10 +1,10 @@
-### 解题思路
-根据等差数列公式，从begin开始计算n个数的和sum，如果小，则n++，知道sum==target。这个时候可以将begin++，n--.继续刚刚的过程。
-如果sum大于target的时候，begin++，n--；
+// ### 解题思路
+// 根据等差数列公式，从begin开始计算n个数的和sum，如果小，则n++，知道sum==target。这个时候可以将begin++，n--.继续刚刚的过程。
+// 如果sum大于target的时候，begin++，n--；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

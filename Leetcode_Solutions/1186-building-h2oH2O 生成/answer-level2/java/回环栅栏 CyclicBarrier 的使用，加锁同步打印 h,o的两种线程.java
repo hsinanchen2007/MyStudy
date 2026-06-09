@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
  public class H2O {
     private volatile int h = 0;
     private volatile int o = 0;
@@ -44,4 +44,4 @@
         o++;
     }
  }
-```
+// ```

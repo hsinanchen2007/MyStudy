@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法解题=。=
+# ### 解题思路
+# 回溯算法解题=。=
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def readBinaryWatch(self, num: int) -> List[str]:
         hour = [1, 2, 4, 8]
@@ -37,4 +37,4 @@ class Solution:
                         m -= temp
         backtrack([], 0, 0, num)
         return list(set(result))
-```
+# ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn large_group_positions(s: String) -> Vec<Vec<i32>> {
         let mut groups = Vec::new();
@@ -23,5 +23,5 @@ impl Solution {
         groups
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

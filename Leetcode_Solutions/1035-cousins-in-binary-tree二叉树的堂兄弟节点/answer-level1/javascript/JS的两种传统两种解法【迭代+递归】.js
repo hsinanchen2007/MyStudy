@@ -1,5 +1,5 @@
-1. 迭代 + Map记录节点所在层数和父节点的值
-```js
+// 1. 迭代 + Map记录节点所在层数和父节点的值
+// ```js
 /**
  * @param {TreeNode} root
  * @param {number} x
@@ -30,15 +30,15 @@ var isCousins = function(root, x, y) {
     }
     return resMap[x][0] === resMap[y][0] && resMap[x][1] !== resMap[y][1]
 };
-```
-```
+// ```
+// ```
 执行结果：通过
 执行用时 :76 ms, 在所有 JavaScript 提交中击败了23.76%的用户
 内存消耗 :34.9 MB, 在所有 JavaScript 提交中击败了72.22%的用户
-```
+// ```
 
-2. 递归 + Map记录节点所在层数和父节点的值
-```js
+// 2. 递归 + Map记录节点所在层数和父节点的值
+// ```js
 /**
  * @param {TreeNode} root
  * @param {number} x
@@ -57,9 +57,9 @@ var isCousins = function(root, x, y) {
     fn(root)
     return resMap[x][0] === resMap[y][0] && resMap[x][1] !== resMap[y][1]
 };
-```
-```
+// ```
+// ```
 执行结果：通过
 执行用时 :60 ms, 在所有 JavaScript 提交中击败了96.04%的用户
 内存消耗 :34.9 MB, 在所有 JavaScript 提交中击败了72.22%的用户
-```
+// ```

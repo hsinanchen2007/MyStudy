@@ -1,9 +1,9 @@
-### 解题思路
-纯C 散列表法
+// ### 解题思路
+// 纯C 散列表法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct hash
 {
     int interger;
@@ -46,4 +46,4 @@ char * intToRoman(int num){
 
     return pcRoman;
 }
-```
+// ```

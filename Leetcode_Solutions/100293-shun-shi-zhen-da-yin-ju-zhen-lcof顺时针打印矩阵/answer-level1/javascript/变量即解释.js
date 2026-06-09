@@ -1,9 +1,9 @@
-### 解题思路
-按照向右、下、左、上顺时针旋转
+// ### 解题思路
+// 按照向右、下、左、上顺时针旋转
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -42,4 +42,4 @@ var spiralOrder = function(matrix) {
   }
   return res;
 };
-```
+// ```

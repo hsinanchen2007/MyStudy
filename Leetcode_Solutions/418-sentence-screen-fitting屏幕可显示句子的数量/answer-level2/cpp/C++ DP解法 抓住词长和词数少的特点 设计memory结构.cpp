@@ -1,8 +1,8 @@
-动态规划解法 比较奇葩 关键是设计memory结构 抓住本题词数和词长都很小但rows cols很长的特点 见代码注释
+// 动态规划解法 比较奇葩 关键是设计memory结构 抓住本题词数和词长都很小但rows cols很长的特点 见代码注释
 
-时间复杂度为O(N) N与rows-cols同数量级
+// 时间复杂度为O(N) N与rows-cols同数量级
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int wordsTyping(vector<string>& sentence, int rows, int cols) {
@@ -36,4 +36,4 @@ public:
 	return count;
     }
 };
-```
+// ```

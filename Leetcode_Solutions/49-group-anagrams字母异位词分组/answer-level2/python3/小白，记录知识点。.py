@@ -1,11 +1,11 @@
-### 解题思路
-1.把字母进行排序
-2.字母排序后形成的是一个列表，如果要做成字典，需要将列表转化为字符串，str()函数。
-3.字典中为键赋值，dic[key].append()，生成字典用dict.setdeafault('key',[]),此时如果字典中已经有该键不重复设置，如果没有该健，添加新键。
-4dic.keys()对应所有的键，dic.values()对应所有的键值，获取键值利用dic['key']， key需要为字符串。
-### 代码
+# ### 解题思路
+# 1.把字母进行排序
+# 2.字母排序后形成的是一个列表，如果要做成字典，需要将列表转化为字符串，str()函数。
+# 3.字典中为键赋值，dic[key].append()，生成字典用dict.setdeafault('key',[]),此时如果字典中已经有该键不重复设置，如果没有该健，添加新键。
+# 4dic.keys()对应所有的键，dic.values()对应所有的键值，获取键值利用dic['key']， key需要为字符串。
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def groupAnagrams(self, strs):
         ans = []
@@ -20,4 +20,4 @@ class Solution(object):
         return ans
 
 
-```
+# ```

@@ -1,6 +1,6 @@
-* 遍历输入列表，用value做key，{value:[index1,index2...]}
-* 如果超过value长度，就拿出来放在 res 里
-```python
+# * 遍历输入列表，用value做key，{value:[index1,index2...]}
+# * 如果超过value长度，就拿出来放在 res 里
+# ```python
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         temp = {}
@@ -18,4 +18,4 @@ class Solution:
                 temp[value] = [index]
         res.extend([v for v in temp.values()])
         return res
-```
+# ```

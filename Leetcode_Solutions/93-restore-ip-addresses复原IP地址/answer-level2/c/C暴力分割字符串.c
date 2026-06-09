@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/aaa92bf654b4503ed244e60d52d6d4256f49c985deabdc3aeea60e416e06eef3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/aaa92bf654b4503ed244e60d52d6d4256f49c985deabdc3aeea60e416e06eef3-image.png)
 
-IP地址格式：xxx.xxx.xxx.xxx,其中 1 <= xxx <=255, 用3个.分割字符串，统计其中有效的ip地址
-要剔除长度大于1且以0开头的地址
+// IP地址格式：xxx.xxx.xxx.xxx,其中 1 <= xxx <=255, 用3个.分割字符串，统计其中有效的ip地址
+// 要剔除长度大于1且以0开头的地址
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -96,4 +96,4 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     
     return retStr;
 }
-```
+// ```

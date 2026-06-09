@@ -1,12 +1,12 @@
--   分别设计两个数组
-    -   保存从前开始各个字母的出现次数
-    -   保存从后开始各个字母的出现次数
--   只要次数匹配，则进行分割
--   中间的部分特别处理即可
+# -   分别设计两个数组
+#     -   保存从前开始各个字母的出现次数
+#     -   保存从后开始各个字母的出现次数
+# -   只要次数匹配，则进行分割
+# -   中间的部分特别处理即可
 
 
 
-```python
+# ```python
 class Solution:
     def longestDecomposition(self, text: str) -> int:
         if not text:
@@ -35,6 +35,6 @@ class Solution:
             ans += 1
 
         return ans
-```
+# ```
 
 

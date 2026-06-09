@@ -1,16 +1,16 @@
-### 解题思路
-大方向上是遍历数组+二分搜索
-但是加了一个减支优化条件
-```js
+// ### 解题思路
+// 大方向上是遍历数组+二分搜索
+// 但是加了一个减支优化条件
+// ```js
 if (i > 0 && nums[i] === nums[i - 1]) {
     continue;
 }
-```
-排除所有重复元素的干扰，可以在有大量重复元素的数据集中表现出色
+// ```
+// 排除所有重复元素的干扰，可以在有大量重复元素的数据集中表现出色
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var threeSumClosest = function (nums, target) {
     const len = nums.length;
     if (len < 3) {
@@ -38,4 +38,4 @@ var threeSumClosest = function (nums, target) {
     }
     return res;
 };
-```
+// ```

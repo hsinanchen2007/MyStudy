@@ -1,5 +1,5 @@
-测试类分享给大家：
-```
+// 测试类分享给大家：
+// ```
 public class Test {
     public static void main(String[] args) {
         Foo foo = new Foo();
@@ -54,9 +54,9 @@ public class Test {
         t1.start();
     }
 }
-```
-解体思路有很多种分享一种比较简单容易理解的方式：
-```
+// ```
+// 解体思路有很多种分享一种比较简单容易理解的方式：
+// ```
 public class Foo {
 
     private CountDownLatch countDownLatchA;
@@ -87,9 +87,9 @@ public class Foo {
     }
 
 }
-```
-**countDownLatch**这个类使一个线程等待其他线程各自执行完毕后再执行。
-是通过一个计数器来实现的，计数器的初始值是线程的数量。每当一个线程执行完毕后，计数器的值就-1，当计数器的值为0时，表示所有线程都执行完毕，然后在闭锁上等待的线程就可以恢复工作了。
-涉及api有：
-1. await():等待
-2. countDown():减一
+// ```
+// **countDownLatch**这个类使一个线程等待其他线程各自执行完毕后再执行。
+// 是通过一个计数器来实现的，计数器的初始值是线程的数量。每当一个线程执行完毕后，计数器的值就-1，当计数器的值为0时，表示所有线程都执行完毕，然后在闭锁上等待的线程就可以恢复工作了。
+// 涉及api有：
+// 1. await():等待
+// 2. countDown():减一

@@ -1,9 +1,9 @@
-### 解题思路
-循环B次  每次加上A
+// ### 解题思路
+// 循环B次  每次加上A
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int multiply(int A, int B) {
@@ -16,4 +16,4 @@ public:
         return A;
     }
 };
-```
+// ```

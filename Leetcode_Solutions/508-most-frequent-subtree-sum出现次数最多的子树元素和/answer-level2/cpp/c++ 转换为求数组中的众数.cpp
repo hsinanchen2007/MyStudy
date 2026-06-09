@@ -1,9 +1,9 @@
-### 解题思路
-递归求解出每个节点的值，放于一个vector中，转换为求数组中的众数
+// ### 解题思路
+// 递归求解出每个节点的值，放于一个vector中，转换为求数组中的众数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -57,4 +57,4 @@ public:
         return root->val;
     }
 };
-```
+// ```

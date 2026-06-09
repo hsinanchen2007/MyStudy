@@ -1,9 +1,9 @@
-### 解题思路
-复制一个东西, 仔细想一下, 很简单, 只需要把每个节点复制, 然后组装每个节点.这是通用解法
+// ### 解题思路
+// 复制一个东西, 仔细想一下, 很简单, 只需要把每个节点复制, 然后组装每个节点.这是通用解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -56,4 +56,4 @@ public Node copyRandomList(Node head) {
         return new Node(node.val);
     }
 }
-```
+// ```

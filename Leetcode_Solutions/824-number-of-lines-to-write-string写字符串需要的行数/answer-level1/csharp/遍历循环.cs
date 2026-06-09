@@ -1,9 +1,9 @@
-### 解题思路
-遍历循环，有大神提供更好的思路么？
+// ### 解题思路
+// 遍历循环，有大神提供更好的思路么？
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] NumberOfLines(int[] widths, string S) {
         int line=1;
@@ -30,4 +30,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

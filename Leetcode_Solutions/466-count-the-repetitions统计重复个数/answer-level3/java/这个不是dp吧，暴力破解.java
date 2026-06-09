@@ -1,9 +1,9 @@
-### 解题思路
-这个不是dp吧，官方的抽屉原理没看明白
+// ### 解题思路
+// 这个不是dp吧，官方的抽屉原理没看明白
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
  * Copyright (c) 2020
  * @Author:xiaoweixiang
@@ -35,4 +35,4 @@ public class Solution {
     }
 }
 
-```
+// ```

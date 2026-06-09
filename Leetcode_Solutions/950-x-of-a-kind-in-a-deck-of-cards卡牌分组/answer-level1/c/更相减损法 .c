@@ -1,8 +1,8 @@
-1. 先统计各个数字的个数
-2. 在求所有个数的最大公约数
-3. 大于2，返回true; 否则返回false
+// 1. 先统计各个数字的个数
+// 2. 在求所有个数的最大公约数
+// 3. 大于2，返回true; 否则返回false
 
-```
+// ```
 #define LEN 10000
 
 int getGcd(int a, int b)
@@ -44,5 +44,5 @@ bool hasGroupsSizeX(int* deck, int deckSize)
     }
     return true;
 }
-```
+// ```
 

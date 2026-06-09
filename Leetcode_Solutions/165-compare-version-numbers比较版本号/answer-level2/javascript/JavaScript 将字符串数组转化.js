@@ -1,7 +1,7 @@
-- 1、先转化字符串数组
-- 2、比较
+// - 1、先转化字符串数组
+// - 2、比较
 
-```js
+// ```js
 var compareVersion = function(version1, version2) {
     let arr1 = version1.split('.').map((data) => {
         // +data 将字符串变为整型
@@ -28,4 +28,4 @@ var compareVersion = function(version1, version2) {
 
     return 0;
 };
-```
+// ```

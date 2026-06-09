@@ -1,6 +1,6 @@
-![Capture.PNG](https://pic.leetcode-cn.com/dcbb9e7356548aa8c18ddc025b82837be0df48af8b80b0387b8a07e0da6e523f-Capture.PNG)
+// ![Capture.PNG](https://pic.leetcode-cn.com/dcbb9e7356548aa8c18ddc025b82837be0df48af8b80b0387b8a07e0da6e523f-Capture.PNG)
 
-```
+// ```
 vector<string> findWords(vector<string>& words) {
         vector<string> ret;
         for(auto str:words)
@@ -78,4 +78,4 @@ vector<string> findWords(vector<string>& words) {
         return ret;
     }
 
-```
+// ```

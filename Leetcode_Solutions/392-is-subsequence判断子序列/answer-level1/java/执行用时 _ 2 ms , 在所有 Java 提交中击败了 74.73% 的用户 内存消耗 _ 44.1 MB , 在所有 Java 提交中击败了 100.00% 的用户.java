@@ -1,9 +1,9 @@
-### 解题思路
-1)在t中依次遍历s中的字符，
-2)如果存在s中的字符不在t中的情况，return false
-### 代码
+// ### 解题思路
+// 1)在t中依次遍历s中的字符，
+// 2)如果存在s中的字符不在t中的情况，return false
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public  boolean isSubsequence(String s, String t) {
      
@@ -24,4 +24,4 @@ class Solution {
    空间复杂度：O(1)
 
 }
-```
+// ```

@@ -1,7 +1,7 @@
-送分题，二分查找，而且这次不用考虑miss的情况
+// 送分题，二分查找，而且这次不用考虑miss的情况
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int guessNumber(int n) {
@@ -21,4 +21,4 @@ public:
             return finish;
     }
 };
-```
+// ```

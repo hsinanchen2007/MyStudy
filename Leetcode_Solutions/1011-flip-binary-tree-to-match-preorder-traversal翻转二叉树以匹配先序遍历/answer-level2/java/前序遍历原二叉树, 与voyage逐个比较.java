@@ -1,7 +1,7 @@
-前序遍历中, 当前节点必须等于voyage当前索引(```index```)的值, 不相等则二叉树翻转无效, 反回-1.
+// 前序遍历中, 当前节点必须等于voyage当前索引(```index```)的值, 不相等则二叉树翻转无效, 反回-1.
 
 
-```java
+// ```java
 public List<Integer> flipMatchVoyage(TreeNode root, int[] voyage) {
     List<Integer> list = new LinkedList<>();
 
@@ -45,4 +45,4 @@ public List<Integer> flipMatchVoyage(TreeNode root, int[] voyage) {
 
     return list;
 }
-```
+// ```

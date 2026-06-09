@@ -1,11 +1,11 @@
-**当字符串为空时，返回空集； 当字符串长度为1时，返回("a", "b", "c")；** 
+// **当字符串为空时，返回空集； 当字符串长度为1时，返回("a", "b", "c")；** 
 
-**当字符串长度为2时，返回combination(("a", "b", "c"), ("d", "e", "f"))；**
+// **当字符串长度为2时，返回combination(("a", "b", "c"), ("d", "e", "f"))；**
 
-**其他情况时，使output为combination(("a", "b", "c"), ("d", "e", "f"))，从digits.charAt(2)开始，计算output = combination(output, map.get(digits.charAt(i)))**
+// **其他情况时，使output为combination(("a", "b", "c"), ("d", "e", "f"))，从digits.charAt(2)开始，计算output = combination(output, map.get(digits.charAt(i)))**
 
 
-```
+// ```
 public static List<String> letterCombinations(String digits) {
         Map<Character, List> map = new HashMap<>();
         map.put('2', Arrays.asList("a", "b", "c"));
@@ -46,4 +46,4 @@ public static List<String> letterCombinations(String digits) {
         }
         return list;
     }
-```
+// ```

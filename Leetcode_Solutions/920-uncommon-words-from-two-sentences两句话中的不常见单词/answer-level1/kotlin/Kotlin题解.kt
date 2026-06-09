@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 private fun String?.uncommonFromSentences(b: String): Array<String> {
     this ?: return emptyArray()
     return ("$this $b").split(" ")
@@ -7,4 +7,4 @@ private fun String?.uncommonFromSentences(b: String): Array<String> {
             .keys
             .toTypedArray()
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
         return (!root)? NULL:(root->val==val? root :(root->val>val)?searchBST(root->left,val):searchBST(root->right,val));
     }
 };
-```
+// ```

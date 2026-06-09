@@ -1,9 +1,9 @@
-### 解题思路
-学习**官方题解**
+# ### 解题思路
+# 学习**官方题解**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 ##### 感谢官方题解
 #递归深度设置
 import sys
@@ -47,4 +47,4 @@ class Solution:
 #             self.delandsort(nums,m,ln)
 #             return nums
         
-```
+# ```

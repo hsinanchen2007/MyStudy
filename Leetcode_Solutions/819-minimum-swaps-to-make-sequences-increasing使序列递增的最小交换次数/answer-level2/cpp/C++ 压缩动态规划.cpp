@@ -1,7 +1,7 @@
-只需要保存两个状态变量即可：
-1，保持该位置的数字不变，截止到现在的最优解
-2，交换该位置的两个数字，截止到现在的最优解
-```
+// 只需要保存两个状态变量即可：
+// 1，保持该位置的数字不变，截止到现在的最优解
+// 2，交换该位置的两个数字，截止到现在的最优解
+// ```
 class Solution {
 public:
     int minSwap(vector<int>& A, vector<int>& B) {
@@ -26,5 +26,5 @@ public:
         return min(res_swap, res_keep);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/0ec71605255b859eb892ac101b34e80f0d481fde218b0d141373cd7cf1f8080f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0ec71605255b859eb892ac101b34e80f0d481fde218b0d141373cd7cf1f8080f-image.png)

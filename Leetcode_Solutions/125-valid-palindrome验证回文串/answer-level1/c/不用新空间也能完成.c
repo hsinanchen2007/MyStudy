@@ -1,4 +1,4 @@
-```
+// ```
 bool isPalindrome(char * s){
 	bool flag = false;
 	int len = strlen(s);
@@ -41,4 +41,4 @@ bool isPalindrome(char * s){
 	return flag;
 }
 
-```
+// ```

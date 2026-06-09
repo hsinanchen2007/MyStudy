@@ -1,9 +1,9 @@
-### 解题思路
-用一个大顶堆，每次拿堆顶元素
+// ### 解题思路
+// 用一个大顶堆，每次拿堆顶元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
          if (k == 0 || nums.length == 0) {
@@ -31,4 +31,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

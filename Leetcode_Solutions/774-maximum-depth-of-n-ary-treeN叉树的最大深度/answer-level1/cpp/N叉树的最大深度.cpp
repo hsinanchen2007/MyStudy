@@ -1,7 +1,7 @@
-# 迭代
-广度优先搜索
-程序如下：
-```cpp
+// # 迭代
+// 广度优先搜索
+// 程序如下：
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -46,14 +46,14 @@ public:
         return res;
     }
 };
-```
+// ```
 
-时空代价高。
+// 时空代价高。
 
-# 递归
-还是递归好。
-程序如下：
-```cpp
+// # 递归
+// 还是递归好。
+// 程序如下：
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -89,4 +89,4 @@ public:
         return res + 1;
     }
 };
-```
+// ```

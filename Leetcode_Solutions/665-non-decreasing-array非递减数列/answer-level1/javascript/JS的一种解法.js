@@ -1,6 +1,6 @@
-只需遍历一遍数组，时间复杂度O(N)。
+// 只需遍历一遍数组，时间复杂度O(N)。
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -42,4 +42,4 @@ var checkPossibility = function(nums) {
     }
     
 };
-```
+// ```

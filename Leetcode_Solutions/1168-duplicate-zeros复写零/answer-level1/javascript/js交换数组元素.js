@@ -1,5 +1,5 @@
-找到0就把后面的数组都向后移动一位
-```
+// 找到0就把后面的数组都向后移动一位
+// ```
 var duplicateZeros = function(arr) {
   let n = arr.length
   for (let i = 0; i < n - 1; i++) {
@@ -12,4 +12,4 @@ var duplicateZeros = function(arr) {
     }
   }
 }
-```
+// ```

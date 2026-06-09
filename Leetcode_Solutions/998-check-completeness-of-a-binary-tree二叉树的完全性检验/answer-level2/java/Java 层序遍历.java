@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-使用层序遍历，这里将根节点的null节点也加入了Queue，等同于遍历了h+1层。
+// 使用层序遍历，这里将根节点的null节点也加入了Queue，等同于遍历了h+1层。
 
-当出现第一个null节点，记录。如果出现null节点后还出现了非Null节点，表示节点不是全部都靠左或1~h-1层未全满，返回false。
+// 当出现第一个null节点，记录。如果出现null节点后还出现了非Null节点，表示节点不是全部都靠左或1~h-1层未全满，返回false。
 
-```
+// ```
 class Solution {
     public boolean isCompleteTree(TreeNode root) {
         if (root == null) return false;
@@ -31,4 +31,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-想把两种情况合并的，结果做到后面心态爆炸了。第三种怎么都揉不到一起。。。。
+# ### 解题思路
+# 想把两种情况合并的，结果做到后面心态爆炸了。第三种怎么都揉不到一起。。。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         '''
@@ -78,4 +78,4 @@ class Solution:
                     hw_max=len(results)
             i+=1
         return results
-```
+# ```

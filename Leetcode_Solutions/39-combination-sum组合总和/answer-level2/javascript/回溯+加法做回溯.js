@@ -1,8 +1,8 @@
-### 解题思路
-通过排序后，做的加法剪枝。不排序会出现误减的问题，暂时还不会...
-### 代码
+// ### 解题思路
+// 通过排序后，做的加法剪枝。不排序会出现误减的问题，暂时还不会...
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} candidates
  * @param {number} target
@@ -26,4 +26,4 @@ var combinationSum = function(candidates, target) {
         }
     }
 };
-```
+// ```

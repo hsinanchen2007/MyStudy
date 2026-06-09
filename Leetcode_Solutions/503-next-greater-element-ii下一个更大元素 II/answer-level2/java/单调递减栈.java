@@ -1,12 +1,12 @@
-### 解题思路
-求出最大值
-维护单调递减栈
-求栈剩余元素
-    最大元素
-    待循环遍历元素
-### 代码
+// ### 解题思路
+// 求出最大值
+// 维护单调递减栈
+// 求栈剩余元素
+//     最大元素
+//     待循环遍历元素
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
         int [] output = new int[nums.length];
@@ -38,4 +38,4 @@ class Solution {
         return output;
     }
 }
-```
+// ```

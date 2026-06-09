@@ -1,5 +1,5 @@
-参考：[https://leetcode-cn.com/problems/sort-list/solution/148-pai-xu-lian-biao-bottom-to-up-o1-kong-jian-by-/]()
-```
+# 参考：[https://leetcode-cn.com/problems/sort-list/solution/148-pai-xu-lian-biao-bottom-to-up-o1-kong-jian-by-/]()
+# ```
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -82,4 +82,4 @@ while ans:
     print(ans.val)
     ans = ans.next
 
-```
+# ```

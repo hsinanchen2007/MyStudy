@@ -1,10 +1,10 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/26d97dba2cce8e27e58dcde16266d51f8e6330299f731ba568fb10ba0761a64c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/26d97dba2cce8e27e58dcde16266d51f8e6330299f731ba568fb10ba0761a64c-image.png)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn repeated_n_times(a: Vec<i32>) -> i32 {
         let len = a.len();
@@ -17,4 +17,4 @@ impl Solution {
     }
 }
 
-```
+// ```

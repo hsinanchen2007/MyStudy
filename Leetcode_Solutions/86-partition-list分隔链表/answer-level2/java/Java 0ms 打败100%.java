@@ -1,4 +1,4 @@
-```java
+// ```java
     public static ListNode partition(ListNode head, int x) {
         if (head == null || head.next == null) {
             return head;
@@ -23,4 +23,4 @@
         dummyGreat.next = null;
         return d1.next;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-双指针寻找链表中间节点，将链表分割成两个链表h1,h2，然后递归分割，直到不可分（链表为空或只有一个节点），递归归并。
-```
+// 双指针寻找链表中间节点，将链表分割成两个链表h1,h2，然后递归分割，直到不可分（链表为空或只有一个节点），递归归并。
+// ```
 class Solution {
     ListNode* mergeList(ListNode *h1, ListNode *h2){
         ListNode *p, H(-1);
@@ -27,4 +27,4 @@ public:
         return mergeList(sortList(H.next),sortList(p));
     }
 };
-```
+// ```

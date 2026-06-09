@@ -1,5 +1,5 @@
-22! 中，5的倍数的有Math.floor(22/5)=4个，分别是5 10 15 20。
-```javascript
+// 22! 中，5的倍数的有Math.floor(22/5)=4个，分别是5 10 15 20。
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -17,4 +17,4 @@ var trailingZeroes = function(n) {
     }
     return count;
 };
-```
+// ```

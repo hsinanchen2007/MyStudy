@@ -1,11 +1,11 @@
-### 解题思路
-简单背包，动态规划解决
-![码农黑板报.png](https://pic.leetcode-cn.com/287299e9f22c81d5bd92396e9cc78e440e831357600172130655de1b1defdba9-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)
+// ### 解题思路
+// 简单背包，动态规划解决
+// ![码农黑板报.png](https://pic.leetcode-cn.com/287299e9f22c81d5bd92396e9cc78e440e831357600172130655de1b1defdba9-%E7%A0%81%E5%86%9C%E9%BB%91%E6%9D%BF%E6%8A%A5.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int waysToChange(int n) {
@@ -29,4 +29,4 @@ public:
         return dp[3][n];
     }
 };
-```
+// ```

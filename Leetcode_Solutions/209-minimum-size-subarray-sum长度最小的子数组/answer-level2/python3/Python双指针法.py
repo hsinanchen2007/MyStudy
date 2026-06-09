@@ -1,9 +1,9 @@
-### 解题思路
-逻辑一般都很清晰，搞清楚初始边界条件即可
+# ### 解题思路
+# 逻辑一般都很清晰，搞清楚初始边界条件即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minSubArrayLen(self, s, nums):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 tot -= nums[i]
                 i += 1
         return res
-```
+# ```

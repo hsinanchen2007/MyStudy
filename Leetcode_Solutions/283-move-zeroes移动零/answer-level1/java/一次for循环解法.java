@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         int index = 0;
@@ -10,4 +10,4 @@ class Solution {
         }
     }
 }
-```
+// ```

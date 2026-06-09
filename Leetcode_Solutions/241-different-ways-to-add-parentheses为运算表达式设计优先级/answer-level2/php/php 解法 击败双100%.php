@@ -1,6 +1,6 @@
-![微信截图_20191031182724.png](https://pic.leetcode-cn.com/b7ddf312c09b7f3bb32b0dedf8fbad168d6d7439b27c7d2bd6f8fbddd8c6e2a4-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191031182724.png)
+// ![微信截图_20191031182724.png](https://pic.leetcode-cn.com/b7ddf312c09b7f3bb32b0dedf8fbad168d6d7439b27c7d2bd6f8fbddd8c6e2a4-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20191031182724.png)
 
-```
+// ```
 class Solution {
     
     private $op = []; // 运算符数组
@@ -40,4 +40,4 @@ class Solution {
         return $res;
     }
 }
-```
+// ```

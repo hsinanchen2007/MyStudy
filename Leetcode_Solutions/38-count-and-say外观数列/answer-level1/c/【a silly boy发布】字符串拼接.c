@@ -1,6 +1,6 @@
-![F985B738-DAA9-4D5B-A830-B32E0C366E2C.jpeg](https://pic.leetcode-cn.com/3704c9ba4edd60e27ede4a2952e8c05e82990b816cf9ac070184e3d1dd959f9e-F985B738-DAA9-4D5B-A830-B32E0C366E2C.jpeg)
+// ![F985B738-DAA9-4D5B-A830-B32E0C366E2C.jpeg](https://pic.leetcode-cn.com/3704c9ba4edd60e27ede4a2952e8c05e82990b816cf9ac070184e3d1dd959f9e-F985B738-DAA9-4D5B-A830-B32E0C366E2C.jpeg)
 
-```
+// ```
 // 1----11
 // 2----12
 //11----21
@@ -56,4 +56,4 @@ char * countAndSay(int n)
 
 }
     return returnStr;
-```
+// ```

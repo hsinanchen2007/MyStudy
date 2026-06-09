@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         temp = [0] + flowerbed + [0]
@@ -7,4 +7,4 @@ class Solution:
                 temp[i] = 1
                 n-=1
         return n<=0
-```
+# ```

@@ -1,8 +1,8 @@
-其他解法待补充！
-递归解法：
+// 其他解法待补充！
+// 递归解法：
 
-代码：
-```
+// 代码：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -22,4 +22,4 @@ public:
         return left ? left : right;
     }
 };
-```
+// ```

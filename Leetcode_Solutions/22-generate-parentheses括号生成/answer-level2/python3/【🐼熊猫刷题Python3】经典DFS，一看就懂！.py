@@ -1,10 +1,10 @@
-![leetcode.png](https://pic.leetcode-cn.com/cdc32fc07d5e209c1d6235f8ae0a9e926f3d2a1bb07c6d81092df4cf9bf7b192-leetcode.png)
-⏲阅读大约需要 3min
+# ![leetcode.png](https://pic.leetcode-cn.com/cdc32fc07d5e209c1d6235f8ae0a9e926f3d2a1bb07c6d81092df4cf9bf7b192-leetcode.png)
+# ⏲阅读大约需要 3min
 
-🔑解题思路就是经典的 DFS ,要点已经写在注释中
+# 🔑解题思路就是经典的 DFS ,要点已经写在注释中
 
-## 🐼代码部分
-```python3
+# ## 🐼代码部分
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def dfs(cur, l_num, r_num):
@@ -22,8 +22,8 @@ class Solution:
         res = []
         dfs('', n, n)
         return res
-```
+# ```
 
-**如果你喜欢这条题解的话，欢迎点赞**👍 **收藏**🧡 **转发**📧 **评论**💬
-**你的鼓励是我持续创作的动力**
-**(゜-゜)つロ 干杯~**
+# **如果你喜欢这条题解的话，欢迎点赞**👍 **收藏**🧡 **转发**📧 **评论**💬
+# **你的鼓励是我持续创作的动力**
+# **(゜-゜)つロ 干杯~**

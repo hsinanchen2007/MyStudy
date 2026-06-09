@@ -1,8 +1,8 @@
-### 解题思路
-原链表上三指针顺序反转，无额外空间占用
-### 代码
+// ### 解题思路
+// 原链表上三指针顺序反转，无额外空间占用
+// ### 代码
 
-```rust
+// ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
@@ -42,4 +42,4 @@ impl Solution {
         last
     }
 }
-```
+// ```

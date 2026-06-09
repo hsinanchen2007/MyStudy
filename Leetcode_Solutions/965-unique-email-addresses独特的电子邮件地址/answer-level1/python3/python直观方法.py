@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numUniqueEmails(self, emails: list):
         ans = []
@@ -13,4 +13,4 @@ class Solution:
                     break
             ans.append(first+"@"+tmp_second)
         return len(set(ans))
-```
+# ```

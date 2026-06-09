@@ -1,6 +1,6 @@
-### 执行用时 :3 ms, 在所有 Java 提交中击败了87.91%的用户
-### 内存消耗 :43.3 MB, 在所有 Java 提交中击败了54.29%的用户
-```
+// ### 执行用时 :3 ms, 在所有 Java 提交中击败了87.91%的用户
+// ### 内存消耗 :43.3 MB, 在所有 Java 提交中击败了54.29%的用户
+// ```
     public int[][] insert(int[][] intervals, int[] newInterval){
     	List<int[]> res = new LinkedList<int[]>();
     	int i = 0;
@@ -35,4 +35,4 @@
     	}
     	return res.toArray(new int[0][]);
     }
-```
+// ```

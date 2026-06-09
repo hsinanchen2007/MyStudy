@@ -1,7 +1,7 @@
-### 合并排序数组
+# ### 合并排序数组
 
 
-```
+# ```
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
                 n-=1
             L-=1
         A[0:n]=B[0:n]
-```
+# ```

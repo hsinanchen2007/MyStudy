@@ -1,9 +1,9 @@
-### 解题思路
-用双队列实现栈
+// ### 解题思路
+// 用双队列实现栈
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define LEN 20
 typedef struct queue{
     int *data;
@@ -122,4 +122,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

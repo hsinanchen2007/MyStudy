@@ -1,6 +1,6 @@
-使用二分查找求解，时间复杂度为O(nlogn)
+// 使用二分查找求解，时间复杂度为O(nlogn)
 
-```
+// ```
 var twoSum = function(numbers, target) {
     for(i = 0; i< numbers.length; i++){
         let other = target - numbers[i];
@@ -27,4 +27,4 @@ const binarySearch = function (numbers,target){
     }
     return -1;
 }
-```
+// ```

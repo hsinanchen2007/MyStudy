@@ -1,6 +1,6 @@
-一、正则计数， `/(\d)\1*/g` (反向引用)可以捕获相同数字。
+// 一、正则计数， `/(\d)\1*/g` (反向引用)可以捕获相同数字。
 
-```
+// ```
 var countAndSay = function(n) {
   if(n==1) return '1'
   function say(str){
@@ -15,9 +15,9 @@ var countAndSay = function(n) {
 
   return say(countAndSay(n-1))
 };
-```
-二、循环计数
-```
+// ```
+// 二、循环计数
+// ```
 var countAndSay = function (n) {
   if (n == 1) return '1'
   function say(str) {
@@ -36,4 +36,4 @@ var countAndSay = function (n) {
 
   return say(countAndSay(n - 1))
 };
-```
+// ```

@@ -1,10 +1,10 @@
-#### 方法一： 堆【通过】
+# #### 方法一： 堆【通过】
 
-**思路和算法**
+# **思路和算法**
 
-用优先队列保存下一步可以游向的平台，每次都选择高度最小的平台。以这种方式到达终点时，路径中遇到的最高平台就是答案。
+# 用优先队列保存下一步可以游向的平台，每次都选择高度最小的平台。以这种方式到达终点时，路径中遇到的最高平台就是答案。
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public int swimInWater(int[][] grid) {
         int N = grid.length;
@@ -36,9 +36,9 @@ class Solution {
         throw null;
     }
 }
-```
+# ```
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def swimInWater(self, grid):
         N = len(grid)
@@ -54,21 +54,21 @@ class Solution(object):
                 if 0 <= cr < N and 0 <= cc < N and (cr, cc) not in seen:
                     heapq.heappush(pq, (grid[cr][cc], cr, cc))
                     seen.add((cr, cc))
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度： $O(N^2 \log N)$。最大需要经过 $O(N^2)$ 个节点，每个节点需要 $O(\log N)$ 的时间来完成堆操作。
+# * 时间复杂度： $O(N^2 \log N)$。最大需要经过 $O(N^2)$ 个节点，每个节点需要 $O(\log N)$ 的时间来完成堆操作。
 
-* 空间复杂度： $O(N^2)$，其为堆的最大值。
+# * 空间复杂度： $O(N^2)$，其为堆的最大值。
 
-#### 方法二： 二分搜索 + 深度优先搜索 【通过】
+# #### 方法二： 二分搜索 + 深度优先搜索 【通过】
 
-**思路和算法**
+# **思路和算法**
 
-可以发现是否能完成是根据时间的单调函数，因此可以用二分搜索来找到最少耗时。即找到最小 `T` 使得从起点游到终点成为可能。设最少耗时为 `T`，用深度优先搜索来检查是否有可能从起点游到终点。
+# 可以发现是否能完成是根据时间的单调函数，因此可以用二分搜索来找到最少耗时。即找到最小 `T` 使得从起点游到终点成为可能。设最少耗时为 `T`，用深度优先搜索来检查是否有可能从起点游到终点。
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class Solution {
     public int swimInWater(int[][] grid) {
         int N = grid.length;
@@ -113,9 +113,9 @@ class Solution {
         return false;
     }
 }
-```
+# ```
 
-```python [solution2-Python]
+# ```python [solution2-Python]
 class Solution(object):
     def swimInWater(self, grid):
         N = len(grid)
@@ -141,11 +141,11 @@ class Solution(object):
             else:
                 hi = mi
         return lo
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2 \log N)$。深度优先搜索的复杂度为 $O(N^2)$，最多需要搜索 $O(\log N)$ 次。
+# * 时间复杂度：$O(N^2 \log N)$。深度优先搜索的复杂度为 $O(N^2)$，最多需要搜索 $O(\log N)$ 次。
 
-* 空间复杂度：$O(N^2)$，栈的大小。
+# * 空间复杂度：$O(N^2)$，栈的大小。

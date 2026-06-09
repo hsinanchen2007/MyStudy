@@ -1,9 +1,9 @@
-### 解题思路
-面积关系rain=whole-body-air
+# ### 解题思路
+# 面积关系rain=whole-body-air
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         if not height:
@@ -43,4 +43,4 @@ class Solution:
         #     i -= 1
         
         return whole - body - acc
-```
+# ```

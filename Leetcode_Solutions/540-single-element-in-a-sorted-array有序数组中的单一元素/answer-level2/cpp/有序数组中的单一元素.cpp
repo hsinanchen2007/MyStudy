@@ -1,6 +1,6 @@
-一般二分查找法
+// 一般二分查找法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //二分法，因为要找的这个数将数组分割成两半
@@ -27,4 +27,4 @@ public:
         return nums[low];
     }
 };
-```
+// ```

@@ -1,14 +1,14 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/db64adb5a0f18d1609a3f43f396125d5997ff9a69d71a3210cbe91f6e8b9b785-image.png)
+// ![image.png](https://pic.leetcode-cn.com/db64adb5a0f18d1609a3f43f396125d5997ff9a69d71a3210cbe91f6e8b9b785-image.png)
 
-### 解题思路
+// ### 解题思路
 
-统计奇数个数和偶数个数
+// 统计奇数个数和偶数个数
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::cmp::min;
 
 impl Solution {
@@ -25,4 +25,4 @@ impl Solution {
         min(even_count, len as i32 - even_count)
     }
 }
-```
+// ```

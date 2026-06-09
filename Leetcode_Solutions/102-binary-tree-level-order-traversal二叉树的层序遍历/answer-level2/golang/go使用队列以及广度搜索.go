@@ -1,5 +1,5 @@
-懒得使用数组了
-```
+// 懒得使用数组了
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -38,4 +38,4 @@ func levelOrder(root *TreeNode) [][]int {
 	}
 	return result
 }
-```
+// ```

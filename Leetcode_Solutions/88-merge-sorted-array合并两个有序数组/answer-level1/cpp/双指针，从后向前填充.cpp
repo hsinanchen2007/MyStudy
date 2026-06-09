@@ -1,9 +1,9 @@
-### 解题思路
-与字符串中遇到空格然后填充某字符串类似。设置双指针，从后向前遍历。
+// ### 解题思路
+// 与字符串中遇到空格然后填充某字符串类似。设置双指针，从后向前遍历。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -24,4 +24,4 @@ public:
         if(j>=0){while(j>=0){nums1[k]=nums2[j];k--;j--;}}
     }
 };
-```
+// ```

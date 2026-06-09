@@ -1,9 +1,9 @@
-### 解题思路
-遍历+最大堆
+// ### 解题思路
+// 遍历+最大堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func kthSmallest(matrix [][]int, k int) int {
 	maxHeap := &IntMaxHeap{}
 	for _, row := range matrix {
@@ -45,4 +45,4 @@ func (pq *IntMaxHeap) Pop() interface{} {
 func (pq *IntMaxHeap) Peek() int {
 	return (*pq)[0]
 }
-```
+// ```

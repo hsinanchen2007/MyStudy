@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-for遍历， target减每一个元素的到得值通过lastIndexOf，看numbers中存在吗？同时过滤掉索引相同得值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// for遍历， target减每一个元素的到得值通过lastIndexOf，看numbers中存在吗？同时过滤掉索引相同得值
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -19,4 +19,4 @@ var twoSum = function (numbers, target) {
         }
     }
 };
-```
+// ```

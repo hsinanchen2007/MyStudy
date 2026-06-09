@@ -1,12 +1,12 @@
-### 解题思路
-主要考虑边界的特殊情况即可，防止溢出
+// ### 解题思路
+// 主要考虑边界的特殊情况即可，防止溢出
 
-执行用时 :4 ms, 在所有 C 提交中击败了97.82%的用户
-内存消耗 :5.6 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :4 ms, 在所有 C 提交中击败了97.82%的用户
+// 内存消耗 :5.6 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target)
 {
     int i=0;
@@ -23,4 +23,4 @@ int searchInsert(int* nums, int numsSize, int target)
     }
     return i;
 }
-```
+// ```

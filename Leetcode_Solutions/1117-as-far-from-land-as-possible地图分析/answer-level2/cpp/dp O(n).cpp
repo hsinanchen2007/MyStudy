@@ -1,7 +1,7 @@
-1. 统计四个方向的mahaton距离；
-2. 通过递推公式 dp[i][j] = min(dp[i-1][j]+1,dp[i+1][j]+1,dp[i][j+1]+1,dp[i][j-1]+1);
+// 1. 统计四个方向的mahaton距离；
+// 2. 通过递推公式 dp[i][j] = min(dp[i-1][j]+1,dp[i+1][j]+1,dp[i][j+1]+1,dp[i][j-1]+1);
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -114,5 +114,5 @@ public:
         return ans;
     }
 };
-```
+// ```
 

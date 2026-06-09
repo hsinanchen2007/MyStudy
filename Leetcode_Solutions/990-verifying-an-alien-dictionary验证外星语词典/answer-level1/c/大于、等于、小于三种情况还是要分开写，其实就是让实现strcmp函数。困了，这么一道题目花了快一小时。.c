@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int charCmp(char a, char b , char *order)
 {
     
@@ -71,4 +71,4 @@ bool isAlienSorted(char ** words, int wordsSize, char * order){
     }
     return true;
 }
-```
+// ```

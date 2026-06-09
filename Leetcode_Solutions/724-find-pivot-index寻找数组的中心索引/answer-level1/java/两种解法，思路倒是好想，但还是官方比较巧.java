@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     /*
     这种暴力的方法是有点蠢但是能过！
@@ -53,4 +53,4 @@ class Solution {
         return result ;
     }
 }
-```
+// ```

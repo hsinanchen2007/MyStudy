@@ -1,5 +1,5 @@
-代码中，length是字符串的总长度，fre可以理解为频率，period可以理解为周期长度，f在for循环中表示第几个周期。
-```c
+// 代码中，length是字符串的总长度，fre可以理解为频率，period可以理解为周期长度，f在for循环中表示第几个周期。
+// ```c
 bool repeatedSubstringPattern(char * s){
     int length=0,fre,i,period,f,flag=0;
     while(s[length]!=0){
@@ -29,4 +29,4 @@ bool repeatedSubstringPattern(char * s){
     if(flag==1) return 1;
     else return 0;
 }
-```
+// ```

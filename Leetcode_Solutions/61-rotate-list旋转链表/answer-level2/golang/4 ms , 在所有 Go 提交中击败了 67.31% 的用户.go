@@ -1,11 +1,11 @@
-### 解题思路
-1. 将原链表形成一个闭环
-2. 查找偏移量 n - k % n - 1,这里运算优先级不要加括号
-3. 查找的闭环的末尾节点，并将节点断开
+// ### 解题思路
+// 1. 将原链表形成一个闭环
+// 2. 查找偏移量 n - k % n - 1,这里运算优先级不要加括号
+// 3. 查找的闭环的末尾节点，并将节点断开
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -34,4 +34,4 @@ func rotateRight(head *ListNode, k int) *ListNode {
     newTail.Next = nil
     return newHead
 }
-```
+// ```

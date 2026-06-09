@@ -1,5 +1,5 @@
 
-```
+// ```
 char * convert(char * s, int numRows){
     if (numRows == 1)
         return s;
@@ -31,5 +31,5 @@ char * convert(char * s, int numRows){
     return res;
 }
 
-```
+// ```
 

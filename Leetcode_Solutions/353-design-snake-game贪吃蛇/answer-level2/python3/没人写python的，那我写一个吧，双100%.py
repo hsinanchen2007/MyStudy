@@ -1,8 +1,8 @@
-通过一个`list`来维护蛇的身体，如果没吃到豆子就加上头去掉尾巴，吃到了就不去掉尾巴。
-注意有可能刚好撞到尾巴，要小心是否撞上身体的判定和维护蛇身的操作顺序。
-也可以通过`queue.Queue`来维护蛇的身体，但是问题在于`Queue`不是`iterable`，因此不好判断`if self.head in self.snake`，还需要再维护一个同步的`set`，等于`Queue`没用。。。
-代码如下：
-```python []
+# 通过一个`list`来维护蛇的身体，如果没吃到豆子就加上头去掉尾巴，吃到了就不去掉尾巴。
+# 注意有可能刚好撞到尾巴，要小心是否撞上身体的判定和维护蛇身的操作顺序。
+# 也可以通过`queue.Queue`来维护蛇的身体，但是问题在于`Queue`不是`iterable`，因此不好判断`if self.head in self.snake`，还需要再维护一个同步的`set`，等于`Queue`没用。。。
+# 代码如下：
+# ```python []
 class SnakeGame:
 
     def __init__(self, width: int, height: int, food):
@@ -38,4 +38,4 @@ class SnakeGame:
             return -1
         return self.score
 
-```
+# ```

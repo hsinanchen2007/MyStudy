@@ -1,6 +1,6 @@
-构造一个长度为numRows的数组，z子的每一行作为该数组的每一个元素
+// 构造一个长度为numRows的数组，z子的每一行作为该数组的每一个元素
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} numRows
@@ -24,4 +24,4 @@ var convert = function(s, numRows) {
    }
    return ans;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-动态规划：
-        dp[i] = max(dp[i - 1],  dp[i - 2] + nums[i])
+// ### 解题思路
+// 动态规划：
+//         dp[i] = max(dp[i - 1],  dp[i - 2] + nums[i])
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int rob(int* nums, int numsSize){
     if(numsSize < 1)
         return 0;
@@ -23,4 +23,4 @@ int rob(int* nums, int numsSize){
     free(dp);
     return ret;
 }
-```
+// ```

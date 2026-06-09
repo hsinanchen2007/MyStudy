@@ -1,4 +1,4 @@
-```c
+// ```c
 typedef struct {
     int maxSize;
     int size;
@@ -107,4 +107,4 @@ void myCircularQueueFree(MyCircularQueue* obj) {
  
  * myCircularQueueFree(obj);
 */
-```
+// ```

@@ -1,7 +1,7 @@
-一般dfs用的比较多的是回溯法，这里针对
-‘‘要么取节点左边的一串，要么取节点右边的一串进行分治’’
-这一特性
-```
+# 一般dfs用的比较多的是回溯法，这里针对
+# ‘‘要么取节点左边的一串，要么取节点右边的一串进行分治’’
+# 这一特性
+# ```
 class Solution:
     def smallestFromLeaf(self, root: TreeNode) -> str:
         if not root:
@@ -20,6 +20,6 @@ class Solution:
         
         return amas(root,'')
             
-```
+# ```
 
 

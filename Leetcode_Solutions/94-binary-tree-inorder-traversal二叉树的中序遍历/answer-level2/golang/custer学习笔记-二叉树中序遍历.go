@@ -1,7 +1,7 @@
-# 递归实现
-## 方法一
+// # 递归实现
+// ## 方法一
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -23,11 +23,11 @@ func inorder(root *TreeNode, output *[]int) {
     inorder(root.Right, output)
   }
 }
-```
+// ```
 
-## 方法二
+// ## 方法二
 
-```go
+// ```go
 // Time: O(n). Space: O(n) 最好情况下树的高度最小是O(logn)
 func inorderTraversal(root *TreeNode) []int {
     if root == nil { // 树为空时返回空的list
@@ -39,12 +39,12 @@ func inorderTraversal(root *TreeNode) []int {
     left = append(left, right...) // 再拼接右子树遍历的结果
     return left                   // 返回结果
 }
-```
+// ```
 
-# 非递归实现
-## 使用辅助栈的实现
+// # 非递归实现
+// ## 使用辅助栈的实现
 
-```go
+// ```go
 // Time: O(n). Space: O(n)
 func inorderTraversal(root *TreeNode) []int {
     var stack []*TreeNode // 辅助栈
@@ -62,11 +62,11 @@ func inorderTraversal(root *TreeNode) []int {
     }
     return res // 循环结束后返回结果list
 }
-```
+// ```
 
-## 不使用辅助栈的实现
+// ## 不使用辅助栈的实现
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -102,4 +102,4 @@ func inorderTraversal(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```

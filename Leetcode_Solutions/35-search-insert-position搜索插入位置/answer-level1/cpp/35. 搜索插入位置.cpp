@@ -1,5 +1,5 @@
-**二分查找准确值，若没有准确值，则返回其应该插入的位置**， 正好符合题意。
-```
+// **二分查找准确值，若没有准确值，则返回其应该插入的位置**， 正好符合题意。
+// ```
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -16,4 +16,4 @@ public:
         return left;
     }
 };
-```
+// ```

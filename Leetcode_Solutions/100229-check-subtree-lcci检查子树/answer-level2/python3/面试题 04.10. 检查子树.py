@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def checkSubTree(self, t1: TreeNode, t2: TreeNode) -> bool:
         if t1 and t2:
@@ -12,4 +12,4 @@ class Solution:
         if not p:
             return False
         return p.val == q.val and self.isSame(p.left, q.left) and self.isSame(p.right, q.right)
-```
+# ```

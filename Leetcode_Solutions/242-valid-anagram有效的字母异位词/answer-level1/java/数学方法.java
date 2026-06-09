@@ -1,4 +1,4 @@
-```
+// ```
     public boolean isAnagram(String s, String t) {
         return Math.abs(sumChar(s) - sumChar(t)) < 0.0001;
     }
@@ -12,4 +12,4 @@
         }
         return sum;
     }
-```
+// ```

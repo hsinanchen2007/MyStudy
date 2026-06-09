@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *总体思路：
@@ -45,4 +45,4 @@ int** flipAndInvertImage( int** A , int ASize , int * AColSize ,
     return A;
 
 }
-```
+// ```

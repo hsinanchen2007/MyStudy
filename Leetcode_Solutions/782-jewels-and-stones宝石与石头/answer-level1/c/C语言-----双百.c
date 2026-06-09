@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numJewelsInStones(char * J, char * S){
 int m=strlen(J);
 int n=strlen(S);
@@ -16,4 +16,4 @@ for(i=0;i<m;i++){
 }
 return count;
 }
-```
+// ```

@@ -1,11 +1,11 @@
 
-解法一 贪心法
+// 解法一 贪心法
 
-思路：只有前面连续子序列之和sum大于0，sum + 后面的数才有可能是最大值。
-但是数组中所有元素有可能都是负数，所以最大值max 的初始值不能从0开始，具体步骤见代码。
+// 思路：只有前面连续子序列之和sum大于0，sum + 后面的数才有可能是最大值。
+// 但是数组中所有元素有可能都是负数，所以最大值max 的初始值不能从0开始，具体步骤见代码。
 
 
-```java
+// ```java
 
 public int maxSubArray(int[] nums) {
     int max = Integer.MIN_VALUE;
@@ -18,17 +18,17 @@ public int maxSubArray(int[] nums) {
     return max;
 }
 
-```
+// ```
 
-解法二 分治法
+// 解法二 分治法
 
-思路：对数组中的元素进行二分
-1. 求二分后左边元素的最大连续子序列和 maxLeft
-2. 求二分后右边元素的最大连续子序列和 maxRight
-3. 求 (以切分点为右端点且往左的最大连续子序列和 + 切分点为起始点往右最大连续子序列和) maxMid
-4. 比较maxLeft 、maxRight、maxMid之间的最大值作为当前分治子问题的最大子序列和
+// 思路：对数组中的元素进行二分
+// 1. 求二分后左边元素的最大连续子序列和 maxLeft
+// 2. 求二分后右边元素的最大连续子序列和 maxRight
+// 3. 求 (以切分点为右端点且往左的最大连续子序列和 + 切分点为起始点往右最大连续子序列和) maxMid
+// 4. 比较maxLeft 、maxRight、maxMid之间的最大值作为当前分治子问题的最大子序列和
 
-```java
+// ```java
 public int maxSubArray(int[] nums) {
     return maxSubArray(nums, 0, nums.length-1);
 }
@@ -50,4 +50,4 @@ private int maxSubArray(int[] nums, int left,int right) {
 	
     return Math.max(Math.max(leftMax, rightMax), midLeftMax + midRightMax);
 }
-```
+// ```

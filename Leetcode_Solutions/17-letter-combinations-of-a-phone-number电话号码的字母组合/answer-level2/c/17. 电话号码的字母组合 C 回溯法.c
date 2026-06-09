@@ -1,9 +1,9 @@
-### 解题思路
-回溯思路很容易理解，深度上数字索引，每个数字最多有4个孩子
+// ### 解题思路
+// 回溯思路很容易理解，深度上数字索引，每个数字最多有4个孩子
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE    10000
 
 typedef struct tagStack {
@@ -164,4 +164,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     *returnSize = bt.index;
     return bt.array;
 }
-```
+// ```

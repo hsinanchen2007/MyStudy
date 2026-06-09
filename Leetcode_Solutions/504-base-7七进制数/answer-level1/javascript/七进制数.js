@@ -1,6 +1,6 @@
-*法一：常规进制转换*
+// *法一：常规进制转换*
 
-```js
+// ```js
 var convertToBase7 = function(num) {
     if (num == 0) return '0';
     let str = '';
@@ -16,15 +16,15 @@ var convertToBase7 = function(num) {
     }
     return isPositiveNum ? str : '-' + str; 
 };
-```
+// ```
 
-*法二： 原生API*
+// *法二： 原生API*
 
-Number.prototype.toString([radix])
+// Number.prototype.toString([radix])
 
-```js
+// ```js
 var convertToBase7 = function(num) {
     return (num).toString(7);
 };
-```
+// ```
 

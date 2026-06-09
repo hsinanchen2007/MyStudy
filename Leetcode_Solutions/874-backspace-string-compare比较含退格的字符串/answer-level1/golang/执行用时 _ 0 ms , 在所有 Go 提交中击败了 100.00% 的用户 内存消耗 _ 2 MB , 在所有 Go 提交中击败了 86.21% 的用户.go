@@ -1,7 +1,7 @@
 
-不是#出栈，如果栈中有数据，否则进栈
+// 不是#出栈，如果栈中有数据，否则进栈
 
-```
+// ```
 func backspaceCompare(S string, T string) bool {
 
 	s := back(S)
@@ -33,4 +33,4 @@ func back(s string) string {
 	return builder.String()
 }
 
-```
+// ```

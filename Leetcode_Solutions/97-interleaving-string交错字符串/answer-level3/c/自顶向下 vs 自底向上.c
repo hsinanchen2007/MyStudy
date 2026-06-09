@@ -1,8 +1,8 @@
-//特征
-如果s3前缀(l3-1)是s1(l1-1)+s2(l2)前缀交错形成并且s3[len-1]==s1[l1-1]，
-或者是s1(l1)+s2(l2-1)前缀交错形成并且s3[len-1]==s2[l2-1]，则s3是由s1与s2交错形成。
+// //特征
+// 如果s3前缀(l3-1)是s1(l1-1)+s2(l2)前缀交错形成并且s3[len-1]==s1[l1-1]，
+// 或者是s1(l1)+s2(l2-1)前缀交错形成并且s3[len-1]==s2[l2-1]，则s3是由s1与s2交错形成。
 
-//自顶向下实现，较为符合人的思维
+// //自顶向下实现，较为符合人的思维
 bool isComp(char * s1, char * s2, char * s3, int l1, int l2, int l3);
 bool isComp(char * s1, char * s2, char * s3, int l1, int l2, int l3)
 {

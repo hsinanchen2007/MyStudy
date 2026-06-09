@@ -1,11 +1,11 @@
-**第二种效率高些，不同在意字符串和list的翻转**
+# **第二种效率高些，不同在意字符串和list的翻转**
 
-1.
-- - str.split() 拆分
-- list2.reverse() 反转
-- 拼接 rules.join(list)
+# 1.
+# - - str.split() 拆分
+# - list2.reverse() 反转
+# - 拼接 rules.join(list)
 
-```
+# ```
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -24,12 +24,12 @@ class Solution(object):
 
 print Solution().reverseWords("Let's take LeetCode contest")
 
-```
+# ```
 
-2. 处理唯一不同的是 字符串翻转
-L.append(i[::-1])
+# 2. 处理唯一不同的是 字符串翻转
+# L.append(i[::-1])
 
-```
+# ```
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -45,4 +45,4 @@ class Solution(object):
 
 print Solution().reverseWords("Let's take LeetCode contest")
 
-```
+# ```

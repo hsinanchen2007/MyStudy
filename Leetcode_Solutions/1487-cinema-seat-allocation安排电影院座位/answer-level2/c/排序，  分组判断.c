@@ -1,4 +1,4 @@
-```c
+// ```c
 
 int Cmp(const void* a, const void* b)
 {
@@ -60,4 +60,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
     return ret;
 }
 
-```
+// ```

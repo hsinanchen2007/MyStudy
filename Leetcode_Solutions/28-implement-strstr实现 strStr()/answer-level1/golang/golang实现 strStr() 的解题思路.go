@@ -1,8 +1,8 @@
-### 解题思路
-原生的`strings.Index(haystack, needle)`已经很简单了，如果要放弃原生来实现的话，就使用方法二或者方法三，注释里有详尽思路。
+// ### 解题思路
+// 原生的`strings.Index(haystack, needle)`已经很简单了，如果要放弃原生来实现的话，就使用方法二或者方法三，注释里有详尽思路。
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 // 方法一：
 // 执行用时 :0 ms, 在所有 Go 提交中击败了100.00% 的用户
 // 内存消耗 :2.3 MB, 在所有 Go 提交中击败了100.00%/65.96%的用户
@@ -88,4 +88,4 @@ func strStr3(haystack string, needle string) int {
 
 	return -1
 }
-```
+// ```

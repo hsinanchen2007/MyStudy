@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用滑动窗口的思想进行解题
+// 使用滑动窗口的思想进行解题
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
 	i, j := 1, 1
 	sum := 0
@@ -31,4 +31,4 @@ func findContinuousSequence(target int) [][]int {
 
 	return result
 }
-```
+// ```

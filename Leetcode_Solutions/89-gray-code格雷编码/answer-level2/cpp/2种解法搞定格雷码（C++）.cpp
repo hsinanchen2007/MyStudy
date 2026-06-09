@@ -1,8 +1,8 @@
-两种方法：
-1、搞清楚格雷编码的生成过程
-2、镜面反射法
+// 两种方法：
+// 1、搞清楚格雷编码的生成过程
+// 2、镜面反射法
 
-```C++
+// ```C++
 class Solution {
 public:
     vector<int> grayCode(int n) {
@@ -16,9 +16,9 @@ public:
         return rslts;
     }
 };
-```
+// ```
 
-```C++
+// ```C++
 class Solution {
 public:
     vector<int> grayCode(int n) {
@@ -40,4 +40,4 @@ public:
     }
 };
 */
-```
+// ```

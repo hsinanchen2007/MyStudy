@@ -1,12 +1,12 @@
-### 解题思路
-情况一：
-交换节点
-情况二：
-交换节点中的元素
+// ### 解题思路
+// 情况一：
+// 交换节点
+// 情况二：
+// 交换节点中的元素
 
-### 代码
-情况一：
-```cpp
+// ### 代码
+// 情况一：
+// ```cpp
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -42,10 +42,10 @@ public:
         return h->next;
     }
 };
-```
+// ```
 
-情况二：
-```cpp
+// 情况二：
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -74,4 +74,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -10,4 +10,4 @@ public:
         return !s.empty() && (s[0] == p[0] || p[0] == '.') && isMatch(s.substr(1), p.substr(1));
     }
 };
-```
+// ```

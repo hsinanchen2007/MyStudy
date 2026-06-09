@@ -1,12 +1,12 @@
-### 解题思路一
-DP公式为：
-dp[i][j][0] = max{x[i]+dp[i+1][j][1], dp[i][j-1][1]+x[j]} // 先手取左/右中最大的
-dp[i][j][1] = dp[i+1][j][0] // 如果先手取左边
-            or dp[i][j-1][0] // 如果先手取右边
+// ### 解题思路一
+// DP公式为：
+// dp[i][j][0] = max{x[i]+dp[i+1][j][1], dp[i][j-1][1]+x[j]} // 先手取左/右中最大的
+// dp[i][j][1] = dp[i+1][j][0] // 如果先手取左边
+//             or dp[i][j-1][0] // 如果先手取右边
  
-### 代码一
+// ### 代码一
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool stoneGame(vector<int>& piles) {
@@ -33,15 +33,15 @@ public:
         return dp[0][n-1][0] > dp[0][n-1][1];
     }
 };
-```
+// ```
 
-### 解题思路二
+// ### 解题思路二
 
-MinMax
+// MinMax
 
-### 代码二
+// ### 代码二
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool stoneGame(vector<int>& piles) {
@@ -64,4 +64,4 @@ public:
         return dp[0][n-1] > 0;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-mark一下，此题不会
+// ### 解题思路
+// mark一下，此题不会
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -12,4 +12,4 @@ public:
         return z % gcd(x, y) == 0;
     }
 };
-```
+// ```

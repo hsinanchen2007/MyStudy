@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int DFS(int num,int target,int k,int step)//num代表当前已经完成A的数目，k代表当前复制的数目
@@ -26,4 +26,4 @@ public:
         return DFS(1,n,0,0);
     }
 };
-```
+// ```

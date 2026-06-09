@@ -1,4 +1,4 @@
-```
+// ```
 // time: 80ms(32.79%) memory: 34MB(25.30%)
 /**
  * Definition for singly-linked list.
@@ -32,4 +32,4 @@ var removeNthFromEnd = function(head, n) {
 
     return res.next;
 };
-```
+// ```

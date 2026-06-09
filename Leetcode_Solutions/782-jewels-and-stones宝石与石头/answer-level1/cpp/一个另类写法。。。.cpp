@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -16,4 +16,4 @@ public:
 private:
     int nums[128]={0};
 };
-```
+// ```

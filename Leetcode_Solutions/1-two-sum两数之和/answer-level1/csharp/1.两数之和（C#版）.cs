@@ -1,4 +1,4 @@
-暴力法：简单明了
+// 暴力法：简单明了
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         for(int i=0;i<nums.Length;i++)

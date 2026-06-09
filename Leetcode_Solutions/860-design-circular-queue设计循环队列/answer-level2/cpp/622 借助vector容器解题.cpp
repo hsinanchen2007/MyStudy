@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <vector>
 
 using namespace std;
@@ -68,4 +68,4 @@ private:
     vector<int> *myQueue;
     int flagFront=0, flagRear=0;
 };
-```
+// ```

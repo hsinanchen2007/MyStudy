@@ -1,9 +1,9 @@
-### 解题思路
-字符串转数组，获取 needle 第一个元素在 haystack 中的位置，在保证从该位置开始往后的长度不小于 needle 的长度的情况下，将这些位置记录在一个指定数组 leng 中，最后个根据 leng 以及 needle 的长度，截取 haystack。对比截取后的字符串是否与 needle相同，返回此时 leng 的值
+// ### 解题思路
+// 字符串转数组，获取 needle 第一个元素在 haystack 中的位置，在保证从该位置开始往后的长度不小于 needle 的长度的情况下，将这些位置记录在一个指定数组 leng 中，最后个根据 leng 以及 needle 的长度，截取 haystack。对比截取后的字符串是否与 needle相同，返回此时 leng 的值
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -32,4 +32,4 @@ class Solution {
         return '-1';
     }
 }
-```
+// ```

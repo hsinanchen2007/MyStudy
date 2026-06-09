@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const void* a,const void* b){
     return *(int*)a>*(int*)b;
 }
@@ -26,4 +26,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize){
     //sSize-j为剩余的大的饼干数
     return min(gSize,n+sSize-j);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define NUM_10 10
 
 bool StartDeal(char * num1, char * num2)
@@ -76,4 +76,4 @@ char * multiply(char * num1, char * num2)
     free(num);
     return returnStr;
 }
-```
+// ```

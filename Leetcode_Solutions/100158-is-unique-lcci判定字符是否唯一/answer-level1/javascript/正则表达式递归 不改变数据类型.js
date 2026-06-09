@@ -1,9 +1,9 @@
-### 解题思路
-根据正则循环递归第一个和剩余字符串对比
+// ### 解题思路
+// 根据正则循环递归第一个和剩余字符串对比
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} astr
  * @return {boolean}
@@ -22,4 +22,4 @@ var isUnique = function(astr) {
     }
     return true
 };
-```
+// ```

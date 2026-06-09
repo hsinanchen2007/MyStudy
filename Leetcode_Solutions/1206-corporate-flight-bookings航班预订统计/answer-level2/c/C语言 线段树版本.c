@@ -1,6 +1,6 @@
-利用线段树的 `lazytag`来解决问题, 复杂度 O(nlogn)。 （不需要PUSH_UP宏， 因为不需要求区间最值、区间求和）
+// 利用线段树的 `lazytag`来解决问题, 复杂度 O(nlogn)。 （不需要PUSH_UP宏， 因为不需要求区间最值、区间求和）
 
-```c
+// ```c
 // 4倍空间大小
 #define SEGMENT_TREE_SIZE 40020
 
@@ -121,4 +121,4 @@ int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, 
     return ret;
 }
 
-```
+// ```

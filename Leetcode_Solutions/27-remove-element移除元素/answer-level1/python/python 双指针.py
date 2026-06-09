@@ -1,6 +1,6 @@
-语言：python
-第一种：采用双指针,使得数组中与目标相同的元素全放到数组后方。运行到代码的return left就能返回剩下数组的长度，return left之后是为了返回剩余的数组元素
-```python
+# 语言：python
+# 第一种：采用双指针,使得数组中与目标相同的元素全放到数组后方。运行到代码的return left就能返回剩下数组的长度，return left之后是为了返回剩余的数组元素
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -26,9 +26,9 @@ class Solution(object):
                 res += 1
             else:
                 return res
-```
-第二种方法，直接移除与目标相等的元素
-```python
+# ```
+# 第二种方法，直接移除与目标相等的元素
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -42,4 +42,4 @@ class Solution(object):
             else:
                 break
         return len(nums)
-```
+# ```

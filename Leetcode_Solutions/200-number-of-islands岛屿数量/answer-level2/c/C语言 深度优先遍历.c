@@ -1,9 +1,9 @@
-### 解题思路
-深度优先遍历
+// ### 解题思路
+// 深度优先遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(char** grid, int gridSize, int gridColSize, int i, int j) 
 {
     //先把陆地变成海洋
@@ -44,4 +44,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return numLands;
 }
-```
+// ```

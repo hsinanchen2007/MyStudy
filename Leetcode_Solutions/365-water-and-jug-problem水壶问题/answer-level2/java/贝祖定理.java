@@ -1,10 +1,10 @@
-### 解题思路
-如果 d=gcd(a,b) d 是 a,b 的最大公约数，那么对于任意整数 x,y 一定有 ax+by 是 d 的倍数。
-因此只需要找到 x,y 的最大公约数 d， 判断 z 是否是 d 的倍数
+// ### 解题思路
+// 如果 d=gcd(a,b) d 是 a,b 的最大公约数，那么对于任意整数 x,y 一定有 ax+by 是 d 的倍数。
+// 因此只需要找到 x,y 的最大公约数 d， 判断 z 是否是 d 的倍数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if (z == 0) {
@@ -35,4 +35,4 @@ class Solution {
         return gcd(n, m%n);
     }
 }
-```
+// ```

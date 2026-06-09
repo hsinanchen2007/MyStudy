@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numMagicSquaresInside(grid [][]int) int {
 	res:=0
 	for i:=0;i< len(grid)-2;i++{
@@ -59,4 +59,4 @@ func helpnumMagicSquaresInside(grid [][]int)bool{
 	return true
 }
 
-```
+// ```

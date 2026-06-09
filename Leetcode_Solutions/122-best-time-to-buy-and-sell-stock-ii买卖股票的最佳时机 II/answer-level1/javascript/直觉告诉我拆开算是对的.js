@@ -1,5 +1,5 @@
-大上升线段等于小上升线段之和
-```
+// 大上升线段等于小上升线段之和
+// ```
 var maxProfit = function(prices) {
     let sum=0;
     for(let i=1;i<prices.length;i++){
@@ -9,4 +9,4 @@ var maxProfit = function(prices) {
     }
     return sum;
 };
-```
+// ```

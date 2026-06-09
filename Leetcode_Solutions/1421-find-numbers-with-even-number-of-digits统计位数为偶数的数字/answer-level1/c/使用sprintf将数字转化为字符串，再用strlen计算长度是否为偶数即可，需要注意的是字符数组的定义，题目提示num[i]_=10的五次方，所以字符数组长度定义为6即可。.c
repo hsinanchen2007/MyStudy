@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findNumbers(int* nums, int numsSize){
     int count = 0;
     for(int i=0;i<numsSize;i++){
@@ -15,4 +15,4 @@ int findNumbers(int* nums, int numsSize){
     }
     return count;
 }
-```
+// ```

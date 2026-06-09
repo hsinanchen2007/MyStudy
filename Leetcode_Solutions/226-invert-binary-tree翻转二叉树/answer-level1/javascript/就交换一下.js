@@ -1,9 +1,9 @@
-### 解题思路
-判断是否存在树, 存在就进入递归, 用个中间变量进行左右交换, 用解构赋值也行就是时间久了点
+// ### 解题思路
+// 判断是否存在树, 存在就进入递归, 用个中间变量进行左右交换, 用解构赋值也行就是时间久了点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -25,4 +25,4 @@ var invertTree = function(root) {
    }
     return root
 };
-```
+// ```

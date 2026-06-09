@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void Add(int idx, int x) {
@@ -45,4 +45,4 @@ private:
 	int N;
 	vector<int> lowbit;
 };
-```
+// ```

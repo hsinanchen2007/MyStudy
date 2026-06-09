@@ -1,9 +1,9 @@
-顺序查找，时间复杂度O(n)；二分查找，时间复杂度O(logn)
+// 顺序查找，时间复杂度O(n)；二分查找，时间复杂度O(logn)
 
-采用二分查找，注意边界问题
+// 采用二分查找，注意边界问题
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
 	int searchInsert(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
 		return 0;
 	}
 };
-```
+// ```

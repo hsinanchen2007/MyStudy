@@ -1,10 +1,10 @@
-解题前我们首先要了解一下什么是**[前缀树](https://baike.baidu.com/item/%E5%AD%97%E5%85%B8%E6%A0%91/9825209?fromtitle=%E5%89%8D%E7%BC%80%E6%A0%91&fromid=2501595&fr=aladdin)**
+# 解题前我们首先要了解一下什么是**[前缀树](https://baike.baidu.com/item/%E5%AD%97%E5%85%B8%E6%A0%91/9825209?fromtitle=%E5%89%8D%E7%BC%80%E6%A0%91&fromid=2501595&fr=aladdin)**
 
-前缀数: 利用字符串的公共前缀来减少查询时间，最大限度地减少无谓的字符串比较。
+# 前缀数: 利用字符串的公共前缀来减少查询时间，最大限度地减少无谓的字符串比较。
 
-大概演示一下
+# 大概演示一下
 
-```shell
+# ```shell
 输入 a b c
 		root
 	   /
@@ -21,15 +21,15 @@
      /
     b
 # c 同理
-```
+# ```
 
-多亏了LeetCode又知道一个知识点了，谢谢！
+# 多亏了LeetCode又知道一个知识点了，谢谢！
 
-## 方法1：构建前缀树
+# ## 方法1：构建前缀树
 
-由于昨天刚刚做完那个[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)的题目知道可以用列表来代替多条边的情况，于是了解了什么是前缀树后就很好进行判断了，之前我还好奇，为啥search的时候app不算True，想了一下，大概应该要有个结点表示结束。于是我想到了用一个特殊的子结点作为结束的判断，就是在每次insert完当前字符串后再添加一个结点用于判断。
+# 由于昨天刚刚做完那个[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)的题目知道可以用列表来代替多条边的情况，于是了解了什么是前缀树后就很好进行判断了，之前我还好奇，为啥search的时候app不算True，想了一下，大概应该要有个结点表示结束。于是我想到了用一个特殊的子结点作为结束的判断，就是在每次insert完当前字符串后再添加一个结点用于判断。
 
-```python
+# ```python
 class TrieDetail:
     def __init__(self, value):
         self.val = value
@@ -65,11 +65,11 @@ class Trie:
             if each_str not in tem_head.next_node.keys(): return False
             tem_head = tem_head.next_node[each_str]
         return True
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :292 ms, 在所有 Python3 提交中击败了23.78% 的用户
 内存消耗 :31.5 MB, 在所有 Python3 提交中击败了12.99%的用户
 
@@ -78,13 +78,13 @@ class Trie:
 
 执行用时 :212 ms, 在所有 Python3 提交中击败了44.37% 的用户
 内存消耗 :31.6 MB, 在所有 Python3 提交中击败了12.12%的用户
-```
+# ```
 
-看了一下官方的解答，其实也可以不用添加一个特殊的解答，把是否是结尾的标识写到node里面，这里也规范一下名称detail改为node，但是这里的next_node部分我并没有给他初始化26个字母这种方式。
+# 看了一下官方的解答，其实也可以不用添加一个特殊的解答，把是否是结尾的标识写到node里面，这里也规范一下名称detail改为node，但是这里的next_node部分我并没有给他初始化26个字母这种方式。
 
-## 方法2：构建前缀树升级版
+# ## 方法2：构建前缀树升级版
 
-```python
+# ```python
 class TrieNode:
     def __init__(self, value):
         self.val = value
@@ -126,11 +126,11 @@ class Trie:
                 return False
             tem_head = tem_head.next_node[each_str]
         return True
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :208 ms, 在所有 Python3 提交中击败了46.38% 的用户
 内存消耗 :30.6 MB, 在所有 Python3 提交中击败了16.45%的用户
 
@@ -139,8 +139,8 @@ class Trie:
 
 执行用时 :380 ms, 在所有 Python3 提交中击败了14.47% 的用户
 内存消耗 :30.8 MB, 在所有 Python3 提交中击败了16.45%的用户
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

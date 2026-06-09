@@ -1,9 +1,9 @@
-### 解题思路
-rust还是复杂了些，用python的话更简洁
+// ### 解题思路
+// rust还是复杂了些，用python的话更简洁
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     // DP
     pub fn combination_sum2(mut candidates: Vec<i32>, target: i32) -> Vec<Vec<i32>> {
@@ -25,4 +25,4 @@ impl Solution {
         return dp.pop().unwrap().into_iter().collect();
     }
 }
-```
+// ```

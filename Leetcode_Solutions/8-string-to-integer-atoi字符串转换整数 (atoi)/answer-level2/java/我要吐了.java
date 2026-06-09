@@ -1,9 +1,9 @@
-### 解题思路
-BigInteger大法好！！！
+// ### 解题思路
+// BigInteger大法好！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 import java.math.BigInteger;
 
@@ -134,4 +134,4 @@ class Solution {
 
 
 }
-```
+// ```

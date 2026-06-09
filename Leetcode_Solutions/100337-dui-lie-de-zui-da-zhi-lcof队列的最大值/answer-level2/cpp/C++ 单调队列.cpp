@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5ca374b548bcee866e5eea35d9f3a00af464243256d9e3429eef831464984342-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5ca374b548bcee866e5eea35d9f3a00af464243256d9e3429eef831464984342-image.png)
 
 
-```
+// ```
 class MaxQueue {
 public:
 
@@ -54,4 +54,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

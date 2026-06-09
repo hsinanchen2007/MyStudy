@@ -1,9 +1,9 @@
-### 解题思路
-这个直接dfs遍历就行了，用一个map来维护已经遍历过的节点，key是需要遍历的节点，value是它对应的copy节点。
+// ### 解题思路
+// 这个直接dfs遍历就行了，用一个map来维护已经遍历过的节点，key是需要遍历的节点，value是它对应的copy节点。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -39,4 +39,4 @@ public:
         return p;
     }
 };
-```
+// ```

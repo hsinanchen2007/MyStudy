@@ -1,12 +1,12 @@
-UnionFindSet类封装多种方法：
-1. 构造函数UnionFindSet(R,C)
-2. 找到祖先函数find(x),对经过的节点进行路径压缩
-3. 合并函数unionSet(),利用rank保持树尽量平衡
-4. 得到当前未掉落的砖块数量函数getTopBricks()
-5. 对敲打完所有砖块的结果建立并查集的函数buildUFS()
-6. 加砖块函数addBricks(A,grid,ans,r,c),同时添加结果
-然后在solution中直接走时光倒流+并查集+加砖块流程。
-```
+// UnionFindSet类封装多种方法：
+// 1. 构造函数UnionFindSet(R,C)
+// 2. 找到祖先函数find(x),对经过的节点进行路径压缩
+// 3. 合并函数unionSet(),利用rank保持树尽量平衡
+// 4. 得到当前未掉落的砖块数量函数getTopBricks()
+// 5. 对敲打完所有砖块的结果建立并查集的函数buildUFS()
+// 6. 加砖块函数addBricks(A,grid,ans,r,c),同时添加结果
+// 然后在solution中直接走时光倒流+并查集+加砖块流程。
+// ```
 class UnionFindSet{
     private:
         vector<int> par;
@@ -121,4 +121,4 @@ public:
         return reversed_ans;
     }
 };
-```
+// ```

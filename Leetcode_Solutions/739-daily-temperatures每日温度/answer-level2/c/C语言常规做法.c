@@ -1,6 +1,6 @@
-用双链表构成栈来解。该解法占用空间较大，未来再更新算法。
-以下是最近一次更新的算法，结构体内部减少了一个变量。
-```c
+// 用双链表构成栈来解。该解法占用空间较大，未来再更新算法。
+// 以下是最近一次更新的算法，结构体内部减少了一个变量。
+// ```c
 typedef struct a{
     int index;
     struct a* next;
@@ -40,9 +40,9 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     free(stack);
     return res;
 }
-```
-以下是第一次成功的做法。
-```c
+// ```
+// 以下是第一次成功的做法。
+// ```c
 typedef struct a{
     int val;
     int index;
@@ -83,9 +83,9 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     free(stack);
     return res;
 }
-```
-以下是第一次提交的超时做法。
-```c
+// ```
+// 以下是第一次提交的超时做法。
+// ```c
 typedef struct a{
     int val;
     int index;
@@ -134,4 +134,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     free(stack);
     return res;
 }
-```
+// ```

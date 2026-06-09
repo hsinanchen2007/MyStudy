@@ -1,7 +1,7 @@
 
-动态转移方程就很简单：dp[i] = min(dp[i],dp[i-1])+curNum    
-第一反应是使用自顶向下的动态规划，一维数组，问题是需要处理数组越界以及数据被覆盖问题
-```
+// 动态转移方程就很简单：dp[i] = min(dp[i],dp[i-1])+curNum    
+// 第一反应是使用自顶向下的动态规划，一维数组，问题是需要处理数组越界以及数据被覆盖问题
+// ```
 public int minimumTotal(List<List<Integer>> triangle) {
 		int n = triangle.size();//三角形的总行数
 		int[]dp=new int[n];
@@ -26,10 +26,10 @@ public int minimumTotal(List<List<Integer>> triangle) {
 		}
 		return min;
 	}
-```
-然后我们再来看一下自底向上的动态规划，需要完全可以避免上面带来的两个麻烦的问题，代码也变得精简了许多。
-动态转移方程：dp[i] = min(dp[i],dp[i+1])+curNum
-```
+// ```
+// 然后我们再来看一下自底向上的动态规划，需要完全可以避免上面带来的两个麻烦的问题，代码也变得精简了许多。
+// 动态转移方程：dp[i] = min(dp[i],dp[i+1])+curNum
+// ```
 //大神解法之自底向上的动态规划
 	public int minimumTotal2(List<List<Integer>> triangle) {
 		int n= triangle.size();
@@ -45,4 +45,4 @@ public int minimumTotal(List<List<Integer>> triangle) {
 		
 		return dp[0];
 	}
-```
+// ```

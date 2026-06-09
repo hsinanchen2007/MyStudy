@@ -1,5 +1,5 @@
-![2.PNG](https://pic.leetcode-cn.com/ed42a28b9cf1061ca69d1a61a517ec76e69fbf3cd2ef254915f6aa113c6b8c2f-2.PNG)
-```
+// ![2.PNG](https://pic.leetcode-cn.com/ed42a28b9cf1061ca69d1a61a517ec76e69fbf3cd2ef254915f6aa113c6b8c2f-2.PNG)
+// ```
 class Solution {
 public:
     string reverseOnlyLetters(string S) {
@@ -22,6 +22,6 @@ public:
 		return S;
     }
 };
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-![ED637522-AB5C-4EC0-B9BB-3B439D9FD9AA.png](https://pic.leetcode-cn.com/c0442a47bd241e0b3432ff752e014185a1a9e57b0f38598076488f4daa307228-ED637522-AB5C-4EC0-B9BB-3B439D9FD9AA.png)
+// ![ED637522-AB5C-4EC0-B9BB-3B439D9FD9AA.png](https://pic.leetcode-cn.com/c0442a47bd241e0b3432ff752e014185a1a9e57b0f38598076488f4daa307228-ED637522-AB5C-4EC0-B9BB-3B439D9FD9AA.png)
 
 
-### 法1，先定位一个与 target 相同的数作为基准数，在通过基准数前后遍历得到开始与结束位置
+// ### 法1，先定位一个与 target 相同的数作为基准数，在通过基准数前后遍历得到开始与结束位置
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -54,11 +54,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 法2，两次二分搜索，直接定位到开始与结束位置
+// ### 法2，两次二分搜索，直接定位到开始与结束位置
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -96,4 +96,4 @@ public:
         return res;
     }
 };
-```
+// ```

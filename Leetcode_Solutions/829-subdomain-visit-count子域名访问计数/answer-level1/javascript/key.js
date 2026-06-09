@@ -1,10 +1,10 @@
-### 解题思路
-先将地址转化为键名 将访问次数作为键值
-如果重复直接加在键值上
-最后遍历 用模板字符串生成所需格式
-### 代码
+// ### 解题思路
+// 先将地址转化为键名 将访问次数作为键值
+// 如果重复直接加在键值上
+// 最后遍历 用模板字符串生成所需格式
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} cpdomains
  * @return {string[]}
@@ -26,4 +26,4 @@ var subdomainVisits = function (cpdomains) {
     }
     return list
 };
-```
+// ```

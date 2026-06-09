@@ -1,9 +1,9 @@
-### 解题思路
-先序遍历
+// ### 解题思路
+// 先序遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -13,4 +13,4 @@ public:
         return isSameTree(p->left,q->left)&&isSameTree(p->right,q->right);
     }
 };
-```
+// ```

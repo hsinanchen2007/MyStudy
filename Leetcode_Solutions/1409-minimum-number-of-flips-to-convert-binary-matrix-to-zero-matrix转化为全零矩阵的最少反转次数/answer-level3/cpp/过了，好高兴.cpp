@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-抄的别人的思路和代码，中国大学MOOC郭炜
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 抄的别人的思路和代码，中国大学MOOC郭炜
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getBit(char c,int i)
@@ -73,4 +73,4 @@ public:
         return res;
     }
 };
-```
+// ```

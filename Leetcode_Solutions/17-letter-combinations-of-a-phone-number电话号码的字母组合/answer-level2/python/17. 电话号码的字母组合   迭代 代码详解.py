@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     #初始化
     def __init__(self):
@@ -41,4 +41,4 @@ class Solution(object):
         ans = temp[:l]
         return ans[::-1]
                 
-```
+# ```

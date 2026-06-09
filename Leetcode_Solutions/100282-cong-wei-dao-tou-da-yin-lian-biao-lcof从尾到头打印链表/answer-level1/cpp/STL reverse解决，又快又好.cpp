@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
@@ -11,4 +11,4 @@ public:
         return result;
     }
 };
-```
+// ```

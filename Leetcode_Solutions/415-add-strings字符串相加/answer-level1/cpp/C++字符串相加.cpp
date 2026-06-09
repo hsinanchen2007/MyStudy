@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/c50bf40a1529eb624d1492e797f1469b3cd1c5e2838fbe05bd5601686c968c9f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c50bf40a1529eb624d1492e797f1469b3cd1c5e2838fbe05bd5601686c968c9f-image.png)
 
-### 解题思路
-利用一个变量carry将每位相加的结果累计起来，同时解决了进位问题。
+// ### 解题思路
+// 利用一个变量carry将每位相加的结果累计起来，同时解决了进位问题。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

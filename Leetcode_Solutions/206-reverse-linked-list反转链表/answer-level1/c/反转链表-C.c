@@ -1,8 +1,8 @@
-### 解题思路
-新申请一个列表，分别解析原始列表中的节点，倒排。
-### 代码
+// ### 解题思路
+// 新申请一个列表，分别解析原始列表中的节点，倒排。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ struct ListNode* reverseList(struct ListNode* head){
 
     return newlist;
 }
-```
+// ```

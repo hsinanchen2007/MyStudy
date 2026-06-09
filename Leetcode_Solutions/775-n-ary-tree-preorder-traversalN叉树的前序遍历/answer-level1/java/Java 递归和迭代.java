@@ -1,7 +1,7 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24589_NaryTreePreorderTraversal.java)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24589_NaryTreePreorderTraversal.java)，持续更新。***
 
-1.递归：
-```
+// 1.递归：
+// ```
 public List<Integer> preorder1(Node root) {
     List<Integer> res = new ArrayList<>();
     if (root == null) return res;
@@ -16,10 +16,10 @@ private void helper(Node root, List<Integer> res) {
         helper(node, res);
     }
 }
-```
+// ```
 
-2.迭代
-```
+// 2.迭代
+// ```
 public List<Integer> preorder2(Node root) {
     List<Integer> res = new ArrayList<>();
     if (root == null) return res;
@@ -37,4 +37,4 @@ public List<Integer> preorder2(Node root) {
     }
     return res;
 }
-```
+// ```

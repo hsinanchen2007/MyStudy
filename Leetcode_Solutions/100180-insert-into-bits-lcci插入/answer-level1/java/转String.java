@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public int insertBits(int N, int M, int i, int j) {
         StringBuilder sb_N = new StringBuilder(Integer.toBinaryString(N)),
@@ -12,4 +12,4 @@ class Solution {
         return Integer.parseInt(sb_N.toString(), 2);
     }
 }
-```
+// ```

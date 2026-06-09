@@ -1,11 +1,11 @@
-### 解题思路
-后缀表达式是计算器类题目的通吃方法，不过就是程序看着有点儿重
+// ### 解题思路
+// 后缀表达式是计算器类题目的通吃方法，不过就是程序看着有点儿重
 
-![image.png](https://pic.leetcode-cn.com/d37396f4d624a28f3c8590a152d1d2ed63c97b154436a64f08d45a0c238094ea-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d37396f4d624a28f3c8590a152d1d2ed63c97b154436a64f08d45a0c238094ea-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -223,4 +223,4 @@ int calculate(char * s){
     sFree(&s_num);
     return ret;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         res = []
@@ -10,4 +10,4 @@ class Solution:
             return []
         res.sort()
         return res
-```
+# ```

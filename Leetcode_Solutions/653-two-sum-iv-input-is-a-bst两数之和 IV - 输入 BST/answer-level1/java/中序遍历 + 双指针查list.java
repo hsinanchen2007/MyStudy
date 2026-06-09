@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/4336ded9568bebcf81aa34f89848e73c930ed27d64a521d4df67ec92073b0bfd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4336ded9568bebcf81aa34f89848e73c930ed27d64a521d4df67ec92073b0bfd-image.png)
 
-```
+// ```
     List<Integer> list = new ArrayList<Integer>();
     public boolean findTarget(TreeNode root, int k) {
         inOrder(root);
@@ -27,4 +27,4 @@
         list.add(root.val);
         inOrder(root.right);
     }
-```
+// ```

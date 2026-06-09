@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {boolean}
@@ -25,4 +25,4 @@ var uniqueOccurrences = function(arr) {
     }
     return true;
 };
-```
+// ```

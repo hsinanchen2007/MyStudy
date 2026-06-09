@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         good = list(set(words))
@@ -9,4 +9,4 @@ class Solution:
             if word not in tmpword:
                 tmpword += word
         return len(tmpword)
-```
+# ```

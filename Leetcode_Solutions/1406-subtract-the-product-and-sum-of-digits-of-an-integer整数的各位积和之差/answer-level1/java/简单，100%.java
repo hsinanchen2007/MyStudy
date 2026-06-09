@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int subtractProductAndSum(int n) {
         int tmp = n;
@@ -18,4 +18,4 @@ class Solution {
         return p - s;
     }
 }
-```
+// ```

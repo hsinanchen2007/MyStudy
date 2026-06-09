@@ -1,9 +1,9 @@
-### 解题思路
-建立一个图结构+判断是否有环（-1状态代表没有访问，0代表正在访问，1已经访问了）
+// ### 解题思路
+// 建立一个图结构+判断是否有环（-1状态代表没有访问，0代表正在访问，1已经访问了）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class GraphNode {
     int value;
     List<GraphNode> neighbours = new LinkedList<>();
@@ -61,4 +61,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

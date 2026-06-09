@@ -1,5 +1,5 @@
-## 快慢指针
-```cpp
+// ## 快慢指针
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -21,4 +21,4 @@ public:
         return true;
     }
 };
-```
+// ```

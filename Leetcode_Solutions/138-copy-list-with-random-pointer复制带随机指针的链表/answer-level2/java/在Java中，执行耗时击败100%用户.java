@@ -1,10 +1,10 @@
-### 解题思路
-思路就是先复制next指针，再复制random指针，最后将链表恢复原样，将newHead返回。
-1->2->3->null 变成1->1'->2->2'->3->3'->null。然后1'的random指针可以通过1.random.next找到。不用回头，一直向前走即可。
+// ### 解题思路
+// 思路就是先复制next指针，再复制random指针，最后将链表恢复原样，将newHead返回。
+// 1->2->3->null 变成1->1'->2->2'->3->3'->null。然后1'的random指针可以通过1.random.next找到。不用回头，一直向前走即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -54,4 +54,4 @@ class Solution {
         return newHead;
     }
 }
-```
+// ```

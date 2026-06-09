@@ -1,9 +1,9 @@
-### 解题思路
-太简单，看代码吧
+// ### 解题思路
+// 太简单，看代码吧
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -30,4 +30,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
 
     return nil    
 }
-```
+// ```

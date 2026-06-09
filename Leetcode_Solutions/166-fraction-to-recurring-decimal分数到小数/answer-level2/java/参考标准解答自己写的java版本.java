@@ -1,6 +1,6 @@
-执行用时 :2 ms, 在所有 java 提交中击败了99.84% 的用户
-内存消耗 :33.9 MB, 在所有 java 提交中击败了93.26%的用户
-```
+// 执行用时 :2 ms, 在所有 java 提交中击败了99.84% 的用户
+// 内存消耗 :33.9 MB, 在所有 java 提交中击败了93.26%的用户
+// ```
 class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         if(numerator == 0)
@@ -34,5 +34,5 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```
 

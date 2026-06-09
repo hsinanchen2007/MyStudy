@@ -1,9 +1,9 @@
-### 解题思路
-找到每一个字符串中单词的首尾下标，进行循环，直到跳出循环
+// ### 解题思路
+// 找到每一个字符串中单词的首尾下标，进行循环，直到跳出循环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void exchange(char *s,int left,int right)
 {
     char temp;
@@ -39,4 +39,4 @@ char * reverseWords(char * s)
     return  s;
  
 }
-```
+// ```

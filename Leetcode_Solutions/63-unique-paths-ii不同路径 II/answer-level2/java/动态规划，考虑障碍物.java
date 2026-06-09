@@ -1,10 +1,10 @@
-与62题相似；
-1. 考虑dp的含义：用于记录步数；
-2. 考虑障碍物的特殊情况；遇到障碍物时，方格得置0；
-3. 考虑边界只能走一步；
-4. 考虑中间联系dp[i][j]=dp[i-1][j]+dp[i][j-1];
+// 与62题相似；
+// 1. 考虑dp的含义：用于记录步数；
+// 2. 考虑障碍物的特殊情况；遇到障碍物时，方格得置0；
+// 3. 考虑边界只能走一步；
+// 4. 考虑中间联系dp[i][j]=dp[i-1][j]+dp[i][j-1];
 
-```
+// ```
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m=obstacleGrid.length;
         int n=obstacleGrid[0].length;
@@ -30,4 +30,4 @@
         }
         return dp[m-1][n-1];
     }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/9f2ad39a1f323d0690cfe9b7e7b56f9a08f04dfdee752a71c329a0f0191da04a-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9f2ad39a1f323d0690cfe9b7e7b56f9a08f04dfdee752a71c329a0f0191da04a-image.png)
 
 
-```
+# ```
 from functools import lru_cache
 
 class Solution:
@@ -55,4 +55,4 @@ class Solution:
         ans += dp[bits-1]
 
         return ans
-```
+# ```

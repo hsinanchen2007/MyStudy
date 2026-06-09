@@ -1,10 +1,10 @@
-### 解题思路
-这个题可以参考从上到下打印二叉树||[](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)
-跟这个方法基本一样，思路差不多，递归遍历整棵数，将每个节点的值添加到对应的集合中
-因为要求之字形打印，所以最后将得到的集合中偶数行使用Collections.reverse()翻转即可，也可以在递归函数内部通过判断传入的层数选择从末尾添加还是从头添加，代码如下，关键部分有加注释
-### 代码
+// ### 解题思路
+// 这个题可以参考从上到下打印二叉树||[](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)
+// 跟这个方法基本一样，思路差不多，递归遍历整棵数，将每个节点的值添加到对应的集合中
+// 因为要求之字形打印，所以最后将得到的集合中偶数行使用Collections.reverse()翻转即可，也可以在递归函数内部通过判断传入的层数选择从末尾添加还是从头添加，代码如下，关键部分有加注释
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         if(root.right!=null)levelOrder(root.right,h+1);
     }
 }
-```
+// ```

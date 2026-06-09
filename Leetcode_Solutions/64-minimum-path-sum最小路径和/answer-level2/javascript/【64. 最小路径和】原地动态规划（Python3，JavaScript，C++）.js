@@ -1,15 +1,15 @@
-# 毎日一题 -  64.最小路径和
+// # 毎日一题 -  64.最小路径和
 
-## 信息卡片
+// ## 信息卡片
 
-* 时间：2019-08-09
-* 题目链接：https://leetcode-cn.com/problems/minimum-path-sum/
-- tag：`动态规划` `Array`
-## 题目描述
-给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
-**说明**：每次只能向下或者向右移动一步。
-**示例:**
-```
+// * 时间：2019-08-09
+// * 题目链接：https://leetcode-cn.com/problems/minimum-path-sum/
+// - tag：`动态规划` `Array`
+// ## 题目描述
+// 给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
+// **说明**：每次只能向下或者向右移动一步。
+// **示例:**
+// ```
 输入:
 [
   [1,3,1],
@@ -18,22 +18,22 @@
 ]
 输出: 7
 解释: 因为路径 1→3→1→1→1 的总和最小。
-```
-## 参考答案
+// ```
+// ## 参考答案
 
-### 思路
+// ### 思路
 
-我们新建一个额外的dp数组，与原矩阵大小相同。在这个矩阵中,dp(i,j)表示从原点到坐标(i,j)的最小路径和。我们初始化dp值为对应的原矩阵值，然后去填整个矩阵，对于每个元素考虑从上方移动过来还是从左方移动过来，因此获得最小路径和我们有如下递推公式：`dp(i,j)=grid(i,j)+min(dp(i-1,j),dp(i,j-1))`
-
-
-我们可以使用原地算法，这样就不需要开辟dp数组，空间复杂度可以降低到$O(1)$。
+// 我们新建一个额外的dp数组，与原矩阵大小相同。在这个矩阵中,dp(i,j)表示从原点到坐标(i,j)的最小路径和。我们初始化dp值为对应的原矩阵值，然后去填整个矩阵，对于每个元素考虑从上方移动过来还是从左方移动过来，因此获得最小路径和我们有如下递推公式：`dp(i,j)=grid(i,j)+min(dp(i-1,j),dp(i,j-1))`
 
 
-### 代码
+// 我们可以使用原地算法，这样就不需要开辟dp数组，空间复杂度可以降低到$O(1)$。
 
-C++
 
-```c++
+// ### 代码
+
+// C++
+
+// ```c++
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -65,11 +65,11 @@ public:
         return grid[n-1][m-1];
     }
 };
-```
+// ```
 
-JavaScript：
+// JavaScript：
 
-```js
+// ```js
 var minPathSum = function(grid) {
 // 时间复杂度和空间复杂度都是 O (m * n);
   if (grid.length === 0) return 0;
@@ -103,11 +103,11 @@ var minPathSum = function(grid) {
   return dp[rows][cols];
 };
 
-```
+// ```
 
-Python3:
+// Python3:
 
-```python
+// ```python
 class Solution:
     def minPathSum(self, grid: [[int]]) -> int:
         for i in range(len(grid)):
@@ -117,15 +117,15 @@ class Solution:
                 elif j == 0:  grid[i][j] = grid[i - 1][j] + grid[i][j]
                 else: grid[i][j] = min(grid[i - 1][j], grid[i][j - 1]) + grid[i][j]
         return grid[-1][-1]
-```
+// ```
 
-**复杂度分析**
-- 时间复杂度：$O(M * N)$
-- 空间复杂度：$O(1)$
+// **复杂度分析**
+// - 时间复杂度：$O(M * N)$
+// - 空间复杂度：$O(1)$
 
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+// 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+// ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
 
 

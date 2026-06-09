@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9218750842e8be094cf3218772f3159a7273e51c12f891b504218b7fab6a130d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9218750842e8be094cf3218772f3159a7273e51c12f891b504218b7fab6a130d-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<string> generatePossibleNextMoves(string s) {
@@ -13,5 +13,5 @@ public:
         return results;
     }
 };
-```
+// ```
 

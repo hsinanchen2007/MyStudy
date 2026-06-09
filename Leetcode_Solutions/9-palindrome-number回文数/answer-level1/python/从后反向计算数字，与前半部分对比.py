@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 return True
             else:
                 return False
-```
+# ```

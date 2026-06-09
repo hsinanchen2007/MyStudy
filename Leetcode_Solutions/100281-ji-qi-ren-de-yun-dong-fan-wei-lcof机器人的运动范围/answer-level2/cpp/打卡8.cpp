@@ -1,9 +1,9 @@
-### 解题思路
- 广搜，一步一步走，能走的就加一并且标记一下就ok了。
+// ### 解题思路
+//  广搜，一步一步走，能走的就加一并且标记一下就ok了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int movingCount(int m, int n, int k) {
@@ -31,4 +31,4 @@ public:
         return s;
     }
 };
-```
+// ```

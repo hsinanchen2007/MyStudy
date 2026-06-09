@@ -1,9 +1,9 @@
-### 解题思路
-利用ostringstream可以直接将数字变成字符串输出；利用istringstream可以实现类似python的split效果；反序列化的基本思路：vector中当前节点下标为i，其左子树为i+1，右子树为i+2
+// ### 解题思路
+// 利用ostringstream可以直接将数字变成字符串输出；利用istringstream可以实现类似python的split效果；反序列化的基本思路：vector中当前节点下标为i，其左子树为i+1，右子树为i+2
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -75,4 +75,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

@@ -1,5 +1,5 @@
-思路基本都差不多，都是先算总和
-```go
+// 思路基本都差不多，都是先算总和
+// ```go
 func canThreePartsEqualSum(A []int) bool {
     sum := 0
     for _, v := range A {
@@ -23,5 +23,5 @@ func canThreePartsEqualSum(A []int) bool {
     // 如果是 [0,0,0,0,0] 可能大于3次
     return count >= 3
 }
-```
+// ```
 

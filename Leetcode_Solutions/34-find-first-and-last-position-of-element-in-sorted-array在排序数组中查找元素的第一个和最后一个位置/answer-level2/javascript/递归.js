@@ -1,5 +1,5 @@
-耗时比较多……只提供一个思路
-```
+// 耗时比较多……只提供一个思路
+// ```
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -30,4 +30,4 @@ var searchRange = function(nums, target) {
     if(temp.length == 1) return [temp[0], temp[0]]
     if(temp.length >= 2) return [temp[temp.length-1], [temp[0]]]
 };
-```
+// ```

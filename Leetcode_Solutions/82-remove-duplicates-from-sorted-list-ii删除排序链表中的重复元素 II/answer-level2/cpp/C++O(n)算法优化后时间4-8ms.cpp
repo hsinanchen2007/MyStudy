@@ -1,15 +1,15 @@
-### 解题思路
-之前的代码在while里面计算next1和next2，如下：
-```cpp
+// ### 解题思路
+// 之前的代码在while里面计算next1和next2，如下：
+// ```cpp
         while (cur->next != NULL) {
           ListNode* next1 = cur->next;
           ListNode* next2 = next1->next;
-```
-然后发现每次进入while可以重复使用next2，优化后稳定在4-8ms
+// ```
+// 然后发现每次进入while可以重复使用next2，优化后稳定在4-8ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -35,4 +35,4 @@ public:
         return temp.next;
     }
 };
-```
+// ```

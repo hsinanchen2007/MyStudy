@@ -1,5 +1,5 @@
-二分法求除数，不停的二分找被除数的中间值*除数，看是否大于被除数，大于的话，再中间值的左边，小于等于在右边或者相等，断开的递归的条件需要注意，因为可能有余数，所以start >= end 的时候需要判断一下start值*除数是否 <= 被除数，如果大于的话，则是start-1
-```
+// 二分法求除数，不停的二分找被除数的中间值*除数，看是否大于被除数，大于的话，再中间值的左边，小于等于在右边或者相等，断开的递归的条件需要注意，因为可能有余数，所以start >= end 的时候需要判断一下start值*除数是否 <= 被除数，如果大于的话，则是start-1
+// ```
 func divide(dividend int, divisor int) int {
 	if dividend == 0 {
 		return 0
@@ -44,4 +44,4 @@ func half(start int, end int, dividend int, divisor int) int {
 	}
 	return r
 }
-```
+// ```

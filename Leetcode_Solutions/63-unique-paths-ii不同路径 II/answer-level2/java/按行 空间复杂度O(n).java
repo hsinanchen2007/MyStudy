@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if (obstacleGrid[0][0] == 1) return 0;
@@ -18,4 +18,4 @@ class Solution {
         return bp[obstacleGrid[0].length - 1];
     }
 }
-```
+// ```

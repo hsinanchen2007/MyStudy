@@ -1,11 +1,11 @@
-### 解题思路
-中位数有2个特点：
-中位数左边的数与右边的数个数相等
-中位数左边的数都比右边的数要小
+// ### 解题思路
+// 中位数有2个特点：
+// 中位数左边的数与右边的数个数相等
+// 中位数左边的数都比右边的数要小
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -47,4 +47,4 @@ public:
 		return (max(LMax1, LMax2) + min(RMin1, RMin2)) / 2.0;
     }
 };
-```
+// ```

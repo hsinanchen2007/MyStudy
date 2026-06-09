@@ -1,12 +1,12 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
- 创建一个Map来储存add的数字和出现的次数，以及计数器count来储存加了多少个数， 进行find操作时，如果储存元素小于2，则直接返回false。遍历map的keySet，判断目标和value和当前数num的差值是否存在于map中，
+//  创建一个Map来储存add的数字和出现的次数，以及计数器count来储存加了多少个数， 进行find操作时，如果储存元素小于2，则直接返回false。遍历map的keySet，判断目标和value和当前数num的差值是否存在于map中，
 
-这里需要考虑两种情况：
- 1.如果是两个相同数相加得到目标和，则需要判断此数是否出现了两次以上，否则不符合条件，如0,0的情况
- 2.如果是两个不同数相加得到目标和，则直接判断差值是否存在于map即可
+// 这里需要考虑两种情况：
+//  1.如果是两个相同数相加得到目标和，则需要判断此数是否出现了两次以上，否则不符合条件，如0,0的情况
+//  2.如果是两个不同数相加得到目标和，则直接判断差值是否存在于map即可
 
-```
+// ```
 class TwoSum {
     Map<Integer,Integer> map;
     int count;
@@ -36,6 +36,6 @@ class TwoSum {
         return false;
     }
 }
-```
+// ```
 
 

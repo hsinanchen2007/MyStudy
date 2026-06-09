@@ -1,4 +1,4 @@
-```java
+// ```java
     private boolean isNumORChar(char c){
         if ((c>='a' && c<='z') || (c>='0' && c<='9')){
             return true;
@@ -30,4 +30,4 @@
         }
         return true;
     }
-```
+// ```

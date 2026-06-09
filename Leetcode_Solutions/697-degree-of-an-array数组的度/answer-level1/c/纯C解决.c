@@ -1,5 +1,5 @@
-基本思路：mark[]记录度，start[]和end[]分别记录对应的起点和终点
-```
+// 基本思路：mark[]记录度，start[]和end[]分别记录对应的起点和终点
+// ```
 int findShortestSubArray(int* nums, int numsSize){
     int mark[50000]={0},start[50000]={0},end[500000]={0};
     int i;
@@ -28,4 +28,4 @@ int findShortestSubArray(int* nums, int numsSize){
     return min;
 }
 
-```
+// ```

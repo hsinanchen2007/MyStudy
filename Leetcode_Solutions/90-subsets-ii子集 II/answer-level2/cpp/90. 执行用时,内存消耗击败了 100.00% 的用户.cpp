@@ -1,11 +1,11 @@
-### 解题思路
-和47题方法类似: https://leetcode-cn.com/problems/permutations-ii/solution/qu-zhong-tiao-jian-vectorzuo-bian-de-yi-ding-yao-b/
+// ### 解题思路
+// 和47题方法类似: https://leetcode-cn.com/problems/permutations-ii/solution/qu-zhong-tiao-jian-vectorzuo-bian-de-yi-ding-yao-b/
 
-去重条件: 如果是重复的元素，访问这个元素时候，左边的元素一定已经被访问过了, 比如[2,2]，访问右边的2时，左边的2一定已经被访问过了。
+// 去重条件: 如果是重复的元素，访问这个元素时候，左边的元素一定已经被访问过了, 比如[2,2]，访问右边的2时，左边的2一定已经被访问过了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -34,8 +34,8 @@ public:
         }
     }
 };
-```
+// ```
 
-### 结果
-执行用时 : 0 ms , 在所有 C++ 提交中击败了 100.00% 的用户 
-内存消耗 : 7.2 MB , 在所有 C++ 提交中击败了 100.00% 的用户
+// ### 结果
+// 执行用时 : 0 ms , 在所有 C++ 提交中击败了 100.00% 的用户 
+// 内存消耗 : 7.2 MB , 在所有 C++ 提交中击败了 100.00% 的用户

@@ -1,5 +1,5 @@
-垃圾题
-```js
+// 垃圾题
+// ```js
 var maxDepthAfterSplit = function(seq) {
     const res = [];
     let level = 0;
@@ -9,4 +9,4 @@ var maxDepthAfterSplit = function(seq) {
     }
     return res;
 };
-```
+// ```

@@ -1,6 +1,6 @@
-思路：题目可以抽象理解为存在n 满足：min(nums[:n])<nums[n]<max(nums[n+1:])
-注意：这是我一开始的想法 因为本质钻空子 所以我不推荐 如果能为python用户提供一些小的帮助就可以了(其他大多语言不适用)
-```
+# 思路：题目可以抽象理解为存在n 满足：min(nums[:n])<nums[n]<max(nums[n+1:])
+# 注意：这是我一开始的想法 因为本质钻空子 所以我不推荐 如果能为python用户提供一些小的帮助就可以了(其他大多语言不适用)
+# ```
 class Solution:
 	def increasingTriplet(self,nums):
 		legt=len(nums)
@@ -25,9 +25,9 @@ class Solution:
 					return True
 				curr_max=t
 		return False
-```
-更新：以下是比较规范的解法 上述解法通过之后借鉴了powcai大佬的题解完成
-```
+# ```
+# 更新：以下是比较规范的解法 上述解法通过之后借鉴了powcai大佬的题解完成
+# ```
 class Solution:
 	def increasingTriplet(self,nums):
 		first,second=[float("inf")]*2 #python中的极大值
@@ -39,4 +39,4 @@ class Solution:
 			elif first<i<second: #同上 这俩就是在极力压缩first,second的数值
 				second=i
 		return False
-```
+# ```

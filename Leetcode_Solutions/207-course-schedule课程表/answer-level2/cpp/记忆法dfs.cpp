@@ -1,10 +1,10 @@
-### 解题思路
-开始用bfs来做，有个用例{0,1}，{0,2}，{1,2}没通过
-后来改用dfs加记忆法才通过
+// ### 解题思路
+// 开始用bfs来做，有个用例{0,1}，{0,2}，{1,2}没通过
+// 后来改用dfs加记忆法才通过
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites)
@@ -58,4 +58,4 @@ private:
         return 1;
     }
 };
-```
+// ```

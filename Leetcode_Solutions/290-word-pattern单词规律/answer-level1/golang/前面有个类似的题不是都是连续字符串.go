@@ -1,8 +1,8 @@
-将str转换为slice，然后分别判断pattern与slice中当前元素在后面的索引，如果有不同的地方就为false 否则为true
+// 将str转换为slice，然后分别判断pattern与slice中当前元素在后面的索引，如果有不同的地方就为false 否则为true
 
 
 
-```go
+// ```go
 func wordPattern(pattern string, str string) bool {
 	// 对于字符串使用split为切片
 	// 对于pattern取每个字符串
@@ -31,4 +31,4 @@ func find(lst []string, v string) (index int) {
 	// 与strings.Index一致没有找到时需要返回-1
 	return -1
 }
-```
+// ```

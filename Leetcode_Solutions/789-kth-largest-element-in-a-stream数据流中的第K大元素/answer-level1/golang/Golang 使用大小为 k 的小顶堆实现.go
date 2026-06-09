@@ -1,4 +1,4 @@
-```go
+// ```go
 import "container/heap"
 
 type KthLargest struct {
@@ -62,4 +62,4 @@ func (h *IntHeap) Pop() interface{} {
     *h = (*h)[:n-1]
     return x
 }
-```
+// ```

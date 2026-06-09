@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         """
@@ -33,11 +33,11 @@ class Solution:
         
         return dp[n-1][m-1]
                 
-```
-第二种解法核心就是使用两个一维数组, 第一个数组存储横向内容
-第二个数组存储纵向内容, 横向数组向下运行, 纵向数组向右移动
+# ```
+# 第二种解法核心就是使用两个一维数组, 第一个数组存储横向内容
+# 第二个数组存储纵向内容, 横向数组向下运行, 纵向数组向右移动
      
-```
+# ```
 # 2. 定义两个数组 dp_1每次向下一层移动, dp_2每次向下一列移动
         dp_1 = [1 for i in range(m)]
         dp_2 = [1 for i in range(n)]
@@ -58,5 +58,5 @@ class Solution:
 
         # return max(dp_2[n-1], dp_1[m-1])
         return max(dp_2[n-1], dp_1[m-1])
-```
+# ```
                 

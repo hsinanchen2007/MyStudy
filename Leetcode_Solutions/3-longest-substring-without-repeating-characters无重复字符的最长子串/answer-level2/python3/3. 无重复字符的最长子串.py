@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历每个字符的最长不重复字符串。
-2. 滑动窗口，遇到有重复时更新窗口起点和字典。
+# ### 解题思路
+# 1. 遍历每个字符的最长不重复字符串。
+# 2. 滑动窗口，遇到有重复时更新窗口起点和字典。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         # 6: 52ms, 13.8MB
@@ -117,4 +117,4 @@ class Solution:
         #             break
         #     candidate.append(len(lstr))
         # return max(candidate)
-```
+# ```

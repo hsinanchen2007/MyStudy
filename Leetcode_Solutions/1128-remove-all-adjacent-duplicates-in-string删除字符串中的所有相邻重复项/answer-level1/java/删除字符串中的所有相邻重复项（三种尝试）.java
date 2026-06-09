@@ -1,10 +1,10 @@
-这个方法是别人的解法。比自己之前的解法更好。
+// 这个方法是别人的解法。比自己之前的解法更好。
 
-把每个字符入栈前, 判断是否和栈顶元素相同, 如果相同则不入栈, 栈顶元素出栈. 由于删除字符后的字符串长度一定是小于原字符串. 所以可以直接用原字符数组作为栈.
+// 把每个字符入栈前, 判断是否和栈顶元素相同, 如果相同则不入栈, 栈顶元素出栈. 由于删除字符后的字符串长度一定是小于原字符串. 所以可以直接用原字符数组作为栈.
 
-#### 直接使用原数组作为栈
+// #### 直接使用原数组作为栈
 
-```Java
+// ```Java
 class Solution {
     public String removeDuplicates(String S) {
         char[] stack = S.toCharArray();
@@ -19,10 +19,10 @@ class Solution {
         return new String(stack, 0, top + 1);
     }
 }
-```
+// ```
 
-#### 单栈实现非最优解（超出时间限制）
-```Java
+// #### 单栈实现非最优解（超出时间限制）
+// ```Java
 class Solution {
     public String removeDuplicates(String S) {
         Stack<String> s = new Stack<>();
@@ -46,13 +46,13 @@ class Solution {
         return ret;
     }
 }
-```
+// ```
 
 
 
 
-#### 双栈实现非最优解（超出时间限制）
-```Java
+// #### 双栈实现非最优解（超出时间限制）
+// ```Java
 class Solution {
     public String removeDuplicates(String S) {
         Stack<String> s1,s2;
@@ -80,4 +80,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

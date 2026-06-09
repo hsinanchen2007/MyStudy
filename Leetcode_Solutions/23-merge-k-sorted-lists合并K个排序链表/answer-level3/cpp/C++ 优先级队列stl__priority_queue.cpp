@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
 	ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -44,4 +44,4 @@ private:
 	};
 	priority_queue<queueNode, vector<queueNode>, cmp> temp; //小顶堆
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-不断地更新竖式的结果
+// ### 解题思路
+// 不断地更新竖式的结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * multiply(char * num1, char * num2){
 int flag=0,p=0,q=0,m=220;
 int size1 = strlen(num1),size2 = strlen(num2);
@@ -73,4 +73,4 @@ for(int i = m;i<=220;i++)
 res[p]='\0';
 return res;
 }
-```
+// ```

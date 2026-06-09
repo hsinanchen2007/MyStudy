@@ -1,6 +1,6 @@
-![859.jpg](https://pic.leetcode-cn.com/e86f85062e441e6b3f091185b63e595b2d27262ca59367e61ce0b53a5d04eff9-859.jpg)
+# ![859.jpg](https://pic.leetcode-cn.com/e86f85062e441e6b3f091185b63e595b2d27262ca59367e61ce0b53a5d04eff9-859.jpg)
 
-```
+# ```
 class Solution:
     def buddyStrings(self, a: str, b: str) -> bool:
         count=0
@@ -31,4 +31,4 @@ class Solution:
                     #把这组不同元素记下来
 
         return temp #temp为True说明正好2组不同元素，为False说明只有1组.
-```
+# ```

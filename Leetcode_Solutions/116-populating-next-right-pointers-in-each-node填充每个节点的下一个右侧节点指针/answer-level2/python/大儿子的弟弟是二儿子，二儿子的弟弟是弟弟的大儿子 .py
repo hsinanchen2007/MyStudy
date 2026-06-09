@@ -1,8 +1,8 @@
-其实就是一个家谱
+# 其实就是一个家谱
 
-执行用时 : 68 ms, 在Populating Next Right Pointers in Each Node的Python提交中击败了96.08% 的用户
-内存消耗 : 14.1 MB, 在Populating Next Right Pointers in Each Node的Python提交中击败了5.35% 的用户
-```vbscript
+# 执行用时 : 68 ms, 在Populating Next Right Pointers in Each Node的Python提交中击败了96.08% 的用户
+# 内存消耗 : 14.1 MB, 在Populating Next Right Pointers in Each Node的Python提交中击败了5.35% 的用户
+# ```vbscript
 '''
 next理解为弟弟
 left理解为大儿子
@@ -30,4 +30,4 @@ class Solution(object):
         helper(root)
         return root
         
-```
+# ```

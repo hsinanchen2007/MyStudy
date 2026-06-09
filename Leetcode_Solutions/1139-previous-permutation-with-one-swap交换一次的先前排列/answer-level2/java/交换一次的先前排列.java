@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] prevPermOpt1(int[] A) {
       int number=0,k=-1,h=-1,max=Integer.MIN_VALUE,t;
@@ -27,4 +27,4 @@ class Solution {
       return A;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-因为是有序数组，所以最快的方法是二分法
+# ### 解题思路
+# 因为是有序数组，所以最快的方法是二分法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         left = 0
@@ -27,4 +27,4 @@ class Solution:
                     rt = left
                 break
         return rt
-```
+# ```

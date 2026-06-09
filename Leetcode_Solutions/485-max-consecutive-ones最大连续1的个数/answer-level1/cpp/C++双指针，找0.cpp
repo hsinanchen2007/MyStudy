@@ -1,5 +1,5 @@
-感觉还是常规做法简单一点
-```
+// 感觉还是常规做法简单一点
+// ```
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

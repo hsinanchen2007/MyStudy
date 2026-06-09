@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/ff50b63fb9b12cabe31f79e66b41f2c3231abdb8e9f9374d1f9bbfda658c0602-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/ff50b63fb9b12cabe31f79e66b41f2c3231abdb8e9f9374d1f9bbfda658c0602-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
         int[] arr1 = coordinates[0];
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**脑一残，没看见是非负整数，瞎搞半天**
-```javascript
+// **脑一残，没看见是非负整数，瞎搞半天**
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -15,4 +15,4 @@ var arrangeCoins = function(n) {
         }
     }
 };
-```
+// ```

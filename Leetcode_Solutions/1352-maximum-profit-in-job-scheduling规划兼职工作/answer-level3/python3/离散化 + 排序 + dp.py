@@ -1,39 +1,39 @@
-# 题解
+# # 题解
 
-首先我们按照 `endTime` 来排序，然后就能得到一个可以 dp 的数组了。
+# 首先我们按照 `endTime` 来排序，然后就能得到一个可以 dp 的数组了。
 
-$$
-end\_time(c)\ is\ equal\ to\ n\\
-dp(n)=max(dp(n-1), dp(start\_time(c)+profit(c))
-$$
+# $$
+# end\_time(c)\ is\ equal\ to\ n\\
+# dp(n)=max(dp(n-1), dp(start\_time(c)+profit(c))
+# $$
 
-但是我们会发现一个问题，`1 <= startTime[i] < endTime[i] <= 10^9` ，所以这个 dp 数组我们可能会遍历 $10^9$ 次，必定超时。（根据经验，我们认为遍历超过 $10^7$ 次就是 1s，也就是 TLE 的极限时间）
+# 但是我们会发现一个问题，`1 <= startTime[i] < endTime[i] <= 10^9` ，所以这个 dp 数组我们可能会遍历 $10^9$ 次，必定超时。（根据经验，我们认为遍历超过 $10^7$ 次就是 1s，也就是 TLE 的极限时间）
 
-这时候我们又发现 `1 <= startTime.length == endTime.length == profit.length <= 5 * 10^4`。这就暗示我们了，虽然我们的时间上线有 $10^9$ 个，但是描述时间的个数只有 `len(startTime) + len(endTime)` 个，也就是 $10^5$ 个。所以我们对时间做一下离散化来描述大小关系，然后在 dp 一圈求解答案即可。
+# 这时候我们又发现 `1 <= startTime.length == endTime.length == profit.length <= 5 * 10^4`。这就暗示我们了，虽然我们的时间上线有 $10^9$ 个，但是描述时间的个数只有 `len(startTime) + len(endTime)` 个，也就是 $10^5$ 个。所以我们对时间做一下离散化来描述大小关系，然后在 dp 一圈求解答案即可。
 
-# 时间复杂度
+# # 时间复杂度
 
-### 离散化预处理（排序）
+# ### 离散化预处理（排序）
 
-$$
-O(nlogn) \ (n \in[0, 10^5])
-$$
+# $$
+# O(nlogn) \ (n \in[0, 10^5])
+# $$
 
-### 动态规划
+# ### 动态规划
 
-$$
-O(n+c) \ \ (n\in[0, 10^5],\ c\in[0, 5\times10^4])
-$$
+# $$
+# O(n+c) \ \ (n\in[0, 10^5],\ c\in[0, 5\times10^4])
+# $$
 
-### 整体
+# ### 整体
 
-$$
-O(nlogn) \ (n \in[0, 10^5])
-$$
+# $$
+# O(nlogn) \ (n \in[0, 10^5])
+# $$
 
-# 代码实现
+# # 代码实现
 
-```python
+# ```python
 class Solution:
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
         disc, cur = {}, 0
@@ -52,6 +52,6 @@ class Solution:
             if i > 0:    
                 dp[i] = max(dp[i - 1], dp[i])    
         return dp[len(dp) - 1]
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/dae928c81759a8b0e1792314ee7dee1ad42d055321cb84859b5d604c6bfda547-image.png)
+# ![image.png](https://pic.leetcode-cn.com/dae928c81759a8b0e1792314ee7dee1ad42d055321cb84859b5d604c6bfda547-image.png)

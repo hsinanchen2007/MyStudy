@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         # each child must have at least one candy.
@@ -21,4 +21,4 @@ class Solution:
             if ratings[i] > ratings[i + 1]:
                 candies[i] = max(candies[i], candies[i + 1] + 1)
         return sum(candies)
-```
+# ```

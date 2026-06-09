@@ -1,7 +1,7 @@
-![无标题.png](https://pic.leetcode-cn.com/46c698b3b2e2daeda1252b433ca4babc5de7a11ee3d739dc06665a1a6dc229fe-%E6%97%A0%E6%A0%87%E9%A2%98.png)
+// ![无标题.png](https://pic.leetcode-cn.com/46c698b3b2e2daeda1252b433ca4babc5de7a11ee3d739dc06665a1a6dc229fe-%E6%97%A0%E6%A0%87%E9%A2%98.png)
 
-引入一个level，双层的分给A，单层的分给B。
-```
+// 引入一个level，双层的分给A，单层的分给B。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -19,4 +19,4 @@ int *maxDepthAfterSplit(char *seq, int *size)
 
     return result;
 }
-```
+// ```

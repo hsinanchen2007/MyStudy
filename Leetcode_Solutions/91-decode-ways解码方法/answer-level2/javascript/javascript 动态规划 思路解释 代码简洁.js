@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * 91. Decode Ways
  * https://leetcode.com/problems/decode-ways/
@@ -28,4 +28,4 @@ const numDecodings = (s) => {
  * 发现符合斐波那契数列规律，递推公式即 ways(n) = ways(n-1) + ways(n-2) 
  * 但是这题难就难在有很多边界问题，比如 "2263" 这个数，就不符合上述规律，因为 倒数第一二位 "63" 这个数组不在字母数字范围内
  */
-```
+// ```

@@ -1,6 +1,6 @@
-## 方法一
-`开放地址法`需要注意，`get`元素需要遍历所有冲突情况（效率会低），因为`remove`元素，可能导致后续`get`元素的冲突链断了。
-```
+// ## 方法一
+// `开放地址法`需要注意，`get`元素需要遍历所有冲突情况（效率会低），因为`remove`元素，可能导致后续`get`元素的冲突链断了。
+// ```
 #define HASH_SIZE 10007
 #define INF 0x7fffffff
 
@@ -96,12 +96,12 @@ inline void myHashMapFree(MyHashMap* obj) {
  
  * myHashMapFree(obj);
 */
-```
+// ```
 
 
-## 方法二 把Hash数组开大(提升效率)
-开大数组，减少冲突，没有冲突链，`remove`元素就不会造成影响。
-```c
+// ## 方法二 把Hash数组开大(提升效率)
+// 开大数组，减少冲突，没有冲突链，`remove`元素就不会造成影响。
+// ```c
 #define HASH_SIZE 100003
 #define INF 0x7fffffff
 
@@ -198,4 +198,4 @@ inline void myHashMapFree(MyHashMap* obj) {
  
  * myHashMapFree(obj);
 */
-```
+// ```

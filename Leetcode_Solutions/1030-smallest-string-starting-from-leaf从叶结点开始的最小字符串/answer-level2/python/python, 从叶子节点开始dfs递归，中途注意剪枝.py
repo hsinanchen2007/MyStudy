@@ -1,4 +1,4 @@
-```python
+# ```python
     # 最直接的思路的dfs解法，用set来去重即剪枝
     def smallestFromLeaf(self, root: TreeNode) -> str:
         def dfs(root):
@@ -14,4 +14,4 @@
         if not root:
             return ''
         return min(dfs(root))
-```
+# ```

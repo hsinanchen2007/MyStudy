@@ -1,15 +1,15 @@
-### 解题思路
-假设要寻找A[low..high]的最大子数组，采用分治策略，则可以将A[low..high]划分为两个规模尽量相等的子数组A[low..mid]，A[mid+1..high]，其中mid在A[low..high]的中间位置。可知，A[low..high]的最大子数组可能出现的位置为：
-    - 完全位于A[low..mid]中
-    - 完全位于A[mid+1..high]中
-    - 跨越了中点
-其中在A[low..mid]和A[mid+1..high]这两个位置可以直接继续递归就可以了，但跨越了中点需要从中点向两头搜索A[i..mid]，A[mid+1..j]（low<=i<=mid，mid<j<=high）这两个子数组就组成了原数组的一个最大子数组；
+// ### 解题思路
+// 假设要寻找A[low..high]的最大子数组，采用分治策略，则可以将A[low..high]划分为两个规模尽量相等的子数组A[low..mid]，A[mid+1..high]，其中mid在A[low..high]的中间位置。可知，A[low..high]的最大子数组可能出现的位置为：
+//     - 完全位于A[low..mid]中
+//     - 完全位于A[mid+1..high]中
+//     - 跨越了中点
+// 其中在A[low..mid]和A[mid+1..high]这两个位置可以直接继续递归就可以了，但跨越了中点需要从中点向两头搜索A[i..mid]，A[mid+1..j]（low<=i<=mid，mid<j<=high）这两个子数组就组成了原数组的一个最大子数组；
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int FindMaxCorssSubarray(int *nums,int low,int mid,int high)
 {
     int leftsum = INT_MIN;
@@ -52,4 +52,4 @@ int FindMaximumSubarray(int *nums,int low,int high)
 int maxSubArray(int* nums, int numsSize){
     return FindMaximumSubarray(nums,0,numsSize-1);
 }
-```
+// ```

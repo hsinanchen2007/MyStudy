@@ -1,5 +1,5 @@
-第一种 比较蠢的方法
-```
+// 第一种 比较蠢的方法
+// ```
 class Solution {
     /**
      * (()
@@ -65,10 +65,10 @@ class Solution {
         System.out.println(s.longestValidParentheses("(()())()"));
     }
 }
-```
-第二种 然后我发现,没有必要用二维数组, 连续的字串中间必定全符合要求, 一维就可以
+// ```
+// 第二种 然后我发现,没有必要用二维数组, 连续的字串中间必定全符合要求, 一维就可以
 
-```
+// ```
 class Solution {
     /**
      * (()
@@ -144,4 +144,4 @@ class Solution {
 //        System.out.println(s.longestValidParentheses("(()())()"));
     }
 }
-```
+// ```

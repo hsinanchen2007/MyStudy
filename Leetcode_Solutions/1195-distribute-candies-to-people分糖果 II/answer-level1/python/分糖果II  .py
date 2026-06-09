@@ -1,9 +1,9 @@
-### 解题思路
-官方题解 暴力法 学习 感觉也很巧妙
+# ### 解题思路
+# 官方题解 暴力法 学习 感觉也很巧妙
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         ans = [0] * num_people
@@ -13,4 +13,4 @@ class Solution:
             candies -= min(i + 1, candies)
             i += 1
         return ans
-```
+# ```

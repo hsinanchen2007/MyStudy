@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int firstBadVersion(int n) {
@@ -16,9 +16,9 @@ public:
         return i;
     }
 };
-```
-第二种条件
-```
+// ```
+// 第二种条件
+// ```
 bool isBadVersion(int version);
 
 class Solution {
@@ -38,4 +38,4 @@ public:
         return i;
     }
 };
-```
+// ```

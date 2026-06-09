@@ -1,12 +1,12 @@
-### 解题思路
-dp[i] 表示 nums[0] ->nums[i]可以打劫的最大的金额
-不能打劫相邻2个
-打劫i ->dp[i] = dp[i-2] + nums[i]
-不打劫i ->dp[i] = dp[i-1];
+// ### 解题思路
+// dp[i] 表示 nums[0] ->nums[i]可以打劫的最大的金额
+// 不能打劫相邻2个
+// 打劫i ->dp[i] = dp[i-2] + nums[i]
+// 不打劫i ->dp[i] = dp[i-1];
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -38,4 +38,4 @@ public:
         return d1;
     }
 };
-```
+// ```

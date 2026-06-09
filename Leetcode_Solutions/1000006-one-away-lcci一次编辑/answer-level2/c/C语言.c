@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool oneEditAway(char* first, char* second){
     int firstLen = strlen(first);
     int secondLen = strlen(second);
@@ -32,4 +32,4 @@ bool oneEditAway(char* first, char* second){
 
     return true;
 }
-```
+// ```

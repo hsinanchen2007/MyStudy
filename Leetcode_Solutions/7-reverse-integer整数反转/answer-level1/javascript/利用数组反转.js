@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -23,4 +23,4 @@ var reverse = function (x) {
         return newNum;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-没有考虑什么贪心不贪心,就单纯得一位一位求，速度也还可以，超越99.9%
-### 代码
+// ### 解题思路
+// 没有考虑什么贪心不贪心,就单纯得一位一位求，速度也还可以，超越99.9%
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {string}
@@ -36,4 +36,4 @@ var intToRoman = function(num) {
             TurnFive(ten, "X", "L", "C") + 
             TurnFive(ge, "I", "V", "X");
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码吧
+// ### 解题思路
+// 直接看代码吧
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_MAP_SIZE 128
 
 int MAX(int a, int b)
@@ -53,4 +53,4 @@ int lengthOfLongestSubstringKDistinct(char * s, int k){
     
     return max;
 }
-```
+// ```

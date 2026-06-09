@@ -1,9 +1,9 @@
-### 解题思路
-找到R的时间复杂度O(n^2).空间复杂度O(1)
+// ### 解题思路
+// 找到R的时间复杂度O(n^2).空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int p=0, q=0, count=0;
@@ -52,4 +52,4 @@ class Solution {
 
     }
 }
-```
+// ```

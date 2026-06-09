@@ -1,9 +1,9 @@
-### 解题思路
-遇到数字入栈，遇到算术符出栈并将算术结果入栈
+// ### 解题思路
+// 遇到数字入栈，遇到算术符出栈并将算术结果入栈
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isNumber(char *str) {
     if (*str == '*' || *str == '/' || *str == '+') return false;
     if (*str == '-' && strlen(str) == 1) return false;
@@ -54,4 +54,4 @@ int evalRPN(char ** tokens, int tokensSize){
     }
     return result;
 }
-```
+// ```

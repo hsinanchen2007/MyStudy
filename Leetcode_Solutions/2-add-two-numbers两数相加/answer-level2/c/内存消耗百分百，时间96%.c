@@ -1,9 +1,9 @@
-### 解题思路
-提供一个链表的尾端插入函数insert，使用尾插函数更简便，但是效率低下，因为每一次调用函数都要从头遍历节点完成新节点的插入。
-这里直接在addTwoNumbers中完成插入新节点的操作，由于这样避免了调用insert函数的弊端，所以时间效率更高一点（10%-30%左右）
-### 代码
+// ### 解题思路
+// 提供一个链表的尾端插入函数insert，使用尾插函数更简便，但是效率低下，因为每一次调用函数都要从头遍历节点完成新节点的插入。
+// 这里直接在addTwoNumbers中完成插入新节点的操作，由于这样避免了调用insert函数的弊端，所以时间效率更高一点（10%-30%左右）
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -88,4 +88,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head->next;
 }
-```
+// ```

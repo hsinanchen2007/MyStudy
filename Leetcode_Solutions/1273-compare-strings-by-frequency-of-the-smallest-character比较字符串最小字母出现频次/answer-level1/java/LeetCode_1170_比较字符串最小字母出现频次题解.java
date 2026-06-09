@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-首先计算出queries和words的f()值，之后查找符合`f(queries[i]) < f(W)`的个数即可。使用二分查找可提高速度，注意边界条件，即words中没有比f(queries)小的数字。
+// 首先计算出queries和words的f()值，之后查找符合`f(queries[i]) < f(W)`的个数即可。使用二分查找可提高速度，注意边界条件，即words中没有比f(queries)小的数字。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public int[] numSmallerByFrequency(String[] queries, String[] words) {
         // answer[i] 满足 f(queries[i]) < f(w)的词的数据， W是词汇表Words中的词
@@ -63,4 +63,4 @@ public int[] numSmallerByFrequency(String[] queries, String[] words) {
         return count;
     }
 }
-```
+// ```

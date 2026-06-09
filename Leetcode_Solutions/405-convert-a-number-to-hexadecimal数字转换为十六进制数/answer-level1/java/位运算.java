@@ -1,5 +1,5 @@
-每四位合成一个十六进制的字符加入到string中。之后翻转输出即可。
-```java
+// 每四位合成一个十六进制的字符加入到string中。之后翻转输出即可。
+// ```java
 class Solution {
     public String toHex(int num) {
         if(num == 0) {
@@ -14,4 +14,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

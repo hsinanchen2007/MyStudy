@@ -1,10 +1,10 @@
-### 解题思路
-好多题解都是DFS（深度优先），本题目的是找存在性，有一个结果和有n个结果，答案是一样的。所以DFS更适合一下。
-尝试用BFS（广度优先）结一下。仅供参考。
+// ### 解题思路
+// 好多题解都是DFS（深度优先），本题目的是找存在性，有一个结果和有n个结果，答案是一样的。所以DFS更适合一下。
+// 尝试用BFS（广度优先）结一下。仅供参考。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func exist(board [][]byte, word string) bool {
 
@@ -62,4 +62,4 @@ func exist(board [][]byte, word string) bool {
 	}
 	return false
 }
-```
+// ```

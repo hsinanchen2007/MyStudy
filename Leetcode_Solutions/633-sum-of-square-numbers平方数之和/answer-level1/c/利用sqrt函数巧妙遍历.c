@@ -1,9 +1,9 @@
-### 解题思路
-遍历a的所有可能，然后利用sqrt函数判断b是否能得出一个整数。
+// ### 解题思路
+// 遍历a的所有可能，然后利用sqrt函数判断b是否能得出一个整数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <math.h>
 
 bool judgeSquareSum(int c){
@@ -15,4 +15,4 @@ bool judgeSquareSum(int c){
 	}
     return false;
 }
-```
+// ```

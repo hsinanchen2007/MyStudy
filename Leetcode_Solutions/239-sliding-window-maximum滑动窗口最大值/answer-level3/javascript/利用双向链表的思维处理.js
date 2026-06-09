@@ -1,4 +1,4 @@
-//可能是JS中的shift消耗性能，用这种方式处理，比暴力方法，更加耗时 手动狗头
+// //可能是JS中的shift消耗性能，用这种方式处理，比暴力方法，更加耗时 手动狗头
 var maxSlidingWindow = function(nums, k) {
    if(nums.length===0){
         return [];

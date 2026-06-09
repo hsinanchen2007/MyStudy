@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/a6b7d4fdf98d400a0ee522884583799374995e6b1ef78a6262c52739a4f62362-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/a6b7d4fdf98d400a0ee522884583799374995e6b1ef78a6262c52739a4f62362-image.png)
+// ```
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -23,4 +23,4 @@ public:
         return 0;
     }
 };
-```
+// ```

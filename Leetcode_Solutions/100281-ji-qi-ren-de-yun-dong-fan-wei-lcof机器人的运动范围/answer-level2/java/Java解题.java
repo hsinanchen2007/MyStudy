@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //统计到达的数量
     int counts=0;
@@ -34,4 +34,4 @@ class Solution {
         return indexSum(index / 10) + index % 10;
     }
 }
-```
+// ```

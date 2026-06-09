@@ -1,8 +1,8 @@
-链接：[https://leetcode-cn.com/problems/reverse-integer/solution/liang-xin-ti-jie-by-liqian-by-li-gan-2/]()
-## 这个是0ms代码，击败100%用户！！！
-![傲游截图20191105125954.png](https://pic.leetcode-cn.com/a88392aa807d43ff05fd0a2fa6fdf008a1aff3b1d39ae310f19d64644f14fe01-%E5%82%B2%E6%B8%B8%E6%88%AA%E5%9B%BE20191105125954.png)
-![傲游截图20191105125911.png](https://pic.leetcode-cn.com/2b472f81570ec9b67563f72b8c1a193ce210c245a14ed079266f9390aeef5b57-%E5%82%B2%E6%B8%B8%E6%88%AA%E5%9B%BE20191105125911.png)
-```cpp
+// 链接：[https://leetcode-cn.com/problems/reverse-integer/solution/liang-xin-ti-jie-by-liqian-by-li-gan-2/]()
+// ## 这个是0ms代码，击败100%用户！！！
+// ![傲游截图20191105125954.png](https://pic.leetcode-cn.com/a88392aa807d43ff05fd0a2fa6fdf008a1aff3b1d39ae310f19d64644f14fe01-%E5%82%B2%E6%B8%B8%E6%88%AA%E5%9B%BE20191105125954.png)
+// ![傲游截图20191105125911.png](https://pic.leetcode-cn.com/2b472f81570ec9b67563f72b8c1a193ce210c245a14ed079266f9390aeef5b57-%E5%82%B2%E6%B8%B8%E6%88%AA%E5%9B%BE20191105125911.png)
+// ```cpp
 class Solution {
 public:
     int reverse(int x) 
@@ -26,12 +26,12 @@ public:
         //else不加会慢
     }
 };
-```
-心得：
-需要熟练的掌握STL的各种函数
-主要使用string，熟练掌握+特判=AC
-最不爽的是用不了STL的reverse函数
+// ```
+// 心得：
+// 需要熟练的掌握STL的各种函数
+// 主要使用string，熟练掌握+特判=AC
+// 最不爽的是用不了STL的reverse函数
 
-------------------------------
+// ------------------------------
 
-*Goodbye！！*
+// *Goodbye！！*

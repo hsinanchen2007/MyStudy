@@ -1,8 +1,8 @@
-### 解题思路
-特殊处理‘0’开头的时间，其实还不如全部转换成分钟来得快
-### 代码
+# ### 解题思路
+# 特殊处理‘0’开头的时间，其实还不如全部转换成分钟来得快
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
         timePoints = sorted(timePoints)
@@ -23,4 +23,4 @@ class Solution:
             b_minute = int(timePoints[i+1].split(':')[1]) if timePoints[i+1].split(':')[1] != '00' else 0
             ans = min(ans,(b_hour - a_hour) * 60 + (b_minute - a_minute))
         return ans
-```
+# ```

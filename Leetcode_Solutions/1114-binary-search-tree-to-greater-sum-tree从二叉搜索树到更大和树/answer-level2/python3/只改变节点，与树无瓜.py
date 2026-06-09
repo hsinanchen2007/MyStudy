@@ -1,8 +1,8 @@
-中序遍历，用列表保存节点
+# 中序遍历，用列表保存节点
 
-从后向前遍历列表，改变val值为本节点与列表后节点的和
+# 从后向前遍历列表，改变val值为本节点与列表后节点的和
 
-```python
+# ```python
 class Solution:
     def bstToGst(self, root: TreeNode) -> TreeNode:
         res = []
@@ -19,4 +19,4 @@ class Solution:
             else:
                 res[i].val += res[i+1].val
         return root
-```
+# ```

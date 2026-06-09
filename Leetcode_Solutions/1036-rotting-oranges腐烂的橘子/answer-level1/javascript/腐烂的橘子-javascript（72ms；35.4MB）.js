@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/3eccdc89105af56d16669fdb54f0f973ba78a121838c4836b90635aeddc88cb4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3eccdc89105af56d16669fdb54f0f973ba78a121838c4836b90635aeddc88cb4-image.png)
 
-每分钟遍历二维数组（遍历一次时间+1），如果grid[i][j]==2，将相邻的值==1的位置赋值为3（如果直接改为2，会导致本次赋值的值相邻位置也赋值为2），记录本次遍历橘子腐烂个数，再遍历数组将3改为2。遍历结束的条件是：没有值为1、或本轮遍历腐烂个数为0，下一轮不会再有橘子腐烂。
-如果二维数组有值为1，那么返回-1；
-否则，如果循环结束，count==0，返回时间-1；//只有一种情况，就是数组初始值无1
-否则，返回时间。
-```
+// 每分钟遍历二维数组（遍历一次时间+1），如果grid[i][j]==2，将相邻的值==1的位置赋值为3（如果直接改为2，会导致本次赋值的值相邻位置也赋值为2），记录本次遍历橘子腐烂个数，再遍历数组将3改为2。遍历结束的条件是：没有值为1、或本轮遍历腐烂个数为0，下一轮不会再有橘子腐烂。
+// 如果二维数组有值为1，那么返回-1；
+// 否则，如果循环结束，count==0，返回时间-1；//只有一种情况，就是数组初始值无1
+// 否则，返回时间。
+// ```
 function isHasGood(grid) {
   let m = grid.length,
     n = grid[0].length;
@@ -43,4 +43,4 @@ var orangesRotting = function(grid) {
   } while (isHasGood(grid) && count !== 0);
   return isHasGood(grid) ? -1 : count == 0 ? time - 1 : time;
 };
-```
+// ```

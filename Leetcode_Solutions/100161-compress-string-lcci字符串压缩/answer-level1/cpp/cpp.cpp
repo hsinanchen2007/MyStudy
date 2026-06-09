@@ -1,11 +1,11 @@
-### 解题思路
-easy 
-itorate and get the count.
+// ### 解题思路
+// easy 
+// itorate and get the count.
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void Strtoi(int num,char* ret){
@@ -36,4 +36,4 @@ public:
             return ret.size()>S.size()?S:ret;
     }
 };
-```
+// ```

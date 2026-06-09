@@ -1,9 +1,9 @@
-### 解题思路
-python
+# ### 解题思路
+# python
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def checkInclusion(self, s1, s2):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 
             
         
-```
+# ```

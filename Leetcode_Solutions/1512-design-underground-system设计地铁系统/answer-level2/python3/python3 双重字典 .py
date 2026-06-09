@@ -1,9 +1,9 @@
-字典time记录始发站和每个id进站时间
-双重字典station的key0为始发站
-key1为终点站
-key1的value为1×2的数组 
-第一个位置存耗时 第二个位置存始发站到终点站成对出现的次数
-```
+# 字典time记录始发站和每个id进站时间
+# 双重字典station的key0为始发站
+# key1为终点站
+# key1的value为1×2的数组 
+# 第一个位置存耗时 第二个位置存始发站到终点站成对出现的次数
+# ```
 class UndergroundSystem:
 
     def __init__(self):
@@ -24,4 +24,4 @@ class UndergroundSystem:
         self.station[start][end][1]+=1
     def getAverageTime(self, startStation: str, endStation: str) -> float:
         return self.station[startStation][endStation][0]/self.station[startStation][endStation][1]
-```
+# ```

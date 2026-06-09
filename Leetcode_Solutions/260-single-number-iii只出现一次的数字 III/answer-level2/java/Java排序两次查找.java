@@ -1,16 +1,16 @@
-### 解题思路
-思路类似 [只出现一次的数字(https://leetcode-cn.com/problems/single-number/) ，先排序
+// ### 解题思路
+// 思路类似 [只出现一次的数字(https://leetcode-cn.com/problems/single-number/) ，先排序
 
-同样分为三种情况：
-1. ... 1 1 2 2 ...
-2. ... 1 2 ... 2 1 ...
-3. 2 ... 2 1 1
+// 同样分为三种情况：
+// 1. ... 1 1 2 2 ...
+// 2. ... 1 2 ... 2 1 ...
+// 3. 2 ... 2 1 1
 
-分为两步：先寻找第一个，记录下来，然后从找到的这一个元素的下一个元素进行寻找，这里就和 [只出现一次的数字(https://leetcode-cn.com/problems/single-number/) 一样
+// 分为两步：先寻找第一个，记录下来，然后从找到的这一个元素的下一个元素进行寻找，这里就和 [只出现一次的数字(https://leetcode-cn.com/problems/single-number/) 一样
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] singleNumber(int[] nums) {
         int[] result=new int[2];
@@ -58,4 +58,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

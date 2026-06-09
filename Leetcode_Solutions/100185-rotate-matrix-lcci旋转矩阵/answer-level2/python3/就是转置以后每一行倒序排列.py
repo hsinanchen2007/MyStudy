@@ -1,9 +1,9 @@
-### 解题思路
-结果就是转置以后每一行倒序排列
+# ### 解题思路
+# 结果就是转置以后每一行倒序排列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
                 matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]
         for i in matrix:
             i[:]=i[::-1]
-```
+# ```

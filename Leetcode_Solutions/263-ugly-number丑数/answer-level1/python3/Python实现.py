@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isUgly(self, num: int) -> bool:
         if num == 0:
@@ -22,4 +22,4 @@ class Solution(object):
         else:
             return False
 
-```
+# ```

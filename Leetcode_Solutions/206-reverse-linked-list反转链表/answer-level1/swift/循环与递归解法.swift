@@ -1,4 +1,4 @@
-```循环 []
+// ```循环 []
 func reverseList(_ head: ListNode?) -> ListNode? {
         //*solution（循环迭代）
        var prev: ListNode? = nil
@@ -16,8 +16,8 @@ func reverseList(_ head: ListNode?) -> ListNode? {
        }
        return curr
     }
-```
-```递归 []
+// ```
+// ```递归 []
 func reverseList(_ head: ListNode?) -> ListNode? {
         //*solution (递归)
         // 空链表 || 抵达链表尾部
@@ -30,4 +30,4 @@ func reverseList(_ head: ListNode?) -> ListNode? {
         head?.next = nil
         return node
     }
-```
+// ```

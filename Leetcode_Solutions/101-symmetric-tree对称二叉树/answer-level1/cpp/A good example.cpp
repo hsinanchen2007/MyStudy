@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :4 ms, 在所有 C++ 提交中击败了92.59%的用户
-内存消耗 :12.3 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了92.59%的用户
+// 内存消耗 :12.3 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return isSame(n1->left, n2->right) && isSame(n1->right, n2->left);
     }
 };
-```
+// ```

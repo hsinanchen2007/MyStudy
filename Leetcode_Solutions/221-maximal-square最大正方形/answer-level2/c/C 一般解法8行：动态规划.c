@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![演示文稿1.jpg](https://pic.leetcode-cn.com/15f53dc2688f3c3ab08e71468c2a76bd978675f3ccefa440a5a7a14c30b21f7e-%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF1.jpg)
+// ![演示文稿1.jpg](https://pic.leetcode-cn.com/15f53dc2688f3c3ab08e71468c2a76bd978675f3ccefa440a5a7a14c30b21f7e-%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF1.jpg)
 
-为了更简洁和可读在原数据上进行修改，有效代码8行
+// 为了更简洁和可读在原数据上进行修改，有效代码8行
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a,b,c) ((a)<(b)?( (a)<(c)?(a):(c) ):( (b)<(c)?(b):(c) ))
 
 int maximalSquare(char** matrix, int matrixSize, int* matrixColSize){
@@ -19,4 +19,4 @@ int maximalSquare(char** matrix, int matrixSize, int* matrixColSize){
         }
     return (ms-'0')*(ms-'0');
 }
-```
+// ```

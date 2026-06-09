@@ -1,5 +1,5 @@
-思路可以看labuladong大佬的[题解](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/di-gui-si-wei-ru-he-tiao-chu-xi-jie-by-labuladong/)
-```cpp
+// 思路可以看labuladong大佬的[题解](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/di-gui-si-wei-ru-he-tiao-chu-xi-jie-by-labuladong/)
+// ```cpp
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
@@ -30,4 +30,4 @@ public:
         return pre;
     }
 };
-```
+// ```

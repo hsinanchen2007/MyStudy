@@ -1,4 +1,4 @@
-```
+// ```
 //倒着推，速度比较快
     public boolean canJump(int[] nums) {
         if(nums == null){
@@ -38,4 +38,4 @@
         return dp[len - 1];
 
     }
-```
+// ```

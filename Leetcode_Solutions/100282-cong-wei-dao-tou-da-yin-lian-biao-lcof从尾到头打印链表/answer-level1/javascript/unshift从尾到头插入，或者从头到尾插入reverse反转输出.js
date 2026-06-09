@@ -1,6 +1,6 @@
-# unshift从尾到头插入
+// # unshift从尾到头插入
 
-```
+// ```
 var reversePrint = function(head) {
     let arr = []
     while(head)
@@ -10,11 +10,11 @@ var reversePrint = function(head) {
     }
     return arr
 };
-```
+// ```
 
-# 从头到尾插入reverse反转输出
+// # 从头到尾插入reverse反转输出
 
-```
+// ```
 var reversePrint = function(head) {
     let arr = []
     while(head)
@@ -24,4 +24,4 @@ var reversePrint = function(head) {
     }
     return arr.reverse()
 };
-```
+// ```

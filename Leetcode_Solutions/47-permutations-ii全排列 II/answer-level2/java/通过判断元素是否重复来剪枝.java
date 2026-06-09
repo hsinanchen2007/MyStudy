@@ -1,8 +1,8 @@
 
-因为题目给的测试用例不一定为有序数列，所以此处不用一个变量存储当前深度的前一个值。
-用一个集合 Set 存储当前深度已经用过的值，结合前一题 全排列I ,即可得出答案。
+// 因为题目给的测试用例不一定为有序数列，所以此处不用一个变量存储当前深度的前一个值。
+// 用一个集合 Set 存储当前深度已经用过的值，结合前一题 全排列I ,即可得出答案。
 
-```java
+// ```java
 class Solution {
     private List<List<Integer>> ans;
     public List<List<Integer>> permuteUnique(int[] nums) {
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

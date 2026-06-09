@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```oraclesql
+-- ```oraclesql
 /* Write your PL/SQL query statement below */
 select t.Id,t.Company,t.Salary
   from (select Id,
@@ -33,4 +33,4 @@ order by Company asc,Salary asc ,Id asc
 
 
 
-```
+-- ```

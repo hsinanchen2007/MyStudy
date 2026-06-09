@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     typealias Indices = (start:Int,end:Int)
     func numberOfSubarrays(_ nums: [Int], _ k: Int) -> Int {
@@ -28,4 +28,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

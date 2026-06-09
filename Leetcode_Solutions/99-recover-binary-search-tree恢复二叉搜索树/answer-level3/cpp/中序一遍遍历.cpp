@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* last = NULL, *node1, *node2;
@@ -21,4 +21,4 @@ public:
         node2->val = t;
     }
 };
-```
+// ```

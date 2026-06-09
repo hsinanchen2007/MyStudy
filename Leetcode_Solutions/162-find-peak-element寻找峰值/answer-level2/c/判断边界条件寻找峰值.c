@@ -1,5 +1,5 @@
-# 判断边界条件寻找峰值
-```
+// # 判断边界条件寻找峰值
+// ```
 
 int findPeakElement(int* nums, int numsSize){
     if (nums == NULL || numsSize <= 0) {
@@ -23,4 +23,4 @@ int findPeakElement(int* nums, int numsSize){
     }
     return NULL;
 }
-```
+// ```

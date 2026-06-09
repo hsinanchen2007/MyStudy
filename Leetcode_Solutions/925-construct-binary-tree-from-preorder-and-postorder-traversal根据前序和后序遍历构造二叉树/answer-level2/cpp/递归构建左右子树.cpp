@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-递归。
+// 递归。
 
-执行用时 :4 ms
+// 执行用时 :4 ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* constructFromPrePost(vector<int>& pre, vector<int>& post) {
@@ -36,4 +36,4 @@ public:
         return root;
     }
 };
-```
+// ```

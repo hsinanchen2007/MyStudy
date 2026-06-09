@@ -1,4 +1,4 @@
-```
+// ```
 class SortedStack {
     stack<int> s;
     stack<int> temp;
@@ -66,4 +66,4 @@ public:
     }
 };
 
-```
+// ```

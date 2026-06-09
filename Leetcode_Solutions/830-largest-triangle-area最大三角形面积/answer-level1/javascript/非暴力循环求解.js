@@ -1,7 +1,7 @@
-看到大部分的题解都是暴力循环遍历然后求面积；
-如果在点特别多的时候会做很多无效的计算，因为最大面积的点只能存在于最外围的点，所以可以在遍历前先筛除掉一部分点。
+// 看到大部分的题解都是暴力循环遍历然后求面积；
+// 如果在点特别多的时候会做很多无效的计算，因为最大面积的点只能存在于最外围的点，所以可以在遍历前先筛除掉一部分点。
 
-```
+// ```
 var largestTriangleArea = function(points) {
     let xMin = -Infinity, xMax = Infinity,
         yMin = -Infinity, yMax = Infinity
@@ -37,5 +37,5 @@ var largestTriangleArea = function(points) {
         return res
     }
 };
-```
+// ```
 

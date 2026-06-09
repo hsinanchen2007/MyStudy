@@ -1,5 +1,5 @@
-思路很简单结合剪枝
-```
+// 思路很简单结合剪枝
+// ```
     class BSTIterator {
 
         private Stack<TreeNode> stack=new Stack<>();
@@ -34,4 +34,4 @@
             return stack.size()!=0;
         }
     }
-```
+// ```

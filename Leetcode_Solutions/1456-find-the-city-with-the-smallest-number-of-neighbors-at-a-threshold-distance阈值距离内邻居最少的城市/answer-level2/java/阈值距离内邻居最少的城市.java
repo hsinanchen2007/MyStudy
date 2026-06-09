@@ -1,9 +1,9 @@
-### 解题思路
-dijkstra算法,求出到各个点的最短路径,找出能在距离阈值范围之内的点最少的那个
+// ### 解题思路
+// dijkstra算法,求出到各个点的最短路径,找出能在距离阈值范围之内的点最少的那个
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int []vis;
     private int[][] map;
@@ -65,4 +65,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> res = new LinkedList<>();
     public List<String> generateParenthesis(int n) {
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

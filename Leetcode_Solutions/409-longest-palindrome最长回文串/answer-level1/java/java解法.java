@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
 int[] cnt = new int[58];
@@ -20,4 +20,4 @@ int[] cnt = new int[58];
       return ans < s.length() ? ans + 1 : ans;  
     }
 }
-```
+// ```

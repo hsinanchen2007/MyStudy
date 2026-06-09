@@ -1,6 +1,6 @@
-carry:进位。
-若最后进位为1的话，还需要创建一个新的节点，否则不需要。
-```
+// carry:进位。
+// 若最后进位为1的话，还需要创建一个新的节点，否则不需要。
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return ans.next;
     }
 }
-```
+// ```

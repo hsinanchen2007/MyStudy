@@ -1,12 +1,12 @@
-### 解题思路
-首先肯定是通过二分查找的方式进行查找，根据左闭右开的原则：
-当目标值等于mid时，直接返回mid
-当目标值小于mid时，应该将right设置为mid；
-当目标值大于mid时，应该将left设置为mid+1
+// ### 解题思路
+// 首先肯定是通过二分查找的方式进行查找，根据左闭右开的原则：
+// 当目标值等于mid时，直接返回mid
+// 当目标值小于mid时，应该将right设置为mid；
+// 当目标值大于mid时，应该将left设置为mid+1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         //二分查找
@@ -24,4 +24,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

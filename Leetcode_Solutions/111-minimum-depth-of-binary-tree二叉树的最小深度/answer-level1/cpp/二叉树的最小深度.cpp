@@ -1,5 +1,5 @@
-递归求解，注意在递归的时候注意单叉树的存在，实现如下：
-```
+// 递归求解，注意在递归的时候注意单叉树的存在，实现如下：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -19,9 +19,9 @@ public:
         return min(minDepth(root->left),minDepth(root->right))+1;
     }
 };
-```
-同样的思路，不同的写法如下：
-```
+// ```
+// 同样的思路，不同的写法如下：
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ public:
         return min(left,right)+1;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     print(head,returnNums,returnSize);
     return returnNums;
 }
-```
+// ```

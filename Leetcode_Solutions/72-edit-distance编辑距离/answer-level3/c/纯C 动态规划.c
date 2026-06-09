@@ -1,9 +1,9 @@
-### 解题思路
-纯C 动态规划 清清爽爽
+// ### 解题思路
+// 纯C 动态规划 清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static inline int min(int a, int b, int c)
 {
     int d = a < b ? a : b;
@@ -59,4 +59,4 @@ int minDistance(char * word1, char * word2){
 
     return dp[lenOfWord1IsRow][lenOfWord2IsCol];
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-当前dp更新时扫描前面的数组元素，有更小的数组num[i]就取出它的dp[i]+1 比较
+# ### 解题思路
+# 当前dp更新时扫描前面的数组元素，有更小的数组num[i]就取出它的dp[i]+1 比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -23,4 +23,4 @@ class Solution(object):
 
 
     
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-平平无奇哈希表
-![image.png](https://pic.leetcode-cn.com/3c0e1bd13c9bb8742b87fe6d6c8659f3c75a73af395c663b0477b3744f79e19d-image.png)
+// ### 解题思路
+// 平平无奇哈希表
+// ![image.png](https://pic.leetcode-cn.com/3c0e1bd13c9bb8742b87fe6d6c8659f3c75a73af395c663b0477b3744f79e19d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canConstruct(char * ransomNote, char * magazine){
     int* hash1 = (int*)malloc(sizeof(int) * 127);
     int* hash2 = (int*)malloc(sizeof(int) * 127);
@@ -30,4 +30,4 @@ bool canConstruct(char * ransomNote, char * magazine){
     }
     return true;
 }
-```
+// ```

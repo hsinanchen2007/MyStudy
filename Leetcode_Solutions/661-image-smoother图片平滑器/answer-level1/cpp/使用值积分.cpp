@@ -1,7 +1,7 @@
-执行用时 : 196 ms, 在Image Smoother的C++提交中击败了98.60% 的用户
-内存消耗 : 18.9 MB, 在Image Smoother的C++提交中击败了35.45% 的用户
+// 执行用时 : 196 ms, 在Image Smoother的C++提交中击败了98.60% 的用户
+// 内存消耗 : 18.9 MB, 在Image Smoother的C++提交中击败了35.45% 的用户
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {

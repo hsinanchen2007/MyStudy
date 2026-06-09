@@ -1,10 +1,10 @@
-### 解题思路
-1. left = 当前节点左侧返回的最大值
-2. right = 当前节点右侧返回的最大值
-3. 判断条件： 当前val + left或者val + right为返回值向上递归，但存ans做全局变量，记录以当前节点为顶点的值
-### 代码
+// ### 解题思路
+// 1. left = 当前节点左侧返回的最大值
+// 2. right = 当前节点右侧返回的最大值
+// 3. 判断条件： 当前val + left或者val + right为返回值向上递归，但存ans做全局变量，记录以当前节点为顶点的值
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

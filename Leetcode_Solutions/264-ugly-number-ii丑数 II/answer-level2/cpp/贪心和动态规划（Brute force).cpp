@@ -1,10 +1,10 @@
-第一种解法：贪心
-Brute force,  遍历所有丑数，排序，输出第n个
-Time complexity:O（NlogN） runtime 112ms
-Space complexity:O (N)  
-有个 trick， 如果使用static 命名vector 可以使runtime 降低为 48ms
+// 第一种解法：贪心
+// Brute force,  遍历所有丑数，排序，输出第n个
+// Time complexity:O（NlogN） runtime 112ms
+// Space complexity:O (N)  
+// 有个 trick， 如果使用static 命名vector 可以使runtime 降低为 48ms
 
-```
+// ```
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -23,11 +23,11 @@ public:
 };
 
 
-```
+// ```
 
 
-第二种解法：使用类似动态规划的方法
-```
+// 第二种解法：使用类似动态规划的方法
+// ```
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -55,5 +55,5 @@ public:
     }
 };
 
-```
+// ```
 

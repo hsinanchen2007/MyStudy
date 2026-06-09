@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //统计活细胞个数
 int get_huo_shu(int **board, int all_hang, int all_lie,int m,int n){
     //要判断的元素的m为行，n为列
@@ -99,4 +99,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
 
     }
 }
-```
+// ```

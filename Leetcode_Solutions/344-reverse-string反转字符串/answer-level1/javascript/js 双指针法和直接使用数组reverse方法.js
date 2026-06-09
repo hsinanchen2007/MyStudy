@@ -1,4 +1,4 @@
-```
+// ```
 //法一、双指针法
 var reverseString = function(s) {
     let start = 0;
@@ -17,4 +17,4 @@ var reverseString = function(s) {
     s.reverse()
 };
 
-```
+// ```

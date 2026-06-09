@@ -1,9 +1,9 @@
-### 解题思路
-初初初初学者不会优化
+# ### 解题思路
+# 初初初初学者不会优化
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def nthUglyNumber(self, n):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                 m.remove(r)
 
         return b[-1]
-```
+# ```

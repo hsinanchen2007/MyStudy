@@ -1,9 +1,9 @@
-### 解题思路
-利用一个栈，两次循环,实现链表反转
+# ### 解题思路
+# 利用一个栈，两次循环,实现链表反转
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
         h.next = None
         return p
         
-```
+# ```

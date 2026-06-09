@@ -1,20 +1,20 @@
-### 解题思路
-典型的游戏输赢类问题，可以使用DFS加记忆化解决，这里给出C语言的解法。
+// ### 解题思路
+// 典型的游戏输赢类问题，可以使用DFS加记忆化解决，这里给出C语言的解法。
 
-注意数字个数<=20,可以使用位运算记录使用数据的mask。
+// 注意数字个数<=20,可以使用位运算记录使用数据的mask。
 
-memo[mask]表示当使用数据的pattern为mask时，当前玩家所能获得的最大得分。
+// memo[mask]表示当使用数据的pattern为mask时，当前玩家所能获得的最大得分。
 
-定义递归函数helper(int *nums, int numsSize, int sum, int mask),
+// 定义递归函数helper(int *nums, int numsSize, int sum, int mask),
 
-通过sum减去对手最低得分，获得当前最高得分。
+// 通过sum减去对手最低得分，获得当前最高得分。
 
-![image.png](https://pic.leetcode-cn.com/e94a01f12aa7fcccdb2c7ac14b3c65531842667461f28cda2e07c41973e0048f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e94a01f12aa7fcccdb2c7ac14b3c65531842667461f28cda2e07c41973e0048f-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -77,4 +77,4 @@ bool PredictTheWinner(int* nums, int numsSize){
 
     return ret >= (sum - ret);
 }
-```
+// ```

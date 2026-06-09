@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -17,4 +17,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,18 +1,18 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 这个算法基于BST树的特性
-    2.2 用val对比当前结点的值，有三种情况
-        2.2.1 node.val=val，返回当前结点
-        2.2.2 node.val<val，遍历右子树
-        2.2.3 node.val>val，遍历左子树
-3. 提交记录
-    3.1 力扣中耗时1ms,消耗48.7MB内存
-    3.2 leetcode中耗时0ms,消耗38.3MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 这个算法基于BST树的特性
+//     2.2 用val对比当前结点的值，有三种情况
+//         2.2.1 node.val=val，返回当前结点
+//         2.2.2 node.val<val，遍历右子树
+//         2.2.3 node.val>val，遍历左子树
+// 3. 提交记录
+//     3.1 力扣中耗时1ms,消耗48.7MB内存
+//     3.2 leetcode中耗时0ms,消耗38.3MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     700.Search in a Binary Search Tree
@@ -61,6 +61,6 @@ class Solution {
     }
     
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

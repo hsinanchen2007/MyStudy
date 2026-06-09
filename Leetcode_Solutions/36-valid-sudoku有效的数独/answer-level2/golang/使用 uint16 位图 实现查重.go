@@ -1,10 +1,10 @@
-使用 uint16 , 来作为位图，压缩空间复杂度。
+// 使用 uint16 , 来作为位图，压缩空间复杂度。
 
-使用了3个 [9]uint16 数组 作为 位图，使用内存固定为 3 * 9 * 2byte = 54byte，空间复杂度为 __O(1)__
+// 使用了3个 [9]uint16 数组 作为 位图，使用内存固定为 3 * 9 * 2byte = 54byte，空间复杂度为 __O(1)__
 
-两层嵌套for循环，时间复杂度为 __O(1)__
+// 两层嵌套for循环，时间复杂度为 __O(1)__
 
-```go
+// ```go
 func isValidSudoku(board [][]byte) bool {
     var row, col, block [9]uint16
     var cur uint16
@@ -26,7 +26,7 @@ func isValidSudoku(board [][]byte) bool {
     }
     return true
 }
-```
+// ```
 
-- 执行用时：0 ms, 在Valid Sudoku的Go提交中击败了100.00% 的用户
-- 内存消耗：2.9 MB, 在Valid Sudoku的Go提交中击败了68.54% 的用户
+// - 执行用时：0 ms, 在Valid Sudoku的Go提交中击败了100.00% 的用户
+// - 内存消耗：2.9 MB, 在Valid Sudoku的Go提交中击败了68.54% 的用户

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def compress(self, chars: List[str]) -> int:
         if len(chars)<=1:
@@ -19,10 +19,10 @@ class Solution:
                 chars[i] = chars[j]      
                 num = 1
         return i
-```
+# ```
 
-解法二
-```
+# 解法二
+# ```
 class Solution:
     def compress(self, chars: List[str]) -> int:
         if len(chars)<=1:
@@ -39,4 +39,4 @@ class Solution:
                         i += 1
                 f = j + 1
         return i
-```
+# ```

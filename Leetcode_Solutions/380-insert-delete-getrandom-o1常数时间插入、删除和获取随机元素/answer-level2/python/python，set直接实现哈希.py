@@ -1,6 +1,6 @@
-常数时间摆明了就是哈希嘛，
-python的set直接实现
-```python
+# 常数时间摆明了就是哈希嘛，
+# python的set直接实现
+# ```python
 from random import choice
 class RandomizedSet:
     def __init__(self):
@@ -22,4 +22,4 @@ class RandomizedSet:
         if not self.set:
             return None
         return random.choice(list(self.set))
-```
+# ```

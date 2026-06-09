@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Reverse(int x) {
         long y=x%10;//不能用int型用例会超出int型范围，导致精度缺失
@@ -18,4 +18,4 @@ public class Solution {
         return (int) y;
     }
 }
-```
+// ```

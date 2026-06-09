@@ -1,11 +1,11 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-用辅助栈存储当前data的最小值，辅助栈头即为min值。
+# ### 解题思路
+# 用辅助栈存储当前data的最小值，辅助栈头即为min值。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MinStack(object):
 
     def __init__(self):
@@ -46,4 +46,4 @@ class MinStack(object):
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.min()
-```
+# ```

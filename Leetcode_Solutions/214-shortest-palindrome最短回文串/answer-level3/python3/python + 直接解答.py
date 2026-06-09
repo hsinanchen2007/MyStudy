@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
         index = 0
@@ -10,4 +10,4 @@ class Solution:
         
         res = s[index + 1:][::-1] + s[:index + 1] + s[index + 1:]
         return res
-```
+# ```

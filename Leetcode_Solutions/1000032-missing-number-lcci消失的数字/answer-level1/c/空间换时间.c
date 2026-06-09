@@ -1,9 +1,9 @@
-### 解题思路
-建立一个辅助数组
+// ### 解题思路
+// 建立一个辅助数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int missingNumber(int* nums, int numsSize){
     int *p;
     int i=0;
@@ -21,4 +21,4 @@ int missingNumber(int* nums, int numsSize){
     }
     return i;
 }
-```
+// ```

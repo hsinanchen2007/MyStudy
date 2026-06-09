@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
                     stack.insert(0,node.left)
             ans.append(tmp[0])
         return ans
-```
+# ```

@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var detectCapitalUse = function(word) {
     if (word.toUpperCase() == word || word.toLowerCase() == word) {
     	return true;
@@ -14,11 +14,11 @@ var detectCapitalUse = function(word) {
     }
     return false
 };
-```
+// ```
 
-*法二：正则匹配*
+// *法二：正则匹配*
 
-```js
+// ```js
 var detectCapitalUse = function(word) {
     let patterns = [/^[A-Z]+$/, /^[a-z]+$/, /^[A-Z][a-z]+$/];
     let flag = false
@@ -29,5 +29,5 @@ var detectCapitalUse = function(word) {
     })
     return flag
 };
-```
+// ```
 

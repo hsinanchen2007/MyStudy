@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :40 ms, 在所有 Python3 提交中击败了44.06%的用户
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了6.28%的用户
+# ### 解题思路
+# 执行用时 :40 ms, 在所有 Python3 提交中击败了44.06%的用户
+# 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了6.28%的用户
 
-思路：
-while循环，每次用one_circle(self, matrix)按照右、下、左、上的顺序算最外围一圈，然后扒掉最外围一圈
+# 思路：
+# while循环，每次用one_circle(self, matrix)按照右、下、左、上的顺序算最外围一圈，然后扒掉最外围一圈
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:
@@ -38,4 +38,4 @@ class Solution:
             p += 1
             
         return res      
-```
+# ```

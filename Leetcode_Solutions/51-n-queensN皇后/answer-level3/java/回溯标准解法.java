@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-- 回溯深度d
-- 约束剪枝isValid
-- 每轮的选择[0...N-1]
+// - 回溯深度d
+// - 约束剪枝isValid
+// - 每轮的选择[0...N-1]
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     char[][] board;
     List<List<String>> result = new ArrayList<>();
@@ -70,4 +70,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

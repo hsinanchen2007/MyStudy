@@ -1,4 +1,4 @@
-```js
+// ```js
 var findMedianSortedArrays = function(nums1, nums2) {
     const quickSort = (array = []) => {
         if (array.length < 2) {
@@ -25,4 +25,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
     ? (newArr[Math.floor(half)])
     : +(newArr[half-1] + +newArr[half])/2
 };
-```
+// ```

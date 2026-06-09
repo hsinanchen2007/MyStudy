@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历读取原数组
-2. 奇偶异步写入器写入返回数组
+// ### 解题思路
+// 1. 遍历读取原数组
+// 2. 奇偶异步写入器写入返回数组
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -25,4 +25,4 @@ int* sortArrayByParityII(int* A, int ASize, int* returnSize){
     }
     return res;
 }
-```
+// ```

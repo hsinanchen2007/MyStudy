@@ -1,9 +1,9 @@
-### 解法一
-两重循环，效率低
+// ### 解法一
+// 两重循环，效率低
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} word1
@@ -24,13 +24,13 @@ var shortestDistance = function(words, word1, word2) {
     }
     return distance
 };
-```
+// ```
 
-### 解法二
-使用两个指针分别记录word1,word2出现索引，只需要一次循环
+// ### 解法二
+// 使用两个指针分别记录word1,word2出现索引，只需要一次循环
 
-### 代码
-```javascrip
+// ### 代码
+// ```javascrip
 /**
  * @param {string[]} words
  * @param {string} word1
@@ -57,4 +57,4 @@ var shortestDistance = function(words, word1, word2) {
     }
     return distance
 };
-```
+// ```

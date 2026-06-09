@@ -1,9 +1,9 @@
-### 解题思路
-二分法寻找最小的数，left、right分别为左右指针，while循环将left与right更新为含有逆序的部分，当right-left<=2返回最小值
+# ### 解题思路
+# 二分法寻找最小的数，left、right分别为左右指针，while循环将left与right更新为含有逆序的部分，当right-left<=2返回最小值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left,right=0,len(nums)-1
@@ -22,4 +22,4 @@ class Solution:
             
         return res
 
-```
+# ```

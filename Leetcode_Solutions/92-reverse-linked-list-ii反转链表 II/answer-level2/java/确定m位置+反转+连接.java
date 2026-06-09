@@ -1,10 +1,10 @@
-![屏幕快照 2020-02-19 下午3.47.35.png](https://pic.leetcode-cn.com/65f758daad58573b9a91c19f14d97c59d5280e3f43d4a64a84bd0eb31e7ac3e6-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-19%20%E4%B8%8B%E5%8D%883.47.35.png)
+// ![屏幕快照 2020-02-19 下午3.47.35.png](https://pic.leetcode-cn.com/65f758daad58573b9a91c19f14d97c59d5280e3f43d4a64a84bd0eb31e7ac3e6-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-19%20%E4%B8%8B%E5%8D%883.47.35.png)
 
-     * 1. newHead->head：建立新表头
-     * 2. 确定m的位置的mNode，以及m前面的位置h
-     * 3. 从m位置开始逐个反转pre->curr->next 到 curr->pre->next；反转n-m次
-     * 4. 反转后: pre是反转部分的头，curr是后面没有反转的头
-     * 5. 三个链表连接起来：h-> pre , mNode -> curr, 中间是反转部分(pre->...->mNode)
+//      * 1. newHead->head：建立新表头
+//      * 2. 确定m的位置的mNode，以及m前面的位置h
+//      * 3. 从m位置开始逐个反转pre->curr->next 到 curr->pre->next；反转n-m次
+//      * 4. 反转后: pre是反转部分的头，curr是后面没有反转的头
+//      * 5. 三个链表连接起来：h-> pre , mNode -> curr, 中间是反转部分(pre->...->mNode)
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || head.next == null || m==n){

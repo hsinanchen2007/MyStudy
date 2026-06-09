@@ -1,5 +1,5 @@
-# 贪心-字符串转数组
-```
+// # 贪心-字符串转数组
+// ```
 var isSubsequence = function(s, t) {
     if(s.length == 0) return true;
     let sStack = s.split('');
@@ -13,9 +13,9 @@ var isSubsequence = function(s, t) {
     }
     return false;
 };
-```
-# 贪心-字符串指针
-```
+// ```
+// # 贪心-字符串指针
+// ```
 var isSubsequence = function(s, t) {
     if(s.length == 0) return true;
     let sPos = 0;
@@ -29,12 +29,12 @@ var isSubsequence = function(s, t) {
     }
     return false;
 };
-```
-# DP
-理论上没啥问题，但架不住字符串t长度大~
-双层循环在t字符串长度较大时会超时，所以仅仅是这个方案可行~
+// ```
+// # DP
+// 理论上没啥问题，但架不住字符串t长度大~
+// 双层循环在t字符串长度较大时会超时，所以仅仅是这个方案可行~
 
-```
+// ```
 var isSubsequence = function(s, t) {
     let sLen = s.length, tLen = t.length;
         if (sLen > tLen) return false;
@@ -53,12 +53,12 @@ var isSubsequence = function(s, t) {
         }
         return dp[sLen][tLen];
 }
-```
-# 字典二分查找
-题解中有一题是C++写的，参考解法得到~
-这种解法的关键就是字符串的字典话，通过map，以及map内value中的二分查找提高查询效率；
-而生成字典可存储用于大量输入下的复用，在大量输入的场景下，字典的生成这一个时间可以忽略。
-```
+// ```
+// # 字典二分查找
+// 题解中有一题是C++写的，参考解法得到~
+// 这种解法的关键就是字符串的字典话，通过map，以及map内value中的二分查找提高查询效率；
+// 而生成字典可存储用于大量输入下的复用，在大量输入的场景下，字典的生成这一个时间可以忽略。
+// ```
 //大量字符串重复，将字典缓存会提速，leetcode提交时要把这句放到函数体内
 let dp = null;
 var isSubsequence = function(s, t) {
@@ -87,5 +87,5 @@ var isSubsequence = function(s, t) {
     }
     return true;
 }
-```
+// ```
 

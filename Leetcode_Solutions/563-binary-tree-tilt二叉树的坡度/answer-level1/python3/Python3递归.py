@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def __init__(self):
         self.ans = 0
@@ -14,4 +14,4 @@ class Solution:
         
         find_sum(root)
         return self.ans
-```
+# ```

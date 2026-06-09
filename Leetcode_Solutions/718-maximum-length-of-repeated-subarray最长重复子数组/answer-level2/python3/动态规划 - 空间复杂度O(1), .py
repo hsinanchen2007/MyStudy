@@ -1,7 +1,7 @@
-只查找对角线. 仅需用一个int型变量.
+# 只查找对角线. 仅需用一个int型变量.
 
 
-```python
+# ```python
 class Solution:
     def findLength(self, A: List[int], B: List[int]) -> int:
         """仅查找对角线, 将空间复杂度优化到O(1)
@@ -40,4 +40,4 @@ class Solution:
                     res = t
 
         return res
-```
+# ```

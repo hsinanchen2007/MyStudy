@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int kEmptySlots(vector<int>& bulbs, int K) {
@@ -30,4 +30,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

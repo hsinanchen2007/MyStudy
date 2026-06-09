@@ -1,11 +1,11 @@
-### 解题思路
-首先对每一行，以中点为中心进行反转
-之后将矩阵按照对角线转置
-好像因为是N*N
-所以c语言给的`int* matrixColSize`并没有什么用
-### 代码
+// ### 解题思路
+// 首先对每一行，以中点为中心进行反转
+// 之后将矩阵按照对角线转置
+// 好像因为是N*N
+// 所以c语言给的`int* matrixColSize`并没有什么用
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize)
 {
     int len=matrixSize;
@@ -28,4 +28,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize)
         }
     }
 }
-```
+// ```

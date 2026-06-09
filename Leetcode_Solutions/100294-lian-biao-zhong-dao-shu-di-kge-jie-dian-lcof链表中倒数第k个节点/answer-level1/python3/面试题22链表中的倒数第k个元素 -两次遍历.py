@@ -1,11 +1,11 @@
-### 解题思路
-和876链表的中间节点相似，通过两次遍历解决
-第一次遍历找到倒数第k个节点是正数第几个
-第二次遍历终止于正数n-k+1节点
+# ### 解题思路
+# 和876链表的中间节点相似，通过两次遍历解决
+# 第一次遍历找到倒数第k个节点是正数第几个
+# 第二次遍历终止于正数n-k+1节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         return node
 
 
-```
+# ```

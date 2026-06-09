@@ -1,5 +1,5 @@
-反转法，五行代码搞定。
-```
+// 反转法，五行代码搞定。
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -10,5 +10,5 @@ public:
         reverse(nums.begin(),nums.end());
     }
 };
-```
+// ```
 

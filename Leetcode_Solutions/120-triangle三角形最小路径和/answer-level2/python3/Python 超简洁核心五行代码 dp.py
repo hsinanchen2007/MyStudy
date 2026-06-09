@@ -1,11 +1,11 @@
-### 解题思路
-core：`dp[i][j] = min(dp[i-1][j], dp[i-1][j+1]) + triangle[i][j] `
-dp：从底层走到当前节点的最短路径
-从底向上计算出当前节点能走的最短路径。因为只需要计算i层的dp只需要读取i-1层dp数组，所以dp数组可以变成一维。最后计算完成的dp[0]就是顶端的最小距离值
+# ### 解题思路
+# core：`dp[i][j] = min(dp[i-1][j], dp[i-1][j+1]) + triangle[i][j] `
+# dp：从底层走到当前节点的最短路径
+# 从底向上计算出当前节点能走的最短路径。因为只需要计算i层的dp只需要读取i-1层dp数组，所以dp数组可以变成一维。最后计算完成的dp[0]就是顶端的最小距离值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minimumTotal(self, triangle):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 dp[j] = min(dp[j], dp[j+1]) + triangle[i][j]
         return dp[0]
 
-```
+# ```

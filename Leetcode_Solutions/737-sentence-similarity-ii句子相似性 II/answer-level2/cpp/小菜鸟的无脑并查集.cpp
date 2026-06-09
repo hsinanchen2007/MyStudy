@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     unordered_map<string, string> wordTable;
@@ -41,4 +41,4 @@ public:
         return result;
     }
 };
-```
+// ```

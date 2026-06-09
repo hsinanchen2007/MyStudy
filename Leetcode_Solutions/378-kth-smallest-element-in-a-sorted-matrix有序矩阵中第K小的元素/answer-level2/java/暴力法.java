@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
         int []num=new int[matrix.length*matrix.length];
@@ -17,4 +17,4 @@ class Solution {
         return num[k-1];
     }
 }
-```
+// ```

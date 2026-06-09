@@ -1,5 +1,5 @@
-### 方法1：DP
-```
+// ### 方法1：DP
+// ```
  public int tribonacci(int n) {
         int[] dp = new int[n + 1];
         if (n == 0) return 0;
@@ -12,4 +12,4 @@
         }
         return dp[n];
     }
-```
+// ```

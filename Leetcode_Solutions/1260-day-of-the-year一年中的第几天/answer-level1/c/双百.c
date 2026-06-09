@@ -1,9 +1,9 @@
-### 解题思路
-0ms 5mb.注意平闰年以及月份数组前面插入一个0有点好用
+// ### 解题思路
+// 0ms 5mb.注意平闰年以及月份数组前面插入一个0有点好用
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int isRunNian(int yyyy){
     if(yyyy%400==0||(yyyy%100!=0&yyyy%4==0)){
         return 1;
@@ -25,4 +25,4 @@ int dayOfYear(char * date){
     sum+=dd;
     return sum;
 }
-```
+// ```

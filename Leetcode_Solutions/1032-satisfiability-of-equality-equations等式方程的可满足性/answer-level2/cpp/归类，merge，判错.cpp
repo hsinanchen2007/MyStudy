@@ -1,5 +1,5 @@
-思路见标题，代码见下。
-```
+// 思路见标题，代码见下。
+// ```
 class Solution {
 public:
     bool equationsPossible(vector<string>& equations)
@@ -61,4 +61,4 @@ public:
         return true;
     }
 };
-```
+// ```

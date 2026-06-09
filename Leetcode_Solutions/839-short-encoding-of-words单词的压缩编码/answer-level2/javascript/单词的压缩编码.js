@@ -1,10 +1,10 @@
-### 解题思路
-1、单词反转
-2、数组排序
+// ### 解题思路
+// 1、单词反转
+// 2、数组排序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -20,4 +20,4 @@ var minimumLengthEncoding = function(words) {
   const S = '#' + unique.join('#');
   return S.length;
 };
-```
+// ```

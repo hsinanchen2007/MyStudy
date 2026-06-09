@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numberOfSteps (num int) int {
     if num == 0 {
         return 0
@@ -19,4 +19,4 @@ func numberOfSteps (num int) int {
     }
     return res
 }
-```
+// ```

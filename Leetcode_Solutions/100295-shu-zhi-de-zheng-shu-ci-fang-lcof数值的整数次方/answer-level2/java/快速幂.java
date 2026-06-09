@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-Java要注意溢出
+// Java要注意溢出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 使用快速幂
     // x^i = x^(i/2) * x^(i/2) * x;
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

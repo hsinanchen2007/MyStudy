@@ -1,5 +1,5 @@
-使用hash表统计，s字符串+1,t字符串-1,如果是0则remove，最后判断map的size，如>0则说明不同。
- ```
+// 使用hash表统计，s字符串+1,t字符串-1,如果是0则remove，最后判断map的size，如>0则说明不同。
+//  ```
 public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
         HashMap<Character, Integer> map = new HashMap<>();
@@ -14,4 +14,4 @@ public boolean isAnagram(String s, String t) {
         if (map.size() == 0) return true;
         return false;
     }
-```
+// ```

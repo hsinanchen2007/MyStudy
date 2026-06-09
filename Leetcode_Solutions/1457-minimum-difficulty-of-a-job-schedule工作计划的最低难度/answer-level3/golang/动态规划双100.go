@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-参见代码的注释
+// 参见代码的注释
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minDifficulty(job []int, d int) int {
 
 	jobLen := len(job)
@@ -51,4 +51,4 @@ func minDifficulty(job []int, d int) int {
 
 	return dp[jobLen][d]
 }
-```
+// ```

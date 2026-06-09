@@ -1,11 +1,11 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-这题主要考时间复杂度，所以一定要二分。二分对比的点一定得是最右边的点，最左边的会有很多bad case。
+# ### 解题思路
+# 这题主要考时间复杂度，所以一定要二分。二分对比的点一定得是最右边的点，最左边的会有很多bad case。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minArray(self, numbers):
         low, high = 0, len(numbers) - 1
@@ -22,4 +22,4 @@ class Solution(object):
                 high -= 1  # 如果numbers[hign-1]=numbers[high]的情况
         return numbers[low]
 
-```
+# ```

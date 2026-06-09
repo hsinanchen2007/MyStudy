@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -45,4 +45,4 @@ int * numberOfLines(int * widths, int widthsSize , char * S , int* returnSize ){
     return buffer;
 
 }
-```
+// ```

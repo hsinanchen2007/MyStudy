@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路、
-![image.png](https://pic.leetcode-cn.com/887251371a2078c1cc7f62dd9c822c7055aadf64af5afba57428d3d13ddf25f7-image.png)
+// ### 解题思路
+// 此处撰写解题思路、
+// ![image.png](https://pic.leetcode-cn.com/887251371a2078c1cc7f62dd9c822c7055aadf64af5afba57428d3d13ddf25f7-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         StringBuffer buffer = new StringBuffer();
@@ -31,4 +31,4 @@ class Solution {
         return buffer.toString().length()>=S.length()?S:buffer.toString();
     }
 }
-```
+// ```

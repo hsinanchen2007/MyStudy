@@ -1,6 +1,6 @@
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     TreeNode* sortedListToBST(ListNode* head) {
@@ -19,4 +19,4 @@ public:
         return root;
     }
 };
-```
+// ```

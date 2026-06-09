@@ -1,4 +1,4 @@
-```php
+// ```php
 function setZeroes(&$matrix)
 {
     // 列
@@ -62,4 +62,4 @@ function setZeroes(&$matrix)
     }
 
 }
-```
+// ```

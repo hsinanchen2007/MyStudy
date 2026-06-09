@@ -1,9 +1,9 @@
-### 解题思路
-参考了大神代码，更喜欢结构声明中只有一个队列的方式，以上
+// ### 解题思路
+// 参考了大神代码，更喜欢结构声明中只有一个队列的方式，以上
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     queue []int
 }
@@ -71,4 +71,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

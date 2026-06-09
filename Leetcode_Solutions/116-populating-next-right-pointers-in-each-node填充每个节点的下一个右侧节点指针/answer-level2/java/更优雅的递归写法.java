@@ -1,5 +1,5 @@
-感谢@Face to faith
-```
+// 感谢@Face to faith
+// ```
 public Node connect(Node root) {
         //评论中的递归法：
         if (root == null) {
@@ -15,4 +15,4 @@ public Node connect(Node root) {
         connect(root.right);
         return root;
     }
-```
+// ```

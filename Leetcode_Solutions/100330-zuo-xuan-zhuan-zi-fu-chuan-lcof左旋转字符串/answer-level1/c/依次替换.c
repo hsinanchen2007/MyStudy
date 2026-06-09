@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意可以strlen(s)获得字符串长度
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意可以strlen(s)获得字符串长度
+// ### 代码
 
-```c
+// ```c
 char* reverseLeftWords(char* s, int n){
     if(s==0) return 0;
     int len=strlen(s);
@@ -17,4 +17,4 @@ char* reverseLeftWords(char* s, int n){
     }
     return s;
 }
-```
+// ```

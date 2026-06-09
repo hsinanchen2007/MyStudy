@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         a = s
@@ -24,13 +24,13 @@ class Solution:
         output = m_s[(record_dict[max_len]-max_len):(record_dict[max_len]+max_len)]
         output = output.replace('#', '')
         return output
-```
+# ```
 
-'''
-马拉车算法
-细节：1. python如何从'aa'变'#a#a#'的处理
-2. 计算的是扩散了多长而非包括中心点有多长，因此length从-1开始
-3. while判定的小细节，日常len()-1
-4. while里的pos不能放外面，且一旦不符合就break
-5. strip只有头尾，replace才是去除全部
-'''
+# '''
+# 马拉车算法
+# 细节：1. python如何从'aa'变'#a#a#'的处理
+# 2. 计算的是扩散了多长而非包括中心点有多长，因此length从-1开始
+# 3. while判定的小细节，日常len()-1
+# 4. while里的pos不能放外面，且一旦不符合就break
+# 5. strip只有头尾，replace才是去除全部
+# '''

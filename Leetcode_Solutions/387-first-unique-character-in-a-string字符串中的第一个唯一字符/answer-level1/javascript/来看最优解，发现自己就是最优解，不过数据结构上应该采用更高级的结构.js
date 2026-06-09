@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -27,4 +27,4 @@ var firstUniqChar = function(s) {
     if (minIndex === null) return -1;
     return minIndex
 };
-```
+// ```

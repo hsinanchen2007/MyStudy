@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b0b2487d5b09e053cc7061a6d67978d40fe330627a69a1c7adae013f897fd12c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b0b2487d5b09e053cc7061a6d67978d40fe330627a69a1c7adae013f897fd12c-image.png)
 
-```
+// ```
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -12,4 +12,4 @@ public:
                    (height - height_1 > 0 ? height - height_1 : 0) > 0;
     }
 };
-```
+// ```

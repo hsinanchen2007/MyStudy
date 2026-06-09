@@ -1,7 +1,7 @@
-# 解决方案
-构造一个优先队列(最大堆)，每次去poll出前两个最重的石头(x, y)，如果x > y, 则往队列中添加(x-y)。重复执行上述操作，直到最后一个石头。
-# 代码实现
-```
+// # 解决方案
+// 构造一个优先队列(最大堆)，每次去poll出前两个最重的石头(x, y)，如果x > y, 则往队列中添加(x-y)。重复执行上述操作，直到最后一个石头。
+// # 代码实现
+// ```
 func lastStoneWeight(stones []int) int {
 	pq := PriorityQueue{}
 	for _, stone := range stones {
@@ -89,4 +89,4 @@ func right(root int) int {
 	return root*2 + 2
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先后次序遍历填充新字符串，输出
+// ### 解题思路
+// 先后次序遍历填充新字符串，输出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         StringBuilder stringBuilder = new StringBuilder();
@@ -16,4 +16,4 @@ class Solution {
 		return stringBuilder.toString();
     }
 }
-```
+// ```

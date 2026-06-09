@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
-迭代解法的核心在于不断对每个结点的指向关系进行调整：
+// 迭代解法的核心在于不断对每个结点的指向关系进行调整：
 
-1. 使用临时变量缓存原先的后继结点
-2. 原先的先驱结点时调整后的后继，即 `prev` 变为 `curr.next`
-3. 接着处理原先的后继结点
+// 1. 使用临时变量缓存原先的后继结点
+// 2. 原先的先驱结点时调整后的后继，即 `prev` 变为 `curr.next`
+// 3. 接着处理原先的后继结点
 
-递归解法的核心在于构建递推关系：
-1. 想求链表 L(n) = a1-> a2 -> ... -> an 的反转结果，就是在 a2 -> ... ->an 的反转链表末尾加上 a1 即可
-2. 步骤 1 中要求的链表末尾，实际就是 a1 的 next
+// 递归解法的核心在于构建递推关系：
+// 1. 想求链表 L(n) = a1-> a2 -> ... -> an 的反转结果，就是在 a2 -> ... ->an 的反转链表末尾加上 a1 即可
+// 2. 步骤 1 中要求的链表末尾，实际就是 a1 的 next
 
-### 代码
+// ### 代码
 
-迭代解法：
+// 迭代解法：
 
-```kotlin
+// ```kotlin
 class Solution {
     fun reverseList(head: ListNode?): ListNode? {
         var prev: ListNode? = null
@@ -28,11 +28,11 @@ class Solution {
         return prev
     }
 }
-```
+// ```
 
-递归解法：
+// 递归解法：
 
-```kotlin
+// ```kotlin
 class Solution {
     fun reverseList(head: ListNode?): ListNode? {
         if (head == null) return null
@@ -45,4 +45,4 @@ class Solution {
         return newHead
     }
 }
-```
+// ```

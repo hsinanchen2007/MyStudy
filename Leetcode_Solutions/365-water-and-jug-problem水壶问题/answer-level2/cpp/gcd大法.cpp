@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/805c2885477fda15f34f434434495bbd7577f4d27d7adda5e5b57504ded2a19f-image.png)
-看gcd(x,y)能否整除z，再判断一下特殊情况即可，参见数论裴蜀定理
-```
+// ![image.png](https://pic.leetcode-cn.com/805c2885477fda15f34f434434495bbd7577f4d27d7adda5e5b57504ded2a19f-image.png)
+// 看gcd(x,y)能否整除z，再判断一下特殊情况即可，参见数论裴蜀定理
+// ```
 class Solution {
 public:
     int gcd(int a,int b){
@@ -29,4 +29,4 @@ public:
         return false;
     }
 };
-```
+// ```

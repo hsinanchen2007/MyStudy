@@ -1,7 +1,7 @@
-思路：直接遍历，遇到#就删除前一个字符和当前的#，然后重新遍历，灵性-1，希望大家能发现-1的妙用(*^▽^*)。
-<br/><br/>
-代码：
-```
+// 思路：直接遍历，遇到#就删除前一个字符和当前的#，然后重新遍历，灵性-1，希望大家能发现-1的妙用(*^▽^*)。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public boolean backspaceCompare(String S, String T) {
         StringBuilder sb = new StringBuilder(S);
@@ -26,6 +26,6 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/12f29ba9f0925d43cdbd5f14b9518d929241201933f60a1b21a642fc38cc3880-image.png)
+// ![image.png](https://pic.leetcode-cn.com/12f29ba9f0925d43cdbd5f14b9518d929241201933f60a1b21a642fc38cc3880-image.png)

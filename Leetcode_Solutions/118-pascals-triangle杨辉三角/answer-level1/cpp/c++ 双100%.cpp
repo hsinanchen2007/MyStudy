@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/7400bb12ae158cd7bb1ac01bd2e2cba9c0ea4f932fd87efb4a2c74cb142f30a0-image.png)
-```cpp
+// ![image.png](https://pic.leetcode-cn.com/7400bb12ae158cd7bb1ac01bd2e2cba9c0ea4f932fd87efb4a2c74cb142f30a0-image.png)
+// ```cpp
 class Solution {
 public:
 // 两步：
@@ -18,4 +18,4 @@ public:
         return vTemp;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-双百 后序遍历+全排列
+# ### 解题思路
+# 双百 后序遍历+全排列
 
-左右子树在保证各自顺序的前提下进行全排列
+# 左右子树在保证各自顺序的前提下进行全排列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class Solution:
         return LRN(root)
         
 
-```
+# ```

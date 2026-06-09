@@ -1,8 +1,8 @@
-### 解题思路
-go 使用栈 
-### 代码
+// ### 解题思路
+// go 使用栈 
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -69,4 +69,4 @@ func (this *Stack) Push(value interface{}) {
 	this.top = n
 	this.length++
 }
-```
+// ```

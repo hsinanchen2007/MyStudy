@@ -1,10 +1,10 @@
-### 解题思路
-遍历地图搜索“大陆图”+DFS“大陆图”+统计
-DFS的时候，做标记：把搜索过的大陆位置改成0即可
+// ### 解题思路
+// 遍历地图搜索“大陆图”+DFS“大陆图”+统计
+// DFS的时候，做标记：把搜索过的大陆位置改成0即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //栈节点
 typedef struct Node{
     int row;
@@ -90,4 +90,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
         delStack(stack);
     return MaxArea;
 }
-```
+// ```

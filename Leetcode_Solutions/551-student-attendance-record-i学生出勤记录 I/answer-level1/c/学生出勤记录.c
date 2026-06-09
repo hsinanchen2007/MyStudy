@@ -1,12 +1,12 @@
-### 解题思路
-调用3个函数即可
-strstr()    //判断'LLL'是否出现
-strchr()    //记录'A'第一次出现的位置
-strrchr()   //记录'A'最后一次出现的位置
+// ### 解题思路
+// 调用3个函数即可
+// strstr()    //判断'LLL'是否出现
+// strchr()    //记录'A'第一次出现的位置
+// strrchr()   //记录'A'最后一次出现的位置
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkRecord(char * s){
     char *a1,*a2,*l1;
     a1=strchr(s,'A');
@@ -16,4 +16,4 @@ bool checkRecord(char * s){
         return false;
     return true;
 }
-```
+// ```

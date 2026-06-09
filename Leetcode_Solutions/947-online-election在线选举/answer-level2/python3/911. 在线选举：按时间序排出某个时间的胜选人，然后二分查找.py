@@ -1,5 +1,5 @@
 
-```py
+# ```py
 class TopVotedCandidate:
 
     def __init__(self, persons: List[int], times: List[int]):
@@ -18,4 +18,4 @@ class TopVotedCandidate:
     def q(self, t: int) -> int:
         return self.tlmax[bisect.bisect(self.tlmax, [t, float('inf')]) - 1][1]#二分查找并返回胜选人编号
 
-```
+# ```

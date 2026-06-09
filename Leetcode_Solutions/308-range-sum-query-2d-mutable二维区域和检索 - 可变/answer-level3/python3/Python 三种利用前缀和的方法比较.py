@@ -1,12 +1,12 @@
-方法1
-维护一个二维的前缀和dp[i][j]表示左上角(0, 0) 右下角(i, j)的矩形区域的所有元素和，可以动态规划O(N^2)求出来, update时候需要更新所有i>=row and j>=col 位置的dp[i][j],
-sumRegion求矩形中累加和时候就用套路方式用大小矩形的累加和差值来求解，这样解法update需要更新一大片数值，速度慢
+# 方法1
+# 维护一个二维的前缀和dp[i][j]表示左上角(0, 0) 右下角(i, j)的矩形区域的所有元素和，可以动态规划O(N^2)求出来, update时候需要更新所有i>=row and j>=col 位置的dp[i][j],
+# sumRegion求矩形中累加和时候就用套路方式用大小矩形的累加和差值来求解，这样解法update需要更新一大片数值，速度慢
 
 
 
-![image.png](https://pic.leetcode-cn.com/4eff16af6eb07ee59c283eed24d387023b49d17aa82071ed361c9bb6cf8b1012-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4eff16af6eb07ee59c283eed24d387023b49d17aa82071ed361c9bb6cf8b1012-image.png)
 
-```
+# ```
 
 '''
 暴力维护二维的前缀和
@@ -64,14 +64,14 @@ class NumMatrix:
             return self.dp[row2][col2] - self.dp[row1 - 1][col2]
 
         return self.dp[row2][col2] - self.dp[row1 - 1][col2] - self.dp[row2][col1-1] + self.dp[row1-1][col1-1]
-```
+# ```
 
 
-方法2 方法一基础上做一些变化，dp[i][j]改为表示i, j位置的元素左边所有元素和它自己的累加和，这样update时候至多更新一行数据，求和时候求多行累加和，这样update复杂度低一些，sumRegion计算复杂度稍微高一点
-快了不少
+# 方法2 方法一基础上做一些变化，dp[i][j]改为表示i, j位置的元素左边所有元素和它自己的累加和，这样update时候至多更新一行数据，求和时候求多行累加和，这样update复杂度低一些，sumRegion计算复杂度稍微高一点
+# 快了不少
 
-![image.png](https://pic.leetcode-cn.com/6ebaee02e804120d96f47533a584223f97912e042edef746fb283101bf788c54-image.png)
-```
+# ![image.png](https://pic.leetcode-cn.com/6ebaee02e804120d96f47533a584223f97912e042edef746fb283101bf788c54-image.png)
+# ```
 from typing import List
 class NumMatrix:
 
@@ -110,15 +110,15 @@ class NumMatrix:
                 ans += self.dp[row][col2] - self.dp[row][col1-1]
         return ans
 
-```
+# ```
 
-方法三 上面两种方法乱七八糟边界判断太多了，把前缀和存储方式换一下，存储时候往右下方向偏移一个位置，这样可以把各种烦人的边界判断去掉，然后换个思路，update时候把被更新位置的最新数值存下来，还是维护二维的
-累加和，这样update时候会很快速，在sumRegion计算时候，检查每一个值被更新的位置是不是落在目标矩形区域里面的，如果落在区域里面，就更正最后计算结果，增加对应的增量，缺点是在update数据比较多时候，会拖慢sumRegion计算速度， 总体下来根方法2差不多
+# 方法三 上面两种方法乱七八糟边界判断太多了，把前缀和存储方式换一下，存储时候往右下方向偏移一个位置，这样可以把各种烦人的边界判断去掉，然后换个思路，update时候把被更新位置的最新数值存下来，还是维护二维的
+# 累加和，这样update时候会很快速，在sumRegion计算时候，检查每一个值被更新的位置是不是落在目标矩形区域里面的，如果落在区域里面，就更正最后计算结果，增加对应的增量，缺点是在update数据比较多时候，会拖慢sumRegion计算速度， 总体下来根方法2差不多
 
-![image.png](https://pic.leetcode-cn.com/fab2ef4050eb8b0acc8f6aae68ce2ef8d9a03e028920bd5822b275b06d219b73-image.png)
+# ![image.png](https://pic.leetcode-cn.com/fab2ef4050eb8b0acc8f6aae68ce2ef8d9a03e028920bd5822b275b06d219b73-image.png)
 
 
-```
+# ```
 from typing import List
 
 class NumMatrix:
@@ -148,4 +148,4 @@ class NumMatrix:
             if i >= row1 and i <= row2 and j >= col1 and j <= col2:
                 ans += self.update_val[(i, j)]
         return ans
-```
+# ```

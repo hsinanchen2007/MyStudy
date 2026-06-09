@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* partition(struct ListNode* head, int x){
 
   struct ListNode beforeFake;
@@ -35,4 +35,4 @@ struct ListNode* partition(struct ListNode* head, int x){
   return beforeFake.next;
 }
 
-```
+// ```

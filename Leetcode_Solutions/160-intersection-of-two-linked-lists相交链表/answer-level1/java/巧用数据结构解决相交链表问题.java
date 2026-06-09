@@ -1,6 +1,6 @@
-使用Set来找出相交节点.每次都分别从两个链表里面取一个节点加入Set,第一次遇到无法加入的节点，说明这个节点之前已经加入了Set，这就是两个链表的相交节点。
+// 使用Set来找出相交节点.每次都分别从两个链表里面取一个节点加入Set,第一次遇到无法加入的节点，说明这个节点之前已经加入了Set，这就是两个链表的相交节点。
 
-```java
+// ```java
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         Set<ListNode> set = new HashSet<>();
         int prevCount = 0;
@@ -24,4 +24,4 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         }
         return null;
     }
-```
+// ```

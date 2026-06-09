@@ -1,9 +1,9 @@
-### 解题思路
-这道题最容易出现问题的地方应该是只想到了1223这种情况而没想到12223的情况，所以正确的方法是要同时考虑两个指针p和p->next
+// ### 解题思路
+// 这道题最容易出现问题的地方应该是只想到了1223这种情况而没想到12223的情况，所以正确的方法是要同时考虑两个指针p和p->next
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

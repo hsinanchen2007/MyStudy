@@ -1,13 +1,13 @@
-### 解题思路
-方法1：定义两个vector并遍历两个字符串，如果不是'#'则push_back()至vector里，否则pop_back()出来。
-方法2：方法1有两个for循环太啰嗦，搞一个函数简化代码。注意：vector的类型为char
+// ### 解题思路
+// 方法1：定义两个vector并遍历两个字符串，如果不是'#'则push_back()至vector里，否则pop_back()出来。
+// 方法2：方法1有两个for循环太啰嗦，搞一个函数简化代码。注意：vector的类型为char
 
-4ms, 8.6MB
+// 4ms, 8.6MB
 
-### 代码
+// ### 代码
 
-方法1：
-```cpp
+// 方法1：
+// ```cpp
 class Solution {
 public:
     bool backspaceCompare(string S, string T) {
@@ -26,10 +26,10 @@ public:
 
     }
 };
-```
+// ```
 
-方法2：
-```cpp
+// 方法2：
+// ```cpp
 class Solution {
 public:
     bool backspaceCompare(string S, string T) {
@@ -46,4 +46,4 @@ public:
     }
 
 };
-```
+// ```

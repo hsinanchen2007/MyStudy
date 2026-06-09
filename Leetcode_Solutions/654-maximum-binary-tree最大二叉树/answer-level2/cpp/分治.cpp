@@ -1,9 +1,9 @@
-### 解题思路
-先找出数组最大元素max,下角标为max_i,再把问题分解为构造max_i左边数组的最大二叉树和构造max_i右边数组的最大二叉树。
+// ### 解题思路
+// 先找出数组最大元素max,下角标为max_i,再把问题分解为构造max_i左边数组的最大二叉树和构造max_i右边数组的最大二叉树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ void build(TreeNode*ptr,int start,int end,vector<int>&nodes)
         return root;
     }
 };
-```
+// ```

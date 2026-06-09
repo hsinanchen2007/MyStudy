@@ -1,10 +1,10 @@
-深度优先，递归；
+// 深度优先，递归；
 
-退出条件：找到叶子节点；
+// 退出条件：找到叶子节点；
 
-分别记录在两个list里，最后比较是否相等
+// 分别记录在两个list里，最后比较是否相等
 
-```java
+// ```java
 class Solution {
     List<Integer> list1 = new ArrayList<>();
     List<Integer> list2 = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

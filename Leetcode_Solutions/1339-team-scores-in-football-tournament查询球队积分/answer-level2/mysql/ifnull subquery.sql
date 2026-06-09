@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select t.team_id, t.team_name, ifnull(total_count,0) as num_points 
@@ -28,4 +28,4 @@ order by num_points desc, team_id asc
 
 
 
-```
+-- ```

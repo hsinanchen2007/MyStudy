@@ -1,9 +1,9 @@
-### 解题思路
-保存第一个结点，用一个变量作为dummy节点，然后循环把后续的节点都插在dummy之后。
+// ### 解题思路
+// 保存第一个结点，用一个变量作为dummy节点，然后循环把后续的节点都插在dummy之后。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func reverseList(head *ListNode) *ListNode {
         }
         return p 
 }
-```
+// ```

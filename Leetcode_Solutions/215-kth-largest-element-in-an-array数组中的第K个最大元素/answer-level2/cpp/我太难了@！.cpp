@@ -1,11 +1,11 @@
-### 解题思路
-找bug找了一晚上加一早上，我太难了。。。
-一直提交一直溢出！
-下面的切分代码在快排中是没问题的，因为快排中会有一句if(lo>=hi) return ;
-所以这里的quickSelect里也要加一句限制if(lo == hi) return v[lo];
-### 代码
+// ### 解题思路
+// 找bug找了一晚上加一早上，我太难了。。。
+// 一直提交一直溢出！
+// 下面的切分代码在快排中是没问题的，因为快排中会有一句if(lo>=hi) return ;
+// 所以这里的quickSelect里也要加一句限制if(lo == hi) return v[lo];
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int partition(vector<int>& v, int lo, int hi) {
         int p = v[lo];
@@ -71,4 +71,4 @@ public:
 //         return low;
 //     } 
 
-```
+// ```

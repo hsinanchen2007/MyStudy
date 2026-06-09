@@ -1,7 +1,7 @@
-1. 在一次遍历中（也就是一分钟内），先让坏橘子周围的好橘子变坏。
-2. 然后检查是否有好橘子变坏，如果有就行下一次遍历，如果没有就说明（有的好橘子是不可能变坏）。
-3. 重复步骤2，直到好橘子数量为零。
-```
+// 1. 在一次遍历中（也就是一分钟内），先让坏橘子周围的好橘子变坏。
+// 2. 然后检查是否有好橘子变坏，如果有就行下一次遍历，如果没有就说明（有的好橘子是不可能变坏）。
+// 3. 重复步骤2，直到好橘子数量为零。
+// ```
 int orangesRotting(int** grid, int gridRowSize, int *gridColSizes) {
     int good = 0, bad = 0, t = 0;
     for(int i = 0; i < gridRowSize; i++)
@@ -33,4 +33,4 @@ int orangesRotting(int** grid, int gridRowSize, int *gridColSizes) {
     }
     return t;
 }
-```
+// ```

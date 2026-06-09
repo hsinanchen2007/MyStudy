@@ -1,12 +1,12 @@
-### 思路
+// ### 思路
 
-结果存到一个栈里，对于当前字符 c
-1. 如果栈里面已经有字符 c, 舍弃c
-2. 如果栈为空、栈顶元素小于 c、c在当前字符串唯一，c入栈， 否则栈顶元素出栈。
+// 结果存到一个栈里，对于当前字符 c
+// 1. 如果栈里面已经有字符 c, 舍弃c
+// 2. 如果栈为空、栈顶元素小于 c、c在当前字符串唯一，c入栈， 否则栈顶元素出栈。
 
-### 代码
+// ### 代码
 
-```C
+// ```C
 char * removeDuplicateLetters(char * s){
     int len = strlen(s);
     char *stack = (char *)malloc(sizeof(char) * (len + 1));
@@ -44,4 +44,4 @@ char * removeDuplicateLetters(char * s){
     }
     return stack;
 }
-```
+// ```

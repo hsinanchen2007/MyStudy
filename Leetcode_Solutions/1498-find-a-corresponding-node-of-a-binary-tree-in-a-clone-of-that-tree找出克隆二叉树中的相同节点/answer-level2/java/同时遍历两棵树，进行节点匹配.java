@@ -1,19 +1,19 @@
-### 解题思路
-original树和cloned树的结构，以及所有节点对应的值都是一模一样。基本可以理解成两个"相同"的树（但是内存地址不同，本质上并不一样）。
+// ### 解题思路
+// original树和cloned树的结构，以及所有节点对应的值都是一模一样。基本可以理解成两个"相同"的树（但是内存地址不同，本质上并不一样）。
 
-要在original树中来寻找target，自然想到的就是遍历original树。那么正常的前中后序遍历，应该选择哪一个呢？
+// 要在original树中来寻找target，自然想到的就是遍历original树。那么正常的前中后序遍历，应该选择哪一个呢？
 
-**前序遍历**。
+// **前序遍历**。
 
-因为只要original和target相同，则表示对应的cloned就是我们想要的节点。这个遍历过程，**和左右子树并没有关系**。所以我们选择前序遍历。
+// 因为只要original和target相同，则表示对应的cloned就是我们想要的节点。这个遍历过程，**和左右子树并没有关系**。所以我们选择前序遍历。
 
-递归和非递归的写法见代码。
+// 递归和非递归的写法见代码。
 
-当然，层次遍历同样能解决问题。同时对两棵树进行层次遍历即可。只是要多加一个辅助队列，用来存储cloned树节点了
+// 当然，层次遍历同样能解决问题。同时对两棵树进行层次遍历即可。只是要多加一个辅助队列，用来存储cloned树节点了
 
-### 前序遍历递归代码
+// ### 前序遍历递归代码
 
-```java
+// ```java
 class Solution {
     public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
         if (original == null){
@@ -35,11 +35,11 @@ class Solution {
         return null;
     }
 }
-```
+// ```
 
-### 前序遍历非递归代码
+// ### 前序遍历非递归代码
 
-```java
+// ```java
 class Solution {
     public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
         Deque<TreeNode> stack = new LinkedList<>();
@@ -67,11 +67,11 @@ class Solution {
         return null;
     }
 }
-```
+// ```
 
-### 层次遍历代码
+// ### 层次遍历代码
 
-```java
+// ```java
 class Solution {
     public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
         Queue<TreeNode> queue = new LinkedList<>();
@@ -98,4 +98,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

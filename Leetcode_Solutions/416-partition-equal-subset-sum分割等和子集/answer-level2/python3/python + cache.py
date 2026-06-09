@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
@@ -18,4 +18,4 @@ class Solution:
             dfs(i + 1, target)
         dfs(0, target)
         return ans
-```
+# ```

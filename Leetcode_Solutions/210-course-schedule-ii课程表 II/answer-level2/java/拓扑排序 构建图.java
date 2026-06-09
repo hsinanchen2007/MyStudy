@@ -1,12 +1,12 @@
-### 解题思路
-1. 记录每个点的出度，当出度为0时，该点可以先选
-2. 出度为0的点选走后，更新与该点有关联的点的出度
-3. 重复上述过程
-我用的是List数组来记录，List[0]记录的是所有指向0的点。
+// ### 解题思路
+// 1. 记录每个点的出度，当出度为0时，该点可以先选
+// 2. 出度为0的点选走后，更新与该点有关联的点的出度
+// 3. 重复上述过程
+// 我用的是List数组来记录，List[0]记录的是所有指向0的点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] result = new int[numCourses];
@@ -45,4 +45,4 @@ class Solution {
         return new int[]{};
     }
 }
-```
+// ```

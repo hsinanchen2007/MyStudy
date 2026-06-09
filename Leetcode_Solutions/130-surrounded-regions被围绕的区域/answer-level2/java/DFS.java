@@ -1,6 +1,6 @@
-执行用时 :2 ms, 在所有 java 提交中击败了99.34% 的用户
-内存消耗 :41 MB, 在所有 java 提交中击败了89.77%的用户
-```
+// 执行用时 :2 ms, 在所有 java 提交中击败了99.34% 的用户
+// 内存消耗 :41 MB, 在所有 java 提交中击败了89.77%的用户
+// ```
 class Solution {
     public void solve(char[][] board) {
         if(board == null || board.length < 1 || board[0].length < 1)
@@ -35,4 +35,4 @@ class Solution {
 		solveCore(board, row, col, i + 1, j);
 	}
 }
-```
+// ```

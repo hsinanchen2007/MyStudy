@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-- 循环遍历数组
-注意：总和为0的话，可以大于三段。
+// - 循环遍历数组
+// 注意：总和为0的话，可以大于三段。
 
-- 双指针
-一个指向尾，一个指向头，分别向中间逼近。如果A(0) + ... + A(i) == A(j) + A(length)，返回true。
+// - 双指针
+// 一个指向尾，一个指向头，分别向中间逼近。如果A(0) + ... + A(i) == A(j) + A(length)，返回true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -31,4 +31,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

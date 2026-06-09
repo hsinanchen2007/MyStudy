@@ -1,5 +1,5 @@
-先找到最小的，然后如果最小的位置大于k，那么先去这个位置左边的k个数，如果小于k，则直接取arr的前k个数作为结果，然后在从当前这个位置后面开始遍历，发现有比之前结果第一个数小的则移除第一个数，再把该数加到数组后面，直到遇到大于等于第一个数位置，r就是最终结果
-```
+// 先找到最小的，然后如果最小的位置大于k，那么先去这个位置左边的k个数，如果小于k，则直接取arr的前k个数作为结果，然后在从当前这个位置后面开始遍历，发现有比之前结果第一个数小的则移除第一个数，再把该数加到数组后面，直到遇到大于等于第一个数位置，r就是最终结果
+// ```
 func findClosestElements(arr []int, k int, x int) []int {
  	min, minIdx := 10000, 0
 	for idx, v := range arr {
@@ -31,10 +31,10 @@ func findClosestElements(arr []int, k int, x int) []int {
 	}
 	return r
 }
-```
-*******************
-补充一种双指针
-```
+// ```
+// *******************
+// 补充一种双指针
+// ```
 func findClosestElements(arr []int, k int, x int) []int {
 	if x <= arr[0] {
 		return arr[:k]
@@ -52,5 +52,5 @@ func findClosestElements(arr []int, k int, x int) []int {
 	}
 	return arr[left:right+1]
 }
-```
+// ```
 

@@ -1,5 +1,5 @@
 
-```
+// ```
     var arrFirstWord=['a','e','i','o','u','A','E','I','O','U']
     var str=S
     var arr=str.split(' ')
@@ -32,5 +32,5 @@
              }    
     }
     return strArr.join(' ')
-```
-emmm，都不好意思说这题我花了多久了，哎。
+// ```
+// emmm，都不好意思说这题我花了多久了，哎。

@@ -1,4 +1,4 @@
-```
+# ```
 from collections import Counter
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
@@ -17,4 +17,4 @@ class Solution:
             return p
 
         return self.god(q, p % q)
-```
+# ```

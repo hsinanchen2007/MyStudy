@@ -1,25 +1,25 @@
-### 解题思路
+// ### 解题思路
 
-用C语言比较麻烦的就是需要提前分配内存，所以下面这两行用于提前把内存给分配好，包括最终结果和每个组合的大小。
+// 用C语言比较麻烦的就是需要提前分配内存，所以下面这两行用于提前把内存给分配好，包括最终结果和每个组合的大小。
 
-```c
+// ```c
     char *s = malloc(sizeof(char) * n * 2 +1);
     *returnSize = 0; //默认是0
     int initSize = comb(n);
     char **ret = malloc(sizeof(char*) * initSize);
-```
+// ```
 
-用于提前分配的大小可能是比较大的，因此returnSize每次确定组合后增1，同时s是一个固定内存位置，需要重新分配一份内存用于存放字符。
+// 用于提前分配的大小可能是比较大的，因此returnSize每次确定组合后增1，同时s是一个固定内存位置，需要重新分配一份内存用于存放字符。
 
-```c
+// ```c
         s[left+right] = '\0';
         ret[*returnSize] = strdup(s);
         *returnSize = *returnSize + 1;
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -60,4 +60,4 @@ char ** generateParenthesis(int n, int* returnSize){
     return ret;
 
 }
-```
+// ```

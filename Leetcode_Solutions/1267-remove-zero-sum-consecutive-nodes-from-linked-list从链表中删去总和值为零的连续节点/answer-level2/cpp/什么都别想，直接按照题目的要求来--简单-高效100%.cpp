@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路，击败100%的用户，在内存消耗方面。
-![2020-01-10_185321.png](https://pic.leetcode-cn.com/65c2856876f469d3af0552d748ee2a453eaefe7696944cfcbedc00fb6fd68553-2020-01-10_185321.png)
+// ### 解题思路
+// 此处撰写解题思路，击败100%的用户，在内存消耗方面。
+// ![2020-01-10_185321.png](https://pic.leetcode-cn.com/65c2856876f469d3af0552d748ee2a453eaefe7696944cfcbedc00fb6fd68553-2020-01-10_185321.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def numDecodings(s: String): Int = {
     var e0: Long = 1
@@ -21,4 +21,4 @@ object Solution {
     e0.toInt
   }
 }
-```
+// ```

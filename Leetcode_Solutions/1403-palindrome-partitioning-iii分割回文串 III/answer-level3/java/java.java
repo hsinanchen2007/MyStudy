@@ -1,6 +1,6 @@
-dp[i][j]表示将前i个字符组成的字符串分割成j个子串所需改变的字符个数
-toS()返回将字符串变成回文所需改变的字符个数
-```
+// dp[i][j]表示将前i个字符组成的字符串分割成j个子串所需改变的字符个数
+// toS()返回将字符串变成回文所需改变的字符个数
+// ```
 class Solution {
     public int palindromePartition(String s, int k) {
         int length=s.length();
@@ -38,4 +38,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

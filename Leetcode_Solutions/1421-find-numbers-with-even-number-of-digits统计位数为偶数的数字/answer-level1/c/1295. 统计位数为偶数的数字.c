@@ -1,9 +1,9 @@
-### 解题思路
-用snprintf函数将整形转换为字符串后，采用strlen来判定长度是否为偶数位
+// ### 解题思路
+// 用snprintf函数将整形转换为字符串后，采用strlen来判定长度是否为偶数位
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findNumbers(int* nums, int numsSize){
      int i, res = 0;
      char temp[6] = {0};
@@ -19,4 +19,4 @@ int findNumbers(int* nums, int numsSize){
 
      return res;
 }
-```
+// ```

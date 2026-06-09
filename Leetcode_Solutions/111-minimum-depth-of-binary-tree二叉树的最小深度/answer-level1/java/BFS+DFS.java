@@ -1,6 +1,6 @@
-# BFS
-思路: 遍历每一层并计数，若找到叶子节点直接返回
-```
+// # BFS
+// 思路: 遍历每一层并计数，若找到叶子节点直接返回
+// ```
 class Solution {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
@@ -21,14 +21,14 @@ class Solution {
         return depth;
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(h)
-# DFS
-思路: 
-自上而下: 当前树的最小深度 = min(左子树最小深度, 右子树最小深度) + 1
-自下而上: 若知道左右子树最小深度, 当前子树深度= min(左子树最小深度, 右子树最小深度) + 1
-```
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(h)
+// # DFS
+// 思路: 
+// 自上而下: 当前树的最小深度 = min(左子树最小深度, 右子树最小深度) + 1
+// 自下而上: 若知道左右子树最小深度, 当前子树深度= min(左子树最小深度, 右子树最小深度) + 1
+// ```
 class Solution {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
@@ -37,6 +37,6 @@ class Solution {
         return (left == 0 || right == 0) ? left + right + 1 : Math.min(left, right) + 1;
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(h)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(h)

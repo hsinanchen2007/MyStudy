@@ -1,9 +1,9 @@
-### 解题思路
-观察到按照括号的深度，奇数和偶数分开即可。
+// ### 解题思路
+// 观察到按照括号的深度，奇数和偶数分开即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -29,4 +29,4 @@ public:
           return re;
     }
 };
-```
+// ```

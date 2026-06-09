@@ -1,6 +1,6 @@
-![微信图片_20200305124047.png](https://pic.leetcode-cn.com/e86f428413b1737656f70aa330c010a17e1b37d8c56b68b5c7fe838582c5246e-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200305124047.png)
+// ![微信图片_20200305124047.png](https://pic.leetcode-cn.com/e86f428413b1737656f70aa330c010a17e1b37d8c56b68b5c7fe838582c5246e-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200305124047.png)
 
-```
+// ```
 class Solution {
     vector<vector<int>> rotting;
     bool rotted=false;
@@ -36,4 +36,4 @@ public:
         return fresh?-1:res;
     }
 };
-```
+// ```

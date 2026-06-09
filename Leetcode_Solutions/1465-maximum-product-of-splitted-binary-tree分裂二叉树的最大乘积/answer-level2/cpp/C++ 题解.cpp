@@ -1,15 +1,15 @@
-### [1339. 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/)
+// ### [1339. 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/)
 
-#### 题解
+// #### 题解
 
-  + 递归求和，将$node->val$ 替换成所在子树的和
-  + 递归求积，统计所有子树和整体断开时的积的最大值 = (整树和-子树和) * 子树和，需要用$long long int$存储
-  + 结果取余 $10^9 + 7$
-  + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+//   + 递归求和，将$node->val$ 替换成所在子树的和
+//   + 递归求积，统计所有子树和整体断开时的积的最大值 = (整树和-子树和) * 子树和，需要用$long long int$存储
+//   + 结果取余 $10^9 + 7$
+//   + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
 
-#### 代码
+// #### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return max(res, max(ans(root->left, sum), ans(root->right, sum)));
     }
 };
-```
+// ```

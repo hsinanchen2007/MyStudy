@@ -1,7 +1,7 @@
-遍历表达式, 举个累计系数和常数的值. 等号左边正数还是正数, 负数还是负数. 等号右边, 正数取负, 负数取正.
+// 遍历表达式, 举个累计系数和常数的值. 等号左边正数还是正数, 负数还是负数. 等号右边, 正数取负, 负数取正.
 
 
-```java
+// ```java
 public String solveEquation(String equation) {
     int coefficient = 0, constant = 0;
     equation = equation + "#";
@@ -39,4 +39,4 @@ public String solveEquation(String equation) {
         return "x=" + String.valueOf(-constant / coefficient);
     }
 }
-```
+// ```

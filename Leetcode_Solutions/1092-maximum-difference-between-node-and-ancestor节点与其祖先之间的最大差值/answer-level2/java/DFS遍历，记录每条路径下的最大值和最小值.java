@@ -1,9 +1,9 @@
-### 解题思路
-用数组minMax记录遍历当前路径下的最大值和最小值。注意要将最大值和最小值的状态保存下来，回溯时恢复原来的状态。
+// ### 解题思路
+// 用数组minMax记录遍历当前路径下的最大值和最小值。注意要将最大值和最小值的状态保存下来，回溯时恢复原来的状态。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,5 +46,5 @@ class Solution {
         
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/ecba6d997362213ad1c68adf31c3bf97334a771f1dfc5cc2db0373bf81aaf4e3-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ecba6d997362213ad1c68adf31c3bf97334a771f1dfc5cc2db0373bf81aaf4e3-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-直接条件一个个列出来判断，注意赋值出来一个数组即可。不过这都能双百也是惊了。
+// ### 解题思路
+// 直接条件一个个列出来判断，注意赋值出来一个数组即可。不过这都能双百也是惊了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -45,6 +45,6 @@ public:
         }
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a4ff7aceaee2ad0da82c193828173b2c35c8b07d63c03e7a571b88f331025280-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a4ff7aceaee2ad0da82c193828173b2c35c8b07d63c03e7a571b88f331025280-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-hash表 以空间换时间 没用enumerate()
+# ### 解题思路
+# hash表 以空间换时间 没用enumerate()
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 return [dic[nums[x]],x]
             else:
                 dic[target-nums[x]]=x      
-```
+# ```

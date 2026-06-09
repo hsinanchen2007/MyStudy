@@ -1,4 +1,4 @@
-```
+// ```
 func minimumLengthEncoding(words []string) int {
 	l := 0
 
@@ -47,4 +47,4 @@ func (t *trie) insert(word string)int{
 	}
 	return 0
 }
-```
+// ```

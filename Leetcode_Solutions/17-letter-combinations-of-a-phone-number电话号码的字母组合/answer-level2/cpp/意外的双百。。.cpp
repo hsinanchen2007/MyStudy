@@ -1,11 +1,11 @@
-### 解题思路
-看到题第一想法就是dfs深度优先搜索，写了个递归，莫名其妙得了双百也是很意外。
-![image.png](https://pic.leetcode-cn.com/3db96dbb30f4d547aabc6d0266f5eb55fb8ff39aeead90da1922ed8ded359af4-image.png)
+// ### 解题思路
+// 看到题第一想法就是dfs深度优先搜索，写了个递归，莫名其妙得了双百也是很意外。
+// ![image.png](https://pic.leetcode-cn.com/3db96dbb30f4d547aabc6d0266f5eb55fb8ff39aeead90da1922ed8ded359af4-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char letters[8][4]={{'a','b','c'},
@@ -41,4 +41,4 @@ public:
         return ans;
     }
 };
-```
+// ```

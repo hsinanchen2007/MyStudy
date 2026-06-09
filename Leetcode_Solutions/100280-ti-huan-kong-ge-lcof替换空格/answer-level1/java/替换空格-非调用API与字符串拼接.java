@@ -1,9 +1,9 @@
-### 解题思路
-先扫描一遍有多少个空格，然后申请原字符串长度+空格数*2大小的char[]，从高向低倒着重置char[]即可
+// ### 解题思路
+// 先扫描一遍有多少个空格，然后申请原字符串长度+空格数*2大小的char[]，从高向低倒着重置char[]即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         if (s==null || s.length()==0) {
@@ -33,4 +33,4 @@ class Solution {
         return new String(res);
     }
 }
-```
+// ```

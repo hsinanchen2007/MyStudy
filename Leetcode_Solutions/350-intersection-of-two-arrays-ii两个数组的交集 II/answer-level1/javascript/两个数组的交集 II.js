@@ -1,4 +1,4 @@
-```js
+// ```js
 var intersect = function(nums1, nums2) {
     var result = [];
     for (let i = 0; i < nums1.length; i++) {
@@ -10,4 +10,4 @@ var intersect = function(nums1, nums2) {
     }
     return result;
 };
-```
+// ```

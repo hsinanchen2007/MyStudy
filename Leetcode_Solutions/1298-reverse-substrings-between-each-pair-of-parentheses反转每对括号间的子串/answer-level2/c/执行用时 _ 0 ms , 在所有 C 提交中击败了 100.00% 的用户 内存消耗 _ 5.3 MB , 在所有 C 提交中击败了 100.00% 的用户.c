@@ -1,4 +1,4 @@
-```
+// ```
 char * reverseParentheses(char * s){
     int len = strlen(s);
     if (len <= 0) {
@@ -33,4 +33,4 @@ char * reverseParentheses(char * s){
     free(tmp);
     return ret;
 }
-```
+// ```

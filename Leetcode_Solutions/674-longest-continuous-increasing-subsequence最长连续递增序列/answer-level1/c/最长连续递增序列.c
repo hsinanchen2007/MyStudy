@@ -1,9 +1,9 @@
-### 解题思路
-改变数组的值，将其赋为当前值与前一个值的差值。再求连续正数的个数
+// ### 解题思路
+// 改变数组的值，将其赋为当前值与前一个值的差值。再求连续正数的个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int findLengthOfLCIS(int* nums, int numsSize){
@@ -24,4 +24,4 @@ int findLengthOfLCIS(int* nums, int numsSize){
 }
 
 
-```
+// ```

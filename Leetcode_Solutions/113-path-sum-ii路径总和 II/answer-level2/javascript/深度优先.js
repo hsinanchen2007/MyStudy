@@ -1,4 +1,4 @@
-```js
+// ```js
 var pathSum = function(root, sum) {
     var res = [];
     dfs(root, [], 0);
@@ -14,4 +14,4 @@ var pathSum = function(root, sum) {
         dfs(root.right, arr, accumulate);
     }
 };
-```
+// ```

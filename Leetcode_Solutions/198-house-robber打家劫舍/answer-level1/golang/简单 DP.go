@@ -1,4 +1,4 @@
-```
+// ```
 func rob(nums []int) int {
 	var (
 		i      int
@@ -28,4 +28,4 @@ func max(a, b int) int {
 	}
 	return b
 }
-```
+// ```

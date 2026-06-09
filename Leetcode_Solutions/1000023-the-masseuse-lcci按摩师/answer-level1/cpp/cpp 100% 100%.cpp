@@ -1,11 +1,11 @@
-### 解题思路
-dp[i]: 包含nums[i]的最大值
-maxValue: i - 1之前的最大dp值
-dp[i] = maxValue + nums[i], 结果取dp末尾两个数的较大值
+// ### 解题思路
+// dp[i]: 包含nums[i]的最大值
+// maxValue: i - 1之前的最大dp值
+// dp[i] = maxValue + nums[i], 结果取dp末尾两个数的较大值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -32,4 +32,4 @@ public:
         return max(dp[size - 2], dp[size - 1]);
     }
 };
-```
+// ```

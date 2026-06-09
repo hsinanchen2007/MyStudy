@@ -1,8 +1,8 @@
-- 假设我们已经有一个函数int IsSubStr(char *word0, char *word1)，可以判断word1是否是word0的子串
-- 那么我们将整个单词列表按照字符串长度降序排列，对所有单词标记为未访问
-- 从第一个未访问的单词开始，判断之后所有未访问的但是是否是该单词的子串，如果是则标记
-- 最终剩余没有被标记的单词长度求和就是答案
-```
+// - 假设我们已经有一个函数int IsSubStr(char *word0, char *word1)，可以判断word1是否是word0的子串
+// - 那么我们将整个单词列表按照字符串长度降序排列，对所有单词标记为未访问
+// - 从第一个未访问的单词开始，判断之后所有未访问的但是是否是该单词的子串，如果是则标记
+// - 最终剩余没有被标记的单词长度求和就是答案
+// ```
 #define MAX_WORD_SIZE (2010)
 #define MAX_WORD_LEN (10)
 #define NULL_PTR (0)
@@ -69,4 +69,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     }
     return totalLen;
 }
-```
+// ```

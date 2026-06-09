@@ -1,10 +1,10 @@
-思路：
-1.将数组从小到大排序；
-2.在HashMap中存储数字，及出现次数；
-3.从数组最小值开始，每次在HashMap中删除W个数（将该值对应的出现次数减一）；
-4.寻找下一个HashMap中保存的最小数字（出现次数不为0）作为下次 W循环的开始。
+// 思路：
+// 1.将数组从小到大排序；
+// 2.在HashMap中存储数字，及出现次数；
+// 3.从数组最小值开始，每次在HashMap中删除W个数（将该值对应的出现次数减一）；
+// 4.寻找下一个HashMap中保存的最小数字（出现次数不为0）作为下次 W循环的开始。
 
-```
+// ```
 class Solution {
     public boolean isNStraightHand(int[] hand, int W) {
         //若不能整除直接返回false
@@ -53,4 +53,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

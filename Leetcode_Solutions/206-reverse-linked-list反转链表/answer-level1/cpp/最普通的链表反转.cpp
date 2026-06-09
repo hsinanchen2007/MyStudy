@@ -1,9 +1,9 @@
-### 解题思路
-首先定义一个答案节点， 然后每次遍历head链表，把点加到答案节点上。
+// ### 解题思路
+// 首先定义一个答案节点， 然后每次遍历head链表，把点加到答案节点上。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return ans -> next;
     }
 };
-```
+// ```

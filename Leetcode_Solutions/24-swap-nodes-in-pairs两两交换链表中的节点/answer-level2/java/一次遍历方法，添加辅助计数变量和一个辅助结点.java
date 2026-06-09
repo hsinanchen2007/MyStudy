@@ -1,9 +1,9 @@
-第一次写题解，没什么结构，大家将就看看。
-思路如下：
-    1.创建一个辅助头结点用于存取新链表和一个变量i，表示当前遍历的节点数
-    2.i为奇数时说明需要交换，偶数时则跳过
-代码如下
-```public ListNode swapPairs(ListNode head) {
+// 第一次写题解，没什么结构，大家将就看看。
+// 思路如下：
+//     1.创建一个辅助头结点用于存取新链表和一个变量i，表示当前遍历的节点数
+//     2.i为奇数时说明需要交换，偶数时则跳过
+// 代码如下
+// ```public ListNode swapPairs(ListNode head) {
         ListNode ans = new ListNode(-1);
         ListNode nodeA = ans, node1 = head,node2;
         int i = 1;//便于计数

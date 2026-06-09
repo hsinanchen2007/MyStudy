@@ -1,4 +1,4 @@
-```
+# ```
 from collections import defaultdict
 class Solution:
     def shortestAlternatingPaths(self, n: int, red_edges: List[List[int]], blue_edges: List[List[int]]) -> List[int]:
@@ -42,4 +42,4 @@ class Solution:
         ans_list[0] = 0
         
         return ans_list
-```
+# ```

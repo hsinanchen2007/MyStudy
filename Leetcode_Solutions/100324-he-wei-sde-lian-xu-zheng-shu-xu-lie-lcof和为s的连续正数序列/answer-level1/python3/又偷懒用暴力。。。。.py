@@ -1,4 +1,4 @@
-#暴力搜索，其实应该可以用2*n-x这种方法做。偏数学的。要考虑边界之类的。
+# #暴力搜索，其实应该可以用2*n-x这种方法做。偏数学的。要考虑边界之类的。
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         lt=[]

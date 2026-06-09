@@ -1,5 +1,5 @@
-深度优先遍历DFS：记录深度最大的第一个节点
-```java
+// 深度优先遍历DFS：记录深度最大的第一个节点
+// ```java
 class Solution {
     int[] result = new int[]{0,-1};
     public int findBottomLeftValue(TreeNode root) {
@@ -16,9 +16,9 @@ class Solution {
         dfs(root.right,depth+1);
     }
 }
-```
-广度优先遍历BFS：按照从右往左的层序遍历，最后一个就是结果
-```java
+// ```
+// 广度优先遍历BFS：按照从右往左的层序遍历，最后一个就是结果
+// ```java
 class Solution {
     public int findBottomLeftValue(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
@@ -31,4 +31,4 @@ class Solution {
         return root.val;
     }
 }
-```
+// ```

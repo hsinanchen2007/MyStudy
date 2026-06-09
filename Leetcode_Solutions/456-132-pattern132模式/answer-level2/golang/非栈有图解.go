@@ -1,10 +1,10 @@
-### 解题思路
-![444.png](https://pic.leetcode-cn.com/6414915c0a9e929aa8dfa6e36a7420199edb9db97cc4ca17425ffcd5a6087743-444.png)
+// ### 解题思路
+// ![444.png](https://pic.leetcode-cn.com/6414915c0a9e929aa8dfa6e36a7420199edb9db97cc4ca17425ffcd5a6087743-444.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func find132pattern(a []int) bool {
 
     if len(a)==0{return false}
@@ -49,4 +49,4 @@ func max(a, b int) int {
 	return b
 }
 
-```
+// ```

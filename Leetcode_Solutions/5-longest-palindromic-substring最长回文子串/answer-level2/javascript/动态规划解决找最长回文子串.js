@@ -1,5 +1,5 @@
-刚开始我完全没有思路，看了官方的题解。根据官方的动态规划思路，编写代码。
-```
+// 刚开始我完全没有思路，看了官方的题解。根据官方的动态规划思路，编写代码。
+// ```
 /**
  * @param {string} s
  * @return {string}
@@ -25,4 +25,4 @@ var longestPalindrome = function (s) {
         return s.slice(left, right + 1);
     }
 };
-```
+// ```

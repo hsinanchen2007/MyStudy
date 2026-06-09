@@ -1,10 +1,10 @@
-### 解题思路
-双100%
-从最高位i开始
-从最低位开始找比num[i]大的数字
-### 代码
+// ### 解题思路
+// 双100%
+// 从最高位i开始
+// 从最低位开始找比num[i]大的数字
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximumSwap(int num) {
@@ -27,4 +27,4 @@ public:
         return num;
     }
 };
-```
+// ```

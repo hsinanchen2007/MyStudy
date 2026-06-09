@@ -1,11 +1,11 @@
-1. 遍历一次，把那个数对应的值置为负数
-2. 下次遇到要置的数字为负数时， 这个数就是重复的
-3. 统计数组的和（不包括重复的数字）
-4. 丢失的数字为本来数字的和减去数组的和
+// 1. 遍历一次，把那个数对应的值置为负数
+// 2. 下次遇到要置的数字为负数时， 这个数就是重复的
+// 3. 统计数组的和（不包括重复的数字）
+// 4. 丢失的数字为本来数字的和减去数组的和
 
 
 
-```javascript
+// ```javascript
 var findErrorNums = function(nums) {
   var res = []
   var len = nums.length
@@ -23,4 +23,4 @@ var findErrorNums = function(nums) {
   return res
 }
 
-```
+// ```

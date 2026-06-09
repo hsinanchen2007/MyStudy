@@ -1,9 +1,9 @@
-### 解题思路
-模拟的思路，代码与之前的螺旋矩阵I差不多，只不过这里变成了填坑。时间复杂度就是矩阵的个数O(n^2)。
+# ### 解题思路
+# 模拟的思路，代码与之前的螺旋矩阵I差不多，只不过这里变成了填坑。时间复杂度就是矩阵的个数O(n^2)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         square_matrix = []
@@ -42,4 +42,4 @@ class Solution:
             i+=1
             j+=1
         return square_matrix
-```
+# ```

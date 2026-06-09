@@ -1,4 +1,4 @@
-```
+// ```
 char* reverseLeftWords(char* s, int n){
     int len = strlen(s);
     char* arr = (char*)malloc(sizeof(char) * (len + 1));
@@ -10,4 +10,4 @@ char* reverseLeftWords(char* s, int n){
     arr[i] = '\0';   
     return arr;
 }
-```
+// ```

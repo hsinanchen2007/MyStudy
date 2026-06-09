@@ -1,9 +1,9 @@
-### 解题思路
-类似于二叉树的层序遍历，只不过需要在偶数层同时进行数组的反转（逆序将节点的值存储到数组里面）
+// ### 解题思路
+// 类似于二叉树的层序遍历，只不过需要在偶数层同时进行数组的反转（逆序将节点的值存储到数组里面）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -52,4 +52,4 @@ func zigzagLevelOrder(root *TreeNode) [][]int {
     }
     return result
 }
-```
+// ```

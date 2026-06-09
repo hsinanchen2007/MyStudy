@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isright(int m,string s)
@@ -27,5 +27,5 @@ public:
         return "";
     }
 };
-```
-![@GWZPO76DKCK`\]~@C@9W4YS.png](https://pic.leetcode-cn.com/f97c2c90aca482d6cfa8645363ca4fb35f07a607e76829f2b559768c9d8e926c-@GWZPO76DKCK%60%5D~@C@9W4YS.png)
+// ```
+// ![@GWZPO76DKCK`\]~@C@9W4YS.png](https://pic.leetcode-cn.com/f97c2c90aca482d6cfa8645363ca4fb35f07a607e76829f2b559768c9d8e926c-@GWZPO76DKCK%60%5D~@C@9W4YS.png)

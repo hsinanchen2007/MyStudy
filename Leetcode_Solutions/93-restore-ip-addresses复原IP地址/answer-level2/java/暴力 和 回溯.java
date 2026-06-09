@@ -1,20 +1,20 @@
-## 思路:
+// ## 思路:
 
-我们要知道`IP`的格式,每位是在`0~255`之间,
+// 我们要知道`IP`的格式,每位是在`0~255`之间,
 
-注意: 不能出现以`0`开头的两位以上数字,比如`012`,`08`...
+// 注意: 不能出现以`0`开头的两位以上数字,比如`012`,`08`...
 
-思路一:暴力法
+// 思路一:暴力法
 
-我们把所有出现可能都列举出来,看是否满足条件.
+// 我们把所有出现可能都列举出来,看是否满足条件.
 
-思路二:回溯算法
+// 思路二:回溯算法
 
-## 代码:
+// ## 代码:
 
-思路一:
+// 思路一:
 
-```python [1]
+// ```python [1]
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         n = len(s)
@@ -38,11 +38,11 @@ class Solution:
                         if all(map(helper, [tmp1, tmp2, tmp3, tmp4])):
                             res.append(tmp1 + "." + tmp2 + "." + tmp3 + "." + tmp4)
         return res
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> res = new ArrayList<>();
@@ -70,11 +70,11 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python [2]
+// ```python [2]
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         res = []
@@ -97,11 +97,11 @@ class Solution:
         backtrack(0, "", 4)
         return res
         
-```
+// ```
 
 
 
-```java [2]
+// ```java [2]
 class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> res = new ArrayList<>();
@@ -128,5 +128,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

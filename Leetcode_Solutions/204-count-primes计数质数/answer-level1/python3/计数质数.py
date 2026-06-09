@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，但是有3个测试用例会有超时，@tuotuoli的方式是把这3个数单独处理，真·面向测试编程，但效率真的提高很多
+# ### 解题思路
+# 思路很简单，但是有3个测试用例会有超时，@tuotuoli的方式是把这3个数单独处理，真·面向测试编程，但效率真的提高很多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def countPrimes(self, n: int) -> int:
@@ -30,4 +30,4 @@ class Solution:
         
         return count
         
-```
+# ```

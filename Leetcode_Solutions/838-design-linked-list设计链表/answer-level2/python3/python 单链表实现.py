@@ -1,7 +1,7 @@
-题目不是说链表的值都在[1,1000]么？
-还有还有插入在-1位置都可以算对
-好吧，经过半天调试终于过了
-```python3
+# 题目不是说链表的值都在[1,1000]么？
+# 还有还有插入在-1位置都可以算对
+# 好吧，经过半天调试终于过了
+# ```python3
 class Node(object):
     def __init__(self, x):
         self.val = x
@@ -120,4 +120,4 @@ class MyLinkedList:
 # obj.addAtTail(val)
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-子树的高度作为分组的标准
-每次都是先左后右
+# ### 解题思路
+# 子树的高度作为分组的标准
+# 每次都是先左后右
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
 
         dfs(root)
         return ans
-```
+# ```

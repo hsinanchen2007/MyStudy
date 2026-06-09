@@ -1,6 +1,6 @@
-### 暴力搜索
+# ### 暴力搜索
 
-```python []
+# ```python []
 class Solution:
     def multiSearch(self, big: str, smalls: List[str]) -> List[List[int]]:
         def f(w):
@@ -12,13 +12,13 @@ class Solution:
                     j = big.find(w, i)
                     i = j + 1
         return map(f, smalls)
-```
+# ```
 
-### AC自动机
+# ### AC自动机
 
-比暴力搜索还慢点。。
+# 比暴力搜索还慢点。。
 
-```python []
+# ```python []
 class TrieNode(object):
     def __init__(self, value=None):
         self.value = value
@@ -93,4 +93,4 @@ class Solution:
     def multiSearch(self, big: str, smalls: List[str]) -> List[List[int]]:
         model = Trie(smalls).search(big)
         return map(model.__getitem__, smalls)
-```
+# ```

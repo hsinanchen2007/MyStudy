@@ -1,4 +1,4 @@
-```python
+# ```python
 def numsSameConsecDiff(N, K):
     """
         1. dp问题: dp[i] = dp[i-1] * 10 + dp[i-1][-1] +/- K.
@@ -16,4 +16,4 @@ def numsSameConsecDiff(N, K):
     return list(dp)
 
 print(numsSameConsecDiff(3,7))
-```
+# ```

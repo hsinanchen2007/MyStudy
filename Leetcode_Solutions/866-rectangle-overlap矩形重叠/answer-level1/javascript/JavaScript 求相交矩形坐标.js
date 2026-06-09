@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rec1
  * @param {number[]} rec2
@@ -21,4 +21,4 @@ var isRectangleOverlap = function(rec1, rec2) {
     if(recx[0] < recx[2] && recx[1] < recx[3]) return true;
     return false;
 };
-```
+// ```

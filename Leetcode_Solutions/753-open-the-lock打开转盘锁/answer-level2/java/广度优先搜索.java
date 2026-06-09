@@ -1,9 +1,9 @@
-### 解题思路
-使用广度优先搜索，把字符串转成int类型进行操作，加快速度。
+// ### 解题思路
+// 使用广度优先搜索，把字符串转成int类型进行操作，加快速度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int openLock(String[] deadends, String target) {
 
@@ -95,4 +95,4 @@ class Solution {
     
     }
 }
-```
+// ```

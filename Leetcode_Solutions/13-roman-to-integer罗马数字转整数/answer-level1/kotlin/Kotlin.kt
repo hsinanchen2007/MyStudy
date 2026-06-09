@@ -1,4 +1,4 @@
-```
+// ```
 fun romanToInt(s: String): Int {
         var res :Int = getNum(s[s.length - 1])
         for (i in s.length-2 downTo 0){
@@ -16,4 +16,4 @@ fun romanToInt(s: String): Int {
         'M' -> 1000
         else -> 0
     }
-```
+// ```

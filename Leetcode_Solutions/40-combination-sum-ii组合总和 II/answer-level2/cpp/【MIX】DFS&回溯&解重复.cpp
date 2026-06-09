@@ -1,9 +1,9 @@
-### 解题思路
-DFS, 对重复解进行去除
+// ### 解题思路
+// DFS, 对重复解进行去除
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         int N = candidates.length;
@@ -39,8 +39,8 @@ class Solution {
 
     private List<List<Integer>> res = new ArrayList<>();
 }
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         N = candidates.__len__()
@@ -68,8 +68,8 @@ class Solution:
                 comb.append(candidates[i])
                 self.makCombination(candidates, i+1, R-candidates[i], comb)
                 comb.pop(-1)
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
@@ -106,4 +106,4 @@ private:
 private:
     vector<vector<int>> res;
 };
-```
+// ```

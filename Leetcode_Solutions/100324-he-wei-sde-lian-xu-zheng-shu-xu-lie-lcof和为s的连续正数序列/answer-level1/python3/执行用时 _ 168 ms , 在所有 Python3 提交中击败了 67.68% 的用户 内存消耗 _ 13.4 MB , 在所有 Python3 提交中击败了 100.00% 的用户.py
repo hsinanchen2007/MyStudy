@@ -1,8 +1,8 @@
-### 解题思路
-连续正数序列为等差数列，和为cur =(low + high)*(high - low +1)/2,定义两个指针，low=1，high=2，当和>cur时low+=1,反之high+=1
-### 代码
+# ### 解题思路
+# 连续正数序列为等差数列，和为cur =(low + high)*(high - low +1)/2,定义两个指针，low=1，high=2，当和>cur时low+=1,反之high+=1
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         low = 1
@@ -19,4 +19,4 @@ class Solution:
                 low +=1
         return all_result
 
-```
+# ```

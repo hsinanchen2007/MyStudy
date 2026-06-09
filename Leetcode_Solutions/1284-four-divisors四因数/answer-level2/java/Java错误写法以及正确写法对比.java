@@ -1,8 +1,8 @@
-### 代码
+// ### 代码
 
-#### 错误写法
-该写法无法解决 3 * 3 * 3 * 3 这种情况
-```java
+// #### 错误写法
+// 该写法无法解决 3 * 3 * 3 * 3 这种情况
+// ```java
 class Solution1 {
     public int sumFourDivisors(int[] nums) {
         int res = 0;
@@ -21,10 +21,10 @@ class Solution1 {
         return res;
     }
 }
-```
-#### 正确写法
+// ```
+// #### 正确写法
 
-```java
+// ```java
 class Solution {
     public int sumFourDivisors(int[] nums) {
         int res = 0;
@@ -47,5 +47,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

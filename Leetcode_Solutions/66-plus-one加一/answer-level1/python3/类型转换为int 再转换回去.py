@@ -1,9 +1,9 @@
-### 解题思路
-直接强制转换类型
+# ### 解题思路
+# 直接强制转换类型
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         def num2str(x):
@@ -14,4 +14,4 @@ class Solution:
             return int(x)
         num=list(map(num2str,str(num)))
         return list(map(str2nums,num))
-```
+# ```

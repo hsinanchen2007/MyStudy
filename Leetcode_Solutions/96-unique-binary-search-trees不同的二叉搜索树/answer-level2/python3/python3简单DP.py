@@ -1,9 +1,9 @@
-### 解题思路
-python3简单DP
+# ### 解题思路
+# python3简单DP
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTrees(self, n: int) -> int:
         dp_arr = [1, 1, 2]
@@ -18,4 +18,4 @@ class Solution:
 
         return dp_arr[-1]
 
-```
+# ```

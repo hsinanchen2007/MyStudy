@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/e70e1fc131d2595f1ccfa74e5660d8b7a5ec10714d925ef0addab4dcab625363-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e70e1fc131d2595f1ccfa74e5660d8b7a5ec10714d925ef0addab4dcab625363-image.png)
 
-```python
+# ```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -31,4 +31,4 @@ class Solution(object):
                 elif nums[i] + nums[l] + nums[r] > 0:
                     r -= 1
         return res
-```
+# ```

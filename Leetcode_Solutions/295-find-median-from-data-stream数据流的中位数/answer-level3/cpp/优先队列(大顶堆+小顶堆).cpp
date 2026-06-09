@@ -1,14 +1,14 @@
-### 解题思路
-- 生成两个堆：`small`和`large`。用`small`堆存放数据中较小的一半元素，`large`堆存放数据中较大的一半元素
-- 我们只要保证两个堆有以下**其中之一**的特性：
-    a)`small`的元素个数和`large`的元素个数相等
-    b)`small`的元素个数比`large`的元素个数多一
-- 对于上面的a)情况，我们只要返回`small`堆顶元素和`large`堆顶元素之和的一半，即`(small.top() + large.top()) * 0.5`,即当前数据个数为偶数的情况下求中位数。对于上面的b)的情况，返回`small.top()`即可，为数据个数为奇数的情况下求中位数
-- **代码简单易懂，看代码！**
+// ### 解题思路
+// - 生成两个堆：`small`和`large`。用`small`堆存放数据中较小的一半元素，`large`堆存放数据中较大的一半元素
+// - 我们只要保证两个堆有以下**其中之一**的特性：
+//     a)`small`的元素个数和`large`的元素个数相等
+//     b)`small`的元素个数比`large`的元素个数多一
+// - 对于上面的a)情况，我们只要返回`small`堆顶元素和`large`堆顶元素之和的一半，即`(small.top() + large.top()) * 0.5`,即当前数据个数为偶数的情况下求中位数。对于上面的b)的情况，返回`small.top()`即可，为数据个数为奇数的情况下求中位数
+// - **代码简单易懂，看代码！**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -45,4 +45,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

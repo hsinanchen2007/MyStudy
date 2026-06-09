@@ -1,7 +1,7 @@
-思路：
-盛最多水，决定于高度较小一边；
-遍历所有两边求出面积，得出最大值
-```
+// 思路：
+// 盛最多水，决定于高度较小一边；
+// 遍历所有两边求出面积，得出最大值
+// ```
 int MoreSmall(int a, int b) {
     if (a <= b) {
         return a;
@@ -27,4 +27,4 @@ int maxArea(int* height, int heightSize) {
     }
     return first_water;
 }
-```
+// ```

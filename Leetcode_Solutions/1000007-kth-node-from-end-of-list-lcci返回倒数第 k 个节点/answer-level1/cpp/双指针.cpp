@@ -1,5 +1,5 @@
-代码中没有判断链表的长度小于k的情况，实际生产中要排除。
-```C++ []
+// 代码中没有判断链表的长度小于k的情况，实际生产中要排除。
+// ```C++ []
 class Solution {
 public:
 	int kthToLast(ListNode* head, int k) {
@@ -13,4 +13,4 @@ public:
 		return cur->val;
 	}
 };
-```
+// ```

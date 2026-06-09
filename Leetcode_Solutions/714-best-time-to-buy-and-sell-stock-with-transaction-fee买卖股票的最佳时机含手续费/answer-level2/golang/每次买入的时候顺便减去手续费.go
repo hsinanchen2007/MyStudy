@@ -1,9 +1,9 @@
-### 解题思路
-每次买入的时候顺便减去手续费
+// ### 解题思路
+// 每次买入的时候顺便减去手续费
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int, fee int) int {
     if len(prices) < 2 {
         return 0
@@ -31,4 +31,4 @@ func max(a, b int) int {
     return b
 }
 
-```
+// ```

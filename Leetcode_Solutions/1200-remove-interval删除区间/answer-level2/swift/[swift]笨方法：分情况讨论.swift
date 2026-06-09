@@ -1,4 +1,4 @@
-```swift
+// ```swift
  class Solution {
     func removeInterval(_ intervals: [[Int]], _ toBeRemoved: [Int]) -> [[Int]] {
         guard toBeRemoved[0] <= intervals.last![1] && toBeRemoved[1] >= intervals.first![0] else {
@@ -37,4 +37,4 @@
         return sortedIntervals
     }
  }
-```
+// ```

@@ -1,12 +1,12 @@
-# 滑动窗口真的香
-关于代码的一些说明：
-1.首先用left，right两个指针表示s字符串[left,right)内的字符，right表示还在探索，注意边界
-2.用window和need作为哈希表，存储滑动窗口内和字符串T的字符及其数目
-3.当window内字符不满足need需要时，right指针向右移动
-4.当window内字符满足need需要时，left指针向右移动
-5.步骤是 3 -> 4 -> 3 -> 4 ...这样子像毛毛虫一样前进，直到right到达s末尾
-6.边界处理细节不能出错，ans赋初值正无穷
-```
+# # 滑动窗口真的香
+# 关于代码的一些说明：
+# 1.首先用left，right两个指针表示s字符串[left,right)内的字符，right表示还在探索，注意边界
+# 2.用window和need作为哈希表，存储滑动窗口内和字符串T的字符及其数目
+# 3.当window内字符不满足need需要时，right指针向右移动
+# 4.当window内字符满足need需要时，left指针向右移动
+# 5.步骤是 3 -> 4 -> 3 -> 4 ...这样子像毛毛虫一样前进，直到right到达s末尾
+# 6.边界处理细节不能出错，ans赋初值正无穷
+# ```
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         def judge(need,window):
@@ -49,4 +49,4 @@ class Solution:
         return s[res_left:res_right]
 
 
-```
+# ```

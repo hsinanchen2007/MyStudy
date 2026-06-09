@@ -1,10 +1,10 @@
-### 解题思路
-利用搜索二叉树的性质，中序遍历的结果为递增序列。把前序遍历的结果放在数组中。
-第k大元素也即是倒数第k个元素=顺序的第list.size()-k个元素
+// ### 解题思路
+// 利用搜索二叉树的性质，中序遍历的结果为递增序列。把前序遍历的结果放在数组中。
+// 第k大元素也即是倒数第k个元素=顺序的第list.size()-k个元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
     helper(root.right);
 }
 }
-```
+// ```

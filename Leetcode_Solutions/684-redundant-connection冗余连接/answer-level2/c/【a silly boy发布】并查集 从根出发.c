@@ -1,6 +1,6 @@
-![105C9D7E-3BF8-4050-B151-F3CD4441DCFC.jpeg](https://pic.leetcode-cn.com/494aa22b72b2784999c8ce40f7a31e57d88731169197c824dc541b389e45d144-105C9D7E-3BF8-4050-B151-F3CD4441DCFC.jpeg)
+// ![105C9D7E-3BF8-4050-B151-F3CD4441DCFC.jpeg](https://pic.leetcode-cn.com/494aa22b72b2784999c8ce40f7a31e57d88731169197c824dc541b389e45d144-105C9D7E-3BF8-4050-B151-F3CD4441DCFC.jpeg)
 
-```
+// ```
 #define COLSIZE 2
 
 int Find(int *graph, int a)
@@ -61,4 +61,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     free(graph);
     return returnVal;
 }
-```
+// ```

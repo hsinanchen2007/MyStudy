@@ -1,9 +1,9 @@
-### 解题思路
-从删除的三种情况去考虑
+// ### 解题思路
+// 从删除的三种情况去考虑
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         else return root;
     }
 };
-```
+// ```

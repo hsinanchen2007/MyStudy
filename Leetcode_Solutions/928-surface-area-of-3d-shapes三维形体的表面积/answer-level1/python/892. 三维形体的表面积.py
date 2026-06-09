@@ -1,10 +1,10 @@
-### 解题思路
-res = 立方体个数*6 - 重叠面积*2 
-注意重叠部分为较小的数量乘上2
+# ### 解题思路
+# res = 立方体个数*6 - 重叠面积*2 
+# 注意重叠部分为较小的数量乘上2
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -26,4 +26,4 @@ class Solution:
                 # print(grid[i][j], summ, toge)
         return summ - toge
                 
-```
+# ```

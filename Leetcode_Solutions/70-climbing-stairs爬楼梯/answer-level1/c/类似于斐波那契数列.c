@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n)
 {
     if(n < 3)     
@@ -20,4 +20,4 @@ int climbStairs(int n)
     return cur;
 
 }
-```
+// ```

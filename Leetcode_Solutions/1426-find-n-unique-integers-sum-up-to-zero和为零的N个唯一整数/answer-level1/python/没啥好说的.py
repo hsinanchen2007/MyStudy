@@ -1,9 +1,9 @@
-### 解题思路
-过于简单，没有什么好说的，最后一个值返回一个负就好，这里的算法还是复杂度太高，估计有简单的思路吧
+# ### 解题思路
+# 过于简单，没有什么好说的，最后一个值返回一个负就好，这里的算法还是复杂度太高，估计有简单的思路吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sumZero(self, n: int) -> List[int]:
         import random
@@ -27,4 +27,4 @@ class Solution:
                     result.append(-s)
                     result_rep = False
                     return(result)
-```
+# ```

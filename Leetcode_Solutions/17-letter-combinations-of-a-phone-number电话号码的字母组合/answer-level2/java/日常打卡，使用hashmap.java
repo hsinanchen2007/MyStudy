@@ -1,9 +1,9 @@
-### 解题思路
-此题不难，没有涉及到全排序。
-用list存储每个数字对应字母的组装。
-### 代码
+// ### 解题思路
+// 此题不难，没有涉及到全排序。
+// 用list存储每个数字对应字母的组装。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static List<String> letterCombinations(String digits) {
         List<String> list = new ArrayList<String> ();
@@ -42,4 +42,4 @@ class Solution {
         return com;
     }
 }
-```
+// ```

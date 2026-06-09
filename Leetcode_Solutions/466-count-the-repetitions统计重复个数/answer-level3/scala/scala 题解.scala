@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def getMaxRepetitions(s1: String, n1: Int, s2: String, n2: Int): Int = {
     val repeatCnt = new Array[Int](n1 + 1)
@@ -30,4 +30,4 @@ object Solution {
     repeatCnt(n1) / n2
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-求差值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 求差值
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
     int n = prices.length;
@@ -33,4 +33,4 @@ class Solution {
         return cha;
     }
 }
-```
+// ```

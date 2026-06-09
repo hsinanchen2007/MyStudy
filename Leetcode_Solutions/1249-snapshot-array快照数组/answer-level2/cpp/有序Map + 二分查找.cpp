@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1. 默认值是0，用来兜底；
-2. 因为1），所以如果找不到快照修改就返回上个兜底值。
+// 1. 默认值是0，用来兜底；
+// 2. 因为1），所以如果找不到快照修改就返回上个兜底值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class SnapshotArray {
 private:
     vector<map<int, int>> sa;
@@ -41,4 +41,4 @@ public:
  * int param_2 = obj->snap();
  * int param_3 = obj->get(index,snap_id);
  */
-```
+// ```

@@ -1,6 +1,6 @@
-方法一
-将所有需要反转的点反转完再连接
-```
+// 方法一
+// 将所有需要反转的点反转完再连接
+// ```
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -25,8 +25,8 @@ public:
         return head;
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -51,8 +51,8 @@ public:
         return dummy->next;
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -75,10 +75,10 @@ public:
         return dummy->next;
     }
 };
-```
-方法二 
-每反转一对点连接一次
-```
+// ```
+// 方法二 
+// 每反转一对点连接一次
+// ```
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -96,7 +96,7 @@ public:
         return dummy->next;
     }
 };
-```
+// ```
 
 
 

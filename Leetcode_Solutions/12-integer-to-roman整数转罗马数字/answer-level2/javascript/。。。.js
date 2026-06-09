@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} num
  * @return {string}
@@ -30,8 +30,8 @@ var intToRoman = function (num) {
     }
     return s
 };
-```
+// ```
 
-* tag[n] ? tag[n] : m < 4 ? tag[i + ''].repeat(m) : (tag[5 * i + ''] + tag[i + ''].repeat(m - 5)) 获取当前位置罗马数字表达式
-* tag[i + ''].repeat(m) 位上数字小于4，直接重复
-* tag[5 * i + ''] + tag[i + ''].repeat(m - 5) 排除前置情况，其实就是位上数字位于6-8，先获取V/L/D,然后加上重复
+// * tag[n] ? tag[n] : m < 4 ? tag[i + ''].repeat(m) : (tag[5 * i + ''] + tag[i + ''].repeat(m - 5)) 获取当前位置罗马数字表达式
+// * tag[i + ''].repeat(m) 位上数字小于4，直接重复
+// * tag[5 * i + ''] + tag[i + ''].repeat(m - 5) 排除前置情况，其实就是位上数字位于6-8，先获取V/L/D,然后加上重复

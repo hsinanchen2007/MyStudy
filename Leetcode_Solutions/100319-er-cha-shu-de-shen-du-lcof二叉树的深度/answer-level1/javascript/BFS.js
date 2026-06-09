@@ -1,9 +1,9 @@
-### 解题思路
-跟32题类似
+// ### 解题思路
+// 跟32题类似
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -40,4 +40,4 @@ var maxDepth = function(root) {
 
     return res.length
 };
-```
+// ```

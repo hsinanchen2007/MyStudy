@@ -1,6 +1,6 @@
 
 
-```go
+// ```go
 import (
 	"fmt"
 	"sort"
@@ -37,4 +37,4 @@ func sortString(s string) string {
 	}
 	return res
 }
-```
+// ```

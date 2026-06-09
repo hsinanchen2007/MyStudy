@@ -1,9 +1,9 @@
-### 解题思路
-    注意初始坐标与新的颜色值相同的情况。
+// ### 解题思路
+//     注意初始坐标与新的颜色值相同的情况。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -50,4 +50,4 @@ int** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, i
     free(dy);
     return image;
 }
-```
+// ```

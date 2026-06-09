@@ -1,9 +1,9 @@
-### 方法一
-直接搜索查找，28ms
+# ### 方法一
+# 直接搜索查找，28ms
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -23,14 +23,14 @@ class Solution(object):
         for i in range(n):
             if target<=nums[i]:
                 return i
-```
+# ```
 
-### 方法二
-二分法查找
+# ### 方法二
+# 二分法查找
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -57,4 +57,4 @@ class Solution(object):
             else:
                 right=mid-1
         return left
-```
+# ```

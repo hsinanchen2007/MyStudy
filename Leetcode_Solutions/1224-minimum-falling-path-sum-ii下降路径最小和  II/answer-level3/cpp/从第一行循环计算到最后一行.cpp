@@ -1,9 +1,9 @@
-### 解题思路
-搜索每一行最小的两位数，并且记录其索引值，
+// ### 解题思路
+// 搜索每一行最小的两位数，并且记录其索引值，
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& arr) {
@@ -69,4 +69,4 @@ public:
 		return temp_0[0];
     }
 };
-```
+// ```

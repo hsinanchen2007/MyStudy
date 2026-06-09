@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] constructRectangle(int area) {
         int q = (int) Math.sqrt(area);
@@ -6,4 +6,4 @@ class Solution {
         return new int[]{area / q, q};
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-转换成字符串，然后再判断长度是不是偶数
+# ### 解题思路
+# 转换成字符串，然后再判断长度是不是偶数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         even = []
@@ -13,4 +13,4 @@ class Solution:
                 even.append(item)
         
         return len(even)
-```
+# ```

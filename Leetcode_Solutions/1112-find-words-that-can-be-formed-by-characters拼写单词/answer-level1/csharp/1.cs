@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int CountCharacters(string[] words, string chars) {
         int[] chars_count = count(chars);
@@ -40,4 +40,4 @@ public class Solution {
             return counter;
         }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用数组来代替栈
+// ### 解题思路
+// 使用数组来代替栈
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -59,4 +59,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

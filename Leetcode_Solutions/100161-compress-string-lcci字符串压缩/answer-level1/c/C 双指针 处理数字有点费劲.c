@@ -1,4 +1,4 @@
-```
+// ```
 
 void reverse(char *s)
 {
@@ -59,4 +59,4 @@ char* compressString(char* S){
   if(retSize < len) return ret;
   else              return S;
 }
-```
+// ```

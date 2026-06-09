@@ -1,5 +1,5 @@
 
-```
+# ```
 import queue
 
 class FooBar:
@@ -25,6 +25,6 @@ class FooBar:
             self.q.get()
             # printBar() outputs "bar". Do not change or remove this line.
             printBar()
-```
+# ```
 
 

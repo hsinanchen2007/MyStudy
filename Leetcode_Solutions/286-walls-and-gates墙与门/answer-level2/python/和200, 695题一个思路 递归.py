@@ -1,9 +1,9 @@
-### 解题思路
-丑陋的递归
+# ### 解题思路
+# 丑陋的递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
         """
@@ -34,4 +34,4 @@ class Solution:
             for y, v in enumerate(xv):
                 if v == 0:
                     check(x, y, 0)
-```
+# ```

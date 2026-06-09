@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-感觉就是考察了栈和队列的定义，别的没啥了...
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 感觉就是考察了栈和队列的定义，别的没啥了...
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -52,4 +52,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

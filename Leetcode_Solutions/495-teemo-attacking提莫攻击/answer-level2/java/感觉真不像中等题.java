@@ -1,4 +1,4 @@
-```
+// ```
 public static int findPoisonedDuration(int[] timeSeries, int duration) {
         if (timeSeries.length == 0) return 0;
         if (timeSeries.length <= 1) return duration;
@@ -13,4 +13,4 @@ public static int findPoisonedDuration(int[] timeSeries, int duration) {
         sumdura+=duration;
         return sumdura;
     }
-```
+// ```

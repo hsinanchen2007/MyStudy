@@ -1,5 +1,5 @@
 
-```
+// ```
 
 int* levelOrder(struct TreeNode* root, int* returnSize){
     if (NULL == root)
@@ -38,8 +38,8 @@ int* levelOrder(struct TreeNode* root, int* returnSize){
     *returnSize = resId;
     return res;
 }
-```
+// ```
 
 
 
-话说题目不是说最大1000个节点，测试用例怎么两千多个。。。
+// 话说题目不是说最大1000个节点，测试用例怎么两千多个。。。

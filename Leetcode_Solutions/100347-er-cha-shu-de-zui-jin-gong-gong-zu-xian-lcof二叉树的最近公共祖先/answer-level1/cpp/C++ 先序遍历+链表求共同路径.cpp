@@ -1,10 +1,10 @@
-### 解题思路
-1、使用先序遍历，求出从根节点到目标节点的路径
-2、对两条路径，求共同节点
+// ### 解题思路
+// 1、使用先序遍历，求出从根节点到目标节点的路径
+// 2、对两条路径，求共同节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -47,4 +47,4 @@ public:
 		return pLast;
 	}
 };
-```
+// ```

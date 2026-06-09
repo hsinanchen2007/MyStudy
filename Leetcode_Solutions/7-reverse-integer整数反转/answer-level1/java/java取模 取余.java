@@ -1,15 +1,15 @@
-### 解题思路
-两个点：
-1. 使用一个rev (long型) 来存储最终翻转的数字，如果最终结果超出Integer的取值范围，说明有益处，则返回0.
-2. 重复对x取余数，余数 + rev*10, 使得数字翻转
-   ```JAVA
+// ### 解题思路
+// 两个点：
+// 1. 使用一个rev (long型) 来存储最终翻转的数字，如果最终结果超出Integer的取值范围，说明有益处，则返回0.
+// 2. 重复对x取余数，余数 + rev*10, 使得数字翻转
+//    ```JAVA
     rev = rev*10 + x % 10;
     x = x / 10;
-    ```
+//     ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         long rev = 0; // store a long value
@@ -25,4 +25,4 @@ class Solution {
     }
 }
 
-```
+// ```

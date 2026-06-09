@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用2个队列，一个tmp作为临时保存在que在push的其他变量，让最新元素可以在队列底部，从而保证先入后出
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用2个队列，一个tmp作为临时保存在que在push的其他变量，让最新元素可以在队列底部，从而保证先入后出
+// ### 代码
 
-```csharp
+// ```csharp
 public class MyStack
         {
 
@@ -56,4 +56,4 @@ public class MyStack
  * int param_3 = obj.Top();
  * bool param_4 = obj.Empty();
  */
-```
+// ```

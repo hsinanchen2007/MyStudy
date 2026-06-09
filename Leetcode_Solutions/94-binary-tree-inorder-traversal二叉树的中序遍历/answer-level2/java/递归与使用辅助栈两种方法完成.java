@@ -1,33 +1,33 @@
-### 使用辅助栈
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(n)
-2. 我的解题思路
-<br />&nbsp;2.1 这个解法是基于第144题的解法进行实现
-<br />&nbsp;2.2 利用操作节点不为空以及操作栈不为空的或操作为条件进行循环
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 循环深度递归获取操作节点的左子树
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 获取并移除栈顶结点，记录该结点的值
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 2.2.2中获取的结点有右子树的话，将操作结点的值设置为栈顶结点的右孩子
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗34.6MB内存
-<br />&nbsp;3.2 leetcode中耗时1ms,消耗34.6MB内存
-4. Q&A
+// ### 使用辅助栈
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(n)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 这个解法是基于第144题的解法进行实现
+// <br />&nbsp;2.2 利用操作节点不为空以及操作栈不为空的或操作为条件进行循环
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 循环深度递归获取操作节点的左子树
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 获取并移除栈顶结点，记录该结点的值
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 2.2.2中获取的结点有右子树的话，将操作结点的值设置为栈顶结点的右孩子
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗34.6MB内存
+// <br />&nbsp;3.2 leetcode中耗时1ms,消耗34.6MB内存
+// 4. Q&A
 
-### 递归遍历
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(1)
-2. 我的解题思路
-<br />&nbsp;2.1 递归遍历左子树
-<br />&nbsp;2.2 将当前结点的值加入到结果列表中
-<br />&nbsp;2.3 递归遍历右子树
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗34.7MB内存
-<br />&nbsp;3.2 leetcode中耗时0ms,消耗34.6MB内存
-4. Q&A
+// ### 递归遍历
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(1)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 递归遍历左子树
+// <br />&nbsp;2.2 将当前结点的值加入到结果列表中
+// <br />&nbsp;2.3 递归遍历右子树
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗34.7MB内存
+// <br />&nbsp;3.2 leetcode中耗时0ms,消耗34.6MB内存
+// 4. Q&A
 
 
-```
+// ```
 /**
  * Problem
  *      94.Binary Tree Inorder Traversal
@@ -152,4 +152,4 @@ public class Solution94 {
         inOrderByRecursion(root.right);
     }
 }
-```
+// ```

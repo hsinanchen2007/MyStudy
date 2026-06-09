@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn remove_element(nums: &mut Vec<i32>, val: i32) -> i32 {
         let len = nums.len();
@@ -30,5 +30,5 @@ impl Solution {
         (left + 1) as i32
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/8f0a1beec487fd90bc7dc7c1d9985baf02ab6987595ddb0b952367262e4c4485-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8f0a1beec487fd90bc7dc7c1d9985baf02ab6987595ddb0b952367262e4c4485-image.png)

@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```python []
+// ```python []
 class Solution:
     def compressString(self, S: str) -> str:
         if not S:
@@ -20,9 +20,9 @@ class Solution:
         ans += ch+str(cnt)    
         return ans if len(ans)<len(S) else S
        # 没有变短，返回原先字符，变短了，返回压缩字符
-```
+// ```
 
-```java []
+// ```java []
 class Solution {
     public String compressString(String S) {
         if (S.length() == 0){
@@ -57,6 +57,6 @@ class Solution {
 
     }
 }
-```
-时间复杂度O(n)
-空间复杂度O(1)
+// ```
+// 时间复杂度O(n)
+// 空间复杂度O(1)

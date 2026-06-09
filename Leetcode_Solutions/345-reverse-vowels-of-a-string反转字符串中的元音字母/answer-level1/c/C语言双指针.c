@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0519a61d6794dd8cd41d8ab874925a8ea21a3d0ad854ba9006a72c167e8bea9f-image.png)
-分别从两边遍历，直到两指针相遇；两个指针都指向元音时交换。
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0519a61d6794dd8cd41d8ab874925a8ea21a3d0ad854ba9006a72c167e8bea9f-image.png)
+// 分别从两边遍历，直到两指针相遇；两个指针都指向元音时交换。
+// ### 代码
 
-```c
+// ```c
 bool is_aeiou(char s) {
     if(s == 'a' || s == 'A' ||
        s == 'e' || s == 'E' ||
@@ -36,4 +36,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

@@ -1,1 +1,1 @@
-记得写distinct
+-- 记得写distinct

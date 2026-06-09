@@ -1,9 +1,9 @@
-### 解题思路
-根据题目意思，先找到车，然后四个方向移动寻找即可
+// ### 解题思路
+// 根据题目意思，先找到车，然后四个方向移动寻找即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         // 定义上下左右四个方向
@@ -37,4 +37,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

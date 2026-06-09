@@ -1,9 +1,9 @@
-### 解题思路
-由于是倒数第k个结点，所以先让一个结点先走K步即可。因为要删除第K个结点，所以要获得第K-1个结点，然后利用k-1.next.next来删除K结点。
+// ### 解题思路
+// 由于是倒数第k个结点，所以先让一个结点先走K步即可。因为要删除第K个结点，所以要获得第K-1个结点，然后利用k-1.next.next来删除K结点。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
 
     }
 }
-```
+// ```

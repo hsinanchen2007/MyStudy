@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
         # two baskets
@@ -19,4 +19,4 @@ class Solution:
                 left += 1
             res = max(res, cnt)
         return res
-```
+# ```

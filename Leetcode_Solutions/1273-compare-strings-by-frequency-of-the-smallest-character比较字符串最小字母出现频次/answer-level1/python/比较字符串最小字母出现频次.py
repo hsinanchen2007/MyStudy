@@ -1,9 +1,9 @@
-### 解题思路
-字符与ASCII的相互转换，map函数
+# ### 解题思路
+# 字符与ASCII的相互转换，map函数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numSmallerByFrequency(self, queries, words):
         #map(fuction,iterable...)内置函数
@@ -23,4 +23,4 @@ class Solution(object):
                 j += 1
             ans.append(count)
         return ans
-```
+# ```

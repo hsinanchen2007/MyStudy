@@ -1,5 +1,5 @@
-解法思路依据每个位如果是3的倍数就认为是没多出的，不是3的倍数的位说明是数量为1的那个数的位。
-```
+// 解法思路依据每个位如果是3的倍数就认为是没多出的，不是3的倍数的位说明是数量为1的那个数的位。
+// ```
 int singleNumber(int* nums, int numsSize){
     unsigned int ans = 0;//定义为无符号来避免left shift of 1 by 31 places cannot be represented in type 'int'
     for(int i = 0,j = 0,count = 0; i<32; i++)
@@ -20,4 +20,4 @@ int singleNumber(int* nums, int numsSize){
     return ans ;
 }
 时间打败94%
-```
+// ```

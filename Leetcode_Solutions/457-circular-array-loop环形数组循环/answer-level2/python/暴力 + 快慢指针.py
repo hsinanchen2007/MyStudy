@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-思路一：暴力法
+# 思路一：暴力法
 
-思路二：快慢指针
+# 思路二：快慢指针
 
-通过快慢指针找到是否存在环
+# 通过快慢指针找到是否存在环
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def circularArrayLoop1(self, nums: List[int]) -> bool:
         from collections import defaultdict
@@ -34,11 +34,11 @@ class Solution:
             if dfs((nums[i] + i) % n, nums[i] > 0, 1, defaultdict(int)):
                 return True
         return False
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def circularArrayLoop(self, nums: List[int]) -> bool:
         n = len(nums)
@@ -65,7 +65,7 @@ class Solution:
                 nums[i] = 0
                 i = tmp
         return False
-```
+# ```
 
 
 

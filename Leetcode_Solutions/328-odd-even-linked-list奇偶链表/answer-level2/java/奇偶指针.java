@@ -1,13 +1,13 @@
-### 解题思路
-奇指针-head
-偶指针-head.next
-然后每个指针走两步，连接即可得到两个指针列表
-奇指针尾部与偶指针头部连接
-返回head即可
+// ### 解题思路
+// 奇指针-head
+// 偶指针-head.next
+// 然后每个指针走两步，连接即可得到两个指针列表
+// 奇指针尾部与偶指针头部连接
+// 返回head即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,4 +44,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

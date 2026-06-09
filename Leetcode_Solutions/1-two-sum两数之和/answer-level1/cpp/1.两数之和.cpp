@@ -1,9 +1,9 @@
-### 解题思路
-因为示例直接给的vector所以用了它，思路就是不断向下比较（耗时太久了TT）。第一次刷leetcode还有点懵，不太习惯，输入输出样例只有一组
+// ### 解题思路
+// 因为示例直接给的vector所以用了它，思路就是不断向下比较（耗时太久了TT）。第一次刷leetcode还有点懵，不太习惯，输入输出样例只有一组
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -20,4 +20,4 @@ public:
         return result ;
     }
 };
-```
+// ```

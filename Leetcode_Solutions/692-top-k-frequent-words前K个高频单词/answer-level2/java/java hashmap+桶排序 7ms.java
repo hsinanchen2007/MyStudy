@@ -1,14 +1,14 @@
-### 解题思路
-1.hashmap存储频率 
-    i 2  love 2 leetcode 1  coding 1
-2.建一个桶：
-    1 leetcode coding   2  love i
-3.对非空桶内数据进行排序
-4.输出
+// ### 解题思路
+// 1.hashmap存储频率 
+//     i 2  love 2 leetcode 1  coding 1
+// 2.建一个桶：
+//     1 leetcode coding   2  love i
+// 3.对非空桶内数据进行排序
+// 4.输出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
@@ -44,4 +44,4 @@ class Solution {
         return topk;
     }
 }
-```
+// ```

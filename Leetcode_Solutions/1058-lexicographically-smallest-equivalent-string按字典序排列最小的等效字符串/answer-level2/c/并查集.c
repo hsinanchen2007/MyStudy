@@ -1,10 +1,10 @@
-### 解题思路
-并查集：father大的元素向father小的元素合并；
-合并后更新全部元素的father，保证每个元素都能最快找到最小的father元素，保证字典序排序。
+// ### 解题思路
+// 并查集：father大的元素向father小的元素合并；
+// 合并后更新全部元素的father，保证每个元素都能最快找到最小的father元素，保证字典序排序。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int getFather(int t, int *father)
 {
     if (father[t] == t) {
@@ -60,4 +60,4 @@ char * smallestEquivalentString(char * A, char * B, char * S){
     return result;
 }
 
-```
+// ```

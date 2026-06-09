@@ -1,6 +1,6 @@
-![38.jpg](https://pic.leetcode-cn.com/07b49c579ba3ec681976d68071ffa24e8ef6794ce43a3d928794799cf2e2b7cd-38.jpg)
+# ![38.jpg](https://pic.leetcode-cn.com/07b49c579ba3ec681976d68071ffa24e8ef6794ce43a3d928794799cf2e2b7cd-38.jpg)
 
-```
+# ```
 def genHelper(n):
     if n:
         gen=genHelper(n-1)
@@ -27,4 +27,4 @@ def genHelper(n):
 class Solution:
     def countAndSay(self, n: int) -> str:
         return ''.join(map(str,genHelper(n-1)))
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-基本思路就是迭代除7取余，存到一个StringBuilder里，最后反转即可。
-对于负数，直接先取正处理，然后加上负号即可。
+// ### 解题思路
+// 基本思路就是迭代除7取余，存到一个StringBuilder里，最后反转即可。
+// 对于负数，直接先取正处理，然后加上负号即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convertToBase7(int num) {
         String ans = "";
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

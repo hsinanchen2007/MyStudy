@@ -1,4 +1,4 @@
-```
+// ```
 //先进行反转再进行计算
 class Solution {
     public int getDecimalValue(ListNode head) {
@@ -36,4 +36,4 @@ class Solution {
         return newhead;
     }
 }
-```
+// ```

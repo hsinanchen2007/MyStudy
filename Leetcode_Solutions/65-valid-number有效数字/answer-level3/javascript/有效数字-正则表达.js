@@ -1,12 +1,12 @@
-### 解题思路
- - 正则判断
- - 有e时，就分解递归判断求与
-![image.png](https://pic.leetcode-cn.com/fae81c401a7ba70fdc5688c53ad625c7ec8e5aa19bda29b964634ec371d9a39a-image.png)
+// ### 解题思路
+//  - 正则判断
+//  - 有e时，就分解递归判断求与
+// ![image.png](https://pic.leetcode-cn.com/fae81c401a7ba70fdc5688c53ad625c7ec8e5aa19bda29b964634ec371d9a39a-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -31,4 +31,4 @@ var isNumber = function(s, strict, trim) {
     // 这里stict 时用于检测e存在的情况，e后面只能是整数；而常规的则有1.3, .3, 1. 这三种情况
     return strict ? /^[\+,-]?[0-9]+$/.test(s) : /^[\+,-]?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))$/.test(s);
 };
-```
+// ```

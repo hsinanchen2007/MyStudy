@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int gcd(int a, int b){
         return !b ? a : gcd(b, a%b);
@@ -56,4 +56,4 @@ public:
         return  lx + "x=" + to_string(r_val); 
     }
 };
-```
+// ```

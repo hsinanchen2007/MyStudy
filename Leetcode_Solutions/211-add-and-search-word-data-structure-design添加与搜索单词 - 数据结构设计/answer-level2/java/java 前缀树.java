@@ -1,4 +1,4 @@
-```
+// ```
 class TrieNode {
     private int count;
     private int prefixCount;
@@ -91,4 +91,4 @@ class WordDictionary {
         return trieNode.search(trieNode, word) != -1;
     }
 }
-```
+// ```

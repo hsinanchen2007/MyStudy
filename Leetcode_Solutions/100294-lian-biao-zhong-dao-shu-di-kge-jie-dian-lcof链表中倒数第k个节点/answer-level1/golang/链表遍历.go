@@ -1,11 +1,11 @@
-### 解题思路
-1. 遍历
-2. 切片a存放所有节点指针
-3. 索引进行转换 index = len(a)-k
-4. 返回 a[index]
-### 代码
+// ### 解题思路
+// 1. 遍历
+// 2. 切片a存放所有节点指针
+// 3. 索引进行转换 index = len(a)-k
+// 4. 返回 a[index]
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -34,4 +34,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
 
 
 }
-```
+// ```

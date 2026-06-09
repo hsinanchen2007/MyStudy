@@ -1,12 +1,12 @@
-### 解题思路
-二分查找。看到log 基本都是二分法.
+# ### 解题思路
+# 二分查找。看到log 基本都是二分法.
  
-![image.png](https://pic.leetcode-cn.com/acab79a49ceede37e215ccdc4f24d5f405f510fe19aeae3dc4e2112898d64da5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/acab79a49ceede37e215ccdc4f24d5f405f510fe19aeae3dc4e2112898d64da5-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -61,4 +61,4 @@ class Solution(object):
 
                 # print max_left, min_right
                 return (max_left + min_right) / 2.0
-```
+# ```

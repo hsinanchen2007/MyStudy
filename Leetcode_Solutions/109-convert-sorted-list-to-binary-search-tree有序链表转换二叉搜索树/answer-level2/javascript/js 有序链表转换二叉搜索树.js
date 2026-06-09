@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d414d9fc61621a1baa8f6d79828b2f3d4bbcbc04a31fc57414688f5f49b658b6-image.png)
-1. 快慢指针找到链表中点
-```
+// ![image.png](https://pic.leetcode-cn.com/d414d9fc61621a1baa8f6d79828b2f3d4bbcbc04a31fc57414688f5f49b658b6-image.png)
+// 1. 快慢指针找到链表中点
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -37,12 +37,12 @@ var sortedListToBST = function(head) {
     }
     return fn(head, null)
 };
-```
-2.有序链接转为数组，空间换时间的解法
-二叉搜索树中序排列是递增的，将有序链表转换为二叉搜索树，二叉搜索树的根节点一定是中间的值，二叉搜索树的左子树由有序链接起始位置到中间位置组成，右子树由中间位置至末尾部分组成，子树的规律也是这样，找到迭代的通项公式就可以开始写代码了
-利用while循环将有序链接转换为数组，因为链表是递增的，所以数组也是递增的，寻找有序数组的中位数取index为数组长度/2向下取整的数字即可
+// ```
+// 2.有序链接转为数组，空间换时间的解法
+// 二叉搜索树中序排列是递增的，将有序链表转换为二叉搜索树，二叉搜索树的根节点一定是中间的值，二叉搜索树的左子树由有序链接起始位置到中间位置组成，右子树由中间位置至末尾部分组成，子树的规律也是这样，找到迭代的通项公式就可以开始写代码了
+// 利用while循环将有序链接转换为数组，因为链表是递增的，所以数组也是递增的，寻找有序数组的中位数取index为数组长度/2向下取整的数字即可
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -82,4 +82,4 @@ var sortedListToBST = function(head) {
     }
     return fn(root, list)
 };
-```
+// ```

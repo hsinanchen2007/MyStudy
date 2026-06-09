@@ -1,12 +1,12 @@
-### 解题思路
-1. 不采用排序,考虑到扑克只有14种类型,建立对应的字典
-2. 提取大小王的牌数
-3. 遍历字典,取出开始的牌号begin,结束的牌号end,和begin与end之间的牌数mid
-4. 在大小王+mid牌数为5,并且最大的牌与最小的牌差小于5,则证明顺子
+# ### 解题思路
+# 1. 不采用排序,考虑到扑克只有14种类型,建立对应的字典
+# 2. 提取大小王的牌数
+# 3. 遍历字典,取出开始的牌号begin,结束的牌号end,和begin与end之间的牌数mid
+# 4. 在大小王+mid牌数为5,并且最大的牌与最小的牌差小于5,则证明顺子
 
-### 代码
+# ### 代码
 
-```py
+# ```py
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         if (not nums) or len(nums) < 5: return False
@@ -28,4 +28,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

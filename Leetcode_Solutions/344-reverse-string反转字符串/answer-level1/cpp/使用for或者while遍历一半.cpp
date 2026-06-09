@@ -1,9 +1,9 @@
-### 解题思路
-两种写法
+// ### 解题思路
+// 两种写法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -29,4 +29,4 @@ public:
         return;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-本题的规律，从矩阵的右上角分析，如果该值比target大，则舍弃该列，如果该值比target小，则舍弃该行，如果相等，则返回true
+// ### 解题思路
+// 本题的规律，从矩阵的右上角分析，如果该值比target大，则舍弃该列，如果该值比target小，则舍弃该行，如果相等，则返回true
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -32,4 +32,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

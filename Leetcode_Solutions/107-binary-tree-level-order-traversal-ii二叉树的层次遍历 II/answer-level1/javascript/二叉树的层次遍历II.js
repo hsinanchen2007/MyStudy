@@ -1,6 +1,6 @@
-1、 BFS 
-每一次把顶层取出来，放在level里面，并且下一层的元素全部入列。
-```javascript
+// 1、 BFS 
+// 每一次把顶层取出来，放在level里面，并且下一层的元素全部入列。
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -30,13 +30,13 @@ var levelOrderBottom = function(root) {
     }
     return result;
 };
-```
-时间复杂度：O(n)。
-空间复杂度：O(n)。
+// ```
+// 时间复杂度：O(n)。
+// 空间复杂度：O(n)。
 
-1、 DFS
-深度优先遍历，使用map存每一层的值,最后需要做一个反转，因为是从下往上
-```javascript
+// 1、 DFS
+// 深度优先遍历，使用map存每一层的值,最后需要做一个反转，因为是从下往上
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -61,6 +61,6 @@ var levelOrderBottom = function(root) {
     dfs(root,0,map);
     return [...map.values()].reverse();  
 };
-```
-时间复杂度：O(n)。
-空间复杂度：O(n)。
+// ```
+// 时间复杂度：O(n)。
+// 空间复杂度：O(n)。

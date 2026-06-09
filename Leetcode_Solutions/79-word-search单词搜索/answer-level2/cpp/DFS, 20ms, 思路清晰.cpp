@@ -1,12 +1,12 @@
-### 解题思路
-用时: 20ms, 96.17%
-内存: 10.2MB, 77.95%
+// ### 解题思路
+// 用时: 20ms, 96.17%
+// 内存: 10.2MB, 77.95%
 
-DFS搜索十字方向, 走过的地方要留标记, 回溯时利用word清理标记.
+// DFS搜索十字方向, 走过的地方要留标记, 回溯时利用word清理标记.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

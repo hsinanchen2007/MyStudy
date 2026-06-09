@@ -1,9 +1,9 @@
-### 解题思路
-直接暴力遍历，遇到不是的剔除就行
+// ### 解题思路
+// 直接暴力遍历，遇到不是的剔除就行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

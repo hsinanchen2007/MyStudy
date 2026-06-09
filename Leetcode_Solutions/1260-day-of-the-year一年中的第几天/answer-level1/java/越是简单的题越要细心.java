@@ -1,10 +1,10 @@
-### 解题思路
-- 闰年的判断
-- 是否加上一天的判断
+// ### 解题思路
+// - 闰年的判断
+// - 是否加上一天的判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int dayOfYear(String date) {
           int[] arr = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
@@ -28,4 +28,4 @@ class Solution {
         return (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0));
     }
 }
-```
+// ```

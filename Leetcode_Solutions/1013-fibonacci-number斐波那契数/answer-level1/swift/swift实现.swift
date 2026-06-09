@@ -1,5 +1,5 @@
-用数组做记录，已经计算过的直接返回，避免大量重复调用计算
-```
+// 用数组做记录，已经计算过的直接返回，避免大量重复调用计算
+// ```
 class Solution {
     func tool(_ nums:inout [Int], n:Int) -> Int{
         if n == 0 {
@@ -19,9 +19,9 @@ class Solution {
         return tool(&nums, n: N)
     }
 }
-```
-动态规划，自底向上
-```
+// ```
+// 动态规划，自底向上
+// ```
 func fib2(_ N: Int) -> Int {
     var arr = [Int](repeating: 0, count: N+1)
     arr[1] = 1
@@ -31,4 +31,4 @@ func fib2(_ N: Int) -> Int {
     }
     return arr[N]
 }
-```
+// ```

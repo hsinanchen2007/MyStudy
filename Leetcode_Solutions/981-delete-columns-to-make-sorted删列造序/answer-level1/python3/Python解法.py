@@ -1,5 +1,5 @@
-直接查看原来的每列的数据是否具有一定的顺序，然后对其计数，最后计算出需要删减多少列
-```
+# 直接查看原来的每列的数据是否具有一定的顺序，然后对其计数，最后计算出需要删减多少列
+# ```
 class Solution:
     def minDeletionSize(self, A: List[str]) -> int:
         num=0
@@ -15,4 +15,4 @@ class Solution:
             list1=[]
         return lenth2-num
 
-```
+# ```

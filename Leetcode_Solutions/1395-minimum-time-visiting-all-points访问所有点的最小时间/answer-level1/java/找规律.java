@@ -1,9 +1,9 @@
-### 解题思路
-找张纸随便画画就能找到规律了，先算出dx和dy，分别求绝对值，然后分情况做判断，看了题解才知道原来这叫切比雪夫距离
+// ### 解题思路
+// 找张纸随便画画就能找到规律了，先算出dx和dy，分别求绝对值，然后分情况做判断，看了题解才知道原来这叫切比雪夫距离
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int len = points.length;
@@ -19,4 +19,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

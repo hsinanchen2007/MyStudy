@@ -1,9 +1,9 @@
-### 解题思路
-将A[i] + A[j] + i - j拆分成第j个点的 A[j]-j加上这个点之前的max(A[i]+i)
+// ### 解题思路
+// 将A[i] + A[j] + i - j拆分成第j个点的 A[j]-j加上这个点之前的max(A[i]+i)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxScoreSightseeingPair(int[] A) {
         int min1 = A[0]-0;
@@ -15,4 +15,4 @@ class Solution {
         return max1;
     }
 }
-```
+// ```

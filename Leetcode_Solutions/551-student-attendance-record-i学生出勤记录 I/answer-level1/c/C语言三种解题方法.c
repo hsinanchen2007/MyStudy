@@ -1,9 +1,9 @@
-### 解题思路
-使用计数器，strstr函数比对皆可，具体见代码注释。
+// ### 解题思路
+// 使用计数器，strstr函数比对皆可，具体见代码注释。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //利用计数器0ms完成，逢L加一，逢A和P清空L计数;
 #include <string.h>
 
@@ -27,10 +27,10 @@ bool checkRecord(char * s){
     }
     return true;
 }
-```
+// ```
 
 
-```c
+// ```c
 //利用strstr函数进行字符串查找实现，4ms，代码可读性较强;
 #include <string.h>
 
@@ -49,9 +49,9 @@ bool checkRecord(char * s){
         return true;
     }
 }
-```
+// ```
 
-```c
+// ```c
 //第一次写的比较蠢的判断，4ms，忽略;
 #include <string.h>
 
@@ -84,4 +84,4 @@ bool checkRecord(char * s){
         return true;
     }
 }
-```
+// ```

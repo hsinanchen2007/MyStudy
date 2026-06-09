@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         if(word1.equals("")) return word2.length();
@@ -23,4 +23,4 @@ class Solution {
         return dp[m][n];
     }
 }
-```
+// ```

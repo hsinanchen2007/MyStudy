@@ -1,6 +1,6 @@
-只需要遍历矩阵的1/4，对指定数字进行原位旋转即可
-空间O(1)
-```
+// 只需要遍历矩阵的1/4，对指定数字进行原位旋转即可
+// 空间O(1)
+// ```
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -20,5 +20,5 @@ var rotate = function(matrix) {
         }
     } 
 };
-```
+// ```
 

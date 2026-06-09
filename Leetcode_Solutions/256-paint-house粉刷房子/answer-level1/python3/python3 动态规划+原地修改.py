@@ -1,11 +1,11 @@
-### 解题思路
-实际上就是在cost原地累加
-如果当前选择图第一种颜色，那么就选择前面涂另外两种颜色中花费最小的那个
-转移方程dp[i][x]+=min(dp[i][x-1]+dp[x+1])
+# ### 解题思路
+# 实际上就是在cost原地累加
+# 如果当前选择图第一种颜色，那么就选择前面涂另外两种颜色中花费最小的那个
+# 转移方程dp[i][x]+=min(dp[i][x-1]+dp[x+1])
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def minCost(self, costs: List[List[int]]) -> int:
         if not costs:
@@ -19,4 +19,4 @@ class Solution:
         
 
        
-```
+# ```

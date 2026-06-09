@@ -1,9 +1,9 @@
-思路：自定义遍历顺序：根->右->左
+// 思路：自定义遍历顺序：根->右->左
 
-递归：
-![image.png](https://pic.leetcode-cn.com/ded6e193462dccd31cbe8e2adc355f5f124a72b039be38d3cecdd29fa4c314c9-image.png)
+// 递归：
+// ![image.png](https://pic.leetcode-cn.com/ded6e193462dccd31cbe8e2adc355f5f124a72b039be38d3cecdd29fa4c314c9-image.png)
 
-```cpp
+// ```cpp
     // 思路：自定义遍历顺序：根->右->左
     vector<int> rightSideView(TreeNode* root) {
         vector<int> res;
@@ -17,10 +17,10 @@
         util(res,root->right,n+1);
         util(res,root->left,n+1);
     }
-```
+// ```
 
-非递归：
-```cpp
+// 非递归：
+// ```cpp
     // 思路：自定义遍历顺序：根->右->左
     vector<int> rightSideView(TreeNode* root) {
         if (!root) return {};
@@ -44,5 +44,5 @@
         // util(res,root,1);
         return res;
     }
-```
+// ```
 

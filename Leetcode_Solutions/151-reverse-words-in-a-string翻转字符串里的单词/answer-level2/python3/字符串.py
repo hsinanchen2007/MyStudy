@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-思路一: 使用 `split`和`reverse`
+# 思路一: 使用 `split`和`reverse`
 
-```python []
+# ```python []
 class Solution:
     def reverseWords(self, s: str) -> str:
         return " ".join(s.split()[::-1])
-```
+# ```
 
 
 
-```python []
+# ```python []
 class Solution {
     public String reverseWords(String s) {
         String[] words = s.trim().split(" +");
@@ -18,17 +18,17 @@ class Solution {
         return String.join(" ", words);
     }
 }
-```
+# ```
 
-思路二:  一种没有用`split` 和`reverse`的方法,参考链接[^1]
+# 思路二:  一种没有用`split` 和`reverse`的方法,参考链接[^1]
 
-分三步:
+# 分三步:
 
-1. 先翻转整个数组
-2. 再翻转单个单词
-3. 清除多余空格
+# 1. 先翻转整个数组
+# 2. 再翻转单个单词
+# 3. 清除多余空格
 
-```python []
+# ```python []
 class Solution:
     def reverseWords(self, s: str) -> str:
         s = list(s)
@@ -84,11 +84,11 @@ class Solution:
         word_reverse(s)
         #print(s)
         return clean_space(s)
-```
+# ```
 
 
 
-```java []
+# ```java []
 class Solution {
     public String reverseWords(String s) {
         if (s == null) return null;
@@ -138,10 +138,10 @@ class Solution {
         return new String(s_arr).substring(0, i);
     }
 }
-```
+# ```
 
 
 
 
 
-[^1]: <https://leetcode.com/problems/reverse-words-in-a-string/discuss/47781/Java-3-line-builtin-solution>
+# [^1]: <https://leetcode.com/problems/reverse-words-in-a-string/discuss/47781/Java-3-line-builtin-solution>

@@ -1,10 +1,10 @@
-### 解题思路
-使用并查集动态维护区间。
-维护一个map，将值存入map，在map中寻找到该值的上界与下界，如果相邻，合并。
+// ### 解题思路
+// 使用并查集动态维护区间。
+// 维护一个map，将值存入map，在map中寻找到该值的上界与下界，如果相邻，合并。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class SummaryRanges {
     struct Node{
         int lb;
@@ -70,4 +70,4 @@ public:
  * obj->addNum(val);
  * vector<vector<int>> param_2 = obj->getIntervals();
  */
-```
+// ```

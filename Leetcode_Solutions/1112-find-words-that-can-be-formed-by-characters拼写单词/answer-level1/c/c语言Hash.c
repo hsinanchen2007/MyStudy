@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_NUM 200
 
 int countCharacters(char ** words, int wordsSize, char * chars){
@@ -30,4 +30,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 
     return count;
 }
-```
+// ```

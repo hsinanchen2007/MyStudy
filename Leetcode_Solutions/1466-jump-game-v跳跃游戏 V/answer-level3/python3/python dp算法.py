@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-先把效果贴一下
-![WechatIMG6165.png](https://pic.leetcode-cn.com/1cbe85b4662c7d34e6a6ba1308d9d6f1515f0e8ac48ffb1ee31b4f91db733da4-WechatIMG6165.png)
-动态规划，先将柱子按照度排个序，从最小的柱子开始记录，从低到高开始遍历。用index_visit这个map记录。index_visit[index] = max(index可以到达的柱子高度) + 1. 最终从map选取value最大值。
-时间复杂度和空间复杂度均为O(1)
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先把效果贴一下
+# ![WechatIMG6165.png](https://pic.leetcode-cn.com/1cbe85b4662c7d34e6a6ba1308d9d6f1515f0e8ac48ffb1ee31b4f91db733da4-WechatIMG6165.png)
+# 动态规划，先将柱子按照度排个序，从最小的柱子开始记录，从低到高开始遍历。用index_visit这个map记录。index_visit[index] = max(index可以到达的柱子高度) + 1. 最终从map选取value最大值。
+# 时间复杂度和空间复杂度均为O(1)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
         len_index = {}
@@ -44,4 +44,4 @@ class Solution:
         return max(index_visit.values())
         
 
-```
+# ```

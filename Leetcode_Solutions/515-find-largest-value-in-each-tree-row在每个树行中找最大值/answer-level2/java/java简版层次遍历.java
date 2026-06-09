@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历挺好写，用时长了点不过思路简单，每次一层，存住下一层，遍历取出最大val然后替换成下一层继续
+// ### 解题思路
+// 层次遍历挺好写，用时长了点不过思路简单，每次一层，存住下一层，遍历取出最大val然后替换成下一层继续
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

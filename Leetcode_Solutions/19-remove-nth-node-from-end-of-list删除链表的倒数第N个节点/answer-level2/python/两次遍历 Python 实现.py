@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-遍历两次，第一次得到总长度
-通过n_inorder = count - n + 1找到正向n的值
-第二次指针遍历到第n_inorder个值，通过pre.next = cur.next删除第n_inorder个值
-注意：
-当第n_inorder个值为head指向的值时，即pre = None的情况。
+# ### 解题思路
+# 此处撰写解题思路
+# 遍历两次，第一次得到总长度
+# 通过n_inorder = count - n + 1找到正向n的值
+# 第二次指针遍历到第n_inorder个值，通过pre.next = cur.next删除第n_inorder个值
+# 注意：
+# 当第n_inorder个值为head指向的值时，即pre = None的情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
         return head
 
 
-```
+# ```

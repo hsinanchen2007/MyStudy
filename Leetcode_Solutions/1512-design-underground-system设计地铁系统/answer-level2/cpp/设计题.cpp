@@ -1,11 +1,11 @@
-### 解题思路
-暴力解决即可
-保存每个id的上车信息
-存储每对上下车对的耗费时间和经过的人的个数
+// ### 解题思路
+// 暴力解决即可
+// 保存每个id的上车信息
+// 存储每对上下车对的耗费时间和经过的人的个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class UndergroundSystem {
 private:
     struct flowrate{
@@ -49,4 +49,4 @@ public:
  * double param_3 = obj->getAverageTime(startStation,endStation);
  */
 
-```
+// ```

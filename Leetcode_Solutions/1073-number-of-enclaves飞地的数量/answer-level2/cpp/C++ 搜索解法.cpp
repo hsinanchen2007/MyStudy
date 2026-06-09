@@ -1,5 +1,5 @@
-执行时间 44ms，直接上代码。
-```
+// 执行时间 44ms，直接上代码。
+// ```
 class Solution {
 public:
     int numEnclaves(vector<vector<int>>& A) {
@@ -33,9 +33,9 @@ public:
         }
     }
 };
-```
-开始时候是想使用queue与pair两个嵌套，使用不过一直超时，后面修改还是老老实实使用递归比较省时间吧。附之前超时代码
-```
+// ```
+// 开始时候是想使用queue与pair两个嵌套，使用不过一直超时，后面修改还是老老实实使用递归比较省时间吧。附之前超时代码
+// ```
 class Solution {
 public:
     int numEnclaves(vector<vector<int>>& A) {
@@ -78,5 +78,5 @@ public:
         
     }
 };
-```
+// ```
 

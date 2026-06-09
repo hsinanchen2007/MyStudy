@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -23,4 +23,4 @@ public:
             BackTrack(res,str+')',left,right-1);
     }
 };
-```
+// ```

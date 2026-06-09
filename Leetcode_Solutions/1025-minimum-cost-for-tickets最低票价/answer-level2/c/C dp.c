@@ -1,9 +1,9 @@
-### 解题思路
-dp数组是一年中的每一天，转移方程代码应该很清楚
-![捕获.PNG](https://pic.leetcode-cn.com/dcee6609665a84517761ec6ed3d95678e6a5432778c5f32a0db565ec7688896f-%E6%8D%95%E8%8E%B7.PNG)
-### 代码
+// ### 解题思路
+// dp数组是一年中的每一天，转移方程代码应该很清楚
+// ![捕获.PNG](https://pic.leetcode-cn.com/dcee6609665a84517761ec6ed3d95678e6a5432778c5f32a0db565ec7688896f-%E6%8D%95%E8%8E%B7.PNG)
+// ### 代码
 
-```c
+// ```c
 int mincostTickets(int* days, int daysSize, int* costs, int costsSize){
     int dp[366]={0};
     int hash[366]={0};
@@ -22,4 +22,4 @@ int mincostTickets(int* days, int daysSize, int* costs, int costsSize){
     }
     return dp[days[daysSize-1]];
 }
-```
+// ```

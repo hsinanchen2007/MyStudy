@@ -1,9 +1,9 @@
-### 解题思路
-见注释，终于没见到用卷积神经网络做题的狼人了
+# ### 解题思路
+# 见注释，终于没见到用卷积神经网络做题的狼人了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pondSizes(self, land: List[List[int]]) -> List[int]:
         areas = []      # 水域面积存储数组
@@ -30,4 +30,4 @@ class Solution:
                     bfs(i, j)       # 对每个符合条件的水域调用bfs
 
         return sorted(areas)        #返回排序后的结果
-```
+# ```

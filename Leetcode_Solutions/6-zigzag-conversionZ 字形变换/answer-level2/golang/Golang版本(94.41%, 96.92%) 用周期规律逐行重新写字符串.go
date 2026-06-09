@@ -1,9 +1,9 @@
-### 解题思路
-逐行遍历，用索引逐次重新生成新的字符串
+// ### 解题思路
+// 逐行遍历，用索引逐次重新生成新的字符串
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convert(s string, numRows int) string {
 	if numRows == 1 {
 		return s
@@ -26,4 +26,4 @@ func convert(s string, numRows int) string {
 	}
 	return string(runes)
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b49301932401822bf240c3eba8e6bf02d638adcb34a714ff070cde12e2f6739b-image.png)
-思路：本题常见思路有【递归】和【动态规划】两种。但递归在给的测试样例中不通过，超出了时间限制(执行43时就超出了，n最大可以达到100)，所以考虑动态规划。
-![image.png](https://pic.leetcode-cn.com/ee5bf3989f7190f0939896b66bd6b4aba107fdc0e4345d8aa229e389057025c2-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b49301932401822bf240c3eba8e6bf02d638adcb34a714ff070cde12e2f6739b-image.png)
+// 思路：本题常见思路有【递归】和【动态规划】两种。但递归在给的测试样例中不通过，超出了时间限制(执行43时就超出了，n最大可以达到100)，所以考虑动态规划。
+// ![image.png](https://pic.leetcode-cn.com/ee5bf3989f7190f0939896b66bd6b4aba107fdc0e4345d8aa229e389057025c2-image.png)
 
-思路清晰，代码简单带注释。
+// 思路清晰，代码简单带注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n) {
@@ -34,4 +34,4 @@ public:
     }
 };
 */
-```
+// ```

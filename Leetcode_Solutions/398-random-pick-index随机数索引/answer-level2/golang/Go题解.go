@@ -1,6 +1,6 @@
-蓄水池抽样，和382题感觉上没什么变动
+// 蓄水池抽样，和382题感觉上没什么变动
 
-```golang
+// ```golang
 type Solution struct {
 	arr []int
 }
@@ -35,4 +35,4 @@ func (this *Solution) Pick(target int) int {
  * obj := Constructor(nums);
  * param_1 := obj.Pick(target);
  */
-```
+// ```

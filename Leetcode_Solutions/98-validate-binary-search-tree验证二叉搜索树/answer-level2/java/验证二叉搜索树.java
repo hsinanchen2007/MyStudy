@@ -1,5 +1,5 @@
-递归
-```
+// 递归
+// ```
     long pre = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
         if(root == null) return true;
@@ -12,10 +12,10 @@
         }
         return false;
     }
-```
+// ```
 
-非递归
-```
+// 非递归
+// ```
     public boolean isValidBST(TreeNode root) {
         Stack<TreeNode> stack = new Stack();
         TreeNode cur = root;
@@ -37,5 +37,5 @@
         
         return true;
     }
-```
+// ```
 

@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-代码里有注释，很好理解的！
+# 代码里有注释，很好理解的！
 
-```python
+# ```python
 class Solution:
     def strongPasswordChecker(self, s: str) -> int:
         from itertools import groupby
@@ -64,5 +64,5 @@ class Solution:
             cond -= repeat
         return res + cond
 
-```
+# ```
 

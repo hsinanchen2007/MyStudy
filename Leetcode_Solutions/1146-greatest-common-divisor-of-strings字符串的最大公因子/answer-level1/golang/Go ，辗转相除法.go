@@ -1,9 +1,9 @@
-### 解题思路
-分析长字符串与短字符串的关系即可
+// ### 解题思路
+// 分析长字符串与短字符串的关系即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gcdOfStrings(str1 string, str2 string) string {
 	if len(str1) < len(str2) {
 		str1, str2 = str2, str1
@@ -28,4 +28,4 @@ func modOfStrings(str1, str2 string) string {
 	return remainder
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-因为重复元素固定是2个，那就先给数组排序，然后判断两两的值是否相等
-```
+// 因为重复元素固定是2个，那就先给数组排序，然后判断两两的值是否相等
+// ```
 func singleNumber(_ nums: [Int]) -> Int {
         var array = nums.sorted()
         let count = array.count / 2
@@ -15,4 +15,4 @@ func singleNumber(_ nums: [Int]) -> Int {
         }
         return 0
     }
-```
+// ```

@@ -1,11 +1,11 @@
-执行一次指令，把走过的路存入path字典中，key为横轴，value为纵轴列表
-执行后得到一次指令的终点向量vector
-定义向量的除法、减法、数乘、取模
-定义命中（横轴在path.keys中，纵轴在其对应的值的列表中）
-终点对向量取模，判断是否命中
-将每个不越过终点的障碍物对向量取模，判断是否命中
+# 执行一次指令，把走过的路存入path字典中，key为横轴，value为纵轴列表
+# 执行后得到一次指令的终点向量vector
+# 定义向量的除法、减法、数乘、取模
+# 定义命中（横轴在path.keys中，纵轴在其对应的值的列表中）
+# 终点对向量取模，判断是否命中
+# 将每个不越过终点的障碍物对向量取模，判断是否命中
 
-```
+# ```
 class Solution:
     def robot(self, command: str, obstacles: List[List[int]], x: int, y: int) -> bool:
         vector=[0,0]
@@ -34,4 +34,4 @@ class Solution:
             if hit(mod(obstacle,vector),path):
                 return False
         return True
-```
+# ```

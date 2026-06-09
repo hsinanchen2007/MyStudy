@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
         let left = leftBound(nums, target)
@@ -44,7 +44,7 @@ class Solution {
         return left - 1
     }
 }
-```
+// ```
 
-执行用时 :64 ms, 在所有 swift 提交中击败了100.00%的用户
-内存消耗 :21.3 MB, 在所有 swift 提交中击败了5.88%的用户
+// 执行用时 :64 ms, 在所有 swift 提交中击败了100.00%的用户
+// 内存消耗 :21.3 MB, 在所有 swift 提交中击败了5.88%的用户

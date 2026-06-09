@@ -1,6 +1,6 @@
-java 不解释 解法
+// java 不解释 解法
 
-```
+// ```
 class Solution {
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
@@ -11,4 +11,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

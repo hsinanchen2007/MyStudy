@@ -1,4 +1,4 @@
-```python
+# ```python
 from operator import mul, add, truediv, sub
 from itertools import permutations
 from functools import lru_cache
@@ -18,4 +18,4 @@ class Solution:
 
         return any(dfs(permu) for permu in permutations(nums, 4))
 
-```
+# ```

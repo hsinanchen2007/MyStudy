@@ -1,9 +1,9 @@
-### 解题思路
-萌新上路0.0
+# ### 解题思路
+# 萌新上路0.0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:    
         if s == len(s)*' ':
@@ -19,4 +19,4 @@ class Solution:
                 else:
                     index -= 1
         return len(result)
-```
+# ```

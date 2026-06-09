@@ -1,9 +1,9 @@
-### 解题思路
-申请一个hashmap，遍历nums，把每个num对应的target-num作为字典的key，下表作为value。遍历下一个num如果在字典中，返回该下标与对应value。
+# ### 解题思路
+# 申请一个hashmap，遍历nums，把每个num对应的target-num作为字典的key，下表作为value。遍历下一个num如果在字典中，返回该下标与对应value。
 
-### 代码
+# ### 代码
 
-```cpp
+# ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -23,8 +23,8 @@ public:
         return res;
     }
 };
-```
-```python3
+# ```
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if len(nums) < 2:return []
@@ -35,4 +35,4 @@ class Solution:
             else:
                 buff_dict[target - nums[i]] = i
         return []
-```
+# ```

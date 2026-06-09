@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-利用 `indexOf` 去一次在 `big` 中查找是否存在查询的字符串。
+// 利用 `indexOf` 去一次在 `big` 中查找是否存在查询的字符串。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} big
  * @param {string[]} smalls
@@ -30,4 +30,4 @@ var multiSearch = function(big, smalls) {
     }
     return result;
 };
-```
+// ```

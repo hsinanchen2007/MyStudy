@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/8faf673994d03adf0fec4eeb1ef86f2c488fab056e57de30a5dddceccfc54479-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/8faf673994d03adf0fec4eeb1ef86f2c488fab056e57de30a5dddceccfc54479-image.png)
 
-双指针可以是夹逼策略，可以是外扩，也可以是前后和快慢。
-刚开始用sort的时候定义了一个static bool, 算到最大总是说overflow,不知道为什么。
-### 代码
+// 双指针可以是夹逼策略，可以是外扩，也可以是前后和快慢。
+// 刚开始用sort的时候定义了一个static bool, 算到最大总是说overflow,不知道为什么。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

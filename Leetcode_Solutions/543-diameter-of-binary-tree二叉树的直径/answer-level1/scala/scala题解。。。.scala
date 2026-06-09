@@ -1,6 +1,6 @@
-为啥没人用scala，写个scala，虽然通过率不高，但是给个思路
+// 为啥没人用scala，写个scala，虽然通过率不高，但是给个思路
 
-```
+// ```
 package tree.easy
 
 import common.TreeNode
@@ -46,4 +46,4 @@ object DiameterOfBinaryTreeScala {
 
 }
 
-```
+// ```

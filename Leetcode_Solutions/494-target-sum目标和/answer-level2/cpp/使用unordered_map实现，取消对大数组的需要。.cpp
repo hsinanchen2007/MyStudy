@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {
@@ -27,6 +27,6 @@ public:
         return first[S];
     }
 };
-```
+// ```
 
-使用unordered_map实现，取消大数组的需要。
+// 使用unordered_map实现，取消大数组的需要。

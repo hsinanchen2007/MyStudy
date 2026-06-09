@@ -1,5 +1,5 @@
 
-```
+// ```
 int partition(int *nums,int low,int high){
     int pivot=nums[low];
     while (low<high){
@@ -64,4 +64,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
     }
     return ans;
 }
-```
+// ```

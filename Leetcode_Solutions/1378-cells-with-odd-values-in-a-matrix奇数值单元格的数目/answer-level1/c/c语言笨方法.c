@@ -1,9 +1,9 @@
-### 解题思路
-这个思路是非常简洁明了的。
+// ### 解题思路
+// 这个思路是非常简洁明了的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
     int num[n][m];
     for(int i=0;i<n;i++)
@@ -41,4 +41,4 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
     *indicesColSize=n;
     return cnt;
 }
-```
+// ```

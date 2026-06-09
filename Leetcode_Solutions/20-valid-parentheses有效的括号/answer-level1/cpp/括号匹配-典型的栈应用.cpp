@@ -1,6 +1,6 @@
-简单记录一下
-应该都看得懂
-```
+// 简单记录一下
+// 应该都看得懂
+// ```
 class Solution {
 public:
     bool isValid(string s) {
@@ -44,4 +44,4 @@ public:
             return false; 
     }
 };
-```
+// ```

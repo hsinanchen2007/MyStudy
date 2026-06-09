@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、quque 记录每层元素
-2、quque.size() ,每层遍历的时候访问完queue每个元素，也就是上一层加入到quque里面的所有元素，这些元素的是同一层的。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、quque 记录每层元素
+// 2、quque.size() ,每层遍历的时候访问完queue每个元素，也就是上一层加入到quque里面的所有元素，这些元素的是同一层的。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
 
     }
 }
-```
+// ```

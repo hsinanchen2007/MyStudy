@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍数组，一旦数字的统计超过n/2时，就返回该值
+// ### 解题思路
+// 遍历一遍数组，一旦数字的统计超过n/2时，就返回该值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         return -1;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-注意在初始化的时候生成Counter实例，否则超时
-```
+# 注意在初始化的时候生成Counter实例，否则超时
+# ```
 class WordsFrequency:
 
     def __init__(self, book: List[str]):
@@ -14,4 +14,4 @@ class WordsFrequency:
 # Your WordsFrequency object will be instantiated and called as such:
 # obj = WordsFrequency(book)
 # param_1 = obj.get(word)
-```
+# ```

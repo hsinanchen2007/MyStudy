@@ -1,9 +1,9 @@
-### 解题思路
-先排序然后去重再找第三大的元素。
+// ### 解题思路
+// 先排序然后去重再找第三大的元素。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(int* a,int* b)
 {
     return (*a)>(*b)?1:0;
@@ -27,4 +27,4 @@ int thirdMax(int* nums, int numsSize){
         return nums[cnt];
     }
 }
-```
+// ```

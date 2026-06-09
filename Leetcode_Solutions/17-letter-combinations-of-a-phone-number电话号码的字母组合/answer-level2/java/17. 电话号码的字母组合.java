@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/17
- *
- * 解题思路: 算法复杂度 3^n 明显是二叉树的变形 三叉树
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/17
+//  *
+//  * 解题思路: 算法复杂度 3^n 明显是二叉树的变形 三叉树
+//  *
+//  */
+// ```
 public class leetcode017 {
     List<String> list = new ArrayList<>();
     String[] letters = new String[]{"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
@@ -39,4 +39,4 @@ public class leetcode017 {
         leetcode017.letterCombinations("2");
     }
 }
-```
+// ```

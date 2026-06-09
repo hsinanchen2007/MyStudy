@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-queue.push()  --> dataStack.push()
-queue.pop()   --> 当assistStack不为空，对应assistStack.pop()。否则，需要把dataStack（数据栈）出栈元素到assistStack辅助栈，再执行assistStack.pop()
-queue.peek()  --> 原理类似于queue.pop()
-queue.empty() --> dataStack和assistStack都为空，则返回为空；否则为非空。
-### 代码
+// queue.push()  --> dataStack.push()
+// queue.pop()   --> 当assistStack不为空，对应assistStack.pop()。否则，需要把dataStack（数据栈）出栈元素到assistStack辅助栈，再执行assistStack.pop()
+// queue.peek()  --> 原理类似于queue.pop()
+// queue.empty() --> dataStack和assistStack都为空，则返回为空；否则为非空。
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
 private:
     stack<int> dataStack;
@@ -77,4 +77,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

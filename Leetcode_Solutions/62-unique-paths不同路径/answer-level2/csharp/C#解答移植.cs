@@ -1,5 +1,5 @@
-# 递归做法
-```csharp []
+// # 递归做法
+// ```csharp []
 static int[,] a = new int[101, 101];
 public int UniquePaths(int m, int n)//递归
 {
@@ -16,9 +16,9 @@ public int UniquePaths(int m, int n)//递归
     a[m, n] = a[m - 1, n] + a[m, n - 1];
     return a[m, n];
 }
-```
-# 动态规划
-```csharp
+// ```
+// # 动态规划
+// ```csharp
 public int UniquePaths(int m, int n)//动态规划
 {
     int[] a = new int[m];
@@ -35,6 +35,6 @@ public int UniquePaths(int m, int n)//动态规划
     }
     return a[m - 1];
 }
-```
-以上是对题解的c#移植，详细解答请看精选题解。
+// ```
+// 以上是对题解的c#移植，详细解答请看精选题解。
 

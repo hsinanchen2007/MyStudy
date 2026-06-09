@@ -1,14 +1,14 @@
-### 解题思路1
+// ### 解题思路1
 
-0ms(100%),3.4MB(100%)
+// 0ms(100%),3.4MB(100%)
 
-使用哈希表，使用哈希表查询复制节点的Next和Random域
+// 使用哈希表，使用哈希表查询复制节点的Next和Random域
   
-需要特别注意的就是当链表只有一个节点时，其Next和Random可能指向其本身，因此复制所得的节点需要进行相应的指向
+// 需要特别注意的就是当链表只有一个节点时，其Next和Random可能指向其本身，因此复制所得的节点需要进行相应的指向
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -52,17 +52,17 @@ func copyRandomList(head *Node) *Node {
 
     return nodesMap[head]
 }
-```
+// ```
 
-### 解题思路2
+// ### 解题思路2
 
-0ms(100%),3.3MB(100%)
+// 0ms(100%),3.3MB(100%)
 
-将复制节点插入被复制节点后方，遍历两轮：第一轮调整复制指针的随机指针，第二轮从链表中抽离出来，组成新的复制链表
+// 将复制节点插入被复制节点后方，遍历两轮：第一轮调整复制指针的随机指针，第二轮从链表中抽离出来，组成新的复制链表
 
-### 代码
+// ### 代码
 
-```go
+// ```go
 func copyRandomList(head *Node) *Node {
     if head == nil {
         return nil
@@ -117,4 +117,4 @@ func copyRandomList(head *Node) *Node {
 
     return newHead
 }
-```
+// ```

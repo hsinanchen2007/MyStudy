@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* Creat(int preL, int preR, int inL, int inR, vector<int>& preorder, vector<int>& inorder) {
@@ -28,4 +28,4 @@ public:
         return root;
     }
 };
-```
+// ```

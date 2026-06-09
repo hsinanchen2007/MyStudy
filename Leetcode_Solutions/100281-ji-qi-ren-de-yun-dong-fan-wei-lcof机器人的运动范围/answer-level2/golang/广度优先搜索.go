@@ -1,5 +1,5 @@
-思路很简单不赘述了，直接上代码。
-```
+// 思路很简单不赘述了，直接上代码。
+// ```
 func movingCount(m int, n int, k int) int {
     p := make([][]int, m)
     for i:=0;i<m;i++ {
@@ -67,4 +67,4 @@ func bitSum(n int) int {
     }
     return res
 }
-```
+// ```

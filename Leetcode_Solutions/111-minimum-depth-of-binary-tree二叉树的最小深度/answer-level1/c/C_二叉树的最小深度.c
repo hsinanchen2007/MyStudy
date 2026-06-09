@@ -1,11 +1,11 @@
-### 解题思路
-测量二叉树深度的递归函数中返回的是较大的子树深度+1，此题返回较小的即可
+// ### 解题思路
+// 测量二叉树深度的递归函数中返回的是较大的子树深度+1，此题返回较小的即可
 
-注意：若一个子树为空，返回另一个子树的最小深度+1
+// 注意：若一个子树为空，返回另一个子树的最小深度+1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ int minDepth(struct TreeNode* root){
         return leftHeight<rightHeight?leftHeight+1:rightHeight+1;
     }
 }
-```
+// ```

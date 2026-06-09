@@ -1,5 +1,5 @@
-代码太长，人都晕了，参考于liweiwei1419，给大伙简化代码
-```
+# 代码太长，人都晕了，参考于liweiwei1419，给大伙简化代码
+# ```
 class Solution(object):
     def solveNQueens(self, n):
         res = []
@@ -15,4 +15,4 @@ class Solution(object):
 
         dfs(0, set(), set(), set(), [])
         return res
-```
+# ```

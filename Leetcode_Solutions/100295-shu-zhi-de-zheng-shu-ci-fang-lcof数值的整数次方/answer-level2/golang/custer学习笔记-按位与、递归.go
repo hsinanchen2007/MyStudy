@@ -1,8 +1,8 @@
-### 解题思路 - 递归
+// ### 解题思路 - 递归
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myPow(x float64, n int) float64 {
 	if n == 0 { // 递归终止条件
 		return 1
@@ -17,13 +17,13 @@ func myPow(x float64, n int) float64 {
 	// 执行真正的运算逻辑，x的平方，n/2
 	return myPow(x*x, n/2)
 }
-```
+// ```
 
-### 解题思路 - 按位与
+// ### 解题思路 - 按位与
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myPow(x float64, n int) float64 {
 	result := float64(1)
 	num := int(math.Abs(float64(n)))
@@ -40,4 +40,4 @@ func myPow(x float64, n int) float64 {
 	}
 	return result
 }
-```
+// ```

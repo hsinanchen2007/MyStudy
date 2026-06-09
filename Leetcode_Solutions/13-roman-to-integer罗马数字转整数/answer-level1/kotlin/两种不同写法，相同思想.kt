@@ -1,10 +1,10 @@
-### 解题思路
-解法一：后一位大于前一位，用后一位的值减去前一位的值，然后 `i += 2` 跳过两个字符；
-解法二：参考[这边的代码](https://leetcode-cn.com/problems/roman-to-integer/solution/javaluo-ma-shu-zi-zhuan-zheng-shu-bu-yong-cun-chu-/)，每遇到一位都去检查前一位是否大于等于后一位，如果不是的话，减去当前位的值。
+// ### 解题思路
+// 解法一：后一位大于前一位，用后一位的值减去前一位的值，然后 `i += 2` 跳过两个字符；
+// 解法二：参考[这边的代码](https://leetcode-cn.com/problems/roman-to-integer/solution/javaluo-ma-shu-zi-zhuan-zheng-shu-bu-yong-cun-chu-/)，每遇到一位都去检查前一位是否大于等于后一位，如果不是的话，减去当前位的值。
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     val map: Map<Char, Int> = object : HashMap<Char, Int>() {
         init {
@@ -57,4 +57,4 @@ class Solution {
         return sum
     }
 }
-```
+// ```

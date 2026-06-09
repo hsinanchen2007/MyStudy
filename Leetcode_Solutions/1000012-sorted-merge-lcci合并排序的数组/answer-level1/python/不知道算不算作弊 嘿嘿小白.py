@@ -1,10 +1,10 @@
-### 解题思路
-![截屏2020-03-0310.19.51.png](https://pic.leetcode-cn.com/a735706f1d5c9e1edd01476625763f24eeec573759179b43b8391a1a25fdd797-%E6%88%AA%E5%B1%8F2020-03-0310.19.51.png)
-此处撰写解题思路
+# ### 解题思路
+# ![截屏2020-03-0310.19.51.png](https://pic.leetcode-cn.com/a735706f1d5c9e1edd01476625763f24eeec573759179b43b8391a1a25fdd797-%E6%88%AA%E5%B1%8F2020-03-0310.19.51.png)
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             del A[i]
         A.extend(B)
         return A.sort()
-```
+# ```

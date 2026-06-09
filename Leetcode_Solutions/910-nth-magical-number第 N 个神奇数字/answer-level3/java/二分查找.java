@@ -1,5 +1,5 @@
-难点在于排除掉最小公倍数的公共部分，然后控制循环条件确保得到的是精确值
-```java
+// 难点在于排除掉最小公倍数的公共部分，然后控制循环条件确保得到的是精确值
+// ```java
 class Solution {
 	  public int nthMagicalNumber(int N, int A, int B) {
 	       long lcm = (A*B)/gcd(A,B);
@@ -20,4 +20,4 @@ class Solution {
 			  return gcd(b,a % b);
 	  }
 }
-```
+// ```

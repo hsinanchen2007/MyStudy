@@ -1,5 +1,5 @@
-Python 3 递归和非递归
-```
+# Python 3 递归和非递归
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,9 +20,9 @@ class Solution:
              return root
          return dfs(root)
     
-```
-非递归算法：使用栈做DFS
-```
+# ```
+# 非递归算法：使用栈做DFS
+# ```
 class Solution:
 
     def convertBST(self, root: TreeNode) -> TreeNode:
@@ -43,4 +43,4 @@ class Solution:
                 node = node.left
             return root
         return dfs(root)
-```
+# ```

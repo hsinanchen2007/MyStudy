@@ -1,4 +1,4 @@
-```c++
+// ```c++
 int maxPath;
 int maxPathSum(TreeNode* root) {
     maxPath = INT_MIN;
@@ -16,6 +16,6 @@ int maxPathSumR(TreeNode *root) {
     int res = max(left, right) + root->val;
     return max(res, root->val);
 }
-```
+// ```
 
-在后序遍历的时候维护一个`maxPath`变量，而`maxPathSumR`中返回值则表示如果一定要包含`root`节点时的最大路径和。
+// 在后序遍历的时候维护一个`maxPath`变量，而`maxPathSumR`中返回值则表示如果一定要包含`root`节点时的最大路径和。

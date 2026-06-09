@@ -1,9 +1,9 @@
-### 解题思路
-尝试能否转换为数字 不行就不行-- 
+# ### 解题思路
+# 尝试能否转换为数字 不行就不行-- 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isNumber(self, s: str) -> bool:
         xl=0
@@ -18,4 +18,4 @@ class Solution:
         except:
             pass
         return bool(xl)
-```
+# ```

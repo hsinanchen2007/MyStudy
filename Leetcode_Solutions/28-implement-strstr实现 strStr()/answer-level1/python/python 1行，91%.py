@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -7,6 +7,6 @@ class Solution(object):
         :rtype: int
         """
         return haystack.index(needle) if needle in haystack else -1
-```
+# ```
 
 

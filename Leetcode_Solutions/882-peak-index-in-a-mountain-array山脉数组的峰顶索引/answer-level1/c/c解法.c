@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int peakIndexInMountainArray(int* A, int ASize){
     int i;
     for(i=0; i < ASize-1; ++i)
@@ -14,4 +14,4 @@ int peakIndexInMountainArray(int* A, int ASize){
     }
     return i;
 }
-```
+// ```

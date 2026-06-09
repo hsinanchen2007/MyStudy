@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
         if len(deck) == 1: return deck
@@ -20,4 +20,4 @@ class Solution:
         for i in range(len(rest)):
             ans[i * 2 + 1] = rest[i]
         return ans
-```
+# ```

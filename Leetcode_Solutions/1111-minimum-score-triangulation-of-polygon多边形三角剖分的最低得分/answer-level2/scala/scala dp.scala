@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minScoreTriangulation(A: Array[Int]): Int = {
     val dp = Array.fill(A.length, A.length)(Int.MaxValue)
@@ -14,4 +14,4 @@ object Solution {
     dp(0)(A.length - 1)
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/77c36dfb18fd063aab39d7107bf2f9039beae5c2838e613e8d3d12cc500b8919-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/77c36dfb18fd063aab39d7107bf2f9039beae5c2838e613e8d3d12cc500b8919-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -28,4 +28,4 @@ public:
         return ress;
     }
 };
-```
+// ```

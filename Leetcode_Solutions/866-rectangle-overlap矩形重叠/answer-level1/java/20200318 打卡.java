@@ -1,9 +1,9 @@
-### 解题思路
-日常不会系列
+// ### 解题思路
+// 日常不会系列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
        return !(rec1[2] <= rec2[0] ||   // left
@@ -12,4 +12,4 @@ class Solution {
                  rec1[1] >= rec2[3]);//top
     }
 }
-```
+// ```

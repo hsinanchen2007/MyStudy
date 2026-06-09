@@ -1,8 +1,8 @@
-## 二分法
-- 在ASCII码中，字符可以直接比较大小，即内置数值进行比较，小写子母中，从a到z字符数值逐渐增大；
-- 二分法模板③
-![3.png](https://pic.leetcode-cn.com/25a6f4ca4f88c85bb52bcaad4b14f2883380f85346c2ab4c2df2e98928a3b83e-3.png)
-```cpp
+// ## 二分法
+// - 在ASCII码中，字符可以直接比较大小，即内置数值进行比较，小写子母中，从a到z字符数值逐渐增大；
+// - 二分法模板③
+// ![3.png](https://pic.leetcode-cn.com/25a6f4ca4f88c85bb52bcaad4b14f2883380f85346c2ab4c2df2e98928a3b83e-3.png)
+// ```cpp
 class Solution {
 public:
     char nextGreatestLetter(vector<char>& letters, char target) {
@@ -16,4 +16,4 @@ public:
         return letters[r];
     }
 };
-```
+// ```

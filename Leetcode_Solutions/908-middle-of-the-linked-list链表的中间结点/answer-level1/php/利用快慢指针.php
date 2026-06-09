@@ -1,12 +1,12 @@
-### 解题思路
-利用快慢指针
-```
+// ### 解题思路
+// 利用快慢指针
+// ```
 执行用时 :4 ms, 在所有 PHP 提交中击败了96.97%的用户
 内存消耗 :14.8 MB, 在所有 PHP 提交中击败了73.33%的用户
-```
-### 代码
+// ```
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return $slow;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-回溯
+# ### 解题思路
+# 回溯
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         def backtrack(L, temp):
@@ -13,4 +13,4 @@ class Solution:
         res = []
         backtrack(nums, [])
         return res
-```
+# ```

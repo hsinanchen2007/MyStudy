@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var searchInsert = function(nums, target) {
     if (nums.includes(target)) {
         return nums.indexOf(target)
@@ -11,4 +11,4 @@ var searchInsert = function(nums, target) {
         return nums.indexOf(target)
     }
 };
-```
+// ```

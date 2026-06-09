@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -18,5 +18,5 @@ public:
         return max_mul == 1 ? false:true;
     }
 };
-```
+// ```
 

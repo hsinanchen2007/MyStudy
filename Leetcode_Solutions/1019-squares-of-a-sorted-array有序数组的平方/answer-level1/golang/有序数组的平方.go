@@ -1,9 +1,9 @@
-### 解题思路
-so easy
+// ### 解题思路
+// so easy
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortedSquares(A []int) []int {
     var ret []int
     for _, v := range A {
@@ -12,4 +12,4 @@ func sortedSquares(A []int) []int {
     sort.Ints(ret)
     return ret
 }
-```
+// ```

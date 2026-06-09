@@ -1,9 +1,9 @@
-### 解题思路
-使用HashSet存储过往记录，如果有重复数字，代表进入了无限循环。
+// ### 解题思路
+// 使用HashSet存储过往记录，如果有重复数字，代表进入了无限循环。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         // 使用HashSet存储过往记录，如果有重复数字，代表进入了无限循环
@@ -28,4 +28,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

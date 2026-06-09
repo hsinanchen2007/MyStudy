@@ -1,9 +1,9 @@
-### 解题思路
-注意边界条件就好
+// ### 解题思路
+// 注意边界条件就好
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ public:
 private:
     int minn = 0x3f3f3f3f;
 };
-```
+// ```

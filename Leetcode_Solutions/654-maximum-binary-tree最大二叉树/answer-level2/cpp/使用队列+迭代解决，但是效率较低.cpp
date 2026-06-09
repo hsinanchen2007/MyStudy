@@ -1,6 +1,6 @@
-感觉应该是可以改进，用队列存储了很多东西，不过思路还是正确的。
+// 感觉应该是可以改进，用队列存储了很多东西，不过思路还是正确的。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
         return root;
     }
 };
-```
+// ```

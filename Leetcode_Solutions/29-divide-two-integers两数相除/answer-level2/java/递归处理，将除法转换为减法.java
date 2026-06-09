@@ -1,20 +1,20 @@
-# 两数相除 [题目链接](https://leetcode-cn.com/problems/divide-two-integers/)
+// # 两数相除 [题目链接](https://leetcode-cn.com/problems/divide-two-integers/)
 
-> 给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
-> 返回被除数 dividend 除以除数 divisor 得到的商。
+// > 给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
+// > 返回被除数 dividend 除以除数 divisor 得到的商。
  
-> 示例 1:
-> 输入: dividend = 10, divisor = 3 输出: 3
-> 来源：力扣（LeetCode）
+// > 示例 1:
+// > 输入: dividend = 10, divisor = 3 输出: 3
+// > 来源：力扣（LeetCode）
 
-思路：递归法，将除法转换为减法，递归处理相同操作
+// 思路：递归法，将除法转换为减法，递归处理相同操作
 
- 1. 除数与被除数都初始化为正数，商初始值为 1 
- 2. 当除数减去被除数 > 被除数时，除数减去被除数，除数翻倍，count 翻倍 
- 3. 当除数减去被除数 <  被除数时，被除数缩减一半，cout 减半 
- 4. 当除数小于等于 0 ，或 count 为 0 时，则返回结果
+//  1. 除数与被除数都初始化为正数，商初始值为 1 
+//  2. 当除数减去被除数 > 被除数时，除数减去被除数，除数翻倍，count 翻倍 
+//  3. 当除数减去被除数 <  被除数时，被除数缩减一半，cout 减半 
+//  4. 当除数小于等于 0 ，或 count 为 0 时，则返回结果
 
-```java
+// ```java
 public int divide(int dividend, int divisor) {
         if (dividend==Integer.MIN_VALUE && divisor==-1) {
             return Integer.MAX_VALUE;
@@ -39,6 +39,6 @@ private int recurse(Long x,Long y,int count){
         LeetCode29 lc = new LeetCode29();
         System.out.println(lc.divide(Integer.MIN_VALUE,-1));
     }
-```
+// ```
 
-参考：[英文社区解答](https://leetcode.com/problems/divide-two-integers/discuss/13512/Recursive-Java-Solution-2ms)
+// 参考：[英文社区解答](https://leetcode.com/problems/divide-two-integers/discuss/13512/Recursive-Java-Solution-2ms)

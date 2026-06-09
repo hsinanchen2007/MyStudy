@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/4c08790822b00369d0fd5068df42a885a472136c879a2432657945d7ac1c5721-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4c08790822b00369d0fd5068df42a885a472136c879a2432657945d7ac1c5721-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   分析状态：
   今天手里没有股票：
     1. 昨天就没有，今天也没有购买
@@ -9,11 +9,11 @@
   今天手里持有股票：
     1. 昨天就持有，今天没有出售
     2. 昨天没有，今天刚购买的
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -35,4 +35,4 @@ var maxProfit = function(prices) {
   
   return dp[prices.length - 1][0];
 };
-```
+// ```

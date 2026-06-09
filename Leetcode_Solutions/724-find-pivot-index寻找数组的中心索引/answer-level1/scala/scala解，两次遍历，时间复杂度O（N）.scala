@@ -1,5 +1,5 @@
-将问题转化为：中心索引左边数之和的两倍与数组所有元素总和相等
-```
+// 将问题转化为：中心索引左边数之和的两倍与数组所有元素总和相等
+// ```
 import scala.collection.mutable.{Map,ListBuffer}
 import java.util.Arrays
 object Solution {
@@ -35,4 +35,4 @@ object Solution {
     -1
     }
 }
-```
+// ```

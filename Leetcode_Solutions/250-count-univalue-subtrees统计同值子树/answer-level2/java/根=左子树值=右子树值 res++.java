@@ -1,10 +1,10 @@
-### 解题思路
-**叶子节点满足条件，后续变量，一般节点，`首先要左子树相等，`然后才能使是root.val==root.left.val**
+// ### 解题思路
+// **叶子节点满足条件，后续变量，一般节点，`首先要左子树相等，`然后才能使是root.val==root.left.val**
 
-### 值判断之前，首先要全部子树满足条件(递归)
-### 代码
+// ### 值判断之前，首先要全部子树满足条件(递归)
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ class Solution {
     }
 }
 
-```
+// ```

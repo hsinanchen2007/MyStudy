@@ -1,13 +1,13 @@
-### 解题思路
-基本是有限状态机的思路，因为使用 enum 来表示状态和输入类型，性能不太乐观，考虑性能的话使用 `int[]` 更合适。
-维护三个变量：
-- `status` 基本状态
-- `exponent` 标记科学记数法
-- `containNumber` 标记数字输入状态，防止出现类似 `"."` 的情况
+// ### 解题思路
+// 基本是有限状态机的思路，因为使用 enum 来表示状态和输入类型，性能不太乐观，考虑性能的话使用 `int[]` 更合适。
+// 维护三个变量：
+// - `status` 基本状态
+// - `exponent` 标记科学记数法
+// - `containNumber` 标记数字输入状态，防止出现类似 `"."` 的情况
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
 
     protected enum CharType {Number, Symbol, Dot, Exponent, Space, Other};
@@ -105,4 +105,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

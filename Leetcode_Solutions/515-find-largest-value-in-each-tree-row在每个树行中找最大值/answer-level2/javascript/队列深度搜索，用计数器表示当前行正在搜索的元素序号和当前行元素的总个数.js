@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/3e160f55313de5ef196df44d2067e5c09542bd0718c73abf0fd5100571ed9586-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3e160f55313de5ef196df44d2067e5c09542bd0718c73abf0fd5100571ed9586-image.png)
 
-### 解题思路
-第一时间，想到了考研复习书上的广度优先搜索，用2个数，表示当前行正在索引的序号，和当前行的总节点个数
-后来看了题解，还有更好的思路，（1）queue中节点直接加入深度信息  （2）不断改变queue，使queue中元素仅包含下一行元素
-我的代码仅供参考
+// ### 解题思路
+// 第一时间，想到了考研复习书上的广度优先搜索，用2个数，表示当前行正在索引的序号，和当前行的总节点个数
+// 后来看了题解，还有更好的思路，（1）queue中节点直接加入深度信息  （2）不断改变queue，使queue中元素仅包含下一行元素
+// 我的代码仅供参考
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -47,4 +47,4 @@ var largestValues = function(root) {
     }
     return result
 };
-```
+// ```

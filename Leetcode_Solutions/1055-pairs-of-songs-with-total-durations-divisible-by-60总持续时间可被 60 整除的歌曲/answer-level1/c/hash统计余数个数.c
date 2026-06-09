@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //暴力解超时
 // int numPairsDivisibleBy60(int* time, int timeSize){
 //     int cnt = 0;
@@ -34,4 +34,4 @@ int numPairsDivisibleBy60(int* time, int timeSize){
     }
     return cnt;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Coordinate{
     int x, y;
     public Coordinate (int x, int y){
@@ -55,4 +55,4 @@ class Solution {
         return coor.x >= 0 && coor.x < n && coor.y >= 0 && coor.y < m;
     }
 }
-```
+// ```

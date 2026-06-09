@@ -1,4 +1,4 @@
-```
+// ```
 int MyCmp(const void *p1, const void *p2)
 {
     return ((int **)p1)[0][0] - ((int **)p2)[0][0];
@@ -68,4 +68,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
 
     return max - count;
 }
-```
+// ```

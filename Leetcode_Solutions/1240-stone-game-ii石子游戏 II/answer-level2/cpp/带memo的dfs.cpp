@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :
-4 ms, 在所有 C++ 提交中击败了92.66%的用户
+// ### 解题思路
+// 执行用时 :
+// 4 ms, 在所有 C++ 提交中击败了92.66%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int stoneGameII(vector<int>& piles) {
@@ -36,4 +36,4 @@ public:
         return ans;
     }
 };
-```
+// ```

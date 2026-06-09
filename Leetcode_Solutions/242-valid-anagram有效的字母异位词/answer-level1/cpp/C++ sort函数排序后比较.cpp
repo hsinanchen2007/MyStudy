@@ -1,9 +1,9 @@
-### 解题思路
-执行用时52ms，运算比用哈希法慢，但是这样写起来快。。。
+// ### 解题思路
+// 执行用时52ms，运算比用哈希法慢，但是这样写起来快。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -17,4 +17,4 @@ public:
         return true;
     }
 };
-```
+// ```

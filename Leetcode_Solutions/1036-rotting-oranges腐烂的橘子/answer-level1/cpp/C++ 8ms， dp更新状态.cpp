@@ -1,9 +1,9 @@
-### 解题思路
-这种类型的题挺好玩的。。代码不知不觉就写长了
+// ### 解题思路
+// 这种类型的题挺好玩的。。代码不知不觉就写长了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -55,4 +55,4 @@ public:
         else return maxday;
     }
 };
-```
+// ```

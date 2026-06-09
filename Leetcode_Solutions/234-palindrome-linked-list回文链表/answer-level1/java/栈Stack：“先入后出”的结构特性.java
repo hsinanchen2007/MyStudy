@@ -1,17 +1,17 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c977dd4d2953a03552b066614f05fa3a780566cf1b51879d9d85f1cb204f6af3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c977dd4d2953a03552b066614f05fa3a780566cf1b51879d9d85f1cb204f6af3-image.png)
 
-将链表从head结点起依次压入栈中。那么，之后从栈中弹出的结点就已经是逆序的了。
+// 将链表从head结点起依次压入栈中。那么，之后从栈中弹出的结点就已经是逆序的了。
 
-然后，依次比较 ***对应结点的值*** 是否相等即可。
+// 然后，依次比较 ***对应结点的值*** 是否相等即可。
 
-使用栈结构解决该问题有两个优点：**较低的内存消耗**和**易于理解**。
+// 使用栈结构解决该问题有两个优点：**较低的内存消耗**和**易于理解**。
 
-但是，如上图所示，使用栈解决该问题十分耗时。
+// 但是，如上图所示，使用栈解决该问题十分耗时。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
 	return true;
     }
 }
-```
+// ```

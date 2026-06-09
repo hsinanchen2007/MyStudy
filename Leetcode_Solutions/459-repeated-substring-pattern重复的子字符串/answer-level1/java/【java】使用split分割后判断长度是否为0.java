@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
         if(s.length() == 1) {
@@ -17,4 +17,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

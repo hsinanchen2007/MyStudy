@@ -1,11 +1,11 @@
-### 解题思路
-![5352c3277c90c695eec54ada535193e.png](https://pic.leetcode-cn.com/15b91127fafdb0c14b838661c970f3eb54d8845486bbb9a5ebe141a91e167cf8-5352c3277c90c695eec54ada535193e.png)
+# ### 解题思路
+# ![5352c3277c90c695eec54ada535193e.png](https://pic.leetcode-cn.com/15b91127fafdb0c14b838661c970f3eb54d8845486bbb9a5ebe141a91e167cf8-5352c3277c90c695eec54ada535193e.png)
 
-关键点是剪枝条件，详见代码
+# 关键点是剪枝条件，详见代码
 
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def combinationSum(self, nums: List[int], target: int) -> List[List[int]]:
         # 通过两个剪枝条件去重及减少搜索次数
@@ -26,4 +26,4 @@ class Solution:
         res = []
         spilit(target,[])
         return res
-```
+# ```

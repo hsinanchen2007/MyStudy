@@ -1,9 +1,9 @@
-### 解题思路
-利用正则表达式去精简字符串之后将其放进ArrayList里进行判断
+// ### 解题思路
+// 利用正则表达式去精简字符串之后将其放进ArrayList里进行判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public boolean isPalindrome(String s) {
 		String str=s.replaceAll("[\\pP\\pZ\\pS\\pM\\pC‘ ’“'”]", "").toLowerCase();
@@ -22,4 +22,4 @@ public boolean isPalindrome(String s) {
 	}
 }
 
-```
+// ```

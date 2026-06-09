@@ -1,10 +1,10 @@
 
-1. 判断长度，长度一致继续往下判断
-2. 通过位运算判断两个字符串包含的元素是否相同
-3. 通过异或运算判断两个字符串元素是否对称
+// 1. 判断长度，长度一致继续往下判断
+// 2. 通过位运算判断两个字符串包含的元素是否相同
+// 3. 通过异或运算判断两个字符串元素是否对称
 
-代码如下：
-```golang
+// 代码如下：
+// ```golang
 func CheckPermutation(s1 string, s2 string) bool {
 	var (
 		result = 0
@@ -30,7 +30,7 @@ func CheckPermutation(s1 string, s2 string) bool {
 
 	return result == 0 && bit1 == bit2
 }
-```
+// ```
 
 
 

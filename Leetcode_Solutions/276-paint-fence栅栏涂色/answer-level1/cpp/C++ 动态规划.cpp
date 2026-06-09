@@ -1,13 +1,13 @@
-### 解题思路
-1，`dp1`代表当前颜色与前一个栅栏颜色相同的情况数，`dp2`代表当前颜色与前一个栅栏颜色不同的情况数
-2，状态转移方程
-令前一个栅栏的情况为`prev_dp1, prev_dp2`，则
-`dp1 = prev_dp2`
-`dp2 = (k - 1) * (prev_dp1 + prev_dp2)`
+// ### 解题思路
+// 1，`dp1`代表当前颜色与前一个栅栏颜色相同的情况数，`dp2`代表当前颜色与前一个栅栏颜色不同的情况数
+// 2，状态转移方程
+// 令前一个栅栏的情况为`prev_dp1, prev_dp2`，则
+// `dp1 = prev_dp2`
+// `dp2 = (k - 1) * (prev_dp1 + prev_dp2)`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numWays(int n, int k) {
@@ -27,6 +27,6 @@ public:
         return dp1 + dp2;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/af1027a2c49fc9039c5e84f614cca90db7ea82e37c5f428a6a6143af9e7d9989-image.png)
+// ![image.png](https://pic.leetcode-cn.com/af1027a2c49fc9039c5e84f614cca90db7ea82e37c5f428a6a6143af9e7d9989-image.png)

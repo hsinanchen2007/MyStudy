@@ -1,13 +1,13 @@
-**思路**
+// **思路**
 
-```
+// ```
 剪枝思路：
     同层里面出现相同的，减掉。
-```
-**实现**
+// ```
+// **实现**
 
 
-```
+// ```
 func helper(candidates []int,startIndex int,curSlice []int,result *[][]int,curNum int,target int)  {
 	for i:=startIndex;i<len(candidates) ;i++  {
 		if i!=startIndex && candidates[i] == candidates[i-1] {
@@ -35,4 +35,4 @@ func combinationSum2(candidates []int, target int) [][]int {
 	return result
 
 }
-```
+// ```

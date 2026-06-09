@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/23
- *
- * 解题思路1:排序 加上遍历
- *
- * 解题思路2:使用hash统计<数值,数值对应的个数>, 使用hashMap.KetSet遍历非重复数值, k==0: 数值对应的个数>=2 则 sum++; k > 0, （数值 + k）再hashMap中存在,sum++
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/23
+//  *
+//  * 解题思路1:排序 加上遍历
+//  *
+//  * 解题思路2:使用hash统计<数值,数值对应的个数>, 使用hashMap.KetSet遍历非重复数值, k==0: 数值对应的个数>=2 则 sum++; k > 0, （数值 + k）再hashMap中存在,sum++
+//  *
+//  */
+// ```
 public int findPairs2(int[] nums, int k) {
     Arrays.sort(nums);
     int sum = 0;
@@ -50,4 +50,4 @@ public int findPairs3(int[] nums, int k){
     return sum;
 
 }
-```
+// ```

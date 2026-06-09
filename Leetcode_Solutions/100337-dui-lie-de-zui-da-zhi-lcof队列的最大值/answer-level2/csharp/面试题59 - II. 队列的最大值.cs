@@ -1,9 +1,9 @@
-### 解题思路
-C# 使用单链表模拟双端队列
+// ### 解题思路
+// C# 使用单链表模拟双端队列
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class MaxQueue {
     Queue<int> queue = new Queue<int>();
     ListNode head;
@@ -74,4 +74,4 @@ public class ListNode
  * obj.Push_back(value);
  * int param_3 = obj.Pop_front();
  */
-```
+// ```

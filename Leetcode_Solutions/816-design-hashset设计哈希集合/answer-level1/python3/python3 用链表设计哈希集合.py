@@ -1,5 +1,5 @@
-用数组有点偷懒，下面写一个代码简洁逻辑易懂的链表设计：
-```
+# 用数组有点偷懒，下面写一个代码简洁逻辑易懂的链表设计：
+# ```
 class node():
     def __init__(self,x,y=None):
         self.val = x
@@ -34,4 +34,4 @@ class MyHashSet:
         p = self.hset[key%self.nums]
         while p and p.val!=key:p = p.next
         return p != None
-```
+# ```

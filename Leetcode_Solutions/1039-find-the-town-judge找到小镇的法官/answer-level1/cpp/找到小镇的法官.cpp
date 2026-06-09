@@ -1,9 +1,9 @@
-### 解题思路
-出度，入度
+// ### 解题思路
+// 出度，入度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findJudge(int N, vector<vector<int>>& trust) {
@@ -23,4 +23,4 @@ public:
         return -1;
     }
 };
-```
+// ```

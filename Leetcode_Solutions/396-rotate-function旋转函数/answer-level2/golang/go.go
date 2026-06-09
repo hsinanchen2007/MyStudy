@@ -1,4 +1,4 @@
-```
+// ```
 func maxRotateFunction(A []int) int {
 	o, j, s, l := 0, 0, 0, len(A)
 	for i := 0; i < l; i++ {
@@ -14,4 +14,4 @@ func maxRotateFunction(A []int) int {
 	}
 	return o
 }
-```
+// ```

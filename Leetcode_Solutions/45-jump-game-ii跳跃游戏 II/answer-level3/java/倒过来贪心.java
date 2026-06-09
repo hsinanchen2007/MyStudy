@@ -1,4 +1,4 @@
-```
+// ```
 public int jump(int[] nums) {
         int res = 0;
         int cur = nums.length -1;
@@ -15,6 +15,6 @@ public int jump(int[] nums) {
 
         return res;
     }
-```
-从后向前 每次都尽量远一点
-就是有点慢
+// ```
+// 从后向前 每次都尽量远一点
+// 就是有点慢

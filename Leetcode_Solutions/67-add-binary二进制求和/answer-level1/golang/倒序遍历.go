@@ -1,4 +1,4 @@
-```
+// ```
 func addBinary(a string, b string) string {
 	for len(a) < len(b) {
 		a = "0" + a
@@ -33,4 +33,4 @@ func addBinary(a string, b string) string {
 	}
 	return c.String()
 }
-```
+// ```

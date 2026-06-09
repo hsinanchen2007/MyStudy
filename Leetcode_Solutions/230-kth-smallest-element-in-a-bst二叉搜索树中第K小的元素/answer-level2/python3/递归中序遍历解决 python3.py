@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
         
         
         return inorder_traversal(root)[k-1]
-```
+# ```

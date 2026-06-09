@@ -1,11 +1,11 @@
-### 解题思路
-运用了哈希表思想，但确实是使用了额外空间
-![1585126547(1).png](https://pic.leetcode-cn.com/5906fc23c0b12ba0e580574d0847d082b3ce539eb9c84595de1dd13ffc86d9dd-1585126547\(1\).png)
+// ### 解题思路
+// 运用了哈希表思想，但确实是使用了额外空间
+// ![1585126547(1).png](https://pic.leetcode-cn.com/5906fc23c0b12ba0e580574d0847d082b3ce539eb9c84595de1dd13ffc86d9dd-1585126547\(1\).png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int singleNumber(int* nums, int numsSize){
     int max_num=nums[0];
     int min_num=nums[0];
@@ -32,4 +32,4 @@ int singleNumber(int* nums, int numsSize){
     }
     return result;
 }
-```
+// ```

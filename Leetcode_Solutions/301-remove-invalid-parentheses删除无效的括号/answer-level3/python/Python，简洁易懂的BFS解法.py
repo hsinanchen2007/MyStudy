@@ -1,4 +1,4 @@
-```Python
+# ```Python
 class Solution:
     def removeInvalidParentheses(self, s):
         def isvalid(string):  # 判断括号串是否合法
@@ -18,4 +18,4 @@ class Solution:
             if valid:
                 return valid
             level = {s[:i] + s[i + 1:] for s in level for i in range(len(s)) if s[i] in '()'}
-```
+# ```

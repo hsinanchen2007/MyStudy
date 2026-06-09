@@ -1,10 +1,10 @@
-### 解题思路
-当前节点的长度，可以等价为求左子树深度+右子树深度。
-我们求的，也就是所有节点中的最大长度。
+// ### 解题思路
+// 当前节点的长度，可以等价为求左子树深度+右子树深度。
+// 我们求的，也就是所有节点中的最大长度。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     return max_lens;
 }
 
-```
+// ```

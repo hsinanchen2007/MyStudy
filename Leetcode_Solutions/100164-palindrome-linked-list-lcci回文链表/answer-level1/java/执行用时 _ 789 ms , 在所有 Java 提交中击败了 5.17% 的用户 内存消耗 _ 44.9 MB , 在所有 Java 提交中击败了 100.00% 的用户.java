@@ -1,9 +1,9 @@
-### 解题思路
-前面有类似的题目。主题思想就是把回文数颠倒再比较，相同就是回文数，否则不是
+// ### 解题思路
+// 前面有类似的题目。主题思想就是把回文数颠倒再比较，相同就是回文数，否则不是
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

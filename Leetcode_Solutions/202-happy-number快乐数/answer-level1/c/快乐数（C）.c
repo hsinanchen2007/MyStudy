@@ -1,6 +1,6 @@
-**1.递归**
-个位数中只有1和7是快乐数，其他都不是，这是递归终止条件。
-```c
+// **1.递归**
+// 个位数中只有1和7是快乐数，其他都不是，这是递归终止条件。
+// ```c
 bool isHappy(int n){
     if(n == 1 || n ==7)
         return 1;
@@ -13,9 +13,9 @@ bool isHappy(int n){
     }while(n != 0);
     return isHappy(sum);
 }
-```
-**2.快慢法**
-```
+// ```
+// **2.快慢法**
+// ```
 int bitSum(int n)
 {
     int ans = 0;
@@ -36,4 +36,4 @@ bool isHappy(int n)
     }while(slow != fast);
     return slow == 1;
 }
-```
+// ```

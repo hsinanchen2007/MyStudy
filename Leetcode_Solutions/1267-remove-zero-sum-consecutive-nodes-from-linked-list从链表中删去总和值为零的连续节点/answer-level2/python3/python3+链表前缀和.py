@@ -1,9 +1,9 @@
-### 解题思路
-对链表求前缀和，然后第一次找出从头节点开始的和为0的连续节点，第二次找出不是以头节点开始的和为0的连续节点，最后在把链表还原即可
+# ### 解题思路
+# 对链表求前缀和，然后第一次找出从头节点开始的和为0的连续节点，第二次找出不是以头节点开始的和为0的连续节点，最后在把链表还原即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             pre = tmp
             cur = cur.next
         return tail.next
-```
+# ```

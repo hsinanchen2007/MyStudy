@@ -1,10 +1,10 @@
-### 解题思路
-C语言：
-先把B的元素放进A的后面，然后用qsort排序
+// ### 解题思路
+// C语言：
+// 先把B的元素放进A的后面，然后用qsort排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(const void *a, const void *b) {
     return (*(int *)a - *(int *)b);
 }
@@ -25,4 +25,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     qsort(A, m + n, sizeof(int), Compare);
     return;
 }
-```
+// ```

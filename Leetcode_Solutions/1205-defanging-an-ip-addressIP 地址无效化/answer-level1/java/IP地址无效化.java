@@ -1,9 +1,9 @@
-### 解题思路
-    学会一个新的 StringBuilder的用法
+// ### 解题思路
+//     学会一个新的 StringBuilder的用法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String defangIPaddr(String address) {
     //Java包中的replace函数没有暴力解法效率高
@@ -20,4 +20,4 @@ class Solution {
         return s.toString();
     }
 }
-```
+// ```

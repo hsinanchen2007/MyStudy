@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
         # 新建new_push,用来存储pushed中的元素，一个个解决popped中的元素
@@ -53,4 +53,4 @@ class Solution:
             return False
         else:
             return True
-```
+# ```

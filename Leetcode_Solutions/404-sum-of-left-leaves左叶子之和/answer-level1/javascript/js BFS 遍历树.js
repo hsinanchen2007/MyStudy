@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/5b3aa4d7a70835c75338ed575866835c0d34857813211bf8b7009bea6e606a52-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5b3aa4d7a70835c75338ed575866835c0d34857813211bf8b7009bea6e606a52-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 BFS，层层遍历树，直到遇到节点为叶子节点，并且为左叶子节点，加起来即可
 队列的每一项 [节点, 是否为左节点]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -41,4 +41,4 @@ var sumOfLeftLeaves = function(root) {
   
   return sum;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Traversing a string; Unpackagede stack struction;
+# ### 解题思路
+# Traversing a string; Unpackagede stack struction;
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             return flag
         else:
             return False
-```
+# ```

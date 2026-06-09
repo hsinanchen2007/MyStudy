@@ -1,9 +1,9 @@
-这题和[LeetCode 237](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/solution/)一样。
-将下一节点的内容拷贝到当前节点。再用当前节点的next指向下下个节点。就看起来想“删除了这个节点”
+// 这题和[LeetCode 237](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/solution/)一样。
+// 将下一节点的内容拷贝到当前节点。再用当前节点的next指向下下个节点。就看起来想“删除了这个节点”
 
--------------------------
-C++
-```cpp
+// -------------------------
+// C++
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -19,11 +19,11 @@ public:
         node->next = node->next->next;
     }
 };
-```
----------------------------
+// ```
+// ---------------------------
 
-Python
-```python
+// Python
+// ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
         """
         node.val = node.next.val
         node.next = node.next.next
-```
+// ```

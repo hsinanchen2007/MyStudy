@@ -1,4 +1,4 @@
-```
+// ```
     var partition = function(head, x) {
         if (!head || !head.next)
             return head; // 边界处理
@@ -27,4 +27,4 @@
         }
         return newhead.next;
     };
-```
+// ```

@@ -1,4 +1,4 @@
-``` python []
+# ``` python []
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         out_list = [] #输出列表
@@ -18,4 +18,4 @@ class Solution:
                 backtrace(nums[:i]+nums[i+1:],start+1,tmp+[nums[i]]) # 1除了nums[i]本身之外的列表作为下次迭代列表 2标识位加1 3 tmp累计
         backtrace()
         return out_list
-```
+# ```

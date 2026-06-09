@@ -1,10 +1,10 @@
-### 解题思路
-终于遇到一道简单题啊啊啊
-奥利给！
+// ### 解题思路
+// 终于遇到一道简单题啊啊啊
+// 奥利给！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int subtractProductAndSum(int n) {
@@ -23,4 +23,4 @@ public:
 
     }
 };
-```
+// ```

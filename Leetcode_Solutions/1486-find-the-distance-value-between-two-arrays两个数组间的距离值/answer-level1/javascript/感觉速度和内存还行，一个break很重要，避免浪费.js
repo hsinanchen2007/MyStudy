@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr1
  * @param {number[]} arr2
@@ -22,4 +22,4 @@ var findTheDistanceValue = function (arr1, arr2, d) {
     }
     return ans;
 };
-```
+// ```

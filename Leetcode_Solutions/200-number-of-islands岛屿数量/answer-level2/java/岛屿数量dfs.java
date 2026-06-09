@@ -1,5 +1,5 @@
-深度优先遍历
-```
+// 深度优先遍历
+// ```
 class Solution {
     private int[][] des={{-1,0},{0,1},{1,0},{0,-1}};
     private int number;
@@ -65,4 +65,4 @@ class Solution {
         return x>=0&&x<grid.length&&y>=0&&y<grid[0].length;
     }
 }
-```
+// ```

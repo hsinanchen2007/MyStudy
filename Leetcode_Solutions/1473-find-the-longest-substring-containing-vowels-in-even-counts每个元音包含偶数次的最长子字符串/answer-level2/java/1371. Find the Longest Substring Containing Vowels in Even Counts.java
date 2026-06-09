@@ -1,9 +1,9 @@
-### 解题思路
-使用位运算 将奇偶分别用10两种状态表示 并用hashmap记录之前走过的状态 遇到相同状态则说明之间的substring为符合题目的substring
+// ### 解题思路
+// 使用位运算 将奇偶分别用10两种状态表示 并用hashmap记录之前走过的状态 遇到相同状态则说明之间的substring为符合题目的substring
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findTheLongestSubstring(String s) {
         int key = 0;
@@ -48,4 +48,4 @@ class Solution {
         }
     }
 }
-```
+// ```

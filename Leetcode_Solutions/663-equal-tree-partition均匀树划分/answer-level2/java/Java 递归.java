@@ -1,11 +1,11 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
 
-思路：
+// 思路：
 
-去一条边分成两棵表示当前树的左子树或右子树之和为整棵树之和的1/2，所以可以先求出整棵树的和，然后在其左右子树中求是否有子树的和是当前树的1/2，如果没有继续向下寻找
+// 去一条边分成两棵表示当前树的左子树或右子树之和为整棵树之和的1/2，所以可以先求出整棵树的和，然后在其左右子树中求是否有子树的和是当前树的1/2，如果没有继续向下寻找
 
-```
+// ```
 class Solution {
     public boolean checkEqualTree(TreeNode root) {
         if (root == null) return false;
@@ -30,4 +30,4 @@ class Solution {
         return getSum(root.left) + getSum(root.right) + root.val;
     }
 }
-```
+// ```

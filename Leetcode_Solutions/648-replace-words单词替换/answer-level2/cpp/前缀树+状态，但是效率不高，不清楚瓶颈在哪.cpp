@@ -1,12 +1,12 @@
-### 解题思路
-建立字典树，然后逐字符遍历sentence，遍历时记录状态，然后根据状态执行下一步
-一个挺麻烦的想法，还不如用stringstream来的快，不清楚性能瓶颈出现在哪里
-时间复杂度O(N+K)，建立字典树花费O(K)的时间，其中K代表字典所有单词的长度和，遍历字符串花费O(N)
-空间复杂度O(N+K)，字典树占用O(K)的空间，其中K代表最坏情况所有前缀都没出现在字典里，返回值占用O(N)
+// ### 解题思路
+// 建立字典树，然后逐字符遍历sentence，遍历时记录状态，然后根据状态执行下一步
+// 一个挺麻烦的想法，还不如用stringstream来的快，不清楚性能瓶颈出现在哪里
+// 时间复杂度O(N+K)，建立字典树花费O(K)的时间，其中K代表字典所有单词的长度和，遍历字符串花费O(N)
+// 空间复杂度O(N+K)，字典树占用O(K)的空间，其中K代表最坏情况所有前缀都没出现在字典里，返回值占用O(N)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct TrieNode {
     bool str;
     unordered_map<char, TrieNode*> child;
@@ -92,4 +92,4 @@ public:
 ["cat", "bat", "rat", "a"]
 "the cattle was rattled by the battery bat the kiss cat died a app"
 */
-```
+// ```

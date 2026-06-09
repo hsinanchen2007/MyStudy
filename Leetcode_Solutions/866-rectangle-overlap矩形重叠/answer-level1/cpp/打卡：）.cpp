@@ -1,13 +1,13 @@
-### 解题思路
-1. 写得有点丑陋，哈哈
-2. 主要分享一下思路：
-3. 如果rec1的四个点在rec2的范围里，必重叠
-4. 除此之外，还存在十字型的重叠
-![image.png](https://pic.leetcode-cn.com/f28da7ef6359fdf984bce92802bbad8444fb73feb00dc0f29e7c0495065d7cbe-image.png)
+// ### 解题思路
+// 1. 写得有点丑陋，哈哈
+// 2. 主要分享一下思路：
+// 3. 如果rec1的四个点在rec2的范围里，必重叠
+// 4. 除此之外，还存在十字型的重叠
+// ![image.png](https://pic.leetcode-cn.com/f28da7ef6359fdf984bce92802bbad8444fb73feb00dc0f29e7c0495065d7cbe-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -59,4 +59,4 @@ public:
         
     }
 };
-```
+// ```

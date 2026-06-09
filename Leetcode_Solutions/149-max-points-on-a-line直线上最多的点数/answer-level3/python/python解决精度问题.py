@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
         def gongyue(u,v):
@@ -44,4 +44,4 @@ class Solution:
             res = max(res, mostpoints + samep1)
         return res
 
-```
+# ```

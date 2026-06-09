@@ -1,9 +1,9 @@
-### 解题思路
-先统计出相同号码的卡片的长度，然后如果这些长度里面有共同的因数那就返回true
+// ### 解题思路
+// 先统计出相同号码的卡片的长度，然后如果这些长度里面有共同的因数那就返回true
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -98,4 +98,4 @@ var hasGroupsSizeX = function(deck) {
     }
     return false
 }
-```
+// ```

@@ -1,8 +1,8 @@
-n=0时，队列push空字符串进去
-n>0时，取出队列中字符串，当遇到‘（’以及字符串末添加“（）”，利用set去除重复结果
+// n=0时，队列push空字符串进去
+// n>0时，取出队列中字符串，当遇到‘（’以及字符串末添加“（）”，利用set去除重复结果
 
 
-```
+// ```
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -48,4 +48,4 @@ public:
 	return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
         //数学问题
@@ -11,4 +11,4 @@ class Solution {
         return (int)Math.ceil(Math.log(buckets)/Math.log(state)); //对数的换底公式
     }
 }
-```
+// ```

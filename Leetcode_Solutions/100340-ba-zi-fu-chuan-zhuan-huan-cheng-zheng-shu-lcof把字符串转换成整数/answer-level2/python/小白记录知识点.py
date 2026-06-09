@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-正则表达式，re.compile()，^表示匹配字符串首，?匹配前面字符0或1次，\d表示0-9，+表示1+次。
-str.strip()表示去掉字符串两侧的空格。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 正则表达式，re.compile()，^表示匹配字符串首，?匹配前面字符0或1次，\d表示0-9，+表示1+次。
+# str.strip()表示去掉字符串两侧的空格。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strToInt(self, str: str) -> int:
         INT_MAX = 2147483647
@@ -22,4 +22,4 @@ class Solution:
             return -2**31
         else:
             return num
-```
+# ```

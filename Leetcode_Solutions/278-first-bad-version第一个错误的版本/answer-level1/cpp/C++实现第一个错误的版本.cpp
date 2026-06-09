@@ -1,10 +1,10 @@
 
 
-一般二分查找
---------------
-![image.png](https://pic.leetcode-cn.com/42521b5b612274a0a17b0c550581079a1b45d452eb947a94c2e096df9770bd83-image.png)
+// 一般二分查找
+// --------------
+// ![image.png](https://pic.leetcode-cn.com/42521b5b612274a0a17b0c550581079a1b45d452eb947a94c2e096df9770bd83-image.png)
 
-```cpp
+// ```cpp
 bool isBadVersion(int version);
 
 class Solution {
@@ -26,4 +26,4 @@ public:
         return low;
     }
 };
-```
+// ```

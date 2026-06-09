@@ -1,4 +1,4 @@
-中序遍历：
+# 中序遍历：
 ![image.png](https://pic.leetcode-cn.com/9fcf455783e33c8056a3fb1319c55bfe4854119c6cc70222915307bfd60c8241-image.png)
 
 二叉树递归套路：

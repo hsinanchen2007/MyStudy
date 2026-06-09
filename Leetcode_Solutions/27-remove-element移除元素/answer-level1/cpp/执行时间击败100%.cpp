@@ -1,9 +1,9 @@
-### 解题思路
-判断j是关键
+// ### 解题思路
+// 判断j是关键
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -29,4 +29,4 @@ public:
         return j+1;
     }
 };
-```
+// ```

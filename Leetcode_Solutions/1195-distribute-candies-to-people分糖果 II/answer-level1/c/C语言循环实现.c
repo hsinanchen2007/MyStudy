@@ -1,9 +1,9 @@
-### 解题思路
-将每个人的糖果数当作数组元素的值，通过循环不断对数组元素赋值，赋值前判糖果数量是否够下一次。
+// ### 解题思路
+// 将每个人的糖果数当作数组元素的值，通过循环不断对数组元素赋值，赋值前判糖果数量是否够下一次。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -35,4 +35,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     }
     return people;
 }
-```
+// ```

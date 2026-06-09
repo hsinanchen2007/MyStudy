@@ -1,11 +1,11 @@
-### 解题思路
-1、计算岛的个数，思路是采用涂色机制，将1修改为其他值-1
-2、每次都向下、向上、向左、向右遍历，如果是1则修改为涂色值
-3、然后只需要统计1的个数即可
+// ### 解题思路
+// 1、计算岛的个数，思路是采用涂色机制，将1修改为其他值-1
+// 2、每次都向下、向上、向左、向右遍历，如果是1则修改为涂色值
+// 3、然后只需要统计1的个数即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define RED_NUM -1
 void dfs(char **grid, int gridSize, int *gridColSize, int row, int col)
 {
@@ -51,4 +51,4 @@ int numIslands(char **grid, int gridSize, int *gridColSize)
     }
     return gridNum;
 }
-```
+// ```

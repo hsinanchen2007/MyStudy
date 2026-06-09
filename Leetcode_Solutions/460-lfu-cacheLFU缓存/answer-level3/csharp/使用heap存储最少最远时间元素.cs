@@ -1,10 +1,10 @@
-### 解题思路
-使用heap排序
+// ### 解题思路
+// 使用heap排序
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class IndexHeap<T> {
 
     public List<T> list;
@@ -217,4 +217,4 @@ public class LFUCache {
  * int param_1 = obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

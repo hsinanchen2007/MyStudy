@@ -1,9 +1,9 @@
-### 解题思路
-和课程表那道题一模一样，拓扑排序
+// ### 解题思路
+// 和课程表那道题一模一样，拓扑排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] res = new int[numCourses];
@@ -44,4 +44,4 @@ class Solution {
         return nodesIndegree;
     }
 }
-```
+// ```

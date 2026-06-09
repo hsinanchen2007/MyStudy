@@ -1,6 +1,6 @@
-其实就是蛇形填数的变种
+# 其实就是蛇形填数的变种
 
-```python
+# ```python
 class Solution:
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
         upRight, downLeft = True, False
@@ -33,4 +33,4 @@ class Solution:
                 x, y, upRight, downLeft = x, y + 1, True, False    
             #print(x, y)    
         return ans
-```
+# ```

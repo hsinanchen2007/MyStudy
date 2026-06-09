@@ -1,45 +1,45 @@
-# Problem Definition of Maximum_Subarray
+# # Problem Definition of Maximum_Subarray
 
-Given an integer array **nums**, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+# Given an integer array **nums**, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
-最大子数组问题
+# 最大子数组问题
 
-**Example 1**:
+# **Example 1**:
 
-    Input:[-2,1,-3,4,-1,2,1,-5,4],
-    Output: 6
-    Explanation: [4,-1,2,1] has the largest sum = 6.
+#     Input:[-2,1,-3,4,-1,2,1,-5,4],
+#     Output: 6
+#     Explanation: [4,-1,2,1] has the largest sum = 6.
 
-## Method
+# ## Method
 
-### Method 1: Brutal
+# ### Method 1: Brutal
 
-There are
-$C^1_{n} + C^2_{n-1} + ... + C^n_n$
-subarrays for *nums[n]*.
-Calculate all subarrays' sums and return the max
+# There are
+# $C^1_{n} + C^2_{n-1} + ... + C^n_n$
+# subarrays for *nums[n]*.
+# Calculate all subarrays' sums and return the max
 
-Time complexity: $O(N^2)$
+# Time complexity: $O(N^2)$
 
-No code ;)
+# No code ;)
 
-### Method 2: Divide and Conquer
-Refer to *Introduction to Algorithms* page 39-41
+# ### Method 2: Divide and Conquer
+# Refer to *Introduction to Algorithms* page 39-41
 
-    There are three possible ways where the max_subarray is:
+#     There are three possible ways where the max_subarray is:
 
-    1. Between [low, mid]
-    2. Between [mid+1, high]
-    3. Crossing mid(find the max_left in [i,mid] and max_right in [mid+1,j])
-    note: Crossing means mid and mid+1 must be included
+#     1. Between [low, mid]
+#     2. Between [mid+1, high]
+#     3. Crossing mid(find the max_left in [i,mid] and max_right in [mid+1,j])
+#     note: Crossing means mid and mid+1 must be included
 
-Time Complexity: $O(n\lg{n})$
+# Time Complexity: $O(n\lg{n})$
 
-**Note:** Easy to understand
+# **Note:** Easy to understand
 
-### Python Code of Method 2: Divide and Conquer
+# ### Python Code of Method 2: Divide and Conquer
 
-```python
+# ```python
 class Solution:
     # Using recursion
     def maxSubArray1(self, nums):
@@ -105,23 +105,23 @@ class Solution:
                 # max_right = j, j is the index
 
         return left_sum + right_sum
-```
+# ```
 
-### Method 3: Dynamic Programming
+# ### Method 3: Dynamic Programming
 
-Status: $DP[i]$ means the max sum with $nums[i]$ ended
+# Status: $DP[i]$ means the max sum with $nums[i]$ ended
 
-State transition equation: $DP[i] =  max(DP[i-1] + nums[i], nums[i])$
+# State transition equation: $DP[i] =  max(DP[i-1] + nums[i], nums[i])$
 
-$max\_sum = max(DP[i], max\_sum)$
+# $max\_sum = max(DP[i], max\_sum)$
 
-Time Complexity: $O(N)$
+# Time Complexity: $O(N)$
 
-**Note:** hard to comprehend
+# **Note:** hard to comprehend
 
-### Python Code of Method 3: Dynamic Programming
+# ### Python Code of Method 3: Dynamic Programming
 
-```python
+# ```python
 def maxSubArray(self, nums):
     """
     :type nums: List[int]
@@ -134,4 +134,4 @@ def maxSubArray(self, nums):
         maxSubArrayEndsWithI = max(maxSubArrayEndsWithI + nums[i], nums[i])
         max_sum = max(maxSubArrayEndsWithI, max_sum)
     return max_sum
-```
+# ```

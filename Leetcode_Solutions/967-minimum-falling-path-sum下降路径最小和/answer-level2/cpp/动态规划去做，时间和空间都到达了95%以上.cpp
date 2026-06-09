@@ -1,11 +1,11 @@
-数组大小为size x size
-假设dp数组为size x size
-    那么就是结果为dp[row][column]=min(dp[row-1][column-1],dp[row-1][column],dp[row-1][column+1])+A[row][column];
-而本方法是为了减小空间的消耗，将N^2的空间缩小到了2xN的大小。
-这里使用了row%2的方法去确定本行和上一行；
-最终是到达了最后一行所有节点各自的最小值
-具体代码如下显示
-```
+// 数组大小为size x size
+// 假设dp数组为size x size
+//     那么就是结果为dp[row][column]=min(dp[row-1][column-1],dp[row-1][column],dp[row-1][column+1])+A[row][column];
+// 而本方法是为了减小空间的消耗，将N^2的空间缩小到了2xN的大小。
+// 这里使用了row%2的方法去确定本行和上一行；
+// 最终是到达了最后一行所有节点各自的最小值
+// 具体代码如下显示
+// ```
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& A) {
@@ -33,4 +33,4 @@ public:
         return res;
     }
 };
-```
+// ```

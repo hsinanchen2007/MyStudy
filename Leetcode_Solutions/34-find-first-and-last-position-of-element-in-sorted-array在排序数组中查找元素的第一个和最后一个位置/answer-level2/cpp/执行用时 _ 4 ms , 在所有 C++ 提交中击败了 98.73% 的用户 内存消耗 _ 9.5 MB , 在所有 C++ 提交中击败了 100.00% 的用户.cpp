@@ -1,9 +1,9 @@
-### 解题思路
-学习了题解区大佬关于两端都闭以及左开右闭的两种写法，这里用C++写了一种两端都闭的情况。
+// ### 解题思路
+// 学习了题解区大佬关于两端都闭以及左开右闭的两种写法，这里用C++写了一种两端都闭的情况。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -48,4 +48,4 @@ public:
         return {lresult, rresult};
     }
 };
-```
+// ```

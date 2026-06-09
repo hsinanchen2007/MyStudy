@@ -1,9 +1,9 @@
-### 解题思路
-Java 使用栈轻松理解解决
+// ### 解题思路
+// Java 使用栈轻松理解解决
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String simplifyPath(String path) {
 
@@ -30,4 +30,4 @@ class Solution {
             return sb.toString();
     }
 }
-```
+// ```

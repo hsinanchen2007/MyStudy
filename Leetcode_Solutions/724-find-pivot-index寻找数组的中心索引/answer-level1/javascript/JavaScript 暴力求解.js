@@ -1,11 +1,11 @@
-### 解题思路
-* 基本思路：leftSum + rightSum + item = Sum;
-* 通过array.reduce()得到数组的Sum值
-* 通过findIndex找到第一个符合目标的index，通过true确认，否则继续遍历
+// ### 解题思路
+// * 基本思路：leftSum + rightSum + item = Sum;
+// * 通过array.reduce()得到数组的Sum值
+// * 通过findIndex找到第一个符合目标的index，通过true确认，否则继续遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -24,4 +24,4 @@ var pivotIndex = function(nums) {
     })
     
 };
-```
+// ```

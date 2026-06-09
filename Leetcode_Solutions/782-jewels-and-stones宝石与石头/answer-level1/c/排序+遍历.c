@@ -1,4 +1,4 @@
-```
+// ```
 static int compare(const void *a, const void *b)
 {
     char *t_a = (char *)a;
@@ -30,4 +30,4 @@ int numJewelsInStones(char * J, char * S){
     return count;
 }
 
-```
+// ```

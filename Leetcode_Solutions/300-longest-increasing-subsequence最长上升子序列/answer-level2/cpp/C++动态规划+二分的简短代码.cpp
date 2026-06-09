@@ -1,10 +1,10 @@
-### 描述
+// ### 描述
 
-这里给出一份我的动态规划+二分的简短版C++代码，供参考
+// 这里给出一份我的动态规划+二分的简短版C++代码，供参考
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
         return int(seq.size());
     }
 };
-```
+// ```

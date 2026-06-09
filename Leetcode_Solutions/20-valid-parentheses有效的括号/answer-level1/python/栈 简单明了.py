@@ -1,9 +1,9 @@
-### 解题思路
-采用栈的形式
+# ### 解题思路
+# 采用栈的形式
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         #首先判断字符串为空的特殊情况
@@ -22,4 +22,4 @@ class Solution:
             else:
                 return False
         return len(l)==0
-```
+# ```

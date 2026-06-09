@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/041ef37c279f610d12593a2ba9452d308e04592a73e8f986f6a627ab78874d06-image.png)
+// ![image.png](https://pic.leetcode-cn.com/041ef37c279f610d12593a2ba9452d308e04592a73e8f986f6a627ab78874d06-image.png)
 
-### 解题思路
-参考了大佬的解答，数据太好看了，忍不住晒一下。
-写了点注释。
+// ### 解题思路
+// 参考了大佬的解答，数据太好看了，忍不住晒一下。
+// 写了点注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -35,5 +35,5 @@ public:
         return res;
     }
 };
-```
-有收获求点赞。
+// ```
+// 有收获求点赞。

@@ -1,7 +1,7 @@
-- 执行用时 :4 ms, 在所有 c 提交中击败了66.88%的用户
-- 内存消耗 :6.9 MB, 在所有 c 提交中击败了100.00%的用户
-- 题目的提示中要求用hashmap来解决.我自己写了个简单的hash
-```
+// - 执行用时 :4 ms, 在所有 c 提交中击败了66.88%的用户
+// - 内存消耗 :6.9 MB, 在所有 c 提交中击败了100.00%的用户
+// - 题目的提示中要求用hashmap来解决.我自己写了个简单的hash
+// ```
 char *alphabetBoardPath(char *target)
 {
     typedef struct Node {
@@ -95,5 +95,5 @@ char *alphabetBoardPath(char *target)
     tmpS[pos] = 0;
     return tmpS;
 }
-```
+// ```
 

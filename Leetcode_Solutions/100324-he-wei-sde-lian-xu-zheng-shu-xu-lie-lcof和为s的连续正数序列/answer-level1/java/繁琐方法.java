@@ -1,11 +1,11 @@
-### 解题思路
-**现在只想问：为什么java的不是返回list呀**
-好啦：我的思想很简单，就是暴力。
-当然我们从数学上思考知道 2*half = number，所以当只有两个连续的数相加时，一个<half，一个>half，所以起始数小于half的
+// ### 解题思路
+// **现在只想问：为什么java的不是返回list呀**
+// 好啦：我的思想很简单，就是暴力。
+// 当然我们从数学上思考知道 2*half = number，所以当只有两个连续的数相加时，一个<half，一个>half，所以起始数小于half的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<List<Integer>> list = new ArrayList<>();
@@ -46,4 +46,4 @@ class Solution {
 		return arr;
     }
 }
-```
+// ```

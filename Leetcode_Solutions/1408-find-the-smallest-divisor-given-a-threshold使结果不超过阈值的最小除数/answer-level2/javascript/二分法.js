@@ -1,4 +1,4 @@
-```
+// ```
 var smallestDivisor = function(nums, threshold) {
   let left = 1;
   let right = 1000000;
@@ -12,4 +12,4 @@ var smallestDivisor = function(nums, threshold) {
   }
   return left;
 };
-```
+// ```

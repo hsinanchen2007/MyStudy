@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     static bool cmp(string a, string b)
@@ -19,4 +19,4 @@ public:
         return s.size();
     }
 };
-```
+// ```

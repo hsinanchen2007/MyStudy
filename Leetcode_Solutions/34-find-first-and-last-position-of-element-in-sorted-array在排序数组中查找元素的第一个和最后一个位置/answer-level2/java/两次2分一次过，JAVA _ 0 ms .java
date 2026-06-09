@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-两次2分一次过，JAVA : 0 ms 
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :42.3 MB, 在所有 Java 提交中击败了71.09%的用户
+// ### 解题思路
+// 此处撰写解题思路
+// 两次2分一次过，JAVA : 0 ms 
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :42.3 MB, 在所有 Java 提交中击败了71.09%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
             int[] a={-1,-1};
@@ -41,4 +41,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

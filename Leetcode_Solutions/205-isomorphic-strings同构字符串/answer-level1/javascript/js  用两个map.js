@@ -1,4 +1,4 @@
-```
+// ```
 var isIsomorphic = function(s, t) {
         //s和t具有相同的长度，对照着比较就OK
         // egg
@@ -17,4 +17,4 @@ var isIsomorphic = function(s, t) {
         }
         return true;
 };
-```
+// ```

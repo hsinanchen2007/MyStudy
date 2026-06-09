@@ -1,9 +1,9 @@
-### 解题思路
-将数字加入桶  桶里没有的就是缺失的数字
+// ### 解题思路
+// 将数字加入桶  桶里没有的就是缺失的数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int[] bucket = new int[nums.length +1];
@@ -17,4 +17,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-在102二叉树的层次遍历的基础上，引入一个辅助变量存储当前层的输出，若level为奇数则reverse下
+# ### 解题思路
+# 在102二叉树的层次遍历的基础上，引入一个辅助变量存储当前层的输出，若level为奇数则reverse下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
             res[level].extend(temp)
             level+=1        
         return res
-```
+# ```

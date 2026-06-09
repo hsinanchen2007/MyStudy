@@ -1,9 +1,9 @@
-### 解题思路
-（(首项+尾项)*项数)/2 - 实际总和
+// ### 解题思路
+// （(首项+尾项)*项数)/2 - 实际总和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& arr) {
@@ -15,4 +15,4 @@ public:
         return ((arr[0]+arr[len-1])*(len+1)/2) - sum;
     }
 };
-```
+// ```

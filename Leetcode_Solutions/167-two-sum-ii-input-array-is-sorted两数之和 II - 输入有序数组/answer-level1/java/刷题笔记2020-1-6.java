@@ -1,11 +1,11 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-返回时创建数组的写法需要注意下，不熟练经常写错。
+// 返回时创建数组的写法需要注意下，不熟练经常写错。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         if(numbers==null)return null;
@@ -19,4 +19,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

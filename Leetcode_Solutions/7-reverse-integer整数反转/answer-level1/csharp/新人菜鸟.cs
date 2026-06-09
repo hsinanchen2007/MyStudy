@@ -1,9 +1,9 @@
-### 解题思路
-转成字符串数组，使用Array类的Reverse方法颠倒数据，
-然后使用int.TryParse判断是否溢出。
-### 代码
+// ### 解题思路
+// 转成字符串数组，使用Array类的Reverse方法颠倒数据，
+// 然后使用int.TryParse判断是否溢出。
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Reverse(int x) {
         string aa = x+"";
@@ -56,4 +56,4 @@ public class Solution {
             return result;
         }
 }
-```
+// ```

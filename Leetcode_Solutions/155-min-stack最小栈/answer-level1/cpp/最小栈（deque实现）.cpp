@@ -1,6 +1,6 @@
-实在看不懂用内置的<stack>实现栈有什么意思，而且这个都不用模板，很容易。
-**解答：**
-```
+// 实在看不懂用内置的<stack>实现栈有什么意思，而且这个都不用模板，很容易。
+// **解答：**
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -45,4 +45,4 @@ private:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

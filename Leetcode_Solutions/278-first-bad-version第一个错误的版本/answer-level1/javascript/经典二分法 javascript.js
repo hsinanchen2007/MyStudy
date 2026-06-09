@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for isBadVersion()
  * 
@@ -46,9 +46,9 @@ var solution = function(isBadVersion) {
         }
     };
 };
-```
-循环中止条件为 start + 1 < end，代表差值为1的时候就中止了
-同时
-start = mid;
-end = mid;
-这就代表，如果搜寻到start和end相差为1的时候，循环就已经停止，所以需要在循环结束后继续判断
+// ```
+// 循环中止条件为 start + 1 < end，代表差值为1的时候就中止了
+// 同时
+// start = mid;
+// end = mid;
+// 这就代表，如果搜寻到start和end相差为1的时候，循环就已经停止，所以需要在循环结束后继续判断

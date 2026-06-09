@@ -1,5 +1,5 @@
-# 萌新刷题,有错误请改正,谢谢.
-```
+// # 萌新刷题,有错误请改正,谢谢.
+// ```
 var bitwiseComplement = function(N) {
     let temp = N.toString(2);               // 给数转换成二进制
     let y = []                              // 创建一个空数组
@@ -15,5 +15,5 @@ var bitwiseComplement = function(N) {
     }
     let z =  y.join('')                     // 转换成字符串
     return parseInt(z,2);                   // 输出010
-```
+// ```
 

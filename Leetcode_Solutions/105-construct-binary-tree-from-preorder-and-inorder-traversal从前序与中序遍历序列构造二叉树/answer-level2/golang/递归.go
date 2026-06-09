@@ -1,6 +1,6 @@
-依次从前序遍历的数组中取出数据i 去中序遍历的数组中找位置，改位置左边就是i的左子树left，右边即右子树right，然后递归调用前序数组中i+1的左右子树，首先要把i+1在left中找其位置，找不到的话，再在right中找
+// 依次从前序遍历的数组中取出数据i 去中序遍历的数组中找位置，改位置左边就是i的左子树left，右边即右子树right，然后递归调用前序数组中i+1的左右子树，首先要把i+1在left中找其位置，找不到的话，再在right中找
 
-```
+// ```
 
 /**
  * Definition for a binary tree node.
@@ -46,4 +46,4 @@ func buildSubTree(preorder []int, inorder []int) *TreeNode {
 	}
 	return head
 }
-```
+// ```

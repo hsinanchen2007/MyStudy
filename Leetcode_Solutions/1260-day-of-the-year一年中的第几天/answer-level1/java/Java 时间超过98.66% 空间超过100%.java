@@ -1,6 +1,6 @@
-执行用时 :2 ms, 在所有 Java 提交中击败了98.66%的用户  
-内存消耗 :34.5 MB, 在所有 Java 提交中击败了100.00%的用户  
-```
+// 执行用时 :2 ms, 在所有 Java 提交中击败了98.66%的用户  
+// 内存消耗 :34.5 MB, 在所有 Java 提交中击败了100.00%的用户  
+// ```
 class Solution {
     public int dayOfYear(String date) {
         int[] dayOfMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
@@ -33,4 +33,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

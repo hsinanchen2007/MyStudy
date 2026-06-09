@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         if s is None or t is None:
@@ -13,5 +13,5 @@ class Solution:
         if i == len(s):
             return True
         return False
-```
+# ```
 

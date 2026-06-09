@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-### 状态转移方程：
-finMin(amount)=1+min(finMin(amount-lis[0]),finMin(amount-lis[1]),...,finMin(amount-lis[len(lis)-1]))
-然后用dp记录已经做过的工作。 
-运行结果就是，第一次转移很慢，以后就非常快了。
+# ### 状态转移方程：
+# finMin(amount)=1+min(finMin(amount-lis[0]),finMin(amount-lis[1]),...,finMin(amount-lis[len(lis)-1]))
+# 然后用dp记录已经做过的工作。 
+# 运行结果就是，第一次转移很慢，以后就非常快了。
 
-### 代码
+# ### 代码
 
 
-```
+# ```
 class Solution:
     def coinChange(self, lis: List[int], amount: int) -> int:
         if amount==0:return 0
@@ -34,4 +34,4 @@ class Solution:
             dp[amount]=minN
             return minN
 #ends
-```
+# ```

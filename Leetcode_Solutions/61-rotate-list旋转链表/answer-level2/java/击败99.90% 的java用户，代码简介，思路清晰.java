@@ -1,5 +1,5 @@
-先将链表连接成环，计算链表长度，移动k的取模步数，断开环。
-```java
+// 先将链表连接成环，计算链表长度，移动k的取模步数，断开环。
+// ```java
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null) return head;
@@ -25,4 +25,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

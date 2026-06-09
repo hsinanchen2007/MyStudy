@@ -1,6 +1,6 @@
-使用 Python3 的 `yield` 语法优化内存占用：
+# 使用 Python3 的 `yield` 语法优化内存占用：
 
-```python
+# ```python
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         return list(self.helper(root))
@@ -10,4 +10,4 @@ class Solution:
         yield from self.helper(node.left)
         yield node.val
         yield from self.helper(node.right)
-```
+# ```

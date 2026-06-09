@@ -1,9 +1,9 @@
-### 解题思路
-用二分法就得排序，排序最快平均也是O(nlogn)。
-空间换时间，用hash表存储就行，时间复杂度O(n)，dp不也是空间换时间吗？
+// ### 解题思路
+// 用二分法就得排序，排序最快平均也是O(nlogn)。
+// 空间换时间，用hash表存储就行，时间复杂度O(n)，dp不也是空间换时间吗？
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         if(nums1 == null || nums2 == null) {
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

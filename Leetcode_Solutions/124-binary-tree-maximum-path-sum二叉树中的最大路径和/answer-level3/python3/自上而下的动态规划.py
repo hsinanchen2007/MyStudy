@@ -1,22 +1,22 @@
-### 解题思路
-    max_(root) 是只能直线向下走，不能带有折点的最大路径
-    max_(root) = {
-        root.val, 
-        root.val + max_(root.right)
-        root.val + max_(root.left)
-    }
-    max(root) 是要求解的最大路径
-    max(root) = {
-        max(root.left), 
-        max(root.right), 
-        root.val + max_(root.right) + max_(root.left), 
-        max_(root)
-    }
-    再处理一下边界条件，就可以了
+# ### 解题思路
+#     max_(root) 是只能直线向下走，不能带有折点的最大路径
+#     max_(root) = {
+#         root.val, 
+#         root.val + max_(root.right)
+#         root.val + max_(root.left)
+#     }
+#     max(root) 是要求解的最大路径
+#     max(root) = {
+#         max(root.left), 
+#         max(root.right), 
+#         root.val + max_(root.right) + max_(root.left), 
+#         max_(root)
+#     }
+#     再处理一下边界条件，就可以了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -51,4 +51,4 @@ class Solution(object):
     def maxPathSum(self, root):
         return self.maxPathSumNew(root)[0]
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var s = '"aA"'
 var arrS = s.split('')
 var arrSA = []
@@ -21,5 +21,5 @@ for(var i=0; i<arrSI.length; i++){
     arrS[arrSI[i]] = arrSA[i] 
 }
 console.log('结果arrS--',arrS.join(''))
-```
-执行用时超过100%的用户，有点小兴奋虽然用了枚举，hihihi~
+// ```
+// 执行用时超过100%的用户，有点小兴奋虽然用了枚举，hihihi~

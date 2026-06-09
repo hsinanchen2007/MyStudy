@@ -1,8 +1,8 @@
-# 用链表+哈希表实现
-1.  用一个map存储key对应的value所在的节点。
-2. 用一个map存储使用次数对应的该链表区间的尾巴。
-3. 维护一个双向链表，链表右边即是最不常用的节点。
-```
+// # 用链表+哈希表实现
+// 1.  用一个map存储key对应的value所在的节点。
+// 2. 用一个map存储使用次数对应的该链表区间的尾巴。
+// 3. 维护一个双向链表，链表右边即是最不常用的节点。
+// ```
 class LFUCache {
         private Map<Integer,ListNode> map;//存储key对应的value所在的节点
         private Map<Integer,ListNode> tailMap;//存储每个区间的最左边
@@ -91,4 +91,4 @@ class LFUCache {
                 cnt=0;
             }
         }
-```
+// ```

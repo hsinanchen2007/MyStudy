@@ -1,5 +1,5 @@
-# 对于创建栈来说。使用链表更加合适
-```
+// # 对于创建栈来说。使用链表更加合适
+// ```
 type Node struct{
     Val int
     MinVal int
@@ -55,4 +55,4 @@ func (this *MinStack) GetMin() int {
     return this.dummy.Next.MinVal
 }
 
-```
+// ```

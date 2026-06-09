@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool lemonadeChange(int* bills, int billsSize) {
     int billKind[3] = {0,0,0};
     if(bills[0] == 10 || bills[0] == 20) {
@@ -35,4 +35,4 @@ bool lemonadeChange(int* bills, int billsSize) {
     }
     return true;
 }
-```
+// ```

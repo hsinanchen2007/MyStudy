@@ -1,5 +1,5 @@
-**1.递归**
-```c
+// **1.递归**
+// ```c
 bool isPowerOfThree(int n)
 {
     if(n <= 0)
@@ -8,9 +8,9 @@ bool isPowerOfThree(int n)
         return 1;
     return (n % 3 == 0) && isPowerOfThree(n / 3);
 }
-```
-**2.3进制+正则**
-```
+// ```
+// **2.3进制+正则**
+// ```
 class Solution {
 public:
     string ten2three(int n)
@@ -32,4 +32,4 @@ public:
         return regex_match(s, pat);
     }
 };
-```
+// ```

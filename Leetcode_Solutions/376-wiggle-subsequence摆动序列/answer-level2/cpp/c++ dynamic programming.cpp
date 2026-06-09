@@ -1,14 +1,14 @@
-### 动态规划
-1. 数据结构说明
-    * dp数组，dp[i]表示以nums[i]结尾的最长摆动序列长度
-    * directioins数组，dirctions[i]表示nums[i]结尾的最长摆动序列末尾元素的方向：0表示是起始点,1表示上升，2表示下降
-2. 算法
-    * 要计算以nums[i]结尾的最长摆动序列，就要变量j=1~i-1，能够加长只有两种情况
-        1. nums[j]<nums[i]&&directions[j]!=上升
-        2. nums[j]>nums[i]&&directions[j]!=下降
+// ### 动态规划
+// 1. 数据结构说明
+//     * dp数组，dp[i]表示以nums[i]结尾的最长摆动序列长度
+//     * directioins数组，dirctions[i]表示nums[i]结尾的最长摆动序列末尾元素的方向：0表示是起始点,1表示上升，2表示下降
+// 2. 算法
+//     * 要计算以nums[i]结尾的最长摆动序列，就要变量j=1~i-1，能够加长只有两种情况
+//         1. nums[j]<nums[i]&&directions[j]!=上升
+//         2. nums[j]>nums[i]&&directions[j]!=下降
 
-        保存符合条件的最优j，就是i的最佳前缀子序列
-```
+//         保存符合条件的最优j，就是i的最佳前缀子序列
+// ```
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {
@@ -54,4 +54,4 @@ public:
         return max_res;
     }
 };
-```
+// ```

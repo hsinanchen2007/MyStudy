@@ -1,5 +1,5 @@
-执行用时 :148 ms, 在所有 JavaScript 提交中击败了94.75%的用户
-```javascript []
+// 执行用时 :148 ms, 在所有 JavaScript 提交中击败了94.75%的用户
+// ```javascript []
 
 var stock;
 var minStock;
@@ -55,5 +55,5 @@ MinStack.prototype.getMin = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+-- ```
 select
 	seller_id
 from
@@ -8,4 +8,4 @@ from
 	from sales
 	group by seller_id)
 where rn = 1
-```
+-- ```

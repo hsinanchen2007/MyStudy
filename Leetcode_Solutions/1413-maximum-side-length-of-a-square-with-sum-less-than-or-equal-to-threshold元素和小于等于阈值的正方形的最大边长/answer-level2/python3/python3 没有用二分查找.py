@@ -1,12 +1,12 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/d7e88bf083220870513e7e4ce6709908940afeb0e4d9a13248587e80ecac280e-1.png)
+# ### 解题思路
+# ![1.png](https://pic.leetcode-cn.com/d7e88bf083220870513e7e4ce6709908940afeb0e4d9a13248587e80ecac280e-1.png)
 
-首先想办法找到计算 矩阵中任意一块矩形内部和的方法。
-再想办法去找边长。如果能找到合适的控制边长的条件，能节省很多次寻找。
+# 首先想办法找到计算 矩阵中任意一块矩形内部和的方法。
+# 再想办法去找边长。如果能找到合适的控制边长的条件，能节省很多次寻找。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:
         # 这是计算mat[0][0]到mat[i][j]的
@@ -70,4 +70,4 @@ class Solution:
                         continue
         # print(z)
         return z
-```
+# ```

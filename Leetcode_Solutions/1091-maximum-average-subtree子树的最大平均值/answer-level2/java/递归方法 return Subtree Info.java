@@ -1,8 +1,8 @@
-### 解题思路
-递归返回 subtree的 {node数量 和 nodes value sum}
-### 代码
+// ### 解题思路
+// 递归返回 subtree的 {node数量 和 nodes value sum}
+// ### 代码
 
-```java
+// ```java
 class Solution {
    double maxAvg = Double.NEGATIVE_INFINITY;
 
@@ -38,4 +38,4 @@ class Solution {
     }
   }
 }
-```
+// ```

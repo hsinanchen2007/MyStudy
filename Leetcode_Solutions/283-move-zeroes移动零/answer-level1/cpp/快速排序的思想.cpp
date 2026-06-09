@@ -1,9 +1,9 @@
-### 解题思路
-直接使用快速排序的写法就好
+// ### 解题思路
+// 直接使用快速排序的写法就好
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
             nums[j] = 0;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-简单计数然后遍历 t
-想要使用花哨计数，但发现无法使用在这一个题目上。
-与习题 [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) 相似。
+# ### 解题思路
+# 简单计数然后遍历 t
+# 想要使用花哨计数，但发现无法使用在这一个题目上。
+# 与习题 [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) 相似。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         num_str = [0]*26
@@ -31,4 +31,4 @@ class Solution:
         for x in num_str:  # 只需遍历 26
             if x != -1: # x 取 0 到 len(t)-1 都对
                 return t[x]   
-```
+# ```

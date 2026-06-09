@@ -1,9 +1,9 @@
-### 解题思路
-形参n你用int，实参你传个long
+// ### 解题思路
+// 形参n你用int，实参你传个long
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -31,4 +31,4 @@ public:
         else return res;
     }
 };
-```
+// ```

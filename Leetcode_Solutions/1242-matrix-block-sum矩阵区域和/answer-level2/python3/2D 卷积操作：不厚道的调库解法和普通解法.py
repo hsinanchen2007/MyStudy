@@ -1,7 +1,7 @@
-其实看到这题第一反应是这是一个2D卷积操作，而且卷积核是固定的，所以实现思路就有两种：
+# 其实看到这题第一反应是这是一个2D卷积操作，而且卷积核是固定的，所以实现思路就有两种：
 
-# 调库
-```python
+# # 调库
+# ```python
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], K: int) -> List[List[int]]:
         import numpy as np
@@ -10,11 +10,11 @@ class Solution:
         np_filter = np.ones((2 * K + 1, 2 * K + 1))
         res = signal.convolve2d(np_mat, np_filter, mode='same')
         return res.astype(int).tolist()
-```
+# ```
 
-# 普通解法
-先对行进行卷积得到`ans`1，在对`ans1`列进行卷积得到最终结果。
-```python
+# # 普通解法
+# 先对行进行卷积得到`ans`1，在对`ans1`列进行卷积得到最终结果。
+# ```python
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], K: int) -> List[List[int]]:
         import numpy as np
@@ -43,4 +43,4 @@ class Solution:
                 ans2[i][j] = sum([ans[_][j] for _ in range(tmp, tmp2)])
         # print(ans2)
         return ans2
-```
+# ```

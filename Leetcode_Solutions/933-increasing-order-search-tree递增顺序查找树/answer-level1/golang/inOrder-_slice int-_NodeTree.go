@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -34,4 +34,4 @@ func inOrder(root *TreeNode,list *[]int){
     *list = append(*list,root.Val)
     inOrder(root.Right,list)
 }
-```
+// ```

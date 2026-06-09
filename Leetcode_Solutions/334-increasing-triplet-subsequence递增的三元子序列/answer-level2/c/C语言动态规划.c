@@ -1,4 +1,4 @@
-```
+// ```
 bool increasingTriplet(int* nums, int numsSize){
     int* dp = (int*)malloc(sizeof(int) * numsSize);
     int i, j;
@@ -22,4 +22,4 @@ bool increasingTriplet(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

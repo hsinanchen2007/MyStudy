@@ -1,14 +1,14 @@
-### 解题思路
-方法：用res（List）记录结果；遍历intervals，如果可合并就合并，令mark[i]]=1，下次可不用遍历。
+# ### 解题思路
+# 方法：用res（List）记录结果；遍历intervals，如果可合并就合并，令mark[i]]=1，下次可不用遍历。
 
-本来以为很简单的题，到最后花了很多时间，总结原因：
-1/ 合并情况分类不全
-2/ 先开始不排序讨论情况会更复杂一些
+# 本来以为很简单的题，到最后花了很多时间，总结原因：
+# 1/ 合并情况分类不全
+# 2/ 先开始不排序讨论情况会更复杂一些
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort()
@@ -41,4 +41,4 @@ class Solution:
             res.append([r_left, r_right])
         return res
 
-```
+# ```

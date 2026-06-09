@@ -1,7 +1,7 @@
-和大家的思路都一样啦，只不过代码会稍微简短一些，性能上应该没差多少吧。
+# 和大家的思路都一样啦，只不过代码会稍微简短一些，性能上应该没差多少吧。
 
 
-```
+# ```
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums.sort()
@@ -21,4 +21,4 @@ class Solution:
                 if abs(thisSum-target) < abs(best-target):
                     best = thisSum
         return best
-```
+# ```

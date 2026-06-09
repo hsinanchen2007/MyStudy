@@ -1,9 +1,9 @@
-### 解题思路
-两边队列都full的时候，清空并开始下一轮输出
+# ### 解题思路
+# 两边队列都full的时候，清空并开始下一轮输出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 
 class H2O:
@@ -31,4 +31,4 @@ class H2O:
             self.h.get()
             self.h.get()
 
-```
+# ```

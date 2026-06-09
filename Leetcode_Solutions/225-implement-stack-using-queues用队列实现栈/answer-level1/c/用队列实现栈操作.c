@@ -1,21 +1,21 @@
-### 解题思路
-建立一个队列
-入栈操作=入队操作
-出栈操作=依次让元素出队列，入到新队列中。最后一个元素出队之后作为出栈函数的返回值，不入新队。用新队替换旧队列。
-栈顶操作=同出栈操作，只不过最后一个元素入新队。
-判断栈空=判断队列空
+// ### 解题思路
+// 建立一个队列
+// 入栈操作=入队操作
+// 出栈操作=依次让元素出队列，入到新队列中。最后一个元素出队之后作为出栈函数的返回值，不入新队。用新队替换旧队列。
+// 栈顶操作=同出栈操作，只不过最后一个元素入新队。
+// 判断栈空=判断队列空
 
-队列自己写，申请堆内存+int head+int rear组成，申请堆内存的好处是可以动态更改队列容量。
-入队：rear=(rear+1)%size; queue[rear]=newValue;
-出队：head=(head+1)%size; newValue=queue[head];
-队满：(rear+1)%size==head;
-队空：head==rear;
-初试状态 head=rear=0;首次入队操作是从queue[1]开始装元素。
+// 队列自己写，申请堆内存+int head+int rear组成，申请堆内存的好处是可以动态更改队列容量。
+// 入队：rear=(rear+1)%size; queue[rear]=newValue;
+// 出队：head=(head+1)%size; newValue=queue[head];
+// 队满：(rear+1)%size==head;
+// 队空：head==rear;
+// 初试状态 head=rear=0;首次入队操作是从queue[1]开始装元素。
 
-注意：C 不能用 new 和 delete 运算符，用 malloc()和free()替代
-### 代码
+// 注意：C 不能用 new 和 delete 运算符，用 malloc()和free()替代
+// ### 代码
 
-```c
+// ```c
 typedef struct {
 	int size;
 	int *queue;
@@ -121,4 +121,4 @@ bool myStackEmpty(MyStack* obj) {
 void myStackFree(MyStack* obj) {
 	free(obj->queue);
 }
-```
+// ```

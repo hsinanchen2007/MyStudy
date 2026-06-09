@@ -1,9 +1,9 @@
-### 解题思路
-indexOf 比 findIndex 快贼多
+// ### 解题思路
+// indexOf 比 findIndex 快贼多
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -27,4 +27,4 @@ var twoSum = function(nums, target) {
     }
     return keys;
 };
-```
+// ```

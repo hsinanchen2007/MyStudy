@@ -1,5 +1,5 @@
-按xor值分组搞就好了嗷，奥利给
-```c++
+// 按xor值分组搞就好了嗷，奥利给
+// ```c++
 class Solution {
 public:
   vector<int> singleNumbers(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
     return ret;
   }
 };
-```
+// ```

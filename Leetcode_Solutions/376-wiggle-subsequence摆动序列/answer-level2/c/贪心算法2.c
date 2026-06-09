@@ -1,11 +1,11 @@
-### 解题思路
-贪心算法+状态机实现
-![贪心2.jpeg](https://pic.leetcode-cn.com/29d5b248da7861914e592c9a09a90a38116f8203d32d6b3fbe2e3c6461b30a26-%E8%B4%AA%E5%BF%832.jpeg)
+// ### 解题思路
+// 贪心算法+状态机实现
+// ![贪心2.jpeg](https://pic.leetcode-cn.com/29d5b248da7861914e592c9a09a90a38116f8203d32d6b3fbe2e3c6461b30a26-%E8%B4%AA%E5%BF%832.jpeg)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int wiggleMaxLength(int* nums, int numsSize){
     if (numsSize == 0)
     {
@@ -62,4 +62,4 @@ int wiggleMaxLength(int* nums, int numsSize){
     return maxLength;
 
 }
-```
+// ```

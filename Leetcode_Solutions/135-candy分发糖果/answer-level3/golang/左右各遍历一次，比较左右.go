@@ -1,9 +1,9 @@
-### 解题思路
-左右各遍历一次，比较左右
+// ### 解题思路
+// 左右各遍历一次，比较左右
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func candy(ratings []int) int {
     l := len(ratings) 
     if l == 0 {
@@ -30,4 +30,4 @@ func candy(ratings []int) int {
     }
     return sum
 }
-```
+// ```

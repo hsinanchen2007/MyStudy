@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         judge = {}
@@ -25,4 +25,4 @@ class Solution:
             if k not in judge.keys() and v == N-1:
                 return k
         return -1
-```
+# ```

@@ -1,7 +1,7 @@
-从[@tuffy](/u/tuffy)和[@coder](/u/coder)的解得到启发
-也是树里面比较有意思的一题
+# 从[@tuffy](/u/tuffy)和[@coder](/u/coder)的解得到启发
+# 也是树里面比较有意思的一题
 
-```
+# ```
 class Solution:
     def verifyPreorder(self, preorder: List[int]) -> bool:
         if preorder:
@@ -19,4 +19,4 @@ class Solution:
                 st.append(e)
             return True
         return True
-```
+# ```

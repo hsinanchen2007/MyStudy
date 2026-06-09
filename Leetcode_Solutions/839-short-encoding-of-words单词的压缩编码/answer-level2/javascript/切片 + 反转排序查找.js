@@ -1,9 +1,9 @@
-### 解题思路
-方法一、反转 + 排序 + 字符串查找
+// ### 解题思路
+// 方法一、反转 + 排序 + 字符串查找
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -28,9 +28,9 @@ var minimumLengthEncoding = function(words) {
     }
     return res;
 };
-```
-方法二、Set、切片、has()、delete()
-```
+// ```
+// 方法二、Set、切片、has()、delete()
+// ```
 var minimumLengthEncoding = function(words) {
 //首先使用 Set 去除重复的单词，则在set中的单词肯定都不重复
     var hashset = new Set(words)
@@ -51,4 +51,4 @@ var minimumLengthEncoding = function(words) {
     })
     return res;
 };
-```
+// ```

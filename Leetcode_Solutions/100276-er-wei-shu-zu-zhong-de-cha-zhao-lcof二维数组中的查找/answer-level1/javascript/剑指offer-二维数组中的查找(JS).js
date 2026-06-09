@@ -1,4 +1,4 @@
-```js
+// ```js
 var findNumberIn2DArray = function(matrix, target) {
   let row = matrix.length - 1;
   let col = 0;
@@ -13,4 +13,4 @@ var findNumberIn2DArray = function(matrix, target) {
   }
   return false;
 };
-```
+// ```

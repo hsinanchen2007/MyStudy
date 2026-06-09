@@ -1,10 +1,10 @@
-### 解题思路
-解题思路见官方题解。
-自己犯的两个错误，一个是合并两个链表时，不需要new node出来，直接next指向就可以了。另一个问题是middle计算时记得加上start值。
+// ### 解题思路
+// 解题思路见官方题解。
+// 自己犯的两个错误，一个是合并两个链表时，不需要new node出来，直接next指向就可以了。另一个问题是middle计算时记得加上start值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -57,4 +57,4 @@ class Solution {
         return mergeDummy.next;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用队列辅助做层次遍历的方法解决问题。序列化时，使用StringBuilder.append的方式拼接字符串比String直接相加的方式快很多。
-2. 因为String拼接字符串会频繁开辟新内存，速度变慢。
+// ### 解题思路
+// 1. 使用队列辅助做层次遍历的方法解决问题。序列化时，使用StringBuilder.append的方式拼接字符串比String直接相加的方式快很多。
+// 2. 因为String拼接字符串会频繁开辟新内存，速度变慢。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -65,4 +65,4 @@ public class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```

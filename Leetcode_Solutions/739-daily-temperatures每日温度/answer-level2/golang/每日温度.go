@@ -1,9 +1,9 @@
-### 解题思路
-使用单调递增栈存储下标, 然后逆序遍历
+// ### 解题思路
+// 使用单调递增栈存储下标, 然后逆序遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func dailyTemperatures(T []int) []int {
 	stack := make([]int, 0, len(T))
 	result := make([]int, len(T))
@@ -18,4 +18,4 @@ func dailyTemperatures(T []int) []int {
 	}
 	return result
 }
-```
+// ```

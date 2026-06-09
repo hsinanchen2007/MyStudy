@@ -1,11 +1,11 @@
-### 解题思路
-单向链表＋哈希表实现LRU缓存
-单向链表储存下一节点
-哈希表node.key作为键，值为链表类型，储存当前节点的上一节点
+# ### 解题思路
+# 单向链表＋哈希表实现LRU缓存
+# 单向链表储存下一节点
+# 哈希表node.key作为键，值为链表类型，储存当前节点的上一节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class LinkedList:
     def __init__(self, key, val):
         self.key = key
@@ -70,4 +70,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

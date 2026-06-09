@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/5c04f0c03f42670cfe552890dd492854c7a1b18890e47cdba39fd68e40e10545-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5c04f0c03f42670cfe552890dd492854c7a1b18890e47cdba39fd68e40e10545-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxCount(int m, int n, vector<vector<int>>& ops) {
@@ -16,4 +16,4 @@ public:
         return m*n;
     }
 };
-```
+// ```

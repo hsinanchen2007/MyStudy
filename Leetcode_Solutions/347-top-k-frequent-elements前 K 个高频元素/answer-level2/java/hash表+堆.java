@@ -1,9 +1,9 @@
-### 解题思路
-先统计次数，然后通过堆来求得topK
+// ### 解题思路
+// 先统计次数，然后通过堆来求得topK
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer,Integer> counter = new HashMap<>( nums.length );
@@ -35,4 +35,4 @@ class Solution {
         return collect;
     }
 }
-```
+// ```

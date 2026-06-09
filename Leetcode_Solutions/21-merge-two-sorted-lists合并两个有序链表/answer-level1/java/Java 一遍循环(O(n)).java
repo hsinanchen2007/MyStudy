@@ -1,9 +1,9 @@
-### 解题思路
-当l1和l2都不是空的时候，每次比较l1和l2的值的大小，先把小的一方填入result即可。当任意一方为空的时候，如果另外一方还有节点，则另一方接入到结果的末尾。
+// ### 解题思路
+// 当l1和l2都不是空的时候，每次比较l1和l2的值的大小，先把小的一方填入result即可。当任意一方为空的时候，如果另外一方还有节点，则另一方接入到结果的末尾。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

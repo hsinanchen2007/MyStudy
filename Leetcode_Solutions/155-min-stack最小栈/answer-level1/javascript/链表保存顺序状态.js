@@ -1,9 +1,9 @@
-### 解题思路
-使用链表保存从小打大的节点，第一次push初始化链表头节点值
+// ### 解题思路
+// 使用链表保存从小打大的节点，第一次push初始化链表头节点值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * initialize your data structure here.
  */
@@ -71,4 +71,4 @@ MinStack.prototype.getMin = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
-```
+// ```

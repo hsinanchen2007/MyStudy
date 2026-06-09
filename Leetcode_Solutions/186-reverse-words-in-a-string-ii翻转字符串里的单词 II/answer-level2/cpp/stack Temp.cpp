@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/dc06189fee0dbea6d0f4b7fe79c7b7947db7bf32a8b2903e6dbdc3bd6f160592-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/dc06189fee0dbea6d0f4b7fe79c7b7947db7bf32a8b2903e6dbdc3bd6f160592-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseWords(vector<char>& s) {
@@ -31,4 +31,4 @@ public:
         s.pop_back();
     }
 };
-```
+// ```

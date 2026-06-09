@@ -1,10 +1,10 @@
 
-同时易懂就是剥洋葱！
-最终目的是找到一个节点，这个节点 距离叶子界面最远，那么**我们每次减叶子，叶子剪完了，留下来的就是 树根了**。
+// 同时易懂就是剥洋葱！
+// 最终目的是找到一个节点，这个节点 距离叶子界面最远，那么**我们每次减叶子，叶子剪完了，留下来的就是 树根了**。
 
-![image.png](https://pic.leetcode-cn.com/c732de71df54cc7da61b5139feef994d3b24ae66a29232db28cd15ad95046623-image.png)
-### 邻接链表
-```
+// ![image.png](https://pic.leetcode-cn.com/c732de71df54cc7da61b5139feef994d3b24ae66a29232db28cd15ad95046623-image.png)
+// ### 邻接链表
+// ```
 func findMinHeightTrees(_ n: Int, _ edges: [[Int]]) -> [Int] {
 	if n == 1{
 		return [0]
@@ -55,9 +55,9 @@ func findMinHeightTrees(_ n: Int, _ edges: [[Int]]) -> [Int] {
 	
 	return [0]
 }
-```
-### 邻接矩阵
-```
+// ```
+// ### 邻接矩阵
+// ```
 func findMinHeightTrees(_ n: Int, _ edges: [[Int]]) -> [Int] {
    if n < 1 {
 	   return [Int]()
@@ -118,9 +118,9 @@ func findMinHeightTrees(_ n: Int, _ edges: [[Int]]) -> [Int] {
 		
 	}
 }
-```
-![sf (1).png](https://pic.leetcode-cn.com/4d3413897b51b7112490542cc07f044ef938ec84adfa6a89b24b4dc06d83b9a5-sf%20\(1\).png)
+// ```
+// ![sf (1).png](https://pic.leetcode-cn.com/4d3413897b51b7112490542cc07f044ef938ec84adfa6a89b24b4dc06d83b9a5-sf%20\(1\).png)
 
-**[跟多代码题解 在github 欢迎start！！！](https://github.com/ifgyong/SF#310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91)
-[跟多代码题解 在github 欢迎start！！！](https://github.com/ifgyong/SF#310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91)
-[跟多代码题解 在github 欢迎start！！！](https://github.com/ifgyong/SF#310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91)**
+// **[跟多代码题解 在github 欢迎start！！！](https://github.com/ifgyong/SF#310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91)
+// [跟多代码题解 在github 欢迎start！！！](https://github.com/ifgyong/SF#310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91)
+// [跟多代码题解 在github 欢迎start！！！](https://github.com/ifgyong/SF#310-%E6%9C%80%E5%B0%8F%E9%AB%98%E5%BA%A6%E6%A0%91)**

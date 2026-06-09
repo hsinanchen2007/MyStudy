@@ -1,9 +1,9 @@
-### 解题思路
-每一行的字符索引只和该行**第一个字符的索引**以及**行号**有关。
+// ### 解题思路
+// 每一行的字符索引只和该行**第一个字符的索引**以及**行号**有关。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convert(char * s, int numRows)
 {
     int len = strlen(s);
@@ -37,4 +37,4 @@ char * convert(char * s, int numRows)
     ret[k] = '\0';
     return ret;
 }
-```
+// ```

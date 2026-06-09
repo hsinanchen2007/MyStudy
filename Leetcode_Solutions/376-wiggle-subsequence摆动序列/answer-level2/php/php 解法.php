@@ -1,4 +1,4 @@
-```
+// ```
 function wiggleMaxLength($nums) {
     if(count($nums)<2) return count($nums);
     $down = 1;
@@ -9,4 +9,4 @@ function wiggleMaxLength($nums) {
     }
     return max($up,$down);
 }
-```
+// ```

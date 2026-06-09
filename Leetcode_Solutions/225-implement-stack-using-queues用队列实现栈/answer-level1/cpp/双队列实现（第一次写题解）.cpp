@@ -1,22 +1,22 @@
-### 解题思路
-每次先向queue in中加入元素，加入后将Out中元素移入in，交换in和 out，举个栗子：比如向队列中依次加入 1 ，2 .
-加入1时：
-in ：1
-out: 
-交换:
-in: 
-out : 1
+// ### 解题思路
+// 每次先向queue in中加入元素，加入后将Out中元素移入in，交换in和 out，举个栗子：比如向队列中依次加入 1 ，2 .
+// 加入1时：
+// in ：1
+// out: 
+// 交换:
+// in: 
+// out : 1
 
-加入2时：
-in ：2,1
-out: 
-交换
-in: 
-out : 2,1
+// 加入2时：
+// in ：2,1
+// out: 
+// 交换
+// in: 
+// out : 2,1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     queue<int> in;
@@ -53,4 +53,4 @@ public:
         return in.empty()&&out.empty();
     }
 };
-```
+// ```

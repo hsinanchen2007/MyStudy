@@ -1,11 +1,11 @@
-### 解题思路
-1. 不在范围内
-2. 有此目标值
-3. 目标值在其中两值范围
+# ### 解题思路
+# 1. 不在范围内
+# 2. 有此目标值
+# 3. 目标值在其中两值范围
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if target<nums[0]:
@@ -18,4 +18,4 @@ class Solution:
                 return i
             elif nums[i-1]<target<nums[i]:
                 return i
-```
+# ```

@@ -1,5 +1,5 @@
-滑动窗口实现：用max记录一个窗口中的最大值，每次滑动进行判断，如果新滑进来的右边界的数比当前最大值max大的话，那么更新max为这个值，如果max刚好等于即将要淘汰的左边界的值的话，那么需要重新再这个新窗口中寻找最大值max。
-```
+// 滑动窗口实现：用max记录一个窗口中的最大值，每次滑动进行判断，如果新滑进来的右边界的数比当前最大值max大的话，那么更新max为这个值，如果max刚好等于即将要淘汰的左边界的值的话，那么需要重新再这个新窗口中寻找最大值max。
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int len = nums.length;
@@ -29,4 +29,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-利用栈先进先出特性，维护俩个栈。并使一个栈的栈顶是头部元素，另一个栈的栈顶是尾部元素
+// 利用栈先进先出特性，维护俩个栈。并使一个栈的栈顶是头部元素，另一个栈的栈顶是尾部元素
 
-```
+// ```
 class MyCircularDeque {
 
     Stack<Integer> head;
@@ -99,4 +99,4 @@ class MyCircularDeque {
             return head.size() + tail.size() >= size;
         }
 }
-```
+// ```

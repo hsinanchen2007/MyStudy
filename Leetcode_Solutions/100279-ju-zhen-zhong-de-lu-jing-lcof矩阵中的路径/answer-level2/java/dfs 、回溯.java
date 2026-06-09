@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public boolean exist(char[][] board, String word) {
 		boolean[][] vist=new boolean[board.length][board[0].length];
@@ -43,4 +43,4 @@ class Solution {
 		return flag;
 	}
 }
-```
+// ```

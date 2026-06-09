@@ -1,9 +1,9 @@
-### 解题思路
-BFS，和单词接龙那道题一样。
+// ### 解题思路
+// BFS，和单词接龙那道题一样。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int openLock(String[] deadends, String target) {
         if(target.equals("0000")){
@@ -70,4 +70,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

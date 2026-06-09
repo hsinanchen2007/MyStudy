@@ -1,12 +1,12 @@
-### 解题思路
-1. 建立一个hash表
-2. 遍历A，B数组A[i] == B[i] => hashTable[A[i]]++; A[i] != B[i] => hashTable[A[i]]++, hashTable[B[i]]++;
-3. 观察hashTable里是否有记录等于A.size()
-4. 最后在求最少要交换几次就ok了
-5. 时间和内存消耗都比较高，仅供初学者借鉴
-### 代码
+// ### 解题思路
+// 1. 建立一个hash表
+// 2. 遍历A，B数组A[i] == B[i] => hashTable[A[i]]++; A[i] != B[i] => hashTable[A[i]]++, hashTable[B[i]]++;
+// 3. 观察hashTable里是否有记录等于A.size()
+// 4. 最后在求最少要交换几次就ok了
+// 5. 时间和内存消耗都比较高，仅供初学者借鉴
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int toRes(vector<int>& arr, int target) {
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

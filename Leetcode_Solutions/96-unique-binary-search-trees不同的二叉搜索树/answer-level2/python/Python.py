@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numTrees(self, n):
         a=[0]*(n+1)
@@ -17,4 +17,4 @@ class Solution(object):
 
 
         return a[n]
-```
+# ```

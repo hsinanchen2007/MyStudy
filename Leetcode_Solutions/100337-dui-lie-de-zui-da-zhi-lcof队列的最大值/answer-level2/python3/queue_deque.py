@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1. 创建双端队列
-2. 取元素前判断队列是否为空，如果是，则返回-1
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 创建双端队列
+# 2. 取元素前判断队列是否为空，如果是，则返回-1
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -25,4 +25,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

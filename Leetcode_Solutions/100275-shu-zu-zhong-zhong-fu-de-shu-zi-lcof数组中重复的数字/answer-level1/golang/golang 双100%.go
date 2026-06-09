@@ -1,9 +1,9 @@
-### 解题思路
-构造一个nums[i] = i的数组
+// ### 解题思路
+// 构造一个nums[i] = i的数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     cur := 0
     n := len(nums)
@@ -18,4 +18,4 @@ func findRepeatNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

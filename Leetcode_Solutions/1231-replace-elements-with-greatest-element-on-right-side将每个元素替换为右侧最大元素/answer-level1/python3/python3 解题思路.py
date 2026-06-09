@@ -1,12 +1,12 @@
-### 解题思路
-执行用时 : 112 ms , 在所有 python3 提交中击败了 100.00% 的用户
-内存消耗 : 14.1 MB , 在所有 python3 提交中击败了 100.00% 的用户
+# ### 解题思路
+# 执行用时 : 112 ms , 在所有 python3 提交中击败了 100.00% 的用户
+# 内存消耗 : 14.1 MB , 在所有 python3 提交中击败了 100.00% 的用户
 
-简单一句话：避免重复计算右边的最大值
+# 简单一句话：避免重复计算右边的最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         result = []
@@ -27,4 +27,4 @@ class Solution:
         result.append(-1)
         return result
             
-```
+# ```

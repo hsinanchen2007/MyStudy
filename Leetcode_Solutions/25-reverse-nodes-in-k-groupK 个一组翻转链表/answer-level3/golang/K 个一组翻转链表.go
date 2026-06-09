@@ -1,9 +1,9 @@
-### 解题思路
-翻转子链表
+// ### 解题思路
+// 翻转子链表
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	if k <= 0 {
 		return head
@@ -44,4 +44,4 @@ func reverseK(head *ListNode, k int) (*ListNode, *ListNode) {
 	return prev, curr
 }
 
-```
+// ```

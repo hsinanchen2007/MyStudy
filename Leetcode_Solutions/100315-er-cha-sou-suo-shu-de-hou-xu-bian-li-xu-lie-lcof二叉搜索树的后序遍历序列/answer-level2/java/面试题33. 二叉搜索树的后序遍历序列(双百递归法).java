@@ -1,9 +1,9 @@
-### 解题思路
-主要使用了分左右子树递归的思想。先找到规律，每个数组最后一个元素是根节点，左子树都小于根节点，右子树都大于根节点，于是两个子树分成两个数组，将两个数组继续递归求是否是BST，最后返回boolean，详细看注释
+// ### 解题思路
+// 主要使用了分左右子树递归的思想。先找到规律，每个数组最后一个元素是根节点，左子树都小于根节点，右子树都大于根节点，于是两个子树分成两个数组，将两个数组继续递归求是否是BST，最后返回boolean，详细看注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         int l=postorder.length;
@@ -36,4 +36,4 @@ class Solution {
         return right&&left;
     }
 }
-```
+// ```

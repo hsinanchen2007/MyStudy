@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-后k个数向前“冒泡”，当前方数据个数不足k个时，前面的数据向后移动。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 后k个数向前“冒泡”，当前方数据个数不足k个时，前面的数据向后移动。
+// ### 代码
 
-```c
+// ```c
 void rotate(int* nums, int numsSize, int k){
     
     if(k>numsSize)
@@ -32,4 +32,4 @@ void rotate(int* nums, int numsSize, int k){
         }
     }
 }
-```
+// ```

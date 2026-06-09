@@ -1,9 +1,9 @@
-### 解题思路
-官方的双端队列python方法优化了一下
+# ### 解题思路
+# 官方的双端队列python方法优化了一下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 优化了官方题解，用双端队列
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
@@ -33,4 +33,4 @@ class Solution:
         return output_list[-(length-k+1):]
 
   
-```
+# ```

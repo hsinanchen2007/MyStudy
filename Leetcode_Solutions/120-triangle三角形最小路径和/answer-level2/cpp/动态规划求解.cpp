@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，就是用当前行的数据和上一行的相比较然后选择小的相加即可
+// ### 解题思路
+// 思路很简单，就是用当前行的数据和上一行的相比较然后选择小的相加即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -43,4 +43,4 @@ public:
               return dp[triangle.size()-1][triangle.size()-1];
     }
 };
-```
+// ```

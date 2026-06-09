@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def duplicateZeros(self, arr):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         # 将数组的长度恢复
         for i in range(len(arr)-l):
             arr.pop()
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1 手写一个hashmap
-2 重复的key移除
-3 剩余hashmap中的两个key就是要求的key
+// ### 解题思路
+// 1 手写一个hashmap
+// 2 重复的key移除
+// 3 剩余hashmap中的两个key就是要求的key
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -229,4 +229,4 @@ int* singleNumbers(int* nums, int numsSize, int* returnSize){
     *returnSize = 0;
     return NULL;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-python的缺点是性能，暴力解决不了这道题，需要用hash。
+# ### 解题思路
+# python的缺点是性能，暴力解决不了这道题，需要用hash。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         # count = 0
@@ -26,4 +26,4 @@ class Solution:
                 hash_tbl[sumnums] = 1
         return count
 
-```
+# ```

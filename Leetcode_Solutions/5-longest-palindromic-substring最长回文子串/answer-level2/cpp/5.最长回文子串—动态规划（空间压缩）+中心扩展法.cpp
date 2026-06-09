@@ -1,5 +1,5 @@
-方法一、动态规划
-```
+// 方法一、动态规划
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -19,9 +19,9 @@ public:
         return s.substr(st,maxlen);
     }
 };
-```
-空间压缩
-```
+// ```
+// 空间压缩
+// ```
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -42,9 +42,9 @@ public:
         return s.substr(st,maxlen);
     }
 };
-```
-方法二、中心扩展法
-```
+// ```
+// 方法二、中心扩展法
+// ```
 class Solution {
 public:   
     string longestPalindrome(string s) {
@@ -75,5 +75,5 @@ private:
         return right-left-1;
     }
 };
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-1、分别创建两个字典，Key是字符、Value是出现次数；
-2、如果Key都在两个字典，并且Value相同，则相同，否则不同；
+# ### 解题思路
+# 1、分别创建两个字典，Key是字符、Value是出现次数；
+# 2、如果Key都在两个字典，并且Value相同，则相同，否则不同；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -33,4 +33,4 @@ class Solution(object):
                 return False
         return True
 
-```
+# ```

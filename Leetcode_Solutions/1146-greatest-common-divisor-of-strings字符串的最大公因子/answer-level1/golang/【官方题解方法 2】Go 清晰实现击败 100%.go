@@ -1,7 +1,7 @@
-官方题解 2 基于这样的事实：
+// 官方题解 2 基于这样的事实：
 
-如果 S 是 s1 和 s2 的最大公因串，那么 `S = s1[:gcd(len(s1), len(s2))]`。 另附一个枚举法实现。
-```go []
+// 如果 S 是 s1 和 s2 的最大公因串，那么 `S = s1[:gcd(len(s1), len(s2))]`。 另附一个枚举法实现。
+// ```go []
 func gcdOfStrings(str1 string, str2 string) string {
 	G := gcd(len(str1), len(str2)) // 最大公约数
 	S := str1[:G]                  // 最大公因子 串
@@ -30,8 +30,8 @@ func check(s, t string) bool {
 
 	return s == ""
 }
-```
-```go []
+// ```
+// ```go []
 // 枚举法
 func gcdOfStrings0(str1 string, str2 string) string {
 	if len(str1) < len(str2) {
@@ -58,4 +58,4 @@ func check(s, t string) bool {
 
 	return s == ""
 }
-```
+// ```

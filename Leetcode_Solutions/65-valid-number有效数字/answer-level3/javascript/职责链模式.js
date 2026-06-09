@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -185,6 +185,6 @@ function process(validators) {
         validate(data, next)
     )
 }
-```
+// ```
 
-具体思路：[关于用设计模式刷 LeetCode 这件事](https://juejin.im/post/5e8afbc4f265da47e22f1509)
+// 具体思路：[关于用设计模式刷 LeetCode 这件事](https://juejin.im/post/5e8afbc4f265da47e22f1509)

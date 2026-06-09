@@ -1,13 +1,13 @@
-### 解题思路
-链表删除比较简单，解题思路如下：
-1 入参判断
-2 判断头节点的值是否与val相同
-3 判断其他节点是否与val相同
-4 返回头节点
+// ### 解题思路
+// 链表删除比较简单，解题思路如下：
+// 1 入参判断
+// 2 判断头节点的值是否与val相同
+// 3 判断其他节点是否与val相同
+// 4 返回头节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode* deleteNode(struct ListNode* head, int val)
     prev->next = curr->next;
     return head;
 }
-```
+// ```

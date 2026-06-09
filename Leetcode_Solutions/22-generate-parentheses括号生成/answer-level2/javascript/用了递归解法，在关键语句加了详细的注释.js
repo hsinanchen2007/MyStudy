@@ -1,9 +1,9 @@
-### 
-- 执行用时 :56 ms, 在所有 JavaScript 提交中击败了96.77%的用户
-- 内存消耗 :34.7 MB, 在所有 JavaScript 提交中击败了89.47%的用户
-### 代码
+// ### 
+// - 执行用时 :56 ms, 在所有 JavaScript 提交中击败了96.77%的用户
+// - 内存消耗 :34.7 MB, 在所有 JavaScript 提交中击败了89.47%的用户
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -24,4 +24,4 @@ var generateParenthesis = function (n) {
     go(0, 0, "")//调用go方法，传入初始左右括号数各为0，初始空字符串“”
     return result
 };
-```
+// ```

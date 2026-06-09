@@ -1,9 +1,9 @@
-### 解题思路
-记录最远点
+// ### 解题思路
+// 记录最远点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return true;
     }
 };
-```
+// ```

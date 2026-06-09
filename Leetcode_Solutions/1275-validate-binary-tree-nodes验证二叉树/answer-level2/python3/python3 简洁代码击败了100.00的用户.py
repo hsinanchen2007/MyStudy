@@ -1,13 +1,13 @@
-### 解题思路
-一棵二叉树需要满足以下要求：
+# ### 解题思路
+# 一棵二叉树需要满足以下要求：
 
-    1.一个顶点的出度最多为2，入度最多为1;
+#     1.一个顶点的出度最多为2，入度最多为1;
     
-    2.只有一个根节点，即有且只有一个节点的入度为0。
+#     2.只有一个根节点，即有且只有一个节点的入度为0。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:
@@ -28,5 +28,5 @@ class Solution:
         if 0 not in d or d[0] != 1:
             return False
         return True
-```
-欢迎关注的我的[github](https://github.com/tcandzq/LeetCode)，查看更多精彩题解。
+# ```
+# 欢迎关注的我的[github](https://github.com/tcandzq/LeetCode)，查看更多精彩题解。

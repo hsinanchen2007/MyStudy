@@ -1,10 +1,10 @@
-### 解题思路
-- 核心要点：自定义cmp比较函数，不交换数组中的a和b当且仅当to_string(a)+to_string(b)<to_string(b)+to_string(a)
-- 执行用时 :52 ms, 在所有 C++ 提交中击败了7.16%的用户
-- 内存消耗 :11.1 MB, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// - 核心要点：自定义cmp比较函数，不交换数组中的a和b当且仅当to_string(a)+to_string(b)<to_string(b)+to_string(a)
+// - 执行用时 :52 ms, 在所有 C++ 提交中击败了7.16%的用户
+// - 内存消耗 :11.1 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(int a,int b){
@@ -19,4 +19,4 @@ public:
         return result;
     }
 };
-```
+// ```

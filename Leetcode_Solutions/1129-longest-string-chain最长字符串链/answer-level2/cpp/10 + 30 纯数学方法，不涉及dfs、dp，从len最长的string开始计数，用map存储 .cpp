@@ -1,22 +1,22 @@
-### 解题思路
-mStrChain[s] = max(mStrChain[s], mStrChain[ls] + 1);
+// ### 解题思路
+// mStrChain[s] = max(mStrChain[s], mStrChain[ls] + 1);
 
-1. string删除特定位置字符，10行代码2处致命错误也是可以;
-2. 这个最长链起始可以从任一位置开始
-3. 判断是否是前身string有更好的方法吗？
-    bool judge(const string &prefix, const string &target){
-        vector<int> count(26,0);
-        for(auto val : target) count[val-'a']++;
-        for(auto val : prefix){
-            count[val-'a']--;
-            if(count[val-'a']<0) return false;
-        }
-        return true;
-    }
+// 1. string删除特定位置字符，10行代码2处致命错误也是可以;
+// 2. 这个最长链起始可以从任一位置开始
+// 3. 判断是否是前身string有更好的方法吗？
+//     bool judge(const string &prefix, const string &target){
+//         vector<int> count(26,0);
+//         for(auto val : target) count[val-'a']++;
+//         for(auto val : prefix){
+//             count[val-'a']--;
+//             if(count[val-'a']<0) return false;
+//         }
+//         return true;
+//     }
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool IsPre(string s1, string s2) {
@@ -63,4 +63,4 @@ public:
         return ans;
     }
 };
-```
+// ```

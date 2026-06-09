@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         n1 = len(nums)
@@ -22,4 +22,4 @@ class Solution:
             if result1 == []:
                 result2.insert(0,[])
                 return(result2)
-```
+# ```

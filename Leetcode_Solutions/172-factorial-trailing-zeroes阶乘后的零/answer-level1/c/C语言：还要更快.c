@@ -1,4 +1,4 @@
-```
+// ```
 int trailingZeroes(int n){
     int res = 0;
     
@@ -8,4 +8,4 @@ int trailingZeroes(int n){
     }
     return res;
 }
-```
+// ```

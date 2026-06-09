@@ -1,5 +1,5 @@
-暴力法O(n*m)遍历整个二维数组
-```
+// 暴力法O(n*m)遍历整个二维数组
+// ```
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0) return false;
         for (int i = 0; i<matrix.length;i++)
@@ -14,12 +14,12 @@
         }
         return false;
     }
-```
+// ```
 
-但是用二分法可以达到O(Logn), 但是要额外的空间复杂度O(1), 解决方法链接
-[力扣](https://leetcode.com/problems/search-a-2d-matrix/discuss/299309/JAVA%3A-Simple-and-Concise-O(log-N)-solution-with-detailed-explanation)
+// 但是用二分法可以达到O(Logn), 但是要额外的空间复杂度O(1), 解决方法链接
+// [力扣](https://leetcode.com/problems/search-a-2d-matrix/discuss/299309/JAVA%3A-Simple-and-Concise-O(log-N)-solution-with-detailed-explanation)
 
-```
+// ```
  public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0)
         {
@@ -49,4 +49,4 @@
     {
         return  mid % matrix[0].length;
     }
-```
+// ```

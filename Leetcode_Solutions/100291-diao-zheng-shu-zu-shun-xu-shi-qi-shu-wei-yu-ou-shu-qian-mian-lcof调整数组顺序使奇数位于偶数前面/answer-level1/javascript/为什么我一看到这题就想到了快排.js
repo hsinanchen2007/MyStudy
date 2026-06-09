@@ -1,18 +1,18 @@
-**数组被按类别两边?** 这不就是快排的思想吗？而且还是一个子循环。
-- base 保存首元素
-```javascript
+// **数组被按类别两边?** 这不就是快排的思想吗？而且还是一个子循环。
+// - base 保存首元素
+// ```javascript
 const base = nums[0];
-```
+// ```
 
-- 然后就是快排了，只不过判断条件换一下
-```javascript
+// - 然后就是快排了，只不过判断条件换一下
+// ```javascript
 // 快排的条件
 while(left < right && nums[left] <= base) right--;
 // 本题的条件
 while(left < right && nums[right]%2 === 0) right--;
-```
-总的代码：
-```JavaScript
+// ```
+// 总的代码：
+// ```JavaScript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -35,4 +35,4 @@ var exchange = function(nums) {
     nums[left] = base;
     return nums;
 };
-```
+// ```

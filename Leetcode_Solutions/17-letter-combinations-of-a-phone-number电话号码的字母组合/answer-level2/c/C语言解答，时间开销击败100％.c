@@ -1,5 +1,5 @@
-C语言的解答，基于回溯法，比起C++,C语言字符串处理还是太麻烦。
-```
+// C语言的解答，基于回溯法，比起C++,C语言字符串处理还是太麻烦。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -44,4 +44,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     }
     return backTracking(digits, returnSize);
 # }
-```
+// ```

@@ -1,5 +1,5 @@
-若num为0，则返回false，若不为0，则循环整除2，3，5，最后结果如果是1则num是丑数。
-```
+// 若num为0，则返回false，若不为0，则循环整除2，3，5，最后结果如果是1则num是丑数。
+// ```
 bool isUgly(int num){
     if(num==0)
         return false;
@@ -11,4 +11,4 @@ bool isUgly(int num){
         num/=5;
     return num==1;
 }
-```
+// ```

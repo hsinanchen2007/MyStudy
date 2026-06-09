@@ -1,10 +1,10 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/e5607e49e886a721d4b580461d6b279741edcfbaa32f32d16829e4939774d143-1.png)
-此处撰写解题思路
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/e5607e49e886a721d4b580461d6b279741edcfbaa32f32d16829e4939774d143-1.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int monotoneIncreasingDigits(int N) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-我们一层一层的计算面积, 并分别减去重叠的部分
-首先计算每一个”柱子“的面积： `4*n + 2 if n > 0 else 0`
-再把这一排的面积加起来 并减去这一层内的重叠部分
-最后再减去曾与层之间的重叠面积
+# 我们一层一层的计算面积, 并分别减去重叠的部分
+# 首先计算每一个”柱子“的面积： `4*n + 2 if n > 0 else 0`
+# 再把这一排的面积加起来 并减去这一层内的重叠部分
+# 最后再减去曾与层之间的重叠面积
 
-```python
+# ```python
     def surfaceArea(self, grid: List[List[int]]) -> int:
         surfaceSum = 0
         N = len(grid)
@@ -18,4 +18,4 @@
                 stack = 2 * sum([min(grid[i-1][j], grid[i][j]) for j in range(N)])
                 surfaceSum -= stack
         return surfaceSum
-```
+# ```

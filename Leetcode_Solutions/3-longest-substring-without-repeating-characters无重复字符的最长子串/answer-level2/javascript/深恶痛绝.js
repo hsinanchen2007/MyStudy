@@ -1,4 +1,4 @@
-```js
+// ```js
 var lengthOfLongestSubstring = function(s) {
   let max = 0
   let list = []
@@ -18,4 +18,4 @@ var lengthOfLongestSubstring = function(s) {
   }
   return max
 }
-```
+// ```

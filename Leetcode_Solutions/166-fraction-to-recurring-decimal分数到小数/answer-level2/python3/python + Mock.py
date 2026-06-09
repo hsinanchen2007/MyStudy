@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
         #    numerator
@@ -40,4 +40,4 @@ class Solution:
             a = a % b * 10
             i += 1
         return res
-```
+# ```

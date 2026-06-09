@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
         setJ = set(J)
@@ -15,4 +15,4 @@ class Solution:
         #     if c in J:
         #         cnt += 1
         # return cnt
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 public int[] DailyTemperatures(int[] T)
 {
     // 记录最短升温的等待天数
@@ -16,4 +16,4 @@ public int[] DailyTemperatures(int[] T)
     }
     return result;
 }
-```
+// ```

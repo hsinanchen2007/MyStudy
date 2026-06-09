@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -16,4 +16,4 @@ public:
         return max(deep_left, deep_right) + 1;
     }
 };
-```
+// ```

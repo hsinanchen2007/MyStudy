@@ -1,8 +1,8 @@
-一开始用的如下递归解法，超时了
-其中dp[n][k] 表示在n层楼 用k个鸡蛋，所需要的最小操作次数
+// 一开始用的如下递归解法，超时了
+// 其中dp[n][k] 表示在n层楼 用k个鸡蛋，所需要的最小操作次数
 
-用的是minMax思路 
-```java
+// 用的是minMax思路 
+// ```java
 class Solution {
     int[][] dp;
     int K;
@@ -26,12 +26,12 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-下面是不超时的解法
-这里的dp[n][k] 表示，用n次操作和k个鸡蛋所能达到的最大层数，当层数超过题目要求，就返回n
+// 下面是不超时的解法
+// 这里的dp[n][k] 表示，用n次操作和k个鸡蛋所能达到的最大层数，当层数超过题目要求，就返回n
 
-```java
+// ```java
 class Solution {
     int[][] dp;
     int K;
@@ -48,4 +48,4 @@ class Solution {
         return m;
     }
 }
-```
+// ```

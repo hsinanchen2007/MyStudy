@@ -1,12 +1,12 @@
-### 解题思路
-//对撞指针模型算法：
-1, 快速排序,将原有数组排序
-2，对撞指针逻辑执行
-3，除重
+// ### 解题思路
+// //对撞指针模型算法：
+// 1, 快速排序,将原有数组排序
+// 2，对撞指针逻辑执行
+// 3，除重
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -157,4 +157,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
 }
 */
 
-```
+// ```

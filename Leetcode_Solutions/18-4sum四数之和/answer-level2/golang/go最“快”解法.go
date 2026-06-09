@@ -1,8 +1,8 @@
-看到这个题的第一反应，把三数之和拿过来套一套。结果就。。。
-![image.png](https://pic.leetcode-cn.com/f3b259b69bc1d207394a3bec9605095ca363e0dc8ae5583b17af6c7dc1fb793e-image.png)
-所以标题的说的最快是指写代码时间最快。
-虽然写的快，但是执行的慢啊，哈哈，打扰了各位  ^-^
-```
+// 看到这个题的第一反应，把三数之和拿过来套一套。结果就。。。
+// ![image.png](https://pic.leetcode-cn.com/f3b259b69bc1d207394a3bec9605095ca363e0dc8ae5583b17af6c7dc1fb793e-image.png)
+// 所以标题的说的最快是指写代码时间最快。
+// 虽然写的快，但是执行的慢啊，哈哈，打扰了各位  ^-^
+// ```
 func fourSum(nums []int, target int) [][]int {
 	res := [][]int{}
 	sort.Ints(nums)
@@ -55,4 +55,4 @@ func twoSum(nums []int, target int) [][]int {
 	}
 	return res
 }
-```
+// ```

@@ -1,11 +1,11 @@
-看到C语言选手很少而且数组题用C写坑多，方法用的是高赞的上下左右边界方法，然后总结一下用C语言会碰到的坑。
+// 看到C语言选手很少而且数组题用C写坑多，方法用的是高赞的上下左右边界方法，然后总结一下用C语言会碰到的坑。
 
-坑主要是在为空矩阵的情况：
+// 坑主要是在为空矩阵的情况：
 
-- 不大明白为什么`matrixColSize`是一个指针变量？想用`m, n`来简化一下结果之前空指针不能给`n`赋值 
-- 空矩阵时直接返回`NULL`就可以，但是注意`returnSize`的值要改成0（可能是C语言中假装用于调用测试的主函数内，要靠`returnSize`遍历输出
+// - 不大明白为什么`matrixColSize`是一个指针变量？想用`m, n`来简化一下结果之前空指针不能给`n`赋值 
+// - 空矩阵时直接返回`NULL`就可以，但是注意`returnSize`的值要改成0（可能是C语言中假装用于调用测试的主函数内，要靠`returnSize`遍历输出
 
-```c
+// ```c
 int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSize){
     int m = matrixSize, n, *res;
     if (!m || !matrixColSize) {
@@ -31,5 +31,5 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     }
     return res;
 }
-```
+// ```
 

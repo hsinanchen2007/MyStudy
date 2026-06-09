@@ -1,6 +1,6 @@
-初学js，特地重刷一遍
+// 初学js，特地重刷一遍
 
-```js
+// ```js
 /**
  * @param {number[]} heights
  * @return {number}
@@ -31,6 +31,6 @@ var heightChecker = function(heights) {
     
     return num;
 };
-```
+// ```
 
-![TIM截图20191105183401.png](https://pic.leetcode-cn.com/56419adc6c9aa8c79996219a87104db4d36ffec1a36f613fd29d07bd8a7babce-TIM%E6%88%AA%E5%9B%BE20191105183401.png)
+// ![TIM截图20191105183401.png](https://pic.leetcode-cn.com/56419adc6c9aa8c79996219a87104db4d36ffec1a36f613fd29d07bd8a7babce-TIM%E6%88%AA%E5%9B%BE20191105183401.png)

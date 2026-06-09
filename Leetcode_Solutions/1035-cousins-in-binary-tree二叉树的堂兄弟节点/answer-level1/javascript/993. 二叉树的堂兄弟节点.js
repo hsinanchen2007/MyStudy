@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-- 找到对应节点的高度和父节点
-- 对比节点高度和各自父节点是否相同
+// - 找到对应节点的高度和父节点
+// - 对比节点高度和各自父节点是否相同
 
-⚠️注意：这里直接保存各自的父节点和各自的高度进行对比即可
+// ⚠️注意：这里直接保存各自的父节点和各自的高度进行对比即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -51,4 +51,4 @@ var isCousins = function(root, x, y) {
     // 如果高度相同且两个节点的父节点不同，返回 true，否则返回 false
     return first.height === second.height && first.parent !== second.parent
 };
-```
+// ```

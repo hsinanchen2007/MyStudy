@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/731621682a550ab6d35179313c73d25ac9d767db8adbf960ac300df2507d99b4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/731621682a550ab6d35179313c73d25ac9d767db8adbf960ac300df2507d99b4-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 小优化暴力直观做法：
 1.queries 和 words 中每个元素的最小字母出现频次，原地更新其值
 2.两层循环，分别判断 queries 中每一项在 words 中可以找到的比自己大的个数
@@ -10,11 +10,11 @@
     [[1,3], [2, 1]] 第一项即为：words 中最小字母频次为 1 的字符串出现 3 次
 
 - 封装一个查找一个字符串最小字母出现频次的方法
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} queries
  * @param {string[]} words
@@ -83,4 +83,4 @@ function miniLetterRate(s) {
   
   return count;
 }
-```
+// ```

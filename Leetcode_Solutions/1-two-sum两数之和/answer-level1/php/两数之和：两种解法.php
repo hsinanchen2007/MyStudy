@@ -1,7 +1,7 @@
 
-解法一：
+// 解法一：
 
-```php
+// ```php
 function twoSumOne()
 {
     $subscriptArr = [];
@@ -18,11 +18,11 @@ function twoSumOne()
 
     return $subscriptArr;
 }
-```
+// ```
 
 
-解法二：执行用时 : 16 ms , 在所有 PHP 提交中击败了 92.46% 的用户
-```php
+// 解法二：执行用时 : 16 ms , 在所有 PHP 提交中击败了 92.46% 的用户
+// ```php
 function twoSumTwo($nums, $target)
 {
     if (!is_array($nums) || count($nums) < 2) {
@@ -55,5 +55,5 @@ function twoSumTwo($nums, $target)
 
     return [$fir, $sec];
 }
-```
+// ```
 

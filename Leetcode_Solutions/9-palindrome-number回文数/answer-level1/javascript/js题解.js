@@ -1,8 +1,8 @@
 
-### 代码
-方法一：
+// ### 代码
+// 方法一：
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -15,13 +15,13 @@ var isPalindrome = function(x) {
         return false;
     }
 };
-```
-**结果**
-执行用时：232ms, 内存消耗 45.7MB
+// ```
+// **结果**
+// 执行用时：232ms, 内存消耗 45.7MB
 
-方法二：(参考官方题解)
+// 方法二：(参考官方题解)
 
-```javascript
+// ```javascript
 if(x < 0 || x % 10 == 0 && x != 0){
         return false;
 } else {
@@ -32,7 +32,7 @@ if(x < 0 || x % 10 == 0 && x != 0){
     }
     return x == newNumber || x == parseInt(newNumber/10);
 }
-```
-**结果**
- 执行用时：176ms，击败99.79%
- 内存消耗：44.7MB，击败 93.17%
+// ```
+// **结果**
+//  执行用时：176ms，击败99.79%
+//  内存消耗：44.7MB，击败 93.17%

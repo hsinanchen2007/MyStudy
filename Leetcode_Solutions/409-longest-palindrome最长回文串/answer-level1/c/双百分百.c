@@ -1,9 +1,9 @@
-### 解题思路
-通过ASCII码做cnt数组下标统计字母个数；偶数个直接加，奇数个减q1加。用flag标志有没有奇数个字母，若有，最后ans加一。
+// ### 解题思路
+// 通过ASCII码做cnt数组下标统计字母个数；偶数个直接加，奇数个减q1加。用flag标志有没有奇数个字母，若有，最后ans加一。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <string.h>
 
 int longestPalindrome(char * s){
@@ -25,4 +25,4 @@ int longestPalindrome(char * s){
     if (flag)  return (ans + 1);
     return ans;
 }
-```
+// ```

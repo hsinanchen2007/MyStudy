@@ -1,8 +1,8 @@
-有一点点动态规划的感觉
+// 有一点点动态规划的感觉
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Boolean> canMakePaliQueries(String s, int[][] queries) {
         List<Boolean> ans=new ArrayList<Boolean>(queries.length);
@@ -39,4 +39,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-res.push_back()
-res.back()[1]，res.back()[0]/取res最后一个数组
-### 代码
+// res.push_back()
+// res.back()[1]，res.back()[0]/取res最后一个数组
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-双指针的应用
-a^2+b^2=r^2(r^2=c,c=Math.sqrt(c))，缩小范围。
-```java
+// 双指针的应用
+// a^2+b^2=r^2(r^2=c,c=Math.sqrt(c))，缩小范围。
+// ```java
 class Solution {
     public boolean judgeSquareSum(int c) {
         int i=0,j=(int)Math.sqrt(c);
@@ -19,4 +19,4 @@ class Solution {
     }
 }
 
-```
+// ```

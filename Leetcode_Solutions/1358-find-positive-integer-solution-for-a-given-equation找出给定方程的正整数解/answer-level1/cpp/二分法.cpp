@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> findSolution(CustomFunction& customfunction, int z) {
@@ -24,5 +24,5 @@ public:
         return 0;
     }
 };
-```
-# x从1到1000遍历，对每一个x,用二分法查找对应的y.
+// ```
+// # x从1到1000遍历，对每一个x,用二分法查找对应的y.

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-模拟过程比较简单，具体看代码
+// 模拟过程比较简单，具体看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -27,4 +27,4 @@ var distributeCandies = function(candies, num_people) {
   }
   return ans
 };
-```
+// ```

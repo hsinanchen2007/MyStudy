@@ -1,12 +1,12 @@
-### 解题思路
-本题使用**双索引指针**一前一后进行比较输出
+// ### 解题思路
+// 本题使用**双索引指针**一前一后进行比较输出
 
-通过while循环，一次遍历整个数组，当sum == target的时候 将下标+1的位置值放入新的数组new int[]中
+// 通过while循环，一次遍历整个数组，当sum == target的时候 将下标+1的位置值放入新的数组new int[]中
 
-否则就移动左右索引指针，如果最后没有找到满足题意的值则返回null即可。
-### 代码
+// 否则就移动左右索引指针，如果最后没有找到满足题意的值则返回null即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int n = numbers.length;
@@ -25,4 +25,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

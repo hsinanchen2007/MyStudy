@@ -1,12 +1,12 @@
-### 解题思路
-left从左往右遍历，逐个求出从索引0对应值一直乘到 到当前索引的乘积结果；
-right从右往左遍历，逐个求出从最后一个值乘到当前值得乘积结果。
+// ### 解题思路
+// left从左往右遍历，逐个求出从索引0对应值一直乘到 到当前索引的乘积结果；
+// right从右往左遍历，逐个求出从最后一个值乘到当前值得乘积结果。
 
-然后 结果就是b[i] = left[i-1] *right[i+1];
+// 然后 结果就是b[i] = left[i-1] *right[i+1];
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} a
  * @return {number[]}
@@ -57,4 +57,4 @@ var constructArr = function(a) {
     }
     return b;
 };
-```
+// ```

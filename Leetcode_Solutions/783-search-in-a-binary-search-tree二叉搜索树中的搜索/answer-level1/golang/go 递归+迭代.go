@@ -1,4 +1,4 @@
-```
+// ```
 func searchBST(root *TreeNode, val int) *TreeNode {
 	if root == nil {
 		return nil
@@ -13,9 +13,9 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 	}
     return root
 }
-```
+// ```
 
-```
+// ```
 func searchBST(root *TreeNode, val int) *TreeNode {
 	if root == nil {
 		return nil
@@ -29,5 +29,5 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 	}
 	return root
 }
-```
+// ```
 

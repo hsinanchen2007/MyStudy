@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         maxArrived = 0
@@ -7,4 +7,4 @@ class Solution:
                 if i + num >= len(nums) - 1: return True
                 maxArrived = max(maxArrived, i + num)
             else: return False
-```
+# ```

@@ -1,6 +1,6 @@
-主要涉及到分数的计算化简，还有最大公约数的知识
-还要注意正负号的处理
-```
+// 主要涉及到分数的计算化简，还有最大公约数的知识
+// 还要注意正负号的处理
+// ```
 class Solution {
 public:
     bool isSign(char c) {
@@ -62,6 +62,6 @@ public:
         return to_string(res.first) + "/" + to_string(res.second);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/d800091b19af7b172226e5c1f0339649562f0d90645b987312959260637e1a97-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d800091b19af7b172226e5c1f0339649562f0d90645b987312959260637e1a97-image.png)

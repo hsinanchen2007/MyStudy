@@ -1,7 +1,7 @@
-# 哈希表
+// # 哈希表
 
 
-```
+// ```
 class Solution {
     public boolean wordPattern(String pattern, String str) {
         // 记录匹配
@@ -35,7 +35,7 @@ class Solution {
     }
 }
 
-```  
+// ```  
   
-时间复杂度: O(N)
-空间复杂度：O(N)
+// 时间复杂度: O(N)
+// 空间复杂度：O(N)

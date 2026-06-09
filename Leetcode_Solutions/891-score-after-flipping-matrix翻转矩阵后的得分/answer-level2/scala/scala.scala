@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def matrixScore(A: Array[Array[Int]]): Int = {
     var res = (1 << (A(0).length - 1)) * A.length
@@ -10,4 +10,4 @@ object Solution {
     res
   }
 }
-```
+// ```

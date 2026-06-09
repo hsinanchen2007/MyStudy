@@ -1,9 +1,9 @@
-### 解题思路
-既然是递增排好序的，那直接用折半查找
+// ### 解题思路
+// 既然是递增排好序的，那直接用折半查找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     /**
@@ -29,4 +29,4 @@ class Solution {
         return nums[low] == low ? nums[low] + 1 : nums[low] - 1;
     }
 }
-```
+// ```

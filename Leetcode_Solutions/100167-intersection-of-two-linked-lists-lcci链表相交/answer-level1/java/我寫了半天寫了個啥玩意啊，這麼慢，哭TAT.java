@@ -1,9 +1,9 @@
-### 解题思路
-搞不懂傳入的headA和headB指的是第一個元素 直接報錯兩次 爆哭TAT
+// ### 解题思路
+// 搞不懂傳入的headA和headB指的是第一個元素 直接報錯兩次 爆哭TAT
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-## 解题思路
+// ## 解题思路
 
-后序遍历思路：左右根
+// 后序遍历思路：左右根
 
-## 代码
+// ## 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,18 +38,18 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
 
-## 提交结果
-![image.png](https://pic.leetcode-cn.com/89fb47d8942cc0be4557c7856d7d9169ed44ffd5bf54b678ecb6c7c04735747a-image.png)
+// ## 提交结果
+// ![image.png](https://pic.leetcode-cn.com/89fb47d8942cc0be4557c7856d7d9169ed44ffd5bf54b678ecb6c7c04735747a-image.png)
 
 
 
-# 附：
-## 前序
-```
+// # 附：
+// ## 前序
+// ```
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> res;
         stack<TreeNode*> tree_st;
@@ -69,11 +69,11 @@ public:
 
         return res;
     }
-```
+// ```
 
-## 中序
+// ## 中序
 
-```
+// ```
 vector<int> inorderTraversal(TreeNode* root) {
         vector<int> res;
         stack<TreeNode*> tree_st;
@@ -94,7 +94,7 @@ vector<int> inorderTraversal(TreeNode* root) {
 
         return res;
     }
-```
+// ```
 
 
 

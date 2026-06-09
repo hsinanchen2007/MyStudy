@@ -1,9 +1,9 @@
-### 解题思路
-这道题与最大整除子集很相像但是不用排序
+// ### 解题思路
+// 这道题与最大整除子集很相像但是不用排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return rst;
     }
 };
-```
+// ```

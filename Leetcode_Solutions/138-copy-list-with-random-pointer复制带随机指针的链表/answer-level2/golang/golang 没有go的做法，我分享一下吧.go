@@ -1,9 +1,9 @@
-### 解题思路
-剑指offer的一道原题
+// ### 解题思路
+// 剑指offer的一道原题
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -70,4 +70,4 @@ func listCut(head *Node) *Node {
     }
     return temp.Next
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![捕获.JPG](https://pic.leetcode-cn.com/1eadd7152e426e3c97f44a8c53f8f15ef495c1bbd288c490751e69caf94f36a4-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// ![捕获.JPG](https://pic.leetcode-cn.com/1eadd7152e426e3c97f44a8c53f8f15ef495c1bbd288c490751e69caf94f36a4-%E6%8D%95%E8%8E%B7.JPG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -27,4 +27,4 @@ public:
         return dp[m - 1][n - 1];
     }
 };
-```
+// ```

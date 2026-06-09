@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func backspaceCompare(_ S: String, _ T: String) -> Bool {
         let s1 = getRealString(S)
@@ -22,4 +22,4 @@ class Solution {
         return String(stack)
     }
 }
-```
+// ```

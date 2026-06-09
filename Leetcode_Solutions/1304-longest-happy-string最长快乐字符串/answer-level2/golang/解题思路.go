@@ -1,7 +1,7 @@
-![1.PNG](https://pic.leetcode-cn.com/8d465731af8dcdcc92771e166c6f8e7324d624a72ff7b9e81fce99a811653b33-1.PNG)
+// ![1.PNG](https://pic.leetcode-cn.com/8d465731af8dcdcc92771e166c6f8e7324d624a72ff7b9e81fce99a811653b33-1.PNG)
 
-### 解题思路
-```
+// ### 解题思路
+// ```
 1. a, b, c =>   [2]int{a, 'a'},
 		[2]int{b, 'b'},
 		[2]int{c, 'c'}}，之后进行从大到小排序，使其满足 char[0][0] > char[1][0] > char[2][0]
@@ -15,13 +15,13 @@
     * 如果 b1[j] == char[0][1]，则在b1[j]后面加上一个char[0][1]
     * 如果 j + 1 < len(b1) && b1[j] != char[0][1] && b1[j+1] != char[0][1]
 因为是步骤2,3按照 char[0][1],char[0][1],char[0][1] 拼接，所以末尾至多补上i个char[0][1]，其中i <= 2 && i <= char[0][0] - char[1][0]
-```
+// ```
 
-[leetcode-golang](https://github.com/laijinhang/leetcode-golang)
+// [leetcode-golang](https://github.com/laijinhang/leetcode-golang)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestDiverseString(a int, b int, c int) string {
 	// 1. 对a, b, c进行重新分配排序，使得 a >= b >= c
 	char := [3][2]int{
@@ -76,4 +76,4 @@ func longestDiverseString(a int, b int, c int) string {
 	}
 	return string(res)
 }
-```
+// ```

@@ -1,7 +1,7 @@
-使用链表元素为链表的结构，即**ArrayList<ArrayList<Integer>>**，内层的链表记录对应位置的不同版本，正好可以利用下标来对应不同版本，版本更新时只更新id号，等到需要执行 `set` 的时候再更新对应链表。
-具体思路写在注释里了。
+// 使用链表元素为链表的结构，即**ArrayList<ArrayList<Integer>>**，内层的链表记录对应位置的不同版本，正好可以利用下标来对应不同版本，版本更新时只更新id号，等到需要执行 `set` 的时候再更新对应链表。
+// 具体思路写在注释里了。
 
-```java
+// ```java
 class SnapshotArray {
     // 使用ArrayList来维护数组，每个数组元素又是一个ArrayList，对应该位置的不同快照版本
     // 采用增量式的方式，更新快照的时候，只更新必要的位置，其他位置不变
@@ -61,4 +61,4 @@ class SnapshotArray {
  * int param_2 = obj.snap();
  * int param_3 = obj.get(index,snap_id);
  */
-```
+// ```

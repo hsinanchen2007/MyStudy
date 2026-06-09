@@ -1,5 +1,5 @@
-就是算天际线呗！
-```
+// 就是算天际线呗！
+// ```
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 int min(int a, int b)
 {
@@ -56,5 +56,5 @@ int maxIncreaseKeepingSkyline(int** grid, int gridSize, int* gridColSize)
     return res;
 }
 
-```
-![image.png](https://pic.leetcode-cn.com/676d7bf2e1ee27ac2747d8a3ed225962195c87930617512aa5cdcb51b58fd478-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/676d7bf2e1ee27ac2747d8a3ed225962195c87930617512aa5cdcb51b58fd478-image.png)

@@ -1,15 +1,15 @@
-### 大家好，我的博客是: http://erik-chen.github.io/，欢迎交流！
-### 解题思路
-1. 因为需要计算改变数，因此想到BFS
-2. queue储存所有当前这步可以search到的地方
-3. visited储存所有历史上search过的地方
-4. new_queue储存当前的基础上，改变一个箭头，可以search到的地方
-5. 用new_queue代替queue，同时用count记数，进行BFS
-6. 当search到右下角，返回count
+# ### 大家好，我的博客是: http://erik-chen.github.io/，欢迎交流！
+# ### 解题思路
+# 1. 因为需要计算改变数，因此想到BFS
+# 2. queue储存所有当前这步可以search到的地方
+# 3. visited储存所有历史上search过的地方
+# 4. new_queue储存当前的基础上，改变一个箭头，可以search到的地方
+# 5. 用new_queue代替queue，同时用count记数，进行BFS
+# 6. 当search到右下角，返回count
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -44,4 +44,4 @@ class Solution:
                         new_queue.append((p,q))
                         visited.add((p,q))
             queue = new_queue
-```
+# ```

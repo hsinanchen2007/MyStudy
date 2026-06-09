@@ -1,10 +1,10 @@
-### 解题思路
-I添加当前数组中的最小元素，后面取任何值都满足increase；
-D添加最大元素，后面任何值都满足decrease
+// ### 解题思路
+// I添加当前数组中的最小元素，后面取任何值都满足increase；
+// D添加最大元素，后面任何值都满足decrease
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func diStringMatch(_ S: String) -> [Int] {
         var array = [Int]()
@@ -26,4 +26,4 @@ class Solution {
         return resultArr
     }
 }
-```
+// ```

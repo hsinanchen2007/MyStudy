@@ -1,10 +1,10 @@
-### 解题思路
-不是正经的程序员
-打我的时候轻点
+// ### 解题思路
+// 不是正经的程序员
+// 打我的时候轻点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canMeasureWater(int x, int y, int z){
     if(x%2==0&&y%2==0&&z%2==1)
     return false;
@@ -17,4 +17,4 @@ bool canMeasureWater(int x, int y, int z){
 
     return true;
 }
-```
+// ```

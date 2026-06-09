@@ -1,7 +1,7 @@
-### 解题思路
-1.方法一：基于partition的思想
+// ### 解题思路
+// 1.方法一：基于partition的思想
 
-```
+// ```
 void quick_sort(int a[], int left, int right)
 {
     if(left >= right)
@@ -12,35 +12,35 @@ void quick_sort(int a[], int left, int right)
     quick_sort(a, left, index - 1);
     quick_sort(a, index + 1, right);                     
 }
-```
+// ```
 
 
-2.优先队列的思想
+// 2.优先队列的思想
 
-class Solution {
-public:
-    int findKthLargest(vector<int>& nums, int k) {
-        priority_queue<int, vector<int>, greater<int>> q;
-        for(int i=0;i<nums.size();i++)
-        {
-            if(i < k)
-            {
-                q.push(nums[i]);
-            }
-            else if(nums[i] > q.top())
-            {
-                q.pop();
-                q.push(nums[i]);
-            }
-        }
-        return q.top();
-    }
-};
+// class Solution {
+// public:
+//     int findKthLargest(vector<int>& nums, int k) {
+//         priority_queue<int, vector<int>, greater<int>> q;
+//         for(int i=0;i<nums.size();i++)
+//         {
+//             if(i < k)
+//             {
+//                 q.push(nums[i]);
+//             }
+//             else if(nums[i] > q.top())
+//             {
+//                 q.pop();
+//                 q.push(nums[i]);
+//             }
+//         }
+//         return q.top();
+//     }
+// };
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -99,4 +99,4 @@ public:
         return i;
     }
 };
-```
+// ```

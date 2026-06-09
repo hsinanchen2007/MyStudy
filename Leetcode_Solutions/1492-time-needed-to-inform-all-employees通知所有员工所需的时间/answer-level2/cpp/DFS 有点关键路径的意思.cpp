@@ -1,9 +1,9 @@
-### 解题思路
-题意为让找出图中最长路径
+// ### 解题思路
+// 题意为让找出图中最长路径
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
@@ -32,4 +32,4 @@ public:
 private:
     int ans = 0;
 };
-```
+// ```

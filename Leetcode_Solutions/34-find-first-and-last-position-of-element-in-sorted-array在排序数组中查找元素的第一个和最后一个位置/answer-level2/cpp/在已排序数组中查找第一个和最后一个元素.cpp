@@ -1,15 +1,15 @@
-对二分查找稍微修改一下即可。
-原二分查找关键点在于：
-1. mid < target 则搜索 [left, mid -1];
-2. mid > target 则搜索 [mid + 1, right];
-3. 相等返回索引mid
+// 对二分查找稍微修改一下即可。
+// 原二分查找关键点在于：
+// 1. mid < target 则搜索 [left, mid -1];
+// 2. mid > target 则搜索 [mid + 1, right];
+// 3. 相等返回索引mid
 
-现在主需要把第三点稍微修改一下即可： 加入min_ptr 和 max_ptr 分别记录最小、最大的相等索引
-1. mid < target 则搜索 [left, mid -1];
-2. mid > target 则搜索 [mid + 1, right];
-3. **相等时继续搜索，并和 min_ptr、max_ptr 比较并记录；**
+// 现在主需要把第三点稍微修改一下即可： 加入min_ptr 和 max_ptr 分别记录最小、最大的相等索引
+// 1. mid < target 则搜索 [left, mid -1];
+// 2. mid > target 则搜索 [mid + 1, right];
+// 3. **相等时继续搜索，并和 min_ptr、max_ptr 比较并记录；**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -34,16 +34,16 @@ public:
         return ;
     }
 };
-```
+// ```
 
 
-考虑一下两种情况：
-1. 数组中全是target；
-2. 超大规模数组，搜索到最后，必有在[left, right]范围内，绝大部分数都为target；
+// 考虑一下两种情况：
+// 1. 数组中全是target；
+// 2. 超大规模数组，搜索到最后，必有在[left, right]范围内，绝大部分数都为target；
 
-相等case中，递归的二分查找会有分支做无用功，所以需要对相等的情况做一个剪枝优化：
+// 相等case中，递归的二分查找会有分支做无用功，所以需要对相等的情况做一个剪枝优化：
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -70,4 +70,4 @@ public:
         return ;
     }
 };
-```
+// ```

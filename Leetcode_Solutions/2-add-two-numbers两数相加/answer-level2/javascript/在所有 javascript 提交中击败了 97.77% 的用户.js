@@ -1,5 +1,5 @@
-> 思路: 先构建结果的数组，在将数组转成链表
-```
+// > 思路: 先构建结果的数组，在将数组转成链表
+// ```
 var addTwoNumbers = function(l1, l2) {
     // 生成结果数组
     const arr = []
@@ -25,4 +25,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return head
 };
-```
+// ```

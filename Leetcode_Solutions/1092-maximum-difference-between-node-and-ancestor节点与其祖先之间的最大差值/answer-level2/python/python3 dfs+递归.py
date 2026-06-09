@@ -1,9 +1,9 @@
-### 解题思路
-思路是dfs+递归，写一个递归函数返回它的子树所能达到的最大距离
+# ### 解题思路
+# 思路是dfs+递归，写一个递归函数返回它的子树所能达到的最大距离
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         res = findmaxmin(root,min_ = root.val,max_ = root.val)
         return res
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-用数组记录words和chars中每个字母出现的次数，然后比较是否满足chars 中的次数大于等于 words中的次数。
+// ### 解题思路
+// 用数组记录words和chars中每个字母出现的次数，然后比较是否满足chars 中的次数大于等于 words中的次数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //暴力的思路：统计每个单词中的字母的个数，然后在char字符串中看，是否有大于等于字母个数的字符，若无则判断下一个
 int countCharacters(char ** words, int wordsSize, char * chars){
     int arr_c[26] = {0};
@@ -32,4 +32,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return result;
 }
-```
+// ```

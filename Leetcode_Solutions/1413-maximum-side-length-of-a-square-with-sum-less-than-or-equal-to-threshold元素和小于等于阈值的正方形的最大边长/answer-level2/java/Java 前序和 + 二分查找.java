@@ -1,15 +1,15 @@
-### 解题思路
-前序和是计算中间一段数据的和的好工具，上一次遇到是 [1171. 从链表中删去总和值为零的连续节点](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) 
+// ### 解题思路
+// 前序和是计算中间一段数据的和的好工具，上一次遇到是 [1171. 从链表中删去总和值为零的连续节点](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) 
 
-从一维升级到二维也是可以类比推之的。
+// 从一维升级到二维也是可以类比推之的。
 
-二分查找处理起来也比较麻烦。经过这次考虑，和参考其它人的代码，我大概确定了几个注意点：
-- 尽量保持边界的情况在每次循环中不变。在此解法中，minLen 是满足条件的一个边长；maxLen 是不确定是否满足条件的边长
-- 循环退出时，一般是边界相交了。此解法中是 minLen == maxLen。此时应注意避免无限循环。
+// 二分查找处理起来也比较麻烦。经过这次考虑，和参考其它人的代码，我大概确定了几个注意点：
+// - 尽量保持边界的情况在每次循环中不变。在此解法中，minLen 是满足条件的一个边长；maxLen 是不确定是否满足条件的边长
+// - 循环退出时，一般是边界相交了。此解法中是 minLen == maxLen。此时应注意避免无限循环。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSideLength(int[][] mat, int threshold) {
         int m = mat.length;
@@ -66,4 +66,4 @@ class Solution {
         return minLen;
     }
 }
-```
+// ```

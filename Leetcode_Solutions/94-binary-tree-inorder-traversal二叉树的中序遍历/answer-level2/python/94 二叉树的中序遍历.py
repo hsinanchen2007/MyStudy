@@ -1,9 +1,9 @@
-### 解题思路
-迭代实现
+# ### 解题思路
+# 迭代实现
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -33,14 +33,14 @@ class Solution(object):
                 root = tmp.right
         return res
 
-```
+# ```
 
 
-### 解题思路
-递归实现
+# ### 解题思路
+# 递归实现
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def inorderTraversal(self, root):
         """
@@ -57,4 +57,4 @@ class Solution(object):
             dfs(root.right)
         dfs(root)
         return res
-```
+# ```

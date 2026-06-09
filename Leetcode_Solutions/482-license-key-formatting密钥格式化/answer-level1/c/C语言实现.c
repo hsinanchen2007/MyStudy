@@ -1,5 +1,5 @@
-C语言实现
-```C []
+// C语言实现
+// ```C []
 char * licenseKeyFormatting(char * S, int K){
     int len = strlen(S);
     char *D = (char*)malloc(2 * len);
@@ -22,4 +22,4 @@ char * licenseKeyFormatting(char * S, int K){
     }
     return D;
 }
-```
+// ```

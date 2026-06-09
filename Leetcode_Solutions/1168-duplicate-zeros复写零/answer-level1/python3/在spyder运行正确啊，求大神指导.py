@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """
@@ -13,4 +13,4 @@ class Solution:
             else:
                 i += 1 
         arr = arr[0:n]
-```
+# ```

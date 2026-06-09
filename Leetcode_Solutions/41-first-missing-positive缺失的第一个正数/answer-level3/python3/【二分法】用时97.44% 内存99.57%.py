@@ -1,8 +1,8 @@
-新手代码
+# 新手代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         if nums==[]:
@@ -46,4 +46,4 @@ class Solution:
         y = getn(nums, 0)
         return y
 
-```
+# ```

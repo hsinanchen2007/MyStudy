@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-保存0-i的值 this.SumRange(i,j)=this.SumRange(0,j)-this.SumRange(0,i-1)
+// ### 解题思路
+// 此处撰写解题思路
+// 保存0-i的值 this.SumRange(i,j)=this.SumRange(0,j)-this.SumRange(0,i-1)
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 type NumArray struct {
 	nums []int
 	m map[string]int
@@ -30,9 +30,9 @@ func (this *NumArray) SumRange(i int, j int) int {
 	this.m[string(i)+"|"+string(j)]=this.SumRange(0,j)-this.SumRange(0,i-1)
 	return this.m[string(i)+"|"+string(j)]
 }
-```
+// ```
 
-```golang
+// ```golang
 type NumArray struct {
 	nums []int
 	m map[int]int
@@ -62,4 +62,4 @@ func (this *NumArray) SumRange(i int, j int) int {
  * obj := Constructor(nums);
  * param_1 := obj.SumRange(i,j);
  */
-```
+// ```

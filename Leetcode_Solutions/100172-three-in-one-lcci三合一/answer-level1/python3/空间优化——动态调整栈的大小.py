@@ -1,11 +1,11 @@
-### 解题思路
-**优点在：可以动态的调整栈的大小，而不是直接开辟三倍最大值的空间**
+# ### 解题思路
+# **优点在：可以动态的调整栈的大小，而不是直接开辟三倍最大值的空间**
 
-剩下的看注释吧，写吐了，也没啥好写的，只是单纯的长。
+# 剩下的看注释吧，写吐了，也没啥好写的，只是单纯的长。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TripleInOne:
 
     def __init__(self, stackSize: int):
@@ -92,4 +92,4 @@ class TripleInOne:
             res = True
         else: res = False
         return res
-```
+# ```

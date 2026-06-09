@@ -1,9 +1,9 @@
-### 解题思路
-用一个变量 表示往上走还是往下走
+// ### 解题思路
+// 用一个变量 表示往上走还是往下走
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

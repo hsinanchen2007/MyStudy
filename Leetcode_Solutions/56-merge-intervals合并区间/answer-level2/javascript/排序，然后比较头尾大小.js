@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number[][]}
@@ -22,6 +22,6 @@ var merge = function(intervals) {
   result.push(t);
   return result;
 };
-```
+// ```
 
-另：LeetCode-cn 的代码执行效率和LeetCode原版的差别真大……
+// 另：LeetCode-cn 的代码执行效率和LeetCode原版的差别真大……

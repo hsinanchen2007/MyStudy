@@ -1,9 +1,9 @@
-### 解题思路
-用C做这个题真麻烦
+// ### 解题思路
+// 用C做这个题真麻烦
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -87,4 +87,4 @@ TreeAllPath(root,&i,j,ret,signal);
 *returnSize=i;
 return signal;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：暴力法
@@ -97,4 +97,4 @@ int surfaceArea( int ** grid , int gridSize , int * gridColSize ){
     return square + count * 2;
 
 }
-```
+// ```

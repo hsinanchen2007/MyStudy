@@ -1,5 +1,5 @@
-采用26个字母的hash运算法 + 移动窗口，时间复杂度O(n)
-```C []
+// 采用26个字母的hash运算法 + 移动窗口，时间复杂度O(n)
+// ```C []
 int* findAnagrams(char * s, char * p, int* returnSize){
     *returnSize = 0;
     int len_s = strlen(s);
@@ -25,4 +25,4 @@ int* findAnagrams(char * s, char * p, int* returnSize){
     return res;
 }
 
-```
+// ```

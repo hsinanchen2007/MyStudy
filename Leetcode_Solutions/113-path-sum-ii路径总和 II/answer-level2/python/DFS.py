@@ -1,5 +1,5 @@
-利用递归做深度搜索。这次的helper函数要增加一个variable temp来记录路径，如果找到了使得总和等于target的leave，则把temp放进结果列表res里：
-```
+# 利用递归做深度搜索。这次的helper函数要增加一个variable temp来记录路径，如果找到了使得总和等于target的leave，则把temp放进结果列表res里：
+# ```
 from collections import deque
 class Solution(object):
     def pathSum(self, root, sum):
@@ -26,4 +26,4 @@ class Solution(object):
         return res
             
         
-```
+# ```

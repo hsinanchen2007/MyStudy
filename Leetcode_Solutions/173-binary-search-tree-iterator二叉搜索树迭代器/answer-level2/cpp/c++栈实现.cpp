@@ -1,5 +1,5 @@
-中序遍历，栈实现
-```
+// 中序遍历，栈实现
+// ```
 class BSTIterator {
 private:
     TreeNode* curr;
@@ -33,4 +33,4 @@ public:
         return !s.empty() || curr != NULL;
     }
 };
-```
+// ```

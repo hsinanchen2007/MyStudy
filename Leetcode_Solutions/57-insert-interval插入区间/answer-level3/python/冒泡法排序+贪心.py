@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isCat(self, interval, newInterval):
         return not (interval[0]>newInterval[1] or interval[1]<newInterval[0])
@@ -24,4 +24,4 @@ class Solution(object):
                 res.append(intervals[i])
 
         return res
-```
+# ```

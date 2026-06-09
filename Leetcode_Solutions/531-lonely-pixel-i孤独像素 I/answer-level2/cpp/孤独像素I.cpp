@@ -1,4 +1,4 @@
-```
+// ```
     int findLonelyPixel(vector<vector<char>>& picture) {
         // 如果某行或者某列有两个或者两个以上的B，则B不可能是孤独像素
         
@@ -23,4 +23,4 @@
         }
         return ans;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-虽然排序需要O(nlog(n))，但是提交后比O(n)的双set法效率快很多。
-```java
+// 虽然排序需要O(nlog(n))，但是提交后比O(n)的双set法效率快很多。
+// ```java
 class Solution {
     public int findPairs(int[] nums, int k) {
         if(k < 0)
@@ -24,4 +24,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

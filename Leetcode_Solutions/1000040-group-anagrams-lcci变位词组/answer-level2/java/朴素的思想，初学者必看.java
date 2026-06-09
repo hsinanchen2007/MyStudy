@@ -1,10 +1,10 @@
-### 解题思路
-1.构造一个map保存所有的变位词组 map的key是排序后的，map的value为原始值
-2. 输出结果
+// ### 解题思路
+// 1.构造一个map保存所有的变位词组 map的key是排序后的，map的value为原始值
+// 2. 输出结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     Map<String, List<String>> maps = new HashMap<>();
 
@@ -30,4 +30,4 @@ class Solution {
         return stringBuffer.toString();
     }
 }
-```
+// ```

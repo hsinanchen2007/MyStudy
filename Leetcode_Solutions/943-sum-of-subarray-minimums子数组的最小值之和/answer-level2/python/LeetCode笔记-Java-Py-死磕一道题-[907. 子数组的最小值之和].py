@@ -1,10 +1,10 @@
-##### 方法1:单调栈
-- 维护一个单调栈，思路如图，举例转的这个栈
-- 维护一个`tmp`变量记录每一轮的`res`值，`res`的全局变量记录结果，每次弹出或是添加元素的时候，维护好`tmp`和`res`
-![clipboard.png](https://pic.leetcode-cn.com/2f59d73899312f0c53eafdc5fc71daa31e221036b8eaca7e897a30c57b44b648-clipboard.png)
+# ##### 方法1:单调栈
+# - 维护一个单调栈，思路如图，举例转的这个栈
+# - 维护一个`tmp`变量记录每一轮的`res`值，`res`的全局变量记录结果，每次弹出或是添加元素的时候，维护好`tmp`和`res`
+# ![clipboard.png](https://pic.leetcode-cn.com/2f59d73899312f0c53eafdc5fc71daa31e221036b8eaca7e897a30c57b44b648-clipboard.png)
 
 
-```java []
+# ```java []
 class Solution {
     int MOD = 1000000007;
 
@@ -37,8 +37,8 @@ class Pair {
     }
 }
 
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def sumSubarrayMins(self, A: List[int]) -> int:
         MOD = 1000000007 # 维护一个单调递增栈
@@ -55,6 +55,6 @@ class Solution:
             res += tmp
             res %= MOD
         return res
-```
+# ```
 
 

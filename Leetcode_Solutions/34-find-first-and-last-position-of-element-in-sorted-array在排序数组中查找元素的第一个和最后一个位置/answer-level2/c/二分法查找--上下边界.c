@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-获取上边界，获取下边界。
-参照二分法
+// 获取上边界，获取下边界。
+// 参照二分法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -104,4 +104,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize)
     return ret;
 }
 
-```
+// ```

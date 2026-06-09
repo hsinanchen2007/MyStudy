@@ -1,10 +1,10 @@
-执行用时|内存消耗|语言
---|--|--
-0 ms|6.1MB|Cpp
+// 执行用时|内存消耗|语言
+// --|--|--
+// 0 ms|6.1MB|Cpp
 
-提交代码：
+// 提交代码：
 
-```cpp
+// ```cpp
 static constexpr int counts[] = { 9, 56, 320, 1624, 7152, 26016, 72912, 140704, 140704 };
 class Solution {
 public:
@@ -16,11 +16,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-当然，`counts`数组的结果我是离线用DFS算的，而且没有优化，所以比较慢：
+// 当然，`counts`数组的结果我是离线用DFS算的，而且没有优化，所以比较慢：
 
-```cpp
+// ```cpp
 // self
 #define S -1
 
@@ -74,4 +74,4 @@ private:
     bool is5pressed;
     int m, n;
 };
-```
+// ```

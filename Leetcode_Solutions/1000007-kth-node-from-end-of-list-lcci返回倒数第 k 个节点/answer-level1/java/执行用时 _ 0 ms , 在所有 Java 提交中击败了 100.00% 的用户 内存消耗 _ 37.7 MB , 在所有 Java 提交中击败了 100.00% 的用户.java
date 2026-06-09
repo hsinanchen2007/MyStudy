@@ -1,9 +1,9 @@
-### 解题思路
-求出长度后，遍历获得。
+// ### 解题思路
+// 求出长度后，遍历获得。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         
     }
 }
-```
+// ```

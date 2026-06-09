@@ -1,10 +1,10 @@
-### 解题思路
-栈的缺点是只能删除栈顶元素
-而要实现删除队首元素，需要一个辅助栈
+// ### 解题思路
+// 栈的缺点是只能删除栈顶元素
+// 而要实现删除队首元素，需要一个辅助栈
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
 	LinkedList<Integer> A, B;
     public CQueue() {		
@@ -34,29 +34,29 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```python
-class CQueue(object):
+// ```python
+// class CQueue(object):
 
-    def __init__(self):
-        self.stack1 = []
-        self.stack2 = []
+//     def __init__(self):
+//         self.stack1 = []
+//         self.stack2 = []
 
 
-    def appendTail(self, value):
-        """
-        :type value: int
-        :rtype: None
-        """
-        self.stack1.append(value)
+//     def appendTail(self, value):
+//         """
+//         :type value: int
+//         :rtype: None
+//         """
+//         self.stack1.append(value)
         
-    def deleteHead(self):
-        """
-        :rtype: int
-        """
-        if self.stack2:
-            return self.stack2.pop()
-        if not self.stack1:
-            return -1
-        while self.stack1:
-            self.stack2.append(self.stack1.pop())
-        return self.stack2.pop()
+//     def deleteHead(self):
+//         """
+//         :rtype: int
+//         """
+//         if self.stack2:
+//             return self.stack2.pop()
+//         if not self.stack1:
+//             return -1
+//         while self.stack1:
+//             self.stack2.append(self.stack1.pop())
+//         return self.stack2.pop()

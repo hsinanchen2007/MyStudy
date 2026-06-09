@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 const buildTree = function(inorder, postorder) {
     if(!inorder.length || !postorder.length) return null;
     return BTReconstruct(inorder, postorder, postorder.length - 1, 0, inorder.length - 1);
@@ -18,4 +18,4 @@ function BTReconstruct(inorder, postorder, postEnd, inStart, inEnd) {
     
     return curr;
 }
-```
+// ```

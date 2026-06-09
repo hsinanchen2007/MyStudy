@@ -1,5 +1,5 @@
-先算出长度的最大公约数，然后穷举。
-```
+# 先算出长度的最大公约数，然后穷举。
+# ```
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         def gcd(m,n):
@@ -19,10 +19,10 @@ class Solution:
                     return str1[:i]
             i-=1
         return ""
-```
+# ```
 
-直接对字符串做辗转相除
-```
+# 直接对字符串做辗转相除
+# ```
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         if(len(str2)>len(str1)):
@@ -34,4 +34,4 @@ class Solution:
             return ""
         else:
             return self.gcdOfStrings(str2,s)
-```
+# ```

@@ -1,14 +1,14 @@
-### 解题思路
-就是判断
+// ### 解题思路
+// 就是判断
 
-![image.png](https://pic.leetcode-cn.com/c32a66c6c556cb08a42206f76a1b8b172294d22efcd49ae158cdb80c4edcb280-image.png)
-
-
+// ![image.png](https://pic.leetcode-cn.com/c32a66c6c556cb08a42206f76a1b8b172294d22efcd49ae158cdb80c4edcb280-image.png)
 
 
-### 代码
 
-```cpp
+
+// ### 代码
+
+// ```cpp
 class Solution {
 public:
     bool hasAlternatingBits(int n) {
@@ -42,4 +42,4 @@ public:
        return true;
     }
 };
-```
+// ```

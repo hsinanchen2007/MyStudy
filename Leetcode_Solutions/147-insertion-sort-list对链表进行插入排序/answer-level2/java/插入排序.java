@@ -1,19 +1,19 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n^2)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 使用自定义头结点方便运算
-    2.2 使用三个指针完成功能
-    2.3 因为我们需要取有序区的下一结点作为我们的操作结点，所以循环排序的终止条件为right.next==null
-    2.4 循环遍历直到right.next==null，有两种情况
-        2.4.1 当前结点的值大于right结点的值，移动right
-        2.4.2 当前结点的值大于right结点的值，循环找到插入的位置，改变指针的指向
-3. 提交记录
-    3.1 力扣中耗时4ms,消耗37.8MB内存
-    3.2 leetcode中耗时3ms,消耗37.3MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n^2)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 使用自定义头结点方便运算
+//     2.2 使用三个指针完成功能
+//     2.3 因为我们需要取有序区的下一结点作为我们的操作结点，所以循环排序的终止条件为right.next==null
+//     2.4 循环遍历直到right.next==null，有两种情况
+//         2.4.1 当前结点的值大于right结点的值，移动right
+//         2.4.2 当前结点的值大于right结点的值，循环找到插入的位置，改变指针的指向
+// 3. 提交记录
+//     3.1 力扣中耗时4ms,消耗37.8MB内存
+//     3.2 leetcode中耗时3ms,消耗37.3MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     147.Insertion Sort List
@@ -72,6 +72,6 @@ class Solution{
     }
 
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

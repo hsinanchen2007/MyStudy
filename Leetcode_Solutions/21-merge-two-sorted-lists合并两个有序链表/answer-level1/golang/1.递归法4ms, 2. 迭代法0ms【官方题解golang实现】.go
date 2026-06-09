@@ -1,4 +1,4 @@
-```
+// ```
 //递归法 4ms
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1==nil{return l2}
@@ -34,5 +34,5 @@ func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return preHead.Next
 }
-```
-## 没想明白prevHead的指针为啥没随prev指针改变
+// ```
+// ## 没想明白prevHead的指针为啥没随prev指针改变

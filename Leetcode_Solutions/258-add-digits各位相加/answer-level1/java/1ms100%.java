@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int addDigits(int num) {
         while (num>=10) {
@@ -16,4 +16,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

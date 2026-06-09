@@ -1,6 +1,6 @@
-在二叉树的后序遍历的基础上进行修改
-1、递归方式
-```
+// 在二叉树的后序遍历的基础上进行修改
+// 1、递归方式
+// ```
 /**
  * @param {Node} root
  * @return {number[]}
@@ -24,10 +24,10 @@ var postorder = function(root) {
         res.push(root.val)
     }
 };
-```
+// ```
 
-2、迭代方式
-```
+// 2、迭代方式
+// ```
 /**
  * 第二种方式：迭代
  * @param root
@@ -48,4 +48,4 @@ var postorder2 = function(root) {
     }
     return res;
 };
-```
+// ```

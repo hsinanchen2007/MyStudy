@@ -1,5 +1,5 @@
-这个问题跟[Problem638 大礼包](https://leetcode-cn.com/problems/shopping-offers/)有异曲同工之妙。
-```
+// 这个问题跟[Problem638 大礼包](https://leetcode-cn.com/problems/shopping-offers/)有异曲同工之妙。
+// ```
   public int minStickers(String[] stickers, String target) {
     int[] t = new int[26];
     for (int i = 0; i < target.length(); i++) {
@@ -77,4 +77,4 @@
     }
     return false;
   }
-```
+// ```

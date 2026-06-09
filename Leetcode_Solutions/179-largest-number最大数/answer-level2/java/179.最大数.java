@@ -1,12 +1,12 @@
-### 解题思路
-1.排序
-2.连接
-3.特殊情况排除
-（排序重写是从评论里学的）
+// ### 解题思路
+// 1.排序
+// 2.连接
+// 3.特殊情况排除
+// （排序重写是从评论里学的）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String largestNumber(int[] nums) {
         if(nums == null || nums.length == 0) return "";
@@ -31,4 +31,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

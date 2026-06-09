@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         StringBuilder commonPrefix = new StringBuilder("");
@@ -28,4 +28,4 @@ class Solution {
 		return commonPrefix.toString();
 	}
 }
-```
+// ```

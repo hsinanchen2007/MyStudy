@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
      public string[] UncommonFromSentences(string A, string B)
     {
@@ -50,4 +50,4 @@ public class Solution {
         return dicA;
     }
 }
-```
+// ```

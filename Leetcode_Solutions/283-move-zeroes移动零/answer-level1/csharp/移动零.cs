@@ -1,9 +1,9 @@
-### 解题思路
-一般来说数组和链表相关的操作都会用额外指针的方式去解决，这一题也不例外。
+// ### 解题思路
+// 一般来说数组和链表相关的操作都会用额外指针的方式去解决，这一题也不例外。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public void MoveZeroes(int[] nums)
         {
             int currentIndex = 0;
@@ -21,4 +21,4 @@ public void MoveZeroes(int[] nums)
                 nums[currentIndex] = 0;
             }
         }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int numTeams(int[] rating) {
         if(rating == null || rating.length <= 2){
@@ -39,4 +39,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

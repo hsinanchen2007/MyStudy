@@ -1,11 +1,11 @@
-### 解题思路
-构造二位数组height，保存matrix数组中相应位置的上连续"1"的数目（高度）
-对height的每一行使用单调栈求解最大面积
-题目解法同  84. 柱状图中最大的矩形
+// ### 解题思路
+// 构造二位数组height，保存matrix数组中相应位置的上连续"1"的数目（高度）
+// 对height的每一行使用单调栈求解最大面积
+// 题目解法同  84. 柱状图中最大的矩形
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -51,4 +51,4 @@ public:
         return result;
     }
 };
-```
+// ```

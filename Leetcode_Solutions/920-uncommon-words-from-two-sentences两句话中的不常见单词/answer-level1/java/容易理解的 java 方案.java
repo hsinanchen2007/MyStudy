@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1. 遍历两个句子中的单词，并使用 HashMap 缓存其数量，
-2. 过滤出现频率为 1 的单词并组成数组返回
+// 1. 遍历两个句子中的单词，并使用 HashMap 缓存其数量，
+// 2. 过滤出现频率为 1 的单词并组成数组返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] uncommonFromSentences(String A, String B) {
         String[] arrayA = A.split(" ");
@@ -23,4 +23,4 @@ class Solution {
 }
 
 
-```
+// ```

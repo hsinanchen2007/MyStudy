@@ -1,5 +1,5 @@
-用栈存储层次遍历结果，再依次压入容器
-``` C++
+// 用栈存储层次遍历结果，再依次压入容器
+// ``` C++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

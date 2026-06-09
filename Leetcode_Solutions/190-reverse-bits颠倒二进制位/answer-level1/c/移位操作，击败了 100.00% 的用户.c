@@ -1,9 +1,9 @@
-### 解题思路
-移位
+// ### 解题思路
+// 移位
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 uint32_t reverseBits(uint32_t n) {
     uint32_t i = 0;
     int x;
@@ -16,4 +16,4 @@ uint32_t reverseBits(uint32_t n) {
     i |= (n & 1);
     return i;
 }
-```
+// ```

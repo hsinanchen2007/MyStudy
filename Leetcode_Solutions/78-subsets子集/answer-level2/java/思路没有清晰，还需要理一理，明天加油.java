@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -29,5 +29,5 @@ class Solution {
 		return result;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/28d25ad6698f68d2935c864fbaa48232bdf3cdc9339a9fbc0943e6e1ddb5a69e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/28d25ad6698f68d2935c864fbaa48232bdf3cdc9339a9fbc0943e6e1ddb5a69e-image.png)

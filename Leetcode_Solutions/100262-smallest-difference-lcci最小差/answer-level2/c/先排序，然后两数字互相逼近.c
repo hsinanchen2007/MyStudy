@@ -1,4 +1,4 @@
-```
+// ```
 /*先排序，然后两数字互相逼近*/
 #define ABS_NUM(a)              ((a) > 0  ? (a) : -(a))
 #define MIN_NUM(a, b)           ((a) > (b) ? (b) : (a))
@@ -29,4 +29,4 @@ int smallestDifference(int* a, int aSize, int* b, int bSize){
     }
     return min;
 }
-```
+// ```

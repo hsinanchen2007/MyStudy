@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countPrimes(self, n: int) -> int:
         List=[1]*n
@@ -9,4 +9,4 @@ class Solution:
             if  List[i]==1:
                        List[i*i:n:i] = [0] * len(List[i*i:n:i])
         return sum(List)
-```
+# ```

@@ -1,4 +1,4 @@
-双指针，但是如果你直接用nums.reverse()就没意思了
+# 双指针，但是如果你直接用nums.reverse()就没意思了
 
 class Solution:
     def reverseString(self, s: List[str]) -> None:

@@ -1,9 +1,9 @@
-### 解题思路
-1、设立标准的代码 ， 跟之前的标杆 对比
+// ### 解题思路
+// 1、设立标准的代码 ， 跟之前的标杆 对比
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 package main
 
 import "fmt"
@@ -32,4 +32,4 @@ func compressString(S string) string {
 	}
 }
 
-```
+// ```

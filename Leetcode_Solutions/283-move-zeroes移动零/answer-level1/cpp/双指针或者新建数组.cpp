@@ -1,6 +1,6 @@
-方法一 拷贝额外的数组
+// 方法一 拷贝额外的数组
      
-```
+// ```
     void moveZeroes(vector<int>& nums) {  
         if(nums.size() == 1) return;
         vector<int> ans;
@@ -18,10 +18,10 @@
         }
         nums = ans;
     }
-```
+// ```
 
-方法二 双指针
-```
+// 方法二 双指针
+// ```
    void moveZeroes(vector<int>& nums) {   
         if(nums.size() == 1) return;
         int i,j;
@@ -39,7 +39,7 @@
             }
         }
    }
-```
+// ```
 
     
 

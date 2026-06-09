@@ -1,7 +1,7 @@
-执行用时 :172 ms, 在所有 Python3 提交中击败了100.00%的用户
-内存消耗 :15.5 MB, 在所有 Python3 提交中击败了100.00%的用户
+# 执行用时 :172 ms, 在所有 Python3 提交中击败了100.00%的用户
+# 内存消耗 :15.5 MB, 在所有 Python3 提交中击败了100.00%的用户
 
-```python
+# ```python
 class Solution:
     def allCellsDistOrder(self, R, C, r0, c0):
         dist_list = [[] for i in range(200)]
@@ -16,4 +16,4 @@ class Solution:
             else:
                 break
         return result
-```
+# ```

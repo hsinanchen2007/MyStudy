@@ -1,7 +1,7 @@
 
-按照题目的规则 搞个拓扑排序就可以了
+// 按照题目的规则 搞个拓扑排序就可以了
 
-```go
+// ```go
 func maxCandies(status []int, candies []int, keys [][]int, containedBoxes [][]int, initialBoxes []int) int {
     queue := list.New()
     mmp := make(map[int]bool)
@@ -48,4 +48,4 @@ func maxCandies(status []int, candies []int, keys [][]int, containedBoxes [][]in
     
     return sum
 }
-```
+// ```

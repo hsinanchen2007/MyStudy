@@ -1,5 +1,5 @@
-# 递归实现
-```
+// # 递归实现
+// ```
 class Solution {
     public List<Integer> lexicalOrder(int n) {
         List<Integer> list = new ArrayList<>();
@@ -20,10 +20,10 @@ class Solution {
         }
     }
 }
-```
-# 十叉树的前序遍历
+// ```
+// # 十叉树的前序遍历
 
-```
+// ```
 根 -> 左节点 -> 右节点
-```
+// ```
 

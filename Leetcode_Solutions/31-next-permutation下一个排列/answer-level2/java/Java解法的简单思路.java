@@ -1,5 +1,5 @@
-从后往前遍历，找到第一个下降的值nums[i]，和之后刚刚大于这个值的nums[j]交换位置。再对i之后的进行排序。
-```
+// 从后往前遍历，找到第一个下降的值nums[i]，和之后刚刚大于这个值的nums[j]交换位置。再对i之后的进行排序。
+// ```
 public void nextPermutation(int[] nums) {
     int temp;
     for (int i = nums.length - 2; i >= 0; i--) {
@@ -15,6 +15,6 @@ public void nextPermutation(int[] nums) {
 	}
      Arrays.sort(nums);
 }
-```
+// ```
 
 

@@ -1,5 +1,5 @@
-利用replaceFirst替换掉遇到的第一个字符为空。剩下的字符继续这样的操作。
-```
+// 利用replaceFirst替换掉遇到的第一个字符为空。剩下的字符继续这样的操作。
+// ```
     public int countCharacters(String[] words, String chars) {
         if (words == null || words.length == 0 || chars == null || chars.isEmpty()) {
             return 0;
@@ -27,4 +27,4 @@
         }
         return sum;
     }
-```
+// ```

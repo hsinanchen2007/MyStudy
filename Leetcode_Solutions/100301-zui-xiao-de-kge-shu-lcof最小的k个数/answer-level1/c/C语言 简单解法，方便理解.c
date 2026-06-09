@@ -1,7 +1,7 @@
 
-### 这类题用现成的库感觉没意思了，不过省时间拿积分
+// ### 这类题用现成的库感觉没意思了，不过省时间拿积分
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -20,4 +20,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
 
     return ret;
 }
-```
+// ```

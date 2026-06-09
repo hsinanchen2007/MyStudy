@@ -1,6 +1,6 @@
-就是很简单的BFS。很多代码可以抄层次遍历的。
-如果做过层次遍历的就很清楚了。其他很多大神们的用了双端队列来解决，小弟就不献丑了。
-```
+// 就是很简单的BFS。很多代码可以抄层次遍历的。
+// 如果做过层次遍历的就很清楚了。其他很多大神们的用了双端队列来解决，小弟就不献丑了。
+// ```
 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList();
         Stack<TreeNode> stack = new Stack();
@@ -45,6 +45,6 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
     
         return res;
     }
-```
-思路就是层次遍历，但是注意一下，奇数层的时候，是从右到左，偶数层是从左到右，所以用了栈来抄一下结果。
-也算是完成了第一份题解。。。
+// ```
+// 思路就是层次遍历，但是注意一下，奇数层的时候，是从右到左，偶数层是从左到右，所以用了栈来抄一下结果。
+// 也算是完成了第一份题解。。。

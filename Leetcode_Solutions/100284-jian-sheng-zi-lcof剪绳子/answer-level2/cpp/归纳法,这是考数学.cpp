@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -16,4 +16,4 @@ public:
         }
     }
 };
-```
+// ```

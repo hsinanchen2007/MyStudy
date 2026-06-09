@@ -1,8 +1,8 @@
-### 解题思路
-升序数组 ，只要我们找出不满足升序条件的数即可
+// ### 解题思路
+// 升序数组 ，只要我们找出不满足升序条件的数即可
 
-# 中序递归
-```golang
+// # 中序递归
+// ```golang
 var last,first, second *TreeNode
 
 func recoverTree(root *TreeNode) {
@@ -26,10 +26,10 @@ func dfs(root *TreeNode) {
 	last = root
 	dfs(root.Right)
 }
-```
+// ```
 
-# 中序遍历(stack)
-```golang
+// # 中序遍历(stack)
+// ```golang
 func recoverTree(root *TreeNode) {
 	var last, first, second *TreeNode
 	var stack []*TreeNode
@@ -53,10 +53,10 @@ func recoverTree(root *TreeNode) {
 	}
 	first.Val, second.Val = second.Val, first.Val
 }
-```
+// ```
 
-# Morris
-```golang
+// # Morris
+// ```golang
 func recoverTree(root *TreeNode) {
 	var last, first, second, max *TreeNode
 	for root != nil {
@@ -96,6 +96,6 @@ func recoverTree(root *TreeNode) {
 	}
 	first.Val, second.Val = second.Val, first.Val
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

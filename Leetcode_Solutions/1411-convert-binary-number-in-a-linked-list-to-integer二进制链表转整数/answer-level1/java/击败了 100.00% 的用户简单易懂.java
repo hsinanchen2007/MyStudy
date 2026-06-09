@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-构建Stingbuilder遍历head链表将结点添加到sb中对其进行操作
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 构建Stingbuilder遍历head链表将结点添加到sb中对其进行操作
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ class Solution {
         return (int)sum;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permutation(self, S: str) -> List[str]:
         res_list = []
@@ -7,4 +7,4 @@ class Solution:
         for x in set(itertools.permutations(S)):
             res_list.append("".join(x))
         return res_list
-```
+# ```

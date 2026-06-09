@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //优先判断参数正负，再将int转换成string类型，再进行倒序，最终将string类型转换为int类型，输出
     public int reverse(int x) {
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

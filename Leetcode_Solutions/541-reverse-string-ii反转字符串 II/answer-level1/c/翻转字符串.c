@@ -1,5 +1,5 @@
-**每个2k个中翻转前k个**
-```c
+// **每个2k个中翻转前k个**
+// ```c
 void reverse(char *s, int low, int high)
 {
     int mid = (high - low + 1) / 2, i;
@@ -22,4 +22,4 @@ char * reverseStr(char * s, int k)
     }
     return s;
 }
-```
+// ```

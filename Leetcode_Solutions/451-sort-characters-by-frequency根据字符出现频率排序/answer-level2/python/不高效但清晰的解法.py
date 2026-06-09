@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def frequencySort(self, s: str) -> str:
         dic = {}
@@ -15,4 +15,4 @@ class Solution:
                 out.append(new_dic[i][0])  # 二元组第一项为字符第二项为循环次数
         out = ''.join(out) # 转换为字符
         return out
-```
+# ```

@@ -1,6 +1,6 @@
-双指针，分别指向头尾
-如果头为奇数，头加1，头为偶数，交换头尾值，尾减一，继续判断头
-```
+// 双指针，分别指向头尾
+// 如果头为奇数，头加1，头为偶数，交换头尾值，尾减一，继续判断头
+// ```
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -16,9 +16,9 @@ public:
         return nums;
     }
 };
-```
-找到奇数和前面换就是
-```
+// ```
+// 找到奇数和前面换就是
+// ```
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return nums;
     }
 };
-```
+// ```

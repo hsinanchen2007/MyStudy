@@ -1,10 +1,10 @@
-### 解题思路
-位运算解答。
-![WX20200315-192000@2x.png](https://pic.leetcode-cn.com/342a143775ccdb7c10353bc848d86fb81352aa2353d02a2e6f885d3d467d597f-WX20200315-192000@2x.png)
+// ### 解题思路
+// 位运算解答。
+// ![WX20200315-192000@2x.png](https://pic.leetcode-cn.com/342a143775ccdb7c10353bc848d86fb81352aa2353d02a2e6f885d3d467d597f-WX20200315-192000@2x.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> pathInZigZagTree(int label) {
         LinkedList<Integer> end = new LinkedList<>();
@@ -50,4 +50,4 @@ class Solution {
         return rowCt + tmp[1];
     }
 }
-```
+// ```

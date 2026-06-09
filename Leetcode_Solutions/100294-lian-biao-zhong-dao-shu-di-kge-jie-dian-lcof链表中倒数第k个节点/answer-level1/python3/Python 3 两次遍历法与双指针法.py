@@ -1,6 +1,6 @@
-### 1.解法一：两次变比法
+# ### 1.解法一：两次变比法
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,15 +24,15 @@ class Solution:
             head = head.next
             steps -= 1
         return head
-```
+# ```
 
-倒数是第k个，那么正着数呢？
+# 倒数是第k个，那么正着数呢？
 
-这种需要两次遍历。
+# 这种需要两次遍历。
 
-### 解法二：一次遍历，双指针法
+# ### 解法二：一次遍历，双指针法
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -50,10 +50,10 @@ class Solution:
             ptr_1 = ptr_1.next
             ptr_2 = ptr_2.next
         return ptr_1     
-```
+# ```
 
-注意第二个指针是先走k-1步，然后判断结束是第二个指针.next为空。
+# 注意第二个指针是先走k-1步，然后判断结束是第二个指针.next为空。
 
-这些都可以通过样例来测试。
+# 这些都可以通过样例来测试。
 
-END.
+# END.

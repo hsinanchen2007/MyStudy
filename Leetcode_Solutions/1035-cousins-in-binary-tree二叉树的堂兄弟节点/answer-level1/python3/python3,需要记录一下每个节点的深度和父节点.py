@@ -1,9 +1,9 @@
-### 解题思路
-BFS的同时用哈希表记录一下每个节点的父节点和它的深度，最后比较如果不是同父节点，并且深度相等，返回True，否则False
+# ### 解题思路
+# BFS的同时用哈希表记录一下每个节点的父节点和它的深度，最后比较如果不是同父节点，并且深度相等，返回True，否则False
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,6 +24,6 @@ class Solution:
             if node.right:
                 deque.append([node.right,node.val,depth+1])
         return hashmap[x][0]!=hashmap[y][0] and hashmap[x][1]==hashmap[y][1]
-```
+# ```
 
 

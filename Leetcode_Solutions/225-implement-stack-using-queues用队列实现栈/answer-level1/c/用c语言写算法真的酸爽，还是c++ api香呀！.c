@@ -1,9 +1,9 @@
-### 解题思路
-用c语言写算法真的酸爽，还是c++ api香呀！
+// ### 解题思路
+// 用c语言写算法真的酸爽，还是c++ api香呀！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct my_stack{
     int data;
     struct my_stack *next;
@@ -66,4 +66,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

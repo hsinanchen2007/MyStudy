@@ -1,4 +1,4 @@
-```
+// ```
 func balancedStringSplit(s string) int {
 	l,r,c := 0,0,0
 	for _,v := range s{
@@ -16,4 +16,4 @@ func balancedStringSplit(s string) int {
 	}
 	return  c
 }
-```
+// ```

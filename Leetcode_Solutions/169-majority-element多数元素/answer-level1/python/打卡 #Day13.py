@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         
@@ -14,4 +14,4 @@ class Solution:
             else:
                 tmp[1][tmp[0].index(nums[i])] += 1
         return tmp[0][tmp[1].index(max(tmp[1]))]
-```
+# ```

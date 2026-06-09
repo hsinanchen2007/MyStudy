@@ -1,5 +1,5 @@
-• 下面这个代码思路是对的，但是时间复杂度超时了。
-```
+// • 下面这个代码思路是对的，但是时间复杂度超时了。
+// ```
 class Solution {
 public:
     bool isprimenumber(int n)
@@ -22,9 +22,9 @@ public:
     }
 };
 
-```
-• 比较优秀的算法了，思想也比较简单。一个数（大于2的）如果不是质数，那么必定在这之前会有一个数乘以n等于它。
-```
+// ```
+// • 比较优秀的算法了，思想也比较简单。一个数（大于2的）如果不是质数，那么必定在这之前会有一个数乘以n等于它。
+// ```
 class Solution {
 public:
     int countPrimes(int n) {
@@ -48,9 +48,9 @@ public:
 
 
 
-```
-• 把上面的代码改成用bitset，更节省空间。适合处理大数)
-```
+// ```
+// • 把上面的代码改成用bitset，更节省空间。适合处理大数)
+// ```
 class Solution {
 public:
     int countPrimes(int n) {
@@ -72,5 +72,5 @@ public:
         return cnt;
     }
 };
-```
+// ```
 

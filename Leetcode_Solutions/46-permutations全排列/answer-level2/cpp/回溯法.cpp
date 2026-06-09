@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void permute(vector<vector<int>> &result,vector<int> &tempRes,vector<int> &nums,vector<bool> &flag,int n)
@@ -42,4 +42,4 @@ public:
         return result;
     }
 };
-```
+// ```

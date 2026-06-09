@@ -1,11 +1,11 @@
-### 解题思路
-唉。。脑子有点儿大
-helper(root.left, lower, root.val) and helper(root.right, root.val, upper)
-不能写成helper(root.left, root.val) and helper(root.right, root.val)
+# ### 解题思路
+# 唉。。脑子有点儿大
+# helper(root.left, lower, root.val) and helper(root.right, root.val, upper)
+# 不能写成helper(root.left, root.val) and helper(root.right, root.val)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         return helper(node)
 
 
-```
+# ```

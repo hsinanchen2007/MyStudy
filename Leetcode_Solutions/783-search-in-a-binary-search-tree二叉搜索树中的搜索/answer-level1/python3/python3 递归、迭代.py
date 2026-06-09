@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码
+# ### 解题思路
+# 直接看代码
 
-### 代码
+# ### 代码
 
-```
+# ```
 python3
 # Definition for a binary tree node.
 # class TreeNode:
@@ -52,4 +52,4 @@ class Solution:
             else:
                 stack.append(tmp.right)
         return None
-```
+# ```

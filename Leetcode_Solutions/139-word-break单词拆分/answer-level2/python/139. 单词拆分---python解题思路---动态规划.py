@@ -1,18 +1,18 @@
-刚刚看完题目就有回溯的想法映入脑中，遍历s然后每次遍历的时候去尝试当前切片是否在wordDict里面，如果在就进行递归，把符合条件的部分s切割后当做参数传入，
+# 刚刚看完题目就有回溯的想法映入脑中，遍历s然后每次遍历的时候去尝试当前切片是否在wordDict里面，如果在就进行递归，把符合条件的部分s切割后当做参数传入，
 
-## 方法1：回溯算法-超时
+# ## 方法1：回溯算法-超时
 
-复习一下回溯需要注意的地方
+# 复习一下回溯需要注意的地方
 
-```
+# ```
 1、路径：也就是已经做出的选择。
 2、选择列表：也就是你当前可以做的选择。
 3、结束条件：也就是到达决策树底层，无法再做选择的条件。
-```
+# ```
 
-然后就是回溯的模板代码
+# 然后就是回溯的模板代码
 
-```python
+# ```python
 result = []
 def backtrack(路径, 选择列表):
     if 满足结束条件:
@@ -23,13 +23,13 @@ def backtrack(路径, 选择列表):
         做选择
         backtrack(路径, 新的选择列表)
         撤销选择
-```
+# ```
 
-但是这题的回溯比较简单，由于选择列表可以重复使用，所以选择列表每次都是传入wordDict，这里还有个简单的地方就是路径，因为我们只是需要一个到达底部（s被消耗完）的结果，不需要知道是怎么到达的，所以不用进行保存选择结果。结束条件很简单，就是当s为空时。
+# 但是这题的回溯比较简单，由于选择列表可以重复使用，所以选择列表每次都是传入wordDict，这里还有个简单的地方就是路径，因为我们只是需要一个到达底部（s被消耗完）的结果，不需要知道是怎么到达的，所以不用进行保存选择结果。结束条件很简单，就是当s为空时。
 
-于是有了下面的代码（超时）
+# 于是有了下面的代码（超时）
 
-```python
+# ```python
 class Solution:
     result = False
 
@@ -43,18 +43,18 @@ class Solution:
         for index in range(len(s)):
             if s[0:index+1] in wordDict:
                 self.trackbase(s[index+1:], wordDict)
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 27 / 36 个通过测试用例
 	状态：超出时间限制
-```
+# ```
 
-运行超时了，这里还是老样子切片操作产生了很多额外的内存和消耗了额外的时间，改为下标的方式试试看还会不会超时。
+# 运行超时了，这里还是老样子切片操作产生了很多额外的内存和消耗了额外的时间，改为下标的方式试试看还会不会超时。
 
-```python
+# ```python
 class Solution:
     result = False
 
@@ -68,28 +68,28 @@ class Solution:
         for index in range(start_index, s_len):
             if s[start_index:index+1] in wordDict:
                 self.trackbase(s, wordDict, index + 1, s_len)
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 29 / 36 个通过测试用例
 	状态：超出时间限制
  最后执行的输入： "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
 ["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"] 
-```
+# ```
 
-(⊙﹏⊙)非常无敌的测试用例，而且这还只是第30号测试用例，后面还有6个可能更BT的用例，放弃了放弃了。看来用这种方法是不行了（起码以我现在的回溯思路来说）
+# (⊙﹏⊙)非常无敌的测试用例，而且这还只是第30号测试用例，后面还有6个可能更BT的用例，放弃了放弃了。看来用这种方法是不行了（起码以我现在的回溯思路来说）
 
-现在来思考一下目前遇到的可能可以解决这个问题算法，贪婪算法，动态规划。
+# 现在来思考一下目前遇到的可能可以解决这个问题算法，贪婪算法，动态规划。
 
-## 方法2：动态规划
+# ## 方法2：动态规划
 
-感觉贪婪可能不行，那还有个动态规划，动态规划一般有个db数组，想想这里什么可能成为db数组呢？db数组一般用来储存上一次的最优情况（这里就是s每个位置的情况），也就是上一次的解，很好理解每次动态完数组的最后一个元素就是要的值（或者和结果相关），所以db里面写什么呢？当然是写true或者false了。但是为了读取上一次true的情况方便，这里db数组只保存上次true的下标
+# 感觉贪婪可能不行，那还有个动态规划，动态规划一般有个db数组，想想这里什么可能成为db数组呢？db数组一般用来储存上一次的最优情况（这里就是s每个位置的情况），也就是上一次的解，很好理解每次动态完数组的最后一个元素就是要的值（或者和结果相关），所以db里面写什么呢？当然是写true或者false了。但是为了读取上一次true的情况方便，这里db数组只保存上次true的下标
 
-这里说明一下为什么要保存上次为true的情况
+# 这里说明一下为什么要保存上次为true的情况
 
-```python
+# ```python
 s = "catsan"
 w = ["cat", "cats", "san"]
 # 由于是从左到右遍历的，所以肯定是优先匹配上了w里面短的那个
@@ -115,11 +115,11 @@ w = ["cat", "cats", "san"]
 数据下标：0  1  2  3  4  5
 原始数据：c  a  t  s  a  n
 动态数组：F  F  T  T  F  T
-```
+# ```
 
-为了回推上一次符合条件的db，这里只保留符合条件的s的下标。下面是完整的演算
+# 为了回推上一次符合条件的db，这里只保留符合条件的s的下标。下面是完整的演算
 
-```python
+# ```python
 db = []
 s = "catsandog"
 w = ["cats", "dog", "sand", "and", "cat"]
@@ -185,11 +185,11 @@ db = [2, 3, 6]
 db = [2, 3, 6]
 
 所以返回false
-```
+# ```
 
-下面是代码
+# 下面是代码
 
-```python
+# ```python
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         db = []
@@ -206,11 +206,11 @@ class Solution:
                         break
         if not db: return False
         return db[-1] == len(s) - 1
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :48 ms, 在所有 Python3 提交中击败了59.16% 的用户
 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.02%的用户
 
@@ -219,10 +219,10 @@ class Solution:
 
 执行用时 :48 ms, 在所有 Python3 提交中击败了59.16% 的用户
 内存消耗 :13.5 MB, 在所有 Python3 提交中击败了5.02%的用户
-```
+# ```
 
 
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

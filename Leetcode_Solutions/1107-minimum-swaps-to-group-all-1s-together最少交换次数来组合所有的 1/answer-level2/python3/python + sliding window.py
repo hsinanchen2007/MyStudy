@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minSwaps(self, data: List[int]) -> int:
         # Find the longest continuous string which gap smaller than zero_cnt
@@ -13,4 +13,4 @@ class Solution:
                 j += 1
             res = max(res, one_cnt)
         return sum_one - res
-```
+# ```

@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var minPathSum = function (grid) {
     for (let i = 0; i < grid.length; i++) {
         for (let j = 0; j < grid[i].length; j++) {
@@ -16,4 +16,4 @@ var minPathSum = function (grid) {
     }
     return grid[grid.length - 1][grid[0].length - 1];
 };
-```
+// ```

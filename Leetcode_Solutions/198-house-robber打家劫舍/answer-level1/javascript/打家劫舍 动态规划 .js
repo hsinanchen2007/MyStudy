@@ -1,7 +1,7 @@
-动态规划
-f(k) = max(f(k-2) + nums[k], f(k-1))
-直接上代码
-```
+// 动态规划
+// f(k) = max(f(k-2) + nums[k], f(k-1))
+// 直接上代码
+// ```
 var rob = function(nums) {
     let prevMax = 0
     let curMax = 0
@@ -12,4 +12,4 @@ var rob = function(nums) {
     }
     return curMax
 };
-```
+// ```

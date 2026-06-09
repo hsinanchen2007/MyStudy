@@ -1,22 +1,22 @@
-暴力解O(n^2),这里优化到O(n).
+// 暴力解O(n^2),这里优化到O(n).
 
-一次遍历中记录奇数的行数(odd_rows)和列数(odd_cols)。
+// 一次遍历中记录奇数的行数(odd_rows)和列数(odd_cols)。
 
-此时奇数行和奇数列不重叠的部分为奇数，重叠的部分则为偶数。
+// 此时奇数行和奇数列不重叠的部分为奇数，重叠的部分则为偶数。
 
-下面有多种数学思路，提2个：
+// 下面有多种数学思路，提2个：
 
- 1.循环出来以后用数学求解。
-    返回值 = odd_rows * m + odd_cols * n - 2 * odd_rows * odd_cols
- 解释：先把行上的所有奇数与列上的所有奇数相加(先不管重叠部分)。再减去重叠的部分(偶数)，由于重叠部分在奇数行和奇数列中分别被当作奇数加了一次，所以减去时需要乘以2。
+//  1.循环出来以后用数学求解。
+//     返回值 = odd_rows * m + odd_cols * n - 2 * odd_rows * odd_cols
+//  解释：先把行上的所有奇数与列上的所有奇数相加(先不管重叠部分)。再减去重叠的部分(偶数)，由于重叠部分在奇数行和奇数列中分别被当作奇数加了一次，所以减去时需要乘以2。
 
- 2.这样想也行(结果与上相同)：
-    返回值 = odd_rols * (m - odd_cols) + odd_cols * (n - odd_rows)
- 解释：将奇数行不重叠的部分(奇数)与奇数列不重叠的部分(奇数)相加。
+//  2.这样想也行(结果与上相同)：
+//     返回值 = odd_rols * (m - odd_cols) + odd_cols * (n - odd_rows)
+//  解释：将奇数行不重叠的部分(奇数)与奇数列不重叠的部分(奇数)相加。
 
 
-习惯性英文注释，唔介意
-```
+// 习惯性英文注释，唔介意
+// ```
    int oddCells(int n, int m, vector<vector<int>>& indices) 
     {
         vector<bool> row(n,false) , col(m,false); //false is even, true is odd
@@ -43,10 +43,10 @@
         int res = odd_rows * m + odd_cols * n - 2 * odd_rows * odd_cols;
         return res;
     }
-```
+// ```
 
-附暴力：
-```
+// 附暴力：
+// ```
     int oddCells(int n, int m, vector<vector<int>>& indices)
     {
         vector<vector<bool>> matrix(n, vector<bool>(m, false));
@@ -79,4 +79,4 @@
         }
         return sum_of_odd;
     }
-```
+// ```

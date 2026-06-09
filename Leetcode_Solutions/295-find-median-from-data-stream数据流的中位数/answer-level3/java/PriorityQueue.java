@@ -1,4 +1,4 @@
-```
+// ```
 class MedianFinder {
 
     private PriorityQueue<Integer> left;
@@ -57,10 +57,10 @@ class MedianFinder {
         return (mid[0] + mid[1] + 0.0)/2.0;
     }
 }
-```
+// ```
 
-Space: O(n)
-Time: O(n * log n)
+// Space: O(n)
+// Time: O(n * log n)
 
-执行用时 :77 ms, 在所有 java 提交中击败了99.88% 的用户
-内存消耗 :66.5 MB, 在所有 java 提交中击败了74.11%的用户
+// 执行用时 :77 ms, 在所有 java 提交中击败了99.88% 的用户
+// 内存消耗 :66.5 MB, 在所有 java 提交中击败了74.11%的用户

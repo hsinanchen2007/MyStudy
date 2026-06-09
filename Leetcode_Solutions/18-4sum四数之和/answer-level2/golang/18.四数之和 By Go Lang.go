@@ -1,10 +1,10 @@
-### 解题思路
-参考三数之和的思路，在外边加一个循环即可。
-因为要求不重复的四元组，注意剪枝
+// ### 解题思路
+// 参考三数之和的思路，在外边加一个循环即可。
+// 因为要求不重复的四元组，注意剪枝
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func threeSum(nums []int, target int) [][]int {
 
@@ -57,4 +57,4 @@ func fourSum(nums []int, target int) [][]int {
 	return ret
 }
 
-```
+// ```

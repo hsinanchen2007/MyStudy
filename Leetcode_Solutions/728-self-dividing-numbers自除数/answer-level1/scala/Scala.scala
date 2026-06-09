@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 import scala.collection.mutable.ListBuffer
 object Solution {
     def selfDividingNumbers(left: Int, right: Int): List[Int] = {
@@ -28,4 +28,4 @@ object Solution {
     true 
     }
 }
-```
+// ```

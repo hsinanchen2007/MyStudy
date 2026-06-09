@@ -1,4 +1,4 @@
-```
+// ```
 func reverse(_ x: Int) -> Int {
         var result = 0
         var origin = x
@@ -16,4 +16,4 @@ func reverse(_ x: Int) -> Int {
         return result
         
     }
-```
+// ```

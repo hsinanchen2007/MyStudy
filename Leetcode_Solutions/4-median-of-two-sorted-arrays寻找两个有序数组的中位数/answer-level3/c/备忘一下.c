@@ -1,4 +1,4 @@
-```
+// ```
 //寻找两个有序数组中，第k小元素的元素
 int findLeastKItem(int* nums1, int startIdx1, int nums1Size, int* nums2, int startIdx2, int nums2Size, int k) {
     if(startIdx1 >= nums1Size) {
@@ -33,4 +33,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     
     return 1.00 * ( findLeastKItem(nums1, 0, nums1Size, nums2, 0, nums2Size, k1) + findLeastKItem(nums1, 0, nums1Size, nums2, 0, nums2Size, k2) ) / 2.00;
 }
-```
+// ```

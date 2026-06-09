@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-太简单，不啰嗦直接上代码。
+// 太简单，不啰嗦直接上代码。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func constructRectangle(area int) []int {
 		l := int(math.Sqrt(float64(area)))
@@ -18,4 +18,4 @@ func constructRectangle(area int) []int {
 			}
 		}
 }
-```
+// ```

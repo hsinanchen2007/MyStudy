@@ -1,6 +1,6 @@
-一般来说二叉树的题目都可以使用递归解决，这道题算是较为简单的题目。只要掌握了二叉树的前序遍历和中序遍历的思想，仔细分析一下就能写出来了。
+# 一般来说二叉树的题目都可以使用递归解决，这道题算是较为简单的题目。只要掌握了二叉树的前序遍历和中序遍历的思想，仔细分析一下就能写出来了。
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution(object):
         root.left = self.buildTree(preorder[1:mid + 1], inorder[:mid])
         root.right = self.buildTree(preorder[mid + 1:], inorder[mid + 1:])
         return root
-```
+# ```

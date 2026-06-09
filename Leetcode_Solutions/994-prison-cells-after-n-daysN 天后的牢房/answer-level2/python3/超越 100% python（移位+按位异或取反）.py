@@ -1,7 +1,7 @@
-[题解原文](https://codeplot.top/2019/10/05/leetcode-957-N-%E5%A4%A9%E5%90%8E%E7%9A%84%E7%89%A2%E6%88%BF-Prison-Cells-After-N-Days/)
-把 list 转换为 byte。两次移位然后按位异或后取反。
+# [题解原文](https://codeplot.top/2019/10/05/leetcode-957-N-%E5%A4%A9%E5%90%8E%E7%9A%84%E7%89%A2%E6%88%BF-Prison-Cells-After-N-Days/)
+# 把 list 转换为 byte。两次移位然后按位异或后取反。
 
-```python
+# ```python
 class Solution:
     @staticmethod
     def bit2list(x):
@@ -43,4 +43,4 @@ class Solution:
                 x = ~(y ^ z) & 0b01111110
                 idx += 1
         return self.bit2list(x) 
-```
+# ```

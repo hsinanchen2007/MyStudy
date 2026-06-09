@@ -1,12 +1,12 @@
-### 解题思路
-1. 创建Trie Tree
-2. 如果全新创建或是和原来不同的word, 计算length + 1
-2. 如果在之前的扩展,记录并清除之前的isEnd 标记， 计算新word和原有的差值
+// ### 解题思路
+// 1. 创建Trie Tree
+// 2. 如果全新创建或是和原来不同的word, 计算length + 1
+// 2. 如果在之前的扩展,记录并清除之前的isEnd 标记， 计算新word和原有的差值
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct TrieNode{
     TrieNode* next[26] = {nullptr};
     bool isEnd = false;
@@ -60,4 +60,4 @@ public:
  
     }
 };
-```
+// ```

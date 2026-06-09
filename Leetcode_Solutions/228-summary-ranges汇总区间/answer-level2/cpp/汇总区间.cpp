@@ -1,7 +1,7 @@
-## 题解1
-按照题意遍历原数组模拟合并连续的，不连续的成为单元素区间。
-## 代码1
-```cpp
+// ## 题解1
+// 按照题意遍历原数组模拟合并连续的，不连续的成为单元素区间。
+// ## 代码1
+// ```cpp
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
@@ -36,7 +36,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 执行结果1
-![在这里插入图片描述](https://pic.leetcode-cn.com/2dd7e4370dedd562f4083c2e37bc3f65c8e0fb204fec5be23ae003e9537fcd76.png)
+// ## 执行结果1
+// ![在这里插入图片描述](https://pic.leetcode-cn.com/2dd7e4370dedd562f4083c2e37bc3f65c8e0fb204fec5be23ae003e9537fcd76.png)

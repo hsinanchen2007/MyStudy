@@ -1,11 +1,11 @@
-### 解题思路
-punch in the card. 
+# ### 解题思路
+# punch in the card. 
 
-Again, I will give you the code. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def middleNode(self, head: ListNode) -> ListNode:
@@ -20,4 +20,4 @@ class Solution:
             a=a.next
         return a
 
-```
+# ```

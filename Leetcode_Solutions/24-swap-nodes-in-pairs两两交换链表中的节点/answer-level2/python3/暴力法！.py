@@ -1,4 +1,4 @@
-直接从链表头开始交换节点，每交换一次，指针后移两个节点。
+# 直接从链表头开始交换节点，每交换一次，指针后移两个节点。
 
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:

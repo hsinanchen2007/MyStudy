@@ -1,6 +1,6 @@
-用一个双向链表维护一组有序的container，每个container用map储存着值相同的key，然后一个map储存每个Key所在的container，最大最小就从头尾的container中取key就行了
+// 用一个双向链表维护一组有序的container，每个container用map储存着值相同的key，然后一个map储存每个Key所在的container，最大最小就从头尾的container中取key就行了
 
-```
+// ```
 /**
  * Initialize your data structure here.
  */
@@ -174,4 +174,4 @@ AllOne.prototype.getMinKey = function() {
 };
 
 
-```
+// ```

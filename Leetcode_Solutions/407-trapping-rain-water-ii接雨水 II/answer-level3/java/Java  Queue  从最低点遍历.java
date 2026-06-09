@@ -1,12 +1,12 @@
-### 解题思路
-Cell 是 数据结构，保存了每个点的横纵坐标和高度
-1. 建立一个priorityQueue
-2. 先把边上的点全部入Queue
-3. 然后一点点向内渗透
-具体见代码
-### 代码
+// ### 解题思路
+// Cell 是 数据结构，保存了每个点的横纵坐标和高度
+// 1. 建立一个priorityQueue
+// 2. 先把边上的点全部入Queue
+// 3. 然后一点点向内渗透
+// 具体见代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int[] dirs = {0, 1, 0, -1, 0};
     public int trapRainWater(int[][] heightMap) {
@@ -58,4 +58,4 @@ class Solution {
 }
 
 
-```
+// ```

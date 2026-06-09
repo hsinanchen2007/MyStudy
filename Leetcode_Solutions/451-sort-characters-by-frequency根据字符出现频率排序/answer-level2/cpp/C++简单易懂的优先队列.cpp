@@ -1,12 +1,12 @@
 
-这个方法运行效率如下：
-![image.png](https://pic.leetcode-cn.com/f7bf9550c7dd9410cf829c07325f29467706cd11731691ac45e74b04281c2585-image.png)
+// 这个方法运行效率如下：
+// ![image.png](https://pic.leetcode-cn.com/f7bf9550c7dd9410cf829c07325f29467706cd11731691ac45e74b04281c2585-image.png)
 
-先用一个map来统计了字符频率
-然后使用优先队列（大根堆），优先级函数使用自定义函数
-直到大根堆弹空为止，用res搜集答案
-这里需要注意的是，自定义函数中，左小于右为大根堆
-```
+// 先用一个map来统计了字符频率
+// 然后使用优先队列（大根堆），优先级函数使用自定义函数
+// 直到大根堆弹空为止，用res搜集答案
+// 这里需要注意的是，自定义函数中，左小于右为大根堆
+// ```
 class Solution {
 public:
     string frequencySort(string s) {
@@ -32,4 +32,4 @@ public:
         }
     };
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-本来以为会有什么曲面积分之类的操作，结果就是一个个方块数面积。
+// ### 解题思路
+// 本来以为会有什么曲面积分之类的操作，结果就是一个个方块数面积。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int i, j, k, res = 0;
@@ -25,4 +25,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     return res;
 }
 
-```
+// ```

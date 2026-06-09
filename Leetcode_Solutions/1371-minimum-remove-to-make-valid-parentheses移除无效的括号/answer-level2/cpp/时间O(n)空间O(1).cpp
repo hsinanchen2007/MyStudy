@@ -1,6 +1,6 @@
-第一次从前向后遍历删除非法的')'
-第二次从后向前遍历删除多余的'('
-```
+// 第一次从前向后遍历删除非法的')'
+// 第二次从后向前遍历删除多余的'('
+// ```
 class Solution {
 public:
     string minRemoveToMakeValid(string &s) {
@@ -25,5 +25,5 @@ public:
         return s;
     }
 };
-```
+// ```
 

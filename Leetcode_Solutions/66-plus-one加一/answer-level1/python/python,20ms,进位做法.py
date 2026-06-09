@@ -1,11 +1,11 @@
-### 解题思路
-python,20ms,进位做法
-其他做法，str int转换
-#return [int(x) for x in str(int(''.join([str(i) for i in digits])) + 1)]
+# ### 解题思路
+# python,20ms,进位做法
+# 其他做法，str int转换
+# #return [int(x) for x in str(int(''.join([str(i) for i in digits])) + 1)]
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def plusOne(self, digits):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             digits.insert(0,1)
         return digits
             
-```
+# ```

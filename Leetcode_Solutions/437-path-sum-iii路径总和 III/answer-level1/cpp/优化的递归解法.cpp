@@ -1,6 +1,6 @@
-解这道题时首先想到的就是双重递归：以每个节点为根节点，递归求解路径数。实现也比较简单：
+// 解这道题时首先想到的就是双重递归：以每个节点为根节点，递归求解路径数。实现也比较简单：
 
-```c++
+// ```c++
 void DFS(TreeNode* root, int sum, int& count)
 {
     if (root == nullptr)
@@ -40,13 +40,13 @@ public:
         return count;
     }
 };
-```
+// ```
 
-上述算法的缺点也很明显：存在很多重复计算。导致算法的时间复杂度比较高。
+// 上述算法的缺点也很明显：存在很多重复计算。导致算法的时间复杂度比较高。
 
-那么有没有什么办法可以优化呢？ 其实当我们看到这道题的时候应该会觉得似曾相识，是的，这道题让我想起了 [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)，当我们理解了它的O(n)时间复杂度的解法时，很自然地可以应用到本题中：
+// 那么有没有什么办法可以优化呢？ 其实当我们看到这道题的时候应该会觉得似曾相识，是的，这道题让我想起了 [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)，当我们理解了它的O(n)时间复杂度的解法时，很自然地可以应用到本题中：
 
-```c++
+// ```c++
 void DFS(TreeNode* root, int k, int currentSum, unordered_map<int, int>& prefixSum, int& count)
 {
     if (root == nullptr)
@@ -96,5 +96,5 @@ public:
         return count;
     }
 };
-```
-上述算法比第一种算法快了一个数量级，但空间复杂度比之前要高。
+// ```
+// 上述算法比第一种算法快了一个数量级，但空间复杂度比之前要高。

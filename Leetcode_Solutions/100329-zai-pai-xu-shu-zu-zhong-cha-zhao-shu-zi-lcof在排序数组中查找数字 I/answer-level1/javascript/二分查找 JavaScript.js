@@ -1,8 +1,8 @@
-### 解题思路
-二分查找 找到了之后向两边扩散 左右两点的差值
-### 代码
+// ### 解题思路
+// 二分查找 找到了之后向两边扩散 左右两点的差值
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -31,4 +31,4 @@ var search = function(nums, target) {
     }
     return 0
 };
-```
+// ```

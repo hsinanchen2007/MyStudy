@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int heightChecker(int[] heights) {
         int[] x=new int[heights.length];
@@ -11,5 +11,5 @@ class Solution {
         return count;
     }
 }
-```
-首先创建一个数组heights的副本，然后对该数组排序，然后比较两个数组不同的数字有多少个，该数字即为答案
+// ```
+// 首先创建一个数组heights的副本，然后对该数组排序，然后比较两个数组不同的数字有多少个，该数字即为答案

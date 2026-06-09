@@ -1,6 +1,6 @@
-## 思路一：贪心
-### 代码
-```c++
+// ## 思路一：贪心
+// ### 代码
+// ```c++
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
@@ -19,16 +19,16 @@ public:
         return max((int)tasks.size(), res);
     }
 };
-```
+// ```
 
-## 思路二：优先级队列
-优先级队列按照元素出现次数进行排序。
-while(队列不为空)
-- 每次从队列中取出 n + 1 个元素
-- 将每个元素次数减一，如果不为 0，则再次放入队列
-- 如果队列不为空，则说明前一次完整取出 n + 1 个元素，将结果加到 res，否则取实际取出元素个数 cnt 加到 res。
-### 代码
-```
+// ## 思路二：优先级队列
+// 优先级队列按照元素出现次数进行排序。
+// while(队列不为空)
+// - 每次从队列中取出 n + 1 个元素
+// - 将每个元素次数减一，如果不为 0，则再次放入队列
+// - 如果队列不为空，则说明前一次完整取出 n + 1 个元素，将结果加到 res，否则取实际取出元素个数 cnt 加到 res。
+// ### 代码
+// ```
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
@@ -61,5 +61,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

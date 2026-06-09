@@ -1,5 +1,5 @@
-此题目太无聊了，直接上代码，就是找到白象，然后上下左右去找黑卒
-```
+// 此题目太无聊了，直接上代码，就是找到白象，然后上下左右去找黑卒
+// ```
 int m = board.length;
 		int n = board[0].length;
 		int ni = -1;
@@ -71,4 +71,4 @@ int m = board.length;
 			}
 		}
 		return res;
-```
+// ```

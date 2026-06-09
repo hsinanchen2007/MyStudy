@@ -1,9 +1,9 @@
-### 解题思路
-DP初级题，一维动态规划，DP数组用来存放最优解
+// ### 解题思路
+// DP初级题，一维动态规划，DP数组用来存放最优解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max (int a, int b)
 {
     if (a > b)
@@ -50,4 +50,4 @@ int massage(int* nums, int numsSize){
     return dp[numsSize-1];
 
 }
-```
+// ```

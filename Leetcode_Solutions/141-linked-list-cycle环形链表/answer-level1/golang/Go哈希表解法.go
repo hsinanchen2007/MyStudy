@@ -1,9 +1,9 @@
-### 解题思路
-用一个映射存储经过的节点
+// ### 解题思路
+// 用一个映射存储经过的节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -28,4 +28,4 @@ func hasCycle(head *ListNode) bool {
         p=p.Next
     }
 }
-```
+// ```

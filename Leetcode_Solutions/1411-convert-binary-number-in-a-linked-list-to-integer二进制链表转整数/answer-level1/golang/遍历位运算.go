@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -16,4 +16,4 @@ func getDecimalValue(head *ListNode) int {
     return ans
     
 }
-```
+// ```

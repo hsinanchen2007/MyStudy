@@ -1,9 +1,9 @@
-### 解题思路
-与别人不同（其他人都是直接改变next的位置，这样就不用赋值），我是老老实实的对新的链表进行赋值，并返回新链表（想看的朋友们，可以看一下）
+// ### 解题思路
+// 与别人不同（其他人都是直接改变next的位置，这样就不用赋值），我是老老实实的对新的链表进行赋值，并返回新链表（想看的朋友们，可以看一下）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return head->next;
 }
-```
+// ```

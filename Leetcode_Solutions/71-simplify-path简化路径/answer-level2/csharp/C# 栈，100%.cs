@@ -1,5 +1,5 @@
-![图片1.png](https://pic.leetcode-cn.com/1961300ec087c51634cf97ab90459d868f461ade1f12ca3bc01bb77010512a7d-%E5%9B%BE%E7%89%871.png)
-```
+// ![图片1.png](https://pic.leetcode-cn.com/1961300ec087c51634cf97ab90459d868f461ade1f12ca3bc01bb77010512a7d-%E5%9B%BE%E7%89%871.png)
+// ```
             Stack<string> s = new Stack<string>();
 
             string[] spiltArr = path.Split('/');
@@ -37,5 +37,5 @@
             {
                 return "/";
             }
-```
+// ```
 

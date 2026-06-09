@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-很简单的双指针思路，注意还有剩下的 l1 or l2 节点即可，以及每次的进位 p ，如果有就继续创建节点即可。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 很简单的双指针思路，注意还有剩下的 l1 or l2 节点即可，以及每次的进位 p ，如果有就继续创建节点即可。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         return head.next
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int maxnum=0;//store the max different nunber
     int temp=0;//store the temp number if diffrent string
@@ -36,4 +36,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return maxnum;
 }
-```
+// ```

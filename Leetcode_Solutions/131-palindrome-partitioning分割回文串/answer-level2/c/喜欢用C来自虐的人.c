@@ -1,8 +1,8 @@
-### 解题思路
-没啥思路，基本DFS
-### 代码
+// ### 解题思路
+// 没啥思路，基本DFS
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_RET 10000
 
@@ -79,4 +79,4 @@ char *** partition(char * s, int* returnSize, int** returnColumnSizes){
     free(tmpSubs);
     return g_ans;
 }
-```
+// ```

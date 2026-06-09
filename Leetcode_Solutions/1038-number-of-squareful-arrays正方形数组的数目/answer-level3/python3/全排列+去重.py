@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numSquarefulPerms(self, A: List[int]) -> int:
         # 要完成的功能
@@ -57,4 +57,4 @@ class Solution:
 
 
         
-```
+# ```

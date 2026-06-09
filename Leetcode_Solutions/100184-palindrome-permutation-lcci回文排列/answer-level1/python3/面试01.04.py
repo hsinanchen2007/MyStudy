@@ -1,9 +1,9 @@
-### 解题思路
-把非重复的字符放到数组中，若字符数大于1则非回文数
+# ### 解题思路
+# 把非重复的字符放到数组中，若字符数大于1则非回文数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         res = 0
@@ -19,4 +19,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

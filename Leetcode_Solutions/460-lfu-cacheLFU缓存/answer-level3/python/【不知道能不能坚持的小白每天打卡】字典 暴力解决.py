@@ -1,12 +1,12 @@
-### 解题思路
-看完题目有key有value有put有get，以我薄弱的知识储备，首先想到的是用dict。一开始想的是构建一个key_val_dict，然后访问key的时候得val；然后构建一个key_freq_dict，访问key的时候得frequency；然后构建一个freq_key_dict，访问freq的时候得到同一个frequency下访问过的key的list，用以判断哪个是最近最少使用的key（p.s. 我总觉得这个最近最少读起来真的很恶心，是不是我的语文理解能力有问题？总觉得应该描述为最早最少）。
-然后一顿操作下来，把自己烦死了。时间关系，就参考了一下题解和评论有没有用类似我这种思路解决问题的，确实还是有的。如果用我一开始的这种构建dict的做法，肯定还是做得出来的，但是会多很多不必要的麻烦，然后把自己作死。
+# ### 解题思路
+# 看完题目有key有value有put有get，以我薄弱的知识储备，首先想到的是用dict。一开始想的是构建一个key_val_dict，然后访问key的时候得val；然后构建一个key_freq_dict，访问key的时候得frequency；然后构建一个freq_key_dict，访问freq的时候得到同一个frequency下访问过的key的list，用以判断哪个是最近最少使用的key（p.s. 我总觉得这个最近最少读起来真的很恶心，是不是我的语文理解能力有问题？总觉得应该描述为最早最少）。
+# 然后一顿操作下来，把自己烦死了。时间关系，就参考了一下题解和评论有没有用类似我这种思路解决问题的，确实还是有的。如果用我一开始的这种构建dict的做法，肯定还是做得出来的，但是会多很多不必要的麻烦，然后把自己作死。
 
-**本题关键思路**：按照题意直接用dict暴力解决，这个dict的key就是输入的key，然而对应这个key的value就包装在了一个list里面，[value, frequency, time]，frequency就是访问过的次数，time这里指的是对这个Cache访问操作了第几次。关键就是这个time了，这里是为了方便的找到哪个key是最少使用的里面，最早使用的那个。如果我们每get一次，或者put一次，都给这个time+=1，那time小的就是最早的那个了。
+# **本题关键思路**：按照题意直接用dict暴力解决，这个dict的key就是输入的key，然而对应这个key的value就包装在了一个list里面，[value, frequency, time]，frequency就是访问过的次数，time这里指的是对这个Cache访问操作了第几次。关键就是这个time了，这里是为了方便的找到哪个key是最少使用的里面，最早使用的那个。如果我们每get一次，或者put一次，都给这个time+=1，那time小的就是最早的那个了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class LFUCache:
     # 根据上述解释，这里就把dict命名为key_val_freq_time_dict，方便记忆，也就是key对应val_freq_time的list的意思
     def __init__(self, capacity: int):
@@ -57,4 +57,4 @@ class LFUCache:
 # param_1 = obj.get(key)
 # obj.put(key,value)
 
-```
+# ```

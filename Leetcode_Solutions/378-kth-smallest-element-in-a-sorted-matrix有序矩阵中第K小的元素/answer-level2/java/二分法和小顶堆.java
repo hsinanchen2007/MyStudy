@@ -1,9 +1,9 @@
-### 解题思路
-二分法和小顶堆
+// ### 解题思路
+// 二分法和小顶堆
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Pair {
     int r, c, val;
     public Pair(int r, int c, int val) {
@@ -47,4 +47,4 @@ class Solution {
         return queue.peek().val;
     }
 }
-```
+// ```

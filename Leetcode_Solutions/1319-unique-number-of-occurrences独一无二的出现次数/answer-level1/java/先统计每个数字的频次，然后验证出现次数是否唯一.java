@@ -1,9 +1,9 @@
-### 解题思路
-先统计每个数字的频次，然后验证出现次数是否唯一。
+// ### 解题思路
+// 先统计每个数字的频次，然后验证出现次数是否唯一。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         Set<Integer> set = new HashSet<>();
@@ -30,4 +30,4 @@ class Solution {
         return map;
     }
 }
-```
+// ```

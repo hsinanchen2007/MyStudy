@@ -1,5 +1,5 @@
-使用c++ map upper_bound() 负权值查找，nlogn的时间复杂度 36ms
-```
+// 使用c++ map upper_bound() 负权值查找，nlogn的时间复杂度 36ms
+// ```
 typedef pair<int,int> ii;
 class Solution {
 public:
@@ -19,4 +19,4 @@ public:
         return A;
     }
 };
-```
+// ```

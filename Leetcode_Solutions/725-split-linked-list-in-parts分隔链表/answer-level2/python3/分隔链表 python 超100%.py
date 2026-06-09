@@ -1,5 +1,5 @@
-> 思路很简单
-```python
+# > 思路很简单
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution:
                 cnt += 1
         #print(res,k,len(res))
         return res+[None]*(k-len(res))
-```
+# ```

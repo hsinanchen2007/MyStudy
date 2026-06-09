@@ -1,8 +1,8 @@
-### 解题思路
-contains()判断是多此一举
-### 代码
+// ### 解题思路
+// contains()判断是多此一举
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         HashSet set = new HashSet();
@@ -14,4 +14,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

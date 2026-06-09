@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-非递归右序，获取数组后组织新树
+// 非递归右序，获取数组后组织新树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -44,4 +44,4 @@ func increasingBST(root *TreeNode) *TreeNode {
 	}
 	return pre
 }
-```
+// ```

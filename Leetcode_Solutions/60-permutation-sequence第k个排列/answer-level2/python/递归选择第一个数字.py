@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         ##计算阶乘
@@ -24,4 +24,4 @@ class Solution:
         #k转换为从0计数
         res=get_perm(nums,k-1,[])
         return ''.join([str(i) for i in res])
-```
+# ```

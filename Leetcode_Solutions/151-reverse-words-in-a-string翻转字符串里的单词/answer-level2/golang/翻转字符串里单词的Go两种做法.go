@@ -1,4 +1,4 @@
-```go
+// ```go
 package main
 
 import (
@@ -135,4 +135,4 @@ func bytes2str(b []byte) string {
 	return *(*string)(unsafe.Pointer(&h))
 }
 
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-`used`记录哪些数字被使用了
-`weights`计算每个字母的权重
-`notZero`记录哪些字母不能对应到0
-`chars`记录所有用到的字母
-然后回溯法求解
+// ### 解题思路
+// `used`记录哪些数字被使用了
+// `weights`计算每个字母的权重
+// `notZero`记录哪些字母不能对应到0
+// `chars`记录所有用到的字母
+// 然后回溯法求解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> used;
@@ -56,6 +56,6 @@ public:
         return dfs(0, sum);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/27abcb9088dd486bd30341e0300f5890add23044a0b27eaf35c971d92d076c0b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/27abcb9088dd486bd30341e0300f5890add23044a0b27eaf35c971d92d076c0b-image.png)

@@ -1,9 +1,9 @@
-### 解法一
-计数排序
+// ### 解法一
+// 计数排序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -31,11 +31,11 @@ var sortColors = function(nums) {
         }
     }
 };
-```
+// ```
 
-### 解法二
-快排序思想，遍历一遍，如果是0放在数组前面，是2放在数组末尾
-```javascript
+// ### 解法二
+// 快排序思想，遍历一遍，如果是0放在数组前面，是2放在数组末尾
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -52,5 +52,5 @@ var sortColors = function(nums) {
         }
     }
 }
-```
-```
+// ```
+// ```

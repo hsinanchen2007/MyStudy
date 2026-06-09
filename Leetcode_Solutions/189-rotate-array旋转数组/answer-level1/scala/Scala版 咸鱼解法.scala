@@ -1,4 +1,4 @@
-```Scala
+// ```Scala
 object Solution {
     def rotate(nums: Array[Int], k: Int): Unit = {
     if (k == 0) println(nums)
@@ -12,4 +12,4 @@ object Solution {
     }
   }
 }
-```
+// ```

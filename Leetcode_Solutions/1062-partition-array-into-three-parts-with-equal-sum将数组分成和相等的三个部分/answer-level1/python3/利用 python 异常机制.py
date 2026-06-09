@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-这道题有好多细节，我连错了四次……
+# 这道题有好多细节，我连错了四次……
 
-解题思想和官方题解一样，不过使用了两个 python 工具，itertools.accumulate 和异常机制。
+# 解题思想和官方题解一样，不过使用了两个 python 工具，itertools.accumulate 和异常机制。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from itertools import accumulate
 
 
@@ -27,4 +27,4 @@ class Solution:
             else:
                 return True
 
-```
+# ```

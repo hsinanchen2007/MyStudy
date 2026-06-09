@@ -1,9 +1,9 @@
-### 解题思路
-就是找出所有的项目的最有经验的，然后根据项目和最有经验来比就能选出并列的，只要等于最大的就要，这，，怎么优化一下啊，纯粹就是业务逻辑啊，难受
+-- ### 解题思路
+-- 就是找出所有的项目的最有经验的，然后根据项目和最有经验来比就能选出并列的，只要等于最大的就要，这，，怎么优化一下啊，纯粹就是业务逻辑啊，难受
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select tmp.project_id project_id,e1.employee_id employee_id
@@ -20,4 +20,4 @@ left join Employee e1
 on p1.employee_id = e1.employee_id
 where tmp.expert = e1.experience_years
 order by tmp.project_id,e1.employee_id
-```
+-- ```

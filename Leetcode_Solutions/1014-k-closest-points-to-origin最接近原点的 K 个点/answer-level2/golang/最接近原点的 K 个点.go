@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func kClosest(points [][]int, K int) [][]int {
 	kClosest := getKClosest(points, K)
@@ -70,4 +70,4 @@ func distanceToZeroPoint(point []int) float64 {
 	}
 	return math.Sqrt(float64(distance))
 }
-```
+// ```

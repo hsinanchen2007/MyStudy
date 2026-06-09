@@ -1,12 +1,12 @@
-### 解题思路
-注意几个点
-1、最小公倍数x最大公约数  = AxB
-2、最小公倍数内的神奇数字个数为 lcm / A + lcm / B - 1
-3、神奇数字以最小公倍数为周期
+# ### 解题思路
+# 注意几个点
+# 1、最小公倍数x最大公约数  = AxB
+# 2、最小公倍数内的神奇数字个数为 lcm / A + lcm / B - 1
+# 3、神奇数字以最小公倍数为周期
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from math import gcd
 class Solution:
     def nthMagicalNumber(self, N: int, A: int, B: int) -> int:
@@ -28,4 +28,4 @@ class Solution:
         k,v = divmod(N-1,n)
         res = k * lcm + num_set[v]
         return int(res % MOD)
-```
+# ```

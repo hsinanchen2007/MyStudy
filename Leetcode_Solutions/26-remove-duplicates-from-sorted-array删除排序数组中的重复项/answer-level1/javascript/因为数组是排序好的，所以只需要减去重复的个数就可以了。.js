@@ -1,10 +1,10 @@
-### 解题思路
-因为数组是排序好的，所以只需要减去重复的个数就可以了。
-count是计算重复的个数的。
+// ### 解题思路
+// 因为数组是排序好的，所以只需要减去重复的个数就可以了。
+// count是计算重复的个数的。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -21,4 +21,4 @@ var removeDuplicates = function(nums) {
     }
     return n-count
 };
-```
+// ```

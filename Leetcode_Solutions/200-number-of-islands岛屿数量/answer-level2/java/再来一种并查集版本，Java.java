@@ -1,9 +1,9 @@
-### 解题思路
-写并查集完全不用想，一门心思瞎写。
+// ### 解题思路
+// 写并查集完全不用想，一门心思瞎写。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numIslands(char[][] grid) {
         if(grid == null || grid.length == 0 || grid[0] == null ||grid[0].length == 0) {
@@ -92,4 +92,4 @@ class UnionFind {
         return cnt;
     }
 }
-```
+// ```

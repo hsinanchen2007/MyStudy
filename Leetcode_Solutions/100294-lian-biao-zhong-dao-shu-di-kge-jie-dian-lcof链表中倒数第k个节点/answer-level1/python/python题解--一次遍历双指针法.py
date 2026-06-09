@@ -1,12 +1,12 @@
-### 双指针
-- 思路:
-- 设置指针`temp`先在链表中走`k`步,在使用另一个指针`result`从头开始,这是两个指针之间的间距为`k`,同时前进,直到`temp`到达最后最后一个节点,这时`result`就指向了倒数敌`k`个节点,返回即可
-- 同时我们还需要考虑是否存在倒数第`k`节点的情况
-- 时间复杂度`O(n)`,空间复杂度`O(1)`
+# ### 双指针
+# - 思路:
+# - 设置指针`temp`先在链表中走`k`步,在使用另一个指针`result`从头开始,这是两个指针之间的间距为`k`,同时前进,直到`temp`到达最后最后一个节点,这时`result`就指向了倒数敌`k`个节点,返回即可
+# - 同时我们还需要考虑是否存在倒数第`k`节点的情况
+# - 时间复杂度`O(n)`,空间复杂度`O(1)`
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution(object):
             temp = temp.next
         return result
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -21,4 +21,4 @@ public:
         return head->val == head->next->val ? head->next : head;  //头节点的值是否重复
     }
 };
-```
+// ```

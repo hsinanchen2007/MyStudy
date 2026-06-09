@@ -1,12 +1,12 @@
-### 解题思路
-先找到最小值的index
-然后判断target需要在什么区间寻找；target<=nums[len]
-else l=0,r--
-不能写成r=l-1...l已经变化了
+// ### 解题思路
+// 先找到最小值的index
+// 然后判断target需要在什么区间寻找；target<=nums[len]
+// else l=0,r--
+// 不能写成r=l-1...l已经变化了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
 
@@ -39,4 +39,4 @@ class Solution {
     
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def getRow(self, rowIndex):
         ans = [1]
@@ -7,4 +7,4 @@ class Solution(object):
             for j in range(i, 0, -1):
                 ans[j] = ans[j] + ans[j-1]
         return ans
-```
+# ```

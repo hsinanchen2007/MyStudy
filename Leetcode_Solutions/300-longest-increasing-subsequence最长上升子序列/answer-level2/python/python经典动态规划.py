@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 if nums[i] > nums[j]:
                     dp[i] = max(dp[j] + 1, dp[i])
         return max(dp) if dp else 0
-```
+# ```

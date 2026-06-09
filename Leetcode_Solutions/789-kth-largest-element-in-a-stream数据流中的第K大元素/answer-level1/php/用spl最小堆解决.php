@@ -1,4 +1,4 @@
-``` php
+// ``` php
 /*
  * @lc app=leetcode.cn id=703 lang=php
  *
@@ -41,4 +41,4 @@ class KthLargest {
  * $ret_1 = $obj->add($val);
  */
 // @lc code=end
-```
+// ```

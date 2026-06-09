@@ -1,8 +1,8 @@
-2次遍历，一次创建新节点并连起来，第二次单独处理random
+# 2次遍历，一次创建新节点并连起来，第二次单独处理random
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def copyRandomList(self, head):
         """
@@ -37,4 +37,4 @@ class Solution(object):
 
 
         return root
-```
+# ```

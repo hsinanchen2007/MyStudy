@@ -1,9 +1,9 @@
-### 解题思路
-取任务前先进行排序，同类任务数多的先执行
+// ### 解题思路
+// 取任务前先进行排序，同类任务数多的先执行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n)
@@ -35,4 +35,4 @@ public:
         return result;
     }
 };
-```
+// ```

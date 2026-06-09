@@ -1,9 +1,9 @@
-### 解题思路
-三个指针分别记录cur、head、next，循环往下走，让head->next = cur;cur = head;head = next即三个指针都往后走一步，最后注意head->next=cur链上前面的
+// ### 解题思路
+// 三个指针分别记录cur、head、next，循环往下走，让head->next = cur;cur = head;head = next即三个指针都往后走一步，最后注意head->next=cur链上前面的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* reverseList(struct ListNode* head){
     head->next = cur;
     return head;
 }
-```
+// ```

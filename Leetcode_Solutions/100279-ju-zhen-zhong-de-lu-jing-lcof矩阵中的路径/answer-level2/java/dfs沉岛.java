@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-执行用时 :
-9 ms
-, 在所有 Java 提交中击败了
-35.91%
-的用户
-内存消耗 :
-41.3 MB
-, 在所有 Java 提交中击败了
-100.00%
-的用户
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 执行用时 :
+// 9 ms
+// , 在所有 Java 提交中击败了
+// 35.91%
+// 的用户
+// 内存消耗 :
+// 41.3 MB
+// , 在所有 Java 提交中击败了
+// 100.00%
+// 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int len1, len2;
     public boolean exist(char[][] board, String word) {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

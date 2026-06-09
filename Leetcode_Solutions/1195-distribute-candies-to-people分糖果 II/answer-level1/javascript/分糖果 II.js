@@ -1,4 +1,4 @@
-```js
+// ```js
 var distributeCandies = function(candies, num_people) {
     // 每次递增分发的糖果数量
     let i = 0;
@@ -19,4 +19,4 @@ var distributeCandies = function(candies, num_people) {
     }
     return res
 };
-```
+// ```

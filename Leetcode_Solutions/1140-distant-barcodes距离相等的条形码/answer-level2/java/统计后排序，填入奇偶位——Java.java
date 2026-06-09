@@ -1,7 +1,7 @@
- 思路：参考评论中[@strengthen](https://leetcode-cn.com/u/strengthen) 这位大佬的思路，Java实现，借助HashMap，将TreeMap按值排序后，按奇偶位填入即可。做了个简单的翻译。。。虽然没能看懂Swift代码，但是好像理解到了思路，AC了。效率不高，毕竟只学到了皮毛。。。
-<br/><br/>
-代码：
-```processing
+//  思路：参考评论中[@strengthen](https://leetcode-cn.com/u/strengthen) 这位大佬的思路，Java实现，借助HashMap，将TreeMap按值排序后，按奇偶位填入即可。做了个简单的翻译。。。虽然没能看懂Swift代码，但是好像理解到了思路，AC了。效率不高，毕竟只学到了皮毛。。。
+// <br/><br/>
+// 代码：
+// ```processing
 class Solution {
     public int[] rearrangeBarcodes(int[] barcodes) {
         HashMap<Integer,Integer> map = new HashMap<>();
@@ -50,5 +50,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

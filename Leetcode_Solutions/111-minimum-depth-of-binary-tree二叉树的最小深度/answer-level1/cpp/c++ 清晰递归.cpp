@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDepth(TreeNode* root) {
@@ -8,4 +8,4 @@ public:
         return 1 + min(minDepth(root->left), minDepth(root->right));
     }
 };
-```
+// ```

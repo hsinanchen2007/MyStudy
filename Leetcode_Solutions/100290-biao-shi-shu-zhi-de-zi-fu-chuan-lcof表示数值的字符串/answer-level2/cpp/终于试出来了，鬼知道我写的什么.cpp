@@ -1,8 +1,8 @@
-### 解题思路
-用例真恶心
-### 代码
+// ### 解题思路
+// 用例真恶心
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isNumber(string s) {
@@ -45,4 +45,4 @@ public:
         
     }
 };
-```
+// ```

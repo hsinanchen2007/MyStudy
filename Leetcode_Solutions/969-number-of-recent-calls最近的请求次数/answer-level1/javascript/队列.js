@@ -1,4 +1,4 @@
-```
+// ```
 var RecentCounter = function() {
     this.queue = [];
 };
@@ -19,4 +19,4 @@ RecentCounter.prototype.ping = function (t) {
  * var obj = new RecentCounter()
  * var param_1 = obj.ping(t)
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先建立宝石map再查询
+// ### 解题思路
+// 先建立宝石map再查询
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -21,4 +21,4 @@ var numJewelsInStones = function(J, S) {
     }
     return count
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(char** board, int boardSize, int* boardColSize, int row, int col) {
     if (row < 0 || row > boardSize -1 || col < 0 || col > boardColSize[0] - 1 || board[row][col] != 'O') {
         return;
@@ -46,4 +46,4 @@ void solve(char** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/57c487f65b99adbf5927d8c5e4e026df87e15cd4237d860ac9ee64128ee51d23-image.png)
+# ![image.png](https://pic.leetcode-cn.com/57c487f65b99adbf5927d8c5e4e026df87e15cd4237d860ac9ee64128ee51d23-image.png)
 
 
-```
+# ```
 '''
 dfs 递归删除节点
 '''
@@ -17,4 +17,4 @@ class Solution:
         if root.left is None and root.right is None and root.val == target:
             return None
         return root
-```
+# ```

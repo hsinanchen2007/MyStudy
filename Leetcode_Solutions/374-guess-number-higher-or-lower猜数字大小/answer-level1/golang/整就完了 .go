@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-二分查找换个说法 脑袋转一会就好了
+// ### 解题思路
+// 此处撰写解题思路
+// 二分查找换个说法 脑袋转一会就好了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -38,4 +38,4 @@ func binarySearch(n int) int {
     }
     return res
 }
-```
+// ```

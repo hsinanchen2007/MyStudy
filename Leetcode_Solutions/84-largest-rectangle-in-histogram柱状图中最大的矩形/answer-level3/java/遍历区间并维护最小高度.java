@@ -1,9 +1,9 @@
-### 解题思路
-用二重循环遍历所有的区间，遍历过程中随下标更新区间内的最小高度，更新最大面积的值。
+// ### 解题思路
+// 用二重循环遍历所有的区间，遍历过程中随下标更新区间内的最小高度，更新最大面积的值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestRectangleArea(int[] heights) {
         if (heights == null || heights.length == 0) {
@@ -20,4 +20,4 @@ class Solution {
         return maxArea;
     }
 }
-```
+// ```

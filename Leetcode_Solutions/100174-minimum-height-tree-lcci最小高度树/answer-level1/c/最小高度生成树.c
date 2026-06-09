@@ -1,9 +1,9 @@
-### 解题思路
-递归生成，范围就low、high、mid=（low+high）/2 不要自己计算数组下标。
+// ### 解题思路
+// 递归生成，范围就low、high、mid=（low+high）/2 不要自己计算数组下标。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -46,4 +46,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     root->right=sortedArrayToBST(nums+numsSize/2+1,numsSize/2);
     return root;
 }*/
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         if (not head) or (not head.next):
@@ -25,4 +25,4 @@ class Solution:
             fast = fast.next                    
         curr.next = None 
         return head
-```
+# ```

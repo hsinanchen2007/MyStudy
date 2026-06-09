@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         if len(nums) == 0:
@@ -13,4 +13,4 @@ class Solution:
                 t = i*c+j
                 result[i][j] = nums[t//c0][t%c0]
         return result
-```
+# ```

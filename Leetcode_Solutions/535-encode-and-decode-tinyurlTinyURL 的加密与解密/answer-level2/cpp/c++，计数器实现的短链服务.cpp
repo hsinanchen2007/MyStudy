@@ -1,5 +1,5 @@
-用静态计数器来实现吧，可以存2^64个短链
-```
+// 用静态计数器来实现吧，可以存2^64个短链
+// ```
 class Solution {
 public:
     int count = 0;
@@ -17,4 +17,4 @@ public:
         return mmap[key];
     }
 };
-```
+// ```

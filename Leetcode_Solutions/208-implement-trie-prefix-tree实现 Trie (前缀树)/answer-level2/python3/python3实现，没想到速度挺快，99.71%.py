@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Trie:
     def __init__(self):
         self.dic={}
@@ -26,5 +26,5 @@ class Trie:
                 return False
             a=a[i]
         return True
-```
+# ```
 

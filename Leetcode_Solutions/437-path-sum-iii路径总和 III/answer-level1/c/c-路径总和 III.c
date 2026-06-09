@@ -1,9 +1,9 @@
-### 解题思路
-快要写疯了
+// ### 解题思路
+// 快要写疯了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ int dfs(struct TreeNode* root,int sum,int *data,int n){
        return dfs(root->left,sum,data,n+1)+dfs(root->right,sum,data,n+1)+count;
        
 }
-```
+// ```

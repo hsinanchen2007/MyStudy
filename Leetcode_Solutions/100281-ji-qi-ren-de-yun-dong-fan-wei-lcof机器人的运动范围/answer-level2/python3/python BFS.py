@@ -1,5 +1,5 @@
-BFS的简单题，套路就是，定义visited代表遍历过的结果；然后逐层按照四个方向进行遍历 (其实遍历向下，向右两个方向就够了)。
-```
+# BFS的简单题，套路就是，定义visited代表遍历过的结果；然后逐层按照四个方向进行遍历 (其实遍历向下，向右两个方向就够了)。
+# ```
 from collections import deque
 
 class Solution:
@@ -42,4 +42,4 @@ class Solution:
         return res
                         
                 
-```
+# ```

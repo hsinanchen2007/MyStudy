@@ -1,9 +1,9 @@
-### 解题思路
-通过数组来替换原来的HashMap，提高性能。执行用时 : 5 ms
+// ### 解题思路
+// 通过数组来替换原来的HashMap，提高性能。执行用时 : 5 ms
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minWindow(String s, String t) {
         //由于字符类型，就考虑所有的ASCII码，因此直接用128个长度的数组代替原来的HashMap,提高性能
@@ -49,4 +49,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

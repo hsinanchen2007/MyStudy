@@ -1,8 +1,8 @@
-### 解题思路
-利用一个temp存储子序列，若nums[i+1]==nums[i]+1，则属于一个子序列。最后加上一个判断条件判断是否需要加“->”即可。
-### 代码
+// ### 解题思路
+// 利用一个temp存储子序列，若nums[i+1]==nums[i]+1，则属于一个子序列。最后加上一个判断条件判断是否需要加“->”即可。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> summaryRanges(int[] nums) {//一次AC的感觉真滴爽
         List<String> ans = new ArrayList<>(); 
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

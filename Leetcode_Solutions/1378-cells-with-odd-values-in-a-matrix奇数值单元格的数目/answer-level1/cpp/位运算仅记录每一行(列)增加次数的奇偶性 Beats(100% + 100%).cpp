@@ -1,7 +1,7 @@
-通过位运算仅记录每一行和每一列增加次数的奇偶性
-![image.png](https://pic.leetcode-cn.com/949b2131a01f96ddda953fdade10360c2762c49de5a024d49a2ab1686c5ad7bf-image.png)
+// 通过位运算仅记录每一行和每一列增加次数的奇偶性
+// ![image.png](https://pic.leetcode-cn.com/949b2131a01f96ddda953fdade10360c2762c49de5a024d49a2ab1686c5ad7bf-image.png)
 
-```
+// ```
 class Solution {
 public:
     int oddCells(int n, int m, vector<vector<int>>& indices) {
@@ -17,6 +17,6 @@ public:
         
     }
 };
-```
+// ```
 
 

@@ -1,26 +1,26 @@
-### 解题思路
+# ### 解题思路
 
-整体思路：从 1 开始计算 dp
+# 整体思路：从 1 开始计算 dp
 
 
-#### 计算的过程
+# #### 计算的过程
 
-我们要注意 2 点，
+# 我们要注意 2 点，
  
-- 当 `dp[i] < 0` 时，这个数就是无效的
-- 当 `i == coins[x]` 时，`dp[i] = 1`
+# - 当 `dp[i] < 0` 时，这个数就是无效的
+# - 当 `i == coins[x]` 时，`dp[i] = 1`
 
-```python
+# ```python
 dp[i] = min(dp[i-coins[0]], ....., dp[i-coins[-1]]) + 1
 # 特例
 if i == coins[x]:
     dp[i] = 1
 # 当 dp[i] < 0 时，这个数就无效了
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def coinChange(self, coins, amount: int) -> int:
         coins.sort()  # 排序 coin
@@ -43,4 +43,4 @@ class Solution:
             else:
                 dp[i] = -1  # 当 temp 为空时，说明无法组成当前 i，将 dp[i] = -1 置为无效
         return dp[amount]  # 返回 dp[amount] 即可
-```
+# ```

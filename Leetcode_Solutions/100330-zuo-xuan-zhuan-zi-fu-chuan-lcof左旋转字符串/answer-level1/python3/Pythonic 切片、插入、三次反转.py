@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseLeftWords(self, s: str, n: int) -> str:
         arr = list(s)
@@ -16,4 +16,4 @@ class Solution:
         arr[:] = arr[::-1]"""
 
         return ''.join(arr) 
-```
+# ```

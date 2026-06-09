@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-可能有溢出，那加上一个判定条件吧！
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 可能有溢出，那加上一个判定条件吧！
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int mySqrt(int x) {
 		if (x == 1 || x == 0) return x;
@@ -14,4 +14,4 @@ class Solution {
 		return 0;
     }
 }
-```
+// ```

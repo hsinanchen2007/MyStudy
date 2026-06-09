@@ -1,9 +1,9 @@
-### 解题思路
-动态规划典型问题
+// ### 解题思路
+// 动态规划典型问题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize)
 {
     if (nums == NULL || numsSize == 0) {
@@ -26,4 +26,4 @@ int lengthOfLIS(int* nums, int numsSize)
     return max;
 }
 
-```
+// ```

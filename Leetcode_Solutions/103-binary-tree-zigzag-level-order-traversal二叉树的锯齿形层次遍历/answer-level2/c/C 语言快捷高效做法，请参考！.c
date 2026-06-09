@@ -1,7 +1,7 @@
-**效率还是不错的，击败了90%以上的用户。参考如下:**
+// **效率还是不错的，击败了90%以上的用户。参考如下:**
 
 
-```
+// ```
 int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes){
     struct TreeNode **treeArray = malloc(10000 * sizeof(struct TreeNode *));
     *returnSize = 0;
@@ -59,4 +59,4 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
     }
     return NumArry;
 }
-```
+// ```

@@ -1,18 +1,18 @@
-## 思路:
+# ## 思路:
 
-思路一：朴素想法
+# 思路一：朴素想法
 
-看正方形周围是不是水，或者在边界处，这样才能产生周长
+# 看正方形周围是不是水，或者在边界处，这样才能产生周长
 
-思路二：整体看
+# 思路二：整体看
 
-按行按列扫一遍即可
+# 按行按列扫一遍即可
 
-## 代码:
+# ## 代码:
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         row = len(grid)
@@ -28,15 +28,15 @@ class Solution:
                             res += 1
                     
         return res
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         return sum(
         sum(map(lambda x, y: x!=y, row + [0], [0] + row))
         for row in itertools.chain(grid, map(list, zip(*grid))))
-```
+# ```
 

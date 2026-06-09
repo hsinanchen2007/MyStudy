@@ -1,10 +1,10 @@
-### 解题思路
-用 up 记录连续上升次数
-用 low 记录下降次数
+# ### 解题思路
+# 用 up 记录连续上升次数
+# 用 low 记录下降次数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxTurbulenceSize(self, A: List[int]) -> int:
         up = [1 for i in range(len(A))]
@@ -22,4 +22,4 @@ class Solution:
                 else:
                     low[x+1] += 1
         return max(low+up)
-```
+# ```

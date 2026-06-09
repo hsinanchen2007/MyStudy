@@ -1,5 +1,5 @@
-回溯法 practice [继leetcode39题](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-neneda/) 之后
-```cpp
+// 回溯法 practice [继leetcode39题](https://leetcode-cn.com/problems/combination-sum/solution/zu-he-zong-he-by-neneda/) 之后
+// ```cpp
 class Solution {
 private:
     vector< vector<int> > res;
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

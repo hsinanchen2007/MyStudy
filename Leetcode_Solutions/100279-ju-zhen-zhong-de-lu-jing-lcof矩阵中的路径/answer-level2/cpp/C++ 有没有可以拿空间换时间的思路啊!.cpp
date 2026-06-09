@@ -1,6 +1,6 @@
-执行用时：224 ms       38.82%
-内存消耗：146.9 MB     100%
-```
+// 执行用时：224 ms       38.82%
+// 内存消耗：146.9 MB     100%
+// ```
     bool exist(vector<vector<char>>& board, string word) {
         for(int i=0;i<board.size();++i){
             for(int j=0;j<board[i].size();++j)
@@ -48,4 +48,4 @@
                 return 0;
         return 1;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         sub = {}
@@ -18,4 +18,4 @@ class Solution:
         return num
         #这里的num集合记录的是每个字符出现的位置
         #j - i表示两个相同字符之间的距离，就是当前子串的长度            
-```
+# ```

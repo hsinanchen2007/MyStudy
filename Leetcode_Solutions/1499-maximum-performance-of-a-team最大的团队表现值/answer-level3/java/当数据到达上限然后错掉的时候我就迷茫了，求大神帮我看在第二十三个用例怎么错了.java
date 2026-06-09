@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
         quickSort(efficiency,speed,0,n-1);
@@ -55,5 +55,5 @@ class Solution {
      quickSort(a,b, i+1, r);//递归调用
  }
 }
-```
+// ```
 

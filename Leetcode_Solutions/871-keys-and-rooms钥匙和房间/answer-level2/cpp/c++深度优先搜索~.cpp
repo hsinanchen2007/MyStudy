@@ -1,9 +1,9 @@
-￼￼
-![房间钥匙题提交测试结果_20191119.png](https://pic.leetcode-cn.com/226c4628201f7f1b2d8543b18feeb5c666baa40e57c8531e14ca87d1ba7fe221-%E6%88%BF%E9%97%B4%E9%92%A5%E5%8C%99%E9%A2%98%E6%8F%90%E4%BA%A4%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C_20191119.png)
+// ￼￼
+// ![房间钥匙题提交测试结果_20191119.png](https://pic.leetcode-cn.com/226c4628201f7f1b2d8543b18feeb5c666baa40e57c8531e14ca87d1ba7fe221-%E6%88%BF%E9%97%B4%E9%92%A5%E5%8C%99%E9%A2%98%E6%8F%90%E4%BA%A4%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C_20191119.png)
 
-别忘了判断房间中钥匙所指向房间是否超范围，否则内存会溢出。
+// 别忘了判断房间中钥匙所指向房间是否超范围，否则内存会溢出。
 
-代码：
+// 代码：
 class Solution {
 public:
 

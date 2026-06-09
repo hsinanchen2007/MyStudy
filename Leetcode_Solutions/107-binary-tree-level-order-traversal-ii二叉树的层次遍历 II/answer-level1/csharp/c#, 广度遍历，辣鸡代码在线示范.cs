@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public IList<IList<int>> LevelOrderBottom(TreeNode root) {
         //bfs
@@ -41,12 +41,12 @@ public class Solution {
         return reverseList;
     }
 }
-```
-利用队列，存储每层的所有nodes，在顺序输出，并继续入队下一层，直到最后结束。
-出队的nodes，存入list，最后把list reverse一下就完成了。
+// ```
+// 利用队列，存储每层的所有nodes，在顺序输出，并继续入队下一层，直到最后结束。
+// 出队的nodes，存入list，最后把list reverse一下就完成了。
 
-附加reverse的做法，c#的List<List<int>>的新插入恶心了一把。。思想没毛病，需要带入depth去递归：
-```
+// 附加reverse的做法，c#的List<List<int>>的新插入恶心了一把。。思想没毛病，需要带入depth去递归：
+// ```
 public IList<IList<int>> LevelOrderBottom(TreeNode root)
         {
             var resultList = new List<IList<int>>() { new List<int>() };
@@ -86,4 +86,4 @@ public IList<IList<int>> LevelOrderBottom(TreeNode root)
                 SetIntoList(resultList, depth + 1, root.right);
             }
         }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-我知道这题肯定用优先队列
-自己手写个归并排序 加强理解
+// ### 解题思路
+// 我知道这题肯定用优先队列
+// 自己手写个归并排序 加强理解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         
@@ -88,4 +88,4 @@ class Solution {
         }
     }
 }
-```
+// ```

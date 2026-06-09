@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         char[] A=text1.toCharArray();
@@ -23,4 +23,4 @@ class Solution {
         return dp[n1][n2];
     }
 }
-```
+// ```

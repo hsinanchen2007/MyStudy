@@ -1,5 +1,5 @@
-解释在注释中
-```
+// 解释在注释中
+// ```
 class Solution {
 public:
     bool checkSubarraySum(vector<int>& nums, int k) {
@@ -15,4 +15,4 @@ public:
         return false;
     }
 };
-```
+// ```

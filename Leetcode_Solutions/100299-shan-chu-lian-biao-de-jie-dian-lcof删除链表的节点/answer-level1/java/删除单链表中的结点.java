@@ -1,9 +1,9 @@
-### 解题思路
-在写链表题的时候一定要添加哨兵节点
+// ### 解题思路
+// 在写链表题的时候一定要添加哨兵节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return node.next;
     }
 }
-```
+// ```

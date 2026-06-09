@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-一：两个矩形不想交有四种情况 
-1）矩形rec2在矩形rec1的上面 
-2）矩形rec2在矩形rec1的下面
-3）矩形rec2在矩形rec1的左面
-4）矩形rec2在矩形rec1的右面
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 一：两个矩形不想交有四种情况 
+// 1）矩形rec2在矩形rec1的上面 
+// 2）矩形rec2在矩形rec1的下面
+// 3）矩形rec2在矩形rec1的左面
+// 4）矩形rec2在矩形rec1的右面
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         if(rec1[0]>=rec2[2]){
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

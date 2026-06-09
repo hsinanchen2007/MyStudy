@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numDecodings(string s) {
@@ -23,5 +23,5 @@ public:
         return dp2;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/241226dbe69d611114af2b96c86ae52c02dcb28c38b2ae1c730b2e561346fa58-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/241226dbe69d611114af2b96c86ae52c02dcb28c38b2ae1c730b2e561346fa58-image.png)

@@ -1,6 +1,6 @@
-利用KMP算法的next数组的思想，求最后一个的next值即可。
+// 利用KMP算法的next数组的思想，求最后一个的next值即可。
 
-```
+// ```
     public String longestPrefix(String s) {
         int[] next = calNext(s + " ");
         return s.substring(0, next[s.length()]);
@@ -22,4 +22,4 @@
         }
         return next;
     }
-```
+// ```

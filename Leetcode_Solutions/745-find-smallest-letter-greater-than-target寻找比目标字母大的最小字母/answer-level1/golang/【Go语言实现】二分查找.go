@@ -1,4 +1,4 @@
-```
+// ```
 func nextGreatestLetter(letters []byte, target byte) byte {
     var i, j, mid ,res int
     i = 0
@@ -21,4 +21,4 @@ func nextGreatestLetter(letters []byte, target byte) byte {
     }
     return letters[res % len(letters)]
 }
-```
+// ```

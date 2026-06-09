@@ -1,4 +1,4 @@
-```go
+// ```go
 type LRUCache struct {
 	head *NodeList
 	tail *NodeList
@@ -65,4 +65,4 @@ func (this *LRUCache) Put(key int, value int)  {
 	this.cache[key] = newNode
 }
 
-```
+// ```

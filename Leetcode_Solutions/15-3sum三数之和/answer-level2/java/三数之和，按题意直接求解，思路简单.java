@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/5ab58fe6d21e350e29a5e381dc6bb77d88bdf68aabd898b68954b6b93d38e914-image.png)
-按题意直接求解，思路简单。首先排序；
-i指向当前值，st从i的下一个位置开始，ed从数组最后一个开始。遍历时去重。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/5ab58fe6d21e350e29a5e381dc6bb77d88bdf68aabd898b68954b6b93d38e914-image.png)
+// 按题意直接求解，思路简单。首先排序；
+// i指向当前值，st从i的下一个位置开始，ed从数组最后一个开始。遍历时去重。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -47,4 +47,4 @@ class Solution {
         return ls;
     }
 }
-```
+// ```

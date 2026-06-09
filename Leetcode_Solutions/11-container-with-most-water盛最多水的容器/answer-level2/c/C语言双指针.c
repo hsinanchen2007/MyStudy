@@ -1,18 +1,18 @@
-### 解题思路
-如下代码所示
-执行用时 :
-16 ms
-, 在所有 C 提交中击败了
-94.14%
-的用户
-内存消耗 :
-6.2 MB
-, 在所有 C 提交中击败了
-100.00%
-的用户
-### 代码
+// ### 解题思路
+// 如下代码所示
+// 执行用时 :
+// 16 ms
+// , 在所有 C 提交中击败了
+// 94.14%
+// 的用户
+// 内存消耗 :
+// 6.2 MB
+// , 在所有 C 提交中击败了
+// 100.00%
+// 的用户
+// ### 代码
 
-```c
+// ```c
 int  maxArea(int* height, int heightsize) {
     int* i = height; int* j = height + heightsize - 1;
     int* ti = i; int* tj = j;
@@ -36,4 +36,4 @@ int  maxArea(int* height, int heightsize) {
     }
     return area;
 }
-```
+// ```

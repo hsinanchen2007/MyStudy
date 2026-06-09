@@ -1,6 +1,6 @@
-方法一：dfs+记忆矩阵
-这里dfs搜索中并不需要flag数组来记录已经访问的元素，访问过的元素已经包含在大小关系中了
-```
+// 方法一：dfs+记忆矩阵
+// 这里dfs搜索中并不需要flag数组来记录已经访问的元素，访问过的元素已经包含在大小关系中了
+// ```
     int dfs(vector<vector<int>> &matrix, vector<vector<int>> &memo, int x, int y){
         
         if(memo[x][y]!=-1) return memo[x][y];
@@ -32,10 +32,10 @@
         }
         return ans;
     }
-```
+// ```
 
-方法二：动态规划
-```
+// 方法二：动态规划
+// ```
     // dp[i][j][k]表示matrix[i][j]结尾且数组长度不超过k时的最长递增路径长度
     // 利用滚动数组为dp[i][j][2]
     int longestIncreasingPath(vector<vector<int>>& matrix) {
@@ -69,4 +69,4 @@
         }
         return ans;
     }
-```
+// ```

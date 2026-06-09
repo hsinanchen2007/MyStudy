@@ -1,9 +1,9 @@
-### 解题思路
-返回除根节点外最小的值或-1
+# ### 解题思路
+# 返回除根节点外最小的值或-1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
         if left != -1 and right != -1: return min(left, right)
         if left != -1: return left
         return right
-```
+# ```

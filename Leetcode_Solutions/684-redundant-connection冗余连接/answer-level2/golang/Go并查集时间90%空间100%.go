@@ -1,5 +1,5 @@
-这题题目的条件限制决定了这题可以通过并查集实现
-```golang
+// 这题题目的条件限制决定了这题可以通过并查集实现
+// ```golang
 func findRedundantConnection(edges [][]int) []int {
 	arr:=make([]int,len(edges)+1)
 	for k,_:=range arr{
@@ -30,4 +30,4 @@ func findUnion(stu []int,i int) int{
 	}
 	return i
 }
-```
+// ```

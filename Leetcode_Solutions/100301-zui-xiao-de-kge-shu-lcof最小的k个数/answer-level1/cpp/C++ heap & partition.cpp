@@ -1,6 +1,6 @@
-### 构建小顶堆，依次取出 k 个堆顶元素
+// ### 构建小顶堆，依次取出 k 个堆顶元素
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -15,10 +15,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 用快速排序的 partition 函数，分治思想
-```cpp
+// ### 用快速排序的 partition 函数，分治思想
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -53,4 +53,4 @@ private:
         return i;
     }
 };
-```
+// ```

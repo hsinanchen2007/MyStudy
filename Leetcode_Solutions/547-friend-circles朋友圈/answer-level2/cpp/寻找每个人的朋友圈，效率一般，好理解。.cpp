@@ -1,8 +1,8 @@
-vector<bool> haveFind；z
+// vector<bool> haveFind；z
 
 
 
-```
+// ```
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M) {
@@ -30,4 +30,4 @@ private:
         return;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```rs
+// ```rs
 impl Solution {
     pub fn sum_nums(n: i32) -> i32 {
         let mut n = n;
@@ -9,4 +9,4 @@ impl Solution {
         n
     }
 }
-```
+// ```

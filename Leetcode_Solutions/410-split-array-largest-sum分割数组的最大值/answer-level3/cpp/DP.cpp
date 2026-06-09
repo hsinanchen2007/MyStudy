@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-DP
+// DP
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int splitArray(vector<int>& nums, int m) {
@@ -32,11 +32,11 @@ public:
         return dp[n][m];
     }
 };
-```
+// ```
 
-或者：
+// 或者：
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int splitArray(vector<int>& nums, int m) {
@@ -62,4 +62,4 @@ public:
         return dp[n-1][m];
     }
 };
-```
+// ```

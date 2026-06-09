@@ -1,10 +1,10 @@
 
-### 解题思路
+// ### 解题思路
 
-滑动窗口，通用模板，关键在于理解滑动窗口的窗口可大可小
-### 代码
+// 滑动窗口，通用模板，关键在于理解滑动窗口的窗口可大可小
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -41,4 +41,4 @@ int totalFruit(int *tree, int treeSize)
 	}
 	return max;
 }
-```
+// ```

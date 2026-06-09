@@ -1,9 +1,9 @@
-### 解题思路
-利用双指针模拟滑动窗口，边界与滑动逻辑是重难点。
+# ### 解题思路
+# 利用双指针模拟滑动窗口，边界与滑动逻辑是重难点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         def isMatch(needs, count):
@@ -50,4 +50,4 @@ class Solution:
             else:
                 right += 1
         return min_str
-```
+# ```

@@ -1,8 +1,8 @@
-1. 最后一个肯定是0；    
-2.对于其他任意的i，可以逐步的向后查找。      
-3. 向后查找最大值时的优化：        
-如果T[i] > T[j] ; 那么j=j+output[j] . 因为下一个比[j]高距离为output[j]. 如果output[j]=0,表明当前值是从当前往后的最大值。可以终止查找。
-```
+// 1. 最后一个肯定是0；    
+// 2.对于其他任意的i，可以逐步的向后查找。      
+// 3. 向后查找最大值时的优化：        
+// 如果T[i] > T[j] ; 那么j=j+output[j] . 因为下一个比[j]高距离为output[j]. 如果output[j]=0,表明当前值是从当前往后的最大值。可以终止查找。
+// ```
 class Solution {
     public int[] dailyTemperatures(int[] T) {
         if (T == null) {
@@ -29,4 +29,4 @@ class Solution {
         return output;
     }
 }
-```
+// ```

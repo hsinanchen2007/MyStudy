@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-31.34%
-的用户
-内存消耗 :
-39.6 MB
-, 在所有 Java 提交中击败了
-5.28%
-的用户
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 31.34%
+// 的用户
+// 内存消耗 :
+// 39.6 MB
+// , 在所有 Java 提交中击败了
+// 5.28%
+// 的用户
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -28,4 +28,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用len函数判断该字符串长度，为零直接返回"",其次是运用内置函数max和min来调取该字符串中的最长和最短字符串，然后用for语句比较，记住此时的len语句调用的应该是min函数的字符串，不然的话会溢出，然后直接返回即可。
+# ### 解题思路
+# 使用len函数判断该字符串长度，为零直接返回"",其次是运用内置函数max和min来调取该字符串中的最长和最短字符串，然后用for语句比较，记住此时的len语句调用的应该是min函数的字符串，不然的话会溢出，然后直接返回即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) == 0:
@@ -18,4 +18,4 @@ class Solution:
                 else:
                     break
             return str1[:n:1]
-```
+# ```

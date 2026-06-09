@@ -1,10 +1,10 @@
-### 解题思路
-位运算，result<<1就相当于result*2,result|=1（result|=0）相当于result++（不变）
-同时考虑到题中条件为节点不超过30个，不需要用long long int ,int 足矣。
+// ### 解题思路
+// 位运算，result<<1就相当于result*2,result|=1（result|=0）相当于result++（不变）
+// 同时考虑到题中条件为节点不超过30个，不需要用long long int ,int 足矣。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,4 +27,4 @@ public:
         return result;
     }
 };
-```
+// ```

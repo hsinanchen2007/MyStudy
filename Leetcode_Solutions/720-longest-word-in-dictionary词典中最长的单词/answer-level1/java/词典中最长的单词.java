@@ -1,9 +1,9 @@
-### 解题思路
-利用哈希集合以及排序来做
+// ### 解题思路
+// 利用哈希集合以及排序来做
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestWord(String[] words) {
         //对数组排序，在利用Set对字母存储，小的单词一定包含在大的单词里面。
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

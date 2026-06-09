@@ -1,5 +1,5 @@
-# 先Hash，再排序
-```
+// # 先Hash，再排序
+// ```
 int g_chmap[256];
 int cmp(const void *a, const void *b)
 {

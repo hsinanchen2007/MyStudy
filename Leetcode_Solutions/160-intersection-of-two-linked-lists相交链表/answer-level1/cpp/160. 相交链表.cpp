@@ -1,5 +1,5 @@
-## 408真题
-```cpp
+// ## 408真题
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ public:
         else return NULL;
     }
 };
-```
+// ```

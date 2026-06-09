@@ -1,10 +1,10 @@
-# 思路
-用一个structure来记录他们行与战士的数量，然后排序输出数组
-![image.png](https://pic.leetcode-cn.com/263dc72ecefc03849874f343cbbee1cf003287065518c9741253c8ed51b2c39d-image.png)
+// # 思路
+// 用一个structure来记录他们行与战士的数量，然后排序输出数组
+// ![image.png](https://pic.leetcode-cn.com/263dc72ecefc03849874f343cbbee1cf003287065518c9741253c8ed51b2c39d-image.png)
 
 
-# 代码：
-```
+// # 代码：
+// ```
 typedef struct{
     int numebrofsoldiers;
     int row;
@@ -40,4 +40,4 @@ int data_cmp(const void* num1, const void* num2){
     }
     return ((data*)num1)->numebrofsoldiers - ((data*)num2)->numebrofsoldiers;
 }
-```
+// ```

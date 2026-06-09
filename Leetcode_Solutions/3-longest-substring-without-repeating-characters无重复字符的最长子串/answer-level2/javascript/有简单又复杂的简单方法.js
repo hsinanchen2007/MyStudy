@@ -1,16 +1,16 @@
-### 解题思路
-用滑动窗口的方法来解题
-1.定义一个窗口(Array)win,最大长度long
-2.遍历(String)s每一个字符
-3.条件判断: 因为重复的字符可能出现在数组前面，中间，后面
-所以只要用win.indexOf(s[i])>0 判断原组是否存在s[i],如果
-存在，就用splice分割出不包含s[i]的后半部分数组，并和新的
-s[i]相合并，形成新数组
-4.长度在win.push后面添加这条语句就行了，节省了很多内存
-long = win.length > long ? win.length : long;
-### 代码
+// ### 解题思路
+// 用滑动窗口的方法来解题
+// 1.定义一个窗口(Array)win,最大长度long
+// 2.遍历(String)s每一个字符
+// 3.条件判断: 因为重复的字符可能出现在数组前面，中间，后面
+// 所以只要用win.indexOf(s[i])>0 判断原组是否存在s[i],如果
+// 存在，就用splice分割出不包含s[i]的后半部分数组，并和新的
+// s[i]相合并，形成新数组
+// 4.长度在win.push后面添加这条语句就行了，节省了很多内存
+// long = win.length > long ? win.length : long;
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -37,4 +37,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return long
 };
-```
+// ```

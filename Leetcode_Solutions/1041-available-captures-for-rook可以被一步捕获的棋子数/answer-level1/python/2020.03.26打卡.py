@@ -1,9 +1,9 @@
-### 解题思路
-行列分开考虑。
+# ### 解题思路
+# 行列分开考虑。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         n = 0
@@ -29,4 +29,4 @@ class Solution:
 
 
             
-```
+# ```

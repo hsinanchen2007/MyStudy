@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var binaryTreePaths = function(root) {
     recur(root, res,cur)
     return res
 };
-```
+// ```

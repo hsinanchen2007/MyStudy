@@ -1,4 +1,4 @@
-```python3
+# ```python3
 ## 用两个栈分别存储无效的括号对应的index.
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:

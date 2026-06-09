@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def toLowerCase(self, str):
         """
@@ -6,4 +6,4 @@ class Solution(object):
         :rtype: str
         """
         return str.lower()
-```
+# ```

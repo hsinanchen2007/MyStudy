@@ -1,4 +1,4 @@
-```
+// ```
 int** flipAndInvertImage(int** A, int ASize, int* AColSize, int* returnSize, int** returnColumnSizes){
 	int row;
 	int left, right;
@@ -22,4 +22,4 @@ int** flipAndInvertImage(int** A, int ASize, int* AColSize, int* returnSize, int
 	*returnColumnSizes = AColSize;
 	return A;
 }
-```
+// ```

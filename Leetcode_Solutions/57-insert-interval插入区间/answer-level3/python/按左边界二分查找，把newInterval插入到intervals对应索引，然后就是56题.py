@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def insert(self, intervals, newInterval):
         """
@@ -35,4 +35,4 @@ class Solution(object):
             res.append([l, r])
             i += 1
         return res
-```
+# ```

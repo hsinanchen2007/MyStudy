@@ -1,5 +1,5 @@
-挺好玩的一种方法，快排后辗转相减？
-```
+// 挺好玩的一种方法，快排后辗转相减？
+// ```
     int singleNumber(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         int sum{};
@@ -10,4 +10,4 @@
         }
         return sum;
     }
-```
+// ```

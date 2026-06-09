@@ -1,10 +1,10 @@
-# 思路：
-1）找区间的中间的数值
-2）用递归分治， 每次中间值分别加入到树中，逐步返还
+// # 思路：
+// 1）找区间的中间的数值
+// 2）用递归分治， 每次中间值分别加入到树中，逐步返还
 
-注意：其中对于中间数的index 不好找，因此（我觉得）用lo和hi来定位每次二分时的中点比较简单
-# 代码：
-```
+// 注意：其中对于中间数的index 不好找，因此（我觉得）用lo和hi来定位每次二分时的中点比较简单
+// # 代码：
+// ```
 struct TreeNode *creatnewnode(int num){
       struct TreeNode* temp = malloc(sizeof(struct TreeNode));
         temp->right = NULL;
@@ -29,5 +29,5 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     return recursionsortedarray(nums, 0, numsSize);
 }
 
-```
+// ```
 

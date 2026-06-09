@@ -1,8 +1,8 @@
-### 解题思路
-直接暴力求解
-### 代码
+// ### 解题思路
+// 直接暴力求解
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     NumArray(vector<int>& nums):Array(nums) {}
@@ -26,4 +26,4 @@ int NumArray::sumRange(int i,int j){
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

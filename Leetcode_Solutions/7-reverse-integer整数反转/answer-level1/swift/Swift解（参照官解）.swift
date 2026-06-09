@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func reverse(_ x: Int) -> Int {
         var X = x
@@ -20,5 +20,5 @@ class Solution {
         return rev
     }
 }
-```
-目前这道题目的Swift版本的题解只有一个，与官解的区别在于他的判断条件没有那么复杂。
+// ```
+// 目前这道题目的Swift版本的题解只有一个，与官解的区别在于他的判断条件没有那么复杂。

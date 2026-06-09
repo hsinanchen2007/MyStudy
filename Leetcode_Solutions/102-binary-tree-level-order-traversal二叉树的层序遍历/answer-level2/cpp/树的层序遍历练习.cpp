@@ -1,7 +1,7 @@
-### 解题思路
+// ### 解题思路
 
-**层序遍历模板**
-```
+// **层序遍历模板**
+// ```
 void level(TreeNode* root)
 {
     queue<TreeNode*> myQueue;
@@ -23,11 +23,11 @@ void level(TreeNode* root)
             myQueue.push(p->right);
     }
 
-```
+// ```
 
 
-**根据题意**
-```
+// **根据题意**
+// ```
 while(!myQueue.empty())
 {
     int tempQueueSize=myQueue.size();
@@ -46,12 +46,12 @@ while(!myQueue.empty())
     res.push_back(temp);
 }
 return res;
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -96,4 +96,4 @@ public:
         
     }
 };
-```
+// ```

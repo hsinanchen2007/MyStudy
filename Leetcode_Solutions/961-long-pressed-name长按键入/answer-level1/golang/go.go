@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isLongPressedName(name string, typed string) bool {
     cur := name[0]
     for len(typed) > 0 && len(name) > 0{
@@ -26,4 +26,4 @@ func isLongPressedName(name string, typed string) bool {
     }
     return len(name) == 0
 }
-```
+// ```

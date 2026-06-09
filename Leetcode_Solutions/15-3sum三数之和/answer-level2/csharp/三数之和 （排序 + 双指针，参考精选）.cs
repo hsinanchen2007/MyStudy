@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> ThreeSum(int[] nums) {
         var res = new List<IList<int>>();  //注意这里 创建元素为数组的列表
@@ -46,4 +46,4 @@ public class Solution {
             
     }
 }
-```
+// ```

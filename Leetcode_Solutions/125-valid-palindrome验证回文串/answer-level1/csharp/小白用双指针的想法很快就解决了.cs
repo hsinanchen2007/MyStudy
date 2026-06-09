@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-终于独立完成了一道题目，开心哈哈
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 终于独立完成了一道题目，开心哈哈
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsPalindrome(string s) {
         s = s.ToLower().Replace(" ", "");
@@ -36,4 +36,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

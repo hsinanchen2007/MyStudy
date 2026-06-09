@@ -1,11 +1,11 @@
-### 解题思路
-先匹配字符串，符合子集条件的返回True
-随便瞎写写
-![image.png](https://pic.leetcode-cn.com/28e69c4906e06e093fb0951ce2978c29a51405d2bc0d1ec26a86ff0e983f08cf-image.png)
+# ### 解题思路
+# 先匹配字符串，符合子集条件的返回True
+# 随便瞎写写
+# ![image.png](https://pic.leetcode-cn.com/28e69c4906e06e093fb0951ce2978c29a51405d2bc0d1ec26a86ff0e983f08cf-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 
 
@@ -31,4 +31,4 @@ class Solution:
                     # 相等的情况就按前面的字典序优先排好了
 
         return maxword
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 访问频率map保存节点列表
-2. 同一个频率的缓存保存到双向链表中，方便插入缓存节点和删除过期节点
+// ### 解题思路
+// 1. 访问频率map保存节点列表
+// 2. 同一个频率的缓存保存到双向链表中，方便插入缓存节点和删除过期节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     private Map<Integer, Node> map;
     private Map<Integer, DLList> freqMap;
@@ -157,4 +157,4 @@ class LFUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

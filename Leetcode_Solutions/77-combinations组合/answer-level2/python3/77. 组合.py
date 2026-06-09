@@ -1,12 +1,12 @@
-### 解题思路
-回溯问题只要画出树状图就能使用DFS的思想直接解决，一定直接手动画图哦！！
+# ### 解题思路
+# 回溯问题只要画出树状图就能使用DFS的思想直接解决，一定直接手动画图哦！！
 
-![image.png](https://pic.leetcode-cn.com/3ecbcb87f110db8e252c6bc29ae1bb4486647368881a44d0d9829aad5f15d507-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3ecbcb87f110db8e252c6bc29ae1bb4486647368881a44d0d9829aad5f15d507-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res = []
@@ -30,4 +30,4 @@ class Solution:
         backtrack(nums, [], res)
 
         return res
-```
+# ```

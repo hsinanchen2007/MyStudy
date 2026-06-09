@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> cheapestJump(vector<int>& A, int B) {
@@ -56,4 +56,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

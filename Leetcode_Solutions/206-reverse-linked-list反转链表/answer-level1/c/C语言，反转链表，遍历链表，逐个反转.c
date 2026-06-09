@@ -1,5 +1,5 @@
-代码如下：
-```
+// 代码如下：
+// ```
 struct ListNode* reverseList(struct ListNode* head){
     if(head==NULL||head->next==NULL){
         return head;
@@ -18,4 +18,4 @@ struct ListNode* reverseList(struct ListNode* head){
             //为返回值统一，可将其赋值给head，也可忽略此步，则下面return p;
     return head;//返回反转形成的新链表的头结点
 }
-```
+// ```

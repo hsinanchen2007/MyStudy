@@ -1,9 +1,9 @@
-### 解题思路
-遍历
+# ### 解题思路
+# 遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         nums = [0]*num_people
@@ -24,4 +24,4 @@ class Solution:
                     candies = 0
             count += 1
         return nums
-```
+# ```

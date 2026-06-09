@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def distanceBetweenBusStops(self, distance: List[int], start: int, destination: int) -> int:
         if start > destination:
@@ -6,4 +6,4 @@ class Solution:
         clockwise_distance = sum(distance[start: destination])
         anticlockwise_distance = sum(distance) - clockwise_distance
         return min(clockwise_distance, anticlockwise_distance)
-```
+# ```

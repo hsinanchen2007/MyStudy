@@ -1,11 +1,11 @@
-### 解题思路
-标准递归或者迭代，没想到新颖的算法
-迭代双指针还是清楚一点，而且各种变体几乎没有优化
-递归使用and or会简单一点
+# ### 解题思路
+# 标准递归或者迭代，没想到新颖的算法
+# 迭代双指针还是清楚一点，而且各种变体几乎没有优化
+# 递归使用and or会简单一点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
             if l1.val > l2.val: l1, l2 = l2, l1
             l1.next = self.mergeTwoLists(l1.next, l2)
         return l1 or l2              
-```
+# ```

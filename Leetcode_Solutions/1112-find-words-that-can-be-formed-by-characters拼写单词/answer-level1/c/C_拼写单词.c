@@ -1,9 +1,9 @@
-### 解题思路
-拼写每个单词的时候，可用字母是整张字母表，不是上一个拼写完剩下的字母。
+// ### 解题思路
+// 拼写每个单词的时候，可用字母是整张字母表，不是上一个拼写完剩下的字母。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int countCharacters(char ** words, int wordsSize, char * chars){
@@ -43,4 +43,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 }
 
 
-```
+// ```

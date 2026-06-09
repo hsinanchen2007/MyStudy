@@ -1,6 +1,6 @@
-使用两个指针，第一个left指针从头往后移动，第二个right指针从后往前移动。当left指针指向偶数，right指针指向奇数时，交换两个数字。
+// 使用两个指针，第一个left指针从头往后移动，第二个right指针从后往前移动。当left指针指向偶数，right指针指向奇数时，交换两个数字。
 
-```
+// ```
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -23,5 +23,5 @@ public:
         return nums;
     }
 };
-```
+// ```
 

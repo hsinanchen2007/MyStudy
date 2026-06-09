@@ -1,4 +1,4 @@
-```
+// ```
 bool backspaceCompare(char * S, char * T){
     char *SStack = (char *)malloc(200 * sizeof(char)); // 保存S中有效字符的栈
     char *TStack = (char *)malloc(200 * sizeof(char)); // 保存T中有效字符的栈
@@ -48,4 +48,4 @@ bool backspaceCompare(char * S, char * T){
     free(SStack);
     free(TStack);
 }
-```
+// ```

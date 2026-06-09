@@ -1,9 +1,9 @@
-### 解题思路
-加入了php7的？？运算，并使用do while优化执行用时
+// ### 解题思路
+// 加入了php7的？？运算，并使用do while优化执行用时
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return $listNode->next;
     }
 }
-```
+// ```

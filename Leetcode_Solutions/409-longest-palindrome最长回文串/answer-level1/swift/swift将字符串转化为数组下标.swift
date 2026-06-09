@@ -1,5 +1,5 @@
 
-```swift []
+// ```swift []
 class Solution {
     func longestPalindrome(_ s: String) -> Int {
         // 遍历字符串
@@ -51,4 +51,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-求出每一行每块砖的前面转的和，然后排序，最后找出统一数字出现最多的次数。
+// ### 解题思路
+// 求出每一行每块砖的前面转的和，然后排序，最后找出统一数字出现最多的次数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM 20000
 
 int gnum[MAX_NUM];
@@ -65,4 +65,4 @@ int leastBricks(int** wall, int wallSize, int* wallColSize)
 
     return wallSize - maxLen;
 }
-```
+// ```

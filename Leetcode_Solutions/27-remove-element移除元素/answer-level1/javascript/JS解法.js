@@ -1,4 +1,4 @@
-```
+// ```
 var removeElement = function(nums, val) {
     for (let i = nums.length - 1, len = nums.length; i > -1; i--) {
         if (nums[i] == val) {
@@ -7,6 +7,6 @@ var removeElement = function(nums, val) {
     }
     return nums.length
 };
-```
+// ```
 
-倒序遍历更优
+// 倒序遍历更优

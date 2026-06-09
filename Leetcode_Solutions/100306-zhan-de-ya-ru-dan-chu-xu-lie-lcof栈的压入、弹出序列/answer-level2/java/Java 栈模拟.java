@@ -1,4 +1,4 @@
-```
+// ```
 public boolean validateStackSequences(int[] pushed, int[] popped) {
  int len=popped.length;
       int[] stack=new int[len];
@@ -13,4 +13,4 @@ public boolean validateStackSequences(int[] pushed, int[] popped) {
 
         return ptr==-1;
     }
-```
+// ```

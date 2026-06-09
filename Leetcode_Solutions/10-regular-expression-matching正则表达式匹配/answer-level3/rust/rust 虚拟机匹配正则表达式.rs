@@ -1,6 +1,6 @@
-别问, 问就是魔法
-参考了别人写的代码
-```rust
+// 别问, 问就是魔法
+// 参考了别人写的代码
+// ```rust
 use std::collections::HashMap;
 use std::str::Chars;
 #[derive(Debug,PartialEq)]
@@ -163,4 +163,4 @@ impl Solution {
         return false
     }
 }
-```
+// ```

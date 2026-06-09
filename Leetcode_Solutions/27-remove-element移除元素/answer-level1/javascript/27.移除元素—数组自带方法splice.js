@@ -1,12 +1,12 @@
-### 解题思路
-1、判断数组中的数是否等于val，等于则移除
-2、使用数组自带方法splice（start,num）(开始位置，个数)；
+// ### 解题思路
+// 1、判断数组中的数是否等于val，等于则移除
+// 2、使用数组自带方法splice（start,num）(开始位置，个数)；
 
-注意：移除后i--;
+// 注意：移除后i--;
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -21,4 +21,4 @@ var removeElement = function(nums, val) {
     }
     return nums.length;
 };
-```
+// ```

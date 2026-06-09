@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findSecondMinimumValue(TreeNode* root) {   
@@ -38,4 +38,4 @@ public:
         }
     }
 };
-```
+// ```

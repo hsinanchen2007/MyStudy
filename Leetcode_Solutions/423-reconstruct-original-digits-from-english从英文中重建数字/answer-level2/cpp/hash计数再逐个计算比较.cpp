@@ -1,4 +1,4 @@
-```
+// ```
 string originalDigits(string s) {
         int hashmap[128]={0};
         for(auto ch:s){
@@ -53,4 +53,4 @@ string originalDigits(string s) {
         }
         return res;
     }
-```
+// ```

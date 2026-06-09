@@ -1,8 +1,8 @@
 
-想法：先找到']'，再往回找到整个[YYY]，翻倍后插入。
-![IMG_0303.JPG](https://pic.leetcode-cn.com/f6d7accb45a090a38c4909b4d57f5db6f4155365d49920a188e643b71c94d123-IMG_0303.JPG)
+// 想法：先找到']'，再往回找到整个[YYY]，翻倍后插入。
+// ![IMG_0303.JPG](https://pic.leetcode-cn.com/f6d7accb45a090a38c4909b4d57f5db6f4155365d49920a188e643b71c94d123-IMG_0303.JPG)
 
-```
+// ```
 class Solution {
 public:
     string decodeString(string s) {
@@ -29,4 +29,4 @@ public:
         return s;
     }
 };
-```
+// ```

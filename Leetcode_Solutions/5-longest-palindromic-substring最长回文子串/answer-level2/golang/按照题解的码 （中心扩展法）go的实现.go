@@ -1,10 +1,10 @@
-### 解题思路
-#### 按照题解的码 （中心扩展法）
+// ### 解题思路
+// #### 按照题解的码 （中心扩展法）
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) string {
 	if len(s) < 1  {
 		return ""
@@ -41,4 +41,4 @@ func expandAroundCenter(s string, l int, r int) int {
 	}
 	return r - l - 1
 }
-```
+// ```

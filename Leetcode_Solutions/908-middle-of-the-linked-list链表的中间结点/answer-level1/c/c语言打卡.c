@@ -1,9 +1,9 @@
-### 解题思路
-设置一个尾和中间结点，尾每次往下一个，中间结点隔一次往下一个
+// ### 解题思路
+// 设置一个尾和中间结点，尾每次往下一个，中间结点隔一次往下一个
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,4 +24,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return midNode;
 }
-```
+// ```

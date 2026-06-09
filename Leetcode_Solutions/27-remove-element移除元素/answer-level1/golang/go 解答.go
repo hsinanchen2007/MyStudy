@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/00474527f27768a34187a8f61e0d1f4c797199aebc1482bce111c0de16e757e2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/00474527f27768a34187a8f61e0d1f4c797199aebc1482bce111c0de16e757e2-image.png)
 
 
 
-```
+// ```
 func removeElement(nums []int, val int) int {
 	if len(nums) == 0 {
 		return 0
@@ -23,5 +23,5 @@ func removeElement(nums []int, val int) int {
 	}
 	return index
 }
-```
+// ```
 

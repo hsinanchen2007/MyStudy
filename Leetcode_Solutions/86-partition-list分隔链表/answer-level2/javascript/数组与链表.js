@@ -1,5 +1,5 @@
-1. 双链表拼接，小于目标数的构建前链表，大于或等于构建后链表，前链表末尾节点指向后链表头节点
-```js
+// 1. 双链表拼接，小于目标数的构建前链表，大于或等于构建后链表，前链表末尾节点指向后链表头节点
+// ```js
 var partition = function(head, x) {
     var before = new ListNode(-1);
     var beforeNode = before;
@@ -19,9 +19,9 @@ var partition = function(head, x) {
     before.next = afterNode.next;
     return beforeNode.next;
 };
-```
-2. 将链表转换成数组进行排序，再将数组转换程链表
-```js
+// ```
+// 2. 将链表转换成数组进行排序，再将数组转换程链表
+// ```js
 var partition = function(head, x) {
     var arr = [], res1 = [], res2 = [], res = [], resHead = null;
     while(head){
@@ -35,4 +35,4 @@ var partition = function(head, x) {
     }
     return resHead;
 };
-```
+// ```

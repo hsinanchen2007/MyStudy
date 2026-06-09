@@ -1,9 +1,9 @@
-### 解题思路
-正则大法好。
+# ### 解题思路
+# 正则大法好。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def simplifyPath(self, path: str) -> str:
         # 用栈模拟目录变化过程
@@ -25,4 +25,4 @@ class Solution:
         res = "/"+res
         return res
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     struct TreeNode *root;
     int left;   // 标记当前节点的左节点已经遍历过
@@ -39,4 +39,4 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
     }
     return res;
 }
-```
+// ```

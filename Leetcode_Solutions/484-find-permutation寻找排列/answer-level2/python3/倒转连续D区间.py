@@ -1,5 +1,5 @@
-双指针代表连续D区间的索引值，倒转即可
-```python
+# 双指针代表连续D区间的索引值，倒转即可
+# ```python
 class Solution:
     def findPermutation(self, s: str) -> List[int]:
         nums = list(range(1, len(s) + 2))
@@ -17,4 +17,4 @@ class Solution:
                 i += 1
 
         return nums
-```
+# ```

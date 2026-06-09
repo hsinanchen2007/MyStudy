@@ -1,4 +1,4 @@
-中心扩展法参考官方解释，下面主要是python3代码，里面有注释，不清楚的地发欢迎交流。
+# 中心扩展法参考官方解释，下面主要是python3代码，里面有注释，不清楚的地发欢迎交流。
 
 def expandAroundCenter(s, left, right):
     L = left

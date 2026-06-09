@@ -1,8 +1,8 @@
-### 同判断 B 是不是 A 的子树
+// ### 同判断 B 是不是 A 的子树
 
-我的代码好像比榜一多了一小坨...
+// 我的代码好像比榜一多了一小坨...
 
-```
+// ```
 class Solution {
     private boolean res = false;
 
@@ -37,4 +37,4 @@ class Solution {
         return root.val == head.val && (isSub(root.left, head.next) || isSub(root.right, head.next));
     }
 }
-```
+// ```

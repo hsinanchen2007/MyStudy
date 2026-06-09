@@ -1,10 +1,10 @@
-使用JAVA的TreeMap直接构建最终的关键点集合，key代表红坐标，value代表纵坐标。
-先处理building（b）的右边线r，若r左边没有放高度为0的射线，若有但比b高度低的，放高度为r左边高度的射线，否则不管。
-再处理b的左边线l，若l左边没有或l左边的比b矮，则在此放高度为b高度的射线，否则不管。
-然后处理b左右边线中间的节点，若是节点的高度低于b的高度，则将之提高至b的高度。
-最后一次将treeMap里点依次当如列表，与之前一个点高度相同的跳过不放。
-JAVA实现如下：
-```
+// 使用JAVA的TreeMap直接构建最终的关键点集合，key代表红坐标，value代表纵坐标。
+// 先处理building（b）的右边线r，若r左边没有放高度为0的射线，若有但比b高度低的，放高度为r左边高度的射线，否则不管。
+// 再处理b的左边线l，若l左边没有或l左边的比b矮，则在此放高度为b高度的射线，否则不管。
+// 然后处理b左右边线中间的节点，若是节点的高度低于b的高度，则将之提高至b的高度。
+// 最后一次将treeMap里点依次当如列表，与之前一个点高度相同的跳过不放。
+// JAVA实现如下：
+// ```
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         if(buildings == null ||buildings.length == 0){
@@ -51,4 +51,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-1.计算N次小孩都能拿满糖果以及剩余的糖果p
-2.每个小孩的糖果=N次拿满+剩余的糖果能拿到的最大糖果
+// 1.计算N次小孩都能拿满糖果以及剩余的糖果p
+// 2.每个小孩的糖果=N次拿满+剩余的糖果能拿到的最大糖果
 
-```
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -32,6 +32,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 

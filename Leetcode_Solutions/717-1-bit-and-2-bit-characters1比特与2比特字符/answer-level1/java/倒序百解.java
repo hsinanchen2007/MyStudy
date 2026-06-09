@@ -1,8 +1,8 @@
-### 解题思路
-简而言之，就是对各种分类。
-### 代码
+// ### 解题思路
+// 简而言之，就是对各种分类。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {
         if(bits[bits.length-1]==1) {   //最后结尾若为1
@@ -22,4 +22,4 @@ class Solution {
 		return count%2==0;   //1为偶数则可分解为数个11，成立。否则最后需要补0
     }
 }
-```
+// ```

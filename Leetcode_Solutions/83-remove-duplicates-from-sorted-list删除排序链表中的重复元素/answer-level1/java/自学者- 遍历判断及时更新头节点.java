@@ -1,20 +1,20 @@
-### 解题思路
-* 当前元素的下一个指向下下个。 crawlNode.next = crawlNode.next.next
-* 注意如果是第一个元素就进行了合并，要及时更新要返回的head数值
+// ### 解题思路
+// * 当前元素的下一个指向下下个。 crawlNode.next = crawlNode.next.next
+// * 注意如果是第一个元素就进行了合并，要及时更新要返回的head数值
 
-### 提醒
-* 所有输入参数都不要直接使用
-```java
+// ### 提醒
+// * 所有输入参数都不要直接使用
+// ```java
 // 不要直接修改函数输入参数
 while(head != null) {
     head = head.next;
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
         
     }
 }
-```
+// ```

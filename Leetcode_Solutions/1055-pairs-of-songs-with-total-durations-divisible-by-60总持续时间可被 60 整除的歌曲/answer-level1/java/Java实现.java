@@ -1,8 +1,8 @@
-执行用时 : 6 ms, 在Pairs of Songs With Total Durations Divisible by 60的Java提交中击败了81.44% 的用户
+// 执行用时 : 6 ms, 在Pairs of Songs With Total Durations Divisible by 60的Java提交中击败了81.44% 的用户
 
-内存消耗 : 49.7 MB, 在Pairs of Songs With Total Durations Divisible by 60的Java提交中击败了64.19% 的用户
+// 内存消耗 : 49.7 MB, 在Pairs of Songs With Total Durations Divisible by 60的Java提交中击败了64.19% 的用户
 
-```
+// ```
 class Solution {
     public int numPairsDivisibleBy60(int[] time) {
         int count = 0;
@@ -15,4 +15,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

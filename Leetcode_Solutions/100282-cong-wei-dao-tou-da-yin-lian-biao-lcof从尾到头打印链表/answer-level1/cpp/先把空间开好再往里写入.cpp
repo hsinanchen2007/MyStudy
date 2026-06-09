@@ -1,6 +1,6 @@
-第一遍扫描得到长度n，然后把vector空间开出来，第二遍扫描直接往里写，不要对vector做插入操作。
+// 第一遍扫描得到长度n，然后把vector空间开出来，第二遍扫描直接往里写，不要对vector做插入操作。
 
-```c++
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

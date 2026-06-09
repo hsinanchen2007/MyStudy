@@ -1,9 +1,9 @@
-### 解题思路
-dfs查找联通岛屿
+// ### 解题思路
+// dfs查找联通岛屿
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 vector<vector<int>> dir = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
@@ -38,4 +38,4 @@ int numIslands(vector<vector<char>>& grid) {
     return step;
 }
 };
-```
+// ```

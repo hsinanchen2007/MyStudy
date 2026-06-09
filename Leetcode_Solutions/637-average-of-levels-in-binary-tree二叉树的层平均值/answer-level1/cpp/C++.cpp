@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历  每遍历一层求一次平均值
+// ### 解题思路
+// 层序遍历  每遍历一层求一次平均值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -65,4 +65,4 @@ public:
         return v;
     }
 };
-```
+// ```

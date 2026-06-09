@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int islandPerimeter(int** grid, int gridSize, int* gridColSize){
       int n=gridSize;int m=gridColSize[0];    
       int count=0;int count_row=0;int count_col=0;int index=0;
@@ -28,4 +28,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize){
         int answer=count*4-(count_row+count_col)*2;
         return answer;
 }
-```
+// ```

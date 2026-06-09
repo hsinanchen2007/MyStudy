@@ -1,12 +1,12 @@
-### 解题思路
-计数器解法 
+// ### 解题思路
+// 计数器解法 
 
-![image.png](https://pic.leetcode-cn.com/e7a186c37ac719bae8173bfeb749770878803e4e31adf02edb4bf746a286a6e5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e7a186c37ac719bae8173bfeb749770878803e4e31adf02edb4bf746a286a6e5-image.png)
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
         func isAnagram(_ s: String, _ t: String) -> Bool {
         
@@ -33,4 +33,4 @@ class Solution {
         return true
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-可以转化为背包问题, 使用动态规划或者记忆化递归求解
+# ### 解题思路
+# 可以转化为背包问题, 使用动态规划或者记忆化递归求解
 
-### 代码
+# ### 代码
 
-**动态规划**
-```java []
+# **动态规划**
+# ```java []
 class Solution {
     public boolean canPartition(int[] nums) {
         // 动态规划
@@ -34,8 +34,8 @@ class Solution {
         return dp[C];
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         # 动态规划
@@ -55,8 +55,8 @@ class Solution:
                 dp[j] = dp[j] or dp[j-nums[i]]
 
         return dp[C]
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -80,8 +80,8 @@ public:
         return dp[C];
     }
 };
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -108,10 +108,10 @@ public:
         return f[N][C];
     }
 };
-```
+# ```
 
-**记忆化递归**
-```java []
+# **记忆化递归**
+# ```java []
 class Solution {
     public boolean canPartition(int[] nums) {
         // 记忆化递归
@@ -148,8 +148,8 @@ class Solution {
     // 记录表: -1表示未计算， 0不存在, 1表示存在
     private int [][]memo;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         # 记忆化递归
@@ -178,8 +178,8 @@ class Solution:
         self.memo[C][index] = self.knapsack(nums, index-1, C) or self.knapsack(nums, index-1, C-nums[index])
         return self.memo[C][index]
 
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -215,4 +215,4 @@ private:
     // -1表示未计算, 0表示不可以填充, 1表示可以填充
     vector<vector<int>> memo;
 };
-```
+# ```

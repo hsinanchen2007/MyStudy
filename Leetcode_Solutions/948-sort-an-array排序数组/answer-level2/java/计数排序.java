@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public int[] sortArray(int[] nums) {
     int[] count = new int[100001];
     for (int num: nums) {
@@ -13,4 +13,4 @@ public int[] sortArray(int[] nums) {
     }
     return nums;
 }
-```
+// ```

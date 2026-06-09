@@ -1,10 +1,10 @@
-### 解题思路
-一次遍历
-相同的元素满足条件直接return，否则不add到字典
+// ### 解题思路
+// 一次遍历
+// 相同的元素满足条件直接return，否则不add到字典
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) 
     {
@@ -24,4 +24,4 @@ public class Solution {
     return new int[]{0,0};
     }
 }
-```
+// ```

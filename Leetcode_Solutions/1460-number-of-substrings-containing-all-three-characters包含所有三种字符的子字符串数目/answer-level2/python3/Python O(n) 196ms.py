@@ -1,9 +1,9 @@
-### 解题思路
-O(n)解法：大概思路就是找到每个最小abc子字符串，从左往右找，同时，最小字符串左右可无限延长，均符合要求，但是需要在最后的计算时考虑重复字符串，把这个想清楚就完事了。
+# ### 解题思路
+# O(n)解法：大概思路就是找到每个最小abc子字符串，从左往右找，同时，最小字符串左右可无限延长，均符合要求，但是需要在最后的计算时考虑重复字符串，把这个想清楚就完事了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
         n=len(s)
@@ -36,4 +36,4 @@ class Solution:
             return_+=(i-last)*(n-j)
             last=i
         return return_
-```
+# ```

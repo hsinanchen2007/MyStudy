@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         dp = [[] for _ in range(len(s) + 1)]
@@ -14,4 +14,4 @@ class Solution:
                     for each in dp[j]:
                         dp[i].append([s[i:j]] + each)
         return dp[0]
-```
+# ```

@@ -1,9 +1,9 @@
-通过本题学习了并查集的使用，学会了并查集后，这个题目还是比较容易的，参考下面的代码和注释：
+// 通过本题学习了并查集的使用，学会了并查集后，这个题目还是比较容易的，参考下面的代码和注释：
 
-![image.png](https://pic.leetcode-cn.com/1dda40c9a31fe61fe921e701cc3c7c4f0cd7695ac3cad589e40581ab4ea79de3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1dda40c9a31fe61fe921e701cc3c7c4f0cd7695ac3cad589e40581ab4ea79de3-image.png)
 
 
-```java
+// ```java
 class Solution {
 
     //存储地图，岛屿为true，海水为false：
@@ -82,4 +82,4 @@ class Solution {
         }
     }
 }
-```
+// ```

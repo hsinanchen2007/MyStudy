@@ -1,10 +1,10 @@
-### 解题思路
-最主要的就是找动态转移方程
-当前的最大值，当前值和n-2值相加  比较  n-1的值，去一个最大值
+// ### 解题思路
+// 最主要的就是找动态转移方程
+// 当前的最大值，当前值和n-2值相加  比较  n-1的值，去一个最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -22,4 +22,4 @@ var rob = function(nums) {
    return a[nums.length]
 
 };
-```
+// ```

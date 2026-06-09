@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class BoundedBlockingQueue {
 
     private int putIndex, getIndex, size, capacity;
@@ -48,4 +48,4 @@ class BoundedBlockingQueue {
         return size;
     }
 }
-```
+// ```

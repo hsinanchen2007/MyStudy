@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/c695ad60448f343e78dd7d8a6377b5e8abf4649a77a659da0240c06977df0223-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c695ad60448f343e78dd7d8a6377b5e8abf4649a77a659da0240c06977df0223-image.png)
 
-### 解题思路
-利用差分可以避免两轮for循环，仅在上、下车时记录人数变化，从开始到某一点的累计和就是该点的人数
+// ### 解题思路
+// 利用差分可以避免两轮for循环，仅在上、下车时记录人数变化，从开始到某一点的累计和就是该点的人数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM 1001
 
 int locationInfo[MAX_NUM]; /* 用于存放每个位置的人数 */
@@ -33,7 +33,7 @@ bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity){
 
     return true;
 }
-```
+// ```
 
-差分：差分即相邻两个数的差
-差分和前缀和的知识可以参考：[https://www.cnblogs.com/MS903/p/11244969.html](https://www.cnblogs.com/MS903/p/11244969.html)
+// 差分：差分即相邻两个数的差
+// 差分和前缀和的知识可以参考：[https://www.cnblogs.com/MS903/p/11244969.html](https://www.cnblogs.com/MS903/p/11244969.html)

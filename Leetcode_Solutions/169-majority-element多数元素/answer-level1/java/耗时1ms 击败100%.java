@@ -1,14 +1,14 @@
-## 排序法
-```
+// ## 排序法
+// ```
 public int majorityElement(int[] nums) {
     Arrays.sort(nums);
     return nums[nums.length/2];
 }
-```
+// ```
 
 
-## 投票法
-```
+// ## 投票法
+// ```
 public int majorityElement(int[] nums) {
         int last=nums[0];
         int count=1;
@@ -23,4 +23,4 @@ public int majorityElement(int[] nums) {
         }
         return last;
     }
-```
+// ```

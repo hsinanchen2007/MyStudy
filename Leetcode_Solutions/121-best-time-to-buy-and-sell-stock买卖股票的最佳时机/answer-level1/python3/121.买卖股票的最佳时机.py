@@ -1,6 +1,6 @@
-### 解题思路
-### 代码
-```python
+# ### 解题思路
+# ### 代码
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             if prices[i]-min_prices>max_profit:
                 max_profit=prices[i]-min_prices
         return max_profit
-```
+# ```

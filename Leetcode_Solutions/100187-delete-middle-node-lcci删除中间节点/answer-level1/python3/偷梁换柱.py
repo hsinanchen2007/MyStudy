@@ -1,9 +1,9 @@
-### 解题思路
-只能访问一个节点，且不是结尾节点，看代码。
+# ### 解题思路
+# 只能访问一个节点，且不是结尾节点，看代码。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
         """
         node.val=node.next.val
         node.next=node.next.next
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largest1BorderedSquare(self, grid: List[List[int]]) -> int:
         r,c = len(grid), len(grid[0])
@@ -20,4 +20,4 @@ class Solution:
                         height -= 1
         
         return ans*ans
-```
+# ```

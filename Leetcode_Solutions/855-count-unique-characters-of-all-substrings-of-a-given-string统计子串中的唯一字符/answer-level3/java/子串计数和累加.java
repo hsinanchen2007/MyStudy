@@ -1,5 +1,5 @@
-线性扫描
-```java
+// 线性扫描
+// ```java
 class Solution {
     private static class Tuple {
         int prev;
@@ -45,4 +45,4 @@ class Solution {
 }
 
 
-```
+// ```

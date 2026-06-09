@@ -1,9 +1,9 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/e78698911142b958f8b2893505f1efbed803214552287272e677193eb1736445-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/e78698911142b958f8b2893505f1efbed803214552287272e677193eb1736445-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
         return NULL;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-两个队列同时BFS，分别代表先走红边和先走蓝边两种情况。
+// 两个队列同时BFS，分别代表先走红边和先走蓝边两种情况。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> shortestAlternatingPaths(int n, vector<vector<int>>& red_edges, vector<vector<int>>& blue_edges) {
@@ -69,4 +69,4 @@ public:
         return res;
     }
 };
-```
+// ```

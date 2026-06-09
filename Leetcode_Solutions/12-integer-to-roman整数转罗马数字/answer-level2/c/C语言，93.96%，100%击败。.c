@@ -1,10 +1,10 @@
-### 解题思路
-![微信图片_20200315150126.png](https://pic.leetcode-cn.com/42dfb5203c5a5105c61496981aacaa4b65b94074172a1cbb3493ead436bbfe54-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200315150126.png)
+// ### 解题思路
+// ![微信图片_20200315150126.png](https://pic.leetcode-cn.com/42dfb5203c5a5105c61496981aacaa4b65b94074172a1cbb3493ead436bbfe54-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200315150126.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int attach_str(char* cha,int indx,char* str,int cnt);
 
 char * intToRoman(int num){
@@ -35,4 +35,4 @@ int attach_str(char* cha,int indx,char* str,int cnt){//在字符串尾部添加�
     }
     return indx;
 }
-```
+// ```

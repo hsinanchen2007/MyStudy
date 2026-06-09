@@ -1,5 +1,5 @@
-最重要的一点，使用sizedSum记录之前的求和结果，省去再次求和的步骤
-```
+# 最重要的一点，使用sizedSum记录之前的求和结果，省去再次求和的步骤
+# ```
 class MovingAverage:
 
     def __init__(self, size: int):
@@ -29,4 +29,4 @@ class MovingAverage:
 # obj = MovingAverage(size)
 # param_1 = obj.next(val)
 
-```
+# ```

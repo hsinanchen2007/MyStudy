@@ -1,4 +1,4 @@
-```go
+// ```go
 type MyHashSet struct {
     set []byte
 }
@@ -43,4 +43,4 @@ func (this *MyHashSet) Contains(key int) bool {
     }
     return exist
 }
-```
+// ```

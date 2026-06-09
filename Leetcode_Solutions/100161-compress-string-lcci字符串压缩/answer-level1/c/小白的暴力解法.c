@@ -1,10 +1,10 @@
-### 解题思路
-小白的暴力解法
-![image.png](https://pic.leetcode-cn.com/457fa8bf96d9028fbd242c4d5a2d4fbfa37071de1365b3b4c068e5d1fab6257a-image.png)
+// ### 解题思路
+// 小白的暴力解法
+// ![image.png](https://pic.leetcode-cn.com/457fa8bf96d9028fbd242c4d5a2d4fbfa37071de1365b3b4c068e5d1fab6257a-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     char *a=(char *)malloc(sizeof(char)*51000);
     a[0]=S[0];
@@ -76,4 +76,4 @@ char* compressString(char* S){
     else
     return S;
 }
-```
+// ```

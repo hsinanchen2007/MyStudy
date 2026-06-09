@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -15,4 +15,4 @@ void deleteNode(struct ListNode* node) {
 }
 //别忘记释放内存哦
 
-```
+// ```

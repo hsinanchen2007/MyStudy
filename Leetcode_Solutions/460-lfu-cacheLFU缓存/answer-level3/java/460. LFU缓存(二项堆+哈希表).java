@@ -1,9 +1,9 @@
-### 解题思路
-利用二项堆来弹出栈顶元素，java的PriorityQueue是优先队列，一个小顶堆，所以只需给节点中一个idx变量记录入队的先后顺序，越早入队就在堆顶，当freq频数相同的时候，直接弹出堆顶就行了，哈希则用来存节点数据
+// ### 解题思路
+// 利用二项堆来弹出栈顶元素，java的PriorityQueue是优先队列，一个小顶堆，所以只需给节点中一个idx变量记录入队的先后顺序，越早入队就在堆顶，当freq频数相同的时候，直接弹出堆顶就行了，哈希则用来存节点数据
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     Map<Integer, Node> cache;
     Queue<Node> queue;
@@ -78,4 +78,4 @@ class Node implements Comparable<Node> {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

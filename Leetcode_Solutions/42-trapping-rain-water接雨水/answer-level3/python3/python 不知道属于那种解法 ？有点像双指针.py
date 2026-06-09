@@ -1,4 +1,4 @@
-```python []
+# ```python []
 def trapModif(self, height: list) -> int:
         n = len(height)
         if n in (0, 1, 2):
@@ -22,5 +22,5 @@ def trapModif(self, height: list) -> int:
             else:
                 i += 1
         return ans
-```
+# ```
 

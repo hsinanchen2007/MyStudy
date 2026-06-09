@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-利用栈
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 利用栈
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def simplifyPath(self, path: str) -> str:
         path_list = path.split("/")
@@ -17,4 +17,4 @@ class Solution:
             else:
                 stack.append(item)
         return "/" + "/".join(stack)
-```
+# ```

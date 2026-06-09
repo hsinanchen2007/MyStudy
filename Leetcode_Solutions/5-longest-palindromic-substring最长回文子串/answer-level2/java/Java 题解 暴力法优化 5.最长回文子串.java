@@ -1,12 +1,12 @@
-执行用时 : 88 ms, 在Longest Palindromic Substring的Java提交中击败了45.87% 的用户
-内存消耗 : 35.2 MB, 在Longest Palindromic Substring的Java提交中击败了93.71% 的用户
+// 执行用时 : 88 ms, 在Longest Palindromic Substring的Java提交中击败了45.87% 的用户
+// 内存消耗 : 35.2 MB, 在Longest Palindromic Substring的Java提交中击败了93.71% 的用户
 
-这是耗时最短的一次，提交多几次都是在110ms左右
+// 这是耗时最短的一次，提交多几次都是在110ms左右
 
-遍历每个字符，从后往前查相同字符，并从两个字符往里查找。
-这优化的暴力法可太耗时了只能好好看看领悟下官方题解，学习学习
+// 遍历每个字符，从后往前查相同字符，并从两个字符往里查找。
+// 这优化的暴力法可太耗时了只能好好看看领悟下官方题解，学习学习
 
-```
+// ```
 class Solution {
 	public String longestPalindrome(String s) {
         if(s == null || s.length() == 0){
@@ -44,4 +44,4 @@ class Solution {
 		return s.substring(left, right + 1);
 	}
 }
-```
+// ```

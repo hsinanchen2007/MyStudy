@@ -1,9 +1,9 @@
-### 解题思路
-字典寻查方法
+# ### 解题思路
+# 字典寻查方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 	def twoSum(self,nums,target):
 		d = {}
@@ -13,4 +13,4 @@ class Solution:
 				return d[target-nums[x]],x
 			else:
 				d[nums[x]] = x
-```
+# ```

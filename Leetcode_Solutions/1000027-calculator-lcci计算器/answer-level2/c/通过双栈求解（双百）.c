@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int calculate(char* s){
     int len=strlen(s);
     int num[len], top1=-1;
@@ -102,4 +102,4 @@ int calculate(char* s){
     }
     return num[0];
 }
-```
+// ```

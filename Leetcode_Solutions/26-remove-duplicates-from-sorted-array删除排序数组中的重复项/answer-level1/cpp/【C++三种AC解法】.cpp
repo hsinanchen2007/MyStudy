@@ -1,5 +1,5 @@
-#### 方法一：常规交换，遇到重复数据就移到末尾，O(n^2)
-```
+// #### 方法一：常规交换，遇到重复数据就移到末尾，O(n^2)
+// ```
 int removeDuplicates(vector<int>& nums) {
     int ret = nums.size();
     if (ret < 2)
@@ -16,9 +16,9 @@ int removeDuplicates(vector<int>& nums) {
     }
     return ret;
 }
-```
-#### 方法二：两次单独for循环，第一次计算长度并标记重复项为x，第二次交换重复项，O(n)
-```
+// ```
+// #### 方法二：两次单独for循环，第一次计算长度并标记重复项为x，第二次交换重复项，O(n)
+// ```
 int removeDuplicates(vector<int>& nums) {
     int s = nums.size();
     int ret = s;
@@ -46,9 +46,9 @@ int removeDuplicates(vector<int>& nums) {
     }
     return ret;
 }
-```
-#### 方法三：“双指针”，将rgt处的非重复数据 覆盖到 lft处的重复数据处 O(n)
-```
+// ```
+// #### 方法三：“双指针”，将rgt处的非重复数据 覆盖到 lft处的重复数据处 O(n)
+// ```
 int removeDuplicates(vector<int>& nums) {
     int s = nums.size();
     if (s < 2)
@@ -61,4 +61,4 @@ int removeDuplicates(vector<int>& nums) {
     }
     return lft + 1;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} A
  * @return {number[]}
@@ -39,4 +39,4 @@ var pancakeSort = function (A) {
   }
   return res;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于每个为1的格子，判断上下左右是否是陆地，如果不是就说明是边界！
+# ### 解题思路
+# 对于每个为1的格子，判断上下左右是否是陆地，如果不是就说明是边界！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -20,4 +20,4 @@ class Solution:
                         if new_i<0 or new_i>=m or new_j<0 or new_j>=n or grid[new_i][new_j]==0:
                             ans+=1
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isUnique(String astr) {
         for(int i=0; i<astr.length()-1;i++){
@@ -10,4 +10,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

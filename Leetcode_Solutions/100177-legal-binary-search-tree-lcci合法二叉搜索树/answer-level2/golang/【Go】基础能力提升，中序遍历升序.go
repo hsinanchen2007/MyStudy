@@ -1,4 +1,4 @@
-```
+// ```
 func isValidBST(root *TreeNode) bool {
 	if root == nil{
 		return true
@@ -29,4 +29,4 @@ func isValidBST(root *TreeNode) bool {
 	}
 	return dfs(root)
 }
-```
+// ```

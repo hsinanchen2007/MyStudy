@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-没看答案一段操作觉得自己就是傻逼。。。。。。大家不要学我。其实只要通过parseInt()就可以直接得出··我还在一顿if else真是耻辱。
+// 没看答案一段操作觉得自己就是傻逼。。。。。。大家不要学我。其实只要通过parseInt()就可以直接得出··我还在一顿if else真是耻辱。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -31,5 +31,5 @@ var myAtoi = function (str) {
         return 0;
     }
 };
-```
+// ```
 

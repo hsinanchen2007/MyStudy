@@ -1,9 +1,9 @@
-### 解题思路
-双for+if-----类冒泡排序,修改判断条件
+// ### 解题思路
+// 双for+if-----类冒泡排序,修改判断条件
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -19,4 +19,4 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```

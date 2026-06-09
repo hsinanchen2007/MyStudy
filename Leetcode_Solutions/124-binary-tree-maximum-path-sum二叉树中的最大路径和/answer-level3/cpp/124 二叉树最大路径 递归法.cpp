@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/edc58ec74e950e7e5756db3d08280e8510e77b8d7cb39d6eade2f80e42cab0fa-image.png)
+// ![image.png](https://pic.leetcode-cn.com/edc58ec74e950e7e5756db3d08280e8510e77b8d7cb39d6eade2f80e42cab0fa-image.png)
 
-递归思路：
-L(root) = max(L(root->left), L(root->right), L(过root的最大路径))
-L(过root的最大路径) = root->val + max(L(root->left单边), L(root->right单边), L(root->left单边) + L(root->right单边));
-### 代码
+// 递归思路：
+// L(root) = max(L(root->left), L(root->right), L(过root的最大路径))
+// L(过root的最大路径) = root->val + max(L(root->left单边), L(root->right单边), L(root->left单边) + L(root->right单边));
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

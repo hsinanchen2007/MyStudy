@@ -1,6 +1,6 @@
-不能像python一样直接`if(!root)`，`if(root==null)`
-`root.val`这里比c++方便一些
-```
+// 不能像python一样直接`if(!root)`，`if(root==null)`
+// `root.val`这里比c++方便一些
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -17,4 +17,4 @@ public class Solution {
         return IsUnivalTree(root.left)&&IsUnivalTree(root.right);
     }
 }
-```
+// ```

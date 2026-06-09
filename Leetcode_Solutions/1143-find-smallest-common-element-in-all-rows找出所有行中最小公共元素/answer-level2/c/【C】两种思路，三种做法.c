@@ -1,14 +1,14 @@
-### 解题思路
-两种思路，三种做法
-1. 暴力枚举，通过开大数组，实现hash O(1)查找
-2. 二分法
-	- 调用库函数bsearch，实现二分查找
-	- 自己实现二分查找函数
+// ### 解题思路
+// 两种思路，三种做法
+// 1. 暴力枚举，通过开大数组，实现hash O(1)查找
+// 2. 二分法
+// 	- 调用库函数bsearch，实现二分查找
+// 	- 自己实现二分查找函数
 
-### 代码
+// ### 代码
 
-【暴力枚举】
-```
+// 【暴力枚举】
+// ```
 #define MAX_N 10001
 #define MAX_M 500
 
@@ -45,11 +45,11 @@ int smallestCommonElement(int** mat, int matSize, int* matColSize){
     }
     return -1;
 }
-```
+// ```
 
-【调用库函数bsearch】
+// 【调用库函数bsearch】
 
-```
+// ```
 #include <stdio.h>
 static int Comp(const void *a, const void *b)
 {
@@ -80,10 +80,10 @@ int smallestCommonElement(int** mat, int matSize, int* matColSize)
 }
 
 
-```
+// ```
 
-【自己实现二分查找】
-```c
+// 【自己实现二分查找】
+// ```c
 static bool Bsearch(int *nums, int len, int tar)
 {
 	int begin, end, mid;
@@ -124,4 +124,4 @@ int smallestCommonElement(int** mat, int matSize, int* matColSize)
 }
 
 
-```
+// ```

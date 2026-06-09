@@ -1,11 +1,11 @@
-### 解题思路
-最难居然是要先走到附近，然后再Dijkstra。面对这种发散的走法，从0点开始Dijkstra也会超时。
+# ### 解题思路
+# 最难居然是要先走到附近，然后再Dijkstra。面对这种发散的走法，从0点开始Dijkstra也会超时。
 
-实测，走到4步再bfs都是可以的。但是4步和10步时间相差不大。
+# 实测，走到4步再bfs都是可以的。但是4步和10步时间相差不大。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import collections
 
 
@@ -62,4 +62,4 @@ class Solution(object):
                     dist[(next_i, next_j)] = d + 1
                     heapq.heappush(pq, (d + 1, next_i, next_j))
         return -1
-```
+# ```

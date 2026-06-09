@@ -1,6 +1,6 @@
 
-利用如果环形链表，快的必然会追上慢的思路
-```
+// 利用如果环形链表，快的必然会追上慢的思路
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -29,7 +29,7 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
 
 

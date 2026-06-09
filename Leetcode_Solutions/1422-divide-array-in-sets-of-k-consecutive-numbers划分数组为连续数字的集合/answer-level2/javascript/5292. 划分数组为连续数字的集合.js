@@ -1,5 +1,5 @@
-仓促之作，有待优化~
-```
+// 仓促之作，有待优化~
+// ```
 var isPossibleDivide = function(nums, k) {
     let len = nums.length;
     if(len%k != 0) return false;
@@ -22,4 +22,4 @@ var isPossibleDivide = function(nums, k) {
     }
     return true;
 };
-```
+// ```

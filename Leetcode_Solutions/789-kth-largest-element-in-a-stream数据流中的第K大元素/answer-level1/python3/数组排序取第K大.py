@@ -1,12 +1,12 @@
-### 解题思路
-1、初始化类
-2、把add进来的val值追加到数组后面
-3、数组进行降序排序
-4、返回第k大的数，即k-1索引的值
+# ### 解题思路
+# 1、初始化类
+# 2、把add进来的val值追加到数组后面
+# 3、数组进行降序排序
+# 4、返回第k大的数，即k-1索引的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
@@ -23,4 +23,4 @@ class KthLargest:
         #self.nums.remove(val)
         return self.nums[self.k -1]
 
-```
+# ```

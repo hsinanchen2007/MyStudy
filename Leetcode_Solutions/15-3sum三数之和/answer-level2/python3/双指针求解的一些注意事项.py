@@ -1,11 +1,11 @@
-### 注意事项
-1. 判断是否重复时的 `if k>0 and...`不可省略，不然会漏掉000的情况
-2. `continue`仅跳过本次循环
-3. list.append 只能接受一个变量，所以返回时以数组传递
+# ### 注意事项
+# 1. 判断是否重复时的 `if k>0 and...`不可省略，不然会漏掉000的情况
+# 2. `continue`仅跳过本次循环
+# 3. list.append 只能接受一个变量，所以返回时以数组传递
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
@@ -31,4 +31,4 @@ class Solution:
                     while i<j and nums[i]==nums[i-1]:i +=1               
                     while i<j and nums[j]==nums[j+1]:j -= 1
         return res
-```
+# ```

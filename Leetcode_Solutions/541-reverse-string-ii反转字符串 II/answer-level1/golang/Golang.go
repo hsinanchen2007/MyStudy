@@ -1,4 +1,4 @@
-```
+// ```
 
 func reverseStr(s string, k int) string {
 	if k <= 0 {
@@ -37,4 +37,4 @@ func reverseStr(s string, k int) string {
 
 	return buf.String()
 }
-```
+// ```

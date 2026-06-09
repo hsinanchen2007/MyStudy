@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func uniquePaths(m int, n int) int {
     return QuickFun(m,n) // 急速版，内存占用最少，循环跳转最少
 }
@@ -96,4 +96,4 @@ func QuickFun(m,n int) int{
 
 	return arr[size-1]
 }
-```
+// ```

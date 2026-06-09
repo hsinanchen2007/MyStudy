@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历得到递增数组再处理
+# ### 解题思路
+# 中序遍历得到递增数组再处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             return []
         else:
             return self.helper(root.left) + [root.val] + self.helper(root.right)
-```
+# ```

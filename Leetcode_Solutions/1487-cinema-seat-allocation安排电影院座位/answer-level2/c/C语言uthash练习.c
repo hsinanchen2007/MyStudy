@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //直接qsort排序，在1000000000的用例时会超时，才用hash存一下
 struct hash_entry {
     int key;
@@ -65,4 +65,4 @@ int maxNumberOfFamilies(int n, int** reservedSeats, int reservedSeatsSize, int* 
 
 
 
-```
+// ```

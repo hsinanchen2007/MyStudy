@@ -1,9 +1,9 @@
-### 解题思路
-归并的思路，一步一步合并。
+// ### 解题思路
+// 归并的思路，一步一步合并。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
@@ -34,4 +34,4 @@ class Solution {
             res[k] = res[k] * left;
     }
 }
-```
+// ```

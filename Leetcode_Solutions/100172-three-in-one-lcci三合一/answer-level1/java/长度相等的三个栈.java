@@ -1,11 +1,11 @@
-### 解题思路
-1.声明一个数组为栈空间
-2.声明一个长度为3的数组用来记录对应栈压入弹出记录
-3.通过实现stackInx增减来实现push  pop   peek
+// ### 解题思路
+// 1.声明一个数组为栈空间
+// 2.声明一个长度为3的数组用来记录对应栈压入弹出记录
+// 3.通过实现stackInx增减来实现push  pop   peek
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class TripleInOne {
 
     private int[] stack;
@@ -49,4 +49,4 @@ class TripleInOne {
  * int param_3 = obj.peek(stackNum);
  * boolean param_4 = obj.isEmpty(stackNum);
  */
-```
+// ```

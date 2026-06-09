@@ -1,10 +1,10 @@
-### 解题思路
-1.排序；
-2.累计相邻的相同元素个数，保留最大的；
+// ### 解题思路
+// 1.排序；
+// 2.累计相邻的相同元素个数，保留最大的；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(void *a, void *b)
 {
     return *((int *)a) - *((int *)b);
@@ -36,4 +36,4 @@ int majorityElement(int* nums, int numsSize){
     return maxNum;
 
 }
-```
+// ```

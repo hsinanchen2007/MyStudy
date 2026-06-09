@@ -1,7 +1,7 @@
-# 全排序思路(不符合`O(nlogk)`)
-最朴素的思路，充分利用内置函数。
+// # 全排序思路(不符合`O(nlogk)`)
+// 最朴素的思路，充分利用内置函数。
 
-```java [-4行代码(易读)]
+// ```java [-4行代码(易读)]
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
         Map<String, Long> map = Arrays.stream(words).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
@@ -10,19 +10,19 @@ class Solution {
         return list.subList(0, k);
     }
 }
-```
-```java [-2行代码(略显抽象)]
+// ```
+// ```java [-2行代码(略显抽象)]
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
         Map<String, Long> map = Arrays.stream(words).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         return map.keySet().stream().sorted((a, b) -> (int) (map.get(a) == map.get(b) ? a.compareTo(b) : map.get(b) - map.get(a))).limit(k).collect(Collectors.toList());
     }
 }
-```
+// ```
 
 
-# 最小堆(符合`O(nlogk)`)
-```java [-Java]
+// # 最小堆(符合`O(nlogk)`)
+// ```java [-Java]
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
         Map<String, Long> map = Arrays.stream(words).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
@@ -38,4 +38,4 @@ class Solution {
         return Arrays.asList(res);
     }
 }
-```
+// ```

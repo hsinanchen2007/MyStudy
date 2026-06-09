@@ -1,9 +1,9 @@
-### 解题思路
-双指针 一个指针标记开头，另一个指针指另一条高 
+// ### 解题思路
+// 双指针 一个指针标记开头，另一个指针指另一条高 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
    public int MaxArea(int[] height)
         {
@@ -19,4 +19,4 @@ public class Solution {
             return max;
          }
 }
-```
+// ```

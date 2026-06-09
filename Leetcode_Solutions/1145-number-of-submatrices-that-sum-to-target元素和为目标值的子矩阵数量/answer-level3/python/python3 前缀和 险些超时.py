@@ -1,9 +1,9 @@
-### 解题思路
-用前缀和也超时了，还做了优化，差点超时
+# ### 解题思路
+# 用前缀和也超时了，还做了优化，差点超时
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:
         #思路：看见这玩意立刻想到前缀和
@@ -33,4 +33,4 @@ class Solution:
                     pre[cal] += 1
         return res
 
-```
+# ```

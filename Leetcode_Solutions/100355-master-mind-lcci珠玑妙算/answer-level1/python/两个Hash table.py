@@ -1,5 +1,5 @@
-Py3 双100%， 读题读到我都快不认识猜字了
-```python
+# Py3 双100%， 读题读到我都快不认识猜字了
+# ```python
 class Solution:
     def masterMind(self, solution: str, guess: str) -> List[int]:
         hash_sol = {"R":0, "Y":0, "G":0, "B":0}
@@ -17,4 +17,4 @@ class Solution:
             sum_2 += min(hash_sol[i], hash_gue[i])
 
         return [sum_1, sum_2 - sum_1]
-```
+# ```

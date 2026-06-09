@@ -1,5 +1,5 @@
-(1) 从末尾开始合并, 每次找到最大的
-```
+# (1) 从末尾开始合并, 每次找到最大的
+# ```
 def merge(nums1, m, nums2, n):
   i = m - 1
   j = n - 1
@@ -28,10 +28,10 @@ def merge(nums1, m, nums2, n):
 
   return nums1
 print(merge([1,2,3,0,0,0], 3, [2,5,6],3))
-```
+# ```
 
-(2) 先把nums2内容插入到nums1中, 再插入排序
-```
+# (2) 先把nums2内容插入到nums1中, 再插入排序
+# ```
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         i = m
@@ -48,4 +48,4 @@ class Solution(object):
               nums1[y], nums1[y - 1] = nums1[y - 1], nums1[y]
 
         return nums1
-```
+# ```

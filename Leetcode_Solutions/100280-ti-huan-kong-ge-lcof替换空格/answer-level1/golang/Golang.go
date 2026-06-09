@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func replaceSpace(s string) string {
     res:=""
     for i:=0;i<len(s);i++{
@@ -12,4 +12,4 @@ func replaceSpace(s string) string {
     }
     return res
 }
-```
+// ```

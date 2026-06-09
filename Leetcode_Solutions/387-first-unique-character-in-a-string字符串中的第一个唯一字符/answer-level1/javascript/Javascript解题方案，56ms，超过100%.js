@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9e2a71e63e12a84a432bdccf8899b310013c6f79e227cdd10b3c070f4f7d4b60-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9e2a71e63e12a84a432bdccf8899b310013c6f79e227cdd10b3c070f4f7d4b60-image.png)
 
-```
+// ```
 const firstUniqChar = (w) => {
     if(w.length <= 1) return w.length - 1;
     if(w.length > 26) {
@@ -38,4 +38,4 @@ const firstUniqChar = (w) => {
         }
     }
 }
-```
+// ```

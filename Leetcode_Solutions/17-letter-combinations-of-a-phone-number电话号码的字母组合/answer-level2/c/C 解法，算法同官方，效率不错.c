@@ -1,4 +1,4 @@
-```
+// ```
 static int nums[] = { 2, 3, 4, 5, 6, 7, 8, 9 };
 static char *chars[] = { "abc", "def", "ghi", "jkl", 
 	"mno", "pqrs", "tuv", "wxyz" };
@@ -68,4 +68,4 @@ letterCombinations( char *digits, int *returnSize )
 
 	return letters;
 }
-```
+// ```

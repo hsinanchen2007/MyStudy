@@ -1,9 +1,9 @@
-### 解题思路
-isRecent 用于解决cnt相同时的最近节点排序
+// ### 解题思路
+// isRecent 用于解决cnt相同时的最近节点排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
 
         class ValNode implements Comparable<ValNode>{
@@ -105,4 +105,4 @@ class LFUCache {
         }
 
     }
-```
+// ```

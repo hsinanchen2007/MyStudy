@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-二分查找法
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 二分查找法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) {
@@ -24,4 +24,4 @@ while(left<right-1)//保持，left的乘积永远小于x，right的乘积永远�
     return left;返回左边界
     }
 };
-```
+// ```

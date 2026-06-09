@@ -1,9 +1,9 @@
-### 解题思路
-只有划水题才能这么顺利AC   :)
+// ### 解题思路
+// 只有划水题才能这么顺利AC   :)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a,const void *b)
 {
 	return *(int *)a-*(int *)b;
@@ -17,4 +17,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     qsort(A,ASize,sizeof(int),cmp);
     return 0;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-辅助 deque, 如果压入的值比deque 后端的值大， 则 pop_back()
+// 辅助 deque, 如果压入的值比deque 后端的值大， 则 pop_back()
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 public:
     MaxQueue() {
@@ -45,4 +45,4 @@ private:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

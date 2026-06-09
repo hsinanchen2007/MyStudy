@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/cf074099b7b6dd12cda5d6859e42b71ddce0af41505b4471f8340703191a30a0-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/cf074099b7b6dd12cda5d6859e42b71ddce0af41505b4471f8340703191a30a0-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
@@ -62,4 +62,4 @@ public:
           return asteroids;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-方法一：递归版本
+// 方法一：递归版本
 
 
-```
+// ```
 class Solution {
 public:
     bool bst(TreeNode* p,TreeNode* q)
@@ -15,11 +15,11 @@ public:
         return bst(root->left,root->right);
     }
 };
-```
+// ```
 
 
-方法二：迭代版本
-```
+// 方法二：迭代版本
+// ```
 class Solution {
 public:
     //和二叉树中序遍历的迭代方法有点类似，左子树是按照左中右遍历，分别压入栈中，右子树是按照右中左的顺序遍历，也是分别压入栈中判断，分别判断值是否相等
@@ -53,5 +53,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

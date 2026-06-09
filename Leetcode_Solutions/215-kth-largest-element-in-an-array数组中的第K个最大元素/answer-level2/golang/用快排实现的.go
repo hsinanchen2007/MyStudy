@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 快排实现
 func findKthLargest(nums []int, k int) int {
     len := len(nums)
@@ -48,4 +48,4 @@ func cut(arr []int, start int, end int) int {
 
 
 
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-利用了并查集的特点，即**冗余连接的两个节点，其对应的根节点相同**，这里给出C语言的解法。
+// ### 解题思路
+// 利用了并查集的特点，即**冗余连接的两个节点，其对应的根节点相同**，这里给出C语言的解法。
 
-在标准并查集代码模板中，增加全局遍历is_redu监控在join过程中是否出现x和y的根相同的情况。
+// 在标准并查集代码模板中，增加全局遍历is_redu监控在join过程中是否出现x和y的根相同的情况。
 
-![image.png](https://pic.leetcode-cn.com/15adfc69391eafb33366cc03d7809b6111218eb43032ecf89b316f50502a842c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/15adfc69391eafb33366cc03d7809b6111218eb43032ecf89b316f50502a842c-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -81,4 +81,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     *returnSize = 2;
     return ret;
 }
-```
+// ```

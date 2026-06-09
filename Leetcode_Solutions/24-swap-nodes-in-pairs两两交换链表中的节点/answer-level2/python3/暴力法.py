@@ -1,7 +1,7 @@
-直接从链表头开始交换节点，每交换一次指针后移两个单位。（之前题解都不会提交，代码直接跟文字混一起了。。。。。难受）
+# 直接从链表头开始交换节点，每交换一次指针后移两个单位。（之前题解都不会提交，代码直接跟文字混一起了。。。。。难受）
 
 
-```python []
+# ```python []
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         if head is None or head.next is None:
@@ -19,5 +19,5 @@ class Solution:
             head = head.next
         return q.next
     
-```
+# ```
 

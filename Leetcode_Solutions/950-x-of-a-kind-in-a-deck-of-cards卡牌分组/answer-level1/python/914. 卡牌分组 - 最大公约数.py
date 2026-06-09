@@ -1,10 +1,10 @@
-### 解题思路
-97.91%
-同官方最大公约数算法一样，不过是手写的...
+# ### 解题思路
+# 97.91%
+# 同官方最大公约数算法一样，不过是手写的...
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         def gcd(a, b):
@@ -26,4 +26,4 @@ class Solution:
             a = g
         return True
      
-```
+# ```

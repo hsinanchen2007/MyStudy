@@ -1,6 +1,6 @@
-将第一家和最后一家分开考虑。
+# 将第一家和最后一家分开考虑。
 
-```
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if not nums:
@@ -14,4 +14,4 @@ class Solution:
         for j in nums[3:]:
             p, q = q, max(p+j, q)
         return max(n, q)
-```
+# ```

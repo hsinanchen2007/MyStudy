@@ -1,9 +1,9 @@
-### 解题思路
-主要思路就是排序加双指针，类似于twosum问题，a+b+c = 0等于a+b=-c。
+# ### 解题思路
+# 主要思路就是排序加双指针，类似于twosum问题，a+b+c = 0等于a+b=-c。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         result = list()
@@ -35,4 +35,4 @@ class Solution:
                 else:
                     x += 1
         return result
-```
+# ```

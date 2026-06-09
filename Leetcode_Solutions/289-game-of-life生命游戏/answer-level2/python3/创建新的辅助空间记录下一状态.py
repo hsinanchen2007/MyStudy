@@ -1,5 +1,5 @@
-很简单的用新的空间记录每个位置的状态，最后把值赋回去。
-```
+# 很简单的用新的空间记录每个位置的状态，最后把值赋回去。
+# ```
 class Solution:
     def count(self, board,i,j):
         live = 0
@@ -36,4 +36,4 @@ class Solution:
         for i in range(len(board)):
             for j in range(len(board[0])):
                 board[i][j] = new_board[i][j]
-```
+# ```

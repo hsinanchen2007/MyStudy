@@ -1,4 +1,4 @@
-```
+// ```
 function longestCommonPrefix($strs) {
     $s = "";
     for($a = 0;$a < strlen($strs[0]);$a++){
@@ -16,4 +16,4 @@ function longestCommonPrefix($strs) {
     }
     return $s;
 }
-```
+// ```

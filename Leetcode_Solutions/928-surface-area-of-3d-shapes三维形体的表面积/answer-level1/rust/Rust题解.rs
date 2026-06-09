@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn surface_area(grid: Vec<Vec<i32>>) -> i32 {
         let mut area = 0;
@@ -20,5 +20,5 @@ impl Solution {
         area * 2
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

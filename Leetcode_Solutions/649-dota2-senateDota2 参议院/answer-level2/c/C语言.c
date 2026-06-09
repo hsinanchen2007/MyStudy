@@ -1,9 +1,9 @@
-### 解题思路
-如果是RRRDDDD的话，虽然R比D少，但是R有先手优势，头三个D在说话前就被ban了，只有最后一个D能够发声，一轮后R和D依旧有存活的，所以一次遍历不能得出结论，必须多次遍历，直到出现一方一个不剩，那就是对方胜利了
+// ### 解题思路
+// 如果是RRRDDDD的话，虽然R比D少，但是R有先手优势，头三个D在说话前就被ban了，只有最后一个D能够发声，一轮后R和D依旧有存活的，所以一次遍历不能得出结论，必须多次遍历，直到出现一方一个不剩，那就是对方胜利了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * predictPartyVictory(char * senate){
     bool R = true;
     bool D = true;
@@ -39,4 +39,4 @@ char * predictPartyVictory(char * senate){
     }
     return "Dire";
 }
-```
+// ```

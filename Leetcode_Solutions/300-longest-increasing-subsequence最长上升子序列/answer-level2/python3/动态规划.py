@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         '''
@@ -16,4 +16,4 @@ class Solution:
                 if nums[k] > nums[i]:
                     dp[k] = max(dp[k],dp[i]+1)
         return max(dp)
-```
+# ```

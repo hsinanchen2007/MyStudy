@@ -1,47 +1,47 @@
-## 67.把字符串转换成整数
+// ## 67.把字符串转换成整数
 
-### Information
+// ### Information
 
-* TIME: 2020/02/26
-* LINK: [Click Here](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
-* TAG: `String`
+// * TIME: 2020/02/26
+// * LINK: [Click Here](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)
+// * TAG: `String`
 
-### Description
+// ### Description
 
-> 写一个函数 StrToInt，实现把字符串转换成整数这个功能。不能使用 atoi 或者其他类似的库函数。
->
-> 首先，该函数会根据需要丢弃无用的开头空格字符，直到寻找到第一个非空格的字符为止。
->
-> 当我们寻找到的第一个非空字符为正或者负号时，则将该符号与之后面尽可能多的连续数字组合起来，作为该整数的正负号；假如第一个非空字符是数字，则直接将其与之后连续的数字字符组合起来，形成整数。
->
-> 该字符串除了有效的整数部分之后也可能会存在多余的字符，这些字符可以被忽略，它们对于函数不应该造成影响。
->
-> 注意：假如该字符串中的第一个非空格字符不是一个有效整数字符、字符串为空或字符串仅包含空白字符时，则你的函数不需要进行转换。
->
-> 在任何情况下，若函数不能进行有效的转换时，请返回 0。
->
-> 说明：
->
-> 假设我们的环境只能存储 32 位大小的有符号整数，那么其数值范围为 [−231,  231 − 1]。如果数值超过这个范围，请返回  INT_MAX (231 − 1) 或 INT_MIN (−231) 。
+// > 写一个函数 StrToInt，实现把字符串转换成整数这个功能。不能使用 atoi 或者其他类似的库函数。
+// >
+// > 首先，该函数会根据需要丢弃无用的开头空格字符，直到寻找到第一个非空格的字符为止。
+// >
+// > 当我们寻找到的第一个非空字符为正或者负号时，则将该符号与之后面尽可能多的连续数字组合起来，作为该整数的正负号；假如第一个非空字符是数字，则直接将其与之后连续的数字字符组合起来，形成整数。
+// >
+// > 该字符串除了有效的整数部分之后也可能会存在多余的字符，这些字符可以被忽略，它们对于函数不应该造成影响。
+// >
+// > 注意：假如该字符串中的第一个非空格字符不是一个有效整数字符、字符串为空或字符串仅包含空白字符时，则你的函数不需要进行转换。
+// >
+// > 在任何情况下，若函数不能进行有效的转换时，请返回 0。
+// >
+// > 说明：
+// >
+// > 假设我们的环境只能存储 32 位大小的有符号整数，那么其数值范围为 [−231,  231 − 1]。如果数值超过这个范围，请返回  INT_MAX (231 − 1) 或 INT_MIN (−231) 。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: "   -42"
 输出: -42
 解释: 第一个非空白字符为 '-', 它是一个负号。
      我们尽可能将负号与后面所有连续出现的数字组合起来，最后得到 -42 。
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 其他的看注释就好了
->
-> 比较冗余，因为我没看清题目`+/-/0-9`都是数字开始的情况
->
-> 所以考虑了`+/-`号带来的一些不合法问题
+// > 其他的看注释就好了
+// >
+// > 比较冗余，因为我没看清题目`+/-/0-9`都是数字开始的情况
+// >
+// > 所以考虑了`+/-`号带来的一些不合法问题
 
-```java
+// ```java
 class Solution {
     public int strToInt(String str) {
         int numIdx = 0;
@@ -100,21 +100,21 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> 简化版本
->
-> 遇到`+/-`就可以判定了，如果`+/-`开头不合法，不会进`while`，返回0
->
-> 溢出判定
->
-> * `ans > Integer.MAX_VALUE / 10 || (ans == Integer.MAX_VALUE / 10 && num > 7)`
->
-> `ans`是绝对值，如果末尾>7，对于本身就是正数来说就是溢出了，但是对于负数，存在`-2147483648`，不过问题不大，因为此时返回的也是`-2147483648`
+// > 简化版本
+// >
+// > 遇到`+/-`就可以判定了，如果`+/-`开头不合法，不会进`while`，返回0
+// >
+// > 溢出判定
+// >
+// > * `ans > Integer.MAX_VALUE / 10 || (ans == Integer.MAX_VALUE / 10 && num > 7)`
+// >
+// > `ans`是绝对值，如果末尾>7，对于本身就是正数来说就是溢出了，但是对于负数，存在`-2147483648`，不过问题不大，因为此时返回的也是`-2147483648`
 
-```java
+// ```java
 class Solution {
     public int strToInt(String str) {
         int idx = 0;
@@ -147,23 +147,23 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/3af7ddf673c72a9c227661c1f664483ac15c02177eb2dad2ffafb0bbc8d24ab1-file_1582705798929)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/3af7ddf673c72a9c227661c1f664483ac15c02177eb2dad2ffafb0bbc8d24ab1-file_1582705798929)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

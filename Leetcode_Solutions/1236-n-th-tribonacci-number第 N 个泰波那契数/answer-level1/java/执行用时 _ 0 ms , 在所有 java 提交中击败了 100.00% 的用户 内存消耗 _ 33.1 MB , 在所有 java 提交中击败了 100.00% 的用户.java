@@ -1,5 +1,5 @@
-for循环加数组
-```
+// for循环加数组
+// ```
 class Solution {
     public int tribonacci(int n) {
         int[] array = new int[38];
@@ -15,4 +15,4 @@ class Solution {
         return array[n];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-哈希表
+# ### 解题思路
+# 哈希表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,6 +23,6 @@ class Solution:
                 return headB
             headB=headB.next
         return 
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/5f980208b5d0a7eb570de08e38ed26ce047fcf400265edff4c2ba381f212ec19-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5f980208b5d0a7eb570de08e38ed26ce047fcf400265edff4c2ba381f212ec19-image.png)

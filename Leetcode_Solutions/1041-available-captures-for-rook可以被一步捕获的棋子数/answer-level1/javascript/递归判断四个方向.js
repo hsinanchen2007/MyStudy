@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/121de2362bb839400a6051e4db9d2077a80ec48014e3e5756e53648d1cb76998-image.png)
+// ![image.png](https://pic.leetcode-cn.com/121de2362bb839400a6051e4db9d2077a80ec48014e3e5756e53648d1cb76998-image.png)
 
-```javascript
+// ```javascript
 var numRookCaptures = function(board) {
     let [x, y, sum] = [0, 0, 0];
     let arr = [];
@@ -56,4 +56,4 @@ var numRookCaptures = function(board) {
     }
     return find(x,y,board)
 };
-```
+// ```

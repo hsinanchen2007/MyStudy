@@ -1,10 +1,10 @@
-### 解题思路
-以nums[i]作为索引，nums[nums[i]]的正负表示数值nums[i]是否出现过，如果为负则输出；
-针对0元素，可以设一个值zero_num表示0出现的个数，大于1则输出0。
+// ### 解题思路
+// 以nums[i]作为索引，nums[nums[i]]的正负表示数值nums[i]是否出现过，如果为负则输出；
+// 针对0元素，可以设一个值zero_num表示0出现的个数，大于1则输出0。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-和累加数一样的套路。只不过为了防止溢出，使用了unsigned long long,倒是也能跑过所有用例；
-i,j,k指针分别指向三个数的起始索引，i初始化为0，字符串转化为数字，加和判等；若满足所有条件
-（1）除了数字0，不能以0开头
-（2）各项要小于INT_MAX，不能溢出
-（3）第三项等于前l两项之和
-程序结尾要注意，如果第三项刚好截止到S末尾索引，则将所有数据push_back进res,否则一次只push_back进第一项，剩余数字递归完成
-```
+// 和累加数一样的套路。只不过为了防止溢出，使用了unsigned long long,倒是也能跑过所有用例；
+// i,j,k指针分别指向三个数的起始索引，i初始化为0，字符串转化为数字，加和判等；若满足所有条件
+// （1）除了数字0，不能以0开头
+// （2）各项要小于INT_MAX，不能溢出
+// （3）第三项等于前l两项之和
+// 程序结尾要注意，如果第三项刚好截止到S末尾索引，则将所有数据push_back进res,否则一次只push_back进第一项，剩余数字递归完成
+// ```
 bool dfs(int i, int j, int k, string& num, vector<int>& res)
 {
     if (num[i] == '0' && j - i >= 2)    return false;
@@ -62,5 +62,5 @@ vector<int> splitIntoFibonacci(string S)
     }
     return res;//返回空vector
 }
-```
+// ```
 

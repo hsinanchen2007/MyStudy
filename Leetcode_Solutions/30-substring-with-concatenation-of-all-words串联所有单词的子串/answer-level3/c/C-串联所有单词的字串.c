@@ -1,22 +1,22 @@
-### 解题思路
+// ### 解题思路
 
-#### 执行结果：16ms , 6.7mb
-![leetcode (2).png](https://pic.leetcode-cn.com/e1be20e4321b2054ee93667169a81cc95fcb57873c221c429f907b45787abdab-leetcode%20\(2\).png)
+// #### 执行结果：16ms , 6.7mb
+// ![leetcode (2).png](https://pic.leetcode-cn.com/e1be20e4321b2054ee93667169a81cc95fcb57873c221c429f907b45787abdab-leetcode%20\(2\).png)
 
 
-#### 主要思路:
-考虑多元多次方程式正整数解的稀少，所以简单采用所有单词hash的平方和来与子串包含的单词hash平方和做对比，来确定字串是否由单词组组成。这样做的好处是消除单词排列顺序影响,可以减少循环查找。
+// #### 主要思路:
+// 考虑多元多次方程式正整数解的稀少，所以简单采用所有单词hash的平方和来与子串包含的单词hash平方和做对比，来确定字串是否由单词组组成。这样做的好处是消除单词排列顺序影响,可以减少循环查找。
 
-#### 改进：
-1. hash的计算可以改进得更精确
-2. 可以采用更高次的乘方来比较
+// #### 改进：
+// 1. hash的计算可以改进得更精确
+// 2. 可以采用更高次的乘方来比较
 
-#### 结语：
-本算法仅供娱乐参考
+// #### 结语：
+// 本算法仅供娱乐参考
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 uint32_t simple_hash(char *s, int len)
 {
     uint32_t ret = 0;
@@ -81,4 +81,4 @@ int *findSubstring(char *s, char **words, int wordsSize, int *returnSize)
 
     return results;
 }
-```
+// ```

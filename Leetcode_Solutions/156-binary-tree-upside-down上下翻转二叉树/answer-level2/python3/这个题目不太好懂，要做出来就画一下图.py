@@ -1,10 +1,10 @@
 
-root                   L 
+# root                   L 
                            
-  L         R    ------->>  R    Root  
+#   L         R    ------->>  R    Root  
 
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         root.right = None
 
         return newroot
-```
+# ```

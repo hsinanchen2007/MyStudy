@@ -1,10 +1,10 @@
-### 解题思路
-基本思路是使用两分查找。
-但是会有空值出现，这时可以结合分治的思想。当遇到空值时，在空值左右两边继续两分查找。
+// ### 解题思路
+// 基本思路是使用两分查找。
+// 但是会有空值出现，这时可以结合分治的思想。当遇到空值时，在空值左右两边继续两分查找。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findString(String[] words, String s) {
         return findString_sub(words,s,0,words.length-1);       
@@ -31,4 +31,4 @@ class Solution {
 
     }
 }
-```
+// ```

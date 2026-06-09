@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f30b6c7153ff4d00056a8a6018fa8e10940cf78b0b364da0b2c626db339a6640-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f30b6c7153ff4d00056a8a6018fa8e10940cf78b0b364da0b2c626db339a6640-image.png)
 
 
-```
+# ```
 '''
 贪心策略
 用栈来进行配对，只有配对的括号留下来，其他括号全部删掉
@@ -29,4 +29,4 @@ class Solution:
                 ans.append(ch)
 
         return ''.join(ans)
-```
+# ```

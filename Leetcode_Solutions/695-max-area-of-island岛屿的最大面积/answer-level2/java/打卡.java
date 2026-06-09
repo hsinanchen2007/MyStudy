@@ -1,9 +1,9 @@
-### 解题思路
-暴力搜
+// ### 解题思路
+// 暴力搜
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         if (grid.length == 0 || grid[0].length == 0) {
@@ -42,4 +42,4 @@ class Solution {
         return area;
     }
 }
-```
+// ```

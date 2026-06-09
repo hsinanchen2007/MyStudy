@@ -1,9 +1,9 @@
-### 解题思路
-多嵌套一层select就可以把无结果变成返回一个null
+-- ### 解题思路
+-- 多嵌套一层select就可以把无结果变成返回一个null
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 Select (SELECT   DISTINCT  Salary
 FROM Employee
@@ -12,4 +12,4 @@ LIMIT 1
 OFFSET 1
 ) As SecondHighestSalary ;
 
-```
+-- ```

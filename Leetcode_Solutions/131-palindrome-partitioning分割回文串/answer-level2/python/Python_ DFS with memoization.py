@@ -1,9 +1,9 @@
-### 解题思路
-此题与 [Word Break II](https://leetcode-cn.com/problems/word-break-ii/solution/dfs-with-memoization-by-dangerusswilson/) 类似， 唯一不同是这题需要检查是否是回文，Word Break II 需要检查字符串是否在字典中。
+# ### 解题思路
+# 此题与 [Word Break II](https://leetcode-cn.com/problems/word-break-ii/solution/dfs-with-memoization-by-dangerusswilson/) 类似， 唯一不同是这题需要检查是否是回文，Word Break II 需要检查字符串是否在字典中。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         n, memo = len(s), {}
@@ -23,4 +23,4 @@ class Solution:
             return lst
         
         return dfs(0)
-```
+# ```

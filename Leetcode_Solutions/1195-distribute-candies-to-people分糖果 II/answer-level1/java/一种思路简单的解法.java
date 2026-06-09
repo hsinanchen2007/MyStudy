@@ -1,11 +1,11 @@
-### 解题思路
-将每个人的分到的糖果放到HASHMAP里面，初始化都是0；
-然后开始遍历，分别填充到HASHMAP中每个人的value里面；
-最后定义一个数组，把HASHMAP中的值灌入数组当中，返回。
+// ### 解题思路
+// 将每个人的分到的糖果放到HASHMAP里面，初始化都是0；
+// 然后开始遍历，分别填充到HASHMAP中每个人的value里面；
+// 最后定义一个数组，把HASHMAP中的值灌入数组当中，返回。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         HashMap<Integer,Integer> map = new HashMap<>();
@@ -34,4 +34,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

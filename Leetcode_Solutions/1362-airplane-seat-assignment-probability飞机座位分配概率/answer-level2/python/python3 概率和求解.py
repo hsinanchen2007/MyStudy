@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def nthPersonGetsNthSeat(self, n: int) -> float:
         '''
@@ -17,4 +17,4 @@ class Solution:
         for i in range(n-1, 1, -1):
             s += s * (1/i)
         return 1 - s
-```
+# ```

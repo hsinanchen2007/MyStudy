@@ -1,13 +1,13 @@
-### 解题思路
-动态规划。时间复杂度O(n2),空间复杂度O(n)
+# ### 解题思路
+# 动态规划。时间复杂度O(n2),空间复杂度O(n)
 
-数组p[j]=i代表第j个字符到第i个字符为回文字符串
+# 数组p[j]=i代表第j个字符到第i个字符为回文字符串
 
-所以要判断第j个字符到第i个字符的字串是否回文字符串，只需判断  p[j+1] == i-1 and s[i] == s[j] 
+# 所以要判断第j个字符到第i个字符的字串是否回文字符串，只需判断  p[j+1] == i-1 and s[i] == s[j] 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if len(s) == 0:
@@ -26,4 +26,4 @@ class Solution:
                     max_len = i-j+1
         return s[max_start:max_start+max_len]
                     
-```
+# ```

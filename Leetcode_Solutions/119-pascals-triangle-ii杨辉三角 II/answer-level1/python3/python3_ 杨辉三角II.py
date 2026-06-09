@@ -1,4 +1,4 @@
-```python
+# ```python
 def getRow(rowIndex):
     # j行的数据, 应该由j - 1行的数据计算出来.
     # 假设j - 1行为[1,3,3,1], 那么我们前面插入一个0(j行的数据会比j-1行多一个),
@@ -12,4 +12,4 @@ def getRow(rowIndex):
     return r
 
 print(getRow(5))
-```
+# ```

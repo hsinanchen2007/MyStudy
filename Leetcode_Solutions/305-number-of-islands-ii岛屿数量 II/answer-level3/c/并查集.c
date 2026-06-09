@@ -1,9 +1,9 @@
-### 解题思路
-Find的时候自带路径压缩，不需要通过rank来进行合并也可以
+// ### 解题思路
+// Find的时候自带路径压缩，不需要通过rank来进行合并也可以
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #define DIRECT 4
 static int g_m, g_n, g_ans;
@@ -95,4 +95,4 @@ int* numIslands2(int m, int n, int** positions, int positionsSize,
 	*returnSize = positionsSize;
 	return ans;
 }
-```
+// ```

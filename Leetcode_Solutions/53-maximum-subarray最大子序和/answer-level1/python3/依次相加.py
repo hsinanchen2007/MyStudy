@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-1. 依次相加，构建两个中间变量，一个记录当前时刻最大值，另一个记录整体的最大值
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 依次相加，构建两个中间变量，一个记录当前时刻最大值，另一个记录整体的最大值
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         if len(nums) < 2:
@@ -20,4 +20,4 @@ class Solution:
         return max_sum
     
 
-```
+# ```

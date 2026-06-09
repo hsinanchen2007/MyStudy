@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-统计奇偶个数
+// 统计奇偶个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -17,4 +17,4 @@ public:
         return tmp<2;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-不过必须假设int的值 int 范围内的正整数
-```
+// 不过必须假设int的值 int 范围内的正整数
+// ```
 class Solution {
 public:
     int mySqrt(int x) {
@@ -22,4 +22,4 @@ public:
 	return r;
     }
 };
-```
+// ```

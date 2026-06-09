@@ -1,9 +1,9 @@
-### 解题思路
-回溯，刚学会，很牛逼
+// ### 解题思路
+// 回溯，刚学会，很牛逼
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

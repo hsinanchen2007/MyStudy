@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，每次截取10位，判断HashSet中是否存在，不存在则加入到HashSet中
+// ### 解题思路
+// 一次遍历，每次截取10位，判断HashSet中是否存在，不存在则加入到HashSet中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         if (s.length() < 10) {
@@ -23,4 +23,4 @@ class Solution {
 		return new ArrayList<>(res);
     }
 }
-```
+// ```

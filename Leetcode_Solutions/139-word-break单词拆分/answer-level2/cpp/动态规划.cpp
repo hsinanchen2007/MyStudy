@@ -1,13 +1,13 @@
-### 解题思路
-首先，在字符串s中出查找每一个wordDict中子串所在位置的末尾（所有位置），记录在字典iword中
-例如s="abcaba",wordDict包含一个"ab"时，有iword[1] = {"ab"}, iword[4] = {"ab"}
+// ### 解题思路
+// 首先，在字符串s中出查找每一个wordDict中子串所在位置的末尾（所有位置），记录在字典iword中
+// 例如s="abcaba",wordDict包含一个"ab"时，有iword[1] = {"ab"}, iword[4] = {"ab"}
 
-然后，dp数组长为s.size()+1，dp[i]表示前i为字符可不可以拆
-dp[i] = (i-1处是相匹配的子串的末尾) && dp[i - 对应子串的长度]。
+// 然后，dp数组长为s.size()+1，dp[i]表示前i为字符可不可以拆
+// dp[i] = (i-1处是相匹配的子串的末尾) && dp[i - 对应子串的长度]。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -62,4 +62,4 @@ public:
         return dp[s.size()];
     }
 };
-```
+// ```

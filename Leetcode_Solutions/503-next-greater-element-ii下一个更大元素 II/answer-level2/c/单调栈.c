@@ -1,9 +1,9 @@
-### 解题思路
-第一次写单调栈，根据自己的理解，代码不太简洁
+// ### 解题思路
+// 第一次写单调栈，根据自己的理解，代码不太简洁
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -64,4 +64,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize){
     free(stack);
     return visit;
 }
-```
+// ```

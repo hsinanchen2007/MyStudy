@@ -1,5 +1,5 @@
 
-【思路1】正确思路，较快
+-- 【思路1】正确思路，较快
 SELECT t.Score,t.Rank
 FROM
 (

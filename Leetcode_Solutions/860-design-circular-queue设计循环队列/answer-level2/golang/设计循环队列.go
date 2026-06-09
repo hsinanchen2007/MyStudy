@@ -1,9 +1,9 @@
-### 解题思路
-循环数组
+// ### 解题思路
+// 循环数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 //	622
 type MyCircularQueue struct {
@@ -83,4 +83,4 @@ func (mcq *MyCircularQueue) IsFull() bool {
  * param_6 := obj.IsFull();
  */
 
-```
+// ```

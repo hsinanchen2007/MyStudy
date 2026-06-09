@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 class Trie {
     bool isWord;
     unordered_map<char, Trie*> children;
@@ -55,4 +55,4 @@ public:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

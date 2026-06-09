@@ -1,5 +1,5 @@
-- 方法一：栈（深度优先搜索）
-```c
+// - 方法一：栈（深度优先搜索）
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,9 +55,9 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     arr = realloc(arr, (*returnSize) * sizeof(int));
     return arr;
 }
-```
-- 方法二：Morris方法
-```c
+// ```
+// - 方法二：Morris方法
+// ```c
 int* preorderTraversal(struct TreeNode* root, int* returnSize){
     if (root == NULL) {
         *returnSize = 0;
@@ -100,5 +100,5 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = p + 1;
     return output;
 }
-```
+// ```
 

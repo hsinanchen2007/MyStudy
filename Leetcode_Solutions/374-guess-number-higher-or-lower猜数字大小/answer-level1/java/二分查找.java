@@ -1,11 +1,11 @@
-### 解题思路
-最好的二分写法
-int mid = low + (high - low) / 2;
+// ### 解题思路
+// 最好的二分写法
+// int mid = low + (high - low) / 2;
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /* The guess API is defined in the parent class GuessGame.
    @param num, your guess
    @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -28,4 +28,4 @@ public class Solution extends GuessGame {
         return -1;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-上周去玩了没赶上周赛，虚拟赛里大约十几二十分钟做的吧。
+# 上周去玩了没赶上周赛，虚拟赛里大约十几二十分钟做的吧。
 
-我这里是用True和False记录红蓝位置，一些同学是用0,1或r,b记录红蓝位置，本质上没啥区别，理论上bool类型空间最低罢了，代码的执行速度还算凑合吧，看提交报告里，搞py3的只有一个60ms的神仙排在俺前面。
+# 我这里是用True和False记录红蓝位置，一些同学是用0,1或r,b记录红蓝位置，本质上没啥区别，理论上bool类型空间最低罢了，代码的执行速度还算凑合吧，看提交报告里，搞py3的只有一个60ms的神仙排在俺前面。
 
-![image.png](https://pic.leetcode-cn.com/4228e1c62323a46eabb2c99fe7983ea3f6f00d63eebb580da71310eb144a1070-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4228e1c62323a46eabb2c99fe7983ea3f6f00d63eebb580da71310eb144a1070-image.png)
 
-```
+# ```
 class Solution(object):
     def shortestAlternatingPaths(self, n, red_edges, blue_edges):
         d = {}      #路径哈希
@@ -38,4 +38,4 @@ class Solution(object):
                 ans[i] = min(ans[i], c[(i, j)])
             
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-1、直接操作指针指向
+// ### 解题思路
+// 1、直接操作指针指向
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,14 +35,14 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```
 
-### 解题思路
-2、递归
+// ### 解题思路
+// 2、递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -68,4 +68,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

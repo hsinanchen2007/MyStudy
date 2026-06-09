@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int sqr(int a){
@@ -28,4 +28,4 @@ public:
         return false;
     }
 };
-```
+// ```

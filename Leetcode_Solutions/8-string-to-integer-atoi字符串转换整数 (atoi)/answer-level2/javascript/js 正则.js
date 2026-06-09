@@ -1,5 +1,5 @@
-正则
-```js
+// 正则
+// ```js
 /**
  * @param {string} str
  * @return {number}
@@ -12,4 +12,4 @@ var myAtoi = function(str) {
     if (res < -2147483648) return -2147483648;
     return res;
 };
-```
+// ```

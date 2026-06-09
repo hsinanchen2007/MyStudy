@@ -1,4 +1,4 @@
-```
+// ```
 func plusOne(digits []int) []int {
 	var pre = 1 // 标识进位，有进位为1，无进位为0
 	for i := len(digits)-1; i >= 0; i-- {
@@ -20,4 +20,4 @@ func plusOne(digits []int) []int {
 	return append(res, digits...)
 	
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             return left_depth + right_depth + 1;
         # 正常的树就获取最小高度 + 根节点记录为1
         return 1 + min(left_depth, right_depth);
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int getRoot(int n, vector<int>& father){
@@ -39,4 +39,4 @@ public:
         }
     }
 };
-```
+// ```

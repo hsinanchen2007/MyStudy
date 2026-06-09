@@ -1,6 +1,6 @@
 
-思路：先生成三角边，然后再计算里面的数值
-```
+// 思路：先生成三角边，然后再计算里面的数值
+// ```
 func generate(numRows int) [][]int {
 	out := make([][]int, numRows)
 	// 生成三角边
@@ -22,7 +22,7 @@ func generate(numRows int) [][]int {
 	return out
 }
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/dc366400cfc522ca97a13e6fb230ee96741cfebf5321d7cf0b3f9fc640c64812-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dc366400cfc522ca97a13e6fb230ee96741cfebf5321d7cf0b3f9fc640c64812-image.png)
 

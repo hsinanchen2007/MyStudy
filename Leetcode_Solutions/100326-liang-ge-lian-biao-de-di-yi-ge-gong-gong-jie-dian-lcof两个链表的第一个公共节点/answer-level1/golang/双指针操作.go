@@ -1,8 +1,8 @@
-### 解题思路
-双指针操作
-### 代码
+// ### 解题思路
+// 双指针操作
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,4 +26,4 @@ func getIntersectionNode(headA,headB *ListNode)*ListNode{
     }
     return nodeA
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-普通栈加单调栈
+// ### 解题思路
+// 普通栈加单调栈
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -45,4 +45,4 @@ private:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

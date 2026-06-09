@@ -1,5 +1,5 @@
-如标题，代码如下：
-```
+// 如标题，代码如下：
+// ```
 int getDecimalValue(struct ListNode* head){
     int num = 0;//记录转化之后的十进制数
     int flag = 0;//记录链表结点个数
@@ -21,5 +21,5 @@ int getDecimalValue(struct ListNode* head){
     num = num + p->val;
     return num;
 }
-```
-疑惑：本题中为什么头结点head也存储了数据呢？
+// ```
+// 疑惑：本题中为什么头结点head也存储了数据呢？

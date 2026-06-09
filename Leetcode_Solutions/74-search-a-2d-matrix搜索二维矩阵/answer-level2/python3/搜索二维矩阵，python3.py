@@ -1,10 +1,10 @@
-### 解题思路
-如果target存在于矩阵当中，先找到target位于应该第几行
-然后在该行使用二分查找
+# ### 解题思路
+# 如果target存在于矩阵当中，先找到target位于应该第几行
+# 然后在该行使用二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:
@@ -33,4 +33,4 @@ class Solution:
             else:
                 start = mid+1
         return False
-```
+# ```

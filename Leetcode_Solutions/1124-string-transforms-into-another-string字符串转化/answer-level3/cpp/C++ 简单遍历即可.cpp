@@ -1,9 +1,9 @@
-# 思路：
-1，当`str1 == str2`时显然可以转化
-2，如果`str1 != str2`，如果`str2`包含所有的26个字母，则没有了操作空间，因此肯定不能转化
-3，如果`str1`某两个下标`i, j`对应的字符相同，则必须要求`str2`中的相同下标也必须相同
-如果判断以上情况后没有问题，则可以转化成功
-```C++ []
+// # 思路：
+// 1，当`str1 == str2`时显然可以转化
+// 2，如果`str1 != str2`，如果`str2`包含所有的26个字母，则没有了操作空间，因此肯定不能转化
+// 3，如果`str1`某两个下标`i, j`对应的字符相同，则必须要求`str2`中的相同下标也必须相同
+// 如果判断以上情况后没有问题，则可以转化成功
+// ```C++ []
 class Solution {
 public:
     bool canConvert(string str1, string str2) {
@@ -28,6 +28,6 @@ public:
         return true;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6bc0f89da518c744c85cbf3733a24d90d8fed0463ce6aae39952b3662a1e1793-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6bc0f89da518c744c85cbf3733a24d90d8fed0463ce6aae39952b3662a1e1793-image.png)

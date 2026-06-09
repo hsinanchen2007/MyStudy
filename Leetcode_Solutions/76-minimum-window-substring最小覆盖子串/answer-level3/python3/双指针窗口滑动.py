@@ -1,8 +1,8 @@
-### 解题思路
-利用python 的Counter统计t每一种元素的个数,然后s不断向右移动.移动左窗口时,如果为cnt中元素,就让其-1,然后移动左窗口,如果cnt中元素数目刚好为0,表示当前窗口包含了t中元素要求的数目,此时n+1.当满足所有元素种类时,比较长度并返回到ans.
-### 代码
+# ### 解题思路
+# 利用python 的Counter统计t每一种元素的个数,然后s不断向右移动.移动左窗口时,如果为cnt中元素,就让其-1,然后移动左窗口,如果cnt中元素数目刚好为0,表示当前窗口包含了t中元素要求的数目,此时n+1.当满足所有元素种类时,比较长度并返回到ans.
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         import collections
@@ -24,5 +24,5 @@ class Solution:
                 if not ans or len(ans)>r-l+1:#if  not ans用于给ans第一次赋值,
                     ans=s[l:r+1]
         return ans
-```
-#有不理解的地方,可以评论提问哦
+# ```
+# #有不理解的地方,可以评论提问哦

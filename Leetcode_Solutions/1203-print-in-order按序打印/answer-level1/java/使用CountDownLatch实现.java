@@ -1,9 +1,9 @@
-### 解题思路
-  CountDownLatch初始化指定一个数值，调用await方法，如果指定数值不为0则进入等待状态，知道数值为0
-当frist执行时调用countDown将数值减1，依次类推
-### 代码
+// ### 解题思路
+//   CountDownLatch初始化指定一个数值，调用await方法，如果指定数值不为0则进入等待状态，知道数值为0
+// 当frist执行时调用countDown将数值减1，依次类推
+// ### 代码
 
-```java
+// ```java
 class Foo {
     private final CountDownLatch countDownLatch2;
     private final CountDownLatch countDownLatch3;
@@ -29,4 +29,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

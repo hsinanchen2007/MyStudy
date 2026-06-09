@@ -1,4 +1,4 @@
-```
+// ```
 int leftSearchRange(int* nums, int numsSize, int target){
     int left = 0;
     int right = numsSize;
@@ -40,4 +40,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     returnArray[1] = last;
     return returnArray;
 }
-```
+// ```

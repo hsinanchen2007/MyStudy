@@ -1,8 +1,8 @@
-### 解题思路
-按位异或
-### 代码
+// ### 解题思路
+// 按位异或
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return res;
     }
 };
-```
+// ```

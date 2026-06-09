@@ -1,6 +1,6 @@
 
 
-```
+# ```
 from queue import PriorityQueue
 class Solution:
 
@@ -76,4 +76,4 @@ class Solution:
                 que.put((cost+dis, last_pos + 1, ch1, next_char))
 
         return -1
-```
+# ```

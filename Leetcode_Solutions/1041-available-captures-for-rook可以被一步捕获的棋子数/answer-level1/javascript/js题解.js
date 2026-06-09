@@ -1,4 +1,4 @@
-```
+// ```
 var numRookCaptures = function(board) {
   // 车的坐标
   let centerlocal = [];
@@ -34,4 +34,4 @@ var numRookCaptures = function(board) {
   }
   return pCount;
 };
-```
+// ```

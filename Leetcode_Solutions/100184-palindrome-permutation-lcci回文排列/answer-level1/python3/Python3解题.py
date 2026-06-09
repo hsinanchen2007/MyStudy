@@ -1,9 +1,9 @@
-### 解题思路
-最多只能有一个字符的个数是奇数，剩下的必须全为偶数
+# ### 解题思路
+# 最多只能有一个字符的个数是奇数，剩下的必须全为偶数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import Counter
 class Solution(object):
     def canPermutePalindrome(self, s):
@@ -31,4 +31,4 @@ if __name__ == '__main__':
     s = 'tactcoa'
     solution = Solution()
     print(solution.canPermutePalindrome(s))
-```
+# ```

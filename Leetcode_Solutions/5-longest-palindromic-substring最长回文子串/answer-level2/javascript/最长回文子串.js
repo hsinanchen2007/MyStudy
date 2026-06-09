@@ -1,5 +1,5 @@
-方法一：直接暴力法，三重循环，做了剪枝操作468 ms，34.7 MB
-```
+// 方法一：直接暴力法，三重循环，做了剪枝操作468 ms，34.7 MB
+// ```
    var longestPalindrome = function(s) {
          let subStrMax="";
          let subLenMax=0;
@@ -25,9 +25,9 @@
          }
          return subStrMax;
      };
-```
-方法二，根据官方讲解使用动态规划用时1060 ms	，128.8 MB
-```
+// ```
+// 方法二，根据官方讲解使用动态规划用时1060 ms	，128.8 MB
+// ```
 var longestPalindrome = function(s) {
         let p=[];
         for (let i = 0; i < s.length; i++) {//初始化一回文
@@ -56,6 +56,6 @@ var longestPalindrome = function(s) {
         }
         return maxSubStr;
     };
-```
+// ```
 
-动态规划居然还没有直接来的效果好。。。应该还有很大的优化空间
+// 动态规划居然还没有直接来的效果好。。。应该还有很大的优化空间

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-双指针法。p前，i后如果S[p] != S[i],则则将p到i这一段压缩，就是将S[p]和i-p链接在结果字符串尾部。循环结束不要忘记把最后一段也算上。最后返回两个字符串中短的那一个。
+// 双指针法。p前，i后如果S[p] != S[i],则则将p到i这一段压缩，就是将S[p]和i-p链接在结果字符串尾部。循环结束不要忘记把最后一段也算上。最后返回两个字符串中短的那一个。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
 	if len(S) == 0 {
 		return ""
@@ -27,4 +27,4 @@ func compressString(S string) string {
 	}
 	return res
 }
-```
+// ```

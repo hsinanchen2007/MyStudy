@@ -1,9 +1,9 @@
-### 解题思路
-不明白这题考察的是什么
+// ### 解题思路
+// 不明白这题考察的是什么
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         //数组分为三部分
@@ -46,4 +46,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 from collections import defaultdict
 
 
@@ -16,4 +16,4 @@ class Solution:
             return record[l, r]
 
         return _count(1, n)
-```
+# ```

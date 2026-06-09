@@ -1,9 +1,9 @@
 
-### 代码
+// ### 代码
 
-> #### 时间复杂度：O(n)    空间复杂度：O(1)
+// > #### 时间复杂度：O(n)    空间复杂度：O(1)
 
-```javascript
+// ```javascript
 var trap = function(arr) {
     let left = 0
     let right = arr.length - 1
@@ -27,4 +27,4 @@ var trap = function(arr) {
     }
     return res
 };
-```
+// ```

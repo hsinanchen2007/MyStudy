@@ -1,21 +1,21 @@
-# 工程类的题目
- **关键词：Comparator, HashMap and HashSet.**  
-    代码比较长，只能一步一步做。当然，你按照提示做也是一样的。
+// # 工程类的题目
+//  **关键词：Comparator, HashMap and HashSet.**  
+//     代码比较长，只能一步一步做。当然，你按照提示做也是一样的。
     
-## 思路
-1. 注意到timestamp不一定是排好序的，先用comparator把Log排好序。
-    得到一个Log类的List.
-2. Find for every user separately the websites he visited.  
-    先遍历一遍logs，把同一个用户按时间顺序访问序列存在哈希表(map1)中。
-3. 遍历map1中的用户，对于每个用户的访问序列，生成所有可能的3-sequence visit pattern(此处用3个嵌套for,看着很烦), 并存在哈希表中(map2).
-    特别注意的是，这里同一个用户的同一个visit pattern只算一次,所以还要用HashSet来检验。
-4. 在更新map2的过程中，同时也更新当前的most frequent visit pattern and the corresponding times.
-    这个更新过程，同样要注意If there is more than one solution, return the lexicographically smallest such 3-sequence.
+// ## 思路
+// 1. 注意到timestamp不一定是排好序的，先用comparator把Log排好序。
+//     得到一个Log类的List.
+// 2. Find for every user separately the websites he visited.  
+//     先遍历一遍logs，把同一个用户按时间顺序访问序列存在哈希表(map1)中。
+// 3. 遍历map1中的用户，对于每个用户的访问序列，生成所有可能的3-sequence visit pattern(此处用3个嵌套for,看着很烦), 并存在哈希表中(map2).
+//     特别注意的是，这里同一个用户的同一个visit pattern只算一次,所以还要用HashSet来检验。
+// 4. 在更新map2的过程中，同时也更新当前的most frequent visit pattern and the corresponding times.
+//     这个更新过程，同样要注意If there is more than one solution, return the lexicographically smallest such 3-sequence.
 
 
 
 
-```
+// ```
 class Solution {
     /**
         inner class
@@ -162,4 +162,4 @@ class Solution {
     }
    
 }
-```
+// ```

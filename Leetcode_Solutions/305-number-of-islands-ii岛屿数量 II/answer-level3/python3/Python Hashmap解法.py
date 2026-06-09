@@ -1,16 +1,16 @@
-# 1. 思路：
+# # 1. 思路：
 
-1. 用 m × n 的列表 **grid 保存岛屿信息**，其中0表示为海洋，非0数字表示岛屿的编号，**同一块岛屿应该具有相同的编号值**。
+# 1. 用 m × n 的列表 **grid 保存岛屿信息**，其中0表示为海洋，非0数字表示岛屿的编号，**同一块岛屿应该具有相同的编号值**。
 
-2. 用哈希表 **island 保存不同岛屿编号所对应的岛屿坐标 (x, y)**
+# 2. 用哈希表 **island 保存不同岛屿编号所对应的岛屿坐标 (x, y)**
 
-3. **当两块编号不同的岛屿被某点连接起来后，更新列表 grid 中整块岛屿的编号值，更新哈希表 island 中岛屿编号所对应的坐标值，并将空的岛屿编号删除**
+# 3. **当两块编号不同的岛屿被某点连接起来后，更新列表 grid 中整块岛屿的编号值，更新哈希表 island 中岛屿编号所对应的坐标值，并将空的岛屿编号删除**
 
-4. 针对每次添加操作，其**岛屿的个数即为哈希表 island 的长度**。
+# 4. 针对每次添加操作，其**岛屿的个数即为哈希表 island 的长度**。
 
-# 2. 代码
+# # 2. 代码
 
-```
+# ```
 def numIslands2(self, m: int, n: int, positions: List[List[int]]) -> List[int]:
     
     grid = [[0]*n for _ in range(m)]              # 构建保存岛屿的表格
@@ -53,10 +53,10 @@ def numIslands2(self, m: int, n: int, positions: List[List[int]]) -> List[int]:
         res.append(len(island))                   #在结果中添加当前哈希表island的长度
     
     return res
-```
+# ```
 
-# 3. 结果
+# # 3. 结果
 
 
-![微信截图_20200110094753.png](https://pic.leetcode-cn.com/869f9f6931716e0ec44c310ae8a60beb85a34dcc96c58b02d111e51f6bc96447-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200110094753.png)
+# ![微信截图_20200110094753.png](https://pic.leetcode-cn.com/869f9f6931716e0ec44c310ae8a60beb85a34dcc96c58b02d111e51f6bc96447-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200110094753.png)
 

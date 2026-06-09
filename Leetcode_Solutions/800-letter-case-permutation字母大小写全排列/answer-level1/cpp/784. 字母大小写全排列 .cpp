@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![784.jpg](https://pic.leetcode-cn.com/57327f0ce4da49dc8fc3cdd84df5c93ceb1cf61801413cb7abfe8fcf2df4b672-784.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![784.jpg](https://pic.leetcode-cn.com/57327f0ce4da49dc8fc3cdd84df5c93ceb1cf61801413cb7abfe8fcf2df4b672-784.jpg)
 
-### 代码
-二进制数对应全排列，也可以用递归法来做
-```cpp
+// ### 代码
+// 二进制数对应全排列，也可以用递归法来做
+// ```cpp
 //全排列做法？
 #include <algorithm>
 
@@ -77,4 +77,4 @@ public:
 
 
 
-```
+// ```

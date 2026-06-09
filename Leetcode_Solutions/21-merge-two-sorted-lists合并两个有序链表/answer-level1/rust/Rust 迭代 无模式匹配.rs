@@ -1,4 +1,4 @@
-```rust
+// ```rust
 pub fn merge_two_lists(mut l1: Option<Box<ListNode>>, mut l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     let mut dummy = ListNode::new(0);
     let mut p = &mut dummy;
@@ -18,4 +18,4 @@ pub fn merge_two_lists(mut l1: Option<Box<ListNode>>, mut l2: Option<Box<ListNod
     p.next = l1.or(l2);
     dummy.next
 }
-```
+// ```

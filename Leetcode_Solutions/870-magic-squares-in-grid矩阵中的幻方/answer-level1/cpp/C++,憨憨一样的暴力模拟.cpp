@@ -1,5 +1,5 @@
-#### 思路：按照题目要求进行判断。。。。没什么好说的
-```
+// #### 思路：按照题目要求进行判断。。。。没什么好说的
+// ```
 class Solution {
 public:
     int numMagicSquaresInside(vector<vector<int>>& grid) {
@@ -59,4 +59,4 @@ public:
         return res;
     }
 };
-```
+// ```

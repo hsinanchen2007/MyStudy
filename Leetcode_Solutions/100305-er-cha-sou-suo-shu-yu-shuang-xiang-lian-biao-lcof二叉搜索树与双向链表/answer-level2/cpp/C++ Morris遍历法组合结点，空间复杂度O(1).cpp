@@ -1,5 +1,5 @@
-如果面试，最快可以使用中序遍历方法写出代码，如果要求空间复杂度O(1)且非递归，考虑Morris遍历方法。
-```
+// 如果面试，最快可以使用中序遍历方法写出代码，如果要求空间复杂度O(1)且非递归，考虑Morris遍历方法。
+// ```
 Node* treeToDoublyList(Node* root) {
 	if (!root) return root;
 	Node* pre = NULL, * cur = root, *head = NULL, *morrisRight = NULL;
@@ -37,5 +37,5 @@ Node* treeToDoublyList(Node* root) {
 	head->left = pre;
 	return head;
 }
-```
-时间复杂度O(N),空间复杂度O(1)
+// ```
+// 时间复杂度O(N),空间复杂度O(1)

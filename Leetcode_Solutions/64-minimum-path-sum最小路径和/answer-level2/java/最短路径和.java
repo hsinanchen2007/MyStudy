@@ -1,9 +1,9 @@
-### 解题思路
-设f(m, n)为从grid[0,0]到grid[m, n]的最短路径，而grid[n, m]只能是从grid[n-1][m]或gird[m, n-1]走到。因此得出f(m, n) = grid[m, n] + min{f(m-1, n), f(m, n-1)}
+// ### 解题思路
+// 设f(m, n)为从grid[0,0]到grid[m, n]的最短路径，而grid[n, m]只能是从grid[n-1][m]或gird[m, n-1]走到。因此得出f(m, n) = grid[m, n] + min{f(m-1, n), f(m, n-1)}
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minPathSum(int[][] grid) {
 		int m = grid.length, n = grid[0].length;
@@ -25,4 +25,4 @@ class Solution {
         return dp[m-1][n-1];
     }
 }
-```
+// ```

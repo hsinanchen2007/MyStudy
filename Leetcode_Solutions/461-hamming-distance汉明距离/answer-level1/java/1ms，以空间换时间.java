@@ -1,5 +1,5 @@
-不是简单的方法，但是也出来了，看到大佬的方法真想一巴掌拍死自己，我tm怎么那么菜
-```
+// 不是简单的方法，但是也出来了，看到大佬的方法真想一巴掌拍死自己，我tm怎么那么菜
+// ```
 public int hammingDistance(int x, int y) {
         String strX = Integer.toBinaryString(x);
         String strY = Integer.toBinaryString(y);
@@ -21,4 +21,4 @@ public int hammingDistance(int x, int y) {
         
         return count;
     }
-```
+// ```

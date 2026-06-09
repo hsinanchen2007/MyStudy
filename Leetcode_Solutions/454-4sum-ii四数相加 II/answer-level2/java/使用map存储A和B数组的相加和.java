@@ -1,10 +1,10 @@
-### 解题思路
-首先遍历A数组和B数组，将加和存储在在map中，key为加和，value为相同key的次数，初始次数为1
-然后遍历C数组和D数组，判断0 - C[i] - D[j]是否在map中，若存在，取出对应的value，然后累加起来。
+// ### 解题思路
+// 首先遍历A数组和B数组，将加和存储在在map中，key为加和，value为相同key的次数，初始次数为1
+// 然后遍历C数组和D数组，判断0 - C[i] - D[j]是否在map中，若存在，取出对应的value，然后累加起来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         //优化暴力解决
@@ -30,4 +30,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

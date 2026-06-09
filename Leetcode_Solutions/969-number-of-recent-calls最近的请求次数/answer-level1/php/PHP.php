@@ -1,4 +1,4 @@
-```php
+// ```php
 class RecentCounter {
     /**
      */
@@ -28,4 +28,4 @@ class RecentCounter {
  * $obj = RecentCounter();
  * $ret_1 = $obj->ping($t);
  */
-```
+// ```

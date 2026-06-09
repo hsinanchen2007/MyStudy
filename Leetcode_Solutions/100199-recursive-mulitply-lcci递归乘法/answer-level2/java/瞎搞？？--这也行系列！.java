@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/c3a7c76ff9a9ae6d3ef92d74ccf7cfd3c727f7517f5444c32c3aa1ca0f33c2b6-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/c3a7c76ff9a9ae6d3ef92d74ccf7cfd3c727f7517f5444c32c3aa1ca0f33c2b6-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int multiply(int A, int B) {
         return getSum(A, B);
@@ -17,4 +17,4 @@ class Solution {
         return A + getSum(A, count-1);
     }
 }
-```
+// ```

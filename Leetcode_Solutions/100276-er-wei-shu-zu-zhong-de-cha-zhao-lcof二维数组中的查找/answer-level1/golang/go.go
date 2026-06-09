@@ -1,4 +1,4 @@
-```
+// ```
 func findNumberIn2DArray(matrix [][]int, target int) bool {
 	if 0 == len(matrix) || 0 == len(matrix[0]) ||
 		matrix[0][0] > target || matrix[len(matrix)-1][len(matrix[0])-1] < target {
@@ -19,4 +19,4 @@ func findNumberIn2DArray(matrix [][]int, target int) bool {
 	}
 	return false
 }
-```
+// ```

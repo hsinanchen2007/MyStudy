@@ -1,4 +1,4 @@
-```python []
+# ```python []
 def twoSum(nums, target):
     # 假设v1 + v2 = target, i1, i2为它们的索引
     d = {}
@@ -10,4 +10,4 @@ def twoSum(nums, target):
         d[target - v] = i
         
 print(twoSum([2,7,11,15], 9))
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-这里要注意开辟一个新的内存空间l3时，p3.next接上新的节点以后，p3要自移位p3 = p3.next
+# ### 解题思路
+# 这里要注意开辟一个新的内存空间l3时，p3.next接上新的节点以后，p3要自移位p3 = p3.next
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
             p3.next = p1 or p2
 
         return l3.next
-```
+# ```

@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         if head == None or head.next == None: return head
         temp = ListNode(head.val - 1)
@@ -15,5 +15,5 @@
                 slow.next = fast.next
             fast = fast.next
         return temp.next
-```
+# ```
 

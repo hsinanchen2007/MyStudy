@@ -1,6 +1,6 @@
 
-这道题和[542. 01矩阵](https://leetcode-cn.com/problems/01-matrix/)比较像，感觉就是把0和1换了一下，返回值变成最大值。整体思路还是类似的，就是先把所有的1压入队列，然后逐层遍历，找到距离1最远的0。
-```c++
+// 这道题和[542. 01矩阵](https://leetcode-cn.com/problems/01-matrix/)比较像，感觉就是把0和1换了一下，返回值变成最大值。整体思路还是类似的，就是先把所有的1压入队列，然后逐层遍历，找到距离1最远的0。
+// ```c++
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& grid) {
@@ -43,4 +43,4 @@ private:
     int bx, by;
     using Pair = pair<int, int>;
 };
-```
+// ```

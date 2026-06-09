@@ -1,4 +1,4 @@
-```
+// ```
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -27,4 +27,4 @@ public:
         return isValidBST(root, std::nullopt, std::nullopt);
     }
 };
-```
+// ```

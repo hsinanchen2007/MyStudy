@@ -1,9 +1,9 @@
-解题思路:
-1.先排序，减少多余操作，从小到大排序
-2.重复过滤
-3.将三数之和为0转换为 a+b = -c,转成两个数之和 
-3.通过下标i、下标low = i + 1、下标high = nums.count - 1来判断相等  target = 0 - nums[i]
-4.若nums[low] + nums[high] = target 则加入结果集同时i右移、high左移继续遍历，若 < target ，则右移， 若 > target 则左移
+// 解题思路:
+// 1.先排序，减少多余操作，从小到大排序
+// 2.重复过滤
+// 3.将三数之和为0转换为 a+b = -c,转成两个数之和 
+// 3.通过下标i、下标low = i + 1、下标high = nums.count - 1来判断相等  target = 0 - nums[i]
+// 4.若nums[low] + nums[high] = target 则加入结果集同时i右移、high左移继续遍历，若 < target ，则右移， 若 > target 则左移
 
     class Solution {
     func threeSum(_ nums: [Int]) -> [[Int]] {

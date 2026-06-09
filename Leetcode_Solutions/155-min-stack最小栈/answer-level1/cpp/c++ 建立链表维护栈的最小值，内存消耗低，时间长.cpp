@@ -1,11 +1,11 @@
-### 解题思路
-建立了一个链表从小到大维护栈的最小值，可以以常数时间检索最小值，但是每次push()、pop()维护链表的时间太长了，所以最后内存消耗低，但是执行时间长。
-![image.png](https://pic.leetcode-cn.com/9c7b137c00ff3a49974337c0ed86c816926cde8363cb9ee6a9aac321377f85bf-image.png)
+// ### 解题思路
+// 建立了一个链表从小到大维护栈的最小值，可以以常数时间检索最小值，但是每次push()、pop()维护链表的时间太长了，所以最后内存消耗低，但是执行时间长。
+// ![image.png](https://pic.leetcode-cn.com/9c7b137c00ff3a49974337c0ed86c816926cde8363cb9ee6a9aac321377f85bf-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct ListNode_fgy{
     int val;
     ListNode_fgy* next;
@@ -68,4 +68,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

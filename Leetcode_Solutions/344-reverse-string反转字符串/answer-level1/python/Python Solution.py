@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseString(self, s):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         :rtype: None Do not return anything, modify s in-place instead.
         """
         return s.reverse()
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,6 +41,6 @@ public:
         return reverse(rhead);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/812f2554ab2767a0d43484509ceda7a49256318e56fb788262f235c8560eb72c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/812f2554ab2767a0d43484509ceda7a49256318e56fb788262f235c8560eb72c-image.png)

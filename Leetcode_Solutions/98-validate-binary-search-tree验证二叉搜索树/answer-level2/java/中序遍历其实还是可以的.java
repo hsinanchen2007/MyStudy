@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     List<Integer> list = new ArrayList<>();
     public boolean isValidBST(TreeNode root) {
@@ -22,4 +22,4 @@ class Solution {
             return false;
     }
 }
-```
+// ```

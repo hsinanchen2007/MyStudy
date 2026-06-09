@@ -1,10 +1,10 @@
-### 解题思路
-用一个数组记录每个字母后面是否有与之相等的字母
-有的话就存入这个字母后面中最后与之相等字母的位置，没有就为-1
+// ### 解题思路
+// 用一个数组记录每个字母后面是否有与之相等的字母
+// 有的话就存入这个字母后面中最后与之相等字母的位置，没有就为-1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> partitionLabels(String S) {
         List<Integer> res = new ArrayList<>();
@@ -42,4 +42,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

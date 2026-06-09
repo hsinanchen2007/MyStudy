@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 char g_dir[][2] = {{0, 1}, {-1, 0}, {0, -1}, {1, 0}};
@@ -52,4 +52,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char * word)
     }
     return 0;
 }
-```
+// ```

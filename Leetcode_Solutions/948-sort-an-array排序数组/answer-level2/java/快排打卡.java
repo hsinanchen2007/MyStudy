@@ -1,9 +1,9 @@
-### 解题思路
-使用最简单的快速排序
+// ### 解题思路
+// 使用最简单的快速排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int[] sortArray(int[] nums) {
         int a[] = quickSort(nums,0,nums.length-1);
@@ -38,4 +38,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

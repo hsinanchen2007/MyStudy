@@ -1,13 +1,13 @@
-## 用字典记录下每个节点与其在链表中的位置的对应关系。
-##### 需要两个字典，一个记录旧链表：old_node:index, 一个记录新链表：index：new_node.
-![copy-list-with-random-pointer.png](https://pic.leetcode-cn.com/6f732976d8a0a807dce59d9429624d18d68b83c2fb75e1e804b50acd91474d23-copy-list-with-random-pointer.png)
+# ## 用字典记录下每个节点与其在链表中的位置的对应关系。
+# ##### 需要两个字典，一个记录旧链表：old_node:index, 一个记录新链表：index：new_node.
+# ![copy-list-with-random-pointer.png](https://pic.leetcode-cn.com/6f732976d8a0a807dce59d9429624d18d68b83c2fb75e1e804b50acd91474d23-copy-list-with-random-pointer.png)
 
----
+# ---
 
-### 两步走：
-- ##### 1、 遍历一趟旧链表，生成新链表。在其中记录位置-节点对应关系
-- ##### 2、 再遍历一趟，更新random。查字典，得到旧节点的random所在的位置，再获取新链表这个位置的新节点。
-```
+# ### 两步走：
+# - ##### 1、 遍历一趟旧链表，生成新链表。在其中记录位置-节点对应关系
+# - ##### 2、 再遍历一趟，更新random。查字典，得到旧节点的random所在的位置，再获取新链表这个位置的新节点。
+# ```
 """
 # Definition for a Node.
 class Node:
@@ -60,6 +60,6 @@ class Solution:
 
 
             
-```
+# ```
 
-##### 时间复杂度 O（n）,需要遍历两遍；空间复杂度O(n)，两个字典2*n个键值对。
+# ##### 时间复杂度 O（n）,需要遍历两遍；空间复杂度O(n)，两个字典2*n个键值对。

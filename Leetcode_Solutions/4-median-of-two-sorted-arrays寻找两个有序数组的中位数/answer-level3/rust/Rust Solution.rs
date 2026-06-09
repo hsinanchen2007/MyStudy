@@ -1,9 +1,9 @@
-### 解题思路
-没写，懒得写
+// ### 解题思路
+// 没写，懒得写
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::cmp::{max, min};
 use std::i32::{MAX, MIN};
 impl Solution {
@@ -37,4 +37,4 @@ impl Solution {
     }
 }
 
-```
+// ```

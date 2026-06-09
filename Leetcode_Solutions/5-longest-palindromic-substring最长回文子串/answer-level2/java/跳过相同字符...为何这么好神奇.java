@@ -1,5 +1,5 @@
-- 代码重构自外站
-```java
+// - 代码重构自外站
+// ```java
 public String longestPalindrome(String s) {
     char[] arr = s.toCharArray();
     int len = arr.length, begin = 0, maxLen = 1;
@@ -22,4 +22,4 @@ public String longestPalindrome(String s) {
     }
     return s.substring(begin, begin + maxLen);
 }
-```
+// ```

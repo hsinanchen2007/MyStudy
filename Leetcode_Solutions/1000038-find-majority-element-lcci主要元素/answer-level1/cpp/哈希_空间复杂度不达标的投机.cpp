@@ -1,9 +1,9 @@
-### 解题思路
-![qwe.png](https://pic.leetcode-cn.com/c3420be9171f45dccb83d4c3f67cbb28915140cf6d642b7e1d8d5319d343b715-qwe.png)
+// ### 解题思路
+// ![qwe.png](https://pic.leetcode-cn.com/c3420be9171f45dccb83d4c3f67cbb28915140cf6d642b7e1d8d5319d343b715-qwe.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return -1;
     }
 };
-```
+// ```

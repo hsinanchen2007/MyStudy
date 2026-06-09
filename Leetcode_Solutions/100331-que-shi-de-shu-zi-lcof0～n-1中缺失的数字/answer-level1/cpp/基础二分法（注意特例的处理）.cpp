@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return left;//二分查找法 左=中+1 右=中 为基本格式 return 为 left
     }
 };
-```
+// ```

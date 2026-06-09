@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，思路清晰。初始化明确
+// ### 解题思路
+// 动态规划，思路清晰。初始化明确
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int waysToChange(int n) {
 
@@ -36,4 +36,4 @@ class Solution {
         return dp[3][n];
     }
 }
-```
+// ```

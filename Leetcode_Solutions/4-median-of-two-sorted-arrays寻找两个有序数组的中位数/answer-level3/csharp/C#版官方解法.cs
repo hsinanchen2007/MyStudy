@@ -1,6 +1,6 @@
-一开始看的有点懵,后来明白了,这道题核心利用不等式关系+二分查找法
-希望我的注释对你有帮助
-```
+// 一开始看的有点懵,后来明白了,这道题核心利用不等式关系+二分查找法
+// 希望我的注释对你有帮助
+// ```
 public double FindMedianSortedArrays(int[] A, int[] B) {
         //确保A长度小于等于B
         if (A.Length > B.Length)
@@ -73,4 +73,4 @@ public double FindMedianSortedArrays(int[] A, int[] B) {
         }
         return 0.0;
     }
-```
+// ```

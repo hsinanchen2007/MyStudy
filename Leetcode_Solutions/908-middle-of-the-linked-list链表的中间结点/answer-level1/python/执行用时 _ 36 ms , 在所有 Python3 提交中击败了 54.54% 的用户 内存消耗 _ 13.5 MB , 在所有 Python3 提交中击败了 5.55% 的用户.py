@@ -1,9 +1,9 @@
-### 解题思路
-遍历链表两次，一次得到链表长度，一次取出中间节点
+# ### 解题思路
+# 遍历链表两次，一次得到链表长度，一次取出中间节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             i += 1
             cur = cur.next
         return cur
-```
+# ```

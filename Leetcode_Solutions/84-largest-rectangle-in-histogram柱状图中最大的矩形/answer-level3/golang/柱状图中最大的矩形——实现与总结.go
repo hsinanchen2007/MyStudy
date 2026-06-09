@@ -1,6 +1,6 @@
 
 
-```go
+// ```go
 package lt84
 
 import (
@@ -492,4 +492,4 @@ func largestRectangleArea7(heights []int) int {
 // 1. 递归分治 + 线段树优化
 // 2. 递归均分 + 贪婪扩张
 // 3. 高度匹配 + 数组记录/栈记录
-```
+// ```

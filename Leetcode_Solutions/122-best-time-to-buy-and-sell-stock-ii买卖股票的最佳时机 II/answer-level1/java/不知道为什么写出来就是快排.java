@@ -1,9 +1,9 @@
-### 解题思路
-每次取一个最大和最小的区间，再把各区间的收益相加。
+// ### 解题思路
+// 每次取一个最大和最小的区间，再把各区间的收益相加。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int i = prices.length - 1;
@@ -18,4 +18,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

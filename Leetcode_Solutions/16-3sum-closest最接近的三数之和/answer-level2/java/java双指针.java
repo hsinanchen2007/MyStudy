@@ -1,10 +1,10 @@
-### 解题思路
-这道题用双指针的难点在于，如何让sum-target（即答案中的res）的值顺利取到正确的初始值。所以我将res分成大于0 和 小于0 两种情况，最后通过绝对值（即到target的距离），取较小的res。另外java语法细节：Integer.MAX_VALUE 或者 Integer.MIN_VALUE的绝对值还是本身
+// ### 解题思路
+// 这道题用双指针的难点在于，如何让sum-target（即答案中的res）的值顺利取到正确的初始值。所以我将res分成大于0 和 小于0 两种情况，最后通过绝对值（即到target的距离），取较小的res。另外java语法细节：Integer.MAX_VALUE 或者 Integer.MIN_VALUE的绝对值还是本身
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

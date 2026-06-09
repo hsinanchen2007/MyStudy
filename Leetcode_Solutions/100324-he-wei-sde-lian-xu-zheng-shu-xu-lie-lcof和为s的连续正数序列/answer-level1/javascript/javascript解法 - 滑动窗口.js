@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/6219c536f0c62d5ce839f6fbd0caea8a6153babf095496b45bf4354be231f071-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/6219c536f0c62d5ce839f6fbd0caea8a6153babf095496b45bf4354be231f071-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -31,4 +31,4 @@ var findContinuousSequence = function(target) {
     }
     return res
 };
-```
+// ```

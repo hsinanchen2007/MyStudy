@@ -1,7 +1,7 @@
-两遍哈希
-### 代码
+// 两遍哈希
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -19,11 +19,11 @@ public:
         return {};
     }
 };
-```
-一遍哈希
-### 代码
+// ```
+// 一遍哈希
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -40,12 +40,12 @@ public:
         return {};
     }
 };
-```
+// ```
 
-暴力解法
-### 代码
+// 暴力解法
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -61,4 +61,4 @@ public:
        return {};
     }
 };
-```
+// ```

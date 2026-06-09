@@ -1,11 +1,11 @@
-### 解题思路
-本题涉及三个知识点：
-+ 二叉树搜索树的性质
-+ 二叉树的中序遍历
-+ 合并有序数组：参考 **[leetcode合并有序数组](https://leetcode-cn.com/problems/merge-sorted-array)**
-### 代码
+// ### 解题思路
+// 本题涉及三个知识点：
+// + 二叉树搜索树的性质
+// + 二叉树的中序遍历
+// + 合并有序数组：参考 **[leetcode合并有序数组](https://leetcode-cn.com/problems/merge-sorted-array)**
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ private:
         }
     }
 };
-```
+// ```

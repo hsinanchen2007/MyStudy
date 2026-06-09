@@ -1,7 +1,7 @@
-思路比较简单，根据k-1层的朋友找k层朋友，这样就可以从0层（自己）一直找到第level层；未防止重复，把已找到的朋友用set保存；
-找到朋友后，再获取视频和排序就简单了
-代码写的比较烂
-```
+// 思路比较简单，根据k-1层的朋友找k层朋友，这样就可以从0层（自己）一直找到第level层；未防止重复，把已找到的朋友用set保存；
+// 找到朋友后，再获取视频和排序就简单了
+// 代码写的比较烂
+// ```
 class Solution {
 public:
     static bool cmp(const pair<string, int> &p1, const pair<string, int> &p2) {
@@ -47,4 +47,4 @@ public:
         return ret;
     }
 };
-```
+// ```

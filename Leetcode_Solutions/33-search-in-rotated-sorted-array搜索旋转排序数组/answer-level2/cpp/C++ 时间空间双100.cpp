@@ -1,9 +1,9 @@
-### 解题思路
-二分查找变种
+// ### 解题思路
+// 二分查找变种
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) { 
@@ -39,4 +39,4 @@ public:
         return -1;
     }
 };
-```
+// ```

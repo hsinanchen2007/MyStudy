@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public int[] rearrangeBarcodes(int[] barcodes) {
         Arrays.sort(barcodes);
@@ -55,4 +55,4 @@ class Solution {
 
     }
 }
-```
+// ```

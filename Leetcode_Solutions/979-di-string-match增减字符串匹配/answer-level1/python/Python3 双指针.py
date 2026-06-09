@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+# ### 解题思路
+# 双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def diStringMatch(self, S: str) -> List[int]:
         i = 0
@@ -18,4 +18,4 @@ class Solution:
                 j -= 1
         # result.append(i)
         return result + [i]
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-这道题目的 code 非常不舒服。
+# ### 解题思路
+# 这道题目的 code 非常不舒服。
 
-代码写得很差。中间的 while 循环一团糟。如果能写好一点就好了。
+# 代码写得很差。中间的 while 循环一团糟。如果能写好一点就好了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseVowels(self, s: str) -> str:
         n = len(s)
@@ -30,4 +30,4 @@ class Solution:
             j -= 1
          
         return "".join(s_l)
-```
+# ```

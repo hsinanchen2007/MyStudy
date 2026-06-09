@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历后就是一个递增的list,然后双指针
+// ### 解题思路
+// 中序遍历后就是一个递增的list,然后双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         }
     }
 }
-```
+// ```

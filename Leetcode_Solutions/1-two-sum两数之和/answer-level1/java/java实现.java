@@ -1,9 +1,9 @@
-### 解题思路
-此问题主要通过两个for循环来实现，个人感觉代码执行效率较低。
+// ### 解题思路
+// 此问题主要通过两个for循环来实现，个人感觉代码执行效率较低。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution  {
     public static  void main (String [] args){
         int [] nums = {2, 7, 11, 15};
@@ -36,4 +36,4 @@ public class Solution  {
     }
 }
 
-```
+// ```

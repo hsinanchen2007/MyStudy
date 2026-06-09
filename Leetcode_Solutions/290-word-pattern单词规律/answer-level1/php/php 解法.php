@@ -1,4 +1,4 @@
-```
+// ```
 function wordPattern($pattern, $str) {
     $n = strlen($pattern);
     $arr = explode(" ",$str);
@@ -17,4 +17,4 @@ function wordPattern($pattern, $str) {
     }
     return true;
 }
-```
+// ```

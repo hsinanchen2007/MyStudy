@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isLongPressedName(name string, typed string) bool {
 	nameRune:=[]rune(name)
 	typedRune:=[]rune(typed)
@@ -39,4 +39,4 @@ func isLongPressedName(name string, typed string) bool {
 	}
 	return true
 }
-```
+// ```

@@ -1,6 +1,6 @@
-> 思路描述：这个可以定义dx和dy作为移动方向，初始时dx = 0，dy  =1，向右移动，然后dx = 1，dy = 0，向下移动，以此类推其中需要注意需要改变边界条件。
+// > 思路描述：这个可以定义dx和dy作为移动方向，初始时dx = 0，dy  =1，向右移动，然后dx = 1，dy = 0，向下移动，以此类推其中需要注意需要改变边界条件。
 
-```C++
+// ```C++
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -35,6 +35,6 @@ public:
         return nums;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f15fb9e901618deede538a615c50dbf6047a034538e4c4d4c4a95bc6b59e651f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f15fb9e901618deede538a615c50dbf6047a034538e4c4d4c4a95bc6b59e651f-image.png)

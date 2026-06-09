@@ -1,9 +1,9 @@
-### 解题思路
-先把int转换成str，将str倒序，再把字符串转换成int，用时太长
+# ### 解题思路
+# 先把int转换成str，将str倒序，再把字符串转换成int，用时太长
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         def dict(s):
@@ -33,4 +33,4 @@ class Solution:
         
             
 
-```
+# ```

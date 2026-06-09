@@ -1,4 +1,4 @@
-```
+// ```
 from collections import deque
 class MyStack:
     def __init__(self):
@@ -36,4 +36,4 @@ class MyStack:
         Returns whether the stack is empty.
         """
         return not bool(self.data)
-```
+// ```

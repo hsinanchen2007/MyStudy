@@ -1,9 +1,9 @@
-### 解题思路
-每次将数组平均分成两份，中间的数作为每次的根结点
+// ### 解题思路
+// 每次将数组平均分成两份，中间的数作为每次的根结点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ public:
         return node;
     }
 };
-```
+// ```

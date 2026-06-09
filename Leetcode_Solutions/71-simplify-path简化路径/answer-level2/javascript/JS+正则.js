@@ -1,5 +1,5 @@
-循环对path /../ ./ //解析，其余情况不做处理
-```js
+// 循环对path /../ ./ //解析，其余情况不做处理
+// ```js
 var simplifyPath = function(path) {
     while(true){
         while(/\/\//.test(path)) path = path.replace('//', '/');
@@ -16,4 +16,4 @@ var simplifyPath = function(path) {
     if(path[0] !== '/') path = '/' + path;
     return path;
 };
-```
+// ```

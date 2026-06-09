@@ -1,10 +1,10 @@
-### 解题思路
-ruby solution,use array(stack) to get queue
+# ### 解题思路
+# ruby solution,use array(stack) to get queue
 
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 class MyStack
 =begin
     Initialize your data structure here.
@@ -59,4 +59,4 @@ end
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

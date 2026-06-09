@@ -1,7 +1,7 @@
-//视频讲解链接https://www.bilibili.com/video/BV1YV411o7Gr/
+// //视频讲解链接https://www.bilibili.com/video/BV1YV411o7Gr/
 
 
-```
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
@@ -31,7 +31,7 @@ class Solution {
         return res; 
     }
 }
-```
+// ```
 
 
-//视频讲解链接https://www.bilibili.com/video/BV1YV411o7Gr/
+// //视频讲解链接https://www.bilibili.com/video/BV1YV411o7Gr/

@@ -1,9 +1,9 @@
-### 解题思路
-这也能成中等难度，太骗钱了
+// ### 解题思路
+// 这也能成中等难度，太骗钱了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Vector2D {
 
     private int[] ay;
@@ -44,4 +44,4 @@ class Vector2D {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

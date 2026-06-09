@@ -1,9 +1,9 @@
-### 解题思路
-分段处理
+// ### 解题思路
+// 分段处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] generateMatrix(int n) {
 int[][] matrix=new int[n][n];
@@ -41,4 +41,4 @@ for(int y=n-i-2;y>i;y--){
 return matrix;
     }
 }
-```
+// ```

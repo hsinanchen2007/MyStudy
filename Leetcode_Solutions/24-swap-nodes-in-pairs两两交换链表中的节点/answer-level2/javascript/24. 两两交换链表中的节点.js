@@ -1,12 +1,12 @@
-# 暴力【两遍遍历】
-第一遍 转换为数组
-第二遍 转换为交换列表
+// # 暴力【两遍遍历】
+// 第一遍 转换为数组
+// 第二遍 转换为交换列表
 
-会被鄙视
+// 会被鄙视
 
-# 迭代
-边遍历,边处理,依赖四个值,三个指针,记录第一个值,结果直接出来
-```javascript
+// # 迭代
+// 边遍历,边处理,依赖四个值,三个指针,记录第一个值,结果直接出来
+// ```javascript
 var swapPairs = function(head) {
     //至少有两个值
     if(!head || !head.next){
@@ -36,10 +36,10 @@ var swapPairs = function(head) {
     }
     return r;
 };
-```
-## 空对象优化
-将null转换为无意义的空对象【类似于noop】,以减少if判断
-```javascript
+// ```
+// ## 空对象优化
+// 将null转换为无意义的空对象【类似于noop】,以减少if判断
+// ```javascript
 var swapPairs = function(head) {
     //记录四个值 改变 三个指针
     //至少有两个值
@@ -71,11 +71,11 @@ var swapPairs = function(head) {
     }
     return r;
 };
-```
-## 冗余处理【依赖执行顺序】
-包含空处理有,首次if判断可以取消(不在执行head)
-减少中间值,有部分中间值并有没有改,可以直接使用
-```javascript
+// ```
+// ## 冗余处理【依赖执行顺序】
+// 包含空处理有,首次if判断可以取消(不在执行head)
+// 减少中间值,有部分中间值并有没有改,可以直接使用
+// ```javascript
 var swapPairs = function(head) {
     //记录上一个记录
     let p0 = new ListNode();
@@ -99,12 +99,12 @@ var swapPairs = function(head) {
     }
     return _temp.next;
 };
-```
+// ```
 
-# 递归
-递归四部套路,然后分析
+// # 递归
+// 递归四部套路,然后分析
 
-```javascript
+// ```javascript
 var swapPairs = function(head) {
     //1.停止条件
     if(head == null || head.next == null){
@@ -120,4 +120,4 @@ var swapPairs = function(head) {
     //最后返回2 
     return p2;
 };
-```
+// ```

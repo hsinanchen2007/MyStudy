@@ -1,11 +1,11 @@
-### get操作
-**将缓存提到队列头部、返回value**
-### put操作
-**key已存在: 更新value, 缓存移动到队列头部**
-**key不存在: 新建key、value, 加入队列头部**
+// ### get操作
+// **将缓存提到队列头部、返回value**
+// ### put操作
+// **key已存在: 更新value, 缓存移动到队列头部**
+// **key不存在: 新建key、value, 加入队列头部**
 
-# 代码
-```
+// # 代码
+// ```
 class LRUCache {
     private int max;
     private Node pre = new Node(-1, -1);
@@ -64,4 +64,4 @@ class LRUCache {
         }
     }
 }
-```
+// ```

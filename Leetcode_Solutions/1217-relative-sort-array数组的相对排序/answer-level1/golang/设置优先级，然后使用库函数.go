@@ -1,4 +1,4 @@
-```
+// ```
 // 对arr1中元素排序，符合arr2中的顺序，没出现在arr2的，就按照升序排
 func relativeSortArray(arr1 []int, arr2 []int) []int {
 	pre := make(map[int]int)
@@ -27,4 +27,4 @@ func relativeSortArray(arr1 []int, arr2 []int) []int {
 	})
 	return arr1
 }
-```
+// ```

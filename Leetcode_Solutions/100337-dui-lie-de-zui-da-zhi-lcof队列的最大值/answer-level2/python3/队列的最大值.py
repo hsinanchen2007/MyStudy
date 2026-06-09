@@ -1,14 +1,14 @@
-### 解题思路
-一、原始方法：普通队列，但是求最大值时间复杂度O(N)
-二、双队列
-一个队列正常
-一个队列存储最大值，队头是最大值，递减
-（1） 入队时，第一个正常，第二个把尾部小于当前value的删除，保证头部是最大的
-（2） 出队，第一个正常，第二个头部和第一个出队相等时，一同出队
+# ### 解题思路
+# 一、原始方法：普通队列，但是求最大值时间复杂度O(N)
+# 二、双队列
+# 一个队列正常
+# 一个队列存储最大值，队头是最大值，递减
+# （1） 入队时，第一个正常，第二个把尾部小于当前value的删除，保证头部是最大的
+# （2） 出队，第一个正常，第二个头部和第一个出队相等时，一同出队
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 import queue
 class MaxQueue:
     import queue
@@ -37,8 +37,8 @@ class MaxQueue:
         if ans == self.deque[0]:
             self.deque.popleft()
         return ans
-```
-```java []
+# ```
+# ```java []
 class MaxQueue {
     Queue<Integer> queue;
     Deque<Integer> maxQueue;
@@ -66,4 +66,4 @@ class MaxQueue {
         return ans;
     }
 }
-```
+# ```

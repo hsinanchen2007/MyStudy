@@ -1,8 +1,8 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/80f0b7a3ff39c03584c9cac3a3c4e894d47ef8801063219ae498031972f9852d-image.png)
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/80f0b7a3ff39c03584c9cac3a3c4e894d47ef8801063219ae498031972f9852d-image.png)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} height
  * @return {number}
@@ -92,4 +92,4 @@ var trap = function stackDecrese(height) {
 
     return res;
 };
-```
+// ```

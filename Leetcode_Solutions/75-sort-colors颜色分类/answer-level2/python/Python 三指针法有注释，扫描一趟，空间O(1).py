@@ -1,9 +1,9 @@
-### 解题思路
-思路与官方提供的三指针是一样的，这里给出Python版代码。
+# ### 解题思路
+# 思路与官方提供的三指针是一样的，这里给出Python版代码。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortColors(self, nums):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 nums[i],nums[k]=nums[k],nums[i] #交换这两个元素
             elif nums[k]==2:
                 nums[j],nums[k]=nums[k],nums[j]        
-```
+# ```

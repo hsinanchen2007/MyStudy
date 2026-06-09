@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-punch in the card. 
-Again, I will give you code. 
+// punch in the card. 
+// Again, I will give you code. 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -67,4 +67,4 @@ private:
     int *log;
 };
 
-```
+// ```

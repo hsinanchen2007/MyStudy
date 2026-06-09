@@ -1,9 +1,9 @@
 
-根据王树禾的`<<图论>>`， 可以知道，较长的括好号可以由较短的好括号列获得，即下图中的 2，3点。而且根据4，这是充分的，不会漏掉的
+# 根据王树禾的`<<图论>>`， 可以知道，较长的括好号可以由较短的好括号列获得，即下图中的 2，3点。而且根据4，这是充分的，不会漏掉的
 
-![image.png](https://pic.leetcode-cn.com/a2f4d6904ef31e4686260cc359b10b19414b5a0192e13537e99124cf0952b96a-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a2f4d6904ef31e4686260cc359b10b19414b5a0192e13537e99124cf0952b96a-image.png)
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         dic = {0:set([""])}
@@ -17,4 +17,4 @@ class Solution:
             for one in dic[length-1]:
                 dic[length].add('('+one+')')
         return list(dic[n])
-```
+# ```

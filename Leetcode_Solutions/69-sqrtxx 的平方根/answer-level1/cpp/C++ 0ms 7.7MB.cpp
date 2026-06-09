@@ -1,9 +1,9 @@
-### 解题思路
-二分+夹逼
+// ### 解题思路
+// 二分+夹逼
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) {
@@ -18,5 +18,5 @@ public:
         return -1;
     }
 };
-```
-![fdfdsfdsfdsfdsfdsfsdfsdfsdfsdfs.PNG](https://pic.leetcode-cn.com/cade08499d47bec267ef38c3993d038852f75a3e762726db8fe091710166b8fd-fdfdsfdsfdsfdsfdsfsdfsdfsdfsdfs.PNG)
+// ```
+// ![fdfdsfdsfdsfdsfdsfsdfsdfsdfsdfs.PNG](https://pic.leetcode-cn.com/cade08499d47bec267ef38c3993d038852f75a3e762726db8fe091710166b8fd-fdfdsfdsfdsfdsfdsfsdfsdfsdfsdfs.PNG)

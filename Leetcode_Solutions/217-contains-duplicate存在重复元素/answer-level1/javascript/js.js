@@ -1,4 +1,4 @@
- 推荐Set方法，利用了Set方法去重的原理
+//  推荐Set方法，利用了Set方法去重的原理
     return new Set(nums).size < nums.length;
  排序法
     nums.sort()

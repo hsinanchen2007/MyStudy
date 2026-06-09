@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countBits(self, num: int) -> List[int]:
         dp=[0]*(num+1)
@@ -12,4 +12,4 @@ class Solution:
             #3(11)=2(10)+1(1)则dp[3]=dp[3&(3-1)]+1=dp[2]+1
             dp[i]=dp[i&(i-1)]+1
         return dp
-```
+# ```

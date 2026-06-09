@@ -1,12 +1,12 @@
 
-非递归解法
+# 非递归解法
 
-思路是，计算当前层的节点数，和下一层的节点数
-并用一个单独的list保存当前层输出的节点，不断追加到保存最终结果的list里去
+# 思路是，计算当前层的节点数，和下一层的节点数
+# 并用一个单独的list保存当前层输出的节点，不断追加到保存最终结果的list里去
 
-具体的解释看注释
+# 具体的解释看注释
 
-```
+# ```
 
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -44,4 +44,4 @@ class Solution:
                 next_count=0
         return res
 
-```
+# ```

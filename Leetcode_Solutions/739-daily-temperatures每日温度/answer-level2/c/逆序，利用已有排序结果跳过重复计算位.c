@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/1c8f5d6bcb7e3959b834a2b280b846e48d03aa6eeb7364347d9187cedc66cad0-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/1c8f5d6bcb7e3959b834a2b280b846e48d03aa6eeb7364347d9187cedc66cad0-image.png)
+// ```
 int* dailyTemperatures(int* T, int TSize, int* returnSize){
     int *rst = (int *)malloc(sizeof(int) * TSize);
     if (TSize == 0) {
@@ -29,4 +29,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     return rst;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strsSize==0)return "";
     int len=strlen(strs[0]);
@@ -32,4 +32,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     p[m]='\0';
     return p;
 }
-```
+// ```

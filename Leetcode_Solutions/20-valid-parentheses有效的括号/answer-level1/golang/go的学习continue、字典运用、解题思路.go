@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValid(s string) bool {
     var c []string
     m := map[string]string{
@@ -25,4 +25,4 @@ func isValid(s string) bool {
     }
     return len(c)==0
 }
-```
+// ```

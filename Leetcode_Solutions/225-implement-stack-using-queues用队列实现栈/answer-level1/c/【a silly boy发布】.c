@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5c2a089748db4eab8f0e44a85b2ac048b5efc1070d415d60782e963e9731afb0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5c2a089748db4eab8f0e44a85b2ac048b5efc1070d415d60782e963e9731afb0-image.png)
 
-```
+// ```
 typedef struct {
     int val;
     struct MyStack *next;
@@ -91,4 +91,4 @@ void myStackFree(MyStack* obj) {
         free(obj);
     }
 }
-```
+// ```

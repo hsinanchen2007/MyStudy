@@ -1,9 +1,9 @@
-## 思路分析
-- 使用双指针思想删除节点；
-- 注意需要删除连续节点的情况；
+// ## 思路分析
+// - 使用双指针思想删除节点；
+// - 注意需要删除连续节点的情况；
 
-## 代码实现
-```cpp
+// ## 代码实现
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
         return start->next;
     }
 };
-```
+// ```

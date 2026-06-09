@@ -1,9 +1,9 @@
-### 解题思路
-javascript实现
+// ### 解题思路
+// javascript实现
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -32,4 +32,4 @@ var mergeTwoLists = function(l1, l2) {//l1,l2是节点，不是整个链表！
         return l2;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-当一个数为负数，那么这个数的右下角都为负数就不用再遍历这右下角的数了
+// ### 解题思路
+// 当一个数为负数，那么这个数的右下角都为负数就不用再遍历这右下角的数了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

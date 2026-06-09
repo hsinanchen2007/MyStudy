@@ -1,11 +1,11 @@
-### 解题思路
-方法一  记忆化深度搜索。  最后一个case超时
-方法二  动态规划找最短超序列，dp[i][j] 表示 str1 前i个 与 str2前j个组成的超序列 . 最后一个case超时 。优化使用滚动数组还是超时
-方法三  动态规划找最长公共序列，然后进行归并组成超序列。  勉强通过
+// ### 解题思路
+// 方法一  记忆化深度搜索。  最后一个case超时
+// 方法二  动态规划找最短超序列，dp[i][j] 表示 str1 前i个 与 str2前j个组成的超序列 . 最后一个case超时 。优化使用滚动数组还是超时
+// 方法三  动态规划找最长公共序列，然后进行归并组成超序列。  勉强通过
 
-### 代码
-方法一
-```
+// ### 代码
+// 方法一
+// ```
     HashMap<String, String> dsMap;
     // 深度搜索
     public String shortestCommonSupersequence2(String str1, String str2) {
@@ -80,10 +80,10 @@
         }
     }
 
-```
+// ```
 
-方法二
-```
+// 方法二
+// ```
  public String shortestCommonSupersequence1(String str1, String str2) {
         if (str1 == null || str2 == null) {
             return null;
@@ -123,10 +123,10 @@
         return tmp[m];
     }
 
-```
+// ```
 
-方法三
-```java
+// 方法三
+// ```java
 class Solution {
    public String shortestCommonSupersequence(String str1, String str2) {
         if (str1 == null || str2 == null) {
@@ -170,4 +170,4 @@ class Solution {
         return ret.append(str1.substring(i) + str2.substring(j)).toString();
     }
 }
-```
+// ```

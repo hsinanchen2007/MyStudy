@@ -1,9 +1,9 @@
-### 解题思路
-使用流将int转换为string，反转string，判断是否是回文
+// ### 解题思路
+// 使用流将int转换为string，反转string，判断是否是回文
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -19,4 +19,4 @@ public:
         return false;
     }
 };
-```
+// ```

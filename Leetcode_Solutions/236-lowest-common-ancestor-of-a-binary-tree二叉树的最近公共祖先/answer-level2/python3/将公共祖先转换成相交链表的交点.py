@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         temp = p
@@ -36,4 +36,4 @@ class Solution:
                 dic[p.right]=p
                 queue.append(p.right)
         return dic
-```
+# ```

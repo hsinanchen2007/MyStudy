@@ -1,11 +1,11 @@
-### 解题思路
-1.删除不需要的————del
-2.添加nums2————append
-3.排序————sort()
+# ### 解题思路
+# 1.删除不需要的————del
+# 2.添加nums2————append
+# 3.排序————sort()
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             nums1.append(nums2[i])
         return nums1.sort()
         
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-相同的数异或结果为0，不同为非0.
+// ### 解题思路
+// 相同的数异或结果为0，不同为非0.
 
-### 代码
+// ### 代码
 
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     if(numsSize<2) return numsSize;
 
@@ -15,4 +15,4 @@ int removeDuplicates(int* nums, int numsSize){
 
     return i+1;
 }
-```
+// ```

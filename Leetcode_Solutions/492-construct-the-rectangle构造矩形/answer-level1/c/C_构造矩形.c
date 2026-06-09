@@ -1,9 +1,9 @@
-### 解题思路
-开方，然后递减，直到整除
-开放调用库函数。
-### 代码
+// ### 解题思路
+// 开方，然后递减，直到整除
+// 开放调用库函数。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -22,4 +22,4 @@ int* constructRectangle(int area, int* returnSize){
     }
     return NULL;
 }
-```
+// ```

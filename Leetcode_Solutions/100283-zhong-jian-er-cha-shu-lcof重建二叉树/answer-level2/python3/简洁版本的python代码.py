@@ -1,9 +1,9 @@
-### 解题思路
-采用递归的思路编写。
+# ### 解题思路
+# 采用递归的思路编写。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
         root.left = self.buildTree(preorder, inorder[:index])
         root.right = self.buildTree(preorder, inorder[index + 1:])
         return root
-```
+# ```

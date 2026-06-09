@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int *nums;
     int numsSize;
@@ -35,5 +35,5 @@ void numArrayFree(NumArray* obj) {
  
  * numArrayFree(obj);
 */
-```
-![image.png](https://pic.leetcode-cn.com/e2890185971c0148ca0ad8edb54e4ddb7ab3b32abc9bc672510714554982f984-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e2890185971c0148ca0ad8edb54e4ddb7ab3b32abc9bc672510714554982f984-image.png)

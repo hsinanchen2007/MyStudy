@@ -1,4 +1,4 @@
-``` php
+// ``` php
 /*
  * @lc app=leetcode.cn id=703 lang=php
  *
@@ -59,4 +59,4 @@ class KthLargest {
 // @lc code=end
 
 
-```
+// ```

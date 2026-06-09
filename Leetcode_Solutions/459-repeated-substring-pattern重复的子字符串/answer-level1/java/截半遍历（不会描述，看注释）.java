@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :6 ms, 在所有 Java 提交中击败了97.36%的用户
-内存消耗 :37.6 MB, 在所有 Java 提交中击败了96.30%的用户
-还以为我的会很慢呢，😁
+// ### 解题思路
+// 执行用时 :6 ms, 在所有 Java 提交中击败了97.36%的用户
+// 内存消耗 :37.6 MB, 在所有 Java 提交中击败了96.30%的用户
+// 还以为我的会很慢呢，😁
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
         int len = s.length();
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
 
-![屏幕截图.jpg](https://pic.leetcode-cn.com/ac3212b81790abb8544901678ffb043a24e14d77c8f53a93e42a26e162b52f4e-%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.jpg)
+// ![屏幕截图.jpg](https://pic.leetcode-cn.com/ac3212b81790abb8544901678ffb043a24e14d77c8f53a93e42a26e162b52f4e-%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.jpg)
 
-深度优先搜索求解
+// 深度优先搜索求解
 
-```
+// ```
 class Solution {
     // 以每个节点作为起始节点来比较，直到找到匹配的
     public boolean isSubPath(ListNode head, TreeNode root) {
@@ -21,4 +21,4 @@ class Solution {
         return dfs(root.left, cur.next) || dfs(root.right, cur.next);
     }
 }
-```
+// ```

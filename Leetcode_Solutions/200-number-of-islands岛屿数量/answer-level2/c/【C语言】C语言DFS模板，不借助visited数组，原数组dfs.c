@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/bf6689bac6911f312a6d443470919e558805952df73b2cfedeb03df8cc0bc2a5-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/bf6689bac6911f312a6d443470919e558805952df73b2cfedeb03df8cc0bc2a5-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int direc[4][2] = { {1,0}, {-1,0}, {0,1}, {0,-1}  };  // dfs的路径方向
 void dfs(char** grid, int gridSize, int* gridColSize, int i, int j){
 
@@ -41,4 +41,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     return count;
 
 }
-```
+// ```

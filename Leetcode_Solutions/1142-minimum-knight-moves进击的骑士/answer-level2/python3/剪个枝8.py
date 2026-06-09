@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minKnightMoves(self, x: int, y: int) -> int:
         moves = [(2, -1), (2, 1), (-2, -1), (-2, 1), (1, -2), (1, 2), (-1, -2), (-1, 2)]
@@ -20,4 +20,4 @@ class Solution:
                 if -2<ni<x+3 and -2<nj<y+3 and (ni,nj) not in vistied:
                     vistied.add((ni,nj))
                     queue.append((ni,nj,step+1))
-```
+# ```

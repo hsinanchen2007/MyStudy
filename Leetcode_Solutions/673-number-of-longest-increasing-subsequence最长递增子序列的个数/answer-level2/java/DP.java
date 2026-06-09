@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findNumberOfLIS(int[] nums) {
 
@@ -33,6 +33,6 @@ class Solution {
         return count;
     }
 }
-```
-space: O(n)
-time: O(n ^ 2)
+// ```
+// space: O(n)
+// time: O(n ^ 2)

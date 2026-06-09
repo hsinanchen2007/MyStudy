@@ -1,4 +1,4 @@
-```
+// ```
 
 char * subString( char * str1 , char * str2 , int len1 , int len2 ){
 
@@ -53,4 +53,4 @@ char * gcdOfStrings( char * str1 , char * str2 ){
     return subString( str1 , str2 , len1 , len2 );
 
 }
-```
+// ```

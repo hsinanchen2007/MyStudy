@@ -1,6 +1,6 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了98.84%的用户
-内存消耗 :42.2 MB, 在所有 Java 提交中击败了74.99%的用户
-```
+// 执行用时 :1 ms, 在所有 Java 提交中击败了98.84%的用户
+// 内存消耗 :42.2 MB, 在所有 Java 提交中击败了74.99%的用户
+// ```
 public int[] searchRange(int[] nums, int target) {
         if(nums.length==0) return new int[]{-1,-1};
         int right = index(nums,target,true);//找出最右的边界
@@ -43,4 +43,4 @@ public int[] searchRange(int[] nums, int target) {
         }
         return left;
     }
-```
+// ```

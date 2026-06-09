@@ -1,6 +1,6 @@
-![屏幕快照 2019-11-04 11.57.51.png](https://pic.leetcode-cn.com/c6b6e02e08233932da685a50963021083f17ad9de084134e9cb5f4483508645f-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-11-04%2011.57.51.png)
+// ![屏幕快照 2019-11-04 11.57.51.png](https://pic.leetcode-cn.com/c6b6e02e08233932da685a50963021083f17ad9de084134e9cb5f4483508645f-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-11-04%2011.57.51.png)
 
-```
+// ```
     public int firstMissingPositive(int[] nums) {
         if( nums.length == 0) { return 1; }
         Arrays.sort(nums);
@@ -22,4 +22,4 @@
         if (nums[nums.length -1] < 0) { return 1; }
         else { return nums[nums.length -1] + 1; }
     }
-```
+// ```

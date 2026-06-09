@@ -1,7 +1,7 @@
-思路：对于长度为N的对称数，只需要将对称符号加到N-2的结果两端就可以了
-注意：自对称数直接加即可，对称对数需要对应着加
-详细代码如下：
-```C++ []
+// 思路：对于长度为N的对称数，只需要将对称符号加到N-2的结果两端就可以了
+// 注意：自对称数直接加即可，对称对数需要对应着加
+// 详细代码如下：
+// ```C++ []
 class Solution {
 public:
     vector<char> A = {'0', '1', '8'};
@@ -30,7 +30,7 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/a77cb94fa2acb84c217291e63bd660fa6d947254788a0459be86d31dae9171df-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a77cb94fa2acb84c217291e63bd660fa6d947254788a0459be86d31dae9171df-image.png)
 
 

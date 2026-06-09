@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type CQueue struct {
 	stack []int
 	sLen  int
@@ -27,4 +27,4 @@ func (this *CQueue) DeleteHead() int {
 	this.sLen--
 	return del
 }
-```
+// ```

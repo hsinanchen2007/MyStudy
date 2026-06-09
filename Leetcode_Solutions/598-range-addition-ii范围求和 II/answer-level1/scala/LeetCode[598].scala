@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def maxCount(m: Int, n: Int, ops: Array[Array[Int]]): Int = {
     if (ops.length == 0) return m * n
@@ -8,4 +8,4 @@ object Solution {
   }
 }
 
-```
+// ```

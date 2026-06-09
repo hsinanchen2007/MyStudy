@@ -1,13 +1,13 @@
-### 解题思路
-用this.list = []建一个数组，之后用this.list调用数组
-模拟入栈用数组的push()方法，
-模拟出栈先模拟队列出队到队尾给数组tmp，输出队尾元素给a，将数组tmp赋回给list，返回a
-模拟取栈顶：取数组长度this.list.length,栈顶元素为数组最后一个元素this.list[this.list.length-1]
-模拟判空：取数组长度this.list.length,数组长度==0，说明数组为空
+// ### 解题思路
+// 用this.list = []建一个数组，之后用this.list调用数组
+// 模拟入栈用数组的push()方法，
+// 模拟出栈先模拟队列出队到队尾给数组tmp，输出队尾元素给a，将数组tmp赋回给list，返回a
+// 模拟取栈顶：取数组长度this.list.length,栈顶元素为数组最后一个元素this.list[this.list.length-1]
+// 模拟判空：取数组长度this.list.length,数组长度==0，说明数组为空
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -67,4 +67,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

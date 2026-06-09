@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -20,6 +20,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/74773421b26f6b1f879f9648bff4e29abed354f74ca321e11e29a5e3b54b0249-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/74773421b26f6b1f879f9648bff4e29abed354f74ca321e11e29a5e3b54b0249-image.png)
 

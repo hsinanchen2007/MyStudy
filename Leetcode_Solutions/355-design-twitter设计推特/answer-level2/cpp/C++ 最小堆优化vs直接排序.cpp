@@ -1,15 +1,15 @@
-首发于公众号：算法工程师之路
+// 首发于公众号：算法工程师之路
 
-解题思路：
-首先设计两个map，一个用于储存用户之间的关系follows，即某用户订阅了那些用户，另一个用于保存某用户发了那些推特，由于题目中需要按照发表时间排序，因此tweets的数据类型为map<int, vector<pair<int, long long>>>, 由于一个人会发多篇，使用vector储存，每个tweet都有对应时间，因此使用pair<int, long long>.
+// 解题思路：
+// 首先设计两个map，一个用于储存用户之间的关系follows，即某用户订阅了那些用户，另一个用于保存某用户发了那些推特，由于题目中需要按照发表时间排序，因此tweets的数据类型为map<int, vector<pair<int, long long>>>, 由于一个人会发多篇，使用vector储存，每个tweet都有对应时间，因此使用pair<int, long long>.
 
-主要在于getNewsFeed函数，当获取tweet时，我们应该将自己以及该用户订阅的所有人的推文放到一起，按照时间排序，取出时间最大的前10个推文即可！
-有可能总推文数没有10个，因此使用int n = min(10, (int)tmp.size());来获取个数！
+// 主要在于getNewsFeed函数，当获取tweet时，我们应该将自己以及该用户订阅的所有人的推文放到一起，按照时间排序，取出时间最大的前10个推文即可！
+// 有可能总推文数没有10个，因此使用int n = min(10, (int)tmp.size());来获取个数！
 
 
-版本一：最小堆（速度快，内存消耗少）
+// 版本一：最小堆（速度快，内存消耗少）
 
-```
+// ```
 class Twitter {
 public:
     map<int, vector<pair<int, long long>>> tweets;
@@ -60,11 +60,11 @@ public:
         relations[followerId].erase(followeeId);
     }
 };
-```
+// ```
 
-版本二：使用vector进行排序（耗内存，排序时间较长）
+// 版本二：使用vector进行排序（耗内存，排序时间较长）
 
-```c++
+// ```c++
 class Twitter {
 public:
     map<int, vector<pair<int, long long>>> tweets;
@@ -109,4 +109,4 @@ public:
         follows[followerId].erase(followeeId);
     }
 };
-```
+// ```

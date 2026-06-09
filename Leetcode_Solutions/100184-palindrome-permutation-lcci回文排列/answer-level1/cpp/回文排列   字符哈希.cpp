@@ -1,9 +1,9 @@
-### 解题思路
-判定字符串是否为某个回文串的排列（本身可以不是）
-字符hash计算个数，偶数ok，激素只能有一项。
-### 代码
+// ### 解题思路
+// 判定字符串是否为某个回文串的排列（本身可以不是）
+// 字符hash计算个数，偶数ok，激素只能有一项。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -20,4 +20,4 @@ public:
         return flag<2;
     }
 };
-```
+// ```

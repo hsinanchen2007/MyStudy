@@ -1,8 +1,8 @@
-# 思路
-主要就是使用二分查找找到相应下标。
+// # 思路
+// 主要就是使用二分查找找到相应下标。
 
-# 代码
-```java
+// # 代码
+// ```java
 class StreamRank {
     private ArrayList<Integer> list;
 
@@ -24,4 +24,4 @@ class StreamRank {
         return idx;
     }
 }
-```
+// ```

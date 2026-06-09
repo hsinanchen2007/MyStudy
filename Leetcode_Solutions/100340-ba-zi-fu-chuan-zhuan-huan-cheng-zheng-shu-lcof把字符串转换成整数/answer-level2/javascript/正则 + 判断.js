@@ -1,9 +1,9 @@
-### 解题思路
-先用正则匹配数字，然后一个个过条件过一遍就行了
+// ### 解题思路
+// 先用正则匹配数字，然后一个个过条件过一遍就行了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -19,4 +19,4 @@ var strToInt = function(str) {
     if(num < min) return min
     return num
 };
-```
+// ```

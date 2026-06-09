@@ -1,10 +1,10 @@
-### 解题思路
-双99
-优化版本
+# ### 解题思路
+# 双99
+# 优化版本
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
             if node.right:
                 stack.append(node.right)
         return res
-```
+# ```

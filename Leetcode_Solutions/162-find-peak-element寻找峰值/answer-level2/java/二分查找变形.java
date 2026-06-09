@@ -1,10 +1,10 @@
-### 解题思路
-二分查找变形题
-不断查找-返回低位left即可
+// ### 解题思路
+// 二分查找变形题
+// 不断查找-返回低位left即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findPeakElement(int[] nums) {
         //二分查找
@@ -26,4 +26,4 @@ class Solution {
         return left;
     }
 }
-```
+// ```

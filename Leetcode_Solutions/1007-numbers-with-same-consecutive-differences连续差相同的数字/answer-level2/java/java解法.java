@@ -1,6 +1,6 @@
-执行用时 :17 ms, 击败了48.72%的用户。
-内存消耗 :40.5 MB, 击败了25.40%的用户。
-```
+// 执行用时 :17 ms, 击败了48.72%的用户。
+// 内存消耗 :40.5 MB, 击败了25.40%的用户。
+// ```
 class Solution {
     public int[] numsSameConsecDiff(int N, int K) {
         List<String> list = new ArrayList();
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

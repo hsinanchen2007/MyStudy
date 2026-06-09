@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN 10000
 #define MIN(x, y) x < y ? x : y
 
@@ -57,4 +57,4 @@ char * gcdOfStrings(char * str1, char * str2)
 }
 
 
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MaxQueue struct {
     queue,help []int
 }
@@ -57,4 +57,4 @@ func (this *MaxQueue) Pop_front() int {
  * obj.Push_back(value);
  * param_3 := obj.Pop_front();
  */
-```
+// ```

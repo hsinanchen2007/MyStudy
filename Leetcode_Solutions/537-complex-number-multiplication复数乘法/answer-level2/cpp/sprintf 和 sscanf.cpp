@@ -1,5 +1,5 @@
-但是需要用char的数组转换一下，有没有类似但是不用转换的方法？
-```
+// 但是需要用char的数组转换一下，有没有类似但是不用转换的方法？
+// ```
 class Solution {
 public:
     string complexNumberMultiply(string a, string b) {
@@ -13,4 +13,4 @@ public:
         return ans;
     }
 };
-```
+// ```

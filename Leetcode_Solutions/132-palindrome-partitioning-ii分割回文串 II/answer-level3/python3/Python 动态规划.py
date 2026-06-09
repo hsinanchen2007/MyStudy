@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/0f49ea828b36a50f9eff15cdc7229ba820dfe07b4079cf75ab451fc0457f923a-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0f49ea828b36a50f9eff15cdc7229ba820dfe07b4079cf75ab451fc0457f923a-image.png)
 
 
-```
+# ```
 
 '''
 动态规划
@@ -42,4 +42,4 @@ class Solution:
                     m[i].append(j)
 
         return self.solve(0, n, m, {}) - 1
-```
+# ```

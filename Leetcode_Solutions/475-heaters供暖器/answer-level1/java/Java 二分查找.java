@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(heaters);
@@ -14,4 +14,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

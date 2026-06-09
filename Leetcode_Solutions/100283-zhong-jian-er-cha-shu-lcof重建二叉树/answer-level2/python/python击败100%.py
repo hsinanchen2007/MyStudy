@@ -1,12 +1,12 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-用前序遍历找到根结点
-用根结点在中序遍历中切开左右子树，递归重建二叉树
+# ### 解题思路
+# 用前序遍历找到根结点
+# 用根结点在中序遍历中切开左右子树，递归重建二叉树
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
         root.right = self.buildTree(preorder[1+i:], inorder[i+1:])
         
         return root
-```
+# ```

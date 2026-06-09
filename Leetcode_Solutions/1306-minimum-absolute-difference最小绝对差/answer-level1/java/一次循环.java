@@ -1,9 +1,9 @@
-### 解题思路
-一次循环，不听更新最小差，然后更新列表
+// ### 解题思路
+// 一次循环，不听更新最小差，然后更新列表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         Arrays.sort(arr);
@@ -26,4 +26,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

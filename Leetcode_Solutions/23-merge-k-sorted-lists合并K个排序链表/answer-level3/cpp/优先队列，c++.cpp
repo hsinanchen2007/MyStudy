@@ -1,11 +1,11 @@
-### 解题思路
-1. 遍历链表数组，push到优先队列pq中，注意入参lists要判空
-2. 创建一个链表ans，头结点存放pq弹出来的首元素。将ans赋值给tmp，循环遍历pq的元素，循环内容是：pq弹出元素创建链表节点，将tmp->next指向该节点，tmp移动到下一节点。注意，pq弹出之前需要判空
-3. 返回ans
+// ### 解题思路
+// 1. 遍历链表数组，push到优先队列pq中，注意入参lists要判空
+// 2. 创建一个链表ans，头结点存放pq弹出来的首元素。将ans赋值给tmp，循环遍历pq的元素，循环内容是：pq弹出元素创建链表节点，将tmp->next指向该节点，tmp移动到下一节点。注意，pq弹出之前需要判空
+// 3. 返回ans
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ public:
     }
 };
 
-```
+// ```

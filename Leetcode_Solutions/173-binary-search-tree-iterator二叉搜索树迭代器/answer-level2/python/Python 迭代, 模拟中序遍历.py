@@ -1,5 +1,5 @@
-如下, 使用stack缓存部分中序遍历的结果
-```python
+# 如下, 使用stack缓存部分中序遍历的结果
+# ```python
 class BSTIterator:
 
     def __init__(self, root: TreeNode):
@@ -34,4 +34,4 @@ class BSTIterator:
         @return whether we have a next smallest number
         """
         return True if self.stack else False
-```
+# ```

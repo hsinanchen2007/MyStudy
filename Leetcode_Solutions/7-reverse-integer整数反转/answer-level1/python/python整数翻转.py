@@ -1,9 +1,9 @@
-### 解题思路
-这里用的整数翻转实现，当然转换为字符串然后切片更简单
+# ### 解题思路
+# 这里用的整数翻转实现，当然转换为字符串然后切片更简单
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             return -y
         else:
             return 0
-```
+# ```

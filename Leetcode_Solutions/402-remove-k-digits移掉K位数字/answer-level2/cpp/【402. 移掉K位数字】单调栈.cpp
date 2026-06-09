@@ -1,7 +1,7 @@
-## 思路：单调栈
-维护一个递增栈，但当前元素小于栈顶元素，则移掉栈顶元素。
-### 代码
-```c++
+// ## 思路：单调栈
+// 维护一个递增栈，但当前元素小于栈顶元素，则移掉栈顶元素。
+// ### 代码
+// ```c++
 class Solution {
 public:
     string removeKdigits(string num, int k) {
@@ -22,4 +22,4 @@ public:
         return res.empty() ? "0" : res;
     }
 };
-```
+// ```

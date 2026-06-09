@@ -1,9 +1,9 @@
-### 解题思路
-建议看甜姨的题解~~
+// ### 解题思路
+// 建议看甜姨的题解~~
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -15,4 +15,4 @@ public:
       return ans;
     }
 };
-```
+// ```

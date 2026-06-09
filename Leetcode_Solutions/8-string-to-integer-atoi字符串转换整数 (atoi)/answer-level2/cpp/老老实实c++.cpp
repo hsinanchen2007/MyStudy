@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #define INT_MAX 0x7fffffff
 #define INT_MIN (-INT_MAX-1)
 
@@ -77,4 +77,4 @@ public:
         return (int)tmp;
     }
 };
-```
+// ```

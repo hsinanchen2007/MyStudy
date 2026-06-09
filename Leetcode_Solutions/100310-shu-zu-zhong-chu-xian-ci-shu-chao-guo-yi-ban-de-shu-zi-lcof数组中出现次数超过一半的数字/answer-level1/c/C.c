@@ -1,9 +1,9 @@
-### 解题思路
-开始用的排序 求中间值，  然后参考了大神们的思路 翻译成C语言
+// ### 解题思路
+// 开始用的排序 求中间值，  然后参考了大神们的思路 翻译成C语言
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int majorityElement(int* nums, int numsSize){
     int num = 0;
@@ -21,4 +21,4 @@ int majorityElement(int* nums, int numsSize){
 
     return num;
 }
-```
+// ```

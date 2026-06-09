@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int LastStoneWeight(int[] stones)
         {
             /*
@@ -262,4 +262,4 @@
         }
         #endregion
     }
-```
+// ```

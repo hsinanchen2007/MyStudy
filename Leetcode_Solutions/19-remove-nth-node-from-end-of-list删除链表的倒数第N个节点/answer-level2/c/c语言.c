@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     struct ListNode* p;
     struct ListNode* q;
@@ -20,4 +20,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     } 
     return head;
 }
-```
+// ```

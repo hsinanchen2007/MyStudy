@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int lengthOfLastWord(String s) {
         if (null == s){
@@ -16,4 +16,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

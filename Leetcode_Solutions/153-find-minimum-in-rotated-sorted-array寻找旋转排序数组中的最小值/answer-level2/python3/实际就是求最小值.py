@@ -1,9 +1,9 @@
-### 解题思路
-题目出的不好，用二分法可以。但是实际就是找数组的最小值
+# ### 解题思路
+# 题目出的不好，用二分法可以。但是实际就是找数组的最小值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMin(self, nums):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: int
         """
         return min(nums)
-```
+# ```

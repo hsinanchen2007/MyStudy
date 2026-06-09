@@ -1,5 +1,5 @@
-思路就是官方方法一中的，一个字典保证一个字母不会映射到俩字母，第二个字典保证不会有两个字母映射到同一个字母。
-```
+// 思路就是官方方法一中的，一个字典保证一个字母不会映射到俩字母，第二个字典保证不会有两个字母映射到同一个字母。
+// ```
 
 func findAndReplacePattern(words []string, pattern string) []string {
 	var ret = make([]string, 0)
@@ -35,4 +35,4 @@ func findAndReplacePattern(words []string, pattern string) []string {
 
 	return ret
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	na, nb := headA, headB
 	la, lb := 0, 0
@@ -31,4 +31,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	return nil
 }
 
-```
+// ```

@@ -1,17 +1,17 @@
-最开始尝试*while let*
-```
+// 最开始尝试*while let*
+// ```
 \\...
 while let (Some(_), Some(s)) = (&fast, &fast.as_ref().unwrap().next) {
     fast = &s.as_ref().next;
     slow = &slow.as_ref().unwrap().next;
 }
 \\...
-```
-但这样即便第一项*False*也还会检查第二项，导致*unwrap()*返回错误
-所以参考了已有答案 [rust.链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/solution/rustlian-biao-de-zhong-jian-jie-dian-by-xian-za-zh/)
+// ```
+// 但这样即便第一项*False*也还会检查第二项，导致*unwrap()*返回错误
+// 所以参考了已有答案 [rust.链表的中间节点](https://leetcode-cn.com/problems/middle-of-the-linked-list/solution/rustlian-biao-de-zhong-jian-jie-dian-by-xian-za-zh/)
 
-网站调试慢，自己写了测试用代码，结合题目中注释内容
-```
+// 网站调试慢，自己写了测试用代码，结合题目中注释内容
+// ```
 pub struct Solution;
 fn main() {
     let head = simple_linear_list(5);
@@ -39,4 +39,4 @@ fn show_list(l: &ListNode) {
     }
     println!("{}", t.val);
 }
-```
+// ```

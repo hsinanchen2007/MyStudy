@@ -1,5 +1,5 @@
-话不多说，直接上代码
-```
+// 话不多说，直接上代码
+// ```
 class Solution {
     public int[] plusOne(int[] digits) {
         if (digits.length == 0) {return new int[]{1}; }
@@ -21,4 +21,4 @@ class Solution {
         else { return digits; }
     }
 }
-```
+// ```

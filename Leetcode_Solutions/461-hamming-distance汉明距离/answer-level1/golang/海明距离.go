@@ -1,9 +1,9 @@
-### 解题思路
-主要考察位操作，不过全部切换到位计算后，性能居然没有提升。
+// ### 解题思路
+// 主要考察位操作，不过全部切换到位计算后，性能居然没有提升。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hammingDistance(x int, y int) int {
     // 异或运算
     result := x ^ y
@@ -21,4 +21,4 @@ func hammingDistance(x int, y int) int {
 
     return resultCount
 }
-```
+// ```

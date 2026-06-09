@@ -1,10 +1,10 @@
-### 解题思路
-通过左下角标志法来求解
-1.将左下角的数设立为flag，`if flag < target:将列加一  if flag > target:将行减一 也就是所在的行消去`
+# ### 解题思路
+# 通过左下角标志法来求解
+# 1.将左下角的数设立为flag，`if flag < target:将列加一  if flag > target:将行减一 也就是所在的行消去`
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findNumberIn2DArray(self, matrix, target):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             else:
                 return True
         return False
-```
+# ```

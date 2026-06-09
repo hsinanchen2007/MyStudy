@@ -1,5 +1,5 @@
-先把杨辉三角求出来，在直接取值
-```javascript
+// 先把杨辉三角求出来，在直接取值
+// ```javascript
 /**
  * @param {number} rowIndex
  * @return {number[]}
@@ -21,4 +21,4 @@ var getRow = function(rowIndex) {
     }
     return triangle[rowIndex]
 };
-```
+// ```

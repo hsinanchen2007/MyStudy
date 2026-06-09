@@ -1,15 +1,15 @@
-go程序员已经快乐的下班.
-cpp程序员还在打断点.
-rust程序员还在编译.
+// go程序员已经快乐的下班.
+// cpp程序员还在打断点.
+// rust程序员还在编译.
 
-上次编译就剩一个错误了， 修改下, duang！
+// 上次编译就剩一个错误了， 修改下, duang！
 
  
-```
+// ```
 error: aborting due to 9 previous errors
-```
+// ```
 
-```
+// ```
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
@@ -77,4 +77,4 @@ fn main() {
     println!("{:?}",  Solution::swap_pairs(init_nodes(5)));
 }
 
-```
+// ```

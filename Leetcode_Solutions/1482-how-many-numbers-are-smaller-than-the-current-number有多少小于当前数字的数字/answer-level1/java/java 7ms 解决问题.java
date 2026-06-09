@@ -1,6 +1,6 @@
-List<Integer> 转int[] 方法： list.stream().mapToInt(Integer::valueOf).toArray();
+// List<Integer> 转int[] 方法： list.stream().mapToInt(Integer::valueOf).toArray();
 
-```
+// ```
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] aa = new int[500];
@@ -20,4 +20,4 @@ class Solution {
         return  list.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
-```
+// ```

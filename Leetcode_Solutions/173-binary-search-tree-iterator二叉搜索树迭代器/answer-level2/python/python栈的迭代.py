@@ -1,5 +1,5 @@
 
-```
+# ```
 class BSTIterator(object):
 
     def __init__(self, root):
@@ -39,4 +39,4 @@ class BSTIterator(object):
             #开始遍历右边
             root = root.right
         return res   
-```
+# ```

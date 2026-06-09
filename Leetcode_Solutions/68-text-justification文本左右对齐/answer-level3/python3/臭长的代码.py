@@ -1,9 +1,9 @@
-### 解题思路
-看注释
+# ### 解题思路
+# 看注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
 
@@ -61,4 +61,4 @@ class Solution:
             lineStr += " " * (maxWidth - len(lineStr))
         ret.append(lineStr)
         return ret
-```
+# ```

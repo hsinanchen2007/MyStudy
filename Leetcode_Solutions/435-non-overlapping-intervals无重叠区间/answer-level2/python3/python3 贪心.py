@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         if not intervals:
@@ -23,4 +23,4 @@ class Solution:
                 count += 1
                 curEnd = i[1]
         return intervalsLen - count
-```
+# ```

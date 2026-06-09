@@ -1,6 +1,6 @@
-执行用时 : 311 ms, 击败了36.50% 的用户.
-内存消耗 : 76.8 MB, 击败了71.41% 的用户.
-```
+// 执行用时 : 311 ms, 击败了36.50% 的用户.
+// 内存消耗 : 76.8 MB, 击败了71.41% 的用户.
+// ```
 class Solution {
     int[] origin, res;
     public Solution(int[] nums) {
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

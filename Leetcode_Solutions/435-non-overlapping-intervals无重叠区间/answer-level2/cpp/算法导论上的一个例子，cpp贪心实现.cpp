@@ -1,7 +1,7 @@
-# 无重叠区间
-这题就是算法导论上面一个例子的改编，算法导论例子是安排活动教室，也就是安排最大不重叠的区间。有两种做法，一种是贪心，一种是动态规划。贪心就是按照结束时间排序，选择结束时间短的，如果有区间和这个区间重叠，就删去重叠区间。算法的正确性证明可以参看算法导论。
+// # 无重叠区间
+// 这题就是算法导论上面一个例子的改编，算法导论例子是安排活动教室，也就是安排最大不重叠的区间。有两种做法，一种是贪心，一种是动态规划。贪心就是按照结束时间排序，选择结束时间短的，如果有区间和这个区间重叠，就删去重叠区间。算法的正确性证明可以参看算法导论。
 
-```cpp
+// ```cpp
 static bool cmp(vector<int> p1, vector<int> p2) {
 	return p1[1] < p2[1];
 }
@@ -20,13 +20,13 @@ int eraseOverlapIntervals(vector<vector<int>>& intervals) {
 	}
 	return cnt;
 }
-```
-# 跳跃游戏
-[55.跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
-算法思想就是贪心，选则跳到下一个点`j`，使得跳动距离 + 跳到的目的地能够跳的距离之和最大。 
-即·`max(m+nums[i+m])` 
+// ```
+// # 跳跃游戏
+// [55.跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+// 算法思想就是贪心，选则跳到下一个点`j`，使得跳动距离 + 跳到的目的地能够跳的距离之和最大。 
+// 即·`max(m+nums[i+m])` 
 
-```cpp
+// ```cpp
 bool canJump(vector<int>& nums) {
 	int j = 0;
 	for (int i = 0; i < nums.size(); ) {
@@ -45,11 +45,11 @@ bool canJump(vector<int>& nums) {
 	}
 	return false;
 }
-```
-# 跳跃游戏II
-[跳跃游戏II](https://leetcode-cn.com/problems/jump-game-ii/)
-和跳跃游戏做法一样，计算跳跃次数即可。
-```
+// ```
+// # 跳跃游戏II
+// [跳跃游戏II](https://leetcode-cn.com/problems/jump-game-ii/)
+// 和跳跃游戏做法一样，计算跳跃次数即可。
+// ```
 int jump(vector<int>& nums) {
 	int j = 0;
 	int cnt = 0;
@@ -72,11 +72,11 @@ int jump(vector<int>& nums) {
 	}
 	return cnt;
 }
-```
-# 去除重复字母
-[316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
-对于当前字符s[i]，如果当前字符没有访问过，则删除栈中字典序比该字符大的并且栈中要删除的字符后续还会出现，即存在字典序更小的答案。将当前未访问过的字符加入到栈中。直接使用字符串模拟栈的操作即可。
-```
+// ```
+// # 去除重复字母
+// [316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
+// 对于当前字符s[i]，如果当前字符没有访问过，则删除栈中字典序比该字符大的并且栈中要删除的字符后续还会出现，即存在字典序更小的答案。将当前未访问过的字符加入到栈中。直接使用字符串模拟栈的操作即可。
+// ```
 //去除重复字母，每个字母只出现一次，不改变相对顺序，得到的字典序最小
 string removeDuplicateLetters(string s) {
 	int nums[26] = { 0 };
@@ -103,4 +103,4 @@ string removeDuplicateLetters(string s) {
 	}
 	return str;
 }
-```
+// ```

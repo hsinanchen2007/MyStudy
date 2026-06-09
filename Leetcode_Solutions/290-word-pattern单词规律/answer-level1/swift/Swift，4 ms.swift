@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func wordPattern(_ pattern: String, _ str: String) -> Bool {
         let patternChars = [Character](pattern)
@@ -24,4 +24,4 @@ class Solution {
         return true
     }
 }
-```
+// ```

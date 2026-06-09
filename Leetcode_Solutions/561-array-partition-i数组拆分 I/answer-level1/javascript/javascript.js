@@ -1,11 +1,11 @@
-简写：
-```
+// 简写：
+// ```
 var arrayPairSum = function(nums) {
     return nums.sort((a, b) => a - b).filter((v, index) => index % 2 == 0).reduce((a, b) => a + b);
 };
-```
-完全写完
-```
+// ```
+// 完全写完
+// ```
 var arrayPairSum = function(nums) {
     nums.sort((a, b) => a - b);
     let sum = 0;
@@ -14,4 +14,4 @@ var arrayPairSum = function(nums) {
     }
     return sum;
 };
-```
+// ```

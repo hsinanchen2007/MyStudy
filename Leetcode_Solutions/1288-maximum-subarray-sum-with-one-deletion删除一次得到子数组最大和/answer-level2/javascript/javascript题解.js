@@ -1,10 +1,10 @@
-[1186.删除一次得到数组最大和](https://leetcode-cn.com/problems/maximum-subarray-sum-with-one-deletion/submissions/)
+// [1186.删除一次得到数组最大和](https://leetcode-cn.com/problems/maximum-subarray-sum-with-one-deletion/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## 动态规划
+// ## 动态规划
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number}
@@ -28,4 +28,4 @@ var maximumSum = function(arr) {
     
     return res;
 };
-```
+// ```

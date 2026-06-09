@@ -1,12 +1,12 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/3
- * 
- * 解题思路: 双指针 注意大小写
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/3
+//  * 
+//  * 解题思路: 双指针 注意大小写
+//  */
+// ```
 public String reverseVowels(String s) {
 
     StringBuilder sb = new StringBuilder(s);
@@ -39,4 +39,4 @@ public String reverseVowels(String s) {
     }
     return sb.toString();
 }
-```
+// ```

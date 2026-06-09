@@ -1,4 +1,4 @@
-```c
+// ```c
 #define DIR_ROW 4
 #define DIR_COL 2
 #define MAX(a, b) ((a) < (b) ? (b) : (a))
@@ -43,4 +43,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     return ret;
 }
 
-```
+// ```

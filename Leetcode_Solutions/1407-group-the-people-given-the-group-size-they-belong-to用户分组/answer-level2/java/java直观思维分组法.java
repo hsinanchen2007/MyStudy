@@ -1,5 +1,5 @@
-最简单的思路：把输入的值作为key，数组下标的集合作为value构建一个map，构建好后将value长度大于key值的list分割即可
-```
+// 最简单的思路：把输入的值作为key，数组下标的集合作为value构建一个map，构建好后将value长度大于key值的list分割即可
+// ```
 public List<List<Integer>> groupThePeople(int[] groupSizes) {
         List<List<Integer>> result = new ArrayList<>();
         int len = groupSizes.length;
@@ -27,4 +27,4 @@ public List<List<Integer>> groupThePeople(int[] groupSizes) {
         }
         return result;
     }
-```
+// ```

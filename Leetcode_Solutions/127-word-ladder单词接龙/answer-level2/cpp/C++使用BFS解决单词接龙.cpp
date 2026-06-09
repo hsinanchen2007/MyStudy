@@ -1,6 +1,6 @@
-### 解题思路
-先放一个BFS解题模版，BFSBFS通常使用队列实现
-```
+// ### 解题思路
+// 先放一个BFS解题模版，BFSBFS通常使用队列实现
+// ```
 初始化队列Q;
 Q={起点S};
 标记S为已经访问;
@@ -15,12 +15,12 @@ while(Q非空)
     所有与u相邻且未被访问的点进入队列;
     标记u已经被访问;
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
@@ -92,4 +92,4 @@ public:
         return count==1;
     }
 };
-```
+// ```

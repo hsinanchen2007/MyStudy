@@ -1,10 +1,10 @@
-### 解题思路
-外层循环k次，内层循环遍历每次找出最小的数。然后替换掉它为最大值。
-感觉写的不是很好，改掉了原始数据。另执行时间有点长。。
+// ### 解题思路
+// 外层循环k次，内层循环遍历每次找出最小的数。然后替换掉它为最大值。
+// 感觉写的不是很好，改掉了原始数据。另执行时间有点长。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -25,4 +25,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     *returnSize = k;
     return res;
 }
-```
+// ```

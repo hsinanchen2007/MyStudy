@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def isMonotonic(A: Array[Int]): Boolean = {
     if (A.length == 2) return true
@@ -16,4 +16,4 @@ object Solution {
     return true
   }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+-- ```
 SELECT s.id, isnull(ss.student, s.student) AS student
 FROM seat s
 	LEFT JOIN seat ss
@@ -9,4 +9,4 @@ FROM seat s
 			OR (s.id % 2 = 1
 				AND s.id < ss.id))
 ORDER BY id
-```
+-- ```

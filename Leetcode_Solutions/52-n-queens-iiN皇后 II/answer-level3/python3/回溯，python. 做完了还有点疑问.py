@@ -1,13 +1,13 @@
-### 解题思路
-思路简单，有两个注意的地方：
-1. count本来写到totalNQueens函数里，用global count在backtrack里声明但是会报错，这里暂时还没找到原因。所以写到__init__里用self.count了
-2. isvalid函数里修改'.'为'Q'时尽量使用切片操作，代码更加简洁。也可以先转换成列表再join。
+# ### 解题思路
+# 思路简单，有两个注意的地方：
+# 1. count本来写到totalNQueens函数里，用global count在backtrack里声明但是会报错，这里暂时还没找到原因。所以写到__init__里用self.count了
+# 2. isvalid函数里修改'.'为'Q'时尽量使用切片操作，代码更加简洁。也可以先转换成列表再join。
 
-有知道第一点global报错原因的大佬请指教！
+# 有知道第一点global报错原因的大佬请指教！
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
 
     def __init__(self):
@@ -58,4 +58,4 @@ class Solution(object):
         return self.count
 
 
-```
+# ```

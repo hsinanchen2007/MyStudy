@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         '''
@@ -20,4 +20,4 @@ class Solution:
                 maxnum = max(arr[i+1:])
             arr[i] = maxnum
         return arr
-```
+# ```

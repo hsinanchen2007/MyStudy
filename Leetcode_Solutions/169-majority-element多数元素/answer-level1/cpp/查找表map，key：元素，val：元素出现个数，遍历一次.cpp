@@ -1,5 +1,5 @@
-这才是对于菜鸡来说的『简单』等级嘛/允悲/允悲
-```
+// 这才是对于菜鸡来说的『简单』等级嘛/允悲/允悲
+// ```
     int majorityElement(vector<int>& nums) {
         int times = floor(nums.size() / 2);
         unordered_map<int,int> record;
@@ -12,12 +12,12 @@
         }
         return NULL;
     }
-```
+// ```
 
-不加
-```
+// 不加
+// ```
 return NULL;
-```
-测试用例都过不了
+// ```
+// 测试用例都过不了
 
-如有问题请指点，大佬求轻喷。
+// 如有问题请指点，大佬求轻喷。

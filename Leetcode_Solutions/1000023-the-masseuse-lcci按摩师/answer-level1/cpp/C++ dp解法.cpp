@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6cf918eb15b0916eca73e9eabf0a290159e35637c98439f441b05237e139fbeb-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6cf918eb15b0916eca73e9eabf0a290159e35637c98439f441b05237e139fbeb-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return max(dp[0][nums.size()-1], dp[1][nums.size()-1]);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /*
  * @lc app=leetcode.cn id=9 lang=javascript
  *
@@ -14,4 +14,4 @@ var isPalindrome = function(x) {
     if (arr.reverse().join('') == x1) return true
     return false
 };
-```
+// ```

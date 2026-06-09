@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def insert(self, intervals, newInterval):
         """
@@ -48,6 +48,6 @@ class Solution(object):
         ans = leftlis + midlis + rightlis
 
         return ans
-```
-采用二分查找找到新插入取间[A,B]， A在所有左侧点中插入位置(或直接命中)，B在所有右侧点中插入位置（或直接命中）  
-根据左右侧插入点构建结果
+# ```
+# 采用二分查找找到新插入取间[A,B]， A在所有左侧点中插入位置(或直接命中)，B在所有右侧点中插入位置（或直接命中）  
+# 根据左右侧插入点构建结果

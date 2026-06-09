@@ -1,13 +1,13 @@
-### 解题思路
-1.将两个字符串拆成单词放入Map中
-2.分辨遍历两个Map，如果value值等于1，切在另一个map中不存在的满足条件加入结果list
-3.结果list转String数组。
+// ### 解题思路
+// 1.将两个字符串拆成单词放入Map中
+// 2.分辨遍历两个Map，如果value值等于1，切在另一个map中不存在的满足条件加入结果list
+// 3.结果list转String数组。
 
-**注意空字符串的情况，不要加入map。**
+// **注意空字符串的情况，不要加入map。**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] uncommonFromSentences(String A, String B) {
         Map<String, Integer> mapA = new HashMap<>();
@@ -46,4 +46,4 @@ class Solution {
         return realResults;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-变量r_target，l_target标记'R'和'L'的次数
-遍历一遍字符串，遇到'R',r_target++ 遇到'L'，l_target++
-判断只要r_target==l_target res++
-返回res即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 变量r_target，l_target标记'R'和'L'的次数
+// 遍历一遍字符串，遇到'R',r_target++ 遇到'L'，l_target++
+// 判断只要r_target==l_target res++
+// 返回res即可
+// ### 代码
 
-```golang
+// ```golang
 func balancedStringSplit(s string) int {
 	r_target := 0
 	l_target := 0
@@ -29,4 +29,4 @@ func balancedStringSplit(s string) int {
 	}
 	return res
 }
-```
+// ```

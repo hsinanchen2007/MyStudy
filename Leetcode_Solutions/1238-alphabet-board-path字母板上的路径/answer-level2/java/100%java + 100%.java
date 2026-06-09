@@ -1,5 +1,5 @@
-要先按左 上 下 右
-```
+// 要先按左 上 下 右
+// ```
 class Solution {
 
 	public String alphabetBoardPath(String target) {
@@ -38,4 +38,4 @@ class Solution {
 		return ans.toString();
 	}
 }
-```
+// ```

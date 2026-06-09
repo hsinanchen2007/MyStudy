@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/9ecb0f5330e37828c60ba8c52f83866433110f6ba36d34b135fe34aa0fbf2b04-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9ecb0f5330e37828c60ba8c52f83866433110f6ba36d34b135fe34aa0fbf2b04-image.png)
 
-递归思想
-- 对于递归的每一步
-- 如果节点都为空，返回true
-- 如果节点非空切值相等返回true
-- 其他情况均为false
+// 递归思想
+// - 对于递归的每一步
+// - 如果节点都为空，返回true
+// - 如果节点非空切值相等返回true
+// - 其他情况均为false
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -28,4 +28,4 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
         return false
     }
 }
-```
+// ```

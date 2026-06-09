@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isSymmetric(self, root):
         """
@@ -32,4 +32,4 @@ class Solution(object):
             elif l.val != r.val:
                 return False
         return True
-```
+# ```

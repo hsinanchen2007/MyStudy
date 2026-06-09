@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxSubArray(self, l):
         s=0 ;i=0 ;res=-float('inf') ;m=-float('inf')
@@ -17,4 +17,4 @@ class Solution(object):
                 s=0
         if res==-float('inf'):return m
         return res
-```
+# ```

@@ -1,17 +1,17 @@
-**最简单的方法 :**
-由于左手指必定取第一个,遍历右手指所有情况,计算总路径,由此可直接写出暴力DFS.  
-每个字母不是左手指就是右手指,所以复杂度为O(2^n),显然超出时间限制
+// **最简单的方法 :**
+// 由于左手指必定取第一个,遍历右手指所有情况,计算总路径,由此可直接写出暴力DFS.  
+// 每个字母不是左手指就是右手指,所以复杂度为O(2^n),显然超出时间限制
 
-**动态规划 :**
-左手指从left移动到curCharInd花费的路径
-`DP[cur][curCharInd][right] = min(DP[cur - 1][left][right] +getDis(left, curCharInd),DP[cur][curCharInd][right]);`
-右手指从right移动到curCharInd花费的路径
-`DP[cur][left][curCharInd] = min(DP[cur - 1][left][right] +getDis(right, curCharInd),DP[cur][left][curCharInd]);`
-左右手指分别移动的最小情况
-`res = min(  min(DP[cur][curCharInd][right], DP[cur][left][curCharInd])  ,res);`
+// **动态规划 :**
+// 左手指从left移动到curCharInd花费的路径
+// `DP[cur][curCharInd][right] = min(DP[cur - 1][left][right] +getDis(left, curCharInd),DP[cur][curCharInd][right]);`
+// 右手指从right移动到curCharInd花费的路径
+// `DP[cur][left][curCharInd] = min(DP[cur - 1][left][right] +getDis(right, curCharInd),DP[cur][left][curCharInd]);`
+// 左右手指分别移动的最小情况
+// `res = min(  min(DP[cur][curCharInd][right], DP[cur][left][curCharInd])  ,res);`
 
-代码:
-```
+// 代码:
+// ```
 class Solution {
 public:
     int minimumDistance(string word) {
@@ -66,4 +66,4 @@ public:
         return abs(xa - xb) + abs(ya - yb);
     }
 };
-```
+// ```

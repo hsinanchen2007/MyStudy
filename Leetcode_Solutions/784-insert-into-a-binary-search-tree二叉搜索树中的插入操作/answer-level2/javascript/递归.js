@@ -1,7 +1,7 @@
-终止条件
-+ 根节点为叶子节点，val小于叶子节点值则置于左孩子，val大于叶子节点值置于右孩子
-+ 根节点不为叶子节点，左孩子为空并val小于叶子节点值则置于左孩子，右孩子为空并val大于叶子节点值置于右孩子
-```js
+// 终止条件
+// + 根节点为叶子节点，val小于叶子节点值则置于左孩子，val大于叶子节点值置于右孩子
+// + 根节点不为叶子节点，左孩子为空并val小于叶子节点值则置于左孩子，右孩子为空并val大于叶子节点值置于右孩子
+// ```js
 var insertIntoBST = function(root, val) {
     var node = new TreeNode(val);
     dfs(root);
@@ -31,4 +31,4 @@ var insertIntoBST = function(root, val) {
         }
     }
 };
-```
+// ```

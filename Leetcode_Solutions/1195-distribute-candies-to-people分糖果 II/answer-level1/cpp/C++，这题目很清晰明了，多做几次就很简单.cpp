@@ -1,5 +1,5 @@
-对比官方答案，有两处可以改进，发放多少轮，可以直接解方程求出，最后发到多少个人可以先求出来，避免rest和tmp的比较判断，减少时间。
-```
+// 对比官方答案，有两处可以改进，发放多少轮，可以直接解方程求出，最后发到多少个人可以先求出来，避免rest和tmp的比较判断，减少时间。
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -27,4 +27,4 @@ public:
     }
 };
 
-```
+// ```

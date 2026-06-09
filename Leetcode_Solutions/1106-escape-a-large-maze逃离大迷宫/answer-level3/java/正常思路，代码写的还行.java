@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     
     private static final int len = 1000000;
@@ -61,4 +61,4 @@ class Solution {
         return checkPath(blocked, source, target) && checkPath(blocked, target, source);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-还是之前的思路，选取左侧跟上侧的最小值，加上当前值。
+// ### 解题思路
+// 还是之前的思路，选取左侧跟上侧的最小值，加上当前值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minPathSum(int[][] grid) {
         int m=grid.length;
@@ -26,4 +26,4 @@ class Solution {
     }
 }
 
-```
+// ```

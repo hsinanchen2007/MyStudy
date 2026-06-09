@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a Node.
 class Node:
     def __init__(self, val, left=None, right=None):
@@ -28,4 +28,4 @@ class Solution:
         cur.right = head
         head.left = cur
         return head
-```
+# ```

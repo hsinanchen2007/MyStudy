@@ -1,10 +1,10 @@
-### 解题思路
-else if(word[1]>='a'){
-                   if(i<word.size()-1&&word[i+1]<='Z') return false;
-                    注意加个i的限制条件，这个时候i必须从1开始遍历
-### 代码
+// ### 解题思路
+// else if(word[1]>='a'){
+//                    if(i<word.size()-1&&word[i+1]<='Z') return false;
+//                     注意加个i的限制条件，这个时候i必须从1开始遍历
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -25,4 +25,4 @@ public:
         return true;
     }
 };
-```
+// ```

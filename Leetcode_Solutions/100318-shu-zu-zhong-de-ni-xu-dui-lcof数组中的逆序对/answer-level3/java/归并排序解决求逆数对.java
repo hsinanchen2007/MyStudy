@@ -1,6 +1,6 @@
-当j 比i 小的时候，j 就应该比i 剩下的元素都要小 也就是 mid+1-i 个```
-代码块
-            //当j 比i 小的时候，j 就应该比i 剩下的元素都要小 也就是 mid+1-i 个
+// 当j 比i 小的时候，j 就应该比i 剩下的元素都要小 也就是 mid+1-i 个```
+// 代码块
+//             //当j 比i 小的时候，j 就应该比i 剩下的元素都要小 也就是 mid+1-i 个
             if (tempArr[i - left] > tempArr[j - left]) {
                 nums[k] = tempArr[j - left];
                 j++;

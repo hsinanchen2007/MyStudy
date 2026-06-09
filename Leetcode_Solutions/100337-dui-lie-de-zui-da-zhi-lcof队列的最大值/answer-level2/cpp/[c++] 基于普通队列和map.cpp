@@ -1,5 +1,5 @@
-利用map的有序性。其最末尾值为其键最大值。
-```
+// 利用map的有序性。其最末尾值为其键最大值。
+// ```
 class MaxQueue {
 public:
     queue<int> q;
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

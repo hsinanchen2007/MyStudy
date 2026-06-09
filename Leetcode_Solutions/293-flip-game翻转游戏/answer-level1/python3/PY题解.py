@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generatePossibleNextMoves(self, s: str) -> List[str]:
         ans=[]
@@ -7,4 +7,4 @@ class Solution:
                 ans.append(s[:i]+'--'+s[i+2:])
         return ans
         
-```
+# ```

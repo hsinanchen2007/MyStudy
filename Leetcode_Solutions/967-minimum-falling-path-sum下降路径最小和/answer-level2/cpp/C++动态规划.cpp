@@ -1,8 +1,8 @@
-- 借助一维数组，记录到达当前位置路径的最小和
-- 当前位置的路径最小和为当前值加上minOfThree(up,leftUp,rightUp);
-- 状态方程为：**temp[j]=temp[j]+minOfThree(up,leftUp,rightUp)**
+// - 借助一维数组，记录到达当前位置路径的最小和
+// - 当前位置的路径最小和为当前值加上minOfThree(up,leftUp,rightUp);
+// - 状态方程为：**temp[j]=temp[j]+minOfThree(up,leftUp,rightUp)**
 
-``` C++
+// ``` C++
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& A) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

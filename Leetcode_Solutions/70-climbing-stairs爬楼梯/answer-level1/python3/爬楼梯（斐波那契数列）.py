@@ -1,11 +1,11 @@
-### 解题思路
-斐波那契数列
-通过找规律来得到一个递推公式：f(i)=f(i-1)+f(i-2) 此处i>=3
-当n<=2时，f(i)=i  据此得到下面代码
+# ### 解题思路
+# 斐波那契数列
+# 通过找规律来得到一个递推公式：f(i)=f(i-1)+f(i-2) 此处i>=3
+# 当n<=2时，f(i)=i  据此得到下面代码
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -23,4 +23,4 @@ class Solution(object):
        
         
 
-```
+# ```

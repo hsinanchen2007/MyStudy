@@ -1,9 +1,9 @@
-### 解题思路
-感觉属于纯工程性的题目
+# ### 解题思路
+# 感觉属于纯工程性的题目
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class StackOfPlates(object):
 
     def __init__(self, cap):
@@ -65,4 +65,4 @@ class StackOfPlates(object):
 # obj.push(val)
 # param_2 = obj.pop()
 # param_3 = obj.popAt(index)
-```
+# ```

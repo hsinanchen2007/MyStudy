@@ -1,11 +1,11 @@
-### 解题思路
-1. 如果当前节点值在[L,R]之间，将数值加到结果中去。
-2. L如果小于当前节点值，搜索左子树符合条件的值。
-3. R如果大于当前节点值，搜索右子树符合条件的值。
+# ### 解题思路
+# 1. 如果当前节点值在[L,R]之间，将数值加到结果中去。
+# 2. L如果小于当前节点值，搜索左子树符合条件的值。
+# 3. R如果大于当前节点值，搜索右子树符合条件的值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             res += self.rangeSumBST(root.right, L, R)
         
         return res
-```
+# ```

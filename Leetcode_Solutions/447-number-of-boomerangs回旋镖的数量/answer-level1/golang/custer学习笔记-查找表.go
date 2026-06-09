@@ -1,12 +1,12 @@
-暴力解法：O(n^3) ，因为n最大为500，所以会超时。
-观察到i是一个“枢纽”，对于每个点i，遍历其余点到i的距离O(n^2)。
+// 暴力解法：O(n^3) ，因为n最大为500，所以会超时。
+// 观察到i是一个“枢纽”，对于每个点i，遍历其余点到i的距离O(n^2)。
 
-![1.png](https://pic.leetcode-cn.com/0bada2d7484888ccdd1375e7c6a11ef8b3d502783b8dc3fb1c648560d586a692-1.png)
+// ![1.png](https://pic.leetcode-cn.com/0bada2d7484888ccdd1375e7c6a11ef8b3d502783b8dc3fb1c648560d586a692-1.png)
 
 
-对应的键就是距离值，对应的值就是有多少这样的点
+// 对应的键就是距离值，对应的值就是有多少这样的点
 
-```go
+// ```go
 // 查找表 Time: O(n^2), Space: O(n)
 func numberOfBoomerangs(points [][]int) int {
    res := 0                           // 记录一共有多少题目所描述的三元组
@@ -31,4 +31,4 @@ func numberOfBoomerangs(points [][]int) int {
 func dis(pa, pb []int) int {
    return (pa[0]-pb[0])*(pa[0]-pb[0]) + (pa[1]-pb[1])*(pa[1]-pb[1])
 }
-```
+// ```

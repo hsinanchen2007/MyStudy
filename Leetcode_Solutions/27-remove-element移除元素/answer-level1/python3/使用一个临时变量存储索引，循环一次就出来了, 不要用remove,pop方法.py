@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     ''' def removeElement(self, nums: List[int], val: int) -> int: '''
     def removeElement(self, nums, val):
@@ -15,4 +15,4 @@ if __name__ == '__main__':
     s = Solution()
     print(s.removeElement([0,1,2,2,3,0,4,2], 2))
                         # [3,2,2,3]
-```
+# ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def findNthDigit(self, n: int) -> int:
         #慢慢来，一个一个来
@@ -24,7 +24,7 @@ class Solution:
             res = str_[rest - 1]
             res = int(res)
         return res
-```
+# ```
 
         
 

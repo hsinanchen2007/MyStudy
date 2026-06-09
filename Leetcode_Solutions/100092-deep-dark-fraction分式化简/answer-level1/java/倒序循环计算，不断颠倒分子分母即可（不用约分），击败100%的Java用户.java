@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] fraction(int[] cont) {
         int[] ans = {1,1};
@@ -16,4 +16,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

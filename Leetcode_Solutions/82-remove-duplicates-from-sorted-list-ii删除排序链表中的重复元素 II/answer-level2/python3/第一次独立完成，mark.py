@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         pre=None
@@ -22,4 +22,4 @@ class Solution:
                 else:
                     pre.next=current
         return head
-```
+# ```

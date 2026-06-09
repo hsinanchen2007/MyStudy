@@ -1,9 +1,9 @@
-### 解题思路
-简洁明了
+// ### 解题思路
+// 简洁明了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int isSubsequence(char * s, char * t){
     while(true){
         if(!*s) return true;
@@ -11,4 +11,4 @@ int isSubsequence(char * s, char * t){
         if(*t++ == *s) s++;
     }
 }
-```
+// ```

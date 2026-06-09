@@ -1,5 +1,5 @@
-### i
-```cpp
+// ### i
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -11,9 +11,9 @@ public:
         return 0;
     }
 };
-```
-### ii
-```cpp
+// ```
+// ### ii
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return 0;
     }
 };
-```
+// ```

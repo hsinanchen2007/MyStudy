@@ -1,9 +1,9 @@
-# Java实现回文数
-**思路逻辑：**
-![image.png](https://pic.leetcode-cn.com/c4c467aec502188c8e4b25e4b84940a6700f7d18301bf26d31041f23c2ed82ae-image.png)
-**代码实现：**
-`Java`
-```
+// # Java实现回文数
+// **思路逻辑：**
+// ![image.png](https://pic.leetcode-cn.com/c4c467aec502188c8e4b25e4b84940a6700f7d18301bf26d31041f23c2ed82ae-image.png)
+// **代码实现：**
+// `Java`
+// ```
 public class HuiWenJudge {
 	/*1.判断是否是回文*/
 	public boolean isPalindrome(int x) {
@@ -45,5 +45,5 @@ public class HuiWenJudge {
 	}
 }
 
-```
+// ```
 

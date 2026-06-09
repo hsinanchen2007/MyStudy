@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String alienOrder(String[] words) {
         Map<Character, Set<Character>> graph = new HashMap<>();
@@ -49,4 +49,4 @@ class Solution {
         return count == sb.length() ? sb.toString() : "";
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int FindRoot(const int *uf, int index) 
 {
     while (uf[index] != index) {
@@ -37,4 +37,4 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
     }
     return NULL;
 }
-```
+// ```

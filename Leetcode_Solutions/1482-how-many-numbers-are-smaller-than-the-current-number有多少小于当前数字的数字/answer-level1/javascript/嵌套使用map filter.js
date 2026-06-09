@@ -1,5 +1,5 @@
 
-```
+// ```
 var smallerNumbersThanCurrent = function(nums) {
    var data= nums.map(function(item,index){
         return nums.filter(function(subItem,subIndex){
@@ -8,4 +8,4 @@ var smallerNumbersThanCurrent = function(nums) {
     })
     return data
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，递归之后，记录之前计算的结果。
+// ### 解题思路
+// 动态规划，递归之后，记录之前计算的结果。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int maxNum(int num1,int num2)
 {
@@ -39,4 +39,4 @@ int rob(int* nums, int numsSize) {
    free(resultArray);
    return result;
 }
-```
+// ```

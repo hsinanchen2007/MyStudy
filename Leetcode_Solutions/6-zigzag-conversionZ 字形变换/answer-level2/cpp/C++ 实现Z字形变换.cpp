@@ -1,10 +1,10 @@
-### 解题思路
-参考一个大佬的思路，实现的C++版本。
-定义一个numRows行的vector，将string中的字符按行写到vector。设置一个flag，到第一行或者最后一行时，改变flag，从而改变写入vector的顺序。
+// ### 解题思路
+// 参考一个大佬的思路，实现的C++版本。
+// 定义一个numRows行的vector，将string中的字符按行写到vector。设置一个flag，到第一行或者最后一行时，改变flag，从而改变写入vector的顺序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -28,4 +28,4 @@ public:
         return ret_res;
     }
 };
-```
+// ```

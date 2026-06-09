@@ -1,9 +1,9 @@
-### 解题思路
-模板BFS，与[117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/submissions/) 相同
+# ### 解题思路
+# 模板BFS，与[117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/submissions/) 相同
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         if not root: return root
@@ -19,4 +19,4 @@ class Solution:
             q, s = s, q
         
         return root 
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-加个cache，避免重复运算
-![20200401-205858(WeLinkPC).png](https://pic.leetcode-cn.com/80532bf0f3e395ac9bdce5cb61484c101cab1181b1e2601c9a990d89efc3a905-20200401-205858\(WeLinkPC\).png)
+// ### 解题思路
+// 加个cache，避免重复运算
+// ![20200401-205858(WeLinkPC).png](https://pic.leetcode-cn.com/80532bf0f3e395ac9bdce5cb61484c101cab1181b1e2601c9a990d89efc3a905-20200401-205858\(WeLinkPC\).png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private long cache[];
     public int numWays(int n) {
@@ -36,4 +36,4 @@ class Solution {
         return (int)cache[n];
     }
 }
-```
+// ```

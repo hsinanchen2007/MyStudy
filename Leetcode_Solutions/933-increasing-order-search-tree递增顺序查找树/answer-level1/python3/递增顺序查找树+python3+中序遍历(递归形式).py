@@ -1,8 +1,8 @@
-### 中序遍历（递归形式）
-**(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
+# ### 中序遍历（递归形式）
+# **(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
 
-先中序遍历得到一个目标数组，再构建新树：
-```
+# 先中序遍历得到一个目标数组，再构建新树：
+# ```
 class Solution:
     def increasingBST(self, root):
         def inorder(root):
@@ -18,8 +18,8 @@ class Solution:
             root.right = TreeNode(target[i])
             root = root.right
         return head
-```
-#### 复杂度分析
-__时间复杂度：__ O(n)
+# ```
+# #### 复杂度分析
+# __时间复杂度：__ O(n)
 
-__空间复杂度：__ O(n)
+# __空间复杂度：__ O(n)

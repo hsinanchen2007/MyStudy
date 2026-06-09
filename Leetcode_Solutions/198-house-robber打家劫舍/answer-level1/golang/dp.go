@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func rob(nums []int) int {
     if len(nums) == 0  {
         return 0
@@ -28,4 +28,4 @@ func max(i, j int) int {
 }
 
 // dp[i] = max(dp[j]+nums[i], dp[i]), j:0~i-2
-```
+// ```

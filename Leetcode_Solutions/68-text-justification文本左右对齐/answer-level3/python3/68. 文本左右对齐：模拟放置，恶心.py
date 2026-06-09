@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/5d54210b7208481e71152aa39018b8133026edbd4199c7b79558e56aec249392-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5d54210b7208481e71152aa39018b8133026edbd4199c7b79558e56aec249392-image.png)
 
-没什么算法，就是模拟放置，空格计算涉及到取商和取余。
+# 没什么算法，就是模拟放置，空格计算涉及到取商和取余。
 
-```python []
+# ```python []
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         l = {c: len(c) for c in words}   #单词长度用的多，最好提前先算好哈希化
@@ -39,4 +39,4 @@ class Solution:
         if tn > 0:          #如果临时放置列表里还有单词就按规则再输出最后一行
             ans += [' '.join(tc) + ' ' * (maxWidth - tl - tn + 1)]
         return ans
-```
+# ```

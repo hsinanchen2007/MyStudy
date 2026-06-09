@@ -1,8 +1,8 @@
-- 开头出现`nums[0]>nums[1]`
-- 中间比两边大
-- 中间比两边小
-- 结尾出现`nums[-2]>nums[-1]`
-```
+# - 开头出现`nums[0]>nums[1]`
+# - 中间比两边大
+# - 中间比两边小
+# - 结尾出现`nums[-2]>nums[-1]`
+# ```
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
         pre=0
@@ -20,4 +20,4 @@ class Solution:
             else:
                 pre=p
         return True if count<=1 else False
-```
+# ```

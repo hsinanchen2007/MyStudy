@@ -1,6 +1,6 @@
-- 比较两个数字字符串 可以直接比较str(a)+str(b) <= str(b)+str(a)
-- 快速排序左右节点的选择和 先遍历的顺序 很关键 选左节点做base，right指针先动；选右边节点为base，左边指针先动。
-```
+# - 比较两个数字字符串 可以直接比较str(a)+str(b) <= str(b)+str(a)
+# - 快速排序左右节点的选择和 先遍历的顺序 很关键 选左节点做base，right指针先动；选右边节点为base，左边指针先动。
+# ```
 class Solution:
     def minNumber(self, nums: List[int]) -> str:
         def quick(arr,low,high):
@@ -30,4 +30,4 @@ class Solution:
         for num in nums:
             res += str(num)
         return res
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用priority_queue 
+// 使用priority_queue 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallestK(vector<int>& arr, int k) {
@@ -23,4 +23,4 @@ public:
         return v;
     }
 };
-```
+// ```

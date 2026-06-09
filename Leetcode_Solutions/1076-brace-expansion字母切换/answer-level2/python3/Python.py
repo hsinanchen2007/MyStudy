@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def expand(self, S: str) -> List[str]:
         def generate(s, tmp):
@@ -24,4 +24,4 @@ class Solution:
         res = []
         generate(S, "")
         return res
-```
+# ```

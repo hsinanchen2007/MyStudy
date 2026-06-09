@@ -1,5 +1,5 @@
-方法一：基本思想：一次遍历，判断是否和后续元素发生逆序。只不过需要注意一下是顺序的特殊情况以及长度为0和1的时候的情况即可。
-```
+// 方法一：基本思想：一次遍历，判断是否和后续元素发生逆序。只不过需要注意一下是顺序的特殊情况以及长度为0和1的时候的情况即可。
+// ```
 int findLengthOfLCIS(int* nums, int numsSize){
     int max=0,count=1,i;//对于序列的长度，至少会达到1
     if(numsSize==0)//考虑到极端情况
@@ -21,11 +21,11 @@ int findLengthOfLCIS(int* nums, int numsSize){
         max=count;
     return max;
 }
-```
-方法二：动态规划
+// ```
+// 方法二：动态规划
 
-没有啥难度，不懂的欢迎留言
-```
+// 没有啥难度，不懂的欢迎留言
+// ```
 int findLengthOfLCIS(int* nums, int numsSize){  
     if(numsSize==0)
     return 0;
@@ -42,5 +42,5 @@ int findLengthOfLCIS(int* nums, int numsSize){
         }
     return max;
 }
-```
+// ```
 

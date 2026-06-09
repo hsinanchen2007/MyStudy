@@ -1,11 +1,11 @@
-### 解题思路
-学到了如何用上一个状态和当前字符的表格来更新当前状态的方法
-为了便于操作可以建一个新的类做这些变量的更新操作
-确实思路会清晰很多，也不容易漏掉情况，代码可读性也很强
+# ### 解题思路
+# 学到了如何用上一个状态和当前字符的表格来更新当前状态的方法
+# 为了便于操作可以建一个新的类做这些变量的更新操作
+# 确实思路会清晰很多，也不容易漏掉情况，代码可读性也很强
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 INT_MAX = 2**31 - 1
 INT_MIN = -2**31
 
@@ -47,4 +47,4 @@ class Solution:
             return min(INT_MAX,automaton.ans*automaton.sign)
         else:
             return max(INT_MIN,automaton.ans*automaton.sign)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-topK问题一般是维护一个含有k个元素的小顶堆，堆顶元素就是要求的解
+// ### 解题思路
+// topK问题一般是维护一个含有k个元素的小顶堆，堆顶元素就是要求的解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
 
     int k = 0;
@@ -138,4 +138,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

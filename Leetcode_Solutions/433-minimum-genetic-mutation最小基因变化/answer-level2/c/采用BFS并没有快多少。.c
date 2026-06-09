@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_NUMS 100001
 typedef struct NODE_
@@ -130,4 +130,4 @@ int minMutation(char * start, char * end, char ** bank, int bankSize){
 }
 
 
-```
+// ```

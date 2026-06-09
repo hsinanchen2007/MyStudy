@@ -1,23 +1,23 @@
-### 解题思路
-nums[i]作为最小值，start, end = i+1, n-1开始双指针寻解
-剪枝1
-if i>0 and nums[i]==nums[i-1]: # 最小值只使用一次
-continue
-剪枝2
-if nums[i]>0: # 最小值大于0，直接跳出
-break
-剪枝3：
-if head>i+1 and nums[head]==nums[head-1]:
-    head+=1
-    continue
-if tail < len(nums)-1 and nums[tail]== nums[tail+1]:
-    tail -= 1
-    continue
+# ### 解题思路
+# nums[i]作为最小值，start, end = i+1, n-1开始双指针寻解
+# 剪枝1
+# if i>0 and nums[i]==nums[i-1]: # 最小值只使用一次
+# continue
+# 剪枝2
+# if nums[i]>0: # 最小值大于0，直接跳出
+# break
+# 剪枝3：
+# if head>i+1 and nums[head]==nums[head-1]:
+#     head+=1
+#     continue
+# if tail < len(nums)-1 and nums[tail]== nums[tail+1]:
+#     tail -= 1
+#     continue
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -49,5 +49,5 @@ class Solution:
                 elif tmp<deta:
                         head += 1
         return res
-```
+# ```
 

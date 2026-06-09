@@ -1,4 +1,4 @@
-```python
+# ```python
     def restoreIpAddresses(self, s: str) -> List[str]:
         if not s:
             return []
@@ -22,4 +22,4 @@
                     res.append(s[:3]+'.'+i)
             return res
         return restore(s, 4)
-```
+# ```

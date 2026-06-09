@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     double myPow(double x, int n) { 
@@ -18,4 +18,4 @@ public:
         return (n & 1) == 0 ? myPow(x * x, n >> 1) : x * myPow(x * x, n >> 1);
     }
 };
-```
+// ```

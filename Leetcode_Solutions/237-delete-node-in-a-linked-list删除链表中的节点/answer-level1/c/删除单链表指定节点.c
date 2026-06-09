@@ -1,10 +1,10 @@
-### 解题思路
-没有head指针，传入参数仅仅是要删除的节点的地址。
-用下一个节点的值替换形参节点，删除形参节点的下一个节点。
+// ### 解题思路
+// 没有head指针，传入参数仅仅是要删除的节点的地址。
+// 用下一个节点的值替换形参节点，删除形参节点的下一个节点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -18,4 +18,4 @@ void deleteNode(struct ListNode* node) {
     node->next=iter->next;
     free(iter);
 }
-```
+// ```

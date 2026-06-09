@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a, int b) {
     int rem = 0;
     
@@ -34,4 +34,4 @@ char * gcdOfStrings(char * str1, char * str2){
     str1[p] = '\0';
     return str1;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-深度优先遍历（递归）
-ps: 也可以用广度优先遍历（队列）
+# ### 解题思路
+# 深度优先遍历（递归）
+# ps: 也可以用广度优先遍历（队列）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def calNums(x, y):
@@ -38,4 +38,4 @@ class Solution:
 
 
 
-```
+# ```

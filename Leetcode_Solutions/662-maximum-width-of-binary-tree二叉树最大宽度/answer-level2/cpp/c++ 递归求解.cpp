@@ -1,9 +1,9 @@
-### 解题思路
-res中每个深度第一个push_back的结点一定是树在某一深度的最左的结点，最后push的是该深度最右的节点，只要遍历0-n-1深度 找到最大即可
+// ### 解题思路
+// res中每个深度第一个push_back的结点一定是树在某一深度的最左的结点，最后push的是该深度最右的节点，只要遍历0-n-1深度 找到最大即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         help(root->right,depth+1,idx*2+1,res);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-一般这种容易想到堆，求k大用小顶堆，求k小用大顶堆。
-这个题比较特殊，范围有限，可以使用统计排序O(N+K)
-```
+// 一般这种容易想到堆，求k大用小顶堆，求k小用大顶堆。
+// 这个题比较特殊，范围有限，可以使用统计排序O(N+K)
+// ```
 func getLeastNumbers(arr []int, k int) []int { 
     cnts := make([]int, 10001)
     for i := range(arr) {
@@ -21,4 +21,4 @@ func getLeastNumbers(arr []int, k int) []int {
     }
     return res
 }
-```
+// ```

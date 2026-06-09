@@ -1,7 +1,7 @@
-### 解题思路
-此处撰写解题思路
-### 代码
-```python3
+# ### 解题思路
+# 此处撰写解题思路
+# ### 代码
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         if not A:return 0
@@ -13,4 +13,4 @@ class Solution:
                 A[i] = A[i - 1]+1
         return count
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def trimBST(self, root: TreeNode, L: int, R: int) -> TreeNode:
         def cut(node):
@@ -14,4 +14,4 @@ class Solution:
                     
                     return left or right
         return cut(root)
-```
+# ```

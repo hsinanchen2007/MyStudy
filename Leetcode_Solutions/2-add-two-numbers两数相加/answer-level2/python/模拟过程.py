@@ -1,19 +1,19 @@
-## 思路：
+# ## 思路：
 
-模拟过程
+# 模拟过程
 
-关键要处理 **进位的问题**
+# 关键要处理 **进位的问题**
 
-一位数和一位数相加，大于 10 时候，除以 10，商为进位数，余数为该位的数。
+# 一位数和一位数相加，大于 10 时候，除以 10，商为进位数，余数为该位的数。
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-`python` 写的冗长,但是特别容易理解，`java` 和 `c++` 做了简化 。
+# `python` 写的冗长,但是特别容易理解，`java` 和 `c++` 做了简化 。
 
-## 代码：
+# ## 代码：
 
 
-```Python []
+# ```Python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -56,9 +56,9 @@ class Solution:
             p.next = ListNode(carry_digit)
         
         return dummy.next
-```
+# ```
 
-```C++ []
+# ```C++ []
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -85,8 +85,8 @@ public:
         return dummy.next;  
     }
 };
-```
-```Java []
+# ```
+# ```Java []
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -111,5 +111,5 @@ class Solution {
         return dummy.next;   
     }
 }
-```
+# ```
 

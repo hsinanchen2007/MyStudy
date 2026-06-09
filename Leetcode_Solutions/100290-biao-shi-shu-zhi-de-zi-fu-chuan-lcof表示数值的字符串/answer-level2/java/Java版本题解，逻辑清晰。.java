@@ -1,9 +1,9 @@
-### 解题思路
-逻辑清晰，看懂了一遍就能记下来。
+// ### 解题思路
+// 逻辑清晰，看懂了一遍就能记下来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isNumber(String s) {
         if(s == null || s.length() == 0){
@@ -42,4 +42,4 @@ class Solution {
         return numSeen;
     }
 }
-```
+// ```

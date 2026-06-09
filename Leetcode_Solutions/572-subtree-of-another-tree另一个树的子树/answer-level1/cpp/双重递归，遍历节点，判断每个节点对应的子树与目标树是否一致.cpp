@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution
 {
 public:
@@ -30,4 +30,4 @@ public:
         return isSameTree(s, t) || isSubtree(s->left, t) || isSubtree(s->right, t);
     }
 };
-```
+// ```

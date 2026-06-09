@@ -1,9 +1,9 @@
-### 解题思路
-见剑指offer思路
+// ### 解题思路
+// 见剑指offer思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    
 
@@ -29,4 +29,4 @@ class Solution {
     }
 
 }
-```
+// ```

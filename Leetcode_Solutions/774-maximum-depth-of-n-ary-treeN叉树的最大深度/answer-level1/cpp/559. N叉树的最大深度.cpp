@@ -1,8 +1,8 @@
 
-BFS，同时存储深度和当前节点，类似于[429. N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)。
+// BFS，同时存储深度和当前节点，类似于[429. N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)。
 
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int maxDepth(Node* root) {
@@ -23,4 +23,4 @@ public:
 private:
     using Pair = pair<int, Node*>;
 };
-```
+// ```

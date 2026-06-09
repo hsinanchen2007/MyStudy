@@ -1,14 +1,14 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/31301ca0d6b35aecf313df799f0da0409c20c99f27ef0b1bf164e5073941033c-image.png)
-1、num：有多少个相同的数，初始值为1，默认该数有一个。对比后一个是否与前一个元素相同
-2、splice(index,howmany,item1,.....,itemX)：此处易踩index的坑……因为删除重复的并且替换了元素，需要更新i的值。
-3、若是相同的数大于9，那么还需要把数字拆分开
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/31301ca0d6b35aecf313df799f0da0409c20c99f27ef0b1bf164e5073941033c-image.png)
+// 1、num：有多少个相同的数，初始值为1，默认该数有一个。对比后一个是否与前一个元素相同
+// 2、splice(index,howmany,item1,.....,itemX)：此处易踩index的坑……因为删除重复的并且替换了元素，需要更新i的值。
+// 3、若是相同的数大于9，那么还需要把数字拆分开
 
-然而这一切是基于元素是按顺序排列的，若相同元素不靠在一起，那可就不得行了
+// 然而这一切是基于元素是按顺序排列的，若相同元素不靠在一起，那可就不得行了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[]} chars
  * @return {number}
@@ -33,4 +33,4 @@ var compress = function(chars) {
     }
     return chars.length;
 };
-```
+// ```

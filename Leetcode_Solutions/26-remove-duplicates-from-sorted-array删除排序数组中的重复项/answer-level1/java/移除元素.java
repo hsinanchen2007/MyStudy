@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-双指针
+// ### 解题思路
+// 此处撰写解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums == null || nums.length == 0){
@@ -20,4 +20,4 @@ class Solution {
         return j+1;
     }
 }
-```
+// ```

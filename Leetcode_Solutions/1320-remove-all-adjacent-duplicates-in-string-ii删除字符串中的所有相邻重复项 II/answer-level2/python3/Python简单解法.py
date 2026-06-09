@@ -1,9 +1,9 @@
-### 解题思路
-用类似递归的思想，不断取循环，改变s中的值。
+# ### 解题思路
+# 用类似递归的思想，不断取循环，改变s中的值。
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
@@ -18,4 +18,4 @@ class Solution:
                 i+=1
         return s
 
-```
+# ```

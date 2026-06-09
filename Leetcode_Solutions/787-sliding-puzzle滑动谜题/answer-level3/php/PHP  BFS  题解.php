@@ -1,4 +1,4 @@
-```
+// ```
 
 function slidingPuzzle($board)
     {
@@ -35,4 +35,4 @@ function slidingPuzzle($board)
         }
         return -1;
     }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-每位都在(2, 5, 6, 9, 0, 1, 8)内，至少一位在(2, 5, 6, 9)内。
+// ### 解题思路
+// 每位都在(2, 5, 6, 9, 0, 1, 8)内，至少一位在(2, 5, 6, 9)内。
 
-检查是否是好数，用递归也蛮有意义。
+// 检查是否是好数，用递归也蛮有意义。
 
-### 性能
-执行用时 :80 ms, 在所有 PHP 提交中击败了81.25%的用户
-内存消耗 :14.8 MB, 在所有 PHP 提交中击败了80.00%的用户
+// ### 性能
+// 执行用时 :80 ms, 在所有 PHP 提交中击败了81.25%的用户
+// 内存消耗 :14.8 MB, 在所有 PHP 提交中击败了80.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -42,12 +42,12 @@ class Solution {
         return $flag;
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度：O(N)
-- 空间复杂度: O(N)
+// ### 算法复杂度
+// - 时间复杂度：O(N)
+// - 空间复杂度: O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/rotated-digits/comments/7432](https://leetcode-cn.com/problems/rotated-digits/comments/7432)
-[https://leetcode-cn.com/problems/rotated-digits/solution/xuan-zhuan-shu-zi-by-leetcode/](https://leetcode-cn.com/problems/rotated-digits/solution/xuan-zhuan-shu-zi-by-leetcode/)
+// ### 参考
+// [https://leetcode-cn.com/problems/rotated-digits/comments/7432](https://leetcode-cn.com/problems/rotated-digits/comments/7432)
+// [https://leetcode-cn.com/problems/rotated-digits/solution/xuan-zhuan-shu-zi-by-leetcode/](https://leetcode-cn.com/problems/rotated-digits/solution/xuan-zhuan-shu-zi-by-leetcode/)
